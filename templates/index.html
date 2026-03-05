@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" x-data="bobbybookmarks()" x-init="init()" x-cloak>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BobbyBookmarks</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <link rel="stylesheet" href="/static/css/style.css" />
+  <script src="/static/js/app.js"></script>
+  <style>
+    [x-cloak] { display: none !important; }
+    .tab-active { border-bottom: 2px solid #2563eb; color: #2563eb; font-weight: 600; }
+    .tab-inactive { border-bottom: 2px solid transparent; color: #6b7280; }
+    .tab-inactive:hover { color: #374151; border-color: #d1d5db; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="text-2xl">🔖</span>
+        <h1 class="text-xl font-bold text-gray-800">BobbyBookmarks</h1>
+      </div>
+      <div class="flex items-center gap-4 text-sm text-gray-500">
+        <span x-text="'📚 ' + (stats.total || 0) + ' total'"></span>
+        <span x-text="'✅ ' + (stats.unique || 0) + ' unique'"></span>
+        <span x-text="'🏷️ ' + (stats.clusters || 0) + ' clusters'"></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tabs -->
+  <div class="bg-white border-b sticky top-14 z-40">
+    <div class="max-w-7xl mx-auto px-4">
+      <nav class="flex gap-1">
+        <template x-for="tab in tabs" :key="tab.id">
+          <button
+            @click="activeTab = tab.id"
+            :class="activeTab === tab.id ? 'tab-active' : 'tab-inactive'"
+            class="px-5 py-3 text-sm transition-all duration-150"
+            x-text="tab.label">
+          </button>
+        </template>
+      </nav>
+    </div>
+  </div>
+
+  <main class="max-w-7xl mx-auto px-4 py-6">
+
+    <!-- ============================================================
+         TAB: Import
+         ============================================================ -->
+    <div x-show="activeTab === 'import'" x-transition>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+
+        <!-- Paste / text import -->
+        <div class="bg-white rounded-xl shadow-sm p-6">
+          <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+            <span>📋</span> Paste Bookmarks
+          </h2>
+          <textarea
+            x-model="importText"
+            @input="detectFormatLive"
+            rows="10"
+            class="w-full border rounded-lg p-3 font-mono text-xs focus:ring-2 focus:ring-blue-400 outline-none resize-none"
+            placeholder="Paste URLs, Netscape HTML, Chrome/Firefox JSON here…"></textarea>
+          <div class="mt-2 flex items-center justify-between">
+            <span x-show="detectedFormat" class="text-xs px-2 py-1 bg-blue-100 text-blue-700 rounded-full"
+              x-text="'Detected: ' + detectedFormat"></span>
+            <span class="flex-1"></span>
+            <button @click="importText=''; detectedFormat=''" class="text-xs text-gray-400 hover:text-red-500 mr-3">Clear</button>
+            <button
+              @click="doImportText"
+              :disabled="importLoading || !importText.trim()"
+              class="bg-blue-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2">
+              <span x-show="importLoading" class="animate-spin">⏳</span>
+              <span x-show="!importLoading">Import</span>
+              <span x-show="importLoading">Importing…</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- File upload -->
+        <div class="bg-white rounded-xl shadow-sm p-6">
+          <h2 class="text-lg font-semibold mb-4 flex items-center gap-2">
+            <span>📂</span> Upload Export File
+          </h2>
+          <div
+            id="drop-zone"
+            @dragover.prevent="dragOver=true"
+            @dragleave.prevent="dragOver=false"
+            @drop.prevent="handleDrop($event)"
+            :class="dragOver ? 'border-blue-400 bg-blue-50' : 'border-gray-300 bg-gray-50'"
+            class="border-2 border-dashed rounded-xl p-10 text-center transition-colors duration-150 cursor-pointer"
+            @click="$refs.fileInput.click()">
+            <div class="text-4xl mb-2">☁️</div>
+            <p class="text-sm text-gray-600 font-medium">Drag & drop or click to select</p>
+            <p class="text-xs text-gray-400 mt-1">Supported: .html, .json</p>
+            <input type="file" x-ref="fileInput" class="hidden" accept=".html,.htm,.json"
+              @change="handleFileSelect($event)">
+          </div>
+          <div x-show="uploadedFile" class="mt-3 flex items-center justify-between bg-gray-100 rounded-lg px-3 py-2">
+            <span class="text-sm text-gray-700 truncate" x-text="uploadedFile?.name"></span>
+            <span class="text-xs px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full ml-2" x-text="detectedFileFormat"></span>
+            <button @click="uploadedFile=null" class="ml-3 text-gray-400 hover:text-red-500 text-xs">✕</button>
+          </div>
+          <div class="mt-4 flex justify-end">
+            <button
+              @click="doImportFile"
+              :disabled="importLoading || !uploadedFile"
+              class="bg-green-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2">
+              <span x-show="importLoading" class="animate-spin">⏳</span>
+              <span x-show="!importLoading">Upload & Import</span>
+              <span x-show="importLoading">Importing…</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Import result alert -->
+      <div x-show="importResult" x-transition class="mt-4 bg-green-50 border border-green-200 rounded-xl p-4 flex items-start gap-3">
+        <span class="text-2xl">✅</span>
+        <div>
+          <p class="font-semibold text-green-800">Import complete!</p>
+          <p class="text-sm text-green-700 mt-1"
+            x-text="importResult ? `Format: ${importResult.format} · Total: ${importResult.total} · Imported: ${importResult.imported} · Duplicates: ${importResult.duplicates}` : ''">
+          </p>
+        </div>
+        <button @click="importResult=null" class="ml-auto text-green-500 hover:text-green-700">✕</button>
+      </div>
+
+      <div x-show="importError" x-transition class="mt-4 bg-red-50 border border-red-200 rounded-xl p-4">
+        <p class="text-sm text-red-700" x-text="importError"></p>
+        <button @click="importError=null" class="mt-1 text-xs text-red-500 hover:underline">Dismiss</button>
+      </div>
+
+      <!-- Recent import sessions -->
+      <div class="mt-8 bg-white rounded-xl shadow-sm p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h2 class="text-lg font-semibold">Recent Import Sessions</h2>
+          <button @click="loadSessions" class="text-xs text-blue-600 hover:underline">Refresh</button>
+        </div>
+        <div x-show="sessions.length === 0" class="text-sm text-gray-400 py-4 text-center">No import sessions yet.</div>
+        <table x-show="sessions.length > 0" class="w-full text-sm">
+          <thead>
+            <tr class="text-left text-gray-500 border-b text-xs uppercase tracking-wide">
+              <th class="pb-2 pr-4">Date</th>
+              <th class="pb-2 pr-4">Format</th>
+              <th class="pb-2 pr-4">Source</th>
+              <th class="pb-2 pr-4 text-right">Total</th>
+              <th class="pb-2 pr-4 text-right">Imported</th>
+              <th class="pb-2 text-right">Duplicates</th>
+            </tr>
+          </thead>
+          <tbody>
+            <template x-for="s in sessions" :key="s.id">
+              <tr class="border-b last:border-0 hover:bg-gray-50">
+                <td class="py-2 pr-4 text-gray-500" x-text="formatDate(s.created_at)"></td>
+                <td class="py-2 pr-4">
+                  <span class="tag-chip bg-blue-100 text-blue-700" x-text="s.source_type"></span>
+                </td>
+                <td class="py-2 pr-4 text-gray-600 max-w-xs truncate" x-text="s.source_name || '—'"></td>
+                <td class="py-2 pr-4 text-right font-medium" x-text="s.total_count"></td>
+                <td class="py-2 pr-4 text-right text-green-600" x-text="s.imported_count"></td>
+                <td class="py-2 text-right text-orange-500" x-text="s.duplicate_count"></td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         TAB: Bookmarks
+         ============================================================ -->
+    <div x-show="activeTab === 'bookmarks'" x-transition>
+
+      <!-- Filters row -->
+      <div class="bg-white rounded-xl shadow-sm p-4 mb-4">
+        <div class="flex flex-wrap gap-3 items-center">
+          <div class="relative flex-1 min-w-48">
+            <input
+              type="text"
+              x-model="bmSearch"
+              @input.debounce.400ms="loadBookmarks(1)"
+              placeholder="Search bookmarks…"
+              class="w-full pl-9 pr-3 py-2 border rounded-lg text-sm focus:ring-2 focus:ring-blue-400 outline-none" />
+            <span class="absolute left-3 top-2.5 text-gray-400 text-sm">🔍</span>
+          </div>
+
+          <select x-model="bmStatusFilter" @change="loadBookmarks(1)"
+            class="border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-400 outline-none">
+            <option value="">All statuses</option>
+            <option value="pending">Pending</option>
+            <option value="running">Running</option>
+            <option value="done">Done</option>
+            <option value="failed">Failed</option>
+            <option value="skipped">Skipped</option>
+          </select>
+
+          <select x-model="bmClusterFilter" @change="loadBookmarks(1)"
+            class="border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-400 outline-none">
+            <option value="">All categories</option>
+            <template x-for="c in clusters" :key="c.id">
+              <option :value="c.id" x-text="c.name"></option>
+            </template>
+          </select>
+
+          <label class="flex items-center gap-2 text-sm text-gray-600">
+            <input type="checkbox" x-model="bmShowDuplicates" @change="loadBookmarks(1)" class="rounded">
+            Show duplicates
+          </label>
+
+          <button @click="loadBookmarks(1)" class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-blue-700">
+            Filter
+          </button>
+
+          <button @click="runDeduplicate" class="bg-orange-100 text-orange-700 px-4 py-2 rounded-lg text-sm hover:bg-orange-200">
+            Deduplicate All
+          </button>
+        </div>
+      </div>
+
+      <!-- Bookmark count + pagination info -->
+      <div class="flex items-center justify-between mb-3 text-sm text-gray-500">
+        <span x-text="'Showing ' + bookmarks.length + ' of ' + bmTotal + ' bookmarks'"></span>
+        <div class="flex gap-2">
+          <button @click="loadBookmarks(bmPage - 1)" :disabled="bmPage <= 1"
+            class="px-3 py-1 border rounded disabled:opacity-40 hover:bg-gray-100">← Prev</button>
+          <span class="px-3 py-1 text-gray-600" x-text="'Page ' + bmPage + ' / ' + bmPages"></span>
+          <button @click="loadBookmarks(bmPage + 1)" :disabled="bmPage >= bmPages"
+            class="px-3 py-1 border rounded disabled:opacity-40 hover:bg-gray-100">Next →</button>
+        </div>
+      </div>
+
+      <!-- Bookmark list -->
+      <div x-show="bmLoading" class="text-center py-12 text-gray-400 text-sm">Loading…</div>
+      <div x-show="!bmLoading && bookmarks.length === 0" class="text-center py-12 text-gray-400 text-sm">
+        No bookmarks found. Import some to get started!
+      </div>
+
+      <div x-show="!bmLoading" class="space-y-3">
+        <template x-for="bm in bookmarks" :key="bm.id">
+          <div class="bookmark-card bg-white rounded-xl shadow-sm border border-gray-100 p-4 flex items-start gap-3"
+            :class="bm.is_duplicate ? 'opacity-60' : ''">
+
+            <!-- Favicon -->
+            <img :src="bm.favicon_url || ('https://www.google.com/s2/favicons?domain=' + encodeURIComponent(new URL(bm.url).hostname))"
+              class="favicon mt-1 flex-shrink-0 rounded"
+              onerror="this.style.display='none'" />
+
+            <div class="flex-1 min-w-0">
+              <div class="flex items-start justify-between gap-2">
+                <div class="min-w-0">
+                  <a :href="bm.url" target="_blank" rel="noopener noreferrer"
+                    class="font-medium text-blue-700 hover:underline text-sm leading-snug"
+                    x-text="bm.page_title || bm.title || bm.url"></a>
+                  <p class="text-xs text-gray-400 truncate mt-0.5" x-text="bm.url"></p>
+                  <p x-show="bm.page_description || bm.description"
+                    class="text-xs text-gray-500 mt-1 line-clamp-2"
+                    x-text="bm.page_description || bm.description"></p>
+                </div>
+                <div class="flex items-center gap-1 flex-shrink-0">
+                  <span class="tag-chip" :class="'status-' + bm.research_status" x-text="bm.research_status"></span>
+                  <span x-show="bm.is_duplicate" class="tag-chip bg-orange-100 text-orange-700">duplicate</span>
+                </div>
+              </div>
+              <div class="flex flex-wrap mt-2">
+                <template x-for="tag in (bm.tags || []).slice(0,8)" :key="tag">
+                  <span class="tag-chip bg-gray-100 text-gray-600 mr-1 mb-1" x-text="tag"></span>
+                </template>
+              </div>
+            </div>
+
+            <div class="flex-shrink-0 flex flex-col gap-1 items-end">
+              <span class="text-xs text-gray-400" x-text="formatDate(bm.imported_at)"></span>
+              <button @click="deleteBookmark(bm.id)"
+                class="text-xs text-red-400 hover:text-red-600 mt-1">🗑 Delete</button>
+            </div>
+          </div>
+        </template>
+      </div>
+
+      <!-- Bottom pagination -->
+      <div class="flex justify-center mt-6 gap-2 text-sm">
+        <button @click="loadBookmarks(bmPage - 1)" :disabled="bmPage <= 1"
+          class="px-4 py-2 border rounded-lg disabled:opacity-40 hover:bg-gray-100">← Previous</button>
+        <span class="px-4 py-2 text-gray-600" x-text="'Page ' + bmPage + ' of ' + bmPages"></span>
+        <button @click="loadBookmarks(bmPage + 1)" :disabled="bmPage >= bmPages"
+          class="px-4 py-2 border rounded-lg disabled:opacity-40 hover:bg-gray-100">Next →</button>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         TAB: Research Queue
+         ============================================================ -->
+    <div x-show="activeTab === 'research'" x-transition>
+
+      <!-- Status cards -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-yellow-50 border border-yellow-200 rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold text-yellow-700" x-text="researchStatus.pending || 0"></div>
+          <div class="text-sm text-yellow-600 mt-1">Pending</div>
+        </div>
+        <div class="bg-blue-50 border border-blue-200 rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold text-blue-700" x-text="researchStatus.running_count || 0"></div>
+          <div class="text-sm text-blue-600 mt-1">Running</div>
+        </div>
+        <div class="bg-green-50 border border-green-200 rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold text-green-700" x-text="researchStatus.done || 0"></div>
+          <div class="text-sm text-green-600 mt-1">Done</div>
+        </div>
+        <div class="bg-red-50 border border-red-200 rounded-xl p-4 text-center">
+          <div class="text-3xl font-bold text-red-700" x-text="researchStatus.failed || 0"></div>
+          <div class="text-sm text-red-600 mt-1">Failed</div>
+        </div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="bg-white rounded-xl shadow-sm p-6 mb-6">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-sm font-medium text-gray-700">Overall Progress</span>
+          <span class="text-sm text-gray-500"
+            x-text="researchProgress + '%'"></span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-3 overflow-hidden">
+          <div class="bg-blue-500 h-3 rounded-full progress-bar"
+            :style="'width: ' + researchProgress + '%'"></div>
+        </div>
+        <p class="text-xs text-gray-400 mt-2"
+          x-text="(researchStatus.done || 0) + ' / ' + ((researchStatus.done || 0) + (researchStatus.pending || 0) + (researchStatus.failed || 0)) + ' processed'">
+        </p>
+      </div>
+
+      <!-- Controls -->
+      <div class="bg-white rounded-xl shadow-sm p-6">
+        <div class="flex flex-wrap gap-3 items-center">
+          <div class="flex items-center gap-2">
+            <span class="h-3 w-3 rounded-full"
+              :class="researchStatus.running ? 'bg-green-400 animate-pulse' : 'bg-gray-300'"></span>
+            <span class="text-sm font-medium" x-text="researchStatus.running ? 'Worker running' : 'Worker stopped'"></span>
+          </div>
+
+          <button
+            @click="startResearch"
+            :disabled="researchStatus.running"
+            class="bg-green-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-green-700 disabled:opacity-50">
+            ▶ Start
+          </button>
+          <button
+            @click="stopResearch"
+            :disabled="!researchStatus.running"
+            class="bg-red-100 text-red-700 px-4 py-2 rounded-lg text-sm hover:bg-red-200 disabled:opacity-50">
+            ⏹ Stop
+          </button>
+          <button
+            @click="resetResearch"
+            class="bg-gray-100 text-gray-700 px-4 py-2 rounded-lg text-sm hover:bg-gray-200">
+            🔄 Reset Failed → Pending
+          </button>
+          <button @click="loadResearchStatus" class="text-xs text-blue-600 hover:underline ml-auto">
+            Refresh status
+          </button>
+        </div>
+        <p class="text-xs text-gray-400 mt-3">
+          The research worker fetches each bookmark URL in the background, extracts title & description,
+          and calls the LLM to generate tags.
+        </p>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         TAB: Categories
+         ============================================================ -->
+    <div x-show="activeTab === 'categories'" x-transition>
+
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-lg font-semibold">Bookmark Categories</h2>
+        <button @click="refreshClusters" :disabled="clusterLoading"
+          class="bg-purple-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-purple-700 disabled:opacity-50 flex items-center gap-2">
+          <span x-show="clusterLoading" class="animate-spin">⏳</span>
+          <span x-show="!clusterLoading">✨ Re-run Clustering</span>
+          <span x-show="clusterLoading">Clustering…</span>
+        </button>
+      </div>
+
+      <div x-show="clusterMsg" class="mb-4 bg-blue-50 border border-blue-200 rounded-xl p-3 text-sm text-blue-700"
+        x-text="clusterMsg"></div>
+
+      <div x-show="clusters.length === 0" class="text-center py-16 text-gray-400">
+        <div class="text-5xl mb-4">🗂️</div>
+        <p>No categories yet. Import bookmarks, run research, then click "Re-run Clustering".</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <template x-for="c in clusters" :key="c.id">
+          <div class="cluster-card bg-white rounded-xl shadow-sm border border-gray-100 p-5"
+            @click="filterByCluster(c.id)">
+            <div class="flex items-center justify-between mb-3">
+              <h3 class="font-semibold text-gray-800 truncate" x-text="c.name"></h3>
+              <span class="bg-purple-100 text-purple-700 text-xs font-bold px-2 py-0.5 rounded-full"
+                x-text="c.bookmark_count + ' bms'"></span>
+            </div>
+            <div class="flex flex-wrap gap-1">
+              <template x-for="tag in (c.tags || []).slice(0,6)" :key="tag">
+                <span class="tag-chip bg-purple-50 text-purple-600" x-text="tag"></span>
+              </template>
+            </div>
+            <p class="text-xs text-gray-400 mt-3">Click to filter bookmarks by this category</p>
+          </div>
+        </template>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         TAB: Stats
+         ============================================================ -->
+    <div x-show="activeTab === 'stats'" x-transition>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-8">
+        <div class="bg-white rounded-xl shadow-sm p-5 text-center border border-gray-100">
+          <div class="text-4xl font-bold text-gray-800" x-text="stats.total || 0"></div>
+          <div class="text-sm text-gray-500 mt-1">Total Bookmarks</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-5 text-center border border-gray-100">
+          <div class="text-4xl font-bold text-blue-600" x-text="stats.unique || 0"></div>
+          <div class="text-sm text-gray-500 mt-1">Unique</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-5 text-center border border-gray-100">
+          <div class="text-4xl font-bold text-orange-500" x-text="stats.duplicates || 0"></div>
+          <div class="text-sm text-gray-500 mt-1">Duplicates</div>
+        </div>
+        <div class="bg-white rounded-xl shadow-sm p-5 text-center border border-gray-100">
+          <div class="text-4xl font-bold text-purple-600" x-text="stats.clusters || 0"></div>
+          <div class="text-sm text-gray-500 mt-1">Categories</div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-sm p-6">
+        <h2 class="font-semibold text-gray-700 mb-4">Research Status Breakdown</h2>
+        <div class="space-y-3">
+          <template x-for="[label, val, cls] in [
+            ['Pending',  stats.research?.pending || 0, 'bg-yellow-400'],
+            ['Running',  stats.research?.running || 0, 'bg-blue-400'],
+            ['Done',     stats.research?.done || 0,    'bg-green-400'],
+            ['Failed',   stats.research?.failed || 0,  'bg-red-400'],
+            ['Skipped',  stats.research?.skipped || 0, 'bg-gray-300'],
+          ]">
+            <div class="flex items-center gap-3">
+              <span class="w-20 text-sm text-gray-600" x-text="label"></span>
+              <div class="flex-1 bg-gray-100 rounded-full h-4 overflow-hidden">
+                <div :class="cls" class="h-4 rounded-full transition-all duration-500"
+                  :style="'width: ' + (stats.total ? Math.round((val / stats.total) * 100) : 0) + '%'"></div>
+              </div>
+              <span class="w-10 text-right text-sm font-medium text-gray-700" x-text="val"></span>
+            </div>
+          </template>
+        </div>
+      </div>
+
+      <div class="mt-4 bg-white rounded-xl shadow-sm p-6">
+        <div class="flex items-center justify-between mb-2">
+          <h2 class="font-semibold text-gray-700">Import Sessions</h2>
+          <span class="text-sm text-gray-400" x-text="(stats.import_sessions || 0) + ' total'"></span>
+        </div>
+        <p class="text-sm text-gray-400">See the Import tab for session details.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <script>
+  function bobbybookmarks() {
+    return {
+      activeTab: 'import',
+      tabs: [
+        { id: 'import',     label: '📥 Import'    },
+        { id: 'bookmarks',  label: '🔖 Bookmarks'  },
+        { id: 'research',   label: '🔬 Research'   },
+        { id: 'categories', label: '🗂️ Categories'  },
+        { id: 'stats',      label: '📊 Stats'      },
+      ],
+
+      // Import state
+      importText: '',
+      detectedFormat: '',
+      dragOver: false,
+      uploadedFile: null,
+      detectedFileFormat: '',
+      importLoading: false,
+      importResult: null,
+      importError: null,
+      sessions: [],
+
+      // Bookmarks state
+      bookmarks: [],
+      bmSearch: '',
+      bmStatusFilter: '',
+      bmClusterFilter: '',
+      bmShowDuplicates: false,
+      bmPage: 1,
+      bmPages: 1,
+      bmTotal: 0,
+      bmLoading: false,
+
+      // Research state
+      researchStatus: {},
+      researchPollTimer: null,
+
+      // Categories state
+      clusters: [],
+      clusterLoading: false,
+      clusterMsg: '',
+
+      // Stats
+      stats: {},
+
+      async init() {
+        await Promise.all([this.loadStats(), this.loadSessions(), this.loadClusters(), this.loadResearchStatus()]);
+        this.$watch('activeTab', (tab) => {
+          if (tab === 'bookmarks') this.loadBookmarks(1);
+          if (tab === 'research') { this.loadResearchStatus(); this.startResearchPoll(); }
+          else this.stopResearchPoll();
+          if (tab === 'categories') this.loadClusters();
+          if (tab === 'stats') this.loadStats();
+          if (tab === 'import') this.loadSessions();
+        });
+      },
+
+      // ---- Format detection ----
+      detectFormatLive() {
+        const txt = this.importText.trim();
+        if (!txt) { this.detectedFormat = ''; return; }
+        this.detectedFormat = detectFormat(txt);
+      },
+
+      // ---- File handling ----
+      handleDrop(e) {
+        this.dragOver = false;
+        const file = e.dataTransfer.files[0];
+        if (file) this.setFile(file);
+      },
+      handleFileSelect(e) {
+        const file = e.target.files[0];
+        if (file) this.setFile(file);
+      },
+      setFile(file) {
+        this.uploadedFile = file;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          this.detectedFileFormat = detectFormat(e.target.result, file.name);
+        };
+        reader.readAsText(file);
+      },
+
+      // ---- Import actions ----
+      async doImportText() {
+        if (!this.importText.trim()) return;
+        this.importLoading = true;
+        this.importError = null;
+        this.importResult = null;
+        try {
+          const res = await fetch('/api/import', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ content: this.importText, filename: null }),
+          });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Import failed');
+          this.importResult = data;
+          this.importText = '';
+          this.detectedFormat = '';
+          await Promise.all([this.loadStats(), this.loadSessions()]);
+        } catch (e) {
+          this.importError = e.message;
+        } finally {
+          this.importLoading = false;
+        }
+      },
+
+      async doImportFile() {
+        if (!this.uploadedFile) return;
+        this.importLoading = true;
+        this.importError = null;
+        this.importResult = null;
+        try {
+          const fd = new FormData();
+          fd.append('file', this.uploadedFile);
+          const res = await fetch('/api/import', { method: 'POST', body: fd });
+          const data = await res.json();
+          if (!res.ok) throw new Error(data.error || 'Import failed');
+          this.importResult = data;
+          this.uploadedFile = null;
+          await Promise.all([this.loadStats(), this.loadSessions()]);
+        } catch (e) {
+          this.importError = e.message;
+        } finally {
+          this.importLoading = false;
+        }
+      },
+
+      async loadSessions() {
+        try {
+          const res = await fetch('/api/import/sessions');
+          this.sessions = await res.json();
+        } catch (_) {}
+      },
+
+      // ---- Bookmarks ----
+      async loadBookmarks(page = 1) {
+        this.bmLoading = true;
+        this.bmPage = page;
+        const params = new URLSearchParams({
+          page,
+          per_page: 50,
+          q: this.bmSearch,
+          research_status: this.bmStatusFilter,
+          show_duplicates: this.bmShowDuplicates,
+        });
+        if (this.bmClusterFilter !== '') params.set('cluster_id', this.bmClusterFilter);
+        try {
+          const res = await fetch('/api/bookmarks?' + params.toString());
+          const data = await res.json();
+          this.bookmarks = data.bookmarks || [];
+          this.bmTotal = data.total || 0;
+          this.bmPages = data.pages || 1;
+        } catch (_) {
+          this.bookmarks = [];
+        } finally {
+          this.bmLoading = false;
+        }
+      },
+
+      async deleteBookmark(id) {
+        if (!confirm('Delete this bookmark?')) return;
+        await fetch(`/api/bookmarks/${id}`, { method: 'DELETE' });
+        this.bookmarks = this.bookmarks.filter(b => b.id !== id);
+        this.bmTotal--;
+        this.loadStats();
+      },
+
+      async runDeduplicate() {
+        const res = await fetch('/api/bookmarks/deduplicate', { method: 'POST' });
+        const data = await res.json();
+        alert(`Deduplication complete. Found ${data.duplicates_found} duplicates.`);
+        this.loadBookmarks(1);
+        this.loadStats();
+      },
+
+      filterByCluster(clusterId) {
+        this.bmClusterFilter = clusterId;
+        this.activeTab = 'bookmarks';
+        this.loadBookmarks(1);
+      },
+
+      // ---- Research ----
+      async loadResearchStatus() {
+        try {
+          const res = await fetch('/api/research/status');
+          this.researchStatus = await res.json();
+        } catch (_) {}
+      },
+
+      get researchProgress() {
+        const done = (this.researchStatus.done || 0);
+        const total = done + (this.researchStatus.pending || 0) + (this.researchStatus.failed || 0);
+        if (total === 0) return 0;
+        return Math.round((done / total) * 100);
+      },
+
+      startResearchPoll() {
+        this.stopResearchPoll();
+        this.researchPollTimer = setInterval(() => this.loadResearchStatus(), 3000);
+      },
+      stopResearchPoll() {
+        if (this.researchPollTimer) { clearInterval(this.researchPollTimer); this.researchPollTimer = null; }
+      },
+
+      async startResearch() {
+        await fetch('/api/research/start', { method: 'POST' });
+        this.startResearchPoll();
+        await this.loadResearchStatus();
+      },
+      async stopResearch() {
+        await fetch('/api/research/stop', { method: 'POST' });
+        this.stopResearchPoll();
+        await this.loadResearchStatus();
+      },
+      async resetResearch() {
+        const res = await fetch('/api/research/reset', { method: 'POST' });
+        const data = await res.json();
+        alert(`Reset ${data.reset} failed items back to pending.`);
+        await this.loadResearchStatus();
+      },
+
+      // ---- Categories ----
+      async loadClusters() {
+        try {
+          const res = await fetch('/api/categories');
+          this.clusters = await res.json();
+        } catch (_) {}
+      },
+
+      async refreshClusters() {
+        this.clusterLoading = true;
+        this.clusterMsg = '';
+        try {
+          const res = await fetch('/api/categories/refresh', { method: 'POST' });
+          const data = await res.json();
+          this.clusterMsg = data.message || `Created ${data.clusters} clusters.`;
+          await this.loadClusters();
+          await this.loadStats();
+        } catch (e) {
+          this.clusterMsg = 'Clustering failed: ' + e.message;
+        } finally {
+          this.clusterLoading = false;
+        }
+      },
+
+      // ---- Stats ----
+      async loadStats() {
+        try {
+          const res = await fetch('/api/stats');
+          this.stats = await res.json();
+        } catch (_) {}
+      },
+
+      // ---- Helpers ----
+      formatDate(isoStr) {
+        return formatDate(isoStr);
+      },
+    };
+  }
+  </script>
+</body>
+</html>
