@@ -261,7 +261,19 @@ def create_app(config_object=None):
     @app.route("/api/research/status", methods=["GET"])
     def api_research_status():
         worker = get_worker()
-        return jsonify(worker.get_status())
+        # Always query DB for accurate counts; worker only provides running state
+        pending = Bookmark.query.filter_by(research_status="pending", is_duplicate=False).count()
+        running_count = Bookmark.query.filter_by(research_status="running").count()
+        done = Bookmark.query.filter_by(research_status="done").count()
+        failed = Bookmark.query.filter_by(research_status="failed").count()
+        return jsonify({
+            "running": worker._running,
+            "pending": pending,
+            "running_count": running_count,
+            "done": done,
+            "failed": failed,
+            "total_processed": done + failed,
+        })
 
     @app.route("/api/research/start", methods=["POST"])
     def api_research_start():
