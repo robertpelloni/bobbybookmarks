@@ -34,7 +34,7 @@ except FileNotFoundError:
 
 all_links = []
 for link in all_links_raw:
-    if "reddit.com" in link or "news.ycombinator.com" in link or "google.com/search" in link:
+    if "reddit.com" in link or "news.ycombinator.com" in link or "google.com/search" in link or "gtaforums.com" in link or "usercontent.google.com" in link or "gumroad.com" in link or "hachyderm.io" in link or "jules.google.com" in link or "provenpixel.com" in link or "ubereats.com" in link or "couponfollow.com" in link or "vanguard.com" in link or "facebook.com" in link or "youtube.com" in link or "mail.google.com" in link or "mastodon.social" in link or "discourse.org" in link or "mitragaia.com" in link:
         continue
     all_links.append(link)
 
