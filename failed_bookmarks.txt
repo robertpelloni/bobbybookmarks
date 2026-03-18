@@ -1,0 +1,39 @@
+URL: https://github.com/solana-labs/solana-agent
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/prophetic-api/prophetic-one
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/leptonai/search-with-lepton
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://news.ycombinator.com/item?id=39585276
+STATUS: SKIPPED - Processing github link found in comments: https://github.com/marimo-team/marimo
+
+URL: https://news.ycombinator.com/item?id=39333306
+STATUS: SKIPPED - No github links found in comments.
+
+URL: https://github.com/lobe-chat/lobe-chat
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/Taishi-Y/self-operating-computer
+STATUS: SKIPPED - 404 Not Found, processing https://github.com/OthersideAI/self-operating-computer instead.
+
+URL: https://github.com/VinciGit/Vinci
+STATUS: SKIPPED - 404 Not Found, processing https://github.com/OpenGVLab/vinci instead.
+
+URL: https://www.reddit.com/r/webdev/comments/1b54fga/showoff_saturday_what_are_you_working_on/
+STATUS: SKIPPED - Processing github links found in comments: https://github.com/ilies-space/snapvid, https://github.com/JustAnother-User/blank-canvas, https://github.com/Tcharles-dev/versat-app, https://github.com/unkey/unkey
+
+URL: https://github.com/ilies-space/snapvid
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/JustAnother-User/blank-canvas
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/Tcharles-dev/versat-app
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/unkey/unkey
+STATUS: SKIPPED - 404 Not Found
+

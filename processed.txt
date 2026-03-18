@@ -1,7 +1,359 @@
-URL:https://github.com/google/gemini-cli
-DESCRIPTION:Command line interface for Google Gemini, a "harness" used to give abilities to Gemini for general computer tasks and also programming tasks.
-LONGERDESCRIPTION:Gemini CLI is a so-called "coding harness" which gives hands and feet to Gemini, Google's flagship AI, granting it abilities and the functionality to allow it to perform tasks on the computer, even do programming tasks. Like competitor's Claude Code and OpenAI Codex, Google has made a command line mecha suit for Gemini to wear, transforming it into a badass computer hacker, the smartest computer nerd you've ever seen.
-MAIN_FUNCTIONALITY:Command-line harness CLI/TUI tool for AI powered computer tasks.
-FEATURES:Sessions, memory, extensions, hooks, skills, plugins, import/export.
-TAGS:technology computer ai harness cli tui coding 
-CATEGORY:Technology/Computer/AI/CLI_Harness
+URL: https://github.com/punkpeye/awesome-mcp-servers?tab=readme-ov-file#finance--fintech
+CATEGORY: Awesome Lists
+SHORT_DESCRIPTION: A curated list of awesome MCP (Model-View-Controller-Presenter) servers, frameworks, and resources.
+LONG_DESCRIPTION: This GitHub repository is a community-curated list of notable MCP (Model-View-Controller-Presenter) servers. It serves as a directory for developers looking for MCP servers for various domains like finance, fintech, and more. The list includes links to the repositories, and other relevant resources, making it a valuable resource for anyone working with or interested in MCP architecture.
+TAGS: mcp, awesome-list, mcp-server, frameworks, resources, development, list, directory
+
+URL: https://github.com/appcypher/awesome-mcp-servers
+CATEGORY: Awesome Lists
+SHORT_DESCRIPTION: A curated list of Model Context Protocol (MCP) servers, categorized by functionality.
+LONG_DESCRIPTION: This GitHub repository provides a comprehensive, curated list of Model Context Protocol (MCP) servers. The servers are organized into categories such as File Systems, Sandbox & Virtualization, Version Control, Databases, Search & Web, Cloud Storage, Communication, Workflow & System Automation, Finance, and Development Tools. It also lists AI clients that support MCP. The repository emphasizes security, warning users about the risks of running unsandboxed MCP servers. It also includes tools and utilities for managing MCP servers.
+TAGS: mcp, awesome-list, mcp-server, frameworks, resources, development, list, directory, security, tools
+
+URL: https://github.com/wong2/awesome-mcp-servers
+CATEGORY: Awesome Lists
+SHORT_DESCRIPTION: A curated list of official and community-developed Model Context Protocol (MCP) servers.
+LONG_DESCRIPTION: This GitHub repository, maintained by wong2, is a comprehensive, curated list of Model Context Protocol (MCP) servers. It's structured into 'Reference Servers' for demonstrating MCP features and SDK usage, 'Official Servers' which are production-ready integrations from various companies, and a large collection of 'Community Servers'. The list covers a wide range of domains including cloud platforms, development tools, databases, productivity, CRM, search, AI, and finance. A notable aspect of this repository is that it does not accept pull requests on GitHub; instead, new MCP servers must be submitted through their website.
+TAGS: mcp, awesome-list, mcp-server, frameworks, resources, development, list, directory, official-servers, community-servers
+
+URL: https://www.pulsemcp.com/servers
+CATEGORY: MCP
+SHORT_DESCRIPTION: A directory of Model Context Protocol (MCP) servers, listing over 11,000 servers.
+LONG_DESCRIPTION: This website is a comprehensive directory for Model Context Protocol (MCP) servers, featuring over 11,160 servers. It allows users to search and filter servers by availability and classification (Official, Community, Reference, or Anthropic). The site highlights trending categories like Figma, Notion, and GitHub, and provides various sorting options including 'Recommended', 'Last Updated', and 'Most Popular'. The directory serves as a central hub for developers to discover tools that extend the capabilities of AI agents through MCP.
+TAGS: mcp, directory, mcp-server, search, filter, tools, integrations, ai-agents
+
+URL: https://playbooks.com/mcp/
+CATEGORY: MCP
+SHORT_DESCRIPTION: An MCP (Model Context Protocol) server directory listing tools for AI agents like Claude Code and Codex.
+LONG_DESCRIPTION: This website is a directory of MCP (Model Context Protocol) servers, showcasing a variety of tools that can be used by AI agents. The directory features popular servers for Git, Memory, Time, Sequential Thinking, and Fetch, as well as integrations for Playwright, GitHub, and Context7. It also lists other notable servers for Cloudflare, Azure DevOps, Next.js DevTools, LinkedIn, Vercel, n8n, and even Blender. The directory contains 414 pages of MCP servers, sorted by trending or official status.
+TAGS: mcp, directory, mcp-server, tools, ai-agents, claude-code, codex
+
+URL: https://github.com/toolsdk-ai/toolsdk-mcp-registry
+CATEGORY: MCP
+SHORT_DESCRIPTION: An enterprise-grade registry and gateway for the Model Context Protocol (MCP), providing unified infrastructure to discover, secure, and execute MCP servers.
+LONG_DESCRIPTION: The ToolSDK MCP Registry is a comprehensive, enterprise-grade registry and gateway for the Model Context Protocol (MCP). It provides a unified infrastructure for discovering, securing, and executing over 4,538 MCP servers. Key features include a self-hosted HTTP API gateway (deployable via Docker), a secure sandbox for executing untrusted tools, and an OAuth 2.1 proxy for handling complex authentication flows. The registry supports both local (STDIO) and remote (StreamableHTTP) tools and offers a public JSON API for programmatic access. It categorizes tools into domains like Developer Tools, Browser Automation, Art & Culture, Aggregators, and Cloud & APIs.
+TAGS: mcp, registry, gateway, tools, ai-agents, enterprise, security, sandbox, oauth, api
+MAIN_FEATURES:
+- Unified Registry of over 4,538 MCP servers.
+- Self-hosted Enterprise Gateway via Docker.
+- Secure Sandbox for untrusted tool execution (E2B, Daytona, Sandock).
+- OAuth 2.1 Proxy for AI agent authentication.
+- Validated packages for instant integration.
+- Public JSON API for programmatic access.
+- NPM package (@toolsdk.ai/registry) for data access.
+
+URL: https://hub.docker.com/mcp
+CATEGORY: MCP
+SHORT_DESCRIPTION: The Docker MCP Catalog is a library of containerized Model Context Protocol (MCP) servers.
+LONG_DESCRIPTION: The Docker MCP Catalog, available at hub.docker.com/mcp, provides a large library of containerized Model Context Protocol (MCP) servers. It's designed to simplify the use of MCP tools by leveraging Docker's ecosystem. The catalog features official MCP servers from major publishers like GitHub, MongoDB, Stripe, and Microsoft (Playwright). It allows developers to discover tools across various categories including AI, databases, developer tools, finance, and more.
+TAGS: mcp, docker, catalog, mcp-server, containerized, tools, integrations, ai-agents
+MAIN_FEATURES:
+- Large library of containerized MCP servers.
+- Official servers from major publishers like GitHub, MongoDB, and Stripe.
+- Search and discovery of tools for various developer workflows.
+- Categorization of servers for AI, databases, finance, and more.
+
+URL: https://github.com/mcp
+CATEGORY: MCP
+SHORT_DESCRIPTION: The MCP Registry on GitHub, a directory of Model Context Protocol (MCP) servers and tools from the community.
+LONG_DESCRIPTION: The GitHub page at github.com/mcp serves as the MCP Registry, a directory of community-contributed Model Context Protocol (MCP) servers and tools. These servers enable AI models to connect with a wide range of external systems, including files, APIs, and databases. The registry features prominent MCP servers like Markitdown for document conversion, Netdata for infrastructure monitoring, and Context7 for code documentation. It also lists official servers from Microsoft (Playwright, Azure), GitHub, Stripe, Vercel, and MongoDB, among others. The registry currently lists 89 MCP servers.
+TAGS: mcp, registry, directory, mcp-server, tools, community, integrations, ai-agents
+
+URL: https://enact.tools/
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: Enact is a verified AI tools registry and agent skills platform, allowing autonomous agents to discover, verify, and execute capabilities on demand.
+LONG_DESCRIPTION: Enact is a platform that serves as a verified registry for AI tools and a platform for agent skills. It enables autonomous agents to dynamically discover, verify, and execute new capabilities. Tools are packaged as portable skill bundles that can run securely in various environments (local, containerized, or remote) with policy enforcement and cryptographic verification. Enact integrates natively with the Model Context Protocol (MCP), a skills. It provides a CLI with commands like `enact search`, `enact run`, and `enact publish`, positioning itself as "like npm, but for AI Tools". The platform is designed with security, agent-nativity, and flexibility in mind.
+TAGS: ai-agents, skills, registry, tools, mcp, autonomous-agents, security, cli
+MAIN_FEATURES:
+- Verified AI tools registry and agent skills platform.
+- Portable skill bundles for secure and flexible execution.
+- Native integration with the Model Context Protocol (MCP).
+- Policy-enforced execution with signature verification.
+- CLI for searching, running, installing, and publishing tools.
+- Secure by default, agent-native, and flexible architecture.
+
+URL: https://github.com/Arindam200/awesome-ai-apps
+CATEGORY: Awesome Lists
+SHORT_DESCRIPTION: A comprehensive collection of over 70 practical examples, tutorials, and recipes for building LLM-powered applications.
+LONG_DESCRIPTION: This GitHub repository is a rich collection of over 70 practical examples, tutorials, and recipes for building LLM-powered applications. It covers a wide range of use cases, including RAG (Retrieval-Augmented Generation), autonomous agents, and complex workflows. The repository is organized into several categories: Courses, Starter Agents, Simple Agents, MCP Agents, Memory Agents, RAG Applications, and Advanced Agents. It provides starter templates for various frameworks like Agno, OpenAI SDK, LlamaIndex, and CrewAI. The tech stack is primarily Python, with a significant portion in Jupyter Notebooks and some TypeScript.
+TAGS: ai, llm, rag, autonomous-agents, mcp, python, tutorial, examples, awesome-list
+MAIN_FEATURES:
+- Over 70 practical examples and tutorials for LLM-powered applications.
+- Covers a wide range of use cases including RAG, autonomous agents, and complex workflows.
+- Includes a complete 8-lesson course on building AI agents with the AWS Strands SDK.
+- Provides starter templates for popular AI frameworks.
+- Organized into categories for easy navigation.
+- Primarily Python-based with Jupyter Notebooks and TypeScript examples.
+
+URL: https://github.com/TheNoeTrevino/dotfiles/tree/main/claude-code/skills
+CATEGORY: Guides & Articles
+SHORT_DESCRIPTION: A guide for building high-performance Neovim plugins using `nvim-treesitter`, specializing in module systems, query-based parsing, and performance optimization.
+LONG_DESCRIPTION: This document provides a comprehensive guide and expert patterns for building high-performance Neovim plugins using the `nvim-treesitter` framework. It details a three-tier plugin architecture, configuration management with deep merging and deferred initialization, and a robust system for executing TreeSitter queries. The guide also covers patterns for displaying virtual text using extmarks, and performance optimization techniques like buffer tick memoization and throttled updates. It includes specific examples for Go error handling and a complete working example of a Go error-collapsing plugin.
+TAGS: neovim, nvim-treesitter, plugin, development, lua, treesitter, guide, tutorial, performance, architecture
+
+URL: https://developers.openai.com/codex/skills/
+CATEGORY: Guides & Articles
+SHORT_DESCRIPTION: A guide on how to extend OpenAI's Codex agent with task-specific capabilities called "skills".
+LONG_DESCRIPTION: This document from OpenAI's developer portal explains the concept of "Agent Skills" for the Codex AI agent. A skill is defined as a package of instructions, resources, and optional scripts that enable Codex to follow a workflow reliably. The guide details the structure of a skill, how Codex discovers and uses them (both explicitly and implicitly), and how to create, install, and configure them. It also covers the use of an `openai.yaml` file for metadata and dependencies. Best practices for creating effective skills are also provided.
+TAGS: openai, codex, ai-agents, skills, development, guide, tutorial, documentation
+MAIN_FEATURES:
+- Defines the concept and structure of "Agent Skills" for Codex.
+- Explains both explicit and implicit skill invocation.
+- Provides instructions on creating, installing, and configuring skills.
+- Details the folder structure and file conventions for skills (`SKILL.md`, `openai.yaml`).
+- Outlines best practices for skill development.
+
+URL: https://github.com/anthropics/skills
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: A public repository for Agent Skills, containing instructions, scripts, and resources that Claude can dynamically load to improve performance on specialized tasks.
+LONG_DESCRIPTION: This GitHub repository from Anthropic is a public collection of "Agent Skills" for their AI assistant, Claude. Skills are defined as folders containing instructions, scripts, and resources that allow Claude to perform specialized tasks reliably and repeatably. The repository includes example skills for creative, development, enterprise, and document-related tasks, as well as the source-available document creation and editing skills for formats like `.docx`, `.pdf`, `.pptx`, and `.xlsx`. It also provides the Agent Skills specification and a template for creating custom skills.
+TAGS: anthropic, claude, ai-agents, skills, development, guide, tutorial, documentation, repository
+MAIN_FEATURES:
+- Public repository for Claude's Agent Skills.
+- Includes example skills for various domains.
+- Contains the source-available document creation and editing skills.
+- Provides the Agent Skills specification and a skill template.
+- Explains how to use the skills with Claude Code, Claude.ai, and the Claude API.
+
+URL: https://github.com/openai/skills
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: A Skills Catalog for OpenAI's Codex, containing instructions, scripts, and resources that AI agents can use to perform specific tasks.
+LONG_DESCRIPTION: This GitHub repository from OpenAI serves as a Skills Catalog for their Codex AI agent. It contains folders of instructions, scripts, and resources, which are packaged capabilities for teams and individuals to complete tasks in a repeatable way. The repository follows the Agent Skills open standard and includes `curated`, `experimental`, and `system` skill folders. It's primarily written in Python and JavaScript.
+TAGS: openai, codex, ai-agents, skills, catalog, repository, python, javascript
+MAIN_FEATURES:
+- Serves as a Skills Catalog for the Codex AI agent.
+- Follows the Agent Skills open standard.
+- Contains curated, experimental, and system skill folders.
+- Provides instructions on how to install and use the skills.
+- Includes contribution guidelines.
+
+URL: https://github.com/stared/gemini-claude-skills
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: A GitHub repository with Claude Code skills for integrating Google's Gemini 3 Pro models.
+LONG_DESCRIPTION: This repository provides Claude Code skills to integrate Google's Gemini 3 Pro models into your workflow. It includes two main skills: "Nano Banana Pro" for generating high-resolution images and infographics with `gemini-3-pro-image-preview`, and "Gemini Consultant" for getting a "second opinion" with real-time web information and image analysis using `gemini-3-pro-preview`. The repository includes installation instructions, usage examples, and prerequisites, such as requiring a Google AI API key.
+TAGS: claude, gemini, skills, ai-agents, image-generation, google-ai, repository
+MAIN_FEATURES:
+- Provides Claude Code skills for Google's Gemini 3 Pro models.
+- "Nano Banana Pro" skill for advanced image generation.
+- "Gemini Consultant" skill for AI-powered second opinions with web search and image analysis.
+- Includes installation and usage instructions.
+- Requires a Google AI API key.
+
+URL: https://github.com/bkircher/skills
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: A minimal skill pack for Codex and Claude Code, providing a collection of command-line tools to tailor context for specific tasks.
+LONG_DESCRIPTION: This GitHub repository provides a minimal skill pack for AI agents like Codex and Claude Code. It offers a collection of command-line tools designed to tailor context for specific tasks, serving as an alternative to the Model Context Protocol (MCP). The available skills include tools for editing English text, interacting with GitHub pull requests, analyzing GitHub Actions failures, formulating git commit messages, reading from Confluence and Jira, designing PostgreSQL tables, writing Terraform code, and assisting with unit tests. The repository provides installation and usage instructions for both Claude Code and Codex.
+TAGS: codex, claude-code, skills, cli, tools, github, jira, confluence, postgresql, terraform, unit-testing
+MAIN_FEATURES:
+- Provides a collection of command-line tools as skills for Codex and Claude Code.
+- Offers an alternative to MCP for context tailoring.
+- Includes skills for a variety of development tasks, including Git, GitHub, Jira, Confluence, and database design.
+- Provides clear installation and usage instructions.
+
+URL: https://github.com/ykdojo/claude-code-tips
+CATEGORY: Guides & Articles
+SHORT_DESCRIPTION: A collection of 45 tips for optimizing the use of Claude Code, focusing on workflow, context management, and system prompt optimization.
+LONG_DESCRIPTION: This GitHub repository provides 45 tips for getting the most out of Claude Code. The tips cover a wide range of topics, including custom status lines, system prompt optimization to reduce token usage, and a "minion workflow" that uses the Gemini CLI as a fallback. It also details techniques for context management, such as creating "handoff" documents and "half-cloning" conversations. Other tips include mastering slash commands, using voice input, decomposing problems, and leveraging Git and GitHub CLI. The repository includes custom commands, skills, and scripts to enhance the Claude Code experience.
+TAGS: claude-code, tips, guide, workflow, optimization, context-management, cli, ai-agents
+MAIN_FEATURES:
+- Provides 45 tips for optimizing Claude Code usage.
+- Includes a custom status line script.
+- Offers techniques for system prompt optimization to save tokens.
+- Describes a "minion workflow" using Gemini CLI.
+- Details context management strategies.
+- Includes custom commands, skills, and scripts.
+
+URL: https://github.com/robertpelloni/metamcp
+CATEGORY: MCP
+SHORT_DESCRIPTION: MetaMCP is an MCP (Model Context Protocol) aggregator, orchestrator, middleware, and gateway bundled into a single Docker container.
+LONG_DESCRIPTION: MetaMCP is a powerful tool for managing Model Context Protocol (MCP) servers. It functions as an aggregator, dynamically grouping multiple MCP servers into a unified one. It also acts as middleware, allowing transformations on MCP requests and responses. As a gateway, it assigns public endpoints with authentication. MetaMCP includes an enhanced MCP inspector and supports various authentication methods, including API-Key Auth, OAuth, and OpenID Connect. It's designed for multi-tenancy and is built with a modern tech stack including Next.js, Express.js, and tRPC, all in a Turborepo monorepo.
+TAGS: mcp, aggregator, orchestrator, middleware, gateway, docker, authentication, multi-tenancy, tRPC
+MAIN_FEATURES:
+- MCP server aggregation.
+- Request/response middleware.
+- Public endpoint gateway with authentication.
+- Enhanced MCP inspector.
+- Support for API-Key, OAuth, and OpenID Connect authentication.
+- Multi-tenancy support.
+- Bundled as a single Docker container.
+
+URL: https://github.com/microsoft/JARVIS
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: JARVIS (HuggingGPT) is a collaborative system from Microsoft Research that connects Large Language Models (LLMs) with expert models from the Hugging Face community to solve complex AI tasks.
+LONG_DESCRIPTION: JARVIS, also known as HuggingGPT, is a system developed by Microsoft Research that leverages a Large Language Model (LLM) like ChatGPT as a controller to manage a collection of specialized AI models from the Hugging Face community. The system operates in four stages: task planning, model selection, task execution, and response generation. It includes features like EasyTool for enhancing LLM-based agents, TaskBench for evaluating task automation, and multi-mode support (Server, Web, Gradio, CLI). The project is based on the paper "HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace".
+TAGS: microsoft-research, llm, huggingface, ai-agents, multi-agent, orchestration, task-planning, model-selection, gpt-4
+MAIN_FEATURES:
+- Connects LLMs with expert models from the Hugging Face community.
+- Four-stage workflow: task planning, model selection, task execution, and response generation.
+- EasyTool for enhancing LLM-based agents with concise tool instructions.
+- TaskBench for evaluating the task automation capabilities of LLMs.
+- Multi-mode support: Server (Web API), Web interface, Gradio demo, and CLI.
+- Flexible inference options (local, Hugging Face Inference Endpoints, or hybrid).
+- Support for OpenAI services on Azure and the GPT-4 model.
+
+URL: https://github.com/activeloopai/examples
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: The official Activeloop examples repository, containing Jupyter notebooks and Python scripts for evaluating machine learning models in various domains using the Deep Lake vector database.
+LONG_DESCRIPTION: This GitHub repository from Activeloop AI is a collection of examples and tutorials demonstrating the use of their Deep Lake vector database. It includes Jupyter notebooks and Python scripts for a variety of machine learning tasks and domains, such as AgriTech, Biomedical, and Autonomous Vehicles. The examples often include evaluation scripts for assessing model performance. The repository serves as a practical guide for developers looking to implement and evaluate machine learning models using Deep Lake as their data backbone.
+TAGS: activeloop, deep-lake, vector-database, machine-learning, evaluation, examples, tutorials, python, jupyter-notebook
+MAIN_FEATURES:
+- Official examples repository for Activeloop's Deep Lake.
+- Contains Jupyter notebooks and Python scripts.
+- Covers various domains like AgriTech, Biomedical, and Autonomous Vehicles.
+- Includes evaluation scripts for machine learning models.
+- Serves as a practical guide for using Deep Lake.
+
+URL: https://github.com/microsoft/promptflow
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: A suite of development tools from Microsoft designed to streamline the end-to-end development cycle of LLM-based AI applications.
+LONG_DESCRIPTION: Prompt flow is a suite of development tools from Microsoft that streamlines the entire development lifecycle of LLM-based AI applications. It supports developers from ideation and prototyping to testing, evaluation, production deployment, and monitoring. With prompt flow, you can create and iteratively develop executable flows that link LLMs, prompts, Python code, and other tools. It also provides capabilities for evaluating the quality and performance of flows with large datasets and integrating these evaluations into CI/CD systems. The tool is designed for collaboration, with a cloud version available in Azure AI.
+TAGS: microsoft, llm, ai-applications, development-tools, prompt-engineering, workflow, evaluation, deployment, monitoring, azure-ai
+MAIN_FEATURES:
+- Create and iteratively develop executable flows linking LLMs, prompts, and Python code.
+- Evaluate flow quality and performance with large datasets.
+- Streamlined deployment to various serving platforms.
+- CI/CD integration for evaluation.
+- Cloud version in Azure AI for team collaboration.
+- VS Code extension for an interactive designer experience.
+
+URL: https://github.com/e2b-dev/awesome-ai-agents
+CATEGORY: Awesome Lists
+SHORT_DESCRIPTION: A curated list of autonomous AI agents, divided into open-source and closed-source projects.
+LONG_DESCRIPTION: This GitHub repository provides a curated list of autonomous AI agents, categorized into open-source and closed-source projects. It covers a wide range of agents, from general-purpose frameworks like AutoGPT, BabyAGI, and AutoGen to specialized agents for coding (Aider, GPT Engineer), research (GPT Researcher), and data analysis (BambooAI). The list is structured into categories such as General Purpose, Coding, Multi-Agent Systems, Productivity, and Science. The repository also includes resources for developers, such as the E2B Code Interpreter SDK and a list of awesome SDKs for AI agents.
+TAGS: ai-agents, autonomous-agents, awesome-list, open-source, closed-source, frameworks, coding, research, data-analysis
+MAIN_FEATURES:
+- Curated list of autonomous AI agents.
+- Divided into open-source and closed-source projects.
+- Categorized by purpose (General Purpose, Coding, Research, etc.).
+- Includes popular agents like AutoGPT, BabyAGI, and AutoGen.
+- Provides resources for developers, including SDKs.
+
+URL: https://github.com/solana-labs/solana-agent
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/prophetic-api/prophetic-one
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/leptonai/search_with_lepton
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: A project for building a conversational search engine (similar to Perplexity) in less than 500 lines of code using Lepton AI.
+LONG_DESCRIPTION: This GitHub repository, though now archived, provides the code and instructions for building a conversational search engine similar to Perplexity. The project is designed to be lightweight, with the entire implementation being less than 500 lines of code. It uses Lepton AI for the LLM and KV store, and supports multiple search providers like Bing and Google. The tech stack is a combination of Python for the backend and TypeScript/Next.js for the frontend. The repository includes setup and deployment instructions.
+TAGS: lepton-ai, conversational-search, search-engine, llm, python, typescript, nextjs, archived
+MAIN_FEATURES:
+- Build a conversational search engine in less than 500 lines of code.
+- Supports multiple search engines (Bing, Google).
+- Uses Lepton AI for LLM and KV.
+- Customizable UI with shareable and cached search results.
+- Tech stack: Python (backend), TypeScript/Next.js (frontend).
+
+URL: https://news.ycombinator.com/item?id=39585276
+STATUS: SKIPPED - Processing github link found in comments: https://github.com/marimo-team/marimo
+
+URL: https://github.com/marimo-team/marimo
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: A reactive Python notebook designed to be reproducible, git-friendly, and deployable as both scripts and apps.
+LONG_DESCRIPTION: Marimo is a reactive Python notebook that offers a different approach to interactive computing. Its key feature is reactive execution, where running a cell automatically updates all dependent cells, ensuring a consistent notebook state. Notebooks are stored as standard `.py` files, making them version-control friendly. Marimo includes interactive UI elements, first-class SQL support, and an AI assistant. Notebooks can be executed as scripts or deployed as interactive web apps.
+TAGS: python, notebook, reactive, jupyter-alternative, data-science, machine-learning, visualization, reproducible-research
+MAIN_FEATURES:
+- Reactive execution model.
+- Notebooks are stored as pure Python files.
+- Interactive UI elements without callbacks.
+- First-class SQL support.
+- AI assistant for data work and code generation.
+- Deployable as scripts or interactive web apps.
+- Modern editor with GitHub Copilot integration, Vim keybindings, and a variable explorer.
+
+URL: https://news.ycombinator.com/item?id=39333306
+STATUS: SKIPPED - No github links found in comments.
+
+URL: https://github.com/zed-industries/zed-fonts
+CATEGORY: Fonts
+SHORT_DESCRIPTION: The official repository for Zed Mono, a custom-built version of the Iosevka typeface, optimized for the Zed editor.
+LONG_DESCRIPTION: This GitHub repository hosts the Zed Mono font, a custom version of the Iosevka typeface that is optimized for the Zed code editor. It is designed for high readability in coding environments and includes programming ligatures. The repository also provides information on how to install and use the font, including a Nerd Font version for terminal icons and glyphs.
+TAGS: font, programming-font, zed-editor, iosevka, nerd-font, developer-tools
+MAIN_FEATURES:
+- Custom-built version of the Iosevka typeface.
+- Optimized for the Zed code editor.
+- Supports programming ligatures.
+- Available as a patched "Nerd Font".
+- Provides installation instructions for macOS and manual download.
+
+URL: https://github.com/BerriAI/litellm
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: LiteLLM is a Python SDK and Proxy Server (AI Gateway) that simplifies calling over 100 LLM APIs using a unified OpenAI-compatible format.
+LONG_DESCRIPTION: LiteLLM, from BerriAI, is a powerful tool for working with Large Language Models (LLMs). It provides a unified interface to call over 100 LLM APIs, including those from Bedrock, Azure, OpenAI, VertexAI, and Anthropic, using the same input/output format. LiteLLM also includes an AI Gateway (Proxy Server) for centralized cost tracking, guardrails, load balancing, and logging. It supports the A2A protocol for invoking agents and an MCP Gateway for connecting Model Context Protocol (MCP) servers to any LLM. The project has built-in observability support and is benchmarked for high performance.
+TAGS: python, sdk, llm, ai-gateway, proxy-server, api-unification, observability, mcp, a2a
+MAIN_FEATURES:
+- Unified interface for over 100 LLM APIs.
+- AI Gateway (Proxy Server) for cost tracking, guardrails, and more.
+- A2A protocol support for invoking agents.
+- MCP Gateway to connect MCP servers to any LLM.
+- Built-in observability with tools like Lunary, MLflow, and Langfuse.
+- High-performance, benchmarked at 8ms P95 latency at 1k RPS.
+- Enterprise tier and OSS components available.
+
+URL: https://github.com/jina-ai/jina
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: Jina (also known as Jina Serve) is a cloud-native framework for building and deploying multimodal AI services with support for gRPC, HTTP, and WebSockets.
+LONG_DESCRIPTION: Jina is a cloud-native framework that simplifies the development and deployment of multimodal AI services. It offers native support for major ML frameworks and diverse data types, enabling developers to build services that can handle text, images, and more. Jina is designed for high performance, with features like dynamic batching, streaming, and scaling. It also provides built-in orchestration for Docker, Kubernetes, and Docker Compose, and specialized support for token-by-token streaming for responsive LLM applications. The framework uses `DocArray` for handling inputs and outputs, and its core concepts include Executors (for core logic) and Flows (for chaining Executors into a pipeline).
+TAGS: jina, multimodal-ai, cloud-native, framework, deployment, grpc, http, websockets, llm, orchestration
+MAIN_FEATURES:
+- Native support for major ML frameworks and diverse data types.
+- High-performance features like dynamic batching, streaming, and scaling.
+- Built-in orchestration for Docker, Kubernetes, and Docker Compose.
+- Specialized support for token-by-token streaming for LLM applications.
+- One-click deployment to Jina AI Cloud (JCloud).
+- Uses `DocArray` for handling inputs and outputs.
+- Core concepts of Executors and Flows for building service pipelines.
+
+URL: https://news.ycombinator.com/item?id=39006524
+STATUS: SKIPPED - No github links found in comments.
+
+URL: https://github.com/lobe-chat/lobe-chat
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/VinciGit/Vinci
+STATUS: SKIPPED - 404 Not Found, processing https://github.com/OpenGVLab/vinci instead.
+
+URL: https://github.com/OpenGVLab/vinci
+CATEGORY: AI Agents & Frameworks
+SHORT_DESCRIPTION: A real-time, embodied smart assistant from OpenGVLab based on an egocentric (first-person) vision-language model.
+LONG_DESCRIPTION: Vinci is a real-time, embodied smart assistant developed by OpenGVLab. It's designed for wearable cameras and smartphones, processing long video streams to answer questions about what the user is seeing in real-time. It supports hands-free interaction and task planning. The technology stack includes Python, PyTorch, CUDA, and Gradio.
+TAGS: ai-assistant, computer-vision, vision-language-model, egocentric-vision, wearable-ai, real-time, pytorch, gradio
+MAIN_FEATURES:
+- Real-time, embodied smart assistant.
+- Based on an egocentric (first-person) vision-language model.
+- Designed for wearable cameras and smartphones.
+- Processes long video streams to answer questions in real-time.
+- Supports hands-free interaction and task planning.
+
+URL: https://www.reddit.com/r/webdev/comments/1b54fga/showoff_saturday_what_are_you_working_on/
+STATUS: SKIPPED - Processing github links found in comments: https://github.com/ilies-space/snapvid, https://github.com/JustAnother-User/blank-canvas, https://github.com/Tcharles-dev/versat-app, https://github.com/unkey/unkey
+
+URL: https://github.com/ilies-space/snapvid
+CATEGORY: Development Tools & Libraries
+SHORT_DESCRIPTION: A video downloader and organizer application, likely built with React Native or SwiftUI, for managing social media content.
+LONG_DESCRIPTION: SnapVid is a mobile application for downloading and organizing videos from social media platforms like TikTok, Instagram, and Facebook. It allows users to save videos without watermarks and organize them into folders. The application also includes features for content analysis, such as analyzing captions, hashtags, and music from social media posts. It supports high-quality video downloads and provides social tools like a hashtag generator and a trending sounds discovery tool. The developer's expertise suggests the app is likely built with React Native or SwiftUI.
+TAGS: mobile-app, video-downloader, organizer, react-native, swiftui, social-media, tiktok, instagram, facebook
+MAIN_FEATURES:
+- Downloads videos from social media platforms without watermarks.
+- Video organization with folders.
+- Content analysis of captions, hashtags, and music.
+- Supports high-quality video downloads (Full HD and 4K).
+- Hashtag generator and trending sounds discovery tools.
+
+URL: https://github.com/JustAnother-User/blank-canvas
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/Tcharles-dev/versat-app
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://github.com/unkey/unkey
+STATUS: SKIPPED - 404 Not Found
+
+URL: https://www.felix.cat/
+CATEGORY: Other
+SHORT_DESCRIPTION: The Catalan Wikipedia entry for "Felix the Cat", the famous cartoon character from the silent film era.
+LONG_DESCRIPTION: This page is the Catalan Wikipedia entry for "Felix the Cat," the iconic anthropomorphic black cat character created in the silent film era. The article details his creation in 1919, the dispute over his origin between Pat Sullivan and Otto Messmer, his evolution in appearance, and his rise to become the first animated superstar. It covers his filmography, transition to comics, and eventual television revival, including the introduction of his "magic bag of tricks." The page is written in Catalan and provides a comprehensive overview of the character's history and cultural impact.
+TAGS: felix-the-cat, cartoon, animation, silent-film, history, wikipedia, catalan
+
