@@ -6,24 +6,27 @@ def normalize_url(url):
     
     if "github.com" in parsed.netloc:
         path_parts = [part for part in parsed.path.split('/') if part]
-        
         # Keep owner/repo parts
         if len(path_parts) >= 2:
             normalized_path = f"/{path_parts[0]}/{path_parts[1]}"
         else:
-            normalized_path = "" # Fallback if not enough parts
-            
+            normalized_path = parsed.path
         normalized_url = urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', '')).rstrip('/')
+    elif "docs." in parsed.netloc or "documentation" in parsed.path:
+        # For documentation, keep the full path but strip trailing slashes/fragments
+        normalized_url = urlunparse((parsed.scheme, parsed.netloc, parsed.path.rstrip('/'), '', '', '')).rstrip('/')
     else:
-        # For non-GitHub links, just keep scheme and netloc (domain)
+        # For general links, keep scheme and netloc
         normalized_url = urlunparse((parsed.scheme, parsed.netloc, '', '', '', '')).rstrip('/')
 
     return normalized_url
 
 # Define file paths
 bookmarks_file = 'bookmarks.txt'
+processed_file = 'processed.txt'
 temp_processed_file = 'temp_processed.txt'
-output_file = 'next_link.txt' # To store the found link
+failed_file = 'failed_bookmarks.txt'
+output_file = 'next_link.txt'
 
 all_links_raw = []
 try:
@@ -32,30 +35,39 @@ try:
 except FileNotFoundError:
     pass
 
-all_links = []
-for link in all_links_raw:
-    if "reddit.com" in link or "news.ycombinator.com" in link or "google.com/search" in link or "gtaforums.com" in link or "usercontent.google.com" in link or "gumroad.com" in link or "hachyderm.io" in link or "jules.google.com" in link or "provenpixel.com" in link or "ubereats.com" in link or "couponfollow.com" in link or "vanguard.com" in link or "facebook.com" in link or "youtube.com" in link or "mail.google.com" in link or "mastodon.social" in link or "discourse.org" in link or "mitragaia.com" in link:
-        continue
-    all_links.append(link)
-
 processed_urls = set()
-try:
-    with open(temp_processed_file, 'r', encoding='utf-8', errors='ignore') as f:
-        processed_data = f.read()
-    for line in processed_data.splitlines():
-        if line.startswith('URL:'):
-            processed_urls.add(normalize_url(line[4:].strip()))
-        # Also add normalized form of discussion links if they were recorded as such
-        elif "reddit.com" in line or "news.ycombinator.com" in line or "google.com/search" in line:
-            # Assuming these lines might contain a raw URL from a discussion
-            # This heuristic might need refinement if discussion links are recorded differently
-            if "http" in line: # Basic check to ensure it's a URL-like string
-                 processed_urls.add(normalize_url(line.strip()))
-except FileNotFoundError:
-    pass
+
+# Helper to read and normalize URLs from various file formats
+def collect_processed(file_path):
+    if not os.path.exists(file_path):
+        return
+    with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            # Handle processed.txt (comma-separated or just URL)
+            if ',' in line:
+                url = line.split(',')[0].strip()
+                processed_urls.add(normalize_url(url))
+            # Handle temp_processed.txt (URL: ...)
+            elif line.startswith('URL:'):
+                processed_urls.add(normalize_url(line[4:].strip()))
+            # Handle raw URLs
+            elif line.startswith('http'):
+                processed_urls.add(normalize_url(line))
+
+collect_processed(processed_file)
+collect_processed(temp_processed_file)
+collect_processed(failed_file)
 
 next_link = ""
-for link in all_links:
+for link in all_links_raw:
+    # Skip known social/search platforms unless they are discussion threads to extract from
+    # But for finding the NEXT link, we generally want project/doc links
+    if any(domain in link for domain in ["google.com/search", "gtaforums.com", "facebook.com", "mail.google.com"]):
+        continue
+        
     normalized_link = normalize_url(link)
     if normalized_link not in processed_urls:
         next_link = link
