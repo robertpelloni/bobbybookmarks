@@ -64,6 +64,7 @@ async function api(path, opts = {}) {
 const state = {
   stats: {},
   analytics: {},
+  externalCorpus: {},
   sessions: [],
 
   importText: '',
@@ -165,6 +166,70 @@ function renderAnalytics() {
   updateSourceFilter();
 }
 
+function renderExternalCorpus() {
+  const corpus = state.externalCorpus || {};
+  const summary = corpus.summary || {};
+  setText('xc-total', summary.total_rows || 0);
+  setText('xc-borg', summary.borg_rows || 0);
+  setText('xc-categories', summary.category_count || 0);
+  setText('xc-innovation', summary.avg_innovation_score ?? 'n/a');
+
+  renderMetricList('external-levels', corpus.research_levels || [], item => ({
+    title: item.level,
+    subtitle: 'research level',
+    value: item.count,
+    chips: [],
+    filters: {},
+  }));
+  renderMetricList('external-categories', corpus.top_categories || [], item => ({
+    title: item.category,
+    subtitle: 'category frequency',
+    value: item.count,
+    chips: [],
+    filters: {},
+  }));
+  renderMetricList('external-tags', corpus.top_tags || [], item => ({
+    title: item.tag,
+    subtitle: 'external corpus tag',
+    value: item.count,
+    chips: [],
+    filters: {},
+  }));
+  renderMetricList('external-innovation', corpus.innovation_distribution || [], item => ({
+    title: `Score ${item.score}`,
+    subtitle: 'innovation score',
+    value: item.count,
+    chips: [],
+    filters: {},
+  }));
+
+  const recent = $('external-recent-borg');
+  if (!recent) return;
+  if (!corpus.available) {
+    recent.innerHTML = '<div class="empty-state compact-empty">External corpus database not available.</div>';
+    return;
+  }
+  if (!(corpus.recent_borg || []).length) {
+    recent.innerHTML = '<div class="empty-state compact-empty">No borg rows yet.</div>';
+    return;
+  }
+  recent.innerHTML = corpus.recent_borg.map(item => `
+    <div class="bm-card">
+      <div class="bm-body">
+        <a class="bm-title" href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escHtml(truncate(item.url, 90))}</a>
+        <div class="bm-desc">${escHtml(item.category)}</div>
+        <div class="bm-tags">${(item.tags || []).map((tag, i) => tagChip(tag, i)).join('')}</div>
+      </div>
+      <div class="bm-meta">
+        <div class="bm-badges">
+          <span class="chip chip-purple">${escHtml(item.research_level)}</span>
+          <span class="chip chip-yellow">innovation ${item.innovation_score ?? 'n/a'}</span>
+        </div>
+      </div>
+    </div>
+  `).join('');
+}
+
 function renderBar(id, val, total, color) {
   const el = $(id);
   if (!el) return;
@@ -188,7 +253,7 @@ function activateTab(tabId) {
   if (tabId === 'research')  { loadResearchStatus(); startResearchPoll(); }
   else stopResearchPoll();
   if (tabId === 'categories') loadClusters();
-  if (tabId === 'stats')  { Promise.all([loadStats(), loadAnalytics()]); }
+  if (tabId === 'stats')  { Promise.all([loadStats(), loadAnalytics(), loadExternalCorpus()]); }
   if (tabId === 'import') loadSessions();
 }
 
@@ -632,6 +697,14 @@ async function loadAnalytics() {
     const d = await api('/api/analytics');
     state.analytics = d;
     renderAnalytics();
+  } catch (_) {}
+}
+
+async function loadExternalCorpus() {
+  try {
+    const d = await api('/api/external-corpus');
+    state.externalCorpus = d;
+    renderExternalCorpus();
   } catch (_) {}
 }
 

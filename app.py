@@ -1,5 +1,6 @@
 import os
 import logging
+import sqlite3
 from collections import Counter, defaultdict
 from itertools import combinations
 from urllib.parse import urlparse
@@ -28,6 +29,7 @@ BOOKMARK_SORT_FIELDS = {
     "research_status": Bookmark.research_status,
     "http_status": Bookmark.http_status,
 }
+EXTERNAL_BOOKMARKS_DB_PATH = os.path.join(os.path.dirname(__file__), "bookmarks.db")
 
 
 def extract_domain(url):
@@ -46,6 +48,12 @@ def normalize_tag(tag):
 
 def bookmark_tag_list(bookmark):
     return [tag for tag in (normalize_tag(tag) for tag in (bookmark.tags or [])) if tag]
+
+
+def split_csv_field(value):
+    if not value:
+        return []
+    return [part.strip() for part in str(value).split(",") if part.strip()]
 
 
 def build_timeline(bookmarks, attr_name, limit=14):
@@ -237,6 +245,72 @@ def build_research_status_payload():
             "total_processed": done + failed,
         },
         "external_worker": external_worker,
+    }
+
+
+def build_external_corpus_payload(db_path=EXTERNAL_BOOKMARKS_DB_PATH):
+    if not os.path.exists(db_path):
+        return {"available": False, "summary": {}, "research_levels": [], "top_categories": [], "top_tags": [], "innovation_distribution": [], "recent_borg": []}
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    try:
+        cur = conn.cursor()
+        cur.execute("SELECT COUNT(*) FROM bookmarks")
+        total_rows = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(*) FROM bookmarks WHERE research_level = ?", ("borg",))
+        borg_rows = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(DISTINCT category) FROM bookmarks")
+        category_count = cur.fetchone()[0]
+        cur.execute("SELECT AVG(innovation_score) FROM bookmarks WHERE innovation_score IS NOT NULL")
+        avg_innovation = cur.fetchone()[0]
+        cur.execute("SELECT research_level, COUNT(*) AS count FROM bookmarks GROUP BY research_level ORDER BY count DESC, research_level ASC")
+        research_levels = [{"level": row["research_level"] or "unknown", "count": row["count"]} for row in cur.fetchall()]
+        cur.execute("SELECT category, COUNT(*) AS count FROM bookmarks GROUP BY category ORDER BY count DESC, category ASC LIMIT 12")
+        top_categories = [{"category": row["category"] or "Uncategorized", "count": row["count"]} for row in cur.fetchall()]
+        cur.execute("SELECT innovation_score, COUNT(*) AS count FROM bookmarks WHERE innovation_score IS NOT NULL GROUP BY innovation_score ORDER BY innovation_score DESC")
+        innovation_distribution = [{"score": row["innovation_score"], "count": row["count"]} for row in cur.fetchall()]
+        cur.execute(
+            """
+            SELECT url, category, tags, innovation_score, research_level
+            FROM bookmarks
+            WHERE research_level = ?
+            ORDER BY id DESC
+            LIMIT 10
+            """,
+            ("borg",),
+        )
+        recent_borg = [
+            {
+                "url": row["url"],
+                "category": row["category"] or "Uncategorized",
+                "tags": split_csv_field(row["tags"])[:6],
+                "innovation_score": row["innovation_score"],
+                "research_level": row["research_level"],
+            }
+            for row in cur.fetchall()
+        ]
+        cur.execute("SELECT tags FROM bookmarks WHERE tags IS NOT NULL AND tags != ''")
+        tag_counter = Counter()
+        for row in cur.fetchall():
+            for tag in split_csv_field(row["tags"]):
+                tag_counter[normalize_tag(tag)] += 1
+    finally:
+        conn.close()
+
+    return {
+        "available": True,
+        "summary": {
+            "total_rows": total_rows,
+            "borg_rows": borg_rows,
+            "category_count": category_count,
+            "avg_innovation_score": round(avg_innovation, 2) if avg_innovation is not None else None,
+        },
+        "research_levels": research_levels,
+        "top_categories": top_categories,
+        "top_tags": [{"tag": tag, "count": count} for tag, count in tag_counter.most_common(15)],
+        "innovation_distribution": innovation_distribution,
+        "recent_borg": recent_borg,
     }
 
 
@@ -609,6 +683,10 @@ def create_app(config_object=None):
         bookmarks = Bookmark.query.order_by(Bookmark.id.asc()).all()
         clusters = Cluster.query.order_by(Cluster.name.asc()).all()
         return jsonify(build_analytics_payload(bookmarks, clusters))
+
+    @app.route("/api/external-corpus", methods=["GET"])
+    def api_external_corpus():
+        return jsonify(build_external_corpus_payload())
 
     # ------------------------------------------------------------------ #
     # Import sessions

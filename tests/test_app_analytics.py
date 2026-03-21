@@ -1,6 +1,8 @@
 from datetime import datetime
 from unittest.mock import patch
+import sqlite3
 
+from app import build_external_corpus_payload
 from models import Bookmark, Cluster, db
 
 
@@ -189,3 +191,64 @@ def test_api_research_status_falls_back_to_app_worker(client, app):
     assert payload["running"] is True
     assert payload["worker_mode"] == "app"
     assert payload["external_worker"]["running"] is False
+
+
+def test_build_external_corpus_payload_summarizes_root_schema(tmp_path):
+    db_path = tmp_path / "external.db"
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE bookmarks (
+            id INTEGER PRIMARY KEY,
+            url TEXT,
+            category TEXT,
+            short_description TEXT,
+            long_description TEXT,
+            tags TEXT,
+            main_features TEXT,
+            created_at TEXT,
+            research_level TEXT,
+            innovation_score INTEGER
+        )
+        """
+    )
+    cur.executemany(
+        "INSERT INTO bookmarks (url, category, tags, research_level, innovation_score) VALUES (?, ?, ?, ?, ?)",
+        [
+            ("https://example.com/a", "AI Agents", "agents, orchestration", "borg", 10),
+            ("https://example.com/b", "AI Agents", "agents, tools", "borg", 8),
+            ("https://example.com/c", "Infrastructure", "proxy, tools", "deep", 6),
+        ],
+    )
+    conn.commit()
+    conn.close()
+
+    payload = build_external_corpus_payload(str(db_path))
+
+    assert payload["available"] is True
+    assert payload["summary"]["total_rows"] == 3
+    assert payload["summary"]["borg_rows"] == 2
+    assert payload["summary"]["category_count"] == 2
+    assert payload["summary"]["avg_innovation_score"] == 8.0
+    assert payload["research_levels"][0] == {"level": "borg", "count": 2}
+    assert payload["top_categories"][0] == {"category": "AI Agents", "count": 2}
+    assert payload["top_tags"][0] == {"tag": "agents", "count": 2}
+    assert payload["recent_borg"][0]["research_level"] == "borg"
+
+
+def test_api_external_corpus_uses_helper(client):
+    mocked = {
+        "available": True,
+        "summary": {"total_rows": 100, "borg_rows": 10, "category_count": 5, "avg_innovation_score": 7.5},
+        "research_levels": [{"level": "borg", "count": 10}],
+        "top_categories": [{"category": "AI Agents", "count": 20}],
+        "top_tags": [{"tag": "agents", "count": 30}],
+        "innovation_distribution": [{"score": 10, "count": 4}],
+        "recent_borg": [{"url": "https://example.com", "category": "AI Agents", "tags": ["agents"], "innovation_score": 10, "research_level": "borg"}],
+    }
+    with patch("app.build_external_corpus_payload", return_value=mocked):
+        response = client.get("/api/external-corpus")
+
+    assert response.status_code == 200
+    assert response.get_json()["summary"]["total_rows"] == 100
