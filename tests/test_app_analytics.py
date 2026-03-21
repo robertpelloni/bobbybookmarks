@@ -292,6 +292,10 @@ def test_query_external_corpus_bookmarks_filters_and_sorts(tmp_path):
     assert payload["bookmarks"][0]["url"] == "https://example.com/a"
     assert payload["bookmarks"][0]["main_features"] == ["memory", "planning"]
 
+    payload = query_external_corpus_bookmarks(str(db_path), category="AI Agents", tags="tools", sort="id", direction="desc")
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["url"] == "https://example.com/c"
+
 
 def test_api_external_corpus_bookmarks_uses_query_helper(client):
     mocked = {

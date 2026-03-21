@@ -187,28 +187,32 @@ function renderExternalCorpus() {
     subtitle: 'research level',
     value: item.count,
     chips: [],
-    filters: {},
+    filters: { research_level: item.level },
+    target: 'external',
   }));
   renderMetricList('external-categories', corpus.top_categories || [], item => ({
     title: item.category,
     subtitle: 'category frequency',
     value: item.count,
     chips: [],
-    filters: {},
+    filters: { category: item.category },
+    target: 'external',
   }));
   renderMetricList('external-tags', corpus.top_tags || [], item => ({
     title: item.tag,
     subtitle: 'external corpus tag',
     value: item.count,
     chips: [],
-    filters: {},
+    filters: { tags: item.tag },
+    target: 'external',
   }));
   renderMetricList('external-innovation', corpus.innovation_distribution || [], item => ({
     title: `Score ${item.score}`,
     subtitle: 'innovation score',
     value: item.count,
     chips: [],
-    filters: {},
+    filters: { min_innovation: String(item.score), sort: 'innovation_score', dir: 'desc' },
+    target: 'external',
   }));
 
   const recent = $('external-recent-borg');
@@ -224,7 +228,7 @@ function renderExternalCorpus() {
   recent.innerHTML = corpus.recent_borg.map(item => `
     <div class="bm-card">
       <div class="bm-body">
-        <a class="bm-title" href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escHtml(truncate(item.url, 90))}</a>
+        <button class="metric-link" data-external-filters='${escHtml(JSON.stringify({ q: item.url, research_level: item.research_level || '' }))}'>${escHtml(truncate(item.url, 90))}</button>
         <div class="bm-desc">${escHtml(item.category)}</div>
         <div class="bm-tags">${(item.tags || []).map((tag, i) => tagChip(tag, i)).join('')}</div>
       </div>
@@ -236,6 +240,7 @@ function renderExternalCorpus() {
       </div>
     </div>
   `).join('');
+  wireAnalyticsFilterButtons(recent);
 }
 
 function renderExternalBrowser() {
@@ -783,13 +788,14 @@ function renderMetricList(id, items, mapper) {
   el.innerHTML = items.map(item => {
     const mapped = mapper(item);
     const pct = Math.max(8, Math.round((mapped.value / max) * 100));
+    const filterAttr = mapped.target === 'external' ? 'data-external-filters' : 'data-filters';
     const chips = (mapped.chips || []).map(chip => `
-      <button class="chip chip-gray analytics-chip" data-filters='${escHtml(JSON.stringify(chip.filters || {}))}'>${escHtml(chip.label)}</button>
+      <button class="chip chip-gray analytics-chip" ${filterAttr}='${escHtml(JSON.stringify(chip.filters || {}))}'>${escHtml(chip.label)}</button>
     `).join('');
     return `
       <div class="metric-row">
         <div class="metric-row-head">
-          <button class="metric-link" data-filters='${escHtml(JSON.stringify(mapped.filters || {}))}'>${escHtml(mapped.title)}</button>
+          <button class="metric-link" ${filterAttr}='${escHtml(JSON.stringify(mapped.filters || {}))}'>${escHtml(mapped.title)}</button>
           <span class="metric-value">${mapped.value}</span>
         </div>
         ${mapped.subtitle ? `<div class="metric-subtitle">${escHtml(mapped.subtitle)}</div>` : ''}
@@ -831,6 +837,13 @@ function wireAnalyticsFilterButtons(root) {
       } catch (_) {}
     });
   });
+  root.querySelectorAll('[data-external-filters]').forEach(el => {
+    el.addEventListener('click', () => {
+      try {
+        openExternalBrowserFilters(JSON.parse(el.dataset.externalFilters || '{}'));
+      } catch (_) {}
+    });
+  });
 }
 
 function openBookmarkFilters(filters) {
@@ -849,6 +862,27 @@ function openBookmarkFilters(filters) {
   $('bm-tags-filter').value = state.bmTagsFilter;
   $('bm-duplicate-filter').value = state.bmDuplicateMode;
   activateTab('bookmarks');
+}
+
+function openExternalBrowserFilters(filters) {
+  state.externalSearch = filters.q || '';
+  state.externalCategory = filters.category || '';
+  state.externalLevel = filters.research_level || '';
+  state.externalMinInnovation = filters.min_innovation || '';
+  state.externalTagsFilter = filters.tags || '';
+  state.externalSort = filters.sort || 'id';
+  state.externalDir = filters.dir || 'desc';
+  $('external-search').value = state.externalSearch;
+  $('external-category').value = state.externalCategory;
+  $('external-level').value = state.externalLevel;
+  $('external-min-innovation').value = state.externalMinInnovation;
+  $('external-tags-filter').value = state.externalTagsFilter;
+  $('external-sort').value = state.externalSort;
+  $('external-dir').value = state.externalDir;
+  activateTab('stats');
+  loadExternalBrowser(1);
+  const list = $('external-browser-list');
+  if (list) list.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 /* ── Bootstrap ────────────────────────────────────────────────────────── */
