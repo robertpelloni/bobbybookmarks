@@ -1,4 +1,5 @@
 from datetime import datetime
+from unittest.mock import patch
 
 from models import Bookmark, Cluster, db
 
@@ -122,3 +123,69 @@ def test_api_bookmarks_supports_new_filters_and_sorting(client, app):
     assert response.status_code == 200
     assert payload["total"] == 1
     assert payload["bookmarks"][0]["is_duplicate"] is True
+
+
+def test_api_research_status_prefers_external_worker(client, app):
+    external_status = {
+        "worker_running": True,
+        "state": "researching",
+        "process": {"pid": 4321, "command_line": "python .\\deep_research.py"},
+        "progress": {"borg_rows": 120, "total_urls": 500, "remaining_urls": 380},
+        "log_state": {
+            "active_url": "https://example.com/current",
+            "last_extracted_url": "https://example.com/done",
+            "sleep_seconds": 59,
+            "last_message": "Sleeping 59s before retry.",
+            "last_timestamp": "2026-03-21 10:00:00,000",
+        },
+        "heartbeat": {
+            "updated_at": "2026-03-21T10:00:00Z",
+            "last_model": "models/gemini-2.5-pro",
+            "models": ["models/gemini-2.5-pro"],
+        },
+    }
+    with patch("app.build_external_worker_status", return_value=external_status):
+        response = client.get("/api/research/status")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["running"] is True
+    assert payload["worker_mode"] == "external"
+    assert payload["external_worker"]["pid"] == 4321
+    assert payload["external_worker"]["active_url"] == "https://example.com/current"
+    assert payload["external_worker"]["last_model"] == "models/gemini-2.5-pro"
+    assert payload["external_worker"]["borg_rows"] == 120
+
+
+def test_api_research_status_falls_back_to_app_worker(client, app):
+    external_status = {
+        "worker_running": False,
+        "state": "stopped",
+        "process": None,
+        "progress": {"borg_rows": 0, "total_urls": 0, "remaining_urls": 0},
+        "log_state": {
+            "active_url": None,
+            "last_extracted_url": None,
+            "sleep_seconds": None,
+            "last_message": None,
+            "last_timestamp": None,
+        },
+        "heartbeat": None,
+    }
+    worker = app.extensions.get("research_worker_override")
+    if worker is None:
+        from research import get_worker
+        worker = get_worker()
+    original_running = worker._running
+    worker._running = True
+    try:
+        with patch("app.build_external_worker_status", return_value=external_status):
+            response = client.get("/api/research/status")
+    finally:
+        worker._running = original_running
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["running"] is True
+    assert payload["worker_mode"] == "app"
+    assert payload["external_worker"]["running"] is False

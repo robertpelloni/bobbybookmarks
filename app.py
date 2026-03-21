@@ -12,6 +12,7 @@ from deduplicator import normalize_url, deduplicate_bookmarks
 from importer import detect_and_import
 from categorizer import cluster_bookmarks
 from research import get_worker
+from worker_status import build_status as build_external_worker_status
 
 logger = logging.getLogger(__name__)
 
@@ -184,6 +185,58 @@ def build_analytics_payload(bookmarks, clusters):
         "import_timeline": build_timeline(unique_bookmarks, "imported_at"),
         "research_timeline": build_timeline(unique_bookmarks, "researched_at"),
         "opportunities": opportunities,
+    }
+
+
+def build_research_status_payload():
+    worker = get_worker()
+    pending = Bookmark.query.filter_by(research_status="pending", is_duplicate=False).count()
+    running_count = Bookmark.query.filter_by(research_status="running").count()
+    done = Bookmark.query.filter_by(research_status="done").count()
+    failed = Bookmark.query.filter_by(research_status="failed").count()
+
+    external_status = build_external_worker_status()
+    external_worker = {
+        "running": external_status["worker_running"],
+        "state": external_status["state"],
+        "pid": external_status["process"]["pid"] if external_status["process"] else None,
+        "command_line": external_status["process"]["command_line"] if external_status["process"] else "",
+        "active_url": external_status["log_state"]["active_url"],
+        "last_extracted_url": external_status["log_state"]["last_extracted_url"],
+        "sleep_seconds": external_status["log_state"]["sleep_seconds"],
+        "last_message": external_status["log_state"]["last_message"],
+        "last_timestamp": external_status["log_state"]["last_timestamp"],
+        "heartbeat_updated_at": external_status["heartbeat"]["updated_at"] if external_status["heartbeat"] else None,
+        "last_model": external_status["heartbeat"]["last_model"] if external_status["heartbeat"] else None,
+        "models": external_status["heartbeat"]["models"] if external_status["heartbeat"] else [],
+        "borg_rows": external_status["progress"]["borg_rows"],
+        "total_urls": external_status["progress"]["total_urls"],
+        "remaining_urls": external_status["progress"]["remaining_urls"],
+    }
+    if external_worker["running"]:
+        worker_mode = "external"
+    elif worker._running:
+        worker_mode = "app"
+    else:
+        worker_mode = "stopped"
+
+    return {
+        "running": external_worker["running"] or worker._running,
+        "worker_mode": worker_mode,
+        "pending": pending,
+        "running_count": running_count,
+        "done": done,
+        "failed": failed,
+        "total_processed": done + failed,
+        "app_queue": {
+            "running": worker._running,
+            "pending": pending,
+            "running_count": running_count,
+            "done": done,
+            "failed": failed,
+            "total_processed": done + failed,
+        },
+        "external_worker": external_worker,
     }
 
 
@@ -457,20 +510,7 @@ def create_app(config_object=None):
     # ------------------------------------------------------------------ #
     @app.route("/api/research/status", methods=["GET"])
     def api_research_status():
-        worker = get_worker()
-        # Always query DB for accurate counts; worker only provides running state
-        pending = Bookmark.query.filter_by(research_status="pending", is_duplicate=False).count()
-        running_count = Bookmark.query.filter_by(research_status="running").count()
-        done = Bookmark.query.filter_by(research_status="done").count()
-        failed = Bookmark.query.filter_by(research_status="failed").count()
-        return jsonify({
-            "running": worker._running,
-            "pending": pending,
-            "running_count": running_count,
-            "done": done,
-            "failed": failed,
-            "total_processed": done + failed,
-        })
+        return jsonify(build_research_status_payload())
 
     @app.route("/api/research/start", methods=["POST"])
     def api_research_start():

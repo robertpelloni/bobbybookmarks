@@ -138,6 +138,11 @@ input,select,textarea { font-family: inherit; }
 .cluster-card:hover { transform:translateY(-2px);box-shadow:var(--shadow-md); }
 .cluster-card-header { display:flex;align-items:center;justify-content:space-between;margin-bottom:.75rem; }
 .cluster-card-name { font-size:.95rem;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap; }
+.mini-stat { background:#f8fafc; border:1px solid var(--c-border); border-radius:var(--radius); padding:.75rem; }
+.mini-stat-label { font-size:.72rem; text-transform:uppercase; letter-spacing:.04em; color:var(--c-muted); }
+.mini-stat-value { margin-top:.2rem; font-size:1rem; font-weight:700; color:var(--c-text); word-break:break-word; }
+.research-detail-list { display:flex; flex-direction:column; gap:.55rem; font-size:.88rem; color:var(--c-text); }
+.research-detail-list span { color:var(--c-muted); word-break:break-word; }
 
 .flex { display:flex; }
 .flex-center { display:flex;align-items:center; }

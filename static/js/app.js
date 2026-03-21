@@ -474,13 +474,30 @@ function renderResearchStatus() {
 
   const dot     = $('res-status-dot');
   const lbl     = $('res-status-lbl');
+  const modeLbl = $('res-worker-mode');
   const btnStart = $('btn-res-start');
   const btnStop  = $('btn-res-stop');
   const running  = !!d.running;
   if (dot) dot.className = `status-dot ${running ? 'active' : 'inactive'}`;
-  if (lbl) lbl.textContent = running ? 'Worker running' : 'Worker stopped';
+  const mode = d.worker_mode || 'stopped';
+  const external = d.external_worker || {};
+  if (lbl) {
+    if (mode === 'external') lbl.textContent = `External worker ${external.state || 'running'}`;
+    else if (mode === 'app') lbl.textContent = 'Web app worker running';
+    else lbl.textContent = 'Worker stopped';
+  }
+  if (modeLbl) modeLbl.textContent = `mode: ${mode}`;
   if (btnStart) btnStart.disabled = running;
-  if (btnStop)  btnStop.disabled  = !running;
+  if (btnStop)  btnStop.disabled  = mode !== 'app';
+
+  setText('res-worker-pid', external.pid || 'n/a');
+  setText('res-worker-borg', external.borg_rows || 0);
+  setText('res-worker-remaining', external.remaining_urls || 0);
+  setText('res-worker-model', external.last_model || 'n/a');
+  setText('res-worker-active-url', external.active_url || 'n/a');
+  setText('res-worker-last-url', external.last_extracted_url || 'n/a');
+  setText('res-worker-heartbeat', external.heartbeat_updated_at || 'n/a');
+  setText('res-worker-message', external.last_message || 'n/a');
 }
 
 function startResearchPoll() {

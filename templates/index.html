@@ -238,16 +238,46 @@
             <span class="status-dot inactive" id="res-status-dot"></span>
             <span class="text-sm font-semibold" id="res-status-lbl">Worker stopped</span>
           </div>
+          <span class="chip chip-gray" id="res-worker-mode">mode: stopped</span>
           <button id="btn-res-start" class="btn btn-success">▶ Start</button>
           <button id="btn-res-stop"  class="btn btn-ghost" style="color:var(--c-red)">⏹ Stop</button>
           <button id="btn-res-reset" class="btn btn-ghost">🔄 Reset Failed → Pending</button>
           <button id="btn-res-refresh" class="btn btn-ghost btn-sm" style="margin-left:auto">Refresh</button>
         </div>
         <p class="text-xs text-muted mt-4">
-          The research worker fetches each bookmark URL in the background, extracts page title &amp; description,
-          then calls the configured LLM to generate relevant tags.
-          Set <code>LLM_BACKEND</code>, <code>OPENAI_API_KEY</code>, or <code>OLLAMA_URL</code> environment variables to configure.
+          The web app has its own in-process queue, but the main long-running bookmark processor is the external
+          <code>deep_research.py</code> worker. Status below reflects that live external worker when available.
         </p>
+      </div>
+    </div>
+
+    <div class="card mt-6">
+      <div class="card-body">
+        <div class="card-title">🛰️ Live Worker Details</div>
+        <div class="grid-4 mb-4">
+          <div class="mini-stat">
+            <div class="mini-stat-label">PID</div>
+            <div class="mini-stat-value" id="res-worker-pid">n/a</div>
+          </div>
+          <div class="mini-stat">
+            <div class="mini-stat-label">Borg Rows</div>
+            <div class="mini-stat-value" id="res-worker-borg">0</div>
+          </div>
+          <div class="mini-stat">
+            <div class="mini-stat-label">Remaining URLs</div>
+            <div class="mini-stat-value" id="res-worker-remaining">0</div>
+          </div>
+          <div class="mini-stat">
+            <div class="mini-stat-label">Last Model</div>
+            <div class="mini-stat-value" id="res-worker-model">n/a</div>
+          </div>
+        </div>
+        <div class="research-detail-list">
+          <div><strong>Current URL:</strong> <span id="res-worker-active-url">n/a</span></div>
+          <div><strong>Last completed:</strong> <span id="res-worker-last-url">n/a</span></div>
+          <div><strong>Last heartbeat:</strong> <span id="res-worker-heartbeat">n/a</span></div>
+          <div><strong>Last message:</strong> <span id="res-worker-message">n/a</span></div>
+        </div>
       </div>
     </div>
   </div><!-- /tab-research -->
