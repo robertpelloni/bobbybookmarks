@@ -5,6 +5,7 @@ import sqlite3
 import requests
 import time
 import logging
+from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
 
@@ -24,6 +25,7 @@ logger = logging.getLogger(__name__)
 # File paths
 BOOKMARKS_FILE = 'bookmarks.txt'
 DB_PATH = 'bookmarks.db'
+STATUS_PATH = 'deep_research_status.json'
 
 gemini_pool = GeminiModelPool(logger=logger)
 GEMINI_MODELS = gemini_pool.models
@@ -74,7 +76,18 @@ def fetch_content(url):
     except Exception: pass
     return None
 
-def borg_research_url(url, content):
+def iso_now():
+    return datetime.now(timezone.utc).isoformat()
+
+def write_status(status):
+    payload = dict(status)
+    payload['updated_at'] = iso_now()
+    temp_path = f"{STATUS_PATH}.tmp"
+    with open(temp_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, indent=2, sort_keys=True)
+    os.replace(temp_path, STATUS_PATH)
+
+def borg_research_url(url, content, status):
     soup = BeautifulSoup(content, 'html.parser')
     for s in soup(['script', 'style']): s.decompose()
     text = re.sub(r'\s+', ' ', soup.get_text())[:10000] 
@@ -97,8 +110,23 @@ def borg_research_url(url, content):
     
     while True:
         try:
+            status.update({
+                'state': 'researching',
+                'active_url': url,
+                'sleep_seconds': None,
+                'last_error': None,
+            })
+            write_status(status)
             response, _ = gemini_pool.generate_content(prompt, f"researching {url}")
             if response is None:
+                status.update({
+                    'state': 'backing_off',
+                    'active_url': url,
+                    'sleep_seconds': gemini_pool.last_backoff_seconds,
+                    'last_error': gemini_pool.last_error_summary,
+                    'last_model': gemini_pool.last_model_name,
+                })
+                write_status(status)
                 continue
             res_text = response.text.strip()
             if "```json" in res_text: res_text = res_text.split("```json")[1].split("```")[0].strip()
@@ -106,6 +134,12 @@ def borg_research_url(url, content):
             return json.loads(res_text)
         except Exception as e:
             logger.error(f"Failed to decode Gemini response for {url}: {e}")
+            status.update({
+                'state': 'decode_error',
+                'active_url': url,
+                'last_error': str(e),
+            })
+            write_status(status)
             return None
 
 def main():
@@ -114,6 +148,8 @@ def main():
     cursor = conn.cursor()
     cursor.execute("SELECT url FROM bookmarks WHERE research_level = 'borg'")
     processed = {normalize_url(row[0]) for row in cursor.fetchall()}
+    cursor.execute("SELECT COUNT(*) FROM bookmarks WHERE research_level = 'borg'")
+    existing_borg_rows = cursor.fetchone()[0]
     
     urls = []
     with open(BOOKMARKS_FILE, 'r', encoding='utf-8', errors='ignore') as f:
@@ -121,14 +157,41 @@ def main():
             u = line.strip()
             if u.startswith('http') and normalize_url(u) not in processed:
                 urls.append(u)
-                
+
+    status = {
+        'worker_pid': os.getpid(),
+        'models': GEMINI_MODELS,
+        'state': 'starting',
+        'active_url': None,
+        'last_extracted_url': None,
+        'last_error': None,
+        'sleep_seconds': None,
+        'remaining_urls': len(urls),
+        'borg_rows': existing_borg_rows,
+    }
+    write_status(status)
     logger.info(f"Borg Intelligence Phase: {len(urls)} links remaining.")
     
-    for url in urls:
+    for index, url in enumerate(urls):
+        status.update({
+            'worker_pid': os.getpid(),
+            'state': 'fetching',
+            'active_url': url,
+            'sleep_seconds': None,
+            'remaining_urls': len(urls) - index,
+        })
+        write_status(status)
         content = fetch_content(url)
-        if not content: continue
+        if not content:
+            status.update({
+                'state': 'fetch_failed',
+                'active_url': url,
+                'last_error': 'fetch_failed',
+            })
+            write_status(status)
+            continue
         
-        rdata = borg_research_url(url, content)
+        rdata = borg_research_url(url, content, status)
         if rdata:
             try:
                 cursor.execute('''
@@ -153,8 +216,25 @@ def main():
                 ))
                 conn.commit()
                 logger.info(f"Borg Intelligence Extracted: {url}")
+                status.update({
+                    'state': 'processing',
+                    'active_url': url,
+                    'last_extracted_url': url,
+                    'last_error': None,
+                    'sleep_seconds': None,
+                    'remaining_urls': len(urls) - index - 1,
+                    'borg_rows': status.get('borg_rows', len(processed)) + 1,
+                    'last_model': gemini_pool.last_model_name,
+                })
+                write_status(status)
             except Exception as e:
                 logger.error(f"DB Error: {e}")
+                status.update({
+                    'state': 'db_error',
+                    'active_url': url,
+                    'last_error': str(e),
+                })
+                write_status(status)
         
         time.sleep(15) # Steady state
 

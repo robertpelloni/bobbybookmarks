@@ -1,8 +1,9 @@
+import logging
 import os
 import re
 import time
 
-import google.generativeai as genai
+from google import genai
 
 
 DEFAULT_GEMINI_MODELS = [
@@ -24,15 +25,27 @@ def stringify_field(value):
 
 
 class GeminiModelPool:
+    class _ModelAdapter:
+        def __init__(self, client, model_name):
+            self.client = client
+            self.model_name = model_name
+
+        def generate_content(self, prompt):
+            return self.client.models.generate_content(model=self.model_name, contents=prompt)
+
     def __init__(self, logger=None, default_models=None, sleep_seconds=30):
         self.logger = logger
         self.sleep_seconds = sleep_seconds
         self.models = self._load_models(default_models or DEFAULT_GEMINI_MODELS)
         self.model_cache = {}
         self.active_model_index = 0
+        self.last_backoff_seconds = None
+        self.last_error_summary = None
+        self.last_model_name = None
 
+        self._quiet_sdk_loggers()
         api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
-        genai.configure(api_key=api_key)
+        self.client = genai.Client(api_key=api_key)
 
     def _log(self, level, message):
         if self.logger and hasattr(self.logger, level):
@@ -41,6 +54,19 @@ class GeminiModelPool:
     def _summarize_error(self, error):
         message = " ".join(str(error).split())
         return message[:240]
+
+    def _quiet_sdk_loggers(self):
+        logger_levels = {
+            "google": logging.WARNING,
+            "google.genai": logging.WARNING,
+            "google_genai": logging.WARNING,
+            "google_genai.models": logging.WARNING,
+            "google_genai._api_client": logging.ERROR,
+            "httpx": logging.WARNING,
+            "httpcore": logging.WARNING,
+        }
+        for logger_name, level in logger_levels.items():
+            logging.getLogger(logger_name).setLevel(level)
 
     def _extract_retry_seconds(self, error):
         message = str(error)
@@ -74,7 +100,7 @@ class GeminiModelPool:
 
     def get_model(self, model_name):
         if model_name not in self.model_cache:
-            self.model_cache[model_name] = genai.GenerativeModel(model_name)
+            self.model_cache[model_name] = self._ModelAdapter(self.client, model_name)
         return self.model_cache[model_name]
 
     def generate_content(self, prompt, context_label):
@@ -87,6 +113,9 @@ class GeminiModelPool:
                 if model_index != self.active_model_index:
                     self._log("info", f"Switching Gemini model to {model_name}")
                 self.active_model_index = model_index
+                self.last_model_name = model_name
+                self.last_backoff_seconds = None
+                self.last_error_summary = None
                 return response, model_name
             except Exception as e:
                 last_error = e
@@ -102,8 +131,10 @@ class GeminiModelPool:
                 continue
 
         if last_error:
-            self._log("warning", f"Last Gemini failure while {context_label}: {self._summarize_error(last_error)}")
+            self.last_error_summary = self._summarize_error(last_error)
+            self._log("warning", f"Last Gemini failure while {context_label}: {self.last_error_summary}")
         sleep_seconds = self._extract_retry_seconds(last_error) if last_error else self.sleep_seconds
+        self.last_backoff_seconds = sleep_seconds
         self._log("warning", f"All Gemini models are currently unavailable while {context_label}. Sleeping {sleep_seconds}s before retry.")
         time.sleep(sleep_seconds)
         return None, None

@@ -12,6 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent
 BOOKMARKS_FILE = BASE_DIR / "bookmarks.txt"
 DB_PATH = BASE_DIR / "bookmarks.db"
 LOG_PATH = BASE_DIR / "borg_research.log"
+HEARTBEAT_PATH = BASE_DIR / "deep_research_status.json"
 
 
 def normalize_url(url):
@@ -93,6 +94,15 @@ def get_recent_log_state():
     return parse_log_lines(lines)
 
 
+def get_worker_heartbeat():
+    if not HEARTBEAT_PATH.exists():
+        return None
+    try:
+        return json.loads(HEARTBEAT_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
 def parse_log_lines(lines):
     last_timestamp = None
     last_message = None
@@ -137,12 +147,20 @@ def build_status():
     process = get_worker_process()
     progress = get_progress()
     log_state = get_recent_log_state()
+    heartbeat = get_worker_heartbeat()
     state = "idle"
     message = log_state["last_message"] or ""
-    if "Sleeping" in message:
+    if heartbeat and heartbeat.get("state"):
+        state = heartbeat["state"]
+    elif "Sleeping" in message:
         state = "backing_off"
     elif "Extracted" in message or "Switching Gemini model" in message or "Quota hit" in message:
         state = "processing"
+
+    if heartbeat:
+        log_state["active_url"] = heartbeat.get("active_url") or log_state["active_url"]
+        log_state["last_extracted_url"] = heartbeat.get("last_extracted_url") or log_state["last_extracted_url"]
+        log_state["sleep_seconds"] = heartbeat.get("sleep_seconds", log_state["sleep_seconds"])
 
     return {
         "worker_running": process is not None,
@@ -150,6 +168,7 @@ def build_status():
         "process": process,
         "progress": progress,
         "log_state": log_state,
+        "heartbeat": heartbeat,
     }
 
 
@@ -165,6 +184,7 @@ def print_text_status(status):
     print(f"total_urls: {progress['total_urls']}")
     print(f"remaining_urls: {progress['remaining_urls']}")
     print(f"last_timestamp: {log_state['last_timestamp'] or 'n/a'}")
+    print(f"heartbeat_updated_at: {status['heartbeat']['updated_at'] if status['heartbeat'] else 'n/a'}")
     print(f"active_url: {log_state['active_url'] or 'n/a'}")
     print(f"last_extracted_url: {log_state['last_extracted_url'] or 'n/a'}")
     print(f"sleep_seconds: {log_state['sleep_seconds'] if log_state['sleep_seconds'] is not None else 'n/a'}")

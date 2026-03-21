@@ -30,15 +30,31 @@ class TestBuildStatus:
             "last_extracted_url": None,
             "sleep_seconds": 59,
         }
-        with patch("worker_status.get_worker_process", return_value={"pid": 123, "name": "python.exe", "command_line": "python .\\deep_research.py"}), patch("worker_status.get_progress", return_value={"borg_rows": 10, "total_urls": 20, "remaining_urls": 10}), patch("worker_status.get_recent_log_state", return_value=log_state):
+        with patch("worker_status.get_worker_process", return_value={"pid": 123, "name": "python.exe", "command_line": "python .\\deep_research.py"}), patch("worker_status.get_progress", return_value={"borg_rows": 10, "total_urls": 20, "remaining_urls": 10}), patch("worker_status.get_recent_log_state", return_value=log_state), patch("worker_status.get_worker_heartbeat", return_value=None):
             status = build_status()
 
         assert status["worker_running"] is True
         assert status["state"] == "backing_off"
 
     def test_build_status_marks_stopped_without_process(self):
-        with patch("worker_status.get_worker_process", return_value=None), patch("worker_status.get_progress", return_value={"borg_rows": 10, "total_urls": 20, "remaining_urls": 10}), patch("worker_status.get_recent_log_state", return_value=parse_log_lines([])):
+        with patch("worker_status.get_worker_process", return_value=None), patch("worker_status.get_progress", return_value={"borg_rows": 10, "total_urls": 20, "remaining_urls": 10}), patch("worker_status.get_recent_log_state", return_value=parse_log_lines([])), patch("worker_status.get_worker_heartbeat", return_value=None):
             status = build_status()
 
         assert status["worker_running"] is False
         assert status["state"] == "stopped"
+
+    def test_build_status_prefers_heartbeat_fields(self):
+        heartbeat = {
+            "updated_at": "2026-03-21T05:00:00Z",
+            "state": "backing_off",
+            "active_url": "https://example.com/current",
+            "last_extracted_url": "https://example.com/done",
+            "sleep_seconds": 42,
+        }
+        with patch("worker_status.get_worker_process", return_value={"pid": 123, "name": "python.exe", "command_line": "python .\\deep_research.py"}), patch("worker_status.get_progress", return_value={"borg_rows": 10, "total_urls": 20, "remaining_urls": 10}), patch("worker_status.get_recent_log_state", return_value=parse_log_lines([])), patch("worker_status.get_worker_heartbeat", return_value=heartbeat):
+            status = build_status()
+
+        assert status["state"] == "backing_off"
+        assert status["log_state"]["active_url"] == "https://example.com/current"
+        assert status["log_state"]["last_extracted_url"] == "https://example.com/done"
+        assert status["log_state"]["sleep_seconds"] == 42
