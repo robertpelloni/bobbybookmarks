@@ -65,6 +65,14 @@ const state = {
   stats: {},
   analytics: {},
   externalCorpus: {},
+  externalBrowser: { bookmarks: [], total: 0, pages: 0, page: 1 },
+  externalSearch: '',
+  externalCategory: '',
+  externalLevel: '',
+  externalMinInnovation: '',
+  externalTagsFilter: '',
+  externalSort: 'id',
+  externalDir: 'desc',
   sessions: [],
 
   importText: '',
@@ -230,6 +238,42 @@ function renderExternalCorpus() {
   `).join('');
 }
 
+function renderExternalBrowser() {
+  const data = state.externalBrowser || {};
+  const list = $('external-browser-list');
+  if (!list) return;
+  setText('external-browser-count', `${data.total || 0} results`);
+  setText('external-page-info', `Page ${data.page || 1} / ${data.pages || 1}`);
+  $('external-prev').disabled = (data.page || 1) <= 1;
+  $('external-next').disabled = (data.page || 1) >= (data.pages || 1);
+
+  if (!(data.bookmarks || []).length) {
+    list.innerHTML = '<div class="empty-state compact-empty">No external bookmarks matched these filters.</div>';
+    return;
+  }
+
+  list.innerHTML = data.bookmarks.map(item => `
+    <div class="bm-card">
+      <div class="bm-body">
+        <a class="bm-title" href="${escHtml(item.url)}" target="_blank" rel="noopener noreferrer">${escHtml(truncate(item.url, 100))}</a>
+        <div class="bm-desc">${escHtml(item.short_description || item.long_description || item.category || '')}</div>
+        <div class="bm-tags">
+          ${(item.tags || []).slice(0, 8).map((tag, i) => tagChip(tag, i)).join('')}
+          ${(item.main_features || []).slice(0, 4).map(feature => `<span class="chip chip-gray">${escHtml(feature)}</span>`).join('')}
+        </div>
+      </div>
+      <div class="bm-meta">
+        <div class="bm-badges">
+          <span class="chip chip-purple">${escHtml(item.research_level || 'n/a')}</span>
+          <span class="chip chip-blue">${escHtml(item.category || 'Uncategorized')}</span>
+          <span class="chip chip-yellow">innovation ${item.innovation_score ?? 'n/a'}</span>
+        </div>
+        <span>${escHtml(item.created_at || '')}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
 function renderBar(id, val, total, color) {
   const el = $(id);
   if (!el) return;
@@ -253,7 +297,7 @@ function activateTab(tabId) {
   if (tabId === 'research')  { loadResearchStatus(); startResearchPoll(); }
   else stopResearchPoll();
   if (tabId === 'categories') loadClusters();
-  if (tabId === 'stats')  { Promise.all([loadStats(), loadAnalytics(), loadExternalCorpus()]); }
+  if (tabId === 'stats')  { Promise.all([loadStats(), loadAnalytics(), loadExternalCorpus(), loadExternalBrowser(1)]); }
   if (tabId === 'import') loadSessions();
 }
 
@@ -708,6 +752,26 @@ async function loadExternalCorpus() {
   } catch (_) {}
 }
 
+async function loadExternalBrowser(page = 1) {
+  state.externalBrowser.page = page;
+  const params = new URLSearchParams({
+    page,
+    per_page: 20,
+    q: state.externalSearch,
+    category: state.externalCategory,
+    research_level: state.externalLevel,
+    min_innovation: state.externalMinInnovation,
+    tags: state.externalTagsFilter,
+    sort: state.externalSort,
+    dir: state.externalDir,
+  });
+  try {
+    const d = await api('/api/external-corpus/bookmarks?' + params.toString());
+    state.externalBrowser = d;
+    renderExternalBrowser();
+  } catch (_) {}
+}
+
 function renderMetricList(id, items, mapper) {
   const el = $(id);
   if (!el) return;
@@ -896,6 +960,49 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Categories
   const btnCR = $('btn-cluster-refresh'); if (btnCR) btnCR.addEventListener('click', refreshClusters);
+
+  // External corpus browser
+  const externalSearch = $('external-search');
+  if (externalSearch) {
+    let t;
+    externalSearch.addEventListener('input', () => {
+      clearTimeout(t);
+      state.externalSearch = externalSearch.value.trim();
+      t = setTimeout(() => loadExternalBrowser(1), 400);
+    });
+  }
+  const externalCategory = $('external-category');
+  if (externalCategory) {
+    let t;
+    externalCategory.addEventListener('input', () => {
+      clearTimeout(t);
+      state.externalCategory = externalCategory.value.trim();
+      t = setTimeout(() => loadExternalBrowser(1), 400);
+    });
+  }
+  const externalLevel = $('external-level');
+  if (externalLevel) externalLevel.addEventListener('change', () => { state.externalLevel = externalLevel.value; loadExternalBrowser(1); });
+  const externalMinInnovation = $('external-min-innovation');
+  if (externalMinInnovation) externalMinInnovation.addEventListener('change', () => { state.externalMinInnovation = externalMinInnovation.value; loadExternalBrowser(1); });
+  const externalTagsFilter = $('external-tags-filter');
+  if (externalTagsFilter) {
+    let t;
+    externalTagsFilter.addEventListener('input', () => {
+      clearTimeout(t);
+      state.externalTagsFilter = externalTagsFilter.value.trim();
+      t = setTimeout(() => loadExternalBrowser(1), 400);
+    });
+  }
+  const externalSort = $('external-sort');
+  if (externalSort) externalSort.addEventListener('change', () => { state.externalSort = externalSort.value; loadExternalBrowser(1); });
+  const externalDir = $('external-dir');
+  if (externalDir) externalDir.addEventListener('change', () => { state.externalDir = externalDir.value; loadExternalBrowser(1); });
+  const btnExternalRefresh = $('btn-external-browser-refresh');
+  if (btnExternalRefresh) btnExternalRefresh.addEventListener('click', () => loadExternalBrowser(1));
+  const externalPrev = $('external-prev');
+  if (externalPrev) externalPrev.addEventListener('click', () => { if ((state.externalBrowser.page || 1) > 1) loadExternalBrowser(state.externalBrowser.page - 1); });
+  const externalNext = $('external-next');
+  if (externalNext) externalNext.addEventListener('click', () => { if ((state.externalBrowser.page || 1) < (state.externalBrowser.pages || 1)) loadExternalBrowser(state.externalBrowser.page + 1); });
 
   // Initial data load
   Promise.all([loadStats(), loadSessions(), loadClusters(), loadResearchStatus()]);

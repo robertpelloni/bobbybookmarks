@@ -2,7 +2,7 @@ from datetime import datetime
 from unittest.mock import patch
 import sqlite3
 
-from app import build_external_corpus_payload
+from app import build_external_corpus_payload, query_external_corpus_bookmarks
 from models import Bookmark, Cluster, db
 
 
@@ -252,3 +252,61 @@ def test_api_external_corpus_uses_helper(client):
 
     assert response.status_code == 200
     assert response.get_json()["summary"]["total_rows"] == 100
+
+
+def test_query_external_corpus_bookmarks_filters_and_sorts(tmp_path):
+    db_path = tmp_path / "external-list.db"
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE bookmarks (
+            id INTEGER PRIMARY KEY,
+            url TEXT,
+            category TEXT,
+            short_description TEXT,
+            long_description TEXT,
+            tags TEXT,
+            main_features TEXT,
+            created_at TEXT,
+            research_level TEXT,
+            innovation_score INTEGER
+        )
+        """
+    )
+    cur.executemany(
+        "INSERT INTO bookmarks (url, category, short_description, tags, main_features, created_at, research_level, innovation_score) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            ("https://example.com/a", "AI Agents", "Alpha", "agents, orchestration", "memory, planning", "2026-03-01", "borg", 10),
+            ("https://example.com/b", "Infrastructure", "Beta", "proxy, tools", "routing", "2026-03-02", "deep", 6),
+            ("https://example.com/c", "AI Agents", "Gamma", "agents, tools", "planning", "2026-03-03", "borg", 8),
+        ],
+    )
+    conn.commit()
+    conn.close()
+
+    payload = query_external_corpus_bookmarks(str(db_path), q="agents", research_level="borg", min_innovation=9, sort="innovation_score", direction="desc")
+
+    assert payload["available"] is True
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["url"] == "https://example.com/a"
+    assert payload["bookmarks"][0]["main_features"] == ["memory", "planning"]
+
+
+def test_api_external_corpus_bookmarks_uses_query_helper(client):
+    mocked = {
+        "available": True,
+        "bookmarks": [{"id": 1, "url": "https://example.com/a", "category": "AI Agents", "short_description": "", "long_description": "", "tags": ["agents"], "main_features": ["planning"], "created_at": "2026-03-01", "research_level": "borg", "innovation_score": 10}],
+        "total": 1,
+        "page": 1,
+        "per_page": 20,
+        "pages": 1,
+        "filters": {"q": "agents", "category": "", "research_level": "borg", "min_innovation": 9, "tags": "", "sort": "innovation_score", "dir": "desc"},
+    }
+    with patch("app.query_external_corpus_bookmarks", return_value=mocked):
+        response = client.get("/api/external-corpus/bookmarks?q=agents&research_level=borg&min_innovation=9&sort=innovation_score&dir=desc")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["research_level"] == "borg"

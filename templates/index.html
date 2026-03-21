@@ -493,6 +493,51 @@
         <div id="external-recent-borg"></div>
       </div>
     </div>
+
+    <div class="card mt-4">
+      <div class="card-body">
+        <div class="flex-between mb-4">
+          <div class="card-title" style="margin-bottom:0">🔎 External Corpus Browser</div>
+          <span class="text-sm text-muted" id="external-browser-count">0 results</span>
+        </div>
+        <div class="filters-row mb-4">
+          <input id="external-search" type="text" class="input" placeholder="Search URL, category, description, tags..." style="min-width:260px;flex:1" />
+          <input id="external-category" type="text" class="input" placeholder="Category" style="width:220px" />
+          <select id="external-level" class="select" style="width:auto">
+            <option value="">All levels</option>
+            <option value="heuristic">heuristic</option>
+            <option value="deep">deep</option>
+            <option value="borg">borg</option>
+          </select>
+          <select id="external-min-innovation" class="select" style="width:auto">
+            <option value="">Any innovation</option>
+            <option value="9">9+</option>
+            <option value="8">8+</option>
+            <option value="7">7+</option>
+            <option value="5">5+</option>
+          </select>
+          <input id="external-tags-filter" type="text" class="input" placeholder="Tags (comma-separated)" style="width:220px" />
+          <select id="external-sort" class="select" style="width:auto">
+            <option value="id">Sort: newest</option>
+            <option value="innovation_score">Sort: innovation</option>
+            <option value="category">Sort: category</option>
+            <option value="research_level">Sort: level</option>
+            <option value="url">Sort: URL</option>
+          </select>
+          <select id="external-dir" class="select" style="width:auto">
+            <option value="desc">Descending</option>
+            <option value="asc">Ascending</option>
+          </select>
+          <button id="btn-external-browser-refresh" class="btn btn-primary btn-sm">Apply</button>
+        </div>
+        <div id="external-browser-list"></div>
+        <div class="flex-between mt-4">
+          <button id="external-prev" class="btn btn-ghost btn-sm">← Prev</button>
+          <span id="external-page-info" class="text-sm text-muted">Page 1 / 1</span>
+          <button id="external-next" class="btn btn-ghost btn-sm">Next →</button>
+        </div>
+      </div>
+    </div>
   </div><!-- /tab-stats -->
 
 </main>

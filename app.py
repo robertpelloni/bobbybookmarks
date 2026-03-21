@@ -314,6 +314,130 @@ def build_external_corpus_payload(db_path=EXTERNAL_BOOKMARKS_DB_PATH):
     }
 
 
+def query_external_corpus_bookmarks(
+    db_path=EXTERNAL_BOOKMARKS_DB_PATH,
+    *,
+    page=1,
+    per_page=20,
+    q="",
+    category="",
+    research_level="",
+    min_innovation=None,
+    tags="",
+    sort="id",
+    direction="desc",
+):
+    empty_result = {
+        "available": False,
+        "bookmarks": [],
+        "total": 0,
+        "page": page,
+        "per_page": per_page,
+        "pages": 0,
+        "filters": {
+            "q": q,
+            "category": category,
+            "research_level": research_level,
+            "min_innovation": min_innovation,
+            "tags": tags,
+            "sort": sort,
+            "dir": direction,
+        },
+    }
+    if not os.path.exists(db_path):
+        return empty_result
+
+    allowed_sorts = {
+        "id": "id",
+        "created_at": "created_at",
+        "category": "category",
+        "research_level": "research_level",
+        "innovation_score": "innovation_score",
+        "url": "url",
+    }
+    sort_column = allowed_sorts.get(sort, "id")
+    sort_direction = "ASC" if direction == "asc" else "DESC"
+    offset = max(page - 1, 0) * per_page
+
+    where_clauses = []
+    params = []
+
+    if q:
+        like = f"%{q}%"
+        where_clauses.append("(url LIKE ? OR category LIKE ? OR short_description LIKE ? OR long_description LIKE ? OR tags LIKE ? OR main_features LIKE ?)")
+        params.extend([like, like, like, like, like, like])
+
+    if category:
+        where_clauses.append("category = ?")
+        params.append(category)
+
+    if research_level:
+        where_clauses.append("research_level = ?")
+        params.append(research_level)
+
+    if min_innovation is not None:
+        where_clauses.append("innovation_score >= ?")
+        params.append(min_innovation)
+
+    tag_values = [tag.strip() for tag in tags.split(",") if tag.strip()]
+    for tag in tag_values:
+        where_clauses.append("LOWER(tags) LIKE ?")
+        params.append(f"%{tag.lower()}%")
+
+    where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
+    count_sql = f"SELECT COUNT(*) FROM bookmarks {where_sql}"
+    list_sql = f"""
+        SELECT id, url, category, short_description, long_description, tags, main_features, created_at, research_level, innovation_score
+        FROM bookmarks
+        {where_sql}
+        ORDER BY {sort_column} {sort_direction}, id DESC
+        LIMIT ? OFFSET ?
+    """
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    try:
+        cur = conn.cursor()
+        cur.execute(count_sql, params)
+        total = cur.fetchone()[0]
+        cur.execute(list_sql, [*params, per_page, offset])
+        bookmarks = [
+            {
+                "id": row["id"],
+                "url": row["url"],
+                "category": row["category"] or "Uncategorized",
+                "short_description": row["short_description"] or "",
+                "long_description": row["long_description"] or "",
+                "tags": split_csv_field(row["tags"]),
+                "main_features": split_csv_field(row["main_features"]),
+                "created_at": row["created_at"],
+                "research_level": row["research_level"] or "",
+                "innovation_score": row["innovation_score"],
+            }
+            for row in cur.fetchall()
+        ]
+    finally:
+        conn.close()
+
+    return {
+        "available": True,
+        "bookmarks": bookmarks,
+        "total": total,
+        "page": page,
+        "per_page": per_page,
+        "pages": (total + per_page - 1) // per_page if total else 0,
+        "filters": {
+            "q": q,
+            "category": category,
+            "research_level": research_level,
+            "min_innovation": min_innovation,
+            "tags": tags,
+            "sort": sort_column,
+            "dir": direction,
+        },
+    }
+
+
 def create_app(config_object=None):
     app = Flask(__name__)
 
@@ -687,6 +811,38 @@ def create_app(config_object=None):
     @app.route("/api/external-corpus", methods=["GET"])
     def api_external_corpus():
         return jsonify(build_external_corpus_payload())
+
+    @app.route("/api/external-corpus/bookmarks", methods=["GET"])
+    def api_external_corpus_bookmarks():
+        page = request.args.get("page", 1, type=int)
+        per_page = min(request.args.get("per_page", 20, type=int), 100)
+        q = request.args.get("q", "").strip()
+        category = request.args.get("category", "").strip()
+        research_level = request.args.get("research_level", "").strip()
+        tags = request.args.get("tags", "").strip()
+        sort = request.args.get("sort", "id").strip()
+        direction = request.args.get("dir", "desc").strip().lower()
+        min_innovation_raw = request.args.get("min_innovation", "").strip()
+        min_innovation = None
+        if min_innovation_raw:
+            try:
+                min_innovation = int(min_innovation_raw)
+            except ValueError:
+                return jsonify({"error": "Invalid min_innovation"}), 400
+
+        return jsonify(
+            query_external_corpus_bookmarks(
+                page=page,
+                per_page=per_page,
+                q=q,
+                category=category,
+                research_level=research_level,
+                min_innovation=min_innovation,
+                tags=tags,
+                sort=sort,
+                direction=direction,
+            )
+        )
 
     # ------------------------------------------------------------------ #
     # Import sessions
