@@ -1,5 +1,8 @@
 import os
 import logging
+from collections import Counter, defaultdict
+from itertools import combinations
+from urllib.parse import urlparse
 from flask import Flask, request, jsonify, render_template, abort
 from flask_sqlalchemy import SQLAlchemy
 
@@ -11,6 +14,177 @@ from categorizer import cluster_bookmarks
 from research import get_worker
 
 logger = logging.getLogger(__name__)
+
+
+BOOKMARK_SORT_FIELDS = {
+    "imported_at": Bookmark.imported_at,
+    "created_at": Bookmark.created_at,
+    "researched_at": Bookmark.researched_at,
+    "title": Bookmark.title,
+    "page_title": Bookmark.page_title,
+    "url": Bookmark.url,
+    "source": Bookmark.source,
+    "research_status": Bookmark.research_status,
+    "http_status": Bookmark.http_status,
+}
+
+
+def extract_domain(url):
+    try:
+        hostname = (urlparse(url).hostname or "").lower()
+    except Exception:
+        return ""
+    if hostname.startswith("www."):
+        hostname = hostname[4:]
+    return hostname
+
+
+def normalize_tag(tag):
+    return str(tag or "").strip().lower()
+
+
+def bookmark_tag_list(bookmark):
+    return [tag for tag in (normalize_tag(tag) for tag in (bookmark.tags or [])) if tag]
+
+
+def build_timeline(bookmarks, attr_name, limit=14):
+    counts = Counter()
+    for bookmark in bookmarks:
+        stamp = getattr(bookmark, attr_name)
+        if stamp:
+            counts[stamp.date().isoformat()] += 1
+    if not counts:
+        return []
+    return [{"day": day, "count": counts[day]} for day in sorted(counts)[-limit:]]
+
+
+def build_analytics_payload(bookmarks, clusters):
+    unique_bookmarks = [bookmark for bookmark in bookmarks if not bookmark.is_duplicate]
+    domain_stats = defaultdict(lambda: {
+        "count": 0,
+        "done": 0,
+        "failed": 0,
+        "pending": 0,
+        "running": 0,
+        "skipped": 0,
+        "sources": Counter(),
+        "tags": Counter(),
+    })
+    tag_counter = Counter()
+    source_counter = Counter()
+    tag_pair_counter = Counter()
+    cluster_counter = Counter()
+
+    for bookmark in unique_bookmarks:
+        domain = extract_domain(bookmark.url)
+        if domain:
+            domain_stats[domain]["count"] += 1
+            status = bookmark.research_status or "pending"
+            if status in {"done", "failed", "pending", "running", "skipped"}:
+                domain_stats[domain][status] += 1
+            if bookmark.source:
+                domain_stats[domain]["sources"][bookmark.source] += 1
+
+        tags = sorted(set(bookmark_tag_list(bookmark)))
+        for tag in tags:
+            tag_counter[tag] += 1
+            if domain:
+                domain_stats[domain]["tags"][tag] += 1
+        for tag_a, tag_b in combinations(tags, 2):
+            tag_pair_counter[(tag_a, tag_b)] += 1
+
+        if bookmark.source:
+            source_counter[bookmark.source] += 1
+        if bookmark.cluster_id:
+            cluster_counter[bookmark.cluster_id] += 1
+
+    top_domains = []
+    for domain, stats in sorted(domain_stats.items(), key=lambda item: (-item[1]["count"], item[0]))[:12]:
+        top_domains.append({
+            "domain": domain,
+            "count": stats["count"],
+            "done": stats["done"],
+            "failed": stats["failed"],
+            "pending": stats["pending"],
+            "running": stats["running"],
+            "top_source": stats["sources"].most_common(1)[0][0] if stats["sources"] else "",
+            "top_tags": [tag for tag, _ in stats["tags"].most_common(3)],
+        })
+
+    top_tags = [{"tag": tag, "count": count} for tag, count in tag_counter.most_common(20)]
+    top_sources = [{"source": source or "unknown", "count": count} for source, count in source_counter.most_common(12)]
+    top_tag_pairs = [
+        {"pair": [tag_a, tag_b], "label": f"{tag_a} + {tag_b}", "count": count}
+        for (tag_a, tag_b), count in tag_pair_counter.most_common(12)
+    ]
+    top_clusters = []
+    for cluster in sorted(clusters, key=lambda item: (-cluster_counter[item.id], item.name.lower()))[:12]:
+        count = cluster_counter[cluster.id]
+        if count:
+            top_clusters.append({
+                "id": cluster.id,
+                "name": cluster.name,
+                "count": count,
+                "tags": cluster.tags or [],
+            })
+
+    untagged_count = sum(1 for bookmark in unique_bookmarks if not bookmark_tag_list(bookmark))
+    uncategorized_count = sum(1 for bookmark in unique_bookmarks if bookmark.cluster_id is None)
+    researched_count = sum(1 for bookmark in unique_bookmarks if bookmark.research_status == "done")
+    duplicate_count = sum(1 for bookmark in bookmarks if bookmark.is_duplicate)
+    failed_count = sum(1 for bookmark in unique_bookmarks if bookmark.research_status == "failed")
+
+    opportunities = [
+        {
+            "label": "Untagged bookmarks",
+            "count": untagged_count,
+            "description": "Bookmarks without tags are harder to search and cluster.",
+            "filters": {"tags": "__empty__"},
+        },
+        {
+            "label": "Uncategorized bookmarks",
+            "count": uncategorized_count,
+            "description": "Bookmarks without a category cluster are good candidates for organization.",
+            "filters": {"cluster_id": "none"},
+        },
+        {
+            "label": "Failed research",
+            "count": failed_count,
+            "description": "These bookmarks need another research pass or manual cleanup.",
+            "filters": {"research_status": "failed"},
+        },
+        {
+            "label": "Duplicates",
+            "count": duplicate_count,
+            "description": "Duplicate URLs can be hidden or reviewed together.",
+            "filters": {"duplicate_mode": "only"},
+        },
+    ]
+
+    summary = {
+        "unique_bookmarks": len(unique_bookmarks),
+        "unique_domains": len(domain_stats),
+        "tagged_bookmarks": len(unique_bookmarks) - untagged_count,
+        "untagged_bookmarks": untagged_count,
+        "categorized_bookmarks": len(unique_bookmarks) - uncategorized_count,
+        "uncategorized_bookmarks": uncategorized_count,
+        "researched_bookmarks": researched_count,
+        "failed_bookmarks": failed_count,
+        "duplicate_bookmarks": duplicate_count,
+        "avg_tags_per_bookmark": round(sum(len(bookmark_tag_list(bookmark)) for bookmark in unique_bookmarks) / len(unique_bookmarks), 2) if unique_bookmarks else 0,
+    }
+
+    return {
+        "summary": summary,
+        "top_domains": top_domains,
+        "top_tags": top_tags,
+        "top_sources": top_sources,
+        "top_clusters": top_clusters,
+        "top_tag_pairs": top_tag_pairs,
+        "import_timeline": build_timeline(unique_bookmarks, "imported_at"),
+        "research_timeline": build_timeline(unique_bookmarks, "researched_at"),
+        "opportunities": opportunities,
+    }
 
 
 def create_app(config_object=None):
@@ -158,16 +332,22 @@ def create_app(config_object=None):
         per_page = min(request.args.get("per_page", 50, type=int), 200)
         q = request.args.get("q", "").strip()
         tags_filter = request.args.get("tags", "").strip()
-        cluster_id = request.args.get("cluster_id", type=int)
+        source_filter = request.args.get("source", "").strip()
+        domain_filter = request.args.get("domain", "").strip().lower()
+        cluster_id_raw = request.args.get("cluster_id", "").strip()
         research_status = request.args.get("research_status", "").strip()
-        show_duplicates = request.args.get("show_duplicates", "false").lower() == "true"
+        duplicate_mode = request.args.get("duplicate_mode", "").strip().lower()
+        if not duplicate_mode:
+            duplicate_mode = "include" if request.args.get("show_duplicates", "false").lower() == "true" else "hide"
         sort_by = request.args.get("sort", "imported_at")
         sort_dir = request.args.get("dir", "desc")
 
         query = Bookmark.query
 
-        if not show_duplicates:
+        if duplicate_mode == "hide":
             query = query.filter_by(is_duplicate=False)
+        elif duplicate_mode == "only":
+            query = query.filter_by(is_duplicate=True)
 
         if q:
             like = f"%{q}%"
@@ -181,20 +361,37 @@ def create_app(config_object=None):
             )
 
         if tags_filter:
-            for tag in [t.strip() for t in tags_filter.split(",") if t.strip()]:
-                query = query.filter(Bookmark.tags.contains([tag]))
+            tag_values = [t.strip() for t in tags_filter.split(",") if t.strip()]
+            if "__empty__" in tag_values:
+                query = query.filter(db.or_(Bookmark.tags.is_(None), Bookmark.tags == [], Bookmark.tags == "[]"))
+            else:
+                for tag in tag_values:
+                    query = query.filter(Bookmark.tags.contains([tag]))
 
-        if cluster_id is not None:
-            query = query.filter_by(cluster_id=cluster_id)
+        if source_filter:
+            query = query.filter_by(source=source_filter)
+
+        if domain_filter:
+            like = f"%{domain_filter}%"
+            query = query.filter(Bookmark.url.ilike(like))
+
+        if cluster_id_raw:
+            if cluster_id_raw.lower() == "none":
+                query = query.filter(Bookmark.cluster_id.is_(None))
+            else:
+                try:
+                    query = query.filter_by(cluster_id=int(cluster_id_raw))
+                except ValueError:
+                    return jsonify({"error": "Invalid cluster_id"}), 400
 
         if research_status:
             query = query.filter_by(research_status=research_status)
 
-        sort_col = getattr(Bookmark, sort_by, Bookmark.imported_at)
+        sort_col = BOOKMARK_SORT_FIELDS.get(sort_by, Bookmark.imported_at)
         if sort_dir == "asc":
-            query = query.order_by(sort_col.asc())
+            query = query.order_by(sort_col.asc().nullslast(), Bookmark.id.asc())
         else:
-            query = query.order_by(sort_col.desc())
+            query = query.order_by(sort_col.desc().nullslast(), Bookmark.id.desc())
 
         pagination = query.paginate(page=page, per_page=per_page, error_out=False)
 
@@ -366,6 +563,12 @@ def create_app(config_object=None):
             "clusters": clusters,
             "import_sessions": sessions,
         })
+
+    @app.route("/api/analytics", methods=["GET"])
+    def api_analytics():
+        bookmarks = Bookmark.query.order_by(Bookmark.id.asc()).all()
+        clusters = Cluster.query.order_by(Cluster.name.asc()).all()
+        return jsonify(build_analytics_payload(bookmarks, clusters))
 
     # ------------------------------------------------------------------ #
     # Import sessions

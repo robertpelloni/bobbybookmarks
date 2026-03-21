@@ -27,7 +27,7 @@
     <button class="tab-btn" data-tab="bookmarks">🔖 Bookmarks</button>
     <button class="tab-btn" data-tab="research">🔬 Research</button>
     <button class="tab-btn" data-tab="categories">🗂️ Categories</button>
-    <button class="tab-btn" data-tab="stats">📊 Stats</button>
+    <button class="tab-btn" data-tab="stats">📊 Insights</button>
   </div>
 </div>
 
@@ -130,12 +130,33 @@
             <option value="failed">Failed</option>
             <option value="skipped">Skipped</option>
           </select>
+          <select id="bm-source-filter" class="select" style="width:auto">
+            <option value="">All sources</option>
+          </select>
           <select id="bm-cluster-filter" class="select" style="width:auto">
             <option value="">All categories</option>
+            <option value="none">Uncategorized</option>
           </select>
-          <label class="flex-center gap-2 text-sm text-muted" style="cursor:pointer">
-            <input id="bm-show-dupes" type="checkbox" /> Show duplicates
-          </label>
+          <input id="bm-domain-filter" type="text" class="input" placeholder="Domain (github.com)" style="width:180px" />
+          <input id="bm-tags-filter" type="text" class="input" placeholder="Tags (comma-separated)" style="width:220px" />
+          <select id="bm-duplicate-filter" class="select" style="width:auto">
+            <option value="hide">Hide duplicates</option>
+            <option value="include">Include duplicates</option>
+            <option value="only">Only duplicates</option>
+          </select>
+          <select id="bm-sort" class="select" style="width:auto">
+            <option value="imported_at">Sort: Imported</option>
+            <option value="researched_at">Sort: Researched</option>
+            <option value="created_at">Sort: Created</option>
+            <option value="title">Sort: Title</option>
+            <option value="source">Sort: Source</option>
+            <option value="research_status">Sort: Status</option>
+            <option value="url">Sort: URL</option>
+          </select>
+          <select id="bm-dir" class="select" style="width:auto">
+            <option value="desc">Newest / highest first</option>
+            <option value="asc">Oldest / lowest first</option>
+          </select>
           <button id="btn-bm-filter" class="btn btn-primary btn-sm">Filter</button>
           <button id="btn-dedup" class="btn btn-orange btn-sm">Deduplicate All</button>
         </div>
@@ -305,6 +326,85 @@
           <span class="text-sm text-muted" id="st-sessions">0 total</span>
         </div>
         <p class="text-sm text-muted mt-2">See the Import tab for session details.</p>
+      </div>
+    </div>
+
+    <div class="grid-4 mt-8 mb-4">
+      <div class="card stat-card">
+        <div class="stat-num" id="an-domains" style="color:var(--c-blue)">0</div>
+        <div class="stat-label">Unique Domains</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-num" id="an-tagged" style="color:var(--c-green)">0</div>
+        <div class="stat-label">Tagged Bookmarks</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-num" id="an-untagged" style="color:var(--c-orange)">0</div>
+        <div class="stat-label">Untagged</div>
+      </div>
+      <div class="card stat-card">
+        <div class="stat-num" id="an-avg-tags" style="color:var(--c-purple)">0</div>
+        <div class="stat-label">Avg Tags / Bookmark</div>
+      </div>
+    </div>
+
+    <div class="grid-2 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🧭 Organization Opportunities</div>
+          <div id="analytics-opportunities"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🌐 Domain Patterns</div>
+          <div id="analytics-domains"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🏷️ Top Tags</div>
+          <div id="analytics-tags"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🔗 Tag Co-occurrence</div>
+          <div id="analytics-tag-pairs"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">📦 Sources</div>
+          <div id="analytics-sources"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🗂️ Cluster Coverage</div>
+          <div id="analytics-clusters"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">📥 Import Timeline</div>
+          <div id="analytics-import-timeline"></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <div class="card-title">🔬 Research Timeline</div>
+          <div id="analytics-research-timeline"></div>
+        </div>
       </div>
     </div>
   </div><!-- /tab-stats -->

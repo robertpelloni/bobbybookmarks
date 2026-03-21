@@ -63,6 +63,7 @@ async function api(path, opts = {}) {
 /* ── State ────────────────────────────────────────────────────────────── */
 const state = {
   stats: {},
+  analytics: {},
   sessions: [],
 
   importText: '',
@@ -74,7 +75,8 @@ const state = {
   importError: null,
 
   bookmarks: [], bmTotal: 0, bmPages: 1, bmPage: 1, bmLoading: false,
-  bmSearch: '', bmStatusFilter: '', bmClusterFilter: '', bmShowDuplicates: false,
+  bmSearch: '', bmStatusFilter: '', bmClusterFilter: '', bmSourceFilter: '', bmDomainFilter: '',
+  bmTagsFilter: '', bmDuplicateMode: 'hide', bmSort: 'imported_at', bmDir: 'desc',
 
   researchStatus: {}, researchPollTimer: null,
   clusters: [], clusterLoading: false, clusterMsg: '',
@@ -108,6 +110,61 @@ function renderStats() {
   setText('st-sessions', `${s.import_sessions || 0} total`);
 }
 
+function renderAnalytics() {
+  const a = state.analytics || {};
+  const summary = a.summary || {};
+  setText('an-domains', summary.unique_domains || 0);
+  setText('an-tagged', summary.tagged_bookmarks || 0);
+  setText('an-untagged', summary.untagged_bookmarks || 0);
+  setText('an-avg-tags', summary.avg_tags_per_bookmark || 0);
+
+  renderMetricList('analytics-opportunities', a.opportunities || [], item => ({
+    title: item.label,
+    subtitle: item.description,
+    value: item.count,
+    chips: [],
+    filters: item.filters || {},
+  }));
+  renderMetricList('analytics-domains', a.top_domains || [], item => ({
+    title: item.domain,
+    subtitle: [item.top_source ? `top source: ${item.top_source}` : '', ...(item.top_tags || [])].filter(Boolean).join(' · '),
+    value: item.count,
+    chips: (item.top_tags || []).map(tag => ({ label: tag, filters: { tags: tag } })),
+    filters: { domain: item.domain },
+  }));
+  renderMetricList('analytics-tags', a.top_tags || [], item => ({
+    title: item.tag,
+    subtitle: 'tag frequency',
+    value: item.count,
+    chips: [],
+    filters: { tags: item.tag },
+  }));
+  renderMetricList('analytics-sources', a.top_sources || [], item => ({
+    title: item.source,
+    subtitle: 'import source',
+    value: item.count,
+    chips: [],
+    filters: { source: item.source === 'unknown' ? '' : item.source },
+  }));
+  renderMetricList('analytics-clusters', a.top_clusters || [], item => ({
+    title: item.name,
+    subtitle: 'category cluster',
+    value: item.count,
+    chips: (item.tags || []).slice(0, 4).map(tag => ({ label: tag, filters: { tags: tag } })),
+    filters: { cluster_id: String(item.id) },
+  }));
+  renderMetricList('analytics-tag-pairs', a.top_tag_pairs || [], item => ({
+    title: item.label,
+    subtitle: 'frequent co-occurrence',
+    value: item.count,
+    chips: [],
+    filters: { tags: item.pair.join(',') },
+  }));
+  renderTimeline('analytics-import-timeline', a.import_timeline || [], 'Imported bookmarks by day');
+  renderTimeline('analytics-research-timeline', a.research_timeline || [], 'Researched bookmarks by day');
+  updateSourceFilter();
+}
+
 function renderBar(id, val, total, color) {
   const el = $(id);
   if (!el) return;
@@ -131,7 +188,7 @@ function activateTab(tabId) {
   if (tabId === 'research')  { loadResearchStatus(); startResearchPoll(); }
   else stopResearchPoll();
   if (tabId === 'categories') loadClusters();
-  if (tabId === 'stats')  { loadStats(); }
+  if (tabId === 'stats')  { Promise.all([loadStats(), loadAnalytics()]); }
   if (tabId === 'import') loadSessions();
 }
 
@@ -287,7 +344,12 @@ async function loadBookmarks(page = 1) {
     page, per_page: 50,
     q: state.bmSearch,
     research_status: state.bmStatusFilter,
-    show_duplicates: state.bmShowDuplicates,
+    source: state.bmSourceFilter,
+    domain: state.bmDomainFilter,
+    tags: state.bmTagsFilter,
+    duplicate_mode: state.bmDuplicateMode,
+    sort: state.bmSort,
+    dir: state.bmDir,
   });
   if (state.bmClusterFilter !== '') params.set('cluster_id', state.bmClusterFilter);
   try {
@@ -332,6 +394,10 @@ function renderBookmarkCard(bm) {
   const title = escHtml(bm.page_title || bm.title || bm.url);
   const tags = (bm.tags || []).slice(0, 8).map((t, i) => tagChip(t, i)).join('');
   const desc = bm.page_description || bm.description;
+  const domain = (() => {
+    try { return new URL(bm.url).hostname.replace(/^www\./, ''); }
+    catch (_) { return ''; }
+  })();
   return `
   <div class="bm-card${bm.is_duplicate ? ' is-dup' : ''}">
     <img class="bm-favicon" src="${escHtml(fav)}" alt="" onerror="this.style.display='none'" />
@@ -344,6 +410,8 @@ function renderBookmarkCard(bm) {
     <div class="bm-meta">
       <div class="bm-badges">
         ${statusChip(bm.research_status)}
+        ${bm.source ? `<span class="chip chip-gray">${escHtml(bm.source)}</span>` : ''}
+        ${domain ? `<span class="chip chip-blue">${escHtml(domain)}</span>` : ''}
         ${bm.is_duplicate ? '<span class="chip chip-orange">duplicate</span>' : ''}
       </div>
       <span>${formatDate(bm.imported_at)}</span>
@@ -487,8 +555,22 @@ function updateClusterFilter() {
   if (!sel) return;
   const cur = sel.value;
   const opts = state.clusters.map(c => `<option value="${c.id}">${escHtml(c.name)}</option>`).join('');
-  sel.innerHTML = `<option value="">All categories</option>${opts}`;
+  sel.innerHTML = `<option value="">All categories</option><option value="none">Uncategorized</option>${opts}`;
   sel.value = cur; // restore selection
+}
+
+function updateSourceFilter() {
+  const sel = $('bm-source-filter');
+  if (!sel) return;
+  const current = sel.value;
+  const options = (state.analytics.top_sources || [])
+    .map(item => item.source)
+    .filter(Boolean)
+    .filter(source => source !== 'unknown')
+    .map(source => `<option value="${escHtml(source)}">${escHtml(source)}</option>`)
+    .join('');
+  sel.innerHTML = `<option value="">All sources</option>${options}`;
+  sel.value = current;
 }
 
 async function refreshClusters() {
@@ -526,6 +608,93 @@ async function loadStats() {
     state.stats = d;
     renderStats();
   } catch (_) {}
+}
+
+async function loadAnalytics() {
+  try {
+    const d = await api('/api/analytics');
+    state.analytics = d;
+    renderAnalytics();
+  } catch (_) {}
+}
+
+function renderMetricList(id, items, mapper) {
+  const el = $(id);
+  if (!el) return;
+  if (!items.length) {
+    el.innerHTML = '<div class="empty-state compact-empty">No data yet.</div>';
+    return;
+  }
+  const max = Math.max(...items.map(item => mapper(item).value), 1);
+  el.innerHTML = items.map(item => {
+    const mapped = mapper(item);
+    const pct = Math.max(8, Math.round((mapped.value / max) * 100));
+    const chips = (mapped.chips || []).map(chip => `
+      <button class="chip chip-gray analytics-chip" data-filters='${escHtml(JSON.stringify(chip.filters || {}))}'>${escHtml(chip.label)}</button>
+    `).join('');
+    return `
+      <div class="metric-row">
+        <div class="metric-row-head">
+          <button class="metric-link" data-filters='${escHtml(JSON.stringify(mapped.filters || {}))}'>${escHtml(mapped.title)}</button>
+          <span class="metric-value">${mapped.value}</span>
+        </div>
+        ${mapped.subtitle ? `<div class="metric-subtitle">${escHtml(mapped.subtitle)}</div>` : ''}
+        <div class="metric-track"><div class="metric-fill" style="width:${pct}%"></div></div>
+        ${chips ? `<div class="metric-chips">${chips}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+  wireAnalyticsFilterButtons(el);
+}
+
+function renderTimeline(id, items, title) {
+  const el = $(id);
+  if (!el) return;
+  if (!items.length) {
+    el.innerHTML = '<div class="empty-state compact-empty">No timeline data yet.</div>';
+    return;
+  }
+  const max = Math.max(...items.map(item => item.count), 1);
+  el.innerHTML = `
+    <div class="timeline-title">${escHtml(title)}</div>
+    <div class="timeline-bars">
+      ${items.map(item => `
+        <div class="timeline-bar-wrap" title="${escHtml(item.day)}: ${item.count}">
+          <div class="timeline-bar" style="height:${Math.max(10, Math.round((item.count / max) * 100))}%"></div>
+          <div class="timeline-count">${item.count}</div>
+          <div class="timeline-label">${escHtml(item.day.slice(5))}</div>
+        </div>
+      `).join('')}
+    </div>
+  `;
+}
+
+function wireAnalyticsFilterButtons(root) {
+  root.querySelectorAll('[data-filters]').forEach(el => {
+    el.addEventListener('click', () => {
+      try {
+        openBookmarkFilters(JSON.parse(el.dataset.filters || '{}'));
+      } catch (_) {}
+    });
+  });
+}
+
+function openBookmarkFilters(filters) {
+  state.bmSearch = filters.q || '';
+  state.bmStatusFilter = filters.research_status || '';
+  state.bmClusterFilter = filters.cluster_id || '';
+  state.bmSourceFilter = filters.source || '';
+  state.bmDomainFilter = filters.domain || '';
+  state.bmTagsFilter = filters.tags || '';
+  state.bmDuplicateMode = filters.duplicate_mode || 'hide';
+  $('bm-search').value = state.bmSearch;
+  $('bm-status-filter').value = state.bmStatusFilter;
+  $('bm-cluster-filter').value = state.bmClusterFilter;
+  $('bm-source-filter').value = state.bmSourceFilter;
+  $('bm-domain-filter').value = state.bmDomainFilter;
+  $('bm-tags-filter').value = state.bmTagsFilter;
+  $('bm-duplicate-filter').value = state.bmDuplicateMode;
+  activateTab('bookmarks');
 }
 
 /* ── Bootstrap ────────────────────────────────────────────────────────── */
@@ -594,8 +763,32 @@ document.addEventListener('DOMContentLoaded', () => {
   if (bmStatus) bmStatus.addEventListener('change', () => { state.bmStatusFilter = bmStatus.value; loadBookmarks(1); });
   const bmCluster = $('bm-cluster-filter');
   if (bmCluster) bmCluster.addEventListener('change', () => { state.bmClusterFilter = bmCluster.value; loadBookmarks(1); });
-  const bmDupes = $('bm-show-dupes');
-  if (bmDupes) bmDupes.addEventListener('change', () => { state.bmShowDuplicates = bmDupes.checked; loadBookmarks(1); });
+  const bmSource = $('bm-source-filter');
+  if (bmSource) bmSource.addEventListener('change', () => { state.bmSourceFilter = bmSource.value; loadBookmarks(1); });
+  const bmDomain = $('bm-domain-filter');
+  if (bmDomain) {
+    let t;
+    bmDomain.addEventListener('input', () => {
+      clearTimeout(t);
+      state.bmDomainFilter = bmDomain.value.trim();
+      t = setTimeout(() => loadBookmarks(1), 400);
+    });
+  }
+  const bmTags = $('bm-tags-filter');
+  if (bmTags) {
+    let t;
+    bmTags.addEventListener('input', () => {
+      clearTimeout(t);
+      state.bmTagsFilter = bmTags.value.trim();
+      t = setTimeout(() => loadBookmarks(1), 400);
+    });
+  }
+  const bmDupes = $('bm-duplicate-filter');
+  if (bmDupes) bmDupes.addEventListener('change', () => { state.bmDuplicateMode = bmDupes.value; loadBookmarks(1); });
+  const bmSort = $('bm-sort');
+  if (bmSort) bmSort.addEventListener('change', () => { state.bmSort = bmSort.value; loadBookmarks(1); });
+  const bmDir = $('bm-dir');
+  if (bmDir) bmDir.addEventListener('change', () => { state.bmDir = bmDir.value; loadBookmarks(1); });
   const btnFilter = $('btn-bm-filter');
   if (btnFilter) btnFilter.addEventListener('click', () => loadBookmarks(1));
   const btnDedup = $('btn-dedup');
