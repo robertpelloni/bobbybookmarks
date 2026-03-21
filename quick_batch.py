@@ -1,13 +1,17 @@
 import os
 import re
 import json
+import logging
 import requests
 import time
 from bs4 import BeautifulSoup
-import google.generativeai as genai
 
-genai.configure(api_key=os.environ.get('GOOGLE_API_KEY'))
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+from gemini_pool import GeminiModelPool, stringify_field
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+gemini_pool = GeminiModelPool(logger=logger)
 
 def process(url):
     try:
@@ -18,7 +22,10 @@ def process(url):
         soup = BeautifulSoup(resp.text, 'html.parser')
         txt = re.sub(r'\s+', ' ', soup.get_text())[:5000]
         prompt = f"Analyze URL: {url}\nContent: {txt}\nReturn strict JSON: CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, TAGS, MAIN_FEATURES."
-        res_text = model.generate_content(prompt).text
+        response, _ = gemini_pool.generate_content(prompt, f"processing {url}")
+        if response is None:
+            return
+        res_text = response.text
         
         # Strip markdown
         if "```json" in res_text:
@@ -29,11 +36,11 @@ def process(url):
         data = json.loads(res_text)
         
         # Clean commas for CSV
-        c = data.get('CATEGORY','Other').replace(',', ';')
-        sd = data.get('SHORT_DESCRIPTION','').replace(',', ';')
-        ld = data.get('LONG_DESCRIPTION','').replace(',', ';')
-        t = data.get('TAGS','').replace(',', ';')
-        mf = data.get('MAIN_FEATURES','').replace(',', ';')
+        c = stringify_field(data.get('CATEGORY', 'Other')).replace(',', ';')
+        sd = stringify_field(data.get('SHORT_DESCRIPTION', '')).replace(',', ';')
+        ld = stringify_field(data.get('LONG_DESCRIPTION', '')).replace(',', ';')
+        t = stringify_field(data.get('TAGS', '')).replace(',', ';')
+        mf = stringify_field(data.get('MAIN_FEATURES', '')).replace(',', ';')
         
         line = f"{url}, {c}, {sd}, {ld}, {t}, {mf}\n"
         with open('processed.txt', 'a', encoding='utf-8') as f:

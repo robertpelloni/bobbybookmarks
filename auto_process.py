@@ -6,8 +6,9 @@ import requests
 import time
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
-import google.generativeai as genai
 from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from gemini_pool import GeminiModelPool, stringify_field
 
 # Configure logging
 logging.basicConfig(
@@ -28,10 +29,8 @@ BOOKMARKS_FILE = 'bookmarks.txt'
 PROCESSED_FILE = 'processed.txt'
 FAILED_FILE = 'failed_bookmarks.txt'
 
-# Configure Gemini
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
-# Trying the most common stable name
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+gemini_pool = GeminiModelPool(logger=logger)
+GEMINI_MODELS = gemini_pool.models
 
 def normalize_url(url):
     parsed = urlparse(url)
@@ -88,7 +87,9 @@ def process_url(url):
     prompt = f"URL: {url}\nContent: {text_content}\n\nReturn JSON: CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, TAGS, MAIN_FEATURES."
 
     try:
-        response = model.generate_content(prompt)
+        response, _ = gemini_pool.generate_content(prompt, f"processing {url}")
+        if response is None:
+            return None
         res_text = response.text.strip()
         if "```json" in res_text:
             res_text = res_text.split("```json")[1].split("```")[0].strip()
@@ -97,7 +98,14 @@ def process_url(url):
             
         data = json.loads(res_text)
         
-        csv_line = f"{url}, {data.get('CATEGORY', 'Other')}, {data.get('SHORT_DESCRIPTION', 'N/A')}, {data.get('LONG_DESCRIPTION', 'N/A')}, {data.get('TAGS', '')}, {data.get('MAIN_FEATURES', '')}\n"
+        csv_line = (
+            f"{url}, "
+            f"{stringify_field(data.get('CATEGORY', 'Other')).replace(',', ';')}, "
+            f"{stringify_field(data.get('SHORT_DESCRIPTION', 'N/A')).replace(',', ';')}, "
+            f"{stringify_field(data.get('LONG_DESCRIPTION', 'N/A')).replace(',', ';')}, "
+            f"{stringify_field(data.get('TAGS', '')).replace(',', ';')}, "
+            f"{stringify_field(data.get('MAIN_FEATURES', '')).replace(',', ';')}\n"
+        )
         with open(PROCESSED_FILE, 'a', encoding='utf-8') as f:
             f.write(csv_line)
             
@@ -108,6 +116,7 @@ def process_url(url):
         return None
 
 def main():
+    logger.info(f"Using Gemini models: {', '.join(GEMINI_MODELS)}")
     processed = load_processed()
     urls_to_process = []
     if os.path.exists(BOOKMARKS_FILE):
