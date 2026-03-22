@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ctx/1773972458295/lz7rba",
+    "title": "Untitled",
+    "source": "tool_execution",
+    "createdAt": 1773972458406,
+    "chunks": 1,
+    "metadata": {
+      "source": "tool_execution",
+      "tags": [
+        "tool-execution",
+        "get_eviction_history",
+        "success",
+        "get",
+        "eviction",
+        "history",
+        "progress"
+      ],
+      "durationMs": 1178,
+      "success": true,
+      "structuredObservation": {
+        "type": "progress",
+        "title": "get_eviction_history completed",
+        "narrative": "get_eviction_history completed in 1178ms. []",
+        "facts": [
+          "Tool: get_eviction_history",
+          "Duration: 1178ms"
+        ],
+        "concepts": [
+          "tool-execution",
+          "get_eviction_history",
+          "success",
+          "get",
+          "eviction",
+          "history",
+          "progress"
+        ],
+        "filesRead": [],
+        "filesModified": [],
+        "toolName": "get_eviction_history",
+        "contentHash": "b975b1857124b6f3d033d64aff2b7d2858eb32e2c1c4fbf1a25e07363915a119",
+        "recordedAt": 1773972453307
+      },
+      "observationType": "progress",
+      "observationHash": "b975b1857124b6f3d033d64aff2b7d2858eb32e2c1c4fbf1a25e07363915a119",
+      "toolName": "get_eviction_history",
+      "filesRead": [],
+      "filesModified": [],
+      "rawInput": "{}",
+      "rawOutput": "{\n  \"content\": [\n    {\n      \"type\": \"text\",\n      \"text\": \"[]\"\n    }\n  ],\n  \"isError\": false\n}",
+      "id": "44d7cb471959db89",
+      "type": "working",
+      "namespace": "project",
+      "createdAt": 1773972453308
+    }
+  }
+]

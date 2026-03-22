@@ -1,87 +1,66 @@
 const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
+const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
 const app = express();
 app.use(cors());
 
-const PROCESSED_FILE_PATH = path.join(__dirname, '..', '..', 'processed.txt');
-
-function parseLine(line) {
-    // The format is: URL, CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, TAGS, MAIN_FEATURES
-    // Since commas might be inside the fields, a simple split might fail. 
-    // We'll use a regex or heuristic if possible, but for a prototype, let's do a basic split 
-    // and attempt to reconstruct it if there are more than 6 parts.
-    
-    // As a simple heuristic, split by ', '
-    let parts = line.split(', ');
-    if (parts.length < 6) return null;
-    
-    let url = parts[0];
-    let category = parts[1];
-    let short_desc = parts[2];
-    
-    // We don't know exactly where long_desc ends and tags begin, 
-    // but typically MAIN_FEATURES is the last part, and TAGS is the second to last.
-    // However, tags and main_features might also contain ', '.
-    // Let's just bundle the rest for now in a safe way.
-    
-    return {
-        id: url,
-        url: url,
-        category: category,
-        short_description: short_desc,
-        raw_content: line // Send raw line to frontend just in case
-    };
-}
+const DB_PATH = path.join(__dirname, '..', '..', 'bookmarks.db');
+const db = new sqlite3.Database(DB_PATH);
 
 app.get('/api/bookmarks', (req, res) => {
-    try {
-        const data = fs.readFileSync(PROCESSED_FILE_PATH, 'utf8');
-        const lines = data.split('\n').filter(l => l.trim().length > 0);
-        
-        let bookmarks = lines.map(parseLine).filter(b => b !== null);
-        
-        // Simple search query
-        const q = req.query.q ? req.query.q.toLowerCase() : null;
-        if (q) {
-            bookmarks = bookmarks.filter(b => b.raw_content.toLowerCase().includes(q));
-        }
-        
-        // Simple category filter
-        const category = req.query.category;
-        if (category) {
-            bookmarks = bookmarks.filter(b => b.category === category);
-        }
+    const q = req.query.q ? `%${req.query.q}%` : '%';
+    const category = req.query.category || '%';
+    const tag = req.query.tag ? `%${req.query.tag}%` : '%';
+    const sortBy = req.query.sort || 'created_at';
+    const order = req.query.order || 'DESC';
 
-        res.json(bookmarks);
-    } catch (error) {
-        console.error("Error reading bookmarks:", error);
-        res.status(500).json({ error: "Failed to read bookmarks data" });
-    }
+    // Validate sort column to prevent injection
+    const allowedSort = ['created_at', 'short_description', 'category'];
+    const finalSort = allowedSort.includes(sortBy) ? sortBy : 'created_at';
+    const finalOrder = order.toUpperCase() === 'ASC' ? 'ASC' : 'DESC';
+
+    const sql = `
+        SELECT * FROM bookmarks 
+        WHERE (url LIKE ? OR short_description LIKE ? OR long_description LIKE ? OR tags LIKE ?)
+        AND category LIKE ?
+        AND tags LIKE ?
+        ORDER BY ${finalSort} ${finalOrder}
+        LIMIT 500
+    `;
+
+    db.all(sql, [q, q, q, q, category, tag], (err, rows) => {
+        if (err) {
+            console.error(err);
+            return res.status(500).json({ error: err.message });
+        }
+        res.json(rows);
+    });
 });
 
 app.get('/api/categories', (req, res) => {
-    try {
-        const data = fs.readFileSync(PROCESSED_FILE_PATH, 'utf8');
-        const lines = data.split('\n').filter(l => l.trim().length > 0);
-        
-        let categories = new Set();
-        lines.forEach(line => {
-            let parts = line.split(', ');
-            if (parts.length >= 2) {
-                categories.add(parts[1]);
-            }
-        });
-        
-        res.json(Array.from(categories));
-    } catch (error) {
-        res.status(500).json({ error: "Failed to read categories" });
-    }
+    db.all('SELECT DISTINCT category FROM bookmarks ORDER BY category', [], (err, rows) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(rows.map(row => row.category));
+    });
 });
 
-const PORT = process.env.PORT || 3001;
+app.get('/api/random', (req, res) => {
+    db.get('SELECT * FROM bookmarks ORDER BY RANDOM() LIMIT 1', [], (err, row) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(row);
+    });
+});
+
+app.get('/api/stats', (req, res) => {
+    db.get('SELECT COUNT(*) as count, SUM(CASE WHEN research_level=\"deep\" THEN 1 ELSE 0 END) as deep, SUM(CASE WHEN research_level=\"borg\" THEN 1 ELSE 0 END) as borg FROM bookmarks', [], (err, row) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(row);
+    });
+});
+
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Express SQL Server running on port ${PORT}`);
 });
