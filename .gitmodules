@@ -1,0 +1,18 @@
+[submodule "submodules/awesome-mcp-servers-punkpeye"]
+	path = submodules/awesome-mcp-servers-punkpeye
+	url = https://github.com/punkpeye/awesome-mcp-servers
+[submodule "submodules/awesome-mcp-servers-appcypher"]
+	path = submodules/awesome-mcp-servers-appcypher
+	url = https://github.com/appcypher/awesome-mcp-servers
+[submodule "submodules/awesome-mcp-servers-wong2"]
+	path = submodules/awesome-mcp-servers-wong2
+	url = https://github.com/wong2/awesome-mcp-servers
+[submodule "submodules/toolsdk-mcp-registry"]
+	path = submodules/toolsdk-mcp-registry
+	url = https://github.com/toolsdk-ai/toolsdk-mcp-registry
+[submodule "submodules/awesome-ai-apps"]
+	path = submodules/awesome-ai-apps
+	url = https://github.com/Arindam200/awesome-ai-apps
+[submodule "submodules/dotfiles"]
+	path = submodules/dotfiles
+	url = https://github.com/TheNoeTrevino/dotfiles
