@@ -1,18 +1,17 @@
 {
-  "active_url": "https://github.com/superagent-ai/grok-cli",
-  "borg_rows": 369,
+  "active_url": "https://github.com/pieces-app/cli-agent",
+  "borg_rows": 1125,
   "last_error": null,
-  "last_extracted_url": "https://github.com/github/copilot-cli?locale=en-US&utm_campaign=agentic-copilot-cli-launch-2025&utm_source=web-copilot-sub-nav",
-  "last_model": "models/gemini-flash-latest",
+  "last_extracted_url": "https://docs.pieces.app/products/mcp/get-started",
+  "last_model": "models/gemini-3-flash-preview",
   "models": [
-    "models/gemini-2.5-pro",
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 10653,
+  "remaining_urls": 15682,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-22T01:07:00.076547+00:00",
-  "worker_pid": 16956
+  "updated_at": "2026-03-23T20:14:59.709388+00:00",
+  "worker_pid": 39576
 }

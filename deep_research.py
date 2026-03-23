@@ -16,7 +16,7 @@ logging.basicConfig(
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('borg_research.log', mode='a'),
+        logging.FileHandler(os.path.join('logs', 'borg_research.log'), mode='a'),
         logging.StreamHandler()
     ]
 )
