@@ -1,25 +1,5 @@
-from urllib.parse import urlparse, urlunparse
+from deduplicator import normalize_url
 import os
-
-def normalize_url(url):
-    parsed = urlparse(url)
-    
-    if "github.com" in parsed.netloc:
-        path_parts = [part for part in parsed.path.split('/') if part]
-        # Keep owner/repo parts
-        if len(path_parts) >= 2:
-            normalized_path = f"/{path_parts[0]}/{path_parts[1]}"
-        else:
-            normalized_path = parsed.path
-        normalized_url = urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', '')).rstrip('/')
-    elif "docs." in parsed.netloc or "documentation" in parsed.path:
-        # For documentation, keep the full path but strip trailing slashes/fragments
-        normalized_url = urlunparse((parsed.scheme, parsed.netloc, parsed.path.rstrip('/'), '', '', '')).rstrip('/')
-    else:
-        # For general links, keep scheme and netloc
-        normalized_url = urlunparse((parsed.scheme, parsed.netloc, '', '', '', '')).rstrip('/')
-
-    return normalized_url
 
 # Define file paths
 bookmarks_file = 'bookmarks.txt'
