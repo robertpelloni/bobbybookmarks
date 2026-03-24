@@ -10,8 +10,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
 
 from gemini_pool import GeminiModelPool, stringify_field
-
-# Configure logging
+from deduplicator import normalize_url
 logging.basicConfig(
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -63,10 +62,6 @@ def init_db():
     except sqlite3.OperationalError: pass 
     conn.commit()
     return conn
-
-def normalize_url(url):
-    parsed = urlparse(url)
-    return urlunparse((parsed.scheme, parsed.netloc, parsed.path.rstrip('/'), '', '', '')).rstrip('/')
 
 def fetch_content(url):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}

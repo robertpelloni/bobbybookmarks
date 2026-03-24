@@ -135,6 +135,53 @@ def normalize_url(url: str) -> str:
     return normalized
 
 
+def get_project_url(url: str) -> str:
+    """
+    Identify the core project URL for a given link.
+    Example: github.com/owner/repo/issues -> github.com/owner/repo
+    """
+    url = url.strip()
+    if not url:
+        return url
+
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return url.lower()
+
+    host = (parsed.hostname or "").lower()
+    path = parsed.path.lower()
+
+    if "github.com" in host:
+        path_parts = [part for part in path.split('/') if part]
+        if len(path_parts) >= 2:
+            # Keep only owner/repo
+            project_path = f"/{path_parts[0]}/{path_parts[1]}"
+            return urlunparse(ParseResult(
+                scheme=parsed.scheme.lower(),
+                netloc=host,
+                path=project_path,
+                params="",
+                query="",
+                fragment="",
+            ))
+    
+    # For others, we could be more aggressive, but let's stick to standard normalization
+    # unless it's a known documentation site where we might want the root.
+    if "docs." in host or "documentation" in path:
+        # Try to find common doc roots
+        return urlunparse(ParseResult(
+            scheme=parsed.scheme.lower(),
+            netloc=host,
+            path=path.split('/')[0] if path.startswith('/') else "/",
+            params="",
+            query="",
+            fragment="",
+        ))
+
+    return normalize_url(url)
+
+
 def deduplicate_bookmarks(bookmarks_list: list) -> tuple[list, list]:
     """
     Given a list of bookmark dicts (each with at least 'url'),

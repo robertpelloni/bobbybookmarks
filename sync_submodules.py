@@ -2,6 +2,7 @@ import os
 import re
 import json
 import glob
+<<<<<<< HEAD
 from urllib.parse import urlparse, urlunparse
 
 BOOKMARKS_FILE = 'bookmarks.txt'
@@ -24,6 +25,12 @@ def normalize_url(url):
     except Exception:
         return url.strip().lower().rstrip('/')
 
+=======
+from deduplicator import normalize_url
+
+BOOKMARKS_FILE = 'bookmarks.txt'
+
+>>>>>>> feature/reorg-and-integrate
 def get_existing_links():
     links = set()
     if os.path.exists(BOOKMARKS_FILE):
