@@ -16,8 +16,6 @@
 [submodule "submodules/dotfiles"]
 	path = submodules/dotfiles
 	url = https://github.com/TheNoeTrevino/dotfiles
-<<<<<<< HEAD
-=======
 [submodule "submodules/anthropics-skills"]
 	path = submodules/anthropics-skills
 	url = https://github.com/anthropics/skills
@@ -42,4 +40,3 @@
 [submodule "submodules/4regab-TaskSync"]
 	path = submodules/4regab-TaskSync
 	url = https://github.com/4regab/TaskSync
->>>>>>> feature/reorg-and-integrate
