@@ -1,17 +1,17 @@
 {
-  "active_url": "https://github.com/pieces-app/cli-agent",
-  "borg_rows": 1125,
+  "active_url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader/",
+  "borg_rows": 1183,
   "last_error": null,
-  "last_extracted_url": "https://docs.pieces.app/products/mcp/get-started",
+  "last_extracted_url": "https://github.com/ziad-hsn/code-mode-toon",
   "last_model": "models/gemini-3-flash-preview",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 15682,
+  "remaining_urls": 16528,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-23T20:14:59.709388+00:00",
-  "worker_pid": 39576
+  "updated_at": "2026-03-24T20:02:00.549247+00:00",
+  "worker_pid": 34876
 }
