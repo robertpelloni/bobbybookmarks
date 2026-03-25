@@ -1,17 +1,17 @@
 {
-  "active_url": "https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader/",
-  "borg_rows": 1183,
+  "active_url": "https://github.com/shinzo-labs/coinmarketcap-mcp",
+  "borg_rows": 1251,
   "last_error": null,
-  "last_extracted_url": "https://github.com/ziad-hsn/code-mode-toon",
+  "last_extracted_url": "https://github.com/longmans/coin_api_mcp",
   "last_model": "models/gemini-3-flash-preview",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 16528,
+  "remaining_urls": 16438,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-24T20:02:00.549247+00:00",
+  "updated_at": "2026-03-25T18:11:00.293138+00:00",
   "worker_pid": 34876
 }
