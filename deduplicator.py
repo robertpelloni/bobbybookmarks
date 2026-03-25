@@ -69,7 +69,12 @@ def normalize_url(url: str) -> str:
     host = host.lower()
 
     # Remove default ports
-    port = parsed.port
+    try:
+        port = parsed.port
+    except ValueError:
+        # If port is invalid (e.g. not an integer), we just ignore it
+        port = None
+    
     if port and DEFAULT_PORTS.get(scheme) == port:
         port = None
 

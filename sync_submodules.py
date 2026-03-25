@@ -2,35 +2,10 @@ import os
 import re
 import json
 import glob
-<<<<<<< HEAD
-from urllib.parse import urlparse, urlunparse
-
-BOOKMARKS_FILE = 'bookmarks.txt'
-
-def normalize_url(url):
-    try:
-        parsed = urlparse(url)
-        if "github.com" in parsed.netloc:
-            path_parts = [part for part in parsed.path.split('/') if part]
-            if len(path_parts) >= 2:
-                normalized_path = f"/{path_parts[0]}/{path_parts[1]}"
-            else:
-                normalized_path = parsed.path
-            normalized_url = urlunparse((parsed.scheme, parsed.netloc, normalized_path, '', '', '')).rstrip('/')
-        elif "docs." in parsed.netloc or "documentation" in parsed.path:
-            normalized_url = urlunparse((parsed.scheme, parsed.netloc, parsed.path.rstrip('/'), '', '', '')).rstrip('/')
-        else:
-            normalized_url = urlunparse((parsed.scheme, parsed.netloc, '', '', '', '')).rstrip('/')
-        return normalized_url.lower()
-    except Exception:
-        return url.strip().lower().rstrip('/')
-
-=======
 from deduplicator import normalize_url
 
 BOOKMARKS_FILE = 'bookmarks.txt'
 
->>>>>>> feature/reorg-and-integrate
 def get_existing_links():
     links = set()
     if os.path.exists(BOOKMARKS_FILE):
@@ -58,7 +33,7 @@ def extract_markdown_links(file_path):
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
         # Find [text](url)
-        matches = re.findall(r'\[.*?\]\((https?://.*?)\)', content)
+        matches = re.findall(r'\[.*?]\](https?://.*?)', content)
         links.extend(matches)
     return links
 
