@@ -11,7 +11,7 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # LLM settings
-    LLM_BACKEND = os.environ.get("LLM_BACKEND", "mock")  # openai | anthropic | ollama | mock
+    LLM_BACKEND = os.environ.get("LLM_BACKEND", "gemini")  # openai | anthropic | ollama | mock | gemini
     OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
     OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
     ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
@@ -22,7 +22,7 @@ class Config:
     # Research queue settings
     RESEARCH_CONCURRENCY = int(os.environ.get("RESEARCH_CONCURRENCY", "4"))
     RESEARCH_TIMEOUT = int(os.environ.get("RESEARCH_TIMEOUT", "10"))
-    RESEARCH_AUTO_START = os.environ.get("RESEARCH_AUTO_START", "false").lower() == "true"
+    RESEARCH_AUTO_START = os.environ.get("RESEARCH_AUTO_START", "true").lower() == "true"
 
     # Dedup settings
     DEDUP_ON_IMPORT = os.environ.get("DEDUP_ON_IMPORT", "true").lower() == "true"

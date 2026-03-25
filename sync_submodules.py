@@ -8,6 +8,7 @@ BOOKMARKS_FILE = 'bookmarks.txt'
 
 def get_existing_links():
     links = set()
+    # 1. Check bookmarks.txt
     if os.path.exists(BOOKMARKS_FILE):
         with open(BOOKMARKS_FILE, 'r', encoding='utf-8', errors='ignore') as f:
             for line in f:
@@ -16,7 +17,7 @@ def get_existing_links():
                     url = line.split(',')[0].strip()
                     links.add(normalize_url(url))
     
-    # Also check processed.txt
+    # 2. Check processed.txt
     if os.path.exists('processed.txt'):
         with open('processed.txt', 'r', encoding='utf-8', errors='ignore') as f:
             for line in f:
@@ -24,6 +25,19 @@ def get_existing_links():
                 if line.startswith('http'):
                     url = line.split(',')[0].strip()
                     links.add(normalize_url(url))
+
+    # 3. Check bookmarks.db
+    if os.path.exists('bookmarks.db'):
+        import sqlite3
+        try:
+            conn = sqlite3.connect('bookmarks.db')
+            cur = conn.cursor()
+            cur.execute("SELECT url FROM bookmarks")
+            for row in cur.fetchall():
+                links.add(normalize_url(row[0]))
+            conn.close()
+        except Exception: pass
+
     return links
 
 def extract_markdown_links(file_path):
