@@ -15,6 +15,13 @@ class LLMTagger:
         self.anthropic_model = getattr(config, "ANTHROPIC_MODEL", "claude-3-haiku-20240307")
         self.ollama_base_url = getattr(config, "OLLAMA_BASE_URL", "http://localhost:11434")
         self.ollama_model = getattr(config, "OLLAMA_MODEL", "llama3")
+        self.gemini_pool = None
+
+    def _get_gemini_pool(self):
+        if not self.gemini_pool:
+            from gemini_pool import GeminiModelPool
+            self.gemini_pool = GeminiModelPool(logger=logger)
+        return self.gemini_pool
 
     def _build_prompt(self, title: str, description: str, url: str) -> str:
         return (
@@ -97,12 +104,22 @@ class LLMTagger:
                 return self._anthropic_tags(title, description, url)
             elif self.backend == "ollama":
                 return self._ollama_tags(title, description, url)
+            elif self.backend == "gemini":
+                return self._gemini_tags(title, description, url)
             else:
                 logger.warning("Unknown LLM backend '%s', using mock", self.backend)
                 return self._mock_tags(title, description, url)
         except Exception as exc:
             logger.error("LLM tagging failed: %s", exc)
             return []
+
+    def _gemini_tags(self, title: str, description: str, url: str) -> list[str]:
+        pool = self._get_gemini_pool()
+        prompt = self._build_prompt(title, description, url)
+        response, _ = pool.generate_content(prompt, context_label=f"tagging {url}")
+        if response:
+            return self._parse_response(response)
+        return []
 
     def _openai_tags(self, title: str, description: str, url: str) -> list[str]:
         from openai import OpenAI
