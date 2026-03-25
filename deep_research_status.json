@@ -1,17 +1,17 @@
 {
-  "active_url": "https://github.com/shinzo-labs/coinmarketcap-mcp",
-  "borg_rows": 1251,
+  "active_url": "https://github.com/kukapay/crypto-indicators-mcp",
+  "borg_rows": 1259,
   "last_error": null,
-  "last_extracted_url": "https://github.com/longmans/coin_api_mcp",
-  "last_model": "models/gemini-3-flash-preview",
+  "last_extracted_url": "https://github.com/kukapay/crypto-feargreed-mcp",
+  "last_model": "models/gemini-flash-lite-latest",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 16438,
+  "remaining_urls": 10236,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-25T18:11:00.293138+00:00",
-  "worker_pid": 34876
+  "updated_at": "2026-03-25T22:40:59.275976+00:00",
+  "worker_pid": 38996
 }
