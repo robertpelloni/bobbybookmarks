@@ -1,17 +1,17 @@
 {
-  "active_url": "https://news.ycombinator.com/item?id=46115214",
-  "borg_rows": 1256,
+  "active_url": "http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1",
+  "borg_rows": 1259,
   "last_error": null,
-  "last_extracted_url": "https://github.com/Upsonic/Upsonic",
-  "last_model": "models/gemini-flash-latest",
+  "last_extracted_url": "https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install",
+  "last_model": "models/gemini-flash-lite-latest",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 14382,
+  "remaining_urls": 14379,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-28T15:20:36.331916+00:00",
+  "updated_at": "2026-03-28T16:59:30.222312+00:00",
   "worker_pid": 26608
 }
