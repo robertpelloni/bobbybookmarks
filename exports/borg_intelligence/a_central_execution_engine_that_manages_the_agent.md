@@ -2,7 +2,7 @@
 
 ## 📋 Metadata
 - **Category**: Agent Orchestration & Workflow
-- **Innovation Score**: 8/10
+- **Innovation Score**: 7/10
 - **Researched At**: 2026-03-20 02:06:32
 - **Source**: [https://github.com/OpenHands/OpenHands/blob/f7cb2d0f64666e1f090a5152d7c002aa6f28caf9/openhands/controller/agent_controller.py#L771](https://github.com/OpenHands/OpenHands/blob/f7cb2d0f64666e1f090a5152d7c002aa6f28caf9/openhands/controller/agent_controller.py#L771)
 
