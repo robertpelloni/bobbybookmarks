@@ -1,16 +1,17 @@
 {
-  "active_url": "https://www.reddit.com/r/mcp/comments/1ry3xv7/we_graded_over_200000_mcp_servers_both_stdio/",
-  "borg_rows": 1244,
-  "last_error": "fetch_failed",
-  "last_extracted_url": null,
+  "active_url": "https://github.com/kukapay/freqtrade-mcp",
+  "borg_rows": 1250,
+  "last_error": null,
+  "last_extracted_url": "https://github.com/kukapay/cryptopanic-mcp-server",
+  "last_model": "models/gemini-3-flash-preview",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 14303,
+  "remaining_urls": 14262,
   "sleep_seconds": null,
-  "state": "fetching",
-  "updated_at": "2026-03-27T19:34:49.750418+00:00",
-  "worker_pid": 7204
+  "state": "researching",
+  "updated_at": "2026-03-28T06:41:00.659274+00:00",
+  "worker_pid": 28004
 }
