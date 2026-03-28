@@ -1,55 +1,5 @@
 [
   {
-    "timestamp": "2026-03-28T06:20:50.593929+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/kukapay/freqtrade-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:35.428381+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1q1gqh9/added_stdio_docker_sandbox_and_skills_system_to/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:37.206880+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1q1gqh9/added_stdio_docker_sandbox_and_skills_system_to/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:37.231281+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1ry3xv7/we_graded_over_200000_mcp_servers_both_stdio/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:38.189455+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1ry3xv7/we_graded_over_200000_mcp_servers_both_stdio/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:38.196267+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/statsig-io/mcp-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:39.071196+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://github.com/statsig-io/mcp-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:39.125584+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ClaudeAI/comments/1pg2nz9/i_have_gemini_cli_working_basically_as_a_subagent/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:40.076960+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/ClaudeAI/comments/1pg2nz9/i_have_gemini_cli_working_basically_as_a_subagent/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:40.083560+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://phil65.github.io/llmling-agent/cli/"
-  },
-  {
     "timestamp": "2026-03-28T12:26:40.729035+00:00",
     "type": "error",
     "message": "Fetch failed for: https://phil65.github.io/llmling-agent/cli/"
@@ -498,5 +448,53 @@
     "timestamp": "2026-03-28T15:10:34.995068+00:00",
     "type": "research",
     "message": "Starting Borg research on: https://news.ycombinator.com/item?id=46115214"
-  }
-]
+  },
+  {
+    "timestamp": "2026-03-28T15:45:53.181229+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://news.ycombinator.com/item?id=46115214"
+  },
+  {
+    "timestamp": "2026-03-28T15:46:08.205917+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.proofqr.xyz/"
+  },
+  {
+    "timestamp": "2026-03-28T15:46:10.661009+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.proofqr.xyz/"
+  },
+  {
+    "timestamp": "2026-03-28T16:17:32.144688+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.proofqr.xyz/"
+  },
+  {
+    "timestamp": "2026-03-28T16:17:47.168333+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
+  },
+  {
+    "timestamp": "2026-03-28T16:17:48.433786+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
+  },
+  {
+    "timestamp": "2026-03-28T16:42:52.346037+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
+  },
+  {
+    "timestamp": "2026-03-28T16:43:07.368174+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
+  },
+  {
+    "timestamp": "2026-03-28T16:43:08.525407+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
+  },
+  {
+    "timestamp": "2026-03-28T16:59:41.423551+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: http://edwardfeser.blogspot.com/2019/03/artif
