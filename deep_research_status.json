@@ -1,17 +1,17 @@
 {
-  "active_url": "http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1",
-  "borg_rows": 1259,
+  "active_url": "https://aidemos.meta.com/segment-anything/gallery/",
+  "borg_rows": 1269,
   "last_error": null,
-  "last_extracted_url": "https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install",
+  "last_extracted_url": "https://aiboom.tools/",
   "last_model": "models/gemini-flash-lite-latest",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 14379,
+  "remaining_urls": 14368,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-03-28T16:59:30.222312+00:00",
+  "updated_at": "2026-03-28T23:41:59.583527+00:00",
   "worker_pid": 26608
 }
