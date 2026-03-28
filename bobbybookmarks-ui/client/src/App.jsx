@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import axios from 'axios'
 import ReactMarkdown from 'react-markdown'
-import { Search, ExternalLink, LayoutGrid, Clock, ArrowUpDown, Tag as TagIcon, Sparkles, BrainCircuit, Zap, BarChart3, TrendingUp, PieChart as PieIcon, Network, ChevronRight, Loader2, Gauge, Boxes, ToggleLeft, ToggleRight, Orbit, Scale, MessageSquare, ShieldAlert, ShieldCheck, FileText, Filter, Activity, Cpu, Database, Globe, Terminal } from 'lucide-react'
+import { Search, ExternalLink, LayoutGrid, Clock, ArrowUpDown, Tag as TagIcon, Sparkles, BrainCircuit, Zap, BarChart3, TrendingUp, PieChart as PieIcon, Network, ChevronRight, Loader2, Gauge, Boxes, ToggleLeft, ToggleRight, Orbit, Scale, MessageSquare, ShieldAlert, ShieldCheck, FileText, Filter, Activity, Cpu, Database, Globe, Terminal, CheckCircle2 } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell, Legend, AreaChart, Area } from 'recharts'
 import * as d3 from 'd3'
 import './App.css'
@@ -320,10 +320,12 @@ function App() {
     { name: 'Heuristic', value: stats.heuristic || 0, color: '#60a5fa' },
   ];
 
+  const assimilationPct = stats.count > 0 ? Math.round((stats.borg / stats.count) * 100) : 0;
+
   return (
     <div className="dashboard">
       <header>
-        <div>
+        <div className="header-main">
           <h1>Bobby's Research Command <span className="version-tag">v0.1.0</span></h1>
           <div className="status-bar">
             <div className="progress-pill">
@@ -335,6 +337,15 @@ function App() {
             <div className="live-indicator">
               <div className="pulse-dot"></div>
               {lastUpdated}
+            </div>
+          </div>
+          <div className="assimilation-meter">
+            <div className="meter-label">
+              <span>Total Assimilation</span>
+              <span>{assimilationPct}%</span>
+            </div>
+            <div className="meter-bar-wrap">
+              <div className="meter-bar" style={{ width: `${assimilationPct}%` }}></div>
             </div>
           </div>
         </div>

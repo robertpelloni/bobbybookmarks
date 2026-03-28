@@ -47,6 +47,12 @@ header h1 {
   gap: 0.75rem;
 }
 
+.header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 .version-tag {
   font-size: 0.7rem;
   color: var(--c-muted);
@@ -60,7 +66,6 @@ header h1 {
 .status-bar {
   display: flex;
   gap: 1rem;
-  margin-top: 0.5rem;
   align-items: center;
 }
 
@@ -104,9 +109,45 @@ header h1 {
   100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
 }
 
+/* Assimilation Meter */
+.assimilation-meter {
+  width: 300px;
+  margin-top: 0.5rem;
+}
+
+.meter-label {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--c-muted);
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.05em;
+}
+
+.meter-bar-wrap {
+  height: 6px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.meter-bar {
+  height: 100%;
+  background: linear-gradient(to right, #60a5fa, #a78bfa);
+  box-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+  border-radius: 3px;
+  transition: width 1s ease-in-out;
+}
+
 .header-actions {
   display: flex;
   gap: 0.75rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 600px;
 }
 
 .view-btn, .surprise-btn {
@@ -121,6 +162,7 @@ header h1 {
   gap: 0.5rem;
   font-weight: 600;
   transition: all 0.2s;
+  font-size: 0.85rem;
 }
 
 .view-btn.active {
@@ -130,14 +172,6 @@ header h1 {
 
 .view-btn:hover, .surprise-btn:hover {
   border-color: var(--c-primary);
-}
-
-.sort-select {
-  background: var(--c-card);
-  border: 1px solid var(--c-border);
-  color: var(--c-text);
-  padding: 0.5rem;
-  border-radius: 0.5rem;
 }
 
 /* Search & Filters */
@@ -914,6 +948,7 @@ header h1 {
 @media (max-width: 768px) {
   .grid-2 { grid-template-columns: 1fr; }
   header { flex-direction: column; gap: 1rem; }
-  .header-actions { flex-wrap: wrap; }
+  .header-actions { flex-wrap: wrap; justify-content: flex-start; }
   .nebula-controls { flex-direction: column; align-items: stretch; }
+  .assimilation-meter { width: 100%; }
 }

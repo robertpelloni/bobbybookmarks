@@ -82,8 +82,8 @@ def normalize_url(url: str) -> str:
     if port:
         netloc = f"{host}:{port}"
 
-    # Handle path: strip trailing slash but keep bare '/'
-    path = parsed.path
+    # Handle path: strip trailing slash but keep bare '/', and lowercase
+    path = parsed.path.lower()
     if path != "/" and path.endswith("/"):
         path = path.rstrip("/")
     if not path:

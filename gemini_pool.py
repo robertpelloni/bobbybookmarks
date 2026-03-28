@@ -65,6 +65,7 @@ class GeminiModelPool:
         api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
         self.client = genai.Client(api_key=api_key)
         self.cooldowns = {} # model_name -> cooldown_until_timestamp
+        self.error_counts = {} # model_name -> consecutive_errors
 
     def _log(self, level, message):
         if self.logger and hasattr(self.logger, level):
@@ -76,9 +77,20 @@ class GeminiModelPool:
             return True
         return False
 
-    def _apply_cooldown(self, model_name, seconds):
-        self._log("warning", f"Applying {seconds}s cooldown to {model_name} due to quota limits.")
-        self.cooldowns[model_name] = time.time() + seconds
+    def _apply_cooldown(self, model_name, base_seconds):
+        # Adaptive backoff: exponentially increase cooldown based on recent errors
+        count = self.error_counts.get(model_name, 0) + 1
+        self.error_counts[model_name] = count
+        
+        wait_time = (base_seconds or 60) * (2 ** (count - 1))
+        # Cap at 10 minutes
+        wait_time = min(wait_time, 600)
+        
+        self._log("warning", f"Applying adaptive {wait_time}s cooldown to {model_name} (Error count: {count})")
+        self.cooldowns[model_name] = time.time() + wait_time
+
+    def _reset_errors(self, model_name):
+        self.error_counts[model_name] = 0
 
     def _summarize_error(self, error):
         message = " ".join(str(error).split())
@@ -143,6 +155,7 @@ class GeminiModelPool:
 
             try:
                 response = self.get_model(model_name).generate_content(prompt)
+                self._reset_errors(model_name)
                 if model_index != self.active_model_index:
                     self._log("info", f"Switching Gemini model to {model_name}")
                 self.active_model_index = model_index

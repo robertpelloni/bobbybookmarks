@@ -2,7 +2,7 @@
 
 ## 📋 Metadata
 - **Category**: Agent Orchestration & Workflow
-- **Innovation Score**: 9/10
+- **Innovation Score**: 7/10
 - **Researched At**: 2026-03-20 02:06:32
 - **Source**: [https://benhouston3d.com/blog/building-an-agentic-code-from-scratch](https://benhouston3d.com/blog/building-an-agentic-code-from-scratch)
 

@@ -2,7 +2,7 @@
 
 ## 📋 Metadata
 - **Category**: Connectivity & Interoperability (MCP/A2A)
-- **Innovation Score**: 7/10
+- **Innovation Score**: 6/10
 - **Researched At**: 2026-03-20 02:06:32
 - **Source**: [https://github.com/stared/gemini-claude-skills](https://github.com/stared/gemini-claude-skills)
 
