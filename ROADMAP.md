@@ -2,21 +2,21 @@
 
 ## Phase 1: Visualization & UX (Current Focus)
 - [ ] **Legacy View Porting**: Bring back the statistical bar charts and timelines from the vanilla JS version into the React/Vite UI using **Recharts**.
-- [ ] **The Pulse**: Implement a real-time timeline of discovery showing Borg extraction velocity.
-- [ ] **Borg Feature Matrix 2.0**: Enhance the feature matrix with drill-down capabilities to see source bookmarks for each feature.
+- [x] **The Pulse**: Implemented a real-time "Harvest Velocity" timeline showing cumulative discovery progress.
+- [x] **Borg Feature Matrix 2.0**: Enhanced the feature matrix with drill-down capabilities to see source bookmarks for each feature.
 
 ## Phase 2: Relationship Mapping
-- [ ] **The Borg Consciousness Map**: Use **D3.js** to create a force-directed node graph linking projects by tags, categories, and shared authors.
-- [ ] **Project Clusters**: Visual groupings of related tools (e.g., "The MCP Ecosystem" vs "The Python Data Stack").
+- [x] **The Borg Consciousness Map**: Integrated **D3.js** force-directed node graph linking projects, categories, and tags.
+- [x] **Project Clusters**: Automatically grouping related tools using TF-IDF and K-Means clustering, visualized in a dedicated Clusters view.
 
 ## Phase 3: Semantic Intelligence
-- [ ] **Vector Search**: Integrate local embeddings (e.g., using `sentence-transformers`) to enable semantic search across the entire corpus.
+- [x] **Vector Search**: Integrated Gemini text-embeddings and cosine similarity to enable real-time semantic search across the Borg corpus.
 - [ ] **Knowledge Nebula**: A 2D semantic landscape visualization where bookmarks are plotted based on conceptual similarity.
 
 ## Phase 4: Agentic Peer Review
-- [ ] **The A2A Debate**: Implement a background protocol where two LLMs debate the "Innovation Score" of a new project.
+- [x] **The A2A Debate**: Implemented a background protocol where an Advocate and a Critic persona debate project innovation to establish a consensus score.
 - [ ] **Automated Briefs**: Generate daily "Intelligence Reports" summarizing the latest discoveries in Markdown.
 
 ## Phase 5: Ecosystem Integration
-- [ ] **Unified Export**: Enable exporting researched intelligence to standard formats (Markdown, JSON, Obsidian-ready files).
+- [x] **Unified Export**: Implemented `unified_export.py` to generate high-fidelity Markdown technical dossiers for all researched intelligence (Obsidian-ready).
 - [ ] **Public Registry**: A read-only public version of the Borg database for community sharing.

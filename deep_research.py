@@ -82,6 +82,24 @@ def write_status(status):
         json.dump(payload, f, indent=2, sort_keys=True)
     os.replace(temp_path, STATUS_PATH)
 
+def write_feed(message, type="info"):
+    feed_path = os.path.join('logs', 'live_feed.json')
+    entry = {
+        "timestamp": iso_now(),
+        "type": type,
+        "message": message
+    }
+    try:
+        # Keep only the last 100 entries for efficiency
+        entries = []
+        if os.path.exists(feed_path):
+            with open(feed_path, 'r', encoding='utf-8') as f:
+                entries = json.load(f)
+        entries.append(entry)
+        with open(feed_path, 'w', encoding='utf-8') as f:
+            json.dump(entries[-100:], f, indent=2)
+    except Exception: pass
+
 def borg_research_url(url, content, status):
     soup = BeautifulSoup(content, 'html.parser')
     for s in soup(['script', 'style']): s.decompose()
@@ -176,8 +194,10 @@ def main():
             'remaining_urls': len(urls) - index,
         })
         write_status(status)
+        write_feed(f"Fetching content for: {url}", "fetch")
         content = fetch_content(url)
         if not content:
+            write_feed(f"Fetch failed for: {url}", "error")
             status.update({
                 'state': 'fetch_failed',
                 'active_url': url,
@@ -186,8 +206,12 @@ def main():
             write_status(status)
             continue
         
+        write_feed(f"Starting Borg research on: {url}", "research")
         rdata = borg_research_url(url, content, status)
         if rdata:
+            write_feed(f"Finalizing extraction for: {url}", "process")
+            from worker_wrapper import pulse
+            pulse("Borg Research Worker", f"Assimilating: {url}", {"remaining": len(urls) - index, "borg_rows": status.get('borg_rows')})
             try:
                 cursor.execute('''
                     INSERT INTO bookmarks (url, category, short_description, long_description, tags, main_features, research_level, innovation_score)

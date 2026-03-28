@@ -7,6 +7,12 @@ SCRIPTS = [
     'sync_submodules.py',
     'deduplicate_file.py',
     'unify_database.py',
+    'rebuild_clusters.py',
+    'rebuild_embeddings.py',
+    'rebuild_nebula.py',
+    'rebuild_debates.py',
+    'generate_intelligence_report.py',
+    'unified_export.py',
     'sync_dbs.py'
 ]
 
