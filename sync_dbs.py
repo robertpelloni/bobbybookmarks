@@ -131,6 +131,24 @@ def sync():
             inst_cur.executemany(f"INSERT INTO agent_heartbeats ({h_col_names}) VALUES ({h_placeholders})", [tuple(row) for row in hb_rows])
             print(f"Synced {len(hb_rows)} agent heartbeats.")
 
+    # Sync battle cards if they exist
+    root_cur.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='battle_cards'")
+    if root_cur.fetchone():
+        root_cur.execute("SELECT sql FROM sqlite_master WHERE type='table' AND name='battle_cards'")
+        create_cards_sql = root_cur.fetchone()[0]
+        inst_cur.execute("DROP TABLE IF EXISTS battle_cards")
+        inst_cur.execute(create_cards_sql)
+        
+        root_cur.execute("SELECT * FROM battle_cards")
+        card_rows = root_cur.fetchall()
+        if card_rows:
+            root_cur.execute("PRAGMA table_info(battle_cards)")
+            c_columns = [row['name'] for row in root_cur.fetchall()]
+            c_col_names = ", ".join(c_columns)
+            c_placeholders = ", ".join(["?"] * len(c_columns))
+            inst_cur.executemany(f"INSERT INTO battle_cards ({c_col_names}) VALUES ({c_placeholders})", [tuple(row) for row in card_rows])
+            print(f"Synced {len(card_rows)} technical battle cards.")
+
     inst_conn.commit()
     root_conn.close()
     inst_conn.close()

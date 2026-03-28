@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import axios from 'axios'
 import ReactMarkdown from 'react-markdown'
-import { Search, ExternalLink, LayoutGrid, Clock, ArrowUpDown, Tag as TagIcon, Sparkles, BrainCircuit, Zap, BarChart3, TrendingUp, PieChart as PieIcon, Network, ChevronRight, Loader2, Gauge, Boxes, ToggleLeft, ToggleRight, Orbit, Scale, MessageSquare, ShieldAlert, ShieldCheck, FileText, Filter, Activity, Cpu, Database, Globe, Terminal, CheckCircle2 } from 'lucide-react'
+import { Search, ExternalLink, LayoutGrid, Clock, ArrowUpDown, Tag as TagIcon, Sparkles, BrainCircuit, Zap, BarChart3, TrendingUp, PieChart as PieIcon, Network, ChevronRight, Loader2, Gauge, Boxes, ToggleLeft, ToggleRight, Orbit, Scale, MessageSquare, ShieldAlert, ShieldCheck, FileText, Filter, Activity, Cpu, Database, Globe, Terminal, CheckCircle2, Swords, AlertTriangle, Target, BookOpen, ScrollText } from 'lucide-react'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell, Legend, AreaChart, Area } from 'recharts'
 import * as d3 from 'd3'
 import './App.css'
@@ -16,6 +16,9 @@ function App() {
   const [debates, setDebates] = useState([])
   const [networkHealth, setNetworkHealth] = useState([])
   const [liveFeed, setLiveFeed] = useState([])
+  const [battleCards, setBattleCards] = useState([])
+  const [skills, setSkills] = useState([])
+  const [systemLogs, setSystemLogs] = useState([])
   const [report, setReport] = useState('')
   const [stats, setStats] = useState({ count: 0, deep: 0, borg: 0, heuristic: 0 })
   const [timeline, setTimeline] = useState([])
@@ -29,7 +32,7 @@ function App() {
   const [sortBy, setSortBy] = useState('created_at')
   const [sortOrder, setSortOrder] = useState('DESC')
   const [lastUpdated, setLastUpdated] = useState(new Date().toLocaleTimeString())
-  const [view, setView] = useState('grid') // 'grid', 'borg', 'insights', 'graph', 'clusters', 'nebula', 'peer-review', 'reports', 'network', or 'live'
+  const [view, setView] = useState('grid') // 'grid', 'borg', 'insights', 'graph', 'clusters', 'nebula', 'peer-review', 'reports', 'network', 'live', 'battle', 'skills', or 'system'
   
   // Visualization Interactivity States
   const [vizSearch, setVizSearch] = useState('')
@@ -77,7 +80,7 @@ function App() {
 
   const fetchAnalytics = async () => {
     try {
-      const [tRes, cRes, tagRes, clRes, dRes, rRes, nRes, fRes] = await Promise.all([
+      const [tRes, cRes, tagRes, clRes, dRes, rRes, nRes, fRes, bRes, sRes, lRes] = await Promise.all([
         axios.get('http://localhost:3002/api/analytics/timeline'),
         axios.get('http://localhost:3002/api/analytics/categories'),
         axios.get('http://localhost:3002/api/analytics/tags'),
@@ -85,7 +88,10 @@ function App() {
         axios.get('http://localhost:3002/api/debates'),
         axios.get('http://localhost:3002/api/reports/latest'),
         axios.get('http://localhost:3002/api/network/health'),
-        axios.get('http://localhost:3002/api/live-feed')
+        axios.get('http://localhost:3002/api/live-feed'),
+        axios.get('http://localhost:3002/api/battle-cards'),
+        axios.get('http://localhost:3002/api/skills'),
+        axios.get('http://localhost:3002/api/system/logs')
       ])
       setTimeline(tRes.data)
       setCatStats(cRes.data)
@@ -95,6 +101,9 @@ function App() {
       setReport(typeof rRes.data === 'string' ? rRes.data : rRes.data.content)
       setNetworkHealth(nRes.data)
       setLiveFeed(fRes.data)
+      setBattleCards(bRes.data)
+      setSkills(sRes.data)
+      setSystemLogs(lRes.data)
     } catch (error) {
       console.error("Analytics fetch failed:", error)
     }
@@ -122,14 +131,19 @@ function App() {
   }, [fetchData])
 
   useEffect(() => {
-    if (view === 'insights' || view === 'clusters' || view === 'peer-review' || view === 'reports' || view === 'network' || view === 'live') fetchAnalytics()
+    const list = ['insights', 'clusters', 'peer-review', 'reports', 'network', 'live', 'battle', 'skills', 'system'];
+    if (list.includes(view)) fetchAnalytics()
   }, [view])
 
   useEffect(() => {
-    if (view === 'live') {
+    if (view === 'live' || view === 'system') {
       const interval = setInterval(async () => {
-        const res = await axios.get('http://localhost:3002/api/live-feed');
-        setLiveFeed(res.data);
+        const [fRes, lRes] = await Promise.all([
+          axios.get('http://localhost:3002/api/live-feed'),
+          axios.get('http://localhost:3002/api/system/logs')
+        ]);
+        setLiveFeed(fRes.data);
+        setSystemLogs(lRes.data);
       }, 3000);
       return () => clearInterval(interval);
     }
@@ -138,18 +152,22 @@ function App() {
   useEffect(() => {
     const fetchMeta = async () => {
       try {
-        const [cRes, clRes, dRes, rRes, nRes] = await Promise.all([
+        const [cRes, clRes, dRes, rRes, nRes, bRes, sRes] = await Promise.all([
           axios.get('http://localhost:3002/api/categories'),
           axios.get('http://localhost:3002/api/clusters'),
           axios.get('http://localhost:3002/api/debates'),
           axios.get('http://localhost:3002/api/reports/latest'),
-          axios.get('http://localhost:3002/api/network/health')
+          axios.get('http://localhost:3002/api/network/health'),
+          axios.get('http://localhost:3002/api/battle-cards'),
+          axios.get('http://localhost:3002/api/skills')
         ])
         setCategories(cRes.data)
         setClusters(clRes.data)
         setDebates(dRes.data)
         setReport(typeof rRes.data === 'string' ? rRes.data : rRes.data.content)
         setNetworkHealth(nRes.data)
+        setBattleCards(bRes.data)
+        setSkills(sRes.data)
       } catch (err) { console.error(err) }
     }
     fetchMeta()
@@ -350,7 +368,7 @@ function App() {
           </div>
         </div>
         <div className="header-actions">
-          <button className={`view-btn ${view === 'grid' ? 'active' : ''}`} onClick={() => setView('grid')}> 
+          <button className={`view-btn ${view === 'grid' ? 'active' : ''}`} onClick={() => setView('grid')}>
             <LayoutGrid size={18} /> Catalog
           </button>
           <button className={`view-btn ${view === 'borg' ? 'active' : ''}`} onClick={() => setView('borg')}> 
@@ -364,6 +382,15 @@ function App() {
           </button>
           <button className={`view-btn ${view === 'nebula' ? 'active' : ''}`} onClick={() => setView('nebula')}> 
             <Orbit size={18} /> Nebula
+          </button>
+          <button className={`view-btn ${view === 'battle' ? 'active' : ''}`} onClick={() => setView('battle')}> 
+            <Swords size={18} /> Battle Cards
+          </button>
+          <button className={`view-btn ${view === 'skills' ? 'active' : ''}`} onClick={() => setView('skills')}> 
+            <BookOpen size={18} /> Skills
+          </button>
+          <button className={`view-btn ${view === 'system' ? 'active' : ''}`} onClick={() => setView('system')}> 
+            <ScrollText size={18} /> Logs
           </button>
           <button className={`view-btn ${view === 'peer-review' ? 'active' : ''}`} onClick={() => setView('peer-review')}> 
             <Scale size={18} /> Peer Review
@@ -571,6 +598,86 @@ function App() {
                 </a>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {view === 'battle' && (
+        <div className="battle-view">
+          <div className="battle-grid">
+            {battleCards.map((card) => (
+              <div key={card.id} className="battle-card-item">
+                <div className="card-top">
+                  <span className="card-cat">{card.category}</span>
+                  <h3>{card.short_description}</h3>
+                  <div className="card-score-box">
+                    <span className="score-val">{card.innovation_score}</span>
+                    <span className="score-label">IQ</span>
+                  </div>
+                </div>
+                <div className="card-body">
+                  <div className="card-section">
+                    <div className="section-head"><CheckCircle2 size={14} /> <span>Technical Strengths</span></div>
+                    <ul className="bullet-list">
+                      {card.strengths.split(',').map(s => <li key={s}>{s.trim()}</li>)}
+                    </ul>
+                  </div>
+                  <div className="card-section">
+                    <div className="section-head"><AlertTriangle size={14} /> <span>Architectural Risks</span></div>
+                    <ul className="bullet-list">
+                      {card.weaknesses.split(',').map(w => <li key={w}>{w.trim()}</li>)}
+                    </ul>
+                  </div>
+                  <div className="card-footer-info">
+                    <div className="priority-box">
+                      <span className="label">Borg Priority</span>
+                      <span className={`val ${card.borg_priority.toLowerCase()}`}>{card.borg_priority}</span>
+                    </div>
+                    <p className="meta-note">{card.meta_analysis}</p>
+                  </div>
+                </div>
+                <a href={card.url} target="_blank" rel="noopener noreferrer" className="visit-link">
+                  Open Substrate <ExternalLink size={12} />
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {view === 'skills' && (
+        <div className="skills-view">
+          <div className="skills-grid">
+            {skills.map((skill) => (
+              <div key={skill.name} className="card skill-card">
+                <div className="card-header">
+                  <span className="category-label">Autonomous Skill</span>
+                  <h3>{skill.name}</h3>
+                </div>
+                <div className="markdown-content compact">
+                  <ReactMarkdown>{skill.content}</ReactMarkdown>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {view === 'system' && (
+        <div className="system-view">
+          <div className="terminal-card card">
+            <div className="card-header">
+              <h3><ScrollText size={18} /> System Resilience Logs</h3>
+              <span className="text-xs text-muted">Real-time telemetry from the self-healing and sync daemons</span>
+            </div>
+            <div className="terminal-container">
+              {systemLogs.map((line, i) => (
+                <div key={i} className="terminal-line">
+                  <span className="t-msg">{line}</span>
+                </div>
+              ))}
+              <div ref={feedEndRef} />
+            </div>
           </div>
         </div>
       )}

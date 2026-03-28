@@ -16,6 +16,9 @@ def main():
     log("Auto-Pulse Daemon started.")
     while True:
         try:
+            log("Triggering Self-Healing Pulse...")
+            subprocess.run([sys.executable, 'self_healing_pulse.py'])
+
             log("Triggering Master Sync Pulse...")
             # Run master_sync.py and wait for it to complete
             result = subprocess.run([sys.executable, 'master_sync.py'], capture_output=True, text=True)

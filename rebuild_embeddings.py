@@ -31,12 +31,18 @@ def generate_embeddings():
     pool = GeminiModelPool()
     
     print("Fetching bookmarks for embedding...")
-    # Prioritize 'borg' level and those without embeddings
+    # Prioritize 'borg' level and those without embeddings (or those with zero-vector placeholders)
+    # We identify zero vectors by checking if the binary blob matches a sequence of zeros.
+    # For gemini-embedding-2-preview (3072 dims), that's 12288 bytes of zeros.
     cur.execute('''
         SELECT b.id, b.short_description, b.long_description, b.tags 
         FROM bookmarks b
         LEFT JOIN embeddings e ON b.id = e.bookmark_id
-        WHERE b.research_level = 'borg' AND e.bookmark_id IS NULL
+        WHERE b.research_level = 'borg' AND (
+            e.bookmark_id IS NULL OR 
+            LENGTH(e.vector) < 12288 OR 
+            e.vector = ZEROBLOB(12288)
+        )
         LIMIT 500
     ''')
     rows = cur.fetchall()
