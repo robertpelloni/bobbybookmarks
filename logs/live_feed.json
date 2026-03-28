@@ -1,160 +1,5 @@
 [
   {
-    "timestamp": "2026-03-28T12:26:40.729035+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://phil65.github.io/llmling-agent/cli/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:41.050487+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/GithubCopilot/comments/1phnj0e/if_you_think_copilots_context_window_is_too_small/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:44.392497+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/GithubCopilot/comments/1phnj0e/if_you_think_copilots_context_window_is_too_small/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:44.400123+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/opencodeCLI/comments/1pkki12/swarm_of_80_opencode_subagents_just_generated_the/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:45.411779+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/opencodeCLI/comments/1pkki12/swarm_of_80_opencode_subagents_just_generated_the/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:45.418347+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ClaudeCode/comments/1ppg5ei/vibe_coding_with_parallel_agents_let_conductor/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:46.314457+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/ClaudeCode/comments/1ppg5ei/vibe_coding_with_parallel_agents_let_conductor/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:46.322455+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1ppokmm/use_natural_language_to_query_blockchain_data/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:47.279519+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1ppokmm/use_natural_language_to_query_blockchain_data/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:47.754037+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/LocalLLaMA/comments/1ppl5mw/maestro_run_ai_coding_agents_autonomously_for/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:48.758597+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/LocalLLaMA/comments/1ppl5mw/maestro_run_ai_coding_agents_autonomously_for/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:48.765391+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1pl1gbu/ai_coding_agents_have_coding_knowledge_but_lack/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:49.794645+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1pl1gbu/ai_coding_agents_have_coding_knowledge_but_lack/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:49.801325+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.context-pack.com/process?pack_id=00c9a2b8-dde7-498b-abef-ddd6b86d2b4b"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:51.154274+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.context-pack.com/process?pack_id=00c9a2b8-dde7-498b-abef-ddd6b86d2b4b"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:51.162173+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ContextEngineering/comments/1peugy5/i_treated_my_ai_chats_like_disposable_coffee_cups/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:52.214162+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/ContextEngineering/comments/1peugy5/i_treated_my_ai_chats_like_disposable_coffee_cups/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:52.221148+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://jeanmemory.com/dashboard"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:53.640147+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://jeanmemory.com/dashboard"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:53.646581+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:54.613241+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:54.619616+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://docs.heysol.ai/core/overview"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:56.344980+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://docs.heysol.ai/core/overview"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:56.352255+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://zypher.corespeed.io/docs"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:58.685197+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://zypher.corespeed.io/docs"
-  },
-  {
-    "timestamp": "2026-03-28T12:26:58.691886+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:00.670810+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:00.677817+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:01.606976+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:01.615804+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/Mnehmos/MCP-OODA-Computer"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:02.567054+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://github.com/Mnehmos/MCP-OODA-Computer"
-  },
-  {
     "timestamp": "2026-03-28T12:27:02.573794+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
@@ -497,4 +342,161 @@
   {
     "timestamp": "2026-03-28T16:59:41.423551+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: http://edwardfeser.blogspot.com/2019/03/artif
+    "message": "Finalizing extraction for: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
+  },
+  {
+    "timestamp": "2026-03-28T16:59:56.455669+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
+  },
+  {
+    "timestamp": "2026-03-28T16:59:57.011975+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
+  },
+  {
+    "timestamp": "2026-03-28T18:06:48.683470+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
+  },
+  {
+    "timestamp": "2026-03-28T18:07:03.701745+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
+  },
+  {
+    "timestamp": "2026-03-28T18:07:05.515386+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
+  },
+  {
+    "timestamp": "2026-03-28T19:13:46.955786+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
+  },
+  {
+    "timestamp": "2026-03-28T19:14:01.979280+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://adrift.today/"
+  },
+  {
+    "timestamp": "2026-03-28T19:14:04.306177+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://adrift.today/"
+  },
+  {
+    "timestamp": "2026-03-28T19:42:31.672396+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://adrift.today/"
+  },
+  {
+    "timestamp": "2026-03-28T19:42:46.705290+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://agentexports.com/"
+  },
+  {
+    "timestamp": "2026-03-28T19:42:47.523551+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://agentexports.com/"
+  },
+  {
+    "timestamp": "2026-03-28T20:14:31.414204+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://agentexports.com/"
+  },
+  {
+    "timestamp": "2026-03-28T20:14:46.435872+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://agentset.ai/rag-prompts"
+  },
+  {
+    "timestamp": "2026-03-28T20:14:51.031592+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://agentset.ai/rag-prompts"
+  },
+  {
+    "timestamp": "2026-03-28T20:37:06.637528+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://agentset.ai/rag-prompts"
+  },
+  {
+    "timestamp": "2026-03-28T20:37:21.676051+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://agentskills.io/home"
+  },
+  {
+    "timestamp": "2026-03-28T20:37:26.215924+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://agentskills.io/home"
+  },
+  {
+    "timestamp": "2026-03-28T21:17:31.116012+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://agentskills.io/home"
+  },
+  {
+    "timestamp": "2026-03-28T21:17:46.149269+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://agentskills.work/sellers-net-sheet-florida"
+  },
+  {
+    "timestamp": "2026-03-28T21:17:49.659381+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://agentskills.work/sellers-net-sheet-florida"
+  },
+  {
+    "timestamp": "2026-03-28T21:22:26.438701+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://agentskills.work/sellers-net-sheet-florida"
+  },
+  {
+    "timestamp": "2026-03-28T21:22:41.462409+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://ahussain.substack.com/"
+  },
+  {
+    "timestamp": "2026-03-28T21:22:42.396080+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://ahussain.substack.com/"
+  },
+  {
+    "timestamp": "2026-03-28T22:24:34.154392+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://ahussain.substack.com/"
+  },
+  {
+    "timestamp": "2026-03-28T22:24:49.173937+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://ai-kol-network-analysis.youware.app/"
+  },
+  {
+    "timestamp": "2026-03-28T22:24:49.770744+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://ai-kol-network-analysis.youware.app/"
+  },
+  {
+    "timestamp": "2026-03-28T22:24:49.777092+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://aiboom.tools/"
+  },
+  {
+    "timestamp": "2026-03-28T22:24:57.823615+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://aiboom.tools/"
+  },
+  {
+    "timestamp": "2026-03-28T22:27:29.325712+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://aiboom.tools/"
+  },
+  {
+    "timestamp": "2026-03-28T22:27:44.344446+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://aidemos.meta.com/segment-anything/gallery/"
+  },
+  {
+    "timestamp": "2026-03-28T22:27:45.220979+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://aidemos.meta.com/segment-anything/gallery/"
+  }
+]
