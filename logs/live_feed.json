@@ -1,462 +1,502 @@
 [
   {
-    "timestamp": "2026-03-28T05:09:01.723129+00:00",
+    "timestamp": "2026-03-28T06:20:50.593929+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/kukapay/freqtrade-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T12:26:35.428381+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1q1gqh9/added_stdio_docker_sandbox_and_skills_system_to/"
   },
   {
-    "timestamp": "2026-03-28T05:09:03.189728+00:00",
+    "timestamp": "2026-03-28T12:26:37.206880+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1q1gqh9/added_stdio_docker_sandbox_and_skills_system_to/"
   },
   {
-    "timestamp": "2026-03-28T05:09:03.202260+00:00",
+    "timestamp": "2026-03-28T12:26:37.231281+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1ry3xv7/we_graded_over_200000_mcp_servers_both_stdio/"
   },
   {
-    "timestamp": "2026-03-28T05:09:04.438513+00:00",
+    "timestamp": "2026-03-28T12:26:38.189455+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1ry3xv7/we_graded_over_200000_mcp_servers_both_stdio/"
   },
   {
-    "timestamp": "2026-03-28T05:09:04.450599+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/mimecam/mcp-devbrain-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:09:06.034415+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/mimecam/mcp-devbrain-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:08.809603+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://github.com/mimecam/mcp-devbrain-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:23.891206+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/descope-sample-apps/descope-mcp-server-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:25.703366+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/descope-sample-apps/descope-mcp-server-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:27.403301+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://github.com/descope-sample-apps/descope-mcp-server-stdio"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:42.446615+00:00",
+    "timestamp": "2026-03-28T12:26:38.196267+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/statsig-io/mcp-stdio"
   },
   {
-    "timestamp": "2026-03-28T05:15:44.357455+00:00",
+    "timestamp": "2026-03-28T12:26:39.071196+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/statsig-io/mcp-stdio"
   },
   {
-    "timestamp": "2026-03-28T05:15:44.380559+00:00",
+    "timestamp": "2026-03-28T12:26:39.125584+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/ClaudeAI/comments/1pg2nz9/i_have_gemini_cli_working_basically_as_a_subagent/"
   },
   {
-    "timestamp": "2026-03-28T05:15:46.241950+00:00",
+    "timestamp": "2026-03-28T12:26:40.076960+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/ClaudeAI/comments/1pg2nz9/i_have_gemini_cli_working_basically_as_a_subagent/"
   },
   {
-    "timestamp": "2026-03-28T05:15:46.261804+00:00",
+    "timestamp": "2026-03-28T12:26:40.083560+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://phil65.github.io/llmling-agent/cli/"
   },
   {
-    "timestamp": "2026-03-28T05:15:47.713218+00:00",
+    "timestamp": "2026-03-28T12:26:40.729035+00:00",
     "type": "error",
     "message": "Fetch failed for: https://phil65.github.io/llmling-agent/cli/"
   },
   {
-    "timestamp": "2026-03-28T05:15:47.727880+00:00",
+    "timestamp": "2026-03-28T12:26:41.050487+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/GithubCopilot/comments/1phnj0e/if_you_think_copilots_context_window_is_too_small/"
   },
   {
-    "timestamp": "2026-03-28T05:15:49.250841+00:00",
+    "timestamp": "2026-03-28T12:26:44.392497+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/GithubCopilot/comments/1phnj0e/if_you_think_copilots_context_window_is_too_small/"
   },
   {
-    "timestamp": "2026-03-28T05:15:49.270728+00:00",
+    "timestamp": "2026-03-28T12:26:44.400123+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/opencodeCLI/comments/1pkki12/swarm_of_80_opencode_subagents_just_generated_the/"
   },
   {
-    "timestamp": "2026-03-28T05:15:50.956390+00:00",
+    "timestamp": "2026-03-28T12:26:45.411779+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/opencodeCLI/comments/1pkki12/swarm_of_80_opencode_subagents_just_generated_the/"
   },
   {
-    "timestamp": "2026-03-28T05:15:50.978698+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/"
-  },
-  {
-    "timestamp": "2026-03-28T05:15:52.623256+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/"
-  },
-  {
-    "timestamp": "2026-03-28T05:26:17.172876+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/"
-  },
-  {
-    "timestamp": "2026-03-28T05:26:32.204067+00:00",
+    "timestamp": "2026-03-28T12:26:45.418347+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/ClaudeCode/comments/1ppg5ei/vibe_coding_with_parallel_agents_let_conductor/"
   },
   {
-    "timestamp": "2026-03-28T05:26:33.886245+00:00",
+    "timestamp": "2026-03-28T12:26:46.314457+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/ClaudeCode/comments/1ppg5ei/vibe_coding_with_parallel_agents_let_conductor/"
   },
   {
-    "timestamp": "2026-03-28T05:26:33.896993+00:00",
+    "timestamp": "2026-03-28T12:26:46.322455+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1ppokmm/use_natural_language_to_query_blockchain_data/"
   },
   {
-    "timestamp": "2026-03-28T05:26:35.542307+00:00",
+    "timestamp": "2026-03-28T12:26:47.279519+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1ppokmm/use_natural_language_to_query_blockchain_data/"
   },
   {
-    "timestamp": "2026-03-28T05:26:35.559547+00:00",
+    "timestamp": "2026-03-28T12:26:47.754037+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/LocalLLaMA/comments/1ppl5mw/maestro_run_ai_coding_agents_autonomously_for/"
   },
   {
-    "timestamp": "2026-03-28T05:26:37.144484+00:00",
+    "timestamp": "2026-03-28T12:26:48.758597+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/LocalLLaMA/comments/1ppl5mw/maestro_run_ai_coding_agents_autonomously_for/"
   },
   {
-    "timestamp": "2026-03-28T05:26:37.155553+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/BrokkAi/brokk?tab=readme-ov-file"
-  },
-  {
-    "timestamp": "2026-03-28T05:26:38.713173+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/BrokkAi/brokk?tab=readme-ov-file"
-  },
-  {
-    "timestamp": "2026-03-28T05:47:01.694189+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://github.com/BrokkAi/brokk?tab=readme-ov-file"
-  },
-  {
-    "timestamp": "2026-03-28T05:47:16.723543+00:00",
+    "timestamp": "2026-03-28T12:26:48.765391+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1pl1gbu/ai_coding_agents_have_coding_knowledge_but_lack/"
   },
   {
-    "timestamp": "2026-03-28T05:47:18.223371+00:00",
+    "timestamp": "2026-03-28T12:26:49.794645+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/mcp/comments/1pl1gbu/ai_coding_agents_have_coding_knowledge_but_lack/"
   },
   {
-    "timestamp": "2026-03-28T05:47:18.237859+00:00",
+    "timestamp": "2026-03-28T12:26:49.801325+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.context-pack.com/process?pack_id=00c9a2b8-dde7-498b-abef-ddd6b86d2b4b"
   },
   {
-    "timestamp": "2026-03-28T05:47:19.298310+00:00",
+    "timestamp": "2026-03-28T12:26:51.154274+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.context-pack.com/process?pack_id=00c9a2b8-dde7-498b-abef-ddd6b86d2b4b"
   },
   {
-    "timestamp": "2026-03-28T05:47:19.311593+00:00",
+    "timestamp": "2026-03-28T12:26:51.162173+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/ContextEngineering/comments/1peugy5/i_treated_my_ai_chats_like_disposable_coffee_cups/"
   },
   {
-    "timestamp": "2026-03-28T05:47:20.521555+00:00",
+    "timestamp": "2026-03-28T12:26:52.214162+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/ContextEngineering/comments/1peugy5/i_treated_my_ai_chats_like_disposable_coffee_cups/"
   },
   {
-    "timestamp": "2026-03-28T05:47:20.533006+00:00",
+    "timestamp": "2026-03-28T12:26:52.221148+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://jeanmemory.com/dashboard"
   },
   {
-    "timestamp": "2026-03-28T05:47:22.622725+00:00",
+    "timestamp": "2026-03-28T12:26:53.640147+00:00",
     "type": "error",
     "message": "Fetch failed for: https://jeanmemory.com/dashboard"
   },
   {
-    "timestamp": "2026-03-28T05:47:22.635471+00:00",
+    "timestamp": "2026-03-28T12:26:53.646581+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
   },
   {
-    "timestamp": "2026-03-28T05:47:23.926033+00:00",
+    "timestamp": "2026-03-28T12:26:54.613241+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
   },
   {
-    "timestamp": "2026-03-28T05:47:23.937181+00:00",
+    "timestamp": "2026-03-28T12:26:54.619616+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-03-28T05:47:24.919301+00:00",
+    "timestamp": "2026-03-28T12:26:56.344980+00:00",
     "type": "error",
     "message": "Fetch failed for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-03-28T05:47:24.929141+00:00",
+    "timestamp": "2026-03-28T12:26:56.352255+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-03-28T05:47:30.590814+00:00",
+    "timestamp": "2026-03-28T12:26:58.685197+00:00",
     "type": "error",
     "message": "Fetch failed for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-03-28T05:47:30.602496+00:00",
+    "timestamp": "2026-03-28T12:26:58.691886+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-03-28T05:47:32.729719+00:00",
+    "timestamp": "2026-03-28T12:27:00.670810+00:00",
     "type": "error",
     "message": "Fetch failed for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-03-28T05:47:32.741770+00:00",
+    "timestamp": "2026-03-28T12:27:00.677817+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-03-28T05:47:34.308205+00:00",
+    "timestamp": "2026-03-28T12:27:01.606976+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-03-28T05:47:34.317523+00:00",
+    "timestamp": "2026-03-28T12:27:01.615804+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-03-28T05:47:35.446746+00:00",
+    "timestamp": "2026-03-28T12:27:02.567054+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-03-28T05:47:35.462281+00:00",
+    "timestamp": "2026-03-28T12:27:02.573794+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-03-28T05:47:37.560728+00:00",
+    "timestamp": "2026-03-28T12:27:04.176320+00:00",
     "type": "error",
     "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-03-28T05:47:37.573057+00:00",
+    "timestamp": "2026-03-28T12:27:04.183496+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-03-28T05:47:42.286883+00:00",
+    "timestamp": "2026-03-28T12:27:05.084157+00:00",
     "type": "error",
     "message": "Fetch failed for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-03-28T05:47:42.301474+00:00",
+    "timestamp": "2026-03-28T12:27:05.090725+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-03-28T05:47:46.922742+00:00",
+    "timestamp": "2026-03-28T12:27:13.116388+00:00",
     "type": "error",
     "message": "Fetch failed for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-03-28T05:47:46.932758+00:00",
+    "timestamp": "2026-03-28T12:27:13.122915+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-03-28T05:47:48.154708+00:00",
+    "timestamp": "2026-03-28T12:27:13.861096+00:00",
     "type": "error",
     "message": "Fetch failed for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-03-28T05:47:48.172788+00:00",
+    "timestamp": "2026-03-28T12:27:13.869822+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-03-28T05:47:49.661064+00:00",
+    "timestamp": "2026-03-28T12:27:14.802305+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-03-28T05:47:49.674062+00:00",
+    "timestamp": "2026-03-28T12:27:14.810518+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-03-28T05:47:51.215436+00:00",
+    "timestamp": "2026-03-28T12:27:15.827277+00:00",
     "type": "error",
     "message": "Fetch failed for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-03-28T05:47:51.227296+00:00",
+    "timestamp": "2026-03-28T12:27:15.834825+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-03-28T05:47:52.260721+00:00",
+    "timestamp": "2026-03-28T12:27:16.604376+00:00",
     "type": "error",
     "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-03-28T05:47:52.272017+00:00",
+    "timestamp": "2026-03-28T12:27:16.611325+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:53.421562+00:00",
+    "timestamp": "2026-03-28T12:27:17.783142+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:53.434690+00:00",
+    "timestamp": "2026-03-28T12:27:17.797076+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-stock-market-data-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:54.663931+00:00",
+    "timestamp": "2026-03-28T12:27:19.294947+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-stock-market-data-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:54.677229+00:00",
+    "timestamp": "2026-03-28T12:27:19.306783+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-financials-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:56.060651+00:00",
+    "timestamp": "2026-03-28T12:27:20.292558+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-financials-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:56.074242+00:00",
+    "timestamp": "2026-03-28T12:27:20.307182+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-transcripts-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:57.587434+00:00",
+    "timestamp": "2026-03-28T12:27:21.789994+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-transcripts-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:57.601037+00:00",
+    "timestamp": "2026-03-28T12:27:21.800423+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-funding-data-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:59.258716+00:00",
+    "timestamp": "2026-03-28T12:27:22.913662+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-funding-data-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:47:59.273310+00:00",
+    "timestamp": "2026-03-28T12:27:22.919962+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-investors-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:00.543566+00:00",
+    "timestamp": "2026-03-28T12:27:23.971013+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-investors-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:00.579944+00:00",
+    "timestamp": "2026-03-28T12:27:23.980291+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-private-companies-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:02.225129+00:00",
+    "timestamp": "2026-03-28T12:27:25.311053+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-private-companies-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:02.240693+00:00",
+    "timestamp": "2026-03-28T12:27:25.317850+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/OctagonAI/octagon-13f-holdings-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:03.745252+00:00",
+    "timestamp": "2026-03-28T12:27:26.301177+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/OctagonAI/octagon-13f-holdings-mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:03.765239+00:00",
+    "timestamp": "2026-03-28T12:27:26.308783+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/token-metrics/mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:05.325566+00:00",
+    "timestamp": "2026-03-28T12:27:27.247973+00:00",
     "type": "error",
     "message": "Fetch failed for: https://github.com/token-metrics/mcp"
   },
   {
-    "timestamp": "2026-03-28T05:48:05.339055+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/kukapay/crypto-indicators-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T05:48:06.760111+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/kukapay/crypto-indicators-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T06:19:26.925828+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://github.com/kukapay/crypto-indicators-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T06:19:41.959179+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/kukapay/cryptopanic-mcp-server"
-  },
-  {
-    "timestamp": "2026-03-28T06:19:43.356210+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/kukapay/cryptopanic-mcp-server"
-  },
-  {
-    "timestamp": "2026-03-28T06:20:34.246781+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://github.com/kukapay/cryptopanic-mcp-server"
-  },
-  {
-    "timestamp": "2026-03-28T06:20:49.275084+00:00",
+    "timestamp": "2026-03-28T12:27:27.255917+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://github.com/kukapay/freqtrade-mcp"
   },
   {
-    "timestamp": "2026-03-28T06:20:50.593929+00:00",
+    "timestamp": "2026-03-28T12:27:28.338514+00:00",
     "type": "research",
     "message": "Starting Borg research on: https://github.com/kukapay/freqtrade-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T12:27:35.988898+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/kukapay/freqtrade-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T12:27:51.011528+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/badkk/awesome-crypto-mcp-servers"
+  },
+  {
+    "timestamp": "2026-03-28T12:27:52.144422+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/badkk/awesome-crypto-mcp-servers"
+  },
+  {
+    "timestamp": "2026-03-28T12:27:53.733780+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/badkk/awesome-crypto-mcp-servers"
+  },
+  {
+    "timestamp": "2026-03-28T12:28:08.757791+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/kukapay/uniswap-poolspy-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T12:28:09.822901+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/kukapay/uniswap-poolspy-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T14:06:00.049936+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/kukapay/uniswap-poolspy-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T14:06:15.084082+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/kukapay/uniswap-trader-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T14:06:16.153227+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/kukapay/uniswap-trader-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T14:37:07.902416+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/kukapay/uniswap-trader-mcp"
+  },
+  {
+    "timestamp": "2026-03-28T14:37:22.932408+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/"
+  },
+  {
+    "timestamp": "2026-03-28T14:37:23.821894+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/"
+  },
+  {
+    "timestamp": "2026-03-28T14:37:23.827617+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://nof1.ai/"
+  },
+  {
+    "timestamp": "2026-03-28T14:37:26.890720+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://nof1.ai/"
+  },
+  {
+    "timestamp": "2026-03-28T14:40:32.680099+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://nof1.ai/"
+  },
+  {
+    "timestamp": "2026-03-28T14:40:47.702187+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/"
+  },
+  {
+    "timestamp": "2026-03-28T14:40:48.540626+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/"
+  },
+  {
+    "timestamp": "2026-03-28T14:40:48.547393+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://docs.coingecko.com/docs/mcp-server"
+  },
+  {
+    "timestamp": "2026-03-28T14:40:49.279413+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://docs.coingecko.com/docs/mcp-server"
+  },
+  {
+    "timestamp": "2026-03-28T14:41:51.337998+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://docs.coingecko.com/docs/mcp-server"
+  },
+  {
+    "timestamp": "2026-03-28T14:42:06.367614+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/Upsonic/Upsonic"
+  },
+  {
+    "timestamp": "2026-03-28T14:42:07.457325+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/Upsonic/Upsonic"
+  },
+  {
+    "timestamp": "2026-03-28T15:10:18.991486+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/Upsonic/Upsonic"
+  },
+  {
+    "timestamp": "2026-03-28T15:10:34.022743+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://news.ycombinator.com/item?id=46115214"
+  },
+  {
+    "timestamp": "2026-03-28T15:10:34.995068+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://news.ycombinator.com/item?id=46115214"
   }
 ]

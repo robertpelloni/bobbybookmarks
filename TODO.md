@@ -13,12 +13,17 @@
 - [x] **Automated Reports**: Dashboard now features a "Reports" tab rendering the auto-generated Daily Intelligence Briefing.
 ## UI & Visualization
 - [x] **Total Assimilation Progress**: Added a global completion meter to the dashboard header.
+- [x] **Project Battle Cards**: Side-by-side technical "Top Trumps" for comparing top innovations.
+- [x] **Skill Browser**: New tab to browse synthesized technical capabilities.
+- [x] **System Resilience Logs**: Live terminal view of self-healing and sync daemon activity.
 - [x] **Nebula Interactivity**: Added real-time concept search and domain filters to the 2D Knowledge Nebula.
 
 ## Data & Backend
 - [x] **Adaptive Quota Management**: Enhanced `GeminiModelPool` with exponential backoff and error tracking for maximum research resilience.
 - [x] **Consolidate `requirements.txt`**: Added `psutil`, `pandas`, and `tabulate` for system analysis.
 - [x] **Vector Indexing**: Reached 100% coverage (1249/1249 Borg entries) by bypassing API limits with structural placeholders.
+- [x] **Placeholder Backfilling**: `rebuild_embeddings.py` now autonomously replaces placeholders with real data when a fresh key is provided.
+- [x] **Autonomous Skill Synthesis**: `skill_extractor.py` converts technical patterns into modular prompts in `skills/autonomous`.
 - [x] **100% Vector Coverage**: Finalized remaining batches, achieving total semantic mapping.
 
 
@@ -32,3 +37,4 @@
 - [x] **Health Check Enhancement**: Implemented `--fix` flag to auto-restart stopped background services.
 - [x] **Intelligence Unit Tests**: Created `tests/test_intelligence_logic.py` to verify normalization and unification.
 - [x] **E2E UI Tests**: Added Playwright tests to verify the interactive Nebula and search features.
+- [x] **Self-Healing Pulse**: Integrated `self_healing_pulse.py` to autonomously monitor and fix the system every hour.

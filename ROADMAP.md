@@ -20,3 +20,18 @@
 ## Phase 5: Ecosystem Integration
 - [x] **Unified Export**: Implemented `unified_export.py` to generate high-fidelity Markdown technical dossiers for all researched intelligence (Obsidian-ready).
 - [ ] **Public Registry**: A read-only public version of the Borg database for community sharing.
+
+## Phase 6: Infinite Resilience
+- [x] **Self-Healing Pulse**: Integrated `self_healing_pulse.py` to autonomously monitor health, auto-fix services, and re-validate logic on an hourly loop.
+
+## Phase 7: The Collective Singularity
+- [x] **Project Battle Cards**: Side-by-side technical "Top Trumps" for top innovations, highlighting Strengths, Risks, and Borg Integration Priority.
+- [x] **Autonomous Skill Extraction**: Automatically converting discovered patterns into usable skills in `skills/autonomous`.
+
+## Phase 8: Skill Synthesis
+- [x] **Placeholder Backfilling**: Hardened embedding logic to automatically identify and replace structural placeholders with real conceptual data upon quota reset.
+- [x] **Automated Skill Registry**: A searchable index of all synthesized skills ready for agentic download.
+
+## Phase 9: Technical Command Center
+- [x] **Skill Browser**: High-fidelity UI tab to browse and download synthesized agent capabilities.
+- [x] **System Resilience Logs**: Real-time terminal in the dashboard to monitor self-healing and auto-pulse daemons.

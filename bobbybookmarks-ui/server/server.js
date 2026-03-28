@@ -246,6 +246,45 @@ app.get('/api/live-feed', (req, res) => {
     }
 });
 
+app.get('/api/battle-cards', (req, res) => {
+    const sql = `
+        SELECT c.*, b.short_description, b.url, b.category, b.innovation_score
+        FROM battle_cards c
+        JOIN bookmarks b ON c.bookmark_id = b.id
+        ORDER BY b.innovation_score DESC
+    `;
+    db.all(sql, [], (err, rows) => {
+        if (err) return res.status(500).json({ error: err.message });
+        res.json(rows);
+    });
+});
+
+app.get('/api/skills', (req, res) => {
+    const skillsDir = path.join(__dirname, '..', '..', 'skills', 'autonomous');
+    const fs = require('fs');
+    if (!fs.existsSync(skillsDir)) return res.json([]);
+    
+    fs.readdir(skillsDir, (err, files) => {
+        if (err) return res.status(500).json({ error: err.message });
+        const skills = files.filter(f => f.endsWith('.md')).map(f => {
+            const content = fs.readFileSync(path.join(skillsDir, f), 'utf8');
+            return { name: f.replace('.md', ''), content };
+        });
+        res.json(skills);
+    });
+});
+
+app.get('/api/system/logs', (req, res) => {
+    const logPath = path.join(__dirname, '..', '..', 'logs', 'self_healing.log');
+    const fs = require('fs');
+    if (fs.existsSync(logPath)) {
+        const lines = fs.readFileSync(logPath, 'utf8').split('\n').filter(l => l.trim()).slice(-100);
+        res.json(lines);
+    } else {
+        res.json(["System logs initialized. No self-healing pulse recorded yet."]);
+    }
+});
+
 app.get('/api/clusters', (req, res) => {
     db.all('SELECT * FROM clusters ORDER BY bookmark_count DESC', [], (err, rows) => {
         if (err) return res.status(500).json({ error: err.message });
