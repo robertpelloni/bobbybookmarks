@@ -1,17 +1,17 @@
 {
-  "active_url": "https://aidemos.meta.com/segment-anything/gallery/",
-  "borg_rows": 1269,
+  "active_url": "https://alma.now/",
+  "borg_rows": 1271,
   "last_error": null,
-  "last_extracted_url": "https://aiboom.tools/",
+  "last_extracted_url": "https://alma.now/",
   "last_model": "models/gemini-flash-lite-latest",
   "models": [
     "models/gemini-flash-latest",
     "models/gemini-flash-lite-latest",
     "models/gemini-3-flash-preview"
   ],
-  "remaining_urls": 14368,
+  "remaining_urls": 14366,
   "sleep_seconds": null,
-  "state": "researching",
-  "updated_at": "2026-03-28T23:41:59.583527+00:00",
+  "state": "processing",
+  "updated_at": "2026-03-29T00:02:00.878610+00:00",
   "worker_pid": 26608
 }

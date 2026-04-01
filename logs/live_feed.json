@@ -1,25 +1,5 @@
 [
   {
-    "timestamp": "2026-03-28T12:27:02.573794+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:04.176320+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:04.183496+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://synthetic.new/user-settings/api"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:05.084157+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://synthetic.new/user-settings/api"
-  },
-  {
     "timestamp": "2026-03-28T12:27:05.090725+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://chutes.ai/app/api"
@@ -498,5 +478,25 @@
     "timestamp": "2026-03-28T22:27:45.220979+00:00",
     "type": "research",
     "message": "Starting Borg research on: https://aidemos.meta.com/segment-anything/gallery/"
+  },
+  {
+    "timestamp": "2026-03-28T23:48:38.405202+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://aidemos.meta.com/segment-anything/gallery/"
+  },
+  {
+    "timestamp": "2026-03-28T23:48:53.443469+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://alma.now/"
+  },
+  {
+    "timestamp": "2026-03-28T23:48:58.327691+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://alma.now/"
+  },
+  {
+    "timestamp": "2026-03-29T00:02:00.858537+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://alma.now/"
   }
 ]
