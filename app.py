@@ -4,8 +4,7 @@ import sqlite3
 from collections import Counter, defaultdict
 from itertools import combinations
 from urllib.parse import urlparse
-from flask import Flask, request, jsonify, render_template, abort
-from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 
 from config import Config
 from models import db, Bookmark, ImportSession, Cluster
@@ -451,6 +450,7 @@ def create_app(config_object=None):
     # Ensure instance folder exists
     os.makedirs(app.instance_path, exist_ok=True)
 
+    CORS(app)
     db.init_app(app)
 
     with app.app_context():

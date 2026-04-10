@@ -50,12 +50,12 @@ function App() {
     try {
       let response;
       if (searchMode === 'semantic' && searchTerm.trim()) {
-        response = await axios.get('http://localhost:3002/api/search/semantic', {
+        response = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/search/semantic`, {
           params: { q: searchTerm }
         })
         setBookmarks(response.data.results || [])
       } else {
-        response = await axios.get('http://localhost:3002/api/bookmarks', {
+        response = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/bookmarks`, {
           params: {
             q: searchTerm,
             category: selectedCategory,
@@ -67,7 +67,7 @@ function App() {
         setBookmarks(response.data)
       }
       
-      const statsRes = await axios.get('http://localhost:3002/api/stats')
+      const statsRes = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/stats`)
       setStats(statsRes.data)
       
       setLastUpdated(new Date().toLocaleTimeString())
@@ -81,17 +81,17 @@ function App() {
   const fetchAnalytics = async () => {
     try {
       const [tRes, cRes, tagRes, clRes, dRes, rRes, nRes, fRes, bRes, sRes, lRes] = await Promise.all([
-        axios.get('http://localhost:3002/api/analytics/timeline'),
-        axios.get('http://localhost:3002/api/analytics/categories'),
-        axios.get('http://localhost:3002/api/analytics/tags'),
-        axios.get('http://localhost:3002/api/clusters'),
-        axios.get('http://localhost:3002/api/debates'),
-        axios.get('http://localhost:3002/api/reports/latest'),
-        axios.get('http://localhost:3002/api/network/health'),
-        axios.get('http://localhost:3002/api/live-feed'),
-        axios.get('http://localhost:3002/api/battle-cards'),
-        axios.get('http://localhost:3002/api/skills'),
-        axios.get('http://localhost:3002/api/system/logs')
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/analytics/timeline`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/analytics/categories`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/analytics/tags`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/clusters`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/debates`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/reports/latest`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/network/health`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/live-feed`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/battle-cards`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/skills`),
+        axios.get(`${import.meta.env.VITE_API_URL || ""}/api/system/logs`)
       ])
       setTimeline(tRes.data)
       setCatStats(cRes.data)
@@ -113,7 +113,7 @@ function App() {
     setActiveDrillDown({category: cat, feature: feature})
     setDrillLoading(true)
     try {
-      const res = await axios.get('http://localhost:3002/api/bookmarks/by-feature', {
+      const res = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/bookmarks/by-feature`, {
         params: { feature: feature }
       })
       setDrillDownBookmarks(res.data)
@@ -139,8 +139,8 @@ function App() {
     if (view === 'live' || view === 'system') {
       const interval = setInterval(async () => {
         const [fRes, lRes] = await Promise.all([
-          axios.get('http://localhost:3002/api/live-feed'),
-          axios.get('http://localhost:3002/api/system/logs')
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/live-feed`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/system/logs`)
         ]);
         setLiveFeed(fRes.data);
         setSystemLogs(lRes.data);
@@ -153,13 +153,13 @@ function App() {
     const fetchMeta = async () => {
       try {
         const [cRes, clRes, dRes, rRes, nRes, bRes, sRes] = await Promise.all([
-          axios.get('http://localhost:3002/api/categories'),
-          axios.get('http://localhost:3002/api/clusters'),
-          axios.get('http://localhost:3002/api/debates'),
-          axios.get('http://localhost:3002/api/reports/latest'),
-          axios.get('http://localhost:3002/api/network/health'),
-          axios.get('http://localhost:3002/api/battle-cards'),
-          axios.get('http://localhost:3002/api/skills')
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/categories`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/clusters`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/debates`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/reports/latest`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/network/health`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/battle-cards`),
+          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/skills`)
         ])
         setCategories(cRes.data)
         setClusters(clRes.data)
@@ -178,7 +178,7 @@ function App() {
     if (view !== 'nebula' || !nebulaRef.current) return;
 
     const runNebula = async () => {
-      const res = await axios.get('http://localhost:3002/api/analytics/nebula');
+      const res = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/analytics/nebula`);
       let data = res.data;
 
       // Apply Interactive Filters
@@ -250,7 +250,7 @@ function App() {
     if (view !== 'graph' || !graphRef.current) return;
 
     const runGraph = async () => {
-      const res = await axios.get('http://localhost:3002/api/analytics/graph');
+      const res = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/analytics/graph`);
       let data = res.data;
 
       const width = graphRef.current.clientWidth;
@@ -323,7 +323,7 @@ function App() {
   const handleRandom = async () => {
     setLoading(true)
     try {
-      const res = await axios.get('http://localhost:3002/api/random')
+      const res = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/random`)
       setBookmarks([res.data])
       setSelectedCategory('')
       setSelectedTag('')
