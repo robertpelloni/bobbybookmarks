@@ -55,3 +55,8 @@ We are moving towards a unified `docker-compose.yml` to orchestrate all five ser
 1.  **Database**: Host `bookmarks.db` on persistent storage or migrate to a managed SQLite provider (e.g., Turso).
 2.  **Workers**: Run `deep_research.py` and `auto_pulse.py` as managed background services (e.g., using `pm2` or systemd).
 3.  **UI**: Deploy the Vite frontend to a static host (Vercel, Netlify) and the Node/Python APIs to a container runner (Render, Railway, Fly.io).
+
+### Static Export Deployment
+For a low-cost, read-only version of the Borg intelligence:
+1. Run `python generate_public_registry.py` locally.
+2. Deploy the resulting `exports/public_registry.html` file to GitHub Pages or Netlify for free, community-facing access.

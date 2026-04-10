@@ -1,5 +1,10 @@
 # CHANGELOG.md: BobbyBookmarks Evolution
 
+## [0.1.1] - 2026-04-10
+### Added
+- **Public Registry**: Added `generate_public_registry.py` to export the intelligence DB to a static HTML page in `exports/`.
+- **Model Intelligences**: Created `CLAUDE.md`, `GEMINI.md`, `GPT.md`, and `copilot-instructions.md` context files and mapped them in `AGENTS.md`.
+
 ## [0.1.0] - 2026-03-25
 ### Added
 - **Project Structure**: Created `batches/` and `logs/` directories to clean up the root.
