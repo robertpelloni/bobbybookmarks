@@ -31,7 +31,7 @@ services:
         sync: false # Set this in Render dashboard
 
   # 3. React Frontend
-  - type: static
+  - type: web
     name: bobbybookmarks-frontend
     env: static
     rootDir: bobbybookmarks-ui/client
