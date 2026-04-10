@@ -5,10 +5,11 @@ The ultimate vision for BobbyBookmarks is to create a fully autonomous, self-hea
 
 It is not just a "bookmark manager"; it is a **Borg Intelligence Harvester** that:
 1.  **Ingests** vast amounts of raw data from multiple registries and sources.
-2.  **Researches** each entry using advanced LLM models (Gemini, Claude, GPT) to extract deep technical metadata.
+2.  **Researches** each entry using advanced LLM models (Gemini, Claude, GPT) to extract deep technical metadata, facilitated by tailored model instruction profiles.
 3.  **Deduplicates and Unifies** information into a cohesive "Project" entities rather than scattered links.
 4.  **Categorizes** knowledge automatically using machine learning and semantic clustering.
 5.  **Visualizes** the resulting intelligence through interactive, zoomable relationship graphs and knowledge landscapes.
+6.  **Shares** the intelligence outwardly via automated Markdown dossiers and the standalone Public Registry HTML exports.
 
 ## Core Design Principles
 - **Autonomous Operation**: The system should run 24/7 background research and synchronization pulses without human intervention.
