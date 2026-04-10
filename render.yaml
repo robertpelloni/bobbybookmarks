@@ -11,7 +11,11 @@ services:
       - key: PORT
         value: 3002
       - key: GEMINI_API_KEY
-        sync: false # Set this in Render dashboard
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
       - key: NODE_ENV
         value: production
 
@@ -28,7 +32,11 @@ services:
       - key: DATABASE_URL
         value: sqlite:///bookmarks.db
       - key: GEMINI_API_KEY
-        sync: false # Set this in Render dashboard
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
 
   # 3. React Frontend
   - type: web
@@ -50,9 +58,13 @@ services:
     env: python
     plan: free # Note: free workers stop when not in use on some platforms, Render may require paid for 24/7
     buildCommand: pip install -r requirements.txt
-    startCommand: python deep_research.py
+    startCommand: python resume_research.py
     envVars:
       - key: GEMINI_API_KEY
+        sync: false
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
         sync: false
       - key: RESEARCH_CONCURRENCY
         value: "2"
