@@ -377,3 +377,4 @@ https://www.reddit.com/r/AntigravityGoogle/comments/1qlpkrn/claude_opus_45_was_a
 https://www.reddit.com/r/Anthropic/comments/1r56egp/how_i_structure_claude_code_projects_claudemd/
 https://www.reddit.com/r/Anthropic/comments/1r6d0sv/claude_opus_46_has_perhaps_changed_my_life_forever/
 https://www.reddit.com/r/Anthropic/comments/1re3orh/claude_vs_claude_code_vs_claude_cowork_practical/
+https://github.com/statsig-io/mcp-stdio
