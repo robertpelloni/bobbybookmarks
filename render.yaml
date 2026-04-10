@@ -1,0 +1,58 @@
+services:
+  # 1. Express API (The one the frontend talks to)
+  - type: web
+    name: bobbybookmarks-express-api
+    env: node
+    rootDir: bobbybookmarks-ui/server
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 3002
+      - key: GEMINI_API_KEY
+        sync: false # Set this in Render dashboard
+      - key: NODE_ENV
+        value: production
+
+  # 2. Flask API (Internal/Admin)
+  - type: web
+    name: bobbybookmarks-flask-api
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:application
+    envVars:
+      - key: FLASK_DEBUG
+        value: "false"
+      - key: DATABASE_URL
+        value: sqlite:///bookmarks.db
+      - key: GEMINI_API_KEY
+        sync: false # Set this in Render dashboard
+
+  # 3. React Frontend
+  - type: static
+    name: bobbybookmarks-frontend
+    env: static
+    rootDir: bobbybookmarks-ui/client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        fromService:
+          type: web
+          name: bobbybookmarks-express-api
+          property: host
+
+  # 4. Background Researcher
+  - type: worker
+    name: bobbybookmarks-research-worker
+    env: python
+    plan: free # Note: free workers stop when not in use on some platforms, Render may require paid for 24/7
+    buildCommand: pip install -r requirements.txt
+    startCommand: python deep_research.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: RESEARCH_CONCURRENCY
+        value: "2"
