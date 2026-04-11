@@ -862,7 +862,8 @@ def create_app(config_object=None):
     return app
 
 
+application = create_app()
+
 if __name__ == "__main__":
-    application = create_app()
     debug = os.environ.get("FLASK_DEBUG", "true").lower() == "true"
     application.run(debug=debug, port=5000)
