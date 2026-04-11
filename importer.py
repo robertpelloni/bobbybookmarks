@@ -28,14 +28,86 @@ def _chrome_timestamp_to_dt(ts_str: str):
 
 
 def import_from_text(text: str) -> list[dict]:
-    """Extract URLs from plain text. Each line may contain one or more URLs."""
+    """
+    Extract URLs from plain text. 
+    Matches block-style entries:
+    Title
+    Description (optional)
+    https://url.com
+    """
     results = []
     seen = set()
-    for url in URL_RE.findall(text):
-        url = url.strip().rstrip(".,;)")
-        if url and url not in seen:
+    
+    # Split into potential blocks (handling multiple line breaks)
+    blocks = re.split(r'\n\s*\n', text)
+    
+    for block in blocks:
+        # Split block into lines
+        lines = [line.strip() for line in block.split('\n') if line.strip()]
+        if not lines:
+            continue
+            
+        # Find all distinct URLs in this block using a strict regex
+        urls_in_block = []
+        for line in lines:
+            found = URL_RE.findall(line)
+            for u in found:
+                u = u.strip().rstrip(".,;)")
+                if u and u not in urls_in_block:
+                    urls_in_block.append(u)
+        
+        if not urls_in_block:
+            continue
+            
+        # For each URL, we try to extract context from the block
+        for url in urls_in_block:
+            if url in seen:
+                continue
             seen.add(url)
-            results.append({"url": url, "title": "", "tags": [], "source": "text"})
+            
+            title = ""
+            description = ""
+            
+            # Simple heuristic:
+            # If the block has multiple lines, and the URL is on its own line or at the end
+            # the first line might be the Title.
+            
+            # Find which line contains this URL
+            url_line_idx = -1
+            for i, line in enumerate(lines):
+                if url in line:
+                    url_line_idx = i
+                    break
+            
+            if url_line_idx == 0 and len(lines) > 1:
+                # URL is the first line, maybe something follows?
+                title = url
+                description = " ".join(lines[1:])
+            elif url_line_idx > 0:
+                # URL is preceded by lines
+                title = lines[0]
+                if url_line_idx > 1:
+                    # Collect everything between title and URL as description
+                    description = " ".join(lines[1:url_line_idx])
+            else:
+                title = url
+
+            results.append({
+                "url": url,
+                "title": title[:200], # Cap title length
+                "description": description,
+                "tags": [],
+                "source": "text"
+            })
+            
+    # Fallback: Catch any stray URLs that didn't fit into blocks
+    all_urls = URL_RE.findall(text)
+    for url in all_urls:
+        clean_url = url.strip().rstrip(".,;)")
+        if clean_url not in seen:
+            seen.add(clean_url)
+            results.append({"url": clean_url, "title": "", "description": "", "tags": [], "source": "text"})
+            
     return results
 
 

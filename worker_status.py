@@ -25,6 +25,8 @@ def clean_url(url):
 
 
 def get_worker_process():
+    if sys.platform != "win32":
+        return None
     command = r"""
 $processes = Get-CimInstance Win32_Process |
     Where-Object { $_.CommandLine -match 'deep_research\.py' } |
