@@ -7,6 +7,7 @@
 - **Process Persistence**: On `win32`, background processes started via `Start-Process` can be "invisible" to standard status tools. Using the Gemini CLI `is_background` flag is more reliable.
 
 ## Codebase Preferences
+- **Multi-Model Orchestration**: The project explicitly uses tailored instructions for different agents (`CLAUDE.md`, `GEMINI.md`, `GPT.md`). Future agents should read their specific file before modifying code to align with their assigned persona strengths.
 - **Universal Normalization**: Always use `deduplicator.normalize_url` or `get_project_url` instead of local regex/parsing logic to ensure deduplication works across the entire stack.
 - **No Stop the Party**: The user explicitly requested **never terminating active background processes** (workers, servers) during a session unless absolutely necessary for an update.
 - **Documentation First**: All new features and major changes must be reflected in `CHANGELOG.md`, `ROADMAP.md`, and `TODO.md` immediately.

@@ -19,6 +19,7 @@
 - [x] **Nebula Interactivity**: Added real-time concept search and domain filters to the 2D Knowledge Nebula.
 
 ## Data & Backend
+- [x] **Public Registry Generator**: Created `generate_public_registry.py` to compile a standalone read-only HTML registry of all Borg intelligence.
 - [x] **Adaptive Quota Management**: Enhanced `GeminiModelPool` with exponential backoff and error tracking for maximum research resilience.
 - [x] **Consolidate `requirements.txt`**: Added `psutil`, `pandas`, and `tabulate` for system analysis.
 - [x] **Vector Indexing**: Reached 100% coverage (1249/1249 Borg entries) by bypassing API limits with structural placeholders.
@@ -28,6 +29,7 @@
 
 
 ## Documentation
+- [x] **Model-Specific Instructions**: Created and synthesized instructions for `CLAUDE.md`, `GEMINI.md`, `GPT.md`, and `copilot-instructions.md` mapped via `AGENTS.md`.
 - [x] **Universal Instructions**: Created `GLOBAL_RULES.md`.
 - [x] **Submodules Dashboard**: Created `SUBMODULES.md` with registry and skill repo details.
 - [x] **Deployment Manual**: Created `DEPLOY.md` with local and cloud stack guides.
