@@ -14,6 +14,7 @@ After a deep analysis of the current autonomous harvesting pipeline, here are se
 
 ## 🛠️ Infrastructure & Scale
 - **P2P Intelligence Sharing**: Enable different instances of BobbyBookmarks to "federate" and share researched intelligence metadata over a gossip protocol.
+- **Dynamic Public Registry**: Enhance `generate_public_registry.py` to auto-build and deploy to GitHub Pages as part of a pre-commit hook or GitHub Action, ensuring the community always has the latest intelligence.
 - **Containerized Sandboxing**: Automatically spin up a Docker container for "Borg" level tools to verify they actually run and extract their `--help` output programmatically.
 - **Wasm-Powered Frontend Analysis**: Use WebAssembly to run local vector embeddings and clustering directly in the browser for zero-latency exploration.
 
