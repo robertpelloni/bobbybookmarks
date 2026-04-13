@@ -1,27 +1,22 @@
 services:
   - type: web
     name: bobby-api
-    env: go
+    runtime: go
     buildCommand: cd backend && go build -o bobby-api ./cmd/api/main.go && go build -o bobby-worker ./internal/worker/main.go
     startCommand: cd backend && (./bobby-worker & ./bobby-api)
     envVars:
       - key: PORT
-        value: 5000
+        value: "5000"
     disk:
       name: bookmarks-storage
       mountPath: /data
       sizeGB: 1
-    healthCheckPath: /api/stats
 
   - type: web
     name: bobby-frontend
-    env: static
+    runtime: static
     buildCommand: cd bobbybookmarks-ui-ts && npm install && npm run build
-    publishPath: bobbybookmarks-ui-ts/dist
-    headers:
-      - path: /*
-        name: Cache-Control
-        value: no-cache
+    staticPublishPath: bobbybookmarks-ui-ts/dist
     routes:
       - type: rewrite
         source: /api/*
