@@ -121,7 +121,7 @@ function App() {
         {view === 'grid' && (
           <div className="space-y-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {bookmarksData?.bookmarks.map(bm => (
+              {bookmarksData?.bookmarks.map((bm: Bookmark) => (
                 <div key={bm.id} className="group bg-[#0f172a] border border-[#1e293b] rounded-2xl p-5 hover:border-[#3b82f6]/50 transition-all hover:shadow-2xl hover:shadow-blue-500/5 flex flex-col relative overflow-hidden">
                   <div className="flex items-start justify-between mb-4">
                     <div className="w-10 h-10 bg-[#1e293b] rounded-xl flex items-center justify-center group-hover:bg-[#3b82f6]/10 transition-colors">
