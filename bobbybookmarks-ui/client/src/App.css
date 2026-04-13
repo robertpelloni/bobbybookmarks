@@ -458,6 +458,31 @@ header h1 {
 .legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; font-weight: 600; color: var(--c-text); }
 .legend-item .dot { width: 10px; height: 10px; border-radius: 50%; }
 
+/* Import View */
+.import-view { animation: fadeIn 0.5s ease-out; }
+.import-textarea { width: 100%; background: #000; color: #34d399; border: 1px solid var(--c-border); border-radius: 0.5rem; padding: 1.5rem; font-family: 'Fira Code', monospace; font-size: 0.9rem; margin-top: 1rem; outline: none; }
+.import-footer { display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; }
+.import-status { font-size: 0.85rem; color: var(--c-success); font-weight: 600; }
+.btn-primary { background: var(--c-primary); color: #fff; border: none; padding: 0.75rem 1.5rem; border-radius: 0.5rem; cursor: pointer; display: flex; align-items: center; gap: 0.75rem; font-weight: 700; transition: all 0.2s; }
+.btn-primary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3); }
+.btn-primary:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* Control View */
+.control-view { animation: fadeIn 0.5s ease-out; }
+.control-card-body { padding-top: 1rem; }
+.status-indicator { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.5rem; font-size: 0.9rem; }
+.pulse-dot.stopped { background-color: #94a3b8; box-shadow: none; animation: none; }
+.worker-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+.w-stat { background: rgba(15, 23, 42, 0.5); padding: 1rem; border-radius: 0.75rem; text-align: center; }
+.w-label { display: block; font-size: 0.65rem; text-transform: uppercase; color: var(--c-muted); font-weight: 800; margin-bottom: 0.25rem; }
+.w-val { font-size: 1.25rem; font-weight: 900; }
+.btn-worker { width: 100%; border: none; padding: 1rem; border-radius: 0.75rem; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.75rem; font-weight: 800; transition: all 0.2s; }
+.btn-worker.start { background: var(--c-success); color: #064e3b; }
+.btn-worker.stop { background: var(--c-danger); color: #fff; }
+.management-buttons { display: flex; flex-direction: column; gap: 1rem; }
+.btn-manage { background: var(--c-card); border: 1px solid var(--c-border); color: var(--c-text); padding: 1rem; border-radius: 0.75rem; cursor: pointer; display: flex; align-items: center; gap: 0.75rem; font-weight: 700; transition: all 0.2s; }
+.btn-manage:hover { border-color: var(--c-accent); background: rgba(167, 139, 250, 0.1); }
+
 @media (max-width: 1024px) {
   .debate-grid { grid-template-columns: 1fr; }
   .battle-grid { grid-template-columns: 1fr; }

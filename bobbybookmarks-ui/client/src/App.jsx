@@ -46,11 +46,18 @@ function App() {
   const nebulaRef = useRef(null)
   const feedEndRef = useRef(null)
 
+  const [importContent, setImportContent] = useState('')
+  const [importLoading, setImportLoading] = useState(false)
+  const [importStatus, setImportStatus] = useState(null)
+  const [workerStatus, setWorkerStatus] = useState({ running: false, worker_mode: 'stopped' })
+
   const fetchData = useCallback(async () => {
     try {
       const statsRes = await axios.get(`/api/stats`)
-      console.log("Stats received:", statsRes.data)
       setStats(statsRes.data)
+
+      const researchRes = await axios.get(`/api/research/status`)
+      setWorkerStatus(researchRes.data)
 
       let response;
       if (searchMode === 'semantic' && searchTerm.trim()) {
@@ -67,7 +74,6 @@ function App() {
             dir: sortOrder
           }
         })
-        console.log("Bookmarks received:", response.data)
         setBookmarks(response.data.bookmarks || [])
       }
       
@@ -78,6 +84,56 @@ function App() {
       setLoading(false)
     }
   }, [searchTerm, searchMode, selectedTag, sortBy, sortOrder])
+
+  const handleImport = async () => {
+    if (!importContent.trim()) return
+    setImportLoading(true)
+    try {
+      const res = await axios.post('/api/import', { content: importContent })
+      setImportStatus(`Imported ${res.data.imported} new bookmarks (${res.data.duplicates} duplicates)`)
+      setImportContent('')
+      fetchData()
+    } catch (err) {
+      setImportStatus(`Error: ${err.message}`)
+    } finally {
+      setImportLoading(false)
+    }
+  }
+
+  const handleToggleWorker = async () => {
+    try {
+      if (workerStatus.running) {
+        await axios.post('/api/research/stop')
+      } else {
+        await axios.post('/api/research/start')
+      }
+      fetchData()
+    } catch (err) {
+      console.error(err)
+    }
+  }
+
+  const handleRecluster = async () => {
+    setLoading(true)
+    try {
+      await axios.post('/api/categories/refresh')
+      fetchData()
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const handleDedup = async () => {
+    try {
+      const res = await axios.post('/api/bookmarks/deduplicate')
+      alert(`Found and merged ${res.data.duplicates_found} duplicates.`)
+      fetchData()
+    } catch (err) {
+      console.error(err)
+    }
+  }
 
   const fetchAnalytics = async () => {
     try {
@@ -375,6 +431,12 @@ function App() {
           </div>
         </div>
         <div className="header-actions">
+          <button className={`view-btn ${view === 'import' ? 'active' : ''}`} onClick={() => setView('import')}> 
+            <Database size={18} /> Ingestion
+          </button>
+          <button className={`view-btn ${view === 'control' ? 'active' : ''}`} onClick={() => setView('control')}> 
+            <Gauge size={18} /> Control
+          </button>
           <button className={`view-btn ${view === 'grid' ? 'active' : ''}`} onClick={() => setView('grid')}>
             <LayoutGrid size={18} /> Catalog
           </button>
@@ -420,7 +482,93 @@ function App() {
         </div>
       </header>
 
-      {view === 'grid' && (
+      {view === 'import' && (
+        <div className="import-view">
+          <div className="card">
+            <div className="card-header">
+              <h3><Database size={18} /> Resource Ingestion</h3>
+              <span className="text-xs text-muted">Paste URLs or raw text to assimilate into the knowledge base</span>
+            </div>
+            <textarea 
+              className="import-textarea"
+              placeholder="Paste URLs (one per line) or raw text content here..."
+              value={importContent}
+              onChange={(e) => setImportContent(e.target.value)}
+              rows={15}
+            />
+            <div className="import-footer">
+              {importStatus && <span className="import-status">{importStatus}</span>}
+              <button 
+                className="btn-primary" 
+                onClick={handleImport}
+                disabled={importLoading || !importContent.trim()}
+              >
+                {importLoading ? <Loader2 className="spinner" size={18} /> : <Zap size={18} />}
+                Assimilate Resources
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {view === 'control' && (
+        <div className="control-view">
+          <div className="grid-2">
+            <div className="card">
+              <div className="card-header">
+                <h3><Cpu size={18} /> Research Worker</h3>
+              </div>
+              <div className="control-card-body">
+                <div className="status-indicator">
+                  <div className={`pulse-dot ${workerStatus.running ? 'active' : 'stopped'}`}></div>
+                  <span>Status: <strong>{workerStatus.worker_mode === 'external' ? 'External Worker Live' : (workerStatus.running ? 'Internal Worker Running' : 'Stopped')}</strong></span>
+                </div>
+                <div className="worker-stats">
+                  <div className="w-stat">
+                    <span className="w-label">Pending</span>
+                    <span className="w-val">{workerStatus.pending || 0}</span>
+                  </div>
+                  <div className="w-stat">
+                    <span className="w-label">Running</span>
+                    <span className="w-val">{workerStatus.running_count || 0}</span>
+                  </div>
+                  <div className="w-stat">
+                    <span className="w-label">Completed</span>
+                    <span className="w-val">{workerStatus.done || 0}</span>
+                  </div>
+                </div>
+                <button 
+                  className={`btn-worker ${workerStatus.running ? 'stop' : 'start'}`}
+                  onClick={handleToggleWorker}
+                >
+                  {workerStatus.running ? <ToggleRight size={24} /> : <ToggleLeft size={24} />}
+                  {workerStatus.running ? 'Shut Down Worker' : 'Initiate Research'}
+                </button>
+              </div>
+            </div>
+
+            <div className="card">
+              <div className="card-header">
+                <h3><Boxes size={18} /> Knowledge Management</h3>
+              </div>
+              <div className="control-card-body">
+                <div className="management-buttons">
+                  <button className="btn-manage" onClick={handleRecluster}>
+                    <Sparkles size={18} /> Re-run Clustering Engine
+                  </button>
+                  <button className="btn-manage" onClick={handleDedup}>
+                    <Scale size={18} /> Mark & Merge Duplicates
+                  </button>
+                </div>
+                <p className="mt-4 text-xs text-muted">
+                  These operations rewrite the conceptual map of your intelligence base. 
+                  Run them after large imports or significant research progress.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
         <>
           <div className="search-row">
             <div className="search-bar">
