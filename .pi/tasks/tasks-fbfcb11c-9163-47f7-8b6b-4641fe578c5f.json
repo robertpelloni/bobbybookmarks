@@ -1,17 +1,4 @@
 {
   "nextId": 3,
-  "tasks": [
-    {
-      "id": "2",
-      "subject": "Fix frontend build and dependencies",
-      "description": "Resolve ERR_MODULE_NOT_FOUND (fdir) and ensure frontend build completes successfully on Render.\n1. Add fdir explicitly to package.json dependencies.\n2. Flatten devDependencies into dependencies to prevent pruning in CI.\n3. Verify build locally.\n4. Push changes to GitHub.",
-      "status": "in_progress",
-      "activeForm": "Fixing frontend build dependency issues",
-      "metadata": {},
-      "blocks": [],
-      "blockedBy": [],
-      "createdAt": 1776121807526,
-      "updatedAt": 1776121809075
-    }
-  ]
+  "tasks": []
 }
