@@ -199,6 +199,15 @@ class ResearchWorker:
             except Exception as exc:
                 logger.error("Failed to save research results for %s: %s", url, exc)
                 db.session.rollback()
+                # If DB is locked, retry once after a short delay
+                if "database is locked" in str(exc).lower():
+                    time.sleep(2)
+                    try:
+                        db.session.commit()
+                        logger.info("Saved research results for %s after retry", url)
+                    except Exception as exc_retry:
+                        logger.error("Retry also failed for %s: %s", url, exc_retry)
+                        db.session.rollback()
 
 
 def _extract_title(soup: BeautifulSoup) -> str:

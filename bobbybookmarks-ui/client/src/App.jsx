@@ -20,7 +20,7 @@ function App() {
   const [skills, setSkills] = useState([])
   const [systemLogs, setSystemLogs] = useState([])
   const [report, setReport] = useState('')
-  const [stats, setStats] = useState({ count: 0, deep: 0, borg: 0, heuristic: 0 })
+  const [stats, setStats] = useState({ total: 0, unique: 0, duplicates: 0, research: { pending: 0, running: 0, done: 0, failed: 0, skipped: 0 }, clusters: 0, import_sessions: 0 })
   const [timeline, setTimeline] = useState([])
   const [topTags, setTopTags] = useState([])
   const [catStats, setCatStats] = useState([])
@@ -48,27 +48,28 @@ function App() {
 
   const fetchData = useCallback(async () => {
     try {
+      const statsRes = await axios.get(`/api/stats`)
+      console.log("Stats received:", statsRes.data)
+      setStats(statsRes.data)
+
       let response;
       if (searchMode === 'semantic' && searchTerm.trim()) {
-        response = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/search/semantic`, {
+        response = await axios.get(`/api/search/semantic`, {
           params: { q: searchTerm }
         })
         setBookmarks(response.data.results || [])
       } else {
-        response = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/bookmarks`, {
+        response = await axios.get(`/api/bookmarks`, {
           params: {
             q: searchTerm,
-            category: selectedCategory,
-            tag: selectedTag,
+            tags: selectedTag,
             sort: sortBy,
-            order: sortOrder
+            dir: sortOrder
           }
         })
-        setBookmarks(response.data)
+        console.log("Bookmarks received:", response.data)
+        setBookmarks(response.data.bookmarks || [])
       }
-      
-      const statsRes = await axios.get(`${import.meta.env.VITE_API_URL || ""}/api/stats`)
-      setStats(statsRes.data)
       
       setLastUpdated(new Date().toLocaleTimeString())
     } catch (error) {
@@ -76,7 +77,7 @@ function App() {
     } finally {
       setLoading(false)
     }
-  }, [searchTerm, searchMode, selectedCategory, selectedTag, sortBy, sortOrder])
+  }, [searchTerm, searchMode, selectedTag, sortBy, sortOrder])
 
   const fetchAnalytics = async () => {
     try {
@@ -152,23 +153,29 @@ function App() {
   useEffect(() => {
     const fetchMeta = async () => {
       try {
-        const [cRes, clRes, dRes, rRes, nRes, bRes, sRes] = await Promise.all([
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/categories`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/clusters`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/debates`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/reports/latest`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/network/health`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/battle-cards`),
-          axios.get(`${import.meta.env.VITE_API_URL || ""}/api/skills`)
+        const results = await Promise.allSettled([
+          axios.get(`/api/categories`),
+          axios.get(`/api/clusters`),
+          axios.get(`/api/debates`),
+          axios.get(`/api/reports/latest`),
+          axios.get(`/api/network/health`),
+          axios.get(`/api/battle-cards`),
+          axios.get(`/api/skills`)
         ])
-        setCategories(cRes.data)
-        setClusters(clRes.data)
-        setDebates(dRes.data)
-        setReport(typeof rRes.data === 'string' ? rRes.data : rRes.data.content)
-        setNetworkHealth(nRes.data)
-        setBattleCards(bRes.data)
-        setSkills(sRes.data)
-      } catch (err) { console.error(err) }
+        
+        if (results[0].status === 'fulfilled') setCategories(results[0].value.data)
+        if (results[1].status === 'fulfilled') setClusters(results[1].value.data)
+        if (results[2].status === 'fulfilled') setDebates(results[2].value.data)
+        if (results[3].status === 'fulfilled') {
+          const rData = results[3].value.data
+          setReport(typeof rData === 'string' ? rData : (rData.content || ''))
+        }
+        if (results[4].status === 'fulfilled') setNetworkHealth(results[4].value.data)
+        if (results[5].status === 'fulfilled') setBattleCards(results[5].value.data)
+        if (results[6].status === 'fulfilled') setSkills(results[6].value.data)
+      } catch (err) { 
+        console.error("Meta fetch error:", err) 
+      }
     }
     fetchMeta()
   }, [])
@@ -338,7 +345,7 @@ function App() {
     { name: 'Heuristic', value: stats.heuristic || 0, color: '#60a5fa' },
   ];
 
-  const assimilationPct = stats.count > 0 ? Math.round((stats.borg / stats.count) * 100) : 0;
+  const assimilationPct = stats.total > 0 ? Math.round(((stats.research?.done || 0) / stats.total) * 100) : 0;
 
   return (
     <div className="dashboard">
@@ -347,10 +354,10 @@ function App() {
           <h1>Bobby's Research Command <span className="version-tag">v0.1.0</span></h1>
           <div className="status-bar">
             <div className="progress-pill">
-              {stats.count.toLocaleString()} Entries
+              {(stats.total || 0).toLocaleString()} Entries
             </div>
             <div className="intel-pill">
-              <BrainCircuit size={14} /> {stats.borg || 0} Borg Intel
+              <BrainCircuit size={14} /> {stats.research?.done || 0} Researched
             </div>
             <div className="live-indicator">
               <div className="pulse-dot"></div>
@@ -434,42 +441,48 @@ function App() {
           <div className="filter-shelf">
             <div className="category-group">
               <div className={`chip ${selectedCategory === '' ? 'active' : ''}`} onClick={() => setSelectedCategory('')}>All</div>
-              {categories.map(cat => (
-                <div key={cat} className={`chip ${selectedCategory === cat ? 'active' : ''}`} onClick={() => setSelectedCategory(cat)}>
-                  {cat}
-                </div>
-              ))}
+              {Array.isArray(categories) && categories.map(cat => {
+                const name = typeof cat === 'string' ? cat : (cat.name || `Category ${cat.id}`);
+                const id = typeof cat === 'string' ? cat : (cat.id || name);
+                return (
+                  <div key={id} className={`chip ${selectedCategory === id ? 'active' : ''}`} onClick={() => setSelectedCategory(id)}>
+                    {name}
+                  </div>
+                );
+              })}
             </div>
           </div>
 
           <div className="bookmark-grid">
-            {bookmarks.length === 0 && searchTerm && searchMode === 'semantic' ? (
+            {bookmarks.length === 0 ? (
               <div className="no-results card">
-                <Sparkles size={48} className="mb-4 text-accent opacity-20" />
-                <h3>Semantic Engine Priming</h3>
-                <p>The vector index is being built in the background. Semantic search will be available shortly!</p>
+                <Search size={48} className="mb-4 text-accent opacity-20" />
+                <h3>No bookmarks found</h3>
+                <p>Try adjusting your search or filters.</p>
               </div>
             ) : (
               bookmarks.map((bm) => (
-                <div key={bm.id} className={`card ${bm.research_level === 'borg' ? 'borg-card' : ''}`}>
+                <div key={bm.id} className={`card ${bm.research_status === 'done' ? 'borg-card' : ''}`}>
                   <div className="card-header">
-                    <span className="category-label">{bm.category}</span>
-                    {bm.innovation_score > 0 && (
-                      <span className="score-badge">IQ: {bm.innovation_score}</span>
+                    <span className="category-label">{bm.source || 'General'}</span>
+                    {bm.http_status && (
+                      <span className="score-badge">HTTP: {bm.http_status}</span>
                     )}
                   </div>
-                  <h3>{bm.short_description}</h3>
-                  <p className="description">{bm.long_description}</p>
-                  <div className="features">
-                    <strong>Intelligence:</strong> {bm.main_features}
-                  </div>
+                  <h3>{bm.title || bm.url}</h3>
+                  <p className="description">{bm.description}</p>
+                  {bm.page_title && bm.page_title !== bm.title && (
+                    <div className="features">
+                      <strong>Page Title:</strong> {bm.page_title}
+                    </div>
+                  )}
                   <div className="tag-shelf">
-                    {(bm.tags || "").split(',').map(tag => (
+                    {(bm.tags || []).map(tag => (
                       tag.trim() && <span key={tag} className="tag-chip">#{tag.trim()}</span>
                     ))}
                   </div>
                   <a href={bm.url} target="_blank" rel="noopener noreferrer" className="visit-link">
-                    Open Source <ExternalLink size={14} />
+                    Open Link <ExternalLink size={14} />
                   </a>
                 </div>
               ))

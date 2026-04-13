@@ -62,13 +62,18 @@ if ($processes) {
 
 
 def get_progress():
-    conn = sqlite3.connect(DB_PATH)
-    cur = conn.cursor()
-    cur.execute("SELECT url FROM bookmarks WHERE research_level = 'borg'")
-    processed = {normalize_url(row[0]) for row in cur.fetchall()}
-    cur.execute("SELECT COUNT(*) FROM bookmarks WHERE research_level = 'borg'")
-    borg_rows = cur.fetchone()[0]
-    conn.close()
+    try:
+        conn = sqlite3.connect(f"file:{DB_PATH}?mode=ro", uri=True)
+        cur = conn.cursor()
+        cur.execute("SELECT url FROM bookmarks WHERE research_level = 'borg'")
+        processed = {normalize_url(row[0]) for row in cur.fetchall()}
+        cur.execute("SELECT COUNT(*) FROM bookmarks WHERE research_level = 'borg'")
+        borg_rows = cur.fetchone()[0]
+        conn.close()
+    except sqlite3.OperationalError:
+        # Fallback if even RO mode fails or DB doesn't exist yet
+        processed = set()
+        borg_rows = 0
 
     total_urls = 0
     remaining_urls = 0

@@ -215,8 +215,8 @@ def build_research_status_payload():
         "last_message": external_status["log_state"]["last_message"],
         "last_timestamp": external_status["log_state"]["last_timestamp"],
         "heartbeat_updated_at": external_status["heartbeat"]["updated_at"] if external_status["heartbeat"] else None,
-        "last_model": external_status["heartbeat"]["last_model"] if external_status["heartbeat"] else None,
-        "models": external_status["heartbeat"]["models"] if external_status["heartbeat"] else [],
+        "last_model": external_status["heartbeat"].get("last_model") if external_status["heartbeat"] else None,
+        "models": external_status["heartbeat"].get("models", []) if external_status["heartbeat"] else [],
         "borg_rows": external_status["progress"]["borg_rows"],
         "total_urls": external_status["progress"]["total_urls"],
         "remaining_urls": external_status["progress"]["remaining_urls"],
@@ -845,13 +845,119 @@ def create_app(config_object=None):
             )
         )
 
-    # ------------------------------------------------------------------ #
-    # Import sessions
-    # ------------------------------------------------------------------ #
-    @app.route("/api/import/sessions", methods=["GET"])
-    def api_import_sessions():
-        sessions = ImportSession.query.order_by(ImportSession.created_at.desc()).limit(50).all()
-        return jsonify([s.to_dict() for s in sessions])
+    @app.route("/api/analytics/timeline", methods=["GET"])
+    def api_analytics_timeline():
+        bookmarks = Bookmark.query.filter_by(is_duplicate=False).all()
+        # Cumulative count over time
+        counts = Counter()
+        for bm in bookmarks:
+            if bm.imported_at:
+                counts[bm.imported_at.date().isoformat()] += 1
+        
+        sorted_days = sorted(counts.keys())
+        timeline = []
+        cumulative = 0
+        for day in sorted_days:
+            cumulative += counts[day]
+            timeline.append({"day": day, "count": counts[day], "cumulative": cumulative})
+        return jsonify(timeline[-30:]) # Last 30 days
+
+    @app.route("/api/analytics/categories", methods=["GET"])
+    def api_analytics_categories():
+        clusters = Cluster.query.all()
+        return jsonify([{"name": c.name, "value": c.bookmark_count} for c in clusters])
+
+    @app.route("/api/analytics/tags", methods=["GET"])
+    def api_analytics_tags():
+        bookmarks = Bookmark.query.filter_by(is_duplicate=False).all()
+        tag_counts = Counter()
+        for bm in bookmarks:
+            for tag in (bm.tags or []):
+                tag_counts[tag] += 1
+        return jsonify([{"name": tag, "value": count} for tag, count in tag_counts.most_common(20)])
+
+    @app.route("/api/analytics/graph", methods=["GET"])
+    def api_analytics_graph():
+        bookmarks = Bookmark.query.filter_by(is_duplicate=False).limit(100).all()
+        nodes = []
+        links = []
+        node_map = {}
+
+        def add_node(id, name, type):
+            if id not in node_map:
+                node_map[id] = len(nodes)
+                nodes.append({"id": id, "name": name, "type": type})
+            return node_map[id]
+
+        for bm in bookmarks:
+            bm_node = add_node(f"bm_{bm.id}", bm.title or bm.url, "bookmark")
+            if bm.cluster_id:
+                cluster = Cluster.query.get(bm.cluster_id)
+                if cluster:
+                    c_node = add_node(f"c_{cluster.id}", cluster.name, "category")
+                    links.append({"source": f"bm_{bm.id}", "target": f"c_{cluster.id}", "value": 1})
+            
+            for tag in (bm.tags or []):
+                t_node = add_node(f"t_{tag}", tag, "tag")
+                links.append({"source": f"bm_{bm.id}", "target": f"t_{tag}", "value": 1})
+
+        return jsonify({"nodes": nodes, "links": links})
+
+    @app.route("/api/analytics/nebula", methods=["GET"])
+    def api_analytics_nebula():
+        # Mock projection for now (x, y coordinates)
+        import random
+        bookmarks = Bookmark.query.filter_by(is_duplicate=False).limit(200).all()
+        results = []
+        for bm in bookmarks:
+            results.append({
+                "id": bm.id,
+                "short_description": bm.title or bm.url,
+                "category": bm.cluster.name if bm.cluster else "Uncategorized",
+                "innovation_score": random.randint(1, 10),
+                "x": random.uniform(0, 100),
+                "y": random.uniform(0, 100)
+            })
+        return jsonify(results)
+
+    @app.route("/api/debates", methods=["GET"])
+    def api_get_debates():
+        # Return empty list if no debates table exists yet
+        return jsonify([])
+
+    @app.route("/api/reports/latest", methods=["GET"])
+    def api_get_latest_report():
+        return jsonify({"content": "# Intelligence Report\nNo reports generated yet."})
+
+    @app.route("/api/network/health", methods=["GET"])
+    def api_get_network_health():
+        return jsonify([])
+
+    @app.route("/api/live-feed", methods=["GET"])
+    def api_get_live_feed():
+        return jsonify([])
+
+    @app.route("/api/battle-cards", methods=["GET"])
+    def api_get_battle_cards():
+        return jsonify([])
+
+    @app.route("/api/skills", methods=["GET"])
+    def api_get_skills():
+        return jsonify([])
+
+    @app.route("/api/system/logs", methods=["GET"])
+    def api_get_system_logs():
+        return jsonify([])
+
+    @app.route("/api/random", methods=["GET"])
+    def api_random_bookmark():
+        import random
+        count = Bookmark.query.count()
+        if count == 0:
+            return jsonify({"error": "No bookmarks"}), 404
+        random_idx = random.randint(0, count - 1)
+        bm = Bookmark.query.offset(random_idx).first()
+        return jsonify(bm.to_dict())
 
     # ------------------------------------------------------------------ #
     # Auto-start research worker if configured
