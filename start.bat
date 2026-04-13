@@ -1,38 +1,56 @@
 @echo off
 SETLOCAL EnableDelayedExpansion
 
-echo [1/4] Checking Python environment...
-if not exist venv (
-    echo Creating virtual environment...
-    python -m venv venv
+echo ===================================================
+echo   BOBBYBOOKMARKS REWRITE STARTUP (GO + TS)
+echo ===================================================
+
+echo [1/3] Checking Go Backend...
+if not exist "backend\go.mod" (
+    echo [ERROR] Go backend directory not found.
+    pause
+    exit /b
 )
+cd backend
+echo Building Go API...
+go build -o bobby-api.exe ./cmd/api/main.go
+if %ERRORLEVEL% neq 0 (
+    echo [ERROR] Go build failed.
+    pause
+    exit /b
+)
+cd ..
 
-echo [2/4] Installing/Updating Python dependencies...
-call venv\Scripts\activate
-pip install -r requirements.txt
-
-echo [3/4] Installing/Updating Frontend dependencies...
-cd bobbybookmarks-ui\client
+echo [2/3] Checking TypeScript Frontend...
+if not exist "bobbybookmarks-ui-ts\package.json" (
+    echo [ERROR] TS frontend directory not found.
+    pause
+    exit /b
+)
+cd bobbybookmarks-ui-ts
 if not exist node_modules (
-    echo Installing npm packages...
+    echo [INFO] Installing npm packages (using mirror for speed)...
+    call npm config set registry https://registry.npmmirror.com
     call npm install
 )
-cd ..\..
+cd ..
 
-echo [4/4] Starting services...
+echo [3/3] Launching Services...
 
-:: Start Backend in a new window
-start "BobbyBookmarks Backend" cmd /k "call venv\Scripts\activate && python app.py"
+:: Start Go Backend in a new window
+echo Starting Go API on port 5000...
+start "BobbyBookmarks (Go API)" cmd /k "cd backend && bobby-api.exe"
 
-:: Start Frontend in a new window
-echo Starting Frontend...
-cd bobbybookmarks-ui\client
-start "BobbyBookmarks Frontend" cmd /k "npm run dev"
+:: Start Vite Frontend in a new window
+echo Starting Vite TS Frontend on port 3000...
+cd bobbybookmarks-ui-ts
+start "BobbyBookmarks (TS Frontend)" cmd /k "npm run dev"
 
 echo.
 echo ===================================================
-echo Services are starting!
-echo Backend: http://127.0.0.1:5000
-echo Frontend: http://localhost:5173 (usually)
+echo   SERVICES ARE DEPLOYED LOCALLY!
+echo ===================================================
+echo   API Server:  http://localhost:5000/api
+echo   UI Frontend: http://localhost:3000
 echo ===================================================
 pause
