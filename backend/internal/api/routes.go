@@ -98,3 +98,7 @@ func getResearchStatus(c *fiber.Ctx) error {
 
 func startWorker(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
 func stopWorker(c *fiber.Ctx) error  { return c.JSON(fiber.Map{"status": "ok"}) }
+
+func importBookmarks(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
+func refreshCategories(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
+func deduplicateBookmarks(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
