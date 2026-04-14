@@ -16,64 +16,97 @@ import { Bookmark, Stats, WorkerStatus } from './types';
 // --- Cyber Intelligence UI Kit ---
 
 const Scanline = () => (
-  <div className="fixed inset-0 pointer-events-none z-[200] opacity-[0.03] overflow-hidden">
+  <div className="fixed inset-0 pointer-events-none z-[200] opacity-[0.05] overflow-hidden">
     <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%]"></div>
     <motion.div 
       animate={{ y: ['-100%', '100%'] }}
-      transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
-      className="absolute inset-0 w-full h-[100px] bg-gradient-to-b from-transparent via-blue-500/10 to-transparent"
+      transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+      className="absolute inset-0 w-full h-[200px] bg-gradient-to-b from-transparent via-cyan-500/10 to-transparent"
     />
   </div>
 );
 
-const NeonCard = ({ children, title, icon: Icon, className = "", onClick }: any) => (
-  <motion.div 
-    initial={{ opacity: 0, scale: 0.98 }}
-    animate={{ opacity: 1, scale: 1 }}
-    className={`relative group ${className}`}
-    onClick={onClick}
-  >
-    <div className="absolute -inset-[1px] bg-gradient-to-br from-blue-500/20 via-purple-500/10 to-blue-500/20 rounded-2xl blur-[2px] group-hover:blur-[6px] transition-all duration-500 opacity-50 group-hover:opacity-100"></div>
-    <div className="relative bg-[#020617]/90 backdrop-blur-3xl border border-white/5 rounded-2xl overflow-hidden h-full flex flex-col">
-      {title && (
-        <div className="px-5 py-3 border-b border-white/5 flex items-center justify-between bg-white/[0.02]">
-           <div className="flex items-center gap-3">
-              {Icon && <div className="p-1.5 rounded-lg bg-blue-500/10 text-blue-400 border border-blue-500/20"><Icon size={14} /></div>}
-              <h3 className="text-[10px] font-black text-blue-100 tracking-[0.25em] uppercase italic">{title}</h3>
-           </div>
-           <div className="flex gap-1.5">
-             <div className="w-1 h-1 bg-blue-500/40 rounded-full animate-pulse"></div>
-             <div className="w-4 h-1 bg-white/10 rounded-full overflow-hidden">
-                <motion.div animate={{ x: [-16, 16] }} transition={{ repeat: Infinity, duration: 1.5 }} className="h-full w-full bg-blue-500/60" />
-             </div>
-           </div>
-        </div>
-      )}
-      <div className="p-5 flex-1 relative">
-        {children}
-      </div>
-      <div className="absolute bottom-0 right-0 p-1 opacity-20 pointer-events-none">
-         <div className="w-4 h-4 border-r-2 border-b-2 border-blue-500/40 rounded-br-sm"></div>
-      </div>
-    </div>
-  </motion.div>
-);
+const NeonCard = ({ children, title, icon: Icon, className = "", onClick, color = "blue" }: any) => {
+  const colorMap: any = {
+    blue: "from-cyan-500/20 via-blue-500/10 to-cyan-500/20 shadow-cyan-500/5",
+    purple: "from-purple-500/20 via-fuchsia-500/10 to-purple-500/20 shadow-purple-500/5",
+    green: "from-emerald-500/20 via-green-500/10 to-emerald-500/20 shadow-green-500/5",
+    red: "from-rose-500/20 via-red-500/10 to-rose-500/20 shadow-red-500/5"
+  };
 
-const IntelStat = ({ label, value, color = "blue" }: any) => (
-  <div className="space-y-1">
-    <div className="flex items-center justify-between px-1">
-      <span className="text-[9px] font-black text-slate-500 tracking-widest uppercase">{label}</span>
-      <span className={`text-[10px] font-black text-${color}-400 uppercase tracking-tighter`}>{value || 0}</span>
+  const accentMap: any = {
+    blue: "text-cyan-400 border-cyan-500/30 bg-cyan-500/10",
+    purple: "text-fuchsia-400 border-fuchsia-500/30 bg-fuchsia-500/10",
+    green: "text-emerald-400 border-emerald-500/30 bg-emerald-500/10",
+    red: "text-rose-400 border-rose-500/30 bg-rose-500/10"
+  };
+
+  return (
+    <motion.div 
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -2 }}
+      className={`relative group ${className}`}
+      onClick={onClick}
+    >
+      <div className={`absolute -inset-[1px] bg-gradient-to-br ${colorMap[color] || colorMap.blue} rounded-xl blur-[1px] group-hover:blur-[3px] transition-all duration-500 opacity-40 group-hover:opacity-80`}></div>
+      <div className="relative bg-[#050b18]/80 backdrop-blur-2xl border border-white/5 rounded-xl overflow-hidden h-full flex flex-col shadow-2xl">
+        {title && (
+          <div className="px-5 py-3 border-b border-white/5 flex items-center justify-between bg-gradient-to-r from-white/[0.03] to-transparent">
+             <div className="flex items-center gap-3">
+                {Icon && <div className={`p-1.5 rounded border ${accentMap[color] || accentMap.blue}`}><Icon size={12} /></div>}
+                <h3 className="text-[9px] font-black text-white tracking-[0.3em] uppercase italic group-hover:text-cyan-400 transition-colors">{title}</h3>
+             </div>
+             <div className="flex gap-1">
+               <div className={`w-1 h-1 rounded-full animate-pulse ${color === 'red' ? 'bg-red-500' : 'bg-cyan-500'}`}></div>
+               <div className="w-12 h-[2px] bg-white/5 self-center rounded-full overflow-hidden">
+                  <motion.div animate={{ x: [-48, 48] }} transition={{ repeat: Infinity, duration: 2 }} className={`h-full w-full ${color === 'red' ? 'bg-red-500/40' : 'bg-cyan-500/40'}`} />
+               </div>
+             </div>
+          </div>
+        )}
+        <div className="p-5 flex-1 relative">
+          {children}
+        </div>
+        
+        {/* Decorative corner accents */}
+        <div className="absolute top-0 left-0 w-2 h-2 border-t border-l border-white/20"></div>
+        <div className="absolute top-0 right-0 w-2 h-2 border-t border-r border-white/20"></div>
+        <div className="absolute bottom-0 left-0 w-2 h-2 border-b border-l border-white/20"></div>
+        <div className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-white/20"></div>
+      </div>
+    </motion.div>
+  );
+};
+
+const IntelStat = ({ label, value, color = "blue", icon: Icon }: any) => {
+  const colorMap: any = {
+    blue: "text-cyan-400 bg-cyan-500/40 shadow-[0_0_10px_rgba(34,211,238,0.3)]",
+    purple: "text-fuchsia-400 bg-fuchsia-500/40 shadow-[0_0_10px_rgba(232,121,249,0.3)]",
+    green: "text-emerald-400 bg-emerald-500/40 shadow-[0_0_10px_rgba(52,211,153,0.3)]",
+    yellow: "text-amber-400 bg-amber-500/40 shadow-[0_0_10px_rgba(251,191,36,0.3)]",
+    red: "text-rose-400 bg-rose-500/40 shadow-[0_0_10px_rgba(244,63,94,0.3)]"
+  };
+
+  return (
+    <div className="group cursor-default">
+      <div className="flex items-center justify-between px-1 mb-1.5">
+        <div className="flex items-center gap-2">
+           {Icon && <Icon size={10} className="text-slate-500 group-hover:text-white transition-colors" />}
+           <span className="text-[8px] font-black text-slate-500 tracking-widest uppercase group-hover:text-slate-300 transition-colors">{label}</span>
+        </div>
+        <span className={`text-[11px] font-black tracking-tighter ${colorMap[color].split(' ')[0]}`}>{value || 0}</span>
+      </div>
+      <div className="h-[3px] w-full bg-white/5 rounded-full overflow-hidden">
+         <motion.div 
+           initial={{ width: 0 }}
+           animate={{ width: '85%' }}
+           className={`h-full ${colorMap[color].split(' ')[1]} ${colorMap[color].split(' ')[2]}`}
+         />
+      </div>
     </div>
-    <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-       <motion.div 
-         initial={{ width: 0 }}
-         animate={{ width: '70%' }}
-         className={`h-full bg-${color}-500/60`}
-       />
-    </div>
-  </div>
-);
+  );
+};
 
 const TagCloud = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
   const tags = useMemo(() => {
@@ -285,26 +318,33 @@ function App() {
   });
 
   return (
-    <div className="min-h-screen bg-[#01040a] text-slate-400 font-sans selection:bg-blue-500/30 overflow-hidden flex flex-col">
+    <div className="min-h-screen bg-[#020408] text-slate-400 font-sans selection:bg-cyan-500/30 overflow-hidden flex flex-col">
       <Scanline />
 
       {/* Top HUD */}
-      <header className="h-16 border-b border-white/5 bg-[#01040a]/90 backdrop-blur-3xl z-[150] px-8 flex items-center justify-between">
-         <div className="flex items-center gap-10">
-            <div className="flex items-center gap-4 group cursor-pointer" onClick={() => setView('intel')}>
-               <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-[0_0_30px_rgba(37,99,235,0.4)] group-hover:scale-110 transition-transform">
-                  <Zap size={22} className="text-white fill-white" />
+      <header className="h-20 border-b border-white/5 bg-[#020408]/90 backdrop-blur-3xl z-[150] px-8 flex items-center justify-between shadow-[0_10px_40px_rgba(0,0,0,0.5)]">
+         <div className="flex items-center gap-12">
+            <div className="flex items-center gap-5 group cursor-pointer" onClick={() => setView('intel')}>
+               <div className="relative">
+                  <div className="absolute -inset-2 bg-cyan-500/20 blur-xl group-hover:bg-cyan-500/40 transition-all rounded-full"></div>
+                  <div className="relative w-11 h-11 bg-cyan-600 rounded-lg flex items-center justify-center border border-cyan-400/30 group-hover:scale-105 transition-transform overflow-hidden">
+                     <Zap size={24} className="text-white fill-white animate-pulse" />
+                     <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700"></div>
+                  </div>
                </div>
                <div>
-                  <h1 className="text-lg font-black tracking-[0.2em] text-white italic">BOBBY<span className="text-blue-500">INTEL</span></h1>
-                  <span className="text-[8px] font-black text-blue-500/60 tracking-widest uppercase">OS_V2.04_KINETIC</span>
+                  <h1 className="text-xl font-black tracking-[0.3em] text-white italic group-hover:text-cyan-400 transition-colors">BOBBY<span className="text-cyan-500 group-hover:text-white">INTEL</span></h1>
+                  <div className="flex items-center gap-2">
+                    <span className="text-[8px] font-black text-cyan-500/60 tracking-[0.4em] uppercase">OS_V2.04_KINETIC</span>
+                    <div className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse shadow-[0_0_10px_#22c55e]"></div>
+                  </div>
                </div>
             </div>
 
-            <nav className="flex items-center gap-1 px-1.5 py-1 bg-white/[0.03] rounded-xl border border-white/5">
+            <nav className="flex items-center gap-1.5 px-2 py-1.5 bg-white/[0.02] rounded-xl border border-white/5 shadow-inner">
               {[
                 { id: 'intel', label: 'INTELLIGENCE', icon: Activity },
-                { id: 'activity', label: 'ACTIVITY_LOG', icon: Radio },
+                { id: 'activity', label: 'LIVE_FEED', icon: Radio },
                 { id: 'analytics', label: 'ANALYTICS', icon: Sparkles },
                 { id: 'control', label: 'CONTROL', icon: Gauge },
                 { id: 'ingest', label: 'INGESTION', icon: Share2 },
@@ -314,36 +354,49 @@ function App() {
                 <button 
                   key={m.id}
                   onClick={() => setView(m.id as any)}
-                  className={`flex items-center gap-2.5 px-6 py-2 rounded-lg text-[9px] font-black tracking-widest transition-all duration-300 ${
-                    view === m.id ? 'bg-blue-600 text-white shadow-lg' : 'text-slate-500 hover:text-white hover:bg-white/5'
+                  className={`flex items-center gap-2.5 px-5 py-2.5 rounded-lg text-[9px] font-black tracking-[0.2em] transition-all duration-500 relative group overflow-hidden ${
+                    view === m.id 
+                      ? 'text-white' 
+                      : 'text-slate-500 hover:text-cyan-400'
                   }`}
                 >
-                  <m.icon size={13} /> {m.label}
+                  {view === m.id && (
+                    <motion.div 
+                      layoutId="activeNav"
+                      className="absolute inset-0 bg-cyan-600 border border-cyan-400/50 shadow-[0_0_20px_rgba(8,145,178,0.4)]"
+                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                    />
+                  )}
+                  <span className="relative z-10 flex items-center gap-2">
+                    <m.icon size={13} className={view === m.id ? "text-white" : "group-hover:animate-bounce"} />
+                    {m.label}
+                  </span>
                 </button>
               ))}
             </nav>
          </div>
 
-         <div className="flex items-center gap-8">
-            <div className="flex items-center gap-4 text-right">
-               <div>
-                  <span className="block text-[8px] font-black text-slate-600 tracking-widest uppercase">LATENCY</span>
-                  <span className="text-[10px] font-black text-green-500 tracking-tighter uppercase">12MS / NOMINAL</span>
+         <div className="flex items-center gap-10">
+            <div className="flex items-center gap-6 text-right font-mono">
+               <div className="group cursor-default">
+                  <span className="block text-[7px] font-black text-slate-600 tracking-widest uppercase group-hover:text-cyan-500 transition-colors">LATENCY</span>
+                  <span className="text-[10px] font-black text-green-500 tracking-tighter uppercase group-hover:drop-shadow-[0_0_5px_rgba(34,197,94,0.5)] transition-all">12MS / NOMINAL</span>
                </div>
-               <div className="h-8 w-px bg-white/5"></div>
-               <div>
-                  <span className="block text-[8px] font-black text-slate-600 tracking-widest uppercase">SECURITY</span>
-                  <span className="text-[10px] font-black text-blue-400 tracking-tighter uppercase">ENCRYPTED</span>
+               <div className="h-10 w-[1px] bg-white/5 rotate-12"></div>
+               <div className="group cursor-default">
+                  <span className="block text-[7px] font-black text-slate-600 tracking-widest uppercase group-hover:text-purple-500 transition-colors">SECURITY</span>
+                  <span className="text-[10px] font-black text-cyan-400 tracking-tighter uppercase group-hover:drop-shadow-[0_0_5px_rgba(34,211,238,0.5)] transition-all">ENCRYPTED</span>
                </div>
             </div>
-            <div className="relative w-72">
-               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-600" size={14} />
+            <div className="relative group">
+               <div className="absolute -inset-1 bg-cyan-500/10 blur opacity-0 group-hover:opacity-100 transition-opacity rounded-xl"></div>
+               <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-600 group-focus-within:text-cyan-500 transition-colors" size={14} />
                <input 
                  type="text" 
                  placeholder="GLOBAL_SCAN..."
                  value={searchTerm}
                  onChange={(e) => setSearchTerm(e.target.value)}
-                 className="w-full bg-white/[0.03] border border-white/5 rounded-xl pl-11 pr-4 py-2.5 text-[10px] font-black tracking-widest text-white focus:outline-none focus:border-blue-500/40 transition-all uppercase placeholder:text-slate-700"
+                 className="w-72 bg-white/[0.03] border border-white/5 rounded-xl pl-11 pr-4 py-3 text-[10px] font-black tracking-widest text-white focus:outline-none focus:border-cyan-500/40 focus:bg-white/[0.05] transition-all uppercase placeholder:text-slate-800"
                />
             </div>
          </div>
@@ -362,48 +415,48 @@ function App() {
              >
                 {/* Left Column - Stats */}
                 <div className="col-span-3 space-y-8">
-                   <NeonCard title="SYSTEM_OVERVIEW" icon={Gauge}>
+                   <NeonCard title="SYSTEM_OVERVIEW" icon={Gauge} color="blue">
                       <div className="space-y-6">
-                         <IntelStat label="TOTAL_ENTROPY" value={stats?.total} color="blue" />
-                         <IntelStat label="ACTIVE_CLUSTERS" value={stats?.clusters} color="purple" />
-                         <IntelStat label="PROCESSED_NODES" value={workerStatus?.done} color="green" />
-                         <IntelStat label="DUPLICATE_SIG" value={stats?.duplicates} color="yellow" />
+                         <IntelStat label="TOTAL_ENTROPY" value={stats?.total} color="blue" icon={Database} />
+                         <IntelStat label="ACTIVE_CLUSTERS" value={stats?.clusters} color="purple" icon={Layers} />
+                         <IntelStat label="PROCESSED_NODES" value={stats?.research?.done} color="green" icon={Sparkles} />
+                         <IntelStat label="DUPLICATE_SIG" value={stats?.duplicates} color="yellow" icon={Shield} />
                       </div>
                       
-                      <div className="mt-8 pt-8 border-t border-white/5 space-y-3">
+                      <div className="mt-8 pt-6 border-t border-white/5 space-y-3">
                          <button 
                            onClick={() => axios.post('/api/research/start')}
-                           className="w-full py-2 bg-green-500/10 border border-green-500/20 text-green-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-green-500/20 transition-all"
+                           className="w-full py-3 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-emerald-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(16,185,129,0.1)]"
                          >
                            {workerStatus?.running ? 'ENGINE_ONLINE' : 'INITIATE_RESEARCH'}
                          </button>
                          <button 
                            onClick={() => axios.post('/api/research/stop')}
-                           className="w-full py-2 bg-red-500/10 border border-red-500/20 text-red-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-red-500/20 transition-all"
+                           className="w-full py-3 bg-rose-500/10 border border-rose-500/20 text-rose-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-rose-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(244,63,94,0.1)]"
                          >
                            SUSPEND_OPERATIONS
                          </button>
                          <button 
                            onClick={() => axios.post('/api/bookmarks/deduplicate')}
-                           className="w-full py-2 bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-yellow-500/20 transition-all"
+                           className="w-full py-3 bg-amber-500/10 border border-amber-500/20 text-amber-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-amber-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)]"
                          >
                            PURGE_DUPLICATES
                          </button>
                       </div>
                    </NeonCard>
 
-                   <NeonCard title="CORE_STATUS" icon={Cpu}>
+                   <NeonCard title="CORE_LOAD" icon={Cpu} color="blue">
                       <div className="flex items-center justify-between mb-4">
-                         <span className="text-[9px] font-black text-slate-500 tracking-widest uppercase">ENGINE_LOAD</span>
-                         <span className="text-[10px] font-black text-blue-400">14.2%</span>
+                         <span className="text-[8px] font-black text-slate-500 tracking-[0.3em] uppercase">PROCESSING_ENTROPY</span>
+                         <span className="text-[11px] font-black text-cyan-400 font-mono">14.2%</span>
                       </div>
-                      <div className="h-20 flex items-end gap-1 px-1">
-                         {Array.from({ length: 15 }).map((_, i) => (
+                      <div className="h-24 flex items-end gap-1 px-1">
+                         {Array.from({ length: 20 }).map((_, i) => (
                            <motion.div 
                              key={i}
-                             animate={{ height: [10, Math.random() * 40 + 10, 10] }}
-                             transition={{ repeat: Infinity, duration: 1 + Math.random(), ease: "easeInOut" }}
-                             className="flex-1 bg-blue-500/20 rounded-t-sm"
+                             animate={{ height: [10, Math.random() * 60 + 10, 10] }}
+                             transition={{ repeat: Infinity, duration: 0.8 + Math.random(), ease: "easeInOut" }}
+                             className="flex-1 bg-gradient-to-t from-cyan-600/40 to-cyan-400/20 rounded-t-sm"
                            />
                          ))}
                       </div>
@@ -424,18 +477,18 @@ function App() {
 
                 {/* Right Column - Logs */}
                 <div className="col-span-3 flex flex-col h-full">
-                   <NeonCard title="REALTIME_STREAM" icon={Activity} className="h-full">
+                   <NeonCard title="REALTIME_STREAM" icon={Activity} className="h-full" color="blue">
                       <div className="space-y-4 font-mono">
-                         {(liveFeed || []).slice(0, 15).map((log, i) => (
-                           <div key={log.id} className="flex gap-4 border-l border-white/5 pl-4 py-1 group cursor-default">
-                              <span className="text-[9px] text-slate-700 font-bold">{new Date(log.imported_at || Date.now()).toLocaleTimeString()}</span>
-                              <span className={`text-[9px] font-black ${log.research_status === 'done' ? 'text-green-500/80' : 'text-blue-500/80'} tracking-tighter uppercase group-hover:text-white transition-colors truncate`}>
+                         {(liveFeed || []).slice(0, 18).map((log, i) => (
+                           <div key={log.id} className="flex gap-4 border-l border-cyan-500/20 pl-4 py-1.5 group cursor-default hover:bg-white/[0.02] transition-colors rounded-r-lg">
+                              <span className="text-[8px] text-slate-600 font-bold group-hover:text-cyan-500/60 transition-colors">{new Date(log.imported_at || Date.now()).toLocaleTimeString()}</span>
+                              <span className={`text-[9px] font-black ${log.research_status === 'done' ? 'text-emerald-500/70' : 'text-cyan-500/70'} tracking-tighter uppercase group-hover:text-white transition-all truncate`}>
                                 {log.research_status === 'done' ? 'STABLE' : 'PENDING'}: {log.page_title || log.url}
                               </span>
                            </div>
                          ))}
                          {(!liveFeed || liveFeed.length === 0) && (
-                           <div className="text-[9px] font-black text-slate-700 uppercase tracking-widest text-center mt-20 italic">AWAITING_DATA_STREAM...</div>
+                           <div className="text-[9px] font-black text-slate-800 uppercase tracking-[0.5em] text-center mt-32 italic animate-pulse">AWAITING_DATA_STREAM...</div>
                          )}
                       </div>
                    </NeonCard>
@@ -781,14 +834,20 @@ function App() {
       </main>
 
       {/* Footer HUD */}
-      <footer className="h-10 border-t border-white/5 bg-[#01040a] px-8 flex items-center justify-between text-[9px] font-black tracking-[0.3em] text-slate-700 uppercase">
-         <div className="flex gap-8">
-            <span className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-blue-500"></div> STORAGE: 1.4GB / 5.0GB</span>
-            <span className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-purple-500"></div> COMPRESSION: 4.2X</span>
+      <footer className="h-12 border-t border-white/5 bg-[#020408] px-8 flex items-center justify-between text-[8px] font-black tracking-[0.5em] text-slate-600 uppercase shadow-[0_-10px_40px_rgba(0,0,0,0.5)]">
+         <div className="flex gap-12">
+            <span className="flex items-center gap-3 group cursor-default">
+               <div className="w-2 h-2 rounded-full bg-cyan-500 group-hover:animate-ping"></div> 
+               STORAGE: <span className="text-slate-400 group-hover:text-cyan-400 transition-colors">1.4GB / 5.0GB</span>
+            </span>
+            <span className="flex items-center gap-3 group cursor-default">
+               <div className="w-2 h-2 rounded-full bg-fuchsia-500 group-hover:animate-ping"></div> 
+               COMPRESSION: <span className="text-slate-400 group-hover:text-fuchsia-400 transition-colors">4.2X</span>
+            </span>
          </div>
-         <div className="flex gap-6 italic">
-            <span className="text-blue-500/50 hover:text-blue-500 cursor-pointer transition-colors">V_2.04</span>
-            <span className="text-blue-500/50 hover:text-blue-500 cursor-pointer transition-colors">KERN_ESTABLISHED</span>
+         <div className="flex gap-10 italic font-mono">
+            <span className="text-cyan-500/30 hover:text-cyan-400 cursor-pointer transition-all hover:tracking-[0.8em]">V_2.04</span>
+            <span className="text-cyan-500/30 hover:text-cyan-400 cursor-pointer transition-all hover:tracking-[0.8em]">KERN_ESTABLISHED</span>
          </div>
       </footer>
     </div>
