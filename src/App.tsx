@@ -26,11 +26,12 @@ const Scanline = () => (
   </div>
 );
 
-const NeonCard = ({ children, title, icon: Icon, className = "" }) => (
+const NeonCard = ({ children, title, icon: Icon, className = "", onClick }: any) => (
   <motion.div 
     initial={{ opacity: 0, scale: 0.98 }}
     animate={{ opacity: 1, scale: 1 }}
     className={`relative group ${className}`}
+    onClick={onClick}
   >
     <div className="absolute -inset-[1px] bg-gradient-to-br from-blue-500/20 via-purple-500/10 to-blue-500/20 rounded-2xl blur-[2px] group-hover:blur-[6px] transition-all duration-500 opacity-50 group-hover:opacity-100"></div>
     <div className="relative bg-[#020617]/90 backdrop-blur-3xl border border-white/5 rounded-2xl overflow-hidden h-full flex flex-col">
@@ -58,7 +59,7 @@ const NeonCard = ({ children, title, icon: Icon, className = "" }) => (
   </motion.div>
 );
 
-const IntelStat = ({ label, value, color = "blue" }) => (
+const IntelStat = ({ label, value, color = "blue" }: any) => (
   <div className="space-y-1">
     <div className="flex items-center justify-between px-1">
       <span className="text-[9px] font-black text-slate-500 tracking-widest uppercase">{label}</span>
@@ -74,7 +75,7 @@ const IntelStat = ({ label, value, color = "blue" }) => (
   </div>
 );
 
-const TagCloud = ({ bookmarks = [] }) => {
+const TagCloud = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
   const tags = useMemo(() => {
     const counts: Record<string, number> = {};
     bookmarks.forEach(b => {
@@ -108,7 +109,7 @@ const TagCloud = ({ bookmarks = [] }) => {
 
 // --- D3 FORCE GRAPH COMPONENT ---
 
-const ForceGraph = ({ bookmarks = [] }) => {
+const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -124,20 +125,19 @@ const ForceGraph = ({ bookmarks = [] }) => {
 
     svg.selectAll("*").remove();
 
-    // Mock data generation for cool viz if no real data
-    const nodes = bookmarks.length > 0 ? bookmarks.slice(0, 100).map(b => ({ id: b.id, name: b.page_title || b.url, group: b.is_duplicate ? 'duplicate' : 'node' })) : [
+    const nodes: any[] = bookmarks.length > 0 ? bookmarks.slice(0, 100).map(b => ({ id: b.id, name: b.page_title || b.url, group: b.is_duplicate ? 'duplicate' : 'node' })) : [
       { id: 'root', name: 'CORE_INTELLIGENCE', group: 'root' },
       ...Array.from({ length: 12 }).map((_, i) => ({ id: i, name: `CLUSTER_${i}`, group: 'cluster' }))
     ];
 
-    const links = bookmarks.length > 0 ? [] : nodes.slice(1).map(n => ({ source: 'root', target: n.id }));
+    const links: any[] = bookmarks.length > 0 ? [] : nodes.slice(1).map(n => ({ source: 'root', target: n.id }));
 
-    // If we have real bookmarks, let's cluster them by domain
     if (bookmarks.length > 0) {
       const domains: Record<string, string[]> = {};
       nodes.forEach((n: any) => {
         try {
-          const url = new URL(n.name.startsWith('http') ? n.name : `https://${n.name}`);
+          const urlStr = n.name.startsWith('http') ? n.name : `https://${n.name}`;
+          const url = new URL(urlStr);
           const domain = url.hostname.replace('www.', '');
           if (!domains[domain]) domains[domain] = [];
           domains[domain].push(n.id);
@@ -206,7 +206,7 @@ const ForceGraph = ({ bookmarks = [] }) => {
       .attr("fill", (d: any) => d.group === 'domain' ? "#8b5cf6" : "#64748b")
       .attr("font-size", (d: any) => d.group === 'domain' ? "10px" : "7px")
       .attr("font-weight", "900")
-      .attr("class", "uppercase tracking-tighter pointer-events-none select-none")
+      .attr("class", "uppercase tracking-tighter pointer-events-none select-none");
 
     simulation.on("tick", () => {
       link
@@ -228,19 +228,17 @@ const ForceGraph = ({ bookmarks = [] }) => {
   }, [bookmarks]);
 
   return (
-    <div ref={containerRef} className="w-full h-full relative overflow-hidden bg-[#010411]">
-      <div className="absolute top-4 right-4 z-10 flex gap-2">
-         <div className="px-2 py-1 bg-blue-500/10 border border-blue-500/30 rounded text-[8px] font-black text-blue-400 tracking-widest uppercase">FORCE_ACTIVE</div>
-         <div className="px-2 py-1 bg-white/5 border border-white/10 rounded text-[8px] font-black text-slate-500 tracking-widest uppercase">NODES: {bookmarks.length || 13}</div>
-      </div>
+    <div ref={containerRef} className="w-full h-full relative">
       <svg ref={svgRef} className="w-full h-full" />
     </div>
   );
 };
 
 function App() {
-  const [view, setView] = useState<'intel' | 'ingest' | 'catalog' | 'terminal'>('intel');
+  const [view, setView] = useState<'intel' | 'ingest' | 'catalog' | 'terminal' | 'activity'>('intel');
   const [searchTerm, setSearchTerm] = useState('');
+  const [ingestText, setIngestText] = useState('');
+  const queryClient = useQueryClient();
 
   const { data: stats } = useQuery<Stats>({
     queryKey: ['stats'],
@@ -254,6 +252,26 @@ function App() {
     refetchInterval: 5000,
   });
 
+  const { data: bookmarksData } = useQuery<{ bookmarks: Bookmark[], total: number }>({
+    queryKey: ['bookmarks', searchTerm, view],
+    queryFn: () => axios.get('/api/bookmarks', { params: { q: searchTerm, limit: view === 'intel' ? 100 : 200 } }).then(res => res.data),
+  });
+
+  const { data: recentActivity } = useQuery<Bookmark[]>({
+    queryKey: ['recentActivity'],
+    queryFn: () => axios.get('/api/bookmarks', { params: { limit: 50, sort: 'created_at', order: 'desc' } }).then(res => res.data.bookmarks),
+    refetchInterval: 5000,
+  });
+
+  const assimilateMutation = useMutation({
+    mutationFn: (text: string) => axios.post('/api/bookmarks', { content: text }),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['stats'] });
+      queryClient.invalidateQueries({ queryKey: ['bookmarks'] });
+      setView('catalog');
+    }
+  });
+
   return (
     <div className="min-h-screen bg-[#01040a] text-slate-400 font-sans selection:bg-blue-500/30 overflow-hidden flex flex-col">
       <Scanline />
@@ -261,7 +279,7 @@ function App() {
       {/* Top HUD */}
       <header className="h-16 border-b border-white/5 bg-[#01040a]/90 backdrop-blur-3xl z-[150] px-8 flex items-center justify-between">
          <div className="flex items-center gap-10">
-            <div className="flex items-center gap-4 group cursor-pointer">
+            <div className="flex items-center gap-4 group cursor-pointer" onClick={() => setView('intel')}>
                <div className="w-10 h-10 bg-blue-600 rounded-xl flex items-center justify-center shadow-[0_0_30px_rgba(37,99,235,0.4)] group-hover:scale-110 transition-transform">
                   <Zap size={22} className="text-white fill-white" />
                </div>
@@ -274,6 +292,7 @@ function App() {
             <nav className="flex items-center gap-1 px-1.5 py-1 bg-white/[0.03] rounded-xl border border-white/5">
               {[
                 { id: 'intel', label: 'INTELLIGENCE', icon: Activity },
+                { id: 'activity', label: 'ACTIVITY_LOG', icon: Radio },
                 { id: 'ingest', label: 'INGESTION', icon: Share2 },
                 { id: 'catalog', label: 'CATALOG', icon: Box },
                 { id: 'terminal', label: 'TERMINAL', icon: Terminal }
@@ -308,6 +327,8 @@ function App() {
                <input 
                  type="text" 
                  placeholder="GLOBAL_SCAN..."
+                 value={searchTerm}
+                 onChange={(e) => setSearchTerm(e.target.value)}
                  className="w-full bg-white/[0.03] border border-white/5 rounded-xl pl-11 pr-4 py-2.5 text-[10px] font-black tracking-widest text-white focus:outline-none focus:border-blue-500/40 transition-all uppercase placeholder:text-slate-700"
                />
             </div>
@@ -389,21 +410,19 @@ function App() {
 
                 {/* Right Column - Logs */}
                 <div className="col-span-3 flex flex-col h-full">
-                   <NeonCard title="LOG_STREAM" icon={Activity} className="h-full">
+                   <NeonCard title="REALTIME_STREAM" icon={Activity} className="h-full">
                       <div className="space-y-4 font-mono">
-                         {[
-                           { t: '12:04:11', m: 'ASSIMILATING_URL_PACKET', s: 'blue' },
-                           { t: '12:04:45', m: 'CLUSTERING_PROTOCOL_START', s: 'purple' },
-                           { t: '12:05:02', m: 'DUPLICATE_SIG_DETECTED', s: 'yellow' },
-                           { t: '12:05:12', m: 'DATABASE_WRITE_STABLE', s: 'green' },
-                           { t: '12:06:21', m: 'RESEARCH_AGENT_SLEEP', s: 'slate' },
-                           { t: '12:07:01', m: 'WEB_HOOK_STANDBY', s: 'blue' },
-                         ].map((log, i) => (
-                           <div key={i} className="flex gap-4 border-l border-white/5 pl-4 py-1 group cursor-default">
-                              <span className="text-[9px] text-slate-700 font-bold">{log.t}</span>
-                              <span className={`text-[9px] font-black text-${log.s}-500/80 tracking-tighter uppercase group-hover:text-${log.s}-400 transition-colors`}>{log.m}</span>
+                         {(recentActivity || []).slice(0, 10).map((log, i) => (
+                           <div key={log.id} className="flex gap-4 border-l border-white/5 pl-4 py-1 group cursor-default">
+                              <span className="text-[9px] text-slate-700 font-bold">{new Date(log.created_at || Date.now()).toLocaleTimeString()}</span>
+                              <span className={`text-[9px] font-black ${log.research_status === 'done' ? 'text-green-500/80' : 'text-blue-500/80'} tracking-tighter uppercase group-hover:text-white transition-colors truncate`}>
+                                {log.research_status === 'done' ? 'STABLE' : 'PENDING'}: {log.page_title || log.url}
+                              </span>
                            </div>
                          ))}
+                         {(!recentActivity || recentActivity.length === 0) && (
+                           <div className="text-[9px] font-black text-slate-700 uppercase tracking-widest text-center mt-20 italic">AWAITING_DATA_STREAM...</div>
+                         )}
                       </div>
                    </NeonCard>
                 </div>
@@ -419,25 +438,141 @@ function App() {
                className="flex-1 flex flex-col max-w-5xl mx-auto gap-8"
              >
                 <div className="grid grid-cols-3 gap-8">
-                   {[
-                     { l: 'BROWSER_X', d: 'HTML_IMPORT', i: Globe, c: 'blue' },
-                     { l: 'CORE_DB', d: 'SQLITE_SYNC', i: Database, c: 'purple' },
-                     { l: 'RAW_STREAM', d: 'TEXT_INJECT', i: Radio, c: 'yellow' }
-                   ].map((t, i) => (
-                     <NeonCard key={i} className="cursor-pointer group">
-                        <div className="flex flex-col items-center gap-6 py-4">
-                           <div className={`w-16 h-16 rounded-2xl bg-${t.c}-500/10 flex items-center justify-center text-${t.c}-500 border border-${t.c}-500/20 group-hover:bg-${t.c}-500 group-hover:text-white transition-all shadow-xl`}>
-                              <t.i size={28} />
-                           </div>
-                           <div className="text-center">
-                              <span className="block text-[11px] font-black text-white tracking-[0.2em] mb-1">{t.l}</span>
-                              <span className="text-[9px] font-bold text-slate-500 tracking-widest uppercase">{t.d}</span>
-                           </div>
-                        </div>
-                     </NeonCard>
-                   ))}
+                   <NeonCard className="cursor-pointer group" onClick={() => window.location.href = '/api/database/download'}>
+                      <div className="flex flex-col items-center gap-6 py-4">
+                         <div className="w-16 h-16 rounded-2xl bg-purple-500/10 flex items-center justify-center text-purple-500 border border-purple-500/20 group-hover:bg-purple-500 group-hover:text-white transition-all shadow-xl">
+                            <Database size={28} />
+                         </div>
+                         <div className="text-center">
+                            <span className="block text-[11px] font-black text-white tracking-[0.2em] mb-1">EXPORT_DB</span>
+                            <span className="text-[9px] font-bold text-slate-500 tracking-widest uppercase">DOWNLOAD_BACKUP</span>
+                         </div>
+                      </div>
+                   </NeonCard>
+                   <NeonCard className="cursor-pointer group">
+                      <div className="flex flex-col items-center gap-6 py-4">
+                         <div className="w-16 h-16 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-500 border border-blue-500/20 group-hover:bg-blue-500 group-hover:text-white transition-all shadow-xl">
+                            <Upload size={28} />
+                         </div>
+                         <div className="text-center">
+                            <span className="block text-[11px] font-black text-white tracking-[0.2em] mb-1">IMPORT_DATA</span>
+                            <span className="text-[9px] font-bold text-slate-500 tracking-widest uppercase">UPLOAD_RESOURCES</span>
+                         </div>
+                      </div>
+                   </NeonCard>
+                   <NeonCard className="cursor-pointer group">
+                      <div className="flex flex-col items-center gap-6 py-4">
+                         <div className="w-16 h-16 rounded-2xl bg-yellow-500/10 flex items-center justify-center text-yellow-500 border border-yellow-500/20 group-hover:bg-yellow-500 group-hover:text-white transition-all shadow-xl">
+                            <Radio size={28} />
+                         </div>
+                         <div className="text-center">
+                            <span className="block text-[11px] font-black text-white tracking-[0.2em] mb-1">RAW_STREAM</span>
+                            <span className="text-[9px] font-bold text-slate-500 tracking-widest uppercase">TEXT_INJECTION</span>
+                         </div>
+                      </div>
+                   </NeonCard>
                 </div>
 
+                <NeonCard title="RESOURCE_ASSIMILATION_TERMINAL" icon={Terminal} className="flex-1">
+                   <textarea 
+                     value={ingestText}
+                     onChange={(e) => setIngestText(e.target.value)}
+                     className="w-full h-full bg-transparent border-none focus:outline-none font-mono text-[11px] text-green-400 placeholder:text-slate-800 leading-relaxed uppercase tracking-tighter resize-none"
+                     placeholder="AWAITING_INPUT_STREAM_PACKETS..."
+                   />
+                   <div className="absolute bottom-10 right-10 flex gap-4">
+                      <button 
+                        onClick={() => {
+                          if (ingestText.trim()) {
+                            assimilateMutation.mutate(ingestText);
+                            setIngestText('');
+                          }
+                        }}
+                        disabled={assimilateMutation.isPending}
+                        className="px-12 py-4 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white rounded-xl font-black text-[10px] tracking-[0.3em] uppercase transition-all shadow-[0_0_30px_rgba(37,99,235,0.3)] flex items-center gap-4 active:scale-95"
+                      >
+                         <Zap size={18} className={assimilateMutation.isPending ? 'animate-spin' : ''} /> 
+                         {assimilateMutation.isPending ? 'ASSIMILATING...' : 'INITIATE_TRANSFER'}
+                      </button>
+                   </div>
+                </NeonCard>
+             </motion.div>
+           )}
+
+           {view === 'catalog' && (
+             <motion.div 
+               key="catalog"
+               initial={{ opacity: 0, scale: 0.95 }}
+               animate={{ opacity: 1, scale: 1 }}
+               exit={{ opacity: 0, scale: 1.05 }}
+               className="flex-1 flex flex-col gap-8 overflow-y-auto max-h-[80vh] pr-4 custom-scrollbar"
+             >
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-20">
+                  {(bookmarksData?.bookmarks || []).map((bm: Bookmark) => (
+                    <NeonCard key={bm.id} title={bm.is_duplicate ? "DUPLICATE_SIG" : "KNOWLEDGE_NODE"} icon={bm.is_duplicate ? Shield : Box} className="h-fit">
+                      <div className="space-y-4">
+                        <h4 className="text-[10px] font-black text-white leading-tight uppercase tracking-[0.1em] line-clamp-2">{bm.page_title || bm.url}</h4>
+                        <p className="text-[9px] text-slate-500 font-bold leading-relaxed line-clamp-3 italic uppercase tracking-tighter">{bm.page_description || 'NO_METADATA_EXTRACTED_YET'}</p>
+                        <div className="flex items-center justify-between pt-2 border-t border-white/5">
+                          <span className={`text-[8px] font-black px-2 py-0.5 rounded border ${bm.research_status === 'done' ? 'bg-green-500/10 text-green-500 border-green-500/20' : 'bg-blue-500/10 text-blue-500 border-blue-500/20'} uppercase tracking-widest`}>
+                            {bm.research_status}
+                          </span>
+                          <div className="flex gap-3">
+                             <a href={bm.url} target="_blank" rel="noreferrer" className="text-slate-500 hover:text-blue-400 transition-colors">
+                                <Globe size={14} />
+                             </a>
+                             <button className="text-slate-500 hover:text-white transition-colors">
+                                <ArrowRight size={14} />
+                             </button>
+                          </div>
+                        </div>
+                      </div>
+                    </NeonCard>
+                  ))}
+                </div>
+             </motion.div>
+           )}
+
+           {view === 'activity' && (
+             <motion.div 
+               key="activity"
+               initial={{ opacity: 0, x: -20 }}
+               animate={{ opacity: 1, x: 0 }}
+               exit={{ opacity: 0, x: 20 }}
+               className="flex-1 flex flex-col gap-8 overflow-y-auto max-h-[80vh] pr-4 custom-scrollbar"
+             >
+                <div className="space-y-4 max-w-5xl mx-auto w-full pb-20">
+                  {(recentActivity || []).map((log) => (
+                    <div key={log.id} className="flex items-center gap-6 p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:bg-white/[0.05] transition-all group">
+                       <div className={`p-2 rounded-lg ${log.research_status === 'done' ? 'bg-green-500/10 text-green-400' : 'bg-blue-500/10 text-blue-400'} border border-white/5`}>
+                          <Fingerprint size={16} />
+                       </div>
+                       <div className="flex-1">
+                          <div className="flex items-center justify-between mb-1">
+                             <span className="text-[10px] font-black text-white tracking-widest uppercase truncate max-w-xl">{log.page_title || log.url}</span>
+                             <span className="text-[8px] font-black text-slate-600 uppercase tracking-widest">{new Date(log.created_at || Date.now()).toLocaleString()}</span>
+                          </div>
+                          <div className="text-[9px] text-slate-500 font-bold uppercase truncate max-w-2xl italic tracking-tighter">{log.url}</div>
+                       </div>
+                       <div className="flex gap-4 opacity-0 group-hover:opacity-100 transition-opacity">
+                          <button onClick={() => window.open(log.url, '_blank')} className="px-4 py-1.5 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-blue-500/20 transition-all">
+                             OPEN_NODE
+                          </button>
+                       </div>
+                    </div>
+                  ))}
+                </div>
+             </motion.div>
+           )}
+
+           {view === 'terminal' && (
+             <motion.div 
+               key="terminal"
+               initial={{ opacity: 0, x: 20 }}
+               animate={{ opacity: 1, x: 0 }}
+               exit={{ opacity: 0, x: -20 }}
+               className="flex-1 flex flex-col gap-8"
+             >
                 <NeonCard title="INJECTION_TERMINAL" icon={Terminal} className="flex-1">
                    <textarea 
                      className="w-full h-full bg-transparent border-none focus:outline-none font-mono text-[11px] text-blue-400 placeholder:text-slate-800 leading-relaxed uppercase tracking-tighter"
@@ -467,7 +602,7 @@ function App() {
             <span className="flex items-center gap-2"><div className="w-1.5 h-1.5 rounded-full bg-purple-500"></div> COMPRESSION: 4.2X</span>
          </div>
          <div className="flex gap-6 italic">
-            <span className="text-blue-500/50 hover:text-blue-500 cursor-pointer transition-colors">V_3.4.1</span>
+            <span className="text-blue-500/50 hover:text-blue-500 cursor-pointer transition-colors">V_2.04</span>
             <span className="text-blue-500/50 hover:text-blue-500 cursor-pointer transition-colors">KERN_ESTABLISHED</span>
          </div>
       </footer>
