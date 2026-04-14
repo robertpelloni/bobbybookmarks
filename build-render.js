@@ -1,10 +1,13 @@
-const { build } = require('vite');
-const react = require('@vitejs/plugin-react');
-const path = require('path');
+import { build } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function runBuild() {
   try {
-    console.log('Starting Vite build via CommonJS API (inline config)...');
+    console.log('Starting Vite build via ESM API (inline config)...');
     await build({
       root: __dirname,
       base: '/',
