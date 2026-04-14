@@ -548,113 +548,88 @@ function App() {
            {view === 'analytics' && (
              <motion.div 
                key="analytics"
-               initial={{ opacity: 0, y: 20 }}
+               initial={{ opacity: 0, y: 10 }}
                animate={{ opacity: 1, y: 0 }}
-               exit={{ opacity: 0, y: -20 }}
+               exit={{ opacity: 0, y: -10 }}
                className="flex-1 grid grid-cols-12 gap-8 overflow-y-auto max-h-[80vh] pr-4 custom-scrollbar"
              >
                 <div className="col-span-8 space-y-8">
-                   <NeonCard title="HARVEST_VELOCITY" icon={Activity}>
+                   <StandardCard title="Harvest Velocity" icon={Activity}>
                       <div className="h-64 flex items-end gap-2 px-2">
                         {(timeline || []).slice().reverse().map((day: any, i: number) => (
                           <div key={i} className="flex-1 flex flex-col justify-end gap-1 group">
-                             <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[7px] text-blue-400 text-center mb-1">{day.count}</div>
+                             <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[10px] text-blue-600 text-center mb-1 font-bold">{day.count}</div>
                              <motion.div 
                                initial={{ height: 0 }}
                                animate={{ height: `${Math.min(100, (day.count / (stats?.total || 1)) * 1000)}%` }}
-                               className="bg-blue-500/20 group-hover:bg-blue-500/40 border-t border-blue-500/50 rounded-t-sm transition-all"
+                               className="bg-blue-100 group-hover:bg-blue-200 border-t border-blue-300 rounded-t-sm transition-all"
                              />
                           </div>
                         ))}
                         {(!timeline || timeline.length === 0) && Array.from({ length: 30 }).map((_, i) => (
-                          <div key={i} className="flex-1 bg-white/5 rounded-t-sm h-4 animate-pulse" />
+                          <div key={i} className="flex-1 bg-slate-100 rounded-t-sm h-4" />
                         ))}
                       </div>
-                      <div className="flex justify-between mt-4 text-[7px] font-black text-slate-700 tracking-[0.2em] uppercase">
-                         <span>T-30_DAYS</span>
-                         <span>CURRENT_STAMP</span>
+                      <div className="flex justify-between mt-4 text-[10px] font-bold text-slate-400 tracking-wider uppercase">
+                         <span>30 Days Ago</span>
+                         <span>Today</span>
                       </div>
-                   </NeonCard>
+                   </StandardCard>
 
                    <div className="grid grid-cols-2 gap-8">
-                      <NeonCard title="CLUSTER_DISTRIBUTION" icon={Layers}>
+                      <StandardCard title="Cluster Distribution" icon={Layers}>
                          <div className="h-48 flex items-center justify-center relative">
-                            <div className="absolute inset-0 flex items-center justify-center">
-                               <div className="w-32 h-32 rounded-full border-8 border-blue-500/10 border-t-blue-500 animate-[spin_10s_linear_infinite]"></div>
-                               <div className="absolute w-24 h-24 rounded-full border-8 border-purple-500/10 border-b-purple-500 animate-[spin_15s_linear_infinite_reverse]"></div>
-                            </div>
                             <div className="text-center z-10">
-                               <span className="block text-xl font-black text-white">{stats?.clusters || 0}</span>
-                               <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">CLUSTERS</span>
+                               <span className="block text-3xl font-bold text-slate-900">{stats?.clusters || 0}</span>
+                               <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">CLUSTERS</span>
                             </div>
                          </div>
                          <div className="mt-4 space-y-2">
                             {(categories || []).slice(0, 4).map((cl: any, idx: number) => (
                               <div key={cl.name} className="flex items-center justify-between">
                                  <div className="flex items-center gap-2">
-                                    <div className={`w-1.5 h-1.5 rounded-full ${['bg-blue-500', 'bg-purple-500', 'bg-green-500', 'bg-yellow-500'][idx % 4]}`}></div>
-                                    <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest truncate max-w-[100px]">{cl.name}</span>
+                                    <div className={`w-2 h-2 rounded-full ${['bg-blue-500', 'bg-purple-500', 'bg-emerald-500', 'bg-amber-500'][idx % 4]}`}></div>
+                                    <span className="text-[10px] font-bold text-slate-600 uppercase tracking-wide truncate max-w-[120px]">{cl.name}</span>
                                  </div>
-                                 <span className="text-[9px] font-black text-white">{cl.value}</span>
+                                 <span className="text-xs font-bold text-slate-900">{cl.value}</span>
                               </div>
                             ))}
                          </div>
-                      </NeonCard>
+                      </StandardCard>
 
-                      <NeonCard title="KNOWLEDGE_NEBULA" icon={Sparkles}>
-                         <div className="h-48 bg-white/[0.02] rounded-xl border border-white/5 relative overflow-hidden group">
-                            <div className="absolute inset-0 opacity-40 bg-[radial-gradient(#3b82f6_1px,transparent_1px)] bg-[size:15px_15px] animate-pulse"></div>
-                            {Array.from({ length: 20 }).map((_, i) => (
-                              <motion.div 
-                                key={i}
-                                animate={{ 
-                                  x: [Math.random() * 200, Math.random() * 200],
-                                  y: [Math.random() * 150, Math.random() * 150],
-                                  opacity: [0.2, 0.8, 0.2]
-                                }}
-                                transition={{ duration: 5 + Math.random() * 5, repeat: Infinity }}
-                                className="absolute w-1 h-1 bg-blue-400 rounded-full blur-[1px]"
-                              />
-                            ))}
-                            <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-[#020617]/80 backdrop-blur-sm">
-                               <button className="px-6 py-2 bg-blue-600 text-white rounded-lg text-[9px] font-black tracking-widest uppercase shadow-xl">
-                                  OPEN_PROJECTION
-                               </button>
+                      <StandardCard title="Knowledge Network" icon={Sparkles}>
+                         <div className="h-48 bg-slate-50 rounded-lg border border-slate-100 flex items-center justify-center">
+                            <div className="text-center p-6">
+                               <Sparkles size={32} className="text-slate-200 mx-auto mb-3" />
+                               <p className="text-[10px] text-slate-400 font-bold uppercase tracking-wider leading-relaxed">
+                                  Vector Space Projection Available in Full View
+                               </p>
                             </div>
                          </div>
-                         <p className="mt-4 text-[8px] text-slate-500 font-bold uppercase tracking-widest leading-relaxed">
-                            HIGH-DIMENSIONAL_VECTOR_SPACE_PROJECTION_OF_CORE_KNOWLEDGE_ASSETS.
-                         </p>
-                      </NeonCard>
+                      </StandardCard>
                    </div>
                 </div>
 
                 <div className="col-span-4 space-y-8">
-                   <NeonCard title="TRENDING_SIGS" icon={TagIcon}>
-                      <div className="flex flex-wrap gap-2">
-                         {(tagsData || []).map((t: any) => (
-                           <span key={t.name} className="px-2 py-1 bg-white/5 border border-white/5 rounded text-[8px] font-black text-slate-500 hover:text-blue-400 hover:border-blue-500/30 transition-all cursor-pointer uppercase tracking-widest">
-                              {t.name} <span className="text-blue-500/40 ml-1">{t.value}</span>
-                           </span>
-                         ))}
-                      </div>
-                   </NeonCard>
+                   <StandardCard title="Trending Tags" icon={TagIcon}>
+                      <TagCloud bookmarks={bookmarksData?.bookmarks || []} />
+                   </StandardCard>
 
-                   <NeonCard title="BATTLE_CARDS" icon={Shield}>
+                   <StandardCard title="System Metrics" icon={Shield}>
                       <div className="space-y-4">
                          {(battleCards || []).map(card => (
-                           <div key={card.t} className="p-3 bg-white/[0.03] border border-white/5 rounded-xl">
+                           <div key={card.t} className="p-3 bg-slate-50 border border-slate-100 rounded-lg">
                               <div className="flex items-center justify-between mb-2">
-                                 <span className="text-[8px] font-black text-white tracking-widest uppercase">{card.t}</span>
-                                 <span className="text-[10px] font-black text-blue-400">{card.v}</span>
+                                 <span className="text-[10px] font-bold text-slate-600 tracking-wide uppercase">{card.t}</span>
+                                 <span className="text-xs font-bold text-blue-600">{card.v}</span>
                               </div>
-                              <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden">
-                                 <div className={`h-full ${card.s}/60`} style={{ width: card.v }}></div>
+                              <div className="h-1.5 w-full bg-slate-200 rounded-full overflow-hidden">
+                                 <div className="h-full bg-blue-500" style={{ width: card.v }}></div>
                               </div>
                            </div>
                          ))}
                       </div>
-                   </NeonCard>
+                   </StandardCard>
                 </div>
              </motion.div>
            )}
@@ -662,83 +637,83 @@ function App() {
            {view === 'control' && (
              <motion.div 
                key="control"
-               initial={{ opacity: 0, scale: 0.95 }}
-               animate={{ opacity: 1, scale: 1 }}
-               exit={{ opacity: 0, scale: 1.05 }}
+               initial={{ opacity: 0, y: 10 }}
+               animate={{ opacity: 1, y: 0 }}
+               exit={{ opacity: 0, y: -10 }}
                className="flex-1 max-w-5xl mx-auto w-full"
              >
                 <div className="grid grid-cols-2 gap-8">
-                   <NeonCard title="ENGINE_MAINTENANCE" icon={Cpu}>
-                      <div className="space-y-6">
-                         <div className="p-4 bg-white/[0.03] border border-white/5 rounded-xl flex items-center justify-between group">
+                   <StandardCard title="Maintenance" icon={Cpu}>
+                      <div className="space-y-4">
+                         <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
                             <div>
-                               <span className="block text-[10px] font-black text-white tracking-widest uppercase">STABILIZE_DATABASE</span>
-                               <span className="text-[8px] font-bold text-slate-500 uppercase tracking-tighter">VACUUM_&_REINDEX_CORE_TABLES</span>
+                               <span className="block text-xs font-bold text-slate-900 uppercase">Stabilize Database</span>
+                               <span className="text-[10px] font-medium text-slate-400 uppercase">Vacuum & Reindex</span>
                             </div>
-                            <button className="px-6 py-2 bg-blue-500/10 border border-blue-500/20 text-blue-400 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-blue-500 hover:text-white transition-all">
-                               INITIATE
+                            <button className="px-4 py-1.5 bg-white border border-slate-200 text-slate-700 rounded-md text-xs font-bold hover:bg-slate-100 transition-all">
+                               Run
                             </button>
                          </div>
 
-                         <div className="p-4 bg-white/[0.03] border border-white/5 rounded-xl flex items-center justify-between group">
+                         <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
                             <div>
-                               <span className="block text-[10px] font-black text-white tracking-widest uppercase">SYNC_CORE_DB</span>
-                               <span className="text-[8px] font-bold text-slate-500 uppercase tracking-tighter">PULL_LATEST_FROM_REMOTE_MIRROR</span>
+                               <span className="block text-xs font-bold text-slate-900 uppercase">Sync Core</span>
+                               <span className="text-[10px] font-medium text-slate-400 uppercase">Pull Latest</span>
                             </div>
-                            <button className="px-6 py-2 bg-purple-500/10 border border-purple-500/20 text-purple-400 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-purple-500 hover:text-white transition-all">
-                               SYNC_NOW
+                            <button className="px-4 py-1.5 bg-white border border-slate-200 text-slate-700 rounded-md text-xs font-bold hover:bg-slate-100 transition-all">
+                               Sync
                             </button>
                          </div>
 
-                         <div className="p-4 bg-white/[0.03] border border-white/5 rounded-xl flex items-center justify-between group">
+                         <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg flex items-center justify-between">
                             <div>
-                               <span className="block text-[10px] font-black text-white tracking-widest uppercase">FLUSH_CACHE</span>
-                               <span className="text-[8px] font-bold text-slate-500 uppercase tracking-tighter">CLEAR_EPHEMERAL_BUFFER_NODES</span>
+                               <span className="block text-xs font-bold text-slate-900 uppercase">Flush Cache</span>
+                               <span className="text-[10px] font-medium text-slate-400 uppercase">Clear Buffer</span>
                             </div>
-                            <button className="px-6 py-2 bg-red-500/10 border border-red-500/20 text-red-400 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-red-500 hover:text-white transition-all">
-                               PURGE
+                            <button className="px-4 py-1.5 bg-white border border-slate-200 text-rose-600 rounded-md text-xs font-bold hover:bg-rose-50 hover:border-rose-200 transition-all">
+                               Flush
                             </button>
                          </div>
                       </div>
-                   </NeonCard>
+                   </StandardCard>
 
-                   <NeonCard title="RESEARCH_MODES" icon={Sparkles}>
-                      <div className="grid grid-cols-1 gap-4">
+                   <StandardCard title="Research Parameters" icon={Sparkles}>
+                      <div className="grid grid-cols-1 gap-3">
                          {[
-                           { n: 'DEEP_SCAN', d: 'FULL_METADATA_EXTRACTION_&_LLM_ANALYSIS', i: Search, a: true },
-                           { n: 'RAPID_INGEST', d: 'URL_ONLY_INDEXING_FOR_SPEED', i: Zap, a: false },
-                           { n: 'INTELLIGENT_LINK', d: 'AUTO-CONNECTING_RELATED_KNOWLEDGE_NODES', i: Link, a: false }
+                           { n: 'Deep Scan', d: 'Metadata & LLM Analysis', i: Search, a: true },
+                           { n: 'Rapid Index', d: 'URL-only processing', i: Zap, a: false },
+                           { n: 'Auto-Link', d: 'Knowledge graph mapping', i: Link, a: false }
                          ].map(mode => (
-                           <div key={mode.n} className={`p-4 border rounded-xl transition-all cursor-pointer ${mode.a ? 'bg-blue-600/10 border-blue-500/40' : 'bg-white/[0.02] border-white/5 hover:border-white/20'}`}>
-                              <div className="flex items-center justify-between mb-2">
+                           <div key={mode.n} className={`p-4 border rounded-lg transition-all cursor-pointer ${mode.a ? 'bg-blue-50 border-blue-200' : 'bg-slate-50 border-slate-200 hover:border-slate-300'}`}>
+                              <div className="flex items-center justify-between mb-1">
                                  <div className="flex items-center gap-3">
-                                    <div className={`p-2 rounded-lg ${mode.a ? 'bg-blue-500 text-white' : 'bg-white/5 text-slate-500'}`}>
+                                    <div className={`p-2 rounded-md ${mode.a ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-500'}`}>
                                        <mode.i size={16} />
                                     </div>
-                                    <span className={`text-[10px] font-black tracking-widest uppercase ${mode.a ? 'text-white' : 'text-slate-400'}`}>{mode.n}</span>
+                                    <span className={`text-xs font-bold uppercase ${mode.a ? 'text-blue-700' : 'text-slate-700'}`}>{mode.n}</span>
                                  </div>
-                                 <div className={`w-8 h-4 rounded-full p-0.5 transition-colors ${mode.a ? 'bg-blue-500' : 'bg-slate-800'}`}>
+                                 <div className={`w-8 h-4 rounded-full p-0.5 transition-colors ${mode.a ? 'bg-blue-600' : 'bg-slate-300'}`}>
                                     <div className={`w-3 h-3 bg-white rounded-full transition-transform ${mode.a ? 'translate-x-4' : 'translate-x-0'}`}></div>
                                  </div>
                               </div>
-                              <p className="text-[8px] font-bold text-slate-500 uppercase tracking-tighter leading-relaxed">
+                              <p className="text-[10px] font-medium text-slate-500 uppercase ml-11">
                                  {mode.d}
                               </p>
                            </div>
                          ))}
                       </div>
-                   </NeonCard>
+                   </StandardCard>
                 </div>
 
                 <div className="mt-8">
-                   <NeonCard title="GLOBAL_SYSTEM_LOGS" icon={Terminal}>
-                      <div className="bg-black/40 rounded-xl p-6 font-mono text-[10px] text-green-500/80 space-y-2 max-h-64 overflow-y-auto custom-scrollbar">
+                   <StandardCard title="System Logs" icon={Terminal}>
+                      <div className="bg-slate-900 rounded-lg p-4 font-mono text-[11px] text-slate-300 space-y-1.5 max-h-64 overflow-y-auto">
                          {(systemLogs || []).map((log, idx) => (
-                           <div key={idx}>{log}</div>
+                           <div key={idx} className="border-l border-slate-700 pl-3">{log}</div>
                          ))}
-                         <div className="animate-pulse">[LISTENING] AWAITING_INCOMING_RESOURCE_PACKETS...</div>
+                         <div className="text-blue-400 animate-pulse">Ready for incoming packets...</div>
                       </div>
-                   </NeonCard>
+                   </StandardCard>
                 </div>
              </motion.div>
            )}
