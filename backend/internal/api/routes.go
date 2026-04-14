@@ -4,6 +4,7 @@ import (
 	"bobbybookmarks/internal/database"
 	"bobbybookmarks/internal/models"
 	"github.com/gofiber/fiber/v2"
+	"os"
 	"strconv"
 )
 
@@ -18,6 +19,7 @@ func RegisterRoutes(app *fiber.App) {
 	api.Post("/bookmarks/deduplicate", deduplicateBookmarks)
 	api.Post("/research/start", startWorker)
 	api.Post("/research/stop", stopWorker)
+	api.Get("/database/download", downloadDatabase)
 }
 
 func getStats(c *fiber.Ctx) error {
@@ -102,3 +104,21 @@ func stopWorker(c *fiber.Ctx) error  { return c.JSON(fiber.Map{"status": "ok"}) 
 func importBookmarks(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
 func refreshCategories(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
 func deduplicateBookmarks(c *fiber.Ctx) error { return c.JSON(fiber.Map{"status": "ok"}) }
+
+func downloadDatabase(c *fiber.Ctx) error {
+	// Try both paths as in InitDB
+	dbPath := "/data/bookmarks.db"
+	if _, err := os.Stat(dbPath); os.IsNotExist(err) {
+		dbPath = "bookmarks.db"
+	}
+
+	c.Set("Content-Description", "File Transfer")
+	c.Set("Content-Type", "application/octet-stream")
+	c.Set("Content-Disposition", "attachment; filename=bookmarks.db")
+	c.Set("Content-Transfer-Encoding", "binary")
+	c.Set("Expires", "0")
+	c.Set("Cache-Control", "must-revalidate")
+	c.Set("Pragma", "public")
+
+	return c.SendFile(dbPath)
+}
