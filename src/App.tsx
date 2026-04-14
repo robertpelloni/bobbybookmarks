@@ -74,6 +74,38 @@ const IntelStat = ({ label, value, color = "blue" }) => (
   </div>
 );
 
+const TagCloud = ({ bookmarks = [] }) => {
+  const tags = useMemo(() => {
+    const counts: Record<string, number> = {};
+    bookmarks.forEach(b => {
+      const bTags = b.tags ? b.tags.split(',') : [];
+      bTags.forEach(t => {
+        const tag = t.trim().toUpperCase();
+        if (tag) counts[tag] = (counts[tag] || 0) + 1;
+      });
+    });
+    return Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 40);
+  }, [bookmarks]);
+
+  return (
+    <div className="flex flex-wrap gap-2">
+      {tags.map(([tag, count]) => (
+        <motion.span 
+          key={tag}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          whileHover={{ scale: 1.1, color: '#3b82f6' }}
+          className="px-2 py-1 rounded bg-white/5 border border-white/5 text-[8px] font-black tracking-widest text-slate-500 cursor-pointer transition-colors"
+        >
+          {tag} <span className="text-blue-500/40 ml-1">{count}</span>
+        </motion.span>
+      ))}
+    </div>
+  );
+};
+
 // --- D3 FORCE GRAPH COMPONENT ---
 
 const ForceGraph = ({ bookmarks = [] }) => {
@@ -93,18 +125,37 @@ const ForceGraph = ({ bookmarks = [] }) => {
     svg.selectAll("*").remove();
 
     // Mock data generation for cool viz if no real data
-    const nodes = bookmarks.length > 0 ? bookmarks.map(b => ({ id: b.id, name: b.page_title || b.url, group: 'node' })) : [
+    const nodes = bookmarks.length > 0 ? bookmarks.slice(0, 100).map(b => ({ id: b.id, name: b.page_title || b.url, group: b.is_duplicate ? 'duplicate' : 'node' })) : [
       { id: 'root', name: 'CORE_INTELLIGENCE', group: 'root' },
       ...Array.from({ length: 12 }).map((_, i) => ({ id: i, name: `CLUSTER_${i}`, group: 'cluster' }))
     ];
 
-    const links = nodes.slice(1).map(n => ({ source: 'root', target: n.id }));
+    const links = bookmarks.length > 0 ? [] : nodes.slice(1).map(n => ({ source: 'root', target: n.id }));
+
+    // If we have real bookmarks, let's cluster them by domain
+    if (bookmarks.length > 0) {
+      const domains: Record<string, string[]> = {};
+      nodes.forEach((n: any) => {
+        try {
+          const url = new URL(n.name.startsWith('http') ? n.name : `https://${n.name}`);
+          const domain = url.hostname.replace('www.', '');
+          if (!domains[domain]) domains[domain] = [];
+          domains[domain].push(n.id);
+        } catch(e) {}
+      });
+
+      Object.entries(domains).forEach(([domain, ids]) => {
+        const rootId = `domain-${domain}`;
+        nodes.push({ id: rootId, name: domain.toUpperCase(), group: 'domain' } as any);
+        ids.forEach(id => links.push({ source: rootId, target: id } as any));
+      });
+    }
 
     const simulation = d3.forceSimulation(nodes as any)
-      .force("link", d3.forceLink(links).id((d: any) => d.id).distance(120))
-      .force("charge", d3.forceManyBody().strength(-200))
+      .force("link", d3.forceLink(links).id((d: any) => d.id).distance((d: any) => d.target.group === 'domain' ? 150 : 80))
+      .force("charge", d3.forceManyBody().strength((d: any) => d.group === 'domain' ? -500 : -100))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(30));
+      .force("collision", d3.forceCollide().radius(20));
 
     const g = svg.append("g");
 
@@ -142,8 +193,8 @@ const ForceGraph = ({ bookmarks = [] }) => {
       );
 
     node.append("circle")
-      .attr("r", (d: any) => d.group === 'root' ? 12 : 6)
-      .attr("fill", (d: any) => d.group === 'root' ? "#3b82f6" : "#8b5cf6")
+      .attr("r", (d: any) => d.group === 'root' ? 12 : d.group === 'domain' ? 8 : 4)
+      .attr("fill", (d: any) => d.group === 'root' ? "#3b82f6" : d.group === 'domain' ? "#8b5cf6" : d.group === 'duplicate' ? "#f59e0b" : "#34d399")
       .attr("filter", "url(#glow)")
       .attr("stroke", "#020617")
       .attr("stroke-width", 2);
@@ -152,8 +203,8 @@ const ForceGraph = ({ bookmarks = [] }) => {
       .text((d: any) => d.name)
       .attr("x", 12)
       .attr("y", 4)
-      .attr("fill", "#64748b")
-      .attr("font-size", "8px")
+      .attr("fill", (d: any) => d.group === 'domain' ? "#8b5cf6" : "#64748b")
+      .attr("font-size", (d: any) => d.group === 'domain' ? "10px" : "7px")
       .attr("font-weight", "900")
       .attr("class", "uppercase tracking-tighter pointer-events-none select-none")
 
@@ -283,6 +334,27 @@ function App() {
                          <IntelStat label="PROCESSED_NODES" value={workerStatus?.done} color="green" />
                          <IntelStat label="DUPLICATE_SIG" value={stats?.duplicates} color="yellow" />
                       </div>
+                      
+                      <div className="mt-8 pt-8 border-t border-white/5 space-y-3">
+                         <button 
+                           onClick={() => axios.post('/api/research/start')}
+                           className="w-full py-2 bg-green-500/10 border border-green-500/20 text-green-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-green-500/20 transition-all"
+                         >
+                           {workerStatus?.running ? 'ENGINE_ONLINE' : 'INITIATE_RESEARCH'}
+                         </button>
+                         <button 
+                           onClick={() => axios.post('/api/research/stop')}
+                           className="w-full py-2 bg-red-500/10 border border-red-500/20 text-red-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-red-500/20 transition-all"
+                         >
+                           SUSPEND_OPERATIONS
+                         </button>
+                         <button 
+                           onClick={() => axios.post('/api/bookmarks/deduplicate')}
+                           className="w-full py-2 bg-yellow-500/10 border border-yellow-500/20 text-yellow-500 rounded-lg text-[8px] font-black tracking-widest uppercase hover:bg-yellow-500/20 transition-all"
+                         >
+                           PURGE_DUPLICATES
+                         </button>
+                      </div>
                    </NeonCard>
 
                    <NeonCard title="CORE_STATUS" icon={Cpu}>
@@ -304,10 +376,14 @@ function App() {
                 </div>
 
                 {/* Center Column - Visual Map */}
-                <div className="col-span-6">
-                   <NeonCard title="TOPOLOGICAL_MAP" icon={Globe} className="h-full">
+                <div className="col-span-6 flex flex-col gap-8">
+                   <NeonCard title="TOPOLOGICAL_MAP" icon={Globe} className="flex-1 min-h-[500px]">
                       <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(#1e293b_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                      <ForceGraph />
+                      <ForceGraph bookmarks={bookmarksData?.bookmarks || []} />
+                   </NeonCard>
+                   
+                   <NeonCard title="COGNITIVE_CLOUD" icon={TagIcon}>
+                      <TagCloud bookmarks={bookmarksData?.bookmarks || []} />
                    </NeonCard>
                 </div>
 
