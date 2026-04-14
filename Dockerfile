@@ -12,7 +12,7 @@ WORKDIR /app
 COPY backend/go.mod backend/go.sum ./backend/
 RUN cd backend && go mod download
 COPY backend/ ./backend/
-RUN cd backend && go build -o /bobby-backend ./main.go
+RUN cd backend && go build -o /bobby-backend ./cmd/api/main.go
 
 # Stage 3: Final runtime image
 FROM alpine:latest
