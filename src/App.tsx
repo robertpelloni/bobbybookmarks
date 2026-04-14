@@ -368,6 +368,12 @@ function App() {
                      placeholder="AWAITING_INPUT_STREAM_PACKETS..."
                    />
                    <div className="absolute bottom-10 right-10 flex gap-4">
+                      <button 
+                        onClick={() => window.location.href = '/api/database/download'}
+                        className="px-8 py-4 bg-purple-600/20 hover:bg-purple-600/40 border border-purple-500/30 text-purple-400 rounded-xl font-black text-[10px] tracking-[0.3em] uppercase transition-all flex items-center gap-4 active:scale-95"
+                      >
+                         <Database size={18} /> BACKUP_DB
+                      </button>
                       <button className="px-12 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-black text-[10px] tracking-[0.3em] uppercase transition-all shadow-[0_0_30px_rgba(37,99,235,0.3)] flex items-center gap-4 active:scale-95">
                          <Crosshair size={18} /> INITIATE_TRANSFER
                       </button>
