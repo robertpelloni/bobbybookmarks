@@ -16,6 +16,14 @@ func main() {
 
 	api.RegisterRoutes(app)
 
+	// Serve static files from the 'dist' directory
+	app.Static("/", "./dist")
+
+	// Catch-all route to serve index.html for SPA (React Router)
+	app.Get("/*", func(c *fiber.Ctx) error {
+		return c.SendFile("./dist/index.html")
+	})
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "5000"
