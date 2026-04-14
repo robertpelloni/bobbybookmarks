@@ -11,6 +11,7 @@ import (
 
 func main() {
 	database.InitDB()
+	database.EnsureSchema()
 	app := fiber.New()
 	app.Use(cors.New())
 
