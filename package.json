@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node build.cjs",
+    "build": "node build-render.js",
     "preview": "vite preview"
   },
   "dependencies": {
