@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "node build-render.cjs",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
