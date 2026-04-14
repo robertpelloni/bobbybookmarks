@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install
 COPY . .
-RUN npm run build || ./node_modules/.bin/vite build
+RUN npm run build
 
 # Stage 2: Build the Go backend
 FROM golang:1.22-alpine AS backend-builder
