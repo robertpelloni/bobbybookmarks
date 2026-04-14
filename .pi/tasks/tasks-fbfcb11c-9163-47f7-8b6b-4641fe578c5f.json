@@ -1,5 +1,5 @@
 {
-  "nextId": 51,
+  "nextId": 54,
   "tasks": [
     {
       "id": "3",
@@ -569,13 +569,48 @@
       "id": "50",
       "subject": "Debug UI Mismatch and Force Clean Bundle Rebuild",
       "description": "The user sees the new title 'BOBBYINTEL' but the page content is still the old 'BobbyBookmarks TS' UI. This indicates that while the 'index.html' was updated and served correctly, the 'App.tsx' (and thus the bundled JS) was either not rebuilt, built from an old cached source, or there is a mismatch in the Vite entry point. I will: 1. Verify the content of 'src/App.tsx' matches the new Kinetic HUD. 2. Verify 'index.html' points to the correct entry point ('/src/main.tsx'). 3. Inspect 'src/main.tsx' to ensure it imports 'App.tsx'. 4. Update the build script to be even more aggressive in cleaning the 'dist' folder. 5. Trigger a final 'forced-no-cache' commit.",
-      "status": "in_progress",
+      "status": "completed",
       "activeForm": "Analyzing the current 'dist' folder and source 'App.tsx' mismatch...",
       "metadata": {},
       "blocks": [],
       "blockedBy": [],
       "createdAt": 1776133389121,
-      "updatedAt": 1776133390845
+      "updatedAt": 1776133434085
+    },
+    {
+      "id": "51",
+      "subject": "Add UI Button for Database Download",
+      "description": "Review the current 'TERMINAL' or 'MAINTENANCE' view in the React frontend and ensure a 'BACKUP' or 'DOWNLOAD DB' button is visible and correctly wired to the '/api/database/download' endpoint.",
+      "status": "completed",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1776133792391,
+      "updatedAt": 1776133804998
+    },
+    {
+      "id": "52",
+      "subject": "Reintegrate Legacy Analytics and Tools into Kinetic HUD",
+      "description": "The user wants to bring back all the data visualizations (cluster/grouping/tag cloud), the import/export functionality, and the activity views from the previous dashboard into the new 'BobbyIntel' Kinetic HUD. \n\nI will:\n1.  Read the 'archive' or previous 'App.tsx' versions to retrieve the D3/Recharts logic for clustering and tag clouds.\n2.  Expand the 'INTEL' view with a new 'DATA_CLUSTERS' and 'TAG_ANALYSIS' section.\n3.  Add the 'IMPORT/EXPORT' and 'ACTIVITY_LOG' views to the main navigation.\n4.  Ensure all buttons (Deduplicate, Start/Stop Research) are correctly wired to the Go backend.\n5.  Implement a more robust 'Activity' feed that pulls from actual database events if possible.",
+      "status": "in_progress",
+      "activeForm": "Reintegrating legacy data visualizations and activity tools into the Kinetic HUD...",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1776140760911,
+      "updatedAt": 1776177835539
+    },
+    {
+      "id": "53",
+      "subject": "Remove GCC/CGO Dependency by Switching to Pure-Go SQLite Driver",
+      "description": "The current Go/SQLite driver (mattn/go-sqlite3) requires CGO and a GCC compiler, which is causing persistent build failures in the local Windows environment. I will switch the project to 'modernc.org/sqlite', a pure-Go SQLite driver that does not require CGO or a C compiler, ensuring the backend can run stably on any system.",
+      "status": "in_progress",
+      "activeForm": "Switching to a modern, pure-Go SQLite driver...",
+      "metadata": {},
+      "blocks": [],
+      "blockedBy": [],
+      "createdAt": 1776179050435,
+      "updatedAt": 1776179052321
     }
   ]
 }
