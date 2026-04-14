@@ -1,6 +1,7 @@
 package database
 
 import (
+	"log"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/mattn/go-sqlite3"
 )
@@ -10,18 +11,23 @@ var ArchiveDB *sqlx.DB
 
 func InitDB() {
 	var err error
+	log.Println("Attempting to connect to database at /data/bookmarks.db...")
 	DB, err = sqlx.Connect("sqlite3", "/data/bookmarks.db")
 	if err != nil {
-		DB, err = sqlx.Connect("sqlite3", "bookmarks.db") // fallback to local
+		log.Printf("Failed to connect to /data/bookmarks.db: %v. Falling back to local bookmarks.db...", err)
+		DB, err = sqlx.Connect("sqlite3", "bookmarks.db")
 		if err != nil {
-			panic("Failed to connect to database: " + err.Error())
+			log.Fatalf("CRITICAL: Failed to connect to any database: %v", err)
 		}
 	}
+	log.Println("Successfully connected to main database.")
 
+	log.Println("Attempting to connect to archive database...")
 	ArchiveDB, err = sqlx.Connect("sqlite3", "/data/bookmarks_archive.db")
 	if err != nil {
-		ArchiveDB, _ = sqlx.Connect("sqlite3", "bookmarks_archive.db") // fallback to local
+		ArchiveDB, _ = sqlx.Connect("sqlite3", "bookmarks_archive.db")
 	}
+	log.Println("Database initialization complete.")
 }
 
 func EnsureSchema() {
