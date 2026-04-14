@@ -109,7 +109,7 @@ const TagCloud = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
 
 // --- D3 FORCE GRAPH COMPONENT ---
 
-const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
+const ForceGraph = ({ nodes = [], links = [] }: { nodes: any[], links: any[] }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -125,37 +125,13 @@ const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
 
     svg.selectAll("*").remove();
 
-    const nodes: any[] = bookmarks.length > 0 ? bookmarks.slice(0, 100).map(b => ({ id: b.id, name: b.page_title || b.url, group: b.is_duplicate ? 'duplicate' : 'node' })) : [
-      { id: 'root', name: 'CORE_INTELLIGENCE', group: 'root' },
-      ...Array.from({ length: 12 }).map((_, i) => ({ id: i, name: `CLUSTER_${i}`, group: 'cluster' }))
-    ];
-
-    const links: any[] = bookmarks.length > 0 ? [] : nodes.slice(1).map(n => ({ source: 'root', target: n.id }));
-
-    if (bookmarks.length > 0) {
-      const domains: Record<string, string[]> = {};
-      nodes.forEach((n: any) => {
-        try {
-          const urlStr = n.name.startsWith('http') ? n.name : `https://${n.name}`;
-          const url = new URL(urlStr);
-          const domain = url.hostname.replace('www.', '');
-          if (!domains[domain]) domains[domain] = [];
-          domains[domain].push(n.id);
-        } catch(e) {}
-      });
-
-      Object.entries(domains).forEach(([domain, ids]) => {
-        const rootId = `domain-${domain}`;
-        nodes.push({ id: rootId, name: domain.toUpperCase(), group: 'domain' } as any);
-        ids.forEach(id => links.push({ source: rootId, target: id } as any));
-      });
-    }
+    if (nodes.length === 0) return;
 
     const simulation = d3.forceSimulation(nodes as any)
-      .force("link", d3.forceLink(links).id((d: any) => d.id).distance((d: any) => d.target.group === 'domain' ? 150 : 80))
-      .force("charge", d3.forceManyBody().strength((d: any) => d.group === 'domain' ? -500 : -100))
+      .force("link", d3.forceLink(links).id((d: any) => d.id).distance((d: any) => d.target.group === 'cluster' ? 80 : 40))
+      .force("charge", d3.forceManyBody().strength(-100))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius(20));
+      .force("collision", d3.forceCollide().radius(15));
 
     const g = svg.append("g");
 
@@ -193,8 +169,8 @@ const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
       );
 
     node.append("circle")
-      .attr("r", (d: any) => d.group === 'root' ? 12 : d.group === 'domain' ? 8 : 4)
-      .attr("fill", (d: any) => d.group === 'root' ? "#3b82f6" : d.group === 'domain' ? "#8b5cf6" : d.group === 'duplicate' ? "#f59e0b" : "#34d399")
+      .attr("r", (d: any) => d.group === 'root' ? 12 : d.group === 'cluster' ? 8 : 4)
+      .attr("fill", (d: any) => d.group === 'root' ? "#3b82f6" : d.group === 'cluster' ? "#8b5cf6" : d.group === 'duplicate' ? "#f59e0b" : "#34d399")
       .attr("filter", "url(#glow)")
       .attr("stroke", "#020617")
       .attr("stroke-width", 2);
@@ -203,8 +179,8 @@ const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
       .text((d: any) => d.name)
       .attr("x", 12)
       .attr("y", 4)
-      .attr("fill", (d: any) => d.group === 'domain' ? "#8b5cf6" : "#64748b")
-      .attr("font-size", (d: any) => d.group === 'domain' ? "10px" : "7px")
+      .attr("fill", (d: any) => d.group === 'cluster' ? "#8b5cf6" : "#64748b")
+      .attr("font-size", (d: any) => d.group === 'cluster' ? "10px" : "7px")
       .attr("font-weight", "900")
       .attr("class", "uppercase tracking-tighter pointer-events-none select-none");
 
@@ -225,7 +201,7 @@ const ForceGraph = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
       .on("zoom", (event) => g.attr("transform", event.transform))
     );
 
-  }, [bookmarks]);
+  }, [nodes, links]);
 
   return (
     <div ref={containerRef} className="w-full h-full relative">
@@ -287,9 +263,15 @@ function App() {
     queryFn: () => axios.get('/api/bookmarks', { params: { q: searchTerm, limit: view === 'intel' ? 100 : 200 } }).then(res => res.data),
   });
 
-  const { data: recentActivity } = useQuery<Bookmark[]>({
-    queryKey: ['recentActivity'],
-    queryFn: () => axios.get('/api/bookmarks', { params: { limit: 50, sort: 'created_at', order: 'desc' } }).then(res => res.data.bookmarks),
+  const { data: graphData } = useQuery<{ nodes: any[], links: any[] }>({
+    queryKey: ['analytics/graph'],
+    queryFn: () => axios.get('/api/analytics/graph').then(res => res.data),
+    refetchInterval: 60000,
+  });
+
+  const { data: liveFeed } = useQuery<Bookmark[]>({
+    queryKey: ['live-feed'],
+    queryFn: () => axios.get('/api/live-feed').then(res => res.data),
     refetchInterval: 5000,
   });
 
@@ -432,7 +414,7 @@ function App() {
                 <div className="col-span-6 flex flex-col gap-8">
                    <NeonCard title="TOPOLOGICAL_MAP" icon={Globe} className="flex-1 min-h-[500px]">
                       <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(#1e293b_1px,transparent_1px)] bg-[size:20px_20px]"></div>
-                      <ForceGraph bookmarks={bookmarksData?.bookmarks || []} />
+                      <ForceGraph nodes={graphData?.nodes || []} links={graphData?.links || []} />
                    </NeonCard>
                    
                    <NeonCard title="COGNITIVE_CLOUD" icon={TagIcon}>
@@ -444,15 +426,15 @@ function App() {
                 <div className="col-span-3 flex flex-col h-full">
                    <NeonCard title="REALTIME_STREAM" icon={Activity} className="h-full">
                       <div className="space-y-4 font-mono">
-                         {(recentActivity || []).slice(0, 10).map((log, i) => (
+                         {(liveFeed || []).slice(0, 15).map((log, i) => (
                            <div key={log.id} className="flex gap-4 border-l border-white/5 pl-4 py-1 group cursor-default">
-                              <span className="text-[9px] text-slate-700 font-bold">{new Date(log.created_at || Date.now()).toLocaleTimeString()}</span>
+                              <span className="text-[9px] text-slate-700 font-bold">{new Date(log.imported_at || Date.now()).toLocaleTimeString()}</span>
                               <span className={`text-[9px] font-black ${log.research_status === 'done' ? 'text-green-500/80' : 'text-blue-500/80'} tracking-tighter uppercase group-hover:text-white transition-colors truncate`}>
                                 {log.research_status === 'done' ? 'STABLE' : 'PENDING'}: {log.page_title || log.url}
                               </span>
                            </div>
                          ))}
-                         {(!recentActivity || recentActivity.length === 0) && (
+                         {(!liveFeed || liveFeed.length === 0) && (
                            <div className="text-[9px] font-black text-slate-700 uppercase tracking-widest text-center mt-20 italic">AWAITING_DATA_STREAM...</div>
                          )}
                       </div>
@@ -574,7 +556,7 @@ function App() {
                className="flex-1 flex flex-col gap-8 overflow-y-auto max-h-[80vh] pr-4 custom-scrollbar"
              >
                 <div className="space-y-4 max-w-5xl mx-auto w-full pb-20">
-                  {(recentActivity || []).map((log) => (
+                  {(liveFeed || []).map((log) => (
                     <div key={log.id} className="flex items-center gap-6 p-4 bg-white/[0.02] border border-white/5 rounded-xl hover:bg-white/[0.05] transition-all group">
                        <div className={`p-2 rounded-lg ${log.research_status === 'done' ? 'bg-green-500/10 text-green-400' : 'bg-blue-500/10 text-blue-400'} border border-white/5`}>
                           <Fingerprint size={16} />
@@ -582,7 +564,7 @@ function App() {
                        <div className="flex-1">
                           <div className="flex items-center justify-between mb-1">
                              <span className="text-[10px] font-black text-white tracking-widest uppercase truncate max-w-xl">{log.page_title || log.url}</span>
-                             <span className="text-[8px] font-black text-slate-600 uppercase tracking-widest">{new Date(log.created_at || Date.now()).toLocaleString()}</span>
+                             <span className="text-[8px] font-black text-slate-600 uppercase tracking-widest">{new Date(log.imported_at || Date.now()).toLocaleString()}</span>
                           </div>
                           <div className="text-[9px] text-slate-500 font-bold uppercase truncate max-w-2xl italic tracking-tighter">{log.url}</div>
                        </div>

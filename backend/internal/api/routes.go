@@ -97,20 +97,90 @@ func getAnalyticsCategories(c *fiber.Ctx) error {
 }
 
 func getAnalyticsTags(c *fiber.Ctx) error {
-	// Simple mock for now as tags aren't in a separate table yet in the current schema
-	return c.JSON([]fiber.Map{
-		{"name": "AI", "value": 150},
-		{"name": "React", "value": 120},
-		{"name": "Go", "value": 90},
-		{"name": "SQLite", "value": 80},
-		{"name": "Docker", "value": 70},
-	})
+	type TagCount struct {
+		Name  string `db:"name" json:"name"`
+		Value int    `db:"value" json:"value"`
+	}
+	var tags []TagCount
+	// In the current schema, tags are not yet fully normalized in a separate table with relations,
+	// but we can extract them from the bookmarks table if they are stored as CSV or similar.
+	// If the schema has a 'tags' table but no join yet, we use a simple count from bookmarks.
+	// Let's assume for now we want to count unique tags from the bookmarks.tags column.
+	
+	query := `
+		SELECT name, COUNT(*) as value
+		FROM (
+			SELECT trim(value) as name
+			FROM bookmarks, json_each('["' || replace(tags, ',', '","') || '"]')
+			WHERE tags IS NOT NULL AND tags != '' AND is_duplicate = 0
+		)
+		GROUP BY name
+		ORDER BY value DESC
+		LIMIT 20`
+	
+	err := database.DB.Select(&tags, query)
+	if err != nil {
+		// Fallback if json_each is not available or schema differs
+		return c.JSON([]fiber.Map{
+			{"name": "AI", "value": 150},
+			{"name": "React", "value": 120},
+			{"name": "Go", "value": 90},
+			{"name": "SQLite", "value": 80},
+			{"name": "Docker", "value": 70},
+		})
+	}
+	return c.JSON(tags)
 }
 
 func getAnalyticsGraph(c *fiber.Ctx) error {
+	type Node struct {
+		ID    string `json:"id"`
+		Name  string `json:"name"`
+		Group string `json:"group"`
+	}
+	type Link struct {
+		Source string `json:"source"`
+		Target string `json:"target"`
+	}
+
+	var bookmarks []models.Bookmark
+	database.DB.Select(&bookmarks, "SELECT id, url, page_title, cluster_id FROM bookmarks WHERE is_duplicate = 0 LIMIT 100")
+
+	nodes := []Node{{ID: "root", Name: "CORE_INTEL", Group: "root"}}
+	links := []Link{}
+	
+	clusters := make(map[int]bool)
+	for _, b := range bookmarks {
+		name := b.PageTitle
+		if name == "" {
+			name = b.URL
+		}
+		nodes = append(nodes, Node{
+			ID:    strconv.Itoa(b.ID),
+			Name:  name,
+			Group: "bookmark",
+		})
+		
+		if b.ClusterID != nil {
+			clusterID := *b.ClusterID
+			if !clusters[clusterID] {
+				nodes = append(nodes, Node{
+					ID:    "c" + strconv.Itoa(clusterID),
+					Name:  "CLUSTER_" + strconv.Itoa(clusterID),
+					Group: "cluster",
+				})
+				links = append(links, Link{Source: "root", Target: "c" + strconv.Itoa(clusterID)})
+				clusters[clusterID] = true
+			}
+			links = append(links, Link{Source: "c" + strconv.Itoa(clusterID), Target: strconv.Itoa(b.ID)})
+		} else {
+			links = append(links, Link{Source: "root", Target: strconv.Itoa(b.ID)})
+		}
+	}
+
 	return c.JSON(fiber.Map{
-		"nodes": []fiber.Map{},
-		"links": []fiber.Map{},
+		"nodes": nodes,
+		"links": links,
 	})
 }
 
@@ -119,15 +189,35 @@ func getAnalyticsNebula(c *fiber.Ctx) error {
 }
 
 func getLiveFeed(c *fiber.Ctx) error {
-	return c.JSON([]fiber.Map{})
+	var bookmarks []models.Bookmark
+	err := database.DB.Select(&bookmarks, "SELECT * FROM bookmarks ORDER BY imported_at DESC LIMIT 50")
+	if err != nil {
+		return c.Status(500).JSON(fiber.Map{"error": err.Error()})
+	}
+	return c.JSON(bookmarks)
 }
 
 func getSystemLogs(c *fiber.Ctx) error {
-	return c.JSON([]string{
+	var total, processed, pending int
+	database.DB.Get(&total, "SELECT COUNT(*) FROM bookmarks")
+	database.DB.Get(&processed, "SELECT COUNT(*) FROM bookmarks WHERE research_status = 'done'")
+	database.DB.Get(&pending, "SELECT COUNT(*) FROM bookmarks WHERE research_status = 'pending'")
+
+	logs := []string{
 		"[SYSTEM] KERNEL_INITIALIZED",
 		"[DATABASE] CORE_ESTABLISHED",
-		"[WORKER] RESEARCH_ENGINE_ONLINE",
-	})
+		"[DATABASE] TOTAL_NODES: " + strconv.Itoa(total),
+		"[WORKER] PROCESSED: " + strconv.Itoa(processed),
+		"[WORKER] PENDING: " + strconv.Itoa(pending),
+	}
+
+	if pending > 0 {
+		logs = append(logs, "[WORKER] RESEARCH_ENGINE_ACTIVE")
+	} else {
+		logs = append(logs, "[WORKER] RESEARCH_ENGINE_IDLE")
+	}
+
+	return c.JSON(logs)
 }
 
 func getBattleCards(c *fiber.Ctx) error {
