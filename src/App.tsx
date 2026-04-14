@@ -124,16 +124,21 @@ const TagCloud = ({ bookmarks = [] }: { bookmarks: Bookmark[] }) => {
   }, [bookmarks]);
 
   return (
-    <div className="flex flex-wrap gap-2">
+    <div className="flex flex-wrap gap-2.5">
       {tags.map(([tag, count]) => (
         <motion.span 
           key={tag}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          whileHover={{ scale: 1.1, color: '#3b82f6' }}
-          className="px-2 py-1 rounded bg-white/5 border border-white/5 text-[8px] font-black tracking-widest text-slate-500 cursor-pointer transition-colors"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          whileHover={{ 
+            scale: 1.05, 
+            backgroundColor: 'rgba(34, 211, 238, 0.15)',
+            borderColor: 'rgba(34, 211, 238, 0.4)',
+            color: '#22d3ee'
+          }}
+          className="px-3 py-1.5 rounded-lg bg-[#0a1224] border border-white/5 text-[9px] font-black tracking-[0.15em] text-slate-400 cursor-pointer transition-all duration-300 shadow-sm"
         >
-          {tag} <span className="text-blue-500/40 ml-1">{count}</span>
+          {tag} <span className="text-cyan-500/50 ml-1.5 font-mono">[{count}]</span>
         </motion.span>
       ))}
     </div>
@@ -202,20 +207,20 @@ const ForceGraph = ({ nodes = [], links = [] }: { nodes: any[], links: any[] }) 
       );
 
     node.append("circle")
-      .attr("r", (d: any) => d.group === 'root' ? 12 : d.group === 'cluster' ? 8 : 4)
-      .attr("fill", (d: any) => d.group === 'root' ? "#3b82f6" : d.group === 'cluster' ? "#8b5cf6" : d.group === 'duplicate' ? "#f59e0b" : "#34d399")
+      .attr("r", (d: any) => d.group === 'root' ? 14 : d.group === 'cluster' ? 10 : 5)
+      .attr("fill", (d: any) => d.group === 'root' ? "#06b6d4" : d.group === 'cluster' ? "#d946ef" : d.group === 'duplicate' ? "#f59e0b" : "#10b981")
       .attr("filter", "url(#glow)")
       .attr("stroke", "#020617")
-      .attr("stroke-width", 2);
+      .attr("stroke-width", 2.5);
 
     node.append("text")
       .text((d: any) => d.name)
-      .attr("x", 12)
-      .attr("y", 4)
-      .attr("fill", (d: any) => d.group === 'cluster' ? "#8b5cf6" : "#64748b")
-      .attr("font-size", (d: any) => d.group === 'cluster' ? "10px" : "7px")
+      .attr("x", 15)
+      .attr("y", 5)
+      .attr("fill", (d: any) => d.group === 'cluster' ? "#d946ef" : "#94a3b8")
+      .attr("font-size", (d: any) => d.group === 'cluster' ? "11px" : "8px")
       .attr("font-weight", "900")
-      .attr("class", "uppercase tracking-tighter pointer-events-none select-none");
+      .attr("class", "uppercase tracking-[0.1em] pointer-events-none select-none italic");
 
     simulation.on("tick", () => {
       link
@@ -465,12 +470,15 @@ function App() {
 
                 {/* Center Column - Visual Map */}
                 <div className="col-span-6 flex flex-col gap-8">
-                   <NeonCard title="TOPOLOGICAL_MAP" icon={Globe} className="flex-1 min-h-[500px]">
-                      <div className="absolute inset-0 z-0 opacity-20 bg-[radial-gradient(#1e293b_1px,transparent_1px)] bg-[size:20px_20px]"></div>
+                   <NeonCard title="TOPOLOGICAL_MAP" icon={Globe} className="flex-1 min-h-[500px]" color="purple">
+                      <div className="absolute inset-0 z-0 opacity-[0.03] bg-[radial-gradient(#22d3ee_1px,transparent_1px)] bg-[size:30px_30px]"></div>
                       <ForceGraph nodes={graphData?.nodes || []} links={graphData?.links || []} />
                    </NeonCard>
                    
-                   <NeonCard title="COGNITIVE_CLOUD" icon={TagIcon}>
+                   <NeonCard title="COGNITIVE_CLOUD" icon={TagIcon} color="blue">
+                      <div className="absolute top-0 right-0 p-4 opacity-10">
+                         <Sparkles size={40} className="text-cyan-500" />
+                      </div>
                       <TagCloud bookmarks={bookmarksData?.bookmarks || []} />
                    </NeonCard>
                 </div>
@@ -574,22 +582,27 @@ function App() {
                exit={{ opacity: 0, scale: 1.05 }}
                className="flex-1 flex flex-col gap-8 overflow-y-auto max-h-[80vh] pr-4 custom-scrollbar"
              >
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 pb-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 pb-24">
                   {(bookmarksData?.bookmarks || []).map((bm: Bookmark) => (
-                    <NeonCard key={bm.id} title={bm.is_duplicate ? "DUPLICATE_SIG" : "KNOWLEDGE_NODE"} icon={bm.is_duplicate ? Shield : Box} className="h-fit">
-                      <div className="space-y-4">
-                        <h4 className="text-[10px] font-black text-white leading-tight uppercase tracking-[0.1em] line-clamp-2">{bm.page_title || bm.url}</h4>
-                        <p className="text-[9px] text-slate-500 font-bold leading-relaxed line-clamp-3 italic uppercase tracking-tighter">{bm.page_description || 'NO_METADATA_EXTRACTED_YET'}</p>
-                        <div className="flex items-center justify-between pt-2 border-t border-white/5">
-                          <span className={`text-[8px] font-black px-2 py-0.5 rounded border ${bm.research_status === 'done' ? 'bg-green-500/10 text-green-500 border-green-500/20' : 'bg-blue-500/10 text-blue-500 border-blue-500/20'} uppercase tracking-widest`}>
+                    <NeonCard key={bm.id} title={bm.is_duplicate ? "DUPLICATE_SIG" : "KNOWLEDGE_NODE"} icon={bm.is_duplicate ? Shield : Box} className="h-fit group" color={bm.is_duplicate ? "red" : "blue"}>
+                      <div className="space-y-5">
+                        <div className="relative">
+                          <h4 className="text-[11px] font-black text-white leading-tight uppercase tracking-[0.15em] line-clamp-2 group-hover:text-cyan-400 transition-colors">{bm.page_title || bm.url}</h4>
+                          <div className="absolute -left-5 top-0 w-1 h-full bg-cyan-500/0 group-hover:bg-cyan-500/40 transition-all rounded-full" />
+                        </div>
+                        <p className="text-[10px] text-slate-400 font-bold leading-relaxed line-clamp-3 italic uppercase tracking-tight opacity-70 group-hover:opacity-100 transition-opacity">
+                          {bm.page_description || 'NO_METADATA_EXTRACTED_YET'}
+                        </p>
+                        <div className="flex items-center justify-between pt-4 border-t border-white/5">
+                          <span className={`text-[8px] font-black px-2.5 py-1 rounded-md border ${bm.research_status === 'done' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' : 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20'} uppercase tracking-[0.2em] shadow-sm`}>
                             {bm.research_status}
                           </span>
-                          <div className="flex gap-3">
-                             <a href={bm.url} target="_blank" rel="noreferrer" className="text-slate-500 hover:text-blue-400 transition-colors">
-                                <Globe size={14} />
+                          <div className="flex gap-4">
+                             <a href={bm.url} target="_blank" rel="noreferrer" className="text-slate-500 hover:text-cyan-400 transition-all hover:scale-110">
+                                <Globe size={16} />
                              </a>
-                             <button className="text-slate-500 hover:text-white transition-colors">
-                                <ArrowRight size={14} />
+                             <button className="text-slate-500 hover:text-white transition-all hover:scale-110">
+                                <ArrowRight size={16} />
                              </button>
                           </div>
                         </div>
