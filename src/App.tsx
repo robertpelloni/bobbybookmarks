@@ -242,8 +242,38 @@ function App() {
 
   const { data: stats } = useQuery<Stats>({
     queryKey: ['stats'],
-    queryFn: () => axios.get('/api/stats').then(res => res.data),
+    queryFn: () => axios.get('/api/analytics/summary').then(res => res.data),
     refetchInterval: 10000,
+  });
+
+  const { data: timeline } = useQuery<any[]>({
+    queryKey: ['analytics/timeline'],
+    queryFn: () => axios.get('/api/analytics/timeline').then(res => res.data),
+    refetchInterval: 30000,
+  });
+
+  const { data: categories } = useQuery<any[]>({
+    queryKey: ['analytics/categories'],
+    queryFn: () => axios.get('/api/analytics/categories').then(res => res.data),
+    refetchInterval: 30000,
+  });
+
+  const { data: tagsData } = useQuery<any[]>({
+    queryKey: ['analytics/tags'],
+    queryFn: () => axios.get('/api/analytics/tags').then(res => res.data),
+    refetchInterval: 30000,
+  });
+
+  const { data: systemLogs } = useQuery<string[]>({
+    queryKey: ['system/logs'],
+    queryFn: () => axios.get('/api/system/logs').then(res => res.data),
+    refetchInterval: 5000,
+  });
+
+  const { data: battleCards } = useQuery<any[]>({
+    queryKey: ['battle-cards'],
+    queryFn: () => axios.get('/api/battle-cards').then(res => res.data),
+    refetchInterval: 60000,
   });
 
   const { data: workerStatus } = useQuery<WorkerStatus>({
@@ -578,15 +608,18 @@ function App() {
                 <div className="col-span-8 space-y-8">
                    <NeonCard title="HARVEST_VELOCITY" icon={Activity}>
                       <div className="h-64 flex items-end gap-2 px-2">
-                        {Array.from({ length: 30 }).map((_, i) => (
+                        {(timeline || []).slice().reverse().map((day: any, i: number) => (
                           <div key={i} className="flex-1 flex flex-col justify-end gap-1 group">
-                             <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[7px] text-blue-400 text-center mb-1">{Math.floor(Math.random() * 100)}</div>
+                             <div className="opacity-0 group-hover:opacity-100 transition-opacity text-[7px] text-blue-400 text-center mb-1">{day.count}</div>
                              <motion.div 
                                initial={{ height: 0 }}
-                               animate={{ height: `${Math.random() * 80 + 10}%` }}
+                               animate={{ height: `${Math.min(100, (day.count / (stats?.total || 1)) * 1000)}%` }}
                                className="bg-blue-500/20 group-hover:bg-blue-500/40 border-t border-blue-500/50 rounded-t-sm transition-all"
                              />
                           </div>
+                        ))}
+                        {(!timeline || timeline.length === 0) && Array.from({ length: 30 }).map((_, i) => (
+                          <div key={i} className="flex-1 bg-white/5 rounded-t-sm h-4 animate-pulse" />
                         ))}
                       </div>
                       <div className="flex justify-between mt-4 text-[7px] font-black text-slate-700 tracking-[0.2em] uppercase">
@@ -603,23 +636,18 @@ function App() {
                                <div className="absolute w-24 h-24 rounded-full border-8 border-purple-500/10 border-b-purple-500 animate-[spin_15s_linear_infinite_reverse]"></div>
                             </div>
                             <div className="text-center z-10">
-                               <span className="block text-xl font-black text-white">14</span>
+                               <span className="block text-xl font-black text-white">{stats?.clusters || 0}</span>
                                <span className="text-[8px] font-black text-slate-500 uppercase tracking-widest">CLUSTERS</span>
                             </div>
                          </div>
                          <div className="mt-4 space-y-2">
-                            {[
-                              { n: 'DEVELOPMENT', v: '34%', c: 'bg-blue-500' },
-                              { n: 'RESEARCH', v: '28%', c: 'bg-purple-500' },
-                              { n: 'SYSTEMS', v: '21%', c: 'bg-green-500' },
-                              { n: 'OTHER', v: '17%', c: 'bg-slate-500' }
-                            ].map(cl => (
-                              <div key={cl.n} className="flex items-center justify-between">
+                            {(categories || []).slice(0, 4).map((cl: any, idx: number) => (
+                              <div key={cl.name} className="flex items-center justify-between">
                                  <div className="flex items-center gap-2">
-                                    <div className={`w-1.5 h-1.5 rounded-full ${cl.c}`}></div>
-                                    <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest">{cl.n}</span>
+                                    <div className={`w-1.5 h-1.5 rounded-full ${['bg-blue-500', 'bg-purple-500', 'bg-green-500', 'bg-yellow-500'][idx % 4]}`}></div>
+                                    <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest truncate max-w-[100px]">{cl.name}</span>
                                  </div>
-                                 <span className="text-[9px] font-black text-white">{cl.v}</span>
+                                 <span className="text-[9px] font-black text-white">{cl.value}</span>
                               </div>
                             ))}
                          </div>
@@ -656,9 +684,9 @@ function App() {
                 <div className="col-span-4 space-y-8">
                    <NeonCard title="TRENDING_SIGS" icon={TagIcon}>
                       <div className="flex flex-wrap gap-2">
-                         {['AI', 'REACT', 'GO', 'SQLITE', 'DOCKER', 'TAILWIND', 'VITE', 'RENDER', 'D3', 'FIBER', 'TYPESCRIPT', 'PYTHON', 'ML', 'LLM', 'AGENT'].map(t => (
-                           <span key={t} className="px-2 py-1 bg-white/5 border border-white/5 rounded text-[8px] font-black text-slate-500 hover:text-blue-400 hover:border-blue-500/30 transition-all cursor-pointer uppercase tracking-widest">
-                              {t}
+                         {(tagsData || []).map((t: any) => (
+                           <span key={t.name} className="px-2 py-1 bg-white/5 border border-white/5 rounded text-[8px] font-black text-slate-500 hover:text-blue-400 hover:border-blue-500/30 transition-all cursor-pointer uppercase tracking-widest">
+                              {t.name} <span className="text-blue-500/40 ml-1">{t.value}</span>
                            </span>
                          ))}
                       </div>
@@ -666,11 +694,7 @@ function App() {
 
                    <NeonCard title="BATTLE_CARDS" icon={Shield}>
                       <div className="space-y-4">
-                         {[
-                           { t: 'ARCHITECTURE_STABILITY', v: '98.2%', s: 'bg-green-500' },
-                           { t: 'INGESTION_EFFICIENCY', v: '84.5%', s: 'bg-blue-500' },
-                           { t: 'DEDUPLICATION_ACCURACY', v: '92.1%', s: 'bg-purple-500' }
-                         ].map(card => (
+                         {(battleCards || []).map(card => (
                            <div key={card.t} className="p-3 bg-white/[0.03] border border-white/5 rounded-xl">
                               <div className="flex items-center justify-between mb-2">
                                  <span className="text-[8px] font-black text-white tracking-widest uppercase">{card.t}</span>
@@ -761,10 +785,9 @@ function App() {
                 <div className="mt-8">
                    <NeonCard title="GLOBAL_SYSTEM_LOGS" icon={Terminal}>
                       <div className="bg-black/40 rounded-xl p-6 font-mono text-[10px] text-green-500/80 space-y-2 max-h-64 overflow-y-auto custom-scrollbar">
-                         <div>[SYSTEM] KERNEL_INITIALIZED_AT_{new Date().toISOString()}</div>
-                         <div>[DATABASE] CORE_ESTABLISHED_SUCCESSFULLY</div>
-                         <div>[WORKER] RESEARCH_ENGINE_ONLINE_IN_DEEP_SCAN_MODE</div>
-                         <div>[NETWORK] HANDSHAKE_NOMINAL_WITH_REMOTE_NODES</div>
+                         {(systemLogs || []).map((log, idx) => (
+                           <div key={idx}>{log}</div>
+                         ))}
                          <div className="animate-pulse">[LISTENING] AWAITING_INCOMING_RESOURCE_PACKETS...</div>
                       </div>
                    </NeonCard>

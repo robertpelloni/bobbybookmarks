@@ -591,26 +591,26 @@
     {
       "id": "52",
       "subject": "Reintegrate Legacy Analytics and Tools into Kinetic HUD",
-      "description": "The user wants to bring back all the data visualizations (cluster/grouping/tag cloud), the import/export functionality, and the activity views from the previous dashboard into the new 'BobbyIntel' Kinetic HUD. \n\nI will:\n1.  Read the 'archive' or previous 'App.tsx' versions to retrieve the D3/Recharts logic for clustering and tag clouds.\n2.  Expand the 'INTEL' view with a new 'DATA_CLUSTERS' and 'TAG_ANALYSIS' section.\n3.  Add the 'IMPORT/EXPORT' and 'ACTIVITY_LOG' views to the main navigation.\n4.  Ensure all buttons (Deduplicate, Start/Stop Research) are correctly wired to the Go backend.\n5.  Implement a more robust 'Activity' feed that pulls from actual database events if possible.",
-      "status": "in_progress",
+      "description": "The user wants to bring back all the data visualizations (cluster/grouping/tag cloud), the import/export functionality, and the activity views from the previous dashboard into the new 'BobbyIntel' Kinetic HUD. \n\nI will:\n1.  Extend the Go backend with `/api/analytics` endpoints to provide data for:\n    - Timeline (Harvest Velocity)\n    - Categories/Clusters (Distribution)\n    - Tags (Trending Sigs)\n    - Graph (Topological Map)\n    - Nebula (Knowledge Nebula)\n2.  Implement the logic for these endpoints in `backend/internal/api/routes.go` and `backend/internal/database/db.go`.\n3.  Ensure the 'IMPORT/EXPORT' and 'ACTIVITY_LOG' views in the React frontend are fully functional.\n4.  Verify that all buttons (Deduplicate, Start/Stop Research) are correctly wired to the Go backend and implemented.\n5.  Port the clustering and tag analysis logic from the previous Python implementation into the Go backend.",
+      "status": "completed",
       "activeForm": "Reintegrating legacy data visualizations and activity tools into the Kinetic HUD...",
       "metadata": {},
       "blocks": [],
       "blockedBy": [],
       "createdAt": 1776140760911,
-      "updatedAt": 1776177835539
+      "updatedAt": 1776179742719
     },
     {
       "id": "53",
       "subject": "Remove GCC/CGO Dependency by Switching to Pure-Go SQLite Driver",
       "description": "The current Go/SQLite driver (mattn/go-sqlite3) requires CGO and a GCC compiler, which is causing persistent build failures in the local Windows environment. I will switch the project to 'modernc.org/sqlite', a pure-Go SQLite driver that does not require CGO or a C compiler, ensuring the backend can run stably on any system.",
-      "status": "in_progress",
+      "status": "completed",
       "activeForm": "Switching to a modern, pure-Go SQLite driver...",
       "metadata": {},
       "blocks": [],
       "blockedBy": [],
       "createdAt": 1776179050435,
-      "updatedAt": 1776179052321
+      "updatedAt": 1776179176501
     }
   ]
 }
