@@ -57,10 +57,10 @@ const NeonCard = ({ children, title, icon: Icon, className = "", onClick, color 
                 {Icon && <div className={`p-1.5 rounded border ${accentMap[color] || accentMap.blue}`}><Icon size={12} /></div>}
                 <h3 className="text-[9px] font-black text-white tracking-[0.3em] uppercase italic group-hover:text-cyan-400 transition-colors">{title}</h3>
              </div>
-             <div className="flex gap-1">
-               <div className={`w-1 h-1 rounded-full animate-pulse ${color === 'red' ? 'bg-red-500' : 'bg-cyan-500'}`}></div>
-               <div className="w-12 h-[2px] bg-white/5 self-center rounded-full overflow-hidden">
-                  <motion.div animate={{ x: [-48, 48] }} transition={{ repeat: Infinity, duration: 2 }} className={`h-full w-full ${color === 'red' ? 'bg-red-500/40' : 'bg-cyan-500/40'}`} />
+             <div className="flex gap-1.5 items-center">
+               <div className={`w-1.5 h-1.5 rounded-full animate-pulse shadow-[0_0_8px_currentColor] ${color === 'red' ? 'bg-rose-500 text-rose-500' : 'bg-cyan-500 text-cyan-500'}`}></div>
+               <div className="w-16 h-[2px] bg-white/5 self-center rounded-full overflow-hidden">
+                  <motion.div animate={{ x: [-64, 64] }} transition={{ repeat: Infinity, duration: 2.5, ease: "linear" }} className={`h-full w-full ${color === 'red' ? 'bg-rose-500/40' : 'bg-cyan-500/40'}`} />
                </div>
              </div>
           </div>
@@ -428,23 +428,26 @@ function App() {
                          <IntelStat label="DUPLICATE_SIG" value={stats?.duplicates} color="yellow" icon={Shield} />
                       </div>
                       
-                      <div className="mt-8 pt-6 border-t border-white/5 space-y-3">
+                      <div className="mt-8 pt-6 border-t border-white/5 space-y-4">
                          <button 
                            onClick={() => axios.post('/api/research/start')}
-                           className="w-full py-3 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-emerald-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(16,185,129,0.1)]"
+                           className="group/btn w-full py-3.5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 rounded-xl text-[10px] font-black tracking-[0.2em] uppercase hover:bg-emerald-500/20 active:scale-[0.98] transition-all shadow-[0_0_15px_rgba(16,185,129,0.05)] flex items-center justify-center gap-3"
                          >
+                           <Activity size={14} className="group-hover/btn:animate-pulse" />
                            {workerStatus?.running ? 'ENGINE_ONLINE' : 'INITIATE_RESEARCH'}
                          </button>
                          <button 
                            onClick={() => axios.post('/api/research/stop')}
-                           className="w-full py-3 bg-rose-500/10 border border-rose-500/20 text-rose-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-rose-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(244,63,94,0.1)]"
+                           className="group/btn w-full py-3.5 bg-rose-500/10 border border-rose-500/20 text-rose-400 rounded-xl text-[10px] font-black tracking-[0.2em] uppercase hover:bg-rose-500/20 active:scale-[0.98] transition-all shadow-[0_0_15px_rgba(244,63,94,0.05)] flex items-center justify-center gap-3"
                          >
+                           <Shield size={14} />
                            SUSPEND_OPERATIONS
                          </button>
                          <button 
                            onClick={() => axios.post('/api/bookmarks/deduplicate')}
-                           className="w-full py-3 bg-amber-500/10 border border-amber-500/20 text-amber-400 rounded-lg text-[9px] font-black tracking-[0.2em] uppercase hover:bg-amber-500/20 active:scale-95 transition-all shadow-[0_0_15px_rgba(245,158,11,0.1)]"
+                           className="group/btn w-full py-3.5 bg-amber-500/10 border border-amber-500/20 text-amber-400 rounded-xl text-[10px] font-black tracking-[0.2em] uppercase hover:bg-amber-500/20 active:scale-[0.98] transition-all shadow-[0_0_15px_rgba(245,158,11,0.05)] flex items-center justify-center gap-3"
                          >
+                           <Layers size={14} />
                            PURGE_DUPLICATES
                          </button>
                       </div>
