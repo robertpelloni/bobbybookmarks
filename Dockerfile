@@ -9,10 +9,12 @@ RUN npm run build
 # Stage 2: Build the Go backend
 FROM golang:1.22-alpine AS backend-builder
 WORKDIR /app
+# Install build tools for CGO (required by go-sqlite3)
+RUN apk add --no-cache gcc musl-dev
 COPY backend/go.mod backend/go.sum ./backend/
 RUN cd backend && go mod download
 COPY backend/ ./backend/
-RUN cd backend && go build -o /bobby-backend ./cmd/api/main.go
+RUN cd backend && CGO_ENABLED=1 GOOS=linux go build -o /bobby-backend ./cmd/api/main.go
 
 # Stage 3: Final runtime image
 FROM alpine:latest
