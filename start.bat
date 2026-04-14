@@ -35,7 +35,7 @@ echo.
 set CGO_ENABLED=0
 
 echo [*] Starting Backend Service...
-start /b cmd /c "cd backend && set PORT=5000 && go run cmd/api/main.go"
+start /b cmd /c "cd backend && set PORT=5000&& go run cmd/api/main.go"
 
 echo [*] Starting Frontend Development Server...
 :: We use 'npm run dev' for local hot-reloading

@@ -30,5 +30,6 @@ func main() {
 		port = "5000"
 	}
 
+	log.Printf("Server starting on port %s...", port)
 	log.Fatal(app.Listen(":" + port))
 }
