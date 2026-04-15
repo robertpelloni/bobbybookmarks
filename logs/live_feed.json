@@ -1,0 +1,12 @@
+[
+  {
+    "timestamp": "2026-04-15T05:32:19.168069+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://hub.docker.com/mcp"
+  },
+  {
+    "timestamp": "2026-04-15T05:32:20.303825+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://hub.docker.com/mcp"
+  }
+]

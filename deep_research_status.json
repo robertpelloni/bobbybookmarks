@@ -1,0 +1,17 @@
+{
+  "active_url": "https://hub.docker.com/mcp",
+  "borg_rows": 8934,
+  "last_error": null,
+  "last_extracted_url": null,
+  "last_model": null,
+  "models": [
+    "models/gemini-flash-latest",
+    "models/gemini-flash-lite-latest",
+    "models/gemini-3-flash-preview"
+  ],
+  "remaining_urls": 7484,
+  "sleep_seconds": null,
+  "state": "researching",
+  "updated_at": "2026-04-15T14:02:18.089797+00:00",
+  "worker_pid": 44604
+}
