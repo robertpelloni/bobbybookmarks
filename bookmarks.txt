@@ -7723,3 +7723,16 @@ https://github.com/multica-ai/multica
 https://github.com/oraios/serena/blob/main/docs/03-special-guides/serena_on_chatgpt.md
 https://github.com/0xeb/TheBigPromptLibrary/blob/main/SystemPrompts/Google/20251110-notebooklm.md
 https://github.com/oraios/serena
+https://www.reddit.com/r/LangChain/comments/1sme37o/i_built_an_http_tunnel_for_ai_agents_so_you_can/
+https://www.reddit.com/r/AIToolsPerformance/comments/1smc6ri/reports_of_intelligence_drops_across_claude/
+https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gemini_31_flash_tts_texttospeech/
+https://www.reddit.com/r/opencode/comments/1sklk2v/mempalace_is_building_digital_castles_on_sand/
+https://www.reddit.com/r/OpenClawUseCases/comments/1sm19of/is_there_any_legit_way_to_use_openclaw_for_free/
+https://www.reddit.com/r/Nootropics/comments/1smczv1/1_year_of_therapy_nothing_works_took_60_mg/
+https://www.reddit.com/r/AskReddit/comments/1sm9las/whats_a_secret_website_you_wish_more_people_knew/
+https://www.reddit.com/r/CursorAI/comments/1sm3lvi/built_a_custom_context_system_for_my_ai_side/
+https://www.reddit.com/r/Nootropics/comments/1smccwp/1_year_of_therapy_nothing_works_took_60_mg/
+https://www.reddit.com/r/psytranceproduction/comments/1shhx9x/what_is_broken_my_speakers_or_my_head/
+https://www.reddit.com/r/mcp/comments/1slme8b/building_a_20agent_gtm_team_with_mcps/
+https://www.reddit.com/r/AIMemory/comments/1slxdoo/would_you_consider_this_ai_memory_or_just_a/
+https://www.reddit.com/r/LovingOpenSourceAI/comments/1sle4dh/cuttingedge_ai_search_capabilities_are_open_to/

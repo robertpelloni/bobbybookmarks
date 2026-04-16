@@ -1,17 +1,29 @@
 {
-  "active_url": "https://hub.docker.com/mcp",
-  "borg_rows": 8934,
+  "active_url": "https://www.reddit.com/r/ClaudeCode/comments/1ppg5ei/vibe_coding_with_parallel_agents_let_conductor/",
+  "attempt": 1,
+  "backend": "lmstudio -> openrouter/free",
+  "borg_rows": 8940,
   "last_error": null,
-  "last_extracted_url": null,
-  "last_model": null,
+  "last_extracted_url": "https://github.com/24601/BMAD-AT-CLAUDE",
+  "last_model": "liquid/lfm2.5-1.2b",
   "models": [
-    "models/gemini-flash-latest",
-    "models/gemini-flash-lite-latest",
-    "models/gemini-3-flash-preview"
+    "lmstudio/liquid/lfm2.5-1.2b",
+    "lmstudio/gemma-4-e2b-uncensored-hauhaucs-aggressive",
+    "lmstudio/gemma-4-e4b-uncensored-hauhaucs-aggressive",
+    "lmstudio/gemma-4-26b-a4b-it-heretic-ara",
+    "lmstudio/gemma-4-31b-it-heretic",
+    "lmstudio/gemma-4-31b-it-abliterated",
+    "openrouter/google/gemma-4-31b-it:free",
+    "openrouter/google/gemma-4-26b-a4b-it:free",
+    "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "openrouter/minimax/minimax-m2.5:free",
+    "openrouter/qwen/qwen3-next-80b-a3b-instruct:free",
+    "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
+    "openrouter/openrouter/free"
   ],
-  "remaining_urls": 7484,
+  "remaining_urls": 7717,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-04-15T20:42:40.599989+00:00",
-  "worker_pid": 44604
+  "updated_at": "2026-04-16T03:40:24.586943+00:00",
+  "worker_pid": 9276
 }
