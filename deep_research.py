@@ -9,7 +9,8 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
 
-from gemini_pool import GeminiModelPool, stringify_field
+from multi_pool import MultiProviderPool
+from gemini_pool import stringify_field
 from deduplicator import normalize_url
 logging.basicConfig(
     level=logging.INFO, 
@@ -26,8 +27,8 @@ BOOKMARKS_FILE = 'bookmarks.txt'
 DB_PATH = 'bookmarks.db'
 STATUS_PATH = 'deep_research_status.json'
 
-gemini_pool = GeminiModelPool(logger=logger)
-GEMINI_MODELS = gemini_pool.models
+gemini_pool = MultiProviderPool(logger=logger)
+GEMINI_MODELS = [p['name'] for p in gemini_pool.providers]
 
 BORG_TAXONOMY = [
     "Agent Orchestration & Workflow",
@@ -130,14 +131,14 @@ def borg_research_url(url, content, status):
                 'last_error': None,
             })
             write_status(status)
-            response, _ = gemini_pool.generate_content(prompt, f"researching {url}")
+            response, _ = gemini_pool.generate(prompt, f"researching {url}")
             if response is None:
                 status.update({
                     'state': 'backing_off',
                     'active_url': url,
                     'sleep_seconds': gemini_pool.last_backoff_seconds,
                     'last_error': gemini_pool.last_error_summary,
-                    'last_model': gemini_pool.last_model_name,
+                    'last_model': gemini_pool.last_provider_name,
                 })
                 write_status(status)
                 continue
@@ -243,7 +244,7 @@ def main():
                     'sleep_seconds': None,
                     'remaining_urls': len(urls) - index - 1,
                     'borg_rows': status.get('borg_rows', len(processed)) + 1,
-                    'last_model': gemini_pool.last_model_name,
+                    'last_model': gemini_pool.last_provider_name,
                 })
                 write_status(status)
             except Exception as e:
