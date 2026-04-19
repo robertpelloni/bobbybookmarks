@@ -77,10 +77,28 @@ def iso_now():
 def write_status(status):
     payload = dict(status)
     payload['updated_at'] = iso_now()
+    # Robust write: try atomic replace, fall back to direct write
     temp_path = f"{STATUS_PATH}.tmp"
-    with open(temp_path, 'w', encoding='utf-8') as f:
-        json.dump(payload, f, indent=2, sort_keys=True)
-    os.replace(temp_path, STATUS_PATH)
+    try:
+        with open(temp_path, 'w', encoding='utf-8') as f:
+            json.dump(payload, f, indent=2, sort_keys=True)
+        try:
+            os.replace(temp_path, STATUS_PATH)
+        except (PermissionError, OSError):
+            # Windows sometimes locks the file; fall back to direct write
+            with open(STATUS_PATH, 'w', encoding='utf-8') as f:
+                json.dump(payload, f, indent=2, sort_keys=True)
+            try:
+                os.unlink(temp_path)
+            except OSError:
+                pass
+    except (PermissionError, OSError):
+        # Last resort: direct write
+        try:
+            with open(STATUS_PATH, 'w', encoding='utf-8') as f:
+                json.dump(payload, f, indent=2, sort_keys=True)
+        except OSError:
+            pass  # Non-critical; keep processing
 
 def write_feed(message, type="info"):
     feed_path = os.path.join('logs', 'live_feed.json')

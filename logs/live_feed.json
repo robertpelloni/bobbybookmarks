@@ -1,12 +1,502 @@
 [
   {
-    "timestamp": "2026-04-15T05:32:19.168069+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://hub.docker.com/mcp"
+    "timestamp": "2026-04-18T02:12:08.983085+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1smyf4w/multipurpose_mcp_server_i_built_for_token_savings/"
   },
   {
-    "timestamp": "2026-04-15T05:32:20.303825+00:00",
+    "timestamp": "2026-04-18T02:12:14.008395+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:14.553809+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://hub.docker.com/mcp"
+    "message": "Starting Borg research on: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:23.714051+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:28.745123+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:29.371984+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:39.651138+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:44.680202+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:45.240398+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:54.601996+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
+  },
+  {
+    "timestamp": "2026-04-18T02:12:59.633060+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:00.162447+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:09.653989+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:14.682699+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:15.320629+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:25.293780+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:30.313615+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.phoronix.com/news/Mozilla-Thunderbolt"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:31.140310+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.phoronix.com/news/Mozilla-Thunderbolt"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:46.665096+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.phoronix.com/news/Mozilla-Thunderbolt"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:51.697351+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+  },
+  {
+    "timestamp": "2026-04-18T02:13:52.251278+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:01.569288+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:06.617110+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:07.152104+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:16.991372+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:22.026443+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:22.578777+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:33.250860+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:38.284479+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:38.896166+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:48.676537+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:53.704919+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
+  },
+  {
+    "timestamp": "2026-04-18T02:14:54.239775+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:03.595466+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:08.627226+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:09.331625+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:18.645918+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:23.675855+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://katzilla.dev/?rdt_cid=5582913998883719809"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:24.684432+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://katzilla.dev/?rdt_cid=5582913998883719809"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:40.065347+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://katzilla.dev/?rdt_cid=5582913998883719809"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:45.085761+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:45.639215+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
+  },
+  {
+    "timestamp": "2026-04-18T02:15:55.767704+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:00.811850+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:01.370650+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:10.614961+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:15.644782+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:16.387610+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:25.661335+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:30.703207+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:31.254728+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:41.046760+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:46.069696+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:46.653474+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
+  },
+  {
+    "timestamp": "2026-04-18T02:16:57.270034+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:02.298667+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:02.844657+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:12.625728+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:17.654040+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:18.262257+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:27.982144+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:33.011375+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:33.612935+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:42.926305+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:47.947463+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:49.212695+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
+  },
+  {
+    "timestamp": "2026-04-18T02:17:58.620603+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:03.651169+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:04.297441+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:13.312301+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:18.342800+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:19.758903+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:29.458188+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:34.490453+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:35.044359+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:45.144320+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:50.174330+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
+  },
+  {
+    "timestamp": "2026-04-18T02:18:50.726105+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:00.156462+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:05.187154+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:05.730117+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:15.693787+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:20.727155+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:21.336819+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:30.900889+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:35.930668+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:36.498164+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:46.096232+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:51.119018+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
+  },
+  {
+    "timestamp": "2026-04-18T02:19:51.680730+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:00.534291+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:05.568395+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:06.130631+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:15.600036+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:20.622311+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:21.269005+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:31.470367+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:36.489576+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://x.com/RonyVernet/status/2044420280592875896"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:37.462110+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://x.com/RonyVernet/status/2044420280592875896"
+  },
+  {
+    "timestamp": "2026-04-18T02:20:48.377610+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://x.com/RonyVernet/status/2044420280592875896"
   }
 ]
