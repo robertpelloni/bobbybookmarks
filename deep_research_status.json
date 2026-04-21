@@ -46,4 +46,16 @@
   "state": "processing",
   "updated_at": "2026-04-10T01:09:58.991034+00:00",
   "worker_pid": 31088
+  "active_url": null,
+  "borg_rows": 8950,
+  "last_error": null,
+  "last_extracted_url": null,
+  "models": [
+    "dummy-fallback"
+  ],
+  "remaining_urls": 6897,
+  "sleep_seconds": null,
+  "state": "starting",
+  "updated_at": "2026-04-19T06:46:18.899226+00:00",
+  "worker_pid": 813515
 }

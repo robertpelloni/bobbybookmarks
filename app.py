@@ -1,3 +1,4 @@
+from flask import Flask, request, jsonify, send_from_directory, Response, send_file
 import os
 import logging
 import sqlite3
@@ -858,6 +859,22 @@ def create_app(config_object=None):
     if app.config.get("RESEARCH_AUTO_START", False):
         worker = get_worker()
         worker.start(app)
+
+
+    @app.route('/api/bookmarks/download')
+    def api_download_db():
+        from config import Config
+        db_path = Config.SQLALCHEMY_DATABASE_URI.replace('sqlite:///', '')
+        if os.path.exists(db_path):
+            return send_file(db_path, as_attachment=True, download_name='bookmarks.db')
+        return jsonify({"error": "Database not found"}), 404
+
+    @app.route('/api/bookmarks/download-txt')
+    def api_download_txt():
+        txt_path = 'bookmarks.txt'
+        if os.path.exists(txt_path):
+            return send_file(txt_path, as_attachment=True, download_name='bookmarks.txt')
+        return jsonify({"error": "bookmarks.txt not found"}), 404
 
     return app
 

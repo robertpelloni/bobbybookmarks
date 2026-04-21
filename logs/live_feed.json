@@ -649,352 +649,503 @@
   },
   {
     "timestamp": "2026-03-28T12:27:35.988898+00:00",
+    "timestamp": "2026-04-19T06:52:10.847928+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/kukapay/freqtrade-mcp"
+    "message": "Processed chunk 39, 4947 left."
   },
   {
-    "timestamp": "2026-03-28T12:27:51.011528+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/badkk/awesome-crypto-mcp-servers"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:52.144422+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/badkk/awesome-crypto-mcp-servers"
-  },
-  {
-    "timestamp": "2026-03-28T12:27:53.733780+00:00",
+    "timestamp": "2026-04-19T06:52:28.072616+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/badkk/awesome-crypto-mcp-servers"
+    "message": "Processed chunk 40, 4897 left."
   },
   {
-    "timestamp": "2026-03-28T12:28:08.757791+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/kukapay/uniswap-poolspy-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T12:28:09.822901+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/kukapay/uniswap-poolspy-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T14:06:00.049936+00:00",
+    "timestamp": "2026-04-19T06:52:35.193173+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/kukapay/uniswap-poolspy-mcp"
+    "message": "Processed chunk 41, 4847 left."
   },
   {
-    "timestamp": "2026-03-28T14:06:15.084082+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/kukapay/uniswap-trader-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T14:06:16.153227+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/kukapay/uniswap-trader-mcp"
-  },
-  {
-    "timestamp": "2026-03-28T14:37:07.902416+00:00",
+    "timestamp": "2026-04-19T06:52:39.328223+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/kukapay/uniswap-trader-mcp"
+    "message": "Processed chunk 42, 4797 left."
   },
   {
-    "timestamp": "2026-03-28T14:37:22.932408+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/"
-  },
-  {
-    "timestamp": "2026-03-28T14:37:23.821894+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/"
-  },
-  {
-    "timestamp": "2026-03-28T14:37:23.827617+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://nof1.ai/"
-  },
-  {
-    "timestamp": "2026-03-28T14:37:26.890720+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://nof1.ai/"
-  },
-  {
-    "timestamp": "2026-03-28T14:40:32.680099+00:00",
+    "timestamp": "2026-04-19T06:52:41.238289+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://nof1.ai/"
+    "message": "Processed chunk 43, 4747 left."
   },
   {
-    "timestamp": "2026-03-28T14:40:47.702187+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/"
-  },
-  {
-    "timestamp": "2026-03-28T14:40:48.540626+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/"
-  },
-  {
-    "timestamp": "2026-03-28T14:40:48.547393+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://docs.coingecko.com/docs/mcp-server"
-  },
-  {
-    "timestamp": "2026-03-28T14:40:49.279413+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://docs.coingecko.com/docs/mcp-server"
-  },
-  {
-    "timestamp": "2026-03-28T14:41:51.337998+00:00",
+    "timestamp": "2026-04-19T06:52:44.504491+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://docs.coingecko.com/docs/mcp-server"
+    "message": "Processed chunk 44, 4697 left."
   },
   {
-    "timestamp": "2026-03-28T14:42:06.367614+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/Upsonic/Upsonic"
-  },
-  {
-    "timestamp": "2026-03-28T14:42:07.457325+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/Upsonic/Upsonic"
-  },
-  {
-    "timestamp": "2026-03-28T15:10:18.991486+00:00",
+    "timestamp": "2026-04-19T06:52:46.428729+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/Upsonic/Upsonic"
+    "message": "Processed chunk 45, 4647 left."
   },
   {
-    "timestamp": "2026-03-28T15:10:34.022743+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://news.ycombinator.com/item?id=46115214"
-  },
-  {
-    "timestamp": "2026-03-28T15:10:34.995068+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://news.ycombinator.com/item?id=46115214"
-  },
-  {
-    "timestamp": "2026-03-28T15:45:53.181229+00:00",
+    "timestamp": "2026-04-19T06:52:52.833919+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://news.ycombinator.com/item?id=46115214"
+    "message": "Processed chunk 46, 4597 left."
   },
   {
-    "timestamp": "2026-03-28T15:46:08.205917+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.proofqr.xyz/"
-  },
-  {
-    "timestamp": "2026-03-28T15:46:10.661009+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.proofqr.xyz/"
-  },
-  {
-    "timestamp": "2026-03-28T16:17:32.144688+00:00",
+    "timestamp": "2026-04-19T06:52:55.493046+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.proofqr.xyz/"
+    "message": "Processed chunk 47, 4547 left."
   },
   {
-    "timestamp": "2026-03-28T16:17:47.168333+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
-  },
-  {
-    "timestamp": "2026-03-28T16:17:48.433786+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
-  },
-  {
-    "timestamp": "2026-03-28T16:42:52.346037+00:00",
+    "timestamp": "2026-04-19T06:53:02.074404+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install"
+    "message": "Processed chunk 48, 4497 left."
   },
   {
-    "timestamp": "2026-03-28T16:43:07.368174+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
-  },
-  {
-    "timestamp": "2026-03-28T16:43:08.525407+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
-  },
-  {
-    "timestamp": "2026-03-28T16:59:41.423551+00:00",
+    "timestamp": "2026-04-19T06:53:11.863727+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1"
+    "message": "Processed chunk 49, 4447 left."
   },
   {
-    "timestamp": "2026-03-28T16:59:56.455669+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
-  },
-  {
-    "timestamp": "2026-03-28T16:59:57.011975+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
-  },
-  {
-    "timestamp": "2026-03-28T18:06:48.683470+00:00",
+    "timestamp": "2026-04-19T06:53:21.955821+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: http://www.observationalhazard.com/2025/12/c-java-java-llm.html"
+    "message": "Processed chunk 50, 4397 left."
   },
   {
-    "timestamp": "2026-03-28T18:07:03.701745+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
-  },
-  {
-    "timestamp": "2026-03-28T18:07:05.515386+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
-  },
-  {
-    "timestamp": "2026-03-28T19:13:46.955786+00:00",
+    "timestamp": "2026-04-19T06:53:30.397229+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://9to5google.com/2025/12/24/google-change-gmail-addresses/"
+    "message": "Processed chunk 51, 4347 left."
   },
   {
-    "timestamp": "2026-03-28T19:14:01.979280+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://adrift.today/"
-  },
-  {
-    "timestamp": "2026-03-28T19:14:04.306177+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://adrift.today/"
-  },
-  {
-    "timestamp": "2026-03-28T19:42:31.672396+00:00",
+    "timestamp": "2026-04-19T06:53:44.047651+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://adrift.today/"
+    "message": "Processed chunk 52, 4297 left."
   },
   {
-    "timestamp": "2026-03-28T19:42:46.705290+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://agentexports.com/"
-  },
-  {
-    "timestamp": "2026-03-28T19:42:47.523551+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://agentexports.com/"
-  },
-  {
-    "timestamp": "2026-03-28T20:14:31.414204+00:00",
+    "timestamp": "2026-04-19T06:53:53.390182+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://agentexports.com/"
+    "message": "Processed chunk 53, 4247 left."
   },
   {
-    "timestamp": "2026-03-28T20:14:46.435872+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://agentset.ai/rag-prompts"
-  },
-  {
-    "timestamp": "2026-03-28T20:14:51.031592+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://agentset.ai/rag-prompts"
-  },
-  {
-    "timestamp": "2026-03-28T20:37:06.637528+00:00",
+    "timestamp": "2026-04-19T06:54:02.348376+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://agentset.ai/rag-prompts"
+    "message": "Processed chunk 54, 4197 left."
   },
   {
-    "timestamp": "2026-03-28T20:37:21.676051+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://agentskills.io/home"
-  },
-  {
-    "timestamp": "2026-03-28T20:37:26.215924+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://agentskills.io/home"
-  },
-  {
-    "timestamp": "2026-03-28T21:17:31.116012+00:00",
+    "timestamp": "2026-04-19T06:54:11.840917+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://agentskills.io/home"
+    "message": "Processed chunk 55, 4147 left."
   },
   {
-    "timestamp": "2026-03-28T21:17:46.149269+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://agentskills.work/sellers-net-sheet-florida"
-  },
-  {
-    "timestamp": "2026-03-28T21:17:49.659381+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://agentskills.work/sellers-net-sheet-florida"
-  },
-  {
-    "timestamp": "2026-03-28T21:22:26.438701+00:00",
+    "timestamp": "2026-04-19T06:54:40.776297+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://agentskills.work/sellers-net-sheet-florida"
+    "message": "Processed chunk 56, 4097 left."
   },
   {
-    "timestamp": "2026-03-28T21:22:41.462409+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://ahussain.substack.com/"
-  },
-  {
-    "timestamp": "2026-03-28T21:22:42.396080+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://ahussain.substack.com/"
-  },
-  {
-    "timestamp": "2026-03-28T22:24:34.154392+00:00",
+    "timestamp": "2026-04-19T06:54:56.709783+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://ahussain.substack.com/"
+    "message": "Processed chunk 57, 4047 left."
   },
   {
-    "timestamp": "2026-03-28T22:24:49.173937+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://ai-kol-network-analysis.youware.app/"
-  },
-  {
-    "timestamp": "2026-03-28T22:24:49.770744+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://ai-kol-network-analysis.youware.app/"
-  },
-  {
-    "timestamp": "2026-03-28T22:24:49.777092+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://aiboom.tools/"
-  },
-  {
-    "timestamp": "2026-03-28T22:24:57.823615+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://aiboom.tools/"
-  },
-  {
-    "timestamp": "2026-03-28T22:27:29.325712+00:00",
+    "timestamp": "2026-04-19T06:55:06.516953+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://aiboom.tools/"
+    "message": "Processed chunk 58, 3997 left."
   },
   {
-    "timestamp": "2026-03-28T22:27:44.344446+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://aidemos.meta.com/segment-anything/gallery/"
-  },
-  {
-    "timestamp": "2026-03-28T22:27:45.220979+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://aidemos.meta.com/segment-anything/gallery/"
-  },
-  {
-    "timestamp": "2026-03-28T23:48:38.405202+00:00",
+    "timestamp": "2026-04-19T06:55:16.698747+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://aidemos.meta.com/segment-anything/gallery/"
+    "message": "Processed chunk 59, 3947 left."
   },
   {
-    "timestamp": "2026-03-28T23:48:53.443469+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://alma.now/"
-  },
-  {
-    "timestamp": "2026-03-28T23:48:58.327691+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://alma.now/"
-  },
-  {
-    "timestamp": "2026-03-29T00:02:00.858537+00:00",
+    "timestamp": "2026-04-19T06:55:27.160672+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://alma.now/"
+    "message": "Processed chunk 60, 3897 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:55:36.735666+00:00",
+    "type": "process",
+    "message": "Processed chunk 61, 3847 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:55:49.026777+00:00",
+    "type": "process",
+    "message": "Processed chunk 62, 3797 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:55:58.930317+00:00",
+    "type": "process",
+    "message": "Processed chunk 63, 3747 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:56:08.223437+00:00",
+    "type": "process",
+    "message": "Processed chunk 64, 3697 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:56:17.925536+00:00",
+    "type": "process",
+    "message": "Processed chunk 65, 3647 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:56:27.710737+00:00",
+    "type": "process",
+    "message": "Processed chunk 66, 3597 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:56:37.556355+00:00",
+    "type": "process",
+    "message": "Processed chunk 67, 3547 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:56:46.933817+00:00",
+    "type": "process",
+    "message": "Processed chunk 68, 3497 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:57:04.340885+00:00",
+    "type": "process",
+    "message": "Processed chunk 69, 3447 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:57:22.689125+00:00",
+    "type": "process",
+    "message": "Processed chunk 70, 3397 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:57:35.889935+00:00",
+    "type": "process",
+    "message": "Processed chunk 71, 3347 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:57:45.548406+00:00",
+    "type": "process",
+    "message": "Processed chunk 72, 3297 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:57:54.149373+00:00",
+    "type": "process",
+    "message": "Processed chunk 73, 3247 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:58:05.114472+00:00",
+    "type": "process",
+    "message": "Processed chunk 74, 3197 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:58:17.397268+00:00",
+    "type": "process",
+    "message": "Processed chunk 75, 3147 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:58:28.347981+00:00",
+    "type": "process",
+    "message": "Processed chunk 76, 3097 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:58:38.528442+00:00",
+    "type": "process",
+    "message": "Processed chunk 77, 3047 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:58:50.251503+00:00",
+    "type": "process",
+    "message": "Processed chunk 78, 2997 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:03.055862+00:00",
+    "type": "process",
+    "message": "Processed chunk 79, 2947 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:16.316051+00:00",
+    "type": "process",
+    "message": "Processed chunk 80, 2897 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:28.237738+00:00",
+    "type": "process",
+    "message": "Processed chunk 81, 2847 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:38.601652+00:00",
+    "type": "process",
+    "message": "Processed chunk 82, 2797 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:48.632813+00:00",
+    "type": "process",
+    "message": "Processed chunk 83, 2747 left."
+  },
+  {
+    "timestamp": "2026-04-19T06:59:57.870843+00:00",
+    "type": "process",
+    "message": "Processed chunk 84, 2697 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:08.119790+00:00",
+    "type": "process",
+    "message": "Processed chunk 85, 2647 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:20.487146+00:00",
+    "type": "process",
+    "message": "Processed chunk 86, 2597 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:31.032167+00:00",
+    "type": "process",
+    "message": "Processed chunk 87, 2547 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:40.340586+00:00",
+    "type": "process",
+    "message": "Processed chunk 88, 2497 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:49.964435+00:00",
+    "type": "process",
+    "message": "Processed chunk 89, 2447 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:00:59.648010+00:00",
+    "type": "process",
+    "message": "Processed chunk 90, 2397 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:09.977690+00:00",
+    "type": "process",
+    "message": "Processed chunk 91, 2347 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:19.048314+00:00",
+    "type": "process",
+    "message": "Processed chunk 92, 2297 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:28.907624+00:00",
+    "type": "process",
+    "message": "Processed chunk 93, 2247 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:38.499714+00:00",
+    "type": "process",
+    "message": "Processed chunk 94, 2197 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:47.412648+00:00",
+    "type": "process",
+    "message": "Processed chunk 95, 2147 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:01:56.357528+00:00",
+    "type": "process",
+    "message": "Processed chunk 96, 2097 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:02:06.454618+00:00",
+    "type": "process",
+    "message": "Processed chunk 97, 2047 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:02:18.423046+00:00",
+    "type": "process",
+    "message": "Processed chunk 98, 1997 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:02:28.071910+00:00",
+    "type": "process",
+    "message": "Processed chunk 99, 1947 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:02:38.806840+00:00",
+    "type": "process",
+    "message": "Processed chunk 100, 1897 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:02:51.996532+00:00",
+    "type": "process",
+    "message": "Processed chunk 101, 1847 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:02.269036+00:00",
+    "type": "process",
+    "message": "Processed chunk 102, 1797 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:12.393920+00:00",
+    "type": "process",
+    "message": "Processed chunk 103, 1747 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:22.299933+00:00",
+    "type": "process",
+    "message": "Processed chunk 104, 1697 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:31.494952+00:00",
+    "type": "process",
+    "message": "Processed chunk 105, 1647 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:40.582396+00:00",
+    "type": "process",
+    "message": "Processed chunk 106, 1597 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:49.966041+00:00",
+    "type": "process",
+    "message": "Processed chunk 107, 1547 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:03:58.635644+00:00",
+    "type": "process",
+    "message": "Processed chunk 108, 1497 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:07.268411+00:00",
+    "type": "process",
+    "message": "Processed chunk 109, 1447 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:16.309459+00:00",
+    "type": "process",
+    "message": "Processed chunk 110, 1397 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:26.217295+00:00",
+    "type": "process",
+    "message": "Processed chunk 111, 1347 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:34.919183+00:00",
+    "type": "process",
+    "message": "Processed chunk 112, 1297 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:43.624192+00:00",
+    "type": "process",
+    "message": "Processed chunk 113, 1247 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:04:52.637696+00:00",
+    "type": "process",
+    "message": "Processed chunk 114, 1197 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:01.535526+00:00",
+    "type": "process",
+    "message": "Processed chunk 115, 1147 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:10.217323+00:00",
+    "type": "process",
+    "message": "Processed chunk 116, 1097 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:18.689979+00:00",
+    "type": "process",
+    "message": "Processed chunk 117, 1047 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:27.143318+00:00",
+    "type": "process",
+    "message": "Processed chunk 118, 997 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:35.561162+00:00",
+    "type": "process",
+    "message": "Processed chunk 119, 947 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:44.512544+00:00",
+    "type": "process",
+    "message": "Processed chunk 120, 897 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:05:56.530349+00:00",
+    "type": "process",
+    "message": "Processed chunk 121, 847 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:05.813558+00:00",
+    "type": "process",
+    "message": "Processed chunk 122, 797 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:14.951148+00:00",
+    "type": "process",
+    "message": "Processed chunk 123, 747 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:23.753534+00:00",
+    "type": "process",
+    "message": "Processed chunk 124, 697 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:32.476529+00:00",
+    "type": "process",
+    "message": "Processed chunk 125, 647 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:40.474367+00:00",
+    "type": "process",
+    "message": "Processed chunk 126, 597 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:06:51.332618+00:00",
+    "type": "process",
+    "message": "Processed chunk 127, 547 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:07:00.347172+00:00",
+    "type": "process",
+    "message": "Processed chunk 128, 497 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:07:10.321011+00:00",
+    "type": "process",
+    "message": "Processed chunk 129, 447 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:07:20.411473+00:00",
+    "type": "process",
+    "message": "Processed chunk 130, 397 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:07:30.639722+00:00",
+    "type": "process",
+    "message": "Processed chunk 131, 347 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:07:41.345341+00:00",
+    "type": "process",
+    "message": "Processed chunk 132, 297 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:03.211493+00:00",
+    "type": "process",
+    "message": "Processed chunk 133, 247 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:15.939134+00:00",
+    "type": "process",
+    "message": "Processed chunk 134, 197 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:21.673337+00:00",
+    "type": "process",
+    "message": "Processed chunk 135, 147 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:26.648858+00:00",
+    "type": "process",
+    "message": "Processed chunk 136, 97 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:34.454439+00:00",
+    "type": "process",
+    "message": "Processed chunk 137, 47 left."
+  },
+  {
+    "timestamp": "2026-04-19T07:08:42.286303+00:00",
+    "type": "process",
+    "message": "Processed chunk 138, -3 left."
   }
 ]
