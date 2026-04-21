@@ -118,6 +118,24 @@ def write_feed(message, type="info"):
             json.dump(entries[-100:], f, indent=2)
     except Exception: pass
 
+def write_feed(message, type="info"):
+    feed_path = os.path.join('logs', 'live_feed.json')
+    entry = {
+        "timestamp": iso_now(),
+        "type": type,
+        "message": message
+    }
+    try:
+        # Keep only the last 100 entries for efficiency
+        entries = []
+        if os.path.exists(feed_path):
+            with open(feed_path, 'r', encoding='utf-8') as f:
+                entries = json.load(f)
+        entries.append(entry)
+        with open(feed_path, 'w', encoding='utf-8') as f:
+            json.dump(entries[-100:], f, indent=2)
+    except Exception: pass
+
 def borg_research_url(url, content, status):
     soup = BeautifulSoup(content, 'html.parser')
     for s in soup(['script', 'style']): s.decompose()
