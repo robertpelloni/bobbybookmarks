@@ -1,5 +1,5 @@
 {
-  "active_url": "https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_2014_2025/",
+  "active_url": "https://www.reddit.com/r/GithubCopilot/comments/1rn56lk/what_is_the_difference_in_system_prompt_between/",
   "borg_rows": 8951,
   "last_error": "'MultiProviderPool' object has no attribute 'last_provider_name'",
   "last_extracted_url": null,
@@ -18,9 +18,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 8063,
+  "remaining_urls": 7063,
   "sleep_seconds": null,
   "state": "db_error",
-  "updated_at": "2026-04-22T17:55:26.760469+00:00",
+  "updated_at": "2026-04-22T21:41:51.180600+00:00",
   "worker_pid": 34016
 }
