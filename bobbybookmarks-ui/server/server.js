@@ -11,7 +11,7 @@ const DB_PATH = path.join(__dirname, '..', '..', 'bookmarks.db');
 const db = new sqlite3.Database(DB_PATH);
 
 // Initialize Gemini
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "AIzaSyB9juQ3l2gNtaFxAPkNuXlrV7Q99zL_yTo");
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || "YOUR_GEMINI_API_KEY");
 const embeddingModel = genAI.getGenerativeModel({ model: "text-embedding-004" }); 
 
 function cosineSimilarity(vecA, vecB) {

@@ -15,11 +15,3 @@ build/
 .coverage
 htmlcov/
 *.log
-bookmarks_archive.db
-bookmarks.db.bak
-bookmarks_slim.db
-analyze_db.py
-analyze_more.py
-make_slim_db.py
-split_db.py
-.jules/
