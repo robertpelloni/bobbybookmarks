@@ -1,14 +1,26 @@
 {
-  "active_url": null,
-  "borg_rows": 8950,
-  "last_error": null,
+  "active_url": "https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_2014_2025/",
+  "borg_rows": 8951,
+  "last_error": "'MultiProviderPool' object has no attribute 'last_provider_name'",
   "last_extracted_url": null,
   "models": [
-    "dummy-fallback"
+    "lmstudio-local",
+    "openrouter-gemma-4-26b-a4b-it",
+    "openrouter-nemotron-3-super-120b-a12b",
+    "openrouter-qwen3-coder",
+    "openrouter-lfm-2.5-1.2b-thinking",
+    "openrouter-qwen3-next-80b-a3b-instruct",
+    "openrouter-ling-2.6-flash",
+    "openrouter-nemotron-3-nano-30b-a3b",
+    "openrouter-gpt-oss-120b",
+    "openrouter-gemma-4-31b-it",
+    "openrouter-minimax-m2.5",
+    "groq-llama3-8b",
+    "openrouter-gemini-flash"
   ],
-  "remaining_urls": 6897,
+  "remaining_urls": 8063,
   "sleep_seconds": null,
-  "state": "starting",
-  "updated_at": "2026-04-19T06:46:18.899226+00:00",
-  "worker_pid": 813515
+  "state": "db_error",
+  "updated_at": "2026-04-22T17:55:26.760469+00:00",
+  "worker_pid": 34016
 }

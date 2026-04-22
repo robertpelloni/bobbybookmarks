@@ -1,502 +1,504 @@
 [
   {
-    "timestamp": "2026-04-19T06:52:10.847928+00:00",
-    "type": "process",
-    "message": "Processed chunk 39, 4947 left."
+    "timestamp": "2026-04-22T17:46:51.084212+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-04-19T06:52:28.072616+00:00",
-    "type": "process",
-    "message": "Processed chunk 40, 4897 left."
+    "timestamp": "2026-04-22T17:46:51.094096+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T06:52:35.193173+00:00",
-    "type": "process",
-    "message": "Processed chunk 41, 4847 left."
+    "timestamp": "2026-04-22T17:46:51.882962+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T06:52:39.328223+00:00",
-    "type": "process",
-    "message": "Processed chunk 42, 4797 left."
+    "timestamp": "2026-04-22T17:46:51.906289+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIAppInnovation/comments/1rb07bn/using_openai_for_building_an_appdesktop_app/"
   },
   {
-    "timestamp": "2026-04-19T06:52:41.238289+00:00",
-    "type": "process",
-    "message": "Processed chunk 43, 4747 left."
+    "timestamp": "2026-04-22T17:46:51.951658+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T06:52:44.504491+00:00",
-    "type": "process",
-    "message": "Processed chunk 44, 4697 left."
+    "timestamp": "2026-04-22T17:46:51.959685+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T06:52:46.428729+00:00",
-    "type": "process",
-    "message": "Processed chunk 45, 4647 left."
+    "timestamp": "2026-04-22T17:46:52.611982+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T06:52:52.833919+00:00",
-    "type": "process",
-    "message": "Processed chunk 46, 4597 left."
+    "timestamp": "2026-04-22T17:46:55.212246+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-04-19T06:52:55.493046+00:00",
-    "type": "process",
-    "message": "Processed chunk 47, 4547 left."
+    "timestamp": "2026-04-22T17:46:55.798129+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-04-19T06:53:02.074404+00:00",
-    "type": "process",
-    "message": "Processed chunk 48, 4497 left."
+    "timestamp": "2026-04-22T17:46:55.806402+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-04-19T06:53:11.863727+00:00",
-    "type": "process",
-    "message": "Processed chunk 49, 4447 left."
+    "timestamp": "2026-04-22T17:46:57.510230+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-04-19T06:53:21.955821+00:00",
-    "type": "process",
-    "message": "Processed chunk 50, 4397 left."
+    "timestamp": "2026-04-22T17:46:57.518929+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-04-19T06:53:30.397229+00:00",
-    "type": "process",
-    "message": "Processed chunk 51, 4347 left."
+    "timestamp": "2026-04-22T17:46:58.776518+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-04-19T06:53:44.047651+00:00",
-    "type": "process",
-    "message": "Processed chunk 52, 4297 left."
+    "timestamp": "2026-04-22T17:46:58.786496+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T06:53:53.390182+00:00",
-    "type": "process",
-    "message": "Processed chunk 53, 4247 left."
+    "timestamp": "2026-04-22T17:46:59.410957+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T06:54:02.348376+00:00",
+    "timestamp": "2026-04-22T17:47:03.343654+00:00",
     "type": "process",
-    "message": "Processed chunk 54, 4197 left."
+    "message": "Finalizing extraction for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T06:54:11.840917+00:00",
-    "type": "process",
-    "message": "Processed chunk 55, 4147 left."
+    "timestamp": "2026-04-22T17:47:06.926417+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIAppInnovation/comments/1rc9e0n/we_almost_rebuilt_our_entire_ai_stack_heres_what/"
   },
   {
-    "timestamp": "2026-04-19T06:54:40.776297+00:00",
-    "type": "process",
-    "message": "Processed chunk 56, 4097 left."
+    "timestamp": "2026-04-22T17:47:07.503384+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIAppInnovation/comments/1rc9e0n/we_almost_rebuilt_our_entire_ai_stack_heres_what/"
   },
   {
-    "timestamp": "2026-04-19T06:54:56.709783+00:00",
-    "type": "process",
-    "message": "Processed chunk 57, 4047 left."
+    "timestamp": "2026-04-22T17:47:08.601013+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://jeanmemory.com/dashboard"
   },
   {
-    "timestamp": "2026-04-19T06:55:06.516953+00:00",
-    "type": "process",
-    "message": "Processed chunk 58, 3997 left."
+    "timestamp": "2026-04-22T17:47:10.006345+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://jeanmemory.com/dashboard"
   },
   {
-    "timestamp": "2026-04-19T06:55:16.698747+00:00",
-    "type": "process",
-    "message": "Processed chunk 59, 3947 left."
+    "timestamp": "2026-04-22T17:47:10.016449+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
   },
   {
-    "timestamp": "2026-04-19T06:55:27.160672+00:00",
-    "type": "process",
-    "message": "Processed chunk 60, 3897 left."
+    "timestamp": "2026-04-22T17:47:10.694164+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ClaudeAI/comments/1hv16zf/those_who_are_successfully_using_memory_mcp_whats/"
   },
   {
-    "timestamp": "2026-04-19T06:55:36.735666+00:00",
-    "type": "process",
-    "message": "Processed chunk 61, 3847 left."
+    "timestamp": "2026-04-22T17:47:18.366872+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T06:55:49.026777+00:00",
-    "type": "process",
-    "message": "Processed chunk 62, 3797 left."
+    "timestamp": "2026-04-22T17:47:19.120959+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T06:55:58.930317+00:00",
-    "type": "process",
-    "message": "Processed chunk 63, 3747 left."
+    "timestamp": "2026-04-22T17:47:19.129238+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T06:56:08.223437+00:00",
-    "type": "process",
-    "message": "Processed chunk 64, 3697 left."
+    "timestamp": "2026-04-22T17:47:19.849422+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T06:56:17.925536+00:00",
-    "type": "process",
-    "message": "Processed chunk 65, 3647 left."
+    "timestamp": "2026-04-22T17:47:19.859917+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T06:56:27.710737+00:00",
-    "type": "process",
-    "message": "Processed chunk 66, 3597 left."
+    "timestamp": "2026-04-22T17:47:20.656906+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T06:56:37.556355+00:00",
-    "type": "process",
-    "message": "Processed chunk 67, 3547 left."
+    "timestamp": "2026-04-22T17:47:20.666586+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T06:56:46.933817+00:00",
-    "type": "process",
-    "message": "Processed chunk 68, 3497 left."
+    "timestamp": "2026-04-22T17:47:21.377291+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T06:57:04.340885+00:00",
-    "type": "process",
-    "message": "Processed chunk 69, 3447 left."
+    "timestamp": "2026-04-22T17:47:21.385124+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T06:57:22.689125+00:00",
-    "type": "process",
-    "message": "Processed chunk 70, 3397 left."
+    "timestamp": "2026-04-22T17:47:22.140061+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T06:57:35.889935+00:00",
-    "type": "process",
-    "message": "Processed chunk 71, 3347 left."
+    "timestamp": "2026-04-22T17:47:22.158987+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T06:57:45.548406+00:00",
-    "type": "process",
-    "message": "Processed chunk 72, 3297 left."
+    "timestamp": "2026-04-22T17:47:22.523429+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIAssisted/comments/1rh61h0/cancel_your_chatgpt_plus_burn_their_compute_on/"
   },
   {
-    "timestamp": "2026-04-19T06:57:54.149373+00:00",
-    "type": "process",
-    "message": "Processed chunk 73, 3247 left."
+    "timestamp": "2026-04-22T17:47:22.897640+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T06:58:05.114472+00:00",
-    "type": "process",
-    "message": "Processed chunk 74, 3197 left."
+    "timestamp": "2026-04-22T17:47:23.232418+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIAssisted/comments/1rh61h0/cancel_your_chatgpt_plus_burn_their_compute_on/"
   },
   {
-    "timestamp": "2026-04-19T06:58:17.397268+00:00",
-    "type": "process",
-    "message": "Processed chunk 75, 3147 left."
+    "timestamp": "2026-04-22T17:47:31.080692+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T06:58:28.347981+00:00",
-    "type": "process",
-    "message": "Processed chunk 76, 3097 left."
+    "timestamp": "2026-04-22T17:47:31.776086+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T06:58:38.528442+00:00",
-    "type": "process",
-    "message": "Processed chunk 77, 3047 left."
+    "timestamp": "2026-04-22T17:47:31.783967+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T06:58:50.251503+00:00",
-    "type": "process",
-    "message": "Processed chunk 78, 2997 left."
+    "timestamp": "2026-04-22T17:47:32.468734+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T06:59:03.055862+00:00",
-    "type": "process",
-    "message": "Processed chunk 79, 2947 left."
+    "timestamp": "2026-04-22T17:47:32.478352+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T06:59:16.316051+00:00",
-    "type": "process",
-    "message": "Processed chunk 80, 2897 left."
+    "timestamp": "2026-04-22T17:47:33.273384+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T06:59:28.237738+00:00",
-    "type": "process",
-    "message": "Processed chunk 81, 2847 left."
+    "timestamp": "2026-04-22T17:47:33.283039+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T06:59:38.601652+00:00",
-    "type": "process",
-    "message": "Processed chunk 82, 2797 left."
+    "timestamp": "2026-04-22T17:47:34.073181+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T06:59:48.632813+00:00",
-    "type": "process",
-    "message": "Processed chunk 83, 2747 left."
+    "timestamp": "2026-04-22T17:47:34.082729+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T06:59:57.870843+00:00",
-    "type": "process",
-    "message": "Processed chunk 84, 2697 left."
+    "timestamp": "2026-04-22T17:47:34.804245+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T07:00:08.119790+00:00",
-    "type": "process",
-    "message": "Processed chunk 85, 2647 left."
+    "timestamp": "2026-04-22T17:47:34.813165+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T07:00:20.487146+00:00",
-    "type": "process",
-    "message": "Processed chunk 86, 2597 left."
+    "timestamp": "2026-04-22T17:47:35.519856+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T07:00:31.032167+00:00",
-    "type": "process",
-    "message": "Processed chunk 87, 2547 left."
+    "timestamp": "2026-04-22T17:47:38.252941+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIChatCompanions/comments/1rimh79/perplexity_just_launched_an_ai_agent_that_runs_19/"
   },
   {
-    "timestamp": "2026-04-19T07:00:40.340586+00:00",
-    "type": "process",
-    "message": "Processed chunk 88, 2497 left."
+    "timestamp": "2026-04-22T17:47:38.924431+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIChatCompanions/comments/1rimh79/perplexity_just_launched_an_ai_agent_that_runs_19/"
   },
   {
-    "timestamp": "2026-04-19T07:00:49.964435+00:00",
-    "type": "process",
-    "message": "Processed chunk 89, 2447 left."
+    "timestamp": "2026-04-22T17:47:50.072941+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-04-19T07:00:59.648010+00:00",
-    "type": "process",
-    "message": "Processed chunk 90, 2397 left."
+    "timestamp": "2026-04-22T17:47:50.982605+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://docs.heysol.ai/core/overview"
   },
   {
-    "timestamp": "2026-04-19T07:01:09.977690+00:00",
-    "type": "process",
-    "message": "Processed chunk 91, 2347 left."
+    "timestamp": "2026-04-22T17:47:50.994231+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-04-19T07:01:19.048314+00:00",
-    "type": "process",
-    "message": "Processed chunk 92, 2297 left."
+    "timestamp": "2026-04-22T17:47:52.386844+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://zypher.corespeed.io/docs"
   },
   {
-    "timestamp": "2026-04-19T07:01:28.907624+00:00",
-    "type": "process",
-    "message": "Processed chunk 93, 2247 left."
+    "timestamp": "2026-04-22T17:47:52.394689+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-04-19T07:01:38.499714+00:00",
-    "type": "process",
-    "message": "Processed chunk 94, 2197 left."
+    "timestamp": "2026-04-22T17:47:53.941715+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIContentAutomators/comments/1razpt8/spent_60_days_automating_blog_content_with/"
   },
   {
-    "timestamp": "2026-04-19T07:01:47.412648+00:00",
-    "type": "process",
-    "message": "Processed chunk 95, 2147 left."
+    "timestamp": "2026-04-22T17:47:54.257417+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://zypher.corespeed.io/docs/core-concepts/tools-and-mcp/programmatic-tool-calling"
   },
   {
-    "timestamp": "2026-04-19T07:01:56.357528+00:00",
-    "type": "process",
-    "message": "Processed chunk 96, 2097 left."
+    "timestamp": "2026-04-22T17:47:54.268516+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T07:02:06.454618+00:00",
-    "type": "process",
-    "message": "Processed chunk 97, 2047 left."
+    "timestamp": "2026-04-22T17:47:54.973110+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIContentAutomators/comments/1razpt8/spent_60_days_automating_blog_content_with/"
   },
   {
-    "timestamp": "2026-04-19T07:02:18.423046+00:00",
-    "type": "process",
-    "message": "Processed chunk 98, 1997 left."
+    "timestamp": "2026-04-22T17:47:55.189132+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vectordatabase/comments/1hzovpy/best_vector_database_for_rag/"
   },
   {
-    "timestamp": "2026-04-19T07:02:28.071910+00:00",
-    "type": "process",
-    "message": "Processed chunk 99, 1947 left."
+    "timestamp": "2026-04-22T17:47:58.456570+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:02:38.806840+00:00",
-    "type": "process",
-    "message": "Processed chunk 100, 1897 left."
+    "timestamp": "2026-04-22T17:47:59.292195+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:02:51.996532+00:00",
-    "type": "process",
-    "message": "Processed chunk 101, 1847 left."
+    "timestamp": "2026-04-22T17:48:09.993407+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIDeveloperNews/comments/1rjhgfg/which_tools_are_you_missing/"
   },
   {
-    "timestamp": "2026-04-19T07:03:02.269036+00:00",
-    "type": "process",
-    "message": "Processed chunk 102, 1797 left."
+    "timestamp": "2026-04-22T17:48:10.592613+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIDeveloperNews/comments/1rjhgfg/which_tools_are_you_missing/"
   },
   {
-    "timestamp": "2026-04-19T07:03:12.393920+00:00",
-    "type": "process",
-    "message": "Processed chunk 103, 1747 left."
+    "timestamp": "2026-04-22T17:48:12.817429+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:03:22.299933+00:00",
-    "type": "process",
-    "message": "Processed chunk 104, 1697 left."
+    "timestamp": "2026-04-22T17:48:14.639299+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:03:31.494952+00:00",
-    "type": "process",
-    "message": "Processed chunk 105, 1647 left."
+    "timestamp": "2026-04-22T17:48:20.224962+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:03:40.582396+00:00",
-    "type": "process",
-    "message": "Processed chunk 106, 1597 left."
+    "timestamp": "2026-04-22T17:48:21.647830+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:03:49.966041+00:00",
-    "type": "process",
-    "message": "Processed chunk 107, 1547 left."
+    "timestamp": "2026-04-22T17:48:25.616965+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIDiscussion/comments/1rizs2o/report_a_selfinflicted_6hour_thoughts_accident/"
   },
   {
-    "timestamp": "2026-04-19T07:03:58.635644+00:00",
-    "type": "process",
-    "message": "Processed chunk 108, 1497 left."
+    "timestamp": "2026-04-22T17:48:27.107425+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIDiscussion/comments/1rizs2o/report_a_selfinflicted_6hour_thoughts_accident/"
   },
   {
-    "timestamp": "2026-04-19T07:04:07.268411+00:00",
-    "type": "process",
-    "message": "Processed chunk 109, 1447 left."
+    "timestamp": "2026-04-22T17:48:30.537622+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T07:04:16.309459+00:00",
-    "type": "process",
-    "message": "Processed chunk 110, 1397 left."
+    "timestamp": "2026-04-22T17:48:32.331024+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/Mnehmos/MCP-OODA-Computer"
   },
   {
-    "timestamp": "2026-04-19T07:04:26.217295+00:00",
-    "type": "process",
-    "message": "Processed chunk 111, 1347 left."
+    "timestamp": "2026-04-22T17:48:32.347791+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:04:34.919183+00:00",
-    "type": "process",
-    "message": "Processed chunk 112, 1297 left."
+    "timestamp": "2026-04-22T17:48:33.574353+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:04:43.624192+00:00",
-    "type": "process",
-    "message": "Processed chunk 113, 1247 left."
+    "timestamp": "2026-04-22T17:48:34.102832+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:04:52.637696+00:00",
-    "type": "process",
-    "message": "Processed chunk 114, 1197 left."
+    "timestamp": "2026-04-22T17:48:34.118817+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T07:05:01.535526+00:00",
-    "type": "process",
-    "message": "Processed chunk 115, 1147 left."
+    "timestamp": "2026-04-22T17:48:35.190391+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:05:10.217323+00:00",
-    "type": "process",
-    "message": "Processed chunk 116, 1097 left."
+    "timestamp": "2026-04-22T17:48:35.219666+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:05:18.689979+00:00",
-    "type": "process",
-    "message": "Processed chunk 117, 1047 left."
+    "timestamp": "2026-04-22T17:48:36.276827+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://synthetic.new/user-settings/api"
   },
   {
-    "timestamp": "2026-04-19T07:05:27.143318+00:00",
-    "type": "process",
-    "message": "Processed chunk 118, 997 left."
+    "timestamp": "2026-04-22T17:48:36.914225+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T07:05:35.561162+00:00",
-    "type": "process",
-    "message": "Processed chunk 119, 947 left."
+    "timestamp": "2026-04-22T17:48:37.149581+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:05:44.512544+00:00",
-    "type": "process",
-    "message": "Processed chunk 120, 897 left."
+    "timestamp": "2026-04-22T17:48:37.165489+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-stock-market-data-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:05:56.530349+00:00",
-    "type": "process",
-    "message": "Processed chunk 121, 847 left."
+    "timestamp": "2026-04-22T17:48:38.876623+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://chutes.ai/app/api"
   },
   {
-    "timestamp": "2026-04-19T07:06:05.813558+00:00",
-    "type": "process",
-    "message": "Processed chunk 122, 797 left."
+    "timestamp": "2026-04-22T17:48:38.896627+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T07:06:14.951148+00:00",
-    "type": "process",
-    "message": "Processed chunk 123, 747 left."
+    "timestamp": "2026-04-22T17:48:39.016373+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/OctagonAI/octagon-stock-market-data-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:06:23.753534+00:00",
-    "type": "process",
-    "message": "Processed chunk 124, 697 left."
+    "timestamp": "2026-04-22T17:48:39.031770+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-financials-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:06:32.476529+00:00",
-    "type": "process",
-    "message": "Processed chunk 125, 647 left."
+    "timestamp": "2026-04-22T17:48:40.737085+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://poe.com/settings"
   },
   {
-    "timestamp": "2026-04-19T07:06:40.474367+00:00",
-    "type": "process",
-    "message": "Processed chunk 126, 597 left."
+    "timestamp": "2026-04-22T17:48:40.765026+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T07:06:51.332618+00:00",
-    "type": "process",
-    "message": "Processed chunk 127, 547 left."
+    "timestamp": "2026-04-22T17:48:41.146984+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/OctagonAI/octagon-financials-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:07:00.347172+00:00",
-    "type": "process",
-    "message": "Processed chunk 128, 497 left."
+    "timestamp": "2026-04-22T17:48:41.167640+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-transcripts-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:07:10.321011+00:00",
-    "type": "process",
-    "message": "Processed chunk 129, 447 left."
+    "timestamp": "2026-04-22T17:48:42.142055+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIEval/comments/1qhcrq1/when_to_stop_working_on_evals/"
   },
   {
-    "timestamp": "2026-04-19T07:07:20.411473+00:00",
-    "type": "process",
-    "message": "Processed chunk 130, 397 left."
+    "timestamp": "2026-04-22T17:48:42.859811+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claude/comments/1ownpj8/megallm_70_llms_one_api_ai_gateway_for_developers/"
   },
   {
-    "timestamp": "2026-04-19T07:07:30.639722+00:00",
-    "type": "process",
-    "message": "Processed chunk 131, 347 left."
+    "timestamp": "2026-04-22T17:48:44.426086+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-funding-data-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:07:41.345341+00:00",
+    "timestamp": "2026-04-22T17:48:46.477345+00:00",
     "type": "process",
-    "message": "Processed chunk 132, 297 left."
+    "message": "Finalizing extraction for: https://www.reddit.com/r/aifreeforever/comments/1oxnh6p/try_megallm/"
   },
   {
-    "timestamp": "2026-04-19T07:08:03.211493+00:00",
-    "type": "process",
-    "message": "Processed chunk 133, 247 left."
+    "timestamp": "2026-04-22T17:48:46.505732+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/OctagonAI/octagon-funding-data-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:08:15.939134+00:00",
-    "type": "process",
-    "message": "Processed chunk 134, 197 left."
+    "timestamp": "2026-04-22T17:48:57.565526+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:08:21.673337+00:00",
-    "type": "process",
-    "message": "Processed chunk 135, 147 left."
+    "timestamp": "2026-04-22T17:48:59.133406+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI"
   },
   {
-    "timestamp": "2026-04-19T07:08:26.648858+00:00",
-    "type": "process",
-    "message": "Processed chunk 136, 97 left."
+    "timestamp": "2026-04-22T17:48:59.149233+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
   },
   {
-    "timestamp": "2026-04-19T07:08:34.454439+00:00",
-    "type": "process",
-    "message": "Processed chunk 137, 47 left."
+    "timestamp": "2026-04-22T17:48:59.468848+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIEval/comments/1qju8wg/how_do_you_prevent_ai_evals_from_becoming/"
   },
   {
-    "timestamp": "2026-04-19T07:08:42.286303+00:00",
-    "type": "process",
-    "message": "Processed chunk 138, -3 left."
+    "timestamp": "2026-04-22T17:49:00.970646+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/OctagonAI/octagon-sec-filings-mcp"
+  }
+]how_do_you_prevent_ai_evals_from_becoming/"
   }
 ]

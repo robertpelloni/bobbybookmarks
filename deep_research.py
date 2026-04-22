@@ -142,7 +142,7 @@ def borg_research_url(url, content, status):
                 })
                 write_status(status)
                 continue
-            res_text = response.text.strip()
+            res_text = response.text.strip() if hasattr(response, 'text') else str(response).strip()
             if "```json" in res_text: res_text = res_text.split("```json")[1].split("```")[0].strip()
             elif "```" in res_text: res_text = res_text.split("```")[1].split("```")[0].strip()
             return json.loads(res_text)
