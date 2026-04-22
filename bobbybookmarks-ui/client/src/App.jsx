@@ -781,21 +781,28 @@ function App() {
 
             <div className="card chart-card">
               <div className="card-header">
-                <h3><BrainCircuit size={18} /> Intelligence Breakdown</h3>
+                <h3><BrainCircuit size={18} /> Research Status Breakdown</h3>
               </div>
               <div className="chart-container">
                 <ResponsiveContainer width="100%" height={300}>
-                  <BarChart data={researchData}>
-                    <CartesianGrid strokeDasharray="3 3" stroke="#334155" />
-                    <XAxis dataKey="name" stroke="#94a3b8" />
-                    <YAxis stroke="#94a3b8" />
-                    <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: 'none' }} />
-                    <Bar dataKey="value">
+                  <PieChart>
+                    <Pie
+                      data={researchData}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={60}
+                      outerRadius={100}
+                      paddingAngle={5}
+                      dataKey="value"
+                      label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                    >
                       {researchData.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={entry.color} />
                       ))}
-                    </Bar>
-                  </BarChart>
+                    </Pie>
+                    <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: 'none' }} />
+                    <Legend />
+                  </PieChart>
                 </ResponsiveContainer>
               </div>
             </div>
