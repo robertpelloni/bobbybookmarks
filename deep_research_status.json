@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/steipete/macos-automator-mcp",
-  "borg_rows": 10423,
+  "active_url": "https://github.com/ttjslbz001/akshare_mcp_server",
+  "borg_rows": 10618,
   "last_error": null,
-  "last_extracted_url": "https://www.reddit.com/r/Anthropic/comments/1ry67zo/claude_inserted_a_message_at_the_end_of_its/",
+  "last_extracted_url": "https://github.com/twolven/mcp-optionsflow",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 5126,
+  "remaining_urls": 4511,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-04-23T14:12:38.417566+00:00",
+  "updated_at": "2026-04-23T21:29:16.475076+00:00",
   "worker_pid": 46856
 }
