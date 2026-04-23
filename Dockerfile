@@ -1,39 +1,52 @@
-# Stage 1: Build the React/TypeScript frontend
-FROM node:22-slim AS frontend-builder
-WORKDIR /app
-COPY package.json package-lock.json ./
+# Use a multi-stage build to keep the image small
+FROM node:18-slim AS frontend-builder
+WORKDIR /app/client
+COPY bobbybookmarks-ui/client/package*.json ./
 RUN npm install
-COPY . .
+COPY bobbybookmarks-ui/client/ ./
+# Pass the API URL as a build arg
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
 RUN npm run build
 
-# Stage 2: Build the Go backend
-FROM golang:1.22-alpine AS backend-builder
+# Final image
+FROM python:3.11-slim
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    gnupg \
+    procps \
+    && curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    apt-get install -y nodejs \
+    && rm -rf /var/lib/apt/lists/*
+
 WORKDIR /app
-# Install build tools for CGO (required by go-sqlite3)
-RUN apk add --no-cache gcc musl-dev
-COPY backend/go.mod backend/go.sum ./backend/
-RUN cd backend && go mod download
-COPY backend/ ./backend/
-RUN cd backend && CGO_ENABLED=1 GOOS=linux go build -o /bobby-backend ./cmd/api/main.go
 
-# Stage 3: Final runtime image
-FROM alpine:latest
-WORKDIR /app
+# Install Python deps
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install gunicorn
 
-# Install dependencies (including SQLite)
-RUN apk add --no-cache ca-certificates sqlite-libs libc6-compat
+# Copy all source
+COPY . .
 
-# Copy frontend build artifacts
-COPY --from=frontend-builder /app/dist ./dist
+# Copy the built frontend to where it's served
+# Note: In a production Docker setup, you might serve static files via Nginx or similar
+# Here we copy it to a location if the Flask/Node app serves it
+COPY --from=frontend-builder /app/client/dist ./bobbybookmarks-ui/client/dist
 
-# Copy backend binary
-COPY --from=backend-builder /bobby-backend ./bobby-backend
+# Expose ports
+EXPOSE 3000 3002 5000
 
-# Copy the database
-COPY bookmarks.db ./bookmarks.db
+# Start script
+RUN echo "#!/bin/bash\n\
+# Start Flask\n\
+gunicorn app:application --bind 0.0.0.0:5000 &\n\
+# Start Express\n\
+cd bobbybookmarks-ui/server && node server.js &\n\
+# Start Worker\n\
+python deep_research.py\n\
+" > /app/start.sh && chmod +x /app/start.sh
 
-# Expose the port (Render default is 10000)
-EXPOSE 10000
-
-# Run the unified service
-CMD ["./bobby-backend"]
+CMD ["/app/start.sh"]

@@ -9,7 +9,8 @@ from datetime import datetime, timezone
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urlunparse
 
-from llm_pool import LLMPool, stringify_field
+from multi_pool import MultiProviderPool
+from gemini_pool import stringify_field
 from deduplicator import normalize_url
 logging.basicConfig(
     level=logging.INFO, 
@@ -26,8 +27,8 @@ BOOKMARKS_FILE = 'bookmarks.txt'
 DB_PATH = 'bookmarks.db'
 STATUS_PATH = 'deep_research_status.json'
 
-llm_pool = LLMPool(logger=logger)
-LLM_MODELS = [f"{b}/{m}" for b, m in llm_pool.all_backends]
+gemini_pool = MultiProviderPool(logger=logger)
+GEMINI_MODELS = [p['name'] for p in gemini_pool.providers]
 
 BORG_TAXONOMY = [
     "Agent Orchestration & Workflow",
@@ -77,46 +78,16 @@ def iso_now():
 def write_status(status):
     payload = dict(status)
     payload['updated_at'] = iso_now()
-    # Robust write: try atomic replace, fall back to direct write
     temp_path = f"{STATUS_PATH}.tmp"
+    with open(temp_path, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, indent=2, sort_keys=True)
     try:
-        with open(temp_path, 'w', encoding='utf-8') as f:
-            json.dump(payload, f, indent=2, sort_keys=True)
-        try:
-            os.replace(temp_path, STATUS_PATH)
-        except (PermissionError, OSError):
-            # Windows sometimes locks the file; fall back to direct write
-            with open(STATUS_PATH, 'w', encoding='utf-8') as f:
-                json.dump(payload, f, indent=2, sort_keys=True)
-            try:
-                os.unlink(temp_path)
-            except OSError:
-                pass
-    except (PermissionError, OSError):
-        # Last resort: direct write
-        try:
-            with open(STATUS_PATH, 'w', encoding='utf-8') as f:
-                json.dump(payload, f, indent=2, sort_keys=True)
-        except OSError:
-            pass  # Non-critical; keep processing
-
-def write_feed(message, type="info"):
-    feed_path = os.path.join('logs', 'live_feed.json')
-    entry = {
-        "timestamp": iso_now(),
-        "type": type,
-        "message": message
-    }
-    try:
-        # Keep only the last 100 entries for efficiency
-        entries = []
-        if os.path.exists(feed_path):
-            with open(feed_path, 'r', encoding='utf-8') as f:
-                entries = json.load(f)
-        entries.append(entry)
-        with open(feed_path, 'w', encoding='utf-8') as f:
-            json.dump(entries[-100:], f, indent=2)
-    except Exception: pass
+        os.replace(temp_path, STATUS_PATH)
+    except PermissionError:
+        import shutil
+        shutil.copy2(temp_path, STATUS_PATH)
+        try: os.unlink(temp_path)
+        except: pass
 
 def write_feed(message, type="info"):
     feed_path = os.path.join('logs', 'live_feed.json')
@@ -157,64 +128,42 @@ def borg_research_url(url, content, status):
     - TAGS: 8-12 technical tags (lowercase).
     """
     
-    max_retries = 3
-    for attempt in range(max_retries):
+    while True:
         try:
             status.update({
                 'state': 'researching',
                 'active_url': url,
                 'sleep_seconds': None,
                 'last_error': None,
-                'attempt': attempt + 1,
             })
             write_status(status)
-            res_text, model_used = llm_pool.generate_content(prompt, f"researching {url}")
-            if res_text is None:
+            response, _ = gemini_pool.generate(prompt, f"researching {url}")
+            if response is None:
                 status.update({
                     'state': 'backing_off',
                     'active_url': url,
-                    'sleep_seconds': llm_pool.last_backoff_seconds,
-                    'last_error': llm_pool.last_error_summary,
-                    'last_model': llm_pool.active_model_name,
+                    'sleep_seconds': gemini_pool.last_backoff_seconds,
+                    'last_error': gemini_pool.last_error_summary,
+                    'last_model': gemini_pool.last_provider_name,
                 })
                 write_status(status)
                 continue
-            # Clean response - strip markdown code fences
-            res_text = res_text.strip()
-            if "```json" in res_text:
-                res_text = res_text.split("```json")[1].split("```")[0].strip()
-            elif "```" in res_text:
-                res_text = res_text.split("```")[1].split("```")[0].strip()
-            # Try to find JSON object in response
-            json_match = re.search(r'\{[^{}]*\}', res_text, re.DOTALL)
-            if json_match:
-                res_text = json_match.group(0)
+            res_text = response.text.strip() if hasattr(response, 'text') else str(response).strip()
+            if "```json" in res_text: res_text = res_text.split("```json")[1].split("```")[0].strip()
+            elif "```" in res_text: res_text = res_text.split("```")[1].split("```")[0].strip()
             return json.loads(res_text)
-        except json.JSONDecodeError as e:
-            logger.warning(f"JSON decode error (attempt {attempt+1}/{max_retries}) for {url}: {e}")
-            if attempt == max_retries - 1:
-                logger.error(f"Failed to decode LLM response for {url} after {max_retries} attempts")
-                status.update({
-                    'state': 'decode_error',
-                    'active_url': url,
-                    'last_error': str(e),
-                })
-                write_status(status)
-                return None
-            time.sleep(5)
         except Exception as e:
-            logger.error(f"Unexpected error researching {url}: {e}")
+            logger.error(f"Failed to decode Gemini response for {url}: {e}")
             status.update({
-                'state': 'error',
+                'state': 'decode_error',
                 'active_url': url,
                 'last_error': str(e),
             })
             write_status(status)
             return None
-    return None
 
 def main():
-    logger.info(f"Using LLM backends: {', '.join(LLM_MODELS)}")
+    logger.info(f"Using Gemini models: {', '.join(GEMINI_MODELS)}")
     conn = init_db()
     cursor = conn.cursor()
     cursor.execute("SELECT url FROM bookmarks WHERE research_level = 'borg'")
@@ -231,8 +180,7 @@ def main():
 
     status = {
         'worker_pid': os.getpid(),
-        'models': LLM_MODELS,
-        'backend': 'lmstudio -> openrouter/free',
+        'models': GEMINI_MODELS,
         'state': 'starting',
         'active_url': None,
         'last_extracted_url': None,
@@ -302,7 +250,7 @@ def main():
                     'sleep_seconds': None,
                     'remaining_urls': len(urls) - index - 1,
                     'borg_rows': status.get('borg_rows', len(processed)) + 1,
-                    'last_model': llm_pool.active_model_name,
+                    'last_model': gemini_pool.last_provider_name,
                 })
                 write_status(status)
             except Exception as e:
@@ -314,7 +262,7 @@ def main():
                 })
                 write_status(status)
         
-        time.sleep(5)  # Faster with local LLM - no API rate limits
+        time.sleep(15) # Steady state
 
 if __name__ == "__main__":
     main()

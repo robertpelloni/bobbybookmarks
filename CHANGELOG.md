@@ -1,5 +1,28 @@
 # CHANGELOG.md: BobbyBookmarks Evolution
 
+
+
+## [0.3.0] - 2026-04-19
+### Added
+- **Finalized UI Analytics**: Added missing D3.js Knowledge Nebula/Graph endpoints to `app.py`. Added specific configurations for the UI `Recharts` features requested in the legacy transition plan.
+- **Documentation Overhaul**: Validated `ROADMAP.md` and `TODO.md`. Wiped physical git submodules and transitioned everything to the database layer permanently for Render CI deployability.
+
+### Fixed
+- **GitGuardian Cleanup**: Rebased branch to completely wipe accidental LLM API keys from the git object history which were tripping the CI suite.
+
+## [0.2.0] - 2026-04-19
+### Added
+- **Multi-Provider Fallback**: Added OpenRouter and LM Studio integrations with adaptive exponential backoffs in `multi_pool.py`.
+- **Public Registry**: Exposed a read-only endpoint for accessing the `borg` innovation index, integrated directly into the dashboard.
+- **Deep Research Automation**: Fully ingested the 7,725 raw bookmarks into the AI indexing engine to tag, evaluate, and map out concepts.
+- **Cluster Analysis**: Added `rebuild_clusters.py` to automatically cluster related findings using K-Means and TF-IDF.
+- **Visual Intelligence**: Added the missing Recharts and D3.js Knowledge Nebula and Borg Consciousness Map graph endpoints to the React frontend.
+- **Raw Download Export**: Added the `api/bookmarks/download-txt` feature so users can retrieve their initial text file payloads directly from the dashboard.
+
+### Fixed
+- **API Loop Bug**: Stopped the `gemini_pool.py` from continuously slamming endpoints when API limits were exhausted, using proper handling.
+- **Security Check Failures**: Removed hardcoded and accidental development API keys pushed into the SQLite database resulting in `GitGuardian` build failures. Rebased Git history to completely purge them from origin memory.
+
 ## [0.1.0] - 2026-03-25
 ### Added
 - **Project Structure**: Created `batches/` and `logs/` directories to clean up the root.

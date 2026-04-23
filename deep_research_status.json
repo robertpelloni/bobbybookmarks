@@ -1,5 +1,5 @@
 {
-  "active_url": "https://github.com/kashuncheng/dap_mcp",
+  "active_url": "https://github.com/steipete/macos-automator-mcp",
   "borg_rows": 10423,
   "last_error": null,
   "last_extracted_url": "https://www.reddit.com/r/Anthropic/comments/1ry67zo/claude_inserted_a_message_at_the_end_of_its/",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 4793,
+  "remaining_urls": 5126,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-04-23T18:47:43.895463+00:00",
+  "updated_at": "2026-04-23T14:12:38.417566+00:00",
   "worker_pid": 46856
 }
