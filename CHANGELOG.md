@@ -1,6 +1,15 @@
 # CHANGELOG.md: BobbyBookmarks Evolution
 
 
+
+## [0.3.0] - 2026-04-19
+### Added
+- **Finalized UI Analytics**: Added missing D3.js Knowledge Nebula/Graph endpoints to `app.py`. Added specific configurations for the UI `Recharts` features requested in the legacy transition plan.
+- **Documentation Overhaul**: Validated `ROADMAP.md` and `TODO.md`. Wiped physical git submodules and transitioned everything to the database layer permanently for Render CI deployability.
+
+### Fixed
+- **GitGuardian Cleanup**: Rebased branch to completely wipe accidental LLM API keys from the git object history which were tripping the CI suite.
+
 ## [0.2.0] - 2026-04-19
 ### Added
 - **Multi-Provider Fallback**: Added OpenRouter and LM Studio integrations with adaptive exponential backoffs in `multi_pool.py`.

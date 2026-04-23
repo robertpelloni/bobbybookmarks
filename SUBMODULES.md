@@ -1,6 +1,7 @@
 # SUBMODULES.md: Intelligence Sources & Skills
 
-This document serves as the master dashboard for all external registries and knowledge bases integrated into the BobbyBookmarks ecosystem.
+This document serves as the historical index of external registries and knowledge bases integrated into the BobbyBookmarks ecosystem.
+*Note: As of v0.2.0, the physical git submodules have been removed to resolve CI deployment constraints and simplify architecture. The intelligence and skills derived from these sources are now fully assimilated into the centralized `bookmarks.db` and the `skills/autonomous` directory respectively.*
 
 ## 🗂️ MCP Registries (Data Sources)
 These submodules are programmatically scanned by `sync_submodules.py` to populate the research queue.
@@ -34,4 +35,4 @@ These submodules provide the specialized logic and prompt protocols used by the 
 
 ---
 *Last Updated: 2026-03-26*
-*Note: All submodules are automatically updated by the `auto_pulse.py` daemon.*
+*Note: Submodules have been assimilated into the centralized database architecture.*
