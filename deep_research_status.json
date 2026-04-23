@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/nasoma/africastalking-airtime-mcp",
-  "borg_rows": 10604,
+  "active_url": "https://github.com/steipete/macos-automator-mcp",
+  "borg_rows": 10423,
   "last_error": null,
-  "last_extracted_url": "https://github.com/vatsal191201/tracxn-mcp/tree/HEAD/tracxn-mcp",
+  "last_extracted_url": "https://www.reddit.com/r/Anthropic/comments/1ry67zo/claude_inserted_a_message_at_the_end_of_its/",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 4526,
+  "remaining_urls": 5126,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-04-23T21:21:45.077612+00:00",
+  "updated_at": "2026-04-23T14:12:38.417566+00:00",
   "worker_pid": 46856
 }

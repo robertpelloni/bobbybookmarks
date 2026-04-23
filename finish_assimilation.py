@@ -4,7 +4,7 @@ import time
 import subprocess
 import sys
 
-API_KEY = "AIzaSyB9juQ3l2gNtaFxAPkNuXlrV7Q99zL_yTo"
+API_KEY = "YOUR_GEMINI_API_KEY"
 
 def get_missing_embeddings():
     conn = sqlite3.connect('bookmarks.db')

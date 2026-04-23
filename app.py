@@ -803,6 +803,34 @@ def create_app(config_object=None):
             "import_sessions": sessions,
         })
 
+
+    @app.route("/api/analytics/graph", methods=["GET"])
+    def api_analytics_graph():
+        bookmarks = Bookmark.query.filter(Bookmark.research_level == 'borg').limit(150).all()
+        nodes = []
+        links = []
+
+        # Add categories as nodes
+        categories = set(bm.category for bm in bookmarks if bm.category)
+        for cat in categories:
+            nodes.append({"id": f"cat_{cat}", "name": cat, "type": "category", "value": 10})
+
+        # Add bookmarks and links
+        for bm in bookmarks:
+            nodes.append({"id": f"bm_{bm.id}", "name": bm.title or bm.url, "type": "bookmark", "value": 5})
+            if bm.category:
+                links.append({"source": f"bm_{bm.id}", "target": f"cat_{cat}", "value": 2})
+
+            # Add top tags
+            if bm.tags:
+                tags = [t.strip() for t in bm.tags.split(',')[:3]]
+                for tag in tags:
+                    if not any(n['id'] == f"tag_{tag}" for n in nodes):
+                        nodes.append({"id": f"tag_{tag}", "name": tag, "type": "tag", "value": 3})
+                    links.append({"source": f"bm_{bm.id}", "target": f"tag_{tag}", "value": 1})
+
+        return jsonify({"nodes": nodes, "links": links})
+
     @app.route("/api/analytics", methods=["GET"])
     def api_analytics():
         bookmarks = Bookmark.query.order_by(Bookmark.id.asc()).all()

@@ -3,7 +3,7 @@ import os
 import sys
 import time
 
-API_KEY = "AIzaSyB9juQ3l2gNtaFxAPkNuXlrV7Q99zL_yTo"
+API_KEY = "YOUR_GEMINI_API_KEY"
 
 def run_with_key(script_name, args=[]):
     print(f"--- Running {script_name} ---")

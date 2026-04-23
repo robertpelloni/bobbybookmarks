@@ -1,0 +1,316 @@
+from datetime import datetime
+from unittest.mock import patch
+import sqlite3
+
+from app import build_external_corpus_payload, query_external_corpus_bookmarks
+from models import Bookmark, Cluster, db
+
+
+def seed_analytics_data():
+    Bookmark.query.delete()
+    Cluster.query.delete()
+    db.session.commit()
+
+    cluster = Cluster(name="AI Agents", tags=["ai", "agents"], bookmark_count=2)
+    db.session.add(cluster)
+    db.session.flush()
+
+    alpha = Bookmark(
+        url="https://github.com/acme/alpha",
+        normalized_url="https://github.com/acme/alpha",
+        title="Alpha Agents",
+        tags=["ai", "agents"],
+        source="text",
+        research_status="done",
+        imported_at=datetime(2026, 3, 1, 12, 0, 0),
+        researched_at=datetime(2026, 3, 2, 12, 0, 0),
+        cluster_id=cluster.id,
+    )
+    db.session.add(alpha)
+    db.session.flush()
+
+    bookmarks = [
+        Bookmark(
+            url="https://github.com/acme/beta",
+            normalized_url="https://github.com/acme/beta",
+            title="Beta Tools",
+            tags=["ai", "tools"],
+            source="text",
+            research_status="failed",
+            imported_at=datetime(2026, 3, 3, 12, 0, 0),
+            researched_at=datetime(2026, 3, 4, 12, 0, 0),
+        ),
+        Bookmark(
+            url="https://docs.python.org/3/library/sqlite3.html",
+            normalized_url="https://docs.python.org/3/library/sqlite3.html",
+            title="SQLite Docs",
+            tags=[],
+            source="chrome_json",
+            research_status="pending",
+            imported_at=datetime(2026, 3, 5, 12, 0, 0),
+        ),
+        Bookmark(
+            url="https://news.ycombinator.com/item?id=1",
+            normalized_url="https://news.ycombinator.com/item?id=1",
+            title="Gamma Thread",
+            tags=["agents", "python"],
+            source="firefox_json",
+            research_status="done",
+            imported_at=datetime(2026, 3, 6, 12, 0, 0),
+            researched_at=datetime(2026, 3, 7, 12, 0, 0),
+            cluster_id=cluster.id,
+        ),
+        Bookmark(
+            url="https://github.com/acme/alpha?utm_source=test",
+            normalized_url="https://github.com/acme/alpha",
+            title="Alpha Agents Duplicate",
+            tags=["ai"],
+            source="text",
+            is_duplicate=True,
+            duplicate_of=alpha.id,
+            research_status="skipped",
+            imported_at=datetime(2026, 3, 8, 12, 0, 0),
+        ),
+    ]
+    db.session.add_all(bookmarks)
+    db.session.commit()
+
+
+def test_api_analytics_returns_pattern_breakdowns(client, app):
+    with app.app_context():
+        seed_analytics_data()
+
+    response = client.get("/api/analytics")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["summary"]["unique_bookmarks"] == 4
+    assert payload["summary"]["duplicate_bookmarks"] == 1
+    assert payload["summary"]["untagged_bookmarks"] == 1
+    assert payload["summary"]["uncategorized_bookmarks"] == 2
+    assert payload["summary"]["unique_domains"] == 3
+    assert payload["top_domains"][0]["domain"] == "github.com"
+    assert payload["top_domains"][0]["count"] == 2
+    assert any(item["tag"] == "ai" and item["count"] == 2 for item in payload["top_tags"])
+    assert payload["top_clusters"][0]["name"] == "AI Agents"
+    assert payload["top_clusters"][0]["count"] == 2
+    assert payload["top_tag_pairs"][0]["label"] == "agents + ai"
+    assert payload["import_timeline"][-1]["day"] == "2026-03-06"
+    assert any(item["label"] == "Untagged bookmarks" and item["count"] == 1 for item in payload["opportunities"])
+
+
+def test_api_bookmarks_supports_new_filters_and_sorting(client, app):
+    with app.app_context():
+        seed_analytics_data()
+
+    response = client.get("/api/bookmarks?source=text&domain=github.com&sort=title&dir=asc")
+    payload = response.get_json()
+
+    assert response.status_code == 200
+    assert [item["title"] for item in payload["bookmarks"]] == ["Alpha Agents", "Beta Tools"]
+
+    response = client.get("/api/bookmarks?tags=__empty__")
+    payload = response.get_json()
+    assert response.status_code == 200
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["title"] == "SQLite Docs"
+
+    response = client.get("/api/bookmarks?cluster_id=none")
+    payload = response.get_json()
+    assert response.status_code == 200
+    assert payload["total"] == 2
+
+    response = client.get("/api/bookmarks?duplicate_mode=only")
+    payload = response.get_json()
+    assert response.status_code == 200
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["is_duplicate"] is True
+
+
+def test_api_research_status_prefers_external_worker(client, app):
+    external_status = {
+        "worker_running": True,
+        "state": "researching",
+        "process": {"pid": 4321, "command_line": "python .\\deep_research.py"},
+        "progress": {"borg_rows": 120, "total_urls": 500, "remaining_urls": 380},
+        "log_state": {
+            "active_url": "https://example.com/current",
+            "last_extracted_url": "https://example.com/done",
+            "sleep_seconds": 59,
+            "last_message": "Sleeping 59s before retry.",
+            "last_timestamp": "2026-03-21 10:00:00,000",
+        },
+        "heartbeat": {
+            "updated_at": "2026-03-21T10:00:00Z",
+            "last_model": "models/gemini-2.5-pro",
+            "models": ["models/gemini-2.5-pro"],
+        },
+    }
+    with patch("app.build_external_worker_status", return_value=external_status):
+        response = client.get("/api/research/status")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["running"] is True
+    assert payload["worker_mode"] == "external"
+    assert payload["external_worker"]["pid"] == 4321
+    assert payload["external_worker"]["active_url"] == "https://example.com/current"
+    assert payload["external_worker"]["last_model"] == "models/gemini-2.5-pro"
+    assert payload["external_worker"]["borg_rows"] == 120
+
+
+def test_api_research_status_falls_back_to_app_worker(client, app):
+    external_status = {
+        "worker_running": False,
+        "state": "stopped",
+        "process": None,
+        "progress": {"borg_rows": 0, "total_urls": 0, "remaining_urls": 0},
+        "log_state": {
+            "active_url": None,
+            "last_extracted_url": None,
+            "sleep_seconds": None,
+            "last_message": None,
+            "last_timestamp": None,
+        },
+        "heartbeat": None,
+    }
+    worker = app.extensions.get("research_worker_override")
+    if worker is None:
+        from research import get_worker
+        worker = get_worker()
+    original_running = worker._running
+    worker._running = True
+    try:
+        with patch("app.build_external_worker_status", return_value=external_status):
+            response = client.get("/api/research/status")
+    finally:
+        worker._running = original_running
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["running"] is True
+    assert payload["worker_mode"] == "app"
+    assert payload["external_worker"]["running"] is False
+
+
+def test_build_external_corpus_payload_summarizes_root_schema(tmp_path):
+    db_path = tmp_path / "external.db"
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE bookmarks (
+            id INTEGER PRIMARY KEY,
+            url TEXT,
+            category TEXT,
+            short_description TEXT,
+            long_description TEXT,
+            tags TEXT,
+            main_features TEXT,
+            created_at TEXT,
+            research_level TEXT,
+            innovation_score INTEGER
+        )
+        """
+    )
+    cur.executemany(
+        "INSERT INTO bookmarks (url, category, tags, research_level, innovation_score) VALUES (?, ?, ?, ?, ?)",
+        [
+            ("https://example.com/a", "AI Agents", "agents, orchestration", "borg", 10),
+            ("https://example.com/b", "AI Agents", "agents, tools", "borg", 8),
+            ("https://example.com/c", "Infrastructure", "proxy, tools", "deep", 6),
+        ],
+    )
+    conn.commit()
+    conn.close()
+
+    payload = build_external_corpus_payload(str(db_path))
+
+    assert payload["available"] is True
+    assert payload["summary"]["total_rows"] == 3
+    assert payload["summary"]["borg_rows"] == 2
+    assert payload["summary"]["category_count"] == 2
+    assert payload["summary"]["avg_innovation_score"] == 8.0
+    assert payload["research_levels"][0] == {"level": "borg", "count": 2}
+    assert payload["top_categories"][0] == {"category": "AI Agents", "count": 2}
+    assert payload["top_tags"][0] == {"tag": "agents", "count": 2}
+    assert payload["recent_borg"][0]["research_level"] == "borg"
+
+
+def test_api_external_corpus_uses_helper(client):
+    mocked = {
+        "available": True,
+        "summary": {"total_rows": 100, "borg_rows": 10, "category_count": 5, "avg_innovation_score": 7.5},
+        "research_levels": [{"level": "borg", "count": 10}],
+        "top_categories": [{"category": "AI Agents", "count": 20}],
+        "top_tags": [{"tag": "agents", "count": 30}],
+        "innovation_distribution": [{"score": 10, "count": 4}],
+        "recent_borg": [{"url": "https://example.com", "category": "AI Agents", "tags": ["agents"], "innovation_score": 10, "research_level": "borg"}],
+    }
+    with patch("app.build_external_corpus_payload", return_value=mocked):
+        response = client.get("/api/external-corpus")
+
+    assert response.status_code == 200
+    assert response.get_json()["summary"]["total_rows"] == 100
+
+
+def test_query_external_corpus_bookmarks_filters_and_sorts(tmp_path):
+    db_path = tmp_path / "external-list.db"
+    conn = sqlite3.connect(db_path)
+    cur = conn.cursor()
+    cur.execute(
+        """
+        CREATE TABLE bookmarks (
+            id INTEGER PRIMARY KEY,
+            url TEXT,
+            category TEXT,
+            short_description TEXT,
+            long_description TEXT,
+            tags TEXT,
+            main_features TEXT,
+            created_at TEXT,
+            research_level TEXT,
+            innovation_score INTEGER
+        )
+        """
+    )
+    cur.executemany(
+        "INSERT INTO bookmarks (url, category, short_description, tags, main_features, created_at, research_level, innovation_score) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+            ("https://example.com/a", "AI Agents", "Alpha", "agents, orchestration", "memory, planning", "2026-03-01", "borg", 10),
+            ("https://example.com/b", "Infrastructure", "Beta", "proxy, tools", "routing", "2026-03-02", "deep", 6),
+            ("https://example.com/c", "AI Agents", "Gamma", "agents, tools", "planning", "2026-03-03", "borg", 8),
+        ],
+    )
+    conn.commit()
+    conn.close()
+
+    payload = query_external_corpus_bookmarks(str(db_path), q="agents", research_level="borg", min_innovation=9, sort="innovation_score", direction="desc")
+
+    assert payload["available"] is True
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["url"] == "https://example.com/a"
+    assert payload["bookmarks"][0]["main_features"] == ["memory", "planning"]
+
+    payload = query_external_corpus_bookmarks(str(db_path), category="AI Agents", tags="tools", sort="id", direction="desc")
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["url"] == "https://example.com/c"
+
+
+def test_api_external_corpus_bookmarks_uses_query_helper(client):
+    mocked = {
+        "available": True,
+        "bookmarks": [{"id": 1, "url": "https://example.com/a", "category": "AI Agents", "short_description": "", "long_description": "", "tags": ["agents"], "main_features": ["planning"], "created_at": "2026-03-01", "research_level": "borg", "innovation_score": 10}],
+        "total": 1,
+        "page": 1,
+        "per_page": 20,
+        "pages": 1,
+        "filters": {"q": "agents", "category": "", "research_level": "borg", "min_innovation": 9, "tags": "", "sort": "innovation_score", "dir": "desc"},
+    }
+    with patch("app.query_external_corpus_bookmarks", return_value=mocked):
+        response = client.get("/api/external-corpus/bookmarks?q=agents&research_level=borg&min_innovation=9&sort=innovation_score&dir=desc")
+
+    assert response.status_code == 200
+    payload = response.get_json()
+    assert payload["total"] == 1
+    assert payload["bookmarks"][0]["research_level"] == "borg"
