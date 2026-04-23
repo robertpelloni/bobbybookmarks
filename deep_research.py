@@ -81,7 +81,13 @@ def write_status(status):
     temp_path = f"{STATUS_PATH}.tmp"
     with open(temp_path, 'w', encoding='utf-8') as f:
         json.dump(payload, f, indent=2, sort_keys=True)
-    os.replace(temp_path, STATUS_PATH)
+    try:
+        os.replace(temp_path, STATUS_PATH)
+    except PermissionError:
+        import shutil
+        shutil.copy2(temp_path, STATUS_PATH)
+        try: os.unlink(temp_path)
+        except: pass
 
 def write_feed(message, type="info"):
     feed_path = os.path.join('logs', 'live_feed.json')

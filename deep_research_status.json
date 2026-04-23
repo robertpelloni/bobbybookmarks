@@ -1,8 +1,9 @@
 {
-  "active_url": "https://www.reddit.com/r/GithubCopilot/comments/1rn56lk/what_is_the_difference_in_system_prompt_between/",
-  "borg_rows": 8951,
-  "last_error": "'MultiProviderPool' object has no attribute 'last_provider_name'",
-  "last_extracted_url": null,
+  "active_url": "https://github.com/ashish-bansal/playwright-mcp",
+  "borg_rows": 10423,
+  "last_error": "'MultiProviderPool' object has no attribute 'last_backoff_seconds'",
+  "last_extracted_url": "https://www.reddit.com/r/Anthropic/comments/1ry67zo/claude_inserted_a_message_at_the_end_of_its/",
+  "last_model": null,
   "models": [
     "lmstudio-local",
     "openrouter-gemma-4-26b-a4b-it",
@@ -18,9 +19,7 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 7063,
+  "remaining_urls": 5324,
   "sleep_seconds": null,
-  "state": "db_error",
-  "updated_at": "2026-04-22T21:41:51.180600+00:00",
-  "worker_pid": 34016
-}
+  "state": "decode_error",
+  "updated_a

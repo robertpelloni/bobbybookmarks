@@ -88,11 +88,12 @@ class MultiProviderPool:
                 resp = requests.post(
                     p['endpoint'],
                     headers={'Authorization': f"Bearer {p['key']}", 'Content-Type': 'application/json'},
-                    json={'model': p['model'], 'messages': [{'role': 'user', 'content': prompt + (chr(10)+chr(10)+context if context else '')}], 'max_tokens': 800, 'temperature': 0.3},
+                    json={'model': p['model'], 'messages': [{'role': 'user', 'content': prompt + (chr(10)+chr(10)+context if context else '')}], 'max_tokens': 2000, 'temperature': 0.3},
                     timeout=30,
                 )
                 if resp.status_code == 200:
-                    text = resp.json().get('choices', [{}])[0].get('message', {}).get('content', '')
+                    msg = resp.json().get('choices', [{}])[0].get('message', {})
+                    text = msg.get('content', '') or msg.get('reasoning', '')
                     if text:
                         self.error_counts.pop(p['name'], None)
                         self.active_index = idx

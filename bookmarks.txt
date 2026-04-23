@@ -1,6 +1,3 @@
-
-
-
 MCP Directories
 Please integrate these as submodules so that they can be updated and extract their URLs programatically (or manually if they are just a website)for the MCP registry, intelligently deduplicating entries/links and unifying multiple links to the same projects:
 https://www.reddit.com/r/mcp/comments/1q1gqh9/added_stdio_docker_sandbox_and_skills_system_to/
@@ -18,9 +15,7 @@ https://hub.docker.com/mcp?_gl=1*10jc364*_gcl_au*MjAzNjk1NDM0MC4xNzYwOTA3NzUy*_g
 https://github.com/mcp
 https://enact.tools/
 https://github.com/Arindam200/awesome-ai-apps
-
 Skills
-
 Please submodule these and integrate them, copying respective content (skills, hooks, slash commands, agents) to appropriate directories, potentially converting as necessary (or dynamically converting on demand) to be universally useful:
 https://github.com/TheNoeTrevino/dotfiles/tree/main/claude-code/skills
 https://developers.openai.com/codex/skills/
@@ -29,8 +24,6 @@ https://github.com/openai/skills
 https://github.com/stared/gemini-claude-skills
 https://github.com/bkircher/skills
 https://github.com/ykdojo/claude-code-tips
-
-
 Multi Agent Orchestration systems, SDKs, libraries, references, examples, resources:
 https://github.com/robertpelloni/metamcp
 https://docs.roocode.com/roo-code-cloud/roomote-control
@@ -65,8 +58,6 @@ https://www.crewai.com/
 https://github.com/CopilotKit/CopilotKit
 https://github.com/a2anet/a2a-ui
 https://github.com/omdivyatej/Self-Learning-Agents
-
-
 CLIs, harnesses, tools, routers, extensions:
 https://github.com/anthropics/claude-code/blob/main/plugins/README.md
 https://github.com/musistudio/claude-code-router
@@ -138,8 +129,6 @@ https://qoder.com/referral?referral_code=28PawlfZqTxPmqTUNf1GUNMpILBqXkck
 https://app.augmentcode.com/onboard
 https://zencoder.ai/lp/augment-code-alternative?utm_source=google&utm_medium=cpc&utm_campaign=&utm_term=augment%20code&utm_adgroup=&utm_content=779669542688&utm_device=c&utm_feeditemid=&utm_device=c&utm_term=augment%20code&utm_source=google&utm_medium=cpc&utm_campaign=US-Search-Competitor-AugmentCode&hsa_cam=23147651480&hsa_grp=190157357434&hsa_mt=p&hsa_src=g&hsa_ad=779669542688&hsa_acc=4812890266&hsa_net=adwords&hsa_kw=augment%20code&hsa_tgt=aud-2384391859139:kwd-353903698942&hsa_ver=3&gad_source=1&gad_campaignid=23147651480&gbraid=0AAAAA-d8X27uaFGMWI4T3BzPN8nRF2lU5&gclid=CjwKCAiA_orJBhBNEiwABkdmjLuUWV0zSFVK3MBOxMHJL_Dz_OkNM_c5HGgiRojfZkJVygQpPs9qvhoCjyMQAvD_BwE
 https://github.com/augmentcode
-
-
 MCPs, misc:
 https://github.com/gemini-cli-extensions/workspace
 https://github.com/gemini-cli-extensions/firebase/
@@ -193,8 +182,6 @@ https://www.reddit.com/r/mcp/comments/1ppokmm/use_natural_language_to_query_bloc
 https://www.reddit.com/r/LocalLLaMA/comments/1ppl5mw/maestro_run_ai_coding_agents_autonomously_for/
 https://github.com/pedramamini/Maestro/tree/main?tab=readme-ov-file
 https://www.conductor.build/
-
-
 Code indexing:
 https://github.com/oraios/serena
 https://github.com/Muvon/octocode
@@ -210,8 +197,6 @@ https://www.reddit.com/r/ClaudeCode/comments/1pa64qy/codemap_a_cli_that_gives_cl
 https://github.com/tesserato/CodeWeaver
 https://www.reddit.com/r/mcp/comments/1pl1gbu/ai_coding_agents_have_coding_knowledge_but_lack/
 https://github.com/PatrickSys/codebase-context
-
-
 Memory systems, plugins, extensions, formats, backends, etc:
 https://www.context-pack.com/process?pack_id=00c9a2b8-dde7-498b-abef-ddd6b86d2b4b
 https://github.com/getzep/zep
@@ -285,8 +270,6 @@ https://news.ycombinator.com/item?id=44435500
 https://core.heysol.ai/login?redirectTo=%2F
 https://docs.heysol.ai/core/overview
 https://www.pulsemcp.com/servers?q=memory
-
-
 MCP reduce context, semantic tool RAG/search, dynamic tool loading, tool RAG, progressive tool disclosure, "code mode" etc:
 https://github.com/Dumbris/mcpproxy
 https://github.com/nullplatform/meta-mcp-proxy
@@ -337,12 +320,6 @@ https://aws.amazon.com/blogs/machine-learning/transform-your-mcp-architecture-un
 https://www.speakeasy.com/mcp/tool-design/dynamic-tool-discovery
 https://github.com/milisp/mcp-linker
 https://github.com/mKeRix/toolscript
-
-
-
-
-
-
 RAG:
 https://github.com/run-llama/llama_index
 https://developers.llamaindex.ai/
@@ -395,8 +372,6 @@ Search:
 https://github.com/wonderwhy-er/DesktopCommanderMCP
 https://github.com/mrkrsl/web-search-mcp
 https://github.com/mamertofabian/mcp-everything-search
-
-
 Routers, providers:
 https://dashboard.voyageai.com/auth/callback?code=81qrq3V5jqCbY5__chYMp3D3DtC9FMoFLO45O12JyaV2T&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI
 https://agentrouter.org/console
@@ -415,67 +390,60 @@ https://www.blocks.team/signin
 https://dashboard.voyageai.com/auth/callback?code=CpE2RACs6DKN-QiGVRoLBjLRoL4vO-Pb9h5qWp6s5NPE3&state=iRoQX35TaazetFV4zf5JRF8-vCIYrfIYZCqCsDjBYZI
 https://openrouter.ai/settings/credits
 https://anannas.ai/
-
-
-Financial, crypto, trading, investment, money, markets: 
-edge://welcome-to-your-workspace/ 
-https://github.com/OctagonAI/octagon-mcp-server 
-https://github.com/Mrbaeksang/korea-stock-analyzer-mcp 
-https://github.com/OctagonAI/octagon-sec-filings-mcp 
-https://mcp.alphavantage.co/ 
-https://github.com/OctagonAI/octagon-stock-market-data-mcp 
-https://www.alphavantage.co/support/#api-key 
-https://github.com/OctagonAI/octagon-financials-mcp 
-https://github.com/alphavantage/alpha_vantage_mcp 
-https://github.com/OctagonAI/octagon-transcripts-mcp 
-https://github.com/financial-datasets/mcp-server 
-https://github.com/OctagonAI/octagon-funding-data-mcp 
-https://github.com/Trade-Agent/trade-agent-mcp 
-https://github.com/OctagonAI/octagon-investors-mcp 
-https://github.com/finmap-org/mcp-server 
-https://github.com/OctagonAI/octagon-private-companies-mcp 
-https://github.com/gvaibhav/TAM-MCP-Server 
-https://github.com/OctagonAI/octagon-13f-holdings-mcp 
-https://github.com/solangii/upbit-mcp-server 
-https://github.com/OctagonAI/octagon-vc-agents 
-https://github.com/AudienseCo/mcp-audiense-insights 
-https://github.com/coingecko/coingecko-typescript/tree/main/packages/mcp-server 
-https://github.com/CoinStatsHQ/coinstats-mcp 
-https://github.com/paperinvest/mcp-server 
-https://github.com/ozgureyilmaz/polymarket-mcp 
-https://github.com/token-metrics/mcp 
-https://github.com/twelvedata/mcp 
-https://github.com/ethancod1ng/binance-mcp-server 
-https://github.com/AnalyticAce/BinanceMCPServer 
-https://github.com/ethancod1ng/bybit-mcp-server 
-https://github.com/longmans/coin_api_mcp 
-https://github.com/shinzo-labs/coinmarketcap-mcp 
-https://github.com/DappierAI/dappier-mcp 
-https://github.com/memetus/okx-mcp-playground 
-https://github.com/armorwallet/armor-crypto-mcp 
-https://github.com/hive-intel/hive-crypto-mcp 
-https://github.com/kukapay/crypto-feargreed-mcp 
-https://github.com/kukapay/crypto-indicators-mcp 
-https://github.com/kukapay/crypto-sentiment-mcp 
-https://github.com/kukapay/cryptopanic-mcp-server 
-https://github.com/kukapay/freqtrade-mcp 
-https://github.com/badkk/awesome-crypto-mcp-servers 
-https://github.com/kukapay/uniswap-poolspy-mcp 
-https://github.com/kukapay/uniswap-trader-mcp 
-https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/ 
-https://nof1.ai/ 
-https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/ 
-https://docs.coingecko.com/docs/mcp-server 
-https://github.com/Upsonic/Upsonic 
-https://red.anthropic.com/2025/smart-contracts/ 
-https://news.ycombinator.com/item?id=46115214 
-https://www.proofqr.xyz/ 
+Financial, crypto, trading, investment, money, markets:
+edge://welcome-to-your-workspace/
+https://github.com/OctagonAI/octagon-mcp-server
+https://github.com/Mrbaeksang/korea-stock-analyzer-mcp
+https://github.com/OctagonAI/octagon-sec-filings-mcp
+https://mcp.alphavantage.co/
+https://github.com/OctagonAI/octagon-stock-market-data-mcp
+https://www.alphavantage.co/support/#api-key
+https://github.com/OctagonAI/octagon-financials-mcp
+https://github.com/alphavantage/alpha_vantage_mcp
+https://github.com/OctagonAI/octagon-transcripts-mcp
+https://github.com/financial-datasets/mcp-server
+https://github.com/OctagonAI/octagon-funding-data-mcp
+https://github.com/Trade-Agent/trade-agent-mcp
+https://github.com/OctagonAI/octagon-investors-mcp
+https://github.com/finmap-org/mcp-server
+https://github.com/OctagonAI/octagon-private-companies-mcp
+https://github.com/gvaibhav/TAM-MCP-Server
+https://github.com/OctagonAI/octagon-13f-holdings-mcp
+https://github.com/solangii/upbit-mcp-server
+https://github.com/OctagonAI/octagon-vc-agents
+https://github.com/AudienseCo/mcp-audiense-insights
+https://github.com/coingecko/coingecko-typescript/tree/main/packages/mcp-server
+https://github.com/CoinStatsHQ/coinstats-mcp
+https://github.com/paperinvest/mcp-server
+https://github.com/ozgureyilmaz/polymarket-mcp
+https://github.com/token-metrics/mcp
+https://github.com/twelvedata/mcp
+https://github.com/ethancod1ng/binance-mcp-server
+https://github.com/AnalyticAce/BinanceMCPServer
+https://github.com/ethancod1ng/bybit-mcp-server
+https://github.com/longmans/coin_api_mcp
+https://github.com/shinzo-labs/coinmarketcap-mcp
+https://github.com/DappierAI/dappier-mcp
+https://github.com/memetus/okx-mcp-playground
+https://github.com/armorwallet/armor-crypto-mcp
+https://github.com/hive-intel/hive-crypto-mcp
+https://github.com/kukapay/crypto-feargreed-mcp
+https://github.com/kukapay/crypto-indicators-mcp
+https://github.com/kukapay/crypto-sentiment-mcp
+https://github.com/kukapay/cryptopanic-mcp-server
+https://github.com/kukapay/freqtrade-mcp
+https://github.com/badkk/awesome-crypto-mcp-servers
+https://github.com/kukapay/uniswap-poolspy-mcp
+https://github.com/kukapay/uniswap-trader-mcp
+https://www.reddit.com/r/claude/comments/1ohi8l2/qwen_deepseek_just_beat_claude_with_100_return_in/
+https://nof1.ai/
+https://www.reddit.com/r/n8n/comments/1oc0mup/looks_ugly_but_it_is_now_managing_my_investments/
+https://docs.coingecko.com/docs/mcp-server
+https://github.com/Upsonic/Upsonic
+https://red.anthropic.com/2025/smart-contracts/
+https://news.ycombinator.com/item?id=46115214
+https://www.proofqr.xyz/
 https://github.com/virattt/ai-hedge-fund?tab=readme-ov-file#how-to-install
-
-
-
-
-
 Unsorted: (if it is TOTALLY NOT RELATED or useful at all, go ahead and disregard/skip it)
 http://edwardfeser.blogspot.com/2019/03/artificial-intelligence-and-magical.html?m=1
 http://www.observationalhazard.com/2025/12/c-java-java-llm.html
@@ -843,7 +811,7 @@ https://github.com/Sanmilie/PKCS11SSHAgent
 https://github.com/SawyerHood/dev-browser
 https://github.com/Scarmonit/antigravity-jules-orchestration
 https://github.com/Shubhamsaboo/awesome-llm-apps
-https://github.com/SonarSource/sonarqube 
+https://github.com/SonarSource/sonarqube
 https://github.com/Squitch1/Tess
 https://github.com/StefanSamne/foomist
 https://github.com/Stremio/stremio-web
@@ -1065,7 +1033,7 @@ https://github.com/kks0488/mystats
 https://github.com/klipitkas/tunnl.gg
 https://github.com/kmaasrud/awesome-obsidian
 https://github.com/knowsuchagency/vibora
-https://github.com/kodustech/kodus-ai 
+https://github.com/kodustech/kodus-ai
 https://github.com/kreuzberg-dev/kreuzberg
 https://github.com/kspviswa/pktai
 https://github.com/ktg-one/quicksave
@@ -1204,7 +1172,7 @@ https://github.com/prajwal-y/video_explainer
 https://github.com/pranshuparmar/witr
 https://github.com/public-apis/public-apis
 https://github.com/puemos/lareview
-https://github.com/qodo-ai/pr-agent 
+https://github.com/qodo-ai/pr-agent
 https://github.com/r3-engine/r3-engine
 https://github.com/rado-stack/human-in-the-loop-nlp
 https://github.com/raine/consult-llm-mcp
@@ -5488,13 +5456,6 @@ https://zachwills.net/how-i-built-an-18-month-ai-roadmap-in-2-hours/
 https://zenodo.org/records/18170177
 https://zenodo.org/records/18452356
 https://zilliztech.github.io/memsearch/
-
-
-
-
-
-
-
 https://www.reddit.com/r/vibecoders_/comments/1rlkzp7/top_9_agentic_frameworks/
 https://www.reddit.com/r/mcp/comments/1rmi3r2/codegraphcontext_an_mcp_server_that_converts_your/
 https://www.reddit.com/r/aigamedev/comments/1rk0lam/i_building_a_realtime_reality_show_where_10_ai/
@@ -5525,7 +5486,6 @@ https://www.reddit.com/r/Casual_Conversation/comments/1rm31ug/what_small_habit_i
 https://www.reddit.com/r/ObsidianMD/comments/1rmomkb/2_years_2294_notes_obsidian_helped_my_mental/
 https://www.reddit.com/r/AI_Application/comments/1rmjgvg/i_got_tired_of_my_llms_forgetting_everything_we/
 https://www.reddit.com/r/ClaudeCode/comments/1rmt7q3/i_dumped_cursor_and_built_my_own_persistent/
-
 https://mcp.byterover.dev/mcp?machineId=1f0c8f78-07bf-6510-a7b5-efc4bfff99e6
 https://github.com/codemod/codemod
 https://github.com/docker/mcp-gateway
@@ -5546,8 +5506,6 @@ https://github.com/isaacphi/mcp-language-server
 https://github.com/firstbatchxyz/mem-agent-mcp
 https://huggingface.co/driaforall/mem-agent
 https://openrouter.ai/chat?room=orc-1772867152-kLw2s9gToNmRh75lbENo
-
-
 https://www.reddit.com/r/opencodeCLI/comments/1rn3npc/i_want_my_orchestrator_to_give_better/
 https://github.com/DasDigitaleMomentum/opencode-processing-skills
 https://www.reddit.com/r/AIChatCompanions/comments/1rm4fyo/tested_20_ai_companions_so_you_dont_have_to_heres/
@@ -5561,12 +5519,6 @@ https://www.reddit.com/r/Millennials/comments/1rmx4mu/childhood_friends_keep_dyi
 https://www.reddit.com/r/LangChain/comments/1rn2845/programmatic_tool_calling_is_great_for_tokens/
 https://www.reddit.com/r/AskReddit/comments/1rn4sl4/whats_something_that_sounds_fake_but_is_actually/
 https://www.reddit.com/r/ClaudeCode/comments/1rn38wh/i_built_a_persistent_ai_assistant_with_claude/
-
-
-
-
-
-
 http://127.0.0.1:3000/servers
 http://127.0.0.1:3000/signup
 http://127.0.0.1:3456/ui
@@ -9481,10 +9433,6 @@ http://www.w3.org/2001/04/xmldsig-more%23rsa-sha256&Signature=jyyQYV1N7W3tZWycF3
 http://www.w3.org/2001/04/xmldsig-more%23rsa-sha256&Signature=RpddTud3wObHfO3BKRfadIquEAyee56ZmGUFUuZVy4HtXN1UzVFg4+4kEQOsWyZ+eASZwWDC+jK/JUdVvSYFAhbKP9ActmWJ2VaMYOym5NrIXBiJsGWL+sdJf08OkEpzpIeWNqaKw0P3sO0k+BVqR2YI8F4NIsedfdJiFGn6WXltQPNy7ocg1KF8Ys3NVrlxtY/YhlZgQc1P88eQYoG7aE5EkYDwMOmBvp+uwg+iTisEWn5O+q1PlVmVS8aQgwFi6YaIIvIDNbrBJyx8MvWWr+X7DGQm/5HCZpcGUq5KCPOupwSxNXctfpu6hVvaIkE74tVGSvNxC0CZ1kz9SW5m8w==
 http://www.wox.one/
 http://www.zetatalk11.com/docs
-
-
-
-
 https://jules.google.com/session/5540056130352860192/code/hymn_remaker/app.py
 https://news.ycombinator.com/item?id=47230710
 https://www.reddit.com/r/chatgpttoolbox/comments/1rjo5nk/you_can_put_gpts_inside_folders_took_me_3_months/
@@ -9690,15 +9638,9 @@ https://github.com/augiemazza/varrd
 https://www.openfang.sh/
 https://github.com/bostrot/wsl2-distro-manager
 https://filemayor.com/
-
-
-
 https://openrouter.ai/chat
 https://github.com/nguyenhx2/Antigravity-AutoPilot
 https://github.com/Ricco6/always-accept-antigravity
-
-
-
 https://github.com/vtxf/mcp-all-in-one
 https://github.com/IAMSamuelRodda/mcp-proxy
 https://github.com/vmlinuzx/llmc
@@ -9724,12 +9666,6 @@ https://github.com/dl-link/mcp-gateway-setup
 https://github.com/shixuguang/mcp-gateway-forge
 https://github.com/greyhoundforty/code-engine-mcp
 https://github.com/itaru2622/docker-mcp-context-forge
-
-
-
-
-
-
 https://news.ycombinator.com/item?id=47340935
 https://www.dwarkesh.com/p/dow-anthropic
 https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz
@@ -9775,7 +9711,6 @@ https://news.ycombinator.com/item?id=47350416
 https://news.ycombinator.com/item?id=47339223
 https://gist.github.com/bretonium/291f4388e2de89a43b25c135b44e41f0
 https://news.ycombinator.com/item?id=47357042
-
 https://www.reddit.com/r/mcp/comments/1rod4lp/built_an_mcp_server_to_safely_run_untrusted_code/
 https://www.reddit.com/r/openclawsetup/comments/1rm23x7/qwen3_running_locally_not_reading_soulmd_file/
 https://www.reddit.com/r/opencodeCLI/comments/1rowe0e/symdex_opensource_mcp_codeindexer_that_cuts_ai/
@@ -9796,8 +9731,6 @@ https://github.com/Intina47/context-sync
 https://github.com/tfriedel/antigravity_prompts/blob/main/prompts/Fast%20Prompt.txt
 https://www.reddit.com/r/OpenSourceAI/comments/1rpx1ui/introducing_os1_a_new_opensource_ai_platform/
 https://github.com/nokodo-labs/os1
-
-
 https://www.reddit.com/r/kiroIDE/comments/1r7iwn9/new_model_sonnet_46/
 https://www.tonkotsu.ai/?rdt_cid=5223868399792378837&utm_campaign=cc&utm_source=reddit
 https://www.reddit.com/r/LawFirm/comments/1r43ldp/opposing_counsel_is_maf_that_i_wont_take_their/
@@ -9806,8 +9739,6 @@ https://www.reddit.com/r/opencodeCLI/comments/1r7mtkz/llm_version_control_packag
 https://www.reddit.com/r/google_antigravity/comments/1r7a7ff/is_using_opencode_against_tos/
 https://www.reddit.com/r/RooCode/comments/1r7lz85/roo_code_3480_release_claude_sonnet_46_api_config/
 https://www.reddit.com/r/LangChain/comments/1r1zpai/memv_opensource_memory_for_ai_agents_that_only/
-
-
 https://www.reddit.com/r/mcp/comments/1rq9hnx/i_had_built_another_semantic_code_search_mcp_then/
 https://www.reddit.com/r/kdenlive/comments/1rq5dps/til_sequences_are_fricken_awesome/
 https://www.reddit.com/r/ProductivityGeeks/comments/1roj17e/50_ai_tools_organized_by_category/
@@ -9843,17 +9774,9 @@ https://time.com/article/2026/03/11/anthropic-claude-disruptive-company-pentagon
 https://www.reddit.com/r/LekhAI/comments/1rqx4pe/lekh_ai_62_released_faster_local_ai_qwen35_gguf/
 https://www.reddit.com/r/surrealdb/comments/1rpuoiy/what_an_amazing_find/
 https://www.reddit.com/r/accelerate/comments/1rqypuw/just_got_a_remindme_notice_about_ai_will_write/
-
-
-
-
-
 https://www.reddit.com/r/GithubCopilot/comments/1kd1rva/i_built_toolbridge_now_github_copilot_works_with/
 https://github.com/oct4pie/toolbridge?tab=readme-ov-file
 https://docs.litellm.ai/docs/proxy/docker_quick_start
-
-
-
 https://www.openverb.org/
 https://www.reddit.com/r/mcp/comments/1roa7q7/mcps_for_curated_datasets/
 https://www.reddit.com/r/DollarTree/comments/1roo695/confused_long_post/
@@ -10326,7 +10249,6 @@ https://www.reddit.com/r/opencodeCLI/comments/1ruj9vp/opencode_general_good_prac
 https://www.reddit.com/r/mcp/comments/1rtwip7/mcp_manager_tool_filtering_mcpascli_oneclick/
 https://mcpscoreboard.com/
 https://moltcorporation.com/
-
 https://www.reddit.com/r/OpenSourceAI/comments/1rus3sw/open_source_alternative_to_notebooklm/
 https://www.reddit.com/r/opencodeCLI/comments/1ruvgfq/best_local_models_for_96gb_vram_for_opencode/
 https://www.reddit.com/r/mcp/comments/1runtuw/do_i_need_mcp_if_my_api_spec_is_baked_into_llm/
@@ -10563,14 +10485,11 @@ https://www.reddit.com/r/LangChain/comments/1rwdab3/built_an_opensource_tool_to_
 https://www.reddit.com/r/AskReddit/comments/1rw81b1/whats_the_most_dangerous_thing_youve_ever_done/
 https://reducto.ai/?rdt_cid=5391899250772784944&utm_source=reddit%3Futm_content%3D
 https://www.reddit.com/r/claude/comments/1rwh324/and_claude_is_out_again/
-
 https://raw.githubusercontent.com/discourse/discourse_docker/main/install-discourse
 https://github.com/discourse/discourse_docker
 https://id.discourse.com/my/subdomain
 https://id.discourse.com
 https://meta.discourse.org
-
-
 https://www.reddit.com/r/mcp/
 https://www.reddit.com/r/mcp/comments/1rx1xa7/openproject_mcp_server_enables_ai_assistants_to/
 https://www.reddit.com/r/mcp/comments/1rx1xdc/pyth_pro_mcp_server_realtime_and_historical_price/
@@ -10582,8 +10501,6 @@ https://www.reddit.com/r/mcp/comments/1rwcz2k/i_built_a_security_proxy_for_mcp_d
 https://www.reddit.com/r/mcp/comments/1rtty48/best_mcp_gateway_20_updated_list/
 https://www.reddit.com/r/mcp/comments/1rx3z4p/beware_of_astroturfing_top_10_mcps_for_x_lists/
 https://www.reddit.com/r/mcp/comments/1rvg0z1/turbomcp_studio_full_featured_mcp_suite_for/
-
-
 https://x.com/supermemory
 https://github.com/builderz-labs/mission-control
 https://www.dashclaw.io/
@@ -10600,8 +10517,6 @@ https://github.com/odoo/odoo
 https://github.com/open-webui/pipelines
 https://github.com/jarrodwatts/claude-hud
 https://github.com/langchain-ai/open-swe
-
-
 https://github.com/jrswab/axe
 https://github.com/understudy-ai/understudy
 https://www.linkedin.com/pulse/using-claude-flow-google-antigravity-mondweep-chakravorty-3zb7e
@@ -10613,8 +10528,6 @@ https://www.youtube.com/watch?v=CtyiSQxSkl4
 https://www.youtube.com/watch?v=HCY-VoJHaFA
 https://devblogs.microsoft.com/agent-framework/give-your-agents-domain-expertise-with-agent-skills-in-microsoft-agent-framework/
 https://venturebeat.com/orchestration/google-pm-open-sources-always-on-memory-agent-ditching-vector-databases-for
-
-
 https://www.reddit.com/r/mcp/comments/1rw9r67/do_you_worry_about_what_your_mcp_servers_can_do/
 https://www.reddit.com/r/ClaudeCode/comments/1rwh6f7/getting_api_error_after_latest_changes_to_claude/
 https://www.reddit.com/r/opencodeCLI/comments/1rvzuca/why_do_anthropic_force_claude/
@@ -10713,8 +10626,6 @@ https://www.reddit.com/r/LekhAI/comments/1rwov8k/lekh_ai_ios_64_stability_update
 https://www.reddit.com/r/Productivitycafe/comments/1ry6zxg/what_is_something_cheap_that_can_improve_your/
 https://www.reddit.com/r/LocalLLaMA/comments/1ryc3w0/my_experience_with_qwen_35_35b/
 https://www.reddit.com/r/LangChain/comments/1rxt7c2/after_6_months_of_agent_failures_in_production_i/
-
-
 https://github.com/mobile-dev-inc/Maestro
 https://github.com/louis-e/arnis
 https://github.com/666ghj/MiroFish
@@ -10728,15 +10639,11 @@ https://github.com/langchain-ai/deepagents
 https://github.com/promptfoo/promptfoo
 https://github.com/fishaudio/fish-speech
 https://github.com/affaan-m/everything-claude-code
-
-
-
 https://github.com/HackerNews/API
 from
 https://github.com/RedPlanetHQ/sol/blob/964ed23c885910e040bdca56b572f942275c7868/apps/server/src/triggers/agents/chat/prompt.ts
 https://github.com/getzep/graphiti
 https://github.com/SWE-agent/mini-swe-agent
-
 https://www.reddit.com/r/mcp/submit/?type=TEXT
 https://www.reddit.com/r/MCPservers/comments/1nui33k/list_of_upcoming_mcp_hackathons/
 https://news.ycombinator.com/shownew
@@ -10817,10 +10724,7 @@ https://news.ycombinator.com/item?id=47408441
 https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai
 https://news.ycombinator.com/item?id=47404074
 https://devblogs.microsoft.com/foundry/foundry-agent-service-ga/
-
 https://app.supermemory.ai/login/new
-
-
 https://www.reddit.com/r/NooTopics/comments/1q8io70/how_to_upregulate_dopamine_v20_repost/
 https://gemini.google.com/app/e37c1cf344f68c9b
 https://suno.com/me?codr=1
@@ -10870,7 +10774,6 @@ https://news.ycombinator.com/item?id=46515625
 https://news.ycombinator.com/item?id=46587536
 https://parsec.app/teams
 https://www.npmjs.com/package/tabby-local
-
 http://localhost:3000/dashboard/marketplace
 https://dashboard.voyageai.com/organization/projects
 moz-extension://fe5f6fc9-abf5-4af8-807d-db011a26e8d4/browser/linkgopher.html?tabId=307&filtering=false&onlyDomains=false
@@ -10916,7 +10819,6 @@ https://github.com/krishnakanthb13/antigravity_phone_chat
 https://www.clio.com/work/?rdt_cid=5403277754470839519&utm_campaign=PIWork-mql-us-ClioWork-UGC-12-2025&utm_medium=cpc&utm_source=reddit
 https://jules.google.com/session/8912989561746575377/code/.gitignore
 https://github.com/robertpelloni/raindropioapp
-
 https://huggingface.co/MongoDB/mdbr-leaf-ir
 https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5
 https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files
@@ -10927,7 +10829,6 @@ https://www.astralcodexten.com/p/the-dilbert-afterlife
 https://news.ycombinator.com/item?id=46658491
 https://old.reddit.com/r/vibecoding/comments/1qf46sc/i_built_an_entire_os_by_vibing_with_claude/
 https://grigio.org/vibe-coding-safely-the-ultimate-guide-to-ai-development-with-opencode-and-nixos-via-docker-nixuser/
-
 https://news.ycombinator.com/item?id=46697908
 https://news.ycombinator.com/item?id=46711311
 https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/
@@ -10935,14 +10836,9 @@ https://news.ycombinator.com/item?id=46690907
 https://github.com/antirez/flux2.c
 https://news.ycombinator.com/item?id=46670279
 https://lukebechtel.com/blog/vibe-speccing
-
-
 https://www.google.com/search?client=firefox-b-1-d&q=probe+mcp
 https://github.com/conikeec/mcp-probe
-
-
 https://news.ycombinator.com/item?id=46662515
-
 https://news.ycombinator.com/item?id=47322887
 https://arxiv.org/abs/2504.03930
 https://preservinghope.substack.com/p/no-we-havent-uploaded-a-fly-yet
@@ -10982,16 +10878,9 @@ https://github.com/vas3k/TaxHacker
 https://github.com/openrocket/openrocket
 https://github.com/OssamaLouati/Legal-AI_Project
 https://www.reddit.com/r/opencodeCLI/comments/1ryl1l6/my_brief_and_bad_experience_with_claude_code/
-
-
 https://www.reddit.com/r/AIMemory/comments/1rywq80/deepmind_showed_agents_are_better_at_managing/
 https://www.reddit.com/r/nanocoder/comments/1ry0kgf/nanocoder_1240_released_parallel_tool_execution/
-
-from
 https://github.com/EvolutionAPI/BMAD-METHOD-BY-EVOLUTION
-
-
-
 https://www.reddit.com/r/AIMemory/comments/1rzcm4p/introducing_recursive_memory_harness_rlm_for/
 https://www.reddit.com/r/FoundersTalking/comments/1rwgudo/nobody_told_me_scaling_would_break_everything_i/
 https://www.reddit.com/r/software/comments/1rz4t3f/whats_a_piece_of_software_extension_thats/
@@ -11010,7 +10899,6 @@ https://www.reddit.com/r/mcp/comments/1rzgdjr/i_built_a_cli_doubleentry_bookkeep
 https://www.reddit.com/r/opencodeCLI/comments/1rzemyj/lets_make_local_llms_worth_it/
 https://www.reddit.com/r/mcp/comments/1rzclik/mcp_finder_find_the_right_mcp_server_for_your/
 https://www.reddit.com/r/PromptEngineering/comments/1rzg9yj/i_know_this_is_so_simple_but_it_worked_porting_a/
-
 https://www.reddit.com/r/ClaudeAI/comments/1s08r1c/karpathy_says_he_hasnt_written_a_line_of_code/
 https://github.com/chr15m/kanban-todo
 https://news.ycombinator.com/item?id=47467034
@@ -11317,10 +11205,6 @@ https://www.reddit.com/r/LocalLLaMA/comments/1s2q4et/opencode_source_code_audit_
 https://www.reddit.com/r/Bard/comments/1s1xpa9/new_gemini_ui/
 https://www.reddit.com/r/PromptEngineering/comments/1s2r59p/i_tested_47_ai_tools_in_90_days_heres_the_honest/
 https://reducto.ai/?rdt_cid=5797773046937074471&utm_source=reddit%3Futm_content%3D
-
-
-
-
 # --- Synced from submodules ---
 https://github.com/omd01/aws-ses-mcp
 https://github.com/resend/mcp-send-email
@@ -15640,95 +15524,6 @@ https://github.com/Scottcjn/rustchain-mcp
 https://github.com/sam00101011/402.bot-public
 https://github.com/TheSuperColony/supercolony-mcp
 https://github.com/Xquik-dev/x-twitter-scraper
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
 https://www.reddit.com/r/OpenWebUI/comments/1s4mjh7/open_relay_previously_open_ui_v20_is_live/
 https://www.reddit.com/r/vibeprinting/comments/1s3m2o4/someone_created_github_repo_for_money_printer_20k/
 https://www.reddit.com/r/ClaudeOctopus/comments/1s4reto/claude_octopus_v911914_five_release_wrap_up/
@@ -15748,7 +15543,6 @@ https://news.ycombinator.com/item?id=47545642
 https://www.trychroma.com/research/context-1
 https://news.ycombinator.com/item?id=47534564
 https://x.com/maxrumpf/status/2037365748973384154
-
 https://openrouter.ai/chat?room=orc-1774660875-JFLOO96pdyZmHMhTf8IM
 https://github.com/mvanhorn/last30days-skill
 https://github.com/Yeachan-Heo/oh-my-claudecode
@@ -15764,13 +15558,10 @@ https://www.reddit.com/r/mcp/comments/1s5mecd/cli_vs_mcp_is_a_false_choice_why_c
 https://www.reddit.com/r/hygiene/comments/1s51sin/whats_one_hygiene_habit_you_judge_quietly_even_if/
 https://www.reddit.com/r/Rag/comments/1s4a88f/ive_seen_too_many_rag_pipelines_silently_fail_on/
 https://www.reddit.com/r/aigossips/comments/1s4wo0s/breaking_anthropic_built_an_ai_so_good_at_hacking/
-
-
 https://www.google.com/search?client=firefox-b-1-d&q=ai+song+generation+from+midi+source
 https://www.aiva.ai/
 https://www.reddit.com/r/UFOB/comments/1ry85ao/old_4chan_post_predicts_world_war_3_and_alien/
 https://www.reddit.com/r/ClaudeAI/comments/1rzyqqt/found_3_instructions_in_anthropics_docs_that/
-
 https://www.reddit.com/r/legaltech/comments/1s2zg2e/the_patent_ai_tool_problem_nobody_talks_about/
 https://www.reddit.com/r/AIDiscussion/comments/1s1drj9/were_moving_from_chat_to_stateful_agents_and_its/
 https://www.reddit.com/r/AskReddit/comments/1s1iq77/whats_the_craziest_thing_a_person_said_to_you_and/
@@ -15860,28 +15651,8 @@ https://axeldelafosse.com/blog/agent-to-agent-pair-programming
 https://medium.com/activated-thinker/explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668
 https://news.ycombinator.com/item?id=47539160
 https://github.com/viftode4/trustchain
-
 https://www.reddit.com/r/AskReddit/comments/1s1ovbv/what_is_something_free_on_the_internet_that_more/
 https://www.reddit.com/r/whatisit/comments/1s1p4sp/what_is_it_tho/
-
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
-
-
-# --- Synced from submodules ---
 https://github.com/modelcontextprotocol/servers/tree/HEAD/src/everything
 https://github.com/modelcontextprotocol/servers/tree/HEAD/src/fetch
 https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/puppeteer
@@ -15975,10 +15746,8 @@ https://yoonholee.com/meta-harness/
 https://www.reddit.com/r/Productivitycafe/comments/1s6krhx/what_free_software_is_so_good_you_cant_believe/
 https://www.reddit.com/r/WTFisAI/comments/1s4lyhi/mistral_ai_just_dropped_an_opensource_tts_model/
 https://www.reddit.com/r/work/comments/1s7cruk/termed_a_guy/
-https://www.reddit.com/r/accelerate/comments/1s81w7b/stanford_researchers_autonomously_improved_a/
 https://www.reddit.com/r/ArtificialNtelligence/comments/1s6tisq/forget_the_singularity_googles_new_research_says/
 https://www.reddit.com/r/kiroIDE/comments/1s7qcxx/after_3_months_of_daily_kiro_use_i_opensourced/
-https://yoonholee.com/meta-harness/
 https://www.reddit.com/r/GithubCopilot/comments/1s8mg77/how_is_copilot_so_underrated_compared_to_claude/
 https://www.reddit.com/r/domainflipping/comments/1s36wsg/liquidation_sale_com_domains_news_brandables/
 https://www.reddit.com/r/mcp/comments/1s94a85/whats_your_musthave_mcp_server_that_you_use_daily/
@@ -16185,7 +15954,6 @@ https://www.reddit.com/r/LLMDevs/comments/1sd7w45/openais_gpt54_got_blocked_by_s
 https://www.reddit.com/r/kimi/comments/1scdg80/probeq_an_opensource_conversational_ai_tool/
 https://www.reddit.com/r/OpenSourceAI/comments/1sbvxj0/i_built_a_cli_to_migrate_agents_personas_between/
 https://www.reddit.com/r/ArtificialInteligence/comments/1scza0z/a16z_just_dropped_their_big_ideas_list_two_of/
-https://www.mcpnest.io/
 https://www.reddit.com/r/ClaudeAI/comments/1sd2f37/i_built_an_ai_job_search_system_with_claude_code/
 https://www.reddit.com/r/ClaudeAI/comments/1sd3zz3/i_built_an_opensource_system_to_manage_work/
 https://www.reddit.com/r/mcp/comments/1sd1svo/bryntum_bryntum_suite/
@@ -16208,7 +15976,6 @@ https://www.reddit.com/r/scrapingtheweb/comments/1scx78e/104k_github_for_firecra
 https://mcppedia.org/blog/2026-04-06-what-is-mcppedia
 https://www.reddit.com/r/mcp/comments/1sd0cuf/i_built_a_tool_that_converts_mcp_servers_into_cli/
 https://www.reddit.com/r/BMAD_Method/comments/1scy3jf/bad_bmad_autonomous_development_a_fully/
-https://github.com/hyspacex/harness-cli
 https://arxiv.org/abs/2603.28052
 https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about
 https://vektormemory.com/docs/
@@ -16276,7 +16043,6 @@ https://github.com/sabrogden/Ditto
 https://www.reddit.com/r/AI_Agents/comments/1r62nbn/whats_the_best_ai_to_pay_for_right_now_2026/
 https://www.reddit.com/r/GithubCopilot/comments/1sd46h1/comparison_pro_vs_pro_plan/
 https://www.reddit.com/r/ChatGPTPromptGenius/comments/1s81sg3/you_dont_need_to_pay_for_ai_tools_right_now_heres/
-https://www.reddit.com/r/PromptEngineering/comments/1s80pf6/you_dont_need_to_pay_for_ai_tools_right_now_heres/
 https://www.reddit.com/r/LovingOpenSourceAI/comments/1sd4ywo/leann_is_an_innovative_vector_database_that/
 https://www.reddit.com/r/mcp/comments/1sde9xw/same_model_same_tasks_same_accuracy_4_browser/
 https://www.reddit.com/r/MCPservers/comments/1sdgb99/i_got_tired_of_agents_repeating_work_so_i_built/
@@ -16470,9 +16236,7 @@ https://www.reddit.com/r/AIMemory/comments/1sfiee5/a_farmers_take_on_the_ai_memo
 https://www.reddit.com/r/ClaudeCode/comments/1sflemo/i_used_the_mythos_referenced_architecture/
 https://www.reddit.com/r/LangChain/comments/1s982wi/we_built_an_opensource_multillm_agent_framework/
 https://www.reddit.com/r/LangChain/comments/1sfitke/langchain_in_2026_still_the_goat_for_llm_app/
-https://www.reddit.com/r/LangChain/comments/1set2s6/how_are_you_evaluating_multistep_reliability/
 https://www.reddit.com/r/LangChain/comments/1seysgx/barnum_a_programming_language_for_asynchronous/
-https://www.reddit.com/r/LangChain/comments/1sf6xm1/how_do_your_langchain_agents_discover_mcp_servers/
 https://www.reddit.com/r/LangChain/comments/1senw1p/rethinking_memory_in_langchain_deep_agents/
 https://www.reddit.com/r/LangChain/comments/1seul6d/i_gave_my_langchain_agent_both_knowledge_and/
 https://www.reddit.com/r/LangChain/comments/1setwb8/free_api_for_extracting_clean_text_from_urls/
@@ -16491,11 +16255,9 @@ https://www.reddit.com/r/GeminiAI/comments/1sgc1al/gemini_projects_have_been_off
 https://www.reddit.com/r/Rag/comments/1sgchz7/embedding_adapters_v2_universal_embeddings_free/
 https://www.reddit.com/r/pytorch/comments/1sdbzyq/i_created_a_66m_parameter_slm/
 https://www.reddit.com/r/mcp/comments/1sghp7t/kulturdev_multimodal_cultural_intelligence_mcp/
-https://www.reddit.com/r/GeminiAI/comments/1sgc1al/gemini_projects_have_been_officially_released_on/
 https://www.reddit.com/r/mcp/comments/1sgdret/telekash_oracle_prediction_market_probability/
 https://www.reddit.com/r/mcp/comments/1sgeqgx/i_used_claude_to_build_a_full_networking_protocol/
 https://www.reddit.com/r/kiroIDE/comments/1sg98wa/ive_vibe_coded_9_fullstack_apps_there_are_a_few/
-https://www.reddit.com/r/OpenSourceAI/comments/1sdn17g/is_a_cognitiveinspired_twotier_memory_system_for/
 https://www.reddit.com/r/ClaudeCode/comments/1sg9nj6/karpathy_said_theres_room_for_an_incredible/
 https://www.reddit.com/r/mcp/comments/1sg9sm3/ai_diagram_maker_mcp_server_mcp_server_for_ai/
 https://www.reddit.com/r/GeminiCLI/comments/1sdxtkx/gemini_cli_doesnt_work_for_ai_proultra/
@@ -16531,7 +16293,6 @@ https://news.ycombinator.com/item?id=47713798
 https://github.com/nicksz/jTime/blob/f7511b2e4ee0f1084e3dec3421bc1addbead88e3/tests/c.html#L572
 https://github.com/0xMagnuz/Bitcoin-v0.1/blob/master/bitcoin0.1/src/main.cpp#L492
 https://github.com/robertpelloni/hypercode
-https://github.com/hypercodehq/hypercode
 https://dailybible.net/already-decided/
 https://www.reddit.com/r/AIMemory/comments/1sheju9/when_does_context_stop_being_memory_and_start/
 https://www.reddit.com/r/Rag/comments/1shdula/rag_for_complex_pdfs_struggling_with_parsing_vs/
@@ -16547,11 +16308,9 @@ https://www.reddit.com/r/AIDiscussion/comments/1shd2jz/karpathy_dropped_a_simple
 https://www.reddit.com/r/MCPservers/comments/1shmdcw/showcase_agentdispatch_mcp_server_for_delegating/
 https://www.reddit.com/r/YesIntelligent/comments/1sfepkv/i_tested_wispr_flow_for_a_few_days_heres_my/
 https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_claude_code_into_a_full_game_dev_studio_48/
-https://www.reddit.com/r/LovingAIAgents/comments/1sdyhr2/reme_is_a_memory_management_framework_designed/
 https://www.reddit.com/r/OpenWebUI/comments/1si0mto/open_relay_v26_perchat_parameters_new_ondevice/
 https://www.reddit.com/r/notebooklm/comments/1shmitf/google_just_dropped_notebooks_in_gemini_with_full/
 https://www.reddit.com/r/codex/comments/1shl2dj/fuck_these_limits_im_using_a_local_model_now/
-https://www.reddit.com/r/LovingAIAgents/comments/1sd33n3/goose_is_your_onmachine_ai_agent_capable_of/
 https://www.reddit.com/r/MCPservers/comments/1shov5q/introducing_sql_mcp_server/
 https://www.reddit.com/r/AtlasCloudAI/comments/1sge1x9/glm_51_opensourced/
 https://www.reddit.com/r/Aiuniversai/comments/1shqiot/glm51_took_a_3rd_spot_on_lm_code_arena_surpassing/
@@ -16567,7 +16326,6 @@ https://www.reddit.com/r/mcp/comments/1shozzs/youtubemcp_productiongrade_model_c
 https://www.reddit.com/r/claudeskills/comments/1sguseq/i_built_skill_forge_an_open_platform_that/
 https://www.reddit.com/r/ContextEngineering/comments/1si5ewg/mcp_needs_to_well_supported_by_end_user/
 https://www.reddit.com/r/newAIParadigms/comments/1sh5mse/neural_networks_as_hierarchical_associative_memory/
-https://github.com/hypercodehq/hypercode
 https://github.com/agenteractai/lodmem
 https://news.ycombinator.com/item?id=47729679
 https://news.ycombinator.com/newest?next=47726913&n=241
@@ -16643,7 +16401,6 @@ https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-cli
 https://www.stork.ai/
 https://github.com/janbjorge/rekal
 https://github.com/open-pgx/openpgx
-https://github.com/hypercodehq/hypercode
 https://www.reddit.com/r/mcp/comments/1sjllup/younanix_memory_mcp_real_engineering_memory/
 https://www.reddit.com/r/mcp/comments/1sjcm7y/agent_einstein_autonomous_crypto_intelligence_40/
 https://www.reddit.com/r/opencodeCLI/comments/1sj4nam/jarvis_running_on_3_servers_as_one_fleet_claude/
@@ -16655,7 +16412,6 @@ https://www.reddit.com/r/Agent_AI/comments/1sje81w/i_gave_my_ai_agents_shared_me
 https://www.reddit.com/r/IMadeThis/comments/1siwrdd/built_graymatter_my_ai_agent_kept_forgetting/
 https://www.reddit.com/r/bbs/comments/1sj2aae/webbased_lord_w_rip_mode_update_new/
 https://www.reddit.com/r/thesidehustle/comments/1shtq0w/i_stopped_guessing_what_to_sell_and_it_fixed/
-https://www.reddit.com/r/MCPservers/comments/1se69a9/built_an_mcp_server_that_exposes_22_unix_tools_as/
 https://www.reddit.com/r/publer/comments/1sfnq9l/publer_mcp_setup/
 https://www.reddit.com/r/HonestSideHustles/comments/1sjqvkk/everyone_that_makes_at_least_10001200_a_month/
 https://www.reddit.com/r/opencode/comments/1silegw/i_built_a_persistent_memory_extender_for_opencode/
@@ -16727,7 +16483,6 @@ https://github.com/shiyu-coder/Kronos
 https://github.com/multica-ai/multica
 https://github.com/oraios/serena/blob/main/docs/03-special-guides/serena_on_chatgpt.md
 https://github.com/0xeb/TheBigPromptLibrary/blob/main/SystemPrompts/Google/20251110-notebooklm.md
-https://github.com/Yeachan-Heo/oh-my-codex
 https://www.reddit.com/r/LangChain/comments/1sme37o/i_built_an_http_tunnel_for_ai_agents_so_you_can/
 https://www.reddit.com/r/AIToolsPerformance/comments/1smc6ri/reports_of_intelligence_drops_across_claude/
 https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gemini_31_flash_tts_texttospeech/
@@ -16741,203 +16496,8 @@ https://www.reddit.com/r/psytranceproduction/comments/1shhx9x/what_is_broken_my_
 https://www.reddit.com/r/mcp/comments/1slme8b/building_a_20agent_gtm_team_with_mcps/
 https://www.reddit.com/r/AIMemory/comments/1slxdoo/would_you_consider_this_ai_memory_or_just_a/
 https://www.reddit.com/r/LovingOpenSourceAI/comments/1sle4dh/cuttingedge_ai_search_capabilities_are_open_to/
-https://www.reddit.com/r/GeminiAI/comments/1sgc1al/gemini_projects_have_been_officially_released_on/
-https://www.reddit.com/r/Rag/comments/1sgchz7/embedding_adapters_v2_universal_embeddings_free/
-https://www.reddit.com/r/pytorch/comments/1sdbzyq/i_created_a_66m_parameter_slm/
-https://www.reddit.com/r/mcp/comments/1sghp7t/kulturdev_multimodal_cultural_intelligence_mcp/
-https://www.reddit.com/r/GeminiAI/comments/1sgc1al/gemini_projects_have_been_officially_released_on/
-https://www.reddit.com/r/mcp/comments/1sgdret/telekash_oracle_prediction_market_probability/
-https://www.reddit.com/r/mcp/comments/1sgeqgx/i_used_claude_to_build_a_full_networking_protocol/
-https://www.reddit.com/r/kiroIDE/comments/1sg98wa/ive_vibe_coded_9_fullstack_apps_there_are_a_few/
-https://www.reddit.com/r/OpenSourceAI/comments/1sdn17g/is_a_cognitiveinspired_twotier_memory_system_for/
-https://www.reddit.com/r/ClaudeCode/comments/1sg9nj6/karpathy_said_theres_room_for_an_incredible/
-https://www.reddit.com/r/mcp/comments/1sg9sm3/ai_diagram_maker_mcp_server_mcp_server_for_ai/
-https://www.reddit.com/r/GeminiCLI/comments/1sdxtkx/gemini_cli_doesnt_work_for_ai_proultra/
-https://www.reddit.com/r/LocalLLM/comments/1sgahk6/introducing_core_a_programmatic_cognitive_harness/
-https://www.reddit.com/r/Anthropic/comments/1sg0q9m/meta_muse_spark_full_system_prompt/
-https://www.reddit.com/r/AskVibecoders/comments/1sg1rlf/is_there_a_trick_to_stop_the_model_from/
-https://www.reddit.com/r/PromptCentral/comments/1sf0gp8/the_6word_modifier_that_makes_chatgpt_stop/
-https://www.reddit.com/r/GithubCopilot/comments/1sg79up/github_team_needs_to_work_a_lot_on_copilot_cli/
-https://www.reddit.com/r/Backend/comments/1sfw4sq/should_i_resign_overworked_and_burnout_because_of/
-https://www.reddit.com/r/mcp/comments/1sfod01/how_are_you_managing_ram_when_multiple_ai_cli/
-https://www.reddit.com/r/AI_Agents/comments/1sg6qh7/i_built_verifiedstate_verified_portable_memory/
-https://www.reddit.com/r/mcp/comments/1sg5dj7/elecz_realtime_electricity_spot_prices_cheapest/
-https://www.reddit.com/r/mcp/comments/1sftdu7/i_turned_browser_devtools_mcp_tool_activity_into/
-https://www.reddit.com/r/openclaw/comments/1sfpgyv/i_am_wondering_what_is_the_openclaw_setup_elon/
-https://www.reddit.com/r/codex/comments/1sfz477/yet_another_again_ai_orchestrator/
-https://www.reddit.com/r/mcp/comments/1sftf0o/built_a_remote_mcp_server_for_structured_memory/
-https://www.reddit.com/r/mcp/comments/1sfngvp/mcp_action_firewall_a_transparent_proxy_that/
-https://www.reddit.com/r/tui/comments/1sd3u2x/zeichenwerk_go_tui_library/
-https://www.reddit.com/r/notebooklm/comments/1sgw86a/notebooklm_is_trash_now/
-https://www.reddit.com/r/mcp/comments/1sgzbyr/how_to_efficiently_handle_the_correct_mcp_tool/
-https://www.reddit.com/r/mcp/comments/1sgul8c/using_mcp_as_a_multillm_orchestration_layer/
-https://www.reddit.com/r/mcp/comments/1sgt4zh/i_built_a_crossplatform_computeruse_mcp_server_in/
-https://www.reddit.com/r/ai_trading/comments/1sgo76c/hey_all_im_a_developer_whos_been_building_a_fully/
-https://www.reddit.com/r/mcp/comments/1sgihhq/mcp_has_a_content_disposition_problem_and_i_think/
-https://www.reddit.com/r/DesignTecture/comments/1secgbn/the_living_mind_cortexs_ledger_so_far/
-https://www.reddit.com/r/LangChain/comments/1sgh77s/managed_agents_vs_open_frameworks_langgraph/
-https://www.reddit.com/r/MCPservers/comments/1sgugv7/i_built_a_local_semantic_memory_service_for_ai/
-https://www.reddit.com/r/DesignTecture/comments/1sfderj/v20_dropped_living_mind_cortex_is_now_a_full/
-https://www.reddit.com/r/mcp/comments/1shby0r/top_mcp_servers_that_actually_turn_claude_into_a/
-https://github.com/hypercodehq/hypercode
-https://news.ycombinator.com/newest?next=47713849&n=61
-https://news.ycombinator.com/item?id=47713798
-https://github.com/nicksz/jTime/blob/f7511b2e4ee0f1084e3dec3421bc1addbead88e3/tests/c.html#L572
-https://github.com/0xMagnuz/Bitcoin-v0.1/blob/master/bitcoin0.1/src/main.cpp#L492
-https://github.com/robertpelloni/hypercode
-https://github.com/hypercodehq/hypercode
-https://dailybible.net/already-decided/
-https://www.reddit.com/r/AIMemory/comments/1sheju9/when_does_context_stop_being_memory_and_start/
-https://www.reddit.com/r/Rag/comments/1shdula/rag_for_complex_pdfs_struggling_with_parsing_vs/
-https://www.reddit.com/r/LocalLLM/comments/1shx92z/are_my_hopes_for_running_a_local_llm_unrealistic/
-https://www.reddit.com/r/googleantigravity/comments/1shzok0/omniroute_opensource_ai_gateway_that_pools_all/
-https://www.reddit.com/r/Qwen_AI/comments/1shlvol/i_think_qwen_code_is_seriously_underrated_right/
-https://www.reddit.com/r/BitcoinBeginners/comments/1shwer4/found_bitcoin/
-https://www.reddit.com/r/mcp/comments/1shsvvm/best_mcp_servers_for_web3crypto_data/
-https://www.reddit.com/r/DarkPsychology101/comments/1shpfcu/7_signs_people_dont_respect_you_and_youre/
-https://www.reddit.com/r/OpenWebUI/comments/1shmkeg/i_built_mnemory_plugandplay_memory_system_for/
-https://www.reddit.com/r/mcp/comments/1shami7/torrentclawmcp_giving_ai_assistants_the_ability/
-https://www.reddit.com/r/AIDiscussion/comments/1shd2jz/karpathy_dropped_a_simple_idea_that_made_me_feel/
-https://www.reddit.com/r/MCPservers/comments/1shmdcw/showcase_agentdispatch_mcp_server_for_delegating/
-https://www.reddit.com/r/YesIntelligent/comments/1sfepkv/i_tested_wispr_flow_for_a_few_days_heres_my/
-https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_claude_code_into_a_full_game_dev_studio_48/
-https://www.reddit.com/r/LovingAIAgents/comments/1sdyhr2/reme_is_a_memory_management_framework_designed/
-https://www.reddit.com/r/OpenWebUI/comments/1si0mto/open_relay_v26_perchat_parameters_new_ondevice/
-https://www.reddit.com/r/notebooklm/comments/1shmitf/google_just_dropped_notebooks_in_gemini_with_full/
-https://www.reddit.com/r/codex/comments/1shl2dj/fuck_these_limits_im_using_a_local_model_now/
-https://www.reddit.com/r/LovingAIAgents/comments/1sd33n3/goose_is_your_onmachine_ai_agent_capable_of/
-https://www.reddit.com/r/MCPservers/comments/1shov5q/introducing_sql_mcp_server/
-https://www.reddit.com/r/AtlasCloudAI/comments/1sge1x9/glm_51_opensourced/
-https://www.reddit.com/r/Aiuniversai/comments/1shqiot/glm51_took_a_3rd_spot_on_lm_code_arena_surpassing/
-https://medium.com/@olafeezee/its-natural-language-programming-not-vibe-coding-4b33079df343
-https://github.com/facebookresearch/faiss
-https://github.com/Wuzu11517/agentic-proxy
-https://github.com/farukalpay/hormuz-tectonochemical-engine/
-https://github.com/visionscaper/collabmem
-https://paradise-runner.github.io/frontier-comparison/
-https://typia.io/blog/function-calling-harness-qwen-meetup-korea/
-https://www.reddit.com/r/mcp/comments/1si7e91/chainflip_broker_as_a_service_crosschain/
-https://www.reddit.com/r/mcp/comments/1shozzs/youtubemcp_productiongrade_model_context_protocol/
-https://www.reddit.com/r/claudeskills/comments/1sguseq/i_built_skill_forge_an_open_platform_that/
-https://www.reddit.com/r/ContextEngineering/comments/1si5ewg/mcp_needs_to_well_supported_by_end_user/
-https://www.reddit.com/r/newAIParadigms/comments/1sh5mse/neural_networks_as_hierarchical_associative_memory/
-https://github.com/hypercodehq/hypercode
-https://github.com/agenteractai/lodmem
-https://news.ycombinator.com/item?id=47729679
-https://news.ycombinator.com/newest?next=47726913&n=241
-https://github.com/taman-islam/human-time
-https://github.com/stef41/vibescore
-https://github.com/patrickdappollonio/dux
-https://github.com/AuraCoreCF/AuraCoreCF.github.io/tree/main/AuraRuntime
-https://github.com/FuzjaJadrowa/Pulsar
-https://github.com/mitchellh/go-libghostty
-https://www.reddit.com/r/aiecosystem/comments/1sgsirp/someone_opensourced_a_real_ai_teacher_for_your/
-https://www.reddit.com/r/mcp/comments/1sig3oz/kasetto_declarative_ai_agent_environment_manager/
-https://www.reddit.com/r/LangChain/comments/1sifm01/agentic_rag_is_a_different_beast_entirely/
-https://www.reddit.com/r/UFOs/comments/1sipaey/apparent_ufo_images_leak_from_pentagons_secret/
-https://www.reddit.com/r/LocalLLaMA/comments/1sihwo8/gemma_4_26b_a4b_is_still_fully_capable_at/
-https://www.reddit.com/r/PromptEngineering/comments/1sigluk/i_tested_50_secret_claude_prompt_codes_most_are/
-https://www.reddit.com/r/accelerate/comments/1sihhk8/there_is_speculation_that_anthropics_claude/
-https://www.reddit.com/r/hygiene/comments/1siixrz/why_do_people_refuse_to_tumble_dry_their_clothes/
-https://www.reddit.com/r/legaltech/comments/1siw2l8/lawyer_here_how_are_legora_and_harvey/
-https://www.reddit.com/r/Nootropics/comments/1sis8yp/what_nootropics_helped_you_with_depression/
-https://www.reddit.com/r/mcp/comments/1sj06e6/built_a_selfhosted_mcp_memory_server_with_hybrid/
-https://www.reddit.com/r/MCPservers/comments/1six8zq/turning_an_api_into_an_mcp_server_with_openapi/
-https://www.reddit.com/r/LocalLLaMA/comments/1si7qx8/the_tried_to_make_me_go_to_rehab_i_said_no_no_no/
-https://github.com/Donnyb369/mcp-spine
-https://www.tarsy.dev/
-https://deepvaluereports.com/dvr-stock-score
-https://github.com/stagas/rtdiff
-https://open-descent.com/
-https://www.reddit.com/r/mcp/comments/1sih08z/solving_the_admin_vs_isolation_paradox_in_mcp/
-https://www.reddit.com/r/AiBuilders/comments/1shxvgi/what_ai_tools_are_actually_worth_learning_right/
-https://www.reddit.com/r/aves/comments/1sioyjh/for_those_who_have_raved_for_years_using/
-https://www.reddit.com/r/hygiene/comments/1sifxxp/how_do_i_make_showering_fun_and_easier/
-https://www.reddit.com/r/AntigravityGoogle/comments/1sidwmb/there_will_never_be_an_antigravity_cli_i_thought/
-https://www.reddit.com/r/Supabase/comments/1siygkk/my_supabase_bill_for_2_postgres_databases_was/
-https://www.reddit.com/r/GoodOpenSource/comments/1silf58/mind_an_opensource_persistent_memory_system_for/
-https://www.reddit.com/r/mcp/comments/1siz6q6/endiagrammcp_13_deterministic_graph_tools_for/
-https://www.reddit.com/r/hygiene/comments/1sizu86/hygiene_is_incredibly_overwhelming_rant/
-https://www.reddit.com/r/Bard/comments/1siiiuz/used_gemini_31_flash_live_to_build_actual_phone/
-https://www.reddit.com/r/mcp/comments/1sidnfs/zephex_mcp_saved_me_from_a_bad_stripe_upgrade/
-https://www.reddit.com/r/mcp/comments/1siph50/just_opensourced_mcp_spine_a_localfirst/
-https://github.com/metedata/pdf-proof
-https://www.temu.com/ul/kuiper/un1.html?subj=feed-un&_bg_fs=1&_p_mat1_type=1&_p_jump_id=725&_x_vst_scene=adg&goods_id=601103308919028&adg_ctx=a-607666f3~t-il2h~f-483d22d3&_x_ns_adx_req_id=2873aa2d-9795-42af-8d98-7cfe12ab585b&conn_type=CELL_4G&_x_ads_creative_id=4317512092000018&_x_ads_sub_channel=adx_bluesea&_x_ns_goods_id=601103308919028&_p_rfs=1&rank_req_id=2873aa2d-9795-42af-8d98-7cfe12ab585b&_x_ads_csite=video_image&_x_ads_account=1317511660000001&_x_ads_set=2317512092000002&_x_ns_adx_auction_id=71ee4f8c857a402686c4a81cfc7836cf&ads_w=320&_x_ads_id=3317512092000002&plcmt_c1=Games&_x_ns_gid=601103308919028&_x_ads_channel=adx_union&_x_ns_adx_p_type=1&placement=1196764367&_x_cid=mat_8317726760000021&_x_ns_plat=app&ads_h=480&is_retain=1
-https://www.reddit.com/r/LovingAIAgents/comments/1sjig2m/i_built_mind_an_opensource_tool_that_combats_the/
-https://www.hyperagent.com/
-https://www.reddit.com/r/google_antigravity/comments/1sj0689/time_to_unveil_the_truth_of_antigravity/
-https://www.reddit.com/r/Rag/comments/1sjpl95/hybrid_search_bm25_vectors_rrf_barely_improved/
-https://www.reddit.com/r/notebooklm/comments/1sjb9zl/stop_summarizing_heres_the_notebooklm_workflow/
-https://www.reddit.com/r/mcp/comments/1sjovet/i_built_an_mcp_server_that_indexes_14k_other_mcp/
-https://www.reddit.com/r/Anthropic/comments/1sjt9z9/alleged_new_anthropic_leaks_thoughts/
-https://www.reddit.com/r/mcp/comments/1sjutzt/solafon_mcp_an_mcp_server_for_building_aipowered/
-https://www.reddit.com/r/GithubCopilot/comments/1sirk2k/copilot_pro_vscode_extension_is_kinda_a_better/
-https://www.reddit.com/r/vibeprinting/comments/1si02v3/omniroute_opensource_ai_gateway_that_pools_all/
-https://www.reddit.com/r/codex/comments/1siwf4f/for_me_this_is_now_settled_54_xhigh_is_miles/
-https://www.reddit.com/r/MoneroMining/comments/1sjkfgo/ai_says_im_retarded_for_not_mining_monero_on_my/
-https://www.reddit.com/r/GeminiCLI/comments/1sjglew/shared_memory_for_ai_coding_agents_managed/
-https://www.reddit.com/r/ZaiGLM/comments/1sizbnn/finally_made_zai_usable/
-https://www.reddit.com/r/coolgithubprojects/comments/1siqalg/i_built_a_tool_to_see_whats_using_your_ports_and/
-https://www.reddit.com/r/kimi/comments/1sjpp0i/convert_any_documentation_into_kimiready_skills/
-https://www.reddit.com/r/CognithorAgentOS/comments/1sh4kga/cognithor_v0860_is_out_opensource_agent_os_built/
-https://www.reddit.com/r/BookmarkManagers/comments/1sjc0bf/giving_away_50_pro_keys_for_newly_launched_stash/
-https://www.reddit.com/r/OpenSourceAI/comments/1sib95m/cognitive_memory_architectures_for_llms_actually/
-https://www.reddit.com/r/PromptEngineering/comments/1sjgwd1/i_organized_200_prompts_by_use_case_into_a_free/
-https://www.reddit.com/r/tui/comments/1sjllz6/anilisttui_a_terminal_client_for_anilist/
-https://www.reddit.com/r/pinescript/comments/1sjo3l0/ive_been_building_and_refining_my_orb_indicator/
-https://www.reddit.com/r/mcp/comments/1sjqgmf/agent_module_deterministic_compliance_and/
-https://www.reddit.com/r/google_antigravity/comments/1sjencr/to_people_who_say_ag_is_trash/
-https://www.reddit.com/r/mcp/comments/1sjai0k/built_4_mcp_servers_live_on_mcpize_right_now_119/
-https://www.reddit.com/r/LovingAIAgents/comments/1sjjc31/minimax_were_delighted_to_announce_that_minimax/
-https://news.ycombinator.com/item?id=47741527
-https://github.com/agentspan-ai/agentspan
-https://github.com/conductor-oss/conductor
-https://longtermemory.com/
-https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-cli
-https://www.stork.ai/
-https://github.com/janbjorge/rekal
-https://github.com/open-pgx/openpgx
-https://github.com/hypercodehq/hypercode
-https://www.reddit.com/r/mcp/comments/1sjllup/younanix_memory_mcp_real_engineering_memory/
-https://www.reddit.com/r/mcp/comments/1sjcm7y/agent_einstein_autonomous_crypto_intelligence_40/
-https://www.reddit.com/r/opencodeCLI/comments/1sj4nam/jarvis_running_on_3_servers_as_one_fleet_claude/
-https://www.reddit.com/r/OpenWebUI/comments/1siamcg/workiq_in_openwebui/
-https://www.reddit.com/r/mcp/comments/1sjq2ea/skillseekers_mcp_server_scrape_18_source_types/
-https://www.reddit.com/r/mcp/comments/1sj9eo4/offerquest_mcp_a_fast_secure_and_llmfriendly/
-https://www.reddit.com/r/GoodOpenSource/comments/1sjvlly/i_built_a_free_open_source_memory_persistent/
-https://www.reddit.com/r/Agent_AI/comments/1sje81w/i_gave_my_ai_agents_shared_memory_and_now_they/
-https://www.reddit.com/r/IMadeThis/comments/1siwrdd/built_graymatter_my_ai_agent_kept_forgetting/
-https://www.reddit.com/r/bbs/comments/1sj2aae/webbased_lord_w_rip_mode_update_new/
 https://www.reddit.com/r/EroticHypnosis/comments/1sd985m/f4m_the_road_to_submission_1_hour_23_minutes_hfo/
-https://www.reddit.com/r/thesidehustle/comments/1shtq0w/i_stopped_guessing_what_to_sell_and_it_fixed/
-https://www.reddit.com/r/MCPservers/comments/1se69a9/built_an_mcp_server_that_exposes_22_unix_tools_as/
-https://www.reddit.com/r/publer/comments/1sfnq9l/publer_mcp_setup/
-https://www.reddit.com/r/HonestSideHustles/comments/1sjqvkk/everyone_that_makes_at_least_10001200_a_month/
-https://www.reddit.com/r/opencode/comments/1silegw/i_built_a_persistent_memory_extender_for_opencode/
-https://www.reddit.com/r/GeminiCLI/comments/1shovvg/built_a_cli_that_generates_codebase_index_files/
-https://www.reddit.com/r/AskReddit/comments/1sjl8cc/whats_one_thing_youll_always_swear_by_for/
-https://www.reddit.com/r/mcp/comments/1sj769p/sudo39_mcp_server_for_controlled_privilege/
-https://www.reddit.com/r/Trading/comments/1sjq97q/made_it_17_months_full_time_and_still_scared/
-https://news.ycombinator.com/item?id=47752884
-https://lovinghate.com/
-https://news.ycombinator.com/item?id=47752392
-https://www.reddit.com/r/mcp/comments/1skddjw/bgpt_scientific_paper_search_search_scientific/
-https://www.reddit.com/r/mcp/comments/1skddjr/reacticx_mcp_provides_documentation_and_component/
-https://www.reddit.com/r/mcp/comments/1skdlwh/i_built_an_mcp_that_lets_claude_search_265k_live/
-https://www.reddit.com/r/mcp/comments/1sk74vd/managing_mcp_servers_for_multiple_clients_best/
-https://www.reddit.com/r/xmind_hq/comments/1sgwrwn/xminds_official_mcp_is_here/
-https://www.reddit.com/r/aiagents/comments/1skbpr2/things_i_wish_someone_told_me_before_i_built_an/
-https://www.reddit.com/r/mcp/comments/1sk7zv3/we_built_an_mcp_server_for_virtual_phone_numbers/
-https://www.reddit.com/r/mcp/comments/1sk8t8g/built_an_mcp_server_that_turns_any_codebase_into/
-https://www.reddit.com/r/AI_Agents/comments/1sk1t9u/what_are_the_best_ai_tools_for_small_business/
-https://www.reddit.com/r/openclaw/comments/1skafbg/tried_gemma4_for_openclaw_not_impressed/
-https://news.ycombinator.com/newest?next=47755938&n=31
-https://www.agentsview.io/
-https://github.com/wesm/agentsview
 https://www.reddit.com/r/MCPservers/comments/1skma8d/we_cut_mcp_token_costs_by_92_by_not_sending_tool/
-https://www.reddit.com/r/LovingOpenSourceAI/comments/1sk9eh6/you_can_finetune_100_opensource_models_without/
-https://www.reddit.com/r/mcp/comments/1ski8l7/mcp_for_wordpress_100_tools_oauth_21_and_full/
-https://www.reddit.com/r/Qwen_AI/comments/1skeeu5/goodbye_qwen_you_tried_but_you_failed/
 https://news.ycombinator.com/item?id=47759341
 https://amd-gaia.ai/docs
 https://www.reddit.com/r/Rag/comments/1skldsb/cdrag_rag_with_llmguided_document_retrieval/
@@ -16995,8 +16555,6 @@ about:blank
 https://kilo.ai/docs/kiloclaw/chat-platforms/discord
 https://discord.com/developers/teams
 https://discord.com/developers/applications/1493728651773087825/oauth2
-about:blank
-https://app.kilo.ai/claw/settings
 https://claw.kilosessions.ai/skills
 https://www.reddit.com/r/CarlJung/comments/1shioz7/how_to_deal_with_the_shadow_of_others/#lightbox
 https://www.reddit.com/r/openclawsetup/comments/1sl8v6q/made_a_list_of_every_useful_openclaw_resource_i/
@@ -17110,7 +16668,6 @@ https://www.reddit.com/r/masterhacker/comments/1slay8x/do_not_try_to_hack_linus_
 https://www.reddit.com/r/GeminiCLI/comments/1smnt2c/gemini_3_is_outrageously_bad/
 https://www.reddit.com/r/LocalLLM/comments/1smjl1n/help_me_squeeze_every_drop_out_of_my_amd_ryzen_ai/
 https://www.reddit.com/r/LovingAIAgents/comments/1smf2d0/openai_build_longrunning_agents_with_more_control/
-https://www.reddit.com/r/mcp/comments/1sms92f/i_got_so_fed_up_with_mcp_server_config_hell_that/
 https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_nailed_memory_importing_chatgpt_history/
 https://www.reddit.com/r/MCPservers/comments/1sms9x8/i_got_so_fed_up_with_mcp_server_config_hell_that/
 https://www.reddit.com/r/NooTopics/comments/1smf5jc/phenethylamine_selegiline_an_amphetaminelike/
@@ -17153,7 +16710,6 @@ https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/
 https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/
 https://x.com/RonyVernet/status/2044420280592875896
 https://www.reddit.com/r/ClaudeCode/comments/1se07sr/karpathy_just_showed_what_an_llm_knowledge_base/
-https://github.com/RedPlanetHQ/core
 https://docs.getcore.me/providers/claude-code
 https://github.com/atomicmemory/llm-wiki-compiler
 https://www.reddit.com/r/ClaudeCode/comments/1sq9ec8/30x_less_context_per_task_by_using_a_local_llm_as/
@@ -17180,7 +16736,6 @@ https://github.com/BlackBeltTechnology/pi-agent-dashboard
 https://github.com/robertpelloni/npp/pull/3
 https://toolkit-cli.com/
 https://toolkode.com/
-https://toolkit-cli.com/
 https://toolkit-llm.com/
 https://toolkit-llm.com/pricing/
 https://github.com/aaronmrosenthal/toolkode-releases
@@ -17188,6 +16743,5 @@ https://github.com/hermes-hq/plugins
 https://hermes-agent.nousresearch.com/docs/user-guide/features/tools
 https://github.com/42-evey/hermes-plugins
 https://hermes-agent.nousresearch.com/docs/reference/tools-reference
-https://github.com/nousresearch/hermes-agent
 https://www.google.com/search?q=how+to+use+nvidia+free+models&oq=how+to+use+nvidia+free+models&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMgcICBDrBxhA0gEIMjUwM2owajeoAgGwAgE&sourceid=chrome&ie=UTF-8
 https://docs.honcho.dev/v2/documentation/introduction/overview
