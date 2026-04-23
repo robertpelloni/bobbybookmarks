@@ -1,7 +1,7 @@
 {
-  "active_url": "https://github.com/zaycruz/docker_mcp",
+  "active_url": "https://github.com/steipete/macos-automator-mcp",
   "borg_rows": 10423,
-  "last_error": "'MultiProviderPool' object has no attribute 'last_backoff_seconds'",
+  "last_error": null,
   "last_extracted_url": "https://www.reddit.com/r/Anthropic/comments/1ry67zo/claude_inserted_a_message_at_the_end_of_its/",
   "last_model": null,
   "models": [
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 5204,
+  "remaining_urls": 5126,
   "sleep_seconds": null,
-  "state": "decode_error",
-  "updated_at": "2026-04-23T13:08:20.438838+00:00",
+  "state": "researching",
+  "updated_at": "2026-04-23T14:12:38.417566+00:00",
   "worker_pid": 46856
 }
