@@ -1,4 +1,28 @@
 {
+<<<<<<< HEAD
+  "active_url": "https://news.ycombinator.com/item?id=46722284",
+  "borg_rows": 8946,
+  "last_error": null,
+  "last_extracted_url": "https://news.ycombinator.com/item?id=46722284",
+  "last_provider": "openrouter-gemini-flash",
+  "models": [
+    "lmstudio-local",
+    "openrouter-gemini-2.0-flash-exp",
+    "openrouter-mistral-7b-instruct",
+    "openrouter-llama-3-8b-instruct",
+    "openrouter-phi-3-mini-128k-instruct",
+    "openrouter-openchat-7b",
+    "groq-llama3-8b",
+    "openrouter-gemini-flash"
+  ],
+  "remaining_urls": 14183,
+  "session_failed": 1,
+  "session_heuristic": 0,
+  "session_processed": 26,
+  "state": "processing",
+  "updated_at": "2026-04-10T01:09:58.991034+00:00",
+  "worker_pid": 31088
+=======
   "active_url": null,
   "borg_rows": 8950,
   "last_error": null,
@@ -11,4 +35,5 @@
   "state": "starting",
   "updated_at": "2026-04-19T06:46:18.899226+00:00",
   "worker_pid": 813515
+>>>>>>> jules-10696565462515586157-7edff449
 }
