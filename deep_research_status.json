@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/ttjslbz001/akshare_mcp_server",
-  "borg_rows": 10618,
+  "active_url": "https://github.com/szcharlesji/crypto-mcp",
+  "borg_rows": 10684,
   "last_error": null,
-  "last_extracted_url": "https://github.com/twolven/mcp-optionsflow",
+  "last_extracted_url": "https://github.com/szcharlesji/crypto-mcp",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 4511,
+  "remaining_urls": 4444,
   "sleep_seconds": null,
-  "state": "researching",
-  "updated_at": "2026-04-23T21:29:16.475076+00:00",
+  "state": "processing",
+  "updated_at": "2026-04-23T22:03:20.945509+00:00",
   "worker_pid": 46856
 }
