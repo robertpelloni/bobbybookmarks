@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
-  "borg_rows": 12173,
+  "active_url": "https://github.com/seo-review-tools/seo-api-mcp",
+  "borg_rows": 12176,
   "last_error": null,
-  "last_extracted_url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
+  "last_extracted_url": "https://github.com/omer-ayhan/custom-context-mcp",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 2203,
+  "remaining_urls": 2199,
   "sleep_seconds": null,
-  "state": "processing",
-  "updated_at": "2026-04-24T18:10:02.169176+00:00",
+  "state": "researching",
+  "updated_at": "2026-04-24T18:11:55.192975+00:00",
   "worker_pid": 46856
 }
