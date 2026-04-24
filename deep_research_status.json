@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/stripe/agent-toolkit",
-  "borg_rows": 12092,
+  "active_url": "https://github.com/guilhermelirio/brazilian-cep-mcp",
+  "borg_rows": 12096,
   "last_error": null,
-  "last_extracted_url": "https://github.com/thomasdavis/blah",
+  "last_extracted_url": "https://github.com/ryanjoachim/mcp-rtfm",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 2484,
+  "remaining_urls": 2336,
   "sleep_seconds": null,
   "state": "researching",
-  "updated_at": "2026-04-24T14:40:09.828113+00:00",
+  "updated_at": "2026-04-24T16:44:20.438725+00:00",
   "worker_pid": 46856
 }
