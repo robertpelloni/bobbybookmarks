@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/guilhermelirio/brazilian-cep-mcp",
-  "borg_rows": 12096,
+  "active_url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
+  "borg_rows": 12173,
   "last_error": null,
-  "last_extracted_url": "https://github.com/ryanjoachim/mcp-rtfm",
+  "last_extracted_url": "https://github.com/fortnightly-devs/mcp-x402-task-scheduler",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 2336,
+  "remaining_urls": 2203,
   "sleep_seconds": null,
-  "state": "researching",
-  "updated_at": "2026-04-24T16:44:20.438725+00:00",
+  "state": "processing",
+  "updated_at": "2026-04-24T18:10:02.169176+00:00",
   "worker_pid": 46856
 }
