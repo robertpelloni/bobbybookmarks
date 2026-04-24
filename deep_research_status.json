@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/szcharlesji/crypto-mcp",
-  "borg_rows": 10684,
+  "active_url": "https://github.com/stripe/agent-toolkit",
+  "borg_rows": 12092,
   "last_error": null,
-  "last_extracted_url": "https://github.com/szcharlesji/crypto-mcp",
+  "last_extracted_url": "https://github.com/thomasdavis/blah",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 4444,
+  "remaining_urls": 2484,
   "sleep_seconds": null,
-  "state": "processing",
-  "updated_at": "2026-04-23T22:03:20.945509+00:00",
+  "state": "researching",
+  "updated_at": "2026-04-24T14:40:09.828113+00:00",
   "worker_pid": 46856
 }
