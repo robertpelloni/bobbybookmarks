@@ -1,8 +1,8 @@
 {
-  "active_url": "https://github.com/thirdstrandstudio/mcp-xpath",
-  "borg_rows": 12196,
+  "active_url": "https://docs.honcho.dev/v2/documentation/introduction/overview",
+  "borg_rows": 14249,
   "last_error": null,
-  "last_extracted_url": "https://github.com/btwiuse/npm-search-mcp-server",
+  "last_extracted_url": "https://docs.honcho.dev/v2/documentation/introduction/overview",
   "last_model": null,
   "models": [
     "lmstudio-local",
@@ -19,9 +19,9 @@
     "groq-llama3-8b",
     "openrouter-gemini-flash"
   ],
-  "remaining_urls": 2179,
+  "remaining_urls": 0,
   "sleep_seconds": null,
-  "state": "researching",
-  "updated_at": "2026-04-24T18:22:36.646533+00:00",
+  "state": "processing",
+  "updated_at": "2026-04-25T11:13:52.150510+00:00",
   "worker_pid": 46856
 }
