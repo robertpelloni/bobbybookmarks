@@ -1,502 +1,500 @@
 [
   {
-    "timestamp": "2026-04-18T02:12:08.983085+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1smyf4w/multipurpose_mcp_server_i_built_for_token_savings/"
-  },
-  {
-    "timestamp": "2026-04-18T02:12:14.008395+00:00",
+    "timestamp": "2026-05-03T15:47:46.620484+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
+    "message": "Fetching content for: https://alternativeto.net/software/zotero/about"
   },
   {
-    "timestamp": "2026-04-18T02:12:14.553809+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
+    "timestamp": "2026-05-03T15:47:47.138938+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://alternativeto.net/software/zotero/about"
   },
   {
-    "timestamp": "2026-04-18T02:12:23.714051+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/MCPservers/comments/1sn57jn/mcpaql_protocol_documentation_portal/"
-  },
-  {
-    "timestamp": "2026-04-18T02:12:28.745123+00:00",
+    "timestamp": "2026-05-03T15:47:47.147524+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
+    "message": "Fetching content for: https://app.factory.ai/api/auth/login&state=https://app.factory.ai//welcome"
   },
   {
-    "timestamp": "2026-04-18T02:12:29.371984+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
+    "timestamp": "2026-05-03T15:47:47.823831+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://app.factory.ai/api/auth/login&state=https://app.factory.ai//welcome"
   },
   {
-    "timestamp": "2026-04-18T02:12:39.651138+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus/"
-  },
-  {
-    "timestamp": "2026-04-18T02:12:44.680202+00:00",
+    "timestamp": "2026-05-03T15:47:47.832586+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
+    "message": "Fetching content for: https://app.plutoai.in/extension_uninstalled"
   },
   {
-    "timestamp": "2026-04-18T02:12:45.240398+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
+    "timestamp": "2026-05-03T15:47:48.086325+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://app.plutoai.in/extension_uninstalled"
   },
   {
-    "timestamp": "2026-04-18T02:12:54.601996+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn576m/mcpaql_protocol_documentation_portal/"
-  },
-  {
-    "timestamp": "2026-04-18T02:12:59.633060+00:00",
+    "timestamp": "2026-05-03T15:47:48.092839+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
+    "message": "Fetching content for: https://app.plutoai.in/login?redirect=extension"
   },
   {
-    "timestamp": "2026-04-18T02:13:00.162447+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
+    "timestamp": "2026-05-03T15:47:48.097017+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://app.plutoai.in/login?redirect=extension"
   },
   {
-    "timestamp": "2026-04-18T02:13:09.653989+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/ShowYourApp/comments/1slgp6x/phantom_tide_v1720_20260414/"
-  },
-  {
-    "timestamp": "2026-04-18T02:13:14.682699+00:00",
+    "timestamp": "2026-05-03T15:47:48.104697+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
+    "message": "Fetching content for: https://archive.is/submit?url=robertpelloni.com"
   },
   {
-    "timestamp": "2026-04-18T02:13:15.320629+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
+    "timestamp": "2026-05-03T15:47:58.816567+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://archive.is/submit?url=robertpelloni.com"
   },
   {
-    "timestamp": "2026-04-18T02:13:25.293780+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/aliens/comments/1sn3w5w/steven_spielberg_says_disclosure_day_is_closer_to/"
-  },
-  {
-    "timestamp": "2026-04-18T02:13:30.313615+00:00",
+    "timestamp": "2026-05-03T15:47:58.872830+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.phoronix.com/news/Mozilla-Thunderbolt"
+    "message": "Fetching content for: https://archive.ph/u3jgv"
   },
   {
-    "timestamp": "2026-04-18T02:13:31.140310+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.phoronix.com/news/Mozilla-Thunderbolt"
+    "timestamp": "2026-05-03T15:48:00.242832+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://archive.ph/u3jgv"
   },
   {
-    "timestamp": "2026-04-18T02:13:46.665096+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.phoronix.com/news/Mozilla-Thunderbolt"
-  },
-  {
-    "timestamp": "2026-04-18T02:13:51.697351+00:00",
+    "timestamp": "2026-05-03T15:48:00.252971+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+    "message": "Fetching content for: https://auth.freetaxusa.com/"
   },
   {
-    "timestamp": "2026-04-18T02:13:52.251278+00:00",
+    "timestamp": "2026-05-03T15:48:01.102764+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+    "message": "Starting Borg research on: https://auth.freetaxusa.com/"
   },
   {
-    "timestamp": "2026-04-18T02:14:01.569288+00:00",
+    "timestamp": "2026-05-03T15:48:17.787418+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/UFOs/comments/1sn0nqj/a_brazilian_military_police_commander_reveals/"
+    "message": "Finalizing extraction for: https://auth.freetaxusa.com/"
   },
   {
-    "timestamp": "2026-04-18T02:14:06.617110+00:00",
+    "timestamp": "2026-05-03T15:48:22.820364+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
+    "message": "Fetching content for: https://barlowesherbalelixirs.com/caesalpinia-benthamiana-powder"
   },
   {
-    "timestamp": "2026-04-18T02:14:07.152104+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
+    "timestamp": "2026-05-03T15:48:24.076613+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://barlowesherbalelixirs.com/caesalpinia-benthamiana-powder"
   },
   {
-    "timestamp": "2026-04-18T02:14:16.991372+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k/"
-  },
-  {
-    "timestamp": "2026-04-18T02:14:22.026443+00:00",
+    "timestamp": "2026-05-03T15:48:24.085920+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
+    "message": "Fetching content for: https://barmoar.com/products/universal-non-slip-gripper-spikes"
   },
   {
-    "timestamp": "2026-04-18T02:14:22.578777+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
+    "timestamp": "2026-05-03T15:48:24.170177+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://barmoar.com/products/universal-non-slip-gripper-spikes"
   },
   {
-    "timestamp": "2026-04-18T02:14:33.250860+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1smzh4b/mcp_code_mode_and_erlang_building_a_true_google/"
-  },
-  {
-    "timestamp": "2026-04-18T02:14:38.284479+00:00",
+    "timestamp": "2026-05-03T15:48:24.180801+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
+    "message": "Fetching content for: https://bbgate.com/"
   },
   {
-    "timestamp": "2026-04-18T02:14:38.896166+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
+    "timestamp": "2026-05-03T15:48:24.234172+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/"
   },
   {
-    "timestamp": "2026-04-18T02:14:48.676537+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/Ghostty/comments/1sj6nh6/macosnative_multiplexer_with_vertical_tabs_built/"
-  },
-  {
-    "timestamp": "2026-04-18T02:14:53.704919+00:00",
+    "timestamp": "2026-05-03T15:48:24.243415+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
+    "message": "Fetching content for: https://bbgate.com/b/amphetamine.244"
   },
   {
-    "timestamp": "2026-04-18T02:14:54.239775+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
+    "timestamp": "2026-05-03T15:48:24.252021+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/amphetamine.244"
   },
   {
-    "timestamp": "2026-04-18T02:15:03.595466+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/algotrading/comments/1skauaj/am_i_ready_to_go_live/"
-  },
-  {
-    "timestamp": "2026-04-18T02:15:08.627226+00:00",
+    "timestamp": "2026-05-03T15:48:24.261262+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
+    "message": "Fetching content for: https://bbgate.com/b/amphetamines-phenylethylamines.2"
   },
   {
-    "timestamp": "2026-04-18T02:15:09.331625+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
+    "timestamp": "2026-05-03T15:48:24.267250+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/amphetamines-phenylethylamines.2"
   },
   {
-    "timestamp": "2026-04-18T02:15:18.645918+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/cmux/comments/1sjv2g0/cmuxresurrect_save_and_restore_your_workspaces/"
-  },
-  {
-    "timestamp": "2026-04-18T02:15:23.675855+00:00",
+    "timestamp": "2026-05-03T15:48:24.276830+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://katzilla.dev/?rdt_cid=5582913998883719809"
+    "message": "Fetching content for: https://bbgate.com/b/lsd.252"
   },
   {
-    "timestamp": "2026-04-18T02:15:24.684432+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://katzilla.dev/?rdt_cid=5582913998883719809"
+    "timestamp": "2026-05-03T15:48:24.282726+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/lsd.252"
   },
   {
-    "timestamp": "2026-04-18T02:15:40.065347+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://katzilla.dev/?rdt_cid=5582913998883719809"
-  },
-  {
-    "timestamp": "2026-04-18T02:15:45.085761+00:00",
+    "timestamp": "2026-05-03T15:48:24.292297+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
+    "message": "Fetching content for: https://bbgate.com/b/opioids.7/page-4"
   },
   {
-    "timestamp": "2026-04-18T02:15:45.639215+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
+    "timestamp": "2026-05-03T15:48:24.297825+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/opioids.7/page-4"
   },
   {
-    "timestamp": "2026-04-18T02:15:55.767704+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn61rg/agentbank_financial_infrastructure_for_ai_agents/"
-  },
-  {
-    "timestamp": "2026-04-18T02:16:00.811850+00:00",
+    "timestamp": "2026-05-03T15:48:24.306352+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
+    "message": "Fetching content for: https://bbgate.com/b/other.8/page-2"
   },
   {
-    "timestamp": "2026-04-18T02:16:01.370650+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
+    "timestamp": "2026-05-03T15:48:24.311123+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/other.8/page-2"
   },
   {
-    "timestamp": "2026-04-18T02:16:10.614961+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1sn4opz/qwen_meet_qwen3635ba3b_now_opensource_a_sparse/"
-  },
-  {
-    "timestamp": "2026-04-18T02:16:15.644782+00:00",
+    "timestamp": "2026-05-03T15:48:24.323248+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
+    "message": "Fetching content for: https://bbgate.com/b/other.8/page-4"
   },
   {
-    "timestamp": "2026-04-18T02:16:16.387610+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
+    "timestamp": "2026-05-03T15:48:24.328841+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/other.8/page-4"
   },
   {
-    "timestamp": "2026-04-18T02:16:25.661335+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/"
-  },
-  {
-    "timestamp": "2026-04-18T02:16:30.703207+00:00",
+    "timestamp": "2026-05-03T15:48:24.338856+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
+    "message": "Fetching content for: https://bbgate.com/b/tryptamines.6"
   },
   {
-    "timestamp": "2026-04-18T02:16:31.254728+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
+    "timestamp": "2026-05-03T15:48:24.344902+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/b/tryptamines.6"
   },
   {
-    "timestamp": "2026-04-18T02:16:41.046760+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/MCPservers/comments/1sn8f54/how_to_efficiently_handle_the_correct_mcp_tool/"
-  },
-  {
-    "timestamp": "2026-04-18T02:16:46.069696+00:00",
+    "timestamp": "2026-05-03T15:48:24.354139+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
+    "message": "Fetching content for: https://bbgate.com/search/2626966?o=date&page=2&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:16:46.653474+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
+    "timestamp": "2026-05-03T15:48:24.359858+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/search/2626966?o=date&page=2&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:16:57.270034+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/"
-  },
-  {
-    "timestamp": "2026-04-18T02:17:02.298667+00:00",
+    "timestamp": "2026-05-03T15:48:24.369821+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
+    "message": "Fetching content for: https://bbgate.com/search/2800339?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:02.844657+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
+    "timestamp": "2026-05-03T15:48:24.375533+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/search/2800339?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:12.625728+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/warpdotdev/comments/1sn8zrd/claude_opus_47_is_now_available_in_warp/"
-  },
-  {
-    "timestamp": "2026-04-18T02:17:17.654040+00:00",
+    "timestamp": "2026-05-03T15:48:24.386003+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
+    "message": "Fetching content for: https://bbgate.com/search/2814008?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:18.262257+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
+    "timestamp": "2026-05-03T15:48:24.391812+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/search/2814008?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:27.982144+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/Nootropics/comments/1sn84e8/saffron_is_a_stimulant/"
-  },
-  {
-    "timestamp": "2026-04-18T02:17:33.011375+00:00",
+    "timestamp": "2026-05-03T15:48:24.400772+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
+    "message": "Fetching content for: https://bbgate.com/search/2903795?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:33.612935+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
+    "timestamp": "2026-05-03T15:48:24.405904+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/search/2903795?o=date&q=5-mapb"
   },
   {
-    "timestamp": "2026-04-18T02:17:42.926305+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/pinescript/comments/1sn3iwd/do_you_trust_macd_or_stochastic_more_for_momentum/"
-  },
-  {
-    "timestamp": "2026-04-18T02:17:47.947463+00:00",
+    "timestamp": "2026-05-03T15:48:24.415325+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
+    "message": "Fetching content for: https://bbgate.com/threads/2c-b-synthesis.16084"
   },
   {
-    "timestamp": "2026-04-18T02:17:49.212695+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
+    "timestamp": "2026-05-03T15:48:24.421290+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/2c-b-synthesis.16084"
   },
   {
-    "timestamp": "2026-04-18T02:17:58.620603+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/"
-  },
-  {
-    "timestamp": "2026-04-18T02:18:03.651169+00:00",
+    "timestamp": "2026-05-03T15:48:24.430661+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
+    "message": "Fetching content for: https://bbgate.com/threads/6-apb-5-mapb-questions.7584"
   },
   {
-    "timestamp": "2026-04-18T02:18:04.297441+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
+    "timestamp": "2026-05-03T15:48:24.436882+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/6-apb-5-mapb-questions.7584"
   },
   {
-    "timestamp": "2026-04-18T02:18:13.312301+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/linuxapps/comments/1sn3mtz/mediaconverter_a_fully_local_file_converter/"
-  },
-  {
-    "timestamp": "2026-04-18T02:18:18.342800+00:00",
+    "timestamp": "2026-05-03T15:48:24.446348+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
+    "message": "Fetching content for: https://bbgate.com/threads/6-apb-5-mapb-vendor-precursors.9086"
   },
   {
-    "timestamp": "2026-04-18T02:18:19.758903+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
+    "timestamp": "2026-05-03T15:48:24.451700+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/6-apb-5-mapb-vendor-precursors.9086"
   },
   {
-    "timestamp": "2026-04-18T02:18:29.458188+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/"
-  },
-  {
-    "timestamp": "2026-04-18T02:18:34.490453+00:00",
+    "timestamp": "2026-05-03T15:48:24.460217+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
+    "message": "Fetching content for: https://bbgate.com/threads/blue-bliss-pink-star-borax-combo-2-fma-5-meo-mipt-5-mapb.14532"
   },
   {
-    "timestamp": "2026-04-18T02:18:35.044359+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
+    "timestamp": "2026-05-03T15:48:24.465353+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/blue-bliss-pink-star-borax-combo-2-fma-5-meo-mipt-5-mapb.14532"
   },
   {
-    "timestamp": "2026-04-18T02:18:45.144320+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn61si/wisepanel_mcp_server_provides_access_to/"
-  },
-  {
-    "timestamp": "2026-04-18T02:18:50.174330+00:00",
+    "timestamp": "2026-05-03T15:48:24.473963+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
+    "message": "Fetching content for: https://bbgate.com/threads/general-schemes-of-amphetamine-synthesis.73"
   },
   {
-    "timestamp": "2026-04-18T02:18:50.726105+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
+    "timestamp": "2026-05-03T15:48:24.479027+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/general-schemes-of-amphetamine-synthesis.73"
   },
   {
-    "timestamp": "2026-04-18T02:19:00.156462+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/OpenWebUI/comments/1sn9uf3/xda_after_two_months_of_open_webui_updates_id/"
-  },
-  {
-    "timestamp": "2026-04-18T02:19:05.187154+00:00",
+    "timestamp": "2026-05-03T15:48:24.487876+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
+    "message": "Fetching content for: https://bbgate.com/threads/information-about-clearnet-vendors-for-research-chemicals-and-the-chemicals.8691#post-41573"
   },
   {
-    "timestamp": "2026-04-18T02:19:05.730117+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
+    "timestamp": "2026-05-03T15:48:24.493410+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/information-about-clearnet-vendors-for-research-chemicals-and-the-chemicals.8691#post-41573"
   },
   {
-    "timestamp": "2026-04-18T02:19:15.693787+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding/"
-  },
-  {
-    "timestamp": "2026-04-18T02:19:20.727155+00:00",
+    "timestamp": "2026-05-03T15:48:24.502362+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
+    "message": "Fetching content for: https://bbgate.com/threads/kratom.568"
   },
   {
-    "timestamp": "2026-04-18T02:19:21.336819+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
+    "timestamp": "2026-05-03T15:48:24.508610+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/kratom.568"
   },
   {
-    "timestamp": "2026-04-18T02:19:30.900889+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/PromptEngineering/comments/1sn2w1w/i_got_tired_of_losing_my_best_prompts_in_chat/"
-  },
-  {
-    "timestamp": "2026-04-18T02:19:35.930668+00:00",
+    "timestamp": "2026-05-03T15:48:24.518031+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
+    "message": "Fetching content for: https://bbgate.com/threads/kratom-acid-base-extraction.963/page-2"
   },
   {
-    "timestamp": "2026-04-18T02:19:36.498164+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
+    "timestamp": "2026-05-03T15:48:24.524844+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/kratom-acid-base-extraction.963/page-2"
   },
   {
-    "timestamp": "2026-04-18T02:19:46.096232+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1sn16en/claimhit_patent_infringement_search_mcp_server/"
-  },
-  {
-    "timestamp": "2026-04-18T02:19:51.119018+00:00",
+    "timestamp": "2026-05-03T15:48:24.536019+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
+    "message": "Fetching content for: https://bbgate.com/threads/mitragynine-pseudoindoxyl-synthesis.1080"
   },
   {
-    "timestamp": "2026-04-18T02:19:51.680730+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
+    "timestamp": "2026-05-03T15:48:24.541352+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/mitragynine-pseudoindoxyl-synthesis.1080"
   },
   {
-    "timestamp": "2026-04-18T02:20:00.534291+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/claudeskills/comments/1skmu8e/calendarawarenessskill_a_claude_skill_for/"
-  },
-  {
-    "timestamp": "2026-04-18T02:20:05.568395+00:00",
+    "timestamp": "2026-05-03T15:48:24.550386+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
+    "message": "Fetching content for: https://bbgate.com/threads/one-step-dextroamphetamine-synthesis.11133"
   },
   {
-    "timestamp": "2026-04-18T02:20:06.130631+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
+    "timestamp": "2026-05-03T15:48:24.556846+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/one-step-dextroamphetamine-synthesis.11133"
   },
   {
-    "timestamp": "2026-04-18T02:20:15.600036+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1sn7osj/i_simply_dont_get_it/"
-  },
-  {
-    "timestamp": "2026-04-18T02:20:20.622311+00:00",
+    "timestamp": "2026-05-03T15:48:24.568833+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
+    "message": "Fetching content for: https://bbgate.com/threads/shopping-before-a-trip-to-the-kitchen.454"
   },
   {
-    "timestamp": "2026-04-18T02:20:21.269005+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
+    "timestamp": "2026-05-03T15:48:24.574886+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/shopping-before-a-trip-to-the-kitchen.454"
   },
   {
-    "timestamp": "2026-04-18T02:20:31.470367+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/vibecoding/comments/1smz7by/i_curated_500_vibe_coding_tools_into_one_list/"
-  },
-  {
-    "timestamp": "2026-04-18T02:20:36.489576+00:00",
+    "timestamp": "2026-05-03T15:48:24.586201+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://x.com/RonyVernet/status/2044420280592875896"
+    "message": "Fetching content for: https://bbgate.com/threads/some-amphetamine-salts.10315"
   },
   {
-    "timestamp": "2026-04-18T02:20:37.462110+00:00",
+    "timestamp": "2026-05-03T15:48:24.593134+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/some-amphetamine-salts.10315"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:24.602268+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://bbgate.com/threads/supply-of-research-chemicals-precursors-feedstocks-additives-api-chemicals.14054/page-4"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:24.607942+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/supply-of-research-chemicals-precursors-feedstocks-additives-api-chemicals.14054/page-4"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:24.618490+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://bbgate.com/threads/syntheses-of-2c-phenylethylamines.1431"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:24.623636+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bbgate.com/threads/syntheses-of-2c-phenylethylamines.1431"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:24.632350+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://blizzbrush.com/"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:25.665311+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://blizzbrush.com/"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:25.674775+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://blizzbrush.com/en-us/pages/blizzflosser"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:26.793467+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://blizzbrush.com/en-us/pages/blizzflosser"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:26.803637+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://blizzbrush.com/en-us/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:27.671679+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://blizzbrush.com/en-us/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:27.681568+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://blizzbrush.com/pages/blizzflosser"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:28.534175+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://blizzbrush.com/pages/blizzflosser"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:28.544862+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://blizzbrush.com/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:29.653526+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://blizzbrush.com/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:29.663279+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://browsernative.com/user-agent-chrome-extension#google_vignette"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:30.689036+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://x.com/RonyVernet/status/2044420280592875896"
+    "message": "Starting Borg research on: https://browsernative.com/user-agent-chrome-extension#google_vignette"
   },
   {
-    "timestamp": "2026-04-18T02:20:48.377610+00:00",
+    "timestamp": "2026-05-03T15:48:50.014484+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://x.com/RonyVernet/status/2044420280592875896"
-  }
-]
+    "message": "Finalizing extraction for: https://browsernative.com/user-agent-chrome-extension#google_vignette"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:55.042711+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+  },
+  {
+    "timestamp": "2026-05-03T15:48:56.166526+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:07.090455+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:12.112216+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://bulk7oh.com/mgm15-tablets/florida?_kx=8rHzv__cILNk2s8NxCVinorR8DpK2umb81VD7-tY4iwF0L6vfKa16Nk8YzrFwrCR.RZretM"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:16.103567+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bulk7oh.com/mgm15-tablets/florida?_kx=8rHzv__cILNk2s8NxCVinorR8DpK2umb81VD7-tY4iwF0L6vfKa16Nk8YzrFwrCR.RZretM"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:16.112408+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://bulk7oh.com/product/hydroxy-mitragynine-7oh-tablets"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:17.351274+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://bulk7oh.com/product/hydroxy-mitragynine-7oh-tablets"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:17.359212+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://careers.acehardware.com/404"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:18.788038+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://careers.acehardware.com/404"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:18.795181+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://character.ai/"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:19.660128+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://character.ai/"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:30.132755+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://character.ai/"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:35.163345+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://chat.deepseek.com/"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:35.898911+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://chat.deepseek.com/"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:35.909999+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b"
+  },
+  {
+    "timestamp": "2026-05-03T15:49:36.797457+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b"
