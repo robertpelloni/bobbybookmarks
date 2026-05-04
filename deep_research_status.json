@@ -1,11 +1,9 @@
 {
-  "active_url": "https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b",
-  "attempt": 1,
+  "active_url": "https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486",
   "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16078,
-  "last_error": null,
-  "last_extracted_url": "https://character.ai/",
-  "last_model": "liquid/lfm2.5-1.2b",
+  "borg_rows": 16689,
+  "last_error": "fetch_failed",
+  "last_extracted_url": null,
   "models": [
     "lmstudio/liquid/lfm2.5-1.2b",
     "lmstudio/gemma-4-e2b-uncensored-hauhaucs-aggressive",
@@ -19,7 +17,9 @@
     "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
     "openrouter/openrouter/free"
   ],
-  "remaining_urls": 607,
+  "remaining_urls": 1,
   "sleep_seconds": null,
-  "state": "researching",
-  "updated_at": "2026-05-03T15:49:36.82201
+  "state": "fetch_failed",
+  "updated_at": "2026-05-03T20:26:00.791953+00:00",
+  "worker_pid": 33604
+}

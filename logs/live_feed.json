@@ -1,500 +1,502 @@
 [
   {
-    "timestamp": "2026-05-03T15:47:46.620484+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://alternativeto.net/software/zotero/about"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:47.138938+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://alternativeto.net/software/zotero/about"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:47.147524+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://app.factory.ai/api/auth/login&state=https://app.factory.ai//welcome"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:47.823831+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://app.factory.ai/api/auth/login&state=https://app.factory.ai//welcome"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:47.832586+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://app.plutoai.in/extension_uninstalled"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:48.086325+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://app.plutoai.in/extension_uninstalled"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:48.092839+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://app.plutoai.in/login?redirect=extension"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:48.097017+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://app.plutoai.in/login?redirect=extension"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:48.104697+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://archive.is/submit?url=robertpelloni.com"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:58.816567+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://archive.is/submit?url=robertpelloni.com"
-  },
-  {
-    "timestamp": "2026-05-03T15:47:58.872830+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://archive.ph/u3jgv"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:00.242832+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://archive.ph/u3jgv"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:00.252971+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://auth.freetaxusa.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:01.102764+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://auth.freetaxusa.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:17.787418+00:00",
+    "timestamp": "2026-05-03T20:17:23.648360+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://auth.freetaxusa.com/"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/opencodeCLI/comments/1t1jzcw/is_it_just_me_that_deepseek_v4_flash_max_is/"
   },
   {
-    "timestamp": "2026-05-03T15:48:22.820364+00:00",
+    "timestamp": "2026-05-03T20:17:28.669922+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://barlowesherbalelixirs.com/caesalpinia-benthamiana-powder"
+    "message": "Fetching content for: https://www.reddit.com/r/VibeCodeDevs/comments/1t1mtl1/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:48:24.076613+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://barlowesherbalelixirs.com/caesalpinia-benthamiana-powder"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.085920+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://barmoar.com/products/universal-non-slip-gripper-spikes"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.170177+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://barmoar.com/products/universal-non-slip-gripper-spikes"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.180801+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.234172+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.243415+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/amphetamine.244"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.252021+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/amphetamine.244"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.261262+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/amphetamines-phenylethylamines.2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.267250+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/amphetamines-phenylethylamines.2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.276830+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/lsd.252"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.282726+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/lsd.252"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.292297+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/opioids.7/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.297825+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/opioids.7/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.306352+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/other.8/page-2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.311123+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/other.8/page-2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.323248+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/other.8/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.328841+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/other.8/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.338856+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/b/tryptamines.6"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.344902+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/b/tryptamines.6"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.354139+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/search/2626966?o=date&page=2&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.359858+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/search/2626966?o=date&page=2&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.369821+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/search/2800339?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.375533+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/search/2800339?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.386003+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/search/2814008?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.391812+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/search/2814008?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.400772+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/search/2903795?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.405904+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/search/2903795?o=date&q=5-mapb"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.415325+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/2c-b-synthesis.16084"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.421290+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/2c-b-synthesis.16084"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.430661+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/6-apb-5-mapb-questions.7584"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.436882+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/6-apb-5-mapb-questions.7584"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.446348+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/6-apb-5-mapb-vendor-precursors.9086"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.451700+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/6-apb-5-mapb-vendor-precursors.9086"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.460217+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/blue-bliss-pink-star-borax-combo-2-fma-5-meo-mipt-5-mapb.14532"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.465353+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/blue-bliss-pink-star-borax-combo-2-fma-5-meo-mipt-5-mapb.14532"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.473963+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/general-schemes-of-amphetamine-synthesis.73"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.479027+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/general-schemes-of-amphetamine-synthesis.73"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.487876+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/information-about-clearnet-vendors-for-research-chemicals-and-the-chemicals.8691#post-41573"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.493410+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/information-about-clearnet-vendors-for-research-chemicals-and-the-chemicals.8691#post-41573"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.502362+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/kratom.568"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.508610+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/kratom.568"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.518031+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/kratom-acid-base-extraction.963/page-2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.524844+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/kratom-acid-base-extraction.963/page-2"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.536019+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/mitragynine-pseudoindoxyl-synthesis.1080"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.541352+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/mitragynine-pseudoindoxyl-synthesis.1080"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.550386+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/one-step-dextroamphetamine-synthesis.11133"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.556846+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/one-step-dextroamphetamine-synthesis.11133"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.568833+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/shopping-before-a-trip-to-the-kitchen.454"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.574886+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/shopping-before-a-trip-to-the-kitchen.454"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.586201+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/some-amphetamine-salts.10315"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.593134+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/some-amphetamine-salts.10315"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.602268+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/supply-of-research-chemicals-precursors-feedstocks-additives-api-chemicals.14054/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.607942+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/supply-of-research-chemicals-precursors-feedstocks-additives-api-chemicals.14054/page-4"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.618490+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bbgate.com/threads/syntheses-of-2c-phenylethylamines.1431"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.623636+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bbgate.com/threads/syntheses-of-2c-phenylethylamines.1431"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:24.632350+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://blizzbrush.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:25.665311+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://blizzbrush.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:25.674775+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://blizzbrush.com/en-us/pages/blizzflosser"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:26.793467+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://blizzbrush.com/en-us/pages/blizzflosser"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:26.803637+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://blizzbrush.com/en-us/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:27.671679+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://blizzbrush.com/en-us/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:27.681568+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://blizzbrush.com/pages/blizzflosser"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:28.534175+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://blizzbrush.com/pages/blizzflosser"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:28.544862+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://blizzbrush.com/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:29.653526+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://blizzbrush.com/pages/how-to-take-the-impressions-for-blizzflosser-tailoring"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:29.663279+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://browsernative.com/user-agent-chrome-extension#google_vignette"
-  },
-  {
-    "timestamp": "2026-05-03T15:48:30.689036+00:00",
+    "timestamp": "2026-05-03T20:17:29.173327+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://browsernative.com/user-agent-chrome-extension#google_vignette"
+    "message": "Starting Borg research on: https://www.reddit.com/r/VibeCodeDevs/comments/1t1mtl1/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:48:50.014484+00:00",
+    "timestamp": "2026-05-03T20:17:45.017013+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://browsernative.com/user-agent-chrome-extension#google_vignette"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/VibeCodeDevs/comments/1t1mtl1/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:48:55.042711+00:00",
+    "timestamp": "2026-05-03T20:17:50.038783+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+    "message": "Fetching content for: https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:48:56.166526+00:00",
+    "timestamp": "2026-05-03T20:17:50.524333+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+    "message": "Starting Borg research on: https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:49:07.090455+00:00",
+    "timestamp": "2026-05-03T20:18:08.448886+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to/"
   },
   {
-    "timestamp": "2026-05-03T15:49:12.112216+00:00",
+    "timestamp": "2026-05-03T20:18:13.482408+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://bulk7oh.com/mgm15-tablets/florida?_kx=8rHzv__cILNk2s8NxCVinorR8DpK2umb81VD7-tY4iwF0L6vfKa16Nk8YzrFwrCR.RZretM"
+    "message": "Fetching content for: https://github.com/1jehuang/jcode#detailed-installation"
   },
   {
-    "timestamp": "2026-05-03T15:49:16.103567+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bulk7oh.com/mgm15-tablets/florida?_kx=8rHzv__cILNk2s8NxCVinorR8DpK2umb81VD7-tY4iwF0L6vfKa16Nk8YzrFwrCR.RZretM"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:16.112408+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://bulk7oh.com/product/hydroxy-mitragynine-7oh-tablets"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:17.351274+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://bulk7oh.com/product/hydroxy-mitragynine-7oh-tablets"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:17.359212+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://careers.acehardware.com/404"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:18.788038+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://careers.acehardware.com/404"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:18.795181+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://character.ai/"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:19.660128+00:00",
+    "timestamp": "2026-05-03T20:18:14.822703+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://character.ai/"
+    "message": "Starting Borg research on: https://github.com/1jehuang/jcode#detailed-installation"
   },
   {
-    "timestamp": "2026-05-03T15:49:30.132755+00:00",
+    "timestamp": "2026-05-03T20:18:46.648492+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://character.ai/"
+    "message": "Finalizing extraction for: https://github.com/1jehuang/jcode#detailed-installation"
   },
   {
-    "timestamp": "2026-05-03T15:49:35.163345+00:00",
+    "timestamp": "2026-05-03T20:18:51.681602+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://chat.deepseek.com/"
+    "message": "Fetching content for: https://www.reddit.com/r/singularity/comments/1t1rosv/what_technologies_will_we_realistically_see_in/"
   },
   {
-    "timestamp": "2026-05-03T15:49:35.898911+00:00",
-    "type": "error",
-    "message": "Fetch failed for: https://chat.deepseek.com/"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:35.909999+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b"
-  },
-  {
-    "timestamp": "2026-05-03T15:49:36.797457+00:00",
+    "timestamp": "2026-05-03T20:18:52.568569+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b"
+    "message": "Starting Borg research on: https://www.reddit.com/r/singularity/comments/1t1rosv/what_technologies_will_we_realistically_see_in/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:09.198069+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/singularity/comments/1t1rosv/what_technologies_will_we_realistically_see_in/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:14.236849+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/chutesAI/comments/1t1njle/best_nsfw_model_in_each_tier/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:15.092073+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/chutesAI/comments/1t1njle/best_nsfw_model_in_each_tier/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:29.299435+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/chutesAI/comments/1t1njle/best_nsfw_model_in_each_tier/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:34.326066+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t1rtee/i_gave_claude_a_split_personality_and_it/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:35.300754+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t1rtee/i_gave_claude_a_split_personality_and_it/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:51.157880+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t1rtee/i_gave_claude_a_split_personality_and_it/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:56.192159+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
+  },
+  {
+    "timestamp": "2026-05-03T20:19:56.842945+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:13.418398+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:18.442760+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/n8nbusinessautomation/comments/1szplwg/stop_using_claude_like_googlehere_are_the_4/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:19.305679+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/n8nbusinessautomation/comments/1szplwg/stop_using_claude_like_googlehere_are_the_4/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:34.251045+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/n8nbusinessautomation/comments/1szplwg/stop_using_claude_like_googlehere_are_the_4/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:39.273772+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ollama/comments/1t1nznv/thoth_open_source_localfirst_ai_assistant/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:40.471585+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ollama/comments/1t1nznv/thoth_open_source_localfirst_ai_assistant/"
+  },
+  {
+    "timestamp": "2026-05-03T20:20:55.684715+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/ollama/comments/1t1nznv/thoth_open_source_localfirst_ai_assistant/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:00.706275+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ClaudePlaysPokemon/comments/1t1p06x/gpt55_plays_pok%C3%A9mon_emerald/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:01.369092+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ClaudePlaysPokemon/comments/1t1p06x/gpt55_plays_pok%C3%A9mon_emerald/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:17.259588+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/ClaudePlaysPokemon/comments/1t1p06x/gpt55_plays_pok%C3%A9mon_emerald/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:22.281138+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vibecoding/comments/1t10tmu/ive_been_in_game_dev_for_over_20_years_and_just/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:22.913999+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vibecoding/comments/1t10tmu/ive_been_in_game_dev_for_over_20_years_and_just/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:37.197326+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/vibecoding/comments/1t10tmu/ive_been_in_game_dev_for_over_20_years_and_just/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:42.222312+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/PiCodingAgent/comments/1t1p00w/mcp_server_that_saves_6080_context_tokens_now/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:43.101175+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/PiCodingAgent/comments/1t1p00w/mcp_server_that_saves_6080_context_tokens_now/"
+  },
+  {
+    "timestamp": "2026-05-03T20:21:58.122670+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/PiCodingAgent/comments/1t1p00w/mcp_server_that_saves_6080_context_tokens_now/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:03.156250+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Millennials/comments/1t1eh18/anyone_having_a_rough_time_with_the_old_internet/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:04.029834+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Millennials/comments/1t1eh18/anyone_having_a_rough_time_with_the_old_internet/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:19.546679+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Millennials/comments/1t1eh18/anyone_having_a_rough_time_with_the_old_internet/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:24.567995+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/vrttrading/comments/1sykobc/50_winrate_31r_with_vrt_on_bar_close_bar/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:25.475650+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/vrttrading/comments/1sykobc/50_winrate_31r_with_vrt_on_bar_close_bar/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:41.359635+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/vrttrading/comments/1sykobc/50_winrate_31r_with_vrt_on_bar_close_bar/"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:46.387083+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590&utm_source=reddit"
+  },
+  {
+    "timestamp": "2026-05-03T20:22:47.169011+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590&utm_source=reddit"
+  },
+  {
+    "timestamp": "2026-05-03T20:23:02.314312+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590&utm_source=reddit"
+  },
+  {
+    "timestamp": "2026-05-03T20:23:07.351223+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/SimTower/comments/1sy7etu/a_simulationperfect_collaborative_simtower_clone/"
+  },
+  {
+    "timestamp": "2026-05-03T20:23:08.009479+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/SimTower/comments/1sy7etu/a_simulationperfect_collaborative_simtower_clone/"
+  },
+  {
+    "timestamp": "2026-05-03T20:23:22.206833+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/SimTower/comments/1sy7etu/a_simulationperfect_collaborative_simtower_clone/"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:22.438315+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:23.176167+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:23.182914+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:23.906908+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:23.914804+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:24.638600+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:24.646469+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:25.839526+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:25.848768+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://news.ycombinator.com/item?id=47832720"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:27.502203+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://news.ycombinator.com/item?id=47832720"
+  },
+  {
+    "timestamp": "2026-05-03T20:24:56.092791+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://news.ycombinator.com/item?id=47832720"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:01.118446+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:01.956986+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:01.964963+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:12.704056+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:12.712333+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:13.647258+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:13.656197+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:14.506417+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:22.670188+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:23.521987+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:23.528450+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:24.119344+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:24.126778+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:24.755151+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:24.763105+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:25.501376+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:25.507604+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:26.002826+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:26.010893+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:36.662597+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:36.668625+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:37.280432+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:37.286521+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:37.847406+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:45.216121+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:46.015976+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:46.024071+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:46.591600+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:46.599791+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:47.296104+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:47.304051+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:48.043227+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:48.051372+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:48.688962+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:48.695529+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:59.326390+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025/"
+  },
+  {
+    "timestamp": "2026-05-03T20:25:59.334565+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:26:00.064536+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/robertpelloni/"
+  },
+  {
+    "timestamp": "2026-05-03T20:26:00.072479+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  },
+  {
+    "timestamp": "2026-05-03T20:26:00.788616+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486"
+  }
+]
