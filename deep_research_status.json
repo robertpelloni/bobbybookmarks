@@ -1,9 +1,11 @@
 {
-  "active_url": "https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486",
+  "active_url": "https://www.reddit.com/r/googlecloud/comments/1t5ky0a/i_turned_400_slide_decks_300_youtube_transcripts/",
+  "attempt": 1,
   "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16689,
-  "last_error": "fetch_failed",
-  "last_extracted_url": null,
+  "borg_rows": 16735,
+  "last_error": null,
+  "last_extracted_url": "https://www.reddit.com/r/googlecloud/comments/1t5ky0a/i_turned_400_slide_decks_300_youtube_transcripts/",
+  "last_model": "liquid/lfm2.5-1.2b",
   "models": [
     "lmstudio/liquid/lfm2.5-1.2b",
     "lmstudio/gemma-4-e2b-uncensored-hauhaucs-aggressive",
@@ -17,9 +19,9 @@
     "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
     "openrouter/openrouter/free"
   ],
-  "remaining_urls": 1,
+  "remaining_urls": 0,
   "sleep_seconds": null,
-  "state": "fetch_failed",
-  "updated_at": "2026-05-03T20:26:00.791953+00:00",
-  "worker_pid": 33604
+  "state": "processing",
+  "updated_at": "2026-05-06T23:24:02.077355+00:00",
+  "worker_pid": 45480
 }
