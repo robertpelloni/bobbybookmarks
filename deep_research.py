@@ -12,6 +12,10 @@ from urllib.parse import urlparse, urlunparse
 
 from llm_pool import LLMPool, stringify_field
 from deduplicator import normalize_url
+
+from borg_memory import TieredMemory
+from borg_selfhealing import SelfHealingEngine, ExtractionValidator
+from borg_skills import SkillEvolutionEngine
 logging.basicConfig(
     level=logging.INFO, 
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -31,6 +35,9 @@ os.makedirs(FLIGHT_LOG_DIR, exist_ok=True)
 
 llm_pool = LLMPool(logger=logger)
 LLM_MODELS = [f"{b}/{m}" for b, m in llm_pool.all_backends]
+
+# Phase 2 systems initialized inside main() — see below
+
 
 BORG_TAXONOMY = [
     "Agent Orchestration & Workflow",
@@ -338,7 +345,14 @@ def borg_research_url(url, content, status):
     if 'github.com' in url:
         github_metadata = extract_github_metadata(url, content)
     complexity = classify_url_complexity(url)
-    prompt = build_tiered_prompt(url, fit_text, complexity, github_metadata)
+    # Phase 2: Skill-enhanced extraction
+    skill_engine = getattr(borg_research_url, '_skill_engine', None)
+    if skill_engine:
+        skill_name, skill_config = skill_engine.match_skill(url, content)
+        prompt = skill_engine.build_skill_prompt(url, skill_name, fit_text, skill_config)
+        status['_skill'] = skill_name
+    else:
+        prompt = build_tiered_prompt(url, fit_text, complexity, github_metadata)
 
     raw_response = None
     model_used = None
@@ -377,6 +391,20 @@ def borg_research_url(url, content, status):
                 res_text = json_match.group(0)
             rdata = json.loads(res_text)
 
+            # Phase 2: Self-healing validation
+            healing_engine = getattr(borg_research_url, "_healing_engine", None)
+            if healing_engine:
+                final_rdata, quality, decision_path = healing_engine.process_extraction(
+                    url, rdata, content, raw_response)
+                if final_rdata is None:
+                    logger.info("Self-healing REJECTED %%s (path: %%s)", url, " -> ".join(decision_path))
+                    write_flight_receipt(url, rdata, model_used, raw_response, "rejected", "selfhealing:" + str(decision_path))
+                    return None
+                rdata = final_rdata
+                status["_quality"] = round(quality, 3)
+                status["_decision_path"] = decision_path
+
+
             # UPGRADE 1: Garbage filter
             is_garbage, garbage_reason = is_garbage_extraction(rdata, url)
             if is_garbage:
@@ -413,9 +441,18 @@ def borg_research_url(url, content, status):
 def main():
     logger.info("=" * 60)
     logger.info("Borg Intelligence Deep Research Worker v2.0")
-    logger.info("Upgrades: Garbage Filter | Fit Markdown | Flight Recorder | Tiered Routing")
+    logger.info("Upgrades: Garbage Filter | Fit Markdown | Flight Recorder | Tiered Routing | Self-Healing | Skills")
     logger.info("=" * 60)
     logger.info("Using LLM backends: %s", ', '.join(LLM_MODELS))
+
+    # Phase 2: Initialize intelligence systems
+    borg_memory = TieredMemory()
+    borg_healing = SelfHealingEngine(llm_pool=llm_pool, memory=borg_memory)
+    borg_skills_engine = SkillEvolutionEngine(memory=borg_memory)
+    borg_research_url._healing_engine = borg_healing
+    borg_research_url._skill_engine = borg_skills_engine
+    borg_research_url._memory = borg_memory
+    logger.info("Phase 2 systems: Memory | Self-Healing | Skills initialized")
     conn = init_db()
     cursor = conn.cursor()
     cursor.execute("SELECT url FROM bookmarks WHERE research_level = 'borg'")
@@ -538,6 +575,22 @@ def main():
     logger.info('  Fetch failed: %d', status['stats']['fetch_failed'])
     logger.info('  Decode failed: %d', status['stats']['decode_failed'])
     logger.info('=' * 60)
+
+    # Phase 2: Final memory and stats dump
+    mem = getattr(borg_research_url, '_memory', None)
+    heal = getattr(borg_research_url, '_healing_engine', None)
+    if mem:
+        mem.flush_l1_to_l2()
+        mem_stats = mem.get_memory_stats()
+        logger.info("Memory: L1=%d L2=%d L3=%d Skills=%d Tools=%d",
+                    mem_stats['l1_count'], mem_stats['l2_count'],
+                    mem_stats['l3_count'], mem_stats['skills_count'],
+                    mem_stats['tools_count'])
+    if heal:
+        hs = heal.get_stats()
+        logger.info("Self-Healing: validated=%d corrected=%d cross_validated=%d rejected=%d avg_quality=%.2f",
+                    hs['validated_first_pass'], hs['corrected'],
+                    hs['cross_validated'], hs['rejected_after_all'], hs['avg_quality'])
 
 if __name__ == "__main__":
     main()
