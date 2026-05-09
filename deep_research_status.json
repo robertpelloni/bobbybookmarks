@@ -1,10 +1,15 @@
 {
-  "active_url": "https://www.reddit.com/r/googlecloud/comments/1t5ky0a/i_turned_400_slide_decks_300_youtube_transcripts/",
+  "_decision_path": [
+    "validate:quality=1.00,issues=0"
+  ],
+  "_quality": 1.0,
+  "_skill": "github_repo",
+  "active_url": "https://github.com/roboflow/rf-detr",
   "attempt": 1,
   "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16735,
+  "borg_rows": 16669,
   "last_error": null,
-  "last_extracted_url": "https://www.reddit.com/r/googlecloud/comments/1t5ky0a/i_turned_400_slide_decks_300_youtube_transcripts/",
+  "last_extracted_url": "https://github.com/roboflow/rf-detr",
   "last_model": "liquid/lfm2.5-1.2b",
   "models": [
     "lmstudio/liquid/lfm2.5-1.2b",
@@ -22,6 +27,14 @@
   "remaining_urls": 0,
   "sleep_seconds": null,
   "state": "processing",
-  "updated_at": "2026-05-06T23:24:02.077355+00:00",
-  "worker_pid": 45480
+  "stats": {
+    "accepted": 8,
+    "decode_failed": 2,
+    "fetch_failed": 0,
+    "rejected": 0
+  },
+  "updated_at": "2026-05-09T15:21:27.627386+00:00",
+  "url_complexity": "complex",
+  "version": "2.0",
+  "worker_pid": 62748
 }
