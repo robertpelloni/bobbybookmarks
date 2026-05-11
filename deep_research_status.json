@@ -1,15 +1,15 @@
 {
   "_decision_path": [
-    "validate:quality=0.83,issues=0"
+    "validate:quality=0.77,issues=0"
   ],
-  "_quality": 0.825,
+  "_quality": 0.775,
   "_skill": "reddit_discussion",
-  "active_url": "https://www.reddit.com/r/isthisAI/comments/1t8247l/is_my_aunt_getting_scammed_american_allegedly",
+  "active_url": "https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in",
   "attempt": 1,
   "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16826,
+  "borg_rows": 16862,
   "last_error": null,
-  "last_extracted_url": "https://www.reddit.com/r/BitcoinMining/comments/1t847u3/another_day_in_the_office",
+  "last_extracted_url": "https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in",
   "last_model": "liquid/lfm2.5-1.2b",
   "models": [
     "lmstudio/liquid/lfm2.5-1.2b",
@@ -24,17 +24,17 @@
     "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
     "openrouter/openrouter/free"
   ],
-  "remaining_urls": 42,
+  "remaining_urls": 0,
   "sleep_seconds": null,
-  "state": "researching",
+  "state": "processing",
   "stats": {
-    "accepted": 32,
-    "decode_failed": 10,
+    "accepted": 5,
+    "decode_failed": 1,
     "fetch_failed": 0,
     "rejected": 0
   },
-  "updated_at": "2026-05-11T20:48:16.179024+00:00",
+  "updated_at": "2026-05-11T22:17:01.161386+00:00",
   "url_complexity": "simple",
   "version": "2.0",
-  "worker_pid": 78772
+  "worker_pid": 31860
 }

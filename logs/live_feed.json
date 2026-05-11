@@ -1,502 +1,502 @@
 [
   {
-    "timestamp": "2026-05-11T20:37:14.060664+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_limited"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:14.993099+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_limited"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:26.108184+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_limited"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:31.129927+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/kimi/comments/1t34xig/is_kimi_good_for_vibecoding"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:32.155808+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/kimi/comments/1t34xig/is_kimi_good_for_vibecoding"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:43.739457+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/kimi/comments/1t34xig/is_kimi_good_for_vibecoding"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:48.761805+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/B2BSaaS/comments/1t2rmzn/building_a_product_but_payroll_is_the_weak_point"
-  },
-  {
-    "timestamp": "2026-05-11T20:37:50.934016+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/B2BSaaS/comments/1t2rmzn/building_a_product_but_payroll_is_the_weak_point"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:04.343335+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/B2BSaaS/comments/1t2rmzn/building_a_product_but_payroll_is_the_weak_point"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:09.368871+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/LinuxTeck/comments/1t3butb/what_actually_made_your_terminal_noticeably"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:10.394440+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/LinuxTeck/comments/1t3butb/what_actually_made_your_terminal_noticeably"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:21.448361+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/LinuxTeck/comments/1t3butb/what_actually_made_your_terminal_noticeably"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:26.469048+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/vibecoding/comments/1t3nbai/can_a_mod_reach_out_to_me_please"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:27.574305+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/vibecoding/comments/1t3nbai/can_a_mod_reach_out_to_me_please"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:38.758263+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/vibecoding/comments/1t3nbai/can_a_mod_reach_out_to_me_please"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:43.779518+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/WebAfterAI/comments/1t3gisp/nous_research_drops_hermes_agent_v0120_with"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:45.782460+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/WebAfterAI/comments/1t3gisp/nous_research_drops_hermes_agent_v0120_with"
-  },
-  {
-    "timestamp": "2026-05-11T20:38:58.455950+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/WebAfterAI/comments/1t3gisp/nous_research_drops_hermes_agent_v0120_with"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:03.476551+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcan-a-mod-reach-out-to-me-please-v0-ma3ffwbji5zg1.png%3Fwidth%3D627%26format%3Dpng%26auto%3Dwebp%26s%3Db17305f3a1170c55357cbf3c7e3c640eb8ae3d8f"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:04.074238+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcan-a-mod-reach-out-to-me-please-v0-ma3ffwbji5zg1.png%3Fwidth%3D627%26format%3Dpng%26auto%3Dwebp%26s%3Db17305f3a1170c55357cbf3c7e3c640eb8ae3d8f"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:15.461463+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fcan-a-mod-reach-out-to-me-please-v0-ma3ffwbji5zg1.png%3Fwidth%3D627%26format%3Dpng%26auto%3Dwebp%26s%3Db17305f3a1170c55357cbf3c7e3c640eb8ae3d8f"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:20.485509+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/DeepSeek/comments/1t3ycsq/to_anyone_saying_deepseek_v4_pro_is_better_than"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:21.505736+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/DeepSeek/comments/1t3ycsq/to_anyone_saying_deepseek_v4_pro_is_better_than"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:34.634756+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/DeepSeek/comments/1t3ycsq/to_anyone_saying_deepseek_v4_pro_is_better_than"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:39.653667+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://news.ycombinator.com/item?id=48015397"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:40.691260+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://news.ycombinator.com/item?id=48015397"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:52.840689+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://news.ycombinator.com/item?id=48015397"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:57.860707+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/Bard/comments/1t4l74k/accelerating_gemma_4_faster_inference_with"
-  },
-  {
-    "timestamp": "2026-05-11T20:39:59.573829+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/Bard/comments/1t4l74k/accelerating_gemma_4_faster_inference_with"
-  },
-  {
-    "timestamp": "2026-05-11T20:40:30.346634+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/gpt5/comments/1t517du/gpt55_instant_is_rolling_out_as_the_new_default_i"
-  },
-  {
-    "timestamp": "2026-05-11T20:40:31.341638+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/gpt5/comments/1t517du/gpt55_instant_is_rolling_out_as_the_new_default_i"
-  },
-  {
-    "timestamp": "2026-05-11T20:40:43.935309+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/gpt5/comments/1t517du/gpt55_instant_is_rolling_out_as_the_new_default_i"
-  },
-  {
-    "timestamp": "2026-05-11T20:40:48.957603+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/TheOverload/comments/1t4ppf8/looking_for_footwork_recommendations"
-  },
-  {
-    "timestamp": "2026-05-11T20:40:49.930576+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/TheOverload/comments/1t4ppf8/looking_for_footwork_recommendations"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:00.773522+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/TheOverload/comments/1t4ppf8/looking_for_footwork_recommendations"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:05.793752+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.gofreddie.com/us"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:06.337924+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.gofreddie.com/us"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:25.075546+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.gofreddie.com/us"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:30.096570+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t5cjlm/megathread_multiagent_workflows_kanban_delegation"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:31.033722+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t5cjlm/megathread_multiagent_workflows_kanban_delegation"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:43.686836+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1t5cjlm/megathread_multiagent_workflows_kanban_delegation"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:48.717743+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/accelerate/comments/1t56tld/ai_makes_me_excited_to_stay_alive_long_enough_to"
-  },
-  {
-    "timestamp": "2026-05-11T20:41:49.648980+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/accelerate/comments/1t56tld/ai_makes_me_excited_to_stay_alive_long_enough_to"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:17.206170+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/user/airbyteInc/comments/1t5l9yo/agents_consume_up_to_80_fewer_tokens_using_airbyte/?p=1&impressionid=6090706025764133507"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:17.715099+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/user/airbyteInc/comments/1t5l9yo/agents_consume_up_to_80_fewer_tokens_using_airbyte/?p=1&impressionid=6090706025764133507"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:29.371647+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/user/airbyteInc/comments/1t5l9yo/agents_consume_up_to_80_fewer_tokens_using_airbyte/?p=1&impressionid=6090706025764133507"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:34.393573+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/meta_powerhouse/comments/1t54qmh/i_fucking_hate_how_modern_day_tech_is_turning_out"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:35.342484+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/meta_powerhouse/comments/1t54qmh/i_fucking_hate_how_modern_day_tech_is_turning_out"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:47.686666+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/meta_powerhouse/comments/1t54qmh/i_fucking_hate_how_modern_day_tech_is_turning_out"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:53.105212+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/tech_x/comments/1t5cvgd/programbench_paper_by_researchers_from_meta"
-  },
-  {
-    "timestamp": "2026-05-11T20:42:55.231527+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/tech_x/comments/1t5cvgd/programbench_paper_by_researchers_from_meta"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:07.395984+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/tech_x/comments/1t5cvgd/programbench_paper_by_researchers_from_meta"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:12.420648+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/agi/comments/1t5o85p/the_white_house_is_weighing_an_executive_order_to"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:13.381294+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/agi/comments/1t5o85p/the_white_house_is_weighing_an_executive_order_to"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:25.063453+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/agi/comments/1t5o85p/the_white_house_is_weighing_an_executive_order_to"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:30.086305+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/Bard/comments/1t5lya6/google_gemini_steals_the_spotlight_as_users_swap"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:31.097526+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/Bard/comments/1t5lya6/google_gemini_steals_the_spotlight_as_users_swap"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:42.460918+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/Bard/comments/1t5lya6/google_gemini_steals_the_spotlight_as_users_swap"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:47.495748+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/ObsideAI/comments/1t4ktxr/obside_v2_beta_is_open_looking_for_testers"
-  },
-  {
-    "timestamp": "2026-05-11T20:43:49.134398+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/ObsideAI/comments/1t4ktxr/obside_v2_beta_is_open_looking_for_testers"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:00.238177+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/ObsideAI/comments/1t4ktxr/obside_v2_beta_is_open_looking_for_testers"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:05.262566+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/boltnewbuilders/comments/1t3uz7l/spent_the_weekend_doing_cold_calls_instead_of"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:06.246791+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/boltnewbuilders/comments/1t3uz7l/spent_the_weekend_doing_cold_calls_instead_of"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:17.509576+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/boltnewbuilders/comments/1t3uz7l/spent_the_weekend_doing_cold_calls_instead_of"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:22.533323+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:23.507632+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:35.096010+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:40.115131+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/GeminiAI/comments/1t5va0g/even_with_a_paid_gemini_ultrapro_subscription_is"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:41.154798+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/GeminiAI/comments/1t5va0g/even_with_a_paid_gemini_ultrapro_subscription_is"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:53.768581+00:00",
-    "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/GeminiAI/comments/1t5va0g/even_with_a_paid_gemini_ultrapro_subscription_is"
-  },
-  {
-    "timestamp": "2026-05-11T20:44:58.793644+00:00",
+    "timestamp": "2026-05-11T21:29:36.147242+00:00",
     "type": "fetch",
     "message": "Fetching content for: https://www.reddit.com/r/DanceDanceRevolution/comments/1t2pylc/ltek_pad_initial_impressions_after_2_months_of"
   },
   {
-    "timestamp": "2026-05-11T20:45:01.012072+00:00",
+    "timestamp": "2026-05-11T21:29:38.904409+00:00",
     "type": "research",
     "message": "Starting Borg research on: https://www.reddit.com/r/DanceDanceRevolution/comments/1t2pylc/ltek_pad_initial_impressions_after_2_months_of"
   },
   {
-    "timestamp": "2026-05-11T20:45:31.411564+00:00",
+    "timestamp": "2026-05-11T21:30:08.848949+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_with_81_prompts_for_tech_leaders"
+    "message": "Fetching content for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1t70qun/mem0_enhances_ai_assistants_and_agents_with_an"
   },
   {
-    "timestamp": "2026-05-11T20:45:33.287040+00:00",
+    "timestamp": "2026-05-11T21:30:10.661197+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_with_81_prompts_for_tech_leaders"
+    "message": "Starting Borg research on: https://www.reddit.com/r/LovingOpenSourceAI/comments/1t70qun/mem0_enhances_ai_assistants_and_agents_with_an"
   },
   {
-    "timestamp": "2026-05-11T20:45:44.507789+00:00",
+    "timestamp": "2026-05-11T21:30:22.206811+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_with_81_prompts_for_tech_leaders"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/LovingOpenSourceAI/comments/1t70qun/mem0_enhances_ai_assistants_and_agents_with_an"
   },
   {
-    "timestamp": "2026-05-11T20:45:49.529832+00:00",
+    "timestamp": "2026-05-11T21:30:27.238175+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_the_best_ai_for_making_music_videos_right"
+    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t71x8c/skill_review_issue"
   },
   {
-    "timestamp": "2026-05-11T20:45:51.077833+00:00",
+    "timestamp": "2026-05-11T21:30:28.614555+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_the_best_ai_for_making_music_videos_right"
+    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t71x8c/skill_review_issue"
   },
   {
-    "timestamp": "2026-05-11T20:46:02.019331+00:00",
+    "timestamp": "2026-05-11T21:30:40.342516+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_the_best_ai_for_making_music_videos_right"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1t71x8c/skill_review_issue"
   },
   {
-    "timestamp": "2026-05-11T20:46:07.041636+00:00",
+    "timestamp": "2026-05-11T21:30:45.381745+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://news.ycombinator.com/news?p=5"
+    "message": "Fetching content for: https://www.reddit.com/r/Raves/comments/1t6741o/help_working_out_how_to_consensually_send_and"
   },
   {
-    "timestamp": "2026-05-11T20:46:07.809679+00:00",
+    "timestamp": "2026-05-11T21:30:47.334415+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://news.ycombinator.com/news?p=5"
+    "message": "Starting Borg research on: https://www.reddit.com/r/Raves/comments/1t6741o/help_working_out_how_to_consensually_send_and"
   },
   {
-    "timestamp": "2026-05-11T20:46:29.216613+00:00",
-    "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/AIAgentsInAction/comments/1t84rlc/this_guy_won_the_anthropic_hackathon_solo_then_he"
-  },
-  {
-    "timestamp": "2026-05-11T20:46:30.165940+00:00",
-    "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/AIAgentsInAction/comments/1t84rlc/this_guy_won_the_anthropic_hackathon_solo_then_he"
-  },
-  {
-    "timestamp": "2026-05-11T20:46:41.568931+00:00",
+    "timestamp": "2026-05-11T21:30:59.508324+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/AIAgentsInAction/comments/1t84rlc/this_guy_won_the_anthropic_hackathon_solo_then_he"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Raves/comments/1t6741o/help_working_out_how_to_consensually_send_and"
   },
   {
-    "timestamp": "2026-05-11T20:46:46.590199+00:00",
+    "timestamp": "2026-05-11T21:31:04.535419+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over_the_next_5_years_whats_feasible"
+    "message": "Fetching content for: https://www.reddit.com/r/accelerate/comments/1t681zu/%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB_%F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93"
   },
   {
-    "timestamp": "2026-05-11T20:46:48.774290+00:00",
+    "timestamp": "2026-05-11T21:31:06.589936+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over_the_next_5_years_whats_feasible"
+    "message": "Starting Borg research on: https://www.reddit.com/r/accelerate/comments/1t681zu/%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB_%F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93"
   },
   {
-    "timestamp": "2026-05-11T20:47:00.778823+00:00",
+    "timestamp": "2026-05-11T21:31:18.478237+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over_the_next_5_years_whats_feasible"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/accelerate/comments/1t681zu/%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB_%F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93"
   },
   {
-    "timestamp": "2026-05-11T20:47:05.796906+00:00",
+    "timestamp": "2026-05-11T21:31:23.507135+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_are_lucky"
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1t6d2px/mcp_atlassian_server_integrates_atlassian"
   },
   {
-    "timestamp": "2026-05-11T20:47:06.761332+00:00",
+    "timestamp": "2026-05-11T21:31:24.821153+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_are_lucky"
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1t6d2px/mcp_atlassian_server_integrates_atlassian"
   },
   {
-    "timestamp": "2026-05-11T20:47:17.149070+00:00",
+    "timestamp": "2026-05-11T21:31:36.144895+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_are_lucky"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1t6d2px/mcp_atlassian_server_integrates_atlassian"
   },
   {
-    "timestamp": "2026-05-11T20:47:22.167859+00:00",
+    "timestamp": "2026-05-11T21:31:41.170618+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t83uju/how_do_people_use_hermes_agent"
+    "message": "Fetching content for: https://www.reddit.com/r/opencodeCLI/comments/1t5tvrz/i_made_a_filterable_list_of_every_coding_plan_i"
   },
   {
-    "timestamp": "2026-05-11T20:47:24.021051+00:00",
+    "timestamp": "2026-05-11T21:31:42.815153+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t83uju/how_do_people_use_hermes_agent"
+    "message": "Starting Borg research on: https://www.reddit.com/r/opencodeCLI/comments/1t5tvrz/i_made_a_filterable_list_of_every_coding_plan_i"
   },
   {
-    "timestamp": "2026-05-11T20:47:35.710131+00:00",
+    "timestamp": "2026-05-11T21:31:54.370294+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1t83uju/how_do_people_use_hermes_agent"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/opencodeCLI/comments/1t5tvrz/i_made_a_filterable_list_of_every_coding_plan_i"
   },
   {
-    "timestamp": "2026-05-11T20:47:40.732489+00:00",
+    "timestamp": "2026-05-11T21:31:59.397413+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved"
+    "message": "Fetching content for: https://codingplans.cc"
   },
   {
-    "timestamp": "2026-05-11T20:47:41.710575+00:00",
+    "timestamp": "2026-05-11T21:32:00.335542+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved"
+    "message": "Starting Borg research on: https://codingplans.cc"
   },
   {
-    "timestamp": "2026-05-11T20:47:53.399946+00:00",
+    "timestamp": "2026-05-11T21:32:31.203094+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Rag/comments/1t6cw66/built_an_api_to_scrape_entire_websites_with_one"
+  },
+  {
+    "timestamp": "2026-05-11T21:32:33.042426+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Rag/comments/1t6cw66/built_an_api_to_scrape_entire_websites_with_one"
+  },
+  {
+    "timestamp": "2026-05-11T21:32:43.934439+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/Rag/comments/1t6cw66/built_an_api_to_scrape_entire_websites_with_one"
   },
   {
-    "timestamp": "2026-05-11T20:47:58.417930+00:00",
+    "timestamp": "2026-05-11T21:32:48.957778+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/BitcoinMining/comments/1t847u3/another_day_in_the_office"
+    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t7fnni/hermes_agent_docker_setup_with_local_dashboard"
   },
   {
-    "timestamp": "2026-05-11T20:47:59.411395+00:00",
+    "timestamp": "2026-05-11T21:32:50.143456+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/BitcoinMining/comments/1t847u3/another_day_in_the_office"
+    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t7fnni/hermes_agent_docker_setup_with_local_dashboard"
   },
   {
-    "timestamp": "2026-05-11T20:48:10.012395+00:00",
+    "timestamp": "2026-05-11T21:42:40.657666+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:41.917640+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:41.925525+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://photosort-production-d4d1.up.railway.app"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:43.048082+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://photosort-production-d4d1.up.railway.app"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:43.055337+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.homes.com/news/detroit-tries-new-approach-to-attract-residents-free-cash/872924477"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:44.213471+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.homes.com/news/detroit-tries-new-approach-to-attract-residents-free-cash/872924477"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:44.222715+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:45.768326+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://deepvaluereports.com/dvr-stock-score"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:45.777872+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:46.742513+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://claw.kilosessions.ai/skills"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:46.750511+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:48.430161+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://hergimuci.gumroad.com/l/ai-agent-blueprint"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:48.438280+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://katzilla.dev"
+  },
+  {
+    "timestamp": "2026-05-11T21:42:49.882570+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://katzilla.dev"
+  },
+  {
+    "timestamp": "2026-05-11T21:43:33.445877+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://shop.futurebit.io/products/apollo-iii-full-node"
+  },
+  {
+    "timestamp": "2026-05-11T21:43:34.843548+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://shop.futurebit.io/products/apollo-iii-full-node"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:03.409337+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:04.400042+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://github.com/yvonboulianne/laeka-rational"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:04.407335+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=google&tw_adid=747558784311&tw_campaign=22466510144&wbraid=Cl0KCQjw46HPBhDhARJMAD8UiQ_Bht3gAkiAX9pZhinQFEeJ9EidHOHi0yDrYM0LZrxFx4a66gFWRcgqwGvlyERtnlKBiaIYP6KR3U0381k1jfuU8z9z2c6BRxoCNho"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:05.652825+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=google&tw_adid=747558784311&tw_campaign=22466510144&wbraid=Cl0KCQjw46HPBhDhARJMAD8UiQ_Bht3gAkiAX9pZhinQFEeJ9EidHOHi0yDrYM0LZrxFx4a66gFWRcgqwGvlyERtnlKBiaIYP6KR3U0381k1jfuU8z9z2c6BRxoCNho"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:36.557939+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:47.224561+00:00",
+    "type": "error",
+    "message": "Fetch failed for: https://www.thechilluminati.com/event/sacred-earth-open-air-2025"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:47.233441+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://theinvisibleaffiliate.com/new-lander?a_aid=ebc48524&gc_id=23660934398&h_ga_id=&h_ad_id=&h_keyword_id=&h_keyword=&h_placement=&wbraid=CloKCQjwntHPBhDyARJJAAE5VhRX5ScyeweCtwHwfovvnN3W65Ob0naVtHucVPYwVZLM4XEar8ekmr9BoKcPFxARZJaFV3oaeKfKUae5z-7jjiC_K1AlFxoCq_U&cap_visitor_id=9ySmVu1fsqwbk1FTwgl5mlsIqiVvg5oq"
+  },
+  {
+    "timestamp": "2026-05-11T21:44:48.014666+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://theinvisibleaffiliate.com/new-lander?a_aid=ebc48524&gc_id=23660934398&h_ga_id=&h_ad_id=&h_keyword_id=&h_keyword=&h_placement=&wbraid=CloKCQjwntHPBhDyARJJAAE5VhRX5ScyeweCtwHwfovvnN3W65Ob0naVtHucVPYwVZLM4XEar8ekmr9BoKcPFxARZJaFV3oaeKfKUae5z-7jjiC_K1AlFxoCq_U&cap_visitor_id=9ySmVu1fsqwbk1FTwgl5mlsIqiVvg5oq"
+  },
+  {
+    "timestamp": "2026-05-11T21:45:14.506132+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/claudeskills/comments/1t66r0g/i_built_a_claude_skill_that_asks_questions_in"
+  },
+  {
+    "timestamp": "2026-05-11T21:45:16.778880+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/claudeskills/comments/1t66r0g/i_built_a_claude_skill_that_asks_questions_in"
+  },
+  {
+    "timestamp": "2026-05-11T21:45:43.127969+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://book.livingooddailybook.com/free-book?ADID=mdEEEgoogleSSSntEEESSScidEEE23798974465SSSadidEEE806781221715SSSlocEEE9016972&glid=&gc_id=23798974465&h_ad_id=806781221715&wbraid=ClwKCAjwwdbPBhAxEkwAequ6i8x29vamoU8VmZx1yJHQsVTVufGU5IJKtk30jHi1qq2IegHUEQ271OnZ2Zs7FMAbfqVqrHXJlY7PY9Q1Z-OXWRrTQN0_XScuGgIiEA"
+  },
+  {
+    "timestamp": "2026-05-11T21:45:44.612121+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://book.livingooddailybook.com/free-book?ADID=mdEEEgoogleSSSntEEESSScidEEE23798974465SSSadidEEE806781221715SSSlocEEE9016972&glid=&gc_id=23798974465&h_ad_id=806781221715&wbraid=ClwKCAjwwdbPBhAxEkwAequ6i8x29vamoU8VmZx1yJHQsVTVufGU5IJKtk30jHi1qq2IegHUEQ271OnZ2Zs7FMAbfqVqrHXJlY7PY9Q1Z-OXWRrTQN0_XScuGgIiEA"
+  },
+  {
+    "timestamp": "2026-05-11T21:46:10.230885+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/Bard/comments/1t4l74k/accelerating_gemma_4_faster_inference_with"
+  },
+  {
+    "timestamp": "2026-05-11T21:46:12.548260+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/Bard/comments/1t4l74k/accelerating_gemma_4_faster_inference_with"
+  },
+  {
+    "timestamp": "2026-05-11T21:46:44.431784+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/accelerate/comments/1t56tld/ai_makes_me_excited_to_stay_alive_long_enough_to"
+  },
+  {
+    "timestamp": "2026-05-11T21:46:45.819169+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/accelerate/comments/1t56tld/ai_makes_me_excited_to_stay_alive_long_enough_to"
+  },
+  {
+    "timestamp": "2026-05-11T21:47:15.005981+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/DanceDanceRevolution/comments/1t2pylc/ltek_pad_initial_impressions_after_2_months_of"
+  },
+  {
+    "timestamp": "2026-05-11T21:47:16.498013+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/DanceDanceRevolution/comments/1t2pylc/ltek_pad_initial_impressions_after_2_months_of"
+  },
+  {
+    "timestamp": "2026-05-11T21:47:48.114195+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://codingplans.cc"
+  },
+  {
+    "timestamp": "2026-05-11T21:47:48.836020+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://codingplans.cc"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:16.849214+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t7fnni/hermes_agent_docker_setup_with_local_dashboard"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:18.716131+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t7fnni/hermes_agent_docker_setup_with_local_dashboard"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:31.257358+00:00",
     "type": "process",
-    "message": "Finalizing extraction for: https://www.reddit.com/r/BitcoinMining/comments/1t847u3/another_day_in_the_office"
+    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1t7fnni/hermes_agent_docker_setup_with_local_dashboard"
   },
   {
-    "timestamp": "2026-05-11T20:48:15.031707+00:00",
+    "timestamp": "2026-05-11T21:48:36.280628+00:00",
     "type": "fetch",
-    "message": "Fetching content for: https://www.reddit.com/r/isthisAI/comments/1t8247l/is_my_aunt_getting_scammed_american_allegedly"
+    "message": "Fetching content for: https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to"
   },
   {
-    "timestamp": "2026-05-11T20:48:16.171045+00:00",
+    "timestamp": "2026-05-11T21:48:37.991723+00:00",
     "type": "research",
-    "message": "Starting Borg research on: https://www.reddit.com/r/isthisAI/comments/1t8247l/is_my_aunt_getting_scammed_american_allegedly"
+    "message": "Starting Borg research on: https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:51.112974+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:56.138229+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/mcp/comments/1t7dwy6/i_built_an_mcp_server_to_stop_ai_coding"
+  },
+  {
+    "timestamp": "2026-05-11T21:48:57.221078+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/mcp/comments/1t7dwy6/i_built_an_mcp_server_to_stop_ai_coding"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:08.937097+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/mcp/comments/1t7dwy6/i_built_an_mcp_server_to_stop_ai_coding"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:14.255404+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/OpenSourceAI/comments/1t96y8a/opensource_mcp_memory_server_for_claude_semantic"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:16.508179+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/OpenSourceAI/comments/1t96y8a/opensource_mcp_memory_server_for_claude_semantic"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:28.299435+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/OpenSourceAI/comments/1t96y8a/opensource_mcp_memory_server_for_claude_semantic"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:33.324379+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/hermesagent/comments/1t8jkw8/hermes_memory_issues"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:35.848296+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/hermesagent/comments/1t8jkw8/hermes_memory_issues"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:47.800815+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/hermesagent/comments/1t8jkw8/hermes_memory_issues"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:52.826284+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/film_ai/comments/1t97z31/i_created_an_agentic_orchestration_pipeline_for"
+  },
+  {
+    "timestamp": "2026-05-11T21:49:54.039945+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/film_ai/comments/1t97z31/i_created_an_agentic_orchestration_pipeline_for"
+  },
+  {
+    "timestamp": "2026-05-11T21:50:06.539086+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/film_ai/comments/1t97z31/i_created_an_agentic_orchestration_pipeline_for"
+  },
+  {
+    "timestamp": "2026-05-11T21:50:11.564218+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t6miae/chatgpt_has_been_lying_to_you_politely_this_whole"
+  },
+  {
+    "timestamp": "2026-05-11T21:50:13.362646+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/ChatGPTPromptGenius/comments/1t6miae/chatgpt_has_been_lying_to_you_politely_this_whole"
+  },
+  {
+    "timestamp": "2026-05-11T22:14:57.661107+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://github.com/lsdefine/GenericAgent"
+  },
+  {
+    "timestamp": "2026-05-11T22:14:59.344480+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://github.com/lsdefine/GenericAgent"
+  },
+  {
+    "timestamp": "2026-05-11T22:15:10.892058+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://github.com/lsdefine/GenericAgent"
+  },
+  {
+    "timestamp": "2026-05-11T22:15:15.913579+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/simpleAIFinds/comments/1t6yd3a/i_gave_my_ai_agents_passports_instead_of_better"
+  },
+  {
+    "timestamp": "2026-05-11T22:15:17.409778+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/simpleAIFinds/comments/1t6yd3a/i_gave_my_ai_agents_passports_instead_of_better"
+  },
+  {
+    "timestamp": "2026-05-11T22:15:51.964215+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_project_heres_how_i_made_it_my_own_ai"
+  },
+  {
+    "timestamp": "2026-05-11T22:15:53.421395+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_project_heres_how_i_made_it_my_own_ai"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:04.605294+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_project_heres_how_i_made_it_my_own_ai"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:09.632430+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/MCPservers/comments/1ta4x0s/beyond_mcp_handling_845_tools_with_92_less"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:10.911605+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/MCPservers/comments/1ta4x0s/beyond_mcp_handling_845_tools_with_92_less"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:24.128514+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/MCPservers/comments/1ta4x0s/beyond_mcp_handling_845_tools_with_92_less"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:29.156576+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/PiCodingAgent/comments/1ta8mjq/llm_as_logic_processor_filesystem_as_memory_q2"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:31.124368+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/PiCodingAgent/comments/1ta8mjq/llm_as_logic_processor_filesystem_as_memory_q2"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:43.298289+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/PiCodingAgent/comments/1ta8mjq/llm_as_logic_processor_filesystem_as_memory_q2"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:48.323403+00:00",
+    "type": "fetch",
+    "message": "Fetching content for: https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in"
+  },
+  {
+    "timestamp": "2026-05-11T22:16:49.447367+00:00",
+    "type": "research",
+    "message": "Starting Borg research on: https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in"
+  },
+  {
+    "timestamp": "2026-05-11T22:17:01.146871+00:00",
+    "type": "process",
+    "message": "Finalizing extraction for: https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in"
   }
 ]
