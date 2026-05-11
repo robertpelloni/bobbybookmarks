@@ -1,15 +1,15 @@
 {
   "_decision_path": [
-    "validate:quality=1.00,issues=0"
+    "validate:quality=0.67,issues=0"
   ],
-  "_quality": 1.0,
-  "_skill": "github_repo",
-  "active_url": "https://github.com/roboflow/rf-detr",
+  "_quality": 0.675,
+  "_skill": "reddit_discussion",
+  "active_url": "https://www.reddit.com/r/SelfHostedAI/comments/1t32n6u/built_an_opensource_cognitive_os_persistent",
   "attempt": 1,
   "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16669,
+  "borg_rows": 16769,
   "last_error": null,
-  "last_extracted_url": "https://github.com/roboflow/rf-detr",
+  "last_extracted_url": "https://www.reddit.com/r/SelfHostedAI/comments/1t32n6u/built_an_opensource_cognitive_os_persistent",
   "last_model": "liquid/lfm2.5-1.2b",
   "models": [
     "lmstudio/liquid/lfm2.5-1.2b",
@@ -28,13 +28,13 @@
   "sleep_seconds": null,
   "state": "processing",
   "stats": {
-    "accepted": 8,
-    "decode_failed": 2,
+    "accepted": 10,
+    "decode_failed": 4,
     "fetch_failed": 0,
     "rejected": 0
   },
-  "updated_at": "2026-05-09T15:21:27.627386+00:00",
-  "url_complexity": "complex",
+  "updated_at": "2026-05-11T00:25:47.536138+00:00",
+  "url_complexity": "simple",
   "version": "2.0",
-  "worker_pid": 62748
+  "worker_pid": 1444
 }
