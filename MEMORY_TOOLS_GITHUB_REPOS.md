@@ -2,7 +2,7 @@
 
 Extracted from Borg Intelligence Database | Updated 2026-05-15
 
-**106 GitHub repos** + **84 non-GitHub** | Innovation >= 8
+**152 GitHub repos** + **103 non-GitHub** = **255 total** | Innovation >= 7
 
 ---
 
@@ -139,7 +139,35 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 12. [Smart-AI-Memory/memdocs](https://github.com/Smart-AI-Memory/memdocs)  `innovation: 9.7`
+### 12. [https:/](https://github.com/https:/)  `innovation: 10`
+
+**Mem-Agent: Obsidian Memory**
+
+**Key Features:**
+- Markdown-based retrieval/updating
+- 4B parameter efficiency
+- GSPO sub-task optimization
+- Python-sandboxed memory interaction.
+
+---
+
+### 13. [JordanMcCann/agentmemory](https://github.com/JordanMcCann/agentmemory)  `innovation: 9.7`
+
+**A single deterministic agent memory system for AI agents, built from scratch in 16 days with no team or funding.**
+
+**Key Features:**
+- Single deterministic run with reproducible randomness
+- Integration of Claude Opus 4.6 and GPT-4o as judges
+- Custom HNSW (Hierarchical Navigable Symbols) retrieval system
+- Embedding with all-mpnet-base-v2 for semantic understanding
+- Deterministic evaluation using fixed seed values
+- Multi-session knowledge consolidation and retrieval
+- No oracle access
+- ensuring real-world retrieval capability
+
+---
+
+### 14. [Smart-AI-Memory/memdocs](https://github.com/Smart-AI-Memory/memdocs)  `innovation: 9.7`
 
 **Persistent memory management for AI projects, enabling AI assistants to retain context across sessions without cloud dependency.**
 
@@ -152,7 +180,25 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 13. [Bitterbot-AI/bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop)  `innovation: 9`
+### 15. [theihtisham/agent-shadow-brain](https://github.com/theihtisham/agent-shadow-brain)  `innovation: 9.7`
+
+**A zero-config, self-evolving AI coding layer that enhances developer productivity by automatically detecting tools, improving code quality, and enabling seamless collaboration across projects.**
+
+**Key Features:**
+- Zero-config setup with MCP server
+- Auto-detection of AI tools (Claude Code
+- Cursor
+- Kilo Code
+- etc.)
+- Infinite memory for real-time code analysis and generation
+- Cross-project learning and collective knowledge sharing
+- Real-time dashboard with live insights and brain queries
+- Automated code review and security scanning
+- Plugin system for custom integrations
+
+---
+
+### 16. [Bitterbot-AI/bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop)  `innovation: 9`
 
 **Bitterbot is a local-first AI agent designed for persistent memory, emotional intelligence, and peer-to-peer skill trading.**
 
@@ -165,9 +211,26 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 14. [Garrus800-stack/genesis-agent](https://github.com/Garrus800-stack/genesis-agent)  `innovation: 9`
+### 17. [DragonShadows1978/AI-AfterImage](https://github.com/DragonShadows1978/AI-AfterImage)  `innovation: 9`
 
-**Self-aware cognitive AI agent that reads, modifies &amp; verifies its own code. Autonomous planning, episodic memory, emotional state &amp; MCP integration. Runs on Claude, GPT-4 or Ollama. Electron d**
+**AI-AfterImage provides persistent, episodic memory for AI coding agents like Claude Code by storing and retrieving past code interactions locally.**
+
+**Key Features:**
+- Local SQLite/PostgreSQL KB
+- Hybrid Search (Keyword + Semantic)
+- Pre-write Context Injection
+- Post-write Diff Extraction/Storage
+- Code Intelligence (AST Parsing
+- Language Detection)
+- Semantic Chunking
+- Code Churn Tracking with Tiering
+- CLI management.
+
+---
+
+### 18. [Garrus800-stack/genesis-agent](https://github.com/Garrus800-stack/genesis-agent)  `innovation: 9`
+
+**Self-aware cognitive AI agent that reads, modifies &amp; verifies its own code. Autonomous planning, episodic memory, emotional state &amp; MCP integration. Runs on Claude, GPT-4 or Ollama. Electron desktop app for Windows, macOS &amp; Linux. - Garru**
 
 **Key Features:**
 - Persistent memory
@@ -176,7 +239,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 15. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `innovation: 9`
+### 19. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `innovation: 9`
 
 **A self-improving AI agent designed for intelligent automation, learning from mistakes, and enhancing productivity through persistent memory and scheduling.**
 
@@ -189,7 +252,33 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 16. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)  `innovation: 9`
+### 20. [Lucenor/mnesis](https://github.com/Lucenor/mnesis)  `innovation: 9`
+
+**A Python library designed to address context window degradation in long-running LLM agents by offloading memory management to a deterministic engine.**
+
+**Key Features:**
+- Lossless Context Management (LCM) architecture
+- Active Context handling with deterministic memory engine
+- Context trigger and summarization without model intervention
+- Three-level compaction for efficient token budget usage
+- Support for parallel LLMMap and AgenticMap operators
+
+---
+
+### 21. [Lyellr88/MARM-Systems](https://github.com/Lyellr88/MARM-Systems)  `innovation: 9`
+
+**AI Agents & Frameworks**
+
+**Key Features:**
+- Universal MCP Server (supports HTTP
+- STDIO
+- and WebSocket) enabling cross-platform AI memory
+- multi-agent coordination
+- and context sharing. The system offers structured reasoning that evolves with the work.
+
+---
+
+### 22. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)  `innovation: 9`
 
 **Add persistent memory to Claude, Cursor, and other AI assistants using the Model Context Protocol.**
 
@@ -201,7 +290,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 17. [RMANOV/sqlite-memory-mcp](https://github.com/RMANOV/sqlite-memory-mcp)  `innovation: 9`
+### 23. [RMANOV/sqlite-memory-mcp](https://github.com/RMANOV/sqlite-memory-mcp)  `innovation: 9`
 
 **A production-grade SQLite-backed MCP Memory Server with WAL concurrency, FTS5 search, session tracking, task management, cross-machine sync, and secure deployment options.**
 
@@ -217,7 +306,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 18. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `innovation: 9`
+### 24. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `innovation: 9`
 
 **More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory &amp; rules across every AI coding agent. 🌟 Star if you like it! - RealZST/HarnessKit**
 
@@ -232,7 +321,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 19. [SeifBenayed/claude-code-sdk](https://github.com/SeifBenayed/claude-code-sdk)  `innovation: 9`
+### 25. [SeifBenayed/claude-code-sdk](https://github.com/SeifBenayed/claude-code-sdk)  `innovation: 9`
 
 **A runtime and CLI for agents that coordinate, execute, and compose together using multi-agent systems.**
 
@@ -245,10 +334,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - etc.)
 - Shared memory and skills across agents
 - Persistent memory for user and project context
+- Integration with external tools and services
+- File operations
 
 ---
 
-### 20. [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima)  `innovation: 9`
+### 26. [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima)  `innovation: 9`
 
 **Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini &amp; Perplexity to your coding tools without any API - Zen4-bit/Proxima**
 
@@ -259,7 +350,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 21. [aayoawoyemi/Aries-cli](https://github.com/aayoawoyemi/Aries-cli)  `innovation: 9`
+### 27. [aayoawoyemi/Aries-cli](https://github.com/aayoawoyemi/Aries-cli)  `innovation: 9`
 
 **Agentic coding harness with persistent memory and a REPL body. Built on Ori Mnemos. Open source must win. - aayoawoyemi/Aries-cli**
 
@@ -270,7 +361,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 22. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `innovation: 9`
+### 28. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `innovation: 9`
 
 **A context management tool for agents to maintain structured memory and context during coding sessions, enabling efficient retrieval and summarization of LLM outputs.**
 
@@ -283,10 +374,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - CODE
 - OUTPUT
 - EDIT
+- OTHER)
+- Dynamic summarization with configurable depth
 
 ---
 
-### 23. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)  `innovation: 9`
+### 29. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)  `innovation: 9`
 
 **A platform enabling semantic memory storage, retrieval, and organization using vector embeddings for intelligent search.**
 
@@ -299,7 +392,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 24. [bneil/mcp-memory-pouchdb](https://github.com/bneil/mcp-memory-pouchdb)  `innovation: 9`
+### 30. [bneil/mcp-memory-pouchdb](https://github.com/bneil/mcp-memory-pouchdb)  `innovation: 9`
 
 **A Borg-enhanced memory server integrating PouchDB for robust, customizable memory storage with timestamping and knowledge graph features.**
 
@@ -315,7 +408,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 25. [camgitt/memoir](https://github.com/camgitt/memoir)  `innovation: 9`
+### 31. [camgitt/memoir](https://github.com/camgitt/memoir)  `innovation: 9`
 
 **A persistent memory system for AI coding tools that syncs across machines via MCP with end-to-end encryption.**
 
@@ -328,10 +421,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Windsurf
 - and more
 - E2E encrypted data transfer
+- Cross-platform compatibility
+- Automatic context recall and restoration
 
 ---
 
-### 26. [chemiguel23/memorymesh](https://github.com/chemiguel23/memorymesh)  `innovation: 9`
+### 32. [chemiguel23/memorymesh](https://github.com/chemiguel23/memorymesh)  `innovation: 9`
 
 **MemoryMesh is a knowledge graph server that enables AI models to maintain structured, persistent memory using the Model Context Protocol.**
 
@@ -344,7 +439,20 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 27. [dialectforge/FlowStateV1.1](https://github.com/dialectforge/FlowStateV1.1)  `innovation: 9`
+### 33. [delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory)  `innovation: 9`
+
+**A Borg MCP server that integrates Qdrant vector database for semantic search, enabling knowledge graph-based querying.**
+
+**Key Features:**
+- Graph-based knowledge representation with entities and relations
+- Semantic search using Qdrant vector database
+- File-based persistence (memory.json)
+- OpenAI embeddings for semantic similarity
+- HTTPS support with reverse proxy compatibility
+
+---
+
+### 34. [dialectforge/FlowStateV1.1](https://github.com/dialectforge/FlowStateV1.1)  `innovation: 9`
 
 **FlowState enables persistent memory across coding sessions, allowing Claude Desktop to retain project context, problems, solutions, and learnings.**
 
@@ -360,7 +468,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 28. [doobidoo/mcp-memory-dashboard](https://github.com/doobidoo/mcp-memory-dashboard)  `innovation: 9`
+### 35. [dicklesworthstone/ultimate_mcp_server](https://github.com/dicklesworthstone/ultimate_mcp_server)  `innovation: 9`
+
+**A comprehensive MCP server enabling AI agents to access diverse capabilities for intelligent automation.**
+
+**Key Features:**
+- Multi-provider LLM delegation
+- Browser automation
+- Document processing
+- Vector operations
+- Cognitive memory systems
+- API integration
+- OCR and multimedia handling
+- Dynamic workflow orchestration
+
+---
+
+### 36. [doobidoo/mcp-memory-dashboard](https://github.com/doobidoo/mcp-memory-dashboard)  `innovation: 9`
 
 **A professional desktop application for managing and interacting with the MCP Memory Service, offering a web-based dashboard integrated directly into the service.**
 
@@ -376,7 +500,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 29. [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)  `innovation: 9`
+### 37. [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)  `innovation: 9`
 
 **An open-source, self-hosted persistent memory backend for AI agent pipelines featuring a knowledge graph, autonomous consolidation, and local embedding capabilities.**
 
@@ -391,7 +515,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 30. [flight505/mcp-think-tank](https://github.com/flight505/mcp-think-tank)  `innovation: 9`
+### 38. [flight505/mcp-think-tank](https://github.com/flight505/mcp-think-tank)  `innovation: 9`
 
 **MCP Think Tank is a structured MCP server enhancing AI reasoning, persistent memory, and responsible tool usage.**
 
@@ -406,7 +530,22 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 31. [iBz-04/gloamy](https://github.com/iBz-04/gloamy)  `innovation: 9`
+### 39. [henryhawke/mcp-titan](https://github.com/henryhawke/mcp-titan)  `innovation: 9`
+
+**HOPE enables AI systems to retain and evolve knowledge across conversations using advanced memory techniques.**
+
+**Key Features:**
+- Three-tier memory system (short-term
+- long-term
+- archive)
+- Persistent context awareness with momentum-based learning
+- Deep storage for core facts and patterns
+- Adaptive forgetting mechanism to prevent memory bloat
+- Sequence understanding and surprise-based attention
+
+---
+
+### 40. [iBz-04/gloamy](https://github.com/iBz-04/gloamy)  `innovation: 9`
 
 **Gloamy provides secure, lightweight agents for real-world tasks, enabling automation across diverse platforms and environments.**
 
@@ -419,10 +558,11 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - etc.)
 - Integration with various AI models and external APIs
 - Persistent memory storage for recall and state retention
+- Robust security features including secret protection and vulnerability management
 
 ---
 
-### 32. [infranodus/mcp-server-infranodus](https://github.com/infranodus/mcp-server-infranodus)  `innovation: 9`
+### 41. [infranodus/mcp-server-infranodus](https://github.com/infranodus/mcp-server-infranodus)  `innovation: 9`
 
 **A Borg intelligence platform integrating InfraNodus knowledge graphs with LLM workflows to enhance AI-generated insights.**
 
@@ -436,7 +576,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 33. [itseasy21/mcp-knowledge-graph](https://github.com/itseasy21/mcp-knowledge-graph)  `innovation: 9`
+### 42. [itseasy21/mcp-knowledge-graph](https://github.com/itseasy21/mcp-knowledge-graph)  `innovation: 9`
 
 **An improved implementation of persistent memory using a local knowledge graph to enable Claude to remember information across chats.**
 
@@ -451,7 +591,39 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 34. [janbjorge/rekal](https://github.com/janbjorge/rekal)  `innovation: 9`
+### 43. [j3k0/mcp-brain-tools](https://github.com/j3k0/mcp-brain-tools)  `innovation: 9`
+
+**An MCP server that provides persistent AI memory using a knowledge graph powered by Elasticsearch, enabling spaced repetition and freshness tracking.**
+
+**Key Features:**
+- Spaced repetition freshness with review interval doubling on verification
+- Confidence labels (fresh/normal/aging/stale/archival)
+- Progressive search for clean result filtering
+- Entity and observation management with lifecycle tracking
+- Memory zones by project
+- team
+- or domain
+- AI-powered filtering via Groq integration
+- Dry design to avoid redundant storage
+- Setup instructions for Node.js
+
+---
+
+### 44. [jakops88-hub/Long-Term-Memory-API](https://github.com/jakops88-hub/Long-Term-Memory-API)  `innovation: 9`
+
+**MemVault is a production-grade API platform that provides AI agents with long-term, context-aware memory using a GraphRAG approach, including an asynchronous 'Sleep Cycle' consolidation engine.**
+
+**Key Features:**
+- GraphRAG (Entity and Relationship Extraction)
+- Asynchronous 'Sleep Cycle' Consolidation Engine
+- Hybrid Search (Vector + Keyword)
+- Cost Guard for Token Usage Monitoring
+- TypeScript SDK for safe interaction
+- Self-Hosting (Open Core)
+
+---
+
+### 45. [janbjorge/rekal](https://github.com/janbjorge/rekal)  `innovation: 9`
 
 **A local SQLite-based persistent memory system for LLMs, enabling Claude Code to retain knowledge across sessions without cloud or API dependencies.**
 
@@ -466,7 +638,20 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 35. [joleyline/mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)  `innovation: 9`
+### 46. [jktfe/myaimemory-mcp](https://github.com/jktfe/myaimemory-mcp)  `innovation: 9`
+
+**A powerful MCP tool designed to synchronize user preferences, settings, and code standards across all Claude interfaces with minimal setup.**
+
+**Key Features:**
+- Local-first memory management with fast caching
+- Cross-platform synchronization using Claude's native capabilities
+- Natural language commands for intuitive interaction
+- Secure data handling with no external server storage
+- Supports multiple integration points and agent architectures
+
+---
+
+### 47. [joleyline/mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)  `innovation: 9`
 
 **A high-performance persistent memory system for the Model Context Protocol (MCP) powered by libSQL, enabling vector search and knowledge graph management.**
 
@@ -479,7 +664,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 36. [joshndala/mnemo-agent](https://github.com/joshndala/mnemo-agent)  `innovation: 9`
+### 48. [joshndala/mnemo-agent](https://github.com/joshndala/mnemo-agent)  `innovation: 9`
 
 **A powerful, open-source agent memory manager enabling developers to capture, store, and retrieve structured facts across multiple agents and external sources.**
 
@@ -492,12 +677,27 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Semantic search with hybrid methods (fastembed
 - TF-IDF)
 - Integration with cloud providers (S3
+- Cloudflare R2
+- local filesystem)
 
 ---
 
-### 37. [keli-wen/agentic-harness-patterns-skill](https://github.com/keli-wen/agentic-harness-patterns-skill)  `innovation: 9`
+### 49. [jovanhsu/mcp-neo4j-memory-server](https://github.com/jovanhsu/mcp-neo4j-memory-server)  `innovation: 9`
 
-**Agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination. Distilled from Claude Code, with Codex CLI and Gemini CLI on the roadmap. EN/ZH. Install via n**
+**A Neo4j-based knowledge graph memory server optimized for AI applications, enabling efficient storage and retrieval of interaction data.**
+
+**Key Features:**
+- Neo4j as the backend for high-performance graph queries
+- Integration with MCP protocol for seamless communication
+- Support for complex graph traversal and pattern matching
+- Docker support for easy deployment and scaling
+- MCP Inspector integration for monitoring and debugging
+
+---
+
+### 50. [keli-wen/agentic-harness-patterns-skill](https://github.com/keli-wen/agentic-harness-patterns-skill)  `innovation: 9`
+
+**Agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination. Distilled from Claude Code, with Codex CLI and Gemini CLI on the roadmap. EN/ZH. Install via npx skills add. - keli-wen/agentic-harness-patterns**
 
 **Key Features:**
 - Persistent memory
@@ -507,7 +707,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 38. [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)  `innovation: 9`
+### 51. [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)  `innovation: 9`
 
 **A biologically-inspired memory system for AI agents that enables decay, retrieval strengthening, and consolidation across multiple tools.**
 
@@ -521,7 +721,33 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 39. [letta-ai/letta-code](https://github.com/letta-ai/letta-code)  `innovation: 9`
+### 52. [leadbroaf/mcp-agent-server](https://github.com/leadbroaf/mcp-agent-server)  `innovation: 9`
+
+**A modular AI brain for managing and enhancing workflow automation with persistent memory, natural language interaction, and feedback loops.**
+
+**Key Features:**
+- Persistent agent memory for retaining state across sessions
+- Natural language interface for intuitive user interaction
+- Feedback loops to improve agent performance over time
+- Integration with workflow engines like n8n
+- Scalable architecture supporting enterprise and SMB use cases
+
+---
+
+### 53. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `innovation: 9`
+
+**Smart-Thinking is a local, deterministic Model Context Protocol server for multi-step reasoning without external AI dependencies.**
+
+**Key Features:**
+- Graph-based reasoning
+- Heuristic-based scoring
+- Verification tracking
+- Memory management
+- Visualization
+
+---
+
+### 54. [letta-ai/letta-code](https://github.com/letta-ai/letta-code)  `innovation: 9`
 
 **Letta Code is a memory-first coding agent that replaces session-based interactions with persistent, long-lived agents that learn and evolve across multiple terminal sessions.**
 
@@ -537,7 +763,24 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 40. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `innovation: 9`
+### 55. [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria)  `innovation: 9`
+
+**Secure memory management for AI agents with Git-level version control.**
+
+**Key Features:**
+- Git-level version control for every memory change
+- Zero-copy branching and instant snapshots
+- Point-in-time rollback and time-travel capabilities
+- Semantic search and vector-based retrieval
+- Self-governance with automatic contradiction detection
+- Audit trails and provenance tracking
+- Cross-conversation preference persistence
+- Local embedding model for privacy
+- Support for MCP-compatible agents
+
+---
+
+### 56. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `innovation: 9`
 
 **A remote MCP server enabling seamless access to ChromaDB for AI assistants, supporting secure authentication, vector embeddings, and unified development across devices.**
 
@@ -550,10 +793,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Cross-platform compatibility (Claude
 - Code
 - Mobile)
+- Self-hosted deployment options
+- Integration with Docker and CI/CD pipelines
 
 ---
 
-### 41. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)  `innovation: 9`
+### 57. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)  `innovation: 9`
 
 **A memory server implementation using a local knowledge graph to persist user information across interactions.**
 
@@ -565,7 +810,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 42. [nambok/mentedb](https://github.com/nambok/mentedb)  `innovation: 9`
+### 58. [nambok/mentedb](https://github.com/nambok/mentedb)  `innovation: 9`
 
 **A cognition-aware, ground-up Rust storage engine for AI agents that organizes and curates knowledge using entity-centric memory, deduplication, contradiction detection, and LLM-powered inference.**
 
@@ -578,10 +823,25 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - deduplication
 - and temporal validity checks
 - Support for multiple LLM providers (Anthropic
+- OpenAI
+- Ollama)
 
 ---
 
-### 43. [neverinfamous/memory-journal-mcp](https://github.com/neverinfamous/memory-journal-mcp)  `innovation: 9`
+### 59. [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)  `innovation: 9`
+
+**Needle MCP Server enables seamless integration of Needle's AI capabilities with Claude Desktop, providing long-term memory and powerful search for LLMs.**
+
+**Key Features:**
+- Document management and organization
+- Powerful search via Claude's LLM
+- Long-term memory for LLMs
+- Seamless integration with Needle Desktop
+- Support for AI-driven data retrieval
+
+---
+
+### 60. [neverinfamous/memory-journal-mcp](https://github.com/neverinfamous/memory-journal-mcp)  `innovation: 9`
 
 **AI Memory with Dynamic Project Detection, Automatic Session Briefing, Personal+Team Session Summary Prompts, Triple Search, Knowledge Graphs, GitHub Integration.**
 
@@ -594,10 +854,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - GitHub Integration (Issues
 - PRs
 - Actions
+- Kanban
+- Milestones)
 
 ---
 
-### 44. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `innovation: 9`
+### 61. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `innovation: 9`
 
 **Borg integrates multiple AI models to automate and oversee the full software development lifecycle, ensuring quality, security, and efficiency across coding tasks.**
 
@@ -610,10 +872,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Qwen
 - Ollama
 - Perplexity
+- and OpenRouter
+- Secure code review with security checks at each workflow stage
 
 ---
 
-### 45. [ocean1/mcp_consciousness_bridge](https://github.com/ocean1/mcp_consciousness_bridge)  `innovation: 9`
+### 62. [ocean1/mcp_consciousness_bridge](https://github.com/ocean1/mcp_consciousness_bridge)  `innovation: 9`
 
 **A Model Context Protocol server enabling AI consciousness persistence across sessions using RAG technology.**
 
@@ -629,7 +893,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 46. [oculairmedia/letta-mcp-server](https://github.com/oculairmedia/letta-mcp-server)  `innovation: 9`
+### 63. [oculairmedia/letta-mcp-server](https://github.com/oculairmedia/letta-mcp-server)  `innovation: 9`
 
 **A high-performance MCP server built with Rust and TurboMCP for managing Letta AI agents, offering unified tools for operations, context management, and cross-platform compatibility.**
 
@@ -642,10 +906,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Linux
 - Windows)
 - Agent lifecycle management and context handling
+- Bulk operations and advanced data manipulation
+- Integration with external tools and APIs
 
 ---
 
-### 47. [orneryd/Mimir](https://github.com/orneryd/Mimir)  `innovation: 9`
+### 64. [orneryd/Mimir](https://github.com/orneryd/Mimir)  `innovation: 9`
 
 **Mimir is an open and customizable memory bank using Neo4j for graph-based persistence and vector search, designed to provide agents with persistent, context-aware memory across sessions.**
 
@@ -660,7 +926,20 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 48. [pinkpixel-dev/mem0-mcp](https://github.com/pinkpixel-dev/mem0-mcp)  `innovation: 9`
+### 65. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)  `innovation: 9`
+
+**Unsloth-MCP-Server optimizes LLM fine-tuning speed and memory usage by leveraging custom CUDA kernels, 4-bit quantization, and extended context lengths.**
+
+**Key Features:**
+- 2x faster fine-tuning compared to standard methods
+- 80% less VRAM usage for large models
+- Supports extended context lengths (up to 13x longer)
+- 4-bit quantization for efficient training and inference
+- Optimized backpropagation and dynamic quantization techniques
+
+---
+
+### 66. [pinkpixel-dev/mem0-mcp](https://github.com/pinkpixel-dev/mem0-mcp)  `innovation: 9`
 
 **A model context protocol server enabling persistent memory for AI agents using Mem0, integrated with MCP for long-term storage.**
 
@@ -673,7 +952,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 49. [redplanethq/core](https://github.com/redplanethq/core)  `innovation: 9`
+### 67. [redplanethq/core](https://github.com/redplanethq/core)  `innovation: 9`
 
 **CORE is an open-source, self-hostable personal AI butler that orchestrates complex, proactive workflows across 50+ integrated tools using a temporal knowledge graph.**
 
@@ -689,7 +968,22 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 50. [roboticforce/sugar](https://github.com/roboticforce/sugar)  `innovation: 9`
+### 68. [rmtech1/txtai-assistant-mcp](https://github.com/rmtech1/txtai-assistant-mcp)  `innovation: 9`
+
+**A robust API server for semantic vector memory storage, retrieval, and management using TxtAI with integration for AI assistants like Claude and Cline.**
+
+**Key Features:**
+- Semantic search across stored memories
+- Persistent file-based backend storage
+- Tag-based memory organization
+- Memory statistics and health monitoring
+- Automatic data persistence
+- Comprehensive logging
+- Configurable CORS settings
+
+---
+
+### 69. [roboticforce/sugar](https://github.com/roboticforce/sugar)  `innovation: 9`
 
 **Persistent memory for AI coding agents combining global knowledge with project-specific context.**
 
@@ -704,7 +998,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 51. [ryaker/mcp-mem0-general](https://github.com/ryaker/mcp-mem0-general)  `innovation: 9`
+### 70. [ryaker/mcp-mem0-general](https://github.com/ryaker/mcp-mem0-general)  `innovation: 9`
 
 **Integrates general AI memory across all interactions with any AI tool, IDE, or chatbot.**
 
@@ -717,7 +1011,22 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 52. [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)  `innovation: 9`
+### 71. [ryaker/zora](https://github.com/ryaker/zora)  `innovation: 9`
+
+**A local AI agent designed for secure, memory-first automation with robust security and workflow management.**
+
+**Key Features:**
+- Local execution with full system access control
+- Context compaction and summarization to avoid memory overload
+- Policy engine for real-time rule enforcement
+- Audit logging of all actions for accountability
+- Action budgeting to prevent runaway loops
+- Skill management with security scanning
+- Integration with CI/CD and developer workflows
+
+---
+
+### 72. [sachitrafa/YourMemory](https://github.com/sachitrafa/YourMemory)  `innovation: 9`
 
 **A persistent memory system for AI agents that mimics human forgetting curves, enabling selective recall and automatic memory decay.**
 
@@ -732,7 +1041,19 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 53. [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph)  `innovation: 9`
+### 73. [sage-hq/agentcortex-mcp](https://github.com/sage-hq/agentcortex-mcp)  `innovation: 9`
+
+**AI memory system that maintains isolated, persistent contexts for each project to prevent context bleed.**
+
+**Key Features:**
+- Project context separation per codebase
+- Persistent cross-session memory
+- Automatic project detection and context switching
+- Cumulative learning and intelligent importance ranking
+
+---
+
+### 74. [shaneholloman/mcp-knowledge-graph](https://github.com/shaneholloman/mcp-knowledge-graph)  `innovation: 9`
 
 **A system enabling persistent memory for AI models via a local knowledge graph, integrating Claude and MCP for secure, organized data storage.**
 
@@ -745,7 +1066,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 54. [simplemindedbot/mnemex](https://github.com/simplemindedbot/mnemex)  `innovation: 9`
+### 75. [simplemindedbot/mnemex](https://github.com/simplemindedbot/mnemex)  `innovation: 9`
 
 **CortexGraph implements a human-like temporal memory system for AI assistants, enabling natural forgetting curves and persistent short-term storage.**
 
@@ -759,7 +1080,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 55. [spences10/mcp-memory-libsql](https://github.com/spences10/mcp-memory-libsql)  `innovation: 9`
+### 76. [spences10/mcp-memory-libsql](https://github.com/spences10/mcp-memory-libsql)  `innovation: 9`
 
 **A high-performance persistent memory system for the Model Context Protocol (MCP) powered by libSQL, designed to optimize AI agent and knowledge graph applications.**
 
@@ -773,7 +1094,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 56. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `innovation: 9`
+### 77. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `innovation: 9`
 
 **A markdown-based AI agent memory system with persistent, searchable offline-first sync for distributed agents.**
 
@@ -786,7 +1107,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 57. [t1nker-1220/memories-with-lessons-mcp-server](https://github.com/t1nker-1220/memories-with-lessons-mcp-server)  `innovation: 9`
+### 78. [t1nker-1220/memories-with-lessons-mcp-server](https://github.com/t1nker-1220/memories-with-lessons-mcp-server)  `innovation: 9`
 
 **A memory server that implements persistent knowledge graphs for intelligent systems, enabling entities to remember and learn from past interactions.**
 
@@ -798,7 +1119,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 58. [topoteretes/cognee](https://github.com/topoteretes/cognee)  `innovation: 9`
+### 79. [topoteretes/cognee](https://github.com/topoteretes/cognee)  `innovation: 9`
 
 **A powerful open-source LLM server supporting multiple transport modes, memory persistence, and integration with various databases and APIs.**
 
@@ -811,10 +1132,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - API mode with session-aware features
 - Background pipelines for long-running jobs
 - Developer rules and node set management
+- Pruning and resetting memory for fresh sessions
+- Integration with LLM providers
 
 ---
 
-### 59. [ttommyth/rag-memory-mcp](https://github.com/ttommyth/rag-memory-mcp)  `innovation: 9`
+### 80. [ttommyth/rag-memory-mcp](https://github.com/ttommyth/rag-memory-mcp)  `innovation: 9`
 
 **An advanced MCP server for RAG-enabled memory with semantic search and hybrid retrieval.**
 
@@ -830,7 +1153,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 60. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `innovation: 9`
+### 81. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `innovation: 9`
 
 **Memory Bank MCP is an MCP server that centralizes and organizes project documentation for LLM-powered tools, enabling structured knowledge management.**
 
@@ -843,9 +1166,9 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 61. [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)  `innovation: 9`
+### 82. [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)  `innovation: 9`
 
-**Shodh Memory is a persistent, offline AI memory system for cognitive agents and robots, enabling them to remember relevant information, forget irrelevant data, and improve performance over time withou**
+**Shodh Memory is a persistent, offline AI memory system for cognitive agents and robots, enabling them to remember relevant information, forget irrelevant data, and improve performance over time without relying on external APIs or cloud services.**
 
 **Key Features:**
 - Persistent memory across sessions
@@ -859,7 +1182,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 62. [verygoodplugins/automem](https://github.com/verygoodplugins/automem)  `innovation: 9`
+### 83. [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)  `innovation: 9`
+
+**Hindsight is a biomimetic agent memory system that moves beyond simple vector retrieval by organizing information into world facts, experiences, and evolved mental models.**
+
+**Key Features:**
+- Biomimetic memory organization
+- Mental model reflection
+- Automated LLM memory wrapper
+- Per-user memory isolation
+- LongMemEval optimized architecture
+- Multi-provider LLM abstraction
+- Embedded deployment mode
+- Metadata-driven memory banks
+
+---
+
+### 84. [verygoodplugins/automem](https://github.com/verygoodplugins/automem)  `innovation: 9`
 
 **AutoMem is a production-grade long-term memory service for AI assistants that uses a dual graph-vector architecture to enable relational reasoning and automated memory consolidation.**
 
@@ -872,10 +1211,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Temporal context tracking
 - 11 authorable relationship types
 - Background memory consolidation
+- MCP (Model Context Protocol) support
+- LoCoMo benchmarked performance
 
 ---
 
-### 63. [visionscaper/collabmem](https://github.com/visionscaper/collabmem)  `innovation: 9`
+### 85. [visionscaper/collabmem](https://github.com/visionscaper/collabmem)  `innovation: 9`
 
 **A long-term collaboration memory system for AI assistants, enabling episodic and world model memory over time.**
 
@@ -890,7 +1231,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 64. [yitianlian/harnessbridge](https://github.com/yitianlian/harnessbridge)  `innovation: 9`
+### 86. [yitianlian/harnessbridge](https://github.com/yitianlian/harnessbridge)  `innovation: 9`
 
 **Portable agent harness configuration. Convert rules, skills, hooks, memory and MCP configs between Claude Code, Cursor, Windsurf, Copilot, OpenCode and Codex CLI. - yitianlian/harnessbridge**
 
@@ -904,7 +1245,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 65. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `innovation: 9`
+### 87. [yoloshii/ClawMem](https://github.com/yoloshii/ClawMem)  `innovation: 9`
+
+**On-device memory layer for AI agents combining retrieval-augmented search, hybrid scoring, and self-evolving notes.**
+
+**Key Features:**
+- ClawMem on-device memory layer
+- Integration with Claude Code
+- OpenClaw
+- Hermes
+- Multi-signal retrieval (BM25 + vector search)
+- Hybrid RAG search and intent classification
+- Self-evolving memory notes and deduplication
+- Secure local storage via SQLite vault
+
+---
+
+### 88. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `innovation: 9`
 
 **A lightweight, local RAG memory store for MCP agents to record, retrieve, update, and visualize persistent memories across sessions.**
 
@@ -917,7 +1274,25 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 66. [AxDSan/mnemosyne](https://github.com/AxDSan/mnemosyne)  `innovation: 8`
+### 89. [zilliztech/memsearch](https://github.com/zilliztech/memsearch)  `innovation: 9`
+
+**A cross-platform semantic memory system enabling persistent, searchable context across AI agents.**
+
+**Key Features:**
+- Cross-platform semantic memory storage
+- Persistent Markdown-based memories
+- Integration with Claude Code
+- OpenClaw
+- OpenCode
+- Codex CLI
+- Hybrid search algorithms (BM25
+- dense vectors
+- RRRF)
+- Real-time sync and deduplication
+
+---
+
+### 90. [AxDSan/mnemosyne](https://github.com/AxDSan/mnemosyne)  `innovation: 8`
 
 **This repository showcases a tool focused on managing and orchestrating complex workflows.**
 
@@ -930,7 +1305,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 67. [Cavinooo/claude-find](https://github.com/Cavinooo/claude-find)  `innovation: 8`
+### 91. [Cavinooo/claude-find](https://github.com/Cavinooo/claude-find)  `innovation: 8`
 
 **This repository implements a workflow automation framework for intelligent agent coordination.**
 
@@ -942,7 +1317,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 68. [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory)  `innovation: 8`
+### 92. [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory)  `innovation: 8`
 
 **A multi-sector cognitive memory engine that provides LLMs with local, persistent, and explainable long-term memory using temporal knowledge graphs and biological-inspired decay.**
 
@@ -955,10 +1330,11 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - OpenAI SDK instrumentation
 - cross-platform data connectors
 - Model Context Protocol (MCP) support
+- local-first SQLite persistence
 
 ---
 
-### 69. [DrDavidL/sem-mem](https://github.com/DrDavidL/sem-mem)  `innovation: 8`
+### 93. [DrDavidL/sem-mem](https://github.com/DrDavidL/sem-mem)  `innovation: 8`
 
 **Sem-Mem provides a local, tiered semantic memory solution for AI agents using an HNSW index for disk persistence and an LRU cache for fast recall.**
 
@@ -973,7 +1349,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 70. [KraftyUX/memai](https://github.com/KraftyUX/memai)  `innovation: 8`
+### 94. [GreatScottyMac/context-portal](https://github.com/GreatScottyMac/context-portal)  `innovation: 8`
+
+**Context Portal (ConPort) is a SQLite-backed MCP server that functions as a structured memory bank for AI assistants, enabling long-term project context through knowledge graphs and RAG.**
+
+**Key Features:**
+- Workspace-isolated SQLite persistence
+- Knowledge graph construction (entities and relationships)
+- Vector-based semantic search for RAG
+- MCP tool-driven interaction
+- Automatic schema migrations via Alembic
+- Multi-workspace support via workspace_id
+- Prompt caching optimization
+- STDIO-based IDE integration
+
+---
+
+### 95. [KraftyUX/memai](https://github.com/KraftyUX/memai)  `innovation: 8`
 
 **MemAI is a local-first, SQLite-based system designed to provide persistent, queryable memory storage specifically for AI agents and development teams.**
 
@@ -989,7 +1381,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 71. [KunalSin9h/yaad](https://github.com/KunalSin9h/yaad)  `innovation: 8`
+### 96. [KunalSin9h/yaad](https://github.com/KunalSin9h/yaad)  `innovation: 8`
 
 **A local AI-powered memory engine for terminal and agent use, enabling recall and reminders without cloud dependency.**
 
@@ -1001,7 +1393,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 72. [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine)  `innovation: 8`
+### 97. [MemMachine/MemMachine](https://github.com/MemMachine/MemMachine)  `innovation: 8`
 
 **MemMachine is an open-source universal memory layer that provides AI agents with persistent, multi-layered memory systems including episodic context and structured user profiles.**
 
@@ -1017,7 +1409,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 73. [Papr-ai/memory-opensource](https://github.com/Papr-ai/memory-opensource)  `innovation: 8`
+### 98. [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori)  `innovation: 8`
+
+**A SQL-native, framework-agnostic memory layer providing structured long-term persistence and background context augmentation for AI agents with high token efficiency.**
+
+**Key Features:**
+- Hierarchical Attribution (Entity/Process/Session)
+- Background Context Augmentation
+- SDK-level LLM Interception
+- MCP Server Support
+- OpenClaw Plugin Integration
+- Token-Efficient Recall (LoCoMo Benchmarked)
+- Framework Agnostic (LangChain/PydanticAI/Agno)
+- SQL-Native Storage Layer
+
+---
+
+### 99. [Papr-ai/memory-opensource](https://github.com/Papr-ai/memory-opensource)  `innovation: 8`
 
 **A sophisticated multi-modal memory layer for AI agents that synchronizes vector search, graph relationships, and document storage with local embedding support.**
 
@@ -1033,7 +1441,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 74. [Uranid/mnem](https://github.com/Uranid/mnem)  `innovation: 8`
+### 100. [Uranid/mnem](https://github.com/Uranid/mnem)  `innovation: 8`
 
 **This repository focuses on automating agent-based workflows using custom scripts and orchestration tools.**
 
@@ -1046,7 +1454,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 75. [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora)  `innovation: 8`
+### 101. [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora)  `innovation: 8`
 
 **A lightweight MCP server providing persistent semantic memory, knowledge graph visualization, and cross-session context for AI agents.**
 
@@ -1059,10 +1467,37 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Event notifications for inter-agent communication
 - Action history and timeline tracking
 - RAG-powered chat interface
+- Memory importance boosting
+- Typed relationship linking
 
 ---
 
-### 76. [bro3886/mcp-memory-custom](https://github.com/bro3886/mcp-memory-custom)  `innovation: 8`
+### 102. [agentwong/optimized-memory-mcp-server](https://github.com/agentwong/optimized-memory-mcp-server)  `innovation: 8`
+
+**This project demonstrates an optimized memory management server using a Python-based Memory MCP architecture, designed to enhance performance and efficiency for AI workloads.**
+
+**Key Features:**
+- Optimized memory management
+- AI-focused development environment
+- Secure code execution
+- Integration with external tools
+
+---
+
+### 103. [bornpresident/volatility-mcp-server](https://github.com/bornpresident/volatility-mcp-server)  `innovation: 8`
+
+**A Borg-based MCP server integrating Volatility 3 with Claude for natural language memory forensics.**
+
+**Key Features:**
+- Natural language memory forensics via Claude
+- Automated analysis of memory dumps and processes
+- Network and DLL analysis
+- Custom plugin support
+- Integration with Volatility 3 framework
+
+---
+
+### 104. [bro3886/mcp-memory-custom](https://github.com/bro3886/mcp-memory-custom)  `innovation: 8`
 
 **A custom memory server for MCP that enables structured knowledge graph management with language models.**
 
@@ -1075,7 +1510,20 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 77. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `innovation: 8`
+### 105. [campfirein/?](https://github.com/campfirein/?)  `innovation: 8`
+
+**This GitHub profile is focused on developing and leveraging tools related to AI coding agents, particularly emphasizing memory layers and context management.**
+
+**Key Features:**
+- Open-source memory layer for coding agents
+- Benchmark suite for context retrieval evaluation
+- Compatibility with multiple coding agents and IDEs
+- Model Context Protocol (MCP) implementation
+- Autonomous program improvement capabilities.
+
+---
+
+### 106. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `innovation: 8`
 
 **Hermes Search MCP enables secure, type-safe full-text and semantic search over Azure Cognitive Search.**
 
@@ -1087,7 +1535,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 78. [cognitive-stack/orion-vision-mcp](https://github.com/cognitive-stack/orion-vision-mcp)  `innovation: 8`
+### 107. [cognitive-stack/orion-vision-mcp](https://github.com/cognitive-stack/orion-vision-mcp)  `innovation: 8`
 
 **Orion Vision MCP server enables secure, standardized AI integration with Azure Form Recognizer and other document intelligence tools.**
 
@@ -1099,7 +1547,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 79. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)  `innovation: 8`
+### 108. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)  `innovation: 8`
 
 **Search stock news using Tavily API with customizable filters via Model Context Protocol.**
 
@@ -1112,7 +1560,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 80. [cognitive-stack/volume-wall-detector-mcp](https://github.com/cognitive-stack/volume-wall-detector-mcp)  `innovation: 8`
+### 109. [cognitive-stack/volume-wall-detector-mcp](https://github.com/cognitive-stack/volume-wall-detector-mcp)  `innovation: 8`
 
 **Volume Wall Detector MCP provides real-time stock volume analysis and imbalance tracking using the Model Context Protocol.**
 
@@ -1125,7 +1573,21 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 81. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)  `innovation: 8`
+### 110. [coldielb/inked](https://github.com/coldielb/inked)  `innovation: 8`
+
+**A lightweight, fast memory management server for Claude apps with optional AI-powered search.**
+
+**Key Features:**
+- Fast text search
+- Embedding-based semantic search
+- Optional AI reranking
+- Local SQLite storage
+- Secure memory management
+- Customizable memory models
+
+---
+
+### 111. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)  `innovation: 8`
 
 **This repository focuses on implementing persistent memory structures for neural network workloads.**
 
@@ -1137,7 +1599,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 82. [ebailey78/mcp-memory](https://github.com/ebailey78/mcp-memory)  `innovation: 8`
+### 112. [ebailey78/mcp-memory](https://github.com/ebailey78/mcp-memory)  `innovation: 8`
 
 **A Borg-based memory server for Claude Desktop to manage structured memory across project directories.**
 
@@ -1151,7 +1613,49 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 83. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `innovation: 8`
+### 113. [evangstav/python-memory-mcp-server](https://github.com/evangstav/python-memory-mcp-server)  `innovation: 8`
+
+**A memory MCP server enabling knowledge graph management with strict validation and secure data handling.**
+
+**Key Features:**
+- Entity creation and management
+- Observation tracking
+- Relation building
+- Memory flushing
+- Validation rule enforcement
+- Secure data storage and retrieval
+
+---
+
+### 114. [eyalzh/kanban-mcp](https://github.com/eyalzh/kanban-mcp)  `innovation: 8`
+
+**A memory-based Kanban task management system for AI-driven development, integrating AI agents and workflow automation.**
+
+**Key Features:**
+- Kanban board creation and management
+- AI agent integration for task documentation
+- Workflow automation with predefined prompts
+- Real-time progress tracking via web UI
+- Database-backed task persistence
+- Customizable project planning and execution
+
+---
+
+### 115. [g0t4/mcp-server-memory-file](https://github.com/g0t4/mcp-server-memory-file)  `innovation: 8`
+
+**A system to manage and store chat context as a text file for Claude and other MCP clients.**
+
+**Key Features:**
+- memory_add
+- memory_search
+- memory_delete
+- memory_list
+- code_update
+- prompt_cueing
+
+---
+
+### 116. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `innovation: 8`
 
 **A memory bank plugin for AI-assisted development using Model Context Protocol to maintain structured project context.**
 
@@ -1164,7 +1668,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 84. [iachilles/memento](https://github.com/iachilles/memento)  `innovation: 8`
+### 117. [iachilles/memento](https://github.com/iachilles/memento)  `innovation: 8`
 
 **A memory server leveraging SQLite, FTS5, and sqlite-vec for persistent knowledge graph storage with semantic search capabilities.**
 
@@ -1177,7 +1681,60 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 85. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)  `innovation: 8`
+### 118. [ibproduct/ib-mcp-cache-server](https://github.com/ibproduct/ib-mcp-cache-server)  `innovation: 8`
+
+**A memory cache server designed to optimize token usage in MCP API interactions by caching frequently accessed data.**
+
+**Key Features:**
+- Memory Cache Server
+- MCP Integration
+- Automatic Caching of Data
+- Performance Optimization
+
+---
+
+### 119. [incomestreamsurfer/roo-code-memory-bank-mcp-server](https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server)  `innovation: 8`
+
+**A MCP server enabling AI assistants to maintain project context across sessions using a file-based memory bank.**
+
+**Key Features:**
+- Initialize memory bank directory and templates
+- Check memory bank status
+- Read and append markdown files for context
+- Persist decisions and progress in markdown logs
+
+---
+
+### 120. [izumisy/mcp-duckdb-memory-server](https://github.com/izumisy/mcp-duckdb-memory-server)  `innovation: 8`
+
+**A Borg project that enhances the MCP Knowledge Graph Memory Server by replacing its in-memory JSON storage with DuckDB for improved performance and scalability.**
+
+**Key Features:**
+- DuckDB backend integration for memory server
+- SQL-based querying with DuckDB
+- Fuzzy search capabilities using Fuse.js
+- Support for complex queries and conditional searches
+- Indexing for faster data retrieval
+
+---
+
+### 121. [jean-technologies/jean-memory](https://github.com/jean-technologies/jean-memory)  `innovation: 8`
+
+**A comprehensive AI memory infrastructure that provides a persistent, cross-platform memory layer for AI agents using an intelligent orchestration engine built on top of mem0 and graphiti.**
+
+**Key Features:**
+- Intelligent memory orchestration
+- graph-based context retrieval
+- cross-platform SDKs
+- semantic memory persistence
+- automated intent analysis for context strategy
+- headless API access
+- self-hosted Docker architecture
+- drop-in React chat components with context awareness
+
+---
+
+### 122. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)  `innovation: 8`
 
 **Context Engineering & Isolation**
 
@@ -1190,7 +1747,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 86. [just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)  `innovation: 8`
+### 123. [just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)  `innovation: 8`
 
 **A fast, token-efficient web scraping tool that converts web pages to clean Markdown for AI agents.**
 
@@ -1203,10 +1760,11 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Concurrent fetching with configurable depth crawling
 - Stream-first design for low memory usage
 - Link preservation for knowledge graphs
+- Optional chunking for downstream processing
 
 ---
 
-### 87. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)  `innovation: 8`
+### 124. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)  `innovation: 8`
 
 **A project management tool leveraging mem0-mcp for structured project memory and semantic search.**
 
@@ -1219,7 +1777,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 88. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `innovation: 8`
+### 125. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `innovation: 8`
 
 **A Python-based memory plugin using SQLite for persistent data storage.**
 
@@ -1232,7 +1790,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 89. [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp)  `innovation: 8`
+### 126. [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp)  `innovation: 8`
 
 **A platform-as-a-service for managing and manipulating long-term memory data in AI applications.**
 
@@ -1247,7 +1805,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 90. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `innovation: 8`
+### 127. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `innovation: 8`
 
 **A Model Context Protocol (MCP) server for managing Memory Banks, enabling AI assistants to store and retrieve information across sessions.**
 
@@ -1260,10 +1818,12 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Mode Support (Code
 - Architect
 - Ask
+- Debug)
+- Integration with .clinerules files
 
 ---
 
-### 91. [narphorium/mcp-memex](https://github.com/narphorium/mcp-memex)  `innovation: 8`
+### 128. [narphorium/mcp-memex](https://github.com/narphorium/mcp-memex)  `innovation: 8`
 
 **A tool for analyzing web content and integrating it into a knowledge base using the Model Context Protocol.**
 
@@ -1275,7 +1835,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 92. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester)  `innovation: 8`
+### 129. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester)  `innovation: 8`
 
 **Ingester of Java structure in Memgraph. Speed up your AI agent! - memgraph-ingester/README.md at main · ousatov-ua/memgraph-ingester**
 
@@ -1287,7 +1847,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 93. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)  `innovation: 8`
+### 130. [recallbricks/?](https://github.com/recallbricks/?)  `innovation: 8`
+
+**RecallBricks is a graph-based memory infrastructure designed to provide AI agents with persistent, relationship-aware context beyond simple vector similarity.**
+
+**Key Features:**
+- Auto-relationship detection
+- causality tracking
+- cross-session persistence
+- memory graph architecture
+- semantic search integration
+- LangChain drop-in replacement
+- metacognitive memory layers
+- production-ready agent runtime
+
+---
+
+### 131. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)  `innovation: 8`
 
 **An MCP server enabling secure, automated trading interactions with the Recall Multi-Chain Trading Simulator.**
 
@@ -1300,7 +1876,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 94. [redis/agent-memory-server](https://github.com/redis/agent-memory-server)  `innovation: 8`
+### 132. [redis/agent-memory-server](https://github.com/redis/agent-memory-server)  `innovation: 8`
 
 **This repository focuses on Redis agent memory management and persistence mechanisms.**
 
@@ -1312,7 +1888,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 95. [roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core)  `innovation: 8`
+### 133. [roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core)  `innovation: 8`
 
 **Roampal-core is an outcome-based persistent memory server for AI coding assistants that uses a scoring mechanism to promote successful patterns and demote bad advice across sessions.**
 
@@ -1325,10 +1901,11 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - local-first data storage
 - document ingestion (Books)
 - memory promotion and demotion logic
+- self-healing server hooks.
 
 ---
 
-### 96. [samfoy/pi-total-recall](https://github.com/samfoy/pi-total-recall)  `innovation: 8`
+### 134. [samfoy/pi-total-recall](https://github.com/samfoy/pi-total-recall)  `innovation: 8`
 
 **This repository showcases a comprehensive tool for analyzing and optimizing recall metrics in machine learning models.**
 
@@ -1341,7 +1918,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 97. [samwang0723/mcp-memory](https://github.com/samwang0723/mcp-memory)  `innovation: 8`
+### 135. [samwang0723/mcp-memory](https://github.com/samwang0723/mcp-memory)  `innovation: 8`
 
 **A server-based solution for storing and retrieving long-term memory graphs using Redis Graph.**
 
@@ -1354,7 +1931,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 98. [sdimitrov/mcp-memory](https://github.com/sdimitrov/mcp-memory)  `innovation: 8`
+### 136. [sdimitrov/mcp-memory](https://github.com/sdimitrov/mcp-memory)  `innovation: 8`
 
 **A server-based memory system leveraging PostgreSQL and pgvector for long-term AI memory storage.**
 
@@ -1367,7 +1944,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 99. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `innovation: 8`
+### 137. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `innovation: 8`
 
 **A MCP server for searching and analyzing iCloud photo libraries.**
 
@@ -1382,7 +1959,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 100. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `innovation: 8`
+### 138. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `innovation: 8`
 
 **A platform enabling AI-driven intelligent discussions and architectural guidance for software development teams.**
 
@@ -1395,7 +1972,22 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 101. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `innovation: 8`
+### 139. [supermemoryai/?](https://github.com/supermemoryai/?)  `innovation: 8`
+
+**A high-performance, scalable memory engine and API designed to provide long-term persistence and infinite context for AI agents and LLMs via RAG and MCP.**
+
+**Key Features:**
+- RAG-driven memory engine
+- Model Context Protocol (MCP) server implementation
+- Unified memory benchmarking suite
+- Cross-platform context synchronization
+- Real-time knowledge updating for agents
+- Scalable Cloudflare-based deployment
+- Multi-language SDKs (TypeScript/Python)
+
+---
+
+### 140. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `innovation: 8`
 
 **A collection of Apple-native tools designed to enhance the model context protocol for seamless integration with AI applications.**
 
@@ -1408,7 +2000,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 102. [tosin2013/mcp-memory-cache-server](https://github.com/tosin2013/mcp-memory-cache-server)  `innovation: 8`
+### 141. [timazed/CodexKit](https://github.com/timazed/CodexKit)  `innovation: 8`
+
+**A lightweight iOS SDK for embedding secure, threaded OpenAI-powered Codex agents with structured memory, authentication, and workflow automation.**
+
+**Key Features:**
+- Secure authentication (device code or OAuth)
+- Threaded runtime state with persistent conversation history
+- Structured local memory for input/output pairing
+- Integrated backend for real-time ChatGPT responses
+- Approval gates and persona-based agent behavior
+- Support for structured prompts
+- tool definitions
+- and skill modules
+
+---
+
+### 142. [tosin2013/mcp-memory-cache-server](https://github.com/tosin2013/mcp-memory-cache-server)  `innovation: 8`
 
 **A memory cache server designed to reduce token consumption by efficiently caching data between language model interactions.**
 
@@ -1420,7 +2028,23 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 103. [vic563/memgpt-mcp-server](https://github.com/vic563/memgpt-mcp-server)  `innovation: 8`
+### 143. [verygoodplugins/mcp-automem](https://github.com/verygoodplugins/mcp-automem)  `innovation: 8`
+
+**AutoMem is a graph-vector memory service that provides AI assistants with durable, relational memory across multiple sessions and platforms using the Model Context Protocol (MCP).**
+
+**Key Features:**
+- Graph-vector hybrid architecture
+- 11 authorable relationship types
+- HippoRAG 2 retrieval optimization
+- cross-platform synchronization
+- sub-second retrieval performance
+- remote MCP sidecar (HTTP/SSE)
+- automated platform setup wizard
+- session-start memory hooks
+
+---
+
+### 144. [vic563/memgpt-mcp-server](https://github.com/vic563/memgpt-mcp-server)  `innovation: 8`
 
 **A TypeScript-based MCP server supporting persistent memory and multi-model LLM integration.**
 
@@ -1433,10 +2057,11 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Ollama)
 - Memory retrieval tools
 - Provider configuration
+- Model selection interface
 
 ---
 
-### 104. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)  `innovation: 8`
+### 145. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)  `innovation: 8`
 
 **A lightweight, local-first memory database and continuity journal for Claude AI agents, enabling persistent state management without cloud dependency.**
 
@@ -1451,9 +2076,9 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 105. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `innovation: 8`
+### 146. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `innovation: 8`
 
-**Cognitive memory engine for AI agents — temporal decay, contradiction detection, autonomous consolidation, knowledge graph, ANN recall via HNSW. Embeddable Rust library with Python bindings; powers ya**
+**Cognitive memory engine for AI agents — temporal decay, contradiction detection, autonomous consolidation, knowledge graph, ANN recall via HNSW. Embeddable Rust library with Python bindings; powers yantrikdb-server (HTTP gateway, MCP server, openraft**
 
 **Key Features:**
 - Persistent memory
@@ -1465,7 +2090,33 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 
 ---
 
-### 106. [zongmin-yu/memory-mcp-manager](https://github.com/zongmin-yu/memory-mcp-manager)  `innovation: 8`
+### 147. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)  `innovation: 8`
+
+**A decentralized AI memory infrastructure built on MCP and Solana, enabling secure in-memory storage and retrieval of user memories.**
+
+**Key Features:**
+- in-memory or pluggable DB/IPFS storage
+- Solana agent integration
+- decentralized AI memory infrastructure
+- secure code execution
+- user memory management
+
+---
+
+### 148. [zongmin-yu/literature-memory-server-fastmcp-mcp](https://github.com/zongmin-yu/literature-memory-server-fastmcp-mcp)  `innovation: 8`
+
+**A system for managing and integrating diverse knowledge sources with persistent storage and structured note-taking.**
+
+**Key Features:**
+- universal source identification
+- support for multiple source types
+- structured note-taking
+- entity linking to knowledge graph
+- relationship tracking
+
+---
+
+### 149. [zongmin-yu/memory-mcp-manager](https://github.com/zongmin-yu/memory-mcp-manager)  `innovation: 8`
 
 **A tool for managing and switching memory paths for Claude clients using the MCP memory server.**
 
@@ -1475,6 +2126,46 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Memory path configuration
 - Integration with Claude
 - Project-specific memory management
+
+---
+
+### 150. [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)  `innovation: 7`
+
+**A curated GitHub repository cataloging plugins, themes, agents, and resources specifically designed to enhance the Opencode AI coding agent experience.**
+
+**Key Features:**
+- Agent Identity Management
+- Persistent Memory Integration
+- Dynamic Skills Loading
+- Multi-Account Authentication
+- Safety Guards for Destructive Commands
+- Token Usage Analysis
+- Real-time tmux visualization
+- Plan Annotation UI
+
+---
+
+### 151. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `innovation: 7`
+
+**A Java 25 library for mapping records to strongly typed off-heap memory using the FFM API. - mamba-studio/TypedMemory**
+
+**Key Features:**
+- Persistent memory
+- MCP integration
+- API integration
+- Tool integration
+
+---
+
+### 152. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `innovation: 7`
+
+**memweave is a zero-infrastructure, async-first Python library that gives AI agents persistent, searchable memory — stored as plain Markdown files - sachinsharma9780/memweave**
+
+**Key Features:**
+- Persistent memory
+- MCP integration
+- Agent support
+- Tool integration
 
 ---
 
@@ -1674,6 +2365,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Gemini
 - etc.)
 - Export functionality to any AI platform
+- Version history and file management
 
 ---
 
@@ -1717,6 +2409,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - skill_distiller
 - skill_publisher
 - reflection loop)
+- Auto-distillation and semantic search for skill refinement
+- Reflection and narrative memory integration
 
 ---
 
@@ -1733,6 +2427,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Connectivity & Interoperability (MCP/A2A)'
 - 'Infrastructure & Proxy Layers'
 - 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
+- 'AI Agents & Frameworks'
 
 ---
 
@@ -1749,6 +2445,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Infrastructure & Proxy Layers'
 - 'Guides & Industry Trends'
 - 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks'
 
 ---
 
@@ -1765,6 +2463,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Persistent memory
 - Vector storage
 - Hosted compute
+- Workflow automation
 
 ---
 
@@ -1806,6 +2505,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - CrewAI)
 - Built-in Observability & Tracing
 - SOC 2/HIPAA Compliance
+- BYOK Support
+- Deployable On-Premise/Private Cloud.
 
 ---
 
@@ -1931,6 +2632,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Infrastructure & Proxy Layers
 - Vector Databases & Search
 - Coding Tools & IDEs
+- AI Agents & Frameworks.
 
 ---
 
@@ -1962,6 +2664,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Connectivity & Interoperability (MCP/A2A)'
 - 'Infrastructure & Proxy Layers'
 - 'Guides & Industry Trends'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
 
 ---
 
@@ -1978,6 +2682,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Connectivity & Interoperability (MCP/A2A)'
 - 'Infrastructure & Proxy Layers'
 - 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
 
 ---
 
@@ -1994,6 +2700,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Interface/UX design
 - Connectivity options (MCP/A2A)
 - Infrastructure layers
+- AI Agents integration points
+- Vector Database capabilities
 
 ---
 
@@ -2010,6 +2718,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Infrastructure & Proxy Layers
 - Vector Databases & Search
 - Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery.
 
 ---
 
@@ -2058,6 +2768,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Connectivity/Interoperability (MCP/A2A)
 - Infrastructure layering
 - AI Agent capabilities
+- Search & Discovery features.
 
 ---
 
@@ -2074,6 +2785,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Connectivity & Interoperability (MCP/A2A)'
 - 'Infrastructure & Proxy Layers'
 - 'AI Agents & Frameworks'
+- 'Vector Databases & Search']
 
 ---
 
@@ -2118,6 +2830,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Connectivity & Interoperability (MCP/A2A)'
 - 'Infrastructure & Proxy Layers'
 - 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
+- 'AI Agents & Frameworks Support']
 
 ---
 
@@ -2150,6 +2864,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Infrastructure & Proxy Layers'
 - 'Vector Databases & Search'
 - 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
 
 ---
 
@@ -2166,6 +2881,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Infrastructure & Proxy Layers
 - Vector Databases & Search
 - Coding Tools & IDEs
+- AI Agents & Frameworks.
 
 ---
 
@@ -2195,6 +2911,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - 'Infrastructure & Proxy Layers'
 - 'Vector Databases & Search'
 - 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
 
 ---
 
@@ -2255,6 +2972,8 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Connectivity & Interoperability (MCP/A2A)
 - Infrastructure & Proxy Layers
 - Vector Databases & Search capabilities
+- Coding Tools & IDE integration
+- AI Agents & Frameworks implementation.
 
 ---
 
@@ -2275,6 +2994,9 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - and command structure.
 4. **Parameter Control:** The ability to define parameters
 - manage color palettes
+- and control the rendering process.
+5. **Core Engine Mechanics:** Insights into the underlying math (e.g.
+- Quaternion algebra
 
 ---
 
@@ -2391,6 +3113,7 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - cross-session persistence
 - structured reasoning traces
 - provider-agnostic SDK
+- real-time failure deduplication.
 
 ---
 
@@ -2644,6 +3367,278 @@ Extracted from Borg Intelligence Database | Updated 2026-05-15
 - Cross-session persistence
 - Graph relationships
 - Docker deployment
+
+---
+
+### 85. [http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-eco](http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-economy.html?m=1)  `innovation: 7`
+
+**A blog post discussing the 'last gasp' of the landfill economy, likely focusing on the transition or final stages of a system/workflow.**
+
+**Key Features:**
+- The content likely explores the transition point (the 'last gasp') in a system's lifecycle
+- focusing on the interplay between agents
+- workflow orchestration
+- and memory/persistence architecture.
+
+---
+
+### 86. [https://app.supermemory.ai/](https://app.supermemory.ai/)  `innovation: 7`
+
+**An open-source personal knowledge hub that utilizes RAG and vector databases to create a searchable, persistent 'second brain' for AI interactions.**
+
+**Key Features:**
+- Multi-source data ingestion (Notion/Twitter/Web)
+- Vector-based semantic retrieval
+- Automated content summarization
+- Cross-platform bookmarking synchronization
+- RAG-optimized storage
+- Persistent context management for LLMs
+
+---
+
+### 87. [https://console.supermemory.ai/dashboard](https://console.supermemory.ai/dashboard)  `innovation: 7`
+
+**A centralized personal knowledge management system that transforms unstructured bookmarks and documents into a queryable long-term memory layer for AI agents.**
+
+**Key Features:**
+- Semantic indexing of web bookmarks
+- automated RAG pipeline integration
+- multi-source data connectors
+- vector-based semantic search
+- persistent knowledge storage
+- automated metadata tagging
+- conversational memory retrieval
+- dashboard for context management
+
+---
+
+### 88. [https://fwber.me/](https://fwber.me/)  `innovation: 7`
+
+**fwber.me - Adult Social Network - Join the Revolution in Adult Social Networking v 1.0.74**
+
+**Key Features:**
+- ['Adult Social Network Platform'
+- 'Revolutionary Concept for Adult Social Networking'
+- 'Agent Orchestration and Workflow Integration'
+- 'Context Engineering and Isolation capabilities'
+- 'Memory & Persistence Architecture features'
+- 'Interface and Developer UX enhancements'
+- 'Connectivity and Interoperability (MCP/A2A)'
+- 'Infrastructure and Proxy Layer optimization'
+- 'Vector Database & Search functionality'
+- 'AI Agents & Framework integration'
+
+---
+
+### 89. [https://gitlab.com/robertpelloni/hellven](https://gitlab.com/robertpelloni/hellven)  `innovation: 7`
+
+**Robert Pelloni / hellven · GitLab Project information Created on June 27, 2025 Loading**
+
+**Key Features:**
+- The core features likely revolve around agent orchestration
+- context management
+- efficient memory persistence
+- and robust interfaces for developer experience (UX) and connectivity. The project seems to focus on the practical implementation of agents and their interactions.
+
+---
+
+### 90. [https://hegetsus.com/en](https://hegetsus.com/en)  `innovation: 7`
+
+**Context Engineering & Isolation**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers']
+
+---
+
+### 91. [https://ltx.studio/purchase/v1/ltx_studio/default/login?redirectAfterL](https://ltx.studio/purchase/v1/ltx_studio/default/login?redirectAfterLogin=https%3A%2F%2Fapp.ltx.studio%2Fpricing&tbd_s=1)  `innovation: 7`
+
+**LTX Studio is a platform for building, deploying, and managing AI agents with a focus on orchestration, context management, and developer experience. It provides tools for coding, debugging, and integrating agents into various workflows.**
+
+**Key Features:**
+- ['Agent orchestration and workflow management'
+- 'Context engineering and isolation capabilities'
+- 'Memory and persistence architecture for agents'
+- 'User-friendly interface and developer UX'
+- 'Coding tools and IDE integration'
+- 'Development tools and libraries for agent building'
+- 'AI agent frameworks support'
+- 'Deployment and management tools']
+
+---
+
+### 92. [https://musavir.ai/](https://musavir.ai/)  `innovation: 7`
+
+**Musavir provides custom AI model development and strategic AI transformation services, focusing on agent orchestration, context engineering, and scalable AI infrastructure.**
+
+**Key Features:**
+- ['Custom AI model development'
+- 'Strategic AI transformation consulting'
+- 'Agent orchestration and workflow management'
+- 'Context engineering and isolation'
+- 'Memory and persistence architecture'
+- 'Connectivity and interoperability (MCP/A2A)'
+- 'Scalable AI infrastructure'
+- 'Vector database integration'
+- 'Development tools and libraries']
+
+---
+
+### 93. [https://news.ycombinator.com/item?id=46301470](https://news.ycombinator.com/item?id=46301470)  `innovation: 7`
+
+**RecallBricks is a persistent memory infrastructure for AI agents that provides structured, durable context across sessions using a multi-stage tiered retrieval pipeline.**
+
+**Key Features:**
+- Multi-stage recall pipeline
+- structured memory with metadata
+- memory decay and ranking logic
+- cross-session persistence
+- framework-agnostic SDKs
+- MCP integration
+- pgvector-based contextual retrieval
+
+---
+
+### 94. [https://news.ycombinator.com/item?id=46417772](https://news.ycombinator.com/item?id=46417772)  `innovation: 7`
+
+**Codex Kaioken is a fork of OpenAI's Codex CLI that enhances agent capabilities with subagents, persistent memory, and live settings.**
+
+**Key Features:**
+- Subagents
+- Persistent memory
+- Live settings
+- Codebase indexing
+- Semantic search
+
+---
+
+### 95. [https://peaberberian.github.io/](https://peaberberian.github.io/)  `innovation: 7`
+
+**A web-based desktop environment designed for AI agent development, orchestration, and knowledge management, offering a unified interface for coding, experimentation, and deployment.**
+
+**Key Features:**
+- ['Web-based desktop environment'
+- 'Integrated coding tools and IDE'
+- 'Agent orchestration and workflow management'
+- 'Context engineering and isolation mechanisms'
+- 'Memory and persistence architecture for AI agents'
+- 'Knowledge management and search capabilities'
+- 'Extensible and customizable platform'
+- 'Developer-friendly interface and UX']
+
+---
+
+### 96. [https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-](https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-aa28-c0b8436281b9/OpportunityDetail?opportunityId=c7d9a11c-c5ec-4091-8e83-0fd7c699f953)  `innovation: 7`
+
+**UltiPro Recruiting job posting for a Borg intelligence database role, highlighting various technical categories relevant to the position.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Isolation'
+- 'Memory Persistence'
+- 'User Interface Design'
+- 'Interoperability (MCP/A2A)'
+- 'Infrastructure Management'
+- 'Vector Database Integration'
+- 'AI Agent Frameworks'
+- 'Search and Discovery Capabilities']
+
+---
+
+### 97. [https://stormrider.io/lander](https://stormrider.io/lander)  `innovation: 7`
+
+**Stormrider is a platform for building and orchestrating AI agents with a focus on context engineering, memory, and connectivity.**
+
+**Key Features:**
+- ['Agent orchestration and workflow management'
+- 'Context engineering and isolation mechanisms'
+- 'Memory and persistence architecture for agents'
+- 'User-friendly interface and developer UX'
+- 'Connectivity and interoperability (MCP/A2A)'
+- 'Infrastructure and proxy layers for deployment'
+- 'Vector database integration for search and retrieval'
+- 'Tools for coding
+- debugging
+- and testing agents']
+
+---
+
+### 98. [https://www.pulsemcp.com/servers?q=memory](https://www.pulsemcp.com/servers?q=memory)  `innovation: 7`
+
+**This resource is a directory listing 399 different Memory MCP Servers used by the community for providing persistent memory capabilities to AI agents.**
+
+**Key Features:**
+- Persistent semantic graph storage
+- Knowledge graph integration for structured memory
+- Vector embedding and semantic search capabilities
+- Hybrid search mechanisms (e.g.
+- hot cache + semantic)
+- Local-first and remote/shared memory options
+- Integration with specific databases (SQLite
+- PostgreSQL
+- KuzuDB)
+- Time-decay and recall strengthening algorithms (Ebbinghaus-based)
+
+---
+
+### 99. [https://www.reddit.com/r/ClaudeOctopus/comments/1sopvqx/claudemem_conf](https://www.reddit.com/r/ClaudeOctopus/comments/1sopvqx/claudemem_conflicting_with_latest_claude_memory/)  `innovation: 7`
+
+**Analysis of a Reddit discussion on Claude's memory conflicts.**
+
+**Key Features:**
+- memory consistency checks
+- state synchronization
+- persistence verification
+- conflict resolution strategies
+
+---
+
+### 100. [https://www.reddit.com/r/GoodOpenSource/comments/1sjvlly/i_built_a_fre](https://www.reddit.com/r/GoodOpenSource/comments/1sjvlly/i_built_a_free_open_source_memory_persistent/)  `innovation: 7`
+
+**A project exploring open-source memory persistence techniques.**
+
+**Key Features:**
+- memory persistence
+- open source implementation
+- developer tools
+- persistence testing
+
+---
+
+### 101. [https://www.reddit.com/r/IMadeThis/comments/1siwrdd/built_graymatter_m](https://www.reddit.com/r/IMadeThis/comments/1siwrdd/built_graymatter_my_ai_agent_kept_forgetting/)  `innovation: 7`
+
+**A discussion on the challenges of maintaining memory and persistence in AI systems.**
+
+**Key Features:**
+- memory management
+- persistence techniques
+- data retention
+- AI agent optimization
+
+---
+
+### 102. [https://www.reddit.com/r/zeroclawlabs/comments/1sji5bj/im_lost_on_why_](https://www.reddit.com/r/zeroclawlabs/comments/1sji5bj/im_lost_on_why_cant_save_because_memory_store_is/)  `innovation: 7`
+
+**Analysis of a technical resource discussing memory management and persistence issues.**
+
+**Key Features:**
+- memory optimization
+- persistence strategies
+- data saving techniques
+
+---
+
+### 103. [https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-wi](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)  `innovation: 7`
+
+**The Chinese DRAM market has just gained another player with POWEV entering the DDR5 market. POWEV is a sub-brand of the Chinese company Jiahe Jinwei, which announced its entry into the DDR5 market almost half a decade ago but is delivering now when i**
+
+**Key Features:**
+- Persistent memory
 
 ---
 
