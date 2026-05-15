@@ -1,57 +1,36 @@
 # Borg Intelligence Atlas — Master Index
 
-> Generated from **10,665** borg-researched entries · **3,909** unique GitHub repos · 2026-05-15
+> **6,805** borg-researched entries with innovation ≥ 7 · **6,751** unique URLs indexed · **99.2%** coverage · 2026-05-15
 
-The Borg Atlas is a comprehensive, categorized index of the AI agent ecosystem, organized by **13 stack layers**. Each list below covers a distinct architectural domain, with sub-categories, star ratings (★★★ innovation ≥10, ★★☆ ≥9, ★☆☆ ≥8), quality badges (🔵 ≥0.9, 🟢 ≥0.7, 🟡 ≥0.5), and meaningful tags.
+The Borg Atlas is the **definitive categorized index** of the AI agent ecosystem, organized by **14 stack layers** across 7 canonical Borg categories + 7 cross-cutting domains. Every entry with innovation ≥ 7 from the Borg Intelligence Database is included.
 
-**Total indexed: 15,630 tools across 13 layers**
-
----
-
-## Atlas Contents
-
-| # | Layer | Tools | Description |
-|---|-------|-------|-------------|
-| 1 | [Agent Orchestration & Workflow](AGENT_ORCHESTRATION_TOOLS.md) | **3,154** | Multi-agent swarms, workflows, planning, autonomous loops, verification |
-| 2 | [Context Engineering & Isolation](CONTEXT_ENGINEERING_TOOLS.md) | **916** | Context compression, codebase indexing, RAG, isolation, ingestion |
-| 3 | [Memory & Persistence Architecture](MEMORY_PERSISTENCE_TOOLS.md) | **441** | Graph memory, episodic, semantic, MCP memory, second brain, OS |
-| 4 | [Interface & Developer UX](INTERFACE_UX_TOOLS.md) | **1,249** | Terminal UIs, IDEs, web dashboards, voice, canvas, computer-use agents |
-| 5 | [Connectivity / MCP / A2A](CONNECTIVITY_MCP_A2A_TOOLS.md) | **3,736** | MCP servers/clients, A2A, gateways, tool discovery, registries |
-| 6 | [Infrastructure & Proxy Layers](INFRASTRUCTURE_TOOLS.md) | **1,043** | AI OSes, inference engines, sandboxes, security, deployment, fine-tuning |
-| 7 | [Guides & Industry Trends](GUIDES_TRENDS.md) | **321** | Awesome lists, tutorials, architecture patterns, trend analyses |
-| 8 | [Coding Harness Tools](CODING_HARNESS_TOOLS.md) | **567** | Agent harnesses, skills, governance, spec-driven dev, review |
-| 9 | [AI Agents & Frameworks](AI_AGENTS_FRAMEWORKS.md) | **671** | Coding agents, GUI agents, research agents, AI OS, security agents |
-| 10 | [Search & Discovery](SEARCH_DISCOVERY_TOOLS.md) | **331** | Semantic search, web APIs, code search, MCP registries |
-| 11 | [Coding Tools & IDEs](CODING_TOOLS_IDES.md) | **1,825** | AI editors, autocomplete, code review, refactoring, testing, linting |
-| 12 | [Vector Databases & Embeddings](VECTOR_DATABASES_EMBEDDINGS.md) | **451** | Vector DBs, embedding models, ANN indexes, RAG frameworks |
-| 13 | [Security & Red Teaming](SECURITY_RED_TEAMING.md) | **925** | AI guardrails, LLM red teaming, vulnerability scanning, pentesting |
+**Total indexed: 11,979 tools across 14 layers**
 
 ---
 
-## Borg Taxonomy
+## The 7 Borg Categories
 
-The 7 canonical Borg categories, mapped to body metaphor:
+| # | Layer | Emoji | Tools | Description |
+|---|-------|-------|-------|-------------|
+| 1 | [Agent Orchestration & Workflow](AGENT_ORCHESTRATION_TOOLS.md) | 🧠 | **3,577** | Multi-agent swarms, workflows, planning, loops, verification, MCP orchestration |
+| 2 | [Context Engineering & Isolation](CONTEXT_ENGINEERING_TOOLS.md) | 👁 | **934** | Context compression, codebase indexing, RAG, isolation, ingestion, MCP servers |
+| 3 | [Memory & Persistence Architecture](MEMORY_PERSISTENCE_TOOLS.md) | 🧬 | **406** | Graph memory, episodic, semantic, MCP memory, second brain, memory OS |
+| 4 | [Interface & Developer UX](INTERFACE_UX_TOOLS.md) | 🤳 | **953** | Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas |
+| 5 | [Connectivity / MCP / A2A](CONNECTIVITY_MCP_A2A_TOOLS.md) | ⚡ | **782** | MCP servers/clients, A2A, gateways, tool discovery, registries, API connectors |
+| 6 | [Infrastructure & Proxy Layers](INFRASTRUCTURE_TOOLS.md) | 🦴 | **410** | AI OSes, inference engines, sandboxes, security, deployment, LLM routers, fine-tuning |
+| 7 | [Guides & Industry Trends](GUIDES_TRENDS.md) | 🗺 | **252** | Awesome lists, tutorials, architecture patterns, benchmarks, blog essays |
 
-| # | Category | Metaphor | Atlas List |
-|---|----------|----------|------------|
-| 1 | Agent Orchestration & Workflow | 🧠 Brain | [Orchestration](AGENT_ORCHESTRATION_TOOLS.md) |
-| 2 | Context Engineering & Isolation | 👁 Perception | [Context](CONTEXT_ENGINEERING_TOOLS.md) |
-| 3 | Memory & Persistence Architecture | 🧬 Memory | [Memory](MEMORY_PERSISTENCE_TOOLS.md) |
-| 4 | Interface & Developer UX | 🤳 Face | [Interface](INTERFACE_UX_TOOLS.md) |
-| 5 | Connectivity / MCP / A2A | ⚡ Nerves | [Connectivity](CONNECTIVITY_MCP_A2A_TOOLS.md) |
-| 6 | Infrastructure & Proxy Layers | 🦴 Skeleton | [Infrastructure](INFRASTRUCTURE_TOOLS.md) |
-| 7 | Guides & Industry Trends | 🗺 Map | [Guides](GUIDES_TRENDS.md) |
+## Cross-Cutting Domains
 
-Cross-cutting domains:
-
-| Domain | Atlas List |
-|--------|------------|
-| 🛠 Coding Harness | [Harness](CODING_HARNESS_TOOLS.md) |
-| 🤖 AI Agents | [Agents](AI_AGENTS_FRAMEWORKS.md) |
-| 🔍 Search & Discovery | [Search](SEARCH_DISCOVERY_TOOLS.md) |
-| 💻 Coding Tools & IDEs | [Coding](CODING_TOOLS_IDES.md) |
-| 📐 Vector & Embeddings | [Vector](VECTOR_DATABASES_EMBEDDINGS.md) |
-| 🛡 Security & Red Team | [Security](SECURITY_RED_TEAMING.md) |
+| # | Domain | Emoji | Tools | Description |
+|---|--------|-------|-------|-------------|
+| 1 | [Coding Harness Tools](CODING_HARNESS_TOOLS.md) | 🛠 | **215** | Agent harnesses, skills, governance, spec-driven dev, bridges |
+| 2 | [AI Agents & Frameworks](AI_AGENTS_FRAMEWORKS.md) | 🤖 | **282** | Coding agents, GUI agents, research agents, AI OS, security agents |
+| 3 | [Search & Discovery](SEARCH_DISCOVERY_TOOLS.md) | 🔍 | **256** | Semantic search, web APIs, code search, MCP registries |
+| 4 | [Coding Tools & IDEs](CODING_TOOLS_IDES.md) | 💻 | **279** | AI editors, autocomplete, code review, refactoring, testing, linting |
+| 5 | [Developer Workflow & Tools](DEVELOPER_WORKFLOW_TOOLS.md) | 🔧 | **263** | Git, CI/CD, project management, documentation, automation |
+| 6 | [Vector Databases & Embeddings](VECTOR_DATABASES_EMBEDDINGS.md) | 📐 | **433** | Vector DBs, embedding models, ANN indexes, RAG frameworks |
+| 7 | [Security & Red Teaming](SECURITY_RED_TEAMING.md) | 🛡 | **2,937** | AI guardrails, LLM red teaming, vulnerability scanning, pentesting |
 
 ---
 
@@ -59,9 +38,31 @@ Cross-cutting domains:
 
 | Symbol | Meaning |
 |--------|---------|
-| ★★★ | Innovation score 10 (world-class) |
-| ★★☆ | Innovation score 9 (excellent) |
-| ★☆☆ | Innovation score 8 (very good) |
-| 🔵 | Quality score ≥ 0.9 (verified) |
-| 🟢 | Quality score ≥ 0.7 (solid) |
-| 🟡 | Quality score ≥ 0.5 (acceptable) |
+| ★★★ | Innovation score 10 — world-class |
+| ★★☆ | Innovation score 9 — excellent |
+| ★☆☆ | Innovation score 8 — very good |
+| ☆☆☆ | Innovation score 7 — good |
+| 🔵 | Quality score ≥ 0.9 — verified high quality |
+| 🟢 | Quality score ≥ 0.7 — solid quality |
+| 🟡 | Quality score ≥ 0.5 — acceptable quality |
+
+## Coverage Statistics
+
+| Metric | Value |
+|--------|-------|
+| Total borg-researched entries | **10,665** |
+| Entries with innovation ≥ 7 | **6,805** |
+| Unique URLs in Atlas | **6,751** |
+| Coverage | **99.2%** |
+| Stack layers | **14** |
+| Total entries across all lists | **11,979** (includes cross-list overlap) |
+
+## Methodology
+
+1. Every entry with **innovation score ≥ 7** from the Borg Intelligence Database is included
+2. Entries are **categorized by normalized Borg taxonomy** — the LLM-assigned `category` field is the primary selector
+3. Multi-category entries appear in **every matching list** (cross-list overlap is intentional)
+4. Sub-group classification uses **keyword matching** across all text fields
+5. **Long descriptions** are preferred over short descriptions; category-name-as-description junk is filtered
+6. **Meaningful tags** are included (generic tags like 'github', 'version-control' are filtered)
+7. **Star ratings** and **quality badges** provide at-a-glance quality assessment

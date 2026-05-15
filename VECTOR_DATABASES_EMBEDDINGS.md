@@ -1,37 +1,66 @@
 # Vector Databases & Embeddings
 
-> Extracted from Borg Intelligence Database · 2026-05-15 · 451 tools
+> Borg Intelligence Atlas · 2026-05-15 · 433 tools
 
-The substrate layer — vector databases, embedding models, ANN index libraries, and RAG frameworks. The mathematical foundation for semantic search and memory.
+The **substrate layer** 📐 — vector databases, embedding models, ANN index libraries, and RAG frameworks. The mathematical foundation for semantic search and memory.
 
 | Metric | Value |
 |--------|-------|
-| GitHub repos | 373 |
-| Websites & articles | 78 |
-| Total | **451** |
-| Min innovation | 8 |
-| Avg quality | 0.99 |
-| Innovation 10 | 27 ██████ |
-| Innovation 9 | 111 ███████████████████████ |
-| Innovation 8 | 313 ███████████████████████████████████████████████████████████████ |
+| GitHub repos | 321 |
+| Websites & articles | 112 |
+| **Total** | **433** |
+| Min innovation | 7 |
+| Avg quality | 0.98 |
+| Score 10 | 10 ██ |
+| Score 9 | 84 █████████ |
+| Score 8 | 281 █████████████████████████████ |
+| Score 7 | 58 ██████ |
 
 ---
 
 ## Contents
 
-- [Vector Databases & Stores](#vector-databases--stores) — 47 tools
-- [Embedding Models & Libraries](#embedding-models--libraries) — 5 tools
-- [ANN Index Libraries](#ann-index-libraries) — 167 tools
-- [RAG Frameworks & Retrieval](#rag-frameworks--retrieval) — 62 tools
-- [General Vector & Embedding Tools](#general-vector--embedding-tools) — 92 tools
+- [Vector Databases & Stores](#vector-databases--stores) — 107 tools · avg innovation 8.2
+- [Embedding Models & Libraries](#embedding-models--libraries) — 11 tools · avg innovation 8.5
+- [ANN Index Libraries](#ann-index-libraries) — 196 tools · avg innovation 8.2
+- [RAG Frameworks & Retrieval](#rag-frameworks--retrieval) — 2 tools · avg innovation 9.0
+- [General Vector & Embedding Tools](#general-vector--embedding-tools) — 5 tools · avg innovation 8.4
 
 ---
 
 ## Vector Databases & Stores
 
-> 47 tools · avg innovation 8.5
+> 107 tools · avg innovation 8.2 · avg quality 0.99
 
-### 1. [lancedb/lancedb](https://github.com/lancedb/lancedb)  `innovation: 10` ★★★ 🔵
+### 1. [GrantFlowAI/GrantFlowAI](https://github.com/GrantFlowAI/GrantFlowAI)  `10` ★★★ 🔵
+
+**A production-grade RAG stack blueprint using Litestar, pgvector, and Kreuzberg, focusing on integrated evaluation loops and feedback systems.**
+
+**Key Features:**
+- Integrated evaluation layers
+- Litestar/pgvector backend
+- automated feedback loops
+- uv/pnpm monorepo management.
+
+*Tags: rag, production-ai, pgvector, infrastructure*
+
+---
+
+### 2. [coleam00/mcp-mem0](https://github.com/coleam00/mcp-mem0)  `10` ★★★ 🔵
+
+**A Model Context Protocol implementation of Mem0 that provides agents with persistent, searchable long-term memory across sessions and restarts.**
+
+**Key Features:**
+- Persistent memory storage
+- semantic search/recall tools
+- autonomous fact extraction (Add/Update/Delete)
+- local-first SQLite/ChromaDB support.
+
+*Tags: mcp, mem0, memory, persistence, context-management*
+
+---
+
+### 3. [lancedb/lancedb](https://github.com/lancedb/lancedb)  `10` ★★★ 🔵
 
 **An embedded, serverless multimodal lakehouse optimized for hyperscalable vector search and direct object storage (S3) access.**
 
@@ -45,7 +74,40 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 2. [HyunjunJeon/vibecoding-lg-mcp-a2a](https://github.com/HyunjunJeon/vibecoding-lg-mcp-a2a)  `innovation: 9` ★★☆ 🔵
+### 4. [mem0ai/mcp-mem0](https://github.com/mem0ai/mcp-mem0)  `10` ★★★ 🔵
+
+**An MCP integration pairing Mem0's fact-extraction layer with Qdrant's vector database to provide agents with self-improving semantic memory.**
+
+**Key Features:**
+- Self-improving semantic memory
+- Qdrant FastEmbed integration
+- metadata filtering (session/user ID)
+- hybrid Graph+Vector persistence.
+
+*Tags: mcp, mem0, qdrant, vector-db, semantic-search*
+
+---
+
+### 5. [DragonShadows1978/AI-AfterImage](https://github.com/DragonShadows1978/AI-AfterImage)  `9` ★★☆ 🔵
+
+**AI-AfterImage functions as a local, session-to-session memory layer for AI coding agents, specifically targeting Claude Code. It operates via a hook system that intercepts 'Write' and 'Edit' actions. Before writing, it searches a local Knowledge Base (KB) built on SQLite (or optional PostgreSQL/pgvector) for semantically similar past code and injects this context into the prompt. After writing, it**
+
+**Key Features:**
+- Local SQLite/PostgreSQL KB
+- Hybrid Search (Keyword + Semantic)
+- Pre-write Context Injection
+- Post-write Diff Extraction/Storage
+- Code Intelligence (AST Parsing
+- Language Detection)
+- Semantic Chunking
+- Code Churn Tracking with Tiering
+- CLI management.
+
+*Tags: episodic memory, local persistence, ai agent memory, code intelligence, ast parsing, semantic search, sqlite, postgresql*
+
+---
+
+### 6. [HyunjunJeon/vibecoding-lg-mcp-a2a](https://github.com/HyunjunJeon/vibecoding-lg-mcp-a2a)  `9` ★★☆ 🔵
 
 **A multi-agent AI system for automated web search, document retrieval, report generation, and MCP integration.**
 
@@ -62,9 +124,55 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 3. [Muvon/octocode](https://github.com/Muvon/octocode)  `innovation: 9` ★★☆ 🔵
+### 7. [Intrect-io/OpenSwarm](https://github.com/Intrect-io/OpenSwarm)  `9` ★★☆ 🔵
 
-**Octocode focuses on building a high-fidelity, intelligent knowledge graph of a codebase using semantic indexing derived from various programming languages. Its core technical approach involves using specialized parsers (like tree-sitter for AST analysis) to extract detailed code structure, which is **
+**An autonomous AI development team orchestrator that spawns collaborative Claude Code pairs to automate Linear and GitHub issues.**
+
+**Key Features:**
+- Worker/Reviewer agent pairs
+- Linear ticket auto-pickup
+- LanceDB cognitive memory
+- Discord-based human approval UI.
+
+*Tags: swarm, multi-agent, linear-integration, software-factory, automation*
+
+---
+
+### 8. [Kaiohz/prospectio-api-mcp](https://github.com/Kaiohz/prospectio-api-mcp)  `9` ★★☆ 🔵
+
+**The Prospectio API MCP project leverages Clean Architecture principles to deliver a robust, scalable solution for lead generation. It employs a three-phase contact enrichment strategy combining Perplexity Web Search, DuckDuckGo HTML search, and Perplexity Web Search for biographical data. The system integrates persistent storage with PostgreSQL and pgvector for efficient data management, while sup**
+
+**Key Features:**
+- Three-phase contact enrichment (Perplexity
+- DuckDuckGo
+- Perplexity Web Search)
+- Persistent storage with PostgreSQL and pgvector integration
+- Secure development practices including rate limiting and URL sanitization
+- Scalable infrastructure with Docker and CI/CD support
+- Advanced search capabilities with configurable models and timeouts
+
+*Tags: agent orchestration, workflow automation, mcp integration, ai-driven prospecting, data persistence, security, developer tools, api development*
+
+---
+
+### 9. [Lyellr88/MARM-Systems](https://github.com/Lyellr88/MARM-Systems)  `9` ★★☆ 🔵
+
+**The MARM system provides a persistent, memory-powered collaborator for AI agents. It enables cross-platform AI memory, multi-agent coordination, and context sharing through the MARM protocol. The core innovation lies in its ability to solve the problem of LLMs forgetting context over time by providing a unified, persistent memory layer that allows agents to remember, reference, and build on prior **
+
+**Key Features:**
+- Universal MCP Server (supports HTTP
+- STDIO
+- and WebSocket) enabling cross-platform AI memory
+- multi-agent coordination
+- and context sharing. The system offers structured reasoning that evolves with the work.
+
+*Tags: ['AI Agents', 'Memory Persistence', 'Cross-Agent Recall', 'MCP', 'LLM Context', 'Session Continuity', 'Multi-Agent Coordination', 'Context Engineering'*
+
+---
+
+### 10. [Muvon/octocode](https://github.com/Muvon/octocode)  `9` ★★☆ 🔵
+
+**Octocode focuses on building a high-fidelity, intelligent knowledge graph of a codebase using semantic indexing derived from various programming languages. Its core technical approach involves using specialized parsers (like tree-sitter for AST analysis) to extract detailed code structure, which is then vectorized (using Voyage AI or local models) and stored in LanceDB for optimized retrieval. Thi**
 
 **Key Features:**
 - Semantic Code Search
@@ -80,7 +188,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 4. [Taaar1k/rag-workshop](https://github.com/Taaar1k/rag-workshop)  `innovation: 9` ★★☆ 🔵
+### 11. [Taaar1k/rag-workshop](https://github.com/Taaar1k/rag-workshop)  `9` ★★☆ 🔵
 
 **A local-first RAG server that integrates with OpenAI models, enabling LLM-augmented retrieval and generation without leaving the machine.**
 
@@ -95,7 +203,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 5. [agentience/expert-registry-mcp](https://github.com/agentience/expert-registry-mcp)  `innovation: 9` ★★☆ 🔵
+### 12. [agentience/expert-registry-mcp](https://github.com/agentience/expert-registry-mcp)  `9` ★★☆ 🔵
 
 **A high-performance MCP server for expert discovery with vector and graph database integration, designed to streamline expert management and context injection.**
 
@@ -110,7 +218,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 6. [cam10001110101/mcp-server-outlook-email](https://github.com/cam10001110101/mcp-server-outlook-email)  `innovation: 9` ★★☆ 🔵
+### 13. [cam10001110101/mcp-server-outlook-email](https://github.com/cam10001110101/mcp-server-outlook-email)  `9` ★★☆ 🔵
 
 **A cross-platform MCP server that processes Outlook emails, generates embeddings, and enables semantic search.**
 
@@ -130,7 +238,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 7. [coleam00/mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag)  `innovation: 9` ★★☆ 🔵
+### 14. [coleam00/mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag)  `9` ★★☆ 🔵
 
 **A powerful implementation of the Model Context Protocol (MCP) integrated with Crawl4AI and Supabase, enabling AI agents and coding assistants to perform advanced web crawling and RAG capabilities.**
 
@@ -151,7 +259,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 8. [delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory)  `innovation: 9` ★★☆ 🔵
+### 15. [delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory)  `9` ★★☆ 🔵
 
 **A Borg MCP server that integrates Qdrant vector database for semantic search, enabling knowledge graph-based querying.**
 
@@ -166,7 +274,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 9. [geeksfino/kb-mcp-server](https://github.com/geeksfino/kb-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 16. [geeksfino/kb-mcp-server](https://github.com/geeksfino/kb-mcp-server)  `9` ★★☆ 🔵
 
 **A knowledge base server that integrates with MCP servers to enable semantic search, knowledge graph queries, and AI-driven text processing.**
 
@@ -181,9 +289,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 10. [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome)  `innovation: 9` ★★☆ 🔵
+### 17. [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome)  `9` ★★☆ 🔵
 
-**Chrome MCP Server functions as a bridge, built as a Chrome extension, that exposes the user's active Chrome browser functionality (including open tabs, history, network access, and interaction capabilities) to external AI agents using the Model Context Protocol (MCP). It bypasses the need for headle**
+**Chrome MCP Server functions as a bridge, built as a Chrome extension, that exposes the user's active Chrome browser functionality (including open tabs, history, network access, and interaction capabilities) to external AI agents using the Model Context Protocol (MCP). It bypasses the need for headless browsers like Playwright by leveraging the existing, logged-in browser session, connecting via St**
 
 **Key Features:**
 - Chrome Extension-based MCP Server
@@ -199,7 +307,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 11. [ia-programming/youtube-mcp](https://github.com/ia-programming/youtube-mcp)  `innovation: 9` ★★☆ 🔵
+### 18. [ia-programming/youtube-mcp](https://github.com/ia-programming/youtube-mcp)  `9` ★★☆ 🔵
 
 **An AI-powered YouTube MCP server enabling semantic searches and transcript retrieval without relying on the official API.**
 
@@ -213,7 +321,23 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 12. [medright/vectorize-ui](https://github.com/medright/vectorize-ui)  `innovation: 9` ★★☆ 🔵
+### 19. [jakops88-hub/Long-Term-Memory-API](https://github.com/jakops88-hub/Long-Term-Memory-API)  `9` ★★☆ 🔵
+
+**The project implements MemVault, a managed API designed to serve as a 'hippocampus' for AI agents, offering persistent memory that goes beyond simple vector similarity. It utilizes Graph Retrieval-Augmented Generation (GraphRAG) by automatically extracting entities and relationships to build a dynamic knowledge graph stored in PostgreSQL with pgvector. A key differentiating feature is the 'Sleep C**
+
+**Key Features:**
+- GraphRAG (Entity and Relationship Extraction)
+- Asynchronous 'Sleep Cycle' Consolidation Engine
+- Hybrid Search (Vector + Keyword)
+- Cost Guard for Token Usage Monitoring
+- TypeScript SDK for safe interaction
+- Self-Hosting (Open Core)
+
+*Tags: graphrag, long-term-memory, knowledge-graph, pgvector, asynchronous-processing, ai-memory-api, entity-extraction, sleep-cycle-engine*
+
+---
+
+### 20. [medright/vectorize-ui](https://github.com/medright/vectorize-ui)  `9` ★★☆ 🔵
 
 **A specialized frontend and management layer designed to streamline the creation, monitoring, and debugging of vector knowledge bases.**
 
@@ -227,7 +351,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 13. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `innovation: 9` ★★☆ 🔵
+### 21. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `9` ★★☆ 🔵
 
 **A remote MCP server enabling seamless access to ChromaDB for AI assistants, supporting secure authentication, vector embeddings, and unified development across devices.**
 
@@ -247,7 +371,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 14. [p-funk/fegis](https://github.com/p-funk/fegis)  `innovation: 9` ★★☆ 🔵
+### 22. [microsandbox/microsandbox](https://github.com/microsandbox/microsandbox)  `9` ★★☆ 🔵
+
+**Microsandbox spins up lightweight VMs in milliseconds from our SDKs. Runs locally on your machine. No server to set up. No lingering daemon. It is all embedded and rootless! Today, AI agents operate with whatever permissions you give them, and that's usually too much. They can see API keys in the environment, reach the network without restriction, and a single prompt injection can execute destruct**
+
+**Key Features:**
+- Hardware Isolation (Hypervisor-level isolation with microVM technology)
+- Instant Startup (Boot times under 100 milliseconds)
+- Embeddable (Spawn VMs right within your code
+- no setup server
+- no long-running daemon)
+- Secrets That Can't Leak (Secret keys never enter the VM)
+- OCI Compatible (Runs standard container images from Docker Hub
+- GHCR
+- or any OCI registry)
+- Long-Running (Sandboxes can run in detached mode)
+- Agent-Ready (Agents can create their own sandboxes with our Agent Skills and MCP server).
+
+*Tags: ['AI Agents', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 23. [p-funk/fegis](https://github.com/p-funk/fegis)  `9` ★★☆ 🔵
 
 **A developer platform for AI-powered coding, workflow automation, and secure code management.**
 
@@ -264,7 +409,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 15. [pgvector/pgvector](https://github.com/pgvector/pgvector)  `innovation: 9` ★★☆ 🔵
+### 24. [pgvector/pgvector](https://github.com/pgvector/pgvector)  `9` ★★☆ 🔵
 
 **The foundational technology enabling the trend of building high-scale AI applications directly on the PostgreSQL relational database.**
 
@@ -278,7 +423,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 16. [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp)  `innovation: 9` ★★☆ 🔵
+### 25. [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp)  `9` ★★☆ 🔵
 
 **Connect Pinecone projects to AI assistants like Cursor and Claude via the Pinecone Developer MCP Server.**
 
@@ -293,9 +438,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 17. [qdrant/qdrant](https://github.com/qdrant/qdrant)  `innovation: 9` ★★☆ 🔵
+### 26. [qdrant/qdrant](https://github.com/qdrant/qdrant)  `9` ★★☆ 🔵
 
-**Qdrant functions as a dedicated vector database built in Rust for speed and reliability, offering extensive support for storing vectors alongside arbitrary JSON payloads. Its core strength lies in advanced vector similarity search combined with complex filtering mechanisms (including keyword, numeri**
+**Qdrant functions as a dedicated vector database built in Rust for speed and reliability, offering extensive support for storing vectors alongside arbitrary JSON payloads. Its core strength lies in advanced vector similarity search combined with complex filtering mechanisms (including keyword, numerical range, and geo-location filters) on the attached metadata. It supports hybrid search using both **
 
 **Key Features:**
 - Vector storage and similarity search
@@ -310,9 +455,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 18. [qpd-v/mcp-ragdocs](https://github.com/qpd-v/mcp-ragdocs)  `innovation: 9` ★★☆ 🔵
+### 27. [qpd-v/mcp-ragdocs](https://github.com/qpd-v/mcp-ragdocs)  `9` ★★☆ 🔵
 
-**The MCP-Ragdocs project implements a Model Context Protocol (MCP) server that integrates with Qdrant, a vector database, to allow users to search through documentation using natural language queries. It supports adding documentation from URLs or local files and enables intelligent retrieval based on**
+**The MCP-Ragdocs project implements a Model Context Protocol (MCP) server that integrates with Qdrant, a vector database, to allow users to search through documentation using natural language queries. It supports adding documentation from URLs or local files and enables intelligent retrieval based on semantic understanding.**
 
 **Key Features:**
 - Semantic search via vector databases
@@ -325,7 +470,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 19. [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp)  `innovation: 9` ★★☆ 🔵
+### 28. [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp)  `9` ★★☆ 🔵
 
 **A hybrid graph and vector database server enabling semantic search across Neo4j and Qdrant for advanced document retrieval.**
 
@@ -339,7 +484,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 20. [rmtech1/txtai-assistant-mcp](https://github.com/rmtech1/txtai-assistant-mcp)  `innovation: 9` ★★☆ 🔵
+### 29. [rmtech1/txtai-assistant-mcp](https://github.com/rmtech1/txtai-assistant-mcp)  `9` ★★☆ 🔵
 
 **A robust API server for semantic vector memory storage, retrieval, and management using TxtAI with integration for AI assistants like Claude and Cline.**
 
@@ -356,7 +501,42 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 21. [visheshd/docmcp](https://github.com/visheshd/docmcp)  `innovation: 9` ★★☆ 🔵
+### 30. [thedotmack/mcp-client-cli](https://github.com/thedotmack/mcp-client-cli)  `9` ★★☆ 🔵
+
+**This resource details the `mcp-client-cli`, a command-line interface designed to interact with Model Context Protocol (MCP) servers. It highlights how MCP enables AI assistants to interact with tools and data sources, making this power accessible via the command line for shell scripting, DevOps pipelines, quick testing of MCP servers, and rapid prototyping. The key innovation is that it offers uni**
+
+**Key Features:**
+- Universal Compatibility with ANY MCP Server
+- Zero Schema Configuration (dynamic discovery)
+- Automatic CLI Generation (tool schemas $\rightarrow$ Commander.js options)
+- Clean Output for piping
+- Human-Friendly interface (no JSON-RPC knowledge needed).
+
+*Tags: ['MCP', 'AI Agents', 'CLI Tools', 'DevOps', 'Context Engineering', 'Vector Databases', 'Automation', 'Interoperability']*
+
+---
+
+### 31. [verygoodplugins/automem](https://github.com/verygoodplugins/automem)  `9` ★★☆ 🔵
+
+**AutoMem moves beyond traditional RAG by combining FalkorDB for graph-based relational storage and Qdrant for vector-based semantic search. This hybrid approach enables 'Bridge Discovery,' allowing AI agents to follow typed relationships (e.g., PREFERS_OVER, DERIVED_FROM) to uncover the reasoning and context behind stored information. The system incorporates cutting-edge research methodologies incl**
+
+**Key Features:**
+- Dual Graph-Vector storage (FalkorDB/Qdrant)
+- Multi-hop Bridge Discovery
+- Automatic Entity Extraction
+- Zettelkasten-inspired memory clustering
+- Importance scoring
+- Temporal context tracking
+- 11 authorable relationship types
+- Background memory consolidation
+- MCP (Model Context Protocol) support
+- LoCoMo benchmarked performance
+
+*Tags: long-term memory, graph-vector hybrid, falkordb, qdrant, hipporag, memory consolidation, mcp, zettelkasten*
+
+---
+
+### 32. [visheshd/docmcp](https://github.com/visheshd/docmcp)  `9` ★★☆ 🔵
 
 **A developer workflow automation platform built on DocMCP, enabling AI-powered document indexing, vector search, and integration with modern development tools.**
 
@@ -373,9 +553,81 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 22. [DrDavidL/sem-mem](https://github.com/DrDavidL/sem-mem)  `innovation: 8` ★☆☆ 🔵
+### 33. [visionscaper/collabmem](https://github.com/visionscaper/collabmem)  `9` ★★☆ 🔵
 
-**Sem-Mem implements a hybrid, two-tiered memory architecture designed for local deployment of AI agents. Tier 1 (L1, SmartCache in RAM) uses a segmented LRU cache for frequently or recently accessed memories, enabling near-zero-latency recall. Tier 2 (L2, Disk-backed) utilizes an HNSW index via `hnsw**
+**Collabmem is a file-based memory system designed to enhance human-AI collaboration by maintaining an episodic memory index and a world model. It stores knowledge in plain text files that can be versioned and tracked via Git, allowing AI assistants to retain context across sessions without relying on databases or vector stores. The system uses in-context awareness and supports integration with plat**
+
+**Key Features:**
+- Episodic memory index
+- World model memory
+- In-context awareness
+- File-based storage
+- Git tracking
+- Integration with AI assistants
+- Context retention across sessions
+
+*Tags: memory architecture, ai collaboration, long-term context, file-based storage, world model, episodic memory, developer tools, ai integration*
+
+---
+
+### 34. [zilliztech/memsearch](https://github.com/zilliztech/memsearch)  `9` ★★☆ 🔵
+
+**memsearch is a markdown-first memory system designed for AI coding agents. It integrates with platforms like Claude Code, OpenClaw, OpenCode, and Codex CLI to provide persistent, editable, version-controlled memories stored in Markdown files. The system uses Milvus as a shadow index for fast retrieval and supports hybrid search algorithms (BM25, dense vectors, RRRF) for intelligent recall. Agent u**
+
+**Key Features:**
+- Cross-platform semantic memory storage
+- Persistent Markdown-based memories
+- Integration with Claude Code
+- OpenClaw
+- OpenCode
+- Codex CLI
+- Hybrid search algorithms (BM25
+- dense vectors
+- RRRF)
+- Real-time sync and deduplication
+- Markdown source of truth with version control
+- Plugin-based agent development for memory augmentation
+
+*Tags: memory, persistence, semantic, ai, developer, cloud, search, agency*
+
+---
+
+### 35. [BVLC/caffe](https://github.com/BVLC/caffe)  `8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Key Features:**
+- The resource details the process of porting a Caffe framework to Windows
+- outlining the specific requirements for the build environment (Visual Studio
+- CMake)
+- and providing detailed instructions on configuring and building the resulting application.
+
+*Tags: ['caffe', 'windows', 'build_win.cmd', 'cmake', 'visualstudio', 'cpp', 'c++', 'compiler'*
+
+---
+
+### 36. [CaviraOSS/OpenMemory](https://github.com/CaviraOSS/OpenMemory)  `8` ★☆☆ 🔵
+
+**OpenMemory is designed to replace traditional RAG pipelines with a structured cognitive architecture consisting of episodic, semantic, procedural, emotional, and reflective memory sectors. Unlike standard vector databases that rely solely on similarity scores, OpenMemory utilizes a 'waypoint graph' for associative linking and features a temporal reasoning engine that tracks the validity of facts o**
+
+**Key Features:**
+- Multi-sector memory classification
+- temporal knowledge graphs
+- biological decay and reinforcement logic
+- waypoint graph associations
+- explainable retrieval traces
+- OpenAI SDK instrumentation
+- cross-platform data connectors
+- Model Context Protocol (MCP) support
+- local-first SQLite persistence
+
+*Tags: cognitive memory, episodic memory, temporal knowledge graph, mcp, local-first, llm persistence, semantic search, vector database alternative*
+
+---
+
+### 37. [DrDavidL/sem-mem](https://github.com/DrDavidL/sem-mem)  `8` ★☆☆ 🔵
+
+**Sem-Mem implements a hybrid, two-tiered memory architecture designed for local deployment of AI agents. Tier 1 (L1, SmartCache in RAM) uses a segmented LRU cache for frequently or recently accessed memories, enabling near-zero-latency recall. Tier 2 (L2, Disk-backed) utilizes an HNSW index via `hnswlib` for persistent, long-term storage, combined with a lexical index to handle exact identifier mat**
 
 **Key Features:**
 - Tiered Memory (L1 RAM Cache/L2 HNSW Disk Index)
@@ -390,9 +642,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 23. [Papr-ai/memory-opensource](https://github.com/Papr-ai/memory-opensource)  `innovation: 8` ★☆☆ 🔵
+### 38. [MeetRathodNitsan/MCP1](https://github.com/MeetRathodNitsan/MCP1)  `8` ★☆☆ 🔵
 
-**Papr Memory provides a high-performance persistence layer by orchestrating a triple-database stack: MongoDB for structured metadata, Qdrant for semantic vector retrieval, and Neo4j for discovery of complex relational memory graphs. It stands out by offering a privacy-first approach using local Qwen3**
+**The MCP AI Server is a scalable, enterprise-grade platform designed for intelligent search and context-aware applications. It integrates FastAPI with advanced AI models like Claude/ChatGPT, utilizing Pinecone for fast vector search and MCP for seamless model context management. This architecture supports secure, efficient deployment of AI-driven assistants across various industries.**
+
+**Key Features:**
+- RAG-based retrieval
+- Pinecone vector storage
+- Model Context Protocol (MCP)
+- Secure API key management
+- Scalable and modular design
+
+*Tags: ai, developer, security, machinelearning, cloud, integration, search, context*
+
+---
+
+### 39. [Papr-ai/memory-opensource](https://github.com/Papr-ai/memory-opensource)  `8` ★☆☆ 🔵
+
+**Papr Memory provides a high-performance persistence layer by orchestrating a triple-database stack: MongoDB for structured metadata, Qdrant for semantic vector retrieval, and Neo4j for discovery of complex relational memory graphs. It stands out by offering a privacy-first approach using local Qwen3-0.6B models for on-device embedding generation, achieving sub-100ms retrieval times. The system uti**
 
 **Key Features:**
 - Hybrid Vector-Graph retrieval
@@ -408,7 +675,50 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 24. [agentience/tribal_mcp_server](https://github.com/agentience/tribal_mcp_server)  `innovation: 8` ★☆☆ 🔵
+### 40. [SWE-bench/SWE-smith](https://github.com/SWE-bench/SWE-smith)  `8` ★☆☆ 🔵
+
+**You can: Turn any Github repository into a SWE-gym. Create unlimited tasks (e.g., file localization, program repair, SWE-bench) for that repo. Train an LM to become a better SWE (SWE-agent-LM-32B).**
+
+**Key Features:**
+- The tool allows users to scale data for Software Engineering agents by turning GitHub repositories into 'SWE-gyms' and training Language Models (like Qwen 2.5 Coder) to become better SWE agents.
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 41. [VikashLoomba/copilot-mcp](https://github.com/VikashLoomba/copilot-mcp)  `8` ★☆☆ 🔵
+
+**This repository provides a VSCode extension designed to facilitate the discovery, installation, and management of Agent Skills and MCP (Micro-Control Plane) applications. It integrates deeply with tools like GitHub Copilot, Claude Code, and Codex CLI, offering users a powerful way to manage agent capabilities and integrate them into their development workflows.**
+
+**Key Features:**
+- ['MCP Server Management: Connect/manage multiple servers via an intuitive UI.'
+- 'Skills Search & Install: Discover skills from skills.sh and install to agents.'
+- 'Installed Skills Management: View installed skills and uninstall with agent-level controls.'
+- 'Claude/Codex/Copilot Integration: Expose MCP tools directly to agents.'
+- 'Server Discovery: Automatically discover open-source servers.'
+- 'Optional: Remote MCP (no local setup): Use Cloud MCP (OAuth-only) for seamless integration with Copilot and Claude.']
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 42. [aaronn/gptfile](https://github.com/aaronn/gptfile)  `8` ★☆☆ 🔵
+
+**This repository demonstrates the capability of Large Language Models (LLMs) to manage and organize files. The core idea is to use an LLM (GPT-4) to process user input, generate code based on that input, and then use another agent to generate a JSON explanation for the code and process the user's input. This highlights the potential for LLMs to manipulate file systems in a more organized way.**
+
+**Key Features:**
+- The core functionality involves taking user input
+- using a programming agent to generate code
+- and an assistant agent to generate a JSON explaining the code. The workflow suggests a system where the LLM handles file organization based on relevance or content
+- and includes potential for future improvements like validating code with an agent
+- allowing chained manipulation
+- or setting up virtual environments.
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 43. [agentience/tribal_mcp_server](https://github.com/agentience/tribal_mcp_server)  `8` ★☆☆ 🔵
 
 **A model context protocol server for error knowledge tracking and retrieval, integrated with AI tools like Claude Code.**
 
@@ -423,9 +733,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 25. [akhidastech/github-agentic-chat-mcp](https://github.com/akhidastech/github-agentic-chat-mcp)  `innovation: 8` ★☆☆ 🔵
+### 44. [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works)  `8` ★☆☆ 🔵
 
-**This project provides a MCP (Model Context Protocol) server built in Go that facilitates GitHub agentic chat. It integrates vector search capabilities to enable semantic searching across stored documents, making it suitable for enterprise applications requiring intelligent document retrieval and con**
+**This repository showcases a variety of AI agents, workflows, and concepts, exploring themes like agent orchestration, context engineering, memory management, and the integration of AI into software development and general tasks. The commits suggest a focus on building agents, prompt engineering, and the evolution of AI capabilities.**
+
+**Key Features:**
+- The project seems to revolve around creating intelligent agents
+- defining workflows for them
+- and applying advanced concepts like context engineering
+- agentic RAG
+- and various coding tools/agents (like Claude).
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'prompting', 'coding tools', 'ai agents', 'vector databases', 'ide'*
+
+---
+
+### 45. [akhidastech/github-agentic-chat-mcp](https://github.com/akhidastech/github-agentic-chat-mcp)  `8` ★☆☆ 🔵
+
+**This project provides a MCP (Model Context Protocol) server built in Go that facilitates GitHub agentic chat. It integrates vector search capabilities to enable semantic searching across stored documents, making it suitable for enterprise applications requiring intelligent document retrieval and context-aware interactions.**
 
 **Key Features:**
 - GitHub agentic chat implementation
@@ -438,9 +763,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 26. [amansingh0311/mcp-qdrant-openai](https://github.com/amansingh0311/mcp-qdrant-openai)  `innovation: 8` ★☆☆ 🔵
+### 46. [amansingh0311/mcp-qdrant-openai](https://github.com/amansingh0311/mcp-qdrant-openai)  `8` ★☆☆ 🔵
 
-**The MCP Qdrant OpenAI project leverages semantic search capabilities by combining Qdrant's vector database with OpenAI embeddings to enable advanced, context-aware information retrieval. This integration allows users to query collections using natural language and receive results enriched with AI-ge**
+**The MCP Qdrant OpenAI project leverages semantic search capabilities by combining Qdrant's vector database with OpenAI embeddings to enable advanced, context-aware information retrieval. This integration allows users to query collections using natural language and receive results enriched with AI-generated insights.**
 
 **Key Features:**
 - Semantic search in Qdrant collections
@@ -452,7 +777,19 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 27. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `innovation: 8` ★☆☆ 🔵
+### 47. [andrewjmetzger/beetseeker](https://github.com/andrewjmetzger/beetseeker)  `8` ★☆☆ 🔵
+
+**BeetSeeker is designed to monitor the 'Completed Downloads' path in a Soulseek system. It continuously checks for new subdirectories, queries the status of recent downloads via slskd, and waits until those downloads are complete. Once completed, it initiates the beets import process using betanin. The workflow involves monitoring download completion, querying file status, and initiating imports, w**
+
+**Key Features:**
+- Automagic beets for Soulseek beats. It acts as an agent orchestrator
+- bridging the gap between a peer-to-peer system (Soulseek) and a torrent client import process (Beets).
+
+*Tags: ['Agent Orchestration', 'Workflow', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends'*
+
+---
+
+### 48. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `8` ★☆☆ 🔵
 
 **A context protocol server enabling integration with Mochow and supporting advanced AI model interactions.**
 
@@ -471,9 +808,59 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 28. [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp)  `innovation: 8` ★☆☆ 🔵
+### 49. [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server)  `8` ★☆☆ 🔵
 
-**The Model Context Protocol (MCP) is an open protocol designed for effortless integration between LLM applications and external data sources or tools, offering a standardized framework to seamlessly provide LLMs with the context they require. This server provides data retrieval capabilities powered b**
+**The ArXiv MCP Server provides a bridge between AI assistants and arXiv's research repository through the Model Context Protocol (MCP). It allows AI models to search for papers and access their content in a programmatic way.**
+
+**Key Features:**
+- Paper Search: Query arXiv papers with filters for date ranges and categories. Paper Access: Download and read paper content. Paper Listing: View all downloaded papers. Prompts: A set of research prompts for paper analysis.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends'*
+
+---
+
+### 50. [bobmatnyc/mcp-skills](https://github.com/bobmatnyc/mcp-skills)  `8` ★☆☆ 🔵
+
+**mcp-skillset is a standalone Python application that provides intelligent, context-aware skills to code assistants through hybrid RAG (vector + knowledge graph). Unlike static skills that load at startup, mcp-skillset enables runtime skill discovery, automatic recommendations based on your project's toolchain, and dynamic loading optimized for your workflow.**
+
+**Key Features:**
+- Zero Config
+- Intelligent Skill Discovery (Vector similarity + knowledge graph)
+- Multi-Source Pulling
+- On-Demand Loading
+- MCP Native Integration
+- Security First (Prompt Injection Detection
+- Threat Classification).
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 51. [cdmx-in/goodday-mcp](https://github.com/cdmx-in/goodday-mcp)  `8` ★☆☆ 🔵
+
+**A platform-as-a-service tool for managing Goodday project management workflows with AI-driven automation and integration capabilities.**
+
+**Key Features:**
+- Project Management (get_projects
+- get_project
+- create_project)
+- Task Management (get_project_tasks
+- get_user_assigned_tasks
+- update_task_status)
+- Sprint Management (get_goodday_sprint_tasks
+- get_goodday_sprint_summary)
+- User Management (get_users
+- get_user)
+- Integration with OpenWebUI for chat-based project management
+- Semantic Search using VectorDB backend
+
+*Tags: project management, ai integration, workflow automation, developer tools, cloud services, api development, user management, search functionality*
+
+---
+
+### 52. [chroma-core/chroma-mcp](https://github.com/chroma-core/chroma-mcp)  `8` ★☆☆ 🔵
+
+**The Model Context Protocol (MCP) is an open protocol designed for effortless integration between LLM applications and external data sources or tools, offering a standardized framework to seamlessly provide LLMs with the context they require. This server provides data retrieval capabilities powered by Chroma, enabling AI models to create collections over generated data and retrieve that data using **
 
 **Key Features:**
 - Flexible Client Types (Ephemeral/Persistent)
@@ -493,7 +880,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 29. [cloudflare/ai](https://github.com/cloudflare/ai)  `innovation: 8` ★☆☆ 🔵
+### 53. [cloudflare/ai](https://github.com/cloudflare/ai)  `8` ★☆☆ 🔵
 
 **Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
 
@@ -511,7 +898,20 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 30. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)  `innovation: 8` ★☆☆ 🔵
+### 54. [distil-labs/Distil-NPCs](https://github.com/distil-labs/Distil-NPCs)  `8` ★☆☆ 🔵
+
+**This highlights one of the many exciting possibilities SLMs continue to demonstrate. The models were trained using a closed-book QA setup, where the aim is to embed new knowledge into the models. The source data consisted of biographies of 81 characters and a large test set of potential questions (along with the corresponding answers) that could be asked to the characters. This allows a much more **
+
+**Key Features:**
+- SLMs specialized for having conversations with players of video games from the perspective of a non-playable character (NPC). The models were trained using a closed-book QA setup to embed knowledge into them. The smallest model was Google’s Gemma 270m
+- which is around 0.5GB
+- making it deployable on modern hardware.
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 55. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)  `8` ★☆☆ 🔵
 
 **A server-based solution for integrating ChromaDB into Cursor with MCP-compatible AI models.**
 
@@ -527,7 +927,49 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 31. [gergelyszerovay/mcp-server-qdrant-retrieve](https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve)  `innovation: 8` ★☆☆ 🔵
+### 56. [docfork/docfork-mcp](https://github.com/docfork/docfork-mcp)  `8` ★☆☆ 🔵
+
+**Docfork provides AI coding agents with tools to search, fetch, and integrate documentation for library and API usage.**
+
+**Key Features:**
+- Search_docs tool for ranked documentation sections
+- fetch_doc tool for full rendered markdown content
+- Library management via GitHub integration
+- Custom library creation with private repositories
+- OAuth support for secure API access
+- Integration with Claude Code and other AI agents
+
+*Tags: ai coding agents, documentation search, github integration, developer tools, code generation, mcp servers, nextjs, zod*
+
+---
+
+### 57. [drk1wi/portspoof](https://github.com/drk1wi/portspoof)  `8` ★☆☆ 🔵
+
+**Portspoof is designed to make reconnaissance slow, costly, and unreliable for attackers. Instead of a standard Nmap scan that maps every real service on a system, an attacker facing Portspoof sees 65535 open ports, each running what looks like a different legitimate service. The core innovation lies in the ability to generate thousands of convincing but fake services, effectively obscuring the tru**
+
+**Key Features:**
+- All 65535 TCP Ports Are Always Open; Service Emulation (over 9000 dynamic service signatures); Mixed Delivery Modes (different behavioral profiles for each port); Full-range version detection (nmap -sV -p-); Offensive Defense (used as an 'Exploitation Framework Frontend'); Lightweight & Secure (runs in userland
+- binds to one TCP port per instance).
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 58. [fzliu/radient](https://github.com/fzliu/radient)  `8` ★☆☆ 🔵
+
+**This resource demonstrates a complete workflow for Multimodal Retrieval Augmented Generation (RAG) using the Radient library. The goal is to vectorize audio, text, and images into a unified embedding space and then use these vectorized data to inform a language model (Chameleon-7B). The process involves reading a video, splitting it into audio/visual snippets, vectorizing them with ImageBind, and **
+
+**Key Features:**
+- Demonstrates a complete end-to-end workflow: read (video source)
+- demux (split video into audio/visual segments)
+- vectorize (embed snippets using ImageBind)
+- and store (insert vectors into Milvus).
+
+*Tags: ['multimodal rag', 'radient', 'chameleon-7b', 'imagebind', 'milvus lite', 'r-a-g', 'video processing']*
+
+---
+
+### 59. [gergelyszerovay/mcp-server-qdrant-retrieve](https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve)  `8` ★☆☆ 🔵
 
 **A Borg server for semantic search using Qdrant vector database to enable intelligent retrieval of relevant data.**
 
@@ -541,9 +983,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 32. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `innovation: 8` ★☆☆ 🔵
+### 60. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `8` ★☆☆ 🔵
 
-**This project develops an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to deliver workplace rules. It leverages Streamlit for the frontend, PDF parsing for document handling, and MCP server integration for seamless tool orchestration. The system supports interactive user queries, ret**
+**This project develops an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to deliver workplace rules. It leverages Streamlit for the frontend, PDF parsing for document handling, and MCP server integration for seamless tool orchestration. The system supports interactive user queries, retrieves relevant document chunks via vector embeddings, and generates context-aware responses using a**
 
 **Key Features:**
 - RAG-based information retrieval
@@ -558,7 +1000,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 33. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)  `innovation: 8` ★☆☆ 🔵
+### 61. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)  `8` ★☆☆ 🔵
 
 **MCP Memory is a MCP Server that gives MCP Clients (Cursor, Claude, Windsurf and more) the ability to remember information about users (preferences, behaviors) across conversations. It uses vector search technology to find relevant memories based on meaning, not just keywords.**
 
@@ -573,9 +1015,22 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 34. [kashiwabyte/vikingdb-mcp-server](https://github.com/kashiwabyte/vikingdb-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 62. [karthiksoman/zebra-Llama](https://github.com/karthiksoman/zebra-Llama)  `8` ★☆☆ 🔵
 
-**The VikingDB MCP server is a specialized infrastructure component designed to handle vector data storage, indexing, and search operations efficiently. It integrates with the VikingDB database system to provide scalable and secure access to vectorized data, supporting advanced search functionalities.**
+**Zebra-Llama is a specialized LLM tailored for providing accurate responses regarding the rare disease Ehlers-Danlos Syndrome (EDS). The training utilized 'context-aware training,' where the model was provided with context from a custom vector database during the training phase. This approach allows Zebra-Llama to demonstrate high precision and recall in inference, particularly when utilizing the R**
+
+**Key Features:**
+- Context-aware training for rare disease knowledge
+- RAG capability for precise responses
+- specialized fine-tuning for medical/rare disease queries.
+
+*Tags: ['LLM', 'RAG', 'Rare Diseases', 'Fine-Tuning', 'Context Engineering', 'AI Agents', 'Medical NLP', 'Knowledge Base'*
+
+---
+
+### 63. [kashiwabyte/vikingdb-mcp-server](https://github.com/kashiwabyte/vikingdb-mcp-server)  `8` ★☆☆ 🔵
+
+**The VikingDB MCP server is a specialized infrastructure component designed to handle vector data storage, indexing, and search operations efficiently. It integrates with the VikingDB database system to provide scalable and secure access to vectorized data, supporting advanced search functionalities. This project focuses on optimizing data retrieval and management for applications requiring high-sp**
 
 **Key Features:**
 - vector database integration
@@ -587,7 +1042,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 35. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `innovation: 8` ★☆☆ 🔵
+### 64. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `8` ★☆☆ 🔵
 
 **The lishenxydlgzs/simple-files-vectorstore project provides a local file system vector indexing solution, enabling semantic search across files using vector embeddings. It supports real-time file watching, configurable chunk processing, and integrates with MCP for enhanced context management.**
 
@@ -602,9 +1057,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 36. [lone-cloud/gerbil](https://github.com/lone-cloud/gerbil)  `innovation: 8` ★☆☆ 🔵
+### 65. [lone-cloud/gerbil](https://github.com/lone-cloud/gerbil)  `8` ★☆☆ 🔵
 
-**Memory & Persistence Architecture**
+**A desktop app for running Large Language Models locally.  - lone-cloud/gerbil**
 
 **Key Features:**
 - Interface & Developer UX
@@ -619,9 +1074,50 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 37. [oalles/agentic](https://github.com/oalles/agentic)  `innovation: 8` ★☆☆ 🔵
+### 66. [luotocompany/cursor-local-indexing](https://github.com/luotocompany/cursor-local-indexing)  `8` ★☆☆ 🔵
 
-**The 'Borg' Project is a Spring Boot-based system designed to deliver comprehensive solutions through an agent-driven architecture. It leverages MCP (Model Control Protocol) for inter-service communication and utilizes Redis as a vector store for efficient data indexing and retrieval. The system comp**
+**The LuotoCompany/cursor-local-indexing project leverages ChromaDB to provide a local, index-based search capability for codebases. It exposes an MCP (Model Context Protocol) server that allows tools like Cursor to perform semantic searches on code repositories stored locally. The setup involves configuring a Docker container and integrating it with Cursor IDE, enabling developers to search within **
+
+**Key Features:**
+- Local indexing of codebases
+- Semantic search via MCP
+- Integration with Cursor IDE
+- Project-specific search capabilities
+
+*Tags: chromaDB, mcp, local-indexing, code-search, developer-tools, semantic-search, github-api, docker-compose*
+
+---
+
+### 67. [madarco/ragrabbit](https://github.com/madarco/ragrabbit)  `8` ★☆☆ 🔵
+
+**A self-hosted AI search platform integrating LLMs, LLM.txt, and MCP for intelligent content retrieval and automation.**
+
+**Key Features:**
+- AI-powered search using LlamaIndex and pgVector
+- LLM.txt for customizable language model integration
+- MCP Server for semantic search across documentation
+- Chat widget with search capabilities
+- Customizable UI components for seamless integration
+
+*Tags: agent orchestration, workflow automation, developer experience, ai integration, content indexing, search functionality, memory management, secure development*
+
+---
+
+### 68. [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry)  `8` ★☆☆ 🔵
+
+**The MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.**
+
+**Key Features:**
+- The core functionality revolves around providing a registry for Model Context Protocol (MCP) servers
+- enabling the management and discovery of these servers. The system is designed to support real-world integrations and community feedback.
+
+*Tags: ['mcp', 'registry', 'agent orchestration', 'context engineering', 'ai agents', 'connectivity', 'infrastructure', 'developer tools'*
+
+---
+
+### 69. [oalles/agentic](https://github.com/oalles/agentic)  `8` ★☆☆ 🔵
+
+**The 'Borg' Project is a Spring Boot-based system designed to deliver comprehensive solutions through an agent-driven architecture. It leverages MCP (Model Control Protocol) for inter-service communication and utilizes Redis as a vector store for efficient data indexing and retrieval. The system comprises multiple services that work together to provide intelligent business capabilities, including R**
 
 **Key Features:**
 - Agent-based architecture
@@ -634,7 +1130,29 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 38. [orgs/oracle](https://github.com/orgs/oracle)  `innovation: 8` ★☆☆ 🔵
+### 70. [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)  `8` ★☆☆ 🔵
+
+**Onyx is the application layer for LLMs, providing a feature-rich interface that can be easily hosted by anyone. Onyx enables LLMs through advanced capabilities like RAG, web search, code execution, file creation, deep research and more. Connect your applications with over 50+ indexing based connectors provided out of the box or via MCP.**
+
+**Key Features:**
+- Agentic RAG: Get best in class search and answer quality based on hybrid index + AI Agents for information retrieval. Deep Research: Get in depth reports with a multi-step research flow. Web Search: Browse the web to get up to date information. Artifacts: Generate documents
+- graphics
+- and other downloadable artifacts. Code Execution: Execute code in a sandbox to analyze data
+- render graphs
+- or modify files. Voice Mode: Chat with Onyx via text-to-speech and speech-to-text. Image Generation: Generate images based on user prompts. Supports all major LLM providers
+- both self-hosted (like Ollama
+- LiteLLM
+- vLLM
+- etc.) and proprietary (like Anthropic
+- OpenAI
+- Gemini
+- etc.).
+
+*Tags: ['AI Agents', 'RAG', 'Web Search', 'Code Execution', 'LLM Integration', 'Multi-LLM Support', 'Agentic Workflow', 'Context Engineering'*
+
+---
+
+### 71. [orgs/oracle](https://github.com/orgs/oracle)  `8` ★☆☆ 🔵
 
 **This resource details the roadmap and community aspects of GraalVM, focusing on its role in agent orchestration, workflow execution, context engineering, memory management, and connectivity.**
 
@@ -655,9 +1173,41 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 39. [privetin/chroma](https://github.com/privetin/chroma)  `innovation: 8` ★☆☆ 🔵
+### 72. [phr00t/FocusEngine](https://github.com/phr00t/FocusEngine)  `8` ★☆☆ 🔵
 
-**The privetin/chroma project provides a MCP (Model Context Protocol) server that leverages Chroma's vector database to deliver advanced semantic search, metadata filtering, and persistent document storage. It supports CRUD operations, document management, similarity search, and integrates with extern**
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Key Features:**
+- Focus is an open-source C# game engine for realistic rendering and VR based off of Xenko/Stride. It's highly modular and aims at give game makers more flexibility in their development. Focus comes with an editor that allows you create and manage the content of your games or applications in a visual and intuitive way.
+
+*Tags: ['VR', 'Vulkan', 'Xenko', 'Stride3D', 'C#', 'GameEngine', 'Performance', 'VR'*
+
+---
+
+### 73. [pontusab/directories](https://github.com/pontusab/directories)  `8` ★☆☆ 🔵
+
+**This repository is a platform that serves as a community hub for the 'Cursor' tool. It outlines how to build applications using Cursor, including plugins, MCP servers, events, and jobs. The project structure suggests a modern web application built with Next.js (App Router) and Bun, leveraging Supabase for database persistence. The core innovation lies in the architecture that allows developers to **
+
+**Key Features:**
+- The platform provides a place for plugins
+- MCP servers
+- events
+- and jobs. It defines a clear workflow for development
+- integrating tools like Next.js (App Router)
+- Bun
+- Supabase
+- Tailwind CSS
+- React Email
+- Fuse.js for search
+- and Luma API for community events.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Developer UX', 'MCP/A2A', 'Infrastructure', 'Vector Databases & Search', 'Coding Tools'*
+
+---
+
+### 74. [privetin/chroma](https://github.com/privetin/chroma)  `8` ★☆☆ 🔵
+
+**The privetin/chroma project provides a MCP (Model Context Protocol) server that leverages Chroma's vector database to deliver advanced semantic search, metadata filtering, and persistent document storage. It supports CRUD operations, document management, similarity search, and integrates with external tools for enterprise-grade AI development workflows.**
 
 **Key Features:**
 - Semantic document search
@@ -671,9 +1221,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 40. [randomm/files-db-mcp](https://github.com/randomm/files-db-mcp)  `innovation: 8` ★☆☆ 🔵
+### 75. [randomm/files-db-mcp](https://github.com/randomm/files-db-mcp)  `8` ★☆☆ 🔵
 
-**The Files-DB-MCP project offers a locally hosted vector database optimized for fast, efficient code search using the Message Control Protocol (MCP). It supports zero-configuration setup, real-time file change monitoring, semantic search capabilities, and seamless integration with Claude Code for AI-**
+**The Files-DB-MCP project offers a locally hosted vector database optimized for fast, efficient code search using the Message Control Protocol (MCP). It supports zero-configuration setup, real-time file change monitoring, semantic search capabilities, and seamless integration with Claude Code for AI-assisted development. The system is designed to be scalable, with configurable embedding models, mod**
 
 **Key Features:**
 - Zero-configuration setup
@@ -687,9 +1237,46 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 41. [ryanlisse/lancedb_mcp](https://github.com/ryanlisse/lancedb_mcp)  `innovation: 8` ★☆☆ 🔵
+### 76. [https://github.com/recallbricks](https://github.com/recallbricks)  `8` ★☆☆ 🔵
 
-**The lancedb_mcp project provides a comprehensive solution for developers working with LanceDB, a vector database. It offers tools for table management, vector storage, similarity search, and integration with AI platforms like Claude Desktop. The project emphasizes automation, security, and ease of u**
+**RecallBricks differentiates itself from traditional vector databases by focusing on a 'Memory Graph' architecture that emphasizes relationships, causality, and patterns. Instead of just returning similar keywords, the system uses auto-relationship detection to build a structural understanding of how information connects across sessions. It provides enterprise-grade SDKs for Python and TypeScript, **
+
+**Key Features:**
+- Auto-relationship detection
+- causality tracking
+- cross-session persistence
+- memory graph architecture
+- semantic search integration
+- LangChain drop-in replacement
+- metacognitive memory layers
+- production-ready agent runtime
+
+*Tags: memory-graph, persistent-memory, causality-tracking, ai-agents, relationship-detection, metacognition, vector-database, langchain-integration*
+
+---
+
+### 77. [roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core)  `8` ★☆☆ 🔵
+
+**Roampal-core implements a multi-tiered memory architecture—consisting of working, history, patterns, memory_bank, and books collections—to bridge the gap between ephemeral LLM sessions. It utilizes the Model Context Protocol (MCP) and platform-specific hooks to automatically inject relevant context into user prompts and capture exchanges for evaluation. The system's core innovation is its outcome-**
+
+**Key Features:**
+- Outcome-based memory scoring
+- automated context injection
+- multi-tiered memory collections
+- MCP server integration
+- sidecar model scoring
+- local-first data storage
+- document ingestion (Books)
+- memory promotion and demotion logic
+- self-healing server hooks.
+
+*Tags: persistent memory, mcp server, outcome-based learning, context injection, vector database, local llm, sidecar model, memory architecture*
+
+---
+
+### 78. [ryanlisse/lancedb_mcp](https://github.com/ryanlisse/lancedb_mcp)  `8` ★☆☆ 🔵
+
+**The lancedb_mcp project provides a comprehensive solution for developers working with LanceDB, a vector database. It offers tools for table management, vector storage, similarity search, and integration with AI platforms like Claude Desktop. The project emphasizes automation, security, and ease of use, supporting enterprise-grade development workflows.**
 
 **Key Features:**
 - Table management
@@ -702,9 +1289,46 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 42. [sergeyvilov/AIBookmarkOrganizer](https://github.com/sergeyvilov/AIBookmarkOrganizer)  `innovation: 8` ★☆☆ 🔵
+### 79. [sdimitrov/mcp-memory](https://github.com/sdimitrov/mcp-memory)  `8` ★☆☆ 🔵
 
-**A Firefox extension that uses AI to organize your bookmarks automatically. It extracts summaries for each bookmark, generates embeddings for these summaries, applies hierarchical clustering to group similar bookmarks, and creates cluster names based on the combined summaries of pages in that cluster**
+**A server-based memory system leveraging PostgreSQL and pgvector for long-term AI memory storage.**
+
+**Key Features:**
+- PostgreSQL with pgvector
+- Semantic search capabilities
+- Confidence scoring
+- Real-time updates via SSE
+- Memory operations API
+
+*Tags: memory, postgresql, pgvector, ai, developer, search, memory-server, long-term-memory*
+
+---
+
+### 80. [sentriz/betanin](https://github.com/sentriz/betanin)  `8` ★☆☆ 🔵
+
+**This resource details 'betanin', a system that acts as a Man-in-the-Middle (MITM) layer between torrent clients and music players. It uses apprise for notifications, suggesting that anything supported there will work. The core functionality revolves around creating a persistent database structure for the Borg intelligence.**
+
+**Key Features:**
+- The primary features involve setting up a system to bridge torrent client workflows with music player workflows
+- utilizing an API layer (betanin) and notification systems (apprise). Key operational aspects include: 
+1. **Borg Intelligence:** The core concept of the database.
+2. **MITM Functionality:** Intercepting or mediating between torrent client operations and music player interactions.
+3. **Notification Layer:** Using apprise for alerts/notifications.
+4. **Configuration & Execution:** Providing a mechanism to start the server
+- configure credentials
+- and run CLI tools (like `betanin` or `betanin-shell`).
+5. **Dockerization:** The use of Docker for deployment
+- ensuring persistence for the database
+- configuration
+- and music assets.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'mcp a2a', 'infrastructure layers', 'vector databases', 'coding tools'*
+
+---
+
+### 81. [sergeyvilov/AIBookmarkOrganizer](https://github.com/sergeyvilov/AIBookmarkOrganizer)  `8` ★☆☆ 🔵
+
+**A Firefox extension that uses AI to organize your bookmarks automatically. It extracts summaries for each bookmark, generates embeddings for these summaries, applies hierarchical clustering to group similar bookmarks, and creates cluster names based on the combined summaries of pages in that cluster. Unreachable pages are collected under a separate folder.**
 
 **Key Features:**
 - AI-powered organization of bookmarks using LLMs (GPT for summaries) and embedding models (text-embedding-3-large)
@@ -715,9 +1339,81 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 43. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)  `innovation: 8` ★☆☆ 🔵
+### 82. [sindresorhus/awesome](https://github.com/sindresorhus/awesome)  `8` ★☆☆ 🔵
 
-**Memory & Persistence Architecture**
+**This repository provides an 'awesome' list, a curated collection of interesting topics across various domains. It serves as a comprehensive resource for developers and enthusiasts looking to explore diverse fields, offering insights into programming, technology, and general knowledge.**
+
+**Key Features:**
+- A curated list of topics covering Programming Languages
+- Development Environments
+- Operating Systems
+- Web Technologies
+- and more. The resource highlights key technologies
+- frameworks
+- and concepts that are essential for modern development and understanding the broader tech landscape.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Interface & Developer UX', 'Connectivity & Interoperability', 'Infrastructure', 'Vector Databases & Search', 'Coding Tools & IDEs'*
+
+---
+
+### 83. [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)  `8` ★☆☆ 🔵
+
+**A Pinecone Model Context Protocol server enabling reading and writing operations from Pinecone, supporting rudimentary RAG.**
+
+**Key Features:**
+- Read from Pinecone index
+- Write to Pinecone index
+- Semantic search integration
+- RAG capabilities
+
+*Tags: pinecone, mcp-pinecone, model-context-protocol, semantic-search, developer-tools*
+
+---
+
+### 84. [skydeckai/mcp-rememberizer-vectordb](https://github.com/skydeckai/mcp-rememberizer-vectordb)  `8` ★☆☆ 🔵
+
+**The Borg Project's 'mcp-rememberizer-vectordb' is a GitHub-hosted AI-powered vector store designed to enhance LLM interactions by providing semantic search and retrieval capabilities. It integrates with MCP servers, enabling developers to manage documents, perform agentic searches, and automate workflows efficiently.**
+
+**Key Features:**
+- AI-powered search
+- Semantic similarity matching
+- Document management
+- Workflow automation
+- Integration with LLMs
+
+*Tags: ai, vector store, rememberizer, ml, developer tools, search, agentic search, mcp*
+
+---
+
+### 85. [sourcebot-dev/sourcebot](https://github.com/sourcebot-dev/sourcebot)  `8` ★☆☆ 🔵
+
+**This resource details the release of Sourcebot version 4.6.0, which introduced key features for interacting with the sourcebot codebase. The changes include adding 'Ask Sourcebot' to allow users to ask questions about their codebase in natural language and receive Markdown responses with inline citations, along with a hero demo video.**
+
+**Key Features:**
+- Sourcebot v4.6.0 introduces the capability to ask questions about your codebase in natural language and get Markdown responses with inline citations
+- and allows users to bring their own LLM API key.
+
+*Tags: ['sourcebot', 'v4.6.0', 'ask sourcebot', 'llm api key', 'codebase interaction', 'natural language', 'markdown response', 'agent orchestration'*
+
+---
+
+### 86. [timovv/copilot-conductor](https://github.com/timovv/copilot-conductor)  `8` ★☆☆ 🔵
+
+**The 'copilot-conductor' is a command-line utility designed to help build and manage in-repository automation workflows that engage an AI agent like GitHub Copilot within Visual Studio Code. The core concept revolves around the 'inversion of control': instead of letting the agent run freely, the conductor program dictates *when* and *how* Copilot is used, ensuring reliability and managing the agent**
+
+**Key Features:**
+- Inversion of Control (to precisely dictate when and how the AI agent interacts)
+- Conductor Tasks (workflows implemented as 'conductor tasks' compiled from Markdown files)
+- Prompt Compilation (defining tasks in natural language Markdown that are compiled into deterministic TypeScript scripts)
+- and a clear interface for integrating Copilot/LLM capabilities into IDE workflows.
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 87. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)  `8` ★☆☆ 🔵
+
+**There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable an...**
 
 **Key Features:**
 - Interface & Developer UX
@@ -732,7 +1428,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 44. [tosin2013/mcp-codebase-insight](https://github.com/tosin2013/mcp-codebase-insight)  `innovation: 8` ★☆☆ 🔵
+### 88. [tosin2013/mcp-codebase-insight](https://github.com/tosin2013/mcp-codebase-insight)  `8` ★☆☆ 🔵
 
 **A system for analyzing and understanding codebases through semantic analysis, pattern detection, and documentation management.**
 
@@ -752,9 +1448,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 45. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `innovation: 8` ★☆☆ 🔵
+### 89. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `8` ★☆☆ 🔵
 
-**The MCP (Model Context Protocol) server enables secure, efficient communication between Weaviate and other systems by facilitating the exchange of model context information. This project focuses on integrating the MCP server into Weaviate to enhance its capabilities in handling complex data models a**
+**The MCP (Model Context Protocol) server enables secure, efficient communication between Weaviate and other systems by facilitating the exchange of model context information. This project focuses on integrating the MCP server into Weaviate to enhance its capabilities in handling complex data models and ensuring seamless interoperability.**
 
 **Key Features:**
 - MCP Server Integration
@@ -765,7 +1461,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 46. [wrediam/better-qdrant-mcp-server](https://github.com/wrediam/better-qdrant-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 90. [wrediam/better-qdrant-mcp-server](https://github.com/wrediam/better-qdrant-mcp-server)  `8` ★☆☆ 🔵
 
 **A server tool for managing Qdrant vector database collections, embedding documents, and performing semantic searches.**
 
@@ -778,7 +1474,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 47. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `innovation: 8` ★☆☆ 🔵
+### 91. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `8` ★☆☆ 🔵
 
 **This repository provides a MCP server for integrating LLM applications with Milvus vector database, enabling seamless data exchange and workflow automation.**
 
@@ -793,11 +1489,244 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
+### 92. [nikolamilosevic86/verifAI](https://github.com/nikolamilosevic86/verifAI)  `8` ★☆☆
+
+**VerifAI is a document-based question-answering systems that aims to address problem of hallucinations in generative large language models and generative search engines. Initially, we started with biomedical domain, however, now we have expanded VerifAI to support indexing any documents in txt,md, docx, pptx, or pdf formats. VerifAI is an AI system designed to answer users' questions by retrieving **
+
+*Tags: generative search engine, open source, question-answering, verification, biomedical domain, document indexing, llm, generative ai*
+
+---
+
+### 93. [https://gist.github.com/unixfox/ee2df1cb84f00877ac7efaa11c30a06c](https://gist.github.com/unixfox/ee2df1cb84f00877ac7efaa11c30a06c)  `7` ☆☆☆ 🔵
+
+**This resource discusses the transition from the original 'SearX' project to the 'SearXNG' project. The author explains the historical divergence, the resulting popularity boost for SearXNG (including 19k stars), and the specific benefits of SearXNG, particularly its capability to feed context into LLMs via well-maintained search engines. It touches upon the author's personal philosophy regarding m**
+
+**Key Features:**
+- The core features revolve around the distinction between SearX and SearXNG
+- the resulting popularity of SearXNG (19k stars)
+- the utility of SearXNG for LLM context feeding (via 246 well-maintained search engines)
+- and the author's personal preference for a minimalist approach to tooling.
+
+*Tags: agent orchestration, context engineering, memory & persistence architecture, interface & developer ux, connectivity & interoperability (mcp/a2a), infrastructure & proxy layers, guides & industry trends, vector databases & search*
+
+---
+
+### 94. [AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)  `7` ☆☆☆ 🔵
+
+**The OpenDevin project aims to replicate, enhance, and innovate upon the original Devin model. It leverages LLMs to tackle the complexities of software engineering. The project's current focus includes developing a user-friendly interface (chat, shell, web browser), building a stable agent framework for executing commands within a Docker sandbox, enhancing agent capabilities to generate bash script**
+
+**Key Features:**
+- The project aims to replicate Devin by focusing on the following aspects: 1. Developing a user-friendly interface (chat interface
+- shell demonstration
+- web browser). 2. Building a stable agent framework with a robust backend that can read
+- write
+- and run simple commands. 3. Enhancing the agent's abilities to generate bash scripts
+- run tests
+- and perform other software engineering tasks. 4. Establishing an evaluation pipeline consistent with Devin's criteria.
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 95. [RetroNick2020/raster-master](https://github.com/RetroNick2020/raster-master)  `7` ☆☆☆ 🔵
+
+**This release introduces the BMFont format as a sprite sheet export, which allows existing BM Font loaders to use sprite sheets as a display option instead of just text. The developer promises a freepascal code demonstration soon.**
+
+**Key Features:**
+- ['BMFont format added as a sprite sheet export'
+- 'Sprite sheet export for BM Font loaders']
+
+*Tags: ['raster-master', 'bmfont', 'sprite sheet', 'agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'connectivity'*
+
+---
+
+### 96. [TeamRizu/OutFox](https://github.com/TeamRizu/OutFox)  `7` ☆☆☆ 🔵
+
+**This repository serves as the central hub for reporting bugs found within the Project OutFox development builds. It highlights a structured approach to testing and bug reporting, likely focusing on agent orchestration, workflow execution, context management, and system stability.**
+
+**Key Features:**
+- The project provides a mechanism for reporting bugs related to specific versions of the OutFox software
+- including pre-alpha builds
+- and offers a leaderboard/leaderboard concept for tracking user engagement or performance metrics (indicated by 'Bug Hunter Leaderboard').
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity', 'infrastructure', 'vector databases'*
+
+---
+
+### 97. [WilliamSchack/Spotify-Downloader](https://github.com/WilliamSchack/Spotify-Downloader)  `7` ☆☆☆ 🔵
+
+**This release focuses on improving the Spotify Downloader functionality by implementing extra search checks to prevent songs from being downloaded when a video is longer or shorter, fixing duplicate expired PO Token errors, and addressing false cookie errors when a song doesn't have a high-quality version using cookies. The release also includes general bug fixes.**
+
+**Key Features:**
+- Extra Search Checks
+- Bug Fixes for download prevention (video length/quality)
+- Fixes for expired tokens/cookies.
+
+*Tags: ['Agent Orchestration & Workflow', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 98. [bemusic/bmson-spec](https://github.com/bemusic/bmson-spec)  `7` ☆☆☆ 🔵
+
+**This is a technical specification document for bmson format. The compiled document is here: http://bmson-spec.readthedocs.org/**
+
+**Key Features:**
+- The repository contains the technical specification for the 'bmson' format
+- which likely defines an agent orchestration or workflow structure. The presence of Python and Makefile suggests a focus on tooling and execution.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Interface UX', 'Connectivity', 'Infrastructure', 'AI Agents', 'Vector Databases'*
+
+---
+
+### 99. [brightsidedeveloper/mcp-grok-client-template](https://github.com/brightsidedeveloper/mcp-grok-client-template)  `7` ☆☆☆ 🔵
+
+**This repository contains a template for a 'Grok client,' suggesting a focus on the interface between a user/agent and some underlying service. The structure includes configuration files (`config.json`), dependency management (`package.json`), TypeScript configuration (`tsconfig.json`), and potentially an implementation of an agent or workflow layer, indicated by the category tags.**
+
+**Key Features:**
+- The core functionality revolves around creating a client template for a 'Grok' system
+- emphasizing context engineering
+- isolation
+- and connectivity/interoperability (MCP/A2A).
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'mcp', 'a2a', 'infrastructure'*
+
+---
+
+### 100. [chroma-core/chroma](https://github.com/chroma-core/chroma)  `7` ☆☆☆ 🔵
+
+**Chroma functions as a vector database, providing the core data infrastructure for AI by managing collections of documents, metadata, and their corresponding embeddings. It offers both in-memory prototyping and server/client modes, handling automatic tokenization and embedding, or allowing users to supply their own embeddings. Key technical components include a core API for adding, querying, and ma**
+
+**Key Features:**
+- Vector database
+- Embeddings management
+- Metadata filtering
+- Hybrid search (vector/text)
+- Client-server architecture
+- In-memory mode
+- Python/JS client libraries
+
+*Tags: vector-database, embeddings, persistence, data-infrastructure, semantic-search, ai-storage, rust, collection-management*
+
+---
+
+### 101. [eristocrates/eristocracy](https://github.com/eristocrates/eristocracy)  `7` ☆☆☆ 🔵
+
+**This GitHub repository showcases the project named 'eristocracy' and its associated resources. The structure suggests a modern web application built with Astro, which is a framework for building web interfaces. The project seems to be focused on agent orchestration, workflow, context engineering, and perhaps some form of memory or persistence architecture.**
+
+**Key Features:**
+- The core features revolve around the concept of 'eristocracy' and the 'BOW OF ERIS'. The technical stack includes Astro
+- TypeScript
+- and JavaScript. The project seems to be a complete starter kit for building an Astro application.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 102. [jiray-yay/Stepmania-VRC](https://github.com/jiray-yay/Stepmania-VRC)  `7` ☆☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+
+**Key Features:**
+- Recreating Stepmania into VRC using a parser for SM files and visualizers/gameplay manager. Compatible game modes include 'Dance-Single'
+- 'Dance-double'
+- and 'Para-single'. Uses Udon# for song/chart embedding.
+
+*Tags: ['stepmania', 'vrc', 'udonsharp', 'rhythm game', 'parsing', 'visualization', 'game engine', 'optimization'*
+
+---
+
+### 103. [julien-may/zero-jdk](https://github.com/julien-may/zero-jdk)  `7` ☆☆☆ 🔵
+
+**This resource points to the GitHub repository for 'zero-jdk', which is an interesting project. The context suggests it's related to a Zero JDK implementation, hinting at a focus on agent architecture, workflow design, and potentially context engineering or isolation mechanisms within a software framework.**
+
+**Key Features:**
+- The core feature revolves around the 'Zero JDK' concept
+- likely providing a lightweight or specialized execution environment for agents. The project seems to be centered around Agent Orchestration
+- Context Engineering
+- Memory & Persistence Architecture
+- and connectivity/interoperability (MCP/A2A).
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 104. [leereilly/games](https://github.com/leereilly/games)  `7` ☆☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure**
+
+**Key Features:**
+- Table of Contents: Browser-Based Boardgame
+- Arcade
+- FPS
+- RPG
+- MMORPG
+- Strategy
+- Racing
+- Sandbox
+- Puzzle
+- Clicker
+- Point and Click
+- Others. The repository showcases a diverse collection of games
+
+*Tags: ['HTML5', 'JavaScript', 'WebSockets', 'Phaser', 'Actionscript3', 'ImpactJS', 'GameJam', 'BrowserGames'*
+
+---
+
+### 105. [pericles-tpt/pretty_fast_find](https://github.com/pericles-tpt/pretty_fast_find)  `7` ☆☆☆ 🔵
+
+**Pretty Fast Find (pff) is an iterative, multithreaded alternative to 'find' that's faster than most alternatives. It provides in-built functionality for filtering, sorting and labelling its output. This was originally a command in my seye_rs project, but once you saw the focus of that project shifting to "find" functionality, you decided to separate it into this repo. How it works: pff does breadt**
+
+**Key Features:**
+- Iterative
+- multithreaded traversal of directories using breadth-first search up to a limit
+- in-built filtering
+- sorting
+- and labeling capabilities. Uses Rayon for multi-threading and Regex library for pattern matching against file names.
+
+*Tags: Agent Orchestration, Context Engineering, Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search*
+
+---
+
+### 106. [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)  `7` ☆☆☆ 🔵
+
+**The repository provides a server implementation for the Model Context Protocol (MCP), an open standard for connecting LLMs with external data sources. Specifically, this server uses Qdrant, a vector search engine, as the backend for storing and retrieving 'memories' or contextual information. It defines two core tools: `qdrant-store` for inserting data (information and metadata) into a specified Q**
+
+**Key Features:**
+- MCP server implementation for Qdrant
+- Semantic memory layer using vector search
+- Tools for storing and retrieving context (qdrant-store
+- qdrant-find)
+- Configuration via environment variables
+- Support for multiple transport protocols (stdio
+- sse
+- streamable-http)
+- Docker deployment availability
+- Integration guidance for clients like Claude Desktop and Cursor.
+
+*Tags: mcp, qdrant, vector-database, llm-integration, semantic-memory, fastmcp, protocol-server, tool-calling*
+
+---
+
+### 107. [wcko87/beatoraja-english-guide](https://github.com/wcko87/beatoraja-english-guide)  `7` ☆☆☆ 🔵
+
+**A comprehensive technical resource detailing the setup, core concepts, and community aspects of 'Bestaaja' (BMS) and the associated 'Beatoraja' system. It covers fundamental questions like what BMS is, setup procedures, song download locations, community mechanics, difficulty systems, and overall workflow integration.**
+
+**Key Features:**
+- In-depth guide covering initial setup
+- core functionality (BMS)
+- resource acquisition (song downloads)
+- community interaction models
+- and difficulty scaling mechanisms.
+
+*Tags: ['Agent Orchestration', 'Workflow', 'Context Engineering', 'Memory & Persistence', 'Interface & Developer UX', 'Connectivity & Interoperability', 'MCP/A2A', 'Infrastructure'*
+
+---
+
 ## Embedding Models & Libraries
 
-> 5 tools · avg innovation 8.8
+> 11 tools · avg innovation 8.5 · avg quality 1.00
 
-### 48. [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 108. [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server)  `9` ★★☆ 🔵
 
 **Grounded Docs MCP Server provides a comprehensive, up-to-date documentation index for AI coding assistants, enabling accurate and current information retrieval.**
 
@@ -819,9 +1748,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 49. [cc8887/ue-editor-mcpserver](https://github.com/cc8887/ue-editor-mcpserver)  `innovation: 9` ★★☆ 🔵
+### 109. [cc8887/ue-editor-mcpserver](https://github.com/cc8887/ue-editor-mcpserver)  `9` ★★☆ 🔵
 
-**The project aims to encapsulate the UE Editor as an MCP Server, allowing agent-driven automation of tasks such as code review, security checks, and CI/CD processes. It leverages Python scripts and integrates with existing development tools like C++ plugins, ensuring seamless orchestration across dif**
+**The project aims to encapsulate the UE Editor as an MCP Server, allowing agent-driven automation of tasks such as code review, security checks, and CI/CD processes. It leverages Python scripts and integrates with existing development tools like C++ plugins, ensuring seamless orchestration across different platforms. The solution emphasizes scalability for enterprise use cases, including multi-proj**
 
 **Key Features:**
 - MCP Server integration for agent automation
@@ -833,11 +1762,33 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integration with UE4/UE5 editors
 - Real-time status monitoring and logs
 
-*Tags: agent orchestration, workflow automation, mcp server, ai integration, developer tools, security, ci/cd, pipeline management*
+*Tags: agent orchestration, workflow automation, mcp server, ai integration, developer tools, security, pipeline management, code analysis*
 
 ---
 
-### 50. [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria)  `innovation: 9` ★★☆ 🔵
+### 110. [joshndala/mnemo-agent](https://github.com/joshndala/mnemo-agent)  `9` ★★☆ 🔵
+
+**A powerful, open-source agent memory manager enabling developers to capture, store, and retrieve structured facts across multiple agents and external sources.**
+
+**Key Features:**
+- CLI-based memory management for local-first agent memory
+- Multi-provider support (Mem0
+- Letta
+- Supermemory
+- custom Postgres)
+- Semantic search with hybrid methods (fastembed
+- TF-IDF)
+- Integration with cloud providers (S3
+- Cloudflare R2
+- local filesystem)
+- Auto-memory from chat logs and external APIs
+- Dump
+
+*Tags: agent-memory, mnemo-agent, developer-tools, ai-security, code-security, memory-management, semantic-search, cloud-integration*
+
+---
+
+### 111. [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria)  `9` ★★☆ 🔵
 
 **Secure memory management for AI agents with Git-level version control.**
 
@@ -856,7 +1807,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 51. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `innovation: 9` ★★☆ 🔵
+### 112. [roboticforce/sugar](https://github.com/roboticforce/sugar)  `9` ★★☆ 🔵
+
+**The roboticforce/sugar project integrates persistent memory using MCP (Microsoft Code Marketplace) to store and retrieve project-specific data, alongside a global knowledge base. It leverages semantic search via sentence-transformers for efficient context retrieval, enabling autonomous task execution across projects. The system supports cross-project standardization through configurable memory sco**
+
+**Key Features:**
+- Persistent memory for AI coding agents
+- Global knowledge integration
+- Autonomous task execution across projects
+- Semantic search with sentence-transformers
+- Project-specific and global guideline management
+- Cross-project standardization via MCP
+- Local context awareness with global scope
+
+*Tags: agent orchestration, context engineering, memory persistence, ai development, developer workflow, connectivity, infrastructure, guides and trends*
+
+---
+
+### 113. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `9` ★★☆ 🔵
 
 **A markdown-based AI agent memory system with persistent, searchable offline-first sync for distributed agents.**
 
@@ -871,7 +1839,27 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 52. [iachilles/memento](https://github.com/iachilles/memento)  `innovation: 8` ★☆☆ 🔵
+### 114. [agentic-mcp-tools/memora](https://github.com/agentic-mcp-tools/memora)  `8` ★☆☆ 🔵
+
+**Memora implements a structured approach to agent memory by combining relational SQLite storage with vector embeddings for semantic retrieval across multiple sessions. Its architecture supports a hierarchical memory organization, automated cross-referencing to build dynamic knowledge graphs, and LLM-powered deduplication to ensure data integrity. The system is designed for flexibility, offering loc**
+
+**Key Features:**
+- SQLite persistence with cloud sync
+- Semantic search (OpenAI/Sentence-Transformers/TF-IDF)
+- LLM-based memory deduplication
+- Interactive knowledge graph visualization
+- Hierarchical memory organization
+- Event notifications for inter-agent communication
+- Action history and timeline tracking
+- RAG-powered chat interface
+- Memory importance boosting
+- Typed relationship linking
+
+*Tags: mcp, semantic-memory, knowledge-graph, sqlite-sync, vector-embeddings, agent-persistence, rag, deduplication*
+
+---
+
+### 115. [iachilles/memento](https://github.com/iachilles/memento)  `8` ★☆☆ 🔵
 
 **A memory server leveraging SQLite, FTS5, and sqlite-vec for persistent knowledge graph storage with semantic search capabilities.**
 
@@ -886,11 +1874,56 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
+### 116. [probelabs/probe](https://github.com/probelabs/probe)  `8` ★☆☆ 🔵
+
+**Probe bridges the gap between raw text search (grep) and vector-based RAG by utilizing Tree-sitter for AST parsing and ripgrep for speed. It allows AI agents to query codebases using boolean logic to retrieve entire functions or classes rather than fragmented text lines or arbitrary vector chunks. The system eliminates the need for pre-indexing or external embedding models, instead relying on the **
+
+**Key Features:**
+- AST-aware structural search
+- zero-indexing semantic retrieval
+- MCP server integration
+- token budget management
+- session-based context deduplication
+- boolean query language support
+- complete code block extraction
+- multi-language tree-sitter parsing
+
+*Tags: ast-parsing, tree-sitter, code-context, mcp-protocol, semantic-search, ripgrep, token-optimization, context-window-management*
+
+---
+
+### 117. [sionic-ai/serverless-rag-mcp-server](https://github.com/sionic-ai/serverless-rag-mcp-server)  `8` ★☆☆ 🔵
+
+**The project provides a cloud-native serverless architecture using Storm MCP to connect LLM applications with RAG data sources and tools. It leverages Anthropic's Model Context Protocol to enable direct use of the platform in Claude Desktop, allowing developers to build robust embedding models and vectorDB integrations. The solution supports automated workflows, secure code management, and enterpri**
+
+**Key Features:**
+- Serverless RAG integration
+- LLM application orchestration
+- Tool system with standardized APIs
+- Secure file and data management
+- API connectivity to Storm endpoints
+- Scalable architecture with 3-layer design
+
+*Tags: agent orchestration, context engineering, memory persistence, developer workflow, connectivity, infrastructure layers, guides, industry trends*
+
+---
+
+### 118. [BoundaryML/baml-examples](https://github.com/BoundaryML/baml-examples)  `7` ☆☆☆ 🔵
+
+**This issue discusses the potential for a Boundary Language Model (BAML) to help constrain the number of tools available in an IDE or toolset, addressing the problem where LLMs might be overwhelmed by too many tools. The proposed solution is using the embedding model within BAML to narrow down the set of tools used reliably.**
+
+**Key Features:**
+- MCP Client with BAML
+
+*Tags: ['BAML', 'LLMs', 'ToolLimitation', 'ContextEngineering', 'AgentOrchestration', 'VectorDatabases', 'IDETools', 'AIAgents'*
+
+---
+
 ## ANN Index Libraries
 
-> 167 tools · avg innovation 8.1
+> 196 tools · avg innovation 8.2 · avg quality 1.00
 
-### 53. [thebabush/xr](https://github.com/thebabush/xr)  `innovation: 10` ★★★ 🔵
+### 119. [thebabush/xr](https://github.com/thebabush/xr)  `10` ★★★ 🔵
 
 **An ultra-fast, Rust-based CLI tool designed for parallel extraction of cross-references from stripped binaries, significantly outperforming traditional disassemblers.**
 
@@ -905,9 +1938,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 54. [JordanMcCann/agentmemory](https://github.com/JordanMcCann/agentmemory)  `innovation: 9.7` ★★☆ 🔵
+### 120. [JordanMcCann/agentmemory](https://github.com/JordanMcCann/agentmemory)  `9.7` ★★☆ 🔵
 
-**The agentmemory V4 project presents a novel, solo-developed memory architecture designed to enable AI agents to retain and recall information across multiple sessions without external databases. It leverages advanced techniques such as deterministic retrieval indexing, custom beam search with reprod**
+**The agentmemory V4 project presents a novel, solo-developed memory architecture designed to enable AI agents to retain and recall information across multiple sessions without external databases. It leverages advanced techniques such as deterministic retrieval indexing, custom beam search with reproducible randomness, and integration of multiple AI models (Opus4.6, GPT-4o) for robust performance. T**
 
 **Key Features:**
 - Single deterministic run with reproducible randomness
@@ -923,7 +1956,25 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 55. [theihtisham/agent-shadow-brain](https://github.com/theihtisham/agent-shadow-brain)  `innovation: 9.7` ★★☆ 🔵
+### 121. [saidsurucu/yargi-mcp](https://github.com/saidsurucu/yargi-mcp)  `9.7` ★★☆ 🔵
+
+**The Yargi-MCP project is a cloud-based solution designed to streamline access to Turkish legal databases by leveraging the MCP (Model Context Protocol) standard. It provides a centralized platform for developers to build secure, automated workflows using Python and AI models like Claude Desktop. The system supports remote MCP connections, integrates with external tools, and offers robust security **
+
+**Key Features:**
+- Remote MCP Server Integration
+- AI-Powered Search (e.g.
+- Claude Desktop)
+- Secure Token Generation & Management
+- Automated Workflow Orchestration
+- Real-Time Data Filtering & Aggregation
+- Cloud-Based Deployment with Docker
+- Multi-Language Support for Turkish Legal Databases
+
+*Tags: yargi-mcp, legal-database, ai-search, mcp-integration, secure-access, automated-workflows, turkish-hukuk, developer-tools*
+
+---
+
+### 122. [theihtisham/agent-shadow-brain](https://github.com/theihtisham/agent-shadow-brain)  `9.7` ★★☆ 🔵
 
 **A zero-config, self-evolving AI coding layer that enhances developer productivity by automatically detecting tools, improving code quality, and enabling seamless collaboration across projects.**
 
@@ -944,7 +1995,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 56. [DeanWard/HAL](https://github.com/DeanWard/HAL)  `innovation: 9` ★★☆ 🔵
+### 123. [DeanWard/HAL](https://github.com/DeanWard/HAL)  `9` ★★☆ 🔵
 
 **HAL provides a secure, isolated environment for LLMs to interact with web APIs and external services while maintaining strict access control.**
 
@@ -960,9 +2011,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 57. [StartripAI/ideaClaw](https://github.com/StartripAI/ideaClaw)  `innovation: 9` ★★☆ 🔵
+### 124. [StartripAI/ideaClaw](https://github.com/StartripAI/ideaClaw)  `9` ★★☆ 🔵
 
-**The StartripAI/ideaClaw project leverages advanced AI capabilities to streamline the development lifecycle by integrating code generation, security analysis, and automated workflows. It supports multiple coding styles and integrates with popular IDEs via plugins, enabling developers to rapidly proto**
+**The StartripAI/ideaClaw project leverages advanced AI capabilities to streamline the development lifecycle by integrating code generation, security analysis, and automated workflows. It supports multiple coding styles and integrates with popular IDEs via plugins, enabling developers to rapidly prototype, test, and secure applications. The platform emphasizes automation of repetitive tasks such as **
 
 **Key Features:**
 - AI-powered code generation across multiple styles
@@ -977,7 +2028,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 58. [aptro/superset-mcp](https://github.com/aptro/superset-mcp)  `innovation: 9` ★★☆ 🔵
+### 125. [aptro/superset-mcp](https://github.com/aptro/superset-mcp)  `9` ★★☆ 🔵
 
 **A developer workflow tool that integrates with Superset to enable AI agents, Claude apps, and other tools for automated data management and dashboard operations.**
 
@@ -996,7 +2047,38 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 59. [cfdude/mac-shell-mcp](https://github.com/cfdude/mac-shell-mcp)  `innovation: 9` ★★☆ 🔵
+### 126. [baryhuang/mcp-server-any-openapi](https://github.com/baryhuang/mcp-server-any-openapi)  `9` ★★☆ 🔵
+
+**A scalable openAPI discovery and API request tool for Claude Desktop, enabling semantic search and execution of large API documentation.**
+
+**Key Features:**
+- Semantic search for API endpoints
+- In-memory vector search with FAISS
+- Supports large OpenAPI specs (hundreds of KB) without file size issues
+- Integration with Claude Desktop
+- Automatic model downloading for faster performance
+
+*Tags: openapi, api-discovery, cloud-native, ai-integration, developer-tools, mcp-server-any-openapi, cloud-api-execution, semantic-search*
+
+---
+
+### 127. [bsmi021/mcp-server-webscan](https://github.com/bsmi021/mcp-server-webscan)  `9` ★★☆ 🔵
+
+**A Model Context Protocol (MCP) server for web content scanning and analysis, enabling automated fetching, linking, pattern matching, and sitemap generation.**
+
+**Key Features:**
+- Web page fetching and Markdown conversion
+- Link extraction and link checking
+- Pattern-based URL matching
+- Sitemap generation
+- Automated crawling with configurable depth
+- Integration with Claude Desktop for seamless workflow
+
+*Tags: web-scan, ai, security, developer-tools, automation, integration, analysis, scraping*
+
+---
+
+### 128. [cfdude/mac-shell-mcp](https://github.com/cfdude/mac-shell-mcp)  `9` ★★☆ 🔵
 
 **A secure MCP server for executing macOS terminal commands with ZSH shell, featuring whitelisting, approval mechanisms, and comprehensive security controls.**
 
@@ -1009,11 +2091,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - and vulnerability management
 
-*Tags: mac-shell, mcp, security, code, devops, ai, ci/cd, security*
+*Tags: mac-shell, mcp, security, code, ai, security, developer, workflow*
 
 ---
 
-### 60. [chenningling/redbook-search-comment-mcp](https://github.com/chenningling/redbook-search-comment-mcp)  `innovation: 9` ★★☆ 🔵
+### 129. [chenningling/redbook-search-comment-mcp](https://github.com/chenningling/redbook-search-comment-mcp)  `9` ★★☆ 🔵
 
 **A Playwright-based tool for automating small redbook searches, enabling users to log in, search notes, retrieve content, and post smart comments.**
 
@@ -1030,9 +2112,29 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 61. [facebookresearch/faiss](https://github.com/facebookresearch/faiss)  `innovation: 9` ★★☆ 🔵
+### 130. [datalab-to/chandra](https://github.com/datalab-to/chandra)  `9` ★★☆ 🔵
 
-**Faiss is a high-performance library designed for similarity search and clustering of large sets of dense vectors, supporting various algorithms including L2 distance, cosine similarity, and GPU acceleration. It provides tools for efficient indexing, fast nearest neighbor searches, and scalable solut**
+**Chandra OCR 2 is a cutting-edge OCR solution designed to handle diverse document types including tables, mathematical content, multilingual text, and complex layouts. It supports full layout preservation, enabling accurate extraction of structured data from forms, PDFs, and scanned documents. The model leverages advanced benchmarks and custom training for improved accuracy across languages and for**
+
+**Key Features:**
+- Handles complex tables and forms with high layout fidelity
+- Supports multilingual OCR with strong performance across 90+ languages
+- Preserves mathematical content
+- tables
+- and structured data
+- Offers both local (HuggingFace) and remote (vLLM) inference options
+- Includes a hosted API for faster and more accurate results
+- Provides detailed output formats: markdown
+- html
+- and JSON with metadata
+
+*Tags: ocr, document-intelligence, multilingual, benchmarking, ai, security, developer-tools*
+
+---
+
+### 131. [facebookresearch/faiss](https://github.com/facebookresearch/faiss)  `9` ★★☆ 🔵
+
+**Faiss is a high-performance library designed for similarity search and clustering of large sets of dense vectors, supporting various algorithms including L2 distance, cosine similarity, and GPU acceleration. It provides tools for efficient indexing, fast nearest neighbor searches, and scalable solutions for both CPU and GPU environments.**
 
 **Key Features:**
 - Similarity search (L2
@@ -1044,11 +2146,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integration with Python and C++
 - Precompiled libraries for Anaconda
 
-*Tags: software development, devops, security, ai, data science, machine learning, cpp, gpu*
+*Tags: software development, security, ai, data science, machine learning, cpp, gpu, cloud computing*
 
 ---
 
-### 62. [firetix/vulnerability-intelligence-mcp-server](https://github.com/firetix/vulnerability-intelligence-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 132. [firetix/vulnerability-intelligence-mcp-server](https://github.com/firetix/vulnerability-intelligence-mcp-server)  `9` ★★☆ 🔵
 
 **A modular vulnerability intelligence platform for security professionals, enabling seamless integration of CVE lookup, EPSS scoring, exploit detection, and Python package scanning into development workflows.**
 
@@ -1066,7 +2168,22 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 63. [goharbor/harbor](https://github.com/goharbor/harbor)  `innovation: 9` ★★☆ 🔵
+### 133. [gleicon/mcp-osv](https://github.com/gleicon/mcp-osv)  `9` ★★☆ 🔵
+
+**A MCP server integrating with OSV.dev to enable secure code reviews and vulnerability analysis.**
+
+**Key Features:**
+- MCP protocol support for AI assistant integration
+- Secure code analysis using AST-based Go code inspection
+- Secret detection via Gitleaks v8 with 100+ rules
+- Dependency vulnerability checks against OSV.dev database
+- Comprehensive security audit including pattern matching and entropy analysis
+
+*Tags: mcp, osv, security, codeanalysis, go, vulnerabilityscanning, dependencycheck, secretdetection*
+
+---
+
+### 134. [goharbor/harbor](https://github.com/goharbor/harbor)  `9` ★★☆ 🔵
 
 **A cloud-native registry that securely stores, signs, scans, and manages content for container images and Helm charts.**
 
@@ -1085,7 +2202,39 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 64. [honeycombio/honeycomb-mcp](https://github.com/honeycombio/honeycomb-mcp)  `innovation: 9` ★★☆ 🔵
+### 135. [groundng/vibeshift](https://github.com/groundng/vibeshift)  `9` ★★☆ 🔵
+
+**VibeShift integrates AI coding assistants with automated security scanning and remediation to enhance code quality and security.**
+
+**Key Features:**
+- AI-assisted code generation
+- Automated security analysis using MCP
+- Real-time vulnerability detection and remediation
+- Integration with GitHub Copilot and other AI tools
+- Continuous feedback loop for developers
+
+*Tags: ai coding, security, developer workflow, mcp integration, automated testing, code analysis, security engineering, ai security*
+
+---
+
+### 136. [henu-wang/geoscore-mcp](https://github.com/henu-wang/geoscore-mcp)  `9` ★★☆ 🔵
+
+**The henu-wang/geoscore-mcp project provides a comprehensive solution for identifying and fixing issues that hinder a website's visibility in AI-powered search engines like ChatGPT, Perplexity, and Claude. It offers a suite of tools including geo_scan, llms.txt generation, schema.org fixes, meta tag optimization, and more, all integrated with popular AI platforms such as Claude and Cursor. The tool**
+
+**Key Features:**
+- geo_scan
+- llms.txt generation
+- schema.org fixes
+- meta tag optimization
+- robots.txt customization
+- competitive analysis
+- AI search engine integration
+
+*Tags: geoscore, ai-search, developer-tools, search-optimization, mcp-server, geolanguage, code-generation, web-scanning*
+
+---
+
+### 137. [honeycombio/honeycomb-mcp](https://github.com/honeycombio/honeycomb-mcp)  `9` ★★☆ 🔵
 
 **A cloud-native AI-powered platform for Honeycomb Enterprise customers to analyze data, alerts, dashboards, and codebase using advanced machine learning and code review capabilities.**
 
@@ -1100,7 +2249,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 65. [jmstar85/securityinfrastructure](https://github.com/jmstar85/securityinfrastructure)  `innovation: 9` ★★☆ 🔵
+### 138. [jmstar85/securityinfrastructure](https://github.com/jmstar85/securityinfrastructure)  `9` ★★☆ 🔵
 
 **A comprehensive security infrastructure platform integrating MCP, Splunk, CrowdStrike EDR, and MISP for automated security operations.**
 
@@ -1112,11 +2261,26 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Automated code review and security scanning
 - Comprehensive configuration templates and secure defaults
 
-*Tags: security-infrastructure, mcp, splunk, crowdstrike, misis, code-security, developer-tools, devops*
+*Tags: security-infrastructure, mcp, splunk, crowdstrike, misis, code-security, developer-tools, ai-security*
 
 ---
 
-### 66. [playcanvas/editor-mcp-server](https://github.com/playcanvas/editor-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 139. [mcpware/cross-code-organizer](https://github.com/mcpware/cross-code-organizer)  `9` ★★☆ 🔵
+
+**GitHub - mcpware/cross-code-organizer: Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups. · GitHub Skip to content Navigation Menu Toggle navigation Sign in <path d="M15 2.75a.75.75 0 0 1-.75.75h-4a.75.75 0 0 1 0-1.5h4a.75.75 0 0 1 .75.75Zm**
+
+**Key Features:**
+- MCP integration
+- Agent support
+- Cross-session persistence
+- Harness framework
+- Skill system
+
+*Tags: mcp, agent, context, claude, codex, harness, skill, cli*
+
+---
+
+### 140. [playcanvas/editor-mcp-server](https://github.com/playcanvas/editor-mcp-server)  `9` ★★☆ 🔵
 
 **A cloud-based AI automation platform for the PlayCanvas Editor, enabling intelligent code generation, workflow automation, and secure development environments.**
 
@@ -1134,7 +2298,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 67. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 141. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `9` ★★☆ 🔵
 
 **A Model Context Protocol (MCP) server that enables AI assistants to process, transform, and sign documents using the Nutrient Document Web Service.**
 
@@ -1155,9 +2319,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 68. [ryaker/zora](https://github.com/ryaker/zora)  `innovation: 9` ★★☆ 🔵
+### 142. [ryaker/zora](https://github.com/ryaker/zora)  `9` ★★☆ 🔵
 
-**Zora is a locally hosted AI agent that operates securely on the user's machine, executing tasks autonomously while maintaining full control over data and actions. It integrates advanced security features such as context compaction, policy enforcement via configuration files, runtime safety scoring, **
+**Zora is a locally hosted AI agent that operates securely on the user's machine, executing tasks autonomously while maintaining full control over data and actions. It integrates advanced security features such as context compaction, policy enforcement via configuration files, runtime safety scoring, and an audit log for transparency. Designed for enterprise use cases like modernization, DevSecOps, **
 
 **Key Features:**
 - Local execution with full system access control
@@ -1172,7 +2336,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 69. [sonatype/dependency-management-mcp-server](https://github.com/sonatype/dependency-management-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 143. [sonatype/dependency-management-mcp-server](https://github.com/sonatype/dependency-management-mcp-server)  `9` ★★☆ 🔵
 
 **Integrates AI-assisted dependency management and security insights directly into development workflows, enabling developers to make informed decisions about dependencies, vulnerabilities, and compliance.**
 
@@ -1190,7 +2354,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 70. [stackhawk/stackhawk-mcp](https://github.com/stackhawk/stackhawk-mcp)  `innovation: 9` ★★☆ 🔵
+### 144. [stackhawk/stackhawk-mcp](https://github.com/stackhawk/stackhawk-mcp)  `9` ★★☆ 🔵
 
 **A developer workflow automation tool integrating StackHawk MCP for security scanning, vulnerability triage, and code analysis within an LLM-powered IDE.**
 
@@ -1201,13 +2365,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - LLM-powered context and tool invocation
 - Custom environment setup for CI/CD pipelines
 
-*Tags: agent orchestration, workflow automation, security scanning, code analysis, developer productivity, ai integration, api management, ci/cd*
+*Tags: agent orchestration, workflow automation, security scanning, code analysis, developer productivity, ai integration, api management, llm tools*
 
 ---
 
-### 71. [stijn-meijers/dracor-mcp](https://github.com/stijn-meijers/dracor-mcp)  `innovation: 9` ★★☆ 🔵
+### 145. [stijn-meijers/dracor-mcp](https://github.com/stijn-meijers/dracor-mcp)  `9` ★★☆ 🔵
 
-**The project provides a streamlined Python implementation of the Model Context Protocol (MCP) server, enabling developers to interact with the Drama Corpora Project (DraCor) API. It supports structured data models for corpora and plays, character network analysis, play metrics, and full-text retrieva**
+**The project provides a streamlined Python implementation of the Model Context Protocol (MCP) server, enabling developers to interact with the Drama Corpora Project (DraCor) API. It supports structured data models for corpora and plays, character network analysis, play metrics, and full-text retrieval in multiple formats. The solution is designed for integration into Claude Desktop via a unified co**
 
 **Key Features:**
 - MCP server integration with DraCor API v1
@@ -1226,7 +2390,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 72. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 146. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)  `9` ★★☆ 🔵
 
 **A next-generation Model Context Protocol server enhancing documentation quality analysis with advanced AI.**
 
@@ -1241,7 +2405,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 73. [tarnover/mcp-sysoperator](https://github.com/tarnover/mcp-sysoperator)  `innovation: 9` ★★☆ 🔵
+### 147. [tarnover/mcp-sysoperator](https://github.com/tarnover/mcp-sysoperator)  `9` ★★☆ 🔵
 
 **A powerful MCP server enabling AI assistants to interact with Ansible, Terraform, and other IaC tools for infrastructure automation.**
 
@@ -1261,7 +2425,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 74. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `innovation: 9` ★★☆ 🔵
+### 148. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `9` ★★☆ 🔵
 
 **A developer workflow tool that integrates AI coding assistants with PostgreSQL to automate schema design, code generation, and data analysis tasks.**
 
@@ -1281,7 +2445,44 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 75. [9olidity/mcp-server-pentest](https://github.com/9olidity/mcp-server-pentest)  `innovation: 8` ★☆☆ 🔵
+### 149. [xiaoguomeiyitian/toolbox](https://github.com/xiaoguomeiyitian/toolbox)  `9` ★★☆ 🔵
+
+**An AI-powered automation tool for enterprise development, enabling workflow orchestration, code review, security scanning, and deployment.**
+
+**Key Features:**
+- AI-assisted tool template conversion
+- Automated code review and security verification
+- Real-time build and deployment with zero-downtime
+- Integration with external services (MongoDB
+- Redis
+- SSH)
+- Continuous integration via GitHub Actions
+
+*Tags: agent orchestration, workflow automation, ai development, security scanning, enterprise deployment*
+
+---
+
+### 150. [zeropathai/zeropath-mcp-server](https://github.com/zeropathai/zeropath-mcp-server)  `9` ★★☆ 🔵
+
+**A MCP server enabling AI-powered querying of ZeroPath security issues, patches, and scans via Claude, Cursor, Windsurf, or other AI assistants.**
+
+**Key Features:**
+- AI-assisted querying of ZeroPath security findings
+- Integration with Claude
+- Cursor
+- Windsurf
+- and other AI tools
+- Automated issue listing
+- archiving
+- and reporting
+- Secure code review and vulnerability detection
+- Real-time updates and structured JSON responses
+
+*Tags: mcp-server, security, ai, developer-tools, automation, code-analysis, integration, security-scanning*
+
+---
+
+### 151. [9olidity/mcp-server-pentest](https://github.com/9olidity/mcp-server-pentest)  `8` ★☆☆ 🔵
 
 **A GitHub repository focused on security testing and pentesting of MCP-Server-Pentest using Playwright, with emphasis on vulnerability detection and automated code analysis.**
 
@@ -1297,9 +2498,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 76. [Artin0123/gemini-vision-mcp](https://github.com/Artin0123/gemini-vision-mcp)  `innovation: 8` ★☆☆ 🔵
+### 152. [ACaiSec/ContractInfoMCP](https://github.com/ACaiSec/ContractInfoMCP)  `8` ★☆☆ 🔵
 
-**The Borg Project offers a comprehensive developer platform focused on integrating AI capabilities into software development workflows. It provides tools for code review, security management, CI/CD integration, and secure deployment, enabling teams to automate complex processes and enhance productivi**
+**A tool for retrieving EVM contract information and analyzing MCP protocol contracts using Cursor, integrated with AI-powered code inspection.**
+
+**Key Features:**
+- Get EVM contract chain information
+- Automate workflow actions via Cursor
+- Integrate with Etherscan and RPC data
+- Parallel processing for performance
+- Standard JSON output format
+
+*Tags: contract_inspector, ai_development, security, code_analysis, developer_tools, mcp_integration, python_devops, security_scanning*
+
+---
+
+### 153. [Artin0123/gemini-vision-mcp](https://github.com/Artin0123/gemini-vision-mcp)  `8` ★☆☆ 🔵
+
+**The Borg Project offers a comprehensive developer platform focused on integrating AI capabilities into software development workflows. It provides tools for code review, security management, CI/CD integration, and secure deployment, enabling teams to automate complex processes and enhance productivity through intelligent application development.**
 
 **Key Features:**
 - Code review automation
@@ -1313,7 +2529,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 77. [BigVik193/reddit-ads-mcp](https://github.com/BigVik193/reddit-ads-mcp)  `innovation: 8` ★☆☆ 🔵
+### 154. [BigVik193/reddit-ads-mcp](https://github.com/BigVik193/reddit-ads-mcp)  `8` ★☆☆ 🔵
 
 **A GitHub-based tool for automating workflows, managing code changes, and enhancing developer productivity through integrated CI/CD and collaboration features.**
 
@@ -1328,9 +2544,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 78. [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)  `innovation: 8` ★☆☆ 🔵
+### 155. [BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)  `8` ★☆☆ 🔵
 
-**Streamline and simplify your network administration and troubleshooting with NETworkManager. Connect, monitor, and troubleshoot your network and server infrastructure using built-in tools like Remote Desktop (RDP), PuTTY (SSH, Serial, etc.), PowerShell (WSL, K9s, etc.) and TigerVNC (VNC). Perform in**
+**Streamline and simplify your network administration and troubleshooting with NETworkManager. Connect, monitor, and troubleshoot your network and server infrastructure using built-in tools like Remote Desktop (RDP), PuTTY (SSH, Serial, etc.), PowerShell (WSL, K9s, etc.) and TigerVNC (VNC). Perform in-depth network diagnostics with features including WiFi Analyzer, IP Scanner, Port Scanner, Ping Mon**
 
 **Key Features:**
 - ['Unified Experience: Connect
@@ -1350,9 +2566,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 79. [Dumbris/mcpproxy](https://github.com/Dumbris/mcpproxy)  `innovation: 8` ★☆☆ 🔵
+### 156. [Dumbris/mcpproxy](https://github.com/Dumbris/mcpproxy)  `8` ★☆☆ 🔵
 
-**mcpproxy acts as a crucial middleware layer for Model Context Protocol (MCP) interactions, specifically designed to connect an AI agent to several backend MCP servers. Its core functionality involves dynamic tool discovery across these federated servers, intelligent indexing of available tools using**
+**mcpproxy acts as a crucial middleware layer for Model Context Protocol (MCP) interactions, specifically designed to connect an AI agent to several backend MCP servers. Its core functionality involves dynamic tool discovery across these federated servers, intelligent indexing of available tools using configurable embedding backends (like BM25, HuggingFace, or OpenAI), and providing a unified interf**
 
 **Key Features:**
 - Dynamic Tool Discovery
@@ -1367,9 +2583,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 80. [EvalsOne/MCP-connect](https://github.com/EvalsOne/MCP-connect)  `innovation: 8` ★☆☆ 🔵
+### 157. [EvalsOne/MCP-connect](https://github.com/EvalsOne/MCP-connect)  `8` ★☆☆ 🔵
 
-**The MCP-connect project provides a comprehensive developer platform that supports modern software engineering practices. It integrates various tools and services to streamline the development lifecycle, from code review and security auditing to automated testing and deployment. The platform emphasiz**
+**The MCP-connect project provides a comprehensive developer platform that supports modern software engineering practices. It integrates various tools and services to streamline the development lifecycle, from code review and security auditing to automated testing and deployment. The platform emphasizes automation and workflow orchestration, enabling teams to enhance productivity and maintain high s**
 
 **Key Features:**
 - code review
@@ -1382,7 +2598,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 81. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `innovation: 8` ★☆☆ 🔵
+### 158. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `8` ★☆☆ 🔵
 
 **A comprehensive open-source platform for automated scientific research, integrating web search, document analysis, and LLM-powered tools to streamline research workflows.**
 
@@ -1398,13 +2614,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Code review and security scanning
 - Workflow automation and project management tools
 
-*Tags: software development, devops, security, ai, document analysis, research automation, web scraping, llm integration*
+*Tags: software development, security, ai, document analysis, research automation, web scraping, llm integration, laTeX compilation*
 
 ---
 
-### 82. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)  `innovation: 8` ★☆☆ 🔵
+### 159. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)  `8` ★☆☆ 🔵
 
-**The project provides a developer-focused environment for building, deploying, and securing applications using tools like GitHub Copilot, AI-assisted coding, and enterprise-grade security features. It supports modern DevOps practices with CI/CD integration, automated workflows, and secure code manage**
+**The project provides a developer-focused environment for building, deploying, and securing applications using tools like GitHub Copilot, AI-assisted coding, and enterprise-grade security features. It supports modern DevOps practices with CI/CD integration, automated workflows, and secure code management.**
 
 **Key Features:**
 - GitHub Copilot integration
@@ -1413,13 +2629,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Automated deployment to platforms like Smithery
 - Code review and change tracking
 
-*Tags: developer, security, ai, codebase, workflow, smartery, enterprise, devops*
+*Tags: developer, security, ai, codebase, workflow, smartery, enterprise, securityaudit*
 
 ---
 
-### 83. [SymbioticSec/mcp](https://github.com/SymbioticSec/mcp)  `innovation: 8` ★☆☆ 🔵
+### 160. [SymbioticSec/mcp](https://github.com/SymbioticSec/mcp)  `8` ★☆☆ 🔵
 
-**The SymbioticSec/mcp project provides a developer-focused tool to integrate security scanning into software development workflows. It leverages the MCP (Model Context Protocol) to securely analyze code and infrastructure files without disrupting ongoing projects, offering features like automated vul**
+**The SymbioticSec/mcp project provides a developer-focused tool to integrate security scanning into software development workflows. It leverages the MCP (Model Context Protocol) to securely analyze code and infrastructure files without disrupting ongoing projects, offering features like automated vulnerability detection, code review, and integration with CI/CD pipelines.**
 
 **Key Features:**
 - Static code analysis
@@ -1432,7 +2648,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 84. [TakoData/tako-mcp](https://github.com/TakoData/tako-mcp)  `innovation: 8` ★☆☆ 🔵
+### 161. [TakoData/tako-mcp](https://github.com/TakoData/tako-mcp)  `8` ★☆☆ 🔵
 
 **A developer workflow tool enabling automated code management, security audits, and integration with AI platforms like Copilot.**
 
@@ -1447,7 +2663,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 85. [Tisik79/MCP-Facebook](https://github.com/Tisik79/MCP-Facebook)  `innovation: 8` ★☆☆ 🔵
+### 162. [Tisik79/MCP-Facebook](https://github.com/Tisik79/MCP-Facebook)  `8` ★☆☆ 🔵
 
 **The MCP-Facebook project provides a centralized GitHub repository with tools for code review, security scanning, and workflow automation, aimed at enhancing developer productivity and application security in enterprise environments.**
 
@@ -1462,9 +2678,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 86. [a2amarket/mcp-clamav](https://github.com/a2amarket/mcp-clamav)  `innovation: 8` ★☆☆ 🔵
+### 163. [a2amarket/mcp-clamav](https://github.com/a2amarket/mcp-clamav)  `8` ★☆☆ 🔵
 
-**The a2amarket/mcp-clamav project provides a lightweight MCP (Messaging Control Protocol) server that leverages the ClamAV virus scanner to detect malicious files in real-time. It integrates seamlessly with tools like Cursor for enhanced security workflows, supports automated scanning processes, and **
+**The a2amarket/mcp-clamav project provides a lightweight MCP (Messaging Control Protocol) server that leverages the ClamAV virus scanner to detect malicious files in real-time. It integrates seamlessly with tools like Cursor for enhanced security workflows, supports automated scanning processes, and is designed for easy deployment across various environments.**
 
 **Key Features:**
 - ClamAV integration
@@ -1477,9 +2693,25 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 87. [adamrtalbot/mcp-nextflow](https://github.com/adamrtalbot/mcp-nextflow)  `innovation: 8` ★☆☆ 🔵
+### 164. [abdessamad-elamrani/malwareanalyzermcp](https://github.com/abdessamad-elamrani/malwareanalyzermcp)  `8` ★☆☆ 🔵
 
-**The adamrtalbot/mcp-nextflow project provides a suite of tools designed to streamline the development and execution of Nextflow pipelines. It supports building, testing, and deploying Nextflow applications with integrated features such as automated workflows, code reviews, security checks, and CI/CD**
+**The Borg Project's MalwareAnalysisMCP is a lightweight, JavaScript-based server designed to integrate with Claude Desktop for advanced malware analysis. It enables users to run terminal commands such as file scanning, string extraction, hexdumps, and process management directly from the desktop environment. This tool enhances security workflows by providing developers and analysts with on-the-fly **
+
+**Key Features:**
+- Execute terminal commands with configurable timeouts
+- Support for file analysis (type detection
+- string extraction)
+- Integration with Claude Desktop for seamless workflow
+- Process management with graceful shutdowns
+- Command execution for security and threat intelligence tasks
+
+*Tags: mcp, malwareanalysis, security, developertools, terminalcommands, fileanalysis, processmanagement, securitytool*
+
+---
+
+### 165. [adamrtalbot/mcp-nextflow](https://github.com/adamrtalbot/mcp-nextflow)  `8` ★☆☆ 🔵
+
+**The adamrtalbot/mcp-nextflow project provides a suite of tools designed to streamline the development and execution of Nextflow pipelines. It supports building, testing, and deploying Nextflow applications with integrated features such as automated workflows, code reviews, security checks, and CI/CD integration.**
 
 **Key Features:**
 - Nextflow development environment
@@ -1494,9 +2726,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 88. [adamsilverstein/lighthouse-mcp-server](https://github.com/adamsilverstein/lighthouse-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 166. [adamsilverstein/lighthouse-mcp-server](https://github.com/adamsilverstein/lighthouse-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-hosted MCP (Media Content Protection) server that connects to the PageSpeed Insights API to fetch Lighthouse reports. It includes features such as code review, workflow automation, secure deployment, security audits, and integration with external tools. The system suppo**
+**The project provides a GitHub-hosted MCP (Media Content Protection) server that connects to the PageSpeed Insights API to fetch Lighthouse reports. It includes features such as code review, workflow automation, secure deployment, security audits, and integration with external tools. The system supports enterprise-grade security, developer productivity enhancements, and scalable infrastructure mana**
 
 **Key Features:**
 - MCP server for media content protection
@@ -1508,13 +2740,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Developer experience enhancements
 - Cross-platform compatibility and instant dev environments
 
-*Tags: software development, devops, security, developer workflow, api integration, code review, mcp server, security audit*
+*Tags: software development, security, developer workflow, api integration, code review, mcp server, security audit, enterprise solutions*
 
 ---
 
-### 89. [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp)  `innovation: 8` ★☆☆ 🔵
+### 167. [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp)  `8` ★☆☆ 🔵
 
-**The BICScan MCP Server is a powerful tool designed to evaluate the security of various blockchain assets such as cryptocurrency addresses, domain names, and decentralized application URLs. It leverages the BICScan API to deliver comprehensive risk scores ranging from 0 to 100, helping users identify**
+**The BICScan MCP Server is a powerful tool designed to evaluate the security of various blockchain assets such as cryptocurrency addresses, domain names, and decentralized application URLs. It leverages the BICScan API to deliver comprehensive risk scores ranging from 0 to 100, helping users identify potential vulnerabilities and manage asset holdings effectively.**
 
 **Key Features:**
 - Risk scoring for blockchain entities
@@ -1527,7 +2759,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 90. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `innovation: 8` ★☆☆ 🔵
+### 168. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `8` ★☆☆ 🔵
 
 **The project provides a static analyzer using Archai to inspect code for potential security vulnerabilities, helping developers improve application security during development. It focuses on analyzing code patterns and detecting risky constructs that could lead to security breaches.**
 
@@ -1541,7 +2773,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 91. [amgadabdelhafez/dbx-mcp-server](https://github.com/amgadabdelhafez/dbx-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 169. [amgadabdelhafez/dbx-mcp-server](https://github.com/amgadabdelhafez/dbx-mcp-server)  `8` ★☆☆ 🔵
 
 **A platform for managing and automating workflows, code reviews, and security practices in software development.**
 
@@ -1552,13 +2784,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integration with external tools
 - Customizable project settings
 
-*Tags: software development, devops, security, code quality, automation*
+*Tags: software development, security, code quality, automation*
 
 ---
 
-### 92. [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server)  `innovation: 8` ★☆☆ 🔵
+### 170. [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server)  `8` ★☆☆ 🔵
 
-**The project provides a modular PostgreSQL server with integrated developer tools, workflow automation, and advanced security mechanisms. It supports seamless integration of external services, offers robust code review and deployment capabilities, and emphasizes enterprise-grade protection against vu**
+**The project provides a modular PostgreSQL server with integrated developer tools, workflow automation, and advanced security mechanisms. It supports seamless integration of external services, offers robust code review and deployment capabilities, and emphasizes enterprise-grade protection against vulnerabilities. Designed for modern development practices, it enables scalable application developmen**
 
 **Key Features:**
 - code generation
@@ -1573,9 +2805,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 93. [aourpallynikhil/nuke-mcp-2](https://github.com/aourpallynikhil/nuke-mcp-2)  `innovation: 8` ★☆☆ 🔵
+### 171. [aourpallynikhil/nuke-mcp-2](https://github.com/aourpallynikhil/nuke-mcp-2)  `8` ★☆☆ 🔵
 
-**The 'nuke-mcp-2' repository provides a GitHub-based platform focused on enhancing developer workflows through automation, code quality management, and security integration. It offers features such as automated code reviews, pull request management, vulnerability scanning, and enterprise-grade securi**
+**The 'nuke-mcp-2' repository provides a GitHub-based platform focused on enhancing developer workflows through automation, code quality management, and security integration. It offers features such as automated code reviews, pull request management, vulnerability scanning, and enterprise-grade security protocols to streamline software development processes.**
 
 **Key Features:**
 - automate code review
@@ -1583,11 +2815,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - integrate security scanning
 - enterprise security features
 
-*Tags: developer workflow, code review, security integration, git automation, ci/cd, enterprise security*
+*Tags: developer workflow, code review, security integration, git automation, enterprise security*
 
 ---
 
-### 94. [apeyroux/mcp-xmind](https://github.com/apeyroux/mcp-xmind)  `innovation: 8` ★☆☆ 🔵
+### 172. [apeyroux/mcp-xmind](https://github.com/apeyroux/mcp-xmind)  `8` ★☆☆ 🔵
 
 **A tool for managing and automating workflows, code reviews, security checks, and project documentation using XMind for mind mapping.**
 
@@ -1603,9 +2835,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 95. [apw124/logseq-mcp](https://github.com/apw124/logseq-mcp)  `innovation: 8` ★☆☆ 🔵
+### 173. [apw124/logseq-mcp](https://github.com/apw124/logseq-mcp)  `8` ★☆☆ 🔵
 
-**This project offers a set of Model Context Protocol (MCP) tools that enable AI agents to seamlessly interact with a local Logseq instance. It includes installation instructions, setup for developer mode, integration with Logseq via API, and configuration options for secure access. The solution suppo**
+**This project offers a set of Model Context Protocol (MCP) tools that enable AI agents to seamlessly interact with a local Logseq instance. It includes installation instructions, setup for developer mode, integration with Logseq via API, and configuration options for secure access. The solution supports advanced use cases such as automated code reviews, security audits, and workflow automation with**
 
 **Key Features:**
 - MCP server integration
@@ -1618,9 +2850,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 96. [ashdevfr/duckduckgo-mcp-server](https://github.com/ashdevfr/duckduckgo-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 174. [ashdevfr/duckduckgo-mcp-server](https://github.com/ashdevfr/duckduckgo-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a Node.js implementation of the MCP protocol, which allows DuckDuckGo to perform web searches using its search engine. This setup is designed to enhance search capabilities by integrating with external search engines securely and efficiently. It supports enterprise-grade securit**
+**The project provides a Node.js implementation of the MCP protocol, which allows DuckDuckGo to perform web searches using its search engine. This setup is designed to enhance search capabilities by integrating with external search engines securely and efficiently. It supports enterprise-grade security features, including code protection and vulnerability management, ensuring that sensitive data rem**
 
 **Key Features:**
 - MCP server implementation
@@ -1629,11 +2861,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Vulnerability scanning
 - CI/CD support
 
-*Tags: duckduckgo-mcp-server, search, security, developer-tools, mcp, docker*
+*Tags: duckduckgo-mcp-server, search, security, developer-tools, mcp*
 
 ---
 
-### 97. [ashwinsundar/congress_gov_mcp](https://github.com/ashwinsundar/congress_gov_mcp)  `innovation: 8` ★☆☆ 🔵
+### 175. [ashwinsundar/congress_gov_mcp](https://github.com/ashwinsundar/congress_gov_mcp)  `8` ★☆☆ 🔵
 
 **A GitHub repository focused on integrating and managing enterprise applications, including code review, security audits, CI/CD pipelines, and developer workflows.**
 
@@ -1646,13 +2878,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integration with external tools and APIs
 - Secure development practices and documentation
 
-*Tags: software development, ai-assisted coding, devops, security, ci/cd, code review, automation, enterprise*
+*Tags: software development, ai-assisted coding, security, code review, automation, enterprise, security, developer tools*
 
 ---
 
-### 98. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)  `innovation: 8` ★☆☆ 🔵
+### 176. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)  `8` ★☆☆ 🔵
 
-**The asmagin/mcp-server-flutter project provides a Flutter-based server solution designed to streamline the development, deployment, and management of AI-driven applications. It integrates advanced developer tools such as GitHub Copilot, Code Review, and CI/CD pipelines to enhance productivity and en**
+**The asmagin/mcp-server-flutter project provides a Flutter-based server solution designed to streamline the development, deployment, and management of AI-driven applications. It integrates advanced developer tools such as GitHub Copilot, Code Review, and CI/CD pipelines to enhance productivity and ensure secure, automated workflows.**
 
 **Key Features:**
 - Flutter server for AI app deployment
@@ -1666,7 +2898,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 99. [athapong/argus](https://github.com/athapong/argus)  `innovation: 8` ★☆☆ 🔵
+### 177. [athapong/argus](https://github.com/athapong/argus)  `8` ★☆☆ 🔵
 
 **The athapong/argus project offers a powerful MCP tool designed to analyze code repositories, detect vulnerabilities, assess code quality, and provide comprehensive security reports. It supports multiple programming languages and integrates with various tools for seamless workflow automation.**
 
@@ -1683,7 +2915,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 100. [atlanhq/agent-toolkit](https://github.com/atlanhq/agent-toolkit)  `innovation: 8` ★☆☆ 🔵
+### 178. [atlanhq/agent-toolkit](https://github.com/atlanhq/agent-toolkit)  `8` ★☆☆ 🔵
 
 **The Atlan Model Context Protocol MCP Server enables AI agents to securely interact with Atlan services, supporting structured tool usage and workflow automation.**
 
@@ -1698,9 +2930,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 101. [atuinturtle/heart-mcp-server](https://github.com/atuinturtle/heart-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 179. [atuinturtle/heart-mcp-server](https://github.com/atuinturtle/heart-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-hosted server (heart-mcp-server) that integrates advanced security features, automated workflows, and enterprise-grade code management tools. It supports automated code reviews, vulnerability detection, and secure deployment pipelines, making it suitable for modern DevO**
+**The project provides a GitHub-hosted server (heart-mcp-server) that integrates advanced security features, automated workflows, and enterprise-grade code management tools. It supports automated code reviews, vulnerability detection, and secure deployment pipelines, making it suitable for modern DevOps and enterprise software development environments.**
 
 **Key Features:**
 - code review automation
@@ -1709,13 +2941,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - workflow orchestration
 - vulnerability detection
 
-*Tags: bun, git, security, ci, devops, code, release, bun*
+*Tags: bun, git, security, ci, code, release, bun*
 
 ---
 
-### 102. [benyue1978/run-command-mcp](https://github.com/benyue1978/run-command-mcp)  `innovation: 8` ★☆☆ 🔵
+### 180. [benyue1978/run-command-mcp](https://github.com/benyue1978/run-command-mcp)  `8` ★☆☆ 🔵
 
-**The 'run-command-mcp' project provides a command-line interface to execute GitHub Actions workflows, manage code changes, and integrate with various development tools. It supports automation of tasks such as code review, security scanning, and deployment, making it suitable for modern DevOps practic**
+**The 'run-command-mcp' project provides a command-line interface to execute GitHub Actions workflows, manage code changes, and integrate with various development tools. It supports automation of tasks such as code review, security scanning, and deployment, making it suitable for modern DevOps practices.**
 
 **Key Features:**
 - execute github actions
@@ -1724,13 +2956,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - workflow automation
 - integration with devops tools
 
-*Tags: github-actions, devops, security, automation, code-review, ci-cd, enterprise*
+*Tags: github-actions, security, automation, code-review, ci-cd, enterprise*
 
 ---
 
-### 103. [blacklotusdev8/test_m](https://github.com/blacklotusdev8/test_m)  `innovation: 8` ★☆☆ 🔵
+### 181. [blacklotusdev8/test_m](https://github.com/blacklotusdev8/test_m)  `8` ★☆☆ 🔵
 
-**The Borg Project offers a comprehensive solution for enterprise teams looking to modernize their software development workflows. It provides tools for code review, automated deployment, infrastructure management, and secure application development. The platform emphasizes seamless integration with e**
+**The Borg Project offers a comprehensive solution for enterprise teams looking to modernize their software development workflows. It provides tools for code review, automated deployment, infrastructure management, and secure application development. The platform emphasizes seamless integration with external services, supports DevOps practices, and includes advanced security features to protect agai**
 
 **Key Features:**
 - Code review automation
@@ -1743,9 +2975,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 104. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)  `innovation: 8` ★☆☆ 🔵
+### 182. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)  `8` ★☆☆ 🔵
 
-**The brevdev/brev-mcp project provides a GitHub-hosted MCP (Managed Code Protection) server that integrates with the Brev CLI to secure code repositories. It supports automated actions such as code reviews, vulnerability scanning, and deployment workflows, enhancing security and operational efficienc**
+**The brevdev/brev-mcp project provides a GitHub-hosted MCP (Managed Code Protection) server that integrates with the Brev CLI to secure code repositories. It supports automated actions such as code reviews, vulnerability scanning, and deployment workflows, enhancing security and operational efficiency for developers.**
 
 **Key Features:**
 - code review automation
@@ -1758,9 +2990,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 105. [brunosantoslab/spring-mcp-bridge](https://github.com/brunosantoslab/spring-mcp-bridge)  `innovation: 8` ★☆☆ 🔵
+### 183. [brunosantoslab/spring-mcp-bridge](https://github.com/brunosantoslab/spring-mcp-bridge)  `8` ★☆☆ 🔵
 
-**The Spring MCP Bridge tool scans a Spring Boot project to identify REST endpoints, generates a compatible MCP server, and preserves request/response models. It supports zero-configuration setup, model preservation, Javadoc extraction, and schema generation for seamless integration with AI assistants**
+**The Spring MCP Bridge tool scans a Spring Boot project to identify REST endpoints, generates a compatible MCP server, and preserves request/response models. It supports zero-configuration setup, model preservation, Javadoc extraction, and schema generation for seamless integration with AI assistants like Claude and Cursor.**
 
 **Key Features:**
 - Automatic REST endpoint scanning
@@ -1773,7 +3005,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 106. [callebtc/bitchat-android](https://github.com/callebtc/bitchat-android)  `innovation: 8` ★☆☆ 🔵
+### 184. [callebtc/bitchat-android](https://github.com/callebtc/bitchat-android)  `8` ★☆☆ 🔵
 
 **Bitchat for Android is a secure, decentralized, peer-to-peer messaging app that works over Bluetooth mesh networks. It offers encrypted communication with a focus on privacy and cross-platform compatibility.**
 
@@ -1795,7 +3027,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 107. [capecoma/winterm-mcp](https://github.com/capecoma/winterm-mcp)  `innovation: 8` ★☆☆ 🔵
+### 185. [capecoma/winterm-mcp](https://github.com/capecoma/winterm-mcp)  `8` ★☆☆ 🔵
 
 **The project provides a comprehensive developer experience by integrating code review tools, automated workflows, security scanning, and enterprise-grade AI capabilities. It supports modern DevOps practices with CI/CD integration, secure code handling, and seamless collaboration across teams.**
 
@@ -1810,9 +3042,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 108. [carlmontanari/scrapli-mcp](https://github.com/carlmontanari/scrapli-mcp)  `innovation: 8` ★☆☆ 🔵
+### 186. [carlmontanari/scrapli-mcp](https://github.com/carlmontanari/scrapli-mcp)  `8` ★☆☆ 🔵
 
-**The project provides a Python-based scraper (scrapli-mcp) that integrates with the Borg platform to facilitate automated code reviews, pull request analysis, and security vulnerability detection. It supports enterprise-level workflows by enabling developers to manage code changes, track issues, and **
+**The project provides a Python-based scraper (scrapli-mcp) that integrates with the Borg platform to facilitate automated code reviews, pull request analysis, and security vulnerability detection. It supports enterprise-level workflows by enabling developers to manage code changes, track issues, and ensure application security through automated processes.**
 
 **Key Features:**
 - code review automation
@@ -1825,7 +3057,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 109. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `innovation: 8` ★☆☆ 🔵
+### 187. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `8` ★☆☆ 🔵
 
 **Node.js-based Model Context Protocol implementation for MobSF security analysis.**
 
@@ -1840,9 +3072,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 110. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `innovation: 8` ★☆☆ 🔵
+### 188. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `8` ★☆☆ 🔵
 
-**The awsome_kali_MCPServers project provides a set of MCP (Model Context Protocol) servers specifically designed for Kali Linux environments. These servers are equipped with powerful tools such as Nmap, nm, objdump, strings, and tshark to facilitate reverse engineering, security testing, and automati**
+**The awsome_kali_MCPServers project provides a set of MCP (Model Context Protocol) servers specifically designed for Kali Linux environments. These servers are equipped with powerful tools such as Nmap, nm, objdump, strings, and tshark to facilitate reverse engineering, security testing, and automation tasks. The project aims to streamline workflows for security researchers and developers by integr**
 
 **Key Features:**
 - Network Scanning (Nmap)
@@ -1857,9 +3089,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 111. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen)  `innovation: 8` ★☆☆ 🔵
+### 189. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen)  `8` ★☆☆ 🔵
 
-**The 'Borg' Project's Hoover MCP server implementation enables seamless integration with Cloud Foundry, allowing developers to deploy and manage applications efficiently. It supports automated workflows, code reviews, security checks, and CI/CD pipelines, enhancing productivity and security in softwa**
+**The 'Borg' Project's Hoover MCP server implementation enables seamless integration with Cloud Foundry, allowing developers to deploy and manage applications efficiently. It supports automated workflows, code reviews, security checks, and CI/CD pipelines, enhancing productivity and security in software development.**
 
 **Key Features:**
 - Automate workflows
@@ -1872,7 +3104,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 112. [ch1nhpd/pentest-tools-mcp-server](https://github.com/ch1nhpd/pentest-tools-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 190. [ch1nhpd/pentest-tools-mcp-server](https://github.com/ch1nhpd/pentest-tools-mcp-server)  `8` ★☆☆ 🔵
 
 **A containerized penetration testing tool for MCP servers, offering directory scanning, vulnerability detection, API testing, and integration with LLM clients.**
 
@@ -1887,9 +3119,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 113. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)  `innovation: 8` ★☆☆ 🔵
+### 191. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)  `8` ★☆☆ 🔵
 
-**The Flomo-mcp project provides a GitHub-based platform designed to streamline software development processes by integrating advanced workflow automation, code review, security checks, and deployment capabilities. It supports enterprise-level features such as customizable workflows, automated code an**
+**The Flomo-mcp project provides a GitHub-based platform designed to streamline software development processes by integrating advanced workflow automation, code review, security checks, and deployment capabilities. It supports enterprise-level features such as customizable workflows, automated code analysis, and integration with external tools, making it suitable for modern DevOps and CI/CD pipeline**
 
 **Key Features:**
 - code review
@@ -1898,13 +3130,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - integration with external tools
 - CI/CD support
 
-*Tags: flomo, devops, security, ci, automation, integration, code, workflow*
+*Tags: flomo, security, ci, automation, integration, code, workflow, release*
 
 ---
 
-### 114. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)  `innovation: 8` ★☆☆ 🔵
+### 192. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)  `8` ★☆☆ 🔵
 
-**The cheny-alf/filesystem-server project is a GitHub-hosted platform designed to provide an intelligent filesystem server with capabilities for code review, security, and workflow automation. It integrates features such as code management, vulnerability scanning, secure deployment, and enterprise-gra**
+**The cheny-alf/filesystem-server project is a GitHub-hosted platform designed to provide an intelligent filesystem server with capabilities for code review, security, and workflow automation. It integrates features such as code management, vulnerability scanning, secure deployment, and enterprise-grade security measures.**
 
 **Key Features:**
 - Code review
@@ -1917,9 +3149,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 115. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `innovation: 8` ★☆☆ 🔵
+### 193. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `8` ★☆☆ 🔵
 
-**The project provides a Python-based MCP server designed to facilitate secure and efficient NMAP (Network Mapper) operations. It allows for automation of network scanning tasks, integration with various tools, and supports enterprise-grade security features. The solution emphasizes ease of use throug**
+**The project provides a Python-based MCP server designed to facilitate secure and efficient NMAP (Network Mapper) operations. It allows for automation of network scanning tasks, integration with various tools, and supports enterprise-grade security features. The solution emphasizes ease of use through developer-friendly APIs and robust documentation.**
 
 **Key Features:**
 - MCP server
@@ -1932,9 +3164,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 116. [cosmix/jira-mcp](https://github.com/cosmix/jira-mcp)  `innovation: 8` ★☆☆ 🔵
+### 194. [cosmix/jira-mcp](https://github.com/cosmix/jira-mcp)  `8` ★☆☆ 🔵
 
-**The repository provides tools and integrations to streamline software development lifecycles, enhance security through automated code analysis, and support modern DevOps practices. It includes features such as issue tracking, pull request management, code review automation, and enterprise-grade secu**
+**The repository provides tools and integrations to streamline software development lifecycles, enhance security through automated code analysis, and support modern DevOps practices. It includes features such as issue tracking, pull request management, code review automation, and enterprise-grade security measures.**
 
 **Key Features:**
 - code review automation
@@ -1948,7 +3180,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 117. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)  `innovation: 8` ★☆☆ 🔵
+### 195. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)  `8` ★☆☆ 🔵
 
 **A cloud-native LLM interface for interacting with Cloud Foundry, enabling AI-driven automation and workflow management.**
 
@@ -1960,13 +3192,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Automated application management and deployment
 - Secure code execution and vulnerability scanning
 
-*Tags: cloud-foundry, ai, developer-tools, security, automation, cloud-native, mcp, devops*
+*Tags: cloud-foundry, ai, developer-tools, security, automation, cloud-native, mcp, ai-security*
 
 ---
 
-### 118. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `innovation: 8` ★☆☆ 🔵
+### 196. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `8` ★☆☆ 🔵
 
-**mcp-repo2llm is designed to bridge the gap between traditional code repositories and modern AI language models. It addresses challenges such as processing large codebases efficiently, preserving contextual information, supporting multiple programming languages, enhancing metadata, and optimizing res**
+**mcp-repo2llm is designed to bridge the gap between traditional code repositories and modern AI language models. It addresses challenges such as processing large codebases efficiently, preserving contextual information, supporting multiple programming languages, enhancing metadata, and optimizing resource usage for LLM interaction.**
 
 **Key Features:**
 - Smart Repository Scanning
@@ -1979,9 +3211,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 119. [cybersecurityup/offensive-mcp-ai](https://github.com/cybersecurityup/offensive-mcp-ai)  `innovation: 8` ★☆☆ 🔵
+### 197. [cromwellian/hippycampus](https://github.com/cromwellian/hippycampus)  `8` ★☆☆ 🔵
 
-**The project integrates MCP (Malware Control Platform) with advanced AI models like Claude to streamline cybersecurity operations. It enables automated analysis of code repositories, real-time threat detection using Wazuh and Suricata, and intelligent incident reporting. Key features include AI-drive**
+**The project provides a GitHub-hosted, eventually-secure MCP Server that automatically transforms any REST API endpoint into MCP resources. It integrates with Langflow for OpenAPI specification handling and supports enterprise-grade security features such as code protection, vulnerability scanning, and secure deployment workflows.**
+
+**Key Features:**
+- Dynamic REST to MCP resource conversion
+- Secure open-source architecture
+- Integration with Langflow for OpenAPI management
+- Enterprise security and code protection
+- Automated workflow orchestration
+
+*Tags: mcp, openapi, langflow, security, developer, ai, cloud, enterprise*
+
+---
+
+### 198. [cybersecurityup/offensive-mcp-ai](https://github.com/cybersecurityup/offensive-mcp-ai)  `8` ★☆☆ 🔵
+
+**The project integrates MCP (Malware Control Platform) with advanced AI models like Claude to streamline cybersecurity operations. It enables automated analysis of code repositories, real-time threat detection using Wazuh and Suricata, and intelligent incident reporting. Key features include AI-driven red teaming simulations, secure code reviews, and integration with DevSecOps pipelines for proacti**
 
 **Key Features:**
 - AI-powered code analysis
@@ -1995,7 +3242,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 120. [danielsogl/lighthouse-mcp-server](https://github.com/danielsogl/lighthouse-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 199. [danielsogl/lighthouse-mcp-server](https://github.com/danielsogl/lighthouse-mcp-server)  `8` ★☆☆ 🔵
 
 **A powerful MCP server enabling AI agents to perform comprehensive web audits using Google Lighthouse.**
 
@@ -2011,7 +3258,22 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 121. [davlgd/mcp-clever-demo](https://github.com/davlgd/mcp-clever-demo)  `innovation: 8` ★☆☆ 🔵
+### 200. [dannyhw/mcp-storybook](https://github.com/dannyhw/mcp-storybook)  `8` ★☆☆ 🔵
+
+**The Borg Project offers a comprehensive developer experience by integrating tools for code collaboration, security testing, and workflow automation. It supports enterprise-grade features such as automated pipeline execution, vulnerability scanning, and secure deployment practices, making it suitable for modern software development teams.**
+
+**Key Features:**
+- code review
+- ci/cd integration
+- security audits
+- automated workflows
+- project management
+
+*Tags: developer workflow, security, enterprise, automation, code quality, integration, testing*
+
+---
+
+### 201. [davlgd/mcp-clever-demo](https://github.com/davlgd/mcp-clever-demo)  `8` ★☆☆ 🔵
 
 **The davlgd/mcp-clever-demo project provides a local MCP server that allows developers to interact with Clever Cloud's tools via the MCP SDK. It supports various use cases such as code review, security audits, and application integration, making it suitable for modern DevOps and CI/CD workflows.**
 
@@ -2026,9 +3288,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 122. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)  `innovation: 8` ★☆☆ 🔵
+### 202. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-hosted platform that leverages AI to generate images based on user prompts. It integrates with development workflows, offering features such as code review, security scanning, and deployment support. The tool emphasizes automation, enabling developers to streamline task**
+**The project provides a GitHub-hosted platform that leverages AI to generate images based on user prompts. It integrates with development workflows, offering features such as code review, security scanning, and deployment support. The tool emphasizes automation, enabling developers to streamline tasks like code generation, application security, and CI/CD processes.**
 
 **Key Features:**
 - image generation
@@ -2037,13 +3299,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - automation
 
-*Tags: ai, developer, image-generation, security, cicd, automation, generative, code*
+*Tags: ai, developer, image-generation, security, automation, generative, code, integration*
 
 ---
 
-### 123. [disdjj/mcp-coco](https://github.com/disdjj/mcp-coco)  `innovation: 8` ★☆☆ 🔵
+### 203. [disdjj/mcp-coco](https://github.com/disdjj/mcp-coco)  `8` ★☆☆ 🔵
 
-**The Disdjj/mcp-coco project is designed as a developer-focused tool that facilitates pair programming through integrated code review, security analysis, and automated workflows. It combines features like real-time collaboration, vulnerability detection, and seamless integration with development envi**
+**The Disdjj/mcp-coco project is designed as a developer-focused tool that facilitates pair programming through integrated code review, security analysis, and automated workflows. It combines features like real-time collaboration, vulnerability detection, and seamless integration with development environments such as Codelf. The platform emphasizes productivity by offering tools for managing pull re**
 
 **Key Features:**
 - pair programming support
@@ -2052,13 +3314,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD automation
 - context-aware suggestions
 
-*Tags: developer, codelfense, security, ai, cicd, pairprogramming, codequality, releasepreview*
+*Tags: developer, codelfense, security, ai, pairprogramming, codequality, releasepreview, githubintegration*
 
 ---
 
-### 124. [disdjj/mcp-cook](https://github.com/disdjj/mcp-cook)  `innovation: 8` ★☆☆ 🔵
+### 204. [disdjj/mcp-cook](https://github.com/disdjj/mcp-cook)  `8` ★☆☆ 🔵
 
-**The mcp-cook project provides a GitHub-based solution for integrating MCP (Managed Code Platform) with HotToCook, enabling automated cooking tasks through CI/CD pipelines. It supports workflow automation, code review, security checks, and integration with external tools to enhance development effici**
+**The mcp-cook project provides a GitHub-based solution for integrating MCP (Managed Code Platform) with HotToCook, enabling automated cooking tasks through CI/CD pipelines. It supports workflow automation, code review, security checks, and integration with external tools to enhance development efficiency.**
 
 **Key Features:**
 - code generation
@@ -2066,13 +3328,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - integration with external systems
 
-*Tags: mcp, hotto cook, ci/cd, developer tools, security, automation*
+*Tags: mcp, hotto cook, developer tools, security, automation*
 
 ---
 
-### 125. [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 205. [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server)  `8` ★☆☆ 🔵
 
-**The mcp-server project provides a Python implementation of the Model Context Protocol (MCP) server, enabling secure sandboxed execution of code in a controlled environment. It supports workflow automation, integration with external tools, and enterprise-grade security features such as code review, v**
+**The mcp-server project provides a Python implementation of the Model Context Protocol (MCP) server, enabling secure sandboxed execution of code in a controlled environment. It supports workflow automation, integration with external tools, and enterprise-grade security features such as code review, vulnerability scanning, and secure deployment pipelines.**
 
 **Key Features:**
 - secure sandbox execution
@@ -2085,9 +3347,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 126. [https://github.com/explore](https://github.com/explore)  `innovation: 8` ★☆☆ 🔵
+### 206. [https://github.com/explore](https://github.com/explore)  `8` ★☆☆ 🔵
 
-**This project focuses on enhancing software development processes by integrating advanced AI capabilities such as code generation, automated testing, and intelligent issue tracking. It leverages GitHub's ecosystem to streamline workflows, improve developer productivity, and ensure high-quality code t**
+**This project focuses on enhancing software development processes by integrating advanced AI capabilities such as code generation, automated testing, and intelligent issue tracking. It leverages GitHub's ecosystem to streamline workflows, improve developer productivity, and ensure high-quality code through automated security checks and continuous integration.**
 
 **Key Features:**
 - GitHub Copilot for intelligent code completion
@@ -2100,9 +3362,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 127. [flux159/mcp-server-modal](https://github.com/flux159/mcp-server-modal)  `innovation: 8` ★☆☆ 🔵
+### 207. [flux159/mcp-server-modal](https://github.com/flux159/mcp-server-modal)  `8` ★☆☆ 🔵
 
-**The Flux159/mcp-server-modal project provides an MCP Server that allows users to deploy, manage, and execute Python scripts in a secure and scalable environment. It integrates with modern development workflows, supports CI/CD pipelines, and offers features like code review, security scanning, and au**
+**The Flux159/mcp-server-modal project provides an MCP Server that allows users to deploy, manage, and execute Python scripts in a secure and scalable environment. It integrates with modern development workflows, supports CI/CD pipelines, and offers features like code review, security scanning, and automated deployment. This tool is designed for enterprise-level applications requiring robust applica**
 
 **Key Features:**
 - deploy python scripts
@@ -2115,9 +3377,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 128. [francesliang/custom_mcp_servers](https://github.com/francesliang/custom_mcp_servers)  `innovation: 8` ★☆☆ 🔵
+### 208. [francesliang/custom_mcp_servers](https://github.com/francesliang/custom_mcp_servers)  `8` ★☆☆ 🔵
 
-**The project presents a GitHub-hosted custom MCP (Managed Code Protection) server designed to streamline enterprise software development workflows. It integrates advanced security features, automated code review processes, and workflow automation tools to enhance productivity and maintain code integr**
+**The project presents a GitHub-hosted custom MCP (Managed Code Protection) server designed to streamline enterprise software development workflows. It integrates advanced security features, automated code review processes, and workflow automation tools to enhance productivity and maintain code integrity across teams.**
 
 **Key Features:**
 - code review automation
@@ -2130,9 +3392,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 129. [gkhays/mcp-sbom-server](https://github.com/gkhays/mcp-sbom-server)  `innovation: 8` ★☆☆ 🔵
+### 209. [gkhays/mcp-sbom-server](https://github.com/gkhays/mcp-sbom-server)  `8` ★☆☆ 🔵
 
-**The gkhays/mcp-sbom-server project provides a web-based platform that leverages the uv toolchain to perform Trivy scans on container images, generating an SBOM in CycloneDX format. It integrates with GitHub for seamless code and dependency management, enabling automated security scanning as part of **
+**The gkhays/mcp-sbom-server project provides a web-based platform that leverages the uv toolchain to perform Trivy scans on container images, generating an SBOM in CycloneDX format. It integrates with GitHub for seamless code and dependency management, enabling automated security scanning as part of CI/CD pipelines.**
 
 **Key Features:**
 - Trivy-based SBOM generation
@@ -2145,9 +3407,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 130. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 210. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `8` ★☆☆ 🔵
 
-**This project provides a GitHub-based server application that enables developers to analyze and understand code repositories using advanced analysis tools. It supports features such as repository scanning, code review management, security vulnerability detection, and integration with various developm**
+**This project provides a GitHub-based server application that enables developers to analyze and understand code repositories using advanced analysis tools. It supports features such as repository scanning, code review management, security vulnerability detection, and integration with various development workflows. The platform is designed to enhance modernization efforts in software development by **
 
 **Key Features:**
 - Repository analysis
@@ -2158,13 +3420,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Code review and change tracking
 - Automated workflows and actions
 
-*Tags: codeanalysis, security, git, mcp, ci, devops, repository, security*
+*Tags: codeanalysis, security, git, mcp, ci, repository, security, pnpm*
 
 ---
 
-### 131. [gourav221b/github-pr-mcp-server](https://github.com/gourav221b/github-pr-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 211. [gourav221b/github-pr-mcp-server](https://github.com/gourav221b/github-pr-mcp-server)  `8` ★☆☆ 🔵
 
-**This project provides a web application built with TypeScript to analyze GitHub pull requests using the Model Context Protocol (MCP). It enables developers to automate code review processes, manage code changes, and integrate security checks directly within their development workflow. The tool suppo**
+**This project provides a web application built with TypeScript to analyze GitHub pull requests using the Model Context Protocol (MCP). It enables developers to automate code review processes, manage code changes, and integrate security checks directly within their development workflow. The tool supports enterprise-level security features, including vulnerability detection and secure code deployment**
 
 **Key Features:**
 - GitHub PR analysis
@@ -2177,7 +3439,26 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 132. [happyhackingspace/mcp-hydra](https://github.com/happyhackingspace/mcp-hydra)  `innovation: 8` ★☆☆ 🔵
+### 212. [h2337/ghostscan](https://github.com/h2337/ghostscan)  `8` ★☆☆ 🔵
+
+**Drop the binary on a host, run it once, and collect actionable leads from the kernel, procfs, bpffs, systemd, cron, sockets, and more. The output explains what was skipped. Reading results: Each scanner prints a bracketed name followed by either findings, OK, or an error string. Findings are heuristics designed for triage; validate before acting.**
+
+**Key Features:**
+- Hidden LKM comparison
+- Kernel taint highlighting
+- Ftrace redirection spotting
+- Unknown kprobes identification
+- Syscall table integrity verification
+- modprobe helper tamper checks
+- Netfilter hook drift detection
+- BPF object analysis (Ownerless BPF objects)
+- and a comprehensive set of kernel/system artifacts.
+
+*Tags: ['Linux', 'Rust', 'Security', 'Kernel', 'eBPF', 'Rootkit', 'Triage', 'Forensics'*
+
+---
+
+### 213. [happyhackingspace/mcp-hydra](https://github.com/happyhackingspace/mcp-hydra)  `8` ★☆☆ 🔵
 
 **A lightweight, extensible cybersecurity toolkit that connects AI assistants to security tools via the Model Context Protocol (MCP), enabling AI-assisted security research, scanning, and analysis.**
 
@@ -2193,7 +3474,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 133. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)  `innovation: 8` ★☆☆ 🔵
+### 214. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)  `8` ★☆☆ 🔵
 
 **The project provides a GitHub MCP server that enables developers to extract diffs from Pull Requests, automate workflows, and integrate with various tools. It supports features like code review management, security scanning, and deployment of intelligent applications.**
 
@@ -2208,9 +3489,56 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 134. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `innovation: 8` ★☆☆ 🔵
+### 215. [himanshusanecha/mcp-osint-server](https://github.com/himanshusanecha/mcp-osint-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub repository containing tools and resources for simulating and managing complex software development workflows, focusing on automation, code review, security, and integration with enterprise platforms. It supports advanced developer workflows, secure code management, and **
+**The mcp-osint server is designed to streamline open source intelligence (OSINT) operations by integrating multiple network scanning, DNS lookup, and domain validation tools into a unified interface. It enables users to execute tasks such as WHOIS lookups, Nmap scans, DNS reconnaissance, DNSTwist checks, and host information retrieval in parallel for comprehensive reports.**
+
+**Key Features:**
+- WHOIS Lookup
+- Nmap Scan
+- DNS Reconnaissance
+- DNSTwist Lookup
+- Dig Query
+- Host Lookup
+
+*Tags: osint, network, security, developer, automation, toolchain, cybersecurity, web scraping*
+
+---
+
+### 216. [hrishirc/task-orchestrator](https://github.com/hrishirc/task-orchestrator)  `8` ★☆☆ 🔵
+
+**The Task Orchestrator provides a robust platform for managing complex development tasks by breaking down goals into hierarchical tasks, tracking their progress, and supporting dependency management. It integrates seamlessly with modern development environments and supports enterprise-level security features such as code review, vulnerability scanning, and secure deployment pipelines.**
+
+**Key Features:**
+- Hierarchical task creation and management
+- Goal definition and tracking
+- Subtask support with dependency management
+- Task completion status updates
+- Integration with CI/CD and DevOps workflows
+- Security features including code analysis and vulnerability detection
+
+*Tags: agent orchestration, workflow automation, task management, software development, developer productivity, security integration, api management, code quality*
+
+---
+
+### 217. [hyoban/folo-mcp](https://github.com/hyoban/folo-mcp)  `8` ★☆☆ 🔵
+
+**The folo-mcp project provides a GitHub-hosted MCP (Message Control Protocol) server designed to streamline the development workflow for teams using Folo. It integrates with modern DevOps practices by offering automated code review, pull request management, and secure deployment pipelines. The platform supports enterprise-grade security features such as vulnerability scanning, secure code storage, **
+
+**Key Features:**
+- code review
+- pull requests
+- automated workflows
+- secure deployment
+- integration with VSCode
+
+*Tags: mcp, folo, developer, security, codebase, workflow, vscode, enterprise*
+
+---
+
+### 218. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `8` ★☆☆ 🔵
+
+**The project provides a GitHub repository containing tools and resources for simulating and managing complex software development workflows, focusing on automation, code review, security, and integration with enterprise platforms. It supports advanced developer workflows, secure code management, and CI/CD pipelines.**
 
 **Key Features:**
 - Code review
@@ -2219,13 +3547,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Workflow automation
 - Project management tools
 
-*Tags: developer, security, ci, workflow, code, integration, automation, devops*
+*Tags: developer, security, ci, workflow, code, integration, automation, pipelines*
 
 ---
 
-### 135. [imjdl/nmap-mcpserver](https://github.com/imjdl/nmap-mcpserver)  `innovation: 8` ★☆☆ 🔵
+### 219. [imjdl/nmap-mcpserver](https://github.com/imjdl/nmap-mcpserver)  `8` ★☆☆ 🔵
 
-**The imjdl/nmap-mcpserver is a Model Control Protocol (MCP) server that facilitates nmap-based network scanning, allowing users to analyze network vulnerabilities and configurations. It supports automated scanning workflows, integrates with AI-driven analysis tools, and provides secure deployment opt**
+**The imjdl/nmap-mcpserver is a Model Control Protocol (MCP) server that facilitates nmap-based network scanning, allowing users to analyze network vulnerabilities and configurations. It supports automated scanning workflows, integrates with AI-driven analysis tools, and provides secure deployment options via Docker containers.**
 
 **Key Features:**
 - nmap scanning
@@ -2234,11 +3562,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - customizable scan parameters
 - scan result visualization
 
-*Tags: nmap, mcp, security, ai, automation, network, devops, docker*
+*Tags: nmap, mcp, security, ai, automation, network, security*
 
 ---
 
-### 136. [ixe1/code-scanner-server](https://github.com/ixe1/code-scanner-server)  `innovation: 8` ★☆☆ 🔵
+### 220. [ixe1/code-scanner-server](https://github.com/ixe1/code-scanner-server)  `8` ★☆☆ 🔵
 
 **A tool for scanning code files to extract definitions, supporting multiple languages and respecting .gitignore rules.**
 
@@ -2260,9 +3588,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 137. [jason-tan-swe/railway-mcp](https://github.com/jason-tan-swe/railway-mcp)  `innovation: 8` ★☆☆ 🔵
+### 221. [jason-tan-swe/railway-mcp](https://github.com/jason-tan-swe/railway-mcp)  `8` ★☆☆ 🔵
 
-**The railway-mcp server is designed to streamline the integration of Railway.app with various MCP clients such as Claude Desktop, Windsurf, and GitHub. It provides a natural language interface for managing projects, services, variables, deployments, and security settings. The tool supports automated **
+**The railway-mcp server is designed to streamline the integration of Railway.app with various MCP clients such as Claude Desktop, Windsurf, and GitHub. It provides a natural language interface for managing projects, services, variables, deployments, and security settings. The tool supports automated workflows, variable management, service networking, and deployment monitoring, making it suitable fo**
 
 **Key Features:**
 - Natural language integration with Railway.app
@@ -2278,13 +3606,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Volume management
 - Database and networking workflows
 
-*Tags: railway-mcp, mcp, devops, cicdp, security, cloud, integration, automation*
+*Tags: railway-mcp, mcp, cicdp, security, cloud, integration, automation*
 
 ---
 
-### 138. [jkawamoto/mcp-youtube-transcript](https://github.com/jkawamoto/mcp-youtube-transcript)  `innovation: 8` ★☆☆ 🔵
+### 222. [jkawamoto/mcp-youtube-transcript](https://github.com/jkawamoto/mcp-youtube-transcript)  `8` ★☆☆ 🔵
 
-**The MCP server fetches YouTube video transcripts via the uvx command-line utility, supporting parameters like language, timestamps, and pagination. It is designed for integration into development workflows, enabling automated code reviews, security audits, and compliance checks by accessing code cha**
+**The MCP server fetches YouTube video transcripts via the uvx command-line utility, supporting parameters like language, timestamps, and pagination. It is designed for integration into development workflows, enabling automated code reviews, security audits, and compliance checks by accessing code changes and vulnerabilities.**
 
 **Key Features:**
 - YouTube transcript retrieval
@@ -2297,9 +3625,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 139. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit)  `innovation: 8` ★☆☆ 🔵
+### 223. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit)  `8` ★☆☆ 🔵
 
-**The osmosis-agent-toolkit provides a comprehensive solution for developers to interact with Osmosis MCP servers, enabling automation of various tasks such as code reviews, security checks, and integration with external tools. It supports setting up MCP servers, debugging, and using the MCP Inspector**
+**The osmosis-agent-toolkit provides a comprehensive solution for developers to interact with Osmosis MCP servers, enabling automation of various tasks such as code reviews, security checks, and integration with external tools. It supports setting up MCP servers, debugging, and using the MCP Inspector for monitoring and testing.**
 
 **Key Features:**
 - Osmosis MCP server setup
@@ -2312,7 +3640,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 140. [justasmonkev/mcp-accessibility-scanner](https://github.com/justasmonkev/mcp-accessibility-scanner)  `innovation: 8` ★☆☆ 🔵
+### 224. [justasmonkev/mcp-accessibility-scanner](https://github.com/justasmonkev/mcp-accessibility-scanner)  `8` ★☆☆ 🔵
 
 **A Model Context Protocol (MCP) server for automated web accessibility auditing and browser automation using Playwright and Axe-core.**
 
@@ -2331,7 +3659,22 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 141. [kazuph/mcp-gmail-gas](https://github.com/kazuph/mcp-gmail-gas)  `innovation: 8` ★☆☆ 🔵
+### 225. [kailashappdev/figma-mcp-toolkit](https://github.com/kailashappdev/figma-mcp-toolkit)  `8` ★☆☆ 🔵
+
+**The kailashAppDev/figma-mcp-toolkit is an open-source project that enables developers to automatically extract UI components from Figma files and generate corresponding React Native code. It supports enterprise-level security, integrates with CI/CD pipelines, and provides features like code review, security scanning, and deployment automation.**
+
+**Key Features:**
+- Figma to React Native component conversion
+- Automated code generation from Figma designs
+- Security and quality checks during development
+- Integration with GitHub Actions for CI/CD
+- Support for enterprise-grade security features
+
+*Tags: figma-mcp, react-native, security, developer-toolkit, code-generation, enterprise, ai-integration, automation*
+
+---
+
+### 226. [kazuph/mcp-gmail-gas](https://github.com/kazuph/mcp-gmail-gas)  `8` ★☆☆ 🔵
 
 **A GitHub-based AI-powered tool for automating email interactions and enhancing developer workflows.**
 
@@ -2342,13 +3685,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Security scanning
 - CI/CD support
 
-*Tags: ai, developer, security, automation, integration, code, gcp, mcp*
+*Tags: ai, developer, security, automation, integration, code, mcp*
 
 ---
 
-### 142. [kinsha-dev/confluence-chat-mcp-service](https://github.com/kinsha-dev/confluence-chat-mcp-service)  `innovation: 8` ★☆☆ 🔵
+### 227. [kinsha-dev/confluence-chat-mcp-service](https://github.com/kinsha-dev/confluence-chat-mcp-service)  `8` ★☆☆ 🔵
 
-**The Borg Project focuses on enhancing software development processes by integrating advanced automation tools, secure code management, and workflow orchestration. It provides a centralized environment for developers to streamline tasks such as code reviews, vulnerability detection, and deployment, w**
+**The Borg Project focuses on enhancing software development processes by integrating advanced automation tools, secure code management, and workflow orchestration. It provides a centralized environment for developers to streamline tasks such as code reviews, vulnerability detection, and deployment, while emphasizing enterprise-grade security and scalability.**
 
 **Key Features:**
 - Code review automation
@@ -2361,9 +3704,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 143. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)  `innovation: 8` ★☆☆ 🔵
+### 228. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)  `8` ★☆☆ 🔵
 
-**The Trinity MCP project provides a comprehensive GitHub-based solution for enterprise teams to streamline their software development lifecycle. It integrates advanced developer tools such as GitHub Copilot, Code Review Management, and automated workflows to enhance productivity and security. The pla**
+**The Trinity MCP project provides a comprehensive GitHub-based solution for enterprise teams to streamline their software development lifecycle. It integrates advanced developer tools such as GitHub Copilot, Code Review Management, and automated workflows to enhance productivity and security. The platform supports enterprise-grade security features, including vulnerability detection and secure code**
 
 **Key Features:**
 - GitHub Copilot
@@ -2372,13 +3715,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Security & Vulnerability Scanning
 - Automated Workflow Execution
 
-*Tags: developer workflow, git integration, security, ci/cd, code review, automation, enterprise, ai development*
+*Tags: developer workflow, git integration, security, code review, automation, enterprise, ai development, security features*
 
 ---
 
-### 144. [kpsunil97/devrev-mcp-server](https://github.com/kpsunil97/devrev-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 229. [kpsunil97/devrev-mcp-server](https://github.com/kpsunil97/devrev-mcp-server)  `8` ★☆☆ 🔵
 
-**The kpsunil97/devrev-mcp-server project provides a GitHub-based DevRev server that enables developers to manage code reviews, pull requests, and CI/CD pipelines efficiently. It integrates with external tools and supports enterprise-grade security features such as code scanning and vulnerability dete**
+**The kpsunil97/devrev-mcp-server project provides a GitHub-based DevRev server that enables developers to manage code reviews, pull requests, and CI/CD pipelines efficiently. It integrates with external tools and supports enterprise-grade security features such as code scanning and vulnerability detection.**
 
 **Key Features:**
 - Code review automation
@@ -2391,9 +3734,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 145. [krajcik/manticore-mcp-server](https://github.com/krajcik/manticore-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 230. [krajcik/manticore-mcp-server](https://github.com/krajcik/manticore-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-hosted server for integrating Manticore Search with MCP-compatible clients, enabling developers to build intelligent applications through automated code review, security checks, and CI/CD pipelines. It supports enterprise-grade security, developer workflows, and integra**
+**The project provides a GitHub-hosted server for integrating Manticore Search with MCP-compatible clients, enabling developers to build intelligent applications through automated code review, security checks, and CI/CD pipelines. It supports enterprise-grade security, developer workflows, and integrates seamlessly with tools like GitHub Copilot, Docker, and AI-driven code analysis.**
 
 **Key Features:**
 - Manticore Search integration
@@ -2403,13 +3746,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD pipeline management
 - Developer workflow orchestration
 
-*Tags: software development, ai development, security, ci/cd, manticore, github integration, developer tools, enterprise solutions*
+*Tags: software development, ai development, security, manticore, github integration, developer tools, enterprise solutions, code quality*
 
 ---
 
-### 146. [lalanikarim/systemctl-mcp-server](https://github.com/lalanikarim/systemctl-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 231. [lalanikarim/systemctl-mcp-server](https://github.com/lalanikarim/systemctl-mcp-server)  `8` ★☆☆ 🔵
 
-**The lalanikarim/systemctl-mcp-server project provides a GitHub-based platform for orchestrating system updates, managing configurations, and automating deployment workflows. It integrates with systemctl and MCP (Managed Control Plane) to streamline infrastructure management, offering features such a**
+**The lalanikarim/systemctl-mcp-server project provides a GitHub-based platform for orchestrating system updates, managing configurations, and automating deployment workflows. It integrates with systemctl and MCP (Managed Control Plane) to streamline infrastructure management, offering features such as code review, security audits, CI/CD integration, and secure deployment pipelines.**
 
 **Key Features:**
 - systemctl-mcp-server
@@ -2418,11 +3761,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - automated deployments
 
-*Tags: systemctl, mcp, security, ci, deployment, automation, git, devops*
+*Tags: systemctl, mcp, security, ci, deployment, automation, git*
 
 ---
 
-### 147. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)  `innovation: 8` ★☆☆ 🔵
+### 232. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)  `8` ★☆☆ 🔵
 
 **A platform for managing and automating workflows, code reviews, security checks, and integration with external tools.**
 
@@ -2433,13 +3776,29 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integration with GitHub Actions
 - Docker-based deployment
 
-*Tags: software development, devops, security, ai, github integration, code quality, enterprise solutions, developer tools*
+*Tags: software development, security, ai, github integration, code quality, enterprise solutions, developer tools, api integration*
 
 ---
 
-### 148. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `innovation: 8` ★☆☆ 🔵
+### 233. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `8` ★☆☆ 🔵
 
-**The 'terminal-mcp-idk' project provides a GitHub-based platform for developers to manage code reviews, security checks, infrastructure integration, and workflow automation. It emphasizes secure development practices, enterprise-grade security features, and seamless integration with tools like Copilo**
+**This project provides a context-aware, API-driven MCP server built on Apache Superset REST API, designed to enhance data query capabilities through large models. It supports secure authentication via LDAP, integrates with Node.js, and offers enterprise-grade security features such as code protection and vulnerability scanning. The codebase emphasizes modular architecture, developer workflow automa**
+
+**Key Features:**
+- Query database and tables using SQL
+- Execute SQL queries with Node.js
+- Integrate external tools via APIs
+- Support enterprise-grade security features
+- Enable automated workflows and code reviews
+- Provide instant dev environments with Codespaces
+
+*Tags: superset, mcp-server, security, developer-tools, enterprise*
+
+---
+
+### 234. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `8` ★☆☆ 🔵
+
+**The 'terminal-mcp-idk' project provides a GitHub-based platform for developers to manage code reviews, security checks, infrastructure integration, and workflow automation. It emphasizes secure development practices, enterprise-grade security features, and seamless integration with tools like Copilot, CI/CD pipelines, and MCP (Model Context Protocol). The platform supports enterprise use cases suc**
 
 **Key Features:**
 - code review
@@ -2452,9 +3811,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 149. [lkm1developer/google-docs-mcp-server](https://github.com/lkm1developer/google-docs-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 235. [lkm1developer/google-docs-mcp-server](https://github.com/lkm1developer/google-docs-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a centralized environment for developers to collaborate on code changes, conduct security assessments, and integrate with enterprise tools. It supports automated workflows, secure code management, and enterprise-grade security features, making it suitable for modern DevOps and A**
+**The project provides a centralized environment for developers to collaborate on code changes, conduct security assessments, and integrate with enterprise tools. It supports automated workflows, secure code management, and enterprise-grade security features, making it suitable for modern DevOps and AI-driven development practices.**
 
 **Key Features:**
 - code review
@@ -2467,9 +3826,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 150. [loglmhq/mcp-server-github-repo](https://github.com/loglmhq/mcp-server-github-repo)  `innovation: 8` ★☆☆ 🔵
+### 236. [loglmhq/mcp-server-github-repo](https://github.com/loglmhq/mcp-server-github-repo)  `8` ★☆☆ 🔵
 
-**The MCP server facilitates seamless integration between AI assistants and GitHub repositories by providing secure access to repository contents. It supports file browsing, content retrieval, branch-specific access, and integrates with tools like Code Review, Security, and CI/CD pipelines. This enhan**
+**The MCP server facilitates seamless integration between AI assistants and GitHub repositories by providing secure access to repository contents. It supports file browsing, content retrieval, branch-specific access, and integrates with tools like Code Review, Security, and CI/CD pipelines. This enhances developer productivity through automated workflows, code analysis, and compliance checks.**
 
 **Key Features:**
 - GitHub file browsing
@@ -2483,9 +3842,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 151. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `innovation: 8` ★☆☆ 🔵
+### 237. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `8` ★☆☆ 🔵
 
-**The Borg Project's 'playlist-mcp' repository provides an experimental MCP server designed to generate transcripts from YouTube playlists. It integrates various development tools such as GitHub Copilot, Codespaces, and MCP registry for seamless workflow automation. The project focuses on enhancing de**
+**The Borg Project's 'playlist-mcp' repository provides an experimental MCP server designed to generate transcripts from YouTube playlists. It integrates various development tools such as GitHub Copilot, Codespaces, and MCP registry for seamless workflow automation. The project focuses on enhancing developer productivity by automating tasks like code reviews, security checks, and deployment processe**
 
 **Key Features:**
 - automated workflows
@@ -2498,9 +3857,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 152. [magarcia/mcp-server-linearapp](https://github.com/magarcia/mcp-server-linearapp)  `innovation: 8` ★☆☆ 🔵
+### 238. [magarcia/mcp-server-linearapp](https://github.com/magarcia/mcp-server-linearapp)  `8` ★☆☆ 🔵
 
-**The MCP Server acts as a bridge between AI models and Linear's internal systems, facilitating seamless integration for tasks such as issue management, project tracking, and workflow automation. It supports automated actions, secure code deployment, and real-time data synchronization, making it ideal**
+**The MCP Server acts as a bridge between AI models and Linear's internal systems, facilitating seamless integration for tasks such as issue management, project tracking, and workflow automation. It supports automated actions, secure code deployment, and real-time data synchronization, making it ideal for modernizing enterprise software development workflows.**
 
 **Key Features:**
 - Integration with Linear's issue tracking system via MCP
@@ -2515,9 +3874,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 153. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 239. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a centralized platform for managing audio files, integrating code review workflows, security scanning, and automated deployment processes. It leverages GitHub's ecosystem to enable developers to securely manage code changes, enforce best practices, and maintain compliance throug**
+**The project provides a centralized platform for managing audio files, integrating code review workflows, security scanning, and automated deployment processes. It leverages GitHub's ecosystem to enable developers to securely manage code changes, enforce best practices, and maintain compliance through integrated tools like Copilot, MCP Registry, and enterprise-grade security features.**
 
 **Key Features:**
 - code review
@@ -2530,7 +3889,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 154. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms)  `innovation: 8` ★☆☆ 🔵
+### 240. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms)  `8` ★☆☆ 🔵
 
 **The project provides a platform for developers to collaborate on code changes, manage pull requests, and integrate security checks. It supports enterprise-level workflows with features like automated code review, vulnerability detection, and integration with external tools.**
 
@@ -2544,7 +3903,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 155. [masony817/ask-human-mcp](https://github.com/masony817/ask-human-mcp)  `innovation: 8` ★☆☆ 🔵
+### 241. [masony817/ask-human-mcp](https://github.com/masony817/ask-human-mcp)  `8` ★☆☆ 🔵
 
 **A human-in-the-loop AI assistant for managing and improving code quality, security, and development workflows.**
 
@@ -2555,13 +3914,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD pipeline support
 - Secure environment setup and management
 
-*Tags: ai, security, code, devops, mcp, testing, integration, automation*
+*Tags: ai, security, code, mcp, testing, integration, automation, security*
 
 ---
 
-### 156. [matteoantoci/google-forms-mcp](https://github.com/matteoantoci/google-forms-mcp)  `innovation: 8` ★☆☆ 🔵
+### 242. [matteoantoci/google-forms-mcp](https://github.com/matteoantoci/google-forms-mcp)  `8` ★☆☆ 🔵
 
-**The 'Borg' Project provides a developer-focused tool to streamline software development workflows using advanced GitHub integrations. It supports automated code review processes, secure pull request management, and enterprise-grade security features, making it ideal for modern DevOps and CI/CD pipel**
+**The 'Borg' Project provides a developer-focused tool to streamline software development workflows using advanced GitHub integrations. It supports automated code review processes, secure pull request management, and enterprise-grade security features, making it ideal for modern DevOps and CI/CD pipelines.**
 
 **Key Features:**
 - code review automation
@@ -2570,11 +3929,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - project documentation
 
-*Tags: developer, security, cicd, automation, integration, code, reviews, workflow*
+*Tags: developer, security, automation, integration, code, reviews, workflow, enterprise*
 
 ---
 
-### 157. [mckaywrigley/takeoff-linear-mcp-server](https://github.com/mckaywrigley/takeoff-linear-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 243. [mckaywrigley/takeoff-linear-mcp-server](https://github.com/mckaywrigley/takeoff-linear-mcp-server)  `8` ★☆☆ 🔵
 
 **The project provides a platform for developers to host, manage, and deploy machine learning models using GitHub Actions. It integrates code review, security checks, CI/CD pipelines, and enterprise-grade infrastructure to support modern software development practices.**
 
@@ -2589,9 +3948,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 158. [mcp-shark/mcp-shark](https://github.com/mcp-shark/mcp-shark)  `innovation: 8` ★☆☆ 🔵
+### 244. [mcp-shark/mcp-shark](https://github.com/mcp-shark/mcp-shark)  `8` ★☆☆ 🔵
 
-**A tool designed to inspect, capture, and investigate HTTP requests and responses between an IDE (or agent) and MCP servers. It provides a security scanner for AI agent tools by analyzing MCP configurations and tool metadata on the local machine. The core innovation lies in its 'Toxic Flow Analysis' **
+**A tool designed to inspect, capture, and investigate HTTP requests and responses between an IDE (or agent) and MCP servers. It provides a security scanner for AI agent tools by analyzing MCP configurations and tool metadata on the local machine. The core innovation lies in its 'Toxic Flow Analysis' which models how MCP servers compose in the agent context, flagging risky capability pairings (e.g.,**
 
 **Key Features:**
 - ['Security scanner for AI agent tools (static analysis on MCP configs and tool metadata).'
@@ -2608,7 +3967,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 159. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 245. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8` ★☆☆ 🔵
 
 **A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
 
@@ -2623,9 +3982,23 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 160. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `innovation: 8` ★☆☆ 🔵
+### 246. [mistizz/mcp-japanesetextanalyzer](https://github.com/mistizz/mcp-japanesetextanalyzer)  `8` ★☆☆ 🔵
 
-**The Model Context Protocol (MCP) is an open-source specification that defines how AI models can securely share context and state across different services or environments. This GitHub project offers comprehensive documentation, including a TypeScript schema, JSON Schema, and examples for integrating**
+**日本語テキストの形態素解析を行い、言語的特徴を分析するMCPサーバーです。**
+
+**Key Features:**
+- 日本語テキストの文字数（スペースや改行を除いた実質的な文字数）
+- 日本語テキストの単語数
+- 形態素解析による詳細な言語的特徴分析
+- 平均文長、品詞の割合、語彙の多様性、助詞・カタカナ・漢字の割合、敬語使用頻度、句読点数
+
+*Tags: mcp-japanese-text-analyzer, microsoft-code-analysis, text-processing, language-analysis, ai-powered-development, security-scanning, code-quality, developer-workflow*
+
+---
+
+### 247. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `8` ★☆☆ 🔵
+
+**The Model Context Protocol (MCP) is an open-source specification that defines how AI models can securely share context and state across different services or environments. This GitHub project offers comprehensive documentation, including a TypeScript schema, JSON Schema, and examples for integrating MCP into applications. It supports enterprise-grade security features such as code signing, vulnera**
 
 **Key Features:**
 - Model context sharing
@@ -2639,9 +4012,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 161. [mxiris-reverse-engineering/ida-mcp-server](https://github.com/mxiris-reverse-engineering/ida-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 248. [mxiris-reverse-engineering/ida-mcp-server](https://github.com/mxiris-reverse-engineering/ida-mcp-server)  `8` ★☆☆ 🔵
 
-**The MxIris-Reverse-Engineering project provides a Model Context Protocol (MCP) server for interacting with the IDA Analyzer using Large Language Models. This tool streamlines reverse engineering workflows by automating interactions, improving code analysis, and integrating with IDEs like Visual Stud**
+**The MxIris-Reverse-Engineering project provides a Model Context Protocol (MCP) server for interacting with the IDA Analyzer using Large Language Models. This tool streamlines reverse engineering workflows by automating interactions, improving code analysis, and integrating with IDEs like Visual Studio Code.**
 
 **Key Features:**
 - Model context protocol integration
@@ -2654,9 +4027,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 162. [n0safe/directus-mcp](https://github.com/n0safe/directus-mcp)  `innovation: 8` ★☆☆ 🔵
+### 249. [n0safe/directus-mcp](https://github.com/n0safe/directus-mcp)  `8` ★☆☆ 🔵
 
-**The N0SAFE/directus-mcp project offers a developer-focused platform that integrates advanced security features, automated code review processes, and workflow automation tools to support modern software development practices. It emphasizes enterprise-grade security, code quality assurance, and seamle**
+**The N0SAFE/directus-mcp project offers a developer-focused platform that integrates advanced security features, automated code review processes, and workflow automation tools to support modern software development practices. It emphasizes enterprise-grade security, code quality assurance, and seamless integration with external tools.**
 
 **Key Features:**
 - code review
@@ -2669,9 +4042,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 163. [n0safe/grafana-mcp](https://github.com/n0safe/grafana-mcp)  `innovation: 8` ★☆☆ 🔵
+### 250. [n0safe/grafana-mcp](https://github.com/n0safe/grafana-mcp)  `8` ★☆☆ 🔵
 
-**The N0SAFE/grafana-mcp project provides a centralized dashboard for developers to monitor code repositories, detect security issues, and manage workflows using Grafana. It integrates with GitHub to offer real-time insights into project activity, vulnerabilities, and operational metrics, supporting b**
+**The N0SAFE/grafana-mcp project provides a centralized dashboard for developers to monitor code repositories, detect security issues, and manage workflows using Grafana. It integrates with GitHub to offer real-time insights into project activity, vulnerabilities, and operational metrics, supporting both enterprise and small-team use cases.**
 
 **Key Features:**
 - code review
@@ -2684,7 +4057,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 164. [nextdriveioe/github-action-trigger-mcp](https://github.com/nextdriveioe/github-action-trigger-mcp)  `innovation: 8` ★☆☆ 🔵
+### 251. [nextdriveioe/github-action-trigger-mcp](https://github.com/nextdriveioe/github-action-trigger-mcp)  `8` ★☆☆ 🔵
 
 **A GitHub Action server for automating workflows, triggering CI/CD pipelines, and integrating with external tools.**
 
@@ -2699,9 +4072,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 165. [norbinsh/cursor-mcp-trivy](https://github.com/norbinsh/cursor-mcp-trivy)  `innovation: 8` ★☆☆ 🔵
+### 252. [norbinsh/cursor-mcp-trivy](https://github.com/norbinsh/cursor-mcp-trivy)  `8` ★☆☆ 🔵
 
-**The norbinsh/cursor-mcp-trivy project provides a standardized interface to connect large language models (LLMs) with external tools and services, specifically focusing on security scanning using Trivy. It enables developers to automate vulnerability detection and remediation directly within their de**
+**The norbinsh/cursor-mcp-trivy project provides a standardized interface to connect large language models (LLMs) with external tools and services, specifically focusing on security scanning using Trivy. It enables developers to automate vulnerability detection and remediation directly within their development workflow, enhancing the DevSecOps lifecycle.**
 
 **Key Features:**
 - MCP server integration
@@ -2710,13 +4083,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Dependency management
 - Project-wide vulnerability detection
 
-*Tags: security, devops, trivy, mcp, ci/cd, ai, codequality, enterprise*
+*Tags: security, trivy, mcp, ai, codequality, enterprise*
 
 ---
 
-### 166. [octavious/mcp_sample](https://github.com/octavious/mcp_sample)  `innovation: 8` ★☆☆ 🔵
+### 253. [octavious/mcp_sample](https://github.com/octavious/mcp_sample)  `8` ★☆☆ 🔵
 
-**The MCP_Sample repository showcases a practical implementation of automated workflows via GitHub Actions, focusing on code review, pull request management, and integration with external tools. It emphasizes developer productivity by streamlining processes such as code validation, security checks, an**
+**The MCP_Sample repository showcases a practical implementation of automated workflows via GitHub Actions, focusing on code review, pull request management, and integration with external tools. It emphasizes developer productivity by streamlining processes such as code validation, security checks, and deployment pipelines.**
 
 **Key Features:**
 - GitHub Actions integration
@@ -2729,9 +4102,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 167. [odewahn/orm-mcp-tools](https://github.com/odewahn/orm-mcp-tools)  `innovation: 8` ★☆☆ 🔵
+### 254. [odewahn/orm-mcp-tools](https://github.com/odewahn/orm-mcp-tools)  `8` ★☆☆ 🔵
 
-**The 'orm-mcp-tools' project offers a suite of GitHub tools designed to streamline software development processes. It includes features such as code review management, pull request automation, and integration with CI/CD pipelines. The tool supports enterprise-level security measures, ensuring secure **
+**The 'orm-mcp-tools' project offers a suite of GitHub tools designed to streamline software development processes. It includes features such as code review management, pull request automation, and integration with CI/CD pipelines. The tool supports enterprise-level security measures, ensuring secure code deployment and vulnerability management. With capabilities like instant dev environments, workf**
 
 **Key Features:**
 - code review
@@ -2744,9 +4117,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 168. [okdshin/duckduckgo_web_search_mcp_server](https://github.com/okdshin/duckduckgo_web_search_mcp_server)  `innovation: 8` ★☆☆ 🔵
+### 255. [okdshin/duckduckgo_web_search_mcp_server](https://github.com/okdshin/duckduckgo_web_search_mcp_server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-based web interface that enables users to search, retrieve, and manage code snippets, pull requests, and related artifacts from various repositories. It supports automation workflows, integrates with CI/CD pipelines, and offers features such as code review management, s**
+**The project provides a GitHub-based web interface that enables users to search, retrieve, and manage code snippets, pull requests, and related artifacts from various repositories. It supports automation workflows, integrates with CI/CD pipelines, and offers features such as code review management, security scanning, and deployment orchestration.**
 
 **Key Features:**
 - code search
@@ -2759,9 +4132,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 169. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 256. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8` ★☆☆ 🔵
 
-**The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient handling of web security tasks within enterprise envi**
+**The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient handling of web security tasks within enterprise environments.**
 
 **Key Features:**
 - MCP protocol integration
@@ -2773,9 +4146,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 170. [phialsbasement/nmap-mcp-server](https://github.com/phialsbasement/nmap-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 257. [pgzhang/mcp](https://github.com/pgzhang/mcp)  `8` ★☆☆ 🔵
 
-**The PhialsBasement/nmap-mcp-server project provides a Model Context Protocol (MCP) server that allows AI tools, such as Claude Desktop, to interact with NMAP for automated network scanning and security assessments. It simplifies the integration of AI-driven network analysis into existing workflows b**
+**The pgzhang/mcp project offers a comprehensive developer platform that integrates code review, security scanning, and workflow automation. It supports enterprise-grade security features, including vulnerability detection and secure code deployment, making it suitable for modern DevOps and CI/CD pipelines.**
+
+**Key Features:**
+- Code Review Management
+- Security Auditing
+- Workflow Automation
+- Integration with GitHub Actions
+- AI-powered Code Assistance
+
+*Tags: software development, security, ai development, github integration, developer tools*
+
+---
+
+### 258. [phialsbasement/nmap-mcp-server](https://github.com/phialsbasement/nmap-mcp-server)  `8` ★☆☆ 🔵
+
+**The PhialsBasement/nmap-mcp-server project provides a Model Context Protocol (MCP) server that allows AI tools, such as Claude Desktop, to interact with NMAP for automated network scanning and security assessments. It simplifies the integration of AI-driven network analysis into existing workflows by offering a standardized API, supporting quick scans, full port scans, version detection, and custo**
 
 **Key Features:**
 - Model Context Protocol (MCP) integration
@@ -2788,7 +4176,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 171. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `innovation: 8` ★☆☆ 🔵
+### 259. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `8` ★☆☆ 🔵
 
 **Portainer MCP enables AI assistants to interact with Portainer environments in a standardized, secure way.**
 
@@ -2805,9 +4193,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 172. [promplate/pyth-on-line](https://github.com/promplate/pyth-on-line)  `innovation: 8` ★☆☆ 🔵
+### 260. [promplate/pyth-on-line](https://github.com/promplate/pyth-on-line)  `8` ★☆☆ 🔵
 
-**The promplate/pyth-on-line project offers an online Python IDE featuring built-in Copilot, Hot Module Reloading (HMR), and a suite of side-projects such as static analysis tools and testing frameworks. It supports modern development practices including CI/CD, code review, security scanning, and depl**
+**The promplate/pyth-on-line project offers an online Python IDE featuring built-in Copilot, Hot Module Reloading (HMR), and a suite of side-projects such as static analysis tools and testing frameworks. It supports modern development practices including CI/CD, code review, security scanning, and deployment automation.**
 
 **Key Features:**
 - Online Python IDE
@@ -2822,9 +4210,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 173. [pylogmon/time-mcp](https://github.com/pylogmon/time-mcp)  `innovation: 8` ★☆☆ 🔵
+### 261. [pylogmon/time-mcp](https://github.com/pylogmon/time-mcp)  `8` ★☆☆ 🔵
 
-**The Pylogmon / time-mcp project is a GitHub-based platform designed to streamline software development workflows. It focuses on automating code review processes, tracking pull requests, and enhancing security through vulnerability detection. The tool integrates with CI/CD pipelines, supports enterpr**
+**The Pylogmon / time-mcp project is a GitHub-based platform designed to streamline software development workflows. It focuses on automating code review processes, tracking pull requests, and enhancing security through vulnerability detection. The tool integrates with CI/CD pipelines, supports enterprise-grade security features, and provides developers with advanced tools for managing code changes e**
 
 **Key Features:**
 - code review automation
@@ -2837,7 +4225,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 174. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `innovation: 8` ★☆☆ 🔵
+### 262. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `8` ★☆☆ 🔵
 
 **A tool for auditing npm package dependencies to identify security vulnerabilities using real-time remote registry integration.**
 
@@ -2852,9 +4240,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 175. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `innovation: 8` ★☆☆ 🔵
+### 263. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `8` ★☆☆ 🔵
 
-**The pty-mcp project offers an MCP (Multi-Process Communication) tool server that delivers a persistent, stateful terminal environment. This allows developers to run and manage multiple processes in isolation, enhancing workflow automation and code execution efficiency. The tool is designed for integ**
+**The pty-mcp project offers an MCP (Multi-Process Communication) tool server that delivers a persistent, stateful terminal environment. This allows developers to run and manage multiple processes in isolation, enhancing workflow automation and code execution efficiency. The tool is designed for integration into development workflows, supporting actions such as code review, security audits, and CI/C**
 
 **Key Features:**
 - stateful terminal
@@ -2863,11 +4251,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - CI/CD integration
 
-*Tags: mcp, terminal, developer, code, security, ci, devops, automation*
+*Tags: mcp, terminal, developer, code, security, ci, automation, integration*
 
 ---
 
-### 176. [raccoonaihq/raccoonai-mcp-server](https://github.com/raccoonaihq/raccoonai-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 264. [raccoonaihq/raccoonai-mcp-server](https://github.com/raccoonaihq/raccoonai-mcp-server)  `8` ★☆☆ 🔵
 
 **The Raccoon AI MCP Server is an agent orchestration tool that leverages the LAM API for web browsing, data extraction, and automation of complex web tasks. It supports a wide range of use cases including code review, security audits, CI/CD pipelines, and enterprise application integration.**
 
@@ -2879,13 +4267,29 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - CI/CD integration
 
-*Tags: agent orchestration, workflow automation, ai development, security scanning, ci/cd, code analysis, data extraction, mcp server*
+*Tags: agent orchestration, workflow automation, ai development, security scanning, code analysis, data extraction, mcp server, developer tools*
 
 ---
 
-### 177. [rami-0/python_mcp](https://github.com/rami-0/python_mcp)  `innovation: 8` ★☆☆ 🔵
+### 265. [raju-deriv/mcp-deriv-api-server](https://github.com/raju-deriv/mcp-deriv-api-server)  `8` ★☆☆ 🔵
 
-**The project provides a Python extension (file-search) that enables developers to search, manage, and automate workflows using GitHub Actions and AI-powered code assistance. It integrates with CI/CD pipelines, supports secure code practices, and offers features like code review management, vulnerabil**
+**The mcp-deriv-api-server is a custom-built API server designed to facilitate integration between enterprise systems and the Deriv AI platform. It provides essential functionalities such as symbol management, account balance checks, and secure code execution using OpenAI models. The server supports automated workflows, integrates with Docker for containerized deployment, and offers robust security **
+
+**Key Features:**
+- API integration
+- code execution
+- symbol management
+- secure code execution
+- automated workflows
+- containerization support
+
+*Tags: deriv, openai, security, developer, workflow, integration, ai*
+
+---
+
+### 266. [rami-0/python_mcp](https://github.com/rami-0/python_mcp)  `8` ★☆☆ 🔵
+
+**The project provides a Python extension (file-search) that enables developers to search, manage, and automate workflows using GitHub Actions and AI-powered code assistance. It integrates with CI/CD pipelines, supports secure code practices, and offers features like code review management, vulnerability detection, and deployment automation.**
 
 **Key Features:**
 - code search
@@ -2898,7 +4302,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 178. [rleek/poc-mcp-proxy](https://github.com/rleek/poc-mcp-proxy)  `innovation: 8` ★☆☆ 🔵
+### 267. [rleek/poc-mcp-proxy](https://github.com/rleek/poc-mcp-proxy)  `8` ★☆☆ 🔵
 
 **The RLeek/poc-mcp-proxy project provides a GitHub-hosted Proxy POC to demonstrate workflow automation, code review, security scanning, and CI/CD integration. It supports advanced features such as pull request management, code quality checks, vulnerability detection, and secure deployment pipelines.**
 
@@ -2909,11 +4313,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - vulnerability detection
 
-*Tags: proxypoc, gitlab, ci, security, devops*
+*Tags: proxypoc, gitlab, ci, security*
 
 ---
 
-### 179. [rmasters/mcp-openapi](https://github.com/rmasters/mcp-openapi)  `innovation: 8` ★☆☆ 🔵
+### 268. [rmasters/mcp-openapi](https://github.com/rmasters/mcp-openapi)  `8` ★☆☆ 🔵
 
 **The MCP-OpenAPI project provides a Python-based server that parses an OpenAPI specification and exposes HTTP methods as tools. This enables developers to interact with APIs directly from the command line or IDEs, supporting features like code generation, security scanning, and workflow automation.**
 
@@ -2928,9 +4332,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 180. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 269. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `8` ★☆☆ 🔵
 
-**The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS queries, WHOIS record retrieval, IP geolocation, and**
+**The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS queries, WHOIS record retrieval, IP geolocation, and more. The server is built on Python and integrates AI agents like Claude to automate and enhance se**
 
 **Key Features:**
 - ASN (Autonomous System Number) Lookup
@@ -2949,9 +4353,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 181. [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw)  `innovation: 8` ★☆☆ 🔵
+### 270. [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw)  `8` ★☆☆ 🔵
 
-**The resource provides a GitHub repository containing the source code for a command-line interface (CLI) tool designed to manage and interact with MCP servers. This tool is structured to facilitate automated configuration, monitoring, and management of MCP server instances, supporting workflows such **
+**The resource provides a GitHub repository containing the source code for a command-line interface (CLI) tool designed to manage and interact with MCP servers. This tool is structured to facilitate automated configuration, monitoring, and management of MCP server instances, supporting workflows such as deployment, security audits, and integration with external systems.**
 
 **Key Features:**
 - MCP server management
@@ -2964,9 +4368,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 182. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `innovation: 8` ★☆☆ 🔵
+### 271. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `8` ★☆☆ 🔵
 
-**The project provides a centralized platform for developers to build, manage, and deploy intelligent applications using tools like GitHub Copilot, AIGitHub SparkBuild, and MCP Registry. It supports enterprise-level code review, security audits, and workflow automation, making it suitable for moderniz**
+**The project provides a centralized platform for developers to build, manage, and deploy intelligent applications using tools like GitHub Copilot, AIGitHub SparkBuild, and MCP Registry. It supports enterprise-level code review, security audits, and workflow automation, making it suitable for modernizing software development processes.**
 
 **Key Features:**
 - Code generation with AI
@@ -2979,7 +4383,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 183. [sammcj/mcp-snyk](https://github.com/sammcj/mcp-snyk)  `innovation: 8` ★☆☆ 🔵
+### 272. [sammcj/mcp-snyk](https://github.com/sammcj/mcp-snyk)  `8` ★☆☆ 🔵
 
 **A standalone MCP server for Snyk security scanning, enabling automated vulnerability detection and integration into development workflows.**
 
@@ -2989,13 +4393,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Token verification
 - CLI configuration support
 
-*Tags: mcp-snyk, security-scanning, developer-tools, ci/cd, code-quality, enterprise-security*
+*Tags: mcp-snyk, security-scanning, developer-tools, code-quality, enterprise-security*
 
 ---
 
-### 184. [sanity-io/sanity-mcp-server](https://github.com/sanity-io/sanity-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 273. [sanity-io/sanity-mcp-server](https://github.com/sanity-io/sanity-mcp-server)  `8` ★☆☆ 🔵
 
-**This project provides a local MCP (Managed Code Platform) server that enables teams to streamline software development processes by automating code review, pull request management, and continuous integration/continuous deployment (CI/CD) workflows. It supports modern DevOps practices with features l**
+**This project provides a local MCP (Managed Code Platform) server that enables teams to streamline software development processes by automating code review, pull request management, and continuous integration/continuous deployment (CI/CD) workflows. It supports modern DevOps practices with features like automated code analysis, secure access control, and seamless integration with popular tools such**
 
 **Key Features:**
 - code review automation
@@ -3004,11 +4408,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - developer collaboration tools
 
-*Tags: mcp, code-review, ci-cd, security, devops, git, ai, enterprise*
+*Tags: mcp, code-review, ci-cd, security, git, ai, enterprise*
 
 ---
 
-### 185. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `innovation: 8` ★☆☆ 🔵
+### 274. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `8` ★☆☆ 🔵
 
 **The project provides a model context protocol server that analyzes Python code for structure, complexity, and dependencies using Claude. It supports warnings and integrates with AI tools to enhance code quality and security.**
 
@@ -3022,9 +4426,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 186. [shenghaiwang/xcodebuild](https://github.com/shenghaiwang/xcodebuild)  `innovation: 8` ★☆☆ 🔵
+### 275. [shenghaiwang/xcodebuild](https://github.com/shenghaiwang/xcodebuild)  `8` ★☆☆ 🔵
 
-**The ShenghaiWang/xcodebuild project provides a MCP (Model Compilation) tool designed to streamline the process of building Xcode iOS workspaces and projects. It facilitates seamless integration with Visual Studio Code, enabling developers to leverage extensions like Cline or Roo Code for enhanced wo**
+**The ShenghaiWang/xcodebuild project provides a MCP (Model Compilation) tool designed to streamline the process of building Xcode iOS workspaces and projects. It facilitates seamless integration with Visual Studio Code, enabling developers to leverage extensions like Cline or Roo Code for enhanced workflow automation. The tool supports advanced features such as code review management, security audi**
 
 **Key Features:**
 - Build iOS Xcode workspaces
@@ -3037,7 +4441,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 187. [shimapon/mcp-server-diceroll](https://github.com/shimapon/mcp-server-diceroll)  `innovation: 8` ★☆☆ 🔵
+### 276. [shimapon/mcp-server-diceroll](https://github.com/shimapon/mcp-server-diceroll)  `8` ★☆☆ 🔵
 
 **The shimapon/mcp-server-diceroll project provides a GitHub repository that implements a decoder for MCP (Machine Code Protocol) files. It focuses on parsing and interpreting binary code snippets, likely supporting automated code generation or transformation workflows.**
 
@@ -3051,7 +4455,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 188. [signal-slot/mcp-gdb](https://github.com/signal-slot/mcp-gdb)  `innovation: 8` ★☆☆ 🔵
+### 277. [signal-slot/mcp-gdb](https://github.com/signal-slot/mcp-gdb)  `8` ★☆☆ 🔵
 
 **A GitHub-based developer platform for managing code reviews, CI/CD pipelines, security audits, and enterprise software development workflows.**
 
@@ -3062,13 +4466,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Secure deployment and infrastructure provisioning
 - Collaboration tools for teams
 
-*Tags: developer workflow, code security, ci/cd, security auditing, enterprise development*
+*Tags: developer workflow, code security, security auditing, enterprise development*
 
 ---
 
-### 189. [sjwiesman/mcp-materialize](https://github.com/sjwiesman/mcp-materialize)  `innovation: 8` ★☆☆ 🔵
+### 278. [sjwiesman/mcp-materialize](https://github.com/sjwiesman/mcp-materialize)  `8` ★☆☆ 🔵
 
-**The sjwiesman/mcp-materialize project provides a comprehensive developer platform that integrates advanced code generation, workflow automation, security features, and enterprise-grade CI/CD capabilities. It supports modern DevOps practices by offering tools for code review, security scanning, and i**
+**The sjwiesman/mcp-materialize project provides a comprehensive developer platform that integrates advanced code generation, workflow automation, security features, and enterprise-grade CI/CD capabilities. It supports modern DevOps practices by offering tools for code review, security scanning, and infrastructure management, making it suitable for both startups and large enterprises.**
 
 **Key Features:**
 - Code generation
@@ -3082,9 +4486,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 190. [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 279. [spencerhhubert/illustrator-mcp-server](https://github.com/spencerhhubert/illustrator-mcp-server)  `8` ★☆☆ 🔵
 
-**The Borg Project introduces an illustrator-mcp-server that enables developers to programmatically generate and execute scripts within Adobe Illustrator. This tool leverages AppleScript integration, allowing seamless automation of design tasks directly from the MCP server. It supports advanced workfl**
+**The Borg Project introduces an illustrator-mcp-server that enables developers to programmatically generate and execute scripts within Adobe Illustrator. This tool leverages AppleScript integration, allowing seamless automation of design tasks directly from the MCP server. It supports advanced workflows, including code reviews, security checks, and deployment processes, enhancing productivity for t**
 
 **Key Features:**
 - script execution in Illustrator
@@ -3097,9 +4501,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 191. [spheronfdn/spheron-mcp-plugin](https://github.com/spheronfdn/spheron-mcp-plugin)  `innovation: 8` ★☆☆ 🔵
+### 280. [spheronfdn/spheron-mcp-plugin](https://github.com/spheronfdn/spheron-mcp-plugin)  `8` ★☆☆ 🔵
 
-**The spheron-mcp-plugin is a GitHub Actions plugin designed to streamline the deployment and management of MCP (Multi-Cloud Platform) servers. It provides tools for automating infrastructure provisioning, configuration, and orchestration across multiple cloud environments. The plugin supports CI/CD p**
+**The spheron-mcp-plugin is a GitHub Actions plugin designed to streamline the deployment and management of MCP (Multi-Cloud Platform) servers. It provides tools for automating infrastructure provisioning, configuration, and orchestration across multiple cloud environments. The plugin supports CI/CD pipelines, integrates with various cloud providers, and enhances developer workflows by offering feat**
 
 **Key Features:**
 - MCP server management
@@ -3108,11 +4512,27 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Security scanning
 - Code review tools
 
-*Tags: mcp, ci, cloud, devops, security, automation, integration, deployment*
+*Tags: mcp, ci, cloud, security, automation, integration, deployment, workflow*
 
 ---
 
-### 192. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `innovation: 8` ★☆☆ 🔵
+### 281. [stagas/rtdiff](https://github.com/stagas/rtdiff)  `8` ★☆☆ 🔵
+
+**rtdiff is a user-friendly software tool designed to enhance developer productivity by displaying real-time git differences and offering intelligent commit recommendations powered by AI. It integrates seamlessly into development workflows, supporting modern DevOps practices with features like automated code reviews, security scanning, and customizable project management.**
+
+**Key Features:**
+- Real-time git diff visualization
+- AI-assisted commit suggestions
+- Code review automation
+- Security vulnerability detection
+- Integration with GitHub and other platforms
+- Customizable workflows and project management
+
+*Tags: git, diff, ai, developer, security, code, repository, workflow*
+
+---
+
+### 282. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `8` ★☆☆ 🔵
 
 **A tool for automatically scanning codebases for unmanaged or incomplete TODO items, improving code quality and maintainability.**
 
@@ -3129,9 +4549,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 193. [sujianqingfeng/mcp-upload-file](https://github.com/sujianqingfeng/mcp-upload-file)  `innovation: 8` ★☆☆ 🔵
+### 283. [sujianqingfeng/mcp-upload-file](https://github.com/sujianqingfeng/mcp-upload-file)  `8` ★☆☆ 🔵
 
-**The project implements a file upload system using the Model Context Protocol (MCP) to manage file uploads securely. It integrates with GitHub for version control and supports enterprise-grade security features such as encryption, access controls, and vulnerability detection. The solution emphasizes **
+**The project implements a file upload system using the Model Context Protocol (MCP) to manage file uploads securely. It integrates with GitHub for version control and supports enterprise-grade security features such as encryption, access controls, and vulnerability detection. The solution emphasizes automation, integration with CI/CD pipelines, and provides tools for code review, security audits, a**
 
 **Key Features:**
 - file upload
@@ -3140,13 +4560,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - code review
 - security scanning
 
-*Tags: mcp, security, developer, ci/cd, automation, integration, file management, workflow*
+*Tags: mcp, security, developer, automation, integration, file management, workflow, code*
 
 ---
 
-### 194. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 284. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)  `8` ★☆☆ 🔵
 
-**This project provides a GitLab-based MCP (Manage Code Pull Request) server that enables teams to automate and streamline their development workflows using GitHub's API. It supports key functionalities such as task management, code review, pull requests, and integration with external tools, making it**
+**This project provides a GitLab-based MCP (Manage Code Pull Request) server that enables teams to automate and streamline their development workflows using GitHub's API. It supports key functionalities such as task management, code review, pull requests, and integration with external tools, making it suitable for modern DevOps and CI/CD environments.**
 
 **Key Features:**
 - Task creation and updates
@@ -3160,9 +4580,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 195. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `innovation: 8` ★☆☆ 🔵
+### 285. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `8` ★☆☆ 🔵
 
-**The project provides a Model Context Protocol (MCP) server that facilitates automated Twitter interactions using the agent-twitter-client library. It supports retrieving and posting tweets, integrates with Docker for deployment, and includes features like code review, security scanning, and CI/CD wo**
+**The project provides a Model Context Protocol (MCP) server that facilitates automated Twitter interactions using the agent-twitter-client library. It supports retrieving and posting tweets, integrates with Docker for deployment, and includes features like code review, security scanning, and CI/CD workflows.**
 
 **Key Features:**
 - get_tweet
@@ -3170,11 +4590,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - code_review
 - security_scanning
 
-*Tags: twitter-scraper, mcp-server, agent-twitter-client, docker, fastmcp, developer-tools*
+*Tags: twitter-scraper, mcp-server, agent-twitter-client, fastmcp, developer-tools*
 
 ---
 
-### 196. [taylorleese/mcp-toolz](https://github.com/taylorleese/mcp-toolz)  `innovation: 8` ★☆☆ 🔵
+### 286. [taylorleese/mcp-toolz](https://github.com/taylorleese/mcp-toolz)  `8` ★☆☆ 🔵
 
 **A developer workflow tool for Claude Code that integrates AI feedback, code review, and security scanning to streamline software development processes.**
 
@@ -3192,7 +4612,22 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 197. [techomancer/iris](https://github.com/techomancer/iris)  `innovation: 8` ★☆☆ 🔵
+### 287. [technavii/mcp_sample](https://github.com/technavii/mcp_sample)  `8` ★☆☆ 🔵
+
+**The TechNavii/mcp_sample repository provides a GitHub-based platform that integrates advanced code review, security scanning, and workflow automation features. It leverages AI-powered tools like Copilot for Business and Code Review to enhance developer productivity while ensuring application security through vulnerability detection and protection mechanisms.**
+
+**Key Features:**
+- Code review assistance
+- AI-driven security analysis
+- Workflow automation
+- File management with MCP server
+- Secure code deployment
+
+*Tags: ai, security, code, developer, automation, mcp, ai*
+
+---
+
+### 288. [techomancer/iris](https://github.com/techomancer/iris)  `8` ★☆☆ 🔵
 
 **An AI-assisted emulator for testing and developing software, focusing on code generation, security, and workflow automation.**
 
@@ -3207,9 +4642,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 198. [texas000/mcp](https://github.com/texas000/mcp)  `innovation: 8` ★☆☆ 🔵
+### 289. [texas000/mcp](https://github.com/texas000/mcp)  `8` ★☆☆ 🔵
 
-**The project leverages FastAPI to build a modern API service that connects with MCP servers via MCP protocol. It supports automated workflows, secure code deployment, and integrates external tools for enhanced security and scalability. The solution emphasizes developer productivity through CI/CD pipe**
+**The project leverages FastAPI to build a modern API service that connects with MCP servers via MCP protocol. It supports automated workflows, secure code deployment, and integrates external tools for enhanced security and scalability. The solution emphasizes developer productivity through CI/CD pipelines, Docker-based deployment, and robust security features like secret management and vulnerabilit**
 
 **Key Features:**
 - FastAPI framework integration
@@ -3220,13 +4655,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - vulnerability scanning)
 - CI/CD pipeline integration
 
-*Tags: fastapi, mcp, developer-ux, security, ci-cd, docker, api-development*
+*Tags: fastapi, mcp, developer-ux, security, ci-cd, api-development*
 
 ---
 
-### 199. [thedaviddias/mcp-llms-txt-explorer](https://github.com/thedaviddias/mcp-llms-txt-explorer)  `innovation: 8` ★☆☆ 🔵
+### 290. [thedaviddias/mcp-llms-txt-explorer](https://github.com/thedaviddias/mcp-llms-txt-explorer)  `8` ★☆☆ 🔵
 
-**The MCP LLMS Txt Explorer is a GitHub-based application designed to help developers and security professionals identify, validate, and analyze websites that utilize the llms.txt standard. It enables users to parse and verify compliance with this format, supporting automated code reviews, security as**
+**The MCP LLMS Txt Explorer is a GitHub-based application designed to help developers and security professionals identify, validate, and analyze websites that utilize the llms.txt standard. It enables users to parse and verify compliance with this format, supporting automated code reviews, security assessments, and integration into CI/CD pipelines. The tool emphasizes developer workflow efficiency b**
 
 **Key Features:**
 - Website exploration with llms.txt files
@@ -3239,7 +4674,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 200. [threatflux/yaraflux](https://github.com/threatflux/yaraflux)  `innovation: 8` ★☆☆ 🔵
+### 291. [threatflux/yaraflux](https://github.com/threatflux/yaraflux)  `8` ★☆☆ 🔵
 
 **YaraFlux MCP Server enables AI assistants to perform YARA rule-based threat analysis through a modular architecture, integrating seamlessly with Claude Desktop.**
 
@@ -3254,9 +4689,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 201. [timbuchinger/mcp-github](https://github.com/timbuchinger/mcp-github)  `innovation: 8` ★☆☆ 🔵
+### 292. [timbuchinger/mcp-github](https://github.com/timbuchinger/mcp-github)  `8` ★☆☆ 🔵
 
-**The project provides a developer platform centered around GitHub integration, enabling automation of tasks such as issue creation, code review management, security audits, and CI/CD pipelines. It supports enterprise-grade security features, including secure token handling and vulnerability detection**
+**The project provides a developer platform centered around GitHub integration, enabling automation of tasks such as issue creation, code review management, security audits, and CI/CD pipelines. It supports enterprise-grade security features, including secure token handling and vulnerability detection, making it suitable for modern DevOps and development workflows.**
 
 **Key Features:**
 - Automate GitHub workflows
@@ -3265,13 +4700,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - External tool integration
 
-*Tags: developer, security, automation, cicd, integration*
+*Tags: developer, security, automation, integration*
 
 ---
 
-### 202. [timsonner/mcp-vscode-template](https://github.com/timsonner/mcp-vscode-template)  `innovation: 8` ★☆☆ 🔵
+### 293. [timsonner/mcp-vscode-template](https://github.com/timsonner/mcp-vscode-template)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub-hosted MCP (Microsoft Code Platform) server template tailored for VS Code, enabling developers to integrate advanced security scanning, code review, and automated workflows directly within their editor. It supports features like vulnerability detection, code quality che**
+**The project provides a GitHub-hosted MCP (Microsoft Code Platform) server template tailored for VS Code, enabling developers to integrate advanced security scanning, code review, and automated workflows directly within their editor. It supports features like vulnerability detection, code quality checks, and seamless integration with tools such as GitHub Copilot and AI-driven code assistants.**
 
 **Key Features:**
 - mcp server template for VS Code
@@ -3284,7 +4719,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 203. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)  `innovation: 8` ★☆☆ 🔵
+### 294. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)  `8` ★☆☆ 🔵
 
 **The project provides a GitHub-based solution to streamline and automate development workflows, leveraging GitHub Actions for CI/CD integration. It supports code review, security checks, and deployment processes, making it suitable for modern software development practices.**
 
@@ -3294,13 +4729,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - automated testing
 - workflow automation
 
-*Tags: githubactions, ci, devops, security, codequality*
+*Tags: githubactions, ci, security, codequality*
 
 ---
 
-### 204. [tonyhschu/test-and-typecheck-mcp-server](https://github.com/tonyhschu/test-and-typecheck-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 295. [tonyhschu/test-and-typecheck-mcp-server](https://github.com/tonyhschu/test-and-typecheck-mcp-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitHub repository with tools to test and validate MCP server configurations using automated code analysis and type-checking features. It supports integration with GitHub Actions, Copilot, and other development workflows, enabling developers to maintain code quality and securit**
+**The project provides a GitHub repository with tools to test and validate MCP server configurations using automated code analysis and type-checking features. It supports integration with GitHub Actions, Copilot, and other development workflows, enabling developers to maintain code quality and security standards efficiently.**
 
 **Key Features:**
 - code testing
@@ -3313,9 +4748,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 205. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge)  `innovation: 8` ★☆☆ 🔵
+### 296. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge)  `8` ★☆☆ 🔵
 
-**The mcp-graphql-forge library provides a GraphQL-based interface for integrating with Borg's development tools, enabling developers to streamline workflows, enhance security, and manage code changes efficiently. It supports automation of tasks such as code reviews, vulnerability detection, and deplo**
+**The mcp-graphql-forge library provides a GraphQL-based interface for integrating with Borg's development tools, enabling developers to streamline workflows, enhance security, and manage code changes efficiently. It supports automation of tasks such as code reviews, vulnerability detection, and deployment processes.**
 
 **Key Features:**
 - code review
@@ -3324,13 +4759,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - workflow automation
 - integration with Borg tools
 
-*Tags: graphql, developer-tools, security, code-automation, borg-integration, ci/cd, ai-development, enterprise-devops*
+*Tags: graphql, developer-tools, security, code-automation, borg-integration, ai-development, enterprise-devops*
 
 ---
 
-### 206. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)  `innovation: 8` ★☆☆ 🔵
+### 297. [ubaumann/mkdocs-mcp](https://github.com/ubaumann/mkdocs-mcp)  `8` ★☆☆ 🔵
 
-**The project aims to provide a Python-based interface that mimics the capabilities of MCP (Memory Counter Protocol), enabling developers to inspect and modify memory contents dynamically. It leverages MCP-like techniques to facilitate debugging, testing, and development workflows by offering a user-f**
+**The mkdocs-mcp project is an experimental plugin designed to enable integration of an MCP (Multi-Cloud Platform) server within the MkDocs documentation platform. It addresses the need for developers to manage and deploy cloud-based infrastructure seamlessly during documentation creation. The plugin leverages external tools like uv for dependency management and virtual environments, ensuring compat**
+
+**Key Features:**
+- Integrate MCP server into MkDocs workflow
+- Support dependency management (uv)
+- Enable secure code reviews and security scans
+- CI/CD integration
+- Cloud infrastructure management
+
+*Tags: mkdocs, mcp, ci, security, cloud, mkdocs-mcp, uv, mkdocs-yml*
+
+---
+
+### 298. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)  `8` ★☆☆ 🔵
+
+**The project aims to provide a Python-based interface that mimics the capabilities of MCP (Memory Counter Protocol), enabling developers to inspect and modify memory contents dynamically. It leverages MCP-like techniques to facilitate debugging, testing, and development workflows by offering a user-friendly interface for memory operations.**
 
 **Key Features:**
 - memory scanning
@@ -3343,7 +4793,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 207. [urldna/mcp](https://github.com/urldna/mcp)  `innovation: 8` ★☆☆ 🔵
+### 299. [urldna/mcp](https://github.com/urldna/mcp)  `8` ★☆☆ 🔵
 
 **A secure, AI-powered LLM integration platform enabling automated security scanning and threat detection using urlDNA MCP server.**
 
@@ -3358,7 +4808,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 208. [vertile-ai/next-mcp-server](https://github.com/vertile-ai/next-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 300. [vertile-ai/next-mcp-server](https://github.com/vertile-ai/next-mcp-server)  `8` ★☆☆ 🔵
 
 **A tool for managing and analyzing Next.js API routes to improve application development.**
 
@@ -3368,13 +4818,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Docker integration
 - Security scanning
 
-*Tags: nextjs, api-routes, developer-tools, security, docker*
+*Tags: nextjs, api-routes, developer-tools, security*
 
 ---
 
-### 209. [vidhupv/x-mcp](https://github.com/vidhupv/x-mcp)  `innovation: 8` ★☆☆ 🔵
+### 301. [vidhupv/x-mcp](https://github.com/vidhupv/x-mcp)  `8` ★☆☆ 🔵
 
-**The x-mcp project provides a developer platform that enables teams to build, deploy, and manage intelligent applications using AI-powered features. It supports automated workflows, secure code management, and integration with external tools, making it suitable for modern DevOps and enterprise softwa**
+**The x-mcp project provides a developer platform that enables teams to build, deploy, and manage intelligent applications using AI-powered features. It supports automated workflows, secure code management, and integration with external tools, making it suitable for modern DevOps and enterprise software development practices.**
 
 **Key Features:**
 - automate workflows
@@ -3387,7 +4837,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 210. [vrtejus/mcp-rosetta](https://github.com/vrtejus/mcp-rosetta)  `innovation: 8` ★☆☆ 🔵
+### 302. [vrtejus/mcp-rosetta](https://github.com/vrtejus/mcp-rosetta)  `8` ★☆☆ 🔵
 
 **A ROSetta-based GitHub repository focused on AI-driven code generation and intelligent application development.**
 
@@ -3402,9 +4852,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 211. [wavelovey/pubmed_search](https://github.com/wavelovey/pubmed_search)  `innovation: 8` ★☆☆ 🔵
+### 303. [wavelovey/pubmed_search](https://github.com/wavelovey/pubmed_search)  `8` ★☆☆ 🔵
 
-**The wavelovey/pubmed_search GitHub repository provides a centralized platform for developers to search PubMed using MCP (Microsoft Code Platform) integration. It supports automated code review processes, secure code management, and enterprise-grade security features. The tool is designed to streamli**
+**The wavelovey/pubmed_search GitHub repository provides a centralized platform for developers to search PubMed using MCP (Microsoft Code Platform) integration. It supports automated code review processes, secure code management, and enterprise-grade security features. The tool is designed to streamline workflows in software development by integrating with existing DevOps tools and enhancing collabo**
 
 **Key Features:**
 - code review automation
@@ -3413,13 +4863,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - CI/CD integration
 - secure code deployment
 
-*Tags: software development, code security, devops, github integration, mcp, ai development*
+*Tags: software development, code security, github integration, mcp, ai development*
 
 ---
 
-### 212. [willianmarcel/mcp-pr-reviewer](https://github.com/willianmarcel/mcp-pr-reviewer)  `innovation: 8` ★☆☆ 🔵
+### 304. [willianmarcel/mcp-pr-reviewer](https://github.com/willianmarcel/mcp-pr-reviewer)  `8` ★☆☆ 🔵
 
-**The project focuses on automating the review of pull requests using the MCP (Model-Controller-Provider) architecture. It integrates with GitHub to analyze code changes, generate documentation in Notion, and ensure security compliance. The tool streamlines developer workflows by providing structured **
+**The project focuses on automating the review of pull requests using the MCP (Model-Controller-Provider) architecture. It integrates with GitHub to analyze code changes, generate documentation in Notion, and ensure security compliance. The tool streamlines developer workflows by providing structured insights, enhancing code quality, and supporting enterprise-level DevOps practices.**
 
 **Key Features:**
 - GitHub PR analysis
@@ -3428,13 +4878,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Security scanning
 - Automated documentation generation
 
-*Tags: security, developer, ai, notion, mcp, ci/cd, code_review, enterprise*
+*Tags: security, developer, ai, notion, mcp, code_review, enterprise*
 
 ---
 
-### 213. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)  `innovation: 8` ★☆☆ 🔵
+### 305. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)  `8` ★☆☆ 🔵
 
-**This project provides a developer platform to interact with Dingding's API using Python, enabling automation of workflows, code reviews, security checks, and deployment. It supports enterprise-grade security features such as secure token management, vulnerability scanning, and integration with CI/CD**
+**This project provides a developer platform to interact with Dingding's API using Python, enabling automation of workflows, code reviews, security checks, and deployment. It supports enterprise-grade security features such as secure token management, vulnerability scanning, and integration with CI/CD pipelines.**
 
 **Key Features:**
 - Get Dingding App Key and Secret
@@ -3446,13 +4896,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Integrate with CI/CD pipelines
 - Enhance security with vulnerability scanning
 
-*Tags: mcp, api-integration, security, developer-tools, cicdp, docker, api-automation, enterprise-devops*
+*Tags: mcp, api-integration, security, developer-tools, cicdp, api-automation, enterprise-devops*
 
 ---
 
-### 214. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)  `innovation: 8` ★☆☆ 🔵
+### 306. [wolkwork/knmi-mcp](https://github.com/wolkwork/knmi-mcp)  `8` ★☆☆ 🔵
 
-**The wrediam/coolify-mcp-server is a GitHub-hosted server designed to facilitate the integration of Coolify's API with MCP (Messaging Control Protocol) tools. It provides a command-line interface for managing servers, projects, environments, and deployments, enabling automated workflows and enhanced **
+**The project offers a comprehensive developer platform that integrates code review, security scanning, and automated workflows using AI-driven tools. It supports enterprise-level development practices by providing features such as pull request management, code quality checks, and integration with external tools for seamless DevOps operations.**
+
+**Key Features:**
+- Code Review
+- Security Analysis
+- Workflow Automation
+- AI-Powered Insights
+- Integration with External Tools
+
+*Tags: ai, security, code, workflow, integration, automation, ai-driven, developer*
+
+---
+
+### 307. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)  `8` ★☆☆ 🔵
+
+**The wrediam/coolify-mcp-server is a GitHub-hosted server designed to facilitate the integration of Coolify's API with MCP (Messaging Control Protocol) tools. It provides a command-line interface for managing servers, projects, environments, and deployments, enabling automated workflows and enhanced security features such as code reviews, vulnerability detection, and secure deployment processes.**
 
 **Key Features:**
 - Server management
@@ -3462,11 +4927,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Vulnerability scanning
 - Automated workflows
 
-*Tags: coolify, mcp, devops, security, automation, integration, ci/cd, code*
+*Tags: coolify, mcp, security, automation, integration, code*
 
 ---
 
-### 215. [xkelxmc/uranium-mcp](https://github.com/xkelxmc/uranium-mcp)  `innovation: 8` ★☆☆ 🔵
+### 308. [xkelxmc/uranium-mcp](https://github.com/xkelxmc/uranium-mcp)  `8` ★☆☆ 🔵
 
 **A modular MCP server for managing NFT collections and assets, enabling developers to build secure, scalable digital asset workflows.**
 
@@ -3488,9 +4953,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 216. [xraywu/mcp-pdf-extraction-server](https://github.com/xraywu/mcp-pdf-extraction-server)  `innovation: 8` ★☆☆ 🔵
+### 309. [xraywu/mcp-pdf-extraction-server](https://github.com/xraywu/mcp-pdf-extraction-server)  `8` ★☆☆ 🔵
 
-**This project provides a Python-based MCP (Macro Contract Protocol) server that enables users to extract text and OCR data from PDF documents. It is specifically tailored for integration with Claude Code CLI, offering streamlined workflows for developers working on AI-driven document processing tasks**
+**This project provides a Python-based MCP (Macro Contract Protocol) server that enables users to extract text and OCR data from PDF documents. It is specifically tailored for integration with Claude Code CLI, offering streamlined workflows for developers working on AI-driven document processing tasks. The solution emphasizes automation, security, and ease of use within modern DevOps and enterprise **
 
 **Key Features:**
 - PDF content extraction
@@ -3503,9 +4968,25 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 217. [yikaj/futu](https://github.com/yikaj/futu)  `innovation: 8` ★☆☆ 🔵
+### 310. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `8` ★☆☆ 🔵
 
-**The YikaJ/Futu project offers a GitHub repository focused on enhancing software development workflows through automation, security integration, and enterprise-grade code management. It supports advanced features such as automated code review, vulnerability detection, and secure deployment pipelines,**
+**GitHub - yantrikos/yantrikdb: Cognitive memory engine for AI agents — temporal decay, contradiction detection, autonomous consolidation, knowledge graph, ANN recall via HNSW. Embeddable Rust library with Python bindings; powers yantrikdb-server (HTTP gateway, MCP server, openraft cluster). AGPL. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE**
+
+**Key Features:**
+- Persistent memory
+- MCP integration
+- Knowledge graph
+- Agent support
+- Graph relationships
+- Tool integration
+
+*Tags: memory, mcp, agent, graph, context, tool, ai, gateway*
+
+---
+
+### 311. [yikaj/futu](https://github.com/yikaj/futu)  `8` ★☆☆ 🔵
+
+**The YikaJ/Futu project offers a GitHub repository focused on enhancing software development workflows through automation, security integration, and enterprise-grade code management. It supports advanced features such as automated code review, vulnerability detection, and secure deployment pipelines, making it suitable for modern DevOps and enterprise environments.**
 
 **Key Features:**
 - automate code reviews
@@ -3518,9 +4999,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 218. [yoda-digital/mcp-gitlab-server](https://github.com/yoda-digital/mcp-gitlab-server)  `innovation: 8` ★☆☆ 🔵
+### 312. [yoda-digital/mcp-gitlab-server](https://github.com/yoda-digital/mcp-gitlab-server)  `8` ★☆☆ 🔵
 
-**The project provides a GitLab-based server with tools for automated code reviews, security scanning, CI/CD integration, and enterprise-grade workflow orchestration. It supports advanced security features, developer productivity enhancements, and integrates with external tools to streamline modern so**
+**The project provides a GitLab-based server with tools for automated code reviews, security scanning, CI/CD integration, and enterprise-grade workflow orchestration. It supports advanced security features, developer productivity enhancements, and integrates with external tools to streamline modern software development processes.**
 
 **Key Features:**
 - GitLab server integration
@@ -3534,7 +5015,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 219. [zanetworker/mcp-docling](https://github.com/zanetworker/mcp-docling)  `innovation: 8` ★☆☆ 🔵
+### 313. [zanetworker/mcp-docling](https://github.com/zanetworker/mcp-docling)  `8` ★☆☆ 🔵
 
 **An MCP server enabling document processing and LLM interaction for AI applications.**
 
@@ -3549,119 +5030,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
+### 314. [locchung/three-js-mcp](https://github.com/locchung/three-js-mcp)  `7` ☆☆☆ 🔵
+
+**The project provides a lightweight MCP (Model-Component-Pipeline) server that enables developers to manage and control Three.js source code repositories. It focuses on streamlining workflows by integrating with GitHub, allowing for automated actions, code reviews, security checks, and deployment processes.**
+
+**Key Features:**
+- code review
+- security scanning
+- automation
+- integration with GitHub
+- CI/CD support
+
+*Tags: threejs, mcp, developer, security, codebase, git, ci, automation*
+
+---
+
 ## RAG Frameworks & Retrieval
 
-> 62 tools · avg innovation 8.5
+> 2 tools · avg innovation 9.0 · avg quality 1.00
 
-### 220. [FSoft-AI4Code/HyperAgent](https://github.com/FSoft-AI4Code/HyperAgent)  `innovation: 10` ★★★ 🔵
+### 315. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `9` ★★☆ 🔵
 
-**A generalist multi-agent system (Planner/Navigator/Editor/Executor) optimized for repository-level software engineering and automated fault localization.**
-
-**Key Features:**
-- Specialized agent roles (Planner/Navigator)
-- semantic code search (Zoekt)
-- automated fault localization
-- high SWE-bench performance.
-
-*Tags: orchestration, multi-agent, engineering, swe-bench, repair*
-
----
-
-### 221. [antl3x/ToolRAG](https://github.com/antl3x/ToolRAG)  `innovation: 10` ★★★ 🔵
-
-**A specialized RAG framework that enables "unlimited" tool support by using vector search to dynamically inject relevant tool schemas into the context.**
-
-**Key Features:**
-- Dynamic tool schema injection
-- 97% retrieval accuracy benchmarks
-- tool-name-only embedding logic
-- context bloat prevention.
-
-*Tags: mcp, rag, optimization, tool-discovery, search*
-
----
-
-### 222. [cryxnet/DeepMCPAgent](https://github.com/cryxnet/DeepMCPAgent)  `innovation: 10` ★★★ 🔵
-
-**A model-agnostic framework enabling LangGraph agents to dynamically discover MCP tools and collaborate as peers via broadcast/ask tools.**
-
-**Key Features:**
-- Dynamic HTTP/stdio tool discovery
-- cross-agent Peer Communication (v0.5)
-- Pydantic argument validation
-- Planner-Executor agent loops.
-
-*Tags: mcp, langchain, langgraph, a2a, orchestration*
-
----
-
-### 223. [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg)  `innovation: 10` ★★★ 🔵
-
-**A high-performance, Rust-core document intelligence engine that extracts structured data from 56+ file formats for high-fidelity RAG pipelines.**
-
-**Key Features:**
-- Rust-native core (no Pandoc)
-- 56+ Format support (PDF/Office/Images)
-- byte-accurate semantic chunking
-- integrated ONNX CPU embeddings.
-
-*Tags: rust, rag, data-ingestion, document-intelligence, polyglot*
-
----
-
-### 224. [neo4j/mcp-neo4j](https://github.com/neo4j/mcp-neo4j)  `innovation: 10` ★★★ 🔵
-
-**An official MCP server that transforms Neo4j graph databases into a durable, relationship-aware memory layer (GraphRAG) for AI agents.**
-
-**Key Features:**
-- Direct Cypher query execution
-- schema retrieval for traversal planning
-- Neo4j GDS integration (PageRank/Shortest Path)
-- adaptive tool disabling.
-
-*Tags: mcp, neo4j, graph-database, rag, knowledge-graph*
-
----
-
-### 225. [SamMorrowDrums/remarkable-mcp](https://github.com/SamMorrowDrums/remarkable-mcp)  `innovation: 9` ★★☆ 🔵
-
-**The remarkable-mcp project provides a MCP server that allows Claude, VS Code Copilot, and other AI tools to access the full capabilities of a reMarkable tablet. It supports features such as full library access, text extraction from handwritten notes via OCR, smart search across documents, and integr**
-
-**Key Features:**
-- Full library access including folders
-- search
-- and annotations
-- Handwritten text OCR support
-- Smart search across documents with tag filtering
-- Integration with AI tools like Copilot and Obsidian
-- Cloud mode for remote access without USB
-- Customizable connection methods: USB web interface or SSH
-
-*Tags: re-markable-mcp, ai-integration, developer-tools, cloud-access, ocr-support, notebook-editing, search-enhancement, offline-workflow*
-
----
-
-### 226. [angrysky56/project-synapse-mcp](https://github.com/angrysky56/project-synapse-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A next-generation knowledge synthesis engine that merges semantic analysis, graph-based reasoning, and AI-driven insight generation to support enterprise research, documentation, and decision-making.**
-
-**Key Features:**
-- Semantic pipeline processing with Montague Grammar for formal analysis
-- Neo4j integration for persistent knowledge graph storage
-- Obsidian wiki integration for human-readable markdown pages
-- LLM-WIKI bridge for automated content generation and indexing
-- Vector embeddings and hybrid search (vector + BM25)
-- Autonomous insight generation via Zettelkasten pattern detection
-- Delta-sync manifest for efficient graph synchronization
-- Health checks and anomaly detection for data integrity
-
-*Tags: agent orchestration, workflow automation, semantic analysis, knowledge graph, ai integration, data synchronization, graph database, wiki automation*
-
----
-
-### 227. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**The Augmented-Nature/PubChem-MCP-Server is a robust, modular platform designed to provide seamless access to over 110 million chemical compounds. It integrates advanced chemical informatics tools and bioassay data, supporting complex workflows in drug discovery, molecular modeling, and regulatory co**
+**The Augmented-Nature/PubChem-MCP-Server is a robust, modular platform designed to provide seamless access to over 110 million chemical compounds. It integrates advanced chemical informatics tools and bioassay data, supporting complex workflows in drug discovery, molecular modeling, and regulatory compliance. The server emphasizes secure, type-safe API interactions with comprehensive error handling**
 
 **Key Features:**
 - Comprehensive chemical compound search
@@ -3679,43 +5069,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 228. [cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)  `innovation: 9` ★★☆ 🔵
-
-**cocoindex-code is a super-lightweight embedded code search engine that leverages AST-based semantic analysis to enable fast, token-efficient code searching within repositories. It integrates seamlessly with AI-powered development agents like Claude and Codex, allowing developers to query codebases b**
-
-**Key Features:**
-- AST-based semantic code search
-- Lightweight token efficiency (70% reduction)
-- Integration with coding agents (Claude
-- Codex
-- etc.)
-- Manual CLI control and indexing
-- Support for cloud and local embeddings
-- Secure development environment setup
-- Automatic index updates during development
-
-*Tags: code-search, ast-based, embedding, ai-integration, developer-tools, ci/cd, security, local-dev*
-
----
-
-### 229. [doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)  `innovation: 9` ★★☆ 🔵
-
-**mcp-memory-service provides a dedicated, persistent memory layer for multi-agent systems (like LangGraph, CrewAI, AutoGen) that aims to solve context loss and the need to re-explain project context in every session. It operates as a self-hosted RESTful service that stores memories, decisions, and ca**
-
-**Key Features:**
-- REST API for memory storage and retrieval
-- Knowledge graph structure with typed edges (causal relationships)
-- Autonomous memory consolidation/compression
-- Local ONNX embedding generation
-- Agent-scoped memory retrieval via X-Agent-ID header
-- Support for Remote MCP (browser-based LLM integration)
-- SSE events for real-time memory updates
-
-*Tags: persistent memory, knowledge graph, self-hosted, ai agents, local embeddings, autonomous consolidation, rest api, inter-agent communication*
-
----
-
-### 230. [haran2001/mcp-search-server](https://github.com/haran2001/mcp-search-server)  `innovation: 9` ★★☆ 🔵
+### 316. [haran2001/mcp-search-server](https://github.com/haran2001/mcp-search-server)  `9` ★★☆ 🔵
 
 **An intelligent MCP (Model Context Protocol) server that leverages Exa AI search to discover and research MCP servers, integrated with AI assistants for seamless discovery.**
 
@@ -3730,1190 +5084,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 231. [hyson666/pdf-rag-mcp-server](https://github.com/hyson666/pdf-rag-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**A web-based document knowledge base that enables semantic search of PDF documents using vector embeddings and integrates with AI tools like Cursor.**
-
-**Key Features:**
-- PDF document upload and processing
-- Real-time semantic search via vector embeddings
-- Integration with MCP protocol for AI tool interoperability
-- WebSocket-based status updates during document processing
-- React frontend for user-friendly document management
-
-*Tags: pdf-rag, mcp-server, ai-search, document-intelligence, vector-storage, web-api, developer-tools, cloud-integration*
-
----
-
-### 232. [iBz-04/gloamy](https://github.com/iBz-04/gloamy)  `innovation: 9` ★★☆ 🔵
-
-**Gloamy provides secure, lightweight agents for real-world tasks, enabling automation across diverse platforms and environments.**
-
-**Key Features:**
-- Secure-by-default runtime behavior
-- Local-first agent execution with minimal overhead
-- Support for multiple channels (Telegram
-- Discord
-- Slack
-- etc.)
-- Integration with various AI models and external APIs
-- Persistent memory storage for recall and state retention
-- Robust security features including secret protection and vulnerability management
-
-*Tags: agent orchestration, workflow automation, messaging platforms, AI models, security, persistence, interoperability, runtime isolation*
-
----
-
-### 233. [joleyline/mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)  `innovation: 9` ★★☆ 🔵
-
-**A high-performance persistent memory system for the Model Context Protocol (MCP) powered by libSQL, enabling vector search and knowledge graph management.**
-
-**Key Features:**
-- High-performance persistent memory storage
-- Vector search capabilities
-- Semantic knowledge storage
-- Efficient relationship management
-- Integration with libSQL databases
-
-*Tags: mcp-memory-libsql, libsql, vector-search, semantic-knowledge, knowledge-graph, ai-agents, data-persistence, developer-tools*
-
----
-
-### 234. [kenforthewin/atomic](https://github.com/kenforthewin/atomic)  `innovation: 9` ★★☆ 🔵
-
-**A self-hosted knowledge management platform that integrates semantic search, AI-powered content synthesis, and workflow automation to enhance enterprise knowledge sharing.**
-
-**Key Features:**
-- Semantic search using vector embeddings for knowledge retrieval
-- AI-generated articles with citations and inline sourcing
-- Interactive knowledge graph visualization
-- Agentic RAG interface for real-time querying
-- Multi-API integration for advanced content creation
-- Automated workflow orchestration and task management
-
-*Tags: agent orchestration, workflow automation, semantic search, ai content generation, knowledge graph, multi-api integration, developer tools, memory persistence*
-
----
-
-### 235. [korotovsky/slack-mcp-server](https://github.com/korotovsky/slack-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**A powerful, permissionless MCP Slack server supporting advanced features like stealth mode, OAuth integration, enterprise workspace compatibility, and smart history fetching.**
-
-**Key Features:**
-- Stealth and OAuth modes for secure access without extra permissions
-- Support for Stdio
-- SSE
-- HTTP transports with proxy routing
-- DMs
-- Group DMs
-- and channel/thread message retrieval
-- Smart history fetch by date or message count
-- Unread messages with priority sorting and @mention filtering
-- Search functionality with filters (date
-- user
-- content)
-
-*Tags: mcp-server, slack-mcp-server, developer-tools, security, search, integration, workflow, enterprise*
-
----
-
-### 236. [kryzo/mcp-sncf](https://github.com/kryzo/mcp-sncf)  `innovation: 9` ★★☆ 🔵
-
-**The project provides a modular Python interface to the SNCF API, integrating seamlessly with Claude Desktop. It supports intelligent journey planning, real-time schedules, disruption monitoring, station details, and transport mode analysis across France. Developers can leverage this tool to automate**
-
-**Key Features:**
-- Modular Python wrapper for SNCF API
-- Integration with Claude Desktop for intelligent journey planning
-- Real-time schedules and disruption monitoring
-- Station information retrieval (facilities
-- transport types)
-- Detailed train journey planning with customizable parameters
-- Automated workflows and code management tools
-
-*Tags: software development, developer workflow, ai integration, api integration, travel planning, mcp server, cloud services, user experience*
-
----
-
-### 237. [lechmazur/buyout_game](https://github.com/lechmazur/buyout_game)  `innovation: 9` ★★☆ 🔵
-
-**The lechmazur/Buyout Game project presents a comprehensive multi-agent evaluation framework where eight large language models engage in a complex, money-driven strategic environment. The benchmark incorporates public prize ladders, private transfers, and a finalist-only buyout phase to assess long-t**
-
-**Key Features:**
-- Multi-agent gameplay with private transfers and public prize ladders
-- Public and private communication channels for strategic interaction
-- Buyout phase requiring negotiation and fallback math
-- Wealth-based ranking over raw finish order
-- Transparency in decision-making processes and incentive management
-
-*Tags: multi-agent systems, game theory, financial incentives, strategic reasoning, AI negotiation, business simulation, decision modeling, proxy interaction*
-
----
-
-### 238. [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram)  `innovation: 9` ★★☆ 🔵
-
-**Telegram MCP Server and HTTP-MTProto bridge enabling secure, multi-user, web-based Telegram integration with Docker and MTProto proxy support.**
-
-**Key Features:**
-- Multi-user authentication with Bearer token
-- HTTP-MTProto bridge for direct Telegram API access
-- Unified message search and retrieval across chats
-- Direct API access to Telegram channels
-- messages
-- and entities
-- Support for file attachments and phone number messaging
-- Voice transcription and LLM-friendly API design
-
-*Tags: telegram-mcp, mcp-api, telegram-bridge, ai-integration, secure-connection, multi-user-devops, developer-tools, security-features*
-
----
-
-### 239. [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui)  `innovation: 9` ★★☆ 🔵
-
-**Magentic-UI provides a specialized interface designed to eliminate the 'black-box' nature of autonomous agents by enabling real-time collaboration between humans and AI. Built on the AutoGen framework, it facilitates co-planning where users can edit agent strategies before execution, and co-tasking **
-
-**Key Features:**
-- Co-planning interface
-- interactive browser-in-the-loop
-- Action Guards for sensitive operations
-- Plan Learning and Retrieval
-- parallel task execution
-- MCP server support
-- multi-model client integration (OpenAI
-- Ollama
-- Azure)
-- Docker-based code execution environments
-
-*Tags: human-in-the-loop, web agents, co-planning, action guards, autogen, mcp, fara-7b, browser automation*
-
----
-
-### 240. [orneryd/Mimir](https://github.com/orneryd/Mimir)  `innovation: 9` ★★☆ 🔵
-
-**Mimir implements a robust persistence architecture for AI agents by leveraging Neo4j, a graph database, to store memories, tasks, and their relationships, creating a living knowledge graph. It integrates semantic vector search for efficient retrieval (RAG) of relevant context from indexed local file**
-
-**Key Features:**
-- Graph database (Neo4j) for persistent memory
-- Semantic vector search for context retrieval
-- Model Context Protocol (MCP) server
-- Multi-agent coordination support
-- File indexing for RAG
-- OpenAI-compatible API endpoints
-- Multi-platform Docker deployment (ARM64/AMD64)
-
-*Tags: neo4j, graph-database, vector-search, rag, mcp, persistent-memory, knowledge-graph, agent-memory*
-
----
-
-### 241. [sanderkooger/mcp-server-ragdocs](https://github.com/sanderkooger/mcp-server-ragdocs)  `innovation: 9` ★★☆ 🔵
-
-**An MCP server that enables AI assistants to retrieve and process documentation via vector search, enhancing context-aware responses.**
-
-**Key Features:**
-- Vector-based documentation search using Ollama embeddings
-- Integration with Playwright for real-time documentation retrieval
-- Support for multiple documentation sources
-- Automated indexing and query processing
-- Contextual augmentation for AI assistants
-
-*Tags: mcp-server-ragdocs, documentation-search, ai-assistants, vector-search, playwright, ollama, llms, semantic-search*
-
----
-
-### 242. [spences10/mcp-memory-libsql](https://github.com/spences10/mcp-memory-libsql)  `innovation: 9` ★★☆ 🔵
-
-**A high-performance persistent memory system for the Model Context Protocol (MCP) powered by libSQL, designed to optimize AI agent and knowledge graph applications.**
-
-**Key Features:**
-- High-performance text search with relevance ranking
-- Persistent storage of entities and relations
-- Flexible text search with fuzzy matching
-- Context-optimized for LLM efficiency
-- Knowledge graph management
-- Secure token-based authentication for remote databases
-
-*Tags: mcp, libsql, ai, memory, persistence, search, knowledge_graph, developer_tools*
-
----
-
-### 243. [ChernovAndrey/Planectra](https://github.com/ChernovAndrey/Planectra)  `innovation: 8` ★☆☆ 🔵
-
-**A developer platform for modernizing workflows, integrating AI-assisted planning, and managing enterprise software development processes.**
-
-**Key Features:**
-- AI-powered planning with RAG context injection
-- Secure code review and change tracking
-- Integration of external tools and CI/CD pipelines
-- Secure development environment setup (Codespaces)
-- Automated workflow execution and deployment
-- Real-time collaboration and feedback loops
-
-*Tags: agent orchestration, workflow automation, ai-assisted planning, secure development, ci/cd integration, developer productivity, code review, memory persistence*
-
----
-
-### 244. [Danushkumar-V/mcp-discord](https://github.com/Danushkumar-V/mcp-discord)  `innovation: 8` ★☆☆ 🔵
-
-**The project implements a Discord MCP (Model Context Protocol) server that allows AI assistants, such as Claude or Cursor, to seamlessly integrate and interact with Discord channels, messages, and webhooks. This facilitates advanced use cases like automated customer support, real-time information ret**
-
-**Key Features:**
-- Discord bot integration
-- Message sending and receiving
-- Channel creation and deletion
-- Webhook management
-- Reaction handling
-- Thread management
-- Custom permissions setup
-
-*Tags: discord-mcp, ai-assistant-integration, discord-bot-dev, developer-tools, enterprise-communication, discord-api, webhook-management, ai-powered-development*
-
----
-
-### 245. [DonTizi/rlama](https://github.com/DonTizi/rlama)  `innovation: 8` ★☆☆ 🔵
-
-**RLAMA is a comprehensive tool designed to serve as the definitive solution for building local RAG systems. It focuses on seamless integration with local Ollama models, providing capabilities for document processing, vector storage, context retrieval, and various modes of operation (like web crawling**
-
-**Key Features:**
-- ['RAG System Creation (CLI tool)'
-- 'Document Processing & Semantic Chunking'
-- 'Vector Storage (Local Embeddings)'
-- 'Ollama Integration (Seamless connection to local models)'
-- 'Web Crawling & API Server Options'
-- 'Hugging Face GGUF Model Integration'
-- 'Guided RAG Setup Wizard']
-
-*Tags: ['RAG', 'Ollama', 'LLM', 'VectorDB', 'AI', 'WebScraping', 'DeveloperTools', 'LocalAI'*
-
----
-
-### 246. [Joe-Huber/AI-For-Brokies](https://github.com/Joe-Huber/AI-For-Brokies)  `innovation: 8` ★☆☆ 🔵
-
-**The project centers on establishing robust API integrations, facilitating data exchange protocols, and supporting brokerage workflows through well-defined interfaces. It emphasizes the importance of reliable connectivity and interoperability in modern AI environments.**
-
-**Key Features:**
-- API surface integration
-- brokerage workflow automation
-- data synchronization tools
-- secure communication channels
-- real-time data processing
-
-*Tags: ai-brokers, api-integration, brokerage-system, connectivity, interoperability*
-
----
-
-### 247. [abhishekgahlot2/codex-claude-bridge](https://github.com/abhishekgahlot2/codex-claude-bridge)  `innovation: 8` ★☆☆ 🔵
-
-**The project introduces a synchronous communication channel between Claude Code and OpenAI Codex CLI using Claude Code Channels. This allows two AI agents to engage in a live, real-time conversation with a shared web UI, facilitating dynamic code discussions and decision-making. The solution leverage**
-
-**Key Features:**
-- Bidirectional communication between Claude Code and OpenAI Codex CLI
-- Real-time web UI for live conversation
-- Integration with Claude Code Channels
-- Support for AI agent interaction and context sharing
-- Sync notifications and message routing
-
-*Tags: ai-agents, ai-development, code-collaboration, real-time-ui, cloud-integration, developer-tool, ai-channel, bionic-devops*
-
----
-
-### 248. [coldielb/inked](https://github.com/coldielb/inked)  `innovation: 8` ★☆☆ 🔵
-
-**The kcodes0/inked project provides a simple MCP (Memory Management Control Protocol) server designed to enhance the performance and usability of Claude AI applications. It offers fast text search, optional embedding-based semantic search for improved memory retrieval, and supports secure local stora**
-
-**Key Features:**
-- Fast text search
-- Embedding-based semantic search
-- Optional AI reranking
-- Local SQLite storage
-- Secure memory management
-- Customizable memory models
-
-*Tags: mcp-server, ai-search, memory-management, cloud-ai, developer-tools, semantic-search, ai-powered, secure-storage*
-
----
-
-### 249. [danmas0n/multi-agent-with-mcp](https://github.com/danmas0n/multi-agent-with-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A multi-agent system leveraging LangGraph and MCP to enable human operators to select preferred coding implementations for AI-driven development tasks.**
-
-**Key Features:**
-- multiple agent coordination
-- tool discovery via MCP
-- code generation and planning
-- integration with LangGraph
-
-*Tags: multi-agent, langgraph, mcp, ai-development, codebase, workflow, automation, developer-tools*
-
----
-
-### 250. [docker/cagent](https://github.com/docker/cagent)  `innovation: 8` ★☆☆ 🔵
-
-**docker-agent lets you create and run intelligent AI agents that collaborate to solve complex problems — no code required. Define agents in YAML, give them tools, and let them work.**
-
-**Key Features:**
-- Multi-agent architecture (create teams of specialized agents)
-- Rich tool ecosystem (built-in tools + any MCP server)
-- AI provider agnostic (OpenAI
-- Anthropic
-- Gemini
-- AWS Bedrock
-- Mistral
-- xAI
-- Docker Model Runner)
-- RAG (pluggable retrieval with BM25
-- embeddings
-- hybrid search
-
-*Tags: ['AI Agents', 'Docker Agent', 'Agent Orchestration', 'Multi-Agent Architecture', 'RAG', 'LLM Integration', 'Developer Tools', 'Cloud Native AI'*
-
----
-
-### 251. [estevaom/md-rag-mcp](https://github.com/estevaom/md-rag-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A Rust-based Markdown journal indexing and search tool with RAG capabilities, local frontmatter analytics, and integration with AI-driven code search.**
-
-**Key Features:**
-- RAG search for markdown files using semantic and keyword analysis
-- Local indexing and incremental updates to reduce latency
-- Hybrid search combining semantic and keyword matching
-- Frontmatter analytics including query fields
-- stats
-- and tag linting
-- Integration with embedding service for real-time model inference
-- Automated environment setup and deployment scripts
-- Customizable weight analysis and progress visualization
-
-*Tags: agent orchestration, workflow automation, developer productivity, code search, rag indexing, local analytics, ai integration, environment setup*
-
----
-
-### 252. [eyalzh/kanban-mcp](https://github.com/eyalzh/kanban-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The MCP server provides a kanban-based task management solution tailored for complex multi-session workflows. It leverages AI agents to document and manage tasks across planning and execution phases, offering features like column capacity limits, embedded databases, web UI monitoring, and automated **
-
-**Key Features:**
-- Kanban board creation and management
-- AI agent integration for task documentation
-- Workflow automation with predefined prompts
-- Real-time progress tracking via web UI
-- Database-backed task persistence
-- Customizable project planning and execution
-
-*Tags: kanban, mcp, ai, taskmanagement, developertools, workflowautomation*
-
----
-
-### 253. [github/copilot-cli](https://github.com/github/copilot-cli)  `innovation: 8` ★☆☆ 🔵
-
-**GitHub Copilot CLI is a specialized interface that transitions AI assistance from passive completion to active agency within the developer's terminal. It leverages an 'agentic harness' capable of planning and executing complex multi-step tasks like refactoring and debugging. The tool distinguishes i**
-
-**Key Features:**
-- Terminal-native interactive agent
-- Slash command architecture
-- Agentic task planning
-- Model Context Protocol (MCP) integration
-- LSP-based code intelligence
-- Autopilot autonomous mode
-- Action preview and approval loop
-- Native GitHub API integration
-- Multi-model selection support
-
-*Tags: cli, ai-agent, mcp, lsp, terminal-ux, agentic-workflow, developer-experience, github-integration*
-
----
-
-### 254. [gongrzhe/travel-planner-mcp-server](https://github.com/gongrzhe/travel-planner-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**The Travel Planner MCP Server is a software solution designed for integrating artificial intelligence with travel planning services. It allows large language models (LLMs) to access and utilize Google Maps APIs for features such as place search, detailed place information retrieval, route calculatio**
-
-**Key Features:**
-- Travel Planner Model Context Protocol (MCP)
-- Google Maps API integration
-- Place search and details lookup
-- Route calculation
-- Time zone management
-- Custom configuration options
-
-*Tags: agent orchestration, workflow automation, context engineering, developer tools, mapping services, ai integration, travel planning, cloud deployment*
-
----
-
-### 255. [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)  `innovation: 8` ★☆☆ 🔵
-
-**An MCP server implementation that enables AI assistants to retrieve and process documentation via vector search, enhancing contextual responses.**
-
-**Key Features:**
-- Vector-based documentation search
-- Semantic search capabilities
-- Automated documentation processing
-- Real-time context augmentation for LLMs
-
-*Tags: mcp-ragdocs, vector-search, ai-assistants, documentation-integration, semantic-search*
-
----
-
-### 256. [icraft2170/youtube-data-mcp-server](https://github.com/icraft2170/youtube-data-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**A cloud-based YouTube Data API server enabling AI models to interact with YouTube content securely and efficiently.**
-
-**Key Features:**
-- YouTube video information retrieval
-- Video search by keywords
-- Transcript/caption management
-- Channel statistics analysis
-- Trend and comparison analytics
-- Popular content discovery
-- Automated data processing and insights
-
-*Tags: youtube-data-mcp-server, ai, developer, mcp, youtube-api, data-analysis, cloud-devops, video-processing*
-
----
-
-### 257. [jean-technologies/mcp-writer-substack](https://github.com/jean-technologies/mcp-writer-substack)  `innovation: 8` ★☆☆ 🔵
-
-**A tool that bridges Substack and Medium writing to Claude, enabling semantic search and personalized assistance with published content.**
-
-**Key Features:**
-- Retrieves and caches blog posts from Substack and Medium
-- Uses embeddings for semantic search across writings
-- Generates individual essay resources for Claude
-- Allows query-based retrieval of relevant essays
-- Supports selective content refresh and caching
-
-*Tags: mcp-writer-substack, cloudflare, ai, developer, security, code, substack, medium*
-
----
-
-### 258. [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A MCP Server for Korean stock analysis that integrates official APIs from DART and KRX to provide AI-powered insights on stock data.**
-
-**Key Features:**
-- Disclosure search by company and date
-- Parsing of large XML disclosure documents (e.g.
-- annual reports)
-- AI-driven financial statement analysis using XBRL
-- Real-time stock data retrieval (KRX
-- KOSPI
-- KONEX)
-- Integration with Claude Desktop for advanced analysis
-
-*Tags: api-integration, stock-analysis, ai-powered, data-processing, financial-analysis, developer-tools, enterprise-platform, automation*
-
----
-
-### 259. [jzinno/biomart-mcp](https://github.com/jzinno/biomart-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The project implements a Python-based MCP (Model Context Provisioning) server to facilitate secure and efficient access to Biomart's biological data. It leverages the pybiomart package to integrate with Biomart's APIs, supporting tasks such as data retrieval, attribute filtering, attribute conversio**
-
-**Key Features:**
-- MCP server integration
-- Data retrieval and exploration
-- Attribute and filter management
-- Data translation between identifiers
-- Web scraping capabilities (planned)
-- Optimized context window handling
-
-*Tags: biomart-mcp, mcp-server, ai-development, data-integration, developer-tools, context-engine, api-connection, model-feeds*
-
----
-
-### 260. [kfastov/telegram-mcp-server](https://github.com/kfastov/telegram-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**The kfastov/tgcli project provides a Telegram user console client and archiver, enabling users to manage their Telegram accounts through a customizable interface. It supports background synchronization for seamless data persistence across sessions and integrates with MCP (Message Channel Protocol) f**
-
-**Key Features:**
-- Telegram user console client
-- Background sync support
-- MCP integration
-- Message channel protocol (MCP)
-- Account management tools
-
-*Tags: telegram, mcp-server, telegram-client, developer-tools, api-integration, message-sync, background-sync, telegram-api*
-
----
-
-### 261. [layr-labs/eigenlayer-mcp-server](https://github.com/layr-labs/eigenlayer-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**The eigenlayer-mcp-server is a GitHub-hosted MCP server designed to facilitate secure and efficient communication between AI models and external applications. It leverages the Model Context Protocol (MCP) to enable context-aware interactions, supporting advanced security features such as encryption,**
-
-**Key Features:**
-- Model context protocol integration
-- Secure communication channels
-- Context isolation
-- API management
-- Developer tools
-
-*Tags: eigenlayer, mcp-server, ai-security, developer-tools, next.js, ai-integration, model-communication, security-features*
-
----
-
-### 262. [liorfranko/mcp-chain-of-thought](https://github.com/liorfranko/mcp-chain-of-thought)  `innovation: 8` ★☆☆ 🔵
-
-**An intelligent task management system leveraging Model Context Protocol for structured AI agent development.**
-
-**Key Features:**
-- Chain of Thought reasoning
-- Task planning and analysis
-- Dependency tracking
-- Iterative refinement
-- Code review and feedback integration
-
-*Tags: agent orchestration, task automation, ai development, code quality, dependency management*
-
----
-
-### 263. [manimohans/farcaster-mcp](https://github.com/manimohans/farcaster-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The Borg Project's 'Farcaster-MCP' repository provides a comprehensive API-based interface for developers to access and manipulate data from the Farcaster network. It enables interaction with various components such as user casts, channel information, user profiles, and more, facilitating seamless i**
-
-**Key Features:**
-- Retrieve user casts by FID
-- Get username casts
-- Fetch channel casts
-- View user profile details
-- List channels with search filtering
-- Show user following relationships
-- Display user followers
-- Analyze cast reactions
-
-*Tags: farcaster, developer, network, integration*
-
----
-
-### 264. [mantrakp04/manusmcp](https://github.com/mantrakp04/manusmcp)  `innovation: 8` ★☆☆ 🔵
-
-**ManusMCP leverages Flowise to orchestrate AI agents with distinct roles such as Planner, FileWizard, CommandRunner, and WebNavigator. This enables seamless collaboration among specialized agents to handle intricate workflows and automate complex tasks efficiently.**
-
-**Key Features:**
-- Specialized AI agent roles (Planner
-- FileWizard
-- CommandRunner
-- WebNavigator)
-- Task automation and complex problem-solving capabilities
-- Integration with Flowise for agent communication and context sharing
-- Support for enterprise-grade security and privacy
-
-*Tags: agent orchestration, workflow automation, ai agents, flowise, enterprise ai, developer tools, security, code security*
-
----
-
-### 265. [miiton/meilisearch-hybrid-search-mcp](https://github.com/miiton/meilisearch-hybrid-search-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The project provides a MCP (Model Control Protocol) server that integrates hybrid search capabilities into the Meilisearch index. It allows users to perform both keyword-based and semantic vector searches, enhancing document retrieval accuracy. The tool is implemented in Go and supports advanced fil**
-
-**Key Features:**
-- hybrid search
-- keyword and semantic search
-- filterable attributes
-- Meilisearch integration
-- Go implementation
-
-*Tags: meilisearch, hybridsearch, go, developertool, searchengine, mcp, ai, search*
-
----
-
-### 266. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived)  `innovation: 8` ★☆☆ 🔵
-
-**This project provides a MCP (Map Content Processing) server that integrates with the Google Maps API to deliver location intelligence, geocoding, reverse geocoding, mapping services, and route planning functionalities. It supports various operations such as converting addresses to coordinates, searc**
-
-**Key Features:**
-- geocoding
-- reverse geocoding
-- mapping services
-- route planning
-- distance calculations
-
-*Tags: gmlapsus, map-api, geolocation, mcp-server, location-data, api-integration, developer-tools, geospatial*
-
----
-
-### 267. [monadical-sas/zulip-mcp](https://github.com/monadical-sas/zulip-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The project implements a protocol server using Zulip's Model Context Protocol (MCP) to allow AI tools like Claude to seamlessly integrate with Zulip channels, supporting message posting, direct messaging, reactions, and channel management. It leverages Docker for containerization and integrates with**
-
-**Key Features:**
-- Integrate Zulip API for AI assistant interaction
-- Support message posting
-- direct messages
-- emoji reactions
-- Channel management including subscriptions and users
-- Docker-based deployment for scalability
-
-*Tags: mcp, zulip, ai, bot, developer, integration, security, docker*
-
----
-
-### 268. [mrgoonie/screenshotone-mcp-server](https://github.com/mrgoonie/screenshotone-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**A Model Context Protocol (MCP) server enabling AI systems to securely connect to external tools and data sources, supporting screen capture and integration with various APIs.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server implementation
-- CLI support for screenshot capture
-- Extensible architecture for connecting AI systems
-- Support for multiple output formats (PNG
-- JPEG
-- WebP
-- PDF)
-- Custom viewport and device emulation
-- Block ads
-- trackers
-- and cookie banners control
-- Integration with Cloudflare for screenshot uploads
-
-*Tags: api integration, ai assistants, web scraping, screenshot capture, cloud storage, developer tools, security, mcp protocol*
-
----
-
-### 269. [pinkpixel-dev/taskflow-mcp](https://github.com/pinkpixel-dev/taskflow-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A task management Model Context Protocol server that structures AI-assisted task breakdown, dependencies, and approvals.**
-
-**Key Features:**
-- Task planning with subtasks and dependencies
-- User approval workflow for quality control
-- Persistent storage of tasks and progress
-- Export and reporting capabilities
-- Integration with external tools and CI/CD pipelines
-
-*Tags: taskmanagement, aiassistants, workflowautomation, developertools, projectmanagement, yamlstorage, dependencytracking, userapproval*
-
----
-
-### 270. [rahulretnan/mcp-ragdocs](https://github.com/rahulretnan/mcp-ragdocs)  `innovation: 8` ★☆☆ 🔵
-
-**A Borg project tool for managing documentation indexing, embedding, and retrieval using AI-driven workflows.**
-
-**Key Features:**
-- Docker Compose setup for containerized deployment
-- Web interface for queue monitoring and documentation management
-- Ollama-based local embedding generation with OpenAI fallback
-- Automated indexing
-- document processing
-- and retrieval
-- Real-time status tracking and system health checks
-
-*Tags: documentation_indexing, ai_embeddings, vector_search, documentation_management, ai_tools, workflow_automation, cloud_integration, local_processing*
-
----
-
-### 271. [roger1337/JDBG](https://github.com/roger1337/JDBG)  `innovation: 8` ★☆☆ 🔵
-
-**JDBG is a powerful Java debugger and reverse engineering tool that operates at runtime. It is attachable and is not limited by agent restrictions. JDBG leverages an injected DLL along with JNI and JVMTI to provide deep insight into Java applications.**
-
-**Key Features:**
-- Class Analysis (Analyse decompiled classes at runtime)
-- Analyse method bytecode and field definitions at runtime
-- Add classes to object analysis
-- Dynamically set breakpoints in bytecode
-- Inspect the stack trace
-- Inspect local variable values
-- Planned features: bytecode instrumentation and class redefinitions
-- static variable modification
-- Static field watching
-- Object Analysis (Add classes to object workspace)
-- Apply filters using the Exprtk C++ library to obtain relevant objects (Filters support recursive searches
-- e.g. obj.field1.field2 > 3 or 'hello' in obj.field1)
-
-*Tags: java debugger agent security reverse-engineering asm disassembler cybersecurity dynamic-analysis jni offensive-security*
-
----
-
-### 272. [rudra-ravi/mcp-taskmanager](https://github.com/rudra-ravi/mcp-taskmanager)  `innovation: 8` ★☆☆ 🔵
-
-**A serverless task management system built with Cloudflare Workers for efficient planning, tracking, and execution of complex workflows.**
-
-**Key Features:**
-- Task Planning
-- Task Management
-- Approval Workflow
-- Progress Tracking
-- Persistent Storage with Cloudflare KV
-- Serverless Architecture
-- Cross-origin Support
-- Custom Worker Naming
-- Environment-Specific Configurations
-
-*Tags: task management, cloudflare workers, ai assistant, api integration, deployment automation, data persistence, multi-step task execution, developer tools*
-
----
-
-### 273. [shivay-couchbase/couchbase-mcp](https://github.com/shivay-couchbase/couchbase-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**This project demonstrates the use of the Model Context Protocol (MCP) to enable AI models to perform semantic searches on Star Wars planets. It leverages Couchbase's vector search capabilities to efficiently find similar planets based on embeddings, enhancing AI-driven data retrieval and analysis.**
-
-**Key Features:**
-- Model Context Protocol integration
-- Vector search for similarity lookup
-- Couchbase server setup with vector indexing
-- TypeScript implementation with type safety
-
-*Tags: couchbase, modelcontextprotocol, ai-search, vectorsearch, semanticsearch, ai-development, dataindexing, couchbase-mcp*
-
----
-
-### 274. [sourabh-khot65/typesense-mcp-server](https://github.com/sourabh-khot65/typesense-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**The typesense-mcp-server acts as a bridge between Borg and Typesense, allowing seamless retrieval of data from various Typesense collections using popular MCP clients like Claude or Cursor. It supports generic search interfaces, typo tolerance, filtering, pagination, and API integration, making it s**
-
-**Key Features:**
-- Generic search interface
-- Typo-tolerant search
-- Filtering and faceting
-- Pagination
-- API integration
-
-*Tags: typesense, mcp-server, api-integration, search, data-extraction, developer-tools, enterprise-platform, ai-security*
-
----
-
-### 275. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**The slack-mcp-server acts as a bridge between Claude and Slack by implementing the Model Context Protocol (MCP). It allows AI assistants to securely read messages, threads, metadata, and user information from Slack channels, threads, and direct messages. This integration supports advanced use cases **
-
-**Key Features:**
-- Message operations (read/permalinks)
-- Thread and channel management
-- Metadata retrieval
-- User and group information access
-- Search capabilities
-- Integration with Claude AI assistant
-
-*Tags: ai, developer, security, slack, mcp, code, workflow, integration*
-
----
-
-### 276. [supabase/supabase](https://github.com/supabase/supabase)  `innovation: 8` ★☆☆ 🔵
-
-**Supabase focuses heavily on providing a streamlined developer experience (UX) by abstracting complex backend infrastructure into easy-to-use services analogous to Firebase features. Key components include an auto-generated REST API (PostgREST), JWT-based authentication (GoTrue), real-time subscripti**
-
-**Key Features:**
-- Auto-generated REST APIs from Postgres (PostgREST)
-- Realtime database subscriptions via WebSockets
-- JWT-based authentication (GoTrue)
-- File Storage API with Postgres permission control
-- Postgres Extensions support (including vector/embeddings)
-- Modular client libraries for numerous languages
-- Self-hosting capability alongside managed service
-
-*Tags: postgres, backend-as-a-service, developer-experience, realtime, api-generation, authentication, database-abstraction, self-hosting*
-
----
-
-### 277. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)  `innovation: 8` ★☆☆ 🔵
-
-**grok-cli is focused heavily on the user experience of interacting with an AI agent directly within the command line environment. It utilizes OpenTUI for a fast, keyboard-driven terminal UI, supports headless operation for automation scripts, and introduces a novel remote control feature via Telegram**
-
-**Key Features:**
-- Terminal-native TUI (OpenTUI)
-- Headless execution mode for scripting
-- Remote control via Telegram messaging
-- Session persistence and resumption
-- Integration of Grok models with real-time web/X search tools
-- Project-specific instruction embedding (AGENTS.md)
-
-*Tags: terminal-ui, cli, tui, developer-experience, keyboard-driven, remote-control, open-source-agent, bun*
-
----
-
-### 278. [topoteretes/cognee](https://github.com/topoteretes/cognee)  `innovation: 8` ★☆☆ 🔵
-
-**Cognee provides a sophisticated architecture for AI memory that transforms unstructured data into structured, searchable knowledge graphs. It employs a hybrid approach combining semantic vector search with relational graph databases to provide agents with high-fidelity context. The core 'cognify' pr**
-
-**Key Features:**
-- Hybrid Vector-Graph retrieval
-- Automated ontology grounding
-- Cognify data pipeline
-- Agentic tenant isolation
-- Multi-agent knowledge sharing
-- OpenTelemetry (OTEL) traceability
-- Multimodal ingestion
-- GraphRAG reasoning optimization
-
-*Tags: graph-rag, vector-search, ai-memory, knowledge-graph, cognitive-architecture, persistence-layer, context-engineering, neo4j*
-
----
-
-### 279. [v587d/insightslibrary](https://github.com/v587d/insightslibrary)  `innovation: 8` ★☆☆ 🔵
-
-**A plug-and-play knowledge base offering over 10,000 insights reports for AI-driven decision support.**
-
-**Key Features:**
-- Integration with MCP Server for local data storage
-- Support for vector search and keyword retrieval
-- Real-time access to high-quality reports from trusted sources
-- Customizable embeddings using Qwen3 model
-- Automated code review and pull request management
-
-*Tags: agent orchestration, workflow automation, developer tools, code quality, insight generation, data persistence, report indexing, ai integration*
-
----
-
-### 280. [z9905080/mcp-slack](https://github.com/z9905080/mcp-slack)  `innovation: 8` ★☆☆ 🔵
-
-**The mcp-slack package provides a server implementation that allows AI models to integrate seamlessly with Slack, facilitating tasks such as channel management, message posting, thread replies, and user interactions within Slack workspaces. It supports various Slack integrations including channel bro**
-
-**Key Features:**
-- list and browse channels
-- send messages to channels
-- reply to threads
-- add reactions to messages
-- retrieve channel history
-- get thread replies
-- list users and retrieve profiles
-
-*Tags: ai, slack, developer, integration, mcp, security*
-
----
-
-### 281. [zhangzhongnan928/mcp-warpcast-server](https://github.com/zhangzhongnan928/mcp-warpcast-server)  `innovation: 8` ★☆☆ 🔵
-
-**The MCP-Warpcast-Server is an agent orchestration tool designed to integrate Warpcast with Claude Desktop, enabling users to post, read, search, and manage casts directly from their desktop environment. It leverages the FastMCP protocol and FastAPI for robust API communication, offering a streamline**
-
-**Key Features:**
-- Post casts to Warpcast
-- Read casts from Warpcast
-- Search casts by keyword or hashtag
-- Browse trending casts
-- Follow/unfollow channels
-- Get channel information
-- Cast creation and management
-- API token integration for authentication
-
-*Tags: mcp, warpcast, cloud, developer, integration, automation, security, testing*
-
----
-
 ## General Vector & Embedding Tools
 
-> 92 tools · avg innovation 8.5
+> 5 tools · avg innovation 8.4 · avg quality 1.00
 
-### 282. [Merwynkumar/clawblink](https://github.com/Merwynkumar/clawblink)  `innovation: 10` ★★★ 🔵
-
-**A specialized CLI tool for rapid AI-assisted codebase navigation, using local embeddings to provide "blink-of-an-eye" contextual summaries without reading full files.**
-
-**Key Features:**
-- Local embeddings for semantic code search
-- instant file/function "blinks" (summaries)
-- diff-aware architectural impact analysis
-- zero-config setup.
-
-*Tags: cli, context-engineering, semantic-search, code-navigation, optimization*
-
----
-
-### 283. [NiaExperience/PearlOS](https://github.com/NiaExperience/PearlOS)  `innovation: 10` ★★★ 🔵
-
-**An open-source, browser-based "intelligent environment" powered by a self-evolving AI companion (Pearl) capable of voice interaction and autonomous codebase patching.**
-
-**Key Features:**
-- Real-time WebRTC voice interaction
-- autonomous "Sub-Agent Swarms" for self-patching
-- semantic multi-layer memory
-- Discord/Slack omni-channel awareness.
-
-*Tags: os, voice-ai, self-evolving, framework, companion*
-
----
-
-### 284. [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)  `innovation: 10` ★★★ 🔵
-
-**A production-grade context engineering and multi-agent system designed to make AI development reliable via rigorous planning and verification.**
-
-**Key Features:**
-- Planner-Checker-Revise loops
-- automated codebase mapping
-- sub-agent task delegation
-- interactive verification gates.
-
-*Tags: gsd, orchestration, verification, cdd, workflow*
-
----
-
-### 285. [llm-use/llm-use](https://github.com/llm-use/llm-use)  `innovation: 10` ★★★ 🔵
-
-**A collection of frameworks and tools (OmniParser/CUA) that enable LLMs to "see" and control computer GUIs through visual action planning.**
-
-**Key Features:**
-- Vision-based element detection (OmniParser)
-- autonomous multi-step action planning
-- secure Docker/VM sandboxing
-- legacy software interaction.
-
-*Tags: computer-use, vision, gui-automation, navigation, action-planning*
-
----
-
-### 286. [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)  `innovation: 10` ★★★ 🔵
-
-**An open agentic framework for autonomous computer use via GUI interaction, featuring experience-augmented hierarchical planning.**
-
-**Key Features:**
-- Agent-Computer Interface (ACI)
-- hierarchical sub-task planning
-- ~72.6% OSWorld success rate
-- local Python/Bash execution hooks.
-
-*Tags: computer-use, vision, gui-automation, navigation, orchestration*
-
----
-
-### 287. [supermemoryai/supermemory-mcp](https://github.com/supermemoryai/supermemory-mcp)  `innovation: 10` ★★★ 🔵
-
-**A universal memory layer that provides AI assistants with persistent, searchable embeddings of conversations and web content across different platforms.**
-
-**Key Features:**
-- Cross-platform memory hub
-- semantic embedding-based recall
-- OAuth security
-- project-scoped memory organization.
-
-*Tags: memory, persistence, vector-search, mcp, second-brain*
-
----
-
-### 288. [emmron/gemini-mcp](https://github.com/emmron/gemini-mcp)  `innovation: 9.7` ★★☆ 🔵
-
-**A next-generation AI orchestration platform designed to enhance workflow automation, multi-model integration, and enterprise-grade security for advanced AI applications.**
-
-**Key Features:**
-- Enhanced multi-model orchestration with intelligent routing
-- Quantum-grade security with quantum prediction and prediction capabilities
-- Business intelligence and financial impact analysis
-- Advanced team collaboration and workflow coordination
-- Continuous quality monitoring and trend analysis
-- AI-powered performance forecasting and capacity planning
-
-*Tags: agent orchestration, workflow automation, ai development, security, business intelligence, multi-model integration, enterprise ai, developer tools*
-
----
-
-### 289. [24601/BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE)  `innovation: 9` ★★☆ 🔵
-
-**A breakthrough method for agile AI-driven development, integrating specialized AI agents to automate and enhance software development processes.**
-
-**Key Features:**
-- Agentic Planning with dedicated AI agents (Analyst
-- PM
-- Architect)
-- Context-Engineered Development using Scrum Master agent
-- Two-phase workflow: PRD creation and detailed development stories
-- Seamless integration with existing IDEs for full context awareness
-
-*Tags: agentic ai development, ai-driven devops, ai project management, software automation, ai agents, development workflow, ai integration, code generation*
-
----
-
-### 290. [54yyyu/zotero-mcp](https://github.com/54yyyu/zotero-mcp)  `innovation: 9` ★★☆ 🔵
-
-**Zotero MCP enables seamless integration of Zotero research libraries with AI assistants via the Model Context Protocol.**
-
-**Key Features:**
-- AI-powered semantic search
-- Citation intelligence and retraction alerts
-- PDF annotation extraction
-- Hybrid local/cloud access
-- Custom metadata management
-- Integration with Claude
-- ChatGPT
-- and other AI tools
-
-*Tags: zotero-mcp, ai-integration, semantic-search, developer-tools, cloud-sync, citation-analysis, metadata-management, hybrid-mode*
-
----
-
-### 291. [DLHellMe/telegram-mcp-server](https://github.com/DLHellMe/telegram-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**A powerful Telegram MCP server enabling Claude Desktop to scrape and analyze Telegram content.**
-
-**Key Features:**
-- Web scraping via Telegram's MTProto protocol
-- Direct API access to Telegram channels and groups
-- Persistent sessions for authenticated users
-- Search functionality with filters and metadata access
-- Integration with Claude Desktop for seamless interaction
-
-*Tags: telegram-mcp-server, telegram-api, web-scraping, telegram-analytics, telegram-integration, ai-development, cloud-deployment, data-extraction*
-
----
-
-### 292. [EvolutionAPI/BMAD-METHOD-BY-EVOLUTION](https://github.com/EvolutionAPI/BMAD-METHOD-BY-EVOLUTION)  `innovation: 9` ★★☆ 🔵
-
-**A breakthrough method for agile AI-driven development using specialized agents to guide structured, adaptive workflows.**
-
-**Key Features:**
-- AI-powered agents for expert collaboration
-- Adaptive planning from bug fixes to enterprise systems
-- Structured workflows across analysis
-- architecture
-- and implementation
-- Specialized modules for domain expertise
-- Integration with agile best practices
-- Customizable agent personas for team collaboration
-
-*Tags: agileai, aidevelopment, bomadmethod, developertools, security, enterpriseai, codegeneration, continuousintegration*
-
----
-
-### 293. [Ishabdullah/Codey-v2](https://github.com/Ishabdullah/Codey-v2)  `innovation: 9` ★★☆ 🔵
-
-**A persistent, local AI coding assistant for Android devices that enables offline development, code generation, and task automation without relying on cloud services.**
-
-**Key Features:**
-- Persistent daemon-based AI agent running locally in Termux
-- Three-purpose-built models: 7B primary agent
-- 0.5B planner/summarizer
-- embedding encoder
-- Integration with OpenRouter for cloud inference when needed
-- Voice input and TTS output via Termux
-- Self-refinement and error recovery mechanisms
-- Support for Git integration
-- code review
-- and CI/CD workflows
-
-*Tags: agent orchestration, offline ai, termux development, code generation, local ai assistant, developer workflow, memory persistence, cloud integration*
-
----
-
-### 294. [abhinav-mangla/inner-monologue-mcp](https://github.com/abhinav-mangla/inner-monologue-mcp)  `innovation: 9` ★★☆ 🔵
-
-**The Inner Monologue MCP Server is a cognitive reasoning platform inspired by Google DeepMind's research on 'Inner Monologue.' It enables large language models to simulate private, structured self-reflection before generating answers. This feature supports complex problem-solving by breaking tasks in**
-
-**Key Features:**
-- Silent internal reasoning for improved response quality
-- Structured multi-step reasoning and reflection
-- Supports debugging
-- mathematical problem-solving
-- and complex planning
-- Integrates with Claude and other MCP-compatible clients
-- Provides detailed feedback and context retention
-
-*Tags: AI Development, LLM Enhancement, Code Quality, Security, DevOps, Machine Learning, Software Engineering, Enterprise AI*
-
----
-
-### 295. [aminforou/mcp-gsc](https://github.com/aminforou/mcp-gsc)  `innovation: 9` ★★☆ 🔵
-
-**A cloud-based AI-powered platform integrating Google Search Console with Claude AI to enhance SEO, analytics, and automation for web properties.**
-
-**Key Features:**
-- Real-time SEO insights via Claude AI integration
-- Automated data analysis and reporting
-- Keyword cannibalization detection
-- Indexing audit and sitemap management
-- Performance trend visualization
-- Sitemap inspection and error checking
-- Search analytics dashboard
-- Customizable alerts and notifications
-
-*Tags: ai, cloud, search_consult, seo, automation, analytics, developer_tools, integration*
-
----
-
-### 296. [baidu-maps/mcp](https://github.com/baidu-maps/mcp)  `innovation: 9` ★★☆ 🔵
-
-**Baidu Map MCP Server provides a comprehensive suite of geospatial APIs and tools for developers to integrate advanced mapping, AI, and location intelligence into their applications.**
-
-**Key Features:**
-- Full MCP Protocol Support
-- Rich LBS Capabilities (geocoding
-- POI search
-- route planning)
-- Cross-platform SDKs (Python
-- TypeScript)
-- Enterprise-grade data from Baidu Maps
-- High performance and stability with SSE
-- Open source and extensible licensing
-
-*Tags: mcp, geolocation, ai, developer, maps, location, integration, mapping*
-
----
-
-### 297. [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)  `innovation: 9` ★★☆ 🔵
-
-**A structured, spec-driven development methodology that treats AI agents as versionable code artifacts (Agent-as-Code).**
-
-**Key Features:**
-- 12+ Specialized Personas
-- Atomic Story File sharding
-- YAML-based agent definitions
-- Scale-adaptive planning flows.
-
-*Tags: bmad, agile, agent-as-code, methodology, workflow*
-
----
-
-### 298. [cablate/mcp-google-map](https://github.com/cablate/mcp-google-map)  `innovation: 9` ★★☆ 🔵
-
-**A powerful Model Context Protocol server integrating Google Maps API with LLM processing capabilities for intelligent navigation and location-based AI applications.**
-
-**Key Features:**
-- Geocoding and reverse geocoding
-- Route planning and optimization
-- Live directions and step-by-step navigation
-- Distance matrix and travel time calculations
-- Weather
-- air quality
-- and map image generation
-- Batch processing of addresses and place details
-- Integration with external tools and APIs
-
-*Tags: maps_search, geocode, directions, route, map_image, batch_geocode, plan_route, compare_places*
-
----
-
-### 299. [context-foundry/context-foundry](https://github.com/context-foundry/context-foundry)  `innovation: 9` ★★☆ 🔵
-
-**A multi-instance, autonomous build loop using Foundry agents to streamline software development, testing, verification, and feedback across a project lifecycle.**
-
-**Key Features:**
-- Autonomous task execution with three modes: Run forever
-- Sprint
-- or Review
-- Claude Code agents for planning
-- building
-- verifying
-- and fixing code
-- Structured artifact handoff between agents via curated files (TASKS.md
-- plan.md
-- build-claims.md
-- etc.)
-- Pattern extraction and reuse across tasks to improve quality
-
-*Tags: agent orchestration, workflow automation, code quality, continuous integration, developer productivity, ai-assisted development, security integration, pattern learning*
-
----
-
-### 300. [dnnyngyen/gemini-cli-orchestrator](https://github.com/dnnyngyen/gemini-cli-orchestrator)  `innovation: 9` ★★☆ 🔵
-
-**A tool designed to guide AI agents through structured, multi-step codebase analysis using Gemini CLI orchestration.**
-
-**Key Features:**
-- Sequential thinking framework for AI-driven code analysis
-- Step-by-step planning and execution of security audits
-- Integration with Claude Code for intelligent prompt generation
-- Automated documentation and reporting capabilities
-
-*Tags: agent orchestration, ai-driven analysis, code security, developer workflow, security auditing, germination, metaprompting, code review*
-
----
-
-### 301. [drfccv/mcp-server-12306](https://github.com/drfccv/mcp-server-12306)  `innovation: 9` ★★☆ 🔵
-
-**A high-performance backend for MCP Server 12306, providing real-time ticketing and travel information via standardized API.**
-
-**Key Features:**
-- Real-time ticket and station data query
-- Remaining tickets and seat availability
-- Vehicle stop and transfer planning
-- Smart time tools with time zone support
-- Integration with AI/automation systems
-
-*Tags: mcp-server, ticketing, travel, ai, developer, integration, time, automation*
-
----
-
-### 302. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `innovation: 9` ★★☆ 🔵
+### 317. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `9` ★★☆ 🔵
 
 **A MCP server that integrates FindMine's styling API with Claude and other MCP-compatible tools, enabling advanced fashion AI for product recommendations.**
 
@@ -4929,158 +5104,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 303. [floriscornel/teams-mcp](https://github.com/floriscornel/teams-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A Microsoft Teams and Graph API integration enabling AI assistants to manage teams, channels, messages, attachments, and user data seamlessly.**
-
-**Key Features:**
-- Microsoft Graph API integration for Teams and Graph services
-- AI assistant support for messaging
-- search
-- and user management
-- Secure token handling and OAuth 2.0 authentication
-- Rich message formatting with markdown support
-- Advanced search
-- filtering
-- and pagination capabilities
-- Message moderation
-- editing
-- and deletion features
-
-*Tags: teams-mcp, ai-assistants, microsoft-graph, developer-tools, message-management, security-features, cloud-integration, user-engagement*
-
----
-
-### 304. [g023/g023_agentic_chat](https://github.com/g023/g023_agentic_chat)  `innovation: 9` ★★☆ 🔵
-
-**A unified Python-first agentic chat tool that automates complex workflows, integrates with LLMs, and orchestrates tasks across multiple subsystems.**
-
-**Key Features:**
-- Single-tool architecture using python_exec for seamless task execution
-- Multi-level reasoning with auto-escalation and backtracking
-- 6-level memory system (global + persistent) for context retention
-- Sub-agent system (Planner
-- Coder
-- Reviewer) for specialized task handling
-- Reinforcement learning for continuous improvement
-- Dynamic configuration and user control modes
-- Integrated shell commands
-- file I/O
-- HTTP requests
-- and computation
-
-*Tags: agent orchestration, workflow automation, python integration, llm integration, multi-agent system, context management, developer productivity, system architecture*
-
----
-
-### 305. [gpaul-mcp/mcp_prompt_localdev](https://github.com/gpaul-mcp/mcp_prompt_localdev)  `innovation: 9` ★★☆ 🔵
-
-**A comprehensive guide to planning and executing TypeScript projects using the MCP server, integrating with Claude Desktop for AI-assisted development.**
-
-**Key Features:**
-- API Architecture Planning
-- Project Setup
-- GitHub Workflow Design
-- Customization for Specific Needs
-- Consistent Output for Structured Plans
-
-*Tags: AI Development, DevOps, CI/CD, GitHub Workflows, Modern Development, Project Planning, Cloud Deployment*
-
----
-
-### 306. [hanweg/mcp-discord-raw](https://github.com/hanweg/mcp-discord-raw)  `innovation: 9` ★★☆ 🔵
-
-**The MCP server enables developers to interact with the Discord API directly through a unified tool, supporting both REST and slash command interfaces. It offers comprehensive functionality including role management, channel categorization, message sending, and more, enhancing developer productivity **
-
-**Key Features:**
-- Raw Discord API access
-- Role creation and management
-- Channel and category management
-- Message sending with emojis
-- Integration with Claude Desktop
-- Unicode emoji support in messages
-
-*Tags: discord-api, developer-tools, bot-integration, raw-api, discord-mcpsrc, code-deployment, ai-development, security-features*
-
----
-
-### 307. [jazzenchen/VibeAround](https://github.com/jazzenchen/VibeAround)  `innovation: 9` ★★☆ 🔵
-
-**VibeAround is an open-source platform designed to connect mainstream AI coding agents such as Claude Code, Codex CLI, Cursor CLI, Gemini CLI, Kiro CLI, Qwen Code, and OpenCode. It provides a unified interface for developers to manage and switch between these agents via Telegram, Feishu, Discord, Sla**
-
-**Key Features:**
-- Agent orchestration across multiple AI coding agents
-- Session handover between agents and IM channels
-- Native IM experience with rich formatting
-- Web dashboard at localhost:12358
-- Multi-channel support (Telegram
-- Feishu
-- Discord
-- Slack
-- WeChat
-- DingTalk
-- WeCom
-- QQ Bot)
-
-*Tags: agent orchestration, ai coding agents, multi-channel development, developer workflow, code collaboration, im framework, memory persistence, api integration*
-
----
-
-### 308. [jhawkins11/task-manager-mcp](https://github.com/jhawkins11/task-manager-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A task management and AI-assisted planning platform integrating with Cursor for intelligent code review, workflow automation, and context-aware task breakdown.**
-
-**Key Features:**
-- AI-powered task planning and breakdown using LLMs (Gemini/OpenRouter)
-- Integration with Cursor for real-time code review and feedback
-- Automated code review and plan adjustment capabilities
-- Unlimited context window for complex AI interactions
-- WebSocket-based UI for live task management and progress tracking
-
-*Tags: task-management, ai-assistance, code-review, workflow-automation, context-aware, developer-tools, integration, cloud-native*
-
----
-
-### 309. [johnneerdael/netskope-mcp](https://github.com/johnneerdael/netskope-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A comprehensive AI-powered platform for managing Netskope Private Access (NPA) infrastructure through automated workflows and intelligent automation.**
-
-**Key Features:**
-- AI-driven automation of NPA management tasks
-- Workflow orchestration across multiple tools
-- Integration with SCIM
-- identity
-- and access control systems
-- Real-time monitoring and alerting for security events
-- Compliance validation and remediation planning
-
-*Tags: netskope, ai, automation, security, devops, integration, compliance, monitoring*
-
----
-
-### 310. [kurdin/github-repos-manager-mcp](https://github.com/kurdin/github-repos-manager-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A token-based GitHub Repos Manager MCP server enabling seamless integration of MCP clients with GitHub repositories using a single GitHub personal access token.**
-
-**Key Features:**
-- Token-based authentication for secure MCP client interactions
-- Repository management including listing
-- filtering
-- and detailed information
-- Issue tracking with full lifecycle support (creation
-- editing
-- commenting)
-- Pull request management with state filtering and sorting
-- Branch and commit management with protection and history exploration
-- Image upload and embedding capabilities
-- Advanced filtering
-- sorting
-
-*Tags: github-api, git-repos-manager, mcp-server, developer-tools, security-features, code-management, workflow-automation, integration-capabilities*
-
----
-
-### 311. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `innovation: 9` ★★☆ 🔵
+### 318. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `9` ★★☆ 🔵
 
 **Smart-Thinking is a local, deterministic Model Context Protocol server for multi-step reasoning without external AI dependencies.**
 
@@ -5095,283 +5119,9 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 312. [loonghao/wecom-bot-mcp-server](https://github.com/loonghao/wecom-bot-mcp-server)  `innovation: 9` ★★☆ 🔵
+### 319. [Fl0k3n/kfe](https://github.com/Fl0k3n/kfe)  `8` ★☆☆ 🔵
 
-**A Python server implementation for WeChat Work bots that supports MCP protocol, enabling context-aware and multi-message interactions.**
-
-**Key Features:**
-- WeCom Bot MCP Server
-- Multi-message support (Markdown
-- Image
-- File)
-- Message history tracking
-- Configurable logging system
-- Type annotations and Pydantic validation
-- Integration with WeChat Work groups
-- Customizable webhook URLs for notifications
-
-*Tags: wecom-bot-mcp-server, api-integration, context-aware, multi-bot, python-devops, mcp-protocol, webhook-notifications, logging*
-
----
-
-### 313. [madnessengineering/omnispindle](https://github.com/madnessengineering/omnispindle)  `innovation: 9` ★★☆ 🔵
-
-**Omnispindle is a centralized MCP-based todo management system that integrates AI agents to coordinate tasks, capture knowledge, and track workflows across multiple projects.**
-
-**Key Features:**
-- Todo creation
-- query
-- update
-- and completion with metadata
-- Knowledge capture via lessons with language
-- topic
-- and tag metadata
-- Semantic search using vector embeddings for context-aware results
-- Session tracking with lineage and genealogy
-- Injection of custom tools (Python
-- JS
-- shell) at runtime
-
-*Tags: omnispindle, todo_management, ai_agents, workflow_automation, mcp_integration, knowledge_capture, semantic_search, project_tracking*
-
----
-
-### 314. [meilisearch/meilisearch-mcp](https://github.com/meilisearch/meilisearch-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A Model Context Protocol (MCP) server enabling LLM integration with Meilisearch for advanced search and management.**
-
-**Key Features:**
-- Universal compatibility with any MCP-compatible client
-- Natural language conversation for managing search indices
-- Zero learning curve for AI assistants
-- Full feature access without needing to learn Meilisearch API
-- Dynamic connections between Meilisearch instances
-
-*Tags: meilisearch-mcp, llm-integration, search-management, api-access, developer-tools, ai-assistant, cloud-native, security-features*
-
----
-
-### 315. [outworked/outworked](https://github.com/outworked/outworked)  `innovation: 9` ★★☆ 🔵
-
-**A tool that automates complex workflows across multiple agents, integrating AI capabilities for code generation, security checks, and project management.**
-
-**Key Features:**
-- AI-powered code generation with Claude Code
-- Automated task assignment and workflow orchestration
-- Real-time monitoring and reporting via integrated dashboards
-- Secure integration with external tools and APIs
-- Context-aware agents for seamless collaboration
-- Customizable agent roles
-- permissions
-- and communication channels
-
-*Tags: agent orchestration, workflow automation, ai integration, security, developer productivity, cloud services, project management, api connectivity*
-
----
-
-### 316. [pubnub/pubnub-mcp-server](https://github.com/pubnub/pubnub-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**A CLI-based Model Context Protocol (MCP) server that integrates with various LLM-powered tools to enhance AI interaction with PubNub SDKs.**
-
-**Key Features:**
-- Comprehensive SDK Documentation
-- Application & Keyset Management
-- Real-time Communication
-- User & Channel Management
-- Presence & Activity Tracking
-- Multi-Platform Integration
-- Developer Experience with TypeScript
-- Advanced Usage Configuration
-
-*Tags: agent orchestration, workflow automation, developer tools, pubnub integration, ai-powered development, real-time communication, multi-platform support*
-
----
-
-### 317. [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp)  `innovation: 9` ★★☆ 🔵
-
-**A TypeScript framework for building MCP servers with advanced features like session management, resource handling, and secure communication.**
-
-**Key Features:**
-- Session ID and Request ID tracking
-- Image
-- audio
-- and content embedding
-- Error handling and logging
-- Prompt definition and argument auto-completion
-- Custom HTTP routes for REST APIs
-- webhooks
-- and admin interfaces
-- Streaming output support (SSE compatibility)
-- HTTPS support with SSL certificate options
-- Stateless mode for serverless deployments
-
-*Tags: mcp, fastmc, developer, security, cloud, devops, ai, automation*
-
----
-
-### 318. [ruvnet/ruv-FANN](https://github.com/ruvnet/ruv-FANN)  `innovation: 9` ★★☆ 🔵
-
-**A memory-safe neural intelligence framework enabling efficient, ephemeral deployment of AI models.**
-
-**Key Features:**
-- Rust-based neural network library (ruv-FANN)
-- Ephemeral intelligence with on-demand instantiation
-- GPU-optional architecture with CPU-native execution
-- Integration with Claude Flow and other neural architectures
-- Swarm-based distributed model orchestration
-
-*Tags: memory-safe, neural-intelligence, rust, ai-devops, swarm-intelligence, ephemeral, cloud-native, ml-as-a-service*
-
----
-
-### 319. [taazkareem/clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server)  `innovation: 9` ★★☆ 🔵
-
-**A high-performance MCP server enabling AI integration via Model Context Protocol for intelligent task management.**
-
-**Key Features:**
-- Multi-agent support with secure authentication and session isolation
-- Natural language search and resolution across tasks
-- spaces
-- and documents
-- Task automation including CRUD operations
-- subtasks
-- sprints
-- and dependencies
-- Integration with ClickUp for AI-powered workflows using MCP
-- Advanced document management with markdown support
-- Custom task templates and workspace control
-- Real-time collaboration features like comments
-
-*Tags: clickup-mcp-server, ai-integration, agent-automation, workflow-optimization, developer-tools, security-features, cloud-deployment, enterprise-solutions*
-
----
-
-### 320. [the-basilisk-ai/squad-mcp](https://github.com/the-basilisk-ai/squad-mcp)  `innovation: 9` ★★☆ 🔵
-
-**A remote MCP server enabling seamless integration of AI assistants into developer workflows for Squad AI.**
-
-**Key Features:**
-- Connect to Claude
-- ChatGPT
-- or other MCP-compatible AI assistants
-- Automate product discovery and strategy planning
-- Generate solutions
-- opportunities
-- and insights from data
-- Manage workspaces
-- goals
-- knowledge
-- and feedback
-- Integrate with external tools and CI/CD pipelines
-
-*Tags: agent orchestration, ai integration, developer workflow, product discovery, squad ai, mcp server, automation, data insights*
-
----
-
-### 321. [xorrkaz/cml-mcp](https://github.com/xorrkaz/cml-mcp)  `innovation: 9` ★★☆ 🔵
-
-**The xorrkaz/cml-mcp project introduces a Model Context Protocol (MCP) server that integrates AI assistants like Claude Desktop to simplify complex tasks in Cisco Modeling Labs (CML). Users can interact with CML using plain English commands such as 'Create a new lab with two routers and configure OSP**
-
-**Key Features:**
-- Natural language interaction with CML via Claude Desktop
-- Automated lab creation and configuration
-- Node and link management (start/stop/wipe)
-- Packet capture and analysis
-- Visual annotations for documentation
-- Integration with CML APIs for advanced network tasks
-
-*Tags: cml-mcp, ai-assistant, network-automation, cml-server, developer-tools, cml-lab, cloud-integration, cml-api*
-
----
-
-### 322. [dasein108/mcp-cw-graph](https://github.com/dasein108/mcp-cw-graph)  `innovation: 8.5` ★☆☆ 🔵
-
-**MCP Server for interacting with the CW-Social smart contract on Cosmos-based blockchains, enabling creation, management, and querying of cyberlinks.**
-
-**Key Features:**
-- Create
-- read
-- update
-- and delete cyberlinks
-- Batch operations for efficient processing
-- Rich query capabilities with filtering and pagination
-- Transaction Management with real-time monitoring
-- Semantic embedding generation via Hugging Face transformers
-- Cosine similarity calculations for semantic matching
-- Flexible ID system with formatted IDs (fids) and global IDs (gids)
-- Time-range based queries with UTC support
-- Owner-based filtering and statistics
-
-*Tags: mcp, cyberlink, cosmos, ai, blockchain, smart contracts, decentralized apps, web3*
-
----
-
-### 323. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `innovation: 8.5` ★☆☆ 🔵
-
-**A tool designed to apply Claude Shannon-inspired problem-solving methodology for structured thinking and systematic problem resolution.**
-
-**Key Features:**
-- Claude Shannon-inspired problem breakdown
-- Structured thought process with problem definition
-- constraints
-- modeling
-- proof
-- implementation
-- Integration of theoretical and practical validation
-
-*Tags: software development, ai problem solving, security, systems thinking, code quality, devops, enterprise solutions, security engineering*
-
----
-
-### 324. [https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)  `innovation: 8` ★☆☆ 🔵
-
-**The GitHub Copilot CLI allows users to use Copilot directly from their terminal. This tool can answer questions, write and debug code, and interact with GitHub.com. It offers two modes of interaction: an interactive interface for conversations and a plan mode for structured task planning. Programmat**
-
-**Key Features:**
-- Interactive Interface (conversation mode)
-- Plan Mode (for structured task planning)
-- Programmatic Interface (direct prompt execution).
-
-*Tags: ['AI Agents', 'CLI Tools', 'Code Interaction', 'GitHub Integration', 'Developer UX', 'Agent Orchestration'], docs, documentation*
-
----
-
-### 325. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `innovation: 8` ★☆☆ 🔵
-
-**The mcp-1panel project provides a Model Context Protocol (MCP) server implementation tailored for 1Panel, facilitating secure and efficient communication between the platform and its backend services. It supports various integration modes including stdio and SSE, offering flexibility in deployment e**
-
-**Key Features:**
-- Model Context Protocol (MCP) server
-- Secure communication channels
-- Integration with 1Panel
-- Customizable configurations
-
-*Tags: mcp, mcp, 1panel, security, developer, integration, protocols, devops*
-
----
-
-### 326. [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)  `innovation: 8` ★☆☆ 🔵
-
-**A web interface for Stable Diffusion, featuring detailed feature showcase with images. It includes original txt2img and img2img modes, one-click install/run script options, and advanced features like Outpainting, Inpainting, Color Sketch Prompt Matrix, Textual Inversion, Loopback, and various neural**
-
-**Key Features:**
-- Core functionality includes text-to-image (txt2img) and image-to-image (img2img) modes. Key features include: 
-* **Textual Inversion:** Allowing users to define custom embeddings for text-to-image prompts.
-* **Image Manipulation:** Options for Outpainting
-- Inpainting
-- Color Sketch Prompt Matrix.
-* **Upscaling & Refinement:** Tools for image upscaling (ESRGAN) and color restoration (CodeFormer).
-* **Parameter Control:** Adjusting sampler eta values and noise multipliers.
-* **Efficiency/Optimization:** Options to interrupt processing and support for 4GB video cards.
-* **Metadata Management:** Saving generation parameters and copying them into the UI.
-
-*Tags: ['Stable Diffusion', 'AI Tools', 'Web UI', 'Image Generation', 'Text-to-Image', 'Upscaling', 'Extensions', 'Gradio'*
-
----
-
-### 327. [Fl0k3n/kfe](https://github.com/Fl0k3n/kfe)  `innovation: 8` ★☆☆ 🔵
-
-**A cross-platform search engine and file explorer designed to provide powerful multimedia search capabilities. It offers text query-based search that accounts for visual aspects of images and videos using CLIP embeddings, automatic transcription for audio/video files, and optional descriptions genera**
+**A cross-platform search engine and file explorer designed to provide powerful multimedia search capabilities. It offers text query-based search that accounts for visual aspects of images and videos using CLIP embeddings, automatic transcription for audio/video files, and optional descriptions generated by a DeepSeek LLM with vision capabilities, alongside manual text descriptions. The core innovat**
 
 **Key Features:**
 - Cross-platform search engine functionality
@@ -5384,117 +5134,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 328. [Gentoro-OneMCP/onemcp](https://github.com/Gentoro-OneMCP/onemcp)  `innovation: 8` ★☆☆ 🔵
-
-**OneMCP is an open-source runtime that allows AI agents to interact with your API materials (specification, documentation, authentication details) through a natural-language interface. It removes the need to manually craft MCP tools or connectors by providing a smart execution-plan system designed fo**
-
-**Key Features:**
-- OneMCP provides a natural-language interface for AI agents to interact with API data
-- offering a 'chat mode' experience. It focuses on efficient execution planning
-- caching
-- and reusing API calls to reduce token costs.
-
-*Tags: ['AI Agents', 'API Access', 'Agent Orchestration', 'Natural Language Interface', 'Efficiency', 'Cost-Efficiency', 'Microservices', 'LLM Integration']*
-
----
-
-### 329. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli)  `innovation: 8` ★☆☆ 🔵
-
-**Kimi Code CLI functions as a high-interoperability agentic interface that bridges the gap between local developer environments and LLMs. It features a unique Zsh integration that allows users to toggle between standard shell and agent modes via hotkeys (Ctrl-X). Technically, it implements both the A**
-
-**Key Features:**
-- Ctrl-X Shell/Agent toggling
-- Agent Client Protocol (ACP) implementation
-- Model Context Protocol (MCP) server management
-- Zsh plugin integration
-- Multi-IDE support (Zed/JetBrains/VS Code)
-- Autonomous task planning
-- Local shell command execution
-- Embedded Web UI for agent monitoring
-
-*Tags: cli-agent, mcp-protocol, agent-client-protocol, zsh-integration, ide-integration, autonomous-agents, terminal-ux, developer-experience*
-
----
-
-### 330. [TykanN/swit-mcp](https://github.com/TykanN/swit-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A local Swit MCP server for managing workflows, code reviews, and application security.**
-
-**Key Features:**
-- Local MCP server setup with Swit CLI
-- OAuth authentication integration
-- Automated workflow management (CLI & web tools)
-- Secure code review and pull request handling
-- Message creation and commenting in channels
-- Integration with external tools and CI/CD pipelines
-
-*Tags: swit-mcp, developer-tools, code-security, workflow-automation, application-security, api-integration, code-review, mcp-sdk*
-
----
-
-### 331. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `innovation: 8` ★☆☆ 🔵
-
-**A toolset for crawling documentation sites, generating Markdown, and enabling searchable indexing via MCP protocol.**
-
-**Key Features:**
-- Web crawler (crawler_cli) with configurable depth and URL patterns
-- Markdown document generator with HTML cleaning options
-- MCP server for semantic search and vector embedding generation
-- Integration with Cursor and other MCP clients via stdio transport
-- Cache-based performance optimization to speed up subsequent runs
-
-*Tags: web crawling, documentation management, semantic search, machine learning embeddings, api integration, developer tools, content indexing, ai-powered documentation*
-
----
-
-### 332. [allenday/solr-mcp](https://github.com/allenday/solr-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A Python package enabling AI assistants to perform advanced search queries against Apache Solr indexes.**
-
-**Key Features:**
-- Integrate with Claude Code for AI-powered search
-- Hybrid keyword and vector search
-- Unified collections of documents and embeddings
-- Docker-based deployment
-
-*Tags: solr-mcp, ai-search, developer-tools, solr-integration, vector-search*
-
----
-
-### 333. [chriscarlon/os-mcp](https://github.com/chriscarlon/os-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The os-mcp project provides a secure, Python-driven MCP (Machine Control Platform) server that allows developers and users to interact with Ordnance Survey's geospatial data through standardized APIs. It enforces a structured two-step workflow to ensure optimal results, integrating seamlessly with t**
-
-**Key Features:**
-- API access to Ordnance Survey
-- Two-step workflow planning
-- Docker integration
-- Cloud-based development environment
-- Code review and security features
-
-*Tags: os-mcp, mcp, geospatial, developer, mcp, ordernguide, devops, security*
-
----
-
-### 334. [chriscarrollsmith/taskqueue-mcp](https://github.com/chriscarrollsmith/taskqueue-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A structured task queue tool for AI agents to manage multi-step workflows with user approvals and progress tracking.**
-
-**Key Features:**
-- Task planning with multiple steps
-- Progress tracking and status management
-- User approval checkpoints for tasks
-- Project completion approval workflow
-- Integration with various AI models (OpenAI
-- Google Gemini
-- Deepseek)
-- Customizable CLI commands for automation
-
-*Tags: taskqueue-mcp, ai-task-management, workflow-automation, ai-development, project-planning, user-approval, multi-step-tasks, ai-integration*
-
----
-
-### 335. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)  `innovation: 8` ★☆☆ 🔵
+### 320. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)  `8` ★☆☆ 🔵
 
 **A powerful MCP server for Claude Desktop that enables web search and similarity search capabilities.**
 
@@ -5506,508 +5146,7 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 336. [devizor/macos-notification-mcp](https://github.com/devizor/macos-notification-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A tool enabling AI assistants to trigger native macOS notifications, sounds, and text-to-speech using the Model Context Protocol.**
-
-**Key Features:**
-- macos-notification-mcp server
-- AI assistant integration
-- sound playback
-- visual banner notifications
-- text-to-speech conversion
-
-*Tags: macos-notification-mcp, ai-assistant-integration, macos-notification-system, model-context-protocol, notification-ui, voice-management, testing-tools, quick-start*
-
----
-
-### 337. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A model context protocol server that enables semantic code search from local Git repositories, enhancing development workflows with contextual insights.**
-
-**Key Features:**
-- Local git repository processing
-- Semantic code chunk embedding generation
-- Context-aware search using Ollama
-- Integration with Claude Desktop for AI-assisted code review
-
-*Tags: code-context-mcp, ai-development, git-search, context-engineered, developer-tools*
-
----
-
-### 338. [google/timesketch](https://github.com/google/timesketch)  `innovation: 8` ★☆☆ 🔵
-
-**Timesketch is an open-source tool designed for collaborative forensic timeline analysis. It allows users to organize and analyze timelines by adding meaning to raw data with rich annotations, comments, tags, and stars. The core concept revolves around 'sketches' that allow collaborators to easily or**
-
-**Key Features:**
-- Collaborative timeline organization via sketches
-- Rich annotations/tags for raw data
-- Collaborative analysis across users
-- Clear structure for forensic timelines.
-
-*Tags: ['forensics', 'timeline', 'collaboration', 'sketching', 'security', 'analysis', 'memory', 'workflow'*
-
----
-
-### 339. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**This project provides an extension for the Model Context Protocol (MCP) server, enabling developers to integrate a comprehensive Hebrew calendar solution. It supports generating lists of Jewish holidays, offering features such as Hebrew date conversion, Shabbat candle lighting times, Torah readings,**
-
-**Key Features:**
-- Hebrew calendar generation
-- Holiday list creation
-- Date conversion tools
-- Shabbat candle lighting times
-- Torah readings (full kriyah and triennial system)
-- Yahrzeits
-- birthdays
-- and anniversaries lookup
-
-*Tags: hebrew-calendar, jewish-holidays, calendar-server, holiday-calculator, date-converter, shabbat-features, tripod-integration, custom-locales*
-
----
-
-### 340. [inditextech/mcp-teams-server](https://github.com/inditextech/mcp-teams-server)  `innovation: 8` ★☆☆ 🔵
-
-**The MCP Teams Server acts as a bridge between Microsoft Teams and an external application, allowing users to read, create, reply to messages, mention members, and manage channel interactions. It supports advanced features such as thread management, team member visibility, and integration with LLMs f**
-
-**Key Features:**
-- Read and write messages
-- Reply to messages
-- Mention users in messages
-- List channel members
-- View thread replies
-- Manage channel messages
-- Integrate with Microsoft Teams API
-- Support LLM-based interactions
-
-*Tags: mcp, teams, teams-server, teams-integration, teams-api, llm, developer-tools, security*
-
----
-
-### 341. [iptv-org/iptv](https://github.com/iptv-org/iptv)  `innovation: 8` ★☆☆ 🔵
-
-**The iptv-org repository aggregates user-submitted links to live streaming IPTV channels, enabling access to a wide variety of international content. This resource is valuable for developers and users interested in integrating live video feeds into applications, supporting use cases such as media str**
-
-**Key Features:**
-- User-submitted IPTV channel links
-- Live streaming support
-- API integration
-- Database of channel metadata
-- Playlist organization
-
-*Tags: iptv, streaming, media*
-
----
-
-### 342. [jmanhype/mcp-flux-studio](https://github.com/jmanhype/mcp-flux-studio)  `innovation: 8` ★☆☆ 🔵
-
-**A model context protocol server for Flux image generation, enabling tools for image creation, manipulation, and control.**
-
-**Key Features:**
-- Text-to-image generation
-- Image-to-image transformation
-- Inpainting
-- Structural control (pose
-- depth
-- canny)
-- Command-line interface via Python wrapper
-
-*Tags: flux, image generation, ai tools, developer platform, mcp server, model context protocol, code generation, visual ai*
-
----
-
-### 343. [just-every/code](https://github.com/just-every/code)  `innovation: 8` ★☆☆ 🔵
-
-**Every Code (formerly a Codex CLI fork) implements a sophisticated orchestration layer known as 'Auto Drive' that manages multi-step autonomous tasks with self-healing capabilities. It distinguishes itself by using a multi-agent consensus approach where different models (GPT, Claude, Gemini) collabor**
-
-**Key Features:**
-- Auto Drive orchestration
-- Multi-agent consensus planning
-- Background ghost-commit reviews
-- Code Bridge telemetry streaming
-- MCP server integration
-- CDP browser automation
-- Reasoning intensity controls
-- Bounded history management
-
-*Tags: agent-orchestration, multi-agent-systems, mcp, autonomous-coding, terminal-ui, telemetry-ingestion, browser-automation, automated-code-review*
-
----
-
-### 344. [kakehashi-inc/mcp-server-mattermost](https://github.com/kakehashi-inc/mcp-server-mattermost)  `innovation: 8` ★☆☆ 🔵
-
-**This project provides a Node.js-based MCP server that securely connects to the Mattermost API, enabling seamless integration of Mattermost messages across various channels. It supports multiple transport modes including stdio, sse, and http-stream, allowing for flexible communication with Mattermost**
-
-**Key Features:**
-- Secure token-based connection to Mattermost API
-- Multiple transport modes (stdio
-- sse
-- http-stream)
-- Customizable default channels and message limits
-- Supports enterprise-grade security features
-- Integration with Claude Desktop for desktop access
-
-*Tags: mcp-server-mattermost, api-integration, developer-tools, security*
-
----
-
-### 345. [kazuph/mcp-taskmanager](https://github.com/kazuph/mcp-taskmanager)  `innovation: 8` ★☆☆ 🔵
-
-**The kazuph/mcp-taskmanager is a GitHub-based tool designed to streamline task management for teams. It supports both planning and execution phases, allowing users to plan tasks, store them in a queue, and execute them with feedback mechanisms. The platform integrates seamlessly with Claude Desktop f**
-
-**Key Features:**
-- task planning
-- task execution
-- code review
-- security integration
-- workflow automation
-
-*Tags: taskmanager, workflow, automation, developer, security, integration, cloud, ai*
-
----
-
-### 346. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A server-based solution for managing property data via the Model Context Protocol, supporting both stdio and streamable HTTP transport.**
-
-**Key Features:**
-- Property and room type management
-- Reservations CRUD operations with custom fields and lock codes
-- Availability calendars
-- Listings and channel listings
-- Messaging and guest communication
-- Review management and response handling
-- Webhooks for real-time notifications
-- Custom channels and income methods
-- Integration with Claude and other MCP clients
-
-*Tags: hostex, modelcontextprotocol, propertymanagement, mcp, cloud, webhooks, messaging, review*
-
----
-
-### 347. [marlburrow/teamspeak-mcp](https://github.com/marlburrow/teamspeak-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A model context protocol server enabling AI-driven control of TeamSpeak channels and messages.**
-
-**Key Features:**
-- Connect to TeamSpeak servers and manage channels
-- users
-- permissions
-- and integrations.
-- Send and receive messages
-- including AFK/Silent channels and alerts.
-- Advanced channel management with properties
-- permissions
-- and virtual server configurations.
-- Voice control for mute
-- unmute
-- kicking
-
-*Tags: teamspeak-mcp, ai-integration, teamchat, voicecontrol, servermanagement, ai-chat, developer-tools, automation*
-
----
-
-### 348. [merajmehrabi/outlook_calendar_mcp](https://github.com/merajmehrabi/outlook_calendar_mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A model context protocol server enabling seamless integration of Claude with Microsoft Outlook calendars, allowing advanced scheduling and calendar management.**
-
-**Key Features:**
-- Access and manage local Outlook calendar events
-- Create
-- update
-- and delete calendar events
-- Find free time slots for scheduling
-- Manage attendee statuses
-- Integrate with Claude AI for enhanced meeting planning
-
-*Tags: outlook-calendar, mcp, calendar-sync, ai-integration, workflow-automation, developer-tools, security, cloud-services*
-
----
-
-### 349. [nex-crm/wuphf](https://github.com/nex-crm/wuphf)  `innovation: 8` ★☆☆ 🔵
-
-**WUPHF is a shared AI office designed to enhance team collaboration by enabling agents to work together seamlessly. It supports various AI tools like Claude Code, Codex, OpenClaw, and local LLMs via OpenCode, while maintaining context for tasks through integrated notebooks and wikis. The system empha**
-
-**Key Features:**
-- Agent collaboration across multiple tools
-- Context management via notebooks and wikis
-- Real-time communication channels
-- Automated task assignment and promotion
-- Integration with external APIs and services
-
-*Tags: ai, agent, workflow, collaboration, notebook, wiki, context, integration*
-
----
-
-### 350. [nighttrek/software-planning-mcp](https://github.com/nighttrek/software-planning-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**An experiment in software planning using MCP to structure and track development tasks.**
-
-**Key Features:**
-- Interactive Planning Sessions
-- Task Management
-- Complexity Scoring
-- Implementation Plans
-- Code Examples
-- Insights & Analytics
-
-*Tags: software-planning, mcp, development-planning, ai-development, project-management, code-automation, software-architecture, task-tracking*
-
----
-
-### 351. [oakplank/revitmcp](https://github.com/oakplank/revitmcp)  `innovation: 8` ★☆☆ 🔵
-
-**A Python-based extension for RevitMCP enabling AI-driven automation and workflow orchestration within Autodesk Revit.**
-
-**Key Features:**
-- AI-powered code generation and execution in Revit via RevitMCP
-- Integration with Claude Desktop for seamless web UI and local MCP server access
-- Automated tool planning
-- execution
-- and result analysis within Revit projects
-- Support for enterprise-grade security and code protection measures
-- Real-time collaboration and version control integration
-
-*Tags: RevitMCP, AI in Revit, PyRevit, Revit Extension, Code Automation, Workflow Optimization, Enterprise Development, Cloud Integration*
-
----
-
-### 352. [openadaptai/omnimcp](https://github.com/openadaptai/omnimcp)  `innovation: 8` ★☆☆ 🔵
-
-**OmniMCP enables AI models to interact with rich UI contexts using MCP and OmniParser, supporting automated workflows and intelligent application development.**
-
-**Key Features:**
-- Visual perception and planning via LLM
-- Agent executor for perceive-plan-act loop
-- Automated deployment of AI models
-- Integration with external tools and services
-- Support for multi-step and synthetic UI interactions
-
-*Tags: agent orchestration, workflow automation, ai interaction, ui perception, ml planning, deployment pipeline, multi-step execution, visual analysis*
-
----
-
-### 353. [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)  `innovation: 8` ★☆☆ 🔵
-
-**A decentralized peer-to-peer messaging app with a dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach. It's the side-groupchat.**
-
-**Key Features:**
-- Dual Transport Architecture (Bluetooth mesh for offline + Nostr protocol for internet-based messaging)
-- Location-Based Channels (Geohash coordinates)
-- Intelligent Message Routing (Bluetooth → Nostr fallback)
-- Decentralized Mesh Network
-- Noise Protocol Encryption
-- IRC-Style Commands (/msg
-- /who style interface).
-
-*Tags: ['bluetooth mesh chat', 'nostr protocol', 'noise protocol', 'privacy first', 'location channels', 'offgrid communication', 'dual transport', 'decentralized messaging'*
-
----
-
-### 354. [phr00t/AutoStepper](https://github.com/phr00t/AutoStepper)  `innovation: 8` ★☆☆ 🔵
-
-**A Java console program designed to automatically create StepMania SM files with features like generating all difficulty levels, banner/background art, multiple beat detection methods, and cross-platform support. It offers a complete solution for automating the creation of StepMania songs.**
-
-**Key Features:**
-- ['Generate all difficulty levels'
-- 'Generate holds & jumps'
-- 'Obtain banner & background art'
-- 'Multiple beat detection methods'
-- 'Cross-platform support'
-- 'Automated processing of music files (mp3s/wavs)'
-- 'Option to set specific parameters like input file
-- output directory
-- duration
-- and tap settings.']
-
-*Tags: ['Java', 'StepMania', 'Automation', 'Tooling', 'MusicGeneration', 'Workflow', 'DevelopmentTools', 'AgentOrchestration'*
-
----
-
-### 355. [privilegemendes/amadeus-mcp-server-standalone](https://github.com/privilegemendes/amadeus-mcp-server-standalone)  `innovation: 8` ★☆☆ 🔵
-
-**A Model Context Protocol server enabling integration with external APIs for AI assistants.**
-
-**Key Features:**
-- Flight search and analysis
-- Price metrics and route optimization
-- API integration for flight data
-- Real-time pricing insights
-- Multi-city trip planning
-
-*Tags: amadeus-mcp-server, flight-search, api-integration, travel-optimization, ai-assistant, data-analysis, mcp-connector, business-intelligence*
-
----
-
-### 356. [processing/processing4](https://github.com/processing/processing4)  `innovation: 8` ★☆☆ 🔵
-
-**Revision 1285 – 9 August 2022 On the 21st anniversary of the very first Processing release (revision 0001), we're posting the final 4.0, which is the 286th release of the software. The primary goal for Processing 4 is to keep everyone's code running, even as operating systems, hardware, and hairline**
-
-**Key Features:**
-- The release addresses several key areas: 
-1. **Software Longevity/Maintenance:** Addressing the 21st anniversary of the first release (revision 0001) and establishing Processing 4 as a core platform for keeping code running across changing OS/hardware.
-2. **Application Export Fixes:** Resolving issues where 'Export to Application' was broken on macOS
-- prompting users to install Xcode tools for proper code signing.
-3. **Documentation Updates:** Updating the repository with new versions of major pages (Themes
-- Supported Platforms
-- Exporting Applications
-- Troubleshooting
-- and the FAQ).
-4. **Resource Management Improvement:** Fixing temporary file cleanup issues by moving temporary files to a dedicated 'processing' folder
-- allowing automatic removal after 7 days.
-5. **Error Handling Enhancement:** Improving error reporting during 'Export to Application' when errors occur in the code.
-6. **UI/UX Polish:** Updating the Theme Selector dropdown menu functionality and fixing color consistency for console scrollbars.
-7. **Hardware Fixes:** Fixing issues where ffmpeg was unavailable on certain platforms within Movie Maker.
-8. **Optimization:** Compressing a large JDK file (300 files) into a single zip.
-9. **Example Updates:** Updating examples to pull from the processing-examples repository and optimizing resource usage (e.g.
-- removing sin/cos lookup tables).
-4.0.1 is available!
-
-*Tags: processing-1285-4.0, processing-bot, Processing 4.0, baggage, bug fix, software release, operating system compatibility, application export*
-
----
-
-### 357. [pvev/mattermost-mcp](https://github.com/pvev/mattermost-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The pvev/mattermost-mcp repository offers a Mattermost MCP server that integrates Claude, an AI assistant, into Mattermost workspaces. It includes features such as topic monitoring, channel tools, message posting, user management, and more. The project provides detailed documentation, setup instruct**
-
-**Key Features:**
-- Topic Monitoring
-- Channel Tools
-- Message Posting
-- User Management
-- Real-time Notifications
-- Integration with Claude AI
-- Custom Configurations
-
-*Tags: mattermost, mcp, ai, cloud, developer, integration, security, automation*
-
----
-
-### 358. [r-huijts/ns-mcp-server](https://github.com/r-huijts/ns-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**A model context protocol server integrating Claude AI with the official Dutch NS API to deliver real-time train information and disruptions.**
-
-**Key Features:**
-- Real-time train departure and arrival information
-- Disruption alerts
-- Route planning with transfers
-- Station details and accessibility info
-
-*Tags: cloudai, ns-mcp-server, travelinfo, ai, mcp, trains, realtime, dutchrailways*
-
----
-
-### 359. [rawveg/ollama-mcp](https://github.com/rawveg/ollama-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**An MCP server enabling seamless integration between local LLM models and cloud-based AI services like Claude Desktop.**
-
-**Key Features:**
-- Local model management via Ollama SDK
-- Cloud-based web search and fetch capabilities
-- Hybrid mode for local + cloud model usage
-- Automatic retry logic with exponential backoff
-- Support for multiple AI models (text generation
-- embeddings
-- etc.)
-
-*Tags: ollama, mcp, ai, cloud, websearch, hybrid, developer, integration*
-
----
-
-### 360. [rickeylaiii/xiaoai_mapmcp](https://github.com/rickeylaiii/xiaoai_mapmcp)  `innovation: 8` ★☆☆ 🔵
-
-**This project provides an AI-powered map navigation tool that integrates with external services like HighDAP and Amap. It enables geocoding, weather queries, route planning, and secure communication via WebSocket connections.**
-
-**Key Features:**
-- geocoding
-- weather query
-- route planning
-- secure communication
-- automatic reconnection
-
-*Tags: mcp, mapnavigation, ai, security, developer-tools*
-
----
-
-### 361. [robertn702/mcp-sunsama](https://github.com/robertn702/mcp-sunsama)  `innovation: 8` ★☆☆ 🔵
-
-**A cloud-based MCP server enabling AI assistants to manage tasks, integrate with external tools like GitHub and Gmail, and streamline productivity workflows.**
-
-**Key Features:**
-- Task creation and management
-- Integration with GitHub and Gmail
-- Streaming and streaming channel support
-- Subtask and subtask management
-- User and stream operations
-- Task status updates and notifications
-
-*Tags: mcp, ai, developer, productivity, integration, taskmanagement, cloud, automation*
-
----
-
-### 362. [ryuichi1208/mackerel-mcp-server](https://github.com/ryuichi1208/mackerel-mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**This project provides a GitHub-hosted implementation of the Mackerel MCP (Monitoring Control Platform) server, enabling efficient management and automation of monitoring tasks. It supports key functionalities such as host and service management, metrics collection, alerts, downtime tracking, notific**
-
-**Key Features:**
-- host management
-- service management
-- metrics
-- alerts
-- notifications
-- downtimes
-- notification channels
-
-*Tags: mackerel-mcp-server, mcp, monitoring, automation, cloud*
-
----
-
-### 363. [salamentic/google-flights-mcp](https://github.com/salamentic/google-flights-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The project provides a cloud-based solution for creating travel itineraries by integrating flight data, templates, and AI-driven recommendations. It supports automation of workflows, secure code management, and integration with external tools to streamline enterprise-level travel planning processes.**
-
-**Key Features:**
-- AI-powered travel planning
-- Cloud-based workflow automation
-- Secure code deployment
-- Integration with external APIs
-- Customizable templates
-
-*Tags: software development, developer workflow, ai integration, cloud services, travel automation, enterprise solutions*
-
----
-
-### 364. [secretiveshell/mcp-llms-txt](https://github.com/secretiveshell/mcp-llms-txt)  `innovation: 8` ★☆☆ 🔵
-
-**The MCP server facilitates seamless communication between the Borg platform and external AI models, allowing developers to embed documentation directly into conversations. It supports automated workflows, secure code management, and integration with tools like GitHub Copilot and Smithery for streaml**
-
-**Key Features:**
-- MCP server integration
-- Documentation embedding in conversations
-- Automated workflow support
-- Code review and security features
-- Docker-based deployment
-
-*Tags: mcp, llms, ai, developer, security, code, integration, automation*
-
----
-
-### 365. [servo/servo](https://github.com/servo/servo)  `innovation: 8` ★☆☆ 🔵
-
-**Servo is a prototype web browser engine written in the Rust language. It is currently developed on 64-bit macOS, 64-bit Linux, 64-bit Windows, 64-bit OpenHarmony, and Android. Servo welcomes contribution from everyone. Check out: The Servo Book for documentation servo.org for news and guides.**
-
-**Key Features:**
-- A lightweight
-- high-performance alternative for embedding web technologies in applications
-- implemented in Rust.
-
-*Tags: ['Rust', 'Web Technologies', 'Browser Engine', 'Embedding', 'Performance', 'Servo', 'WebDev', 'RustLang']*
-
----
-
-### 366. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `innovation: 8` ★☆☆ 🔵
+### 321. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `8` ★☆☆ 🔵
 
 **A Borg-based search tool for efficiently querying transcript segments using vector similarity in a Turso database.**
 
@@ -6021,178 +5160,12 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 
 ---
 
-### 367. [supavec/mcp-server](https://github.com/supavec/mcp-server)  `innovation: 8` ★☆☆ 🔵
-
-**A server enabling AI assistants to fetch relevant embeddings and content from Supavec files using MCP.**
-
-**Key Features:**
-- Fetch embeddings for Supavec files
-- Integrate with Cursor
-- Claude
-- VS Code Copilot
-- and other MCP-compatible tools
-- Support flexible authentication via command-line arguments or environment variables
-- Quick setup with npx installation
-- Easy configuration through .cursor/mcp.json
-- .vscode/mcp.json
-- or CLI
-
-*Tags: supavec, mcp-server, ai, developer-tools, integration, security, ai-assistants, code-generation*
-
----
-
-### 368. [tywenk/mcp-sol](https://github.com/tywenk/mcp-sol)  `innovation: 8` ★☆☆ 🔵
-
-**The Model Context Protocol facilitates secure and isolated communication between different components or services in a distributed system. It ensures that each component operates within its own context, maintaining data integrity and security by isolating sensitive operations and data flows.**
-
-**Key Features:**
-- Model Context Protocol
-- Secure communication channels
-- Context isolation
-- Data flow management
-
-*Tags: context-engine, isolation, secure-communICATION, microservices, data-flow, solana, api-gateway, service-mesh*
-
----
-
-### 369. [v-3/discordmcp](https://github.com/v-3/discordmcp)  `innovation: 8` ★☆☆ 🔵
-
-**Discord MCP Server enabling LLMs to interact with Discord channels securely.**
-
-**Key Features:**
-- Send messages to Discord channels
-- Read recent messages from channels
-- Automatic server and channel discovery
-- Support for both channel names and IDs
-- Proper error handling and validation
-
-*Tags: discordmcp, ai-integration, developer-tools, security, discord-api, llm-interaction, code-deployment, enterprise-solution*
-
----
-
-### 370. [vemonet/openroute-mcp](https://github.com/vemonet/openroute-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**OpenRoute MCP server to plan routes using OpenRouteService.org for activities like hiking and mountain biking.**
-
-**Key Features:**
-- Integration with OpenRouteService API
-- Route planning for outdoor activities
-- Support for GPX
-- HTML
-- and PNG route visualization
-- Automated workflow execution via CLI
-- Secure connection using GitHub API key
-
-*Tags: agent orchestration, route planning, mcp integration, developer tools, gps visualization, api connectivity, geospatial analysis, automation*
-
----
-
-### 371. [vgnshiyer/apple-books-mcp](https://github.com/vgnshiyer/apple-books-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**The Apple Books MCP Server is a tool designed to streamline the management of Apple Books MCP collections, including organizing books by genre, tracking progress, and providing recommendations based on user reading history. It integrates with external tools and supports automation workflows for effi**
-
-**Key Features:**
-- Collection management
-- Annotation handling
-- Reading status tracking
-- Book recommendations
-- Workflow automation
-
-*Tags: apache2.0, mcp-server, apple-books-mcp, book-management, content-automation, library-stats, annotation-system, reading-analytics*
-
----
-
-### 372. [vstorm-co/pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)  `innovation: 8` ★☆☆ 🔵
-
-**Pydantic-DeepAgents provides a high-level abstraction layer over Pydantic-AI to facilitate the creation of production-grade autonomous agents similar to Claude Code or Devin. It utilizes a structured 'Deep Agent' architecture that separates concerns into modular components: a planning engine for tas**
-
-**Key Features:**
-- Autonomous task planning and cycle detection
-- recursive subagent delegation
-- filesystem CRUD and shell execution
-- persistent session memory via markdown
-- lifecycle hooks (pre/post tool execution)
-- context compression and summarization
-- structured output validation
-- cost budgeting and token tracking
-- Docker-based sandboxing
-- Git-aware project context.
-
-*Tags: agentic-workflows, autonomous, autonomous-agents, context-management, deep-agents, developer-ux, llm-memory, orchestration*
-
----
-
-### 373. [weirdbrains/onesignal-mcp](https://github.com/weirdbrains/onesignal-mcp)  `innovation: 8` ★☆☆ 🔵
-
-**A Model Context Protocol (MCP) server for managing OneSignal API interactions, enabling automated workflows and integration with various messaging channels.**
-
-**Key Features:**
-- Multi-channel Messaging
-- User & Device Management
-- Advanced Segmentation
-- Template System
-- Live Activities
-- Analytics & Export
-- Multi-App Support
-- API Key Management
-- Organization-Level Operations
-
-*Tags: agent orchestration, workflow automation, api integration, messaging services, data analytics, security, developer tools, cloud infrastructure*
-
----
-
 
 ## Websites, Articles & Non-GitHub Resources
 
-### 374. [https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html](https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html)  `innovation: 10` ★★★ 🔵
+> 112 resources
 
-**An open-source evolutionary coding agent that automates the discovery of optimized algorithms using a Quality-Diversity (QD) search framework.**
-
-**Key Features:**
-- MAP-Elites search framework
-- Island Model diversity maintenance
-- multi-model ensemble (Gemini/Claude)
-- artifact-side-channel feedback loops.
-
----
-
-### 375. [https://asmjit.com/](https://asmjit.com/)  `innovation: 10` ★★★ 🔵
-
-**A premier lightweight C++ library for low-latency machine code generation (x86/A64), critical for building high-performance JIT compilers.**
-
-**Key Features:**
-- Multi-level emitters (Assembler/Builder/Compiler)
-- zero-dependency embedding
-- W^X security-mapped allocator
-- type-safe semantic checks.
-
----
-
-### 376. [https://awesome-llm-papers.github.io/tsne-viz.html?y0=1964&y1=2025](https://awesome-llm-papers.github.io/tsne-viz.html?y0=1964&y1=2025)  `innovation: 10` ★★★ 🔵
-
-**A visualization mapping thousands of LLM research papers from arXiv into a 2D cluster map using t-SNE embeddings to identify research "white space."**
-
-**Key Features:**
-- Embedding-based 2D clustering
-- identified research "islands" (RLHF/RAG)
-- interactive temporal filtering (1964-2025)
-- visual analytics for academic discovery.
-
----
-
-### 377. [https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw/)  `innovation: 10` ★★★ 🔵
-
-**A managed, one-click deployment blueprint for OpenClaw (self-hosted AI assistant) on Amazon Lightsail, natively integrated with Bedrock.**
-
-**Key Features:**
-- One-click OpenClaw VPS provisioning
-- native Amazon Bedrock integration (Claude 3.5)
-- omnichannel messaging routing (Slack/Discord)
-- built-in agent sandboxing.
-
----
-
-### 378. [https://build.nvidia.com/nvidia/safety-for-agentic-ai](https://build.nvidia.com/nvidia/safety-for-agentic-ai)  `innovation: 10` ★★★ 🔵
+### 322. [https://build.nvidia.com/nvidia/safety-for-agentic-ai](https://build.nvidia.com/nvidia/safety-for-agentic-ai)  `10` ★★★ 🔵
 
 **A comprehensive "Safety Recipe" for hardening agentic workflows against misalignment, hallucinations, and prompt injections.**
 
@@ -6202,21 +5175,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - build-time garak vulnerability scanning
 - specialized safety datasets.
 
----
-
-### 379. [https://docs.molt.bot/gateway](https://docs.molt.bot/gateway)  `innovation: 10` ★★★ 🔵
-
-**A centralized messaging hub that bridges self-hosted AI agents to WhatsApp, Telegram, Discord, and Slack via a unified WebSocket API.**
-
-**Key Features:**
-- Multi-channel hub (6 platforms)
-- local WebSocket API
-- proactive agent "heartbeats
-- " session-based message routing.
+*Tags: security, guardrails, nvidia, nemo, ai-safety, build*
 
 ---
 
-### 380. [https://duckdb.org/docs/stable/core_extensions/vss](https://duckdb.org/docs/stable/core_extensions/vss)  `innovation: 10` ★★★ 🔵
+### 323. [https://duckdb.org/docs/stable/core_extensions/vss](https://duckdb.org/docs/stable/core_extensions/vss)  `10` ★★★ 🔵
 
 **A high-performance local vector similarity search extension for DuckDB using HNSW indexes via the usearch library.**
 
@@ -6227,45 +5190,25 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - progress-tracked index builds
 - experimental disk persistence.
 
+*Tags: duckdb, vss, vector-search, hnsw, local-rag, documentation*
+
 ---
 
-### 381. [https://meshtastic.org/](https://meshtastic.org/)  `innovation: 10` ★★★ 🔵
+### 324. [https://minusx.ai/blog/decoding-claude-code](https://minusx.ai/blog/decoding-claude-code)  `10` ★★★ 🔵
 
-**A decentralized, serverless mesh messaging system using LoRa hardware for long-range, encrypted off-grid communication.**
+**An architectural deconstruction of Claude Code revealing its reliance on a single main loop, small model (Haiku) offloading, and direct `ripgrep` search over vector RAG.**
 
 **Key Features:**
-- Serverless P2P messaging
-- 15-20km+ open terrain range
-- nRF52840 extreme power efficiency
-- multi-channel encrypted groups (AES-256).
+- Single-loop/one-branch architecture
+- 50% Haiku offloading for low-level tasks
+- direct `ripgrep/find` over vector RAG
+- mandatory `claude.md` grounding.
+
+*Tags: claude-code, architecture, orchestration, optimization, search, blog, minusx*
 
 ---
 
-### 382. [https://openclaw.ai/blog/introducing-openclaw](https://openclaw.ai/blog/introducing-openclaw)  `innovation: 10` ★★★ 🔵
-
-**A fast-growing open-source personal AI assistant designed for data sovereignty and proactive action via a local-first "heartbeat" daemon.**
-
-**Key Features:**
-- Local-first hardware execution
-- proactive "heartbeat" tasking
-- 20+ messaging channel connectors
-- full shell/browser control.
-
----
-
-### 383. [https://quesma.com/blog/ghidra-mcp-unlimited-lives/](https://quesma.com/blog/ghidra-mcp-unlimited-lives/)  `innovation: 10` ★★★ 🔵
-
-**A Model Context Protocol server that bridges AI reasoning with the Ghidra suite for automated binary annotation and reverse engineering.**
-
-**Key Features:**
-- Automated function annotation
-- structural normalized hashing
-- malware pattern identification
-- one-shot binary markups.
-
----
-
-### 384. [https://vectorvfs.readthedocs.io/en/latest](https://vectorvfs.readthedocs.io/en/latest)  `innovation: 10` ★★★ 🔵
+### 325. [https://vectorvfs.readthedocs.io/en/latest](https://vectorvfs.readthedocs.io/en/latest)  `10` ★★★ 🔵
 
 **A lightweight Python library that turns standard Linux filesystems into vector databases by storing embeddings directly in file extended attributes (xattrs).**
 
@@ -6275,33 +5218,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - multimodal support (Meta PE)
 - 100% local/offline execution.
 
----
-
-### 385. [https://www.fiddler.ai/agentic-observability](https://www.fiddler.ai/agentic-observability)  `innovation: 10` ★★★ 🔵
-
-**An enterprise control plane for tracking agent reasoning chains, handoff failures, and "Agentic Drift" via high-dimensional UMAP visualizations.**
-
-**Key Features:**
-- 3D UMAP anomaly detection
-- reasoning lineage tracking
-- Jensen-Shannon Divergence metrics
-- multi-agent handoff monitoring.
+*Tags: filesystem, rag, xattrs, local-first, metadata, documentation, vectorvfs*
 
 ---
 
-### 386. [https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-mult](https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks)  `innovation: 10` ★★★ 🔵
-
-**Microsoft's generalist multi-agent system utilizing a Lead Orchestrator and specialized sub-agents (WebSurfer, FileSurfer, Coder) for open-ended tasks.**
-
-**Key Features:**
-- Lead Orchestrator with Task/Progress ledgers
-- specialized sub-agents (Web/File/Coder)
-- plug-and-play heterogeneous model support
-- dynamic error re-planning.
-
----
-
-### 387. [https://www.zenable.app/dashboard](https://www.zenable.app/dashboard)  `innovation: 10` ★★★ 🔵
+### 326. [https://www.zenable.app/dashboard](https://www.zenable.app/dashboard)  `10` ★★★ 🔵
 
 **An AI governance platform that monitors and enforces security standards in real-time as AI coding assistants (Cursor/Claude Code) generate code.**
 
@@ -6311,9 +5232,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - custom architectural policy enforcement
 - PR/Commit hook integration.
 
+*Tags: security, governance, dev-tools, compliance, orchestration, zenable*
+
 ---
 
-### 388. [https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5)  `innovation: 9.7` ★★☆ 🔵
+### 327. [https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5](https://huggingface.co/Snowflake/snowflake-arctic-embed-m-v1.5)  `9.7` ★★☆ 🔵
 
 **A highly compressible text embedding model that achieves high retrieval quality even when reduced to 128 bytes.**
 
@@ -6324,9 +5247,29 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Retrieval optimization with MRL
 - Compatibility with Hugging Face ecosystem
 
+*Tags: embedding, compression, quantization, sentence_transformers, arctic, mteb, retrieval, model_optimization*
+
 ---
 
-### 389. [https://gemini.google.com/app/96d26faa642c7d0f](https://gemini.google.com/app/96d26faa642c7d0f)  `innovation: 9` ★★☆ 🔵
+### 328. [https://arxiv.org/abs/2310.08560](https://arxiv.org/abs/2310.08560)  `9` ★★☆ 🔵
+
+**MemGPT adopts a hierarchical memory management architecture inspired by traditional operating systems to bypass LLM context window limitations. It divides memory into 'Main Context' (the fixed-size prompt window) and 'External Context' (disk-based storage like vector databases). The system operates on an autonomous control loop where the LLM uses specific function calls to move data between tiers,**
+
+**Key Features:**
+- Virtual context management
+- Hierarchical memory tiers (Main vs External)
+- Function-based memory paging
+- Interrupt-driven control flow
+- Self-directed memory editing
+- Persistent multi-session state
+- Context overflow mitigation
+- Autonomous background processing
+
+*Tags: virtual context, hierarchical memory, long-term memory, llm-os, function calling, memory management, autonomous agents, vector databases*
+
+---
+
+### 329. [https://gemini.google.com/app/96d26faa642c7d0f](https://gemini.google.com/app/96d26faa642c7d0f)  `9` ★★☆ 🔵
 
 **This resource likely details the functionality and integration of Google Gemini within an agent orchestration framework, focusing on how it operates as an AI agent, its workflow capabilities, and the underlying architecture that supports its operation.**
 
@@ -6342,9 +5285,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tool Capabilities
 - AI Agent Frameworks.
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface design', 'connectivity', 'vector databases', 'ai agents'*
+
 ---
 
-### 390. [https://gemini.google.com/share/6d141b742a13](https://gemini.google.com/share/6d141b742a13)  `innovation: 9` ★★☆ 🔵
+### 330. [https://gemini.google.com/share/6d141b742a13](https://gemini.google.com/share/6d141b742a13)  `9` ★★☆ 🔵
 
 **This resource provides direct access to the Gemini AI, highlighting its role as an agent orchestration and workflow engine. It details how Gemini integrates into the user experience, enabling powerful agent-based workflows and context engineering.**
 
@@ -6361,11 +5306,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'AI Agents & Frameworks'
 - 'Search & Discovery Functionality']
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'ai agents', 'vector databases', 'gemini', 'cloud ai', 'llm'*
+
 ---
 
-### 391. [https://huggingface.co/MongoDB/mdbr-leaf-ir](https://huggingface.co/MongoDB/mdbr-leaf-ir)  `innovation: 9` ★★☆ 🔵
+### 331. [https://huggingface.co/MongoDB/mdbr-leaf-ir](https://huggingface.co/MongoDB/mdbr-leaf-ir)  `9` ★★☆ 🔵
 
-**mdbr-leaf-ir is a lightweight yet powerful text embedding model tailored for efficient information retrieval (IR) applications. It supports flexible asymmetric architectures and is robust to vector quantization and MRL truncation, making it suitable for integration into RAG pipelines. The model exce**
+**mdbr-leaf-ir is a lightweight yet powerful text embedding model tailored for efficient information retrieval (IR) applications. It supports flexible asymmetric architectures and is robust to vector quantization and MRL truncation, making it suitable for integration into RAG pipelines. The model excels in state-of-the-art performance on benchmark datasets like BEIR, achieving top rankings with mini**
 
 **Key Features:**
 - asymmetric retrieval architecture
@@ -6374,63 +5321,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - compatible with Snowflake embeddings
 - open-source under Apache 2.0
 
+*Tags: text-embedding, sentence-transformers, mongo-db, knowledge-distillation, retrieval-augmented-generation, asymmetric-retrieval, vector-quantization, beir-benchmark*
+
 ---
 
-### 392. [https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-iss](https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-issues-proactively)  `innovation: 9` ★★☆ 🔵
+### 332. [https://ithy.com/](https://ithy.com/)  `9` ★★☆ 🔵
 
-**This changelog details the integration of Gemini 3.1 Pro into Jules, highlighting its improved capabilities and new features across several key areas: CI fixing, commit authorship control, MCP server integration, and the introduction of a secondary agent called the Planning Critic to refine plans be**
+**The resource presents 'Ithy,' an AI Supertool that combines multiple LLMs (like ChatGPT, Gemini, and Perplexity) to provide superior research capabilities. It emphasizes the speed and depth of this combined research, offering interactive multimodal articles and a powerful aggregator for answering complex questions.**
 
 **Key Features:**
-- ['Gemini 3.1 Pro availability for Google Pro plan users.'
-- 'CI Fixer automatically detects and fixes CI failures on pull requests without manual intervention.'
-- 'Commit Authoring options: Jules can be the sole author
-- co-authored (Jules + You or You + Jules)
-- or User only.'
-- 'MCP Server integration support for new services (Linear
-- Stitch
-- Neon
-- Tinybird
-- Context7
-- and Supabase).'
-- 'Introduction of the Planning Critic agent to rigorously critique and refine proposed plans before execution.']
+- Multimodal Articles
+- Interactive Visual Answers
+- Speed Switching (lightning-fast vs. comprehensive)
+- AI Aggregation/Supertool functionality
+- Direct access to deep research across multiple LLMs.
+
+*Tags: ['AI Supertool', 'LLM Aggregator', 'Deep Research', 'Multimodal AI', 'Agent Orchestration', 'Context Engineering', 'AI Benchmark', 'Fast Research'*
 
 ---
 
-### 393. [https://kilo.ai/](https://kilo.ai/)  `innovation: 9` ★★☆ 🔵
+### 333. [https://mcppedia.org/blog/2026-04-06-what-is-mcppedia](https://mcppedia.org/blog/2026-04-06-what-is-mcppedia)  `9` ★★☆ 🔵
 
-**Kilo is an open-source AI coding agent that integrates seamlessly into popular development tools like VS Code, JetBrains IDEs, and CLI workflows. It offers a range of modes including code writing, refactoring, debugging, and architectural planning, enabling developers to leverage AI-driven assistanc**
-
-**Key Features:**
-- AI-powered code writing
-- Code review assistance
-- Debugging and error tracing
-- Architectural planning
-- Integration with communication tools
-- Auto-restart and monitoring
-
----
-
-### 394. [https://kilocode.ai/](https://kilocode.ai/)  `innovation: 9` ★★☆ 🔵
-
-**Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI AI. Get your Assistant Powered by 🦞 OpenClaw. Start Coding with KiloCode to code smarter with AI that understands your codebase and works the way you do.**
-
-**Key Features:**
-- Kilo offers an open source coding agent with access to 500+ models
-- providing various modes (Code Mode
-- Architect Mode
-- Debug Mode) for writing
-- refactoring
-- and debugging code. It functions as a 24/7 personal AI agent (KiloClaw)
-- connecting via channels like Telegram
-- Discord
-- or Slack
-- and offers specialized agent modes to switch contexts.
-
----
-
-### 395. [https://mcppedia.org/blog/2026-04-06-what-is-mcppedia](https://mcppedia.org/blog/2026-04-06-what-is-mcppedia)  `innovation: 9` ★★☆ 🔵
-
-**MCPpedia is an automated, continuously updated catalog that aggregates and verifies thousands of MCP server instances across GitHub, npm, PyPI, and other registries. Unlike traditional manual curation, it leverages bots to detect security risks, validate tool behavior, and provide transparency throu**
+**MCPpedia is an automated, continuously updated catalog that aggregates and verifies thousands of MCP server instances across GitHub, npm, PyPI, and other registries. Unlike traditional manual curation, it leverages bots to detect security risks, validate tool behavior, and provide transparency through detailed metadata and real-world testing. The platform prioritizes objective, third-party evaluat**
 
 **Key Features:**
 - Automated discovery of MCP servers
@@ -6440,11 +5352,33 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - User reviews and verified publisher badges
 - Daily updates to reflect ecosystem changes
 
+*Tags: mcpedia, security, software, ai, developer, vulnerabilities, automation, scanning*
+
 ---
 
-### 396. [https://qdrant.tech/](https://qdrant.tech/)  `innovation: 9` ★★☆ 🔵
+### 334. [https://mem0.ai/](https://mem0.ai/)  `9` ★★☆ 🔵
 
-**Qdrant is architected as a specialized vector database built entirely in Rust for speed and scalability, employing a custom storage engine (Gridstore) and supporting real-time indexing. Key persistence features include memory-efficient storage achieved via Asymmetric, Scalar, and Binary Quantization**
+**Mem0 functions as a specialized memory layer for Large Language Model (LLM) applications, focusing on solving the challenge of maintaining long-term context and personalization while minimizing operational costs. Its core technology is a 'Memory Compression Engine' that optimizes conversation history into efficient memory representations, reportedly cutting token usage by up to 80%. It supports ze**
+
+**Key Features:**
+- Memory Compression Engine
+- Up to 80% Token Reduction
+- Zero-Friction Single-Line Install
+- Flexible Framework Compatibility (OpenAI
+- LangGraph
+- CrewAI)
+- Built-in Observability & Tracing
+- SOC 2/HIPAA Compliance
+- BYOK Support
+- Deployable On-Premise/Private Cloud.
+
+*Tags: llm memory, context compression, token optimization, ai persistence, vector database alternative, agent memory, llm cost reduction, hipaa compliance*
+
+---
+
+### 335. [https://qdrant.tech/](https://qdrant.tech/)  `9` ★★☆ 🔵
+
+**Qdrant is architected as a specialized vector database built entirely in Rust for speed and scalability, employing a custom storage engine (Gridstore) and supporting real-time indexing. Key persistence features include memory-efficient storage achieved via Asymmetric, Scalar, and Binary Quantization (reducing memory footprint significantly) and efficient, one-stage filtering applied directly durin**
 
 **Key Features:**
 - Vector Indexing (HNSW)
@@ -6459,11 +5393,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Cloud/Hybrid/Edge Deployment
 - Inference Services.
 
+*Tags: vector_database, rust, realtime_indexing, quantization, hnsw, hybrid_search, metadata_filtering, vector_search*
+
 ---
 
-### 397. [https://reducto.ai/?rdt_cid=5797773046937074471&utm_source=reddit%3Futm_content%](https://reducto.ai/?rdt_cid=5797773046937074471&utm_source=reddit%3Futm_content%3D)  `innovation: 9` ★★☆ 🔵
+### 336. [https://reducto.ai/?rdt_cid=5797773046937074471&utm_source=reddit%3Futm_content%...](https://reducto.ai/?rdt_cid=5797773046937074471&utm_source=reddit%3Futm_content%3D)  `9` ★★☆ 🔵
 
-**Reducto is an advanced document intelligence platform that leverages computer vision and new vision-language models to accurately parse, extract, and enrich structured data from diverse document formats. It supports a wide range of industries including finance, healthcare, and legal, enabling teams **
+**Reducto is an advanced document intelligence platform that leverages computer vision and new vision-language models to accurately parse, extract, and enrich structured data from diverse document formats. It supports a wide range of industries including finance, healthcare, and legal, enabling teams to unlock insights from complex documents with minimal manual effort. The system intelligently handl**
 
 **Key Features:**
 - AI-powered document parsing and structured extraction
@@ -6479,49 +5415,30 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - LLM-ready output generation
 - Automated figure summarization and graph extraction
 
+*Tags: ai, document_parsing, data_extraction, llm_ready, automation, multilingual, visual_analysis, intelligent_chunking*
+
 ---
 
-### 398. [https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2](https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2owajGoAgCwAgA&ie=UTF-8&oq=graalvm&q=graalvm&sec_act=sr&sourceid=chrome&sxsrf=ADLYWIJ44Rd2Es0-XrMQeDtKy9i_iOO1zA:1732027758712)  `innovation: 9` ★★☆ 🔵
+### 337. [https://vercel.com/blog/build-knowledge-agents-without-embeddings](https://vercel.com/blog/build-knowledge-agents-without-embeddings)  `9` ★★☆ 🔵
 
-**GraalVM is a versatile virtual machine designed to execute applications written in various programming languages, including Java, JavaScript, Python, Ruby, R, C/C++, and more. It offers ahead-of-time (AOT) compilation, just-in-time (JIT) compilation, and polyglot embedding capabilities. This allows **
+**A file-system and bash-based knowledge agent built on Vercel Sandbox, enabling teams to deploy chat agents with transparent debugging, customizable sources, and seamless integration across platforms.**
 
 **Key Features:**
-- ['Polyglot Programming: Supports multiple programming languages.'
-- 'Ahead-of-Time (AOT) Compilation: Compiles applications into standalone executables.'
-- 'Just-in-Time (JIT) Compilation: Optimizes code execution at runtime.'
-- 'Native Image Generation: Creates native executables with fast startup and low memory footprint.'
-- 'Polyglot Embedding: Allows embedding code from different languages within a single application.'
-- 'High Performance: Optimized for speed and efficiency.'
-- 'Language Interoperability: Enables seamless communication between different languages.'
-- 'Tools and Debugging: Provides tools for profiling
-- debugging
-- and monitoring applications.']
+- Filesystem-based search using bash commands
+- Transparent debugging with traceable file operations
+- Integration with multiple platforms via Chat SDKs (Slack
+- Discord
+- etc.)
+- Customizable knowledge sources and content sync
+- Deterministic and explainable responses
+
+*Tags: agent orchestration, knowledge agent, vercel sandbox, batch processing, debugging transparency, multi-platform deployment, file system search, customizable knowledge base*
 
 ---
 
-### 399. [https://www.hyperagent.com/](https://www.hyperagent.com/)  `innovation: 9` ★★☆ 🔵
+### 338. [https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperr...](https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperreal-wingsuit-simulator)  `9` ★★☆ 🔵
 
-**This technical resource outlines the implementation of Hyperagent as a comprehensive system of intelligent agents that autonomously gather, process, and act upon organizational data. It details how agents operate within various platforms such as Shopify, HubSpot, Gmail, and Slack, pulling real-time **
-
-**Key Features:**
-- Autonomous web browsing and data extraction
-- Cross-platform integration with Shopify
-- HubSpot
-- Gmail
-- Slack
-- Content generation including emails
-- landing pages
-- and social media assets
-- Real-time analytics and metric tracking
-- Decision-ready morning brief compilation
-- Custom Talent Scout app for candidate management
-- OOH campaign planning and mapping
-
----
-
-### 400. [https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperr](https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperreal-wingsuit-simulator)  `innovation: 9` ★★☆ 🔵
-
-**JUMP leverages Unreal Engine 5 with advanced tools like Nanite and Lumen for photorealistic rendering, while integrating haptics, wind effects, and multi-sensory feedback. It combines professional input from pilots and engineers to ensure authenticity, aiming to deliver an immersive experience that **
+**JUMP leverages Unreal Engine 5 with advanced tools like Nanite and Lumen for photorealistic rendering, while integrating haptics, wind effects, and multi-sensory feedback. It combines professional input from pilots and engineers to ensure authenticity, aiming to deliver an immersive experience that closely mimics real-world wingsuit BASE jumping.**
 
 **Key Features:**
 - Hyperrealistic 3D environments using photogrammetry
@@ -6533,11 +5450,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Esports-style competition and multiplayer features
 - Personalized avatars via facial scanning
 
+*Tags: Unreal Engine, VR, Photogrammetry, Haptics, Wingsuit, Virtual Reality, Metaverse, Esports*
+
 ---
 
-### 401. [https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6](https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6)  `innovation: 9` ★★☆
+### 339. [https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6](https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6)  `9` ★★☆
 
-**This resource provides a deep dive into the technical foundation of Grok, exploring its core functionalities, architectural design, and operational capabilities. It serves as a blueprint for understanding how Grok operates within the context of agent orchestration, workflow execution, and cognitive **
+**This resource provides a deep dive into the technical foundation of Grok, exploring its core functionalities, architectural design, and operational capabilities. It serves as a blueprint for understanding how Grok operates within the context of agent orchestration, workflow execution, and cognitive tasks.**
 
 **Key Features:**
 - ['Agent Orchestration'
@@ -6553,21 +5472,43 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Search & Discovery'
 - 'Infrastructure'
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'vector databases', 'ai agents', 'infrastructure', 'devtools', 'search discovery']*
+
 ---
 
-### 402. [https://antirez.com/news/158](https://antirez.com/news/158)  `innovation: 8` ★☆☆ 🔵
+### 340. [https://alash3al.github.io/stash](https://alash3al.github.io/stash)  `8` ★☆☆ 🔵
 
-**The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal journey from writing software to embracing AI too**
+**Stash is a persistent cognitive layer that integrates with AI agents to store and recall experiences across sessions. It organizes memory into structured namespaces, enabling agents to track goals, failures, and patterns without losing context. By leveraging PostgreSQL and pgvector, Stash creates an entity knowledge graph that supports causal reasoning and continuous learning. This architecture ad**
 
 **Key Features:**
-- Testing UTF-8 support in linenoise library
-- Fixing transient failures in Redis tests
-- Creating a C library for BERT-like embedding inference
-- Developing a Python tool to convert GTE-small model
+- Persistent memory across sessions
+- Namespace-based organization of data
+- Automatic recall of past decisions and goals
+- Integration with MCP tools for workflow continuity
+- Causal reasoning and self-correction
+
+*Tags: memory management, persistent knowledge, agent orchestration, context isolation, knowledge graph, causal reasoning, MCP integration, data retention*
 
 ---
 
-### 403. [https://cursor.com/docs/cli/overview](https://cursor.com/docs/cli/overview)  `innovation: 8` ★☆☆ 🔵
+### 341. [https://copystock.xyz/](https://copystock.xyz/)  `8` ★☆☆ 🔵
+
+**This resource provides a deep dive into the core concepts required for building intelligent agents. It explores the necessary components for agent orchestration, context engineering (how to manage agent state and context), memory and persistence architectures (how agents store information), interface design for developer experience (UX/UI for interacting with agents), connectivity aspects (Micro-s**
+
+**Key Features:**
+- Focuses on the technical foundation for building intelligent agents
+- including orchestration
+- context management
+- memory persistence
+- interface design
+- connectivity patterns
+- and underlying infrastructure.
+
+*Tags: ['agent-orchestration', 'context-engineering', 'memory-persistence', 'interface-design', 'mcp-a2a', 'infrastructure', 'vector-databases', 'ai-agents'*
+
+---
+
+### 342. [https://cursor.com/docs/cli/overview](https://cursor.com/docs/cli/overview)  `8` ★☆☆ 🔵
 
 **This resource details the functionality, architecture, and features of the Cursor Command Line Interface (CLI), focusing on how it enables agents to operate, manage workflows, and interact with the underlying system. It covers the core concepts behind the AI agent experience within the IDE/toolset.**
 
@@ -6585,9 +5526,24 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'AI Agents & Frameworks'
 - 'Search & Discovery capabilities']
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory', 'persistence', 'interface', 'mcp', 'a2a'*
+
 ---
 
-### 404. [https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens](https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens)  `innovation: 8` ★☆☆ 🔵
+### 343. [https://dalssoft.github.io/cursor_cost_explorer](https://dalssoft.github.io/cursor_cost_explorer)  `8` ★☆☆ 🔵
+
+**This resource provides a dashboard or CSV file for analyzing the usage patterns, costs, and performance of AI agents/cursors. It offers an interface to view data, potentially including cost breakdowns, usage statistics, and insights into how these tools are being deployed in workflows.**
+
+**Key Features:**
+- Cost Explorer Dashboard/CSV Download
+- Direct Cursor Usage Tracking
+- CSV File Export for analysis.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity interoperability', 'mcp a2a', 'infrastructure'*
+
+---
+
+### 344. [https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens](https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens)  `8` ★☆☆ 🔵
 
 **A platform designed to be the easiest cloud for all your applications, offering a comprehensive set of tools for agent orchestration, workflow management, and context engineering.**
 
@@ -6603,9 +5559,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Coding Tools & IDEs'
 - 'AI Agents & Frameworks']
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory', 'persistence', 'interface', 'developer ux', 'connectivity'*
+
 ---
 
-### 405. [https://dashboard.twitch.tv/u/robertpelloni/settings/stream](https://dashboard.twitch.tv/u/robertpelloni/settings/stream)  `innovation: 8` ★☆☆ 🔵
+### 345. [https://dashboard.twitch.tv/u/robertpelloni/settings/stream](https://dashboard.twitch.tv/u/robertpelloni/settings/stream)  `8` ★☆☆ 🔵
 
 **A comprehensive view of the creator's operational space, detailing the underlying architecture and capabilities that power their streaming presence. This section reveals how the creator utilizes agents to manage their content, audience interaction, and production workflows.**
 
@@ -6623,11 +5581,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tools integration
 - and essential development tools.
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory', 'persistence', 'interface', 'developer tools', 'ai agents'*
+
 ---
 
-### 406. [https://dashboard.voyageai.com/organization/usage](https://dashboard.voyageai.com/organization/usage)  `innovation: 8` ★☆☆ 🔵
+### 346. [https://dashboard.voyageai.com/organization/usage](https://dashboard.voyageai.com/organization/usage)  `8` ★☆☆ 🔵
 
-**This resource appears to be a dashboard for a Voyage AI platform, focusing on the user experience (login/password management) and the underlying capabilities of the platform. The core functionality revolves around agent orchestration, context engineering, memory, and connectivity between different s**
+**This resource appears to be a dashboard for a Voyage AI platform, focusing on the user experience (login/password management) and the underlying capabilities of the platform. The core functionality revolves around agent orchestration, context engineering, memory, and connectivity between different systems.**
 
 **Key Features:**
 - Agent Orchestration
@@ -6641,11 +5601,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - AI Agents & Frameworks
 - Search & Discovery.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'vector database', 'ai agents', 'developer tools', 'infrastructure', 'connectivity'*
+
 ---
 
-### 407. [https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive/](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive/)  `innovation: 8` ★☆☆ 🔵
+### 347. [https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive/](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive/)  `8` ★☆☆ 🔵
 
-**The resource describes setting up a Retrieval-Augmented Generation (RAG) pipeline using LlamaIndex to ingest data from Google Drive. The core technical innovation lies in achieving 'live' updates by configuring an IngestionPipeline that utilizes a Redis-backed IngestionCache and RedisDocumentStore. **
+**The resource describes setting up a Retrieval-Augmented Generation (RAG) pipeline using LlamaIndex to ingest data from Google Drive. The core technical innovation lies in achieving 'live' updates by configuring an IngestionPipeline that utilizes a Redis-backed IngestionCache and RedisDocumentStore. This setup allows the pipeline to detect document changes, re-transform and re-embed only the modifi**
 
 **Key Features:**
 - Incremental RAG pipeline updates
@@ -6655,11 +5617,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Custom schema definition for vector store
 - Google Drive data loading integration
 
+*Tags: rag, vector-store, redis, incremental-indexing, ingestion-pipeline, caching, document-store, llamaindex*
+
 ---
 
-### 408. [https://dialx.ai/](https://dialx.ai/)  `innovation: 8` ★☆☆ 🔵
+### 348. [https://dialx.ai/](https://dialx.ai/)  `8` ★☆☆ 🔵
 
-**DialX is a powerful platform designed to manage the lifecycle of AI agents. It focuses on enabling agents to interact seamlessly, providing robust context engineering capabilities, and offering a unified interface for development, deployment, and interaction with AI agents. The platform emphasizes a**
+**DialX is a powerful platform designed to manage the lifecycle of AI agents. It focuses on enabling agents to interact seamlessly, providing robust context engineering capabilities, and offering a unified interface for development, deployment, and interaction with AI agents. The platform emphasizes agent orchestration, memory management, connectivity between agents (MCP/A2A), and provides tools for**
 
 **Key Features:**
 - ['Agent Orchestration'
@@ -6671,9 +5635,11 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'AI Agents & Frameworks'
 - 'Vector Databases & Search']
 
+*Tags: ['agent orchestration', 'context engineering', 'ai agents', 'workflow automation', 'vector database', 'llm ops', 'agent lifecycle', 'developer tools'*
+
 ---
 
-### 409. [https://discord.com/invite/5MUQbTws9p](https://discord.com/invite/5MUQbTws9p)  `innovation: 8` ★☆☆ 🔵
+### 349. [https://discord.com/invite/5MUQbTws9p](https://discord.com/invite/5MUQbTws9p)  `8` ★☆☆ 🔵
 
 **Softology is a platform designed to enable the creation, orchestration, and execution of agents and workflows. It focuses on providing the necessary infrastructure to manage agent lifecycles, define complex workflows, and ensure robust context engineering and isolation for these agents.**
 
@@ -6688,24 +5654,55 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'AI Agents & Frameworks'
 - 'Vector Databases & Search']
 
+*Tags: ['agent-orchestration', 'workflow-management', 'context-engineering', 'memory-persistence', 'ai-agents', 'vector-databases', 'developer-tools', 'infrastructure'*
+
 ---
 
-### 410. [https://discord.com/login](https://discord.com/login)  `innovation: 8` ★☆☆ 🔵
+### 350. [https://docs.browsermcp.io/setup-extension](https://docs.browsermcp.io/setup-extension)  `8` ★☆☆ 🔵
 
-**Discord is a popular, free, voice/chat communication platform that allows users to join servers, interact with bots, and build communities. It's an excellent place for testing agent capabilities through user-driven interactions and workflow orchestration.**
+**This resource provides instructions for setting up the Browser MCP extension, including steps for initial setup, connecting a browser tab to the MCP server, and starting automation. It details how to use the extension for browser actions.**
 
 **Key Features:**
-- Real-time chat
-- Voice/Voice Chat integration
-- Server/Channel management
-- Bot integration
-- User interaction/Community building.
+- Browser MCP Setup
+- Connection/Interoperability between browser tabs and the MCP server
+- Automation initiation (Start automating).
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'mcp', 'a2a', 'infrastructure'*
 
 ---
 
-### 411. [https://docs.jeanmemory.com/introduction](https://docs.jeanmemory.com/introduction)  `innovation: 8` ★☆☆ 🔵
+### 351. [https://docs.cline.bot/getting-started/installing-cline](https://docs.cline.bot/getting-started/installing-cline)  `8` ★☆☆ 🔵
 
-**Jean Technologies focuses on building the foundational memory and representation layer for AI applications. Their core offering, Jean Memory, handles the ingestion of raw user data (conversations, enrichment, activity) and compiles it into persistent, context-rich memory structures. This memory is t**
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+
+**Key Features:**
+- Cline is an AI coding agent that integrates deeply with development environments and workflows.
+
+*Tags: ['cline', 'ai agents', 'workflow', 'ide', 'cli', 'vscode', 'jetbrains', 'mcp'*
+
+---
+
+### 352. [https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/](https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit/)  `8` ★☆☆ 🔵
+
+**The Docker MCP Toolkit acts as a foundational connectivity layer for the Model Context Protocol ecosystem, offering a UI and CLI for the management of MCP servers. It incorporates a Gateway for routing LLM requests, dynamic discovery for identifying available toolsets within the Docker environment, and a catalog of pre-configured MCP servers. The architecture specifically leverages Docker's isolat**
+
+**Key Features:**
+- MCP server catalog
+- dynamic tool discovery
+- MCP Gateway routing
+- Profile-based configuration management
+- Toolkit UI for server orchestration
+- Docker Sandbox integration
+- Local Model Runner (DMR) support
+- CLI for MCP interactions
+
+*Tags: ai-integration, ai-models, ai-sandboxing, buildkit, catalog, cli, cli-tools, configuration*
+
+---
+
+### 353. [https://docs.jeanmemory.com/introduction](https://docs.jeanmemory.com/introduction)  `8` ★☆☆ 🔵
+
+**Jean Technologies focuses on building the foundational memory and representation layer for AI applications. Their core offering, Jean Memory, handles the ingestion of raw user data (conversations, enrichment, activity) and compiles it into persistent, context-rich memory structures. This memory is then used to power personalization, AI agents, and sophisticated matching systems by creating high-fi**
 
 **Key Features:**
 - Persistent user memory layer
@@ -6714,9 +5711,54 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - High-fidelity matching representations
 - Custom domain-specific embedding models
 
+*Tags: user memory, context management, data ingestion, embedding models, state persistence, personalization layer, data representation, ai foundations*
+
 ---
 
-### 412. [https://electricsheep.tv/](https://electricsheep.tv/)  `innovation: 8` ★☆☆ 🔵
+### 354. [https://docs.searxng.org/user/configured_engines.html#configured-engines](https://docs.searxng.org/user/configured_engines.html#configured-engines)  `8` ★☆☆ 🔵
+
+**SearXNG supports 250 search engines of which 96 are enabled by default. Engines can be assigned to multiple categories . The UI displays the tabs that are configured in categories_as_tabs . In addition to these UI categories (also called tabs ), engines can be queried by their name or the categories they belong to, by using a !bing syntax.**
+
+**Key Features:**
+- Enabled engines: General Engine Configuration
+
+*Tags: ['agent orchestration & workflow', 'context engineering & isolation', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability (mcp/a2a)', 'infrastructure & proxy layers', 'guides & industry trends', 'vector databases & search'*
+
+---
+
+### 355. [https://download.kiwix.org/zim/other](https://download.kiwix.org/zim/other)  `8` ★☆☆ 🔵
+
+**A collection of digital resources, including encyclopedias, wikis, and specific domain-focused sites, designed to provide comprehensive knowledge and context for the Borg intelligence system. This includes general topics like 'bitcoin', 'education', 'technology', and 'sports'.**
+
+**Key Features:**
+- Comprehensive coverage across various domains (e.g.
+- Bitcoin
+- Education
+- Technology)
+- providing a structured set of facts and knowledge.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'connectivity interoperability', 'infrastructure proxy layers', 'guides trends', 'vector databases search'*
+
+---
+
+### 356. [https://download.kiwix.org/zim/ted](https://download.kiwix.org/zim/ted)  `8` ★☆☆ 🔵
+
+**This is an index of various 'ted' files, which appear to be related to the Borg intelligence system. The files cover a wide range of topics, including printing, activism, addiction, agriculture, AI, and more. The file names suggest a focus on different facets of life or technology.**
+
+**Key Features:**
+- The database contains various 'ted' files covering diverse themes such as printing (3D printing)
+- activism
+- addiction
+- biology
+- astronomy
+- architecture
+- and more. It seems to be a comprehensive repository for Borg intelligence data.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'connectivity interoperability', 'infrastructure proxy layers', 'guides trends', 'vector databases search'*
+
+---
+
+### 357. [https://electricsheep.tv/](https://electricsheep.tv/)  `8` ★☆☆ 🔵
 
 **Electric Sheep is a comprehensive platform designed to serve as an AI video editing and visual effects (VFX) tool. It focuses on agent orchestration, workflow automation, context engineering, and the underlying architecture required for modern content creation workflows.**
 
@@ -6732,11 +5774,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Coding Tools & IDEs Integration'
 - 'AI Agents & Frameworks Support']
 
+*Tags: ['ai video editing', 'vfx platform', 'agent orchestration', 'content creation', 'context engineering', 'memory architecture', 'vector database', 'ai agents'*
+
 ---
 
-### 413. [https://endlessdoomscroller.com/](https://endlessdoomscroller.com/)  `innovation: 8` ★☆☆ 🔵
+### 358. [https://endlessdoomscroller.com/](https://endlessdoomscroller.com/)  `8` ★☆☆ 🔵
 
-**This resource provides a comprehensive overview of the concept of 'The Endless Doomscroller,' focusing on how agents interact, the architecture for memory and persistence, the user experience within developer tools, connectivity mechanisms, and the role of vector databases in search and discovery. I**
+**This resource provides a comprehensive overview of the concept of 'The Endless Doomscroller,' focusing on how agents interact, the architecture for memory and persistence, the user experience within developer tools, connectivity mechanisms, and the role of vector databases in search and discovery. It serves as a guide for understanding modern agent-based systems.**
 
 **Key Features:**
 - ['Agent Orchestration'
@@ -6748,11 +5792,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Vector Databases & Search'
 - 'AI Agents & Frameworks']
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'vector database', 'ai agents', 'workflow', 'infrastructure', 'developer tools'*
+
 ---
 
-### 414. [https://exchange.adobe.com/apps/cc/20211](https://exchange.adobe.com/apps/cc/20211)  `innovation: 8` ★☆☆ 🔵
+### 359. [https://exchange.adobe.com/apps/cc/20211](https://exchange.adobe.com/apps/cc/20211)  `8` ★☆☆ 🔵
 
-**This resource details the Adobe Exchange platform, which enables developers to build agent-based solutions. It focuses on enabling agents to interact with systems, manage context, and execute workflows across various platforms. The core concept revolves around defining agents, their capabilities, an**
+**This resource details the Adobe Exchange platform, which enables developers to build agent-based solutions. It focuses on enabling agents to interact with systems, manage context, and execute workflows across various platforms. The core concept revolves around defining agents, their capabilities, and how they interact within a cohesive system.**
 
 **Key Features:**
 - ['Agent Orchestration'
@@ -6765,11 +5811,30 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Coding Tools & IDEs'
 - 'AI Agents & Frameworks']
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory', 'ai agents', 'connectivity', 'infrastructure', 'developer tools'*
+
 ---
 
-### 415. [https://file.wikileaks.org/file](https://file.wikileaks.org/file)  `innovation: 8` ★☆☆ 🔵
+### 360. [https://fartlabs-fart.hf.space/?__theme=system](https://fartlabs-fart.hf.space/?__theme=system)  `8` ★☆☆ 🔵
 
-**This resource appears to be an index or a set of files from WikiLeaks, documenting various facets of the Borg operation and related entities. The file names suggest a mix of operational reports, specific incidents, corporate/political actions, and even some more esoteric 'Borg' references (like 'blo**
+**This resource provides a deep dive into the core concepts behind modern agent-based systems. It explores the necessary components for agent orchestration, workflow design, context engineering techniques to ensure robust isolation, memory management strategies for persistence, interface design for developer experience (UX), connectivity layers (like MCP/A2A), infrastructure considerations (includin**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory Architecture
+- Interface Design
+- Connectivity Layers
+- Infrastructure Layers
+- AI Agent Frameworks.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'interface design', 'mcp', 'a2a', 'infrastructure', 'ai agents'*
+
+---
+
+### 361. [https://file.wikileaks.org/file](https://file.wikileaks.org/file)  `8` ★☆☆ 🔵
+
+**This resource appears to be an index or a set of files from WikiLeaks, documenting various facets of the Borg operation and related entities. The file names suggest a mix of operational reports, specific incidents, corporate/political actions, and even some more esoteric 'Borg' references (like 'blood-and-honor-database').**
 
 **Key Features:**
 - The index provides a diverse set of documents spanning political operations (Afghanistan
@@ -6780,11 +5845,44 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - protests)
 - and specific intelligence/legal matters. The sheer breadth suggests a comprehensive view of the Borg's sphere of influence.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence architecture', 'interface interoperability', 'infrastructure proxy layers', 'vector databases search', 'coding tools ide', 'ai agents frameworks'*
+
 ---
 
-### 416. [https://fractalar-app.web.app/](https://fractalar-app.web.app/)  `innovation: 8` ★☆☆ 🔵
+### 362. [https://fireball.xyz/](https://fireball.xyz/)  `8` ★☆☆ 🔵
 
-**Fractalar provides a comprehensive platform for managing, orchestrating, and deploying agents. It focuses on the core capabilities of agents, enabling complex workflows, context engineering, memory persistence, and seamless connectivity between agents. The platform emphasizes the architecture, devel**
+**Crowbar.io is a platform designed to provide the best smoke detectors for modern agent-based workflows. It focuses on enabling agents to operate, manage context, and interact seamlessly within complex systems. The platform emphasizes robust connectivity, intelligent agent orchestration, and the underlying architecture necessary for advanced AI/Agent deployments.**
+
+**Key Features:**
+- Best Smoke Detectors for Agent Orchestration; Context Engineering & Isolation; Robust Connectivity (MCP/A2A); Agent-centric workflow management.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'interoperability', 'ai agents', 'vector databases', 'workflow', 'connectivity'*
+
+---
+
+### 363. [https://fontgenerator.now/](https://fontgenerator.now/)  `8` ★☆☆ 🔵
+
+**This resource provides an interactive font generator that allows users to preview, style, and generate a wide variety of cool, fancy, vintage script, bold, cursive, and typewriter-style fonts. It offers options for different styles like Double-Struck/Outlined, Fraktur, Old English Bold, Sans Serif, and more. The tool includes various text effects such as Bubble Text, Square Text, Monospace/Typewri**
+
+**Key Features:**
+- Font Generation & Styling Preview
+- Diverse Typography Options (Script
+- Bold
+- Cursive
+- Typewriter)
+- Various Text Effects (Bubble
+- Square
+- Block
+- etc.)
+- Interactive Style Manipulation.
+
+*Tags: ['font generator', 'typography', 'text effects', 'script font', 'bold font', 'typewriter font', 'style generator', 'cool text'*
+
+---
+
+### 364. [https://fractalar-app.web.app/](https://fractalar-app.web.app/)  `8` ★☆☆ 🔵
+
+**Fractalar provides a comprehensive platform for managing, orchestrating, and deploying agents. It focuses on the core capabilities of agents, enabling complex workflows, context engineering, memory persistence, and seamless connectivity between agents. The platform emphasizes the architecture, developer experience, and the integration of AI agents into practical systems.**
 
 **Key Features:**
 - Agent Orchestration
@@ -6797,11 +5895,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tools & IDEs
 - AI Agents & Frameworks.
 
+*Tags: ['agent orchestration', 'workflow management', 'context engineering', 'memory persistence', 'ai agents', 'vector databases', 'developer tools', 'microservices'*
+
 ---
 
-### 417. [https://get.big-agi.com/](https://get.big-agi.com/)  `innovation: 8` ★☆☆ 🔵
+### 365. [https://get.big-agi.com/](https://get.big-agi.com/)  `8` ★☆☆ 🔵
 
-**Big-AGI is a powerful platform designed to help developers build, orchestrate, and deploy intelligent agents. It focuses on providing the necessary tools for agent orchestration, context engineering, memory management, and connectivity, enabling developers to create sophisticated workflows and agent**
+**Big-AGI is a powerful platform designed to help developers build, orchestrate, and deploy intelligent agents. It focuses on providing the necessary tools for agent orchestration, context engineering, memory management, and connectivity, enabling developers to create sophisticated workflows and agents with ease.**
 
 **Key Features:**
 - ['Agent Orchestration'
@@ -6814,11 +5914,67 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - 'Coding Tools & IDEs'
 - 'AI Agents & Frameworks']
 
+*Tags: ['agent-orchestration', 'context-engineering', 'memory-architecture', 'ai-agents', 'workflow-automation', 'developer-tools', 'vector-db', 'mcp'*
+
 ---
 
-### 418. [https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour](https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour)  `innovation: 8` ★☆☆ 🔵
+### 366. [https://gohugo.io/](https://gohugo.io/)  `8` ★☆☆ 🔵
 
-**This article provides a comprehensive guide for setting up a Retrieval-Augmented Generation (RAG) system. It covers the necessary components, including agent orchestration, workflow design, context engineering, memory management, and the underlying infrastructure required to connect AI agents with v**
+**With its amazing speed and flexibility, Hugo makes building websites fun again. Hugo is open source and free to use. It is distributed under the Apache 2.0 License. Hugo has 87,473 stars on GitHub as of April 8, 2026. Join the crowd and hit the Star button. Active. Hugo has a large and active community. If you have questions or need help, you can ask in the Hugo forums. Frequent releases. Hugo has**
+
+**Key Features:**
+- Hugo is open source and free to use. It is distributed under the Apache 2.0 License. Hugo has 87
+- 473 stars on GitHub as of April 8
+- 2026. Active community
+- frequent releases
+- and active maintenance.
+
+*Tags: ['agent orchestration & workflow', 'context engineering & isolation', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability (mcp/a2a)', 'infrastructure & proxy layers', 'guides & industry trends', 'vector databases & search'*
+
+---
+
+### 367. [https://golivecosmos.com/](https://golivecosmos.com/)  `8` ★☆☆ 🔵
+
+**See how â Never Stop Shipping Content Cosmos is your always-on content agent that researches your market, runs automations, and keeps your content calendar moving. Generate Daily LinkedIn posts for my brand Weekly blog posts in my voice Turn this campaign into recurring ads Create a weekly video content series â Free to start â 5 free automation trial runs â On-demand + scheduled generation**
+
+**Key Features:**
+- Always-on content automations
+- Content generation (LinkedIn posts
+- blog posts
+- video)
+- Image Generation (stunning images
+- multi-angle shots)
+- Video Generation (cinematic videos with text prompts)
+- Multi-Angle Shots
+- Automated Content Set up recurring generation
+- Library Indexing/Search
+- AI Analysis (transcripts
+- summaries
+
+*Tags: ['AI Content Engine', 'Always-On Automation', 'Video Generation', 'Image Generation', 'Content Workflow', 'AI Agents', 'Media Creation', 'Vector Databases'*
+
+---
+
+### 368. [https://grok.com/chat/ece13148-8f77-4e69-a541-1fff51601fbe](https://grok.com/chat/ece13148-8f77-4e69-a541-1fff51601fbe)  `8` ★☆☆ 🔵
+
+**This resource provides a deep dive into the architecture of modern AI agents, covering everything from agent orchestration principles and workflow design to context engineering, memory management, interface design, connectivity layers (like MCP/A2A), and the underlying infrastructure required for these systems. It serves as a foundational text for understanding how AI agents operate within complex**
+
+**Key Features:**
+- ['Agent Orchestration Frameworks'
+- 'Context Engineering & Isolation Techniques'
+- 'Memory & Persistence Architecture Design'
+- 'Interface & Developer UX Best Practices'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layer Design'
+- 'Guides for AI Agent Development']
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory architecture', 'ai agents', 'developer ux', 'infrastructure', 'vector databases'*
+
+---
+
+### 369. [https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour](https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour)  `8` ★☆☆ 🔵
+
+**This article provides a comprehensive guide for setting up a Retrieval-Augmented Generation (RAG) system. It covers the necessary components, including agent orchestration, workflow design, context engineering, memory management, and the underlying infrastructure required to connect AI agents with vector databases and search capabilities.**
 
 **Key Features:**
 - Comprehensive RAG stack setup
@@ -6827,25 +5983,42 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Vector Database integration
 - Workflow efficiency.
 
+*Tags: ['rag', 'ai', 'agent', 'workflow', 'vector_database', 'llm', 'context_engineering', 'ranc'*
+
 ---
 
-### 419. [https://hubui.ai/?rdt_cid=5937539425923341343&utm_campaign=aiagents&utm_medium=p](https://hubui.ai/?rdt_cid=5937539425923341343&utm_campaign=aiagents&utm_medium=paid&utm_source=reddit)  `innovation: 8` ★☆☆ 🔵
+### 370. [https://harmony.pulsewidth.org.uk/](https://harmony.pulsewidth.org.uk/)  `8` ★☆☆ 🔵
 
-**The HubUI platform provides a unified infrastructure for integrating AI agents into various communication channels such as voice calls, web voice, and chat platforms. It allows developers to connect existing AI workflows with custom Python backends, enabling real-time interaction while maintaining t**
+**A tool for looking up music releases, providing metadata integration (e.g., importing into MusicBrainz), and linking external IDs to a centralized database.**
 
 **Key Features:**
-- Voice integration
-- Phone number provisioning
-- Chat functionality
-- Web UI embedding
-- Real-time analytics
-- Scalable deployment
+- ['Release Lookup functionality'
+- 'Metadata Import (into MusicBrainz)'
+- 'External ID Linking (URLs) for artists
+- labels
+- and recordings']
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence architecture', 'interface ux', 'connectivity interoperability', 'infrastructure proxy layers', 'vector databases search'*
 
 ---
 
-### 420. [https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)  `innovation: 8` ★☆☆ 🔵
+### 371. [https://hn.algolia.com/?dateRange=all&page=99&prefix=false&query=pdf&sort=byDate...](https://hn.algolia.com/?dateRange=all&page=99&prefix=false&query=pdf&sort=byDate&type=story)  `8` ★☆☆ 🔵
 
-**Memory & Persistence Architecture**
+**This page will only work with JavaScript enabled.**
+
+**Key Features:**
+- A search/discovery platform leveraging Algolia for indexing and search capabilities
+- focusing on the intersection of Agent Orchestration
+- Context Engineering
+- and modern developer tools.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability', 'mcp/a2a', 'infrastructure'*
+
+---
+
+### 372. [https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)  `8` ★☆☆ 🔵
+
+**We’re on a journey to advance and democratize artificial intelligence through open source and open science.**
 
 **Key Features:**
 - Interface & Developer UX
@@ -6858,11 +6031,45 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Search & Discovery
 - Infrastructure
 
+*Tags: ['deepseek-r1', 'reasoning', 'distillation', 'llm', 'reinforcement learning', 'agent', 'model', 'open source'*
+
 ---
 
-### 421. [https://invidious.io/](https://invidious.io/)  `innovation: 8` ★☆☆ 🔵
+### 373. [https://image-mcp.com/posts](https://image-mcp.com/posts)  `8` ★☆☆ 🔵
 
-**Invidious provides a modern, flexible, and powerful front-end layer for the YouTube ecosystem. It aims to offer users a more intuitive and integrated experience, leveraging advanced agent orchestration and context engineering to provide superior workflow capabilities compared to the native YouTube i**
+**This resource provides a showcase of various AI image generation techniques, prompt recipes, model comparisons, and workflow efficiencies. It highlights the power of specialized tools (like Nano Banana Pro) for creating consistent visual styles across different subjects, along with agent-driven analysis and model discovery workflows.**
+
+**Key Features:**
+- ['Mid-Century Noir Screenprint Style Consistency Prompting'
+- '6-Part Formula for Production-Ready Images (Subject + Scene + Composition + Lighting + Style + Constraints)'
+- 'Nano Banana Pro capabilities (blending familiar with cosmic elements).'
+- "AI Model Discovery Workflow (fal_list_models) to solve the '50 Hours Troubleshooting' problem."
+- 'Agent-Driven Analysis vs Specialized MCP for Architecture Diagrams.'
+- "Model Comparison Showdown results
+- highlighting Nano Banana's speed advantage."]
+
+*Tags: ['AI Agents', 'Prompt Engineering', 'Image Generation', 'Workflow Optimization', 'Model Discovery', 'Consistency Check', 'Nano Banana Pro', 'AI Showdown'*
+
+---
+
+### 374. [https://inochi2d.com/](https://inochi2d.com/)  `8` ★☆☆ 🔵
+
+**Inochi2D is a framework for realtime 2D puppet animation—by creating 2D meshes and layering creating the illusion of depth and movement from using 2D artwork. This technique enables creativity in a variety of applications within the entertainment industry from live streaming to games development.**
+
+**Key Features:**
+- Realtime 2D puppet animation
+- creation of 2D meshes and layering for illusion of depth/movement
+- enabling VTubing
+- real-time character animation for games
+- layered artwork animation for social media.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity interoperability', 'vector databases', 'coding tools'*
+
+---
+
+### 375. [https://invidious.io/](https://invidious.io/)  `8` ★☆☆ 🔵
+
+**Invidious provides a modern, flexible, and powerful front-end layer for the YouTube ecosystem. It aims to offer users a more intuitive and integrated experience, leveraging advanced agent orchestration and context engineering to provide superior workflow capabilities compared to the native YouTube interface.**
 
 **Key Features:**
 - Agent Orchestration
@@ -6875,11 +6082,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - AI Agents & Frameworks
 - Search & Discovery
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory', 'persistence', 'interface ux', 'connectivity', 'mcp'*
+
 ---
 
-### 422. [https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-u](https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-universe)  `innovation: 8` ★☆☆ 🔵
+### 376. [https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-u...](https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-universe)  `8` ★☆☆ 🔵
 
-**Memory & Persistence Architecture**
+**And other insane Star Trek facts you didn’t know**
 
 **Key Features:**
 - Interface & Developer UX
@@ -6892,76 +6101,30 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Search & Discovery
 - Infrastructure
 
+*Tags: ['Star Trek', 'Patrick Stewart', 'Memory Database', 'Context Engineering', 'Search Optimization', 'Cultural Reference', 'Data Mining', 'Agent Workflow'*
+
 ---
 
-### 423. [https://kilo.ai/docs/kiloclaw/chat-platforms/discord](https://kilo.ai/docs/kiloclaw/chat-platforms/discord)  `innovation: 8` ★☆☆ 🔵
+### 377. [https://laravel.com/docs/12.x/installation](https://laravel.com/docs/12.x/installation)  `8` ★☆☆ 🔵
 
-**This technical resource outlines the process of integrating KiloClaw with Discord to enable advanced bot management. It covers creating a bot in Discord, configuring permissions, setting up DM-only access, channel participation, and deploying changes. The guide emphasizes security through role-based**
+**This resource details the installation process for Laravel 12.x, covering the necessary steps to set up a Laravel application, including installing PHP, the Laravel Installer, creating an application, initial configuration, environment setup, database migrations, directory configuration, installation using Herd (for macOS/Windows), and IDE support. It explains why Laravel is the ideal choice for b**
 
 **Key Features:**
-- Bot creation and management in Discord
-- DM-only response restriction
-- Channel-specific participation
-- Role-based access control
-- Automated deployment via Kilo CLI
+- Laravel provides a structure and starting point for creating applications
+- offering robust tools for dependency injection
+- expressive database abstraction
+- queues
+- testing
+- and scalable infrastructure. It is positioned as the best choice for modern
+- full-stack web applications and an ideal framework for AI-assisted development due to its opinionated conventions.
+
+*Tags: ['laravel', 'php', 'ai', 'agent', 'framework', 'web dev', 'installation', 'cloud'*
 
 ---
 
-### 424. [https://learn.microsoft.com/en-us/windows/powertoys](https://learn.microsoft.com/en-us/windows/powertoys)  `innovation: 8` ★☆☆ 🔵
+### 378. [https://manus.im/careers](https://manus.im/careers)  `8` ★☆☆ 🔵
 
-**Microsoft PowerToys is a set of free, open-source utilities designed to help power users and developers get more out of Windows. It builds on familiar Windows experiences and adds thoughtful tools that boost productivity, streamline workflows, and unlock customization options that don’t exist out of**
-
-**Key Features:**
-- ['Advanced Paste: Paste text from your clipboard into any format needed (includes an optional AI-powered feature).'
-- 'Always On Top: Pin windows above other windows with a quick key shortcut.'
-- 'Awake: Keep a computer awake without managing power & sleep settings.'
-- 'Color Picker: A system-wide color picking utility to pick colors from anywhere on the screen.'
-- 'Command Not Found: A PowerShell 7 module that suggests WinGet packages when a command fails.'
-- 'Command Palette: Access frequently used commands
-- apps
-- and tools from a single
-- fast
-- customizable interface.'
-- 'Crop And Lock: Create a cropped or thumbnail window of another window that stays interactive.'
-- 'Environment Variables: Manage environment variables with profiles to group variables together.'
-
----
-
-### 425. [https://lwn.net/Articles/997238](https://lwn.net/Articles/997238)  `innovation: 8` ★☆☆ 🔵
-
-**The Cosmopolitan Libc project introduces 'αcτµαlly pδrταblε εxεcµταblεs' (APEs), a polyglot format that allows C programs to run directly on Linux, macOS, FreeBSD, OpenBSD, NetBSD, Windows, and bare metal on x86_64 and Arm64 chips. APEs achieve this by embedding multiple executable formats within a **
-
-**Key Features:**
-- ['Cross-platform execution on Linux
-- macOS
-- Windows
-- and BSD variants.'
-- 'Support for x86_64 and Arm64 architectures.'
-- 'Polyglot binary format embedding multiple executable types.'
-- 'No reliance on emulators or bytecode virtual machines.'
-- 'Automatic architecture and OS detection at runtime.'
-- 'Self-modifying binary for native execution.']
-
----
-
-### 426. [https://maggieappleton.com/zero-alignment/](https://maggieappleton.com/zero-alignment/)  `innovation: 8` ★☆☆ 🔵
-
-**The talk introduces Ace, a new research prototype designed to facilitate collaborative AI engineering by integrating multiple agents within a unified cloud workspace. It emphasizes the need for modern alignment mechanisms that occur continuously during development rather than at discrete phases like**
-
-**Key Features:**
-- Multiplayer chat interface with isolated session workspaces
-- Real-time code collaboration and version control
-- Context-aware prompts and auto-commit functionality
-- Integration of various AI agents within a single cloud environment
-- Support for continuous planning
-- decision-making
-- and alignment
-
----
-
-### 427. [https://manus.im/careers](https://manus.im/careers)  `innovation: 8` ★☆☆ 🔵
-
-**This resource lists career opportunities at Meta (likely related to a project codenamed 'Borg Intelligence Database' based on the listed categories). The roles span a wide range of technical areas crucial for building and maintaining a large-scale AI system, including agent orchestration, context ma**
+**This resource lists career opportunities at Meta (likely related to a project codenamed 'Borg Intelligence Database' based on the listed categories). The roles span a wide range of technical areas crucial for building and maintaining a large-scale AI system, including agent orchestration, context management, memory architecture, developer tooling, connectivity, infrastructure, and vector databases**
 
 **Key Features:**
 - ['Job postings across various technical domains'
@@ -6971,168 +6134,73 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - and developer experience'
 - 'Involvement with cutting-edge technologies like vector databases and AI frameworks']
 
+*Tags: ['ai', 'machinelearning', 'careers', 'jobpostings', 'agentorchestration', 'vectordatabase', 'infrastructure', 'meta'*
+
 ---
 
-### 428. [https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.teams.ma](https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.teams.magentic_one.html)  `innovation: 8` ★☆☆ 🔵
+### 379. [https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-ta...](https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about)  `8` ★☆☆ 🔵
 
-**Magentic-One is a generalist multi-agent system designed for solving open-ended web and file-based tasks. It utilizes a lead Orchestrator agent for planning, directing other agents, and tracking progress. The Orchestrator maintains a Task Ledger for facts and guesses and a Progress Ledger for self-r**
+**The document examines the rapid proliferation of over 17,000 MCP servers across various platforms, highlighting their expanded attack surface. It identifies three critical security threats unique to MCP: tool poisoning, injection risks through malicious tool descriptions, and code execution capabilities embedded in server tools. The analysis emphasizes that traditional CVE-based security measures **
 
 **Key Features:**
-- ['Orchestrator agent for task planning and management'
-- 'Integration of FileSurfer
-- WebSurfer
-- Coder
-- and Executor agents'
-- 'Task Ledger for fact gathering and planning'
-- 'Progress Ledger for self-reflection and task tracking'
-- 'Human-in-the-loop mode for supervision'
-- 'Code execution with optional approval'
-- 'Emphasis on safety precautions like containerization and virtual environments']
+- Tool poisoning detection
+- Injection risk assessment
+- Code execution capability verification
+- Authentication enforcement
+- Server behavior analysis
+
+*Tags: mcp, ai-assistant-security, server-scanning, tool-poisoning, injection-risk, code-execution, developer-tools, security-evidence*
 
 ---
 
-### 429. [https://mindoryapp.com/](https://mindoryapp.com/)  `innovation: 8` ★☆☆ 🔵
+### 380. [https://news.ycombinator.com/item?id=41188891](https://news.ycombinator.com/item?id=41188891)  `8` ★☆☆ 🔵
 
-**Mindory App offers an intuitive interface for organizing daily activities, prioritizing tasks, and adapting schedules based on real-time needs. It leverages AI to provide personalized guidance, helping users stay on track without overwhelming stress. The app focuses on flexibility and emotional supp**
-
-**Key Features:**
-- AI-powered task scheduling
-- personalized prioritization
-- calendar integration
-- stress management tools
-- mood-based planning
-
----
-
-### 430. [https://news.ycombinator.com/item?id=41184527](https://news.ycombinator.com/item?id=41184527)  `innovation: 8` ★☆☆ 🔵
-
-**Explores advanced techniques for improving document retrieval using multimodal LLMs and positional embeddings.**
-
-**Key Features:**
-- Multimodal LLM integration
-- Positional embeddings
-- Document page parsing
-- Contextual understanding improvement
-
----
-
-### 431. [https://news.ycombinator.com/item?id=41188891](https://news.ycombinator.com/item?id=41188891)  `innovation: 8` ★☆☆ 🔵
-
-**The project focuses on enhancing the accuracy of document search by fine-tuning an embedding model to better locate relevant pages within PDFs. This addresses challenges in traditional RAG systems that require extensive text extraction before applying large language models, aiming to streamline work**
+**The project focuses on enhancing the accuracy of document search by fine-tuning an embedding model to better locate relevant pages within PDFs. This addresses challenges in traditional RAG systems that require extensive text extraction before applying large language models, aiming to streamline workflows for visually rich documents.**
 
 **Key Features:**
 - Embedding model training
 - PDF page retrieval enhancement
 - Semantic search optimization
 
+*Tags: huggingface, pdf processing, semantic search, text embedding, document retrieval, ai models, search optimization, multimodal lms*
+
 ---
 
-### 432. [https://news.ycombinator.com/item?id=47132853](https://news.ycombinator.com/item?id=47132853)  `innovation: 8` ★☆☆ 🔵
+### 381. [https://news.ycombinator.com/item?id=41203306](https://news.ycombinator.com/item?id=41203306)  `8` ★☆☆ 🔵
 
-**This resource discusses the potential for a disruptive technological singularity, emphasizing the need to understand its impact on global systems. It highlights concerns about the stability of the labor market, the inevitability of significant change, and the societal implications of such a transfor**
+**The project proposes a multi-stage intelligence pipeline that combines Tesseract OCR with large language models (LLMs) to correct OCR errors, reformat text, and enhance readability. It leverages LLMs for context-aware corrections, markdown formatting, and structured output generation. The approach aims to address limitations of traditional methods by using prompt engineering and staged processing **
 
 **Key Features:**
-- risk assessment
-- technical analysis
-- scenario planning
+- OCR with Tesseract
+- LLM-aided error correction
+- Text reformatting (markdown
+- line breaks)
+- Multi-stage processing for improved accuracy
+- Context-aware prompting to reduce hallucinations
+- Support for structured output generation
+
+*Tags: llm-aided-o cr, ocr-improvement, text-processing, multi-stage-pipeline, document-reading, context-aware, formatting, ai-integration*
 
 ---
 
-### 433. [https://news.ycombinator.com/item?id=47307887](https://news.ycombinator.com/item?id=47307887)  `innovation: 8` ★☆☆ 🔵
+### 382. [https://news.ycombinator.com/item?id=47478872](https://news.ycombinator.com/item?id=47478872)  `8` ★☆☆ 🔵
 
-**The project introduces a Python-based solution for retrieving information from external documents using a portable retrieval-augmented generation (RAG) approach. It addresses the challenge of managing large text files within limited context windows by leveraging local embeddings and efficient file h**
+**The Bossa project introduces a persistent filesystem memory system that enables AI agents to retain and access session data across runs. By leveraging a filesystem interface, the approach allows agents to perform file operations like ls, grep, read, and write directly within their environment. This eliminates reliance on external retrieval pipelines or embedding models, offering a lean architectur**
 
 **Key Features:**
-- local embeddings
-- portable RAG implementation
-- efficient search functionality
-- support for large text files
-- Python compatibility
+- Persistent filesystem memory
+- LS/grep/read/write operations
+- Postgres-based full-text search
+- Scalable storage via MCP/CLI
+- Context persistence across sessions
+
+*Tags: memory architecture, filesystem abstraction, persistence, ai agents, data retention, search indexing, storage optimization, context management*
 
 ---
 
-### 434. [https://news.ycombinator.com/item?id=47448524](https://news.ycombinator.com/item?id=47448524)  `innovation: 8` ★☆☆ 🔵
+### 383. [https://qdrant.tech/documentation/frameworks/mem0/](https://qdrant.tech/documentation/frameworks/mem0/)  `8` ★☆☆ 🔵
 
-**This analysis evaluates the technical aspects of Telegram's push events, channel management, and integration with various communication tools. It compares Telegram's performance and features against industry standards, focusing on its scalability, user experience, and security measures. The discussi**
-
-**Key Features:**
-- push events into running sessions
-- channels management
-- cross-platform integration
-- bot platform
-- message history and file storage
-- encryption options
-
----
-
-### 435. [https://news.ycombinator.com/item?id=47545642](https://news.ycombinator.com/item?id=47545642)  `innovation: 8` ★☆☆ 🔵
-
-**The project introduces an open-source, animal crossing-style UI for Claude Code Agents, enabling users to assign tasks, schedule actions, and facilitate communication between agents. It supports features like iMessage channel integration, web browsing, task scheduling, and visual debugging through t**
-
-**Key Features:**
-- iMessage channel support
-- web browsing capabilities
-- task scheduling
-- agent communication
-- visual debugging with thinking bubbles
-- extensible architecture
-- support for parallel task execution
-
----
-
-### 436. [https://news.ycombinator.com/item?id=47752392](https://news.ycombinator.com/item?id=47752392)  `innovation: 8` ★☆☆ 🔵
-
-**The project introduces an open-source knowledge base built on Andrej Karparthy's OpenKB, enhanced to handle large PDF documents and embedded images efficiently. It aims to provide a scalable solution for developers and researchers needing access to comprehensive, structured data.**
-
-**Key Features:**
-- Open source knowledge base
-- Support for long PDFs
-- Image embedding
-- Pageindex integration
-
----
-
-### 437. [https://nimbalyst.com/](https://nimbalyst.com/)  `innovation: 8` ★☆☆ 🔵
-
-**Nimbalyst functions as a session manager and visual editor, specifically tailored for enhancing interaction with AI code assistants like Claude Code and Codex. It provides a unified environment for editing markdown, CSVs, mockups (Excalidraw), architecture diagrams (Mermaid), and code. Key to its UX**
-
-**Key Features:**
-- Visual file editing for multiple formats (Markdown
-- CSV
-- Code
-- Diagrams)
-- Side-by-side AI interaction
-- Diff visualization and approval for AI edits
-- Visual UI planning/mockup to code generation
-- Session management with Kanban tracking
-- Full codebase context awareness for AI agents
-- Mobile application for session monitoring.
-
----
-
-### 438. [https://otter.ai/](https://otter.ai/)  `innovation: 8` ★☆☆ 🔵
-
-**Otter.ai is an AI notetaker designed to enhance productivity by automatically transcribing meetings in real-time, generating summaries, identifying action items, and providing AI-powered chat functionality to answer questions about past conversations. It integrates with popular calendars, CRMs, and **
-
-**Key Features:**
-- ['Live transcription in multiple languages with speaker recognition'
-- 'Automated meeting summaries with decisions
-- action items
-- and insights'
-- 'AI Chat for searching meeting content and generating follow-ups'
-- 'CRM integration for pushing sales insights'
-- 'Channel-based organization for collaborative access to recordings'
-- 'Flexible recording options (desktop
-- mobile
-- Chrome)'
-- 'Integration with AI chat tools like ChatGPT and Claude via MCP Server'
-- 'Automated action item capture and assignment']
-
----
-
-### 439. [https://qdrant.tech/documentation/frameworks/mem0/](https://qdrant.tech/documentation/frameworks/mem0/)  `innovation: 8` ★☆☆ 🔵
-
-**Mem0 functions as a dedicated memory management layer situated between the LLM application logic and the persistent vector database (specifically shown integrating with Qdrant). It aims to provide self-improvement and personalization by retaining user preferences and continuously adapting its stored**
+**Mem0 functions as a dedicated memory management layer situated between the LLM application logic and the persistent vector database (specifically shown integrating with Qdrant). It aims to provide self-improvement and personalization by retaining user preferences and continuously adapting its stored knowledge over time. The architecture allows developers to configure specific vector store provider**
 
 **Key Features:**
 - Self-improving memory layer
@@ -7144,66 +6212,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - update
 - history)
 
----
-
-### 440. [https://recallbricks.com/](https://recallbricks.com/)  `innovation: 8` ★☆☆ 🔵
-
-**RecallBricks functions as a persistent memory and governance layer for AI agents, moving beyond probabilistic prompt-based instructions toward deterministic execution control. It records every agent action as structured operational state—capturing goals, outcomes, reasoning, and lessons learned—acro**
-
-**Key Features:**
-- Operational state tracking
-- failure signature capture
-- deterministic constraint enforcement
-- observe vs enforce modes
-- autonomous re-planning
-- cross-session persistence
-- structured reasoning traces
-- provider-agnostic SDK
-- real-time failure deduplication.
+*Tags: mem0, memory layer, vector store abstraction, personalization, self-improving ai, qdrant integration, llm persistence, context management*
 
 ---
 
-### 441. [https://supabase.com/](https://supabase.com/)  `innovation: 8` ★☆☆ 🔵
+### 384. [https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-i...](https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-ide-that-goes-beyond-vibe-coding/)  `8` ★☆☆ 🔵
 
-**Supabase offers a full-stack backend solution built around PostgreSQL, providing integrated services like Authentication, Realtime, Storage, and Edge Functions, all accessible via instant RESTful APIs. The platform emphasizes excellent Developer Experience (DX), evidenced by quick setup times, exten**
-
-**Key Features:**
-- Postgres Database as Backend
-- Integrated Authentication with RLS
-- Edge Functions
-- Realtime Subscriptions
-- Storage
-- Vector Embeddings
-- Instant REST APIs
-- Local Development Support
-- Management Console Platform (MCP)
-- Built-in Advisors/Linters.
-
----
-
-### 442. [https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2](https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2owajGoAgCwAgA&ie=UTF-8&oq=graalvm&q=graalvm&sec_act=d&sourceid=chrome&sxsrf=ADLYWIJ44Rd2Es0-XrMQeDtKy9i_iOO1zA:1732027758712)  `innovation: 8` ★☆☆ 🔵
-
-**This resource represents a Google Search results page for the keyword 'GraalVM'. While the page itself doesn't contain information about GraalVM, it serves as a gateway to finding relevant documentation, tutorials, and articles about GraalVM. GraalVM is a high-performance polyglot virtual machine th**
-
-**Key Features:**
-- ['Polyglot programming support (Java
-- JavaScript
-- Python
-- Ruby
-- R
-- C/C++)'
-- 'Ahead-of-time (AOT) compilation for faster startup and reduced memory footprint'
-- 'Just-in-time (JIT) compilation for peak performance'
-- 'Language interoperability'
-- 'Embedding capabilities'
-- 'Native image generation'
-- 'Support for various operating systems and architectures']
-
----
-
-### 443. [https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-i](https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-ide-that-goes-beyond-vibe-coding/)  `innovation: 8` ★☆☆ 🔵
-
-**The Borg Project's analysis of Amazon's Kiro IDE highlights its focus on bridging the gap between rapid prototyping and production-ready software. Kiro uses structured requirements, spec-driven development, and automated 'hooks' to ensure code quality and maintainability. It emphasizes developer con**
+**The Borg Project's analysis of Amazon's Kiro IDE highlights its focus on bridging the gap between rapid prototyping and production-ready software. Kiro uses structured requirements, spec-driven development, and automated 'hooks' to ensure code quality and maintainability. It emphasizes developer control through approvals, live testing, and security checks, aiming to prevent technical debt in AI-as**
 
 **Key Features:**
 - spec-driven development
@@ -7213,25 +6228,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - security scanning
 - live diff views
 
----
-
-### 444. [https://www.nasaspaceflight.com/2026/03/nasa-sr1-freedom-mars-2028/](https://www.nasaspaceflight.com/2026/03/nasa-sr1-freedom-mars-2028/)  `innovation: 8` ★☆☆ 🔵
-
-**The document provides a comprehensive overview of NASA's upcoming Freedom mission to Mars, highlighting key technical details such as launch vehicles (Falcon 9), cargo ship (CRS NG-24), and crew missions. It covers international collaboration with China's new launchers, orbital servicing tests, and **
-
-**Key Features:**
-- Falcon 9 launches CRS NG-24 cargo ship
-- Artemis II lunar flyby
-- Orion spacecraft testing
-- Orbital servicing demonstrations
-- International collaboration with China and other nations
-- Mars mission planning for 2028
+*Tags: ai development, code quality, structured workflows, automated testing, developer tools, spec-driven, security integration, cloud-native*
 
 ---
 
-### 445. [https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_c](https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_campaign=vector-db-us&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16569728076&hsa_grp=135276647900&hsa_ad=587750423880&hsa_src=g&hsa_tgt=kwd-1976865318&hsa_kw=vector%20database&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16569728076&gbraid=0AAAAABrtGFCCiLeMIYP0UV1mJGjrBQJJQ&gclid=CjwKCAiA2svIBhB-EiwARWDPjqml7VbSAxBrIs1H9BOH2ulf87caRxxgUnZgiXwEIWCDIqEkgh0RERoCykUQAvD_BwE)  `innovation: 8` ★☆☆ 🔵
+### 385. [https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_c...](https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_campaign=vector-db-us&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16569728076&hsa_grp=135276647900&hsa_ad=587750423880&hsa_src=g&hsa_tgt=kwd-1976865318&hsa_kw=vector%20database&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16569728076&gbraid=0AAAAABrtGFCCiLeMIYP0UV1mJGjrBQJJQ&gclid=CjwKCAiA2svIBhB-EiwARWDPjqml7VbSAxBrIs1H9BOH2ulf87caRxxgUnZgiXwEIWCDIqEkgh0RERoCykUQAvD_BwE)  `8` ★☆☆ 🔵
 
-**Pinecone provides a specialized, fully managed vector database service aimed at simplifying the implementation of similarity search. It abstracts away infrastructure complexity, offering features like ultra-low query latency even at massive scale (billions of items), real-time data freshness via liv**
+**Pinecone provides a specialized, fully managed vector database service aimed at simplifying the implementation of similarity search. It abstracts away infrastructure complexity, offering features like ultra-low query latency even at massive scale (billions of items), real-time data freshness via live index updates, and the ability to combine vector search with metadata filtering. The service is po**
 
 **Key Features:**
 - Fully managed vector database
@@ -7243,11 +6246,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - No operational overhead (NoOps)
 - Scalable to billions of vectors
 
+*Tags: ai infrastructure, high performance, managed service, metadata filtering, noops, real-time indexing, scalable persistence, similarity search*
+
 ---
 
-### 446. [https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous](https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/)  `innovation: 8` ★☆☆ 🔵
+### 386. [https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous...](https://www.reddit.com/r/CryptoTradingBot/comments/1smoov6/i_built_an_autonomous_quant_desk_that_scans_300/)  `8` ★☆☆ 🔵
 
-**The project leverages an autonomous quantum desk system that continuously scans market data, executes trades, and optimizes strategies through machine learning algorithms. It integrates multiple data sources, applies real-time analytics, and automates decision-making processes to enhance trading eff**
+**The project leverages an autonomous quantum desk system that continuously scans market data, executes trades, and optimizes strategies through machine learning algorithms. It integrates multiple data sources, applies real-time analytics, and automates decision-making processes to enhance trading efficiency.**
 
 **Key Features:**
 - autonomous trading
@@ -7256,11 +6261,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - real-time analytics
 - workflow automation
 
+*Tags: crypto, quant trading, ai, automation, algorithm, market data, trading bot, quant desk*
+
 ---
 
-### 447. [https://www.trychroma.com/](https://www.trychroma.com/)  `innovation: 8` ★☆☆ 🔵
+### 387. [https://www.trychroma.com/](https://www.trychroma.com/)  `8` ★☆☆ 🔵
 
-**Chroma provides a specialized persistence layer for AI applications, optimizing for both cost and performance by leveraging an object-storage-centric architecture (S3/GCS) rather than purely memory-bound indexing. It employs a three-tier intelligent data strategy—caching hot data in memory, warm dat**
+**Chroma provides a specialized persistence layer for AI applications, optimizing for both cost and performance by leveraging an object-storage-centric architecture (S3/GCS) rather than purely memory-bound indexing. It employs a three-tier intelligent data strategy—caching hot data in memory, warm data on SSD, and cold data on object storage—to achieve up to 10x cost reductions while maintaining low**
 
 **Key Features:**
 - Vector similarity search
@@ -7272,11 +6279,28 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Chroma Sync (automated ingestion)
 - Multi-tenant indexing
 
+*Tags: vector database, embeddings store, object storage, semantic search, metadata filtering, serverless database, context engineering, full-text search*
+
 ---
 
-### 448. [https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&](https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&share=true)  `innovation: 8` ★☆☆
+### 388. [https://www.trychroma.com/research/context-1](https://www.trychroma.com/research/context-1)  `8` ★☆☆ 🔵
 
-**This resource appears to be a technical post, possibly a blog entry or guide, focusing on the architecture and capabilities of AI agents. The title suggests a deep dive into the core operational principles or existential goals of an agent system. The content likely explores how agents operate, manag**
+**This technical resource introduces Chroma Context-1, a 20B parameter agentic search model designed to decompose queries into subqueries and iteratively refine its context to optimize retrieval within a bounded window. It addresses the limitations of single-stage retrieval by enabling multi-turn agentic search using smaller models, thereby reducing cost and latency while maintaining competitive per**
+
+**Key Features:**
+- multi-hop retrieval
+- agentic search with LLM subagent
+- context window management
+- self-editing context
+- scalable synthetic task generation
+
+*Tags: agentic search, retrieval augmentation, LLM fine-tuning, context management, multi-turn reasoning, model compression, open source, benchmarking*
+
+---
+
+### 389. [https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&...](https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&share=true)  `8` ★☆☆
+
+**This resource appears to be a technical post, possibly a blog entry or guide, focusing on the architecture and capabilities of AI agents. The title suggests a deep dive into the core operational principles or existential goals of an agent system. The content likely explores how agents operate, manage memory, persistence, and connectivity within a modern context.**
 
 **Key Features:**
 - Agent Orchestration
@@ -7289,11 +6313,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tools & IDEs
 - AI Agents & Frameworks.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'ai agents', 'vector databases', 'workflow', 'infrastructure', 'devtools'*
+
 ---
 
-### 449. [https://glicol.org/](https://glicol.org/)  `innovation: 8` ★☆☆
+### 390. [https://glicol.org/](https://glicol.org/)  `8` ★☆☆
 
-**This resource provides an in-depth look at Glicol, a conceptual framework or system. It explores how Glicol functions within agent workflows, emphasizing context engineering, isolation mechanisms, memory management, and the interface layer for developer experience. It also covers connectivity aspect**
+**This resource provides an in-depth look at Glicol, a conceptual framework or system. It explores how Glicol functions within agent workflows, emphasizing context engineering, isolation mechanisms, memory management, and the interface layer for developer experience. It also covers connectivity aspects (like MCP/A2A), infrastructure layers, guides, and trends related to vector databases and search c**
 
 **Key Features:**
 - Agent Orchestration
@@ -7304,11 +6330,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Infrastructure Layers
 - Vector Database Capabilities.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'vector databases', 'ai agents', 'workflow', 'infrastructure', 'connectivity'*
+
 ---
 
-### 450. [https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e](https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e)  `innovation: 8` ★☆☆
+### 391. [https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e](https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e)  `8` ★☆☆
 
-**This resource provides a deep dive into the technical foundation of Grok, covering its agent orchestration capabilities, context engineering techniques employed, memory and persistence architecture, interface design for developer experience (UX), connectivity aspects (like MCP/A2A), infrastructure l**
+**This resource provides a deep dive into the technical foundation of Grok, covering its agent orchestration capabilities, context engineering techniques employed, memory and persistence architecture, interface design for developer experience (UX), connectivity aspects (like MCP/A2A), infrastructure layers, guiding principles, vector database usage, coding tools integration, AI agent frameworks, and**
 
 **Key Features:**
 - Agent Orchestration
@@ -7321,11 +6349,13 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tools Integration
 - AI Agent Frameworks.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory architecture', 'interface design', 'connectivity', 'infrastructure', 'vector databases', 'coding tools'*
+
 ---
 
-### 451. [https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc33333](https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc3333315804693e2000c7ca70b7b)  `innovation: 8` ★☆☆
+### 392. [https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc33333...](https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc3333315804693e2000c7ca70b7b)  `8` ★☆☆
 
-**This Notion page serves as a technical resource for understanding the core components, workflows, and architectural layers of a Borg intelligence database. It outlines the structure, agent orchestration strategies, context engineering principles, memory management, interface design, connectivity pro**
+**This Notion page serves as a technical resource for understanding the core components, workflows, and architectural layers of a Borg intelligence database. It outlines the structure, agent orchestration strategies, context engineering principles, memory management, interface design, connectivity protocols, and the underlying infrastructure required to power the AI agents within the system.**
 
 **Key Features:**
 - Borg Intelligence Database Architecture
@@ -7339,7 +6369,659 @@ The substrate layer — vector databases, embedding models, ANN index libraries,
 - Coding Tools & IDE integration
 - AI Agents & Frameworks implementation.
 
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'vector databases', 'ai agents', 'infrastructure', 'devtools'*
+
+---
+
+### 393. [http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-economy.html?...](http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-economy.html?m=1)  `7` ☆☆☆ 🔵
+
+**This resource appears to be a blog post titled 'Last Gasp of Landfill Economy,' which suggests a discussion about the end-of-life phase of an economic model, perhaps related to computing infrastructure, data storage, or AI agent deployment. The security warning indicates that the site might pose risks to the device.**
+
+**Key Features:**
+- The content likely explores the transition point (the 'last gasp') in a system's lifecycle
+- focusing on the interplay between agents
+- workflow orchestration
+- and memory/persistence architecture.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'ai agents', 'infrastructure', 'vector databases', 'connectivity'*
+
+---
+
+### 394. [https://app.supermemory.ai/](https://app.supermemory.ai/)  `7` ☆☆☆ 🔵
+
+**Supermemory focuses on the long-term retention and retrieval of fragmented digital information. It implements a sophisticated Retrieval-Augmented Generation (RAG) pipeline that ingests data from diverse sources such as Twitter, Notion, and web bookmarks into a centralized vector store. By leveraging semantic search and automated chunking strategies, the system enables an LLM-based agent to access **
+
+**Key Features:**
+- Multi-source data ingestion (Notion/Twitter/Web)
+- Vector-based semantic retrieval
+- Automated content summarization
+- Cross-platform bookmarking synchronization
+- RAG-optimized storage
+- Persistent context management for LLMs
+
+*Tags: rag, vector-database, personal-ai, semantic-search, persistence-layer, data-ingestion, second-brain, context-retrieval*
+
+---
+
+### 395. [https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17-4831-b698...](https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17-4831-b698-ce3ffb8e9fae&code_challenge=UyTJqjDRgASWkMBOnxSL8hv2lq9L6Shq3hz1hwHSeuA&code_challenge_method=S256&redirect_uri=https://www.zennioptical.com/oauth2callback&response_type=code&scope=openid+offline_access+email&state=https://www.zennioptical.com/myAccount/myPrescription)  `7` ☆☆☆ 🔵
+
+**This resource details the authentication and user experience for a Zenni Optical account, including login options (Apple, Google), sign-in/creation flow, password management, and rewards integration.**
+
+**Key Features:**
+- User Authentication & Account Management (Login/Sign-up)
+- Seamless Integration with Apple and Google services
+- Rewards Program Enrollment
+- User Profile Management.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity', 'interoperability', 'mcp'*
+
+---
+
+### 396. [https://console.supermemory.ai/dashboard](https://console.supermemory.ai/dashboard)  `7` ☆☆☆ 🔵
+
+**Supermemory utilizes a Retrieval-Augmented Generation (RAG) architecture to build a persistent context layer for personal information. It focuses on the ingestion and indexing of disparate data sources—including web links, Twitter bookmarks, and uploaded documents—into a vector-indexed database. The platform leverages embeddings to facilitate semantic search and contextual retrieval, allowing user**
+
+**Key Features:**
+- Semantic indexing of web bookmarks
+- automated RAG pipeline integration
+- multi-source data connectors
+- vector-based semantic search
+- persistent knowledge storage
+- automated metadata tagging
+- conversational memory retrieval
+- dashboard for context management
+
+*Tags: rag, vector-database, personal-knowledge-management, embeddings, semantic-search, unstructured-data, knowledge-retrieval, long-term-memory*
+
+---
+
+### 397. [https://developers.google.com/machine-learning/crash-course/llm/tuning](https://developers.google.com/machine-learning/crash-course/llm/tuning)  `7` ☆☆☆ 🔵
+
+**This resource explains the three key ways to leverage Large Language Models (LLMs): **Fine-tuning**, **Distillation**, and **Prompt Engineering**. Foundation LLMs are pre-trained on general language, which is good for creative tasks but often inefficient for specific ML problems. Fine-tuning adapts the model for a task, distillation creates a smaller/more efficient version, and prompt engineering **
+
+**Key Features:**
+- Foundation LLMs (base LLMs)
+- Fine-tuning
+- Distillation
+- Prompt Engineering
+- Offline Inference.
+
+*Tags: ['llm', 'fine-tuning', 'distillation', 'prompt engineering', 'foundation llm', 'machine learning', 'agent orchestration & workflow', 'context engineering & isolation'*
+
+---
+
+### 398. [https://developers.openai.com/codex/skills/](https://developers.openai.com/codex/skills/)  `7` ☆☆☆ 🔵
+
+**OpenAI's Agent Skills system for Codex provides a standardized way to extend agent capabilities by packaging instructions, executable scripts, and reference materials into discrete, discoverable units. The technical core relies on a hierarchical lookup system—scanning from the local repository up to system-level directories—and a context-efficiency technique called 'progressive disclosure.' This a**
+
+**Key Features:**
+- Modular skill directory structure
+- progressive context disclosure
+- hierarchical skill resolution
+- implicit semantic skill matching
+- explicit command-based invocation
+- integrated skill-creator CLI
+- support for associated scripts and assets
+- open agent skills standard compliance
+
+*Tags: agentic-workflows, context-optimization, modular-ai, codex-skills, skill-discovery, tool-use, metadata-driven-invocation, prompt-engineering*
+
+---
+
+### 399. [https://docs.mindsdb.com/integrations/data-overview](https://docs.mindsdb.com/integrations/data-overview)  `7` ☆☆☆ 🔵
+
+**This resource details MindsDB's data integration capabilities, emphasizing its role as a federated data access layer. MindsDB acts as an MCP (Model Context Protocol) server, allowing external applications to query vast, distributed datasets directly from their source locations. It highlights a distinction between officially supported integrations (like Redshift, Snowflake, Salesforce) maintained b**
+
+**Key Features:**
+- Federated data access
+- Model Context Protocol (MCP) server functionality
+- Real-time data synchronization (no data storage)
+- Officially supported production integrations
+- Community integration framework
+
+*Tags: data integration, data source connector, database connectivity, federated query, handler framework, mcp, real-time data access, sql integration*
+
+---
+
+### 400. [https://drive.google.com/drive/folders/1_dd3G0_Dfcm44lqRxi0igtw1_U8gWvSA](https://drive.google.com/drive/folders/1_dd3G0_Dfcm44lqRxi0igtw1_U8gWvSA)  `7` ☆☆☆ 🔵
+
+**A collection of digital assets, likely songs or related files, organized within a Google Drive folder structure. The file names suggest a mix of musical tracks and potentially other media.**
+
+**Key Features:**
+- The resource is a Google Drive folder containing various files
+- including music/media items (e.g.
+- 'Dancing Maractus'
+- 'Albino-Fox')
+- suggesting the content is organized for easy access or workflow integration.
+
+*Tags: ['music', 'audio', 'google drive', 'songs', 'media', 'file management', 'workflow', 'agent orchestration'*
+
+---
+
+### 401. [https://easytaxrelief.com/freshstart](https://easytaxrelief.com/freshstart)  `7` ☆☆☆ 🔵
+
+**This resource is a landing page for 'Easy Tax Relief,' designed to help individuals find out if they qualify for the 'Fresh Start Initiative' and provide tax relief. It outlines the process of resolving tax issues, offering consultation, investigation, resolution, and freedom. The content emphasizes that the company acts as a dedicated advocate to save clients money.**
+
+**Key Features:**
+- IRS Debt Forgiveness Programs
+- Tax Audits
+- Wage Garnishment/Bank Levy Reduction
+- Expert Advocacy for Tax Relief.
+
+*Tags: ['tax relief', 'irs', 'taxation', 'debt forgiveness', 'financial aid', 'tax resolution', 'advocacy', 'consultation'*
+
+---
+
+### 402. [https://en.wikipedia.org/wiki/Ancient_Mesopotamian_religion](https://en.wikipedia.org/wiki/Ancient_Mesopotamian_religion)  `7` ☆☆☆ 🔵
+
+**Ancient Mesopotamian religion - Wikipedia**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+
+*Tags: ['mesopotamia', 'religion', 'ancient near east', 'gods', 'mythology', 'polytheism', 'divinity', 'cultural history']*
+
+---
+
+### 403. [https://en.wikipedia.org/wiki/Lenin_was_a_mushroom](https://en.wikipedia.org/wiki/Lenin_was_a_mushroom)  `7` ☆☆☆ 🔵
+
+**This article details the famous Soviet television hoax where Sergey Kuryokhin presented the theory that Vladimir Lenin consumed psychedelic mushrooms, transforming him into a 'mushroom' and a radio wave. The core of the argument relies on logical fallacies and appeals to authority, using visual evidence (like the similarity between an armored car cross-section and mushroom spawn) to support the cl**
+
+**Key Features:**
+- ['The core premise: Lenin was a mushroom and a radio wave.'
+- 'The mechanism of the argument: Logical fallacies and appeals to authority.'
+- 'Key evidence presented: The similarity between the armored car cross-section and mushroom spawn.'
+- "Contextual relevance: The role of the *glasnost* period in the hoax's notoriety."]
+
+*Tags: ['hoax', 'context engineering', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability (mcp/a2a)', 'infrastructure & proxy layers', 'guides & industry trends', 'vector databases & search'*
+
+---
+
+### 404. [https://en.wikipedia.org/wiki/Pygmalion_(mythology)](https://en.wikipedia.org/wiki/Pygmalion_(mythology))  `7` ☆☆☆ 🔵
+
+**Pygmalion is a legendary figure of Greek mythology, known for being a sculptor who fell in love with and carved a statue of a woman. The myth details how Pygmalion created a sculpture of an ivory alabaster woman, which eventually became Galatea under the blessing of Aphrodite.**
+
+**Key Features:**
+- The core narrative involves Pygmalion's desire to sculpt a perfect likeness of a woman
+- leading to the creation of Galatea. The text also includes parallels with other mythological figures (Daedalus
+- Hephaestus
+- Talos
+- Pandora) and artistic representations across different eras.
+
+*Tags: ['mythology', 'sculpture', 'love story', 'art history', 'classical mythology', 'artefacts', 'painting', 'agent orchestration'*
+
+---
+
+### 405. [https://etreas.michigan.gov/iit/my-account](https://etreas.michigan.gov/iit/my-account)  `7` ☆☆☆ 🔵
+
+**This resource provides access to the Michigan Department of Treasury's citizen portal, offering essential services and information. It includes a 'Treasury Home' section, FAQs, contact options, accessibility details, privacy statement, copyright info, and links to the State of Michigan.**
+
+**Key Features:**
+- Citizen Portal Access
+- Treasury Home Integration
+- FAQ/Contact Functionality
+- Accessibility Features
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity interoperability', 'infrastructure', 'vector databases'*
+
+---
+
+### 406. [https://experience.elluciancloud.com/occ366/discover](https://experience.elluciancloud.com/occ366/discover)  `7` ☆☆☆ 🔵
+
+**Experience Javascript is required Javascript is disabled on your browser. Please enable Javascript and refresh this page. Refresh Your OneDrive version is not supported Upgrade now by installing the OneDrive for Business Next Generation Sync Client to login to Okta Learn how to upgrade Cookies are required Cookies are disabled on your browser. Please enable Cookies and refresh this page. The page **
+
+**Key Features:**
+- Authentication/SSO (Sign In)
+- OneDrive Synchronization/Upgrade
+- Cookie Management
+- Javascript Enablement.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability', 'infrastructure', 'vector databases & search'*
+
+---
+
+### 407. [https://future4200.com/](https://future4200.com/)  `7` ☆☆☆ 🔵
+
+**This resource provides an overview of the Future4200 community, including essential guides (FAQ), community guidelines, and product advertisements. It highlights the core functionality of the platform, which seems to be centered around providing tools for agents, workflows, and connectivity.**
+
+**Key Features:**
+- The platform offers a structured community experience with clear steps for new users (read Community Guidelines) and a search bar. The content heavily features product advertisements related to hemp products
+- extraction/distillation equipment
+- CBD/THC isolates
+- and specialized lab/equipment needs.
+
+*Tags: ['agent orchestration', 'workflow engineering', 'context isolation', 'memory persistence', 'interface ux', 'connectivity mcp', 'infrastructure layers', 'vector databases'*
+
+---
+
+### 408. [https://future4200.com/t/a-b-extraction-and-isolation-of-psilocybin/84573](https://future4200.com/t/a-b-extraction-and-isolation-of-psilocybin/84573)  `7` ☆☆☆ 🔵
+
+**The resource details an aqueous extraction method for isolating psilocin from *Psilocybe Cubensis* mushrooms. It outlines a specific procedure involving dephosphorylation of the phosphate ester to psilocin, which simplifies identification via infrared spectroscopy and gas chromatography/mass spectrometry (GS/MS). The text also discusses the limitations of existing methods (e.g., methanol co-extrac**
+
+**Key Features:**
+- Aqueous Extraction Method for Psilocin Isolation
+- Dephosphorylation to Psilocin
+- Infrared Spectroscopy Compatibility
+- GS/MS Identification.
+
+*Tags: ['psilocybin', 'extraction', 'aqueous extraction', 'hallucinogenic mushrooms', 'infrared spectroscopy', 'gas chromatography', 'mass spectrometry', 'fungi'*
+
+---
+
+### 409. [https://fwber.me/](https://fwber.me/)  `7` ☆☆☆ 🔵
+
+**This resource describes 'fwber.me', an adult social network focused on joining a revolution within the context of adult social networking.**
+
+**Key Features:**
+- ['Adult Social Network Platform'
+- 'Revolutionary Concept for Adult Social Networking'
+- 'Agent Orchestration and Workflow Integration'
+- 'Context Engineering and Isolation capabilities'
+- 'Memory & Persistence Architecture features'
+- 'Interface and Developer UX enhancements'
+- 'Connectivity and Interoperability (MCP/A2A)'
+- 'Infrastructure and Proxy Layer optimization'
+- 'Vector Database & Search functionality'
+- 'AI Agents & Framework integration'
+- 'Search & Discovery capabilities']
+
+*Tags: ['agent-orchestration', 'context-engineering', 'memory-persistence', 'interface-ux', 'interoperability', 'vector-database', 'ai-agents', 'social-network'*
+
+---
+
+### 410. [https://gitlab.com/techanon/protv](https://gitlab.com/techanon/protv)  `7` ☆☆☆ 🔵
+
+**This resource describes a video player prefab designed specifically for the VRChat SDK3 (using Udon) and ensures compatibility with VPM (Versioned/Platform Management) standards version 3.x or later. It focuses on providing an extensible video player solution within the context of VRChat development.**
+
+**Key Features:**
+- Extensible video player prefab for VRChat SDK3 (Udon). Compliance with VPM 3.x or later.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface ux', 'connectivity', 'mcp', 'a2a'*
+
+---
+
+### 411. [https://heal.nih.gov/research/preclinical-translational/optimization-non-addicti...](https://heal.nih.gov/research/preclinical-translational/optimization-non-addictive-therapies)  `7` ☆☆☆ 🔵
+
+**The HEAL Initiative (Helping to End Addiction Long-term®) is a congressionally funded program created to accelerate scientific solutions to America’s opioid crisis. It involves multiple institutes and centers within the NIH collaborating under HEAL to advance research across many fronts to meet this urgent public health emergency.**
+
+**Key Features:**
+- The initiative focuses on improving prevention and treatment strategies for opioid misuse and addiction
+- and enhancing pain management. It is a congressionally funded program accelerated by the NIH HEAL Initiative
+- established in April 2018.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory & persistence architecture', 'interface & developer ux', 'connectivity & interoperability (mcp/a2a)', 'infrastructure & proxy layers', 'guides & industry trends'*
+
+---
+
+### 412. [https://itgwiki.dominick.cc/en/packs-and-simfiles/where-to-find-song=packs-and-s...](https://itgwiki.dominick.cc/en/packs-and-simfiles/where-to-find-song=packs-and-simfiles)  `7` ☆☆☆ 🔵
+
+**This resource provides a guide on locating and understanding where song files are located within the context of the ITG (Intelligence/Technology Group) ecosystem. It details the structure, organization, and workflow for accessing these assets.**
+
+**Key Features:**
+- A centralized guide detailing the location and context of 'song' files within the ITG system.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence', 'interface', 'connectivity', 'mcp', 'a2a'*
+
+---
+
+### 413. [https://jesus.shoes/](https://jesus.shoes/)  `7` ☆☆☆ 🔵
+
+**This resource describes a product or initiative centered around the concept of 'Jesus Shoes,' heavily leveraging the MSCHF drop mechanism. The core innovation is twofold: 1) A direct marketing/product integration via an incentive ('Enter mschf i.n.r.i') to capture user data, and 2) A narrative layer based on a classic biblical event (Jesus walking on the water) to create a memorable, perhaps spiri**
+
+**Key Features:**
+- 1. **MSCHF Integration:** High-volume repetition/scaling of the 'MSCHF' element
+- indicating a focus on rapid deployment or market saturation.
+2. **User Data Capture (Incentive):** A clear call to action ('ENTER mschf i.n.r.i') designed to capture user phone numbers for a text list.
+3. **Narrative Layering:** The inclusion of the biblical story ('Jesus Walks on the Water') provides an emotional/spiritual anchor for the product or service.
+4. **Transactional Clarity:** A clear call-to-action ('Buy Now').
+
+*Tags: ['Agent Orchestration', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Vector Databases & Search'*
+
+---
+
+### 414. [https://kdenlive.org/download](https://kdenlive.org/download)  `7` ☆☆☆ 🔵
+
+**Thanks for downloading Kdenlive. Your contribution matters to make Kdenlive better, please consider a donation! Donate Daily builds These daily builds contain the latest features and bug fixes for testing purposes. Remember that these binaries can be unstable and can corrupt existing projects. Recommended for testing purpose only !**
+
+**Key Features:**
+- Kdenlive download options across various platforms (Windows
+- Linux
+- macOS) with specific requirements noted (e.g.
+- Windows 10+).
+
+*Tags: ['kdenlive', 'video editing', 'open source', 'workflow', 'agent', 'context engineering', 'ideo', 'development tools'*
+
+---
+
+### 415. [https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRan...](https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRandnS2pIQmhDaEFSSXNBUEpSM3hkbnhRR2ZzYjNucG9LSUFja1V6Si1Obkh1VjgxLV9qbFp4ekdGemhIQUU0c0dJY0JKbXdoa2FBb1VfRUFMd193Y0I.*_gcl_au*NjU0ODM1OTMwLjE3NjA0Mjg2NzQ.)  `7` ☆☆☆ 🔵
+
+**Install Kilo Code for VS Code. To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code. If you don't have VS Code installed yet, download it here.**
+
+**Key Features:**
+- AI coding integration within various environments (VS Code
+- JetBrains CLI
+- Slack).
+
+*Tags: ['ai coding', 'vscode', 'cli', 'slack', 'agent orchestration', 'context engineering', 'memory persistence', 'developer ux'*
+
+---
+
+### 416. [https://kiwix.org/en/applications](https://kiwix.org/en/applications)  `7` ☆☆☆ 🔵
+
+**Kiwix provides tools to keep your content, allowing users to access vital information on their devices without an internet connection. It offers 'Reader' apps for offline content access, server setup options for local knowledge sharing (like Wikipedia), and curated branded apps based on popular downloads. The platform focuses on bridging the digital divide by enabling offline knowledge and offerin**
+
+**Key Features:**
+- Offline Content Access via Reader Apps
+- Local Server Setup for Knowledge Sharing
+- Branded App Solutions
+- Newsletter Subscription/Community Engagement.
+
+*Tags: ['offline', 'knowledge management', 'reader app', 'local server', 'wiki', 'agent orchestration', 'context engineering', 'vector database'*
+
+---
+
+### 417. [https://kotaku.com/nintendo-lawsuit-modding-switch-2-ryan-daly-2000623984](https://kotaku.com/nintendo-lawsuit-modding-switch-2-ryan-daly-2000623984)  `7` ☆☆☆ 🔵
+
+**Ryan Daly, who originally denied the charges, can never touch modding equipment again**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery
+- Infrastructure
+- Other
+
+*Tags: ['Nintendo', 'Lawsuit', 'Modding', 'RyanDaly', 'Switch', 'Piracy', 'Settlement', 'LegalMatters'*
+
+---
+
+### 418. [https://lemmy.world/](https://lemmy.world/)  `7` ☆☆☆ 🔵
+
+**A platform designed for universal accessibility, featuring a community spotlight and various content types (Posts, Comments, Subscribed) within the structure of a general Lemmy server. The interface suggests a focus on user engagement and potentially an experimental or open-source infrastructure layer.**
+
+**Key Features:**
+- The resource highlights a multi-faceted platform with features like 'Community Spotlight'
+- diverse content categorization ('Posts'
+- 'Comments')
+- and a clear hierarchy/sorting mechanism (Top Hour
+- Top Six Hours
+- Top Twelve Hours
+- etc.). The core functionality seems to be centered around the user experience and connectivity.
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'interoperability', 'infrastructure layers', 'vector databases', 'coding tools'*
+
+---
+
+### 419. [https://musavir.ai/](https://musavir.ai/)  `7` ☆☆☆ 🔵
+
+**Musavir offers a comprehensive suite of services centered around building and deploying custom AI models. Their expertise spans the entire AI lifecycle, from initial strategic planning and context engineering to agent orchestration, memory management, and infrastructure scaling. They emphasize robust connectivity and interoperability, providing solutions for integrating AI agents into existing sys**
+
+**Key Features:**
+- ['Custom AI model development'
+- 'Strategic AI transformation consulting'
+- 'Agent orchestration and workflow management'
+- 'Context engineering and isolation'
+- 'Memory and persistence architecture'
+- 'Connectivity and interoperability (MCP/A2A)'
+- 'Scalable AI infrastructure'
+- 'Vector database integration'
+- 'Development tools and libraries']
+
+*Tags: ['ai-models', 'ai-transformation', 'agent-orchestration', 'context-engineering', 'memory-management', 'interoperability', 'infrastructure', 'vector-databases'*
+
+---
+
+### 420. [https://musitools.xyz/musigram](https://musitools.xyz/musigram)  `7` ☆☆☆ 🔵
+
+**Based on the categories and the name 'Musigram', this tool likely focuses on the intersection of music and AI. It probably allows users to generate, manipulate, or analyze music using AI agents. The inclusion of 'Vector Databases & Search' suggests it might use vector embeddings to represent musical pieces, enabling similarity searches and recommendations. The presence of 'Coding Tools & IDEs' and**
+
+**Key Features:**
+- ['AI-powered music generation and manipulation'
+- 'Vector database for music similarity search and recommendations'
+- 'Developer-friendly API and SDK'
+- 'Agent orchestration for complex music workflows'
+- 'Potentially supports various music formats and data sources'
+- 'Integration with popular coding environments and IDEs'
+- 'Tools for analyzing and understanding musical structures'
+- 'Customizable AI agent behavior for music-related tasks']
+
+*Tags: ['music', 'ai', 'agents', 'vector database', 'similarity search', 'generation', 'manipulation', 'developer tools'*
+
+---
+
+### 421. [https://news.ycombinator.com/item?id=46301470](https://news.ycombinator.com/item?id=46301470)  `7` ☆☆☆ 🔵
+
+**RecallBricks addresses the limitations of short-term LLM context and simple vector search by providing a dedicated memory layer for long-running AI agents. It utilizes a multi-stage recall pipeline that transitions from fast heuristics to contextual retrieval via pgvector, and finally to deeper reasoning for complex memory reconstruction. The architecture allows agents to store and retrieve struct**
+
+**Key Features:**
+- Multi-stage recall pipeline
+- structured memory with metadata
+- memory decay and ranking logic
+- cross-session persistence
+- framework-agnostic SDKs
+- MCP integration
+- pgvector-based contextual retrieval
+
+*Tags: ai memory, persistent context, agentic workflows, pgvector, supabase, mcp, vector search, tiered retrieval*
+
+---
+
+### 422. [https://news.ycombinator.com/item?id=46452958](https://news.ycombinator.com/item?id=46452958)  `7` ☆☆☆ 🔵
+
+**Distill addresses the issue of semantically redundant context in RAG systems by using agglomerative clustering and MMR reranking to select a diverse and representative set of chunks. This post-retrieval, pre-inference process aims to improve the reliability and determinism of LLM outputs by providing cleaner input. The tool operates quickly, adding only ~12ms overhead.**
+
+**Key Features:**
+- Context reduction
+- Agglomerative clustering
+- MMR reranking
+- Deterministic output
+- No LLM calls
+- Go implementation
+
+*Tags: rag, context engineering, clustering, mmr, redundancy removal, information retrieval, vector database, llm*
+
+---
+
+### 423. [https://news.ycombinator.com/item?id=46625561](https://news.ycombinator.com/item?id=46625561)  `7` ☆☆☆ 🔵
+
+**The project details the creation of a local semantic search engine for a personal archive spanning 28 years (1997-2025). It addresses the problem of querying large amounts of personal data (journals, emails, notes) to identify patterns without exposing sensitive information to cloud-based vector stores. The solution involves a local FAISS index for embeddings, Qwen 2.5 (32b) running via Ollama for**
+
+**Key Features:**
+- ['Local semantic search of personal data.'
+- 'Privacy-focused design
+- avoiding cloud vector stores.'
+- 'Ingestion pipeline for various data formats (mbox
+- docx
+- json).'
+- 'Local FAISS index for embedding storage.'
+- 'Qwen 2.5 (32b) inference via Ollama.'
+- 'React-based user interface.'
+- 'Tailscale for remote access.'
+- 'PII redaction pipeline.']
+
+*Tags: ['rag', 'semantic-search', 'local-ai', 'faiss', 'ollama', 'qwen', 'pii-redaction', 'personal-data'*
+
+---
+
+### 424. [https://news.ycombinator.com/item?id=46662078](https://news.ycombinator.com/item?id=46662078)  `7` ☆☆☆ 🔵
+
+**ChunkHound aims to provide codebase intelligence locally, enabling deep insights, up-to-date documentation, and scalability for repositories of all sizes. It supports various embedding models and LLMs, offering a provider-agnostic solution for code exploration and understanding. The tool uses a customized "deep research" algorithm optimized for code exploration, allowing it to answer technical que**
+
+**Key Features:**
+- Local-first codebase intelligence
+- deep code insights
+- automatic documentation generation
+- support for various LLMs
+- enterprise monorepo scalability
+- free and open source
+- MCP server for Codex
+
+*Tags: code analysis, llm, embeddings, local-first, codebase intelligence, documentation, open source, ai*
+
+---
+
+### 425. [https://news.ycombinator.com/item?id=46721773](https://news.ycombinator.com/item?id=46721773)  `7` ☆☆☆ 🔵
+
+**The tool uses a 'glass-box' approach with knowledge base mechanics, a triple-pass 'Mentats' pipeline for deep thinking against curated sources, and 'Vodka' for deterministic memory management. It aims to provide verifiable answers and avoid 'vibes-based' responses by explicitly stating when information is missing or by refusing to answer if no relevant information is available in the vault.**
+
+**Key Features:**
+- Knowledge base attachment
+- SHA-256 provenance
+- triple-pass reasoning
+- deterministic memory
+- context control
+- vault grounding
+- refusal mode
+
+*Tags: llm, context engineering, knowledge base, deterministic, hallucination, grounding, qdrant, memory management*
+
+---
+
+### 426. [https://news.ycombinator.com/item?id=47000535](https://news.ycombinator.com/item?id=47000535)  `7` ☆☆☆ 🔵
+
+**This Hacker News thread discusses Zvec, a vector database, with a focus on its self-reported performance benchmarks compared to other solutions like Pinecone and USearch. The discussion delves into optimization techniques such as SIMD, cache optimization, prefetching, and batch distance computation. The author of Zvec participates, providing context and inviting independent verification of the ben**
+
+**Key Features:**
+- ['Lightweight and fast in-process vector database'
+- 'Optimized for high queries-per-second (QPS)'
+- 'Utilizes SIMD
+- prefetching
+- and batch distance computation for performance'
+- 'Self-reported benchmarks showing competitive performance'
+- 'Open to independent verification and discussion']
+
+*Tags: ['vector-database', 'performance', 'benchmarks', 'simd', 'cache-optimization', 'in-process', 'search', 'alibaba'*
+
+---
+
+### 427. [https://news.ycombinator.com/item?id=47534564](https://news.ycombinator.com/item?id=47534564)  `7` ☆☆☆ 🔵
+
+**Analysis of a self-editing search agent research focusing on memory management and context handling.**
+
+**Key Features:**
+- self-editing search agent
+- context compression
+- memory management
+- search history reconstruction
+
+*Tags: search engine, ai research, context management, memory systems, agentic retrieval, data handling, user experience, search optimization*
+
+---
+
+### 428. [https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-aa28-c0b84...](https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-aa28-c0b8436281b9/OpportunityDetail?opportunityId=c7d9a11c-c5ec-4091-8e83-0fd7c699f953)  `7` ☆☆☆ 🔵
+
+**This resource is a job posting on UltiPro Recruiting for a role related to the Borg intelligence database. The posting lists numerous technical categories, suggesting a broad skillset is required. The categories span from agent orchestration and context engineering to infrastructure and developer UX, indicating a complex and multifaceted system. The mention of 'Guides & Industry Trends' suggests a**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Isolation'
+- 'Memory Persistence'
+- 'User Interface Design'
+- 'Interoperability (MCP/A2A)'
+- 'Infrastructure Management'
+- 'Vector Database Integration'
+- 'AI Agent Frameworks'
+- 'Search and Discovery Capabilities']
+
+*Tags: ['agent', 'database', 'orchestration', 'interoperability', 'infrastructure', 'vectorsearch', 'aiagents', 'context'*
+
+---
+
+### 429. [https://stormrider.io/lander](https://stormrider.io/lander)  `7` ☆☆☆ 🔵
+
+**Stormrider.io appears to be a platform designed to facilitate the development, orchestration, and deployment of AI agents. Based on the listed categories, it emphasizes context engineering and isolation, robust memory and persistence architecture, seamless interface and developer UX, and strong connectivity and interoperability. It likely provides tools for managing agent workflows, integrating wi**
+
+**Key Features:**
+- ['Agent orchestration and workflow management'
+- 'Context engineering and isolation mechanisms'
+- 'Memory and persistence architecture for agents'
+- 'User-friendly interface and developer UX'
+- 'Connectivity and interoperability (MCP/A2A)'
+- 'Infrastructure and proxy layers for deployment'
+- 'Vector database integration for search and retrieval'
+- 'Tools for coding
+- debugging
+- and testing agents']
+
+*Tags: ['ai-agents', 'agent-orchestration', 'context-engineering', 'memory-management', 'interoperability', 'infrastructure', 'vector-database', 'developer-tools'*
+
+---
+
+### 430. [https://www.google.com/search?ei=fmkzacqKKuG_p84P8aii6Qk&gs_lp=EhNtb2JpbGUtZ3dzL...](https://www.google.com/search?ei=fmkzacqKKuG_p84P8aii6Qk&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIkxtY3AgcHJveHkgcm91dGVyIG1ldGEgc2VtYW50aWMgc2VhcmNoIHRvb2wgcmFnIG1hZ2cgbWV0YW1jcCBwbHVnZ2VkaW4gbWNwaHViMgQQHhgKSI45UPMtWMA2cAB4A5ABAJgBmwGgAd8FqgEDMC42uAEDyAEA-AEBmAIHoAKWBcICBBAAGEeYAwCIBgGQBgeSBwMyLjWgB5wTsgcDMC41uAeBBcIHBzAuMS40LjLIByk&hl=en-US&oq=mcp+proxy+router+meta+semantic+search+tool+rag+magg+metamcp+pluggedin+mcphub&q=mcp+proxy+router+meta+semantic+search+tool+rag+magg+metamcp+pluggedin+mcphub&sca_esv=cf2b8f1401e73d56&sclient=mobile-gws-wiz-serp&sxsrf=AE3TifMhKARVzpTd9WkJGGDf_vQI52siKA:1764977022695)  `7` ☆☆☆ 🔵
+
+**This resource likely points to a collection of tools and resources centered around the 'MCP' (Metaverse Content Protocol or similar) ecosystem. It encompasses proxy routers for managing requests, meta-semantic search tools for enhanced information retrieval, and components for building Retrieval-Augmented Generation (RAG) pipelines. The inclusion of terms like 'pluggedin' and 'mcphub' suggests a m**
+
+**Key Features:**
+- ['Proxy routing for request management'
+- 'Meta-semantic search capabilities'
+- 'RAG pipeline components'
+- 'Plugin architecture for extensibility'
+- 'Integration with AI agent frameworks'
+- 'Tools for context engineering and isolation'
+- 'Connectivity and interoperability features (MCP/A2A)'
+- 'Vector database integration for semantic search'
+- 'Developer tools and libraries for MCP development']
+
+*Tags: ['mcp', 'proxy', 'router', 'semanticsearch', 'rag', 'metasearch', 'aiagents', 'a2a'*
+
+---
+
+### 431. [https://www.pulsemcp.com/servers?q=memory](https://www.pulsemcp.com/servers?q=memory)  `7` ☆☆☆ 🔵
+
+**The source is a curated list (Top 399) from PulseMCP detailing various server implementations focused on providing memory for Large Language Models (LLMs) within the MCP (Model Communication Protocol) ecosystem. It showcases diverse approaches to AI persistence, ranging from simple local markdown storage (Basic Memory) and knowledge graph structures (Codebase Memory, Knowledge Graph Memory) to spe**
+
+**Key Features:**
+- Persistent semantic graph storage
+- Knowledge graph integration for structured memory
+- Vector embedding and semantic search capabilities
+- Hybrid search mechanisms (e.g.
+- hot cache + semantic)
+- Local-first and remote/shared memory options
+- Integration with specific databases (SQLite
+- PostgreSQL
+- KuzuDB)
+- Time-decay and recall strengthening algorithms (Ebbinghaus-based)
+- Context/session persistence for AI agents
+
+*Tags: ai memory, llm persistence, knowledge graph, semantic search, vector database, mcp, long-term memory, rag*
+
+---
+
+### 432. [https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-6...](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)  `7` ☆☆☆ 🔵
+
+**Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp Home Reviews Forums Downloads Case Mod Gallery Databases Databases… Back VGA Bios Collection GPU Database CPU Database SSD Database Review Database Upcoming Hardware Our Software Our Software… Back GPU-Z RealTemp NVCleanstall TPUCapture MemTest64 More More… Back Articles Old Stuff Computer Trivia TPU L**
+
+**Key Features:**
+- Persistent memory
+
+*Tags: memory, ai*
+
+---
+
+### 433. [https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389...](https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&dsh=S1108247234:1761448789185547&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&ifkv=ARESoU3O1BLVIeNAYl6mOGrnB-bGd86fEHyZGVxLjS5kfnRo1_vf--KeElyCEeC-ysxQs3yATx0VDQ&osid=1&passive=true&sacu=1&service=cloudconsole)  `7` ☆☆☆
+
+**This resource provides the mechanism for authenticating users to access Google Cloud Platform services, specifically through the console login experience. It covers the process of signing into the platform, including options for email/phone authentication and the use of private browsing windows for secure access. The core functionality is a gateway for user identity and session management within t**
+
+**Key Features:**
+- Authentication via Google Cloud Platform Console
+- Session Management (Email/Phone login)
+- Private Browsing Window Option
+- User Account Creation/Management.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory persistence architecture', 'interface developer ux', 'connectivity interoperability mcp a2a', 'infrastructure proxy layers', 'guides industry trends'*
+
 ---
 
 
-*Total: 451 tools · Generated 2026-05-15*
+*Total: 433 tools · Generated 2026-05-15 from Borg Intelligence Database*
