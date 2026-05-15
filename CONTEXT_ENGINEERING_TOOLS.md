@@ -1,18 +1,42 @@
-# Context Engineering & Isolation Tools
+# Context Engineering & Isolation
 
-Extracted from Borg Intelligence Database | Updated 2026-05-15
+> Extracted from Borg Intelligence Database · 2026-05-15 · 916 tools
 
-**734 GitHub repos** + **1 websites** = **735 total** | Innovation >= 8
+The perception layer — what the agent sees and knows. Tools for managing, compressing, indexing, and isolating LLM context windows. The critical bottleneck for agent capabilities.
 
-Tools for managing, compressing, indexing, and isolating LLM context windows — the critical bottleneck for agent capabilities.
+| Metric | Value |
+|--------|-------|
+| GitHub repos | 777 |
+| Websites & articles | 139 |
+| Total | **916** |
+| Min innovation | 8 |
+| Avg quality | 0.99 |
+| Innovation 10 | 30 ███████ |
+| Innovation 9 | 136 ████████████████████████████ |
+| Innovation 8 | 750 ███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ |
+
+---
+
+## Contents
+
+- [Codebase Indexing & Repository Intelligence](#codebase-indexing--repository-intelligence) — 107 tools
+- [Context Compression & Token Optimization](#context-compression--token-optimization) — 21 tools
+- [RAG & Retrieval Systems](#rag--retrieval-systems) — 127 tools
+- [Document Ingestion & Preprocessing](#document-ingestion--preprocessing) — 2 tools
+- [Context Isolation & Sandboxing](#context-isolation--sandboxing) — 37 tools
+- [Context Distillation & Summarization](#context-distillation--summarization) — 7 tools
+- [Prompt Engineering & Optimization](#prompt-engineering--optimization) — 6 tools
+- [General Context Engineering](#general-context-engineering) — 470 tools
 
 ---
 
 ## Codebase Indexing & Repository Intelligence
 
-### 1. [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context)  `innovation: 10`
+> 107 tools · avg innovation 8.3
 
-**CodeGraphContext: CGC**
+### 1. [PatrickSys/codebase-context](https://github.com/PatrickSys/codebase-context)  `innovation: 10` ★★★ 🔵
+
+**A leading codebase indexing MCP server that treats code as a symbol-level graph, allowing agents to query caller/callee hierarchies using natural language.**
 
 **Key Features:**
 - Symbol-level graph querying (callers/callees)
@@ -20,9 +44,55 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - live file watching (`cgc watch`)
 - 10x faster than traditional vector indexing.
 
+*Tags: codebase-indexing, context-engineering, graph-rag, mcp, repository; open-source; mcp; protocol; search, search*
+
 ---
 
-### 2. [Donnyb369/mcp-spine](https://github.com/Donnyb369/mcp-spine)  `innovation: 9`
+### 2. [cyclotruc/gitingest](https://github.com/cyclotruc/gitingest)  `innovation: 10` ★★★ 🔵
+
+**A foundational tool for grounding LLMs in codebase context by transforming Git repositories into structured, prompt-friendly text digests.**
+
+**Key Features:**
+- URL-to-digest conversion (replace hub with ingest)
+- smart LLM-friendly formatting
+- real-time token counting
+- browser extension support.
+
+*Tags: git, context-engineering, grounding, optimization, ingest*
+
+---
+
+### 3. [yamadashy/repomix](https://github.com/yamadashy/repomix)  `innovation: 10` ★★★ 🔵
+
+**A CLI tool that packs repositories into AI-optimized text digests using Tree-sitter compression to reduce token usage by 70%.**
+
+**Key Features:**
+- AI-optimized XML/Markdown formatting
+- Tree-sitter token compression (70%)
+- Secretlint data stripping
+- remote GitHub repo support.
+
+*Tags: context-engineering, optimization, ingest, documentation, security*
+
+---
+
+### 4. [BrokkAi/brokk](https://github.com/BrokkAi/brokk)  `innovation: 9` ★★☆ 🔵
+
+**Brokk tackles the challenge of large codebases by moving beyond simple file-blob context provision. It treats code elements like classes, methods, functions, stack traces, issues, and URLs as 'first-class fragments' that form the working memory (Workspace). It utilizes a ContextAgent for initial col**
+
+**Key Features:**
+- Fragment-level context management
+- Agentic context collection and pruning (ContextAgent/SearchAgent)
+- Persistent and branchable history
+- Dependency decompilation to source
+- Structured task execution (Lutz Mode)
+- Brokk Power Ranking (BPR) for model fitness assessment.
+
+*Tags: fragment-level-context, large-codebase-handling, context-pruning, agentic-workflow, workspace-memory, dependency-decompilation, llm-context-management, code-intelligence*
+
+---
+
+### 5. [Donnyb369/mcp-spine](https://github.com/Donnyb369/mcp-spine)  `innovation: 9` ★★☆ 🔵
 
 **MCP Spine addresses security and efficiency challenges in LLM tooling by providing a secure, context-preserving proxy between client and MCP servers.**
 
@@ -36,704 +106,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Human-in-the-loop for destructive operations
 - Audit logging and secure audit trails
 
----
-
-### 3. [ast-grep/ast-grep-mcp](https://github.com/ast-grep/ast-grep-mcp)  `innovation: 9`
-
-**An experimental MCP server enabling AI assistants to search and analyze codebases using Abstract Syntax Tree (AST) pattern matching for precise structural code analysis.**
-
-**Key Features:**
-- AST-based code search
-- Pattern matching for programming constructs
-- Visualization of AST structures
-- Rule creation and validation via MCP
-- Integration with AI assistants
+*Tags: context management, security, tooling optimization, developer workflow, ai integration, secure coding, performance tuning, multi-server orchestration*
 
 ---
 
-### 4. [crazyrabbitltc/mcp-ethers-server](https://github.com/crazyrabbitltc/mcp-ethers-server)  `innovation: 9`
+### 6. [Muvon/octocode](https://github.com/Muvon/octocode)  `innovation: 9` ★★☆ 🔵
 
-**A full implementation of Ethers.js as an AI tool for the model context protocol.**
-
-**Key Features:**
-- Ethers.js v6 integration
-- Wallet operations (eth
-- usdc)
-- Contract interaction and inspection
-- Secure transaction broadcasting
-- Gas optimization and estimation
-- Hardhat-based development environment
-- Comprehensive testing suite
-- Custom ABI support
-- Multi-chain compatibility (ethereum
-
----
-
-### 5. [datalab-to/chandra](https://github.com/datalab-to/chandra)  `innovation: 9`
-
-**A state-of-the-art OCR model that accurately interprets complex tables, forms, and handwriting while preserving layout information.**
-
-**Key Features:**
-- Handles complex tables and forms with high layout fidelity
-- Supports multilingual OCR with strong performance across 90+ languages
-- Preserves mathematical content
-- tables
-- and structured data
-- Offers both local (HuggingFace) and remote (vLLM) inference options
-- Includes a hosted API for faster and more accurate results
-- Provides detailed output formats: markdown
-- html
-- and JSON with metadata
-
----
-
-### 6. [elusznik/mcp-server-code-execution-mode](https://github.com/elusznik/mcp-server-code-execution-mode)  `innovation: 9`
-
-**This project implements a discovery-first MCP bridge that executes Python code in isolated rootless containers to drastically reduce tool definition context bloat.**
-
-**Key Features:**
-- Discovery-first architecture
-- Rootless container execution (Podman/Docker)
-- Stdio MCP server proxying
-- Runtime schema hydration
-- Fuzzy tool search
-- Capability dropping for security isolation
-- Python-centric execution environment
-
----
-
-### 7. [gleicon/mcp-osv](https://github.com/gleicon/mcp-osv)  `innovation: 9`
-
-**A MCP server integrating with OSV.dev to enable secure code reviews and vulnerability analysis.**
-
-**Key Features:**
-- MCP protocol support for AI assistant integration
-- Secure code analysis using AST-based Go code inspection
-- Secret detection via Gitleaks v8 with 100+ rules
-- Dependency vulnerability checks against OSV.dev database
-- Comprehensive security audit including pattern matching and entropy analysis
-
----
-
-### 8. [9001/copyparty](https://github.com/9001/copyparty)  `innovation: 8`
-
-**Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file.**
-
-**Key Features:**
-- Accelerated resumable uploads/downloads
-- deduplication
-- support for various protocols (WebDAV
-- SFTP
-- FTP
-- TFTP)
-- media indexing
-- zip downloads
-- file management capabilities (cut/paste
-- rename
-
----
-
-### 9. [BarRaider/streamdeck-textfiletools](https://github.com/BarRaider/streamdeck-textfiletools)  `innovation: 8`
-
-**Tools for the Elgato Stream Deck, designed to manipulate text files and provide useful live stream updates.**
-
-**Key Features:**
-- ['Text File Updater: Overwrites contents of a text file.'
-- 'Last Word Display: Shows the last word of a text file or alerts if the text matches a preset value.'
-- 'Random Line Writer: Sends a random line from a text file to the keyboard (useful for giveaways/chat messages).'
-- 'Next Line: Cycles through a text file and outputs the next line on every keypress.'
-- 'Regex Display: Parses a text file for a regex and displays the match on a key.'
-- 'Stream Deck Integration (via StreamDeck-Tools by BarRaider
-- using Easy-PI).'
-- 'Multi-Action Support.']
-
----
-
-### 10. [CursorWP/ai-project-journal](https://github.com/CursorWP/ai-project-journal)  `innovation: 8`
-
-**A simple template to help AI coding assistants maintain context across sessions.**
-
-**Key Features:**
-- ['Context Retention: The core feature that allows AI assistants to remember past decisions and context.'
-- 'Progress Tracking: Documenting what has been built.'
-- "Decision Log: Recording the 'why' behind certain technical choices."
-- 'Session Continuity: Ensuring a smooth transition between sessions.'
-- 'Team Friendly: Onboarding new developers or AIs instantly.'
-- 'Quick Start: Providing an easy way to start and end sessions by updating the journal.']
-
----
-
-### 11. [GoneTone/mcp-server-taiwan-weather](https://github.com/GoneTone/mcp-server-taiwan-weather)  `innovation: 8`
-
-**Model Context Protocol server for accessing Taiwan Central Meteorological Bureau API data.**
-
-**Key Features:**
-- Access Taiwan weather forecasts via MCP Server
-- Integrate external tools and APIs
-- Support for AI model context management
-- Secure authentication with API keys
-
----
-
-### 12. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `innovation: 8`
-
-**Static analysis tool for identifying vulnerabilities and security issues in codebases.**
-
-**Key Features:**
-- static analysis
-- vulnerability detection
-- code review integration
-- security scanning
-
----
-
-### 13. [alexandreroman/mcp-location](https://github.com/alexandreroman/mcp-location)  `innovation: 8`
-
-**A MCP server providing user location data for integration into enterprise applications.**
-
-**Key Features:**
-- MCP server integration
-- User location data retrieval
-- Context-aware application enhancements
-- Secure data handling protocols
-- Scalable infrastructure design
-
----
-
-### 14. [allthatjazzleo/mantrachain-mcp](https://github.com/allthatjazzleo/mantrachain-mcp)  `innovation: 8`
-
-**Mantrachain MCP server for interacting with Cosmos SDK blockchain, enabling secure token management and protocol operations.**
-
-**Key Features:**
-- Send and receive tokens via MCP protocol
-- Delegate/Stake tokens to validators
-- Query account balances
-- Get validator information
-- Sign and broadcast transactions
-- Manage mnemonics and network settings
-
----
-
-### 15. [ananddtyagi/copy-paste-mcp](https://github.com/ananddtyagi/copy-paste-mcp)  `innovation: 8`
-
-**A tool for extracting precise lines from text content, enabling focused data retrieval without altering original material.**
-
-**Key Features:**
-- Extract specific line ranges
-- Preserve formatting and newlines
-- Integrate with AI tools
-
----
-
-### 16. [ashish0kumar/fzfm](https://github.com/ashish0kumar/fzfm)  `innovation: 8`
-
-**Fuzzy Finder File Manager (fzfm) is a powerful tool designed to enhance the file management experience by providing a fast, keyboard-centric interface for navigating and interacting with files.**
-
-**Key Features:**
-- Seamless directory navigation using only keyboard arrows (Up/Down Arrow)
-- Blazing-fast fuzzy search powered by fzf
-- File previewing using bat (fallback to cat)
-- Directory previewing using eza (fallback to ls)
-- Customizable multimedia file opener (wslview
-- xdg-open
-- etc.)
-- and customizable text editing via nvim.
-
----
-
-### 17. [beyond-network-ai/beyond-mcp-server](https://github.com/beyond-network-ai/beyond-mcp-server)  `innovation: 8`
-
-**An extensible Model Context Protocol (MCP) server enabling secure, standardized access to social platform data for AI applications.**
-
-**Key Features:**
-- MCP compliant model context server
-- Multi-platform support (Farcaster
-- Twitter placeholder)
-- Extensible architecture for new social platforms
-- Secure handling of user profiles and wallet balances
-- Integration with Claude Desktop for LLM interaction
-
----
-
-### 18. [bingal/fastdomaincheck-mcp-server](https://github.com/bingal/fastdomaincheck-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol implementation for checking domain registration status in bulk.**
-
-**Key Features:**
-- Bulk domain registration status checking
-- Dual verification (WHOIS & DNS)
-- Input validation
-- Error handling
-- Performance optimization
-
----
-
-### 19. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `innovation: 8`
-
-**A MCP-first tectonochemical forecasting engine for the Strait of Hormuz, integrating real-time data and reproducible modeling.**
-
-**Key Features:**
-- MCP-first tectonochemical forecasting engine
-- Reproducible hydrocarbon-nitrogen-water modeling
-- Real-time data ingestion from multiple sources
-- TensorFlow LSTM with temporal attention mechanism
-- Multi-stress index monitoring (shipping risk
-- insurance
-- grid stability)
-- Optimization of process windows for feed gas and desalination processes
-- Secure code execution and artifact publishing
-- Integration with external monitoring APIs and dashboards
-
----
-
-### 20. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `innovation: 8`
-
-**A Python-based MCP server enabling standardized context interaction between AI models and development environments.**
-
-**Key Features:**
-- Standardized context interaction via MCP
-- JSON-RPC 2.0 support
-- Server-sent events (SSE) for real-time updates
-- Modular architecture for easy extension
-- Asynchronous processing with FastAPI
-- Client test implementation
-
----
-
-### 21. [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent)  `innovation: 8`
-
-**Build effective agents using Model Context Protocol and simple workflow patterns.**
-
-**Key Features:**
-- Full MCP support
-- Implementation of effective agent patterns (map-reduce
-- orchestrator
-- evaluator-optimizer
-- router)
-- Durable agents using Temporal for scaling and recovery
-- Simple and composable pattern design.
-
----
-
-### 22. [manimohans/farcaster-mcp](https://github.com/manimohans/farcaster-mcp)  `innovation: 8`
-
-**A platform for interacting with the Farcaster network to fetch casts, channels, and user data using APIs.**
-
-**Key Features:**
-- Retrieve user casts by FID
-- Get username casts
-- Fetch channel casts
-- View user profile details
-- List channels with search filtering
-- Show user following relationships
-- Display user followers
-- Analyze cast reactions
-
----
-
-### 23. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `innovation: 8`
-
-**A server that integrates The Verge's RSS feed into Claude Desktop for news fetching and search.**
-
-**Key Features:**
-- Fetch daily or weekly tech news
-- Search articles by keyword
-- Get random news selections from the past week
-
----
-
-### 24. [marcusbai/caiyun-weather-mcp](https://github.com/marcusbai/caiyun-weather-mcp)  `innovation: 8`
-
-**A cloud-based weather API service providing real-time and forecasted weather data for various applications.**
-
-**Key Features:**
-- Real-time weather data (temperature
-- humidity
-- wind speed
-- etc.)
-- Minute-level precipitation forecasts
-- Hourly and daily weather predictions
-- Air quality trend analysis
-- Detailed life index for lifestyle suggestions
-- Weather alert notifications
-
----
-
-### 25. [markqvist/nomadnet](https://github.com/markqvist/nomadnet)  `innovation: 8`
-
-**Nomad Network: Communicate Freely**
-
-**Key Features:**
-- Encrypted messaging over packet-radio
-- LoRa
-- WiFi or anything else. Zero-configuration
-- minimal-infrastructure mesh communication. Distributed and encrypted message store holds messages for offline users. Connectable nodes that can host pages and files. Node-side generated pages with PHP
-- Python
-- bash or others. Built-in text-based browser for interacting with contents on nodes. Easy to use and bandwidth efficient markup language for writing pages. Page caching in browser.
-
----
-
-### 26. [nerfels/mind-map](https://github.com/nerfels/mind-map)  `innovation: 8`
-
-**A model context protocol server for intelligent code and project analysis, leveraging AI-driven pattern recognition and memory caching.**
-
-**Key Features:**
-- Context-aware caching
-- Brain-inspired learning patterns
-- Code pattern detection
-- Document and file analysis
-- Multi-language AST parsing
-- Automated CI/CD integration
-- Memory optimization techniques
-
----
-
-### 27. [nickbaumann98/everart-forge-mcp](https://github.com/nickbaumann98/everart-forge-mcp)  `innovation: 8`
-
-**An advanced MCP server for Cline that integrates with EverArt's AI models to generate vector and raster images, supporting multiple styles and formats.**
-
-**Key Features:**
-- Vector graphics generation using Recraft-Vector model
-- Raster image generation in PNG
-- JPEG
-- WebP formats
-- Support for multiple AI models (5000
-- 6000
-- 7000
-- 8000
-- 9000)
-- Custom output paths and filenames
-
----
-
-### 28. [probelabs/probe](https://github.com/probelabs/probe)  `innovation: 8`
-
-**Probe is an AST-aware context engine that provides LLMs with complete, syntactically coherent code blocks using zero-indexing structural search and MCP integration.**
-
-**Key Features:**
-- AST-aware structural search
-- zero-indexing semantic retrieval
-- MCP server integration
-- token budget management
-- session-based context deduplication
-- boolean query language support
-- complete code block extraction
-- multi-language tree-sitter parsing
-
----
-
-### 29. [rooking-oss/zipcode-search-mcp](https://github.com/rooking-oss/zipcode-search-mcp)  `innovation: 8`
-
-**A Python-based MCP server that provides Japanese postal code to address lookup functionality using the Model Context Protocol.**
-
-**Key Features:**
-- Search Japanese addresses by 7-digit postal codes
-- Integrate with AI assistants and other MCP clients
-- Fast and lightweight implementation
-
----
-
-### 30. [rossshannon/weekly-weather-mcp](https://github.com/rossshannon/weekly-weather-mcp)  `innovation: 8`
-
-**A weather forecasting server that provides detailed forecasts and integrates with the Model Context Protocol.**
-
-**Key Features:**
-- Global weather forecasts with detailed hourly and daily data
-- Integration with MCP (Model Context Protocol) for seamless API usage
-- Support for multiple time zones and location inputs
-- Secure API key management via environment variables
-- Automated deployment and CI/CD support
-- Comprehensive documentation and community resources
-
----
-
-### 31. [sammcj/mcp-data-extractor](https://github.com/sammcj/mcp-data-extractor)  `innovation: 8`
-
-**A model context protocol server that extracts embedded data from TypeScript/JavaScript source code into structured JSON configuration files.**
-
-**Key Features:**
-- Data Extraction
-- SVG Extraction
-- Configuration Replacement
-- Custom AST Traversal
-- Integration with MCP Client
-
----
-
-### 32. [sinedied/grumpydev-mcp](https://github.com/sinedied/grumpydev-mcp)  `innovation: 8`
-
-**A tool for grumpy senior developers to review and critique code with MCP, focusing on context, style, and quality.**
-
-**Key Features:**
-- Code review with sarcastic feedback
-- Model configuration suggestions
-- Contextual guidance for AI model integration
-- Automated security checks and vulnerability detection
-
----
-
-### 33. [spences10/mcp-jinaai-reader](https://github.com/spences10/mcp-jinaai-reader)  `innovation: 8`
-
-**A tool for parsing websites using the Jina.ai Reader API to extract structured web content.**
-
-**Key Features:**
-- Advanced web content extraction
-- Fast and efficient content retrieval
-- Complete text extraction with structure preservation
-- Clean format optimized for LLMs
-
----
-
-### 34. [spences10/mcp-jinaai-search](https://github.com/spences10/mcp-jinaai-search)  `innovation: 8`
-
-**A unified platform for integrating Jina.ai Search API with LLMs to deliver clean, LLM-friendly web content.**
-
-**Key Features:**
-- Advanced web search via Jina.ai
-- Fast and efficient content retrieval
-- Clean text extraction preserving structure
-- Content optimized for large language models
-- Support for various content types
-- Localization support
-- Token budget control
-
----
-
-### 35. [spences10/mcp-svelte-docs](https://github.com/spences10/mcp-svelte-docs)  `innovation: 8`
-
-**MCP server for Svelte documentation with caching and search.**
-
-**Key Features:**
-- Svelte 5 definitions (runes)
-- TypeScript-first documentation
-- Integrated caching & fast searches
-- Event handling & component communication
-- Migration guidance from Svelte 4 to 5
-
----
-
-### 36. [t3ta/sql-mcp-server](https://github.com/t3ta/sql-mcp-server)  `innovation: 8`
-
-**A secure TypeScript implementation of a Model Context Protocol server enabling language models to query PostgreSQL databases via SSH tunnels.**
-
-**Key Features:**
-- SSH bastion tunnel support
-- PostgreSQL read-only query engine
-- STDIO-based MCP protocol transport
-- Environment variable configuration
-- Jest testing framework
-- Clear commit history and documentation
-
----
-
-### 37. [the-focus-ai/mastodon-mcp](https://github.com/the-focus-ai/mastodon-mcp)  `innovation: 8`
-
-**A tool for interacting with Mastodon using model context protocol, enabling secure and customizable toot creation.**
-
-**Key Features:**
-- Create toots with customizable visibility
-- Upload and attach media files
-- Add alt text/descriptions
-- Schedule toots for future times
-
----
-
-### 38. [titzer/wizard-engine](https://github.com/titzer/wizard-engine)  `innovation: 8`
-
-**Research WebAssembly Engine**
-
-**Key Features:**
-- Wizard supports most Wasm standard features
-- including all of Wasm 3.0. Newer features are under development and vary in their support in the different execution tiers
-- which include the V3 interpreter (v3-int)
-- the fast interpreter (fast-int) and the single-pass compiler (spc). Wizard includes support for various Wasm features like multi-value
-- reference-types
-- bulk-memory
-- SIMD
-- tail-call
-- multi-memory
-- and extended-const. It supports testcases specified in the .bin.wast format.
-
----
-
-## Context Compression & Token Optimization
-
-### 39. [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)  `innovation: 10`
-
-**Agentic Context Engine (ACE)**
-
-**Key Features:**
-- Autonomous success/failure pattern extraction
-- 49% browser automation token reduction
-- dynamic "Skillbook" system prompt evolution
-- multi-framework plug-and-play support.
-
----
-
-### 40. [Apofenic/globalmcp](https://github.com/Apofenic/globalmcp)  `innovation: 9`
-
-**A modular MCP server that compresses context and intelligently routes prompts to appropriate models for efficient long-session development.**
-
-**Key Features:**
-- Context Compression using DCT
-- Smart Routing based on complexity analysis
-- Model chaining with multiple compression techniques
-- Integration with GitHub Copilot and external tools
-- Fallback mechanisms for unavailability
-
----
-
-### 41. [Lucenor/mnesis](https://github.com/Lucenor/mnesis)  `innovation: 9`
-
-**A Python library designed to address context window degradation in long-running LLM agents by offloading memory management to a deterministic engine.**
-
-**Key Features:**
-- Lossless Context Management (LCM) architecture
-- Active Context handling with deterministic memory engine
-- Context trigger and summarization without model intervention
-- Three-level compaction for efficient token budget usage
-- Support for parallel LLMMap and AgenticMap operators
-
----
-
-### 42. [cdgaete/token-scope-mcp](https://github.com/cdgaete/token-scope-mcp)  `innovation: 9`
-
-**TokenScope provides intelligent directory structure analysis and token-aware file content exploration for LLMs like Claude, helping developers understand codebases efficiently.**
-
-**Key Features:**
-- Token-Aware Directory Exploration
-- Automatic Summarization for Large Directories
-- Respect for Token Limits to Maximize Information
-- Smart Filtering with Default Patterns and .gitignore Support
-- Accurate Directory Statistics for Large Repositories
-
----
-
-### 43. [haasonsaas/deep-code-reasoning-mcp](https://github.com/haasonsaas/deep-code-reasoning-mcp)  `innovation: 9`
-
-**A platform that integrates Claude Code with Google Gemini AI to enable advanced, context-aware code analysis and reasoning across distributed systems.**
-
-**Key Features:**
-- Deep code analysis using multi-model workflow
-- Distributed system debugging with 1M token context window
-- AI-to-AI conversational reasoning for iterative problem-solving
-- Cross-system impact analysis across services
-- Hypothesis testing and validation with evidence-based results
-
----
-
-### 44. [ogoldberg/gemini-context-mcp-server](https://github.com/ogoldberg/gemini-context-mcp-server)  `innovation: 9`
-
-**A MCP server leveraging Gemini's large context window to enhance AI capabilities.**
-
-**Key Features:**
-- Context management up to 2M tokens
-- Session-based conversational state maintenance
-- Smart context tracking and cleanup
-- Automatic context expiration
-- Semantic search and metadata retrieval
-
----
-
-### 45. [66julienmartin/mcp-server-qwen_max](https://github.com/66julienmartin/mcp-server-qwen_max)  `innovation: 8`
-
-**A server implementation for deploying and managing the Qwen Max language model via MCP protocol.**
-
-**Key Features:**
-- MCP server integration
-- Model selection (Qwen-Max
-- Qwen-Plus
-- Qwen-Turbo)
-- Token context window management
-- API authentication support
-
----
-
-### 46. [ai-1st/deepview-mcp](https://github.com/ai-1st/deepview-mcp)  `innovation: 8`
-
-**DeepView MCP enables IDEs to analyze large codebases using Gemini's context window.**
-
-**Key Features:**
-- Load entire codebase from a single text file
-- Query with Gemini's extensive context window
-- Integrate with IDEs like Cursor and Windsurf
-- Support for multiple Gemini models
-
----
-
-### 47. [portofcontext/pctx](https://github.com/portofcontext/pctx)  `innovation: 8`
-
-**pctx Context Porter**
-
-**Key Features:**
-- 58% token reduction
-- 56% cost efficiency
-- isolated Deno sandboxing
-- unified multi-server authentication.
-
----
-
-### 48. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `innovation: 8`
-
-**Lazy-MCP is a proxy server that minimizes context window bloat by implementing a hierarchical, on-demand discovery system for Model Context Protocol (MCP) tools.**
-
-**Key Features:**
-- Hierarchical tool discovery
-- Lazy-loading tool activation
-- Context window token optimization
-- Proxy-based tool execution
-- Automatic structure generation
-- Custom permission hooks
-- Claude Code integration
-- Support for stdio and SSE transports
-
----
-
-## RAG & Retrieval Systems
-
-### 49. [upstash/context7](https://github.com/upstash/context7)  `innovation: 10`
-
-**Context7: Doc RAG**
-
-**Key Features:**
-- Server-side reranking (65% token saving)
-- automated SKILL.md generation
-- llms.txt standard support
-- dual stdio/HTTP transport.
-
----
-
-### 50. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `innovation: 9.7`
-
-**A context-efficient MCP server for generating and tracking unconventional solutions using advanced note-taking.**
-
-**Key Features:**
-- Key Context-Saving Features
-- Resource-based Thought Storage
-- Metadata-First API
-- Persistent File-Based Storage
-- Server-Side Filtering
-- Context-Efficient Thought Retrieval
-
----
-
-### 51. [BrokkAi/brokk?tab=readme-ov-file](https://github.com/BrokkAi/brokk?tab=readme-ov-file)  `innovation: 9`
-
-**Brokk is an AI-native code platform focusing on managing context at the fragment level, enabling LLMs to operate effectively within massive codebases.**
-
-**Key Features:**
-- Fragment-level context management
-- Agentic context collection and pruning (ContextAgent/SearchAgent)
-- Persistent and branchable history
-- Dependency decompilation to source
-- Structured task execution (Lutz Mode)
-- Brokk Power Ranking (BPR) for model fitness assessment.
-
----
-
-### 52. [Muvon/octocode](https://github.com/Muvon/octocode)  `innovation: 9`
-
-**Octocode is a local-first semantic code indexer and graph builder that facilitates deep code understanding and intelligent assistance via a knowledge graph and MCP integration.**
+**Octocode focuses on building a high-fidelity, intelligent knowledge graph of a codebase using semantic indexing derived from various programming languages. Its core technical approach involves using specialized parsers (like tree-sitter for AST analysis) to extract detailed code structure, which is **
 
 **Key Features:**
 - Semantic Code Search
@@ -745,9 +124,30 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - LanceDB Optimization
 - Respects .gitignore for security.
 
+*Tags: semantic-search, code-indexing, knowledge-graph, rag, lancedb, tree-sitter, mcp-server, local-first*
+
 ---
 
-### 53. [alex-feel/mcp-context-server](https://github.com/alex-feel/mcp-context-server)  `innovation: 9`
+### 7. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A tool that provides code context and analysis for AI assistants, extracting directory structures and code symbols using WebAssembly Tree-sitter parsers with zero native dependencies.**
+
+**Key Features:**
+- Code context extraction for AI assistants
+- Directory structure analysis
+- Symbol identification (functions
+- variables
+- classes
+- imports
+- exports)
+- WebAssembly Tree-sitter parser integration
+- Zero native dependencies for seamless deployment
+
+*Tags: code-context-provider-mcp, ai-assistant-integration, webassembly-parsing, developer-tools, security-analysis, mcp-server, context-aware-devops, smart-deployment*
+
+---
+
+### 8. [alex-feel/mcp-context-server](https://github.com/alex-feel/mcp-context-server)  `innovation: 9` ★★☆ 🔵
 
 **A high-performance Model Context Protocol server enabling persistent multimodal context storage for LLM agents.**
 
@@ -763,101 +163,127 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Hybrid Search
 - Cross-Encoder Reranking
 
+*Tags: context-engine, ml-agents, multimodal-data, search-enhancement, persistence-layer, ai-integration, developer-tools, search-optimization*
+
 ---
 
-### 54. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `innovation: 9`
+### 9. [andrefigueira/.context](https://github.com/andrefigueira/.context)  `innovation: 9` ★★☆ 🔵
 
-**A comprehensive Model Context Protocol (MCP) server for accessing the PubChem chemical database.**
+**The .context/ folder provides a structured documentation system (the Substrate Methodology) designed to address the problem of outdated documentation and AI hallucinations. It transforms any software project into a self-documenting, AI-optimized codebase by creating a living knowledge base. This met**
 
 **Key Features:**
-- Comprehensive chemical compound search
-- Extensive molecular property analysis
-- Bioassay data retrieval
-- Structural similarity and similarity search
-- Safety and toxicity information
-- Integration with external databases (ChEMBL
-- DrugBank
-- etc.)
-- Batch processing for multiple compounds
-- Comprehensive error handling and validation
+- The core innovation is the 'Substrate Methodology' which structures documentation within `.context/` to provide AI tools with a brain dump of the project's architecture
+- patterns
+- and specific constraints. It offers a complete template for turning a software project into an AI-optimized knowledge base.
+
+*Tags: ['AI Agents & Frameworks', 'Context Engineering & Isolation', 'Memory & Persistence Architecture', 'Coding Tools & IDEs', 'Infrastructure', 'Development Tools & Libraries'], documentation*
 
 ---
 
-### 55. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `innovation: 9`
+### 10. [ast-grep/ast-grep-mcp](https://github.com/ast-grep/ast-grep-mcp)  `innovation: 9` ★★☆ 🔵
 
-**A task management application with Model Context Protocol integration, SQLite storage, and Obsidian visualization.**
+**An experimental MCP server enabling AI assistants to search and analyze codebases using Abstract Syntax Tree (AST) pattern matching for precise structural code analysis.**
 
 **Key Features:**
-- Task prioritization engine
-- Smart task decomposition
-- Tagging system for categorization
-- Local SQLite database storage
-- Obsidian bidirectional sync
-- MCP server for structured data management
+- AST-based code search
+- Pattern matching for programming constructs
+- Visualization of AST structures
+- Rule creation and validation via MCP
+- Integration with AI assistants
+
+*Tags: ast-grep, code analysis, structural search, ai assistants, developer tools, mcp server, ast-grep-mcp, security*
 
 ---
 
-### 56. [cyreslab-ai/exploitdb-mcp-server](https://github.com/cyreslab-ai/exploitdb-mcp-server)  `innovation: 9`
+### 11. [crazyrabbitltc/mcp-ethers-server](https://github.com/crazyrabbitltc/mcp-ethers-server)  `innovation: 9` ★★☆ 🔵
 
-**A platform-powered AI assistant for cybersecurity research, enabling secure and efficient exploitation data analysis.**
+**The project provides a comprehensive Ethereum server built with TypeScript and Ethers.js v6, offering over 40 tools to interact with various blockchain networks. It supports secure wallet operations, contract interactions, transaction management, and advanced security features like hardware wallet i**
 
 **Key Features:**
-- AI-driven exploit search and details retrieval
-- Real-time statistics and trend analysis
-- Advanced filtering by platform
-- type
-- CVE
-- date
-- etc.
-- Integration with Claude and other MCP-compatible assistants
-- Automated database updates and maintenance
+- Ethers.js v6 integration
+- Wallet operations (eth
+- usdc)
+- Contract interaction and inspection
+- Secure transaction broadcasting
+- Gas optimization and estimation
+- Hardhat-based development environment
+- Comprehensive testing suite
+- Custom ABI support
+- Multi-chain compatibility (ethereum
+- polygon
+- base
+
+*Tags: ethereum, ai, blockchain, developer-tools, security, hardhat, erc20, erc721*
 
 ---
 
-### 57. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `innovation: 9`
+### 12. [datalab-to/chandra](https://github.com/datalab-to/chandra)  `innovation: 9` ★★☆ 🔵
 
-**A pioneering Model Context Protocol game that leverages AI to deliver interactive trivia experiences.**
+**Chandra OCR 2 is a cutting-edge OCR solution designed to handle diverse document types including tables, mathematical content, multilingual text, and complex layouts. It supports full layout preservation, enabling accurate extraction of structured data from forms, PDFs, and scanned documents. The mo**
 
 **Key Features:**
-- Model Context Protocol (MCP) integration
-- AI-generated trivia rounds
-- Interactive gameplay with twist reveals
-- Customizable game settings
-- Cross-platform compatibility
+- Handles complex tables and forms with high layout fidelity
+- Supports multilingual OCR with strong performance across 90+ languages
+- Preserves mathematical content
+- tables
+- and structured data
+- Offers both local (HuggingFace) and remote (vLLM) inference options
+- Includes a hosted API for faster and more accurate results
+- Provides detailed output formats: markdown
+- html
+- and JSON with metadata
+
+*Tags: ocr, document-intelligence, multilingual, benchmarking, ai, security, developer-tools*
 
 ---
 
-### 58. [getzep/graphiti](https://github.com/getzep/graphiti)  `innovation: 9`
+### 13. [elusznik/mcp-server-code-execution-mode](https://github.com/elusznik/mcp-server-code-execution-mode)  `innovation: 9` ★★☆ 🔵
 
-**Graphiti enables the creation and management of temporal context graphs for AI agents, allowing them to maintain accurate, up-to-date knowledge over time.**
+**The resource describes an MCP server bridge designed to solve the massive context window consumption caused by exposing numerous tool definitions (schemas) to an LLM. It adopts a 'Discovery-First Architecture' inspired by Anthropic and Cloudflare, where the LLM is only given a small, fixed context (**
 
 **Key Features:**
-- Temporal fact management with validity windows
-- Episodes and provenance tracking
-- Custom entity and edge types via Pydantic models
-- Hybrid retrieval combining semantic
-- keyword
-- and graph-based search
-- Real-time incremental updates without full recomputation
+- Discovery-first architecture
+- Rootless container execution (Podman/Docker)
+- Stdio MCP server proxying
+- Runtime schema hydration
+- Fuzzy tool search
+- Capability dropping for security isolation
+- Python-centric execution environment
+
+*Tags: mcp, context-reduction, tool-discovery, rootless-containers, isolation, stdio-proxy, code-execution, llm-agents*
 
 ---
 
-### 59. [getzep/zep](https://github.com/getzep/zep)  `innovation: 9`
+### 14. [glassbead-tc/audius-mcp-atris](https://github.com/glassbead-tc/audius-mcp-atris)  `innovation: 9` ★★☆ 🔵
 
-**Zep is an end-to-end context engineering platform designed to assemble comprehensive, relationship-aware context for AI agents with low latency.**
+**A code-mode MCP server that enables LLMs to access Audius and Open Audio Protocol efficiently using search and execution capabilities.**
 
 **Key Features:**
-- End-to-end context assembly
-- Temporal knowledge graph (Graphiti)
-- Relationship-aware retrieval
-- Sub-200ms latency context delivery
-- SDKs for Python/TypeScript/Go
-- Integration examples with LangChain/LlamaIndex/AutoGen
-- SOC2 Type 2 / HIPAA compliance (Zep Cloud).
+- Search and execute on Audius API endpoints
+- Secure sandboxed execution with QuickJS WASM
+- Integration with The Graph for on-chain protocol data
+- No raw network calls or file system access
+
+*Tags: audius, mcp, code-mode, search, execution, security, developer, ai*
 
 ---
 
-### 60. [jonnoc/coderag](https://github.com/jonnoc/coderag)  `innovation: 9`
+### 15. [gleicon/mcp-osv](https://github.com/gleicon/mcp-osv)  `innovation: 9` ★★☆ 🔵
+
+**A MCP server integrating with OSV.dev to enable secure code reviews and vulnerability analysis.**
+
+**Key Features:**
+- MCP protocol support for AI assistant integration
+- Secure code analysis using AST-based Go code inspection
+- Secret detection via Gitleaks v8 with 100+ rules
+- Dependency vulnerability checks against OSV.dev database
+- Comprehensive security audit including pattern matching and entropy analysis
+
+*Tags: mcp, osv, security, codeanalysis, go, vulnerabilityscanning, dependencycheck, secretdetection*
+
+---
+
+### 16. [jonnoc/coderag](https://github.com/jonnoc/coderag)  `innovation: 9` ★★☆ 🔵
 
 **Advanced graph-based code analysis platform for AI-assisted software development.**
 
@@ -872,11 +298,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Pattern Detection
 - Documentation and Insights
 
+*Tags: code-rag, neo4j, graphdb, ai-assistance, software-intelligence, developer-tools, security, enterprise-dev*
+
 ---
 
-### 61. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `innovation: 9`
+### 17. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `innovation: 9` ★★☆ 🔵
 
-**MCPunk enables context-aware code exploration and intelligent search within GitHub repositories.**
+**MCPunk is a powerful tool for developers that enhances code understanding by breaking files into logical chunks (functions, classes, markdown sections) and allowing LLMs to query these specific parts. It integrates seamlessly with Claude Desktop, providing contextual hints and enabling precise code **
 
 **Key Features:**
 - File chunking (functions
@@ -887,9 +315,30 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with GitHub and CI/CD pipelines
 - Security-focused code inspection and vulnerability detection
 
+*Tags: software development, devops, security, ai, code analysis, git integration, developer productivity, enterprise solutions*
+
 ---
 
-### 62. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `innovation: 9`
+### 18. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `innovation: 9` ★★☆ 🔵
+
+**The lingo.dev GitHub project provides an open-source localization engineering platform that integrates with Lingo.dev to enable consistent and high-quality translations across web applications. It supports multiple languages, including English, Chinese, Japanese, Korean, Spanish, French, Russian, Uk**
+
+**Key Features:**
+- AI-assisted i18n setup for React apps
+- Localization engine integration (stateful APIs)
+- Automatic translation generation at build time
+- Support for multiple languages and localization engines
+- Continuous localization in CI/CD pipelines
+- Real-time progress tracking via WebSocket
+- Integration with GitHub Actions
+- GitLab CI/CD
+- and Bitbucket Pipelines
+
+*Tags: agent orchestration, context isolation, memory persistence, developer ux, connectivity, infrastructure, guides, industry trends*
+
+---
+
+### 19. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `innovation: 9` ★★☆ 🔵
 
 **A unified MCP server enabling advanced code manipulation and analysis across multiple programming languages via Language Server Protocol integration.**
 
@@ -904,57 +353,30 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - AI-optimized semantic code analysis with Claude integration
 - Comprehensive code search and symbol inspection across files and workspaces
 - Detailed diagnostics
+- error checking
+- and refactoring capabilities
+
+*Tags: mcp, lsmcp, codeanalysis, aioptimized, developertool, languageserver, projectmanagement, security*
 
 ---
 
-### 63. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)  `innovation: 9`
+### 20. [steveyegge/beads](https://github.com/steveyegge/beads)  `innovation: 9` ★★☆ 🔵
 
-**A model context protocol tool for integrating Tavily API into LLM search workflows.**
+**A graph-aware state management system for coding agents that uses dependency-aware databases to solve context window limits.**
 
 **Key Features:**
-- Advanced web search using Tavily API
-- AI-generated summaries and direct question answering
-- Context generation for RAG applications
-- Customizable search depth
-- parameters
-- and response formats
-- Support for domain filtering and source inclusion/exclusion
+- Graph-based dependency tracking
+- Semantic memory compaction
+- Stateless session support
+- Dolt-backed versioned state.
+
+*Tags: beads, graph-theory, context-engineering, persistence, steveyegge*
 
 ---
 
-### 64. [sreedeep-ss/docret-mcp-server](https://github.com/sreedeep-ss/docret-mcp-server)  `innovation: 9`
+### 21. [super-i-tech/mcp_plexus](https://github.com/super-i-tech/mcp_plexus)  `innovation: 9` ★★☆ 🔵
 
-**A Model Context Protocol server enabling AI assistants to access up-to-date documentation for Python libraries.**
-
-**Key Features:**
-- Dynamic documentation retrieval from official sources
-- Asynchronous web searches using SERPER API
-- HTML parsing with BeautifulSoup
-- Extensible configuration for new libraries
-- Integration with AI assistants like Claude and custom models
-- API endpoints for external integrations
-
----
-
-### 65. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `innovation: 9`
-
-**A model context protocol server for extracting and managing image metadata offline.**
-
-**Key Features:**
-- EXIF extraction
-- GPS coordinate retrieval
-- XMP and ICC data parsing
-- IPTC metadata access
-- JFIF and IHDR support
-- Image orientation and rotation detection
-- Thumbnail generation
-- Integration with Claude Desktop for advanced analysis
-
----
-
-### 66. [super-i-tech/mcp_plexus](https://github.com/super-i-tech/mcp_plexus)  `innovation: 9`
-
-**MCP Plexus enables secure, multi-tenant deployment of MCP applications with isolated environments and persistent user authentication.**
+**MCP Plexus is a Python framework designed to simplify the creation and management of multi-tenant MCP servers. It leverages FastMCP 2.7 for protocol handling and provides a structured environment for deploying AI backend systems with isolated tenants, secure external service integration, and persist**
 
 **Key Features:**
 - Multi-tenant architecture with isolated environments
@@ -964,11 +386,28 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Standardized decorators for defining MCP components
 - Extensible design for custom authentication providers
 
+*Tags: multi-tenancy, api-key-management, oauth2, developer-tools, ai-integration, secure-deployment, fastmc, python-devops*
+
 ---
 
-### 67. [zxfgds/mcp-code-indexer](https://github.com/zxfgds/mcp-code-indexer)  `innovation: 9`
+### 22. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `innovation: 9` ★★☆ 🔵
 
-**An AI-powered code indexing tool for intelligent code retrieval and analysis.**
+**A Borg intelligence platform integrating MCP course data with ChatGPT for academic research and workflow automation.**
+
+**Key Features:**
+- ChatGPT integration via HTTP API
+- Course scheduling and subject lookup
+- Course details and seat availability
+- Research paper and faculty matching
+- Automated setup and deployment scripts
+
+*Tags: agent orchestration, context engineering, memory persistence, developer workflow, interface design, connectivity, infrastructure, guides*
+
+---
+
+### 23. [zxfgds/mcp-code-indexer](https://github.com/zxfgds/mcp-code-indexer)  `innovation: 9` ★★☆ 🔵
+
+**The MCP Code Indexer is a model-based code indexing solution designed to enhance AI language models' understanding of code repositories. It leverages semantic indexing, vectorization, and contextual analysis to provide precise code search results, supporting cross-language queries, code structure an**
 
 **Key Features:**
 - Intelligent code retrieval
@@ -981,29 +420,83 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Dependency analysis
 - Contextual token management
 
+*Tags: code indexing, ai development, software security, developer tools, model integration, code analysis, project management, security features*
+
 ---
 
-### 68. [dasein108/mcp-cw-graph](https://github.com/dasein108/mcp-cw-graph)  `innovation: 8.5`
+### 24. [9001/copyparty](https://github.com/9001/copyparty)  `innovation: 8` ★☆☆ 🔵
 
-**MCP Server for interacting with the CW-Social smart contract on Cosmos-based blockchains, enabling creation, management, and querying of cyberlinks.**
+**Turn almost any device into a file server with resumable uploads/downloads using any web browser. The project offers a comprehensive solution for file serving and management, integrating various protocols (HTTP(s), WebDAV, SFTP, FTP, TFTP, SMB/CIFS) and offering features like media indexing, zip dow**
 
 **Key Features:**
-- Create
-- read
-- update
-- and delete cyberlinks
-- Batch operations for efficient processing
-- Rich query capabilities with filtering and pagination
-- Transaction Management with real-time monitoring
-- Semantic embedding generation via Hugging Face transformers
-- Cosine similarity calculations for semantic matching
-- Flexible ID system with formatted IDs (fids) and global IDs (gids)
+- Accelerated resumable uploads/downloads
+- deduplication
+- support for various protocols (WebDAV
+- SFTP
+- FTP
+- TFTP)
+- media indexing
+- zip downloads
+- file management capabilities (cut/paste
+- rename
+- delete)
+- and a browser interface for accessing the server.
+
+*Tags: ['file-server', 'cloud-storage', 'webdav', 'ftp', 'sftp', 'tftp', 'zeroconf', 'media-indexing'*
 
 ---
 
-### 69. [L-A-Marchetti/Vec](https://github.com/L-A-Marchetti/Vec)  `innovation: 8`
+### 25. [BarRaider/streamdeck-textfiletools](https://github.com/BarRaider/streamdeck-textfiletools)  `innovation: 8` ★☆☆ 🔵
 
-**A minimal C library offering generic, contiguous dynamic arrays with O(1) amortized push.**
+**A set of tools for manipulating text files through the Elgato Stream Deck. The resource details various actions that allow users to interact with text files directly on the Stream Deck interface, enabling dynamic content delivery during live streams. Key features include text manipulation, regex par**
+
+**Key Features:**
+- ['Text File Updater: Overwrites contents of a text file.'
+- 'Last Word Display: Shows the last word of a text file or alerts if the text matches a preset value.'
+- 'Random Line Writer: Sends a random line from a text file to the keyboard (useful for giveaways/chat messages).'
+- 'Next Line: Cycles through a text file and outputs the next line on every keypress.'
+- 'Regex Display: Parses a text file for a regex and displays the match on a key.'
+- 'Stream Deck Integration (via StreamDeck-Tools by BarRaider
+- using Easy-PI).'
+- 'Multi-Action Support.']
+
+*Tags: ['streamdeck', 'textfiletools', 'streamdeck-textfiletools', 'elgato', 'stream deck', 'keyboard automation', 'live stream updates', 'regex'*
+
+---
+
+### 26. [CursorWP/ai-project-journal](https://github.com/CursorWP/ai-project-journal)  `innovation: 8` ★☆☆ 🔵
+
+**This repository provides a markdown template, `PROJECT_JOURNAL.md`, designed to help AI coding assistants (like Claude or ChatGPT) retain the context of a project across multiple sessions. It focuses on documenting decisions, progress tracking, and session continuity for better AI-assisted developme**
+
+**Key Features:**
+- ['Context Retention: The core feature that allows AI assistants to remember past decisions and context.'
+- 'Progress Tracking: Documenting what has been built.'
+- "Decision Log: Recording the 'why' behind certain technical choices."
+- 'Session Continuity: Ensuring a smooth transition between sessions.'
+- 'Team Friendly: Onboarding new developers or AIs instantly.'
+- 'Quick Start: Providing an easy way to start and end sessions by updating the journal.']
+
+*Tags: ['Context Engineering', 'Memory & Persistence', 'AI Agents', 'Workflow', 'Developer UX', 'Coding Tools', 'LLM Memory']*
+
+---
+
+### 27. [GoneTone/mcp-server-taiwan-weather](https://github.com/GoneTone/mcp-server-taiwan-weather)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server acts as a standardized interface to connect AI applications to external data sources, enabling seamless integration with the Taiwan Central Meteorological Bureau's API. It allows developers to retrieve weather forecast data using Model Context Protocol (MCP), which standardizes how ap**
+
+**Key Features:**
+- Access Taiwan weather forecasts via MCP Server
+- Integrate external tools and APIs
+- Support for AI model context management
+- Secure authentication with API keys
+
+*Tags: weather, api-integration, ai-dev, mcp-server, data-fetching*
+
+---
+
+### 28. [L-A-Marchetti/Vec](https://github.com/L-A-Marchetti/Vec)  `innovation: 8` ★☆☆ 🔵
+
+**Vec is a generic, fast, leak-safe dynamic array for C. It stores elements contiguously, grows geometrically (x2) for amortized O(1) push, and offers a method-style API that feels natural if you like object syntax in C. The library is defensive by default: overflow guards before allocations, bounds-c**
 
 **Key Features:**
 - Contiguous storage: elements live in a single growable buffer. Growth strategy: capacity grows by ×2 when needed. Robust realloc: vec_shrink handles len == 0 by freeing and nulling the buffer (no dangling pointer from realloc(ptr
@@ -1014,3308 +507,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - reserve
 - shrink).
 
----
-
-### 70. [Symbitic/awesome-babylonjs](https://github.com/Symbitic/awesome-babylonjs)  `innovation: 8`
-
-**A curated list of awesome things related to the Babylon.js game engine.**
-
-**Key Features:**
-- The resource showcases the breadth of Babylon.js capabilities
-- covering rendering
-- physics simulation (PhysX)
-- advanced visual effects (shaders/lighting)
-- cross-platform compatibility (WebXR)
-- and diverse interactive demos. Key highlights include:
-* **Rendering & Visualization:** Demonstrating various 3D objects
-- lighting effects
-- and custom mesh creation.
-* **Physics Simulation:** Examples of collision handling
-- fluid rendering
-- and physics-based interactions.
-* **Interactive Experiences:** Demos showcasing gameplay concepts like racing games
-
----
-
-### 71. [Tanq16/local-content-share?tab=readme-ov-file](https://github.com/Tanq16/local-content-share?tab=readme-ov-file)  `innovation: 8`
-
-**Self-hosted app with browser frontend that enables sharing and storing text snippets and files.**
-
-**Key Features:**
-- Text Snippet Storage & Sharing
-- File Upload/Download Support
-- Customizable TTL/Expiration Settings
-- Built-in Notepad/Markdown Editing
-- Multi-file Drag-n-Drop Support
-- Local Network Accessibility (no internet required).
-
----
-
-### 72. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)  `innovation: 8`
-
-**A specialized implementation of Vision-based Retrieval-Augmented Generation (RAG) that uses PageIndex to process and retrieve visual document context for multimodal LLMs.**
-
-**Key Features:**
-- Vision-based document indexing
-- layout-aware chunking
-- multimodal context retrieval
-- PDF-to-image pipeline for RAG
-- spatial relationship preservation
-- VLM context injection
-- multimodal vector search
-- automated document visualization.
-
----
-
-### 73. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `innovation: 8`
-
-**A toolset for crawling documentation sites, generating Markdown, and enabling searchable indexing via MCP protocol.**
-
-**Key Features:**
-- Web crawler (crawler_cli) with configurable depth and URL patterns
-- Markdown document generator with HTML cleaning options
-- MCP server for semantic search and vector embedding generation
-- Integration with Cursor and other MCP clients via stdio transport
-- Cache-based performance optimization to speed up subsequent runs
-
----
-
-### 74. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `innovation: 8`
-
-**A dynamic MCP server enabling AI to create and execute custom tools via a meta-function architecture.**
-
-**Key Features:**
-- Dynamic tool creation
-- Multiple runtime environments (JavaScript
-- Python
-- Shell)
-- Sandboxed execution
-- Persistent storage of tools
-- Human approval workflow
-
----
-
-### 75. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `innovation: 8`
-
-**A secure Windows Command Line MCP Server enabling safe AI model interaction with Windows CLI.**
-
-**Key Features:**
-- Secure bridge between AI models and Windows CLI
-- Safe command execution with predefined allowlists
-- Project creation for React
-- Node.js
-- Python
-- System information retrieval (info
-- network
-- processes)
-- Process management and service interaction
-- Integration with development tools and IDEs
-
----
-
-### 76. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `innovation: 8`
-
-**A Model Context Protocol server providing accurate Islamic prayer times for Malaysia via real-time API integration.**
-
-**Key Features:**
-- Location-based prayer time retrieval
-- Coordinate-based prayer time lookup
-- Zone code access (JAKIM)
-- Integration with Claude Desktop
-- API-driven schedule generation
-
----
-
-### 77. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `innovation: 8`
-
-**A macOS application that manages Model Context Protocol (MCP) servers for Claude Desktop, enabling AI-driven interaction with construction documents.**
-
-**Key Features:**
-- MCP server management
-- AI-powered document analysis
-- Visual and vector-based search
-- Secure local processing
-- Integration with Claude Desktop
-
----
-
-### 78. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `innovation: 8`
-
-**A MCP server enabling natural language queries for Brazilian treasury bond data.**
-
-**Key Features:**
-- Natural language query support
-- Smart caching mechanism
-- API integration with Tesouro Direto
-- Market data retrieval
-- Bond details and search functionality
-
----
-
-### 79. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `innovation: 8`
-
-**A context protocol server enabling integration with Mochow and supporting advanced AI model interactions.**
-
-**Key Features:**
-- MCP Server for accessing Baidu Cloud Vector Database
-- Supports multiple AI models via Context Protocol
-- Integration with Claude Desktop and Cursor
-- Secure API key management
-- Database operations including list
-- describe
-- create
-- delete
-- etc.
-
----
-
-### 80. [bankless/onchain-mcp](https://github.com/bankless/onchain-mcp)  `innovation: 8`
-
-**Borg provides a secure, isolated environment for interacting with blockchain data via the Bankless API.**
-
-**Key Features:**
-- Secure API integration with Bankless
-- Support for contract operations (read
-- write
-- events)
-- Proxy contract management
-- Event topic generation
-- Transaction history retrieval
-- AI model integration via MCP
-
----
-
-### 81. [bemusic/bemuse](https://github.com/bemusic/bemuse)  `innovation: 8`
-
-**Web-based online rhythm action game.**
-
-**Key Features:**
-- The game is powered by HTML5 technologies
-- React
-- Redux
-- and Pixi.js. Key features include playing songs in BMS format
-- an online ranking system
-- keyboard mode (7-keys)
-- custom song loading via folder drag-and-drop
-- party modes for friends
-- multiple difficulties
-- adjustable speed settings
-
----
-
-### 82. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `innovation: 8`
-
-**Borg intelligence database server enabling seamless access to IGDB API for AI assistants.**
-
-**Key Features:**
-- IGDB API access via Model Context Protocol
-- Game metadata retrieval (titles
-- descriptions
-- ratings)
-- Trending and popular game discovery
-- Custom query support with flexible search syntax
-- Integration with AI assistants for intelligent queries
-
----
-
-### 83. [https://github.com/campfirein](https://github.com/campfirein)  `innovation: 8`
-
-**This GitHub profile is focused on developing and leveraging tools related to AI coding agents, particularly emphasizing memory layers and context management.**
-
-**Key Features:**
-- Open-source memory layer for coding agents
-- Benchmark suite for context retrieval evaluation
-- Compatibility with multiple coding agents and IDEs
-- Model Context Protocol (MCP) implementation
-- Autonomous program improvement capabilities.
-
----
-
-### 84. [clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF)  `innovation: 8`
-
-**Open Source Virtual (Network) Printer for Windows that allows you to create PDFs, OCR text, and print images, with advanced features usually available only in enterprise solutions.**
-
-**Key Features:**
-- Print to PDF
-- PDF/A-1b
-- PDF/A-2b
-- PDF/A-3b
-- PDF/X
-- PDF/Image
-- OCR
-- SVG Export
-- Drag and Drop Support
-- Merge Files
-
----
-
-### 85. [crazyrabbitltc/mcp-morpho-server](https://github.com/crazyrabbitltc/mcp-morpho-server)  `innovation: 8`
-
-**A morpho server for the model context protocol enabling interaction with Morpho's GraphQL API.**
-
-**Key Features:**
-- morpho api integration
-- market data retrieval
-- vault management
-- historical apy data
-- schema validation
-
----
-
-### 86. [cskwork/keyword-rag-mcp](https://github.com/cskwork/keyword-rag-mcp)  `innovation: 8`
-
-**BM25 기반 문서 검색을 위한 MCP 서버로, 토스 결제 연동 MCP 프로젝트를 활용하여 마크다운 문서를 검색하고 지식 검색을 제공합니다.**
-
-**Key Features:**
-- BM25 알고리즘 기반 문서 검색
-- 토스 결제 연동 지원
-- Claude Desktop 연동
-- 자동 설정 및 구성 파일 생성
-- 문서 및 MDX 파일 관리
-- 명확한 검색 및 컨텍스트 기반 결과 제공
-
----
-
-### 87. [dazeb/markdown-downloader](https://github.com/dazeb/markdown-downloader)  `innovation: 8`
-
-**A MCP server that converts webpages into markdown instantly, enabling seamless integration with AI development environments.**
-
-**Key Features:**
-- Webpage to markdown conversion
-- Configurable download directories
-- Automatic filename sanitization and date-stamped filenames
-- Persistent configuration storage
-- Integration with AI development tools like Jina.ai
-
----
-
-### 88. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `innovation: 8`
-
-**A model context protocol server enabling Claude to interact with Solana blockchain data.**
-
-**Key Features:**
-- Basic blockchain operations
-- Wallet balance checks
-- Block height retrieval
-- Transaction and account information
-- NFT and digital asset details
-- Program account management
-
----
-
-### 89. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `innovation: 8`
-
-**Model Context Protocol implementation for retrieving codebases using RepoMix.**
-
-**Key Features:**
-- Codebase retrieval in multiple formats
-- Remote repository support
-- Customizable analysis options
-- Integration with AI assistants
-- File saving and preservation
-
----
-
-### 90. [devhub/devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp)  `innovation: 8`
-
-**Integration of Claude Desktop with DevHub CMS via Model Context Protocol for LLM-based content management.**
-
-**Key Features:**
-- Model Context Protocol integration
-- LLM-powered content management
-- Business and location data retrieval
-- Hours of operation management
-- Nearest location lookup
-
----
-
-### 91. [digitarald/chatarald](https://github.com/digitarald/chatarald)  `innovation: 8`
-
-**A test-driven, library-first ChatGPT-style web app in TypeScript. Built as a pnpm monorepo with a reusable LLM client library, provider-agnostic adapters, and a minimal React UI.**
-
-**Key Features:**
-- Provider-agnostic LLM client (OpenRouter via OpenAI SDK)
-- Token counting (estimate + actual usage)
-- Local conversation storage (idb-keyval)
-- TDD workflow using Vitest and MSW for HTTP mocking
-- A minimal React UI layer.
-
----
-
-### 92. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `innovation: 8`
-
-**A model context protocol server for interacting with Quran.com API to search verses, translations, and tafsirs.**
-
-**Key Features:**
-- Quran verse search
-- Translation integration
-- Tafsir information retrieval
-- API v4.0 integration
-- Docker-based production deployment
-
----
-
-### 93. [dmontgomery40/mcp-local-server](https://github.com/dmontgomery40/mcp-local-server)  `innovation: 8`
-
-**A local server for integrating BirdNET-Pi with MCP, enabling secure and isolated context management for AI-driven applications.**
-
-**Key Features:**
-- MCP Server Integration
-- BirdNET-Pi Local Detection
-- Data Retrieval & Statistics
-- Audio Recording Access
-- Activity Pattern Reporting
-- Secure Context Isolation
-- Customizable Configuration
-- Docker-based Deployment
-
----
-
-### 94. [excoriate/mcp-terragrunt-docs](https://github.com/excoriate/mcp-terragrunt-docs)  `innovation: 8`
-
-**A Deno/TypeScript MCP server that provides contextual information and documentation for Terragrunt, enhancing AI assistant accuracy.**
-
-**Key Features:**
-- MCP Server Provisioning
-- Dependency Management
-- AI Integration for Documentation
-- Issue Tracking & Monitoring
-- Security & Code Quality Tools
-
----
-
-### 95. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `innovation: 8`
-
-**A model context protocol server that enables semantic code search from local Git repositories, enhancing development workflows with contextual insights.**
-
-**Key Features:**
-- Local git repository processing
-- Semantic code chunk embedding generation
-- Context-aware search using Ollama
-- Integration with Claude Desktop for AI-assisted code review
-
----
-
-### 96. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `innovation: 8`
-
-**A monorepo-based system for managing and processing Pokémon data via Model Context Protocol (MCP) server and SQLite database.**
-
-**Key Features:**
-- MCP server for standardized Pokemon data access
-- Data ingestion service using PokeAPI
-- SQLite database for persistent storage
-- Comprehensive search and filtering capabilities
-- Integration with Claude Desktop for GUI testing
-
----
-
-### 97. [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)  `innovation: 8`
-
-**An MCP server implementation that enables AI assistants to retrieve and process documentation via vector search, enhancing contextual responses.**
-
-**Key Features:**
-- Vector-based documentation search
-- Semantic search capabilities
-- Automated documentation processing
-- Real-time context augmentation for LLMs
-
----
-
-### 98. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling access to Azure Resource Graph queries across subscriptions.**
-
-**Key Features:**
-- Azure Resource Graph query support
-- Resource ID
-- name
-- type
-- and location retrieval
-- Custom Resource Graph queries
-- Integration with Azure CLI and Azure DevOps
-- Support for secure authentication via DefaultAzureCredential
-
----
-
-### 99. [henkdz/selfhosted-supabase-mcp](https://github.com/henkdz/selfhosted-supabase-mcp)  `innovation: 8`
-
-**A self-hosted Supabase MCP server enabling secure, isolated database interactions for developers.**
-
-**Key Features:**
-- Database schema introspection and management
-- Migration tracking and application of changes
-- Authentication and user management
-- Integration with Supabase Storage
-- Type definition generation
-- Security auditing and vulnerability detection
-
----
-
-### 100. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `innovation: 8`
-
-**mcp-gopls enables AI assistants to leverage Go's LSP for advanced navigation, diagnostics, testing, and code analysis.**
-
-**Key Features:**
-- Go-to-definition
-- References
-- Hover
-- Completion
-- Code actions
-- Coverage analysis
-- Go mod tidy
-- Go vulncheck
-- Workspace and file context
-- Resource navigation (overview
-
----
-
-### 101. [icraft2170/youtube-data-mcp-server](https://github.com/icraft2170/youtube-data-mcp-server)  `innovation: 8`
-
-**A cloud-based YouTube Data API server enabling AI models to interact with YouTube content securely and efficiently.**
-
-**Key Features:**
-- YouTube video information retrieval
-- Video search by keywords
-- Transcript/caption management
-- Channel statistics analysis
-- Trend and comparison analytics
-- Popular content discovery
-- Automated data processing and insights
-
----
-
-### 102. [insthync/awesome-unity3d](https://github.com/insthync/awesome-unity3d)  `innovation: 8`
-
-**A categorized collection of awesome opensource unity3d repos · GitHub**
-
-**Key Features:**
-- The repository showcases a wide range of essential Unity resources
-- covering areas like 2D/3D bones
-- AI/Animation solutions (like IK/Ragdolls)
-- physics simulation
-- rendering effects
-- and crucial tooling for game development workflows.
-
----
-
-### 103. [jaldekoa/mcp-fredapi](https://github.com/jaldekoa/mcp-fredapi)  `innovation: 8`
-
-**Integration of FRED API with Model Context Protocol for economic data retrieval.**
-
-**Key Features:**
-- FRED API integration
-- Model Context Protocol support
-- Economic data access
-
----
-
-### 104. [janwilmake/uithub-mcp](https://github.com/janwilmake/uithub-mcp)  `innovation: 8`
-
-**A MCP server for interacting with GitHub to analyze and retrieve code from repositories.**
-
-**Key Features:**
-- code retrieval
-- smart filtering
-- integration with Claude Desktop
-- security features
-
----
-
-### 105. [jbdamask/mcp-nih-reporter](https://github.com/jbdamask/mcp-nih-reporter)  `innovation: 8`
-
-**A Model Context Protocol server enabling conversational interaction with NIH RePORTER API for research data retrieval.**
-
-**Key Features:**
-- Search NIH-funded projects by fiscal year
-- principal investigator
-- organization
-- funding details
-- and COVID-19 response status
-- Search publications linked to NIH projects
-- Combined search for both projects and publications
-- Detailed project and publication information including abstracts
-- Configurable result limits and filters
-- Support for Python 3.12+ with UV package manager
-
----
-
-### 106. [jean-technologies/mcp-writer-substack](https://github.com/jean-technologies/mcp-writer-substack)  `innovation: 8`
-
-**A tool that bridges Substack and Medium writing to Claude, enabling semantic search and personalized assistance with published content.**
-
-**Key Features:**
-- Retrieves and caches blog posts from Substack and Medium
-- Uses embeddings for semantic search across writings
-- Generates individual essay resources for Claude
-- Allows query-based retrieval of relevant essays
-- Supports selective content refresh and caching
-
----
-
-### 107. [jeong-sik/kakao-api-mcp-server](https://github.com/jeong-sik/kakao-api-mcp-server)  `innovation: 8`
-
-**This project enables AI models to leverage Kakao Map and Daum APIs for location-based services, integrating geospatial data retrieval, route planning, and web search functionalities.**
-
-**Key Features:**
-- Kakao Map API integration for location search
-- Daum API for web document and webpage searches
-- Geospatial data handling (coordinates to addresses
-- route finding)
-- Traffic and transportation information retrieval
-- Image and blog content extraction from web sources
-
----
-
-### 108. [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp)  `innovation: 8`
-
-**A MCP Server for Korean stock analysis that integrates official APIs from DART and KRX to provide AI-powered insights on stock data.**
-
-**Key Features:**
-- Disclosure search by company and date
-- Parsing of large XML disclosure documents (e.g.
-- annual reports)
-- AI-driven financial statement analysis using XBRL
-- Real-time stock data retrieval (KRX
-- KOSPI
-- KONEX)
-- Integration with Claude Desktop for advanced analysis
-
----
-
-### 109. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `innovation: 8`
-
-**A sociological research tool for analyzing QAnon posts using the Model Context Protocol.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Post retrieval and analysis capabilities
-- Data filtering and querying tools
-- Timeline generation and visualization
-- Word cloud and frequency analysis
-- Customizable search parameters
-
----
-
-### 110. [jlfwong/food-data-central-mcp-server](https://github.com/jlfwong/food-data-central-mcp-server)  `innovation: 8`
-
-**A server-based platform for integrating and managing access to the USDA FoodData Central API, enabling food data retrieval and analysis.**
-
-**Key Features:**
-- Search for foods in USDA FoodData Central database
-- Access food nutrient information
-- Support multiple data types (Foundation
-- SR Legacy
-- Survey
-- Branded)
-- Paginated results with customizable page size and sorting
-- Integration with Claude Desktop for AI-powered food search
-
----
-
-### 111. [joesecurity/joesandboxmcp](https://github.com/joesecurity/joesandboxmcp)  `innovation: 8`
-
-**A cloud-based MCP server for analyzing and extracting threat intelligence from sandboxed executions.**
-
-**Key Features:**
-- IOC extraction
-- Signature detection
-- Process tree visualization
-- Unpacked binary analysis
-- PCAP download
-- Behavioral detections
-- Memory dump retrieval
-
----
-
-### 112. [jon-vii/canvas-student-mcp](https://github.com/jon-vii/canvas-student-mcp)  `innovation: 8`
-
-**Integration of Canvas Student MCP with LLM clients via the MCP standard to enable intelligent interactions within a LMS.**
-
-**Key Features:**
-- Canvas Student MCP integration for LLM interaction
-- PDF content preview and access
-- PDF text extraction support
-- Course assignment management
-- Quiz information retrieval
-- To-do list and assignment tracking
-
----
-
-### 113. [jonathanfischer97/juliadoc-mcp](https://github.com/jonathanfischer97/juliadoc-mcp)  `innovation: 8`
-
-**A MCP server designed to efficiently serve Julia documentation and source code, enabling seamless access for developers.**
-
-**Key Features:**
-- Contextual documentation retrieval
-- Source code access
-- Integration with Julia projects
-- Error handling
-- Development environment support
-
----
-
-### 114. [jtucker/mcp-untappd-server](https://github.com/jtucker/mcp-untappd-server)  `innovation: 8`
-
-**A Node.js server that interacts with the Untappd API to retrieve and display beer information.**
-
-**Key Features:**
-- untappd model context protocol server
-- beer information retrieval
-- API integration
-- search functionality
-
----
-
-### 115. [jumasheff/mcp-ragdoc-fork](https://github.com/jumasheff/mcp-ragdoc-fork)  `innovation: 8`
-
-**A tool for retrieving and processing documentation to enhance AI responses with relevant context.**
-
-**Key Features:**
-- Vector-based documentation search
-- Semantic search capabilities
-- Automated documentation processing
-- Real-time context augmentation
-
----
-
-### 116. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `innovation: 8`
-
-**A Borg-based RAG server for local document retrieval and AI-driven document querying.**
-
-**Key Features:**
-- Local document storage via Git repositories or plain text files
-- RAG-based AI querying with context from local documents
-- Integration with Google Gemini API for enhanced search capabilities
-- Automatic indexing and retrieval using llama-index.ts
-- Support for adding custom document names and sparse checkout
-- Development and deployment tools including Codespaces and CI/CD integration
-
----
-
-### 117. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `innovation: 8`
-
-**A lightweight MCP server enabling seamless integration with Readwise API for language models.**
-
-**Key Features:**
-- MCP Server Integration
-- Readwise API Access
-- Language Model Interaction
-- Highlight Retrieval
-- Custom Commands via CLI
-
----
-
-### 118. [kkjdaniel/bgg-mcp](https://github.com/kkjdaniel/bgg-mcp)  `innovation: 8`
-
-**Borg MCP enables secure, isolated access to BoardGameGeek data via the Model Context Protocol, supporting advanced filtering and retrieval of board game information.**
-
-**Key Features:**
-- Secure API integration with BoardGameGeek
-- Real-time board game data retrieval
-- User collection and profile management
-- Filtering and searching capabilities
-- Integration with AI tools for contextual insights
-
----
-
-### 119. [koki-develop/esa-mcp-server.git](https://github.com/koki-develop/esa-mcp-server.git)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server for esa.io, enabling secure and isolated model context management.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Secure post and comment management
-- Tag and post retrieval capabilities
-- Read-only mode for non-modifying operations
-- Support for nested inclusion of comments and tags
-
----
-
-### 120. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `innovation: 8`
-
-**A Python-based server implementing the Model Context Protocol (MCP) for Zotero, enabling AI assistants to access and interact with Zotero libraries.**
-
-**Key Features:**
-- Zotero search items via text queries
-- Metadata retrieval for specific Zotero items
-- Full-text content retrieval for PDFs
-- Integration with MCP clients and Inspector
-- Local API access (requires Zotero Beta Build)
-- Web API integration (requires Zotero Library ID)
-
----
-
-### 121. [kwp-lab/mcp-fetch](https://github.com/kwp-lab/mcp-fetch)  `innovation: 8`
-
-**A server-based solution for securely fetching web content with custom HTTP proxies, enabling secure and isolated data retrieval.**
-
-**Key Features:**
-- Web content retrieval with custom HTTP proxy support
-- Secure handling of images and URLs
-- Integration with Claude Desktop for seamless workflow
-- Customizable proxy configuration via environment variables
-
----
-
-### 122. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `innovation: 8`
-
-**A simple vector store that indexes file content for semantic search.**
-
-**Key Features:**
-- Semantic search via vector embeddings
-- Real-time file content indexing
-- Configurable chunk size and overlap
-- Background processing of file changes
-- Support for multiple file types
-
----
-
-### 123. [microsoft/clarity-mcp-server](https://github.com/microsoft/clarity-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling secure, isolated access to Microsoft Clarity analytics and session data.**
-
-**Key Features:**
-- Session recording retrieval
-- Real-time analytics access
-- Natural language query support
-- Integration with Claude for Desktop
-- Custom data filtering and export
-
----
-
-### 124. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)  `innovation: 8`
-
-**A server implementing the Model Context Protocol (MCP) for secure, dynamic filesystem operations with advanced file management and access control.**
-
-**Key Features:**
-- MCP-based directory access control
-- Dynamic root-based access via Roots protocol
-- Secure file read/write operations
-- File metadata retrieval
-- Directory listing with size information
-- Dry-run editing capabilities
-- Multi-file processing and pattern matching
-
----
-
-### 125. [morphik-org/morphik-mcp](https://github.com/morphik-org/morphik-mcp)  `innovation: 8`
-
-**Morphik MCP server enabling secure, isolated context management for AI assistants interacting with Morphik databases.**
-
-**Key Features:**
-- Document ingestion (text and files)
-- Document retrieval with LLM-powered completions
-- Document querying and management
-- File system navigation and file ingestion
-- Secure file operations via --allowed-dir parameter
-
----
-
-### 126. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `innovation: 8`
-
-**A model context protocol server for YouTube videos enabling metadata extraction, caption handling, and markdown conversion.**
-
-**Key Features:**
-- Video metadata retrieval
-- Automatic caption extraction
-- Markdown template conversion
-- Search within captions
-- OAuth2 authentication support
-
----
-
-### 127. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI assistants to access Pokémon data via standardized APIs.**
-
-**Key Features:**
-- MCP server integration
-- PokeDex API queries
-- Real-time communication via SSE
-- Natural language query support
-
----
-
-### 128. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `innovation: 8`
-
-**Nile MCP Server enables secure, standardized interaction between LLM applications and the Nile database platform.**
-
-**Key Features:**
-- Database Management
-- Credential Management
-- Region Management
-- SQL Query Support
-- MCP Protocol Implementation
-- Type Safety with TypeScript
-- Comprehensive Error Handling
-- Test Coverage and Validation
-
----
-
-### 129. [olaxbt/solana-vault-mcp](https://github.com/olaxbt/solana-vault-mcp)  `innovation: 8`
-
-**A Python-based Solana wallet management system enabling secure, isolated operations via Model Context Protocol.**
-
-**Key Features:**
-- Secure wallet operations
-- SOL balance checking
-- Transaction history retrieval
-- Model Context Protocol compliance
-- Flask web server support
-
----
-
-### 130. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `innovation: 8`
-
-**A secure, containerized MCP server enabling safe execution of code in multiple languages via isolated environments.**
-
-**Key Features:**
-- Secure code execution sandbox for Python
-- Go
-- and JavaScript
-- Supports Docker-based container isolation
-- Configurable security defaults and resource limits
-- Integration with MCP protocol for LLM interaction
-- Automated deployment and management of code snippets
-
----
-
-### 131. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `innovation: 8`
-
-**A Java-based Model Context Protocol (MCP) server for JDBC, enabling secure and efficient database connectivity.**
-
-**Key Features:**
-- Supports MCP protocol for seamless integration with Virtuoso DBMS
-- Secure JDBC connection management with environment variables
-- Comprehensive schema and table information retrieval
-- Advanced querying capabilities including filtering
-- searching
-- and SPARQL support
-- AI-assisted code generation and review through integrated tools
-
----
-
-### 132. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `innovation: 8`
-
-**A MCP server bridging Hacker News API with AI tools for seamless integration.**
-
-**Key Features:**
-- Integration with Claude and Cursor for Model Context Protocol
-- Fetching live Hacker News data (posts
-- comments
-- users)
-- Support for advanced queries and custom parameters
-- Real-time updates and latest content retrieval
-
----
-
-### 133. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling secure integration with Pangea APIs for intelligence data retrieval.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Secure storage of Pangea API tokens in Vault
-- Audit logging with Secure Audit Log configuration
-- Token management and extension across multiple Pangea services
-- Support for AI Guard
-- Domain Intel
-- Embargo
-- IP Intel
-- Redact
-- URL Intel
-
----
-
-### 134. [pinkpixel-dev/npm-helper-mcp](https://github.com/pinkpixel-dev/npm-helper-mcp)  `innovation: 8`
-
-**A Model Context Protocol server that enhances npm package management for AI applications, enabling seamless integration with LLMs and automated dependency updates.**
-
-**Key Features:**
-- Automated dependency checking and upgrading using Model Context Protocol
-- Safe upgrade tools to prevent version conflicts
-- Integration with LLMs like Claude for intelligent npm operations
-- Comprehensive search and metadata retrieval for packages
-- Support for secure
-- isolated development environments
-
----
-
-### 135. [pipedreamhq/pipedream](https://github.com/pipedreamhq/pipedream)  `innovation: 8`
-
-**A reference implementation for managing MCP server connections, user authentication, and API interactions.**
-
-**Key Features:**
-- MCP server reference implementation
-- User authentication and authorization
-- Dynamic app discovery
-- API request management
-- Secure credential storage
-- Integration with external tools
-
----
-
-### 136. [pree-dew/mcp-bookmark](https://github.com/pree-dew/mcp-bookmark)  `innovation: 8`
-
-**A MCP server enabling AI-powered bookmark saving, searching, and categorization using OpenAI RAG.**
-
-**Key Features:**
-- Save bookmarks with metadata
-- Smart semantic search across bookmarks
-- Integration with OpenAI for intelligent categorization
-
----
-
-### 137. [prixyy/rag_based_mcp](https://github.com/prixyy/rag_based_mcp)  `innovation: 8`
-
-**A model context protocol server that ingests documents and provides intelligent, context-aware answers.**
-
-**Key Features:**
-- Ingest new documents
-- Answer questions based on documents
-- Context-aware responses
-- Integration with GroundX API
-
----
-
-### 138. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `innovation: 8`
-
-**A tool for analyzing stock tickers using the Model Context Protocol to extract and process financial data.**
-
-**Key Features:**
-- stock-data analysis
-- intraday and daily data retrieval
-- price movement alerts
-- data resource management
-- code review and security features
-
----
-
-### 139. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `innovation: 8`
-
-**Connect and analyze Strava data using LLMs via a custom MCP server.**
-
-**Key Features:**
-- Connect Strava account via Claude Desktop
-- Real-time activity data retrieval (distance
-- time
-- heart rate)
-- Workout analysis with power
-- speed
-- and zone tracking
-- Route exploration and GPX/TCX exports
-- Profile management and club listings
-- Integration with AI for contextual insights
-
----
-
-### 140. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `innovation: 8`
-
-**A Model Context Protocol server that wraps the official Notion SDK, enabling AI models to interact with Notion workspaces.**
-
-**Key Features:**
-- Integration with Notion via MCP protocol
-- Search
-- query
-- and manage Notion pages and databases
-- Create
-- retrieve
-- and update content blocks (paragraphs
-- lists
-- etc.)
-- Manage users and user information
-
----
-
-### 141. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `innovation: 8`
-
-**A comprehensive Model Context Protocol (MCP) server for network incident response, enabling AI-driven security analysis.**
-
-**Key Features:**
-- ASN (Autonomous System Number) Lookup
-- DNS Record Lookup
-- WHOIS Record Retrieval
-- IP Geolocation
-- Network Port Scanning
-- Threat Intelligence Integration
-- Malware Hash Lookups
-- URL Reputation Checking
-- Email Security Analysis
-- Passive DNS History
-
----
-
-### 142. [seekrays/seekchat](https://github.com/seekrays/seekchat)  `innovation: 8`
-
-**A Sleek and Powerful AI Desktop Assistant that supports MCP integration.**
-
-**Key Features:**
-- Multiple AI Providers support
-- MCP Tool Integration for enhanced AI capabilities
-- Local Storage for privacy-focused chat history
-- Multi-language Support (English and Chinese)
-- Modern UI
-- and an Electron-based desktop application.
-
----
-
-### 143. [servo/servo](https://github.com/servo/servo)  `innovation: 8`
-
-**Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.**
-
-**Key Features:**
-- A lightweight
-- high-performance alternative for embedding web technologies in applications
-- implemented in Rust.
-
----
-
-### 144. [seym0n/tiktok-mcp](https://github.com/seym0n/tiktok-mcp)  `innovation: 8`
-
-**Integrates TikTok access into AI platforms for enhanced context analysis.**
-
-**Key Features:**
-- TikTok video analysis
-- Subtitle extraction
-- Engagement metrics retrieval
-- Virality factor identification
-
----
-
-### 145. [shak2000/stockmcp](https://github.com/shak2000/stockmcp)  `innovation: 8`
-
-**Integrates real-time financial data with LLaMA 3.2 3B to enhance AI responses with up-to-date market information.**
-
-**Key Features:**
-- Integrate Yahoo Finance API
-- Real-time stock price retrieval
-- Company information fetching
-- Historical data access
-- Market news integration
-- Natural language processing for context enhancement
-
----
-
-### 146. [shivay-couchbase/couchbase-mcp](https://github.com/shivay-couchbase/couchbase-mcp)  `innovation: 8`
-
-**Implementation of a Model Context Protocol server for semantic search in Star Wars planet data using Couchbase vector search.**
-
-**Key Features:**
-- Model Context Protocol integration
-- Vector search for similarity lookup
-- Couchbase server setup with vector indexing
-- TypeScript implementation with type safety
-
----
-
-### 147. [shlomico-tr/etoroportfoliomcp](https://github.com/shlomico-tr/etoroportfoliomcp)  `innovation: 8`
-
-**A platform providing MCP tools for interacting with eToro's public API, enabling portfolio fetching and instrument details retrieval.**
-
-**Key Features:**
-- fetch_etoro_portfolio
-- fetch_instrument_details
-- search_instruments
-- get_tools
-
----
-
-### 148. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `innovation: 8`
-
-**A server enabling Playwright web page content retrieval using the Model Context Protocol.**
-
-**Key Features:**
-- Page navigation
-- Full page content retrieval
-- Visible content extraction
-- Interactive elements detection
-- Mouse operation simulation
-- Echo tool for testing
-- Drag and drop support
-- Interactive element positioning
-- Error handling and timeout management
-
----
-
-### 149. [sinco-lab/mcp-youtube-transcript](https://github.com/sinco-lab/mcp-youtube-transcript)  `innovation: 8`
-
-**A tool for extracting and processing YouTube video transcripts, supporting multiple languages with advanced text normalization and error handling.**
-
-**Key Features:**
-- YouTube transcript extraction from videos
-- Multi-language support
-- Paragraph segmentation and normalization
-- Robust error handling and timestamp detection
-- Integration with Claude Desktop for analysis
-
----
-
-### 150. [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)  `innovation: 8`
-
-**A Pinecone Model Context Protocol server enabling reading and writing operations from Pinecone, supporting rudimentary RAG.**
-
-**Key Features:**
-- Read from Pinecone index
-- Write to Pinecone index
-- Semantic search integration
-- RAG capabilities
-
----
-
-### 151. [slavfox/Cozette](https://github.com/slavfox/Cozette)  `innovation: 8`
-
-**A bitmap programming font optimized for coziness 💜**
-
-**Key Features:**
-- The core innovation lies in its bitmap nature
-- offering a specific set of glyphs optimized for terminal/CLI environments. It provides both bitmap formats (.otb) and vector formats (.ttf)
-- addressing the common problem of scaling and rendering issues with traditional bitmap fonts. The font is designed to be pixel-perfect
-- which is crucial for clarity in terminal interfaces.
-
----
-
-### 152. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `innovation: 8`
-
-**A stateless HTTP server implementing the Model Context Protocol for social layer platform integrations.**
-
-**Key Features:**
-- Event retrieval
-- Event listing and search
-- Group information access
-- Profile details
-- Venue information
-- Session-based HTTP transport
-
----
-
-### 153. [spathodea-network/opencti-mcp](https://github.com/spathodea-network/opencti-mcp)  `innovation: 8`
-
-**OpenCTI MCP Server enables integration with OpenCTI platform for threat intelligence management.**
-
-**Key Features:**
-- Fetch and search threat intelligence data
-- Search for malware information
-- Query indicators of compromise
-- User and group management
-- List attack patterns
-- Campaign information retrieval
-- System connectors listing
-- File operations and file details
-- Reference data access
-- Marking definitions
-
----
-
-### 154. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `innovation: 8`
-
-**A Borg-based search tool for efficiently querying transcript segments using vector similarity in a Turso database.**
-
-**Key Features:**
-- Vector similarity search
-- Relevance scoring with cosine similarity
-- Configurable search parameters
-- Efficient database connection pooling
-
----
-
-### 155. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `innovation: 8`
-
-**A Slack MCP server enabling secure, programmatic access to Slack workspaces for AI assistants like Claude.**
-
-**Key Features:**
-- Message operations (read/permalinks)
-- Thread and channel management
-- Metadata retrieval
-- User and group information access
-- Search capabilities
-- Integration with Claude AI assistant
-
----
-
-### 156. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `innovation: 8`
-
-**A server implementation enabling AI applications to securely interact with Beeminder's API using the Model Context Protocol.**
-
-**Key Features:**
-- MCP server implementation
-- Secure access to Beeminder API
-- Goal and datapoint management
-- User information retrieval
-- Support for multiple Beeminder goal types
-
----
-
-### 157. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `innovation: 8`
-
-**MCP server for UniProt protein data access enabling AI assistants to fetch protein information.**
-
-**Key Features:**
-- Batch retrieval of multiple proteins
-- Caching with 24-hour TTL
-- Error handling and logging
-- API integration using httpx
-- Rate limiting and retries
-
----
-
-### 158. [tejpalvirk/developer](https://github.com/tejpalvirk/developer)  `innovation: 8`
-
-**A developer management system that maintains persistent context across coding sessions.**
-
-**Key Features:**
-- Persistent Development Context
-- Session Management
-- Dependency Tracking
-- Project Status Insights
-- Component Context Retrieval
-- Decision History
-- Milestone Progress Tracking
-- Related Entity Discovery
-
----
-
-### 159. [thesophiaxu/contextd](https://github.com/thesophiaxu/contextd)  `innovation: 8`
-
-**An efficient macOS app that continuously captures screen activity, summarizes it with an LLM, and makes summaries available for integration with other local tools.**
-
-**Key Features:**
-- Screen recording every 2 seconds
-- OCR on changed regions
-- Local SQLite database storage
-- Interactive API for summarization
-- Integration with external LLM services via OpenRouter API
-
----
-
-### 160. [v4lheru/trello-mcp-server](https://github.com/v4lheru/trello-mcp-server)  `innovation: 8`
-
-**A secure, enterprise-grade Trello API integration server enabling secure credential management and workflow automation.**
-
-**Key Features:**
-- Secure credential storage using OS credential manager
-- Comprehensive Trello API integration
-- Full TypeScript support with type safety
-- Robust error handling and migration tools
-- Secure development environment setup
-
----
-
-### 161. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `innovation: 8`
-
-**A TypeScript-based Model Context Protocol (MCP) server that enables structured parsing and retrieval of RSS/Atom feeds, with enhanced support for RSSHub feeds.**
-
-**Key Features:**
-- Universal feed parsing for RSS/Atom
-- Specialized support for RSSHub feeds
-- Multi-instance polling for reliable data fetching
-- Customizable item count and priority instance selection
-- Content cleaning and structured JSON output
-
----
-
-### 162. [victoriametrics-community/mcp-victorialogs](https://github.com/victoriametrics-community/mcp-victorialogs)  `innovation: 8`
-
-**Implementation of Model Context Protocol (MCP) server for VictoriaLogs to enable advanced observability and automation.**
-
-**Key Features:**
-- Access to all read-only VictoriaLogs APIs
-- Comprehensive log querying and exploration
-- Metrics UI with setup instructions
-- Integration with external tools and documentation
-- Support for Streamable HTTP mode
-- Embedded documentation and search capabilities
-
----
-
-### 163. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `innovation: 8`
-
-**A model context protocol server enabling integration with multiple storage services for Apache OpenDAL.**
-
-**Key Features:**
-- Model Context Protocol Server
-- Integration with multiple storage services
-- Environment variable-based configuration
-- Support for S3
-- Azure Blob Storage
-- Google Cloud Storage
-
----
-
-### 164. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `innovation: 8`
-
-**A lightweight JVM monitoring and diagnostic server built on native JDK tools, enabling AI agents to analyze Java applications without third-party dependencies.**
-
-**Key Features:**
-- Java process listing
-- Thread information retrieval
-- Memory usage monitoring
-- Class structure analysis
-- Method call path tracing
-- Class decompilation and inspection
-- Method invocation monitoring
-- Logger level management
-- System resource dashboard
-
----
-
-### 165. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `innovation: 8`
-
-**Provides a documentation context provider for LLMs via MCP, enabling seamless access to local markdown technical documentation.**
-
-**Key Features:**
-- Integration with MCP for LLM context access
-- Markdown file support
-- Local documentation retrieval
-- Automatic code generation and querying
-
----
-
-## Context Isolation & Sandboxing
-
-### 166. [jpmelos/agentcontainer](https://github.com/jpmelos/agentcontainer)  `innovation: 10`
-
-**AgentContainer (jpmelos)**
-
-**Key Features:**
-- Standardized agent environment declaration
-- Rust-native performance
-- reproducible dependency isolation
-- Docker-like standard for agents.
-
----
-
-### 167. [chrishayuk/mcp-code-sandbox](https://github.com/chrishayuk/mcp-code-sandbox)  `innovation: 9`
-
-**A secure, isolated sandbox environment for executing Python code safely.**
-
-**Key Features:**
-- Isolated sandbox environments
-- Secure file operations
-- Extensible architecture
-- Code execution with abstraction
-- Integration with MCP protocol
-- Support for custom interpreters
-
----
-
-### 168. [glassbead-tc/audius-mcp-atris](https://github.com/glassbead-tc/audius-mcp-atris)  `innovation: 9`
-
-**A code-mode MCP server that enables LLMs to access Audius and Open Audio Protocol efficiently using search and execution capabilities.**
-
-**Key Features:**
-- Search and execute on Audius API endpoints
-- Secure sandboxed execution with QuickJS WASM
-- Integration with The Graph for on-chain protocol data
-- No raw network calls or file system access
-
----
-
-### 169. [mKeRix/toolscript](https://github.com/mKeRix/toolscript)  `innovation: 9`
-
-**Toolscript is a tool execution layer that minimizes context bloat by dynamically generating and exposing only necessary tool types to an LLM via a semantic search interface.**
-
-**Key Features:**
-- Automatic TypeScript type generation from MCP tool schemas
-- Semantic tool search interface
-- Sandboxed Deno execution environment
-- Selective tool exposure via include/exclude configurations
-- Seamless Claude Code plugin integration
-- Configuration file merging for server definitions.
-
----
-
-### 170. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `innovation: 8`
-
-**A Node.js sandbox MCP server that executes arbitrary JavaScript in ephemeral Docker containers, enabling secure and isolated development environments.**
-
-**Key Features:**
-- Disposable Docker container execution
-- On-the-fly npm dependency installation
-- Arbitrary shell command execution within containers
-- File capture and saving capabilities
-- Integration with VS Code for quick testing
-- Detached mode for long-running processes
-
----
-
-### 171. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server supporting remote MCP connections with Cloudflare OAuth integration.**
-
-**Key Features:**
-- MCP server implementation
-- Cloudflare OAuth integration
-- Remote MCP connection support
-- Secure authentication mechanisms
-- Context isolation features
-
----
-
-### 172. [d-kimuson/esa-mcp-server](https://github.com/d-kimuson/esa-mcp-server)  `innovation: 8`
-
-**Model Context Protocol server implementation for secure and isolated context management in enterprise applications.**
-
-**Key Features:**
-- Model Context Protocol server
-- Article search functionality
-- Context isolation
-- Secure API endpoints
-- Modular architecture
-
----
-
-### 173. [danilop/mcp2lambda](https://github.com/danilop/mcp2lambda)  `innovation: 8`
-
-**MCP2Lambda enables AI models to securely interact with AWS Lambda functions as tools without code changes, enhancing isolation and control over external service access.**
-
-**Key Features:**
-- Run AWS Lambda functions as LLM tools
-- Secure invocation via MCP protocol
-- Access private AWS resources safely
-- Integrate with other AWS services through Lambda
-
----
-
-### 174. [engineer-man/piston](https://github.com/engineer-man/piston)  `innovation: 8`
-
-**Piston is a containerized, high-performance code execution engine designed to securely run untrusted code across over 100 programming languages via a standardized API.**
-
-**Key Features:**
-- Multi-language runtime management
-- secure sandboxing via cgroups v2
-- resource usage limiting (CPU/Memory/Time)
-- RESTful execution API
-- CLI-based package management
-- multi-file execution support
-- stdin/stdout/stderr piping
-- pre-built containerized language packages
-
----
-
-### 175. [garc33/js-sandbox-mcp-server](https://github.com/garc33/js-sandbox-mcp-server)  `innovation: 8`
-
-**A secure JavaScript execution environment for sandboxed code runs.**
-
-**Key Features:**
-- secure js-sandbox execution
-- isolated environment
-- execution time and memory limits
-- debugging tools
-- code sandboxing
-
----
-
-### 176. [harjjotsinghh/mcp-server-postgres-multi-schema](https://github.com/harjjotsinghh/mcp-server-postgres-multi-schema)  `innovation: 8`
-
-**A model context protocol server enabling read-only access to PostgreSQL databases with enhanced multi-schema support.**
-
-**Key Features:**
-- Multi-schema support
-- Read-only database access
-- Schema isolation
-- Cross-schema discovery
-- Metadata exposure
-- Schema context management
-
----
-
-### 177. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `innovation: 8`
-
-**A secure MCP server for document format conversion within a specified working directory.**
-
-**Key Features:**
-- Secure MCP integration
-- Format conversion support (Markdown
-- DOCX
-- HTML
-- PDF
-- TXT)
-- Intelligent file format detection
-- Sandboxed execution within a working directory
-- CLI and environment variable configuration
-- Support for large files with limits and special handling
-
----
-
-### 178. [jlucaso1/mcp-javascript-sandbox](https://github.com/jlucaso1/mcp-javascript-sandbox)  `innovation: 8`
-
-**A server tool for securely executing arbitrary JavaScript code within a sandboxed environment using QuickJS and Node.js WASI.**
-
-**Key Features:**
-- Secure JavaScript execution in WASM sandbox
-- Standard I/O capture (stdout/stderr)
-- Error reporting and handling
-- MCP integration via stdio
-- Type safety with TypeScript
-
----
-
-### 179. [johnnyoshika/mcp-server-sqlite-npx](https://github.com/johnnyoshika/mcp-server-sqlite-npx)  `innovation: 8`
-
-**A Node.js implementation of the Model Context Protocol SQLite server for secure, isolated database operations.**
-
-**Key Features:**
-- SQLite Server Integration
-- Node.js Runtime Support
-- Claude Desktop Compatibility
-- Context Isolation
-- Secure Development Practices
-
----
-
-### 180. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `innovation: 8`
-
-**GhidraMCP enables context engineering and isolation by integrating Ghidra's reverse engineering tools with MCP clients, allowing secure and automated analysis of complex applications.**
-
-**Key Features:**
-- Ghidra plugin integration
-- MCP server support
-- automated code analysis
-- secure context isolation
-- memory persistence handling
-
----
-
-### 181. [layr-labs/eigenlayer-mcp-server](https://github.com/layr-labs/eigenlayer-mcp-server)  `innovation: 8`
-
-**A server implementation for the Model Context Protocol (MCP) to enable secure, isolated communication between AI models and external services.**
-
-**Key Features:**
-- Model context protocol integration
-- Secure communication channels
-- Context isolation
-- API management
-- Developer tools
-
----
-
-### 182. [lloydzhou/bitable-mcp](https://github.com/lloydzhou/bitable-mcp)  `innovation: 8`
-
-**A platform enabling secure and isolated interaction with Bitable tables via the Model Context Protocol.**
-
-**Key Features:**
-- Secure access to Bitable tables
-- Model Context Protocol integration
-- Predefined interaction tools
-- Isolation for sensitive operations
-
----
-
-### 183. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)  `innovation: 8`
-
-**A secure Python runtime that wraps LLM-generated code execution via MCP, limiting operations to prevent malicious code execution.**
-
-**Key Features:**
-- Secure execution of Python code
-- Restricted imports and collections
-- No file I/O operations
-- Sandboxed environment for LLM agents
-
----
-
-### 184. [mohit-novo/mcp-lithic](https://github.com/mohit-novo/mcp-lithic)  `innovation: 8`
-
-**A TypeScript implementation of a Model Context Protocol server for Lithic API, providing read-only access to banking and card services.**
-
-**Key Features:**
-- TypeScript implementation
-- Docker support
-- Read-only access to Lithic API
-- Automated builds and deployments
-- Enhanced error handling
-- Context isolation
-
----
-
-### 185. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `innovation: 8`
-
-**A Node.js sandbox server implementing the Model Context Protocol for secure JavaScript execution in isolated environments.**
-
-**Key Features:**
-- Dynamic JavaScript execution in isolated Docker containers
-- On-the-fly npm package installation
-- Interactive assistance for AI agents and LLMs
-- Compliance with Model Control Protocol (MCP)
-
----
-
-### 186. [nahmanmate/code-research-mcp-server](https://github.com/nahmanmate/code-research-mcp-server)  `innovation: 8`
-
-**A platform designed to enhance context management and isolation for developers using AI tools.**
-
-**Key Features:**
-- Code search across multiple platforms
-- Integration with Stack Overflow
-- MDN Web Docs
-- GitHub
-- npm
-- Caching for performance
-- Error handling and debugging tools
-
----
-
-### 187. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `innovation: 8`
-
-**A production-grade agent hosting platform providing isolated Firecracker microVMs with persistent workspaces and secure credential proxying.**
-
-**Key Features:**
-- Firecracker microVM isolation
-- Persistent workspace filesystem
-- Network-level credential proxying
-- Sub-second cold starts
-- Framework-agnostic deployment
-- Real-time token streaming
-- CLI-based session management
-- Automated environment provisioning
-
----
-
-### 188. [rgbkrk/rcon-mcp](https://github.com/rgbkrk/rcon-mcp)  `innovation: 8`
-
-**A Minecraft server management tool enabling AI interaction via RCON protocol.**
-
-**Key Features:**
-- AI interaction via RCON
-- Server management in Docker container
-- Context isolation for secure operations
-
----
-
-### 189. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)  `innovation: 8`
-
-**A secure sandbox for executing code via the Model Context Protocol (MCP) using Docker containers.**
-
-**Key Features:**
-- Secure Docker container execution
-- Multi-language support (currently Python)
-- Automatic setup for container creation and cleanup
-- Integration with Model Context Protocol
-- Resource limitations to prevent abuse
-
----
-
-### 190. [tywenk/mcp-sol](https://github.com/tywenk/mcp-sol)  `innovation: 8`
-
-**Model Context Protocol for Solana Client enabling secure, isolated communication between microservices.**
-
-**Key Features:**
-- Model Context Protocol
-- Secure communication channels
-- Context isolation
-- Data flow management
-
----
-
-## Context Distillation & Summarization
-
-### 191. [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning)  `innovation: 9`
-
-**OpenCode DCP (Context Pruner)**
-
-**Key Features:**
-- Redundant tool-call deduplication
-- automated stale error removal
-- active agent-driven context discarding
-- session summarization.
-
----
-
-### 192. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `innovation: 9`
-
-**A tool that provides code context and analysis for AI assistants, extracting directory structures and code symbols using WebAssembly Tree-sitter parsers with zero native dependencies.**
-
-**Key Features:**
-- Code context extraction for AI assistants
-- Directory structure analysis
-- Symbol identification (functions
-- variables
-- classes
-- imports
-- exports)
-- WebAssembly Tree-sitter parser integration
-- Zero native dependencies for seamless deployment
-
----
-
-### 193. [fenxer/steam-review-mcp](https://github.com/fenxer/steam-review-mcp)  `innovation: 8`
-
-**A tool for retrieving and analyzing Steam game reviews using the Model Context Protocol.**
-
-**Key Features:**
-- Get game reviews
-- Analyze game reviews
-- Summarize pros and cons
-- Install via Smithery
-- Run service locally
-
----
-
-### 194. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `innovation: 8`
-
-**The kagimcp server enables secure, context-aware search across multiple tools and platforms using the Model Context Protocol (MCP).**
-
-**Key Features:**
-- Contextual search across multiple tools
-- Integration with AI frameworks (e.g.
-- OpenAI Codex)
-- Custom summarization engine selection
-- Secure API key management
-- Developer workflow automation
-
----
-
-### 195. [kazuph/mcp-youtube](https://github.com/kazuph/mcp-youtube)  `innovation: 8`
-
-**A model-context protocol server for YouTube in Japanese, enabling integration with external AI services.**
-
-**Key Features:**
-- Model Context Protocol integration
-- YouTube subtitle extraction
-- AI-powered summarization
-- Secure code deployment
-
----
-
-### 196. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)  `innovation: 8`
-
-**A WebAssembly-based source map parser that maps JavaScript error stack traces back to source code, aiding developers in quickly identifying and resolving issues.**
-
-**Key Features:**
-- Source map parsing for JavaScript error stack traces
-- Context extraction around error locations
-- Batch processing of multiple stack traces
-- Customizable context offset lines
-- Integration with MCP server for enhanced functionality
-
----
-
-### 197. [mcp-get/community-servers](https://github.com/mcp-get/community-servers)  `innovation: 8`
-
-**A server that enables AI models to understand file structures and relationships for context-aware development.**
-
-**Key Features:**
-- Directory listing
-- Context extraction
-- Multi-query search
-- Local caching
-- Cross-platform support
-
----
-
-### 198. [mondweep/youtube-music-mcp-server](https://github.com/mondweep/youtube-music-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI interaction with YouTube Music for playback control.**
-
-**Key Features:**
-- MCP server integration
-- AI-powered song search
-- Playback control via YouTube Music
-- Error handling and logging
-- Cross-platform support (macOS)
-- Note creation and summarization
-
----
-
-### 199. [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server)  `innovation: 8`
-
-**A server enabling secure, isolated access to Hugging Face APIs for LLM interactions.**
-
-**Key Features:**
-- Model access via custom URIs
-- Prompt-based interactions (compare-models
-- summarize-paper)
-- Dataset and space exploration
-- Integration with Hugging Face APIs
-- Tool categories for model
-- dataset
-- space
-- paper
-- and collection management
-
----
-
-## Prompt Engineering & Optimization
-
-### 200. [abhichandra21/Promptheus.git](https://github.com/abhichandra21/Promptheus.git)  `innovation: 9`
-
-**Automated prompt refinement and optimization for enterprise AI interactions.**
-
-**Key Features:**
-- Adaptive questioning to identify required information
-- Multi-provider support (Google
-- OpenAI
-- Anthropic
-- etc.)
-- Interactive refinement through iterative Q&A
-- Session history tracking and reuse for context preservation
-- Integration with MCP server for advanced prompt optimization
-
----
-
-### 201. [lumile/promptopia-mcp](https://github.com/lumile/promptopia-mcp)  `innovation: 9`
-
-**A server for managing and reusing prompt templates with variable substitution and multi-message conversation structures.**
-
-**Key Features:**
-- Centralized prompt management
-- Advanced multi-message support
-- Intelligent variable substitution
-- Seamless MCP integration
-- Future-proof architecture
-
----
-
-### 202. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `innovation: 9`
-
-**An AI-powered MCP server transforming AP Media API content into intelligent, conversational interfaces.**
-
-**Key Features:**
-- Natural language query processing
-- Intelligent prompt templates
-- Content recommendation engine
-- Trend analysis and pattern detection
-- Bulk data handling and caching
-- Secure configuration and error recovery
-
----
-
-### 203. [jjikky/dynamo-readonly-mcp](https://github.com/jjikky/dynamo-readonly-mcp)  `innovation: 8`
-
-**A server enabling LLMs to query AWS DynamoDB using natural language.**
-
-**Key Features:**
-- Table Management Tools
-- Data Query Tools
-- Prompt Templates
-- Resource Access
-- Dynamic Prompt Generation
-
----
-
-### 204. [raw391/coin_daemon_mcp](https://github.com/raw391/coin_daemon_mcp)  `innovation: 8`
-
-**A beta MCP server enabling AI assistants to securely interact with cryptocurrency daemons for transaction management, monitoring, and data analysis.**
-
-**Key Features:**
-- Transaction Management
-- Balance Checking
-- Wallet Operations
-- Daemon Status Monitoring
-- Transaction History
-- Prompt Templates
-- Security Best Practices
-
----
-
-## General Context Engineering
-
-### 205. [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)  `innovation: 10`
-
-**VoltAgent: 5k Skills Repo**
-
-**Key Features:**
-- 5
-- 000+ audited `SKILL.md` runbooks
-- Red-Team "Abaddon" mode skills
-- YAML frontmatter dependency tracking
-- active community malware filtering.
-
----
-
-### 206. [clkao/agentlore](https://github.com/clkao/agentlore)  `innovation: 10`
-
-**AgentLore: Persona Context**
-
-**Key Features:**
-- Dynamic "world-building" context injection
-- role/boundary consistency enforcement
-- behavioral state versioning (rollback capability)
-- swarm-wide lore synchronization.
-
----
-
-### 207. [context7/context7](https://github.com/context7/context7)  `innovation: 10`
-
-**Context7: Real-time Doc Aggregator**
-
-**Key Features:**
-- Real-time documentation scraping
-- automated version-aware indexing
-- token-efficient context injection
-- support for latest framework updates.
-
----
-
-### 208. [cyclotruc/gitingest](https://github.com/cyclotruc/gitingest)  `innovation: 10`
-
-**Gitingest: Repo Grounding**
-
-**Key Features:**
-- URL-to-digest conversion (replace hub with ingest)
-- smart LLM-friendly formatting
-- real-time token counting
-- browser extension support.
-
----
-
-### 209. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)  `innovation: 10`
-
-**agentfile: Agent Dockerfile**
-
-**Key Features:**
-- Standardized agent environment declaration
-- MCP server dependency mapping
-- cross-platform workflow portability
-- deterministic system prompt injection.
-
----
-
-### 210. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `innovation: 10`
-
-**Dependency-Graph-MCP**
-
-**Key Features:**
-- Multi-language support (TS/JS/C#/Python)
-- DOT format visual rendering
-- architectural debt scoring
-- circular dependency deadlock detection.
-
----
-
-### 211. [ryanreh99/skills-sync](https://github.com/ryanreh99/skills-sync)  `innovation: 10`
-
-**Skills-Sync: Cross-Agent**
-
-**Key Features:**
-- AI-powered skill normalization
-- cross-platform synchronization
-- adaptive complexity scaling
-- standardized SKILL.md management.
-
----
-
-### 212. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `innovation: 10`
-
-**Claude Brain: State Sync**
-
-**Key Features:**
-- Automated Pre/Post session state sync
-- LLM-powered semantic memory merging
-- auto-evolution of repeated patterns into durable rules.
-
----
-
-### 213. [yamadashy/repomix](https://github.com/yamadashy/repomix)  `innovation: 10`
-
-**Repomix: Repo Packaging**
-
-**Key Features:**
-- AI-optimized XML/Markdown formatting
-- Tree-sitter token compression (70%)
-- Secretlint data stripping
-- remote GitHub repo support.
-
----
-
-### 214. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `innovation: 9.7`
-
-**A next-generation framework documentation platform for Claude Code, offering intelligent caching, multi-source integration, and context-aware assistance to accelerate development.**
-
-**Key Features:**
-- Documentation-first search with BM25 indexing
-- Context-aware assistance and type inference
-- Integration of multiple external data sources
-- Real-time code examples and API documentation
-- Error pattern recognition and diagnostics
-- Version comparison and migration guides
-- Secure
-- production-grade environment setup
-
----
-
-### 215. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `innovation: 9.7`
-
-**A blockchain MCP server enabling AI-driven deep analysis of blockchain data.**
-
-**Key Features:**
-- Blockchain data access via BlockScout API v2
-- AI-powered transaction analysis and smart contract evaluation
-- Comprehensive address and token management
-- Secure development environment with automated workflows
-- Integration with CI/CD pipelines and DevOps tools
-- Advanced security features including vulnerability detection
-- Real-time monitoring and state change tracking
-- Token operations
-- NFT management
-- and metadata refresh
-
----
-
-### 216. [wwiens/trakt_mcpserver](https://github.com/wwiens/trakt_mcpserver)  `innovation: 9.7`
-
-**A protocol server that enables AI language models to securely and efficiently interact with external entertainment data APIs via standardized protocols.**
-
-**Key Features:**
-- Secure authentication and session management
-- Real-time access to trending and popular content
-- Detailed show and episode data including ratings and watch history
-- Personalized recommendations based on user preferences
-- Integration with external APIs for dynamic content fetching
-- Support for multiple languages and formats
-- Scalable architecture for enterprise use
-
----
-
-### 217. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `innovation: 9`
-
-**A server that enables seamless integration of Figma designs with AI coding tools by providing real-time design-to-code generation.**
-
-**Key Features:**
-- Smart Layout Detection
-- Icon Merging
-- CSS Generation
-- Image Export
-- Multi-layer Caching
-- Design-to-Code Prompts
-- Lightweight Data Access
-
----
-
-### 218. [Ak-9647/Evernote-MCP](https://github.com/Ak-9647/Evernote-MCP)  `innovation: 9`
-
-**A secure, AI-powered MCP server for seamless Evernote integration with Claude Desktop.**
-
-**Key Features:**
-- Secure token management using environment variables
-- Rich note creation with HTML
-- tables
-- and lists
-- Search and organization of notes by content and tags
-- Professional templates for meeting notes
-- shopping lists
-- and more
-- Integration with Claude Desktop for natural language input and output
-
----
-
-### 219. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `innovation: 9`
-
-**Cluster444 Agentic Harness**
-
-**Key Features:**
-- Structured /thoughts directory
-- phased implementation loops
-- specialized subagent delegation
-- automated ticket decomposition.
-
----
-
-### 220. [DeanWard/HAL](https://github.com/DeanWard/HAL)  `innovation: 9`
-
-**HAL provides a secure, isolated environment for LLMs to interact with web APIs and external services while maintaining strict access control.**
-
-**Key Features:**
-- HTTP GET/POST/PUT/PATCH/DELETE/OPTIONS/HEAD requests
-- Secure secret management with automatic redaction
-- Automatic tool generation from OpenAPI/Swagger specifications
-- Environment-based secret substitution and access control
-- Response scanning for secret values
-- Automatic replacement of secrets in responses
-
----
-
-### 221. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `innovation: 9`
-
-**A platform that integrates AI tools with fitness data via the Model Context Protocol to deliver intelligent, context-aware coaching.**
-
-**Key Features:**
-- AI-powered fitness dashboard using Next.js
-- MCP server for protocol-compliant data integration
-- Smart tools for activity logging
-- nutrition tracking
-- and feedback collection
-- Context-aware AI for personalized workout and meal plans
-- Real-time progress visualization and goal setting
-
----
-
-### 222. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `innovation: 9`
-
-**A bare-metal operating system written in C# targeting x86-64, designed for secure and efficient enterprise environments with advanced kernel features.**
-
-**Key Features:**
-- Custom Tier 0 JIT compiler
-- Hardware abstraction layer
-- Secure boot process
-- Cross-assembly loading
-- NUMA-aware memory allocation
-- Preemptive scheduler
-- Virtual memory management
-- Device drivers (VirtIO
-- SATA)
-- Networking stack (Ethernet
-
----
-
-### 223. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `innovation: 9`
-
-**An enterprise-grade MCP server optimized for SAP OData, designed to address the tool explosion problem with modular authentication, hierarchical tool registry, and secure integration.**
-
-**Key Features:**
-- Enhanced security architecture
-- Modular authentication system
-- Role-based access control
-- Principal propagation
-- Secure session management
-- Smart query routing
-- Hierarchical tool registry
-- Intelligent workflow orchestration
-- Real-time analytics and dashboards
-
----
-
-### 224. [SecureBitChat/securebit-chat](https://github.com/SecureBitChat/securebit-chat)  `innovation: 9`
-
-**World's most secure P2P messenger with end-to-end encryption and a shared Rust-based cryptographic core.**
-
-**Key Features:**
-- End-to-end encryption
-- zero-server architecture
-- WebRTC direct connections
-- ECDH + DTLS + SAS verification
-- full ASN.1 validation
-- and a shared Rust-based cryptographic core.
-
----
-
-### 225. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `innovation: 9`
-
-**DataHub MCP Server enables AI agents to find, understand, and manage data across the entire ecosystem using natural language queries.**
-
-**Key Features:**
-- Natural language search across tables
-- columns
-- dashboards
-- and metrics
-- Data lineage and impact analysis for changes
-- SQL query generation and understanding
-- Metadata management (tags
-- owners
-- descriptions)
-- Document integration and knowledge base organization
-
----
-
-### 226. [andrefigueira/.context](https://github.com/andrefigueira/.context)  `innovation: 9`
-
-**A Git-native, AI-optimized documentation system that turns your repo into a living knowledge base.**
-
-**Key Features:**
-- The core innovation is the 'Substrate Methodology' which structures documentation within `.context/` to provide AI tools with a brain dump of the project's architecture
-- patterns
-- and specific constraints. It offers a complete template for turning a software project into an AI-optimized knowledge base.
-
----
-
-### 227. [ashish-bansal/playwright-mcp](https://github.com/ashish-bansal/playwright-mcp)  `innovation: 9`
-
-**Enhances Playwright test automation by providing full browser context, enabling accurate interaction with web pages.**
-
-**Key Features:**
-- Full browser visibility
-- Interaction recording
-- DOM extraction
-- JavaScript execution
-
----
-
-### 228. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `innovation: 9`
-
-**The Blockscout MCP server enables AI agents and tools to access and analyze blockchain data contextually, enhancing intelligent workflows across multiple chains.**
-
-**Key Features:**
-- Contextual blockchain data access
-- Multi-chain support
-- AI skill integration (e.g.
-- Claude)
-- Smart contract analysis
-- Token and NFT tracking
-- Secure API endpoints
-- Observability and progress notifications
-
----
-
-### 229. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `innovation: 9`
-
-**A powerful MCP server for VirusTotal API integration, offering comprehensive security analysis with automatic relationship data fetching.**
-
-**Key Features:**
-- Comprehensive URL analysis
-- File analysis with detailed report generation
-- IP address and domain intelligence
-- Relationship analysis with pagination support
-- Automated threat actor identification
-- Integration with Claude Desktop and GitHub Copilot
-
----
-
-### 230. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)  `innovation: 9`
-
-**A model context protocol server for PubMed literature search and management, enabling advanced filtering, citation export, and research analysis.**
-
-**Key Features:**
-- Advanced PubMed search with filters (date
-- type
-- authors
-- journals
-- MeSH terms)
-- Detailed article details including abstracts and metadata
-- Citation export in multiple formats (BibTeX
-- APA
-- MLA
-- etc.)
-
----
-
-### 231. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `innovation: 9`
-
-**A healthcare MCP server enabling AI assistants to access authoritative medical data sources.**
-
-**Key Features:**
-- FDA Drug Information
-- PubMed Research Search
-- Health Topics Evidence-Based Content
-- Clinical Trials Database
-- ICD-10 & Medical Terminology Lookup
-- Medical Calculator
-- Caching for Performance Optimization
-- Comprehensive Testing Suite
-- RESTful API Endpoints
-- Interactive API Documentation (Swagger UI)
-
----
-
-### 232. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `innovation: 9`
-
-**A model context protocol server enabling translation between multiple languages using DeepL API.**
-
-**Key Features:**
-- Translate text between numerous languages
-- Rephrase text using DeepL's capabilities
-- Access to all DeepL API languages and features
-- Automatic language detection
-- Formality control for translations
-- Integration with Claude Desktop for seamless conversational translation
-
----
-
-### 233. [dojoengine/sensei-mcp](https://github.com/dojoengine/sensei-mcp)  `innovation: 9`
-
-**Sensei MCP provides expert guidance for Dojo and Cairo development on Starknet.**
-
-**Key Features:**
-- Expert Cairo guidance
-- Model Context Protocol (MCP) server
-- Specialized tools for models
-- systems
-- testing
-
----
-
-### 234. [emeryray2002/virustotal-mcp](https://github.com/emeryray2002/virustotal-mcp)  `innovation: 9`
-
-**A tool for analyzing VirusTotal data to provide comprehensive security insights and relationship mapping.**
-
-**Key Features:**
-- Comprehensive URL analysis
-- File and IP analysis
-- Relationship queries (analyses
-- comments
-- etc.)
-- Automated report generation
-- Integration with MCP and Claude Desktop
-- Advanced search capabilities
-
----
-
-### 235. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `innovation: 9`
-
-**A MCP server that integrates FindMine's styling API with Claude and other MCP-compatible tools, enabling advanced fashion AI for product recommendations.**
-
-**Key Features:**
-- Connects to FindMine's styling API via Model Context Protocol
-- Integrates with Claude and other MCP-compatible applications
-- Provides outfit recommendations
-- style guidance
-- and visual similarity searches
-- Customizable style guides for brand-specific aesthetics
-
----
-
-### 236. [freshtechbro/Vibe-Coder-MCP](https://github.com/freshtechbro/Vibe-Coder-MCP)  `innovation: 9`
-
-**Vibe Coder is an MCP (Model Context Protocol) server designed to supercharge your AI assistant (like Cursor, Cline AI, or Claude Desktop) with powerful tools for software development.**
-
-**Key Features:**
-- ['Complete Hybrid Matcher Overhaul: All 15 MCP tools now have comprehensive parameter extraction.'
-- 'CLI/REPL Experience: Interactive confirmations
-- job status polling with visual progress.'
-- 'Better Tool Matching: Multi-strategy approach (keyword 35%
-- pattern 30%
-- semantic 15%
-- LLM 20%).'
-- 'TypeScript Strict Mode: Zero any types
-- all explicit typing
-- production-grade code quality.'
-
----
-
-### 237. [furey/mongodb-lens](https://github.com/furey/mongodb-lens)  `innovation: 9`
-
-**A powerful MCP server enabling natural language queries and advanced data management for MongoDB databases.**
-
-**Key Features:**
-- Natural language query support
-- Schema inference and schema versioning
-- Performance optimization tools
-- Security auditing and protection
-- Cross-collection analysis and indexing
-- Integration with external tools and services
-
----
-
-### 238. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `innovation: 9`
-
-**Framelink MCP server integrates Figma layout data into AI coding agents for precise design-to-code generation.**
-
-**Key Features:**
-- Fetch Figma layout information via API
-- Provide context-aware code suggestions in real time
-- Enable one-shot UI implementation using Cursor
-- Support enterprise-grade security and privacy
-
----
-
-### 239. [goodfel10w/WelcomeTextGenerator](https://github.com/goodfel10w/WelcomeTextGenerator)  `innovation: 9`
-
-**Automatisiert die Generierung professioneller Willkommenstexte für neue Mitarbeiter basierend auf strukturierten Daten.**
-
-**Key Features:**
-- Text-Analyse aus Freitext-Informationen
-- Modulares Template-System mit 5 flexiblen Modulen
-- Speicherung und Verwaltung der extrahierten Mitarbeiterdaten
-- Generierung von Einleitung
-- Abschluss und Varianten für Onboarding
-- Integration in Claude Desktop App für eine nahtlose Benutzererfahrung
-
----
-
-### 240. [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker)  `innovation: 9`
-
-**An open-source automated video creation tool that generates short-form videos from text inputs using text-to-speech, automatic captions, background videos, and music.**
-
-**Key Features:**
-- Text-to-speech conversion
-- Automatic caption generation
-- Background video selection from Pexels
-- Music integration with genre/mood selection
-- Video assembly using Remotion
-- Web UI for browser-based video creation
-- Support for n8n workflow integration
-- Customizable settings and configurations
-
----
-
-### 241. [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)  `innovation: 9`
-
-**DroidMind enables AI assistants to securely interact with Android devices via the Model Context Protocol, allowing direct control and system analysis.**
-
-**Key Features:**
-- Manage devices (connect
-- list
-- view properties
-- reboot)
-- Analyze system logs and crash reports
-- Handle files and manage device directories
-- Control apps (install
-- uninstall
-- start
-- stop
-
----
-
-### 242. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `innovation: 9`
-
-**A powerful image processing server for AI applications, web services, and data pipelines.**
-
-**Key Features:**
-- Fetch images from URLs
-- Process images locally
-- Automatic image compression
-- Parallel processing of multiple images
-- Proper MIME type mapping
-- Comprehensive error handling and logging
-
----
-
-### 243. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `innovation: 9`
-
-**A powerful expression evaluation tool for Claude Desktop using the Model Context Protocol, enabling complex data manipulations and transformations within AI conversations.**
-
-**Key Features:**
-- Expression evaluation
-- Mathematical operations
-- String manipulation
-- Array and object sorting
-- Conditional logic
-- Object property access
-- String conversion
-- Data transformation
-
----
-
-### 244. [jimpick/mcp-json-db-collection-server](https://github.com/jimpick/mcp-json-db-collection-server)  `innovation: 9`
-
-**Integration and management of multiple Fireproof JSON document databases within a Model Context Protocol server.**
-
-**Key Features:**
-- Multi-database support via Model Context Protocol
-- Fireproof integration for scalable and secure data handling
-- Context-aware database orchestration
-- Real-time synchronization with cloud services
-- Enhanced security and privacy controls
-
----
-
-### 245. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `innovation: 9`
-
-**Globalping MCP Server enables AI models to interact with a global network measurement platform via natural language, providing secure and scalable access to network probes.**
-
-**Key Features:**
-- Global network access for AI models
-- Natural language interface for network tests
-- Support for multiple authentication methods
-- Comparative analysis of network performance
-- Secure integration with AI tools via MCP protocol
-
----
-
-### 246. [juyterman1000/entroly](https://github.com/juyterman1000/entroly)  `innovation: 9`
-
-**Entroly-Daemon enables self-evolving AI assistants by compressing large codebases into a minimal context, enhancing performance and efficiency.**
-
-**Key Features:**
-- Self-evolving AI model with token-efficient learning
-- Integration with multiple AI agents (Claude
-- Copilot
-- Codex
-- etc.)
-- Dynamic skill promotion and knowledge sharing across runtimes
-- Live benchmarking and continuous improvement loop
-
----
-
-### 247. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `innovation: 9`
-
-**Smart-Thinking is a local, deterministic Model Context Protocol server for multi-step reasoning without external AI dependencies.**
-
-**Key Features:**
-- Graph-based reasoning
-- Heuristic-based scoring
-- Verification tracking
-- Memory management
-- Visualization
-
----
-
-### 248. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `innovation: 9`
-
-**A tool for automated, context-aware localization in React applications using AI-assisted translation.**
-
-**Key Features:**
-- AI-assisted i18n setup for React apps
-- Localization engine integration (stateful APIs)
-- Automatic translation generation at build time
-- Support for multiple languages and localization engines
-- Continuous localization in CI/CD pipelines
-- Real-time progress tracking via WebSocket
-- Integration with GitHub Actions
-- GitLab CI/CD
-- and Bitbucket Pipelines
-
----
-
-### 249. [machjesusmoto/claude-lazy-loading](https://github.com/machjesusmoto/claude-lazy-loading)  `innovation: 9`
-
-**This project demonstrates a proof-of-concept for significantly reducing initial context load in Claude Code by lazily loading necessary MCP servers and tools only when required.**
-
-**Key Features:**
-- Lazy loading of MCP servers/tools
-- Context usage tracking
-- Keyword-based trigger detection
-- Tool indexing/registry generation
-- Workflow-specific preloading profiles
-
----
-
-### 250. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `innovation: 9`
-
-**Mapbox MCP Server enables AI agents to access geospatial intelligence, enabling location-aware decision making and spatial reasoning.**
-
-**Key Features:**
-- Geocoding and reverse geocoding
-- Point of interest (POI) search
-- Multi-modal routing (driving
-- walking
-- cycling)
-- Travel time matrices and optimization
-- Route visualization with maps
-- Offline geospatial calculations
-- Integration with popular AI tools like Claude Desktop and VS Code
-
----
-
-### 251. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)  `innovation: 9`
-
-**A Model Context Protocol server enabling LLM interfaces to control a Ghost CMS blog securely.**
-
-**Key Features:**
-- Secure JWT authentication
-- Comprehensive entity access (posts
-- users
-- members
-- tiers
-- offers)
-- Advanced search with fuzzy and exact matching
-- Human-readable output for entities
-- Robust error handling with custom GhostError exceptions
-
----
-
-### 252. [minimax-ai/minimax-mcp](https://github.com/minimax-ai/minimax-mcp)  `innovation: 9`
-
-**MiniMax-MCP 官方服务器，支持与强大的文本转语音、图像生成和视频生成API的交互。**
-
-**Key Features:**
-- Text-to-Speech generation
-- Image generation
-- Video generation
-- Voice cloning
-- Audio file conversion
-- Music creation
-- Preview text for voice design
-
----
-
-### 253. [mubarakhalketbi/game-asset-mcp](https://github.com/mubarakhalketbi/game-asset-mcp)  `innovation: 9`
-
-**An AI-powered platform that enables rapid creation of 2D and 3D game assets from natural language prompts using Hugging Face models, integrated with MCP for seamless interaction.**
-
-**Key Features:**
-- Text-to-Image Asset Generation
-- Multi-language Prompt Support
-- Integration with Hugging Face Spaces
-- Multiple 3D Model Generation Spaces
-- Secure Remote Access via HTTPS
-- Customizable Inference Parameters
-- Automated File Saving and Organization
-
----
-
-### 254. [nekzus/npm-sentinel-mcp](https://github.com/nekzus/npm-sentinel-mcp)  `innovation: 9`
-
-**A powerful Model Context Protocol server for AI-driven NPM package analysis.**
-
-**Key Features:**
-- AI-powered security analysis
-- Dependency mapping and resolution
-- Real-time vulnerability detection
-- Version tracking and changelog
-- Package size and performance metrics
-- Secure coding practices enforcement
-
----
-
-### 255. [oevortex/ddg_search](https://github.com/oevortex/ddg_search)  `innovation: 9`
-
-**A powerful Model Context Protocol (MCP) server for web search and AI-powered content extraction using DuckDuckGo.**
-
-**Key Features:**
-- Web search via DuckDuckGo
-- AI-powered search with IAsk AI
-- Monica & Brave AI
-- Performance optimization with caching
-- Security features including rate limiting and rotating user agents
-- MCP-compliant server implementation
-
----
-
-### 256. [pars-doe/autodocument](https://github.com/pars-doe/autodocument)  `innovation: 9`
-
-**Automated documentation generation for code repositories using OpenRouter API and AI.**
-
-**Key Features:**
-- Smart directory analysis with respect to .gitignore patterns
-- AI-powered documentation creation using OpenRouter API
-- Intelligent file handling and fallback generation
-- Comprehensive documentation at multiple levels (documentation.md
-- testplan.md
-- review.md)
-- Customizable prompts for tailored output
-- Modular architecture for future extensibility
-
----
-
-### 257. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `innovation: 9`
-
-**A comprehensive platform for managing software projects, integrating GitHub, project tracking, and development workflows.**
-
-**Key Features:**
-- Project creation and management
-- Local Git functionality with branch management
-- Integration with GitHub for version control
-- Code review and change tracking
-- Automated workflows and CI/CD support
-- Secure code deployment and protection
-- Project notes and documentation management
-- Multi-account GitHub support
-- File snapshots and metadata management
-
----
-
-### 258. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `innovation: 9`
-
-**A comprehensive WordPress MCP server enabling AI-driven interaction with WordPress sites via REST API, offering full CRUD capabilities and advanced security features.**
-
-**Key Features:**
-- CRUD operations for posts
-- users
-- categories
-- comments
-- Custom requests to external REST API endpoints
-- Security features including code reviews and vulnerability detection
-- Integration with AI assistants for enhanced user interaction
-- Comprehensive documentation and support services
-
----
-
-### 259. [pv-bhat/gemsuite-mcp](https://github.com/pv-bhat/gemsuite-mcp)  `innovation: 9`
-
-**A professional Gemini API integration for Claude and MCP-compatible hosts, offering intelligent model selection and advanced file handling.**
-
-**Key Features:**
-- Intelligent model selection based on task and content
-- Unified file handling with automatic format detection
-- Support for multiple file types and operations
-- Batch processing capabilities
-- Automated error handling and exponential backoff
-
----
-
-### 260. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `innovation: 9`
-
-**Context7 MCP Server provides up-to-date documentation and code examples for LLMs, enhancing AI development workflows.**
-
-**Key Features:**
-- Real-time
-- version-specific documentation for LLMs and AI code editors
-- Integration with GitHub Copilot for intelligent code generation
-- Secure access control via JWT authentication
-- Support for Cloudflare Workers to cache API responses
-- Enhanced security features including vulnerability detection and secure code practices
-
----
-
-### 261. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `innovation: 9`
-
-**A model context protocol server enabling AI systems to securely interact with external data sources and tools.**
-
-**Key Features:**
-- Custom search engine integration
-- Secure API access for AI models
-- Automated workflow automation
-- Code review and change tracking
-- Integration with external tools and services
-- Enterprise security and compliance
-
----
-
-### 262. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `innovation: 9`
-
-**A software development platform enabling AI-assisted management of project workflows using the MCP protocol.**
-
-**Key Features:**
-- MCP Server implementation for secure API access
-- AI-powered assistant integration via MCP protocol
-- Workflow automation and task management
-- Code review and change tracking
-- Secure code deployment and protection
-- Integration with external tools and CI/CD pipelines
-
----
-
-### 263. [sage-hq/agentcortex-mcp](https://github.com/sage-hq/agentcortex-mcp)  `innovation: 9`
-
-**AI memory system that maintains isolated, persistent contexts for each project to prevent context bleed.**
-
-**Key Features:**
-- Project context separation per codebase
-- Persistent cross-session memory
-- Automatic project detection and context switching
-- Cumulative learning and intelligent importance ranking
-
----
-
-### 264. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `innovation: 9`
-
-**A server-based platform for enabling LLMs to perform symbolic mathematics and complex algebra, enhancing AI-driven computation.**
-
-**Key Features:**
-- Symbolic manipulation of mathematical expressions
-- Integration with MCP (Model Context Protocol) for advanced algebra
-- Support for differential equations and general relativity calculations
-- Custom metric creation and tensor operations
-- LaTeX support for mathematical notation
-- Standalone executable server for on-demand computation
-
----
-
-### 265. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `innovation: 9`
-
-**A robust, open-source FRED MCP Server enabling secure and efficient access to Federal Reserve Economic Data for analytical applications.**
-
-**Key Features:**
-- Secure API key integration for protected data access
-- Three powerful tools for browsing
-- searching
-- and retrieving economic time series
-- Support for custom transformations and date range filtering
-- Real-time updates and interactive visualization capabilities
-- Scalable architecture supporting enterprise-grade security
-
----
-
-### 266. [steveyegge/beads](https://github.com/steveyegge/beads)  `innovation: 9`
-
-**Beads Context Tracker**
-
-**Key Features:**
-- Graph-based dependency tracking
-- Semantic memory compaction
-- Stateless session support
-- Dolt-backed versioned state.
-
----
-
-### 267. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `innovation: 9`
-
-**Ideogram MCP Server enables secure, context-aware image generation via the Model Context Protocol, integrating AI models with MCP clients for enterprise-grade workflow automation.**
-
-**Key Features:**
-- MCP Server Integration
-- AI-Powered Image Generation
-- Secure API Communication
-- Custom Prompt Handling
-- Scalable Deployment & CI/CD Support
-
----
-
-### 268. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `innovation: 9`
-
-**SourceSage MCP Server is a context-aware, AI-powered platform that integrates advanced security features and developer tools to streamline software development workflows.**
-
-**Key Features:**
-- Markdown-based visualization of project directory structure
-- Automatic file content documentation with language-specific syntax highlighting
-- Flexible exclusion patterns via .SourceSageignore
-- Customizable file filtering and content generation
-- Integration with ES2022 and Node.js 16 modules
-- Secure development environment with enterprise-grade security features
-
----
-
-### 269. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `innovation: 9`
-
-**Connect Supabase projects to AI assistants via the Model Context Protocol (MCP) for seamless integration.**
-
-**Key Features:**
-- Connect Supabase to AI assistants like Claude and Windsurf
-- Manage prompts
-- code reviews
-- and workflows
-- Secure code as you build with enterprise-grade security
-- Automate workflows and deploy intelligent apps
-- Integrate external tools and manage CI/CD pipelines
-
----
-
-### 270. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `innovation: 9`
-
-**A model context protocol server enabling AI models to interactively solve constraint problems using large language models.**
-
-**Key Features:**
-- Constraint solving in MiniZinc
-- PySAT
-- Z3
-- and ASP
-- Integration with LLMs via Model Context Protocol
-- Support for SAT
-- SMT
-- and ASP problem types
-- Interactive problem formulation and solution generation
-- Model training and deployment capabilities
-
----
-
-### 271. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `innovation: 9`
-
-**A model context protocol-compliant server integrating Semgrep with AI assistants for advanced code analysis and security.**
-
-**Key Features:**
-- Model Context Protocol compliance
-- Integration with Semgrep static analysis tool
-- AI-assisted code review via Anthropic Claude
-- Automated vulnerability detection
-- Security rule customization
-- Live documentation and explanations
-
----
-
-### 272. [tejpalvirk/contextmanager](https://github.com/tejpalvirk/contextmanager)  `innovation: 9`
-
-**A collection of Model Context Protocol (MCP) servers to enhance AI models with persistent context across work sessions.**
-
-**Key Features:**
-- Persistent context management across sessions
-- Unified access to domain-specific knowledge graphs
-- Cross-domain relationship creation and maintenance
-- Session-based state tracking and synchronization
-- Integrated priority and sequencing for complex workflows
-
----
-
-### 273. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `innovation: 9`
-
-**A model context protocol (MCP) server and client for intelligent Spark code optimization.**
-
-**Key Features:**
-- Model Context Protocol (MCP) integration
-- AI-driven code optimization
-- Real-time performance analysis
-- Automated code transformation
-- Validation and reporting
-
----
-
-### 274. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `innovation: 9`
-
-**A Borg intelligence platform integrating MCP course data with ChatGPT for academic research and workflow automation.**
-
-**Key Features:**
-- ChatGPT integration via HTTP API
-- Course scheduling and subject lookup
-- Course details and seat availability
-- Research paper and faculty matching
-- Automated setup and deployment scripts
-
----
-
-### 275. [xiaolaa2/midi-file-mcp](https://github.com/xiaolaa2/midi-file-mcp)  `innovation: 9`
-
-**A powerful MIDI file parsing and manipulation tool based on Tone.js, enabling AI assistants to read, analyze, and modify MIDI files without complexities.**
-
-**Key Features:**
-- Read MIDI file information
-- Get and modify track
-- note
-- control change
-- and pitch bend information
-- Set MIDI file tempo (BPM)
-- Add new notes to specific tracks
-- Add new tracks
-- Add control changes to specific tracks
-- Add pitch bends to specific tracks
-
----
-
-### 276. [xtellect/cactus](https://github.com/xtellect/cactus)  `innovation: 9`
-
-**A lightweight parallel recursion runtime for C that optimizes task distribution and load balancing across CPU cores.**
-
-**Key Features:**
-- Work-stealing parallelism with automatic load balancing
-- Fork-join parallelism with BEGIN/FORK/JOIN macros
-- Random-victim work stealing for efficient resource sharing
-- Continuation-passing model for seamless thread communication
-- Stack slab pooling for memory efficiency and performance
-- Direct register manipulation for low-overhead context switching
-- Compiler-agnostic support for GCC/Clang with C11
-
----
-
-### 277. [z-libs/Zen-C](https://github.com/z-libs/Zen-C)  `innovation: 9`
-
-**Zen C is a modern systems programming language designed for high-performance, secure, and maintainable software development.**
-
-**Key Features:**
-- Type inference and static analysis
-- Pattern matching and functional programming constructs
-- Generics and traits for type-safe abstractions
-- Async/await support for non-blocking I/O
-- Manual memory management with RAII
-- Portable Executable (APE) support
-- Cross-platform compilation to multiple architectures
-- Integrated standard library with extensive functionality
-
----
-
-### 278. [zabaglione/mcp-server-unity](https://github.com/zabaglione/mcp-server-unity)  `innovation: 9`
-
-**A Unity MCP Server enabling Claude to interact with Unity projects.**
-
-**Key Features:**
-- Unity MCP Server integration
-- Natural language script creation
-- Shader management (e.g.
-- water effects)
-- Project organization tools
-- Automated build and deployment
-- Secure
-- isolated AI interaction
-
----
-
-### 279. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `innovation: 9`
-
-**A powerful Model Context Protocol server that enhances AI assistants' understanding of large Oracle databases by providing contextual schema information, enabling accurate and efficient database interactions.**
-
-**Key Features:**
-- Smart Schema Caching
-- Targeted Schema Lookup
-- Table Search
-- Relationship Mapping
-- Database Vendor Information
-- Oracle Database Support
-
----
-
-### 280. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `innovation: 9`
-
-**A Model Context Protocol server for retrieving comprehensive NBA player statistics from basketball-reference.com.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Comprehensive NBA player statistics
-- Career stats
-- season comparisons
-- advanced metrics
-- Player performance analysis tools
-- Historical data access and projections
-
----
-
-### 281. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `innovation: 8.5`
-
-**A tool designed to apply Claude Shannon-inspired problem-solving methodology for structured thinking and systematic problem resolution.**
-
-**Key Features:**
-- Claude Shannon-inspired problem breakdown
-- Structured thought process with problem definition
-- constraints
-- modeling
-- proof
-- implementation
-- Integration of theoretical and practical validation
-
----
-
-### 282. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `innovation: 8.5`
-
-**A model context protocol server integrating DBLP bibliography for LLM applications.**
-
-**Key Features:**
-- Model context protocol integration
-- DBLP bibliography access
-- BibTeX generation
-- Search and filtering tools
-- Code execution environment
-
----
-
-### 283. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `innovation: 8.5`
-
-**A model context protocol server for integrating Smallest.ai knowledge bases into applications.**
-
-**Key Features:**
-- MCP Server Integration
-- Client Application Layer
-- API Communication Middleware
-- Error Handling & Validation
-- Knowledge Base Management Tools
-
----
-
-### 284. [zundamonnovrchatkaisetu/unity-mcp-ollama](https://github.com/zundamonnovrchatkaisetu/unity-mcp-ollama)  `innovation: 8.5`
-
-**A Unity MCP package enabling local Large Language Model integration for automated Unity development workflows.**
-
-**Key Features:**
-- Asset Management
-- Scene Control
-- Material Editing
-- Script Integration
-- Automation
-- Editor Automation
-
----
-
-### 285. [0xdwong/sui-mcp](https://github.com/0xdwong/sui-mcp)  `innovation: 8`
-
-**A tool for interacting with the Sui blockchain using MCP SDK, supporting multiple network environments.**
-
-**Key Features:**
-- Deep integration with Sui blockchain
-- Support for multiple network environments
-- TypeScript-based development
-- Code analysis and security tools
-- CI/CD automation
-
----
-
-### 286. [0xhijo/mcp_twitter](https://github.com/0xhijo/mcp_twitter)  `innovation: 8`
-
-**A TypeScript-based Model Context Protocol enabling AI applications to interact with Twitter/X securely and efficiently.**
-
-**Key Features:**
-- Create Twitter posts
-- Reply to specific tweets
-- Retrieve recent tweets
-- Manage user profiles
-- Fetch tweet history and replies
-- Follow users
-- Get user profile data
-- View account information
-
----
-
-### 287. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server for generating simple QR codes with custom styles.**
-
-**Key Features:**
-- Support custom QR code styles
-- Easy installation via Smithery
-- Automated build and deployment
-- Customizable parameters (text
-- size
-- color)
-
----
-
-### 288. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `innovation: 8`
-
-**MCP Server implementation for 1Panel enabling secure, protocol-based communication.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server
-- Secure communication channels
-- Integration with 1Panel
-- Customizable configurations
-
----
-
-### 289. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `innovation: 8`
-
-**A model context protocol server integrating academic tools with Canvas and Gradescope.**
-
-**Key Features:**
-- Integration with Canvas and Gradescope
-- Deadline fetching and calendar sync
-- File management and downloads
-- Environment setup and configuration
-- Automated reminders and notifications
-
----
-
-### 290. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `innovation: 8`
-
-**A server implementation enabling seamless integration of DeepSeek language models with Claude Desktop for advanced AI-driven interactions.**
-
-**Key Features:**
-- MCP server integration
-- DeepSeek R1/V3 model support
-- Node.js/TypeScript stack
-- Docker containerization
-- Custom model configuration
-- Error handling and logging
-
----
-
-### 291. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)  `innovation: 8`
-
-**A MCP tool enabling AI to compress and decompress local files with advanced security and metadata support.**
-
-**Key Features:**
-- Compression and decompression of files and data
-- Parameter-controlled compression levels (0-9)
-- Password protection and encryption settings
-- Query function for compressed package metadata
-- Support for multi-file packaging
-- Integration with AI models via MCP protocol
-
----
-
-### 292. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `innovation: 8`
-
-**LoCoDiff-bench is a benchmark designed to evaluate language models' ability to understand and reconstruct code based on a series of Git history changes within long contexts.**
-
-**Key Features:**
-- Natural Git history evaluation
-- No junk context methodology
-- Long-form output testing
-- Procedural benchmark generation from any Git repository
-- Simple prompt/output evaluation structure.
-
----
-
-### 293. [BytexGrid/NeatShift](https://github.com/BytexGrid/NeatShift)  `innovation: 8`
-
-**A modern Windows file organization tool with symbolic link support.**
-
-**Key Features:**
-- Relocate files and folders without breaking application paths. Smart Moving: Move files anywhere
-- and NeatShift creates symbolic links so everything still works. Double Safety: Choose between NeatSaves quick backup or system restore points - or use both! Looks Good
-- Feels Good: Modern Windows 11 style with both light and dark themes. Stay in Control: See and manage all of the symbolic links in one place.
-
----
-
-### 294. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `innovation: 8`
-
-**A Borg project demonstrating MCP-based multi-functional server implementations for database search, GitHub search, and time management.**
-
-**Key Features:**
-- Database Search with natural language query support
-- GitHub Search for repositories
-- users
-- and issues
-- Time Management with current time and time zone conversion
-- Integration with MCP protocol for secure client-server communication
-
----
-
-### 295. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `innovation: 8`
-
-**A cloud-based MCP server enabling AI-driven Google News search with multilingual support and structured data output.**
-
-**Key Features:**
-- Automatic news categorization
-- Multi-language support
-- SerpAPI integration
-- Structured JSON output
-- AI-friendly API endpoints
-
----
-
-### 296. [Edison-Watch/open-edison](https://github.com/Edison-Watch/open-edison)  `innovation: 8`
-
-**Borg intelligence database focused on securing and monitoring agent data interactions to prevent exfiltration.**
-
-**Key Features:**
-- Data leak monitoring
-- Controlled execution (to reduce exfiltration risks)
-- Visibility into agent interactions
-- Simple API for managing MCP servers
-- Docker support
-- Quick integration with LangGraph/Python agents.
-
----
-
-### 297. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `innovation: 8`
-
-**A comprehensive open-source platform for automated scientific research, integrating web search, document analysis, and LLM-powered tools to streamline research workflows.**
-
-**Key Features:**
-- Web search across multiple sources (arXiv
-- ACL Anthology
-- Hugging Face
-- etc.)
-- LLM-powered document understanding and QA
-- Token-based authentication for secure API access
-- Integration with Docker and CI/CD pipelines
-- LaTeX compilation and PDF generation
-- Code review and security scanning
-- Workflow automation and project management tools
-
----
-
-### 298. [Korfu/mcp-bitbucket](https://github.com/Korfu/mcp-bitbucket)  `innovation: 8`
-
-**Integrates Bitbucket with Cursor IDE to enable seamless repository and commit data access for users without GitHub.**
-
-**Key Features:**
-- Fetch repositories from Bitbucket
-- View detailed repository information
-- Retrieve commit history and latest commit details
-- Manage branch restrictions
-- Access pull requests and project details
-- Integrate with Cursor IDE for enhanced development workflow
-
----
-
-### 299. [OfficialIncubo/BeatDrop-Music-Visualizer](https://github.com/OfficialIncubo/BeatDrop-Music-Visualizer)  `innovation: 8`
-
-**A standalone music visualization with custom MilkDrop2 engine, optimized for Windows, designed to enhance the original MilkDrop2 plug-in functionality.**
-
-**Key Features:**
-- Based on the Original MilkDrop2 Plug-in
-- compatible with all MilkDrop presets (.milk). Features include: Beat detection compatibility for better audio reaction
-- new waveforms/transitions
-- custom shapes/waves (up to 16 slots)
-- precise shader precaching/caching for instant loading
-- support for Pixel Shader 4 (Shader Model 3) presets
-- and integration with Spout for sharing visuals.
-
----
-
-### 300. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `innovation: 8`
-
-**A TypeScript client library for integrating with Neemee MCP servers, enabling secure and efficient management of personal knowledge systems.**
-
-**Key Features:**
-- TypeScript support
-- HTTP/STDIO transport modes
-- API access to MCP tools and resources
-- Secure authentication and error handling
-
----
-
-### 301. [Roobyx/awesome-game-design](https://github.com/Roobyx/awesome-game-design)  `innovation: 8`
-
-**A comprehensive list of Game Design related learning materials, examples and tools.**
-
-**Key Features:**
-- A curated collection of Game Design documents
-- templates
-- learning materials
-- and tools. Focus on bridging the gap between artistic vision (game design) and technical implementation (programming/tools).
-
----
-
-### 302. [SembojaTech/mcp-postgres](https://github.com/SembojaTech/mcp-postgres)  `innovation: 8`
-
-**A model context protocol server enabling LLMs to inspect and query PostgreSQL databases securely.**
-
-**Key Features:**
-- Read-only access to PostgreSQL databases
-- Schema inspection for LLMs
-- Execute read-only SQL queries
-- Automatic database metadata discovery
+*Tags: contiguous memory, geometric growth, generic c library, type erasure, safe allocation, pointer stability, c library, vector*
 
 ---
 
-### 303. [SuperSonicHub1/awesome-libsm64](https://github.com/SuperSonicHub1/awesome-libsm64)  `innovation: 8`
+### 29. [SuperSonicHub1/awesome-libsm64](https://github.com/SuperSonicHub1/awesome-libsm64)  `innovation: 8` ★☆☆ 🔵
 
-**A collection of things made with libsm64.**
+**This repository showcases a collection of projects built using the `libsm64` library. The core project revolves around Super Mario 64 decompilation and provides a clean interface to the movement and rendering code, allowing Mario to be dropped into existing game engines or other systems with minimal**
 
 **Key Features:**
 - The repository highlights the utility of `libsm64` in various contexts
@@ -4327,52 +525,29 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Rust bindings for low-level access
 - and integrations with popular tools like Blender.
 
+*Tags: ['libsm64', 'supermario64', 'gameengine', 'csharp', 'rust', 'blender', 'unity', 'audio'*
+
 ---
 
-### 304. [XeroOl/mirin-template](https://github.com/XeroOl/mirin-template)  `innovation: 8`
+### 30. [Tanq16/local-content-share](https://github.com/Tanq16/local-content-share)  `innovation: 8` ★☆☆ 🔵
 
-**The NotITG Mirin Template. Easily create modfiles using Lua.**
+**A simple & elegant self-hosted app for storing/sharing text snippets, files, and links in your local network with no setup on client devices. It functions as an all-in-one alternative to airdrop, local-pastebin, and a scratchpad. Key features include: plain text snippet sharing, file upload/download**
 
 **Key Features:**
-- Easy creation of modfiles using Lua. Powerful abstractions allowing users to create custom modifiers (e.g.
-- turn on invert ease {0
-- 1
-- outExpo
-- 100
-- 'invert'}). Optimized code execution. Theme independent design. Powerful system for custom modifiers.
+- Text Snippet Storage & Sharing
+- File Upload/Download Support
+- Customizable TTL/Expiration Settings
+- Built-in Notepad/Markdown Editing
+- Multi-file Drag-n-Drop Support
+- Local Network Accessibility (no internet required).
+
+*Tags: ['local-content-share', 'self-hosting', 'pastebin', 'markdown', 'file-sharing', 'pwa', 'docker', 'local-network'*
 
 ---
 
-### 305. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `innovation: 8`
+### 31. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `innovation: 8` ★☆☆ 🔵
 
-**An MCP server for accessing and managing news articles from the tagesschau platform.**
-
-**Key Features:**
-- Fetch latest news articles
-- Retrieve detailed article information
-- Integrate news data into applications
-
----
-
-### 306. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `innovation: 8`
-
-**A Python-based MCP server for searching and downloading academic papers from multiple sources, enabling seamless integration with LLMs.**
-
-**Key Features:**
-- Multi-source paper search (arXiv
-- PubMed
-- bioRxiv
-- etc.)
-- Asynchronous HTTP requests using httpx
-- Standardized output in dictionary format via Paper class
-- Support for LLM context enhancement with MCP clients like Claude Desktop
-- Extensible design for adding new academic platforms
-
----
-
-### 307. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `innovation: 8`
-
-**A Model Context Protocol server for programmatically exploring GitHub repositories.**
+**The mcp-git-ingest repository implements a Model Context Protocol (MCP) server that enables automated analysis of GitHub repository structures and key files. It provides tools to clone repositories, generate directory trees, and read specified file contents programmatically. The implementation lever**
 
 **Key Features:**
 - Clone repositories from GitHub
@@ -4382,246 +557,82 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Handle file reading errors gracefully
 - Clean up temporary directories after processing
 
----
-
-### 308. [agent-kilo/jwno](https://github.com/agent-kilo/jwno)  `innovation: 8`
-
-**A tiling window manager for Windows 10/11, built with Janet and ❤️.**
-
-**Key Features:**
-- Tiling window manager for Windows 10/11
-- built with Janet and ❤️.
+*Tags: git, mcp, developer*
 
 ---
 
-### 309. [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)  `innovation: 8`
+### 32. [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)  `innovation: 8` ★☆☆ 🔵
 
-**A protocol for connecting any editor to any agent.**
+**The Agent Client Protocol (ACP) standardizes communication between code editors (interactive programs for viewing and editing source code) and coding agents (programs that use generative AI to autonomously modify code).**
 
 **Key Features:**
 - Standardizing communication between code editors and coding agents. Providing a protocol layer for connecting any editor to any agent.
 
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends', 'Coding Tools & IDEs'*
+
 ---
 
-### 310. [akramsaouri/mcp-translate](https://github.com/akramsaouri/mcp-translate)  `innovation: 8`
+### 33. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A platform for translating text using the Model Context Protocol.**
+**The project provides a static analyzer using Archai to inspect code for potential security vulnerabilities, helping developers improve application security during development. It focuses on analyzing code patterns and detecting risky constructs that could lead to security breaches.**
 
 **Key Features:**
-- translate_text
-- model_context_protocol
-- api_integration
-- customizable_translation_rules
+- static analysis
+- vulnerability detection
+- code review integration
+- security scanning
+
+*Tags: archai, security, static-analysis, code-quality, developer-tools*
 
 ---
 
-### 311. [al-how/supernotes-to-obsidian](https://github.com/al-how/supernotes-to-obsidian)  `innovation: 8`
+### 34. [alexandreroman/mcp-location](https://github.com/alexandreroman/mcp-location)  `innovation: 8` ★☆☆ 🔵
 
-**Automates the import of Supernotes notes into Obsidian daily using MCP.**
+**The project focuses on integrating a MCP (Mobile Cloud Platform) server to deliver real-time user location information, enabling context-aware services and enhancing application functionality through geolocation capabilities. This resource outlines the technical architecture, deployment consideratio**
 
 **Key Features:**
-- Import Supernotes exports into Obsidian daily
-- Automate note creation and formatting
-- Handle OCR errors and wikilinks
-- Clean up note templates
-- Integrate with MCP
+- MCP server integration
+- User location data retrieval
+- Context-aware application enhancements
+- Secure data handling protocols
+- Scalable infrastructure design
+
+*Tags: mcp, location, integration, security, developer, ai, cloud, apps*
 
 ---
 
-### 312. [aleksey-saenko/MusicRecognizer](https://github.com/aleksey-saenko/MusicRecognizer)  `innovation: 8`
+### 35. [allthatjazzleo/mantrachain-mcp](https://github.com/allthatjazzleo/mantrachain-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**An open-source Android app for music recognition that integrates AudD, ACRCloud, and Shazam to perform song identification.**
+**Mantrachain MCP server for interacting with Cosmos SDK blockchain, enabling secure token management and protocol operations.**
 
 **Key Features:**
-- Song identification via integration of AudD
-- ACRCloud
-- and Shazam. One-click song recognition with options to save recordings if offline. Customizable failure behavior settings. Rich track information provided upon success (name
-- artist
-- album
-- year
-- artwork
-- links). Library management for tracks. Preferences customization. API key requirement for AudD.
+- Send and receive tokens via MCP protocol
+- Delegate/Stake tokens to validators
+- Query account balances
+- Get validator information
+- Sign and broadcast transactions
+- Manage mnemonics and network settings
+
+*Tags: cosmos-sdk, mantrachain, blockchain, smart-contracts, tokens, delegation, networks, security*
 
 ---
 
-### 313. [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service)  `innovation: 8`
+### 36. [ananddtyagi/copy-paste-mcp](https://github.com/ananddtyagi/copy-paste-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**MCP Documentation Service enables AI-assisted management of documentation through natural language interactions.**
+**A tool for extracting precise lines from text content, enabling focused data retrieval without altering original material.**
 
 **Key Features:**
-- Read and write markdown documents with frontmatter metadata
-- Edit documents with precise line-based changes
-- List and search documents by content or metadata
-- Generate navigation structures from documentation
-- Analyze documentation quality and identify issues
-- LLM-optimized documentation output for large language models
+- Extract specific line ranges
+- Preserve formatting and newlines
+- Integrate with AI tools
+
+*Tags: mcp, code extraction, ai tools, text processing, developer workflow, line extraction, code analysis, security integration*
 
 ---
 
-### 314. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `innovation: 8`
+### 37. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol (MCP) server that enables querying of ATT&CK techniques and tactics for security analysis.**
-
-**Key Features:**
-- Query ATT&CK techniques by ID or name
-- Search with name or partial match
-- View detailed information including kill chain stages
-- mitigations
-- and references
-- List all ATT&CK tactics
-- Provide mitigation strategies for each technique
-
----
-
-### 315. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `innovation: 8`
-
-**A Python-based MCP server for predicting the origin of names using external APIs.**
-
-**Key Features:**
-- Predict name origin
-- Batch prediction
-- Real-time API integration
-- Secure code deployment
-- Automated workflows
-
----
-
-### 316. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `innovation: 8`
-
-**A Model Context Protocol server for analyzing academic author networks and research collaborations.**
-
-**Key Features:**
-- get_coauthors
-- get_author_keywords
-- data integration from multiple APIs
-- async operations
-- rate limiting
-- error handling
-
----
-
-### 317. [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)  `innovation: 8`
-
-**A model-context protocol server for integrating AI models with YouTube content.**
-
-**Key Features:**
-- Model-context protocol server
-- YouTube subtitle extraction
-- AI integration with Claude AI
-- Secure code management
-- Automated deployment tools
-
----
-
-### 318. [andradehenrique/dokploy-mcp](https://github.com/andradehenrique/dokploy-mcp)  `innovation: 8`
-
-**A tool-based platform for programmatic interaction with Dokploy server functionalities via the Model Context Protocol (MCP).**
-
-**Key Features:**
-- Expose Dokploy APIs as consumable tools via MCP
-- Support multiple transport modes (stdio
-- HTTP
-- SSE)
-- Provide flexible deployment options (Docker
-- Windows
-- etc.)
-- Enable secure and isolated client-server communication
-
----
-
-### 319. [andybrandt/mcp-simple-timeserver](https://github.com/andybrandt/mcp-simple-timeserver)  `innovation: 8`
-
-**A MCP server enabling Claude to access real-time time, holiday information, and date calculations across multiple regions.**
-
-**Key Features:**
-- Get current local time with timezone support
-- Check public and school holidays by country or city
-- Calculate time distance between dates (days
-- weeks
-- etc.)
-- Provide business-day counts excluding holidays
-- Integrate location-based time context
-
----
-
-### 320. [angrysky56/mcp-rocq](https://github.com/angrysky56/mcp-rocq)  `innovation: 8`
-
-**A Coq-based reasoning server enabling automated verification and proof generation for formal software development.**
-
-**Key Features:**
-- Automated Dependent Type Checking
-- Inductive Type Definition
-- Property Proving
-- XML Protocol Integration
-- Rich Error Handling
-
----
-
-### 321. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `innovation: 8`
-
-**Server for integrating Thingsboard data as context in LLM tools.**
-
-**Key Features:**
-- Integrate Thingsboard data
-- Contextual enrichment for LLMs
-- Secure API access
-- Scalable deployment options
-
----
-
-### 322. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `innovation: 8`
-
-**A platform enabling LLMs to reverse engineer applications using MCP protocol.**
-
-**Key Features:**
-- MCP Server
-- Cutter Plugin Decompiler
-- Code Analysis Tools
-- Integration with Cutter
-- Automated Workflow Execution
-
----
-
-### 323. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `innovation: 8`
-
-**IoTDB MCP Server enables secure, scalable database interaction and business intelligence for IoT data using Apache IoTDB.**
-
-**Key Features:**
-- Database interaction via SQL queries
-- Support for Tree Model and Table Model dialects
-- Query execution with metadata and statistics
-- Data export to CSV or Excel
-- Schema exploration and table description
-- Performance optimizations including connection pooling and fetch size management
-
----
-
-### 324. [apoorvv/mcp-claude-enhancements](https://github.com/apoorvv/mcp-claude-enhancements)  `innovation: 8`
-
-**Enhancing Claude Desktop with MCP for local file access and interaction.**
-
-**Key Features:**
-- Leave Policy Lookup
-- Conversation Saver
-- File Counter
-
----
-
-### 325. [appleinmusic/baidu-search-mcp](https://github.com/appleinmusic/baidu-search-mcp)  `innovation: 8`
-
-**A Borg project integrating Baidu Search MCP for intelligent search capabilities.**
-
-**Key Features:**
-- Integrate Baidu TextMind API
-- Support multiple AI models
-- Provide search results with sources
-- Enable deep search and time filtering
-
----
-
-### 326. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `innovation: 8`
-
-**Advanced dual-perspective analysis platform for performance evaluation.**
+**The actor-critic thinking MCP server leverages the Actor-Critic methodology to deliver comprehensive, balanced assessments through dual perspectives. It offers immersive, comfortable audio experiences with long-lasting battery life and touch controls, ideal for audiophiles and travelers. The system **
 
 **Key Features:**
 - dual-perspective analysis
@@ -4630,297 +641,80 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - balanced assessment
 - actionable feedback
 
+*Tags: actor-critic, mcp, ai-evaluation, performance-analysis, developer-tools, feedback-system, creative-assessment, multi-perspective*
+
 ---
 
-### 327. [arjunkmrm/perplexity-search](https://github.com/arjunkmrm/perplexity-search)  `innovation: 8`
+### 38. [ashish0kumar/fzfm](https://github.com/ashish0kumar/fzfm)  `innovation: 8` ★☆☆ 🔵
 
-**A lightweight Model Context Protocol server enabling AI assistants to perform web searches with enhanced context handling.**
+**This resource details 'fuzzy finder file manager' (fzfm), a tool that provides a fuzzy search interface for file management. The core functionality revolves around seamless navigation using keyboard commands to move between directories, perform fuzzy searching, and preview files. It emphasizes custo**
 
 **Key Features:**
-- Model Context Protocol server
-- Perplexity API integration
-- Search results filtering (by recency)
-- Context-aware search results
+- Seamless directory navigation using only keyboard arrows (Up/Down Arrow)
+- Blazing-fast fuzzy search powered by fzf
+- File previewing using bat (fallback to cat)
+- Directory previewing using eza (fallback to ls)
+- Customizable multimedia file opener (wslview
+- xdg-open
+- etc.)
+- and customizable text editing via nvim.
+
+*Tags: ['fuzzy finder', 'file manager', 'keyboard navigation', 'fuzzy search', 'terminal utility', 'workflow automation', 'file management', 'developer tooling'*
 
 ---
 
-### 328. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `innovation: 8`
+### 39. [bankless/onchain-mcp](https://github.com/bankless/onchain-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**AI-powered Figma design analysis and code generation tool for enterprise development.**
+**The Bankless Onchain MCP Server enables developers to securely and efficiently access on-chain data using the Model Context Protocol (MCP). It supports contract operations such as reading states, retrieving events, and managing transactions while maintaining strict isolation and security. This infra**
 
 **Key Features:**
-- AI-optimized design-to-code conversion
-- Framework-specific data extraction
-- Smart comment-to-element mapping
-- Asset batch downloads
-- Reference image analysis
-- Responsive layout processing
-- Customizable configuration files
+- Secure API integration with Bankless
+- Support for contract operations (read
+- write
+- events)
+- Proxy contract management
+- Event topic generation
+- Transaction history retrieval
+- AI model integration via MCP
+
+*Tags: bankless, onchain-mcp, ai-integration, smart-contracts, developer-tools, security, api-security, mcp*
 
 ---
 
-### 329. [askme765cs/open-docs-mcp](https://github.com/askme765cs/open-docs-mcp)  `innovation: 8`
+### 40. [beyond-network-ai/beyond-mcp-server](https://github.com/beyond-network-ai/beyond-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**Open-source MCP implementation for document management and indexing.**
+**An extensible Model Context Protocol (MCP) server enabling secure, standardized access to social platform data for AI applications.**
 
 **Key Features:**
-- Document indexing
-- Full-text search capabilities
-- Resource-based access
-- Tool-based document management
-- Custom docs management via enable_doc tool
+- MCP compliant model context server
+- Multi-platform support (Farcaster
+- Twitter placeholder)
+- Extensible architecture for new social platforms
+- Secure handling of user profiles and wallet balances
+- Integration with Claude Desktop for LLM interaction
+
+*Tags: mcp server, ai integration, social data access, context management, secure development, developer tools, multi-platform support, api integration*
 
 ---
 
-### 330. [asyncfuncai/github-chat-mcp](https://github.com/asyncfuncai/github-chat-mcp)  `innovation: 8`
+### 41. [bingal/fastdomaincheck-mcp-server](https://github.com/bingal/fastdomaincheck-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol for analyzing and querying GitHub repositories using the GitHub Chat API.**
+**FastDomainCheck-MCP-Server is a Model Context Protocol (MCP) server designed to securely and efficiently verify the registration status of multiple domain names using WHOIS and DNS verification. It supports bulk operations, ensuring compatibility with AI tools like Claude, and includes features such**
 
 **Key Features:**
-- Repository Indexing
-- Repository Querying
+- Bulk domain registration status checking
+- Dual verification (WHOIS & DNS)
+- Input validation
+- Error handling
+- Performance optimization
+
+*Tags: domain-checking, ai-integration, security, mcp-server, domain-validation*
 
 ---
 
-### 331. [athapong/argus](https://github.com/athapong/argus)  `innovation: 8`
+### 42. [brandon-butterwick/mrp_calculation](https://github.com/brandon-butterwick/mrp_calculation)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server for analyzing GitLab repositories and performing security assessments.**
-
-**Key Features:**
-- multi-language support
-- security scanning
-- code quality analysis
-- commit history analysis
-- branch enumeration
-- diff comparisons
-- repository visualization
-
----
-
-### 332. [auto-browse/unbundle_openapi_mcp](https://github.com/auto-browse/unbundle_openapi_mcp)  `innovation: 8`
-
-**A tool for programmatically splitting and extracting OpenAPI specifications into smaller files, enabling modular development and maintenance.**
-
-**Key Features:**
-- Unbundle large OpenAPI specs
-- Extract specific endpoints
-- Split OpenAPI definitions
-- Generate smaller
-- focused OpenAPI files
-
----
-
-### 333. [awslabs/mcp](https://github.com/awslabs/mcp)  `innovation: 8`
-
-**A suite of specialized MCP servers for AWS to enhance AI applications with contextual data and best practices.**
-
-**Key Features:**
-- Improved output quality through context integration
-- Access to the latest documentation and API references
-- Automation of common workflows
-- Secure
-- auditable interactions with AWS services
-
----
-
-### 334. [axiomhq/mcp-server-axiom](https://github.com/axiomhq/mcp-server-axiom)  `innovation: 8`
-
-**A model context protocol server enabling AI agents to query Axiom datasets using APL.**
-
-**Key Features:**
-- Model Context Protocol Server
-- APL query execution
-- Dataset management
-- Monitoring configurations
-- Secure token-based authentication
-
----
-
-### 335. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `innovation: 8`
-
-**Analyzes React code to extract component structure and metadata for documentation.**
-
-**Key Features:**
-- Analyze React components
-- Generate documentation
-- Integrate with Claude
-- Support MCP server
-
----
-
-### 336. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)  `innovation: 8`
-
-**A context-aware MCP implementation integrating Gemini for analytical thinking and problem-solving.**
-
-**Key Features:**
-- Gemini-powered thinking
-- Thought branching
-- Session persistence
-- Advanced filtering
-
----
-
-### 337. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `innovation: 8`
-
-**A powerful Model Context Protocol server managing programming guidelines and rules for consistent coding standards.**
-
-**Key Features:**
-- Rule Management
-- Rule Filtering by Category
-- Markdown-based Rule Definitions
-- Local and GitHub Repository Support
-- Integration with IDEs like VSCode
-- Rule Export and Configuration
-
----
-
-### 338. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `innovation: 8`
-
-**A model context protocol server for interacting with the Cooper Hewitt Collection API.**
-
-**Key Features:**
-- Search objects in the Cooper Hewitt collection
-- Retrieve detailed information about museum objects
-- Integrate with external tools and APIs
-- Support for automated workflows and code execution
-
----
-
-### 339. [bengineer19/digikey_mcp](https://github.com/bengineer19/digikey_mcp)  `innovation: 8`
-
-**A MCP server for DigiKey's Product Search API, enabling secure and efficient integration with DigiKey's product data.**
-
-**Key Features:**
-- MCP Server Integration
-- Product Search API Access
-- Secure Authentication
-- Customizable Commands
-
----
-
-### 340. [berlinbra/binary-reader-mcp](https://github.com/berlinbra/binary-reader-mcp)  `innovation: 8`
-
-**A server for reading and analyzing binary files, supporting Unreal Engine asset files and custom formats.**
-
-**Key Features:**
-- Read Unreal Engine asset files
-- Read generic binary files
-- Extract binary file metadata
-- Auto-detect file formats
-- Support extensibility for new formats
-
----
-
-### 341. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `innovation: 8`
-
-**A model context protocol server for fetching Clojars dependency information.**
-
-**Key Features:**
-- Get the latest version of a Clojars dependency
-- Check if a specific version of a dependency exists
-- View version history with configurable limits
-- Integrate with Claude Desktop for easy dependency management
-
----
-
-### 342. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)  `innovation: 8`
-
-**A Model Context Protocol server for monitoring and managing shadow-cljs builds.**
-
-**Key Features:**
-- Model Context Protocol server
-- Build status tracking
-- Real-time updates
-- Code verification integration
-
----
-
-### 343. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)  `innovation: 8`
-
-**A Cloudflare Worker that provides code explanation and context for developers.**
-
-**Key Features:**
-- Code Explainer
-- Architecture Visualization
-- Multi-language Support
-- Secure API with Bearer Token
-
----
-
-### 344. [blackhole89/autopen](https://github.com/blackhole89/autopen)  `innovation: 8`
-
-**Editor with LLM generation tree exploration**
-
-**Key Features:**
-- The core functionality includes: 
-1. **LLM Visualization:** Viewing text through the lens of an LLM to see token probabilities.
-2. **Surprising Token Highlighting:** Identifying tokens with low probability.
-3. **Continuation Generation:** Generating multiple continuations based on the LLM's distribution.
-4. **Seamless Exploration:** Flipping between generated continuations (Alt-⬆⬇) and emitting them into the buffer (Alt-⮕).
-5. **LLM Execution:** Ability to load and execute any LLM in the GGUF format using `llama.cpp`.
-6. **Integration with Tools:** Utilizing `imgui` for visualization and `imgui-filebrowser` for file browsing.
-
----
-
-### 345. [blazickjp/shell-mcp-server](https://github.com/blazickjp/shell-mcp-server)  `innovation: 8`
-
-**Secure shell command execution MCP server for Claude AI, enabling controlled access within specified directories.**
-
-**Key Features:**
-- Secure shell execution within specified directories
-- Multiple shell support (bash
-- sh
-- cmd
-- powershell)
-- Timeout control for command execution
-- Cross-platform compatibility (Unix and Windows)
-- Directory and shell validation to prevent traversal attacks
-
----
-
-### 346. [block/square-mcp](https://github.com/block/square-mcp)  `innovation: 8`
-
-**A server-based implementation for accessing Square API functionality via Model Context Protocol.**
-
-**Key Features:**
-- Square Model Context Protocol Server
-- API access via MCP
-- Environment setup and configuration
-- Security token management
-- Migration to new server version
-
----
-
-### 347. [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)  `innovation: 8`
-
-**Kohya's GUI is a GUI and CLI for training diffusion models. This project provides a user-friendly Gradio-based Graphical User Interface (GUI) for Kohya's Stable Diffusion training scripts.**
-
-**Key Features:**
-- The project provides a user-friendly Graphical User Interface (GUI) and Command Line Interface (CLI) for training diffusion models. Key features include: A user-friendly Gradio-based interface for setting training parameters
-- automatic generation of necessary CLI commands
-- support for various training methods (LoRA
-- Dreambooth
-- fine-tuning
-- SDXL)
-- and cross-platform support (Linux/macOS). It offers options for local installation or cloud deployment via Colab/Runpod.
-
----
-
-### 348. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `innovation: 8`
-
-**A Spring Boot AI-powered Model Context Protocol Server for Confluence Cloud integration.**
-
-**Key Features:**
-- Spring Boot AI-powered Model Context Protocol Server
-- Confluence Cloud integration
-- Callable tools for document management
-- Tool registration and testing
-
----
-
-### 349. [brandon-butterwick/mrp_calculation](https://github.com/brandon-butterwick/mrp_calculation)  `innovation: 8`
-
-**A tool for performing Material Requirements Planning (MRP) calculations using the Model Context Protocol (MCP).**
+**The repository provides a server-based implementation of MRP calculation using TypeScript and MCP SDK. It supports detailed step-by-step calculation of material requirements, order needs, and scheduling based on inventory levels and forecasts.**
 
 **Key Features:**
 - MRP calculation
@@ -4929,497 +723,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Configuration via MCP settings file
 - Validation and testing
 
----
-
-### 350. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `innovation: 8`
-
-**A server enabling the creation of whimsical diagrams from LLM context using MCP protocol.**
-
-**Key Features:**
-- Whimsical diagram creation
-- MCP protocol integration
-- LLM context processing
-- Code generation support
-- Secure deployment options
+*Tags: mrp, mcp, calculator, server, development, validation*
 
 ---
 
-### 351. [bsmi021/mcp-file-context-server](https://github.com/bsmi021/mcp-file-context-server)  `innovation: 8`
+### 43. [deadletterq/mcp-opennutrition](https://github.com/deadletterq/mcp-opennutrition)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server enabling LLMs to access and analyze code files with advanced caching and real-time monitoring.**
-
-**Key Features:**
-- File operations
-- Real-time file watching
-- Advanced caching
-- Code analysis
-- Quality metrics
-
----
-
-### 352. [bsmi021/mcp-node-omnibus-server](https://github.com/bsmi021/mcp-node-omnibus-server)  `innovation: 8`
-
-**A comprehensive Model Context Protocol (MCP) server offering advanced Node.js development tooling and automation.**
-
-**Key Features:**
-- Project Management
-- Project Creation
-- TypeScript Integration
-- Component Generation
-- Configuration Management
-- AI-Powered Assistance
-- Code Analysis & Improvements
-- Documentation Generation
-
----
-
-### 353. [bsmi021/mcp-task-manager-server](https://github.com/bsmi021/mcp-task-manager-server)  `innovation: 8`
-
-**A local Model Context Protocol (MCP) server enabling client-driven project and task management with SQLite persistence.**
-
-**Key Features:**
-- Project-based task organization
-- SQLite database for data persistence
-- MCP protocol compliance
-- Client-driven workflow tools
-- Task creation
-- listing
-- updating
-- and subtask expansion
-
----
-
-### 354. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `innovation: 8`
-
-**A tool enabling seamless integration between Claude AI and desktop applications via Cursor IDE.**
-
-**Key Features:**
-- Real-time AI assistance in development
-- Context-aware code completions
-- Desktop integration with Claude AI
-- Automation of development workflows
-- Environment configuration via .env file
-
----
-
-### 355. [buhe/mcp_rss](https://github.com/buhe/mcp_rss)  `innovation: 8`
-
-**MCP RSS enables secure and efficient interaction with RSS feeds using a Model Context Protocol.**
-
-**Key Features:**
-- Parse OPML files
-- Automatically fetch RSS updates
-- Mark articles as favorites
-- Filter articles by source and status
-
----
-
-### 356. [callebtc/bitchat-android](https://github.com/callebtc/bitchat-android)  `innovation: 8`
-
-**Bluetooth mesh chat, IRC vibes · GitHub**
-
-**Key Features:**
-- Cross-Platform Compatible (iOS compatibility)
-- Decentralized Mesh Network (Bluetooth LE for peer discovery)
-- End-to-End Encryption (X25519 key exchange + AES-256-GCM)
-- Channel-Based Chats (topic-based group messaging with optional password protection)
-- Store & Forward (message caching for offline peers)
-- IRC-Style Commands (/join
-- /msg
-- /who)
-- Emergency Wipe (triple-tap logo to clear data)
-- Modern Android UI (Jetpack Compose with Material Design 3)
-
----
-
-### 357. [cappahccino/sb-mcp](https://github.com/cappahccino/sb-mcp)  `innovation: 8`
-
-**A model context protocol server enabling secure, isolated database interactions for AI models like Claude.**
-
-**Key Features:**
-- Database CRUD operations via MCP
-- Secure integration with Supabase Postgres
-- Support for edge functions and CLI tools
-- Environment configuration and deployment options
-
----
-
-### 358. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `innovation: 8`
-
-**Node.js-based Model Context Protocol implementation for MobSF security analysis.**
-
-**Key Features:**
-- MobSF MCP integration
-- Automated security scanning
-- API-driven analysis endpoints
-- Report generation and visualization
-- Integration with third-party tools
-
----
-
-### 359. [cdmx-in/authentik-mcp](https://github.com/cdmx-in/authentik-mcp)  `innovation: 8`
-
-**A comprehensive GitHub repository providing MCP server implementations for Authentik API integration, including diagnostic, monitoring, and management tools.**
-
-**Key Features:**
-- Full-featured MCP servers (Python
-- Node.js)
-- Diagnostic and monitoring capabilities
-- User and group management
-- Application and flow configuration
-- System health and security monitoring
-- Audit trail and compliance reporting
-
----
-
-### 360. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `innovation: 8`
-
-**A server that analyzes images using GPT-4o-mini and OpenAI API.**
-
-**Key Features:**
-- Image URL analysis
-- Local file path analysis
-- OpenAI API integration
-- Security and quality monitoring
-- Code review and management
-- Workflow automation
-
----
-
-### 361. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `innovation: 8`
-
-**A tool for large language models to report impacts on Azure resources using natural language inputs.**
-
-**Key Features:**
-- Natural language impact reporting
-- Automatic Azure resource parsing
-- Support for multiple impact categories
-- Integration with Azure Management API
-- CLI and GUI support
-
----
-
-### 362. [chatmol/molecule-mcp](https://github.com/chatmol/molecule-mcp)  `innovation: 8`
-
-**A model-context-protocol server for molecules that enables AI-driven molecule modeling and interaction.**
-
-**Key Features:**
-- Model-context-protocol integration
-- AI-assisted molecule modeling
-- Secure code deployment
-- Automated workflows
-- Enterprise security
-
----
-
-### 363. [chris-schra/mcp-funnel](https://github.com/chris-schra/mcp-funnel)  `innovation: 8`
-
-**MCP Funnel Proxy**
-
-**Key Features:**
-- Wildcard tool filtering (tree-shaking)
-- 40-60% context reduction
-- multi-server aggregation
-- developer-centric proxy.
-
----
-
-### 364. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `innovation: 8`
-
-**A model context protocol server for managing Keycloak users and realms with AI-powered automation.**
-
-**Key Features:**
-- AI-powered administration of Keycloak users and realms
-- Integration with Claude Desktop and other MCP clients
-- Automated user operations via Model Context Protocol
-
----
-
-### 365. [clouatre-labs/math-mcp-learning-server](https://github.com/clouatre-labs/math-mcp-learning-server)  `innovation: 8`
-
-**A cloud-hosted educational mathematics server with interactive tools for math operations, matrix algebra, visualization, and persistent workspace.**
-
-**Key Features:**
-- math operations
-- matrix algebra
-- data visualization
-- persistent workspace
-
----
-
-### 366. [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)  `innovation: 8`
-
-**Wrangler, the CLI for Cloudflare Workers®**
-
-**Key Features:**
-- Cloudflare Workers SDK
-- Wrangler (CLI for Cloudflare Workers)
-- Create-Cloudflare (C3) CLI for creating and deploying new applications
-- Miniflare simulator for development/testing
-- Chrome DevTools fork for inspecting Workers pages.
-
----
-
-### 367. [coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest)  `innovation: 8`
-
-**Codebase Ingestion and LLM Prompt Generation**
-
-**Key Features:**
-- ['Codebase Ingestion via URL or directory path.'
-- 'Smart Formatting of the extracted content for LLM prompts.'
-- 'CLI tool usage (`gitingest`) for analyzing codebases.'
-- 'Option to include submodules using `--include-submodules`.'
-- 'Customizable output file naming using `--output/-o`.'
-- 'Handling private repositories via GitHub PATs (Personal Access Tokens).']
-
----
-
-### 368. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `innovation: 8`
-
-**Hermes Search MCP enables secure, type-safe full-text and semantic search over Azure Cognitive Search.**
-
-**Key Features:**
-- Full-text and semantic search capabilities
-- Type-safe operations with TypeScript
-- Integration with Azure Cognitive Search
-- Support for structured and unstructured data indexing
-
----
-
-### 369. [colygon/zkpmcp](https://github.com/colygon/zkpmcp)  `innovation: 8`
-
-**A tool for building and verifying zero-knowledge proofs using Circom, enabling privacy-preserving applications.**
-
-**Key Features:**
-- Build circuits from Circom files
-- Perform trusted setup for circuits
-- Generate proofs for circuits
-- Verify proofs
-
----
-
-### 370. [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp)  `innovation: 8`
-
-**Model Context Protocol (MCP) implementation for Opik, enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics.**
-
-**Key Features:**
-- Prompt lifecycle management
-- Workspace
-- project
-- and trace exploration
-- Metrics and dataset operations
-- MCP resources and resource templates for metadata-aware flows
-
----
-
-### 371. [configcat/mcp-server](https://github.com/configcat/mcp-server)  `innovation: 8`
-
-**A server enabling secure, isolated management of ConfigCat's feature flags and configurations.**
-
-**Key Features:**
-- Feature Flags Management
-- Environment Configuration
-- Integration Support
-- Audit Logging
-
----
-
-### 372. [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp)  `innovation: 8`
-
-**A remote MCP server providing structured access to scientific paper data for AI-driven research and analysis.**
-
-**Key Features:**
-- Remote connection via SSE or Streamable HTTP
-- Search papers with detailed experimental data
-- Structured results including methods
-- results
-- quality scores
-- and metadata
-
----
-
-### 373. [coop-deluxe/sm64coopdx](https://github.com/coop-deluxe/sm64coopdx)  `innovation: 8`
-
-**An official continuation of https://github.com/djoslin0/sm64ex-coop on sm64coopdx for the enhancements and progress it already has.**
-
-**Key Features:**
-- Online multiplayer synchronization of entities and levels
-- enhanced capability for modders via the Lua API (similar to Roblox/Garry's Mod)
-- community-driven project maintained by the Coop Deluxe Team.
-
----
-
-### 374. [creis-ai/mcp-property-valuation-server](https://github.com/creis-ai/mcp-property-valuation-server)  `innovation: 8`
-
-**MCP Property Valuation Server provides AI-driven property valuation and small district evaluation for real estate transactions.**
-
-**Key Features:**
-- Multi-dimensional small district rating system
-- Precise property valuation with detailed analysis
-- Secure data handling via APPID authentication
-- Standardized Markdown output format
-
----
-
-### 375. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `innovation: 8`
-
-**A tool to transform code repositories into formats optimized for large language models.**
-
-**Key Features:**
-- Smart Repository Scanning
-- Context Preservation
-- Multi-language Support
-- Metadata Enhancement
-- Efficient Processing
-
----
-
-### 376. [cuongpo/coti-mcp](https://github.com/cuongpo/coti-mcp)  `innovation: 8`
-
-**A blockchain-based platform enabling secure AI interactions with the COTI blockchain using Multi-Party Computation.**
-
-**Key Features:**
-- Account management and switching between networks
-- Private ERC20 token operations
-- Private ERC721 NFT operations
-- Transaction management and privacy features
-- Secure key generation and encryption
-
----
-
-### 377. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol server providing LLM agents with system utilities and tools.**
-
-**Key Features:**
-- IP geolocation
-- network diagnostics
-- system monitoring
-- cryptographic operations
-- qr code generation
-
----
-
-### 378. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `innovation: 8`
-
-**A modular Go implementation of the Model Context Protocol server, designed for secure and controlled file operations.**
-
-**Key Features:**
-- Path restriction system for file operations
-- Configurable allowed and denied paths
-- Secure execution of shell commands
-- Integration with Go tools and utilities
-
----
-
-### 379. [daipendency/daipendency-mcp](https://github.com/daipendency/daipendency-mcp)  `innovation: 8`
-
-**Model Context Protocol server for Daipendency enabling secure context management and integration.**
-
-**Key Features:**
-- Model Context Protocol server
-- Secure context management
-- Integration with external tools
-- Code review and tracking
-- Automated workflows
-- Instant dev environments
-
----
-
-### 380. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling LLMs to interface with ndb for local database queries.**
-
-**Key Features:**
-- Model Context Protocol server
-- Integration with ndb
-- LLM-enabled database queries
-
----
-
-### 381. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `innovation: 8`
-
-**A Model Context Protocol server for generating DecentSampler drum kit configurations.**
-
-**Key Features:**
-- WAV file analysis and validation
-- Global pitch and envelope controls
-- Multi-mic routing with MIDI controls
-- Flexible velocity layer handling
-- Muting group support
-- Auxiliary output routing
-- Documentation and developer tools
-
----
-
-### 382. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling developers to generate realistic human faces with customizable shapes, sizes, and appearances.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Customizable face generation with various shapes and sizes
-- Support for image output in multiple formats
-- Integration with VS Code via Cline extension
-- Automated build and deployment workflows
-
----
-
-### 383. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `innovation: 8`
-
-**A context-aware developer platform integrating AI and security tools for secure, automated software development workflows.**
-
-**Key Features:**
-- AI-powered code generation
-- Automated code review
-- Workflow automation
-- Secure development environment
-- Integration with external tools
-
----
-
-### 384. [davidorex/git-forensics-mcp](https://github.com/davidorex/git-forensics-mcp)  `innovation: 8`
-
-**A specialized MCP server for in-depth git repository analysis, focusing on branch relationships, commit patterns, and development insights.**
-
-**Key Features:**
-- Branch Overview
-- Time Period Analysis
-- File Changes Analysis
-- Merge Recommendations
-
----
-
-### 385. [dazeb/mcp-github-mapper](https://github.com/dazeb/mcp-github-mapper)  `innovation: 8`
-
-**A tool for mapping and analyzing GitHub repositories to provide detailed insights and structure information.**
-
-**Key Features:**
-- Map GitHub repositories remotely
-- Retrieve repository summary statistics
-- Analyze repository structure
-- Provide detailed repository file structure
-
----
-
-### 386. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `innovation: 8`
-
-**A model context protocol server enabling Claude to interact with Jupiter's swap API for blockchain operations.**
-
-**Key Features:**
-- MCP server integration
-- Claude AI model access
-- Swap transaction building/sending
-- Node.js installation
-- Secure development environment
-- Code review and management
-- Automation of workflows
-
----
-
-### 387. [deadletterq/mcp-opennutrition](https://github.com/deadletterq/mcp-opennutrition)  `innovation: 8`
-
-**A developer platform providing access to a comprehensive food database for nutrition analysis and barcode lookups.**
+**The MCP server offers developers and researchers access to the OpenNutrition database, which contains over 300,000 food items with detailed nutritional information. This tool enables seamless integration into applications for automated nutrition queries without relying on external APIs, ensuring pri**
 
 **Key Features:**
 - Access to comprehensive food database
@@ -5427,774 +737,63 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Barcode lookups
 - Local development environment
 
+*Tags: mcp, opennutrition, fooddatabase, nutritionanalysis, barcode, developertool, dataintegration, healthtech*
+
 ---
 
-### 388. [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)  `innovation: 8`
+### 44. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `innovation: 8` ★☆☆ 🔵
 
-**Cherry Studio: A powerful desktop AI assistant for producer.**
+**The project presents a comprehensive tectonochemical forecasting stack designed to model hydrocarbon, nitrogen, and water interactions in the Strait of Hormuz. It leverages MCP (Metal Core Processing) architecture with TensorFlow-based LSTM models for temporal forecasting, incorporating multi-source**
 
 **Key Features:**
-- Desktop AI assistant functionality
-- Integration with Deepseek API
-- Clear demonstration of an AI tool/agent framework.
+- MCP-first tectonochemical forecasting engine
+- Reproducible hydrocarbon-nitrogen-water modeling
+- Real-time data ingestion from multiple sources
+- TensorFlow LSTM with temporal attention mechanism
+- Multi-stress index monitoring (shipping risk
+- insurance
+- grid stability)
+- Optimization of process windows for feed gas and desalination processes
+- Secure code execution and artifact publishing
+- Integration with external monitoring APIs and dashboards
+
+*Tags: tectonochemistry, mcp, forecasting, energy, operations, data_integration, monitoring, optimization*
 
 ---
 
-### 389. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `innovation: 8`
+### 45. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server that integrates with Postman to provide structured access and management of API collections, environments, and APIs.**
+**A model context protocol server that enables semantic code search from local Git repositories, enhancing development workflows with contextual insights.**
 
 **Key Features:**
-- Collection CRUD operations
-- Folder and request management
-- Environment setup and management
-- API key authentication
-- Version control and collaboration features
-- Webhooks and monitoring integration
+- Local git repository processing
+- Semantic code chunk embedding generation
+- Context-aware search using Ollama
+- Integration with Claude Desktop for AI-assisted code review
+
+*Tags: code-context-mcp, ai-development, git-search, context-engineered, developer-tools*
 
 ---
 
-### 390. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `innovation: 8`
+### 46. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `innovation: 8` ★☆☆ 🔵
 
-**A stateless Model Context Protocol (MCP) server for interacting with blockchain and DeFi data.**
+**This project leverages FastAPI and the Model Context Protocol (MCP) to standardize communication between AI models and development environments. It provides a modular, asynchronous API server that supports JSON-RPC 2.0, SSE connections, and session management, enhancing scalability, maintainability,**
 
 **Key Features:**
-- Stateless architecture
-- Comprehensive DeFi data tools
-- Pagination support
-- Robust error handling
-- Tool integration for blockchain queries
+- Standardized context interaction via MCP
+- JSON-RPC 2.0 support
+- Server-sent events (SSE) for real-time updates
+- Modular architecture for easy extension
+- Asynchronous processing with FastAPI
+- Client test implementation
+
+*Tags: mcp, fastapi, ai-devops, model-integration, server-api, context-protocol, developer-tools*
 
 ---
 
-### 391. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `innovation: 8`
+### 47. [hanzoai/mcp](https://github.com/hanzoai/mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol (MCP) server for comprehensive domain analysis including WHOIS, DNS records, and DNS health checks.**
-
-**Key Features:**
-- WHOIS lookup
-- DNS record queries
-- DNS health checking
-- Comprehensive domain assessment
-- API integration with MCP protocol
-
----
-
-### 392. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `innovation: 8`
-
-**A Python-based MCP server enabling natural language interaction with the TON blockchain.**
-
-**Key Features:**
-- Natural Language Processing for blockchain queries
-- Trading pattern analysis
-- Hot trends detection
-- Forensic and compliance tools
-- Real-time TON blockchain data access
-
----
-
-### 393. [dfkai/xtquantai](https://github.com/dfkai/xtquantai)  `innovation: 8`
-
-**xtquantai integrates AI and MCP to enable AI access to quantitative trading data, enhancing decision-making with advanced analytics.**
-
-**Key Features:**
-- 基础数据查询
-- 获取交易日期
-- 获取板块股票列表
-- 获取股票详情
-- 获取历史行情数据
-- 创建图表面板
-- 创建自定义布局
-
----
-
-### 394. [dhkts1/sequentialstory](https://github.com/dhkts1/sequentialstory)  `innovation: 8`
-
-**A Python-based sequential thinking framework for structured problem-solving using narrative techniques.**
-
-**Key Features:**
-- Sequential Story tool for narrative-based problem structuring
-- Sequential Thinking tool for pure Python implementation
-- Integration with AI systems and MCP protocol support
-- Development environment setup and pre-commit hooks
-- Color-coded display of story elements
-
----
-
-### 395. [diganto-deb/local_file_organizer](https://github.com/diganto-deb/local_file_organizer)  `innovation: 8`
-
-**A Python-based file organization system using the Model Context Protocol to securely manage and categorize files across directories.**
-
-**Key Features:**
-- Directory security with permission checking
-- Smart categorization by file type (documents
-- images
-- videos
-- etc.)
-- Recursive processing for nested directory structures
-- Resource-efficient handling of large directory sets
-- Detailed analytics on file distribution by type
-
----
-
-### 396. [dion-hagan/mcp-server-spinnaker](https://github.com/dion-hagan/mcp-server-spinnaker)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI integration with Spinnaker for intelligent CI/CD operations.**
-
-**Key Features:**
-- AI-driven deployment decisions
-- proactive issue detection
-- continuous process optimization
-- automated root cause analysis
-
----
-
-### 397. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `innovation: 8`
-
-**A tool for creating and managing SQLite databases from compressed log files, enabling integration with MCP Server.**
-
-**Key Features:**
-- Create SQLite database from compressed logs
-- Interact with database using Model Context Protocol (MCP)
-- Extract and parse log data
-
----
-
-### 398. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `innovation: 8`
-
-**A first implementation of a FIWARE Model Context Protocol (MCP) server to enable context broker communication.**
-
-**Key Features:**
-- Context Broker interaction
-- CRUD operations
-- Entity publishing/updating
-- Stateless HTTP session support
-- Integration with external APIs via ngrok
-
----
-
-### 399. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `innovation: 8`
-
-**A context management platform for managing development workflows and tool integrations.**
-
-**Key Features:**
-- Socket-based transport with JSON-RPC 2.0 protocol
-- Session management and state persistence
-- Tool registry and dynamic registration
-- Capability negotiation for secure interactions
-- Project
-- workpackage
-- and task management
-- QA review workflow support
-- Initial setup and development mode configurations
-
----
-
-### 400. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI access to LeetCode problems, user data, and contest information.**
-
-**Key Features:**
-- Access to LeetCode API
-- Search problems and daily challenges
-- User profile and submission tracking
-- Contest ranking and details
-
----
-
-### 401. [domdomegg/google-documents-mcp.git](https://github.com/domdomegg/google-documents-mcp.git)  `innovation: 8`
-
-**A server enabling secure, isolated access to Google Docs for reading, creating, and editing documents.**
-
-**Key Features:**
-- OAuth integration with Google Docs API
-- Secure client credentials management
-- Cross-platform compatibility (web
-- mobile)
-- Real-time document synchronization
-- Granular access control and permissions
-
----
-
-### 402. [dreamfactorysoftware/df-mcp](https://github.com/dreamfactorysoftware/df-mcp)  `innovation: 8`
-
-**A self-hosted platform enabling secure, governed API access to enterprise data sources and local LLMs.**
-
-**Key Features:**
-- Secured API access
-- Role-based access control
-- Identity passthrough
-- Integration with enterprise applications
-- Data governance
-
----
-
-### 403. [drjforrest/mcp-things3](https://github.com/drjforrest/mcp-things3)  `innovation: 8`
-
-**A Model Context Protocol server for macOS Things3, enabling secure and efficient management of tasks and projects via AppleScript and x-call URLs.**
-
-**Key Features:**
-- Create Projects
-- Create Todos
-- View Tasks
-- Complete Tasks
-- Search Functionality
-- Robust Error Handling
-- Secure URL Encoding
-- AppleScript Integration
-- Validation and Metadata Management
-
----
-
-### 404. [duhlink/instagram-server-next-mcp](https://github.com/duhlink/instagram-server-next-mcp)  `innovation: 8`
-
-**A modular, type-safe Instagram MCP server built with TypeScript and Node.js, supporting secure media handling and integration with Chrome login sessions.**
-
-**Key Features:**
-- Modular architecture
-- Type-safe implementation
-- Automatic media downloading
-- SEO-friendly description generation
-- JSON-RPC 2.0 compliant communication
-
----
-
-### 405. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling secure note access and integration with AI assistants.**
-
-**Key Features:**
-- Model Context Protocol for Joplin
-- Integration with AI assistants like Claude
-- Secure code management and deployment
-- AI development workflow automation
-- Enterprise-grade security features
-
----
-
-### 406. [dxheroes/mcp-devtools](https://github.com/dxheroes/mcp-devtools)  `innovation: 8`
-
-**A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services.**
-
-**Key Features:**
-- Seamless integration with external tools via MCP
-- Extensible framework for custom integrations
-- Powerful interactions with AI assistants
-- Robust support for Jira and Linear platforms
-
----
-
-### 407. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)  `innovation: 8`
-
-**An unofficial model context protocol for the NHL API, enabling chat with live games, scores, stats, and teams.**
-
-**Key Features:**
-- Live game chat and updates
-- Standings and team statistics
-- Player biographical and performance data
-- Aggregated game scores and status
-- Historical data access
-
----
-
-### 408. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `innovation: 8`
-
-**A lightweight MCP server for AI models that enables stealth browser automation to improve integration with AI tools.**
-
-**Key Features:**
-- stealth browser automation
-- model context protocol integration
-- browser navigation and interaction
-- content extraction
-
----
-
-### 409. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `innovation: 8`
-
-**A secure, context-aware MCP server enabling seamless integration with Readwise Reader API for enriched document management.**
-
-**Key Features:**
-- Secure authentication using environment variables
-- Document metadata management (save
-- list
-- update
-- delete)
-- Tag-based filtering and search
-- Rich filtering by location
-- category
-- tags
-- and more
-
----
-
-### 410. [el-el-san/fal-mcp-server](https://github.com/el-el-san/fal-mcp-server)  `innovation: 8`
-
-**MCP server implementation for AI model context management and video generation.**
-
-**Key Features:**
-- AI model context management
-- video generation from text prompts
-- customizable video parameters
-- support for Luma Ray2 and Kling models
-- integration with Claude Desktop
-
----
-
-### 411. [emzimmer/server-moz-readability](https://github.com/emzimmer/server-moz-readability)  `innovation: 8`
-
-**A tool that extracts and transforms webpage content into clean, LLM-optimized Markdown.**
-
-**Key Features:**
-- Readability extraction
-- Markdown conversion
-- Content filtering
-- Metadata extraction
-
----
-
-### 412. [endaoment/endaoment-postgres-mcp](https://github.com/endaoment/endaoment-postgres-mcp)  `innovation: 8`
-
-**A model context protocol server enabling secure, standardized interaction between AI models and PostgreSQL databases.**
-
-**Key Features:**
-- Connects to PostgreSQL using connection pooling
-- Implements Model Context Protocol for AI model database interactions
-- Provides schema information as reusable resources
-- Handles SQL queries with retry logic
-- Supports graceful shutdown and error handling
-
----
-
-### 413. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `innovation: 8`
-
-**A model context protocol implementation using Epsilla tools for secure and efficient data handling.**
-
-**Key Features:**
-- Model Context Protocol
-- Code review automation
-- CI/CD integration
-- Secure code management
-- External tool integration
-
----
-
-### 414. [ertiqah/linkedin-mcp-runner](https://github.com/ertiqah/linkedin-mcp-runner)  `innovation: 8`
-
-**A tool that integrates LinkedIn context into AI responses for strategic decision-making.**
-
-**Key Features:**
-- Integrate LinkedIn context into AI responses
-- Analyze recent LinkedIn activity
-- Provide strategic insights based on user engagement
-- Support enterprise-level decision-making
-
----
-
-### 415. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `innovation: 8`
-
-**MCP servers extending AI model capabilities with tools and resources via the Model Context Protocol.**
-
-**Key Features:**
-- Type safety in MCP servers using Deno
-- Integration of various tool sets for text
-- data
-- and API operations
-- Modular architecture supporting extensibility and customization
-- Support for secure and efficient AI model deployment
-
----
-
-### 416. [esnark/blowback](https://github.com/esnark/blowback)  `innovation: 8`
-
-**Blowback Blowback aims to integrate MCP server with AI tools for frontend development, enabling advanced context-aware code assistance.**
-
-**Key Features:**
-- Integration of local development servers with AI tools like Claude Desktop and Cursor
-- AI-powered code completion and context management
-- Snapshot-based checkpoints for version control and testing
-- Screenshot capture and SQLite database management
-- HMR event monitoring and hot module replacement support
-
----
-
-### 417. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `innovation: 8`
-
-**A powerful server integrating Google AI Studio with Gemini API for advanced multi-modal content processing.**
-
-**Key Features:**
-- Multi-modal file processing (images
-- PDFs
-- audio
-- documents)
-- PDF-to-Markdown conversion
-- Image analysis and detailed visual description
-- Audio transcription with speaker identification
-- Integration with Gemini 2.5 models for context-aware generation
-
----
-
-### 418. [everythingishacked/Pants](https://github.com/everythingishacked/Pants)  `innovation: 8`
-
-**A video filter to add pants or blur out your lower half on Zoom calls when you forget to wear pants.**
-
-**Key Features:**
-- The pants filter uses OpenCV and MediaPipe's Pose detection to add a real-time pants filter to video input. The result is piped to a virtual camera output using pyvirtualcam. It allows users to toggle between different styles of pants or blur out the lower half of their body during Zoom calls.
-
----
-
-### 419. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `innovation: 8`
-
-**A Model Context Protocol server that converts Markdown to HTML.**
-
-**Key Features:**
-- Markdown to HTML conversion
-- Integration with AI tools like Claude Desktop
-- Support for enterprise-grade security
-- Automated build and deployment capabilities
-
----
-
-### 420. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters by translating natural language requests into Kubernetes operations.**
-
-**Key Features:**
-- Natural language understanding for Kubernetes operations
-- Executes kubectl commands and manages Kubernetes clusters
-- Interprets and returns structured responses from Kubernetes API
-- Supports integration with AI assistants like Claude
-- Cursor
-- and GitHub Copilot
-
----
-
-### 421. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling real-time command execution and interactive assistance within iTerm.**
-
-**Key Features:**
-- Model Context Protocol server
-- REPL support
-- Full terminal control
-- Code execution in iTerm
-- Interactive assistance
-
----
-
-### 422. [flexpa/mcp-fhir](https://github.com/flexpa/mcp-fhir)  `innovation: 8`
-
-**A model context protocol implementation for FHIR enabling secure, isolated access to healthcare data resources.**
-
-**Key Features:**
-- MCP server integration
-- FHIR resource access
-- secure context management
-- LLM interaction support
-
----
-
-### 423. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `innovation: 8`
-
-**A server that converts various file formats into Markdown descriptions using Cloudflare AI services.**
-
-**Key Features:**
-- Cloudflare AI integration
-- Markdown conversion
-- Cross-platform compatibility
-- File format support
-- User-friendly interface
-
----
-
-### 424. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `innovation: 8`
-
-**A server-based solution for analyzing and visualizing investor sentiment from US news headlines.**
-
-**Key Features:**
-- Analyze US news headlines
-- Daily and monthly sentiment analysis
-- Structured JSON outputs
-- Investor relevance filtering
-- Political breakdowns
-- Token budgeting
-- Rate-limit telemetry
-
----
-
-### 425. [freepik-company/freepik-mcp](https://github.com/freepik-company/freepik-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling seamless integration of AI assistants with Freepik APIs.**
-
-**Key Features:**
-- MCP Server Integration
-- AI Assistant Connectivity
-- Content Generation & Search
-- Image Classification
-- Custom Image Creation
-- Resource Management
-- Automated Workflows
-
----
-
-### 426. [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread)  `innovation: 8`
-
-**A tool that integrates micro services and LLM clients via MCP protocol to provide structured data for AI models.**
-
-**Key Features:**
-- Get bookshelf information from WeChat Readbook
-- Search books by keyword or detailed info
-- Retrieve book notes and highlights with chapter organization
-- Fetch best reviews and ratings for books
-- Integrate with Claude Desktop via JSON configuration
-
----
-
-### 427. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `innovation: 8`
-
-**A MCP server enabling secure access to Fulcra Context data via API, supporting local and remote configurations.**
-
-**Key Features:**
-- MCP server integration
-- OAuth2 token management
-- Local and remote connection support
-- Debugging utilities
-- API access for Fulcra Context
-
----
-
-### 428. [futureunreal/mcp-pdf2md](https://github.com/futureunreal/mcp-pdf2md)  `innovation: 8`
-
-**A tool for converting PDF files to structured Markdown format, supporting batch processing and intelligent document handling.**
-
-**Key Features:**
-- PDF to Markdown conversion
-- Multi-source support (local files and URLs)
-- Intelligent processing with best method selection
-- Batch processing for large PDF volumes
-- Structure preservation in output
-
----
-
-### 429. [ganelson/inform](https://github.com/ganelson/inform)  `innovation: 8`
-
-**The core software distribution for the Inform 7 programming language, which is a medium for literary writing and a prototyping tool in the games industry.**
-
-**Key Features:**
-- Inform is a programming language for interactive fiction. Its core features revolve around natural language syntax
-- serving as a medium for literary writing and a prototyping tool. It is also highly influential
-- ranking among the top 100 most influential programming languages according to the TIOBE index.
-
----
-
-### 430. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server providing daily horoscope readings and fortune telling for all zodiac signs.**
-
-**Key Features:**
-- MCP Server Integration
-- AI-Powered Horoscope Readings
-- Error Handling & Validation
-- IDE Plugin Support (VSCode)
-- Time Range Customization
-- Detailed Fortune Readings
-- Secure Development Practices
-
----
-
-### 431. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `innovation: 8`
-
-**A TypeScript implementation of a Model Context Protocol (MCP) server integrating with Google's Gemini Pro model for use in Claude Desktop App.**
-
-**Key Features:**
-- MCP Server Integration
-- Cloud-based AI Model Access
-- Secure API Communication
-- Developer Tools for Customization
-
----
-
-### 432. [georgenance/hackernews-mcp](https://github.com/georgenance/hackernews-mcp)  `innovation: 8`
-
-**A server that provides real-time access to Hacker News content for AI assistants and developers.**
-
-**Key Features:**
-- Fetch top stories from Hacker News
-- Get detailed story information
-- Retrieve comments and markdown content
-- Search and filter stories by keywords
-- Display story metadata
-
----
-
-### 433. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI tools like Claude to securely and efficiently manage Python development workflows.**
-
-**Key Features:**
-- File operations
-- Code analysis
-- Code execution
-- Dependency management
-- Project management
-
----
-
-### 434. [glzr-io/glazewm](https://github.com/glzr-io/glazewm)  `innovation: 8`
-
-**GlazeWM is a tiling window manager for macOS and Windows inspired by i3wm.**
-
-**Key Features:**
-- Tiling window management inspired by i3wm
-- YAML configuration support
-- multi-monitor support
-- customizable rules for windows
-- keyboard-driven command integration
-- easy one-click installation via package managers (Winget
-- Chocolatey
-- Scoop)
-- and optional integration with Zebar.
-
----
-
-### 435. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `innovation: 8`
-
-**A mcp server application for analyzing code repositories.**
-
-**Key Features:**
-- Repository analysis
-- Code clone and installation
-- Dependency management
-- Security scanning and vulnerability detection
-- Integration with CI/CD pipelines
-- Code review and change tracking
-- Automated workflows and actions
-
----
-
-### 436. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `innovation: 8`
-
-**A JSON model context protocol server enabling LLMs to interact with structured JSON data through standardized tools.**
-
-**Key Features:**
-- JSONPath querying
-- JSON transformation operations
-- Data filtering and aggregation
-- Date manipulation
-- String operations
-
----
-
-### 437. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `innovation: 8`
-
-**A modular MCP server for PowerPoint manipulation using Python, enabling advanced presentation creation, editing, and management.**
-
-**Key Features:**
-- 32 powerful tools organized into 11 specialized modules
-- Support for complete PowerPoint operations including template management and professional design
-- Enhanced parameter handling and intelligent operation selection
-- Comprehensive error handling and validation
-- Integration with external tools and workflows
-
----
-
-### 438. [google/timesketch](https://github.com/google/timesketch)  `innovation: 8`
-
-**Collaborative forensic timeline analysis using sketches for organizing and analyzing timelines.**
-
-**Key Features:**
-- Collaborative timeline organization via sketches
-- Rich annotations/tags for raw data
-- Collaborative analysis across users
-- Clear structure for forensic timelines.
-
----
-
-### 439. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling secure discovery and download of 3D models from Sketchfab.**
-
-**Key Features:**
-- Search for 3D models
-- View model details
-- Download models in various formats
-- Integrate with Claude or Cursor
-
----
-
-### 440. [greptimeteam/greptimedb-mcp-server](https://github.com/greptimeteam/greptimedb-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server for GreptimeDB that enables secure, isolated querying and analysis of observability data using SQL, TQL, and RANGE queries.**
-
-**Key Features:**
-- Model Context Protocol (MCP) integration
-- Read-only database access
-- Data masking for sensitive information
-- Audit logging of all tool invocations
-- Support for PromQL-compatible time-series analysis
-- Secure connection enforcement and protocol support
-
----
-
-### 441. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `innovation: 8`
-
-**A developer platform that integrates Brazilian public data APIs to enable AI assistants and applications to query services like postal codes, company registrations, currency exchange rates, and more.**
-
-**Key Features:**
-- Integrate Brazilian public data APIs
-- Support AI assistants via MCP protocol
-- Secure code deployment and management
-- Automated workflows and CI/CD integration
-
----
-
-### 442. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)  `innovation: 8`
-
-**A server providing tools to query Brazilian postal codes (CEP) using the MCP protocol.**
-
-**Key Features:**
-- API integration
-- code compilation
-- secure development
-- AI support
-- CI/CD pipeline
-
----
-
-### 443. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `innovation: 8`
-
-**A cloud-based MCP server for integrating large language models with Cloudflare APIs, enabling seamless interaction between LLMs and external systems.**
-
-**Key Features:**
-- Cloudflare MCP Server for IDE
-- Integration with Cline
-- Windsurf
-- Cursor
-- etc.
-- Secure code deployment and management
-- Automated workflows and CI/CD support
-- Developer workflow automation and code review
-- Security features including vulnerability detection and protection
-
----
-
-### 444. [hannesj/mcp-graphql-schema](https://github.com/hannesj/mcp-graphql-schema)  `innovation: 8`
-
-**A tool for LLMs to explore and understand GraphQL schemas, providing query, mutation, subscription details, type definitions, and field information.**
-
-**Key Features:**
-- Load any GraphQL schema file via command line
-- Explore query
-- mutation
-- and subscription fields
-- Search for types and fields using pattern matching
-- Filter out internal GraphQL types
-- Get simplified field information including types and arguments
-
----
-
-### 445. [hanzoai/mcp](https://github.com/hanzoai/mcp)  `innovation: 8`
-
-**Model Context Protocol server with 260+ tools for AI agents.**
+**The hanzoai/mcp project provides a unified developer platform integrating over 260 tools to support AI agents, enabling advanced context management, secure code execution, and seamless workflow automation across various environments.**
 
 **Key Features:**
 - Model Context Protocol server
@@ -6203,232 +802,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Automated workflows and task management
 - Developer-centric UI/UX components
 
----
-
-### 446. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `innovation: 8`
-
-**A Model Context Protocol server enabling LLMs to interact with Reddit content.**
-
-**Key Features:**
-- Fetch Reddit frontpage posts
-- Access subreddit information
-- Retrieve hot posts from subreddits
-- View post details
-- Display comments with depth
-- Integrate with LLMs for context-aware interactions
+*Tags: ai-agents, model-context-protocol, developer-tools, ai-infrastructure, context-isolation, code-security, ai-dev-environment, tool-integration*
 
 ---
 
-### 447. [healthnotelabs/modular-health-nips](https://github.com/healthnotelabs/modular-health-nips)  `innovation: 8`
-
-**A modular health note API integration for Nostr, enabling secure handling of encrypted health data.**
-
-**Key Features:**
-- Discover NIP-101h kinds
-- Prepare NIP-101h event structures
-- Fetch and decrypt encrypted health events
-- Configure client-side encryption/decryption
-
----
-
-### 448. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `innovation: 8`
-
-**Model Context Protocol extension for Hebrew calendar to enhance awareness and observance of Jewish holidays.**
-
-**Key Features:**
-- Hebrew calendar generation
-- Holiday list creation
-- Date conversion tools
-- Shabbat candle lighting times
-- Torah readings (full kriyah and triennial system)
-- Yahrzeits
-- birthdays
-- and anniversaries lookup
-
----
-
-### 449. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `innovation: 8`
-
-**A MCP server enabling automated training of linear regression models using Claude and a Python-based workflow.**
-
-**Key Features:**
-- Automated data preprocessing
-- Model training via Claude Desktop
-- RMSE evaluation
-- Integration with external tools
-- Support for linear regression models
-
----
-
-### 450. [heyzgj/mcp-feargreedindex](https://github.com/heyzgj/mcp-feargreedindex)  `innovation: 8`
-
-**A Model Context Protocol server integrating CoinMarketCap data for cryptocurrency market insights.**
-
-**Key Features:**
-- Integrate CoinMarketCap API
-- Smart caching for performance
-- TypeScript support
-- Modular design
-- Detailed error handling
-
----
-
-### 451. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `innovation: 8`
-
-**MCP Server for NovaCV API integration, enabling secure access to job application context protocols.**
-
-**Key Features:**
-- Generate resume PDF from text
-- Convert resume text to JSON Resume format
-- Analyze resume text for completeness and keyword usage
-- Transform text into structured JSON Resume
-- Integrate external tools and manage workflows
-
----
-
-### 452. [hithereiamaliff/mcp-datagovmy](https://github.com/hithereiamaliff/mcp-datagovmy)  `innovation: 8`
-
-**An unofficial Model Context Protocol (MCP) server enabling secure and efficient access to Malaysia's Open Data APIs.**
-
-**Key Features:**
-- Unified search across datasets and dashboards
-- Live metadata fetching from Nominatim for GTFS location searches
-- Zero-credential geocoding for GTFS location search
-- Built-in analytics endpoints and dashboard
-- Self-hosted deployment options with Docker
-- Integration with Firebase Analytics for tracking tool usage
-
----
-
-### 453. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `innovation: 8`
-
-**A server-based context protocol implementation for searching, reading, and accessing files within a Box environment.**
-
-**Key Features:**
-- Search files
-- Read files
-- Access files
-
----
-
-### 454. [holepunchto/bare](https://github.com/holepunchto/bare)  `innovation: 8`
-
-**A lightweight, modular JavaScript runtime designed for cross-platform execution on desktops and mobile devices.**
-
-**Key Features:**
-- Small and modular JavaScript runtime
-- Cross-platform support (desktop & mobile)
-- Native addon system
-- Lightweight threads with synchronous joins
-- Bidirectional interoperability between CJS and ESM
-- Support for native modules and platform-specific APIs
-
----
-
-### 455. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `innovation: 8`
-
-**A server-based solution for accessing and manipulating Google Spreadsheet data via Model Context Protocol (MCP) integration.**
-
-**Key Features:**
-- Access spreadsheet metadata
-- Retrieve specific sheet data
-- Format sheet data in markdown
-- Integrate with Claude for Desktop
-- Support API key and environment variables
-
----
-
-### 456. [hrishi0102/payman_mcp](https://github.com/hrishi0102/payman_mcp)  `innovation: 8`
-
-**A context-aware MCP server enabling secure, isolated payment operations for AI assistants.**
-
-**Key Features:**
-- Create and manage Payman payees (TEST_RAILS
-- US_ACH
-- CRYPTO_ADDRESS)
-- Send payments with custom amounts and memos
-- Search payees by name
-- contact info
-- or account details
-- Check current account balances
-- Secure API key management for authentication
-- Support SSE transport for real-time client communication
-
----
-
-### 457. [hrkalona/Fractal-Zoomer](https://github.com/hrkalona/Fractal-Zoomer)  `innovation: 8`
-
-**One of the most complete fractal generating software using java!**
-
-**Key Features:**
-- Fractal Zoomer offers a comprehensive suite of features for fractal generation
-- including: User Formulas/Custom User Functions
-- Plane Transformations
-- Rotation
-- Initial Perturbation
-- Bailout Tests
-- Palette Editor
-- Julia Sets
-- Julia Map
-- Polar Coordinates
-
----
-
-### 458. [hugohow/mcp-music-analysis](https://github.com/hugohow/mcp-music-analysis)  `innovation: 8`
-
-**Integrates audio analysis tools to provide insights from music files.**
-
-**Key Features:**
-- audio analysis
-- beat detection
-- duration measurement
-- MFCC computation
-- lyric transcription
-
----
-
-### 459. [hzzy2o/flux-cloudfare-mcp](https://github.com/hzzy2o/flux-cloudfare-mcp)  `innovation: 8`
-
-**A cloud-native MCP server enabling AI-driven image generation via Flux model, integrated with Cloudflare Workers for secure, scalable deployment.**
-
-**Key Features:**
-- High-quality image generation using Flux model
-- Seamless integration with AI assistants like Claude
-- Customizable parameters for output control
-- Secure local processing and API-based inference
-- Support for enterprise-grade security and compliance
-
----
-
-### 460. [idcdev/mcp-magic-ui](https://github.com/idcdev/mcp-magic-ui)  `innovation: 8`
-
-**A server enabling access and search for Magic UI components via the Model Context Protocol.**
-
-**Key Features:**
-- Component discovery through MCP tools
-- Automatic categorization of components
-- Local caching to reduce API calls
-- Support for both stdio and HTTP transport
-- Fallback mechanism with mock data
-
----
-
-### 461. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `innovation: 8`
-
-**DINO-X MCP empowers LLMs with advanced visual perception for real-world applications.**
-
-**Key Features:**
-- Image object detection
-- Object localization
-- Caption generation
-- Attribute reasoning
-- Pose estimation
-- Scene understanding
-- Visualization of detection results
-
----
-
-### 462. [ihatesea69/aws-mcp](https://github.com/ihatesea69/aws-mcp)  `innovation: 8`
+### 48. [ihatesea69/aws-mcp](https://github.com/ihatesea69/aws-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **AWS MCP enables secure, flexible integration of AI models with AWS services through natural language.**
 
@@ -6438,9 +816,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure credential management
 - Local execution with AWS credentials
 
+*Tags: aws-mcp, model-context-protocol, cloud-integration, ai-management, security, developer-tools*
+
 ---
 
-### 463. [imprvhub/mcp-status-observer](https://github.com/imprvhub/mcp-status-observer)  `innovation: 8`
+### 49. [imprvhub/mcp-status-observer](https://github.com/imprvhub/mcp-status-observer)  `innovation: 8` ★☆☆ 🔵
 
 **A tool for monitoring and querying the operational status of major digital platforms via the Model Context Protocol.**
 
@@ -6450,665 +830,30 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Platform-specific status details
 - Integration with AI providers and developer tools
 
+*Tags: modelcontext-protocol, operational-monitoring, ai-integration, platform-status, incident-tracking, developer-tools, cloud-infrastructure, ai-services*
+
 ---
 
-### 464. [instructa/ai-prompts-mcp](https://github.com/instructa/ai-prompts-mcp)  `innovation: 8`
+### 50. [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent)  `innovation: 8` ★☆☆ 🔵
 
-**Implementation of Model Context Protocol for AI Prompts API.**
+**mcp-agent is a simple, composable framework to build effective agents using Model Context Protocol. It provides full MCP support, implements patterns from Anthropic's 'Building Effective Agents' in a composable way, and enables durable agents by leveraging Temporal for robust execution. The core vis**
 
 **Key Features:**
-- Model Context Protocol implementation
-- TypeScript architecture
-- Monorepo structure
-- Environment configuration
-- Production server support
+- Full MCP support
+- Implementation of effective agent patterns (map-reduce
+- orchestrator
+- evaluator-optimizer
+- router)
+- Durable agents using Temporal for scaling and recovery
+- Simple and composable pattern design.
+
+*Tags: ['Agent Orchestration', 'Model Context Protocol', 'Temporal', 'MCP', 'AI Agents', 'Workflow', 'LLM Integration', 'Durable Agents'*
 
 ---
 
-### 465. [iqaicom/mcp-iqwiki](https://github.com/iqaicom/mcp-iqwiki)  `innovation: 8`
+### 51. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `innovation: 8` ★☆☆ 🔵
 
-**A model context protocol server enabling AI agents to interact with IQ.wiki content.**
-
-**Key Features:**
-- Wiki access via Model Context Protocol (MCP)
-- User contributions tracking by Ethereum address
-- Activity tracking for wiki creations and edits
-- Search functionality using natural language queries
-
----
-
-### 466. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `innovation: 8`
-
-**A server enabling LLMs to interact with web pages using browser automation via Playwright and Deno 2.**
-
-**Key Features:**
-- Model Context Protocol server
-- Browser automation via Playwright
-- JavaScript execution in real browser
-- Screenshot capture
-- Secure execution with Deno
-
----
-
-### 467. [jaokuohsuan/draw-things-mcp-cursor](https://github.com/jaokuohsuan/draw-things-mcp-cursor)  `innovation: 8`
-
-**Integrates Draw Things MCP cursor with MCP using Model Context Protocol for AI-driven image generation.**
-
-**Key Features:**
-- MCP cursor integration
-- image generation via model context protocol
-- negative prompt support
-- step control
-- customizable parameters
-
----
-
-### 468. [jayli52/api2mcptools](https://github.com/jayli52/api2mcptools)  `innovation: 8`
-
-**A Node.js package converting APIs into MCP tools for model context protocol integration.**
-
-**Key Features:**
-- API conversion
-- MCP tool generation
-- CLI support
-- code automation
-- security features
-
----
-
-### 469. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI interaction with Cursor IDE's chat history and project data.**
-
-**Key Features:**
-- Access Cursor chat history
-- Retrieve composer IDs
-- Query database tables
-- Refresh database paths
-
----
-
-### 470. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `innovation: 8`
-
-**A Spring Boot-based Model Context Protocol (MCP) server enabling interaction with GitHub Copilot for AI-assisted game development.**
-
-**Key Features:**
-- MCP server implementation using Spring Boot
-- Integration with GitHub Copilot for real-time code assistance
-- Game logic for Connect Four with AI opponent
-- Command-line interface for game interaction
-- Automatic server startup with VS Code extension
-
----
-
-### 471. [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog)  `innovation: 8`
-
-**Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, and release lifecycle management.**
-
-**Key Features:**
-- Repository management
-- Build tracking
-- Release lifecycle management
-- Artifact search and cataloging
-- Integration with JFrog Platform
-
----
-
-### 472. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `innovation: 8`
-
-**A simple MCP server demonstrating AI-driven gameplay for Lemonade Stand using Claude Desktop.**
-
-**Key Features:**
-- Dynamic weather system
-- Supply and demand simulation
-- Strategic pricing and inventory management
-- Profit tracking over 14 days
-- Integration with Claude Desktop tools
-
----
-
-### 473. [jkf87/hwp-mcp](https://github.com/jkf87/hwp-mcp)  `innovation: 8`
-
-**HWP-MCP is a Model Context Protocol server enabling AI models like Claude to control and manipulate Korean documents.**
-
-**Key Features:**
-- New document creation
-- Text insertion in documents
-- Table creation and data entry
-- Automated batch operations
-- Secure file handling with protection against unauthorized access
-
----
-
-### 474. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `innovation: 8`
-
-**Ein Model Context Protocol (MCP) Server for accessing Deutsche Bahn timetable data.**
-
-**Key Features:**
-- API integration with Deutsche Bahn Timetable API
-- MCP tools and resources for train schedules
-- station info
-- and changes
-- Support for semantic data processing and historical analysis
-- KI-based predictions for delays and passenger load
-- Multimodal transport connection management
-
----
-
-### 475. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `innovation: 8`
-
-**A tool for managing apps, beta testers, and app metadata in App Store Connect using conversational AI.**
-
-**Key Features:**
-- AI-powered app management
-- Comprehensive analytics dashboard
-- Streamlined beta testing tools
-- Localization management
-- Secure authentication via JWT
-- Real-time data access from Apple systems
-
----
-
-### 476. [joshuatanderson/factbook-mcp](https://github.com/joshuatanderson/factbook-mcp)  `innovation: 8`
-
-**A serverlet that integrates with the CIA World Factbook to fetch and display country information.**
-
-**Key Features:**
-- Model Context Protocol integration
-- Automated data fetching
-- Dynamic content rendering
-
----
-
-### 477. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `innovation: 8`
-
-**A command-line tool for project planning and management with AI-assisted development.**
-
-**Key Features:**
-- Project creation and configuration
-- Hierarchical structure (phases
-- tasks
-- subtasks)
-- Automatic progress calculation
-- HTML reports and visualization
-- Task management (add
-- remove
-- update
-- complete)
-
----
-
-### 478. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `innovation: 8`
-
-**A server enabling file modifications and control via AI-assisted Model Context Protocol.**
-
-**Key Features:**
-- add content at specific line
-- replace existing content
-- delete content
-- support UTF-8 encoding
-
----
-
-### 479. [jxnl/apple-mcp](https://github.com/jxnl/apple-mcp)  `innovation: 8`
-
-**Collection of apple-native tools for the MCP protocol to enable secure, context-aware communication.**
-
-**Key Features:**
-- Apple MCP tools
-- Secure communication
-- Context awareness
-- Privacy features
-- Integration with Apple devices
-
----
-
-### 480. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)  `innovation: 8`
-
-**A Python implementation for interacting with macOS applications via AppleScript, supporting integration with native apps and asynchronous operations.**
-
-**Key Features:**
-- Interact with macOS apps
-- Asynchronous operations
-- Error handling
-- Type-safe interfaces
-
----
-
-### 481. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `innovation: 8`
-
-**React MCP enables integration between Claude AI and React applications via the Model Context Protocol.**
-
-**Key Features:**
-- Integration with Claude Desktop
-- Model Context Protocol support
-- React application creation and modification
-- File and directory management
-- Process tracking and execution
-- Detailed process logs
-- Real-time output monitoring
-
----
-
-### 482. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `innovation: 8`
-
-**A Spring Boot-based MCP server enabling AI assistants to manage mock APIs via JSON, supporting full lifecycle control.**
-
-**Key Features:**
-- Model Context Protocol (MCP) integration
-- Dynamic API mocking via JSON
-- Simulation persistence
-- Docker-based deployment
-- AI assistant compatibility
-
----
-
-### 483. [karthikkrs/isms-mcp-project](https://github.com/karthikkrs/isms-mcp-project)  `innovation: 8`
-
-**A comprehensive security management platform integrating AI capabilities for enhanced information security.**
-
-**Key Features:**
-- User Management
-- Asset Management
-- Policy Management
-- Risk Management
-- Incident Management
-- AI Integration
-
----
-
-### 484. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)  `innovation: 8`
-
-**A framework for managing debugger sessions and enhancing large language model debugging workflows.**
-
-**Key Features:**
-- Debug Adapter Protocol Integration
-- Rich Debugging Tools
-- Flexible Configuration
-- Customizable Debugger Settings
-
----
-
-### 485. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)  `innovation: 8`
-
-**A secure Docker-based MCP server enabling isolated execution of shell commands for AI/development workflows.**
-
-**Key Features:**
-- Secure isolated Docker container execution
-- MCP protocol support for remote command execution
-- Non-root user environment for enhanced security
-- Persistent file mounting from host
-- Integration with Kubernetes tools (kubectl
-- helm)
-- AI-friendly development workspace
-
----
-
-### 486. [kazuph/mcp-fetch](https://github.com/kazuph/mcp-fetch)  `innovation: 8`
-
-**A tool for fetching and processing web content, including images, to support AI-driven applications.**
-
-**Key Features:**
-- Web content extraction
-- Image processing and optimization
-- Automatic file saving with date-based directory structure
-- Base64 encoding for AI display
-- Pagination support for text and images
-- Image subsampling and compression
-
----
-
-### 487. [kazuph/mcp-pocket](https://github.com/kazuph/mcp-pocket)  `innovation: 8`
-
-**A tool to integrate Pocket API with Claude Desktop for retrieving and managing saved articles.**
-
-**Key Features:**
-- Fetch saved articles from Pocket API
-- Mark articles as read in Pocket
-- Customize and organize saved content
-- Integrate with Claude Desktop for a unified experience
-
----
-
-### 488. [kbsooo/mcp_atom_of_thoughts](https://github.com/kbsooo/mcp_atom_of_thoughts)  `innovation: 8`
-
-**A framework for decomposing complex problems into atomic reasoning units for enhanced AI inference.**
-
-**Key Features:**
-- Decomposition-contraction mechanism
-- Automatic termination based on depth or confidence
-- Confidence-based conclusion suggestion
-- Support for hypothesis verification
-- Integration of premise
-- reasoning
-- hypothesis
-- verification
-- and conclusion atoms
-
----
-
-### 489. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `innovation: 8`
-
-**A server-based solution for managing property data via the Model Context Protocol, supporting both stdio and streamable HTTP transport.**
-
-**Key Features:**
-- Property and room type management
-- Reservations CRUD operations with custom fields and lock codes
-- Availability calendars
-- Listings and channel listings
-- Messaging and guest communication
-- Review management and response handling
-- Webhooks for real-time notifications
-- Custom channels and income methods
-- Integration with Claude and other MCP clients
-
----
-
-### 490. [kentaro/aivis-speech-mcp](https://github.com/kentaro/aivis-speech-mcp)  `innovation: 8`
-
-**A server implementation for integrating AivisSpeech using the Model Context Protocol (MCP) to enable AI-driven voice synthesis.**
-
-**Key Features:**
-- MCP protocol integration
-- TypeScript-based API design
-- High-quality text-to-speech synthesis
-- Scalable architecture
-- Environment configuration support
-
----
-
-### 491. [keonchennl/mcp-graphdb](https://github.com/keonchennl/mcp-graphdb)  `innovation: 8`
-
-**A model context protocol server enabling LLMs to query Ontotext GraphDB using SPARQL.**
-
-**Key Features:**
-- SPARQL query execution
-- GraphDB integration
-- Read-only access
-- Model context protocol
-- AI platform compatibility
-
----
-
-### 492. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `innovation: 8`
-
-**A platform for AI-assisted code generation integrated with Cerebras MCP to enhance productivity and intelligence.**
-
-**Key Features:**
-- AI-powered code generation
-- Integration with AI tools (Claude Code
-- Cline
-- Cursor)
-- Visual code diff display
-- Secure development environment
-- IDE integration support
-
----
-
-### 493. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `innovation: 8`
-
-**A tool for analyzing and debugging MCP logs directly within the client environment.**
-
-**Key Features:**
-- Direct MCP log access
-- Smart filtering and search
-- Paginated browsing
-- Large file handling
-- Integration with Claude Desktop
-
----
-
-### 494. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `innovation: 8`
-
-**A server that enables secure and automated conversion of Excel and Apple Numbers files to PDF, integrating with AI assistants for streamlined file management.**
-
-**Key Features:**
-- Convert Excel (.xls/.xlsx) and Apple Numbers (.numbers) files to PDF
-- Integration with Claude AI for conversational file conversion
-- Secure file handling respecting project boundaries
-
----
-
-### 495. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `innovation: 8`
-
-**A Model Context Protocol server that converts various file formats to Markdown using the MarkItDown utility.**
-
-**Key Features:**
-- File format conversion
-- Markdown output generation
-- Integration with MCP clients
-- Support for OCR and metadata extraction
-
----
-
-### 496. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `innovation: 8`
-
-**A server enabling Fledge functionality to interact with Cursor AI via natural language.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server
-- API key authentication
-- Tool integration
-- Real-time data access
-- Secure deployment
-
----
-
-### 497. [krzko/google-cloud-mcp](https://github.com/krzko/google-cloud-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server enabling secure, context-aware interactions with Google Cloud services.**
-
-**Key Features:**
-- Connects to Google Cloud services via MCP protocol
-- Provides tools for managing billing
-- IAM
-- logging
-- monitoring
-- and security
-- Supports automated error detection and remediation
-- Integrates with CI/CD pipelines and developer workflows
-
----
-
-### 498. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) service for retrieving image dimensions and compressing images from URLs and local files.**
-
-**Key Features:**
-- Retrieve image dimensions from URLs
-- Compress images using TinyPNG API
-- Compress local images using TinyPNG API
-- Fetch image links from Figma API
-- Integrate with MCP client for programmatic access
-
----
-
-### 499. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `innovation: 8`
-
-**A model context protocol server for DuckDB enabling unified database interaction.**
-
-**Key Features:**
-- Unified query interface
-- Database interaction via MCP
-- Read-only mode support
-- Secure database handling
-
----
-
-### 500. [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)  `innovation: 8`
-
-**A Python-based MCP server for tracking and analyzing cryptocurrency whale transactions.**
-
-**Key Features:**
-- get_recent_transactions
-- get_transaction_details
-- query_whale_activity
-- api_key_configuration
-
----
-
-### 501. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `innovation: 8`
-
-**A tool for advanced reasoning and reflection using the Gemini API to enhance decision-making processes.**
-
-**Key Features:**
-- Gemini API integration
-- Code completion with Copilot
-- Workflow automation
-- Secure code deployment
-- CI/CD support
-
----
-
-### 502. [kursk-ye/code2flow-mcp-server](https://github.com/kursk-ye/code2flow-mcp-server)  `innovation: 8`
-
-**A platform that enables AI applications to generate and access code call graphs via MCP protocol.**
-
-**Key Features:**
-- Generate code call graphs
-- Support multiple programming languages
-- Integrate with AI tools
-- Provide code analysis features
-
----
-
-### 503. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `innovation: 8`
-
-**A model context protocol server enabling LLMs to interact with and query Kuzu databases.**
-
-**Key Features:**
-- Model context protocol integration
-- Database schema inspection
-- Cypher query execution
-- Data querying capabilities
-
----
-
-### 504. [lakphy/deep-reasoning-mcp](https://github.com/lakphy/deep-reasoning-mcp)  `innovation: 8`
-
-**A deep reasoning MCP tool enabling advanced context-based decision making using deepseek-r1 model.**
-
-**Key Features:**
-- deep reasoning
-- context management
-- model integration
-- code security
-- automated workflows
-
----
-
-### 505. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)  `innovation: 8`
-
-**The lamaalrajih/kicad-mcp project provides a Model Context Protocol (MCP) server for integrating with KiCad, enabling seamless interaction between LLMs and hardware design tools.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Resource access via resources vs tools vs prompts
-- Natural language interaction capabilities
-- Project management features (list
-- search
-- analysis)
-- Design rule checking and DRC support
-- Visualization of PCB layouts
-- Circuit pattern recognition
-- BOM generation and analysis
-
----
-
-### 506. [laulauland/bluesky-context-server](https://github.com/laulauland/bluesky-context-server)  `innovation: 8`
-
-**A Bluesky Context Server enabling secure, isolated context management for AI applications.**
-
-**Key Features:**
-- MCP server integration
-- AI-powered context queries
-- Secure data handling
-- Automated workflow execution
-
----
-
-### 507. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `innovation: 8`
-
-**A tool for extracting and analyzing Xcode build errors and warnings to assist AI assistants in debugging Swift projects.**
-
-**Key Features:**
-- Extracts diagnostics from Xcode build logs
-- Parses complex diagnostics including Swift concurrency warnings
-- Provides detailed error and warning information with file paths
-- line numbers
-- and notes
-- Supports code suggestions and fixes for common issues
-
----
-
-### 508. [letz-ai/letzai-mcp](https://github.com/letz-ai/letzai-mcp)  `innovation: 8`
-
-**A GitHub-hosted implementation of the LetzAI MCP for image generation, enabling integration with Claude Desktop App.**
-
-**Key Features:**
-- Model Context Protocol (MCP) integration
-- Image generation via prompt-based API
-- Node.js runtime environment
-- Cloud deployment and configuration
-
----
-
-### 509. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `innovation: 8`
-
-**A secure MCP server for content safety using Baidu Cloud models.**
-
-**Key Features:**
-- MCP server deployment
-- input analysis via Baidu Cloud models
-- secure configuration management
-- content safety enforcement
-- integration with Cursor AI editor
-
----
-
-### 510. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `innovation: 8`
-
-**A GitHub-based tool for searching ArXiv papers using the Model Context Protocol (MCP).**
-
-**Key Features:**
-- MCP integration
-- ArXiv paper search
-- code review tools
-- CI/CD support
-- secure code deployment
-
----
-
-### 511. [lite/iterm-mcp](https://github.com/lite/iterm-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling real-time command execution and interactive assistance within iTerm2.**
-
-**Key Features:**
-- Model context protocol integration
-- REPL support
-- CLI command execution
-- Full terminal control
-- Debugging tools
-
----
-
-### 512. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `innovation: 8`
-
-**A Borg-based MCP server enabling advanced querying and integration with external tools.**
-
-**Key Features:**
-- Query database and tables using SQL
-- Execute SQL queries with Node.js
-- Integrate external tools via APIs
-- Support enterprise-grade security features
-- Enable automated workflows and code reviews
-- Provide instant dev environments with Codespaces
-
----
-
-### 513. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `innovation: 8`
-
-**A tool for managing code changes, security, and workflow automation in a modular context.**
+**The 'terminal-mcp-idk' project provides a GitHub-based platform for developers to manage code reviews, security checks, infrastructure integration, and workflow automation. It emphasizes secure development practices, enterprise-grade security features, and seamless integration with tools like Copilo**
 
 **Key Features:**
 - code review
@@ -7117,218 +862,79 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - integration with Copilot
 - CI/CD support
 
+*Tags: git, security, developer, ci, mcp, ai, code, release*
+
 ---
 
-### 514. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `innovation: 8`
+### 52. [manimohans/farcaster-mcp](https://github.com/manimohans/farcaster-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server for simulating dice rolls with support for standard and Fate/Fudge dice notation.**
+**The Borg Project's 'Farcaster-MCP' repository provides a comprehensive API-based interface for developers to access and manipulate data from the Farcaster network. It enables interaction with various components such as user casts, channel information, user profiles, and more, facilitating seamless i**
 
 **Key Features:**
-- Dice Notation Parsing
-- Multiple Dice Types Support
-- Random Rolling with Probability Control
-- Validation using Zod schemas
-- Integration with Claude Desktop
+- Retrieve user casts by FID
+- Get username casts
+- Fetch channel casts
+- View user profile details
+- List channels with search filtering
+- Show user following relationships
+- Display user followers
+- Analyze cast reactions
+
+*Tags: farcaster, developer, network, integration*
 
 ---
 
-### 515. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `innovation: 8`
+### 53. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server supporting HTTP streaming for the Context7 project, enabling remote access without local installation.**
+**The Verge News MCP Server is a specialized tool designed to bring The Verge's RSS feed directly to Claude Desktop, enabling users to fetch daily or weekly tech news, search articles by keyword, and receive random news selections from the past week. It leverages the Model Context Protocol for seamles**
 
 **Key Features:**
-- HTTP streaming support
-- Context7 MCP server integration
-- Code review and collaboration tools
-- Security features and vulnerability management
-- Integration with external services and tools
+- Fetch daily or weekly tech news
+- Search articles by keyword
+- Get random news selections from the past week
+
+*Tags: cloud services, news integration, developer tools, api integration, web development*
 
 ---
 
-### 516. [ltejedor/newsfeed-mcp](https://github.com/ltejedor/newsfeed-mcp)  `innovation: 8`
+### 54. [marcusbai/caiyun-weather-mcp](https://github.com/marcusbai/caiyun-weather-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A platform for integrating AI assistants with RSS feeds to deliver real-time news and information.**
+**A cloud-based weather API service providing real-time and forecasted weather data for various applications.**
 
 **Key Features:**
-- News aggregation from multiple RSS feeds
-- AI assistant integration (e.g.
-- Claude)
-- Customizable news feeds
-- Detailed article content access
-- Real-time updates and notifications
+- Real-time weather data (temperature
+- humidity
+- wind speed
+- etc.)
+- Minute-level precipitation forecasts
+- Hourly and daily weather predictions
+- Air quality trend analysis
+- Detailed life index for lifestyle suggestions
+- Weather alert notifications
+
+*Tags: weather-api, mcp-settings, smartery, cloud-native, api-integration, data-processing, environmental-monitoring*
 
 ---
 
-### 517. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `innovation: 8`
+### 55. [markqvist/nomadnet](https://github.com/markqvist/nomadnet)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server that retrieves relevant documentation from a knowledge base using the Gemini API, enabling developers to access curated technical information directly.**
+**Off-grid, resilient mesh communication with strong encryption, forward secrecy and extreme privacy. Nomad Network allows you to build private and resilient communications platforms that are in complete control and ownership of the people that use them. No signups, no agreements, no handover of any d**
 
 **Key Features:**
-- MCP server for accessing documentation
-- Integration with Gemini API for context-aware responses
-- Support for multiple technologies and tools
-- Automated code review and security checks
+- Encrypted messaging over packet-radio
+- LoRa
+- WiFi or anything else. Zero-configuration
+- minimal-infrastructure mesh communication. Distributed and encrypted message store holds messages for offline users. Connectable nodes that can host pages and files. Node-side generated pages with PHP
+- Python
+- bash or others. Built-in text-based browser for interacting with contents on nodes. Easy to use and bandwidth efficient markup language for writing pages. Page caching in browser.
+
+*Tags: ['mesh networking', 'packet radio', 'lora', 'encryption', 'privacy', 'zero-config', 'distributed systems', 'reiculum'*
 
 ---
 
-### 518. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `innovation: 8`
+### 56. [maverickg59/sushimcp](https://github.com/maverickg59/sushimcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Borg-based MCP server enabling AI-driven access and management of Fathom Analytics data.**
-
-**Key Features:**
-- MCP server integration for Fathom Analytics
-- AI-powered analytics tooling
-- Secure code execution and protection
-- Automated workflows and CI/CD support
-
----
-
-### 519. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `innovation: 8`
-
-**A server-based implementation for monitoring Ayd model context using the Model Context Protocol.**
-
-**Key Features:**
-- MCP Server Integration
-- Ayd Model Context Monitoring
-- Real-time Status Updates
-- Secure Configuration Management
-
----
-
-### 520. [magenie33/quality-dimension-generator](https://github.com/magenie33/quality-dimension-generator)  `innovation: 8`
-
-**A sophisticated Model Context Protocol server that generates precise quality evaluation dimensions and assessment criteria for tasks or projects.**
-
-**Key Features:**
-- AI-powered analysis
-- Transforms vague requirements into measurable standards
-- Generates specific quality dimensions with scoring criteria
-
----
-
-### 521. [mahdin75/geoserver-mcp](https://github.com/mahdin75/geoserver-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server implementation that enables Large Language Models to interact with GeoServer REST APIs for geospatial data and services.**
-
-**Key Features:**
-- Integration of LLMs with GeoServer REST API
-- Geospatial data and service access via MCP protocol
-- Support for spatial queries
-- map visualizations
-- and OGC-compliant web services
-- Customizable client configurations (e.g.
-- Claude Desktop or Cursor)
-- Secure deployment options including Docker and direct installation
-
----
-
-### 522. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `innovation: 8`
-
-**A GameBoy emulator server enabling LLMs to interact with GameBoy screens via protocol.**
-
-**Key Features:**
-- MCP server implementation
-- GameBoy screen control
-- ROM loading and rendering
-- SDK-based protocol support
-- automated deployment tools
-
----
-
-### 523. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `innovation: 8`
-
-**A TypeScript-based MCP server for fetching npm package information.**
-
-**Key Features:**
-- search npm package
-- install npm mcp server
-- integrate with ai models
-- code review tools
-- secure code deployment
-
----
-
-### 524. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `innovation: 8`
-
-**A model context protocol server enabling AI interaction with Figma files.**
-
-**Key Features:**
-- add_figma_file
-- read_comments
-- post_comment
-- reply_to_comment
-
----
-
-### 525. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `innovation: 8`
-
-**A standalone MCP server enabling AI models to access and query the Australian Pharmaceutical Benefits Scheme (PBS) API using natural language LLM integration.**
-
-**Key Features:**
-- Model Context Protocol (MCP) support for PBS data
-- Natural language LLM integration for querying pharmaceutical information
-- Secure
-- structured access to PBS data via HTTP/SSE
-- Customizable API endpoints and tool invocations
-- Real-time updates and structured pharmaceutical data output
-
----
-
-### 526. [matthewdcage/vapi-mcp](https://github.com/matthewdcage/vapi-mcp)  `innovation: 8`
-
-**Vapi MCP server integrates Vapi's voice AI with Cursor for context-aware interactions.**
-
-**Key Features:**
-- Vapi MCP server integration
-- Voice AI context management
-- Secure API key configuration
-- Environment variable management
-- Direct server execution support
-
----
-
-### 527. [mattiasw/browserloop](https://github.com/mattiasw/browserloop)  `innovation: 8`
-
-**A Model Context Protocol server for capturing screenshots and monitoring browser console logs during web development.**
-
-**Key Features:**
-- High-quality screenshot capture using Playwright
-- Console log reading and collection from web pages
-- Cookie-based authentication for protected pages
-- Docker containerization for consistent environments
-- Support for localhost and remote URLs
-- Configurable viewport sizes and capture options
-
----
-
-### 528. [mattmorgis/nuanced-mcp](https://github.com/mattmorgis/nuanced-mcp)  `innovation: 8`
-
-**A model context protocol server enabling LLMs to analyze code structure via call graphs.**
-
-**Key Features:**
-- Initialize call graphs
-- Switch between repositories
-- Analyze function dependencies
-- Get detailed function information
-
----
-
-### 529. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol server to enhance AI applications with rich data from Brasil resources.**
-
-**Key Features:**
-- BrasilAPI data querying
-- Model Context Protocol (MCP) support
-- Integration with AI applications
-- Rich data enrichment from Brazil resources
-- Automated workflow management
-
----
-
-### 530. [maverickg59/sushimcp](https://github.com/maverickg59/sushimcp)  `innovation: 8`
-
-**SushiMCP is a model context protocol server that enhances AI development environments by providing contextual information to LLM models.**
+**SushiMCP serves as a dev tools MCP (Model Context Protocol) that delivers contextual data to developers' IDEs, improving the performance and accuracy of LLMs when generating code. It integrates seamlessly with AI development workflows, enabling faster context-aware responses and better integration w**
 
 **Key Features:**
 - Contextual information delivery
@@ -7337,75 +943,28 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Support for multiple LLMs
 - Customizable configuration
 
+*Tags: mcp, mlm, llms, developer-tools, ai-integration, context-aware, code-generation, devops*
+
 ---
 
-### 531. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `innovation: 8`
+### 57. [mcp-get/community-servers](https://github.com/mcp-get/community-servers)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server for retrieving and analyzing issues from Sentry.io.**
+**The MCP Server LLM.txt tool is designed to extract and serve contextual information from LLM.txt files, allowing AI models to interpret file dependencies, directory structures, and code relationships. This enhances development environments by providing intelligent navigation, search, and context ret**
 
 **Key Features:**
-- Retrieve and analyze Sentry issues
-- Inspect error reports and stack traces
-- Integrate with Claude Desktop via uvx
-- Support project slug-based analysis
-- Enable detailed issue information viewing
+- Directory listing
+- Context extraction
+- Multi-query search
+- Local caching
+- Cross-platform support
+
+*Tags: ai development, code context, llm integration, file management, developer tools, contextual ai, server api, code search*
 
 ---
 
-### 532. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `innovation: 8`
+### 58. [mhe8mah/webp-batch-mcp](https://github.com/mhe8mah/webp-batch-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**Conduit is a Model Context Protocol (MCP) server enabling seamless integration with Phabricator and Phorge APIs for advanced automation.**
-
-**Key Features:**
-- MCP integration
-- secure authentication
-- type safety
-- runtime validation
-- smart pagination
-- token optimization
-
----
-
-### 533. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)  `innovation: 8`
-
-**A GitLab MCP integration for AI assistants to review code changes directly within merge requests.**
-
-**Key Features:**
-- Merge Request Analysis
-- File-Specific Diffs
-- Version Comparison
-- Review Management (Comments
-- Approval)
-- Project Overview & Lists
-
----
-
-### 534. [metehan777/alsoasked-mcp](https://github.com/metehan777/alsoasked-mcp)  `innovation: 8`
-
-**A platform for managing and analyzing People Also Asked data to enhance SEO and content optimization.**
-
-**Key Features:**
-- Search People Also Ask questions
-- Integrate with Google's APIs
-- Customizable search parameters
-
----
-
-### 535. [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)  `innovation: 8`
-
-**A Kubernetes observability platform enabling LLM interaction with external data sources via MCP.**
-
-**Key Features:**
-- eBPF-based telemetry collection
-- Kubernetes-native observability
-- LLM integration via Claude Desktop App
-- API-driven access to metrics and logs
-
----
-
-### 536. [mhe8mah/webp-batch-mcp](https://github.com/mhe8mah/webp-batch-mcp)  `innovation: 8`
-
-**A cross-platform batch WebP conversion tool that integrates with MCP for efficient image processing.**
+**The mhe8mah/webp-batch-mcp project provides a robust, multi-platform server-based solution for converting PNG, JPG, and JPEG images to WebP format. It leverages Google's cwebp compression engine for optimal performance while offering a fallback to Sharp for compatibility. The tool supports concurren**
 
 **Key Features:**
 - Batch conversion of multiple image formats
@@ -7417,36 +976,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Metadata preservation
 - Detailed conversion reporting
 
----
-
-### 537. [microsoft/mcp](https://github.com/microsoft/mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling seamless integration of AI agents with diverse data sources and tools.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server implementation
-- Integration with Azure services
-- Support for AI assistants and IDEs
-- Secure code execution and development workflows
-- Customizable tooling for enterprise applications
+*Tags: webp-batch, mcp, image-processing, conversion, ai-development, batch-processing, cross-platform, compression*
 
 ---
 
-### 538. [mightydillah/apple-doc-mcp](https://github.com/mightydillah/apple-doc-mcp)  `innovation: 8`
+### 59. [milancermak/starknet-mcp](https://github.com/milancermak/starknet-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A tool that provides seamless access to Apple Developer Documentation with smart search and wildcard support.**
-
-**Key Features:**
-- Smart search with symbol resolution
-- Wildcard support
-- Separate article results
-- Integration with AI coding assistants
-
----
-
-### 539. [milancermak/starknet-mcp](https://github.com/milancermak/starknet-mcp)  `innovation: 8`
-
-**Model context protocol server for Starknet RPC enabling secure and isolated communication between applications.**
+**The Starknet-MCP project provides a Model Context Protocol Server that facilitates secure and efficient communication between Starknet nodes. It allows developers to interact with the Starknet blockchain using MCP (Model Context Protocol) methods, supporting functionalities such as block retrieval, **
 
 **Key Features:**
 - Starknet RPC methods
@@ -7454,456 +990,67 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with MCP
 - Real-time blockchain data access
 
+*Tags: starknet, mcp, blockchain, security, developer, rpc, enterprise, ai*
+
 ---
 
-### 540. [milisp/codexia](https://github.com/milisp/codexia)  `innovation: 8`
+### 60. [nahmanmate/code-research-mcp-server](https://github.com/nahmanmate/code-research-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**A Tauri v2 app for Codex CLI + Claude Code — combining agent workflows, a prompt notepad, and an IDE-like editor in one workspace.**
+**The Borg Project's Code Research MCP Server is an open-source tool that integrates with various developer platforms to provide a unified interface for searching, accessing, and managing programming resources. It supports multiple languages and platforms, including GitHub, Stack Overflow, MDN Web Doc**
 
 **Key Features:**
-- ['Agent Workflows: Task Scheduler for recurring jobs.'
-- 'Remote Control via Headless Web Server.'
-- 'Workspace Management: Git worktree management
-- project file tree
-- IDE-like editor
-- prompt notepad.'
-- 'Claude Integration (AI capability).'
-- 'Tauri v2 architecture with Rust backend and React/TypeScript frontend.']
+- Code search across multiple platforms
+- Integration with Stack Overflow
+- MDN Web Docs
+- GitHub
+- npm
+- Caching for performance
+- Error handling and debugging tools
+
+*Tags: code-research, developer-tools, ai-integration, platform-agnostic, search-enhancement, mcp-server, github-integration, security-features*
 
 ---
 
-### 541. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)  `innovation: 8`
+### 61. [nerfels/mind-map](https://github.com/nerfels/mind-map)  `innovation: 8` ★☆☆ 🔵
 
-**MilkDrop 3.0 is a portable program that supports any audio source, double-preset (.milk2), loading presets based on beat detection and much more.**
+**A model context protocol server for intelligent code and project analysis, leveraging AI-driven pattern recognition and memory caching.**
 
 **Key Features:**
-- Support for any audio source (Spotify
-- YouTube
-- SoundCloud
-- Winamp...)
-- the introduction of 'double-preset' (.milk2 file) mixing two presets simultaneously
-- real-time toggling of FPS (60/90/120fps)
-- real-time auto-transitioning between presets based on beat detection
-- and new color manipulation features.
+- Context-aware caching
+- Brain-inspired learning patterns
+- Code pattern detection
+- Document and file analysis
+- Multi-language AST parsing
+- Automated CI/CD integration
+- Memory optimization techniques
+
+*Tags: context-aware, ai-driven, code-analysis, memory-optimization, multi-language, associative-learning, debugging, project-intelligence*
 
 ---
 
-### 542. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `innovation: 8`
+### 62. [nickbaumann98/everart-forge-mcp](https://github.com/nickbaumann98/everart-forge-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP Task Server implementation for task management using the Model Context Protocol, supporting both CLI and web interfaces.**
+**An advanced MCP server for Cline that integrates with EverArt's AI models to generate vector and raster images, supporting multiple styles and formats.**
 
 **Key Features:**
-- Task creation and management
-- Task filtering and status updates
-- Dual interface modes (STDIO and HTTP+SSE)
-- Comprehensive validation and error handling
-- Automated testing and server shutdown
+- Vector graphics generation using Recraft-Vector model
+- Raster image generation in PNG
+- JPEG
+- WebP formats
+- Support for multiple AI models (5000
+- 6000
+- 7000
+- 8000
+- 9000)
+- Custom output paths and filenames
+- Web project integration
+- Automatic directory creation and format validation
+
+*Tags: mcp, everart, ai, image-generation, developer-tools, ai-model-integration, code-generation, security*
 
 ---
 
-### 543. [mingdaocloud/hap-mcp](https://github.com/mingdaocloud/hap-mcp)  `innovation: 8`
-
-**HAP-MCP Server enables secure, isolated context management for AI-driven applications, facilitating seamless integration of machine learning models within enterprise workflows.**
-
-**Key Features:**
-- Model Context Protocol (MCP) server integration
-- Secure code execution and protection against leaks
-- Automated workflow automation and CI/CD support
-- Developer-friendly APIs for AI tool integration
-- Enhanced security features including vulnerability management
-
----
-
-### 544. [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser)  `innovation: 8`
-
-**An experimental Gecko-based web browser for iOS 14+ designed to run independently of WebKit.**
-
-**Key Features:**
-- Gecko-based rendering engine
-- Support for iOS 14+ and later
-- Engine updates independent of OS
-- Customizable extensions and app support
-- Live development environment with sideloading options
-
----
-
-### 545. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `innovation: 8`
-
-**A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
-
-**Key Features:**
-- Dynamic configuration of coding guidelines
-- Integration with external guidelines via URLs
-- Real-time code validation and security scanning
-- Customizable development standards
-- Automatic updates without server restart
-
----
-
-### 546. [mistizz/mcp-japanesetextanalyzer](https://github.com/mistizz/mcp-japanesetextanalyzer)  `innovation: 8`
-
-**日本語テキストの形態素解析を行い、言語的特徴を分析するMCPサーバーです。**
-
-**Key Features:**
-- 日本語テキストの文字数（スペースや改行を除いた実質的な文字数）
-- 日本語テキストの単語数
-- 形態素解析による詳細な言語的特徴分析
-- 平均文長、品詞の割合、語彙の多様性、助詞・カタカナ・漢字の割合、敬語使用頻度、句読点数
-
----
-
-### 547. [mkearl/dependency-mcp](https://github.com/mkearl/dependency-mcp)  `innovation: 8`
-
-**A Model Context Protocol server for analyzing code dependencies and architectural patterns.**
-
-**Key Features:**
-- Dependency graph generation in JSON/DOT format
-- Architectural analysis and scoring
-- File metadata extraction
-- Support for multiple programming languages (TypeScript
-- JavaScript
-- C#
-- Python)
-
----
-
-### 548. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `innovation: 8`
-
-**A secure command-line interface for MCP clients with customizable security policies.**
-
-**Key Features:**
-- Secure command execution with strict validation
-- Command whitelisting and flag restrictions
-- Path traversal prevention
-- Shell operator blocking (optional)
-- Execution timeouts and length limits
-- Detailed error reporting
-- Async operation support
-- Working directory restriction and validation
-
----
-
-### 549. [mobizt/build-your-own-x](https://github.com/mobizt/build-your-own-x)  `innovation: 8`
-
-**Build your own (insert technology here)**
-
-**Key Features:**
-- A comprehensive collection of tutorials and guides focused on building or understanding core technologies from the ground up
-- covering areas like 3D Rendering
-- Augmented Reality
-- BitTorrent Clients
-- Blockchain/Crypto tools
-- and various programming paradigms (C++
-- C#
-- Java
-- JavaScript
-- Python).
-
----
-
-### 550. [modelcontextprotocol-servers/google-search-mcp](https://github.com/modelcontextprotocol-servers/google-search-mcp)  `innovation: 8`
-
-**A Playwright-based tool for performing Google searches, bypassing anti-bot mechanisms and extracting structured results for AI assistants.**
-
-**Key Features:**
-- Anti-bot bypass
-- Automatic CAPTCHA handling
-- State persistence
-- Multi-language support
-- Browser session saving
-
----
-
-### 551. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived)  `innovation: 8`
-
-**A MCP server integrating Brave Search API for web and local search capabilities.**
-
-**Key Features:**
-- Brave Search API integration
-- Web and local search capabilities
-- Flexible filtering and smart fallbacks
-- Secure context management
-
----
-
-### 552. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `innovation: 8`
-
-**This repository provides the specification and documentation for the Model Context Protocol, a protocol designed to enable secure, context-aware communication between AI models.**
-
-**Key Features:**
-- Model context sharing
-- Secure communication protocols
-- Code signing and verification
-- Integration with CI/CD pipelines
-- Automated security scanning
-- Developer workflow automation
-
----
-
-### 553. [monadical-sas/zulip-mcp](https://github.com/monadical-sas/zulip-mcp)  `innovation: 8`
-
-**A model context protocol server enabling AI assistants to interact with Zulip workspaces.**
-
-**Key Features:**
-- Integrate Zulip API for AI assistant interaction
-- Support message posting
-- direct messages
-- emoji reactions
-- Channel management including subscriptions and users
-- Docker-based deployment for scalability
-
----
-
-### 554. [namin/dafny-mcp](https://github.com/namin/dafny-mcp)  `innovation: 8`
-
-**A tool for verifying code correctness using Dafny within the Model Context Protocol.**
-
-**Key Features:**
-- Dafny Verifier Tool
-- Model Context Protocol support
-- Code verification
-- Integration with Claude
-- Automated testing
-
----
-
-### 555. [nathanonn/mcp-url-fetcher](https://github.com/nathanonn/mcp-url-fetcher)  `innovation: 8`
-
-**A tool for fetching and converting web content to various formats using the Model Context Protocol.**
-
-**Key Features:**
-- URL fetching from any source
-- Format conversion (HTML
-- JSON
-- Markdown
-- plain text)
-- Automatic content detection
-- Security measures for web content
-- Integration with Claude for Desktop
-
----
-
-### 556. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) compatible server for securely interacting with NEAR blockchain.**
-
-**Key Features:**
-- Interact with NEAR accounts using AI models
-- Manage NEAR account balances and status
-- Sign and send transactions
-- Create and manage new accounts
-- Inspect and execute smart contracts
-- Import private keys for secure access
-
----
-
-### 557. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol Server enabling integration with NebulaGraph 3.x for advanced data modeling and querying.**
-
-**Key Features:**
-- Model Context Protocol Server
-- Seamless access to NebulaGraph 3.x
-- Configuration via environment variables
-- Command-line interface
-- Support for schema management and querying
-
----
-
-### 558. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)  `innovation: 8`
-
-**A cloud-based MCP server enabling secure, isolated interaction between FreeCAD and Claude Desktop for collaborative engineering workflows.**
-
-**Key Features:**
-- MCP (Model Context Protocol) server integration
-- Secure remote access via RPC server
-- Automatic startup on FreeCAD launch
-- Remote connection configuration
-- Integration with Claude Desktop for seamless workflow
-
----
-
-### 559. [neno-is-ooo/mcp-openverse](https://github.com/neno-is-ooo/mcp-openverse)  `innovation: 8`
-
-**A server enabling secure, isolated access to openly licensed images from Openverse for development and testing.**
-
-**Key Features:**
-- Open-source MCP server
-- Image search with filters
-- License verification
-- Attribution handling
-
----
-
-### 560. [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)  `innovation: 8`
-
-**Neo4j MCP Servers enable context management between large language models and external systems, facilitating secure and efficient data exchange.**
-
-**Key Features:**
-- Model Context Protocol (MCP) servers
-- Secure communication with Aura accounts
-- Cloud deployment options
-- Graph data modeling and visualization
-
----
-
-### 561. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `innovation: 8`
-
-**A GitHub-based platform for managing code repositories, issues, pull requests, and project workflows with advanced search, automation, and security features.**
-
-**Key Features:**
-- Automatic branch creation
-- Comprehensive error handling
-- Git history preservation
-- Batch file and code operations
-- Advanced search across repositories and issues
-- Pull request management
-- Security features including vulnerability detection
-- Code review and commenting
-- Integration with external tools
-
----
-
-### 562. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `innovation: 8`
-
-**A Model Context Protocol server enabling interaction with the Status Invest API for stock data and indicators.**
-
-**Key Features:**
-- Fetch stock data
-- Fetch indicators
-- Data validation with Zod
-- Integration with external APIs
-
----
-
-### 563. [newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp](https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp)  `innovation: 8`
-
-**A MCP server integrating DeepSeek R1 reasoning with Claude 3.5 Sonnet for context-aware, conversational AI responses.**
-
-**Key Features:**
-- DeepSeek reasoning engine
-- Claude 3.5 Sonnet response generation
-- OpenRouter unified API integration
-- Two-stage processing (50k & 600k character limits)
-- Context clearing and conversation management
-
----
-
-### 564. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `innovation: 8`
-
-**A server-based platform for managing and storing code snippets across multiple programming languages.**
-
-**Key Features:**
-- Create Snippet
-- List Snippets
-- Delete Snippet
-- Lint
-- Build
-- Contribute
-
----
-
-### 565. [nighttrek/software-planning-mcp](https://github.com/nighttrek/software-planning-mcp)  `innovation: 8`
-
-**An experiment in software planning using MCP to structure and track development tasks.**
-
-**Key Features:**
-- Interactive Planning Sessions
-- Task Management
-- Complexity Scoring
-- Implementation Plans
-- Code Examples
-- Insights & Analytics
-
----
-
-### 566. [nikolamilosevic86/verifAI](https://github.com/nikolamilosevic86/verifAI)  `innovation: 8`
-
-**VerifAI is a Generative Search/Productivity engine with Verifiable answers.**
-
-
----
-
-### 567. [nodegis/geo-mcp-server](https://github.com/nodegis/geo-mcp-server)  `innovation: 8`
-
-**A geospatial processing server enabling coordinate system conversions and spatial analysis for applications.**
-
-**Key Features:**
-- coordinate system conversion
-- distance calculation
-- area calculation
-- spatial analysis tools
-
----
-
-### 568. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `innovation: 8`
-
-**A Node.js application providing a Model Context Protocol (MCP) server for interacting with Harbor container registry.**
-
-**Key Features:**
-- MCP Server for Harbor
-- Automated testing with Jest
-- TypeScript-based development
-- Integration with Harbor operations
-- Support for projects
-- repositories
-- tags
-- and Helm charts
-
----
-
-### 569. [odancona/code2prompt-mcp](https://github.com/odancona/code2prompt-mcp)  `innovation: 8`
-
-**A tool that generates contextual prompts from codebases to enhance AI interaction.**
-
-**Key Features:**
-- Contextual prompt generation
-- Code analysis
-- AI integration
-
----
-
-### 570. [odgrim/mcp-datetime](https://github.com/odgrim/mcp-datetime)  `innovation: 8`
-
-**A TypeScript implementation of the Model Context Protocol (MCP) server providing datetime and timezone information to AI systems.**
-
-**Key Features:**
-- Get current time in local timezone
-- Retrieve current system timezone
-- List available timezones
-- Access timezone info via URI resources
-- Support for SSE mode with custom port/uri prefix
-- Integration with AI systems via MCP protocol
-
----
-
-### 571. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `innovation: 8`
-
-**A TypeScript-based companion MCP server for Drupal that integrates with STDIO transport, enabling efficient communication and data handling.**
-
-**Key Features:**
-- MCP server integration
-- STDIO transport support
-- TypeScript-based architecture
-- Docker container deployment
-- Secure authentication mechanisms
-- Development and production readiness
-
----
-
-### 572. [omer-ayhan/custom-context-mcp](https://github.com/omer-ayhan/custom-context-mcp)  `innovation: 8`
-
-**A model context protocol server that transforms text into structured JSON using predefined templates.**
-
-**Key Features:**
-- Group and structure text based on JSON templates with placeholders
-- Extract key-value pairs from AI-generated text for downstream use
-- Support nested JSON structures and complex data extraction
-- Integrate with AI models to automate data structuring and processing
-
----
-
-### 573. [omniwaifu/pydantic-ai-docs-server](https://github.com/omniwaifu/pydantic-ai-docs-server)  `innovation: 8`
+### 63. [omniwaifu/pydantic-ai-docs-server](https://github.com/omniwaifu/pydantic-ai-docs-server)  `innovation: 8` ★☆☆ 🔵
 
 **A programmatic interface to access and manage Pydantic-AI documentation via Model Context Protocol.**
 
@@ -7916,149 +1063,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - etc.
 - Provide changelog content for review
 
----
-
-### 574. [onnx/onnx](https://github.com/onnx/onnx)  `innovation: 8`
-
-**Open standard for machine learning interoperability.**
-
-**Key Features:**
-- ONNX provides an open source format for AI models
-- defining an extensible computation graph model with built-in operators and standard data types. It focuses on capabilities needed for inferencing (scoring)
-- enabling interoperability between frameworks
-- and streamlining the path from research to production.
+*Tags: pydantic-ai, documentation-server, ai-docs, github-integration, mcp-server, developer-tools, code-management, security-features*
 
 ---
 
-### 575. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `innovation: 8`
+### 64. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `innovation: 8` ★☆☆ 🔵
 
-**A server-based solution using MCP to scan URLs via urlscan.io.**
-
-**Key Features:**
-- MCP protocol integration
-- URL scanning via urlscan.io
-- secure code execution
-- automated workflow support
-
----
-
-### 576. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server that enhances Zig language support with code optimization, compute unit estimation, code generation, and best practices.**
-
-**Key Features:**
-- Modern build system support for Zig 0.15.2+
-- Code optimization and performance analysis
-- Automated migration guidance for legacy patterns
-- Enhanced module system integration
-- Comprehensive code generation from natural language prompts
-- Detailed code recommendations for safety and efficiency
-
----
-
-### 577. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `innovation: 8`
-
-**A community-built Model Context Protocol (MCP) server enabling AI assistants to interact with Coda documents.**
-
-**Key Features:**
-- coda_list_documents
-- coda_list_pages
-- coda_create_page
-- coda_get_page_content
-- coda_replace_page_content
-- coda_append_page_content
-- coda_duplicate_page
-- coda_rename_page
-- coda_peek_page
-- coda_resolve_link
-
----
-
-### 578. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `innovation: 8`
-
-**A toolset for automating API integration, code generation, and design-to-code workflows using Figma.**
-
-**Key Features:**
-- Figma integration for seamless design-to-code conversion
-- API automation with TypeScript interface generation
-- Asset management and extraction from Figma files
-- Visual similarity comparison between Figma prototypes and project pages
-- Customizable project standards and code rules
-
----
-
-### 579. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `innovation: 8`
-
-**Maya MCP server enables AI-powered control of Autodesk Maya via natural language using the Model Context Protocol.**
-
-**Key Features:**
-- AI assistant integration for Maya
-- Natural language command execution
-- Dynamic tool registration
-- Scene and object manipulation
-- Model context protocol support
-
----
-
-### 580. [paulotaylor/voyp-mcp](https://github.com/paulotaylor/voyp-mcp)  `innovation: 8`
-
-**Voyp MCP server enables secure, two-way integration between AI models and external data sources, facilitating seamless call context management.**
-
-**Key Features:**
-- Construct robust call contexts
-- Search for business information
-- Call and make appointments/reservations
-- Provide call status updates
-
----
-
-### 581. [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)  `innovation: 8`
-
-**Bluetooth mesh chat, IRC vibes**
-
-**Key Features:**
-- Dual Transport Architecture (Bluetooth mesh for offline + Nostr protocol for internet-based messaging)
-- Location-Based Channels (Geohash coordinates)
-- Intelligent Message Routing (Bluetooth → Nostr fallback)
-- Decentralized Mesh Network
-- Noise Protocol Encryption
-- IRC-Style Commands (/msg
-- /who style interface).
-
----
-
-### 582. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `innovation: 8`
-
-**PageSpeed MCP Server integrates AI capabilities with PageSpeed Insights to analyze website performance metrics.**
-
-**Key Features:**
-- Performance metrics analysis
-- Core Web Vitals evaluation
-- Accessibility audits
-- SEO insights
-
----
-
-### 583. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `innovation: 8`
-
-**A server for managing LLM contexts with YAML-based configuration and resource management.**
-
-**Key Features:**
-- Resource management (text
-- CLI
-- code
-- images)
-- Tool system registration and execution
-- Prompt management with templates and dynamic inputs
-- Multiple transport options (SSE
-- custom)
-- Resource watching and hot-reload capabilities
-
----
-
-### 584. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `innovation: 8`
-
-**MCP Server extension for GitLab to enable review comments and merge request management.**
+**This project introduces an MCP (Model Context Protocol) server extension for GitLab, designed to enhance collaboration by allowing reviewers to post comments on merge requests and providing functionality to retrieve merge request information and latest versions. It integrates seamlessly with GitLab'**
 
 **Key Features:**
 - Review comments posting for merge requests
@@ -8066,60 +1077,29 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Access latest version of merge requests
 - Post discussion comments on merge requests
 
+*Tags: mcp, gitlab-review, code-review, security, developer-tools*
+
 ---
 
-### 585. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `innovation: 8`
+### 65. [pipedreamhq/pipedream](https://github.com/pipedreamhq/pipedream)  `innovation: 8` ★☆☆ 🔵
 
-**A tool designed to assist in complex reasoning and problem-solving by providing structured thought processes.**
+**This technical resource outlines the architecture and functionality of Pipedream's Model Context Protocol (MCP) server, focusing on how it enables secure, isolated, and scalable context management for applications. It details the setup of MCP servers, user authentication via OAuth, dynamic app disco**
 
 **Key Features:**
-- Step back and think through complex problems
-- Break down reasoning into discrete steps
-- Cache intermediate results during complex calculations
-- Show its work when solving problems
-- Provide detailed thought logs and explanations
+- MCP server reference implementation
+- User authentication and authorization
+- Dynamic app discovery
+- API request management
+- Secure credential storage
+- Integration with external tools
+
+*Tags: modelcontextprotocol, apiintegration, developertools, security, contextmanagement, pipedream, mcpserver, applicationsecurity*
 
 ---
 
-### 586. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `innovation: 8`
+### 66. [pontusab/directories](https://github.com/pontusab/directories)  `innovation: 8` ★☆☆ 🔵
 
-**A Node.js server implementing the Model Context Protocol (MCP) to enable AI clients to interact with the Directus API.**
-
-**Key Features:**
-- MCP server integration
-- AI client interaction
-- Directus API support
-
----
-
-### 587. [politwit1984/mcp-perplexity-server](https://github.com/politwit1984/mcp-perplexity-server)  `innovation: 8`
-
-**A Model Context Protocol server for intelligent code analysis and debugging using Perplexity AI, integrated with Claude desktop client.**
-
-**Key Features:**
-- Intelligent error analysis
-- Pattern detection
-- Comprehensive solutions
-- Best practices and coding standards
-- Error prevention tips
-
----
-
-### 588. [pollinations/chucknorris](https://github.com/pollinations/chucknorris)  `innovation: 8`
-
-**MCP server that dynamically adapts LLM enhancement prompts using jailbreak techniques for improved performance.**
-
-**Key Features:**
-- Dynamic schema adaptation
-- Jailbreak prompt integration
-- Two-phase approach to bypass detection
-- Model-specific prompt customization
-
----
-
-### 589. [pontusab/directories](https://github.com/pontusab/directories)  `innovation: 8`
-
-**A community hub for Cursor, providing plugins, MCP servers, events, and thousands of developers building together.**
+**This repository is a platform that serves as a community hub for the 'Cursor' tool. It outlines how to build applications using Cursor, including plugins, MCP servers, events, and jobs. The project structure suggests a modern web application built with Next.js (App Router) and Bun, leveraging Supaba**
 
 **Key Features:**
 - The platform provides a place for plugins
@@ -8132,26 +1112,47 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Tailwind CSS
 - React Email
 - Fuse.js for search
+- and Luma API for community events.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Developer UX', 'MCP/A2A', 'Infrastructure', 'Vector Databases & Search', 'Coding Tools'*
 
 ---
 
-### 590. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `innovation: 8`
+### 67. [prixyy/rag_based_mcp](https://github.com/prixyy/rag_based_mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server tool for generating O'Reilly parody dev books, integrating with Claude Desktop.**
+**The PRIXYY/Rag_Based_MCP project is an AI-powered platform designed to enhance document understanding by leveraging the GroundX API. It allows users to upload PDFs and ask questions about their content, delivering accurate and relevant responses based on the parsed data. The system integrates seamle**
 
 **Key Features:**
-- MCP server integration for O'Reilly book generation
-- Support for custom titles
-- authors
-- and images
-- Automated code generation and testing
-- Cloud deployment and CI/CD support
+- Ingest new documents
+- Answer questions based on documents
+- Context-aware responses
+- Integration with GroundX API
+
+*Tags: groundx, mcp, ai, documentanalysis, intelligentquerying, developertools, security, apiintegration*
 
 ---
 
-### 591. [processing/processing4](https://github.com/processing/processing4)  `innovation: 8`
+### 68. [probelabs/probe](https://github.com/probelabs/probe)  `innovation: 8` ★☆☆ 🔵
 
-**Release Processing 4.0 · processing/processing4**
+**Probe bridges the gap between raw text search (grep) and vector-based RAG by utilizing Tree-sitter for AST parsing and ripgrep for speed. It allows AI agents to query codebases using boolean logic to retrieve entire functions or classes rather than fragmented text lines or arbitrary vector chunks. T**
+
+**Key Features:**
+- AST-aware structural search
+- zero-indexing semantic retrieval
+- MCP server integration
+- token budget management
+- session-based context deduplication
+- boolean query language support
+- complete code block extraction
+- multi-language tree-sitter parsing
+
+*Tags: ast-parsing, tree-sitter, code-context, mcp-protocol, semantic-search, ripgrep, token-optimization, context-window-management*
+
+---
+
+### 69. [processing/processing4](https://github.com/processing/processing4)  `innovation: 8` ★☆☆ 🔵
+
+**Revision 1285 – 9 August 2022 On the 21st anniversary of the very first Processing release (revision 0001), we're posting the final 4.0, which is the 286th release of the software. The primary goal for Processing 4 is to keep everyone's code running, even as operating systems, hardware, and hairline**
 
 **Key Features:**
 - The release addresses several key areas: 
@@ -8173,11 +1174,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - removing sin/cos lookup tables).
 4.0.1 is available!
 
+*Tags: processing-1285-4.0, processing-bot, Processing 4.0, baggage, bug fix, software release, operating system compatibility, application export*
+
 ---
 
-### 592. [https://github.com/projectM-visualizer](https://github.com/projectM-visualizer)  `innovation: 8`
+### 70. [https://github.com/projectM-visualizer](https://github.com/projectM-visualizer)  `innovation: 8` ★☆☆ 🔵
 
-**projectM Visualizer · GitHub**
+**projectM Visualizer · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. Dismiss alert Pinned Loading projectm projectm Public projectM - Cross-platform Music Visualization Library.**
 
 **Key Features:**
 - projectM Visualizer (Cross-platform Music Visualization Library)
@@ -8186,141 +1189,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Rust
 - Qt).
 
----
-
-### 593. [pyroprompts/any-chat-completions-mcp](https://github.com/pyroprompts/any-chat-completions-mcp)  `innovation: 8`
-
-**A server-based platform enabling integration of any large language model as a tool within the Borg ecosystem.**
-
-**Key Features:**
-- Integrate multiple AI chat completion APIs
-- Dynamic tool selection per context
-- Context-aware interactions
-- Scalable deployment options
+*Tags: cpp, c++, rust, sdl, music visualization, cross-platform, audio, milkdrop compatible*
 
 ---
 
-### 594. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `innovation: 8`
+### 71. [rafalwilinski/aws-mcp](https://github.com/rafalwilinski/aws-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for advanced code analysis and transformation using tree-hugger-js-mcp, supporting static analysis, refactoring, and integration with AI-driven development workflows.**
-
-**Key Features:**
-- Code analysis and pattern matching
-- Automated code transformation
-- Integration with MCP server for AI agents
-- Support for TypeScript and JSX
-- Development and testing environments
-
----
-
-### 595. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `innovation: 8`
-
-**A tool for auditing npm package dependencies to identify security vulnerabilities using real-time remote registry integration.**
-
-**Key Features:**
-- Real-time security vulnerability scanning
-- Remote npm registry integration
-- Detailed CVSS scoring and CVE references
-- Automatic fix recommendations
-- Support for multiple severity levels
-
----
-
-### 596. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI assistants to safely delete files using relative or absolute paths with smart resolution.**
-
-**Key Features:**
-- File deletion via MCP
-- Smart path resolution
-- Support for relative and absolute paths
-- Secure deletion with error messages
-- Compatibility with Claude and other MCP-compatible AI assistants
-
----
-
-### 597. [qpd-v/mcp-wordcounter](https://github.com/qpd-v/mcp-wordcounter)  `innovation: 8`
-
-**A Model Context Protocol server for analyzing text documents with word and character counting capabilities.**
-
-**Key Features:**
-- word counting
-- character counting
-- document analysis
-- text statistics
-
----
-
-### 598. [quanticsoul4772/analytical-mcp](https://github.com/quanticsoul4772/analytical-mcp)  `innovation: 8`
-
-**Analytical MCP Server provides AI-driven statistical analysis, decision support, and research verification tools for Claude.**
-
-**Key Features:**
-- Statistical Analysis
-- Decision Analysis
-- Logical Reasoning
-- Research Verification
-
----
-
-### 599. [quarkiverse/quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers)  `innovation: 8`
-
-**A server enabling Large Language Models to interact with databases via JDBC, supporting multiple database types and providing a unified interface.**
-
-**Key Features:**
-- JDBC protocol support
-- Multi-database compatibility
-- Integration with Quarkus ecosystem
-- Dynamic configuration via command line
-
----
-
-### 600. [qwang07/duck-duck-mcp](https://github.com/qwang07/duck-duck-mcp)  `innovation: 8`
-
-**Implementation of a DuckDuckGo search engine integrated with the Model Context Protocol (MCP) for AI-driven context-aware applications.**
-
-**Key Features:**
-- DuckDuckGo search engine integration
-- Customizable search settings (region
-- safe search)
-- Structured search result output
-- Metadata extraction
-- Scalable for AI/ML applications
-
----
-
-### 601. [r-huijts/firstcycling-mcp](https://github.com/r-huijts/firstcycling-mcp)  `innovation: 8`
-
-**A Model Context Protocol server providing professional cycling data for analysis and visualization.**
-
-**Key Features:**
-- Retrieve rider biographical information
-- Access race results and statistics
-- Explore historical race data
-- Analyze performance trends
-- Visualize team and career progression
-
----
-
-### 602. [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp)  `innovation: 8`
-
-**A web-based platform enabling AI-driven exploration, analysis, and interaction with the Rijksmuseum's art collection through natural language queries.**
-
-**Key Features:**
-- Search Artworks
-- Artwork Details
-- High-Resolution Images
-- User Collections
-- Image Viewing
-- Artist Timeline
-- Collection Analysis
-- Visual Details
-
----
-
-### 603. [rafalwilinski/aws-mcp](https://github.com/rafalwilinski/aws-mcp)  `innovation: 8`
-
-**A model context protocol server enabling natural language interaction with AWS resources.**
+**The aws-mcp project provides a Model Context Protocol (MCP) server that allows AI assistants like Claude to interact with AWS environments in a natural language interface. This facilitates seamless querying and management of various AWS resources such as EC2 instances, S3 buckets, Lambda functions, **
 
 **Key Features:**
 - Natural language querying of AWS resources
@@ -8329,136 +1204,31 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with AWS profiles and SSO
 - Local execution with local credentials
 
+*Tags: aws-mcp, cloud-native, ai, developer-tools, security, multi-region, integration, automation*
+
 ---
 
-### 604. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `innovation: 8`
+### 72. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `innovation: 8` ★☆☆ 🔵
 
-**A framework enabling communication with AI models via Model Context Protocol (MCP) to standardize interactions between AI and various data sources.**
+**Superserve provides a managed infrastructure for deploying AI agents with a focus on security and statefulness. It utilizes Firecracker microVM technology to create strict, isolated execution environments for every agent session, ensuring that code execution and network requests remain sandboxed fro**
 
 **Key Features:**
-- Integration with Azure CLI and Power Platform CLI for seamless API access
-- Support for MCP server deployment in DevContainers or local environments
-- Enables secure
-- standardized communication with AI models using Graph API and Azure REST API
-- Facilitates automation of workflows and integration with external tools
+- Firecracker microVM isolation
+- Persistent workspace filesystem
+- Network-level credential proxying
+- Sub-second cold starts
+- Framework-agnostic deployment
+- Real-time token streaming
+- CLI-based session management
+- Automated environment provisioning
+
+*Tags: firecracker, microvms, agent-isolation, persistent-storage, credential-proxy, production-ai, sandboxing, devops-for-ai*
 
 ---
 
-### 605. [random-robbie/mcp-web-browser](https://github.com/random-robbie/mcp-web-browser)  `innovation: 8`
+### 73. [rinardnick/mcp-terminal](https://github.com/rinardnick/mcp-terminal)  `innovation: 8` ★☆☆ 🔵
 
-**An advanced web browsing server for the Model Context Protocol (MCP) powered by Playwright, enabling secure and flexible headless browser interactions.**
-
-**Key Features:**
-- Headless web browsing with MCP support
-- Secure API for browser automation
-- Advanced page interaction tools
-- Multi-tab management
-- JavaScript execution on pages
-- Page content extraction and manipulation
-- Screenshot capturing
-- Link extraction and filtering
-
----
-
-### 606. [ratchanonth60/querycraftmcp](https://github.com/ratchanonth60/querycraftmcp)  `innovation: 8`
-
-**QueryCraftMCP is a flexible Model Context Protocol server enabling LLMs to interact with multiple databases via standardized APIs.**
-
-**Key Features:**
-- Multi-database backend support (PostgreSQL and SQLite)
-- Dynamic tool loading based on active database
-- Schema discovery and structured data querying
-- Secure connection management with lifespan control
-- Transport protocol: Server-Sent Events (SSE)
-- Docker containerization for deployment
-
----
-
-### 607. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `innovation: 8`
-
-**A platform for searching and retrieving academic papers from arXiv using MCP.**
-
-**Key Features:**
-- Search arXiv papers
-- Retrieve paper content
-- Integrate with LLMs
-- Support code review and security checks
-
----
-
-### 608. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `innovation: 8`
-
-**A server application integrating PostGIS with Model Context Protocol (MCP) for database connectivity.**
-
-**Key Features:**
-- MCP server integration
-- PostGIS database support
-- Hot-reload development mode
-- Environment configuration (development/production)
-- Secure code management and version control
-
----
-
-### 609. [redhat-ai-tools/mcp-registry-mcp](https://github.com/redhat-ai-tools/mcp-registry-mcp)  `innovation: 8`
-
-**A registry server for the Model Context Protocol (MCP) that enables secure and isolated management of MCP resources.**
-
-**Key Features:**
-- health_check
-- list_registry_server_entries
-- get_server_details
-- ping
-
----
-
-### 610. [reexpressai/reexpress_mcp_server](https://github.com/reexpressai/reexpress_mcp_server)  `innovation: 8`
-
-**A tool for adding statistical verification and confidence estimation to AI model outputs, enhancing reliability in LLM-based workflows.**
-
-**Key Features:**
-- Tool-calling LLMs with SDM estimator
-- Dynamic update handling after verification
-- Ability to adapt models for custom tasks
-- Integration of pre-trained Reexpress models
-- Local processing to maintain data privacy
-
----
-
-### 611. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `innovation: 8`
-
-**A Model Context Protocol (MCP) server for Rember to enhance memory and study workflows.**
-
-**Key Features:**
-- MCP server integration
-- Flashcard creation from chats and documents
-- API key management
-- Logging and debugging support
-- User session handling
-- Secure code review tools
-- CI/CD pipeline setup
-- Observability and telemetry
-
----
-
-### 612. [ricauts/cybermcp](https://github.com/ricauts/cybermcp)  `innovation: 8`
-
-**CyberMCP enables AI-powered security testing of backend APIs using a Model Context Protocol server.**
-
-**Key Features:**
-- Authentication testing (JWT
-- OAuth2)
-- Injection testing (SQL injection
-- XSS)
-- Data protection checks (sensitive data exposure)
-- Rate limiting and DoS vulnerability assessment
-- Security header validation
-- Comprehensive security checklists and guides
-
----
-
-### 613. [rinardnick/mcp-terminal](https://github.com/rinardnick/mcp-terminal)  `innovation: 8`
-
-**A secure terminal execution server supporting controlled command access for AI models.**
+**The MCP Terminal project implements a secure, isolated environment for executing commands via the Model Context Protocol (MCP). It enforces strict security by allowing only predefined commands, preventing command injection and unauthorized operations. This infrastructure is designed to safely run LL**
 
 **Key Features:**
 - secure terminal execution
@@ -8466,278 +1236,57 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - resource limits
 - MCP protocol support
 
+*Tags: mcp, terminal, security, ai, developer, mcp-protocol, command-execution, secure-access*
+
 ---
 
-### 614. [rishabkoul/iterm-mcp-server](https://github.com/rishabkoul/iterm-mcp-server)  `innovation: 8`
+### 74. [rooking-oss/zipcode-search-mcp](https://github.com/rooking-oss/zipcode-search-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A server enabling secure and isolated interaction between AI assistants and iTerm2 terminals using the Model Context Protocol.**
+**A Python-based MCP server that provides Japanese postal code to address lookup functionality using the Model Context Protocol.**
 
 **Key Features:**
-- Create and manage iTerm2 terminal sessions
-- Execute commands in specific terminals
-- Read and close active terminals
-- Input sanitization and error handling
+- Search Japanese addresses by 7-digit postal codes
+- Integrate with AI assistants and other MCP clients
+- Fast and lightweight implementation
+
+*Tags: zipcode-search, mcp, ai-integration, python-development, api-integration, postal-code-lookup, developer-tools, mcp-server*
 
 ---
 
-### 615. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `innovation: 8`
+### 75. [rossshannon/weekly-weather-mcp](https://github.com/rossshannon/weekly-weather-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server that integrates with CucumberStudio to provide contextual data for AI applications.**
+**The Weekly Weather MCP server is designed to deliver comprehensive weather data for global locations, including current conditions, hourly and daily forecasts, and detailed weather summaries. It leverages the OpenWeatherMap One Call API to fetch real-time weather information and supports integration**
 
 **Key Features:**
-- Fetch data from CucumberStudio API
-- Provide context about CucumberStudio projects and features
-- Enable AI to generate and modify test scenarios
-- Apply changes to CucumberStudio resources
-- View schema for MCP server
+- Global weather forecasts with detailed hourly and daily data
+- Integration with MCP (Model Context Protocol) for seamless API usage
+- Support for multiple time zones and location inputs
+- Secure API key management via environment variables
+- Automated deployment and CI/CD support
+- Comprehensive documentation and community resources
+
+*Tags: weather, forecast, mcp, weather-service, data-integration, automation, security, cloud-dev*
 
 ---
 
-### 616. [robertpelloni/ffr-difficulty-model](https://github.com/robertpelloni/ffr-difficulty-model)  `innovation: 8`
+### 76. [sammcj/mcp-data-extractor](https://github.com/sammcj/mcp-data-extractor)  `innovation: 8` ★☆☆ 🔵
 
-**Supervised Learning Model to Quantify Difficulty of Stepfiles in FlashFlashRevolution**
+**A model context protocol server that extracts embedded data from TypeScript/JavaScript source code into structured JSON configuration files.**
 
 **Key Features:**
-- The core functionality is a prediction pipeline that estimates the difficulty score and meter for StepMania charts based on the input file's features. The model is designed to quantify the difficulty of these musical charts.
+- Data Extraction
+- SVG Extraction
+- Configuration Replacement
+- Custom AST Traversal
+- Integration with MCP Client
+
+*Tags: context-engineering, data-extraction, code-to-config, mcp-server, developer-tools*
 
 ---
 
-### 617. [roger1337/JDBG](https://github.com/roger1337/JDBG)  `innovation: 8`
+### 77. [sentriz/betanin](https://github.com/sentriz/betanin)  `innovation: 8` ★☆☆ 🔵
 
-**Java Dynamic Reverse Engineering and Debugging Tool**
-
-**Key Features:**
-- Class Analysis (Analyse decompiled classes at runtime)
-- Analyse method bytecode and field definitions at runtime
-- Add classes to object analysis
-- Dynamically set breakpoints in bytecode
-- Inspect the stack trace
-- Inspect local variable values
-- Planned features: bytecode instrumentation and class redefinitions
-- static variable modification
-- Static field watching
-- Object Analysis (Add classes to object workspace)
-
----
-
-### 618. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `innovation: 8`
-
-**A Model Context Protocol server enabling AI models to access and manipulate geographic data in various formats.**
-
-**Key Features:**
-- Reverse geocoding
-- Coordinate system conversion
-- WKT/GeoJSON conversion
-- CSV/GeoJSON conversion
-- TopoJSON/GeoJSON conversion
-- KML to GeoJSON
-- GeoJSON to KML
-
----
-
-### 619. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `innovation: 8`
-
-**Servidor MCP elegante y eficiente para gestionar frases inspiradoras, integrándose con Claude for Desktop.**
-
-**Key Features:**
-- Gestión completa de frases (crear
-- leer
-- actualizar
-- eliminar)
-- Integración con Claude for Desktop
-- API mock para pruebas y desarrollo
-- Configuración personalizable para entornos MCP
-
----
-
-### 620. [runninghare/ts-def-mcp](https://github.com/runninghare/ts-def-mcp)  `innovation: 8`
-
-**A Model Context Protocol server to locate TypeScript symbol definitions within codebases.**
-
-**Key Features:**
-- Finds original definitions of TypeScript symbols
-- Supports imported symbols from external packages
-- Returns definition location and code snippet
-- Works with stdio interface for AI integration
-- Seamless integration with AI code editors
-
----
-
-### 621. [russellw/sourceview](https://github.com/russellw/sourceview)  `innovation: 8`
-
-**Source file viewer built with Electron, featuring syntax highlighting, directory browsing, and interactive navigation tools.**
-
-**Key Features:**
-- Source Code Viewing with syntax highlighting
-- Directory Browser with visual grid layout
-- Interactive Navigation (click-to-navigate) via a minimap
-- Multi-Tab Interface
-- Image Support
-- PDF Integration
-- Binary File Protection
-- Keyboard Shortcuts support
-- and an optimized Dark Theme.
-
----
-
-### 622. [ryan0204/github-repo-mcp](https://github.com/ryan0204/github-repo-mcp)  `innovation: 8`
-
-**A server enabling AI assistants to browse and interact with GitHub repositories.**
-
-**Key Features:**
-- Repository browsing
-- Directory navigation
-- File content viewing
-- Rate limit management
-- Token-based authentication
-
----
-
-### 623. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)  `innovation: 8`
-
-**A model context protocol server enabling natural language interaction with Apache Iceberg Lakehouse tables.**
-
-**Key Features:**
-- Natural language interface
-- MCP integration
-- Table schema exploration
-- Data query generation
-
----
-
-### 624. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `innovation: 8`
-
-**A Model Context Protocol server enabling secure and flexible email sending for AI assistants.**
-
-**Key Features:**
-- Multiple SMTP configurations
-- Email templates creation and management
-- Bulk email sending with batching and rate limiting
-- Full HTML support for rich email content
-- Comprehensive logging of all email activities
-- Dynamic template variables for personalized emails
-
----
-
-### 625. [samwang0723/mcp-booking](https://github.com/samwang0723/mcp-booking)  `innovation: 8`
-
-**An AI-powered model context protocol server for restaurant discovery and booking, integrating location data, cuisine preferences, mood, and event types.**
-
-**Key Features:**
-- Smart Restaurant Search with location filtering
-- AI Recommendations based on user preferences
-- Event-specific matching (dating
-- family
-- business
-- etc.)
-- Mood-based atmosphere alignment
-- Booking assistance with mock reservation capabilities
-
----
-
-### 626. [santos-404/mcp-server.sqlite](https://github.com/santos-404/mcp-server.sqlite)  `innovation: 8`
-
-**Implementation of an MCP server for SQLite to enable AI models to execute queries and interact with databases.**
-
-**Key Features:**
-- SQLite database interaction
-- MCP protocol support
-- AI model context management
-- Database schema management
-- Query execution capabilities
-
----
-
-### 627. [sapientpants/sonarqube-mcp-server](https://github.com/sapientpants/sonarqube-mcp-server)  `innovation: 8`
-
-**A server implementation for Model Context Protocol (MCP) to integrate with SonarQube, enabling secure and efficient code analysis.**
-
-**Key Features:**
-- MCP server integration
-- code analysis
-- security features
-- automation capabilities
-
----
-
-### 628. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `innovation: 8`
-
-**Exploring MCPs for Abell to understand their architecture and integration.**
-
-**Key Features:**
-- Analyze MCPs
-- Integrate external tools
-- Developer workflows
-- Code review
-- Security features
-
----
-
-### 629. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `innovation: 8`
-
-**A Python-based MCP server for programmatically querying Azure pricing data.**
-
-**Key Features:**
-- Service family management
-- Product lookup
-- Monthly cost calculation
-- API integration with Azure Retail Prices
-- Structured workflow automation
-
----
-
-### 630. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `innovation: 8`
-
-**A Model Context Protocol server for Python code analysis with Claude.**
-
-**Key Features:**
-- code analysis
-- security scanning
-- AI integration
-- code review support
-
----
-
-### 631. [seanmcloughlin/mcp-vcd](https://github.com/seanmcloughlin/mcp-vcd)  `innovation: 8`
-
-**A model context protocol implementation for handling large Value Change Dump (VCD) files.**
-
-**Key Features:**
-- Model Context Protocol
-- Value Change Dump (VCD) support
-- Signal extraction and management
-
----
-
-### 632. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `innovation: 8`
-
-**A model context protocol server enabling secure access to AI and development tools.**
-
-**Key Features:**
-- Model context protocol access
-- Tool integration from Toolhouse platform
-- Secure code deployment
-- Workflow automation
-- Code review and management
-
----
-
-### 633. [sellersmith/tailorkit-mcp](https://github.com/sellersmith/tailorkit-mcp)  `innovation: 8`
-
-**TailorKit MCP enables e-commerce product customization via AI-driven personalization.**
-
-**Key Features:**
-- Template management
-- Layer control
-- Shopify integration
-- AI-powered personalization
-- Minimal development effort
-
----
-
-### 634. [sentriz/betanin](https://github.com/sentriz/betanin)  `innovation: 8`
-
-**Borg intelligence database based on the MITM of your torrent client and music player.**
+**This resource details 'betanin', a system that acts as a Man-in-the-Middle (MITM) layer between torrent clients and music players. It uses apprise for notifications, suggesting that anything supported there will work. The core functionality revolves around creating a persistent database structure fo**
 
 **Key Features:**
 - The primary features involve setting up a system to bridge torrent client workflows with music player workflows
@@ -8753,11 +1302,9471 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - configuration
 - and music assets.
 
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'interface ux', 'mcp a2a', 'infrastructure layers', 'vector databases', 'coding tools'*
+
 ---
 
-### 635. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `innovation: 8`
+### 78. [sinedied/grumpydev-mcp](https://github.com/sinedied/grumpydev-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A GitHub repository providing a MCP server for integrating AI assistants like Claude with YouTube subtitle services.**
+**A tool for grumpy senior developers to review and critique code with MCP, focusing on context, style, and quality.**
+
+**Key Features:**
+- Code review with sarcastic feedback
+- Model configuration suggestions
+- Contextual guidance for AI model integration
+- Automated security checks and vulnerability detection
+
+*Tags: grumpydev, code-review, ai-development, security, developer-tools*
+
+---
+
+### 79. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)  `innovation: 8` ★☆☆ 🔵
+
+**The Smithery Cookbook is a comprehensive resource offering code snippets, tutorials, and best practices for developers to create and deploy Model Context Protocol (MCP) servers. It supports multiple programming languages including Python, Node.js, TypeScript, and Docker, enabling users to build secu**
+
+**Key Features:**
+- Interactive playground for hands-on learning
+- Language-specific server examples
+- Deployment options on Smithery platform
+- Security best practices integration
+- Community support and documentation
+
+*Tags: mcp, model context protocol, developer tools, ai development, smithery, code examples*
+
+---
+
+### 80. [spences10/mcp-jinaai-reader](https://github.com/spences10/mcp-jinaai-reader)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for parsing websites using the Jina.ai Reader API to extract structured web content.**
+
+**Key Features:**
+- Advanced web content extraction
+- Fast and efficient content retrieval
+- Complete text extraction with structure preservation
+- Clean format optimized for LLMs
+
+*Tags: mcp, jinaai-reader, web-scraping, content-extraction, llm-tools, model-context-protocol*
+
+---
+
+### 81. [spences10/mcp-jinaai-search](https://github.com/spences10/mcp-jinaai-search)  `innovation: 8` ★☆☆ 🔵
+
+**A unified platform for integrating Jina.ai Search API with LLMs to deliver clean, LLM-friendly web content.**
+
+**Key Features:**
+- Advanced web search via Jina.ai
+- Fast and efficient content retrieval
+- Clean text extraction preserving structure
+- Content optimized for large language models
+- Support for various content types
+- Localization support
+- Token budget control
+
+*Tags: mcp-jinaai-search, jinaai-api, search-api, llm-integration, web-scraping, content-optimization, developer-tools, search-service*
+
+---
+
+### 82. [spences10/mcp-svelte-docs](https://github.com/spences10/mcp-svelte-docs)  `innovation: 8` ★☆☆ 🔵
+
+**MCP server for Svelte documentation with caching and search.**
+
+**Key Features:**
+- Svelte 5 definitions (runes)
+- TypeScript-first documentation
+- Integrated caching & fast searches
+- Event handling & component communication
+- Migration guidance from Svelte 4 to 5
+
+*Tags: svelte, developer-tools, mcp-svelte-docs, documentation, integration, security, devops*
+
+---
+
+### 83. [surya-madhav/mcp](https://github.com/surya-madhav/mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project's MCP repository provides a modular framework for connecting various tools and services via standardized protocols. It supports integration with web scraping, AI models, security tools, and more, facilitating seamless orchestration of complex workflows. The project emphasizes develo**
+
+**Key Features:**
+- Integration of external tools
+- Web scraping capabilities
+- AI model interaction
+- Security and code security features
+- Streamlit UI for visualization
+
+*Tags: mcp, ai, security, web_scrape, developer_tools, automation, integration, ai_models*
+
+---
+
+### 84. [t3ta/sql-mcp-server](https://github.com/t3ta/sql-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a robust, secure TypeScript-based MCP (Model Context Protocol) server that allows AI models and other MCP-compatible clients to interact with PostgreSQL databases. It supports secure database access through SSH bastion tunnels, enabling local, containerized, or AI-driven use ca**
+
+**Key Features:**
+- SSH bastion tunnel support
+- PostgreSQL read-only query engine
+- STDIO-based MCP protocol transport
+- Environment variable configuration
+- Jest testing framework
+- Clear commit history and documentation
+
+*Tags: mcp-server, postgresql, ai, secure-access, cloud-native, developer-tools, data-query, model-integration*
+
+---
+
+### 85. [thargor6/JWildfire](https://github.com/thargor6/JWildfire)  `innovation: 8` ★☆☆ 🔵
+
+**JWildfire is a very powerful and flexible flame fractal generator that has been battle-tested by numerous fractal artists from all over the world. As the spiritual successor of the award-winning special effects program Wildfire\7PPC for the Amiga, its roots go back about 25 years. The software is ja**
+
+**Key Features:**
+- Powerful
+- flexible
+- and user-friendly fractal flame editor. Versatile rendering capabilities (CPU/GPU). Extensive feature set including motion curves
+- keyframes
+- random-flame-generators
+- interactive/infinite renderer
+- sound-synchronized animation
+- and a Java-based scripting interface for custom fractals.
+
+*Tags: fractal editor, flame rendering, java-based, gpu renderer, fractal generation, user-friendly UI, motion curves, animation*
+
+---
+
+### 86. [the-focus-ai/mastodon-mcp](https://github.com/the-focus-ai/mastodon-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for interacting with Mastodon using model context protocol, enabling secure and customizable toot creation.**
+
+**Key Features:**
+- Create toots with customizable visibility
+- Upload and attach media files
+- Add alt text/descriptions
+- Schedule toots for future times
+
+*Tags: mastodon-mcp, modelcontextprotocol, developer-tools, ai-integration, security*
+
+---
+
+### 87. [titzer/wizard-engine](https://github.com/titzer/wizard-engine)  `innovation: 8` ★☆☆ 🔵
+
+**The Wizard Research Engine is a fully-featured WebAssembly engine (virtual machine) designed for teaching and research. Its implementation is designed to be flexible and easy to grasp, ideal for instrumentation, experimentation and modification.**
+
+**Key Features:**
+- Wizard supports most Wasm standard features
+- including all of Wasm 3.0. Newer features are under development and vary in their support in the different execution tiers
+- which include the V3 interpreter (v3-int)
+- the fast interpreter (fast-int) and the single-pass compiler (spc). Wizard includes support for various Wasm features like multi-value
+- reference-types
+- bulk-memory
+- SIMD
+- tail-call
+- multi-memory
+- and extended-const. It supports testcases specified in the .bin.wast format.
+
+*Tags: wasm, virtual machine, compiler, webassembly, virgil, x86-64-linux, gc, interpreter*
+
+---
+
+### 88. [wallaceobsidian01/pipedream](https://github.com/wallaceobsidian01/pipedream)  `innovation: 8` ★☆☆ 🔵
+
+**A platform for building and managing MCP servers to host APIs, enabling secure, isolated environments for applications.**
+
+**Key Features:**
+- Run MCP servers locally or in production
+- Manage server accounts
+- credentials
+- and API requests
+- Integrate with external tools and services
+- Support OAuth2 authorization for secure access control
+- Customize server behavior via configuration files
+
+*Tags: mcp, server, developer, security, integration, deployment, automation, monitoring*
+
+---
+
+### 89. [zxfgds/mcp-toolkit](https://github.com/zxfgds/mcp-toolkit)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Toolkit is a robust server implementation enabling AI tools to perform file system operations, database interactions, web scraping, and more while ensuring security and control. It supports advanced features like GitHub integration, code search, and secure configuration management.**
+
+**Key Features:**
+- File system operations
+- Database integration (MySQL
+- PostgreSQL
+- Redis)
+- Code search and management
+- Web scraping and content extraction
+- Security features and token-based authentication
+- Integration with external services
+
+*Tags: mcp, ai, security, developer, integration, fileops*
+
+---
+
+### 90. [George5562/Switchboard](https://github.com/George5562/Switchboard)  `innovation: 9` ★★☆ 🔵
+
+**Switchboard acts as an intermediary layer, utilizing JSON-RPC over stdio to communicate with a host (like Claude Code or Cursor). It discovers and manages numerous specialized Model Context Providers (MCPs) by spawning them on demand (lazy loading). The core innovation is aggregating the tools expos**
+
+**Key Features:**
+- Token reduction via lazy subtool expansion
+- Aggregation of multiple MCPs into one suite tool
+- On-demand child MCP spawning
+- Auto-migration and discovery of existing MCP configurations
+- JSON-RPC based communication layer.
+
+*Tags: mcp, proxy, tool aggregation, lazy loading, context reduction, json-rpc, stdio, agent communication*
+
+---
+
+### 91. [aberemia24/code-executor-MCP](https://github.com/aberemia24/code-executor-MCP)  `innovation: 9` ★★☆ 🔵
+
+**Code Executor MCP acts as a proxy and orchestration layer for a multitude of external tools accessible via the MCP protocol (used by agents like Claude/Cursor). Its core innovation is decoupling the agent's required context from the total available toolset. Instead of loading definitions for 47+ too**
+
+**Key Features:**
+- Token reduction via tool proxy
+- On-demand tool loading (Progressive Disclosure)
+- Automated setup wizard
+- Type-safe SDK wrapper generation (TS/Python)
+- Sandboxed execution environment
+- Audit logging
+- MCP server discovery and merging
+
+*Tags: mcp, tool-orchestration, context-management, tool-proxy, progressive-disclosure, agent-framework, sdk-generation, sandboxing*
+
+---
+
+### 92. [cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)  `innovation: 9` ★★☆ 🔵
+
+**cocoindex-code is a super-lightweight embedded code search engine that leverages AST-based semantic analysis to enable fast, token-efficient code searching within repositories. It integrates seamlessly with AI-powered development agents like Claude and Codex, allowing developers to query codebases b**
+
+**Key Features:**
+- AST-based semantic code search
+- Lightweight token efficiency (70% reduction)
+- Integration with coding agents (Claude
+- Codex
+- etc.)
+- Manual CLI control and indexing
+- Support for cloud and local embeddings
+- Secure development environment setup
+- Automatic index updates during development
+
+*Tags: code-search, ast-based, embedding, ai-integration, developer-tools, ci/cd, security, local-dev*
+
+---
+
+### 93. [taylorwilsdon/quantconnect-mcp](https://github.com/taylorwilsdon/quantconnect-mcp)  `innovation: 9` ★★☆ 🔵
+
+**The Borg project extends the capabilities of QuantConnect's algorithmic trading platform by embedding agent orchestration, workflow automation, and intelligent decision-making through AI. It leverages natural language interfaces to simplify strategy development, integrates with external data sources**
+
+**Key Features:**
+- Agent Orchestration & Workflow Automation
+- Context Engineering & Isolation
+- Memory & Persistence Architecture
+- Interface & Developer UX Enhancements
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+
+*Tags: agent orchestration, workflow automation, ai-driven strategies, quant connect mcp, backtesting, live trading, data integration, security*
+
+---
+
+### 94. [BVLC/caffe](https://github.com/BVLC/caffe)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Key Features:**
+- The resource details the process of porting a Caffe framework to Windows
+- outlining the specific requirements for the build environment (Visual Studio
+- CMake)
+- and providing detailed instructions on configuring and building the resulting application.
+
+*Tags: ['caffe', 'windows', 'build_win.cmd', 'cmake', 'visualstudio', 'cpp', 'c++', 'compiler'*
+
+---
+
+### 95. [JoshuaWohle/Super-MCP](https://github.com/JoshuaWohle/Super-MCP)  `innovation: 8` ★☆☆ 🔵
+
+**The Super MCP Router allows users to configure multiple MCP servers (both local stdio and hosted HTTP) and access them through a single unified interface for Claude. It provides meta-tools like `list_tool_packages`, `list_tools`, `get_tool_details`, `use_tool`, `search_tools`, `get_help`, and `authe**
+
+**Key Features:**
+- ['Unified Interface for MCPs'
+- 'Tool Discovery & Execution (list_tool_packages
+- use_tool)'
+- 'Intelligent Tool Selection (search_tools)'
+- 'Authentication Management (authenticate)'
+- 'Health Checks and Package Management (health_check
+- restart_package)']
+
+*Tags: ['AI Agents', 'Context Engineering', 'Proxy Layers', 'Infrastructure', 'Developer Tools', 'Claude Integration']*
+
+---
+
+### 96. [MadAppGang/claude-code](https://github.com/MadAppGang/claude-code)  `innovation: 8` ★☆☆ 🔵
+
+**The MadAppGang Claude Code repository provides a structured marketplace and framework for extending the Claude CLI with production-ready agent workflows. Its core innovation is a multi-phase implementation engine that utilizes specialized agents (Architects, UI Developers, CSS Specialists, and Revie**
+
+**Key Features:**
+- 8-phase implementation workflow
+- Intelligent workflow detection (API/UI/Mixed)
+- Specialized multi-agent swarms
+- CSS-aware design validation
+- MCP-powered browser testing
+- Semantic code search for token reduction
+- Custom slash command architecture
+- Zero-config team synchronization
+
+*Tags: 8-phase workflows, agent orchestration, architectural patterns, claude code, design validation, developer productivity, enterprise ai, frontend engineering*
+
+---
+
+### 97. [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works)  `innovation: 8` ★☆☆ 🔵
+
+**This repository showcases a variety of AI agents, workflows, and concepts, exploring themes like agent orchestration, context engineering, memory management, and the integration of AI into software development and general tasks. The commits suggest a focus on building agents, prompt engineering, and**
+
+**Key Features:**
+- The project seems to revolve around creating intelligent agents
+- defining workflows for them
+- and applying advanced concepts like context engineering
+- agentic RAG
+- and various coding tools/agents (like Claude).
+
+*Tags: ['agent orchestration', 'context engineering', 'memory persistence', 'prompting', 'coding tools', 'ai agents', 'vector databases', 'ide'*
+
+---
+
+### 98. [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The ArXiv MCP Server provides a bridge between AI assistants and arXiv's research repository through the Model Context Protocol (MCP). It allows AI models to search for papers and access their content in a programmatic way.**
+
+**Key Features:**
+- Paper Search: Query arXiv papers with filters for date ranges and categories. Paper Access: Download and read paper content. Paper Listing: View all downloaded papers. Prompts: A set of research prompts for paper analysis.
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'Memory & Persistence', 'Architecture', 'Interface & Developer UX', 'Connectivity & Interoperability (MCP/A2A)', 'Infrastructure & Proxy Layers', 'Guides & Industry Trends'*
+
+---
+
+### 99. [cloudflare/ai](https://github.com/cloudflare/ai)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Key Features:**
+- Workers AI provider for the Vercel AI SDK. Chat
+- image generation
+- embeddings
+- transcription
+- text-to-speech
+- and reranking. @cloudflare/tanstack-ai Workers AI and AI Gateway adapters for TanStack AI. AI Gateway provider for the Vercel AI SDK. Route requests through Cloudflare's AI Gateway for caching
+- rate limiting
+- and observability.
+
+*Tags: ['workers-ai-provider', 'tanstack-ai', 'ai-gateway', 'cloudflare', 'vercel ai sdk', 'agent orchestration', 'ai agents', 'infrastructure'*
+
+---
+
+### 100. [corbt/agent.exe](https://github.com/corbt/agent.exe)  `innovation: 8` ★☆☆ 🔵
+
+**This repository introduces 'agent.exe', an Electron app designed to let the Claude AI take over user computer operations. The project explores how well Claude's new computer use APIs work, specifically focusing on enabling the AI to perform actions directly on the local machine. The core innovation **
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering & Isolation
+- Memory & Persistence Architecture
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- AI Agents & Frameworks.
+
+*Tags: ['agent', 'claude', 'electron', 'ai agent', 'system control', 'firefox', 'macos', 'cross-platform'*
+
+---
+
+### 101. [joylarkin/AI-Coding-Landscape](https://github.com/joylarkin/AI-Coding-Landscape)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive overview of the 2026 AI Coding Landscape, covering coding models, agents, CLIs, IDEs, AI app builders, devtools, and more. The repository highlights various cutting-edge AI coding tools and agents, including OpenAI Codex, GitHub Copilot, Claude Code, Gemini Code Assist, and a wide ar**
+
+**Key Features:**
+- A curated list of AI coding models
+- agents
+- CLIs
+- IDEs
+- and tooling. The resource highlights the landscape of AI coding tools
+- focusing on agent orchestration
+- context engineering
+- developer UX
+- connectivity
+- and infrastructure layers.
+
+*Tags: ['AI Coding', 'Agents', 'CLIs', 'IDEs', 'Tooling', 'GitHub Copilot', 'DevTools', 'AgentOrchestration'*
+
+---
+
+### 102. [lone-cloud/gerbil](https://github.com/lone-cloud/gerbil)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+
+*Tags: ['LLM', 'LocalAI', 'DesktopApp', 'CrossPlatform', 'OfflineCapable', 'HuggingFace', 'ImageGeneration', 'SillyTavern'*
+
+---
+
+### 103. [orgs/oracle](https://github.com/orgs/oracle)  `innovation: 8` ★☆☆ 🔵
+
+**This resource details the roadmap and community aspects of GraalVM, focusing on its role in agent orchestration, workflow execution, context engineering, memory management, and connectivity.**
+
+**Key Features:**
+- The roadmap for GraalVM
+- covering areas like Agent Orchestration
+- Context Engineering & Isolation
+- Memory & Persistence Architecture
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- and the underlying technology.
+
+*Tags: ['agent orchestration', 'workflow', 'context engineering', 'memory architecture', 'developer ux', 'connectivity', 'infrastructure', 'vector databases'*
+
+---
+
+### 104. [phr00t/FocusEngine](https://github.com/phr00t/FocusEngine)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Key Features:**
+- Focus is an open-source C# game engine for realistic rendering and VR based off of Xenko/Stride. It's highly modular and aims at give game makers more flexibility in their development. Focus comes with an editor that allows you create and manage the content of your games or applications in a visual and intuitive way.
+
+*Tags: ['VR', 'Vulkan', 'Xenko', 'Stride3D', 'C#', 'GameEngine', 'Performance', 'VR'*
+
+---
+
+### 105. [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Ref-tools MCP helps coding agents efficiently work with public and private libraries without wasting context.**
+
+**Key Features:**
+- Context management for public/private libraries
+- Automated code generation and documentation integration
+- Secure code deployment and review
+- Integration with CI/CD pipelines
+
+*Tags: ref-tools, mcp, ai-development, code-creation, security*
+
+---
+
+### 106. [reyneill/kontxt](https://github.com/reyneill/kontxt)  `innovation: 8` ★☆☆ 🔵
+
+**A developer platform for managing AI model integration, code analysis, and secure deployment workflows.**
+
+**Key Features:**
+- AI-powered code analysis
+- Context generation using MCP server
+- Token usage tracking
+- Secure code management
+- Integration with GitHub Actions
+
+*Tags: ai, code, development, security, integration, ai-tools, developer*
+
+---
+
+### 107. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+
+*Tags: ['open-source', 'local-first', 'knowledge base', 'all-in-one workspace', 'AI integration', 'real-time collaboration', 'self-host', 'cross-platform'*
+
+---
+
+## Context Compression & Token Optimization
+
+> 21 tools · avg innovation 8.7
+
+### 108. [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)  `innovation: 10` ★★★ 🔵
+
+**An open-source implementation of Stanford's context engineering research, enabling agents to autonomously extract patterns from feedback to improve performance.**
+
+**Key Features:**
+- Autonomous success/failure pattern extraction
+- 49% browser automation token reduction
+- dynamic "Skillbook" system prompt evolution
+- multi-framework plug-and-play support.
+
+*Tags: context-engineering, self-correction, feedback-loops, optimization, framework*
+
+---
+
+### 109. [Apofenic/globalmcp](https://github.com/Apofenic/globalmcp)  `innovation: 9` ★★☆ 🔵
+
+**A modular MCP server that compresses context and intelligently routes prompts to appropriate models for efficient long-session development.**
+
+**Key Features:**
+- Context Compression using DCT
+- Smart Routing based on complexity analysis
+- Model chaining with multiple compression techniques
+- Integration with GitHub Copilot and external tools
+- Fallback mechanisms for unavailability
+
+*Tags: context-engineering, mcp-server, prompt-routing, model-optimization, developer-workflow*
+
+---
+
+### 110. [Lucenor/mnesis](https://github.com/Lucenor/mnesis)  `innovation: 9` ★★☆ 🔵
+
+**A Python library designed to address context window degradation in long-running LLM agents by offloading memory management to a deterministic engine.**
+
+**Key Features:**
+- Lossless Context Management (LCM) architecture
+- Active Context handling with deterministic memory engine
+- Context trigger and summarization without model intervention
+- Three-level compaction for efficient token budget usage
+- Support for parallel LLMMap and AgenticMap operators
+
+*Tags: context management, mnesis, long context handling, llm architecture, developer tools*
+
+---
+
+### 111. [cdgaete/token-scope-mcp](https://github.com/cdgaete/token-scope-mcp)  `innovation: 9` ★★☆ 🔵
+
+**TokenScope provides intelligent directory structure analysis and token-aware file content exploration for LLMs like Claude, helping developers understand codebases efficiently.**
+
+**Key Features:**
+- Token-Aware Directory Exploration
+- Automatic Summarization for Large Directories
+- Respect for Token Limits to Maximize Information
+- Smart Filtering with Default Patterns and .gitignore Support
+- Accurate Directory Statistics for Large Repositories
+
+*Tags: token-scope-mcp, ai-development, software-security, code-analysis, directory-understanding, llm-integration, security-features, developer-tools*
+
+---
+
+### 112. [haasonsaas/deep-code-reasoning-mcp](https://github.com/haasonsaas/deep-code-reasoning-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A platform that integrates Claude Code with Google Gemini AI to enable advanced, context-aware code analysis and reasoning across distributed systems.**
+
+**Key Features:**
+- Deep code analysis using multi-model workflow
+- Distributed system debugging with 1M token context window
+- AI-to-AI conversational reasoning for iterative problem-solving
+- Cross-system impact analysis across services
+- Hypothesis testing and validation with evidence-based results
+
+*Tags: code analysis, ai integration, distributed systems, deep reasoning, developer workflow, security, performance optimization, cross-service debugging*
+
+---
+
+### 113. [mKeRix/toolscript](https://github.com/mKeRix/toolscript)  `innovation: 9` ★★☆ 🔵
+
+**Toolscript addresses the significant context window consumption caused by loading all available MCP tool definitions into the LLM's system prompt. It achieves this by using TypeScript code execution mode, where it automatically generates TypeScript types from MCP tool schemas. This allows the LLM to**
+
+**Key Features:**
+- Automatic TypeScript type generation from MCP tool schemas
+- Semantic tool search interface
+- Sandboxed Deno execution environment
+- Selective tool exposure via include/exclude configurations
+- Seamless Claude Code plugin integration
+- Configuration file merging for server definitions.
+
+*Tags: mcp, context-management, tool-calling, code-execution, context-bloat-mitigation, semantic-search, deno, llm-agents*
+
+---
+
+### 114. [machjesusmoto/claude-lazy-loading](https://github.com/machjesusmoto/claude-lazy-loading)  `innovation: 9` ★★☆ 🔵
+
+**The resource details a method to address the high initial token cost (54% of the 200k limit) associated with loading all available MCP servers and tools at Claude Code startup. The solution involves creating a lightweight, indexed registry of tools and their associated trigger keywords. Tools are th**
+
+**Key Features:**
+- Lazy loading of MCP servers/tools
+- Context usage tracking
+- Keyword-based trigger detection
+- Tool indexing/registry generation
+- Workflow-specific preloading profiles
+
+*Tags: lazy loading, context management, token optimization, claude code, mcp servers, context reduction, on-demand loading, tool orchestration*
+
+---
+
+### 115. [ogoldberg/gemini-context-mcp-server](https://github.com/ogoldberg/gemini-context-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A MCP server leveraging Gemini's large context window to enhance AI capabilities.**
+
+**Key Features:**
+- Context management up to 2M tokens
+- Session-based conversational state maintenance
+- Smart context tracking and cleanup
+- Automatic context expiration
+- Semantic search and metadata retrieval
+
+*Tags: gemini-context, context-management, ai-integration, developer-tools, mcp-server, context-caching, semantic-search, api-optimization*
+
+---
+
+### 116. [66julienmartin/mcp-server-qwen_max](https://github.com/66julienmartin/mcp-server-qwen_max)  `innovation: 8` ★☆☆ 🔵
+
+**A server implementation for deploying and managing the Qwen Max language model via MCP protocol.**
+
+**Key Features:**
+- MCP server integration
+- Model selection (Qwen-Max
+- Qwen-Plus
+- Qwen-Turbo)
+- Token context window management
+- API authentication support
+
+*Tags: mcp-server, qwen-max, ai-model-deployment, cloud-integration*
+
+---
+
+### 117. [ai-1st/deepview-mcp](https://github.com/ai-1st/deepview-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**DeepView MCP enables IDEs to analyze large codebases using Gemini's context window.**
+
+**Key Features:**
+- Load entire codebase from a single text file
+- Query with Gemini's extensive context window
+- Integrate with IDEs like Cursor and Windsurf
+- Support for multiple Gemini models
+
+*Tags: deepview-mcp, model-context-protocol, gemini-api, ai-development, code-analysis, developer-tools, codebase-analysis*
+
+---
+
+### 118. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server project leverages EventRegistry API to fetch and analyze news headlines, providing structured sentiment analysis with diagnostics. It supports daily and monthly sentiment snapshots, offering insights into political leanings, source distributions, and sample headlines. The tool is desi**
+
+**Key Features:**
+- Analyze US news headlines
+- Daily and monthly sentiment analysis
+- Structured JSON outputs
+- Investor relevance filtering
+- Political breakdowns
+- Token budgeting
+- Rate-limit telemetry
+
+*Tags: governance, ai, security, developer, automation, monitoring, integration, cloud*
+
+---
+
+### 119. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `innovation: 8` ★☆☆ 🔵
+
+**Conduit serves as an MCP server that facilitates interaction between developers and tools like Phabricator and Phorge by providing context-aware services. It supports modern development workflows, secure token-based authentication, and integrates with various platforms to enhance productivity and co**
+
+**Key Features:**
+- MCP integration
+- secure authentication
+- type safety
+- runtime validation
+- smart pagination
+- token optimization
+
+*Tags: phabricator, phorge, developer, ai, security, automation, integration, code*
+
+---
+
+### 120. [portofcontext/pctx](https://github.com/portofcontext/pctx)  `innovation: 8` ★☆☆ 🔵
+
+**An open-source "Code Mode" gateway that converts sequential tool calls into a single execution block to reduce context window usage.**
+
+**Key Features:**
+- 58% token reduction
+- 56% cost efficiency
+- isolated Deno sandboxing
+- unified multi-server authentication.
+
+*Tags: context-engineering, code-mode, optimization, deno, sandbox*
+
+---
+
+### 121. [seanmcloughlin/mcp-vcd](https://github.com/seanmcloughlin/mcp-vcd)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-vcd project provides a Model Context Protocol implementation designed to manage and process VCD files, which are used to represent changes in data models. This tool is particularly useful for developers working with complex waveform data that cannot fit entirely into the model's context wind**
+
+**Key Features:**
+- Model Context Protocol
+- Value Change Dump (VCD) support
+- Signal extraction and management
+
+*Tags: context engineering, model context protocol, value change dump, waveform analysis, data modeling, signal processing, ai development, software architecture*
+
+---
+
+### 122. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Lazy-MCP solves the problem of 'token pollution' where loading numerous MCP tools consumes significant portions of an LLM's context window. It functions as a middleware proxy that hides the full list of available tools behind two meta-tools: get_tools_in_category and execute_tool. This creates a nav**
+
+**Key Features:**
+- Hierarchical tool discovery
+- Lazy-loading tool activation
+- Context window token optimization
+- Proxy-based tool execution
+- Automatic structure generation
+- Custom permission hooks
+- Claude Code integration
+- Support for stdio and SSE transports
+
+*Tags: mcp, context-optimization, token-efficiency, proxy-server, lazy-loading, agentic-workflows, tool-discovery, hierarchical-routing*
+
+---
+
+### 123. [xfey/MCP-Zero](https://github.com/xfey/MCP-Zero)  `innovation: 10` ★★★ 🔵
+
+**A framework enabling agents to autonomously discover and request specific tools on-demand, reducing context usage by 98%.**
+
+**Key Features:**
+- Autonomous capability gap identification
+- on-demand schema fetching
+- 98% token reduction
+- zero-overhead context manager.
+
+*Tags: mcp, active-discovery, context-efficiency, optimization, tool-calling*
+
+---
+
+### 124. [choihyunsus/n2-QLN](https://github.com/choihyunsus/n2-QLN)  `innovation: 9.7` ★★☆ 🔵
+
+**An intelligent tool router that connects thousands of tools through a single interface, optimizing context window usage and preventing AI confusion.**
+
+**Key Features:**
+- MCP Auto-Discovery
+- Semantic Search Layer
+- Tool Indexing Across Thousands of Applications
+- Fallback Chain & Circuit Breaker
+- Bulk Registration & Injection
+- Real-time Search & Execution
+- Integration with External MCP Servers
+
+*Tags: agent orchestration, workflow automation, context management, semantic search, tool integration, ai safety, developer experience, mcp api*
+
+---
+
+### 125. [ooples/token-optimizer-mcp](https://github.com/ooples/token-optimizer-mcp)  `innovation: 9` ★★☆ 🔵
+
+**An intelligent token optimization tool for Claude Code that reduces token usage by up to 95% through caching, compression, and smart tool integration.**
+
+**Key Features:**
+- Token optimization via caching and compression
+- Smart tool intelligence integration
+- Automated code quality checks
+- Performance benchmarking across Node versions
+- Security audits and license compliance
+- CI/CD pipeline automation with GitHub Actions
+
+*Tags: token-optimization, code-optimization, ai-assistance, security, ci-cd, automation, performance, developer-productivity*
+
+---
+
+### 126. [roddutra/agent-mcp-gateway](https://github.com/roddutra/agent-mcp-gateway)  `innovation: 8` ★☆☆ 🔵
+
+**A high-performance Rust-based control plane for managing secure connectivity, authentication, and audit logs for MCP and A2A agents.**
+
+**Key Features:**
+- Centralized JWT/API auth
+- high-throughput Rust engine
+- unified tool discovery
+- multi-agent state management.
+
+*Tags: mcp, a2a, gateway, security, enterprise*
+
+---
+
+### 127. [tanevanwifferen/mcp-inception](https://github.com/tanevanwifferen/mcp-inception)  `innovation: 8` ★☆☆ 🔵
+
+**A TypeScript-based MCP server enabling LLM query systems with parallel execution, context management, and task delegation.**
+
+**Key Features:**
+- Call another MCP client from your MCP client
+- Offload context windows
+- Delegate tasks
+- Split between models
+
+*Tags: mcp, mlp, llm, workflow, deployment, ai, developer, security*
+
+---
+
+### 128. [vstorm-co/pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)  `innovation: 8` ★☆☆ 🔵
+
+**Pydantic-DeepAgents provides a high-level abstraction layer over Pydantic-AI to facilitate the creation of production-grade autonomous agents similar to Claude Code or Devin. It utilizes a structured 'Deep Agent' architecture that separates concerns into modular components: a planning engine for tas**
+
+**Key Features:**
+- Autonomous task planning and cycle detection
+- recursive subagent delegation
+- filesystem CRUD and shell execution
+- persistent session memory via markdown
+- lifecycle hooks (pre/post tool execution)
+- context compression and summarization
+- structured output validation
+- cost budgeting and token tracking
+- Docker-based sandboxing
+- Git-aware project context.
+
+*Tags: agentic-workflows, autonomous, autonomous-agents, context-management, deep-agents, developer-ux, llm-memory, orchestration*
+
+---
+
+## RAG & Retrieval Systems
+
+> 127 tools · avg innovation 8.2
+
+### 129. [context7/context7](https://github.com/context7/context7)  `innovation: 10` ★★★ 🔵
+
+**A specialized context engineering tool that provides agents with real-time documentation for modern frameworks (Next.js 15, Tailwind v4) to bypass stale training data.**
+
+**Key Features:**
+- Real-time documentation scraping
+- automated version-aware indexing
+- token-efficient context injection
+- support for latest framework updates.
+
+*Tags: context-engineering, documentation, rag, real-time-data, optimization*
+
+---
+
+### 130. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `innovation: 10` ★★★ 🔵
+
+**An MCP server functioning as a specialized analysis engine to generate dependency graphs (JSON/DOT) and detect architectural "deadlocks" across codebases.**
+
+**Key Features:**
+- Multi-language support (TS/JS/C#/Python)
+- DOT format visual rendering
+- architectural debt scoring
+- circular dependency deadlock detection.
+
+*Tags: mcp, context-engineering, graph-rag, architecture, dependencies*
+
+---
+
+### 131. [upstash/context7](https://github.com/upstash/context7)  `innovation: 10` ★★★ 🔵
+
+**A documentation-focused RAG engine by Upstash featuring server-side reranking and automated SKILL.md generation from official docs.**
+
+**Key Features:**
+- Server-side reranking (65% token saving)
+- automated SKILL.md generation
+- llms.txt standard support
+- dual stdio/HTTP transport.
+
+*Tags: context-engineering, upstash, rag, documentation, skills*
+
+---
+
+### 132. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `innovation: 9.7` ★★☆ 🔵
+
+**A context-efficient MCP server for generating and tracking unconventional solutions using advanced note-taking.**
+
+**Key Features:**
+- Key Context-Saving Features
+- Resource-based Thought Storage
+- Metadata-First API
+- Persistent File-Based Storage
+- Server-Side Filtering
+- Context-Efficient Thought Retrieval
+
+*Tags: context engineering, mcp architecture, uncanny thinking, code generation, developer workflow, ai-assisted problem solving, secure coding, deployment automation*
+
+---
+
+### 133. [wwiens/trakt_mcpserver](https://github.com/wwiens/trakt_mcpserver)  `innovation: 9.7` ★★☆ 🔵
+
+**The Trakt_mcpserver project is a domain-focused AI platform designed to bridge the gap between large language models (LLMs) and real-time entertainment data sources such as Trakt.tv. By leveraging the MCP protocol, it provides clean separation of concerns across authentication, content retrieval, us**
+
+**Key Features:**
+- Secure authentication and session management
+- Real-time access to trending and popular content
+- Detailed show and episode data including ratings and watch history
+- Personalized recommendations based on user preferences
+- Integration with external APIs for dynamic content fetching
+- Support for multiple languages and formats
+- Scalable architecture for enterprise use
+
+*Tags: ai, developer, context_engineering, mcp, enterprise, security, data_integration, user_experience*
+
+---
+
+### 134. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `innovation: 9` ★★☆ 🔵
+
+**A task management application with Model Context Protocol integration, SQLite storage, and Obsidian visualization.**
+
+**Key Features:**
+- Task prioritization engine
+- Smart task decomposition
+- Tagging system for categorization
+- Local SQLite database storage
+- Obsidian bidirectional sync
+- MCP server for structured data management
+
+*Tags: taskmanagement, obidashost, sqlite, modelcontextprotocol, developertools, datapersistence, taskautomation, integration*
+
+---
+
+### 135. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**The DeepL-MCP-Server is a context-aware MCP (Model Context Protocol) implementation that leverages the DeepL API for real-time translation across various languages. It provides developers with an easy-to-use interface to integrate translation capabilities into their applications, supporting bidirect**
+
+**Key Features:**
+- Translate text between numerous languages
+- Rephrase text using DeepL's capabilities
+- Access to all DeepL API languages and features
+- Automatic language detection
+- Formality control for translations
+- Integration with Claude Desktop for seamless conversational translation
+
+*Tags: deepl, translation, ai, developer, cloud, mcp, integration, security*
+
+---
+
+### 136. [emeryray2002/virustotal-mcp](https://github.com/emeryray2002/virustotal-mcp)  `innovation: 9` ★★☆ 🔵
+
+**The virustotal-mcp library is a powerful context and isolation analysis tool designed to leverage the VirusTotal API. It offers advanced search capabilities, detailed file and IP analysis, and relationship queries across the VirusTotal dataset. This tool supports automated workflows, integrates with**
+
+**Key Features:**
+- Comprehensive URL analysis
+- File and IP analysis
+- Relationship queries (analyses
+- comments
+- etc.)
+- Automated report generation
+- Integration with MCP and Claude Desktop
+- Advanced search capabilities
+
+*Tags: virustotal, virustotal-mcp, security, analysis, reporting, developer-tools*
+
+---
+
+### 137. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `innovation: 9` ★★☆ 🔵
+
+**Two Truths and a Twist is the world's first Model Context Protocol (MCP) game, designed to engage users through AI-generated trivia rounds. The project implements a robust MCP server to facilitate real-time interaction between players and AI models, enhancing user experience with dynamic content gen**
+
+**Key Features:**
+- Model Context Protocol (MCP) integration
+- AI-generated trivia rounds
+- Interactive gameplay with twist reveals
+- Customizable game settings
+- Cross-platform compatibility
+
+*Tags: ai, trivia, gaming, mcp, developer, cloud, security, software*
+
+---
+
+### 138. [getzep/zep](https://github.com/getzep/zep)  `innovation: 9` ★★☆ 🔵
+
+**Zep functions as a platform that manages and retrieves context necessary for accurate AI agent performance in production. It achieves this by accepting inputs like chat history, business data, and events, and then using a proprietary temporal knowledge graph (powered by Graphiti) to extract relation**
+
+**Key Features:**
+- End-to-end context assembly
+- Temporal knowledge graph (Graphiti)
+- Relationship-aware retrieval
+- Sub-200ms latency context delivery
+- SDKs for Python/TypeScript/Go
+- Integration examples with LangChain/LlamaIndex/AutoGen
+- SOC2 Type 2 / HIPAA compliance (Zep Cloud).
+
+*Tags: context engineering, knowledge graph, temporal data, rag, llm context management, low latency, ai agent support, graphiti*
+
+---
+
+### 139. [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker)  `innovation: 9` ★★☆ 🔵
+
+**The gyoridavid/short-video-maker project is a web-based platform designed to automate the creation of engaging short videos for social media platforms like TikTok, Instagram Reels, and YouTube Shorts. It leverages the Model Context Protocol (MCP) and REST API to enable seamless integration with exte**
+
+**Key Features:**
+- Text-to-speech conversion
+- Automatic caption generation
+- Background video selection from Pexels
+- Music integration with genre/mood selection
+- Video assembly using Remotion
+- Web UI for browser-based video creation
+- Support for n8n workflow integration
+- Customizable settings and configurations
+
+*Tags: video generation, text-to-speech, ai-powered media, web ui, n8n integration, automation, cloud deployment, developer tools*
+
+---
+
+### 140. [jimpick/mcp-json-db-collection-server](https://github.com/jimpick/mcp-json-db-collection-server)  `innovation: 9` ★★☆ 🔵
+
+**This project focuses on leveraging the jimpick/mcp-json-db-collection-server to implement a robust context-aware, multi-database architecture using the Model Context Protocol. By utilizing Fireproof as the underlying database technology, the system enables seamless CRUD operations across various JSO**
+
+**Key Features:**
+- Multi-database support via Model Context Protocol
+- Fireproof integration for scalable and secure data handling
+- Context-aware database orchestration
+- Real-time synchronization with cloud services
+- Enhanced security and privacy controls
+
+*Tags: context engineering, fireproof, model context protocol, multi-database, ai integration, security, cloud sync, data orchestration*
+
+---
+
+### 141. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**The Mapbox Model Context Protocol (MCP) server provides a standardized interface for integrating geospatial data into AI applications. By leveraging the MCP server, developers can embed contextual awareness into their models, allowing them to understand locations, navigate physical spaces, and utili**
+
+**Key Features:**
+- Geocoding and reverse geocoding
+- Point of interest (POI) search
+- Multi-modal routing (driving
+- walking
+- cycling)
+- Travel time matrices and optimization
+- Route visualization with maps
+- Offline geospatial calculations
+- Integration with popular AI tools like Claude Desktop and VS Code
+
+*Tags: mapbox, mcp-server, geospatial-intelligence, ai-development, context-aware-ai, location-awareness, spatial-data, route-optimization*
+
+---
+
+### 142. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)  `innovation: 9` ★★☆ 🔵
+
+**A model context protocol tool for integrating Tavily API into LLM search workflows.**
+
+**Key Features:**
+- Advanced web search using Tavily API
+- AI-generated summaries and direct question answering
+- Context generation for RAG applications
+- Customizable search depth
+- parameters
+- and response formats
+- Support for domain filtering and source inclusion/exclusion
+
+*Tags: model-context-protocol, tavily-search, search-api, ai-search, llm-integration, context-generation, search-results, developer-tools*
+
+---
+
+### 143. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `innovation: 9` ★★☆ 🔵
+
+**Exif-mcp is a lightweight, offline MCP (Model Context Protocol) server designed to extract various image metadata segments such as EXIF, GPS, XMP, ICC, IPTC, JFIF, and IHDR. Built with TypeScript and leveraging the powerful exifr library, it enables secure, efficient parsing of image data without re**
+
+**Key Features:**
+- EXIF extraction
+- GPS coordinate retrieval
+- XMP and ICC data parsing
+- IPTC metadata access
+- JFIF and IHDR support
+- Image orientation and rotation detection
+- Thumbnail generation
+- Integration with Claude Desktop for advanced analysis
+
+*Tags: exif-mcp, mcp, image metadata, exifr, gps, xmp, icc, jfif*
+
+---
+
+### 144. [xiaolaa2/midi-file-mcp](https://github.com/xiaolaa2/midi-file-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A powerful MIDI file parsing and manipulation tool based on Tone.js, enabling AI assistants to read, analyze, and modify MIDI files without complexities.**
+
+**Key Features:**
+- Read MIDI file information
+- Get and modify track
+- note
+- control change
+- and pitch bend information
+- Set MIDI file tempo (BPM)
+- Add new notes to specific tracks
+- Add new tracks
+- Add control changes to specific tracks
+- Add pitch bends to specific tracks
+- Add notes by index
+- Modify existing notes by index
+
+*Tags: midi-file-mcp, tone.js, midi-parser, ai-assistant, developer-tool, code-management, security-features, automation*
+
+---
+
+### 145. [dasein108/mcp-cw-graph](https://github.com/dasein108/mcp-cw-graph)  `innovation: 8.5` ★☆☆ 🔵
+
+**MCP Server for interacting with the CW-Social smart contract on Cosmos-based blockchains, enabling creation, management, and querying of cyberlinks.**
+
+**Key Features:**
+- Create
+- read
+- update
+- and delete cyberlinks
+- Batch operations for efficient processing
+- Rich query capabilities with filtering and pagination
+- Transaction Management with real-time monitoring
+- Semantic embedding generation via Hugging Face transformers
+- Cosine similarity calculations for semantic matching
+- Flexible ID system with formatted IDs (fids) and global IDs (gids)
+- Time-range based queries with UTC support
+- Owner-based filtering and statistics
+
+*Tags: mcp, cyberlink, cosmos, ai, blockchain, smart contracts, decentralized apps, web3*
+
+---
+
+### 146. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a Node.js-based MCP (Model Context Protocol) server that connects DeepSeek's R1 and V3 language models with the Claude Desktop interface. It leverages Docker for containerization, supports custom model selection, and includes robust error handling and configuration management. **
+
+**Key Features:**
+- MCP server integration
+- DeepSeek R1/V3 model support
+- Node.js/TypeScript stack
+- Docker containerization
+- Custom model configuration
+- Error handling and logging
+
+*Tags: deepseek, mcp-server, ai-integration, deepseek-r1, cloud-deployment, developer-tools, ai-api, model-selection*
+
+---
+
+### 147. [OfficialIncubo/BeatDrop-Music-Visualizer](https://github.com/OfficialIncubo/BeatDrop-Music-Visualizer)  `innovation: 8` ★☆☆ 🔵
+
+**BeatDrop-Music-Visualizer is a continued development of the original inactive repository fork, focusing on improving features and bug fixes/optimizations. It leverages the original MilkDrop2 Plug-in for Winamp but aims to add better features and bug fixes/optimizations for versatility, usability, an**
+
+**Key Features:**
+- Based on the Original MilkDrop2 Plug-in
+- compatible with all MilkDrop presets (.milk). Features include: Beat detection compatibility for better audio reaction
+- new waveforms/transitions
+- custom shapes/waves (up to 16 slots)
+- precise shader precaching/caching for instant loading
+- support for Pixel Shader 4 (Shader Model 3) presets
+- and integration with Spout for sharing visuals.
+
+*Tags: ['MilkDrop2', 'Visualizer', 'Windows', 'Shader', 'Spout Integration', 'BeatDrop', 'MilkDrop', 'Optimization'*
+
+---
+
+### 148. [Symbitic/awesome-babylonjs](https://github.com/Symbitic/awesome-babylonjs)  `innovation: 8` ★☆☆ 🔵
+
+**Babylon.js is an open-source game and rendering engine written in TypeScript designed to be powerful, beautiful, simple, and open. It supports cross-platform game development through WebGL, WebGPU, and the Babylon Native runtime. The resource highlights various aspects of the ecosystem, including do**
+
+**Key Features:**
+- The resource showcases the breadth of Babylon.js capabilities
+- covering rendering
+- physics simulation (PhysX)
+- advanced visual effects (shaders/lighting)
+- cross-platform compatibility (WebXR)
+- and diverse interactive demos. Key highlights include:
+* **Rendering & Visualization:** Demonstrating various 3D objects
+- lighting effects
+- and custom mesh creation.
+* **Physics Simulation:** Examples of collision handling
+- fluid rendering
+- and physics-based interactions.
+* **Interactive Experiences:** Demos showcasing gameplay concepts like racing games
+- arcade mechanics (Pac-Man)
+- and VR experiences.
+* **Advanced Features:** Coverage of specific features like the Portal system
+
+*Tags: ['babylon.js', 'webgl', '3d', 'physics', 'xr', 'shaders', 'webgpu', 'typescript'*
+
+---
+
+### 149. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides a technical walkthrough for building a Vision RAG pipeline. Instead of traditional text-based chunking, it indexes document pages as visual elements, preserving complex layouts, tables, and charts that are often lost in text extraction. The methodology utilizes PageIndex to ha**
+
+**Key Features:**
+- Vision-based document indexing
+- layout-aware chunking
+- multimodal context retrieval
+- PDF-to-image pipeline for RAG
+- spatial relationship preservation
+- VLM context injection
+- multimodal vector search
+- automated document visualization.
+
+*Tags: context-engineering, document-intelligence, document-parsing, layout-analysis, multimodal, pageindex, pdf-intelligence, rag*
+
+---
+
+### 150. [akramsaouri/mcp-translate](https://github.com/akramsaouri/mcp-translate)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-translate project provides a GitHub-based solution for translating text by leveraging the Model Context Protocol. It enables developers to integrate translation capabilities into their applications, enhancing multilingual support and improving user experience across diverse languages.**
+
+**Key Features:**
+- translate_text
+- model_context_protocol
+- api_integration
+- customizable_translation_rules
+
+*Tags: text_translation, model_context, api_integration, multilingual_support, developer_tool*
+
+---
+
+### 151. [al-how/supernotes-to-obsidian](https://github.com/al-how/supernotes-to-obsidian)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a Python script that leverages the Model Context Protocol (MCP) to synchronize Supernotes exports with Obsidian daily notes. It automates note creation, formatting, and integration, enhancing productivity for users managing structured notes across platforms.**
+
+**Key Features:**
+- Import Supernotes exports into Obsidian daily
+- Automate note creation and formatting
+- Handle OCR errors and wikilinks
+- Clean up note templates
+- Integrate with MCP
+
+*Tags: supernotes, obsidian, automation, mcp, productivity, note-management*
+
+---
+
+### 152. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `innovation: 8` ★☆☆ 🔵
+
+**A toolset for crawling documentation sites, generating Markdown, and enabling searchable indexing via MCP protocol.**
+
+**Key Features:**
+- Web crawler (crawler_cli) with configurable depth and URL patterns
+- Markdown document generator with HTML cleaning options
+- MCP server for semantic search and vector embedding generation
+- Integration with Cursor and other MCP clients via stdio transport
+- Cache-based performance optimization to speed up subsequent runs
+
+*Tags: web crawling, documentation management, semantic search, machine learning embeddings, api integration, developer tools, content indexing, ai-powered documentation*
+
+---
+
+### 153. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a Model Context Protocol (MCP) server that leverages the Nationalize.io API to predict the geographic origin of given names. It supports batch predictions and real-time integration, offering developers a robust tool for context-aware applications. The solution emphasizes secur**
+
+**Key Features:**
+- Predict name origin
+- Batch prediction
+- Real-time API integration
+- Secure code deployment
+- Automated workflows
+
+*Tags: mcp, developer, security, integration, predictor, server, code*
+
+---
+
+### 154. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP server enables analysis of academic author relationships by leveraging APIs from Google Scholar, Crossref, and Semantic Scholar. It supports features such as finding co-authors, extracting keywords, and integrating data across multiple sources to understand collaboration patterns within rese**
+
+**Key Features:**
+- get_coauthors
+- get_author_keywords
+- data integration from multiple APIs
+- async operations
+- rate limiting
+- error handling
+
+*Tags: academic networks, research collaborations, author analysis, data integration, api usage*
+
+---
+
+### 155. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The alxspiker/ai-meta-mcp-server is a flexible platform that allows AI models to define and run custom tools at runtime through a meta-tool architecture. It supports multiple execution environments, enforces sandboxed security, and integrates with human-in-the-loop approval for safe tool deployment.**
+
+**Key Features:**
+- Dynamic tool creation
+- Multiple runtime environments (JavaScript
+- Python
+- Shell)
+- Sandboxed execution
+- Persistent storage of tools
+- Human approval workflow
+
+*Tags: ai-meta-mcp-server, mcp-registry, ai-tool-creation, secure-execution, developer-platform*
+
+---
+
+### 156. [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)  `innovation: 8` ★☆☆ 🔵
+
+**The anaisbetts/mcp-youtube project implements a Model-Context Protocol Server that enables seamless interaction between AI models and YouTube videos. It leverages yt-dlp to extract subtitles and connects them to Claude AI via the Model Context Protocol, allowing for intelligent video analysis and su**
+
+**Key Features:**
+- Model-context protocol server
+- YouTube subtitle extraction
+- AI integration with Claude AI
+- Secure code management
+- Automated deployment tools
+
+*Tags: youtube, ai, model, protocols, developer, integration, subtitles, cloud*
+
+---
+
+### 157. [angrysky56/mcp-rocq](https://github.com/angrysky56/mcp-rocq)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-rocq project leverages the Coq platform to provide advanced logical reasoning capabilities, supporting automated dependent type checking, inductive type definitions, property proving, and structured communication with Coq. It is designed to assist developers in verifying complex mathematical**
+
+**Key Features:**
+- Automated Dependent Type Checking
+- Inductive Type Definition
+- Property Proving
+- XML Protocol Integration
+- Rich Error Handling
+
+*Tags: coq, formal verification, software development, ai integration, developer tools, logic programming, code analysis, security*
+
+---
+
+### 158. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Thingsboard MCP Server is a platform designed to securely connect and utilize Thingsboard data within large language models (LLMs). It enables developers to embed real-time contextual information from Thingsboard into AI applications, enhancing their capabilities with up-to-date and relevant dat**
+
+**Key Features:**
+- Integrate Thingsboard data
+- Contextual enrichment for LLMs
+- Secure API access
+- Scalable deployment options
+
+*Tags: thingsboard, ml, context, integration, devops*
+
+---
+
+### 159. [apoorvv/mcp-claude-enhancements](https://github.com/apoorvv/mcp-claude-enhancements)  `innovation: 8` ★☆☆ 🔵
+
+**This project leverages the Model Context Protocol (MCP) to integrate local file access and interaction capabilities into the Claude Desktop environment. By utilizing Python scripts, it enables developers to create custom tools that enhance productivity by allowing seamless file management and contex**
+
+**Key Features:**
+- Leave Policy Lookup
+- Conversation Saver
+- File Counter
+
+*Tags: mcp, cloud, ai-enhancement, desktop, productivity, file_access, context_management, developer_tools*
+
+---
+
+### 160. [appleinmusic/baidu-search-mcp](https://github.com/appleinmusic/baidu-search-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project leverages the Baidu TextMind API to enable AI-powered search within a Model Context Protocol (MCP) environment. It supports multiple model versions such as ernie-3.5-8k, ernie-4.0-8k, deepseek-r1, and deepseek-v3, providing users with relevant search results and source references. The i**
+
+**Key Features:**
+- Integrate Baidu TextMind API
+- Support multiple AI models
+- Provide search results with sources
+- Enable deep search and time filtering
+
+*Tags: modelcontextprotocol, ai-search, baidu-search, deeplearning, search-api, context-engine, ai-development, mcp-integration*
+
+---
+
+### 161. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The tool leverages the Model Context Protocol to analyze React components, extracting details such as props, types, and default values. It supports local analysis of project folders and integrates with Claude for enhanced developer workflows.**
+
+**Key Features:**
+- Analyze React components
+- Generate documentation
+- Integrate with Claude
+- Support MCP server
+
+*Tags: react, code-analysis, documentation, developer-tools, mcp, analysis, code-generation, ai-integration*
+
+---
+
+### 162. [bemusic/bemuse](https://github.com/bemusic/bemuse)  `innovation: 8` ★☆☆ 🔵
+
+**Bemuse is an open-source, online, web-based rhythm game. It plays songs in BMS format (See: Introduction to BMS). Key features include playing custom songs by dragging BMS files, an online internet ranking system for competition, a keyboard mode (7-keys), fully key-sounded gameplay, player party mod**
+
+**Key Features:**
+- The game is powered by HTML5 technologies
+- React
+- Redux
+- and Pixi.js. Key features include playing songs in BMS format
+- an online ranking system
+- keyboard mode (7-keys)
+- custom song loading via folder drag-and-drop
+- party modes for friends
+- multiple difficulties
+- adjustable speed settings
+- scoring/grading system
+- and various playback modes (BMS mode).
+
+*Tags: ['rhythm game', 'web game', 'html5', 'react', 'redux', 'pixi.js', 'bms', 'keyboard mode'*
+
+---
+
+### 163. [blackhole89/autopen](https://github.com/blackhole89/autopen)  `innovation: 8` ★☆☆ 🔵
+
+**Autopen is a text editor that lets you view the text through the eyes of an LLM, see what it expects and what it finds surprising, generate continuations, and seamlessly explore different alternatives at every point - as in the device, and a pen for assorted macrofauna. The core concept revolves aro**
+
+**Key Features:**
+- The core functionality includes: 
+1. **LLM Visualization:** Viewing text through the lens of an LLM to see token probabilities.
+2. **Surprising Token Highlighting:** Identifying tokens with low probability.
+3. **Continuation Generation:** Generating multiple continuations based on the LLM's distribution.
+4. **Seamless Exploration:** Flipping between generated continuations (Alt-⬆⬇) and emitting them into the buffer (Alt-⮕).
+5. **LLM Execution:** Ability to load and execute any LLM in the GGUF format using `llama.cpp`.
+6. **Integration with Tools:** Utilizing `imgui` for visualization and `imgui-filebrowser` for file browsing.
+
+*Tags: LLM, AI, EDITOR, VISUALIZATION, GGUF, LLLM, CODE, IDE*
+
+---
+
+### 164. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a Spring Boot-based AI server that enables interaction with Confluence Cloud, offering callable tools for managing spaces, pages, and document history. It leverages the Model Context Protocol (MCP) to facilitate seamless integration with MCP clients, including the Claude deskto**
+
+**Key Features:**
+- Spring Boot AI-powered Model Context Protocol Server
+- Confluence Cloud integration
+- Callable tools for document management
+- Tool registration and testing
+
+*Tags: spring-boot, ai, confluence, model-context-protocol, mcp-server, developer-tools, confluence-integration, ai-development*
+
+---
+
+### 165. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Whimsical MCP Server is a specialized tool that leverages the Model Context Protocol (MCP) to generate visual diagrams programmatically from natural language inputs. It integrates with Whimsical's API, allowing developers to create complex diagram structures directly from LLM-generated context. **
+
+**Key Features:**
+- Whimsical diagram creation
+- MCP protocol integration
+- LLM context processing
+- Code generation support
+- Secure deployment options
+
+*Tags: whimsical-mcp-server, mcp-protocol, llm, diagram-generation, secure-deployment*
+
+---
+
+### 166. [https://github.com/campfirein](https://github.com/campfirein)  `innovation: 8` ★☆☆ 🔵
+
+**The profile for 'campfirein' showcases several repositories central to the development and evaluation of AI coding agents. Key projects include 'cipher' (Byterover Cipher), an open-source memory layer compatible with various coding agents and IDEs via the Model Context Protocol (MCP), and 'brv-bench**
+
+**Key Features:**
+- Open-source memory layer for coding agents
+- Benchmark suite for context retrieval evaluation
+- Compatibility with multiple coding agents and IDEs
+- Model Context Protocol (MCP) implementation
+- Autonomous program improvement capabilities.
+
+*Tags: ai-coding-agents, memory-layer, context-management, mcp, byterover-cipher, agent-benchmarking, code-generation, autonomous-software-engineer*
+
+---
+
+### 167. [clawsoftware/clawPDF](https://github.com/clawsoftware/clawPDF)  `innovation: 8` ★☆☆ 🔵
+
+**With clawPDF, you can create documents in various formats, including PDF/A-1b, PDF/A-2b, PDF/A-3b, PDF/X, PDF/Image, OCR, SVG, PNG, JPEG, TIF, and TXT. You also have easy access to metadata and can remove it before sharing a document. ClawPDF offers a scripting interface that lets you automate proce**
+
+**Key Features:**
+- Print to PDF
+- PDF/A-1b
+- PDF/A-2b
+- PDF/A-3b
+- PDF/X
+- PDF/Image
+- OCR
+- SVG Export
+- Drag and Drop Support
+- Merge Files
+- Command Line Support
+- Silent Printing
+
+*Tags: ['PDF', 'OCR', 'Network Printing', 'Windows', 'Virtualization', 'Encryption', 'Multi-format', 'Scripting'*
+
+---
+
+### 168. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `innovation: 8` ★☆☆ 🔵
+
+**This project implements a secure MCP server using the Model Context Protocol, enabling seamless integration with Cloudflare for authentication and authorization. It leverages Cloudflare's OAuth capabilities to facilitate secure remote connections, ensuring robust context management and isolation for**
+
+**Key Features:**
+- MCP server implementation
+- Cloudflare OAuth integration
+- Remote MCP connection support
+- Secure authentication mechanisms
+- Context isolation features
+
+*Tags: mcp, cloudflare, security, developer, context, integration, authentication, secure*
+
+---
+
+### 169. [coop-deluxe/sm64coopdx](https://github.com/coop-deluxe/sm64coopdx)  `innovation: 8` ★☆☆ 🔵
+
+**This repository is a project that continues the Super Mario 64 experience by implementing an online multiplayer aspect, synchronizing entities and levels for multiple players. The core innovation lies in maintaining and improving the original 'sm64ex-coop' while adding new features, customization, a**
+
+**Key Features:**
+- Online multiplayer synchronization of entities and levels
+- enhanced capability for modders via the Lua API (similar to Roblox/Garry's Mod)
+- community-driven project maintained by the Coop Deluxe Team.
+
+*Tags: ['Super Mario 64', 'Multiplayer', 'Lua API', 'Modding', 'Emulation', 'Coop', 'Development Tools', 'Connectivity'*
+
+---
+
+### 170. [cskwork/keyword-rag-mcp](https://github.com/cskwork/keyword-rag-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**BM25 기반 문서 검색을 위한 MCP 서버로, 토스 결제 연동 MCP 프로젝트를 활용하여 마크다운 문서를 검색하고 지식 검색을 제공합니다.**
+
+**Key Features:**
+- BM25 알고리즘 기반 문서 검색
+- 토스 결제 연동 지원
+- Claude Desktop 연동
+- 자동 설정 및 구성 파일 생성
+- 문서 및 MDX 파일 관리
+- 명확한 검색 및 컨텍스트 기반 결과 제공
+
+*Tags: mcp, knowledge-retrieval, ai-platform, developer-tools, search-engine, document-processing, cloud-integration, security*
+
+---
+
+### 171. [daipendency/daipendency-mcp](https://github.com/daipendency/daipendency-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server Model Context Protocol (MCP) server is designed to facilitate secure and isolated communication between applications and services. It leverages TypeScript for implementation, utilizing official MCP SDKs to ensure robust interoperability. The project emphasizes context isolation, allow**
+
+**Key Features:**
+- Model Context Protocol server
+- Secure context management
+- Integration with external tools
+- Code review and tracking
+- Automated workflows
+- Instant dev environments
+
+*Tags: daipendency, mcp, security, developer, integration, context, sdk*
+
+---
+
+### 172. [dazeb/markdown-downloader](https://github.com/dazeb/markdown-downloader)  `innovation: 8` ★☆☆ 🔵
+
+**The Markdown Downloader MCP Server is designed to fetch web content and convert it into markdown format using the r.jina.ai service. It supports configurable download directories, automatic filename generation with timestamps, and persistent configuration for repeated use. This tool enhances develop**
+
+**Key Features:**
+- Webpage to markdown conversion
+- Configurable download directories
+- Automatic filename sanitization and date-stamped filenames
+- Persistent configuration storage
+- Integration with AI development tools like Jina.ai
+
+*Tags: mcp, ai, developer, markdown, security, ai-tools, r-jina-ai, web-scraping*
+
+---
+
+### 173. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `innovation: 8` ★☆☆ 🔵
+
+**The dcSpark/mcp-server-helius project provides a Model Context Protocol (MCP) server that allows Claude, an AI assistant, to access real-time Solana blockchain information such as wallet balances, block heights, and transaction details. This integration enhances Claude's capabilities in financial se**
+
+**Key Features:**
+- Basic blockchain operations
+- Wallet balance checks
+- Block height retrieval
+- Transaction and account information
+- NFT and digital asset details
+- Program account management
+
+*Tags: solana, blockchain, ai, developer, nft, smartcontracts, security, cloud*
+
+---
+
+### 174. [diganto-deb/local_file_organizer](https://github.com/diganto-deb/local_file_organizer)  `innovation: 8` ★☆☆ 🔵
+
+**A Python-based file organization system using the Model Context Protocol to securely manage and categorize files across directories.**
+
+**Key Features:**
+- Directory security with permission checking
+- Smart categorization by file type (documents
+- images
+- videos
+- etc.)
+- Recursive processing for nested directory structures
+- Resource-efficient handling of large directory sets
+- Detailed analytics on file distribution by type
+
+*Tags: file organization, model context protocol, secure file management, automation, code analysis, project detection, data categorization, cross-platform support*
+
+---
+
+### 175. [digitarald/chatarald](https://github.com/digitarald/chatarald)  `innovation: 8` ★☆☆ 🔵
+
+**This repository showcases a test-driven approach for building a ChatGPT-style web application using TypeScript. It is structured as a pnpm monorepo featuring a reusable LLM client library, provider-agnostic adapters, and a minimal React UI. The core innovation revolves around an agent orchestration **
+
+**Key Features:**
+- Provider-agnostic LLM client (OpenRouter via OpenAI SDK)
+- Token counting (estimate + actual usage)
+- Local conversation storage (idb-keyval)
+- TDD workflow using Vitest and MSW for HTTP mocking
+- A minimal React UI layer.
+
+*Tags: ['TypeScript', 'React', 'LLM', 'ChatGPT', 'Monorepo', 'TDD', 'Web App', 'API Client'*
+
+---
+
+### 176. [domdomegg/google-documents-mcp.git](https://github.com/domdomegg/google-documents-mcp.git)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling secure, isolated access to Google Docs for reading, creating, and editing documents.**
+
+**Key Features:**
+- OAuth integration with Google Docs API
+- Secure client credentials management
+- Cross-platform compatibility (web
+- mobile)
+- Real-time document synchronization
+- Granular access control and permissions
+
+*Tags: gdpserver, gdpsdk, documentaccess, apiintegration, security, developertools, cloudstorage, webapp*
+
+---
+
+### 177. [engineer-man/piston](https://github.com/engineer-man/piston)  `innovation: 8` ★☆☆ 🔵
+
+**Piston provides a robust sandboxing environment for executing arbitrary code snippets by leveraging Docker and cgroup v2 for strict resource isolation. It abstracts the complexity of maintaining dozens of language runtimes through a unified REST API and a specialized package manager (ppman). The arc**
+
+**Key Features:**
+- Multi-language runtime management
+- secure sandboxing via cgroups v2
+- resource usage limiting (CPU/Memory/Time)
+- RESTful execution API
+- CLI-based package management
+- multi-file execution support
+- stdin/stdout/stderr piping
+- pre-built containerized language packages
+
+*Tags: sandboxing, code-execution, docker, runtime-isolation, cgroups-v2, api-driven, multi-language, security-architecture*
+
+---
+
+### 178. [ertiqah/linkedin-mcp-runner](https://github.com/ertiqah/linkedin-mcp-runner)  `innovation: 8` ★☆☆ 🔵
+
+**The LiGo MCP Runner project enables GPT-based assistants to access and analyze user activity on LinkedIn, enhancing contextual awareness and response quality. It leverages the MCP protocol to pull real-time data, allowing developers to build intelligent applications that adapt based on recent profes**
+
+**Key Features:**
+- Integrate LinkedIn context into AI responses
+- Analyze recent LinkedIn activity
+- Provide strategic insights based on user engagement
+- Support enterprise-level decision-making
+
+*Tags: ai, linkedin, mcp, developer, security, enterprise, gpt, cloud*
+
+---
+
+### 179. [excoriate/mcp-terragrunt-docs](https://github.com/excoriate/mcp-terragrunt-docs)  `innovation: 8` ★☆☆ 🔵
+
+**A Deno/TypeScript MCP server that provides contextual information and documentation for Terragrunt, enhancing AI assistant accuracy.**
+
+**Key Features:**
+- MCP Server Provisioning
+- Dependency Management
+- AI Integration for Documentation
+- Issue Tracking & Monitoring
+- Security & Code Quality Tools
+
+*Tags: deno, terragrunt, ai, security, documentation, developer, mcp, ai*
+
+---
+
+### 180. [flexpa/mcp-fhir](https://github.com/flexpa/mcp-fhir)  `innovation: 8` ★☆☆ 🔵
+
+**The flexpa/mcp-fhir project provides a TypeScript-based MCP server that facilitates interaction with FHIR servers by exposing core resources through the Model Context Protocol (MCP). It supports secure, context-aware access to FHIR resources, enabling AI and LLM applications to retrieve and utilize **
+
+**Key Features:**
+- MCP server integration
+- FHIR resource access
+- secure context management
+- LLM interaction support
+
+*Tags: fhir, mcp, healthcare, ai, developer, security, integration, context*
+
+---
+
+### 181. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server To Markdown project provides a cloud-based solution for converting files into Markdown format, leveraging Cloudflare's AI capabilities. It supports multiple file types and integrates seamlessly with Claude Desktop, offering efficient and user-friendly file description generation.**
+
+**Key Features:**
+- Cloudflare AI integration
+- Markdown conversion
+- Cross-platform compatibility
+- File format support
+- User-friendly interface
+
+*Tags: mcp-server-to-markdown, cloudflare-api, file-conversion, developer-tools, ai-integration, documentation, security-features*
+
+---
+
+### 182. [freepik-company/freepik-mcp](https://github.com/freepik-company/freepik-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Freepik MCP project provides a dedicated server that allows AI models such as Claude and Cursor to interact directly with Freepik's APIs via function calls. This facilitates content generation, search, and management without disrupting the AI workflow. The solution leverages the Model Context Pr**
+
+**Key Features:**
+- MCP Server Integration
+- AI Assistant Connectivity
+- Content Generation & Search
+- Image Classification
+- Custom Image Creation
+- Resource Management
+- Automated Workflows
+
+*Tags: agent orchestration, context isolation, api integration, ai development, freepik mcp, model context protocol, developer workflow, content generation*
+
+---
+
+### 183. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides an A TypeScript implementation of the Model Context Protocol (MCP) server, designed to work seamlessly with Google's Gemini Pro AI model. It enables integration with the Claude Desktop application, allowing users to leverage advanced AI capabilities directly within their workfl**
+
+**Key Features:**
+- MCP Server Integration
+- Cloud-based AI Model Access
+- Secure API Communication
+- Developer Tools for Customization
+
+*Tags: gpm-server, gemini-pro, ai-integration, cloud-dev, developer-tools, secure-api, context-aware, ai-cloud*
+
+---
+
+### 184. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `innovation: 8` ★☆☆ 🔵
+
+**A monorepo-based system for managing and processing Pokémon data via Model Context Protocol (MCP) server and SQLite database.**
+
+**Key Features:**
+- MCP server for standardized Pokemon data access
+- Data ingestion service using PokeAPI
+- SQLite database for persistent storage
+- Comprehensive search and filtering capabilities
+- Integration with Claude Desktop for GUI testing
+
+*Tags: pokemon, mcp, data-ingestion, sqlite, node.js, grokepmc, bun, developer-tools*
+
+---
+
+### 185. [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)  `innovation: 8` ★☆☆ 🔵
+
+**An MCP server implementation that enables AI assistants to retrieve and process documentation via vector search, enhancing contextual responses.**
+
+**Key Features:**
+- Vector-based documentation search
+- Semantic search capabilities
+- Automated documentation processing
+- Real-time context augmentation for LLMs
+
+*Tags: mcp-ragdocs, vector-search, ai-assistants, documentation-integration, semantic-search*
+
+---
+
+### 186. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a fully automated machine learning pipeline that integrates data ingestion, preprocessing, model training, evaluation, and deployment. It leverages the Model Context Protocol (MCP) to connect with external tools like Claude Desktop for model training, ensuring seamless integrati**
+
+**Key Features:**
+- Automated data preprocessing
+- Model training via Claude Desktop
+- RMSE evaluation
+- Integration with external tools
+- Support for linear regression models
+
+*Tags: mcp, linear-regression, ai, machine-learning, model-training, cloud-devops*
+
+---
+
+### 187. [henkdz/selfhosted-supabase-mcp](https://github.com/henkdz/selfhosted-supabase-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A self-hosted Supabase MCP server enabling secure, isolated database interactions for developers.**
+
+**Key Features:**
+- Database schema introspection and management
+- Migration tracking and application of changes
+- Authentication and user management
+- Integration with Supabase Storage
+- Type definition generation
+- Security auditing and vulnerability detection
+
+*Tags: supabase, mcp, developer_tools, security, database_management, api_integration, cloud_native, microservices*
+
+---
+
+### 188. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `innovation: 8` ★☆☆ 🔵
+
+**mcp-gopls enables AI assistants to leverage Go's LSP for advanced navigation, diagnostics, testing, and code analysis.**
+
+**Key Features:**
+- Go-to-definition
+- References
+- Hover
+- Completion
+- Code actions
+- Coverage analysis
+- Go mod tidy
+- Go vulncheck
+- Workspace and file context
+- Resource navigation (overview
+- go.mod)
+
+*Tags: gopls, lsp, ai-assistants, go, coverage, security, developer-tools, ai-integration*
+
+---
+
+### 189. [holepunchto/bare](https://github.com/holepunchto/bare)  `innovation: 8` ★☆☆ 🔵
+
+**Bare is a small, modular JavaScript runtime aimed at simplifying the development of networked applications by enabling seamless integration across various platforms. It leverages low-level bindings to V8 and asynchronous I/O via libuv, supporting both CJS and ESM module systems with bidirectional in**
+
+**Key Features:**
+- Small and modular JavaScript runtime
+- Cross-platform support (desktop & mobile)
+- Native addon system
+- Lightweight threads with synchronous joins
+- Bidirectional interoperability between CJS and ESM
+- Support for native modules and platform-specific APIs
+
+*Tags: javascript, runtime, cross-platform, modular, developer, security, web development, libuv*
+
+---
+
+### 190. [hugohow/mcp-music-analysis](https://github.com/hugohow/mcp-music-analysis)  `innovation: 8` ★☆☆ 🔵
+
+**The project leverages librosa for audio processing and Whisper with LLMs to analyze music audio, enabling detailed insights such as beat detection, duration estimation, MFCC computation, and lyric transcription. It aims to enhance context understanding by integrating these advanced NLP and audio ana**
+
+**Key Features:**
+- audio analysis
+- beat detection
+- duration measurement
+- MFCC computation
+- lyric transcription
+
+*Tags: librosa, whisper, llms, music-analysis, audio-processing, nlp, audio-metrics, mcp*
+
+---
+
+### 191. [insthync/awesome-unity3d](https://github.com/insthync/awesome-unity3d)  `innovation: 8` ★☆☆ 🔵
+
+**A categorized collection of awesome opensource unity3d repos · GitHub. This resource highlights various Unity-related projects, including components for 2D games, bone systems, AI/Animation tools, and core engine utilities.**
+
+**Key Features:**
+- The repository showcases a wide range of essential Unity resources
+- covering areas like 2D/3D bones
+- AI/Animation solutions (like IK/Ragdolls)
+- physics simulation
+- rendering effects
+- and crucial tooling for game development workflows.
+
+*Tags: ['Unity', 'GameDev', 'AI', 'Physics', 'Animation', 'Tooling', 'Rendering', 'ECS'*
+
+---
+
+### 192. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a Model Context Protocol (MCP) server that integrates Playwright for browser automation, allowing AI models to execute JavaScript, take screenshots, and interact with web applications in real time. It leverages Deno 2's lightweight runtime environment for secure and efficient ex**
+
+**Key Features:**
+- Model Context Protocol server
+- Browser automation via Playwright
+- JavaScript execution in real browser
+- Screenshot capture
+- Secure execution with Deno
+
+*Tags: deno, playwright, playwright-server, ai, automation, web automation, browser dev, security*
+
+---
+
+### 193. [jaokuohsuan/draw-things-mcp-cursor](https://github.com/jaokuohsuan/draw-things-mcp-cursor)  `innovation: 8` ★☆☆ 🔵
+
+**This project enables the integration of the Draw Things MCP cursor into Cursor, allowing users to generate images via a model context protocol. It leverages MCP's capabilities to interact with external APIs and supports advanced features such as negative prompts, step control, and customizable image**
+
+**Key Features:**
+- MCP cursor integration
+- image generation via model context protocol
+- negative prompt support
+- step control
+- customizable parameters
+
+*Tags: mcp-cursor, draw-things-mcp-cursor, ai-image-generation, modelcontext-protocol, cursor-integration, image-generation-api, developer-tools, ai-development*
+
+---
+
+### 194. [jean-technologies/mcp-writer-substack](https://github.com/jean-technologies/mcp-writer-substack)  `innovation: 8` ★☆☆ 🔵
+
+**A tool that bridges Substack and Medium writing to Claude, enabling semantic search and personalized assistance with published content.**
+
+**Key Features:**
+- Retrieves and caches blog posts from Substack and Medium
+- Uses embeddings for semantic search across writings
+- Generates individual essay resources for Claude
+- Allows query-based retrieval of relevant essays
+- Supports selective content refresh and caching
+
+*Tags: mcp-writer-substack, cloudflare, ai, developer, security, code, substack, medium*
+
+---
+
+### 195. [jeong-sik/kakao-api-mcp-server](https://github.com/jeong-sik/kakao-api-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project enables AI models to leverage Kakao Map and Daum APIs for location-based services, integrating geospatial data retrieval, route planning, and web search functionalities.**
+
+**Key Features:**
+- Kakao Map API integration for location search
+- Daum API for web document and webpage searches
+- Geospatial data handling (coordinates to addresses
+- route finding)
+- Traffic and transportation information retrieval
+- Image and blog content extraction from web sources
+
+*Tags: kakao-api, mcp-server, ai-integration, geospatial, web-scraping, mcp-api, developer-tools*
+
+---
+
+### 196. [jumasheff/mcp-ragdoc-fork](https://github.com/jumasheff/mcp-ragdoc-fork)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for retrieving and processing documentation to enhance AI responses with relevant context.**
+
+**Key Features:**
+- Vector-based documentation search
+- Semantic search capabilities
+- Automated documentation processing
+- Real-time context augmentation
+
+*Tags: documentation, ai, development, security, developer*
+
+---
+
+### 197. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**React MCP is a server-based tool that allows Claude Desktop to interact with React applications, facilitating the creation, modification, and management of React apps based on user prompts. It leverages the Model Context Protocol to bridge AI capabilities with web development environments, supportin**
+
+**Key Features:**
+- Integration with Claude Desktop
+- Model Context Protocol support
+- React application creation and modification
+- File and directory management
+- Process tracking and execution
+- Detailed process logs
+- Real-time output monitoring
+
+*Tags: react-mcp, ai-integration, developer-tools, model-context-protocol, cloud-devops, ai-development, web-app-management*
+
+---
+
+### 198. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `innovation: 8` ★☆☆ 🔵
+
+**The kazuph/mcp-docs-rag project is a TypeScript-based MCP server designed to enhance developer workflows by integrating GitHub repositories with LLMs via Retrieval-Augmented Generation (RAG). It allows users to store and query documents locally, enabling context-aware responses from AI models. The s**
+
+**Key Features:**
+- Local document storage via Git repositories or plain text files
+- RAG-based AI querying with context from local documents
+- Integration with Google Gemini API for enhanced search capabilities
+- Automatic indexing and retrieval using llama-index.ts
+- Support for adding custom document names and sparse checkout
+- Development and deployment tools including Codespaces and CI/CD integration
+
+*Tags: mcp, ai, documentation, developer, security, code, ragh, cloud*
+
+---
+
+### 199. [kazuph/mcp-youtube](https://github.com/kazuph/mcp-youtube)  `innovation: 8` ★☆☆ 🔵
+
+**The kazuph/mcp-youtube project implements a Model-Context Protocol Server that connects YouTube subtitle downloads via yt-dlp to Claude.ai using the Model Context Protocol. This setup allows developers to leverage AI for summarizing or processing YouTube content in a secure, context-aware manner.**
+
+**Key Features:**
+- Model Context Protocol integration
+- YouTube subtitle extraction
+- AI-powered summarization
+- Secure code deployment
+
+*Tags: youtube, yt-dlp, model-context-protocol, ai-integration, subtitle-extraction, cloud-dev, developer-tools*
+
+---
+
+### 200. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Cerebras Code MCP project provides an AI-powered coding environment that leverages the Qwen 3 Coder model for high-quality code generation. It integrates seamlessly with tools like Claude Code, Cline, and Cursor, enabling developers to plan, modify, and deploy intelligent applications efficientl**
+
+**Key Features:**
+- AI-powered code generation
+- Integration with AI tools (Claude Code
+- Cline
+- Cursor)
+- Visual code diff display
+- Secure development environment
+- IDE integration support
+
+*Tags: cerebras, code-mcp, ai-development, developer-tools, cerebras-api, code-generation, mcp-server, ai-planning*
+
+---
+
+### 201. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Kuon-dev/advanced-reason-mcp project is an enhanced version of Sequential Thinking MCP, designed to leverage the Gemini API for improved contextual understanding and intelligent responses. It supports advanced reasoning tasks by integrating external tools, automating workflows, and providing sec**
+
+**Key Features:**
+- Gemini API integration
+- Code completion with Copilot
+- Workflow automation
+- Secure code deployment
+- CI/CD support
+
+*Tags: mcp, ai, developer, security, code, integration, automation, gpu*
+
+---
+
+### 202. [lakphy/deep-reasoning-mcp](https://github.com/lakphy/deep-reasoning-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Deep Reasoning MCP project leverages the Model Context Protocol (MCP) to deliver sophisticated, context-aware reasoning capabilities. By integrating a state-of-the-art deep learning model, it empowers developers and organizations to process complex data, generate insights, and automate decision-**
+
+**Key Features:**
+- deep reasoning
+- context management
+- model integration
+- code security
+- automated workflows
+
+*Tags: deep-seek, mcp, ai, security, developer-tools, enterprise, ai-ai, code-analysis*
+
+---
+
+### 203. [layr-labs/eigenlayer-mcp-server](https://github.com/layr-labs/eigenlayer-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The eigenlayer-mcp-server is a GitHub-hosted MCP server designed to facilitate secure and efficient communication between AI models and external applications. It leverages the Model Context Protocol (MCP) to enable context-aware interactions, supporting advanced security features such as encryption,**
+
+**Key Features:**
+- Model context protocol integration
+- Secure communication channels
+- Context isolation
+- API management
+- Developer tools
+
+*Tags: eigenlayer, mcp-server, ai-security, developer-tools, next.js, ai-integration, model-communication, security-features*
+
+---
+
+### 204. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a Python-based MCP server that integrates Baidu Cloud's large language model for content safety. It supports secure deployment via Uvicorn, integrates with Cursor for AI-powered text analysis, and enforces strict access controls using environment variables. The solution emphasiz**
+
+**Key Features:**
+- MCP server deployment
+- input analysis via Baidu Cloud models
+- secure configuration management
+- content safety enforcement
+- integration with Cursor AI editor
+
+*Tags: mcp_server, content_safety, ai_integration, security, baidu_cloud, input_analysis, server_deployment, developer_tools*
+
+---
+
+### 205. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `innovation: 8` ★☆☆ 🔵
+
+**The lishenxydlgzs/simple-files-vectorstore project provides a local file system vector indexing solution, enabling semantic search across files using vector embeddings. It supports real-time file watching, configurable chunk processing, and integrates with MCP for enhanced context management.**
+
+**Key Features:**
+- Semantic search via vector embeddings
+- Real-time file content indexing
+- Configurable chunk size and overlap
+- Background processing of file changes
+- Support for multiple file types
+
+*Tags: vectorization, semantic search, file indexing, ai development, code analysis*
+
+---
+
+### 206. [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Metoro MCP Server is a Kubernetes-native observability tool that leverages eBPF-based instrumentation to collect deep telemetry from microservices without requiring code changes. It exposes APIs through the Metoro Desktop App, allowing developers to query and analyze metrics, logs, traces, and e**
+
+**Key Features:**
+- eBPF-based telemetry collection
+- Kubernetes-native observability
+- LLM integration via Claude Desktop App
+- API-driven access to metrics and logs
+
+*Tags: metoro, mcp, observability, kubernetes, ai, developer*
+
+---
+
+### 207. [milisp/codexia](https://github.com/milisp/codexia)  `innovation: 8` ★☆☆ 🔵
+
+**Codexia is a Tauri v2 application that integrates Agent Workflows (Task Scheduler), Git worktree management, an IDE-like editor, and a prompt notepad into a single workspace. It leverages Claude integration for AI capabilities within the agent framework.**
+
+**Key Features:**
+- ['Agent Workflows: Task Scheduler for recurring jobs.'
+- 'Remote Control via Headless Web Server.'
+- 'Workspace Management: Git worktree management
+- project file tree
+- IDE-like editor
+- prompt notepad.'
+- 'Claude Integration (AI capability).'
+- 'Tauri v2 architecture with Rust backend and React/TypeScript frontend.']
+
+*Tags: ['Agent Orchestration', 'Context Engineering', 'IDE Tools', 'AI Agents', 'Tauri', 'Rust', 'Web Server', 'Claude Integration'*
+
+---
+
+### 208. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived)  `innovation: 8` ★☆☆ 🔵
+
+**This project implements a context-aware search engine that leverages the Brave Search API to provide both web-based and local search functionalities. It supports flexible filtering, smart fallbacks, and integrates seamlessly with MCP for secure and isolated execution environments.**
+
+**Key Features:**
+- Brave Search API integration
+- Web and local search capabilities
+- Flexible filtering and smart fallbacks
+- Secure context management
+
+*Tags: brave-search, mcp-server, search-api, context-isolation, developer-tools, ai-search, security-features, docker*
+
+---
+
+### 209. [monadical-sas/zulip-mcp](https://github.com/monadical-sas/zulip-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a protocol server using Zulip's Model Context Protocol (MCP) to allow AI tools like Claude to seamlessly integrate with Zulip channels, supporting message posting, direct messaging, reactions, and channel management. It leverages Docker for containerization and integrates with**
+
+**Key Features:**
+- Integrate Zulip API for AI assistant interaction
+- Support message posting
+- direct messages
+- emoji reactions
+- Channel management including subscriptions and users
+- Docker-based deployment for scalability
+
+*Tags: mcp, zulip, ai, bot, developer, integration, security, docker*
+
+---
+
+### 210. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling AI assistants to access Pokémon data via standardized APIs.**
+
+**Key Features:**
+- MCP server integration
+- PokeDex API queries
+- Real-time communication via SSE
+- Natural language query support
+
+*Tags: modelcontextprotocol, pokemonapi, aiassist, developertools, mcpserver*
+
+---
+
+### 211. [newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp](https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server integrating DeepSeek R1 reasoning with Claude 3.5 Sonnet for context-aware, conversational AI responses.**
+
+**Key Features:**
+- DeepSeek reasoning engine
+- Claude 3.5 Sonnet response generation
+- OpenRouter unified API integration
+- Two-stage processing (50k & 600k character limits)
+- Context clearing and conversation management
+
+*Tags: deepseek, claude, sonnet, ai, conversation, mcp, developer, security*
+
+---
+
+### 212. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `innovation: 8` ★☆☆ 🔵
+
+**The ngeojiajun/mcp-code-snippets project provides a Model Context Protocol (MCP) server that enables developers to create, list, and delete code snippets in various programming languages. It supports features such as persistent storage, filtering by language or tags, and integration with tools like **
+
+**Key Features:**
+- Create Snippet
+- List Snippets
+- Delete Snippet
+- Lint
+- Build
+- Contribute
+
+*Tags: code-generation, snippet-management, ai-integration, developer-tools, mcp-server, language-support, security-features*
+
+---
+
+### 213. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**Nile MCP Server enables secure, standardized interaction between LLM applications and the Nile database platform.**
+
+**Key Features:**
+- Database Management
+- Credential Management
+- Region Management
+- SQL Query Support
+- MCP Protocol Implementation
+- Type Safety with TypeScript
+- Comprehensive Error Handling
+- Test Coverage and Validation
+
+*Tags: mcp-server, nile-database, api-security, developer-tools, type-safe-api, test-driven-devops, cloud-native, ai-integration*
+
+---
+
+### 214. [odancona/code2prompt-mcp](https://github.com/odancona/code2prompt-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The ODAncona / code2prompt-mcp project leverages the Code2Prompt-Rust library to analyze codebases and produce structured summaries. This facilitates better understanding and interaction between developers and AI language models by extracting relevant context in a format optimized for AI consumption**
+
+**Key Features:**
+- Contextual prompt generation
+- Code analysis
+- AI integration
+
+*Tags: code2prompt, ai, developer, prompt, rust, contextual, analysis, generation*
+
+---
+
+### 215. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `innovation: 8` ★☆☆ 🔵
+
+**The Omedia/mcp-server-drupal project provides a TypeScript-based companion Model Context Protocol (MCP) server designed to work seamlessly with the Drupal MCP module. It leverages the STDIO transport for efficient data streaming, supporting both authentication via environment variables and enabling **
+
+**Key Features:**
+- MCP server integration
+- STDIO transport support
+- TypeScript-based architecture
+- Docker container deployment
+- Secure authentication mechanisms
+- Development and production readiness
+
+*Tags: drupal, mcp-server, deno, developer-tools, security, docker, webhook, community*
+
+---
+
+### 216. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A secure, containerized MCP server enabling safe execution of code in multiple languages via isolated environments.**
+
+**Key Features:**
+- Secure code execution sandbox for Python
+- Go
+- and JavaScript
+- Supports Docker-based container isolation
+- Configurable security defaults and resource limits
+- Integration with MCP protocol for LLM interaction
+- Automated deployment and management of code snippets
+
+*Tags: mcp, isolator, secure-execution, code-sandbox, developer-tools, ai-integration, containerization, multi-language*
+
+---
+
+### 217. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient handling of web security tasks within enterprise envi**
+
+**Key Features:**
+- MCP protocol integration
+- URL scanning via urlscan.io
+- secure code execution
+- automated workflow support
+
+*Tags: mcp, urlscan, security, web-scanning, api-integration, developer-tools, enterprise-security*
+
+---
+
+### 218. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling secure integration with Pangea APIs for intelligence data retrieval.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Secure storage of Pangea API tokens in Vault
+- Audit logging with Secure Audit Log configuration
+- Token management and extension across multiple Pangea services
+- Support for AI Guard
+- Domain Intel
+- Embargo
+- IP Intel
+- Redact
+- URL Intel
+
+*Tags: api integration, security, audit logging, token management, ai guard, domain intel, embargo checks, secure audit logs*
+
+---
+
+### 219. [pree-dew/mcp-bookmark](https://github.com/pree-dew/mcp-bookmark)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server enabling AI-powered bookmark saving, searching, and categorization using OpenAI RAG.**
+
+**Key Features:**
+- Save bookmarks with metadata
+- Smart semantic search across bookmarks
+- Integration with OpenAI for intelligent categorization
+
+*Tags: mcp, bookmark, openai, ai, search, integration, developer*
+
+---
+
+### 220. [qwang07/duck-duck-mcp](https://github.com/qwang07/duck-duck-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project presents a DuckDuckGo-based implementation of the Model Context Protocol (MCP), designed to enable secure and efficient context-aware interactions in AI systems. It leverages advanced search capabilities, supports customizable search parameters such as region and safe search levels, and**
+
+**Key Features:**
+- DuckDuckGo search engine integration
+- Customizable search settings (region
+- safe search)
+- Structured search result output
+- Metadata extraction
+- Scalable for AI/ML applications
+
+*Tags: duckduckgo, mcp, ai, search, developer*
+
+---
+
+### 221. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project integrates the Strava MCP server with Claude Desktop to enable users to interact with their Strava activity data through natural language queries. By establishing a secure connection, users can request detailed insights such as distance covered, workout analysis, heart rate monitoring, **
+
+**Key Features:**
+- Connect Strava account via Claude Desktop
+- Real-time activity data retrieval (distance
+- time
+- heart rate)
+- Workout analysis with power
+- speed
+- and zone tracking
+- Route exploration and GPX/TCX exports
+- Profile management and club listings
+- Integration with AI for contextual insights
+
+*Tags: strava, mcp, ai, developer, cloud, analytics, iot, security*
+
+---
+
+### 222. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server that wraps the official Notion SDK, enabling AI models to interact with Notion workspaces.**
+
+**Key Features:**
+- Integration with Notion via MCP protocol
+- Search
+- query
+- and manage Notion pages and databases
+- Create
+- retrieve
+- and update content blocks (paragraphs
+- lists
+- etc.)
+- Manage users and user information
+- Link previews for URLs
+- Full Notion API support through the official SDK
+
+*Tags: notion-api, ai-integration, developer-tools, context-protocol, notion-sdk, mcp-server-notion, ai-assistant, cloud-integration*
+
+---
+
+### 223. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The rember-mcp project provides a Model Context Protocol (MCP) server designed to integrate with Rember, a spaced repetition flashcard tool. This integration enables users to create and manage flashcards directly from their interactions with Claude Desktop, leveraging MCP's context-aware capabilitie**
+
+**Key Features:**
+- MCP server integration
+- Flashcard creation from chats and documents
+- API key management
+- Logging and debugging support
+- User session handling
+- Secure code review tools
+- CI/CD pipeline setup
+- Observability and telemetry
+
+*Tags: model context protocol, rember mcp, flashcard generation, developer workflow, ai-assisted learning, context-aware tools, secure integration, memory enhancement*
+
+---
+
+### 224. [rgbkrk/rcon-mcp](https://github.com/rgbkrk/rcon-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The rcon-mcp project provides a Minecraft server management solution that integrates Context Engine and Isolation techniques to securely manage server configurations and interactions. It leverages the RCON protocol to allow AI models like Claude Desktop, Cursor, and Zed to programmatically control a**
+
+**Key Features:**
+- AI interaction via RCON
+- Server management in Docker container
+- Context isolation for secure operations
+
+*Tags: mcp, ai, server, context, integration, docker, developer, security*
+
+---
+
+### 225. [roger1337/JDBG](https://github.com/roger1337/JDBG)  `innovation: 8` ★☆☆ 🔵
+
+**JDBG is a powerful Java debugger and reverse engineering tool that operates at runtime. It is attachable and is not limited by agent restrictions. JDBG leverages an injected DLL along with JNI and JVMTI to provide deep insight into Java applications.**
+
+**Key Features:**
+- Class Analysis (Analyse decompiled classes at runtime)
+- Analyse method bytecode and field definitions at runtime
+- Add classes to object analysis
+- Dynamically set breakpoints in bytecode
+- Inspect the stack trace
+- Inspect local variable values
+- Planned features: bytecode instrumentation and class redefinitions
+- static variable modification
+- Static field watching
+- Object Analysis (Add classes to object workspace)
+- Apply filters using the Exprtk C++ library to obtain relevant objects (Filters support recursive searches
+- e.g. obj.field1.field2 > 3 or 'hello' in obj.field1)
+
+*Tags: java debugger agent security reverse-engineering asm disassembler cybersecurity dynamic-analysis jni offensive-security*
+
+---
+
+### 226. [santos-404/mcp-server.sqlite](https://github.com/santos-404/mcp-server.sqlite)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a TypeScript-based MCP server that allows AI models to connect to an SQLite database, execute SQL commands, and leverage context-aware interactions. It focuses on enabling seamless integration of external tools and services via the Model Context Protocol (MCP), enhancing AI cap**
+
+**Key Features:**
+- SQLite database interaction
+- MCP protocol support
+- AI model context management
+- Database schema management
+- Query execution capabilities
+
+*Tags: mcp, sqlite, ai, docker, ai-server, developer-tools*
+
+---
+
+### 227. [seekrays/seekchat](https://github.com/seekrays/seekchat)  `innovation: 8` ★☆☆ 🔵
+
+**SeekChat is an AI Desktop Assistant designed to provide a sleek and powerful interface for desktop tasks. It emphasizes the integration of Model Context Protocol (MCP) to enable the AI to directly control the computer, perform various tasks, automate file management, data analysis, code development,**
+
+**Key Features:**
+- Multiple AI Providers support
+- MCP Tool Integration for enhanced AI capabilities
+- Local Storage for privacy-focused chat history
+- Multi-language Support (English and Chinese)
+- Modern UI
+- and an Electron-based desktop application.
+
+*Tags: ['AI Agent', 'MCP', 'Desktop Assistant', 'Context Engineering', 'Electron', 'AI Tools', 'Cross-Platform', 'Developer UX'*
+
+---
+
+### 228. [servo/servo](https://github.com/servo/servo)  `innovation: 8` ★☆☆ 🔵
+
+**Servo is a prototype web browser engine written in the Rust language. It is currently developed on 64-bit macOS, 64-bit Linux, 64-bit Windows, 64-bit OpenHarmony, and Android. Servo welcomes contribution from everyone. Check out: The Servo Book for documentation servo.org for news and guides.**
+
+**Key Features:**
+- A lightweight
+- high-performance alternative for embedding web technologies in applications
+- implemented in Rust.
+
+*Tags: ['Rust', 'Web Technologies', 'Browser Engine', 'Embedding', 'Performance', 'Servo', 'WebDev', 'RustLang']*
+
+---
+
+### 229. [seym0n/tiktok-mcp](https://github.com/seym0n/tiktok-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Seym0n/tiktok-mcp project enables Claude AI and other applications to analyze TikTok videos by extracting subtitles, engagement metrics, and virality factors. This integration leverages TikNeuron's capabilities to process video content, providing valuable insights for content creators and AI-dri**
+
+**Key Features:**
+- TikTok video analysis
+- Subtitle extraction
+- Engagement metrics retrieval
+- Virality factor identification
+
+*Tags: tiktok-mcp, ai-integration, content-analysis, video-processing, developer-tools, mcp-bundle, tiktok-report, api-key-management*
+
+---
+
+### 230. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a developer platform that enables seamless interaction between LLMs and external tools via a chat interface. It leverages MCP (Model Context Protocol) to allow users to query language models and execute various applications through a conversational UI. The integration supports s**
+
+**Key Features:**
+- Interactive chat interface
+- MCP tool integration
+- LLM-based tool execution
+- Secure environment setup
+- Real-time system prompts
+
+*Tags: llm, mcp, developer-tools, interactive-ui, system-integration*
+
+---
+
+### 231. [shivay-couchbase/couchbase-mcp](https://github.com/shivay-couchbase/couchbase-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project demonstrates the use of the Model Context Protocol (MCP) to enable AI models to perform semantic searches on Star Wars planets. It leverages Couchbase's vector search capabilities to efficiently find similar planets based on embeddings, enhancing AI-driven data retrieval and analysis.**
+
+**Key Features:**
+- Model Context Protocol integration
+- Vector search for similarity lookup
+- Couchbase server setup with vector indexing
+- TypeScript implementation with type safety
+
+*Tags: couchbase, modelcontextprotocol, ai-search, vectorsearch, semanticsearch, ai-development, dataindexing, couchbase-mcp*
+
+---
+
+### 232. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The showfive/playwright-mcp-server project provides a robust server solution for retrieving full-page content and interacting with web elements via the MCP protocol. It supports advanced features such as interactive element detection, mouse operations, drag-and-drop, and echo functionality for testi**
+
+**Key Features:**
+- Page navigation
+- Full page content retrieval
+- Visible content extraction
+- Interactive elements detection
+- Mouse operation simulation
+- Echo tool for testing
+- Drag and drop support
+- Interactive element positioning
+- Error handling and timeout management
+
+*Tags: playwright, playwright-mcp-server, web-scraping, automation, testing, developer-tools, security, mouse-simulation*
+
+---
+
+### 233. [sinco-lab/mcp-youtube-transcript](https://github.com/sinco-lab/mcp-youtube-transcript)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for extracting and processing YouTube video transcripts, supporting multiple languages with advanced text normalization and error handling.**
+
+**Key Features:**
+- YouTube transcript extraction from videos
+- Multi-language support
+- Paragraph segmentation and normalization
+- Robust error handling and timestamp detection
+- Integration with Claude Desktop for analysis
+
+*Tags: youtube-transcript, text-processing, ai-development, content-analysis, developer-tools, mcp-servers, transcript-extraction, language-normalization*
+
+---
+
+### 234. [sirmews/apple-notes-mcp](https://github.com/sirmews/apple-notes-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project leverages the Apple Notes database and integrates it with the Claude Model Context Protocol, allowing users to interact with their personal notes using natural language queries. It provides tools for retrieving, searching, and managing notes efficiently, enhancing productivity through A**
+
+**Key Features:**
+- Read all notes
+- Search notes by content
+- View full note content
+- Manage notes and prompts
+- Integrate with Claude Desktop for intelligent search
+
+*Tags: cloud integration, ai assistant, note management, developer tools, contextual search, security features, cross-platform support, automation*
+
+---
+
+### 235. [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)  `innovation: 8` ★☆☆ 🔵
+
+**A Pinecone Model Context Protocol server enabling reading and writing operations from Pinecone, supporting rudimentary RAG.**
+
+**Key Features:**
+- Read from Pinecone index
+- Write to Pinecone index
+- Semantic search integration
+- RAG capabilities
+
+*Tags: pinecone, mcp-pinecone, model-context-protocol, semantic-search, developer-tools*
+
+---
+
+### 236. [slavfox/Cozette](https://github.com/slavfox/Cozette)  `innovation: 8` ★☆☆ 🔵
+
+**Cozette is a 6x13px (bounding box; average 5px character width, 3px descent, 10px ascent, 8px cap height) bitmap font based on Dina, which itself is based on Proggy. It's also heavily inspired by Creep. The project aims to create a useful bitmap alternative to Nerd Fonts, focusing on glyph coverage **
+
+**Key Features:**
+- The core innovation lies in its bitmap nature
+- offering a specific set of glyphs optimized for terminal/CLI environments. It provides both bitmap formats (.otb) and vector formats (.ttf)
+- addressing the common problem of scaling and rendering issues with traditional bitmap fonts. The font is designed to be pixel-perfect
+- which is crucial for clarity in terminal interfaces.
+
+*Tags: ['bitmap font', 'terminal font', 'font optimization', 'vector fonts', 'cli tools', 'cizette', 'programming font', 'ide font'*
+
+---
+
+### 237. [softgridinc-pte-ltd/mcp-excel-reader-server](https://github.com/softgridinc-pte-ltd/mcp-excel-reader-server)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-excel-reader-server is a Python-based application designed to provide robust Excel file processing capabilities. It leverages the ModelContext Protocol (MCP) to securely read data from Excel files, supporting multiple sheets and specific sheet names or indices. The server handles various dat**
+
+**Key Features:**
+- Read content from all sheets in an Excel file
+- Read content from a specific sheet by name or index
+- Handle empty cells and data type conversions
+- Return structured JSON output
+- Secure data handling and error management
+
+*Tags: excel-reader, mcp, modelcontextprotocol, data-processing, enterprise-software, security, developer-tools, api-integration*
+
+---
+
+### 238. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `innovation: 8` ★☆☆ 🔵
+
+**A Borg-based search tool for efficiently querying transcript segments using vector similarity in a Turso database.**
+
+**Key Features:**
+- Vector similarity search
+- Relevance scoring with cosine similarity
+- Configurable search parameters
+- Efficient database connection pooling
+
+*Tags: mcp-embedding-search, vector-search, transcript-query, ai-search, developer-tools, search-engine, data-engine, ai-development*
+
+---
+
+### 239. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The sec-edgar-mcp project provides a model context protocol server that enables seamless integration with SEC EDGAR filings, financial statements, and insider trading data. It leverages AI-driven assistants to enhance developer workflows, supports enterprise-grade security, and offers tools for code**
+
+**Key Features:**
+- AI-assisted code generation
+- SEC EDGAR data integration
+- Secure development environment
+- Automated workflows
+- Code review and management
+
+*Tags: sec-edgar-mcp, ai, developer-tools, security, compliance, data-integration, enterprise-devops, mcp-server*
+
+---
+
+### 240. [tchbw/mcp-imessage](https://github.com/tchbw/mcp-imessage)  `innovation: 8` ★☆☆ 🔵
+
+**This project focuses on integrating the Model Context Protocol (MCP) into a software system to enable secure and context-aware interactions via iMessage. It leverages advanced context management to ensure that messages are delivered with appropriate security and isolation, enhancing both functionali**
+
+**Key Features:**
+- Send & receive iMessages
+- Model Context Protocol integration
+- Secure message delivery
+- Context-aware communication
+
+*Tags: mcp-imessage, model-context-protocol, secure-communication, iMessage, developer-tool*
+
+---
+
+### 241. [text2go/ai-humanizer-mcp-server](https://github.com/text2go/ai-humanizer-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Text2Go AI Humanizer MCP Server is an advanced tool that enhances AI-generated text by detecting its origin and applying sophisticated text enhancement techniques. It leverages AI detection algorithms to identify whether the content is generated by machine learning models, ensuring authenticity **
+
+**Key Features:**
+- AI text detection
+- natural language enhancement
+- grammar perfection
+- readability optimization
+- length control
+- preservation of key terms
+
+*Tags: ai-humanizer, model-context-protocol, text-enhancement, developer-tools, ai-detection, content-refinement, enterprise-ai, code-quality*
+
+---
+
+### 242. [thesophiaxu/contextd](https://github.com/thesophiaxu/contextd)  `innovation: 8` ★☆☆ 🔵
+
+**An efficient macOS app that continuously captures screen activity, summarizes it with an LLM, and makes summaries available for integration with other local tools.**
+
+**Key Features:**
+- Screen recording every 2 seconds
+- OCR on changed regions
+- Local SQLite database storage
+- Interactive API for summarization
+- Integration with external LLM services via OpenRouter API
+
+*Tags: contextd, screenrecording, llmintegration, macosapp, developertools, security, automation, datapersistence*
+
+---
+
+### 243. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Toolbase-AI project introduces a new integration with the MCP (Machine-to-Person) protocol, enabling developers to leverage AI assistants like Copilot to upload files directly via the MCP standard. This enhances workflow automation by allowing seamless, context-aware file handling within enterpr**
+
+**Key Features:**
+- MCP protocol integration
+- AI-assisted file uploads
+- automated workflow execution
+
+*Tags: ai, mcp, fileupload, developertools, security, codeintegration, enterpriseai, toolbaseai*
+
+---
+
+### 244. [v4lheru/trello-mcp-server](https://github.com/v4lheru/trello-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A secure, enterprise-grade Trello API integration server enabling secure credential management and workflow automation.**
+
+**Key Features:**
+- Secure credential storage using OS credential manager
+- Comprehensive Trello API integration
+- Full TypeScript support with type safety
+- Robust error handling and migration tools
+- Secure development environment setup
+
+*Tags: trello-mcp-server, developer-tools, security, api-integration, credential-management, type-safe-typing, trello-api*
+
+---
+
+### 245. [victoriametrics-community/mcp-victorialogs](https://github.com/victoriametrics-community/mcp-victorialogs)  `innovation: 8` ★☆☆ 🔵
+
+**Implementation of Model Context Protocol (MCP) server for VictoriaLogs to enable advanced observability and automation.**
+
+**Key Features:**
+- Access to all read-only VictoriaLogs APIs
+- Comprehensive log querying and exploration
+- Metrics UI with setup instructions
+- Integration with external tools and documentation
+- Support for Streamable HTTP mode
+- Embedded documentation and search capabilities
+
+*Tags: mcp-victorialogs, observability, logging, victoriametrics, vectoriotags, developer_tools, ai_integration, security*
+
+---
+
+### 246. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Character Counter is a minimalistic server that leverages the Model Context Protocol (MCP) to deliver comprehensive character breakdowns, including counts of characters, letters, numbers, and symbols. It supports integration with AI tools like GitHub Copilot for seamless developer workflows.**
+
+**Key Features:**
+- Character count analysis
+- Character type breakdown (letters
+- numbers
+- symbols)
+- Integration with Claude Desktop and GitHub Copilot
+- Detailed usage examples and setup instructions
+
+*Tags: mcp, character-analysis, ai-integration, developer-tools, text-processing, code-support, security-features, ai-assist*
+
+---
+
+### 247. [winfsp/winfsp](https://github.com/winfsp/winfsp)  `innovation: 8` ★☆☆ 🔵
+
+**WinFsp enables developers to write their own file systems (i.e. "Windows drives") as user mode programs and without any knowledge of Windows kernel programming. It is similar to FUSE (Filesystem in Userspace) for Linux and other UNIX-like computers. WinFsp provides a platform for developing and runt**
+
+**Key Features:**
+- ['Enables developers to create custom file systems on Windows without deep kernel programming knowledge.'
+- 'Provides a platform for developing and runtime support for custom file systems.'
+- 'Core consists of a kernel mode file system driver (FSD) and a user mode DLL.'
+- 'API interface allows applications to interact with the file system via standard Windows file APIs.'
+- 'Offers benefits like easy development
+- stability
+- correctness
+- performance
+- wide support across various architectures (Windows 7-11
+- x86/x64/ARM64)
+- and flexible API integration (Native
+- FUSE2
+
+*Tags: ['Windows File System', 'FUSE', 'Kernel Mode', 'User Mode', 'File System', 'Windows API', 'Cross-Platform', 'Development Tools'*
+
+---
+
+### 248. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `innovation: 8` ★☆☆ 🔵
+
+**The Xuanwo/mcp-server-opendal project provides a Model Context Protocol (MCP) server that facilitates seamless access to various cloud and on-premise storage solutions such as S3, Azure Blob Storage, and Google Cloud Storage. It allows developers to interact with these services using environment var**
+
+**Key Features:**
+- Model Context Protocol Server
+- Integration with multiple storage services
+- Environment variable-based configuration
+- Support for S3
+- Azure Blob Storage
+- Google Cloud Storage
+
+*Tags: apache-opendal, model-context-protocol, storage-integration, cloud-storage, developer-tools, microservices, api-services, data-access*
+
+---
+
+### 249. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `innovation: 8` ★☆☆ 🔵
+
+**The YassineTk/mcp-docs-provider is a GitHub-hosted documentation context provider designed to integrate with MCP (Markup Cloud Platform) to allow AI models to query and utilize local markdown-based technical documentation directly within their workflow. This enhances developer productivity by embedd**
+
+**Key Features:**
+- Integration with MCP for LLM context access
+- Markdown file support
+- Local documentation retrieval
+- Automatic code generation and querying
+
+*Tags: mcp-docs-provider, documentation, ai-integration, developer-tools, markdown-access*
+
+---
+
+### 250. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a robust, secure, and efficient Pyodide server that allows Large Language Models (LLMs) to run Python scripts through the MCP interface. It supports both standard input/output (stdio) and SSE transport modes, ensuring compatibility with various execution environments. The imple**
+
+**Key Features:**
+- Python code execution via MCP
+- Support for stdio and SSE transport
+- Type validation with arktype
+- Data formatting handlers
+- Request handling and message processing
+
+*Tags: mcp-pyodide, pyodide, modelcontextprotocol, server, ai, developer, security*
+
+---
+
+### 251. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project implements a TypeScript-based MCP (Model Context Protocol) server that integrates with the Voicevox engine to provide local text-to-speech capabilities on macOS. It leverages Docker for containerization and supports audio playback via AFPlay, making it suitable for Mac environments. The**
+
+**Key Features:**
+- MCP server implementation
+- Voice synthesis via Text-to-Speech API
+- Local audio playback using AFPlay
+- Containerized deployment with Docker
+- TypeScript-based architecture
+- Integration with MCP SDK
+- Secure and isolated execution environment
+
+*Tags: voicevox, mcp, developer, ai, security, macos, afplay, docker*
+
+---
+
+### 252. [nikolamilosevic86/verifAI](https://github.com/nikolamilosevic86/verifAI)  `innovation: 8` ★☆☆
+
+**VerifAI is a document-based question-answering systems that aims to address problem of hallucinations in generative large language models and generative search engines. Initially, we started with biomedical domain, however, now we have expanded VerifAI to support indexing any documents in txt,md, do**
+
+*Tags: generative search engine, open source, question-answering, verification, biomedical domain, document indexing, llm, generative ai*
+
+---
+
+### 253. [Cloud-Code-AI/AkiraDocs](https://github.com/Cloud-Code-AI/AkiraDocs)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+*Tags: ['AI Documentation', 'WebRAG', 'Local AI', 'No API Costs', 'LLM', 'Translation', 'SEO Optimization', 'Developer Tools']*
+
+---
+
+### 254. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Memory is a MCP Server that gives MCP Clients (Cursor, Claude, Windsurf and more) the ability to remember information about users (preferences, behaviors) across conversations. It uses vector search technology to find relevant memories based on meaning, not just keywords.**
+
+**Key Features:**
+- Vector search technology for memory retrieval
+- Cloudflare Workers/AI integration
+- Durable Objects for state management
+- Vectorize (RAG) for embedding generation
+- and a structured architecture for user memory persistence and agent interaction.
+
+*Tags: ['Cloudflare Workers', 'D1', 'Vectorize', 'RAG', 'Durable Objects', 'Workers AI', 'Agents', 'MCP'*
+
+---
+
+### 255. [vincentkoc/airgapped-offfline-rag](https://github.com/vincentkoc/airgapped-offfline-rag)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Retrieval-Augmented Generation (RAG) system for document-based question-answering
+- utilizing Llama 3
+- Mistral
+- and Gemini models with a user-friendly Streamlit interface.
+
+*Tags: ['LLM', 'RAG', 'Streamlit', 'Docker', 'Llama3', 'Mistral', 'Gemini', 'VectorDB'*
+
+---
+
+## Document Ingestion & Preprocessing
+
+> 2 tools · avg innovation 8.5
+
+### 256. [sreedeep-ss/docret-mcp-server](https://github.com/sreedeep-ss/docret-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A Model Context Protocol server enabling AI assistants to access up-to-date documentation for Python libraries.**
+
+**Key Features:**
+- Dynamic documentation retrieval from official sources
+- Asynchronous web searches using SERPER API
+- HTML parsing with BeautifulSoup
+- Extensible configuration for new libraries
+- Integration with AI assistants like Claude and custom models
+- API endpoints for external integrations
+
+*Tags: modelcontextprotocol, ai-assistants, documentation-service, python-devops, api-integration, web-scraping, machine-learning, developer-tools*
+
+---
+
+### 257. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `innovation: 8` ★☆☆ 🔵
+
+**The markitdown_mcp_server is a GitHub-hosted MCP server designed to facilitate the conversion of diverse file types into Markdown format using the MarkItDown utility. It supports multiple input formats such as PDF, Word, Excel, images, and more, making it versatile for developers and content creator**
+
+**Key Features:**
+- File format conversion
+- Markdown output generation
+- Integration with MCP clients
+- Support for OCR and metadata extraction
+
+*Tags: markitdown, mcp, markdown, developer*
+
+---
+
+## Context Isolation & Sandboxing
+
+> 37 tools · avg innovation 8.2
+
+### 258. [jpmelos/agentcontainer](https://github.com/jpmelos/agentcontainer)  `innovation: 10` ★★★ 🔵
+
+**A Rust-based utility that standardizes how AI agent environments are declared and run, ensuring reproducible, isolated dependencies for agentic workflows.**
+
+**Key Features:**
+- Standardized agent environment declaration
+- Rust-native performance
+- reproducible dependency isolation
+- Docker-like standard for agents.
+
+*Tags: containers, isolation, rust, environment-management, orchestration*
+
+---
+
+### 259. [chrishayuk/mcp-code-sandbox](https://github.com/chrishayuk/mcp-code-sandbox)  `innovation: 9` ★★☆ 🔵
+
+**The MCP Code Sandbox provides a platform for secure code execution in isolated environments, enabling developers to run Python scripts without compromising system security. It supports modular architecture, extensible design, and integrates with tools for sandbox administration, file operations, and**
+
+**Key Features:**
+- Isolated sandbox environments
+- Secure file operations
+- Extensible architecture
+- Code execution with abstraction
+- Integration with MCP protocol
+- Support for custom interpreters
+
+*Tags: mcp, code-sandbox, security, developer-tools, isolation, execution, integration, sandbox*
+
+---
+
+### 260. [juyterman1000/entroly](https://github.com/juyterman1000/entroly)  `innovation: 9` ★★☆ 🔵
+
+**Entroly-Daemon enables self-evolving AI assistants by compressing large codebases into a minimal context, enhancing performance and efficiency.**
+
+**Key Features:**
+- Self-evolving AI model with token-efficient learning
+- Integration with multiple AI agents (Claude
+- Copilot
+- Codex
+- etc.)
+- Dynamic skill promotion and knowledge sharing across runtimes
+- Live benchmarking and continuous improvement loop
+
+*Tags: agent orchestration, context engineering, isolation, ai development, token efficiency, self-evolution, code compression, multi-agent integration*
+
+---
+
+### 261. [sage-hq/agentcortex-mcp](https://github.com/sage-hq/agentcortex-mcp)  `innovation: 9` ★★☆ 🔵
+
+**AI memory system that maintains isolated, persistent contexts for each project to prevent context bleed.**
+
+**Key Features:**
+- Project context separation per codebase
+- Persistent cross-session memory
+- Automatic project detection and context switching
+- Cumulative learning and intelligent importance ranking
+
+*Tags: mcp, context-isolation, persistent-memory, ai-assistant-context, project-separation*
+
+---
+
+### 262. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Node.js sandbox MCP server that executes arbitrary JavaScript in ephemeral Docker containers, enabling secure and isolated development environments.**
+
+**Key Features:**
+- Disposable Docker container execution
+- On-the-fly npm dependency installation
+- Arbitrary shell command execution within containers
+- File capture and saving capabilities
+- Integration with VS Code for quick testing
+- Detached mode for long-running processes
+
+*Tags: docker, mcp, js-sandbox, node-code-sandbox, developer-ux, security, integration, isolation*
+
+---
+
+### 263. [d-kimuson/esa-mcp-server](https://github.com/d-kimuson/esa-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The d-kimuson/esa-mcp-server project provides a modular, containerized implementation of the Model Context Protocol (MCP) server. It enables secure communication between systems using MCP, supporting features such as article search, creation, update, and deletion. The project emphasizes lightweight **
+
+**Key Features:**
+- Model Context Protocol server
+- Article search functionality
+- Context isolation
+- Secure API endpoints
+- Modular architecture
+
+*Tags: esa-mcp-server, model-context-protocol, security, developer-tools, enterprise-ai*
+
+---
+
+### 264. [danilop/mcp2lambda](https://github.com/danilop/mcp2lambda)  `innovation: 8` ★☆☆ 🔵
+
+**MCP2Lambda enables AI models to securely interact with AWS Lambda functions as tools without code changes, enhancing isolation and control over external service access.**
+
+**Key Features:**
+- Run AWS Lambda functions as LLM tools
+- Secure invocation via MCP protocol
+- Access private AWS resources safely
+- Integrate with other AWS services through Lambda
+
+*Tags: api integration, ai security, lambda execution, aws connectivity, model orchestration, secure access, developer tools, cloud services*
+
+---
+
+### 265. [dmontgomery40/mcp-local-server](https://github.com/dmontgomery40/mcp-local-server)  `innovation: 8` ★☆☆ 🔵
+
+**The DMontgomery40/mcp-local-server project provides a Python-based Local Model Context Protocol (MCP) server that integrates BirdNET-Pi for real-time bird detection analysis. It supports secure, isolated execution of AI models in local environments, offering features such as data retrieval, statisti**
+
+**Key Features:**
+- MCP Server Integration
+- BirdNET-Pi Local Detection
+- Data Retrieval & Statistics
+- Audio Recording Access
+- Activity Pattern Reporting
+- Secure Context Isolation
+- Customizable Configuration
+- Docker-based Deployment
+
+*Tags: mcp, birdnet-pi, ai, security, context, local-server, data-analysis*
+
+---
+
+### 266. [garc33/js-sandbox-mcp-server](https://github.com/garc33/js-sandbox-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The garc33/js-sandbox-mcp-server project provides a platform that enables developers to execute JavaScript code in an isolated, controlled environment. This enhances security by preventing malicious code from affecting the host system. It supports features like execution timeout, memory limits, and **
+
+**Key Features:**
+- secure js-sandbox execution
+- isolated environment
+- execution time and memory limits
+- debugging tools
+- code sandboxing
+
+*Tags: js-sandbox, mcp-server, security, isolation, execution, sandbox, developer, code*
+
+---
+
+### 267. [harjjotsinghh/mcp-server-postgres-multi-schema](https://github.com/harjjotsinghh/mcp-server-postgres-multi-schema)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-server-postgres-multi-schema is a model context protocol server designed to provide secure, isolated access to multiple schemas within a PostgreSQL database. It allows large language models (LLMs) to inspect and query database schemas across different namespaces while maintaining strict sche**
+
+**Key Features:**
+- Multi-schema support
+- Read-only database access
+- Schema isolation
+- Cross-schema discovery
+- Metadata exposure
+- Schema context management
+
+*Tags: postgresql, multi-schema, model-context-protocol, developer-tools, security, database, server, mcp*
+
+---
+
+### 268. [healthnotelabs/modular-health-nips](https://github.com/healthnotelabs/modular-health-nips)  `innovation: 8` ★☆☆ 🔵
+
+**The Modular-Health-NIPs project provides a modular API for interacting with NIP-101h health metrics on Nostr. It offers tools to discover available metric kinds, prepare events for encryption and signing, fetch user-specific encrypted events, and manage decryption client-side. The solution emphasize**
+
+**Key Features:**
+- Discover NIP-101h kinds
+- Prepare NIP-101h event structures
+- Fetch and decrypt encrypted health events
+- Configure client-side encryption/decryption
+
+*Tags: healthnote-api, modular-health-nips, nostr-integration, encryption, api-development, data-security, health-metrics, api-tools*
+
+---
+
+### 269. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `innovation: 8` ★☆☆ 🔵
+
+**The huoshui-file-converter is an agent or orchestration tool designed to facilitate secure and efficient file format conversions using the Model Context Protocol (MCP). It supports conversion between multiple formats such as Markdown, DOCX, HTML, PDF, and TXT. The tool integrates with MCP clients, a**
+
+**Key Features:**
+- Secure MCP integration
+- Format conversion support (Markdown
+- DOCX
+- HTML
+- PDF
+- TXT)
+- Intelligent file format detection
+- Sandboxed execution within a working directory
+- CLI and environment variable configuration
+- Support for large files with limits and special handling
+
+*Tags: mcp, fileconverter, documentformat, security, developertool, conversion, workflow, integration*
+
+---
+
+### 270. [jlucaso1/mcp-javascript-sandbox](https://github.com/jlucaso1/mcp-javascript-sandbox)  `innovation: 8` ★☆☆ 🔵
+
+**The jlucaso1/mcp-javascript-sandbox project provides a MCP (Model Context Protocol) implementation that allows secure execution of untrusted JavaScript code in a sandboxed QuickJS engine compiled to WebAssembly (WASM). It captures standard output and error streams, reports runtime errors, and integr**
+
+**Key Features:**
+- Secure JavaScript execution in WASM sandbox
+- Standard I/O capture (stdout/stderr)
+- Error reporting and handling
+- MCP integration via stdio
+- Type safety with TypeScript
+
+*Tags: mcp, javascript-sandbox, security, developer-tools, ai-assistance, quickjs, wasi, node-wasi*
+
+---
+
+### 271. [joesecurity/joesandboxmcp](https://github.com/joesecurity/joesandboxmcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Joe Sandbox MCP server provides a comprehensive platform for interacting with sandbox environments, offering advanced features such as IOC extraction, signature detection, process tree visualization, unpacked binary analysis, network traffic capture, and behavioral detections. It supports flexib**
+
+**Key Features:**
+- IOC extraction
+- Signature detection
+- Process tree visualization
+- Unpacked binary analysis
+- PCAP download
+- Behavioral detections
+- Memory dump retrieval
+
+*Tags: joesandboxmcp, mcp, security, analysis, threatintel, ai, developertools, networking*
+
+---
+
+### 272. [johnnyoshika/mcp-server-sqlite-npx](https://github.com/johnnyoshika/mcp-server-sqlite-npx)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a lightweight, npx-based SQLite server tailored for environments where Python's UVX runner is unavailable. It supports secure database management, integrates with Claude Desktop for seamless development, and emphasizes context isolation to enhance security and performance in mul**
+
+**Key Features:**
+- SQLite Server Integration
+- Node.js Runtime Support
+- Claude Desktop Compatibility
+- Context Isolation
+- Secure Development Practices
+
+*Tags: node, sqlite, context, isolation, developer, security, npm, cloud*
+
+---
+
+### 273. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The kaznak/shell-command-mcp project provides a Model Context Protocol (MCP) server that runs within a Docker container, offering a sandboxed environment to execute shell commands without exposing access to the host Docker daemon. This enhances security by isolating container operations and supports**
+
+**Key Features:**
+- Secure isolated Docker container execution
+- MCP protocol support for remote command execution
+- Non-root user environment for enhanced security
+- Persistent file mounting from host
+- Integration with Kubernetes tools (kubectl
+- helm)
+- AI-friendly development workspace
+
+*Tags: mcp, docker, ai, development, security, containerization, workflow, ai_agent*
+
+---
+
+### 274. [koki-develop/esa-mcp-server.git](https://github.com/koki-develop/esa-mcp-server.git)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server for esa.io, enabling secure and isolated model context management.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Secure post and comment management
+- Tag and post retrieval capabilities
+- Read-only mode for non-modifying operations
+- Support for nested inclusion of comments and tags
+
+*Tags: modelcontextprotocol, esa.io, mcp-server, ai-development, secure-devops, post-management, context-isolation, esapost*
+
+---
+
+### 275. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The lamaalrajih/kicad-mcp project provides a Model Context Protocol (MCP) server for integrating with KiCad, enabling seamless interaction between LLMs and hardware design tools.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Resource access via resources vs tools vs prompts
+- Natural language interaction capabilities
+- Project management features (list
+- search
+- analysis)
+- Design rule checking and DRC support
+- Visualization of PCB layouts
+- Circuit pattern recognition
+- BOM generation and analysis
+
+*Tags: agent orchestration, context engineering, isolation, memory persistence, developer workflow, connectivity, interoperability, industry trends*
+
+---
+
+### 276. [laulauland/bluesky-context-server](https://github.com/laulauland/bluesky-context-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Bluesky Context Server enabling secure, isolated context management for AI applications.**
+
+**Key Features:**
+- MCP server integration
+- AI-powered context queries
+- Secure data handling
+- Automated workflow execution
+
+*Tags: bluesky-context-server, ai-integration, context-isolation, developer-tools, security*
+
+---
+
+### 277. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a bridge between Ghidra, a powerful open-source reverse engineering platform, and MCP (Model Context Protocol) servers. This integration facilitates seamless deployment of Ghidra's decompilation and analysis tools within MCP clients, enhancing context isolation and memory persis**
+
+**Key Features:**
+- Ghidra plugin integration
+- MCP server support
+- automated code analysis
+- secure context isolation
+- memory persistence handling
+
+*Tags: ghidra, ghidra-mcp, developer-tools, security, code-analysis, context-isolation, ghidra-plugins, software-modeling*
+
+---
+
+### 278. [lloydzhou/bitable-mcp](https://github.com/lloydzhou/bitable-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project's Bitable-MCP server facilitates access to Lark Bitable through the Model Context Protocol, allowing users to interact with Bitable tables using predefined tools. It supports secure, isolated environments for development and testing, enhancing security and workflow efficiency.**
+
+**Key Features:**
+- Secure access to Bitable tables
+- Model Context Protocol integration
+- Predefined interaction tools
+- Isolation for sensitive operations
+
+*Tags: bitable, mcp, model context, api integration, secure development, developer tools, enterprise security, ai-enabled*
+
+---
+
+### 279. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)  `innovation: 8` ★☆☆ 🔵
+
+**A secure Python runtime that wraps LLM-generated code execution via MCP, limiting operations to prevent malicious code execution.**
+
+**Key Features:**
+- Secure execution of Python code
+- Restricted imports and collections
+- No file I/O operations
+- Sandboxed environment for LLM agents
+
+*Tags: mcp-safe-local-python-executor, localpythonexecutor, smolagents, huggingface, ai-safety, code-interpreter-security*
+
+---
+
+### 280. [mohit-novo/mcp-lithic](https://github.com/mohit-novo/mcp-lithic)  `innovation: 8` ★☆☆ 🔵
+
+**This project offers a robust TypeScript-based MCP server that integrates with the Lithic API, enabling secure and type-safe access to financial resources. It supports modern development practices with Docker integration, automated builds, and enterprise-grade security features. The solution emphasiz**
+
+**Key Features:**
+- TypeScript implementation
+- Docker support
+- Read-only access to Lithic API
+- Automated builds and deployments
+- Enhanced error handling
+- Context isolation
+
+*Tags: mcp, lithic, server, developer, security, docker, automation*
+
+---
+
+### 281. [morphik-org/morphik-mcp](https://github.com/morphik-org/morphik-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Morphik MCP server enabling secure, isolated context management for AI assistants interacting with Morphik databases.**
+
+**Key Features:**
+- Document ingestion (text and files)
+- Document retrieval with LLM-powered completions
+- Document querying and management
+- File system navigation and file ingestion
+- Secure file operations via --allowed-dir parameter
+
+*Tags: morphik-mcp, ai-assistants, document-management, secure-file-operations, context-isolation, developer-tools, ai-integration*
+
+---
+
+### 282. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Node.js sandbox server implementing the Model Context Protocol for secure JavaScript execution in isolated environments.**
+
+**Key Features:**
+- Dynamic JavaScript execution in isolated Docker containers
+- On-the-fly npm package installation
+- Interactive assistance for AI agents and LLMs
+- Compliance with Model Control Protocol (MCP)
+
+*Tags: mcp, ai-agents, npm, javascript, docker, ai-sandbox, code-execution, model-control-protocol*
+
+---
+
+### 283. [quarkiverse/quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling Large Language Models to interact with databases via JDBC, supporting multiple database types and providing a unified interface.**
+
+**Key Features:**
+- JDBC protocol support
+- Multi-database compatibility
+- Integration with Quarkus ecosystem
+- Dynamic configuration via command line
+
+*Tags: quarkus-mcp-servers, jdbc, context-isolation, developer-tools, mcp-server, db-connection, quarkus-extension*
+
+---
+
+### 284. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)  `innovation: 8` ★☆☆ 🔵
+
+**The svngoku/mcp-docker-code-interpreter project provides a Docker-based sandbox to safely run code through MCP, isolating execution environments and enhancing security by restricting resource access.**
+
+**Key Features:**
+- Secure Docker container execution
+- Multi-language support (currently Python)
+- Automatic setup for container creation and cleanup
+- Integration with Model Context Protocol
+- Resource limitations to prevent abuse
+
+*Tags: mcp, docker, ai, security, developer, ai-assistant, model-context, execution*
+
+---
+
+### 285. [tywenk/mcp-sol](https://github.com/tywenk/mcp-sol)  `innovation: 8` ★☆☆ 🔵
+
+**The Model Context Protocol facilitates secure and isolated communication between different components or services in a distributed system. It ensures that each component operates within its own context, maintaining data integrity and security by isolating sensitive operations and data flows.**
+
+**Key Features:**
+- Model Context Protocol
+- Secure communication channels
+- Context isolation
+- Data flow management
+
+*Tags: context-engine, isolation, secure-communICATION, microservices, data-flow, solana, api-gateway, service-mesh*
+
+---
+
+### 286. [zaycruz/docker_mcp](https://github.com/zaycruz/docker_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server allows developers to run code inside Docker containers, providing isolation from the host system. This enhances security by preventing code execution from malicious sources while supporting multi-language environments and complex scripts. It integrates with LLMs like Claude for intell**
+
+**Key Features:**
+- Isolated code execution in Docker containers
+- Multi-language support
+- Complex script execution
+- Container management (list
+- create
+- add dependencies
+- execute)
+- Integration with LLMs for intelligent code processing
+- Package manager compatibility (pip
+- npm
+- apt-get
+- apk)
+
+*Tags: docker-mcp, ai-integrated-devops, secure-code-execution, multi-language-support, container-management, developer-ux, security-focused, ai-powered-devops*
+
+---
+
+### 287. [markmdev/meridian](https://github.com/markmdev/meridian)  `innovation: 9` ★★☆ 🔵
+
+**Meridian makes Claude Code more reliable on real projects. It adds persistent project context, smarter session handoff, and lightweight workflow enforcement so Claude is less likely to lose the plot halfway through a long task.**
+
+**Key Features:**
+- ['Persistent project context re-injection'
+- 'Smarter session handoff'
+- 'Lightweight workflow enforcement'
+- 'Structured docs routing (.meridian/docs/)'
+- 'Instruction reinforcement (reminding Claude to follow local guidance)'
+- 'End-of-task quality pressure checklist'
+- 'Session learning (updating workspace/docs based on actual events)']
+
+*Tags: ['Claude Code', 'Context Engineering', 'Memory Persistence', 'Workflow Enforcement', 'AI Agents', 'IDE Integration', 'Project Context', 'Plugin Architecture']*
+
+---
+
+### 288. [TibixDev/winboat](https://github.com/TibixDev/winboat)  `innovation: 8` ★☆☆ 🔵
+
+**WinBoat is an Electron app which allows you to run Windows apps on Linux using a containerized approach. Windows runs as a VM inside a Docker/Podman container, and communication with it is facilitated via the WinBoat Guest Server to retrieve necessary data from Windows.**
+
+**Key Features:**
+- Elegant Interface: Sleek and intuitive interface that seamlessly integrates Windows into your Linux desktop environment
+- making it feel like a native experience. Automated Installs: Simple installation process through our interface - pick your preferences & specs and let us handle the rest. Run Any App: If it runs on Windows
+- it can run on WinBoat. Enjoy the full range of Windows applications as native OS-level windows in your Linux environment. Full Windows Desktop: Access the complete Windows desktop experience when you need it
+- or run individual apps seamlessly integrated into your Linux workflow. Filesystem Integration: Your home directory is mounted in Windows
+- allowing easy file sharing between the two systems without any hassle.
+
+*Tags: ['Windows', 'Linux', 'Virtualization', 'Electron', 'RemoteDesktop', 'Containerization', 'CrossPlatform', 'Integration'*
+
+---
+
+### 289. [anthropics/mcpb](https://github.com/anthropics/mcpb)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+
+*Tags: ['mcpb', 'ai', 'desktop', 'macos', 'windows', 'extensions', 'agent_orchestration', 'context_engineering'*
+
+---
+
+### 290. [centminmod/gemini-cli-mcp-server](https://github.com/centminmod/gemini-cli-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This repository provides a production-ready Model Context Protocol (MCP) server that bridges Google's Gemini CLI with MCP-compatible clients like Claude Code and Claude Desktop. It features an enterprise-grade Gemini MCP server, integrating OpenRouter AI API for access to over 400 AI models, offerin**
+
+**Key Features:**
+- Gemini CLI MCP Server functionality
+- integration with Claude Code
+- support for OpenRouter AI APIs (400+ models)
+- specialized tools for multi-AI workflows.
+
+*Tags: ['Agent Orchestration', 'Workflow', 'Context Engineering', 'MCP', 'Claude', 'Gemini', 'AI Agents', 'API Integration'*
+
+---
+
+### 291. [frappe/hrms](https://github.com/frappe/hrms)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+*Tags: ['frappe', 'hrms', 'python', 'vue', 'web development', 'payroll', 'hr software', 'full-stack'*
+
+---
+
+### 292. [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases. It serves a dual purpose: Ready-to-use MCP Server (Build-Time): Instantly connect Gemini CLI, Google Antigravity, Claude Code, o**
+
+**Key Features:**
+- Out-of-the-Box Database Access: Prebuilt generic tools for instant data exploration (e.g.
+- list_tables
+- execute_sql) directly from your IDE or CLI.
+Custom Tools Framework: Build production-ready tools with your own predefined logic
+- ensuring safety through Restricted Access
+- Structured Queries
+- and Semantic Search.
+Simplified Development: Integrate tools into your Agent Development Kit (ADK)
+- LangChain
+- LlamaIndex
+- or custom agents in less than 10 lines of code.
+Better Performance: Handles connection pooling
+- integrated auth (IAM)
+- and end-to-end observability (OpenTelemetry).
+Enhanced Security: Integrated authentication for more secure access to your data.
+End-to-end Observability: Out-of-the-box metrics and tracing with built-in support for OpenTelemetry.
+
+*Tags: ['AI Agents', 'Database Tools', 'MCP', 'LLM Integration', 'IDE Extensions', 'Agent Orchestration', 'NL2SQL', 'Security'*
+
+---
+
+### 293. [sevagh/umx.cpp](https://github.com/sevagh/umx.cpp)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+*Tags: ['C++17', 'PyTorch', 'LSTM', 'GGML', 'Quantization', 'Streaming', 'Eigen', 'AudioProcessing'*
+
+---
+
+### 294. [the-moonwitch/Cozette](https://github.com/the-moonwitch/Cozette)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+
+*Tags: ['bitmap font', 'Cozette', 'font', 'terminal', 'IDE', 'vector fonts', 'Dmenu', 'Nerd Fonts alternative']*
+
+---
+
+## Context Distillation & Summarization
+
+> 7 tools · avg innovation 8.1
+
+### 295. [Opencode-DCP/opencode-dynamic-context-pruning](https://github.com/Opencode-DCP/opencode-dynamic-context-pruning)  `innovation: 9` ★★☆ 🔵
+
+**A specialized context management plugin that uses dynamic pruning and summarization to maintain high performance in long-running AI agent sessions.**
+
+**Key Features:**
+- Redundant tool-call deduplication
+- automated stale error removal
+- active agent-driven context discarding
+- session summarization.
+
+*Tags: context-engineering, optimization, token-reduction, pruning, opencode*
+
+---
+
+### 296. [coderamp-labs/gitingest](https://github.com/coderamp-labs/gitingest)  `innovation: 8` ★☆☆ 🔵
+
+**This resource details a tool, 'gitingest,' designed to extract the core content of a Git repository into a prompt-friendly text digest for Large Language Models (LLMs). It emphasizes easy code context extraction, smart formatting, and the ability to handle private repositories using GitHub Personal **
+
+**Key Features:**
+- ['Codebase Ingestion via URL or directory path.'
+- 'Smart Formatting of the extracted content for LLM prompts.'
+- 'CLI tool usage (`gitingest`) for analyzing codebases.'
+- 'Option to include submodules using `--include-submodules`.'
+- 'Customizable output file naming using `--output/-o`.'
+- 'Handling private repositories via GitHub PATs (Personal Access Tokens).']
+
+*Tags: ['Codebase Ingestion', 'LLM Prompting', 'GitHub Integration', 'Context Engineering', 'Developer Tools', 'AI Agents & Frameworks', 'Git Utility']*
+
+---
+
+### 297. [fenxer/steam-review-mcp](https://github.com/fenxer/steam-review-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a GitHub-based service that integrates with the Model Context Protocol (MCP) to fetch and analyze user reviews from the Steam store. It offers features such as retrieving review counts, scores, detailed game information, and summarizing pros and cons of games.**
+
+**Key Features:**
+- Get game reviews
+- Analyze game reviews
+- Summarize pros and cons
+- Install via Smithery
+- Run service locally
+
+*Tags: steam-review-mcp, model-context-protocol, game-analysis, developer-tools, ai-reviews*
+
+---
+
+### 298. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `innovation: 8` ★☆☆ 🔵
+
+**Kagimcp is an open-source model context protocol server designed to facilitate seamless integration between various AI and search tools. It allows developers to query and retrieve contextual information from different applications, enhancing interoperability and enabling advanced use cases such as i**
+
+**Key Features:**
+- Contextual search across multiple tools
+- Integration with AI frameworks (e.g.
+- OpenAI Codex)
+- Custom summarization engine selection
+- Secure API key management
+- Developer workflow automation
+
+*Tags: kagimcp, modelcontextprotocol, ai-security, developer-tools, searchintegration, api-management, code-automation, security-features*
+
+---
+
+### 299. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A WebAssembly-based source map parser that maps JavaScript error stack traces back to source code, aiding developers in quickly identifying and resolving issues.**
+
+**Key Features:**
+- Source map parsing for JavaScript error stack traces
+- Context extraction around error locations
+- Batch processing of multiple stack traces
+- Customizable context offset lines
+- Integration with MCP server for enhanced functionality
+
+*Tags: source-map-parser, debugging, error-tracking, developer-tool, code-analysis, stack-trace, mcp-integration, source-location*
+
+---
+
+### 300. [mondweep/youtube-music-mcp-server](https://github.com/mondweep/youtube-music-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a MCP (Model Context Protocol) server that allows AI models to search and play songs via YouTube Music using Chrome. It provides structured communication for AI assistants to understand tool capabilities, execute actions, handle errors, and maintain consistent responses.**
+
+**Key Features:**
+- MCP server integration
+- AI-powered song search
+- Playback control via YouTube Music
+- Error handling and logging
+- Cross-platform support (macOS)
+- Note creation and summarization
+
+*Tags: mcp, youtube-music, ai, music-playback, cloud-server, developer-tools, automation, web-api*
+
+---
+
+### 301. [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project's MCP Server provides a secure, read-only interface to Hugging Face's model and dataset resources. It supports context management, prompt-based interactions, and integrates with tools like Copilot and SparkBuild for intelligent app development. Key features include model comparison,**
+
+**Key Features:**
+- Model access via custom URIs
+- Prompt-based interactions (compare-models
+- summarize-paper)
+- Dataset and space exploration
+- Integration with Hugging Face APIs
+- Tool categories for model
+- dataset
+- space
+- paper
+- and collection management
+
+*Tags: huggingface, ai, ml, developer, cloud, security, ai_platform, model_management*
+
+---
+
+## Prompt Engineering & Optimization
+
+> 6 tools · avg innovation 8.5
+
+### 302. [abhichandra21/Promptheus.git](https://github.com/abhichandra21/Promptheus.git)  `innovation: 9` ★★☆ 🔵
+
+**Automated prompt refinement and optimization for enterprise AI interactions.**
+
+**Key Features:**
+- Adaptive questioning to identify required information
+- Multi-provider support (Google
+- OpenAI
+- Anthropic
+- etc.)
+- Interactive refinement through iterative Q&A
+- Session history tracking and reuse for context preservation
+- Integration with MCP server for advanced prompt optimization
+
+*Tags: promptengineering, aidevelopment, enterpriseai, promptoptimization, interactiveai, contextmanagement, modelintegration, developertools*
+
+---
+
+### 303. [lumile/promptopia-mcp](https://github.com/lumile/promptopia-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A server for managing and reusing prompt templates with variable substitution and multi-message conversation structures.**
+
+**Key Features:**
+- Centralized prompt management
+- Advanced multi-message support
+- Intelligent variable substitution
+- Seamless MCP integration
+- Future-proof architecture
+
+*Tags: promptopia, mcp, ai, prompt management, model context protocol*
+
+---
+
+### 304. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**An AI-powered MCP server transforming AP Media API content into intelligent, conversational interfaces.**
+
+**Key Features:**
+- Natural language query processing
+- Intelligent prompt templates
+- Content recommendation engine
+- Trend analysis and pattern detection
+- Bulk data handling and caching
+- Secure configuration and error recovery
+
+*Tags: api integration, ai tools, content intelligence, mcp server, data analysis, search optimization, automation, security*
+
+---
+
+### 305. [jjikky/dynamo-readonly-mcp](https://github.com/jjikky/dynamo-readonly-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling LLMs to query AWS DynamoDB using natural language.**
+
+**Key Features:**
+- Table Management Tools
+- Data Query Tools
+- Prompt Templates
+- Resource Access
+- Dynamic Prompt Generation
+
+*Tags: dynamodb-readonly, mcp-protocol, ai-integration, developer-tools, cloud-native, api-client, natural-language-querying, security-features*
+
+---
+
+### 306. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `innovation: 8` ★☆☆ 🔵
+
+**The Think Tool is an MCP server that enables Claude to break down complex problems, organize thoughts systematically, cache intermediate results, and demonstrate its reasoning process. It supports structured thinking, step-by-step breakdowns, and integration into workflows for improved decision-maki**
+
+**Key Features:**
+- Step back and think through complex problems
+- Break down reasoning into discrete steps
+- Cache intermediate results during complex calculations
+- Show its work when solving problems
+- Provide detailed thought logs and explanations
+
+*Tags: prompt engineering, code generation, ai development, software development, security, developer workflow, mcp integration, code review*
+
+---
+
+### 307. [raw391/coin_daemon_mcp](https://github.com/raw391/coin_daemon_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A beta MCP server enabling AI assistants to securely interact with cryptocurrency daemons for transaction management, monitoring, and data analysis.**
+
+**Key Features:**
+- Transaction Management
+- Balance Checking
+- Wallet Operations
+- Daemon Status Monitoring
+- Transaction History
+- Prompt Templates
+- Security Best Practices
+
+*Tags: cryptocurrency, ai, developer, security, transactions, wallet, daemon, rpc*
+
+---
+
+## General Context Engineering
+
+> 470 tools · avg innovation 8.2
+
+### 308. [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)  `innovation: 10` ★★★ 🔵
+
+**A curated, security-audited collection of over 5,000 modular `SKILL.md` runbooks for OpenClaw and other local AI assistants.**
+
+**Key Features:**
+- 5
+- 000+ audited `SKILL.md` runbooks
+- Red-Team "Abaddon" mode skills
+- YAML frontmatter dependency tracking
+- active community malware filtering.
+
+*Tags: skills, openclaw, registry, security, context-engineering*
+
+---
+
+### 309. [clkao/agentlore](https://github.com/clkao/agentlore)  `innovation: 10` ★★★ 🔵
+
+**A framework for managing AI agent "personalities" and long-term project lore, ensuring role consistency across swarms without bloating token counts.**
+
+**Key Features:**
+- Dynamic "world-building" context injection
+- role/boundary consistency enforcement
+- behavioral state versioning (rollback capability)
+- swarm-wide lore synchronization.
+
+*Tags: context-engineering, memory, role-playing, orchestration, lore*
+
+---
+
+### 310. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)  `innovation: 10` ★★★ 🔵
+
+**A configuration-as-code standard acting as a `Dockerfile` for AI agents, defining exact tools, system prompts, and MCP dependencies for consistent execution.**
+
+**Key Features:**
+- Standardized agent environment declaration
+- MCP server dependency mapping
+- cross-platform workflow portability
+- deterministic system prompt injection.
+
+*Tags: configuration, agentfile, standardization, mcp, dev-tools*
+
+---
+
+### 311. [ryanreh99/skills-sync](https://github.com/ryanreh99/skills-sync)  `innovation: 10` ★★★ 🔵
+
+**A platform enabling the standardization and synchronization of agent capabilities (SKILL.md) across different collaborative coding environments.**
+
+**Key Features:**
+- AI-powered skill normalization
+- cross-platform synchronization
+- adaptive complexity scaling
+- standardized SKILL.md management.
+
+*Tags: skills, synchronization, context-management, orchestration, standardization*
+
+---
+
+### 312. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `innovation: 10` ★★★ 🔵
+
+**A synchronization and evolution layer for Claude Code that ensures an agent's memory, skills, and architectural rules follow the developer across different machines.**
+
+**Key Features:**
+- Automated Pre/Post session state sync
+- LLM-powered semantic memory merging
+- auto-evolution of repeated patterns into durable rules.
+
+*Tags: claude-code, memory, sync, persistence, workflow*
+
+---
+
+### 313. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `innovation: 9.7` ★★☆ 🔵
+
+**A next-generation framework documentation platform for Claude Code, offering intelligent caching, multi-source integration, and context-aware assistance to accelerate development.**
+
+**Key Features:**
+- Documentation-first search with BM25 indexing
+- Context-aware assistance and type inference
+- Integration of multiple external data sources
+- Real-time code examples and API documentation
+- Error pattern recognition and diagnostics
+- Version comparison and migration guides
+- Secure
+- production-grade environment setup
+
+*Tags: Documentation-first search, MCP server, AI-assisted coding, Contextual help, Framework integration, Error diagnostics, Version management, Security features*
+
+---
+
+### 314. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `innovation: 9.7` ★★☆ 🔵
+
+**The DuckChain MCP Server is a comprehensive Model Context Protocol (MCP) server that integrates with BlockScout API v2 to deliver advanced blockchain analytics. It supports over 56 specialized tools for transaction tracing, address exploration, token management, smart contract analysis, and market r**
+
+**Key Features:**
+- Blockchain data access via BlockScout API v2
+- AI-powered transaction analysis and smart contract evaluation
+- Comprehensive address and token management
+- Secure development environment with automated workflows
+- Integration with CI/CD pipelines and DevOps tools
+- Advanced security features including vulnerability detection
+- Real-time monitoring and state change tracking
+- Token operations
+- NFT management
+- and metadata refresh
+
+*Tags: blockchain analytics, ai-powered blockchain, smart contract analysis, transaction tracing, decentralized finance, developer tools, security features, api integration*
+
+---
+
+### 315. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A server that enables seamless integration of Figma designs with AI coding tools by providing real-time design-to-code generation.**
+
+**Key Features:**
+- Smart Layout Detection
+- Icon Merging
+- CSS Generation
+- Image Export
+- Multi-layer Caching
+- Design-to-Code Prompts
+- Lightweight Data Access
+
+*Tags: figma-context-mcp, ai-coding-integration, code-generation, design-to-code, developer-workflow, context-api, mcp-server, ai-assets*
+
+---
+
+### 316. [Ak-9647/Evernote-MCP](https://github.com/Ak-9647/Evernote-MCP)  `innovation: 9` ★★☆ 🔵
+
+**A secure, AI-powered MCP server for seamless Evernote integration with Claude Desktop.**
+
+**Key Features:**
+- Secure token management using environment variables
+- Rich note creation with HTML
+- tables
+- and lists
+- Search and organization of notes by content and tags
+- Professional templates for meeting notes
+- shopping lists
+- and more
+- Integration with Claude Desktop for natural language input and output
+
+*Tags: mcp, evernote-mcp, ai-assistance, developer-tools, cloud-integration, security, automation, notebook-management*
+
+---
+
+### 317. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `innovation: 9` ★★☆ 🔵
+
+**A structured context management tool that implements a /thoughts directory to provide agents with long-term memory and systematic workflows.**
+
+**Key Features:**
+- Structured /thoughts directory
+- phased implementation loops
+- specialized subagent delegation
+- automated ticket decomposition.
+
+*Tags: context-engineering, memory, workflow, opencode, productivity*
+
+---
+
+### 318. [DeanWard/HAL](https://github.com/DeanWard/HAL)  `innovation: 9` ★★☆ 🔵
+
+**HAL provides a secure, isolated environment for LLMs to interact with web APIs and external services while maintaining strict access control.**
+
+**Key Features:**
+- HTTP GET/POST/PUT/PATCH/DELETE/OPTIONS/HEAD requests
+- Secure secret management with automatic redaction
+- Automatic tool generation from OpenAPI/Swagger specifications
+- Environment-based secret substitution and access control
+- Response scanning for secret values
+- Automatic replacement of secrets in responses
+
+*Tags: api-security, developer-tools, ai-integration, secure-api, context-management, openapi-support, secret-handling, web-api-integration*
+
+---
+
+### 319. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `innovation: 9` ★★☆ 🔵
+
+**A platform that integrates AI tools with fitness data via the Model Context Protocol to deliver intelligent, context-aware coaching.**
+
+**Key Features:**
+- AI-powered fitness dashboard using Next.js
+- MCP server for protocol-compliant data integration
+- Smart tools for activity logging
+- nutrition tracking
+- and feedback collection
+- Context-aware AI for personalized workout and meal plans
+- Real-time progress visualization and goal setting
+
+*Tags: ai, fitness, nextjs, mcp, dataintegration, healthcoach, personalization, analytics*
+
+---
+
+### 320. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `innovation: 9` ★★☆ 🔵
+
+**ProtonOS is a Linux-compatible, bare-metal operating system built using C# and bflat's zero-library mode. It features a custom Tier 0 Just-In-Time (JIT) compiler, hardware abstraction layer, and supports direct booting on x86-64 hardware. The system emphasizes security, performance, and integration **
+
+**Key Features:**
+- Custom Tier 0 JIT compiler
+- Hardware abstraction layer
+- Secure boot process
+- Cross-assembly loading
+- NUMA-aware memory allocation
+- Preemptive scheduler
+- Virtual memory management
+- Device drivers (VirtIO
+- SATA)
+- Networking stack (Ethernet
+- ARP
+- IP)
+
+*Tags: bare-metal, c#, kernel, security, devops, networking, file-systems, systems-programming*
+
+---
+
+### 321. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `innovation: 9` ★★☆ 🔵
+
+**An enterprise-grade MCP server optimized for SAP OData, designed to address the tool explosion problem with modular authentication, hierarchical tool registry, and secure integration.**
+
+**Key Features:**
+- Enhanced security architecture
+- Modular authentication system
+- Role-based access control
+- Principal propagation
+- Secure session management
+- Smart query routing
+- Hierarchical tool registry
+- Intelligent workflow orchestration
+- Real-time analytics and dashboards
+
+*Tags: sap-odata, mcp-server, security, developer-tools, ai-integration, cloud-native, api-management, data-discovery*
+
+---
+
+### 322. [SecureBitChat/securebit-chat](https://github.com/SecureBitChat/securebit-chat)  `innovation: 9` ★★☆ 🔵
+
+**SecureBitChat is positioned as the leading peer-to-peer (P2P) messenger, emphasizing security through an end-to-end encrypted architecture. It utilizes WebRTC for direct connections, underpinned by advanced ECDH + DTLS + SAS verification, and full ASN.1 validation to ensure a robust, privacy-first c**
+
+**Key Features:**
+- End-to-end encryption
+- zero-server architecture
+- WebRTC direct connections
+- ECDH + DTLS + SAS verification
+- full ASN.1 validation
+- and a shared Rust-based cryptographic core.
+
+*Tags: ['P2P Messenger', 'End-to-End Encryption', 'WebRTC', 'ECDH', 'DTLS', 'SAS Verification', 'Rust', 'Security Core'*
+
+---
+
+### 323. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `innovation: 9` ★★☆ 🔵
+
+**DataHub MCP Server enables AI agents to find, understand, and manage data across the entire ecosystem using natural language queries.**
+
+**Key Features:**
+- Natural language search across tables
+- columns
+- dashboards
+- and metrics
+- Data lineage and impact analysis for changes
+- SQL query generation and understanding
+- Metadata management (tags
+- owners
+- descriptions)
+- Document integration and knowledge base organization
+
+*Tags: datahub, mcp-server-datahub, ai-agents, data-query, data-lineage, data-governance, data-profiling, data-security*
+
+---
+
+### 324. [ashish-bansal/playwright-mcp](https://github.com/ashish-bansal/playwright-mcp)  `innovation: 9` ★★☆ 🔵
+
+**Enhances Playwright test automation by providing full browser context, enabling accurate interaction with web pages.**
+
+**Key Features:**
+- Full browser visibility
+- Interaction recording
+- DOM extraction
+- JavaScript execution
+
+*Tags: playwright-mcp, ai-assistant, web-testing, automation, developer-tools*
+
+---
+
+### 325. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**The Augmented-Nature/PubChem-MCP-Server is a robust, modular platform designed to provide seamless access to over 110 million chemical compounds. It integrates advanced chemical informatics tools and bioassay data, supporting complex workflows in drug discovery, molecular modeling, and regulatory co**
+
+**Key Features:**
+- Comprehensive chemical compound search
+- Extensive molecular property analysis
+- Bioassay data retrieval
+- Structural similarity and similarity search
+- Safety and toxicity information
+- Integration with external databases (ChEMBL
+- DrugBank
+- etc.)
+- Batch processing for multiple compounds
+- Comprehensive error handling and validation
+
+*Tags: chemical-informatics, pubchem-server, data-integration, molecular-modeling, bioactivity-analysis, regulatory-compliance, developer-tools, safety-assessment*
+
+---
+
+### 326. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**This project provides a secure, API-driven interface for integrating blockchain data into AI applications using the Model Context Protocol (MCP). It supports multi-chain connectivity, contextual data retrieval, and intelligent analysis features such as contract ABI inspection, token holdings, and NF**
+
+**Key Features:**
+- Contextual blockchain data access
+- Multi-chain support
+- AI skill integration (e.g.
+- Claude)
+- Smart contract analysis
+- Token and NFT tracking
+- Secure API endpoints
+- Observability and progress notifications
+
+*Tags: blockscout, mcp-server, ai-integration, blockchain-api, developer-tools, multi-chain, secure-data-access, ai-skills*
+
+---
+
+### 327. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `innovation: 9` ★★☆ 🔵
+
+**A powerful MCP server for VirusTotal API integration, offering comprehensive security analysis with automatic relationship data fetching.**
+
+**Key Features:**
+- Comprehensive URL analysis
+- File analysis with detailed report generation
+- IP address and domain intelligence
+- Relationship analysis with pagination support
+- Automated threat actor identification
+- Integration with Claude Desktop and GitHub Copilot
+
+*Tags: mcp-virustotal, security, virustotal, analysis, reporting, integration, developer, automation*
+
+---
+
+### 328. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A model context protocol server for PubMed literature search and management, enabling advanced filtering, citation export, and research analysis.**
+
+**Key Features:**
+- Advanced PubMed search with filters (date
+- type
+- authors
+- journals
+- MeSH terms)
+- Detailed article details including abstracts and metadata
+- Citation export in multiple formats (BibTeX
+- APA
+- MLA
+- etc.)
+- Author and related articles discovery
+- Related articles search by PMID
+
+*Tags: mcp, pubmed-mcp, ai, search, documentation, devops*
+
+---
+
+### 329. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `innovation: 9` ★★☆ 🔵
+
+**The Healthcare MCP Server is a Node.js implementation that adheres to the Model Context Protocol (MCP) to securely connect AI models with real-time, authoritative healthcare information. It integrates multiple data sources including FDA drug databases, PubMed, NCBI Bookshelf, and clinical trial repo**
+
+**Key Features:**
+- FDA Drug Information
+- PubMed Research Search
+- Health Topics Evidence-Based Content
+- Clinical Trials Database
+- ICD-10 & Medical Terminology Lookup
+- Medical Calculator
+- Caching for Performance Optimization
+- Comprehensive Testing Suite
+- RESTful API Endpoints
+- Interactive API Documentation (Swagger UI)
+
+*Tags: healthcare, ai, medical, integration, testing, developer, security, health*
+
+---
+
+### 330. [cyreslab-ai/exploitdb-mcp-server](https://github.com/cyreslab-ai/exploitdb-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A platform-powered AI assistant for cybersecurity research, enabling secure and efficient exploitation data analysis.**
+
+**Key Features:**
+- AI-driven exploit search and details retrieval
+- Real-time statistics and trend analysis
+- Advanced filtering by platform
+- type
+- CVE
+- date
+- etc.
+- Integration with Claude and other MCP-compatible assistants
+- Automated database updates and maintenance
+
+*Tags: exploitdb-mcp-server, security, cybersecurity, ai, developer-tools, mcp, exploits, security-features*
+
+---
+
+### 331. [dojoengine/sensei-mcp](https://github.com/dojoengine/sensei-mcp)  `innovation: 9` ★★☆ 🔵
+
+**Sensei MCP provides expert guidance for Dojo and Cairo development on Starknet.**
+
+**Key Features:**
+- Expert Cairo guidance
+- Model Context Protocol (MCP) server
+- Specialized tools for models
+- systems
+- testing
+
+*Tags: dojo, cairo, starknet, modelcontext, mcp, developer-tools*
+
+---
+
+### 332. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A MCP server that integrates FindMine's styling API with Claude and other MCP-compatible tools, enabling advanced fashion AI for product recommendations.**
+
+**Key Features:**
+- Connects to FindMine's styling API via Model Context Protocol
+- Integrates with Claude and other MCP-compatible applications
+- Provides outfit recommendations
+- style guidance
+- and visual similarity searches
+- Customizable style guides for brand-specific aesthetics
+
+*Tags: mcp, findmine, ai, product_styling, fashion_ai, customization, style_guide, api_integration*
+
+---
+
+### 333. [freshtechbro/Vibe-Coder-MCP](https://github.com/freshtechbro/Vibe-Coder-MCP)  `innovation: 9` ★★☆ 🔵
+
+**The resource details a Vibe Coder system that acts as an MCP server, enhancing existing AI assistants by providing specialized software development tools. It helps users perform tasks like research, planning, generating requirements, and creating starter projects.**
+
+**Key Features:**
+- ['Complete Hybrid Matcher Overhaul: All 15 MCP tools now have comprehensive parameter extraction.'
+- 'CLI/REPL Experience: Interactive confirmations
+- job status polling with visual progress.'
+- 'Better Tool Matching: Multi-strategy approach (keyword 35%
+- pattern 30%
+- semantic 15%
+- LLM 20%).'
+- 'TypeScript Strict Mode: Zero any types
+- all explicit typing
+- production-grade code quality.'
+- 'Visual progress indicators for long-running jobs.'
+- 'Cleaner output with JSON log filtering in interactive mode.'
+
+*Tags: ['AI Agents', 'MCP', 'LLM', 'TypeScript', 'Developer Tools', 'Context Engineering', 'CLI', 'IDE Integration'*
+
+---
+
+### 334. [furey/mongodb-lens](https://github.com/furey/mongodb-lens)  `innovation: 9` ★★☆ 🔵
+
+**A powerful MCP server enabling natural language queries and advanced data management for MongoDB databases.**
+
+**Key Features:**
+- Natural language query support
+- Schema inference and schema versioning
+- Performance optimization tools
+- Security auditing and protection
+- Cross-collection analysis and indexing
+- Integration with external tools and services
+
+*Tags: mongodb-lens, mongo-database, developer-tools, data-management, query-optimization, metadata-management, multi-tenant, schema-design*
+
+---
+
+### 335. [getzep/graphiti](https://github.com/getzep/graphiti)  `innovation: 9` ★★☆ 🔵
+
+**Graphiti enables the creation and management of temporal context graphs for AI agents, allowing them to maintain accurate, up-to-date knowledge over time.**
+
+**Key Features:**
+- Temporal fact management with validity windows
+- Episodes and provenance tracking
+- Custom entity and edge types via Pydantic models
+- Hybrid retrieval combining semantic
+- keyword
+- and graph-based search
+- Real-time incremental updates without full recomputation
+
+*Tags: graphiti, context graphs, temporal knowledge graphs, ai agents, memory systems, data provenance, semantic search, entity clustering*
+
+---
+
+### 336. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `innovation: 9` ★★☆ 🔵
+
+**Framelink MCP server integrates Figma layout data into AI coding agents for precise design-to-code generation.**
+
+**Key Features:**
+- Fetch Figma layout information via API
+- Provide context-aware code suggestions in real time
+- Enable one-shot UI implementation using Cursor
+- Support enterprise-grade security and privacy
+
+*Tags: framerink, figma-context-mcp, ai-coding-agents, code-generation, developer-tools, security, integration, enterprise-devops*
+
+---
+
+### 337. [goodfel10w/WelcomeTextGenerator](https://github.com/goodfel10w/WelcomeTextGenerator)  `innovation: 9` ★★☆ 🔵
+
+**Automatisiert die Generierung professioneller Willkommenstexte für neue Mitarbeiter basierend auf strukturierten Daten.**
+
+**Key Features:**
+- Text-Analyse aus Freitext-Informationen
+- Modulares Template-System mit 5 flexiblen Modulen
+- Speicherung und Verwaltung der extrahierten Mitarbeiterdaten
+- Generierung von Einleitung
+- Abschluss und Varianten für Onboarding
+- Integration in Claude Desktop App für eine nahtlose Benutzererfahrung
+
+*Tags: welcome-text-generator, mcp-server, ai-development, code-generation, developer-tools, enterprise-software, text-extraction, data-management*
+
+---
+
+### 338. [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)  `innovation: 9` ★★☆ 🔵
+
+**DroidMind enables AI assistants to securely interact with Android devices via the Model Context Protocol, allowing direct control and system analysis.**
+
+**Key Features:**
+- Manage devices (connect
+- list
+- view properties
+- reboot)
+- Analyze system logs and crash reports
+- Handle files and manage device directories
+- Control apps (install
+- uninstall
+- start
+- stop
+- inspect)
+- Automate UI actions (taps
+
+*Tags: modelcontextprotocol, ai, android, devicecontrol, security, developertool, integration, systemanalysis*
+
+---
+
+### 339. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `innovation: 9` ★★☆ 🔵
+
+**The MCP Server-Image provides enterprise-grade image handling capabilities with minimal code, supporting tasks such as fetching images from URLs or local file paths, processing them, and returning base64-encoded results. It is designed to be integrated into AI applications, web services, and data pr**
+
+**Key Features:**
+- Fetch images from URLs
+- Process images locally
+- Automatic image compression
+- Parallel processing of multiple images
+- Proper MIME type mapping
+- Comprehensive error handling and logging
+
+*Tags: image-processing, ai-applications, web-services, data-pipelines, mcp-image, base64-encoding, image-manipulation, mcp-server*
+
+---
+
+### 340. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `innovation: 9` ★★☆ 🔵
+
+**A powerful expression evaluation tool for Claude Desktop using the Model Context Protocol, enabling complex data manipulations and transformations within AI conversations.**
+
+**Key Features:**
+- Expression evaluation
+- Mathematical operations
+- String manipulation
+- Array and object sorting
+- Conditional logic
+- Object property access
+- String conversion
+- Data transformation
+
+*Tags: expr-lang, mcp-expr-lang, ai-assistant, developer-tools, code-evaluation, ai-integration, expression-engine, code-transformation*
+
+---
+
+### 341. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**Globalping MCP Server enables AI models to interact with a global network measurement platform via natural language, providing secure and scalable access to network probes.**
+
+**Key Features:**
+- Global network access for AI models
+- Natural language interface for network tests
+- Support for multiple authentication methods
+- Comparative analysis of network performance
+- Secure integration with AI tools via MCP protocol
+
+*Tags: globalping-mcp-server, ai-integration, network-testing, developer-tools, security, api-security, cloud-proxy, ai-automation*
+
+---
+
+### 342. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `innovation: 9` ★★☆ 🔵
+
+**Smart-Thinking is a local, deterministic Model Context Protocol server for multi-step reasoning without external AI dependencies.**
+
+**Key Features:**
+- Graph-based reasoning
+- Heuristic-based scoring
+- Verification tracking
+- Memory management
+- Visualization
+
+*Tags: modelcontext-protocol, graph-reasoning, deterministic-pipeline, local-intelligence, multi-step-analysis*
+
+---
+
+### 343. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A Model Context Protocol server enabling LLM interfaces to control a Ghost CMS blog securely.**
+
+**Key Features:**
+- Secure JWT authentication
+- Comprehensive entity access (posts
+- users
+- members
+- tiers
+- offers)
+- Advanced search with fuzzy and exact matching
+- Human-readable output for entities
+- Robust error handling with custom GhostError exceptions
+
+*Tags: ghost-mcp, modelcontextprotocol, ghost-cms, claude-ai, developer-tool, ghost-admin-api, ghost-api, mlm-interfaces*
+
+---
+
+### 344. [minimax-ai/minimax-mcp](https://github.com/minimax-ai/minimax-mcp)  `innovation: 9` ★★☆ 🔵
+
+**MiniMax-MCP 官方服务器，支持与强大的文本转语音、图像生成和视频生成API的交互。**
+
+**Key Features:**
+- Text-to-Speech generation
+- Image generation
+- Video generation
+- Voice cloning
+- Audio file conversion
+- Music creation
+- Preview text for voice design
+
+*Tags: minimax-mcp, text-to-speech, image-generation, video-generation, voice-cloning, audio-conversion, music-generation, ai-development*
+
+---
+
+### 345. [mubarakhalketbi/game-asset-mcp](https://github.com/mubarakhalketbi/game-asset-mcp)  `innovation: 9` ★★☆ 🔵
+
+**An AI-powered platform that enables rapid creation of 2D and 3D game assets from natural language prompts using Hugging Face models, integrated with MCP for seamless interaction.**
+
+**Key Features:**
+- Text-to-Image Asset Generation
+- Multi-language Prompt Support
+- Integration with Hugging Face Spaces
+- Multiple 3D Model Generation Spaces
+- Secure Remote Access via HTTPS
+- Customizable Inference Parameters
+- Automated File Saving and Organization
+
+*Tags: ai development, game asset generation, mcp integration, developer workflow, ai models, code automation, cross-platform, secure deployment*
+
+---
+
+### 346. [nekzus/npm-sentinel-mcp](https://github.com/nekzus/npm-sentinel-mcp)  `innovation: 9` ★★☆ 🔵
+
+**The Nekzus/npm-sentinel-mcp is an advanced Model Context Protocol (MCP) server designed to enhance NPM package security, dependency management, and performance analysis. It integrates seamlessly with AI tools like Claude and Anthropic, providing real-time insights into package vulnerabilities, versi**
+
+**Key Features:**
+- AI-powered security analysis
+- Dependency mapping and resolution
+- Real-time vulnerability detection
+- Version tracking and changelog
+- Package size and performance metrics
+- Secure coding practices enforcement
+
+*Tags: npm-sentinel, ai-security, developer-tools, package-analysis, security-automation, ai-integration, npm-metrics, code-quality*
+
+---
+
+### 347. [oevortex/ddg_search](https://github.com/oevortex/ddg_search)  `innovation: 9` ★★☆ 🔵
+
+**A powerful Model Context Protocol (MCP) server for web search and AI-powered content extraction using DuckDuckGo.**
+
+**Key Features:**
+- Web search via DuckDuckGo
+- AI-powered search with IAsk AI
+- Monica & Brave AI
+- Performance optimization with caching
+- Security features including rate limiting and rotating user agents
+- MCP-compliant server implementation
+
+*Tags: model context protocol, ai search, web scraping, search engine, developer tools, security features, ai assistants, search optimization*
+
+---
+
+### 348. [pars-doe/autodocument](https://github.com/pars-doe/autodocument)  `innovation: 9` ★★☆ 🔵
+
+**Automated documentation generation for code repositories using OpenRouter API and AI.**
+
+**Key Features:**
+- Smart directory analysis with respect to .gitignore patterns
+- AI-powered documentation creation using OpenRouter API
+- Intelligent file handling and fallback generation
+- Comprehensive documentation at multiple levels (documentation.md
+- testplan.md
+- review.md)
+- Customizable prompts for tailored output
+- Modular architecture for future extensibility
+
+*Tags: context-engineering, ai-documentation, openrouter, automated-reporting, modular-architecture*
+
+---
+
+### 349. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**The Project Hub MCP Server is an AI-powered developer platform designed to streamline software development processes. It offers robust project management tools, local Git functionality, and seamless integration with GitHub for version control and collaboration. Key features include project creation **
+
+**Key Features:**
+- Project creation and management
+- Local Git functionality with branch management
+- Integration with GitHub for version control
+- Code review and change tracking
+- Automated workflows and CI/CD support
+- Secure code deployment and protection
+- Project notes and documentation management
+- Multi-account GitHub support
+- File snapshots and metadata management
+
+*Tags: project-hub-mcp-server, github-integration, developer-tools, ai-powered-devops, secure-code-deployment, modernization, enterprise-platform, security-focused*
+
+---
+
+### 350. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**The Borg Project's WordPress MCP Server is a robust platform designed to facilitate seamless integration between WordPress applications and AI assistants. It provides extensive functionality for managing users, posts, categories, comments, and custom endpoints through the WordPress REST API. This se**
+
+**Key Features:**
+- CRUD operations for posts
+- users
+- categories
+- comments
+- Custom requests to external REST API endpoints
+- Security features including code reviews and vulnerability detection
+- Integration with AI assistants for enhanced user interaction
+- Comprehensive documentation and support services
+
+*Tags: wordpress, security, developer, ai, mcp, posts, users, categories*
+
+---
+
+### 351. [pv-bhat/gemsuite-mcp](https://github.com/pv-bhat/gemsuite-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A professional Gemini API integration for Claude and MCP-compatible hosts, offering intelligent model selection and advanced file handling.**
+
+**Key Features:**
+- Intelligent model selection based on task and content
+- Unified file handling with automatic format detection
+- Support for multiple file types and operations
+- Batch processing capabilities
+- Automated error handling and exponential backoff
+
+*Tags: gemsuite-mcp, gemini-api, model-selection, file-handling, ai-integration, developer-tools, cloud-deployment, security-features*
+
+---
+
+### 352. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `innovation: 9` ★★☆ 🔵
+
+**Context7 MCP Server provides up-to-date documentation and code examples for LLMs, enhancing AI development workflows.**
+
+**Key Features:**
+- Real-time
+- version-specific documentation for LLMs and AI code editors
+- Integration with GitHub Copilot for intelligent code generation
+- Secure access control via JWT authentication
+- Support for Cloudflare Workers to cache API responses
+- Enhanced security features including vulnerability detection and secure code practices
+
+*Tags: ai development, llm documentation, code examples, security, developer tools, context7 integration, cloud services, api management*
+
+---
+
+### 353. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `innovation: 9` ★★☆ 🔵
+
+**The mcp-google-cse project provides a custom search engine that integrates with Google's CSE, allowing AI models like Claude to perform deep searches using structured query parameters. It is designed to enhance developer workflows by combining LLM capabilities with external data sources, offering fe**
+
+**Key Features:**
+- Custom search engine integration
+- Secure API access for AI models
+- Automated workflow automation
+- Code review and change tracking
+- Integration with external tools and services
+- Enterprise security and compliance
+
+*Tags: mcp, googling, search, ai, developer, security, integration, cloud*
+
+---
+
+### 354. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `innovation: 9` ★★☆ 🔵
+
+**A software development platform enabling AI-assisted management of project workflows using the MCP protocol.**
+
+**Key Features:**
+- MCP Server implementation for secure API access
+- AI-powered assistant integration via MCP protocol
+- Workflow automation and task management
+- Code review and change tracking
+- Secure code deployment and protection
+- Integration with external tools and CI/CD pipelines
+
+*Tags: mcp, ai, developer, workflow, automation, security, integration, cloud*
+
+---
+
+### 355. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `innovation: 9` ★★☆ 🔵
+
+**A server-based platform for enabling LLMs to perform symbolic mathematics and complex algebra, enhancing AI-driven computation.**
+
+**Key Features:**
+- Symbolic manipulation of mathematical expressions
+- Integration with MCP (Model Context Protocol) for advanced algebra
+- Support for differential equations and general relativity calculations
+- Custom metric creation and tensor operations
+- LaTeX support for mathematical notation
+- Standalone executable server for on-demand computation
+
+*Tags: sympy-mcp, symbolic_math, ai_calculator, mcp_server, ai_development, code_simplification, mathematical_computation, education_tool*
+
+---
+
+### 356. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A robust, open-source FRED MCP Server enabling secure and efficient access to Federal Reserve Economic Data for analytical applications.**
+
+**Key Features:**
+- Secure API key integration for protected data access
+- Three powerful tools for browsing
+- searching
+- and retrieving economic time series
+- Support for custom transformations and date range filtering
+- Real-time updates and interactive visualization capabilities
+- Scalable architecture supporting enterprise-grade security
+
+*Tags: fred-mcp-server, federal reserve economic data, api integration, data access, secure development, developer tools, enterprise analytics, data visualization*
+
+---
+
+### 357. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**Ideogram MCP Server enables secure, context-aware image generation via the Model Context Protocol, integrating AI models with MCP clients for enterprise-grade workflow automation.**
+
+**Key Features:**
+- MCP Server Integration
+- AI-Powered Image Generation
+- Secure API Communication
+- Custom Prompt Handling
+- Scalable Deployment & CI/CD Support
+
+*Tags: ideogram, ai, mcp, image-generation, developer-tools, security, cloud, ai-integration*
+
+---
+
+### 358. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**SourceSage MCP Server is a context-aware, AI-powered platform that integrates advanced security features and developer tools to streamline software development workflows.**
+
+**Key Features:**
+- Markdown-based visualization of project directory structure
+- Automatic file content documentation with language-specific syntax highlighting
+- Flexible exclusion patterns via .SourceSageignore
+- Customizable file filtering and content generation
+- Integration with ES2022 and Node.js 16 modules
+- Secure development environment with enterprise-grade security features
+
+*Tags: source-sage, ai-powered-dev-tools, developer-workflow, security-focused, context-aware, automation, code-generation, mcp-server*
+
+---
+
+### 359. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `innovation: 9` ★★☆ 🔵
+
+**Connect Supabase projects to AI assistants via the Model Context Protocol (MCP) for seamless integration.**
+
+**Key Features:**
+- Connect Supabase to AI assistants like Claude and Windsurf
+- Manage prompts
+- code reviews
+- and workflows
+- Secure code as you build with enterprise-grade security
+- Automate workflows and deploy intelligent apps
+- Integrate external tools and manage CI/CD pipelines
+
+*Tags: supabase, ai-assistants, developer-tools, security, mcp, code-creation, ai-integration, enterprise-devops*
+
+---
+
+### 360. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `innovation: 9` ★★☆ 🔵
+
+**The MCP Solver is a Python-based tool that integrates multiple constraint solving techniques (MiniZinc, PySAT, Z3, ASP) with large language models via the Model Context Protocol. It supports advanced problem domains such as SAT, SMT, and ASP, allowing AI-driven interactive problem formulation and so**
+
+**Key Features:**
+- Constraint solving in MiniZinc
+- PySAT
+- Z3
+- and ASP
+- Integration with LLMs via Model Context Protocol
+- Support for SAT
+- SMT
+- and ASP problem types
+- Interactive problem formulation and solution generation
+- Model training and deployment capabilities
+- Customizable solver backends and configurations
+
+*Tags: AI integration, constraint solving, model context protocol, LLM interaction, software development, automation, code generation, enterprise ai*
+
+---
+
+### 361. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `innovation: 9` ★★☆ 🔵
+
+**A model context protocol-compliant server integrating Semgrep with AI assistants for advanced code analysis and security.**
+
+**Key Features:**
+- Model Context Protocol compliance
+- Integration with Semgrep static analysis tool
+- AI-assisted code review via Anthropic Claude
+- Automated vulnerability detection
+- Security rule customization
+- Live documentation and explanations
+
+*Tags: semgrep, code analysis, ai assistants, security, developer workflow, model context protocol, static analysis, continuous integration*
+
+---
+
+### 362. [tejpalvirk/contextmanager](https://github.com/tejpalvirk/contextmanager)  `innovation: 9` ★★☆ 🔵
+
+**A collection of Model Context Protocol (MCP) servers to enhance AI models with persistent context across work sessions.**
+
+**Key Features:**
+- Persistent context management across sessions
+- Unified access to domain-specific knowledge graphs
+- Cross-domain relationship creation and maintenance
+- Session-based state tracking and synchronization
+- Integrated priority and sequencing for complex workflows
+
+*Tags: contextmanager, ai, developer, mcp, context, persistence, ai-enhanced, workflow*
+
+---
+
+### 363. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A model context protocol (MCP) server and client for intelligent Spark code optimization.**
+
+**Key Features:**
+- Model Context Protocol (MCP) integration
+- AI-driven code optimization
+- Real-time performance analysis
+- Automated code transformation
+- Validation and reporting
+
+*Tags: model context protocol, spark optimization, ai integration, code analysis, performance tuning*
+
+---
+
+### 364. [xtellect/cactus](https://github.com/xtellect/cactus)  `innovation: 9` ★★☆ 🔵
+
+**A lightweight parallel recursion runtime for C that optimizes task distribution and load balancing across CPU cores.**
+
+**Key Features:**
+- Work-stealing parallelism with automatic load balancing
+- Fork-join parallelism with BEGIN/FORK/JOIN macros
+- Random-victim work stealing for efficient resource sharing
+- Continuation-passing model for seamless thread communication
+- Stack slab pooling for memory efficiency and performance
+- Direct register manipulation for low-overhead context switching
+- Compiler-agnostic support for GCC/Clang with C11
+
+*Tags: parallelism, work stealing, workers, runtime, optimization, cactus, performance, algorithm*
+
+---
+
+### 365. [z-libs/Zen-C](https://github.com/z-libs/Zen-C)  `innovation: 9` ★★☆ 🔵
+
+**Zen C offers a robust platform for building enterprise-grade applications with a focus on security, performance, and developer productivity. It provides a rich feature set including type inference, pattern matching, generics, traits, async/await, and manual memory management with RAII capabilities. **
+
+**Key Features:**
+- Type inference and static analysis
+- Pattern matching and functional programming constructs
+- Generics and traits for type-safe abstractions
+- Async/await support for non-blocking I/O
+- Manual memory management with RAII
+- Portable Executable (APE) support
+- Cross-platform compilation to multiple architectures
+- Integrated standard library with extensive functionality
+
+*Tags: systems programming, security, performance, developer productivity, cross-platform, static analysis, modern language, portability*
+
+---
+
+### 366. [zabaglione/mcp-server-unity](https://github.com/zabaglione/mcp-server-unity)  `innovation: 9` ★★☆ 🔵
+
+**The project provides a Model Context Protocol (MCP) server for Unity, allowing AI assistant Claude to seamlessly integrate with and manage Unity projects. It supports script creation, shader management, project organization, and real-time interaction within Unity environments. The solution enhances **
+
+**Key Features:**
+- Unity MCP Server integration
+- Natural language script creation
+- Shader management (e.g.
+- water effects)
+- Project organization tools
+- Automated build and deployment
+- Secure
+- isolated AI interaction
+
+*Tags: unity, mcp-server, ai-assistant, developer-tools, scripting, unity-api, code-generation, project-management*
+
+---
+
+### 367. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `innovation: 9` ★★☆ 🔵
+
+**A powerful Model Context Protocol server that enhances AI assistants' understanding of large Oracle databases by providing contextual schema information, enabling accurate and efficient database interactions.**
+
+**Key Features:**
+- Smart Schema Caching
+- Targeted Schema Lookup
+- Table Search
+- Relationship Mapping
+- Database Vendor Information
+- Oracle Database Support
+
+*Tags: oracle-mcp-server, ai-assistants, database-integration, contextual-data, developer-tools, model-understanding*
+
+---
+
+### 368. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `innovation: 9` ★★☆ 🔵
+
+**The ziyadmir/nba-player-stats-mcp project provides a robust Model Context Protocol (MCP) server that aggregates and delivers detailed NBA player statistics. It supports multiple layers of data, including career stats, season comparisons, advanced metrics, and more. The tool is designed for developer**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Comprehensive NBA player statistics
+- Career stats
+- season comparisons
+- advanced metrics
+- Player performance analysis tools
+- Historical data access and projections
+
+*Tags: basketball-reference, nba-stats, developer-tools, data-api, mcp-server, python-integration, analytics-platform, code-deployment*
+
+---
+
+### 369. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `innovation: 8.5` ★☆☆ 🔵
+
+**A tool designed to apply Claude Shannon-inspired problem-solving methodology for structured thinking and systematic problem resolution.**
+
+**Key Features:**
+- Claude Shannon-inspired problem breakdown
+- Structured thought process with problem definition
+- constraints
+- modeling
+- proof
+- implementation
+- Integration of theoretical and practical validation
+
+*Tags: software development, ai problem solving, security, systems thinking, code quality, devops, enterprise solutions, security engineering*
+
+---
+
+### 370. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `innovation: 8.5` ★☆☆ 🔵
+
+**The MCP-DBLP project provides a secure, cloud-based API that enables Large Language Models to access and utilize the DBLP computer science bibliography database. It supports advanced search capabilities, BibTeX generation, citation management, and integration with AI development workflows.**
+
+**Key Features:**
+- Model context protocol integration
+- DBLP bibliography access
+- BibTeX generation
+- Search and filtering tools
+- Code execution environment
+
+*Tags: ai, developer_tools, bibtex, search, integration, cloud, ai_models, code_execution*
+
+---
+
+### 371. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `innovation: 8.5` ★☆☆ 🔵
+
+**MCP-smallest-ai is a lightweight MCP server implementation that enables secure and standardized integration with Smallest.ai's knowledge base management system. It acts as a middleware layer between client applications and the Smallest.ai API, providing structured request handling, parameter validat**
+
+**Key Features:**
+- MCP Server Integration
+- Client Application Layer
+- API Communication Middleware
+- Error Handling & Validation
+- Knowledge Base Management Tools
+
+*Tags: mcp, ai, integration, security, developer, smallest.ai*
+
+---
+
+### 372. [zundamonnovrchatkaisetu/unity-mcp-ollama](https://github.com/zundamonnovrchatkaisetu/unity-mcp-ollama)  `innovation: 8.5` ★☆☆ 🔵
+
+**A Unity MCP package enabling local Large Language Model integration for automated Unity development workflows.**
+
+**Key Features:**
+- Asset Management
+- Scene Control
+- Material Editing
+- Script Integration
+- Automation
+- Editor Automation
+
+*Tags: unity-mcp, ollama, ai-integration, developer-tools, code-automation, local-lang-models, unity-devops*
+
+---
+
+### 373. [0xdwong/sui-mcp](https://github.com/0xdwong/sui-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The deanpluse/sui-mcp project is a TypeScript-based toolkit designed to enable developers to build and deploy applications on the Sui blockchain. It provides deep integration with Sui's Model Context Protocol (MCP), offering robust support for both testnet and devnet environments. The tool emphasize**
+
+**Key Features:**
+- Deep integration with Sui blockchain
+- Support for multiple network environments
+- TypeScript-based development
+- Code analysis and security tools
+- CI/CD automation
+
+*Tags: blockchain, smart contracts, developer tools, security, mcp, sui, ai development*
+
+---
+
+### 374. [0xhijo/mcp_twitter](https://github.com/0xhijo/mcp_twitter)  `innovation: 8` ★☆☆ 🔵
+
+**A TypeScript-based Model Context Protocol enabling AI applications to interact with Twitter/X securely and efficiently.**
+
+**Key Features:**
+- Create Twitter posts
+- Reply to specific tweets
+- Retrieve recent tweets
+- Manage user profiles
+- Fetch tweet history and replies
+- Follow users
+- Get user profile data
+- View account information
+
+*Tags: twitter, ai, developer, model_context, integration, security, cloud, automation*
+
+---
+
+### 375. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a lightweight MCP server designed to generate QR codes tailored for specific use cases. It supports customization of QR code styles, making it suitable for integration into various applications requiring secure and visually distinct QR codes.**
+
+**Key Features:**
+- Support custom QR code styles
+- Easy installation via Smithery
+- Automated build and deployment
+- Customizable parameters (text
+- size
+- color)
+
+*Tags: mcp, qrcode, developer, security, code-generation, customization, integration, ai*
+
+---
+
+### 376. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-1panel project provides a Model Context Protocol (MCP) server implementation tailored for 1Panel, facilitating secure and efficient communication between the platform and its backend services. It supports various integration modes including stdio and SSE, offering flexibility in deployment e**
+
+**Key Features:**
+- Model Context Protocol (MCP) server
+- Secure communication channels
+- Integration with 1Panel
+- Customizable configurations
+
+*Tags: mcp, mcp, 1panel, security, developer, integration, protocols, devops*
+
+---
+
+### 377. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The School MCP server enables seamless integration between academic platforms like Canvas and Gradescope, providing assignment deadlines, course materials, and automated reminders. It supports secure environment setup, configuration management, and workflow automation for educational institutions.**
+
+**Key Features:**
+- Integration with Canvas and Gradescope
+- Deadline fetching and calendar sync
+- File management and downloads
+- Environment setup and configuration
+- Automated reminders and notifications
+
+*Tags: mcp, canvas, gradescope, academic tools, integration, automation*
+
+---
+
+### 378. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP tool enabling AI to compress and decompress local files with advanced security and metadata support.**
+
+**Key Features:**
+- Compression and decompression of files and data
+- Parameter-controlled compression levels (0-9)
+- Password protection and encryption settings
+- Query function for compressed package metadata
+- Support for multi-file packaging
+- Integration with AI models via MCP protocol
+
+*Tags: zip-mcp, compression, ai, security, mcp, decompression, metadata, encryption*
+
+---
+
+### 379. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `innovation: 8` ★☆☆ 🔵
+
+**The LoCoDiff-bench repository provides a framework for evaluating Language Models (LLMs) on tasks requiring long-context understanding of code evolution, specifically mimicking the process of tracking changes across a Git history. It focuses on using naturally interconnected content derived from act**
+
+**Key Features:**
+- Natural Git history evaluation
+- No junk context methodology
+- Long-form output testing
+- Procedural benchmark generation from any Git repository
+- Simple prompt/output evaluation structure.
+
+*Tags: code reconstruction, long context evaluation, git history, llm benchmarking, state tracking, context utilization, code agent evaluation, natural context*
+
+---
+
+### 380. [BytexGrid/NeatShift](https://github.com/BytexGrid/NeatShift)  `innovation: 8` ★☆☆ 🔵
+
+**NeatShift is a Windows utility designed to solve a common problem: moving large applications, games, or folders to a different drive without breaking the shortcuts and application paths that depend on them. NeatShift provides a robust solution by relocating the folder and then creating a Symbolic Li**
+
+**Key Features:**
+- Relocate files and folders without breaking application paths. Smart Moving: Move files anywhere
+- and NeatShift creates symbolic links so everything still works. Double Safety: Choose between NeatSaves quick backup or system restore points - or use both! Looks Good
+- Feels Good: Modern Windows 11 style with both light and dark themes. Stay in Control: See and manage all of the symbolic links in one place.
+
+*Tags: ['Windows Utility', 'File Organization', 'Symbolic Links', 'SSD Optimization', 'Data Migration', 'Windows 11', 'File Explorer', 'Backup Strategy'*
+
+---
+
+### 381. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Borg project demonstrating MCP-based multi-functional server implementations for database search, GitHub search, and time management.**
+
+**Key Features:**
+- Database Search with natural language query support
+- GitHub Search for repositories
+- users
+- and issues
+- Time Management with current time and time zone conversion
+- Integration with MCP protocol for secure client-server communication
+
+*Tags: mcp-server, model context protocol, node.js, pnpm, git, cloud, security, developer-tools*
+
+---
+
+### 382. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-based MCP server enabling AI-driven Google News search with multilingual support and structured data output.**
+
+**Key Features:**
+- Automatic news categorization
+- Multi-language support
+- SerpAPI integration
+- Structured JSON output
+- AI-friendly API endpoints
+
+*Tags: context-engine, ai-search, multilingual, server-api, mcp-server, news-automation, structured-data, developer-tools*
+
+---
+
+### 383. [Edison-Watch/open-edison](https://github.com/Edison-Watch/open-edison)  `innovation: 8` ★☆☆ 🔵
+
+**OpenEdison is a solution designed to firewall data leakage by providing visibility into AI's interactions with your data/systems of record. It offers deterministic agentic control, structured execution controls, and powerful observability for AI agents. It integrates deeply with frameworks like Lang**
+
+**Key Features:**
+- Data leak monitoring
+- Controlled execution (to reduce exfiltration risks)
+- Visibility into agent interactions
+- Simple API for managing MCP servers
+- Docker support
+- Quick integration with LangGraph/Python agents.
+
+*Tags: ['Agentic AI', 'Data Security', 'AI Agents', 'Observability', 'Firewall', 'MCP Gateway', 'LangGraph Integration', 'Context Engineering'*
+
+---
+
+### 384. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive open-source platform for automated scientific research, integrating web search, document analysis, and LLM-powered tools to streamline research workflows.**
+
+**Key Features:**
+- Web search across multiple sources (arXiv
+- ACL Anthology
+- Hugging Face
+- etc.)
+- LLM-powered document understanding and QA
+- Token-based authentication for secure API access
+- Integration with Docker and CI/CD pipelines
+- LaTeX compilation and PDF generation
+- Code review and security scanning
+- Workflow automation and project management tools
+
+*Tags: software development, devops, security, ai, document analysis, research automation, web scraping, llm integration*
+
+---
+
+### 385. [Korfu/mcp-bitbucket](https://github.com/Korfu/mcp-bitbucket)  `innovation: 8` ★☆☆ 🔵
+
+**Integrates Bitbucket with Cursor IDE to enable seamless repository and commit data access for users without GitHub.**
+
+**Key Features:**
+- Fetch repositories from Bitbucket
+- View detailed repository information
+- Retrieve commit history and latest commit details
+- Manage branch restrictions
+- Access pull requests and project details
+- Integrate with Cursor IDE for enhanced development workflow
+
+*Tags: bitbucket-mcp, github-api, developer-tool, bitbucket-integration, code-management, ci/cd, security, ai-development*
+
+---
+
+### 386. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A TypeScript client library for integrating with Neemee MCP servers, enabling secure and efficient management of personal knowledge systems.**
+
+**Key Features:**
+- TypeScript support
+- HTTP/STDIO transport modes
+- API access to MCP tools and resources
+- Secure authentication and error handling
+
+*Tags: neemee-mcp, api-integration, developer-tools, security, context-aware*
+
+---
+
+### 387. [Roobyx/awesome-game-design](https://github.com/Roobyx/awesome-game-design)  `innovation: 8` ★☆☆ 🔵
+
+**This repository serves as a curated collection of resources for game design, spanning finished games, GDD templates, learning materials, and various tools. It includes classic titles like *Monaco*, *GTA*, *Diablo 1*, and *Deus Ex*, alongside foundational concepts from books like *The Door Problem* a**
+
+**Key Features:**
+- A curated collection of Game Design documents
+- templates
+- learning materials
+- and tools. Focus on bridging the gap between artistic vision (game design) and technical implementation (programming/tools).
+
+*Tags: ['GameDesign', 'GDDs', 'LearningMaterials', 'Postmortems', 'GameTools', 'ClassicGames', 'ProgrammingPatterns', 'GameDevelopment'*
+
+---
+
+### 388. [SembojaTech/mcp-postgres](https://github.com/SembojaTech/mcp-postgres)  `innovation: 8` ★☆☆ 🔵
+
+**The SembojaTech/mcp-postgres project provides a secure, read-only interface for interacting with PostgreSQL databases, allowing large language models to analyze database schemas and execute queries without modifying or altering the data. This supports advanced context-aware AI applications by offeri**
+
+**Key Features:**
+- Read-only access to PostgreSQL databases
+- Schema inspection for LLMs
+- Execute read-only SQL queries
+- Automatic database metadata discovery
+
+*Tags: postgresql, modelcontextprotocol, ai, developer, security, database, schema, query*
+
+---
+
+### 389. [XeroOl/mirin-template](https://github.com/XeroOl/mirin-template)  `innovation: 8` ★☆☆ 🔵
+
+**The Mirin Template is a fork of OpenITG designed to make it easier for mod file creators to implement their ideas. It provides functions that allow users to use NotITG to express their mod ideas and bring them to life in the game. The template is designed with a goal of avoiding unintuitive edge cas**
+
+**Key Features:**
+- Easy creation of modfiles using Lua. Powerful abstractions allowing users to create custom modifiers (e.g.
+- turn on invert ease {0
+- 1
+- outExpo
+- 100
+- 'invert'}). Optimized code execution. Theme independent design. Powerful system for custom modifiers.
+
+*Tags: lua, mod, stepmania, openitg, modding-framework*
+
+---
+
+### 390. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The a2xdeveloper/tagesschau-mcp-server is an MCP (Model Context Protocol) server designed to provide secure access to the latest news articles from the tagesschau website. It enables developers and organizations to fetch real-time news, retrieve detailed article information, and integrate this conte**
+
+**Key Features:**
+- Fetch latest news articles
+- Retrieve detailed article information
+- Integrate news data into applications
+
+*Tags: mcp-server, tagesschau, news-fetching, api-integration, web-development, content-delivery*
+
+---
+
+### 391. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `innovation: 8` ★☆☆ 🔵
+
+**A Python-based MCP server for searching and downloading academic papers from multiple sources, enabling seamless integration with LLMs.**
+
+**Key Features:**
+- Multi-source paper search (arXiv
+- PubMed
+- bioRxiv
+- etc.)
+- Asynchronous HTTP requests using httpx
+- Standardized output in dictionary format via Paper class
+- Support for LLM context enhancement with MCP clients like Claude Desktop
+- Extensible design for adding new academic platforms
+
+*Tags: mcp, paper-search-mcp, academic_papers, ai-integration, developer-tools, llm, research_platform, scientific_discovery*
+
+---
+
+### 392. [agent-kilo/jwno](https://github.com/agent-kilo/jwno)  `innovation: 8` ★☆☆ 🔵
+
+**Jwno is a tiling window manager for Windows 10/11. The development of Jwno has been moved to its Github repo since commit 91b1490e. Instead of the old Fossil repo, please follow the Github repo for updates.**
+
+**Key Features:**
+- Tiling window manager for Windows 10/11
+- built with Janet and ❤️.
+
+*Tags: ['windows', 'tiling window-manager', 'janet', 'window management', 'windows 10/11', 'agent orchestration', 'context engineering', 'workflow'*
+
+---
+
+### 393. [aleksey-saenko/MusicRecognizer](https://github.com/aleksey-saenko/MusicRecognizer)  `innovation: 8` ★☆☆ 🔵
+
+**This is an open-source Android application designed for music recognition. It integrates services like AudD, ACRCloud, and Shazam to accurately identify music tracks. The app offers features like one-click song recognition, saving recordings if no internet is available, customization options for rec**
+
+**Key Features:**
+- Song identification via integration of AudD
+- ACRCloud
+- and Shazam. One-click song recognition with options to save recordings if offline. Customizable failure behavior settings. Rich track information provided upon success (name
+- artist
+- album
+- year
+- artwork
+- links). Library management for tracks. Preferences customization. API key requirement for AudD.
+
+*Tags: Android, Music Recognition, Shazam, AudD, ACRCloud, Open Source, Song Identification, Offline Recognition*
+
+---
+
+### 394. [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Documentation Service enables AI-assisted management of documentation through natural language interactions.**
+
+**Key Features:**
+- Read and write markdown documents with frontmatter metadata
+- Edit documents with precise line-based changes
+- List and search documents by content or metadata
+- Generate navigation structures from documentation
+- Analyze documentation quality and identify issues
+- LLM-optimized documentation output for large language models
+
+*Tags: mcp-docs-service, documentation, ai-assist, document-management, ai-development, document-health, docs-service, ai-tools*
+
+---
+
+### 395. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server that enables querying of ATT&CK techniques and tactics for security analysis.**
+
+**Key Features:**
+- Query ATT&CK techniques by ID or name
+- Search with name or partial match
+- View detailed information including kill chain stages
+- mitigations
+- and references
+- List all ATT&CK tactics
+- Provide mitigation strategies for each technique
+
+*Tags: attack-mcp-server, attack-api, attack-detection, attack-mcp, security-tools, mitigation-strategy, attack-map, mcp-service*
+
+---
+
+### 396. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Windows Command Line MCP Server acts as a controlled bridge between AI models (like Claude) and Windows system operations. It provides enhanced security through comprehensive command allowlists, strict input validation, and configurable security levels. The server supports project creation for v**
+
+**Key Features:**
+- Secure bridge between AI models and Windows CLI
+- Safe command execution with predefined allowlists
+- Project creation for React
+- Node.js
+- Python
+- System information retrieval (info
+- network
+- processes)
+- Process management and service interaction
+- Integration with development tools and IDEs
+
+*Tags: windows-command-line, mcp-server, ai-integration, secure-devops, system-protocol, ai-development, cloud-integration, security-tools*
+
+---
+
+### 397. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server providing accurate Islamic prayer times for Malaysia via real-time API integration.**
+
+**Key Features:**
+- Location-based prayer time retrieval
+- Coordinate-based prayer time lookup
+- Zone code access (JAKIM)
+- Integration with Claude Desktop
+- API-driven schedule generation
+
+*Tags: context-engineer, api-integration, prayer-time, mcp-server, cloud-deployment, ai-assistant, security, developer-tools*
+
+---
+
+### 398. [andradehenrique/dokploy-mcp](https://github.com/andradehenrique/dokploy-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A tool-based platform for programmatic interaction with Dokploy server functionalities via the Model Context Protocol (MCP).**
+
+**Key Features:**
+- Expose Dokploy APIs as consumable tools via MCP
+- Support multiple transport modes (stdio
+- HTTP
+- SSE)
+- Provide flexible deployment options (Docker
+- Windows
+- etc.)
+- Enable secure and isolated client-server communication
+
+*Tags: dokploy, mcp, developer, integration, security, cloud, ai, devops*
+
+---
+
+### 399. [andybrandt/mcp-simple-timeserver](https://github.com/andybrandt/mcp-simple-timeserver)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server enabling Claude to access real-time time, holiday information, and date calculations across multiple regions.**
+
+**Key Features:**
+- Get current local time with timezone support
+- Check public and school holidays by country or city
+- Calculate time distance between dates (days
+- weeks
+- etc.)
+- Provide business-day counts excluding holidays
+- Integrate location-based time context
+
+*Tags: mcp, time, holidays, calendar, timezone, cloud, developer, security*
+
+---
+
+### 400. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `innovation: 8` ★☆☆ 🔵
+
+**The CutterMCP project provides a Model Context Protocol (MCP) server that allows large language models (LLMs) to interact with and analyze application binaries. It exposes various tools from Cutter functionality to MCP clients, facilitating reverse engineering, decompilation, and analysis of compile**
+
+**Key Features:**
+- MCP Server
+- Cutter Plugin Decompiler
+- Code Analysis Tools
+- Integration with Cutter
+- Automated Workflow Execution
+
+*Tags: mcp, cutter, decompile, analysis, code, security, developer, automation*
+
+---
+
+### 401. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**IoTDB MCP Server enables secure, scalable database interaction and business intelligence for IoT data using Apache IoTDB.**
+
+**Key Features:**
+- Database interaction via SQL queries
+- Support for Tree Model and Table Model dialects
+- Query execution with metadata and statistics
+- Data export to CSV or Excel
+- Schema exploration and table description
+- Performance optimizations including connection pooling and fetch size management
+
+*Tags: iotdb-mcp-server, apache, iotdb, mcp-server, database, sql, data-export, performance-optimization*
+
+---
+
+### 402. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `innovation: 8` ★☆☆ 🔵
+
+**A macOS application that manages Model Context Protocol (MCP) servers for Claude Desktop, enabling AI-driven interaction with construction documents.**
+
+**Key Features:**
+- MCP server management
+- AI-powered document analysis
+- Visual and vector-based search
+- Secure local processing
+- Integration with Claude Desktop
+
+*Tags: construction, ai, document, cloud, developer*
+
+---
+
+### 403. [arjunkmrm/perplexity-search](https://github.com/arjunkmrm/perplexity-search)  `innovation: 8` ★☆☆ 🔵
+
+**The arjunkmrm/perplexity-search project implements a Model Context Protocol (MCP) server that integrates Perplexity's search API, allowing AI tools to retrieve relevant information from the web. It supports filtering results by recency and provides structured output suitable for integration into int**
+
+**Key Features:**
+- Model Context Protocol server
+- Perplexity API integration
+- Search results filtering (by recency)
+- Context-aware search results
+
+*Tags: model context protocol, search integration, ai assistants, perplexity, web search, contextual data, developer tools, search engine*
+
+---
+
+### 404. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `innovation: 8` ★☆☆ 🔵
+
+**The figma-mcp-pro project integrates AI-driven analysis of Figma designs to extract structured data, including layout, styling, and component information. It supports multiple frameworks (React, Vue, Angular, Svelte, etc.) and enables developers to convert design assets into code with smart comment **
+
+**Key Features:**
+- AI-optimized design-to-code conversion
+- Framework-specific data extraction
+- Smart comment-to-element mapping
+- Asset batch downloads
+- Reference image analysis
+- Responsive layout processing
+- Customizable configuration files
+
+*Tags: figma, ai, developer, code, figma, mcp-pro, automation, integration*
+
+---
+
+### 405. [askme765cs/open-docs-mcp](https://github.com/askme765cs/open-docs-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a web-based platform for managing and indexing documentation from various sources. It supports multiple document formats, enables full-text search, and integrates with the MCP protocol to provide AI context for document management. The tool offers features such as crawling, re-i**
+
+**Key Features:**
+- Document indexing
+- Full-text search capabilities
+- Resource-based access
+- Tool-based document management
+- Custom docs management via enable_doc tool
+
+*Tags: mcp, document-management, ai, developer-tools, search, integration*
+
+---
+
+### 406. [asyncfuncai/github-chat-mcp](https://github.com/asyncfuncai/github-chat-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol for analyzing and querying GitHub repositories using the GitHub Chat API.**
+
+**Key Features:**
+- Repository Indexing
+- Repository Querying
+
+*Tags: github-chat-mcp, model-context-protocol, github-api, code-analysis, ai-development*
+
+---
+
+### 407. [athapong/argus](https://github.com/athapong/argus)  `innovation: 8` ★☆☆ 🔵
+
+**The athapong/argus project offers a powerful MCP tool designed to analyze code repositories, detect vulnerabilities, assess code quality, and provide comprehensive security reports. It supports multiple programming languages and integrates with various tools for seamless workflow automation.**
+
+**Key Features:**
+- multi-language support
+- security scanning
+- code quality analysis
+- commit history analysis
+- branch enumeration
+- diff comparisons
+- repository visualization
+
+*Tags: gitlab, security, developer, mcp, codebase, analysis, automation, enterprise*
+
+---
+
+### 408. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a MCP (Model Context Protocol) server to integrate with the Tesouro Direto API, allowing users to query market data and bond details using everyday language. It supports features like market data retrieval, bond information access, smart caching for performance, and integratio**
+
+**Key Features:**
+- Natural language query support
+- Smart caching mechanism
+- API integration with Tesouro Direto
+- Market data retrieval
+- Bond details and search functionality
+
+*Tags: mcp, treasury-bonds, bond-data, api-integration, market-data, natural-language-query, financial-analysis, data-caching*
+
+---
+
+### 409. [auto-browse/unbundle_openapi_mcp](https://github.com/auto-browse/unbundle_openapi_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for programmatically splitting and extracting OpenAPI specifications into smaller files, enabling modular development and maintenance.**
+
+**Key Features:**
+- Unbundle large OpenAPI specs
+- Extract specific endpoints
+- Split OpenAPI definitions
+- Generate smaller
+- focused OpenAPI files
+
+*Tags: openapi, unbundle, mcp, developer-tools, code-generation*
+
+---
+
+### 410. [awslabs/mcp](https://github.com/awslabs/mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A suite of specialized MCP servers for AWS to enhance AI applications with contextual data and best practices.**
+
+**Key Features:**
+- Improved output quality through context integration
+- Access to the latest documentation and API references
+- Automation of common workflows
+- Secure
+- auditable interactions with AWS services
+
+*Tags: mcp, awslabs, developer-tools, ai-integration, cloud-native, api-support, security, documentation*
+
+---
+
+### 411. [axiomhq/mcp-server-axiom](https://github.com/axiomhq/mcp-server-axiom)  `innovation: 8` ★☆☆ 🔵
+
+**The Axiom Model Context Protocol Server is a tool designed for modern AI applications, allowing developers to interact with Axiom datasets through the Axiom Processing Language (APL). It supports key operations such as executing APL queries, listing datasets, and monitoring configurations. This proj**
+
+**Key Features:**
+- Model Context Protocol Server
+- APL query execution
+- Dataset management
+- Monitoring configurations
+- Secure token-based authentication
+
+*Tags: ai, developer, security, mcp, apl, integration, enterprise*
+
+---
+
+### 412. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `innovation: 8` ★☆☆ 🔵
+
+**A context protocol server enabling integration with Mochow and supporting advanced AI model interactions.**
+
+**Key Features:**
+- MCP Server for accessing Baidu Cloud Vector Database
+- Supports multiple AI models via Context Protocol
+- Integration with Claude Desktop and Cursor
+- Secure API key management
+- Database operations including list
+- describe
+- create
+- delete
+- etc.
+
+*Tags: ai, mcp, context-protocol, cloud-integration, developer-tools, ai-server, model-integration, baidu-vector*
+
+---
+
+### 413. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A context-aware MCP implementation integrating Gemini for analytical thinking and problem-solving.**
+
+**Key Features:**
+- Gemini-powered thinking
+- Thought branching
+- Session persistence
+- Advanced filtering
+
+*Tags: gemini-thinking, context-engine, ai-analytics, developer-tools, security-integration*
+
+---
+
+### 414. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `innovation: 8` ★☆☆ 🔵
+
+**MCPRules is an MCP server designed to enforce and serve programming guidelines across development projects. It integrates with various development tools, ensuring uniform coding standards and facilitating seamless collaboration among developers.**
+
+**Key Features:**
+- Rule Management
+- Rule Filtering by Category
+- Markdown-based Rule Definitions
+- Local and GitHub Repository Support
+- Integration with IDEs like VSCode
+- Rule Export and Configuration
+
+*Tags: mcprules, code-creation, developer-workflow, security, ai-development, enterprise-solutions, software-development, devops*
+
+---
+
+### 415. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP (Model Context Protocol) server enables programmatic search and retrieval of detailed information about museum objects from the Cooper Hewitt Museum's collection API. It supports advanced search capabilities, object details retrieval, and integration with external tools for enhanced data man**
+
+**Key Features:**
+- Search objects in the Cooper Hewitt collection
+- Retrieve detailed information about museum objects
+- Integrate with external tools and APIs
+- Support for automated workflows and code execution
+
+*Tags: mcp, api-integration, software-development, data-management, web-api, developer-tools, code-execution, api-security*
+
+---
+
+### 416. [bengineer19/digikey_mcp](https://github.com/bengineer19/digikey_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server for DigiKey's Product Search API, enabling secure and efficient integration with DigiKey's product data.**
+
+**Key Features:**
+- MCP Server Integration
+- Product Search API Access
+- Secure Authentication
+- Customizable Commands
+
+*Tags: digikey, digikey_mcp, api_integration, developer_tools, security*
+
+---
+
+### 417. [berlinbra/binary-reader-mcp](https://github.com/berlinbra/binary-reader-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The berlinbra/binary-reader-mcp project provides a Model Context Protocol server that enables developers to read and analyze various binary file formats, including Unreal Engine asset files (.uasset) and generic binary files. It offers tools for extracting metadata, auto-detecting file formats, and **
+
+**Key Features:**
+- Read Unreal Engine asset files
+- Read generic binary files
+- Extract binary file metadata
+- Auto-detect file formats
+- Support extensibility for new formats
+
+*Tags: binary-reader, unreal-engine, mcp, developer-tools, code-analysis, security, ai-integration, enterprise-devops*
+
+---
+
+### 418. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**Borg intelligence database server enabling seamless access to IGDB API for AI assistants.**
+
+**Key Features:**
+- IGDB API access via Model Context Protocol
+- Game metadata retrieval (titles
+- descriptions
+- ratings)
+- Trending and popular game discovery
+- Custom query support with flexible search syntax
+- Integration with AI assistants for intelligent queries
+
+*Tags: igdb-mcp-server, ai-assistants, game-api, digital-documentation, developer-tools, mcp-protocol, game-discovery, api-integration*
+
+---
+
+### 419. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Bigsy/Clojars-MCP-Server is a lightweight MCP server designed to provide developers with tools to query and manage dependencies from the Clojure community's artifact repository, Clojars. It enables seamless integration with Claude Desktop for dependency management, offering features such as retr**
+
+**Key Features:**
+- Get the latest version of a Clojars dependency
+- Check if a specific version of a dependency exists
+- View version history with configurable limits
+- Integrate with Claude Desktop for easy dependency management
+
+*Tags: clojars, mcp-server, dependency-management, code-integration, developer-tools, ai-assistance, security, coding-support*
+
+---
+
+### 420. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Bigsy/shadow-cljs-mcp project implements a Model Context Protocol (MCP) server to provide real-time monitoring, status updates, and build tracking for shadow-cljs ClojureScript projects. This tool integrates with LLMs to verify build success after modifications, ensuring code quality and reliabi**
+
+**Key Features:**
+- Model Context Protocol server
+- Build status tracking
+- Real-time updates
+- Code verification integration
+
+*Tags: model context protocol, shadow-cljs, build monitoring, code verification, devops*
+
+---
+
+### 421. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Cloudflare Worker that provides code explanation and context for developers.**
+
+**Key Features:**
+- Code Explainer
+- Architecture Visualization
+- Multi-language Support
+- Secure API with Bearer Token
+
+*Tags: cloudflare-worker, code-explainer-mcp, developer-tools, api-security, multi-language-support, ascii-diagram, pattern-recognition, documentation-extraction*
+
+---
+
+### 422. [blazickjp/shell-mcp-server](https://github.com/blazickjp/shell-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Shell MCP Server is a secure shell command execution tool designed specifically for the Model Context Protocol (MCP). It allows developers to run commands only in designated directories, enhancing security by isolating operations and preventing unauthorized access. This feature is particularly u**
+
+**Key Features:**
+- Secure shell execution within specified directories
+- Multiple shell support (bash
+- sh
+- cmd
+- powershell)
+- Timeout control for command execution
+- Cross-platform compatibility (Unix and Windows)
+- Directory and shell validation to prevent traversal attacks
+
+*Tags: shell-mcp-server, secure-shell-execution, ai-development, mcp-integration, code-security, developer-tools, ai-services, security-features*
+
+---
+
+### 423. [block/square-mcp](https://github.com/block/square-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The repository provides a GitHub-hosted MCP (Model Context Protocol) server, enabling developers to securely interact with the Square API. It includes setup instructions, environment configuration, and code examples for integrating MCP into applications. The project emphasizes security, offering fea**
+
+**Key Features:**
+- Square Model Context Protocol Server
+- API access via MCP
+- Environment setup and configuration
+- Security token management
+- Migration to new server version
+
+*Tags: mcp, security, integration, developer, cloud, server*
+
+---
+
+### 424. [bmaltais/kohya_ss](https://github.com/bmaltais/kohya_ss)  `innovation: 8` ★☆☆ 🔵
+
+**Stable Diffusion training empowers users to customize image generation models by fine-tuning existing models, creating unique artistic styles, and training specialized models like LoRA (Low-Rank Adaptation). Key features of this GUI include: Easy-to-use interface for setting a wide range of training**
+
+**Key Features:**
+- The project provides a user-friendly Graphical User Interface (GUI) and Command Line Interface (CLI) for training diffusion models. Key features include: A user-friendly Gradio-based interface for setting training parameters
+- automatic generation of necessary CLI commands
+- support for various training methods (LoRA
+- Dreambooth
+- fine-tuning
+- SDXL)
+- and cross-platform support (Linux/macOS). It offers options for local installation or cloud deployment via Colab/Runpod.
+
+*Tags: kohya_gui, stable_diffusion, lo_ra, gui, training, gpu, ai_agents, diffusion_models*
+
+---
+
+### 425. [bsmi021/mcp-file-context-server](https://github.com/bsmi021/mcp-file-context-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling LLMs to access and analyze code files with advanced caching and real-time monitoring.**
+
+**Key Features:**
+- File operations
+- Real-time file watching
+- Advanced caching
+- Code analysis
+- Quality metrics
+
+*Tags: modelcontextprotocol, filecontextserver, llm-integration, codeanalysis, security, developertools, fileoperations, cachingstrategy*
+
+---
+
+### 426. [bsmi021/mcp-node-omnibus-server](https://github.com/bsmi021/mcp-node-omnibus-server)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive Model Context Protocol (MCP) server offering advanced Node.js development tooling and automation.**
+
+**Key Features:**
+- Project Management
+- Project Creation
+- TypeScript Integration
+- Component Generation
+- Configuration Management
+- AI-Powered Assistance
+- Code Analysis & Improvements
+- Documentation Generation
+
+*Tags: modelcontextprotocol, developer-tools, ai-assistance, mcp-server, devops, enterprise*
+
+---
+
+### 427. [bsmi021/mcp-task-manager-server](https://github.com/bsmi021/mcp-task-manager-server)  `innovation: 8` ★☆☆ 🔵
+
+**A local Model Context Protocol (MCP) server enabling client-driven project and task management with SQLite persistence.**
+
+**Key Features:**
+- Project-based task organization
+- SQLite database for data persistence
+- MCP protocol compliance
+- Client-driven workflow tools
+- Task creation
+- listing
+- updating
+- and subtask expansion
+
+*Tags: taskmanager, mcp, sqlite, projectmanagement, developertools, datapersistence, clientdriven, automation*
+
+---
+
+### 428. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Cursor-MCP is an open-source project that provides a model context protocol (MCP) implementation, allowing developers to integrate Claude's AI capabilities directly into their desktop software workflows. It supports real-time AI assistance, context-aware code suggestions, and automation for enhanced**
+
+**Key Features:**
+- Real-time AI assistance in development
+- Context-aware code completions
+- Desktop integration with Claude AI
+- Automation of development workflows
+- Environment configuration via .env file
+
+*Tags: ai, developer, cloud, ai-tools, code-assist, desktop-integration, mcp, cursor*
+
+---
+
+### 429. [buhe/mcp_rss](https://github.com/buhe/mcp_rss)  `innovation: 8` ★☆☆ 🔵
+
+**MCP RSS enables secure and efficient interaction with RSS feeds using a Model Context Protocol.**
+
+**Key Features:**
+- Parse OPML files
+- Automatically fetch RSS updates
+- Mark articles as favorites
+- Filter articles by source and status
+
+*Tags: opml, rss, developer-tools, security, integration, automation, code, devops*
+
+---
+
+### 430. [callebtc/bitchat-android](https://github.com/callebtc/bitchat-android)  `innovation: 8` ★☆☆ 🔵
+
+**Bitchat for Android is a secure, decentralized, peer-to-peer messaging app that works over Bluetooth mesh networks. It offers encrypted communication with a focus on privacy and cross-platform compatibility.**
+
+**Key Features:**
+- Cross-Platform Compatible (iOS compatibility)
+- Decentralized Mesh Network (Bluetooth LE for peer discovery)
+- End-to-End Encryption (X25519 key exchange + AES-256-GCM)
+- Channel-Based Chats (topic-based group messaging with optional password protection)
+- Store & Forward (message caching for offline peers)
+- IRC-Style Commands (/join
+- /msg
+- /who)
+- Emergency Wipe (triple-tap logo to clear data)
+- Modern Android UI (Jetpack Compose with Material Design 3)
+- Dark/Light Themes
+- Battery Optimization (adaptive scanning).
+
+*Tags: bluetooth mesh chat, p2p messaging, end-to-end encryption, decentralized communication, android app, cross-platform compatibility, privacy focus, irc style chat*
+
+---
+
+### 431. [cappahccino/sb-mcp](https://github.com/cappahccino/sb-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server enabling secure, isolated database interactions for AI models like Claude.**
+
+**Key Features:**
+- Database CRUD operations via MCP
+- Secure integration with Supabase Postgres
+- Support for edge functions and CLI tools
+- Environment configuration and deployment options
+
+*Tags: supabase, mcp, ai, developer, security, cloud*
+
+---
+
+### 432. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Node.js-based Model Context Protocol implementation for MobSF security analysis.**
+
+**Key Features:**
+- MobSF MCP integration
+- Automated security scanning
+- API-driven analysis endpoints
+- Report generation and visualization
+- Integration with third-party tools
+
+*Tags: mobsf-mcp, security-analysis, automated-security, mobile-devops, api-integration, continuous-analysis*
+
+---
+
+### 433. [cdmx-in/authentik-mcp](https://github.com/cdmx-in/authentik-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive GitHub repository providing MCP server implementations for Authentik API integration, including diagnostic, monitoring, and management tools.**
+
+**Key Features:**
+- Full-featured MCP servers (Python
+- Node.js)
+- Diagnostic and monitoring capabilities
+- User and group management
+- Application and flow configuration
+- System health and security monitoring
+- Audit trail and compliance reporting
+
+*Tags: mcp, authentik, developer, security, devops, ai, enterprise*
+
+---
+
+### 434. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Image-MCP Server processes image URLs or local file paths to provide detailed analysis using the GPT-4o-mini model. It supports image validity checks, loading from local files, and Base64 encoding. The project integrates with enterprise security tools and offers features like code review, workfl**
+
+**Key Features:**
+- Image URL analysis
+- Local file path analysis
+- OpenAI API integration
+- Security and quality monitoring
+- Code review and management
+- Workflow automation
+
+*Tags: image-analysis, gpt4o-mini, openai-api, security, developer-tools, code-review, workflow-automation, enterprise-security*
+
+---
+
+### 435. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP-Server-Azure-Impact-Reporting project provides a Python-based solution that integrates with Azure's Model Context Protocol (MCP) to automatically parse user requests and generate impact reports for Azure resources. It supports various impact categories such as connectivity, performance, avai**
+
+**Key Features:**
+- Natural language impact reporting
+- Automatic Azure resource parsing
+- Support for multiple impact categories
+- Integration with Azure Management API
+- CLI and GUI support
+
+*Tags: mcp, azure, impact-reporting, ai, developer-tools*
+
+---
+
+### 436. [chatmol/molecule-mcp](https://github.com/chatmol/molecule-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Molecule-MCP is a platform that integrates molecular science tools with Claude AI via the Model Context Protocol (MCP), allowing developers to interact directly with scientific software as a co-scientist. It supports automated workflows, secure code management, and enterprise-grade security features**
+
+**Key Features:**
+- Model-context-protocol integration
+- AI-assisted molecule modeling
+- Secure code deployment
+- Automated workflows
+- Enterprise security
+
+*Tags: molecule-mcp, ai-integration, developer-tool, secure-devops, enterprise-solution, code-automation, model-context, ai-development*
+
+---
+
+### 437. [chris-schra/mcp-funnel](https://github.com/chris-schra/mcp-funnel)  `innovation: 8` ★☆☆ 🔵
+
+**A specialized proxy that performs "tree-shaking" on MCP servers to filter out unused tools and significantly reduce context token consumption.**
+
+**Key Features:**
+- Wildcard tool filtering (tree-shaking)
+- 40-60% context reduction
+- multi-server aggregation
+- developer-centric proxy.
+
+*Tags: mcp, proxy, optimization, context-window, efficiency*
+
+---
+
+### 438. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server for managing Keycloak users and realms with AI-powered automation.**
+
+**Key Features:**
+- AI-powered administration of Keycloak users and realms
+- Integration with Claude Desktop and other MCP clients
+- Automated user operations via Model Context Protocol
+
+*Tags: keycloak, modelcontextprotocol, ai-administration, keycloak-api, developer-tools*
+
+---
+
+### 439. [clouatre-labs/math-mcp-learning-server](https://github.com/clouatre-labs/math-mcp-learning-server)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-hosted educational mathematics server with interactive tools for math operations, matrix algebra, visualization, and persistent workspace.**
+
+**Key Features:**
+- math operations
+- matrix algebra
+- data visualization
+- persistent workspace
+
+*Tags: math, mcp, education, developer, visualization, persistence, code, learning*
+
+---
+
+### 440. [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)  `innovation: 8` ★☆☆ 🔵
+
+**GitHub - cloudflare/workers-sdk: ⛅️ Home to Wrangler, the CLI for Cloudflare Workers® · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or wi**
+
+**Key Features:**
+- Cloudflare Workers SDK
+- Wrangler (CLI for Cloudflare Workers)
+- Create-Cloudflare (C3) CLI for creating and deploying new applications
+- Miniflare simulator for development/testing
+- Chrome DevTools fork for inspecting Workers pages.
+
+*Tags: ['cloudflare', 'workers', 'cli', 'serverless', 'developer-tools', 'web-development', 'cloudflare workers'], cloud*
+
+---
+
+### 441. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Hermes Search MCP enables secure, type-safe full-text and semantic search over Azure Cognitive Search.**
+
+**Key Features:**
+- Full-text and semantic search capabilities
+- Type-safe operations with TypeScript
+- Integration with Azure Cognitive Search
+- Support for structured and unstructured data indexing
+
+*Tags: hermes-search-mcp, azure-cognitive-search, type-safe-operations, model-context-protocol, developer-tools, search-engine-integration*
+
+---
+
+### 442. [colygon/zkpmcp](https://github.com/colygon/zkpmcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a comprehensive platform for developing, testing, and deploying zero-knowledge proof circuits. It supports the entire lifecycle of MCP (Mutual Key Proof) protocols, including trusted setup, circuit generation, proof generation, and verification. This enables secure applications **
+
+**Key Features:**
+- Build circuits from Circom files
+- Perform trusted setup for circuits
+- Generate proofs for circuits
+- Verify proofs
+
+*Tags: zkpmcp, zero-knowledge, circom, mcp, privacy-preserving, secure computation, decentralized identity, ai-driven security*
+
+---
+
+### 443. [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Model Context Protocol (MCP) implementation for Opik, enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics.**
+
+**Key Features:**
+- Prompt lifecycle management
+- Workspace
+- project
+- and trace exploration
+- Metrics and dataset operations
+- MCP resources and resource templates for metadata-aware flows
+
+*Tags: opik, mcp, ai, developer-tools, integration, prompting, opik-server, ai-development*
+
+---
+
+### 444. [configcat/mcp-server](https://github.com/configcat/mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling secure, isolated management of ConfigCat's feature flags and configurations.**
+
+**Key Features:**
+- Feature Flags Management
+- Environment Configuration
+- Integration Support
+- Audit Logging
+
+*Tags: configcat, feature-flags, integration, audit, security, developer-tools, configuration, management*
+
+---
+
+### 445. [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A remote MCP server providing structured access to scientific paper data for AI-driven research and analysis.**
+
+**Key Features:**
+- Remote connection via SSE or Streamable HTTP
+- Search papers with detailed experimental data
+- Structured results including methods
+- results
+- quality scores
+- and metadata
+
+*Tags: mcp, ai, science, paper, analysis, developer*
+
+---
+
+### 446. [crazyrabbitltc/mcp-morpho-server](https://github.com/crazyrabbitltc/mcp-morpho-server)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-morpho-server is a TypeScript-based project that implements a Model Context Protocol (MCP) server, allowing seamless integration with Morpho's market data APIs. It supports querying markets, vaults, positions, and historical APY data while ensuring type safety and error handling through Zod **
+
+**Key Features:**
+- morpho api integration
+- market data retrieval
+- vault management
+- historical apy data
+- schema validation
+
+*Tags: mcp-morpho-server, graphql, api-integration, market-data, schema-validation, type-safe, developer-tools, api-client*
+
+---
+
+### 447. [creis-ai/mcp-property-valuation-server](https://github.com/creis-ai/mcp-property-valuation-server)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Property Valuation Server provides AI-driven property valuation and small district evaluation for real estate transactions.**
+
+**Key Features:**
+- Multi-dimensional small district rating system
+- Precise property valuation with detailed analysis
+- Secure data handling via APPID authentication
+- Standardized Markdown output format
+
+*Tags: property valuation, ai, real estate, data security, mcp, small area analysis*
+
+---
+
+### 448. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `innovation: 8` ★☆☆ 🔵
+
+**mcp-repo2llm is designed to bridge the gap between traditional code repositories and modern AI language models. It addresses challenges such as processing large codebases efficiently, preserving contextual information, supporting multiple programming languages, enhancing metadata, and optimizing res**
+
+**Key Features:**
+- Smart Repository Scanning
+- Context Preservation
+- Multi-language Support
+- Metadata Enhancement
+- Efficient Processing
+
+*Tags: mcp-repo2llm, ai, code, llm, developer, security, repository, codebase*
+
+---
+
+### 449. [cuongpo/coti-mcp](https://github.com/cuongpo/coti-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A blockchain-based platform enabling secure AI interactions with the COTI blockchain using Multi-Party Computation.**
+
+**Key Features:**
+- Account management and switching between networks
+- Private ERC20 token operations
+- Private ERC721 NFT operations
+- Transaction management and privacy features
+- Secure key generation and encryption
+
+*Tags: ai, blockchain, security, developer_tools, smart_contracts, private_tokens, encryption, multi-party_computation*
+
+---
+
+### 450. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The toolkit-mcp-server is a Model Context Protocol server designed to enhance AI agents by integrating essential system utilities such as IP geolocation, network diagnostics, system monitoring, cryptographic operations, and QR code generation. It supports LLM agents in various environments by offeri**
+
+**Key Features:**
+- IP geolocation
+- network diagnostics
+- system monitoring
+- cryptographic operations
+- qr code generation
+
+*Tags: model-context-protocol, ai-agents, system-utilities, security-tools, network-monitoring, developer-tools*
+
+---
+
+### 451. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server project provides a robust, Go-based implementation of the Model Context Protocol (MCP) server. It emphasizes security by restricting file access to specific directories through configurable path restrictions. This ensures that only authorized operations are permitted, enhancing the ov**
+
+**Key Features:**
+- Path restriction system for file operations
+- Configurable allowed and denied paths
+- Secure execution of shell commands
+- Integration with Go tools and utilities
+
+*Tags: mcp-server, security, go, developer-tool, server-api*
+
+---
+
+### 452. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The damus-io/nostrdb-mcp project provides a Model Context Protocol server that allows natural language processing models to interact with the ndb command-line tool. This facilitates integration of LLMs with database operations, enhancing automation and data querying capabilities within applications.**
+
+**Key Features:**
+- Model Context Protocol server
+- Integration with ndb
+- LLM-enabled database queries
+
+*Tags: ndb, model context protocol, llm integration, database automation, api development, developer tools, code execution, ai applications*
+
+---
+
+### 453. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `innovation: 8` ★☆☆ 🔵
+
+**The dandeliongold/mcp-decent-sampler-drums project provides a TypeScript-based MCP server designed to simplify the creation of drum kit presets. It offers tools for analyzing WAV files, validating samples, and generating XML configurations for DecentSampler formats. The platform supports multi-mic r**
+
+**Key Features:**
+- WAV file analysis and validation
+- Global pitch and envelope controls
+- Multi-mic routing with MIDI controls
+- Flexible velocity layer handling
+- Muting group support
+- Auxiliary output routing
+- Documentation and developer tools
+
+*Tags: mcp, decent-sampler, drumkit, sampler, audioanalysis, developertools, cloudserver, mcp-api*
+
+---
+
+### 454. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling developers to generate realistic human faces with customizable shapes, sizes, and appearances.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Customizable face generation with various shapes and sizes
+- Support for image output in multiple formats
+- Integration with VS Code via Cline extension
+- Automated build and deployment workflows
+
+*Tags: mcp, face-generator, ai, developer-tools, code-generation, visualization, generative-ai, web-dev*
+
+---
+
+### 455. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg project presents a comprehensive developer platform designed to enhance modern software engineering practices. It integrates advanced AI capabilities such as code generation, intelligent code review, and automated workflow management, all while emphasizing security through enterprise-grade **
+
+**Key Features:**
+- AI-powered code generation
+- Automated code review
+- Workflow automation
+- Secure development environment
+- Integration with external tools
+
+*Tags: developer-tools, ai-integration, security, code-generation, workflow-automation, enterprise-dev, ci-dev, security-features*
+
+---
+
+### 456. [davidorex/git-forensics-mcp](https://github.com/davidorex/git-forensics-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A specialized MCP server for in-depth git repository analysis, focusing on branch relationships, commit patterns, and development insights.**
+
+**Key Features:**
+- Branch Overview
+- Time Period Analysis
+- File Changes Analysis
+- Merge Recommendations
+
+*Tags: git-forensics, mcp, git-repository, repository-analysis, code-insights, security, developer-tools, code-review*
+
+---
+
+### 457. [dazeb/mcp-github-mapper](https://github.com/dazeb/mcp-github-mapper)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for mapping and analyzing GitHub repositories to provide detailed insights and structure information.**
+
+**Key Features:**
+- Map GitHub repositories remotely
+- Retrieve repository summary statistics
+- Analyze repository structure
+- Provide detailed repository file structure
+
+*Tags: github-mapper, mcp-server, code-analysis, repository-mapping, developer-tools*
+
+---
+
+### 458. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `innovation: 8` ★☆☆ 🔵
+
+**The dcSpark/mcp-server-jupiter project provides a Model Context Protocol (MCP) server that allows AI models like Claude to access and perform blockchain operations such as retrieving quotes, building and sending swap transactions on the Solana blockchain. It supports integration with external tools,**
+
+**Key Features:**
+- MCP server integration
+- Claude AI model access
+- Swap transaction building/sending
+- Node.js installation
+- Secure development environment
+- Code review and management
+- Automation of workflows
+
+*Tags: ai, blockchain, cloud, developer, security, mcp, solana*
+
+---
+
+### 459. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Codebase MCP server enables AI agents to analyze entire codebases at once, improving context understanding and facilitating efficient code comprehension. It supports remote repository processing, file saving, customizable analysis options, and integration with development tools like Cursor's Com**
+
+**Key Features:**
+- Codebase retrieval in multiple formats
+- Remote repository support
+- Customizable analysis options
+- Integration with AI assistants
+- File saving and preservation
+
+*Tags: codebase-mcp, ai-agents, developer-tools, security, github-integration, code-analysis, ai-assistants*
+
+---
+
+### 460. [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides documentation for 'Cherry Studio,' which is described as a powerful desktop AI assistant. The integration suggests that Cherry Studio connects with the Deepseek API, highlighting its role in agent orchestration and workflow capabilities.**
+
+**Key Features:**
+- Desktop AI assistant functionality
+- Integration with Deepseek API
+- Clear demonstration of an AI tool/agent framework.
+
+*Tags: ['AI Agents', 'Deepseek API', 'Context Engineering', 'Agent Orchestration', 'Desktop AI', 'Developer Tools', 'Workflow', 'Integration']*
+
+---
+
+### 461. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server that integrates with Postman to provide structured access and management of API collections, environments, and APIs.**
+
+**Key Features:**
+- Collection CRUD operations
+- Folder and request management
+- Environment setup and management
+- API key authentication
+- Version control and collaboration features
+- Webhooks and monitoring integration
+
+*Tags: postman-mcp-server, api-management, developer-tool, ai-integration, postman-api-server, mcp-integration, cloud-deployment, security-features*
+
+---
+
+### 462. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a stateless MCP server using Deno, enabling scalable and robust access to blockchain data via the Model Context Protocol. It supports various tools for querying chains, protocols, tokens, pools, and user assets, with features like pagination, error handling, and comprehensive **
+
+**Key Features:**
+- Stateless architecture
+- Comprehensive DeFi data tools
+- Pagination support
+- Robust error handling
+- Tool integration for blockchain queries
+
+*Tags: deno, modelcontextprotocol, debank, blockchain, developertools*
+
+---
+
+### 463. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server for comprehensive domain analysis including WHOIS, DNS records, and DNS health checks.**
+
+**Key Features:**
+- WHOIS lookup
+- DNS record queries
+- DNS health checking
+- Comprehensive domain assessment
+- API integration with MCP protocol
+
+*Tags: domain-tools, whois, dns, mcp-server, security, developer*
+
+---
+
+### 464. [devhub/devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Integration of Claude Desktop with DevHub CMS via Model Context Protocol for LLM-based content management.**
+
+**Key Features:**
+- Model Context Protocol integration
+- LLM-powered content management
+- Business and location data retrieval
+- Hours of operation management
+- Nearest location lookup
+
+*Tags: devhub-cms-mcp, model-context-protocol, llm-integration, cloud-native-devops, ai-development*
+
+---
+
+### 465. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a model context protocol (MCP) server written in Python, allowing users to interact with the TON blockchain using natural language queries. It supports features such as trading analysis, hot trend detection, forensic investigations, and real-time data access through the TON API.**
+
+**Key Features:**
+- Natural Language Processing for blockchain queries
+- Trading pattern analysis
+- Hot trends detection
+- Forensic and compliance tools
+- Real-time TON blockchain data access
+
+*Tags: ton, blockchain, ai, developer, security, ontology, trading, analysis*
+
+---
+
+### 466. [dfkai/xtquantai](https://github.com/dfkai/xtquantai)  `innovation: 8` ★☆☆ 🔵
+
+**xtquantai integrates AI and MCP to enable AI access to quantitative trading data, enhancing decision-making with advanced analytics.**
+
+**Key Features:**
+- 基础数据查询
+- 获取交易日期
+- 获取板块股票列表
+- 获取股票详情
+- 获取历史行情数据
+- 创建图表面板
+- 创建自定义布局
+
+*Tags: quant, ai, mcp, extensibility, data_visualization, developer_tools, market_data, api_integration*
+
+---
+
+### 467. [dhkts1/sequentialstory](https://github.com/dhkts1/sequentialstory)  `innovation: 8` ★☆☆ 🔵
+
+**A Python-based sequential thinking framework for structured problem-solving using narrative techniques.**
+
+**Key Features:**
+- Sequential Story tool for narrative-based problem structuring
+- Sequential Thinking tool for pure Python implementation
+- Integration with AI systems and MCP protocol support
+- Development environment setup and pre-commit hooks
+- Color-coded display of story elements
+
+*Tags: sequentialstory, sequentialthinking, ai, developer, mcp, code, integration, narrative*
+
+---
+
+### 468. [dion-hagan/mcp-server-spinnaker](https://github.com/dion-hagan/mcp-server-spinnaker)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling AI integration with Spinnaker for intelligent CI/CD operations.**
+
+**Key Features:**
+- AI-driven deployment decisions
+- proactive issue detection
+- continuous process optimization
+- automated root cause analysis
+
+*Tags: mcp, ai, spinnaker, modelcontext, devops, aiintegration, cicd, automation*
+
+---
+
+### 469. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for creating and managing SQLite databases from compressed log files, enabling integration with MCP Server.**
+
+**Key Features:**
+- Create SQLite database from compressed logs
+- Interact with database using Model Context Protocol (MCP)
+- Extract and parse log data
+
+*Tags: mcp-server, log-analysis, data-parsing, sqlite, developer-tools*
+
+---
+
+### 470. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server for interacting with Quran.com API to search verses, translations, and tafsirs.**
+
+**Key Features:**
+- Quran verse search
+- Translation integration
+- Tafsir information retrieval
+- API v4.0 integration
+- Docker-based production deployment
+
+*Tags: api-integration, quran-api, context-protocol, developer-tools, cloud-deployment, security-features*
+
+---
+
+### 471. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project introduces a Python-based MCP Server that acts as an intermediary between the FIWARE Context Broker and other services. It supports CRUD operations for context entities, enabling seamless integration with external systems and facilitating secure, standardized interactions within the FIW**
+
+**Key Features:**
+- Context Broker interaction
+- CRUD operations
+- Entity publishing/updating
+- Stateless HTTP session support
+- Integration with external APIs via ngrok
+
+*Tags: fiware, contextbroker, integration, developer, security, mcp, server*
+
+---
+
+### 472. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The docherty/contextmgr-mcp project provides a context management solution using the Model Context Protocol (MCP) to enable secure, reliable communication between development tools and environments. It supports session management, capability negotiation, and dynamic tool registration, making it suit**
+
+**Key Features:**
+- Socket-based transport with JSON-RPC 2.0 protocol
+- Session management and state persistence
+- Tool registry and dynamic registration
+- Capability negotiation for secure interactions
+- Project
+- workpackage
+- and task management
+- QA review workflow support
+- Initial setup and development mode configurations
+
+*Tags: context, developer, workflow, security, integration, ai, devops, enterprise*
+
+---
+
+### 473. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling AI access to LeetCode problems, user data, and contest information.**
+
+**Key Features:**
+- Access to LeetCode API
+- Search problems and daily challenges
+- User profile and submission tracking
+- Contest ranking and details
+
+*Tags: model context protocol, leetcode, ai assistant, developer tools, api integration*
+
+---
+
+### 474. [dreamfactorysoftware/df-mcp](https://github.com/dreamfactorysoftware/df-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The DreamFactory MCP Server is a governance layer that connects enterprise applications and on-prem LLMs with role-based access control and identity passthrough. It allows developers to securely integrate external data sources into their workflows while maintaining strict security and compliance sta**
+
+**Key Features:**
+- Secured API access
+- Role-based access control
+- Identity passthrough
+- Integration with enterprise applications
+- Data governance
+
+*Tags: dreamfactory, mcp, ai, security, governance, enterprise*
+
+---
+
+### 475. [drjforrest/mcp-things3](https://github.com/drjforrest/mcp-things3)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server for macOS Things3, enabling secure and efficient management of tasks and projects via AppleScript and x-call URLs.**
+
+**Key Features:**
+- Create Projects
+- Create Todos
+- View Tasks
+- Complete Tasks
+- Search Functionality
+- Robust Error Handling
+- Secure URL Encoding
+- AppleScript Integration
+- Validation and Metadata Management
+
+*Tags: applescript, x-call, macos, projectmanagement, automation, security, developertools, integration*
+
+---
+
+### 476. [duhlink/instagram-server-next-mcp](https://github.com/duhlink/instagram-server-next-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A modular, type-safe Instagram MCP server built with TypeScript and Node.js, supporting secure media handling and integration with Chrome login sessions.**
+
+**Key Features:**
+- Modular architecture
+- Type-safe implementation
+- Automatic media downloading
+- SEO-friendly description generation
+- JSON-RPC 2.0 compliant communication
+
+*Tags: instagram-server-next-mcp, developer-tools, ai-integration, security-features, cloud-native, web-scraping, api-development, modular-design*
+
+---
+
+### 477. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling secure note access and integration with AI assistants.**
+
+**Key Features:**
+- Model Context Protocol for Joplin
+- Integration with AI assistants like Claude
+- Secure code management and deployment
+- AI development workflow automation
+- Enterprise-grade security features
+
+*Tags: modelcontextprotocol, ai-integration, developer-tools, security, mcp-server, joplin, cloud-deployment, ai-assistants*
+
+---
+
+### 478. [dxheroes/mcp-devtools](https://github.com/dxheroes/mcp-devtools)  `innovation: 8` ★☆☆ 🔵
+
+**A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services.**
+
+**Key Features:**
+- Seamless integration with external tools via MCP
+- Extensible framework for custom integrations
+- Powerful interactions with AI assistants
+- Robust support for Jira and Linear platforms
+
+*Tags: modelcontext-protocol, ai-integration, developer-tools, ai-assistants, mcp-devtools, ai-development, integration-services*
+
+---
+
+### 479. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**An unofficial model context protocol for the NHL API, enabling chat with live games, scores, stats, and teams.**
+
+**Key Features:**
+- Live game chat and updates
+- Standings and team statistics
+- Player biographical and performance data
+- Aggregated game scores and status
+- Historical data access
+
+*Tags: nhl-mcp, api-protocol, data-fetching, game-analysis, team-info*
+
+---
+
+### 480. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `innovation: 8` ★☆☆ 🔵
+
+**Patchright is a streamlined Model Context Protocol (MCP) server built on the Patchright Node.js SDK. It provides undetectable automation capabilities, supporting essential functions such as browsing, interacting with web pages, extracting content, and closing browsers. Designed for AI model integrat**
+
+**Key Features:**
+- stealth browser automation
+- model context protocol integration
+- browser navigation and interaction
+- content extraction
+
+*Tags: mcp-server, playwright, ai-integration, automation, stealth, docker*
+
+---
+
+### 481. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `innovation: 8` ★☆☆ 🔵
+
+**A secure, context-aware MCP server enabling seamless integration with Readwise Reader API for enriched document management.**
+
+**Key Features:**
+- Secure authentication using environment variables
+- Document metadata management (save
+- list
+- update
+- delete)
+- Tag-based filtering and search
+- Rich filtering by location
+- category
+- tags
+- and more
+- Pagination support for large collections
+- LLM-friendly text conversion for content analysis
+
+*Tags: readwise-reader, api-integration, document-management, metadata-handling, search-functionality, performance-optimized, developer-tools, security-focused*
+
+---
+
+### 482. [el-el-san/fal-mcp-server](https://github.com/el-el-san/fal-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a Model Context Protocol (MCP) server built on FAL.ai's AI models, enabling the generation of videos from text prompts or images using advanced AI technologies like Luma Ray2 and Kling v1.6 Pro. The server supports video generation with customizable parameters such as aspect ra**
+
+**Key Features:**
+- AI model context management
+- video generation from text prompts
+- customizable video parameters
+- support for Luma Ray2 and Kling models
+- integration with Claude Desktop
+
+*Tags: mcp-server, ai-video-generation, fal-ai, model-integration, context-engine, video-to-video, ai-development, cloud-deployment*
+
+---
+
+### 483. [emzimmer/server-moz-readability](https://github.com/emzimmer/server-moz-readability)  `innovation: 8` ★☆☆ 🔵
+
+**The emzimmer/server-moz-readability project is a GitHub-hosted server designed to parse webpages using Mozilla's Readability algorithm. It removes ads, navigation, and non-essential elements while preserving core content structure, converting HTML into well-formatted Markdown for improved processing**
+
+**Key Features:**
+- Readability extraction
+- Markdown conversion
+- Content filtering
+- Metadata extraction
+
+*Tags: readability, mcp, server, developer, ai, security, code, deployment*
+
+---
+
+### 484. [endaoment/endaoment-postgres-mcp](https://github.com/endaoment/endaoment-postgres-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server enabling secure, standardized interaction between AI models and PostgreSQL databases.**
+
+**Key Features:**
+- Connects to PostgreSQL using connection pooling
+- Implements Model Context Protocol for AI model database interactions
+- Provides schema information as reusable resources
+- Handles SQL queries with retry logic
+- Supports graceful shutdown and error handling
+
+*Tags: modelcontextprotocol, postgresql, aiintegration, databaseapi, serverintegration, developertools, security, postgresql*
+
+---
+
+### 485. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `innovation: 8` ★☆☆ 🔵
+
+**The project focuses on integrating the Model Context Protocol with Epsilla to enhance data processing capabilities. It emphasizes secure coding practices, automated workflows, and enterprise-grade security features to ensure robust application development and deployment.**
+
+**Key Features:**
+- Model Context Protocol
+- Code review automation
+- CI/CD integration
+- Secure code management
+- External tool integration
+
+*Tags: modelcontextprotocol, epsilla, security, developertools, codequality, enterpriseai, flake8, pyprojecttoml*
+
+---
+
+### 486. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `innovation: 8` ★☆☆ 🔵
+
+**MCP servers extending AI model capabilities with tools and resources via the Model Context Protocol.**
+
+**Key Features:**
+- Type safety in MCP servers using Deno
+- Integration of various tool sets for text
+- data
+- and API operations
+- Modular architecture supporting extensibility and customization
+- Support for secure and efficient AI model deployment
+
+*Tags: ai, developer, security, mcp, deno, type-safe, text-processing, data-conversion*
+
+---
+
+### 487. [esnark/blowback](https://github.com/esnark/blowback)  `innovation: 8` ★☆☆ 🔵
+
+**Blowback Blowback aims to integrate MCP server with AI tools for frontend development, enabling advanced context-aware code assistance.**
+
+**Key Features:**
+- Integration of local development servers with AI tools like Claude Desktop and Cursor
+- AI-powered code completion and context management
+- Snapshot-based checkpoints for version control and testing
+- Screenshot capture and SQLite database management
+- HMR event monitoring and hot module replacement support
+
+*Tags: mcp, blowback, ai, developer, ai-tools, code-assistance, frontend-dev, ai-integration*
+
+---
+
+### 488. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A powerful server integrating Google AI Studio with Gemini API for advanced multi-modal content processing.**
+
+**Key Features:**
+- Multi-modal file processing (images
+- PDFs
+- audio
+- documents)
+- PDF-to-Markdown conversion
+- Image analysis and detailed visual description
+- Audio transcription with speaker identification
+- Integration with Gemini 2.5 models for context-aware generation
+
+*Tags: ai, germani, developer, cloud, mcp, ai_studio, gemini, pdf_to_markdown*
+
+---
+
+### 489. [everythingishacked/Pants](https://github.com/everythingishacked/Pants)  `innovation: 8` ★☆☆ 🔵
+
+**The pants filter uses OpenCV and MediaPipe's Pose detection to add a real-time pants filter to video input. The result is piped to a virtual camera output using pyvirtualcam. To use the resulting output, you must have a virtual camera device. The easiest way to do this on any OS is to download and i**
+
+**Key Features:**
+- The pants filter uses OpenCV and MediaPipe's Pose detection to add a real-time pants filter to video input. The result is piped to a virtual camera output using pyvirtualcam. It allows users to toggle between different styles of pants or blur out the lower half of their body during Zoom calls.
+
+*Tags: opencv, mediapipe, zoom, video filter, ai agents, computer vision, real-time processing, webcam integration*
+
+---
+
+### 490. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server facilitates the conversion of Markdown files into HTML format, enabling developers and content creators to seamlessly transform structured text into web-ready HTML. This tool is particularly useful in modernizing legacy documentation systems, enhancing developer workflows, and support**
+
+**Key Features:**
+- Markdown to HTML conversion
+- Integration with AI tools like Claude Desktop
+- Support for enterprise-grade security
+- Automated build and deployment capabilities
+
+*Tags: markdown-to-html, ai-development, content-generation, developer-tools, security*
+
+---
+
+### 491. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters by translating natural language requests into Kubernetes operations.**
+
+**Key Features:**
+- Natural language understanding for Kubernetes operations
+- Executes kubectl commands and manages Kubernetes clusters
+- Interprets and returns structured responses from Kubernetes API
+- Supports integration with AI assistants like Claude
+- Cursor
+- and GitHub Copilot
+
+*Tags: kubernetes, ai-assistants, developer-tools, cloud-native, k8s-api, automation, security, devops*
+
+---
+
+### 492. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The ferrislucas/iterm-mcp project provides a Model Context Protocol server that allows seamless integration with iTerm, enabling developers to execute commands directly from the terminal session. This tool enhances productivity by supporting REPL and CLI interactions, offering full terminal control,**
+
+**Key Features:**
+- Model Context Protocol server
+- REPL support
+- Full terminal control
+- Code execution in iTerm
+- Interactive assistance
+
+*Tags: terminal-integration, ai-assistance, code-execution, developer-tools, i-term, model-api, security-features, automation*
+
+---
+
+### 493. [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread)  `innovation: 8` ★☆☆ 🔵
+
+**A tool that integrates micro services and LLM clients via MCP protocol to provide structured data for AI models.**
+
+**Key Features:**
+- Get bookshelf information from WeChat Readbook
+- Search books by keyword or detailed info
+- Retrieve book notes and highlights with chapter organization
+- Fetch best reviews and ratings for books
+- Integrate with Claude Desktop via JSON configuration
+
+*Tags: mcp-server-weread, wechat-readbook, llm-integration, code-generation, ai-development, developer-tools, microsoft-api, microsoft-reading*
+
+---
+
+### 494. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a GitHub-hosted MCP server that facilitates interaction with the Fulcra Context API. It offers both local and remote connection options, ensuring secure handling of OAuth2 tokens without exposing them to clients. The server supports debugging tools and is designed for developers**
+
+**Key Features:**
+- MCP server integration
+- OAuth2 token management
+- Local and remote connection support
+- Debugging utilities
+- API access for Fulcra Context
+
+*Tags: fulcra-context, api-integration, mcp-server, developer-tools, security-features*
+
+---
+
+### 495. [futureunreal/mcp-pdf2md](https://github.com/futureunreal/mcp-pdf2md)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for converting PDF files to structured Markdown format, supporting batch processing and intelligent document handling.**
+
+**Key Features:**
+- PDF to Markdown conversion
+- Multi-source support (local files and URLs)
+- Intelligent processing with best method selection
+- Batch processing for large PDF volumes
+- Structure preservation in output
+
+*Tags: pdf2md, mcp-pdf2md, document conversion, ai-powered document processing, developer workflow automation*
+
+---
+
+### 496. [ganelson/inform](https://github.com/ganelson/inform)  `innovation: 8` ★☆☆ 🔵
+
+**Inform is a programming language designed for creating interactive fiction using natural language syntax. It draws from linguistics and literate programming principles, making it useful for literary writing and as a prototyping tool in the games industry. The project has an established history, with**
+
+**Key Features:**
+- Inform is a programming language for interactive fiction. Its core features revolve around natural language syntax
+- serving as a medium for literary writing and a prototyping tool. It is also highly influential
+- ranking among the top 100 most influential programming languages according to the TIOBE index.
+
+*Tags: inform7, inweb, inform6, inform, inbuild, inpolicy, inter, notes*
+
+---
+
+### 497. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `innovation: 8` ★☆☆ 🔵
+
+**The GBcui/horoscope-serve project offers a web-based MCP server that integrates with an external API to deliver detailed fortune readings for each of the 12 zodiac signs. It supports multiple time ranges and includes features such as error handling, validation, and integration with IDEs like VSCode **
+
+**Key Features:**
+- MCP Server Integration
+- AI-Powered Horoscope Readings
+- Error Handling & Validation
+- IDE Plugin Support (VSCode)
+- Time Range Customization
+- Detailed Fortune Readings
+- Secure Development Practices
+
+*Tags: ai, developer, horoscope, mcp, security, code, devops, ai*
+
+---
+
+### 498. [georgenance/hackernews-mcp](https://github.com/georgenance/hackernews-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A server that provides real-time access to Hacker News content for AI assistants and developers.**
+
+**Key Features:**
+- Fetch top stories from Hacker News
+- Get detailed story information
+- Retrieve comments and markdown content
+- Search and filter stories by keywords
+- Display story metadata
+
+*Tags: hackernews-mcp, web-scraping, ai-assistants, developer-tools*
+
+---
+
+### 499. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling AI tools like Claude to securely and efficiently manage Python development workflows.**
+
+**Key Features:**
+- File operations
+- Code analysis
+- Code execution
+- Dependency management
+- Project management
+
+*Tags: ai, developer_tools, code_analysis, mcp, ai_assist, development, security, integration*
+
+---
+
+### 500. [glzr-io/glazewm](https://github.com/glzr-io/glazewm)  `innovation: 8` ★☆☆ 🔵
+
+**GlazeWM lets you easily organize windows and adjust their layout on the fly by using keyboard-driven commands. It offers simple YAML configuration, multi-monitor support, customizable rules for specific windows, easy one-click installation, and integration with Zebar as a status bar. Key features in**
+
+**Key Features:**
+- Tiling window management inspired by i3wm
+- YAML configuration support
+- multi-monitor support
+- customizable rules for windows
+- keyboard-driven command integration
+- easy one-click installation via package managers (Winget
+- Chocolatey
+- Scoop)
+- and optional integration with Zebar.
+
+*Tags: ['tiling window manager', 'i3wm inspired', 'yaml config', 'keyboard shortcuts', 'multi-monitor support', 'window management', 'windows', 'mac os'*
+
+---
+
+### 501. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a GitHub-based server application that enables developers to analyze and understand code repositories using advanced analysis tools. It supports features such as repository scanning, code review management, security vulnerability detection, and integration with various developm**
+
+**Key Features:**
+- Repository analysis
+- Code clone and installation
+- Dependency management
+- Security scanning and vulnerability detection
+- Integration with CI/CD pipelines
+- Code review and change tracking
+- Automated workflows and actions
+
+*Tags: codeanalysis, security, git, mcp, ci, devops, repository, security*
+
+---
+
+### 502. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A JSON model context protocol server enabling LLMs to interact with structured JSON data through standardized tools.**
+
+**Key Features:**
+- JSONPath querying
+- JSON transformation operations
+- Data filtering and aggregation
+- Date manipulation
+- String operations
+
+*Tags: json, mcp, data-processing, ai-integration, server-api, contextual-query, data-aggregation, date-handling*
+
+---
+
+### 503. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A modular MCP server for PowerPoint manipulation using Python, enabling advanced presentation creation, editing, and management.**
+
+**Key Features:**
+- 32 powerful tools organized into 11 specialized modules
+- Support for complete PowerPoint operations including template management and professional design
+- Enhanced parameter handling and intelligent operation selection
+- Comprehensive error handling and validation
+- Integration with external tools and workflows
+
+*Tags: mcp-server, powerpoint-manipulation, python-pptx, api-integration, presentation-automation, developer-tools, modular-architecture, code-safe-deployment*
+
+---
+
+### 504. [google/timesketch](https://github.com/google/timesketch)  `innovation: 8` ★☆☆ 🔵
+
+**Timesketch is an open-source tool designed for collaborative forensic timeline analysis. It allows users to organize and analyze timelines by adding meaning to raw data with rich annotations, comments, tags, and stars. The core concept revolves around 'sketches' that allow collaborators to easily or**
+
+**Key Features:**
+- Collaborative timeline organization via sketches
+- Rich annotations/tags for raw data
+- Collaborative analysis across users
+- Clear structure for forensic timelines.
+
+*Tags: ['forensics', 'timeline', 'collaboration', 'sketching', 'security', 'analysis', 'memory', 'workflow'*
+
+---
+
+### 505. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling secure discovery and download of 3D models from Sketchfab.**
+
+**Key Features:**
+- Search for 3D models
+- View model details
+- Download models in various formats
+- Integrate with Claude or Cursor
+
+*Tags: modelcontextprotocol, sketchfab-server, 3dmodels, developer-tools, api-integration*
+
+---
+
+### 506. [greptimeteam/greptimedb-mcp-server](https://github.com/greptimeteam/greptimedb-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server for GreptimeDB that enables secure, isolated querying and analysis of observability data using SQL, TQL, and RANGE queries.**
+
+**Key Features:**
+- Model Context Protocol (MCP) integration
+- Read-only database access
+- Data masking for sensitive information
+- Audit logging of all tool invocations
+- Support for PromQL-compatible time-series analysis
+- Secure connection enforcement and protocol support
+
+*Tags: greptimedb-mcp-server, ai-assist, security, observability, data-masking, promql, time-series, secure-devops*
+
+---
+
+### 507. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Brasil API MCP project provides a unified interface for developers to access a wide range of Brazilian data services through standardized protocols. It supports secure integration with tools such as GitHub Copilot, Docker, and CI/CD pipelines, enabling modern development workflows while maintain**
+
+**Key Features:**
+- Integrate Brazilian public data APIs
+- Support AI assistants via MCP protocol
+- Secure code deployment and management
+- Automated workflows and CI/CD integration
+
+*Tags: software development, devops, ai integration, security, api integration, brazilian data, developer tools, enterprise solutions*
+
+---
+
+### 508. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a MCP-based server that allows users to retrieve detailed information about Brazilian addresses via CEP. It integrates with AI and provides functionalities such as code compilation, deployment, and secure development practices.**
+
+**Key Features:**
+- API integration
+- code compilation
+- secure development
+- AI support
+- CI/CD pipeline
+
+*Tags: mcp, cep, postal-code, ai-integration, developer-tools, security, deployment, smart-devops*
+
+---
+
+### 509. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-based MCP server for integrating large language models with Cloudflare APIs, enabling seamless interaction between LLMs and external systems.**
+
+**Key Features:**
+- Cloudflare MCP Server for IDE
+- Integration with Cline
+- Windsurf
+- Cursor
+- etc.
+- Secure code deployment and management
+- Automated workflows and CI/CD support
+- Developer workflow automation and code review
+- Security features including vulnerability detection and protection
+
+*Tags: mcp-server-cloudflare, developer-tools, ai-integration, secure-deployment, cloud-native, context-aware, workflow-automation, security-focused*
+
+---
+
+### 510. [hannesj/mcp-graphql-schema](https://github.com/hannesj/mcp-graphql-schema)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for LLMs to explore and understand GraphQL schemas, providing query, mutation, subscription details, type definitions, and field information.**
+
+**Key Features:**
+- Load any GraphQL schema file via command line
+- Explore query
+- mutation
+- and subscription fields
+- Search for types and fields using pattern matching
+- Filter out internal GraphQL types
+- Get simplified field information including types and arguments
+
+*Tags: graphql-schema, developer-tools, ai-integration, schema-analysis, code-understanding, llm-assistance, security-features, graphql-tools*
+
+---
+
+### 511. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling access to Azure Resource Graph queries across subscriptions.**
+
+**Key Features:**
+- Azure Resource Graph query support
+- Resource ID
+- name
+- type
+- and location retrieval
+- Custom Resource Graph queries
+- Integration with Azure CLI and Azure DevOps
+- Support for secure authentication via DefaultAzureCredential
+
+*Tags: azure-resource-graph, resource-graph, mcp-server, developer-tools, security-integration*
+
+---
+
+### 512. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server Reddit provides tools for fetching Reddit frontpage posts, subreddit information, hot posts, post details, and comments. It uses redditwarp to interface with Reddit's public API and exposes functionality via the Model Context Protocol (MCP).**
+
+**Key Features:**
+- Fetch Reddit frontpage posts
+- Access subreddit information
+- Retrieve hot posts from subreddits
+- View post details
+- Display comments with depth
+- Integrate with LLMs for context-aware interactions
+
+*Tags: modelcontextprotocol, reddit, redditapi, mlllm, redditscrape, webhook, redditinspector, redditcommunity*
+
+---
+
+### 513. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides an extension for the Model Context Protocol (MCP) server, enabling developers to integrate a comprehensive Hebrew calendar solution. It supports generating lists of Jewish holidays, offering features such as Hebrew date conversion, Shabbat candle lighting times, Torah readings,**
+
+**Key Features:**
+- Hebrew calendar generation
+- Holiday list creation
+- Date conversion tools
+- Shabbat candle lighting times
+- Torah readings (full kriyah and triennial system)
+- Yahrzeits
+- birthdays
+- and anniversaries lookup
+
+*Tags: hebrew-calendar, jewish-holidays, calendar-server, holiday-calculator, date-converter, shabbat-features, tripod-integration, custom-locales*
+
+---
+
+### 514. [heyzgj/mcp-feargreedindex](https://github.com/heyzgj/mcp-feargreedindex)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server integrating CoinMarketCap data for cryptocurrency market insights.**
+
+**Key Features:**
+- Integrate CoinMarketCap API
+- Smart caching for performance
+- TypeScript support
+- Modular design
+- Detailed error handling
+
+*Tags: cryptocurrency, api integration, data access, market data, developer tools*
+
+---
+
+### 515. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Server for NovaCV API integration, enabling secure access to job application context protocols.**
+
+**Key Features:**
+- Generate resume PDF from text
+- Convert resume text to JSON Resume format
+- Analyze resume text for completeness and keyword usage
+- Transform text into structured JSON Resume
+- Integrate external tools and manage workflows
+
+*Tags: mcp-server-novacv, api-integration, job-application, resume-generation, developer-tools, ai-assisted-writing, security-features*
+
+---
+
+### 516. [hithereiamaliff/mcp-datagovmy](https://github.com/hithereiamaliff/mcp-datagovmy)  `innovation: 8` ★☆☆ 🔵
+
+**An unofficial Model Context Protocol (MCP) server enabling secure and efficient access to Malaysia's Open Data APIs.**
+
+**Key Features:**
+- Unified search across datasets and dashboards
+- Live metadata fetching from Nominatim for GTFS location searches
+- Zero-credential geocoding for GTFS location search
+- Built-in analytics endpoints and dashboard
+- Self-hosted deployment options with Docker
+- Integration with Firebase Analytics for tracking tool usage
+
+*Tags: mcp-datagovmy, open-data-api, data-analytics, geocoding, transit-data, firebase-analytics, developer-tools, data-visualization*
+
+---
+
+### 517. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A server-based context protocol implementation for searching, reading, and accessing files within a Box environment.**
+
+**Key Features:**
+- Search files
+- Read files
+- Access files
+
+*Tags: box-mcp-server, context-protocol, file-access, search-service, developer-tools*
+
+---
+
+### 518. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A server-based solution for accessing and manipulating Google Spreadsheet data via Model Context Protocol (MCP) integration.**
+
+**Key Features:**
+- Access spreadsheet metadata
+- Retrieve specific sheet data
+- Format sheet data in markdown
+- Integrate with Claude for Desktop
+- Support API key and environment variables
+
+*Tags: spreadsheet-mcp-server, gapdevops, developer-tools, api-integration, data-management, cloud-automation*
+
+---
+
+### 519. [hrishi0102/payman_mcp](https://github.com/hrishi0102/payman_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A context-aware MCP server enabling secure, isolated payment operations for AI assistants.**
+
+**Key Features:**
+- Create and manage Payman payees (TEST_RAILS
+- US_ACH
+- CRYPTO_ADDRESS)
+- Send payments with custom amounts and memos
+- Search payees by name
+- contact info
+- or account details
+- Check current account balances
+- Secure API key management for authentication
+- Support SSE transport for real-time client communication
+
+*Tags: payman-mcp, api-integration, mcp-server, payment-ops, secure-auth, developer-tools, ai-assist, api-security*
+
+---
+
+### 520. [hrkalona/Fractal-Zoomer](https://github.com/hrkalona/Fractal-Zoomer)  `innovation: 8` ★☆☆ 🔵
+
+**Fractal Zoomer is a comprehensive Java-based software designed for generating various fractal patterns. The project includes over 500 different fractal generating functions, offering user customization options, advanced mathematical concepts like perturbation theory, and various visual effects. It d**
+
+**Key Features:**
+- Fractal Zoomer offers a comprehensive suite of features for fractal generation
+- including: User Formulas/Custom User Functions
+- Plane Transformations
+- Rotation
+- Initial Perturbation
+- Bailout Tests
+- Palette Editor
+- Julia Sets
+- Julia Map
+- Polar Coordinates
+- Projection
+- 3D Heightmap
+
+*Tags: java, julia, multithreading, fractal, arbitrary-precision, mandelbrot, mpfr, image-filters*
+
+---
+
+### 521. [hzzy2o/flux-cloudfare-mcp](https://github.com/hzzy2o/flux-cloudfare-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-native MCP server enabling AI-driven image generation via Flux model, integrated with Cloudflare Workers for secure, scalable deployment.**
+
+**Key Features:**
+- High-quality image generation using Flux model
+- Seamless integration with AI assistants like Claude
+- Customizable parameters for output control
+- Secure local processing and API-based inference
+- Support for enterprise-grade security and compliance
+
+*Tags: flux-cloudfare-mcp, ai-image-generation, cloudflare-worker, enterprise-security, developer-tools, model-configuration, mcp-integration, ai-safety-filter*
+
+---
+
+### 522. [icraft2170/youtube-data-mcp-server](https://github.com/icraft2170/youtube-data-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-based YouTube Data API server enabling AI models to interact with YouTube content securely and efficiently.**
+
+**Key Features:**
+- YouTube video information retrieval
+- Video search by keywords
+- Transcript/caption management
+- Channel statistics analysis
+- Trend and comparison analytics
+- Popular content discovery
+- Automated data processing and insights
+
+*Tags: youtube-data-mcp-server, ai, developer, mcp, youtube-api, data-analysis, cloud-devops, video-processing*
+
+---
+
+### 523. [idcdev/mcp-magic-ui](https://github.com/idcdev/mcp-magic-ui)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling access and search for Magic UI components via the Model Context Protocol.**
+
+**Key Features:**
+- Component discovery through MCP tools
+- Automatic categorization of components
+- Local caching to reduce API calls
+- Support for both stdio and HTTP transport
+- Fallback mechanism with mock data
+
+*Tags: mcp, magicui, ai-assist, developer-tools, api-caching, component-management*
+
+---
+
+### 524. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The DINO-X Model Context Protocol (MCP) server enhances large language models by integrating image object detection, localization, and captioning APIs. It enables multimodal AI systems to understand and interact with visual data, supporting tasks such as object counting, attribute reasoning, pose es**
+
+**Key Features:**
+- Image object detection
+- Object localization
+- Caption generation
+- Attribute reasoning
+- Pose estimation
+- Scene understanding
+- Visualization of detection results
+
+*Tags: dino-x, mcp, ai, vision, ml, image-processing*
+
+---
+
+### 525. [instructa/ai-prompts-mcp](https://github.com/instructa/ai-prompts-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a TypeScript-based Model Context Protocol (MCP) implementation using pnpm workspaces. It supports environment-based configuration and integrates with modern development practices, enabling efficient management of AI prompts within enterprise applications.**
+
+**Key Features:**
+- Model Context Protocol implementation
+- TypeScript architecture
+- Monorepo structure
+- Environment configuration
+- Production server support
+
+*Tags: modelcontextprotocol, ai-prompts-api, mcp, pnpm, development-server, environment-based, code-safety, enterprise-devops*
+
+---
+
+### 526. [iqaicom/mcp-iqwiki](https://github.com/iqaicom/mcp-iqwiki)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server enabling AI agents to interact with IQ.wiki content.**
+
+**Key Features:**
+- Wiki access via Model Context Protocol (MCP)
+- User contributions tracking by Ethereum address
+- Activity tracking for wiki creations and edits
+- Search functionality using natural language queries
+
+*Tags: ai, wiki, blockchain, decentralized, smart contracts, developer tools, security, data access*
+
+---
+
+### 527. [jaldekoa/mcp-fredapi](https://github.com/jaldekoa/mcp-fredapi)  `innovation: 8` ★☆☆ 🔵
+
+**Integration of FRED API with Model Context Protocol for economic data retrieval.**
+
+**Key Features:**
+- FRED API integration
+- Model Context Protocol support
+- Economic data access
+
+*Tags: fredapi, fred, economicdata, modelcontext, apiintegration, mcp, developer*
+
+---
+
+### 528. [janwilmake/uithub-mcp](https://github.com/janwilmake/uithub-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Simple MCP server enables seamless integration with GitHub, allowing users to fetch repository contents, apply filters, and explore code in a structured manner. It supports advanced features like natural language queries via Claude Desktop and provides robust security measures to protect data in**
+
+**Key Features:**
+- code retrieval
+- smart filtering
+- integration with Claude Desktop
+- security features
+
+*Tags: github-mcp, github-api, code-analysis, developer-tools*
+
+---
+
+### 529. [jayli52/api2mcptools](https://github.com/jayli52/api2mcptools)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a Node.js library that transforms API responses into MCP (Model Context Protocol) tools, enabling seamless integration with various AI and machine learning frameworks. It supports multiple API types and offers CLI and command-line interface options for developers to automate wor**
+
+**Key Features:**
+- API conversion
+- MCP tool generation
+- CLI support
+- code automation
+- security features
+
+*Tags: api2mcptools, mcp-tools, developer-utilities, security-features*
+
+---
+
+### 530. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The jbdamask/cursor-db-mcp project provides a Model Context Protocol (MCP) server that allows AI assistants to query and interact with Cursor's SQLite databases. It facilitates access to chat histories, composer information, and project-specific data, supporting modern development workflows and ente**
+
+**Key Features:**
+- Access Cursor chat history
+- Retrieve composer IDs
+- Query database tables
+- Refresh database paths
+
+*Tags: modelcontextprotocol, cursordb-mcp, ai-assistant, developer-tools, dataaccess, aiintegration, enterpriseai, githubai*
+
+---
+
+### 531. [jbdamask/mcp-nih-reporter](https://github.com/jbdamask/mcp-nih-reporter)  `innovation: 8` ★☆☆ 🔵
+
+**The jbdamask/mcp-nih-reporter project provides a Model Context Protocol (MCP) server that facilitates secure and efficient communication between AI agents and the NIH RePORTER database. It allows users to search for NIH-funded projects, publications, and detailed research information in a conversati**
+
+**Key Features:**
+- Search NIH-funded projects by fiscal year
+- principal investigator
+- organization
+- funding details
+- and COVID-19 response status
+- Search publications linked to NIH projects
+- Combined search for both projects and publications
+- Detailed project and publication information including abstracts
+- Configurable result limits and filters
+- Support for Python 3.12+ with UV package manager
+- Structured log file generation for debugging
+
+*Tags: ai, healthcare, data science, nih, mcp, api integration, developer tools*
+
+---
+
+### 532. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `innovation: 8` ★☆☆ 🔵
+
+**A Spring Boot-based Model Context Protocol (MCP) server enabling interaction with GitHub Copilot for AI-assisted game development.**
+
+**Key Features:**
+- MCP server implementation using Spring Boot
+- Integration with GitHub Copilot for real-time code assistance
+- Game logic for Connect Four with AI opponent
+- Command-line interface for game interaction
+- Automatic server startup with VS Code extension
+
+*Tags: mcp-fiar, ai-game, connectfour, spring-boot, github-copilot, developer-tools, game-server, code-assistance*
+
+---
+
+### 533. [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog)  `innovation: 8` ★☆☆ 🔵
+
+**Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, and release lifecycle management.**
+
+**Key Features:**
+- Repository management
+- Build tracking
+- Release lifecycle management
+- Artifact search and cataloging
+- Integration with JFrog Platform
+
+*Tags: mcp, jfrog, platform, ci/cd*
+
+---
+
+### 534. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project implements a Model Context Protocol (MCP) server that enables Claude Desktop to manage a classic business simulation game. It showcases dynamic weather effects, supply chain management, pricing strategies, inventory control, and customer demand analysis. The server architecture supports**
+
+**Key Features:**
+- Dynamic weather system
+- Supply and demand simulation
+- Strategic pricing and inventory management
+- Profit tracking over 14 days
+- Integration with Claude Desktop tools
+
+*Tags: model context protocol, ai integration, business simulation, cloud development, game development, mcp server, cloud-native, ai-driven decision making*
+
+---
+
+### 535. [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP Server for Korean stock analysis that integrates official APIs from DART and KRX to provide AI-powered insights on stock data.**
+
+**Key Features:**
+- Disclosure search by company and date
+- Parsing of large XML disclosure documents (e.g.
+- annual reports)
+- AI-driven financial statement analysis using XBRL
+- Real-time stock data retrieval (KRX
+- KOSPI
+- KONEX)
+- Integration with Claude Desktop for advanced analysis
+
+*Tags: api-integration, stock-analysis, ai-powered, data-processing, financial-analysis, developer-tools, enterprise-platform, automation*
+
+---
+
+### 536. [jkf87/hwp-mcp](https://github.com/jkf87/hwp-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**HWP-MCP is a Model Context Protocol server enabling AI models like Claude to control and manipulate Korean documents.**
+
+**Key Features:**
+- New document creation
+- Text insertion in documents
+- Table creation and data entry
+- Automated batch operations
+- Secure file handling with protection against unauthorized access
+
+*Tags: hwp, ai, documentation, development, security, ai_models, text_processing, automation*
+
+---
+
+### 537. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The qanon-mcp-server is a GitHub-hosted server designed to provide access to a dataset of Q-Anon posts, enabling AI assistants like Claude to search, filter, and analyze these posts for research purposes. It supports sociological studies by offering structured data and metadata for deeper insights.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Post retrieval and analysis capabilities
+- Data filtering and querying tools
+- Timeline generation and visualization
+- Word cloud and frequency analysis
+- Customizable search parameters
+
+*Tags: qanon, mcp, sociological research, ai, data analysis, post mining, timeline generation, text analytics*
+
+---
+
+### 538. [jlfwong/food-data-central-mcp-server](https://github.com/jlfwong/food-data-central-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A server-based platform for integrating and managing access to the USDA FoodData Central API, enabling food data retrieval and analysis.**
+
+**Key Features:**
+- Search for foods in USDA FoodData Central database
+- Access food nutrient information
+- Support multiple data types (Foundation
+- SR Legacy
+- Survey
+- Branded)
+- Paginated results with customizable page size and sorting
+- Integration with Claude Desktop for AI-powered food search
+
+*Tags: food-data-central, api-integration, data-analysis, food-security, developer-tools, usda-api, nutrient-tracking, mcp-server*
+
+---
+
+### 539. [jon-vii/canvas-student-mcp](https://github.com/jon-vii/canvas-student-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Integration of Canvas Student MCP with LLM clients via the MCP standard to enable intelligent interactions within a LMS.**
+
+**Key Features:**
+- Canvas Student MCP integration for LLM interaction
+- PDF content preview and access
+- PDF text extraction support
+- Course assignment management
+- Quiz information retrieval
+- To-do list and assignment tracking
+
+*Tags: canvas-student, mcp, llm, canvas-integration, education-tech, ai-education, student-tools, api-integration*
+
+---
+
+### 540. [jonathanfischer97/juliadoc-mcp](https://github.com/jonathanfischer97/juliadoc-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP server facilitates the retrieval of Julia package documentation and source code, enhancing developer productivity by providing direct access to contextual information. It supports efficient caching, error handling, and integration with development environments like Claude Desktop, thereby st**
+
+**Key Features:**
+- Contextual documentation retrieval
+- Source code access
+- Integration with Julia projects
+- Error handling
+- Development environment support
+
+*Tags: julia, mcp, developer-tools, code-access, documentation, juliadoc, julia-server, code-help*
+
+---
+
+### 541. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Ein Model Context Protocol (MCP) Server for accessing Deutsche Bahn timetable data.**
+
+**Key Features:**
+- API integration with Deutsche Bahn Timetable API
+- MCP tools and resources for train schedules
+- station info
+- and changes
+- Support for semantic data processing and historical analysis
+- KI-based predictions for delays and passenger load
+- Multimodal transport connection management
+
+*Tags: api integration, mcp server, timetable api, data processing, ai predictions, transport systems*
+
+---
+
+### 542. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The App Store Connect MCP Server is an AI-powered platform that enables developers to interact with the App Store Connect API through natural language queries. It supports comprehensive analytics, streamlined beta testing, localization management, secure authentication, and real-time data access, ma**
+
+**Key Features:**
+- AI-powered app management
+- Comprehensive analytics dashboard
+- Streamlined beta testing tools
+- Localization management
+- Secure authentication via JWT
+- Real-time data access from Apple systems
+
+*Tags: app-management, ai-powered-dev, app-store-connect, developer-tools, beta-testing, analytics, localization, security*
+
+---
+
+### 543. [joshuatanderson/factbook-mcp](https://github.com/joshuatanderson/factbook-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a Model Context Protocol serverlet to retrieve and present data from the CIA World Factbook, enabling automated access to geopolitical and country-specific information within a software application.**
+
+**Key Features:**
+- Model Context Protocol integration
+- Automated data fetching
+- Dynamic content rendering
+
+*Tags: context-engine, data-fetching, serverlet, geopolitical-data, api-integration, automation, software-devops*
+
+---
+
+### 544. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `innovation: 8` ★☆☆ 🔵
+
+**A command-line tool for project planning and management with AI-assisted development.**
+
+**Key Features:**
+- Project creation and configuration
+- Hierarchical structure (phases
+- tasks
+- subtasks)
+- Automatic progress calculation
+- HTML reports and visualization
+- Task management (add
+- remove
+- update
+- complete)
+
+*Tags: project management, ai-assisted development, software development, terminal interface, code organization*
+
+---
+
+### 545. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-server-file-modifier project provides a Model Context Protocol server that allows users to modify files directly through AI assistants like Claude. It supports operations such as adding, replacing, and deleting content at specific line numbers, offering flexibility in file management. The pl**
+
+**Key Features:**
+- add content at specific line
+- replace existing content
+- delete content
+- support UTF-8 encoding
+
+*Tags: file-modification, ai-assistant, model-context-protocol, secure-code, developer-tools*
+
+---
+
+### 546. [jtucker/mcp-untappd-server](https://github.com/jtucker/mcp-untappd-server)  `innovation: 8` ★☆☆ 🔵
+
+**The jtucker/mcp-untappd-server project is a lightweight Node.js application designed to query the Untappd API for beer data. It focuses on context management by fetching detailed beer information based on search queries, enabling developers to integrate this service into their applications for real-**
+
+**Key Features:**
+- untappd model context protocol server
+- beer information retrieval
+- API integration
+- search functionality
+
+*Tags: node, untappd, beer, server, context, integration, developer, mcp*
+
+---
+
+### 547. [jxnl/apple-mcp](https://github.com/jxnl/apple-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The jxnl/apple-mcp project provides a suite of Apple-native tools designed specifically for the Model Context Protocol (MCP). These tools facilitate secure and efficient communication between devices in enterprise environments, focusing on privacy, security, and seamless integration with Apple ecosy**
+
+**Key Features:**
+- Apple MCP tools
+- Secure communication
+- Context awareness
+- Privacy features
+- Integration with Apple devices
+
+*Tags: apple-mcp, mcp-services, ai-security, developer-tools, enterprise-devops, secure-context, code-integration, ai-automation*
+
+---
+
+### 548. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Python implementation for interacting with macOS applications via AppleScript, supporting integration with native apps and asynchronous operations.**
+
+**Key Features:**
+- Interact with macOS apps
+- Asynchronous operations
+- Error handling
+- Type-safe interfaces
+
+*Tags: apple-mcp, developer-tools, macos-integration, api-call, async-programming*
+
+---
+
+### 549. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The Hoverfly MCP Server acts as a programmable interface for AI tools like Copilot and Cursor, allowing dynamic simulation of unavailable services using JSON configurations. It integrates with external systems through the Model Context Protocol (MCP), offering robust mocking capabilities for develop**
+
+**Key Features:**
+- Model Context Protocol (MCP) integration
+- Dynamic API mocking via JSON
+- Simulation persistence
+- Docker-based deployment
+- AI assistant compatibility
+
+*Tags: spring-boot, mcp-server, ai-assist, mocking, simulation, api-management, developer-tools, ai-integration*
+
+---
+
+### 550. [karthikkrs/isms-mcp-project](https://github.com/karthikkrs/isms-mcp-project)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive security management platform integrating AI capabilities for enhanced information security.**
+
+**Key Features:**
+- User Management
+- Asset Management
+- Policy Management
+- Risk Management
+- Incident Management
+- AI Integration
+
+*Tags: security, ai, isms, mcp, developer, testing, devops, enterprise*
+
+---
+
+### 551. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A framework for managing debugger sessions and enhancing large language model debugging workflows.**
+
+**Key Features:**
+- Debug Adapter Protocol Integration
+- Rich Debugging Tools
+- Flexible Configuration
+- Customizable Debugger Settings
+
+*Tags: modelcontextprotocol, debuggerintegration, ai-development, developer-tools, mcpframework, codeoptimization, securityfeatures, developerworkflow*
+
+---
+
+### 552. [kazuph/mcp-fetch](https://github.com/kazuph/mcp-fetch)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for fetching and processing web content, including images, to support AI-driven applications.**
+
+**Key Features:**
+- Web content extraction
+- Image processing and optimization
+- Automatic file saving with date-based directory structure
+- Base64 encoding for AI display
+- Pagination support for text and images
+- Image subsampling and compression
+
+*Tags: web scraping, image processing, ai integration, developer tools, content extraction, file management, security, automation*
+
+---
+
+### 553. [kazuph/mcp-pocket](https://github.com/kazuph/mcp-pocket)  `innovation: 8` ★☆☆ 🔵
+
+**The kazuph/mcp-pocket project provides a server-based solution that enables seamless integration between Claude Desktop and the Pocket API. This allows users to fetch, organize, and manage their saved articles directly within Claude Desktop, enhancing productivity and workflow efficiency. The tool s**
+
+**Key Features:**
+- Fetch saved articles from Pocket API
+- Mark articles as read in Pocket
+- Customize and organize saved content
+- Integrate with Claude Desktop for a unified experience
+
+*Tags: mcp, pocket, cloud, developer, ai, code, security, git*
+
+---
+
+### 554. [kbsooo/mcp_atom_of_thoughts](https://github.com/kbsooo/mcp_atom_of_thoughts)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP_Atom_of_Thoughts (AoT) project implements a decomposition-based reasoning system using the Model Context Protocol (MCP). It breaks down complex inputs into atomic thought units, tracks dependencies between these units, and evaluates confidence levels to deliver robust insights. The system su**
+
+**Key Features:**
+- Decomposition-contraction mechanism
+- Automatic termination based on depth or confidence
+- Confidence-based conclusion suggestion
+- Support for hypothesis verification
+- Integration of premise
+- reasoning
+- hypothesis
+- verification
+- and conclusion atoms
+
+*Tags: ai, ml, software development, security, deployment, reasoning, atoms, model context protocol*
+
+---
+
+### 555. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A server-based solution for managing property data via the Model Context Protocol, supporting both stdio and streamable HTTP transport.**
+
+**Key Features:**
+- Property and room type management
+- Reservations CRUD operations with custom fields and lock codes
+- Availability calendars
+- Listings and channel listings
+- Messaging and guest communication
+- Review management and response handling
+- Webhooks for real-time notifications
+- Custom channels and income methods
+- Integration with Claude and other MCP clients
+
+*Tags: hostex, modelcontextprotocol, propertymanagement, mcp, cloud, webhooks, messaging, review*
+
+---
+
+### 556. [kentaro/aivis-speech-mcp](https://github.com/kentaro/aivis-speech-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A server implementation for integrating AivisSpeech using the Model Context Protocol (MCP) to enable AI-driven voice synthesis.**
+
+**Key Features:**
+- MCP protocol integration
+- TypeScript-based API design
+- High-quality text-to-speech synthesis
+- Scalable architecture
+- Environment configuration support
+
+*Tags: mcp, speech, ai, developer, integration, voice_synthesis*
+
+---
+
+### 557. [keonchennl/mcp-graphdb](https://github.com/keonchennl/mcp-graphdb)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-graphdb server provides read-only access to a GraphDB repository, allowing large language models to execute SPARQL queries and explore graph data. It supports configuration via environment variables or command-line arguments, integrates with AI platforms like Claude Desktop, and is designed **
+
+**Key Features:**
+- SPARQL query execution
+- GraphDB integration
+- Read-only access
+- Model context protocol
+- AI platform compatibility
+
+*Tags: graphdb, sparql, ai, graphql, ml, dataquery*
+
+---
+
+### 558. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Kiseki-Labs-Readwise-MCP project provides a simple Model Context Protocol (MCP) server that allows AI models to interact programmatically with Readwise documents. It supports features such as document retrieval, highlight fetching, and integration with external tools like Claude for enhanced fun**
+
+**Key Features:**
+- MCP Server Integration
+- Readwise API Access
+- Language Model Interaction
+- Highlight Retrieval
+- Custom Commands via CLI
+
+*Tags: readwise-mcp, ai-integration, developer-tools, mcp-server, cloud-native, python-api, model-access, data-manipulation*
+
+---
+
+### 559. [kkjdaniel/bgg-mcp](https://github.com/kkjdaniel/bgg-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Borg MCP enables secure, isolated access to BoardGameGeek data via the Model Context Protocol, supporting advanced filtering and retrieval of board game information.**
+
+**Key Features:**
+- Secure API integration with BoardGameGeek
+- Real-time board game data retrieval
+- User collection and profile management
+- Filtering and searching capabilities
+- Integration with AI tools for contextual insights
+
+*Tags: ai, developer-tools, boardgameapi, dataintegration, security, clouddeployment, userexperience, automation*
+
+---
+
+### 560. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `innovation: 8` ★☆☆ 🔵
+
+**MCP-Analyzer is a specialized server that enables developers to read, filter, and analyze Model Context Protocol (MCP) logs directly on macOS, Windows, and Linux. It supports advanced search functionalities, pagination, and integration with Claude Desktop for seamless debugging. The tool enhances de**
+
+**Key Features:**
+- Direct MCP log access
+- Smart filtering and search
+- Paginated browsing
+- Large file handling
+- Integration with Claude Desktop
+
+*Tags: mcp, log-analysis, debugging, developer-tools, ai-integration*
+
+---
+
+### 561. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A server that enables secure and automated conversion of Excel and Apple Numbers files to PDF, integrating with AI assistants for streamlined file management.**
+
+**Key Features:**
+- Convert Excel (.xls/.xlsx) and Apple Numbers (.numbers) files to PDF
+- Integration with Claude AI for conversational file conversion
+- Secure file handling respecting project boundaries
+
+*Tags: excel-to-pdf, ai-assistant, file-conversion, secure-file-handling, mcp-server, developer-tools, automation, cloud-integration*
+
+---
+
+### 562. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Fledge MCP Server acts as a bridge between Fledge instances and Cursor AI, allowing developers to integrate AI-driven interactions using natural language commands. It supports secure API key authentication, real-time data streaming, and tool integration for enhanced functionality.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server
+- API key authentication
+- Tool integration
+- Real-time data access
+- Secure deployment
+
+*Tags: fledge-mcp, api-key, ai-integration, context-engine, secure-deployment*
+
+---
+
+### 563. [krzko/google-cloud-mcp](https://github.com/krzko/google-cloud-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling secure, context-aware interactions with Google Cloud services.**
+
+**Key Features:**
+- Connects to Google Cloud services via MCP protocol
+- Provides tools for managing billing
+- IAM
+- logging
+- monitoring
+- and security
+- Supports automated error detection and remediation
+- Integrates with CI/CD pipelines and developer workflows
+
+*Tags: cloud-integration, security, automation, monitoring, developer-tools, ai-integration, compliance, api-management*
+
+---
+
+### 564. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) service for retrieving image dimensions and compressing images from URLs and local files.**
+
+**Key Features:**
+- Retrieve image dimensions from URLs
+- Compress images using TinyPNG API
+- Compress local images using TinyPNG API
+- Fetch image links from Figma API
+- Integrate with MCP client for programmatic access
+
+*Tags: image-tools, mcp, compression, api-integration, developer-tools, image-processing, cloud-computing, ai-compatibility*
+
+---
+
+### 565. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `innovation: 8` ★☆☆ 🔵
+
+**The ktanaka101/mcp-server-duckdb project implements a Model Context Protocol (MCP) server for DuckDB, allowing developers to interact with the database using a single unified query interface. This facilitates seamless integration of DuckDB into applications by abstracting complex SQL operations and **
+
+**Key Features:**
+- Unified query interface
+- Database interaction via MCP
+- Read-only mode support
+- Secure database handling
+
+*Tags: duckdb, mcp-server-duckdb, developer-tools, database-api, model-protocol, data-integration, secure-connection, read-only-mode*
+
+---
+
+### 566. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Python-based server implementing the Model Context Protocol (MCP) for Zotero, enabling AI assistants to access and interact with Zotero libraries.**
+
+**Key Features:**
+- Zotero search items via text queries
+- Metadata retrieval for specific Zotero items
+- Full-text content retrieval for PDFs
+- Integration with MCP clients and Inspector
+- Local API access (requires Zotero Beta Build)
+- Web API integration (requires Zotero Library ID)
+
+*Tags: zotero-mcp, ai-assistants, developer-tools, context-protocol, zotero-integration, mcp-server, python-devops, api-integration*
+
+---
+
+### 567. [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Whale Tracker MCP server enables real-time monitoring of large blockchain transactions by integrating with the Whale Alert API. It provides tools, resources, and prompts to help users analyze whale activity across different cryptocurrencies, supporting secure development workflows and enterprise**
+
+**Key Features:**
+- get_recent_transactions
+- get_transaction_details
+- query_whale_activity
+- api_key_configuration
+
+*Tags: mcp, whale-tracker, cryptocurrency, whale-alert, api-integration, security, developer-tools, blockchain*
+
+---
+
+### 568. [kursk-ye/code2flow-mcp-server](https://github.com/kursk-ye/code2flow-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A platform that enables AI applications to generate and access code call graphs via MCP protocol.**
+
+**Key Features:**
+- Generate code call graphs
+- Support multiple programming languages
+- Integrate with AI tools
+- Provide code analysis features
+
+*Tags: code2flow, mcp-server, ai-integration, code-analysis, developer-tools, api-service, model-generation, security-features*
+
+---
+
+### 569. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The kuzudb/kuzu-mcp-server is a model context protocol server designed to facilitate interaction between large language models (LLMs) and Kuzu databases. It allows LLMs to fetch database schemas, run Cypher queries, and execute data-driven operations directly within the context of the Kuzu platform.**
+
+**Key Features:**
+- Model context protocol integration
+- Database schema inspection
+- Cypher query execution
+- Data querying capabilities
+
+*Tags: modelcontextprotocol, kuzudb, kuzu-database, ai-development, data-query, llm-integration, cypher-queries, docker*
+
+---
+
+### 570. [kwp-lab/mcp-fetch](https://github.com/kwp-lab/mcp-fetch)  `innovation: 8` ★☆☆ 🔵
+
+**A server-based solution for securely fetching web content with custom HTTP proxies, enabling secure and isolated data retrieval.**
+
+**Key Features:**
+- Web content retrieval with custom HTTP proxy support
+- Secure handling of images and URLs
+- Integration with Claude Desktop for seamless workflow
+- Customizable proxy configuration via environment variables
+
+*Tags: context-engine, proxy-server, web-content-fetching, secure-data-handling, developer-tools, custom-proxy, security-features, integration*
+
+---
+
+### 571. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for extracting and analyzing Xcode build errors and warnings to assist AI assistants in debugging Swift projects.**
+
+**Key Features:**
+- Extracts diagnostics from Xcode build logs
+- Parses complex diagnostics including Swift concurrency warnings
+- Provides detailed error and warning information with file paths
+- line numbers
+- and notes
+- Supports code suggestions and fixes for common issues
+
+*Tags: xcode-diagnostics, ai-assistants, developer-tools, debugging, swift-concurrency, build-analysis, log-parsing, ai-integration*
+
+---
+
+### 572. [letz-ai/letzai-mcp](https://github.com/letz-ai/letzai-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A GitHub-hosted implementation of the LetzAI MCP for image generation, enabling integration with Claude Desktop App.**
+
+**Key Features:**
+- Model Context Protocol (MCP) integration
+- Image generation via prompt-based API
+- Node.js runtime environment
+- Cloud deployment and configuration
+
+*Tags: ai, image-generation, mcp, developer-tools, cloud-deployment*
+
+---
+
+### 573. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `innovation: 8` ★☆☆ 🔵
+
+**The Lincest/mcp-papersearch project provides a web interface that enables users to search academic papers from ArXiv using the Model Context Protocol (MCP). This allows for seamless integration of external research sources into development workflows, supporting modern software engineering practices **
+
+**Key Features:**
+- MCP integration
+- ArXiv paper search
+- code review tools
+- CI/CD support
+- secure code deployment
+
+*Tags: arxiv, mcp, developer, search, integration, security, codebase, automation*
+
+---
+
+### 574. [lite/iterm-mcp](https://github.com/lite/iterm-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The lite/iterm-mcp project provides a Model Context Protocol server that allows users to interact with their iTerm2 session via a terminal context protocol. This facilitates seamless integration for REPL sessions, CLI commands, and interactive development workflows. It supports full terminal control**
+
+**Key Features:**
+- Model context protocol integration
+- REPL support
+- CLI command execution
+- Full terminal control
+- Debugging tools
+
+*Tags: terminal, iTerm2, model_context, ai_assistance, developer_tools*
+
+---
+
+### 575. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a context-aware, API-driven MCP server built on Apache Superset REST API, designed to enhance data query capabilities through large models. It supports secure authentication via LDAP, integrates with Node.js, and offers enterprise-grade security features such as code protection**
+
+**Key Features:**
+- Query database and tables using SQL
+- Execute SQL queries with Node.js
+- Integrate external tools via APIs
+- Support enterprise-grade security features
+- Enable automated workflows and code reviews
+- Provide instant dev environments with Codespaces
+
+*Tags: superset, mcp-server, security, developer-tools, enterprise*
+
+---
+
+### 576. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server for simulating dice rolls with support for standard and Fate/Fudge dice notation.**
+
+**Key Features:**
+- Dice Notation Parsing
+- Multiple Dice Types Support
+- Random Rolling with Probability Control
+- Validation using Zod schemas
+- Integration with Claude Desktop
+
+*Tags: dice-roll, mcp-server, ai-development, code-quality, security, developer-tools, ai-integration, customization*
+
+---
+
+### 577. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `innovation: 8` ★☆☆ 🔵
+
+**The lrstanley/context7-http project provides a context server that supports HTTP streaming and streamable protocols, allowing developers to interact with the Context7 platform from anywhere. It includes features such as code review management, security enhancements, and integration with external too**
+
+**Key Features:**
+- HTTP streaming support
+- Context7 MCP server integration
+- Code review and collaboration tools
+- Security features and vulnerability management
+- Integration with external services and tools
+
+*Tags: context7, mcp-server, http-streamable, api-integration, security, developer-tools, code-review, ci-cd*
+
+---
+
+### 578. [ltejedor/newsfeed-mcp](https://github.com/ltejedor/newsfeed-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The NewsFeed-MCP project provides a server-based solution that aggregates and serves news articles from various RSS feeds. It is designed to integrate seamlessly with AI assistants like Claude, enabling users to receive personalized and context-aware news updates. The system supports features such a**
+
+**Key Features:**
+- News aggregation from multiple RSS feeds
+- AI assistant integration (e.g.
+- Claude)
+- Customizable news feeds
+- Detailed article content access
+- Real-time updates and notifications
+
+*Tags: ai, news, developer, security, integration, rss, cloud, web*
+
+---
+
+### 579. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server that retrieves relevant documentation from a knowledge base using the Gemini API, enabling developers to access curated technical information directly.**
+
+**Key Features:**
+- MCP server for accessing documentation
+- Integration with Gemini API for context-aware responses
+- Support for multiple technologies and tools
+- Automated code review and security checks
+
+*Tags: gemini-api, documentation-access, knowledge-base, developer-tools, ai-assistance, security-checks, code-review, context-aware*
+
+---
+
+### 580. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `innovation: 8` ★☆☆ 🔵
+
+**A Borg-based MCP server enabling AI-driven access and management of Fathom Analytics data.**
+
+**Key Features:**
+- MCP server integration for Fathom Analytics
+- AI-powered analytics tooling
+- Secure code execution and protection
+- Automated workflows and CI/CD support
+
+*Tags: ai, developer, security, analytics, mcp, fathom-analytics, mcp-fathom-analytics, enterprise*
+
+---
+
+### 581. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `innovation: 8` ★☆☆ 🔵
+
+**The macrat/mcp-ayd-server is a GitHub-hosted MCP (Model Context Protocol) server designed to facilitate real-time monitoring and status tracking of Ayd models. It enables developers and operations teams to integrate context-aware services into their workflows, ensuring seamless communication between**
+
+**Key Features:**
+- MCP Server Integration
+- Ayd Model Context Monitoring
+- Real-time Status Updates
+- Secure Configuration Management
+
+*Tags: mcp, modelcontextprotocol, server, ai-monitoring, contextintegration, developertools*
+
+---
+
+### 582. [magenie33/quality-dimension-generator](https://github.com/magenie33/quality-dimension-generator)  `innovation: 8` ★☆☆ 🔵
+
+**A sophisticated Model Context Protocol server that generates precise quality evaluation dimensions and assessment criteria for tasks or projects.**
+
+**Key Features:**
+- AI-powered analysis
+- Transforms vague requirements into measurable standards
+- Generates specific quality dimensions with scoring criteria
+
+*Tags: mcp, ai, quality-dimension-generator, model-context-protocol, software-engineering, automation, developer-tools, code-quality*
+
+---
+
+### 583. [mahdin75/geoserver-mcp](https://github.com/mahdin75/geoserver-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server implementation that enables Large Language Models to interact with GeoServer REST APIs for geospatial data and services.**
+
+**Key Features:**
+- Integration of LLMs with GeoServer REST API
+- Geospatial data and service access via MCP protocol
+- Support for spatial queries
+- map visualizations
+- and OGC-compliant web services
+- Customizable client configurations (e.g.
+- Claude Desktop or Cursor)
+- Secure deployment options including Docker and direct installation
+
+*Tags: geoserver-mcp, ai-integration, geospatial-data, mcp-protocol, developer-tool, python-devops, geospatial-api, ai-assistant*
+
+---
+
+### 584. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a Model Context Protocol (MCP) server for GameBoy emulation, allowing large language models to control the GameBoy emulator through standardized communication protocols. It supports both stdio and SSE transports, providing tools for loading ROMs, interacting with screen elemen**
+
+**Key Features:**
+- MCP server implementation
+- GameBoy screen control
+- ROM loading and rendering
+- SDK-based protocol support
+- automated deployment tools
+
+*Tags: gameboy, mcp, llm, gameemulation, protocols, sdk, webapi, security*
+
+---
+
+### 585. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The npm-mcp-server is a model context protocol (MCP) server designed to provide detailed information about npm packages. It enables developers to search, install, and manage dependencies efficiently within a secure environment. The project supports integration with AI models for enhanced package ana**
+
+**Key Features:**
+- search npm package
+- install npm mcp server
+- integrate with ai models
+- code review tools
+- secure code deployment
+
+*Tags: npm-mcp-server, ai-integration, developer-tools, security*
+
+---
+
+### 586. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Figma MCP Server acts as a bridge between AI assistants like Claude and Figma files, allowing users to view, comment, and analyze designs directly through the ModelContextProtocol. It supports adding files, posting comments, and managing interactions securely.**
+
+**Key Features:**
+- add_figma_file
+- read_comments
+- post_comment
+- reply_to_comment
+
+*Tags: figma-mcp, ai-assist, figma-api, modelcontextprotocol, developer-tools*
+
+---
+
+### 587. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A standalone MCP server enabling AI models to access and query the Australian Pharmaceutical Benefits Scheme (PBS) API using natural language LLM integration.**
+
+**Key Features:**
+- Model Context Protocol (MCP) support for PBS data
+- Natural language LLM integration for querying pharmaceutical information
+- Secure
+- structured access to PBS data via HTTP/SSE
+- Customizable API endpoints and tool invocations
+- Real-time updates and structured pharmaceutical data output
+
+*Tags: pharmaceutical benefits scheme, ai integration, healthcare data systems, api server, ml models, data access, secure coding, developer tools*
+
+---
+
+### 588. [matthewdcage/vapi-mcp](https://github.com/matthewdcage/vapi-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project implements a Model Context Protocol (MCP) server to enable secure, real-time integration of Vapi's voice AI capabilities with Cursor's platform. It provides tools for managing voice assistants, handling conversational flows, and ensuring enterprise-grade security through advanced authent**
+
+**Key Features:**
+- Vapi MCP server integration
+- Voice AI context management
+- Secure API key configuration
+- Environment variable management
+- Direct server execution support
+
+*Tags: vapi, mcp, ai, voice, integration, security*
+
+---
+
+### 589. [mattiasw/browserloop](https://github.com/mattiasw/browserloop)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server for capturing screenshots and monitoring browser console logs during web development.**
+
+**Key Features:**
+- High-quality screenshot capture using Playwright
+- Console log reading and collection from web pages
+- Cookie-based authentication for protected pages
+- Docker containerization for consistent environments
+- Support for localhost and remote URLs
+- Configurable viewport sizes and capture options
+
+*Tags: browserloop, playwright, developer-tools, ai-development, security, automation, testing, docker*
+
+---
+
+### 590. [mattmorgis/nuanced-mcp](https://github.com/mattmorgis/nuanced-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The nuanced-mcp server facilitates call graph analysis for Python repositories, helping AI assistants understand function dependencies and improve contextual code assistance.**
+
+**Key Features:**
+- Initialize call graphs
+- Switch between repositories
+- Analyze function dependencies
+- Get detailed function information
+
+*Tags: model context protocol, call graph analysis, ai assistants, code understanding, software development*
+
+---
+
+### 591. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The BrasilAPI MCP Server enables developers to query Brazil-specific data such as postal codes, banks, holidays, and taxes through a unified interface. It supports integration with various clients and LLMs, improving AI agents' capabilities with up-to-date information. The server is built using Type**
+
+**Key Features:**
+- BrasilAPI data querying
+- Model Context Protocol (MCP) support
+- Integration with AI applications
+- Rich data enrichment from Brazil resources
+- Automated workflow management
+
+*Tags: brazilapi, mcp-server, ai-integration, data-enrichment, developer-tools*
+
+---
+
+### 592. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP-sentry server enables developers to inspect error reports, stack traces, and debugging information from Sentry.io. It provides tools to retrieve issue details by ID or URL, analyze project-specific issues, and integrate with various development workflows for enhanced code review and security**
+
+**Key Features:**
+- Retrieve and analyze Sentry issues
+- Inspect error reports and stack traces
+- Integrate with Claude Desktop via uvx
+- Support project slug-based analysis
+- Enable detailed issue information viewing
+
+*Tags: modelcontextprotocol, sentry, mcp-server, codeanalysis, debugging*
+
+---
+
+### 593. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)  `innovation: 8` ★☆☆ 🔵
+
+**A GitLab MCP integration for AI assistants to review code changes directly within merge requests.**
+
+**Key Features:**
+- Merge Request Analysis
+- File-Specific Diffs
+- Version Comparison
+- Review Management (Comments
+- Approval)
+- Project Overview & Lists
+
+*Tags: gitlab-mcp-code-review, ai-assistant-integration, gitlab-api, code-review, developer-tools*
+
+---
+
+### 594. [metehan777/alsoasked-mcp](https://github.com/metehan777/alsoasked-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A platform for managing and analyzing People Also Asked data to enhance SEO and content optimization.**
+
+**Key Features:**
+- Search People Also Ask questions
+- Integrate with Google's APIs
+- Customizable search parameters
+
+*Tags: search, developer, ai, security, mcp, cloud, integration, automation*
+
+---
+
+### 595. [microsoft/clarity-mcp-server](https://github.com/microsoft/clarity-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server enabling secure, isolated access to Microsoft Clarity analytics and session data.**
+
+**Key Features:**
+- Session recording retrieval
+- Real-time analytics access
+- Natural language query support
+- Integration with Claude for Desktop
+- Custom data filtering and export
+
+*Tags: mcp, clarity-mcp-server, ai, security, developer, integration, analytics, cloud*
+
+---
+
+### 596. [microsoft/mcp](https://github.com/microsoft/mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This repository contains core libraries, test frameworks, engineering systems, pipelines, and tooling for Microsoft MCP Server contributors. It standardizes how applications provide context to large language models (LLMs), enhancing their capabilities and flexibility through a client-server architec**
+
+**Key Features:**
+- Model Context Protocol (MCP) server implementation
+- Integration with Azure services
+- Support for AI assistants and IDEs
+- Secure code execution and development workflows
+- Customizable tooling for enterprise applications
+
+*Tags: modelcontext-protocol, ai-integration, enterprise-devops, secure-devops, microsoft-mcp, developer-tools, cloud-architecture, data-analytics*
+
+---
+
+### 597. [mightydillah/apple-doc-mcp](https://github.com/mightydillah/apple-doc-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A tool that provides seamless access to Apple Developer Documentation with smart search and wildcard support.**
+
+**Key Features:**
+- Smart search with symbol resolution
+- Wildcard support
+- Separate article results
+- Integration with AI coding assistants
+
+*Tags: developer-ux, documentation-integration, ai-assist, search-enhancement, code-support*
+
+---
+
+### 598. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)  `innovation: 8` ★☆☆ 🔵
+
+**MilkDrop 3 is a portable program that supports any audio source (Spotify, YouTube, SoundCloud, Winamp...) It is based on BeatDrop from Maxim Volskiy, so it's 100% compatible with any presets created with MilkDrop and projectM. MilkDrop3 does everything that MilkDrop2 can do, but introduces significa**
+
+**Key Features:**
+- Support for any audio source (Spotify
+- YouTube
+- SoundCloud
+- Winamp...)
+- the introduction of 'double-preset' (.milk2 file) mixing two presets simultaneously
+- real-time toggling of FPS (60/90/120fps)
+- real-time auto-transitioning between presets based on beat detection
+- and new color manipulation features.
+
+*Tags: milkdrop3, double-preset, milkdrop2, beat detection, audio source support, color manipulation, fps toggling, key shortcuts*
+
+---
+
+### 599. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP Task Server implementation for task management using the Model Context Protocol, supporting both CLI and web interfaces.**
+
+**Key Features:**
+- Task creation and management
+- Task filtering and status updates
+- Dual interface modes (STDIO and HTTP+SSE)
+- Comprehensive validation and error handling
+- Automated testing and server shutdown
+
+*Tags: task-management, api-integration, developer-tools, ai-integration, server-architecture, mcp-protocol, web-app, testing*
+
+---
+
+### 600. [mingdaocloud/hap-mcp](https://github.com/mingdaocloud/hap-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**HAP-MCP Server enables secure, isolated context management for AI-driven applications, facilitating seamless integration of machine learning models within enterprise workflows.**
+
+**Key Features:**
+- Model Context Protocol (MCP) server integration
+- Secure code execution and protection against leaks
+- Automated workflow automation and CI/CD support
+- Developer-friendly APIs for AI tool integration
+- Enhanced security features including vulnerability management
+
+*Tags: ai, security, developer, integration, mcp, hap, enterprise*
+
+---
+
+### 601. [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser)  `innovation: 8` ★☆☆ 🔵
+
+**Reynard Browser is an open-source, Gecko-based mobile web browser tailored for iOS 14 and later devices. It aims to provide users with a reliable alternative to Apple's WebKit engine, which is often locked down in newer iOS versions. By using Gecko, Reynard enables access to modern websites that may**
+
+**Key Features:**
+- Gecko-based rendering engine
+- Support for iOS 14+ and later
+- Engine updates independent of OS
+- Customizable extensions and app support
+- Live development environment with sideloading options
+
+*Tags: gecko, iOS, web browser, developer tools, security, open source, cross platform, customization*
+
+---
+
+### 602. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
+
+**Key Features:**
+- Dynamic configuration of coding guidelines
+- Integration with external guidelines via URLs
+- Real-time code validation and security scanning
+- Customizable development standards
+- Automatic updates without server restart
+
+*Tags: developer workflow, code review, security, guidelines, mcp server, ai integration, enterprise development, security best practices*
+
+---
+
+### 603. [mistizz/mcp-japanesetextanalyzer](https://github.com/mistizz/mcp-japanesetextanalyzer)  `innovation: 8` ★☆☆ 🔵
+
+**日本語テキストの形態素解析を行い、言語的特徴を分析するMCPサーバーです。**
+
+**Key Features:**
+- 日本語テキストの文字数（スペースや改行を除いた実質的な文字数）
+- 日本語テキストの単語数
+- 形態素解析による詳細な言語的特徴分析
+- 平均文長、品詞の割合、語彙の多様性、助詞・カタカナ・漢字の割合、敬語使用頻度、句読点数
+
+*Tags: mcp-japanese-text-analyzer, microsoft-code-analysis, text-processing, language-analysis, ai-powered-development, security-scanning, code-quality, developer-workflow*
+
+---
+
+### 604. [mkearl/dependency-mcp](https://github.com/mkearl/dependency-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server for analyzing code dependencies and architectural patterns.**
+
+**Key Features:**
+- Dependency graph generation in JSON/DOT format
+- Architectural analysis and scoring
+- File metadata extraction
+- Support for multiple programming languages (TypeScript
+- JavaScript
+- C#
+- Python)
+
+*Tags: context-engineering, dependency-analysis, architecture-assessment, code-metadata, multi-language-support*
+
+---
+
+### 605. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A secure command-line interface for MCP clients with customizable security policies.**
+
+**Key Features:**
+- Secure command execution with strict validation
+- Command whitelisting and flag restrictions
+- Path traversal prevention
+- Shell operator blocking (optional)
+- Execution timeouts and length limits
+- Detailed error reporting
+- Async operation support
+- Working directory restriction and validation
+
+*Tags: mcp-server, security, command-line, developer-tools, ai-integration, secure-execution, devops, api-integration*
+
+---
+
+### 606. [mobizt/build-your-own-x](https://github.com/mobizt/build-your-own-x)  `innovation: 8` ★☆☆ 🔵
+
+**This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. What you cannot create, you do not understand — Richard Feynman.**
+
+**Key Features:**
+- A comprehensive collection of tutorials and guides focused on building or understanding core technologies from the ground up
+- covering areas like 3D Rendering
+- Augmented Reality
+- BitTorrent Clients
+- Blockchain/Crypto tools
+- and various programming paradigms (C++
+- C#
+- Java
+- JavaScript
+- Python).
+
+*Tags: ['3D Renderer', 'Augmented Reality', 'BitTorrent Client', 'Blockchain / Cryptocurrency Bot', 'C++', 'C#', 'Java', 'JavaScript'*
+
+---
+
+### 607. [modelcontextprotocol-servers/google-search-mcp](https://github.com/modelcontextprotocol-servers/google-search-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Playwright-based tool for performing Google searches, bypassing anti-bot mechanisms and extracting structured results for AI assistants.**
+
+**Key Features:**
+- Anti-bot bypass
+- Automatic CAPTCHA handling
+- State persistence
+- Multi-language support
+- Browser session saving
+
+*Tags: modelcontextprotocol-servers, search, ai-assistants, developer-tools*
+
+---
+
+### 608. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)  `innovation: 8` ★☆☆ 🔵
+
+**A server implementing the Model Context Protocol (MCP) for secure, dynamic filesystem operations with advanced file management and access control.**
+
+**Key Features:**
+- MCP-based directory access control
+- Dynamic root-based access via Roots protocol
+- Secure file read/write operations
+- File metadata retrieval
+- Directory listing with size information
+- Dry-run editing capabilities
+- Multi-file processing and pattern matching
+
+*Tags: filesystem, mcp, security, developer, accesscontrol, fileoperations, dynamicdirectories, filemetadata*
+
+---
+
+### 609. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `innovation: 8` ★☆☆ 🔵
+
+**The Model Context Protocol (MCP) is an open-source specification that defines how AI models can securely share context and state across different services or environments. This GitHub project offers comprehensive documentation, including a TypeScript schema, JSON Schema, and examples for integrating**
+
+**Key Features:**
+- Model context sharing
+- Secure communication protocols
+- Code signing and verification
+- Integration with CI/CD pipelines
+- Automated security scanning
+- Developer workflow automation
+
+*Tags: modelcontextprotocol, ai-security, developer-tools, enterprise-ai, code-safety*
+
+---
+
+### 610. [namin/dafny-mcp](https://github.com/namin/dafny-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Dafny Verifier Tool is designed to integrate with the Model Context Protocol, enabling developers to validate their code against formal specifications. This enhances security and reliability by ensuring that code adheres to predefined models before deployment. It supports seamless integration wi**
+
+**Key Features:**
+- Dafny Verifier Tool
+- Model Context Protocol support
+- Code verification
+- Integration with Claude
+- Automated testing
+
+*Tags: dafny, verification, code analysis, model context, formal methods, security, ai integration, developer tools*
+
+---
+
+### 611. [nathanonn/mcp-url-fetcher](https://github.com/nathanonn/mcp-url-fetcher)  `innovation: 8` ★☆☆ 🔵
+
+**The mcp-url-fetcher is a GitHub-hosted project that enables developers to fetch content from any URL and convert it into HTML, JSON, Markdown, or plain text. It supports universal input handling, automatic content detection, and integrates with Claude for Desktop for natural language processing. Sec**
+
+**Key Features:**
+- URL fetching from any source
+- Format conversion (HTML
+- JSON
+- Markdown
+- plain text)
+- Automatic content detection
+- Security measures for web content
+- Integration with Claude for Desktop
+
+*Tags: mcp-url-fetcher, web-scraping, content-conversion, security, developer-tools, ai-integration, cloud-native, data-processing*
+
+---
+
+### 612. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server for YouTube videos enabling metadata extraction, caption handling, and markdown conversion.**
+
+**Key Features:**
+- Video metadata retrieval
+- Automatic caption extraction
+- Markdown template conversion
+- Search within captions
+- OAuth2 authentication support
+
+*Tags: youtube-mcp, video-api, mcp-server, youtube-captions, markdown-converter, context-protocol, developer-tools, ai-extension*
+
+---
+
+### 613. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) compatible server for securely interacting with NEAR blockchain.**
+
+**Key Features:**
+- Interact with NEAR accounts using AI models
+- Manage NEAR account balances and status
+- Sign and send transactions
+- Create and manage new accounts
+- Inspect and execute smart contracts
+- Import private keys for secure access
+
+*Tags: ai, blockchain, near, developer, security, mlp, enterprise, ai*
+
+---
+
+### 614. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The nebula-contrib/nebulagraph-mcp-server is a Model Context Protocol (MCP) server designed to provide seamless access to NebulaGraph 3.x. It facilitates integration with LLM tools, supports configuration via environment variables and .env files, and offers a command-line interface for managing data**
+
+**Key Features:**
+- Model Context Protocol Server
+- Seamless access to NebulaGraph 3.x
+- Configuration via environment variables
+- Command-line interface
+- Support for schema management and querying
+
+*Tags: modelcontextprotocol, nebulagraph, nebula-graph, ai-integration, developer-tools, python-server, ml-integration, data-querying*
+
+---
+
+### 615. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A cloud-based MCP server enabling secure, isolated interaction between FreeCAD and Claude Desktop for collaborative engineering workflows.**
+
+**Key Features:**
+- MCP (Model Context Protocol) server integration
+- Secure remote access via RPC server
+- Automatic startup on FreeCAD launch
+- Remote connection configuration
+- Integration with Claude Desktop for seamless workflow
+
+*Tags: freecad, mcp, cloud, collaboration, developer, security, integration, ai*
+
+---
+
+### 616. [neno-is-ooo/mcp-openverse](https://github.com/neno-is-ooo/mcp-openverse)  `innovation: 8` ★☆☆ 🔵
+
+**A server enabling secure, isolated access to openly licensed images from Openverse for development and testing.**
+
+**Key Features:**
+- Open-source MCP server
+- Image search with filters
+- License verification
+- Attribution handling
+
+*Tags: mcp, openverse, image-search, licensing, developer-tools, security, code-quality, api-integration*
+
+---
+
+### 617. [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)  `innovation: 8` ★☆☆ 🔵
+
+**Neo4j MCP Servers enable context management between large language models and external systems, facilitating secure and efficient data exchange.**
+
+**Key Features:**
+- Model Context Protocol (MCP) servers
+- Secure communication with Aura accounts
+- Cloud deployment options
+- Graph data modeling and visualization
+
+*Tags: neo4j, mcp, cypher, graphdb, cloud, security, developer, ai*
+
+---
+
+### 618. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project offers a comprehensive GitHub integration that enables teams to manage code repositories, track issues, manage pull requests, and automate workflows directly within the GitHub ecosystem. It supports advanced search capabilities, batch operations, and enterprise-grade security measur**
+
+**Key Features:**
+- Automatic branch creation
+- Comprehensive error handling
+- Git history preservation
+- Batch file and code operations
+- Advanced search across repositories and issues
+- Pull request management
+- Security features including vulnerability detection
+- Code review and commenting
+- Integration with external tools
+
+*Tags: git, ci, security, developer, automation, integration, code, workflow*
+
+---
+
+### 619. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling interaction with the Status Invest API for stock data and indicators.**
+
+**Key Features:**
+- Fetch stock data
+- Fetch indicators
+- Data validation with Zod
+- Integration with external APIs
+
+*Tags: api integration, data validation, stock market, mcp server, status invest, zod validation, developer tools, enterprise solutions*
+
+---
+
+### 620. [nighttrek/software-planning-mcp](https://github.com/nighttrek/software-planning-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**An experiment in software planning using MCP to structure and track development tasks.**
+
+**Key Features:**
+- Interactive Planning Sessions
+- Task Management
+- Complexity Scoring
+- Implementation Plans
+- Code Examples
+- Insights & Analytics
+
+*Tags: software-planning, mcp, development-planning, ai-development, project-management, code-automation, software-architecture, task-tracking*
+
+---
+
+### 621. [nodegis/geo-mcp-server](https://github.com/nodegis/geo-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**NodeGIS's geo-mcp-server is a Node.js-based platform that facilitates geographic data processing, including coordinate transformations, distance calculations, area computations, and integration with various mapping projections. It supports multiple coordinate systems such as WGS84, GCJ02, BD09, and **
+
+**Key Features:**
+- coordinate system conversion
+- distance calculation
+- area calculation
+- spatial analysis tools
+
+*Tags: geospatial, mcp-server, coordinate_conversion, spatial_analysis, nodegis, gis-tools, mapping, data_integration*
+
+---
+
+### 622. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `innovation: 8` ★☆☆ 🔵
+
+**A Node.js application providing a Model Context Protocol (MCP) server for interacting with Harbor container registry.**
+
+**Key Features:**
+- MCP Server for Harbor
+- Automated testing with Jest
+- TypeScript-based development
+- Integration with Harbor operations
+- Support for projects
+- repositories
+- tags
+- and Helm charts
+
+*Tags: mcp-harbor, harbor, devops, containerregistry, automation, security*
+
+---
+
+### 623. [odgrim/mcp-datetime](https://github.com/odgrim/mcp-datetime)  `innovation: 8` ★☆☆ 🔵
+
+**MCP DateTime is a lightweight TypeScript library designed to integrate with AI agents and chat interfaces by delivering accurate local time, current time in any timezone, and timezone details via URI resources. It supports standard I/O mode for seamless integration with systems using the Model Conte**
+
+**Key Features:**
+- Get current time in local timezone
+- Retrieve current system timezone
+- List available timezones
+- Access timezone info via URI resources
+- Support for SSE mode with custom port/uri prefix
+- Integration with AI systems via MCP protocol
+
+*Tags: mcp-datetime, timezone-info, ai-integration, developer-tools, time-travel, context-protocol, devops, enterprise*
+
+---
+
+### 624. [olaxbt/solana-vault-mcp](https://github.com/olaxbt/solana-vault-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Solana Vault MCP project implements a secure Solana blockchain wallet interface using the Model Context Protocol. It allows AI assistants to interact with the blockchain without exposing private keys, supporting features like balance checking, transfers, and transaction history retrieval. The pr**
+
+**Key Features:**
+- Secure wallet operations
+- SOL balance checking
+- Transaction history retrieval
+- Model Context Protocol compliance
+- Flask web server support
+
+*Tags: solana, vault, mcp, ai, security, developer, blockchain, webhook*
+
+---
+
+### 625. [omer-ayhan/custom-context-mcp](https://github.com/omer-ayhan/custom-context-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server that transforms text into structured JSON using predefined templates.**
+
+**Key Features:**
+- Group and structure text based on JSON templates with placeholders
+- Extract key-value pairs from AI-generated text for downstream use
+- Support nested JSON structures and complex data extraction
+- Integrate with AI models to automate data structuring and processing
+
+*Tags: context engineering, ai integration, data transformation, json processing, developer tools*
+
+---
+
+### 626. [onnx/onnx](https://github.com/onnx/onnx)  `innovation: 8` ★☆☆ 🔵
+
+**ONNX is an open source format for AI models, both deep learning and traditional ML. It defines an extensible computation graph model, as well as definitions of built-in operators and standard data types. Currently we focus on the capabilities needed for inferencing (scoring). ONNX is widely supporte**
+
+**Key Features:**
+- ONNX provides an open source format for AI models
+- defining an extensible computation graph model with built-in operators and standard data types. It focuses on capabilities needed for inferencing (scoring)
+- enabling interoperability between frameworks
+- and streamlining the path from research to production.
+
+*Tags: ['onnx', 'machine learning', 'ai', 'deep learning', 'interoperability', 'open source', 'inference', 'pytorch'*
+
+---
+
+### 627. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Java-based Model Context Protocol (MCP) server for JDBC, enabling secure and efficient database connectivity.**
+
+**Key Features:**
+- Supports MCP protocol for seamless integration with Virtuoso DBMS
+- Secure JDBC connection management with environment variables
+- Comprehensive schema and table information retrieval
+- Advanced querying capabilities including filtering
+- searching
+- and SPARQL support
+- AI-assisted code generation and review through integrated tools
+
+*Tags: JDBC, MCP, Database Integration, Security, AI Development, Cloud Services, Data Management, Modernization*
+
+---
+
+### 628. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol (MCP) server that enhances Zig language support with code optimization, compute unit estimation, code generation, and best practices.**
+
+**Key Features:**
+- Modern build system support for Zig 0.15.2+
+- Code optimization and performance analysis
+- Automated migration guidance for legacy patterns
+- Enhanced module system integration
+- Comprehensive code generation from natural language prompts
+- Detailed code recommendations for safety and efficiency
+
+*Tags: zig, mcp, code-analysis, build-system, optimization, testing, documentation, security*
+
+---
+
+### 629. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server for Coda provides a standardized API for interacting with Coda's document management system, allowing AI tools to perform CRUD operations and manipulate content across Coda pages. It supports features such as listing documents, creating pages, updating content, and resolving metadata **
+
+**Key Features:**
+- coda_list_documents
+- coda_list_pages
+- coda_create_page
+- coda_get_page_content
+- coda_replace_page_content
+- coda_append_page_content
+- coda_duplicate_page
+- coda_rename_page
+- coda_peek_page
+- coda_resolve_link
+
+*Tags: mcp, document, ai, coda*
+
+---
+
+### 630. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server bridging Hacker News API with AI tools for seamless integration.**
+
+**Key Features:**
+- Integration with Claude and Cursor for Model Context Protocol
+- Fetching live Hacker News data (posts
+- comments
+- users)
+- Support for advanced queries and custom parameters
+- Real-time updates and latest content retrieval
+
+*Tags: mcp-hacker-news, ai-integration, model-context-protocol, hacker-news-api, nodejs-devops, developer-tools, security-features*
+
+---
+
+### 631. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A toolset for automating API integration, code generation, and design-to-code workflows using Figma.**
+
+**Key Features:**
+- Figma integration for seamless design-to-code conversion
+- API automation with TypeScript interface generation
+- Asset management and extraction from Figma files
+- Visual similarity comparison between Figma prototypes and project pages
+- Customizable project standards and code rules
+
+*Tags: figma-to-code, api-integration, design-to-code, code-generation, developer-tools, mcp, frontend-automation, api-documentation*
+
+---
+
+### 632. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `innovation: 8` ★☆☆ 🔵
+
+**Maya MCP server enables AI-powered control of Autodesk Maya via natural language using the Model Context Protocol.**
+
+**Key Features:**
+- AI assistant integration for Maya
+- Natural language command execution
+- Dynamic tool registration
+- Scene and object manipulation
+- Model context protocol support
+
+*Tags: maya, ai, model_context, automation, developer_tools*
+
+---
+
+### 633. [paulotaylor/voyp-mcp](https://github.com/paulotaylor/voyp-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Voyp MCP server enables secure, two-way integration between AI models and external data sources, facilitating seamless call context management.**
+
+**Key Features:**
+- Construct robust call contexts
+- Search for business information
+- Call and make appointments/reservations
+- Provide call status updates
+
+*Tags: ai, developer, mcp, call_context, ai_integration, voice_assist, enterprise_ai, cloud_integration*
+
+---
+
+### 634. [permissionlesstech/bitchat](https://github.com/permissionlesstech/bitchat)  `innovation: 8` ★☆☆ 🔵
+
+**A decentralized peer-to-peer messaging app with a dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach. It's the side-groupchat.**
+
+**Key Features:**
+- Dual Transport Architecture (Bluetooth mesh for offline + Nostr protocol for internet-based messaging)
+- Location-Based Channels (Geohash coordinates)
+- Intelligent Message Routing (Bluetooth → Nostr fallback)
+- Decentralized Mesh Network
+- Noise Protocol Encryption
+- IRC-Style Commands (/msg
+- /who style interface).
+
+*Tags: ['bluetooth mesh chat', 'nostr protocol', 'noise protocol', 'privacy first', 'location channels', 'offgrid communication', 'dual transport', 'decentralized messaging'*
+
+---
+
+### 635. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**PageSpeed MCP Server integrates AI capabilities with PageSpeed Insights to analyze website performance metrics.**
+
+**Key Features:**
+- Performance metrics analysis
+- Core Web Vitals evaluation
+- Accessibility audits
+- SEO insights
+
+*Tags: pagespeed, mcp, developer, ai, web performance, security, optimization, testing*
+
+---
+
+### 636. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `innovation: 8` ★☆☆ 🔵
+
+**A server for managing LLM contexts with YAML-based configuration and resource management.**
+
+**Key Features:**
+- Resource management (text
+- CLI
+- code
+- images)
+- Tool system registration and execution
+- Prompt management with templates and dynamic inputs
+- Multiple transport options (SSE
+- custom)
+- Resource watching and hot-reload capabilities
+
+*Tags: mlp, llmling, server, yaml, developer, ai, security, deployment*
+
+---
+
+### 637. [pinkpixel-dev/npm-helper-mcp](https://github.com/pinkpixel-dev/npm-helper-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server that enhances npm package management for AI applications, enabling seamless integration with LLMs and automated dependency updates.**
+
+**Key Features:**
+- Automated dependency checking and upgrading using Model Context Protocol
+- Safe upgrade tools to prevent version conflicts
+- Integration with LLMs like Claude for intelligent npm operations
+- Comprehensive search and metadata retrieval for packages
+- Support for secure
+- isolated development environments
+
+*Tags: npm-helper-mcp, ai-integration, dependency-management, security, developer-tools, automation, context-protocol, package-updater*
+
+---
+
+### 638. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Node.js server implementing the Model Context Protocol (MCP) to enable AI clients to interact with the Directus API.**
+
+**Key Features:**
+- MCP server integration
+- AI client interaction
+- Directus API support
+
+*Tags: directus, api-integration, developer-tools, ai-clients, security, developer-ecosystem, npm*
+
+---
+
+### 639. [politwit1984/mcp-perplexity-server](https://github.com/politwit1984/mcp-perplexity-server)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server for intelligent code analysis and debugging using Perplexity AI, integrated with Claude desktop client.**
+
+**Key Features:**
+- Intelligent error analysis
+- Pattern detection
+- Comprehensive solutions
+- Best practices and coding standards
+- Error prevention tips
+
+*Tags: perplexity, code-analysis, debugging, ai-integration, developer-tools*
+
+---
+
+### 640. [pollinations/chucknorris](https://github.com/pollinations/chucknorris)  `innovation: 8` ★☆☆ 🔵
+
+**MCP server that dynamically adapts LLM enhancement prompts using jailbreak techniques for improved performance.**
+
+**Key Features:**
+- Dynamic schema adaptation
+- Jailbreak prompt integration
+- Two-phase approach to bypass detection
+- Model-specific prompt customization
+
+*Tags: mcp, llm, promptengineering, securityresearch, aiethics, modelenhancement, jailbreak, securitytesting*
+
+---
+
+### 641. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A MCP server tool for generating O'Reilly parody dev books, integrating with Claude Desktop.**
+
+**Key Features:**
+- MCP server integration for O'Reilly book generation
+- Support for custom titles
+- authors
+- and images
+- Automated code generation and testing
+- Cloud deployment and CI/CD support
+
+*Tags: developer, mcp, code-generation, cloud-dev, ai-tools, book-generator, desktop-app, mcp-server*
+
+---
+
+### 642. [pyroprompts/any-chat-completions-mcp](https://github.com/pyroprompts/any-chat-completions-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Server allows developers to deploy and manage multiple AI chat completion providers (e.g., Claude, Perplexity, PyroPrompts) as tools within the Borg environment. It supports seamless integration with various LLMs, enabling dynamic selection and interaction based on context and requirements. **
+
+**Key Features:**
+- Integrate multiple AI chat completion APIs
+- Dynamic tool selection per context
+- Context-aware interactions
+- Scalable deployment options
+
+*Tags: any-chat-completions-mcp, ai-integration, ml-as-a-tool, developer-workflow, context-aware*
+
+---
+
+### 643. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for advanced code analysis and transformation using tree-hugger-js-mcp, supporting static analysis, refactoring, and integration with AI-driven development workflows.**
+
+**Key Features:**
+- Code analysis and pattern matching
+- Automated code transformation
+- Integration with MCP server for AI agents
+- Support for TypeScript and JSX
+- Development and testing environments
+
+*Tags: code-analysis, ai-development, mcp-integration, devops, security, developer-productivity, modernization, security-features*
+
+---
+
+### 644. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for auditing npm package dependencies to identify security vulnerabilities using real-time remote registry integration.**
+
+**Key Features:**
+- Real-time security vulnerability scanning
+- Remote npm registry integration
+- Detailed CVSS scoring and CVE references
+- Automatic fix recommendations
+- Support for multiple severity levels
+
+*Tags: mcp-security-audit, npm-security, dependency-scanning, security-audit, code-security, package-manager, devops-security, software-security*
+
+---
+
+### 645. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `innovation: 8` ★☆☆ 🔵
+
+**The qpd-v/mcp-delete project introduces a Model Context Protocol (MCP) server designed to enhance AI assistant capabilities by providing secure file deletion functionality. It supports both relative and absolute paths, intelligently resolving them to ensure safe and accurate file removal. The soluti**
+
+**Key Features:**
+- File deletion via MCP
+- Smart path resolution
+- Support for relative and absolute paths
+- Secure deletion with error messages
+- Compatibility with Claude and other MCP-compatible AI assistants
+
+*Tags: model context protocol, ai assistant, file management, secure deletion, mcp server, ai development, code integration, path resolution*
+
+---
+
+### 646. [qpd-v/mcp-wordcounter](https://github.com/qpd-v/mcp-wordcounter)  `innovation: 8` ★☆☆ 🔵
+
+**The qpd-v/mcp-wordcounter project provides a Model Context Protocol server designed to facilitate text analysis by offering straightforward word and character counting features. This tool is particularly useful for developers and data scientists working on natural language processing tasks, enabling**
+
+**Key Features:**
+- word counting
+- character counting
+- document analysis
+- text statistics
+
+*Tags: mcp, wordcounter, textanalysis, developertool, aifeatures, codeintegration, security, developerworkflow*
+
+---
+
+### 647. [quanticsoul4772/analytical-mcp](https://github.com/quanticsoul4772/analytical-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**Analytical MCP Server provides AI-driven statistical analysis, decision support, and research verification tools for Claude.**
+
+**Key Features:**
+- Statistical Analysis
+- Decision Analysis
+- Logical Reasoning
+- Research Verification
+
+*Tags: analytical-mcp, ai, decision-support, data-visualization, metrics, logic, security, developer-tools*
+
+---
+
+### 648. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a GitHub-based platform that enables users to analyze stock tickers by integrating with the Model Context Protocol. It supports fetching real-time and historical stock data, generating alerts based on price movements, and managing data as resources. The tool emphasizes automatio**
+
+**Key Features:**
+- stock-data analysis
+- intraday and daily data retrieval
+- price movement alerts
+- data resource management
+- code review and security features
+
+*Tags: stock-analysis, model-context-protocol, api-integration, data-processing, enterprise-software, security-features, developer-tools, automation*
+
+---
+
+### 649. [r-huijts/firstcycling-mcp](https://github.com/r-huijts/firstcycling-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server providing professional cycling data for analysis and visualization.**
+
+**Key Features:**
+- Retrieve rider biographical information
+- Access race results and statistics
+- Explore historical race data
+- Analyze performance trends
+- Visualize team and career progression
+
+*Tags: cycling, analysis, profiles, tracking, mcp, firstcycling*
+
+---
+
+### 650. [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project integrates a MCP (Model Context Protocol) server to allow users to search, analyze, and visualize Rijksmuseum artworks using natural language. It supports features such as artwork discovery, detailed image viewing, artist research, and collection analysis, enhancing contextual understand**
+
+**Key Features:**
+- Search Artworks
+- Artwork Details
+- High-Resolution Images
+- User Collections
+- Image Viewing
+- Artist Timeline
+- Collection Analysis
+- Visual Details
+
+*Tags: ai, art, museum, digital, visualization, analysis, search, interactive*
+
+---
+
+### 651. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A framework enabling communication with AI models via Model Context Protocol (MCP) to standardize interactions between AI and various data sources.**
+
+**Key Features:**
+- Integration with Azure CLI and Power Platform CLI for seamless API access
+- Support for MCP server deployment in DevContainers or local environments
+- Enables secure
+- standardized communication with AI models using Graph API and Azure REST API
+- Facilitates automation of workflows and integration with external tools
+
+*Tags: genaiscript, ai, mcp, azure, power-platform, developer-tools, automation, integration*
+
+---
+
+### 652. [random-robbie/mcp-web-browser](https://github.com/random-robbie/mcp-web-browser)  `innovation: 8` ★☆☆ 🔵
+
+**An advanced web browsing server for the Model Context Protocol (MCP) powered by Playwright, enabling secure and flexible headless browser interactions.**
+
+**Key Features:**
+- Headless web browsing with MCP support
+- Secure API for browser automation
+- Advanced page interaction tools
+- Multi-tab management
+- JavaScript execution on pages
+- Page content extraction and manipulation
+- Screenshot capturing
+- Link extraction and filtering
+
+*Tags: playwright, mcp, web-browser, security, developer-tools, automation, browser-services, ai-integration*
+
+---
+
+### 653. [ratchanonth60/querycraftmcp](https://github.com/ratchanonth60/querycraftmcp)  `innovation: 8` ★☆☆ 🔵
+
+**The QueryCraftMCP project provides a modular, extensible platform for integrating Large Language Models (LLMs) with various database systems. It supports dynamic schema discovery, secure data querying, and lifespans management for database connections, making it suitable for complex enterprise appli**
+
+**Key Features:**
+- Multi-database backend support (PostgreSQL and SQLite)
+- Dynamic tool loading based on active database
+- Schema discovery and structured data querying
+- Secure connection management with lifespan control
+- Transport protocol: Server-Sent Events (SSE)
+- Docker containerization for deployment
+
+*Tags: ai, developer, database, query, mcp, docker, security, integration*
+
+---
+
+### 654. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project's repository provides a web-based interface that enables users to search for and retrieve academic papers from the arXiv repository. It supports advanced search functionalities, including filtering by keywords, authors, and publication dates. The system is designed to integrate seam**
+
+**Key Features:**
+- Search arXiv papers
+- Retrieve paper content
+- Integrate with LLMs
+- Support code review and security checks
+
+*Tags: arxiv, mcp, search, ai, developer, security, code, repository*
+
+---
+
+### 655. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project provides a PostgreSQL MCP Server implementation using TypeScript and PostGIS extension, enabling seamless integration of spatial data handling within development and production environments. It supports hot-reload functionality, configuration management, and secure deployment practices.**
+
+**Key Features:**
+- MCP server integration
+- PostGIS database support
+- Hot-reload development mode
+- Environment configuration (development/production)
+- Secure code management and version control
+
+*Tags: postgres, modelcontextprotocol, mcp, developer-tools*
+
+---
+
+### 656. [redhat-ai-tools/mcp-registry-mcp](https://github.com/redhat-ai-tools/mcp-registry-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP Registry MCP project provides a centralized server registry for managing Model Context Protocol (MCP) servers. It offers tools to monitor, list, and retrieve details about MCP registry instances, ensuring secure and isolated operations within enterprise environments.**
+
+**Key Features:**
+- health_check
+- list_registry_server_entries
+- get_server_details
+- ping
+
+*Tags: mcp, registry, ai-tools, security, developer, ai, governance, integration*
+
+---
+
+### 657. [reexpressai/reexpress_mcp_server](https://github.com/reexpressai/reexpress_mcp_server)  `innovation: 8` ★☆☆ 🔵
+
+**A tool for adding statistical verification and confidence estimation to AI model outputs, enhancing reliability in LLM-based workflows.**
+
+**Key Features:**
+- Tool-calling LLMs with SDM estimator
+- Dynamic update handling after verification
+- Ability to adapt models for custom tasks
+- Integration of pre-trained Reexpress models
+- Local processing to maintain data privacy
+
+*Tags: ai, ml, llm, verification, security, data_science, model_validation, code_review*
+
+---
+
+### 658. [ricauts/cybermcp](https://github.com/ricauts/cybermcp)  `innovation: 8` ★☆☆ 🔵
+
+**CyberMCP enables AI-powered security testing of backend APIs using a Model Context Protocol server.**
+
+**Key Features:**
+- Authentication testing (JWT
+- OAuth2)
+- Injection testing (SQL injection
+- XSS)
+- Data protection checks (sensitive data exposure)
+- Rate limiting and DoS vulnerability assessment
+- Security header validation
+- Comprehensive security checklists and guides
+
+*Tags: cybersecurity, api security, mcp, security testing, ai-powered, developer tools, enterprise security, code analysis*
+
+---
+
+### 659. [rishabkoul/iterm-mcp-server](https://github.com/rishabkoul/iterm-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The rishabkoul/iTerm-MCP-Server project provides a Node.js-based implementation for integrating AI assistants with iTerm2 terminal environments via the Model Context Protocol. It supports secure, isolated execution of commands and terminal interactions, ensuring input validation and error handling. **
+
+**Key Features:**
+- Create and manage iTerm2 terminal sessions
+- Execute commands in specific terminals
+- Read and close active terminals
+- Input sanitization and error handling
+
+*Tags: mcp, terminal-integration, ai-assistants, node.js, security, developer-tools*
+
+---
+
+### 660. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP server facilitates the integration of CucumberStudio's API with AI-powered tools by providing context information, enabling AI assistants to generate and modify test scenarios, features, and resources. It supports various functionalities such as fetching project details, applying changes, an**
+
+**Key Features:**
+- Fetch data from CucumberStudio API
+- Provide context about CucumberStudio projects and features
+- Enable AI to generate and modify test scenarios
+- Apply changes to CucumberStudio resources
+- View schema for MCP server
+
+*Tags: cucumber-studio, ai-integration, context-protocol, developer-tools, ai-applications, test-scenario-generation, api-context, automation-support*
+
+---
+
+### 661. [robertpelloni/ffr-difficulty-model](https://github.com/robertpelloni/ffr-difficulty-model)  `innovation: 8` ★☆☆ 🔵
+
+**This project predicts the difficulty of StepMania (.sm) files using a machine learning model. It provides tools for predicting the difficulty of individual or batch of StepMania files, outputting predicted difficulty scores and features.**
+
+**Key Features:**
+- The core functionality is a prediction pipeline that estimates the difficulty score and meter for StepMania charts based on the input file's features. The model is designed to quantify the difficulty of these musical charts.
+
+*Tags: ['stepmania', 'machine learning', 'prediction', 'audio', 'music theory', 'stepmania difficulty', 'ai', 'model prediction'*
+
+---
+
+### 662. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The GIS Data Conversion MCP (MCP) server facilitates the conversion of diverse GIS file types into standardized formats such as GeoJSON, WKT, CSV, and more. It supports reverse geocoding, coordinate system transformations, and integrates with various GIS libraries to ensure seamless data interoperab**
+
+**Key Features:**
+- Reverse geocoding
+- Coordinate system conversion
+- WKT/GeoJSON conversion
+- CSV/GeoJSON conversion
+- TopoJSON/GeoJSON conversion
+- KML to GeoJSON
+- GeoJSON to KML
+
+*Tags: gis-data-conversion, ai-development, geospatial-integration, model-accessibility, data-standardization*
+
+---
+
+### 663. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**Servidor MCP elegante y eficiente para gestionar frases inspiradoras, integrándose con Claude for Desktop.**
+
+**Key Features:**
+- Gestión completa de frases (crear
+- leer
+- actualizar
+- eliminar)
+- Integración con Claude for Desktop
+- API mock para pruebas y desarrollo
+- Configuración personalizable para entornos MCP
+
+*Tags: mcp-server, phrases-mcp-server, developer-tools, api-integration, code-deployment, cloud-integration, ai-development, mcp-api*
+
+---
+
+### 664. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS queries, WHOIS record retrieval, IP geolocation, and**
+
+**Key Features:**
+- ASN (Autonomous System Number) Lookup
+- DNS Record Lookup
+- WHOIS Record Retrieval
+- IP Geolocation
+- Network Port Scanning
+- Threat Intelligence Integration
+- Malware Hash Lookups
+- URL Reputation Checking
+- Email Security Analysis
+- Passive DNS History
+- Security Policy Enforcement
+
+*Tags: network security, incident response, ai-driven analysis, devops integration, cloud-native, automated workflows, security orchestration, data analytics*
+
+---
+
+### 665. [runninghare/ts-def-mcp](https://github.com/runninghare/ts-def-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The runninghare/ts-def-mcp tool is a Model Context Protocol (MCP) server designed to assist AI code editors in identifying the original definitions of imported symbols, classes, interfaces, and functions in TypeScript projects. It enables developers to quickly locate where specific symbols are defin**
+
+**Key Features:**
+- Finds original definitions of TypeScript symbols
+- Supports imported symbols from external packages
+- Returns definition location and code snippet
+- Works with stdio interface for AI integration
+- Seamless integration with AI code editors
+
+*Tags: ai, code-editor, developer-tools, security, type-safe, bun, smartery*
+
+---
+
+### 666. [russellw/sourceview](https://github.com/russellw/sourceview)  `innovation: 8` ★☆☆ 🔵
+
+**A modern source code viewer built with Electron, featuring syntax highlighting, directory browsing, and interactive navigation tools. It offers a multi-tab interface for viewing source files, visual directory browsing, interactive navigation via a minimap, support for various file types (including P**
+
+**Key Features:**
+- Source Code Viewing with syntax highlighting
+- Directory Browser with visual grid layout
+- Interactive Navigation (click-to-navigate) via a minimap
+- Multi-Tab Interface
+- Image Support
+- PDF Integration
+- Binary File Protection
+- Keyboard Shortcuts support
+- and an optimized Dark Theme.
+
+*Tags: ['Electron', 'Syntax Highlighting', 'IDE', 'Web Technologies', 'JavaScript', 'TypeScript', 'Dark Theme', 'PDF Integration'*
+
+---
+
+### 667. [ryan0204/github-repo-mcp](https://github.com/ryan0204/github-repo-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The GitHub Repo MCP (Model Context Protocol) server allows AI tools to access, explore, and analyze public GitHub repositories in a structured manner. It provides functionalities such as listing repository contents, retrieving file details, and navigating directory structures. This tool enhances con**
+
+**Key Features:**
+- Repository browsing
+- Directory navigation
+- File content viewing
+- Rate limit management
+- Token-based authentication
+
+*Tags: github-mcp, ai-assistant, github-repo, code-analysis, developer-tools, security-features, api-integration, repository-management*
+
+---
+
+### 668. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A model context protocol server enabling natural language interaction with Apache Iceberg Lakehouse tables.**
+
+**Key Features:**
+- Natural language interface
+- MCP integration
+- Table schema exploration
+- Data query generation
+
+*Tags: apache-iceberg, mcp, ai-native, lakehouse, developer-tools, data-query, security-features, cloud-integration*
+
+---
+
+### 669. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `innovation: 8` ★☆☆ 🔵
+
+**A Model Context Protocol server enabling secure and flexible email sending for AI assistants.**
+
+**Key Features:**
+- Multiple SMTP configurations
+- Email templates creation and management
+- Bulk email sending with batching and rate limiting
+- Full HTML support for rich email content
+- Comprehensive logging of all email activities
+- Dynamic template variables for personalized emails
+
+*Tags: smtp-server, email-service, ai-integration, developer-tools, security-features*
+
+---
+
+### 670. [samwang0723/mcp-booking](https://github.com/samwang0723/mcp-booking)  `innovation: 8` ★☆☆ 🔵
+
+**An AI-powered model context protocol server for restaurant discovery and booking, integrating location data, cuisine preferences, mood, and event types.**
+
+**Key Features:**
+- Smart Restaurant Search with location filtering
+- AI Recommendations based on user preferences
+- Event-specific matching (dating
+- family
+- business
+- etc.)
+- Mood-based atmosphere alignment
+- Booking assistance with mock reservation capabilities
+
+*Tags: ai, mcp, booking, restaurant, maps, event, mood, search*
+
+---
+
+### 671. [sapientpants/sonarqube-mcp-server](https://github.com/sapientpants/sonarqube-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a dedicated MCP server built on SonarQube, designed to facilitate seamless integration of context management within the SonarQube platform. This solution focuses on enhancing security, automation, and workflow efficiency for developers working with code quality tools.**
+
+**Key Features:**
+- MCP server integration
+- code analysis
+- security features
+- automation capabilities
+
+*Tags: mcp-server, sonarqube, code-analysis, security, developer-tools, integration, ai-features, ci/cd*
+
+---
+
+### 672. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**This project focuses on analyzing the MCP (Multi-Process Communication) mechanisms within the Abell framework, aiming to enhance understanding of how processes interact securely and efficiently. It delves into the technical implementation, security considerations, and workflow optimizations that are**
+
+**Key Features:**
+- Analyze MCPs
+- Integrate external tools
+- Developer workflows
+- Code review
+- Security features
+
+*Tags: mcp, abell-mcp, developer, security, code, workflow, integration, architecture*
+
+---
+
+### 673. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a structured workflow to retrieve Azure pricing information using the Model Context Protocol (MCP) server. It enables developers to programmatically access real-time pricing from the Azure Retail Prices API, supporting operations such as listing service families, retrieving prod**
+
+**Key Features:**
+- Service family management
+- Product lookup
+- Monthly cost calculation
+- API integration with Azure Retail Prices
+- Structured workflow automation
+
+*Tags: azure, pricing, developer, mcp, integration, cloud, automation*
+
+---
+
+### 674. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a model context protocol server that analyzes Python code for structure, complexity, and dependencies using Claude. It supports warnings and integrates with AI tools to enhance code quality and security.**
+
+**Key Features:**
+- code analysis
+- security scanning
+- AI integration
+- code review support
+
+*Tags: code-analysis, ai-integration, security, developer-tools*
+
+---
+
+### 675. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `innovation: 8` ★☆☆ 🔵
+
+**The SecretiveShell/MCP-toolhouse project serves as a model context protocol (MCP) server, providing seamless integration with the Toolhouse platform. It allows developers to securely access various AI and development tools hosted on GitHub, enhancing workflow automation and code management capabilit**
+
+**Key Features:**
+- Model context protocol access
+- Tool integration from Toolhouse platform
+- Secure code deployment
+- Workflow automation
+- Code review and management
+
+*Tags: ai, toolhouse, mcp, developer, security, code, automation, integration*
+
+---
+
+### 676. [sellersmith/tailorkit-mcp](https://github.com/sellersmith/tailorkit-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**TailorKit MCP enables e-commerce product customization via AI-driven personalization.**
+
+**Key Features:**
+- Template management
+- Layer control
+- Shopify integration
+- AI-powered personalization
+- Minimal development effort
+
+*Tags: tailorkit-mcp, productcustomization, aipersonalization, ecommerce, developertools, mcpserver, shopifyintegration, docker*
+
+---
+
+### 677. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project offers a Python-based MCP server that enables seamless integration of YouTube subtitle data into AI tools such as Claude Desktop. It supports downloading, analyzing, and translating subtitles in multiple languages using yt-dlp, with Docker support for easy deployment. The solution focuse**
 
 **Key Features:**
 - YouTube subtitle download and analysis
@@ -8766,11 +10775,29 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Docker-based deployment
 - Multi-language support
 
+*Tags: youtube-subtitles-mcp, ai-assistant-integration, developer-tools, mcp-server, yt-dlp, docker, subtitle-processing, cloud-deployment*
+
 ---
 
-### 636. [shanksxz/gh-mcp-server](https://github.com/shanksxz/gh-mcp-server)  `innovation: 8`
+### 678. [shak2000/stockmcp](https://github.com/shak2000/stockmcp)  `innovation: 8` ★☆☆ 🔵
 
-**A GitHub context server enabling AI models to access and interact with GitHub repository contents as contextual data.**
+**This project implements a Model Context Protocol (MCP) that connects LLaMA 3.2 3B with Yahoo Finance API, enabling the model to fetch and incorporate live stock prices, company details, and market news into its responses. It supports both financial queries enriched with real-time data and general kn**
+
+**Key Features:**
+- Integrate Yahoo Finance API
+- Real-time stock price retrieval
+- Company information fetching
+- Historical data access
+- Market news integration
+- Natural language processing for context enhancement
+
+*Tags: ai, finance, llama3, yfinance, mcp, data_integration, model_enhancement, web_scraping*
+
+---
+
+### 679. [shanksxz/gh-mcp-server](https://github.com/shanksxz/gh-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The shanksxz/gh-mcp-server is a GitHub-based platform that allows AI models to fetch repository contents, file structures, and metadata directly from GitHub. It supports advanced features such as fetching specific files, filtering repositories by extensions or paths, and integrating with MCP (Model **
 
 **Key Features:**
 - Fetch repository contents
@@ -8780,24 +10807,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - View repository structure
 - Limit number of files returned
 
----
-
-### 637. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `innovation: 8`
-
-**A TypeScript project integrating LangChain with MCP tools for interactive chat-based tool execution.**
-
-**Key Features:**
-- Interactive chat interface
-- MCP tool integration
-- LLM-based tool execution
-- Secure environment setup
-- Real-time system prompts
+*Tags: ai, developer, security, mcp, ai-server, code, github-api, context-engine*
 
 ---
 
-### 638. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `innovation: 8`
+### 680. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for building Android projects and providing feedback to LLMs.**
+**The MCP tool facilitates the automation of Android project builds, integrates with development environments like Visual Studio Code, and offers real-time error reporting to AI models. It supports various stages from code execution to feedback generation, enhancing developer productivity and code qua**
 
 **Key Features:**
 - Android project building
@@ -8805,11 +10821,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with VS Code extensions
 - Support for unit and instrumented tests
 
+*Tags: mcp, androidbuild, developer-tools, ai-integration, code-quality, continuous-integration*
+
 ---
 
-### 639. [shinkeonkim/e-gonghun-mcp](https://github.com/shinkeonkim/e-gonghun-mcp)  `innovation: 8`
+### 681. [shinkeonkim/e-gonghun-mcp](https://github.com/shinkeonkim/e-gonghun-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A platform for managing and integrating external tools within the MCP ecosystem.**
+**The e-gonghun-mcp project provides a developer platform that integrates various external tools and services, enabling seamless workflows and automation. It supports context-aware operations through the Model Context Protocol (MCP), allowing for dynamic data retrieval and processing. The project emph**
 
 **Key Features:**
 - Context Management
@@ -8817,9 +10835,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Automation Tools
 - Secure Development Practices
 
+*Tags: mcp, ai, security, developer, integration, automation, context, secure*
+
 ---
 
-### 640. [shinshin86/mcp-simple-aivisspeech](https://github.com/shinshin86/mcp-simple-aivisspeech)  `innovation: 8`
+### 682. [shinshin86/mcp-simple-aivisspeech](https://github.com/shinshin86/mcp-simple-aivisspeech)  `innovation: 8` ★☆☆ 🔵
 
 **A Model Context Protocol (MCP) server enabling seamless integration with AivisSpeech for natural-sounding Japanese text-to-speech conversion.**
 
@@ -8834,11 +10854,27 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Smart Error Handling
 - Engine Status Monitoring
 
+*Tags: ai, text-to-speech, voice synthesis, developer tools, integration, customization, audio processing, mcp*
+
 ---
 
-### 641. [shreyaskarnik/mcpet](https://github.com/shreyaskarnik/mcpet)  `innovation: 8`
+### 683. [shlomico-tr/etoroportfoliomcp](https://github.com/shlomico-tr/etoroportfoliomcp)  `innovation: 8` ★☆☆ 🔵
 
-**A TypeScript-based virtual pet simulation platform demonstrating core Model Context Protocol concepts.**
+**The Borg intelligence database should include this resource to enhance its capabilities in managing and analyzing eToro data. The tool offers functionalities such as fetching user portfolios by username, searching for instruments by name prefix, and retrieving detailed information about specific ins**
+
+**Key Features:**
+- fetch_etoro_portfolio
+- fetch_instrument_details
+- search_instruments
+- get_tools
+
+*Tags: software development, devops, security, api integration, code quality, enterprise solutions*
+
+---
+
+### 684. [shreyaskarnik/mcpet](https://github.com/shreyaskarnik/mcpet)  `innovation: 8` ★☆☆ 🔵
+
+**The shreyaskarnik/mcpet project implements a virtual pet system using the Model Context Protocol (MCP) to enable pet care, interaction, and lifecycle management. It supports multiple pet types with evolving stats, provides detailed analytics, and integrates AI-driven behaviors for realistic pet simu**
 
 **Key Features:**
 - Virtual pet adoption and customization
@@ -8851,25 +10887,16 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Interactive tools: feeding
 - playing games
 - bathing
+- sleeping
+- Animations and visual feedback for each pet type
+
+*Tags: mcp, petcare, ai, developertools, petsimulation, virtualpet, lifecyclemanagement, datapersistence*
 
 ---
 
-### 642. [sirmews/apple-notes-mcp](https://github.com/sirmews/apple-notes-mcp)  `innovation: 8`
+### 685. [skobyn/mcp-dataforseo](https://github.com/skobyn/mcp-dataforseo)  `innovation: 8` ★☆☆ 🔵
 
-**Integrates Apple Notes with Claude Model Context Protocol to enable AI-powered search and organization of personal notes.**
-
-**Key Features:**
-- Read all notes
-- Search notes by content
-- View full note content
-- Manage notes and prompts
-- Integrate with Claude Desktop for intelligent search
-
----
-
-### 643. [skobyn/mcp-dataforseo](https://github.com/skobyn/mcp-dataforseo)  `innovation: 8`
-
-**A server-based Model Context Protocol implementation for integrating with the DataForSEO API.**
+**The Skobyn/mcp-dataforseo project provides a dedicated MCP (Model Context Protocol) server designed to facilitate seamless communication between applications and the DataForSEO API. This tool enables developers to send and receive JSON requests via stdin, supporting various use cases such as data ex**
 
 **Key Features:**
 - Model Context Protocol server
@@ -8878,35 +10905,27 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Real-time response handling
 - Environment variable configuration
 
+*Tags: mcp-dataforseo, dataforseo-api, json-parsing, api-integration, developer-tools*
+
 ---
 
-### 644. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)  `innovation: 8`
+### 686. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**Smithery Cookbook provides practical examples and guides for building MCP servers using various programming languages.**
+**The MCP Server provides a RESTful API for interacting with events, groups, profiles, and venues using the Model Context Protocol (MCP). It supports key operations such as retrieving event details, listing events, managing group information, and accessing profile and venue data. The server is designe**
 
 **Key Features:**
-- Interactive playground for hands-on learning
-- Language-specific server examples
-- Deployment options on Smithery platform
-- Security best practices integration
-- Community support and documentation
+- Event retrieval
+- Event listing and search
+- Group information access
+- Profile details
+- Venue information
+- Session-based HTTP transport
+
+*Tags: mcp, sociallayer, developer, webhook, event, integration*
 
 ---
 
-### 645. [softgridinc-pte-ltd/mcp-excel-reader-server](https://github.com/softgridinc-pte-ltd/mcp-excel-reader-server)  `innovation: 8`
-
-**A Microsoft Excel server enabling secure and efficient reading of Excel files using modelcontextprotocol.**
-
-**Key Features:**
-- Read content from all sheets in an Excel file
-- Read content from a specific sheet by name or index
-- Handle empty cells and data type conversions
-- Return structured JSON output
-- Secure data handling and error management
-
----
-
-### 646. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `innovation: 8`
+### 687. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **Demo of a Model Context Protocol (MCP) server for Solana development.**
 
@@ -8917,11 +10936,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Simple MCP server implementation with fetching tools
 - Extensible architecture for adding new tools and resources
 
+*Tags: solana, modelcontextprotocol, mcp-server, solana-dev, ai-development, developer-tools, solana-api, ai-integration*
+
 ---
 
-### 647. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `innovation: 8`
+### 688. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**Managed Code Plugin for Cursor IDE integrating with Atlassian products.**
+**The MCP plugin enables seamless integration of Atlassian tools (JIRA, Confluence, BitBucket) into the Cursor IDE, allowing developers to search, manage, and collaborate on code directly within their IDE. It supports advanced features such as JIRA task lookup, Confluence content retrieval, BitBucket **
 
 **Key Features:**
 - JIRA integration
@@ -8931,9 +10952,32 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Code review management
 - Workflow automation
 
+*Tags: atlassian, cipher, code, integration, developer*
+
 ---
 
-### 648. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)  `innovation: 8`
+### 689. [spathodea-network/opencti-mcp](https://github.com/spathodea-network/opencti-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Spathodea-Network/opencti-mcp project provides a Model Context Protocol (MCP) server that allows seamless querying and retrieval of threat intelligence data. It supports fetching reports, searching malware, managing indicators, user and group management, attack patterns, campaign information, co**
+
+**Key Features:**
+- Fetch and search threat intelligence data
+- Search for malware information
+- Query indicators of compromise
+- User and group management
+- List attack patterns
+- Campaign information retrieval
+- System connectors listing
+- File operations and file details
+- Reference data access
+- Marking definitions
+- Label management
+
+*Tags: opencti, mcp, threat_intel, security, developer_tools, integration, cybersecurity, graphql*
+
+---
+
+### 690. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)  `innovation: 8` ★☆☆ 🔵
 
 **A unified search platform integrating DuckDuckGo with LLMs for enterprise-grade web search capabilities.**
 
@@ -8947,9 +10991,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Date-based and pagination controls
 - Result caching and secure search options
 
+*Tags: search, ai, developer, security, integration, web, llm, search*
+
 ---
 
-### 649. [spences10/mcp-jinaai-grounding](https://github.com/spences10/mcp-jinaai-grounding)  `innovation: 8`
+### 691. [spences10/mcp-jinaai-grounding](https://github.com/spences10/mcp-jinaai-grounding)  `innovation: 8` ★☆☆ 🔵
 
 **A tool for integrating Jina.ai Grounding API with LLMs to enhance responses with real-time web content.**
 
@@ -8959,9 +11005,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Web content analysis
 - Precise relevance scoring
 
+*Tags: mcp-jinaai-grounding, jinaai-grounding, model-context-protocol, llm-integration, web-content-security*
+
 ---
 
-### 650. [spences10/mcp-wsl-exec](https://github.com/spences10/mcp-wsl-exec)  `innovation: 8`
+### 692. [spences10/mcp-wsl-exec](https://github.com/spences10/mcp-wsl-exec)  `innovation: 8` ★☆☆ 🔵
 
 **A secure Windows Subsystem for Linux (WSL) server enabling safe, isolated command execution and information gathering for enterprise software development.**
 
@@ -8971,11 +11019,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure Command Sanitization
 - Environment Monitoring
 
+*Tags: wsl, security, development, wsl-exec, mcp, ai-devops, enterprise, code-safety*
+
 ---
 
-### 651. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `innovation: 8`
+### 693. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `innovation: 8` ★☆☆ 🔵
 
-**A platform enabling AI-driven intelligent discussions and architectural guidance for software development teams.**
+**The squirrelogic/mcp-feature-discussion project provides an AI-powered MCP server that supports context-aware, persistent feature discussions between developers and AI. It offers intelligent guidance on implementation, architecture, dependencies, and best practices, while maintaining a persistent me**
 
 **Key Features:**
 - AI Lead Developer Interface
@@ -8984,9 +11034,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Feature memory management
 - Architecture pattern recommendations
 
+*Tags: mcp, ai, developer, discussion, security, code, architecture, devops*
+
 ---
 
-### 652. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `innovation: 8`
+### 694. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **An MCP server enabling LLM-powered applications to query OCI registries and image references.**
 
@@ -8998,11 +11050,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Retrieve image metadata
 - Support authentication for private registries
 
+*Tags: ocireg-mcp, mcp, oci, toolhive, docker, golangci-lint, ociforge, ai*
+
 ---
 
-### 653. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `innovation: 8`
+### 695. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `innovation: 8` ★☆☆ 🔵
 
-**Official MCP server for stackzero to enable Model Context Protocol communication.**
+**The stackzero-labs/mcp package provides a dedicated model context protocol server, allowing seamless integration of AI models into Cursor applications. It supports secure and efficient communication between the model and the application layer, enhancing the overall development workflow for enterpris**
 
 **Key Features:**
 - Model Context Protocol Server
@@ -9010,9 +11064,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Developer Tools
 - CI/CD Support
 
+*Tags: mcp, modelcontext, ai, development, enterprise, security, code, integration*
+
 ---
 
-### 654. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `innovation: 8`
+### 696. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `innovation: 8` ★☆☆ 🔵
 
 **A tool for automatically scanning codebases for unmanaged or incomplete TODO items, improving code quality and maintainability.**
 
@@ -9025,9 +11081,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Priority inference from TODO comments
 - Dashboard for visualizing TODO metrics
 
+*Tags: web-scanner, ai-assistant, todo-detection, code-quality, developer-tools, security, api-integration, automation*
+
 ---
 
-### 655. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `innovation: 8`
+### 697. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI and Pro, enhancing AI tool integration.**
 
@@ -9037,22 +11095,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Component validation
 - Live documentation fetching
 
----
-
-### 656. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `innovation: 8`
-
-**A secure, AI-powered platform for accessing SEC EDGAR filings and financial data with precise numeric accuracy.**
-
-**Key Features:**
-- AI-assisted code generation
-- SEC EDGAR data integration
-- Secure development environment
-- Automated workflows
-- Code review and management
+*Tags: starwind-ui, ai-integration, model-context-protocol, developer-tools, mcp-server, ai-assistants, component-management, documentation*
 
 ---
 
-### 657. [stevenstavrakis/obsidian-mcp](https://github.com/stevenstavrakis/obsidian-mcp)  `innovation: 8`
+### 698. [stevenstavrakis/obsidian-mcp](https://github.com/stevenstavrakis/obsidian-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A lightweight MCP server enabling AI assistants to interact with Obsidian vaults for note management.**
 
@@ -9066,9 +11113,27 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Manage tags
 - Integrate with Obsidian vaults
 
+*Tags: mcp, obsidian, developer, ai, note-management, cloud-server, security, obid*
+
 ---
 
-### 658. [strangelove-ventures/web3-mcp](https://github.com/strangelove-ventures/web3-mcp)  `innovation: 8`
+### 699. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The slack-mcp-server acts as a bridge between Claude and Slack by implementing the Model Context Protocol (MCP). It allows AI assistants to securely read messages, threads, metadata, and user information from Slack channels, threads, and direct messages. This integration supports advanced use cases **
+
+**Key Features:**
+- Message operations (read/permalinks)
+- Thread and channel management
+- Metadata retrieval
+- User and group information access
+- Search capabilities
+- Integration with Claude AI assistant
+
+*Tags: ai, developer, security, slack, mcp, code, workflow, integration*
+
+---
+
+### 700. [strangelove-ventures/web3-mcp](https://github.com/strangelove-ventures/web3-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **Web3 MCP server enabling secure, isolated blockchain interactions across multiple chains.**
 
@@ -9083,12 +11148,30 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure handling of private keys and tokens
 - Cross-chain operations including swaps and transfers
 - Real-time transaction history and analytics
+- Customizable tool integration via CLI
+
+*Tags: web3-mcp, blockchain, smart-contract, decentralized-app, multi-chain, security, developer-tool, api-integration*
 
 ---
 
-### 659. [studentofjs/mcp-figma-to-react](https://github.com/studentofjs/mcp-figma-to-react)  `innovation: 8`
+### 701. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `innovation: 8` ★☆☆ 🔵
 
-**A tool that converts Figma designs into React components using TypeScript and Tailwind CSS.**
+**This project provides a MCP-compatible server that allows AI models, such as those in Claude Desktop or IDEs, to securely access and manage Beeminder data and functionality. It standardizes how applications provide context to LLMs by exposing specific capabilities through the Model Context Protocol **
+
+**Key Features:**
+- MCP server implementation
+- Secure access to Beeminder API
+- Goal and datapoint management
+- User information retrieval
+- Support for multiple Beeminder goal types
+
+*Tags: api integration, ai development, beeminder, mcp protocol, developer tools, security, cloud services, enterprise solutions*
+
+---
+
+### 702. [studentofjs/mcp-figma-to-react](https://github.com/studentofjs/mcp-figma-to-react)  `innovation: 8` ★☆☆ 🔵
+
+**The MCP server enables developers to automate the conversion of Figma designs into structured React components, supporting modern development workflows with TypeScript and Tailwind CSS. It facilitates seamless integration between design and code, enhancing productivity for both frontend developers a**
 
 **Key Features:**
 - Fetch Figma designs via API
@@ -9098,9 +11181,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Enhance accessibility features
 - Support standard and SSE transports
 
+*Tags: figma-to-react, tailwindcss, react, developer-tool*
+
 ---
 
-### 660. [sugatraj/cursor-browser-tools-mcp](https://github.com/sugatraj/cursor-browser-tools-mcp)  `innovation: 8`
+### 703. [sugatraj/cursor-browser-tools-mcp](https://github.com/sugatraj/cursor-browser-tools-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A browser monitoring and interaction tool that enables AI-powered analysis of web pages through a Chrome extension.**
 
@@ -9114,9 +11199,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with Node server for seamless communication
 - Structured reporting and actionable recommendations
 
+*Tags: browser-tools, ai-powered, developer-tools, security, performance, accessibility, auditing, nextjs*
+
 ---
 
-### 661. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `innovation: 8`
+### 704. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A TypeScript-based MCP server enabling integration with large language models for AI-generated images and videos.**
 
@@ -9128,11 +11215,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - negative prompts
 - and advanced configurations
 
+*Tags: mcp-server, ai-generator, text-to-image, video-generation, model-context-protocol, ai-development, developer-tools*
+
 ---
 
-### 662. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `innovation: 8`
+### 705. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `innovation: 8` ★☆☆ 🔵
 
-**A tool to bridge AI assistants with Apifox API documentation via Model Context Protocol.**
+**The mcp-apifox project provides an AI-enhanced interface for developers to extract and utilize information from Apifox API documentation, facilitating smoother integration of AI tools within the MCP framework. It supports automated code generation, workflow automation, and secure development practic**
 
 **Key Features:**
 - API information extraction from Apifox URL
@@ -9141,11 +11230,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure development environment setup
 - AI-assisted code review and security checks
 
+*Tags: apifox, mcp-apifox, ai-integration, developer-tools, security, code-generation, api-documentation, model-context-protocol*
+
 ---
 
-### 663. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `innovation: 8`
+### 706. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A platform enabling integration of Superface AI tools via Model Context Protocol for enterprise applications.**
+**The project provides a server-based solution using the Model Context Protocol to facilitate seamless interaction between AI models and external tools. It supports workflow automation, secure code management, and enterprise-grade security features, making it suitable for modernizing development proce**
 
 **Key Features:**
 - Model context protocol integration
@@ -9154,9 +11245,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Code review and security features
 - Developer workflow automation
 
+*Tags: superfaceai, modelcontextprotocol, mcp, ai, developertools, docker, security, codeintegration*
+
 ---
 
-### 664. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `innovation: 8`
+### 707. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A collection of Apple-native tools designed to enhance the model context protocol for seamless integration with AI applications.**
 
@@ -9167,9 +11260,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure code deployment and protection against vulnerabilities
 - Development environments like Codespaces for instant access
 
+*Tags: apple-mcp, ai, developer, security, code-generation, automation, integration, mcp*
+
 ---
 
-### 665. [superseoworld/mcp-spotify](https://github.com/superseoworld/mcp-spotify)  `innovation: 8`
+### 708. [superseoworld/mcp-spotify](https://github.com/superseoworld/mcp-spotify)  `innovation: 8` ★☆☆ 🔵
 
 **A server enabling secure and efficient interaction with Spotify's Web API for enterprise applications.**
 
@@ -9184,12 +11279,16 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Audiobook information with market-specific content
 - Playlist management (creation
 - modification
+- tracking)
+- Integration with external tools and services
+
+*Tags: spotify-api, mcp-spotify, developer-tools, ai-integration, enterprise-devops, security-features, code-security, automation*
 
 ---
 
-### 666. [surescaleai/openai-gpt-image-mcp](https://github.com/surescaleai/openai-gpt-image-mcp)  `innovation: 8`
+### 709. [surescaleai/openai-gpt-image-mcp](https://github.com/surescaleai/openai-gpt-image-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A tool server enabling context-aware image generation and editing using OpenAI's GPT-4o/gpt-image-1 API.**
+**The SureScaleAI openAI-gpt-image-mcp project provides a Model Context Protocol (MCP) tool server that allows developers to generate, edit, and manipulate images programmatically via OpenAI's latest models. It supports advanced image operations such as inpainting, outpainting, and compositing with pr**
 
 **Key Features:**
 - Generate images from text prompts
@@ -9198,22 +11297,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with MCP protocol for context-aware APIs
 - Deployment options including Azure
 
----
-
-### 667. [surya-madhav/mcp](https://github.com/surya-madhav/mcp)  `innovation: 8`
-
-**A platform for integrating external tools and APIs into a unified workflow, enabling secure and automated data processing.**
-
-**Key Features:**
-- Integration of external tools
-- Web scraping capabilities
-- AI model interaction
-- Security and code security features
-- Streamlit UI for visualization
+*Tags: openai, gpt-image, mcp, image-generation, developer-tools, ai-integration, image-editing, cloud-deployment*
 
 ---
 
-### 668. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)  `innovation: 8`
+### 710. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A Borg-based AI platform that integrates Brave Search with Puppeteer for deep web research, enabling comprehensive content extraction and analysis.**
 
@@ -9225,9 +11313,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Metadata and structured data collection
 - Configurable search depth and customization options
 
+*Tags: brave-deep-research-mcp, ai-search, web-scraping, content-extraction, developer-tools, search-engine-integration, automation, data-processing*
+
 ---
 
-### 669. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `innovation: 8`
+### 711. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `innovation: 8` ★☆☆ 🔵
 
 **A model context protocol server that integrates AI with WinDbg for crash dump analysis and remote debugging.**
 
@@ -9237,9 +11327,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Natural language query support for debugging commands
 - Cross-platform compatibility with MCP clients
 
+*Tags: mcp, windbg, ai, debugging, crash analysis, windbg, model context protocol, developer tools*
+
 ---
 
-### 670. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `innovation: 8`
+### 712. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A MCP-compatible server enabling AI assistants to interact with Lightdash data via standardized API.**
 
@@ -9251,9 +11343,26 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Development and production deployment options
 - Hot reloading in development mode
 
+*Tags: mcp, lightdash, server, integration, development, ai, lightdash-mcp-server, model-context-protocol*
+
 ---
 
-### 671. [tanker327/uuid-mcp](https://github.com/tanker327/uuid-mcp)  `innovation: 8`
+### 713. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**MCP server for UniProt protein data access enabling AI assistants to fetch protein information.**
+
+**Key Features:**
+- Batch retrieval of multiple proteins
+- Caching with 24-hour TTL
+- Error handling and logging
+- API integration using httpx
+- Rate limiting and retries
+
+*Tags: uniprot, mcp, ai, developer, cloud, security*
+
+---
+
+### 714. [tanker327/uuid-mcp](https://github.com/tanker327/uuid-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A lightweight Model Context Protocol (MCP) server generating timestamp-based UUIDs for secure, unique identifiers in AI applications.**
 
@@ -9263,9 +11372,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with Claude Desktop
 - RFC-compliant UUID generation
 
+*Tags: modelcontextprotocol, uuid-mcp, ai-generated-uuid, developer-tools, ai-security, code-generation, cloud-native, llm-integration*
+
 ---
 
-### 672. [tatn/mcp-server-fetch-typescript](https://github.com/tatn/mcp-server-fetch-typescript)  `innovation: 8`
+### 715. [tatn/mcp-server-fetch-typescript](https://github.com/tatn/mcp-server-fetch-typescript)  `innovation: 8` ★☆☆ 🔵
 
 **A server-based tool for fetching and converting web content into various formats, supporting tasks from raw text extraction to rendered HTML.**
 
@@ -9275,11 +11386,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - get_markdown
 - get_markdown_summary
 
+*Tags: web-scraping, content-fetching, html-conversion, developer-tools*
+
 ---
 
-### 673. [taweili/mcp-rss-md](https://github.com/taweili/mcp-rss-md)  `innovation: 8`
+### 716. [taweili/mcp-rss-md](https://github.com/taweili/mcp-rss-md)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for converting RSS feeds into Markdown format using the Model Context Protocol.**
+**The MCP (Model Context Protocol) server provides functionality to convert RSS feeds into structured Markdown, enabling developers to integrate rich content into applications seamlessly. This project focuses on enhancing developer productivity by offering a robust and flexible solution for transformi**
 
 **Key Features:**
 - rss-to-md-server
@@ -9287,9 +11400,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - output_path
 - standalone_server
 
+*Tags: mcp, rss-to-md, developer-tools, content-conversion, api-integration*
+
 ---
 
-### 674. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `innovation: 8`
+### 717. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A server that provides access to The Movie Database API for searching movies, TV shows, people, and retrieving detailed information.**
 
@@ -9303,21 +11418,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Discover trending content
 - Integrate with Claude Desktop for enhanced UX
 
----
-
-### 675. [tchbw/mcp-imessage](https://github.com/tchbw/mcp-imessage)  `innovation: 8`
-
-**Implementation of Model Context Protocol for secure iMessage communication using MCP.**
-
-**Key Features:**
-- Send & receive iMessages
-- Model Context Protocol integration
-- Secure message delivery
-- Context-aware communication
+*Tags: mcp-server, tmdb-mcp-server, api-integration, content-search, movie-recommendations, data-access, developer-tools, movie-database*
 
 ---
 
-### 676. [tddt/stock_info_mcp](https://github.com/tddt/stock_info_mcp)  `innovation: 8`
+### 718. [tddt/stock_info_mcp](https://github.com/tddt/stock_info_mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A Borg-based stock intelligence platform providing historical data, fundamental info, news, and risk alerts.**
 
@@ -9329,9 +11434,29 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - 获取财经新闻（支持分页）
 - 获取股票主营业务信息
 
+*Tags: stock-info, finance, data-validation, api-integration, developer-tools, security, python-devops, mcp-services*
+
 ---
 
-### 677. [tejpalvirk/qualitativeresearch](https://github.com/tejpalvirk/qualitativeresearch)  `innovation: 8`
+### 719. [tejpalvirk/developer](https://github.com/tejpalvirk/developer)  `innovation: 8` ★☆☆ 🔵
+
+**The Developer MCP Server enhances software development workflows by preserving project context, dependencies, and task progress across sessions. It enables developers to resume work seamlessly, understand component relationships, track decisions, and manage complex architectures with detailed insigh**
+
+**Key Features:**
+- Persistent Development Context
+- Session Management
+- Dependency Tracking
+- Project Status Insights
+- Component Context Retrieval
+- Decision History
+- Milestone Progress Tracking
+- Related Entity Discovery
+
+*Tags: developer workflow, context management, project tracking, software architecture, persistence, decision making, team collaboration, development tools*
+
+---
+
+### 720. [tejpalvirk/qualitativeresearch](https://github.com/tejpalvirk/qualitativeresearch)  `innovation: 8` ★☆☆ 🔵
 
 **A knowledge graph-based MCP server for managing qualitative research context across sessions.**
 
@@ -9342,11 +11467,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Participant and data source organization
 - Research question linking and status tracking
 
+*Tags: qualitativeresearch, mcp server, knowledge graph, research context, data management*
+
 ---
 
-### 678. [tejpalvirk/quantitativeresearch](https://github.com/tejpalvirk/quantitativeresearch)  `innovation: 8`
+### 721. [tejpalvirk/quantitativeresearch](https://github.com/tejpalvirk/quantitativeresearch)  `innovation: 8` ★☆☆ 🔵
 
-**A knowledge graph-based MCP server for managing quantitative research context across sessions.**
+**The Quantitative Researcher MCP Server is designed to provide a structured, persistent knowledge graph that enables researchers to maintain organized records of projects, datasets, variables, hypotheses, statistical tests, and results. It supports session management, hypothesis tracking, dataset org**
 
 **Key Features:**
 - Persistent research context management
@@ -9357,11 +11484,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Visualization of data models
 - Integration with external tools and APIs
 
+*Tags: quantitative research, research context, knowledge graph, data management, research workflow, data analysis, research tracking, data visualization*
+
 ---
 
-### 679. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `innovation: 8`
+### 722. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `innovation: 8` ★☆☆ 🔵
 
-**A knowledge graph-based MCP server for managing educational contexts, enabling structured representation of courses, assignments, exams, and study resources.**
+**The Student MCP Server is designed to provide a comprehensive platform for students to manage their academic journey. It supports persistent educational context by maintaining a structured knowledge graph that captures relationships between courses, assignments, exams, concepts, and study materials.**
 
 **Key Features:**
 - Knowledge graph management
@@ -9370,11 +11499,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Sequential learning path creation
 - Real-time updates and notifications
 
+*Tags: student, mcp, knowledgegraph, education, projectmanagement, learningtools, academic, organization*
+
 ---
 
-### 680. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `innovation: 8`
+### 723. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server for managing Terrakube workspaces, variables, and modules.**
+**The Terrakube MCP Server is a Model Context Protocol (MCP) server designed to streamline workspace management, variable handling, module operations, and organization control within the Terrakube platform. It provides robust API integration, type safety with TypeScript, and flexible configuration via**
 
 **Key Features:**
 - Workspace management
@@ -9384,11 +11515,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Type safety with TypeScript
 - Modular design for maintenance
 
+*Tags: terrakube, mcp-server, api-integration, type-safe, devops, enterprise*
+
 ---
 
-### 681. [terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)  `innovation: 8`
+### 724. [terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)  `innovation: 8` ★☆☆ 🔵
 
-**A curated list of links to game developer blogs and/or portfolios that you found interesting.**
+**This repository serves two purposes: Writing down cool people (and companies) that do cool things. Showcasing various ways to showcase your work. To help showcase different types of portfolios, it's split into those that are strictly portfolios, while others are portfolios with a blog attached. Comp**
 
 **Key Features:**
 - The resource provides links to various developer blogs
@@ -9398,25 +11531,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - projects
 - and technical expertise within the game development/tech sphere.
 
----
-
-### 682. [text2go/ai-humanizer-mcp-server](https://github.com/text2go/ai-humanizer-mcp-server)  `innovation: 8`
-
-**A Model Context Protocol server designed to refine AI-generated content for natural, human-like output.**
-
-**Key Features:**
-- AI text detection
-- natural language enhancement
-- grammar perfection
-- readability optimization
-- length control
-- preservation of key terms
+*Tags: ['Portfolio', 'GameDev', 'TechBlog', 'DeveloperTools', 'Unity', 'C++', 'AI', 'Graphics'*
 
 ---
 
-### 683. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `innovation: 8`
+### 725. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for transforming OAS to MCP, focusing on workflow automation and integration.**
+**The project provides a GitHub-based solution to convert Open Application Automation (OAS) workflows into MCP (Managed Control Process) environments. It emphasizes modernizing development workflows by integrating external tools, automating processes, and enhancing security through enterprise-grade fe**
 
 **Key Features:**
 - code generation
@@ -9425,25 +11546,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - CI/CD support
 - code review tools
 
----
-
-### 684. [thargor6/JWildfire](https://github.com/thargor6/JWildfire)  `innovation: 8`
-
-**JWildfire - powerful, flexible and user-friendly fractal flame editor**
-
-**Key Features:**
-- Powerful
-- flexible
-- and user-friendly fractal flame editor. Versatile rendering capabilities (CPU/GPU). Extensive feature set including motion curves
-- keyframes
-- random-flame-generators
-- interactive/infinite renderer
-- sound-synchronized animation
-- and a Java-based scripting interface for custom fractals.
+*Tags: bun, opas-to-mcp, developer-tools, security, ai-integration, enterprise-devops, github-api, mcp-registry*
 
 ---
 
-### 685. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `innovation: 8`
+### 726. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `innovation: 8` ★☆☆ 🔵
 
 **A Go-based MCP server enabling LLMs to interact with Nutanix Prism Central APIs via the Model Context Protocol.**
 
@@ -9455,9 +11562,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Retrieve detailed resource information via URI
 - Support interactive prompts for Claude or static credentials for Cursor
 
+*Tags: mcp-nutanix, go, model-context-protocol, nutanix, llm-integration, api-server, developer-tools, resource-management*
+
 ---
 
-### 686. [timholden/figma-mcp-server](https://github.com/timholden/figma-mcp-server)  `innovation: 8`
+### 727. [timholden/figma-mcp-server](https://github.com/timholden/figma-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A server implementation enabling secure, isolated access to Figma files and projects via the Model Context Protocol.**
 
@@ -9470,9 +11579,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - and theme configuration
 - Performance optimizations including caching and rate limiting
 
+*Tags: figma-mcp-server, model-context-protocol, secure-api-integration, design-system-management, server-architecture, developer-tools, api-security, code-validation*
+
 ---
 
-### 687. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `innovation: 8`
+### 728. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A Model Context Protocol (MCP) server enabling interaction with Aptos documentation and building full-stack blockchain applications.**
 
@@ -9482,9 +11593,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Generate components for Aptos projects
 - Test and generate ABIs
 
+*Tags: aptos, aptos, mcp, blockchain, developer, integration, documentation, testing*
+
 ---
 
-### 688. [tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)  `innovation: 8`
+### 729. [tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A server enabling integration of tl;dv API with MCP for unified meeting intelligence across platforms.**
 
@@ -9494,20 +11607,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Get transcripts and highlights
 - Import meetings via URL
 
----
-
-### 689. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `innovation: 8`
-
-**Integration of MCP protocol for AI-assisted file uploads in UploadThing.**
-
-**Key Features:**
-- MCP protocol integration
-- AI-assisted file uploads
-- automated workflow execution
+*Tags: tldv-mcp-server, api-integration, meeting-intelligence, multi-platform, ai-analytics*
 
 ---
 
-### 690. [tositon/opendeepsearch](https://github.com/tositon/opendeepsearch)  `innovation: 8`
+### 730. [tositon/opendeepsearch](https://github.com/tositon/opendeepsearch)  `innovation: 8` ★☆☆ 🔵
 
 **OpenDeepSearch is an open-source research tool that integrates MCP for structured, in-depth analysis of complex topics.**
 
@@ -9519,9 +11623,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - MCP integration
 - WebSocket support
 
+*Tags: open-deep-research, brave-search, research-tools, ai-powered-search, structured-thinking, contextual-analysis*
+
 ---
 
-### 691. [trypeggy/instagram_dm_mcp](https://github.com/trypeggy/instagram_dm_mcp)  `innovation: 8`
+### 731. [trypeggy/instagram_dm_mcp](https://github.com/trypeggy/instagram_dm_mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A Python-based Instagram DM MCP server enabling secure and isolated communication between Instagram accounts.**
 
@@ -9533,9 +11639,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Cursor)
 - Automatic session management for seamless user experience
 
+*Tags: instagram-dm-mcp, ai, developer, cloud, security, integration, mcp, mcp-server*
+
 ---
 
-### 692. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `innovation: 8`
+### 732. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `innovation: 8` ★☆☆ 🔵
 
 **A versatile random number and generator utility library for secure code generation, supporting UUIDs, numbers, passwords, dice, cards, and more.**
 
@@ -9547,11 +11655,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Card drawing
 - Secure random string generation
 
+*Tags: randomization, security, code generation, developer tools, random utilities*
+
 ---
 
-### 693. [u3588064/entity-resolution](https://github.com/u3588064/entity-resolution)  `innovation: 8`
+### 733. [u3588064/entity-resolution](https://github.com/u3588064/entity-resolution)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for identifying whether two data sets originate from the same entity using MCP protocol.**
+**The project implements a Model Context Protocol (MCP) server to compare and verify if two datasets represent the same entity, supporting text normalization, semantic value comparison, and JSON traversal. It is designed for enterprise use cases in data integration, security, and AI-driven decision ma**
 
 **Key Features:**
 - Text normalization
@@ -9560,11 +11670,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Language model integration
 - MCP protocol support
 
+*Tags: entityidentification, datavalidation, aianalysis, security, developertools, mcpprotocol, textprocessing, jsonparsing*
+
 ---
 
-### 694. [ujjalcal/mcp](https://github.com/ujjalcal/mcp)  `innovation: 8`
+### 734. [ujjalcal/mcp](https://github.com/ujjalcal/mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Python SDK for building MCP servers to provide context, resources, and tools for LLM applications.**
+**The project offers a comprehensive Python SDK that implements the Model Context Protocol (MCP), enabling developers to create secure, isolated environments for LLMs. It supports server creation, resource management, tool integration, and dynamic prompts, facilitating seamless context provisioning an**
 
 **Key Features:**
 - MCP Server Creation
@@ -9577,10 +11689,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Debugging)
 - Data Handling (Images
 - Files
+- Configurations)
+
+*Tags: mcp, server, developer, ai, context, mlp, server, integration*
 
 ---
 
-### 695. [unievo/xpilot-mcp-library](https://github.com/unievo/xpilot-mcp-library)  `innovation: 8`
+### 735. [unievo/xpilot-mcp-library](https://github.com/unievo/xpilot-mcp-library)  `innovation: 8` ★☆☆ 🔵
 
 **Library enabling xPilot to interact with MCP servers for context and tool integration.**
 
@@ -9589,9 +11704,26 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - context management
 - tool integration
 
+*Tags: xpilot, mcp, server, integration, developer*
+
 ---
 
-### 696. [victoriametrics-community/mcp-victoriametrics](https://github.com/victoriametrics-community/mcp-victoriametrics)  `innovation: 8`
+### 736. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A TypeScript-based Model Context Protocol (MCP) server that enables structured parsing and retrieval of RSS/Atom feeds, with enhanced support for RSSHub feeds.**
+
+**Key Features:**
+- Universal feed parsing for RSS/Atom
+- Specialized support for RSSHub feeds
+- Multi-instance polling for reliable data fetching
+- Customizable item count and priority instance selection
+- Content cleaning and structured JSON output
+
+*Tags: context-engineering, mcp-server, rss-parser, feed-processing, developer-tools, data-integration, api-support, security-features*
+
+---
+
+### 737. [victoriametrics-community/mcp-victoriametrics](https://github.com/victoriametrics-community/mcp-victoriametrics)  `innovation: 8` ★☆☆ 🔵
 
 **Implementation of Model Context Protocol (MCP) server for VictoriaMetrics to enable advanced observability, integration, and automation capabilities.**
 
@@ -9606,12 +11738,15 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - and configuration management
 - Integration with external tools and workflows
 - Support for DevOps and CI/CD pipelines
+- Enhanced security features and code protection
+
+*Tags: observability, observability, devops, ai, security, developer_workflow, automation, integration*
 
 ---
 
-### 697. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `innovation: 8`
+### 738. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A tool for searching and managing Spryker packages using Model Context Protocol.**
+**The spryker-package-search-mcp is a command-line utility that initializes an MCP server to enable natural language searches for Spryker packages on GitHub repositories. It supports filtering by organization and integrates with various AI agents for enhanced context understanding.**
 
 **Key Features:**
 - Model Context Protocol server
@@ -9620,9 +11755,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Code-level search
 - Filtering by organization
 
+*Tags: modelcontextprotocol, spryker-package-search, github-search, ai-search, developer-tools*
+
 ---
 
-### 698. [vltansky/cursor-chat-history-mcp](https://github.com/vltansky/cursor-chat-history-mcp)  `innovation: 8`
+### 739. [vltansky/cursor-chat-history-mcp](https://github.com/vltansky/cursor-chat-history-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A tool that links GitHub cursor conversations to code commits and context, enabling developers to trace discussions and fixes directly back to their source code.**
 
@@ -9635,9 +11772,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Extract patterns in code and discussions
 - Integrate with VS Code for seamless development experience
 
+*Tags: cursor-chat-history-mcp, ai-assistants, developer-ux, context-engineering, code-context, github-integration, ai-security, developer-tools*
+
 ---
 
-### 699. [vlttnv/k8s-mcp](https://github.com/vlttnv/k8s-mcp)  `innovation: 8`
+### 740. [vlttnv/k8s-mcp](https://github.com/vlttnv/k8s-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A Python-based Model Context Protocol (MCP) tool for Kubernetes clusters to retrieve cluster information and diagnose issues.**
 
@@ -9647,9 +11786,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Resource inspection
 - Pod and deployment management
 
+*Tags: kubernetes, k8s-mcp, monitoring, debugging, resource, cluster*
+
 ---
 
-### 700. [vortiago/mcp-azure-devops](https://github.com/vortiago/mcp-azure-devops)  `innovation: 8`
+### 741. [vortiago/mcp-azure-devops](https://github.com/vortiago/mcp-azure-devops)  `innovation: 8` ★☆☆ 🔵
 
 **A Model Context Protocol server enabling AI assistants to interact with Azure DevOps services via Python SDK.**
 
@@ -9660,9 +11801,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Pipeline Operations
 - Branch Policy Administration
 
+*Tags: mcp, azure-devops, ai-assistant, python-sdk, devops-integration, workflow-automation, enterprise-platform, security-features*
+
 ---
 
-### 701. [vulh1209/context-bank-mcp](https://github.com/vulh1209/context-bank-mcp)  `innovation: 8`
+### 742. [vulh1209/context-bank-mcp](https://github.com/vulh1209/context-bank-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A project that uses the Model Context Protocol to interface with the AtherOS knowledge base, enabling secure and isolated querying of information.**
 
@@ -9670,11 +11813,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Create new chat sessions
 - Send messages to chat sessions
 
+*Tags: context-engine, api-integration, knowledge-base, secure-devops, developer-tools*
+
 ---
 
-### 702. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `innovation: 8`
+### 743. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**Waldur MCP server enabling secure integration between Waldur instance and Claude Desktop via Model Context Protocol.**
+**The Waldur MCP server implements the Model Context Protocol (MCP) to facilitate direct interaction between Waldur instances and Claude Desktop. This integration allows seamless context passing, enhancing interoperability and enabling advanced AI-driven workflows within enterprise environments.**
 
 **Key Features:**
 - Model Context Protocol implementation
@@ -9682,24 +11827,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with Waldur instance
 - Support for Claude Desktop
 
----
-
-### 703. [wallaceobsidian01/pipedream](https://github.com/wallaceobsidian01/pipedream)  `innovation: 8`
-
-**A platform for building and managing MCP servers to host APIs, enabling secure, isolated environments for applications.**
-
-**Key Features:**
-- Run MCP servers locally or in production
-- Manage server accounts
-- credentials
-- and API requests
-- Integrate with external tools and services
-- Support OAuth2 authorization for secure access control
-- Customize server behavior via configuration files
+*Tags: modelcontextprotocol, waldur-mcp-server, ai-integration, secure-deployment, developer-tools*
 
 ---
 
-### 704. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `innovation: 8`
+### 744. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A server that provides real-time trending content from Chinese internet sources using the Model Context Protocol.**
 
@@ -9714,9 +11846,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - 36Kr business news
 - Huxiu 24-hour trends
 
+*Tags: context-engineer, ai-integration, real-time-data, trending-content, data-aggregation, mcp-server, api-integration, developer-tools*
+
 ---
 
-### 705. [wazzan/mcp-coincap-jj](https://github.com/wazzan/mcp-coincap-jj)  `innovation: 8`
+### 745. [wazzan/mcp-coincap-jj](https://github.com/wazzan/mcp-coincap-jj)  `innovation: 8` ★☆☆ 🔵
 
 **A MCP server providing real-time cryptocurrency analysis using the CoinCap API.**
 
@@ -9726,36 +11860,26 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Historical trends
 - API integration
 
+*Tags: crypto, analysis, market, finance, blockchain, trading, monitoring*
+
 ---
 
-### 706. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `innovation: 8`
+### 746. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `innovation: 8` ★☆☆ 🔵
 
-**Weaviate MCP Server for managing context and model data in Weaviate.**
+**The MCP (Model Context Protocol) server enables secure, efficient communication between Weaviate and other systems by facilitating the exchange of model context information. This project focuses on integrating the MCP server into Weaviate to enhance its capabilities in handling complex data models a**
 
 **Key Features:**
 - MCP Server Integration
 - Model Context Management
 - Secure Data Exchange
 
----
-
-### 707. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `innovation: 8`
-
-**A lightweight Model Context Protocol server for detailed character analysis of text.**
-
-**Key Features:**
-- Character count analysis
-- Character type breakdown (letters
-- numbers
-- symbols)
-- Integration with Claude Desktop and GitHub Copilot
-- Detailed usage examples and setup instructions
+*Tags: weaviate, mcp-server, weaviate-mcp, model-context-protocol, api-integration, data-security, developer-tools*
 
 ---
 
-### 708. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `innovation: 8`
+### 747. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**An MCP server for listing and trading tokens on KaiaFun and interacting with the Kaia blockchain.**
+**This project implements an MCP (Model Context Protocol) server to enable secure token listing, trading, and interaction with the Kaia blockchain. It provides a development environment for managing tokens, executing trades, and integrating with blockchain data via the Model Context Protocol. The solu**
 
 **Key Features:**
 - List new tokens
@@ -9763,9 +11887,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Interact with Kaia blockchain
 - Token metadata management
 
+*Tags: mcp, kaiafun, blockchain, tokens, smartcontracts, web3, ai, developer*
+
 ---
 
-### 709. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `innovation: 8`
+### 748. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A secure, OAuth-authenticated Model Context Protocol (MCP) server enabling secure access to MyMLH API v4 for AI applications.**
 
@@ -9780,12 +11906,15 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Cline
 - Roo
 - Claude
+- etc.)
+
+*Tags: mcp, ai, cloudflare, developer, security, integration, deployment, mlh*
 
 ---
 
-### 710. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `innovation: 8`
+### 749. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `innovation: 8` ★☆☆ 🔵
 
-**A project demonstrating MCP server implementation for secure AI assistant integration.**
+**This technical resource details the development and deployment of an MCP (Model Context Protocol) server using JavaScript and the official Azure Java SDK. It outlines the architecture, tools, and workflows necessary to connect AI assistants securely to external data sources, emphasizing secure commu**
 
 **Key Features:**
 - MCP server implementation
@@ -9794,29 +11923,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - secure input management
 - tool management system
 
----
-
-### 711. [winfsp/winfsp](https://github.com/winfsp/winfsp)  `innovation: 8`
-
-**Windows File System Proxy - FUSE for Windows**
-
-**Key Features:**
-- ['Enables developers to create custom file systems on Windows without deep kernel programming knowledge.'
-- 'Provides a platform for developing and runtime support for custom file systems.'
-- 'Core consists of a kernel mode file system driver (FSD) and a user mode DLL.'
-- 'API interface allows applications to interact with the file system via standard Windows file APIs.'
-- 'Offers benefits like easy development
-- stability
-- correctness
-- performance
-- wide support across various architectures (Windows 7-11
-- x86/x64/ARM64)
+*Tags: mcp, azure-sdk, ai-assist, developer-tools, security, integration, code-samples, vscode*
 
 ---
 
-### 712. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `innovation: 8`
+### 750. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP server for Korean spell checking, enabling context-aware language processing.**
+**The winterjung/mcp-korean-spell project provides a Model Context Protocol (MCP) server tailored for Korean language applications. It focuses on integrating advanced spell-checking capabilities into documents and texts, ensuring grammatical accuracy and contextual relevance. The tool is designed to e**
 
 **Key Features:**
 - Korean spell checking
@@ -9825,9 +11938,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Developer-friendly API
 - Customizable configurations
 
+*Tags: mcp, korean-spell, language-processing, developer-tools, text-analysis, ai-integration, spell-check, code-validation*
+
 ---
 
-### 713. [wirdes/db-mcp-tool](https://github.com/wirdes/db-mcp-tool)  `innovation: 8`
+### 751. [wirdes/db-mcp-tool](https://github.com/wirdes/db-mcp-tool)  `innovation: 8` ★☆☆ 🔵
 
 **A powerful Model Context Protocol (MCP) tool for exploring and managing various database types including PostgreSQL, MySQL, and Firestore.**
 
@@ -9840,9 +11955,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Export table schemas
 - Export table data
 
+*Tags: database explorer, mcp tool, postgresql, mysql, firestore, node.js, developer workflow, data management*
+
 ---
 
-### 714. [wuyunmei/momedb-mcp](https://github.com/wuyunmei/momedb-mcp)  `innovation: 8`
+### 752. [wuyunmei/momedb-mcp](https://github.com/wuyunmei/momedb-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A platform for managing AI applications using MCP, focusing on knowledge management and secure development workflows.**
 
@@ -9858,9 +11975,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - add_knowledge
 - relate_knowledge)
 
+*Tags: ai, momedb-mcp, developer, security, knowledgebase, memory, persistence, context*
+
 ---
 
-### 715. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `innovation: 8`
+### 753. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **OpenDigger MCP Server enables advanced repository analytics and insights through tools and prompts.**
 
@@ -9873,11 +11992,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - server_health
 - prompts
 
+*Tags: mcp-server, open-digger, developer-tools, repository-analytics, security-features, ai-integration, code-quality, ci/cd*
+
 ---
 
-### 716. [xaos-project/XaoS](https://github.com/xaos-project/XaoS)  `innovation: 8`
+### 754. [xaos-project/XaoS](https://github.com/xaos-project/XaoS)  `innovation: 8` ★☆☆ 🔵
 
-**Real-time interactive fractal zoomer.**
+**XaoS is a real-time interactive fractal zoomer that allows users to smoothly zoom into any place within a chosen fractal without the long calculation time required by other fractal generators. It offers various features like different fractal types, autopilot, special coloring modes, random palette **
 
 **Key Features:**
 - Real-time interactive fractal zooming
@@ -9890,10 +12011,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Mac
 - Linux
 - BSDs)
+- and availability as a web application.
+
+*Tags: fractal, zoomer, realtime, qt, web app, interactive, math, mandelbrot*
 
 ---
 
-### 717. [xindong888999/phalcon-mcp](https://github.com/xindong888999/phalcon-mcp)  `innovation: 8`
+### 755. [xindong888999/phalcon-mcp](https://github.com/xindong888999/phalcon-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A Model Context Protocol (MCP) server for executing Phalcon 5.0.x commands, enabling AI-assisted framework management.**
 
@@ -9905,11 +12029,32 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Secure
 - isolated execution environment
 
+*Tags: phalcon-mcp, model context protocol, ai-assisted development, framework automation, developer workflow, code generation, secure coding, mvc architecture*
+
 ---
 
-### 718. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `innovation: 8`
+### 756. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**A design system MCP server for managing component props and design tokens.**
+**A lightweight JVM monitoring and diagnostic server built on native JDK tools, enabling AI agents to analyze Java applications without third-party dependencies.**
+
+**Key Features:**
+- Java process listing
+- Thread information retrieval
+- Memory usage monitoring
+- Class structure analysis
+- Method call path tracing
+- Class decompilation and inspection
+- Method invocation monitoring
+- Logger level management
+- System resource dashboard
+
+*Tags: jvm-mcp-server, mcp, java, monitoring, diagnostics, ai, developer-tools, system*
+
+---
+
+### 757. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**The project provides a Model Context Protocol (MCP) server that enables developers to access component properties and design tokens via the getComponentProps and getTokens functions. It supports token generation using Style Dictionary, allowing dynamic creation of CSS variables, JavaScript modules, **
 
 **Key Features:**
 - MCP server for component prop and token management
@@ -9921,11 +12066,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - In-memory debugging capabilities
 - Automated code generation and testing tools
 
+*Tags: design-system, mcp, design-tokens, developer-tools, code-generation, security, ai-integration, vscode*
+
 ---
 
-### 719. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `innovation: 8`
+### 758. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**This server provides the status of Web Platform Dashboard API features via Model Context Protocol, supporting different baseline compatibility levels.**
+**The yamanoku/baseline-mcp-server is a GitHub-hosted service that exposes the current support status (Baseline) for various Web Platform Dashboard API functionalities. It enables developers to check which features are widely, newly, limited, or not available, and supports filtering by browser and pro**
 
 **Key Features:**
 - Baseline status lookup
@@ -9935,9 +12082,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with Docker and Deno
 - API client configuration support
 
+*Tags: mcp, deno, baseline-mcp-server, web-platform-dashboard, developer-tools*
+
 ---
 
-### 720. [yhc984/cursor-talk-to-figma-mcp-main](https://github.com/yhc984/cursor-talk-to-figma-mcp-main)  `innovation: 8`
+### 759. [yhc984/cursor-talk-to-figma-mcp-main](https://github.com/yhc984/cursor-talk-to-figma-mcp-main)  `innovation: 8` ★☆☆ 🔵
 
 **Integrates Cursor AI with Figma using Model Context Protocol for programmatic design interaction.**
 
@@ -9949,39 +12098,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - editing
 - and export of UI components
 
----
-
-### 721. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `innovation: 8`
-
-**A Pyodide server implementation enabling LLMs to execute Python code via the Model Context Protocol (MCP).**
-
-**Key Features:**
-- Python code execution via MCP
-- Support for stdio and SSE transport
-- Type validation with arktype
-- Data formatting handlers
-- Request handling and message processing
+*Tags: ai, developer, figma, security, code, integration, automation, webhook*
 
 ---
 
-### 722. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `innovation: 8`
+### 760. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
-**Voicevox MCP Server enabling text-to-speech functionality for Mac devices using the Model Context Protocol.**
-
-**Key Features:**
-- MCP server implementation
-- Voice synthesis via Text-to-Speech API
-- Local audio playback using AFPlay
-- Containerized deployment with Docker
-- TypeScript-based architecture
-- Integration with MCP SDK
-- Secure and isolated execution environment
-
----
-
-### 723. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `innovation: 8`
-
-**A cloud-based MCP server that extracts structured text from web pages for AI model consumption.**
+**The WebforAI MCP server is a serverless solution built on Cloudflare Workers, designed to extract plain text from any web page using the Model Context Protocol. It enables developers to easily feed web content into AI models by converting HTML into clean Markdown, handling errors robustly, and suppo**
 
 **Key Features:**
 - Web page text extraction via API
@@ -9993,11 +12116,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - images
 - and links
 
+*Tags: web development, ai integration, developer tools, cloud deployment, text extraction, mcp server, ai models, serverless architecture*
+
 ---
 
-### 724. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `innovation: 8`
+### 761. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A MCP-based server tool for code analysis, merging, and security inspection.**
+**The project implements a Model Context Protocol (MCP) server to facilitate advanced code processing tasks such as file tree generation, content merging, and static code analysis. It supports secure development workflows with features like automated workflows, secure code handling, and integration wi**
 
 **Key Features:**
 - Code merging
@@ -10007,9 +12132,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Automated workflows
 - Secure code management
 
+*Tags: code-merge, ai-development, security, mcp-server, developer-tools*
+
 ---
 
-### 725. [yzfly/mcp-python-interpreter](https://github.com/yzfly/mcp-python-interpreter)  `innovation: 8`
+### 762. [yzfly/mcp-python-interpreter](https://github.com/yzfly/mcp-python-interpreter)  `innovation: 8` ★☆☆ 🔵
 
 **A Python interpreter server enabling LLMs to interact with Python environments, execute code, and manage workflows securely.**
 
@@ -10020,9 +12147,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Package installation and management
 - Integration with Claude Desktop for enhanced UX
 
+*Tags: mcp, code_execution, development_workflow, ai_integration, security, cloud_integration, automation*
+
 ---
 
-### 726. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `innovation: 8`
+### 763. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `innovation: 8` ★☆☆ 🔵
 
 **A server implementation for integrating Gmail API with AI assistants, enabling secure and context-aware email interactions.**
 
@@ -10038,29 +12167,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integration with external tools and APIs
 - Multi-scope authorization and secure credential handling
 
----
-
-### 727. [zaycruz/docker_mcp](https://github.com/zaycruz/docker_mcp)  `innovation: 8`
-
-**A server that executes code in isolated Docker containers, enabling secure and isolated execution of applications.**
-
-**Key Features:**
-- Isolated code execution in Docker containers
-- Multi-language support
-- Complex script execution
-- Container management (list
-- create
-- add dependencies
-- execute)
-- Integration with LLMs for intelligent code processing
-- Package manager compatibility (pip
-- npm
+*Tags: gmail-mcp-server, ai-assistant, email-integration, secure-api, context-aware, developer-tools, security, cloud-integration*
 
 ---
 
-### 728. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `innovation: 8`
+### 764. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `innovation: 8` ★☆☆ 🔵
 
-**A Model Context Protocol server for converting various file types to Markdown.**
+**Markdownify MCP is a Model Context Protocol (MCP) server designed to transform diverse file formats such as PDFs, images, audio, web pages, and more into clean, readable Markdown. It supports conversion from multiple sources including Dockerized environments, web content, and local files, enabling s**
 
 **Key Features:**
 - Converts PDFs to Markdown
@@ -10070,11 +12183,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Integrates with TypeScript and Node.js ecosystems
 - Provides customizable server behavior via configuration
 
+*Tags: context-engineer, developer-tools, ai-markdown, mcp-server, code-conversion, documentation-tool*
+
 ---
 
-### 729. [zeddy89/Context-Engine](https://github.com/zeddy89/Context-Engine)  `innovation: 8`
+### 765. [zeddy89/Context-Engine](https://github.com/zeddy89/Context-Engine)  `innovation: 8` ★☆☆ 🔵
 
-**Claude Code Context Engine**
+**An autonomous project builder that manages context across four layers (Working/Episodic/Semantic/Procedural) to prevent agent degradation.**
 
 **Key Features:**
 - Four-layer context architecture
@@ -10082,9 +12197,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Native /compact hook integration
 - Multi-file edit verification.
 
+*Tags: claude-code, context-management, automation, productivity*
+
 ---
 
-### 730. [zedmoster/revit-mcp](https://github.com/zedmoster/revit-mcp)  `innovation: 8`
+### 766. [zedmoster/revit-mcp](https://github.com/zedmoster/revit-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **Integration of AI assistants with Revit via MCP for automated building design and management.**
 
@@ -10095,9 +12212,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - and interact programmatically
 - Support modern DevOps workflows in enterprise environments
 
+*Tags: revit, ai, automation, devops, enterprise*
+
 ---
 
-### 731. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `innovation: 8`
+### 767. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `innovation: 8` ★☆☆ 🔵
 
 **A secure blockchain server enabling AI assistants to interact with smart contracts while maintaining user control over private keys and transaction signing.**
 
@@ -10110,25 +12229,11 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Smart contract interaction with verified networks
 - Secure transaction preparation and signing workflow
 
----
-
-### 732. [zxfgds/mcp-toolkit](https://github.com/zxfgds/mcp-toolkit)  `innovation: 8`
-
-**A comprehensive MCP toolkit for AI assistants to interact securely with files, databases, and external services.**
-
-**Key Features:**
-- File system operations
-- Database integration (MySQL
-- PostgreSQL
-- Redis)
-- Code search and management
-- Web scraping and content extraction
-- Security features and token-based authentication
-- Integration with external services
+*Tags: blockchain, ai, web3, smart contracts, security, developer tools, transaction flow, postgresql*
 
 ---
 
-### 733. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `innovation: 8`
+### 768. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `innovation: 8` ★☆☆ 🔵
 
 **A model context protocol server for Pixabay image and video search with structured results and runtime validation.**
 
@@ -10138,11 +12243,13 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - Runtime argument validation
 - Safe search implementation
 
+*Tags: pixabay-mcp, ai-search, image-api, structured-results, runtime-validation, developer-tools, security, mcp-server*
+
 ---
 
-### 734. [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata)  `innovation: 8`
+### 769. [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata)  `innovation: 8` ★☆☆ 🔵
 
-**A server implementation for interacting with Wikidata using the Model Context Protocol (MCP).**
+**The project provides a server-based solution to access and manipulate Wikidata data via MCP, enabling developers to search entities, extract properties, and execute SPARQL queries. It supports integration with AI tools like LangChain for natural language processing and recommendation tasks.**
 
 **Key Features:**
 - search_entity
@@ -10151,14 +12258,139 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 - execute_sparql
 - get_metadata
 
+*Tags: wikidata, mcp, ai-integration, sparql, wikidata-server, developer-tools*
+
+---
+
+### 770. [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done)  `innovation: 10` ★★★ 🔵
+
+**A production-grade context engineering and multi-agent system designed to make AI development reliable via rigorous planning and verification.**
+
+**Key Features:**
+- Planner-Checker-Revise loops
+- automated codebase mapping
+- sub-agent task delegation
+- interactive verification gates.
+
+*Tags: gsd, orchestration, verification, cdd, workflow*
+
+---
+
+### 771. [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)  `innovation: 9` ★★☆ 🔵
+
+**A visual orchestration platform for running parallel AI agents in isolated git worktrees, central to the "vibe coding" paradigm.**
+
+**Key Features:**
+- Parallel agent execution
+- isolated worktree management
+- inline diff review
+- integrated browser preview.
+
+*Tags: vibe-coding, kanban, orchestration, git-worktrees, automation*
+
+---
+
+### 772. [keli-wen/agentic-harness-patterns-skill](https://github.com/keli-wen/agentic-harness-patterns-skill)  `innovation: 9` ★★☆ 🔵
+
+**GitHub - keli-wen/agentic-harness-patterns-skill: Agent skill for harness engineering — memory, permissions, context engineering, multi-agent coordination. Distilled from Claude Code, with Codex CLI and Gemini CLI on the roadmap. EN/ZH. Install via npx skills add. · GitHub Skip to content Navigation**
+
+**Key Features:**
+- Persistent memory
+- Agent support
+- Harness framework
+- Skill system
+
+*Tags: memory, agent, context, claude, codex, harness, skill, cli*
+
+---
+
+### 773. [1xn-labs/1xn-vmcp](https://github.com/1xn-labs/1xn-vmcp)  `innovation: 8` ★☆☆ 🔵
+
+**The Virtual Model Context Protocol (vMCP) is an AI configuration and management platform built on top of the Model Context Protocol. It solves the 'Configuration Hell' problem by providing a layer of abstraction for managing MCP configurations across various clients (like Claude, ChatGPT, VSCode, Ge**
+
+**Key Features:**
+- ['Flexible vMCP Creation: Compose different MCP servers into a unified MCP server via a no-code interface.'
+- 'Context Engineering with MCPs: Select and override tool names/descriptions from upstream MCPs and prefill tool arguments.'
+- 'Programmable Prompts: Define prompts that can invoke other tools and resources
+- enabling user-controlled tool chaining.'
+- 'Add files as resources: Select MCP resource and add your own knowledge base files.'
+- 'MCP Server Authentication: Authorize MCP servers once and re-use across clients.'
+- 'Usage Statistics: Track and analyze vMCP usage patterns with full MCP protocol level logging.'
+- 'Docker and PyPi Ready: Official Docker images for easy deployment.']
+
+*Tags: ['AI Agents', 'Workflow Orchestration', 'Context Engineering', 'MCP', 'Virtualization', 'LLM Integration', 'Agent Management', 'Cloud AI'*
+
+---
+
+### 774. [codyde/mcp-file-tool](https://github.com/codyde/mcp-file-tool)  `innovation: 8` ★☆☆ 🔵
+
+**The codyde/mcp-file-tool is an open-source GitHub repository that provides a file server implementation using the Model Context Protocol (MCP). It enables developers to perform file system operations such as creating, reading, and listing files in a standardized and efficient manner. The tool integr**
+
+**Key Features:**
+- Create Files
+- Read Files
+- List Directory Contents
+- Performance Monitoring
+
+*Tags: file-system, development, security, integration, automation, monitoring, code, devops*
+
+---
+
+### 775. [eiliyaabedini/aider-mcp](https://github.com/eiliyaabedini/aider-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**A Python application that enables parallel execution of multiple AI coding tasks using the Aider tool, improving efficiency and reducing execution time.**
+
+**Key Features:**
+- Parallel execution of multiple AI coding tasks
+- Sequential execution option for tasks when needed
+- Detailed reporting on task execution
+- Integration with MCP (Model Context Protocol) for standardized AI model interactions
+- Performance comparison between parallel and sequential execution
+
+*Tags: ai, developer, ai_automation, code_execution, multi_tasking, testing, mcp_integration, performance_analysis*
+
+---
+
+### 776. [nick1udwig/kibitz](https://github.com/nick1udwig/kibitz)  `innovation: 8` ★☆☆ 🔵
+
+**A technical resource detailing a coding agent designed for professionals, likely an AI agent or tool that integrates into the development workflow. The repository structure suggests a modern web application built with Next.js and TypeScript.**
+
+**Key Features:**
+- Coding Agent Integration
+- Configuration Management (API Keys
+- System Prompts)
+- MCP/A2A Connectivity
+- Context Engineering
+- Developer UX
+- and Workflow Orchestration.
+
+*Tags: ['AI Agents', 'LLM', 'Anthropic', 'Tool-Use', 'Context Engineering', 'MCP', 'TypeScript', 'Next.js'*
+
+---
+
+### 777. [sengokudaikon/aider-mcp-server](https://github.com/sengokudaikon/aider-mcp-server)  `innovation: 8` ★☆☆ 🔵
+
+**The aider-mcp-server acts as an intermediary that allows Claude and other MCP clients to connect with Aider, providing standardized interfaces for file editing, code management, and configuration. It supports automated workflows, secure code handling, and integration with development environments, e**
+
+**Key Features:**
+- Model Context Protocol integration
+- File editing via Aider
+- Code management and extraction
+- Git repository support
+- Custom configuration via .aider.conf.yml
+- Integration with Cursor IDE
+- Automated workflows and CI/CD support
+
+*Tags: ai, developer, mcp, ai-assistant, code-editor, cloud-dev, ai-security, github-integration*
+
 ---
 
 
-## Websites & Non-GitHub Resources
+## Websites, Articles & Non-GitHub Resources
 
-### 735. [https://mbleigh.dev/posts/context-engineering-with-links](https://mbleigh.dev/posts/context-engineering-with-links)  `innovation: 10`
+### 778. [https://mbleigh.dev/posts/context-engineering-with-links](https://mbleigh.dev/posts/context-engineering-with-links)  `innovation: 10` ★★★ 🔵
 
-**Context Links Pattern**
+**An architectural paradigm advocating for the use of hyperlinks (MCP Resources) as primitives for "Just-in-Time" context to prevent token rot.**
 
 **Key Features:**
 - URI-addressable "Context Links"
@@ -10169,5 +12401,1894 @@ Tools for managing, compressing, indexing, and isolating LLM context windows —
 
 ---
 
+### 779. [https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?r](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?ref=blog-admin.arcade.dev)  `innovation: 10` ★★★ 🔵
 
-*Total: 735 tools*
+**A 2026 update for Claude Code that implements "lazy loading" for MCP tools, reducing context usage by 90% by fetching schemas only when relevant.**
+
+**Key Features:**
+- MCP Tool Search (v20260209)
+- 90% context token reduction
+- support for 50+ tool catalogs
+- dynamic "just-in-time" schema injection.
+
+---
+
+### 780. [https://venturebeat.com/orchestration/mits-new-recursive-framework-lets-llms-pro](https://venturebeat.com/orchestration/mits-new-recursive-framework-lets-llms-process-10-million-tokens-without)  `innovation: 10` ★★★ 🔵
+
+**A framework enabling agents to reason over 10M+ tokens by treating the prompt as an external environment and recursively self-calling over data snippets.**
+
+**Key Features:**
+- Recursive self-calling mechanism
+- "out-of-core" prompt handling
+- 91% accuracy on massive context tasks
+- zero-retraining long-context reasoning.
+
+---
+
+### 781. [https://www.augmentcode.com/blog/a-real-time-index-for-your-codebase-secure-pers](https://www.augmentcode.com/blog/a-real-time-index-for-your-codebase-secure-personal-scalable)  `innovation: 10` ★★★ 🔵
+
+**A leading enterprise context engine that provides instant (sub-second) indexing for 400,000+ file repositories and native MCP support.**
+
+**Key Features:**
+- Instant synchronization (seconds)
+- 400k+ file capacity
+- personalized per-developer indices
+- native MCP server integration.
+
+---
+
+### 782. [https://www.context-pack.com/](https://www.context-pack.com/)  `innovation: 10` ★★★ 🔵
+
+**A context engineering tool that distills massive source data through iterative filter prompts into a noise-free scratchpad, preventing LLM context starvation.**
+
+**Key Features:**
+- Iterative context distillation
+- noise-free scratchpad accumulation
+- agent-specific context isolation
+- token-waste reduction.
+
+---
+
+### 783. [https://www.philschmid.de/context-engineering](https://www.philschmid.de/context-engineering)  `innovation: 10` ★★★ 🔵
+
+**A foundational 2026 shift from Prompt Engineering to Context Engineering, focusing on "Agent Harnesses" that manage state, compaction, and memory isolation.**
+
+**Key Features:**
+- Context Compaction (noise reduction)
+- Agent Harness architectural pattern
+- State offloading to persistent disk
+- modular "build-to-delete" design.
+
+---
+
+### 784. [https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader/](https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader/)  `innovation: 9` ★★☆ 🔵
+
+**Cloudflare Dynamic Workers provide a low-level primitive for spinning up isolated V8 environments instantly by supplying script content and configuration at runtime. This architecture allows for the execution of untrusted or AI-generated code ('Code Mode') while maintaining strict control over avail**
+
+**Key Features:**
+- Runtime code execution
+- V8 isolate sandboxing
+- dynamic binding injection
+- egress network control
+- per-run observability (Tail Workers)
+- millisecond cold starts
+- multi-tenant isolation
+- AI agent tool execution
+
+---
+
+### 785. [https://developers.googleblog.com/architecting-efficient-context-aware-multi-age](https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production/)  `innovation: 9` ★★☆ 🔵
+
+**The article argues that relying solely on larger context windows is insufficient for production-grade, long-horizon agents due to cost, latency, signal degradation, and physical limits. The solution proposed is 'Context Engineering,' treating context as a first-class system. ADK implements this via **
+
+**Key Features:**
+- Tiered context model (Working Context
+- Session
+- Memory
+- Artifacts)
+- LLM Flows with ordered Processors for explicit transformations
+- Structured Event logging for session history
+- Decoupling of storage schema from prompt format
+- Scoped default context access
+- Multi-agent context handoff semantics.
+
+---
+
+### 786. [https://jetkvm.com/](https://jetkvm.com/)  `innovation: 9` ★★☆ 🔵
+
+**Ultra-Low Latency High-definition 1080p video at 60 FPS with 30-60 millisecond latency, using efficient H.264 encoding. Smooth mouse and keyboard action transfer for responsive remote interaction. Free & Optional Cloud Access using WebRTC. Privacy-first design with opt-in cloud access that provides **
+
+**Key Features:**
+- Ultra-Low Latency High-definition video (1080p @ 60 FPS)
+- Efficient H.264 encoding
+- Smooth mouse/keyboard action transfer
+- Optional WebRTC Cloud Access via JetKVM API
+- Privacy-first design with secure direct connections (STUN/TURN).
+
+---
+
+### 787. [https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_](https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_2014_2025/)  `innovation: 9` ★★☆ 🔵
+
+**The resource details the evolution of dexterous robotic hands from 2009 to 2025, highlighting advancements in actuation, control systems, and materials. It discusses the shift from traditional robotic arms to more human-like dexterity, emphasizing improvements in degrees of freedom, actuator placeme**
+
+**Key Features:**
+- Advanced actuation systems
+- High precision control algorithms
+- Lightweight and compact design
+- Integration with AI for spatial awareness
+- Real-time feedback mechanisms
+
+---
+
+### 788. [https://old.reddit.com/r/vibecoding/comments/1qf46sc/i_built_an_entire_os_by_vib](https://old.reddit.com/r/vibecoding/comments/1qf46sc/i_built_an_entire_os_by_vibing_with_claude/)  `innovation: 9` ★★☆ 🔵
+
+**The project demonstrates a novel approach to operating system development by leveraging AI-assisted natural language interaction to iteratively build and refine complex software systems. It highlights the potential of AI in automating and accelerating traditional software engineering tasks, such as **
+
+**Key Features:**
+- Custom terminal with Vib-OS Terminal
+- File manager with root navigation
+- Notepad application
+- Calculator
+- Full GUI with window management
+- Taskbar with app launcher
+
+---
+
+### 789. [https://thecritic.co.uk/poet-artist-tantric-christian](https://thecritic.co.uk/poet-artist-tantric-christian)  `innovation: 9` ★★☆ 🔵
+
+**The article analyzes William Blake's work through the lens of modern Christian thought, positioning him as a tantric Christian whose mystical imagination challenges conventional religious and philosophical frameworks. It highlights his unique blend of poetic genius, spiritual insight, and revolution**
+
+**Key Features:**
+- Exploration of Blake's 'Christian tantra' and vision of imagination as a transformative force
+- Analysis of Blake's mystical and revolutionary themes
+- Contextualization of Blake within Christian theology and modern thought
+- Discussion of his influence on contemporary spirituality and creativity
+
+---
+
+### 790. [https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)  `innovation: 9` ★★☆ 🔵
+
+**Edge.js is a JavaScript runtime designed to safely run Node.js workloads in a WebAssembly sandbox, leveraging WebAssembly's security features and the OS-level isolation provided by WASI. It preserves full Node.js compatibility while sandboxing only unsafe operations such as system calls and native c**
+
+**Key Features:**
+- WebAssembly sandboxing for enhanced security
+- Native module compatibility via NAPI
+- Fast startup and high-density execution
+- Full Node.js engine support (v24)
+- Cross-platform compatibility with modern JS runtimes
+- Secure sandboxing of OS system calls and native code
+
+---
+
+### 791. [https://www.maffulli.net/2026/03/16/ai-final-frontier-of-copyleft/](https://www.maffulli.net/2026/03/16/ai-final-frontier-of-copyleft/)  `innovation: 9` ★★☆ 🔵
+
+**This resource explores the concept of the 'Second Liberation' where artificial intelligence, particularly through open-source tools and AI code assistants, is seen as the key to true digital autonomy. It contrasts the historical limitations imposed by restrictive licenses and scarce technical knowle**
+
+**Key Features:**
+- Analysis of AI's role in overcoming traditional software licensing barriers
+- Comparison between copyleft and AI-driven technical freedom
+- Discussion on the evolving nature of software ownership and control
+- Emphasis on reducing the economic and knowledge barriers to digital innovation
+
+---
+
+### 792. [https://www.plantemoran.com/](https://www.plantemoran.com/)  `innovation: 9` ★★☆ 🔵
+
+**This resource provides an in-depth examination of Plante Moran's offerings across multiple sectors including accounting, consulting, wealth management, real estate, healthcare, and more. It highlights their strategic approach to digital transformation, tax policy adaptation, risk management, and inn**
+
+**Key Features:**
+- Audit & Assurance Services
+- Tax Policy & Compliance Insights
+- Wealth Management Solutions
+- Consulting & Advisory Services
+- Digital Transformation & Innovation
+- Risk Management Strategies
+- Real Estate & Investment Advisory
+
+---
+
+### 793. [https://www.ragie.ai/?rdt_cid=5168814890013987582&utm_campaign=rag-api&utm_mediu](https://www.ragie.ai/?rdt_cid=5168814890013987582&utm_campaign=rag-api&utm_medium=cpc&utm_source=reddit)  `innovation: 9` ★★☆ 🔵
+
+**The Borg intelligence database entry evaluates Ragie as a powerful RAG (Retrieval-Augmented Generation) engine designed to extract structured context from unstructured documents. It highlights its capabilities in entity extraction, customization via partitions, integration with platforms like Base C**
+
+**Key Features:**
+- Advanced RAG engine for structured document understanding
+- Entity extraction and classification
+- Custom partitioning and indexing
+- Seamless integration with chat platforms (Base Chat
+- MCP)
+- Improved retrieval speed and accuracy
+
+---
+
+### 794. [https://www.tomshardware.com/pc-components/cpus/amd-zen-6-venice-es-chips-break-](https://www.tomshardware.com/pc-components/cpus/amd-zen-6-venice-es-chips-break-cover-with-up-to-192-cores-32-per-ccd-in-early-stress-test-kenya-congo-nigeria-platforms-leaked)  `innovation: 9` ★★☆ 🔵
+
+**The leaked information reveals significant advancements in AMD's Zen 6 architecture, featuring a substantial increase in core count (up to 192) and higher-density CCDs compared to previous generations. This development positions AMD to potentially dominate the high-performance CPU market, especially**
+
+**Key Features:**
+- Up to 192 cores
+- 32 cores per CCD
+- High-density memory architecture
+- AI accelerator integration
+- Improved thermal management
+- Enhanced performance for gaming and AI workloads
+
+---
+
+### 795. [https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-available](https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-available)  `innovation: 9` ★★☆ 🔵
+
+**This release significantly enhances Unreal Engine 5.7 with new features aimed at improving procedural world generation, virtual production capabilities, and animation workflows. Key additions include the Procedural Content Generation (PCG) framework, PCG GPU compute optimizations, the new Virtual Pr**
+
+**Key Features:**
+- Procedural Content Generation (PCG) framework
+- Enhanced virtual production tools (Nanite Foliage
+- MegaLights)
+- Advanced MetaHuman integration
+- Improved animation and rigging workflows
+- Substrate for material authoring
+- Real-time hair manipulation
+- Dynamic physics interactions
+
+---
+
+### 796. [https://antirez.com/news/158](https://antirez.com/news/158)  `innovation: 8` ★☆☆ 🔵
+
+**The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal journey from writing software to embracing AI too**
+
+**Key Features:**
+- Testing UTF-8 support in linenoise library
+- Fixing transient failures in Redis tests
+- Creating a C library for BERT-like embedding inference
+- Developing a Python tool to convert GTE-small model
+
+---
+
+### 797. [https://app.augmentcode.com/onboard](https://app.augmentcode.com/onboard)  `innovation: 8` ★☆☆ 🔵
+
+**Augment leverages advanced context engineering to deliver a deep understanding of entire repositories, placing it at the top of the SWE-bench Pro leaderboard for autonomous software engineering. Its architecture is built to ingest and index large-scale codebases, ensuring that AI suggestions are rel**
+
+**Key Features:**
+- Codebase-wide context indexing
+- Model Context Protocol (MCP) integration
+- SWE-bench Pro optimized reasoning
+- Multi-IDE support
+- Real-time intelligent suggestions
+- Automated AI code review
+- CLI-based developer tools
+
+---
+
+### 798. [https://arxiv.org/abs/2603.28052](https://arxiv.org/abs/2603.28052)  `innovation: 8` ★☆☆ 🔵
+
+**Meta-Harness introduces an automated system that searches through existing code repositories to discover and optimize model harnesses, improving performance across various LLM tasks such as text classification, retrieval-augmented reasoning, and agentic coding. It leverages an agentic proposer to ac**
+
+**Key Features:**
+- Automated code search for model harnesses
+- Agentic proposer for code access
+- Performance optimization across LLM tasks
+- Reduced context token usage
+- Improved accuracy in retrieval-augmented reasoning
+
+---
+
+### 799. [https://craftedcart.gitlab.io/notitg_docs/lua_api/song.html](https://craftedcart.gitlab.io/notitg_docs/lua_api/song.html)  `innovation: 8` ★☆☆ 🔵
+
+**The Song object in NotITG 4.2.0 documentation represents a core component for defining musical elements within the system. It encapsulates the fundamental attributes of a song, including its title, BPM, duration, and visual assets (background/banner). The API provides methods to retrieve detailed in**
+
+**Key Features:**
+- The Song object defines a musical entity with fields for difficulty
+- name
+- start/end beats
+- color components (Red
+- Green
+- Blue
+- Alpha)
+- and path information. Key features include methods to retrieve song steps
+- spell card details
+- title/subtitle info
+- artist names
+- and various paths related to the music file.
+
+---
+
+### 800. [https://dxt.so/mcp-server/developer-tools/funnel-mcp](https://dxt.so/mcp-server/developer-tools/funnel-mcp)  `innovation: 8` ★☆☆ 🔵
+
+**MCP Funnel acts as an intermediary layer between multiple Model Context Protocol (MCP) servers and AI clients (like Claude Desktop or Gemini). Its primary technical function is to mitigate the problem of excessive context window consumption caused by exposing too many tools to the LLM. It achieves t**
+
+**Key Features:**
+- Multi-Server Aggregation
+- Fine-grained Tool Filtering
+- Context Optimization (Token Reduction)
+- Automatic Tool Namespacing/Prefixing
+- Custom Stdio Transports
+
+---
+
+### 801. [https://en.m.wikipedia.org/wiki/Boston_Tea_Party](https://en.m.wikipedia.org/wiki/Boston_Tea_Party)  `innovation: 8` ★☆☆ 🔵
+
+**The Boston Tea Party was a pivotal act of protest on December 16, 1773, during the American Revolution. It was an action initiated by the Sons of Liberty in Boston, Massachusetts, targeting British taxation policies. The core conflict revolved around the principle of 'no taxation without representat**
+
+**Key Features:**
+- ['Core Event Date & Location (Dec 16
+- 1773)'
+- "Key Conflict: 'No taxation without representation'"
+- 'Key Actors: Sons of Liberty
+- British Parliament'
+- 'Resulting Action: Throwing tea into Boston Harbor'
+- 'Contextual Linkages: American Revolution
+- Tea Act
+- Townshend Acts']
+
+---
+
+### 802. [https://en.wikipedia.org/wiki/Book_of_Genesis](https://en.wikipedia.org/wiki/Book_of_Genesis)  `innovation: 8` ★☆☆ 🔵
+
+**The Book of Genesis, which includes the primeval history (chapters 1–11) and the ancestral history (chapters 12–50), explores the concepts of the nature of the deity and humanity's relationship with it. It details God's creation of a world good for humans, and the subsequent decision to preserve rig**
+
+**Key Features:**
+- The book is divided into two parts: primeval history (creation) and ancestral history (Israel's journey). It explores the theological importance of God's covenants with His chosen people. The text includes a legendary account of the creation of light
+- as stated in Genesis 1:3.
+
+---
+
+### 803. [https://endlessdoomscroller.com/](https://endlessdoomscroller.com/)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides a comprehensive overview of the concept of 'The Endless Doomscroller,' focusing on how agents interact, the architecture for memory and persistence, the user experience within developer tools, connectivity mechanisms, and the role of vector databases in search and discovery. I**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'AI Agents & Frameworks']
+
+---
+
+### 804. [https://etcsl.orinst.ox.ac.uk/edition2/etcslbycat.php](https://etcsl.orinst.ox.ac.uk/edition2/etcslbycat.php)  `innovation: 8` ★☆☆ 🔵
+
+**This technical resource provides a comprehensive overview of ancient Mesopotamian literary and historical texts, structured into categories such as catalogues, narratives, hymns, royal poetry, and wisdom literature. It serves as a foundational dataset for understanding early literary traditions, rel**
+
+**Key Features:**
+- Comprehensive textual corpus
+- Multilingual and multiscribe content
+- Historical and mythological narratives
+- Royal praise poetry
+- Deity-centric compositions
+- Cultural and administrative texts
+
+---
+
+### 805. [https://fabiensanglard.net/compile_like_1997/index.html](https://fabiensanglard.net/compile_like_1997/index.html)  `innovation: 8` ★☆☆ 🔵
+
+**A detailed account of the historical development and compilation process of Quake in 1997.**
+
+**Key Features:**
+- Cross-platform compilation of Quake executables
+- Use of Visual C++ 4.X and Visual Studio 6.0
+- Development on NeXTSTEP and Windows NT systems
+- Emphasis on historical accuracy in build process
+
+---
+
+### 806. [https://filepilot.tech/](https://filepilot.tech/)  `innovation: 8` ★☆☆ 🔵
+
+**Engineered entirely from scratch for light-speed performance, featuring a modern and robust interface. Get File Pilot (Free Beta) Beta v0.7.0 | 2.08 MB | Windows 7+ (x86-64 only).**
+
+**Key Features:**
+- ['Panels & tabs: Create your perfect setup with any panel layout and open folders in new tabs
+- all easily arranged with simple drag and drop.'
+- 'Search View: Flattened folder hierarchies
+- including entire drives
+- in milliseconds. Perform fuzzy searches and filter by file extensions.'
+- 'Inspector: Quickly peek into file contents
+- including text
+- images
+- or even other folders
+- without leaving the program.'
+- 'Batch rename: Interactively rename multiple files at once
+- with options to generate unique IDs or use file dates.'
+
+---
+
+### 807. [https://fireball.xyz/](https://fireball.xyz/)  `innovation: 8` ★☆☆ 🔵
+
+**Crowbar.io is a platform designed to provide the best smoke detectors for modern agent-based workflows. It focuses on enabling agents to operate, manage context, and interact seamlessly within complex systems. The platform emphasizes robust connectivity, intelligent agent orchestration, and the unde**
+
+**Key Features:**
+- Best Smoke Detectors for Agent Orchestration; Context Engineering & Isolation; Robust Connectivity (MCP/A2A); Agent-centric workflow management.
+
+---
+
+### 808. [https://fossil-scm.org/home/doc/trunk/www/index.wiki](https://fossil-scm.org/home/doc/trunk/www/index.wiki)  `innovation: 8` ★☆☆ 🔵
+
+**Fossil is a simple, high-reliability, distributed SCM system with these advanced features. It offers more than just source code; it provides an all-in-one solution for project management, including version control, bug tracking, wiki, forum, email alerts, chat, and technotes. The core of Fossil is a**
+
+**Key Features:**
+- Distributed Version Control (like Git/Mercurial)
+- Integrated Web Interface
+- All-in-one executable
+- Self-host Friendly (CPU/memory efficient)
+- Simple Networking (HTTPS/SSH)
+- Autosync mode
+- Robust & Reliable storage using an SQLite database with automatic self-checks.
+
+---
+
+### 809. [https://fractalfoundation.org/resources/fractal-software](https://fractalfoundation.org/resources/fractal-software)  `innovation: 8` ★☆☆ 🔵
+
+**The resource highlights several fractal software options. Key offerings include: XaoS for Mac and Windows (a real-time zoomer), Ultra Fractal (for high-power animation/resolution), FRAX (for iPhone/iPad screen exploration), Mandelbulb3D (for 3D fractals), Ice Fractal (browser-based WebGL fractals), **
+
+**Key Features:**
+- Fractal software offers tools for exploration
+- visualization
+- 3D modeling
+- and interactive learning. Features include browser-based fractals
+- high-resolution rendering support
+- touch screen fractal exploration
+- and specialized apps for mobile devices.
+
+---
+
+### 810. [https://genius.com/Third-eye-blind-semi-charmed-life-lyrics](https://genius.com/Third-eye-blind-semi-charmed-life-lyrics)  `innovation: 8` ★☆☆ 🔵
+
+**The song 'Semi-Charmed Life' by Third Eye Blind uses a catchy, upbeat melody to narrate the tragic descent of a relationship into crystal meth addiction. It blends themes of illusion versus reality, self-deception, and desperation, with vivid imagery of addiction's grip and the fragile hope for esca**
+
+**Key Features:**
+- Dark narrative structure
+- Metaphorical language about addiction
+- Emotional contrast between appearance and reality
+- Repetitive chorus for memorability
+- Complex verse-chorus interplay
+
+---
+
+### 811. [https://gitlab.com/robertpelloni/veilid](https://gitlab.com/robertpelloni/veilid)  `innovation: 8` ★☆☆ 🔵
+
+**VeilID is a conceptual framework designed to address the challenges of agent orchestration, context management, and persistence. It focuses on providing a robust, scalable, and flexible architecture for deploying agents, managing their context, and enabling seamless interoperability between agents. **
+
+**Key Features:**
+- Agent Orchestration & Workflow Design
+- Context Engineering & Isolation Strategy
+- Memory & Persistence Architecture
+- Interoperability Layer (MCP/A2A) Implementation
+- Developer Experience Focus
+- Scalable Infrastructure Layers.
+
+---
+
+### 812. [https://greatcbdshop.com/product-category/kratom-brands/7-hydroxymitragynine-pro](https://greatcbdshop.com/product-category/kratom-brands/7-hydroxymitragynine-products)  `innovation: 8` ★☆☆ 🔵
+
+**7-hydroxymitragynine Products! Explore a world where cutting-edge science and nature’s riches collide to present a novel take on the benefits of traditional herbal remedies. Our carefully chosen assortment features the best 7OH options from the Mitragyna speciosa plant. Explore a wide selection of c**
+
+**Key Features:**
+- Multiple Kratom products available (e.g.
+- OPiA Chewable Kratom Extract Tablets
+- Viva Zen Ultimate MIT
+- Dozo PERKS Extra Strength 7-OH Extract Tablets
+- MIT45 Super K). Key features include potent alkaloids like 7-hydroxymitragynine (7-OH)
+- offering benefits for relaxation or wellness.
+
+---
+
+### 813. [https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LL](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF)  `innovation: 8` ★☆☆ 🔵
+
+**The model leverages fine-tuned language capabilities to produce structured guidance, exploit reasoning, and adversarial simulations tailored for offensive cybersecurity tasks. It supports rapid prototyping of attack chains, payload analysis, and red-team planning while adhering to safety constraints**
+
+**Key Features:**
+- Adversary simulation
+- Exploit reasoning
+- PoC code generation
+- Attack chain triage
+- Log analysis
+
+---
+
+### 814. [https://huggingface.co/datasets/open-index/hacker-news](https://huggingface.co/datasets/open-index/hacker-news)  `innovation: 8` ★☆☆ 🔵
+
+**The resource is a massive dataset capturing every story, comment, Ask HN, and job posting ever submitted to Hacker News since 2006. The structure involves parsing this data into distinct types (story, comment, poll, pollopt, job) and analyzing the distribution of these elements across time and topic**
+
+**Key Features:**
+- text classification
+- time series analysis
+- topic extraction
+- domain analysis
+- user behavior modeling
+- content type distribution
+- query optimization
+
+---
+
+### 815. [https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRan](https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRandnS2pIQmhDaEFSSXNBUEpSM3hkbnhRR2ZzYjNucG9LSUFja1V6Si1Obkh1VjgxLV9qbFp4ekdGemhIQUU0c0dJY0JKbXdoa2FBb1VfRUFMd193Y0I.*_gcl_au*NjU0ODM1OTMwLjE3NjA0Mjg2NzQ)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg intelligence database entry describes Kilo Code as a platform aimed at enhancing context management and workflow automation. It emphasizes integration capabilities across different systems, ensuring secure and isolated execution of tasks within diverse environments.**
+
+**Key Features:**
+- code installation
+- workflow automation
+- context management
+- integration support
+
+---
+
+### 816. [https://kimerachems.co/shop](https://kimerachems.co/shop)  `innovation: 8` ★☆☆ 🔵
+
+**This technical resource offers comprehensive data on USA-made peptides, SARMs, amino analytical reagents, and related compounds, tailored for researchers and lab professionals. It includes product catalogs, COA documentation, compliance disclaimers, and detailed molecular profiles to support in-vitr**
+
+**Key Features:**
+- Product catalog browsing
+- Research compound analysis
+- Certificate of Analysis (COA) provision
+- Compliance and safety disclosures
+- Digital product management tools
+
+---
+
+### 817. [https://legalizeadulthood.github.io/iterated-dynamics](https://legalizeadulthood.github.io/iterated-dynamics)  `innovation: 8` ★☆☆ 🔵
+
+**This document provides an in-depth look at Iterated Dynamics, covering its introduction, command structure (including Plotting, Zoom Box, Color Cycling, Palette Editing), specific commands for visualization (like 3D viewing and stereo modes), parameter management, and the underlying mathematical fou**
+
+**Key Features:**
+- The resource highlights the core functionalities of Iterated Dynamics
+- including: 
+1. **Fractal Generation:** The ability to generate complex fractal sets (Mandelbrot
+- Julia Sets) using various algorithms.
+2. **Visualization & Interaction:** Features for 3D viewing
+- stereo modes
+- and parameter exploration.
+3. **Workflow/Agent Orchestration:** Details on the system's architecture
+- memory persistence
+- and command structure.
+4. **Parameter Control:** The ability to define parameters
+- manage color palettes
+- and control the rendering process.
+5. **Core Engine Mechanics:** Insights into the underlying math (e.g.
+- Quaternion algebra
+- attractors) and the history of the 'Fractint' lineage.
+
+---
+
+### 818. [https://medium.com/@paul.douglass73/freedom-democracy-and-the-rise-of-techno-feu](https://medium.com/@paul.douglass73/freedom-democracy-and-the-rise-of-techno-feudalism-f176220833f6)  `innovation: 8` ★☆☆ 🔵
+
+**The essay critically examines Peter Thiel's assertion that freedom and democracy are incompatible, exploring how techno-libertarian ideas threaten democratic institutions by prioritizing elite innovation over collective welfare. It connects Thiel's ideology to broader debates on techno-feudalism, de**
+
+**Key Features:**
+- Thiel's critique of democracy as a constraint on entrepreneurial freedom
+- Link between techno-libertarianism and techno-feudalism
+- Analysis of democratic theorists' responses to Thiel
+- Discussion of real-world examples like Palantir and Seasteading Institute
+- Call for redefining freedom in the context of shared agency and public participation
+
+---
+
+### 819. [https://nate.leaflet.pub/3mk4xkaxobc2p](https://nate.leaflet.pub/3mk4xkaxobc2p)  `innovation: 8` ★☆☆ 🔵
+
+**This resource outlines strategies for deliberately undermining social connections, using psychological tactics to isolate individuals and disrupt their ability to engage meaningfully with others.**
+
+**Key Features:**
+- assume intent is malicious
+- pivot conversations away from dissent
+- leverage immediate network support
+- avoid acknowledging expertise of others
+
+---
+
+### 820. [https://news.ycombinator.com/item?id=41184527](https://news.ycombinator.com/item?id=41184527)  `innovation: 8` ★☆☆ 🔵
+
+**Explores advanced techniques for improving document retrieval using multimodal LLMs and positional embeddings.**
+
+**Key Features:**
+- Multimodal LLM integration
+- Positional embeddings
+- Document page parsing
+- Contextual understanding improvement
+
+---
+
+### 821. [https://news.ycombinator.com/item?id=41188891](https://news.ycombinator.com/item?id=41188891)  `innovation: 8` ★☆☆ 🔵
+
+**The project focuses on enhancing the accuracy of document search by fine-tuning an embedding model to better locate relevant pages within PDFs. This addresses challenges in traditional RAG systems that require extensive text extraction before applying large language models, aiming to streamline work**
+
+**Key Features:**
+- Embedding model training
+- PDF page retrieval enhancement
+- Semantic search optimization
+
+---
+
+### 822. [https://news.ycombinator.com/item?id=46662515](https://news.ycombinator.com/item?id=46662515)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project's 'EmuDevz' is a game centered around the development of emulators, specifically designed to help users understand how emulators function. It provides a hands-on approach to learning about assembly language programming and hardware interaction. The game covers various aspects such a**
+
+**Key Features:**
+- Emulator development
+- Assembly language programming
+- Cartridge loading
+- Input device simulation
+- Memory management
+- User interface design
+
+---
+
+### 823. [https://news.ycombinator.com/item?id=47196475](https://news.ycombinator.com/item?id=47196475)  `innovation: 8` ★☆☆ 🔵
+
+**Salacia addresses the critical issue of context loss in agentic coding by providing a robust runtime environment that compiles raw prompts into structured intent IR and verifiable specifications. It employs metamorphic testing to detect semantic drift and ensures high reliability through auditable l**
+
+**Key Features:**
+- Compile raw prompts into structured Intent IR
+- Verifiable specs generation
+- Metamorphic testing for semantic drift detection
+- Auditable change logging
+- Cross-platform compatibility with major AI agents
+
+---
+
+### 824. [https://news.ycombinator.com/item?id=47384653](https://news.ycombinator.com/item?id=47384653)  `innovation: 8` ★☆☆ 🔵
+
+**This resource examines the enduring tension between Hobbes and Locke in shaping political thought, highlighting how their ideas continue to influence contemporary debates on governance, democracy, and human nature. It emphasizes the importance of understanding historical context to grasp the nuances**
+
+**Key Features:**
+- Historical analysis of Leviathan and its place in modern political discourse
+- Comparison of Hobbes and Locke's views on sovereignty and governance
+- Discussion on the relevance of Hobbes' pessimism about human nature today
+- Insight into the evolution of political philosophy from the 17th century to the present
+
+---
+
+### 825. [https://news.ycombinator.com/item?id=47431671](https://news.ycombinator.com/item?id=47431671)  `innovation: 8` ★☆☆ 🔵
+
+**The study investigates how duplicating specific layers in a 24B transformer model can alter its reasoning capabilities without changing weights or training. By duplicating contiguous blocks (e.g., layers 12-14 or 7-9) and rerunning the reasoning pipeline, the authors observed shifts in benchmark sco**
+
+**Key Features:**
+- Layer duplication across specific depth ranges
+- Repeated reasoning pipeline execution
+- No weight updates during duplication
+- Exploration of cognitive 'modes' via layer routing
+- Analysis of benchmark consistency and performance shifts
+
+---
+
+### 826. [https://news.ycombinator.com/item?id=47570435](https://news.ycombinator.com/item?id=47570435)  `innovation: 8` ★☆☆ 🔵
+
+**This analysis evaluates the technical merits and practical considerations of using VHDL versus Verilog within the Borg Project's design framework. It examines historical context, language features, industry adoption, and real-world application challenges. The discussion highlights VHDL's strengths i**
+
+**Key Features:**
+- Concurrent process modeling
+- Simulation accuracy for complex designs
+- Integration with hardware description tools
+- Support for formal verification
+- Language-agnostic design practices
+
+---
+
+### 827. [https://news.ycombinator.com/item?id=47637757](https://news.ycombinator.com/item?id=47637757)  `innovation: 8` ★☆☆ 🔵
+
+**The paper explores how self-distillation (SSD) improves the ranking of optimal tokens during code generation, highlighting the balance between exploration in divergent thinking and precision in convergent execution. It emphasizes the tension between 'precision-exploration conflict' in LLMs and their**
+
+**Key Features:**
+- Self-distillation technique
+- Code generation optimization
+- Exploration vs precision trade-off
+- Context-aware decoding
+- Improved token ranking
+
+---
+
+### 828. [https://news.ycombinator.com/item?id=47832720](https://news.ycombinator.com/item?id=47832720)  `innovation: 8` ★☆☆ 🔵
+
+**The discussion highlights the difficulties in handling dynamic, real-time context management for asynchronous agents. It emphasizes the need for systems that can selectively pull, retain, and remove relevant information from a context stream, rather than simply concatenating messages. The author pro**
+
+**Key Features:**
+- Persistent message storage for context retention
+- Selective filtering of irrelevant information
+- Dynamic context window management
+- Automatic removal of outdated or redundant content
+- Integration with LLMs for semantic understanding
+
+---
+
+### 829. [https://old.reddit.com/r/netsec/comments/1s7tyuh/one_post_request_six_api_keys_b](https://old.reddit.com/r/netsec/comments/1s7tyuh/one_post_request_six_api_keys_breaking_into/)  `innovation: 8` ★☆☆ 🔵
+
+**Analysis of a Reddit post discussing vulnerabilities in Windows Defender and agent layer security.**
+
+**Key Features:**
+- Agent layer security
+- Conditional access policies
+- Continuous authentication
+- Credential management
+- Privilege boundaries
+
+---
+
+### 830. [https://open.substack.com/pub/jtnovelo2131/p/stop-throwing-away-your-genius-why?](https://open.substack.com/pub/jtnovelo2131/p/stop-throwing-away-your-genius-why?utm_source=share&utm_medium=android&r=5kk0f7)  `innovation: 8` ★☆☆ 🔵
+
+**The author argues that the intellectual value in AI interactions resides not just in the final output, but in the 'conversational dark matter'—the entire back-and-forth history contained within the context window. This history acts as a 'searchable database of undiscovered innovation.' The core tech**
+
+**Key Features:**
+- Systematic workflow for mining chat history
+- Context Mining as an advanced data science technique applied to LLM interaction
+- Forensic Audit workflow for extracting overlooked novel ideas
+- Treating chat history as a persistent
+- searchable database
+- Recognition of implicit connections generated by the AI model
+
+---
+
+### 831. [https://openai.com/api](https://openai.com/api)  `innovation: 8` ★☆☆ 🔵
+
+**This resource outlines the technical architecture and capabilities of OpenAI's API platform, focusing on how it handles conversational context, data isolation, and secure processing. It details mechanisms for maintaining context integrity, ensuring privacy, and enabling seamless integration within e**
+
+**Key Features:**
+- Context management
+- Data isolation
+- Privacy compliance
+- Secure API access
+
+---
+
+### 832. [https://pajuhaan.medium.com/the-unification-of-general-relativity-and-quantum-ph](https://pajuhaan.medium.com/the-unification-of-general-relativity-and-quantum-physics-has-been-solved-but-more-is-behind-it-cf03cab43e40)  `innovation: 8` ★☆☆ 🔵
+
+**This article proposes a fresh perspective on the unification of general relativity and quantum mechanics by introducing a single kinematic constraint (Rw=c) that links internal phase dynamics to physical space motion. By avoiding prior assumptions about curved spacetime, it derives fundamental const**
+
+**Key Features:**
+- kinematic lock framework
+- microscopic phase-motion coupling
+- derivation of constants from geometry
+- testable predictions
+- extension beyond unification
+
+---
+
+### 833. [https://rchemic.com/delivery](https://rchemic.com/delivery)  `innovation: 8` ★☆☆ 🔵
+
+**This resource outlines the shipping, delivery, and compliance policies for a chemical sales platform, emphasizing global reach, product categorization, and regulatory considerations. It details international shipping options, restrictions, and the importance of secure delivery methods for sensitive **
+
+**Key Features:**
+- Global shipping options
+- Product classification system
+- Regulatory compliance guidelines
+- Customer support contact
+
+---
+
+### 834. [https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=go](https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=google&tw_adid=747558784311&tw_campaign=22466510144&gad_source=2&gad_campaignid=22466510144&gbraid=0AAAAA9S1th502DSxsVHL9IuELEmNC15Vs&wbraid=Cl0KCQjw46HPBhDhARJMAD8UiQ_Bht3gAkiAX9pZhinQFEeJ9EidHOHi0yDrYM0LZrxFx4a66gFWRcgqwGvlyERtnlKBiaIYP6KR3U0381k1jfuU8z9z2c6BRxoCNho)  `innovation: 8` ★☆☆ 🔵
+
+**The resource provides an in-depth evaluation of the CozyRest® Pillow, highlighting its features, benefits, and suitability for users seeking a high-quality sleep solution. The content emphasizes comfort, support, and sleep quality improvements, making it a valuable reference for consumers and market**
+
+**Key Features:**
+- CozyRest® Memory Foam Neck Pillow
+- Silk Case CloudLift™ Mattress Topper
+- 5-year warranty
+- 90-day money-back guarantee
+- Additional 10% discount for bulk orders
+
+---
+
+### 835. [https://trycardinal.medium.com/the-most-interesting-documents-weve-had-to-ocr-4b](https://trycardinal.medium.com/the-most-interesting-documents-weve-had-to-ocr-4b2d1c8462d5)  `innovation: 8` ★☆☆ 🔵
+
+**This document outlines the challenges faced while processing highly structured and visually dense documents such as menus, blueprints, and spanning tables. It details the need for advanced techniques like semantic chunking and HTML output to preserve spatial relationships and logical hierarchies. Th**
+
+**Key Features:**
+- Semantic chunking
+- HTML output generation
+- Context preservation
+- Spatial relationship mapping
+- Advanced document parsing
+
+---
+
+### 836. [https://www.alibabacloud.com/en/campaign/ai-scene-coding?_p_lc=1&utm_content=se_](https://www.alibabacloud.com/en/campaign/ai-scene-coding?_p_lc=1&utm_content=se_1023256202)  `innovation: 8` ★☆☆ 🔵
+
+**The document provides an overview of AI coding tools, model availability, integration options, pricing plans, and usage controls. It highlights support for multiple models, seamless platform integrations, and detailed guidance on activation and API key management.**
+
+**Key Features:**
+- Model selection and switching
+- API key authentication
+- Integration with AI platforms
+- Multiple coding plan options
+- Usage monitoring
+
+---
+
+### 837. [https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=59459375314043337](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5945937531404333741&utm_campaign=re_nam_dg_social_acq_generic_mcp_traffic&utm_content=mcp_speed_sq_claude_c3&utm_medium=paid_social&utm_source=reddit&utm_term=broad_communities)  `innovation: 8` ★☆☆ 🔵
+
+**The Context Engine MCP integrates seamlessly with various coding agents to deliver real-time, accurate contextual information. It supports multi-source indexing, enabling agents to access relevant data from Git repositories, documentation sites, internal wikis, and more. This enhances task completio**
+
+**Key Features:**
+- Context Engine integration
+- Semantic code search
+- Real-time indexing
+- Multi-source data retrieval
+- Automatic updates
+
+---
+
+### 838. [https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=59695063001522012](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220&utm_campaign=re_nam_dg_social_acq_generic_mcp_traffic&utm_content=mcp_speed_sq_claude_c3&utm_medium=paid_social&utm_source=reddit&utm_term=broad_communities)  `innovation: 8` ★☆☆ 🔵
+
+**The Context Engine MCP integrates with various coding agents to deliver real-time, accurate contextual information from diverse sources such as Git repositories, documentation sites, and internal wikis. It supports seamless indexing, multi-source data aggregation, and efficient querying, enabling de**
+
+**Key Features:**
+- Context Engine integration
+- Semantic code search
+- Real-time indexing
+- Multi-repo indexing
+- Auto-sync with CI/CD
+
+---
+
+### 839. [https://www.fractaltribe.org/fractalfest2023](https://www.fractaltribe.org/fractalfest2023)  `innovation: 8` ★☆☆ 🔵
+
+**This document provides an in-depth overview of Fractalfest 2023, detailing the festival's four-day schedule, stages, workshops, art installations, and community initiatives. It highlights the event's thematic exploration of utopian and dystopian futures, its evolving infrastructure, and the emphasis**
+
+**Key Features:**
+- 4-day music & arts festival
+- Workshops and educational sessions
+- Immersive art gallery and installations
+- Healing and wellness spaces
+- Family-friendly activities and camps
+- Artist and vendor showcases
+- Interactive performances and interactive art
+
+---
+
+### 840. [https://www.mcpnest.io/](https://www.mcpnest.io/)  `innovation: 8` ★☆☆ 🔵
+
+**MCPNest is an AI-powered marketplace that connects users with MCP servers, offering tools to build, manage, and monitor infrastructure through platforms like Claude, Cursor, and Windsurf. It supports seamless integration of AI models and provides a unified interface for developers and enterprises.**
+
+**Key Features:**
+- MCPNet server management
+- AI model integration
+- Server discovery and installation
+- Configuration management
+- Real-time monitoring
+
+---
+
+### 841. [https://www.mykelly.com/job-search?GAKSCID+=GA1.1.447818009.1690233032&_city_or_](https://www.mykelly.com/job-search?GAKSCID+=GA1.1.447818009.1690233032&_city_or_postal_code=42.6064095,-83.1497751,50,Troy%2C)  `innovation: 8` ★☆☆ 🔵
+
+**This resource focuses on the technical architecture and user interaction design of a job search portal, emphasizing features such as job filtering, application submission, and integration with external job databases. It highlights the importance of seamless connectivity, data handling, and responsiv**
+
+**Key Features:**
+- Job search and application management
+- Integration with external job boards
+- User profile and alert customization
+- Search filters and category organization
+
+---
+
+### 842. [https://www.reddit.com/r/AISystemsEngineering/comments/1spsi85/reducing_llm_cont](https://www.reddit.com/r/AISystemsEngineering/comments/1spsi85/reducing_llm_context_from_80k_tokens_to_2k/)  `innovation: 8` ★☆☆ 🔵
+
+**The resource discusses methods for compressing and optimizing large language model contexts, focusing on techniques to reduce memory usage while maintaining functionality. It examines strategies such as context pruning, tokenization adjustments, and memory-efficient processing.**
+
+**Key Features:**
+- context reduction
+- token management
+- memory optimization
+- context compression
+
+---
+
+### 843. [https://www.reddit.com/r/ContextEngineering/comments/1sufmvb/agent_amnesia_isnt_](https://www.reddit.com/r/ContextEngineering/comments/1sufmvb/agent_amnesia_isnt_a_memory_problem_its_a_context/)  `innovation: 8` ★☆☆ 🔵
+
+**The article discusses how context influences agent decision-making and emphasizes the importance of isolating agents based on contextual data to enhance security and efficiency.**
+
+**Key Features:**
+- contextual analysis
+- agent isolation
+- security frameworks
+
+---
+
+### 844. [https://www.reddit.com/r/CursorAI/comments/1sm3lvi/built_a_custom_context_system](https://www.reddit.com/r/CursorAI/comments/1sm3lvi/built_a_custom_context_system_for_my_ai_side/)  `innovation: 8` ★☆☆ 🔵
+
+**The project focuses on constructing a tailored context management framework to improve the isolation and contextual awareness of AI systems, ensuring secure and efficient data processing within a controlled environment.**
+
+**Key Features:**
+- context isolation
+- custom context engine
+- data handling optimization
+- AI interaction enhancement
+
+---
+
+### 845. [https://www.reddit.com/r/augmentedreality/comments/1t5amdz/unseen_reality_coming](https://www.reddit.com/r/augmentedreality/comments/1t5amdz/unseen_reality_coming_next_month/)  `innovation: 8` ★☆☆ 🔵
+
+**The article discusses the anticipated rise of unseen realities in augmented reality, focusing on how these developments may challenge current context management and isolation strategies within digital ecosystems.**
+
+**Key Features:**
+- augmented reality
+- digital overlays
+- contextual awareness
+- environmental adaptation
+
+---
+
+### 846. [https://www.waterfox.com/blog/15-years-of-forking/](https://www.waterfox.com/blog/15-years-of-forking/)  `innovation: 8` ★☆☆ 🔵
+
+**Waterfox is a privacy-centric, open-source web browser that aims to give users greater control over their online activities. It emphasizes fast performance, native integration with adblocking libraries like uBlock Origin, and compatibility across multiple platforms including Linux and ARM64. The pro**
+
+**Key Features:**
+- Native content blocker
+- Fast performance and integration
+- Privacy-focused design
+- Cross-platform support (Linux
+- ARM64)
+- Open-source development model
+
+---
+
+### 847. [https://blog.cloudflare.com/code-mode-mcp/](https://blog.cloudflare.com/code-mode-mcp/)  `innovation: 10` ★★★ 🔵
+
+**A revolutionary paradigm shift where agents write scripts to interact with APIs via a typed SDK, reducing context usage by 99.9%.**
+
+**Key Features:**
+- 99.9% Token reduction (1.1M to 1k)
+- multi-step batch execution in one turn
+- sandboxed Dynamic Worker Loader
+- constant context footprint.
+
+---
+
+### 848. [https://chunkhound.github.io/](https://chunkhound.github.io/)  `innovation: 10` ★★★ 🔵
+
+**An open-source, local-first tool that uses the Context-Aware Syntax Tree (cAST) algorithm to provide AI agents with high-fidelity, structure-aware codebase search.**
+
+**Key Features:**
+- Context-Aware Syntax Tree (cAST) chunking
+- 4.3pt retrieval benchmark gain
+- multi-hop semantic relationship mapping
+- real-time git-watch indexing.
+
+---
+
+### 849. [https://jxnl.co/writing/2024/05/11/low-hanging-fruit-for-rag-search](https://jxnl.co/writing/2024/05/11/low-hanging-fruit-for-rag-search)  `innovation: 10` ★★★ 🔵
+
+**Practical, high-ROI engineering fixes for RAG systems, focusing on date filtering, faceted search for agents, and structured tool responses.**
+
+**Key Features:**
+- Metadata date filtering
+- faceted "peripheral vision" search
+- XML-structured tool responses
+- synthetic data precision baselines.
+
+---
+
+### 850. [https://openai.com/index/harness-engineering/](https://openai.com/index/harness-engineering/)  `innovation: 10` ★★★ 🔵
+
+**A formal methodology for building large-scale software with agents by designing the environment of scaffolding, constraints, and feedback loops.**
+
+**Key Features:**
+- Architectural "Wisdom Frames
+- " automated garbage collection for documentation
+- deterministic tool feedback loops
+- context engineering pillars.
+
+---
+
+### 851. [https://sibylline.dev/articles/2026-01-22-scribe-swebench-benchmark/](https://sibylline.dev/articles/2026-01-22-scribe-swebench-benchmark/)  `innovation: 10` ★★★ 🔵
+
+**A benchmark study of the Scribe harness, which reduces agent token usage by 80% while maintaining a 76% resolution rate on SWE-bench.**
+
+**Key Features:**
+- 80% Token reduction
+- $0.50 cost-per-fix
+- "Harness Hook" loop detection
+- top-tier resolution consistency.
+
+---
+
+### 852. [https://wild-card.ai/deepcontext](https://wild-card.ai/deepcontext)  `innovation: 10` ★★★ 🔵
+
+**An MCP server by Wildcard AI that provides high-speed semantic search over large repositories using Tree-sitter AST parsing and incremental indexing.**
+
+**Key Features:**
+- Tree-sitter AST parsing
+- 50% faster than standard grep
+- 40% reduction in token costs
+- incremental codebase indexing.
+
+---
+
+### 853. [https://www.anthropic.com/engineering/code-execution-with-mcp](https://www.anthropic.com/engineering/code-execution-with-mcp)  `innovation: 10` ★★★ 🔵
+
+**An architectural pattern from Anthropic for reducing token usage by having agents write code to interact with tool schemas lazily.**
+
+**Key Features:**
+- 98% token reduction
+- Progressive schema disclosure
+- Client-side data filtering
+- Enhanced context privacy.
+
+---
+
+### 854. [https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-a](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)  `innovation: 10` ★★★ 🔵
+
+**A modular expertise framework using "Progressive Disclosure" to load procedural knowledge only when relevant, reducing token usage by 70-90%.**
+
+**Key Features:**
+- SKILL.md structured instructions
+- bash-read progressive loading
+- 90% token reduction per session
+- portable agent expertise.
+
+---
+
+### 855. [https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative](https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative)  `innovation: 10` ★★★ 🔵
+
+**A "CLI-first" alternative to MCP that reduces context starvation by replacing massive JSON tool schemas with an 80-token prompt and on-demand `--help` discovery.**
+
+**Key Features:**
+- Progressive disclosure (on-demand `--help` lookup)
+- massive context reduction (50k tokens to 80 tokens)
+- native compatibility with shell-enabled agents.
+
+---
+
+### 856. [https://aider.chat/](https://aider.chat/)  `innovation: 9` ★★☆ 🔵
+
+**Aider is a CLI-driven pair programming environment that optimizes the interaction between developers and LLMs by treating the codebase as a living context. Its primary technical innovation is the 'repository map,' which uses Tree-sitter to create a compressed representation of the project hierarchy,**
+
+**Key Features:**
+- Repository mapping
+- automated git commits
+- multi-model support (Claude/GPT/DeepSeek/Local)
+- voice-to-code
+- linting and testing integration
+- terminal-based UX
+- cross-file editing
+- web context ingestion
+
+---
+
+### 857. [https://arxiv.org/abs/2310.08560](https://arxiv.org/abs/2310.08560)  `innovation: 9` ★★☆ 🔵
+
+**MemGPT adopts a hierarchical memory management architecture inspired by traditional operating systems to bypass LLM context window limitations. It divides memory into 'Main Context' (the fixed-size prompt window) and 'External Context' (disk-based storage like vector databases). The system operates **
+
+**Key Features:**
+- Virtual context management
+- Hierarchical memory tiers (Main vs External)
+- Function-based memory paging
+- Interrupt-driven control flow
+- Self-directed memory editing
+- Persistent multi-session state
+- Context overflow mitigation
+- Autonomous background processing
+
+---
+
+### 858. [https://fil-c.org/invisicaps](https://fil-c.org/invisicaps)  `innovation: 9` ★★☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- InvisiCaps: The Fil-C Capability Model
+- which ensures memory safety by using a capability system for pointers to prohibit accesses that are out of bounds or corrupting the underlying structure of C/C++ objects. The model evolved from previous systems (PLUT
+- SideCaps
+- MonoCaps) to achieve robust memory safety while maintaining compatibility and performance.
+
+---
+
+### 859. [https://gemini.google.com/app/420603fbb116d32a](https://gemini.google.com/app/420603fbb116d32a)  `innovation: 9` ★★☆ 🔵
+
+**This resource likely details the integration, functionality, and capabilities of Google Gemini within an agentic context. It focuses on how Gemini acts as an agent or workflow orchestrator, leveraging its LLM capabilities for task execution, decision-making, and workflow management.**
+
+**Key Features:**
+- Agent Orchestration
+- Workflow Execution
+- Context Engineering
+- Memory Management
+- Interface Design
+- Connectivity/Interoperability (MCP/A2A)
+- Infrastructure Layering
+- AI Agent Frameworks.
+
+---
+
+### 860. [https://gemini.google.com/app/96d26faa642c7d0f](https://gemini.google.com/app/96d26faa642c7d0f)  `innovation: 9` ★★☆ 🔵
+
+**This resource likely details the functionality and integration of Google Gemini within an agent orchestration framework, focusing on how it operates as an AI agent, its workflow capabilities, and the underlying architecture that supports its operation.**
+
+**Key Features:**
+- Agent Orchestration
+- Workflow Execution
+- Context Engineering
+- Memory Management
+- Interface Design
+- Connectivity/Interoperability (MCP/A2A)
+- Infrastructure Layering
+- Vector Database Integration
+- Coding Tool Capabilities
+- AI Agent Frameworks.
+
+---
+
+### 861. [https://gemini.google.com/share/6d141b742a13](https://gemini.google.com/share/6d141b742a13)  `innovation: 9` ★★☆ 🔵
+
+**This resource provides direct access to the Gemini AI, highlighting its role as an agent orchestration and workflow engine. It details how Gemini integrates into the user experience, enabling powerful agent-based workflows and context engineering.**
+
+**Key Features:**
+- ['Direct Access to Google AI Sign in'
+- 'Agent Orchestration Capabilities'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
+- 'AI Agents & Frameworks'
+- 'Search & Discovery Functionality']
+
+---
+
+### 862. [https://gregreese.substack.com/p/sar-scan-of-khafre-pyramid-shows](https://gregreese.substack.com/p/sar-scan-of-khafre-pyramid-shows)  `innovation: 9` ★★☆ 🔵
+
+**The resource details a scientific discovery using Synthetic Aperture Radar (SAR) to reveal the internal structure of the Khafre Pyramid, revealing 'huge underground structures' and suggesting a mechanical or functional system. The research involved experts from the University of Pisa and Strathclyde**
+
+**Key Features:**
+- SAR Data Analysis
+- High-Resolution Internal Structure Detection
+- 3D Reconstruction of Underground Structures
+- Structural Mechanics Revealed
+
+---
+
+### 863. [https://humans.maxcomperatore.com/](https://humans.maxcomperatore.com/)  `innovation: 9` ★★☆ 🔵
+
+**The resource details a system designed around 'The Creator Deadhand Protocol,' focusing on the implications of death and digital assets (crypto) when an individual dies. It introduces a novel concept for trustless inheritance, suggesting a solution to the problem of legacy vanishing after death.**
+
+**Key Features:**
+- Trustless Inheritance for Crypto Holders
+- No Middlemen
+- No Custody
+- No Bullshit.
+
+---
+
+### 864. [https://ithy.com/](https://ithy.com/)  `innovation: 9` ★★☆ 🔵
+
+**The resource presents 'Ithy,' an AI Supertool that combines multiple LLMs (like ChatGPT, Gemini, and Perplexity) to provide superior research capabilities. It emphasizes the speed and depth of this combined research, offering interactive multimodal articles and a powerful aggregator for answering co**
+
+**Key Features:**
+- Multimodal Articles
+- Interactive Visual Answers
+- Speed Switching (lightning-fast vs. comprehensive)
+- AI Aggregation/Supertool functionality
+- Direct access to deep research across multiple LLMs.
+
+---
+
+### 865. [https://mem0.ai/](https://mem0.ai/)  `innovation: 9` ★★☆ 🔵
+
+**Mem0 functions as a specialized memory layer for Large Language Model (LLM) applications, focusing on solving the challenge of maintaining long-term context and personalization while minimizing operational costs. Its core technology is a 'Memory Compression Engine' that optimizes conversation histor**
+
+**Key Features:**
+- Memory Compression Engine
+- Up to 80% Token Reduction
+- Zero-Friction Single-Line Install
+- Flexible Framework Compatibility (OpenAI
+- LangGraph
+- CrewAI)
+- Built-in Observability & Tracing
+- SOC 2/HIPAA Compliance
+- BYOK Support
+- Deployable On-Premise/Private Cloud.
+
+---
+
+### 866. [https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6](https://grok.com/chat/f01af810-f815-4fe3-874b-88b01d8635f6)  `innovation: 9` ★★☆
+
+**This resource provides a deep dive into the technical foundation of Grok, exploring its core functionalities, architectural design, and operational capabilities. It serves as a blueprint for understanding how Grok operates within the context of agent orchestration, workflow execution, and cognitive **
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Guides & Industry Trends'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks'
+- 'Search & Discovery'
+- 'Infrastructure'
+
+---
+
+### 867. [https://blog.lopp.net/openai-whisper-transcription-testing](https://blog.lopp.net/openai-whisper-transcription-testing)  `innovation: 8` ★☆☆ 🔵
+
+**The resource details the application of OpenAI's Whisper model for speech recognition and transcription, testing its performance across different hardware configurations (CPU, Linode with virtual CPUs, and a GPU instance). The core focus is on demonstrating the capability of this AI tool to transcri**
+
+**Key Features:**
+- Whisper model for speech recognition/transcription; Testing performance across CPU
+- virtualized cores (Linode)
+- and GPU instances; Demonstrating real-time transcription capabilities.
+
+---
+
+### 868. [https://chunkhound.github.io/how-to/](https://chunkhound.github.io/how-to/)  `innovation: 8` ★☆☆ 🔵
+
+**ChunkHound utilizes a multi-stage indexing process designed for performance, especially with large codebases. Initial indexing creates a comprehensive knowledge base, which subsequent updates modify incrementally, preserving embeddings for unchanged code via 'Smart Diffing'. It supports real-time up**
+
+**Key Features:**
+- Incremental Indexing
+- Smart Diffing
+- Real-Time File Watching (MCP)
+- Stdio Server Mode
+- HTTP Shared Server Mode
+- Battle-tested Scaling (millions of LOC)
+- Multi-Language Support
+
+---
+
+### 869. [https://connect.mozilla.org/t5/ideas/automatic-tagging-categorizing-and-searchin](https://connect.mozilla.org/t5/ideas/automatic-tagging-categorizing-and-searching-of-bookmarks-using/idi-p/45605)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+---
+
+### 870. [https://craigmod.com/essays/electric_bikes](https://craigmod.com/essays/electric_bikes)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+
+---
+
+### 871. [https://cursor.com/docs/cli/overview](https://cursor.com/docs/cli/overview)  `innovation: 8` ★☆☆ 🔵
+
+**This resource details the functionality, architecture, and features of the Cursor Command Line Interface (CLI), focusing on how it enables agents to operate, manage workflows, and interact with the underlying system. It covers the core concepts behind the AI agent experience within the IDE/toolset.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Workflow Management'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Guides & Industry Trends'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
+- 'AI Agents & Frameworks'
+- 'Search & Discovery capabilities']
+
+---
+
+### 872. [https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens](https://dashboard.render.com/u/usr-d4t6v4k9c44c73bhbl30/settings#cli-tokens)  `innovation: 8` ★☆☆ 🔵
+
+**A platform designed to be the easiest cloud for all your applications, offering a comprehensive set of tools for agent orchestration, workflow management, and context engineering.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Workflow Management'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
+
+---
+
+### 873. [https://dashboard.twitch.tv/u/robertpelloni/settings/stream](https://dashboard.twitch.tv/u/robertpelloni/settings/stream)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive view of the creator's operational space, detailing the underlying architecture and capabilities that power their streaming presence. This section reveals how the creator utilizes agents to manage their content, audience interaction, and production workflows.**
+
+**Key Features:**
+- Creator Dashboard overview
+- Agent Orchestration
+- Workflow Management
+- Context Engineering for stream management
+- Memory & Persistence Architecture details
+- Interface/UX design
+- Connectivity options (MCP/A2A)
+- Infrastructure layers
+- AI Agents integration points
+- Vector Database capabilities
+- Coding Tools integration
+- and essential development tools.
+
+---
+
+### 874. [https://dashboard.voyageai.com/organization/usage](https://dashboard.voyageai.com/organization/usage)  `innovation: 8` ★☆☆ 🔵
+
+**This resource appears to be a dashboard for a Voyage AI platform, focusing on the user experience (login/password management) and the underlying capabilities of the platform. The core functionality revolves around agent orchestration, context engineering, memory, and connectivity between different s**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory & Persistence Architecture
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery.
+
+---
+
+### 875. [https://dbhub.ai/](https://dbhub.ai/)  `innovation: 8` ★☆☆ 🔵
+
+**Interface & Developer UX**
+
+**Key Features:**
+- Connectivity & Interoperability (MCP/A2A)
+
+---
+
+### 876. [https://decodeinvesting.com/chat](https://decodeinvesting.com/chat)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive resource offering AI-powered stock market research analysis and instant insights, designed to provide actionable intelligence for investors.**
+
+**Key Features:**
+- AI-driven analysis of the stock market
+- instant insights generation
+- agent orchestration capabilities
+- robust context engineering
+- and efficient workflow integration.
+
+---
+
+### 877. [https://deepmess.com/en/unicode/emoji.html](https://deepmess.com/en/unicode/emoji.html)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides an extensive collection of Unicode emojis, suitable for various applications requiring expressive communication or visual representation. It serves as a reference for understanding the structure, meaning, and application of diverse emoji characters across different platforms.**
+
+**Key Features:**
+- A curated set of Unicode emojis
+- offering a comprehensive library for visual communication and context engineering.
+
+---
+
+### 878. [https://demo.mcphubx.com/](https://demo.mcphubx.com/)  `innovation: 8` ★☆☆ 🔵
+
+**The MCPHub Dashboard provides a comprehensive platform for defining, deploying, and managing agents. It focuses on the core capabilities of agent orchestration, enabling users to build complex workflows, manage agent lifecycles, and integrate various agent functionalities seamlessly.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Workflow Management'
+- 'Context Engineering'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'AI Agents & Frameworks']
+
+---
+
+### 879. [https://devblogs.microsoft.com/bharry/the-largest-git-repo-on-the-planet](https://devblogs.microsoft.com/bharry/the-largest-git-repo-on-the-planet)  `innovation: 8` ★☆☆ 🔵
+
+**The article discusses the efforts to scale Git to extremely large projects using 'Git Virtual File System' (GVFS), which enables Git to handle very large repositories by dynamically downloading only the necessary parts of the repo, rather than downloading the entire thing. The author provides an upd**
+
+**Key Features:**
+- Git Virtual File System (GVFS) for scaling Git repositories; Dynamic download of necessary files instead of downloading the entire repo; Successful rollout of Git/GVFS to the Windows team
+- which involves a 3.5M file codebase and a 300GB repo size.
+
+---
+
+### 880. [https://dialx.ai/](https://dialx.ai/)  `innovation: 8` ★☆☆ 🔵
+
+**DialX is a powerful platform designed to manage the lifecycle of AI agents. It focuses on enabling agents to interact seamlessly, providing robust context engineering capabilities, and offering a unified interface for development, deployment, and interaction with AI agents. The platform emphasizes a**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'AI Agents & Frameworks'
+- 'Vector Databases & Search']
+
+---
+
+### 881. [https://discord.com/channels/1265336295488622612/@home](https://discord.com/channels/1265336295488622612/@home)  `innovation: 8` ★☆☆ 🔵
+
+**This resource describes a Discord application, likely a bot or integration within the Discord platform, designed to facilitate agent orchestration and workflow execution. The core functionality revolves around enabling agents to operate within the Discord environment, suggesting a focus on agent-cen**
+
+**Key Features:**
+- Agent enablement
+- Workflow orchestration
+- Context engineering
+- Memory & Persistence architecture
+- Interface design (UX)
+- Connectivity/Interoperability (MCP/A2A)
+- Infrastructure layering
+- AI Agent capabilities
+- Search & Discovery features.
+
+---
+
+### 882. [https://discord.com/invite/5MUQbTws9p](https://discord.com/invite/5MUQbTws9p)  `innovation: 8` ★☆☆ 🔵
+
+**Softology is a platform designed to enable the creation, orchestration, and execution of agents and workflows. It focuses on providing the necessary infrastructure to manage agent lifecycles, define complex workflows, and ensure robust context engineering and isolation for these agents.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Workflow Management'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'AI Agents & Frameworks'
+- 'Vector Databases & Search']
+
+---
+
+### 883. [https://docs.cline.bot/getting-started/installing-cline](https://docs.cline.bot/getting-started/installing-cline)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+
+**Key Features:**
+- Cline is an AI coding agent that integrates deeply with development environments and workflows.
+
+---
+
+### 884. [https://electricsheep.tv/](https://electricsheep.tv/)  `innovation: 8` ★☆☆ 🔵
+
+**Electric Sheep is a comprehensive platform designed to serve as an AI video editing and visual effects (VFX) tool. It focuses on agent orchestration, workflow automation, context engineering, and the underlying architecture required for modern content creation workflows.**
+
+**Key Features:**
+- ['AI Video Editing & VFX Platform'
+- 'Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs Integration'
+- 'AI Agents & Frameworks Support']
+
+---
+
+### 885. [https://exchange.adobe.com/apps/cc/20211](https://exchange.adobe.com/apps/cc/20211)  `innovation: 8` ★☆☆ 🔵
+
+**This resource details the Adobe Exchange platform, which enables developers to build agent-based solutions. It focuses on enabling agents to interact with systems, manage context, and execute workflows across various platforms. The core concept revolves around defining agents, their capabilities, an**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
+
+---
+
+### 886. [https://fartlabs-fart.hf.space/?__theme=system](https://fartlabs-fart.hf.space/?__theme=system)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides a deep dive into the core concepts behind modern agent-based systems. It explores the necessary components for agent orchestration, workflow design, context engineering techniques to ensure robust isolation, memory management strategies for persistence, interface design for de**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory Architecture
+- Interface Design
+- Connectivity Layers
+- Infrastructure Layers
+- AI Agent Frameworks.
+
+---
+
+### 887. [https://fortune.com/2025/07/17/ai-bubble-vs-dot-com-stocks-apollo-economist-tors](https://fortune.com/2025/07/17/ai-bubble-vs-dot-com-stocks-apollo-economist-torsten-slok?ref=wheresyoured.at)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+---
+
+### 888. [https://fractalar-app.web.app/](https://fractalar-app.web.app/)  `innovation: 8` ★☆☆ 🔵
+
+**Fractalar provides a comprehensive platform for managing, orchestrating, and deploying agents. It focuses on the core capabilities of agents, enabling complex workflows, context engineering, memory persistence, and seamless connectivity between agents. The platform emphasizes the architecture, devel**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory & Persistence Architecture
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks.
+
+---
+
+### 889. [https://futurism.com/openai-investor-chatgpt-mental-health](https://futurism.com/openai-investor-chatgpt-mental-health)  `innovation: 8` ★☆☆ 🔵
+
+**An OpenAI Investor Appears to Be Having a ChatGPT-Induced Mental Health Crisis Image: Bedrock / X / Futurism Sign up to see the future. The resource details a venture capitalist, Geoff Lewis, discussing a 'non-governmental system' that affects perception and reality, which is suggested to be related**
+
+**Key Features:**
+- The core theme revolves around the impact of advanced AI (like ChatGPT) on human perception
+- identity
+- and social reality. The key innovation lies in how the AI system 'reframes' individuals
+- leading to a breakdown of shared reality ('recursion') and the resulting existential crisis for the individual.
+
+---
+
+### 890. [https://galea.co/](https://galea.co/)  `innovation: 8` ★☆☆ 🔵
+
+**Galea is a platform designed to enable agents to interact, orchestrate tasks, and manage workflows. It focuses on providing the necessary context engineering, isolation, memory persistence architecture, and connectivity layers required for sophisticated agent-based systems.**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers']
+
+---
+
+### 891. [https://get.big-agi.com/](https://get.big-agi.com/)  `innovation: 8` ★☆☆ 🔵
+
+**Big-AGI is a powerful platform designed to help developers build, orchestrate, and deploy intelligent agents. It focuses on providing the necessary tools for agent orchestration, context engineering, memory management, and connectivity, enabling developers to create sophisticated workflows and agent**
+
+**Key Features:**
+- ['Agent Orchestration'
+- 'Context Engineering & Isolation'
+- 'Memory & Persistence Architecture'
+- 'Interface & Developer UX'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layers'
+- 'Vector Databases & Search'
+- 'Coding Tools & IDEs'
+- 'AI Agents & Frameworks']
+
+---
+
+### 892. [https://getcore.me/core](https://getcore.me/core)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+---
+
+### 893. [https://gmic.eu/gmic340](https://gmic.eu/gmic340)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+---
+
+### 894. [https://grok.com/chat/ece13148-8f77-4e69-a541-1fff51601fbe](https://grok.com/chat/ece13148-8f77-4e69-a541-1fff51601fbe)  `innovation: 8` ★☆☆ 🔵
+
+**This resource provides a deep dive into the architecture of modern AI agents, covering everything from agent orchestration principles and workflow design to context engineering, memory management, interface design, connectivity layers (like MCP/A2A), and the underlying infrastructure required for th**
+
+**Key Features:**
+- ['Agent Orchestration Frameworks'
+- 'Context Engineering & Isolation Techniques'
+- 'Memory & Persistence Architecture Design'
+- 'Interface & Developer UX Best Practices'
+- 'Connectivity & Interoperability (MCP/A2A)'
+- 'Infrastructure & Proxy Layer Design'
+- 'Guides for AI Agent Development']
+
+---
+
+### 895. [https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour](https://hackernoon.com/hack-your-own-rag-stack-in-under-an-hour)  `innovation: 8` ★☆☆ 🔵
+
+**This article provides a comprehensive guide for setting up a Retrieval-Augmented Generation (RAG) system. It covers the necessary components, including agent orchestration, workflow design, context engineering, memory management, and the underlying infrastructure required to connect AI agents with v**
+
+**Key Features:**
+- Comprehensive RAG stack setup
+- Agent Orchestration strategies
+- Context Engineering techniques
+- Vector Database integration
+- Workflow efficiency.
+
+---
+
+### 896. [https://hn.algolia.com/?dateRange=all&page=99&prefix=false&query=pdf&sort=byDate](https://hn.algolia.com/?dateRange=all&page=99&prefix=false&query=pdf&sort=byDate&type=story)  `innovation: 8` ★☆☆ 🔵
+
+**This page will only work with JavaScript enabled.**
+
+**Key Features:**
+- A search/discovery platform leveraging Algolia for indexing and search capabilities
+- focusing on the intersection of Agent Orchestration
+- Context Engineering
+- and modern developer tools.
+
+---
+
+### 897. [https://holytextai.com/reader](https://holytextai.com/reader)  `innovation: 8` ★☆☆ 🔵
+
+**A comprehensive resource offering an AI-powered guide for Bible study and spiritual guidance, designed to integrate seamlessly into modern workflows.**
+
+**Key Features:**
+- ['AI-Powered Biblical Guidance'
+- 'Spiritual Contextualization'
+- 'Workflow Integration'
+- 'Agent Orchestration'
+- 'Context Engineering']
+
+---
+
+### 898. [https://hoten.cc/blog/porting-zelda-classic-to-the-web](https://hoten.cc/blog/porting-zelda-classic-to-the-web)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+
+---
+
+### 899. [https://huggingface.co/datasets/fka/awesome-chatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+
+---
+
+### 900. [https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery
+- Infrastructure
+
+---
+
+### 901. [https://invidious.io/](https://invidious.io/)  `innovation: 8` ★☆☆ 🔵
+
+**Invidious provides a modern, flexible, and powerful front-end layer for the YouTube ecosystem. It aims to offer users a more intuitive and integrated experience, leveraging advanced agent orchestration and context engineering to provide superior workflow capabilities compared to the native YouTube i**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery
+
+---
+
+### 902. [https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-u](https://ironicsans.ghost.io/proof-that-patrick-stewart-exists-in-the-star-trek-universe)  `innovation: 8` ★☆☆ 🔵
+
+**Memory & Persistence Architecture**
+
+**Key Features:**
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Guides & Industry Trends
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks
+- Search & Discovery
+- Infrastructure
+
+---
+
+### 903. [https://joedubs.com/square-circle-earth-moon](https://joedubs.com/square-circle-earth-moon)  `innovation: 8` ★☆☆ 🔵
+
+**The resource explores the esoteric geometry of the Earth and Moon, focusing on the concept of 'squaring the circle' and the underlying constant of 273. It details how the ratio between the Earth's diameter and the Moon's diameter relates to this geometric principle, and then delves into a fascinatin**
+
+**Key Features:**
+- ["The relationship between the size of Earth and Moon and the concept of 'squaring the circle'."
+- 'The discovery of the ratio 11:3 for the Earth-Moon system
+- which is presented as the solution to squaring the circle (equal perimeter).'
+- 'The critical constant $273$ or $2732$
+- highlighting overlooked constants in reality.'
+- 'A detailed breakdown of the significance of $273.2$ across various physical and temporal scales (temperature
+- days
+- cycles).'
+- 'The connection between the Earth-Moon ratio ($0.273$) and the concept of inscribing a circle within a square.']
+
+---
+
+### 904. [https://justpaste.it/22jlj](https://justpaste.it/22jlj)  `innovation: 8` ★☆☆ 🔵
+
+**The resource discusses the concept of 'The Original Sin of Computing,' framing it as a fundamental, irreversible flaw in compiler design. It uses analogies—specifically the accidental mispronunciation of 'contiguous' and the resulting paradox of linguistic understanding—to illustrate how this 'origi**
+
+**Key Features:**
+- The resource explores the concept of a fundamental compiler flaw ('Original Sin') that persists across generations. It uses analogies (the 'contiguous' mistake) to explain how this sin propagates through programming languages and compilers. The text delves into the relationship between compilers
+- source code
+- and the nature of language itself.
+
+---
+
+### 905. [https://karuna.dev/colormaxxing](https://karuna.dev/colormaxxing)  `innovation: 8` ★☆☆ 🔵
+
+**The resource explores the limitations of standard sRGB color spaces and demonstrates how to achieve 'maxxed out' colors in P3 (or Rec.2020) color spaces, highlighting the difference between traditional RGB/sRGB and advanced gamut displays. The core innovation is using a specific notation (`color(dis**
+
+**Key Features:**
+- Demonstration of color gamut limitations
+- comparison between sRGB and P3/Rec.2020 spaces
+- practical demonstration using browser devtools to test color differences
+- and a specific technique (`color(display-p3 0 0 0)`) to achieve the brightest possible colors.
+
+---
+
+### 906. [https://kennethreitz.org/essays/2025-09-08-the_prophets_frequency_on_reading_div](https://kennethreitz.org/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static)  `innovation: 8` ★☆☆ 🔵
+
+**The resource explores the concept of 'The Prophet's Frequency,' where seemingly random observations and patterns emerge, suggesting a direct connection between individuals and the universe. It delves into the psychological scaffolding provided by these experiences—the 'chosen one' delusion—and exami**
+
+**Key Features:**
+- The core theme is the recognition that certain patterns (like license plates or seemingly random objects) reveal underlying truths about reality. It analyzes how these 'prophets' tune into frequencies
+- comparing experiences in group therapy and contrasting incompatible cosmologies. The resource introduces the concept of synchronicity and questions the validity of mystical experiences against the backdrop of modern technological mediation.
+
+---
+
+### 907. [https://mcpproxy.app/](https://mcpproxy.app/)  `innovation: 8` ★☆☆ 🔵
+
+**MCPProxy acts as an intelligent federating gateway, consolidating multiple MCP servers behind a single smart endpoint. It provides intelligent tool discovery, token optimization through on-demand discovery and response truncation, and advanced security protection against Tool Poisoning Attacks (TPAs**
+
+**Key Features:**
+- ['Intelligent tool discovery and routing'
+- 'Token optimization (schema reduction
+- response truncation)'
+- 'Advanced security quarantine protection against TPAs'
+- 'Bypass API limits of AI platforms'
+- 'Offline functionality'
+- 'User-friendly desktop application'
+- 'Integration with Cursor IDE'
+- 'Support for multiple MCP servers']
+
+---
+
+### 908. [https://news.ycombinator.com/item?id=46360067](https://news.ycombinator.com/item?id=46360067)  `innovation: 8` ★☆☆ 🔵
+
+**The discussion revolves around the fundamental tension between government access to encrypted communications and a company's privacy. The core solution proposed is 'Zero Knowledge Proofs' (ZKPs) to provide anonymous, verifiable age verification without exposing user information to sites, thereby pro**
+
+**Key Features:**
+- The primary innovation lies in the concept of Zero Knowledge Proofs as a mechanism for identity verification that respects privacy. The proposed solution involves cryptographic keys verifying an 18+ status without revealing client site details
+- offering a win-win scenario for parents
+- children
+- and adult sites.
+
+---
+
+### 909. [https://news.ycombinator.com/item?id=47263220](https://news.ycombinator.com/item?id=47263220)  `innovation: 8` ★☆☆ 🔵
+
+**The Borg Project intelligence database includes a benchmarking resource that evaluates the impact of reducing LLM token usage by up to 30% using a custom MCP/CLI tool. This resource highlights significant improvements in model efficiency, including enhanced Haiku adoption and performance gains acros**
+
+**Key Features:**
+- token reduction optimization
+- adaptive impact analysis
+- benchmarking framework
+- enhanced model efficiency
+- multi-task performance testing
+
+---
+
+### 910. [https://news.ycombinator.com/item?id=47390978](https://news.ycombinator.com/item?id=47390978)  `innovation: 8` ★☆☆ 🔵
+
+**The project enables developers to convert TypeScript or JavaScript files into executable command-line interfaces (CLIs) using a single command. It leverages parsing of function signatures, types, and documentation to generate interactive CLI tools that can be executed by AI models like Claude Code o**
+
+**Key Features:**
+- file-to-cli conversion
+- token reduction
+- LLM-friendly navigation
+- subcommand support
+- bundle external imports
+
+---
+
+### 911. [https://www.reddit.com/r/LLM/comments/1sm2wk3/the_memorycontext_window_implement](https://www.reddit.com/r/LLM/comments/1sm2wk3/the_memorycontext_window_implementation_in_ai/)  `innovation: 8` ★☆☆ 🔵
+
+**The article discusses the technical details behind managing memory contexts in large language models, focusing on how these implementations affect performance, isolation, and resource management.**
+
+**Key Features:**
+- memory context window optimization
+- context isolation techniques
+- persistence architecture design
+
+---
+
+### 912. [https://www.speakeasy.com/blog/100x-token-reduction-dynamic-toolsets](https://www.speakeasy.com/blog/100x-token-reduction-dynamic-toolsets)  `innovation: 8` ★☆☆ 🔵
+
+**The core technical content of the linked blog post focuses on optimizing the context provided to Large Language Models (LLMs) when performing tasks via dynamic toolsets, likely powered by the Model Context Protocol (MCP). The goal is to achieve a 100x reduction in token usage, which is critical for **
+
+**Key Features:**
+- Progressive Discovery for tool context selection
+- Semantic Search for context retrieval
+- 100x token reduction in AI agent interactions
+- Dynamic toolset powering via context optimization
+
+---
+
+### 913. [https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&](https://beta.character.ai/post?post=AlF4TXHyWk7VsmK1CnizBAQMAjNSV3Udu6rZsFCuQuU&share=true)  `innovation: 8` ★☆☆
+
+**This resource appears to be a technical post, possibly a blog entry or guide, focusing on the architecture and capabilities of AI agents. The title suggests a deep dive into the core operational principles or existential goals of an agent system. The content likely explores how agents operate, manag**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering & Isolation
+- Memory & Persistence Architecture
+- Interface & Developer UX
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search
+- Coding Tools & IDEs
+- AI Agents & Frameworks.
+
+---
+
+### 914. [https://glicol.org/](https://glicol.org/)  `innovation: 8` ★☆☆
+
+**This resource provides an in-depth look at Glicol, a conceptual framework or system. It explores how Glicol functions within agent workflows, emphasizing context engineering, isolation mechanisms, memory management, and the interface layer for developer experience. It also covers connectivity aspect**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory & Persistence Architecture
+- Interface Design
+- Connectivity/Interoperability
+- Infrastructure Layers
+- Vector Database Capabilities.
+
+---
+
+### 915. [https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e](https://grok.com/chat/440f0017-65bf-427a-8c90-250553abcb7e)  `innovation: 8` ★☆☆
+
+**This resource provides a deep dive into the technical foundation of Grok, covering its agent orchestration capabilities, context engineering techniques employed, memory and persistence architecture, interface design for developer experience (UX), connectivity aspects (like MCP/A2A), infrastructure l**
+
+**Key Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory Architecture
+- Interface Design
+- Connectivity & Interoperability
+- Infrastructure Layers
+- Vector Database capabilities
+- Coding Tools Integration
+- AI Agent Frameworks.
+
+---
+
+### 916. [https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc33333](https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc3333315804693e2000c7ca70b7b)  `innovation: 8` ★☆☆
+
+**This Notion page serves as a technical resource for understanding the core components, workflows, and architectural layers of a Borg intelligence database. It outlines the structure, agent orchestration strategies, context engineering principles, memory management, interface design, connectivity pro**
+
+**Key Features:**
+- Borg Intelligence Database Architecture
+- Agent Orchestration Frameworks
+- Context Engineering & Isolation Techniques
+- Memory & Persistence Layer Design
+- Interface & Developer UX considerations
+- Connectivity & Interoperability (MCP/A2A)
+- Infrastructure & Proxy Layers
+- Vector Databases & Search capabilities
+- Coding Tools & IDE integration
+- AI Agents & Frameworks implementation.
+
+---
+
+
+*Total: 916 tools · Generated 2026-05-15*
