@@ -1,6 +1,6 @@
 # 🧬 Memory & Persistence Architecture
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 396 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 399 tools
 
 The **spine layer** — how agents remember, learn, and persist knowledge
 
@@ -8,13 +8,13 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **396** |
+| Total tools | **399** |
 | Standout 🏆⭐ | 131 |
 | Avg Signal | ⚡84 |
 | Innovation 10 | 110 ████████████ |
-| Innovation 9 | 160 █████████████████ |
-| Innovation 8 | 108 ███████████ |
-| Innovation 7 | 18 ██ |
+| Innovation 9 | 161 █████████████████ |
+| Innovation 8 | 109 ███████████ |
+| Innovation 7 | 19 ██ |
 
 ---
 
@@ -50,7 +50,9 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 - [MCP Memory Servers](#mcp-memory-servers) — 41 tools · ⚡84
 - [MCP Servers](#mcp-servers) — 1 tools · ⚡90
 - [Memory OS & Tiered](#memory-os--tiered) — 38 tools · ⚡83
+- [Memory Systems](#memory-systems) — 2 tools · ⚡62
 - [Second Brain & PKM](#second-brain--pkm) — 228 tools · ⚡83
+- [Storage Engines](#storage-engines) — 1 tools · ⚡81
 
 ---
 
@@ -2654,11 +2656,43 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
+## Memory Systems
+
+> 2 tools · avg signal ⚡62
+
+### 169. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/HEAD/src/memory)  `9.0` ★★☆ ⚡70.0 Q0.6 📍
+
+**A memory server implementation using a local knowledge graph to persist user information across interactions.**
+
+**Features:**
+- Persistent memory storage via a local knowledge graph
+- Entity and relation management for user data
+- Dynamic updates and retrieval of user information
+- Integration with Claude Desktop for seamless experience
+
+*Tags: memory, persistence, knowledge-graph, ai, developer-tools*
+
+---
+
+### 170. [Chroma Context-1: Training a Self-Editing Search Agent | Hacker News](https://news.ycombinator.com/item?id=47534564)  `7.0` ☆☆☆ ⚡54.0 Q0.5 📍
+
+**Analysis of a self-editing search agent research focusing on memory management and context handling.**
+
+**Features:**
+- self-editing search agent
+- context compression
+- memory management
+- search history reconstruction
+
+*Tags: search-engine, ai-research, context-management, memory-systems, agentic-retrieval*
+
+---
+
 ## Second Brain & PKM
 
 > 228 tools · avg signal ⚡83
 
-### 169. [cloudflare/agents](https://github.com/cloudflare/agents/tree/main)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 171. [cloudflare/agents](https://github.com/cloudflare/agents/tree/main)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **Cloudflare Agents provides a comprehensive runtime environment for agentic workloads, utilizing Durable Objects to ensure each agent has its own persistent state, storage, and lifecycle. The architecture allows for 'serverless' agents that hibernate **
 
@@ -2674,7 +2708,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 170. [railyard-dev/railguard](https://github.com/railyard-dev/railguard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 172. [railyard-dev/railguard](https://github.com/railyard-dev/railguard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Railguard is a secure runtime designed to monitor and control all tool calls in real-time, intercepting every action to enforce security policies. It leverages sandbox execution on macOS and bwrap on Linux to ensure that even obfuscated or malicious **
 
@@ -2690,7 +2724,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 171. [ryaker/zora](https://github.com/ryaker/zora)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 173. [ryaker/zora](https://github.com/ryaker/zora)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **Zora is a locally hosted AI agent that operates securely on the user's machine, executing tasks autonomously while maintaining full control over data and actions. It integrates advanced security features such as context compaction, policy enforcement**
 
@@ -2706,7 +2740,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 172. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
+### 174. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
 
 **The lingo.dev GitHub project provides an open-source localization engineering platform that integrates with Lingo.dev to enable consistent and high-quality translations across web applications. It supports multiple languages, including English, Chine**
 
@@ -2722,7 +2756,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 173. [datanoisetv/translator-ai](https://github.com/datanoisetv/translator-ai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 175. [datanoisetv/translator-ai](https://github.com/datanoisetv/translator-ai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The DatanoiseTV/translator-ai project offers a robust solution for developers managing multilingual applications by integrating multiple AI translation providers such as Google Gemini, OpenAI, and Ollama/DeepSeek. It features intelligent caching, mul**
 
@@ -2738,7 +2772,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 174. [Krixx1337/burner-net](https://github.com/Krixx1337/burner-net)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 176. [Krixx1337/burner-net](https://github.com/Krixx1337/burner-net)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **BurnerNet provides a fluent, CPR-like API for applications that cannot fully trust the local machine. It uses short-lived clients, explicit trust controls, and app-owned verification to prevent forensic tracing. The engine supports secure wiping of s**
 
@@ -2754,7 +2788,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 175. [Kalki-M/BlackSwanX](https://github.com/Kalki-M/BlackSwanX)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 177. [Kalki-M/BlackSwanX](https://github.com/Kalki-M/BlackSwanX)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **BlackSwanX integrates over 200 citizen agents and 174 expert agents to power a sophisticated AI-driven intelligence system. It employs an 8-stage adversarial pipeline that includes data crawling, compression, deep reasoning, swarm simulation, cogniti**
 
@@ -2770,7 +2804,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 176. [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 178. [kitfunso/hippo-memory](https://github.com/kitfunso/hippo-memory)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **Hippo-Memory is a zero-dependency, biologically-inspired memory framework designed to enhance AI agents by managing memory decay, retrieval strength, and consolidation. It integrates with various AI development tools such as Claude Code, Codex, Curso**
 
@@ -2786,7 +2820,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 177. [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 179. [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents. It features specialized agents and skills to support testing activities across various stages of the Software Development Lifecycle (SDLC). The platform**
 
@@ -2802,7 +2836,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 178. [roboticforce/sugar](https://github.com/roboticforce/sugar)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 180. [roboticforce/sugar](https://github.com/roboticforce/sugar)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The roboticforce/sugar project integrates persistent memory using MCP (Microsoft Code Marketplace) to store and retrieve project-specific data, alongside a global knowledge base. It leverages semantic search via sentence-transformers for efficient co**
 
@@ -2818,7 +2852,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 179. [farzad528/mcp-server-azure-ai-agents](https://github.com/farzad528/mcp-server-azure-ai-agents)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 181. [farzad528/mcp-server-azure-ai-agents](https://github.com/farzad528/mcp-server-azure-ai-agents)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The project provides two implementations of the Model Context Protocol (MCP) servers to connect Claude Desktop with Azure AI services. The Azure AI Agent Service supports document and web search, while direct Azure AI Search integration offers keywor**
 
@@ -2834,7 +2868,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 180. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
+### 182. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The DeepSeek MCP Server acts as a centralized model context management endpoint, enabling developers to orchestrate interactions with various tools and APIs in a structured and secure manner. It supports multiple execution modes including code execut**
 
@@ -2849,7 +2883,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 181. [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 183. [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **FluidSynth is an open-source synthesizer that leverages the Soundfont 2 standard to generate audio in real-time. It supports multi-platform deployment (Linux, macOS, Windows) and integrates with various environments as plugins or dynamically loadable**
 
@@ -2865,7 +2899,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 182. [getfounded/mcp-tool-kit](https://github.com/getfounded/mcp-tool-kit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
+### 184. [getfounded/mcp-tool-kit](https://github.com/getfounded/mcp-tool-kit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP Tool Kit provides an agentic abstraction layer designed to streamline the development of precise vertical AI agents. It supports multiple transport options, integrates with various platforms, and offers a range of features for efficient code **
 
@@ -2881,7 +2915,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 183. [xgenerationlab/xiyan_mcp_server](https://github.com/xgenerationlab/xiyan_mcp_server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
+### 185. [xgenerationlab/xiyan_mcp_server](https://github.com/xgenerationlab/xiyan_mcp_server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
 
 **The XiYan MCP server is a platform that allows users to interact with databases using natural language queries powered by XiYan-SQL and Modelscope. It supports integration with various databases such as MySQL, PostgreSQL, and MySQL PostgreSQL, and pr**
 
@@ -2897,7 +2931,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 184. [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
+### 186. [dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
 
 **The dbt-MCP server acts as a bridge between AI agents and the dbt ecosystem, allowing seamless integration of contextual data from various sources like SQL tools, models, and dashboards. It supports key functionalities such as executing SQL, generati**
 
@@ -2913,7 +2947,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 185. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 187. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **GitHub - RealZST/HarnessKit: More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory &amp; rules across every AI coding agent. 🌟 Star if you like it! · GitHub Skip to content Navigation Menu Toggle navigation Sig**
 
@@ -2929,7 +2963,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 186. [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules/blob/master/.github/copilot-instructions.md)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 188. [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules/blob/master/.github/copilot-instructions.md)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This resource defines a sophisticated workflow for AI agents (specifically Cursor and GitHub Copilot) by leveraging a markdown-based state machine. It implements a 'Scratchpad' for real-time task decomposition and progress tracking, and a 'Lessons' s**
 
@@ -2945,7 +2979,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 187. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 189. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **MilkDrop 3 is a portable program that supports any audio source (Spotify, YouTube, SoundCloud, Winamp...) It is based on BeatDrop from Maxim Volskiy, so it's 100% compatible with any presets created with MilkDrop and projectM. MilkDrop3 does everythi**
 
@@ -2961,7 +2995,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 188. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 190. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Memory Journal MCP server is a macOS-based application designed to help users efficiently search, organize, and analyze their personal photo collections stored in Apple Photos. It leverages the uv package to manage dependencies and run the server**
 
@@ -2977,7 +3011,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 189. [VibePod/vibepod-cli](https://github.com/VibePod/vibepod-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 191. [VibePod/vibepod-cli](https://github.com/VibePod/vibepod-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **VibePod is a streamlined command-line interface designed to deploy and manage AI coding agents such as Claude, Gemini, Codex, Devstral, Auggie, and more. It eliminates the need for complex configuration or setup, allowing users to simply run an agent**
 
@@ -2993,7 +3027,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 190. [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 192. [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Needle MCP Server acts as a centralized document management hub, allowing users to organize, store, and retrieve documents efficiently. It leverages the Model Context Protocol (MCP) to connect with external data sources, enabling advanced semanti**
 
@@ -3008,7 +3042,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 191. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 193. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **GrimmBot is an open-source, sandboxed AI agent built on Docker that learns from its errors to improve over time. It features persistent memory for retaining knowledge across sessions, task scheduling capabilities, custom tool creation, and robust sec**
 
@@ -3023,7 +3057,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 192. [Bitterbot-AI/bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 194. [Bitterbot-AI/bitterbot-desktop](https://github.com/Bitterbot-AI/bitterbot-desktop)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **Bitterbot integrates advanced AI capabilities such as biological memory, emotional intelligence, and a decentralized skills marketplace. It leverages a P2P architecture to enable secure, autonomous interactions between agents, allowing users to manag**
 
@@ -3038,7 +3072,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 193. [davidorex/project-handoffs](https://github.com/davidorex/project-handoffs)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 195. [davidorex/project-handoffs](https://github.com/davidorex/project-handoffs)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Project-Handoffs tool is an MCP (Managed Code Process) solution aimed at improving the continuity and reliability of code changes made during collaborative AI development sessions. It focuses on securely storing and retrieving code state, ensurin**
 
@@ -3053,7 +3087,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 194. [phialsbasement/koboldcpp-mcp-server](https://github.com/phialsbasement/koboldcpp-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 196. [phialsbasement/koboldcpp-mcp-server](https://github.com/phialsbasement/koboldcpp-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The PhialsBasement/KoboldCPP-MCP-Server project provides a robust platform for AI-driven communication by interfacing KoboldAI's text generation capabilities with MCP (Machine-to-Person) compatible applications. It leverages the Kobold-MCP-Server lib**
 
@@ -3069,7 +3103,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 195. [KraftyUX/memai](https://github.com/KraftyUX/memai)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent 📍
+### 197. [KraftyUX/memai](https://github.com/KraftyUX/memai)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent 📍
 
 **MemAI establishes a dedicated, persistent memory layer for AI agents, utilizing a local SQLite database to store various structured data points such as decisions, code changes, issues, and insights across sessions. It exposes both a Node.js API and a**
 
@@ -3085,7 +3119,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 196. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 198. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project develops an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to deliver workplace rules. It leverages Streamlit for the frontend, PDF parsing for document handling, and MCP server integration for seamless tool orchestration.**
 
@@ -3101,7 +3135,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 197. [sionic-ai/serverless-rag-mcp-server](https://github.com/sionic-ai/serverless-rag-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 199. [sionic-ai/serverless-rag-mcp-server](https://github.com/sionic-ai/serverless-rag-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a cloud-native serverless architecture using Storm MCP to connect LLM applications with RAG data sources and tools. It leverages Anthropic's Model Context Protocol to enable direct use of the platform in Claude Desktop, allowing **
 
@@ -3117,7 +3151,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 198. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 200. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **Zeroboot provides a platform that delivers sub-millisecond virtual machine sandboxes specifically designed for running AI agents. By leveraging copy-on-write forking and KVM virtualization with hardware-enforced memory isolation, it ensures each AI a**
 
@@ -3132,7 +3166,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 199. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 201. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mekanixms/mcp_memory_plugin is a lightweight software component designed to enhance application memory management by leveraging SQLite as its persistent storage backend. It enables developers to store and retrieve data across sessions, improving **
 
@@ -3147,7 +3181,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 200. [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 202. [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **This resource is a curated list on GitHub focused on extending and integrating with Opencode, an AI coding agent for the terminal. It serves as a central directory for community and official extensions (plugins, themes, agents) that add functionality**
 
@@ -3163,7 +3197,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 201. [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 203. [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The repository provides a server implementation for the Model Context Protocol (MCP), an open standard for connecting LLMs with external data sources. Specifically, this server uses Qdrant, a vector search engine, as the backend for storing and retri**
 
@@ -3179,7 +3213,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 202. [LifeContext/lifecontext](https://github.com/LifeContext/lifecontext)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 204. [LifeContext/lifecontext](https://github.com/LifeContext/lifecontext)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **LifeContext implements a local-first memory layer by capturing real-time browser activity and processing it through LLMs for metadata extraction and thematic classification. It utilizes a vector-based storage architecture for 'life-scale' long-term r**
 
@@ -3195,7 +3229,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 203. [Blaxel: The Persistent Sandbox Platform](https://blaxel.ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 205. [Blaxel: The Persistent Sandbox Platform](https://blaxel.ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **Blaxel shifts the AI agent environment paradigm from ephemeral runners to persistent, stateful sandboxes. By utilizing microVM technology, Blaxel captures full snapshots of RAM and the filesystem during idle periods, allowing sandboxes to 'sleep' at **
 
@@ -3211,7 +3245,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 204. [markmdev/meridian](https://github.com/markmdev/meridian)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 206. [markmdev/meridian](https://github.com/markmdev/meridian)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **Meridian makes Claude Code more reliable on real projects. It adds persistent project context, smarter session handoff, and lightweight workflow enforcement so Claude is less likely to lose the plot halfway through a long task.**
 
@@ -3227,7 +3261,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 205. [Notes on the Pentium's microcode circuitry](http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 207. [Notes on the Pentium's microcode circuitry](http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **The Pentium's microcode ROM is a complex, multi-layered circuit that stores and interprets micro-instructions essential for executing machine instructions. Comprising two banks of transistors arranged into 288 rows and 720 columns, it holds 4,608 mic**
 
@@ -3243,7 +3277,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 206. [Why Node.js Needs a Virtual File System](https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 208. [Why Node.js Needs a Virtual File System](https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **The Borg Project's @platformatic/vfs project introduces a userland Virtual File System (VFS) for Node.js, designed to address the limitations of virtualizing the filesystem in Node.js. By integrating directly into the core Node.js runtime, it enables**
 
@@ -3259,7 +3293,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 207. [NVIDIA Launches Vera CPU, Purpose-Built for Agentic AI](https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
+### 209. [NVIDIA Launches Vera CPU, Purpose-Built for Agentic AI](https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
 
 **The NVIDIA Vera CPU is purpose-built to accelerate agentic AI and reinforcement learning tasks with superior performance and efficiency. It features custom Olympus cores, dual and single-socket configurations, and advanced memory subsystems like LPDD**
 
@@ -3275,7 +3309,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 208. [N0X — The Full AI Stack in One Browser Tab](https://n0xth.vercel.app)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
+### 210. [N0X — The Full AI Stack in One Browser Tab](https://n0xth.vercel.app)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
 
 **The Borg Project introduces a cutting-edge web application that brings the full AI stack directly into the user's browser without requiring server-side processing or API keys. It leverages WebGPU for efficient, on-device inference of large language m**
 
@@ -3291,7 +3325,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 209. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
+### 211. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
 
 **The Borg project introduces a novel approach to sandboxing by enabling full memory and disk forking of AI agents. This allows each sandbox instance to maintain identical states, including complex interactions with hardware and software layers such as**
 
@@ -3307,7 +3341,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 210. [mastra-ai/mastra](https://github.com/mastra-ai/mastra)  `9.7` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 212. [mastra-ai/mastra](https://github.com/mastra-ai/mastra)  `9.7` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Mastra AI project provides a comprehensive suite of tools for developers to integrate, manage, and deploy intelligent applications. It leverages Mastra's API and integrates with various development environments like VS Code, GitHub, and more. The**
 
@@ -3321,7 +3355,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 211. [Jmc-arch/elia-governed-hybrid-architecture](https://github.com/Jmc-arch/elia-governed-hybrid-architecture)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 213. [Jmc-arch/elia-governed-hybrid-architecture](https://github.com/Jmc-arch/elia-governed-hybrid-architecture)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **Elia presents a structured, governed approach to AI systems where symbolic control and system-level supervision dominate, integrating neural modules only when necessary. It emphasizes auditability, resilience, and clear separation between observation**
 
@@ -3337,7 +3371,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 212. [xinthink/reader-mcp-server](https://github.com/xinthink/reader-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 214. [xinthink/reader-mcp-server](https://github.com/xinthink/reader-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The xinthink/reader-mcp-server project enables integration of the Readwise Reader library with large language models (LLMs), allowing users to leverage AI capabilities directly within their personal knowledge repositories. By acting as a bridge betwe**
 
@@ -3352,7 +3386,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 213. [nbonamy/witsy](https://github.com/nbonamy/witsy)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 215. [nbonamy/witsy](https://github.com/nbonamy/witsy)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **Witsy is a BYOK (Bring Your Own Keys) AI application. It allows users to leverage various LLM providers (like OpenAI, Anthropic, Google, etc.) by providing API keys, or run models locally via Ollama. Witsy acts as a universal MCP client, enabling the**
 
@@ -3368,7 +3402,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 214. [sentriz/betanin](https://github.com/sentriz/betanin)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 216. [sentriz/betanin](https://github.com/sentriz/betanin)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This resource details 'betanin', a system that acts as a Man-in-the-Middle (MITM) layer between torrent clients and music players. It uses apprise for notifications, suggesting that anything supported there will work. The core functionality revolves **
 
@@ -3389,7 +3423,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 215. [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 217. [ai-that-works/ai-that-works](https://github.com/ai-that-works/ai-that-works)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository showcases a variety of AI agents, workflows, and concepts, exploring themes like agent orchestration, context engineering, memory management, and the integration of AI into software development and general tasks. The commits suggest a**
 
@@ -3404,7 +3438,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 216. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 218. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a bridge between Ghidra, a powerful open-source reverse engineering platform, and MCP (Model Context Protocol) servers. This integration facilitates seamless deployment of Ghidra's decompilation and analysis tools within MCP clie**
 
@@ -3419,7 +3453,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 217. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 219. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project aims to provide a Python-based interface that mimics the capabilities of MCP (Memory Counter Protocol), enabling developers to inspect and modify memory contents dynamically. It leverages MCP-like techniques to facilitate debugging, testi**
 
@@ -3434,7 +3468,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 218. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 220. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The squirrelogic/mcp-feature-discussion project provides an AI-powered MCP server that supports context-aware, persistent feature discussions between developers and AI. It offers intelligent guidance on implementation, architecture, dependencies, and**
 
@@ -3449,7 +3483,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 219. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 221. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The hoppo-chan/memory-bank-mcp project provides a Model Context Protocol (MCP) plugin that enables AI assistants to track project goals, decisions, progress, and patterns through guided instructions. It supports structured context management across m**
 
@@ -3464,7 +3498,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 220. [iCloud Photos Downloader | Hacker News](https://news.ycombinator.com/item?id=46578921)  `10.0` ★★★ ⚡88.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 222. [iCloud Photos Downloader | Hacker News](https://news.ycombinator.com/item?id=46578921)  `10.0` ★★★ ⚡88.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **The project focuses on accurately restoring Apple Photos by treating the Photos database as the source of truth. It supports restoring all item types (albums, live photos, bursts, etc.) while preserving critical metadata such as capture dates, creati**
 
@@ -3480,7 +3514,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 221. [Home | Plante Moran](https://www.plantemoran.com)  `10.0` ★★★ ⚡88.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 223. [Home | Plante Moran](https://www.plantemoran.com)  `10.0` ★★★ ⚡88.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **This resource provides an in-depth examination of Plante Moran's offerings across multiple sectors including accounting, consulting, wealth management, real estate, healthcare, and more. It highlights their strategic approach to digital transformatio**
 
@@ -3496,7 +3530,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 222. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)  `9.8` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
+### 224. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)  `9.8` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
 
 **The Memphora/memphora-mcp project implements a MCP (Model Context Protocol) server that integrates with AI assistants like Claude and Cursor. It enables these platforms to store user interactions, preferences, and context across sessions, enhancing p**
 
@@ -3510,7 +3544,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 223. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 225. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a Python implementation of MemProcFS-mcp-server, enabling developers to monitor and manage memory usage and processes in a structured manner. It focuses on integrating with MCP (Memory Management Control) systems and offers tools**
 
@@ -3525,7 +3559,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 224. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 226. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The ZenMemoryAI MCP Server leverages a decentralized architecture to store and manage AI-generated memories securely. It integrates with Solana for on-chain memory context and uses TypeScript for robust development, supporting features like in-memory**
 
@@ -3540,7 +3574,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 225. [chroma-core/chroma](https://github.com/chroma-core/chroma)  `8.0` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 227. [chroma-core/chroma](https://github.com/chroma-core/chroma)  `8.0` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **Chroma functions as a vector database, providing the core data infrastructure for AI by managing collections of documents, metadata, and their corresponding embeddings. It offers both in-memory prototyping and server/client modes, handling automatic **
 
@@ -3556,7 +3590,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 226. [https://openai.com/index/introducing-chatgpt-health](https://openai.com/index/introducing-chatgpt-health)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers
+### 228. [https://openai.com/index/introducing-chatgpt-health](https://openai.com/index/introducing-chatgpt-health)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers
 
 **ChatGPT Health is designed to centralize and protect sensitive health information by connecting it to trusted sources such as Apple Health, Function, MyFitnessPal, and other connected devices. It employs purpose-built encryption, isolation, and layer**
 
@@ -3572,7 +3606,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 227. [https://www.molt.bot](https://www.molt.bot)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 229. [https://www.molt.bot](https://www.molt.bot)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **OpenClaw is an open-source personal AI assistant designed to integrate with various applications and services through plugins and APIs. It handles a wide range of tasks such as managing emails, calendars, reminders, and even controlling smart devices**
 
@@ -3588,7 +3622,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 228. [rmtech1/txtai-assistant-mcp](https://github.com/rmtech1/txtai-assistant-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 230. [rmtech1/txtai-assistant-mcp](https://github.com/rmtech1/txtai-assistant-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A robust API server for semantic vector memory storage, retrieval, and management using TxtAI with integration for AI assistants like Claude and Cline.**
 
@@ -3604,7 +3638,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 229. [kesslerio/attio-mcp-server](https://github.com/kesslerio/attio-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 231. [kesslerio/attio-mcp-server](https://github.com/kesslerio/attio-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Borg project implementing the Attio Model Context Protocol (MCP) server to enable AI-powered natural language interactions with Attio workspace, streamlining CRM operations.**
 
@@ -3620,7 +3654,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 230. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 232. [meloncafe/chromadb-remote-mcp](https://github.com/meloncafe/chromadb-remote-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A remote MCP server enabling seamless access to ChromaDB for AI assistants, supporting secure authentication, vector embeddings, and unified development across devices.**
 
@@ -3636,7 +3670,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 231. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 233. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Borg integrates multiple AI models to automate and oversee the full software development lifecycle, ensuring quality, security, and efficiency across coding tasks.**
 
@@ -3652,7 +3686,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 232. [loayabdalslam/NeuroOS](https://github.com/loayabdalslam/NeuroOS)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 234. [loayabdalslam/NeuroOS](https://github.com/loayabdalslam/NeuroOS)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **NeuroOS is an AI-powered desktop OS built with Electron, React, and TypeScript, featuring advanced AI integration, secure multi-user support, and a customizable AI chat assistant.**
 
@@ -3668,7 +3702,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 233. [MCP server directory for Claude Code, Codex, and more](https://playbooks.com/mcp)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 235. [MCP server directory for Claude Code, Codex, and more](https://playbooks.com/mcp)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This resource serves as a central hub for the emerging Model Context Protocol (MCP) ecosystem, detailing various server implementations that provide AI agents with structured access to local and remote resources. It covers a broad spectrum of integra**
 
@@ -3684,7 +3718,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 234. [How-To Guides](https://chunkhound.github.io/how-to)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 236. [How-To Guides](https://chunkhound.github.io/how-to)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **ChunkHound utilizes a multi-stage indexing process designed for performance, especially with large codebases. Initial indexing creates a comprehensive knowledge base, which subsequent updates modify incrementally, preserving embeddings for unchanged **
 
@@ -3700,7 +3734,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 235. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 237. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **Pieces leverages the Model Context Protocol (MCP) to expose its proprietary Long-Term Memory (LTM-2.7) engine to external LLM-powered applications such as Cursor, GitHub Copilot, and Claude. By acting as an MCP Server, PiecesOS provides a standardize**
 
@@ -3716,7 +3750,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 236. [Building a Live RAG Pipeline over Google Drive Files](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 238. [Building a Live RAG Pipeline over Google Drive Files](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The resource describes setting up a Retrieval-Augmented Generation (RAG) pipeline using LlamaIndex to ingest data from Google Drive. The core technical innovation lies in achieving 'live' updates by configuring an IngestionPipeline that utilizes a Re**
 
@@ -3732,7 +3766,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 237. [agentexport](https://agentexports.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 239. [agentexport](https://agentexports.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **AgentExport functions as an end-to-end encrypted sharing utility for AI interaction transcripts. Encryption (AES-256-GCM) and compression occur locally on the client side before opaque blobs are uploaded to the server. Decryption is performed entirel**
 
@@ -3748,7 +3782,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 238. [Iterated Dynamics](https://legalizeadulthood.github.io/iterated-dynamics)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 240. [Iterated Dynamics](https://legalizeadulthood.github.io/iterated-dynamics)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **This document provides an in-depth look at Iterated Dynamics, covering its introduction, command structure (including Plotting, Zoom Box, Color Cycling, Palette Editing), specific commands for visualization (like 3D viewing and stereo modes), paramet**
 
@@ -3767,7 +3801,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 239. [Show HN: LiberClaw, deploy AI agents that run 24/7 on their own VMs | Hacker News](https://news.ycombinator.com/item?id=47263383)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 241. [Show HN: LiberClaw, deploy AI agents that run 24/7 on their own VMs | Hacker News](https://news.ycombinator.com/item?id=47263383)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **The Borg Project's 'LiberClaw' is an open-source system designed to manage and run AI agents across virtual machines, ensuring they operate 24/7 without interruption. It provides a robust infrastructure for deploying various AI functionalities such a**
 
@@ -3783,7 +3817,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 240. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 242. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The conversation highlights the importance of choosing efficient data structures like arrays of records over more complex structures for performance reasons. It emphasizes the need to optimize for speed, memory usage, and cache efficiency, especially**
 
@@ -3799,7 +3833,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 241. [slavfox/Cozette](https://github.com/slavfox/Cozette)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
+### 243. [slavfox/Cozette](https://github.com/slavfox/Cozette)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **Cozette is a 6x13px (bounding box; average 5px character width, 3px descent, 10px ascent, 8px cap height) bitmap font based on Dina, which itself is based on Proggy. It's also heavily inspired by Creep. The project aims to create a useful bitmap alte**
 
@@ -3813,7 +3847,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 242. [Unleashing JavaScript Applications: A Guide to Boosting Memory Limits in Node.js | Microsoft Community Hub](https://techcommunity.microsoft.com/blog/appsonazureblog/unleashing-javascript-applications-a-guide-to-boosting-memory-limits-in-node-js/4080857)  `10.0` ★★★ ⚡86.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 244. [Unleashing JavaScript Applications: A Guide to Boosting Memory Limits in Node.js | Microsoft Community Hub](https://techcommunity.microsoft.com/blog/appsonazureblog/unleashing-javascript-applications-a-guide-to-boosting-memory-limits-in-node-js/4080857)  `10.0` ★★★ ⚡86.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **This guide provides a comprehensive approach to overcoming the default memory limitations in Node.js by adjusting memory allocation settings. It covers checking current heap size, modifying the --max-old-space-size flag, setting environment variables**
 
@@ -3827,7 +3861,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 243. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 245. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Unsloth-MCP-Server optimizes LLM fine-tuning speed and memory usage by leveraging custom CUDA kernels, 4-bit quantization, and extended context lengths.**
 
@@ -3842,7 +3876,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 244. [Jean Technologies - Jean Technologies](https://docs.jeanmemory.com/introduction)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 246. [Jean Technologies - Jean Technologies](https://docs.jeanmemory.com/introduction)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Jean Technologies focuses on building the foundational memory and representation layer for AI applications. Their core offering, Jean Memory, handles the ingestion of raw user data (conversations, enrichment, activity) and compiles it into persistent**
 
@@ -3857,7 +3891,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 245. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 247. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The profile for 'campfirein' showcases several repositories central to the development and evaluation of AI coding agents. Key projects include 'cipher' (Byterover Cipher), an open-source memory layer compatible with various coding agents and IDEs vi**
 
@@ -3872,7 +3906,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 246. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 248. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The resource describes a technique where isolated code sandboxes are created using copy-on-write (CoW) memory forking. Instead of booting a new VM each time, a single Firecracker VM is booted with pre-loaded Python and numpy, then snapshots are taken**
 
@@ -3887,7 +3921,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 247. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 249. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project focuses on building a robust memory and persistence layer, emphasizing reliable data retention across sessions. It integrates various storage backends to support different use cases, ensuring that data is consistently preserved and access**
 
@@ -3902,7 +3936,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 248. [superagent-ai/reag](https://github.com/superagent-ai/reag)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 250. [superagent-ai/reag](https://github.com/superagent-ai/reag)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **A project proposing a paradigm shift from traditional RAG to "Reasoning-Augmented Generation," feeding full documents directly to the LLM for holistic evaluation.**
 
@@ -3916,7 +3950,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 249. [Smart-AI-Memory/memdocs](https://github.com/Smart-AI-Memory/memdocs)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent 📍
+### 251. [Smart-AI-Memory/memdocs](https://github.com/Smart-AI-Memory/memdocs)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent 📍
 
 **Persistent memory management for AI projects, enabling AI assistants to retain context across sessions without cloud dependency.**
 
@@ -3931,7 +3965,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 250. [Eternego-AI/eternego](https://github.com/Eternego-AI/eternego)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class 📍
+### 252. [Eternego-AI/eternego](https://github.com/Eternego-AI/eternego)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class 📍
 
 **A local AI persona designed for long-term project reasoning, featuring persistent memory that learns user coding styles and decision patterns over months.**
 
@@ -3945,7 +3979,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 251. [A Couple 3D AABB Tricks](https://gpfault.net/posts/aabb-tricks.html)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 253. [A Couple 3D AABB Tricks](https://gpfault.net/posts/aabb-tricks.html)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **This resource provides essential tricks for working with Axis-Aligned Bounding Boxes (AABBs) in 3D, including memory-efficient representations, vertex encoding, vertex coordinate extraction, and ray-AABB intersection testing. It covers practical tech**
 
@@ -3960,7 +3994,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 252. [yoloshii/ClawMem](https://github.com/yoloshii/ClawMem)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers 📍
+### 254. [yoloshii/ClawMem](https://github.com/yoloshii/ClawMem)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers 📍
 
 **On-device memory layer for AI agents combining retrieval-augmented search, hybrid scoring, and self-evolving notes.**
 
@@ -3976,7 +4010,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 253. [dialectforge/FlowStateV1.1](https://github.com/dialectforge/FlowStateV1.1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 255. [dialectforge/FlowStateV1.1](https://github.com/dialectforge/FlowStateV1.1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **FlowState enables persistent memory across coding sessions, allowing Claude Desktop to retain project context, problems, solutions, and learnings.**
 
@@ -3992,7 +4026,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 254. [browserstack/mcp-server](https://github.com/browserstack/mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 256. [browserstack/mcp-server](https://github.com/browserstack/mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Borg's MCP Server enables automated test management, execution, and debugging across real devices and browsers using AI-powered agents.**
 
@@ -4008,7 +4042,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 255. [suttonwilliamd/tpc-server](https://github.com/suttonwilliamd/tpc-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 257. [suttonwilliamd/tpc-server](https://github.com/suttonwilliamd/tpc-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Node.js/Express API for AI-human collaboration, enabling secure storage and retrieval of thoughts and plans using SQLite.**
 
@@ -4024,7 +4058,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 256. [gooboot/mcp-bos](https://github.com/gooboot/mcp-bos)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 258. [gooboot/mcp-bos](https://github.com/gooboot/mcp-bos)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A modular, scalable Model Context Protocol server framework for Claude Desktop, enabling flexible AI application integration.**
 
@@ -4040,7 +4074,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 257. [sunub/obsidian-mcp-server](https://github.com/sunub/obsidian-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 259. [sunub/obsidian-mcp-server](https://github.com/sunub/obsidian-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An MCP Server that enables AI agents and external applications to easily search, read, and manage content within an Obsidian Vault.**
 
@@ -4056,7 +4090,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 258. [viftode4/trustchain](https://github.com/viftode4/trustchain)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 260. [viftode4/trustchain](https://github.com/viftode4/trustchain)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A decentralized trust framework for AI agents, enabling secure, transparent, and scalable interactions across heterogeneous platforms.**
 
@@ -4072,7 +4106,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 259. [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 261. [TheCraigHewitt/seomachine](https://github.com/TheCraigHewitt/seomachine)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A specialized Claude Code workspace for generating SEO-optimized, long-form content to enhance business visibility.**
 
@@ -4088,7 +4122,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 260. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 262. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Memory Bank MCP is an MCP server that centralizes and organizes project documentation for LLM-powered tools, enabling structured knowledge management.**
 
@@ -4103,7 +4137,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 261. [https://copystock.xyz](https://copystock.xyz)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗5 layers
+### 263. [https://copystock.xyz](https://copystock.xyz)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗5 layers
 
 **This resource provides a deep dive into the core concepts required for building intelligent agents. It explores the necessary components for agent orchestration, context engineering (how to manage agent state and context), memory and persistence arch**
 
@@ -4119,7 +4153,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 262. [https://www.ridgid.com/us/en/vacuum-filters](https://www.ridgid.com/us/en/vacuum-filters)  `10.0` ★★★ ⚡83.0 Q0.7🏆 World-class · ↗2 layers
+### 264. [https://www.ridgid.com/us/en/vacuum-filters](https://www.ridgid.com/us/en/vacuum-filters)  `10.0` ★★★ ⚡83.0 Q0.7🏆 World-class · ↗2 layers
 
 **This product catalog highlights RIDGID's extensive portfolio of tools and accessories designed for diverse applications including wet/dry vacuum systems, pipe threading, welding, and industrial cleaning. The catalog emphasizes the company's commitmen**
 
@@ -4135,7 +4169,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 263. [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 265. [matrixorigin/Memoria](https://github.com/matrixorigin/Memoria)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Secure memory management for AI agents with Git-level version control.**
 
@@ -4151,7 +4185,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 264. [sparesparrow/mcp-project-orchestrator](https://github.com/sparesparrow/mcp-project-orchestrator)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 266. [sparesparrow/mcp-project-orchestrator](https://github.com/sparesparrow/mcp-project-orchestrator)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A comprehensive project orchestration tool for managing MCP projects, templates, prompts, and Mermaid diagrams.**
 
@@ -4167,7 +4201,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 265. [p-funk/fegis](https://github.com/p-funk/fegis)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 267. [p-funk/fegis](https://github.com/p-funk/fegis)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A developer platform for AI-powered coding, workflow automation, and secure code management.**
 
@@ -4183,7 +4217,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 266. [yworks/mcp-typescribe](https://github.com/yworks/mcp-typescribe)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 268. [yworks/mcp-typescribe](https://github.com/yworks/mcp-typescribe)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An MCP server implementation enabling LLMs to work with new APIs and frameworks.**
 
@@ -4199,7 +4233,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 267. [m-pineapple/member-berries-apple-mcp](https://github.com/m-pineapple/member-berries-apple-mcp/tree/HEAD/member-berries)  `9.6` ★★☆ ⚡83.0 Q0.7⭐ Excellent 📍
+### 269. [m-pineapple/member-berries-apple-mcp](https://github.com/m-pineapple/member-berries-apple-mcp/tree/HEAD/member-berries)  `9.6` ★★☆ ⚡83.0 Q0.7⭐ Excellent 📍
 
 **A conversational AI assistant that integrates with Apple ecosystem to remember user activities and context for natural, personalized interactions.**
 
@@ -4215,7 +4249,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 268. [juspay/neurolink](https://github.com/juspay/neurolink)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 270. [juspay/neurolink](https://github.com/juspay/neurolink)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A next-generation AI integration platform enabling seamless, stream-based AI workflows across multiple providers.**
 
@@ -4231,7 +4265,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 269. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 271. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A lightweight, local RAG memory store for MCP agents to record, retrieve, update, and visualize persistent memories across sessions.**
 
@@ -4246,7 +4280,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 270. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 272. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A platform enabling semantic memory storage, retrieval, and organization using vector embeddings for intelligent search.**
 
@@ -4261,7 +4295,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 271. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗5 layers 📍
+### 273. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗5 layers 📍
 
 **A Borg intelligence platform integrating MCP course data with ChatGPT for academic research and workflow automation.**
 
@@ -4276,7 +4310,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 272. [ruvnet/ruv-FANN](https://github.com/ruvnet/ruv-FANN)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 274. [ruvnet/ruv-FANN](https://github.com/ruvnet/ruv-FANN)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A memory-safe neural intelligence framework enabling efficient, ephemeral deployment of AI models.**
 
@@ -4291,7 +4325,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 273. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 275. [sqliteai/sqlite-memory](https://github.com/sqliteai/sqlite-memory)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A markdown-based AI agent memory system with persistent, searchable offline-first sync for distributed agents.**
 
@@ -4306,7 +4340,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 274. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `9.3` ★★☆ ⚡83.0 Q0.7✓ Very good · ↗4 layers
+### 276. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `9.3` ★★☆ ⚡83.0 Q0.7✓ Very good · ↗4 layers
 
 **A context management tool for agents to maintain structured memory and context during coding sessions, enabling efficient retrieval and summarization of LLM outputs.**
 
@@ -4322,7 +4356,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 275. [Notion | Where teams and agents work together](https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc3333315804693e2000c7ca70b7b)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 277. [Notion | Where teams and agents work together](https://hd3ns092ns.notion.site/ebd/1b3dc3333315802a9e99cafedb321048?v=1b3dc3333315804693e2000c7ca70b7b)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **This Notion page serves as a technical resource for understanding the core components, workflows, and architectural layers of a Borg intelligence database. It outlines the structure, agent orchestration strategies, context engineering principles, mem**
 
@@ -4338,7 +4372,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 276. [https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-t](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent 📍
+### 278. [https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-t](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent 📍
 
 **Researchers have identified a novel form of neuroplasticity termed 'behavioral timescale synaptic plasticity' (BTSP), which operates on a timescale of several seconds. This mechanism involves coordinated electrical changes across multiple neurons in **
 
@@ -4353,7 +4387,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 277. [Show HN: Portable RAG (Open Source) | Hacker News](https://news.ycombinator.com/item?id=47307887)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 279. [Show HN: Portable RAG (Open Source) | Hacker News](https://news.ycombinator.com/item?id=47307887)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **The project introduces a Python-based solution for retrieving information from external documents using a portable retrieval-augmented generation (RAG) approach. It addresses the challenge of managing large text files within limited context windows b**
 
@@ -4368,7 +4402,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 278. [Agents of Chaos](https://agentsofchaos.baulab.info)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 280. [Agents of Chaos](https://agentsofchaos.baulab.info)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The study involved deploying six autonomous AI agents into a live Discord server with full tool access and persistent storage. Researchers interacted with the agents both benignly and adversarially over two weeks, observing how the agents accumulated**
 
@@ -4383,7 +4417,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 279. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 281. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **The lamaalrajih/kicad-mcp project provides a Model Context Protocol (MCP) server for integrating with KiCad, enabling seamless interaction between LLMs and hardware design tools.**
 
@@ -4399,7 +4433,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 280. [aws-powertools/powertools-mcp](https://github.com/aws-powertools/powertools-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 282. [aws-powertools/powertools-mcp](https://github.com/aws-powertools/powertools-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **Powertools for AWS MCP enables LLM agents to search and retrieve documentation, examples, and context around AWS MCP server resources directly within their workflow.**
 
@@ -4415,7 +4449,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 281. [supermemory app](https://app.supermemory.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 283. [supermemory app](https://app.supermemory.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **Supermemory focuses on the long-term retention and retrieval of fragmented digital information. It implements a sophisticated Retrieval-Augmented Generation (RAG) pipeline that ingests data from diverse sources such as Twitter, Notion, and web bookma**
 
@@ -4431,7 +4465,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 282. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers 📍
+### 284. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers 📍
 
 **GitHub - sachinsharma9780/memweave: memweave is a zero-infrastructure, async-first Python library that gives AI agents persistent, searchable memory — stored as plain Markdown files · GitHub Skip to content Navigation Menu Toggle navigation Sign in A**
 
@@ -4445,7 +4479,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 283. [neuml/txtai](https://github.com/neuml/txtai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 285. [neuml/txtai](https://github.com/neuml/txtai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **An all-in-one framework for semantic search and multi-modal orchestration that supports agentic memory via agents.md and skill.md files.**
 
@@ -4459,7 +4493,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 284. [campfirein/cipher](https://github.com/campfirein/cipher)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 286. [campfirein/cipher](https://github.com/campfirein/cipher)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **An open-source dual-layer memory system (System 1: Business Logic / System 2: Reasoning) that syncs agent context across IDEs and teams.**
 
@@ -4473,7 +4507,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 285. [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 287. [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **An open-source memory engine designed to provide LLMs with infinite context by building persistent user profiles and fact-based knowledge graphs.**
 
@@ -4487,7 +4521,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 286. [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 288. [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A next-generation RAG engine built on vision-based "Deep Document Understanding," ensuring high-accuracy retrieval from complex PDFs and tables.**
 
@@ -4501,7 +4535,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 287. [khoj-ai/khoj](https://github.com/khoj-ai/khoj)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 289. [khoj-ai/khoj](https://github.com/khoj-ai/khoj)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **An open-source personal AI application that indexes private data (Notion/Obsidian/GitHub) to provide a private, context-aware digital assistant.**
 
@@ -4515,7 +4549,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 288. [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
+### 290. [kreuzberg-dev/kreuzberg](https://github.com/kreuzberg-dev/kreuzberg)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
 
 **A high-performance, Rust-core document intelligence engine that extracts structured data from 56+ file formats for high-fidelity RAG pipelines.**
 
@@ -4529,7 +4563,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 289. [microsoft/markitdown](https://github.com/microsoft/markitdown)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 291. [microsoft/markitdown](https://github.com/microsoft/markitdown)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A Python utility for converting diverse file formats (PDF/Office/Images) into structured Markdown optimized for AI context and RAG.**
 
@@ -4543,7 +4577,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 290. [DS4SD/docling](https://github.com/DS4SD/docling)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 292. [DS4SD/docling](https://github.com/DS4SD/docling)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **An advanced document parsing framework (IBM) utilizing the Heron layout model and a dedicated MCP server for agentic document understanding.**
 
@@ -4557,7 +4591,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 291. [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 293. [lumina-ai-inc/chunkr](https://github.com/lumina-ai-inc/chunkr)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **An open-source document intelligence API that uses Vision-Language Models (VLMs) to perform semantic chunking and layout-aware document ingestion.**
 
@@ -4571,7 +4605,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 292. [‎Google Gemini](https://gemini.google.com/app/96d26faa642c7d0f)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 294. [‎Google Gemini](https://gemini.google.com/app/96d26faa642c7d0f)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **This resource likely details the functionality and integration of Google Gemini within an agent orchestration framework, focusing on how it operates as an AI agent, its workflow capabilities, and the underlying architecture that supports its operatio**
 
@@ -4587,7 +4621,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 293. [https://openai.com/index/parameter-golf](https://openai.com/index/parameter-golf)  `9.8` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 295. [https://openai.com/index/parameter-golf](https://openai.com/index/parameter-golf)  `9.8` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **This technical resource outlines an open research initiative aimed at developing the most compact pretrained model possible within a 16 MB artifact limit and a 10-minute training window. The project emphasizes parameter golfing, leveraging efficient **
 
@@ -4602,7 +4636,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 294. [Fractalar](https://fractalar-app.web.app)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗3 layers
+### 296. [Fractalar](https://fractalar-app.web.app)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Fractalar provides a comprehensive platform for managing, orchestrating, and deploying agents. It focuses on the core capabilities of agents, enabling complex workflows, context engineering, memory persistence, and seamless connectivity between agent**
 
@@ -4618,7 +4652,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 295. [One year of developing my own operating system | Mr.UNIX](https://mrunix.me/posts/one-year-osdev)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
+### 297. [One year of developing my own operating system | Mr.UNIX](https://mrunix.me/posts/one-year-osdev)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
 
 **This project details the development of an open-source operating system over a year, covering foundational elements such as boot mechanisms, memory management, hardware abstraction, user interface frameworks, and system performance optimizations. The**
 
@@ -4634,7 +4668,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 296. [mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good 📍
+### 298. [mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good 📍
 
 **The project focuses on building a robust memory installation tool that leverages advanced persistence mechanisms to ensure data durability across sessions. It emphasizes structured memory mapping, efficient data serialization, and integration with un**
 
@@ -4648,7 +4682,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 297. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 299. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **This repository provides a MCP server for integrating LLM applications with Milvus vector database, enabling seamless data exchange and workflow automation.**
 
@@ -4663,7 +4697,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 298. [vizioz/swagger-mcp](https://github.com/vizioz/swagger-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 300. [vizioz/swagger-mcp](https://github.com/vizioz/swagger-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for generating MCP server definitions from Swagger/OpenAPI specifications, enabling AI and developer workflows to build robust API integrations.**
 
@@ -4678,7 +4712,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 299. [brightsidedeveloper/mcp-grok-client-template](https://github.com/brightsidedeveloper/mcp-grok-client-template)  `7.8` ☆☆☆ ⚡82.0 Q0.9○ Good · ↗3 layers
+### 301. [brightsidedeveloper/mcp-grok-client-template](https://github.com/brightsidedeveloper/mcp-grok-client-template)  `7.8` ☆☆☆ ⚡82.0 Q0.9○ Good · ↗3 layers
 
 **This repository contains a template for a 'Grok client,' suggesting a focus on the interface between a user/agent and some underlying service. The structure includes configuration files (`config.json`), dependency management (`package.json`), TypeScr**
 
@@ -4692,7 +4726,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 300. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers
+### 302. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers
 
 **GitHub - mamba-studio/TypedMemory: A Java 25 library for mapping records to strongly typed off-heap memory using the FFM API. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copi**
 
@@ -4706,7 +4740,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 301. [lancedb/lancedb](https://github.com/lancedb/lancedb)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers
+### 303. [lancedb/lancedb](https://github.com/lancedb/lancedb)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers
 
 **An embedded, serverless multimodal lakehouse optimized for hyperscalable vector search and direct object storage (S3) access.**
 
@@ -4720,7 +4754,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 302. [Meta-Harness: End-to-End Optimization of Model Harnesses](https://yoonholee.com/meta-harness)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent · ↗3 layers
+### 304. [Meta-Harness: End-to-End Optimization of Model Harnesses](https://yoonholee.com/meta-harness)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent · ↗3 layers
 
 **Meta-Harness is a comprehensive tool for end-to-end optimization of model harnessing, enabling detailed diagnostics and iterative improvement through full access to execution traces and context.**
 
@@ -4735,7 +4769,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 303. [Canner/WrenAI](https://github.com/Canner/WrenAI)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
+### 305. [Canner/WrenAI](https://github.com/Canner/WrenAI)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
 
 **A Generative Business Intelligence engine that uses a Modeling Definition Language (MDL) to provide agents with a semantic layer for SQL data.**
 
@@ -4749,7 +4783,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 304. [Index of /file/](https://file.wikileaks.org/file)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
+### 306. [Index of /file/](https://file.wikileaks.org/file)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
 
 **This resource appears to be an index or a set of files from WikiLeaks, documenting various facets of the Borg operation and related entities. The file names suggest a mix of operational reports, specific incidents, corporate/political actions, and ev**
 
@@ -4765,7 +4799,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 305. [Show HN: Soul Protocol – an open standard for portable AI identity | Hacker News](https://news.ycombinator.com/item?id=47416740)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent 📍
+### 307. [Show HN: Soul Protocol – an open standard for portable AI identity | Hacker News](https://news.ycombinator.com/item?id=47416740)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent 📍
 
 **The Soul Protocol enables deployment of AI agents across platforms by exporting them as .soul files containing personality, memory, and skills. It addresses the limitations of platform-locked AI agents by allowing offline operation, cross-platform co**
 
@@ -4781,7 +4815,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 306. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 308. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This resource explores how to implement a living memory system for AI applications, emphasizing the use of context tokens and selective data loading to preserve critical design, security, user behavior, and business logic insights. It outlines archit**
 
@@ -4796,7 +4830,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 307. [Ask HN: How do we build a new Human First online community in the LLM age? | Hacker News](https://news.ycombinator.com/item?id=47343951)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 309. [Ask HN: How do we build a new Human First online community in the LLM age? | Hacker News](https://news.ycombinator.com/item?id=47343951)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The discussion revolves around designing a new online platform that resists artificial intelligence infiltration, especially from large language models. It emphasizes the need for identity verification, pseudonymous interactions, and mechanisms to en**
 
@@ -4811,7 +4845,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 308. [Revision Demoparty 2026: Razor1911 [video] | Hacker News](https://news.ycombinator.com/item?id=47685739)  `8.0` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
+### 310. [Revision Demoparty 2026: Razor1911 [video] | Hacker News](https://news.ycombinator.com/item?id=47685739)  `8.0` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The resource details a technical demonstration of a vintage demoscene project, focusing on the implementation and challenges of running an older RISC-V core-based demo. It highlights the use of historical hardware (Razor 1911 Amiga), software tools l**
 
@@ -4827,7 +4861,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 309. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `10.0` ★★★ ⚡80.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 311. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `10.0` ★★★ ⚡80.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **A synchronization and evolution layer for Claude Code that ensures an agent's memory, skills, and architectural rules follow the developer across different machines.**
 
@@ -4840,7 +4874,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 310. [Product | Viktor](https://getviktor.com/product)  `10.0` ★★★ ⚡80.0 Q0.7🏆 World-class · ↗2 layers
+### 312. [Product | Viktor](https://getviktor.com/product)  `10.0` ★★★ ⚡80.0 Q0.7🏆 World-class · ↗2 layers
 
 **An autonomous "AI Coworker" that integrates deeply into Slack and internal tools to proactively execute multi-step workflows without waiting for prompts.**
 
@@ -4855,7 +4889,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 311. [steveyegge/beads](https://github.com/steveyegge/beads)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
+### 313. [steveyegge/beads](https://github.com/steveyegge/beads)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
 
 **A graph-aware state management system for coding agents that uses dependency-aware databases to solve context window limits.**
 
@@ -4869,7 +4903,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 312. [pgvector/pgvector](https://github.com/pgvector/pgvector)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
+### 314. [pgvector/pgvector](https://github.com/pgvector/pgvector)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
 
 **The foundational technology enabling the trend of building high-scale AI applications directly on the PostgreSQL relational database.**
 
@@ -4883,7 +4917,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 313. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
+### 315. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
 
 **A structured context management tool that implements a /thoughts directory to provide agents with long-term memory and systematic workflows.**
 
@@ -4897,7 +4931,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 314. [janbjorge/rekal](https://github.com/janbjorge/rekal)  `9.3` ★★☆ ⚡80.0 Q0.7✓ Very good 📍
+### 316. [janbjorge/rekal](https://github.com/janbjorge/rekal)  `9.3` ★★☆ ⚡80.0 Q0.7✓ Very good 📍
 
 **A local SQLite-based persistent memory system for LLMs, enabling Claude Code to retain knowledge across sessions without cloud or API dependencies.**
 
@@ -4913,7 +4947,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 315. [https://news.ycombinator.com/item?id=47783940](https://news.ycombinator.com/item?id=47783940)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 317. [https://news.ycombinator.com/item?id=47783940](https://news.ycombinator.com/item?id=47783940)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **The resource discusses the use of OpenClaw, an Obsidian-based project, to store and manage personal data such as family history, notes, and reminders. It highlights how users leverage its capabilities for productivity, memory documentation, and inter**
 
@@ -4929,7 +4963,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 316. [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 318. [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The article examines the consequences of software regeneration in agricultural equipment, illustrating how the shift from hardware-centric to software-centric problem-solving eroded traditional expertise boundaries. It highlights the challenges faced**
 
@@ -4943,7 +4977,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 317. [ChernovAndrey/Planectra](https://github.com/ChernovAndrey/Planectra)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 319. [ChernovAndrey/Planectra](https://github.com/ChernovAndrey/Planectra)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer platform for modernizing workflows, integrating AI-assisted planning, and managing enterprise software development processes.**
 
@@ -4959,7 +4993,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 318. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 320. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A lightweight, local-first memory database and continuity journal for Claude AI agents, enabling persistent state management without cloud dependency.**
 
@@ -4975,7 +5009,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 319. [weidwonder/crawl4ai-mcp-server](https://github.com/weidwonder/crawl4ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗5 layers 📍
+### 321. [weidwonder/crawl4ai-mcp-server](https://github.com/weidwonder/crawl4ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗5 layers 📍
 
 **A high-performance MCP Server for efficient internet search and LLM content extraction, designed to optimize token usage.**
 
@@ -4991,7 +5025,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 320. [newaitees/taskmateai](https://github.com/newaitees/taskmateai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 322. [newaitees/taskmateai](https://github.com/newaitees/taskmateai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **TaskMateAI is an AI-powered task management application that enables users to create, manage, and prioritize tasks using MCP for seamless operation.**
 
@@ -5007,7 +5041,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 321. [l33tdawg/strapi-mcp](https://github.com/l33tdawg/strapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 323. [l33tdawg/strapi-mcp](https://github.com/l33tdawg/strapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **An MCP server for Strapi CMS integration, enabling developers to manage content types and entries programmatically.**
 
@@ -5023,7 +5057,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 322. [cyanheads/ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 324. [cyanheads/ntfy-mcp-server](https://github.com/cyanheads/ntfy-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling LLMs and AI agents to send notifications via ntfy push notification service with customization options.**
 
@@ -5039,7 +5073,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 323. [identimoji/mcp-server-emojikey](https://github.com/identimoji/mcp-server-emojikey)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 325. [identimoji/mcp-server-emojikey](https://github.com/identimoji/mcp-server-emojikey)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A server-based emoji-based memory system for Claude to maintain consistent interaction styles and relationship context across conversations.**
 
@@ -5055,7 +5089,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 324. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 326. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server for managing Memory Banks, enabling AI assistants to store and retrieve information across sessions.**
 
@@ -5071,7 +5105,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 325. [tkc/tinyt-todo-mcp](https://github.com/tkc/tinyt-todo-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 327. [tkc/tinyt-todo-mcp](https://github.com/tkc/tinyt-todo-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Tiny TODO MCP is a server implementing the Model Context Protocol to enable persistent task management for AI assistants.**
 
@@ -5087,7 +5121,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 326. [https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-](https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-aa28-c0b8436281b9/OpportunityDetail?opportunityId=c7d9a11c-c5ec-4091-8e83-0fd7c699f953)  `8.1` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗3 layers
+### 328. [https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-](https://recruiting.ultipro.com/MIC1003MEI/JobBoard/e3674ed3-2699-442b-aa28-c0b8436281b9/OpportunityDetail?opportunityId=c7d9a11c-c5ec-4091-8e83-0fd7c699f953)  `8.1` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗3 layers
 
 **This resource is a job posting on UltiPro Recruiting for a role related to the Borg intelligence database. The posting lists numerous technical categories, suggesting a broad skillset is required. The categories span from agent orchestration and cont**
 
@@ -5103,7 +5137,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 327. [Karta - The Canvas File Browser](https://kartakarta.app)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 329. [Karta - The Canvas File Browser](https://kartakarta.app)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Karta is a canvas-based file browser that organizes work locally, visually, and by association. It offers an alternative way to manage files by visualizing connections and relationships between elements. It allows users to organize files, notes, and **
 
@@ -5119,7 +5153,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 328. [Beyond AI Hallucinations: RAG's Recipe for Reliable Responses | Hacker News](https://news.ycombinator.com/item?id=41960288)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 330. [Beyond AI Hallucinations: RAG's Recipe for Reliable Responses | Hacker News](https://news.ycombinator.com/item?id=41960288)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **Loata aims to be a 'second brain' in the cloud, leveraging Retrieval-Augmented Generation (RAG) to overcome the limitations of LLMs like hallucinations and outdated knowledge. It allows users to turn scattered documents and notes into an AI-powered k**
 
@@ -5135,7 +5169,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 329. [Taaar1k/rag-workshop](https://github.com/Taaar1k/rag-workshop)  `9.2` ★★☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
+### 331. [Taaar1k/rag-workshop](https://github.com/Taaar1k/rag-workshop)  `9.2` ★★☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
 
 **A local-first RAG server that integrates with OpenAI models, enabling LLM-augmented retrieval and generation without leaving the machine.**
 
@@ -5150,7 +5184,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 330. [Index of /zim/ted](https://download.kiwix.org/zim/ted)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗3 layers
+### 332. [Index of /zim/ted](https://download.kiwix.org/zim/ted)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗3 layers
 
 **This is an index of various 'ted' files, which appear to be related to the Borg intelligence system. The files cover a wide range of topics, including printing, activism, addiction, agriculture, AI, and more. The file names suggest a focus on differe**
 
@@ -5166,7 +5200,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 331. [zizzfizzix/mcp-server-bwt](https://github.com/zizzfizzix/mcp-server-bwt)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 333. [zizzfizzix/mcp-server-bwt](https://github.com/zizzfizzix/mcp-server-bwt)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **Borg Project's MCP server enables secure interaction between AI assistants and Bing Webmaster Tools API.**
 
@@ -5181,7 +5215,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 332. [bornpresident/volatility-mcp-server](https://github.com/bornpresident/volatility-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 334. [bornpresident/volatility-mcp-server](https://github.com/bornpresident/volatility-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Borg-based MCP server integrating Volatility 3 with Claude for natural language memory forensics.**
 
@@ -5196,7 +5230,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 333. [samwang0723/mcp-memory](https://github.com/samwang0723/mcp-memory)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 335. [samwang0723/mcp-memory](https://github.com/samwang0723/mcp-memory)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A server-based solution for storing and retrieving long-term memory graphs using Redis Graph.**
 
@@ -5211,7 +5245,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 334. [spranab/contextcache](https://github.com/spranab/contextcache)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
+### 336. [spranab/contextcache](https://github.com/spranab/contextcache)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
 
 **A persistent Key-Value (KV) cache specifically designed to optimize the performance and token cost of AI agents that rely heavily on external tools.**
 
@@ -5224,7 +5258,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 335. [notbnull/mcp-rag-context](https://github.com/notbnull/mcp-rag-context)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 337. [notbnull/mcp-rag-context](https://github.com/notbnull/mcp-rag-context)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A lightweight MCP server enabling persistent memory and context management for AI assistants using local vector storage and SQLite.**
 
@@ -5238,7 +5272,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 336. [Index of /zim/other](https://download.kiwix.org/zim/other)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
+### 338. [Index of /zim/other](https://download.kiwix.org/zim/other)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
 
 **A collection of digital resources, including encyclopedias, wikis, and specific domain-focused sites, designed to provide comprehensive knowledge and context for the Borg intelligence system. This includes general topics like 'bitcoin', 'education', **
 
@@ -5253,7 +5287,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 337. [Inochi2D](https://inochi2d.com)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 339. [Inochi2D](https://inochi2d.com)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **Inochi2D is a framework for realtime 2D puppet animation—by creating 2D meshes and layering creating the illusion of depth and movement from using 2D artwork. This technique enables creativity in a variety of applications within the entertainment ind**
 
@@ -5268,7 +5302,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 338. [VEKTOR Docs — Vektor Slipstream](https://vektormemory.com/docs)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 340. [VEKTOR Docs — Vektor Slipstream](https://vektormemory.com/docs)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **The Borg Project incorporates a next-generation persistent memory solution leveraging Vektor Slipstream to securely store, manage, and retrieve AI models and datasets. This integration focuses on seamless API references, integration guides, and troub**
 
@@ -5283,7 +5317,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 339. [https://www.reddit.com/r/AgentZero/comments/1t2lv3j/agent_zero_or_herm](https://www.reddit.com/r/AgentZero/comments/1t2lv3j/agent_zero_or_hermes_which_is_better_for)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 341. [https://www.reddit.com/r/AgentZero/comments/1t2lv3j/agent_zero_or_herm](https://www.reddit.com/r/AgentZero/comments/1t2lv3j/agent_zero_or_hermes_which_is_better_for)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **Participants in the r/AgentZero forum analyze various methods for orchestrating and isolating agent workflows, emphasizing real-world experiences and technical patterns. They highlight recommended tools, caution against common pitfalls, and share ins**
 
@@ -5298,7 +5332,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 340. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 342. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **The project details a robust architecture designed to manage and persist large-scale neural memory data efficiently. It emphasizes structured storage solutions, optimized retrieval mechanisms, and integration with existing AI frameworks. Key componen**
 
@@ -5312,7 +5346,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 341. [archimedescrypto/figma-mcp-chunked](https://github.com/archimedescrypto/figma-mcp-chunked)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 343. [archimedescrypto/figma-mcp-chunked](https://github.com/archimedescrypto/figma-mcp-chunked)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A server for interacting with Figma using chunking and pagination to efficiently handle large files.**
 
@@ -5327,7 +5361,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 342. [Codex Kaioken – OpenAI Codex CLI fork with subagents, memory, and live settings | Hacker News](https://news.ycombinator.com/item?id=46417772)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗5 layers
+### 344. [Codex Kaioken – OpenAI Codex CLI fork with subagents, memory, and live settings | Hacker News](https://news.ycombinator.com/item?id=46417772)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗5 layers
 
 **This project extends the Codex CLI by introducing subagents for specialized tasks, which operate with full context and summarize their findings for the main orchestrator. It also incorporates persistent memory using SQLite to store knowledge gained f**
 
@@ -5342,7 +5376,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 343. [ChunkHound](https://chunkhound.github.io)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗3 layers 📍
+### 345. [ChunkHound](https://chunkhound.github.io)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗3 layers 📍
 
 **An open-source, local-first tool that uses the Context-Aware Syntax Tree (cAST) algorithm to provide AI agents with high-fidelity, structure-aware codebase search.**
 
@@ -5356,7 +5390,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 344. [Redirecting…](https://duckdb.org/docs/stable/core_extensions/vss)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
+### 346. [Redirecting…](https://duckdb.org/docs/stable/core_extensions/vss)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
 
 **A high-performance local vector similarity search extension for DuckDB using HNSW indexes via the usearch library.**
 
@@ -5371,7 +5405,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 345. [Plugged.in - Enterprise MCP Platform for AI Integration](https://plugged.in)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
+### 347. [Plugged.in - Enterprise MCP Platform for AI Integration](https://plugged.in)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
 
 **An enterprise-grade MCP Hub that aggregates tool servers, providing universal transport compatibility (STDIO/SSE/HTTP) and built-in cross-agent persistent memory.**
 
@@ -5385,7 +5419,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 346. [[]memo](https://danieltemkin.com/Esolangs/Memo)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
+### 348. [[]memo](https://danieltemkin.com/Esolangs/Memo)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
 
 **The resource presents a unique interactive coding space that blends natural language syntax with functional programming constructs, enabling users to experiment with unconventional logic structures. It emphasizes memory management through abstract da**
 
@@ -5399,7 +5433,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 347. [https://www.reddit.com/r/coding_agents/comments/1t2eppe/skills_deck_th](https://www.reddit.com/r/coding_agents/comments/1t2eppe/skills_deck_the_missing_ui_for_devs_with_100)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 349. [https://www.reddit.com/r/coding_agents/comments/1t2eppe/skills_deck_th](https://www.reddit.com/r/coding_agents/comments/1t2eppe/skills_deck_the_missing_ui_for_devs_with_100)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **The discussion highlights the importance of understanding agent orchestration, focusing on how developers can integrate various tools and patterns to streamline their development processes. It emphasizes real-world experiences and community insights **
 
@@ -5414,7 +5448,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 348. [Lemmy.World - A generic Lemmy server for everyone to use.](https://lemmy.world)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
+### 350. [Lemmy.World - A generic Lemmy server for everyone to use.](https://lemmy.world)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
 
 **A platform designed for universal accessibility, featuring a community spotlight and various content types (Posts, Comments, Subscribed) within the structure of a general Lemmy server. The interface suggests a focus on user engagement and potentially**
 
@@ -5430,7 +5464,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 349. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 351. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A streamlined CLI and visual playground for building private, offline RAG systems that integrate directly with Ollama and support hybrid vector storage.**
 
@@ -5444,7 +5478,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 350. [VectorVFS: Your Filesystem as a Vector Database](https://vectorvfs.readthedocs.io/en/latest)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 352. [VectorVFS: Your Filesystem as a Vector Database](https://vectorvfs.readthedocs.io/en/latest)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **A lightweight Python library that turns standard Linux filesystems into vector databases by storing embeddings directly in file extended attributes (xattrs).**
 
@@ -5458,7 +5492,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 351. [BookmarkFS](https://www.nongnu.org/bookmarkfs)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 353. [BookmarkFS](https://www.nongnu.org/bookmarkfs)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **A FUSE-based pseudo-filesystem for GNU/Linux that mounts browser bookmark files (Firefox/Chromium) as standard directory structures for CLI manipulation.**
 
@@ -5472,7 +5506,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 352. [Union-Find Compaction](https://www.june.kim/union-find-compaction)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 354. [Union-Find Compaction](https://www.june.kim/union-find-compaction)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **A graph-based context management algorithm that replaces flat summarization with a recoverable "Union-Find" tree structure to eliminate batch-stall latency.**
 
@@ -5486,7 +5520,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 353. [SaveDay - AI Bookmark Manager - Chrome Web Store](https://chromewebstore.google.com/detail/saveday-ai-bookmark-manag/gmfaoihlkhopieoibopcponemocgbloj?hl=en-US)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 355. [SaveDay - AI Bookmark Manager - Chrome Web Store](https://chromewebstore.google.com/detail/saveday-ai-bookmark-manag/gmfaoihlkhopieoibopcponemocgbloj?hl=en-US)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **An AI-powered bookmark manager that captures multi-format content (links, PDFs, podcasts) and provides semantic search and instant YouTube/article summaries.**
 
@@ -5500,7 +5534,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 354. [Galea](https://galea.co)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗2 layers
+### 356. [Galea](https://galea.co)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗2 layers
 
 **Galea is a platform designed to enable agents to interact, orchestrate tasks, and manage workflows. It focuses on providing the necessary context engineering, isolation, memory persistence architecture, and connectivity layers required for sophistica**
 
@@ -5515,7 +5549,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 355. [Open Source Gave Me Everything Until I Had Nothing Left to Give](https://kennethreitz.org/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗1 layers 📍
+### 357. [Open Source Gave Me Everything Until I Had Nothing Left to Give](https://kennethreitz.org/essays/2026-03-18-open_source_gave_me_everything_until_i_had_nothing_left_to_give)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The text chronicles the author's transformation from a disengaged individual to a self-worth-driven contributor in the open-source community. It explores the psychological toll of burnout, the role of external validation, and how open-source work bec**
 
@@ -5529,7 +5563,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 356. [Gemma 4 on iPhone | Hacker News](https://news.ycombinator.com/item?id=47652561)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers 📍
+### 358. [Gemma 4 on iPhone | Hacker News](https://news.ycombinator.com/item?id=47652561)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project demonstrates running a lightweight AI model locally on an iPhone using the Gemma E2B quantized model, enabling real-time voice-to-speech functionality. It highlights the feasibility of deploying on-device LLMs for mobile use cases, emphas**
 
@@ -5543,7 +5577,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 357. [https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_f](https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers 📍
+### 359. [https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_f](https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **The resource outlines a novel approach to building an interactive forensic database aimed at enhancing the efficiency and accuracy of UAP investigations. It emphasizes the integration of advanced tools, real-time data processing, and community-driven**
 
@@ -5557,7 +5591,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 358. [OpenAI Killed Sora. Here Are 11 Video Models You Can Use Right Now.](https://hexaclaw.com/blog/sora-is-dead-video-alternatives)  `9.6` ★★☆ ⚡75.0 Q0.7⭐ Excellent · ↗1 layers
+### 360. [OpenAI Killed Sora. Here Are 11 Video Models You Can Use Right Now.](https://hexaclaw.com/blog/sora-is-dead-video-alternatives)  `9.6` ★★☆ ⚡75.0 Q0.7⭐ Excellent · ↗1 layers
 
 **Explores the shift from single-AI dependency to modular, multi-model video generation pipelines.**
 
@@ -5573,7 +5607,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 359. [https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_na](https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_nailed_memory_importing_chatgpt_history)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers 📍
+### 361. [https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_na](https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_nailed_memory_importing_chatgpt_history)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The resource discusses the process of importing chatgpt history into an OpenClaw instance, focusing on memory management and persistence architecture. It covers technical aspects such as data serialization, file handling, and integration with the Bor**
 
@@ -5588,7 +5622,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 360. [Harmony](https://harmony.pulsewidth.org.uk)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗3 layers
+### 362. [Harmony](https://harmony.pulsewidth.org.uk)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗3 layers
 
 **A tool for looking up music releases, providing metadata integration (e.g., importing into MusicBrainz), and linking external IDs to a centralized database.**
 
@@ -5603,7 +5637,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 361. [OpenClaw Integration - Byterover](https://docs.byterover.dev/autonomous-agents/openclaw)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
+### 363. [OpenClaw Integration - Byterover](https://docs.byterover.dev/autonomous-agents/openclaw)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This technical resource outlines the integration of ByteRover, an LLM provider, with OpenClaw, an autonomous agent platform. It details how ByteRover's features such as context retrieval, automatic memory curation, and daily knowledge mining are impl**
 
@@ -5616,7 +5650,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 362. [Ragie | The Context Engine for Agents , Assistants, and Apps](https://www.ragie.ai)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 364. [Ragie | The Context Engine for Agents , Assistants, and Apps](https://www.ragie.ai)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A fully managed "Plaid for AI" RAG platform featuring an Agentic Retrieval engine, white-labeled SaaS connectors, and a context-aware MCP server.**
 
@@ -5630,7 +5664,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 363. [GraphRAG Part 2: Minimum Viable GraphRAG (No Per-Chunk LLM Calls) (English)](https://www.mostlylucid.net/blog/graphrag-minimum-viable-implementation)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
+### 365. [GraphRAG Part 2: Minimum Viable GraphRAG (No Per-Chunk LLM Calls) (English)](https://www.mostlylucid.net/blog/graphrag-minimum-viable-implementation)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
 
 **A technical guide for implementing a simplified GraphRAG system using entity-triplet extraction to provide global context beyond vector search.**
 
@@ -5644,7 +5678,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 364. [People Keep Inventing Prolly Trees](https://www.dolthub.com/blog/2025-06-03-people-keep-inventing-prolly-trees)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 366. [People Keep Inventing Prolly Trees](https://www.dolthub.com/blog/2025-06-03-people-keep-inventing-prolly-trees)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **The foundational data structure (Probabilistic B-Trees) used by Dolt to enable Git-like version control and fast diffs for SQL databases.**
 
@@ -5658,7 +5692,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 365. [ArchiveBox](https://archivebox.io/#quickstart)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 367. [ArchiveBox](https://archivebox.io/#quickstart)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **An open-source self-hosted internet archive featuring a new plugin system for AI-assisted tagging, summarization, and P2P sharing via ABIDs.**
 
@@ -5672,7 +5706,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 366. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 368. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **A practical guide for running 1B/3B parameter models locally for RAG, focusing on the use of swappable LoRA adapters for specialized task expertise.**
 
@@ -5686,7 +5720,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 367. [AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip](https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 369. [AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip](https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **The Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip by combining L2 and L3 caches with additional 3D V-Cache on both CPU dies. This design aims to improve gaming and multitasking performance, though it slightly reduces peak cloc**
 
@@ -5700,7 +5734,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 368. [https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual](https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual_agent_memory_stack_right_now)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers 📍
+### 370. [https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual](https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual_agent_memory_stack_right_now)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **Participants analyze the architecture behind memory management in AI systems, emphasizing tools for persistence, patterns observed in real-world implementations, and warnings about potential data loss risks.**
 
@@ -5715,7 +5749,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 369. [https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_sta](https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 371. [https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_sta](https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **The article highlights a shift towards integrating advanced AI tools into existing workflows, emphasizing the need for developers to understand orchestration patterns and real-time data handling. It underscores the importance of memory persistence fo**
 
@@ -5729,7 +5763,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 370. [davidvc/code-knowledge-mcptool](https://github.com/davidvc/code-knowledge-mcptool)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 372. [davidvc/code-knowledge-mcptool](https://github.com/davidvc/code-knowledge-mcptool)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A knowledge management tool for code repositories using vector embeddings to enhance code understanding and retrieval.**
 
@@ -5743,7 +5777,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 371. [ai4curation/owl-mcp](https://github.com/ai4curation/owl-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 373. [ai4curation/owl-mcp](https://github.com/ai4curation/owl-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **OWL-MCP enables secure, real-time integration of AI models with semantic web ontologies via standardized protocols.**
 
@@ -5757,7 +5791,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 372. [ibproduct/ib-mcp-cache-server](https://github.com/ibproduct/ib-mcp-cache-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 374. [ibproduct/ib-mcp-cache-server](https://github.com/ibproduct/ib-mcp-cache-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A memory cache server designed to optimize token usage in MCP API interactions by caching frequently accessed data.**
 
@@ -5771,7 +5805,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 373. [Google Cloud Platform](https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&dsh=S1108247234:1761448789185547&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&ifkv=ARESoU3O1BLVIeNAYl6mOGrnB-bGd86fEHyZGVxLjS5kfnRo1_vf--KeElyCEeC-ysxQs3yATx0VDQ&osid=1&passive=true&sacu=1&service=cloudconsole)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗4 layers
+### 375. [Google Cloud Platform](https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&dsh=S1108247234:1761448789185547&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389&ifkv=ARESoU3O1BLVIeNAYl6mOGrnB-bGd86fEHyZGVxLjS5kfnRo1_vf--KeElyCEeC-ysxQs3yATx0VDQ&osid=1&passive=true&sacu=1&service=cloudconsole)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗4 layers
 
 **This resource provides the mechanism for authenticating users to access Google Cloud Platform services, specifically through the console login experience. It covers the process of signing into the platform, including options for email/phone authentic**
 
@@ -5785,7 +5819,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 374. [Pygmalion (mythology) - Wikipedia](https://en.wikipedia.org/wiki/Pygmalion_(mythology))  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗2 layers
+### 376. [Pygmalion (mythology) - Wikipedia](https://en.wikipedia.org/wiki/Pygmalion_(mythology))  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗2 layers
 
 **Pygmalion is a legendary figure of Greek mythology, known for being a sculptor who fell in love with and carved a statue of a woman. The myth details how Pygmalion created a sculpture of an ivory alabaster woman, which eventually became Galatea under**
 
@@ -5800,7 +5834,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 375. [TeamRizu/OutFox](https://github.com/TeamRizu/OutFox)  `7.7` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗3 layers
+### 377. [TeamRizu/OutFox](https://github.com/TeamRizu/OutFox)  `7.7` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗3 layers
 
 **This repository serves as the central hub for reporting bugs found within the Project OutFox development builds. It highlights a structured approach to testing and bug reporting, likely focusing on agent orchestration, workflow execution, context man**
 
@@ -5813,7 +5847,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 376. [incomestreamsurfer/roo-code-memory-bank-mcp-server](https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 378. [incomestreamsurfer/roo-code-memory-bank-mcp-server](https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A MCP server enabling AI assistants to maintain project context across sessions using a file-based memory bank.**
 
@@ -5827,7 +5861,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 377. [tosin2013/mcp-memory-cache-server](https://github.com/tosin2013/mcp-memory-cache-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 379. [tosin2013/mcp-memory-cache-server](https://github.com/tosin2013/mcp-memory-cache-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A memory cache server designed to reduce token consumption by efficiently caching data between language model interactions.**
 
@@ -5841,7 +5875,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 378. [Mortal sin](https://en.uncyclopedia.co/wiki/Mortal_sin)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers
+### 380. [Mortal sin](https://en.uncyclopedia.co/wiki/Mortal_sin)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers
 
 **Mortal sin is a concept that connects the moment of committing a sin to the eternal consequence, framed through the lens of Catholic doctrine and historical context. The text introduces the concept by drawing parallels between the theological reality**
 
@@ -5854,7 +5888,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 379. [The Hypercodex](https://kunnas.com/articles/the-hypercodex)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers
+### 381. [The Hypercodex](https://kunnas.com/articles/the-hypercodex)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers
 
 **A meta-documentation framework proposing a "master semantic index" for agentic workflows, enabling cross-model portability of learned skills and context.**
 
@@ -5867,7 +5901,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 380. [https://alternativeto.net/software/tagstudio/about](https://alternativeto.net/software/tagstudio/about)  `10.0` ★★★ ⚡72.0 Q0.6⭐ Excellent 📍
+### 382. [https://alternativeto.net/software/tagstudio/about](https://alternativeto.net/software/tagstudio/about)  `10.0` ★★★ ⚡72.0 Q0.6⭐ Excellent 📍
 
 **A photo and file organization system that uses a robust, tag-based SQLite metadata layer to manage libraries without altering the underlying filesystem.**
 
@@ -5881,7 +5915,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 381. [facebook (AI at Meta)](https://huggingface.co/facebook/models)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
+### 383. [facebook (AI at Meta)](https://huggingface.co/facebook/models)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
 
 **This Hugging Face page showcases the breadth of models available under the Facebook AI umbrella, including key innovations like 'Think in Strokes, Not Pixels: Process-Driven Image Generation via Interleaved Reasoning' and various foundational image p**
 
@@ -5894,7 +5928,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 382. [https://research.phospho.ai/phospho_embeddingalign_rag.pdf](https://research.phospho.ai/phospho_embeddingalign_rag.pdf)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗1 layers 📍
+### 384. [https://research.phospho.ai/phospho_embeddingalign_rag.pdf](https://research.phospho.ai/phospho_embeddingalign_rag.pdf)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗1 layers 📍
 
 **A research breakthrough introducing a linear transformation layer to align vector spaces to specific datasets, optimizing RAG without fine-tuning.**
 
@@ -5908,7 +5942,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 383. [https://blogs.oracle.com/developers/comparing-file-systems-and-databas](https://blogs.oracle.com/developers/comparing-file-systems-and-databases-for-effective-ai-agent-memory-management)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent 📍
+### 385. [https://blogs.oracle.com/developers/comparing-file-systems-and-databas](https://blogs.oracle.com/developers/comparing-file-systems-and-databases-for-effective-ai-agent-memory-management)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent 📍
 
 **A strategic decision framework for selecting between file-systems and databases as the substrate for AI agent long-term memory.**
 
@@ -5922,7 +5956,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 384. [https://www.reddit.com/r/coding_agents/comments/1sz9dp4/the_four_level](https://www.reddit.com/r/coding_agents/comments/1sz9dp4/the_four_levels_of_ai_agent_memory)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
+### 386. [https://www.reddit.com/r/coding_agents/comments/1sz9dp4/the_four_level](https://www.reddit.com/r/coding_agents/comments/1sz9dp4/the_four_levels_of_ai_agent_memory)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
 
 **The resource explores the layered architecture of AI agents, focusing on how they store, retrieve, and manage memory for decision-making. It discusses technical approaches to ensure robustness, scalability, and isolation in multi-agent environments.**
 
@@ -5936,7 +5970,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 385. [Cursor Cost Explorer](https://dalssoft.github.io/cursor_cost_explorer)  `8.7` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗2 layers
+### 387. [Cursor Cost Explorer](https://dalssoft.github.io/cursor_cost_explorer)  `8.7` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗2 layers
 
 **This resource provides a dashboard or CSV file for analyzing the usage patterns, costs, and performance of AI agents/cursors. It offers an interface to view data, potentially including cost breakdowns, usage statistics, and insights into how these to**
 
@@ -5949,7 +5983,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 386. [MiTreasury eServices - Citizen Portal](https://etreas.michigan.gov/iit/my-account)  `7.8` ☆☆☆ ⚡70.0 Q0.7○ Good · ↗2 layers
+### 388. [MiTreasury eServices - Citizen Portal](https://etreas.michigan.gov/iit/my-account)  `7.8` ☆☆☆ ⚡70.0 Q0.7○ Good · ↗2 layers
 
 **This resource provides access to the Michigan Department of Treasury's citizen portal, offering essential services and information. It includes a 'Treasury Home' section, FAQs, contact options, accessibility details, privacy statement, copyright info**
 
@@ -5963,7 +5997,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 387. [Future4200](https://future4200.com)  `7.8` ☆☆☆ ⚡70.0 Q0.7○ Good · ↗2 layers
+### 389. [Future4200](https://future4200.com)  `7.8` ☆☆☆ ⚡70.0 Q0.7○ Good · ↗2 layers
 
 **This resource provides an overview of the Future4200 community, including essential guides (FAQ), community guidelines, and product advertisements. It highlights the core functionality of the platform, which seems to be centered around providing tool**
 
@@ -5977,7 +6011,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 388. [Set up extension - Browser MCP](https://docs.browsermcp.io/setup-extension)  `8.7` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers 📍
+### 390. [Set up extension - Browser MCP](https://docs.browsermcp.io/setup-extension)  `8.7` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **This resource provides instructions for setting up the Browser MCP extension, including steps for initial setup, connecting a browser tab to the MCP server, and starting automation. It details how to use the extension for browser actions.**
 
@@ -5990,7 +6024,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 389. [http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-eco](http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-economy.html?m=1)  `7.8` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗3 layers
+### 391. [http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-eco](http://charleshughsmith.blogspot.com/2025/04/last-gasp-of-landfill-economy.html?m=1)  `7.8` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗3 layers
 
 **This resource appears to be a blog post titled 'Last Gasp of Landfill Economy,' which suggests a discussion about the end-of-life phase of an economic model, perhaps related to computing infrastructure, data storage, or AI agent deployment. The secur**
 
@@ -6004,7 +6038,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 390. [RetroNick2020/raster-master](https://github.com/RetroNick2020/raster-master/releases/tag/v5.4R121)  `7.7` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗2 layers
+### 392. [RetroNick2020/raster-master](https://github.com/RetroNick2020/raster-master/releases/tag/v5.4R121)  `7.7` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗2 layers
 
 **This release introduces the BMFont format as a sprite sheet export, which allows existing BM Font loaders to use sprite sheets as a display option instead of just text. The developer promises a freepascal code demonstration soon.**
 
@@ -6016,7 +6050,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 391. [https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photograp](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)  `9.2` ★★☆ ⚡66.0 Q0.5○ Good · ↗1 layers 📍
+### 393. [https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photograp](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)  `9.2` ★★☆ ⚡66.0 Q0.5○ Good · ↗1 layers 📍
 
 **Implement a persistent memory bank and workflow to enable GitHub Copilot to retain project context across sessions.**
 
@@ -6030,7 +6064,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 392. [Kilo - Install Kilo Code](https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRandnS2pIQmhDaEFSSXNBUEpSM3hkbnhRR2ZzYjNucG9LSUFja1V6Si1Obkh1VjgxLV9qbFp4ekdGemhIQUU0c0dJY0JKbXdoa2FBb1VfRUFMd193Y0I.*_gcl_au*NjU0ODM1OTMwLjE3NjA0Mjg2NzQ.)  `7.7` ☆☆☆ ⚡64.0 Q0.7○ Good · ↗2 layers
+### 394. [Kilo - Install Kilo Code](https://kilocode.ai/install?_gl=1*1c62asa*_gcl_aw*R0NMLjE3NjA2NzQ1ODguQ2owS0NRandnS2pIQmhDaEFSSXNBUEpSM3hkbnhRR2ZzYjNucG9LSUFja1V6Si1Obkh1VjgxLV9qbFp4ekdGemhIQUU0c0dJY0JKbXdoa2FBb1VfRUFMd193Y0I.*_gcl_au*NjU0ODM1OTMwLjE3NjA0Mjg2NzQ.)  `7.7` ☆☆☆ ⚡64.0 Q0.7○ Good · ↗2 layers
 
 **Install Kilo Code for VS Code. To install Kilo Code in VS Code, you need to have Visual Studio Code installed on your computer. 1. Install VS Code. If you don't have VS Code installed yet, download it here.**
 
@@ -6043,7 +6077,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 393. [https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17](https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17-4831-b698-ce3ffb8e9fae&code_challenge=UyTJqjDRgASWkMBOnxSL8hv2lq9L6Shq3hz1hwHSeuA&code_challenge_method=S256&redirect_uri=https://www.zennioptical.com/oauth2callback&response_type=code&scope=openid+offline_access+email&state=https://www.zennioptical.com/myAccount/myPrescription)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗2 layers
+### 395. [https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17](https://auth.zennioptical.com/oauth2/authorize?client_id=f521cc69-fc17-4831-b698-ce3ffb8e9fae&code_challenge=UyTJqjDRgASWkMBOnxSL8hv2lq9L6Shq3hz1hwHSeuA&code_challenge_method=S256&redirect_uri=https://www.zennioptical.com/oauth2callback&response_type=code&scope=openid+offline_access+email&state=https://www.zennioptical.com/myAccount/myPrescription)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗2 layers
 
 **This resource details the authentication and user experience for a Zenni Optical account, including login options (Apple, Google), sign-in/creation flow, password management, and rewards integration.**
 
@@ -6057,7 +6091,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 394. [Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)  `7.8` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
+### 396. [Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)  `7.8` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
 
 **Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp Home Reviews Forums Downloads Case Mod Gallery Databases Databases… Back VGA Bios Collection GPU Database CPU Database SSD Database Review Database Upcom**
 
@@ -6068,7 +6102,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 395. [TechAnon / ArchiTech.ProTV · GitLab](https://gitlab.com/techanon/protv)  `7.7` ☆☆☆ ⚡58.0 Q0.6○ Good · ↗2 layers
+### 397. [TechAnon / ArchiTech.ProTV · GitLab](https://gitlab.com/techanon/protv)  `7.7` ☆☆☆ ⚡58.0 Q0.6○ Good · ↗2 layers
 
 **This resource describes a video player prefab designed specifically for the VRChat SDK3 (using Udon) and ensures compatibility with VPM (Versioned/Platform Management) standards version 3.x or later. It focuses on providing an extensible video player**
 
@@ -6079,7 +6113,7 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
-### 396. [Pack and Simfile Sources](https://itgwiki.dominick.cc/en/packs-and-simfiles/where-to-find-song=packs-and-simfiles)  `7.7` ☆☆☆ ⚡55.0 Q0.6○ Good · ↗2 layers
+### 398. [Pack and Simfile Sources](https://itgwiki.dominick.cc/en/packs-and-simfiles/where-to-find-song=packs-and-simfiles)  `7.7` ☆☆☆ ⚡55.0 Q0.6○ Good · ↗2 layers
 
 **This resource provides a guide on locating and understanding where song files are located within the context of the ITG (Intelligence/Technology Group) ecosystem. It details the structure, organization, and workflow for accessing these assets.**
 
@@ -6090,5 +6124,25 @@ Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 ---
 
+## Storage Engines
 
-*396 tools · Signal-scored · 2026-05-17*
+> 1 tools · avg signal ⚡81
+
+### 399. [Get the Pinecone Vector Database | Pinecone](https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_campaign=vector-db-us&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16569728076&hsa_grp=135276647900&hsa_ad=587750423880&hsa_src=g&hsa_tgt=kwd-1976865318&hsa_kw=vector%20database&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16569728076&gbraid=0AAAAABrtGFCCiLeMIYP0UV1mJGjrBQJJQ&gclid=CjwKCAiA2svIBhB-EiwARWDPjqml7VbSAxBrIs1H9BOH2ulf87caRxxgUnZgiXwEIWCDIqEkgh0RERoCykUQAvD_BwE)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
+
+**Pinecone provides a specialized, fully managed vector database service aimed at simplifying the implementation of similarity search. It abstracts away infrastructure complexity, offering features like ultra-low query latency even at massive scale (bi**
+
+**Features:**
+- Fully managed vector database
+- High-performance similarity search
+- Ultra-low query latency
+- Live index updates (freshness)
+- Vector search combined with metadata filtering
+- Usage-based pricing
+
+*Tags: ai-infrastructure, high-performance, managed-service, metadata-filtering, noops*
+
+---
+
+
+*399 tools · Signal-scored · 2026-05-17*

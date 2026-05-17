@@ -1,6 +1,6 @@
 # 👁 Context Engineering & Isolation
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 995 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,012 tools
 
 The **lens layer** — how agents see, compress, and manage the world
 
@@ -8,13 +8,13 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **995** |
+| Total tools | **1,012** |
 | Standout 🏆⭐ | 260 |
-| Avg Signal | ⚡84 |
+| Avg Signal | ⚡83 |
 | Innovation 10 | 109 ███████████ |
-| Innovation 9 | 280 █████████████████████████████ |
-| Innovation 8 | 580 ███████████████████████████████████████████████████████████ |
-| Innovation 7 | 26 ███ |
+| Innovation 9 | 281 █████████████████████████████ |
+| Innovation 8 | 593 ████████████████████████████████████████████████████████████ |
+| Innovation 7 | 29 ███ |
 
 ---
 
@@ -49,9 +49,11 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 - [Codebase Indexing](#codebase-indexing) — 75 tools · ⚡83
 - [Context Compression](#context-compression) — 17 tools · ⚡84
 - [Context Isolation](#context-isolation) — 106 tools · ⚡84
-- [MCP Servers](#mcp-servers) — 17 tools · ⚡89
+- [MCP Servers](#mcp-servers) — 28 tools · ⚡85
 - [Prompt Engineering](#prompt-engineering) — 569 tools · ⚡83
 - [RAG Frameworks](#rag-frameworks) — 195 tools · ⚡86
+- [RAG Pipelines](#rag-pipelines) — 3 tools · ⚡71
+- [Unclassified](#unclassified) — 3 tools · ⚡60
 
 ---
 
@@ -3290,7 +3292,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ## MCP Servers
 
-> 17 tools · avg signal ⚡89
+> 28 tools · avg signal ⚡85
 
 ### 215. [tienan92it/binance-mcp](https://github.com/tienan92it/binance-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
@@ -3465,7 +3467,22 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 226. [gridfireai/reddit-mcp](https://github.com/gridfireai/reddit-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 226. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/google-maps)  `8.0` ★☆☆ ⚡87.0 Q0.8 📍
+
+**This project provides a MCP (Map Content Processing) server that integrates with the Google Maps API to deliver location intelligence, geocoding, reverse geocoding, mapping services, and route planning functionalities. It supports various operations **
+
+**Features:**
+- geocoding
+- reverse geocoding
+- mapping services
+- route planning
+- distance calculations
+
+*Tags: gmlapsus, map-api, geolocation, mcp-server, location-data*
+
+---
+
+### 227. [gridfireai/reddit-mcp](https://github.com/gridfireai/reddit-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The GridfireAI Reddit-MCP project provides a user-friendly interface to interact with the Reddit API, enabling users to search posts, comments, subreddits, and more. It leverages PRAW for robust API interaction and supports integration with various A**
 
@@ -3480,7 +3497,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 227. [dragon1086/kospi-kosdaq-stock-server](https://github.com/dragon1086/kospi-kosdaq-stock-server)  `9.1` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 228. [dragon1086/kospi-kosdaq-stock-server](https://github.com/dragon1086/kospi-kosdaq-stock-server)  `9.1` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Python-based MCP server providing real-time KOSPI/KOSDAQ stock data with advanced features like Kakao OAuth login, Playwright integration, and market data retrieval.**
 
@@ -3496,7 +3513,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 228. [sepinetam/aer-mcp](https://github.com/sepinetam/aer-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 229. [sepinetam/aer-mcp](https://github.com/sepinetam/aer-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The SepineTam/AER-MCP project presents an MCP (Machine-to-Machine) server aimed at streamlining the process of finding information from AEA (Association for Energy & Environmental Research). By leveraging advanced AI and automation, this tool enhance**
 
@@ -3510,7 +3527,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 229. [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 230. [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A cloud-based MCP Server enabling secure access to QINIU Cloud storage and AI services for enterprise applications.**
 
@@ -3526,7 +3543,83 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 230. [jhgaylor/hirebase-mcp](https://github.com/jhgaylor/hirebase-mcp)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 231. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/sqlite)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
+
+**This project implements a Context Engine (MCP) server that leverages SQLite to provide dynamic database interaction and business intelligence capabilities. It includes tools for querying, schema management, insight creation, and integration with exte**
+
+**Features:**
+- SQLite database interaction
+- Business insight generation
+- Prompt-based analysis
+- Schema management
+- Integration with MCP inspector
+
+*Tags: sqlite, mcp-server, business-intelligence, automated-insights, devops*
+
+---
+
+### 232. [mcp-get/community-servers](https://github.com/mcp-get/community-servers/tree/HEAD/src/server-llm-txt)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
+
+**The MCP Server LLM.txt tool is designed to extract and serve contextual information from LLM.txt files, allowing AI models to interpret file dependencies, directory structures, and code relationships. This enhances development environments by providi**
+
+**Features:**
+- Directory listing
+- Context extraction
+- Multi-query search
+- Local caching
+- Cross-platform support
+
+*Tags: ai-development, code-context, llm-integration, file-management, developer-tools*
+
+---
+
+### 233. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/cloudflare-one-casb)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
+
+**This project implements a secure MCP server using the Model Context Protocol, enabling seamless integration with Cloudflare for authentication and authorization. It leverages Cloudflare's OAuth capabilities to facilitate secure remote connections, en**
+
+**Features:**
+- MCP server implementation
+- Cloudflare OAuth integration
+- Remote MCP connection support
+- Secure authentication mechanisms
+- Context isolation features
+
+*Tags: mcp, cloudflare, security, developer, context*
+
+---
+
+### 234. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/sentry)  `8.0` ★☆☆ ⚡83.0 Q0.8 📍
+
+**The mcp-server-sentry is a context-engineered tool designed to interface with Sentry.io, enabling developers to inspect error reports, stack traces, and debugging information. It supports integration with various deployment methods including Docker, **
+
+**Features:**
+- Sentry issue retrieval
+- Stack trace analysis
+- Error report inspection
+- Integration with Sentry.io
+- Support for multiple deployment methods
+
+*Tags: sentry, mcp-server-sentry, context-engineered, debugging, issue-analysis*
+
+---
+
+### 235. [Ragie | The Context Engine for Agents , Assistants, and Apps](https://www.ragie.ai/?rdt_cid=5168814890013987582&utm_campaign=rag-api&utm_medium=cpc&utm_source=reddit)  `9.0` ★★☆ ⚡82.0 Q0.8 📍
+
+**The Borg intelligence database entry evaluates Ragie as a powerful RAG (Retrieval-Augmented Generation) engine designed to extract structured context from unstructured documents. It highlights its capabilities in entity extraction, customization via **
+
+**Features:**
+- Advanced RAG engine for structured document understanding
+- Entity extraction and classification
+- Custom partitioning and indexing
+- Seamless integration with chat platforms (Base Chat
+- MCP)
+- Improved retrieval speed and accuracy
+
+*Tags: ragie, context-engine, agents, retrieval, workflow*
+
+---
+
+### 236. [jhgaylor/hirebase-mcp](https://github.com/jhgaylor/hirebase-mcp)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The jhgaylor/hirebase-mcp project provides a Python-based MCP (Model-Centric Programming) server that integrates with the HireBase Job API. It allows users to search for jobs, retrieve detailed job information, and generate structured candidate profi**
 
@@ -3539,7 +3632,21 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 231. [doomdagadiggiedahdah/iacr-mcp-server](https://github.com/doomdagadiggiedahdah/iacr-mcp-server)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
+### 237. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/postgres)  `8.0` ★☆☆ ⚡82.0 Q0.8 📍
+
+**The Borg project introduces a context-engineered server that allows large language models (LLMs) to securely query PostgreSQL databases without modifying or altering the data. By providing schema information and supporting read-only transactions, it **
+
+**Features:**
+- PostgreSQL schema inspection
+- Read-only query execution
+- Database metadata discovery
+- Secure LLM-AI interaction
+
+*Tags: postgresql, postgresql-api, ai-security, developer-tools, docker*
+
+---
+
+### 238. [doomdagadiggiedahdah/iacr-mcp-server](https://github.com/doomdagadiggiedahdah/iacr-mcp-server)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The IACR MCP Server is an open-source tool designed to provide developers and researchers with a streamlined way to search, retrieve, and manage cryptographic research papers. It leverages the IACR ePrint Archive's RSS feed for efficient data retriev**
 
@@ -3552,11 +3659,70 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
+### 239. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/brave-search)  `8.0` ★☆☆ ⚡78.0 Q0.8 📍
+
+**This project implements a context-aware search engine that leverages the Brave Search API to provide both web-based and local search functionalities. It supports flexible filtering, smart fallbacks, and integrates seamlessly with MCP for secure and i**
+
+**Features:**
+- Brave Search API integration
+- Web and local search capabilities
+- Flexible filtering and smart fallbacks
+- Secure context management
+
+*Tags: brave-search, mcp-server, search-api, context-isolation, developer-tools*
+
+---
+
+### 240. [Context Engine MCP | Augment Code](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220&utm_campaign=re_nam_dg_social_acq_generic_mcp_traffic&utm_content=mcp_speed_sq_claude_c3&utm_medium=paid_social&utm_source=reddit&utm_term=broad_communities)  `8.0` ★☆☆ ⚡77.0 Q0.8 📍
+
+**The Context Engine MCP integrates with various coding agents to deliver real-time, accurate contextual information from diverse sources such as Git repositories, documentation sites, and internal wikis. It supports seamless indexing, multi-source dat**
+
+**Features:**
+- Context Engine integration
+- Semantic code search
+- Real-time indexing
+- Multi-repo indexing
+- Auto-sync with CI/CD
+
+*Tags: contextengine, mcp, developertools, codeunderstanding, codebaseanalysis*
+
+---
+
+### 241. [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers/tree/HEAD/src/filesystem)  `8.0` ★☆☆ ⚡70.0 Q0.6 📍
+
+**A server implementing the Model Context Protocol (MCP) for secure, dynamic filesystem operations with advanced file management and access control.**
+
+**Features:**
+- MCP-based directory access control
+- Dynamic root-based access via Roots protocol
+- Secure file read/write operations
+- File metadata retrieval
+- Directory listing with size information
+- Dry-run editing capabilities
+
+*Tags: filesystem, mcp, security, developer, api*
+
+---
+
+### 242. [quarkiverse/quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/jdbc)  `8.0` ★☆☆ ⚡66.0 Q0.6 📍
+
+**A server enabling Large Language Models to interact with databases via JDBC, supporting multiple database types and providing a unified interface.**
+
+**Features:**
+- JDBC protocol support
+- Multi-database compatibility
+- Integration with Quarkus ecosystem
+- Dynamic configuration via command line
+
+*Tags: quarkus-mcp-servers, jdbc, context-isolation, developer-tools, mcp-server*
+
+---
+
 ## Prompt Engineering
 
 > 569 tools · avg signal ⚡83
 
-### 232. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
+### 243. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
 
 **Serena acts as a layer between Large Language Models (LLMs)/coding agents and the codebase, offering IDE-like tools such as semantic code retrieval and symbol-level editing. Its core interoperability mechanism is the Model Context Protocol (MCP) serv**
 
@@ -3572,7 +3738,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 233. [machjesusmoto/claude-lazy-loading](https://github.com/machjesusmoto/claude-lazy-loading)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 244. [machjesusmoto/claude-lazy-loading](https://github.com/machjesusmoto/claude-lazy-loading)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **The resource details a method to address the high initial token cost (54% of the 200k limit) associated with loading all available MCP servers and tools at Claude Code startup. The solution involves creating a lightweight, indexed registry of tools a**
 
@@ -3587,7 +3753,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 234. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 245. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The ziyadmir/nba-player-stats-mcp project provides a robust Model Context Protocol (MCP) server that aggregates and delivers detailed NBA player statistics. It supports multiple layers of data, including career stats, season comparisons, advanced met**
 
@@ -3603,7 +3769,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 235. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 246. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Project Hub MCP Server is an AI-powered developer platform designed to streamline software development processes. It offers robust project management tools, local Git functionality, and seamless integration with GitHub for version control and col**
 
@@ -3619,7 +3785,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 236. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 247. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Borg Project's WordPress MCP Server is a robust platform designed to facilitate seamless integration between WordPress applications and AI assistants. It provides extensive functionality for managing users, posts, categories, comments, and custom**
 
@@ -3635,7 +3801,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 237. [nekzus/npm-sentinel-mcp](https://github.com/nekzus/npm-sentinel-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 248. [nekzus/npm-sentinel-mcp](https://github.com/nekzus/npm-sentinel-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Nekzus/npm-sentinel-mcp is an advanced Model Context Protocol (MCP) server designed to enhance NPM package security, dependency management, and performance analysis. It integrates seamlessly with AI tools like Claude and Anthropic, providing real**
 
@@ -3651,7 +3817,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 238. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 249. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The DuckChain MCP Server is a comprehensive Model Context Protocol (MCP) server that integrates with BlockScout API v2 to deliver advanced blockchain analytics. It supports over 56 specialized tools for transaction tracing, address exploration, token**
 
@@ -3667,7 +3833,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 239. [shinpr/mcp-image](https://github.com/shinpr/mcp-image)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 250. [shinpr/mcp-image](https://github.com/shinpr/mcp-image)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The shinpr/mcp-image project offers a robust MCP (Machine Content Processing) server designed for AI-driven image generation and editing. Leveraging the latest advancements in Gemini 2.5 Flash, it automatically optimizes prompts based on context, sty**
 
@@ -3683,7 +3849,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 240. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 251. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The MCP Solver is a Python-based tool that integrates multiple constraint solving techniques (MiniZinc, PySAT, Z3, ASP) with large language models via the Model Context Protocol. It supports advanced problem domains such as SAT, SMT, and ASP, allowin**
 
@@ -3699,7 +3865,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 241. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
+### 252. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
 
 **This project provides a secure, API-driven interface for integrating blockchain data into AI applications using the Model Context Protocol (MCP). It supports multi-chain connectivity, contextual data retrieval, and intelligent analysis features such **
 
@@ -3715,7 +3881,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 242. [skobyn/dataforseo-mcp-server](https://github.com/skobyn/dataforseo-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
+### 253. [skobyn/dataforseo-mcp-server](https://github.com/skobyn/dataforseo-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
 
 **The DataForSEO API Server acts as a bridge between large language models (LLMs) and various SEO APIs, allowing users to perform advanced SEO tasks such as keyword research, backlink analysis, content evaluation, and more. Built on the Model Context P**
 
@@ -3731,7 +3897,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 243. [kirbah/mcp-youtube](https://github.com/kirbah/mcp-youtube)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
+### 254. [kirbah/mcp-youtube](https://github.com/kirbah/mcp-youtube)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
 
 **The kirbah/mcp-youtube project delivers a highly efficient YouTube MCP server tailored specifically for AI agents. Unlike typical API wrappers that overload LLMs with redundant data, this server processes YouTube's complex payloads and strips away un**
 
@@ -3747,7 +3913,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 244. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
+### 255. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The DeepSeek MCP Server acts as a centralized model context management endpoint, enabling developers to orchestrate interactions with various tools and APIs in a structured and secure manner. It supports multiple execution modes including code execut**
 
@@ -3762,7 +3928,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 245. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `9.5` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 256. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `9.5` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **MCP-smallest-ai is a lightweight MCP server implementation that enables secure and standardized integration with Smallest.ai's knowledge base management system. It acts as a middleware layer between client applications and the Smallest.ai API, provid**
 
@@ -3777,7 +3943,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 246. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 257. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **ProtonOS is a Linux-compatible, bare-metal operating system built using C# and bflat's zero-library mode. It features a custom Tier 0 Just-In-Time (JIT) compiler, hardware abstraction layer, and supports direct booting on x86-64 hardware. The system **
 
@@ -3793,7 +3959,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 247. [z-libs/Zen-C](https://github.com/z-libs/Zen-C)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 258. [z-libs/Zen-C](https://github.com/z-libs/Zen-C)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **Zen C offers a robust platform for building enterprise-grade applications with a focus on security, performance, and developer productivity. It provides a rich feature set including type inference, pattern matching, generics, traits, async/await, and**
 
@@ -3809,7 +3975,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 248. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 259. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The Augmented-Nature/PubChem-MCP-Server is a robust, modular platform designed to provide seamless access to over 110 million chemical compounds. It integrates advanced chemical informatics tools and bioassay data, supporting complex workflows in dru**
 
@@ -3825,7 +3991,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 249. [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 260. [ykdojo/claude-code-tips](https://github.com/ykdojo/claude-code-tips)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This resource provides a technical framework for enhancing the interaction layer between developers and the Claude Code terminal agent. It details the implementation of custom shell-based UI components (status lines for token and git tracking), strat**
 
@@ -3841,7 +4007,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 250. [shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 261. [shareAI-lab/Kode-cli](https://github.com/shareAI-lab/Kode-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Kode-Agent functions as a powerful command-line interface (CLI) AI assistant capable of understanding codebases, editing files, running shell commands, and automating workflows. It supports an 'AGENTS.md' standard for instruction discovery across the**
 
@@ -3857,7 +4023,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 251. [AbanteAI/repo-visualizer](https://github.com/AbanteAI/repo-visualizer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 262. [AbanteAI/repo-visualizer](https://github.com/AbanteAI/repo-visualizer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The project consists of two primary components: a Repository Analyzer (Python script) that parses local Git repositories to extract metadata, file structure, component details (classes, functions), relationships (imports/references), and Git history **
 
@@ -3873,7 +4039,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 252. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 263. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Lazy-MCP solves the problem of 'token pollution' where loading numerous MCP tools consumes significant portions of an LLM's context window. It functions as a middleware proxy that hides the full list of available tools behind two meta-tools: get_tool**
 
@@ -3889,7 +4055,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 253. [toolprint/hypertool-mcp](https://github.com/toolprint/hypertool-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 264. [toolprint/hypertool-mcp](https://github.com/toolprint/hypertool-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Hypertool-mcp acts as a middleware gateway between AI clients (like Claude or Cursor) and multiple Model Context Protocol (MCP) servers. Its primary technical innovation is the abstraction of tool management into 'Toolsets'—dynamic groupings of funct**
 
@@ -3905,7 +4071,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 254. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 265. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS qu**
 
@@ -3921,7 +4087,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 255. [kbsooo/mcp_atom_of_thoughts](https://github.com/kbsooo/mcp_atom_of_thoughts)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 266. [kbsooo/mcp_atom_of_thoughts](https://github.com/kbsooo/mcp_atom_of_thoughts)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The MCP_Atom_of_Thoughts (AoT) project implements a decomposition-based reasoning system using the Model Context Protocol (MCP). It breaks down complex inputs into atomic thought units, tracks dependencies between these units, and evaluates confidenc**
 
@@ -3937,7 +4103,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 256. [odgrim/mcp-datetime](https://github.com/odgrim/mcp-datetime)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 267. [odgrim/mcp-datetime](https://github.com/odgrim/mcp-datetime)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **MCP DateTime is a lightweight TypeScript library designed to integrate with AI agents and chat interfaces by delivering accurate local time, current time in any timezone, and timezone details via URI resources. It supports standard I/O mode for seaml**
 
@@ -3953,7 +4119,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 257. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 268. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The Healthcare MCP Server is a Node.js implementation that adheres to the Model Context Protocol (MCP) to securely connect AI models with real-time, authoritative healthcare information. It integrates multiple data sources including FDA drug database**
 
@@ -3969,7 +4135,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 258. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 269. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The mcp-google-cse project provides a custom search engine that integrates with Google's CSE, allowing AI models like Claude to perform deep searches using structured query parameters. It is designed to enhance developer workflows by combining LLM ca**
 
@@ -3985,7 +4151,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 259. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 270. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The MCP Server-Image provides enterprise-grade image handling capabilities with minimal code, supporting tasks such as fetching images from URLs or local file paths, processing them, and returning base64-encoded results. It is designed to be integrat**
 
@@ -4001,7 +4167,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 260. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 271. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The LoCoDiff-bench repository provides a framework for evaluating Language Models (LLMs) on tasks requiring long-context understanding of code evolution, specifically mimicking the process of tracking changes across a Git history. It focuses on using**
 
@@ -4016,7 +4182,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 261. [surescaleai/openai-gpt-image-mcp](https://github.com/surescaleai/openai-gpt-image-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 272. [surescaleai/openai-gpt-image-mcp](https://github.com/surescaleai/openai-gpt-image-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The SureScaleAI openAI-gpt-image-mcp project provides a Model Context Protocol (MCP) tool server that allows developers to generate, edit, and manipulate images programmatically via OpenAI's latest models. It supports advanced image operations such a**
 
@@ -4031,7 +4197,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 262. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 273. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Student MCP Server is designed to provide a comprehensive platform for students to manage their academic journey. It supports persistent educational context by maintaining a structured knowledge graph that captures relationships between courses, **
 
@@ -4046,7 +4212,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 263. [skobyn/mcp-dataforseo](https://github.com/skobyn/mcp-dataforseo)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 274. [skobyn/mcp-dataforseo](https://github.com/skobyn/mcp-dataforseo)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Skobyn/mcp-dataforseo project provides a dedicated MCP (Model Context Protocol) server designed to facilitate seamless communication between applications and the DataForSEO API. This tool enables developers to send and receive JSON requests via s**
 
@@ -4061,7 +4227,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 264. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 275. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The nikolausm/huggingface-mcp-server project provides a robust MCP (Model Context Protocol) server that facilitates seamless access to Hugging Face's AI models, such as Stable Diffusion. It supports various use cases including code generation, image **
 
@@ -4076,7 +4242,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 265. [mondaycom/mcp](https://github.com/mondaycom/mcp)  `9.6` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 276. [mondaycom/mcp](https://github.com/mondaycom/mcp)  `9.6` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a server-based solution to integrate with the monday.com platform via the MCP (Model Context Protocol). It supports various integration modes including static API access, dynamic API tools, and cursor integration. Key features in**
 
@@ -4092,7 +4258,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 266. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 277. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The dandeliongold/mcp-decent-sampler-drums project provides a TypeScript-based MCP server designed to simplify the creation of drum kit presets. It offers tools for analyzing WAV files, validating samples, and generating XML configurations for Decent**
 
@@ -4108,7 +4274,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 267. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `9.6` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 278. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `9.6` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The MCP Server for PostgreSQL acts as a bridge between LLMs and Supabase projects, allowing natural language queries to interact with PostgreSQL databases. It supports advanced features like schema management, secure authentication, and integration w**
 
@@ -4124,7 +4290,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 268. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 279. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The figma-mcp-pro project integrates AI-driven analysis of Figma designs to extract structured data, including layout, styling, and component information. It supports multiple frameworks (React, Vue, Angular, Svelte, etc.) and enables developers to c**
 
@@ -4140,7 +4306,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 269. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 280. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The DINO-X Model Context Protocol (MCP) server enhances large language models by integrating image object detection, localization, and captioning APIs. It enables multimodal AI systems to understand and interact with visual data, supporting tasks suc**
 
@@ -4156,7 +4322,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 270. [z23cc/midjourney-mcp](https://github.com/z23cc/midjourney-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 281. [z23cc/midjourney-mcp](https://github.com/z23cc/midjourney-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a fully functional Midjourney MCP server that integrates with the GPTNB API to enable advanced image generation capabilities. It supports core features such as image generation, image transformation, high-level editing, and facia**
 
@@ -4172,7 +4338,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 271. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 282. [imvirtue/ragchatbot_mcpserver](https://github.com/imvirtue/ragchatbot_mcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **This project develops an AI-powered chatbot using Retrieval-Augmented Generation (RAG) to deliver workplace rules. It leverages Streamlit for the frontend, PDF parsing for document handling, and MCP server integration for seamless tool orchestration.**
 
@@ -4188,7 +4354,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 272. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 283. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The yamanoku/baseline-mcp-server is a GitHub-hosted service that exposes the current support status (Baseline) for various Web Platform Dashboard API functionalities. It enables developers to check which features are widely, newly, limited, or not av**
 
@@ -4204,7 +4370,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 273. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 284. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Windows Command Line MCP Server acts as a controlled bridge between AI models (like Claude) and Windows system operations. It provides enhanced security through comprehensive command allowlists, strict input validation, and configurable security **
 
@@ -4220,7 +4386,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 274. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
+### 285. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
 
 **This project provides a context-aware, API-driven MCP server built on Apache Superset REST API, designed to enhance data query capabilities through large models. It supports secure authentication via LDAP, integrates with Node.js, and offers enterpri**
 
@@ -4236,7 +4402,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 275. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 286. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The project provides a Model Context Protocol (MCP) server that enables developers to access component properties and design tokens via the getComponentProps and getTokens functions. It supports token generation using Style Dictionary, allowing dynam**
 
@@ -4252,7 +4418,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 276. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 287. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The GBcui/horoscope-serve project offers a web-based MCP server that integrates with an external API to deliver detailed fortune readings for each of the 12 zodiac signs. It supports multiple time ranges and includes features such as error handling, **
 
@@ -4268,7 +4434,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 277. [bsmi021/mcp-conversation-server](https://github.com/bsmi021/mcp-conversation-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 288. [bsmi021/mcp-conversation-server](https://github.com/bsmi021/mcp-conversation-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The bsmi021/mcp-conversation-server is a developer-focused tool designed to facilitate interaction between applications and OpenRouter's language models. It provides a standardized interface for managing conversations, including model selection, mess**
 
@@ -4284,7 +4450,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 278. [axiomhq/mcp-server-axiom](https://github.com/axiomhq/mcp-server-axiom)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
+### 289. [axiomhq/mcp-server-axiom](https://github.com/axiomhq/mcp-server-axiom)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Axiom Model Context Protocol Server is a tool designed for modern AI applications, allowing developers to interact with Axiom datasets through the Axiom Processing Language (APL). It supports key operations such as executing APL queries, listing **
 
@@ -4299,7 +4465,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 279. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
+### 290. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg project presents a comprehensive developer platform designed to enhance modern software engineering practices. It integrates advanced AI capabilities such as code generation, intelligent code review, and automated workflow management, all wh**
 
@@ -4314,7 +4480,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 280. [el-el-san/fal-mcp-server](https://github.com/el-el-san/fal-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good 📍
+### 291. [el-el-san/fal-mcp-server](https://github.com/el-el-san/fal-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good 📍
 
 **This project provides a Model Context Protocol (MCP) server built on FAL.ai's AI models, enabling the generation of videos from text prompts or images using advanced AI technologies like Luma Ray2 and Kling v1.6 Pro. The server supports video generat**
 
@@ -4329,7 +4495,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 281. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 292. [modelcontextprotocol/specification](https://github.com/modelcontextprotocol/specification)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Model Context Protocol (MCP) is an open-source specification that defines how AI models can securely share context and state across different services or environments. This GitHub project offers comprehensive documentation, including a TypeScript**
 
@@ -4345,7 +4511,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 282. [f2c-ai/f2c-mcp](https://github.com/f2c-ai/f2c-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 293. [f2c-ai/f2c-mcp](https://github.com/f2c-ai/f2c-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The f2c-mcp server facilitates the conversion of Figma designs into pixel-perfect HTML/CSS, supports multiple frameworks (React, CSS Modules, Tailwind), integrates with Figma via API, and enables remote image localization and design context managemen**
 
@@ -4361,7 +4527,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 283. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 294. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This project provides an extension for the Model Context Protocol (MCP) server, enabling developers to integrate a comprehensive Hebrew calendar solution. It supports generating lists of Jewish holidays, offering features such as Hebrew date conversi**
 
@@ -4377,7 +4543,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 284. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 295. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Terrakube MCP Server is a Model Context Protocol (MCP) server designed to streamline workspace management, variable handling, module operations, and organization control within the Terrakube platform. It provides robust API integration, type safe**
 
@@ -4393,7 +4559,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 285. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 296. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project provides a GitHub-based server application that enables developers to analyze and understand code repositories using advanced analysis tools. It supports features such as repository scanning, code review management, security vulnerabilit**
 
@@ -4409,7 +4575,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 286. [tejpalvirk/quantitativeresearch](https://github.com/tejpalvirk/quantitativeresearch)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 297. [tejpalvirk/quantitativeresearch](https://github.com/tejpalvirk/quantitativeresearch)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The Quantitative Researcher MCP Server is designed to provide a structured, persistent knowledge graph that enables researchers to maintain organized records of projects, datasets, variables, hypotheses, statistical tests, and results. It supports se**
 
@@ -4425,7 +4591,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 287. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 298. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The MCP Server provides a RESTful API for interacting with events, groups, profiles, and venues using the Model Context Protocol (MCP). It supports key operations such as retrieving event details, listing events, managing group information, and acces**
 
@@ -4441,7 +4607,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 288. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 299. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Markdownify MCP is a Model Context Protocol (MCP) server designed to transform diverse file formats such as PDFs, images, audio, web pages, and more into clean, readable Markdown. It supports conversion from multiple sources including Dockerized envi**
 
@@ -4457,7 +4623,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 289. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 300. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The WebforAI MCP server is a serverless solution built on Cloudflare Workers, designed to extract plain text from any web page using the Model Context Protocol. It enables developers to easily feed web content into AI models by converting HTML into c**
 
@@ -4473,7 +4639,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 290. [spathodea-network/opencti-mcp](https://github.com/spathodea-network/opencti-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 301. [spathodea-network/opencti-mcp](https://github.com/spathodea-network/opencti-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Spathodea-Network/opencti-mcp project provides a Model Context Protocol (MCP) server that allows seamless querying and retrieval of threat intelligence data. It supports fetching reports, searching malware, managing indicators, user and group man**
 
@@ -4489,7 +4655,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 291. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 302. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The slack-mcp-server acts as a bridge between Claude and Slack by implementing the Model Context Protocol (MCP). It allows AI assistants to securely read messages, threads, metadata, and user information from Slack channels, threads, and direct messa**
 
@@ -4505,7 +4671,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 292. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 303. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a structured workflow to retrieve Azure pricing information using the Model Context Protocol (MCP) server. It enables developers to programmatically access real-time pricing from the Azure Retail Prices API, supporting operations**
 
@@ -4520,7 +4686,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 293. [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 304. [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The allenporter/mcp-server-home-assistant project provides a Model Context Protocol server designed to facilitate communication between MCP and Home Assistant. It allows developers to integrate contextual data into their applications, enhancing autom**
 
@@ -4535,7 +4701,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 294. [berlinbra/binary-reader-mcp](https://github.com/berlinbra/binary-reader-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 305. [berlinbra/binary-reader-mcp](https://github.com/berlinbra/binary-reader-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The berlinbra/binary-reader-mcp project provides a Model Context Protocol server that enables developers to read and analyze various binary file formats, including Unreal Engine asset files (.uasset) and generic binary files. It offers tools for extr**
 
@@ -4550,7 +4716,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 295. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 306. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Lincest/mcp-papersearch project provides a web interface that enables users to search academic papers from ArXiv using the Model Context Protocol (MCP). This allows for seamless integration of external research sources into development workflows,**
 
@@ -4565,7 +4731,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 296. [ryan0204/github-repo-mcp](https://github.com/ryan0204/github-repo-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 307. [ryan0204/github-repo-mcp](https://github.com/ryan0204/github-repo-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The GitHub Repo MCP (Model Context Protocol) server allows AI tools to access, explore, and analyze public GitHub repositories in a structured manner. It provides functionalities such as listing repository contents, retrieving file details, and navig**
 
@@ -4580,7 +4746,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 297. [posthog/mcp](https://github.com/posthog/mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers 📍
+### 308. [posthog/mcp](https://github.com/posthog/mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The PostHog MCP server is an AI-powered platform designed to streamline the management of model context, analytics, and feature flags within a PostHog environment. It integrates seamlessly with various development tools and workflows, offering robust**
 
@@ -4595,7 +4761,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 298. [jxnl/apple-mcp](https://github.com/jxnl/apple-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 309. [jxnl/apple-mcp](https://github.com/jxnl/apple-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The jxnl/apple-mcp project provides a suite of Apple-native tools designed specifically for the Model Context Protocol (MCP). These tools facilitate secure and efficient communication between devices in enterprise environments, focusing on privacy, s**
 
@@ -4610,7 +4776,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 299. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 310. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The qpd-v/mcp-delete project introduces a Model Context Protocol (MCP) server designed to enhance AI assistant capabilities by providing secure file deletion functionality. It supports both relative and absolute paths, intelligently resolving them to**
 
@@ -4625,7 +4791,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 300. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 311. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project implements a Model Context Protocol (MCP) server for GameBoy emulation, allowing large language models to control the GameBoy emulator through standardized communication protocols. It supports both stdio and SSE transports, providing tool**
 
@@ -4640,7 +4806,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 301. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 312. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **The 'awesome-pieces' repository serves as a centralized index for resources related to Pieces, an AI-driven productivity tool designed to integrate with the developer toolchain. It curates installation guides, IDE plugins (for JetBrains, VS Code, Jup**
 
@@ -4656,7 +4822,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 302. [Dexterous robotic hands: 2009 - 2014 - 2025](https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_2014_2025)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 313. [Dexterous robotic hands: 2009 - 2014 - 2025](https://old.reddit.com/r/robotics/comments/1qp7z15/dexterous_robotic_hands_2009_2014_2025)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **The resource details the evolution of dexterous robotic hands from 2009 to 2025, highlighting advancements in actuation, control systems, and materials. It discusses the shift from traditional robotic arms to more human-like dexterity, emphasizing im**
 
@@ -4671,7 +4837,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 303. [AMD Zen 6 'Venice' ES chips break cover with up to 192 cores, 32 per CCD, in early stress test — Kenya, Congo, Nigeria platforms leaked](https://www.tomshardware.com/pc-components/cpus/amd-zen-6-venice-es-chips-break-cover-with-up-to-192-cores-32-per-ccd-in-early-stress-test-kenya-congo-nigeria-platforms-leaked)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
+### 314. [AMD Zen 6 'Venice' ES chips break cover with up to 192 cores, 32 per CCD, in early stress test — Kenya, Congo, Nigeria platforms leaked](https://www.tomshardware.com/pc-components/cpus/amd-zen-6-venice-es-chips-break-cover-with-up-to-192-cores-32-per-ccd-in-early-stress-test-kenya-congo-nigeria-platforms-leaked)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
 
 **The leaked information reveals significant advancements in AMD's Zen 6 architecture, featuring a substantial increase in core count (up to 192) and higher-density CCDs compared to previous generations. This development positions AMD to potentially do**
 
@@ -4687,7 +4853,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 304. [ratchanonth60/querycraftmcp](https://github.com/ratchanonth60/querycraftmcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 315. [ratchanonth60/querycraftmcp](https://github.com/ratchanonth60/querycraftmcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The QueryCraftMCP project provides a modular, extensible platform for integrating Large Language Models (LLMs) with various database systems. It supports dynamic schema discovery, secure data querying, and lifespans management for database connection**
 
@@ -4703,7 +4869,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 305. [shak2000/stockmcp](https://github.com/shak2000/stockmcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 316. [shak2000/stockmcp](https://github.com/shak2000/stockmcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This project implements a Model Context Protocol (MCP) that connects LLaMA 3.2 3B with Yahoo Finance API, enabling the model to fetch and incorporate live stock prices, company details, and market news into its responses. It supports both financial q**
 
@@ -4719,7 +4885,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 306. [ltejedor/newsfeed-mcp](https://github.com/ltejedor/newsfeed-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 317. [ltejedor/newsfeed-mcp](https://github.com/ltejedor/newsfeed-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The NewsFeed-MCP project provides a server-based solution that aggregates and serves news articles from various RSS feeds. It is designed to integrate seamlessly with AI assistants like Claude, enabling users to receive personalized and context-aware**
 
@@ -4735,7 +4901,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 307. [tisddm/searxng-mcp](https://github.com/tisddm/searxng-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 318. [tisddm/searxng-mcp](https://github.com/tisddm/searxng-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The SearXNG MCP server is a privacy-focused, out-of-the-box solution that integrates seamlessly with AI assistants. It allows for customizable search parameters and supports both public and private instances with authentication. The project provides **
 
@@ -4751,7 +4917,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 308. [jbdamask/mcp-nih-reporter](https://github.com/jbdamask/mcp-nih-reporter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 319. [jbdamask/mcp-nih-reporter](https://github.com/jbdamask/mcp-nih-reporter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The jbdamask/mcp-nih-reporter project provides a Model Context Protocol (MCP) server that facilitates secure and efficient communication between AI agents and the NIH RePORTER database. It allows users to search for NIH-funded projects, publications,**
 
@@ -4767,7 +4933,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 309. [rectalogic/langchain-mcp](https://github.com/rectalogic/langchain-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 320. [rectalogic/langchain-mcp](https://github.com/rectalogic/langchain-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project introduces support for the Model Context Protocol within the LangChain framework, allowing developers to manage and utilize model context more effectively. This enhancement is crucial for applications requiring dynamic context handling, s**
 
@@ -4781,7 +4947,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 310. [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 321. [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project integrates a MCP (Model Context Protocol) server to allow users to search, analyze, and visualize Rijksmuseum artworks using natural language. It supports features such as artwork discovery, detailed image viewing, artist research, and co**
 
@@ -4797,7 +4963,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 311. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 322. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The MCP plugin enables seamless integration of Atlassian tools (JIRA, Confluence, BitBucket) into the Cursor IDE, allowing developers to search, manage, and collaborate on code directly within their IDE. It supports advanced features such as JIRA tas**
 
@@ -4813,7 +4979,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 312. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 323. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The App Store Connect MCP Server is an AI-powered platform that enables developers to interact with the App Store Connect API through natural language queries. It supports comprehensive analytics, streamlined beta testing, localization management, se**
 
@@ -4829,7 +4995,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 313. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 324. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Borg Project offers a comprehensive GitHub integration that enables teams to manage code repositories, track issues, manage pull requests, and automate workflows directly within the GitHub ecosystem. It supports advanced search capabilities, batc**
 
@@ -4845,7 +5011,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 314. [qpd-v/mcp-wordcounter](https://github.com/qpd-v/mcp-wordcounter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 325. [qpd-v/mcp-wordcounter](https://github.com/qpd-v/mcp-wordcounter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The qpd-v/mcp-wordcounter project provides a Model Context Protocol server designed to facilitate text analysis by offering straightforward word and character counting features. This tool is particularly useful for developers and data scientists work**
 
@@ -4859,7 +5025,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 315. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 326. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The dcSpark/mcp-server-jupiter project provides a Model Context Protocol (MCP) server that allows AI models like Claude to access and perform blockchain operations such as retrieving quotes, building and sending swap transactions on the Solana blockc**
 
@@ -4875,7 +5041,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 316. [tejpalvirk/developer](https://github.com/tejpalvirk/developer)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 327. [tejpalvirk/developer](https://github.com/tejpalvirk/developer)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The Developer MCP Server enhances software development workflows by preserving project context, dependencies, and task progress across sessions. It enables developers to resume work seamlessly, understand component relationships, track decisions, and**
 
@@ -4891,7 +5057,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 317. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 328. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The docherty/contextmgr-mcp project provides a context management solution using the Model Context Protocol (MCP) to enable secure, reliable communication between development tools and environments. It supports session management, capability negotiat**
 
@@ -4907,7 +5073,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 318. [nathanonn/mcp-url-fetcher](https://github.com/nathanonn/mcp-url-fetcher)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 329. [nathanonn/mcp-url-fetcher](https://github.com/nathanonn/mcp-url-fetcher)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The mcp-url-fetcher is a GitHub-hosted project that enables developers to fetch content from any URL and convert it into HTML, JSON, Markdown, or plain text. It supports universal input handling, automatic content detection, and integrates with Claud**
 
@@ -4923,7 +5089,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 319. [shanksxz/gh-mcp-server](https://github.com/shanksxz/gh-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 330. [shanksxz/gh-mcp-server](https://github.com/shanksxz/gh-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The shanksxz/gh-mcp-server is a GitHub-based platform that allows AI models to fetch repository contents, file structures, and metadata directly from GitHub. It supports advanced features such as fetching specific files, filtering repositories by ext**
 
@@ -4939,7 +5105,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 320. [namin/dafny-mcp](https://github.com/namin/dafny-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 331. [namin/dafny-mcp](https://github.com/namin/dafny-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Dafny Verifier Tool is designed to integrate with the Model Context Protocol, enabling developers to validate their code against formal specifications. This enhances security and reliability by ensuring that code adheres to predefined models befo**
 
@@ -4954,7 +5120,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 321. [block/square-mcp](https://github.com/block/square-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 332. [block/square-mcp](https://github.com/block/square-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The repository provides a GitHub-hosted MCP (Model Context Protocol) server, enabling developers to securely interact with the Square API. It includes setup instructions, environment configuration, and code examples for integrating MCP into applicati**
 
@@ -4969,7 +5135,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 322. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers 📍
+### 333. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers 📍
 
 **The project offers a Python-based MCP server that enables seamless integration of YouTube subtitle data into AI tools such as Claude Desktop. It supports downloading, analyzing, and translating subtitles in multiple languages using yt-dlp, with Docke**
 
@@ -4984,7 +5150,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 323. [zalab-inc/mcp-sequentialthinking](https://github.com/zalab-inc/mcp-sequentialthinking)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 334. [zalab-inc/mcp-sequentialthinking](https://github.com/zalab-inc/mcp-sequentialthinking)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP Sequential Thinking project offers a platform that aids developers in breaking down complex problems into manageable steps. It emphasizes dynamic and reflective thinking, allowing users to revise and refine their thoughts as understanding dee**
 
@@ -4999,7 +5165,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 324. [0xdwong/sui-mcp](https://github.com/0xdwong/sui-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 335. [0xdwong/sui-mcp](https://github.com/0xdwong/sui-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The deanpluse/sui-mcp project is a TypeScript-based toolkit designed to enable developers to build and deploy applications on the Sui blockchain. It provides deep integration with Sui's Model Context Protocol (MCP), offering robust support for both t**
 
@@ -5014,7 +5180,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 325. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 336. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The ferrislucas/iterm-mcp project provides a Model Context Protocol server that allows seamless integration with iTerm, enabling developers to execute commands directly from the terminal session. This tool enhances productivity by supporting REPL and**
 
@@ -5029,7 +5195,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 326. [lite/iterm-mcp](https://github.com/lite/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 337. [lite/iterm-mcp](https://github.com/lite/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The lite/iterm-mcp project provides a Model Context Protocol server that allows users to interact with their iTerm2 session via a terminal context protocol. This facilitates seamless integration for REPL sessions, CLI commands, and interactive develo**
 
@@ -5044,7 +5210,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 327. [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 338. [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The recursechat/mcp-server-apple-shortcuts project provides an Apple Shortcuts MCP server that allows AI models such as Claude Desktop to list available shortcuts, execute actions by name, and interact with external services in a secure and user-cont**
 
@@ -5059,7 +5225,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 328. [mingzilla/pi-api-mcp-server](https://github.com/mingzilla/pi-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 339. [mingzilla/pi-api-mcp-server](https://github.com/mingzilla/pi-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The mingzilla/pi-api-mcp-server is a Model Context Protocol (MCP) server designed to provide standardized tools and resources for interacting with the PI Dashboard API. It enables secure access and management of PI Dashboard resources such as categor**
 
@@ -5074,7 +5240,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 329. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 340. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **This project implements a Model Context Protocol (MCP) server that enables Claude Desktop to manage a classic business simulation game. It showcases dynamic weather effects, supply chain management, pricing strategies, inventory control, and customer**
 
@@ -5089,7 +5255,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 330. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 341. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The BrasilAPI MCP Server enables developers to query Brazil-specific data such as postal codes, banks, holidays, and taxes through a unified interface. It supports integration with various clients and LLMs, improving AI agents' capabilities with up-t**
 
@@ -5104,7 +5270,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 331. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 342. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The winterjung/mcp-korean-spell project provides a Model Context Protocol (MCP) server tailored for Korean language applications. It focuses on integrating advanced spell-checking capabilities into documents and texts, ensuring grammatical accuracy a**
 
@@ -5119,7 +5285,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 332. [awslabs/mcp](https://github.com/awslabs/mcp)  `8.5` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 343. [awslabs/mcp](https://github.com/awslabs/mcp)  `8.5` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Borg Project's Nova Canvas MCP Server is a web application designed to leverage Amazon's Nova Canvas image generation capabilities, integrated with AWS services. It allows users to create images from text prompts, customize dimensions, quality, c**
 
@@ -5134,7 +5300,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 333. [gemini-cli-extensions/vertex](https://github.com/gemini-cli-extensions/vertex)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 344. [gemini-cli-extensions/vertex](https://github.com/gemini-cli-extensions/vertex)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The repository hosts a 'Vertex AI Gemini CLI Extension' designed to bridge the gap between the Gemini CLI and Vertex AI services. Its core functionality centers on allowing users to manage Vertex AI Prompts (CRUD operations) and execute advanced feat**
 
@@ -5149,7 +5315,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 334. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
+### 345. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A next-generation framework documentation platform for Claude Code, offering intelligent caching, multi-source integration, and context-aware assistance to accelerate development.**
 
@@ -5165,7 +5331,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 335. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 346. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **Conduit serves as an MCP server that facilitates interaction between developers and tools like Phabricator and Phorge by providing context-aware services. It supports modern development workflows, secure token-based authentication, and integrates wit**
 
@@ -5181,7 +5347,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 336. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 347. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The Image-MCP Server processes image URLs or local file paths to provide detailed analysis using the GPT-4o-mini model. It supports image validity checks, loading from local files, and Base64 encoding. The project integrates with enterprise security **
 
@@ -5197,7 +5363,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 337. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 348. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The project implements a Model Context Protocol (MCP) server to facilitate advanced code processing tasks such as file tree generation, content merging, and static code analysis. It supports secure development workflows with features like automated w**
 
@@ -5213,7 +5379,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 338. [shreyaskarnik/mcpet](https://github.com/shreyaskarnik/mcpet)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 349. [shreyaskarnik/mcpet](https://github.com/shreyaskarnik/mcpet)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The shreyaskarnik/mcpet project implements a virtual pet system using the Model Context Protocol (MCP) to enable pet care, interaction, and lifecycle management. It supports multiple pet types with evolving stats, provides detailed analytics, and int**
 
@@ -5229,7 +5395,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 339. [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 350. [minh-ton/reynard-browser](https://github.com/minh-ton/reynard-browser)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **Reynard Browser is an open-source, Gecko-based mobile web browser tailored for iOS 14 and later devices. It aims to provide users with a reliable alternative to Apple's WebKit engine, which is often locked down in newer iOS versions. By using Gecko, **
 
@@ -5244,7 +5410,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 340. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 351. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a server-based solution using the Model Context Protocol to facilitate seamless interaction between AI models and external tools. It supports workflow automation, secure code management, and enterprise-grade security features, ma**
 
@@ -5259,7 +5425,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 341. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 352. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The MCP-Server-Azure-Impact-Reporting project provides a Python-based solution that integrates with Azure's Model Context Protocol (MCP) to automatically parse user requests and generate impact reports for Azure resources. It supports various impact **
 
@@ -5274,7 +5440,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 342. [shibayu36/mysql-schema-explorer-mcp](https://github.com/shibayu36/mysql-schema-explorer-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 353. [shibayu36/mysql-schema-explorer-mcp](https://github.com/shibayu36/mysql-schema-explorer-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The shibayu36/mysql-schema-explorer-mcp is a Dockerized application that provides compressed schema information for MySQL databases. It allows users to list tables, view detailed table information, and manage database schemas efficiently. This tool i**
 
@@ -5289,7 +5455,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 343. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 354. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The nebula-contrib/nebulagraph-mcp-server is a Model Context Protocol (MCP) server designed to provide seamless access to NebulaGraph 3.x. It facilitates integration with LLM tools, supports configuration via environment variables and .env files, and**
 
@@ -5304,7 +5470,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 344. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 355. [crisschan/mcp-repo2llm](https://github.com/crisschan/mcp-repo2llm)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **mcp-repo2llm is designed to bridge the gap between traditional code repositories and modern AI language models. It addresses challenges such as processing large codebases efficiently, preserving contextual information, supporting multiple programming**
 
@@ -5319,7 +5485,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 345. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 356. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **This project provides a MCP-compatible server that allows AI models, such as those in Claude Desktop or IDEs, to securely access and manage Beeminder data and functionality. It standardizes how applications provide context to LLMs by exposing specifi**
 
@@ -5334,7 +5500,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 346. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 357. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The lrstanley/context7-http project provides a context server that supports HTTP streaming and streamable protocols, allowing developers to interact with the Context7 platform from anywhere. It includes features such as code review management, securi**
 
@@ -5349,7 +5515,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 347. [nazar256/user-prompt-mcp](https://github.com/nazar256/user-prompt-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 358. [nazar256/user-prompt-mcp](https://github.com/nazar256/user-prompt-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project implements a Model Context Protocol (MCP) server that allows Cursor or other MCP-compatible clients to request additional user input during text generation. This enhances interactivity by maintaining context without interrupting the gener**
 
@@ -5364,7 +5530,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 348. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
+### 359. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The toolkit-mcp-server is a Model Context Protocol server designed to enhance AI agents by integrating essential system utilities such as IP geolocation, network diagnostics, system monitoring, cryptographic operations, and QR code generation. It sup**
 
@@ -5379,7 +5545,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 349. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 360. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **This technical resource details the development and deployment of an MCP (Model Context Protocol) server using JavaScript and the official Azure Java SDK. It outlines the architecture, tools, and workflows necessary to connect AI assistants securely **
 
@@ -5394,7 +5560,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 350. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 361. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The squirrelogic/mcp-feature-discussion project provides an AI-powered MCP server that supports context-aware, persistent feature discussions between developers and AI. It offers intelligent guidance on implementation, architecture, dependencies, and**
 
@@ -5409,7 +5575,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 351. [matthewdcage/vapi-mcp](https://github.com/matthewdcage/vapi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 362. [matthewdcage/vapi-mcp](https://github.com/matthewdcage/vapi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The project implements a Model Context Protocol (MCP) server to enable secure, real-time integration of Vapi's voice AI capabilities with Cursor's platform. It provides tools for managing voice assistants, handling conversational flows, and ensuring **
 
@@ -5424,7 +5590,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 352. [keonchennl/mcp-graphdb](https://github.com/keonchennl/mcp-graphdb)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 363. [keonchennl/mcp-graphdb](https://github.com/keonchennl/mcp-graphdb)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The mcp-graphdb server provides read-only access to a GraphDB repository, allowing large language models to execute SPARQL queries and explore graph data. It supports configuration via environment variables or command-line arguments, integrates with **
 
@@ -5439,7 +5605,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 353. [runninghare/ts-def-mcp](https://github.com/runninghare/ts-def-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 364. [runninghare/ts-def-mcp](https://github.com/runninghare/ts-def-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The runninghare/ts-def-mcp tool is a Model Context Protocol (MCP) server designed to assist AI code editors in identifying the original definitions of imported symbols, classes, interfaces, and functions in TypeScript projects. It enables developers **
 
@@ -5454,7 +5620,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 354. [jonathanfischer97/juliadoc-mcp](https://github.com/jonathanfischer97/juliadoc-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 365. [jonathanfischer97/juliadoc-mcp](https://github.com/jonathanfischer97/juliadoc-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP server facilitates the retrieval of Julia package documentation and source code, enhancing developer productivity by providing direct access to contextual information. It supports efficient caching, error handling, and integration with develo**
 
@@ -5469,7 +5635,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 355. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 366. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project focuses on analyzing the MCP (Multi-Process Communication) mechanisms within the Abell framework, aiming to enhance understanding of how processes interact securely and efficiently. It delves into the technical implementation, security c**
 
@@ -5484,7 +5650,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 356. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
+### 367. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a GitHub-based platform that enables users to analyze stock tickers by integrating with the Model Context Protocol. It supports fetching real-time and historical stock data, generating alerts based on price movements, and managin**
 
@@ -5499,7 +5665,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 357. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 368. [hoppo-chan/memory-bank-mcp](https://github.com/hoppo-chan/memory-bank-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The hoppo-chan/memory-bank-mcp project provides a Model Context Protocol (MCP) plugin that enables AI assistants to track project goals, decisions, progress, and patterns through guided instructions. It supports structured context management across m**
 
@@ -5514,7 +5680,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 358. [askme765cs/open-docs-mcp](https://github.com/askme765cs/open-docs-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 369. [askme765cs/open-docs-mcp](https://github.com/askme765cs/open-docs-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The project provides a web-based platform for managing and indexing documentation from various sources. It supports multiple document formats, enables full-text search, and integrates with the MCP protocol to provide AI context for document managemen**
 
@@ -5529,7 +5695,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 359. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 370. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **MCP-Analyzer is a specialized server that enables developers to read, filter, and analyze Model Context Protocol (MCP) logs directly on macOS, Windows, and Linux. It supports advanced search functionalities, pagination, and integration with Claude De**
 
@@ -5544,7 +5710,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 360. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 371. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A powerful Model Context Protocol server that enhances AI assistants' understanding of large Oracle databases by providing contextual schema information, enabling accurate and efficient database interactions.**
 
@@ -5560,7 +5726,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 361. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `9.3` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 372. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `9.3` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The MCP-DBLP project provides a secure, cloud-based API that enables Large Language Models to access and utilize the DBLP computer science bibliography database. It supports advanced search capabilities, BibTeX generation, citation management, and in**
 
@@ -5575,7 +5741,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 362. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 373. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The MCP Server for Coda provides a standardized API for interacting with Coda's document management system, allowing AI tools to perform CRUD operations and manipulate content across Coda pages. It supports features such as listing documents, creatin**
 
@@ -5591,7 +5757,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 363. [studentofjs/mcp-figma-to-react](https://github.com/studentofjs/mcp-figma-to-react)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
+### 374. [studentofjs/mcp-figma-to-react](https://github.com/studentofjs/mcp-figma-to-react)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
 
 **The MCP server enables developers to automate the conversion of Figma designs into structured React components, supporting modern development workflows with TypeScript and Tailwind CSS. It facilitates seamless integration between design and code, enh**
 
@@ -5607,7 +5773,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 364. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 375. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The GIS Data Conversion MCP (MCP) server facilitates the conversion of diverse GIS file types into standardized formats such as GeoJSON, WKT, CSV, and more. It supports reverse geocoding, coordinate system transformations, and integrates with various**
 
@@ -5623,7 +5789,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 365. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 376. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a GitHub-hosted MCP server that facilitates interaction with the Fulcra Context API. It offers both local and remote connection options, ensuring secure handling of OAuth2 tokens without exposing them to clients. The server suppo**
 
@@ -5638,7 +5804,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 366. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 377. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The CutterMCP project provides a Model Context Protocol (MCP) server that allows large language models (LLMs) to interact with and analyze application binaries. It exposes various tools from Cutter functionality to MCP clients, facilitating reverse e**
 
@@ -5653,7 +5819,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 367. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 378. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Hoverfly MCP Server acts as a programmable interface for AI tools like Copilot and Cursor, allowing dynamic simulation of unavailable services using JSON configurations. It integrates with external systems through the Model Context Protocol (MCP)**
 
@@ -5668,7 +5834,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 368. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 379. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project implements a MCP (Model Context Protocol) server to integrate with the Tesouro Direto API, allowing users to query market data and bond details using everyday language. It supports features like market data retrieval, bond information acc**
 
@@ -5683,7 +5849,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 369. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 380. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Kiseki-Labs-Readwise-MCP project provides a simple Model Context Protocol (MCP) server that allows AI models to interact programmatically with Readwise documents. It supports features such as document retrieval, highlight fetching, and integratio**
 
@@ -5698,7 +5864,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 370. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 381. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-based solution to convert Open Application Automation (OAS) workflows into MCP (Managed Control Process) environments. It emphasizes modernizing development workflows by integrating external tools, automating processes, **
 
@@ -5713,7 +5879,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 371. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 382. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The SecretiveShell/MCP-toolhouse project serves as a model context protocol (MCP) server, providing seamless integration with the Toolhouse platform. It allows developers to securely access various AI and development tools hosted on GitHub, enhancing**
 
@@ -5728,7 +5894,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 372. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 383. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-apifox project provides an AI-enhanced interface for developers to extract and utilize information from Apifox API documentation, facilitating smoother integration of AI tools within the MCP framework. It supports automated code generation, w**
 
@@ -5743,7 +5909,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 373. [chatmol/molecule-mcp](https://github.com/chatmol/molecule-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 384. [chatmol/molecule-mcp](https://github.com/chatmol/molecule-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **Molecule-MCP is a platform that integrates molecular science tools with Claude AI via the Model Context Protocol (MCP), allowing developers to interact directly with scientific software as a co-scientist. It supports automated workflows, secure code **
 
@@ -5758,7 +5924,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 374. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 385. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project introduces a Python-based MCP Server that acts as an intermediary between the FIWARE Context Broker and other services. It supports CRUD operations for context entities, enabling seamless integration with external systems and facilitatin**
 
@@ -5773,7 +5939,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 375. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 386. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Codebase MCP server enables AI agents to analyze entire codebases at once, improving context understanding and facilitating efficient code comprehension. It supports remote repository processing, file saving, customizable analysis options, and in**
 
@@ -5788,7 +5954,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 376. [dreamfactorysoftware/df-mcp](https://github.com/dreamfactorysoftware/df-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 387. [dreamfactorysoftware/df-mcp](https://github.com/dreamfactorysoftware/df-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The DreamFactory MCP Server is a governance layer that connects enterprise applications and on-prem LLMs with role-based access control and identity passthrough. It allows developers to securely integrate external data sources into their workflows wh**
 
@@ -5803,7 +5969,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 377. [u3588064/entity-resolution](https://github.com/u3588064/entity-resolution)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 388. [u3588064/entity-resolution](https://github.com/u3588064/entity-resolution)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project implements a Model Context Protocol (MCP) server to compare and verify if two datasets represent the same entity, supporting text normalization, semantic value comparison, and JSON traversal. It is designed for enterprise use cases in dat**
 
@@ -5818,7 +5984,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 378. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 389. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **Cursor-MCP is an open-source project that provides a model context protocol (MCP) implementation, allowing developers to integrate Claude's AI capabilities directly into their desktop software workflows. It supports real-time AI assistance, context-a**
 
@@ -5833,7 +5999,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 379. [kocierik/consul-mcp-server](https://github.com/kocierik/consul-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 390. [kocierik/consul-mcp-server](https://github.com/kocierik/consul-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The kocierik/consul-mcp-server project provides a Model Context Protocol (MCP) server that abstracts and exposes Consul's services, registrations, health checks, and key-value store operations. It supports service lifecycle management, configuration **
 
@@ -5848,7 +6014,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 380. [crazyrabbitltc/mcp-morpho-server](https://github.com/crazyrabbitltc/mcp-morpho-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 391. [crazyrabbitltc/mcp-morpho-server](https://github.com/crazyrabbitltc/mcp-morpho-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-morpho-server is a TypeScript-based project that implements a Model Context Protocol (MCP) server, allowing seamless integration with Morpho's market data APIs. It supports querying markets, vaults, positions, and historical APY data while en**
 
@@ -5863,7 +6029,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 381. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 392. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project implements a stateless MCP server using Deno, enabling scalable and robust access to blockchain data via the Model Context Protocol. It supports various tools for querying chains, protocols, tokens, pools, and user assets, with features l**
 
@@ -5878,7 +6044,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 382. [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 393. [opgginc/opgg-mcp](https://github.com/opgginc/opgg-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project implements the Model Context Protocol to provide AI agents with access to real-time data from platforms like League of Legends, Teamfight Tactics, and Valorant. It supports advanced features such as field selection, commit history trackin**
 
@@ -5893,7 +6059,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 383. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 394. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Think Tool is an MCP server that enables Claude to break down complex problems, organize thoughts systematically, cache intermediate results, and demonstrate its reasoning process. It supports structured thinking, step-by-step breakdowns, and int**
 
@@ -5908,7 +6074,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 384. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers 📍
+### 395. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers 📍
 
 **The npm-mcp-server is a model context protocol (MCP) server designed to provide detailed information about npm packages. It enables developers to search, install, and manage dependencies efficiently within a secure environment. The project supports i**
 
@@ -5923,7 +6089,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 385. [jayli52/api2mcptools](https://github.com/jayli52/api2mcptools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 396. [jayli52/api2mcptools](https://github.com/jayli52/api2mcptools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The project provides a Node.js library that transforms API responses into MCP (Model Context Protocol) tools, enabling seamless integration with various AI and machine learning frameworks. It supports multiple API types and offers CLI and command-lin**
 
@@ -5938,7 +6104,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 386. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 397. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The MCP server facilitates the integration of CucumberStudio's API with AI-powered tools by providing context information, enabling AI assistants to generate and modify test scenarios, features, and resources. It supports various functionalities such**
 
@@ -5953,7 +6119,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 387. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 398. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **This repository contains core libraries, test frameworks, engineering systems, pipelines, and tooling for Microsoft MCP Server contributors. It standardizes how applications provide context to large language models (LLMs), enhancing their capabilitie**
 
@@ -5968,7 +6134,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 388. [nex-crm/wuphf](https://github.com/nex-crm/wuphf)  `8.8` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
+### 399. [nex-crm/wuphf](https://github.com/nex-crm/wuphf)  `8.8` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
 
 **WUPHF is a shared AI office designed to enhance team collaboration by enabling agents to work together seamlessly. It supports various AI tools like Claude Code, Codex, OpenClaw, and local LLMs via OpenCode, while maintaining context for tasks throug**
 
@@ -5983,7 +6149,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 389. [https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-avail](https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-available)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class 📍
+### 400. [https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-avail](https://www.unrealengine.com/en-US/news/unreal-engine-5-7-is-now-available)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class 📍
 
 **This release significantly enhances Unreal Engine 5.7 with new features aimed at improving procedural world generation, virtual production capabilities, and animation workflows. Key additions include the Procedural Content Generation (PCG) framework,**
 
@@ -5999,7 +6165,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 390. [getzep/graphiti](https://github.com/getzep/graphiti)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 401. [getzep/graphiti](https://github.com/getzep/graphiti)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Graphiti MCP Server enables AI agents to dynamically query and update temporally-aware knowledge graphs, integrating real-time data for context-aware decision-making.**
 
@@ -6015,7 +6181,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 391. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 402. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A powerful expression evaluation tool for Claude Desktop using the Model Context Protocol, enabling complex data manipulations and transformations within AI conversations.**
 
@@ -6031,7 +6197,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 392. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 403. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A tool that provides code context and analysis for AI assistants, extracting directory structures and code symbols using WebAssembly Tree-sitter parsers with zero native dependencies.**
 
@@ -6047,7 +6213,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 393. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 404. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **SourceSage MCP Server is a context-aware, AI-powered platform that integrates advanced security features and developer tools to streamline software development workflows.**
 
@@ -6063,7 +6229,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 394. [mubarakhalketbi/game-asset-mcp](https://github.com/mubarakhalketbi/game-asset-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 405. [mubarakhalketbi/game-asset-mcp](https://github.com/mubarakhalketbi/game-asset-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **An AI-powered platform that enables rapid creation of 2D and 3D game assets from natural language prompts using Hugging Face models, integrated with MCP for seamless interaction.**
 
@@ -6079,7 +6245,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 395. [oculairmedia/letta-mcp-server](https://github.com/oculairmedia/letta-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 406. [oculairmedia/letta-mcp-server](https://github.com/oculairmedia/letta-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A high-performance MCP server built with Rust and TurboMCP for managing Letta AI agents, offering unified tools for operations, context management, and cross-platform compatibility.**
 
@@ -6095,7 +6261,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 396. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 407. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A MCP server that integrates FindMine's styling API with Claude and other MCP-compatible tools, enabling advanced fashion AI for product recommendations.**
 
@@ -6111,7 +6277,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 397. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 408. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An enterprise-grade MCP server optimized for SAP OData, designed to address the tool explosion problem with modular authentication, hierarchical tool registry, and secure integration.**
 
@@ -6127,7 +6293,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 398. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 409. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Ideogram MCP Server enables secure, context-aware image generation via the Model Context Protocol, integrating AI models with MCP clients for enterprise-grade workflow automation.**
 
@@ -6142,7 +6308,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 399. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 410. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Globalping MCP Server enables AI models to interact with a global network measurement platform via natural language, providing secure and scalable access to network probes.**
 
@@ -6157,7 +6323,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 400. [How-To Guides](https://chunkhound.github.io/how-to)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 411. [How-To Guides](https://chunkhound.github.io/how-to)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **ChunkHound utilizes a multi-stage indexing process designed for performance, especially with large codebases. Initial indexing creates a comprehensive knowledge base, which subsequent updates modify incrementally, preserving embeddings for unchanged **
 
@@ -6173,7 +6339,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 401. [Stop Throwing Away Your Genius: Why Your Chat History Is Worth More Than the Answer](https://open.substack.com/pub/jtnovelo2131/p/stop-throwing-away-your-genius-why&r=5kk0f7)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 412. [Stop Throwing Away Your Genius: Why Your Chat History Is Worth More Than the Answer](https://open.substack.com/pub/jtnovelo2131/p/stop-throwing-away-your-genius-why&r=5kk0f7)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The author argues that the intellectual value in AI interactions resides not just in the final output, but in the 'conversational dark matter'—the entire back-and-forth history contained within the context window. This history acts as a 'searchable d**
 
@@ -6189,7 +6355,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 402. [Boston Tea Party - Wikipedia](https://en.m.wikipedia.org/wiki/Boston_Tea_Party)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 413. [Boston Tea Party - Wikipedia](https://en.m.wikipedia.org/wiki/Boston_Tea_Party)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The Boston Tea Party was a pivotal act of protest on December 16, 1773, during the American Revolution. It was an action initiated by the Sons of Liberty in Boston, Massachusetts, targeting British taxation policies. The core conflict revolved around**
 
@@ -6205,7 +6371,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 403. [MCP-Universe: Benchmarking LLMs with Real-World MCP Servers](https://mcp-universe.github.io)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 414. [MCP-Universe: Benchmarking LLMs with Real-World MCP Servers](https://mcp-universe.github.io)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **MCP-Universe provides a comprehensive platform for building and evaluating AI agents and LLMs across diverse task environments. It facilitates seamless integration with external MCP servers, enabling sophisticated agent orchestration workflows ground**
 
@@ -6221,7 +6387,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 404. [Show HN: Rudel – Claude Code Session Analytics | Hacker News](https://news.ycombinator.com/item?id=47350416)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 415. [Show HN: Rudel – Claude Code Session Analytics | Hacker News](https://news.ycombinator.com/item?id=47350416)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The Borg project's 'Rudel' Claude Code Session Analytics tool is designed to provide detailed insights into user interactions with Claude AI, aiming to identify inefficiencies, abandonment patterns, and performance metrics across various task types. **
 
@@ -6237,7 +6403,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 405. [Memori â The memory fabric for enterprise AI](https://memorilabs.ai/docs/memori-cloud/openclaw/quickstart)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 416. [Memori â The memory fabric for enterprise AI](https://memorilabs.ai/docs/memori-cloud/openclaw/quickstart)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **This technical resource provides a comprehensive guide to integrating Memori, an open-source memory fabric solution, into enterprise environments. It covers installation, configuration, multi-user support, advanced augmentation patterns, knowledge gr**
 
@@ -6253,7 +6419,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 406. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 417. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **The qanon-mcp-server is a GitHub-hosted server designed to provide access to a dataset of Q-Anon posts, enabling AI assistants like Claude to search, filter, and analyze these posts for research purposes. It supports sociological studies by offering **
 
@@ -6269,7 +6435,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 407. [athapong/argus](https://github.com/athapong/argus)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 418. [athapong/argus](https://github.com/athapong/argus)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The athapong/argus project offers a powerful MCP tool designed to analyze code repositories, detect vulnerabilities, assess code quality, and provide comprehensive security reports. It supports multiple programming languages and integrates with vario**
 
@@ -6285,7 +6451,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 408. [zxfgds/mcp-toolkit](https://github.com/zxfgds/mcp-toolkit)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 419. [zxfgds/mcp-toolkit](https://github.com/zxfgds/mcp-toolkit)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The MCP Toolkit is a robust server implementation enabling AI tools to perform file system operations, database interactions, web scraping, and more while ensuring security and control. It supports advanced features like GitHub integration, code sear**
 
@@ -6301,7 +6467,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 409. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
+### 420. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The MCP-sentry server enables developers to inspect error reports, stack traces, and debugging information from Sentry.io. It provides tools to retrieve issue details by ID or URL, analyze project-specific issues, and integrate with various developme**
 
@@ -6316,7 +6482,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 410. [kazuph/mcp-pocket](https://github.com/kazuph/mcp-pocket)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 421. [kazuph/mcp-pocket](https://github.com/kazuph/mcp-pocket)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The kazuph/mcp-pocket project provides a server-based solution that enables seamless integration between Claude Desktop and the Pocket API. This allows users to fetch, organize, and manage their saved articles directly within Claude Desktop, enhancin**
 
@@ -6330,7 +6496,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 411. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
+### 422. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Borg Project's repository provides a web-based interface that enables users to search for and retrieve academic papers from the arXiv repository. It supports advanced search functionalities, including filtering by keywords, authors, and publicati**
 
@@ -6344,7 +6510,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 412. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers
+### 423. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers
 
 **The markitdown_mcp_server is a GitHub-hosted MCP server designed to facilitate the conversion of diverse file types into Markdown format using the MarkItDown utility. It supports multiple input formats such as PDF, Word, Excel, images, and more, maki**
 
@@ -6358,7 +6524,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 413. [shinkeonkim/e-gonghun-mcp](https://github.com/shinkeonkim/e-gonghun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 424. [shinkeonkim/e-gonghun-mcp](https://github.com/shinkeonkim/e-gonghun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The e-gonghun-mcp project provides a developer platform that integrates various external tools and services, enabling seamless workflows and automation. It supports context-aware operations through the Model Context Protocol (MCP), allowing for dynam**
 
@@ -6372,7 +6538,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 414. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
+### 425. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **This project implements an MCP (Model Context Protocol) server to enable secure token listing, trading, and interaction with the Kaia blockchain. It provides a development environment for managing tokens, executing trades, and integrating with blockc**
 
@@ -6386,7 +6552,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 415. [shlomico-tr/etoroportfoliomcp](https://github.com/shlomico-tr/etoroportfoliomcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
+### 426. [shlomico-tr/etoroportfoliomcp](https://github.com/shlomico-tr/etoroportfoliomcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Borg intelligence database should include this resource to enhance its capabilities in managing and analyzing eToro data. The tool offers functionalities such as fetching user portfolios by username, searching for instruments by name prefix, and **
 
@@ -6400,7 +6566,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 416. [choihyunsus/n2-QLN](https://github.com/choihyunsus/n2-QLN)  `10.0` ★★★ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 427. [choihyunsus/n2-QLN](https://github.com/choihyunsus/n2-QLN)  `10.0` ★★★ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **An intelligent tool router that connects thousands of tools through a single interface, optimizing context window usage and preventing AI confusion.**
 
@@ -6416,7 +6582,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 417. [jhawkins11/task-manager-mcp](https://github.com/jhawkins11/task-manager-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 428. [jhawkins11/task-manager-mcp](https://github.com/jhawkins11/task-manager-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A task management and AI-assisted planning platform integrating with Cursor for intelligent code review, workflow automation, and context-aware task breakdown.**
 
@@ -6431,7 +6597,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 418. [Funnel - MCP Server](https://dxt.so/mcp-server/developer-tools/funnel-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
+### 429. [Funnel - MCP Server](https://dxt.so/mcp-server/developer-tools/funnel-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
 
 **MCP Funnel acts as an intermediary layer between multiple Model Context Protocol (MCP) servers and AI clients (like Claude Desktop or Gemini). Its primary technical function is to mitigate the problem of excessive context window consumption caused by**
 
@@ -6446,7 +6612,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 419. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 430. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The MCP Server Reddit provides tools for fetching Reddit frontpage posts, subreddit information, hot posts, post details, and comments. It uses redditwarp to interface with Reddit's public API and exposes functionality via the Model Context Protocol **
 
@@ -6462,7 +6628,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 420. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 431. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **MCPRules is an MCP server designed to enforce and serve programming guidelines across development projects. It integrates with various development tools, ensuring uniform coding standards and facilitating seamless collaboration among developers.**
 
@@ -6478,7 +6644,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 421. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 432. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **This project provides a lightweight MCP server designed to generate QR codes tailored for specific use cases. It supports customization of QR code styles, making it suitable for integration into various applications requiring secure and visually dist**
 
@@ -6494,7 +6660,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 422. [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 433. [Harness design for long-running application development](https://www.anthropic.com/engineering/harness-design-long-running-apps)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The project focused on improving Claude's performance in generating high-quality frontend designs and building complete applications autonomously. It involved designing a multi-agent architecture with a generator, evaluator, and planner to handle com**
 
@@ -6509,7 +6675,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 423. [VHDL's Crown Jewel | Hacker News](https://news.ycombinator.com/item?id=47570435)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 434. [VHDL's Crown Jewel | Hacker News](https://news.ycombinator.com/item?id=47570435)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **This analysis evaluates the technical merits and practical considerations of using VHDL versus Verilog within the Borg Project's design framework. It examines historical context, language features, industry adoption, and real-world application challe**
 
@@ -6524,7 +6690,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 424. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 435. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project focuses on integrating the Model Context Protocol with Epsilla to enhance data processing capabilities. It emphasizes secure coding practices, automated workflows, and enterprise-grade security features to ensure robust application develo**
 
@@ -6539,7 +6705,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 425. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 436. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a model context protocol (MCP) server written in Python, allowing users to interact with the TON blockchain using natural language queries. It supports features such as trading analysis, hot trend detection, forensic investigatio**
 
@@ -6554,7 +6720,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 426. [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 437. [zzaebok/mcp-wikidata](https://github.com/zzaebok/mcp-wikidata)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project provides a server-based solution to access and manipulate Wikidata data via MCP, enabling developers to search entities, extract properties, and execute SPARQL queries. It supports integration with AI tools like LangChain for natural lang**
 
@@ -6569,7 +6735,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 427. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 438. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The School MCP server enables seamless integration between academic platforms like Canvas and Gradescope, providing assignment deadlines, course materials, and automated reminders. It supports secure environment setup, configuration management, and w**
 
@@ -6584,7 +6750,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 428. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers 📍
+### 439. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **Patchright is a streamlined Model Context Protocol (MCP) server built on the Patchright Node.js SDK. It provides undetectable automation capabilities, supporting essential functions such as browsing, interacting with web pages, extracting content, an**
 
@@ -6598,7 +6764,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 429. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 440. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This project provides a PostgreSQL MCP Server implementation using TypeScript and PostGIS extension, enabling seamless integration of spatial data handling within development and production environments. It supports hot-reload functionality, configur**
 
@@ -6613,7 +6779,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 430. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 441. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Bigsy/Clojars-MCP-Server is a lightweight MCP server designed to provide developers with tools to query and manage dependencies from the Clojure community's artifact repository, Clojars. It enables seamless integration with Claude Desktop for dep**
 
@@ -6627,7 +6793,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 431. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 442. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The mcp-server-file-modifier project provides a Model Context Protocol server that allows users to modify files directly through AI assistants like Claude. It supports operations such as adding, replacing, and deleting content at specific line number**
 
@@ -6641,7 +6807,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 432. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
+### 443. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The YassineTk/mcp-docs-provider is a GitHub-hosted documentation context provider designed to integrate with MCP (Markup Cloud Platform) to allow AI models to query and utilize local markdown-based technical documentation directly within their workfl**
 
@@ -6655,7 +6821,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 433. [nodegis/geo-mcp-server](https://github.com/nodegis/geo-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 444. [nodegis/geo-mcp-server](https://github.com/nodegis/geo-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **NodeGIS's geo-mcp-server is a Node.js-based platform that facilitates geographic data processing, including coordinate transformations, distance calculations, area computations, and integration with various mapping projections. It supports multiple c**
 
@@ -6669,7 +6835,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 434. [emzimmer/server-moz-readability](https://github.com/emzimmer/server-moz-readability)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers 📍
+### 445. [emzimmer/server-moz-readability](https://github.com/emzimmer/server-moz-readability)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The emzimmer/server-moz-readability project is a GitHub-hosted server designed to parse webpages using Mozilla's Readability algorithm. It removes ads, navigation, and non-essential elements while preserving core content structure, converting HTML in**
 
@@ -6683,7 +6849,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 435. [instructa/ai-prompts-mcp](https://github.com/instructa/ai-prompts-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 446. [instructa/ai-prompts-mcp](https://github.com/instructa/ai-prompts-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **This project provides a TypeScript-based Model Context Protocol (MCP) implementation using pnpm workspaces. It supports environment-based configuration and integrates with modern development practices, enabling efficient management of AI prompts with**
 
@@ -6698,7 +6864,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 436. [Google NotebookLM | AI Research Tool & Thinking Partner](https://notebooklm.google)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
+### 447. [Google NotebookLM | AI Research Tool & Thinking Partner](https://notebooklm.google)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
 
 **NotebookLM provides a user interface designed for researchers and writers to interact with generative AI models directly using their personal documents (e.g., notes, PDFs, web pages) as the primary context source. It abstracts the complexity of direc**
 
@@ -6714,7 +6880,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 437. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 448. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The jbdamask/cursor-db-mcp project provides a Model Context Protocol (MCP) server that allows AI assistants to query and interact with Cursor's SQLite databases. It facilitates access to chat histories, composer information, and project-specific data**
 
@@ -6728,7 +6894,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 438. [dillip285/mcp-dev-server](https://github.com/dillip285/mcp-dev-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 449. [dillip285/mcp-dev-server](https://github.com/dillip285/mcp-dev-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The dillip285/mcp-dev-server is a GitHub-hosted platform designed to streamline software development workflows by providing project context management, Docker environment support, and AI-assisted code execution. It enables teams to create projects, m**
 
@@ -6742,7 +6908,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 439. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
+### 450. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The ktanaka101/mcp-server-duckdb project implements a Model Context Protocol (MCP) server for DuckDB, allowing developers to interact with the database using a single unified query interface. This facilitates seamless integration of DuckDB into appli**
 
@@ -6756,7 +6922,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 440. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
+### 451. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The Fledge MCP Server acts as a bridge between Fledge instances and Cursor AI, allowing developers to integrate AI-driven interactions using natural language commands. It supports secure API key authentication, real-time data streaming, and tool inte**
 
@@ -6771,7 +6937,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 441. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 452. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The macrat/mcp-ayd-server is a GitHub-hosted MCP (Model Context Protocol) server designed to facilitate real-time monitoring and status tracking of Ayd models. It enables developers and operations teams to integrate context-aware services into their **
 
@@ -6785,7 +6951,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 442. [SembojaTech/mcp-postgres](https://github.com/SembojaTech/mcp-postgres)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 453. [SembojaTech/mcp-postgres](https://github.com/SembojaTech/mcp-postgres)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The SembojaTech/mcp-postgres project provides a secure, read-only interface for interacting with PostgreSQL databases, allowing large language models to analyze database schemas and execute queries without modifying or altering the data. This support**
 
@@ -6799,7 +6965,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 443. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 454. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The Brasil API MCP project provides a unified interface for developers to access a wide range of Brazilian data services through standardized protocols. It supports secure integration with tools such as GitHub Copilot, Docker, and CI/CD pipelines, en**
 
@@ -6813,7 +6979,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 444. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
+### 455. [lishenxydlgzs/simple-files-vectorstore](https://github.com/lishenxydlgzs/simple-files-vectorstore)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The lishenxydlgzs/simple-files-vectorstore project provides a local file system vector indexing solution, enabling semantic search across files using vector embeddings. It supports real-time file watching, configurable chunk processing, and integrate**
 
@@ -6828,7 +6994,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 445. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 456. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The project implements a MCP-based server that allows users to retrieve detailed information about Brazilian addresses via CEP. It integrates with AI and provides functionalities such as code compilation, deployment, and secure development practices.**
 
@@ -6843,7 +7009,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 446. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 457. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The spryker-package-search-mcp is a command-line utility that initializes an MCP server to enable natural language searches for Spryker packages on GitHub repositories. It supports filtering by organization and integrates with various AI agents for e**
 
@@ -6858,7 +7024,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 447. [colygon/zkpmcp](https://github.com/colygon/zkpmcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 458. [colygon/zkpmcp](https://github.com/colygon/zkpmcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project provides a comprehensive platform for developing, testing, and deploying zero-knowledge proof circuits. It supports the entire lifecycle of MCP (Mutual Key Proof) protocols, including trusted setup, circuit generation, proof generation, a**
 
@@ -6872,7 +7038,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 448. [pyroprompts/any-chat-completions-mcp](https://github.com/pyroprompts/any-chat-completions-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 459. [pyroprompts/any-chat-completions-mcp](https://github.com/pyroprompts/any-chat-completions-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP Server allows developers to deploy and manage multiple AI chat completion providers (e.g., Claude, Perplexity, PyroPrompts) as tools within the Borg environment. It supports seamless integration with various LLMs, enabling dynamic selection a**
 
@@ -6886,7 +7052,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 449. [jtucker/mcp-untappd-server](https://github.com/jtucker/mcp-untappd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 460. [jtucker/mcp-untappd-server](https://github.com/jtucker/mcp-untappd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The jtucker/mcp-untappd-server project is a lightweight Node.js application designed to query the Untappd API for beer data. It focuses on context management by fetching detailed beer information based on search queries, enabling developers to integr**
 
@@ -6900,7 +7066,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 450. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
+### 461. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
 
 **A configuration-as-code standard acting as a `Dockerfile` for AI agents, defining exact tools, system prompts, and MCP dependencies for consistent execution.**
 
@@ -6914,7 +7080,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 451. [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 462. [kayba-ai/agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **An open-source implementation of Stanford's context engineering research, enabling agents to autonomously extract patterns from feedback to improve performance.**
 
@@ -6928,7 +7094,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 452. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers 📍
+### 463. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers 📍
 
 **DataHub MCP Server enables AI agents to find, understand, and manage data across the entire ecosystem using natural language queries.**
 
@@ -6944,7 +7110,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 453. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 464. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A server-based platform for enabling LLMs to perform symbolic mathematics and complex algebra, enhancing AI-driven computation.**
 
@@ -6960,7 +7126,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 454. [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 465. [hyperb1iss/droidmind](https://github.com/hyperb1iss/droidmind)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **DroidMind enables AI assistants to securely interact with Android devices via the Model Context Protocol, allowing direct control and system analysis.**
 
@@ -6976,7 +7142,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 455. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 466. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A robust, open-source FRED MCP Server enabling secure and efficient access to Federal Reserve Economic Data for analytical applications.**
 
@@ -6992,7 +7158,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 456. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 467. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol server for PubMed literature search and management, enabling advanced filtering, citation export, and research analysis.**
 
@@ -7008,7 +7174,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 457. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
+### 468. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A model context protocol-compliant server integrating Semgrep with AI assistants for advanced code analysis and security.**
 
@@ -7024,7 +7190,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 458. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 469. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A powerful MCP server for VirusTotal API integration, offering comprehensive security analysis with automatic relationship data fetching.**
 
@@ -7040,7 +7206,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 459. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 470. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A platform that integrates AI tools with fitness data via the Model Context Protocol to deliver intelligent, context-aware coaching.**
 
@@ -7056,7 +7222,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 460. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 471. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A server that enables seamless integration of Figma designs with AI coding tools by providing real-time design-to-code generation.**
 
@@ -7072,7 +7238,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 461. [jalehman/mcp-sage](https://github.com/jalehman/mcp-sage)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 472. [jalehman/mcp-sage](https://github.com/jalehman/mcp-sage)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A Borg intelligence platform that integrates multiple AI models for code review, second opinions, and automated feedback across development workflows.**
 
@@ -7088,7 +7254,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 462. [vibase-ai/vibase](https://github.com/vibase-ai/vibase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 473. [vibase-ai/vibase](https://github.com/vibase-ai/vibase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A powerful tool for querying and mutating PostgreSQL data using MCP, enabling automated workflows and secure code execution.**
 
@@ -7104,7 +7270,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 463. [cyreslab-ai/exploitdb-mcp-server](https://github.com/cyreslab-ai/exploitdb-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 474. [cyreslab-ai/exploitdb-mcp-server](https://github.com/cyreslab-ai/exploitdb-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A platform-powered AI assistant for cybersecurity research, enabling secure and efficient exploitation data analysis.**
 
@@ -7120,7 +7286,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 464. [goodfel10w/WelcomeTextGenerator](https://github.com/goodfel10w/WelcomeTextGenerator)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 475. [goodfel10w/WelcomeTextGenerator](https://github.com/goodfel10w/WelcomeTextGenerator)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **Automatisiert die Generierung professioneller Willkommenstexte für neue Mitarbeiter basierend auf strukturierten Daten.**
 
@@ -7136,7 +7302,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 465. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 476. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Context7 MCP Server provides up-to-date documentation and code examples for LLMs, enhancing AI development workflows.**
 
@@ -7152,7 +7318,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 466. [sunub/obsidian-mcp-server](https://github.com/sunub/obsidian-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 477. [sunub/obsidian-mcp-server](https://github.com/sunub/obsidian-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An MCP Server that enables AI agents and external applications to easily search, read, and manage content within an Obsidian Vault.**
 
@@ -7168,7 +7334,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 467. [pv-bhat/gemsuite-mcp](https://github.com/pv-bhat/gemsuite-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 478. [pv-bhat/gemsuite-mcp](https://github.com/pv-bhat/gemsuite-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A professional Gemini API integration for Claude and MCP-compatible hosts, offering intelligent model selection and advanced file handling.**
 
@@ -7183,7 +7349,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 468. [haasonsaas/deep-code-reasoning-mcp](https://github.com/haasonsaas/deep-code-reasoning-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 479. [haasonsaas/deep-code-reasoning-mcp](https://github.com/haasonsaas/deep-code-reasoning-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A platform that integrates Claude Code with Google Gemini AI to enable advanced, context-aware code analysis and reasoning across distributed systems.**
 
@@ -7198,7 +7364,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 469. [https://docs.openclaw.ai/concepts/model-providers](https://docs.openclaw.ai/concepts/model-providers)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent 📍
+### 480. [https://docs.openclaw.ai/concepts/model-providers](https://docs.openclaw.ai/concepts/model-providers)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent 📍
 
 **This resource details the structure and functionality of OpenClaw's model providers, focusing on how different plugins and hosts integrate with OpenClaw to manage and serve large language models. It covers provider registration, context management, f**
 
@@ -7214,7 +7380,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 470. [Hashchats - Chat with People & AI Together](https://hashchats.com)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 481. [Hashchats - Chat with People & AI Together](https://hashchats.com)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Hashchats enhances your daily conversations by letting you bring AI into your chats naturally. Start Chatting Now Hashchats uses the Right AI for the Best Results Hashchats automatically uses the best AI model by matching your prompt to each model's **
 
@@ -7230,7 +7396,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 471. [EmuDevz: A game about developing emulators | Hacker News](https://news.ycombinator.com/item?id=46662515)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 482. [EmuDevz: A game about developing emulators | Hacker News](https://news.ycombinator.com/item?id=46662515)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The Borg Project's 'EmuDevz' is a game centered around the development of emulators, specifically designed to help users understand how emulators function. It provides a hands-on approach to learning about assembly language programming and hardware i**
 
@@ -7246,7 +7412,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 472. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 483. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP tool facilitates the automation of Android project builds, integrates with development environments like Visual Studio Code, and offers real-time error reporting to AI models. It supports various stages from code execution to feedback generat**
 
@@ -7260,7 +7426,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 473. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 484. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The mcp-1panel project provides a Model Context Protocol (MCP) server implementation tailored for 1Panel, facilitating secure and efficient communication between the platform and its backend services. It supports various integration modes including s**
 
@@ -7274,7 +7440,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 474. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 485. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Thingsboard MCP Server is a platform designed to securely connect and utilize Thingsboard data within large language models (LLMs). It enables developers to embed real-time contextual information from Thingsboard into AI applications, enhancing t**
 
@@ -7288,7 +7454,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 475. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
+### 486. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP Server project provides a robust, Go-based implementation of the Model Context Protocol (MCP) server. It emphasizes security by restricting file access to specific directories through configurable path restrictions. This ensures that only aut**
 
@@ -7302,7 +7468,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 476. [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 487. [kukapay/whale-tracker-mcp](https://github.com/kukapay/whale-tracker-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Whale Tracker MCP server enables real-time monitoring of large blockchain transactions by integrating with the Whale Alert API. It provides tools, resources, and prompts to help users analyze whale activity across different cryptocurrencies, supp**
 
@@ -7316,7 +7482,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 477. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 488. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP (Model Context Protocol) server enables programmatic search and retrieval of detailed information about museum objects from the Cooper Hewitt Museum's collection API. It supports advanced search capabilities, object details retrieval, and int**
 
@@ -7330,7 +7496,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 478. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 489. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **The Bigsy/shadow-cljs-mcp project implements a Model Context Protocol (MCP) server to provide real-time monitoring, status updates, and build tracking for shadow-cljs ClojureScript projects. This tool integrates with LLMs to verify build success afte**
 
@@ -7344,7 +7510,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 479. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers 📍
+### 490. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The MCP Server facilitates the conversion of Markdown files into HTML format, enabling developers and content creators to seamlessly transform structured text into web-ready HTML. This tool is particularly useful in modernizing legacy documentation s**
 
@@ -7358,7 +7524,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 480. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 491. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The stackzero-labs/mcp package provides a dedicated model context protocol server, allowing seamless integration of AI models into Cursor applications. It supports secure and efficient communication between the model and the application layer, enhanc**
 
@@ -7372,7 +7538,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 481. [arjunkmrm/perplexity-search](https://github.com/arjunkmrm/perplexity-search)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
+### 492. [arjunkmrm/perplexity-search](https://github.com/arjunkmrm/perplexity-search)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The arjunkmrm/perplexity-search project implements a Model Context Protocol (MCP) server that integrates Perplexity's search API, allowing AI tools to retrieve relevant information from the web. It supports filtering results by recency and provides s**
 
@@ -7386,7 +7552,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 482. [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus)  `7.8` ☆☆☆ ⚡84.0 Q0.9○ Good · ↗1 layers
+### 493. [lllyasviel/Fooocus](https://github.com/lllyasviel/Fooocus)  `7.8` ☆☆☆ ⚡84.0 Q0.9○ Good · ↗1 layers
 
 **Fooocus is an image generating software built on the Stable Diffusion XL architecture. It rethinks image generator designs by focusing users purely on prompts and images, minimizing manual tweaking. The software simplifies installation and offers a s**
 
@@ -7400,7 +7566,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 483. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 494. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A software development platform enabling AI-assisted management of project workflows using the MCP protocol.**
 
@@ -7416,7 +7582,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 484. [sreedeep-ss/docret-mcp-server](https://github.com/sreedeep-ss/docret-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 495. [sreedeep-ss/docret-mcp-server](https://github.com/sreedeep-ss/docret-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Model Context Protocol server enabling AI assistants to access up-to-date documentation for Python libraries.**
 
@@ -7432,7 +7598,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 485. [picahq/mcp](https://github.com/picahq/mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 496. [picahq/mcp](https://github.com/picahq/mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol server enabling seamless integration and automation across platforms using Pica.**
 
@@ -7448,7 +7614,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 486. [furey/mongodb-lens](https://github.com/furey/mongodb-lens)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 497. [furey/mongodb-lens](https://github.com/furey/mongodb-lens)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A powerful MCP server enabling natural language queries and advanced data management for MongoDB databases.**
 
@@ -7464,7 +7630,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 487. [oevortex/ddg_search](https://github.com/oevortex/ddg_search)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 498. [oevortex/ddg_search](https://github.com/oevortex/ddg_search)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A powerful Model Context Protocol (MCP) server for web search and AI-powered content extraction using DuckDuckGo.**
 
@@ -7480,7 +7646,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 488. [Ak-9647/Evernote-MCP](https://github.com/Ak-9647/Evernote-MCP)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 499. [Ak-9647/Evernote-MCP](https://github.com/Ak-9647/Evernote-MCP)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **A secure, AI-powered MCP server for seamless Evernote integration with Claude Desktop.**
 
@@ -7496,7 +7662,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 489. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 500. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Model Context Protocol server enabling LLM interfaces to control a Ghost CMS blog securely.**
 
@@ -7512,7 +7678,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 490. [byPawel/tachibot-mcp](https://github.com/byPawel/tachibot-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 501. [byPawel/tachibot-mcp](https://github.com/byPawel/tachibot-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A multi-model AI orchestration platform enabling developers to integrate and manage diverse AI models efficiently.**
 
@@ -7528,7 +7694,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 491. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 502. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **An AI-powered MCP server transforming AP Media API content into intelligent, conversational interfaces.**
 
@@ -7544,7 +7710,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 492. [abhichandra21/Promptheus.git](https://github.com/abhichandra21/Promptheus.git)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 503. [abhichandra21/Promptheus.git](https://github.com/abhichandra21/Promptheus.git)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **Automated prompt refinement and optimization for enterprise AI interactions.**
 
@@ -7560,7 +7726,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 493. [tejpalvirk/contextmanager](https://github.com/tejpalvirk/contextmanager)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 504. [tejpalvirk/contextmanager](https://github.com/tejpalvirk/contextmanager)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **A collection of Model Context Protocol (MCP) servers to enhance AI models with persistent context across work sessions.**
 
@@ -7575,7 +7741,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 494. [Text-to-image SD1 - Online Free AI Image Generator](https://dezgo.com/txt2img)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 505. [Text-to-image SD1 - Online Free AI Image Generator](https://dezgo.com/txt2img)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Dezgo is an online, free AI image generator platform. The resource highlights the capabilities of this system, including Text-to-Image generation (using Stable Diffusion AI), Text-to-Video (Veo/Kling), and Image-to-Video generation. It details the co**
 
@@ -7591,7 +7757,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 495. [janwilmake/uithub-mcp](https://github.com/janwilmake/uithub-mcp)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 506. [janwilmake/uithub-mcp](https://github.com/janwilmake/uithub-mcp)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The Simple MCP server enables seamless integration with GitHub, allowing users to fetch repository contents, apply filters, and explore code in a structured manner. It supports advanced features like natural language queries via Claude Desktop and pr**
 
@@ -7605,7 +7771,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 496. [taweili/mcp-rss-md](https://github.com/taweili/mcp-rss-md)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 507. [taweili/mcp-rss-md](https://github.com/taweili/mcp-rss-md)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP (Model Context Protocol) server provides functionality to convert RSS feeds into structured Markdown, enabling developers to integrate rich content into applications seamlessly. This project focuses on enhancing developer productivity by offe**
 
@@ -7619,7 +7785,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 497. [marcelo-ochoa/servers](https://github.com/marcelo-ochoa/servers)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 508. [marcelo-ochoa/servers](https://github.com/marcelo-ochoa/servers)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This project provides a GitHub-hosted server implementation of the Model Context Protocol, enabling secure and efficient management of AI model context across distributed systems. It supports advanced security features, automated workflows, and integ**
 
@@ -7633,7 +7799,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 498. [random-robbie/mcp-web-browser](https://github.com/random-robbie/mcp-web-browser)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 509. [random-robbie/mcp-web-browser](https://github.com/random-robbie/mcp-web-browser)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **An advanced web browsing server for the Model Context Protocol (MCP) powered by Playwright, enabling secure and flexible headless browser interactions.**
 
@@ -7649,7 +7815,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 499. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 510. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters by translating natural language requests into Kubernetes operations.**
 
@@ -7665,7 +7831,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 500. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers 📍
+### 511. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **A lightweight JVM monitoring and diagnostic server built on native JDK tools, enabling AI agents to analyze Java applications without third-party dependencies.**
 
@@ -7681,7 +7847,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 501. [mahdin75/geoserver-mcp](https://github.com/mahdin75/geoserver-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 512. [mahdin75/geoserver-mcp](https://github.com/mahdin75/geoserver-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server implementation that enables Large Language Models to interact with GeoServer REST APIs for geospatial data and services.**
 
@@ -7697,7 +7863,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 502. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 513. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A standalone MCP server enabling AI models to access and query the Australian Pharmaceutical Benefits Scheme (PBS) API using natural language LLM integration.**
 
@@ -7713,7 +7879,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 503. [vltansky/cursor-chat-history-mcp](https://github.com/vltansky/cursor-chat-history-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 514. [vltansky/cursor-chat-history-mcp](https://github.com/vltansky/cursor-chat-history-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **A tool that links GitHub cursor conversations to code commits and context, enabling developers to trace discussions and fixes directly back to their source code.**
 
@@ -7729,7 +7895,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 504. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 515. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that enhances Zig language support with code optimization, compute unit estimation, code generation, and best practices.**
 
@@ -7745,7 +7911,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 505. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 516. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A secure blockchain server enabling AI assistants to interact with smart contracts while maintaining user control over private keys and transaction signing.**
 
@@ -7761,7 +7927,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 506. [cdmx-in/authentik-mcp](https://github.com/cdmx-in/authentik-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 517. [cdmx-in/authentik-mcp](https://github.com/cdmx-in/authentik-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A comprehensive GitHub repository providing MCP server implementations for Authentik API integration, including diagnostic, monitoring, and management tools.**
 
@@ -7777,7 +7943,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 507. [yonaka15/mcp-server-redmine](https://github.com/yonaka15/mcp-server-redmine)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers 📍
+### 518. [yonaka15/mcp-server-redmine](https://github.com/yonaka15/mcp-server-redmine)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **A model context protocol server for Redmine that integrates with Redmine's REST API to provide structured access to issues, projects, users, and time entries for large language models (LLMs).**
 
@@ -7793,7 +7959,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 508. [samwang0723/mcp-booking](https://github.com/samwang0723/mcp-booking)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 519. [samwang0723/mcp-booking](https://github.com/samwang0723/mcp-booking)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **An AI-powered model context protocol server for restaurant discovery and booking, integrating location data, cuisine preferences, mood, and event types.**
 
@@ -7809,7 +7975,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 509. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 520. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A comprehensive open-source platform for automated scientific research, integrating web search, document analysis, and LLM-powered tools to streamline research workflows.**
 
@@ -7825,7 +7991,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 510. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 521. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A tool for advanced code analysis and transformation using tree-hugger-js-mcp, supporting static analysis, refactoring, and integration with AI-driven development workflows.**
 
@@ -7840,7 +8006,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 511. [toolprint.ai - Make AI Agents select tools like experts](https://www.toolprint.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 522. [toolprint.ai - Make AI Agents select tools like experts](https://www.toolprint.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **Toolprint focuses on solving the 'tool selection' bottleneck in agentic workflows by providing a specialized environment to evaluate and optimize how LLMs interact with external functions. It uses a data-driven approach to 'fingerprint' tools, genera**
 
@@ -7856,7 +8022,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 512. [Historicity of the Gospels - Wikipedia](https://en.m.wikipedia.org/wiki/Historical_reliability_of_the_Gospels)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 523. [Historicity of the Gospels - Wikipedia](https://en.m.wikipedia.org/wiki/Historical_reliability_of_the_Gospels)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The resource analyzes the historical reliability of the Gospels, examining the core consensus regarding Jesus's existence and the specific episodes described in the biblical accounts. It highlights that while the existence of Jesus is generally accep**
 
@@ -7872,7 +8038,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 513. [ryanreh99/skills-sync](https://github.com/ryanreh99/skills-sync)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 524. [ryanreh99/skills-sync](https://github.com/ryanreh99/skills-sync)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A platform enabling the standardization and synchronization of agent capabilities (SKILL.md) across different collaborative coding environments.**
 
@@ -7886,7 +8052,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 514. [clkao/agentlore](https://github.com/clkao/agentlore)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 525. [clkao/agentlore](https://github.com/clkao/agentlore)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A framework for managing AI agent "personalities" and long-term project lore, ensuring role consistency across swarms without bloating token counts.**
 
@@ -7900,7 +8066,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 515. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 526. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **A runtime utility that converts MCP servers and OpenAPI specs into functional CLIs without code generation, reducing agent context bloat by 99%.**
 
@@ -7914,7 +8080,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 516. [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 527. [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A terminal-native AI coding agent by Mistral AI featuring custom subagents, multi-choice clarifications, and repository-wide reasoning (256K context).**
 
@@ -7928,7 +8094,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 517. [cyclotruc/gitingest](https://github.com/cyclotruc/gitingest)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 528. [cyclotruc/gitingest](https://github.com/cyclotruc/gitingest)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A foundational tool for grounding LLMs in codebase context by transforming Git repositories into structured, prompt-friendly text digests.**
 
@@ -7942,7 +8108,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 518. [pars-doe/autodocument](https://github.com/pars-doe/autodocument)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers 📍
+### 529. [pars-doe/autodocument](https://github.com/pars-doe/autodocument)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers 📍
 
 **Automated documentation generation for code repositories using OpenRouter API and AI.**
 
@@ -7958,7 +8124,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 519. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers 📍
+### 530. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers 📍
 
 **A model context protocol (MCP) server and client for intelligent Spark code optimization.**
 
@@ -7973,7 +8139,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 520. [lumile/promptopia-mcp](https://github.com/lumile/promptopia-mcp)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent 📍
+### 531. [lumile/promptopia-mcp](https://github.com/lumile/promptopia-mcp)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent 📍
 
 **A server for managing and reusing prompt templates with variable substitution and multi-message conversation structures.**
 
@@ -7988,7 +8154,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 521. [dojoengine/sensei-mcp](https://github.com/dojoengine/sensei-mcp)  `9.5` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
+### 532. [dojoengine/sensei-mcp](https://github.com/dojoengine/sensei-mcp)  `9.5` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
 
 **Sensei MCP provides expert guidance for Dojo and Cairo development on Starknet.**
 
@@ -8003,7 +8169,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 522. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 533. [leghis/smart-thinking](https://github.com/leghis/smart-thinking)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **Smart-Thinking is a local, deterministic Model Context Protocol server for multi-step reasoning without external AI dependencies.**
 
@@ -8018,7 +8184,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 523. [dasein108/mcp-cw-graph](https://github.com/dasein108/mcp-cw-graph)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 534. [dasein108/mcp-cw-graph](https://github.com/dasein108/mcp-cw-graph)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **MCP Server for interacting with the CW-Social smart contract on Cosmos-based blockchains, enabling creation, management, and querying of cyberlinks.**
 
@@ -8034,7 +8200,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 524. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 535. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A tool designed to apply Claude Shannon-inspired problem-solving methodology for structured thinking and systematic problem resolution.**
 
@@ -8050,7 +8216,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 525. [Fall of man - Wikipedia](https://en.wikipedia.org/wiki/Fall_of_man)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
+### 536. [Fall of man - Wikipedia](https://en.wikipedia.org/wiki/Fall_of_man)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent 📍
 
 **This resource explores the theological and mythological concept of 'The Fall of Man,' detailing how Adam and Eve's loss of innocence resulted in the introduction of sin into the world. It examines the biblical narrative of Genesis 3, the temptation b**
 
@@ -8066,7 +8232,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 526. [Show HN: Single-header C++ libraries for LLM APIs – zero deps beyond libcurl | Hacker News](https://news.ycombinator.com/item?id=47282433)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 537. [Show HN: Single-header C++ libraries for LLM APIs – zero deps beyond libcurl | Hacker News](https://news.ycombinator.com/item?id=47282433)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The resource details a collection of single-header C++ libraries designed to interface with large language models (LLMs), emphasizing lightweight integration, efficient memory usage, and advanced features like semantic caching, cost estimation, and c**
 
@@ -8082,7 +8248,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 527. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 538. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The kuzudb/kuzu-mcp-server is a model context protocol server designed to facilitate interaction between large language models (LLMs) and Kuzu databases. It allows LLMs to fetch database schemas, run Cypher queries, and execute data-driven operations**
 
@@ -8096,7 +8262,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 528. [sapientpants/sonarqube-mcp-server](https://github.com/sapientpants/sonarqube-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 539. [sapientpants/sonarqube-mcp-server](https://github.com/sapientpants/sonarqube-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a dedicated MCP server built on SonarQube, designed to facilitate seamless integration of context management within the SonarQube platform. This solution focuses on enhancing security, automation, and workflow efficiency for deve**
 
@@ -8110,7 +8276,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 529. [Universal Claude.md – cut Claude output tokens | Hacker News](https://news.ycombinator.com/item?id=47581701)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers 📍
+### 540. [Universal Claude.md – cut Claude output tokens | Hacker News](https://news.ycombinator.com/item?id=47581701)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers 📍
 
 **The discussion revolves around evaluating whether Claude's verbose output enhances contextual coherence during agentic tasks, especially in iterative development environments. It explores concerns about token efficiency versus long-term comprehension**
 
@@ -8125,7 +8291,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 530. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 541. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A WebAssembly-based source map parser that maps JavaScript error stack traces back to source code, aiding developers in quickly identifying and resolving issues.**
 
@@ -8140,7 +8306,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 531. [codefriar/sf-mcp](https://github.com/codefriar/sf-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 542. [codefriar/sf-mcp](https://github.com/codefriar/sf-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **A platform-as-a-service tool for integrating Salesforce CLI with LLM-powered agents, enabling secure, automated code execution and workflow management.**
 
@@ -8155,7 +8321,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 532. [duhlink/instagram-server-next-mcp](https://github.com/duhlink/instagram-server-next-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 543. [duhlink/instagram-server-next-mcp](https://github.com/duhlink/instagram-server-next-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **A modular, type-safe Instagram MCP server built with TypeScript and Node.js, supporting secure media handling and integration with Chrome login sessions.**
 
@@ -8170,7 +8336,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 533. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 544. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A TypeScript-based Model Context Protocol (MCP) server that enables structured parsing and retrieval of RSS/Atom feeds, with enhanced support for RSSHub feeds.**
 
@@ -8185,7 +8351,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 534. [Genesis flood narrative - Wikipedia](https://en.wikipedia.org/wiki/Genesis_flood_narrative)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 545. [Genesis flood narrative - Wikipedia](https://en.wikipedia.org/wiki/Genesis_flood_narrative)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **This resource analyzes the 'Deluge' (the Biblical flood myth) from the Book of Genesis. It outlines the narrative of God deciding to destroy creation, saving Noah and the people/animals who entered an ark built on God's instructions. The text highlig**
 
@@ -8200,7 +8366,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 535. [xfey/MCP-Zero](https://github.com/xfey/MCP-Zero)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers
+### 546. [xfey/MCP-Zero](https://github.com/xfey/MCP-Zero)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers
 
 **A framework enabling agents to autonomously discover and request specific tools on-demand, reducing context usage by 98%.**
 
@@ -8214,7 +8380,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 536. [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 547. [VoltAgent/awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A curated, security-audited collection of over 5,000 modular `SKILL.md` runbooks for OpenClaw and other local AI assistants.**
 
@@ -8228,7 +8394,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 537. [zundamonnovrchatkaisetu/unity-mcp-ollama](https://github.com/zundamonnovrchatkaisetu/unity-mcp-ollama)  `9.1` ★★☆ ⚡81.0 Q0.8⭐ Excellent 📍
+### 548. [zundamonnovrchatkaisetu/unity-mcp-ollama](https://github.com/zundamonnovrchatkaisetu/unity-mcp-ollama)  `9.1` ★★☆ ⚡81.0 Q0.8⭐ Excellent 📍
 
 **A Unity MCP package enabling local Large Language Model integration for automated Unity development workflows.**
 
@@ -8244,7 +8410,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 538. [Knowledge Commons | Image MCP](https://image-mcp.com/posts)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
+### 549. [Knowledge Commons | Image MCP](https://image-mcp.com/posts)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
 
 **This resource provides a showcase of various AI image generation techniques, prompt recipes, model comparisons, and workflow efficiencies. It highlights the power of specialized tools (like Nano Banana Pro) for creating consistent visual styles acros**
 
@@ -8260,7 +8426,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 539. [Show HN: Salacia – The First Runtime OS for Agentic Coding | Hacker News](https://news.ycombinator.com/item?id=47196475)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
+### 550. [Show HN: Salacia – The First Runtime OS for Agentic Coding | Hacker News](https://news.ycombinator.com/item?id=47196475)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
 
 **Salacia addresses the critical issue of context loss in agentic coding by providing a robust runtime environment that compiles raw prompts into structured intent IR and verifiable specifications. It employs metamorphic testing to detect semantic drif**
 
@@ -8275,7 +8441,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 540. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 551. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **This resource explores how to implement a living memory system for AI applications, emphasizing the use of context tokens and selective data loading to preserve critical design, security, user behavior, and business logic insights. It outlines archit**
 
@@ -8290,7 +8456,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 541. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 552. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Figma MCP Server acts as a bridge between AI assistants like Claude and Figma files, allowing users to view, comment, and analyze designs directly through the ModelContextProtocol. It supports adding files, posting comments, and managing interact**
 
@@ -8304,7 +8470,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 542. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
+### 553. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The Waldur MCP server implements the Model Context Protocol (MCP) to facilitate direct interaction between Waldur instances and Claude Desktop. This integration allows seamless context passing, enhancing interoperability and enabling advanced AI-driv**
 
@@ -8318,7 +8484,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 543. [lazerthings/twosplit](https://github.com/lazerthings/twosplit)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
+### 554. [lazerthings/twosplit](https://github.com/lazerthings/twosplit)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
 
 **The 'Borg' Project's MCP server integrates multiple Claude instances to deliver enhanced responses. It sends the same prompt to two separate AI models and uses a third instance to combine or select the best output, optimizing the final response.**
 
@@ -8332,7 +8498,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 544. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `10.0` ★★★ ⚡80.0 Q0.8🏆 World-class · ↗2 layers
+### 555. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)  `10.0` ★★★ ⚡80.0 Q0.8🏆 World-class · ↗2 layers
 
 **A synchronization and evolution layer for Claude Code that ensures an agent's memory, skills, and architectural rules follow the developer across different machines.**
 
@@ -8345,7 +8511,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 545. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers 📍
+### 556. [Cluster444/agentic](https://github.com/Cluster444/agentic)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers 📍
 
 **A structured context management tool that implements a /thoughts directory to provide agents with long-term memory and systematic workflows.**
 
@@ -8359,7 +8525,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 546. [minimax-ai/minimax-mcp](https://github.com/minimax-ai/minimax-mcp)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 557. [minimax-ai/minimax-mcp](https://github.com/minimax-ai/minimax-mcp)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **MiniMax-MCP 官方服务器，支持与强大的文本转语音、图像生成和视频生成API的交互。**
 
@@ -8375,7 +8541,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 547. [Shema - Wikipedia](https://en.m.wikipedia.org/wiki/Shema)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 558. [Shema - Wikipedia](https://en.m.wikipedia.org/wiki/Shema)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **The Shema Yisrael is a central Jewish prayer, serving as the centerpiece of morning and evening services. It encapsulates the monotheistic essence of Judaism, rooted in Deuteronomy 6:4 ( 'Hear, O Israel: YHWH our God, YHWH is one'). The text details **
 
@@ -8391,7 +8557,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 548. [https://pajuhaan.medium.com/the-unification-of-general-relativity-and-](https://pajuhaan.medium.com/the-unification-of-general-relativity-and-quantum-physics-has-been-solved-but-more-is-behind-it-cf03cab43e40)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good 📍
+### 559. [https://pajuhaan.medium.com/the-unification-of-general-relativity-and-](https://pajuhaan.medium.com/the-unification-of-general-relativity-and-quantum-physics-has-been-solved-but-more-is-behind-it-cf03cab43e40)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good 📍
 
 **This article proposes a fresh perspective on the unification of general relativity and quantum mechanics by introducing a single kinematic constraint (Rw=c) that links internal phase dynamics to physical space motion. By avoiding prior assumptions ab**
 
@@ -8406,7 +8572,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 549. [VeyraX](https://www.veyrax.com/web)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 560. [VeyraX](https://www.veyrax.com/web)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **The resource outlines VeyraX as a platform that unifies API and UI components for AI agents, facilitating their integration into existing systems. It emphasizes the shift from traditional websites to intelligent agents that can manage complex workflo**
 
@@ -8421,7 +8587,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 550. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers 📍
+### 561. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **The project provides a model context protocol server that analyzes Python code for structure, complexity, and dependencies using Claude. It supports warnings and integrates with AI tools to enhance code quality and security.**
 
@@ -8435,7 +8601,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 551. [Embarrassingly simple self-distillation improves code generation | Hacker News](https://news.ycombinator.com/item?id=47637757)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
+### 562. [Embarrassingly simple self-distillation improves code generation | Hacker News](https://news.ycombinator.com/item?id=47637757)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The paper explores how self-distillation (SSD) improves the ranking of optimal tokens during code generation, highlighting the balance between exploration in divergent thinking and precision in convergent execution. It emphasizes the tension between **
 
@@ -8450,7 +8616,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 552. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 563. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The a2xdeveloper/tagesschau-mcp-server is an MCP (Model Context Protocol) server designed to provide secure access to the latest news articles from the tagesschau website. It enables developers and organizations to fetch real-time news, retrieve deta**
 
@@ -8463,7 +8629,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 553. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 564. [weaviate/mcp-server-weaviate](https://github.com/weaviate/mcp-server-weaviate)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP (Model Context Protocol) server enables secure, efficient communication between Weaviate and other systems by facilitating the exchange of model context information. This project focuses on integrating the MCP server into Weaviate to enhance **
 
@@ -8476,7 +8642,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 554. [seanmcloughlin/mcp-vcd](https://github.com/seanmcloughlin/mcp-vcd)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 565. [seanmcloughlin/mcp-vcd](https://github.com/seanmcloughlin/mcp-vcd)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **The mcp-vcd project provides a Model Context Protocol implementation designed to manage and process VCD files, which are used to represent changes in data models. This tool is particularly useful for developers working with complex waveform data that**
 
@@ -8489,7 +8655,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 555. [timazed/CodexKit](https://github.com/timazed/CodexKit)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 566. [timazed/CodexKit](https://github.com/timazed/CodexKit)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A lightweight iOS SDK for embedding secure, threaded OpenAI-powered Codex agents with structured memory, authentication, and workflow automation.**
 
@@ -8505,7 +8671,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 556. [wrale/mcp-server-tree-sitter](https://github.com/wrale/mcp-server-tree-sitter)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 567. [wrale/mcp-server-tree-sitter](https://github.com/wrale/mcp-server-tree-sitter)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A powerful MCP Server for Tree-sitter that enables AI assistants to analyze code with context, search, and dependency insights.**
 
@@ -8521,7 +8687,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 557. [jon-vii/canvas-student-mcp](https://github.com/jon-vii/canvas-student-mcp/tree/HEAD/src/canvas-student)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 568. [jon-vii/canvas-student-mcp](https://github.com/jon-vii/canvas-student-mcp/tree/HEAD/src/canvas-student)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Integration of Canvas Student MCP with LLM clients via the MCP standard to enable intelligent interactions within a LMS.**
 
@@ -8537,7 +8703,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 558. [mattiasw/browserloop](https://github.com/mattiasw/browserloop)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 569. [mattiasw/browserloop](https://github.com/mattiasw/browserloop)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server for capturing screenshots and monitoring browser console logs during web development.**
 
@@ -8553,7 +8719,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 559. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 570. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server implementation for integrating Gmail API with AI assistants, enabling secure and context-aware email interactions.**
 
@@ -8569,7 +8735,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 560. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 571. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **IoTDB MCP Server enables secure, scalable database interaction and business intelligence for IoT data using Apache IoTDB.**
 
@@ -8585,7 +8751,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 561. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 572. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A tool for extracting and analyzing Xcode build errors and warnings to assist AI assistants in debugging Swift projects.**
 
@@ -8601,7 +8767,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 562. [dfkai/xtquantai](https://github.com/dfkai/xtquantai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 573. [dfkai/xtquantai](https://github.com/dfkai/xtquantai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **xtquantai integrates AI and MCP to enable AI access to quantitative trading data, enhancing decision-making with advanced analytics.**
 
@@ -8617,7 +8783,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 563. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 574. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Python-based server implementing the Model Context Protocol (MCP) for Zotero, enabling AI assistants to access and interact with Zotero libraries.**
 
@@ -8633,7 +8799,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 564. [victoriametrics-community/mcp-victorialogs](https://github.com/victoriametrics-community/mcp-victorialogs)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 575. [victoriametrics-community/mcp-victorialogs](https://github.com/victoriametrics-community/mcp-victorialogs)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Implementation of Model Context Protocol (MCP) server for VictoriaLogs to enable advanced observability and automation.**
 
@@ -8649,7 +8815,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 565. [victoriametrics-community/mcp-victoriametrics](https://github.com/victoriametrics-community/mcp-victoriametrics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 576. [victoriametrics-community/mcp-victoriametrics](https://github.com/victoriametrics-community/mcp-victoriametrics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Implementation of Model Context Protocol (MCP) server for VictoriaMetrics to enable advanced observability, integration, and automation capabilities.**
 
@@ -8665,7 +8831,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 566. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
+### 577. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Borg-based AI platform that integrates Brave Search with Puppeteer for deep web research, enabling comprehensive content extraction and analysis.**
 
@@ -8681,7 +8847,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 567. [tositon/opendeepsearch](https://github.com/tositon/opendeepsearch)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 578. [tositon/opendeepsearch](https://github.com/tositon/opendeepsearch)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **OpenDeepSearch is an open-source research tool that integrates MCP for structured, in-depth analysis of complex topics.**
 
@@ -8697,7 +8863,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 568. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 579. [startr/web-mcpo-repo_scanner](https://github.com/startr/web-mcpo-repo_scanner)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for automatically scanning codebases for unmanaged or incomplete TODO items, improving code quality and maintainability.**
 
@@ -8713,7 +8879,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 569. [icraft2170/youtube-data-mcp-server](https://github.com/icraft2170/youtube-data-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 580. [icraft2170/youtube-data-mcp-server](https://github.com/icraft2170/youtube-data-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based YouTube Data API server enabling AI models to interact with YouTube content securely and efficiently.**
 
@@ -8729,7 +8895,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 570. [andybrandt/mcp-simple-timeserver](https://github.com/andybrandt/mcp-simple-timeserver)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 581. [andybrandt/mcp-simple-timeserver](https://github.com/andybrandt/mcp-simple-timeserver)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling Claude to access real-time time, holiday information, and date calculations across multiple regions.**
 
@@ -8745,7 +8911,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 571. [drjforrest/mcp-things3](https://github.com/drjforrest/mcp-things3)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 582. [drjforrest/mcp-things3](https://github.com/drjforrest/mcp-things3)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A Model Context Protocol server for macOS Things3, enabling secure and efficient management of tasks and projects via AppleScript and x-call URLs.**
 
@@ -8761,7 +8927,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 572. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 583. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Borg project demonstrating MCP-based multi-functional server implementations for database search, GitHub search, and time management.**
 
@@ -8777,7 +8943,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 573. [sugatraj/cursor-browser-tools-mcp](https://github.com/sugatraj/cursor-browser-tools-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 584. [sugatraj/cursor-browser-tools-mcp](https://github.com/sugatraj/cursor-browser-tools-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A browser monitoring and interaction tool that enables AI-powered analysis of web pages through a Chrome extension.**
 
@@ -8793,7 +8959,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 574. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 585. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A cloud-based MCP server for integrating large language models with Cloudflare APIs, enabling seamless interaction between LLMs and external systems.**
 
@@ -8809,7 +8975,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 575. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 586. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Node.js application providing a Model Context Protocol (MCP) server for interacting with Harbor container registry.**
 
@@ -8825,7 +8991,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 576. [0xhijo/mcp_twitter](https://github.com/0xhijo/mcp_twitter)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 587. [0xhijo/mcp_twitter](https://github.com/0xhijo/mcp_twitter)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A TypeScript-based Model Context Protocol enabling AI applications to interact with Twitter/X securely and efficiently.**
 
@@ -8841,7 +9007,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 577. [wirdes/db-mcp-tool](https://github.com/wirdes/db-mcp-tool)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 588. [wirdes/db-mcp-tool](https://github.com/wirdes/db-mcp-tool)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A powerful Model Context Protocol (MCP) tool for exploring and managing various database types including PostgreSQL, MySQL, and Firestore.**
 
@@ -8857,7 +9023,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 578. [hannesj/mcp-graphql-schema](https://github.com/hannesj/mcp-graphql-schema)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 589. [hannesj/mcp-graphql-schema](https://github.com/hannesj/mcp-graphql-schema)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for LLMs to explore and understand GraphQL schemas, providing query, mutation, subscription details, type definitions, and field information.**
 
@@ -8873,7 +9039,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 579. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 590. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A MCP server that integrates with Postman to provide structured access and management of API collections, environments, and APIs.**
 
@@ -8889,7 +9055,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 580. [raw391/coin_daemon_mcp](https://github.com/raw391/coin_daemon_mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 591. [raw391/coin_daemon_mcp](https://github.com/raw391/coin_daemon_mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A beta MCP server enabling AI assistants to securely interact with cryptocurrency daemons for transaction management, monitoring, and data analysis.**
 
@@ -8905,7 +9071,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 581. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 592. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server for managing Memory Banks, enabling AI assistants to store and retrieve information across sessions.**
 
@@ -8921,7 +9087,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 582. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 593. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A secure, context-aware MCP server enabling seamless integration with Readwise Reader API for enriched document management.**
 
@@ -8937,7 +9103,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 583. [wuyunmei/momedb-mcp](https://github.com/wuyunmei/momedb-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 594. [wuyunmei/momedb-mcp](https://github.com/wuyunmei/momedb-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A platform for managing AI applications using MCP, focusing on knowledge management and secure development workflows.**
 
@@ -8953,7 +9119,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 584. [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 595. [comet-ml/opik-mcp](https://github.com/comet-ml/opik-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **Model Context Protocol (MCP) implementation for Opik, enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics.**
 
@@ -8969,7 +9135,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 585. [Korfu/mcp-bitbucket](https://github.com/Korfu/mcp-bitbucket)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 596. [Korfu/mcp-bitbucket](https://github.com/Korfu/mcp-bitbucket)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Integrates Bitbucket with Cursor IDE to enable seamless repository and commit data access for users without GitHub.**
 
@@ -8985,7 +9151,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 586. [bsmi021/mcp-task-manager-server](https://github.com/bsmi021/mcp-task-manager-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 597. [bsmi021/mcp-task-manager-server](https://github.com/bsmi021/mcp-task-manager-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A local Model Context Protocol (MCP) server enabling client-driven project and task management with SQLite persistence.**
 
@@ -9001,7 +9167,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 587. [shinshin86/mcp-simple-aivisspeech](https://github.com/shinshin86/mcp-simple-aivisspeech)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 598. [shinshin86/mcp-simple-aivisspeech](https://github.com/shinshin86/mcp-simple-aivisspeech)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server enabling seamless integration with AivisSpeech for natural-sounding Japanese text-to-speech conversion.**
 
@@ -9017,7 +9183,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 588. [jlfwong/food-data-central-mcp-server](https://github.com/jlfwong/food-data-central-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 599. [jlfwong/food-data-central-mcp-server](https://github.com/jlfwong/food-data-central-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A server-based platform for integrating and managing access to the USDA FoodData Central API, enabling food data retrieval and analysis.**
 
@@ -9033,7 +9199,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 589. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 600. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that enables querying of ATT&CK techniques and tactics for security analysis.**
 
@@ -9049,7 +9215,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 590. [DavidFuchs/mcp-uptime-kuma](https://github.com/DavidFuchs/mcp-uptime-kuma)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 601. [DavidFuchs/mcp-uptime-kuma](https://github.com/DavidFuchs/mcp-uptime-kuma)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server for Uptime Kuma version 2, enabling real-time monitoring and context-aware metrics.**
 
@@ -9065,7 +9231,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 591. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 602. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python-based MCP server for searching and downloading academic papers from multiple sources, enabling seamless integration with LLMs.**
 
@@ -9081,7 +9247,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 592. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 603. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server-based solution for managing property data via the Model Context Protocol, supporting both stdio and streamable HTTP transport.**
 
@@ -9097,7 +9263,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 593. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 604. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A secure, OAuth-authenticated Model Context Protocol (MCP) server enabling secure access to MyMLH API v4 for AI applications.**
 
@@ -9113,7 +9279,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 594. [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 605. [jjlabsio/korea-stock-mcp](https://github.com/jjlabsio/korea-stock-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A MCP Server for Korean stock analysis that integrates official APIs from DART and KRX to provide AI-powered insights on stock data.**
 
@@ -9129,7 +9295,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 595. [hithereiamaliff/mcp-datagovmy](https://github.com/hithereiamaliff/mcp-datagovmy)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 606. [hithereiamaliff/mcp-datagovmy](https://github.com/hithereiamaliff/mcp-datagovmy)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **An unofficial Model Context Protocol (MCP) server enabling secure and efficient access to Malaysia's Open Data APIs.**
 
@@ -9145,7 +9311,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 596. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 607. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server that provides access to The Movie Database API for searching movies, TV shows, people, and retrieving detailed information.**
 
@@ -9161,7 +9327,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 597. [reexpressai/reexpress_mcp_server](https://github.com/reexpressai/reexpress_mcp_server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 608. [reexpressai/reexpress_mcp_server](https://github.com/reexpressai/reexpress_mcp_server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A tool for adding statistical verification and confidence estimation to AI model outputs, enhancing reliability in LLM-based workflows.**
 
@@ -9176,7 +9342,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 598. [jean-technologies/mcp-writer-substack](https://github.com/jean-technologies/mcp-writer-substack)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 609. [jean-technologies/mcp-writer-substack](https://github.com/jean-technologies/mcp-writer-substack)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool that bridges Substack and Medium writing to Claude, enabling semantic search and personalized assistance with published content.**
 
@@ -9191,7 +9357,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 599. [hzzy2o/flux-cloudfare-mcp](https://github.com/hzzy2o/flux-cloudfare-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 610. [hzzy2o/flux-cloudfare-mcp](https://github.com/hzzy2o/flux-cloudfare-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A cloud-native MCP server enabling AI-driven image generation via Flux model, integrated with Cloudflare Workers for secure, scalable deployment.**
 
@@ -9206,7 +9372,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 600. [esnark/blowback](https://github.com/esnark/blowback)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 611. [esnark/blowback](https://github.com/esnark/blowback)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Blowback Blowback aims to integrate MCP server with AI tools for frontend development, enabling advanced context-aware code assistance.**
 
@@ -9221,7 +9387,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 601. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 612. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A framework enabling communication with AI models via Model Context Protocol (MCP) to standardize interactions between AI and various data sources.**
 
@@ -9236,7 +9402,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 602. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 613. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling developers to generate realistic human faces with customizable shapes, sizes, and appearances.**
 
@@ -9251,7 +9417,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 603. [https://thecritic.co.uk/poet-artist-tantric-christian](https://thecritic.co.uk/poet-artist-tantric-christian)  `9.8` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 614. [https://thecritic.co.uk/poet-artist-tantric-christian](https://thecritic.co.uk/poet-artist-tantric-christian)  `9.8` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **The article analyzes William Blake's work through the lens of modern Christian thought, positioning him as a tantric Christian whose mystical imagination challenges conventional religious and philosophical frameworks. It highlights his unique blend o**
 
@@ -9265,7 +9431,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 604. [xtellect/cactus](https://github.com/xtellect/cactus)  `9.3` ★★☆ ⚡79.0 Q0.7✓ Very good 📍
+### 615. [xtellect/cactus](https://github.com/xtellect/cactus)  `9.3` ★★☆ ⚡79.0 Q0.7✓ Very good 📍
 
 **A lightweight parallel recursion runtime for C that optimizes task distribution and load balancing across CPU cores.**
 
@@ -9281,7 +9447,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 605. [reprompt-dev/reprompt](https://github.com/reprompt-dev/reprompt)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
+### 616. [reprompt-dev/reprompt](https://github.com/reprompt-dev/reprompt)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
 
 **Analyze AI coding sessions to optimize prompt quality, detect security risks, and improve developer productivity.**
 
@@ -9297,7 +9463,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 606. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 617. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Go-based MCP server enabling LLMs to interact with Nutanix Prism Central APIs via the Model Context Protocol.**
 
@@ -9313,7 +9479,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 607. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 618. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A secure command-line interface for MCP clients with customizable security policies.**
 
@@ -9329,7 +9495,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 608. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 619. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Java-based Model Context Protocol (MCP) server for JDBC, enabling secure and efficient database connectivity.**
 
@@ -9345,7 +9511,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 609. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 620. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A context protocol server enabling integration with Mochow and supporting advanced AI model interactions.**
 
@@ -9361,7 +9527,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 610. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 621. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A server for managing LLM contexts with YAML-based configuration and resource management.**
 
@@ -9377,7 +9543,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 611. [tddt/stock_info_mcp](https://github.com/tddt/stock_info_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 622. [tddt/stock_info_mcp](https://github.com/tddt/stock_info_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Borg-based stock intelligence platform providing historical data, fundamental info, news, and risk alerts.**
 
@@ -9393,7 +9559,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 612. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 623. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A unified search platform integrating DuckDuckGo with LLMs for enterprise-grade web search capabilities.**
 
@@ -9409,7 +9575,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 613. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 624. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **An MCP server enabling LLM-powered applications to query OCI registries and image references.**
 
@@ -9425,7 +9591,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 614. [karthikkrs/isms-mcp-project](https://github.com/karthikkrs/isms-mcp-project)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 625. [karthikkrs/isms-mcp-project](https://github.com/karthikkrs/isms-mcp-project)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A comprehensive security management platform integrating AI capabilities for enhanced information security.**
 
@@ -9441,7 +9607,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 615. [superseoworld/mcp-spotify](https://github.com/superseoworld/mcp-spotify)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 626. [superseoworld/mcp-spotify](https://github.com/superseoworld/mcp-spotify)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server enabling secure and efficient interaction with Spotify's Web API for enterprise applications.**
 
@@ -9457,7 +9623,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 616. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 627. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) compatible server for securely interacting with NEAR blockchain.**
 
@@ -9473,7 +9639,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 617. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 628. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A TypeScript-based MCP server enabling integration with large language models for AI-generated images and videos.**
 
@@ -9489,7 +9655,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 618. [yhc984/cursor-talk-to-figma-mcp-main](https://github.com/yhc984/cursor-talk-to-figma-mcp-main)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 629. [yhc984/cursor-talk-to-figma-mcp-main](https://github.com/yhc984/cursor-talk-to-figma-mcp-main)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **Integrates Cursor AI with Figma using Model Context Protocol for programmatic design interaction.**
 
@@ -9505,7 +9671,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 619. [kazuph/mcp-fetch](https://github.com/kazuph/mcp-fetch)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 630. [kazuph/mcp-fetch](https://github.com/kazuph/mcp-fetch)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A tool for fetching and processing web content, including images, to support AI-driven applications.**
 
@@ -9521,7 +9687,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 620. [krzko/google-cloud-mcp](https://github.com/krzko/google-cloud-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 631. [krzko/google-cloud-mcp](https://github.com/krzko/google-cloud-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling secure, context-aware interactions with Google Cloud services.**
 
@@ -9537,7 +9703,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 621. [bsmi021/mcp-node-omnibus-server](https://github.com/bsmi021/mcp-node-omnibus-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 632. [bsmi021/mcp-node-omnibus-server](https://github.com/bsmi021/mcp-node-omnibus-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A comprehensive Model Context Protocol (MCP) server offering advanced Node.js development tooling and automation.**
 
@@ -9553,7 +9719,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 622. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 633. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **MCP servers extending AI model capabilities with tools and resources via the Model Context Protocol.**
 
@@ -9569,7 +9735,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 623. [nighttrek/software-planning-mcp](https://github.com/nighttrek/software-planning-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 634. [nighttrek/software-planning-mcp](https://github.com/nighttrek/software-planning-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **An experiment in software planning using MCP to structure and track development tasks.**
 
@@ -9585,7 +9751,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 624. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 635. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A MCP-compatible server enabling AI assistants to interact with Lightdash data via standardized API.**
 
@@ -9601,7 +9767,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 625. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 636. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **OpenDigger MCP Server enables advanced repository analytics and insights through tools and prompts.**
 
@@ -9617,7 +9783,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 626. [stevenstavrakis/obsidian-mcp](https://github.com/stevenstavrakis/obsidian-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 637. [stevenstavrakis/obsidian-mcp](https://github.com/stevenstavrakis/obsidian-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A lightweight MCP server enabling AI assistants to interact with Obsidian vaults for note management.**
 
@@ -9633,7 +9799,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 627. [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 638. [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **MCP Documentation Service enables AI-assisted management of documentation through natural language interactions.**
 
@@ -9649,7 +9815,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 628. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 639. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP tool enabling AI to compress and decompress local files with advanced security and metadata support.**
 
@@ -9665,7 +9831,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 629. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 640. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server that provides real-time trending content from Chinese internet sources using the Model Context Protocol.**
 
@@ -9681,7 +9847,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 630. [ricauts/cybermcp](https://github.com/ricauts/cybermcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 641. [ricauts/cybermcp](https://github.com/ricauts/cybermcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **CyberMCP enables AI-powered security testing of backend APIs using a Model Context Protocol server.**
 
@@ -9697,7 +9863,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 631. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 642. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Ein Model Context Protocol (MCP) Server for accessing Deutsche Bahn timetable data.**
 
@@ -9713,7 +9879,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 632. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 643. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A powerful server integrating Google AI Studio with Gemini API for advanced multi-modal content processing.**
 
@@ -9729,7 +9895,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 633. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 644. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Servidor MCP elegante y eficiente para gestionar frases inspiradoras, integrándose con Claude for Desktop.**
 
@@ -9745,7 +9911,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 634. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 645. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A MCP server bridging Hacker News API with AI tools for seamless integration.**
 
@@ -9761,7 +9927,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 635. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 646. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server tool for generating O'Reilly parody dev books, integrating with Claude Desktop.**
 
@@ -9777,7 +9943,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 636. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
+### 647. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A versatile random number and generator utility library for secure code generation, supporting UUIDs, numbers, passwords, dice, cards, and more.**
 
@@ -9793,7 +9959,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 637. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 648. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Borg intelligence database server enabling seamless access to IGDB API for AI assistants.**
 
@@ -9809,7 +9975,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 638. [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 649. [connerlambden/bgpt-mcp](https://github.com/connerlambden/bgpt-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A remote MCP server providing structured access to scientific paper data for AI-driven research and analysis.**
 
@@ -9825,7 +9991,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 639. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 650. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP server enabling AI-driven Google News search with multilingual support and structured data output.**
 
@@ -9840,7 +10006,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 640. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 651. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A toolset for automating API integration, code generation, and design-to-code workflows using Figma.**
 
@@ -9855,7 +10021,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 641. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 652. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Model Context Protocol server enabling AI tools like Claude to securely and efficiently manage Python development workflows.**
 
@@ -9870,7 +10036,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 642. [vortiago/mcp-azure-devops](https://github.com/vortiago/mcp-azure-devops)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 653. [vortiago/mcp-azure-devops](https://github.com/vortiago/mcp-azure-devops)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling AI assistants to interact with Azure DevOps services via Python SDK.**
 
@@ -9885,7 +10051,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 643. [lostintangent/gistpad-mcp](https://github.com/lostintangent/gistpad-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 654. [lostintangent/gistpad-mcp](https://github.com/lostintangent/gistpad-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A GitHub-based MCP server for managing personal knowledge, daily notes, and reusable prompts via GitHub Gists.**
 
@@ -9900,7 +10066,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 644. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 655. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A modular MCP server for PowerPoint manipulation using Python, enabling advanced presentation creation, editing, and management.**
 
@@ -9915,7 +10081,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 645. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 656. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling secure note access and integration with AI assistants.**
 
@@ -9930,7 +10096,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 646. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 657. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server for comprehensive domain analysis including WHOIS, DNS records, and DNS health checks.**
 
@@ -9945,7 +10111,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 647. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 658. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A toolset for crawling documentation sites, generating Markdown, and enabling searchable indexing via MCP protocol.**
 
@@ -9960,7 +10126,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 648. [r-huijts/firstcycling-mcp](https://github.com/r-huijts/firstcycling-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 659. [r-huijts/firstcycling-mcp](https://github.com/r-huijts/firstcycling-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server providing professional cycling data for analysis and visualization.**
 
@@ -9975,7 +10141,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 649. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 660. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Model Context Protocol server providing accurate Islamic prayer times for Malaysia via real-time API integration.**
 
@@ -9990,7 +10156,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 650. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 661. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **MCP server for UniProt protein data access enabling AI assistants to fetch protein information.**
 
@@ -10005,7 +10171,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 651. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 662. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Spring Boot-based Model Context Protocol (MCP) server enabling interaction with GitHub Copilot for AI-assisted game development.**
 
@@ -10020,7 +10186,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 652. [dhkts1/sequentialstory](https://github.com/dhkts1/sequentialstory)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 663. [dhkts1/sequentialstory](https://github.com/dhkts1/sequentialstory)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Python-based sequential thinking framework for structured problem-solving using narrative techniques.**
 
@@ -10035,7 +10201,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 653. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 664. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **MCP Server for NovaCV API integration, enabling secure access to job application context protocols.**
 
@@ -10050,7 +10216,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 654. [jkf87/hwp-mcp](https://github.com/jkf87/hwp-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 665. [jkf87/hwp-mcp](https://github.com/jkf87/hwp-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **HWP-MCP is a Model Context Protocol server enabling AI models like Claude to control and manipulate Korean documents.**
 
@@ -10065,7 +10231,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 655. [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 666. [freestylefly/mcp-server-weread](https://github.com/freestylefly/mcp-server-weread)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A tool that integrates micro services and LLM clients via MCP protocol to provide structured data for AI models.**
 
@@ -10080,7 +10246,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 656. [politwit1984/mcp-perplexity-server](https://github.com/politwit1984/mcp-perplexity-server)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 667. [politwit1984/mcp-perplexity-server](https://github.com/politwit1984/mcp-perplexity-server)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server for intelligent code analysis and debugging using Perplexity AI, integrated with Claude desktop client.**
 
@@ -10095,7 +10261,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 657. [bsmi021/mcp-file-context-server](https://github.com/bsmi021/mcp-file-context-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 668. [bsmi021/mcp-file-context-server](https://github.com/bsmi021/mcp-file-context-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol server enabling LLMs to access and analyze code files with advanced caching and real-time monitoring.**
 
@@ -10110,7 +10276,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 658. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 669. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A collection of Apple-native tools designed to enhance the model context protocol for seamless integration with AI applications.**
 
@@ -10125,7 +10291,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 659. [endaoment/endaoment-postgres-mcp](https://github.com/endaoment/endaoment-postgres-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 670. [endaoment/endaoment-postgres-mcp](https://github.com/endaoment/endaoment-postgres-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A model context protocol server enabling secure, standardized interaction between AI models and PostgreSQL databases.**
 
@@ -10140,7 +10306,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 660. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 671. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server-based solution for accessing and manipulating Google Spreadsheet data via Model Context Protocol (MCP) integration.**
 
@@ -10155,7 +10321,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 661. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers 📍
+### 672. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers 📍
 
 **A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
 
@@ -10170,7 +10336,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 662. [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
+### 673. [jfrog/mcp-jfrog](https://github.com/jfrog/mcp-jfrog)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Model Context Protocol (MCP) Server for the JFrog Platform API, enabling repository management, build tracking, and release lifecycle management.**
 
@@ -10185,7 +10351,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 663. [idcdev/mcp-magic-ui](https://github.com/idcdev/mcp-magic-ui)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 674. [idcdev/mcp-magic-ui](https://github.com/idcdev/mcp-magic-ui)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A server enabling access and search for Magic UI components via the Model Context Protocol.**
 
@@ -10200,7 +10366,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 664. [auto-browse/unbundle_openapi_mcp](https://github.com/auto-browse/unbundle_openapi_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
+### 675. [auto-browse/unbundle_openapi_mcp](https://github.com/auto-browse/unbundle_openapi_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
 
 **A tool for programmatically splitting and extracting OpenAPI specifications into smaller files, enabling modular development and maintenance.**
 
@@ -10215,7 +10381,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 665. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 676. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A JSON model context protocol server enabling LLMs to interact with structured JSON data through standardized tools.**
 
@@ -10230,7 +10396,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 666. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 677. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A MCP server for simulating dice rolls with support for standard and Fate/Fudge dice notation.**
 
@@ -10245,7 +10411,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 667. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 678. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A model context protocol server for YouTube videos enabling metadata extraction, caption handling, and markdown conversion.**
 
@@ -10260,7 +10426,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 668. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers 📍
+### 679. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A macOS application that manages Model Context Protocol (MCP) servers for Claude Desktop, enabling AI-driven interaction with construction documents.**
 
@@ -10275,7 +10441,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 669. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 680. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for auditing npm package dependencies to identify security vulnerabilities using real-time remote registry integration.**
 
@@ -10290,7 +10456,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 670. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 681. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A model context protocol server for interacting with Quran.com API to search verses, translations, and tafsirs.**
 
@@ -10305,7 +10471,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 671. [kentaro/aivis-speech-mcp](https://github.com/kentaro/aivis-speech-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 682. [kentaro/aivis-speech-mcp](https://github.com/kentaro/aivis-speech-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A server implementation for integrating AivisSpeech using the Model Context Protocol (MCP) to enable AI-driven voice synthesis.**
 
@@ -10320,7 +10486,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 672. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 683. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A MCP Task Server implementation for task management using the Model Context Protocol, supporting both CLI and web interfaces.**
 
@@ -10335,7 +10501,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 673. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 684. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) service for retrieving image dimensions and compressing images from URLs and local files.**
 
@@ -10350,7 +10516,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 674. [cuongpo/coti-mcp](https://github.com/cuongpo/coti-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 685. [cuongpo/coti-mcp](https://github.com/cuongpo/coti-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A blockchain-based platform enabling secure AI interactions with the COTI blockchain using Multi-Party Computation.**
 
@@ -10365,7 +10531,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 675. [Show HN: I'm tired of my LLM bullshitting. So I fixed it | Hacker News](https://news.ycombinator.com/item?id=46721773)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 686. [Show HN: I'm tired of my LLM bullshitting. So I fixed it | Hacker News](https://news.ycombinator.com/item?id=46721773)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **The tool uses a 'glass-box' approach with knowledge base mechanics, a triple-pass 'Mentats' pipeline for deep thinking against curated sources, and 'Vodka' for deterministic memory management. It aims to provide verifiable answers and avoid 'vibes-ba**
 
@@ -10381,7 +10547,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 676. [Get Shit Done: A meta-prompting, context engineering and spec-driven dev system | Hacker News](https://news.ycombinator.com/item?id=47417804)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 687. [Get Shit Done: A meta-prompting, context engineering and spec-driven dev system | Hacker News](https://news.ycombinator.com/item?id=47417804)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The resource describes a hybrid development approach combining Superpowers (a prompt-based framework) with Ralph (a Docker-based implementation layer). It emphasizes iterative refinement, cross-checks, and modular design to balance automation with hu**
 
@@ -10397,7 +10563,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 677. [Context engineering is sleeping on the humble hyperlink](https://mbleigh.dev/posts/context-engineering-with-links)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
+### 688. [Context engineering is sleeping on the humble hyperlink](https://mbleigh.dev/posts/context-engineering-with-links)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
 
 **An architectural paradigm advocating for the use of hyperlinks (MCP Resources) as primitives for "Just-in-Time" context to prevent token rot.**
 
@@ -10412,7 +10578,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 678. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 689. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **Framelink MCP server integrates Figma layout data into AI coding agents for precise design-to-code generation.**
 
@@ -10426,7 +10592,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 679. [ipvr9/mcp-limitless-server](https://github.com/ipvr9/mcp-limitless-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 690. [ipvr9/mcp-limitless-server](https://github.com/ipvr9/mcp-limitless-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling AI tools to interact with Limitless Pendant data in a structured, programmable way.**
 
@@ -10440,7 +10606,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 680. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 691. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal**
 
@@ -10454,7 +10620,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 681. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
+### 692. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The damus-io/nostrdb-mcp project provides a Model Context Protocol server that allows natural language processing models to interact with the ndb command-line tool. This facilitates integration of LLMs with database operations, enhancing automation a**
 
@@ -10467,7 +10633,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 682. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 693. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A GitLab MCP integration for AI assistants to review code changes directly within merge requests.**
 
@@ -10483,7 +10649,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 683. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 694. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A command-line tool for project planning and management with AI-assisted development.**
 
@@ -10499,7 +10665,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 684. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 695. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling access to Azure Resource Graph queries across subscriptions.**
 
@@ -10515,7 +10681,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 685. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 696. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling secure and flexible email sending for AI assistants.**
 
@@ -10531,7 +10697,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 686. [mkearl/dependency-mcp](https://github.com/mkearl/dependency-mcp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 697. [mkearl/dependency-mcp](https://github.com/mkearl/dependency-mcp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server for analyzing code dependencies and architectural patterns.**
 
@@ -10547,7 +10713,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 687. [66julienmartin/mcp-server-qwen_max](https://github.com/66julienmartin/mcp-server-qwen_max)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 698. [66julienmartin/mcp-server-qwen_max](https://github.com/66julienmartin/mcp-server-qwen_max)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A server implementation for deploying and managing the Qwen Max language model via MCP protocol.**
 
@@ -10563,7 +10729,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 688. [jjikky/dynamo-readonly-mcp](https://github.com/jjikky/dynamo-readonly-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 699. [jjikky/dynamo-readonly-mcp](https://github.com/jjikky/dynamo-readonly-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **A server enabling LLMs to query AWS DynamoDB using natural language.**
 
@@ -10578,7 +10744,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 689. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 700. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Maya MCP server enables AI-powered control of Autodesk Maya via natural language using the Model Context Protocol.**
 
@@ -10593,7 +10759,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 690. [devhub/devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 701. [devhub/devhub-cms-mcp](https://github.com/devhub/devhub-cms-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Integration of Claude Desktop with DevHub CMS via Model Context Protocol for LLM-based content management.**
 
@@ -10608,7 +10774,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 691. [zedmoster/revit-mcp](https://github.com/zedmoster/revit-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 702. [zedmoster/revit-mcp](https://github.com/zedmoster/revit-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **Integration of AI assistants with Revit via MCP for automated building design and management.**
 
@@ -10623,7 +10789,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 692. [futureunreal/mcp-pdf2md](https://github.com/futureunreal/mcp-pdf2md)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 703. [futureunreal/mcp-pdf2md](https://github.com/futureunreal/mcp-pdf2md)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A tool for converting PDF files to structured Markdown format, supporting batch processing and intelligent document handling.**
 
@@ -10638,7 +10804,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 693. [heyzgj/mcp-feargreedindex](https://github.com/heyzgj/mcp-feargreedindex)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 704. [heyzgj/mcp-feargreedindex](https://github.com/heyzgj/mcp-feargreedindex)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A Model Context Protocol server integrating CoinMarketCap data for cryptocurrency market insights.**
 
@@ -10653,7 +10819,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 694. [tejpalvirk/qualitativeresearch](https://github.com/tejpalvirk/qualitativeresearch)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 705. [tejpalvirk/qualitativeresearch](https://github.com/tejpalvirk/qualitativeresearch)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A knowledge graph-based MCP server for managing qualitative research context across sessions.**
 
@@ -10668,7 +10834,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 695. [georgenance/hackernews-mcp](https://github.com/georgenance/hackernews-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 706. [georgenance/hackernews-mcp](https://github.com/georgenance/hackernews-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A server that provides real-time access to Hacker News content for AI assistants and developers.**
 
@@ -10683,7 +10849,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 696. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers 📍
+### 707. [cc-apk/mobsf-mcp](https://github.com/cc-apk/mobsf-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Node.js-based Model Context Protocol implementation for MobSF security analysis.**
 
@@ -10698,7 +10864,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 697. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 708. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **An unofficial model context protocol for the NHL API, enabling chat with live games, scores, stats, and teams.**
 
@@ -10713,7 +10879,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 698. [sellersmith/tailorkit-mcp](https://github.com/sellersmith/tailorkit-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 709. [sellersmith/tailorkit-mcp](https://github.com/sellersmith/tailorkit-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **TailorKit MCP enables e-commerce product customization via AI-driven personalization.**
 
@@ -10728,7 +10894,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 699. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
+### 710. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Demo of a Model Context Protocol (MCP) server for Solana development.**
 
@@ -10743,7 +10909,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 700. [AUTOMATIC1111 - Overview](https://github.com/AUTOMATIC1111)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 711. [AUTOMATIC1111 - Overview](https://github.com/AUTOMATIC1111)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **AUTOMATIC1111 is a popular web user interface (UI) that allows users to easily run Stable Diffusion models, manage extensions, and interact with the underlying AI infrastructure. It serves as a crucial bridge between the user and the powerful Stable **
 
@@ -10759,7 +10925,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 701. [‎Google Gemini](https://gemini.google.com/app/2fdf17dfa1a48edf)  `9.8` ★★☆ ⚡77.0 Q0.7⭐ Excellent · ↗1 layers
+### 712. [‎Google Gemini](https://gemini.google.com/app/2fdf17dfa1a48edf)  `9.8` ★★☆ ⚡77.0 Q0.7⭐ Excellent · ↗1 layers
 
 **This resource is a landing page or interface for the Google Gemini AI, focusing on its role as an agent and the workflows/context it manages. It represents the entry point for interacting with the Gemini AI capabilities.**
 
@@ -10773,7 +10939,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 702. [ashish-bansal/playwright-mcp](https://github.com/ashish-bansal/playwright-mcp)  `9.2` ★★☆ ⚡77.0 Q0.7✓ Very good 📍
+### 713. [ashish-bansal/playwright-mcp](https://github.com/ashish-bansal/playwright-mcp)  `9.2` ★★☆ ⚡77.0 Q0.7✓ Very good 📍
 
 **Enhances Playwright test automation by providing full browser context, enabling accurate interaction with web pages.**
 
@@ -10787,7 +10953,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 703. [https://kimerachems.co/shop](https://kimerachems.co/shop)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers 📍
+### 714. [https://kimerachems.co/shop](https://kimerachems.co/shop)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This technical resource offers comprehensive data on USA-made peptides, SARMs, amino analytical reagents, and related compounds, tailored for researchers and lab professionals. It includes product catalogs, COA documentation, compliance disclaimers, **
 
@@ -10802,7 +10968,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 704. [Search for jobs on myKelly!](https://www.mykelly.com/job-search?GAKSCID+=GA1.1.447818009.1690233032&_city_or_postal_code=42.6064095,-83.1497751,50,Troy%2C)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
+### 715. [Search for jobs on myKelly!](https://www.mykelly.com/job-search?GAKSCID+=GA1.1.447818009.1690233032&_city_or_postal_code=42.6064095,-83.1497751,50,Troy%2C)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
 
 **This resource focuses on the technical architecture and user interaction design of a job search portal, emphasizing features such as job filtering, application submission, and integration with external job databases. It highlights the importance of s**
 
@@ -10816,7 +10982,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 705. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
+### 716. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
 
 **This resource examines the enduring tension between Hobbes and Locke in shaping political thought, highlighting how their ideas continue to influence contemporary debates on governance, democracy, and human nature. It emphasizes the importance of und**
 
@@ -10830,7 +10996,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 706. [https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw](https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=google&tw_adid=747558784311&tw_campaign=22466510144&gad_source=2&gad_campaignid=22466510144&gbraid=0AAAAA9S1th502DSxsVHL9IuELEmNC15Vs&wbraid=Cl0KCQjw46HPBhDhARJMAD8UiQ_Bht3gAkiAX9pZhinQFEeJ9EidHOHi0yDrYM0LZrxFx4a66gFWRcgqwGvlyERtnlKBiaIYP6KR3U0381k1jfuU8z9z2c6BRxoCNho)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers 📍
+### 717. [https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw](https://thepillowhome.com/products/cozyrest-memory-foam-neck-pillow?tw_source=google&tw_adid=747558784311&tw_campaign=22466510144&gad_source=2&gad_campaignid=22466510144&gbraid=0AAAAA9S1th502DSxsVHL9IuELEmNC15Vs&wbraid=Cl0KCQjw46HPBhDhARJMAD8UiQ_Bht3gAkiAX9pZhinQFEeJ9EidHOHi0yDrYM0LZrxFx4a66gFWRcgqwGvlyERtnlKBiaIYP6KR3U0381k1jfuU8z9z2c6BRxoCNho)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **The resource provides an in-depth evaluation of the CozyRest® Pillow, highlighting its features, benefits, and suitability for users seeking a high-quality sleep solution. The content emphasizes comfort, support, and sleep quality improvements, makin**
 
@@ -10845,7 +11011,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 707. [chris-schra/mcp-funnel](https://github.com/chris-schra/mcp-funnel)  `8.7` ★☆☆ ⚡77.0 Q0.7✓ Very good 📍
+### 718. [chris-schra/mcp-funnel](https://github.com/chris-schra/mcp-funnel)  `8.7` ★☆☆ ⚡77.0 Q0.7✓ Very good 📍
 
 **A specialized proxy that performs "tree-shaking" on MCP servers to filter out unused tools and significantly reduce context token consumption.**
 
@@ -10859,7 +11025,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 708. [larksuite/lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 719. [larksuite/lark-openapi-mcp](https://github.com/larksuite/lark-openapi-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool to integrate Feishu/Lark OpenAPI MCP with AI agents and bots, enabling automation of tasks like document processing, chat management, and scheduling.**
 
@@ -10873,7 +11039,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 709. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
+### 720. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A MCP server that retrieves relevant documentation from a knowledge base using the Gemini API, enabling developers to access curated technical information directly.**
 
@@ -10887,7 +11053,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 710. [modelcontextprotocol-servers/google-search-mcp](https://github.com/modelcontextprotocol-servers/google-search-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.7✓ Very good 📍
+### 721. [modelcontextprotocol-servers/google-search-mcp](https://github.com/modelcontextprotocol-servers/google-search-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.7✓ Very good 📍
 
 **A Playwright-based tool for performing Google searches, bypassing anti-bot mechanisms and extracting structured results for AI assistants.**
 
@@ -10902,7 +11068,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 711. [MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot](https://venturebeat.com/orchestration/mits-new-recursive-framework-lets-llms-process-10-million-tokens-without)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 722. [MIT’s new ‘recursive’ framework lets LLMs process 10 million tokens without context rot](https://venturebeat.com/orchestration/mits-new-recursive-framework-lets-llms-process-10-million-tokens-without)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **A framework enabling agents to reason over 10M+ tokens by treating the prompt as an external environment and recursively self-calling over data snippets.**
 
@@ -10916,7 +11082,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 712. [Open AI Codex vs Github Copilot vs Claude | Testing & Benchmarks](https://www.allaboutai.com/ai-agents/open-ai-codex-vs-github-copilot-vs-claude)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗3 layers
+### 723. [Open AI Codex vs Github Copilot vs Claude | Testing & Benchmarks](https://www.allaboutai.com/ai-agents/open-ai-codex-vs-github-copilot-vs-claude)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗3 layers
 
 **A strategic analysis of the 2026 agentic landscape, ranking Claude Code (80.8% SWE-bench) as the leader in autonomous execution over Copilot and Codex.**
 
@@ -10930,7 +11096,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 713. [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 724. [The New Skill in AI is Not Prompting, It's Context Engineering](https://www.philschmid.de/context-engineering)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **A foundational 2026 shift from Prompt Engineering to Context Engineering, focusing on "Agent Harnesses" that manage state, compaction, and memory isolation.**
 
@@ -10944,7 +11110,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 714. [zeddy89/Context-Engine](https://github.com/zeddy89/Context-Engine)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
+### 725. [zeddy89/Context-Engine](https://github.com/zeddy89/Context-Engine)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
 
 **An autonomous project builder that manages context across four layers (Working/Episodic/Semantic/Procedural) to prevent agent degradation.**
 
@@ -10958,7 +11124,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 715. [joshuatanderson/factbook-mcp](https://github.com/joshuatanderson/factbook-mcp)  `8.7` ★☆☆ ⚡76.0 Q0.8✓ Very good 📍
+### 726. [joshuatanderson/factbook-mcp](https://github.com/joshuatanderson/factbook-mcp)  `8.7` ★☆☆ ⚡76.0 Q0.8✓ Very good 📍
 
 **The project implements a Model Context Protocol serverlet to retrieve and present data from the CIA World Factbook, enabling automated access to geopolitical and country-specific information within a software application.**
 
@@ -10971,7 +11137,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 716. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `8.2` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
+### 727. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `8.2` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server that enables semantic code search from local Git repositories, enhancing development workflows with contextual insights.**
 
@@ -10985,7 +11151,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 717. [Shall I implement it? No | Hacker News](https://news.ycombinator.com/item?id=47357042)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗2 layers 📍
+### 728. [Shall I implement it? No | Hacker News](https://news.ycombinator.com/item?id=47357042)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗2 layers 📍
 
 **The discussion highlights the challenges of interpreting user questions in AI systems, the importance of distinguishing between genuine queries and critical feedback, and the need for better contextual understanding to avoid misinterpretation. It emp**
 
@@ -11000,7 +11166,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 718. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
+### 729. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
 
 **A Python implementation for interacting with macOS applications via AppleScript, supporting integration with native apps and asynchronous operations.**
 
@@ -11014,7 +11180,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 719. [paulotaylor/voyp-mcp](https://github.com/paulotaylor/voyp-mcp)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
+### 730. [paulotaylor/voyp-mcp](https://github.com/paulotaylor/voyp-mcp)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
 
 **Voyp MCP server enables secure, two-way integration between AI models and external data sources, facilitating seamless call context management.**
 
@@ -11028,7 +11194,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 720. [clouatre-labs/math-mcp-learning-server](https://github.com/clouatre-labs/math-mcp-learning-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
+### 731. [clouatre-labs/math-mcp-learning-server](https://github.com/clouatre-labs/math-mcp-learning-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
 
 **A cloud-hosted educational mathematics server with interactive tools for math operations, matrix algebra, visualization, and persistent workspace.**
 
@@ -11042,7 +11208,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 721. [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
+### 732. [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
 
 **Neo4j MCP Servers enable context management between large language models and external systems, facilitating secure and efficient data exchange.**
 
@@ -11056,7 +11222,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 722. [Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?ref=blog-admin.arcade.dev)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 733. [Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?ref=blog-admin.arcade.dev)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **A 2026 update for Claude Code that implements "lazy loading" for MCP tools, reducing context usage by 90% by fetching schemas only when relevant.**
 
@@ -11070,7 +11236,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 723. [A real-time index for your codebase: Secure, personal, scalable](https://www.augmentcode.com/blog/a-real-time-index-for-your-codebase-secure-personal-scalable)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 734. [A real-time index for your codebase: Secure, personal, scalable](https://www.augmentcode.com/blog/a-real-time-index-for-your-codebase-secure-personal-scalable)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **A leading enterprise context engine that provides instant (sub-second) indexing for 400,000+ file repositories and native MCP support.**
 
@@ -11084,7 +11250,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 724. [moonshotai/Kimi-K2-Instruct-0905 · Hugging Face](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 735. [moonshotai/Kimi-K2-Instruct-0905 · Hugging Face](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A massive 1-trillion parameter Mixture-of-Experts (MoE) model by Moonshot AI, optimized for 100-agent parallel swarms and native multimodality.**
 
@@ -11098,7 +11264,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 725. [https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gem](https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gemini_31_flash_tts_texttospeech)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 736. [https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gem](https://www.reddit.com/r/GeminiAI/comments/1smbfek/google_launches_gemini_31_flash_tts_texttospeech)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **The resource discusses the technical aspects of the Gemini AI model, focusing on its architecture, functionality, and integration within the Borg intelligence framework. It highlights key features such as context handling, memory management, and deve**
 
@@ -11112,7 +11278,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 726. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 737. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server enabling interaction with Aptos documentation and building full-stack blockchain applications.**
 
@@ -11126,7 +11292,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 727. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 738. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A model context protocol server enabling natural language interaction with Apache Iceberg Lakehouse tables.**
 
@@ -11140,7 +11306,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 728. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 739. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A framework for managing debugger sessions and enhancing large language model debugging workflows.**
 
@@ -11154,7 +11320,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 729. [kursk-ye/code2flow-mcp-server](https://github.com/kursk-ye/code2flow-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 740. [kursk-ye/code2flow-mcp-server](https://github.com/kursk-ye/code2flow-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A platform that enables AI applications to generate and access code call graphs via MCP protocol.**
 
@@ -11168,7 +11334,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 730. [vlttnv/k8s-mcp](https://github.com/vlttnv/k8s-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 741. [vlttnv/k8s-mcp](https://github.com/vlttnv/k8s-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Python-based Model Context Protocol (MCP) tool for Kubernetes clusters to retrieve cluster information and diagnose issues.**
 
@@ -11182,7 +11348,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 731. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 742. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **Hermes Search MCP enables secure, type-safe full-text and semantic search over Azure Cognitive Search.**
 
@@ -11196,7 +11362,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 732. [dxheroes/mcp-devtools](https://github.com/dxheroes/mcp-devtools)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 743. [dxheroes/mcp-devtools](https://github.com/dxheroes/mcp-devtools)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A suite of Model Context Protocol servers enabling AI assistants to interact with developer tools and services.**
 
@@ -11210,7 +11376,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 733. [tanevanwifferen/mcp-inception](https://github.com/tanevanwifferen/mcp-inception)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 744. [tanevanwifferen/mcp-inception](https://github.com/tanevanwifferen/mcp-inception)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A TypeScript-based MCP server enabling LLM query systems with parallel execution, context management, and task delegation.**
 
@@ -11224,7 +11390,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 734. [letz-ai/letzai-mcp](https://github.com/letz-ai/letzai-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 745. [letz-ai/letzai-mcp](https://github.com/letz-ai/letzai-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A GitHub-hosted implementation of the LetzAI MCP for image generation, enabling integration with Claude Desktop App.**
 
@@ -11238,7 +11404,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 735. [dion-hagan/mcp-server-spinnaker](https://github.com/dion-hagan/mcp-server-spinnaker)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 746. [dion-hagan/mcp-server-spinnaker](https://github.com/dion-hagan/mcp-server-spinnaker)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling AI integration with Spinnaker for intelligent CI/CD operations.**
 
@@ -11252,7 +11418,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 736. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 747. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI and Pro, enhancing AI tool integration.**
 
@@ -11266,7 +11432,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 737. [quanticsoul4772/analytical-mcp](https://github.com/quanticsoul4772/analytical-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 748. [quanticsoul4772/analytical-mcp](https://github.com/quanticsoul4772/analytical-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Analytical MCP Server provides AI-driven statistical analysis, decision support, and research verification tools for Claude.**
 
@@ -11280,7 +11446,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 738. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 749. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling interaction with the Status Invest API for stock data and indicators.**
 
@@ -11294,7 +11460,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 739. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 750. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **PageSpeed MCP Server integrates AI capabilities with PageSpeed Insights to analyze website performance metrics.**
 
@@ -11308,7 +11474,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 740. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 751. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A Borg-based search tool for efficiently querying transcript segments using vector similarity in a Turso database.**
 
@@ -11322,7 +11488,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 741. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 752. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A model context protocol server for Pixabay image and video search with structured results and runtime validation.**
 
@@ -11336,7 +11502,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 742. [buhe/mcp_rss](https://github.com/buhe/mcp_rss)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 753. [buhe/mcp_rss](https://github.com/buhe/mcp_rss)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **MCP RSS enables secure and efficient interaction with RSS feeds using a Model Context Protocol.**
 
@@ -11350,7 +11516,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 743. [tatn/mcp-server-fetch-typescript](https://github.com/tatn/mcp-server-fetch-typescript)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 754. [tatn/mcp-server-fetch-typescript](https://github.com/tatn/mcp-server-fetch-typescript)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A server-based tool for fetching and converting web content into various formats, supporting tasks from raw text extraction to rendered HTML.**
 
@@ -11364,7 +11530,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 744. [madosh/mcp-itsm](https://github.com/madosh/mcp-itsm)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 755. [madosh/mcp-itsm](https://github.com/madosh/mcp-itsm)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A unified interface for LLMs to interact with multiple ITSM systems using the Model Context Protocol.**
 
@@ -11378,7 +11544,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 745. [davidorex/git-forensics-mcp](https://github.com/davidorex/git-forensics-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 756. [davidorex/git-forensics-mcp](https://github.com/davidorex/git-forensics-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A specialized MCP server for in-depth git repository analysis, focusing on branch relationships, commit patterns, and development insights.**
 
@@ -11392,7 +11558,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 746. [pollinations/chucknorris](https://github.com/pollinations/chucknorris)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 757. [pollinations/chucknorris](https://github.com/pollinations/chucknorris)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **MCP server that dynamically adapts LLM enhancement prompts using jailbreak techniques for improved performance.**
 
@@ -11406,7 +11572,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 747. [tanker327/uuid-mcp](https://github.com/tanker327/uuid-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 758. [tanker327/uuid-mcp](https://github.com/tanker327/uuid-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A lightweight Model Context Protocol (MCP) server generating timestamp-based UUIDs for secure, unique identifiers in AI applications.**
 
@@ -11420,7 +11586,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 748. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 759. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A model context protocol server that integrates AI with WinDbg for crash dump analysis and remote debugging.**
 
@@ -11434,7 +11600,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 749. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 760. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A TypeScript client library for integrating with Neemee MCP servers, enabling secure and efficient management of personal knowledge systems.**
 
@@ -11448,7 +11614,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 750. [creis-ai/mcp-property-valuation-server](https://github.com/creis-ai/mcp-property-valuation-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 761. [creis-ai/mcp-property-valuation-server](https://github.com/creis-ai/mcp-property-valuation-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **MCP Property Valuation Server provides AI-driven property valuation and small district evaluation for real estate transactions.**
 
@@ -11462,7 +11628,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 751. [Ask HN: Research Papers on Prompt Engineering? | Hacker News](https://news.ycombinator.com/item?id=41135921)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 762. [Ask HN: Research Papers on Prompt Engineering? | Hacker News](https://news.ycombinator.com/item?id=41135921)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **The paper presents a systematic survey of various prompting strategies aimed at enhancing the reasoning capabilities of large language models, particularly focusing on zero-shot chain-of-thought methods and mathematical problem-solving approaches.**
 
@@ -11476,7 +11642,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 752. [https://rchemic.com/delivery](https://rchemic.com/delivery)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 763. [https://rchemic.com/delivery](https://rchemic.com/delivery)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This resource outlines the shipping, delivery, and compliance policies for a chemical sales platform, emphasizing global reach, product categorization, and regulatory considerations. It details international shipping options, restrictions, and the im**
 
@@ -11490,7 +11656,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 753. [https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_wi](https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_with_81_prompts_for_tech_leaders)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 764. [https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_wi](https://www.reddit.com/r/TechStartups/comments/1t12igo/free_library_with_81_prompts_for_tech_leaders)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **The discussion highlights the importance of leveraging prompt engineering tools and frameworks to streamline decision-making processes for tech leaders. Participants emphasize the value of real-world experiences in shaping effective strategies, parti**
 
@@ -11504,7 +11670,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 754. [chargebee/agentkit](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
+### 765. [chargebee/agentkit](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A protocol enabling context management between large language models and external systems for improved developer efficiency.**
 
@@ -11518,7 +11684,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 755. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
+### 766. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Borg-based MCP server enabling AI-driven access and management of Fathom Analytics data.**
 
@@ -11532,7 +11698,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 756. [spences10/mcp-jinaai-grounding](https://github.com/spences10/mcp-jinaai-grounding)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 767. [spences10/mcp-jinaai-grounding](https://github.com/spences10/mcp-jinaai-grounding)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A tool for integrating Jina.ai Grounding API with LLMs to enhance responses with real-time web content.**
 
@@ -11546,7 +11712,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 757. [ai-1st/deepview-mcp](https://github.com/ai-1st/deepview-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 768. [ai-1st/deepview-mcp](https://github.com/ai-1st/deepview-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **DeepView MCP enables IDEs to analyze large codebases using Gemini's context window.**
 
@@ -11560,7 +11726,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 758. [wazzan/mcp-coincap-jj](https://github.com/wazzan/mcp-coincap-jj)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
+### 769. [wazzan/mcp-coincap-jj](https://github.com/wazzan/mcp-coincap-jj)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A MCP server providing real-time cryptocurrency analysis using the CoinCap API.**
 
@@ -11574,7 +11740,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 759. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 770. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server enabling secure discovery and download of 3D models from Sketchfab.**
 
@@ -11588,7 +11754,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 760. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 771. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A Cloudflare Worker that provides code explanation and context for developers.**
 
@@ -11602,7 +11768,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 761. [tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 772. [tldv-public/tldv-mcp-server](https://github.com/tldv-public/tldv-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A server enabling integration of tl;dv API with MCP for unified meeting intelligence across platforms.**
 
@@ -11616,7 +11782,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 762. [mightydillah/apple-doc-mcp](https://github.com/mightydillah/apple-doc-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 773. [mightydillah/apple-doc-mcp](https://github.com/mightydillah/apple-doc-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A tool that provides seamless access to Apple Developer Documentation with smart search and wildcard support.**
 
@@ -11630,7 +11796,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 763. [iqaicom/mcp-iqwiki](https://github.com/iqaicom/mcp-iqwiki)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 774. [iqaicom/mcp-iqwiki](https://github.com/iqaicom/mcp-iqwiki)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A model context protocol server enabling AI agents to interact with IQ.wiki content.**
 
@@ -11644,7 +11810,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 764. [omer-ayhan/custom-context-mcp](https://github.com/omer-ayhan/custom-context-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 775. [omer-ayhan/custom-context-mcp](https://github.com/omer-ayhan/custom-context-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A model context protocol server that transforms text into structured JSON using predefined templates.**
 
@@ -11658,7 +11824,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 765. [dazeb/mcp-github-mapper](https://github.com/dazeb/mcp-github-mapper)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 776. [dazeb/mcp-github-mapper](https://github.com/dazeb/mcp-github-mapper)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A tool for mapping and analyzing GitHub repositories to provide detailed insights and structure information.**
 
@@ -11672,7 +11838,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 766. [bengineer19/digikey_mcp](https://github.com/bengineer19/digikey_mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 777. [bengineer19/digikey_mcp](https://github.com/bengineer19/digikey_mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A MCP server for DigiKey's Product Search API, enabling secure and efficient integration with DigiKey's product data.**
 
@@ -11686,7 +11852,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 767. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 778. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling AI access to LeetCode problems, user data, and contest information.**
 
@@ -11700,7 +11866,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 768. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 779. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A context-aware MCP implementation integrating Gemini for analytical thinking and problem-solving.**
 
@@ -11714,7 +11880,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 769. [Book of Leviticus - Wikipedia](https://en.m.wikipedia.org/wiki/Book_of_Leviticus)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good 📍
+### 780. [Book of Leviticus - Wikipedia](https://en.m.wikipedia.org/wiki/Book_of_Leviticus)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good 📍
 
 **The Book of Leviticus is the third book of the Torah (the Pentateuch) and of the Old Testament, also known as the Third Book of Moses. The text details the laws and rituals performed by the priestly tribe of Israelites (the Levites). It explains how **
 
@@ -11727,7 +11893,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 770. [Historical background of the New Testament - Wikipedia](https://en.m.wikipedia.org/wiki/Historical_background_of_the_New_Testament)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
+### 781. [Historical background of the New Testament - Wikipedia](https://en.m.wikipedia.org/wiki/Historical_background_of_the_New_Testament)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
 
 **This resource analyzes the historical setting for the New Testament, examining the interplay between Jesus, the Pharisees, Sadducees, Essenes, and Zealots during the period of Roman influence in Judea. It situates the Christian narrative within the c**
 
@@ -11741,7 +11907,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 771. [flashflashrevolution/rrr-web-components](https://github.com/flashflashrevolution/rrr-web-components)  `7.7` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers
+### 782. [flashflashrevolution/rrr-web-components](https://github.com/flashflashrevolution/rrr-web-components)  `7.7` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers
 
 **This repository contains a set of Lit components designed to build the user interface for 'rrr'. The project seems focused on creating reusable, lightweight UI elements for a specific application or platform, likely involving agent orchestration and **
 
@@ -11754,7 +11920,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 772. [Your MCP Server Is Eating Your Context Window. There's a Simpler Way](https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers
+### 783. [Your MCP Server Is Eating Your Context Window. There's a Simpler Way](https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers
 
 **A "CLI-first" alternative to MCP that reduces context starvation by replacing massive JSON tool schemas with an 80-token prompt and on-demand `--help` discovery.**
 
@@ -11767,7 +11933,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 773. [How to make your AI agent understand your codebase](https://summonaikit.com)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers 📍
+### 784. [How to make your AI agent understand your codebase](https://summonaikit.com)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers 📍
 
 **A configuration engine that eliminates "context rot" by automatically analyzing codebases and generating tailored agent/skill setups.**
 
@@ -11781,7 +11947,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 774. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `8.0` ★☆☆ ⚡72.0 Q0.8✓ Very good · ↗1 layers 📍
+### 785. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `8.0` ★☆☆ ⚡72.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server that enables secure and automated conversion of Excel and Apple Numbers files to PDF, integrating with AI assistants for streamlined file management.**
 
@@ -11794,7 +11960,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 775. [supermemory app](https://app.supermemory.ai/login/new)  `8.7` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗1 layers
+### 786. [supermemory app](https://app.supermemory.ai/login/new)  `8.7` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗1 layers
 
 **The Borg resource focuses on integrating advanced AI capabilities to automate and optimize business processes, emphasizing intelligent task management and workflow orchestration.**
 
@@ -11808,7 +11974,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 776. [[ Removed by moderator ]](https://old.reddit.com/r/netsec/comments/1s7tyuh/one_post_request_six_api_keys_breaking_into)  `8.5` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗2 layers
+### 787. [[ Removed by moderator ]](https://old.reddit.com/r/netsec/comments/1s7tyuh/one_post_request_six_api_keys_breaking_into)  `8.5` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗2 layers
 
 **Analysis of a Reddit post discussing vulnerabilities in Windows Defender and agent layer security.**
 
@@ -11823,7 +11989,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 777. [mistizz/mcp-japanesetextanalyzer](https://github.com/mistizz/mcp-japanesetextanalyzer)  `8.2` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗1 layers 📍
+### 788. [mistizz/mcp-japanesetextanalyzer](https://github.com/mistizz/mcp-japanesetextanalyzer)  `8.2` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **日本語テキストの形態素解析を行い、言語的特徴を分析するMCPサーバーです。**
 
@@ -11837,7 +12003,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 778. [https://synthetic.new/hf/zai-org/GLM-4.6](https://synthetic.new/hf/zai-org/GLM-4.6)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers 📍
+### 789. [https://synthetic.new/hf/zai-org/GLM-4.6](https://synthetic.new/hf/zai-org/GLM-4.6)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers 📍
 
 **The flagship 357B parameter Mixture-of-Experts (MoE) model by Z.ai, featuring 200K context and near parity with Claude Sonnet 4 in coding.**
 
@@ -11851,7 +12017,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 779. [https://www.reddit.com/r/LovingOpenSourceAI/comments/1sm61ry/shruti_om](https://www.reddit.com/r/LovingOpenSourceAI/comments/1sm61ry/shruti_omg_now_your_ai_agents_can_access_the)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
+### 790. [https://www.reddit.com/r/LovingOpenSourceAI/comments/1sm61ry/shruti_om](https://www.reddit.com/r/LovingOpenSourceAI/comments/1sm61ry/shruti_omg_now_your_ai_agents_can_access_the)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The resource discusses the potential for AI agents to interact, coordinate, and execute workflows within a distributed system, highlighting their role in automating tasks and enhancing operational efficiency.**
 
@@ -11865,7 +12031,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 780. [https://www.reddit.com/r/PromptEngineering/comments/1smeh1b/fivelayer_](https://www.reddit.com/r/PromptEngineering/comments/1smeh1b/fivelayer_prompt_architecture_for_complex)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
+### 791. [https://www.reddit.com/r/PromptEngineering/comments/1smeh1b/fivelayer_](https://www.reddit.com/r/PromptEngineering/comments/1smeh1b/fivelayer_prompt_architecture_for_complex)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The resource discusses the design and implementation of prompt architectures aimed at enhancing the performance and adaptability of complex AI models, focusing on workflow optimization and integration strategies.**
 
@@ -11879,7 +12045,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 781. [https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_](https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_free_prompt_library_with_100_optimized)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
+### 792. [https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_](https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_free_prompt_library_with_100_optimized)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
 
 **The project presents a comprehensive collection of 100 prompt templates designed to enhance the efficiency and effectiveness of AI interactions. It focuses on improving user engagement and output quality through structured prompt engineering.**
 
@@ -11893,7 +12059,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 782. [Book of Genesis - Wikipedia](https://en.wikipedia.org/wiki/Book_of_Genesis)  `8.7` ★☆☆ ⚡70.0 Q0.7✓ Very good 📍
+### 793. [Book of Genesis - Wikipedia](https://en.wikipedia.org/wiki/Book_of_Genesis)  `8.7` ★☆☆ ⚡70.0 Q0.7✓ Very good 📍
 
 **The Book of Genesis, which includes the primeval history (chapters 1–11) and the ancestral history (chapters 12–50), explores the concepts of the nature of the deity and humanity's relationship with it. It details God's creation of a world good for h**
 
@@ -11905,7 +12071,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 783. [magenie33/quality-dimension-generator](https://github.com/magenie33/quality-dimension-generator)  `8.0` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗1 layers 📍
+### 794. [magenie33/quality-dimension-generator](https://github.com/magenie33/quality-dimension-generator)  `8.0` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A sophisticated Model Context Protocol server that generates precise quality evaluation dimensions and assessment criteria for tasks or projects.**
 
@@ -11918,7 +12084,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 784. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers 📍
+### 795. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A tool for creating and managing SQLite databases from compressed log files, enabling integration with MCP Server.**
 
@@ -11931,7 +12097,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 785. [metehan777/alsoasked-mcp](https://github.com/metehan777/alsoasked-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
+### 796. [metehan777/alsoasked-mcp](https://github.com/metehan777/alsoasked-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
 
 **A platform for managing and analyzing People Also Asked data to enhance SEO and content optimization.**
 
@@ -11944,7 +12110,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 786. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
+### 797. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Node.js server implementing the Model Context Protocol (MCP) to enable AI clients to interact with the Directus API.**
 
@@ -11957,7 +12123,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 787. [Wicked Bible - Wikipedia](https://en.m.wikipedia.org/wiki/Wicked_Bible)  `7.7` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗1 layers 📍
+### 798. [Wicked Bible - Wikipedia](https://en.m.wikipedia.org/wiki/Wicked_Bible)  `7.7` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗1 layers 📍
 
 **The Wicked Bible is an edition of the King James Bible published in 1631. The name stems from a mistake made by compositors: omitting the word 'not' in the sentence 'Thou shalt not commit adultery' (Exodus 20:14), and another error where 'greatness' **
 
@@ -11970,7 +12136,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 788. [saiprashanths/code-analysis-mcp](https://github.com/saiprashanths/code-analysis-mcp)  `7.2` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗1 layers 📍
+### 799. [saiprashanths/code-analysis-mcp](https://github.com/saiprashanths/code-analysis-mcp)  `7.2` ☆☆☆ ⚡69.0 Q0.7○ Good · ↗1 layers 📍
 
 **A tool for analyzing codebases to understand AI model interactions and data flows.**
 
@@ -11984,7 +12150,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 789. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
+### 800. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A server-based context protocol implementation for searching, reading, and accessing files within a Box environment.**
 
@@ -11997,7 +12163,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 790. [jaldekoa/mcp-fredapi](https://github.com/jaldekoa/mcp-fredapi)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
+### 801. [jaldekoa/mcp-fredapi](https://github.com/jaldekoa/mcp-fredapi)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Integration of FRED API with Model Context Protocol for economic data retrieval.**
 
@@ -12010,7 +12176,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 791. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
+### 802. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
 
 **A model context protocol server for managing Keycloak users and realms with AI-powered automation.**
 
@@ -12023,7 +12189,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 792. [unievo/xpilot-mcp-library](https://github.com/unievo/xpilot-mcp-library)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
+### 803. [unievo/xpilot-mcp-library](https://github.com/unievo/xpilot-mcp-library)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
 
 **Library enabling xPilot to interact with MCP servers for context and tool integration.**
 
@@ -12036,7 +12202,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 793. [Let's compile Quake like it's 1997!](https://fabiensanglard.net/compile_like_1997/index.html)  `8.2` ★☆☆ ⚡66.0 Q0.6✓ Very good 📍
+### 804. [Let's compile Quake like it's 1997!](https://fabiensanglard.net/compile_like_1997/index.html)  `8.2` ★☆☆ ⚡66.0 Q0.6✓ Very good 📍
 
 **A detailed account of the historical development and compilation process of Quake in 1997.**
 
@@ -12050,7 +12216,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 794. [Genesis creation narrative - Wikipedia](https://en.wikipedia.org/wiki/Genesis_creation_narrative)  `8.7` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
+### 805. [Genesis creation narrative - Wikipedia](https://en.wikipedia.org/wiki/Genesis_creation_narrative)  `8.7` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
 
 **This resource explores the dualistic nature of the Genesis creation narrative, distinguishing between two distinct sources (Priestly 'P' and Jahwist 'J') that offer different perspectives on the divine creation of the cosmos and humanity. It examines**
 
@@ -12061,7 +12227,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 795. [Perichoresis - Wikipedia](https://en.wikipedia.org/wiki/Perichoresis)  `8.7` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
+### 806. [Perichoresis - Wikipedia](https://en.wikipedia.org/wiki/Perichoresis)  `8.7` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
 
 **Perichoresis is a theological concept describing the relationship between the three persons of the Trinity: the Father, the Son, and the Holy Spirit. This concept highlights the mutual interpenetration and indwelling of these divine natures, emphasiz**
 
@@ -12072,7 +12238,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 796. [asyncfuncai/github-chat-mcp](https://github.com/asyncfuncai/github-chat-mcp)  `8.0` ★☆☆ ⚡63.0 Q0.6✓ Very good · ↗1 layers 📍
+### 807. [asyncfuncai/github-chat-mcp](https://github.com/asyncfuncai/github-chat-mcp)  `8.0` ★☆☆ ⚡63.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol for analyzing and querying GitHub repositories using the GitHub Chat API.**
 
@@ -12084,7 +12250,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 797. [https://www.vaporfi.com/checkout/cart](https://www.vaporfi.com/checkout/cart)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
+### 808. [https://www.vaporfi.com/checkout/cart](https://www.vaporfi.com/checkout/cart)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
 
 **Analysis of a technical resource for inclusion in the Borg intelligence database.**
 
@@ -12099,7 +12265,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 798. [https://www.vaporfi.com/checkout/cart?onlyAvailable=1&redirected=1](https://www.vaporfi.com/checkout/cart?onlyAvailable=1&redirected=1)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
+### 809. [https://www.vaporfi.com/checkout/cart?onlyAvailable=1&redirected=1](https://www.vaporfi.com/checkout/cart?onlyAvailable=1&redirected=1)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
 
 **Analysis of a technical resource for inclusion in the Borg intelligence database.**
 
@@ -12114,7 +12280,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 799. [Euhemerism - Wikipedia](https://en.m.wikipedia.org/wiki/Euhemerism)  `7.7` ☆☆☆ ⚡60.0 Q0.6○ Good 📍
+### 810. [Euhemerism - Wikipedia](https://en.m.wikipedia.org/wiki/Euhemerism)  `7.7` ☆☆☆ ⚡60.0 Q0.6○ Good 📍
 
 **Euhemerism is an approach to the interpretation of mythology in which mythological accounts are presumed to have originated from real historical events or personages. It was named after the Greek mythographer Euhemerus, who lived in the late 4th cent**
 
@@ -12125,7 +12291,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 800. [Have Large Language Models Learned to Reason? A Characterization via 3-SAT Phase Transition](https://arxiv.org/abs/2504.03930)  `7.0` ☆☆☆ ⚡56.0 Q0.6○ Good · ↗1 layers
+### 811. [Have Large Language Models Learned to Reason? A Characterization via 3-SAT Phase Transition](https://arxiv.org/abs/2504.03930)  `7.0` ☆☆☆ ⚡56.0 Q0.6○ Good · ↗1 layers
 
 **Analysis of a research paper on LLM reasoning using 3-SAT phase transitions.**
 
@@ -12142,7 +12308,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 > 195 tools · avg signal ⚡86
 
-### 801. [BrokkAi/brokk?tab=readme-ov-file](https://github.com/BrokkAi/brokk?tab=readme-ov-file)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 812. [BrokkAi/brokk?tab=readme-ov-file](https://github.com/BrokkAi/brokk?tab=readme-ov-file)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **Brokk tackles the challenge of large codebases by moving beyond simple file-blob context provision. It treats code elements like classes, methods, functions, stack traces, issues, and URLs as 'first-class fragments' that form the working memory (Work**
 
@@ -12158,7 +12324,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 802. [wwiens/trakt_mcpserver](https://github.com/wwiens/trakt_mcpserver)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 813. [wwiens/trakt_mcpserver](https://github.com/wwiens/trakt_mcpserver)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The Trakt_mcpserver project is a domain-focused AI platform designed to bridge the gap between large language models (LLMs) and real-time entertainment data sources such as Trakt.tv. By leveraging the MCP protocol, it provides clean separation of con**
 
@@ -12174,7 +12340,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 803. [markuspfundstein/mcp-gsuite](https://github.com/markuspfundstein/mcp-gsuite)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 814. [markuspfundstein/mcp-gsuite](https://github.com/markuspfundstein/mcp-gsuite)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The MCP-Gsuite project provides a powerful integration between the MCP server and Google GSuite, enabling developers to leverage advanced features such as Gmail and Calendar access within their applications. This integration supports modern DevOps pr**
 
@@ -12189,7 +12355,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 804. [bcharleson/instantly-mcp](https://github.com/bcharleson/instantly-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 815. [bcharleson/instantly-mcp](https://github.com/bcharleson/instantly-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The Instantly.MCP server is a lightweight, robust Model Context Protocol (MCP) server designed to facilitate seamless interactions between multiple applications and services. It supports a wide range of functionalities such as managing accounts, camp**
 
@@ -12205,7 +12371,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 805. [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 816. [gyoridavid/short-video-maker](https://github.com/gyoridavid/short-video-maker)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The gyoridavid/short-video-maker project is a web-based platform designed to automate the creation of engaging short videos for social media platforms like TikTok, Instagram Reels, and YouTube Shorts. It leverages the Model Context Protocol (MCP) and**
 
@@ -12221,7 +12387,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 806. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 817. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The Mapbox Model Context Protocol (MCP) server provides a standardized interface for integrating geospatial data into AI applications. By leveraging the MCP server, developers can embed contextual awareness into their models, allowing them to underst**
 
@@ -12237,7 +12403,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 807. [anuragb7/mcp-rag](https://github.com/anuragb7/mcp-rag)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗2 layers
+### 818. [anuragb7/mcp-rag](https://github.com/anuragb7/mcp-rag)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP-RAG system is designed to process large documents (up to 200MB) using adaptive chunking strategies, supports multiple formats including PDF, DOCX, Excel, CSV, PPTX, and images. It integrates with external tools via a universal interface, leve**
 
@@ -12253,7 +12419,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 808. [emeryray2002/virustotal-mcp](https://github.com/emeryray2002/virustotal-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 819. [emeryray2002/virustotal-mcp](https://github.com/emeryray2002/virustotal-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The virustotal-mcp library is a powerful context and isolation analysis tool designed to leverage the VirusTotal API. It offers advanced search capabilities, detailed file and IP analysis, and relationship queries across the VirusTotal dataset. This **
 
@@ -12269,7 +12435,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 809. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 820. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **Exif-mcp is a lightweight, offline MCP (Model Context Protocol) server designed to extract various image metadata segments such as EXIF, GPS, XMP, ICC, IPTC, JFIF, and IHDR. Built with TypeScript and leveraging the powerful exifr library, it enables **
 
@@ -12285,7 +12451,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 810. [getzep/zep](https://github.com/getzep/zep)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 821. [getzep/zep](https://github.com/getzep/zep)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **Zep functions as a platform that manages and retrieves context necessary for accurate AI agent performance in production. It achieves this by accepting inputs like chat history, business data, and events, and then using a proprietary temporal knowled**
 
@@ -12301,7 +12467,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 811. [zxfgds/mcp-code-indexer](https://github.com/zxfgds/mcp-code-indexer)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 822. [zxfgds/mcp-code-indexer](https://github.com/zxfgds/mcp-code-indexer)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP Code Indexer is a model-based code indexing solution designed to enhance AI language models' understanding of code repositories. It leverages semantic indexing, vectorization, and contextual analysis to provide precise code search results, su**
 
@@ -12317,7 +12483,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 812. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
+### 823. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers 📍
 
 **MCPunk is a powerful tool for developers that enhances code understanding by breaking files into logical chunks (functions, classes, markdown sections) and allowing LLMs to query these specific parts. It integrates seamlessly with Claude Desktop, pro**
 
@@ -12333,7 +12499,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 813. [super-i-tech/mcp_plexus](https://github.com/super-i-tech/mcp_plexus)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 824. [super-i-tech/mcp_plexus](https://github.com/super-i-tech/mcp_plexus)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **MCP Plexus is a Python framework designed to simplify the creation and management of multi-tenant MCP servers. It leverages FastMCP 2.7 for protocol handling and provides a structured environment for deploying AI backend systems with isolated tenants**
 
@@ -12349,7 +12515,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 814. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 825. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The DeepL-MCP-Server is a context-aware MCP (Model Context Protocol) implementation that leverages the DeepL API for real-time translation across various languages. It provides developers with an easy-to-use interface to integrate translation capabil**
 
@@ -12365,7 +12531,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 815. [datalab-to/chandra](https://github.com/datalab-to/chandra)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 826. [datalab-to/chandra](https://github.com/datalab-to/chandra)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **Chandra OCR 2 is a cutting-edge OCR solution designed to handle diverse document types including tables, mathematical content, multilingual text, and complex layouts. It supports full layout preservation, enabling accurate extraction of structured da**
 
@@ -12381,7 +12547,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 816. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `9.8` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 827. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `9.8` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Two Truths and a Twist is the world's first Model Context Protocol (MCP) game, designed to engage users through AI-generated trivia rounds. The project implements a robust MCP server to facilitate real-time interaction between players and AI models, **
 
@@ -12396,7 +12562,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 817. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 828. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Superserve provides a managed infrastructure for deploying AI agents with a focus on security and statefulness. It utilizes Firecracker microVM technology to create strict, isolated execution environments for every agent session, ensuring that code e**
 
@@ -12412,7 +12578,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 818. [starbased-co/ccproxy](https://github.com/starbased-co/ccproxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 829. [starbased-co/ccproxy](https://github.com/starbased-co/ccproxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The resource describes ccproxy, a tool designed to enhance Claude Code functionality by acting as an intermediary proxy server using LiteLLM. It intercepts outgoing requests from Claude Code, evaluates them against user-defined rules (e.g., token cou**
 
@@ -12428,7 +12594,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 819. [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 830. [steipete/claude-code-mcp](https://github.com/steipete/claude-code-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project acts as a bridge between the Model Context Protocol (MCP) and Anthropic’s Claude Code CLI tool, facilitating an 'agent-within-an-agent' workflow. It wraps the Claude Code binary into a single MCP tool called claude_code, which executes p**
 
@@ -12444,7 +12610,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 820. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 831. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **grok-cli is focused heavily on the user experience of interacting with an AI agent directly within the command line environment. It utilizes OpenTUI for a fast, keyboard-driven terminal UI, supports headless operation for automation scripts, and intr**
 
@@ -12460,7 +12626,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 821. [charmbracelet/crush](https://github.com/charmbracelet/crush)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 832. [charmbracelet/crush](https://github.com/charmbracelet/crush)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Crush is designed as an in-terminal coding assistant, focusing heavily on the developer experience (UX). It achieves 'glamorous agentic coding' by seamlessly wiring the user's existing tools, code, and workflows into a choice of Large Language Models**
 
@@ -12476,7 +12642,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 822. [nullplatform/meta-mcp-proxy](https://github.com/nullplatform/meta-mcp-proxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 833. [nullplatform/meta-mcp-proxy](https://github.com/nullplatform/meta-mcp-proxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The `meta-mcp-proxy` functions as a centralized intermediary layer, often referred to as a 'meta-MCP' or wrapper, to manage a collection of other MCP servers or local computational tools. Its primary technical approach involves implementing a form of**
 
@@ -12492,7 +12658,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 823. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex/blob/main/cookbook/vision_RAG_pageindex.ipynb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 834. [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex/blob/main/cookbook/vision_RAG_pageindex.ipynb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **This resource provides a technical walkthrough for building a Vision RAG pipeline. Instead of traditional text-based chunking, it indexes document pages as visual elements, preserving complex layouts, tables, and charts that are often lost in text ex**
 
@@ -12508,7 +12674,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 824. [engineer-man/piston](https://github.com/engineer-man/piston)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 835. [engineer-man/piston](https://github.com/engineer-man/piston)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Piston provides a robust sandboxing environment for executing arbitrary code snippets by leveraging Docker and cgroup v2 for strict resource isolation. It abstracts the complexity of maintaining dozens of language runtimes through a unified REST API **
 
@@ -12524,7 +12690,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 825. [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 836. [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project's core goal is to allow MCP clients (like Claude Desktop or Cline) to explore the structure and details of large OpenAPI specifications without needing to load the entire file into an LLM's context window. It achieves this by exposing par**
 
@@ -12540,7 +12706,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 826. [mckinsey/vizro](https://github.com/mckinsey/vizro/tree/HEAD/vizro-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 837. [mckinsey/vizro](https://github.com/mckinsey/vizro/tree/HEAD/vizro-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Vizro-MCP is a Model Context Protocol (MCP) server designed to work alongside large language models (LLMs) such as Claude Desktop or VS Code. It allows users to create interactive dashboards and visualizations by leveraging the MCP protocol, which fa**
 
@@ -12556,7 +12722,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 827. [rossshannon/weekly-weather-mcp](https://github.com/rossshannon/weekly-weather-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 838. [rossshannon/weekly-weather-mcp](https://github.com/rossshannon/weekly-weather-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Weekly Weather MCP server is designed to deliver comprehensive weather data for global locations, including current conditions, hourly and daily forecasts, and detailed weather summaries. It leverages the OpenWeatherMap One Call API to fetch real**
 
@@ -12572,7 +12738,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 828. [nahmanmate/code-research-mcp-server](https://github.com/nahmanmate/code-research-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 839. [nahmanmate/code-research-mcp-server](https://github.com/nahmanmate/code-research-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Borg Project's Code Research MCP Server is an open-source tool that integrates with various developer platforms to provide a unified interface for searching, accessing, and managing programming resources. It supports multiple languages and platfo**
 
@@ -12588,7 +12754,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 829. [mhe8mah/webp-batch-mcp](https://github.com/mhe8mah/webp-batch-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 840. [mhe8mah/webp-batch-mcp](https://github.com/mhe8mah/webp-batch-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The mhe8mah/webp-batch-mcp project provides a robust, multi-platform server-based solution for converting PNG, JPG, and JPEG images to WebP format. It leverages Google's cwebp compression engine for optimal performance while offering a fallback to Sh**
 
@@ -12604,7 +12770,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 830. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 841. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The kazuph/mcp-docs-rag project is a TypeScript-based MCP server designed to enhance developer workflows by integrating GitHub repositories with LLMs via Retrieval-Augmented Generation (RAG). It allows users to store and query documents locally, enab**
 
@@ -12620,7 +12786,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 831. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 842. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The rember-mcp project provides a Model Context Protocol (MCP) server designed to integrate with Rember, a spaced repetition flashcard tool. This integration enables users to create and manage flashcards directly from their interactions with Claude D**
 
@@ -12636,7 +12802,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 832. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 843. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The meta-mcp-server project provides a developer-first platform for building, validating, and deploying MCP (Meta Cloud Platform) servers. It leverages modern tooling such as Zod for schema validation, Docker for containerization, and CLI-based workf**
 
@@ -12652,7 +12818,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 833. [jimpick/mcp-json-db-collection-server](https://github.com/jimpick/mcp-json-db-collection-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 844. [jimpick/mcp-json-db-collection-server](https://github.com/jimpick/mcp-json-db-collection-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This project focuses on leveraging the jimpick/mcp-json-db-collection-server to implement a robust context-aware, multi-database architecture using the Model Context Protocol. By utilizing Fireproof as the underlying database technology, the system e**
 
@@ -12667,7 +12833,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 834. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 845. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The mcp-server-cloudflare project provides a cloud-hosted MCP server that enables developers to monitor, inspect, and manage AI Gateway logs using Cloudflare's AI Gateway API. It supports advanced features such as log retrieval, error analysis, and r**
 
@@ -12683,7 +12849,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 835. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 846. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Omedia/mcp-server-drupal project provides a TypeScript-based companion Model Context Protocol (MCP) server designed to work seamlessly with the Drupal MCP module. It leverages the STDIO transport for efficient data streaming, supporting both auth**
 
@@ -12699,7 +12865,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 836. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 847. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The project presents a comprehensive tectonochemical forecasting stack designed to model hydrocarbon, nitrogen, and water interactions in the Strait of Hormuz. It leverages MCP (Metal Core Processing) architecture with TensorFlow-based LSTM models fo**
 
@@ -12715,7 +12881,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 837. [DonTizi/rlama](https://github.com/DonTizi/rlama)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 848. [DonTizi/rlama](https://github.com/DonTizi/rlama)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **RLAMA is a comprehensive tool designed to serve as the definitive solution for building local RAG systems. It focuses on seamless integration with local Ollama models, providing capabilities for document processing, vector storage, context retrieval,**
 
@@ -12731,7 +12897,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 838. [holepunchto/bare](https://github.com/holepunchto/bare)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 849. [holepunchto/bare](https://github.com/holepunchto/bare)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **Bare is a small, modular JavaScript runtime aimed at simplifying the development of networked applications by enabling seamless integration across various platforms. It leverages low-level bindings to V8 and asynchronous I/O via libuv, supporting bot**
 
@@ -12747,7 +12913,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 839. [jzinno/biomart-mcp](https://github.com/jzinno/biomart-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 850. [jzinno/biomart-mcp](https://github.com/jzinno/biomart-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The project implements a Python-based MCP (Model Context Provisioning) server to facilitate secure and efficient access to Biomart's biological data. It leverages the pybiomart package to integrate with Biomart's APIs, supporting tasks such as data r**
 
@@ -12763,7 +12929,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 840. [phialsbasement/mcp-webresearch-stealthified](https://github.com/phialsbasement/mcp-webresearch-stealthified)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 851. [phialsbasement/mcp-webresearch-stealthified](https://github.com/phialsbasement/mcp-webresearch-stealthified)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Web Research Server is a stealthy, AI-powered tool designed to enhance Claude's web research capabilities by integrating live data from the web. It allows users to perform real-time information retrieval, including search queries, page conten**
 
@@ -12779,7 +12945,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 841. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 852. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **This project integrates the Strava MCP server with Claude Desktop to enable users to interact with their Strava activity data through natural language queries. By establishing a secure connection, users can request detailed insights such as distance **
 
@@ -12795,7 +12961,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 842. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 853. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Cerebras Code MCP project provides an AI-powered coding environment that leverages the Qwen 3 Coder model for high-quality code generation. It integrates seamlessly with tools like Claude Code, Cline, and Cursor, enabling developers to plan, modi**
 
@@ -12811,7 +12977,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 843. [softgridinc-pte-ltd/mcp-excel-reader-server](https://github.com/softgridinc-pte-ltd/mcp-excel-reader-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
+### 854. [softgridinc-pte-ltd/mcp-excel-reader-server](https://github.com/softgridinc-pte-ltd/mcp-excel-reader-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-excel-reader-server is a Python-based application designed to provide robust Excel file processing capabilities. It leverages the ModelContext Protocol (MCP) to securely read data from Excel files, supporting multiple sheets and specific shee**
 
@@ -12826,7 +12992,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 844. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 855. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The mcp-git-ingest repository implements a Model Context Protocol (MCP) server that enables automated analysis of GitHub repository structures and key files. It provides tools to clone repositories, generate directory trees, and read specified file c**
 
@@ -12842,7 +13008,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 845. [pipedreamhq/pipedream](https://github.com/pipedreamhq/pipedream/tree/HEAD/modelcontextprotocol)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 856. [pipedreamhq/pipedream](https://github.com/pipedreamhq/pipedream/tree/HEAD/modelcontextprotocol)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This technical resource outlines the architecture and functionality of Pipedream's Model Context Protocol (MCP) server, focusing on how it enables secure, isolated, and scalable context management for applications. It details the setup of MCP servers**
 
@@ -12858,7 +13024,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 846. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 857. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The MCP Server project leverages EventRegistry API to fetch and analyze news headlines, providing structured sentiment analysis with diagnostics. It supports daily and monthly sentiment snapshots, offering insights into political leanings, source dis**
 
@@ -12874,7 +13040,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 847. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 858. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **This project implements a TypeScript-based MCP (Model Context Protocol) server that integrates with the Voicevox engine to provide local text-to-speech capabilities on macOS. It leverages Docker for containerization and supports audio playback via AF**
 
@@ -12890,7 +13056,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 848. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 859. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **This project provides a Node.js-based MCP (Model Context Protocol) server that connects DeepSeek's R1 and V3 language models with the Claude Desktop interface. It leverages Docker for containerization, supports custom model selection, and includes ro**
 
@@ -12906,7 +13072,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 849. [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 860. [anaisbetts/mcp-youtube](https://github.com/anaisbetts/mcp-youtube)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The anaisbetts/mcp-youtube project implements a Model-Context Protocol Server that enables seamless interaction between AI models and YouTube videos. It leverages yt-dlp to extract subtitles and connects them to Claude AI via the Model Context Protoc**
 
@@ -12921,7 +13087,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 850. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 861. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The sec-edgar-mcp project provides a model context protocol server that enables seamless integration with SEC EDGAR filings, financial statements, and insider trading data. It leverages AI-driven assistants to enhance developer workflows, supports en**
 
@@ -12936,7 +13102,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 851. [mlobo2012/claude_desktop_api_use_via_mcp](https://github.com/mlobo2012/claude_desktop_api_use_via_mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 862. [mlobo2012/claude_desktop_api_use_via_mcp](https://github.com/mlobo2012/claude_desktop_api_use_via_mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a robust MCP server that facilitates seamless integration between Claude Desktop and the Claude API. It supports extended functionality such as custom system prompts, conversation history tracking, and advanced API usage without**
 
@@ -12951,7 +13117,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 852. [Soham-bakshi/MCP-Server](https://github.com/Soham-bakshi/MCP-Server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 863. [Soham-bakshi/MCP-Server](https://github.com/Soham-bakshi/MCP-Server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The project implements an AI-driven chatbot using Streamlit and LangChain to interface with a custom MCP (Model Context Protocol) server. It leverages Google Gemini 1.5 models for conversational reasoning, supports real-time data manipulation through**
 
@@ -12966,7 +13132,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 853. [lakphy/deep-reasoning-mcp](https://github.com/lakphy/deep-reasoning-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 864. [lakphy/deep-reasoning-mcp](https://github.com/lakphy/deep-reasoning-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The Deep Reasoning MCP project leverages the Model Context Protocol (MCP) to deliver sophisticated, context-aware reasoning capabilities. By integrating a state-of-the-art deep learning model, it empowers developers and organizations to process compl**
 
@@ -12981,7 +13147,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 854. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers 📍
+### 865. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Whimsical MCP Server is a specialized tool that leverages the Model Context Protocol (MCP) to generate visual diagrams programmatically from natural language inputs. It integrates with Whimsical's API, allowing developers to create complex diagra**
 
@@ -12996,7 +13162,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 855. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 866. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The actor-critic thinking MCP server leverages the Actor-Critic methodology to deliver comprehensive, balanced assessments through dual perspectives. It offers immersive, comfortable audio experiences with long-lasting battery life and touch controls**
 
@@ -13011,7 +13177,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 856. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 867. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Kuon-dev/advanced-reason-mcp project is an enhanced version of Sequential Thinking MCP, designed to leverage the Gemini API for improved contextual understanding and intelligent responses. It supports advanced reasoning tasks by integrating exter**
 
@@ -13026,7 +13192,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 857. [Wildcard-Official/deepcontext-mcp](https://github.com/Wildcard-Official/deepcontext-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 868. [Wildcard-Official/deepcontext-mcp](https://github.com/Wildcard-Official/deepcontext-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **DeepContext-MCP implements a multi-stage context retrieval pipeline designed specifically for large-scale codebase navigation. It utilizes Tree-sitter for AST-based parsing to identify semantic boundaries—such as functions, classes, and interfaces—ra**
 
@@ -13042,7 +13208,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 858. [Architecting efficient context-aware multi-agent framework for production- Google Developers Blog](https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 869. [Architecting efficient context-aware multi-agent framework for production- Google Developers Blog](https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **The article argues that relying solely on larger context windows is insufficient for production-grade, long-horizon agents due to cost, latency, signal degradation, and physical limits. The solution proposed is 'Context Engineering,' treating context**
 
@@ -13058,7 +13224,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 859. [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 870. [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **MemGPT adopts a hierarchical memory management architecture inspired by traditional operating systems to bypass LLM context window limitations. It divides memory into 'Main Context' (the fixed-size prompt window) and 'External Context' (disk-based st**
 
@@ -13074,7 +13240,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 860. [MemGPT](https://research.memgpt.ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 871. [MemGPT](https://research.memgpt.ai)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **MemGPT adopts the principles of virtual memory management from traditional operating systems, treating the LLM's fixed context window as a 'main memory' (RAM) while utilizing external storage tiers as 'disk.' It enables the LLM to autonomously manage**
 
@@ -13090,7 +13256,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 861. [Dynamic tool discovery in MCP | Speakeasy](https://www.speakeasy.com/mcp/tool-design/dynamic-tool-discovery)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 872. [Dynamic tool discovery in MCP | Speakeasy](https://www.speakeasy.com/mcp/tool-design/dynamic-tool-discovery)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **The resource outlines Speakeasy's Model Context Protocol (MCP), which facilitates communication and tool usage for AI agents. The core technical focus is 'Dynamic Tool Discovery,' allowing agents to discover and utilize available tools (like APIs or **
 
@@ -13106,7 +13272,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 862. [Edge.js: Running Node apps inside a WebAssembly Sandbox · Blog · Wasmer](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 873. [Edge.js: Running Node apps inside a WebAssembly Sandbox · Blog · Wasmer](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **Edge.js is a JavaScript runtime designed to safely run Node.js workloads in a WebAssembly sandbox, leveraging WebAssembly's security features and the OS-level isolation provided by WASI. It preserves full Node.js compatibility while sandboxing only u**
 
@@ -13122,7 +13288,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 863. [Powering the agents: Workers AI now runs large models, starting with Kimi K2.5](https://blog.cloudflare.com/workers-ai-large-models)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 874. [Powering the agents: Workers AI now runs large models, starting with Kimi K2.5](https://blog.cloudflare.com/workers-ai-large-models)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **The launch of Workers AI marks a significant advancement in the integration of large language models into cloud-native agent systems. By providing access to powerful models like Kimi K2.5 directly through Cloudflare's Developer Platform, Borg enables**
 
@@ -13137,7 +13303,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 864. [fzliu/radient](https://github.com/fzliu/radient/blob/main/examples/multimodal_rag.md)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 875. [fzliu/radient](https://github.com/fzliu/radient/blob/main/examples/multimodal_rag.md)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This resource demonstrates a complete workflow for Multimodal Retrieval Augmented Generation (RAG) using the Radient library. The goal is to vectorize audio, text, and images into a unified embedding space and then use these vectorized data to inform**
 
@@ -13151,7 +13317,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 865. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 876. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Xuanwo/mcp-server-opendal project provides a Model Context Protocol (MCP) server that facilitates seamless access to various cloud and on-premise storage solutions such as S3, Azure Blob Storage, and Google Cloud Storage. It allows developers to **
 
@@ -13167,7 +13333,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 866. [wopal-cn/mcp-hotnews-server](https://github.com/wopal-cn/mcp-hotnews-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 877. [wopal-cn/mcp-hotnews-server](https://github.com/wopal-cn/mcp-hotnews-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The wopal-cn/mcp-hotnews-server is a model context protocol server designed to deliver up-to-the-minute hot trending topics from prominent Chinese social media platforms and news outlets. It leverages the API of api.vvhan.com to fetch live data, enab**
 
@@ -13181,7 +13347,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 867. [monadical-sas/zulip-mcp](https://github.com/monadical-sas/zulip-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 878. [monadical-sas/zulip-mcp](https://github.com/monadical-sas/zulip-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project implements a protocol server using Zulip's Model Context Protocol (MCP) to allow AI tools like Claude to seamlessly integrate with Zulip channels, supporting message posting, direct messaging, reactions, and channel management. It leverag**
 
@@ -13197,7 +13363,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 868. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 879. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **React MCP is a server-based tool that allows Claude Desktop to interact with React applications, facilitating the creation, modification, and management of React apps based on user prompts. It leverages the Model Context Protocol to bridge AI capabil**
 
@@ -13213,7 +13379,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 869. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 880. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The ngeojiajun/mcp-code-snippets project provides a Model Context Protocol (MCP) server that enables developers to create, list, and delete code snippets in various programming languages. It supports features such as persistent storage, filtering by **
 
@@ -13229,7 +13395,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 870. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 881. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The dcSpark/mcp-server-helius project provides a Model Context Protocol (MCP) server that allows Claude, an AI assistant, to access real-time Solana blockchain information such as wallet balances, block heights, and transaction details. This integrat**
 
@@ -13245,7 +13411,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 871. [qwang07/duck-duck-mcp](https://github.com/qwang07/duck-duck-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 882. [qwang07/duck-duck-mcp](https://github.com/qwang07/duck-duck-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This project presents a DuckDuckGo-based implementation of the Model Context Protocol (MCP), designed to enable secure and efficient context-aware interactions in AI systems. It leverages advanced search capabilities, supports customizable search par**
 
@@ -13261,7 +13427,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 872. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 883. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Python-based MCP server that integrates Baidu Cloud's large language model for content safety. It supports secure deployment via Uvicorn, integrates with Cursor for AI-powered text analysis, and enforces strict access controls **
 
@@ -13276,7 +13442,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 873. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 884. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project implements a Model Context Protocol (MCP) server that leverages the Nationalize.io API to predict the geographic origin of given names. It supports batch predictions and real-time integration, offering developers a robust tool for context**
 
@@ -13291,7 +13457,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 874. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 885. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides a robust, secure, and efficient Pyodide server that allows Large Language Models (LLMs) to run Python scripts through the MCP interface. It supports both standard input/output (stdio) and SSE transport modes, ensuring compatibil**
 
@@ -13306,7 +13472,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 875. [MeetRathodNitsan/MCP1](https://github.com/MeetRathodNitsan/MCP1)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 886. [MeetRathodNitsan/MCP1](https://github.com/MeetRathodNitsan/MCP1)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP AI Server is a scalable, enterprise-grade platform designed for intelligent search and context-aware applications. It integrates FastAPI with advanced AI models like Claude/ChatGPT, utilizing Pinecone for fast vector search and MCP for seamle**
 
@@ -13321,7 +13487,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 876. [dazeb/markdown-downloader](https://github.com/dazeb/markdown-downloader)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 887. [dazeb/markdown-downloader](https://github.com/dazeb/markdown-downloader)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The Markdown Downloader MCP Server is designed to fetch web content and convert it into markdown format using the r.jina.ai service. It supports configurable download directories, automatic filename generation with timestamps, and persistent configur**
 
@@ -13336,7 +13502,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 877. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 888. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a developer platform that enables seamless interaction between LLMs and external tools via a chat interface. It leverages MCP (Model Context Protocol) to allow users to query language models and execute various applications throu**
 
@@ -13351,7 +13517,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 878. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 889. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This project leverages FastAPI and the Model Context Protocol (MCP) to standardize communication between AI models and development environments. It provides a modular, asynchronous API server that supports JSON-RPC 2.0, SSE connections, and session m**
 
@@ -13367,7 +13533,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 879. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 890. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The showfive/playwright-mcp-server project provides a robust server solution for retrieving full-page content and interacting with web elements via the MCP protocol. It supports advanced features such as interactive element detection, mouse operation**
 
@@ -13383,7 +13549,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 880. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 891. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a fully automated machine learning pipeline that integrates data ingestion, preprocessing, model training, evaluation, and deployment. It leverages the Model Context Protocol (MCP) to connect with external tools like Claude Deskt**
 
@@ -13398,7 +13564,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 881. [angrysky56/mcp-rocq](https://github.com/angrysky56/mcp-rocq)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 892. [angrysky56/mcp-rocq](https://github.com/angrysky56/mcp-rocq)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-rocq project leverages the Coq platform to provide advanced logical reasoning capabilities, supporting automated dependent type checking, inductive type definitions, property proving, and structured communication with Coq. It is designed to a**
 
@@ -13413,7 +13579,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 882. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 893. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a Model Context Protocol (MCP) server that integrates Playwright for browser automation, allowing AI models to execute JavaScript, take screenshots, and interact with web applications in real time. It leverages Deno 2's lightweig**
 
@@ -13428,7 +13594,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 883. [santos-404/mcp-server.sqlite](https://github.com/santos-404/mcp-server.sqlite)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 894. [santos-404/mcp-server.sqlite](https://github.com/santos-404/mcp-server.sqlite)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **This project provides a TypeScript-based MCP server that allows AI models to connect to an SQLite database, execute SQL commands, and leverage context-aware interactions. It focuses on enabling seamless integration of external tools and services via **
 
@@ -13443,7 +13609,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 884. [isaacwasserman/mcp-langchain-ts-client](https://github.com/isaacwasserman/mcp-langchain-ts-client)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 895. [isaacwasserman/mcp-langchain-ts-client](https://github.com/isaacwasserman/mcp-langchain-ts-client)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The mcp-langchain-ts-client is a JavaScript/TypeScript LangChain and Model Context Protocol (MCP) client designed to facilitate interaction between AI models and MCP-based systems. It allows developers to build applications that leverage the capabili**
 
@@ -13458,7 +13624,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 885. [coleam00/mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
+### 896. [coleam00/mcp-crawl4ai-rag](https://github.com/coleam00/mcp-crawl4ai-rag)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful implementation of the Model Context Protocol (MCP) integrated with Crawl4AI and Supabase, enabling AI agents and coding assistants to perform advanced web crawling and RAG capabilities.**
 
@@ -13474,7 +13640,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 886. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 897. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The MCP server enables analysis of academic author relationships by leveraging APIs from Google Scholar, Crossref, and Semantic Scholar. It supports features such as finding co-authors, extracting keywords, and integrating data across multiple source**
 
@@ -13490,7 +13656,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 887. [sirmews/apple-notes-mcp](https://github.com/sirmews/apple-notes-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 898. [sirmews/apple-notes-mcp](https://github.com/sirmews/apple-notes-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **This project leverages the Apple Notes database and integrates it with the Claude Model Context Protocol, allowing users to interact with their personal notes using natural language queries. It provides tools for retrieving, searching, and managing n**
 
@@ -13505,7 +13671,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 888. [hugohow/mcp-music-analysis](https://github.com/hugohow/mcp-music-analysis)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 899. [hugohow/mcp-music-analysis](https://github.com/hugohow/mcp-music-analysis)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project leverages librosa for audio processing and Whisper with LLMs to analyze music audio, enabling detailed insights such as beat detection, duration estimation, MFCC computation, and lyric transcription. It aims to enhance context understandi**
 
@@ -13520,7 +13686,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 889. [flexpa/mcp-fhir](https://github.com/flexpa/mcp-fhir)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 900. [flexpa/mcp-fhir](https://github.com/flexpa/mcp-fhir)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The flexpa/mcp-fhir project provides a TypeScript-based MCP server that facilitates interaction with FHIR servers by exposing core resources through the Model Context Protocol (MCP). It supports secure, context-aware access to FHIR resources, enablin**
 
@@ -13534,7 +13700,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 890. [jaokuohsuan/draw-things-mcp-cursor](https://github.com/jaokuohsuan/draw-things-mcp-cursor)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 901. [jaokuohsuan/draw-things-mcp-cursor](https://github.com/jaokuohsuan/draw-things-mcp-cursor)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **This project enables the integration of the Draw Things MCP cursor into Cursor, allowing users to generate images via a model context protocol. It leverages MCP's capabilities to interact with external APIs and supports advanced features such as nega**
 
@@ -13549,7 +13715,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 891. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 902. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a Dockerized server implementation that integrates with Dify AI's chat completion API, allowing developers to leverage AI-driven responses within their applications. It supports key features such as code generation, context manag**
 
@@ -13564,7 +13730,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 892. [Ragie | The Context Engine for Agents , Assistants, and Apps](https://www.ragie.ai/?rdt_cid=5168814890013987582)  `10.0` ★★★ ⚡87.0 Q0.8🏆 World-class · ↗2 layers
+### 903. [Ragie | The Context Engine for Agents , Assistants, and Apps](https://www.ragie.ai/?rdt_cid=5168814890013987582)  `10.0` ★★★ ⚡87.0 Q0.8🏆 World-class · ↗2 layers
 
 **The Borg intelligence database entry evaluates Ragie as a powerful RAG (Retrieval-Augmented Generation) engine designed to extract structured context from unstructured documents. It highlights its capabilities in entity extraction, customization via **
 
@@ -13580,7 +13746,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 893. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers 📍
+### 904. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers 📍
 
 **A developer platform for building, deploying, and managing AI-powered applications with integrated security, code review, and workflow automation tools.**
 
@@ -13596,7 +13762,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 894. [xiaolaa2/midi-file-mcp](https://github.com/xiaolaa2/midi-file-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 905. [xiaolaa2/midi-file-mcp](https://github.com/xiaolaa2/midi-file-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **A powerful MIDI file parsing and manipulation tool based on Tone.js, enabling AI assistants to read, analyze, and modify MIDI files without complexities.**
 
@@ -13612,7 +13778,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 895. [Quickstart](https://developers.llamaindex.ai)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 906. [Quickstart](https://developers.llamaindex.ai)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The documentation showcases the LlamaIndex framework, emphasizing the LlamaCloud platform's suite of services (LlamaParse, LlamaExtract, LlamaClassify, etc.) accessible via Python and TypeScript SDKs. It provides extensive quickstarts, guides, and co**
 
@@ -13628,7 +13794,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 896. [Building a Live RAG Pipeline over Google Drive Files](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 907. [Building a Live RAG Pipeline over Google Drive Files](https://developers.llamaindex.ai/python/examples/ingestion/ingestion_gdrive)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The resource describes setting up a Retrieval-Augmented Generation (RAG) pipeline using LlamaIndex to ingest data from Google Drive. The core technical innovation lies in achieving 'live' updates by configuring an IngestionPipeline that utilizes a Re**
 
@@ -13644,7 +13810,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 897. [lalanikarim/comfy-mcp-server](https://github.com/lalanikarim/comfy-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 908. [lalanikarim/comfy-mcp-server](https://github.com/lalanikarim/comfy-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **This project leverages the FastMCP framework to create image generation workflows by interacting with a remote Comfy server. It involves setting up environment variables, configuring the workflow file, and using Python packages like uvx and langchain**
 
@@ -13660,7 +13826,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 898. [chew-z/researchmcp](https://github.com/chew-z/researchmcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 909. [chew-z/researchmcp](https://github.com/chew-z/researchmcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **ResearchMCP is a Go-based application that integrates with the MCP protocol to leverage Perplexity AI's capabilities for internet research. It provides a structured and configurable environment for developers to build, deploy, and manage AI-driven re**
 
@@ -13676,7 +13842,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 899. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 910. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The MCP Character Counter is a minimalistic server that leverages the Model Context Protocol (MCP) to deliver comprehensive character breakdowns, including counts of characters, letters, numbers, and symbols. It supports integration with AI tools lik**
 
@@ -13692,7 +13858,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 900. [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 911. [metoro-io/metoro-mcp-server](https://github.com/metoro-io/metoro-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The Metoro MCP Server is a Kubernetes-native observability tool that leverages eBPF-based instrumentation to collect deep telemetry from microservices without requiring code changes. It exposes APIs through the Metoro Desktop App, allowing developers**
 
@@ -13706,7 +13872,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 901. [appleinmusic/baidu-search-mcp](https://github.com/appleinmusic/baidu-search-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 912. [appleinmusic/baidu-search-mcp](https://github.com/appleinmusic/baidu-search-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **This project leverages the Baidu TextMind API to enable AI-powered search within a Model Context Protocol (MCP) environment. It supports multiple model versions such as ernie-3.5-8k, ernie-4.0-8k, deepseek-r1, and deepseek-v3, providing users with re**
 
@@ -13720,7 +13886,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 902. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers 📍
+### 913. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides an A TypeScript implementation of the Model Context Protocol (MCP) server, designed to work seamlessly with Google's Gemini Pro AI model. It enables integration with the Claude Desktop application, allowing users to leverage adv**
 
@@ -13734,7 +13900,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 903. [v4lheru/trello-mcp-server](https://github.com/v4lheru/trello-mcp-server)  `8.5` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 914. [v4lheru/trello-mcp-server](https://github.com/v4lheru/trello-mcp-server)  `8.5` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The project provides a server implementation using Trello API integration to automate workflows, manage code changes, and enhance developer productivity through CI/CD pipelines. It supports enterprise-level security features, secure code handling, an**
 
@@ -13749,7 +13915,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 904. [MongoDB/mdbr-leaf-ir · Hugging Face](https://huggingface.co/MongoDB/mdbr-leaf-ir)  `9.8` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 915. [MongoDB/mdbr-leaf-ir · Hugging Face](https://huggingface.co/MongoDB/mdbr-leaf-ir)  `9.8` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **mdbr-leaf-ir is a lightweight yet powerful text embedding model tailored for efficient information retrieval (IR) applications. It supports flexible asymmetric architectures and is robust to vector quantization and MRL truncation, making it suitable **
 
@@ -13764,7 +13930,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 905. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 916. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **The profile for 'campfirein' showcases several repositories central to the development and evaluation of AI coding agents. Key projects include 'cipher' (Byterover Cipher), an open-source memory layer compatible with various coding agents and IDEs vi**
 
@@ -13779,7 +13945,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 906. [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training | Hacker News](https://news.ycombinator.com/item?id=47431671)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 917. [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training | Hacker News](https://news.ycombinator.com/item?id=47431671)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The study investigates how duplicating specific layers in a 24B transformer model can alter its reasoning capabilities without changing weights or training. By duplicating contiguous blocks (e.g., layers 12-14 or 7-9) and rerunning the reasoning pipe**
 
@@ -13794,7 +13960,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 907. [Show HN: Bossa – Persistent filesystem memory for AI agents via MCP or CLI | Hacker News](https://news.ycombinator.com/item?id=47478872)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 918. [Show HN: Bossa – Persistent filesystem memory for AI agents via MCP or CLI | Hacker News](https://news.ycombinator.com/item?id=47478872)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The Bossa project introduces a persistent filesystem memory system that enables AI agents to retain and access session data across runs. By leveraging a filesystem interface, the approach allows agents to perform file operations like ls, grep, read, **
 
@@ -13809,7 +13975,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 908. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 919. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **The alxspiker/ai-meta-mcp-server is a flexible platform that allows AI models to define and run custom tools at runtime through a meta-tool architecture. It supports multiple execution environments, enforces sandboxed security, and integrates with hu**
 
@@ -13825,7 +13991,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 909. [Chroma Context-1: Training a Self-Editing Search Agent](https://www.trychroma.com/research/context-1)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 920. [Chroma Context-1: Training a Self-Editing Search Agent](https://www.trychroma.com/research/context-1)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **This technical resource introduces Chroma Context-1, a 20B parameter agentic search model designed to decompose queries into subqueries and iteratively refine its context to optimize retrieval within a bounded window. It addresses the limitations of **
 
@@ -13840,7 +14006,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 910. [al-how/supernotes-to-obsidian](https://github.com/al-how/supernotes-to-obsidian)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 921. [al-how/supernotes-to-obsidian](https://github.com/al-how/supernotes-to-obsidian)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **This project provides a Python script that leverages the Model Context Protocol (MCP) to synchronize Supernotes exports with Obsidian daily notes. It automates note creation, formatting, and integration, enhancing productivity for users managing stru**
 
@@ -13855,7 +14021,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 911. [prixyy/rag_based_mcp](https://github.com/prixyy/rag_based_mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 922. [prixyy/rag_based_mcp](https://github.com/prixyy/rag_based_mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The PRIXYY/Rag_Based_MCP project is an AI-powered platform designed to enhance document understanding by leveraging the GroundX API. It allows users to upload PDFs and ask questions about their content, delivering accurate and relevant responses base**
 
@@ -13869,7 +14035,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 912. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 923. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP Server To Markdown project provides a cloud-based solution for converting files into Markdown format, leveraging Cloudflare's AI capabilities. It supports multiple file types and integrates seamlessly with Claude Desktop, offering efficient a**
 
@@ -13884,7 +14050,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 913. [superagent-ai/reag](https://github.com/superagent-ai/reag)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers
+### 924. [superagent-ai/reag](https://github.com/superagent-ai/reag)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers
 
 **A project proposing a paradigm shift from traditional RAG to "Reasoning-Augmented Generation," feeding full documents directly to the LLM for holistic evaluation.**
 
@@ -13898,7 +14064,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 914. [I built an entire OS by vibing with Claude](https://old.reddit.com/r/vibecoding/comments/1qf46sc/i_built_an_entire_os_by_vibing_with_claude)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class 📍
+### 925. [I built an entire OS by vibing with Claude](https://old.reddit.com/r/vibecoding/comments/1qf46sc/i_built_an_entire_os_by_vibing_with_claude)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class 📍
 
 **The project demonstrates a novel approach to operating system development by leveraging AI-assisted natural language interaction to iteratively build and refine complex software systems. It highlights the potential of AI in automating and acceleratin**
 
@@ -13914,7 +14080,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 915. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 926. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A context-efficient MCP server for generating and tracking unconventional solutions using advanced note-taking.**
 
@@ -13930,7 +14096,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 916. [narphorium/mcp-memex](https://github.com/narphorium/mcp-memex)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 927. [narphorium/mcp-memex](https://github.com/narphorium/mcp-memex)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The narphorium/mcp-memex project provides an open-source solution for building a Memex-like system that enables users to analyze web pages and store them in a structured knowledge base. It leverages the Model Context Protocol (MCP) to facilitate seam**
 
@@ -13944,7 +14110,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 917. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 928. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **An MCP server functioning as a specialized analysis engine to generate dependency graphs (JSON/DOT) and detect architectural "deadlocks" across codebases.**
 
@@ -13958,7 +14124,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 918. [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
+### 929. [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
 
 **A privacy-first desktop platform for the full AI development lifecycle, featuring synthetic data generation, prompt optimization, and reasoning distillation.**
 
@@ -13972,7 +14138,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 919. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 930. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A unified MCP server enabling advanced code manipulation and analysis across multiple programming languages via Language Server Protocol integration.**
 
@@ -13988,7 +14154,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 920. [https://app.augmentcode.com/onboard](https://app.augmentcode.com/onboard)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 931. [https://app.augmentcode.com/onboard](https://app.augmentcode.com/onboard)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **Augment leverages advanced context engineering to deliver a deep understanding of entire repositories, placing it at the top of the SWE-bench Pro leaderboard for autonomous software engineering. Its architecture is built to ingest and index large-sca**
 
@@ -14004,7 +14170,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 921. [Show HN: LLM-aided OCR – Correcting Tesseract OCR errors with LLMs | Hacker News](https://news.ycombinator.com/item?id=41203306)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 932. [Show HN: LLM-aided OCR – Correcting Tesseract OCR errors with LLMs | Hacker News](https://news.ycombinator.com/item?id=41203306)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The project proposes a multi-stage intelligence pipeline that combines Tesseract OCR with large language models (LLMs) to correct OCR errors, reformat text, and enhance readability. It leverages LLMs for context-aware corrections, markdown formatting**
 
@@ -14020,7 +14186,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 922. [tchbw/mcp-imessage](https://github.com/tchbw/mcp-imessage)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
+### 933. [tchbw/mcp-imessage](https://github.com/tchbw/mcp-imessage)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
 
 **This project focuses on integrating the Model Context Protocol (MCP) into a software system to enable secure and context-aware interactions via iMessage. It leverages advanced context management to ensure that messages are delivered with appropriate **
 
@@ -14034,7 +14200,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 923. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
+### 934. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a Spring Boot-based AI server that enables interaction with Confluence Cloud, offering callable tools for managing spaces, pages, and document history. It leverages the Model Context Protocol (MCP) to facilitate seamless integra**
 
@@ -14048,7 +14214,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 924. [ertiqah/linkedin-mcp-runner](https://github.com/ertiqah/linkedin-mcp-runner)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
+### 935. [ertiqah/linkedin-mcp-runner](https://github.com/ertiqah/linkedin-mcp-runner)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
 
 **The LiGo MCP Runner project enables GPT-based assistants to access and analyze user activity on LinkedIn, enhancing contextual awareness and response quality. It leverages the MCP protocol to pull real-time data, allowing developers to build intellig**
 
@@ -14062,7 +14228,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 925. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 936. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient han**
 
@@ -14076,7 +14242,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 926. [seym0n/tiktok-mcp](https://github.com/seym0n/tiktok-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers 📍
+### 937. [seym0n/tiktok-mcp](https://github.com/seym0n/tiktok-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Seym0n/tiktok-mcp project enables Claude AI and other applications to analyze TikTok videos by extracting subtitles, engagement metrics, and virality factors. This integration leverages TikNeuron's capabilities to process video content, providing**
 
@@ -14090,7 +14256,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 927. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 938. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol tool for integrating Tavily API into LLM search workflows.**
 
@@ -14106,7 +14272,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 928. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 939. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A task management application with Model Context Protocol integration, SQLite storage, and Obsidian visualization.**
 
@@ -14122,7 +14288,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 929. [jonnoc/coderag](https://github.com/jonnoc/coderag)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 940. [jonnoc/coderag](https://github.com/jonnoc/coderag)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Advanced graph-based code analysis platform for AI-assisted software development.**
 
@@ -14138,7 +14304,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 930. [alex-feel/mcp-context-server](https://github.com/alex-feel/mcp-context-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 941. [alex-feel/mcp-context-server](https://github.com/alex-feel/mcp-context-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A high-performance Model Context Protocol server enabling persistent multimodal context storage for LLM agents.**
 
@@ -14154,7 +14320,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 931. [Show HN: Portable RAG (Open Source) | Hacker News](https://news.ycombinator.com/item?id=47307887)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
+### 942. [Show HN: Portable RAG (Open Source) | Hacker News](https://news.ycombinator.com/item?id=47307887)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The project introduces a Python-based solution for retrieving information from external documents using a portable retrieval-augmented generation (RAG) approach. It addresses the challenge of managing large text files within limited context windows b**
 
@@ -14169,7 +14335,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 932. [jeong-sik/kakao-api-mcp-server](https://github.com/jeong-sik/kakao-api-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 943. [jeong-sik/kakao-api-mcp-server](https://github.com/jeong-sik/kakao-api-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This project enables AI models to leverage Kakao Map and Daum APIs for location-based services, integrating geospatial data retrieval, route planning, and web search functionalities.**
 
@@ -14185,7 +14351,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 933. [Brokk â AI for Large Codebases](https://brokk.ai/login)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 944. [Brokk â AI for Large Codebases](https://brokk.ai/login)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Brokk addresses the 'lost in the middle' and context window limitation problems inherent in large-scale software development. It utilizes advanced repository indexing and semantic search to map out complex cross-file dependencies and architectural pa**
 
@@ -14201,7 +14367,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 934. [Supermemory Console](https://console.supermemory.ai/dashboard)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 945. [Supermemory Console](https://console.supermemory.ai/dashboard)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **Supermemory utilizes a Retrieval-Augmented Generation (RAG) architecture to build a persistent context layer for personal information. It focuses on the ingestion and indexing of disparate data sources—including web links, Twitter bookmarks, and uplo**
 
@@ -14217,7 +14383,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 935. [Claude Code's new hidden feature: Swarms | Hacker News](https://news.ycombinator.com/item?id=46743908)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
+### 946. [Claude Code's new hidden feature: Swarms | Hacker News](https://news.ycombinator.com/item?id=46743908)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
 
 **This Hacker News thread discusses an experiment where multiple AI agents, each with a specific role (e.g., Architect, Scrum Master, Developer), are orchestrated to work together on a software development project. The goal is to improve code quality a**
 
@@ -14233,7 +14399,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 936. [Show HN: A pdf parser based on multimodal LLM | Hacker News](https://news.ycombinator.com/item?id=41118344)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 947. [Show HN: A pdf parser based on multimodal LLM | Hacker News](https://news.ycombinator.com/item?id=41118344)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This project is a PDF parser that leverages multimodal Large Language Models (LLMs) to analyze PDF content. It improves upon existing methods like gptpdf by implementing an end-to-end text chunking approach. A key feature is the use of a layout analy**
 
@@ -14249,7 +14415,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 937. [Show HN: LLM Aided Transcription Improvement | Hacker News](https://news.ycombinator.com/item?id=41224623)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 948. [Show HN: LLM Aided Transcription Improvement | Hacker News](https://news.ycombinator.com/item?id=41224623)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **This project leverages the capabilities of low-cost LLMs (like those from OpenAI and Anthropic) to improve raw transcripts generated from spoken word content. It addresses the problem of informal and rambling speech in videos or audio recordings, tra**
 
@@ -14265,7 +14431,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 938. [Show HN: I built a local RAG pipeline to index 28 years of my personal data [video] | Hacker News](https://news.ycombinator.com/item?id=46625561)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 949. [Show HN: I built a local RAG pipeline to index 28 years of my personal data [video] | Hacker News](https://news.ycombinator.com/item?id=46625561)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **The project details the creation of a local semantic search engine for a personal archive spanning 28 years (1997-2025). It addresses the problem of querying large amounts of personal data (journals, emails, notes) to identify patterns without exposi**
 
@@ -14281,7 +14447,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 939. [antl3x/ToolRAG](https://github.com/antl3x/ToolRAG)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 950. [antl3x/ToolRAG](https://github.com/antl3x/ToolRAG)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **A specialized RAG framework that enables "unlimited" tool support by using vector search to dynamically inject relevant tool schemas into the context.**
 
@@ -14295,7 +14461,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 940. [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 951. [infiniflow/ragflow](https://github.com/infiniflow/ragflow)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **A next-generation RAG engine built on vision-based "Deep Document Understanding," ensuring high-accuracy retrieval from complex PDFs and tables.**
 
@@ -14309,7 +14475,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 941. [upstash/context7](https://github.com/upstash/context7)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 952. [upstash/context7](https://github.com/upstash/context7)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A documentation-focused RAG engine by Upstash featuring server-side reranking and automated SKILL.md generation from official docs.**
 
@@ -14323,7 +14489,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 942. [ogoldberg/gemini-context-mcp-server](https://github.com/ogoldberg/gemini-context-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 953. [ogoldberg/gemini-context-mcp-server](https://github.com/ogoldberg/gemini-context-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A MCP server leveraging Gemini's large context window to enhance AI capabilities.**
 
@@ -14338,7 +14504,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 943. [kazuph/mcp-youtube](https://github.com/kazuph/mcp-youtube)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 954. [kazuph/mcp-youtube](https://github.com/kazuph/mcp-youtube)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The kazuph/mcp-youtube project implements a Model-Context Protocol Server that connects YouTube subtitle downloads via yt-dlp to Claude.ai using the Model Context Protocol. This setup allows developers to leverage AI for summarizing or processing You**
 
@@ -14352,7 +14518,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 944. [shivay-couchbase/couchbase-mcp](https://github.com/shivay-couchbase/couchbase-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 955. [shivay-couchbase/couchbase-mcp](https://github.com/shivay-couchbase/couchbase-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **This project demonstrates the use of the Model Context Protocol (MCP) to enable AI models to perform semantic searches on Star Wars planets. It leverages Couchbase's vector search capabilities to efficiently find similar planets based on embeddings, **
 
@@ -14366,7 +14532,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 945. [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 956. [Meta-Harness: End-to-End Optimization of Model Harnesses](https://arxiv.org/abs/2603.28052)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **Meta-Harness introduces an automated system that searches through existing code repositories to discover and optimize model harnesses, improving performance across various LLM tasks such as text classification, retrieval-augmented reasoning, and agen**
 
@@ -14381,7 +14547,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 946. [thesophiaxu/contextd](https://github.com/thesophiaxu/contextd)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 957. [thesophiaxu/contextd](https://github.com/thesophiaxu/contextd)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **An efficient macOS app that continuously captures screen activity, summarizes it with an LLM, and makes summaries available for integration with other local tools.**
 
@@ -14396,7 +14562,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 947. [Nvidia NemoClaw | Hacker News](https://news.ycombinator.com/item?id=47427027)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers 📍
+### 958. [Nvidia NemoClaw | Hacker News](https://news.ycombinator.com/item?id=47427027)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers 📍
 
 **The Borg Project intelligence database review highlights concerns about the deployment of Nvidia NemoClaw, a hacker tool leveraging advanced AI models. The analysis underscores the risks associated with granting AI agents access to sensitive systems **
 
@@ -14411,7 +14577,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 948. [context7/context7](https://github.com/context7/context7)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent 📍
+### 959. [context7/context7](https://github.com/context7/context7)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent 📍
 
 **A specialized context engineering tool that provides agents with real-time documentation for modern frameworks (Next.js 15, Tailwind v4) to bypass stale training data.**
 
@@ -14425,7 +14591,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 949. [leslieleung/mcp-server-memos](https://github.com/leslieleung/mcp-server-memos)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers 📍
+### 960. [leslieleung/mcp-server-memos](https://github.com/leslieleung/mcp-server-memos)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The MCP (Model Context Protocol) server facilitates the creation, retrieval, and management of memos within a Memo platform. It provides tools and APIs to streamline workflows, ensuring efficient handling of document contexts and metadata.**
 
@@ -14439,7 +14605,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 950. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
+### 961. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The tool leverages the Model Context Protocol to analyze React components, extracting details such as props, types, and default values. It supports local analysis of project folders and integrates with Claude for enhanced developer workflows.**
 
@@ -14453,7 +14619,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 951. [akramsaouri/mcp-translate](https://github.com/akramsaouri/mcp-translate)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
+### 962. [akramsaouri/mcp-translate](https://github.com/akramsaouri/mcp-translate)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
 
 **The mcp-translate project provides a GitHub-based solution for translating text by leveraging the Model Context Protocol. It enables developers to integrate translation capabilities into their applications, enhancing multilingual support and improvin**
 
@@ -14467,7 +14633,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 952. [langgenius/dify](https://github.com/langgenius/dify)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗5 layers
+### 963. [langgenius/dify](https://github.com/langgenius/dify)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗5 layers
 
 **An open-source LLMOps platform designed for building and operating AI apps via a visual orchestration interface and robust RAG pipelines.**
 
@@ -14481,7 +14647,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 953. [Third Eye Blind – Semi-Charmed Life](https://genius.com/Third-eye-blind-semi-charmed-life-lyrics)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 964. [Third Eye Blind – Semi-Charmed Life](https://genius.com/Third-eye-blind-semi-charmed-life-lyrics)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The song 'Semi-Charmed Life' by Third Eye Blind uses a catchy, upbeat melody to narrate the tragic descent of a relationship into crystal meth addiction. It blends themes of illusion versus reality, self-deception, and desperation, with vivid imagery**
 
@@ -14496,7 +14662,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 954. [AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF · Hugging Face](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 965. [AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF · Hugging Face](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The model leverages fine-tuned language capabilities to produce structured guidance, exploit reasoning, and adversarial simulations tailored for offensive cybersecurity tasks. It supports rapid prototyping of attack chains, payload analysis, and red-**
 
@@ -14511,7 +14677,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 955. [apoorvv/mcp-claude-enhancements](https://github.com/apoorvv/mcp-claude-enhancements)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 966. [apoorvv/mcp-claude-enhancements](https://github.com/apoorvv/mcp-claude-enhancements)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **This project leverages the Model Context Protocol (MCP) to integrate local file access and interaction capabilities into the Claude Desktop environment. By utilizing Python scripts, it enables developers to create custom tools that enhance productivi**
 
@@ -14524,7 +14690,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 956. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 967. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Toolbase-AI project introduces a new integration with the MCP (Machine-to-Person) protocol, enabling developers to leverage AI assistants like Copilot to upload files directly via the MCP standard. This enhances workflow automation by allowing se**
 
@@ -14537,7 +14703,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 957. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 968. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure, containerized MCP server enabling safe execution of code in multiple languages via isolated environments.**
 
@@ -14553,7 +14719,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 958. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 969. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **mcp-gopls enables AI assistants to leverage Go's LSP for advanced navigation, diagnostics, testing, and code analysis.**
 
@@ -14569,7 +14735,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 959. [diganto-deb/local_file_organizer](https://github.com/diganto-deb/local_file_organizer)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 970. [diganto-deb/local_file_organizer](https://github.com/diganto-deb/local_file_organizer)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Python-based file organization system using the Model Context Protocol to securely manage and categorize files across directories.**
 
@@ -14585,7 +14751,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 960. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 971. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling secure integration with Pangea APIs for intelligence data retrieval.**
 
@@ -14601,7 +14767,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 961. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 972. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server that wraps the official Notion SDK, enabling AI models to interact with Notion workspaces.**
 
@@ -14617,7 +14783,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 962. [nerfels/mind-map](https://github.com/nerfels/mind-map)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 973. [nerfels/mind-map](https://github.com/nerfels/mind-map)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server for intelligent code and project analysis, leveraging AI-driven pattern recognition and memory caching.**
 
@@ -14633,7 +14799,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 963. [sinco-lab/mcp-youtube-transcript](https://github.com/sinco-lab/mcp-youtube-transcript)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 974. [sinco-lab/mcp-youtube-transcript](https://github.com/sinco-lab/mcp-youtube-transcript)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for extracting and processing YouTube video transcripts, supporting multiple languages with advanced text normalization and error handling.**
 
@@ -14648,7 +14814,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 964. [Necto - Best AI Visual Workspace | Multi-Model AI Platform](https://necto.co)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 975. [Necto - Best AI Visual Workspace | Multi-Model AI Platform](https://necto.co)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Necto provides a unified platform for interacting with various AI models, managing documents, creating AI-generated images, and collaborating, eliminating the need to switch between different applications. It offers features like simultaneous prompti**
 
@@ -14664,7 +14830,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 965. [odancona/code2prompt-mcp](https://github.com/odancona/code2prompt-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 976. [odancona/code2prompt-mcp](https://github.com/odancona/code2prompt-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The ODAncona / code2prompt-mcp project leverages the Code2Prompt-Rust library to analyze codebases and produce structured summaries. This facilitates better understanding and interaction between developers and AI language models by extracting relevan**
 
@@ -14677,7 +14843,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 966. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 977. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Verge News MCP Server is a specialized tool designed to bring The Verge's RSS feed directly to Claude Desktop, enabling users to fetch daily or weekly tech news, search articles by keyword, and receive random news selections from the past week. I**
 
@@ -14690,7 +14856,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 967. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 978. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Nile MCP Server enables secure, standardized interaction between LLM applications and the Nile database platform.**
 
@@ -14706,7 +14872,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 968. [henkdz/selfhosted-supabase-mcp](https://github.com/henkdz/selfhosted-supabase-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 979. [henkdz/selfhosted-supabase-mcp](https://github.com/henkdz/selfhosted-supabase-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A self-hosted Supabase MCP server enabling secure, isolated database interactions for developers.**
 
@@ -14722,7 +14888,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 969. [cskwork/keyword-rag-mcp](https://github.com/cskwork/keyword-rag-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 980. [cskwork/keyword-rag-mcp](https://github.com/cskwork/keyword-rag-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **BM25 기반 문서 검색을 위한 MCP 서버로, 토스 결제 연동 MCP 프로젝트를 활용하여 마크다운 문서를 검색하고 지식 검색을 제공합니다.**
 
@@ -14738,7 +14904,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 970. [domdomegg/google-documents-mcp.git](https://github.com/domdomegg/google-documents-mcp.git)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 981. [domdomegg/google-documents-mcp.git](https://github.com/domdomegg/google-documents-mcp.git)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server enabling secure, isolated access to Google Docs for reading, creating, and editing documents.**
 
@@ -14754,7 +14920,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 971. [jlucaso1/whatsapp-mcp-ts](https://github.com/jlucaso1/whatsapp-mcp-ts)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 982. [jlucaso1/whatsapp-mcp-ts](https://github.com/jlucaso1/whatsapp-mcp-ts)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A TypeScript-based WhatsApp MCP server enabling AI agents to interact with personal WhatsApp data securely.**
 
@@ -14769,7 +14935,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 972. [excoriate/mcp-terragrunt-docs](https://github.com/excoriate/mcp-terragrunt-docs)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 983. [excoriate/mcp-terragrunt-docs](https://github.com/excoriate/mcp-terragrunt-docs)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Deno/TypeScript MCP server that provides contextual information and documentation for Terragrunt, enhancing AI assistant accuracy.**
 
@@ -14784,7 +14950,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 973. [newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp](https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 984. [newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp](https://github.com/newideas99/deepseek-thinking-claude-3.5-sonnet-cline-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server integrating DeepSeek R1 reasoning with Claude 3.5 Sonnet for context-aware, conversational AI responses.**
 
@@ -14799,7 +14965,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 974. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 985. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A monorepo-based system for managing and processing Pokémon data via Model Context Protocol (MCP) server and SQLite database.**
 
@@ -14814,7 +14980,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 975. [LLMs: Fine-tuning, distillation, and prompt engineering  |  Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course/llm/tuning)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗5 layers
+### 986. [LLMs: Fine-tuning, distillation, and prompt engineering  |  Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course/llm/tuning)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗5 layers
 
 **This resource explains the three key ways to leverage Large Language Models (LLMs): **Fine-tuning**, **Distillation**, and **Prompt Engineering**. Foundation LLMs are pre-trained on general language, which is good for creative tasks but often ineffic**
 
@@ -14829,7 +14995,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 976. [notbnull/mcp-rag-context](https://github.com/notbnull/mcp-rag-context)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 987. [notbnull/mcp-rag-context](https://github.com/notbnull/mcp-rag-context)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A lightweight MCP server enabling persistent memory and context management for AI assistants using local vector storage and SQLite.**
 
@@ -14843,7 +15009,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 977. [Show HN: Distill – Remove redundant RAG context in 12ms, no LLM calls | Hacker News](https://news.ycombinator.com/item?id=46452958)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
+### 988. [Show HN: Distill – Remove redundant RAG context in 12ms, no LLM calls | Hacker News](https://news.ycombinator.com/item?id=46452958)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Distill addresses the issue of semantically redundant context in RAG systems by using agglomerative clustering and MMR reranking to select a diverse and representative set of chunks. This post-retrieval, pre-inference process aims to improve the reli**
 
@@ -14859,7 +15025,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 978. [4Chan Lawyers Introduce British First Amendment](https://www.therage.co/4chan-uk-free-speech-act)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗2 layers
+### 989. [4Chan Lawyers Introduce British First Amendment](https://www.therage.co/4chan-uk-free-speech-act)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗2 layers
 
 **The article examines the UK Free Speech Act proposed by 4Chan lawyers, highlighting its potential impact on online regulation and the challenges it poses to government enforcement of content moderation laws. It discusses the legal battles surrounding**
 
@@ -14874,7 +15040,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 979. [ChunkHound](https://chunkhound.github.io)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗3 layers
+### 990. [ChunkHound](https://chunkhound.github.io)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗3 layers
 
 **An open-source, local-first tool that uses the Context-Aware Syntax Tree (cAST) algorithm to provide AI agents with high-fidelity, structure-aware codebase search.**
 
@@ -14888,7 +15054,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 980. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
+### 991. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
 
 **A streamlined CLI and visual playground for building private, offline RAG systems that integrate directly with Ollama and support hybrid vector storage.**
 
@@ -14902,7 +15068,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 981. [https://news.ycombinator.com/item?id=41929307](https://news.ycombinator.com/item?id=41929307)  `7.8` ☆☆☆ ⚡76.0 Q0.7○ Good · ↗2 layers
+### 992. [https://news.ycombinator.com/item?id=41929307](https://news.ycombinator.com/item?id=41929307)  `7.8` ☆☆☆ ⚡76.0 Q0.7○ Good · ↗2 layers
 
 **The article discusses the challenges developers face when implementing RAG (Retrieval-Augmented Generation) as a service, highlighting the need for intuitive interfaces that allow users to author text and retrieve relevant information dynamically. It**
 
@@ -14917,7 +15083,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 982. [Borg Documentation — Borg - Deduplicating Archiver 1.4.4 documentation](https://borgbackup.readthedocs.io/en/stable)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
+### 993. [Borg Documentation — Borg - Deduplicating Archiver 1.4.4 documentation](https://borgbackup.readthedocs.io/en/stable)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
 
 **A high-efficiency deduplicating backup tool using content-defined chunking and authenticated AES-256 encryption for secure, daily offsite snapshots.**
 
@@ -14931,7 +15097,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 983. [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 994. [hannesrudolph/mcp-ragdocs](https://github.com/hannesrudolph/mcp-ragdocs)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **An MCP server implementation that enables AI assistants to retrieve and process documentation via vector search, enhancing contextual responses.**
 
@@ -14945,7 +15111,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 984. [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 995. [sirmews/mcp-pinecone](https://github.com/sirmews/mcp-pinecone)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A Pinecone Model Context Protocol server enabling reading and writing operations from Pinecone, supporting rudimentary RAG.**
 
@@ -14959,7 +15125,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 985. [jumasheff/mcp-ragdoc-fork](https://github.com/jumasheff/mcp-ragdoc-fork)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 996. [jumasheff/mcp-ragdoc-fork](https://github.com/jumasheff/mcp-ragdoc-fork)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A tool for retrieving and processing documentation to enhance AI responses with relevant context.**
 
@@ -14973,7 +15139,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 986. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 997. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling AI assistants to access Pokémon data via standardized APIs.**
 
@@ -14987,7 +15153,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 987. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
+### 998. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
 
 **A retrieval-augmented thinking tool for intelligent problem solving and decision making.**
 
@@ -15001,7 +15167,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 988. [Elohist - Wikipedia](https://en.wikipedia.org/wiki/Elohist)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
+### 999. [Elohist - Wikipedia](https://en.wikipedia.org/wiki/Elohist)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
 
 **The Elohist (or simply E) is one of four source documents underlying the Torah, alongside the Jahwist (or Yahwist), the Deuteronomist and the Priestly source. The Elohist is named for its repeated use of the word 'Elohim' to refer to the Israelite Go**
 
@@ -15014,7 +15180,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 989. [Introducing the File Search Tool in Gemini API](https://blog.google/technology/developers/file-search-gemini-api)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
+### 1000. [Introducing the File Search Tool in Gemini API](https://blog.google/technology/developers/file-search-gemini-api)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
 
 **A fully managed RAG system built directly into the Gemini API that automates the entire document indexing and retrieval lifecycle.**
 
@@ -15028,7 +15194,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 990. [Chapters and verses of the Bible - Wikipedia](https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible)  `7.7` ☆☆☆ ⚡71.0 Q0.7○ Good · ↗2 layers 📍
+### 1001. [Chapters and verses of the Bible - Wikipedia](https://en.wikipedia.org/wiki/Chapters_and_verses_of_the_Bible)  `7.7` ☆☆☆ ⚡71.0 Q0.7○ Good · ↗2 layers 📍
 
 **This Wikipedia entry analyzes the organization of the Bible, specifically addressing the differences between Jewish (Hebrew) and Christian divisions. It traces the evolution of the Bible's textual presentation, noting that early manuscripts used 'par**
 
@@ -15041,7 +15207,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 991. [pree-dew/mcp-bookmark](https://github.com/pree-dew/mcp-bookmark)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
+### 1002. [pree-dew/mcp-bookmark](https://github.com/pree-dew/mcp-bookmark)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server enabling AI-powered bookmark saving, searching, and categorization using OpenAI RAG.**
 
@@ -15054,7 +15220,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 992. [https://platform.openai.com/usage](https://platform.openai.com/usage)  `8.5` ★☆☆ ⚡68.0 Q0.6✓ Very good · ↗1 layers 📍
+### 1003. [https://platform.openai.com/usage](https://platform.openai.com/usage)  `8.5` ★☆☆ ⚡68.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The Borg resource focuses on leveraging openAI's capabilities to automate complex tasks through intelligent workflow orchestration, emphasizing seamless integration with natural language interfaces.**
 
@@ -15068,7 +15234,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 993. [https://nate.leaflet.pub/3mk4xkaxobc2p](https://nate.leaflet.pub/3mk4xkaxobc2p)  `8.5` ★☆☆ ⚡68.0 Q0.6✓ Very good 📍
+### 1004. [https://nate.leaflet.pub/3mk4xkaxobc2p](https://nate.leaflet.pub/3mk4xkaxobc2p)  `8.5` ★☆☆ ⚡68.0 Q0.6✓ Very good 📍
 
 **This resource outlines strategies for deliberately undermining social connections, using psychological tactics to isolate individuals and disrupt their ability to engage meaningfully with others.**
 
@@ -15082,7 +15248,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 994. [Nash Papyrus - Wikipedia](https://en.wikipedia.org/wiki/Nash_Papyrus)  `7.8` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗1 layers 📍
+### 1005. [Nash Papyrus - Wikipedia](https://en.wikipedia.org/wiki/Nash_Papyrus)  `7.8` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗1 layers 📍
 
 **The Nash Papyrus consists of four papyrus fragments acquired in Egypt in 1902. These fragments contain a Hebrew text that includes the Ten Commandments and the first part of the Shema Yisrael prayer, which differs substantially from the canonical Mas**
 
@@ -15094,7 +15260,7 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
-### 995. [Adapa - Wikipedia](https://en.wikipedia.org/wiki/Adapa)  `7.7` ☆☆☆ ⚡68.0 Q0.7○ Good 📍
+### 1006. [Adapa - Wikipedia](https://en.wikipedia.org/wiki/Adapa)  `7.7` ☆☆☆ ⚡68.0 Q0.7○ Good 📍
 
 **Adapa was a Mesopotamian mythical figure who unknowingly refused the gift of immortality. The story, commonly known as "Adapa and the South Wind," is known from fragmentary tablets from Tell el-Amarna in Egypt (around 14th century BC) and from finds **
 
@@ -15107,5 +15273,102 @@ Context compression, codebase indexing, RAG, isolation, ingestion
 
 ---
 
+## RAG Pipelines
 
-*995 tools · Signal-scored · 2026-05-17*
+> 3 tools · avg signal ⚡71
+
+### 1007. [Stop Throwing Away Your Genius: Why Your Chat History Is Worth More Than the Answer](https://open.substack.com/pub/jtnovelo2131/p/stop-throwing-away-your-genius-why?utm_source=share&utm_medium=android&r=5kk0f7)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
+
+**The author argues that the intellectual value in AI interactions resides not just in the final output, but in the 'conversational dark matter'—the entire back-and-forth history contained within the context window. This history acts as a 'searchable d**
+
+**Features:**
+- Systematic workflow for mining chat history
+- Context Mining as an advanced data science technique applied to LLM interaction
+- Forensic Audit workflow for extracting overlooked novel ideas
+- Treating chat history as a persistent
+- searchable database
+- Recognition of implicit connections generated by the AI model
+
+*Tags: context-mining, linguistics-programming, chat-history-analysis, context-window-utilization, latent-knowledge-extraction*
+
+---
+
+### 1008. [AI Coding Plan-Code Freely. Ship Faster. No Surprise Bills. - Alibaba Cloud](https://www.alibabacloud.com/en/campaign/ai-scene-coding?_p_lc=1&utm_content=se_1023256202)  `8.0` ★☆☆ ⚡73.0 Q0.7 📍
+
+**The document provides an overview of AI coding tools, model availability, integration options, pricing plans, and usage controls. It highlights support for multiple models, seamless platform integrations, and detailed guidance on activation and API k**
+
+**Features:**
+- Model selection and switching
+- API key authentication
+- Integration with AI platforms
+- Multiple coding plan options
+- Usage monitoring
+
+*Tags: ai, coding, models, integration, platform*
+
+---
+
+### 1009. [LayoutLM-Byne-v0.1: New SOTA in PDF page retrieval? | Hacker News](https://news.ycombinator.com/item?id=41184527)  `8.0` ★☆☆ ⚡58.0 Q0.5 📍
+
+**Explores advanced techniques for improving document retrieval using multimodal LLMs and positional embeddings.**
+
+**Features:**
+- Multimodal LLM integration
+- Positional embeddings
+- Document page parsing
+- Contextual understanding improvement
+
+*Tags: llm, pdf-retrieval, contextual-modeling, document-analysis, embedding-techniques*
+
+---
+
+## Unclassified
+
+> 3 tools · avg signal ⚡60
+
+### 1010. [Facebook is cooked | Hacker News](https://news.ycombinator.com/item?id=47091748)  `7.0` ☆☆☆ ⚡64.0 Q0.7 📍
+
+**The analysis explores how Facebook's design, particularly its group structures and moderation practices, influences user interactions and the prevalence of toxic behavior. It discusses the psychological thresholds for group cohesion, the role of mode**
+
+**Features:**
+- Analysis of group dynamics and toxicity
+- Discussion on moderation effectiveness
+- Insights into user behavior and engagement patterns
+
+*Tags: social-media-analysis, online-communities, group-behavior, platform-design, user-experience*
+
+---
+
+### 1011. [Ask HN: What game engine would you recommend for vibe coding? | Hacker News](https://news.ycombinator.com/item?id=47318148)  `7.0` ☆☆☆ ⚡58.0 Q0.5 📍
+
+**Exploration of game engine recommendations for vibe coding in the Borg intelligence database.**
+
+**Features:**
+- Functional game architecture
+- State serialization for AI testing
+- Text-based rendering and event simulation
+- Synthetic event generation
+- Manual play-testing support
+
+*Tags: game-development, ai-integration, unit-testing, rendering, state-management*
+
+---
+
+### 1012. [Monkey Island for Commodore 64 Ground Up | Hacker News](https://news.ycombinator.com/item?id=47408441)  `7.0` ☆☆☆ ⚡58.0 Q0.5 📍
+
+**Analysis of the technical merits and artistic choices in the Borg Project's inclusion of Monkey Island for Commodore 64.**
+
+**Features:**
+- EGA version praised for superior background and character rendering
+- VGA version noted for hand-drawn style and color depth
+- Comparison of display technologies (EGA vs. VGA)
+- Role of audio and CD quality in overall experience
+- Importance of context
+- such as screen size and CRT characteristics
+
+*Tags: commodore64, monkeyisland, ega, vga, cga*
+
+---
+
+
+*1,012 tools · Signal-scored · 2026-05-17*

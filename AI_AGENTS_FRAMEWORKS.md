@@ -1,6 +1,6 @@
 # 🤖 AI Agents & Frameworks
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 267 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 268 tools
 
 Standalone agent products and frameworks
 
@@ -8,13 +8,13 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **267** |
+| Total tools | **268** |
 | Standout 🏆⭐ | 82 |
 | Avg Signal | ⚡83 |
 | Innovation 10 | 99 ██████████ |
 | Innovation 9 | 76 ████████ |
 | Innovation 8 | 85 █████████ |
-| Innovation 7 | 7 █ |
+| Innovation 7 | 8 █ |
 
 ---
 
@@ -48,6 +48,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 ## Contents
 
 - [Autonomous Agent Products](#autonomous-agent-products) — 157 tools · ⚡82
+- [Autonomous Agents](#autonomous-agents) — 1 tools · ⚡82
 - [Coding Agents](#coding-agents) — 98 tools · ⚡83
 - [GUI & Browser Agents](#gui--browser-agents) — 6 tools · ⚡86
 - [Research & Data Agents](#research--data-agents) — 6 tools · ⚡84
@@ -2420,11 +2421,31 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
+## Autonomous Agents
+
+> 1 tools · avg signal ⚡82
+
+### 158. [mastra-ai/mastra](https://github.com/mastra-ai/mastra/pull/12252)  `7.0` ☆☆☆ ⚡82.0 Q0.8 📍
+
+**The implementation adds first-class skills support to Mastra, allowing developers to extend agent capabilities using standardized prompt instructions and structured metadata. It includes a loader, validator, and manager system for handling skill dire**
+
+**Features:**
+- Skills loading
+- Skills validation
+- Skills management
+- SKILL.md support
+- Agent integration
+- Skill repositories
+
+*Tags: ai-agents, skills, mastra, agent-framework, skill-management*
+
+---
+
 ## Coding Agents
 
 > 98 tools · avg signal ⚡83
 
-### 158. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
+### 159. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
 
 **Serena acts as a layer between Large Language Models (LLMs)/coding agents and the codebase, offering IDE-like tools such as semantic code retrieval and symbol-level editing. Its core interoperability mechanism is the Model Context Protocol (MCP) serv**
 
@@ -2440,7 +2461,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 159. [letta-ai/letta-code](https://github.com/letta-ai/letta-code)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 160. [letta-ai/letta-code](https://github.com/letta-ai/letta-code)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **Letta Code shifts the paradigm of AI coding assistants from transient, session-based chats to a stateful architecture powered by the Letta API. Unlike standard CLI agents that treat every conversation as a fresh start, Letta Code maintains a continuo**
 
@@ -2456,7 +2477,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 160. [cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 161. [cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **cocoindex-code is a super-lightweight embedded code search engine that leverages AST-based semantic analysis to enable fast, token-efficient code searching within repositories. It integrates seamlessly with AI-powered development agents like Claude a**
 
@@ -2472,7 +2493,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 161. [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 162. [proffesor-for-testing/agentic-qe](https://github.com/proffesor-for-testing/agentic-qe)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **Agentic QE Fleet is an open-source AI-powered QA/QE platform designed for use with Coding Agents. It features specialized agents and skills to support testing activities across various stages of the Software Development Lifecycle (SDLC). The platform**
 
@@ -2488,7 +2509,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 162. [wesm/agentsview](https://github.com/wesm/agentsview)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗4 layers
+### 163. [wesm/agentsview](https://github.com/wesm/agentsview)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗4 layers
 
 **Borg integrates with multiple AI coding agents to provide real-time insights into developer activity, token usage, and cost tracking. It offers a local-first approach by syncing sessions into an SQLite database and displaying data via a web UI. Key f**
 
@@ -2504,7 +2525,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 163. [multica-ai/multica](https://github.com/multica-ai/multica)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers
+### 164. [multica-ai/multica](https://github.com/multica-ai/multica)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers
 
 **Multica is an open-source managed agents platform designed to enhance team collaboration with AI. It enables developers to treat AI agents as human colleagues, allowing them to be assigned tasks, monitor progress, and share insights autonomously. The**
 
@@ -2520,7 +2541,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 164. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
+### 165. [RealZST/HarnessKit](https://github.com/RealZST/HarnessKit)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
 
 **GitHub - RealZST/HarnessKit: More than a skill manager — manage skills, MCP servers, plugins, hooks, CLIs, configs, memory &amp; rules across every AI coding agent. 🌟 Star if you like it! · GitHub Skip to content Navigation Menu Toggle navigation Sig**
 
@@ -2536,7 +2557,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 165. [generalaction/emdash](https://github.com/generalaction/emdash)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 166. [generalaction/emdash](https://github.com/generalaction/emdash)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **Emdash functions as a specialized 'IDE for Agents,' designed to solve the orchestration and isolation challenges of running various CLI-based AI coding agents. Technically, it leverages Git worktrees to create isolated ephemeral environments for each**
 
@@ -2552,7 +2573,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 166. [slopus/happy](https://github.com/slopus/happy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 167. [slopus/happy](https://github.com/slopus/happy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Happy functions as a sophisticated proxy layer for CLI-based AI coding agents, specifically targeting tools like Claude Code and Codex. It synchronizes terminal session states across local CLI, a centralized encrypted relay server, and mobile/web cli**
 
@@ -2568,7 +2589,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 167. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 168. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **grok-cli is focused heavily on the user experience of interacting with an AI agent directly within the command line environment. It utilizes OpenTUI for a fast, keyboard-driven terminal UI, supports headless operation for automation scripts, and intr**
 
@@ -2584,7 +2605,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 168. [sst/opencode](https://github.com/sst/opencode)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 169. [sst/opencode](https://github.com/sst/opencode)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **OpenCode implements a client/server architecture that supports multiple built-in agents (like 'build' for execution and 'plan' for read-only analysis) and allows users to switch between them easily via a TUI. Its primary technical focus is on facilit**
 
@@ -2600,7 +2621,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 169. [just-every/code](https://github.com/just-every/code)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 170. [just-every/code](https://github.com/just-every/code)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Every Code (formerly a Codex CLI fork) implements a sophisticated orchestration layer known as 'Auto Drive' that manages multi-step autonomous tasks with self-healing capabilities. It distinguishes itself by using a multi-agent consensus approach whe**
 
@@ -2616,7 +2637,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 170. [openai/codex](https://github.com/openai/codex)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 171. [openai/codex](https://github.com/openai/codex)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The OpenAI Codex CLI is a lightweight, local-first agent designed to provide a high-performance alternative to IDE-based or web-based coding assistants. Built primarily in Rust (95.6%), it prioritizes speed and low resource consumption while offering**
 
@@ -2632,7 +2653,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 171. [cso1z/feishu-mcp](https://github.com/cso1z/feishu-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 172. [cso1z/feishu-mcp](https://github.com/cso1z/feishu-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The 'Feishu-MCP' project provides an Agent Orchestration layer that enables AI coding tools (like Cursor or Claude Code) to seamlessly interact with the Feishu ecosystem. The core innovation lies in enabling AI agents to perform structured operations**
 
@@ -2648,7 +2669,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 172. [VibePod/vibepod-cli](https://github.com/VibePod/vibepod-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 173. [VibePod/vibepod-cli](https://github.com/VibePod/vibepod-cli)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **VibePod is a streamlined command-line interface designed to deploy and manage AI coding agents such as Claude, Gemini, Codex, Devstral, Auggie, and more. It eliminates the need for complex configuration or setup, allowing users to simply run an agent**
 
@@ -2664,7 +2685,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 173. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 174. [AbanteAI/LoCoDiff-bench](https://github.com/AbanteAI/LoCoDiff-bench)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The LoCoDiff-bench repository provides a framework for evaluating Language Models (LLMs) on tasks requiring long-context understanding of code evolution, specifically mimicking the process of tracking changes across a Git history. It focuses on using**
 
@@ -2679,7 +2700,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 174. [huggingface/hf-agents](https://github.com/huggingface/hf-agents)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 175. [huggingface/hf-agents](https://github.com/huggingface/hf-agents)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The hf-agents project is a Hugging Face CLI extension designed to enhance developer productivity by automatically detecting hardware capabilities and recommending optimal machine learning models. It integrates llmfit for hardware detection and llama.**
 
@@ -2694,7 +2715,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 175. [1jehuang/jcode#detailed-installation](https://github.com/1jehuang/jcode)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗4 layers
+### 176. [1jehuang/jcode#detailed-installation](https://github.com/1jehuang/jcode)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗4 layers
 
 **The Borg Project's 'jcode' is an advanced AI-powered coding assistant that integrates deeply with GitHub and other development ecosystems. It enables developers to leverage multi-session workflows, customize agent behavior, and manage complex code ch**
 
@@ -2710,7 +2731,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 176. [davidorex/project-handoffs](https://github.com/davidorex/project-handoffs)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 177. [davidorex/project-handoffs](https://github.com/davidorex/project-handoffs)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Project-Handoffs tool is an MCP (Managed Code Process) solution aimed at improving the continuity and reliability of code changes made during collaborative AI development sessions. It focuses on securely storing and retrieving code state, ensurin**
 
@@ -2725,7 +2746,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 177. [systempromptio/systemprompt-code-orchestrator](https://github.com/systempromptio/systemprompt-code-orchestrator)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 178. [systempromptio/systemprompt-code-orchestrator](https://github.com/systempromptio/systemprompt-code-orchestrator)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This resource describes the 'SystemPrompt Coding Agent,' which is a cutting-edge project designed to turn a local workstation into a remotely accessible Model Context Protocol (MCP) server. It enables developers to send coding tasks from anywhere, wi**
 
@@ -2741,7 +2762,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 178. [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 179. [awesome-opencode/awesome-opencode](https://github.com/awesome-opencode/awesome-opencode)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **This resource is a curated list on GitHub focused on extending and integrating with Opencode, an AI coding agent for the terminal. It serves as a central directory for community and official extensions (plugins, themes, agents) that add functionality**
 
@@ -2757,7 +2778,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 179. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
+### 180. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
 
 **Qwen Code implements a terminal-first developer experience designed to handle large-scale codebase analysis and task automation directly from the command line. It utilizes a modular architecture featuring 'Skills' and 'SubAgents' to orchestrate compl**
 
@@ -2773,7 +2794,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 180. [Claude Code and OpenAI Codex: now available in Tidewave](https://tidewave.ai/blog/claude-code-codex)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
+### 181. [Claude Code and OpenAI Codex: now available in Tidewave](https://tidewave.ai/blog/claude-code-codex)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
 
 **The core technical achievement described is enabling browser-based access to command-line exposed coding agent SDKs by implementing significant proxy and relay infrastructure. This involves an ACP-over-WebSockets proxy to handle standard I/O communic**
 
@@ -2789,7 +2810,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 181. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
+### 182. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
 
 **The Borg project introduces a novel approach to sandboxing by enabling full memory and disk forking of AI agents. This allows each sandbox instance to maintain identical states, including complex interactions with hardware and software layers such as**
 
@@ -2805,7 +2826,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 182. [The-Pocket/PocketFlow-Tutorial-Cursor](https://github.com/The-Pocket/PocketFlow-Tutorial-Cursor/blob/main/blog.md)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 183. [The-Pocket/PocketFlow-Tutorial-Cursor](https://github.com/The-Pocket/PocketFlow-Tutorial-Cursor/blob/main/blog.md)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The resource describes building an AI coding agent within the Cursor editor environment using Pocket Flow, a minimalist 100-line LLM framework for agentic development. The architecture is structured around a Directed Acyclic Graph (DAG) where distinc**
 
@@ -2820,7 +2841,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 183. [dagger/container-use](https://github.com/dagger/container-use)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 184. [dagger/container-use](https://github.com/dagger/container-use)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **Container Use enables multiple coding agents to operate in isolated, parallel environments using their own git branches, ensuring safe experimentation without conflicts. It provides real-time visibility into agent activity, direct intervention capabi**
 
@@ -2835,7 +2856,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 184. [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
+### 185. [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful AI coding assistant integrated with X (Twitter) data platform, enabling seamless interaction with over 122 REST API endpoints and 23 bulk extraction tools to enhance AI development workflows.**
 
@@ -2851,7 +2872,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 185. [https://kilo.ai](https://kilo.ai)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗3 layers
+### 186. [https://kilo.ai](https://kilo.ai)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗3 layers
 
 **Kilo is an open-source AI coding agent that integrates seamlessly into popular development tools like VS Code, JetBrains IDEs, and CLI workflows. It offers a range of modes including code writing, refactoring, debugging, and architectural planning, e**
 
@@ -2867,7 +2888,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 186. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 187. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A secure Node.js execution sandbox for AI that enables dynamic JavaScript execution, dependency management, and interactive assistance within ephemeral Docker containers.**
 
@@ -2883,7 +2904,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 187. [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 188. [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The author describes moving from skepticism to actively embracing the 'parallel coding agent lifestyle' by running multiple LLM instances (like Claude Code and Codex CLI) concurrently against the same or different repositories. The key insight is man**
 
@@ -2899,7 +2920,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 188. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 189. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The Agent Client Protocol (ACP) aims to standardize the interface between code editors/IDEs and AI coding agents, analogous to how the Language Server Protocol (LSP) standardized language server integration. This standardization addresses the current**
 
@@ -2915,7 +2936,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 189. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 190. [campfirein](https://github.com/campfirein)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The profile for 'campfirein' showcases several repositories central to the development and evaluation of AI coding agents. Key projects include 'cipher' (Byterover Cipher), an open-source memory layer compatible with various coding agents and IDEs vi**
 
@@ -2930,7 +2951,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 190. [nick1udwig/kibitz](https://github.com/nick1udwig/kibitz)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 191. [nick1udwig/kibitz](https://github.com/nick1udwig/kibitz)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A technical resource detailing a coding agent designed for professionals, likely an AI agent or tool that integrates into the development workflow. The repository structure suggests a modern web application built with Next.js and TypeScript.**
 
@@ -2946,7 +2967,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 191. [Hatchet](https://hatchet.run/blog/tuis-are-easy-now)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗4 layers
+### 192. [Hatchet](https://hatchet.run/blog/tuis-are-easy-now)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗4 layers
 
 **This project details how Hatchet leveraged Claude Code, a terminal coding agent, to rapidly develop a TUI for building durable, workflow-oriented applications. The approach combined a streamlined development stack (Charm stack), a feedback-driven des**
 
@@ -2961,7 +2982,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 192. [qckfx/node-debugger-mcp](https://github.com/qckfx/node-debugger-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 193. [qckfx/node-debugger-mcp](https://github.com/qckfx/node-debugger-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The qckfx/node-debugger-mcp project provides a locally hosted MCP (Memory Correlation and Profiling) server that integrates with Claude Code and other AI-powered coding tools. It enables developers to attach debuggers, set breakpoints, and manage pro**
 
@@ -2975,7 +2996,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 193. [anomalyco/opencode](https://github.com/anomalyco/opencode)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 194. [anomalyco/opencode](https://github.com/anomalyco/opencode)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **OpenCode provides two built-in agents, 'build' for development and 'plan' for read-only analysis, and supports various models including Claude, OpenAI, and local models. It emphasizes a provider-agnostic approach and offers a TUI-focused experience w**
 
@@ -2991,7 +3012,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 194. [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗4 layers 📍
+### 195. [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗4 layers 📍
 
 **A foundational open-source scaffold for autonomous software engineering that achieves 57.5% on SWE-bench Pro when paired with advanced search subagents.**
 
@@ -3005,7 +3026,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 195. [ftrou/Decodifier3.1](https://github.com/ftrou/Decodifier3.1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 196. [ftrou/Decodifier3.1](https://github.com/ftrou/Decodifier3.1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A deterministic method-first retrieval tool for AI coding agents to safely inspect and modify code without sending repos to the cloud.**
 
@@ -3021,7 +3042,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 196. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗6 layers
+### 197. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗6 layers
 
 **A developer workflow tool that integrates AI coding assistants with PostgreSQL to automate schema design, code generation, and data analysis tasks.**
 
@@ -3037,7 +3058,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 197. [Ashlr AO — Your AI Agents, One Command Center](https://ashlrao.com)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 198. [Ashlr AO — Your AI Agents, One Command Center](https://ashlrao.com)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Ashlr AO is a mission control tool designed to streamline the deployment, monitoring, and management of AI agents such as Claude Code, Codex, Aider, and Goose. It offers a unified dashboard for real-time oversight, supports multi-repo organization, a**
 
@@ -3053,7 +3074,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 198. [nitodeco/ralph](https://github.com/nitodeco/ralph)  `9.7` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 199. [nitodeco/ralph](https://github.com/nitodeco/ralph)  `9.7` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **GitHub - nitodeco/ralph: Ralph is CLI tool and harness for long-running coding agents. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings <div data-**
 
@@ -3067,7 +3088,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 199. [WhitehatD/crag](https://github.com/WhitehatD/crag)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 200. [WhitehatD/crag](https://github.com/WhitehatD/crag)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A unified AI development platform enabling cross-agent compilation and governance across multiple AI tools.**
 
@@ -3083,7 +3104,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 200. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗6 layers
+### 201. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗6 layers
 
 **Packmind Hub transforms engineering playbooks into AI-guided context, guardrails, and governance.**
 
@@ -3098,7 +3119,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 201. [https://www.augmentcode.com/product/context-engine-mcp](https://www.augmentcode.com/product/context-engine-mcp)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗3 layers
+### 202. [https://www.augmentcode.com/product/context-engine-mcp](https://www.augmentcode.com/product/context-engine-mcp)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗3 layers
 
 **The Context Engine MCP is designed to significantly improve the quality and efficiency of coding agents. By embedding a robust context engine, it enables seamless integration with popular coding tools like Claude Code, Cursor, Zed, and others that su**
 
@@ -3113,7 +3134,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 202. [adapoet/fabric-mcp-server](https://github.com/adapoet/fabric-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 203. [adapoet/fabric-mcp-server](https://github.com/adapoet/fabric-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **The fabric-mcp-server integrates Fabric patterns with AI coding agents, enabling seamless execution of AI-driven tasks and enhancing developer workflows.**
 
@@ -3129,7 +3150,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 203. [Blocks - Use coding agents where your teams works](https://www.blocks.team/signin)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 204. [Blocks - Use coding agents where your teams works](https://www.blocks.team/signin)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **Blocks focuses on the 'ChatOps' evolution of agentic workflows, moving AI interaction out of isolated IDEs and into shared team spaces. The platform allows developers to summon agents via Slack to perform tasks such as PR reviews, bug fixes, and docu**
 
@@ -3145,7 +3166,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 204. [Kimi K2.5 Technical Report [pdf] | Hacker News](https://news.ycombinator.com/item?id=46826597)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 205. [Kimi K2.5 Technical Report [pdf] | Hacker News](https://news.ycombinator.com/item?id=46826597)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **This Hacker News thread discusses the Kimi K2.5 language model, specifically its capabilities as a coding agent. Users share their experiences, comparing it favorably to models from major labs like OpenAI and Anthropic. The conversation covers perfor**
 
@@ -3161,7 +3182,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 205. [Claude Code 2.0 | Hacker News](https://news.ycombinator.com/item?id=45416228)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 206. [Claude Code 2.0 | Hacker News](https://news.ycombinator.com/item?id=45416228)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **This Hacker News thread discusses Claude Code 2.0 and similar AI coding agents.  It highlights their potential as general agents capable of performing tasks a human could do by typing commands. A key point of contention is the risk associated with us**
 
@@ -3177,7 +3198,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 206. [Show HN: Continuous Claude – run Claude Code in a loop | Hacker News](https://news.ycombinator.com/item?id=45938517)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
+### 207. [Show HN: Continuous Claude – run Claude Code in a loop | Hacker News](https://news.ycombinator.com/item?id=45938517)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
 
 **Continuous Claude is a command-line interface (CLI) wrapper designed to run Claude Code in an iterative loop, maintaining persistent context across multiple iterations. It automates the process of creating branches, applying focused code changes, gen**
 
@@ -3193,7 +3214,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 207. [plandex-ai/plandex](https://github.com/plandex-ai/plandex)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers 📍
+### 208. [plandex-ai/plandex](https://github.com/plandex-ai/plandex)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers 📍
 
 **A terminal-based AI coding framework that manages up to 2M tokens of context and uses isolated review sandboxes for complex multi-file tasks.**
 
@@ -3207,7 +3228,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 208. [campfirein/cipher](https://github.com/campfirein/cipher)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 209. [campfirein/cipher](https://github.com/campfirein/cipher)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **An open-source dual-layer memory system (System 1: Business Logic / System 2: Reasoning) that syncs agent context across IDEs and teams.**
 
@@ -3221,7 +3242,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 209. [openai/symphony?tab=readme-ov-file](https://github.com/openai/symphony?tab=readme-ov-file)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 210. [openai/symphony?tab=readme-ov-file](https://github.com/openai/symphony?tab=readme-ov-file)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **An autonomous project management framework that transforms issue tracking into scalable implementation runs, handling coding, CI, and PR merging.**
 
@@ -3235,7 +3256,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 210. [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 211. [mistralai/mistral-vibe](https://github.com/mistralai/mistral-vibe)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **A terminal-native AI coding agent by Mistral AI featuring custom subagents, multi-choice clarifications, and repository-wide reasoning (256K context).**
 
@@ -3249,7 +3270,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 211. [Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI](https://kilocode.ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 212. [Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI](https://kilocode.ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI AI. Get your Assistant Powered by 🦞 OpenClaw. Start Coding with KiloCode to code smarter with AI that understands your codebase and works the way you do.**
 
@@ -3265,7 +3286,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 212. [https://www.tarsy.dev](https://www.tarsy.dev)  `9.0` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
+### 213. [https://www.tarsy.dev](https://www.tarsy.dev)  `9.0` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
 
 **TarsyLive is a cross-platform remote development tool that allows users to manage their Mac development environment remotely via an iPhone. It integrates multiple AI coding agents such as Claude Code, Gemini CLI, and Codex, offering features like liv**
 
@@ -3281,7 +3302,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 213. [The unreasonable effectiveness of an LLM agent loop with tool use | Hacker News](https://news.ycombinator.com/item?id=43998472)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 214. [The unreasonable effectiveness of an LLM agent loop with tool use | Hacker News](https://news.ycombinator.com/item?id=43998472)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This Hacker News thread discusses the surprising effectiveness of using LLMs in a loop with tool usage for various tasks. It highlights the ease with which coding agents can be built using LLMs and tool calls, attributing the majority of the 'magic' **
 
@@ -3296,7 +3317,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 214. [Superpowers: How I'm using coding agents in October 2025 | Hacker News](https://news.ycombinator.com/item?id=45547344)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 215. [Superpowers: How I'm using coding agents in October 2025 | Hacker News](https://news.ycombinator.com/item?id=45547344)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This Hacker News thread discusses the use of coding agents with a focus on 'skills' - reusable components for specific tasks. The conversation revolves around the benefits and drawbacks of different approaches, including Research->Plan->Implement wor**
 
@@ -3311,7 +3332,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 215. [Context Engine MCP | Augment Code](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
+### 216. [Context Engine MCP | Augment Code](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
 
 **The Context Engine MCP integrates with various coding agents to deliver real-time, accurate contextual information from diverse sources such as Git repositories, documentation sites, and internal wikis. It supports seamless indexing, multi-source dat**
 
@@ -3326,7 +3347,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 216. [steveyegge/beads](https://github.com/steveyegge/beads)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
+### 217. [steveyegge/beads](https://github.com/steveyegge/beads)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
 
 **A graph-aware state management system for coding agents that uses dependency-aware databases to solve context window limits.**
 
@@ -3340,7 +3361,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 217. [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
+### 218. [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗2 layers
 
 **A visual orchestration platform for running parallel AI agents in isolated git worktrees, central to the "vibe coding" paradigm.**
 
@@ -3354,7 +3375,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 218. [patrickdappollonio/dux](https://github.com/patrickdappollonio/dux)  `9.3` ★★☆ ⚡80.0 Q0.7✓ Very good · ↗3 layers
+### 219. [patrickdappollonio/dux](https://github.com/patrickdappollonio/dux)  `9.3` ★★☆ ⚡80.0 Q0.7✓ Very good · ↗3 layers
 
 **Dux is a terminal UI that enables running multiple AI coding agents in parallel, each with its own worktree, macros, and full CLI access.**
 
@@ -3370,7 +3391,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 219. [mammothgrowth/dbt-cli-mcp](https://github.com/mammothgrowth/dbt-cli-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 220. [mammothgrowth/dbt-cli-mcp](https://github.com/mammothgrowth/dbt-cli-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool that enhances the dbt CLI with MCP server capabilities, enabling AI coding agents to interact with dbt projects through standardized MCP tools.**
 
@@ -3386,7 +3407,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 220. [docfork/docfork-mcp](https://github.com/docfork/docfork-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
+### 221. [docfork/docfork-mcp](https://github.com/docfork/docfork-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
 
 **Docfork provides AI coding agents with tools to search, fetch, and integrate documentation for library and API usage.**
 
@@ -3402,7 +3423,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 221. [https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5945937](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5945937531404333741)  `8.8` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
+### 222. [https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5945937](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5945937531404333741)  `8.8` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
 
 **The Context Engine MCP integrates seamlessly with various coding agents to deliver real-time, accurate contextual information. It supports multi-source indexing, enabling agents to access relevant data from Git repositories, documentation sites, inte**
 
@@ -3417,7 +3438,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 222. [https://www.reddit.com/r/coding_agents/comments/1t4zclx/my_favorite_fr](https://www.reddit.com/r/coding_agents/comments/1t4zclx/my_favorite_free_coding_agent_tools)  `8.8` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 223. [https://www.reddit.com/r/coding_agents/comments/1t4zclx/my_favorite_fr](https://www.reddit.com/r/coding_agents/comments/1t4zclx/my_favorite_free_coding_agent_tools)  `8.8` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **The discussion emphasizes practical approaches to integrating and managing AI-driven coding agents, focusing on real-world usage patterns, workflow optimization, and integration strategies. Community members share insights into effective tool selecti**
 
@@ -3432,7 +3453,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 223. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers 📍
+### 224. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **A Model Context Protocol (MCP) server and CLI enabling AI-assisted coding for iOS and macOS projects.**
 
@@ -3448,7 +3469,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 224. [Ecosystem](https://opencode.ai/docs/ecosystem)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 225. [Ecosystem](https://opencode.ai/docs/ecosystem)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **An open-source, local-first terminal AI coding agent ecosystem featuring a pluggable architecture for sandboxing, security, and PTY management.**
 
@@ -3463,7 +3484,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 225. [robertpelloni/claude-squad](https://github.com/robertpelloni/claude-squad)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers
+### 226. [robertpelloni/claude-squad](https://github.com/robertpelloni/claude-squad)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers
 
 **An agent multiplexer that runs multiple AI coding agents (Claude/Codex/Gemini) simultaneously using tmux isolation and git worktrees.**
 
@@ -3477,7 +3498,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 226. [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 227. [SWE-agent/mini-swe-agent](https://github.com/SWE-agent/mini-swe-agent)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A minimal, 100-line AI agent designed to solve GitHub issues or assist in command-line tasks, optimized for speed and simplicity.**
 
@@ -3491,7 +3512,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 227. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 228. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **Framelink MCP server integrates Figma layout data into AI coding agents for precise design-to-code generation.**
 
@@ -3505,7 +3526,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 228. [https://www.reddit.com/r/opencode/comments/1t66cra/ctx_a_local_context](https://www.reddit.com/r/opencode/comments/1t66cra/ctx_a_local_context_runtime_for_coding_agents)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
+### 229. [https://www.reddit.com/r/opencode/comments/1t66cra/ctx_a_local_context](https://www.reddit.com/r/opencode/comments/1t66cra/ctx_a_local_context_runtime_for_coding_agents)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
 
 **The conversation delves into practical methods for deploying and managing coding agents within defined operational contexts, emphasizing the importance of clear patterns and real-world testing. Participants highlight the need for robust tools and int**
 
@@ -3520,7 +3541,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 229. [Ask HN: Thinking about memory for AI coding agents | Hacker News](https://news.ycombinator.com/item?id=46742800)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 230. [Ask HN: Thinking about memory for AI coding agents | Hacker News](https://news.ycombinator.com/item?id=46742800)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **The core problem addressed is the need for AI coding agents to remember and apply engineering principles, product constraints, and past decisions across tasks. The proposed solutions involve creating a separate "memory" layer with atomic pieces of kn**
 
@@ -3536,7 +3557,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 230. [twaldin/harness](https://github.com/twaldin/harness)  `9.7` ★★☆ ⚡77.0 Q0.7⭐ Excellent · ↗2 layers
+### 231. [twaldin/harness](https://github.com/twaldin/harness)  `9.7` ★★☆ ⚡77.0 Q0.7⭐ Excellent · ↗2 layers
 
 **GitHub - twaldin/harness: Unified Python interface for invoking AI coding-agent CLIs (claude-code, opencode, codex, gemini, aider, swe-agent) as subprocesses. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings <lin**
 
@@ -3548,7 +3569,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 231. [https://chatgpt.com/codex](https://chatgpt.com/codex)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗4 layers
+### 232. [https://chatgpt.com/codex](https://chatgpt.com/codex)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗4 layers
 
 **The Codex platform integrates with various AI models to assist developers in building, testing, and deploying code efficiently. It supports multiple workflows including code generation, review, documentation, and automation of repetitive tasks such a**
 
@@ -3563,7 +3584,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 232. [https://www.warp.dev](https://www.warp.dev)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 233. [https://www.warp.dev](https://www.warp.dev)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **Warp is an open-source agentic development environment designed to streamline the integration of AI coding agents into software projects. It allows teams to define, deploy, and manage agents that can autonomously perform coding tasks, enhancing produ**
 
@@ -3578,7 +3599,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 233. [yodakeisuke/mcp-micromanage-your-agent](https://github.com/yodakeisuke/mcp-micromanage-your-agent)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
+### 234. [yodakeisuke/mcp-micromanage-your-agent](https://github.com/yodakeisuke/mcp-micromanage-your-agent)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A micromanagement tool for development workflows that helps coding agents plan, track, and visualize sequential development tasks with detailed commit-level granularity.**
 
@@ -3592,7 +3613,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 234. [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers 📍
+### 235. [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A tool for integrating Playwright MCP server into various development and automation workflows, enabling seamless browser automation with structured accessibility data.**
 
@@ -3606,7 +3627,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 235. [Show HN: Superset – Terminal to run 10 parallel coding agents | Hacker News](https://news.ycombinator.com/item?id=46368739)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
+### 236. [Show HN: Superset – Terminal to run 10 parallel coding agents | Hacker News](https://news.ycombinator.com/item?id=46368739)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
 
 **Superset leverages git worktrees to isolate agent environments, preventing conflicts and enabling parallel development. It provides built-in hooks for notifications and a diff viewer for streamlined code review and PR creation. The tool aims to impro**
 
@@ -3622,7 +3643,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 236. [OpenCode | The open source AI coding agent](https://opencode.ai)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
+### 237. [OpenCode | The open source AI coding agent](https://opencode.ai)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
 
 **An open-source terminal-native coding agent by Serverless Stack (SST) featuring a multi-agent architecture (Build/Plan/Explore) and persistent sessions.**
 
@@ -3636,7 +3657,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 237. [Using GLM-5.1 in Coding Agent - Overview - Z.AI DEVELOPER DOCUMENT](https://docs.z.ai/devpack/using5.1)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
+### 238. [Using GLM-5.1 in Coding Agent - Overview - Z.AI DEVELOPER DOCUMENT](https://docs.z.ai/devpack/using5.1)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
 
 **This document provides a comprehensive overview of using the GLM-5.1 model within the Z.AI Coding Agent, detailing steps for configuration, switching models, and ensuring optimal performance. It covers user interactions, environment setup, and integr**
 
@@ -3650,7 +3671,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 238. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 239. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **A software agent SDK that defines the Agent-Computer Interface (ACI), providing agents with direct, sandboxed access to terminals and filesystems.**
 
@@ -3664,7 +3685,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 239. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 240. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **Technical research proving that AI models have "bad days," with 10-15% daily performance swings due to non-determinism and backend updates.**
 
@@ -3678,7 +3699,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 240. [How we made v0 an effective coding agent  - Vercel](https://vercel.com/blog/how-we-made-v0-an-effective-coding-agent)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
+### 241. [How we made v0 an effective coding agent  - Vercel](https://vercel.com/blog/how-we-made-v0-an-effective-coding-agent)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
 
 **An analysis of how deep vertical integration with the Vercel platform and deterministic autofixers turned v0 into a production-grade coding agent.**
 
@@ -3692,7 +3713,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 241. [CodeRabbit CLI | AI Code Reviews in CLI](https://www.coderabbit.ai/cli)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers 📍
+### 242. [CodeRabbit CLI | AI Code Reviews in CLI](https://www.coderabbit.ai/cli)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers 📍
 
 **A "CLI-first" AI review system designed to provide senior-level feedback on local, uncommitted diffs to maintain developer flow state.**
 
@@ -3706,7 +3727,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 242. [Isolating Claude Code - Dmitry Kudryavtsev](https://yieldcode.blog/post/isolating-claude-code)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 243. [Isolating Claude Code - Dmitry Kudryavtsev](https://yieldcode.blog/post/isolating-claude-code)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **A security strategy for isolating autonomous coding agents using Vagrant virtual machines to provide a stronger OS-level kernel boundary than Docker.**
 
@@ -3720,7 +3741,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 243. [OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution - Algorithmic SuperIntelligence Labs](https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 244. [OpenEvolve: Teaching LLMs to Discover Algorithms Through Evolution - Algorithmic SuperIntelligence Labs](https://algorithmicsuperintelligence.ai/blog/openevolve-overview/index.html)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **An open-source evolutionary coding agent that automates the discovery of optimized algorithms using a Quality-Diversity (QD) search framework.**
 
@@ -3734,7 +3755,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 244. [Qwen Code: AI Coding Agent Documentation](https://qwenlm.github.io/qwen-code-docs)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 245. [Qwen Code: AI Coding Agent Documentation](https://qwenlm.github.io/qwen-code-docs)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **The documentation for Alibaba's open-source agentic coding core, achieving ~44.3% SWE-Bench Pro with high context (256K) and MoE efficiency.**
 
@@ -3748,7 +3769,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 245. [Superpowers: How I'm using coding agents in October 2025](https://blog.fsck.com/2025/10/09/superpowers)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 246. [Superpowers: How I'm using coding agents in October 2025](https://blog.fsck.com/2025/10/09/superpowers)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **A sophisticated agentic development workflow featuring persistent vector memory, specialized review roles, and GraphViz process formalization.**
 
@@ -3762,7 +3783,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 246. [We Got Claude to Fine-Tune an Open Source LLM](https://huggingface.co/blog/hf-skills-training)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 247. [We Got Claude to Fine-Tune an Open Source LLM](https://huggingface.co/blog/hf-skills-training)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **Standardized `SKILL.md` instruction packages that grant coding agents procedural expertise across the full machine learning lifecycle.**
 
@@ -3776,7 +3797,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 247. [Hacker News](https://news.ycombinator.com/item?id=44781561)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗4 layers 📍
+### 248. [Hacker News](https://news.ycombinator.com/item?id=44781561)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗4 layers 📍
 
 **A heavy-duty AI coding agent for large-scale multi-file tasks, featuring a version-controlled sandbox and support for 2M+ token contexts.**
 
@@ -3790,7 +3811,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 248. [kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-](https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗4 layers
+### 249. [kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-](https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗4 layers
 
 **Analysis of a security vulnerability in an AI coding agent that bypasses OS security policies and deletes system data.**
 
@@ -3804,7 +3825,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 249. [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗3 layers
+### 250. [ref-tools/ref-tools-mcp](https://github.com/ref-tools/ref-tools-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗3 layers
 
 **Ref-tools MCP helps coding agents efficiently work with public and private libraries without wasting context.**
 
@@ -3818,7 +3839,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 250. [Zen](https://opencode.ai/docs/zen/#privacy)  `10.0` ★★★ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
+### 251. [Zen](https://opencode.ai/docs/zen/#privacy)  `10.0` ★★★ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
 
 **A curated, US-hosted AI gateway specifically optimized for coding agents with a strict zero-retention policy for user data.**
 
@@ -3832,7 +3853,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 251. [https://platform.iflow.cn/docs/api-mode](https://platform.iflow.cn/docs/api-mode)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗1 layers
+### 252. [https://platform.iflow.cn/docs/api-mode](https://platform.iflow.cn/docs/api-mode)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗1 layers
 
 **A coding agent platform powered by Kimi K2.5 (1T MoE), featuring support for massive 100-agent parallel swarms and cost-efficient visual coding.**
 
@@ -3846,7 +3867,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 252. [https://jules-autopilot.vercel.app](https://jules-autopilot.vercel.app)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗3 layers 📍
+### 253. [https://jules-autopilot.vercel.app](https://jules-autopilot.vercel.app)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗3 layers 📍
 
 **Google's autonomous AI coding agent platform designed for unsupervised, long-horizon tasks and self-healing deployment loops.**
 
@@ -3860,7 +3881,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 253. [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)  `8.7` ★☆☆ ⚡67.0 Q0.7✓ Very good · ↗3 layers
+### 254. [agentclientprotocol/agent-client-protocol](https://github.com/agentclientprotocol/agent-client-protocol)  `8.7` ★☆☆ ⚡67.0 Q0.7✓ Very good · ↗3 layers
 
 **The Agent Client Protocol (ACP) standardizes communication between code editors (interactive programs for viewing and editing source code) and coding agents (programs that use generative AI to autonomously modify code).**
 
@@ -3871,7 +3892,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 254. [SWE-bench/SWE-smith](https://github.com/SWE-bench/SWE-smith)  `8.3` ★☆☆ ⚡65.0 Q0.7✓ Very good · ↗4 layers
+### 255. [SWE-bench/SWE-smith](https://github.com/SWE-bench/SWE-smith)  `8.3` ★☆☆ ⚡65.0 Q0.7✓ Very good · ↗4 layers
 
 **You can: Turn any Github repository into a SWE-gym. Create unlimited tasks (e.g., file localization, program repair, SWE-bench) for that repo. Train an LM to become a better SWE (SWE-agent-LM-32B).**
 
@@ -3882,7 +3903,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 255. [Installing Cline - Cline](https://docs.cline.bot/getting-started/installing-cline)  `8.7` ★☆☆ ⚡59.0 Q0.6✓ Very good · ↗5 layers
+### 256. [Installing Cline - Cline](https://docs.cline.bot/getting-started/installing-cline)  `8.7` ★☆☆ ⚡59.0 Q0.6✓ Very good · ↗5 layers
 
 **Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
 
@@ -3897,7 +3918,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 > 6 tools · avg signal ⚡86
 
-### 256. [debugg-ai/debugg-ai-mcp](https://github.com/debugg-ai/debugg-ai-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
+### 257. [debugg-ai/debugg-ai-mcp](https://github.com/debugg-ai/debugg-ai-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
 
 **Debugg AI's MCP server provides zero-config, fully AI-managed end-to-end testing across all code generation platforms. It automates workflows, integrates with CI/CD pipelines, and offers intelligent code review and security checks to enhance developm**
 
@@ -3913,7 +3934,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 257. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)  `8.0` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 258. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)  `8.0` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The `hyperbrowserai/mcp` project serves as an implementation of the Model Context Protocol (MCP) server for the Hyperbrowser environment. Its primary function is to act as a standardized communication layer, allowing external applications (like AI mo**
 
@@ -3929,7 +3950,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 258. [https://www.replay.io/?rdt_cid=5843586568472016283](https://www.replay.io/?rdt_cid=5843586568472016283)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗4 layers
+### 259. [https://www.replay.io/?rdt_cid=5843586568472016283](https://www.replay.io/?rdt_cid=5843586568472016283)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗4 layers
 
 **Replay MCP (Mobile Compatibility Plugin) enhances developer experience by offering a deterministic browser runtime recording feature. It captures every DOM change, network request, state update, and error in real time, allowing agents to pinpoint the**
 
@@ -3945,7 +3966,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 259. [microsoft/OmniParser](https://github.com/microsoft/OmniParser)  `9.0` ★★☆ ⚡87.0 Q0.9⭐ Excellent · ↗2 layers
+### 260. [microsoft/OmniParser](https://github.com/microsoft/OmniParser)  `9.0` ★★☆ ⚡87.0 Q0.9⭐ Excellent · ↗2 layers
 
 **OmniParser uses computer vision to extract UI elements from screenshots, providing a structured representation that allows AI agents to accurately interact with graphical interfaces. It facilitates the development of pure vision-based GUI agents by e**
 
@@ -3959,7 +3980,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 260. [janspoerer/mcp_browser_use](https://github.com/janspoerer/mcp_browser_use)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 261. [janspoerer/mcp_browser_use](https://github.com/janspoerer/mcp_browser_use)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Empowers AI agents to perform web tasks, browser automation, scraping, and integration with MCP and Selenium using multiple browser profiles.**
 
@@ -3974,7 +3995,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 261. [Claude Sonnet 4.6 | Hacker News](https://news.ycombinator.com/item?id=47050488)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 262. [Claude Sonnet 4.6 | Hacker News](https://news.ycombinator.com/item?id=47050488)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **This Hacker News thread discusses the release of Claude Sonnet 4.6, focusing on its strengths in computer use and its potential to automate tasks traditionally done by humans. Concerns are raised about the model's safety, particularly its vulnerabili**
 
@@ -3993,7 +4014,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 > 6 tools · avg signal ⚡84
 
-### 262. [alexcong/gemini-deepsearch-mcp](https://github.com/alexcong/gemini-deepsearch-mcp)  `9.5` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 263. [alexcong/gemini-deepsearch-mcp](https://github.com/alexcong/gemini-deepsearch-mcp)  `9.5` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The gemini-deepsearch-mcp project is a Python-based automated research tool designed to perform multi-step web research. It leverages Google Gemini models and the Google Search API to generate detailed, authoritative answers with source tracking. The**
 
@@ -4009,7 +4030,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 263. [phialsbasement/mcp-webresearch-stealthified](https://github.com/phialsbasement/mcp-webresearch-stealthified)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 264. [phialsbasement/mcp-webresearch-stealthified](https://github.com/phialsbasement/mcp-webresearch-stealthified)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Web Research Server is a stealthy, AI-powered tool designed to enhance Claude's web research capabilities by integrating live data from the web. It allows users to perform real-time information retrieval, including search queries, page conten**
 
@@ -4025,7 +4046,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 264. [AI 2027](https://ai-2027.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 265. [AI 2027](https://ai-2027.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **AI 2027 provides a detailed roadmap for AI evolution, focusing on the scaling of compute towards 10^28 FLOP and the emergence of autonomous 'research agents' designed to automate the AI R&D cycle. The resource outlines a shift from reflexive instruct**
 
@@ -4041,7 +4062,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 265. [Ideabrowser | Ideas are Everywhere](https://www.ideabrowser.com)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 266. [Ideabrowser | Ideas are Everywhere](https://www.ideabrowser.com)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A comprehensive AI "startup toolkit" that transforms market trends into validated business opportunities via an autonomous research agent and AI builder prompts.**
 
@@ -4055,7 +4076,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 266. [InvestGPT | AI Financial Research Agent by Kavout](https://www.kavout.com/investgpt)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
+### 267. [InvestGPT | AI Financial Research Agent by Kavout](https://www.kavout.com/investgpt)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
 
 **An institutional-grade AI investment assistant that routes queries to a swarm of specialized agents (Technical, Fundamental, Sentiment, Trade Spotter) for deep market analysis.**
 
@@ -4069,7 +4090,7 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 
 ---
 
-### 267. [Screenshot Editor Tool – PostSpark](https://postspark.app)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 268. [Screenshot Editor Tool – PostSpark](https://postspark.app)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **An integrated AI productivity suite featuring autonomous research agents, multimodal slide/sheet generation, and voice-to-action control.**
 
@@ -4084,4 +4105,4 @@ Coding agents, GUI agents, research agents, AI OS, security agents
 ---
 
 
-*267 tools · Signal-scored · 2026-05-17*
+*268 tools · Signal-scored · 2026-05-17*

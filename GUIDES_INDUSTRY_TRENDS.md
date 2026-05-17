@@ -1,6 +1,6 @@
 # 🗺 Guides & Industry Trends
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,090 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,105 tools
 
 The **map layer** — knowledge, patterns, and strategic intelligence
 
@@ -8,13 +8,13 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,090** |
+| Total tools | **1,105** |
 | Standout 🏆⭐ | 226 |
 | Avg Signal | ⚡82 |
-| Innovation 10 | 172 ██████████████████ |
-| Innovation 9 | 284 █████████████████████████████ |
-| Innovation 8 | 549 ███████████████████████████████████████████████████████ |
-| Innovation 7 | 85 █████████ |
+| Innovation 10 | 176 ██████████████████ |
+| Innovation 9 | 285 █████████████████████████████ |
+| Innovation 8 | 554 ████████████████████████████████████████████████████████ |
+| Innovation 7 | 90 ██████████ |
 
 ---
 
@@ -48,7 +48,11 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 - [Architecture & Benchmarks](#architecture--benchmarks) — 261 tools · ⚡81
 - [Awesome Lists](#awesome-lists) — 70 tools · ⚡83
 - [Industry & Strategy](#industry--strategy) — 725 tools · ⚡82
+- [Industry Analysis](#industry-analysis) — 1 tools · ⚡64
+- [MCP Servers](#mcp-servers) — 1 tools · ⚡77
+- [Tutorials & Courses](#tutorials--courses) — 4 tools · ⚡72
 - [Tutorials & Learning](#tutorials--learning) — 34 tools · ⚡82
+- [Unclassified](#unclassified) — 9 tools · ⚡71
 
 ---
 
@@ -15850,11 +15854,114 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
+## Industry Analysis
+
+> 1 tools · avg signal ⚡64
+
+### 1057. [France dumps Zoom and Teams as Europe seeks digital autonomy from the US | Hacker News](https://news.ycombinator.com/item?id=46873294)  `9.0` ★★☆ ⚡64.0 Q0.6 📍
+
+**A discussion on how frontier models (Claude 4.6/GPT-5) have become "intent-aware," making magic-keyword prompt engineering obsolete.**
+
+**Features:**
+- System prompting vs User prompting bifurcation
+- shift to product design over keyword hacking
+- reasoning-aware model performance.
+
+*Tags: philosophy, trends, prompt-engineering, intent-awareness, future-of-work*
+
+---
+
+## MCP Servers
+
+> 1 tools · avg signal ⚡77
+
+### 1058. [Google Search](https://www.google.com/search?ei=fmkzacqKKuG_p84P8aii6Qk&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIkxtY3AgcHJveHkgcm91dGVyIG1ldGEgc2VtYW50aWMgc2VhcmNoIHRvb2wgcmFnIG1hZ2cgbWV0YW1jcCBwbHVnZ2VkaW4gbWNwaHViMgQQHhgKSI45UPMtWMA2cAB4A5ABAJgBmwGgAd8FqgEDMC42uAEDyAEA-AEBmAIHoAKWBcICBBAAGEeYAwCIBgGQBgeSBwMyLjWgB5wTsgcDMC41uAeBBcIHBzAuMS40LjLIByk&hl=en-US&oq=mcp+proxy+router+meta+semantic+search+tool+rag+magg+metamcp+pluggedin+mcphub&q=mcp+proxy+router+meta+semantic+search+tool+rag+magg+metamcp+pluggedin+mcphub&sca_esv=cf2b8f1401e73d56&sclient=mobile-gws-wiz-serp&sxsrf=AE3TifMhKARVzpTd9WkJGGDf_vQI52siKA:1764977022695)  `7.0` ☆☆☆ ⚡77.0 Q0.8 📍
+
+**This resource likely points to a collection of tools and resources centered around the 'MCP' (Metaverse Content Protocol or similar) ecosystem. It encompasses proxy routers for managing requests, meta-semantic search tools for enhanced information re**
+
+**Features:**
+- ['Proxy routing for request management'
+- 'Meta-semantic search capabilities'
+- 'RAG pipeline components'
+- 'Plugin architecture for extensibility'
+- 'Integration with AI agent frameworks'
+- 'Tools for context engineering and isolation'
+
+*Tags: ['mcp', 'proxy', 'router', 'semanticsearch', 'rag'*
+
+---
+
+## Tutorials & Courses
+
+> 4 tools · avg signal ⚡72
+
+### 1059. [Google Search](https://www.google.com/search?client=ms-android-tmus-us-revc&ie=UTF-8&q=facebookresearch/detic&sec_act=sr&sourceid=chrome-mobile&sxsrf=ALiCzsah3bHyPVSERaQEkyf1a_RrALhPMA:1668970522586)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
+
+**The Google Search result points to facebookresearch/detic. Detic is likely a Zero-Shot Object Detection model developed by Facebook Research. Zero-shot object detection allows the model to detect objects it has never seen during training, relying on **
+
+**Features:**
+- ['Zero-Shot Object Detection'
+- 'Likely based on pre-trained models (e.g.
+- CLIP)'
+- 'Adaptable to unseen object categories'
+- 'Potentially open-source and publicly available'
+- 'Research-oriented']
+
+*Tags: ['zero-shot', 'object-detection', 'ai', 'machine-learning', 'facebook-research'*
+
+---
+
+### 1060. [Google Search](https://www.google.com/search?ei=Nw3FZ460KKOwptQP2JeX4Ac&gs_lp=Egxnd3Mtd2l6LXNlcnAiEWNsYXVkZSBpbiB2cyBjb2RlMgUQABiABDIGEAAYBRgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgsQABiABBiGAxiKBUjuB1C2A1i2A3ABeAGQAQCYAdEDoAHRA6oBAzQtMbgBA8gBAPgBAZgCAqAC7gPCAgoQABiwAxjWBBhHmAMAiAYBkAYIkgcFMS40LTGgB5QG&oq=claude+in+vs+code&q=claude+in+vs+code&sca_esv=22cf9685d21097a9&sclient=gws-wiz-serp&sec_act=d&sxsrf=AHTn8zqgJEfVzw1jzc9P91BG2_ASAkfEPQ:1740967223667&uact=5&ved=0ahUKEwjOq7qn6OyLAxUjmIkEHdjLBXwQ4dUDCBA)  `7.0` ☆☆☆ ⚡77.0 Q0.8 📍
+
+**This resource points to Google Search results for integrating Claude AI, an advanced AI assistant, into Visual Studio Code (VS Code). This integration aims to provide developers with AI-powered code completion, debugging assistance, code generation, **
+
+**Features:**
+- ['AI-powered code completion and suggestions'
+- 'Natural language code understanding and explanation'
+- 'Code generation from natural language prompts'
+- 'Debugging assistance and error detection'
+- 'Code refactoring and optimization suggestions'
+- 'Integration with the VS Code IDE for seamless workflow'
+
+*Tags: ['claudeai', 'vscode', 'ai-coding', 'code-completion', 'code-generation'*
+
+---
+
+### 1061. [Google Search](https://www.google.com/search?gs_lcrp=EgRlZGdlKhQIABBFGDkYQxiDARixAxiABBiKBTIUCAAQRRg5GEMYgwEYsQMYgAQYigUyDAgBEAAYQxiABBiKBTINCAIQABiLAxixAxiABDIQCAMQABiDARiLAxixAxiABDIQCAQQABiDARiLAxixAxiABDIPCAUQABhDGIsDGIAEGIoFMgoIBhAAGIsDGIAEMgYIBxBFGEEyBggIEEUYQdIBCDIzMTFqMWoxqAIAsAIA&ie=UTF-8&oq=cursor+ai&q=cursor+ai&sourceid=chrome)  `7.0` ☆☆☆ ⚡77.0 Q0.8 📍
+
+**This Google Search result points to information about Cursor AI, a code editor that leverages AI to enhance the coding experience. The search results will likely include the official Cursor AI website, documentation, tutorials, community forums, and **
+
+**Features:**
+- ['AI-powered code completion'
+- 'Context-aware suggestions'
+- 'Code generation'
+- 'Debugging assistance'
+- 'Refactoring tools'
+- 'Search functionality within the IDE'
+
+*Tags: ['ai', 'codeeditor', 'coding', 'ide', 'artificialintelligence'*
+
+---
+
+### 1062. [Ask HN: When do you think the ChatGPT moment will be for medicine? | Hacker News](https://news.ycombinator.com/item?id=47420556)  `7.0` ☆☆☆ ⚡54.0 Q0.5 📍
+
+**Explores the timeline and challenges of AI-driven drug discovery using bio models.**
+
+**Features:**
+- AI drug discovery
+- bio model simulation
+- clinical validation process
+- regulatory considerations
+
+*Tags: ai, medicine, bio-models, drug-discovery, machine-learning*
+
+---
+
 ## Tutorials & Learning
 
 > 34 tools · avg signal ⚡82
 
-### 1057. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 1063. [tejpalvirk/student](https://github.com/tejpalvirk/student)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Student MCP Server is designed to provide a comprehensive platform for students to manage their academic journey. It supports persistent educational context by maintaining a structured knowledge graph that captures relationships between courses, **
 
@@ -15869,7 +15976,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1058. [xaos-project/XaoS](https://github.com/xaos-project/XaoS)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 1064. [xaos-project/XaoS](https://github.com/xaos-project/XaoS)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **XaoS is a real-time interactive fractal zoomer that allows users to smoothly zoom into any place within a chosen fractal without the long calculation time required by other fractal generators. It offers various features like different fractal types, **
 
@@ -15885,7 +15992,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1059. [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗1 layers
+### 1065. [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗1 layers
 
 **This resource functions as a multi-framework intelligence hub, categorizing the current landscape of AI development into actionable implementation tiers. It spans basic starter agents using PydanticAI and LangChain to sophisticated multi-agent orches**
 
@@ -15901,7 +16008,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1060. [horw/esp-mcp](https://github.com/horw/esp-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 1066. [horw/esp-mcp](https://github.com/horw/esp-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The esp-mcp project aims to consolidate ESP-IDF-related commands into a single, streamlined interface. It simplifies the setup process for developers using natural language prompts, enabling seamless integration with LLMs for interactive assistance. **
 
@@ -15917,7 +16024,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1061. [cloudflare/python-workers-examples](https://github.com/cloudflare/python-workers-examples)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 1067. [cloudflare/python-workers-examples](https://github.com/cloudflare/python-workers-examples)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository provides a set of practical examples demonstrating how to write and deploy Cloudflare Workers using the Python Workers runtime. It showcases various capabilities, including basic operations (like 'hello'), binding interactions, D1 que**
 
@@ -15935,7 +16042,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1062. [vlm-run/vlmrun-cookbook](https://github.com/vlm-run/vlmrun-cookbook)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1068. [vlm-run/vlmrun-cookbook](https://github.com/vlm-run/vlmrun-cookbook)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **This repository hosts practical examples and tutorials for extracting structured data from images, videos, and documents using Vision Language Models (VLMs). It provides a comprehensive collection of Colab notebooks demonstrating real-world applicati**
 
@@ -15951,7 +16058,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1063. [The-Pocket/PocketFlow-Tutorial-Cursor](https://github.com/The-Pocket/PocketFlow-Tutorial-Cursor/blob/main/blog.md)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 1069. [The-Pocket/PocketFlow-Tutorial-Cursor](https://github.com/The-Pocket/PocketFlow-Tutorial-Cursor/blob/main/blog.md)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The resource describes building an AI coding agent within the Cursor editor environment using Pocket Flow, a minimalist 100-line LLM framework for agentic development. The architecture is structured around a Directed Acyclic Graph (DAG) where distinc**
 
@@ -15966,7 +16073,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1064. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 1070. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Smithery Cookbook is a comprehensive resource offering code snippets, tutorials, and best practices for developers to create and deploy Model Context Protocol (MCP) servers. It supports multiple programming languages including Python, Node.js, Ty**
 
@@ -15981,7 +16088,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1065. [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 1071. [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. It showcases the power of building complex systems by recreating popular technologies like 3D renderers, blockchain componen**
 
@@ -15996,7 +16103,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1066. [open-index/hacker-news · Datasets at Hugging Face](https://huggingface.co/datasets/open-index/hacker-news)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 1072. [open-index/hacker-news · Datasets at Hugging Face](https://huggingface.co/datasets/open-index/hacker-news)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The resource is a massive dataset capturing every story, comment, Ask HN, and job posting ever submitted to Hacker News since 2006. The structure involves parsing this data into distinct types (story, comment, poll, pollopt, job) and analyzing the di**
 
@@ -16012,7 +16119,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1067. [ChoiceCoin/Voting](https://github.com/ChoiceCoin/Voting)  `8.0` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers 📍
+### 1073. [ChoiceCoin/Voting](https://github.com/ChoiceCoin/Voting)  `8.0` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This repository is a software project centered around voting systems built using the Choice Coin technology. The core focus is on 'Decentralized Decisions,' allowing organizations to make decisions in a distributed manner. The project explores voting**
 
@@ -16028,7 +16135,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1068. [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science/blob/main/README.md)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 1074. [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science/blob/main/README.md)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **This resource provides a curated collection of links to various free learning resources covering computer programming, mathematics, and science. It offers diverse topics ranging from foundational concepts (like basic programming languages and algorit**
 
@@ -16044,7 +16151,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1069. [mikeroyal/Windows-11-Guide](https://github.com/mikeroyal/Windows-11-Guide)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 1075. [mikeroyal/Windows-11-Guide](https://github.com/mikeroyal/Windows-11-Guide)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **This resource provides a comprehensive guide for setting up and optimizing a Windows 11 system. It covers various aspects including system setup, hardware requirements (TPM, CPU, RAM), creating local accounts, removing watermarks, optimizing the look**
 
@@ -16060,7 +16167,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1070. [bmorphism/hypernym-mcp-server](https://github.com/bmorphism/hypernym-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 1076. [bmorphism/hypernym-mcp-server](https://github.com/bmorphism/hypernym-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A developer-focused platform enabling seamless integration of Hypernym AI's semantic analysis and compression tools into AI workflows.**
 
@@ -16076,7 +16183,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1071. [mobizt/build-your-own-x](https://github.com/mobizt/build-your-own-x)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 1077. [mobizt/build-your-own-x](https://github.com/mobizt/build-your-own-x)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **This repository is a compilation of well-written, step-by-step guides for re-creating our favorite technologies from scratch. What you cannot create, you do not understand — Richard Feynman.**
 
@@ -16092,7 +16199,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1072. [AI agents find $4.6M in blockchain smart contract exploits | Hacker News](https://news.ycombinator.com/item?id=46115214)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1078. [AI agents find $4.6M in blockchain smart contract exploits | Hacker News](https://news.ycombinator.com/item?id=46115214)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **This resource analyzes the shift from manual security auditing to autonomous AI agents capable of identifying high-value exploits in blockchain smart contracts. It highlights the transition from complex, fragile agent frameworks like early LangChain **
 
@@ -16108,7 +16215,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1073. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1079. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **This resource appears to be a structured curriculum or schedule for a course titled 'How To Make (almost) Anything,' spanning from an introductory session through various practical skills and design concepts. The schedule includes topics like compute**
 
@@ -16124,7 +16231,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1074. [Data Integrations - MindsDB](https://docs.mindsdb.com/integrations/data-overview)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1080. [Data Integrations - MindsDB](https://docs.mindsdb.com/integrations/data-overview)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **This resource details MindsDB's data integration capabilities, emphasizing its role as a federated data access layer. MindsDB acts as an MCP (Model Context Protocol) server, allowing external applications to query vast, distributed datasets directly **
 
@@ -16139,7 +16246,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1075. [https://stable-diffusion-art.com/lora](https://stable-diffusion-art.com/lora)  `9.8` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
+### 1081. [https://stable-diffusion-art.com/lora](https://stable-diffusion-art.com/lora)  `9.8` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
 
 **This guide introduces LoRA (Low-Rank Adaptation) models, explaining how they work, their advantages over full model retraining, and step-by-step instructions for installing and applying them in the AUTOMATIC1111 web UI. It covers installation, usage **
 
@@ -16154,7 +16261,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1076. [dappuniversity/election](https://github.com/dappuniversity/election)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗1 layers
+### 1082. [dappuniversity/election](https://github.com/dappuniversity/election)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗1 layers
 
 **A tutorial demonstrating how to build and deploy a decentralized voting application on the Ethereum network, including setting up necessary prerequisites like Node.js, Truffle, Ganache, and MetaMask.**
 
@@ -16170,7 +16277,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1077. [https://www.fractaltribe.org/fractalfest2023](https://www.fractaltribe.org/fractalfest2023)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗1 layers
+### 1083. [https://www.fractaltribe.org/fractalfest2023](https://www.fractaltribe.org/fractalfest2023)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗1 layers
 
 **This document provides an in-depth overview of Fractalfest 2023, detailing the festival's four-day schedule, stages, workshops, art installations, and community initiatives. It highlights the event's thematic exploration of utopian and dystopian futu**
 
@@ -16186,7 +16293,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1078. [https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)  `9.8` ★★☆ ⚡78.0 Q0.7⭐ Excellent 📍
+### 1084. [https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)  `9.8` ★★☆ ⚡78.0 Q0.7⭐ Excellent 📍
 
 **This tutorial guides users through fine-tuning the Stable Diffusion XL model using DreamBooth and LoRA, enabling customized image generation on personal photos. It covers accessing the SDXL model via Hugging Face, setting up GPU environments, integra**
 
@@ -16200,7 +16307,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1079. [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
+### 1085. [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
 
 **This resource is a GitHub repository titled 'FFmpeg/asm-lessons'. It offers lessons designed to introduce users to the world of assembly language, specifically focusing on how it is implemented within the FFmpeg project. The lessons aim to give users**
 
@@ -16213,7 +16320,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1080. [foxfire667/ChartingHub](https://github.com/foxfire667/ChartingHub)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers 📍
+### 1086. [foxfire667/ChartingHub](https://github.com/foxfire667/ChartingHub)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers 📍
 
 **This repository serves as a central hub for charting resources specifically tailored for the 'Etterna' community. It documents the available tools and guides, focusing on the core editing software (ArrowVortex) and other related editors (DDreamStudio**
 
@@ -16226,7 +16333,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1081. [Kagi Small Web](https://kagi.com/smallweb/?url=https%3A%2F%2Fpaulkedrosky.com%2Fcheck-out-the-pod-plus-media-updates-and-more%2F)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1087. [Kagi Small Web](https://kagi.com/smallweb/?url=https%3A%2F%2Fpaulkedrosky.com%2Fcheck-out-the-pod-plus-media-updates-and-more%2F)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This technical resource serves as a curated gateway to the 'small web'—a less visible segment of the internet where personal narratives, creative expressions, and community-driven updates thrive. It emphasizes the importance of connecting with real p**
 
@@ -16240,7 +16347,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1082. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1088. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **This resource examines the enduring tension between Hobbes and Locke in shaping political thought, highlighting how their ideas continue to influence contemporary debates on governance, democracy, and human nature. It emphasizes the importance of und**
 
@@ -16254,7 +16361,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1083. [Enhancing GitHub Copilot agent mode with MCP - GitHub Docs](https://docs.github.com/en/copilot/tutorials/enhance-agent-mode-with-mcp)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗4 layers
+### 1089. [Enhancing GitHub Copilot agent mode with MCP - GitHub Docs](https://docs.github.com/en/copilot/tutorials/enhance-agent-mode-with-mcp)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗4 layers
 
 **The general availability release of GitHub Copilot Agent Mode, featuring native MCP "USB port" integration and enterprise-grade auto-approve governance.**
 
@@ -16268,7 +16375,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1084. [https://wisey.app/r/productivity-3&placement=&kw=&gad_source=2&gad_cam](https://wisey.app/r/productivity-3&placement=&kw=&gad_source=2&gad_campaignid=23794905516&gbraid=0AAAAA-Awx_yxqbBKPD8RbssXoVXWHYm5t&wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers
+### 1090. [https://wisey.app/r/productivity-3&placement=&kw=&gad_source=2&gad_cam](https://wisey.app/r/productivity-3&placement=&kw=&gad_source=2&gad_campaignid=23794905516&gbraid=0AAAAA-Awx_yxqbBKPD8RbssXoVXWHYm5t&wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers
 
 **The resource describes a personalized productivity platform that leverages AI-driven coaching to help users transition from underachiever to high performer within a short timeframe. It emphasizes mindfulness, cognitive enhancement, and structured lea**
 
@@ -16283,7 +16390,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1085. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1091. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A beginner-friendly guide server to help users understand MCP concepts, explore capabilities, and follow best practices for building integrations.**
 
@@ -16297,7 +16404,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1086. [AI Apps with MCP Memory Benchmark & Tutorial](https://research.aimultiple.com/memory-mcp)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
+### 1092. [AI Apps with MCP Memory Benchmark & Tutorial](https://research.aimultiple.com/memory-mcp)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
 
 **A universal memory hub standard enabling cross-agent persistence and relational knowledge graphs via a multi-tier Hot/Warm/Cold storage strategy.**
 
@@ -16311,7 +16418,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1087. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
+### 1093. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
 
 **A practical guide for running 1B/3B parameter models locally for RAG, focusing on the use of swappable LoRA adapters for specialized task expertise.**
 
@@ -16325,7 +16432,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1088. [Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course)  `8.0` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1094. [Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course)  `8.0` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **Since 2018, millions of people worldwide have relied on Machine Learning Crash Course to learn how machine learning works, and how machine learning can work for them. This resource covers recent advances in AI with an increased focus on interactive l**
 
@@ -16341,7 +16448,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1089. [Mental Health and Pre-Social Work | Academic Catalog](https://catalog.oaklandcc.edu/programs/mental-health-pre-social-work)  `7.6` ☆☆☆ ⚡67.0 Q0.7○ Good · ↗1 layers
+### 1095. [Mental Health and Pre-Social Work | Academic Catalog](https://catalog.oaklandcc.edu/programs/mental-health-pre-social-work)  `7.6` ☆☆☆ ⚡67.0 Q0.7○ Good · ↗1 layers
 
 **Mental Health and Pre-Social Work - Addiction Studies (MHS.ADS.CA)**
 
@@ -16363,7 +16470,7 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
-### 1090. [https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=237](https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs)  `7.5` ☆☆☆ ⚡60.0 Q0.5○ Good · ↗1 layers 📍
+### 1096. [https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=237](https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs)  `7.5` ☆☆☆ ⚡60.0 Q0.5○ Good · ↗1 layers 📍
 
 **The platform provides structured AI learning paths, focusing on foundational concepts and practical applications for beginners.**
 
@@ -16377,5 +16484,135 @@ Awesome lists, tutorials, architecture patterns, benchmarks
 
 ---
 
+## Unclassified
 
-*1,090 tools · Signal-scored · 2026-05-17*
+> 9 tools · avg signal ⚡71
+
+### 1097. [Google Search](https://www.google.com/search?client=firefox-b-1-d&q=suno+mcp)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
+
+**Based on the Google Search results for 'Suno MCP', it's highly probable this refers to Suno's Music Creation Platform. While direct access to the platform's architecture is unavailable, we can infer its functionality. It likely leverages AI agents an**
+
+**Features:**
+- ['AI-powered music generation (melody
+- harmony
+- rhythm
+- lyrics)'
+- 'Agent-based workflows for music creation'
+- 'User interface for orchestrating AI agents'
+
+*Tags: ['ai', 'music', 'generation', 'agent', 'workflow'*
+
+---
+
+### 1098. [TuringSoftware/CrystalFetch](https://github.com/TuringSoftware/CrystalFetch)  `7.0` ☆☆☆ ⚡77.0 Q0.8 📍
+
+**CrystalFetch is a macOS application that creates Windows® 11 installer ISO images. It can be used with UTM virtual machines as well as other VM solutions. Note: CrystalFetch is not affiliated with Microsoft and a valid license is required to install **
+
+**Features:**
+- macOS application for creating Windows installer ISO images
+- compatibility with UTM virtual machines
+- requirement for paid Apple Developer license/library validation disabling for building.
+
+*Tags: ['macos', 'windows', 'iso', 'virtualization', 'xcode'*
+
+---
+
+### 1099. [Google Search](https://www.google.com/search?aqs=edge.0.0i512l3j0i457i512j0i512l2j0i390l2j69i64.471j0j1&ie=UTF-8&oq=Gorontula+Fruit&q=gorontula+fruit&sourceid=chrome)  `10.0` ★★★ ⚡75.0 Q0.7 📍
+
+**A sweet, chewy fruit native to Northern Nigeria known as "African Chewing Gum," traditionally prized for supporting female reproductive health and fertility.**
+
+**Features:**
+- Vaginal hydration/lubrication support
+- fertility/hormone balance traditions
+- high dietary fiber
+- antioxidant/Vitamin C density.
+
+*Tags: botany, supplements, traditional-medicine, women-health, nutrition*
+
+---
+
+### 1100. [Google Search](https://www.google.com/search?aqs=edge.0.0i67j0i512l7.383j0j1&ie=UTF-8&oq=Cynomorium&q=cynomorium&sec_act=d&sourceid=chrome)  `10.0` ★★★ ⚡73.0 Q0.6 📍
+
+**A parasitic desert plant used historically in traditional medicine as an aphrodisiac and "Yang tonic" to improve stamina and digestive health.**
+
+**Features:**
+- Traditional "Yang tonic
+- " sexual health/libido support
+- fatigue reduction
+- antioxidant properties.
+
+*Tags: botany, supplements, traditional-medicine, cynomorium, aphrodisiac*
+
+---
+
+### 1101. [Google Search](https://www.google.com/search?aqs=edge.0.0i433i512j0i512l4j0i131i433i512j0i512l2.159j0j1&ie=UTF-8&oq=Fadogia+Agrestis&q=fadogia+agrestis&sec_act=sr&sourceid=chrome&sxsrf=ADLYWILnWF3oH6jH_FpbbQpNvlGblW3ecg:1735575079653)  `10.0` ★★★ ⚡73.0 Q0.6 📍
+
+**A West African shrub popular in biohacking communities for its traditional use as an aphrodisiac and its potential to support testosterone levels.**
+
+**Features:**
+- Testosterone support potential
+- libido enhancement
+- athletic recovery supplement
+- traditional anti-inflammatory use.
+
+*Tags: botany, supplements, biohacking, testosterone, fadogia*
+
+---
+
+### 1102. [Google Search](https://www.google.com/search?aqs=edge.0.0i512l2j0i22i30l2j0i22i30i457j0i22i30l2j0i390.479j0j1&ie=UTF-8&oq=Deer+Antler+Velvet+Powder&q=deer+antler+velvet+powder&sec_act=d&sourceid=chrome)  `10.0` ★★★ ⚡73.0 Q0.6 📍
+
+**A supplement derived from the pre-calcified cartilaginous tissue of deer antlers, rich in IGF-1 growth factors and joint-supporting compounds.**
+
+**Features:**
+- Natural IGF-1 source
+- glucosamine/chondroitin content
+- athletic performance recovery
+- immune system support.
+
+*Tags: supplements, biohacking, recovery, igf-1, joint-health*
+
+---
+
+### 1103. [Programming languages used for music | Hacker News](https://news.ycombinator.com/item?id=46338437)  `8.0` ★☆☆ ⚡65.0 Q0.6 📍
+
+**A high-level debate on the production costs and intrinsic value of privately issued currencies like Bitcoin versus traditional fiat and scams.**
+
+**Features:**
+- Production cost vs nominal value analysis
+- early-adopter wealth tension
+- mining hardware industry evolution
+- libertarian rhetoric critique.
+
+*Tags: crypto, economics, philosophy, bitcoin, community-debate*
+
+---
+
+### 1104. [GPT-5.2-Codex | Hacker News](https://news.ycombinator.com/item?id=46316367)  `8.0` ★☆☆ ⚡60.0 Q0.6 📍
+
+**A community analysis of the Lapsus$ GTA 6 hack, focusing on the use of ultra-low-end hardware (Firestick/Phone) and social engineering techniques.**
+
+**Features:**
+- Low-hardware exploit feasibility (Amazon Firestick)
+- social engineering vs complex technical feats
+- law enforcement protection gaps.
+
+*Tags: security, adversarial-ai, hacking, social-engineering, hardware-constraints*
+
+---
+
+### 1105. [Date is out, Temporal is in | Hacker News](https://news.ycombinator.com/item?id=46589658)  `8.0` ★☆☆ ⚡58.0 Q0.5 📍
+
+**Analysis of the Date constructor bug and its implications for JavaScript development.**
+
+**Features:**
+- Improved date parsing with strict time zone support
+- Adoption of Temporal API for consistent date handling
+- Use of 'use strict' to enforce modern JavaScript practices
+- Consideration of internal modules for future compatibility
+
+*Tags: javascript, date, bugs, temporal, strict-datetime*
+
+---
+
+
+*1,105 tools · Signal-scored · 2026-05-17*

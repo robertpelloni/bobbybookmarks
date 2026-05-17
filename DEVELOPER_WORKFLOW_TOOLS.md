@@ -1,6 +1,6 @@
 # 🔧 Developer Workflow & Tools
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,976 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,978 tools
 
 Developer productivity and project infrastructure
 
@@ -8,12 +8,12 @@ Git, CI/CD, project management, documentation
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,976** |
+| Total tools | **1,978** |
 | Standout 🏆⭐ | 554 |
 | Avg Signal | ⚡86 |
 | Innovation 10 | 160 █████████████████ |
 | Innovation 9 | 637 ████████████████████████████████████████████████████████████████ |
-| Innovation 8 | 1,160 █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ |
+| Innovation 8 | 1,162 █████████████████████████████████████████████████████████████████████████████████████████████████████████████████████ |
 | Innovation 7 | 19 ██ |
 
 ---
@@ -49,6 +49,7 @@ Git, CI/CD, project management, documentation
 - [Documentation & Knowledge](#documentation--knowledge) — 32 tools · ⚡83
 - [Git & Version Control](#git--version-control) — 1,089 tools · ⚡86
 - [MCP Servers](#mcp-servers) — 202 tools · ⚡84
+- [Monitoring & Observability](#monitoring--observability) — 2 tools · ⚡78
 - [Project Management](#project-management) — 28 tools · ⚡84
 - [Testing & Quality](#testing--quality) — 30 tools · ⚡78
 
@@ -29350,11 +29351,41 @@ Key features include defining the state of the RRR system
 
 ---
 
+## Monitoring & Observability
+
+> 2 tools · avg signal ⚡78
+
+### 1919. [mcp-get/community-servers](https://github.com/mcp-get/community-servers/blob/main/src/server-macos)  `8.0` ★☆☆ ⚡79.0 Q0.8 📍
+
+**The 'Borg' Project's community server module is designed to deliver macOS-specific system information, including CPU, memory, disk, and network details. It supports seamless integration with development environments, enabling developers to access rea**
+
+**Features:**
+- macos-system-info
+- systemInfo
+- notification
+
+*Tags: macos, systeminfo, development, debugging, integration*
+
+---
+
+### 1920. [mcp-get/community-servers](https://github.com/mcp-get/community-servers/tree/HEAD/src/server-macos)  `8.0` ★☆☆ ⚡77.0 Q0.8 📍
+
+**The project provides a server-based solution tailored for macOS environments, focusing on gathering system metrics such as CPU, memory, disk usage, and network statistics. It supports seamless integration with development workflows by offering native**
+
+**Features:**
+- macos-system-info
+- systemInfo
+- sendNotification
+
+*Tags: developer-tools, macos-integration, system-monitoring, notification-system, software-development*
+
+---
+
 ## Project Management
 
 > 28 tools · avg signal ⚡84
 
-### 1919. [factory-ai/factory](https://github.com/factory-ai/factory)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 1921. [factory-ai/factory](https://github.com/factory-ai/factory)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Factory centers on the concept of 'Agent-Native' development, where its core agent, Droid, is integrated directly into the developer's existing toolchain rather than acting as a standalone chat interface. The platform excels in terminal-based task ex**
 
@@ -29370,7 +29401,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1920. [Dicklesworthstone/beads_viewer](https://github.com/Dicklesworthstone/beads_viewer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 1922. [Dicklesworthstone/beads_viewer](https://github.com/Dicklesworthstone/beads_viewer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **beads_viewer (bv) serves as a sophisticated interface for managing complex task dependencies using graph theory. It implements algorithms such as PageRank, HITS, and critical path analysis to identify project bottlenecks and cycles within a local .be**
 
@@ -29386,7 +29417,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1921. [rafliruslan/ticktick-mcp-server](https://github.com/rafliruslan/ticktick-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1923. [rafliruslan/ticktick-mcp-server](https://github.com/rafliruslan/ticktick-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The TickTick MCP Server acts as an API gateway, facilitating secure and efficient communication between TickTick's task management service and external systems. It supports OAuth authentication, integrates with various development environments, and p**
 
@@ -29402,7 +29433,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1922. [huntsyea/mcp-tasks-organizer](https://github.com/huntsyea/mcp-tasks-organizer)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 1924. [huntsyea/mcp-tasks-organizer](https://github.com/huntsyea/mcp-tasks-organizer)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Tasks Organizer is a GitHub-hosted tool that converts Cursor agent plans into structured Markdown task lists. It automates the extraction of actionable tasks, formats them with clear sectioning (Overview, Implementation Details, Next Steps), **
 
@@ -29418,7 +29449,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1923. [tejpalvirk/project](https://github.com/tejpalvirk/project)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 1925. [tejpalvirk/project](https://github.com/tejpalvirk/project)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The Project MCP Server is designed to provide a comprehensive platform for managing project knowledge graphs. It supports session management, task dependencies, milestone tracking, resource allocation, risk assessment, and decision logging. The serve**
 
@@ -29434,7 +29465,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1924. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1926. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The GitHub Kanban MCP Server is an AI-driven platform that integrates with GitHub to manage project tasks and workflows using large language models (LLMs). It enables automated issue tracking, commenting, labeling, and assignee management within a Ka**
 
@@ -29450,7 +29481,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1925. [vinayak-mehta/linear-mcp](https://github.com/vinayak-mehta/linear-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 1927. [vinayak-mehta/linear-mcp](https://github.com/vinayak-mehta/linear-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The Linear MCP project offers a comprehensive solution for issue tracking and project management within the MCP framework. It provides robust features such as code review, workflow automation, and integration with various tools to streamline developm**
 
@@ -29465,7 +29496,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1926. [eyalzh/kanban-mcp](https://github.com/eyalzh/kanban-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 1928. [eyalzh/kanban-mcp](https://github.com/eyalzh/kanban-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The MCP server provides a kanban-based task management solution tailored for complex multi-session workflows. It leverages AI agents to document and manage tasks across planning and execution phases, offering features like column capacity limits, emb**
 
@@ -29481,7 +29512,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1927. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 1929. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This fork of the mem0-mcp-for-pm repository is tailored to enhance project management capabilities by integrating structured project memory storage, retrieval, and semantic search functionalities. It supports modern development workflows with feature**
 
@@ -29496,7 +29527,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1928. [doist/todoist-mcp](https://github.com/doist/todoist-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 1930. [doist/todoist-mcp](https://github.com/doist/todoist-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository provides a GitHub Actions workflow that integrates Doist/todoist-mcp with Claude, enabling users to manage tasks using natural language input and leveraging AI-driven features. It supports task creation, retrieval, updates, project ma**
 
@@ -29511,7 +29542,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1929. [Nimbalyst — Visual Workspace for Claude Code & Codex](https://nimbalyst.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 1931. [Nimbalyst — Visual Workspace for Claude Code & Codex](https://nimbalyst.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Nimbalyst functions as a session manager and visual editor, specifically tailored for enhancing interaction with AI code assistants like Claude Code and Codex. It provides a unified environment for editing markdown, CSVs, mockups (Excalidraw), archit**
 
@@ -29527,7 +29558,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1930. [deus-h/claudeus-plane-mcp](https://github.com/deus-h/claudeus-plane-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 1932. [deus-h/claudeus-plane-mcp](https://github.com/deus-h/claudeus-plane-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A platform that integrates Claudeus AI with Plane's project management tools to automate workflows, enhance collaboration, and streamline task management.**
 
@@ -29542,7 +29573,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1931. [Flux 2 Klein pure C inference | Hacker News](https://news.ycombinator.com/item?id=46670279)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1933. [Flux 2 Klein pure C inference | Hacker News](https://news.ycombinator.com/item?id=46670279)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **The resource discusses the challenges and best practices in maintaining and improving a complex software project involving C inference, code documentation, and collaboration. It highlights the importance of clear documentation, structured specs, and **
 
@@ -29558,7 +29589,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1932. [phuc-nt/mcp-atlassian-server](https://github.com/phuc-nt/mcp-atlassian-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 1934. [phuc-nt/mcp-atlassian-server](https://github.com/phuc-nt/mcp-atlassian-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol server connecting AI agents to Atlassian Jira and Confluence for intelligent project management.**
 
@@ -29574,7 +29605,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1933. [cyanheads/atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 1935. [cyanheads/atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server enabling LLM agents to manage projects, tasks, and knowledge in a unified task management system.**
 
@@ -29590,7 +29621,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1934. [pouyanafisi/project-mcp](https://github.com/pouyanafisi/project-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 1936. [pouyanafisi/project-mcp](https://github.com/pouyanafisi/project-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Intent-based MCP server for project documentation search, automatically mapping natural language queries to the right sources without configuration.**
 
@@ -29606,7 +29637,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1935. [24601/BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 1937. [24601/BMAD-AT-CLAUDE](https://github.com/24601/BMAD-AT-CLAUDE)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A breakthrough method for agile AI-driven development, integrating specialized AI agents to automate and enhance software development processes.**
 
@@ -29621,7 +29652,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1936. [taazkareem/clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1938. [taazkareem/clickup-mcp-server](https://github.com/taazkareem/clickup-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A high-performance MCP server enabling AI integration via Model Context Protocol for intelligent task management.**
 
@@ -29637,7 +29668,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1937. [kydycode/todoist-mcp-server-ext](https://github.com/kydycode/todoist-mcp-server-ext)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 1939. [kydycode/todoist-mcp-server-ext](https://github.com/kydycode/todoist-mcp-server-ext)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **An extended Todoist MCP server enabling natural language task management via Claude.**
 
@@ -29653,7 +29684,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1938. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
+### 1940. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This resource appears to be a structured curriculum or schedule for a course titled 'How To Make (almost) Anything,' spanning from an introductory session through various practical skills and design concepts. The schedule includes topics like compute**
 
@@ -29669,7 +29700,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1939. [newaitees/taskmateai](https://github.com/newaitees/taskmateai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1941. [newaitees/taskmateai](https://github.com/newaitees/taskmateai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **TaskMateAI is an AI-powered task management application that enables users to create, manage, and prioritize tasks using MCP for seamless operation.**
 
@@ -29685,7 +29716,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1940. [cdmx-in/goodday-mcp](https://github.com/cdmx-in/goodday-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1942. [cdmx-in/goodday-mcp](https://github.com/cdmx-in/goodday-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A platform-as-a-service tool for managing Goodday project management workflows with AI-driven automation and integration capabilities.**
 
@@ -29701,7 +29732,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1941. [jztan/redmine-mcp-server](https://github.com/jztan/redmine-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1943. [jztan/redmine-mcp-server](https://github.com/jztan/redmine-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A production-ready MCP server enabling secure, efficient integration with Redmine for AI-assisted project management.**
 
@@ -29717,7 +29748,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1942. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1944. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A model context protocol server for Jira API enabling LLMs to interact with Jira.**
 
@@ -29733,7 +29764,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1943. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1945. [jotjunior/mcp-server-zplanner](https://github.com/jotjunior/mcp-server-zplanner)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A command-line tool for project planning and management with AI-assisted development.**
 
@@ -29749,7 +29780,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1944. [Jesus Project - Wikipedia](https://en.m.wikipedia.org/wiki/Jesus_Project)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗2 layers
+### 1946. [Jesus Project - Wikipedia](https://en.m.wikipedia.org/wiki/Jesus_Project)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗2 layers
 
 **The 'Jesus Project' was an American research project (2007–2009) initiated by R. Joseph Hoffmann, aimed at determining what, if anything, can be recovered about the historical Jesus of Nazareth. The project sought to examine evidence for the historic**
 
@@ -29763,7 +29794,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1945. [vhladiienko/awesome-game-production](https://github.com/vhladiienko/awesome-game-production)  `8.7` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗2 layers
+### 1947. [vhladiienko/awesome-game-production](https://github.com/vhladiienko/awesome-game-production)  `8.7` ★☆☆ ⚡71.0 Q0.7✓ Very good · ↗2 layers
 
 **This repository serves as a curated resource for understanding the game producer's role—a person who manages and orchestrates the game production process. It focuses on practical resources (books, articles, tools) that help game producers deliver the**
 
@@ -29774,7 +29805,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1946. [https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_](https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_music_files)  `7.8` ☆☆☆ ⚡70.0 Q0.6○ Good · ↗2 layers
+### 1948. [https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_](https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_music_files)  `7.8` ☆☆☆ ⚡70.0 Q0.6○ Good · ↗2 layers
 
 **The resource discusses the challenges and technical considerations involved in managing large volumes of music files, focusing on user interface design, workflow optimization, and system architecture for efficient file handling.**
 
@@ -29793,7 +29824,7 @@ Key features include defining the state of the RRR system
 
 > 30 tools · avg signal ⚡78
 
-### 1947. [geoffwhittington/devici-mcp](https://github.com/geoffwhittington/devici-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 1949. [geoffwhittington/devici-mcp](https://github.com/geoffwhittington/devici-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The sdelements/devici-mcp repository provides a comprehensive suite of tools for managing users, collections, threat models, components, threats, mitigations, teams, and dashboards within the Devici platform. It supports modern Python development pra**
 
@@ -29809,7 +29840,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1948. [xexr/mcp-libsql](https://github.com/xexr/mcp-libsql)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 1950. [xexr/mcp-libsql](https://github.com/xexr/mcp-libsql)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Xexr/mcp-libsql project provides a secure MCP (Model-Centric Programming) server for interacting with libSQL databases. It supports secure database access through Claude Desktop, Claude Code, Cursor, and other MCP clients, offering robust securit**
 
@@ -29825,7 +29856,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1949. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 1951. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The conversation highlights the importance of choosing efficient data structures like arrays of records over more complex structures for performance reasons. It emphasizes the need to optimize for speed, memory usage, and cache efficiency, especially**
 
@@ -29841,7 +29872,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1950. [tanker327/prompts-mcp-server](https://github.com/tanker327/prompts-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 1952. [tanker327/prompts-mcp-server](https://github.com/tanker327/prompts-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A powerful prompt management server for AI models, enabling efficient prompt retrieval, creation, and integration into development workflows.**
 
@@ -29857,7 +29888,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1951. [Font Generator - 𝓒𝓸𝓹𝔂 𝒂𝒏𝒅 𝓟𝓪𝓼𝓽𝓮 Cool Fancy Text](https://fontgenerator.now)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 1953. [Font Generator - 𝓒𝓸𝓹𝔂 𝒂𝒏𝒅 𝓟𝓪𝓼𝓽𝓮 Cool Fancy Text](https://fontgenerator.now)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This resource provides an interactive font generator that allows users to preview, style, and generate a wide variety of cool, fancy, vintage script, bold, cursive, and typewriter-style fonts. It offers options for different styles like Double-Struck**
 
@@ -29873,7 +29904,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1952. [Claude Code's new hidden feature: Swarms | Hacker News](https://news.ycombinator.com/item?id=46743908)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
+### 1954. [Claude Code's new hidden feature: Swarms | Hacker News](https://news.ycombinator.com/item?id=46743908)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
 
 **This Hacker News thread discusses an experiment where multiple AI agents, each with a specific role (e.g., Architect, Scrum Master, Developer), are orchestrated to work together on a software development project. The goal is to improve code quality a**
 
@@ -29889,7 +29920,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1953. [Claude Code Extension for Visual Studio - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dliedke.ClaudeCodeExtension)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1955. [Claude Code Extension for Visual Studio - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dliedke.ClaudeCodeExtension)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **The Claude Code Extension for Visual Studio provides a seamless interface for interacting with Claude Code CLI and other AI coding assistants like OpenAI Codex, Cursor, Qwen, Opencode, and Windsurf directly within the Visual Studio IDE. It supports m**
 
@@ -29905,7 +29936,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1954. [Show HN: Investment monitoring tool for data nerds and privacy buffs | Hacker News](https://news.ycombinator.com/item?id=42257264)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1956. [Show HN: Investment monitoring tool for data nerds and privacy buffs | Hacker News](https://news.ycombinator.com/item?id=42257264)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **Capitally is an investment monitoring tool designed for users who prioritize data privacy. It allows users to import investment data from various sources (CSVs, spreadsheets, etc.), map it to a standardized schema, and analyze it with performance bre**
 
@@ -29921,7 +29952,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1955. [Java 26 is here | Hacker News](https://news.ycombinator.com/item?id=47416548)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1957. [Java 26 is here | Hacker News](https://news.ycombinator.com/item?id=47416548)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **The analysis evaluates the current state of Java 26 within the context of the broader Java ecosystem. It highlights the shift towards composition over inheritance, the decline of FactoryFactory patterns, and the growing preference for interfaces with**
 
@@ -29937,7 +29968,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1956. [AutoGen - Microsoft Research](https://www.microsoft.com/en-us/research/project/autogen)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
+### 1958. [AutoGen - Microsoft Research](https://www.microsoft.com/en-us/research/project/autogen)  `9.0` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
 
 **AutoGen is designed to accelerate the development and research of agentic AI. Version 0.4 introduces a redesigned library with improved code quality, robustness, generality, and scalability. It addresses challenges in scaling applications by providin**
 
@@ -29953,7 +29984,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1957. [Show HN: SQL-tap – Real-time SQL traffic viewer for PostgreSQL and MySQL | Hacker News](https://news.ycombinator.com/item?id=47011567)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 1959. [Show HN: SQL-tap – Real-time SQL traffic viewer for PostgreSQL and MySQL | Hacker News](https://news.ycombinator.com/item?id=47011567)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **SQL-tap is a tool designed for observing and analyzing SQL traffic in real-time for PostgreSQL and MySQL databases. It functions as a transparent proxy, intercepting SQL queries by parsing the database wire protocol. This allows developers and admini**
 
@@ -29968,7 +29999,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1958. [https://openai.com/index/openai-api](https://openai.com/index/openai-api)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
+### 1960. [https://openai.com/index/openai-api](https://openai.com/index/openai-api)  `9.0` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
 
 **The API provides a general-purpose 'text in, text out' interface for various English language tasks, allowing users to integrate OpenAI's models into applications. It supports both general use and targeted improvements through training on specific da**
 
@@ -29984,7 +30015,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1959. [stier1ba/licensespring-mcp](https://github.com/stier1ba/licensespring-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1961. [stier1ba/licensespring-mcp](https://github.com/stier1ba/licensespring-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP server implementation integrating with LicenseSpring APIs for license management and customer operations.**
 
@@ -30000,7 +30031,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1960. [https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2](https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2020-4ddce8fff26c)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1962. [https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2](https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2020-4ddce8fff26c)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **The article provides a comprehensive overview of the process for deploying a libGDX game to iOS, including hardware requirements, testing environments, and necessary configurations. It emphasizes the importance of using RoboVM for building and signin**
 
@@ -30015,7 +30046,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1961. [AI Coding Plan-Code Freely. Ship Faster. No Surprise Bills. - Alibaba Cloud](https://www.alibabacloud.com/en/campaign/ai-scene-coding?_p_lc=1)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1963. [AI Coding Plan-Code Freely. Ship Faster. No Surprise Bills. - Alibaba Cloud](https://www.alibabacloud.com/en/campaign/ai-scene-coding?_p_lc=1)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **The document provides an overview of AI coding tools, model availability, integration options, pricing plans, and usage controls. It highlights support for multiple models, seamless platform integrations, and detailed guidance on activation and API k**
 
@@ -30030,7 +30061,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1962. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1964. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal**
 
@@ -30044,7 +30075,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1963. [Astral to Join OpenAI | Hacker News](https://news.ycombinator.com/item?id=47438723)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers
+### 1965. [Astral to Join OpenAI | Hacker News](https://news.ycombinator.com/item?id=47438723)  `8.0` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers
 
 **The conversation revolves around the increasing consolidation of AI development tools by major players like OpenAI and Anthropic. It highlights concerns over the centralization of development processes and the potential loss of open-source tooling. T**
 
@@ -30058,7 +30089,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1964. [CCS - Community Crowdfunding System (CCS)](https://ccs.getmonero.org)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗1 layers
+### 1966. [CCS - Community Crowdfunding System (CCS)](https://ccs.getmonero.org)  `8.8` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗1 layers
 
 **The Borg intelligence database should include detailed information about the CCS (Community Crowdfunding System) project, including its technical architecture, funding mechanisms, and workflow processes. This entry will outline how proposals are subm**
 
@@ -30072,7 +30103,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1965. [https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learn](https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers 📍
+### 1967. [https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learn](https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The project provides a detailed walkthrough of creating an open-source tool aimed at helping developers understand and improve the structure, readability, and performance of codebases. It covers various aspects such as code formatting, linting, and o**
 
@@ -30087,7 +30118,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1966. [https://www.reddit.com/r/AIinBusinessNews/comments/1t37s3w/i_built_an_](https://www.reddit.com/r/AIinBusinessNews/comments/1t37s3w/i_built_an_opensource_agent_verifier_for_claude)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers
+### 1968. [https://www.reddit.com/r/AIinBusinessNews/comments/1t37s3w/i_built_an_](https://www.reddit.com/r/AIinBusinessNews/comments/1t37s3w/i_built_an_opensource_agent_verifier_for_claude)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗1 layers
 
 **This forum thread highlights the development of a custom tool designed to verify and validate interactions with AI models like Claude. The conversation emphasizes practical implementation strategies, focusing on workflow automation, integration patte**
 
@@ -30102,7 +30133,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1967. [Fiddler Agentic Observability | Fiddler AI](https://www.fiddler.ai/agentic-observability)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 1969. [Fiddler Agentic Observability | Fiddler AI](https://www.fiddler.ai/agentic-observability)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **An enterprise control plane for tracking agent reasoning chains, handoff failures, and "Agentic Drift" via high-dimensional UMAP visualizations.**
 
@@ -30116,7 +30147,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1968. [OT in Context — Interactive Biblical Geography & Archaeology App](https://otincontext.com)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 1970. [OT in Context — Interactive Biblical Geography & Archaeology App](https://otincontext.com)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A 2026 shift in telemetry focusing on "AI in Context," monitoring Data, System, Code, and Model pillars with LLM-powered natural language insights.**
 
@@ -30130,7 +30161,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1969. [https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_](https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_limited)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers
+### 1971. [https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_](https://www.reddit.com/r/openrouter/comments/1t31g2k/free_models_rate_limited)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers
 
 **The discussion highlights practical approaches to setting up and managing open router environments, emphasizing the importance of modular workflows, integration patterns, and real-world testing experiences shared by community members.**
 
@@ -30145,7 +30176,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1970. [https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_a](https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_are_lucky)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers
+### 1972. [https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_a](https://www.reddit.com/r/MoneroMining/comments/1t7ovb6/sometimes_you_are_lucky)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers
 
 **The discussion highlights practical methods for improving mining efficiency, including recommended tools, patterns observed in successful setups, and warnings about potential risks involved in mining operations.**
 
@@ -30160,7 +30191,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1971. [https://www.reddit.com/r/vibecoding/comments/1sy7tg3/is_it_just_me_or_](https://www.reddit.com/r/vibecoding/comments/1sy7tg3/is_it_just_me_or_is_vibe_coding_actually_solid)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗2 layers
+### 1973. [https://www.reddit.com/r/vibecoding/comments/1sy7tg3/is_it_just_me_or_](https://www.reddit.com/r/vibecoding/comments/1sy7tg3/is_it_just_me_or_is_vibe_coding_actually_solid)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗2 layers
 
 **The article examines the technical merits and potential impact of Vibe Coding, a JavaScript framework for building web applications, focusing on its architecture, integration capabilities, and developer experience. It addresses concerns about verific**
 
@@ -30175,7 +30206,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1972. [https://www.reddit.com/r/PromptEngineering/comments/1t4q11m/i_ran_marc](https://www.reddit.com/r/PromptEngineering/comments/1t4q11m/i_ran_marc_andreessens_full_system_prompt_today)  `8.8` ★☆☆ ⚡73.0 Q0.6✓ Very good · ↗2 layers
+### 1974. [https://www.reddit.com/r/PromptEngineering/comments/1t4q11m/i_ran_marc](https://www.reddit.com/r/PromptEngineering/comments/1t4q11m/i_ran_marc_andreessens_full_system_prompt_today)  `8.8` ★☆☆ ⚡73.0 Q0.6✓ Very good · ↗2 layers
 
 **Participants shared insights on leveraging advanced orchestration tools, isolating context-specific workflows, and emphasizing real-world testing to ensure reliability. Several contributors recommended specific platforms for seamless integration and **
 
@@ -30189,7 +30220,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1973. [https://www.reddit.com/r/GeminiAI/comments/1t68sbw/i_really_hope_they_](https://www.reddit.com/r/GeminiAI/comments/1t68sbw/i_really_hope_they_release_gemini_32_or_35_or)  `8.8` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗1 layers
+### 1975. [https://www.reddit.com/r/GeminiAI/comments/1t68sbw/i_really_hope_they_](https://www.reddit.com/r/GeminiAI/comments/1t68sbw/i_really_hope_they_release_gemini_32_or_35_or)  `8.8` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗1 layers
 
 **The discussion revolves around the anticipation of new versions of Gemini AI, with users expressing hope for enhancements such as increased processing speed or expanded capabilities. Participants highlight the importance of reliable tools and methods**
 
@@ -30203,7 +30234,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1974. [https://www.reddit.com/r/AIProductManagers/comments/1t53wi5/whats_the_](https://www.reddit.com/r/AIProductManagers/comments/1t53wi5/whats_the_most_embarrassing_way_you_found_out)  `8.5` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗1 layers
+### 1976. [https://www.reddit.com/r/AIProductManagers/comments/1t53wi5/whats_the_](https://www.reddit.com/r/AIProductManagers/comments/1t53wi5/whats_the_most_embarrassing_way_you_found_out)  `8.5` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗1 layers
 
 **Participants shared insights on the complexities of coordinating multiple AI tools, emphasizing the need for robust integration strategies and real-time monitoring to maintain efficiency.**
 
@@ -30218,7 +30249,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1975. [https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_proj](https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_project_heres_how_i_made_it_my_own_ai)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers
+### 1977. [https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_proj](https://www.reddit.com/r/theVibeCoding/comments/1t6zyjy/heres_the_project_heres_how_i_made_it_my_own_ai)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers
 
 **The discussion highlights the use of specific tools, workflow patterns, and real-world challenges encountered while developing the project. The community emphasizes practical steps, tool recommendations, and lessons learned from previous attempts.**
 
@@ -30232,7 +30263,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 1976. [JavaScript is not available.](https://x.com/spacex/status/2035519125284380672)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers
+### 1978. [JavaScript is not available.](https://x.com/spacex/status/2035519125284380672)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers
 
 **The post discusses browser compatibility issues and the need for JavaScript support in a space exploration context.**
 
@@ -30247,4 +30278,4 @@ Key features include defining the state of the RRR system
 ---
 
 
-*1,976 tools · Signal-scored · 2026-05-17*
+*1,978 tools · Signal-scored · 2026-05-17*
