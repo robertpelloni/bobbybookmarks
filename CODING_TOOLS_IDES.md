@@ -1,6 +1,6 @@
 # 💻 Coding Tools & IDEs
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 898 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 893 tools
 
 The development environment layer
 
@@ -8,13 +8,13 @@ AI editors, autocomplete, code review, refactoring, testing
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **898** |
-| Standout 🏆⭐ | 242 |
+| Total tools | **893** |
+| Standout 🏆⭐ | 241 |
 | Avg Signal | ⚡86 |
 | Innovation 10 | 75 ████████ |
-| Innovation 9 | 277 ████████████████████████████ |
-| Innovation 8 | 524 █████████████████████████████████████████████████████ |
-| Innovation 7 | 22 ███ |
+| Innovation 9 | 276 ████████████████████████████ |
+| Innovation 8 | 522 █████████████████████████████████████████████████████ |
+| Innovation 7 | 20 ███ |
 
 ---
 
@@ -45,51 +45,12 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ## Contents
 
-- [AI Code Completion](#ai-code-completion) — 2 tools · ⚡83
 - [AI Editors & IDEs](#ai-editors--ides) — 476 tools · ⚡88
 - [Autocomplete & Completion](#autocomplete--completion) — 71 tools · ⚡82
 - [Code Review & Quality](#code-review--quality) — 215 tools · ⚡85
-- [IDE Extensions](#ide-extensions) — 2 tools · ⚡69
+- [IDE Extensions](#ide-extensions) — 1 tools · ⚡64
 - [MCP Servers](#mcp-servers) — 1 tools · ⚡74
-- [Refactoring & Analysis](#refactoring--analysis) — 1 tools · ⚡81
 - [Refactoring & Generation](#refactoring--generation) — 129 tools · ⚡82
-- [Unclassified](#unclassified) — 1 tools · ⚡75
-
----
-
-## AI Code Completion
-
-> 2 tools · avg signal ⚡83
-
-### 1. [Google Search](https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2owajGoAgCwAgA&ie=UTF-8&oq=graalvm&q=graalvm&sec_act=sr&sourceid=chrome&sxsrf=ADLYWIJ44Rd2Es0-XrMQeDtKy9i_iOO1zA:1732027758712)  `9.0` ★★☆ ⚡85.0 Q0.8 📍
-
-**GraalVM is a versatile virtual machine designed to execute applications written in various programming languages, including Java, JavaScript, Python, Ruby, R, C/C++, and more. It offers ahead-of-time (AOT) compilation, just-in-time (JIT) compilation,**
-
-**Features:**
-- ['Polyglot Programming: Supports multiple programming languages.'
-- 'Ahead-of-Time (AOT) Compilation: Compiles applications into standalone executables.'
-- 'Just-in-Time (JIT) Compilation: Optimizes code execution at runtime.'
-- 'Native Image Generation: Creates native executables with fast startup and low memory footprint.'
-- 'Polyglot Embedding: Allows embedding code from different languages within a single application.'
-- 'High Performance: Optimized for speed and efficiency.'
-
-*Tags: ['graalvm', 'virtualmachine', 'polyglot', 'aotcompilation', 'jitcompilation'*
-
----
-
-### 2. [Google Search](https://www.google.com/search?gs_lcrp=EgRlZGdlKhQIABBFGDkYQxiDARixAxiABBiKBTIUCAAQRRg5GEMYgwEYsQMYgAQYigUyDAgBEAAYQxiABBiKBTINCAIQABiLAxixAxiABDIQCAMQABiDARiLAxixAxiABDIQCAQQABiDARiLAxixAxiABDIPCAUQABhDGIsDGIAEGIoFMgoIBhAAGIsDGIAEMgYIBxBFGEEyBggIEEUYQdIBCDIzMTFqMWoxqAIAsAIA&ie=UTF-8&oq=cursor+ai&q=cursor+ai&sec_act=sr&sourceid=chrome&sxsrf=AE3TifMO0R-TMedX_kwn_ZQULQnR7D7TTw:1755011956804)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
-
-**Cursor AI is an IDE built with AI at its core. It leverages large language models to provide developers with advanced coding assistance, including code completion, automated bug detection, code generation from natural language prompts, and intelligen**
-
-**Features:**
-- ['AI-powered code completion'
-- 'Code generation from natural language prompts'
-- 'Intelligent search and discovery'
-- 'Automated bug detection and fixing'
-- 'Refactoring assistance'
-- 'Context-aware suggestions'
-
-*Tags: ['ai', 'ide', 'coding', 'code-generation', 'autocomplete'*
 
 ---
 
@@ -97,7 +58,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 > 476 tools · avg signal ⚡88
 
-### 3. [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 1. [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **CopilotKit serves as the presentation and interaction layer for AI agents, providing a robust SDK that bridges the gap between backend agent logic and frontend user interfaces. It utilizes the AG-UI (Agent-User Interaction) protocol to enable agents **
 
@@ -113,7 +74,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 4. [github/awesome-copilot](https://github.com/github/awesome-copilot)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 2. [github/awesome-copilot](https://github.com/github/awesome-copilot)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The 'awesome-copilot' repository curates various components—including specialized Agents that interact with MCP servers, standardized Instructions for consistent coding practices, self-contained Skills, Plugins bundling these elements, Hooks for auto**
 
@@ -129,7 +90,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 5. [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 3. [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **Oh My OpenAgent (omo) implements a sophisticated multi-agent system where a primary orchestrator, Sisyphus, delegates specialized tasks to worker agents like Hephaestus (deep execution) and Prometheus (strategic planning) across diverse LLM providers**
 
@@ -145,7 +106,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 6. [block/goose](https://github.com/block/goose)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 4. [block/goose](https://github.com/block/goose)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Goose evolves the developer experience from passive code suggestions to autonomous agentic workflows. Built primarily in Rust for high performance and safety, it operates as a local-first agent capable of writing, executing, and testing code within t**
 
@@ -161,7 +122,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 7. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
+### 5. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
 
 **Serena acts as a layer between Large Language Models (LLMs)/coding agents and the codebase, offering IDE-like tools such as semantic code retrieval and symbol-level editing. Its core interoperability mechanism is the Model Context Protocol (MCP) serv**
 
@@ -177,7 +138,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 8. [StartripAI/ideaClaw](https://github.com/StartripAI/ideaClaw)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 6. [StartripAI/ideaClaw](https://github.com/StartripAI/ideaClaw)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The StartripAI/ideaClaw project leverages advanced AI capabilities to streamline the development lifecycle by integrating code generation, security analysis, and automated workflows. It supports multiple coding styles and integrates with popular IDEs**
 
@@ -193,7 +154,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 9. [shinzo-labs/hubspot-mcp](https://github.com/shinzo-labs/hubspot-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 7. [shinzo-labs/hubspot-mcp](https://github.com/shinzo-labs/hubspot-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The HubSpot MCP (Model Context Protocol) server implementation provides a standardized API interface for accessing and managing HubSpot CRM data. It supports advanced features such as association management, batch operations, type-safe parameter vali**
 
@@ -209,7 +170,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 10. [utensils/mcp-nixos](https://github.com/utensils/mcp-nixos)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 8. [utensils/mcp-nixos](https://github.com/utensils/mcp-nixos)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP-NixOS project offers a minimalist, agent-driven server solution designed to deliver accurate, up-to-date information about NixOS packages, options, and system configurations. By leveraging the uvx or Docker tools, it enables seamless integrat**
 
@@ -225,7 +186,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 11. [trypeggy/facebook-ads-library-mcp](https://github.com/trypeggy/facebook-ads-library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 9. [trypeggy/facebook-ads-library-mcp](https://github.com/trypeggy/facebook-ads-library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Facebook Ads Library MCP Server is a Python-based integration that connects to Facebook's advertising platform via the ScrapeCreators API. It provides advanced analytics such as batch processing, video and image analysis, smart credit management,**
 
@@ -240,7 +201,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 12. [winor30/mcp-server-datadog](https://github.com/winor30/mcp-server-datadog)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 10. [winor30/mcp-server-datadog](https://github.com/winor30/mcp-server-datadog)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Borg Project provides a comprehensive developer platform aimed at modernizing software development through enhanced DevOps, CI/CD, and application security practices. It integrates advanced observability features such as incidents, monitors, logs**
 
@@ -256,7 +217,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 13. [assafelovic/gptr-mcp](https://github.com/assafelovic/gptr-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 11. [assafelovic/gptr-mcp](https://github.com/assafelovic/gptr-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The gptr-mcp project provides a Python-based MCP server designed to enhance LLM applications by facilitating deep web research. It allows developers to integrate advanced search capabilities directly into their workflows, leveraging the MCP protocol **
 
@@ -272,7 +233,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 14. [wanzunz/github_graphql_api_mcp](https://github.com/wanzunz/github_graphql_api_mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 12. [wanzunz/github_graphql_api_mcp](https://github.com/wanzunz/github_graphql_api_mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **This project provides a Python-based server that enables developers to interact with the GitHub GraphQL API using the Model Context Protocol (MCP). It allows AI assistants and developers to efficiently retrieve, analyze, and manipulate data from GitH**
 
@@ -288,7 +249,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 15. [markuspfundstein/mcp-gsuite](https://github.com/markuspfundstein/mcp-gsuite)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 13. [markuspfundstein/mcp-gsuite](https://github.com/markuspfundstein/mcp-gsuite)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The MCP-Gsuite project provides a powerful integration between the MCP server and Google GSuite, enabling developers to leverage advanced features such as Gmail and Calendar access within their applications. This integration supports modern DevOps pr**
 
@@ -303,7 +264,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 16. [disler/just-prompt](https://github.com/disler/just-prompt)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 14. [disler/just-prompt](https://github.com/disler/just-prompt)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The just-prompt MCP server acts as a centralized interface for integrating various large language model (LLM) providers such as OpenAI, Anthropic, Google Gemini, Groq, DeepSeek, and Ollama. It supports sending prompts to multiple models in parallel, **
 
@@ -319,7 +280,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 17. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
+### 15. [lingodotdev/lingo.dev](https://github.com/lingodotdev/lingo.dev)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers
 
 **The lingo.dev GitHub project provides an open-source localization engineering platform that integrates with Lingo.dev to enable consistent and high-quality translations across web applications. It supports multiple languages, including English, Chine**
 
@@ -335,7 +296,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 18. [jwalsh/mcp-server-qrcode](https://github.com/jwalsh/mcp-server-qrcode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 16. [jwalsh/mcp-server-qrcode](https://github.com/jwalsh/mcp-server-qrcode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The jwalsh/mcp-server-qrcode project provides a Model Context Protocol (MCP)-based server that enables seamless integration of large language models with QR code generation capabilities. It supports various output formats, customization options, and **
 
@@ -351,7 +312,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 19. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 17. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Borg Project's WordPress MCP Server is a robust platform designed to facilitate seamless integration between WordPress applications and AI assistants. It provides extensive functionality for managing users, posts, categories, comments, and custom**
 
@@ -367,7 +328,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 20. [isnow890/data4library-mcp](https://github.com/isnow890/data4library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 18. [isnow890/data4library-mcp](https://github.com/isnow890/data4library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The MCP (Model Context Protocol) server is designed to provide developers with a robust platform for integrating real-time library data from the National Central Library. It supports over 25 tools for efficient book/library search, trend monitoring, **
 
@@ -383,7 +344,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 21. [PayRam/payram-helper-mcp-server](https://github.com/PayRam/payram-helper-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 19. [PayRam/payram-helper-mcp-server](https://github.com/PayRam/payram-helper-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **This project provides a comprehensive solution for integrating Payram into existing applications by offering a self-hosted MCP server that simplifies agent deployment, payment handling, and real-time analytics. It supports multiple frameworks includi**
 
@@ -399,7 +360,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 22. [evalstate/mcp-hfspace](https://github.com/evalstate/mcp-hfspace)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 20. [evalstate/mcp-hfspace](https://github.com/evalstate/mcp-hfspace)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The Borg Project provides a comprehensive platform for modernizing software development through AI integration, offering tools for code generation, model deployment, secure coding, and automated workflows. It leverages Hugging Face's MCP (Machine Lea**
 
@@ -415,7 +376,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 23. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 21. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP Solver is a Python-based tool that integrates multiple constraint solving techniques (MiniZinc, PySAT, Z3, ASP) with large language models via the Model Context Protocol. It supports advanced problem domains such as SAT, SMT, and ASP, allowin**
 
@@ -431,7 +392,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 24. [stijn-meijers/dracor-mcp](https://github.com/stijn-meijers/dracor-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 22. [stijn-meijers/dracor-mcp](https://github.com/stijn-meijers/dracor-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The project provides a streamlined Python implementation of the Model Context Protocol (MCP) server, enabling developers to interact with the Drama Corpora Project (DraCor) API. It supports structured data models for corpora and plays, character netw**
 
@@ -447,7 +408,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 25. [SamMorrowDrums/remarkable-mcp](https://github.com/SamMorrowDrums/remarkable-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
+### 23. [SamMorrowDrums/remarkable-mcp](https://github.com/SamMorrowDrums/remarkable-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
 
 **The remarkable-mcp project provides a MCP server that allows Claude, VS Code Copilot, and other AI tools to access the full capabilities of a reMarkable tablet. It supports features such as full library access, text extraction from handwritten notes **
 
@@ -463,7 +424,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 26. [tago-io/mcp-server](https://github.com/tago-io/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 24. [tago-io/mcp-server](https://github.com/tago-io/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **The tago-io/mcp-server project enables developers to connect their TagoIO platform with various AI assistants and development environments. It supports remote server connectivity, device management, data analysis, code generation, and workflow automa**
 
@@ -479,7 +440,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 27. [openchamber/openchamber](https://github.com/openchamber/openchamber)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 25. [openchamber/openchamber](https://github.com/openchamber/openchamber)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **OpenChamber serves as a unified interface for developers to manage and deploy intelligent applications using OpenCode AI. It supports a wide range of features including code generation, GitHub integration, secure workflows, context-aware operations, **
 
@@ -495,7 +456,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 28. [wesm/agentsview](https://github.com/wesm/agentsview)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗4 layers
+### 26. [wesm/agentsview](https://github.com/wesm/agentsview)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗4 layers
 
 **Borg integrates with multiple AI coding agents to provide real-time insights into developer activity, token usage, and cost tracking. It offers a local-first approach by syncing sessions into an SQLite database and displaying data via a web UI. Key f**
 
@@ -511,7 +472,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 29. [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules/blob/master/.github/copilot-instructions.md)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 27. [grapeot/devin.cursorrules](https://github.com/grapeot/devin.cursorrules/blob/master/.github/copilot-instructions.md)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This resource defines a sophisticated workflow for AI agents (specifically Cursor and GitHub Copilot) by leveraging a markdown-based state machine. It implements a 'Scratchpad' for real-time task decomposition and progress tracking, and a 'Lessons' s**
 
@@ -527,7 +488,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 30. [kaitranntt/ccs](https://github.com/kaitranntt/ccs)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 28. [kaitranntt/ccs](https://github.com/kaitranntt/ccs)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **CCS functions as a middleware layer that abstracts the complexity of disparate AI provider APIs and authentication schemes. It utilizes CLIProxyAPI and OAuth flows to handle credentials for providers such as Google Gemini, GitHub Copilot, and AWS Kir**
 
@@ -543,7 +504,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 31. [Chat2AnyLLM/code-assistant-manager](https://github.com/Chat2AnyLLM/code-assistant-manager)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 29. [Chat2AnyLLM/code-assistant-manager](https://github.com/Chat2AnyLLM/code-assistant-manager)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The project addresses the fragmentation caused by managing numerous AI coding assistants (like Claude, Gemini, Copilot, etc.) by providing a single command-line interface (CLI) wrapper called 'cam'. It unifies configuration through centralized `provi**
 
@@ -559,7 +520,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 32. [sst/opencode](https://github.com/sst/opencode)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 30. [sst/opencode](https://github.com/sst/opencode)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **OpenCode implements a client/server architecture that supports multiple built-in agents (like 'build' for execution and 'plan' for read-only analysis) and allows users to switch between them easily via a TUI. Its primary technical focus is on facilit**
 
@@ -575,7 +536,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 33. [just-every/code](https://github.com/just-every/code)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 31. [just-every/code](https://github.com/just-every/code)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Every Code (formerly a Codex CLI fork) implements a sophisticated orchestration layer known as 'Auto Drive' that manages multi-step autonomous tasks with self-healing capabilities. It distinguishes itself by using a multi-agent consensus approach whe**
 
@@ -591,7 +552,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 34. [charmbracelet/crush](https://github.com/charmbracelet/crush)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 32. [charmbracelet/crush](https://github.com/charmbracelet/crush)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **Crush is designed as an in-terminal coding assistant, focusing heavily on the developer experience (UX). It achieves 'glamorous agentic coding' by seamlessly wiring the user's existing tools, code, and workflows into a choice of Large Language Models**
 
@@ -607,7 +568,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 35. [gemini-cli-extensions/postgres](https://github.com/gemini-cli-extensions/postgres)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 33. [gemini-cli-extensions/postgres](https://github.com/gemini-cli-extensions/postgres)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The gemini-cli-extensions/postgres repository details a specific extension for the Gemini CLI that bridges the gap between natural language interaction and PostgreSQL database management. It leverages the Gemini CLI's extension framework to offer too**
 
@@ -623,7 +584,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 36. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/everart)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 34. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/everart)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project provides a modular and scalable architecture for deploying image generation services using the EverArt API. It leverages Docker to containerize the application, ensuring consistent environments across development, testing, and production**
 
@@ -639,7 +600,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 37. [amidabuddha/unichat-mcp-server](https://github.com/amidabuddha/unichat-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 35. [amidabuddha/unichat-mcp-server](https://github.com/amidabuddha/unichat-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a Python implementation of the Unichat MCP (Message Control Protocol) server, allowing developers to deploy and manage interactions between their applications and external AI services. It supports secure communication using the M**
 
@@ -655,7 +616,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 38. [amidabuddha/unichat-ts-mcp-server](https://github.com/amidabuddha/unichat-ts-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 36. [amidabuddha/unichat-ts-mcp-server](https://github.com/amidabuddha/unichat-ts-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The Unichat TSCM Server project provides a TypeScript-based server implementation that facilitates communication with external AI models using the MCP (Multi-Protocol Communication) protocol. It supports automated code review by analyzing code change**
 
@@ -671,7 +632,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 39. [janvarev/mcp-vsepgt-server](https://github.com/janvarev/mcp-vsepgt-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 37. [janvarev/mcp-vsepgt-server](https://github.com/janvarev/mcp-vsepgt-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The project provides a modular Python server (mcp-vsepgt-server) that facilitates interaction between language models and external systems via the Model Context Protocol (MCP). It supports dynamic activation of model functionalities, integrates with **
 
@@ -687,7 +648,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 40. [ognis1205/mcp-server-unitycatalog](https://github.com/ognis1205/mcp-server-unitycatalog)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 38. [ognis1205/mcp-server-unitycatalog](https://github.com/ognis1205/mcp-server-unitycatalog)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ognis1205/mcp-server-unitycatalog project provides a Unity Catalog Model Context Protocol Server, allowing developers to integrate AI models into Unity projects via MCP (Model Context Protocol). This tool supports dynamic registration and managem**
 
@@ -703,7 +664,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 41. [markuspfundstein/mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 39. [markuspfundstein/mcp-obsidian](https://github.com/markuspfundstein/mcp-obsidian)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP-obsidian project provides a GitHub-hosted Obsidian REST API server that allows developers to interact with Obsidian using the Obsidian community plugin. This integration supports advanced features such as file management, code review, securit**
 
@@ -719,7 +680,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 42. [xeroapi/xero-mcp-server](https://github.com/xeroapi/xero-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 40. [xeroapi/xero-mcp-server](https://github.com/xeroapi/xero-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The XeroAPI/xero-mcp-server is a model context protocol (MCP) server designed to bridge the gap between the MCP protocol and Xero's API. It enables seamless integration for businesses looking to leverage Xero's accounting functionalities through stan**
 
@@ -735,7 +696,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 43. [leehanchung/bing-search-mcp](https://github.com/leehanchung/bing-search-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 41. [leehanchung/bing-search-mcp](https://github.com/leehanchung/bing-search-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The leehanchung/bing-search-mcp project provides a GitHub-hosted MCP server that allows developers to integrate Microsoft Bing Search API into their applications. It supports advanced search functionalities such as web, news, and image searches with **
 
@@ -751,7 +712,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 44. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 42. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS qu**
 
@@ -767,7 +728,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 45. [casualgenius/mcp-servers](https://github.com/casualgenius/mcp-servers/tree/HEAD/servers/words)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 43. [casualgenius/mcp-servers](https://github.com/casualgenius/mcp-servers/tree/HEAD/servers/words)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg Project's 'mcp-servers' repository provides a comprehensive suite of tools designed to enhance the capabilities of language models and AI assistants. It offers functionalities such as defining words, retrieving definitions, generating synony**
 
@@ -783,7 +744,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 46. [bradfair/mcp-cline-personas](https://github.com/bradfair/mcp-cline-personas)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 44. [bradfair/mcp-cline-personas](https://github.com/bradfair/mcp-cline-personas)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project provides a centralized MCP (Managed Component Platform) solution that enables teams to efficiently manage and deploy reusable software components and persona templates via a unified interface. By leveraging shared components, it streamli**
 
@@ -799,7 +760,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 47. [matmax-worldwide/payloadcmsmcp](https://github.com/matmax-worldwide/payloadcmsmcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 45. [matmax-worldwide/payloadcmsmcp](https://github.com/matmax-worldwide/payloadcmsmcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Payload CMS 3.0 MCP Server exposes a set of MCP tools that allow AI-powered development environments (e.g., Cursor) to validate Payload CMS code, generate templates for collections, fields, hooks, endpoints, and more, and scaffold full project st**
 
@@ -815,7 +776,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 48. [chakotay-lee/mcp-source-server](https://github.com/chakotay-lee/mcp-source-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 46. [chakotay-lee/mcp-source-server](https://github.com/chakotay-lee/mcp-source-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Chakotay-Lee MCP Source Server is an open-source project designed to enhance developer productivity by integrating advanced AI capabilities into the traditional MCP (Maintainable Code Project) workflow. It provides a centralized environment for r**
 
@@ -831,7 +792,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 49. [gitcarrot/mcp-server-aws-cognito](https://github.com/gitcarrot/mcp-server-aws-cognito)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 47. [gitcarrot/mcp-server-aws-cognito](https://github.com/gitcarrot/mcp-server-aws-cognito)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The gitCarrot/mcp-server-aws-cognito project provides a Node.js-based MCP server that integrates with AWS Cognito to handle user authentication flows such as sign-up, sign-in, password management, and more. It supports enterprise-grade security featu**
 
@@ -847,7 +808,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 50. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 48. [rember/rember-mcp](https://github.com/rember/rember-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The rember-mcp project provides a Model Context Protocol (MCP) server designed to integrate with Rember, a spaced repetition flashcard tool. This integration enables users to create and manage flashcards directly from their interactions with Claude D**
 
@@ -863,7 +824,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 51. [opticayaan/cat-facts-mcp](https://github.com/opticayaan/cat-facts-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 49. [opticayaan/cat-facts-mcp](https://github.com/opticayaan/cat-facts-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The 'cat-facts-mcp' project provides a GitHub-based application that allows users to automate the execution of commands to fetch cat-related information from an MCP (Machine-to-Machine) protocol. It leverages GitHub Actions and VSCode integrations to**
 
@@ -879,7 +840,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 52. [Aman-Amith-Shastry/scientific_computation_mcp](https://github.com/Aman-Amith-Shastry/scientific_computation_mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 50. [Aman-Amith-Shastry/scientific_computation_mcp](https://github.com/Aman-Amith-Shastry/scientific_computation_mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a GitHub-based scientific computation environment focused on MCP (Machine Learning Compute Platform) integration. It offers tools for tensor management, matrix operations, tensor decomposition, linear algebra functions, gradient**
 
@@ -895,7 +856,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 53. [iptv-org/awesome-iptv?tab=readme-ov-file#windows](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 51. [iptv-org/awesome-iptv?tab=readme-ov-file#windows](https://github.com/iptv-org/awesome-iptv?tab=readme-ov-file)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This resource provides a comprehensive overview of various software, platforms, and services related to IPTV streaming. It covers a wide range of tools from open-source players like IPTVnator, VidGrid, and IPTV Smarter Player to enterprise-grade solu**
 
@@ -911,7 +872,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 54. [officemcp/officemcp](https://github.com/officemcp/officemcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 52. [officemcp/officemcp](https://github.com/officemcp/officemcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **OfficeMCP is an AI-powered server designed to automate the execution of Microsoft Office applications via COM interfaces. It supports a wide range of productivity tools including Word, Excel, PowerPoint, Access, OneNote, Visio, Project, WPS, and more**
 
@@ -925,7 +886,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 55. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
+### 53. [richard-weiss/mcp-google-cse](https://github.com/richard-weiss/mcp-google-cse)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
 
 **The mcp-google-cse project provides a custom search engine that integrates with Google's CSE, allowing AI models like Claude to perform deep searches using structured query parameters. It is designed to enhance developer workflows by combining LLM ca**
 
@@ -941,7 +902,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 56. [ujisati/anki-mcp](https://github.com/ujisati/anki-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 54. [ujisati/anki-mcp](https://github.com/ujisati/anki-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ujisati/anki-mcp project provides a GitHub-hosted MCP (Model Context Protocol) server that integrates with AnkiConnect, allowing developers to automate and orchestrate Anki flashcard interactions programmatically. It supports various MCP tools su**
 
@@ -956,7 +917,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 57. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 55. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The wazionapps/mcp-server project enables integration of AI-powered chatbots with WhatsApp using the WAzion API. It provides a suite of tools for automating customer interactions, managing workflows, and enhancing marketing campaigns through intellig**
 
@@ -971,7 +932,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 58. [gpaul-faldin/mcp_puppeteer_extra](https://github.com/gpaul-faldin/mcp_puppeteer_extra)  `9.1` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 56. [gpaul-faldin/mcp_puppeteer_extra](https://github.com/gpaul-faldin/mcp_puppeteer_extra)  `9.1` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The MCP_puppeteer_extra project provides a robust solution for browser automation by integrating Puppeteer-Extra and the stealth plugin. This enables LLMs to interact with web pages in a manner that closely mimics human user behavior, thereby reducin**
 
@@ -987,7 +948,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 59. [gemini-cli-extensions/firebase](https://github.com/gemini-cli-extensions/firebase)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 57. [gemini-cli-extensions/firebase](https://github.com/gemini-cli-extensions/firebase)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The resource describes the 'firebase' extension for the Gemini CLI, which acts as an interface layer connecting the general-purpose Gemini AI model to specific Firebase backend services. It enables developers to use natural language commands within t**
 
@@ -1002,7 +963,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 60. [vladimir-kotikov/clink-completions](https://github.com/vladimir-kotikov/clink-completions)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 58. [vladimir-kotikov/clink-completions](https://github.com/vladimir-kotikov/clink-completions)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The clink-completions project provides a set of Lua-based completion scripts for the Clink util library, designed to improve developer productivity by offering intelligent code suggestions during coding sessions. These scripts are integrated into the**
 
@@ -1017,7 +978,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 61. [nailuogg/aliyun-mcp-server](https://github.com/nailuogg/aliyun-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 59. [nailuogg/aliyun-mcp-server](https://github.com/nailuogg/aliyun-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Aliun MCP Server is an open-source tool designed to simplify interaction with Alibaba Cloud (AiCloud) services. It provides a comprehensive set of tools for developers to build, test, and deploy serverless functions, manage ECS instances, and int**
 
@@ -1032,7 +993,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 62. [shenghaiwang/xcodebuild](https://github.com/shenghaiwang/xcodebuild)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 60. [shenghaiwang/xcodebuild](https://github.com/shenghaiwang/xcodebuild)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The ShenghaiWang/xcodebuild project provides a MCP (Model Compilation) tool designed to streamline the process of building Xcode iOS workspaces and projects. It facilitates seamless integration with Visual Studio Code, enabling developers to leverage**
 
@@ -1047,7 +1008,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 63. [lucasoeth/mitmproxy-mcp](https://github.com/lucasoeth/mitmproxy-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 61. [lucasoeth/mitmproxy-mcp](https://github.com/lucasoeth/mitmproxy-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The lucasoeth/mitmproxy-mcp project provides a GitHub-hosted proxy solution that enables developers to capture, inspect, and analyze HTTP/HTTPS traffic in real time. It leverages MCP (Multi-Protocol Client) to establish connections and intercept data**
 
@@ -1062,7 +1023,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 64. [sheshiyer/git-mcp-v2](https://github.com/sheshiyer/git-mcp-v2)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 62. [sheshiyer/git-mcp-v2](https://github.com/sheshiyer/git-mcp-v2)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Sheshiyer/git-mcp-v2 project provides a Git client tailored for AI development environments, enabling seamless integration with GitHub and other platforms. It supports core Git functionalities such as repository management, branch handling, commi**
 
@@ -1077,7 +1038,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 65. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 63. [lizthedeveloper/terminal-mcp-idk](https://github.com/lizthedeveloper/terminal-mcp-idk)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The 'terminal-mcp-idk' project provides a GitHub-based platform for developers to manage code reviews, security checks, infrastructure integration, and workflow automation. It emphasizes secure development practices, enterprise-grade security feature**
 
@@ -1092,7 +1053,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 66. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 64. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The folderr-mcp-server is a model context protocol (MCP) server designed to facilitate seamless integration between developers and Folderr's AI assistant tools. It provides a structured interface for managing authentication, interacting with Folderr **
 
@@ -1107,7 +1068,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 67. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 65. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The nikolausm/huggingface-mcp-server project provides a robust MCP (Model Context Protocol) server that facilitates seamless access to Hugging Face's AI models, such as Stable Diffusion. It supports various use cases including code generation, image **
 
@@ -1122,7 +1083,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 68. [pinion05/supabase-mcp-lite](https://github.com/pinion05/supabase-mcp-lite)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 66. [pinion05/supabase-mcp-lite](https://github.com/pinion05/supabase-mcp-lite)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project offers a minimal Supabase MCP (MongoDB Compass) client designed to reduce context usage and complexity compared to standard implementations. It supports essential operations with simple parameters, enabling quick setup and integration in**
 
@@ -1137,7 +1098,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 69. [youdotcom-oss/dx-toolkit](https://github.com/youdotcom-oss/dx-toolkit)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 67. [youdotcom-oss/dx-toolkit](https://github.com/youdotcom-oss/dx-toolkit)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg Project's 'dx-toolkit' is an open-source platform designed to help developers incorporate AI-driven functionalities from You.com into their applications. It provides a comprehensive suite of tools and integrations, including CLI utilities, p**
 
@@ -1152,7 +1113,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 70. [singlestore-labs/mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
+### 68. [singlestore-labs/mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Singlestore MCP Server is a Python-based application that enables seamless interaction between large language models (LLMs) and external systems like SingleStore via the MCP protocol. It provides a user-friendly interface for executing complex op**
 
@@ -1168,7 +1129,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 71. [postmanlabs/postman-mcp-server](https://github.com/postmanlabs/postman-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
+### 69. [postmanlabs/postman-mcp-server](https://github.com/postmanlabs/postman-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Postman MCP Server enables seamless integration of AI agents with Postman's API testing, collections, environments, and code generation features. It supports advanced use cases such as remote server access, OAuth authentication, and workflow auto**
 
@@ -1184,7 +1145,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 72. [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗3 layers
+### 70. [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The kocierik/mcp-nomad project provides a Node.js-based MCP server that integrates with the Nomad MCP protocol to automate the management of virtual machines. It supports various deployment options including Docker, cloud environments, and manual ins**
 
@@ -1200,7 +1161,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 73. [clpublic/mcp-server-cloudbrowser](https://github.com/clpublic/mcp-server-cloudbrowser)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
+### 71. [clpublic/mcp-server-cloudbrowser](https://github.com/clpublic/mcp-server-cloudbrowser)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The clpublic/mcp-server-cloudbrowser project provides a cloud-based solution for developers to build, test, and deploy AI-driven applications using modern DevOps practices. It integrates advanced security features, automated workflows, and seamless i**
 
@@ -1216,7 +1177,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 74. [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 72. [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg Project's opengenes-mcp server implements the Model Context Protocol (MCP) to provide structured access to OpenGenes biomedical datasets. It supports automated code reviews, secure development workflows, and integration with AI assistants li**
 
@@ -1231,7 +1192,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 75. [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 73. [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project offers a highly configurable prompt engine designed to be platform-agnostic and efficient, enabling developers to tailor their workflow automation tools with minimal latency. It supports integration across various shells and operating sys**
 
@@ -1246,7 +1207,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 76. [AbanteAI/vscode](https://github.com/AbanteAI/vscode)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗1 layers
+### 74. [AbanteAI/vscode](https://github.com/AbanteAI/vscode)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The resource points to a fork of the official Microsoft Visual Studio Code source repository ('Code - OSS'). VS Code itself is a highly influential developer tool providing a rich code editor, debugging, and a vast extensibility model. While this spe**
 
@@ -1262,7 +1223,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 77. [RaiAnsar/claude_code-gemini-mcp](https://github.com/RaiAnsar/claude_code-gemini-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 75. [RaiAnsar/claude_code-gemini-mcp](https://github.com/RaiAnsar/claude_code-gemini-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This repository provides a solution to connect Claude Code with Google's Gemini AI. It sets up an MCP server that bridges Claude Code and Gemini, allowing users to ask Gemini questions, get code reviews, and brainstorm ideas within the Claude Code en**
 
@@ -1278,7 +1239,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 78. [myblockcities/mcp-server-heroku](https://github.com/myblockcities/mcp-server-heroku)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 76. [myblockcities/mcp-server-heroku](https://github.com/myblockcities/mcp-server-heroku)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a server template based on the MCP Server Template, designed to be used within the MyBlockcities Borg environment. It supports integration with AI tools like Copilot for Business and offers features such as automated workflows, **
 
@@ -1294,7 +1255,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 79. [tylerstoltz/mcp-odbc](https://github.com/tylerstoltz/mcp-odbc)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 77. [tylerstoltz/mcp-odbc](https://github.com/tylerstoltz/mcp-odbc)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The MCP server acts as a secure intermediary, allowing AI-powered applications such as Claude Desktop to connect to and analyze data from various ODBC-compatible databases. It provides robust security features, including read-only safeguards, detaile**
 
@@ -1310,7 +1271,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 80. [v9rt3x/cs2-rcon-mcp](https://github.com/v9rt3x/cs2-rcon-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 78. [v9rt3x/cs2-rcon-mcp](https://github.com/v9rt3x/cs2-rcon-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The v9rt3x/cs2-rcon-mcp project provides a Model Context Protocol (MCP) server tool designed to simplify the management of Counter-Strike 2 servers using RCON. It enables users to execute server commands through natural language, manage workshop maps**
 
@@ -1326,7 +1287,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 81. [vectara/vectara-mcp](https://github.com/vectara/vectara-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 79. [vectara/vectara-mcp](https://github.com/vectara/vectara-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The vectara-mcp project provides an open-source MCP (Model Context Protocol) server designed to facilitate seamless interaction between AI systems and various data sources. It supports secure authentication, real-time streaming, and integration with **
 
@@ -1342,7 +1303,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 82. [jguimera/securitycopilotmcpserver](https://github.com/jguimera/securitycopilotmcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 80. [jguimera/securitycopilotmcpserver](https://github.com/jguimera/securitycopilotmcpserver)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The SecurityCopilotMCPServer project provides a Python-based MCP server that integrates with Microsoft Security Copilot and Sentinel. It enhances the process of developing, testing, and uploading Security Copilot skillsets and plugins by acting as a **
 
@@ -1358,7 +1319,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 83. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
+### 81. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
 
 **This project provides a context-aware, API-driven MCP server built on Apache Superset REST API, designed to enhance data query capabilities through large models. It supports secure authentication via LDAP, integrates with Node.js, and offers enterpri**
 
@@ -1374,7 +1335,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 84. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 82. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a Model Context Protocol (MCP) server that enables developers to access component properties and design tokens via the getComponentProps and getTokens functions. It supports token generation using Style Dictionary, allowing dynam**
 
@@ -1390,7 +1351,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 85. [happyzym/mcp-server-reposearch](https://github.com/happyzym/mcp-server-reposearch)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 83. [happyzym/mcp-server-reposearch](https://github.com/happyzym/mcp-server-reposearch)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Astricaelus/mcp-server-reposearch project provides a GitHub-based platform that improves upon Cline's search_files functionality by integrating .reposearchignore and .gitignore files for more granular content filtering. It supports regular expres**
 
@@ -1406,7 +1367,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 86. [SnippetSquid/SemanticScholarMCP](https://github.com/SnippetSquid/SemanticScholarMCP)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 84. [SnippetSquid/SemanticScholarMCP](https://github.com/SnippetSquid/SemanticScholarMCP)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg Project's Semantic Scholar MCP repository provides a suite of tools designed to streamline the software development lifecycle. It includes features such as paper and author searches, citation analysis, PDF metadata management, and code revie**
 
@@ -1422,7 +1383,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 87. [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server/tree/main/src)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 85. [antonorlov/mcp-postgres-server](https://github.com/antonorlov/mcp-postgres-server/tree/main/src)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a modular PostgreSQL server with integrated developer tools, workflow automation, and advanced security mechanisms. It supports seamless integration of external services, offers robust code review and deployment capabilities, and**
 
@@ -1438,7 +1399,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 88. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 86. [kevint-cerebras/cerebras-code-mcp](https://github.com/kevint-cerebras/cerebras-code-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Cerebras Code MCP project provides an AI-powered coding environment that leverages the Qwen 3 Coder model for high-quality code generation. It integrates seamlessly with tools like Claude Code, Cline, and Cursor, enabling developers to plan, modi**
 
@@ -1454,7 +1415,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 89. [ashdevfr/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 87. [ashdevfr/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The AshDevFr/discourse-mcp-server project provides a Node.js implementation of the MCP protocol, allowing developers to integrate Discourse forums into applications securely. It supports search functionality by interacting with Discourse's API, ensur**
 
@@ -1469,7 +1430,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 90. [syndicats/openregister-mcp](https://github.com/syndicats/openregister-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
+### 88. [syndicats/openregister-mcp](https://github.com/syndicats/openregister-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Syndicats/openregister-mcp project provides a lightweight MCP (Model-Centric Programming) server that allows developers to interact with the OpenRegister API in Germany. It supports searching companies by various criteria such as name, register n**
 
@@ -1484,7 +1445,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 91. [waynecui/wireshark_mcp](https://github.com/waynecui/wireshark_mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 89. [waynecui/wireshark_mcp](https://github.com/waynecui/wireshark_mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Python-based Wireshark MCP (Model Context Protocol) server that facilitates secure, real-time packet capture and analysis. It supports integration with Wireshark and tshark tools, offering features such as command-line utilitie**
 
@@ -1499,7 +1460,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 92. [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 90. [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The sooperset/mcp-atlassian project provides a MCP (Model, Context, Protocol) server tailored for Atlassian products such as Confluence and Jira. It supports both cloud and on-premise deployments, offering features like workflow automation, code revi**
 
@@ -1514,7 +1475,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 93. [arclio/github-projects-mcp](https://github.com/arclio/github-projects-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
+### 91. [arclio/github-projects-mcp](https://github.com/arclio/github-projects-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
 
 **The Arclio GitHub Projects MCP server provides a centralized platform to interact with GitHub Projects V2 using the GraphQL API. It supports key operations such as listing projects, creating issues, updating fields, and managing drafts, all while int**
 
@@ -1529,7 +1490,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 94. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 92. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The Trinity MCP project provides a comprehensive GitHub-based solution for enterprise teams to streamline their software development lifecycle. It integrates advanced developer tools such as GitHub Copilot, Code Review Management, and automated workf**
 
@@ -1544,7 +1505,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 95. [thedaviddias/mcp-llms-txt-explorer](https://github.com/thedaviddias/mcp-llms-txt-explorer)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers 📍
+### 93. [thedaviddias/mcp-llms-txt-explorer](https://github.com/thedaviddias/mcp-llms-txt-explorer)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The MCP LLMS Txt Explorer is a GitHub-based application designed to help developers and security professionals identify, validate, and analyze websites that utilize the llms.txt standard. It enables users to parse and verify compliance with this form**
 
@@ -1559,7 +1520,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 96. [bsmr/OpenRouterTeam---awesome-openrouter](https://github.com/bsmr/OpenRouterTeam---awesome-openrouter)  `10.0` ★★★ ⚡91.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 94. [bsmr/OpenRouterTeam---awesome-openrouter](https://github.com/bsmr/OpenRouterTeam---awesome-openrouter)  `10.0` ★★★ ⚡91.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **The Borg Project intelligence database includes an extensive collection of apps and tools designed to work seamlessly with OpenRouter, providing access to over 300 AI models through a single API. This resource serves as a valuable reference for devel**
 
@@ -1575,7 +1536,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 97. [199-mcp/mcp-zen](https://github.com/199-mcp/mcp-zen)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 95. [199-mcp/mcp-zen](https://github.com/199-mcp/mcp-zen)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **Zen MCP Server gives Claude Desktop access to multiple AI models for: 🧠 Extended reasoning with Gemini 2.0 Pro's thinking mode 💬 Collaborative development with multiple AI perspectives 🔍 Code review and architectural analysis 🐛 Advanced debugging wit**
 
@@ -1591,7 +1552,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 98. [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 96. [RooCodeInc/Roo-Code](https://github.com/RooCodeInc/Roo-Code)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Roo Code is an AI-powered development tool that offers a whole dev team of AI agents within your code editor. It includes various modes (Code, Architect, Ask, Debug) and custom modes, allowing users to generate code from natural language descriptions**
 
@@ -1607,7 +1568,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 99. [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 97. [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Borg Project's MCP Server provides a secure, read-only interface to Hugging Face's model and dataset resources. It supports context management, prompt-based interactions, and integrates with tools like Copilot and SparkBuild for intelligent app d**
 
@@ -1623,7 +1584,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 100. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 98. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The wrediam/coolify-mcp-server is a GitHub-hosted server designed to facilitate the integration of Coolify's API with MCP (Messaging Control Protocol) tools. It provides a command-line interface for managing servers, projects, environments, and deplo**
 
@@ -1639,7 +1600,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 101. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 99. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **kubectl-mcp-server is an AI-powered Kubernetes management platform designed to streamline operations such as pod monitoring, deployment, cost optimization, security auditing, and dashboard visualization. It leverages natural language conversations wi**
 
@@ -1655,7 +1616,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 102. [kludge-works/mcp-server-rdf](https://github.com/kludge-works/mcp-server-rdf)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 100. [kludge-works/mcp-server-rdf](https://github.com/kludge-works/mcp-server-rdf)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The kludgeworks/mcp-server-rdf project provides a MCP (Mule Cloud Platform) server that allows users to execute SPARQL queries against RDF-based datastores. It integrates with GitHub Actions and supports automated workflows, CI/CD pipelines, and ente**
 
@@ -1671,7 +1632,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 103. [ualusham/mcp-github](https://github.com/ualusham/mcp-github)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 101. [ualusham/mcp-github](https://github.com/ualusham/mcp-github)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a GitHub-based MCP server that allows models like Claude to communicate with the MCP server and interact with the GitHub API. It supports key integration features such as creating issues, retrieving repository info, searching re**
 
@@ -1687,7 +1648,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 104. [samefarrar/mcp-ankiconnect](https://github.com/samefarrar/mcp-ankiconnect)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 102. [samefarrar/mcp-ankiconnect](https://github.com/samefarrar/mcp-ankiconnect)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcp-ankiconnect project provides a developer platform that facilitates the connection between MCP (Microsoft Cloud Platform) and AnkiConnect, allowing users to automate workflows, manage code changes, and integrate external tools. It supports ent**
 
@@ -1703,7 +1664,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 105. [adiom-data/grpcmcp](https://github.com/adiom-data/grpcmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 103. [adiom-data/grpcmcp](https://github.com/adiom-data/grpcmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The adiom-data/grpcmcp project provides a gRPC server implementation that acts as an intermediary between client applications and a backend service. It supports secure communication using gRPC, SSE, and A2A protocols, with features like code generati**
 
@@ -1719,7 +1680,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 106. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 104. [gnosis23/findrepo-mcp-server](https://github.com/gnosis23/findrepo-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project provides a GitHub-based server application that enables developers to analyze and understand code repositories using advanced analysis tools. It supports features such as repository scanning, code review management, security vulnerabilit**
 
@@ -1735,7 +1696,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 107. [tejpalvirk/project](https://github.com/tejpalvirk/project)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 105. [tejpalvirk/project](https://github.com/tejpalvirk/project)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Project MCP Server is designed to provide a comprehensive platform for managing project knowledge graphs. It supports session management, task dependencies, milestone tracking, resource allocation, risk assessment, and decision logging. The serve**
 
@@ -1751,7 +1712,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 108. [riii111/researchmcp](https://github.com/riii111/researchmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 106. [riii111/researchmcp](https://github.com/riii111/researchmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ResearchMCP project leverages Deno and Hono to build a multi-search API aggregator server. It integrates Brave Search, Tavily Search, and other APIs to provide comprehensive research capabilities, aiming to match or exceed the performance of AI m**
 
@@ -1767,7 +1728,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 109. [priyankark/lighthouse-mcp](https://github.com/priyankark/lighthouse-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 107. [priyankark/lighthouse-mcp](https://github.com/priyankark/lighthouse-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Borg Project's lighthouse-mcp repository provides a web-based interface for running comprehensive Lighthouse audits on any URL. It allows integration with AI assistants like Claude to analyze performance metrics and automatically suggest optimiza**
 
@@ -1783,7 +1744,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 110. [fefergrgrgrg/cs-wallet](https://github.com/fefergrgrgrg/cs-wallet)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 108. [fefergrgrgrg/cs-wallet](https://github.com/fefergrgrgrg/cs-wallet)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The 'Borg' Project is a cryptocurrency wallet solution built on the common blockchain framework. It aims to provide users with a secure and efficient means of managing digital assets through an intuitive interface. The project emphasizes automation, **
 
@@ -1799,7 +1760,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 111. [henihaddad/gcp-mcp](https://github.com/henihaddad/gcp-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 109. [henihaddad/gcp-mcp](https://github.com/henihaddad/gcp-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The henihaddad/gcp-mcp project provides a GitHub-based platform that integrates with GitHub Copilot to enhance developer productivity. It enables developers to create, manage, and deploy intelligent applications by leveraging AI-driven code suggestio**
 
@@ -1814,7 +1775,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 112. [flux159/mcp-server-modal](https://github.com/flux159/mcp-server-modal)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 110. [flux159/mcp-server-modal](https://github.com/flux159/mcp-server-modal)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The Flux159/mcp-server-modal project provides an MCP Server that allows users to deploy, manage, and execute Python scripts in a secure and scalable environment. It integrates with modern development workflows, supports CI/CD pipelines, and offers fe**
 
@@ -1829,7 +1790,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 113. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 111. [stefanoamorelli/sec-edgar-mcp](https://github.com/stefanoamorelli/sec-edgar-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The sec-edgar-mcp project provides a model context protocol server that enables seamless integration with SEC EDGAR filings, financial statements, and insider trading data. It leverages AI-driven assistants to enhance developer workflows, supports en**
 
@@ -1844,7 +1805,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 114. [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 112. [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Python-based MCP (Minecraft Chess Player) server that allows users to play chess against AI or other players via the command line. It includes tools for visualizing board states, making moves, analyzing positions in PGN format,**
 
@@ -1859,7 +1820,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 115. [nanahiryu/notion-mcp-server](https://github.com/nanahiryu/notion-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 113. [nanahiryu/notion-mcp-server](https://github.com/nanahiryu/notion-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The nanahiryu/notion-mcp-server project provides a GitHub-hosted server that enables developers to securely interact with Notion's API using the MCP protocol. It supports a wide range of Notion functionalities such as block manipulation, page operati**
 
@@ -1874,7 +1835,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 116. [jerpint/paperpal](https://github.com/jerpint/paperpal)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 114. [jerpint/paperpal](https://github.com/jerpint/paperpal)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP server integrates with external tools like arXiv and Hugging Face, providing LLMs access to a vast repository of research papers. It supports natural language interactions for tasks such as discussing papers, organizing ideas for literature r**
 
@@ -1889,7 +1850,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 117. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 115. [lincest/mcp-papersearch](https://github.com/lincest/mcp-papersearch)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Lincest/mcp-papersearch project provides a web interface that enables users to search academic papers from ArXiv using the Model Context Protocol (MCP). This allows for seamless integration of external research sources into development workflows,**
 
@@ -1904,7 +1865,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 118. [namiraprita/polyglot-mcp](https://github.com/namiraprita/polyglot-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 116. [namiraprita/polyglot-mcp](https://github.com/namiraprita/polyglot-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a standardized approach to handling translation services through the MCP protocol, enabling seamless integration across various domains such as legal, medical, and general. It supports multiple languages and allows customization **
 
@@ -1919,7 +1880,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 119. [mfukushim/map-traveler-mcp](https://github.com/mfukushim/map-traveler-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 117. [mfukushim/map-traveler-mcp](https://github.com/mfukushim/map-traveler-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The mfukushim/map-traveler-mcp project provides a comprehensive library of functions and tools for managing virtual travelers within the MCP platform. It supports various functionalities such as setting traveler locations, generating travel images us**
 
@@ -1934,7 +1895,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 120. [kinshukk/book-fetch-mcp](https://github.com/kinshukk/book-fetch-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 118. [kinshukk/book-fetch-mcp](https://github.com/kinshukk/book-fetch-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The kinshukk/book-fetch-mcp project enables developers to fetch and process published books directly through MCP (Machine-to-Paper). It leverages GitHub Copilot for intelligent code generation, integrates seamlessly with Claude for advanced RAG capab**
 
@@ -1949,7 +1910,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 121. [evangstav/personal-mcp](https://github.com/evangstav/personal-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 119. [evangstav/personal-mcp](https://github.com/evangstav/personal-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The evangstav/personal-mcp project offers a comprehensive developer platform for modernizing enterprise software workflows. It provides tools for managing code changes, automating workflows, securing applications, and integrating external systems. Wi**
 
@@ -1964,7 +1925,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 122. [sanity-io/sanity-mcp-server](https://github.com/sanity-io/sanity-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 120. [sanity-io/sanity-mcp-server](https://github.com/sanity-io/sanity-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **This project provides a local MCP (Managed Code Platform) server that enables teams to streamline software development processes by automating code review, pull request management, and continuous integration/continuous deployment (CI/CD) workflows. I**
 
@@ -1979,7 +1940,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 123. [fewsats/sherlock-mcp](https://github.com/fewsats/sherlock-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 121. [fewsats/sherlock-mcp](https://github.com/fewsats/sherlock-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The Sherlock Domains MCP Server is designed to streamline the process of buying, managing, and magnifying domains. It provides a centralized platform for developers to automate workflows, integrate external tools, and maintain secure environments for**
 
@@ -1994,7 +1955,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 124. [posthog/mcp](https://github.com/posthog/mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 122. [posthog/mcp](https://github.com/posthog/mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The PostHog MCP server is an AI-powered platform designed to streamline the management of model context, analytics, and feature flags within a PostHog environment. It integrates seamlessly with various development tools and workflows, offering robust**
 
@@ -2009,7 +1970,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 125. [michaelyangjson/mcp-ghibli-video](https://github.com/michaelyangjson/mcp-ghibli-video)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 123. [michaelyangjson/mcp-ghibli-video](https://github.com/michaelyangjson/mcp-ghibli-video)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp-ghibli-video project provides an API-driven platform for developers to generate images from static inputs and manage video outputs using prompts. It integrates with external services like GPT4O Image Generator, supports image-to-video convers**
 
@@ -2024,7 +1985,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 126. [chenhunghan/mcp-k8s-lens](https://github.com/chenhunghan/mcp-k8s-lens)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 124. [chenhunghan/mcp-k8s-lens](https://github.com/chenhunghan/mcp-k8s-lens)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The chenhunghan/mcp-k8s-lens project is a GitHub-hosted platform designed to enhance automation and workflow management within Kubernetes environments. It provides tools for screenshot capture, console log monitoring, and integration with various com**
 
@@ -2039,7 +2000,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 127. [spheronfdn/spheron-mcp-plugin](https://github.com/spheronfdn/spheron-mcp-plugin/tree/HEAD/mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 125. [spheronfdn/spheron-mcp-plugin](https://github.com/spheronfdn/spheron-mcp-plugin/tree/HEAD/mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The spheron-mcp-plugin is a GitHub Actions plugin designed to streamline the deployment and management of MCP (Multi-Cloud Platform) servers. It provides tools for automating infrastructure provisioning, configuration, and orchestration across multip**
 
@@ -2054,7 +2015,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 128. [qloba/runbook-mcp-server](https://github.com/qloba/runbook-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 126. [qloba/runbook-mcp-server](https://github.com/qloba/runbook-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The qloba/runbook-mcp-server project provides a Node.js-based solution for integrating Runbook with the MCP server, enabling organizations to streamline their workflow automation processes. It offers features such as creating and updating articles in**
 
@@ -2069,7 +2030,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 129. [mgsrevolver/consolespy](https://github.com/mgsrevolver/consolespy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 127. [mgsrevolver/consolespy](https://github.com/mgsrevolver/consolespy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The 'consolespy' project is a browser extension that enables developers to monitor and analyze console logs from their web applications in real time using the Model Context Protocol (MCP). It allows integration with Cursor IDE, facilitating efficient**
 
@@ -2084,7 +2045,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 130. [geli2001/tft-mcp-server](https://github.com/geli2001/tft-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 128. [geli2001/tft-mcp-server](https://github.com/geli2001/tft-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The tft-mcp-server is a TypeScript-based MCP server designed to provide access to TFT game data, including match history and detailed match information. It supports integration with external APIs such as Riot Games' API, enabling developers to build **
 
@@ -2099,7 +2060,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 131. [yosider/cosense-mcp-server](https://github.com/yosider/cosense-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 129. [yosider/cosense-mcp-server](https://github.com/yosider/cosense-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The yosider/cosense-mcp-server is a GitHub-hosted MCP server designed to facilitate seamless integration between Cosense and other systems. It provides a robust platform for automating workflows, managing code changes, and ensuring secure communicati**
 
@@ -2114,7 +2075,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 132. [champaya/note-mcp](https://github.com/champaya/note-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 130. [champaya/note-mcp](https://github.com/champaya/note-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The Borg project provides a comprehensive open-source platform designed to streamline software development workflows. It integrates advanced AI capabilities such as code generation, security analysis, and automated testing, enabling developers to enh**
 
@@ -2129,7 +2090,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 133. [hyoban/folo-mcp](https://github.com/hyoban/folo-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 131. [hyoban/folo-mcp](https://github.com/hyoban/folo-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The folo-mcp project provides a GitHub-hosted MCP (Message Control Protocol) server designed to streamline the development workflow for teams using Folo. It integrates with modern DevOps practices by offering automated code review, pull request manag**
 
@@ -2144,7 +2105,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 134. [callmybot/domoticz](https://github.com/callmybot/domoticz)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 132. [callmybot/domoticz](https://github.com/callmybot/domoticz)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg project provides a comprehensive open-source platform designed to streamline software development workflows. It integrates advanced features such as code review management, automated deployment, secure coding practices, and enterprise-grade **
 
@@ -2159,7 +2120,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 135. [4regab/TaskSync](https://github.com/4regab/TaskSync)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 133. [4regab/TaskSync](https://github.com/4regab/TaskSync)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **TaskSync provides a framework for managing long-running AI agent tasks by implementing feedback loops through three distinct interfaces: a VS Code sidebar extension, a terminal-based protocol using standard input streams, and an MCP server. Its techn**
 
@@ -2175,7 +2136,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 136. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
+### 134. [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
 
 **Qwen Code implements a terminal-first developer experience designed to handle large-scale codebase analysis and task automation directly from the command line. It utilizes a modular architecture featuring 'Skills' and 'SubAgents' to orchestrate compl**
 
@@ -2191,7 +2152,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 137. [GoogleCloudPlatform/vertex-ai-creative-studio](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 135. [GoogleCloudPlatform/vertex-ai-creative-studio](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Vertex AI Creative Studio is a demonstration application built with Mesop, a Python framework for rapid AI app development, designed to provide a rich user interface for interacting with Google's generative media models (Imagen, Veo, Gemini, Lyri**
 
@@ -2207,7 +2168,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 138. [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 136. [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **Code-to-tree is a specialized Model Context Protocol (MCP) server designed to bridge the gap between LLM text generation and formal code structure. Built using C and the mcpc library, it avoids the overhead of traditional runtimes like Node.js or Pyt**
 
@@ -2223,7 +2184,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 139. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 137. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **The 'awesome-pieces' repository serves as a centralized index for resources related to Pieces, an AI-driven productivity tool designed to integrate with the developer toolchain. It curates installation guides, IDE plugins (for JetBrains, VS Code, Jup**
 
@@ -2239,7 +2200,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 140. [Build with Google's new A2UI Spec: Agent User Interfaces with A2UI + AG-UI | Blog | CopilotKit](https://www.copilotkit.ai/blog/build-with-googles-new-a2ui-spec-agent-user-interfaces-with-a2ui-ag-ui)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
+### 138. [Build with Google's new A2UI Spec: Agent User Interfaces with A2UI + AG-UI | Blog | CopilotKit](https://www.copilotkit.ai/blog/build-with-googles-new-a2ui-spec-agent-user-interfaces-with-a2ui-ag-ui)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
 
 **The resource outlines the implementation of the Agent-to-User Interface (A2UI) specification and the AG-UI protocol within the CopilotKit framework. It demonstrates how AI agents can move beyond text-based communication by sending framework-agnostic **
 
@@ -2255,7 +2216,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 141. [markmdev/meridian](https://github.com/markmdev/meridian)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
+### 139. [markmdev/meridian](https://github.com/markmdev/meridian)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers
 
 **Meridian makes Claude Code more reliable on real projects. It adds persistent project context, smarter session handoff, and lightweight workflow enforcement so Claude is less likely to lose the plot halfway through a long task.**
 
@@ -2271,7 +2232,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 142. [bobmatnyc/mcp-skills](https://github.com/bobmatnyc/mcp-skills)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗6 layers
+### 140. [bobmatnyc/mcp-skills](https://github.com/bobmatnyc/mcp-skills)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗6 layers
 
 **mcp-skillset is a standalone Python application that provides intelligent, context-aware skills to code assistants through hybrid RAG (vector + knowledge graph). Unlike static skills that load at startup, mcp-skillset enables runtime skill discovery,**
 
@@ -2287,7 +2248,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 143. [joylarkin/AI-Coding-Landscape](https://github.com/joylarkin/AI-Coding-Landscape)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
+### 141. [joylarkin/AI-Coding-Landscape](https://github.com/joylarkin/AI-Coding-Landscape)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
 
 **A comprehensive overview of the 2026 AI Coding Landscape, covering coding models, agents, CLIs, IDEs, AI app builders, devtools, and more. The repository highlights various cutting-edge AI coding tools and agents, including OpenAI Codex, GitHub Copil**
 
@@ -2303,7 +2264,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 144. [timovv/copilot-conductor](https://github.com/timovv/copilot-conductor)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗6 layers
+### 142. [timovv/copilot-conductor](https://github.com/timovv/copilot-conductor)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗6 layers
 
 **The 'copilot-conductor' is a command-line utility designed to help build and manage in-repository automation workflows that engage an AI agent like GitHub Copilot within Visual Studio Code. The core concept revolves around the 'inversion of control':**
 
@@ -2317,7 +2278,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 145. [enescinr/twitter-mcp](https://github.com/enescinr/twitter-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 143. [enescinr/twitter-mcp](https://github.com/enescinr/twitter-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The EnesCinr/twitter-mcp project provides a Model Context Protocol server that allows users to interact with Twitter, facilitating the posting of tweets and searching for relevant content. It integrates seamlessly with Claude Desktop, enabling develo**
 
@@ -2333,7 +2294,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 146. [ctvidic/whoop-mcp-server](https://github.com/ctvidic/whoop-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 144. [ctvidic/whoop-mcp-server](https://github.com/ctvidic/whoop-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a secure, Python implementation of the Whoop MCP (Model Context Protocol) server, allowing AI applications to query detailed workout, recovery, strain, and cycle data from the Whoop API. It supports integration with cloud platfor**
 
@@ -2349,7 +2310,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 147. [sjwiesman/mcp-materialize](https://github.com/sjwiesman/mcp-materialize)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 145. [sjwiesman/mcp-materialize](https://github.com/sjwiesman/mcp-materialize)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The sjwiesman/mcp-materialize project provides a comprehensive developer platform that integrates advanced code generation, workflow automation, security features, and enterprise-grade CI/CD capabilities. It supports modern DevOps practices by offeri**
 
@@ -2365,7 +2326,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 148. [agentmode/server](https://github.com/agentmode/server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 146. [agentmode/server](https://github.com/agentmode/server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The AgentMode server enables seamless integration of AI development tools with various backend systems, allowing developers to build, test, and deploy intelligent applications efficiently. It supports multiple database connections, provides a unified**
 
@@ -2381,7 +2342,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 149. [aapanel/mcp-server](https://github.com/aapanel/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 147. [aapanel/mcp-server](https://github.com/aapanel/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a GitHub-hosted MCP (Managed Cloud Provider) server designed to integrate with aaPanel, offering developers a streamlined platform for building, deploying, and managing intelligent applications. It supports automation, code revi**
 
@@ -2397,7 +2358,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 150. [marcoeg/mcp-server-ntopng](https://github.com/marcoeg/mcp-server-ntopng)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 148. [marcoeg/mcp-server-ntopng](https://github.com/marcoeg/mcp-server-ntopng)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Marcoeg/mcp-server-ntopng project provides a Model Context Protocol Server implementation using ntopng, allowing AI agents to interact with NTOPNG's historical flows and alert statistics. This server supports secure connections, integrates with v**
 
@@ -2413,7 +2374,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 151. [garcheng/mcp-server-jina-java](https://github.com/garcheng/mcp-server-jina-java)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 149. [garcheng/mcp-server-jina-java](https://github.com/garcheng/mcp-server-jina-java)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The mcp-server-jina-java project provides a Spring Boot-based Java application that interfaces with the Jina Reader API to enable web applications to search and retrieve content from external sources. It leverages MCP (Model Context Protocol) for sec**
 
@@ -2429,7 +2390,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 152. [joebuildsstuff/mcp-jina-ai](https://github.com/joebuildsstuff/mcp-jina-ai)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 150. [joebuildsstuff/mcp-jina-ai](https://github.com/joebuildsstuff/mcp-jina-ai)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The project provides a GitHub-based platform that integrates various AI and code development tools to streamline the creation and deployment of intelligent apps. It supports features such as code review, workflow automation, secure coding practices, **
 
@@ -2445,7 +2406,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 153. [kiss-kedaya/crypto_mcp](https://github.com/kiss-kedaya/crypto_mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
+### 151. [kiss-kedaya/crypto_mcp](https://github.com/kiss-kedaya/crypto_mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The project provides a robust infrastructure for accessing and processing cryptocurrency market data through the Model Context Protocol (MCP). It offers various tools to retrieve virtual coin prices, market trends, detailed information, and K-line da**
 
@@ -2461,7 +2422,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 154. [inkdropapp/mcp-server](https://github.com/inkdropapp/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 152. [inkdropapp/mcp-server](https://github.com/inkdropapp/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The inkdropapp/mcp-server project provides a Model Context Protocol (MCP) server that facilitates secure communication between systems using the MCP API. It supports advanced security features, integration with external tools, and robust developer wo**
 
@@ -2477,7 +2438,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 155. [abhiz123/todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 153. [abhiz123/todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The abhiz123/todoist-mcp-server project provides a Model Context Protocol (MCP) server that integrates Claude AI to allow users to manage tasks using everyday language. It supports natural language creation, search, filtering, and task management fea**
 
@@ -2493,7 +2454,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 156. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 154. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The gemini-dk/mcp-server-firebase project provides a unified interface to interact with Firebase's core services such as Authentication, Firestore, and Storage via the Model Context Protocol (MCP). It allows developers to build secure, scalable appli**
 
@@ -2509,7 +2470,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 157. [praneybehl/code-review-mcp](https://github.com/praneybehl/code-review-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 155. [praneybehl/code-review-mcp](https://github.com/praneybehl/code-review-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The praneybehl/code-review-mcp project provides a robust MCP (Model Context Protocol) server that leverages advanced AI models like Google's Claude Code and OpenAI's Anthropic to perform contextual code reviews. It supports integration with popular A**
 
@@ -2525,7 +2486,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 158. [joshuarileydev/mac-apps-launcher](https://github.com/joshuarileydev/mac-apps-launcher)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 156. [joshuarileydev/mac-apps-launcher](https://github.com/joshuarileydev/mac-apps-launcher)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mac-apps-launcher project provides a GitHub-based platform for developers to manage and launch macOS applications. It integrates with the MCP Server, allowing users to open, install, and manage applications directly from their Mac environment. Th**
 
@@ -2541,7 +2502,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 159. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 157. [solidus-/atlassian-cursor-mcp](https://github.com/solidus-/atlassian-cursor-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP plugin enables seamless integration of Atlassian tools (JIRA, Confluence, BitBucket) into the Cursor IDE, allowing developers to search, manage, and collaborate on code directly within their IDE. It supports advanced features such as JIRA tas**
 
@@ -2557,7 +2518,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 160. [stefanraath3/mcp-supabase](https://github.com/stefanraath3/mcp-supabase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 158. [stefanraath3/mcp-supabase](https://github.com/stefanraath3/mcp-supabase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The Mcp-supabase project provides a server-based solution that integrates Supabase PostgreSQL with MCP (Machine Learning Cloud Platform) to enable developers to create, test, and deploy AI-driven applications efficiently. It offers a comprehensive su**
 
@@ -2573,7 +2534,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 161. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 159. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ngeojiajun/mcp-code-snippets project provides a Model Context Protocol (MCP) server that enables developers to create, list, and delete code snippets in various programming languages. It supports features such as persistent storage, filtering by **
 
@@ -2589,7 +2550,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 162. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 160. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The dcSpark/mcp-server-jupiter project provides a Model Context Protocol (MCP) server that allows AI models like Claude to access and perform blockchain operations such as retrieving quotes, building and sending swap transactions on the Solana blockc**
 
@@ -2605,7 +2566,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 163. [dainfernalcoder/perplexity-mcp](https://github.com/dainfernalcoder/perplexity-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 161. [dainfernalcoder/perplexity-mcp](https://github.com/dainfernalcoder/perplexity-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The DaInfernalCoder/perplexity-mcp project provides a Model Context Protocol (MCP) server that leverages Perplexity's AI models to deliver context-aware, intelligent responses across various research and documentation tasks. It supports advanced use **
 
@@ -2621,7 +2582,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 164. [grounddocs/grounddocs](https://github.com/grounddocs/grounddocs)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 162. [grounddocs/grounddocs](https://github.com/grounddocs/grounddocs)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **GroundDocs is a documentation assistant built for LLMs that integrates with platforms like GitHub to deliver up-to-date, context-aware explanations. It supports enterprise-grade security, seamless integration with development workflows, and offers fe**
 
@@ -2637,7 +2598,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 165. [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 163. [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Joooook/12306-mcp project implements a ticket search server leveraging the Model Context Protocol (MCP) to enable large language models to query 12306 ticket information efficiently. It provides a RESTful API interface for programmatic access, su**
 
@@ -2653,7 +2614,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 166. [lucky-dersan/gitlab-mcp-server](https://github.com/lucky-dersan/gitlab-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 164. [lucky-dersan/gitlab-mcp-server](https://github.com/lucky-dersan/gitlab-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The gitlab-mcp-server is a custom-built Python application that integrates with GitLab using the MCP (Model Context Protocol) to automate workflows, manage code changes, and enhance security within development environments. It leverages Docker for co**
 
@@ -2669,7 +2630,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 167. [dakrin/mcp-gemini-server](https://github.com/dakrin/mcp-gemini-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 165. [dakrin/mcp-gemini-server](https://github.com/dakrin/mcp-gemini-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The dakrin/mcp-gemini-server project provides a developer platform that integrates the Google Gemini 2.5 Pro Experimental AI model into Claude Desktop applications. It supports secure API key management, secure token handling, and offers features lik**
 
@@ -2685,7 +2646,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 168. [hannesj/mcp-openapi-schema](https://github.com/hannesj/mcp-openapi-schema)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 166. [hannesj/mcp-openapi-schema](https://github.com/hannesj/mcp-openapi-schema)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcp-openapi-schema is an OpenAPI Schema Model Context Protocol Server that enables Large Language Models (LLMs) to interact with and analyze OpenAPI schema files. It provides a comprehensive set of tools for exploring API paths, operations, param**
 
@@ -2701,7 +2662,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 169. [zeta-chain/cli](https://github.com/zeta-chain/cli)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 167. [zeta-chain/cli](https://github.com/zeta-chain/cli)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The zeta-chain/cli provides a command-line interface that allows users to build and manage universal smart contracts across various blockchain networks such as Solana, Bitcoin, Sui, and TON. It supports cross-chain interactions and integrates with EV**
 
@@ -2717,7 +2678,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 170. [Artin0123/gemini-vision-mcp](https://github.com/Artin0123/gemini-vision-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 168. [Artin0123/gemini-vision-mcp](https://github.com/Artin0123/gemini-vision-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Borg Project offers a comprehensive developer platform focused on integrating AI capabilities into software development workflows. It provides tools for code review, security management, CI/CD integration, and secure deployment, enabling teams to**
 
@@ -2733,7 +2694,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 171. [NotMyself/claude-stack-dotnet](https://github.com/NotMyself/claude-stack-dotnet)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 169. [NotMyself/claude-stack-dotnet](https://github.com/NotMyself/claude-stack-dotnet)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **A full-stack example .NET 10 template project that demonstrates a modern ASP.NET Core architecture featuring Claude Code AI integration. The project includes an API layer using Minimal APIs (ASP.NET Core Web API) and comprehensive end-to-end testing **
 
@@ -2748,7 +2709,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 172. [tinybirdco/mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 170. [tinybirdco/mcp-tinybird](https://github.com/tinybirdco/mcp-tinybird)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The tinybirdco/mcp-tinybird repository provides a platform for developers to build and deploy intelligent applications using AI-driven tools. It supports modern DevOps practices, integrates with various external services, and offers features such as **
 
@@ -2763,7 +2724,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 173. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 171. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Leonardo MCP server is an AI-powered developer platform designed to streamline the creation, management, and deployment of AI models. It supports both HTTP and stdio modes, enabling integration with various clients such as Claude Desktop and Curs**
 
@@ -2778,7 +2739,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 174. [cdpath/mcp-server-chatgpt-app](https://github.com/cdpath/mcp-server-chatgpt-app)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 172. [cdpath/mcp-server-chatgpt-app](https://github.com/cdpath/mcp-server-chatgpt-app)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The cdpath/mcp-server-chatgpt-app project provides a GitHub-hosted server application that leverages ChatGPT to enhance developer productivity and streamline code review processes. It integrates seamlessly with development workflows, offering feature**
 
@@ -2793,7 +2754,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 175. [sofianhamiti/mcp-server-s3](https://github.com/sofianhamiti/mcp-server-s3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 173. [sofianhamiti/mcp-server-s3](https://github.com/sofianhamiti/mcp-server-s3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP Server provides a Python package that allows developers to interact with AWS S3 buckets using the Model Context Protocol. It offers tools for listing buckets, managing permissions, and performing operations securely. The server supports integ**
 
@@ -2808,7 +2769,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 176. [noredistribution/mcp-cvp-fun](https://github.com/noredistribution/mcp-cvp-fun)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 174. [noredistribution/mcp-cvp-fun](https://github.com/noredistribution/mcp-cvp-fun)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The noredistribution/mcp-cvp-fun project provides a customizable workflow automation solution leveraging GitHub Actions. It enables developers to define complex CI/CD pipelines, integrate external tools, and manage code changes efficiently. The tool **
 
@@ -2823,7 +2784,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 177. [hide-org/hide-mcp](https://github.com/hide-org/hide-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 175. [hide-org/hide-mcp](https://github.com/hide-org/hide-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The hide-mcp project provides a GitHub-hosted MCP server designed to streamline the management of Hide's MCP (Multi-Cloud Platform) servers. It integrates with various development environments such as Codespaces, supports automation workflows, and of**
 
@@ -2838,7 +2799,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 178. [lalanikarim/systemctl-mcp-server](https://github.com/lalanikarim/systemctl-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 176. [lalanikarim/systemctl-mcp-server](https://github.com/lalanikarim/systemctl-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The lalanikarim/systemctl-mcp-server project provides a GitHub-based platform for orchestrating system updates, managing configurations, and automating deployment workflows. It integrates with systemctl and MCP (Managed Control Plane) to streamline i**
 
@@ -2853,7 +2814,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 179. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 177. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The pty-mcp project offers an MCP (Multi-Process Communication) tool server that delivers a persistent, stateful terminal environment. This allows developers to run and manage multiple processes in isolation, enhancing workflow automation and code ex**
 
@@ -2868,7 +2829,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 180. [taskmaster-ai/insta-mcp](https://github.com/taskmaster-ai/insta-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 178. [taskmaster-ai/insta-mcp](https://github.com/taskmaster-ai/insta-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The taskmaster-ai/insta-mcp project provides a web application built with fastmcp and instagrapi to enable AI assistants to read and send Instagram direct messages. It supports multiple authentication methods, integrates with Claude Desktop for seaml**
 
@@ -2883,7 +2844,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 181. [alx99/db-mcp](https://github.com/alx99/db-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 179. [alx99/db-mcp](https://github.com/alx99/db-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The ALX99/db-mcp project provides a lightweight tool that allows AI assistants supporting the MCP protocol to interact with various database systems. It supports multiple databases including PostgreSQL, MySQL, and SQLite via DSN connections. This uti**
 
@@ -2898,7 +2859,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 182. [larshvidsten/mcp_af_graph](https://github.com/larshvidsten/mcp_af_graph)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 180. [larshvidsten/mcp_af_graph](https://github.com/larshvidsten/mcp_af_graph)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides tools and features to streamline software development processes by enabling developers to manage code changes efficiently. It supports actions such as code review, automation of workflows, integration with external tools, and dep**
 
@@ -2913,7 +2874,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 183. [leobuskin/mcp_jetbrains_proxy](https://github.com/leobuskin/mcp_jetbrains_proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 181. [leobuskin/mcp_jetbrains_proxy](https://github.com/leobuskin/mcp_jetbrains_proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp_jetbrains_proxy package serves as a middleware solution that facilitates seamless interaction between large language models (LLMs) and JetBrains IDEs by implementing the Model Context Protocol (MCP). This allows developers to integrate AI cap**
 
@@ -2928,7 +2889,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 184. [sdiehl/usolver](https://github.com/sdiehl/usolver)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 182. [sdiehl/usolver](https://github.com/sdiehl/usolver)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg project introduces a model context protocol server designed to handle a wide range of combinatorial optimization challenges, including integer programming, constraint satisfaction, and logical reasoning tasks. It integrates multiple solvers **
 
@@ -2943,7 +2904,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 185. [oxplot/clipboard-mcp](https://github.com/oxplot/clipboard-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 183. [oxplot/clipboard-mcp](https://github.com/oxplot/clipboard-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The clipboard-mcp project provides an AI-powered developer platform that integrates with GitHub to enhance productivity through intelligent code suggestions, automated review processes, and streamlined workflow automation. It supports features such a**
 
@@ -2958,7 +2919,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 186. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 184. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Flomo-mcp project provides a GitHub-based platform designed to streamline software development processes by integrating advanced workflow automation, code review, security checks, and deployment capabilities. It supports enterprise-level features**
 
@@ -2973,7 +2934,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 187. [huangxinping/ip-mcp-server](https://github.com/huangxinping/ip-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 185. [huangxinping/ip-mcp-server](https://github.com/huangxinping/ip-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The ip-mcp-server project provides a Python-based implementation of an IP Multicast Control Protocol (MCP) server, enabling secure and efficient management of multicast traffic. It supports features such as code review, workflow automation, security **
 
@@ -2988,7 +2949,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 188. [chriscarlon/os-mcp](https://github.com/chriscarlon/os-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 186. [chriscarlon/os-mcp](https://github.com/chriscarlon/os-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The os-mcp project provides a secure, Python-driven MCP (Machine Control Platform) server that allows developers and users to interact with Ordnance Survey's geospatial data through standardized APIs. It enforces a structured two-step workflow to ens**
 
@@ -3003,7 +2964,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 189. [onurpolat05/n8n-assistant](https://github.com/onurpolat05/n8n-assistant)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 187. [onurpolat05/n8n-assistant](https://github.com/onurpolat05/n8n-assistant)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides an AI-powered assistant that integrates with n8n, a multi-channel platform, to streamline developer tasks. It offers web search capabilities, asynchronous HTTP requests, and integration with external tools to automate workflows.**
 
@@ -3018,7 +2979,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 190. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 188. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Borg Project's 'playlist-mcp' repository provides an experimental MCP server designed to generate transcripts from YouTube playlists. It integrates various development tools such as GitHub Copilot, Codespaces, and MCP registry for seamless workfl**
 
@@ -3033,7 +2994,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 191. [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 189. [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The zhsama/duckduckgo-mcp-server is a Node.js application that integrates with DuckDuckGo Search API to provide enhanced search capabilities. It leverages pnpm for dependency management and supports features like rate limiting, error handling, and cu**
 
@@ -3048,7 +3009,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 192. [timsonner/mcp-vscode-template](https://github.com/timsonner/mcp-vscode-template)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 190. [timsonner/mcp-vscode-template](https://github.com/timsonner/mcp-vscode-template)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a GitHub-hosted MCP (Microsoft Code Platform) server template tailored for VS Code, enabling developers to integrate advanced security scanning, code review, and automated workflows directly within their editor. It supports featu**
 
@@ -3063,7 +3024,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 193. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 191. [liangjunyu2010/mcp_server_safe_content_check](https://github.com/liangjunyu2010/mcp_server_safe_content_check)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a Python-based MCP server that integrates Baidu Cloud's large language model for content safety. It supports secure deployment via Uvicorn, integrates with Cursor for AI-powered text analysis, and enforces strict access controls **
 
@@ -3078,7 +3039,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 194. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 192. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Fibery MCP Server acts as a bridge between Fibery and various LLM providers that support the Model Context Protocol (MCP). This allows users to interact with their Fibery workspace using natural language queries, making it easier to manage and ma**
 
@@ -3093,7 +3054,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 195. [vincentf305/mcp-server-deepseek](https://github.com/vincentf305/mcp-server-deepseek)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 193. [vincentf305/mcp-server-deepseek](https://github.com/vincentf305/mcp-server-deepseek)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides a Docker-based MCP server that facilitates the integration of Deepseek models into the Claude Desktop platform. It allows developers to deploy and manage AI models efficiently, supporting advanced workflows such as code review, **
 
@@ -3108,7 +3069,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 196. [cwahlfeldt/blender-mcp](https://github.com/cwahlfeldt/blender-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 194. [cwahlfeldt/blender-mcp](https://github.com/cwahlfeldt/blender-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The cwahlfeldt/blender-mcp project provides a server-based solution for running Blender Python scripts in a headless environment. It allows users to add, edit, execute, and remove scripts, track script metadata, and manage execution results. This too**
 
@@ -3123,7 +3084,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 197. [localsummer/dify-workflow-mcp](https://github.com/localsummer/dify-workflow-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 195. [localsummer/dify-workflow-mcp](https://github.com/localsummer/dify-workflow-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a TypeScript-based solution to expose Dify Workflows as an MCP (Model Context Protocol) server. It leverages Dify's workflow capabilities, allowing developers to build, configure, and run workflows using YAML files for seamless **
 
@@ -3138,7 +3099,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 198. [d42me/mochi-flashcards-mcp-server](https://github.com/d42me/mochi-flashcards-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 196. [d42me/mochi-flashcards-mcp-server](https://github.com/d42me/mochi-flashcards-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The Mochi Flashcards MCP Server project provides a web-based interface for users to create, manage, and share flashcard content. It leverages Mochi, an open-source flashcard library, and integrates with the MCP (MIT Cloud Platform) to enable scalable**
 
@@ -3153,7 +3114,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 199. [kwen1510/mcp-nltk](https://github.com/kwen1510/mcp-nltk)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 197. [kwen1510/mcp-nltk](https://github.com/kwen1510/mcp-nltk)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a GitHub-hosted platform that integrates advanced natural language processing (NLP) capabilities with code generation tools. It supports developers in automating tasks, managing code changes, and enhancing productivity through in**
 
@@ -3168,7 +3129,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 200. [igs-pochenkuo/southasia_mcp](https://github.com/igs-pochenkuo/southasia_mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 198. [igs-pochenkuo/southasia_mcp](https://github.com/igs-pochenkuo/southasia_mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The SouthAsia MCP project provides a Python-based developer platform aimed at modernizing software development workflows. It leverages the MCP-like framework to extend AI capabilities such as context-aware interactions and automated task execution. T**
 
@@ -3183,7 +3144,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 201. [kleneway/awesome-cursor-mpc-server](https://github.com/kleneway/awesome-cursor-mpc-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 199. [kleneway/awesome-cursor-mpc-server](https://github.com/kleneway/awesome-cursor-mpc-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides an AI-powered development toolkit designed as a Model Context Protocol (MCP) server for Cursor. It includes features such as code architecture guidance, screenshot analysis, code review, and integration of external tools. The se**
 
@@ -3198,7 +3159,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 202. [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 200. [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The ntfy-mcp project provides a comprehensive environment for AI-driven software development, offering tools for code generation, workflow automation, secure coding practices, and integration with external systems. It supports enterprise-grade securi**
 
@@ -3213,7 +3174,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 203. [f-inc/containerinc-mcp](https://github.com/f-inc/containerinc-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 201. [f-inc/containerinc-mcp](https://github.com/f-inc/containerinc-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The f-inc/containerinc-mcp project provides a GitHub-hosted MCP (Managed Container Orchestration) server designed to streamline and automate deployment processes specifically for Container Inc. It leverages containerization technologies to facilitate**
 
@@ -3228,7 +3189,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 204. [marcelmarais/obsidian-mcp-server](https://github.com/marcelmarais/obsidian-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 202. [marcelmarais/obsidian-mcp-server](https://github.com/marcelmarais/obsidian-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The 'obsidian-mcp-server' project provides a standalone, GitHub-hosted MCP server that allows AI tools like Cursor and Claude to read from and write to Obsidian vaults. It supports file operations such as listing files, retrieving open tasks, updatin**
 
@@ -3243,7 +3204,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 205. [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 203. [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a Java-based MCP (Multi-Checkpoint Processing) server that integrates with Solana's blockchain via the Jupiter Ultra API. It enables users to fetch swap orders, execute trades, and manage transactions efficiently by combining DE**
 
@@ -3258,7 +3219,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 206. [seanlee10/server-youtube-transcription](https://github.com/seanlee10/server-youtube-transcription)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 204. [seanlee10/server-youtube-transcription](https://github.com/seanlee10/server-youtube-transcription)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The server provides a GitHub-hosted transcription service that enables developers to easily add accurate and fast video transcriptions from YouTube content into their projects. It leverages MCP (Multi-Processing Core) to handle integration efficientl**
 
@@ -3273,7 +3234,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 207. [pylogmon/time-mcp](https://github.com/pylogmon/time-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 205. [pylogmon/time-mcp](https://github.com/pylogmon/time-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Pylogmon / time-mcp project is a GitHub-based platform designed to streamline software development workflows. It focuses on automating code review processes, tracking pull requests, and enhancing security through vulnerability detection. The tool**
 
@@ -3288,7 +3249,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 208. [afgong/sqlite-mcp-server](https://github.com/afgong/sqlite-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 206. [afgong/sqlite-mcp-server](https://github.com/afgong/sqlite-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project focuses on developing a lightweight SQLite-based MCP (Machine Learning Cloud Platform) server tailored for modern software development workflows. It emphasizes security, developer productivity, and integration with AI tools like Claude D**
 
@@ -3303,7 +3264,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 209. [blacklotusdev8/test_m](https://github.com/blacklotusdev8/test_m)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 207. [blacklotusdev8/test_m](https://github.com/blacklotusdev8/test_m)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Borg Project offers a comprehensive solution for enterprise teams looking to modernize their software development workflows. It provides tools for code review, automated deployment, infrastructure management, and secure application development. T**
 
@@ -3318,7 +3279,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 210. [gemini-cli-extensions/mysql](https://github.com/gemini-cli-extensions/mysql)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 208. [gemini-cli-extensions/mysql](https://github.com/gemini-cli-extensions/mysql)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The resource describes a Gemini CLI extension designed to bridge the gap between natural language prompts and direct MySQL database interaction. It integrates tools within the Gemini CLI environment, enabling users to explore schemas, execute SQL, an**
 
@@ -3333,7 +3294,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 211. [safishamsi/graphify](https://github.com/safishamsi/graphify)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
+### 209. [safishamsi/graphify](https://github.com/safishamsi/graphify)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A powerful AI coding assistant that integrates multiple tools and knowledge sources to accelerate code understanding, documentation navigation, and collaborative development.**
 
@@ -3349,7 +3310,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 212. [damms005/devdb-vscode?tab=readme-ov-file#mcp-configuration](https://github.com/damms005/devdb-vscode?tab=readme-ov-file)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 210. [damms005/devdb-vscode?tab=readme-ov-file#mcp-configuration](https://github.com/damms005/devdb-vscode?tab=readme-ov-file)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This resource describes the 'devdb-vscode' extension, a lightweight VS Code extension designed to automatically load your database and provide helpful affordances for development and debugging. It emphasizes its zero-configuration capability and deep**
 
@@ -3365,7 +3326,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 213. [evalstate/mcp-miro](https://github.com/evalstate/mcp-miro)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 211. [evalstate/mcp-miro](https://github.com/evalstate/mcp-miro)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The evalstate/mcp-miro project provides a server-side application that enables users to connect to the MIRO Whiteboard Application via OAuth. It supports board creation, sticky notes, shape drawing, and bulk operations, enhancing team collaboration i**
 
@@ -3381,7 +3342,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 214. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 212. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a developer-centric interface that allows users to query cloud cost data using CloudZero's API and interact with large language models via the Model Context Protocol (MCP) server. It supports automated workflows, secure code exec**
 
@@ -3397,7 +3358,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 215. [sammcj/mcp-llm](https://github.com/sammcj/mcp-llm)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 213. [sammcj/mcp-llm](https://github.com/sammcj/mcp-llm)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The sammcj/mcp-llm project is an MCP server designed to provide LLMs with access to additional large language models (LLMs) via the LlamaIndexTS library. It offers a suite of tools and features such as code generation, documentation creation, code re**
 
@@ -3413,7 +3374,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 216. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 214. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **SecretiveShell provides a MCP (Microsoft Command Prompt) server tailored for Windows environments, facilitating automation, code execution, and integration with Windows APIs. It supports advanced features such as media management, window control, sec**
 
@@ -3429,7 +3390,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 217. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 215. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project provides a developer platform to interact with Dingding's API using Python, enabling automation of workflows, code reviews, security checks, and deployment. It supports enterprise-grade security features such as secure token management, **
 
@@ -3445,7 +3406,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 218. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 216. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The nachoal/perplexity-mcp project provides a GitHub-hosted MCP (Model Context Protocol) server that integrates Perplexity's AI to deliver up-to-date, source-cited web search results. It supports enterprise-grade security, automated workflows, and se**
 
@@ -3461,7 +3422,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 219. [erithwik/mcp-hn](https://github.com/erithwik/mcp-hn)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 217. [erithwik/mcp-hn](https://github.com/erithwik/mcp-hn)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a GitHub-hosted MCP server tailored for interacting with Hacker News, featuring tools like get_stories, get_story_info, and user info retrieval. It emphasizes developer experience through integrations such as Copilot, secure code**
 
@@ -3477,7 +3438,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 220. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 218. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Triple-Whale MCP Server project provides an installer and MCP Server for integrating with Claude Desktop or other MCP clients, enabling natural language interaction with external systems. It supports automation, code review, security, and DevOps **
 
@@ -3493,7 +3454,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 221. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 219. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project provides a GitLab-based MCP (Manage Code Pull Request) server that enables teams to automate and streamline their development workflows using GitHub's API. It supports key functionalities such as task management, code review, pull reques**
 
@@ -3509,7 +3470,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 222. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 220. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The mcp-server acts as a bridge between Ghost's backend and its admin interface, allowing developers to automate workflows such as post management, page updates, member operations, and more. It supports integration with Ghost's API key setup and prov**
 
@@ -3525,7 +3486,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 223. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 221. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The jmanhype/dart-mcp-server project provides a TypeScript-based MCP server that bridges Dart task management to AI tools. It uses Python subprocesses to execute Dart SDK calls, supporting features like task creation, update, and management through a**
 
@@ -3541,7 +3502,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 224. [aipotheosis-labs/aci-mcp](https://github.com/aipotheosis-labs/aci-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 222. [aipotheosis-labs/aci-mcp](https://github.com/aipotheosis-labs/aci-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a comprehensive developer platform for managing modern software development lifecycles. It integrates advanced security features, automated workflows, and seamless integration with external tools to support enterprise-grade DevO**
 
@@ -3556,7 +3517,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 225. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 223. [superfaceai/mcp](https://github.com/superfaceai/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a server-based solution using the Model Context Protocol to facilitate seamless interaction between AI models and external tools. It supports workflow automation, secure code management, and enterprise-grade security features, ma**
 
@@ -3571,7 +3532,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 226. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 224. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a GitHub-hosted platform that leverages AI to generate images based on user prompts. It integrates with development workflows, offering features such as code review, security scanning, and deployment support. The tool emphasizes **
 
@@ -3586,7 +3547,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 227. [roy2an/minium-mcp-server](https://github.com/roy2an/minium-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 225. [roy2an/minium-mcp-server](https://github.com/roy2an/minium-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The minium-mcp-server project provides a platform for developers to host, manage, and deploy machine learning models using advanced workflow automation, secure code integration, and enterprise-grade infrastructure. It supports modern DevOps practices**
 
@@ -3601,7 +3562,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 228. [bitrsky/jupyter_mcp_server](https://github.com/bitrsky/jupyter_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 226. [bitrsky/jupyter_mcp_server](https://github.com/bitrsky/jupyter_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The bitrsky/jupyter_mcp_server project provides a Jupyter Notebook interface for managing AI model deployment, including code review, workflow automation, and integration with enterprise tools. It supports modern DevOps practices, offering features l**
 
@@ -3616,7 +3577,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 229. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 227. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The namin/livecode-mcp project provides a GitHub-hosted solution to run io.livecode.ch as an MCP (Machine Control Protocol) server, enabling developers to integrate live coding environments into automated workflows. It supports code execution, workfl**
 
@@ -3631,7 +3592,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 230. [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw/tree/HEAD/src/wcgw/client/mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 228. [rusiaaman/wcgw](https://github.com/rusiaaman/wcgw/tree/HEAD/src/wcgw/client/mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The resource provides a GitHub repository containing the source code for a command-line interface (CLI) tool designed to manage and interact with MCP servers. This tool is structured to facilitate automated configuration, monitoring, and management o**
 
@@ -3646,7 +3607,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 231. [userad/didlogic_mcp](https://github.com/userad/didlogic_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 229. [userad/didlogic_mcp](https://github.com/userad/didlogic_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Borg Project provides a comprehensive developer platform that integrates AI-powered tools such as GitHub Copilot and Didlogic MCP to streamline software development workflows. It offers features for code generation, workflow automation, secure de**
 
@@ -3661,7 +3622,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 232. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
+### 230. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a centralized platform for developers to build, manage, and deploy intelligent applications using tools like GitHub Copilot, AIGitHub SparkBuild, and MCP Registry. It supports enterprise-level code review, security audits, and wo**
 
@@ -3676,7 +3637,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 233. [fleuristes/fleur-mcp](https://github.com/fleuristes/fleur-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 231. [fleuristes/fleur-mcp](https://github.com/fleuristes/fleur-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The fleur-mcp project provides a comprehensive developer platform focused on modernizing software development through automation, integration, and enterprise-grade security features. It supports agile workflows, secure code management, and seamless c**
 
@@ -3691,7 +3652,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 234. [caretdev/mcp-server-iris](https://github.com/caretdev/mcp-server-iris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 232. [caretdev/mcp-server-iris](https://github.com/caretdev/mcp-server-iris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The caretdev/mcp-server-iris project provides an InterSystems IRIS MCP server implementation that enables automated interaction with the database using a model-driven approach. It leverages Python and Docker for deployment, offering features such as **
 
@@ -3706,7 +3667,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 235. [morningman/mcp-doris](https://github.com/morningman/mcp-doris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 233. [morningman/mcp-doris](https://github.com/morningman/mcp-doris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The morningman/mcp-doris project provides a command-line interface to deploy an Apache Doris MCP server alongside VeloDB. It supports automation, code management, security enhancements, and integrates with CI/CD pipelines. The platform emphasizes dev**
 
@@ -3721,7 +3682,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 236. [piomin/spring-ai-apps](https://github.com/piomin/spring-ai-apps/tree/HEAD/spring-ai-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 234. [piomin/spring-ai-apps](https://github.com/piomin/spring-ai-apps/tree/HEAD/spring-ai-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a comprehensive suite of tools and services aimed at streamlining the development lifecycle through automation, integration, and advanced AI capabilities. It supports modern DevOps practices by offering features such as code revi**
 
@@ -3736,7 +3697,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 237. [zzzhdw/mcp-server-kusto](https://github.com/zzzhdw/mcp-server-kusto)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 235. [zzzhdw/mcp-server-kusto](https://github.com/zzzhdw/mcp-server-kusto)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-server-kusto project provides a Borg-based server that leverages Azure Data Explorer to facilitate data management and analysis. It offers tools for executing SQL queries, managing materialized views, and integrating with external tools for e**
 
@@ -3751,7 +3712,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 238. [isaacwasserman/mcp_cube_server](https://github.com/isaacwasserman/mcp_cube_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 236. [isaacwasserman/mcp_cube_server](https://github.com/isaacwasserman/mcp_cube_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP Server project provides a platform for developers to interact with Cube Semantic Layers, offering tools and APIs to manage data, automate workflows, and integrate external systems. It supports enterprise-grade security, DevOps practices, and **
 
@@ -3766,7 +3727,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 239. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 237. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The emacs-mcp-server project provides a powerful tool for integrating the MCP (Mac-Processing) protocol into Emacs, allowing developers to generate and execute Elisp code directly from within their editor. It supports advanced features such as code g**
 
@@ -3781,7 +3742,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 240. [technavii/mcp_sample](https://github.com/technavii/mcp_sample)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 238. [technavii/mcp_sample](https://github.com/technavii/mcp_sample)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The TechNavii/mcp_sample repository provides a GitHub-based platform that integrates advanced code review, security scanning, and workflow automation features. It leverages AI-powered tools like Copilot for Business and Code Review to enhance develop**
 
@@ -3796,7 +3757,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 241. [tcsavage/mcp-obsidian-index](https://github.com/tcsavage/mcp-obsidian-index)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 239. [tcsavage/mcp-obsidian-index](https://github.com/tcsavage/mcp-obsidian-index)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The tcsavage/mcp-obsidian-index project provides a powerful integration between Obsidian and MCP (Mule Cloud Platform) by offering semantic search capabilities over Obsidian vaults. This allows developers to efficiently locate and manage notes stored**
 
@@ -3811,7 +3772,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 242. [kinsha-dev/confluence-chat-mcp-service](https://github.com/kinsha-dev/confluence-chat-mcp-service)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 240. [kinsha-dev/confluence-chat-mcp-service](https://github.com/kinsha-dev/confluence-chat-mcp-service)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The Borg Project focuses on enhancing software development processes by integrating advanced automation tools, secure code management, and workflow orchestration. It provides a centralized environment for developers to streamline tasks such as code r**
 
@@ -3826,7 +3787,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 243. [swonixs/weatherapi-mcp](https://github.com/swonixs/weatherapi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 241. [swonixs/weatherapi-mcp](https://github.com/swonixs/weatherapi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The swonixs/weatherapi-mcp project provides a web application that integrates with WeatherAPI to fetch real-time weather and air quality data. It supports dynamic URI configuration, easy integration with various development environments, and offers f**
 
@@ -3841,7 +3802,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 244. [bryangsmith/mailchimpmcp](https://github.com/bryangsmith/mailchimpmcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 242. [bryangsmith/mailchimpmcp](https://github.com/bryangsmith/mailchimpmcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides tools and utilities to facilitate the development of a Mailchimp Marketing Cloud (MCP) server, enabling developers to create, manage, and deploy applications that integrate with the Mailchimp platform. It includes features for co**
 
@@ -3856,7 +3817,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 245. [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 243. [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Logfire MCP Server is an open-source project that provides a streamlined and efficient way to manage and interact with Logfire's monitoring capabilities. By leveraging GitHub Actions and CI/CD pipelines, the server enables developers to automate **
 
@@ -3871,7 +3832,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 246. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 244. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Wordware-MCP-Server project provides a modular Python framework for managing code repositories, enforcing security protocols, and automating development workflows. It supports integration with external tools, secure code handling, and enterprise-**
 
@@ -3886,7 +3847,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 247. [tlofreso/mcp-youtube-transcripts](https://github.com/tlofreso/mcp-youtube-transcripts)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 245. [tlofreso/mcp-youtube-transcripts](https://github.com/tlofreso/mcp-youtube-transcripts)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-youtube-transcripts project provides a command-line interface to automate the extraction of YouTube video transcripts, supporting various URL formats and offering customizable output options. It enhances developer productivity by integrating **
 
@@ -3901,7 +3862,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 248. [okdshin/duckduckgo_web_search_mcp_server](https://github.com/okdshin/duckduckgo_web_search_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 246. [okdshin/duckduckgo_web_search_mcp_server](https://github.com/okdshin/duckduckgo_web_search_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a GitHub-based web interface that enables users to search, retrieve, and manage code snippets, pull requests, and related artifacts from various repositories. It supports automation workflows, integrates with CI/CD pipelines, and**
 
@@ -3916,7 +3877,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 249. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 247. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The lrstanley/context7-http project provides a context server that supports HTTP streaming and streamable protocols, allowing developers to interact with the Context7 platform from anywhere. It includes features such as code review management, securi**
 
@@ -3931,7 +3892,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 250. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 248. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a Python-based MCP server designed to facilitate secure and efficient NMAP (Network Mapper) operations. It allows for automation of network scanning tasks, integration with various tools, and supports enterprise-grade security fe**
 
@@ -3946,7 +3907,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 251. [ruixingshi/deepseek-thinker-mcp](https://github.com/ruixingshi/deepseek-thinker-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 249. [ruixingshi/deepseek-thinker-mcp](https://github.com/ruixingshi/deepseek-thinker-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a bridge between Deepseek's advanced reasoning model and MCP (Model Context Protocol) servers, allowing seamless access to structured thought processes from the Deepseek API or local Ollama deployments. It supports both OpenAI AP**
 
@@ -3961,7 +3922,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 252. [lucky-dersan/gemini-mcp-server](https://github.com/lucky-dersan/gemini-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
+### 250. [lucky-dersan/gemini-mcp-server](https://github.com/lucky-dersan/gemini-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The gemini-mcp-server project provides a Python implementation of the MCP (Model Context Protocol) server, facilitating seamless integration with external AI models like Gemini. It supports automated code generation, workflow automation, and secure d**
 
@@ -3976,7 +3937,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 253. [fefergrgrgrg/insight](https://github.com/fefergrgrgrg/insight)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 251. [fefergrgrgrg/insight](https://github.com/fefergrgrgrg/insight)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg project provides an open-source Insight blockchain explorer with a modern AngularJS front-end and LevelDB backend. It offers REST and WebSocket APIs, enabling developers to integrate it into applications for real-time blockchain data access.**
 
@@ -3991,7 +3952,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 254. [atuinturtle/heart-mcp-server](https://github.com/atuinturtle/heart-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 252. [atuinturtle/heart-mcp-server](https://github.com/atuinturtle/heart-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a GitHub-hosted server (heart-mcp-server) that integrates advanced security features, automated workflows, and enterprise-grade code management tools. It supports automated code reviews, vulnerability detection, and secure deploy**
 
@@ -4006,7 +3967,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 255. [maverickg59/sushimcp](https://github.com/maverickg59/sushimcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 253. [maverickg59/sushimcp](https://github.com/maverickg59/sushimcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **SushiMCP serves as a dev tools MCP (Model Context Protocol) that delivers contextual data to developers' IDEs, improving the performance and accuracy of LLMs when generating code. It integrates seamlessly with AI development workflows, enabling faste**
 
@@ -4021,7 +3982,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 256. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 254. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides an AI-driven development toolkit using a Model Context Protocol (MCP) server to enhance coding productivity. It integrates advanced reasoning LLMs, code review tools, and file analysis features to support modern software develop**
 
@@ -4036,7 +3997,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 257. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 255. [saurabhdaware/abell-mcp](https://github.com/saurabhdaware/abell-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project focuses on analyzing the MCP (Multi-Process Communication) mechanisms within the Abell framework, aiming to enhance understanding of how processes interact securely and efficiently. It delves into the technical implementation, security c**
 
@@ -4051,7 +4012,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 258. [mahawi1992/mcp-documentation-server](https://github.com/mahawi1992/mcp-documentation-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 256. [mahawi1992/mcp-documentation-server](https://github.com/mahawi1992/mcp-documentation-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The MCP Documentation Server enhances traditional documentation tools by incorporating AI-driven capabilities such as code analysis, documentation generation, and intelligent search. It leverages Claude Desktop integration to provide real-time assist**
 
@@ -4066,7 +4027,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 259. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 257. [qubaomingg/stock-analysis-mcp](https://github.com/qubaomingg/stock-analysis-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a GitHub-based platform that enables users to analyze stock tickers by integrating with the Model Context Protocol. It supports fetching real-time and historical stock data, generating alerts based on price movements, and managin**
 
@@ -4081,7 +4042,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 260. [bgsuyu/arc-ccb-ai](https://github.com/bgsuyu/arc-ccb-ai/tree/HEAD/MCP_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 258. [bgsuyu/arc-ccb-ai](https://github.com/bgsuyu/arc-ccb-ai/tree/HEAD/MCP_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP server project provides a centralized AI-driven environment for orchestrating complex workflows, integrating external tools, and enhancing developer productivity through automation. It supports enterprise-grade security, code review, and depl**
 
@@ -4096,7 +4057,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 261. [halityurttas/cimri-mcp-investigate](https://github.com/halityurttas/cimri-mcp-investigate)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 259. [halityurttas/cimri-mcp-investigate](https://github.com/halityurttas/cimri-mcp-investigate)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides tools and integrations to streamline software development processes by enabling developers to manage code changes, automate workflows, and collaborate efficiently using GitHub's ecosystem. It focuses on enhancing productivity thr**
 
@@ -4111,7 +4072,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 262. [gourav221b/github-pr-mcp-server](https://github.com/gourav221b/github-pr-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 260. [gourav221b/github-pr-mcp-server](https://github.com/gourav221b/github-pr-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides a web application built with TypeScript to analyze GitHub pull requests using the Model Context Protocol (MCP). It enables developers to automate code review processes, manage code changes, and integrate security checks directly**
 
@@ -4126,7 +4087,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 263. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 261. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted server that integrates TinyPNG's image compression capabilities with LLM-based interfaces, enabling developers to automate and enhance their workflows. It supports various image formats and offers seamless integra**
 
@@ -4141,7 +4102,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 264. [kacase/mcp-outlook](https://github.com/kacase/mcp-outlook/tree/main/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 262. [kacase/mcp-outlook](https://github.com/kacase/mcp-outlook/tree/main/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a comprehensive developer platform that integrates AI-powered code generation, workflow automation, security features, and enterprise-grade deployment tools. It supports modern development practices such as CI/CD, DevSecOps, and **
 
@@ -4156,7 +4117,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 265. [NaorAIdeas/hubspot-mcp-server](https://github.com/NaorAIdeas/hubspot-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 263. [NaorAIdeas/hubspot-mcp-server](https://github.com/NaorAIdeas/hubspot-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The hubspot-mcp-server project provides a comprehensive environment for building and deploying intelligent applications using HubSpot's MCP (Managed Cloud Platform) capabilities. It offers robust features for code management, workflow automation, sec**
 
@@ -4171,7 +4132,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 266. [lkm1developer/google-docs-mcp-server](https://github.com/lkm1developer/google-docs-mcp-server/tree/master/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 264. [lkm1developer/google-docs-mcp-server](https://github.com/lkm1developer/google-docs-mcp-server/tree/master/src)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a centralized environment for developers to collaborate on code changes, conduct security assessments, and integrate with enterprise tools. It supports automated workflows, secure code management, and enterprise-grade security fe**
 
@@ -4186,7 +4147,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 267. [BadRooBot/test_m](https://github.com/BadRooBot/test_m)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 265. [BadRooBot/test_m](https://github.com/BadRooBot/test_m)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg Project's 'test_m' repository provides a GitHub-based platform for developers to create, manage, and deploy intelligent applications. It focuses on integrating external tools, automating workflows, and enhancing developer productivity throug**
 
@@ -4201,7 +4162,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 268. [SymbioticSec/mcp](https://github.com/SymbioticSec/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 266. [SymbioticSec/mcp](https://github.com/SymbioticSec/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The SymbioticSec/mcp project provides a developer-focused tool to integrate security scanning into software development workflows. It leverages the MCP (Model Context Protocol) to securely analyze code and infrastructure files without disrupting ongo**
 
@@ -4216,7 +4177,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 269. [dsharipova/mcp-hw](https://github.com/dsharipova/mcp-hw)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 267. [dsharipova/mcp-hw](https://github.com/dsharipova/mcp-hw)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a developer platform that integrates code review, workflow automation, security features, and deployment tools to streamline software development processes. It supports enterprise-grade security, DevOps practices, and AI-assisted**
 
@@ -4231,7 +4192,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 270. [nicksz/jTime](https://github.com/nicksz/jTime/blob/f7511b2e4ee0f1084e3dec3421bc1addbead88e3/tests/c.html)  `9.0` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
+### 268. [nicksz/jTime](https://github.com/nicksz/jTime/blob/f7511b2e4ee0f1084e3dec3421bc1addbead88e3/tests/c.html)  `9.0` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The jTime project focuses on streamlining software development processes by providing an intelligent platform for developers. It emphasizes automation, security, and integration capabilities, making it suitable for modern DevOps and CI/CD environment**
 
@@ -4247,7 +4208,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 271. [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 269. [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This resource provides a comprehensive list of practical agent skills, categorized to help Borg understand how to effectively integrate these capabilities into its operations. The skills are designed for immediate use with popular AI agents like Clau**
 
@@ -4262,7 +4223,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 272. [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 270. [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a comprehensive developer platform that integrates advanced security features, automated code review, CI/CD pipelines, and intelligent code generation. It supports enterprise-level workflows by offering tools for secure collabora**
 
@@ -4277,7 +4238,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 273. [guaidaoyiyoudao/garmincn-mcp](https://github.com/guaidaoyiyoudao/garmincn-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 271. [guaidaoyiyoudao/garmincn-mcp](https://github.com/guaidaoyiyoudao/garmincn-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a secure and efficient way to integrate MCP server data into AI systems, enabling advanced analytics and decision-making based on real-time health metrics. It leverages modern development practices, including GitHub-based workfl**
 
@@ -4292,7 +4253,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 274. [ai-zerolab/yourware-mcp](https://github.com/ai-zerolab/yourware-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 272. [ai-zerolab/yourware-mcp](https://github.com/ai-zerolab/yourware-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides a self-hosted MCP (Multi-Cloud Platform) server designed to streamline the deployment, management, and orchestration of yourware applications across multiple cloud environments. It integrates with AI tools like GitHub Copilot an**
 
@@ -4307,7 +4268,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 275. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 273. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The brevdev/brev-mcp project provides a GitHub-hosted MCP (Managed Code Protection) server that integrates with the Brev CLI to secure code repositories. It supports automated actions such as code reviews, vulnerability scanning, and deployment workf**
 
@@ -4322,7 +4283,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 276. [jacklandis29/codechecker-mcp](https://github.com/jacklandis29/codechecker-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 274. [jacklandis29/codechecker-mcp](https://github.com/jacklandis29/codechecker-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **CodeChecker-MCP is a developer-focused code review tool designed to enhance productivity by leveraging AI-driven insights within the Cursor IDE. It utilizes OpenAI's GPT models to provide real-time feedback, suggestions, and improvements directly in **
 
@@ -4337,7 +4298,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 277. [torshepherd/compiler-explorer-mcp](https://github.com/torshepherd/compiler-explorer-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 275. [torshepherd/compiler-explorer-mcp](https://github.com/torshepherd/compiler-explorer-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The torshepherd/compiler-explorer-mcp project provides a GitHub-based platform to explore compiler models (MCP), analyze compiler behavior across languages, and investigate optimization techniques. It supports deep dives into compiler features, code **
 
@@ -4352,7 +4313,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 278. [vidhupv/x-mcp](https://github.com/vidhupv/x-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 276. [vidhupv/x-mcp](https://github.com/vidhupv/x-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The x-mcp project provides a developer platform that enables teams to build, deploy, and manage intelligent applications using AI-powered features. It supports automated workflows, secure code management, and integration with external tools, making i**
 
@@ -4367,7 +4328,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 279. [dzplus/ai-mcp-server](https://github.com/dzplus/ai-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 277. [dzplus/ai-mcp-server](https://github.com/dzplus/ai-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Spring Boot implementation of the McpServer, which is designed to facilitate automated workflows and code management. It includes features such as viewing file lists, integrating external tools, and supporting developer workflo**
 
@@ -4382,7 +4343,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 280. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
+### 278. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a GitHub repository containing tools and resources for simulating and managing complex software development workflows, focusing on automation, code review, security, and integration with enterprise platforms. It supports advanced**
 
@@ -4397,7 +4358,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 281. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 279. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The cheny-alf/filesystem-server project is a GitHub-hosted platform designed to provide an intelligent filesystem server with capabilities for code review, security, and workflow automation. It integrates features such as code management, vulnerabili**
 
@@ -4412,7 +4373,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 282. [anish-1101-lab/mcp-notes-making](https://github.com/anish-1101-lab/mcp-notes-making)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 280. [anish-1101-lab/mcp-notes-making](https://github.com/anish-1101-lab/mcp-notes-making)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a comprehensive guide on how to create, organize, and manage MCP (Mentor Cloud Platform) notes using GitHub as the central repository. It covers best practices for workflow automation, code review processes, security measures, a**
 
@@ -4427,7 +4388,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 283. [jincai/rootdata-mcp-server](https://github.com/jincai/rootdata-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 281. [jincai/rootdata-mcp-server](https://github.com/jincai/rootdata-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The jincai/rootdata-mcp-server is a Python-based MCP server designed to facilitate seamless integration between AI tools like Claude and the RootData API. It supports secure data queries, provides encryption, and enhances developer workflows through **
 
@@ -4442,7 +4403,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 284. [readwiseio/readwise-mcp](https://github.com/readwiseio/readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 282. [readwiseio/readwise-mcp](https://github.com/readwiseio/readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The readwiseio/readwise-mcp repository provides a GitHub-hosted server for interacting with Readwise MCP, enabling developers to manage code reviews, track changes, and enhance application security. It supports automation of workflows, integration wi**
 
@@ -4457,7 +4418,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 285. [suqidan/volcengine_knowledgebase_mcp](https://github.com/suqidan/volcengine_knowledgebase_mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 283. [suqidan/volcengine_knowledgebase_mcp](https://github.com/suqidan/volcengine_knowledgebase_mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a secure and efficient way to manage and utilize the Claude Desktop knowledge base through MCP servers. It offers robust security features, easy configuration, and seamless integration with various platforms, making it ideal for**
 
@@ -4472,7 +4433,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 286. [kirikoko1213/kr-mcp-server](https://github.com/kirikoko1213/kr-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 284. [kirikoko1213/kr-mcp-server](https://github.com/kirikoko1213/kr-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a comprehensive set of tools and services aimed at enhancing software development workflows. It includes features such as code generation, AI-assisted coding, secure deployment, and integration with external systems. The platform**
 
@@ -4487,7 +4448,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 287. [n0safe/grafana-mcp](https://github.com/n0safe/grafana-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
+### 285. [n0safe/grafana-mcp](https://github.com/n0safe/grafana-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
 
 **The N0SAFE/grafana-mcp project provides a centralized dashboard for developers to monitor code repositories, detect security issues, and manage workflows using Grafana. It integrates with GitHub to offer real-time insights into project activity, vuln**
 
@@ -4502,7 +4463,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 288. [power3xz/youtube-transcript-mcp](https://github.com/power3xz/youtube-transcript-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 286. [power3xz/youtube-transcript-mcp](https://github.com/power3xz/youtube-transcript-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The resource provides a GitHub repository and documentation for a project that enables developers to search and process YouTube subtitles using the MCP (Media Content Processing) framework. It includes setup instructions, usage examples, and integrat**
 
@@ -4517,7 +4478,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 289. [jkawamoto/mcp-youtube-transcript](https://github.com/jkawamoto/mcp-youtube-transcript)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 287. [jkawamoto/mcp-youtube-transcript](https://github.com/jkawamoto/mcp-youtube-transcript)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP server fetches YouTube video transcripts via the uvx command-line utility, supporting parameters like language, timestamps, and pagination. It is designed for integration into development workflows, enabling automated code reviews, security a**
 
@@ -4532,7 +4493,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 290. [sfncat/mcp-joern](https://github.com/sfncat/mcp-joern)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 288. [sfncat/mcp-joern](https://github.com/sfncat/mcp-joern)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a lightweight MCP server based on Joern, integrating code review functionalities and security checks to enhance developer productivity. It supports Python-based development workflows, integrates with CI/CD pipelines, and offers t**
 
@@ -4547,7 +4508,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 291. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 289. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Python implementation of MemProcFS-mcp-server, enabling developers to monitor and manage memory usage and processes in a structured manner. It focuses on integrating with MCP (Memory Management Control) systems and offers tools**
 
@@ -4562,7 +4523,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 292. [kpsunil97/devrev-mcp-server](https://github.com/kpsunil97/devrev-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 290. [kpsunil97/devrev-mcp-server](https://github.com/kpsunil97/devrev-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The kpsunil97/devrev-mcp-server project provides a GitHub-based DevRev server that enables developers to manage code reviews, pull requests, and CI/CD pipelines efficiently. It integrates with external tools and supports enterprise-grade security fea**
 
@@ -4577,7 +4538,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 293. [akhidastech/github-agentic-chat-mcp](https://github.com/akhidastech/github-agentic-chat-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 291. [akhidastech/github-agentic-chat-mcp](https://github.com/akhidastech/github-agentic-chat-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides a MCP (Model Context Protocol) server built in Go that facilitates GitHub agentic chat. It integrates vector search capabilities to enable semantic searching across stored documents, making it suitable for enterprise application**
 
@@ -4592,7 +4553,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 294. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 292. [secretiveshell/mcp-toolhouse](https://github.com/secretiveshell/mcp-toolhouse)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The SecretiveShell/MCP-toolhouse project serves as a model context protocol (MCP) server, providing seamless integration with the Toolhouse platform. It allows developers to securely access various AI and development tools hosted on GitHub, enhancing**
 
@@ -4607,7 +4568,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 295. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 293. [sujianqingfeng/mcp-apifox](https://github.com/sujianqingfeng/mcp-apifox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-apifox project provides an AI-enhanced interface for developers to extract and utilize information from Apifox API documentation, facilitating smoother integration of AI tools within the MCP framework. It supports automated code generation, w**
 
@@ -4622,7 +4583,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 296. [missionsquad/mcp-helper-tools](https://github.com/missionsquad/mcp-helper-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 294. [missionsquad/mcp-helper-tools](https://github.com/missionsquad/mcp-helper-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The MissionSquad/mcp-helper-tools project provides a suite of utilities and tools for managing LLM agents, including geolocation, system monitoring, cryptographic operations, and QR code generation. It supports integration with various clients and se**
 
@@ -4637,7 +4598,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 297. [jbrower95/mcp-asset-gen](https://github.com/jbrower95/mcp-asset-gen)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 295. [jbrower95/mcp-asset-gen](https://github.com/jbrower95/mcp-asset-gen)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The jbrower95/mcp-asset-gen project provides an MCP Server capable of generating visual assets using the OpenAI gpt-image-1 model. It is designed to streamline the creation of image-based content for applications such as arcade games, offering a user**
 
@@ -4652,7 +4613,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 298. [andreasgassmann/acurast-mcp-server](https://github.com/andreasgassmann/acurast-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 296. [andreasgassmann/acurast-mcp-server](https://github.com/andreasgassmann/acurast-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The acurast-mcp-server project provides a platform to integrate external tools, automate workflows, and manage code changes in a secure and efficient manner. It leverages GitHub's ecosystem for collaboration, security, and deployment, supporting ente**
 
@@ -4667,7 +4628,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 299. [smileycointools/smileyco.in](https://github.com/smileycointools/smileyco.in)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 297. [smileycointools/smileyco.in](https://github.com/smileycointools/smileyco.in)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **SmileycoinTools is a GitHub-based platform designed to streamline developer workflows by offering features such as code review management, automated deployment, and integration with AI tools. It supports enterprise-level security, code security pract**
 
@@ -4682,7 +4643,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 300. [benyue1978/run-command-mcp](https://github.com/benyue1978/run-command-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 298. [benyue1978/run-command-mcp](https://github.com/benyue1978/run-command-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The 'run-command-mcp' project provides a command-line interface to execute GitHub Actions workflows, manage code changes, and integrate with various development tools. It supports automation of tasks such as code review, security scanning, and deploy**
 
@@ -4697,7 +4658,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 301. [javaprogrammerlb/zoom-mcp-server](https://github.com/javaprogrammerlb/zoom-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 299. [javaprogrammerlb/zoom-mcp-server](https://github.com/javaprogrammerlb/zoom-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a Java application that integrates with Zoom to enable users to schedule, manage, and interact with meetings using AI-driven automation. It supports features such as meeting creation, editing, deletion, and detailed view, all acc**
 
@@ -4712,7 +4673,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 302. [michael-tomala/mcp-wordpress-gutenberg](https://github.com/michael-tomala/mcp-wordpress-gutenberg)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 300. [michael-tomala/mcp-wordpress-gutenberg](https://github.com/michael-tomala/mcp-wordpress-gutenberg)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a WordPress plugin that integrates advanced AI and developer tools into the Gutenberg editor, enabling developers to write, review, and manage code more efficiently. It supports automated code generation, secure development workf**
 
@@ -4727,7 +4688,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 303. [buoooou/mcp-ui-gen](https://github.com/buoooou/mcp-ui-gen)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 301. [buoooou/mcp-ui-gen](https://github.com/buoooou/mcp-ui-gen)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-ui-gen project provides a comprehensive solution for enterprise teams to create, fetch, and manage UI components through natural language. It supports the development of modern applications with AI-driven capabilities, offering features such **
 
@@ -4742,7 +4703,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 304. [rhitune2/mock-data-mcp](https://github.com/rhitune2/mock-data-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 302. [rhitune2/mock-data-mcp](https://github.com/rhitune2/mock-data-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP (Mock Data Provider) server is designed to provide developers with a controlled environment to generate and manage test data. It supports workflow automation, code review, security practices, and integration with various tools, making it suit**
 
@@ -4757,7 +4718,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 305. [joshuarileydev/simulator-mcp-server](https://github.com/joshuarileydev/simulator-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 303. [joshuarileydev/simulator-mcp-server](https://github.com/joshuarileydev/simulator-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a server implementation that allows programmatic control over iOS simulators, supporting tasks such as booting, shutting down, installing app bundles, and managing configurations through standardized interfaces. It is designed to**
 
@@ -4772,7 +4733,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 306. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 304. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The osmosis-agent-toolkit provides a comprehensive solution for developers to interact with Osmosis MCP servers, enabling automation of various tasks such as code reviews, security checks, and integration with external tools. It supports setting up M**
 
@@ -4787,7 +4748,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 307. [rebrandly/rebrandly-mcp](https://github.com/rebrandly/rebrandly-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 305. [rebrandly/rebrandly-mcp](https://github.com/rebrandly/rebrandly-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This repository provides an official MCP server that connects AI tools like Claude, Gemini, and GitHub Copilot to a Rebrandly account. It offers features such as link management, analytics, account administration, and integration with enterprise plat**
 
@@ -4802,7 +4763,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 308. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
+### 306. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
 
 **The npm-mcp-server is a model context protocol (MCP) server designed to provide detailed information about npm packages. It enables developers to search, install, and manage dependencies efficiently within a secure environment. The project supports i**
 
@@ -4817,7 +4778,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 309. [crunchloop/mcp-teamtailor](https://github.com/crunchloop/mcp-teamtailor)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 307. [crunchloop/mcp-teamtailor](https://github.com/crunchloop/mcp-teamtailor)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP Teamtailor is a Model Context Protocol (MCP) server designed to simplify integration with the teamtailor API, facilitating automated code generation and management. It supports various use cases such as modernizing applications, enhancing Dev**
 
@@ -4832,7 +4793,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 310. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 308. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Dockerized server implementation that integrates with Dify AI's chat completion API, allowing developers to leverage AI-driven responses within their applications. It supports key features such as code generation, context manag**
 
@@ -4847,7 +4808,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 311. [lowlyocean/mcp-vikunja](https://github.com/lowlyocean/mcp-vikunja)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 309. [lowlyocean/mcp-vikunja](https://github.com/lowlyocean/mcp-vikunja)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a GitHub-hosted server implementing the Simple Model Context Protocol (MCP) to manage and automate reminders related to Vikunja, a hypothetical or niche application. It integrates with Docker and supports workflow automation, cod**
 
@@ -4862,7 +4823,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 312. [pnizer/wweb-mcp](https://github.com/pnizer/wweb-mcp/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 310. [pnizer/wweb-mcp](https://github.com/pnizer/wweb-mcp/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a developer platform focused on modernizing software development through AI integration, DevOps practices, and secure application development. It emphasizes automation of workflows, code review processes, and enterprise security **
 
@@ -4877,7 +4838,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 313. [mattcoatsworth/mailchip-mcp-server](https://github.com/mattcoatsworth/mailchip-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 311. [mattcoatsworth/mailchip-mcp-server](https://github.com/mattcoatsworth/mailchip-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a GitHub-hosted server solution for integrating with Mailchimp, enabling developers to build, manage, and deploy automated email campaigns efficiently. It supports workflow automation, code review, security features, and integrat**
 
@@ -4892,7 +4853,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 314. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 312. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge/tree/main/src)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp-graphql-forge library provides a GraphQL-based interface for integrating with Borg's development tools, enabling developers to streamline workflows, enhance security, and manage code changes efficiently. It supports automation of tasks such a**
 
@@ -4907,7 +4868,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 315. [sveltejs/mcp](https://github.com/sveltejs/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 313. [sveltejs/mcp](https://github.com/sveltejs/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The sveltejs/ai-tools project offers a comprehensive suite of tools and services designed to streamline agentic development. It supports code generation, workflow automation, secure deployment, and integration with external systems, making it suitabl**
 
@@ -4922,7 +4883,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 316. [zhaoganghao/hellomcp](https://github.com/zhaoganghao/hellomcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 314. [zhaoganghao/hellomcp](https://github.com/zhaoganghao/hellomcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides tools and frameworks to streamline software development processes by integrating AI-driven code assistance, secure deployment pipelines, and enterprise-grade security features. It supports modern DevOps practices through CI/CD au**
 
@@ -4937,7 +4898,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 317. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 315. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a developer-focused environment for building, deploying, and securing applications using tools like GitHub Copilot, AI-assisted coding, and enterprise-grade security features. It supports modern DevOps practices with CI/CD integr**
 
@@ -4952,7 +4913,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 318. [motorboy1/my-mcp-server](https://github.com/motorboy1/my-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 316. [motorboy1/my-mcp-server](https://github.com/motorboy1/my-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a centralized platform for developers to manage code changes, conduct code reviews, integrate security checks, and automate workflows using tools like GitHub Copilot and AIGitHub SparkBuild. It supports enterprise-grade security **
 
@@ -4967,7 +4928,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 319. [robinovitch61/jeeves](https://github.com/robinovitch61/jeeves)  `8.8` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗3 layers
+### 317. [robinovitch61/jeeves](https://github.com/robinovitch61/jeeves)  `8.8` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗3 layers
 
 **The 'jeeves' project offers a comprehensive tool for managing and analyzing conversational data from AI agents. It provides features such as browsing session histories, searching within conversations, and integrating with popular AI platforms like Cl**
 
@@ -4982,7 +4943,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 320. [https://kilo.ai](https://kilo.ai)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗3 layers
+### 318. [https://kilo.ai](https://kilo.ai)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗3 layers
 
 **Kilo is an open-source AI coding agent that integrates seamlessly into popular development tools like VS Code, JetBrains IDEs, and CLI workflows. It offers a range of modes including code writing, refactoring, debugging, and architectural planning, e**
 
@@ -4998,7 +4959,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 321. [https://www.replay.io/?rdt_cid=5843586568472016283](https://www.replay.io/?rdt_cid=5843586568472016283)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗4 layers
+### 319. [https://www.replay.io/?rdt_cid=5843586568472016283](https://www.replay.io/?rdt_cid=5843586568472016283)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗4 layers
 
 **Replay MCP (Mobile Compatibility Plugin) enhances developer experience by offering a deterministic browser runtime recording feature. It captures every DOM change, network request, state update, and error in real time, allowing agents to pinpoint the**
 
@@ -5014,7 +4975,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 322. [aptro/superset-mcp](https://github.com/aptro/superset-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 320. [aptro/superset-mcp](https://github.com/aptro/superset-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A developer workflow tool that integrates with Superset to enable AI agents, Claude apps, and other tools for automated data management and dashboard operations.**
 
@@ -5030,7 +4991,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 323. [cfdude/mac-shell-mcp](https://github.com/cfdude/mac-shell-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 321. [cfdude/mac-shell-mcp](https://github.com/cfdude/mac-shell-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A secure MCP server for executing macOS terminal commands with ZSH shell, featuring whitelisting, approval mechanisms, and comprehensive security controls.**
 
@@ -5046,7 +5007,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 324. [bucketco/bucket-javascript-sdk](https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 322. [bucketco/bucket-javascript-sdk](https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Borg CLI provides a command-line interface for managing Reflag flags, enabling developers to streamline flag creation, configuration, and type generation directly from their terminal.**
 
@@ -5062,7 +5023,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 325. [wrenchpilot/it-tools-mcp](https://github.com/wrenchpilot/it-tools-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 323. [wrenchpilot/it-tools-mcp](https://github.com/wrenchpilot/it-tools-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive Model Context Protocol (MCP) server offering access to over 100 IT tools, enabling automated workflows and streamlined development processes.**
 
@@ -5078,7 +5039,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 326. [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 324. [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Microsoft Learn MCP Server provides secure, direct access to official Microsoft documentation for building and managing AI agents with real-time code samples and trusted content.**
 
@@ -5094,7 +5055,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 327. [Nimbalyst — Visual Workspace for Claude Code & Codex](https://nimbalyst.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 325. [Nimbalyst — Visual Workspace for Claude Code & Codex](https://nimbalyst.com)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **Nimbalyst functions as a session manager and visual editor, specifically tailored for enhancing interaction with AI code assistants like Claude Code and Codex. It provides a unified environment for editing markdown, CSVs, mockups (Excalidraw), archit**
 
@@ -5110,7 +5071,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 328. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 326. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **Pieces leverages the Model Context Protocol (MCP) to expose its proprietary Long-Term Memory (LTM-2.7) engine to external LLM-powered applications such as Cursor, GitHub Copilot, and Claude. By acting as an MCP Server, PiecesOS provides a standardize**
 
@@ -5126,7 +5087,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 329. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 327. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The Agent Client Protocol (ACP) aims to standardize the interface between code editors/IDEs and AI coding agents, analogous to how the Language Server Protocol (LSP) standardized language server integration. This standardization addresses the current**
 
@@ -5142,7 +5103,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 330. [Responsible use of GitHub Copilot CLI - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/responsible-use/copilot-cli)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 328. [Responsible use of GitHub Copilot CLI - GitHub Enterprise Cloud Docs](https://docs.github.com/en/enterprise-cloud@latest/copilot/responsible-use/copilot-cli)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The GitHub Copilot CLI offers a chat-like interface within the terminal, enabling it to autonomously create and modify files or execute commands based on user instructions. It can perform various tasks such as bug fixes, implementing new features, pr**
 
@@ -5158,7 +5119,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 331. [Code Web Chat - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=robertpiosik.gemini-coder)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 329. [Code Web Chat - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=robertpiosik.gemini-coder)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **Code Web Chat (CWC) is a privacy-first AI coding toolkit for VS Code designed to improve the quality and efficiency of AI-assisted coding. It constructs XML-formatted prompts for chatbots (ChatGPT, Claude, Gemini, etc.) and APIs, enabling multi-file **
 
@@ -5174,7 +5135,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 332. [Show HN: LiberClaw, deploy AI agents that run 24/7 on their own VMs | Hacker News](https://news.ycombinator.com/item?id=47263383)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 330. [Show HN: LiberClaw, deploy AI agents that run 24/7 on their own VMs | Hacker News](https://news.ycombinator.com/item?id=47263383)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **The Borg Project's 'LiberClaw' is an open-source system designed to manage and run AI agents across virtual machines, ensuring they operate 24/7 without interruption. It provides a robust infrastructure for deploying various AI functionalities such a**
 
@@ -5190,7 +5151,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 333. [raccoonaihq/raccoonai-mcp-server](https://github.com/raccoonaihq/raccoonai-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 331. [raccoonaihq/raccoonai-mcp-server](https://github.com/raccoonaihq/raccoonai-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The Raccoon AI MCP Server is an agent orchestration tool that leverages the LAM API for web browsing, data extraction, and automation of complex web tasks. It supports a wide range of use cases including code review, security audits, CI/CD pipelines,**
 
@@ -5206,7 +5167,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 334. [riza-io/riza-mcp](https://github.com/riza-io/riza-mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 332. [riza-io/riza-mcp](https://github.com/riza-io/riza-mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The Riza MCP server acts as a secure environment for running LLM-generated code using the Riza API. It offers tools to create, fetch, edit, and execute code securely, supporting modern development workflows with features like automated workflows, cod**
 
@@ -5222,7 +5183,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 335. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 333. [webreactiva-devs/mcp-character-counter](https://github.com/webreactiva-devs/mcp-character-counter)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The MCP Character Counter is a minimalistic server that leverages the Model Context Protocol (MCP) to deliver comprehensive character breakdowns, including counts of characters, letters, numbers, and symbols. It supports integration with AI tools lik**
 
@@ -5238,7 +5199,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 336. [stagas/rtdiff](https://github.com/stagas/rtdiff)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 334. [stagas/rtdiff](https://github.com/stagas/rtdiff)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **rtdiff is a user-friendly software tool designed to enhance developer productivity by displaying real-time git differences and offering intelligent commit recommendations powered by AI. It integrates seamlessly into development workflows, supporting **
 
@@ -5254,7 +5215,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 337. [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 335. [VoltAgent/awesome-claude-skills](https://github.com/VoltAgent/awesome-claude-skills)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **This repository provides a curated collection of agent skills, focusing on real-world capabilities created by engineering teams rather than mass AI-generated content. It includes official skills from Anthropic, Google Labs, Vercel, Stripe, Cloudflare**
 
@@ -5268,7 +5229,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 338. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 336. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-document-reader is a lightweight Python application designed to facilitate reading and processing of digital documents such as EPUB and PDF files. It leverages the MCP (Media Content Processing) library to provide an intuitive interface for d**
 
@@ -5282,7 +5243,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 339. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 337. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP-sentry server enables developers to inspect error reports, stack traces, and debugging information from Sentry.io. It provides tools to retrieve issue details by ID or URL, analyze project-specific issues, and integrate with various developme**
 
@@ -5297,7 +5258,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 340. [leee62/pickapicon-mcp](https://github.com/leee62/pickapicon-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 338. [leee62/pickapicon-mcp](https://github.com/leee62/pickapicon-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The Pickapicon-MCP project provides a developer-friendly interface to generate SVG icons quickly by leveraging large language models (LLMs). It streamlines the process of obtaining vector graphics, making it easier for designers and developers to int**
 
@@ -5311,7 +5272,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 341. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 339. [ray0907/mcp-arxiv](https://github.com/ray0907/mcp-arxiv)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg Project's repository provides a web-based interface that enables users to search for and retrieve academic papers from the arXiv repository. It supports advanced search functionalities, including filtering by keywords, authors, and publicati**
 
@@ -5325,7 +5286,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 342. [mathieugal/mcp-serveur](https://github.com/mathieugal/mcp-serveur)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 340. [mathieugal/mcp-serveur](https://github.com/mathieugal/mcp-serveur)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP-serveur project provides a GitHub-hosted server solution designed to streamline software development processes. It offers tools for code management, workflow automation, and enterprise-grade security, making it suitable for modern DevOps and **
 
@@ -5339,7 +5300,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 343. [jamesacklin/tlon-mcp-server](https://github.com/jamesacklin/tlon-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 341. [jamesacklin/tlon-mcp-server](https://github.com/jamesacklin/tlon-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The jamesacklin/tlon-mcp-server is an MCP (Model Context Protocol) server designed to facilitate seamless communication between Tlon agents and external tools. It provides a robust platform for developers to integrate with Tlon agents, automate workf**
 
@@ -5353,7 +5314,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 344. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗4 layers 📍
+### 342. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **The project provides a centralized platform for managing audio files, integrating code review workflows, security scanning, and automated deployment processes. It leverages GitHub's ecosystem to enable developers to securely manage code changes, enfo**
 
@@ -5368,7 +5329,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 345. [quarkiverse/quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 343. [quarkiverse/quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers/tree/HEAD/filesystem)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The quarkus-mcp-servers project provides a Java-based server that enables Large Language Models (LLMs) to interact with the filesystem via the Model Context Protocol (MCP). It allows for programmatic file listing, reading, and modification, supportin**
 
@@ -5382,7 +5343,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 346. [AuraCoreCF/AuraCoreCF.github.io](https://github.com/AuraCoreCF/AuraCoreCF.github.io/tree/main/AuraRuntime)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers
+### 344. [AuraCoreCF/AuraCoreCF.github.io](https://github.com/AuraCoreCF/AuraCoreCF.github.io/tree/main/AuraRuntime)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers
 
 **AuraCoreCF is a platform designed to streamline the development and deployment of AI-driven applications by integrating advanced code generation, secure coding practices, and automated workflows. It supports enterprise-level security features, develo**
 
@@ -5397,7 +5358,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 347. [mockloop/mockloop-mcp](https://github.com/mockloop/mockloop-mcp)  `10.0` ★★★ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 345. [mockloop/mockloop-mcp](https://github.com/mockloop/mockloop-mcp)  `10.0` ★★★ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **MockLoop MCP provides an AI-native testing platform for intelligent API development, enabling automated test generation, execution, and analysis.**
 
@@ -5413,7 +5374,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 348. [HackerNews/API](https://github.com/HackerNews/API)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 346. [HackerNews/API](https://github.com/HackerNews/API)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **This resource provides comprehensive documentation, examples, and samples for integrating with the Hacker News API. It covers authentication, data retrieval, and usage patterns to help developers build intelligent applications efficiently.**
 
@@ -5429,7 +5390,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 349. [matin/garth-mcp-server](https://github.com/matin/garth-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 347. [matin/garth-mcp-server](https://github.com/matin/garth-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a server-based solution for handling Garmin Connect MCP server communications, enabling secure integration with various platforms and tools. It supports automation, workflow management, and security features to ensure smooth data**
 
@@ -5444,7 +5405,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 350. [unionai-oss/union-mcp](https://github.com/unionai-oss/union-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 348. [unionai-oss/union-mcp](https://github.com/unionai-oss/union-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The Borg Project's 'union-mcp' repository provides tools and documentation to deploy and manage MCP (Managed Cloud Provider) server environments using Union AI. It supports both v1 and v2 versions, offering deployment guides, integration examples, an**
 
@@ -5459,7 +5420,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 351. [joshmayerr/mcp-x](https://github.com/joshmayerr/mcp-x)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 349. [joshmayerr/mcp-x](https://github.com/joshmayerr/mcp-x)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The mcp-x project provides a tool to automate interactions with X accounts via the real browser API, enabling streamlined and efficient account management workflows. It focuses on enhancing developer productivity by integrating seamlessly into existi**
 
@@ -5474,7 +5435,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 352. [vinayak-mehta/gmail-mcp](https://github.com/vinayak-mehta/gmail-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 350. [vinayak-mehta/gmail-mcp](https://github.com/vinayak-mehta/gmail-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The 'Borg' Project's gmail-mcp repository provides a GitHub-based solution to search, retrieve, and manage emails from Gmail using the MCP (Machine-to-Machine Protocol). It integrates with Claude CLI for advanced email automation, offering features s**
 
@@ -5488,7 +5449,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 353. [therealjohn/microsoft-teams-mcp](https://github.com/therealjohn/microsoft-teams-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 351. [therealjohn/microsoft-teams-mcp](https://github.com/therealjohn/microsoft-teams-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The Microsoft Teams MCP server provides a tool called 'therealjohn/microsoft-teams-mcp' that enables developers to send notifications to Microsoft Teams via VS Code. It supports Markdown formatting and uses Azure AD authentication for secure communic**
 
@@ -5502,7 +5463,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 354. [jimmy974/opensearch-mcp-server](https://github.com/jimmy974/opensearch-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 352. [jimmy974/opensearch-mcp-server](https://github.com/jimmy974/opensearch-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The Borg Project's 'opensearch-mcp-server' is a GitHub-hosted project designed to streamline the management of Apache OpenSearch servers. It provides tools for automation, workflow orchestration, and integration with external systems, supporting mode**
 
@@ -5517,7 +5478,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 355. [shadowk1337/mcp-csv-server](https://github.com/shadowk1337/mcp-csv-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 353. [shadowk1337/mcp-csv-server](https://github.com/shadowk1337/mcp-csv-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The mcp-csv-server project provides a centralized platform for developers to manage, analyze, and process CSV files using GitHub's infrastructure. It integrates with various tools and services to enhance code review, security, and automation processe**
 
@@ -5532,7 +5493,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 356. [seriawei/mcp-developer-name](https://github.com/seriawei/mcp-developer-name)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 354. [seriawei/mcp-developer-name](https://github.com/seriawei/mcp-developer-name)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP server provides an interactive interface for developers to interact with AI models, manage code changes, and enhance security practices. It supports workflow automation, secure code deployment, and integrates with tools like GitHub Copilot an**
 
@@ -5547,7 +5508,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 357. [jotaijs/jotai-mcp-server](https://github.com/jotaijs/jotai-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 355. [jotaijs/jotai-mcp-server](https://github.com/jotaijs/jotai-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The jotai-mcp-server project provides a GitHub-hosted server solution built with Deno and Jotai, enabling developers to create and manage complex application workflows in a secure and scalable environment. It supports code generation, CI/CD integrati**
 
@@ -5562,7 +5523,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 358. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 356. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The project leverages CAMEL AI to automate the creation of MCP servers tailored for various applications. It integrates seamlessly with different platforms and supports a range of functionalities, enhancing infrastructure management and workflow auto**
 
@@ -5577,7 +5538,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 359. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 357. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a Python implementation of a cryptocurrency exchange system designed to integrate with MCP (Machine-to-Machine) protocols. It focuses on secure communication, transaction handling, and automation features suitable for enterprise-**
 
@@ -5592,7 +5553,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 360. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 358. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **This project provides a Python-based MCP server designed to integrate with Anthropic's Claude Desktop application and the CFPB Consumer Complaint Database API. It enables developers to build intelligent workflows by automating data retrieval, process**
 
@@ -5607,7 +5568,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 361. [acxelerator/mcp-tenki](https://github.com/acxelerator/mcp-tenki)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 359. [acxelerator/mcp-tenki](https://github.com/acxelerator/mcp-tenki)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **The acxelerator/mcp-tenki project provides a centralized platform for teams to streamline their software development processes. It focuses on enhancing collaboration through features like code review management, automated workflow execution, and inte**
 
@@ -5621,7 +5582,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 362. [westernconcrete/jfk-mcp](https://github.com/westernconcrete/jfk-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 360. [westernconcrete/jfk-mcp](https://github.com/westernconcrete/jfk-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The WesternConcrete/jfk-mcp project provides a GitHub-based platform that integrates with the Archives API to access JFK documents. It leverages GitHub Actions for workflow automation, enabling users to manage code changes, track issues, and ensure s**
 
@@ -5636,7 +5597,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 363. [alexeydubinin/hh-jira-mcp-server](https://github.com/alexeydubinin/hh-jira-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 361. [alexeydubinin/hh-jira-mcp-server](https://github.com/alexeydubinin/hh-jira-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a platform for building, testing, and deploying AI models using tools like GitHub Copilot and MCP. It supports enterprise-level development workflows, secure code management, and integration with external tools to enhance product**
 
@@ -5651,7 +5612,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 364. [mckaywrigley/takeoff-linear-mcp-server](https://github.com/mckaywrigley/takeoff-linear-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 362. [mckaywrigley/takeoff-linear-mcp-server](https://github.com/mckaywrigley/takeoff-linear-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The project provides a platform for developers to host, manage, and deploy machine learning models using GitHub Actions. It integrates code review, security checks, CI/CD pipelines, and enterprise-grade infrastructure to support modern software devel**
 
@@ -5666,7 +5627,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 365. [kenliao94/mcp-server-rabbitmq](https://github.com/kenliao94/mcp-server-rabbitmq)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 363. [kenliao94/mcp-server-rabbitmq](https://github.com/kenliao94/mcp-server-rabbitmq)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP server facilitates seamless communication between applications by acting as an intermediary for RabbitMQ interactions. It supports automation, workflow orchestration, and secure code management, making it ideal for modern DevOps and enterpris**
 
@@ -5681,7 +5642,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 366. [renanvieira/brewfather-mcp](https://github.com/renanvieira/brewfather-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 364. [renanvieira/brewfather-mcp](https://github.com/renanvieira/brewfather-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub repository containing the MCP (Messaging Control Plane) server, allowing developers to interact with Brewfather via a web interface. This facilitates integration, testing, and collaboration within software development wo**
 
@@ -5696,7 +5657,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 367. [databutton/databutton-mcp](https://github.com/databutton/databutton-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 365. [databutton/databutton-mcp](https://github.com/databutton/databutton-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **The Databutton MCP Server provides a platform for developers to create, manage, and deploy complex business applications with AI-powered backends. It supports both frontend and backend development, offering tools for automation, CI/CD, and secure dep**
 
@@ -5710,7 +5671,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 368. [alistairwalsh/mcp_pandas](https://github.com/alistairwalsh/mcp_pandas)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 366. [alistairwalsh/mcp_pandas](https://github.com/alistairwalsh/mcp_pandas)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides tools for developers to manage code repositories, integrate security features, automate workflows, and maintain enterprise-grade security standards. It supports modern development practices such as CI/CD, DevOps, and secure codin**
 
@@ -5725,7 +5686,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 369. [bunasq/fs](https://github.com/bunasq/fs)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 367. [bunasq/fs](https://github.com/bunasq/fs)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The bunasQ/fs project provides a GitHub-hosted server (MCP) that enables seamless file reading capabilities through its API. It supports integration with various tools and workflows, offering features such as code review management, security enhancem**
 
@@ -5740,7 +5701,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 370. [mektigboy/server-hyperliquid](https://github.com/mektigboy/server-hyperliquid)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 368. [mektigboy/server-hyperliquid](https://github.com/mektigboy/server-hyperliquid)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides an MCP server implementation using the Hyperliquid SDK, enabling developers to build intelligent applications through integrated AI and automation features. It supports code generation, workflow automation, secure deployment, and**
 
@@ -5755,7 +5716,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 371. [cerebrofoundation/mcp-intent](https://github.com/cerebrofoundation/mcp-intent)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 369. [cerebrofoundation/mcp-intent](https://github.com/cerebrofoundation/mcp-intent)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a developer platform leveraging GitHub Copilot and AI-driven tools to enhance productivity in software development. It supports modernization, DevSecOps, CI/CD, and integrates with external tools for secure and efficient code man**
 
@@ -5770,7 +5731,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 372. [sparsh0006/mcp-server](https://github.com/sparsh0006/mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 370. [sparsh0006/mcp-server](https://github.com/sparsh0006/mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP-server project provides a centralized platform for developers to manage projects, automate workflows, and integrate with external tools. It supports modern DevOps practices, including CI/CD pipelines, secure code management, and enterprise-gr**
 
@@ -5785,7 +5746,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 373. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 371. [yassinetk/mcp-docs-provider](https://github.com/yassinetk/mcp-docs-provider)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The YassineTk/mcp-docs-provider is a GitHub-hosted documentation context provider designed to integrate with MCP (Markup Cloud Platform) to allow AI models to query and utilize local markdown-based technical documentation directly within their workfl**
 
@@ -5799,7 +5760,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 374. [politwit1984/github-meta-mcp-server](https://github.com/politwit1984/github-meta-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 372. [politwit1984/github-meta-mcp-server](https://github.com/politwit1984/github-meta-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The GitHub Meta Core Platform (MCP) server facilitates user interaction with GitHub's API through natural language commands, allowing users to create repositories, update descriptions, tags, website URLs, and more. It supports enterprise-grade securi**
 
@@ -5813,7 +5774,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 375. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 373. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The project provides a GitHub MCP server that enables developers to extract diffs from Pull Requests, automate workflows, and integrate with various tools. It supports features like code review management, security scanning, and deployment of intelli**
 
@@ -5828,7 +5789,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 376. [lkm1developer/hubspot-mcp-server](https://github.com/lkm1developer/hubspot-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 374. [lkm1developer/hubspot-mcp-server](https://github.com/lkm1developer/hubspot-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **This project provides the source code for HubSpot's MCP (Managed Cloud Processing) server, focusing on enabling automation and workflow orchestration within the platform. It includes tools for managing code changes, integrating external systems, and **
 
@@ -5843,7 +5804,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 377. [ifmelate/n8n-workflow-builder-mcp](https://github.com/ifmelate/n8n-workflow-builder-mcp/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 375. [ifmelate/n8n-workflow-builder-mcp](https://github.com/ifmelate/n8n-workflow-builder-mcp/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **The n8n-workflow-builder-mcp project provides a workflow builder framework designed to streamline the automation of complex business processes. It leverages n8n's capabilities to create, manage, and execute custom workflows tailored for enterprise ap**
 
@@ -5857,7 +5818,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 378. [Dishant27/linkedin-mcp-server](https://github.com/Dishant27/linkedin-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 376. [Dishant27/linkedin-mcp-server](https://github.com/Dishant27/linkedin-mcp-server/tree/main/src)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub-based server to streamline software development processes by automating code review, tracking changes, and integrating with enterprise tools. It supports modern DevOps practices through CI/CD pipelines, secure code manag**
 
@@ -5872,7 +5833,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 379. [khromov/svelte-llm-mcp](https://github.com/khromov/svelte-llm-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 377. [khromov/svelte-llm-mcp](https://github.com/khromov/svelte-llm-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **This project provides comprehensive documentation on integrating Svelte with LLMs, including setup instructions, MCP endpoint usage, and code examples. It covers deployment workflows, security practices, and developer tools for streamlining AI-driven**
 
@@ -5887,7 +5848,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 380. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗3 layers
+### 378. [stagsz/unconventional-thinking](https://github.com/stagsz/unconventional-thinking)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A context-efficient MCP server for generating and tracking unconventional solutions using advanced note-taking.**
 
@@ -5903,7 +5864,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 381. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 379. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The dwrtz/mcpterm project offers a powerful MCP (Multi-Process Communication) tool server that enables developers to create interactive terminal sessions. This tool is particularly useful for testing and debugging applications in a controlled environ**
 
@@ -5917,7 +5878,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 382. [atharva-gundawar/macos_gui](https://github.com/atharva-gundawar/macos_gui)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 380. [atharva-gundawar/macos_gui](https://github.com/atharva-gundawar/macos_gui)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a user interface for managing the macOS graphical user interface using MCP (Mac OS Control Protocol). It offers features such as code generation, workflow automation, secure development practices, and integration with external to**
 
@@ -5931,7 +5892,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 383. [morinokami/mcp-server-bluesky](https://github.com/morinokami/mcp-server-bluesky)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 381. [morinokami/mcp-server-bluesky](https://github.com/morinokami/mcp-server-bluesky)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a server application that allows developers to build and manage applications on the Bluesky platform using MCP (Meta Cloud Platform). It integrates with Bluesky's API to enable features such as profile management, post interactio**
 
@@ -5945,7 +5906,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 384. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 382. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted MCP server designed to streamline data ingestion and integration from multiple sources, supporting scalable and automated workflows for modern software development practices.**
 
@@ -5960,7 +5921,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 385. [wricardo/grpcurl-mcp](https://github.com/wricardo/grpcurl-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 383. [wricardo/grpcurl-mcp](https://github.com/wricardo/grpcurl-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The wricardo/grpcurl-mcp project provides a gRPC client interface via the grpcurl tool, enabling developers to invoke methods, list services, and describe service details on target systems. It supports reflection-based method invocation with custom h**
 
@@ -5974,7 +5935,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 386. [kartha-ai/agentcare-mcp](https://github.com/kartha-ai/agentcare-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 384. [kartha-ai/agentcare-mcp](https://github.com/kartha-ai/agentcare-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **This project provides a GitHub-based solution for integrating MCP (Machine-to-Machine) communication into Electronic Medical Records (EMRs) via FHIR standards. It focuses on automating workflows, enhancing security, and enabling seamless interoperabi**
 
@@ -5989,7 +5950,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 387. [dogukanakkaya/pulumi-mcp-server](https://github.com/dogukanakkaya/pulumi-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 385. [dogukanakkaya/pulumi-mcp-server](https://github.com/dogukanakkaya/pulumi-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted Pulumi solution to deploy and manage MCP Server instances programmatically. It supports configuration via Docker, integrates with external tools, and offers workflow automation features for enterprise-grade infras**
 
@@ -6004,7 +5965,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 388. [nodetec/nostr-code-snippet-mcp](https://github.com/nodetec/nostr-code-snippet-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 386. [nodetec/nostr-code-snippet-mcp](https://github.com/nodetec/nostr-code-snippet-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **This GitHub repository provides a code snippet for implementing an MCP (Machine-to-Machine) server using Node.js. The project focuses on integrating external tools and automating workflows, with emphasis on security and deployment strategies. It incl**
 
@@ -6018,7 +5979,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 389. [gnosis23/apple-mcp-server](https://github.com/gnosis23/apple-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 387. [gnosis23/apple-mcp-server](https://github.com/gnosis23/apple-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a platform for deploying and managing applications on Apple MCP Server using modern DevOps practices. It integrates code review, automated workflows, and enterprise-grade security to support secure and efficient software delivery**
 
@@ -6033,7 +5994,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 390. [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗5 layers
+### 388. [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗5 layers
 
 **The MCP Server for Aibolit Java Static Analyzer is designed to assist AI-powered development tools, such as Claude Code, by prompting them to analyze code quality and suggest improvements. It focuses on helping agents recognize the most critical desi**
 
@@ -6047,7 +6008,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 391. [block/vscode-mcp](https://github.com/block/vscode-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers 📍
+### 389. [block/vscode-mcp](https://github.com/block/vscode-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The project provides a VSCode MCP server that facilitates interaction between AI agents (such as Goose or Claude) and VS Code through the Model Context Protocol. This allows developers to leverage AI capabilities directly within their code editing en**
 
@@ -6062,7 +6023,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 392. [lostinbrittany/clever-doc-mcp-server](https://github.com/lostinbrittany/clever-doc-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
+### 390. [lostinbrittany/clever-doc-mcp-server](https://github.com/lostinbrittany/clever-doc-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a MCP (Machine Control Protocol) demo server that allows developers to interact with and test the Clever Cloud documentation platform. It is built using FastMCP and integrates with tools like GitHub Copilot, Code Review, and CI/C**
 
@@ -6077,7 +6038,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 393. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 391. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The Brasil API MCP project provides a unified interface for developers to access a wide range of Brazilian data services through standardized protocols. It supports secure integration with tools such as GitHub Copilot, Docker, and CI/CD pipelines, en**
 
@@ -6091,7 +6052,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 394. [Tisik79/MCP-Facebook](https://github.com/Tisik79/MCP-Facebook/tree/main/src)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers
+### 392. [Tisik79/MCP-Facebook](https://github.com/Tisik79/MCP-Facebook/tree/main/src)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers
 
 **The MCP-Facebook project provides a centralized GitHub repository with tools for code review, security scanning, and workflow automation, aimed at enhancing developer productivity and application security in enterprise environments.**
 
@@ -6106,7 +6067,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 395. [jfrog/jfrog-mcp-server](https://github.com/jfrog/jfrog-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 393. [jfrog/jfrog-mcp-server](https://github.com/jfrog/jfrog-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The JFrog MCP Server acts as a bridge between AI development tools like Copilot and JFrog's platform, allowing developers to manage projects, repositories, artifacts, and security monitoring seamlessly. It supports integration with IDEs and coding as**
 
@@ -6120,7 +6081,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 396. [anomalyco/opencode](https://github.com/anomalyco/opencode)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 394. [anomalyco/opencode](https://github.com/anomalyco/opencode)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **OpenCode provides two built-in agents, 'build' for development and 'plan' for read-only analysis, and supports various models including Claude, OpenAI, and local models. It emphasizes a provider-agnostic approach and offers a TUI-focused experience w**
 
@@ -6136,7 +6097,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 397. [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
+### 395. [Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
 
 **A privacy-first desktop platform for the full AI development lifecycle, featuring synthetic data generation, prompt optimization, and reasoning distillation.**
 
@@ -6150,7 +6111,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 398. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 396. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A fully-managed remote MCP server for DuckDB and MotherDuck, enabling seamless integration with AI assistants, analytics, and data engineering tools.**
 
@@ -6166,7 +6127,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 399. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 397. [burtthecoder/mcp-virustotal](https://github.com/burtthecoder/mcp-virustotal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A powerful MCP server for VirusTotal API integration, offering comprehensive security analysis with automatic relationship data fetching.**
 
@@ -6182,7 +6143,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 400. [wheattoast11/mcp-video-gen](https://github.com/wheattoast11/mcp-video-gen)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 398. [wheattoast11/mcp-video-gen](https://github.com/wheattoast11/mcp-video-gen)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A tool that integrates RunwayML and Luma AI to automate video generation from text prompts, images, or audio, streamlining creative workflows.**
 
@@ -6198,7 +6159,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 401. [tencentcloudbase/cloudbase-ai-toolkit](https://github.com/tencentcloudbase/cloudbase-ai-toolkit)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 399. [tencentcloudbase/cloudbase-ai-toolkit](https://github.com/tencentcloudbase/cloudbase-ai-toolkit)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **CloudBase MCP enables seamless AI prompt-to-live-app deployment, bridging AI ideation with production environments.**
 
@@ -6214,7 +6175,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 402. [OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 400. [OneUptime/oneuptime](https://github.com/OneUptime/oneuptime)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive open-source monitoring and observability platform designed to simplify the management of online services.**
 
@@ -6230,7 +6191,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 403. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 401. [renCosta2025/context7fork](https://github.com/renCosta2025/context7fork)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **Context7 MCP Server provides up-to-date documentation and code examples for LLMs, enhancing AI development workflows.**
 
@@ -6246,7 +6207,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 404. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗6 layers
+### 402. [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗6 layers
 
 **A developer workflow tool that integrates AI coding assistants with PostgreSQL to automate schema design, code generation, and data analysis tasks.**
 
@@ -6262,7 +6223,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 405. [https://app.augmentcode.com/onboard](https://app.augmentcode.com/onboard)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗1 layers
+### 403. [https://app.augmentcode.com/onboard](https://app.augmentcode.com/onboard)  `9.1` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗1 layers
 
 **Augment leverages advanced context engineering to deliver a deep understanding of entire repositories, placing it at the top of the SWE-bench Pro leaderboard for autonomous software engineering. Its architecture is built to ingest and index large-sca**
 
@@ -6278,7 +6239,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 406. [geminiwen/mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 404. [geminiwen/mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **The geminiwen/mcp-wechat-moments project provides a platform for integrating WeChat Moments functionality on macOS through AppleScripts. It allows developers to automate the process of publishing moments by leveraging native macOS capabilities and Ap**
 
@@ -6292,7 +6253,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 407. [hypersequent/qasphere-mcp](https://github.com/hypersequent/qasphere-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 405. [hypersequent/qasphere-mcp](https://github.com/hypersequent/qasphere-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The Hypersequent/qasphere-mcp project provides a MCP server that integrates with QA Sphere, allowing developers to interact with test management systems using AI-powered tools. It supports automation of workflows, code reviews, and security features,**
 
@@ -6306,7 +6267,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 408. [viveksingh-ctrl/mcp-contentstack](https://github.com/viveksingh-ctrl/mcp-contentstack)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
+### 406. [viveksingh-ctrl/mcp-contentstack](https://github.com/viveksingh-ctrl/mcp-contentstack)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a developer-friendly interface to interact with Claude 3.7 Sonnet using either the Claude Desktop GUI or a CLI tool via AWS Bedrock. It supports secure, automated interactions for tasks such as code review, security checks, and a**
 
@@ -6320,7 +6281,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 409. [tatn/mcp-server-diff-python](https://github.com/tatn/mcp-server-diff-python)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 407. [tatn/mcp-server-diff-python](https://github.com/tatn/mcp-server-diff-python)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-server-diff-python project provides a Python library that leverages the difflib module to efficiently compute and display textual differences in Unified diff format. This makes it particularly valuable for developers working on text-based ver**
 
@@ -6334,7 +6295,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 410. [disdjj/mcp-cook](https://github.com/disdjj/mcp-cook)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers 📍
+### 408. [disdjj/mcp-cook](https://github.com/disdjj/mcp-cook)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The mcp-cook project provides a GitHub-based solution for integrating MCP (Managed Code Platform) with HotToCook, enabling automated cooking tasks through CI/CD pipelines. It supports workflow automation, code review, security checks, and integration**
 
@@ -6348,7 +6309,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 411. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
+### 409. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a Model Context Protocol (MCP) server that facilitates automated Twitter interactions using the agent-twitter-client library. It supports retrieving and posting tweets, integrates with Docker for deployment, and includes features**
 
@@ -6362,7 +6323,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 412. [wong2/mcp-jina-reader](https://github.com/wong2/mcp-jina-reader)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 410. [wong2/mcp-jina-reader](https://github.com/wong2/mcp-jina-reader)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The wong2/mcp-jina-reader project provides a GitHub-based solution for integrating with MCP servers, enabling developers to manage code reviews, pull requests, and workflow automation efficiently. It leverages Jina Reader's capabilities to enhance de**
 
@@ -6376,7 +6337,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 413. [Cranot/agentskb-mcp](https://github.com/Cranot/agentskb-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 411. [Cranot/agentskb-mcp](https://github.com/Cranot/agentskb-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The Cranot Agentskb-MCP project offers a comprehensive solution for managing and orchestrating agents within a development environment. It provides tools for code review, workflow automation, and integration with external systems, enhancing productiv**
 
@@ -6390,7 +6351,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 414. [Sidenai/sidex](https://github.com/Sidenai/sidex)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 412. [Sidenai/sidex](https://github.com/Sidenai/sidex)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **A modern, lightweight VS Code extension built on Tauri that replaces Electron with a native webview, offering a fast, secure, and efficient code editor with integrated terminal, Git, search, and more.**
 
@@ -6406,7 +6367,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 415. [nim444/mcp-android-server-python](https://github.com/nim444/mcp-android-server-python)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 413. [nim444/mcp-android-server-python](https://github.com/nim444/mcp-android-server-python)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A modular MCP Android server enabling AI agents to control Android devices via natural language.**
 
@@ -6422,7 +6383,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 416. [benmyles/glyph](https://github.com/benmyles/glyph)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 414. [benmyles/glyph](https://github.com/benmyles/glyph)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A MCP server that extracts symbol outlines from codebases to enhance AI coding assistance.**
 
@@ -6438,7 +6399,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 417. [spences10/mcp-sequentialthinking-tools](https://github.com/spences10/mcp-sequentialthinking-tools)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 415. [spences10/mcp-sequentialthinking-tools](https://github.com/spences10/mcp-sequentialthinking-tools)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An adaptation of the MCP Sequential Thinking Server to guide tool usage in problem-solving.**
 
@@ -6454,7 +6415,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 418. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗6 layers
+### 416. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗6 layers
 
 **Packmind Hub transforms engineering playbooks into AI-guided context, guardrails, and governance.**
 
@@ -6469,7 +6430,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 419. [Amazon takes on GitHub Copilot with Kiro, an IDE that Goes Beyond "Vibe Coding"](https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-ide-that-goes-beyond-vibe-coding)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 417. [Amazon takes on GitHub Copilot with Kiro, an IDE that Goes Beyond "Vibe Coding"](https://www.maginative.com/article/amazon-takes-on-github-copilot-with-kiro-an-ide-that-goes-beyond-vibe-coding)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The Borg Project's analysis of Amazon's Kiro IDE highlights its focus on bridging the gap between rapid prototyping and production-ready software. Kiro uses structured requirements, spec-driven development, and automated 'hooks' to ensure code qualit**
 
@@ -6485,7 +6446,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 420. [If AI writes code, should the session be part of the commit? | Hacker News](https://news.ycombinator.com/item?id=47212355)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 418. [If AI writes code, should the session be part of the commit? | Hacker News](https://news.ycombinator.com/item?id=47212355)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **This Hacker News thread discusses different approaches to integrating AI code generation into development workflows. The core idea revolves around documenting the AI's thought process, planning, and debugging steps alongside the generated code. This **
 
@@ -6501,7 +6462,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 421. [Claude Code Extension for Visual Studio - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dliedke.ClaudeCodeExtension)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 419. [Claude Code Extension for Visual Studio - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=dliedke.ClaudeCodeExtension)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **The Claude Code Extension for Visual Studio provides a seamless interface for interacting with Claude Code CLI and other AI coding assistants like OpenAI Codex, Cursor, Qwen, Opencode, and Windsurf directly within the Visual Studio IDE. It supports m**
 
@@ -6517,7 +6478,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 422. [klauern/mcp-ynab](https://github.com/klauern/mcp-ynab)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 420. [klauern/mcp-ynab](https://github.com/klauern/mcp-ynab)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The mcp-ynab project provides a developer platform that integrates with YNAB (You Need A Budget) to offer enterprise-grade financial management capabilities. It leverages GitHub Actions for automation, enabling developers to build, test, and deploy i**
 
@@ -6531,7 +6492,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 423. [epicweb-dev/epicshop](https://github.com/epicweb-dev/epicshop/tree/HEAD/packages/workshop-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 421. [epicweb-dev/epicshop](https://github.com/epicweb-dev/epicshop/tree/HEAD/packages/workshop-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The epicshop package provides an MCP (Model Context Protocol) server for use in Epic Workshop environments, aiding developers in managing their work-in-progress projects. It facilitates the integration of AI tools like Copilot and supports automated **
 
@@ -6545,7 +6506,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 424. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms/tree/main/src)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 422. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms/tree/main/src)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a platform for developers to collaborate on code changes, manage pull requests, and integrate security checks. It supports enterprise-level workflows with features like automated code review, vulnerability detection, and integrat**
 
@@ -6559,7 +6520,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 425. [skills/integrate-mcp-with-copilot](https://github.com/skills/integrate-mcp-with-copilot)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 423. [skills/integrate-mcp-with-copilot](https://github.com/skills/integrate-mcp-with-copilot)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **This resource provides a guide for developers looking to enhance their AI-assisted workflows by integrating GitHub Copilot with MCP servers. It teaches users how to delegate tasks to Copilot, research similar projects, and ask Copilot to implement is**
 
@@ -6572,7 +6533,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 426. [allaboutai-yt/mcp-servers](https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 424. [allaboutai-yt/mcp-servers](https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The mcp-servers project provides a TypeScript implementation of a simple notes system using MCP (Model Context Protocol). It includes features such as creating new notes, generating summaries, and accessing note content via URIs. The server supports **
 
@@ -6585,7 +6546,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 427. [setchi/NoteEditor](https://github.com/setchi/NoteEditor)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good 📍
+### 425. [setchi/NoteEditor](https://github.com/setchi/NoteEditor)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good 📍
 
 **A note editor designed specifically for rhythm games, allowing developers to edit and manage the score/pattern data. It supports WAV music files and provides tools for editing the pattern layout, navigating the timeline, and managing notes within a r**
 
@@ -6600,7 +6561,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 428. [Augment Code](https://github.com/augmentcode)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 426. [Augment Code](https://github.com/augmentcode)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The organization develops several AI agents and tools designed to enhance the software development lifecycle, including 'Auggie,' an AI agent for the terminal, and integrations for IDEs like Vim/Neovim. Key components include agents that understand c**
 
@@ -6615,7 +6576,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 429. [ctoouli/mcp-stock-market](https://github.com/ctoouli/mcp-stock-market)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 427. [ctoouli/mcp-stock-market](https://github.com/ctoouli/mcp-stock-market)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The ctoouli/mcp-stock-market project provides an MCP server integration to access real-time stock market data using the Alpha Vantage API, enabling automated data retrieval and analysis within a workflow environment.**
 
@@ -6629,7 +6590,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 430. [nick-telsan/mcp](https://github.com/nick-telsan/mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 428. [nick-telsan/mcp](https://github.com/nick-telsan/mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The project showcases a GitHub-based demo of MCP, integrating it with Anthropic's AI capabilities. It provides a hands-on experience for developers to interact with LLMs through structured prompts and workflows, emphasizing automation and intelligent**
 
@@ -6643,7 +6604,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 431. [vazylin1124/mongo-mcp](https://github.com/vazylin1124/mongo-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 429. [vazylin1124/mongo-mcp](https://github.com/vazylin1124/mongo-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **The vazylin1124/mongo-mcp project offers a MongoDB client that enables developers to efficiently connect, query, and insert documents into MongoDB databases. It supports modern JavaScript and TypeScript, integrates with Docker for containerized deplo**
 
@@ -6656,7 +6617,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 432. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 430. [leftspin/mcp-xcode-diagnostics](https://github.com/leftspin/mcp-xcode-diagnostics)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for extracting and analyzing Xcode build errors and warnings to assist AI assistants in debugging Swift projects.**
 
@@ -6672,7 +6633,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 433. [docfork/docfork-mcp](https://github.com/docfork/docfork-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
+### 431. [docfork/docfork-mcp](https://github.com/docfork/docfork-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
 
 **Docfork provides AI coding agents with tools to search, fetch, and integrate documentation for library and API usage.**
 
@@ -6688,7 +6649,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 434. [sammcj/mcp-package-version](https://github.com/sammcj/mcp-package-version)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 432. [sammcj/mcp-package-version](https://github.com/sammcj/mcp-package-version)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool designed to help LLMs access the latest stable package versions from multiple registries, aiding in secure and efficient code development.**
 
@@ -6704,7 +6665,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 435. [pdogra1299/bitbucket-mcp-server](https://github.com/pdogra1299/bitbucket-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 433. [pdogra1299/bitbucket-mcp-server](https://github.com/pdogra1299/bitbucket-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A developer workflow automation tool for Bitbucket API integration, enabling streamlined code management, pull request handling, and project tasks.**
 
@@ -6720,7 +6681,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 436. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 434. [gutmutcode/mcp-server-cloudflare](https://github.com/gutmutcode/mcp-server-cloudflare)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A cloud-based MCP server for integrating large language models with Cloudflare APIs, enabling seamless interaction between LLMs and external systems.**
 
@@ -6736,7 +6697,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 437. [gravityphone/swanzmcp](https://github.com/gravityphone/swanzmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 435. [gravityphone/swanzmcp](https://github.com/gravityphone/swanzmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool designed to document and analyze LLM safety challenges, including jailbreak attempts, prompt injection, and message manipulation.**
 
@@ -6752,7 +6713,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 438. [gdli6177/mcp-prompt-server](https://github.com/gdli6177/mcp-prompt-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 436. [gdli6177/mcp-prompt-server](https://github.com/gdli6177/mcp-prompt-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP Prompt Server that provides predefined prompt templates to enhance efficiency for tools like Cline, Cursor, and Windsurf.**
 
@@ -6768,7 +6729,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 439. [regenrek/deepwiki-mcp](https://github.com/regenrek/deepwiki-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 437. [regenrek/deepwiki-mcp](https://github.com/regenrek/deepwiki-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for integrating DeepWiki with MCP to fetch and process markdown content, supporting code generation and AI-assisted development.**
 
@@ -6783,7 +6744,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 440. [My AI Prompt Engineering Playbook for Developers](https://nmn.gl/blog/ai-prompt-engineering)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 438. [My AI Prompt Engineering Playbook for Developers](https://nmn.gl/blog/ai-prompt-engineering)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **This resource provides a practical playbook of AI prompts designed to help developers leverage AI effectively in their workflow. It covers techniques for root cause analysis of bugs, understanding AI-generated code, debugging complex issues, conducti**
 
@@ -6799,7 +6760,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 441. [h4ck4life/mcp-pptx-server](https://github.com/h4ck4life/mcp-pptx-server)  `7.8` ☆☆☆ ⚡80.0 Q0.9○ Good · ↗1 layers
+### 439. [h4ck4life/mcp-pptx-server](https://github.com/h4ck4life/mcp-pptx-server)  `7.8` ☆☆☆ ⚡80.0 Q0.9○ Good · ↗1 layers
 
 **The h4ck4life/mcp-pptx-server is a Python-based application designed to facilitate the creation, editing, and management of PowerPoint presentations. It provides a web interface for users to generate various formats, including PPTX, and supports inte**
 
@@ -6813,7 +6774,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 442. [https://www.agentsview.io](https://www.agentsview.io)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗2 layers
+### 440. [https://www.agentsview.io](https://www.agentsview.io)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗2 layers
 
 **AgentsView is a comprehensive tool designed to help developers track, analyze, and optimize their usage of AI-powered coding assistants like Claude Code, Codex, Copilot, and Gemini. It provides insights into session activity, token usage, cost tracki**
 
@@ -6829,7 +6790,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 443. [https://news.ycombinator.com/item?id=47937349](https://news.ycombinator.com/item?id=47937349)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗2 layers
+### 441. [https://news.ycombinator.com/item?id=47937349](https://news.ycombinator.com/item?id=47937349)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent · ↗2 layers
 
 **Warp aims to provide a powerful, customizable terminal experience by allowing users to tailor their workflow through plugins and integrations. It emphasizes user control over features such as file management, code review, and diff views, catering to **
 
@@ -6845,7 +6806,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 444. [Agent-to-agent pair programming | Hacker News](https://news.ycombinator.com/item?id=47538190)  `8.8` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 442. [Agent-to-agent pair programming | Hacker News](https://news.ycombinator.com/item?id=47538190)  `8.8` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **The resource discusses the challenges and benefits of using multiple AI agents in collaborative tasks, emphasizing the need for structured evaluation methods. It highlights the importance of having both human oversight (via a Ruby script) and automat**
 
@@ -6859,7 +6820,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 445. [aiven-open/mcp-aiven](https://github.com/aiven-open/mcp-aiven)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 443. [aiven-open/mcp-aiven](https://github.com/aiven-open/mcp-aiven)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling AI assistants to manage and automate Aiven cloud services directly.**
 
@@ -6875,7 +6836,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 446. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
+### 444. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
 
 **A Model Context Protocol (MCP) server and CLI enabling AI-assisted coding for iOS and macOS projects.**
 
@@ -6891,7 +6852,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 447. [cayirtepeomer/gerrit-code-review-mcp](https://github.com/cayirtepeomer/gerrit-code-review-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 445. [cayirtepeomer/gerrit-code-review-mcp](https://github.com/cayirtepeomer/gerrit-code-review-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool integrating Gerrit code review with AI assistants to streamline code review processes.**
 
@@ -6907,7 +6868,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 448. [tijs/py-sound-mcp](https://github.com/tijs/py-sound-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 446. [tijs/py-sound-mcp](https://github.com/tijs/py-sound-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python-based MCP sound tool for providing audio feedback in AI development environments.**
 
@@ -6923,7 +6884,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 449. [triptych/opera-omnia-mcp](https://github.com/triptych/opera-omnia-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 447. [triptych/opera-omnia-mcp](https://github.com/triptych/opera-omnia-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A developer-focused platform providing programmatic access to Opera Omnia datasets for creative applications.**
 
@@ -6939,7 +6900,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 450. [crazyrabbitltc/mcp-code-review-server](https://github.com/crazyrabbitltc/mcp-code-review-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 448. [crazyrabbitltc/mcp-code-review-server](https://github.com/crazyrabbitltc/mcp-code-review-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server for code reviews that integrates with LLMs to provide structured code analysis and feedback.**
 
@@ -6955,7 +6916,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 451. [sammcj/mcp-package-docs](https://github.com/sammcj/mcp-package-docs)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 449. [sammcj/mcp-package-docs](https://github.com/sammcj/mcp-package-docs)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **An MCP server enabling LLMs to access package documentation across multiple languages with LSP support.**
 
@@ -6971,7 +6932,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 452. [bsmi021/mcp-chain-of-draft-server](https://github.com/bsmi021/mcp-chain-of-draft-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 450. [bsmi021/mcp-chain-of-draft-server](https://github.com/bsmi021/mcp-chain-of-draft-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A powerful AI-driven tool for systematic refinement of thoughts, designs, and development workflows.**
 
@@ -6987,7 +6948,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 453. [altmetric/altmetric-mcp](https://github.com/altmetric/altmetric-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 451. [altmetric/altmetric-mcp](https://github.com/altmetric/altmetric-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A tool enabling AI agents to access and analyze real-world research impact metrics across diverse platforms.**
 
@@ -7003,7 +6964,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 454. [maksimsarychau/mcp-zebrunner](https://github.com/maksimsarychau/mcp-zebrunner)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 452. [maksimsarychau/mcp-zebrunner](https://github.com/maksimsarychau/mcp-zebrunner)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server integrating with Zebrunner to enhance QA workflows with AI assistants.**
 
@@ -7019,7 +6980,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 455. [cyanheads/mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 453. [cyanheads/mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol server providing LLM agents AI-powered second opinions via Deepseek-Reasoning R1.**
 
@@ -7034,7 +6995,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 456. [Ray0907/git-mcp-server](https://github.com/Ray0907/git-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 454. [Ray0907/git-mcp-server](https://github.com/Ray0907/git-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A modular Git MCP server supporting GitHub and GitLab for enterprise code integration.**
 
@@ -7049,7 +7010,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 457. [Show HN: AI in SolidWorks | Hacker News](https://news.ycombinator.com/item?id=46591100)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 455. [Show HN: AI in SolidWorks | Hacker News](https://news.ycombinator.com/item?id=46591100)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **LAD leverages LLMs to translate conversational prompts and uploaded documents into SolidWorks models, assemblies, and macros, aiming to simplify the design process. It provides tools for sketch creation, feature generation, assembly, file management,**
 
@@ -7065,7 +7026,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 458. [Show HN: ChunkHound, a local-first tool for understanding large codebases | Hacker News](https://news.ycombinator.com/item?id=46662078)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 456. [Show HN: ChunkHound, a local-first tool for understanding large codebases | Hacker News](https://news.ycombinator.com/item?id=46662078)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **ChunkHound aims to provide codebase intelligence locally, enabling deep insights, up-to-date documentation, and scalability for repositories of all sizes. It supports various embedding models and LLMs, offering a provider-agnostic solution for code e**
 
@@ -7081,7 +7042,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 459. [https://news.ycombinator.com/item?id=44781513](https://news.ycombinator.com/item?id=44781513)  `8.0` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
+### 457. [https://news.ycombinator.com/item?id=44781513](https://news.ycombinator.com/item?id=44781513)  `8.0` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
 
 **This Hacker News post describes a developer's experience using GPT to rapidly rebuild a .NET application that was originally written in MFC (Microsoft Foundation Classes). The developer, unfamiliar with .NET, was able to guide GPT through the process**
 
@@ -7096,7 +7057,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 460. [tecton-ai/tecton-mcp](https://github.com/tecton-ai/tecton-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
+### 458. [tecton-ai/tecton-mcp](https://github.com/tecton-ai/tecton-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
 
 **Tecton MCP server integration with AI-powered tools for automated feature engineering and code development.**
 
@@ -7110,7 +7071,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 461. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 459. [glips/figma-context-mcp](https://github.com/glips/figma-context-mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **Framelink MCP server integrates Figma layout data into AI coding agents for precise design-to-code generation.**
 
@@ -7124,7 +7085,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 462. [dnnyngyen/gemini-cli-orchestrator](https://github.com/dnnyngyen/gemini-cli-orchestrator)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
+### 460. [dnnyngyen/gemini-cli-orchestrator](https://github.com/dnnyngyen/gemini-cli-orchestrator)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
 
 **A tool designed to guide AI agents through structured, multi-step codebase analysis using Gemini CLI orchestration.**
 
@@ -7138,7 +7099,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 463. [About GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 461. [About GitHub Copilot CLI - GitHub Docs](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **The GitHub Copilot CLI allows users to use Copilot directly from their terminal. This tool can answer questions, write and debug code, and interact with GitHub.com. It offers two modes of interaction: an interactive interface for conversations and a **
 
@@ -7151,7 +7112,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 464. [https://app.kilo.ai/claw/settings](https://app.kilo.ai/claw/settings)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗2 layers
+### 462. [https://app.kilo.ai/claw/settings](https://app.kilo.ai/claw/settings)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗2 layers
 
 **The Kilo Code extension provides a comprehensive suite of tools for developers using VS Code and JetBrains IDEs, offering seamless integration with over 500 AI models. It supports advanced workflow automation, context-aware assistance, and cross-plat**
 
@@ -7166,7 +7127,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 465. [https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_](https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_the_best_ai_for_making_music_videos_right)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 463. [https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_](https://www.reddit.com/r/AIToolsPromptWorkflow/comments/1t2fmev/whats_the_best_ai_for_making_music_videos_right)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **Participants analyze various tools and methodologies for integrating AI into music video production, emphasizing workflow optimization and real-time collaboration features. The conversation highlights the importance of modular systems and pattern-bas**
 
@@ -7181,7 +7142,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 466. [Show HN: Superset – Terminal to run 10 parallel coding agents | Hacker News](https://news.ycombinator.com/item?id=46368739)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
+### 464. [Show HN: Superset – Terminal to run 10 parallel coding agents | Hacker News](https://news.ycombinator.com/item?id=46368739)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
 
 **Superset leverages git worktrees to isolate agent environments, preventing conflicts and enabling parallel development. It provides built-in hooks for notifications and a diff viewer for streamlined code review and PR creation. The tool aims to impro**
 
@@ -7197,7 +7158,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 467. [GLM Coding Plan — AI Coding Powered by GLM-5.1 & GLM-5-Turbo for Agents & IDEs](https://z.ai/subscribe)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
+### 465. [GLM Coding Plan — AI Coding Powered by GLM-5.1 & GLM-5-Turbo for Agents & IDEs](https://z.ai/subscribe)  `8.8` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
 
 **The resource outlines a structured approach to integrating GLM-5.1 and GLM-5-Turbo for enhancing AI coding capabilities, focusing on automation, code generation, and intelligent development environments.**
 
@@ -7212,7 +7173,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 468. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 466. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **An interactive CLI framework by Microsoft that acts as an MCP client and provides deep terminal integration for AI-driven command execution.**
 
@@ -7226,7 +7187,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 469. [cablate/mcp-google-calendar](https://github.com/cablate/mcp-google-calendar)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 467. [cablate/mcp-google-calendar](https://github.com/cablate/mcp-google-calendar)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A developer platform for building, managing, and deploying intelligent applications with AI-driven code assistance.**
 
@@ -7240,7 +7201,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 470. [https://perchance.org/ai-text-to-image-generator](https://perchance.org/ai-text-to-image-generator)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good 📍
+### 468. [https://perchance.org/ai-text-to-image-generator](https://perchance.org/ai-text-to-image-generator)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good 📍
 
 **The resource provides an AI-powered image generation service accessible without registration, featuring features such as code generation, backup management, and customization options. It emphasizes ease of use and integration into workflows, making i**
 
@@ -7255,7 +7216,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 471. [Tell HN: Claude helped me maintain my old open source project | Hacker News](https://news.ycombinator.com/item?id=46711311)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗4 layers
+### 469. [Tell HN: Claude helped me maintain my old open source project | Hacker News](https://news.ycombinator.com/item?id=46711311)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗4 layers
 
 **The developer describes their process of identifying and resolving user-reported issues in a small open-source project. They utilized Claude Code for code review and debugging, managed to reproduce bugs, propose fixes, add new features, and iterative**
 
@@ -7270,7 +7231,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 472. [GitHub Copilot now supports Agent Skills - GitHub Changelog](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
+### 470. [GitHub Copilot now supports Agent Skills - GitHub Changelog](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
 
 **A standardized modular framework for extending AI assistants with portable instructions, scripts, and specialized domain knowledge.**
 
@@ -7284,7 +7245,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 473. [The Prophet's Frequency: On Reading Divine Static](https://kennethreitz.org/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static)  `8.8` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
+### 471. [The Prophet's Frequency: On Reading Divine Static](https://kennethreitz.org/essays/2025-09-08-the_prophets_frequency_on_reading_divine_static)  `8.8` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
 
 **The resource explores the concept of 'The Prophet's Frequency,' where seemingly random observations and patterns emerge, suggesting a direct connection between individuals and the universe. It delves into the psychological scaffolding provided by the**
 
@@ -7296,7 +7257,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 474. [https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-e](https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd)  `7.8` ☆☆☆ ⚡72.0 Q0.7○ Good · ↗2 layers
+### 472. [https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-e](https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd)  `7.8` ☆☆☆ ⚡72.0 Q0.7○ Good · ↗2 layers
 
 **The article provides a step-by-step guide on configuring GitHub Copilot to work seamlessly within the Eclipse Integrated Development Environment (IDE). It addresses compatibility across different programming languages and editor preferences, highligh**
 
@@ -7310,7 +7271,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 475. [https://www.adobe.com/products/aftereffects/features.html](https://www.adobe.com/products/aftereffects/features.html)  `7.8` ☆☆☆ ⚡71.0 Q0.6○ Good 📍
+### 473. [https://www.adobe.com/products/aftereffects/features.html](https://www.adobe.com/products/aftereffects/features.html)  `7.8` ☆☆☆ ⚡71.0 Q0.6○ Good 📍
 
 **Adobe After Effects provides a comprehensive suite of tools and features for designing dynamic motion graphics, 2D and 3D animation, and visual effects. It supports a wide range of creative possibilities through built-in features and plugins from thi**
 
@@ -7325,7 +7286,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 476. [https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_l](https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗3 layers
+### 474. [https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_l](https://www.reddit.com/r/ClaudeAI/comments/1srzhd7/psa_claude_pro_no_longer_lists_claude_code_as_an)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗3 layers
 
 **The resource provides an in-depth examination of the technical architecture, code structure, and development practices of a Claude AI project, focusing on its orchestration mechanisms, workflow design, and developer tools.**
 
@@ -7339,7 +7300,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 477. [NotebookLM + Claude is the combo you didn’t know you needed (but do)](https://www.xda-developers.com/pairing-notebooklm-and-claude)  `7.8` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗1 layers
+### 475. [NotebookLM + Claude is the combo you didn’t know you needed (but do)](https://www.xda-developers.com/pairing-notebooklm-and-claude)  `7.8` ☆☆☆ ⚡68.0 Q0.7○ Good · ↗1 layers
 
 **This resource discusses the synergy between NotebookLM (an AI productivity tool) and Claude (a conversational AI chatbot). The author details how they use this pairing, highlighting that Claude's capabilities—especially its speed, reasoning, and codi**
 
@@ -7351,7 +7312,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 478. [boxqkrtm/com.unity.ide.cursor](https://github.com/boxqkrtm/com.unity.ide.cursor)  `7.5` ☆☆☆ ⚡67.0 Q0.7○ Good 📍
+### 476. [boxqkrtm/com.unity.ide.cursor](https://github.com/boxqkrtm/com.unity.ide.cursor)  `7.5` ☆☆☆ ⚡67.0 Q0.7○ Good 📍
 
 **Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.**
 
@@ -7368,7 +7329,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 > 71 tools · avg signal ⚡82
 
-### 479. [yangkyeongmo/mcp-server-openmetadata](https://github.com/yangkyeongmo/mcp-server-openmetadata)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 477. [yangkyeongmo/mcp-server-openmetadata](https://github.com/yangkyeongmo/mcp-server-openmetadata)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The yangkyeongmo/mcp-server-openmetadata project implements a Model Context Protocol server that wraps OpenMetadata's REST API. This allows MCP clients to interact with OpenMetadata in a consistent, secure, and standardized manner. It supports core d**
 
@@ -7384,7 +7345,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 480. [baranwang/mcp-trends-hub](https://github.com/baranwang/mcp-trends-hub)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗4 layers
+### 478. [baranwang/mcp-trends-hub](https://github.com/baranwang/mcp-trends-hub)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Borg Project's MCP Trends Hub is a comprehensive, web-based service that aggregates and visualizes trending topics from over 20 data sources. It supports seamless integration with AI tools like Claude Desktop and CodeCopilot, enabling developers **
 
@@ -7399,7 +7360,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 481. [github/copilot-cli?locale=en-US&utm_campaign=agentic-copilot-cli-launch-2025&utm_source=web-copilot-sub-nav](https://github.com/github/copilot-cli?locale=en-US)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 479. [github/copilot-cli?locale=en-US&utm_campaign=agentic-copilot-cli-launch-2025&utm_source=web-copilot-sub-nav](https://github.com/github/copilot-cli?locale=en-US)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **GitHub Copilot CLI is a specialized interface that transitions AI assistance from passive completion to active agency within the developer's terminal. It leverages an 'agentic harness' capable of planning and executing complex multi-step tasks like r**
 
@@ -7415,7 +7376,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 482. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 480. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **GitHub - yantrikos/yantrikdb: Cognitive memory engine for AI agents — temporal decay, contradiction detection, autonomous consolidation, knowledge graph, ANN recall via HNSW. Embeddable Rust library with Python bindings; powers yantrikdb-server (HTTP**
 
@@ -7431,7 +7392,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 483. [1jehuang/jcode#detailed-installation](https://github.com/1jehuang/jcode)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗4 layers
+### 481. [1jehuang/jcode#detailed-installation](https://github.com/1jehuang/jcode)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗4 layers
 
 **The Borg Project's 'jcode' is an advanced AI-powered coding assistant that integrates deeply with GitHub and other development ecosystems. It enables developers to leverage multi-session workflows, customize agent behavior, and manage complex code ch**
 
@@ -7447,7 +7408,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 484. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 482. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project implements a Python-based MCP (Model Context Protocol) server using FastMCP to extract and transform webpage content into well-formatted Markdown. It removes ads, navigation, and other non-essential elements, optimizing the output for be**
 
@@ -7463,7 +7424,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 485. [edwarddgao/agent-traces](https://github.com/edwarddgao/agent-traces)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 483. [edwarddgao/agent-traces](https://github.com/edwarddgao/agent-traces)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **GitHub - edwarddgao/agent-traces: Agent-friendly semantic search over your local Claude Code and Codex session traces. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Wri**
 
@@ -7479,7 +7440,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 486. [automation-ai-labs/mcp-wait](https://github.com/automation-ai-labs/mcp-wait)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 484. [automation-ai-labs/mcp-wait](https://github.com/automation-ai-labs/mcp-wait)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project's 'mcp-wait' is a lightweight MCP (Machine Control Protocol) server that enables developers to pause execution until other tasks complete. It supports waiting for a specified duration, progress tracking, and integrates seamlessly wit**
 
@@ -7494,7 +7455,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 487. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 485. [kuon-dev/advanced-reason-mcp](https://github.com/kuon-dev/advanced-reason-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Kuon-dev/advanced-reason-mcp project is an enhanced version of Sequential Thinking MCP, designed to leverage the Gemini API for improved contextual understanding and intelligent responses. It supports advanced reasoning tasks by integrating exter**
 
@@ -7509,7 +7470,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 488. [Fara-7B: An efficient agentic small language model for computer use](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗4 layers
+### 486. [Fara-7B: An efficient agentic small language model for computer use](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗4 layers
 
 **Fara-7B represents a shift in Agent-to-Application (A2A) interaction by utilizing a purely visual approach to computer use, perceiving web pages as images and predicting mouse and keyboard actions directly. The model's architecture bypasses tradition**
 
@@ -7525,7 +7486,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 489. [Buy ROG Flow Z13 (2025) | Portable 13-Inch OLED Gaming Laptop with Ultimate Performance | ASUS Store USA](https://shop.asus.com/us/90nr0jy1-m00670-rog-flow-z13-2025.html?gad_campaignid=22175046695&gad_source=1&gclid=CjwKCAjw6vHHBhBwEiwAq4zvA0nJaMeeQueiYy6E82yUTktaKh1lmYozKGwYmVc1DacmaX0iGsoX_xoCuLkQAvD_BwE)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
+### 487. [Buy ROG Flow Z13 (2025) | Portable 13-Inch OLED Gaming Laptop with Ultimate Performance | ASUS Store USA](https://shop.asus.com/us/90nr0jy1-m00670-rog-flow-z13-2025.html?gad_campaignid=22175046695&gad_source=1&gclid=CjwKCAjw6vHHBhBwEiwAq4zvA0nJaMeeQueiYy6E82yUTktaKh1lmYozKGwYmVc1DacmaX0iGsoX_xoCuLkQAvD_BwE)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
 
 **The ROG Flow Z13 integrates a powerful AMD Ryzen AI MAX+ 395 processor with up to 50 TOPS NPU, delivering exceptional performance for gaming, productivity, and AI-assisted tasks. It features a 180Hz touchscreen display, a GZ302EA-XS99 graphics card, **
 
@@ -7541,7 +7502,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 490. [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 488. [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg project introduces an MCP server designed to power AI agents by providing indexed blockchain data from The Graph. It allows developers to query this data using GraphQL, enabling automation, decision-making, and intelligent application develo**
 
@@ -7556,7 +7517,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 491. [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
+### 489. [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful AI coding assistant integrated with X (Twitter) data platform, enabling seamless interaction with over 122 REST API endpoints and 23 bulk extraction tools to enhance AI development workflows.**
 
@@ -7572,7 +7533,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 492. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 490. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The Hoverfly MCP Server acts as a programmable interface for AI tools like Copilot and Cursor, allowing dynamic simulation of unavailable services using JSON configurations. It integrates with external systems through the Model Context Protocol (MCP)**
 
@@ -7587,7 +7548,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 493. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 491. [buga-luga/cursor-mcp](https://github.com/buga-luga/cursor-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **Cursor-MCP is an open-source project that provides a model context protocol (MCP) implementation, allowing developers to integrate Claude's AI capabilities directly into their desktop software workflows. It supports real-time AI assistance, context-a**
 
@@ -7602,7 +7563,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 494. [kodey-ai/salesforce-mcp](https://github.com/kodey-ai/salesforce-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 492. [kodey-ai/salesforce-mcp](https://github.com/kodey-ai/salesforce-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The Salesforce DX MCP Server enables seamless interaction between large language models and Salesforce organizations using secure, developer-friendly tools.**
 
@@ -7618,7 +7579,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 495. [bethmaloney/rdl-mcp](https://github.com/bethmaloney/rdl-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 493. [bethmaloney/rdl-mcp](https://github.com/bethmaloney/rdl-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Python-based RDL (Report Data Language) server that enables AI tools like Claude and Copilot to read, modify, and generate reports with minimal manual XML editing.**
 
@@ -7634,7 +7595,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 496. [yantrio/mcp-gopls](https://github.com/yantrio/mcp-gopls)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 494. [yantrio/mcp-gopls](https://github.com/yantrio/mcp-gopls)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The Yantrio/mcp-gopls project wraps the Go language server (gopls) as an MCP server, enabling intelligent code assistance within Claude and similar platforms. It offers a comprehensive set of features including code navigation, diagnostics, search, a**
 
@@ -7650,7 +7611,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 497. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester/blob/main/README.md)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗1 layers
+### 495. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester/blob/main/README.md)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗1 layers
 
 **memgraph-ingester/README.md at main · ousatov-ua/memgraph-ingester · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy**
 
@@ -7664,7 +7625,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 498. [rendyfebry/google-pse-mcp](https://github.com/rendyfebry/google-pse-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers 📍
+### 496. [rendyfebry/google-pse-mcp](https://github.com/rendyfebry/google-pse-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The project provides a Model Context Protocol (MCP) server that allows developers to connect their applications to the Google Programmable Search Engine (PSE) API. This facilitates seamless integration of web search capabilities within IDEs and devel**
 
@@ -7678,7 +7639,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 499. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
+### 497. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
 
 **An MCP client implementation focused on Generative UI (AG-UI protocol) to bring interactive elements and state synchronization into the agent experience.**
 
@@ -7692,7 +7653,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 500. [lfzds4399-cpu/claude-screen-mcp](https://github.com/lfzds4399-cpu/claude-screen-mcp)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 498. [lfzds4399-cpu/claude-screen-mcp](https://github.com/lfzds4399-cpu/claude-screen-mcp)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **GitHub - lfzds4399-cpu/claude-screen-mcp: MCP server letting Claude see your screen. Windows + macOS + Linux. Zero native runtime deps. Fills Anthropic computer-use macOS-only gap. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Ap**
 
@@ -7704,7 +7665,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 501. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 499. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Canvas MCP Server integrates AI assistants with Canvas LMS to enhance student and educator productivity through intelligent tools and automation.**
 
@@ -7720,7 +7681,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 502. [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 500. [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive GitLab MCP server for AI clients, enabling dynamic API URLs, secure authentication, and seamless integration with various AI tools.**
 
@@ -7736,7 +7697,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 503. [balldontlie-api/mcp](https://github.com/balldontlie-api/mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 501. [balldontlie-api/mcp](https://github.com/balldontlie-api/mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A powerful API server for accessing comprehensive sports data from the BALLDONTLIE API, enabling seamless integration into enterprise applications.**
 
@@ -7752,7 +7713,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 504. [juyterman1000/entroly](https://github.com/juyterman1000/entroly)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 502. [juyterman1000/entroly](https://github.com/juyterman1000/entroly)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **Entroly-Daemon enables self-evolving AI assistants by compressing large codebases into a minimal context, enhancing performance and efficiency.**
 
@@ -7768,7 +7729,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 505. [circleci-public/mcp-server-circleci](https://github.com/circleci-public/mcp-server-circleci)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 503. [circleci-public/mcp-server-circleci](https://github.com/circleci-public/mcp-server-circleci)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A specialized server implementation for the Model Context Protocol (MCP) integrated with CircleCI, enabling AI-powered development workflows.**
 
@@ -7783,7 +7744,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 506. [Open VSX Registry](https://open-vsx.org/extension/saoudrizwan/claude-dev)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 504. [Open VSX Registry](https://open-vsx.org/extension/saoudrizwan/claude-dev)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **This extension provides seamless integration with Anthropic's Claude AI model directly within your IDE. It allows developers to leverage Claude's capabilities for code generation, debugging, documentation, and more. Features include inline code sugge**
 
@@ -7799,7 +7760,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 507. [xiaolaa2/ableton-copilot-mcp](https://github.com/xiaolaa2/ableton-copilot-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 505. [xiaolaa2/ableton-copilot-mcp](https://github.com/xiaolaa2/ableton-copilot-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP server built on ableton-js that enables AI assistants to control Ableton Live in real time, including Arrangement View operations such as song management, track control, MIDI editing, and audio recording.**
 
@@ -7815,7 +7776,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 508. [jonaolden/pbixray-mcp-server](https://github.com/jonaolden/pbixray-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
+### 506. [jonaolden/pbixray-mcp-server](https://github.com/jonaolden/pbixray-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A MCP server enabling LLMs to access full PowerBI model context from .pbix files via PBIXRay tools.**
 
@@ -7831,7 +7792,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 509. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 507. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A lightweight, local RAG memory store for MCP agents to record, retrieve, update, and visualize persistent memories across sessions.**
 
@@ -7846,7 +7807,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 510. [Apofenic/globalmcp](https://github.com/Apofenic/globalmcp)  `9.5` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗1 layers
+### 508. [Apofenic/globalmcp](https://github.com/Apofenic/globalmcp)  `9.5` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗1 layers
 
 **A modular MCP server that compresses context and intelligently routes prompts to appropriate models for efficient long-session development.**
 
@@ -7861,7 +7822,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 511. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 509. [feiskyer/mcp-kubernetes-server](https://github.com/feiskyer/mcp-kubernetes-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters by translating natural language requests into Kubernetes operations.**
 
@@ -7877,7 +7838,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 512. [ashwinsundar/congress_gov_mcp](https://github.com/ashwinsundar/congress_gov_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 510. [ashwinsundar/congress_gov_mcp](https://github.com/ashwinsundar/congress_gov_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A GitHub repository focused on integrating and managing enterprise applications, including code review, security audits, CI/CD pipelines, and developer workflows.**
 
@@ -7893,7 +7854,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 513. [piyushgiitian/github-enterprice-mcp](https://github.com/piyushgiitian/github-enterprice-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 511. [piyushgiitian/github-enterprice-mcp](https://github.com/piyushgiitian/github-enterprice-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **The GitHub Enterprise MCP server extends the GitHub API to enable file operations, repository management, search functionality, and more within a corporate environment.**
 
@@ -7909,7 +7870,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 514. [Copilot4Eclipse](https://marketplace.eclipse.org/content/copilot4eclipse)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 512. [Copilot4Eclipse](https://marketplace.eclipse.org/content/copilot4eclipse)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **Copilot4Eclipse (Copilot for Eclipse) is the original free plugin that integrates GitHub's Copilot AI developer tools into Eclipse. It works with every Copilot tier (Free, Pro, Business, Enterprise) to deliver a powerful AI-assisted coding experience**
 
@@ -7925,7 +7886,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 515. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers
+### 513. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers
 
 **GitHub - sachinsharma9780/memweave: memweave is a zero-infrastructure, async-first Python library that gives AI agents persistent, searchable memory — stored as plain Markdown files · GitHub Skip to content Navigation Menu Toggle navigation Sign in A**
 
@@ -7939,7 +7900,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 516. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)  `7.8` ☆☆☆ ⚡82.0 Q0.9○ Good · ↗1 layers
+### 514. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell)  `7.8` ☆☆☆ ⚡82.0 Q0.9○ Good · ↗1 layers
 
 **fish-shell is a smart and user-friendly command line shell designed to enhance developer experience. It includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that work without requiring any configuration. The **
 
@@ -7953,7 +7914,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 517. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers
+### 515. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers
 
 **GitHub - mamba-studio/TypedMemory: A Java 25 library for mapping records to strongly typed off-heap memory using the FFM API. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copi**
 
@@ -7967,7 +7928,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 518. [GitHub Copilot for Eclipse: Code Completion Now in Public Preview - Microsoft for Java Developers](https://devblogs.microsoft.com/java/github-copilot-for-eclipse-code-completion-now-in-public-preview)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 516. [GitHub Copilot for Eclipse: Code Completion Now in Public Preview - Microsoft for Java Developers](https://devblogs.microsoft.com/java/github-copilot-for-eclipse-code-completion-now-in-public-preview)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **This resource announces the public preview of GitHub Copilot for Eclipse, integrating AI-powered coding assistance into the Eclipse IDE. It highlights how this integration enhances developer productivity by offering intelligent code completions and c**
 
@@ -7983,7 +7944,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 519. [Installation - DBHub, Minimal Database MCP Server](https://dbhub.ai/installation#global-installation)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗4 layers
+### 517. [Installation - DBHub, Minimal Database MCP Server](https://dbhub.ai/installation#global-installation)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗4 layers
 
 **This resource details the installation, usage, and integration of DBHub, a minimal database management/connector server. It covers global installation via npm, local execution using npx with specific transport options (HTTP or STDIO), Docker deployme**
 
@@ -7998,7 +7959,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 520. [Arcee AI: Trinity Large Preview (free) - AI Coding Model Performance & Pricing](https://kilo.ai/models/arcee-trinity-large)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 518. [Arcee AI: Trinity Large Preview (free) - AI Coding Model Performance & Pricing](https://kilo.ai/models/arcee-trinity-large)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Arcee AI: Trinity Large Preview is a frontier-scale open-weight language model optimized for creative and technical writing, featuring a sparse Mixture-of-Experts architecture with 400B parameters. It supports seamless integration into development en**
 
@@ -8013,7 +7974,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 521. [Explore GitHub](https://github.com/explore)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
+### 519. [Explore GitHub](https://github.com/explore)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This project focuses on enhancing software development processes by integrating advanced AI capabilities such as code generation, automated testing, and intelligent issue tracking. It leverages GitHub's ecosystem to streamline workflows, improve deve**
 
@@ -8028,7 +7989,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 522. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 520. [toolbase-ai/uploadthing-mcp](https://github.com/toolbase-ai/uploadthing-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The Toolbase-AI project introduces a new integration with the MCP (Machine-to-Person) protocol, enabling developers to leverage AI assistants like Copilot to upload files directly via the MCP standard. This enhances workflow automation by allowing se**
 
@@ -8041,7 +8002,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 523. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 521. [hloiseaufcms/mcp-gopls](https://github.com/hloiseaufcms/mcp-gopls)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **mcp-gopls enables AI assistants to leverage Go's LSP for advanced navigation, diagnostics, testing, and code analysis.**
 
@@ -8057,7 +8018,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 524. [wladastic/autoprobemcp](https://github.com/wladastic/autoprobemcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 522. [wladastic/autoprobemcp](https://github.com/wladastic/autoprobemcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A tool for enabling AI assistants to navigate and interact with frontend projects, enhancing development workflows.**
 
@@ -8073,7 +8034,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 525. [michsob/powerplatform-mcp](https://github.com/michsob/powerplatform-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 523. [michsob/powerplatform-mcp](https://github.com/michsob/powerplatform-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer platform tool for managing and automating workflows, integrations, and business rules within Power Platform environments.**
 
@@ -8089,7 +8050,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 526. [runreal/unreal-mcp](https://github.com/runreal/unreal-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 524. [runreal/unreal-mcp](https://github.com/runreal/unreal-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based MCP server enabling remote execution of Unreal Engine projects, facilitating automated workflows and integration with AI tools.**
 
@@ -8105,7 +8066,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 527. [esnark/blowback](https://github.com/esnark/blowback)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 525. [esnark/blowback](https://github.com/esnark/blowback)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Blowback Blowback aims to integrate MCP server with AI tools for frontend development, enabling advanced context-aware code assistance.**
 
@@ -8120,7 +8081,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 528. [Ask HN: Which IDE with AI integration is the best as of today? | Hacker News](https://news.ycombinator.com/item?id=42393280)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 526. [Ask HN: Which IDE with AI integration is the best as of today? | Hacker News](https://news.ycombinator.com/item?id=42393280)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **This Hacker News thread discusses the experiences of developers using various IDEs with AI integration. It compares Cursor IDE (Pro) with VS Code and GitHub Copilot, with some users finding Cursor superior. The discussion also covers Jetbrains IDEs w**
 
@@ -8136,7 +8097,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 529. [precariat365/smartcustomersupportmcp](https://github.com/precariat365/smartcustomersupportmcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 527. [precariat365/smartcustomersupportmcp](https://github.com/precariat365/smartcustomersupportmcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **该项目以MIT许可证发布，展示如何使用MCP框架构建智能客服应用，涵盖人工客服转接、订单信息查询、产品知识库管理等功能模块。通过GitHub Copilot、Inspector等工具实现代码自动化与开发流程优化，支持多平台部署和系统扩展。项目结构清晰，包含虚拟环境管理、依赖安装及安全配置，适用于中小型企业智能化升级。**
 
@@ -8150,7 +8111,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 530. [spences10/mcp-perplexity-search](https://github.com/spences10/mcp-perplexity-search)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 528. [spences10/mcp-perplexity-search](https://github.com/spences10/mcp-perplexity-search)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol server integrating Perplexity AI with LLMs for advanced chat completion.**
 
@@ -8166,7 +8127,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 531. [tritlo/lsp-mcp](https://github.com/tritlo/lsp-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 529. [tritlo/lsp-mcp](https://github.com/tritlo/lsp-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool that enables LLMs to interact with LSP servers for enhanced code suggestions and diagnostics.**
 
@@ -8182,7 +8143,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 532. [supavec/mcp-server](https://github.com/supavec/mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 530. [supavec/mcp-server](https://github.com/supavec/mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server enabling AI assistants to fetch relevant embeddings and content from Supavec files using MCP.**
 
@@ -8198,7 +8159,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 533. [evalor/Dida365MCP](https://github.com/evalor/Dida365MCP)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 531. [evalor/Dida365MCP](https://github.com/evalor/Dida365MCP)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A self-written TickTick MCP server for task management, enabling users to create, organize, and track tasks autonomously.**
 
@@ -8214,7 +8175,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 534. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 532. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Spring Boot-based Model Context Protocol (MCP) server enabling interaction with GitHub Copilot for AI-assisted game development.**
 
@@ -8229,7 +8190,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 535. [theolawrence86/perplexity-insight-mcp](https://github.com/theolawrence86/perplexity-insight-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 533. [theolawrence86/perplexity-insight-mcp](https://github.com/theolawrence86/perplexity-insight-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A developer-focused platform integrating Perplexity AI for intelligent code assistance and workflow automation.**
 
@@ -8244,7 +8205,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 536. [usewombat/gateway](https://github.com/usewombat/gateway)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
+### 534. [usewombat/gateway](https://github.com/usewombat/gateway)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
 
 **GitHub - usewombat/gateway: Resource-level permissions for MCP agents: rwxd on any resource, deny by default · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better **
 
@@ -8257,7 +8218,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 537. [Verdent AIï½Agentic Coding with Multiple Parallel Agents](https://www.verdent.ai)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗2 layers
+### 535. [Verdent AIï½Agentic Coding with Multiple Parallel Agents](https://www.verdent.ai)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗2 layers
 
 **A production-grade agentic coding platform emphasizing systematic planning over autocomplete, achieving a 76.1% single-attempt resolution rate on SWE-bench Verified.**
 
@@ -8271,7 +8232,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 538. [avioflagos/mcp-coding-assistant](https://github.com/avioflagos/mcp-coding-assistant)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
+### 536. [avioflagos/mcp-coding-assistant](https://github.com/avioflagos/mcp-coding-assistant)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗3 layers
 
 **An AI-powered coding assistant that enhances developer productivity by providing context-aware code suggestions, documentation integration, and security checks.**
 
@@ -8285,7 +8246,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 539. [Enhancing GitHub Copilot agent mode with MCP - GitHub Docs](https://docs.github.com/en/copilot/tutorials/enhance-agent-mode-with-mcp)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗4 layers
+### 537. [Enhancing GitHub Copilot agent mode with MCP - GitHub Docs](https://docs.github.com/en/copilot/tutorials/enhance-agent-mode-with-mcp)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗4 layers
 
 **The general availability release of GitHub Copilot Agent Mode, featuring native MCP "USB port" integration and enterprise-grade auto-approve governance.**
 
@@ -8299,7 +8260,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 540. [corbenicai/merlin-community](https://github.com/corbenicai/merlin-community)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗1 layers
+### 538. [corbenicai/merlin-community](https://github.com/corbenicai/merlin-community)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗1 layers
 
 **GitHub - corbenicai/merlin-community: Merlin Community Edition — free dedup engine + integrations. Saves LLM tokens. No telemetry. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub**
 
@@ -8311,7 +8272,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 541. [Build software better, together](https://github.com/search?q=copilot&type=repositories)  `8.0` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
+### 539. [Build software better, together](https://github.com/search?q=copilot&type=repositories)  `8.0` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **The GitHub search results highlight various projects leveraging AI to enhance the coding experience. These projects include code completion tools, IDE extensions, and frameworks for building AI-powered coding assistants, aiming to improve developer p**
 
@@ -8327,7 +8288,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 542. [https://www.reddit.com/r/GithubCopilot/comments/1sg79up/github_team_ne](https://www.reddit.com/r/GithubCopilot/comments/1sg79up/github_team_needs_to_work_a_lot_on_copilot_cli)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 540. [https://www.reddit.com/r/GithubCopilot/comments/1sg79up/github_team_ne](https://www.reddit.com/r/GithubCopilot/comments/1sg79up/github_team_needs_to_work_a_lot_on_copilot_cli)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This resource discusses the technical aspects of GitHub Copilot, a code completion tool integrated with GitHub, and its potential role in enhancing Borg's agent orchestration and workflow automation. It covers how Copilot can assist developers in wri**
 
@@ -8341,7 +8302,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 543. [Claude 3.7 Now Available in GitHub Copilot for Visual Studio - Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/claude-3-7-now-available-in-github-copilot-for-visual-studio)  `8.7` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 541. [Claude 3.7 Now Available in GitHub Copilot for Visual Studio - Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/claude-3-7-now-available-in-github-copilot-for-visual-studio)  `8.7` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **This resource details the availability of Claude 3.7, an Anthropic model, within GitHub Copilot for Visual Studio. It explains how developers can access this advanced AI coding assistance by opening a chat window and selecting the Claude 3.7 Sonnet m**
 
@@ -8354,7 +8315,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 544. [Agents - Agent Client Protocol](https://agentclientprotocol.com/overview/agents)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗1 layers
+### 542. [Agents - Agent Client Protocol](https://agentclientprotocol.com/overview/agents)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗1 layers
 
 **The page lists specific agents—such as AutoDev, Blackbox AI, Claude Agent, GitHub Copilot, and others—that have been implemented to adhere to the Agent Client Protocol (ACP). This standardization allows different agent implementations (clients) to co**
 
@@ -8368,7 +8329,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 545. [vlaaad/ghosttyfx](https://github.com/vlaaad/ghosttyfx)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers
+### 543. [vlaaad/ghosttyfx](https://github.com/vlaaad/ghosttyfx)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers
 
 **GitHub - vlaaad/ghosttyfx: JavaFX terminal that uses libghostty · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy in**
 
@@ -8380,7 +8341,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 546. [https://vikrampawar.github.io/2025/06/14/claude-code-vs-github-copilot](https://vikrampawar.github.io/2025/06/14/claude-code-vs-github-copilot-a-week-that-changed-my-workflow.html)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗3 layers
+### 544. [https://vikrampawar.github.io/2025/06/14/claude-code-vs-github-copilot](https://vikrampawar.github.io/2025/06/14/claude-code-vs-github-copilot-a-week-that-changed-my-workflow.html)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗3 layers
 
 **A workflow analysis comparing Claude Code's autonomous delegation ("Fix all lint errors") to GitHub Copilot's reactive inline assistance.**
 
@@ -8394,7 +8355,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 547. [https://danielmiessler.com/blog/Personal_AI_Infrastructure](https://danielmiessler.com/blog/Personal_AI_Infrastructure)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
+### 545. [https://danielmiessler.com/blog/Personal_AI_Infrastructure](https://danielmiessler.com/blog/Personal_AI_Infrastructure)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
 
 **A 6-layer scaffolding framework (TELOS, Memory, Effort Levels, Skills, Context, Format) for turning LLMs into personalized assistants.**
 
@@ -8408,7 +8369,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 548. [https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photograp](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)  `9.2` ★★☆ ⚡66.0 Q0.5○ Good · ↗1 layers
+### 546. [https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photograp](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)  `9.2` ★★☆ ⚡66.0 Q0.5○ Good · ↗1 layers
 
 **Implement a persistent memory bank and workflow to enable GitHub Copilot to retain project context across sessions.**
 
@@ -8422,7 +8383,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 549. [https://lazypro.medium.com/kiro-workflow-for-copilot-claude-more-5fce6](https://lazypro.medium.com/kiro-workflow-for-copilot-claude-more-5fce620ab52b)  `7.8` ☆☆☆ ⚡66.0 Q0.6○ Good · ↗2 layers
+### 547. [https://lazypro.medium.com/kiro-workflow-for-copilot-claude-more-5fce6](https://lazypro.medium.com/kiro-workflow-for-copilot-claude-more-5fce620ab52b)  `7.8` ☆☆☆ ⚡66.0 Q0.6○ Good · ↗2 layers
 
 **The article discusses the limitations of Kiro, an AI agent, in fully understanding and executing plans due to its reliance on partial file reads. It highlights issues with context isolation and the necessity for continuous prompts to ensure alignment**
 
@@ -8440,7 +8401,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 > 215 tools · avg signal ⚡85
 
-### 550. [ojowwalker77/Claude-Matrix](https://github.com/ojowwalker77/Claude-Matrix)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 548. [ojowwalker77/Claude-Matrix](https://github.com/ojowwalker77/Claude-Matrix)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Claude-Matrix acts as a comprehensive orchestration layer built around Claude Code, transforming it into a persistent development environment. It manages workflow orchestration through automated background hooks (e.g., before install, before commit),**
 
@@ -8456,7 +8417,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 551. [REPOZY/superpowers-optimized](https://github.com/REPOZY/superpowers-optimized)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 549. [REPOZY/superpowers-optimized](https://github.com/REPOZY/superpowers-optimized)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Borg Project's Superpowers Optimized is a refined fork of the obra/superpowers framework, designed to deliver faster, safer, and more intelligent coding sessions. It introduces automatic 3-tier workflow routing, integrated OWASP-aligned safety gu**
 
@@ -8472,7 +8433,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 552. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 550. [peterparker57/project-hub-mcp-server](https://github.com/peterparker57/project-hub-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Project Hub MCP Server is an AI-powered developer platform designed to streamline software development processes. It offers robust project management tools, local Git functionality, and seamless integration with GitHub for version control and col**
 
@@ -8488,7 +8449,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 553. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 551. [demomagic/duckchain-mcp](https://github.com/demomagic/duckchain-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The DuckChain MCP Server is a comprehensive Model Context Protocol (MCP) server that integrates with BlockScout API v2 to deliver advanced blockchain analytics. It supports over 56 specialized tools for transaction tracing, address exploration, token**
 
@@ -8504,7 +8465,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 554. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
+### 552. [jurasofish/mcpunk](https://github.com/jurasofish/mcpunk)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
 
 **MCPunk is a powerful tool for developers that enhances code understanding by breaking files into logical chunks (functions, classes, markdown sections) and allowing LLMs to query these specific parts. It integrates seamlessly with Claude Desktop, pro**
 
@@ -8520,7 +8481,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 555. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 553. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Kagimcp is an open-source model context protocol server designed to facilitate seamless integration between various AI and search tools. It allows developers to query and retrieve contextual information from different applications, enhancing interope**
 
@@ -8536,7 +8497,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 556. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 554. [kazuph/mcp-docs-rag](https://github.com/kazuph/mcp-docs-rag)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The kazuph/mcp-docs-rag project is a TypeScript-based MCP server designed to enhance developer workflows by integrating GitHub repositories with LLMs via Retrieval-Augmented Generation (RAG). It allows users to store and query documents locally, enab**
 
@@ -8552,7 +8513,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 557. [hmk/attio-mcp-server](https://github.com/hmk/attio-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 555. [hmk/attio-mcp-server](https://github.com/hmk/attio-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The hmk/attio-mcp-server is an MCP (Model Context Protocol) server designed to facilitate seamless integration between AI models like Claude and Attio's CRM system. It enables developers to manage and automate workflows, handle code reviews, and ensu**
 
@@ -8567,7 +8528,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 558. [ubaumann/mkdocs-mcp](https://github.com/ubaumann/mkdocs-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 556. [ubaumann/mkdocs-mcp](https://github.com/ubaumann/mkdocs-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mkdocs-mcp project is an experimental plugin designed to enable integration of an MCP (Multi-Cloud Platform) server within the MkDocs documentation platform. It addresses the need for developers to manage and deploy cloud-based infrastructure sea**
 
@@ -8582,7 +8543,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 559. [samuelfaj/claudiomiro](https://github.com/samuelfaj/claudiomiro)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
+### 557. [samuelfaj/claudiomiro](https://github.com/samuelfaj/claudiomiro)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
 
 **Claudiomiro is an autonomous agent designed to break down complex development tasks into smaller, parallelizable tasks, execute them simultaneously using AI agents, review the code, run tests, fix failures automatically, and create production-ready c**
 
@@ -8598,7 +8559,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 560. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `9.6` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 558. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)  `9.6` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Server for PostgreSQL acts as a bridge between LLMs and Supabase projects, allowing natural language queries to interact with PostgreSQL databases. It supports advanced features like schema management, secure authentication, and integration w**
 
@@ -8614,7 +8575,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 561. [alexsmirnov/obsidian-second-brain-mcp](https://github.com/alexsmirnov/obsidian-second-brain-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 559. [alexsmirnov/obsidian-second-brain-mcp](https://github.com/alexsmirnov/obsidian-second-brain-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a customizable MCP (Markdown Cloud Process Manager) server using FastMCP to streamline software development workflows. It leverages Python for scripting and integrates with GitHub for seamless code management, offering features s**
 
@@ -8630,7 +8591,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 562. [bjoernbonk/letsbonk_mcp_server](https://github.com/bjoernbonk/letsbonk_mcp_server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 560. [bjoernbonk/letsbonk_mcp_server](https://github.com/bjoernbonk/letsbonk_mcp_server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The bjoernbonk/letsbonk_mcp_server is a GitHub-hosted application designed to integrate Solana blockchain functionality into the LetsBonk launchpad. It enables token launching, trading, and configuration through a user-friendly interface, leveraging **
 
@@ -8646,7 +8607,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 563. [atomicchonk/roadrecon_mcp_server](https://github.com/atomicchonk/roadrecon_mcp_server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 561. [atomicchonk/roadrecon_mcp_server](https://github.com/atomicchonk/roadrecon_mcp_server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg project introduces the RoadRecon MCP server, which leverages AI capabilities of Claude MCP to process ROADRecon data. This tool is designed to streamline security analysis by integrating with Azure AD for user and role management, enabling a**
 
@@ -8662,7 +8623,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 564. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
+### 562. [data-skunks/kpu-mcp](https://github.com/data-skunks/kpu-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Borg project presents a comprehensive developer platform designed to enhance modern software engineering practices. It integrates advanced AI capabilities such as code generation, intelligent code review, and automated workflow management, all wh**
 
@@ -8677,7 +8638,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 565. [jonafly/rednote-mcp](https://github.com/jonafly/rednote-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 563. [jonafly/rednote-mcp](https://github.com/jonafly/rednote-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a GitHub-hosted MCP (Machine-to-Machine) server that allows users to access and manage RedNote notes securely. It supports authentication via cookies, integrates with external tools, and includes features like code review, workfl**
 
@@ -8693,7 +8654,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 566. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 564. [fred-em/headline-vibes](https://github.com/fred-em/headline-vibes)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The MCP Server project leverages EventRegistry API to fetch and analyze news headlines, providing structured sentiment analysis with diagnostics. It supports daily and monthly sentiment snapshots, offering insights into political leanings, source dis**
 
@@ -8709,7 +8670,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 567. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 565. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The slack-mcp-server acts as a bridge between Claude and Slack by implementing the Model Context Protocol (MCP). It allows AI assistants to securely read messages, threads, metadata, and user information from Slack channels, threads, and direct messa**
 
@@ -8725,7 +8686,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 568. [turnono/datacommons-mcp-server](https://github.com/turnono/datacommons-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 566. [turnono/datacommons-mcp-server](https://github.com/turnono/datacommons-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The turnono/datacommons-mcp-server is a Python-based application designed to interact with the Data Commons API, offering functionalities such as searching indicators and topics, providing observations and data, supporting multiple data formats, and **
 
@@ -8741,7 +8702,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 569. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 567. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The mekanixms/mcp_memory_plugin is a lightweight software component designed to enhance application memory management by leveraging SQLite as its persistent storage backend. It enables developers to store and retrieve data across sessions, improving **
 
@@ -8756,7 +8717,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 570. [inkeep/mcp-server-python](https://github.com/inkeep/mcp-server-python)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 568. [inkeep/mcp-server-python](https://github.com/inkeep/mcp-server-python)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Inkeep MCP Server serves as an agent orchestration tool designed to streamline interactions between various software applications. It leverages Python and Docker for robust development and deployment, offering features such as code review, securi**
 
@@ -8771,7 +8732,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 571. [peterj/git-pr-mcp](https://github.com/peterj/git-pr-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 569. [peterj/git-pr-mcp](https://github.com/peterj/git-pr-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The Git-PMC server facilitates repository management and automated pull request operations using the Model Context Protocol (MCP). It supports core Git functionalities such as status checks, branch listing, commit history retrieval, diff generation, **
 
@@ -8786,7 +8747,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 572. [tolik-unicornrider/mcp_scraper](https://github.com/tolik-unicornrider/mcp_scraper)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 570. [tolik-unicornrider/mcp_scraper](https://github.com/tolik-unicornrider/mcp_scraper)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg Project's mcp_scraper is a command-line utility designed to extract meaningful data from web pages using Mozilla's Readability library. It supports both CLI and MCP server modes, enabling seamless integration into automated workflows for cod**
 
@@ -8801,7 +8762,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 573. [zefanhu/mcp-rapidapi-judge0-server](https://github.com/zefanhu/mcp-rapidapi-judge0-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 571. [zefanhu/mcp-rapidapi-judge0-server](https://github.com/zefanhu/mcp-rapidapi-judge0-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted server that integrates AI-powered code review and security analysis tools. It enables developers to automate code quality checks, vulnerability detection, and security audits directly from their repositories. The **
 
@@ -8816,7 +8777,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 574. [debugg-ai/debugg-ai-mcp](https://github.com/debugg-ai/debugg-ai-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 572. [debugg-ai/debugg-ai-mcp](https://github.com/debugg-ai/debugg-ai-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **Debugg AI's MCP server provides zero-config, fully AI-managed end-to-end testing across all code generation platforms. It automates workflows, integrates with CI/CD pipelines, and offers intelligent code review and security checks to enhance developm**
 
@@ -8832,7 +8793,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 575. [cuongpham2107/word-mcp-server](https://github.com/cuongpham2107/word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 573. [cuongpham2107/word-mcp-server](https://github.com/cuongpham2107/word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project utilizes FastMCP to build interactive tools for working with Word documents, offering functionalities such as document creation, editing, adding images, tables, and integrating large language models (LLMs). It supports advanced features l**
 
@@ -8848,7 +8809,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 576. [ynu/mcp-ynu](https://github.com/ynu/mcp-ynu)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 574. [ynu/mcp-ynu](https://github.com/ynu/mcp-ynu)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The ynu/mcp-ynu project provides a comprehensive solution for managing and automating development workflows using FastMCP. It includes features such as dynamic module loading, type hints, logging, and integration with various tools and resources. Thi**
 
@@ -8864,7 +8825,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 577. [priyankark/a11y-mcp](https://github.com/priyankark/a11y-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 575. [priyankark/a11y-mcp](https://github.com/priyankark/a11y-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The a11y-mcp project provides a Model Context Protocol (MCP) server that integrates with axe-core to conduct detailed accessibility audits on web pages. By leveraging AI assistants like Amp, Cline, Cursor, GH Copilot, or GitHub Copilot, developers ca**
 
@@ -8878,7 +8839,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 578. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 576. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Borg Project offers a comprehensive GitHub integration that enables teams to manage code repositories, track issues, manage pull requests, and automate workflows directly within the GitHub ecosystem. It supports advanced search capabilities, batc**
 
@@ -8894,7 +8855,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 579. [krajcik/manticore-mcp-server](https://github.com/krajcik/manticore-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 577. [krajcik/manticore-mcp-server](https://github.com/krajcik/manticore-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The project provides a GitHub-hosted server for integrating Manticore Search with MCP-compatible clients, enabling developers to build intelligent applications through automated code review, security checks, and CI/CD pipelines. It supports enterpris**
 
@@ -8910,7 +8871,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 580. [tavmem/buddy](https://github.com/tavmem/buddy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 578. [tavmem/buddy](https://github.com/tavmem/buddy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The repository contains a version of the A+ programming language interpreter that implements a buddy system for memory allocation. It includes features such as code generation, code review, security enhancements, and integration with modern developme**
 
@@ -8925,7 +8886,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 581. [securfi/rapidapi_mcp](https://github.com/securfi/rapidapi_mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 579. [securfi/rapidapi_mcp](https://github.com/securfi/rapidapi_mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project's RapidAPI_mcp repository offers a comprehensive developer platform focused on streamlining software development processes. It includes tools for code review management, workflow automation, and integration of security features to en**
 
@@ -8940,7 +8901,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 582. [apw124/logseq-mcp](https://github.com/apw124/logseq-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 580. [apw124/logseq-mcp](https://github.com/apw124/logseq-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project offers a set of Model Context Protocol (MCP) tools that enable AI agents to seamlessly interact with a local Logseq instance. It includes installation instructions, setup for developer mode, integration with Logseq via API, and configura**
 
@@ -8955,7 +8916,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 583. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 581. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The eversinc33/TriageMCP project provides a GitHub-hosted MCP server designed for analyzing executable files (PE) using tools like pefile and yara-python. It enables automated static malware triage, supporting features such as hash lookup, transport **
 
@@ -8970,7 +8931,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 584. [daisys-ai/daisys-mcp](https://github.com/daisys-ai/daisys-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 582. [daisys-ai/daisys-mcp](https://github.com/daisys-ai/daisys-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The Daisys MCP server serves as an open-source, beta version of the Daisy AI platform, designed to streamline software development processes. It supports agent orchestration, workflow automation, and integration with tools like GitHub Copilot, enabli**
 
@@ -8985,7 +8946,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 585. [mr-house/bilibili-mcp-server](https://github.com/mr-house/bilibili-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 583. [mr-house/bilibili-mcp-server](https://github.com/mr-house/bilibili-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a Python implementation of an MCP (Machine-to-Machine) protocol server designed to facilitate integration between systems using the Bilibili API. It emphasizes automation, security, and adherence to best practices such as code qu**
 
@@ -9000,7 +8961,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 586. [gotohuman/gotohuman-mcp-server](https://github.com/gotohuman/gotohuman-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 584. [gotohuman/gotohuman-mcp-server](https://github.com/gotohuman/gotohuman-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The gotohuman-mcp-server is a comprehensive AI-powered developer platform designed to streamline modern software engineering processes. It integrates advanced security features, automated code review, and seamless human-AI collaboration through custo**
 
@@ -9015,7 +8976,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 587. [gebabygeegee/amapmcpserver](https://github.com/gebabygeegee/amapmcpserver)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 585. [gebabygeegee/amapmcpserver](https://github.com/gebabygeegee/amapmcpserver)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The GeBabyGeeGee/AmapMCPServer project is a GitHub-hosted platform designed to streamline software development workflows by integrating automation tools, code review processes, and security measures. It supports enterprise-level application security,**
 
@@ -9030,7 +8991,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 588. [kelnishi/popui](https://github.com/kelnishi/popui)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 586. [kelnishi/popui](https://github.com/kelnishi/popui)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **PopUI is a collaborative user interface tool for macOS that enhances Claude Desktop's functionality by providing a bi-directional bridge to a visual context. It allows users to interact with visual elements, push changes back to the chat, and receive**
 
@@ -9045,7 +9006,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 589. [kazuph/mcp-taskmanager](https://github.com/kazuph/mcp-taskmanager)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 587. [kazuph/mcp-taskmanager](https://github.com/kazuph/mcp-taskmanager)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The kazuph/mcp-taskmanager is a GitHub-based tool designed to streamline task management for teams. It supports both planning and execution phases, allowing users to plan tasks, store them in a queue, and execute them with feedback mechanisms. The pl**
 
@@ -9060,7 +9021,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 590. [bergeramit/bergeramit-hw3-tech](https://github.com/bergeramit/bergeramit-hw3-tech)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 588. [bergeramit/bergeramit-hw3-tech](https://github.com/bergeramit/bergeramit-hw3-tech)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The bergeramit-hw3-tech project offers a suite of tools aimed at streamlining software development processes. It integrates advanced code review functionalities, automated workflow management, and enterprise-grade security measures to support modern **
 
@@ -9075,7 +9036,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 591. [adamrtalbot/mcp-nextflow](https://github.com/adamrtalbot/mcp-nextflow)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 589. [adamrtalbot/mcp-nextflow](https://github.com/adamrtalbot/mcp-nextflow)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The adamrtalbot/mcp-nextflow project provides a suite of tools designed to streamline the development and execution of Nextflow pipelines. It supports building, testing, and deploying Nextflow applications with integrated features such as automated w**
 
@@ -9091,7 +9052,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 592. [mcherukara/claude-deep-research](https://github.com/mcherukara/claude-deep-research)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 590. [mcherukara/claude-deep-research](https://github.com/mcherukara/claude-deep-research)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcherukara/Claude-Deep-Research project introduces an MCP (Model Context Protocol) server designed to improve Claude's research functionality by integrating web and academic search sources. It enables comprehensive research through unified interf**
 
@@ -9107,7 +9068,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 593. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers
+### 591. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The Image-MCP Server processes image URLs or local file paths to provide detailed analysis using the GPT-4o-mini model. It supports image validity checks, loading from local files, and Base64 encoding. The project integrates with enterprise security **
 
@@ -9123,7 +9084,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 594. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 592. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The asmagin/mcp-server-flutter project provides a Flutter-based server solution designed to streamline the development, deployment, and management of AI-driven applications. It integrates advanced developer tools such as GitHub Copilot, Code Review, **
 
@@ -9139,7 +9100,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 595. [promplate/pyth-on-line](https://github.com/promplate/pyth-on-line)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 593. [promplate/pyth-on-line](https://github.com/promplate/pyth-on-line)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The promplate/pyth-on-line project offers an online Python IDE featuring built-in Copilot, Hot Module Reloading (HMR), and a suite of side-projects such as static analysis tools and testing frameworks. It supports modern development practices includi**
 
@@ -9155,7 +9116,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 596. [mattpocock/skills](https://github.com/mattpocock/skills)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 594. [mattpocock/skills](https://github.com/mattpocock/skills)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This resource outlines a comprehensive set of skills and tools designed to enhance developer productivity, streamline workflows, and strengthen security practices. It covers code review, automated testing, CI/CD pipelines, secure coding, and integrat**
 
@@ -9171,7 +9132,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 597. [tanigami/mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 595. [tanigami/mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The tanigami/mcp-server-perplexity project provides a GitHub-based solution for integrating advanced developer workflows, automated code reviews, and security assessments. It leverages AI capabilities to streamline enterprise-level software developme**
 
@@ -9186,7 +9147,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 598. [kailashappdev/figma-mcp-toolkit](https://github.com/kailashappdev/figma-mcp-toolkit)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
+### 596. [kailashappdev/figma-mcp-toolkit](https://github.com/kailashappdev/figma-mcp-toolkit)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The kailashAppDev/figma-mcp-toolkit is an open-source project that enables developers to automatically extract UI components from Figma files and generate corresponding React Native code. It supports enterprise-level security, integrates with CI/CD p**
 
@@ -9201,7 +9162,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 599. [mcp2everything/mcp2brave](https://github.com/mcp2everything/mcp2brave)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 597. [mcp2everything/mcp2brave](https://github.com/mcp2everything/mcp2brave)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project introduces a MCP (Mobile Cloud Platform) server that integrates the Brave browser API to facilitate advanced network search functionalities. By utilizing the Brave API, users can leverage their Claude Cline and Langchain systems to perfo**
 
@@ -9216,7 +9177,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 600. [dfinke/mcp-powershell-exec](https://github.com/dfinke/mcp-powershell-exec)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 598. [dfinke/mcp-powershell-exec](https://github.com/dfinke/mcp-powershell-exec)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP Server facilitates the execution of PowerShell scripts as strings within an MCP environment, leveraging AI assistants like GitHub Copilot to enhance developer productivity. It supports seamless integration with tools such as VSCode and GitHub**
 
@@ -9231,7 +9192,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 601. [gabriel-paulos/twilio-mcp-python](https://github.com/gabriel-paulos/twilio-mcp-python)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
+### 599. [gabriel-paulos/twilio-mcp-python](https://github.com/gabriel-paulos/twilio-mcp-python)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a Python implementation of the Twilio MCP (Message Control Protocol) server, designed to streamline message handling in communication platforms. It emphasizes code quality, security, and integration capabilities, offering tools f**
 
@@ -9246,7 +9207,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 602. [a37ai/ansible-tower-mcp](https://github.com/a37ai/ansible-tower-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 600. [a37ai/ansible-tower-mcp](https://github.com/a37ai/ansible-tower-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server for Ansible Tower is a project designed to enhance workflow automation by providing a robust platform for orchestrating tasks, managing code changes, and integrating with various tools. It supports developers in streamlining their deve**
 
@@ -9261,7 +9222,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 603. [vatsal191201/tracxn-mcp](https://github.com/vatsal191201/tracxn-mcp/tree/HEAD/tracxn-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 601. [vatsal191201/tracxn-mcp](https://github.com/vatsal191201/tracxn-mcp/tree/HEAD/tracxn-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The tracxn-mcp project offers a comprehensive developer platform focused on enhancing software development workflows through advanced code review processes, automated pull request handling, and secure collaboration features. It integrates seamlessly **
 
@@ -9276,7 +9237,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 604. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 602. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The xBlueCode findata-mcp-server is a GitHub-hosted platform designed to integrate with the Alpha Vantage API, enabling developers to fetch stock market data such as current quotes and historical trends. It supports enterprise-grade security features**
 
@@ -9291,7 +9252,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 605. [roshan/rowik-mcp](https://github.com/roshan/rowik-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 603. [roshan/rowik-mcp](https://github.com/roshan/rowik-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project integrates advanced developer tools such as GitHub Copilot, Code Review Management, and automated workflows to streamline software development processes. It supports enterprise-grade security, secure code deployment, and intelligent **
 
@@ -9306,7 +9267,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 606. [wolkwork/knmi-mcp](https://github.com/wolkwork/knmi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 604. [wolkwork/knmi-mcp](https://github.com/wolkwork/knmi-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project offers a comprehensive developer platform that integrates code review, security scanning, and automated workflows using AI-driven tools. It supports enterprise-level development practices by providing features such as pull request managem**
 
@@ -9321,7 +9282,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 607. [puravparab/gitingest-mcp](https://github.com/puravparab/gitingest-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 605. [puravparab/gitingest-mcp](https://github.com/puravparab/gitingest-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a GitHub-hosted MCP (Messaging Control Plane) server tailored for Gitingest, facilitating seamless communication between Github clients and Gitingest applications. It supports automated workflows, code reviews, security features,**
 
@@ -9336,7 +9297,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 608. [n0safe/directus-mcp](https://github.com/n0safe/directus-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 606. [n0safe/directus-mcp](https://github.com/n0safe/directus-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The N0SAFE/directus-mcp project offers a developer-focused platform that integrates advanced security features, automated code review processes, and workflow automation tools to support modern software development practices. It emphasizes enterprise-**
 
@@ -9351,7 +9312,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 609. [floatdreamwithsong/mysql-mcp-server-qwen-manager](https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 607. [floatdreamwithsong/mysql-mcp-server-qwen-manager](https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Node.js application that integrates with MySQL databases using the MCP (MySQL Connector/Python) library. It supports automation of database operations, code review, security features, and CI/CD pipelines. The tool is designed t**
 
@@ -9366,7 +9327,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 610. [davidkingzyb/scast](https://github.com/davidkingzyb/scast)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 608. [davidkingzyb/scast](https://github.com/davidkingzyb/scast)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **SCAST leverages parsing techniques to analyze source code, generating visual representations such as UML diagrams and flowcharts. This enables developers to better understand code structure, identify potential issues, and improve maintainability. The**
 
@@ -9381,7 +9342,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 611. [gcorroto/mcp-n8n-webhook](https://github.com/gcorroto/mcp-n8n-webhook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 609. [gcorroto/mcp-n8n-webhook](https://github.com/gcorroto/mcp-n8n-webhook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The mcp-n8n-webhook project enables integration with n8n by sending structured data to a webhook endpoint, facilitating efficient storage, indexing, and retrieval of conversational logs and embeddings for AI applications. It supports various use case**
 
@@ -9396,7 +9357,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 612. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 610. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **This project introduces an updated MCP server leveraging TypeScript to improve interoperability, security, and developer workflow. It focuses on integrating external tools, automating workflows, and enhancing application security through advanced fea**
 
@@ -9411,7 +9372,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 613. [other-blowsnow/mcp-server-chinarailway](https://github.com/other-blowsnow/mcp-server-chinarailway)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 611. [other-blowsnow/mcp-server-chinarailway](https://github.com/other-blowsnow/mcp-server-chinarailway)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project focuses on developing a robust server solution to handle and manage the Chinarailway MCP (Messaging Channel Protocol) server, providing essential functionalities for deployment, configuration, and monitoring. It emphasizes automation, sec**
 
@@ -9426,7 +9387,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 614. [tatn/mcp-server-diff-typescript](https://github.com/tatn/mcp-server-diff-typescript)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 612. [tatn/mcp-server-diff-typescript](https://github.com/tatn/mcp-server-diff-typescript)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The mcp-server-diff-typescript is a TypeScript implementation of a unified diff generator that enables developers to compare changes in code efficiently. It supports integration with AI tools like Claude Desktop for enhanced code review and automatio**
 
@@ -9441,7 +9402,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 615. [kazuph/mcp-github-pera1](https://github.com/kazuph/mcp-github-pera1)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 613. [kazuph/mcp-github-pera1](https://github.com/kazuph/mcp-github-pera1)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project implements a MCP (Model Context Protocol) server that connects GitHub repositories to Claude.ai, allowing developers to query and receive contextual insights about their code directly within the AI assistant interface. This integration st**
 
@@ -9456,7 +9417,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 616. [dongprojectteam/mcp-docent-server](https://github.com/dongprojectteam/mcp-docent-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 614. [dongprojectteam/mcp-docent-server](https://github.com/dongprojectteam/mcp-docent-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The dongprojectteam/mcp-docent-server is an AI-driven platform that enables developers to upload images and receive detailed captions or explanations using advanced natural language processing. It integrates with various tools and supports enterprise**
 
@@ -9471,7 +9432,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 617. [shep-ai/cli](https://github.com/shep-ai/cli)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
+### 615. [shep-ai/cli](https://github.com/shep-ai/cli)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A powerful AI coding assistant that automates the full software development lifecycle, enabling developers to manage multiple features in parallel with isolated workspaces, CI/CD integration, code reviews, and security checks.**
 
@@ -9487,7 +9448,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 618. [aashari/mcp-server-atlassian-bitbucket](https://github.com/aashari/mcp-server-atlassian-bitbucket)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
+### 616. [aashari/mcp-server-atlassian-bitbucket](https://github.com/aashari/mcp-server-atlassian-bitbucket)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Borg integrates AI assistants directly into Atlassian Bitbucket workflows, enabling developers to interact with repositories, pull requests, and code via natural language while connecting seamlessly to CI/CD pipelines.**
 
@@ -9503,7 +9464,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 619. [c4pt0r/mcp-server-s3](https://github.com/c4pt0r/mcp-server-s3)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 617. [c4pt0r/mcp-server-s3](https://github.com/c4pt0r/mcp-server-s3)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg Project's mcp-server-s3 repository offers a comprehensive solution for enterprise AI development, focusing on automation, security, and scalability. It provides tools for code management, workflow orchestration, and integration with external**
 
@@ -9518,7 +9479,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 620. [siddhant-k-code/mcp-devto-server](https://github.com/siddhant-k-code/mcp-devto-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 618. [siddhant-k-code/mcp-devto-server](https://github.com/siddhant-k-code/mcp-devto-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a GitHub-hosted server environment for developers to manage projects, automate workflows, and collaborate using tools like Copilot, Code Review, and CI/CD pipelines. It supports enterprise-grade security, code quality management,**
 
@@ -9533,7 +9494,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 621. [owayo/mcp-src-tree](https://github.com/owayo/mcp-src-tree)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 619. [owayo/mcp-src-tree](https://github.com/owayo/mcp-src-tree)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a structured source tree visualization of the mcp-src-tree repository, enabling developers to quickly navigate and understand the codebase. It supports GitHub integration, automated workflows, and secure code management, making i**
 
@@ -9548,7 +9509,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 622. [cbinsights/cbi-mcp-server](https://github.com/cbinsights/cbi-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 620. [cbinsights/cbi-mcp-server](https://github.com/cbinsights/cbi-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The CBI MCP Server acts as a bridge between developers and the CB Insights API, allowing automated workflows and intelligent responses through AI agents. It supports integration with tools like GitHub Copilot, enabling developers to build and manage **
 
@@ -9563,7 +9524,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 623. [yikaj/futu](https://github.com/yikaj/futu)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 621. [yikaj/futu](https://github.com/yikaj/futu)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The YikaJ/Futu project offers a GitHub repository focused on enhancing software development workflows through automation, security integration, and enterprise-grade code management. It supports advanced features such as automated code review, vulnera**
 
@@ -9578,7 +9539,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 624. [francesliang/custom_mcp_servers](https://github.com/francesliang/custom_mcp_servers)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 622. [francesliang/custom_mcp_servers](https://github.com/francesliang/custom_mcp_servers)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project presents a GitHub-hosted custom MCP (Managed Code Protection) server designed to streamline enterprise software development workflows. It integrates advanced security features, automated code review processes, and workflow automation tool**
 
@@ -9593,7 +9554,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 625. [secretiveshell/mcp-llms-txt](https://github.com/secretiveshell/mcp-llms-txt)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 623. [secretiveshell/mcp-llms-txt](https://github.com/secretiveshell/mcp-llms-txt)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The MCP server facilitates seamless communication between the Borg platform and external AI models, allowing developers to embed documentation directly into conversations. It supports automated workflows, secure code management, and integration with **
 
@@ -9608,7 +9569,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 626. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/hoover)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 624. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/hoover)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The 'Borg' Project's Hoover MCP server implementation enables seamless integration with Cloud Foundry, allowing developers to deploy and manage applications efficiently. It supports automated workflows, code reviews, security checks, and CI/CD pipeli**
 
@@ -9623,7 +9584,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 627. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 625. [piotrpalek/mcp-thinking-tool](https://github.com/piotrpalek/mcp-thinking-tool)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The Think Tool is an MCP server that enables Claude to break down complex problems, organize thoughts systematically, cache intermediate results, and demonstrate its reasoning process. It supports structured thinking, step-by-step breakdowns, and int**
 
@@ -9638,7 +9599,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 628. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 626. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp-visit-korea project offers a web application that leverages the Model Context Protocol (MCP) to deliver comprehensive and localized tourism data for visitors in Korea. It features robust code management, secure deployment practices, and integ**
 
@@ -9653,7 +9614,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 629. [shivaylamba/mcp-nebius](https://github.com/shivaylamba/mcp-nebius)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 627. [shivaylamba/mcp-nebius](https://github.com/shivaylamba/mcp-nebius)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The Borg Project's mcp-nebius repository offers a suite of tools and resources aimed at enhancing software development processes through automation, security, and collaboration features. It supports developers in managing code changes, integrating ex**
 
@@ -9668,7 +9629,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 630. [akilat-spec/leave-manager-mcp](https://github.com/akilat-spec/leave-manager-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 628. [akilat-spec/leave-manager-mcp](https://github.com/akilat-spec/leave-manager-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project presents a machine learning-driven solution for managing employee leave requests within an MCP (Manage Care Path) environment. It leverages Python and MySQL to automate and streamline leave processes, offering intelligent workflow automat**
 
@@ -9683,7 +9644,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 631. [Launch HN: Canary (YC W26) – AI QA that understands your code | Hacker News](https://news.ycombinator.com/item?id=47441629)  `10.0` ★★★ ⚡87.0 Q0.8🏆 World-class · ↗2 layers
+### 629. [Launch HN: Canary (YC W26) – AI QA that understands your code | Hacker News](https://news.ycombinator.com/item?id=47441629)  `10.0` ★★★ ⚡87.0 Q0.8🏆 World-class · ↗2 layers
 
 **Canary is a purpose-built AI QA platform designed to understand application architecture, interpret pull requests, and automatically generate and execute targeted tests. It bridges the gap between code review and automated testing by analyzing code s**
 
@@ -9699,7 +9660,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 632. [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 630. [cyberchitta/llm-context.py](https://github.com/cyberchitta/llm-context.py)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **LLM Context Protocol enables intelligent code management, context-driven rule-based customization, and seamless integration with AI tools for modern software development workflows.**
 
@@ -9715,7 +9676,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 633. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 631. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A developer platform for building, deploying, and managing AI-powered applications with integrated security, code review, and workflow automation tools.**
 
@@ -9731,7 +9692,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 634. [spences10/mcp-omnisearch](https://github.com/spences10/mcp-omnisearch)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 632. [spences10/mcp-omnisearch](https://github.com/spences10/mcp-omnisearch)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A unified MCP server integrating multiple search engines, AI tools, and content extraction services into a single interface for streamlined intelligence workflows.**
 
@@ -9747,7 +9708,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 635. [chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 633. [chunkydotdev/bldbl-mcp](https://github.com/chunkydotdev/bldbl-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered platform enabling seamless integration of developer tools, code management, security, and collaboration workflows for modern software development.**
 
@@ -9763,7 +9724,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 636. [playcanvas/editor-mcp-server](https://github.com/playcanvas/editor-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 634. [playcanvas/editor-mcp-server](https://github.com/playcanvas/editor-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A cloud-based AI automation platform for the PlayCanvas Editor, enabling intelligent code generation, workflow automation, and secure development environments.**
 
@@ -9779,7 +9740,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 637. [kontent-ai/mcp-server](https://github.com/kontent-ai/mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 635. [kontent-ai/mcp-server](https://github.com/kontent-ai/mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Borg's MCP server integrates AI tools to enable natural language interactions with structured content, streamlining development and deployment processes.**
 
@@ -9795,7 +9756,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 638. [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 636. [mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A tool to automate and streamline the creation of executable development plans for AI coding assistants, integrating validation, lessons learned, and real-time progress tracking.**
 
@@ -9811,7 +9772,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 639. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 637. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **Borg integrates multiple AI models to automate and oversee the full software development lifecycle, ensuring quality, security, and efficiency across coding tasks.**
 
@@ -9827,7 +9788,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 640. [Ishabdullah/Codey-v2](https://github.com/Ishabdullah/Codey-v2)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 638. [Ishabdullah/Codey-v2](https://github.com/Ishabdullah/Codey-v2)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A persistent, local AI coding assistant for Android devices that enables offline development, code generation, and task automation without relying on cloud services.**
 
@@ -9843,7 +9804,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 641. [honeycombio/honeycomb-mcp](https://github.com/honeycombio/honeycomb-mcp)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 639. [honeycombio/honeycomb-mcp](https://github.com/honeycombio/honeycomb-mcp)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A cloud-native AI-powered platform for Honeycomb Enterprise customers to analyze data, alerts, dashboards, and codebase using advanced machine learning and code review capabilities.**
 
@@ -9858,7 +9819,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 642. [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 640. [Embracing the parallel coding agent lifestyle](https://simonwillison.net/2025/Oct/5/parallel-coding-agents)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The author describes moving from skepticism to actively embracing the 'parallel coding agent lifestyle' by running multiple LLM instances (like Claude Code and Codex CLI) concurrently against the same or different repositories. The key insight is man**
 
@@ -9874,7 +9835,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 643. [Bito AI Code Reviews - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 641. [Bito AI Code Reviews - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=Bito.Bito)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Bito AI Code Reviews helps engineering teams ship better code faster by providing AI-powered code reviews directly within the IDE and Git workflows. It leverages Claude Sonnet 4 and Bito's proprietary prompt framework to deliver smart, high-quality c**
 
@@ -9890,7 +9851,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 644. [guanxinyuan/neo4j](https://github.com/guanxinyuan/neo4j)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 642. [guanxinyuan/neo4j](https://github.com/guanxinyuan/neo4j)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The project focuses on integrating MCP (Model Context Protocol) with Neo4j to enable natural language interactions with graph databases. It provides tools for querying, memory storage, and workflow automation, supporting enterprise-grade security and**
 
@@ -9906,7 +9867,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 645. [rcarmo/piclaw](https://github.com/rcarmo/piclaw/releases/tag/v2.0.0)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 643. [rcarmo/piclaw](https://github.com/rcarmo/piclaw/releases/tag/v2.0.0)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The PiClaw v2.0.0 release enhances the developer experience by providing a comprehensive settings interface featuring a floating UI with side navigation, model management, add-on integration, and more. It supports enterprise-grade security, automated**
 
@@ -9922,7 +9883,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 646. [gentoro-gt/mcp-nodejs-server](https://github.com/gentoro-gt/mcp-nodejs-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
+### 644. [gentoro-gt/mcp-nodejs-server](https://github.com/gentoro-gt/mcp-nodejs-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Gentoro MCP Node.js Server acts as an integration layer, enabling seamless communication between MCP clients and the Gentoro MCP Server. This setup allows for automated workflows, secure code deployment, and efficient management of integrations u**
 
@@ -9937,7 +9898,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 647. [nikhil-patil-ri/mcp-github-oauth](https://github.com/nikhil-patil-ri/mcp-github-oauth)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 645. [nikhil-patil-ri/mcp-github-oauth](https://github.com/nikhil-patil-ri/mcp-github-oauth)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **This project focuses on integrating GitHub OAuth into the Borg intelligence database, enabling seamless user authentication and streamlined code management. It includes setup instructions, debugging tools like MCP Inspector, and features such as auto**
 
@@ -9952,7 +9913,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 648. [kenjihikmatullah/productboard-mcp](https://github.com/kenjihikmatullah/productboard-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 646. [kenjihikmatullah/productboard-mcp](https://github.com/kenjihikmatullah/productboard-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **This project focuses on embedding the Productboard API into automated workflows via MCP, enabling developers to leverage Productboard's features within agentic systems. It includes setup of access tokens, integration with MCP tools, and automation of**
 
@@ -9967,7 +9928,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 649. [jhawkins11/task-manager-mcp](https://github.com/jhawkins11/task-manager-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 647. [jhawkins11/task-manager-mcp](https://github.com/jhawkins11/task-manager-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A task management and AI-assisted planning platform integrating with Cursor for intelligent code review, workflow automation, and context-aware task breakdown.**
 
@@ -9982,7 +9943,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 650. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 648. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project focuses on integrating the Model Context Protocol with Epsilla to enhance data processing capabilities. It emphasizes secure coding practices, automated workflows, and enterprise-grade security features to ensure robust application develo**
 
@@ -9997,7 +9958,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 651. [joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 649. [joshuarileydev/supabase-mcp-server](https://github.com/joshuarileydev/supabase-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The supabase-mcp-server is a GitHub-hosted MCP server enabling programmatic access to Supabase Management API. It supports project and organization management, code review, CI/CD integration, and enterprise-grade security features for AI model deploy**
 
@@ -10012,7 +9973,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 652. [dmayboroda/minima](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 650. [dmayboroda/minima](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The Borg Project's minima server is designed to integrate with Claude AI for intelligent code review and security analysis. It supports automated workflows, secure code management, and enterprise-grade DevOps practices, making it suitable for modern **
 
@@ -10027,7 +9988,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 653. [markacianfrani/mcp-pattern-language](https://github.com/markacianfrani/mcp-pattern-language)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 651. [markacianfrani/mcp-pattern-language](https://github.com/markacianfrani/mcp-pattern-language)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **This project provides a centralized developer platform that enables agents to interact with MCP rules and prompts dynamically. It supports integration with external tools, automated workflows, and secure code execution, making it suitable for modern **
 
@@ -10042,7 +10003,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 654. [aicastle-school/openai-api-agent-project](https://github.com/aicastle-school/openai-api-agent-project)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 652. [aicastle-school/openai-api-agent-project](https://github.com/aicastle-school/openai-api-agent-project)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The OpenAI Agent School provides a comprehensive ebook and tools to help developers create, manage, and deploy intelligent agents powered by OpenAI's advanced language models. It covers topics such as agent design, workflow automation, code review, s**
 
@@ -10057,7 +10018,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 655. [AbanteAI/qa-party](https://github.com/AbanteAI/qa-party)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
+### 653. [AbanteAI/qa-party](https://github.com/AbanteAI/qa-party)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
 
 **The repository 'qa-party' is a boilerplate setup generated by the 'mentat-template-js' template, designed to integrate the Mentat AI coding assistant into a standard development lifecycle. The core functionality revolves around using Mentat to automa**
 
@@ -10071,7 +10032,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 656. [onestar99/mcp-spring-test](https://github.com/onestar99/mcp-spring-test)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 654. [onestar99/mcp-spring-test](https://github.com/onestar99/mcp-spring-test)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp spinrg test is designed to evaluate the robustness of the bitcoinService within a controlled environment. It aims to identify potential vulnerabilities and improve the overall security posture by integrating advanced security features and aut**
 
@@ -10085,7 +10046,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 657. [adityak74/mcp-scholarly](https://github.com/adityak74/mcp-scholarly)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 655. [adityak74/mcp-scholarly](https://github.com/adityak74/mcp-scholarly)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP server facilitates the automation of academic literature searches, enabling users to quickly access relevant scholarly articles. It integrates with platforms like arXiv and supports various programming environments, enhancing productivity in **
 
@@ -10100,7 +10061,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 658. [yanbasic/emd-mcp](https://github.com/yanbasic/emd-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 656. [yanbasic/emd-mcp](https://github.com/yanbasic/emd-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The yanbasic/emd-mcp project offers a developer-focused platform that integrates code review processes, workflow automation, and enterprise-grade security features. It supports modern development practices such as CI/CD, DevOps, and secure coding sta**
 
@@ -10114,7 +10075,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 659. [cgize/claude-mcp-think-tool](https://github.com/cgize/claude-mcp-think-tool)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 657. [cgize/claude-mcp-think-tool](https://github.com/cgize/claude-mcp-think-tool)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP Think Tool is a software component integrated into the Claude Desktop platform, aimed at improving structured thinking and decision-making during complex problem-solving. It provides a dedicated space for users to outline rules, verify compli**
 
@@ -10128,7 +10089,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 660. [muka/web-search-mcp](https://github.com/muka/web-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 658. [muka/web-search-mcp](https://github.com/muka/web-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP server enables efficient web search operations by orchestrating tasks, integrating external tools, and automating workflows. It supports scalable configuration through environment variables and Docker integration, ensuring secure and reliable**
 
@@ -10143,7 +10104,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 661. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 659. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **This project introduces an MCP (Model Context Protocol) server extension for GitLab, designed to enhance collaboration by allowing reviewers to post comments on merge requests and providing functionality to retrieve merge request information and late**
 
@@ -10157,7 +10118,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 662. [callmybot/hello-mcp-server](https://github.com/callmybot/hello-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 660. [callmybot/hello-mcp-server](https://github.com/callmybot/hello-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The 'Borg' Project's hello-mcp-server is a GitHub-hosted server designed to facilitate the creation, management, and deployment of intelligent applications. It offers a range of features including code review, security enhancements, and integration w**
 
@@ -10171,7 +10132,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 663. [feed-mob/fm-mcp-servers](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 661. [feed-mob/fm-mcp-servers](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **This project integrates the Jampp Reporting API with a MCP (Model Context Protocol) server to automate Jampp reporting tasks. It leverages Node.js and Claude Desktop to streamline the process, ensuring efficient data collection and reporting. The sol**
 
@@ -10185,7 +10146,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 664. [athapong/aio-mcp](https://github.com/athapong/aio-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 662. [athapong/aio-mcp](https://github.com/athapong/aio-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful Model Context Protocol (MCP) server with AI search, RAG, and integrations for seamless development workflows.**
 
@@ -10201,7 +10162,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 665. [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
+### 663. [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A fully automated MCP server integrated with JADX-AI Plugin to enable AI-assisted reverse engineering of Android APKs.**
 
@@ -10217,7 +10178,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 666. [zeropathai/zeropath-mcp-server](https://github.com/zeropathai/zeropath-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 664. [zeropathai/zeropath-mcp-server](https://github.com/zeropathai/zeropath-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A MCP server enabling AI-powered querying of ZeroPath security issues, patches, and scans via Claude, Cursor, Windsurf, or other AI assistants.**
 
@@ -10233,7 +10194,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 667. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
+### 665. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A model context protocol-compliant server integrating Semgrep with AI assistants for advanced code analysis and security.**
 
@@ -10249,7 +10210,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 668. [procreations-official/second-opinion](https://github.com/procreations-official/second-opinion)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 666. [procreations-official/second-opinion](https://github.com/procreations-official/second-opinion)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A platform enabling intelligent, multi-AI collaboration for code review, problem solving, and enterprise AI workflows.**
 
@@ -10265,7 +10226,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 669. [brendancopley/mcp-chain-of-draft-prompt-tool](https://github.com/brendancopley/mcp-chain-of-draft-prompt-tool)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 667. [brendancopley/mcp-chain-of-draft-prompt-tool](https://github.com/brendancopley/mcp-chain-of-draft-prompt-tool)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A tool that transforms standard prompts into Chain of Draft reasoning, enhancing LLM responses with structured thinking.**
 
@@ -10281,7 +10242,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 670. [jalehman/mcp-sage](https://github.com/jalehman/mcp-sage)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 668. [jalehman/mcp-sage](https://github.com/jalehman/mcp-sage)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A Borg intelligence platform that integrates multiple AI models for code review, second opinions, and automated feedback across development workflows.**
 
@@ -10297,7 +10258,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 671. [tarnover/mcp-sysoperator](https://github.com/tarnover/mcp-sysoperator)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 669. [tarnover/mcp-sysoperator](https://github.com/tarnover/mcp-sysoperator)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A powerful MCP server enabling AI assistants to interact with Ansible, Terraform, and other IaC tools for infrastructure automation.**
 
@@ -10313,7 +10274,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 672. [jmstar85/securityinfrastructure](https://github.com/jmstar85/securityinfrastructure)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 670. [jmstar85/securityinfrastructure](https://github.com/jmstar85/securityinfrastructure)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive security infrastructure platform integrating MCP, Splunk, CrowdStrike EDR, and MISP for automated security operations.**
 
@@ -10329,7 +10290,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 673. [harshmaur/gitlab-mcp](https://github.com/harshmaur/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 671. [harshmaur/gitlab-mcp](https://github.com/harshmaur/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A GitLab MCP server integration tool designed to enhance GitLab's capabilities with advanced security, automation, and workflow management features.**
 
@@ -10345,7 +10306,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 674. [Seey215/github-mcp](https://github.com/Seey215/github-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 672. [Seey215/github-mcp](https://github.com/Seey215/github-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A GitHub automation tool that integrates AI assistants to streamline GitHub operations, reducing repetitive tasks and enhancing collaboration.**
 
@@ -10361,7 +10322,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 675. [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 673. [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A multi-agent orchestration platform for Claude Code, enabling teams to automate workflows with minimal learning curve.**
 
@@ -10377,7 +10338,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 676. [kelvin6365/plane-mcp-server](https://github.com/kelvin6365/plane-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 674. [kelvin6365/plane-mcp-server](https://github.com/kelvin6365/plane-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A platform AI-powered developer platform enabling automation, code review, security, and DevOps workflows for modern software development.**
 
@@ -10392,7 +10353,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 677. [ggerve/coding-standards-mcp](https://github.com/ggerve/coding-standards-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 675. [ggerve/coding-standards-mcp](https://github.com/ggerve/coding-standards-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP Server for Coding Standards provides a centralized platform to access and apply standardized coding guidelines and best practices for various programming languages such as Java, Python, and React. It supports automated code analysis, integrat**
 
@@ -10406,7 +10367,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 678. [juhemcp/jexchange-mcp-server](https://github.com/juhemcp/jexchange-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 676. [juhemcp/jexchange-mcp-server](https://github.com/juhemcp/jexchange-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The jexchange-mcp-server project provides a tool to automate workflows, integrate external services, and manage code changes efficiently. It supports enterprise-level security, code review, and deployment processes, making it suitable for modernizing**
 
@@ -10420,7 +10381,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 679. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers
+### 677. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers
 
 **The project focuses on integrating GitHub Actions with the Magick library to streamline automated code execution and deployment processes. It enables developers to define complex workflows directly within their repositories, leveraging both CI/CD cap**
 
@@ -10434,7 +10395,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 680. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 678. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The project introduces a GitHub-hosted MCP server to enhance Claude Desktop's capabilities, enabling advanced AI-driven vibe-management features. By integrating this server into the development environment, teams can leverage automated workflow manag**
 
@@ -10448,7 +10409,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 681. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 679. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A software development platform enabling AI-assisted management of project workflows using the MCP protocol.**
 
@@ -10464,7 +10425,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 682. [xiaoguomeiyitian/toolbox](https://github.com/xiaoguomeiyitian/toolbox)  `9.6` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗2 layers
+### 680. [xiaoguomeiyitian/toolbox](https://github.com/xiaoguomeiyitian/toolbox)  `9.6` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗2 layers
 
 **An AI-powered automation tool for enterprise development, enabling workflow orchestration, code review, security scanning, and deployment.**
 
@@ -10480,7 +10441,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 683. [byPawel/tachibot-mcp](https://github.com/byPawel/tachibot-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 681. [byPawel/tachibot-mcp](https://github.com/byPawel/tachibot-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A multi-model AI orchestration platform enabling developers to integrate and manage diverse AI models efficiently.**
 
@@ -10496,7 +10457,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 684. [gleicon/mcp-osv](https://github.com/gleicon/mcp-osv)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 682. [gleicon/mcp-osv](https://github.com/gleicon/mcp-osv)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A MCP server integrating with OSV.dev to enable secure code reviews and vulnerability analysis.**
 
@@ -10511,7 +10472,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 685. [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
+### 683. [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful MCP server for analyzing Android APKs using LLMs, enabling automated reverse engineering and security analysis.**
 
@@ -10526,7 +10487,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 686. [its-dart/dart-mcp-server](https://github.com/its-dart/dart-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 684. [its-dart/dart-mcp-server](https://github.com/its-dart/dart-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A developer platform powered by AI for modernizing software development, DevOps, and security workflows.**
 
@@ -10541,7 +10502,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 687. [politwit1984/second-opinion-mcp-server](https://github.com/politwit1984/second-opinion-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 685. [politwit1984/second-opinion-mcp-server](https://github.com/politwit1984/second-opinion-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A GitHub-hosted server providing AI-powered assistance for coding problems, integrating multiple external APIs and tools to enhance developer productivity.**
 
@@ -10557,7 +10518,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 688. [9olidity/mcp-server-pentest](https://github.com/9olidity/mcp-server-pentest)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 686. [9olidity/mcp-server-pentest](https://github.com/9olidity/mcp-server-pentest)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A GitHub repository focused on security testing and pentesting of MCP-Server-Pentest using Playwright, with emphasis on vulnerability detection and automated code analysis.**
 
@@ -10573,7 +10534,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 689. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 687. [IlyaGusev/academia_mcp](https://github.com/IlyaGusev/academia_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A comprehensive open-source platform for automated scientific research, integrating web search, document analysis, and LLM-powered tools to streamline research workflows.**
 
@@ -10589,7 +10550,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 690. [taylorleese/mcp-toolz](https://github.com/taylorleese/mcp-toolz)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 688. [taylorleese/mcp-toolz](https://github.com/taylorleese/mcp-toolz)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer workflow tool for Claude Code that integrates AI feedback, code review, and security scanning to streamline software development processes.**
 
@@ -10605,7 +10566,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 691. [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 689. [qodo-ai/pr-agent](https://github.com/qodo-ai/pr-agent)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **An open-source AI agent that automates the pull request lifecycle, providing auto-descriptions, code reviews, and actionable improvements.**
 
@@ -10619,7 +10580,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 692. [Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI](https://kilocode.ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 690. [Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI](https://kilocode.ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **Kilo - Kilo: The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI AI. Get your Assistant Powered by 🦞 OpenClaw. Start Coding with KiloCode to code smarter with AI that understands your codebase and works the way you do.**
 
@@ -10635,7 +10596,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 693. [huuthangntk/claude-vision-mcp-server](https://github.com/huuthangntk/claude-vision-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
+### 691. [huuthangntk/claude-vision-mcp-server](https://github.com/huuthangntk/claude-vision-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
 
 **A MCP Server with Claude Vision for proactive AI-driven image analysis.**
 
@@ -10651,7 +10612,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 694. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
+### 692. [olaservo/shannon-thinking](https://github.com/olaservo/shannon-thinking)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A tool designed to apply Claude Shannon-inspired problem-solving methodology for structured thinking and systematic problem resolution.**
 
@@ -10667,7 +10628,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 695. [rajeshrah22/nmstate-mcp](https://github.com/rajeshrah22/nmstate-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 693. [rajeshrah22/nmstate-mcp](https://github.com/rajeshrah22/nmstate-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The project aims to enhance software development processes by providing a platform for automating tasks, managing code changes, and integrating various tools through the MCP framework. It focuses on improving developer productivity and security withi**
 
@@ -10681,7 +10642,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 696. [yaxin9luo/openai_agent_library_mcp](https://github.com/yaxin9luo/openai_agent_library_mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 694. [yaxin9luo/openai_agent_library_mcp](https://github.com/yaxin9luo/openai_agent_library_mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project focuses on integrating OpenAI Agents to create a robust server-based environment for orchestrating intelligent agents. It emphasizes workflow automation, code management, security, and integration with external tools to enhance enterprise**
 
@@ -10695,7 +10656,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 697. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 695. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **The project provides a GitHub-based solution to streamline and automate development workflows, leveraging GitHub Actions for CI/CD integration. It supports code review, security checks, and deployment processes, making it suitable for modern software**
 
@@ -10709,7 +10670,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 698. [BigVik193/reddit-ads-mcp](https://github.com/BigVik193/reddit-ads-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 696. [BigVik193/reddit-ads-mcp](https://github.com/BigVik193/reddit-ads-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **A GitHub-based tool for automating workflows, managing code changes, and enhancing developer productivity through integrated CI/CD and collaboration features.**
 
@@ -10724,7 +10685,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 699. [j5ik2o/shared-knowledge-mcp](https://github.com/j5ik2o/shared-knowledge-mcp)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
+### 697. [j5ik2o/shared-knowledge-mcp](https://github.com/j5ik2o/shared-knowledge-mcp)  `9.0` ★★☆ ⚡81.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Borg Project's shared knowledge server for integrating multiple AI assistants with unified knowledge bases.**
 
@@ -10739,7 +10700,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 700. [crtdaniele/mcp-medium-accelerator](https://github.com/crtdaniele/mcp-medium-accelerator)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 698. [crtdaniele/mcp-medium-accelerator](https://github.com/crtdaniele/mcp-medium-accelerator)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP server integrates with Claude Desktop to retrieve articles from Medium using a specific URL tag, allowing users to extract summaries of relevant content. It supports automation, code review, and secure deployment workflows.**
 
@@ -10753,7 +10714,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 701. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
+### 699. [alefcastelo/archai-static-analyzer-mcp](https://github.com/alefcastelo/archai-static-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a static analyzer using Archai to inspect code for potential security vulnerabilities, helping developers improve application security during development. It focuses on analyzing code patterns and detecting risky constructs that **
 
@@ -10767,7 +10728,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 702. [shaileshahuja/github-pr-mcp](https://github.com/shaileshahuja/github-pr-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
+### 700. [shaileshahuja/github-pr-mcp](https://github.com/shaileshahuja/github-pr-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP server integrates with GitHub to fetch pull request comments, providing developers with contextual insights directly within their workflow. It supports structured output, enabling seamless code review and integration into CI/CD pipelines.**
 
@@ -10781,7 +10742,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 703. [lazerthings/twosplit](https://github.com/lazerthings/twosplit)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
+### 701. [lazerthings/twosplit](https://github.com/lazerthings/twosplit)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
 
 **The 'Borg' Project's MCP server integrates multiple Claude instances to deliver enhanced responses. It sends the same prompt to two separate AI models and uses a third instance to combine or select the best output, optimizing the final response.**
 
@@ -10795,7 +10756,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 704. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
+### 702. [seanivore/mcp-code-analyzer](https://github.com/seanivore/mcp-code-analyzer)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
 
 **The project provides a model context protocol server that analyzes Python code for structure, complexity, and dependencies using Claude. It supports warnings and integrates with AI tools to enhance code quality and security.**
 
@@ -10809,7 +10770,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 705. [ChernovAndrey/Planectra](https://github.com/ChernovAndrey/Planectra)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 703. [ChernovAndrey/Planectra](https://github.com/ChernovAndrey/Planectra)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer platform for modernizing workflows, integrating AI-assisted planning, and managing enterprise software development processes.**
 
@@ -10825,7 +10786,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 706. [manusa/podman-mcp-server](https://github.com/manusa/podman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 704. [manusa/podman-mcp-server](https://github.com/manusa/podman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A powerful MCP server for container runtimes supporting Podman and Docker, enabling secure and efficient orchestration of containerized applications.**
 
@@ -10841,7 +10802,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 707. [ixe1/code-scanner-server](https://github.com/ixe1/code-scanner-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 705. [ixe1/code-scanner-server](https://github.com/ixe1/code-scanner-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A tool for scanning code files to extract definitions, supporting multiple languages and respecting .gitignore rules.**
 
@@ -10857,7 +10818,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 708. [apeyroux/mcp-xmind](https://github.com/apeyroux/mcp-xmind)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 706. [apeyroux/mcp-xmind](https://github.com/apeyroux/mcp-xmind)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A tool for managing and automating workflows, code reviews, security checks, and project documentation using XMind for mind mapping.**
 
@@ -10873,7 +10834,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 709. [dubuqingfeng/gitlab-mcp-server](https://github.com/dubuqingfeng/gitlab-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 707. [dubuqingfeng/gitlab-mcp-server](https://github.com/dubuqingfeng/gitlab-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A GitLab MCP server tool for managing and automating code review processes with smart security and workflow integration.**
 
@@ -10889,7 +10850,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 710. [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 708. [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer workflow automation tool integrating with GitHub to streamline code reviews, task delegation, and CI/CD processes using Codex.**
 
@@ -10904,7 +10865,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 711. [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
+### 709. [Yeachan-Heo/oh-my-codex](https://github.com/Yeachan-Heo/oh-my-codex)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗4 layers
 
 **A workflow layer built around OpenAI Codex to enhance developer productivity, integrate advanced security, and streamline CI/CD pipelines.**
 
@@ -10919,7 +10880,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 712. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
+### 710. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
 
 **Portainer MCP enables AI assistants to interact with Portainer environments in a standardized, secure way.**
 
@@ -10935,7 +10896,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 713. [vantage-sh/vantage-mcp-server](https://github.com/vantage-sh/vantage-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
+### 711. [vantage-sh/vantage-mcp-server](https://github.com/vantage-sh/vantage-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
 
 **A tool for fetching and analyzing cloud cost and usage data from Vantage MCP Server.**
 
@@ -10951,7 +10912,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 714. [ydb-platform/ydb-mcp](https://github.com/ydb-platform/ydb-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 712. [ydb-platform/ydb-mcp](https://github.com/ydb-platform/ydb-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A platform for building, managing, and deploying AI-powered applications with YDB MCP integration.**
 
@@ -10967,7 +10928,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 715. [jamie7893/statsource-mcp](https://github.com/jamie7893/statsource-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 713. [jamie7893/statsource-mcp](https://github.com/jamie7893/statsource-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A powerful platform for statistical analysis and AI-driven predictions across diverse data sources.**
 
@@ -10983,7 +10944,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 716. [aliyun/alibabacloud-fc-mcp-server](https://github.com/aliyun/alibabacloud-fc-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
+### 714. [aliyun/alibabacloud-fc-mcp-server](https://github.com/aliyun/alibabacloud-fc-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
 
 **A server-based solution for integrating Alibaba Cloud Function Compute with MCP tools, enabling automated deployment and management of functions.**
 
@@ -10999,7 +10960,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 717. [shariqriazz/vertex-ai-mcp-server](https://github.com/shariqriazz/vertex-ai-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 715. [shariqriazz/vertex-ai-mcp-server](https://github.com/shariqriazz/vertex-ai-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A developer workflow tool built on Vertex AI MCP for intelligent code assistance and query answering.**
 
@@ -11015,7 +10976,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 718. [TykanN/swit-mcp](https://github.com/TykanN/swit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 716. [TykanN/swit-mcp](https://github.com/TykanN/swit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A local Swit MCP server for managing workflows, code reviews, and application security.**
 
@@ -11031,7 +10992,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 719. [johnneerdael/swagger-mcp](https://github.com/johnneerdael/swagger-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 717. [johnneerdael/swagger-mcp](https://github.com/johnneerdael/swagger-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer-focused platform for exploring and analyzing Swagger/OpenAPI specifications using Claude.**
 
@@ -11047,7 +11008,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 720. [zalab-inc/mcp-linear-app](https://github.com/zalab-inc/mcp-linear-app)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 718. [zalab-inc/mcp-linear-app](https://github.com/zalab-inc/mcp-linear-app)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer workflow tool integrating MCP Linear App with AI for issue management, code review, and security.**
 
@@ -11063,7 +11024,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 721. [farhankaz/redis-mcp](https://github.com/farhankaz/redis-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
+### 719. [farhankaz/redis-mcp](https://github.com/farhankaz/redis-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
 
 **A GitHub-based Redis MCP server for managing Redis operations with a focus on security and automation.**
 
@@ -11079,7 +11040,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 722. [thirdstrandstudio/mcp-figma](https://github.com/thirdstrandstudio/mcp-figma)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 720. [thirdstrandstudio/mcp-figma](https://github.com/thirdstrandstudio/mcp-figma)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer platform for automating workflows, integrating external tools, and managing code changes using Figma API.**
 
@@ -11094,7 +11055,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 723. [kazuph/mcp-gmail-gas](https://github.com/kazuph/mcp-gmail-gas)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 721. [kazuph/mcp-gmail-gas](https://github.com/kazuph/mcp-gmail-gas)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A GitHub-based AI-powered tool for automating email interactions and enhancing developer workflows.**
 
@@ -11109,7 +11070,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 724. [port-labs/port-mcp-server](https://github.com/port-labs/port-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 722. [port-labs/port-mcp-server](https://github.com/port-labs/port-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Port's MCP Server enables AI-driven automation, workflow orchestration, and secure code deployment for modern software development.**
 
@@ -11124,7 +11085,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 725. [aliyun/alibabacloud-lindorm-mcp-server](https://github.com/aliyun/alibabacloud-lindorm-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 723. [aliyun/alibabacloud-lindorm-mcp-server](https://github.com/aliyun/alibabacloud-lindorm-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP server for managing and deploying AI models, enabling automated workflows and intelligent application development.**
 
@@ -11139,7 +11100,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 726. [v587d/insightslibrary](https://github.com/v587d/insightslibrary)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 724. [v587d/insightslibrary](https://github.com/v587d/insightslibrary)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A plug-and-play knowledge base offering over 10,000 insights reports for AI-driven decision support.**
 
@@ -11154,7 +11115,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 727. [normal-coder/gitee-mcp-server](https://github.com/normal-coder/gitee-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 725. [normal-coder/gitee-mcp-server](https://github.com/normal-coder/gitee-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **GitHub MCP Server integration for automated management of Gitee repositories, issues, and pull requests.**
 
@@ -11169,7 +11130,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 728. [rifqi96/mcp-gitlab](https://github.com/rifqi96/mcp-gitlab)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 726. [rifqi96/mcp-gitlab](https://github.com/rifqi96/mcp-gitlab)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A GitLab MCP server enabling AI-assisted code review, project management, and CI/CD integration.**
 
@@ -11184,7 +11145,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 729. [masony817/ask-human-mcp](https://github.com/masony817/ask-human-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 727. [masony817/ask-human-mcp](https://github.com/masony817/ask-human-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A human-in-the-loop AI assistant for managing and improving code quality, security, and development workflows.**
 
@@ -11199,7 +11160,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 730. [qainsights/jmeter-mcp-server](https://github.com/qainsights/jmeter-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 728. [qainsights/jmeter-mcp-server](https://github.com/qainsights/jmeter-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server enabling AI-driven execution and analysis of JMeter tests.**
 
@@ -11214,7 +11175,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 731. [vrtejus/mcp-rosetta](https://github.com/vrtejus/mcp-rosetta)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 729. [vrtejus/mcp-rosetta](https://github.com/vrtejus/mcp-rosetta)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A ROSetta-based GitHub repository focused on AI-driven code generation and intelligent application development.**
 
@@ -11229,7 +11190,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 732. [roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 730. [roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Borg server-asana integration enabling AI-driven interaction with Asana API for task, project, and workflow management.**
 
@@ -11244,7 +11205,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 733. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
+### 731. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
 
 **A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
 
@@ -11259,7 +11220,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 734. [pinzonjulian/stimulus-docs-mcp-server](https://github.com/pinzonjulian/stimulus-docs-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 732. [pinzonjulian/stimulus-docs-mcp-server](https://github.com/pinzonjulian/stimulus-docs-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A developer platform for building, deploying, and managing AI-driven applications with integrated security and workflow automation.**
 
@@ -11274,7 +11235,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 735. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 733. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based MCP client designed for secure, multi-server communication to integrate external weather data services.**
 
@@ -11289,7 +11250,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 736. [TakoData/tako-mcp](https://github.com/TakoData/tako-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 734. [TakoData/tako-mcp](https://github.com/TakoData/tako-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer workflow tool enabling automated code management, security audits, and integration with AI platforms like Copilot.**
 
@@ -11304,7 +11265,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 737. [ignission-io/mcp](https://github.com/ignission-io/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 735. [ignission-io/mcp](https://github.com/ignission-io/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer platform for content creators and businesses on TikTok, enabling integration with external tools and workflows.**
 
@@ -11319,7 +11280,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 738. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 736. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A platform for managing and automating workflows, code reviews, security checks, and integration with external tools.**
 
@@ -11334,7 +11295,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 739. [yazinsai/OpenGranola](https://github.com/yazinsai/OpenGranola)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers
+### 737. [yazinsai/OpenGranola](https://github.com/yazinsai/OpenGranola)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers
 
 **A lightweight, open-source framework for building modular AI workflows using declarative configurations (POML) optimized for rapid prototyping.**
 
@@ -11347,7 +11308,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 740. [https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb12](https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb122ae)  `9.0` ★★☆ ⚡78.0 Q0.7⭐ Excellent · ↗1 layers
+### 738. [https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb12](https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb122ae)  `9.0` ★★☆ ⚡78.0 Q0.7⭐ Excellent · ↗1 layers
 
 **This GitHub repository presents a minimalist seed framework designed to embody epistemic discipline through strict adherence to four invariants: Compression, Generative Unfolding, Falsifiable Failure, and Decompressible LLM output. The project priori**
 
@@ -11361,7 +11322,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 741. [nextdriveioe/github-action-trigger-mcp](https://github.com/nextdriveioe/github-action-trigger-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
+### 739. [nextdriveioe/github-action-trigger-mcp](https://github.com/nextdriveioe/github-action-trigger-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗3 layers
 
 **A GitHub Action server for automating workflows, triggering CI/CD pipelines, and integrating with external tools.**
 
@@ -11376,7 +11337,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 742. [cremich/promptz-mcp](https://github.com/cremich/promptz-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 740. [cremich/promptz-mcp](https://github.com/cremich/promptz-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A developer platform for building, managing, and deploying AI-powered applications using prompt-based workflows.**
 
@@ -11391,7 +11352,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 743. [liorfranko/mcp-chain-of-thought](https://github.com/liorfranko/mcp-chain-of-thought)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 741. [liorfranko/mcp-chain-of-thought](https://github.com/liorfranko/mcp-chain-of-thought)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **An intelligent task management system leveraging Model Context Protocol for structured AI agent development.**
 
@@ -11406,7 +11367,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 744. [yoshiko-pg/o3-search-mcp](https://github.com/yoshiko-pg/o3-search-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 742. [yoshiko-pg/o3-search-mcp](https://github.com/yoshiko-pg/o3-search-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server enabling OpenAI high-end models with advanced web search capabilities for intelligent applications.**
 
@@ -11421,7 +11382,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 745. [wgong/sqlite-mcp-server](https://github.com/wgong/sqlite-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗4 layers
+### 743. [wgong/sqlite-mcp-server](https://github.com/wgong/sqlite-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗4 layers
 
 **Building a simple SQLite MCP server for secure code review and security testing.**
 
@@ -11436,7 +11397,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 746. [Tenki|Faster GitHub Actions Runners & AI Code Reviewer](https://www.tenki.cloud)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
+### 744. [Tenki|Faster GitHub Actions Runners & AI Code Reviewer](https://www.tenki.cloud)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
 
 **A high-performance CI/CD infrastructure platform offering bare-metal GitHub Actions runners and an integrated AI agent that reviews full codebases during Pull Requests.**
 
@@ -11450,7 +11411,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 747. [https://chatgpt.com/codex](https://chatgpt.com/codex)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗4 layers
+### 745. [https://chatgpt.com/codex](https://chatgpt.com/codex)  `8.8` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗4 layers
 
 **The Codex platform integrates with various AI models to assist developers in building, testing, and deploying code efficiently. It supports multiple workflows including code generation, review, documentation, and automation of repetitive tasks such a**
 
@@ -11465,7 +11426,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 748. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 746. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server that retrieves relevant documentation from a knowledge base using the Gemini API, enabling developers to access curated technical information directly.**
 
@@ -11479,7 +11440,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 749. [https://www.bmad-method.org](https://www.bmad-method.org)  `9.8` ★★☆ ⚡76.0 Q0.6⭐ Excellent · ↗2 layers
+### 747. [https://www.bmad-method.org](https://www.bmad-method.org)  `9.8` ★★☆ ⚡76.0 Q0.6⭐ Excellent · ↗2 layers
 
 **The BMad Method is an AI-driven framework designed to streamline code review, enhance agentic tooling, and support intelligent workflows in modern engineering environments. It focuses on enabling agents to autonomously manage tasks, learn from contex**
 
@@ -11493,7 +11454,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 750. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `8.2` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
+### 748. [fkesheh/code-context-mcp](https://github.com/fkesheh/code-context-mcp)  `8.2` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server that enables semantic code search from local Git repositories, enhancing development workflows with contextual insights.**
 
@@ -11507,7 +11468,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 751. [CodeRabbit CLI | AI Code Reviews in CLI](https://www.coderabbit.ai/cli)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 749. [CodeRabbit CLI | AI Code Reviews in CLI](https://www.coderabbit.ai/cli)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **A "CLI-first" AI review system designed to provide senior-level feedback on local, uncommitted diffs to maintain developer flow state.**
 
@@ -11521,7 +11482,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 752. [Superpowers: How I'm using coding agents in October 2025](https://blog.fsck.com/2025/10/09/superpowers)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 750. [Superpowers: How I'm using coding agents in October 2025](https://blog.fsck.com/2025/10/09/superpowers)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **A sophisticated agentic development workflow featuring persistent vector memory, specialized review roles, and GraphViz process formalization.**
 
@@ -11535,7 +11496,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 753. [shamkhall/sdlc](https://github.com/shamkhall/sdlc)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 751. [shamkhall/sdlc](https://github.com/shamkhall/sdlc)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A Claude Code plugin that automates and maps agile team roles to LLM agents across the full software development lifecycle.**
 
@@ -11549,7 +11510,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 754. [octomind-dev/octomind-mcp](https://github.com/octomind-dev/octomind-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 752. [octomind-dev/octomind-mcp](https://github.com/octomind-dev/octomind-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A centralized MCP server for managing and executing Octomind tools, resources, and prompts.**
 
@@ -11563,7 +11524,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 755. [moonlabsai/enrich_b2b_mcp](https://github.com/moonlabsai/enrich_b2b_mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 753. [moonlabsai/enrich_b2b_mcp](https://github.com/moonlabsai/enrich_b2b_mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A platform server integrating MCP, OpenAI, Anthropic, and EnrichB2B to enable advanced AI-driven business intelligence.**
 
@@ -11577,7 +11538,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 756. [ceshine/git-prompts-mcp-server](https://github.com/ceshine/git-prompts-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 754. [ceshine/git-prompts-mcp-server](https://github.com/ceshine/git-prompts-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A MCP server that generates prompts based on Git repository content to enhance developer productivity.**
 
@@ -11591,7 +11552,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 757. [seonglae/mcp-notion](https://github.com/seonglae/mcp-notion)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 755. [seonglae/mcp-notion](https://github.com/seonglae/mcp-notion)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A TypeScript-based MCP server enabling seamless integration with Notion pages for enterprise workflows.**
 
@@ -11605,7 +11566,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 758. [bmorphism/marginalia-mcp-server](https://github.com/bmorphism/marginalia-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 756. [bmorphism/marginalia-mcp-server](https://github.com/bmorphism/marginalia-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A web-based MCP server for managing marginalia and annotations with search, integration options, and developer-friendly tools.**
 
@@ -11619,7 +11580,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 759. [Ask HN: How is AI-assisted coding going for you professionally? | Hacker News](https://news.ycombinator.com/item?id=47388646)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗3 layers
+### 757. [Ask HN: How is AI-assisted coding going for you professionally? | Hacker News](https://news.ycombinator.com/item?id=47388646)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗3 layers
 
 **The analysis evaluates the practical integration of AI tools in professional coding environments, focusing on user experiences, challenges faced, and recommendations for effective implementation. It highlights the importance of clear communication, u**
 
@@ -11633,7 +11594,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 760. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
+### 758. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
 
 **A retrieval-augmented thinking tool for intelligent problem solving and decision making.**
 
@@ -11647,7 +11608,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 761. [sinedied/grumpydev-mcp](https://github.com/sinedied/grumpydev-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 759. [sinedied/grumpydev-mcp](https://github.com/sinedied/grumpydev-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool for grumpy senior developers to review and critique code with MCP, focusing on context, style, and quality.**
 
@@ -11661,7 +11622,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 762. [Qodo Outperforms Claude in Code Review Benchmark](https://www.qodo.ai/blog/qodo-outperforms-claude-in-code-review-benchmark)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗3 layers
+### 760. [Qodo Outperforms Claude in Code Review Benchmark](https://www.qodo.ai/blog/qodo-outperforms-claude-in-code-review-benchmark)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗3 layers
 
 **A 2026 benchmark report demonstrating Qodo's multi-agent architecture outperforming Claude Code by 12 F1 points (79% vs 67%) in production code review tasks.**
 
@@ -11674,7 +11635,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 763. [https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_](https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_for_8_months_heres_the_thing)  `8.5` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗3 layers
+### 761. [https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_](https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_for_8_months_heres_the_thing)  `8.5` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗3 layers
 
 **The discussion highlights the importance of structured workflows and tool integration for developers, emphasizing real-world experiences with various platforms and methodologies.**
 
@@ -11689,7 +11650,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 764. [syedazharmbnr1/claude-chatgpt-mcp](https://github.com/syedazharmbnr1/claude-chatgpt-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗2 layers
+### 762. [syedazharmbnr1/claude-chatgpt-mcp](https://github.com/syedazharmbnr1/claude-chatgpt-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool enabling macOS users to interact with the ChatGPT desktop app via Claude MCP.**
 
@@ -11704,25 +11665,9 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ## IDE Extensions
 
-> 2 tools · avg signal ⚡69
+> 1 tools · avg signal ⚡64
 
-### 765. [Google Search](https://www.google.com/search?bih=1344&biw=1596&ei=ncD7aMP3O-PdwN4PkY_1mA4&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmNvbmRlbnNlIG1jcCB0b29sczIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBTIFECEYnwVIrh1QAFixE3AAeAGQAQCYAacBoAHbDqoBBDguMTC4AQPIAQD4AQGYAhKgAq0PwgIKECMYgAQYJxiKBcICBBAjGCfCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAg4QLhiABBixAxiDARiKBcICDRAAGIAEGLEDGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgIOEC4YgAQYsQMY0QMYxwHCAgsQABiABBixAxiDAcICCxAAGIAEGJIDGIoFwgIIEAAYgAQYsQPCAgUQABiABMICCBAAGIAEGMkDwgINEC4YgAQYsQMYQxiKBcICHBAuGIAEGLEDGEMYigUYlwUY3AQY3gQY3wTYAQHCAgoQABiABBhGGPkBwgIKEC4YgAQYsQMYCsICJBAAGIAEGEYY-QEYlwUYjAUY3QQYRhj5ARj0Axj1Axj2A9gBAcICChAAGIAEGLEDGArCAgcQABiABBgKwgIHEAAYgAQYDcICBhAAGBYYHsICCBAAGBYYChgemAMAugYGCAEQARgUkgcENy4xMaAHmbcBsgcENy4xMbgHrQ_CBwcwLjguOS4xyAc_&oq=condense+mcp+tools&q=condense+mcp+tools&sca_esv=289e7c278657c79e&sclient=gws-wiz-serp&sxsrf=AE3TifPHeBCH6-YDtbeJpp1ioqZWYV0I4Q:1761329309986&uact=5&ved=0ahUKEwiDuur-tr2QAxXjLtAFHZFHHeMQ4dUDCBI)  `7.0` ☆☆☆ ⚡74.0 Q0.8 📍
-
-**Google Search is a comprehensive search engine that utilizes complex algorithms to crawl, index, and rank web pages. It offers a user-friendly interface for querying information and provides a vast array of features, including image search, news aggr**
-
-**Features:**
-- ['Web indexing and ranking'
-- 'Keyword-based search'
-- 'Advanced search operators'
-- 'Image search'
-- 'News aggregation'
-- 'Voice search'
-
-*Tags: ['search', 'web', 'indexing', 'algorithms', 'informationretrieval'*
-
----
-
-### 766. [Handheld PC Community Forums | Hacker News](https://news.ycombinator.com/item?id=46348971)  `8.0` ★☆☆ ⚡64.0 Q0.6 📍
+### 763. [Handheld PC Community Forums | Hacker News](https://news.ycombinator.com/item?id=46348971)  `8.0` ★☆☆ ⚡64.0 Q0.6 📍
 
 **A curated community thread recommending the most efficient tools and extensions for consuming and filtering Hacker News discussions.**
 
@@ -11740,7 +11685,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 > 1 tools · avg signal ⚡74
 
-### 767. [faridyusof727/datagovmy-mcp](https://github.com/faridyusof727/datagovmy-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 764. [faridyusof727/datagovmy-mcp](https://github.com/faridyusof727/datagovmy-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A Go-based MCP server enabling AI agents and developer tools to access Malaysia's open government data via Cline and Cursor.**
 
@@ -11754,31 +11699,11 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-## Refactoring & Analysis
-
-> 1 tools · avg signal ⚡81
-
-### 768. [Google Search](https://www.google.com/search?gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhB0gEIMTg3M2owajGoAgCwAgA&ie=UTF-8&oq=graalvm&q=graalvm&sec_act=d&sourceid=chrome&sxsrf=ADLYWIJ44Rd2Es0-XrMQeDtKy9i_iOO1zA:1732027758712)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
-
-**This resource represents a Google Search results page for the keyword 'GraalVM'. While the page itself doesn't contain information about GraalVM, it serves as a gateway to finding relevant documentation, tutorials, and articles about GraalVM. GraalVM**
-
-**Features:**
-- ['Polyglot programming support (Java
-- JavaScript
-- Python
-- Ruby
-- C/C++)'
-- 'Ahead-of-time (AOT) compilation for faster startup and reduced memory footprint'
-
-*Tags: ['graalvm', 'virtualmachine', 'polyglot', 'aotcompilation', 'jitcompilation'*
-
----
-
 ## Refactoring & Generation
 
 > 129 tools · avg signal ⚡82
 
-### 769. [saikiranrallabandi/inframind](https://github.com/saikiranrallabandi/inframind)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 765. [saikiranrallabandi/inframind](https://github.com/saikiranrallabandi/inframind)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **InfraMind addresses the limitations of small language models (SLMs) in DevOps contexts by providing a structured reinforcement learning pipeline tailored for Infrastructure-as-Code (IaC). It employs Group Relative Policy Optimization (GRPO) and Direc**
 
@@ -11794,7 +11719,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 770. [jx-codes/lootbox](https://github.com/jx-codes/lootbox)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 766. [jx-codes/lootbox](https://github.com/jx-codes/lootbox)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Lootbox aims to enhance LLM capabilities by shifting the paradigm from explicit tool invocation syntax to LLMs writing executable TypeScript code. This 'Code Mode' leverages the LLM's inherent strength in code generation, providing type safety and In**
 
@@ -11810,7 +11735,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 771. [L-A-Marchetti/Vec](https://github.com/L-A-Marchetti/Vec)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 767. [L-A-Marchetti/Vec](https://github.com/L-A-Marchetti/Vec)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Vec is a generic, fast, leak-safe dynamic array for C. It stores elements contiguously, grows geometrically (x2) for amortized O(1) push, and offers a method-style API that feels natural if you like object syntax in C. The library is defensive by def**
 
@@ -11826,7 +11751,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 772. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 768. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The meta-mcp-server project provides a developer-first platform for building, validating, and deploying MCP (Meta Cloud Platform) servers. It leverages modern tooling such as Zod for schema validation, Docker for containerization, and CLI-based workf**
 
@@ -11842,7 +11767,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 773. [huggingface/hf-agents](https://github.com/huggingface/hf-agents)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 769. [huggingface/hf-agents](https://github.com/huggingface/hf-agents)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The hf-agents project is a Hugging Face CLI extension designed to enhance developer productivity by automatically detecting hardware capabilities and recommending optimal machine learning models. It integrates llmfit for hardware detection and llama.**
 
@@ -11857,7 +11782,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 774. [vivekvells/mcp-pandoc](https://github.com/vivekvells/mcp-pandoc)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 770. [vivekvells/mcp-pandoc](https://github.com/vivekvells/mcp-pandoc)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP (Model Context Protocol) server is an open-source project aimed at providing tools for bidirectional conversion between various document formats using the Pandoc Python package. It supports a range of input and output formats including markdo**
 
@@ -11872,7 +11797,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 775. [run-llama/mcp-server-llamacloud](https://github.com/run-llama/mcp-server-llamacloud)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 771. [run-llama/mcp-server-llamacloud](https://github.com/run-llama/mcp-server-llamacloud)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The run-llama/mcp-server-llamacloud project is a TypeScript-based MCP server designed to interface with LlamaCloud managed indexes. It allows developers to create tools for specific index names, enabling automated querying and data processing. The se**
 
@@ -11887,7 +11812,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 776. [open-pgx/openpgx](https://github.com/open-pgx/openpgx)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 772. [open-pgx/openpgx](https://github.com/open-pgx/openpgx)  `10.0` ★★★ ⚡93.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **OpenPGx is an open standard designed to structure pharmacogenomic data in a way that allows AI systems to interpret genetic variants and drug responses accurately. By integrating OpenPGx with MCP Servers, developers can embed AI-powered analysis into**
 
@@ -11903,7 +11828,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 777. [hubspot/mcp-server](https://github.com/hubspot/mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 773. [hubspot/mcp-server](https://github.com/hubspot/mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **This repository details the HubSpot MCP (Marketing Cloud Platform) Server, a critical component for integrating marketing automation into enterprise environments. It outlines how the platform enables developers to build, deploy, and manage intelligen**
 
@@ -11919,7 +11844,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 778. [freshlife001/mcp_poker](https://github.com/freshlife001/mcp_poker)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 774. [freshlife001/mcp_poker](https://github.com/freshlife001/mcp_poker)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project implements a Model Context Protocol (MCP) server powered by AI, specifically designed to support Texas Hold'em poker. It leverages Node.js and TypeScript to create a robust backend for managing game sessions, integrating with a poker clie**
 
@@ -11935,7 +11860,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 779. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 775. [artemsvit/figma-mcp-pro](https://github.com/artemsvit/figma-mcp-pro)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The figma-mcp-pro project integrates AI-driven analysis of Figma designs to extract structured data, including layout, styling, and component information. It supports multiple frameworks (React, Vue, Angular, Svelte, etc.) and enables developers to c**
 
@@ -11951,7 +11876,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 780. [z23cc/midjourney-mcp](https://github.com/z23cc/midjourney-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 776. [z23cc/midjourney-mcp](https://github.com/z23cc/midjourney-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a fully functional Midjourney MCP server that integrates with the GPTNB API to enable advanced image generation capabilities. It supports core features such as image generation, image transformation, high-level editing, and facia**
 
@@ -11967,7 +11892,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 781. [f2c-ai/f2c-mcp](https://github.com/f2c-ai/f2c-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 777. [f2c-ai/f2c-mcp](https://github.com/f2c-ai/f2c-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The f2c-mcp server facilitates the conversion of Figma designs into pixel-perfect HTML/CSS, supports multiple frameworks (React, CSS Modules, Tailwind), integrates with Figma via API, and enables remote image localization and design context managemen**
 
@@ -11983,7 +11908,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 782. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 778. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The Whimsical MCP Server is a specialized tool that leverages the Model Context Protocol (MCP) to generate visual diagrams programmatically from natural language inputs. It integrates with Whimsical's API, allowing developers to create complex diagra**
 
@@ -11998,7 +11923,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 783. [gemini-cli-extensions/jules](https://github.com/gemini-cli-extensions/jules)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 779. [gemini-cli-extensions/jules](https://github.com/gemini-cli-extensions/jules)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **Jules operates as a background-running agentic system integrated into the Gemini CLI ecosystem, enabling non-blocking execution of complex coding tasks. The architecture utilizes an asynchronous model where users submit high-level prompts for refacto**
 
@@ -12014,7 +11939,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 784. [m-mcp/screenshot-server](https://github.com/m-mcp/screenshot-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 780. [m-mcp/screenshot-server](https://github.com/m-mcp/screenshot-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The project implements a Python application that leverages the MCP (Messaging Control Protocol) to facilitate automated screen capture. It includes a command-line interface for initiating captures, image processing capabilities using Pillow, and inte**
 
@@ -12029,7 +11954,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 785. [orgs/AbanteAI](https://github.com/orgs/AbanteAI/repositories?type=all)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 781. [orgs/AbanteAI](https://github.com/orgs/AbanteAI/repositories?type=all)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The AbanteAI GitHub page reveals a collection of repositories centering around their 'Mentat' AI development tool and various LLM applications. Key projects include `party` and `qa-party` (TypeScript), `mentat-template-js`, `gpt-generals` (an experim**
 
@@ -12044,7 +11969,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 786. [browser-use/browser-harness](https://github.com/browser-use/browser-harness)  `9.8` ★★☆ ⚡89.0 Q0.8⭐ Excellent · ↗4 layers
+### 782. [browser-use/browser-harness](https://github.com/browser-use/browser-harness)  `9.8` ★★☆ ⚡89.0 Q0.8⭐ Excellent · ↗4 layers
 
 **The Browser Harness is a modular, AI-powered tool that connects LLMs directly to browsers, allowing them to interact with web content, scripts, and APIs autonomously. It enhances developer productivity by automating workflows, managing code changes, **
 
@@ -12059,7 +11984,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 787. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 783. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project offers a GitHub-hosted solution to manage and deploy macOS default settings using the Model Context Protocol server. It includes detailed instructions on setting up the MCP server, configuring defaults, and integrating it into developmen**
 
@@ -12074,7 +11999,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 788. [kdqed/zaturn](https://github.com/kdqed/zaturn)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 784. [kdqed/zaturn](https://github.com/kdqed/zaturn)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **Zaturn is an AI-driven data analytics platform designed to help developers and data scientists quickly analyze datasets, generate visualizations, and build intelligent applications without requiring deep SQL or Python expertise. It integrates multipl**
 
@@ -12089,7 +12014,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 789. [exi/mcp-steam](https://github.com/exi/mcp-steam)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 785. [exi/mcp-steam](https://github.com/exi/mcp-steam)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The exi/mcp-steam project offers a comprehensive developer platform focused on enhancing modernization, security, and automation in software engineering. It integrates advanced tools such as GitHub Copilot, AI-assisted coding, secure development prac**
 
@@ -12104,7 +12029,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 790. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 786. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The toolkit-mcp-server is a Model Context Protocol server designed to enhance AI agents by integrating essential system utilities such as IP geolocation, network diagnostics, system monitoring, cryptographic operations, and QR code generation. It sup**
 
@@ -12119,7 +12044,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 791. [cr2007/mcp-wordle-go](https://github.com/cr2007/mcp-wordle-go)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 787. [cr2007/mcp-wordle-go](https://github.com/cr2007/mcp-wordle-go)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a lightweight MCP server in Go to retrieve Wordle answers using the official Wordle API. It automates the process of fetching and displaying Wordle results, supporting integration with cloud environments and Docker containers f**
 
@@ -12134,7 +12059,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 792. [esrisaudiarabia/esrisaudiarabia-mcp](https://github.com/esrisaudiarabia/esrisaudiarabia-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 788. [esrisaudiarabia/esrisaudiarabia-mcp](https://github.com/esrisaudiarabia/esrisaudiarabia-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This repository showcases advanced AI-driven geospatial solutions developed by Esri Saudi Arabia, focusing on intelligent automation, workflow orchestration, and integration of MCP (Multi-Party Computation) techniques. It includes tools for code gene**
 
@@ -12149,7 +12074,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 793. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 789. [th-ad/oas-to-mcp](https://github.com/th-ad/oas-to-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a GitHub-based solution to convert Open Application Automation (OAS) workflows into MCP (Managed Control Process) environments. It emphasizes modernizing development workflows by integrating external tools, automating processes, **
 
@@ -12164,7 +12089,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 794. [dmontgomery40/mcp-3d-printer-server](https://github.com/dmontgomery40/mcp-3d-printer-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 790. [dmontgomery40/mcp-3d-printer-server](https://github.com/dmontgomery40/mcp-3d-printer-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A centralized MCP server enabling seamless integration with major 3D printer APIs, offering advanced STL manipulation, real-time monitoring, and end-to-end printing workflows.**
 
@@ -12180,7 +12105,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 795. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 791. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A secure Node.js execution sandbox for AI that enables dynamic JavaScript execution, dependency management, and interactive assistance within ephemeral Docker containers.**
 
@@ -12196,7 +12121,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 796. [tuskermanshu/swagger-mcp-server](https://github.com/tuskermanshu/swagger-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 792. [tuskermanshu/swagger-mcp-server](https://github.com/tuskermanshu/swagger-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Swagger MCP Server is a model context protocol (MCP)-based server that parses Swagger/OpenAPI documents to generate TypeScript types and API client code, supporting modern development workflows.**
 
@@ -12212,7 +12137,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 797. [jlcases/paelladoc](https://github.com/jlcases/paelladoc)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 793. [jlcases/paelladoc](https://github.com/jlcases/paelladoc)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **PAELLADOC is an AI-first development framework that implements Anthropic's Model Context Protocol (MCP) to enable LLMs to interact with external tools and context, enhancing software creation in the AI era.**
 
@@ -12227,7 +12152,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 798. [lspace-io/lspace-server](https://github.com/lspace-io/lspace-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 794. [lspace-io/lspace-server](https://github.com/lspace-io/lspace-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Lspace enables seamless integration of AI-generated insights across tools via the Model Context Protocol, enhancing developer workflows with persistent knowledge bases.**
 
@@ -12242,7 +12167,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 799. [Roo Code - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 795. [Roo Code - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=RooVeterinaryInc.roo-cline)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Roo Code is a Visual Studio Code extension that provides a suite of AI-powered tools to assist developers in various tasks. It can generate code from natural language descriptions, refactor and debug existing code, write documentation, answer questio**
 
@@ -12258,7 +12183,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 800. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 796. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The VAST-AI-Research tripo-mcp project serves as an official MCP server for integrating Tripo AI into development workflows. It allows developers to interact with AI assistants using the Model Context Protocol, enabling seamless communication between**
 
@@ -12272,7 +12197,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 801. [The second liberation: AI is the final frontier of Copyleft](https://www.maffulli.net/2026/03/16/ai-final-frontier-of-copyleft)  `10.0` ★★★ ⚡86.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 797. [The second liberation: AI is the final frontier of Copyleft](https://www.maffulli.net/2026/03/16/ai-final-frontier-of-copyleft)  `10.0` ★★★ ⚡86.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **This resource explores the concept of the 'Second Liberation' where artificial intelligence, particularly through open-source tools and AI code assistants, is seen as the key to true digital autonomy. It contrasts the historical limitations imposed b**
 
@@ -12286,7 +12211,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 802. [adamsmaka/flutter-mcp](https://github.com/adamsmaka/flutter-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 798. [adamsmaka/flutter-mcp](https://github.com/adamsmaka/flutter-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A real-time MCP server that integrates Flutter documentation and AI-assisted code generation, streamlining development workflows for modern software teams.**
 
@@ -12301,7 +12226,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 803. [seeyebe/rq](https://github.com/seeyebe/rq)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
+### 799. [seeyebe/rq](https://github.com/seeyebe/rq)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
 
 **A fast Windows file search tool that works like 'fd' but is optimized for Windows. It walks directories with a thread pool, matches files and folders by name (glob or regex), and filters by extension, type, size, date, depth, and hidden/symlink rules**
 
@@ -12317,7 +12242,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 804. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 800. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The MCP Server is an AI-powered developer platform designed to simplify data exploration and insight generation. It offers a user-friendly interface for non-technical users while providing robust tools for developers, enabling seamless integration wi**
 
@@ -12332,7 +12257,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 805. [lorrylockie/lark-mcp](https://github.com/lorrylockie/lark-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 801. [lorrylockie/lark-mcp](https://github.com/lorrylockie/lark-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The 'Borg' Project's lark-mcp is a server-based solution that integrates with Lark/Feishu APIs, allowing large language models (LLMs) to query and interact with internal systems via the MCP protocol. It supports secure authentication, automated workf**
 
@@ -12347,7 +12272,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 806. [maoxiaoke/create-mcp-server](https://github.com/maoxiaoke/create-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers 📍
+### 802. [maoxiaoke/create-mcp-server](https://github.com/maoxiaoke/create-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The maoxiaoke/create-mcp-server project provides a specialized MCP server that simplifies the development process for new MCP server scaffolds. It offers a clear, step-by-step approach to building MCP servers, complete with example templates and best**
 
@@ -12361,7 +12286,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 807. [zarif007/job-search-mcp](https://github.com/zarif007/job-search-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 803. [zarif007/job-search-mcp](https://github.com/zarif007/job-search-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The project focuses on integrating AI-driven code assistance, automated workflows, and secure deployment to streamline developer tasks. It leverages GitHub Copilot, Docker, and CI/CD pipelines to enhance productivity for developers across various ind**
 
@@ -12376,7 +12301,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 808. [Amp](https://ampcode.com)  `9.1` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
+### 804. [Amp](https://ampcode.com)  `9.1` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Amp positions itself as a 'frontier coding agent' that abstracts access to various leading models (e.g., GPT-5.4, GPT-5.3-Codex) by functioning as an oracle layer. It emphasizes agentic behavior, reliable code generation, and a highly polished user e**
 
@@ -12392,7 +12317,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 809. [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗4 layers
+### 805. [SWE-agent/SWE-agent](https://github.com/SWE-agent/SWE-agent)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗4 layers
 
 **A foundational open-source scaffold for autonomous software engineering that achieves 57.5% on SWE-bench Pro when paired with advanced search subagents.**
 
@@ -12406,7 +12331,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 810. [https://medium.com/@olafeezee/its-natural-language-programming-not-vib](https://medium.com/@olafeezee/its-natural-language-programming-not-vibe-coding-4b33079df343)  `9.8` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗2 layers
+### 806. [https://medium.com/@olafeezee/its-natural-language-programming-not-vib](https://medium.com/@olafeezee/its-natural-language-programming-not-vibe-coding-4b33079df343)  `9.8` ★★☆ ⚡84.0 Q0.7⭐ Excellent · ↗2 layers
 
 **The article discusses the evolution of programming from traditional syntax-heavy languages to Natural Language Programming (NLP), highlighting how AI-driven interfaces allow developers to communicate intentions in plain language. It contrasts this wi**
 
@@ -12421,7 +12346,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 811. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 807. [mizchi/lsmcp](https://github.com/mizchi/lsmcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A unified MCP server enabling advanced code manipulation and analysis across multiple programming languages via Language Server Protocol integration.**
 
@@ -12437,7 +12362,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 812. [m-ahmed-elbeskeri/ultimatecodermcp](https://github.com/m-ahmed-elbeskeri/ultimatecodermcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 808. [m-ahmed-elbeskeri/ultimatecodermcp](https://github.com/m-ahmed-elbeskeri/ultimatecodermcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered local MCP server for terminal commands, file editing, process management, and intelligent codebase exploration.**
 
@@ -12453,7 +12378,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 813. [kordless/gnosis-evolve](https://github.com/kordless/gnosis-evolve)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 809. [kordless/gnosis-evolve](https://github.com/kordless/gnosis-evolve)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Borg integrates Claude's AI capabilities into developer workflows, enabling automated code generation, file editing, and intelligent tool creation.**
 
@@ -12469,7 +12394,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 814. [aj-geddes/terry-form-mcp](https://github.com/aj-geddes/terry-form-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 810. [aj-geddes/terry-form-mcp](https://github.com/aj-geddes/terry-form-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Terry-Form MCP enables secure, containerized AI assistant execution of Terraform commands via HashiCorp's official Terraform Docker image.**
 
@@ -12485,7 +12410,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 815. [pinatacloud/pinata-mcp](https://github.com/pinatacloud/pinata-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 811. [pinatacloud/pinata-mcp](https://github.com/pinatacloud/pinata-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Pinata-MCP enables secure, AI-powered code execution and integration with IPFS for enterprise software development.**
 
@@ -12501,7 +12426,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 816. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 812. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Razorpay MCP Server enables seamless integration with Razorpay APIs, providing developers and AI tools with advanced payment processing capabilities.**
 
@@ -12517,7 +12442,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 817. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 813. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A deep research AI agent built on Gemini 2.5 Flash, designed for structured, iterative, and context-aware research workflows.**
 
@@ -12533,7 +12458,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 818. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 814. [1yhy/figma-context-mcp](https://github.com/1yhy/figma-context-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A server that enables seamless integration of Figma designs with AI coding tools by providing real-time design-to-code generation.**
 
@@ -12549,7 +12474,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 819. [pinkpixel-dev/mcpollinations](https://github.com/pinkpixel-dev/mcpollinations)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 815. [pinkpixel-dev/mcpollinations](https://github.com/pinkpixel-dev/mcpollinations)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Model Context Protocol server enabling AI assistants to generate images, text, and audio with customizable parameters.**
 
@@ -12565,7 +12490,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 820. [flight505/MCP_DinCoder](https://github.com/flight505/MCP_DinCoder)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 816. [flight505/MCP_DinCoder](https://github.com/flight505/MCP_DinCoder)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **An AI-driven platform that transforms specification-driven development into executable code workflows using GitHub Spec Kit methodology.**
 
@@ -12581,7 +12506,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 821. [ChiR24/Unreal_mcp](https://github.com/ChiR24/Unreal_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 817. [ChiR24/Unreal_mcp](https://github.com/ChiR24/Unreal_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive Model Context Protocol (MCP) server enabling AI assistants to control Unreal Engine via native C++ Automation Bridge plugin.**
 
@@ -12597,7 +12522,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 822. [MCP Apps: Extending servers with interactive user interfaces | Hacker News](https://news.ycombinator.com/item?id=46020502)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
+### 818. [MCP Apps: Extending servers with interactive user interfaces | Hacker News](https://news.ycombinator.com/item?id=46020502)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
 
 **The discussion revolves around the integration of MCP (Machine Control Protocol) applications into the Borg intelligence framework, focusing on their ability to extend server capabilities with interactive user interfaces. The conversation highlights **
 
@@ -12612,7 +12537,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 823. [dannylee1020/toy-mcp](https://github.com/dannylee1020/toy-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 819. [dannylee1020/toy-mcp](https://github.com/dannylee1020/toy-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The project implements a simple MCP (Machine-to-Machine) communication framework that enables automated data fetching and processing from external sources like the HackerNews API. It focuses on streamlining workflows by integrating with third-party s**
 
@@ -12626,7 +12551,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 824. [orval-labs/orval](https://github.com/orval-labs/orval)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 820. [orval-labs/orval](https://github.com/orval-labs/orval)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Orval generates type-safe TypeScript clients from OpenAPI specifications.**
 
@@ -12642,7 +12567,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 825. [groundng/vibeshift](https://github.com/groundng/vibeshift)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 821. [groundng/vibeshift](https://github.com/groundng/vibeshift)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **VibeShift integrates AI coding assistants with automated security scanning and remediation to enhance code quality and security.**
 
@@ -12657,7 +12582,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 826. [evansims/openfga-mcp](https://github.com/evansims/openfga-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 822. [evansims/openfga-mcp](https://github.com/evansims/openfga-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered authorization management platform enabling querying and automation of OpenFGA and Auth0 FGA authorization stores.**
 
@@ -12672,7 +12597,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 827. [djkz/bruno-api-mcp](https://github.com/djkz/bruno-api-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 823. [djkz/bruno-api-mcp](https://github.com/djkz/bruno-api-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Borg enables integration of Bruno API collections with AI agents via MCP, streamlining API interactions and automation.**
 
@@ -12687,7 +12612,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 828. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `9.3` ★★☆ ⚡83.0 Q0.7✓ Very good · ↗4 layers
+### 824. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)  `9.3` ★★☆ ⚡83.0 Q0.7✓ Very good · ↗4 layers
 
 **A context management tool for agents to maintain structured memory and context during coding sessions, enabling efficient retrieval and summarization of LLM outputs.**
 
@@ -12703,7 +12628,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 829. [Monosketch | Hacker News](https://news.ycombinator.com/item?id=47001871)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 825. [Monosketch | Hacker News](https://news.ycombinator.com/item?id=47001871)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Monosketch is a lightweight ASCII-based drawing tool that allows users to create diagrams, flowcharts, and other visual content using text characters. It supports exporting diagrams in various formats such as SVG, PNG, and Graphviz, making it versati**
 
@@ -12719,7 +12644,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 830. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 826. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **Un serveur MCP qui permet d'accéder aux ressources juridiques françaises via un LLM, facilitant la recherche et l'interaction avec des bases de données publiques comme Légifrance.**
 
@@ -12735,7 +12660,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 831. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 827. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that enhances Zig language support with code optimization, compute unit estimation, code generation, and best practices.**
 
@@ -12751,7 +12676,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 832. [jdcodes1/claude-sh](https://github.com/jdcodes1/claude-sh)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 828. [jdcodes1/claude-sh](https://github.com/jdcodes1/claude-sh)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **A streamlined, zero-dependency bash script that mimics the functionality of Claude Code by processing CLAUDE.md files and executing tools in a real-time interactive session.**
 
@@ -12767,7 +12692,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 833. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 829. [qckfx/tree-hugger-js-mcp](https://github.com/qckfx/tree-hugger-js-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for advanced code analysis and transformation using tree-hugger-js-mcp, supporting static analysis, refactoring, and integration with AI-driven development workflows.**
 
@@ -12782,7 +12707,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 834. [We tasked Opus 4.6 using agent teams to build a C Compiler | Hacker News](https://news.ycombinator.com/item?id=46903616)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 830. [We tasked Opus 4.6 using agent teams to build a C Compiler | Hacker News](https://news.ycombinator.com/item?id=46903616)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **This Hacker News thread discusses a project where Anthropic's Opus 4.6, leveraging agent teams, attempted to build a C compiler. The compiler successfully generated code capable of booting Linux 6.9 on x86, ARM, and RISC-V. However, the generated cod**
 
@@ -12798,7 +12723,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 835. [Bun v1.3.9 | Hacker News](https://news.ycombinator.com/item?id=46936595)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 831. [Bun v1.3.9 | Hacker News](https://news.ycombinator.com/item?id=46936595)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This Hacker News thread discusses the release of Bun v1.3.9 and quickly pivots to a broader conversation about the limitations of traditional parallel and sequential script execution. The core argument is that modern build systems, especially in mono**
 
@@ -12814,7 +12739,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 836. [Show HN: Continuous Claude – run Claude Code in a loop | Hacker News](https://news.ycombinator.com/item?id=45938517)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
+### 832. [Show HN: Continuous Claude – run Claude Code in a loop | Hacker News](https://news.ycombinator.com/item?id=45938517)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗5 layers
 
 **Continuous Claude is a command-line interface (CLI) wrapper designed to run Claude Code in an iterative loop, maintaining persistent context across multiple iterations. It automates the process of creating branches, applying focused code changes, gen**
 
@@ -12830,7 +12755,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 837. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 833. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **A runtime utility that converts MCP servers and OpenAPI specs into functional CLIs without code generation, reducing agent context bloat by 99%.**
 
@@ -12844,7 +12769,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 838. [OpenAI is throwing everything into building a fully automated researcher](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher)  `9.8` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗3 layers
+### 834. [OpenAI is throwing everything into building a fully automated researcher](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher)  `9.8` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The project focuses on building a fully automated agent-based system that can operate independently, handling intricate research tasks such as mathematical proofs, biological analysis, and policy modeling. This initiative is part of OpenAI's broader **
 
@@ -12858,7 +12783,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 839. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 835. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The Metal MCP Server, developed by aldrin-labs, is an open-source server providing Metal Framework capabilities. It enables developers to search and generate code using natural language queries, enhancing productivity in modern development workflows.**
 
@@ -12872,7 +12797,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 840. [Universal Claude.md – cut Claude output tokens | Hacker News](https://news.ycombinator.com/item?id=47581701)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers
+### 836. [Universal Claude.md – cut Claude output tokens | Hacker News](https://news.ycombinator.com/item?id=47581701)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers
 
 **The discussion revolves around evaluating whether Claude's verbose output enhances contextual coherence during agentic tasks, especially in iterative development environments. It explores concerns about token efficiency versus long-term comprehension**
 
@@ -12887,7 +12812,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 841. [bazinga012/mcp_code_executor](https://github.com/bazinga012/mcp_code_executor)  `8.6` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 837. [bazinga012/mcp_code_executor](https://github.com/bazinga012/mcp_code_executor)  `8.6` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool enabling LLMs to execute Python code within a specified Conda environment, supporting code generation and incremental execution for large blocks.**
 
@@ -12903,7 +12828,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 842. [mkummer225/google-sheets-mcp](https://github.com/mkummer225/google-sheets-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 838. [mkummer225/google-sheets-mcp](https://github.com/mkummer225/google-sheets-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer platform enabling AI agents to interact with Google Sheets via the MCP Server, supporting automation, code generation, and secure data handling.**
 
@@ -12918,7 +12843,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 843. [GPT-5-Codex | Hacker News](https://news.ycombinator.com/item?id=45252301)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 839. [GPT-5-Codex | Hacker News](https://news.ycombinator.com/item?id=45252301)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **This Hacker News thread discusses the GPT-5-Codex model, highlighting its improved code refactoring performance compared to the standard GPT-5. The conversation covers the model's reduced prompt size, steerability, and how it compares to Claude Code **
 
@@ -12933,7 +12858,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 844. [shimapon/mcp-server-diceroll](https://github.com/shimapon/mcp-server-diceroll)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 840. [shimapon/mcp-server-diceroll](https://github.com/shimapon/mcp-server-diceroll)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The shimapon/mcp-server-diceroll project provides a GitHub repository that implements a decoder for MCP (Machine Code Protocol) files. It focuses on parsing and interpreting binary code snippets, likely supporting automated code generation or transfo**
 
@@ -12947,7 +12872,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 845. [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
+### 841. [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
 
 **An open-source system that bridges the gap between models and code execution, featuring self-healing loops based on compiler diagnostics.**
 
@@ -12961,7 +12886,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 846. [Ask HN: What software has improved dramatically recently thanks to AI tooling? | Hacker News](https://news.ycombinator.com/item?id=47345578)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
+### 842. [Ask HN: What software has improved dramatically recently thanks to AI tooling? | Hacker News](https://news.ycombinator.com/item?id=47345578)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
 
 **The article discusses recent advancements in AI-powered software tools that are rapidly changing the landscape of development, emphasizing their impact on productivity and innovation.**
 
@@ -12976,7 +12901,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 847. [Embarrassingly simple self-distillation improves code generation | Hacker News](https://news.ycombinator.com/item?id=47637757)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 843. [Embarrassingly simple self-distillation improves code generation | Hacker News](https://news.ycombinator.com/item?id=47637757)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **The paper explores how self-distillation (SSD) improves the ranking of optimal tokens during code generation, highlighting the balance between exploration in divergent thinking and precision in convergent execution. It emphasizes the tension between **
 
@@ -12991,7 +12916,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 848. [jmanhype/mcp-flux-studio](https://github.com/jmanhype/mcp-flux-studio)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 844. [jmanhype/mcp-flux-studio](https://github.com/jmanhype/mcp-flux-studio)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for Flux image generation, enabling tools for image creation, manipulation, and control.**
 
@@ -13007,7 +12932,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 849. [xindong888999/phalcon-mcp](https://github.com/xindong888999/phalcon-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 845. [xindong888999/phalcon-mcp](https://github.com/xindong888999/phalcon-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server for executing Phalcon 5.0.x commands, enabling AI-assisted framework management.**
 
@@ -13023,7 +12948,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 850. [oakplank/revitmcp](https://github.com/oakplank/revitmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 846. [oakplank/revitmcp](https://github.com/oakplank/revitmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based extension for RevitMCP enabling AI-driven automation and workflow orchestration within Autodesk Revit.**
 
@@ -13039,7 +12964,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 851. [firebase/genkit](https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 847. [firebase/genkit](https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Genkit MCP plugin integrates Genkit with the Model Context Protocol to enable developers to build and manage AI-powered server environments.**
 
@@ -13055,7 +12980,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 852. [rhyssullivan/contact-authorities-mcp](https://github.com/rhyssullivan/contact-authorities-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 848. [rhyssullivan/contact-authorities-mcp](https://github.com/rhyssullivan/contact-authorities-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A developer platform for managing and automating workflows, integrating external tools, and enhancing security through AI-driven code assistance.**
 
@@ -13070,7 +12995,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 853. [Lumi.new](https://lumi.new)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 849. [Lumi.new](https://lumi.new)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **Lumi.new simplifies website creation by enabling users to build websites through natural language interaction with an AI. Users describe their desired website, and the AI generates the code and design. It offers pre-defined styling plans and caters t**
 
@@ -13086,7 +13011,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 854. [PageTune.ai - AI-Powered Website Redesign](https://pagetune.ai)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 850. [PageTune.ai - AI-Powered Website Redesign](https://pagetune.ai)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **PageTune.ai leverages AI to analyze existing website structure and content, then generates a completely new design while maintaining branding and improving user experience. It offers single redesign and monthly subscription options, providing full so**
 
@@ -13102,7 +13027,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 855. [reprompt-dev/reprompt](https://github.com/reprompt-dev/reprompt)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
+### 851. [reprompt-dev/reprompt](https://github.com/reprompt-dev/reprompt)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
 
 **Analyze AI coding sessions to optimize prompt quality, detect security risks, and improve developer productivity.**
 
@@ -13118,7 +13043,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 856. [micahman33/vonageaicodeassist](https://github.com/micahman33/vonageaicodeassist)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 852. [micahman33/vonageaicodeassist](https://github.com/micahman33/vonageaicodeassist)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A MCP server to assist developers in integrating Vonage API capabilities into applications using AI tools.**
 
@@ -13134,7 +13059,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 857. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 853. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Java-based Model Context Protocol (MCP) server for JDBC, enabling secure and efficient database connectivity.**
 
@@ -13150,7 +13075,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 858. [sulaiman013/powerbi-mcp](https://github.com/sulaiman013/powerbi-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 854. [sulaiman013/powerbi-mcp](https://github.com/sulaiman013/powerbi-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **Power BI MCP Server enabling natural language interaction with Power BI datasets.**
 
@@ -13166,7 +13091,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 859. [cybersiddhu/dcr-mcp](https://github.com/cybersiddhu/dcr-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 855. [cybersiddhu/dcr-mcp](https://github.com/cybersiddhu/dcr-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server implementation using mcp-go for Git analysis, literature search, and code generation.**
 
@@ -13182,7 +13107,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 860. [rakeshgangwar/f1-mcp-server](https://github.com/rakeshgangwar/f1-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 856. [rakeshgangwar/f1-mcp-server](https://github.com/rakeshgangwar/f1-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A platform for accessing and analyzing Formula One data, enabling automated workflows and insights.**
 
@@ -13198,7 +13123,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 861. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 857. [princefishthrower/orly-mcp](https://github.com/princefishthrower/orly-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server tool for generating O'Reilly parody dev books, integrating with Claude Desktop.**
 
@@ -13214,7 +13139,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 862. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 858. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A versatile random number and generator utility library for secure code generation, supporting UUIDs, numbers, passwords, dice, cards, and more.**
 
@@ -13230,7 +13155,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 863. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 859. [panzer-jack/feuse-mcp](https://github.com/panzer-jack/feuse-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A toolset for automating API integration, code generation, and design-to-code workflows using Figma.**
 
@@ -13245,7 +13170,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 864. [aliyun/alibabacloud-rds-openapi-mcp-server](https://github.com/aliyun/alibabacloud-rds-openapi-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 860. [aliyun/alibabacloud-rds-openapi-mcp-server](https://github.com/aliyun/alibabacloud-rds-openapi-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **OpenAPI MCP server for RDS services, enabling automated management and integration of RDS with AI-driven tools.**
 
@@ -13260,7 +13185,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 865. [wealthy/wealthy-mcp](https://github.com/wealthy/wealthy-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 861. [wealthy/wealthy-mcp](https://github.com/wealthy/wealthy-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **Wealthy-MCP is a platform designed to enhance trading and investment workflows using AI-driven tools.**
 
@@ -13275,7 +13200,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 866. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 862. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer platform for building, managing, and deploying intelligent applications with integrated AI tools.**
 
@@ -13290,7 +13215,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 867. [thadius83/mcp-server-openai](https://github.com/thadius83/mcp-server-openai)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 863. [thadius83/mcp-server-openai](https://github.com/thadius83/mcp-server-openai)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer workflow tool for managing and automating tasks using the MCP protocol with OpenAI models.**
 
@@ -13305,7 +13230,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 868. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 864. [supermemoryai/apple-mcp](https://github.com/supermemoryai/apple-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A collection of Apple-native tools designed to enhance the model context protocol for seamless integration with AI applications.**
 
@@ -13320,7 +13245,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 869. [ameeralns/deepresearchmcp](https://github.com/ameeralns/deepresearchmcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 865. [ameeralns/deepresearchmcp](https://github.com/ameeralns/deepresearchmcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **An intelligent research assistant that automates multi-step research using MCP and external tools.**
 
@@ -13335,7 +13260,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 870. [kunihiros/google-patents-mcp](https://github.com/kunihiros/google-patents-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 866. [kunihiros/google-patents-mcp](https://github.com/kunihiros/google-patents-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server enabling secure and efficient search for Google Patents information via the SerpApi API.**
 
@@ -13350,7 +13275,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 871. [bendusy/pollinations-mcp](https://github.com/bendusy/pollinations-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 867. [bendusy/pollinations-mcp](https://github.com/bendusy/pollinations-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A server implementation enabling AI model integration with Pollinations.ai via MCP protocol, supporting image and text generation.**
 
@@ -13365,7 +13290,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 872. [techomancer/iris](https://github.com/techomancer/iris)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 868. [techomancer/iris](https://github.com/techomancer/iris)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **An AI-assisted emulator for testing and developing software, focusing on code generation, security, and workflow automation.**
 
@@ -13380,7 +13305,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 873. [david-martin/mcp-helper](https://github.com/david-martin/mcp-helper)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers 📍
+### 869. [david-martin/mcp-helper](https://github.com/david-martin/mcp-helper)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers 📍
 
 **A developer-centric utility framework designed to simplify the creation, scaffolding, and real-time debugging of Model Context Protocol (MCP) servers.**
 
@@ -13394,7 +13319,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 874. [To kill memory safety bugs in C code, try the TrapC fork](https://www.theregister.com/2024/11/12/trapc_memory_safe_fork)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
+### 870. [To kill memory safety bugs in C code, try the TrapC fork](https://www.theregister.com/2024/11/12/trapc_memory_safe_fork)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers
 
 **A minimalist fork of the C programming language designed to eliminate Undefined Behavior (UB) and enforce memory safety through automatic lifetime management and pointer bounds checking.**
 
@@ -13408,7 +13333,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 875. [v0 by Vercel - Build Agents, Apps, and Websites with AI](https://v0.app)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
+### 871. [v0 by Vercel - Build Agents, Apps, and Websites with AI](https://v0.app)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers
 
 **Vercel's 2026 evolution of v0 into a full-stack agentic platform capable of autonomous planning, debugging, and existing codebase refactoring.**
 
@@ -13422,7 +13347,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 876. [io_uring is faster than mmap | Hacker News](https://news.ycombinator.com/item?id=45132710)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 872. [io_uring is faster than mmap | Hacker News](https://news.ycombinator.com/item?id=45132710)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **An open protocol (LSP for agents) designed by Anthropic to standardize how LLMs connect to data sources like Postgres, Slack, and local files.**
 
@@ -13436,7 +13361,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 877. [Raycast Store: GitHub Copilot](https://www.raycast.com/github/github-copilot)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 873. [Raycast Store: GitHub Copilot](https://www.raycast.com/github/github-copilot)  `8.8` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This resource outlines the integration of Raycast's AI assistant, GitHub Copilot, into a productivity workflow. It details how developers can leverage Copilot for task automation, code generation, and repository management within the Raycast ecosyste**
 
@@ -13450,7 +13375,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 878. [automcp-app/linkd-mcp](https://github.com/automcp-app/linkd-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 874. [automcp-app/linkd-mcp](https://github.com/automcp-app/linkd-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **Linkd MCP server implementation for automcp, enabling integration with Linkd infrastructure.**
 
@@ -13464,7 +13389,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 879. [giovannicocco/mcp-server-postman-tool-generation](https://github.com/giovannicocco/mcp-server-postman-tool-generation)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 875. [giovannicocco/mcp-server-postman-tool-generation](https://github.com/giovannicocco/mcp-server-postman-tool-generation)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool that generates AI agent tools from Postman collections, enabling automation and integration with various AI frameworks.**
 
@@ -13478,7 +13403,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 880. [kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-](https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗4 layers
+### 876. [kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-](https://github.com/kotarimorm/-Report-AI-coding-agent-programmatically-bypassing-OS-security-policies-Trace-ID-f4b806d4...-/blob/main/README.md)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗4 layers
 
 **Analysis of a security vulnerability in an AI coding agent that bypasses OS security policies and deletes system data.**
 
@@ -13492,7 +13417,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 881. [AsmJit](https://asmjit.com)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers
+### 877. [AsmJit](https://asmjit.com)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers
 
 **A premier lightweight C++ library for low-latency machine code generation (x86/A64), critical for building high-performance JIT compilers.**
 
@@ -13506,7 +13431,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 882. [https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_co](https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_coding_tools_on_the_same)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 878. [https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_co](https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_coding_tools_on_the_same)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **Participants shared their real-world interactions with various AI coding tools, emphasizing usability, integration challenges, and performance expectations. Several users recommended specific tools for streamlining development workflows, while others**
 
@@ -13520,7 +13445,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 883. [kukapay/pancakeswap-poolspy-mcp](https://github.com/kukapay/pancakeswap-poolspy-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 879. [kukapay/pancakeswap-poolspy-mcp](https://github.com/kukapay/pancakeswap-poolspy-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **An MCP server tracking newly created liquidity pools on Pancake Swap.**
 
@@ -13534,7 +13459,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 884. [xonack/apex-mcp](https://github.com/xonack/apex-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 880. [xonack/apex-mcp](https://github.com/xonack/apex-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A developer platform for building, managing, and deploying intelligent applications with AI-powered features.**
 
@@ -13548,7 +13473,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 885. [crazyrabbitltc/mcp-expert-server](https://github.com/crazyrabbitltc/mcp-expert-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 881. [crazyrabbitltc/mcp-expert-server](https://github.com/crazyrabbitltc/mcp-expert-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server that generates intelligent queries and fetches documentation from API sources.**
 
@@ -13562,7 +13487,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 886. [vertile-ai/next-mcp-server](https://github.com/vertile-ai/next-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 882. [vertile-ai/next-mcp-server](https://github.com/vertile-ai/next-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool for managing and analyzing Next.js API routes to improve application development.**
 
@@ -13576,7 +13501,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 887. [C -> Java != Java -> LLM](http://www.observationalhazard.com/2025/12/c-java-java-llm.html)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
+### 883. [C -> Java != Java -> LLM](http://www.observationalhazard.com/2025/12/c-java-java-llm.html)  `7.8` ☆☆☆ ⚡73.0 Q0.8○ Good · ↗1 layers 📍
 
 **The author, David Kopec, argues that previous language transitions (like Assembly to C, or C to Java) fundamentally changed the 'intermediate product' of software development—the source code itself—which necessitated changes in architecture, collabor**
 
@@ -13589,7 +13514,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 888. [Factory CLI | AI for CI/CD](https://factory.ai/product/cli)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
+### 884. [Factory CLI | AI for CI/CD](https://factory.ai/product/cli)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗2 layers
 
 **A terminal-based interface for running autonomous "Droids" that perform end-to-end engineering tasks like refactors and bug fixes.**
 
@@ -13603,7 +13528,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 889. [https://usegitai.com](https://usegitai.com)  `9.3` ★★☆ ⚡72.0 Q0.6✓ Very good · ↗2 layers
+### 885. [https://usegitai.com](https://usegitai.com)  `9.3` ★★☆ ⚡72.0 Q0.6✓ Very good · ↗2 layers
 
 **A tool to track and manage AI code generation throughout the software development lifecycle, enhancing AI adoption and maintainability.**
 
@@ -13619,7 +13544,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 890. [https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_clau](https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_claude_code_into_a_full_game_dev_studio_48)  `8.5` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗1 layers
+### 886. [https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_clau](https://www.reddit.com/r/LovingOpenSourceAI/comments/1shtai8/turn_claude_code_into_a_full_game_dev_studio_48)  `8.5` ★☆☆ ⚡72.0 Q0.6✓ Very good · ↗1 layers
 
 **The project explores integrating AI code generation with structured workflows, focusing on automation, modularity, and scalability for large-scale AI-driven development environments.**
 
@@ -13634,7 +13559,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 891. [https://alirezarezvani.medium.com/i-turned-karpathys-autoresearch-into](https://alirezarezvani.medium.com/i-turned-karpathys-autoresearch-into-a-agent-skill-for-claude-code-that-optimizes-anything-here-97de83f2b7f0)  `8.8` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗2 layers
+### 887. [https://alirezarezvani.medium.com/i-turned-karpathys-autoresearch-into](https://alirezarezvani.medium.com/i-turned-karpathys-autoresearch-into-a-agent-skill-for-claude-code-that-optimizes-anything-here-97de83f2b7f0)  `8.8` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗2 layers
 
 **The article discusses transforming Karpathy's autoresearch methodology into an agent skill for Claude Code, focusing on a single file and metric loop across multiple domains. It emphasizes constraint-based design, iterative evaluation, and modular ar**
 
@@ -13648,7 +13573,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 892. [https://www.reddit.com/r/opencode/comments/1sl225d/opencodeautoresume_](https://www.reddit.com/r/opencode/comments/1sl225d/opencodeautoresume_auto_restart_when_there_are)  `8.5` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗2 layers
+### 888. [https://www.reddit.com/r/opencode/comments/1sl225d/opencodeautoresume_](https://www.reddit.com/r/opencode/comments/1sl225d/opencodeautoresume_auto_restart_when_there_are)  `8.5` ★☆☆ ⚡71.0 Q0.6✓ Very good · ↗2 layers
 
 **The resource details an automated system designed to generate and run code snippets, emphasizing efficiency and scalability in software development workflows.**
 
@@ -13663,7 +13588,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 893. [https://openai.com/index/harness-engineering](https://openai.com/index/harness-engineering)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers
+### 889. [https://openai.com/index/harness-engineering](https://openai.com/index/harness-engineering)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers
 
 **A formal methodology for building large-scale software with agents by designing the environment of scaffolding, constraints, and feedback loops.**
 
@@ -13677,7 +13602,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 894. [https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635b](https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
+### 890. [https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635b](https://www.reddit.com/r/AIToolsPerformance/comments/1sn9okz/qwen3635ba3b_drops_with_apache_20_agentic_coding)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
 
 **The article examines the technical challenges and solutions related to agentic coding, focusing on how automated agents can be orchestrated for improved performance and efficiency in software development workflows.**
 
@@ -13691,7 +13616,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 895. [https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_](https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_free_prompt_library_with_100_optimized)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
+### 891. [https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_](https://www.reddit.com/r/PromptEngineering/comments/1t0su8y/i_built_a_free_prompt_library_with_100_optimized)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗2 layers
 
 **The project presents a comprehensive collection of 100 prompt templates designed to enhance the efficiency and effectiveness of AI interactions. It focuses on improving user engagement and output quality through structured prompt engineering.**
 
@@ -13705,7 +13630,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 896. [AI Coding is Gambling](https://notes.visaint.space/ai-coding-is-gambling)  `7.0` ☆☆☆ ⚡57.0 Q0.6○ Good · ↗2 layers
+### 892. [AI Coding is Gambling](https://notes.visaint.space/ai-coding-is-gambling)  `7.0` ☆☆☆ ⚡57.0 Q0.6○ Good · ↗2 layers
 
 **Analysis of AI coding as a form of gambling, focusing on motivation and workflow challenges.**
 
@@ -13718,7 +13643,7 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-### 897. [uvcat7/ArrowVortex](https://github.com/uvcat7/ArrowVortex/issues)  `7.3` ☆☆☆ ⚡53.0 Q0.5○ Good · ↗1 layers
+### 893. [uvcat7/ArrowVortex](https://github.com/uvcat7/ArrowVortex/issues)  `7.3` ☆☆☆ ⚡53.0 Q0.5○ Good · ↗1 layers
 
 **Memory & Persistence Architecture**
 
@@ -13729,25 +13654,5 @@ AI editors, autocomplete, code review, refactoring, testing
 
 ---
 
-## Unclassified
 
-> 1 tools · avg signal ⚡75
-
-### 898. [Google Search](https://www.google.com/search?gs_lcrp=EgRlZGdlKgkIABBFGDkYgAQyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIPCAMQABgKGIMBGLEDGIAEMgcIBBAAGIAEMgcIBRAAGIAEMgcIBhAAGIAEMgcIBxAAGIAE0gEHODk4ajBqMagCALACAA&ie=UTF-8&oq=tensorrt&q=tensorrt&sourceid=chrome)  `7.0` ☆☆☆ ⚡75.0 Q0.8 📍
-
-**This is a Google Search result page for the query "TensorRT". TensorRT is an NVIDIA SDK for high-performance deep learning inference. It includes a deep learning inference optimizer and runtime that delivers low latency and high throughput for deep l**
-
-**Features:**
-- ['Deep learning inference optimization'
-- 'High throughput'
-- 'Low latency'
-- 'Support for various deep learning frameworks (TensorFlow
-- PyTorch
-- etc.)'
-
-*Tags: ['tensorrt', 'nvidia', 'deeplearning', 'inference', 'optimization'*
-
----
-
-
-*898 tools · Signal-scored · 2026-05-17*
+*893 tools · Signal-scored · 2026-05-17*

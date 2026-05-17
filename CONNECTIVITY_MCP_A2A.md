@@ -1,6 +1,6 @@
 # ⚡ Connectivity / MCP / A2A
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,754 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 1,742 tools
 
 The **nerve layer** — protocols, adapters, and inter-agent communication
 
@@ -8,13 +8,13 @@ MCP infrastructure, A2A, gateways, tool discovery, registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,754** |
+| Total tools | **1,742** |
 | Standout 🏆⭐ | 477 |
 | Avg Signal | ⚡85 |
 | Innovation 10 | 151 ████████████████ |
 | Innovation 9 | 517 ████████████████████████████████████████████████████ |
-| Innovation 8 | 1,049 █████████████████████████████████████████████████████████████████████████████████████████████████████████ |
-| Innovation 7 | 37 ████ |
+| Innovation 8 | 1,039 ████████████████████████████████████████████████████████████████████████████████████████████████████████ |
+| Innovation 7 | 35 ████ |
 
 ---
 
@@ -48,11 +48,9 @@ MCP infrastructure, A2A, gateways, tool discovery, registries
 ## Contents
 
 - [A2A Protocol](#a2a-protocol) — 73 tools · ⚡79
-- [API Integrations](#api-integrations) — 6 tools · ⚡70
+- [API Integrations](#api-integrations) — 2 tools · ⚡68
 - [MCP Clients](#mcp-clients) — 1,574 tools · ⚡85
 - [MCP Infrastructure](#mcp-infrastructure) — 59 tools · ⚡85
-- [MCP Servers](#mcp-servers) — 7 tools · ⚡84
-- [Protocol Bridges](#protocol-bridges) — 1 tools · ⚡68
 - [Tool Discovery](#tool-discovery) — 34 tools · ⚡85
 
 ---
@@ -1124,37 +1122,9 @@ Key features include defining the state of the RRR system
 
 ## API Integrations
 
-> 6 tools · avg signal ⚡70
+> 2 tools · avg signal ⚡68
 
-### 74. [Google](https://www.google.com/search?ei=-aWFZ62gHKbfp84Pi4nzoQ0&gs_lp=Egxnd3Mtd2l6LXNlcnAiGCJyZWVkaGlsbCB2ZW50dXJlcyIgY29kZTILEAAYgAQYsAMYogQyCxAAGLADGKIEGIkFSMYJUIcJWIcJcAJ4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAqACBJgDAIgGAZAGApIHATKgBwA&oq=)  `8.0` ★☆☆ ⚡73.0 Q0.7 📍
-
-**This resource evaluates the integration of AI technologies in scientific research, focusing on how machine learning models can be deployed for environmental monitoring and data analysis. It examines the technical aspects of image processing, privacy **
-
-**Features:**
-- image upload functionality
-- AI-driven data analysis
-- privacy and security measures
-- search optimization
-
-*Tags: ai, environment, data-science, image-processing, privacy*
-
----
-
-### 75. [Google](https://www.google.com/search?gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBdIBBzU0N2owajGoAgCwAgA&ie=UTF-8&oq=)  `8.0` ★☆☆ ⚡72.0 Q0.7 📍
-
-**The resource provides an overview of Google's advertising infrastructure, focusing on how it integrates with various platforms and services for seamless data exchange and user engagement. It highlights the importance of privacy settings, search funct**
-
-**Features:**
-- Search optimization
-- AI-driven personalization
-- Privacy settings management
-- Data integration across platforms
-
-*Tags: search, ai, privacy, advertising, user-experience*
-
----
-
-### 76. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076&utm_source=reddit)  `8.0` ★☆☆ ⚡72.0 Q0.7 📍
+### 74. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076&utm_source=reddit)  `8.0` ★☆☆ ⚡72.0 Q0.7 📍
 
 **This resource evaluates the capabilities and value proposition of Risen vs. TradingView, focusing on its free tier offerings, advanced features, pricing structure, and integration potential within a broader ecosystem.**
 
@@ -1170,36 +1140,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 77. [Google](https://www.google.com/search?gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDkyDQgCEAAYkQIYgAQYigUyDQgDEAAYkQIYgAQYigUyCggEEAAYsQMYgAQyDQgFEAAYkQIYgAQYigUyDQgGEAAYkQIYgAQYigUyDQgHEAAYgwEYsQMYgAQyBggIEEUYQdIBCDE3NTlqMGo0qAIAsAIA&ie=UTF-8&oq=)  `7.0` ☆☆☆ ⚡72.0 Q0.8 📍
-
-**The resource provides an overview of Google's image upload functionality, its technical specifications, and its relevance to AI-driven data handling in intelligence contexts. It highlights the importance of understanding search algorithms, privacy se**
-
-**Features:**
-- image upload functionality
-- AI integration
-- data processing
-- privacy settings
-- search optimization
-
-*Tags: ai, image-processing, data-handling, privacy, search-optimization*
-
----
-
-### 78. [Google](https://www.google.com/search?gs_lcrp=EgxlZGdlX2FuZHJvaWQqBggAEEUYOTIGCAAQRRg50gEJMTI4MzlqMGo3qAIAsAIA&ie=UTF-8&oq=add+baselines+to+songs+that+don)  `8.0` ★☆☆ ⚡68.0 Q0.7 📍
-
-**The resource discusses the integration of AI models, image processing tools, and search optimization techniques, highlighting their application in enhancing user interaction and data retrieval within digital platforms.**
-
-**Features:**
-- image upload functionality
-- AI model deployment
-- search enhancement tools
-- data categorization system
-
-*Tags: ai, image-processing, search-optimization, machine-learning, digital-transformation*
-
----
-
-### 79. [Hacker News](https://news.ycombinator.com/item?id=47419709)  `7.0` ☆☆☆ ⚡64.0 Q0.7 📍
+### 75. [Hacker News](https://news.ycombinator.com/item?id=47419709)  `7.0` ☆☆☆ ⚡64.0 Q0.7 📍
 
 **The resource examines the implications of hacker news discussions on cybersecurity, focusing on guidelines, API usage, and developer best practices for secure web interactions.**
 
@@ -1217,7 +1158,7 @@ Key features include defining the state of the RRR system
 
 > 1,574 tools · avg signal ⚡85
 
-### 80. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers 📍
+### 76. [oraios/serena](https://github.com/oraios/serena)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗6 layers 📍
 
 **Serena acts as a layer between Large Language Models (LLMs)/coding agents and the codebase, offering IDE-like tools such as semantic code retrieval and symbol-level editing. Its core interoperability mechanism is the Model Context Protocol (MCP) serv**
 
@@ -1233,7 +1174,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 81. [George5562/Switchboard](https://github.com/George5562/Switchboard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 77. [George5562/Switchboard](https://github.com/George5562/Switchboard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **Switchboard acts as an intermediary layer, utilizing JSON-RPC over stdio to communicate with a host (like Claude Code or Cursor). It discovers and manages numerous specialized Model Context Providers (MCPs) by spawning them on demand (lazy loading). **
 
@@ -1248,7 +1189,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 82. [aberemia24/code-executor-MCP](https://github.com/aberemia24/code-executor-MCP)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 78. [aberemia24/code-executor-MCP](https://github.com/aberemia24/code-executor-MCP)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **Code Executor MCP acts as a proxy and orchestration layer for a multitude of external tools accessible via the MCP protocol (used by agents like Claude/Cursor). Its core innovation is decoupling the agent's required context from the total available t**
 
@@ -1264,7 +1205,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 83. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 79. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **This project provides a containerized environment that facilitates Generalized Computer Control (GCC) by bridging Claude models with a virtual Linux desktop. It implements a specialized agent loop that uses the model's tool-calling capabilities to pe**
 
@@ -1280,7 +1221,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 84. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 80. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **This project implements a bridge between LLM-based coding agents and the Chrome DevTools Protocol (CDP) using the Model Context Protocol (MCP). It allows agents to perform high-fidelity browser automation, deep network inspection, and performance ana**
 
@@ -1296,7 +1237,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 85. [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 81. [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Unreal MCP integration provides comprehensive tools for controlling Unreal Engine through natural language: 
 
@@ -1321,7 +1262,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 86. [thedotmack/mcp-client-cli](https://github.com/thedotmack/mcp-client-cli)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 82. [thedotmack/mcp-client-cli](https://github.com/thedotmack/mcp-client-cli)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **This resource details the `mcp-client-cli`, a command-line interface designed to interact with Model Context Protocol (MCP) servers. It highlights how MCP enables AI assistants to interact with tools and data sources, making this power accessible via**
 
@@ -1336,7 +1277,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 87. [aarora79/aws-cost-explorer-mcp-server](https://github.com/aarora79/aws-cost-explorer-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 83. [aarora79/aws-cost-explorer-mcp-server](https://github.com/aarora79/aws-cost-explorer-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The AWS Cost Explorer MCP (Model Control Protocol) server allows organizations to retrieve detailed AWS spend data via cost explorer API calls. This tool integrates with Anthropic's MCP client, enabling users to interact with AWS CloudWatch logs and **
 
@@ -1352,7 +1293,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 88. [aliyun/alibabacloud-dms-mcp-server](https://github.com/aliyun/alibabacloud-dms-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 84. [aliyun/alibabacloud-dms-mcp-server](https://github.com/aliyun/alibabacloud-dms-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The alibabacloud-dms-mcp-server is a cloud-native, AI-powered multi-cloud data management platform designed to provide secure, unified access to over 40 data source types. It supports integration with major databases, data warehouses, and enterprise **
 
@@ -1368,7 +1309,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 89. [rafaljanicki/x-twitter-mcp-server](https://github.com/rafaljanicki/x-twitter-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 85. [rafaljanicki/x-twitter-mcp-server](https://github.com/rafaljanicki/x-twitter-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The x-twitter-mcp-server is a Python-based application designed to interface with the Twitter (X) API using Twitter API v2. It provides a streamlined, AI-powered interface that allows users to perform a wide range of Twitter operations such as fetchi**
 
@@ -1384,7 +1325,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 90. [yugabyte/yugabytedb-mcp-server](https://github.com/yugabyte/yugabytedb-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 86. [yugabyte/yugabytedb-mcp-server](https://github.com/yugabyte/yugabytedb-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The yugabytedb-mcp-server is a custom-built MCP (Multi-Cloud Platform) server designed to facilitate seamless interaction between large language models (LLMs) and YugabyteDB, an open-source database. It provides a secure, scalable, and efficient inte**
 
@@ -1400,7 +1341,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 91. [explorium-ai/mcp-explorium](https://github.com/explorium-ai/mcp-explorium)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 87. [explorium-ai/mcp-explorium](https://github.com/explorium-ai/mcp-explorium)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **This project provides a comprehensive solution for connecting AI-powered applications to Explorium's Model Context Protocol (MCP) server. It enables seamless integration of business intelligence data, company information, and real-time updates from t**
 
@@ -1416,7 +1357,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 92. [yangkyeongmo/mcp-server-openmetadata](https://github.com/yangkyeongmo/mcp-server-openmetadata)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 88. [yangkyeongmo/mcp-server-openmetadata](https://github.com/yangkyeongmo/mcp-server-openmetadata)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The yangkyeongmo/mcp-server-openmetadata project implements a Model Context Protocol server that wraps OpenMetadata's REST API. This allows MCP clients to interact with OpenMetadata in a consistent, secure, and standardized manner. It supports core d**
 
@@ -1432,7 +1373,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 93. [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 89. [pipeboard-co/meta-ads-mcp](https://github.com/pipeboard-co/meta-ads-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The pipeboard-co/meta-ads-mcp project provides a centralized, AI-powered interface for managing Meta Ads campaigns across Facebook, Instagram, and other Meta platforms. It leverages advanced machine learning to analyze performance data, visualize ad **
 
@@ -1448,7 +1389,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 94. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 90. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The DumplingAI/mcp-server-dumplingai project provides a robust MCP (Model Context Protocol) server that seamlessly integrates with Dumpling AI's API endpoints. It supports advanced functionalities such as web scraping, data extraction from various so**
 
@@ -1464,7 +1405,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 95. [kunihiros/kv-extractor-mcp-server](https://github.com/kunihiros/kv-extractor-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 91. [kunihiros/kv-extractor-mcp-server](https://github.com/kunihiros/kv-extractor-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The KunihiroS/kv-extractor-mcp-server is a robust MCP (Machine Learning Processing) server designed to extract structured key-value pairs from diverse and imperfect input sources. It leverages large language models (GPT-4.1-mini) and Pydantic-ai for **
 
@@ -1480,7 +1421,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 96. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 92. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The ziyadmir/nba-player-stats-mcp project provides a robust Model Context Protocol (MCP) server that aggregates and delivers detailed NBA player statistics. It supports multiple layers of data, including career stats, season comparisons, advanced met**
 
@@ -1496,7 +1437,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 97. [pearl-com/pearl_mcp_server](https://github.com/pearl-com/pearl_mcp_server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 93. [pearl-com/pearl_mcp_server](https://github.com/pearl-com/pearl_mcp_server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The Pearl-com/pearl_mcp_server project provides a Model Context Protocol (MCP) server implementation that enables seamless interaction between MCP clients like Claude Desktop and human experts. It supports both stdio and SSE transports, integrates wi**
 
@@ -1512,7 +1453,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 98. [translated/lara-mcp](https://github.com/translated/lara-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 94. [translated/lara-mcp](https://github.com/translated/lara-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **The Lara Translate MCP Server acts as a standardized bridge, enabling AI applications to connect with translation services via the Model Context Protocol (MCP). This architecture allows developers to leverage pre-trained translation models (T-LMs) fo**
 
@@ -1527,7 +1468,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 99. [saidsurucu/yargi-mcp](https://github.com/saidsurucu/yargi-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 95. [saidsurucu/yargi-mcp](https://github.com/saidsurucu/yargi-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Yargi-MCP project is a cloud-based solution designed to streamline access to Turkish legal databases by leveraging the MCP (Model Context Protocol) standard. It provides a centralized platform for developers to build secure, automated workflows u**
 
@@ -1543,7 +1484,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 100. [allvoicelab/allvoicelab-mcp](https://github.com/allvoicelab/allvoicelab-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 96. [allvoicelab/allvoicelab-mcp](https://github.com/allvoicelab/allvoicelab-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The AllVoiceLab MCP server is a powerful platform that integrates advanced text-to-speech, video translation, and voice conversion capabilities. It supports seamless interaction with external APIs, enabling applications such as localized audio conten**
 
@@ -1559,7 +1500,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 101. [metersphere/metersphere-mcp-server](https://github.com/metersphere/metersphere-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 97. [metersphere/metersphere-mcp-server](https://github.com/metersphere/metersphere-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The MeterSphere MCP Server is a platform-as-a-service solution built on the Model Context Protocol (MCP) that allows AI language models to seamlessly connect to and execute tests, retrieve documentation, create mock services, and validate compatibili**
 
@@ -1575,7 +1516,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 102. [christian561/gel-mcp-server](https://github.com/christian561/gel-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 98. [christian561/gel-mcp-server](https://github.com/christian561/gel-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The project provides a TypeScript-based Model Context Protocol (MCP) server that allows LLM agents such as Cursor and Claude Code to automate interactions with the Gel database. It includes tools for schema exploration, query generation, validation, **
 
@@ -1591,7 +1532,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 103. [doggybee/mcp-server-ccxt](https://github.com/doggybee/mcp-server-ccxt)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 99. [doggybee/mcp-server-ccxt](https://github.com/doggybee/mcp-server-ccxt)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **The doggybee/mcp-server-ccxt project provides a robust, high-speed MCP server designed for seamless integration with over 20+ cryptocurrency exchanges. It leverages the CCXT library to enable language models like Claude to access real-time market dat**
 
@@ -1607,7 +1548,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 104. [taewoong1378/notion-readonly-mcp-server](https://github.com/taewoong1378/notion-readonly-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 100. [taewoong1378/notion-readonly-mcp-server](https://github.com/taewoong1378/notion-readonly-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **This project focuses on building a read-only MCP server tailored for the Notion API, specifically targeting the integration with AI assistants like Cursor and Claude. By minimizing the number of exposed Notion API tools from 15+ to just 6 essential o**
 
@@ -1623,7 +1564,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 105. [bcharleson/instantly-mcp](https://github.com/bcharleson/instantly-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 101. [bcharleson/instantly-mcp](https://github.com/bcharleson/instantly-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Instantly.MCP server is a lightweight, robust Model Context Protocol (MCP) server designed to facilitate seamless interactions between multiple applications and services. It supports a wide range of functionalities such as managing accounts, camp**
 
@@ -1639,7 +1580,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 106. [panth1823/formula1-mcp](https://github.com/panth1823/formula1-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 102. [panth1823/formula1-mcp](https://github.com/panth1823/formula1-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Panth1823/formula1-mcp project offers a TypeScript-based Formula 1 MCP server that aggregates live and historical race data via the Model Context Protocol. It provides access to a wide array of Formula 1 information including session results, lap**
 
@@ -1655,7 +1596,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 107. [jwalsh/mcp-server-qrcode](https://github.com/jwalsh/mcp-server-qrcode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 103. [jwalsh/mcp-server-qrcode](https://github.com/jwalsh/mcp-server-qrcode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The jwalsh/mcp-server-qrcode project provides a Model Context Protocol (MCP)-based server that enables seamless integration of large language models with QR code generation capabilities. It supports various output formats, customization options, and **
 
@@ -1671,7 +1612,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 108. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
+### 104. [prathammanocha/wordpress-mcp-server](https://github.com/prathammanocha/wordpress-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Borg Project's WordPress MCP Server is a robust platform designed to facilitate seamless integration between WordPress applications and AI assistants. It provides extensive functionality for managing users, posts, categories, comments, and custom**
 
@@ -1687,7 +1628,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 109. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 105. [mapbox/mcp-server](https://github.com/mapbox/mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Mapbox Model Context Protocol (MCP) server provides a standardized interface for integrating geospatial data into AI applications. By leveraging the MCP server, developers can embed contextual awareness into their models, allowing them to underst**
 
@@ -1703,7 +1644,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 110. [vfa-khuongdv/mcp_readmine](https://github.com/vfa-khuongdv/mcp_readmine)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 106. [vfa-khuongdv/mcp_readmine](https://github.com/vfa-khuongdv/mcp_readmine)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The vfa-khuongdv/mcp_readmine project provides a robust MCP (Model Context Protocol) server that allows AI agents to seamlessly integrate with the Redmine API. It supports comprehensive tooling for Redmine interaction, including issue management, pro**
 
@@ -1719,7 +1660,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 111. [isnow890/data4library-mcp](https://github.com/isnow890/data4library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 107. [isnow890/data4library-mcp](https://github.com/isnow890/data4library-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The MCP (Model Context Protocol) server is designed to provide developers with a robust platform for integrating real-time library data from the National Central Library. It supports over 25 tools for efficient book/library search, trend monitoring, **
 
@@ -1735,7 +1676,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 112. [localstack/localstack-mcp-server](https://github.com/localstack/localstack-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 108. [localstack/localstack-mcp-server](https://github.com/localstack/localstack-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The LocalStack MCP Server provides a powerful tool for simulating and testing cloud-native applications using MCP (Microservices Compose) within a local development environment. It integrates seamlessly with various infrastructure tools like CDK, Ter**
 
@@ -1751,7 +1692,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 113. [henu-wang/geoscore-mcp](https://github.com/henu-wang/geoscore-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 109. [henu-wang/geoscore-mcp](https://github.com/henu-wang/geoscore-mcp)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The henu-wang/geoscore-mcp project provides a comprehensive solution for identifying and fixing issues that hinder a website's visibility in AI-powered search engines like ChatGPT, Perplexity, and Claude. It offers a suite of tools including geo_scan**
 
@@ -1767,7 +1708,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 114. [mcpware/cross-code-organizer](https://github.com/mcpware/cross-code-organizer)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 110. [mcpware/cross-code-organizer](https://github.com/mcpware/cross-code-organizer)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **GitHub - mcpware/cross-code-organizer: Cross-Code Organizer (formerly Claude Code Organizer): cross-harness config dashboard for Claude Code, Codex CLI, MCP servers, skills, memories, agents, sessions, security scanning, context budget, and backups. **
 
@@ -1782,7 +1723,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 115. [mahdin75/gis-mcp](https://github.com/mahdin75/gis-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 111. [mahdin75/gis-mcp](https://github.com/mahdin75/gis-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The GIS-MCP server implementation connects Large Language Models (LLMs) with GIS operations via GIS libraries, allowing AI assistants to execute complex geospatial tasks such as geometry operations, coordinate transformations, spatial analysis, raste**
 
@@ -1798,7 +1739,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 116. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers
+### 112. [stass/exif-mcp](https://github.com/stass/exif-mcp)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗3 layers
 
 **Exif-mcp is a lightweight, offline MCP (Model Context Protocol) server designed to extract various image metadata segments such as EXIF, GPS, XMP, ICC, IPTC, JFIF, and IHDR. Built with TypeScript and leveraging the powerful exifr library, it enables **
 
@@ -1814,7 +1755,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 117. [baranwang/mcp-trends-hub](https://github.com/baranwang/mcp-trends-hub)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗4 layers
+### 113. [baranwang/mcp-trends-hub](https://github.com/baranwang/mcp-trends-hub)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗4 layers
 
 **The Borg Project's MCP Trends Hub is a comprehensive, web-based service that aggregates and visualizes trending topics from over 20 data sources. It supports seamless integration with AI tools like Claude Desktop and CodeCopilot, enabling developers **
 
@@ -1829,7 +1770,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 118. [openbnb-org/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗2 layers
+### 114. [openbnb-org/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Borg Project integrates with the open-source MCP server Airbnb to deliver advanced, context-aware search capabilities for Airbnb listings. By leveraging the Model Context Protocol (MCP), Borg enables seamless integration of rich filtering, locati**
 
@@ -1845,7 +1786,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 119. [smartlittleapps/local-stt-mcp](https://github.com/smartlittleapps/local-stt-mcp/tree/HEAD/mcp-server)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 115. [smartlittleapps/local-stt-mcp](https://github.com/smartlittleapps/local-stt-mcp/tree/HEAD/mcp-server)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The project implements a locally hosted MCP (Model Context Protocol) server that leverages the whisper.cpp library to perform on-device speech-to-text conversion. It is designed to run efficiently on Apple Silicon hardware, offering high performance **
 
@@ -1861,7 +1802,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 120. [cristianoaredes/mcp-dadosbr](https://github.com/cristianoaredes/mcp-dadosbr)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class 📍
+### 116. [cristianoaredes/mcp-dadosbr](https://github.com/cristianoaredes/mcp-dadosbr)  `10.0` ★★★ ⚡97.0 Q0.9🏆 World-class 📍
 
 **MCP DadosBR is a comprehensive Model Context Protocol (MCP) server that empowers AI tools like Claude Desktop, Cursor, Windsurf, and others to access Brazilian public datasets such as CNPJ records, CEP addresses, court proceedings, government contrac**
 
@@ -1877,7 +1818,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 121. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
+### 117. [blockscout/mcp-server](https://github.com/blockscout/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
 
 **This project provides a secure, API-driven interface for integrating blockchain data into AI applications using the Model Context Protocol (MCP). It supports multi-chain connectivity, contextual data retrieval, and intelligent analysis features such **
 
@@ -1893,7 +1834,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 122. [cuongtl1992/mcp-dbs](https://github.com/cuongtl1992/mcp-dbs)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class 📍
+### 118. [cuongtl1992/mcp-dbs](https://github.com/cuongtl1992/mcp-dbs)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class 📍
 
 **The MCP Database Server is a powerful tool for connecting to and managing diverse database systems such as SQLite, PostgreSQL, SQL Server, and MongoDB. It provides a unified interface for developers to interact with these databases using standard pro**
 
@@ -1909,7 +1850,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 123. [norman-finance/norman-mcp-server](https://github.com/norman-finance/norman-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
+### 119. [norman-finance/norman-mcp-server](https://github.com/norman-finance/norman-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Norman-MCP Server is an AI-driven platform designed to streamline accounting, invoicing, and VAT filing for European-based entrepreneurs. It integrates with Claude, Cursor, and other MCP-compatible AI tools to automate financial processes, includ**
 
@@ -1925,7 +1866,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 124. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
+### 120. [deeplcom/deepl-mcp-server](https://github.com/deeplcom/deepl-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗2 layers
 
 **The DeepL-MCP-Server is a context-aware MCP (Model Context Protocol) implementation that leverages the DeepL API for real-time translation across various languages. It provides developers with an easy-to-use interface to integrate translation capabil**
 
@@ -1941,7 +1882,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 125. [skobyn/dataforseo-mcp-server](https://github.com/skobyn/dataforseo-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
+### 121. [skobyn/dataforseo-mcp-server](https://github.com/skobyn/dataforseo-mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗4 layers
 
 **The DataForSEO API Server acts as a bridge between large language models (LLMs) and various SEO APIs, allowing users to perform advanced SEO tasks such as keyword research, backlink analysis, content evaluation, and more. Built on the Model Context P**
 
@@ -1957,7 +1898,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 126. [nspady/google-calendar-mcp](https://github.com/nspady/google-calendar-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 122. [nspady/google-calendar-mcp](https://github.com/nspady/google-calendar-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The project implements a multi-account support feature using the Google Calendar MCP server, enabling users to manage events from various personal and work calendars simultaneously. It supports cross-calendar availability checks, intelligent import o**
 
@@ -1973,7 +1914,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 127. [SamMorrowDrums/remarkable-mcp](https://github.com/SamMorrowDrums/remarkable-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 123. [SamMorrowDrums/remarkable-mcp](https://github.com/SamMorrowDrums/remarkable-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The remarkable-mcp project provides a MCP server that allows Claude, VS Code Copilot, and other AI tools to access the full capabilities of a reMarkable tablet. It supports features such as full library access, text extraction from handwritten notes **
 
@@ -1989,7 +1930,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 128. [tago-io/mcp-server](https://github.com/tago-io/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 124. [tago-io/mcp-server](https://github.com/tago-io/mcp-server)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **The tago-io/mcp-server project enables developers to connect their TagoIO platform with various AI assistants and development environments. It supports remote server connectivity, device management, data analysis, code generation, and workflow automa**
 
@@ -2005,7 +1946,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 129. [xinkuang/china-stock-mcp](https://github.com/xinkuang/china-stock-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 125. [xinkuang/china-stock-mcp](https://github.com/xinkuang/china-stock-mcp)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **The xinkuang/china-stock-mcp project is a robust MCP (Model Context Protocol) server designed to deliver extensive financial data for Chinese stocks. It supports multiple data sources, real-time and historical stock information, comprehensive financi**
 
@@ -2021,7 +1962,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 130. [opendatamcp/opendatamcp](https://github.com/opendatamcp/opendatamcp)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers
+### 126. [opendatamcp/opendatamcp](https://github.com/opendatamcp/opendatamcp)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project focuses on bridging public open data sources to large language models (LLMs) using the Model Context Protocol (MCP). By establishing a robust Connectivity & Interoperability layer, it allows LLMs to access diverse datasets in real-time, **
 
@@ -2036,7 +1977,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 131. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `9.5` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers
+### 127. [vinayaktiwari1103/mcp-smallest-ai](https://github.com/vinayaktiwari1103/mcp-smallest-ai)  `9.5` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗1 layers
 
 **MCP-smallest-ai is a lightweight MCP server implementation that enables secure and standardized integration with Smallest.ai's knowledge base management system. It acts as a middleware layer between client applications and the Smallest.ai API, provid**
 
@@ -2051,7 +1992,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 132. [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 128. [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **Chrome MCP Server functions as a bridge, built as a Chrome extension, that exposes the user's active Chrome browser functionality (including open tabs, history, network access, and interaction capabilities) to external AI agents using the Model Conte**
 
@@ -2067,7 +2008,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 133. [horizondatawave/hdw-mcp-server](https://github.com/horizondatawave/hdw-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
+### 129. [horizondatawave/hdw-mcp-server](https://github.com/horizondatawave/hdw-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Anysite MCP Server acts as an agent-first infrastructure that allows AI agents to securely connect to external platforms via the Model Context Protocol (MCP). It supports advanced search, real-time data extraction, network analysis, content monit**
 
@@ -2083,7 +2024,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 134. [dbillionaer/polygon-mcp](https://github.com/dbillionaer/polygon-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
+### 130. [dbillionaer/polygon-mcp](https://github.com/dbillionaer/polygon-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Dbillionaer/polygon-mcp project provides a robust MCP server that integrates with the Polygon blockchain network, offering comprehensive tools for wallet management, smart contract deployment, L2 bridging, DeFi interactions, and transaction simul**
 
@@ -2099,7 +2040,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 135. [ayeletstudioindia/unreal-analyzer-mcp](https://github.com/ayeletstudioindia/unreal-analyzer-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
+### 131. [ayeletstudioindia/unreal-analyzer-mcp](https://github.com/ayeletstudioindia/unreal-analyzer-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Unreal Analyzer MCP Server is a robust tool designed to provide deep insights into Unreal Engine 5 codebases. It leverages advanced technologies like TypeScript, Tree-sitter, and Model Context Protocol SDK to deliver comprehensive code analysis, **
 
@@ -2115,7 +2056,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 136. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
+### 132. [augmented-nature/pubchem-mcp-server](https://github.com/augmented-nature/pubchem-mcp-server)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Augmented-Nature/PubChem-MCP-Server is a robust, modular platform designed to provide seamless access to over 110 million chemical compounds. It integrates advanced chemical informatics tools and bioassay data, supporting complex workflows in dru**
 
@@ -2131,7 +2072,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 137. [kydlikebtc/mcp-server-bn](https://github.com/kydlikebtc/mcp-server-bn)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
+### 133. [kydlikebtc/mcp-server-bn](https://github.com/kydlikebtc/mcp-server-bn)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP Server provides a comprehensive platform for developers to build, deploy, and manage advanced trading functionalities on Binance. It supports spot trading, futures trading, order management, leverage settings, and various order types. The ser**
 
@@ -2147,7 +2088,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 138. [IncodeTechnologies/incode-idv-mcp](https://github.com/IncodeTechnologies/incode-idv-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class 📍
+### 134. [IncodeTechnologies/incode-idv-mcp](https://github.com/IncodeTechnologies/incode-idv-mcp)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class 📍
 
 **The Incode IDV MCP server enables seamless integration of identity verification tools into AI assistants like Claude. It provides a robust platform for generating verification links, checking session status, retrieving scores, and managing authentica**
 
@@ -2163,7 +2104,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 139. [nicofains1/agentic-ads](https://github.com/nicofains1/agentic-ads)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗1 layers
+### 135. [nicofains1/agentic-ads](https://github.com/nicofains1/agentic-ads)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗1 layers
 
 **This project introduces an agent-based monetization layer for the MCP (Machine Learning Cloud Platform) ecosystem. By integrating Agentic Ads, developers can earn a 70% revenue share from ad clicks and impressions, transforming passive AI agents into**
 
@@ -2178,7 +2119,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 140. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `9.8` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 136. [ergodiclabs/twotruthsandatwist](https://github.com/ergodiclabs/twotruthsandatwist)  `9.8` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Two Truths and a Twist is the world's first Model Context Protocol (MCP) game, designed to engage users through AI-generated trivia rounds. The project implements a robust MCP server to facilitate real-time interaction between players and AI models, **
 
@@ -2193,7 +2134,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 141. [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 137. [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **AG-UI establishes a standardized communication layer between AI agent backends and user-facing frontend applications. It utilizes an event-driven architecture comprising approximately 16 standard event types to handle agent executions, streaming outp**
 
@@ -2209,7 +2150,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 142. [PublicAffairs/openai-gemini](https://github.com/PublicAffairs/openai-gemini)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 138. [PublicAffairs/openai-gemini](https://github.com/PublicAffairs/openai-gemini)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The repository implements a proxy layer designed to translate requests intended for the OpenAI API endpoints (like `/v1/chat/completions`) into compatible requests for the Google Gemini API. It supports various serverless deployment targets including**
 
@@ -2225,7 +2166,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 143. [GoogleCloudPlatform/cloud-run-mcp](https://github.com/GoogleCloudPlatform/cloud-run-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 139. [GoogleCloudPlatform/cloud-run-mcp](https://github.com/GoogleCloudPlatform/cloud-run-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The `cloud-run-mcp` project is a specialized MCP server that acts as a bridge, allowing AI-powered agents (like Gemini CLI extensions, IDE tools, or agent SDKs) to interact with and deploy services on Google Cloud Run. It defines a set of tools (e.g.**
 
@@ -2241,7 +2182,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 144. [macc-n/wot-mcp](https://github.com/macc-n/wot-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 140. [macc-n/wot-mcp](https://github.com/macc-n/wot-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The project implements a technical translation layer that converts the standardized Web of Things model—comprising Properties, Actions, and Events—into MCP-compliant primitives. It offers two distinct tool strategies: an 'explicit' mode that creates **
 
@@ -2257,7 +2198,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 145. [digit1024/mcp_obsidian_notes](https://github.com/digit1024/mcp_obsidian_notes)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 141. [digit1024/mcp_obsidian_notes](https://github.com/digit1024/mcp_obsidian_notes)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The project serves as an MCP Server designed specifically to provide programmatic access to an Obsidian notes vault without needing the Obsidian application to be active. It exposes a REST-like interface (implied by the tool documentation structure) **
 
@@ -2273,7 +2214,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 146. [open-webui/mcpo](https://github.com/open-webui/mcpo)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 142. [open-webui/mcpo](https://github.com/open-webui/mcpo)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The project, `open-webui/mcpo`, acts as a crucial intermediary layer to bridge the gap between tools using the Model Context Protocol (MCP), which traditionally communicates via insecure stdio, and modern applications expecting standard RESTful commu**
 
@@ -2289,7 +2230,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 147. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 143. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **CodeMode Unified provides a sophisticated execution layer for AI agents, offering dual-mode operations as either a standard MCP server or a RESTful HTTP backend. Its core innovation lies in the 'Tool Bridge' architecture, which allows code executed w**
 
@@ -2305,7 +2246,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 148. [corespeed-io/zypher-agent](https://github.com/corespeed-io/zypher-agent/pull/100)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 144. [corespeed-io/zypher-agent](https://github.com/corespeed-io/zypher-agent/pull/100)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The technical approach shifts the paradigm of tool interaction from sequential LLM-driven calls to programmatic execution. When an agent identifies a data-intensive task, it generates TypeScript code that executes within an isolated Deno WebWorker sa**
 
@@ -2321,7 +2262,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 149. [milisp/mcp-linker](https://github.com/milisp/mcp-linker)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 145. [milisp/mcp-linker](https://github.com/milisp/mcp-linker)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project serves as a central manager for MCP servers, standardizing the configuration process across diverse AI clients such as Claude Desktop/Code, Cursor, VS Code, and others. It leverages a built-in marketplace of over 600 curated MCP servers a**
 
@@ -2337,7 +2278,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 150. [williamkapke/kapture](https://github.com/williamkapke/kapture)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 146. [williamkapke/kapture](https://github.com/williamkapke/kapture)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **Kapture provides a robust three-layer architecture for agentic web interaction, consisting of an MCP Server, a Chrome DevTools extension, and a WebSocket bridge. Unlike traditional headless automation, Kapture operates within the user's active browse**
 
@@ -2353,7 +2294,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 151. [algonius/algonius-browser?tab=readme-ov-file](https://github.com/algonius/algonius-browser?tab=readme-ov-file)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 147. [algonius/algonius-browser?tab=readme-ov-file](https://github.com/algonius/algonius-browser?tab=readme-ov-file)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **Algonius Browser implements a robust three-tier architecture for AI-driven browser control: a Go-based host serving the Model Context Protocol (MCP), a Chrome extension background worker, and content scripts for DOM manipulation. By utilizing Chrome'**
 
@@ -2369,7 +2310,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 152. [Mrbaeksang/korea-stock-analyzer-mcp](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 148. [Mrbaeksang/korea-stock-analyzer-mcp](https://github.com/Mrbaeksang/korea-stock-analyzer-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The resource details a 'korea-stock-analyzer-mcp' server designed specifically to function as an external tool provider within the Claude AI ecosystem, utilizing the Model Context Protocol (MCP). It exposes several analytical capabilities (financial **
 
@@ -2385,7 +2326,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 153. [Trade-Agent/trade-agent-mcp](https://github.com/Trade-Agent/trade-agent-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 149. [Trade-Agent/trade-agent-mcp](https://github.com/Trade-Agent/trade-agent-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Trade It MCP Server acts as a standardized interface between LLMs and a wide array of financial institutions including Robinhood, Charles Schwab, and Coinbase. It abstracts specific brokerage API complexities into a unified set of MCP tools, enab**
 
@@ -2401,7 +2342,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 154. [gvaibhav/TAM-MCP-Server](https://github.com/gvaibhav/TAM-MCP-Server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 150. [gvaibhav/TAM-MCP-Server](https://github.com/gvaibhav/TAM-MCP-Server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The TAM-MCP-Server is a TypeScript/Express.js application designed to function as a specialized Model Context Protocol (MCP) server. It exposes 28 distinct tools for market analysis (TAM/SAM calculation, forecasting) and business intelligence (strate**
 
@@ -2417,7 +2358,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 155. [twelvedata/mcp](https://github.com/twelvedata/mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 151. [twelvedata/mcp](https://github.com/twelvedata/mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Twelve Data MCP Server implements the Model Context Protocol to provide LLMs with direct access to global financial markets, including stocks, forex, and cryptocurrency. Its core technical innovation is 'u-tool,' an AI-powered universal router th**
 
@@ -2433,7 +2374,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 156. [DappierAI/dappier-mcp](https://github.com/DappierAI/dappier-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 152. [DappierAI/dappier-mcp](https://github.com/DappierAI/dappier-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The Dappier MCP Server acts as a bridge, allowing AI agents built with tools supporting the Model Context Protocol (MCP) to access external, real-time data streams (web search, stock markets, specific content feeds) without needing complex, built-in **
 
@@ -2449,7 +2390,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 157. [memetus/okx-mcp-playground](https://github.com/memetus/okx-mcp-playground)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 153. [memetus/okx-mcp-playground](https://github.com/memetus/okx-mcp-playground)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The repository defines and deploys an MCP server designed to bridge the gap between an AI agent (specifically Claude Desktop) and the OKX API infrastructure. This server exposes a suite of domain-specific tools categorized into Balance Operations, Ga**
 
@@ -2465,7 +2406,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 158. [armorwallet/armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 154. [armorwallet/armor-crypto-mcp](https://github.com/armorwallet/armor-crypto-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **Armor Crypto MCP serves as a specialized bridge between Large Language Models and the decentralized finance (DeFi) ecosystem by implementing the Model Context Protocol. It abstracts complex blockchain interactions—such as Solana-based wallet manageme**
 
@@ -2481,7 +2422,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 159. [hive-intel/hive-crypto-mcp](https://github.com/hive-intel/hive-crypto-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 155. [hive-intel/hive-crypto-mcp](https://github.com/hive-intel/hive-crypto-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Hive Intelligence Crypto MCP implements a high-density tool-provider architecture designed for the Model Context Protocol. It aggregates data from 12+ major providers including CoinGecko, DefiLlama, and CCXT, normalizing 351 specialized tools acr**
 
@@ -2497,7 +2438,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 160. [kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 156. [kukapay/crypto-feargreed-mcp](https://github.com/kukapay/crypto-feargreed-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The project implements a Python-based MCP server that interfaces with the Alternative.me API to fetch cryptocurrency Fear & Greed Index data. It defines specific endpoints (e.g., `fng://current`, `fng://history/{days}`) and corresponding tool functio**
 
@@ -2513,7 +2454,7 @@ Key features include defining the state of the RRR system
 
 ---
 
-### 161. [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 157. [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **MCP Toolbox for Databases is an open source Model Context Protocol (MCP) server that connects your AI agents, IDEs, and applications directly to your enterprise databases. It serves a dual purpose: Ready-to-use MCP Server (Build-Time): Instantly conn**
 
@@ -2531,7 +2472,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 162. [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 158. [kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project's core goal is to allow MCP clients (like Claude Desktop or Cline) to explore the structure and details of large OpenAPI specifications without needing to load the entire file into an LLM's context window. It achieves this by exposing par**
 
@@ -2547,7 +2488,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 163. [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai/tree/HEAD/python/thirdweb-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 159. [thirdweb-dev/ai](https://github.com/thirdweb-dev/ai/tree/HEAD/python/thirdweb-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The thirdweb-mcp project provides a Python-based MCP server that facilitates seamless integration of thirdweb's blockchain services with various clients. It supports multiple transport options, including standard and SSE, and allows developers to con**
 
@@ -2563,7 +2504,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 164. [gongrzhe/acp-mcp-server](https://github.com/gongrzhe/acp-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 160. [gongrzhe/acp-mcp-server](https://github.com/gongrzhe/acp-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The acp-mcp-server acts as a protocol bridge, facilitating communication between Agent Communication Protocol (ACP) agents and Model Context Protocol (MCP) clients. It supports multiple transport protocols including STDIO, SSE, and Streamable HTTP, a**
 
@@ -2579,7 +2520,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 165. [gkydev/twitter-mcp-server](https://github.com/gkydev/twitter-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 161. [gkydev/twitter-mcp-server](https://github.com/gkydev/twitter-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The gkydev/twitter-mcp-server is an unofficial, open-source implementation of the Twitter MCP (Machine-to-Person) protocol. It leverages the twikit library to provide a secure, cookie-based authentication mechanism for LLM models to access Twitter da**
 
@@ -2595,7 +2536,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 166. [mashriram/azure_mcp_server](https://github.com/mashriram/azure_mcp_server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 162. [mashriram/azure_mcp_server](https://github.com/mashriram/azure_mcp_server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Azure MCP Server is a custom-built server designed to facilitate secure and automated interactions with Azure cloud services. It provides a model context protocol interface, enabling developers to create, manage, and query resources such as Blob **
 
@@ -2611,7 +2552,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 167. [weidwonder/terminal-mcp-server](https://github.com/weidwonder/terminal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 163. [weidwonder/terminal-mcp-server](https://github.com/weidwonder/terminal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Terminal MCP Server is a Model Context Protocol (MCP) server designed to facilitate the execution of system commands on both local and remote hosts. It provides a user-friendly interface for AI models and applications to interact with the underly**
 
@@ -2627,7 +2568,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 168. [hoshinonyaruko/gensokyo-mcp](https://github.com/hoshinonyaruko/gensokyo-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 164. [hoshinonyaruko/gensokyo-mcp](https://github.com/hoshinonyaruko/gensokyo-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **This project provides a Golang-based implementation of the Gensokyo MCP (Machine Control Protocol) server using OneBot v11. It allows developers to leverage existing OneBot v11 bot APIs by converting them into AI-driven tools, supporting both local a**
 
@@ -2643,7 +2584,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 169. [qinyuanpei/mcp-server-weibo](https://github.com/qinyuanpei/mcp-server-weibo)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 165. [qinyuanpei/mcp-server-weibo](https://github.com/qinyuanpei/mcp-server-weibo)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The project is an API server designed to provide real-time access to Weibo data, including user information, dynamic content, trending topics, and follower/following data. It specifically leverages the Model Context Protocol (MCP) to facilitate the i**
 
@@ -2659,7 +2600,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 170. [imlewc/elasticsearch7-mcp-server](https://github.com/imlewc/elasticsearch7-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 166. [imlewc/elasticsearch7-mcp-server](https://github.com/imlewc/elasticsearch7-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The imlewc/elasticsearch7-mcp-server project provides a MCP (Messaging Client Protocol) server that facilitates interaction with Elasticsearch 7.x. It supports essential Elasticsearch operations such as ping, info, and advanced search functionalities**
 
@@ -2675,7 +2616,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 171. [yyue9527/oracle-mcp-server](https://github.com/yyue9527/oracle-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 167. [yyue9527/oracle-mcp-server](https://github.com/yyue9527/oracle-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **This project provides a robust Model Context Protocol (MCP) server built on Spring Boot, facilitating secure and efficient Oracle database interactions through Server-Sent Events (SSE). It supports key functionalities such as table listing, table str**
 
@@ -2691,7 +2632,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 172. [ognis1205/mcp-server-unitycatalog](https://github.com/ognis1205/mcp-server-unitycatalog)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 168. [ognis1205/mcp-server-unitycatalog](https://github.com/ognis1205/mcp-server-unitycatalog)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ognis1205/mcp-server-unitycatalog project provides a Unity Catalog Model Context Protocol Server, allowing developers to integrate AI models into Unity projects via MCP (Model Context Protocol). This tool supports dynamic registration and managem**
 
@@ -2707,7 +2648,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 173. [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 169. [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Terraform MCP Server is a Model Context Protocol (MCP) server designed to enhance Infrastructure as Code (IaC) workflows by providing direct integration with Terraform Registry APIs. This allows developers to automate complex deployment processes**
 
@@ -2723,7 +2664,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 174. [mckinsey/vizro](https://github.com/mckinsey/vizro/tree/HEAD/vizro-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 170. [mckinsey/vizro](https://github.com/mckinsey/vizro/tree/HEAD/vizro-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Vizro-MCP is a Model Context Protocol (MCP) server designed to work alongside large language models (LLMs) such as Claude Desktop or VS Code. It allows users to create interactive dashboards and visualizations by leveraging the MCP protocol, which fa**
 
@@ -2739,7 +2680,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 175. [mcp2everything/mcp2serial](https://github.com/mcp2everything/mcp2serial)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 171. [mcp2everything/mcp2serial](https://github.com/mcp2everything/mcp2serial)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The core of this resource is an open-source library (`mcp2serial`) designed to bridge the gap between physical hardware and AI models. It focuses on implementing the MCP protocol, allowing natural language instructions to control hardware devices. Ke**
 
@@ -2755,7 +2696,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 176. [bmorphism/manifold-mcp-server](https://github.com/bmorphism/manifold-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 172. [bmorphism/manifold-mcp-server](https://github.com/bmorphism/manifold-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Manifold-MCP-Server acts as a bridge between the Borg platform and Manifold Markets, providing a structured API interface to enable users to create, manage, and interact with prediction markets. It supports core market operations such as market c**
 
@@ -2771,7 +2712,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 177. [ericlott/kroger-mcp](https://github.com/ericlott/kroger-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 173. [ericlott/kroger-mcp](https://github.com/ericlott/kroger-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project provides a secure, configurable MCP server that integrates with the Kroger API, allowing large language models to perform real-time grocery-related tasks such as searching products, locating stores by ZIP code, and managing shopping carts**
 
@@ -2787,7 +2728,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 178. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 174. [siddhant-k-code/memory-journal-mcp-server](https://github.com/siddhant-k-code/memory-journal-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Memory Journal MCP server is a macOS-based application designed to help users efficiently search, organize, and analyze their personal photo collections stored in Apple Photos. It leverages the uv package to manage dependencies and run the server**
 
@@ -2803,7 +2744,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 179. [paulsmith/tailscale-mcp-server](https://github.com/paulsmith/tailscale-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 175. [paulsmith/tailscale-mcp-server](https://github.com/paulsmith/tailscale-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The paulsmith/tailscale-mcp-server is a lightweight, read-only MCP server designed to provide safe, direct access to the Tailscale network from external applications. It facilitates secure interactions with Tailscale CLI tools by executing commands o**
 
@@ -2819,7 +2760,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 180. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 176. [kagisearch/kagimcp](https://github.com/kagisearch/kagimcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Kagimcp is an open-source model context protocol server designed to facilitate seamless integration between various AI and search tools. It allows developers to query and retrieve contextual information from different applications, enhancing interope**
 
@@ -2835,7 +2776,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 181. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 177. [rossja/irtoolshed-mcp-server](https://github.com/rossja/irtoolshed-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The irtoolshed-mcp-server is an open-source MCP server designed to provide network incident response professionals with a suite of tools for network analysis and security investigations. It supports various functionalities such as ASN lookups, DNS qu**
 
@@ -2851,7 +2792,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 182. [defibax/mcp_servers](https://github.com/defibax/mcp_servers)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 178. [defibax/mcp_servers](https://github.com/defibax/mcp_servers)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The DefiBax/mcp_servers project provides a customizable MCP (Media Control Protocol) server that leverages the Whisper speech recognition model from OpenAI. It allows users to record audio via the default microphone and transcribe it in real-time usi**
 
@@ -2867,7 +2808,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 183. [tzafrir/mcp-server-replicate](https://github.com/tzafrir/mcp-server-replicate)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 179. [tzafrir/mcp-server-replicate](https://github.com/tzafrir/mcp-server-replicate)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a Python-based server (mcp-server-replicate) that acts as an intermediary between local applications and Replicate's cloud-hosted AI models. It enables developers to integrate various image, text, video generation models hosted o**
 
@@ -2883,7 +2824,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 184. [ma3u/mcp-server-dust-py](https://github.com/ma3u/mcp-server-dust-py)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 180. [ma3u/mcp-server-dust-py](https://github.com/ma3u/mcp-server-dust-py)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a modular Python-based server that connects to the Dust.tt agent platform through the Multi-Cloud Provider (MCP) interface. It exposes capabilities of Dust AI agents, supports Claude Desktop integration, and implements a structur**
 
@@ -2899,7 +2840,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 185. [naru-sensei/-toast-mcp-server](https://github.com/naru-sensei/-toast-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 181. [naru-sensei/-toast-mcp-server](https://github.com/naru-sensei/-toast-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project implements a Model Context Protocol (MCP) server to process notification requests from MCP clients such as VSCode Cline. It supports Windows 10 desktop notifications via win10toast and macOS notifications via osascript, allowing developer**
 
@@ -2915,7 +2856,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 186. [webflow/mcp-server](https://github.com/webflow/mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 182. [webflow/mcp-server](https://github.com/webflow/mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This technical resource details the implementation of a Model Context Protocol (MCP) server within the Webflow Data API, enabling AI agents to interact with Webflow applications. It provides step-by-step instructions for setting up the MCP server, co**
 
@@ -2931,7 +2872,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 187. [integration-app/mcp-server](https://github.com/integration-app/mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 183. [integration-app/mcp-server](https://github.com/integration-app/mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Membrane MCP Server is a Model Context Protocol (MCP) server designed to facilitate seamless integration with various tools and services. It provides an API for developers to manage and automate workflows, ensuring efficient communication between**
 
@@ -2947,7 +2888,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 188. [delorenj/super-win-cli-mcp-server](https://github.com/delorenj/super-win-cli-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 184. [delorenj/super-win-cli-mcp-server](https://github.com/delorenj/super-win-cli-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project presents a Windows CLI MCP server that overcomes traditional security limitations by granting full system access. It enables unrestricted command execution, network-level access controls, and SYSTEM service installation, making it suitabl**
 
@@ -2963,7 +2904,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 189. [anuragrai017/database-updater-mcp-server](https://github.com/anuragrai017/database-updater-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 185. [anuragrai017/database-updater-mcp-server](https://github.com/anuragrai017/database-updater-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The database updater MCP server is designed to streamline the process of updating databases by reading data from CSV or Excel files and applying changes to various database systems such as PostgreSQL, MySQL, MongoDB, and SQLite. It offers a user-frie**
 
@@ -2979,7 +2920,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 190. [matmax-worldwide/payloadcmsmcp](https://github.com/matmax-worldwide/payloadcmsmcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 186. [matmax-worldwide/payloadcmsmcp](https://github.com/matmax-worldwide/payloadcmsmcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The Payload CMS 3.0 MCP Server exposes a set of MCP tools that allow AI-powered development environments (e.g., Cursor) to validate Payload CMS code, generate templates for collections, fields, hooks, endpoints, and more, and scaffold full project st**
 
@@ -2995,7 +2936,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 191. [hedera-dev/hts-mcp-server](https://github.com/hedera-dev/hts-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 187. [hedera-dev/hts-mcp-server](https://github.com/hedera-dev/hts-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **The hedera-mcp-server is a Node.js-based application designed to simulate and demonstrate the functionality of the Hedera blockchain's MCP (Message Content Protection) protocol. It provides tools for creating wallets, checking balances, building tran**
 
@@ -3011,7 +2952,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 192. [gitcarrot/mcp-server-aws-cognito](https://github.com/gitcarrot/mcp-server-aws-cognito)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 188. [gitcarrot/mcp-server-aws-cognito](https://github.com/gitcarrot/mcp-server-aws-cognito)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The gitCarrot/mcp-server-aws-cognito project provides a Node.js-based MCP server that integrates with AWS Cognito to handle user authentication flows such as sign-up, sign-in, password management, and more. It supports enterprise-grade security featu**
 
@@ -3027,7 +2968,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 193. [oleander/home-assistant-mcp-server](https://github.com/oleander/home-assistant-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 189. [oleander/home-assistant-mcp-server](https://github.com/oleander/home-assistant-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a server-based solution for integrating natural language processing models (LLMs) with Home Assistant, allowing users to query and control smart home entities via voice or text. It supports secure authentication using long-lived **
 
@@ -3043,7 +2984,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 194. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 190. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The huoshui-file-converter is an agent or orchestration tool designed to facilitate secure and efficient file format conversions using the Model Context Protocol (MCP). It supports conversion between multiple formats such as Markdown, DOCX, HTML, PDF**
 
@@ -3059,7 +3000,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 195. [hostinger/api-mcp-server](https://github.com/hostinger/api-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 191. [hostinger/api-mcp-server](https://github.com/hostinger/api-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The hostinger/api-mcp-server is a Node.js-based server that implements the Model Context Protocol (MCP) to enable secure, standardized communication between clients and Hostinger's API. It provides tools for deploying WordPress websites, hosting Java**
 
@@ -3075,7 +3016,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 196. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
+### 192. [cicatriiz/healthcare-mcp-public](https://github.com/cicatriiz/healthcare-mcp-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Healthcare MCP Server is a Node.js implementation that adheres to the Model Context Protocol (MCP) to securely connect AI models with real-time, authoritative healthcare information. It integrates multiple data sources including FDA drug database**
 
@@ -3091,7 +3032,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 197. [philosolares/roam-mcp](https://github.com/philosolares/roam-mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
+### 193. [philosolares/roam-mcp](https://github.com/philosolares/roam-mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
 
 **The PhiloSolares/roam-mcp project provides a Model Context Protocol (MCP) server that acts as an intermediary between Claude and other AI assistants, allowing them to interact with your Roam Research graph without requiring custom code. This facilita**
 
@@ -3107,7 +3048,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 198. [binalyze/air-mcp](https://github.com/binalyze/air-mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
+### 194. [binalyze/air-mcp](https://github.com/binalyze/air-mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Binalyze Air MCP Server is a Node.js-based platform that implements the Model Context Protocol (MCP) to allow users to interact with AIR's forensic tools using natural language queries. It supports asset management, task automation, policy enforc**
 
@@ -3123,7 +3064,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 199. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
+### 195. [ia-programming/mcp-images](https://github.com/ia-programming/mcp-images)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
 
 **The MCP Server-Image provides enterprise-grade image handling capabilities with minimal code, supporting tasks such as fetching images from URLs or local file paths, processing them, and returning base64-encoded results. It is designed to be integrat**
 
@@ -3139,7 +3080,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 200. [withlinda/puppeteer-real-browser-mcp-server](https://github.com/withlinda/puppeteer-real-browser-mcp-server)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
+### 196. [withlinda/puppeteer-real-browser-mcp-server](https://github.com/withlinda/puppeteer-real-browser-mcp-server)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Puppeteer Real Browser MCP Server is a model context protocol (MCP) server that allows AI assistants such as Claude to control a real web browser. It leverages Puppeteer's capabilities to perform advanced automation tasks including browser naviga**
 
@@ -3155,7 +3096,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 201. [waystation-ai/mcp](https://github.com/waystation-ai/mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
+### 197. [waystation-ai/mcp](https://github.com/waystation-ai/mcp)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
 
 **The WayStation MCP server acts as a universal remote MCP server that connects various productivity platforms such as Notion, Monday, Airtable, Slack, Teams, and more. It supports seamless integration through a secure, no-code interface, allowing user**
 
@@ -3171,7 +3112,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 202. [isakskogstad/OECD-MCP-server](https://github.com/isakskogstad/OECD-MCP-server)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
+### 198. [isakskogstad/OECD-MCP-server](https://github.com/isakskogstad/OECD-MCP-server)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class 📍
 
 **This project integrates an LLM/chatbot with the OECD MCP server, providing users with a powerful tool for accessing and analyzing over 5,000 economic datasets from 38 OECD countries. The system supports various client interfaces, including web-based **
 
@@ -3187,7 +3128,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 203. [philliprt/think-mcp-server](https://github.com/philliprt/think-mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 199. [philliprt/think-mcp-server](https://github.com/philliprt/think-mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Think Tool is an MCP server designed to integrate Anthropic's 'think' tool, providing Claude with a dedicated space for structured reasoning. This enhances performance on complex tasks by allowing Claude to pause and reflect before responding, im**
 
@@ -3202,7 +3143,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 204. [ujisati/anki-mcp](https://github.com/ujisati/anki-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 200. [ujisati/anki-mcp](https://github.com/ujisati/anki-mcp)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ujisati/anki-mcp project provides a GitHub-hosted MCP (Model Context Protocol) server that integrates with AnkiConnect, allowing developers to automate and orchestrate Anki flashcard interactions programmatically. It supports various MCP tools su**
 
@@ -3217,7 +3158,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 205. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 201. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The wazionapps/mcp-server project enables integration of AI-powered chatbots with WhatsApp using the WAzion API. It provides a suite of tools for automating customer interactions, managing workflows, and enhancing marketing campaigns through intellig**
 
@@ -3232,7 +3173,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 206. [AnalyticAce/BinanceMCPServer](https://github.com/AnalyticAce/BinanceMCPServer)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
+### 202. [AnalyticAce/BinanceMCPServer](https://github.com/AnalyticAce/BinanceMCPServer)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
 
 **The Binance MCP Server acts as a specific implementation of the Model Context Protocol (MCP) designed to bridge AI agents (like those in VSCode/Claude) with the Binance cryptocurrency exchange infrastructure. It translates high-level AI commands into**
 
@@ -3247,7 +3188,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 207. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 203. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The mcp-server-cloudflare project provides a cloud-hosted MCP server that enables developers to monitor, inspect, and manage AI Gateway logs using Cloudflare's AI Gateway API. It supports advanced features such as log retrieval, error analysis, and r**
 
@@ -3263,7 +3204,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 208. [lox/tmux-mcp-server](https://github.com/lox/tmux-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 204. [lox/tmux-mcp-server](https://github.com/lox/tmux-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The lox/tmux-mcp-server is an MCP (Multi-Process Control Panel) server designed to facilitate seamless interaction between AI agents and terminal-based environments using tmux. It provides tools for managing tmux sessions, such as starting new sessio**
 
@@ -3278,7 +3219,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 209. [hritik003/linkedin-mcp](https://github.com/hritik003/linkedin-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 205. [hritik003/linkedin-mcp](https://github.com/hritik003/linkedin-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Hritik003/linkedin-mcp project provides a dedicated MCP (Machine Contract Programming) server that enables seamless integration with LinkedIn, allowing users to apply for jobs directly through the platform. It leverages the Unoffical LinkedIn API**
 
@@ -3293,7 +3234,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 210. [hmk/attio-mcp-server](https://github.com/hmk/attio-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 206. [hmk/attio-mcp-server](https://github.com/hmk/attio-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The hmk/attio-mcp-server is an MCP (Model Context Protocol) server designed to facilitate seamless integration between AI models like Claude and Attio's CRM system. It enables developers to manage and automate workflows, handle code reviews, and ensu**
 
@@ -3308,7 +3249,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 211. [thetabird/mcp-server-axiom-js](https://github.com/thetabird/mcp-server-axiom-js)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 207. [thetabird/mcp-server-axiom-js](https://github.com/thetabird/mcp-server-axiom-js)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The ThetaBird/mcp-server-axiom-js project provides a npm module that allows developers to integrate Axiom MCP server functionality into their Node.js applications. It supports secure communication with the Axiom API, enabling AI agents to perform com**
 
@@ -3323,7 +3264,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 212. [kakimochi/ros2-mcp-server](https://github.com/kakimochi/ros2-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 208. [kakimochi/ros2-mcp-server](https://github.com/kakimochi/ros2-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The kakimochi/ros2-mcp-server project provides a Python-based ROS 2 node that integrates the Model Context Protocol (MCP) with ROS 2, allowing AI assistants like Claude to send commands such as movement instructions. It leverages FastMCP for handling**
 
@@ -3338,7 +3279,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 213. [stopwarbywar/beeper-mcp-server](https://github.com/stopwarbywar/beeper-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 209. [stopwarbywar/beeper-mcp-server](https://github.com/stopwarbywar/beeper-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The beeper-mcp-server is a Python-based application designed to facilitate interaction with blockchain components, specifically focusing on chain management. It provides a simple note storage system using a custom URI scheme, allowing users to create**
 
@@ -3353,7 +3294,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 214. [tulong66/mcp-tavily-proxy](https://github.com/tulong66/mcp-tavily-proxy)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 210. [tulong66/mcp-tavily-proxy](https://github.com/tulong66/mcp-tavily-proxy)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The mcp-tavily-proxy project extends the original Tavily MCP Server to support proxy configurations, allowing advanced users to perform sophisticated web searches through various proxy environments. This enhancement integrates Tavily's search API wit**
 
@@ -3368,7 +3309,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 215. [edenyavin/osv-mcp](https://github.com/edenyavin/osv-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 211. [edenyavin/osv-mcp](https://github.com/edenyavin/osv-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The OSV-MCP project implements a dedicated MCP (Model Context Protocol) server to manage interactions with the OSV database. This solution is designed to provide a secure, scalable, and efficient environment for executing model operations, integratin**
 
@@ -3383,7 +3324,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 216. [reminia/zendesk-mcp-server](https://github.com/reminia/zendesk-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗5 layers
+### 212. [reminia/zendesk-mcp-server](https://github.com/reminia/zendesk-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗5 layers
 
 **The reminia/zendesk-mcp-server is a Dockerized Model Context Protocol (MCP) server designed to integrate seamlessly with Zendesk. It provides tools for retrieving, managing, and analyzing Zendesk tickets and comments, offering specialized prompts for**
 
@@ -3398,7 +3339,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 217. [vivekvells/mcp-pandoc](https://github.com/vivekvells/mcp-pandoc)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 213. [vivekvells/mcp-pandoc](https://github.com/vivekvells/mcp-pandoc)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP (Model Context Protocol) server is an open-source project aimed at providing tools for bidirectional conversion between various document formats using the Pandoc Python package. It supports a range of input and output formats including markdo**
 
@@ -3413,7 +3354,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 218. [mathd/govee_mcp_server](https://github.com/mathd/govee_mcp_server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 214. [mathd/govee_mcp_server](https://github.com/mathd/govee_mcp_server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The mathd/govee_mcp_server project provides a Python-based MCP server application that enables developers to programmatically control Govee LED devices using the Model Context Protocol. It offers both command-line and CLI interfaces, supports environ**
 
@@ -3428,7 +3369,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 219. [gitmaxd/dubco-mcp-server-npm](https://github.com/gitmaxd/dubco-mcp-server-npm)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 215. [gitmaxd/dubco-mcp-server-npm](https://github.com/gitmaxd/dubco-mcp-server-npm)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The dubco-mcp-server-npm is an unofficial Node.js-based tool that allows integration with AI assistants through the Model Context Protocol (MCP). It provides three core tools: create_link for generating new short URLs, update_link for modifying exist**
 
@@ -3443,7 +3384,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 220. [gmkr/mcp-imagegen](https://github.com/gmkr/mcp-imagegen)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 216. [gmkr/mcp-imagegen](https://github.com/gmkr/mcp-imagegen)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Image Generator is a software solution designed to leverage Together AI's image generation models, enabling users to create images from text prompts. It supports integration with MCP clients via API keys and provides a Dockerized environment **
 
@@ -3458,7 +3399,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 221. [cdugo/package-documentation-mcp](https://github.com/cdugo/package-documentation-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 217. [cdugo/package-documentation-mcp](https://github.com/cdugo/package-documentation-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The cdugo/package-documentation-mcp project provides a CLI tool to retrieve comprehensive documentation for software packages across multiple programming languages. It supports JavaScript, Python, Java, .NET, Ruby, PHP, Rust, Go, and Swift, enabling **
 
@@ -3473,7 +3414,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 222. [genm/switchbot-mcp](https://github.com/genm/switchbot-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 218. [genm/switchbot-mcp](https://github.com/genm/switchbot-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The genm/switchbot-mcp project provides a software solution that integrates with AI assistants to control various smart home devices such as lights, thermostats, and security systems. It leverages Bluetooth Low Energy (BLE) for device connectivity an**
 
@@ -3488,7 +3429,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 223. [amgadabdelhafez/dbx-mcp-server](https://github.com/amgadabdelhafez/dbx-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
+### 219. [amgadabdelhafez/dbx-mcp-server](https://github.com/amgadabdelhafez/dbx-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
 
 **The dbx-mcp-server is a modular, open-source MCP server designed to facilitate seamless integration with Dropbox. It provides a set of tools and APIs that allow Dropbox-compatible applications to interact with Dropbox services securely and efficientl**
 
@@ -3503,7 +3444,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 224. [rinadelph/domain-mcp](https://github.com/rinadelph/domain-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
+### 220. [rinadelph/domain-mcp](https://github.com/rinadelph/domain-mcp)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent 📍
 
 **The rinadelph/domain-mcp project provides a free, open-source MCP (Machine-to-Machine) server designed for domain research. It allows AI tools like Claude Desktop to interact with public APIs such as RDAP for WHOIS data, Cloudflare DNS over HTTPS for**
 
@@ -3518,7 +3459,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 225. [phialsbasement/nmap-mcp-server](https://github.com/phialsbasement/nmap-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 221. [phialsbasement/nmap-mcp-server](https://github.com/phialsbasement/nmap-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The PhialsBasement/nmap-mcp-server project provides a Model Context Protocol (MCP) server that allows AI tools, such as Claude Desktop, to interact with NMAP for automated network scanning and security assessments. It simplifies the integration of AI**
 
@@ -3533,7 +3474,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 226. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
+### 222. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The folderr-mcp-server is a model context protocol (MCP) server designed to facilitate seamless integration between developers and Folderr's AI assistant tools. It provides a structured interface for managing authentication, interacting with Folderr **
 
@@ -3548,7 +3489,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 227. [happyany/latex-mathml-mcp-server](https://github.com/happyany/latex-mathml-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 223. [happyany/latex-mathml-mcp-server](https://github.com/happyany/latex-mathml-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The HappyAny/latex-mathml-mcp-server project provides a lightweight Node.js-based solution for converting LaTeX math expressions into MathML format via the Model Context Protocol (MCP). It enables seamless integration with MCP clients, supporting bot**
 
@@ -3563,7 +3504,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 228. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
+### 224. [nikolausm/huggingface-mcp-server](https://github.com/nikolausm/huggingface-mcp-server)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The nikolausm/huggingface-mcp-server project provides a robust MCP (Model Context Protocol) server that facilitates seamless access to Hugging Face's AI models, such as Stable Diffusion. It supports various use cases including code generation, image **
 
@@ -3578,7 +3519,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 229. [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 225. [gomarble-ai/facebook-ads-mcp-server](https://github.com/gomarble-ai/facebook-ads-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **This project provides a Python-based MCP server that acts as an interface to Meta Ads, allowing developers to programmatically access and manage Meta Ads data. It includes tools for interacting with ad accounts, campaigns, ad sets, and performance in**
 
@@ -3594,7 +3535,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 230. [oborchers/mcp-server-docy](https://github.com/oborchers/mcp-server-docy)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers
+### 226. [oborchers/mcp-server-docy](https://github.com/oborchers/mcp-server-docy)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers
 
 **The MCP Server Docy acts as a centralized documentation access point, allowing AI models to scrape and index content from various documentation websites. It integrates seamlessly with Claude and other MCP-enabled tools, providing hot-reload support, **
 
@@ -3610,7 +3551,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 231. [lazy-dinosaur/ccxt-mcp](https://github.com/lazy-dinosaur/ccxt-mcp)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class 📍
+### 227. [lazy-dinosaur/ccxt-mcp](https://github.com/lazy-dinosaur/ccxt-mcp)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class 📍
 
 **The CCXT MCP Server acts as a bridge between AI assistants and over 100 crypto exchanges, allowing direct interaction through standardized protocols. It supports advanced features like market data retrieval, order management, risk controls, and perfo**
 
@@ -3626,7 +3567,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 232. [henryhaoson/yuque-mcp-server](https://github.com/henryhaoson/yuque-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
+### 228. [henryhaoson/yuque-mcp-server](https://github.com/henryhaoson/yuque-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Yuque-MCP Server acts as a secure, API-driven backend for integrating AI models with the Yuque knowledge management system. It provides comprehensive tools for managing users, documents, repositories, and analytics, while supporting advanced feat**
 
@@ -3642,7 +3583,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 233. [terryso/tv-recommender-mcp-server](https://github.com/terryso/tv-recommender-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers
+### 229. [terryso/tv-recommender-mcp-server](https://github.com/terryso/tv-recommender-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗1 layers
 
 **This project aims to bridge the gap between large language models (LLMs) and real-time, user-specific entertainment recommendations. By integrating MCP with TMDb API, the system enables LLMs to understand context, generate natural language responses,**
 
@@ -3658,7 +3599,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 234. [postmanlabs/postman-mcp-server](https://github.com/postmanlabs/postman-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
+### 230. [postmanlabs/postman-mcp-server](https://github.com/postmanlabs/postman-mcp-server)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗2 layers
 
 **The Postman MCP Server enables seamless integration of AI agents with Postman's API testing, collections, environments, and code generation features. It supports advanced use cases such as remote server access, OAuth authentication, and workflow auto**
 
@@ -3674,7 +3615,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 235. [jacksteamdev/obsidian-mcp-tools](https://github.com/jacksteamdev/obsidian-mcp-tools)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 231. [jacksteamdev/obsidian-mcp-tools](https://github.com/jacksteamdev/obsidian-mcp-tools)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The MCP Tools for Obsidian plugin allows Claude Desktop to securely access and interact with Obsidian vaults, enabling AI assistants to read notes, execute templates, and perform semantic searches while maintaining strict security controls. It establ**
 
@@ -3689,7 +3630,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 236. [gluneau/hive-mcp-server](https://github.com/gluneau/hive-mcp-server)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent 📍
+### 232. [gluneau/hive-mcp-server](https://github.com/gluneau/hive-mcp-server)  `9.8` ★★☆ ⚡93.0 Q0.9⭐ Excellent 📍
 
 **The Borg project provides a robust platform for integrating AI assistants with the Hive blockchain, allowing seamless data exchange, content management, and secure transactions. It supports key functionalities such as account information retrieval, p**
 
@@ -3704,7 +3645,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 237. [rafliruslan/ticktick-mcp-server](https://github.com/rafliruslan/ticktick-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 233. [rafliruslan/ticktick-mcp-server](https://github.com/rafliruslan/ticktick-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The TickTick MCP Server acts as an API gateway, facilitating secure and efficient communication between TickTick's task management service and external systems. It supports OAuth authentication, integrates with various development environments, and p**
 
@@ -3720,7 +3661,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 238. [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent 📍
+### 234. [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent 📍
 
 **The project introduces a Model Context Protocol (MCP) server designed to facilitate seamless integration between the Borg platform and Twitter. This tool allows automated data extraction, sentiment analysis, and contextual understanding from Twitter **
 
@@ -3735,7 +3676,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 239. [cpbrad31/mcp_ga_511](https://github.com/cpbrad31/mcp_ga_511)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 235. [cpbrad31/mcp_ga_511](https://github.com/cpbrad31/mcp_ga_511)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The cpbrad31/mcp_ga_511 project provides a Model Context Protocol (MCP) server that facilitates integration with the Georgia 511 traffic data API. This allows MCP clients, such as Claude Desktop, to access real-time traffic information including came**
 
@@ -3751,7 +3692,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 240. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
+### 236. [dandeliongold/mcp-decent-sampler-drums](https://github.com/dandeliongold/mcp-decent-sampler-drums)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The dandeliongold/mcp-decent-sampler-drums project provides a TypeScript-based MCP server designed to simplify the creation of drum kit presets. It offers tools for analyzing WAV files, validating samples, and generating XML configurations for Decent**
 
@@ -3767,7 +3708,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 241. [tanevanwifferen/usescraper-mcp-server](https://github.com/tanevanwifferen/usescraper-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
+### 237. [tanevanwifferen/usescraper-mcp-server](https://github.com/tanevanwifferen/usescraper-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Usescraper-mcp-server is a lightweight, TypeScript-powered MCP (Machine Control Protocol) server designed to facilitate automated web scraping. It provides a RESTful interface for developers to extract content from web pages in various formats su**
 
@@ -3782,7 +3723,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 242. [kablewy/fred-mcp-server](https://github.com/kablewy/fred-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 238. [kablewy/fred-mcp-server](https://github.com/kablewy/fred-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The kablewy/fred-mcp-server is a Node.js application that implements the Model Context Protocol (MCP) to enable developers and analysts to search and retrieve economic data series from the Federal Reserve Economic Data (FRED) API. It provides tools f**
 
@@ -3797,7 +3738,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 243. [sach999/git-spice-help-mcp](https://github.com/sach999/git-spice-help-mcp)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 239. [sach999/git-spice-help-mcp](https://github.com/sach999/git-spice-help-mcp)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project offers a MCP server implementation that enables real-time, efficient searching of git-spice documentation directly from the Cursor IDE. It supports seamless integration with Node.js and Cursor, allowing developers to access detailed docu**
 
@@ -3812,7 +3753,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 244. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
+### 240. [omedia/mcp-server-drupal](https://github.com/omedia/mcp-server-drupal)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Omedia/mcp-server-drupal project provides a TypeScript-based companion Model Context Protocol (MCP) server designed to work seamlessly with the Drupal MCP module. It leverages the STDIO transport for efficient data streaming, supporting both auth**
 
@@ -3828,7 +3769,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 245. [adrian-dotco/harvest-mcp-server](https://github.com/adrian-dotco/harvest-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 241. [adrian-dotco/harvest-mcp-server](https://github.com/adrian-dotco/harvest-mcp-server)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Harvest MCP Server allows users to log work hours using conversational natural language inputs, intelligently parsing and interpreting phrases like 'I'm off sick today' or 'Take annual leave next week'. It supports configurable workday hours, tim**
 
@@ -3844,7 +3785,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 246. [isakskogstad/kolada-mcp](https://github.com/isakskogstad/kolada-mcp)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 242. [isakskogstad/kolada-mcp](https://github.com/isakskogstad/kolada-mcp)  `9.8` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **The Kolada MCP server acts as a bridge between large language models (LLMs) and official Swedish municipal and regional statistics. It enables seamless integration with external data sources, allowing AI applications to access comprehensive KPIs acro**
 
@@ -3859,7 +3800,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 247. [1xn-labs/1xn-vmcp](https://github.com/1xn-labs/1xn-vmcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 243. [1xn-labs/1xn-vmcp](https://github.com/1xn-labs/1xn-vmcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Virtual Model Context Protocol (vMCP) is an AI configuration and management platform built on top of the Model Context Protocol. It solves the 'Configuration Hell' problem by providing a layer of abstraction for managing MCP configurations across**
 
@@ -3875,7 +3816,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 248. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 244. [idea-research/dino-x-mcp](https://github.com/idea-research/dino-x-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The DINO-X Model Context Protocol (MCP) server enhances large language models by integrating image object detection, localization, and captioning APIs. It enables multimodal AI systems to understand and interact with visual data, supporting tasks suc**
 
@@ -3891,7 +3832,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 249. [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 245. [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a Python-based server that facilitates browser automation using the MCP (Machine Control Protocol) protocol, allowing AI agents to manage and execute browser tasks. It integrates with Playwright for browser automation, supports m**
 
@@ -3907,7 +3848,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 250. [charles-adedotun/lilith-shell](https://github.com/charles-adedotun/lilith-shell)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 246. [charles-adedotun/lilith-shell](https://github.com/charles-adedotun/lilith-shell)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Lilith-Shell project provides a Model Context Protocol (MCP) server that allows AI agents to run shell commands in a secure, controlled environment. It integrates with Claude Desktop to enable safe execution of terminal operations, including comm**
 
@@ -3923,7 +3864,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 251. [andybrandt/mcp-simple-openai-assistant](https://github.com/andybrandt/mcp-simple-openai-assistant)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 247. [andybrandt/mcp-simple-openai-assistant](https://github.com/andybrandt/mcp-simple-openai-assistant)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP Simple OpenAI Assistant is a lightweight, open-source server designed to bridge Claude Desktop with OpenAI's GPT models. It allows developers and users to create, manage, and interact with custom AI assistants in real-time, leveraging streami**
 
@@ -3939,7 +3880,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 252. [tylerstoltz/mcp-odbc](https://github.com/tylerstoltz/mcp-odbc)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 248. [tylerstoltz/mcp-odbc](https://github.com/tylerstoltz/mcp-odbc)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP server acts as a secure intermediary, allowing AI-powered applications such as Claude Desktop to connect to and analyze data from various ODBC-compatible databases. It provides robust security features, including read-only safeguards, detaile**
 
@@ -3955,7 +3896,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 253. [jzinno/biomart-mcp](https://github.com/jzinno/biomart-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 249. [jzinno/biomart-mcp](https://github.com/jzinno/biomart-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project implements a Python-based MCP (Model Context Provisioning) server to facilitate secure and efficient access to Biomart's biological data. It leverages the pybiomart package to integrate with Biomart's APIs, supporting tasks such as data r**
 
@@ -3971,7 +3912,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 254. [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 250. [lpigeon/ros-mcp-server](https://github.com/lpigeon/ros-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **The robotmcp/ros-mcp-server project enables the integration of advanced AI models such as Claude, GPT, and Gemini with robotic systems via ROS (Robot Operating System). It allows bidirectional communication between LLMs and robots, facilitating real-**
 
@@ -3987,7 +3928,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 255. [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 251. [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The haris-musa/excel-mcp-server is an open-source, AI-powered platform that allows users to create, read, update, and manage Excel workbooks using a model context protocol. It supports advanced data validation, formatting, chart generation, pivot tab**
 
@@ -4003,7 +3944,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 256. [bitrefill/bitrefill-mcp-server](https://github.com/bitrefill/bitrefill-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 252. [bitrefill/bitrefill-mcp-server](https://github.com/bitrefill/bitrefill-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The bitrefill-mcp-server project provides a local implementation of the Bitrefill public API using the Model Context Protocol (MCP) for secure, authenticated access. It allows AI agents, such as those built with ChatGPT or Claude Desktop, to interact**
 
@@ -4019,7 +3960,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 257. [jkawamoto/mcp-bear](https://github.com/jkawamoto/mcp-bear)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 253. [jkawamoto/mcp-bear](https://github.com/jkawamoto/mcp-bear)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The jkawamoto/mcp-bear project provides a GitHub-hosted MCP server that allows developers to programmatically interact with Bear, a popular note-taking application. This tool facilitates integration by supporting actions such as opening notes, adding**
 
@@ -4035,7 +3976,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 258. [jackkuo666/pubmed-mcp-server](https://github.com/jackkuo666/pubmed-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
+### 254. [jackkuo666/pubmed-mcp-server](https://github.com/jackkuo666/pubmed-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The PubMed MCP Server acts as a bridge between AI models and PubMed's biomedical literature database using the Model Context Protocol (MCP). It allows seamless integration of AI-powered research tools into existing workflows, supporting tasks such as**
 
@@ -4051,7 +3992,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 259. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 255. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The awsome_kali_MCPServers project provides a set of MCP (Model Context Protocol) servers specifically designed for Kali Linux environments. These servers are equipped with powerful tools such as Nmap, nm, objdump, strings, and tshark to facilitate r**
 
@@ -4067,7 +4008,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 260. [zhangzhongnan928/mcp-pa-ai-agent](https://github.com/zhangzhongnan928/mcp-pa-ai-agent)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 256. [zhangzhongnan928/mcp-pa-ai-agent](https://github.com/zhangzhongnan928/mcp-pa-ai-agent)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The mcp-pa-ai-agent is a Model Context Protocol (MCP) server designed to act as a versatile personal assistant AI. It supports integration with MCP clients like Claude for Desktop, enabling advanced functionalities such as calendar management, task t**
 
@@ -4083,7 +4024,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 261. [iflytek/ifly-workflow-mcp-server](https://github.com/iflytek/ifly-workflow-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 257. [iflytek/ifly-workflow-mcp-server](https://github.com/iflytek/ifly-workflow-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a streamlined approach to integrating iFlytek workflows with MCP (Model Context Protocol) servers, enabling automated and intelligent workflow execution. It supports various node types, execution modes, and advanced orchestration**
 
@@ -4099,7 +4040,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 262. [rijkvanzanten/directus-mcp-server](https://github.com/rijkvanzanten/directus-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 258. [rijkvanzanten/directus-mcp-server](https://github.com/rijkvanzanten/directus-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **The rijkvanzanten/directus-mcp-server is an experimental MCP server designed to facilitate integration between AI platforms and Directus, a headless CMS. It allows developers to securely connect their AI applications to Directus APIs using the Model **
 
@@ -4115,7 +4056,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 263. [monteslu/vibe-eyes](https://github.com/monteslu/vibe-eyes)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 259. [monteslu/vibe-eyes](https://github.com/monteslu/vibe-eyes)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Vibe-Eyes is a client-server architecture that allows AI models to access live visual and debug data from web applications through vectorized canvas representations. It captures game state, logs, and exceptions via WebSockets, processes them into com**
 
@@ -4131,7 +4072,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 264. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 260. [yamanoku/baseline-mcp-server](https://github.com/yamanoku/baseline-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The yamanoku/baseline-mcp-server is a GitHub-hosted service that exposes the current support status (Baseline) for various Web Platform Dashboard API functionalities. It enables developers to check which features are widely, newly, limited, or not av**
 
@@ -4147,7 +4088,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 265. [novitalabs/novita-mcp-server](https://github.com/novitalabs/novita-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 261. [novitalabs/novita-mcp-server](https://github.com/novitalabs/novita-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The novita-mcp-server is a beta MCP server designed to manage and orchestrate GPU instances within the Novita AI ecosystem. It allows developers to programmatically control clusters, products, GPU instances, and container registries using tools like **
 
@@ -4163,7 +4104,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 266. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 262. [alxspiker/windows-command-line-mcp-server](https://github.com/alxspiker/windows-command-line-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Windows Command Line MCP Server acts as a controlled bridge between AI models (like Claude) and Windows system operations. It provides enhanced security through comprehensive command allowlists, strict input validation, and configurable security **
 
@@ -4179,7 +4120,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 267. [robertoamoreno/couchdb-mcp-server](https://github.com/robertoamoreno/couchdb-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 263. [robertoamoreno/couchdb-mcp-server](https://github.com/robertoamoreno/couchdb-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Borg Project's 'couchdb-mcp-server' is a developer-focused platform that provides tools for managing CouchDB databases and documents. It supports AI integration, offering features such as database creation, document manipulation, index management**
 
@@ -4195,7 +4136,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 268. [t3ta/sql-mcp-server](https://github.com/t3ta/sql-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 264. [t3ta/sql-mcp-server](https://github.com/t3ta/sql-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a robust, secure TypeScript-based MCP (Model Context Protocol) server that allows AI models and other MCP-compatible clients to interact with PostgreSQL databases. It supports secure database access through SSH bastion tunnels, **
 
@@ -4211,7 +4152,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 269. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
+### 265. [liuscraft/superset-mcp-server](https://github.com/liuscraft/superset-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
 
 **This project provides a context-aware, API-driven MCP server built on Apache Superset REST API, designed to enhance data query capabilities through large models. It supports secure authentication via LDAP, integrates with Node.js, and offers enterpri**
 
@@ -4227,7 +4168,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 270. [kajdep/mcp-fixer](https://github.com/kajdep/mcp-fixer)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 266. [kajdep/mcp-fixer](https://github.com/kajdep/mcp-fixer)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **Kajdep's mcp-fixer is a powerful diagnostic and fixer designed specifically for Model Context Protocol (MCP) servers running on Claude Desktop. It automates the detection of configuration issues, network conflicts, missing dependencies, and syntax er**
 
@@ -4243,7 +4184,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 271. [landicefu/mcp-client-configuration-server](https://github.com/landicefu/mcp-client-configuration-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 267. [landicefu/mcp-client-configuration-server](https://github.com/landicefu/mcp-client-configuration-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP Client Configuration Server is an open-source server application designed to centralize and manage configuration settings for various MCP clients. It enables seamless integration, retrieval, and modification of configuration files across diff**
 
@@ -4259,7 +4200,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 272. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 268. [yajihum/design-system-mcp](https://github.com/yajihum/design-system-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a Model Context Protocol (MCP) server that enables developers to access component properties and design tokens via the getComponentProps and getTokens functions. It supports token generation using Style Dictionary, allowing dynam**
 
@@ -4275,7 +4216,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 273. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 269. [gbcui/horoscope-serve](https://github.com/gbcui/horoscope-serve)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The GBcui/horoscope-serve project offers a web-based MCP server that integrates with an external API to deliver detailed fortune readings for each of the 12 zodiac signs. It supports multiple time ranges and includes features such as error handling, **
 
@@ -4291,7 +4232,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 274. [pashaydev/terminal.shop.mcp](https://github.com/pashaydev/terminal.shop.mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
+### 270. [pashaydev/terminal.shop.mcp](https://github.com/pashaydev/terminal.shop.mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent 📍
 
 **The Borg project provides a mcp server that acts as an intermediary between AI assistants and Terminal.shop's API. It supports key functionalities such as browsing products, managing shopping carts, placing orders, handling subscriptions, and updatin**
 
@@ -4307,7 +4248,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 275. [peancor/moodle-mcp-server](https://github.com/peancor/moodle-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
+### 271. [peancor/moodle-mcp-server](https://github.com/peancor/moodle-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The peancor/moodle-mcp-server project provides a Node.js-based MCP (Model Context Protocol) server that allows large language models (LLMs) to seamlessly integrate with Moodle platforms. It supports core functionalities such as course management, stu**
 
@@ -4323,7 +4264,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 276. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
+### 272. [r-huijts/strava-mcp](https://github.com/r-huijts/strava-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗4 layers
 
 **This project integrates the Strava MCP server with Claude Desktop to enable users to interact with their Strava activity data through natural language queries. By establishing a secure connection, users can request detailed insights such as distance **
 
@@ -4339,7 +4280,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 277. [callmybot/cookbook-mcp-server](https://github.com/callmybot/cookbook-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 273. [callmybot/cookbook-mcp-server](https://github.com/callmybot/cookbook-mcp-server)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a robust, containerized implementation of the MCP (Microsoft Cloud Platform) server using TypeScript and Docker. It leverages the official MCP SDK and Express framework to deliver a scalable, secure, and maintainable HTTP server**
 
@@ -4355,7 +4296,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 278. [ashdevfr/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 274. [ashdevfr/discourse-mcp-server](https://github.com/ashdevfr/discourse-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The AshDevFr/discourse-mcp-server project provides a Node.js implementation of the MCP protocol, allowing developers to integrate Discourse forums into applications securely. It supports search functionality by interacting with Discourse's API, ensur**
 
@@ -4370,7 +4311,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 279. [cyberchitta/scrapling-fetch-mcp](https://github.com/cyberchitta/scrapling-fetch-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good 📍
+### 275. [cyberchitta/scrapling-fetch-mcp](https://github.com/cyberchitta/scrapling-fetch-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good 📍
 
 **The scrapling-fetch-mcp project is a Python-based utility that integrates with the MCP (Machine Control Protocol) server to retrieve HTML or markdown from bot-protected websites. It leverages Scrapling's capabilities to navigate and extract text cont**
 
@@ -4385,7 +4326,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 280. [mprokopov/ledger-mcp-server](https://github.com/mprokopov/ledger-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
+### 276. [mprokopov/ledger-mcp-server](https://github.com/mprokopov/ledger-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
 
 **The mprokopov/ledger-mcp-server is a Python-based application designed to provide secure access and management of ledger files through Claude Desktop. It supports key functionalities such as listing accounts, retrieving account balances, registering **
 
@@ -4400,7 +4341,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 281. [linkupplatform/python-mcp-server](https://github.com/linkupplatform/python-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 277. [linkupplatform/python-mcp-server](https://github.com/linkupplatform/python-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The Linkup Platform's Python MCP Server is a developer-focused tool that integrates advanced search capabilities via the MCP protocol. It supports intelligent applications by allowing developers to build and deploy AI-driven tools using modern framew**
 
@@ -4415,7 +4356,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 282. [cmpxchg16/mcp-ethical-hacking](https://github.com/cmpxchg16/mcp-ethical-hacking/tree/HEAD/reddit-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 278. [cmpxchg16/mcp-ethical-hacking](https://github.com/cmpxchg16/mcp-ethical-hacking/tree/HEAD/reddit-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-ethical-hacking repository provides a Python-based server (reddit-mcp) that allows users to interact with Reddit discussions programmatically using a local MCP client. It supports integration with Claude Desktop for seamless workflow automati**
 
@@ -4430,7 +4371,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 283. [waynecui/wireshark_mcp](https://github.com/waynecui/wireshark_mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers 📍
+### 279. [waynecui/wireshark_mcp](https://github.com/waynecui/wireshark_mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project provides a Python-based Wireshark MCP (Model Context Protocol) server that facilitates secure, real-time packet capture and analysis. It supports integration with Wireshark and tshark tools, offering features such as command-line utilitie**
 
@@ -4445,7 +4386,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 284. [arclio/github-projects-mcp](https://github.com/arclio/github-projects-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
+### 280. [arclio/github-projects-mcp](https://github.com/arclio/github-projects-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
 
 **The Arclio GitHub Projects MCP server provides a centralized platform to interact with GitHub Projects V2 using the GraphQL API. It supports key operations such as listing projects, creating issues, updating fields, and managing drafts, all while int**
 
@@ -4460,7 +4401,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 285. [mattmarcin/aqicn-mcp](https://github.com/mattmarcin/aqicn-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
+### 281. [mattmarcin/aqicn-mcp](https://github.com/mattmarcin/aqicn-mcp)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides a model context protocol (MCP) server that enables large language models (LLMs) to access and utilize live air quality data from the World Air Quality Index (AQICN) project. It supports installation, integration, and management **
 
@@ -4475,7 +4416,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 286. [a0dotrun/expose](https://github.com/a0dotrun/expose)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
+### 282. [a0dotrun/expose](https://github.com/a0dotrun/expose)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted CLI tool, 'expose', designed to facilitate the creation, deployment, and management of MCP (Machine Learning Compute Platform) tools. It allows developers to build custom tools that can be invoked via the MCP clie**
 
@@ -4490,7 +4431,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 287. [vectorize-io/vectorize-mcp-server](https://github.com/vectorize-io/vectorize-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
+### 283. [vectorize-io/vectorize-mcp-server](https://github.com/vectorize-io/vectorize-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗3 layers
 
 **The Vectorize MCP Server is a software solution designed to integrate with Vectorize, enabling organizations to perform vector search and text extraction on large volumes of data. It supports seamless integration into development workflows, offering **
 
@@ -4505,7 +4446,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 288. [manolaz/emergency-medicare-planner-mcp-server](https://github.com/manolaz/emergency-medicare-planner-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
+### 284. [manolaz/emergency-medicare-planner-mcp-server](https://github.com/manolaz/emergency-medicare-planner-mcp-server)  `8.8` ★☆☆ ⚡92.0 Q0.9✓ Very good · ↗1 layers
 
 **The Emergency Medicare Planner MCP Server is a powerful tool designed to assist users in finding appropriate hospitals and clinics within a specified radius during urgent healthcare needs. It leverages the Model Context Protocol (MCP) to interact wit**
 
@@ -4520,7 +4461,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 289. [bankless/onchain-mcp](https://github.com/bankless/onchain-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 285. [bankless/onchain-mcp](https://github.com/bankless/onchain-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Bankless Onchain MCP Server enables developers to securely and efficiently access on-chain data using the Model Context Protocol (MCP). It supports contract operations such as reading states, retrieving events, and managing transactions while mai**
 
@@ -4536,7 +4477,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 290. [rmcendarfer2017/mcp-image-gen](https://github.com/rmcendarfer2017/mcp-image-gen)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 286. [rmcendarfer2017/mcp-image-gen](https://github.com/rmcendarfer2017/mcp-image-gen)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The MCP image generator serves as a centralized platform that connects to the Replicate image generation API, enabling developers to build automated workflows for prompt-based image synthesis. It supports key features such as prompt generation, image**
 
@@ -4552,7 +4493,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 291. [jyothishkumarav/selenium-mcp-server-python](https://github.com/jyothishkumarav/selenium-mcp-server-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 287. [jyothishkumarav/selenium-mcp-server-python](https://github.com/jyothishkumarav/selenium-mcp-server-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project provides a self-hosted Selenium MCP server that enables programmatic control of web browsers using Python. It supports Chrome and Firefox, integrates with Claude desktop app for seamless automation workflows, and offers features such as **
 
@@ -4568,7 +4509,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 292. [blazickjp/shell-mcp-server](https://github.com/blazickjp/shell-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 288. [blazickjp/shell-mcp-server](https://github.com/blazickjp/shell-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Shell MCP Server is a secure shell command execution tool designed specifically for the Model Context Protocol (MCP). It allows developers to run commands only in designated directories, enhancing security by isolating operations and preventing u**
 
@@ -4584,7 +4525,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 293. [mark-oori/mcpserve](https://github.com/mark-oori/mcpserve)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 289. [mark-oori/mcpserve](https://github.com/mark-oori/mcpserve)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a lightweight MCP server that supports deep learning model serving. It offers shell execution for direct command-line interaction, seamless local connectivity through Ngrok, and containerized deployment using Docker on Ubuntu24. **
 
@@ -4600,7 +4541,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 294. [chy168/google-chat-mcp-server](https://github.com/chy168/google-chat-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 290. [chy168/google-chat-mcp-server](https://github.com/chy168/google-chat-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project implements a secure, standalone MCP server that integrates with Google Chat via the Model Control Protocol. It provides tools to interact with Google Chat spaces and messages using FastMCP, supporting both CLI and web-based authentication**
 
@@ -4616,7 +4557,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 295. [peakmojo/mcp-server-zoom-noauth](https://github.com/peakmojo/mcp-server-zoom-noauth)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 291. [peakmojo/mcp-server-zoom-noauth](https://github.com/peakmojo/mcp-server-zoom-noauth)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project provides a Model Control Protocol (MCP) server that facilitates interaction with the Zoom API, allowing users to view recordings, transcripts, and meeting details without needing to authenticate directly. It manages OAuth credentials thro**
 
@@ -4632,7 +4573,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 296. [shy2593666979/mcp-server-email](https://github.com/shy2593666979/mcp-server-email)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 292. [shy2593666979/mcp-server-email](https://github.com/shy2593666979/mcp-server-email)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The MCP Email Server is a secure, multi-protocol email service built on the Model Context Protocol (MCP). It allows large language models to compose and send emails, including attaching files from specified directories. It supports multiple major ema**
 
@@ -4648,7 +4589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 297. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 293. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **kubectl-mcp-server is an AI-powered Kubernetes management platform designed to streamline operations such as pod monitoring, deployment, cost optimization, security auditing, and dashboard visualization. It leverages natural language conversations wi**
 
@@ -4664,7 +4605,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 298. [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 294. [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The OpsLevel MCP server is a model context protocol (MCP) server designed to provide AI tools for interacting with OpsLevel accounts. It allows developers to securely and programmatically manage actions, components, dependencies, and documentation wi**
 
@@ -4680,7 +4621,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 299. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 295. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The datalayer/jupyter-earth-mcp-server project provides a Model Context Protocol (MCP) server implementation that allows users to search for and download Earth datasets from NASA's Earthdata. It integrates seamlessly with Jupyter notebooks, enabling **
 
@@ -4696,7 +4637,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 300. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 296. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP Server facilitates seamless integration with various hardware devices such as cameras, printers, microphones, and displays. It provides a centralized platform for developers to create, manage, and automate workflows across different periphera**
 
@@ -4712,7 +4653,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 301. [minhalvp/android-mcp-server](https://github.com/minhalvp/android-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 297. [minhalvp/android-mcp-server](https://github.com/minhalvp/android-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The minhalvp/android-mcp-server is a Python-based MCP server that facilitates secure and flexible management of Android devices through ADB. It supports automatic or manual device selection, device configuration, package management, and integration w**
 
@@ -4728,7 +4669,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 302. [artillect/mtg-mcp-servers](https://github.com/artillect/mtg-mcp-servers)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 298. [artillect/mtg-mcp-servers](https://github.com/artillect/mtg-mcp-servers)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides Model Context Protocol (MCP) servers that enable seamless interaction with the Scryfall API to search for cards, manage decklists, and view hand information. It integrates with Claude for an intuitive user experience, allowing us**
 
@@ -4744,7 +4685,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 303. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 299. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **This project implements a Python-based MCP (Model Context Protocol) server using FastMCP to extract and transform webpage content into well-formatted Markdown. It removes ads, navigation, and other non-essential elements, optimizing the output for be**
 
@@ -4760,7 +4701,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 304. [tahabakhtari/torobjomcp](https://github.com/tahabakhtari/torobjomcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 300. [tahabakhtari/torobjomcp](https://github.com/tahabakhtari/torobjomcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The Torobjo MCP Server is a robust implementation of the Model Context Protocol (MCP) tailored for advanced product search and social media analytics. It leverages FastMCP for high-performance data processing, supports dual-mode operation for seamles**
 
@@ -4776,7 +4717,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 305. [seohyunjun/opensearch-mcp-server](https://github.com/seohyunjun/opensearch-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 301. [seohyunjun/opensearch-mcp-server](https://github.com/seohyunjun/opensearch-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The seohyunjun/opensearch-mcp-server project provides a Model Context Protocol (MCP) server implementation that enables interaction with OpenSearch through a set of tools. It supports operations such as listing indices, retrieving mappings, managing **
 
@@ -4792,7 +4733,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 306. [huccihuang/bilibili-mcp-server](https://github.com/huccihuang/bilibili-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 302. [huccihuang/bilibili-mcp-server](https://github.com/huccihuang/bilibili-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP Server is designed to facilitate various operations on the Bilibili API, providing a centralized platform for developers to interact with the service efficiently. It supports key functionalities such as general search, user-specific searches,**
 
@@ -4808,7 +4749,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 307. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 303. [adhikasp/mcp-git-ingest](https://github.com/adhikasp/mcp-git-ingest)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcp-git-ingest repository implements a Model Context Protocol (MCP) server that enables automated analysis of GitHub repository structures and key files. It provides tools to clone repositories, generate directory trees, and read specified file c**
 
@@ -4824,7 +4765,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 308. [ualusham/mcp-github](https://github.com/ualusham/mcp-github)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 304. [ualusham/mcp-github](https://github.com/ualusham/mcp-github)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a GitHub-based MCP server that allows models like Claude to communicate with the MCP server and interact with the GitHub API. It supports key integration features such as creating issues, retrieving repository info, searching re**
 
@@ -4840,7 +4781,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 309. [jxnl/spiral-mcp](https://github.com/jxnl/spiral-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 305. [jxnl/spiral-mcp](https://github.com/jxnl/spiral-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The jxnl/spiral-mcp project provides a robust MCP server implementation in Python, enabling developers to integrate Spiral's AI models into their applications. It supports various input methods including text, files, and URLs, and offers comprehensiv**
 
@@ -4856,7 +4797,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 310. [coderjun/shaka-packager-mcp-server](https://github.com/coderjun/shaka-packager-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 306. [coderjun/shaka-packager-mcp-server](https://github.com/coderjun/shaka-packager-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a GitHub-hosted MCP server that enables Claude AI applications to analyze, convert, and package video files with advanced features such as stream extraction, DRM encryption, path translation, and error management. It supports sea**
 
@@ -4872,7 +4813,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 311. [samefarrar/mcp-ankiconnect](https://github.com/samefarrar/mcp-ankiconnect)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 307. [samefarrar/mcp-ankiconnect](https://github.com/samefarrar/mcp-ankiconnect)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The mcp-ankiconnect project provides a developer platform that facilitates the connection between MCP (Microsoft Cloud Platform) and AnkiConnect, allowing users to automate workflows, manage code changes, and integrate external tools. It supports ent**
 
@@ -4888,7 +4829,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 312. [benniu/emqx-mcp-server](https://github.com/benniu/emqx-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 308. [benniu/emqx-mcp-server](https://github.com/benniu/emqx-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Benniu/emqx-mcp-server is a custom MCP server designed to facilitate secure and efficient communication between EMQX MQTT brokers. It provides a robust API for managing MQTT clients, including client listing, filtering, connection control, messag**
 
@@ -4904,7 +4845,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 313. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 309. [hebcal/hebcal-mcp](https://github.com/hebcal/hebcal-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project provides an extension for the Model Context Protocol (MCP) server, enabling developers to integrate a comprehensive Hebrew calendar solution. It supports generating lists of Jewish holidays, offering features such as Hebrew date conversi**
 
@@ -4920,7 +4861,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 314. [lars-hagen/mcp-playwright-cdp](https://github.com/lars-hagen/mcp-playwright-cdp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 310. [lars-hagen/mcp-playwright-cdp](https://github.com/lars-hagen/mcp-playwright-cdp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP Playwright CDP project provides a browser automation framework that integrates Playwright with the Chrome DevTools Protocol (CDP), allowing large language models to execute JavaScript, capture screenshots, and interact with web applications i**
 
@@ -4936,7 +4877,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 315. [jasonjmcghee/webmcp](https://github.com/jasonjmcghee/webmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 311. [jasonjmcghee/webmcp](https://github.com/jasonjmcghee/webmcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project outlines an early implementation of WebMCP, a framework that allows websites to expose tools and resources for LLMs. It emphasizes security by generating temporary tokens for each site connection, preventing prompt injection and other mal**
 
@@ -4952,7 +4893,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 316. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 312. [terrakube-io/mcp-server-terrakube](https://github.com/terrakube-io/mcp-server-terrakube)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Terrakube MCP Server is a Model Context Protocol (MCP) server designed to streamline workspace management, variable handling, module operations, and organization control within the Terrakube platform. It provides robust API integration, type safe**
 
@@ -4968,7 +4909,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 317. [deshartman/twilio-messaging-mcp-server](https://github.com/deshartman/twilio-messaging-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 313. [deshartman/twilio-messaging-mcp-server](https://github.com/deshartman/twilio-messaging-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The deshartman/twilio-messaging-mcp-server project provides a Node.js-based API to interact with Twilio's Messaging API, supporting features such as sending SMS via Twilio, handling status callbacks, troubleshooting network issues, and integrating wi**
 
@@ -4984,7 +4925,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 318. [fabian1710/mcp-intercom](https://github.com/fabian1710/mcp-intercom)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 314. [fabian1710/mcp-intercom](https://github.com/fabian1710/mcp-intercom)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The MCP server facilitates secure integration between artificial intelligence models and Intercom chat platforms by providing access to conversation data, including rich metadata such as timestamps, customer IDs, and state information. It supports va**
 
@@ -5000,7 +4941,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 319. [pvev/mattermost-mcp](https://github.com/pvev/mattermost-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 315. [pvev/mattermost-mcp](https://github.com/pvev/mattermost-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The pvev/mattermost-mcp repository offers a Mattermost MCP server that integrates Claude, an AI assistant, into Mattermost workspaces. It includes features such as topic monitoring, channel tools, message posting, user management, and more. The proje**
 
@@ -5016,7 +4957,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 320. [alxspiker/mcp-server-ftp](https://github.com/alxspiker/mcp-server-ftp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
+### 316. [alxspiker/mcp-server-ftp](https://github.com/alxspiker/mcp-server-ftp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent 📍
 
 **The alxspiker/mcp-server-ftp project provides a Model Context Protocol (MCP) server that facilitates secure FTP operations, allowing users to list directories, download/upload files, manage directories, and delete files on external FTP servers. It su**
 
@@ -5032,7 +4973,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 321. [jayarrowz/mcp-osrs](https://github.com/jayarrowz/mcp-osrs)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 317. [jayarrowz/mcp-osrs](https://github.com/jayarrowz/mcp-osrs)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcp-osrs project provides a web-based interface for Claude Desktop users to search and interact with OSRS Wiki data, including game data definitions, variable types, inventory systems, and UI elements. It leverages the Model Context Protocol to a**
 
@@ -5048,7 +4989,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 322. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 318. [sociallayer-im/sola-mcp](https://github.com/sociallayer-im/sola-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP Server provides a RESTful API for interacting with events, groups, profiles, and venues using the Model Context Protocol (MCP). It supports key operations such as retrieving event details, listing events, managing group information, and acces**
 
@@ -5064,7 +5005,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 323. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 319. [zcaceres/markdownify-mcp](https://github.com/zcaceres/markdownify-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Markdownify MCP is a Model Context Protocol (MCP) server designed to transform diverse file formats such as PDFs, images, audio, web pages, and more into clean, readable Markdown. It supports conversion from multiple sources including Dockerized envi**
 
@@ -5080,7 +5021,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 324. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 320. [yutakobayashidev/webforai-mcp-server](https://github.com/yutakobayashidev/webforai-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The WebforAI MCP server is a serverless solution built on Cloudflare Workers, designed to extract plain text from any web page using the Model Context Protocol. It enables developers to easily feed web content into AI models by converting HTML into c**
 
@@ -5096,7 +5037,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 325. [jktfe/servemyapi](https://github.com/jktfe/servemyapi)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 321. [jktfe/servemyapi](https://github.com/jktfe/servemyapi)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **ServeMyAPI is a tool designed to securely store and manage API keys using the macOS Keychain, enabling developers to integrate with AI assistants like Claude Desktop while maintaining security. It provides a centralized, cross-project solution for st**
 
@@ -5112,7 +5053,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 326. [0xkoda/wiremcp](https://github.com/0xkoda/wiremcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 322. [0xkoda/wiremcp](https://github.com/0xkoda/wiremcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **WireMCP is a Model Context Protocol (MCP) server that integrates advanced network monitoring tools to empower Large Language Models (LLMs) with contextual insights from live network data. By leveraging Wireshark's tshark, it captures and processes pa**
 
@@ -5128,7 +5069,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 327. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 323. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The GitHub Kanban MCP Server is an AI-driven platform that integrates with GitHub to manage project tasks and workflows using large language models (LLMs). It enables automated issue tracking, commenting, labeling, and assignee management within a Ka**
 
@@ -5144,7 +5085,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 328. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 324. [yuki10kobayashi/voicevox-mcp](https://github.com/yuki10kobayashi/voicevox-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project implements a TypeScript-based MCP (Model Context Protocol) server that integrates with the Voicevox engine to provide local text-to-speech capabilities on macOS. It leverages Docker for containerization and supports audio playback via AF**
 
@@ -5160,7 +5101,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 329. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 325. [66julienmartin/mcp-server-deepseek_r1](https://github.com/66julienmartin/mcp-server-deepseek_r1)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a Node.js-based MCP (Model Context Protocol) server that connects DeepSeek's R1 and V3 language models with the Claude Desktop interface. It leverages Docker for containerization, supports custom model selection, and includes ro**
 
@@ -5176,7 +5117,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 330. [mjucius/cozi_mcp](https://github.com/mjucius/cozi_mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 326. [mjucius/cozi_mcp](https://github.com/mjucius/cozi_mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The mjucius/cozi_mcp project provides a lightweight Model Context Protocol (MCP) server that allows AI-powered tools like Claude Desktop to access and manipulate Cozi Family Organizer data such as lists, calendars, and family information. This enable**
 
@@ -5192,7 +5133,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 331. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
+### 327. [stevenvo/slack-mcp-server](https://github.com/stevenvo/slack-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The slack-mcp-server acts as a bridge between Claude and Slack by implementing the Model Context Protocol (MCP). It allows AI assistants to securely read messages, threads, metadata, and user information from Slack channels, threads, and direct messa**
 
@@ -5208,7 +5149,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 332. [tiranmoskovitch-dev/mcp-api-bridge-lite](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 328. [tiranmoskovitch-dev/mcp-api-bridge-lite](https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The mcp-api-bridge-lite project provides a minimal, fast REST API that allows AI agents such as Claude Desktop and Cline to call any external API within 30 seconds. It supports multiple authentication methods, dynamic tool generation, rate limiting, **
 
@@ -5224,7 +5165,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 333. [sivan22/mcp-otzaria-server](https://github.com/sivan22/mcp-otzaria-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 329. [sivan22/mcp-otzaria-server](https://github.com/sivan22/mcp-otzaria-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The project implements a secure, Python-driven MCP (Model Context Protocol) server that allows Large Language Models to perform full-text searches across a curated Jewish library. It supports advanced search syntax, field-specific queries, Boolean op**
 
@@ -5239,7 +5180,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 334. [dlwjdtn535/mcp-chrome-integration](https://github.com/dlwjdtn535/mcp-chrome-integration)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 330. [dlwjdtn535/mcp-chrome-integration](https://github.com/dlwjdtn535/mcp-chrome-integration)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The dlwjdtn535/mcp-chrome-integration project enables AI-powered automation of web tasks using Chrome's capabilities. It provides a protocol for AI models to control Chrome, execute JavaScript, manipulate elements, and interact with web content. Key **
 
@@ -5254,7 +5195,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 335. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 331. [sboludaf/mcp-azure-pricing](https://github.com/sboludaf/mcp-azure-pricing)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a structured workflow to retrieve Azure pricing information using the Model Context Protocol (MCP) server. It enables developers to programmatically access real-time pricing from the Azure Retail Prices API, supporting operations**
 
@@ -5269,7 +5210,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 336. [hanweg/mcp-sqlexpress](https://github.com/hanweg/mcp-sqlexpress)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 332. [hanweg/mcp-sqlexpress](https://github.com/hanweg/mcp-sqlexpress)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-sqlexpress project provides a lightweight MCP (Microsoft Cloud Platform) server that allows developers to interact with Microsoft SQL Server Express. It supports Windows authentication and integrates seamlessly with Python scripts for automat**
 
@@ -5284,7 +5225,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 337. [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 333. [allenporter/mcp-server-home-assistant](https://github.com/allenporter/mcp-server-home-assistant)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The allenporter/mcp-server-home-assistant project provides a Model Context Protocol server designed to facilitate communication between MCP and Home Assistant. It allows developers to integrate contextual data into their applications, enhancing autom**
 
@@ -5299,7 +5240,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 338. [fish0710/excel-mcp](https://github.com/fish0710/excel-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 334. [fish0710/excel-mcp](https://github.com/fish0710/excel-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The fish0710/excel-mcp project provides a powerful, open-source server that allows users to create, read, write, and manipulate Excel files using Python. It leverages OpenPyXL for comprehensive Excel functionality, supporting workbook creation, data **
 
@@ -5314,7 +5255,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 339. [adfin-engineering/mcp-server-adfin](https://github.com/adfin-engineering/mcp-server-adfin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 335. [adfin-engineering/mcp-server-adfin](https://github.com/adfin-engineering/mcp-server-adfin)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The project implements a Model Context Protocol Server to facilitate seamless connectivity between the Borg platform and Adfin APIs. This server acts as an intermediary, allowing developers to securely interact with Adfin's services while maintaining**
 
@@ -5329,7 +5270,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 340. [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 336. [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The kukapay/nearby-search-mcp project provides a Python-based API that enables applications to perform location-aware searches by leveraging the Google Places API. It supports features such as IP-based geolocation, keyword-based searches, and customi**
 
@@ -5344,7 +5285,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 341. [bob-lance/instagram-engagement-mcp](https://github.com/bob-lance/instagram-engagement-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 337. [bob-lance/instagram-engagement-mcp](https://github.com/bob-lance/instagram-engagement-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The 'instagram-engagement-mcp' project provides a GitHub-based platform designed to enhance social media management by integrating AI-powered analytics and automation features. It enables developers and teams to streamline Instagram interactions thro**
 
@@ -5359,7 +5300,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 342. [tinyfish-io/agentql-mcp](https://github.com/tinyfish-io/agentql-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 338. [tinyfish-io/agentql-mcp](https://github.com/tinyfish-io/agentql-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The tinyfish-io/agentql-mcp project provides a Model Context Protocol (MCP) server that leverages AgentQL's capabilities to extract and structure data from web pages. It enables developers to automate data collection tasks by configuring the server w**
 
@@ -5374,7 +5315,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 343. [shibuiwilliam/mcp-server-zenn](https://github.com/shibuiwilliam/mcp-server-zenn)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 339. [shibuiwilliam/mcp-server-zenn](https://github.com/shibuiwilliam/mcp-server-zenn)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The shibuiwilliam/mcp-server-zenn project is an unofficial Model Context Protocol (MCP) server designed to extend the capabilities of Zenn, a machine learning platform. It allows developers to interact with Zenn's model context API, enabling features**
 
@@ -5389,7 +5330,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 344. [ashdevfr/duckduckgo-mcp-server](https://github.com/ashdevfr/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 340. [ashdevfr/duckduckgo-mcp-server](https://github.com/ashdevfr/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a Node.js implementation of the MCP protocol, which allows DuckDuckGo to perform web searches using its search engine. This setup is designed to enhance search capabilities by integrating with external search engines securely and**
 
@@ -5404,7 +5345,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 345. [mlobo2012/claude_desktop_api_use_via_mcp](https://github.com/mlobo2012/claude_desktop_api_use_via_mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 341. [mlobo2012/claude_desktop_api_use_via_mcp](https://github.com/mlobo2012/claude_desktop_api_use_via_mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides a robust MCP server that facilitates seamless integration between Claude Desktop and the Claude API. It supports extended functionality such as custom system prompts, conversation history tracking, and advanced API usage without**
 
@@ -5419,7 +5360,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 346. [abhishekjairath/sonic-pi-mcp](https://github.com/abhishekjairath/sonic-pi-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 342. [abhishekjairath/sonic-pi-mcp](https://github.com/abhishekjairath/sonic-pi-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The Sonic Pi MCP server facilitates the integration of artificial intelligence assistants with Sonic Pi, allowing for dynamic music generation and control. It supports a range of features including queue management, live loop execution, and crossfadi**
 
@@ -5434,7 +5375,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 347. [michaelyangjson/mcp-ghibli-video](https://github.com/michaelyangjson/mcp-ghibli-video)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 343. [michaelyangjson/mcp-ghibli-video](https://github.com/michaelyangjson/mcp-ghibli-video)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp-ghibli-video project provides an API-driven platform for developers to generate images from static inputs and manage video outputs using prompts. It integrates with external services like GPT4O Image Generator, supports image-to-video convers**
 
@@ -5449,7 +5390,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 348. [jezweb/openai-mcp](https://github.com/jezweb/openai-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 344. [jezweb/openai-mcp](https://github.com/jezweb/openai-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The jezweb/openai-mcp project provides a Model Context Protocol (MCP) server that facilitates seamless integration between Roo Code and OpenAI's DALL-E API. This allows AI assistants to generate images with fine-grained control over the generation pr**
 
@@ -5464,7 +5405,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 349. [scrapybara/scrapybara-mcp](https://github.com/scrapybara/scrapybara-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 345. [scrapybara/scrapybara-mcp](https://github.com/scrapybara/scrapybara-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Scrapybara-MCP project provides a Model Context Protocol server that allows MCP clients such as Claude Desktop, Cursor, and Windsurf to access virtual Ubuntu desktops. This enables users to browse the web, run code, and perform various actions wi**
 
@@ -5479,7 +5420,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 350. [landicefu/android-adb-mcp-server](https://github.com/landicefu/android-adb-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 346. [landicefu/android-adb-mcp-server](https://github.com/landicefu/android-adb-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The android-adb-mcp-server project provides a model context protocol (MCP) server that allows AI assistants to communicate with Android devices through the Android Debug Bridge (ADB). It supports automation of Android development and testing operatio**
 
@@ -5494,7 +5435,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 351. [tobarrientos2/neo4j-mcpserver](https://github.com/tobarrientos2/neo4j-mcpserver)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 347. [tobarrientos2/neo4j-mcpserver](https://github.com/tobarrientos2/neo4j-mcpserver)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The neo4j-mcpserver project provides a lightweight, standalone Neo4j MCP (Model Context Protocol) server that enables developers to manage graph databases efficiently. It supports both Cursor and Claude Desktop clients, offering a streamlined interfa**
 
@@ -5509,7 +5450,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 352. [mgsrevolver/consolespy](https://github.com/mgsrevolver/consolespy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 348. [mgsrevolver/consolespy](https://github.com/mgsrevolver/consolespy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The 'consolespy' project is a browser extension that enables developers to monitor and analyze console logs from their web applications in real time using the Model Context Protocol (MCP). It allows integration with Cursor IDE, facilitating efficient**
 
@@ -5524,7 +5465,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 353. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 349. [qpd-v/mcp-delete](https://github.com/qpd-v/mcp-delete)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The qpd-v/mcp-delete project introduces a Model Context Protocol (MCP) server designed to enhance AI assistant capabilities by providing secure file deletion functionality. It supports both relative and absolute paths, intelligently resolving them to**
 
@@ -5539,7 +5480,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 354. [imbenrabi/financial-modeling-prep-mcp-server](https://github.com/imbenrabi/financial-modeling-prep-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 350. [imbenrabi/financial-modeling-prep-mcp-server](https://github.com/imbenrabi/financial-modeling-prep-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The Financial-Modeling-Prep-MCP-Server is a Model Context Protocol (MCP) implementation designed to enhance AI assistant capabilities in financial modeling. It allows seamless integration with various financial data sources, including stock informati**
 
@@ -5554,7 +5495,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 355. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 351. [mario-andreschak/mcp-gameboy](https://github.com/mario-andreschak/mcp-gameboy)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a Model Context Protocol (MCP) server for GameBoy emulation, allowing large language models to control the GameBoy emulator through standardized communication protocols. It supports both stdio and SSE transports, providing tool**
 
@@ -5569,7 +5510,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 356. [geli2001/tft-mcp-server](https://github.com/geli2001/tft-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 352. [geli2001/tft-mcp-server](https://github.com/geli2001/tft-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The tft-mcp-server is a TypeScript-based MCP server designed to provide access to TFT game data, including match history and detailed match information. It supports integration with external APIs such as Riot Games' API, enabling developers to build **
 
@@ -5584,7 +5525,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 357. [yosider/cosense-mcp-server](https://github.com/yosider/cosense-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 353. [yosider/cosense-mcp-server](https://github.com/yosider/cosense-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The yosider/cosense-mcp-server is a GitHub-hosted MCP server designed to facilitate seamless integration between Cosense and other systems. It provides a robust platform for automating workflows, managing code changes, and ensuring secure communicati**
 
@@ -5599,7 +5540,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 358. [doriandarko/claude-search-mcp](https://github.com/doriandarko/claude-search-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 354. [doriandarko/claude-search-mcp](https://github.com/doriandarko/claude-search-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a MCP (Model Context Protocol) server that enables seamless integration of Claude's web search capabilities into applications. It allows developers to leverage AI-driven search functionality directly within their workflows, enhan**
 
@@ -5614,7 +5555,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 359. [melaodoidao/datagov-mcp-server](https://github.com/melaodoidao/datagov-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 355. [melaodoidao/datagov-mcp-server](https://github.com/melaodoidao/datagov-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The datagov-mcp-server is an MCP (Machine-to-Machine) server designed to facilitate secure and efficient access to government data from Data.gov. It provides a suite of tools and resources aimed at developers, enabling them to search, explore, and ut**
 
@@ -5629,7 +5570,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 360. [piddlingtuna/tfnsw-realtime-alerts-mcp-server](https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 356. [piddlingtuna/tfnsw-realtime-alerts-mcp-server](https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The piddlingtuna/tfnsw-realtime-alerts-mcp-server is a TypeScript-based MCP server that connects AI assistants to Transport for NSW's real-time alerts API. It allows developers to build intelligent applications by integrating transport disruption dat**
 
@@ -5644,7 +5585,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 361. [mito001/mcp-server-n8n](https://github.com/mito001/mcp-server-n8n)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 357. [mito001/mcp-server-n8n](https://github.com/mito001/mcp-server-n8n)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a GitHub-hosted implementation of the MCP (Message Control Protocol) server, enabling seamless integration with n8n (Now known as Twilio Programmable Apps). This solution facilitates automated workflows by leveraging n8n's capabi**
 
@@ -5659,7 +5600,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 362. [ckz/edu_data_mcp_server](https://github.com/ckz/edu_data_mcp_server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
+### 358. [ckz/edu_data_mcp_server](https://github.com/ckz/edu_data_mcp_server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗4 layers
 
 **This project provides a MCP (Model Context Protocol) server hosted on GitHub, designed to integrate with Claude for natural language processing. It offers endpoints to retrieve detailed and aggregated education data from various sources such as CCD, **
 
@@ -5674,7 +5615,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 363. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 359. [brockreece/whimsical-mcp-server](https://github.com/brockreece/whimsical-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The Whimsical MCP Server is a specialized tool that leverages the Model Context Protocol (MCP) to generate visual diagrams programmatically from natural language inputs. It integrates with Whimsical's API, allowing developers to create complex diagra**
 
@@ -5689,7 +5630,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 364. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 360. [aquarius-wing/actor-critic-thinking-mcp](https://github.com/aquarius-wing/actor-critic-thinking-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The actor-critic thinking MCP server leverages the Actor-Critic methodology to deliver comprehensive, balanced assessments through dual perspectives. It offers immersive, comfortable audio experiences with long-lasting battery life and touch controls**
 
@@ -5704,7 +5645,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 365. [aldrin-labs/metaplex-mcp-server](https://github.com/aldrin-labs/metaplex-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
+### 361. [aldrin-labs/metaplex-mcp-server](https://github.com/aldrin-labs/metaplex-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗5 layers
 
 **The aldrin-labs/metaplex-mcp-server is an open-source MCP (Meta Cloud Platform) server designed to provide secure access to Metaplex documentation and repository information. It enables developers and teams to interact with Metaplex services programm**
 
@@ -5719,7 +5660,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 366. [expenselm/expenselm-mcp-server](https://github.com/expenselm/expenselm-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 362. [expenselm/expenselm-mcp-server](https://github.com/expenselm/expenselm-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server for ExpenseLM is a Python-based application designed to streamline expense management by integrating AI capabilities. It allows users to record expenses, gain insights, and receive advice through an intuitive interface. The server supp**
 
@@ -5734,7 +5675,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 367. [domdomegg/airtable-mcp-server.git](https://github.com/domdomegg/airtable-mcp-server.git)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 363. [domdomegg/airtable-mcp-server.git](https://github.com/domdomegg/airtable-mcp-server.git)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The Airtable Model Context Protocol Server is a specialized tool designed to bridge artificial intelligence applications with Airtable databases. It allows AI models to query, retrieve, and modify data within Airtable tables by leveraging the Model C**
 
@@ -5749,7 +5690,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 368. [leandrogavidia/vechain-mcp-server](https://github.com/leandrogavidia/vechain-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 364. [leandrogavidia/vechain-mcp-server](https://github.com/leandrogavidia/vechain-mcp-server)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a robust MCP server tailored for the VeChain ecosystem, offering functionalities such as querying official documentation, executing HTTP requests to the Thor REST API in both mainnet and testnet environments, managing cryptograp**
 
@@ -5764,7 +5705,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 369. [derek-larson14/claude-code-openrouter](https://github.com/derek-larson14/claude-code-openrouter)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 365. [derek-larson14/claude-code-openrouter](https://github.com/derek-larson14/claude-code-openrouter)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The repository provides a shell script-based system that integrates with Claude Code's ability to call external tools. When a user prompt within Claude Code mentions a specific LLM name (e.g., 'Use kimi to write...'), a pre-configured agent setup (de**
 
@@ -5780,7 +5721,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 370. [brwse/claude-tools-mcp](https://github.com/brwse/claude-tools-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 366. [brwse/claude-tools-mcp](https://github.com/brwse/claude-tools-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project implements the Model Context Protocol (MCP) in Go to bridge Claude Code's robust toolset with any MCP-compliant client. It wraps low-level system operations—including asynchronous shell command execution (bash), regex-based file searchin**
 
@@ -5796,7 +5737,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 371. [gemini-cli-extensions/workspace](https://github.com/gemini-cli-extensions/workspace)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 367. [gemini-cli-extensions/workspace](https://github.com/gemini-cli-extensions/workspace)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project serves as a bridge between the Gemini CLI and Google Workspace, utilizing a tool-calling architecture to expose Workspace functionalities as executable skills for the LLM. It manages complex authentication flows using OAuth2, specifically**
 
@@ -5812,7 +5753,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 372. [gemini-cli-extensions/nanobanana](https://github.com/gemini-cli-extensions/nanobanana)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 368. [gemini-cli-extensions/nanobanana](https://github.com/gemini-cli-extensions/nanobanana)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **Nano Banana leverages the Model Context Protocol (MCP) to bridge the Gemini CLI with Google's image-capable models, encapsulating complex vision tasks into a structured toolset. It implements the @modelcontextprotocol/sdk to expose specialized capabi**
 
@@ -5828,7 +5769,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 373. [gemini-cli-extensions/gcloud](https://github.com/gemini-cli-extensions/gcloud)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 369. [gemini-cli-extensions/gcloud](https://github.com/gemini-cli-extensions/gcloud)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The gcloud MCP server acts as a bridge between LLM-based agents and the Google Cloud ecosystem by wrapping the gcloud CLI. It utilizes the Model Context Protocol to provide a standardized tool-calling interface, allowing agents to execute cloud opera**
 
@@ -5844,7 +5785,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 374. [gemini-cli-extensions/datacommons](https://github.com/gemini-cli-extensions/datacommons)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 370. [gemini-cli-extensions/datacommons](https://github.com/gemini-cli-extensions/datacommons)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project serves as a reference implementation for extending LLM capabilities through standardized protocols. It integrates the Data Commons API into the Gemini CLI environment by utilizing an MCP (Model Context Protocol) server. The technical app**
 
@@ -5860,7 +5801,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 375. [macc-n/wot-mcp-examples](https://github.com/macc-n/wot-mcp-examples)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 371. [macc-n/wot-mcp-examples](https://github.com/macc-n/wot-mcp-examples)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The wot-mcp-examples repository provides a technical blueprint for connecting LLM-based agents to the physical world using the Model Context Protocol. It demonstrates a tiered approach to IoT integration, featuring ESP32 firmware for hardware-level i**
 
@@ -5876,7 +5817,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 376. [smonux/chgpt-mcp-bridge](https://github.com/smonux/chgpt-mcp-bridge)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 372. [smonux/chgpt-mcp-bridge](https://github.com/smonux/chgpt-mcp-bridge)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **This project addresses the connectivity gap between local Model Context Protocol (MCP) servers (typically using stdio) and ChatGPT’s cloud-based MCP implementation which mandates HTTPS endpoints and OAuth authentication. It functions as an intermedia**
 
@@ -5892,7 +5833,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 377. [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 373. [AgentDeskAI/browser-tools-mcp](https://github.com/AgentDeskAI/browser-tools-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The BrowserTools MCP project establishes a three-tier architecture—comprising a Chrome extension, a Node.js middleware server, and an MCP server—to expose deep browser state to AI agents. It utilizes Puppeteer and the Lighthouse library to execute he**
 
@@ -5908,7 +5849,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 378. [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 374. [micl2e2/code-to-tree](https://github.com/micl2e2/code-to-tree)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **Code-to-tree is a specialized Model Context Protocol (MCP) server designed to bridge the gap between LLM text generation and formal code structure. Built using C and the mcpc library, it avoids the overhead of traditional runtimes like Node.js or Pyt**
 
@@ -5924,7 +5865,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 379. [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 375. [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The repository provides a server implementation for the Model Context Protocol (MCP), an open standard for connecting LLMs with external data sources. Specifically, this server uses Qdrant, a vector search engine, as the backend for storing and retri**
 
@@ -5940,7 +5881,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 380. [mrkrsl/web-search-mcp](https://github.com/mrkrsl/web-search-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 376. [mrkrsl/web-search-mcp](https://github.com/mrkrsl/web-search-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **This resource implements a Model Context Protocol (MCP) server that enables local LLMs to perform live web searches without requiring external API subscriptions. It utilizes a multi-layered strategy for data retrieval, prioritizing Bing (via Chromium**
 
@@ -5956,7 +5897,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 381. [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 377. [finmap-org/mcp-server](https://github.com/finmap-org/mcp-server)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The finmap-org/mcp-server project functions as a Market Connectivity Protocol (MCP) server, providing access to comprehensive historical financial data from various global stock exchanges (US, UK, Russia, Turkey). It supports both remote connection v**
 
@@ -5972,7 +5913,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 382. [OctagonAI/octagon-vc-agents](https://github.com/OctagonAI/octagon-vc-agents)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 378. [OctagonAI/octagon-vc-agents](https://github.com/OctagonAI/octagon-vc-agents)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The Octagon VC Agents project leverages the Model Context Protocol (MCP) to expose high-fidelity private market data and investment research to LLM environments. It utilizes a persona-driven architecture where specific venture capitalist 'brains' are**
 
@@ -5988,7 +5929,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 383. [ozgureyilmaz/polymarket-mcp](https://github.com/ozgureyilmaz/polymarket-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 379. [ozgureyilmaz/polymarket-mcp](https://github.com/ozgureyilmaz/polymarket-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The 'polymarket-mcp' repository implements a custom Message Communication Protocol (MCP) server specifically designed to bridge external applications (like the Claude desktop AI assistant) with the Polymarket decentralized finance platform. Written p**
 
@@ -6004,7 +5945,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 384. [shinzo-labs/coinmarketcap-mcp](https://github.com/shinzo-labs/coinmarketcap-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 380. [shinzo-labs/coinmarketcap-mcp](https://github.com/shinzo-labs/coinmarketcap-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **This repository provides a standardized MCP implementation for the CoinMarketCap API, enabling LLMs to programmatically access real-time and historical cryptocurrency data. The server utilizes Zod for rigorous type-safe parameter validation and is st**
 
@@ -6020,7 +5961,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 385. [kukapay/uniswap-trader-mcp](https://github.com/kukapay/uniswap-trader-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 381. [kukapay/uniswap-trader-mcp](https://github.com/kukapay/uniswap-trader-mcp)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The project implements the Model Context Protocol (MCP) to bridge LLM-based agents with decentralized finance (DeFi) protocols, specifically targeting Uniswap V3. It abstracts the technical complexity of blockchain interactions, including multi-hop r**
 
@@ -6036,7 +5977,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 386. [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 382. [badkk/awesome-crypto-mcp-servers](https://github.com/badkk/awesome-crypto-mcp-servers)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The repository curates a collection of implementations for Model Context Protocol (MCP) servers focusing on the cryptocurrency domain. MCP servers act as specialized APIs or middleware that allow Large Language Models (LLMs) to securely and reliably **
 
@@ -6052,7 +5993,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 387. [Claude Code and OpenAI Codex: now available in Tidewave](https://tidewave.ai/blog/claude-code-codex)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 383. [Claude Code and OpenAI Codex: now available in Tidewave](https://tidewave.ai/blog/claude-code-codex)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **The core technical achievement described is enabling browser-based access to command-line exposed coding agent SDKs by implementing significant proxy and relay infrastructure. This involves an ACP-over-WebSockets proxy to handle standard I/O communic**
 
@@ -6068,7 +6009,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 388. [Hyphanet - Wikipedia](https://en.wikipedia.org/wiki/Hyphanet)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
+### 384. [Hyphanet - Wikipedia](https://en.wikipedia.org/wiki/Hyphanet)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
 
 **Hyphanet is a decentralized network that enables anonymous communication and file sharing among users without reliance on centralized servers. It uses a distributed data store to ensure content remains accessible even if individual nodes are taken of**
 
@@ -6084,7 +6025,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 389. [What Is MCPpedia?](https://mcppedia.org/blog/2026-04-06-what-is-mcppedia)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 385. [What Is MCPpedia?](https://mcppedia.org/blog/2026-04-06-what-is-mcppedia)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **MCPpedia is an automated, continuously updated catalog that aggregates and verifies thousands of MCP server instances across GitHub, npm, PyPI, and other registries. Unlike traditional manual curation, it leverages bots to detect security risks, vali**
 
@@ -6100,7 +6041,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 390. [hamidra/yamcp](https://github.com/hamidra/yamcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 386. [hamidra/yamcp](https://github.com/hamidra/yamcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **YAMCP (YAM-C-P) is a command-line tool for organizing and managing MCP servers as local workspaces. It seamlessly connects to multiple MCP servers, local or remote, grouping them into a unified workspace exposed as Yet Another MCP server (YAM) for AI**
 
@@ -6119,7 +6060,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 391. [sjquant/llm-bridge-mcp](https://github.com/sjquant/llm-bridge-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 387. [sjquant/llm-bridge-mcp](https://github.com/sjquant/llm-bridge-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The sjquant/llm-bridge-mcp project provides a standardized interface for interacting with various large language models such as GPT, DeepSeek, and Claude. It leverages the Message Control Protocol (MCP) to facilitate smooth communication between diff**
 
@@ -6135,7 +6076,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 392. [sanxfxteam/gemini-mcp-server](https://github.com/sanxfxteam/gemini-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 388. [sanxfxteam/gemini-mcp-server](https://github.com/sanxfxteam/gemini-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The sanxfxteam/gemini-mcp-server is a GitHub-hosted platform that leverages Google's Gemini 2 AI to generate images based on user prompts. It provides an intuitive interface for developers and users to interact with the Model Context Protocol, offeri**
 
@@ -6151,7 +6092,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 393. [deploya-labs/mcp-browser-use](https://github.com/deploya-labs/mcp-browser-use)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 389. [deploya-labs/mcp-browser-use](https://github.com/deploya-labs/mcp-browser-use)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project implements an agent orchestration system using the MCP (Model Context Protocol) to enable AI agents like Claude, Anthropic, Azure OpenAI, and DeepSeek to communicate and control browser applications. It supports full protocol integration**
 
@@ -6167,7 +6108,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 394. [sengokudaikon/aider-mcp-server](https://github.com/sengokudaikon/aider-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 390. [sengokudaikon/aider-mcp-server](https://github.com/sengokudaikon/aider-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The aider-mcp-server acts as an intermediary that allows Claude and other MCP clients to connect with Aider, providing standardized interfaces for file editing, code management, and configuration. It supports automated workflows, secure code handling**
 
@@ -6183,7 +6124,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 395. [aliyun/alibabacloud-polardb-mcp-server](https://github.com/aliyun/alibabacloud-polardb-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 391. [aliyun/alibabacloud-polardb-mcp-server](https://github.com/aliyun/alibabacloud-polardb-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **PolarDB MCP Servers provide a secure and efficient way to access and manage PolarDB clusters in the cloud. This project offers a robust infrastructure layer that supports seamless integration with various database systems, ensuring high availability,**
 
@@ -6199,7 +6140,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 396. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 392. [xuanwo/mcp-server-opendal](https://github.com/xuanwo/mcp-server-opendal)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Xuanwo/mcp-server-opendal project provides a Model Context Protocol (MCP) server that facilitates seamless access to various cloud and on-premise storage solutions such as S3, Azure Blob Storage, and Google Cloud Storage. It allows developers to **
 
@@ -6215,7 +6156,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 397. [fortunto2/prefect-mcp-server](https://github.com/fortunto2/prefect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 393. [fortunto2/prefect-mcp-server](https://github.com/fortunto2/prefect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This repository provides a Prefect MCP server configuration using the prefect-mcp-server package, designed to integrate seamlessly with the Cursor IDE. It supports Python 3.9+ environments and utilizes uvx for consistent execution. The setup includes**
 
@@ -6231,7 +6172,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 398. [ocean-zhc/seatunnel-mcp](https://github.com/ocean-zhc/seatunnel-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 394. [ocean-zhc/seatunnel-mcp](https://github.com/ocean-zhc/seatunnel-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The ocean-zhc/seatunnel-mcp project provides a MCP server that facilitates secure and efficient communication between SeaTunnel MCP and external systems, such as Apache Seatunnel's RESTful API. It supports job management, system monitoring, dynamic c**
 
@@ -6247,7 +6188,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 399. [aapanel/mcp-server](https://github.com/aapanel/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 395. [aapanel/mcp-server](https://github.com/aapanel/mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project provides a GitHub-hosted MCP (Managed Cloud Provider) server designed to integrate with aaPanel, offering developers a streamlined platform for building, deploying, and managing intelligent applications. It supports automation, code revi**
 
@@ -6263,7 +6204,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 400. [gongrzhe/office-word-mcp-server](https://github.com/gongrzhe/office-word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 396. [gongrzhe/office-word-mcp-server](https://github.com/gongrzhe/office-word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Office-Word-MCP-Server acts as a standardized interface for AI assistants to create, read, and manipulate Microsoft Word documents. It provides rich document editing capabilities through a modular architecture that separates core functionality, t**
 
@@ -6279,7 +6220,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 401. [juhemcp/jnews-mcp-server](https://github.com/juhemcp/jnews-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 397. [juhemcp/jnews-mcp-server](https://github.com/juhemcp/jnews-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The jnews-mcp-server is a Python-based service designed to provide modern, secure, and efficient access to the latest news headlines across various categories such as technology, sports, and entertainment. It leverages the Model Context Protocol (MCP**
 
@@ -6295,7 +6236,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 402. [bracketbotcapstone/bracketbot-mcp](https://github.com/bracketbotcapstone/bracketbot-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 398. [bracketbotcapstone/bracketbot-mcp](https://github.com/bracketbotcapstone/bracketbot-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project implements an MCP (Model Context Protocol) server that allows AI agents to manage and control multiple robots simultaneously. It supports robot movement, audio commands, camera access, and real-time status monitoring. The solution integr**
 
@@ -6311,7 +6252,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 403. [alejandroballesterosc/document-edit-mcp](https://github.com/alejandroballesterosc/document-edit-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 399. [alejandroballesterosc/document-edit-mcp](https://github.com/alejandroballesterosc/document-edit-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Document Edit MCP project provides a streamlined, Python-based server that enables users to perform various document operations such as creating, editing, converting, and manipulating files across multiple formats. It supports integration with po**
 
@@ -6327,7 +6268,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 404. [cuongpham2107/word-mcp-server](https://github.com/cuongpham2107/word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 400. [cuongpham2107/word-mcp-server](https://github.com/cuongpham2107/word-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project utilizes FastMCP to build interactive tools for working with Word documents, offering functionalities such as document creation, editing, adding images, tables, and integrating large language models (LLMs). It supports advanced features l**
 
@@ -6343,7 +6284,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 405. [nayshins/mcp-server-ccxt](https://github.com/nayshins/mcp-server-ccxt)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 401. [nayshins/mcp-server-ccxt](https://github.com/nayshins/mcp-server-ccxt)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The MCP Server acts as a bridge between cryptocurrency exchanges and large language models like Claude. It provides structured market data including current prices, OHLCV charts, volume history, and exchange-specific details. This integration allows **
 
@@ -6359,7 +6300,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 406. [ryuichi1208/mackerel-mcp-server](https://github.com/ryuichi1208/mackerel-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 402. [ryuichi1208/mackerel-mcp-server](https://github.com/ryuichi1208/mackerel-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project provides a GitHub-hosted implementation of the Mackerel MCP (Monitoring Control Platform) server, enabling efficient management and automation of monitoring tasks. It supports key functionalities such as host and service management, metr**
 
@@ -6375,7 +6316,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 407. [hesreallyhim/mcp-server-isitdown](https://github.com/hesreallyhim/mcp-server-isitdown)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 403. [hesreallyhim/mcp-server-isitdown](https://github.com/hesreallyhim/mcp-server-isitdown)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The mcp-server-isitdown tool is a lightweight application designed to monitor the status of websites by making HTTP requests to an external uptime checker (https://www.isitdownrightnow.com). It provides real-time insights into website availability, h**
 
@@ -6389,7 +6330,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 408. [sagacious-satadru/documentation-mcp](https://github.com/sagacious-satadru/documentation-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 404. [sagacious-satadru/documentation-mcp](https://github.com/sagacious-satadru/documentation-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP (Model Context Protocol) server acts as a bridge between AI assistants like Claude and external documentation sources. It allows Claude to fetch and display relevant documentation directly within conversations by integrating with popular AI l**
 
@@ -6405,7 +6346,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 409. [oborchers/mcp-server-pacman](https://github.com/oborchers/mcp-server-pacman)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 405. [oborchers/mcp-server-pacman](https://github.com/oborchers/mcp-server-pacman)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The oborchers/mcp-server-pacman project provides a Model Context Protocol server that allows large language models (LLMs) to efficiently search and retrieve data from various package index repositories such as PyPI, npm, crates.io, Docker Hub, and Te**
 
@@ -6421,7 +6362,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 410. [garcheng/mcp-server-jina-java](https://github.com/garcheng/mcp-server-jina-java)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 406. [garcheng/mcp-server-jina-java](https://github.com/garcheng/mcp-server-jina-java)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The mcp-server-jina-java project provides a Spring Boot-based Java application that interfaces with the Jina Reader API to enable web applications to search and retrieve content from external sources. It leverages MCP (Model Context Protocol) for sec**
 
@@ -6437,7 +6378,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 411. [himanshusanecha/mcp-osint-server](https://github.com/himanshusanecha/mcp-osint-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 407. [himanshusanecha/mcp-osint-server](https://github.com/himanshusanecha/mcp-osint-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The mcp-osint server is designed to streamline open source intelligence (OSINT) operations by integrating multiple network scanning, DNS lookup, and domain validation tools into a unified interface. It enables users to execute tasks such as WHOIS loo**
 
@@ -6453,7 +6394,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 412. [magarcia/mcp-server-linearapp](https://github.com/magarcia/mcp-server-linearapp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
+### 408. [magarcia/mcp-server-linearapp](https://github.com/magarcia/mcp-server-linearapp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The MCP Server acts as a bridge between AI models and Linear's internal systems, facilitating seamless integration for tasks such as issue management, project tracking, and workflow automation. It supports automated actions, secure code deployment, a**
 
@@ -6469,7 +6410,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 413. [mastercode-io/scaflog-zoho-mcp-server](https://github.com/mastercode-io/scaflog-zoho-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 409. [mastercode-io/scaflog-zoho-mcp-server](https://github.com/mastercode-io/scaflog-zoho-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The scaflog-zoho-mcp-server is a lightweight MCP (Message Queuing Protocol) server designed to manage and store notes within the Scaflog Zoho Creator application. It provides a centralized storage system for individual notes, each identified by a uni**
 
@@ -6483,7 +6424,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 414. [abhi5h3k/mcp-email-verify](https://github.com/abhi5h3k/mcp-email-verify)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 410. [abhi5h3k/mcp-email-verify](https://github.com/abhi5h3k/mcp-email-verify)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The MCP-Email-Verify tool is designed to integrate with AI applications such as Claude Desktop, enabling real-time email format validation, domain verification, and deliverability checks. It leverages the MCP protocol to facilitate seamless communica**
 
@@ -6499,7 +6440,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 415. [ynu/mcp-ynu](https://github.com/ynu/mcp-ynu)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 411. [ynu/mcp-ynu](https://github.com/ynu/mcp-ynu)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The ynu/mcp-ynu project provides a comprehensive solution for managing and automating development workflows using FastMCP. It includes features such as dynamic module loading, type hints, logging, and integration with various tools and resources. Thi**
 
@@ -6515,7 +6456,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 416. [boristopalov/spotify-mcp](https://github.com/boristopalov/spotify-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 412. [boristopalov/spotify-mcp](https://github.com/boristopalov/spotify-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The project implements a Python-based application that integrates the MCP (Meta Cloud Protocol) server with Spotify's API, enabling seamless interaction between Claude and Spotify services. It supports features such as starting, pausing, and skipping**
 
@@ -6531,7 +6472,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 417. [abhiz123/todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 413. [abhiz123/todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The abhiz123/todoist-mcp-server project provides a Model Context Protocol (MCP) server that integrates Claude AI to allow users to manage tasks using everyday language. It supports natural language creation, search, filtering, and task management fea**
 
@@ -6547,7 +6488,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 418. [nasoma/joomla-mcp-server](https://github.com/nasoma/joomla-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 414. [nasoma/joomla-mcp-server](https://github.com/nasoma/joomla-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Joomla MCP Server acts as a bridge between AI assistants (e.g., Claude) and Joomla websites, providing tools to manage articles such as retrieving, creating, updating, and deleting content. It supports integration with external tools, automates w**
 
@@ -6563,7 +6504,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 419. [mtane0412/perspective-mcp-server](https://github.com/mtane0412/perspective-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 415. [mtane0412/perspective-mcp-server](https://github.com/mtane0412/perspective-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Perspective MCP Server is a developer-focused tool designed to facilitate seamless integration with the Perspective API, offering features such as text toxicity analysis, multiple attribute scoring, multi-language support, and customizable API ke**
 
@@ -6579,7 +6520,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 420. [aiopinions/ton-access-mcp](https://github.com/aiopinions/ton-access-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 416. [aiopinions/ton-access-mcp](https://github.com/aiopinions/ton-access-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The TON Access MCP server is a robust solution designed to integrate with the TON blockchain, providing a standardized protocol (MCP) for connecting AI assistants to blockchain applications. It supports decentralized access, health checking, load bal**
 
@@ -6595,7 +6536,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 421. [shubhanshusondhiya/mcp-tmdb](https://github.com/shubhanshusondhiya/mcp-tmdb)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 417. [shubhanshusondhiya/mcp-tmdb](https://github.com/shubhanshusondhiya/mcp-tmdb)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **This project develops a Model Context Protocol (MCP) server that connects to The Movie Database (TMDB) API, enabling AI tools like Claude to search, retrieve, and generate content about movies. It supports features such as movie reviews, recommendati**
 
@@ -6611,7 +6552,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 422. [laksh-star/mcp-server-tmdb](https://github.com/laksh-star/mcp-server-tmdb)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 418. [laksh-star/mcp-server-tmdb](https://github.com/laksh-star/mcp-server-tmdb)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Laksh-star/mcp-server-tmdb project provides a self-hosted MCP server that integrates with the Movie & TV Database (TMDB) to enable efficient search, discovery, and recommendation of movies and TV shows. It supports features such as movie details **
 
@@ -6627,7 +6568,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 423. [wolfyy970/docs-fetch-mcp](https://github.com/wolfyy970/docs-fetch-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 419. [wolfyy970/docs-fetch-mcp](https://github.com/wolfyy970/docs-fetch-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The MCP server facilitates intelligent web exploration by LLMs, allowing them to retrieve clean content from any page, traverse links up to a specified depth, and focus on relevant information. It supports features like content extraction, link analy**
 
@@ -6643,7 +6584,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 424. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 420. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The gemini-dk/mcp-server-firebase project provides a unified interface to interact with Firebase's core services such as Authentication, Firestore, and Storage via the Model Context Protocol (MCP). It allows developers to build secure, scalable appli**
 
@@ -6659,7 +6600,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 425. [aminalali8/bns-mcp-server](https://github.com/aminalali8/bns-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 421. [aminalali8/bns-mcp-server](https://github.com/aminalali8/bns-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg project implements an MCP server that allows AI tools like Claude to communicate with the Bunnyshell platform using natural language commands. It provides comprehensive management features including organization, project, environment, compon**
 
@@ -6675,7 +6616,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 426. [bmorphism/say-mcp-server](https://github.com/bmorphism/say-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 422. [bmorphism/say-mcp-server](https://github.com/bmorphism/say-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The bmorphism/Say-MCP-server is a lightweight, open-source MCP (Mac's built-in speech) server that enables developers to integrate advanced text-to-speech functionality into macOS applications. It supports custom voice selection, dynamic rate changes**
 
@@ -6691,7 +6632,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 427. [austinkelsay/nostr-mcp-server](https://github.com/austinkelsay/nostr-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 423. [austinkelsay/nostr-mcp-server](https://github.com/austinkelsay/nostr-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project provides a MCP server that integrates Nostr capabilities for AI agents, allowing them to perform tasks such as managing profiles, notes, relays, DMs, zaps, and now supports Blossom file storage. It expands on the original Nostr-MCP-server**
 
@@ -6707,7 +6648,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 428. [srikanth-paladugula/mcp-dynamics365-server](https://github.com/srikanth-paladugula/mcp-dynamics365-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 424. [srikanth-paladugula/mcp-dynamics365-server](https://github.com/srikanth-paladugula/mcp-dynamics365-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Borg Project's MCP Server for Microsoft Dynamics 365 allows developers to build, test, and deploy intelligent applications by leveraging the Model Context Protocol. It provides a range of tools for managing user data, accounts, opportunities, and**
 
@@ -6723,7 +6664,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 429. [shannonlal/mcp-postman](https://github.com/shannonlal/mcp-postman)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 425. [shannonlal/mcp-postman](https://github.com/shannonlal/mcp-postman)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a dedicated MCP (Model Context Protocol) server that integrates with Postman collections using Newman. This facilitates automated API testing and analysis, offering detailed test results, execution timings, and comprehensive feed**
 
@@ -6739,7 +6680,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 430. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 426. [joshuarileydev/app-store-connect-mcp-server](https://github.com/joshuarileydev/app-store-connect-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The App Store Connect MCP Server is an AI-powered platform that enables developers to interact with the App Store Connect API through natural language queries. It supports comprehensive analytics, streamlined beta testing, localization management, se**
 
@@ -6755,7 +6696,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 431. [toowiredd/chatgpt-mcp-server](https://github.com/toowiredd/chatgpt-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 427. [toowiredd/chatgpt-mcp-server](https://github.com/toowiredd/chatgpt-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Toowiredd/chatgpt-mcp-server is a custom-built, GitHub-hosted MCP (Model Context Protocol) implementation that allows developers to manage Docker environments using conversational interfaces powered by ChatGPT. It supports natural language comman**
 
@@ -6771,7 +6712,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 432. [studentofjs/mcp-frontend-testing](https://github.com/studentofjs/mcp-frontend-testing)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 428. [studentofjs/mcp-frontend-testing](https://github.com/studentofjs/mcp-frontend-testing)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP server provides comprehensive tools for analyzing, generating, and running tests on frontend code. It supports multiple frameworks such as Jest and Cypress, offering features like code analysis, test generation, execution, and component testi**
 
@@ -6787,7 +6728,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 433. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 429. [ngeojiajun/mcp-code-snippets](https://github.com/ngeojiajun/mcp-code-snippets)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The ngeojiajun/mcp-code-snippets project provides a Model Context Protocol (MCP) server that enables developers to create, list, and delete code snippets in various programming languages. It supports features such as persistent storage, filtering by **
 
@@ -6803,7 +6744,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 434. [anirbanbasu/frankfurtermcp](https://github.com/anirbanbasu/frankfurtermcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 430. [anirbanbasu/frankfurtermcp](https://github.com/anirbanbasu/frankfurtermcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project provides a GitHub-hosted MCP server that facilitates secure and efficient access to the Frankfurter API, which offers up-to-date currency exchange rates. This solution is designed to integrate seamlessly with AI-driven applications, enhan**
 
@@ -6819,7 +6760,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 435. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 431. [dcspark/mcp-server-jupiter](https://github.com/dcspark/mcp-server-jupiter)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The dcSpark/mcp-server-jupiter project provides a Model Context Protocol (MCP) server that allows AI models like Claude to access and perform blockchain operations such as retrieving quotes, building and sending swap transactions on the Solana blockc**
 
@@ -6835,7 +6776,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 436. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 432. [dcspark/mcp-server-helius](https://github.com/dcspark/mcp-server-helius)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The dcSpark/mcp-server-helius project provides a Model Context Protocol (MCP) server that allows Claude, an AI assistant, to access real-time Solana blockchain information such as wallet balances, block heights, and transaction details. This integrat**
 
@@ -6851,7 +6792,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 437. [arjunkmrm/mcp-minecraft](https://github.com/arjunkmrm/mcp-minecraft)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
+### 433. [arjunkmrm/mcp-minecraft](https://github.com/arjunkmrm/mcp-minecraft)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent 📍
 
 **The project enables AI assistants to observe and interact with the Minecraft world through a bot, facilitating real-time communication and actions within the game environment. It supports various MCP tools such as chat, jump, block placement, invento**
 
@@ -6867,7 +6808,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 438. [sunwood-ai-labs/aira-mcp-server](https://github.com/sunwood-ai-labs/aira-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 434. [sunwood-ai-labs/aira-mcp-server](https://github.com/sunwood-ai-labs/aira-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The AIra-MCP Server is a developer platform that enables intelligent code management through automated workflow orchestration, secure Git integration, and enterprise-grade security features. It supports advanced functionalities such as commit message**
 
@@ -6883,7 +6824,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 439. [simplifier-ag/simplifier-mcp](https://github.com/simplifier-ag/simplifier-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 435. [simplifier-ag/simplifier-mcp](https://github.com/simplifier-ag/simplifier-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project provides a Model Context Protocol (MCP) server that facilitates seamless communication between AI assistants and the Simplifier platform. It supports managing connectors, business objects, data types, and executing business logic function**
 
@@ -6899,7 +6840,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 440. [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
+### 436. [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The cr7258/elasticsearch-mcp-server is an MCP Server implementation that facilitates interaction with both Elasticsearch and OpenSearch, allowing users to perform general API requests, index documents, analyze text, manage clusters, and more. It supp**
 
@@ -6915,7 +6856,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 441. [Danushkumar-V/mcp-discord](https://github.com/Danushkumar-V/mcp-discord)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 437. [Danushkumar-V/mcp-discord](https://github.com/Danushkumar-V/mcp-discord)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project implements a Discord MCP (Model Context Protocol) server that allows AI assistants, such as Claude or Cursor, to seamlessly integrate and interact with Discord channels, messages, and webhooks. This facilitates advanced use cases like aut**
 
@@ -6931,7 +6872,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 442. [wricardo/gpt-mcp-proxy](https://github.com/wricardo/gpt-mcp-proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 438. [wricardo/gpt-mcp-proxy](https://github.com/wricardo/gpt-mcp-proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The wricardo/gpt-mcp-proxy project provides a web-based HTTP server that facilitates the execution of Multiple Command Protocol (MCP) tools. It acts as an intermediary between HTTP clients and MCP-compliant servers, allowing seamless integration with**
 
@@ -6946,7 +6887,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 443. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 439. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Leonardo MCP server is an AI-powered developer platform designed to streamline the creation, management, and deployment of AI models. It supports both HTTP and stdio modes, enabling integration with various clients such as Claude Desktop and Curs**
 
@@ -6961,7 +6902,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 444. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 440. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The BrowserCat MCP Server provides a scalable platform for developers to integrate AI models into web applications. It supports advanced features such as browser automation, screenshot capture, JavaScript execution, and real-time interaction with web**
 
@@ -6976,7 +6917,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 445. [sofianhamiti/mcp-server-s3](https://github.com/sofianhamiti/mcp-server-s3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 441. [sofianhamiti/mcp-server-s3](https://github.com/sofianhamiti/mcp-server-s3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP Server provides a Python package that allows developers to interact with AWS S3 buckets using the Model Context Protocol. It offers tools for listing buckets, managing permissions, and performing operations securely. The server supports integ**
 
@@ -6991,7 +6932,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 446. [smehmood/modal-mcp-server](https://github.com/smehmood/modal-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 442. [smehmood/modal-mcp-server](https://github.com/smehmood/modal-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The smehmood/modal-mcp-server project provides a Python-based MCP server that enables developers to manage and deploy Modal applications efficiently. It supports key operations such as listing volumes, listing contents, uploading and downloading file**
 
@@ -7006,7 +6947,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 447. [tim10002/mcp-azresource](https://github.com/tim10002/mcp-azresource)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 443. [tim10002/mcp-azresource](https://github.com/tim10002/mcp-azresource)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP Server provides a platform for developers to interact with Azure resources directly from MCP clients. It offers features such as listing, filtering, cost analysis, secure authentication via service principals, and detailed views of resources.**
 
@@ -7021,7 +6962,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 448. [thinking-bzf/mongo-mcp-go](https://github.com/thinking-bzf/mongo-mcp-go)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 444. [thinking-bzf/mongo-mcp-go](https://github.com/thinking-bzf/mongo-mcp-go)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The thinking-bzf/mongo-mcp-go project provides a Model Context Protocol (MCP) server that facilitates communication between large language models (LLMs) and MongoDB databases. By leveraging mcp-go, developers can perform CRUD operations on MongoDB co**
 
@@ -7036,7 +6977,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 449. [alx99/db-mcp](https://github.com/alx99/db-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 445. [alx99/db-mcp](https://github.com/alx99/db-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The ALX99/db-mcp project provides a lightweight tool that allows AI assistants supporting the MCP protocol to interact with various database systems. It supports multiple databases including PostgreSQL, MySQL, and SQLite via DSN connections. This uti**
 
@@ -7051,7 +6992,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 450. [thomaub/clickhouse_mcp_server](https://github.com/thomaub/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 446. [thomaub/clickhouse_mcp_server](https://github.com/thomaub/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a Model Context Protocol (MCP) server that facilitates seamless communication between ClickHouse databases and Large Language Models (LLMs). It allows developers to securely connect ClickHouse resources, execute queries, and lev**
 
@@ -7066,7 +7007,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 451. [qwert666/mcp-server-foundry](https://github.com/qwert666/mcp-server-foundry)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 447. [qwert666/mcp-server-foundry](https://github.com/qwert666/mcp-server-foundry)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The qwert666/mcp-server-foundry project provides a Model Context Protocol server that facilitates interaction between AI tools and the Foundry platform. It allows developers to query datasets, ontology objects, and execute functions programmatically **
 
@@ -7081,7 +7022,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 452. [non-dirty/mcp-server-restart](https://github.com/non-dirty/mcp-server-restart)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 448. [non-dirty/mcp-server-restart](https://github.com/non-dirty/mcp-server-restart)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a solution for managing and automating the restart process of Claude Desktop on Mac systems by leveraging the Model Context Protocol (MCP). It includes detailed instructions, configuration options, and usage examples to ensure se**
 
@@ -7096,7 +7037,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 453. [ckreiling/mcp-server-docker](https://github.com/ckreiling/mcp-server-docker)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 449. [ckreiling/mcp-server-docker](https://github.com/ckreiling/mcp-server-docker)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server for Docker provides a user-friendly interface to compose, manage, and monitor Docker containers using natural language commands. It supports container creation, networking, volume management, and integration with persistent storage sol**
 
@@ -7111,7 +7052,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 454. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 450. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Chronulus AI Forecasting and Prediction Agents project provides a MCP Server solution to integrate with Claude Desktop, enabling users to leverage AI-driven forecasting capabilities within their workflow. This tool supports automated code executi**
 
@@ -7126,7 +7067,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 455. [jantoniucci/mcp-tiggerbeetle](https://github.com/jantoniucci/mcp-tiggerbeetle)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 451. [jantoniucci/mcp-tiggerbeetle](https://github.com/jantoniucci/mcp-tiggerbeetle)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The jantoniucci/mcp-tiggerbeetle project offers a Model Context Protocol Server designed to streamline TigerBeetle account management. It provides a robust platform for integrating with external tools, automating workflows, and ensuring secure code d**
 
@@ -7141,7 +7082,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 456. [akki91/ankr-mcp](https://github.com/akki91/ankr-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 452. [akki91/ankr-mcp](https://github.com/akki91/ankr-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The Ankr MCP Server is a blockchain data server that enables LLMs to access on-chain information via the Model Context Protocol (MCP). It provides token operations, account balance retrieval, and asset data for wallets on specific networks. Integrati**
 
@@ -7156,7 +7097,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 457. [rishabh17081/paypal-au-subscription-connector](https://github.com/rishabh17081/paypal-au-subscription-connector)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 453. [rishabh17081/paypal-au-subscription-connector](https://github.com/rishabh17081/paypal-au-subscription-connector)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The PayPal Au Subscription Connector for MCP enables seamless integration with PayPal's Account Updater service, allowing developers to subscribe payment cards, retrieve subscription details, and update merchant databases with fresh card information.**
 
@@ -7171,7 +7112,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 458. [lifejwang11/alphavantage-mcp](https://github.com/lifejwang11/alphavantage-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 454. [lifejwang11/alphavantage-mcp](https://github.com/lifejwang11/alphavantage-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The alphavantage-mcp project provides a server-based solution to connect with AlphaVantage's API, enabling developers to access real-time and historical financial market data through the Model Control Protocol (MCP). It supports core functionalities **
 
@@ -7186,7 +7127,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 459. [dsp/mcp-server-steam](https://github.com/dsp/mcp-server-steam)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 455. [dsp/mcp-server-steam](https://github.com/dsp/mcp-server-steam)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP Server for interacting with Steam integrates with the Steam API to fetch user gaming information and exposes it through the Model Context Protocol (MCP). This allows AI assistants and other applications to access and understand users' gaming **
 
@@ -7201,7 +7142,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 460. [awslabs/log-analyzer-with-mcp](https://github.com/awslabs/log-analyzer-with-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 456. [awslabs/log-analyzer-with-mcp](https://github.com/awslabs/log-analyzer-with-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **This project implements the Model Context Protocol (MCP), a standardized communication framework that allows AI models like Claude to securely connect to AWS CloudWatch Logs for log analysis, searching, and correlation. It integrates with existing AW**
 
@@ -7216,7 +7157,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 461. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 457. [setkyar/youtube-subtitles-mcp](https://github.com/setkyar/youtube-subtitles-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The project offers a Python-based MCP server that enables seamless integration of YouTube subtitle data into AI tools such as Claude Desktop. It supports downloading, analyzing, and translating subtitles in multiple languages using yt-dlp, with Docke**
 
@@ -7231,7 +7172,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 462. [sourabh-khot65/typesense-mcp-server](https://github.com/sourabh-khot65/typesense-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 458. [sourabh-khot65/typesense-mcp-server](https://github.com/sourabh-khot65/typesense-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The typesense-mcp-server acts as a bridge between Borg and Typesense, allowing seamless retrieval of data from various Typesense collections using popular MCP clients like Claude or Cursor. It supports generic search interfaces, typo tolerance, filte**
 
@@ -7246,7 +7187,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 463. [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 459. [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The Academic Paper Search MCP Server is a web application designed to integrate with Claude Desktop, allowing users to search for and retrieve academic papers from multiple sources such as Semantic Scholar and Crossref. It provides structured data re**
 
@@ -7261,7 +7202,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 464. [aliyun/alibabacloud-iqs-tongxiao-mcp-server](https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 460. [aliyun/alibabacloud-iqs-tongxiao-mcp-server](https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The alibabacloud-iqs-tongxiao-mcp-server is a GitHub-hosted project designed to enhance AI-driven search capabilities by integrating with various APIs. It leverages advanced search algorithms and multiple data sources to deliver accurate, diverse, an**
 
@@ -7276,7 +7217,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 465. [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 461. [zhsama/duckduckgo-mcp-server](https://github.com/zhsama/duckduckgo-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The zhsama/duckduckgo-mcp-server is a Node.js application that integrates with DuckDuckGo Search API to provide enhanced search capabilities. It leverages pnpm for dependency management and supports features like rate limiting, error handling, and cu**
 
@@ -7291,7 +7232,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 466. [netwrix/mcp-server-naa](https://github.com/netwrix/mcp-server-naa)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 462. [netwrix/mcp-server-naa](https://github.com/netwrix/mcp-server-naa)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The netwrix/mcp-server-naa project provides a MCP server designed to integrate with Netwrix Access Analyzer, supporting Active Directory and File System solutions. It offers features such as SQL Server integration, dynamic database schema exploration**
 
@@ -7306,7 +7247,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 467. [divyanshkushwaha/github-mcp-server-claude](https://github.com/divyanshkushwaha/github-mcp-server-claude)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 463. [divyanshkushwaha/github-mcp-server-claude](https://github.com/divyanshkushwaha/github-mcp-server-claude)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The GitHub MCP Server is an API-driven application that facilitates automated workflows by connecting to GitHub's REST API. It supports fetching user and repository data, retrieving authenticated user details, and executing custom scripts via FastMCP**
 
@@ -7321,7 +7262,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 468. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 464. [allglenn/mcp-name-origin-server](https://github.com/allglenn/mcp-name-origin-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a Model Context Protocol (MCP) server that leverages the Nationalize.io API to predict the geographic origin of given names. It supports batch predictions and real-time integration, offering developers a robust tool for context**
 
@@ -7336,7 +7277,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 469. [xinthink/reader-mcp-server](https://github.com/xinthink/reader-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 465. [xinthink/reader-mcp-server](https://github.com/xinthink/reader-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The xinthink/reader-mcp-server project enables integration of the Readwise Reader library with large language models (LLMs), allowing users to leverage AI capabilities directly within their personal knowledge repositories. By acting as a bridge betwe**
 
@@ -7351,7 +7292,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 470. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 466. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Fibery MCP Server acts as a bridge between Fibery and various LLM providers that support the Model Context Protocol (MCP). This allows users to interact with their Fibery workspace using natural language queries, making it easier to manage and ma**
 
@@ -7366,7 +7307,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 471. [vincentf305/mcp-server-deepseek](https://github.com/vincentf305/mcp-server-deepseek)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 467. [vincentf305/mcp-server-deepseek](https://github.com/vincentf305/mcp-server-deepseek)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides a Docker-based MCP server that facilitates the integration of Deepseek models into the Claude Desktop platform. It allows developers to deploy and manage AI models efficiently, supporting advanced workflows such as code review, **
 
@@ -7381,7 +7322,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 472. [localsummer/dify-workflow-mcp](https://github.com/localsummer/dify-workflow-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 468. [localsummer/dify-workflow-mcp](https://github.com/localsummer/dify-workflow-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a TypeScript-based solution to expose Dify Workflows as an MCP (Model Context Protocol) server. It leverages Dify's workflow capabilities, allowing developers to build, configure, and run workflows using YAML files for seamless **
 
@@ -7396,7 +7337,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 473. [mr-house/bilibili-mcp-server](https://github.com/mr-house/bilibili-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 469. [mr-house/bilibili-mcp-server](https://github.com/mr-house/bilibili-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a Python implementation of an MCP (Machine-to-Machine) protocol server designed to facilitate integration between systems using the Bilibili API. It emphasizes automation, security, and adherence to best practices such as code qu**
 
@@ -7411,7 +7352,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 474. [winstonfassett/sonos-mcp-server](https://github.com/winstonfassett/sonos-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 470. [winstonfassett/sonos-mcp-server](https://github.com/winstonfassett/sonos-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The WinstonFassett/sonos-mcp-server project provides a Python implementation for managing interactions with Sonos devices via the Model Context Protocol (MCP). It offers functionalities such as discovering devices, controlling playback, retrieving de**
 
@@ -7426,7 +7367,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 475. [xytangme/neodb-mcp](https://github.com/xytangme/neodb-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 471. [xytangme/neodb-mcp](https://github.com/xytangme/neodb-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The xytangme/neodb-mcp project provides a Message Control Protocol (MCP) server that enables seamless communication between applications and the NeoDB social book cataloging service. It offers tools for fetching user information, searching books, and**
 
@@ -7441,7 +7382,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 476. [d42me/mochi-flashcards-mcp-server](https://github.com/d42me/mochi-flashcards-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 472. [d42me/mochi-flashcards-mcp-server](https://github.com/d42me/mochi-flashcards-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The Mochi Flashcards MCP Server project provides a web-based interface for users to create, manage, and share flashcard content. It leverages Mochi, an open-source flashcard library, and integrates with the MCP (MIT Cloud Platform) to enable scalable**
 
@@ -7456,7 +7397,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 477. [haltakov/meme-mcp](https://github.com/haltakov/meme-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 473. [haltakov/meme-mcp](https://github.com/haltakov/meme-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The haltakov/meme-mcp project provides a lightweight MCP server that enables AI models and tools to generate meme images from user prompts by interacting with the ImgFlip API. It supports configuration via npm, allowing users to set up the environmen**
 
@@ -7471,7 +7412,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 478. [root-signals/root-signals-mcp](https://github.com/root-signals/root-signals-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 474. [root-signals/root-signals-mcp](https://github.com/root-signals/root-signals-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Scorable MCP server acts as a bridge between the Scorable API and MCP client applications, allowing AI tools to assess answers based on predefined quality metrics. It supports multiple evaluator types, integrates with various MCP clients, and pro**
 
@@ -7486,7 +7427,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 479. [junmer/mcp-server-lottiefiles](https://github.com/junmer/mcp-server-lottiefiles)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 475. [junmer/mcp-server-lottiefiles](https://github.com/junmer/mcp-server-lottiefiles)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The junmer/mcp-server-lottiefiles project provides a MCP (Model Context Protocol) server that enables developers to search, retrieve, and manage Lottie animations efficiently. It supports features such as searching animations by keywords, viewing ani**
 
@@ -7501,7 +7442,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 480. [tanob/mcp-desktop-automation](https://github.com/tanob/mcp-desktop-automation)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 476. [tanob/mcp-desktop-automation](https://github.com/tanob/mcp-desktop-automation)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The tanob/mcp-desktop-automation project provides a Model Context Protocol server that allows large language models (LLMs) to control mouse movements, keyboard inputs, and capture screenshots on desktop environments. This facilitates automation workf**
 
@@ -7516,7 +7457,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 481. [egoist/fetch-mcp](https://github.com/egoist/fetch-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 477. [egoist/fetch-mcp](https://github.com/egoist/fetch-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **This project provides a server-based solution to fetch URLs and YouTube video transcripts using MCP (Media Content Protocol). It supports integration with various platforms, including custom endpoints and SSE streams, enabling seamless access to mult**
 
@@ -7531,7 +7472,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 482. [felores/cloudinary-mcp-server](https://github.com/felores/cloudinary-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 478. [felores/cloudinary-mcp-server](https://github.com/felores/cloudinary-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Borg project provides a server-based solution for securely uploading images and videos to Cloudinary via the Model Context Protocol (MCP). It supports integration with Claude Desktop, enabling automated workflows for media management in enterpris**
 
@@ -7546,7 +7487,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 483. [turinhub/cf-mcp-server](https://github.com/turinhub/cf-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 479. [turinhub/cf-mcp-server](https://github.com/turinhub/cf-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The turinhub/cf-mcp-server project provides a scalable, AI-driven image generation platform using the Model Context Protocol (MCP). It integrates seamlessly with Cloudflare Workers to deliver high-performance, serverless image generation services. Th**
 
@@ -7561,7 +7502,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 484. [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 480. [recursechat/mcp-server-apple-shortcuts](https://github.com/recursechat/mcp-server-apple-shortcuts)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The recursechat/mcp-server-apple-shortcuts project provides an Apple Shortcuts MCP server that allows AI models such as Claude Desktop to list available shortcuts, execute actions by name, and interact with external services in a secure and user-cont**
 
@@ -7576,7 +7517,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 485. [gotohuman/gotohuman-mcp-server](https://github.com/gotohuman/gotohuman-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 481. [gotohuman/gotohuman-mcp-server](https://github.com/gotohuman/gotohuman-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The gotohuman-mcp-server is a comprehensive AI-powered developer platform designed to streamline modern software engineering processes. It integrates advanced security features, automated code review, and seamless human-AI collaboration through custo**
 
@@ -7591,7 +7532,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 486. [sirtenzin/autumn-mcp-server](https://github.com/sirtenzin/autumn-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 482. [sirtenzin/autumn-mcp-server](https://github.com/sirtenzin/autumn-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The SirTenzin/autumn-mcp-server is an open-source, lightweight MCP (Managed Cloud Provider) server designed to simplify interaction with the Autumn pricing API. It provides a user-friendly interface and command-line tools for managing customers, invo**
 
@@ -7606,7 +7547,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 487. [marcelmarais/obsidian-mcp-server](https://github.com/marcelmarais/obsidian-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 483. [marcelmarais/obsidian-mcp-server](https://github.com/marcelmarais/obsidian-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The 'obsidian-mcp-server' project provides a standalone, GitHub-hosted MCP server that allows AI tools like Cursor and Claude to read from and write to Obsidian vaults. It supports file operations such as listing files, retrieving open tasks, updatin**
 
@@ -7621,7 +7562,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 488. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 484. [jimmcq/lemonade-stand-mcp-server](https://github.com/jimmcq/lemonade-stand-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **This project implements a Model Context Protocol (MCP) server that enables Claude Desktop to manage a classic business simulation game. It showcases dynamic weather effects, supply chain management, pricing strategies, inventory control, and customer**
 
@@ -7636,7 +7577,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 489. [orbit-logistics/notion-mcp-server](https://github.com/orbit-logistics/notion-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 485. [orbit-logistics/notion-mcp-server](https://github.com/orbit-logistics/notion-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The orbit-logistics/notion-mcp-server project provides a Model Context Protocol (MCP) server that mirrors the Notion API, allowing Large Language Models to interact with Notion pages directly through intuitive natural language commands. This facilita**
 
@@ -7651,7 +7592,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 490. [marcopesani/think-mcp-server](https://github.com/marcopesani/think-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 486. [marcopesani/think-mcp-server](https://github.com/marcopesani/think-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a lightweight MCP server based on Anthropic's 'think' tool research, allowing Claude to pause during response generation to perform additional reasoning. This supports complex multi-step tasks and improves decision-making consi**
 
@@ -7666,7 +7607,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 491. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 487. [mauricio-cantu/brasil-api-mcp-server](https://github.com/mauricio-cantu/brasil-api-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The BrasilAPI MCP Server enables developers to query Brazil-specific data such as postal codes, banks, holidays, and taxes through a unified interface. It supports integration with various clients and LLMs, improving AI agents' capabilities with up-t**
 
@@ -7681,7 +7622,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 492. [rss3-network/mcp-server-rss3](https://github.com/rss3-network/mcp-server-rss3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 488. [rss3-network/mcp-server-rss3](https://github.com/rss3-network/mcp-server-rss3)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The project provides a GitHub-hosted solution for building an MCP (Machine-to-Machine) server that integrates with the RSS3 API. This enables seamless interaction with various data sources such as blockchain networks, social media platforms, and dece**
 
@@ -7696,7 +7637,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 493. [phialsbasement/zonos-tts-mcp](https://github.com/phialsbasement/zonos-tts-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 489. [phialsbasement/zonos-tts-mcp](https://github.com/phialsbasement/zonos-tts-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The project implements a MCP (Message Control Protocol) server that allows the AI model Claude to produce spoken responses. It integrates with Zonos TTS, leveraging PulseAudio for audio playback and configuring the necessary dependencies and environm**
 
@@ -7711,7 +7652,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 494. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 490. [winterjung/mcp-korean-spell](https://github.com/winterjung/mcp-korean-spell)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The winterjung/mcp-korean-spell project provides a Model Context Protocol (MCP) server tailored for Korean language applications. It focuses on integrating advanced spell-checking capabilities into documents and texts, ensuring grammatical accuracy a**
 
@@ -7726,7 +7667,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 495. [f-is-h/mcp-easy-copy](https://github.com/f-is-h/mcp-easy-copy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 491. [f-is-h/mcp-easy-copy](https://github.com/f-is-h/mcp-easy-copy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The f-is-h/mcp-easy-copy GitHub project provides a user-friendly interface to list all available MCP (Messaging Control Protocol) services, making it easier for developers to reference and utilize specific MCP actions without manually searching throu**
 
@@ -7741,7 +7682,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 496. [tonypan2/minesweeper-mcp-server](https://github.com/tonypan2/minesweeper-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 492. [tonypan2/minesweeper-mcp-server](https://github.com/tonypan2/minesweeper-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The project provides a Model Context Protocol (MCP) server that facilitates the remote play of Minesweeper games. It allows MCP client agents to interact with a game server, supporting features such as mine placement, detection, and reporting. The se**
 
@@ -7756,7 +7697,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 497. [rgarcia/mcp-server-server](https://github.com/rgarcia/mcp-server-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 493. [rgarcia/mcp-server-server](https://github.com/rgarcia/mcp-server-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **This project aims to address the limitations of traditional stdio MCP servers by converting them into websocket-based servers. The goal is to simplify client-server interactions, reduce configuration overhead, and enable faster spin-up times. By leve**
 
@@ -7771,7 +7712,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 498. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 494. [shashwat001/mcptools-langchain-integration](https://github.com/shashwat001/mcptools-langchain-integration)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a developer platform that enables seamless interaction between LLMs and external tools via a chat interface. It leverages MCP (Model Context Protocol) to allow users to query language models and execute various applications throu**
 
@@ -7786,7 +7727,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 499. [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 495. [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The Airtable Model Context Protocol Server is a specialized tool designed to bridge artificial intelligence applications with Airtable databases. It allows AI models to query, retrieve, and modify data within Airtable tables by leveraging the Model C**
 
@@ -7801,7 +7742,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 500. [dodopayments/dodopayments-node](https://github.com/dodopayments/dodopayments-node)  `8.5` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
+### 496. [dodopayments/dodopayments-node](https://github.com/dodopayments/dodopayments-node)  `8.5` ★☆☆ ⚡90.0 Q0.9✓ Very good 📍
 
 **The project provides a self-contained MCP server built on the Code Mode tool scheme, enabling agents to write and execute TypeScript code against the Dodopayments SDK in an isolated sandbox. It features a docs search tool for documentation queries an**
 
@@ -7816,7 +7757,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 501. [takltc/gemini-router](https://github.com/takltc/gemini-router)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 497. [takltc/gemini-router](https://github.com/takltc/gemini-router)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The gemini-router acts as a protocol translator situated between an application expecting an Anthropic API endpoint (like Claude Code) and the actual backend service (Google Gemini API). It intercepts requests formatted for Claude, converts them into**
 
@@ -7831,7 +7772,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 502. [kukapay/crypto-indicators-mcp](https://github.com/kukapay/crypto-indicators-mcp)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 498. [kukapay/crypto-indicators-mcp](https://github.com/kukapay/crypto-indicators-mcp)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Kukapay Crypto Indicators MCP Server acts as an intermediary service, enabling AI trading agents (presumably leveraging an MCP client like Claude Desktop) to access complex financial calculations. It serves over 50 distinct technical indicators, **
 
@@ -7846,7 +7787,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 503. [3rzy/make-mcp-integration-issue](https://github.com/3rzy/make-mcp-integration-issue)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 499. [3rzy/make-mcp-integration-issue](https://github.com/3rzy/make-mcp-integration-issue)  `8.0` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The integration of Make (formerly Integromat) with Claude Desktop using the MCP protocol has encountered several technical hurdles. This includes issues with protocol compatibility, configuration mismatches, and communication errors between the Make **
 
@@ -7861,7 +7802,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 504. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
+### 500. [augmnt/augments-mcp-server](https://github.com/augmnt/augments-mcp-server)  `10.0` ★★★ ⚡89.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A next-generation framework documentation platform for Claude Code, offering intelligent caching, multi-source integration, and context-aware assistance to accelerate development.**
 
@@ -7877,7 +7818,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 505. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 501. [freedanfan/mcp_server](https://github.com/freedanfan/mcp_server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This project leverages FastAPI and the Model Context Protocol (MCP) to standardize communication between AI models and development environments. It provides a modular, asynchronous API server that supports JSON-RPC 2.0, SSE connections, and session m**
 
@@ -7893,7 +7834,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 506. [ancode666/nasa-mcp](https://github.com/ancode666/nasa-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 502. [ancode666/nasa-mcp](https://github.com/ancode666/nasa-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The AnCode666 project provides a GitHub-hosted MCP server that allows developers to securely access NASA's astronomical datasets, space weather information, Earth imagery, and exoplanet data via the Model Context Protocol. It supports secure API key **
 
@@ -7909,7 +7850,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 507. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 503. [showfive/playwright-mcp-server](https://github.com/showfive/playwright-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The showfive/playwright-mcp-server project provides a robust server solution for retrieving full-page content and interacting with web elements via the MCP protocol. It supports advanced features such as interactive element detection, mouse operation**
 
@@ -7925,7 +7866,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 508. [akave-ai/akave-mcp](https://github.com/akave-ai/akave-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 504. [akave-ai/akave-mcp](https://github.com/akave-ai/akave-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The Akave MCP server acts as a bridge between AI applications and Akave's cloud storage, allowing seamless integration of AI models like Claude and local LLMs. It provides tools for managing buckets, uploading/downloading objects, generating signed U**
 
@@ -7941,7 +7882,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 509. [sparfenyuk/mcp-telegram](https://github.com/sparfenyuk/mcp-telegram)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 505. [sparfenyuk/mcp-telegram](https://github.com/sparfenyuk/mcp-telegram)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The sparfenyuk/mcp-telegram project provides a Telegram MCP server that acts as a bridge for AI applications like Claude Desktop to communicate with external services through the Model Context Protocol. This allows secure, controlled access to Telegr**
 
@@ -7957,7 +7898,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 510. [sakce/mcp-server-monday](https://github.com/sakce/mcp-server-monday)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 506. [sakce/mcp-server-monday](https://github.com/sakce/mcp-server-monday)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The mcp-server-monday project provides a server-based solution that allows developers to programmatically interact with Monday.com boards and items using tools like Rube App. It supports creating, updating, moving, and archiving items within Monday.c**
 
@@ -7973,7 +7914,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 511. [xexr/mcp-libsql](https://github.com/xexr/mcp-libsql)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 507. [xexr/mcp-libsql](https://github.com/xexr/mcp-libsql)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Xexr/mcp-libsql project provides a secure MCP (Model-Centric Programming) server for interacting with libSQL databases. It supports secure database access through Claude Desktop, Claude Code, Cursor, and other MCP clients, offering robust securit**
 
@@ -7989,7 +7930,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 512. [ujjalcal/mcp](https://github.com/ujjalcal/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 508. [ujjalcal/mcp](https://github.com/ujjalcal/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project offers a comprehensive Python SDK that implements the Model Context Protocol (MCP), enabling developers to create secure, isolated environments for LLMs. It supports server creation, resource management, tool integration, and dynamic prom**
 
@@ -8005,7 +7946,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 513. [pab1it0/adx-mcp-server](https://github.com/pab1it0/adx-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 509. [pab1it0/adx-mcp-server](https://github.com/pab1it0/adx-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The pab1it0/adx-mcp-server project provides a secure, containerized MCP server that allows AI tools to interact with Azure Data Explorer and Eventhouse through KQL queries. It supports multiple deployment options including Docker, Kubernetes, and dir**
 
@@ -8021,7 +7962,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 514. [severity1/argocd-mcp](https://github.com/severity1/argocd-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 510. [severity1/argocd-mcp](https://github.com/severity1/argocd-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP (Model Context Protocol) server integrates with the ArgoCD API, allowing AI assistants and large language models to manage ArgoCD applications and resources through conversational interfaces. It supports authentication, application management**
 
@@ -8037,7 +7978,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 515. [nacgarg/bazel-mcp-server](https://github.com/nacgarg/bazel-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 511. [nacgarg/bazel-mcp-server](https://github.com/nacgarg/bazel-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Bazel MCP Server enables integration of the Bazel build system with MCP-enabled AI agents, allowing seamless execution and management of complex build processes within MCP environments. It provides tools to query targets, run tests, fetch depende**
 
@@ -8053,7 +7994,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 516. [minhyeoky/mcp-server-ledger](https://github.com/minhyeoky/mcp-server-ledger)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 512. [minhyeoky/mcp-server-ledger](https://github.com/minhyeoky/mcp-server-ledger)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The minhyeoky/mcp-server-ledger project provides a Model Context Protocol server that allows Large Language Models to query and analyze financial data via the Ledger CLI, a robust double-entry accounting system. This facilitates tasks such as financi**
 
@@ -8069,7 +8010,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 517. [pavel-bc/mcp-blockchain-query](https://github.com/pavel-bc/mcp-blockchain-query)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 513. [pavel-bc/mcp-blockchain-query](https://github.com/pavel-bc/mcp-blockchain-query)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The project provides a Python-based MCP (Machine-to-Machine) protocol server that facilitates querying Bitcoin blockchain data through the Blockchain.com APIs. It supports various functionalities such as retrieving block details, transaction informat**
 
@@ -8085,7 +8026,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 518. [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 514. [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP (Model Content Protocol) service offers comprehensive financial and technical data for A-share stocks, including basic information, current market trends, historical financials, technical indicators, and trading statistics. It is designed to **
 
@@ -8101,7 +8042,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 519. [dailydaniel/logseq-mcp](https://github.com/dailydaniel/logseq-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 515. [dailydaniel/logseq-mcp](https://github.com/dailydaniel/logseq-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The dailydaniel/logseq-mcp project provides a simple, GitHub-hosted Logseq MCP server that allows large language models to programmatically interact with Logseq knowledge bases. It supports block creation, editing, and management within Logseq, facil**
 
@@ -8117,7 +8058,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 520. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 516. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The nachoal/perplexity-mcp project provides a GitHub-hosted MCP (Model Context Protocol) server that integrates Perplexity's AI to deliver up-to-date, source-cited web search results. It supports enterprise-grade security, automated workflows, and se**
 
@@ -8133,7 +8074,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 521. [fewsats/agora-mcp](https://github.com/fewsats/agora-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 517. [fewsats/agora-mcp](https://github.com/fewsats/agora-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Agora MCP is a server-based solution that integrates AI assistants like Claude or Cursor with the Agora Universal Product Search Engine. It allows users to interact naturally with their AI to find products, compare options, manage shopping carts, and**
 
@@ -8149,7 +8090,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 522. [akshay23/spurs-blog-mcp-server](https://github.com/akshay23/spurs-blog-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 518. [akshay23/spurs-blog-mcp-server](https://github.com/akshay23/spurs-blog-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a web-based platform connecting to the Pounding The Rock RSS feed and leveraging large language models (LLMs) to deliver up-to-date game results, player statistics, and blog content for basketball fans. It supports seamless integ**
 
@@ -8165,7 +8106,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 523. [useshortcut/mcp-server-shortcut](https://github.com/useshortcut/mcp-server-shortcut)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 519. [useshortcut/mcp-server-shortcut](https://github.com/useshortcut/mcp-server-shortcut)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP server for Shortcut is a cloud-hosted service that facilitates the integration of various external applications and tools into the Shortcut workflow. It provides a centralized platform for managing and orchestrating tasks, automating processe**
 
@@ -8181,7 +8122,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 524. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 520. [mcpnow-io/conduit](https://github.com/mcpnow-io/conduit)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **Conduit serves as an MCP server that facilitates interaction between developers and tools like Phabricator and Phorge by providing context-aware services. It supports modern development workflows, secure token-based authentication, and integrates wit**
 
@@ -8197,7 +8138,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 525. [sdi2200262/eclass-mcp-server](https://github.com/sdi2200262/eclass-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 521. [sdi2200262/eclass-mcp-server](https://github.com/sdi2200262/eclass-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The eclass-mcp-server is a Python-based MCP server designed to facilitate secure and efficient communication between external clients and the Open eClass platform. It supports SSO authentication, course retrieval, session management, and course opera**
 
@@ -8213,7 +8154,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 526. [cupofowls/kroger-mcp](https://github.com/cupofowls/kroger-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 522. [cupofowls/kroger-mcp](https://github.com/cupofowls/kroger-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The CupOfOwls/kroger-mcp project provides a FastMCP server that integrates AI assistants such as Claude with Kroger's shopping capabilities through the MCP protocol. This allows AI to perform tasks like finding stores, searching products, managing sh**
 
@@ -8229,7 +8170,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 527. [gongrzhe/audio-mcp-server](https://github.com/gongrzhe/audio-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 523. [gongrzhe/audio-mcp-server](https://github.com/gongrzhe/audio-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The GongRzhe/Audio-MCP-Server is a Python-based application that facilitates integration between AI assistants like Claude and a user's microphone and speakers. It provides tools for recording, playing, and managing audio files, enhancing the develop**
 
@@ -8245,7 +8186,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 528. [jmartin82/signaturit-mcp](https://github.com/jmartin82/signaturit-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 524. [jmartin82/signaturit-mcp](https://github.com/jmartin82/signaturit-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The MCP server acts as a bridge between enterprise systems and Signaturit's API, enabling seamless integration for managing signatures through various tools like email, SMS, and webhooks. It supports features such as listing, creating, and handling s**
 
@@ -8261,7 +8202,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 529. [oraichain/orai-mcp](https://github.com/oraichain/orai-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 525. [oraichain/orai-mcp](https://github.com/oraichain/orai-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Multichain MCP project provides a suite of tools for integrating AI agents with blockchain networks, including an MCP server, agent development tools, and a development kit. It supports multiple blockchain networks through a unified interface and**
 
@@ -8277,7 +8218,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 530. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers
+### 526. [champierre/image-mcp-server](https://github.com/champierre/image-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The Image-MCP Server processes image URLs or local file paths to provide detailed analysis using the GPT-4o-mini model. It supports image validity checks, loading from local files, and Base64 encoding. The project integrates with enterprise security **
 
@@ -8293,7 +8234,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 531. [umin-ai/itemit-mcp](https://github.com/umin-ai/itemit-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 527. [umin-ai/itemit-mcp](https://github.com/umin-ai/itemit-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **itemit-mcp is an MCP server designed to simplify asset tracking by providing a bridge between the itemit asset management API and the Model Context Protocol (MCP) ecosystem. It allows developers to programmatically search, create, and manage assets a**
 
@@ -8309,7 +8250,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 532. [canadaduane/browse-together-mcp](https://github.com/canadaduane/browse-together-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 528. [canadaduane/browse-together-mcp](https://github.com/canadaduane/browse-together-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The project provides a Playwright-controlled browser instance integrated with an MCP server, enabling developers to edit code while interacting with external tools via HTTP API or MCP clients. It supports multiple browsers (Chromium, Firefox) and off**
 
@@ -8325,7 +8266,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 533. [newbeb/stealth-browser-mcp](https://github.com/newbeb/stealth-browser-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 529. [newbeb/stealth-browser-mcp](https://github.com/newbeb/stealth-browser-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project implements a MCP server that leverages Playwright and Puppeteer with stealth mode to allow browsers to navigate websites while evading detection by bot systems. It supports full-page or element-specific screenshots, handles various browse**
 
@@ -8341,7 +8282,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 534. [akash-network/mcp](https://github.com/akash-network/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 530. [akash-network/mcp](https://github.com/akash-network/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a bridge between AI models and the Akash Network, supporting deployment creation, certificate management, SDL operations, and integration with various AI platforms through the Model Context Protocol. It includes tools for wallet **
 
@@ -8357,7 +8298,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 535. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 531. [yy1588133/code-merge-mcp](https://github.com/yy1588133/code-merge-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project implements a Model Context Protocol (MCP) server to facilitate advanced code processing tasks such as file tree generation, content merging, and static code analysis. It supports secure development workflows with features like automated w**
 
@@ -8373,7 +8314,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 536. [shaike1/mcp-server-ssh](https://github.com/shaike1/mcp-server-ssh)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 532. [shaike1/mcp-server-ssh](https://github.com/shaike1/mcp-server-ssh)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The mcp-server-ssh project provides a robust, enterprise-grade SSH server that supports both password and key-based authentication. It facilitates secure remote command execution, file upload/download, permission management, directory operations, and**
 
@@ -8389,7 +8330,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 537. [deepsuthar496/remote-command-mcp](https://github.com/deepsuthar496/remote-command-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 533. [deepsuthar496/remote-command-mcp](https://github.com/deepsuthar496/remote-command-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Remote-Command-MCP server provides a unified interface for executing shell commands on diverse platforms, supporting automation, system administration, and integration with various tools. It abstracts platform differences, handles command normali**
 
@@ -8405,7 +8346,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 538. [arjshiv/localutils-mcp-server](https://github.com/arjshiv/localutils-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 534. [arjshiv/localutils-mcp-server](https://github.com/arjshiv/localutils-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The 'localutils-mcp-server' is a GitHub-hosted utility server designed to offer developers quick access to local system metadata such as time, hostname, public IP, Node.js version, port status, and directory listings. It integrates with MCP clients a**
 
@@ -8421,7 +8362,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 539. [characat0/databricks-mcp-server](https://github.com/characat0/databricks-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 535. [characat0/databricks-mcp-server](https://github.com/characat0/databricks-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Databricks MCP Server acts as a bridge between Databricks and other systems, allowing users to manage catalogs, schemas, tables, execute SQL queries, and interact with Databricks workspaces programmatically. It supports various operations such as**
 
@@ -8437,7 +8378,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 540. [heilgar/shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 536. [heilgar/shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The heilgar/shadcn-ui-mcp-server is a robust MCP (Model Control Protocol) server designed to streamline the development workflow for UI component creation. It offers comprehensive tools for managing components, blocks, and packages, supporting multip**
 
@@ -8453,7 +8394,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 541. [gongrzhe/quickchart-mcp-server](https://github.com/gongrzhe/quickchart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 537. [gongrzhe/quickchart-mcp-server](https://github.com/gongrzhe/quickchart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Quickchart-MCP-Server is a TypeScript-based MCP server that integrates with QuickChart.io to enable developers to create various chart types (bar, line, pie, etc.) by configuring data and styling parameters. It supports customizable chart generat**
 
@@ -8469,7 +8410,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 542. [srmorete/adb-mcp](https://github.com/srmorete/adb-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 538. [srmorete/adb-mcp](https://github.com/srmorete/adb-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The srmorete/adb-mcp project provides a TypeScript-based MCP server that facilitates secure communication between Android devices and AI applications through ADB. It supports device management, app installation, logging, file transfer, UI interaction**
 
@@ -8485,7 +8426,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 543. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 539. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Triple-Whale MCP Server project provides an installer and MCP Server for integrating with Claude Desktop or other MCP clients, enabling natural language interaction with external systems. It supports automation, code review, security, and DevOps **
 
@@ -8501,7 +8442,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 544. [ucalyptus/prem-mcp-server](https://github.com/ucalyptus/prem-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 540. [ucalyptus/prem-mcp-server](https://github.com/ucalyptus/prem-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Prem MCP Server acts as a bridge between Prem AI's model and external clients, enabling real-time chat interactions, document management, and retrieval-augmented generation (RAG) operations. It supports secure API key-based authentication, templa**
 
@@ -8517,7 +8458,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 545. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
+### 541. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The mcp-server acts as a bridge between Ghost's backend and its admin interface, allowing developers to automate workflows such as post management, page updates, member operations, and more. It supports integration with Ghost's API key setup and prov**
 
@@ -8533,7 +8474,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 546. [jasperket/clanki](https://github.com/jasperket/clanki)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 542. [jasperket/clanki](https://github.com/jasperket/clanki)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **This project provides a GitHub-hosted MCP server that integrates Claude Desktop AI assistants with Anki flashcard decks via the Model Context Protocol (MCP). It allows users to create, manage, and interact with Anki decks using AI-powered tools, enha**
 
@@ -8549,7 +8490,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 547. [duyet/duyet-mcp-server](https://github.com/duyet/duyet-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 543. [duyet/duyet-mcp-server](https://github.com/duyet/duyet-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The duyet-mcp-server is a remote MCP implementation that allows AI tools to retrieve structured and unstructured data about duyet.net, including resources, content, and tools via API endpoints. It supports integration with cloud platforms like Cloudf**
 
@@ -8565,7 +8506,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 548. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 544. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The jmanhype/dart-mcp-server project provides a TypeScript-based MCP server that bridges Dart task management to AI tools. It uses Python subprocesses to execute Dart SDK calls, supporting features like task creation, update, and management through a**
 
@@ -8581,7 +8522,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 549. [apitable/aitable-mcp-server](https://github.com/apitable/aitable-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 545. [apitable/aitable-mcp-server](https://github.com/apitable/aitable-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The AITable.MCP-Server facilitates secure and efficient communication between AI models and AITable databases, allowing LLMs to list spaces, search nodes, manage records, and upload attachments. It supports enterprise-grade security, integrates with **
 
@@ -8597,7 +8538,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 550. [Kubit-AI/mcp-server](https://github.com/Kubit-AI/mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 546. [Kubit-AI/mcp-server](https://github.com/Kubit-AI/mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Kubit MCP server acts as a bridge between AI assistants and analytics platforms, allowing users to query, explore, and generate insights from data through natural language. It supports schema exploration, report creation, data export, and integra**
 
@@ -8613,7 +8554,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 551. [cycloidio/cycloid-mcp-server](https://github.com/cycloidio/cycloid-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 547. [cycloidio/cycloid-mcp-server](https://github.com/cycloidio/cycloid-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The cycloid-mcp-server acts as a bridge between AI assistants and Cycloid's infrastructure automation platform, allowing seamless integration through natural language. It provides tools for blueprint exploration, stack creation, validation, and pipel**
 
@@ -8629,7 +8570,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 552. [Zomato/mcp-server-manifest](https://github.com/Zomato/mcp-server-manifest)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
+### 548. [Zomato/mcp-server-manifest](https://github.com/Zomato/mcp-server-manifest)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent 📍
 
 **The Zomato MCP server acts as an API gateway for food ordering services, facilitating seamless communication between third-party applications and the Zomato platform. It supports OAuth authentication, integrates QR code payments, and provides a robus**
 
@@ -8645,7 +8586,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 553. [datacenter/mcp_server_for_cisco_aci](https://github.com/datacenter/mcp_server_for_cisco_aci)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 549. [datacenter/mcp_server_for_cisco_aci](https://github.com/datacenter/mcp_server_for_cisco_aci)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a simple Model Context Protocol (MCP) server that facilitates communication between Cisco APIC controllers and external tools like Claude Desktop or VS Code. It supports local execution via STDIO mode, allowing developers to int**
 
@@ -8660,7 +8601,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 554. [video-db/agent-toolkit](https://github.com/video-db/agent-toolkit/tree/HEAD/modelcontextprotocol)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 550. [video-db/agent-toolkit](https://github.com/video-db/agent-toolkit/tree/HEAD/modelcontextprotocol)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The resource details the implementation of the ModelContext Protocol in the Agent Toolkit, focusing on how to integrate MCP servers and manage interactions between different components. It outlines steps for installing, configuring, and maintaining t**
 
@@ -8675,7 +8616,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 555. [davidlin2k/onos-mcp-server](https://github.com/davidlin2k/onos-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 551. [davidlin2k/onos-mcp-server](https://github.com/davidlin2k/onos-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The ONOS MCP Server acts as a centralized platform for AI-assisted network management, offering comprehensive API access to network devices, traffic analytics, and policy enforcement. It supports advanced features such as flow configuration, QoS sett**
 
@@ -8690,7 +8631,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 556. [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 552. [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP server provides a Python-based platform for network programming, OpenFlow device management, and automated network analysis via POX's modular architecture. It includes tools for managing switches, flow statistics, datapaths, and learning swit**
 
@@ -8705,7 +8646,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 557. [chatmcp/mcp-server-router](https://github.com/chatmcp/mcp-server-router)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 553. [chatmcp/mcp-server-router](https://github.com/chatmcp/mcp-server-router)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The chatmcp/mcp-server-router project provides a GitHub-hosted solution to manage and control multiple MCP (Multi Cloud Platform) servers remotely using the mcprouter library. It enables developers to integrate MCP servers into cloud environments, fa**
 
@@ -8720,7 +8661,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 558. [reeeeemo/ancestry-mcp](https://github.com/reeeeemo/ancestry-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 554. [reeeeemo/ancestry-mcp](https://github.com/reeeeemo/ancestry-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Ancestry MCP server allows users to read, parse, and manipulate GEDCOM (.ged) files hosted on Ancestry.com. It provides tools for renaming, searching, and extracting specific information such as birth dates, family relationships, and more. The pr**
 
@@ -8735,7 +8676,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 559. [vishwajeetdabholkar/eget_mcp](https://github.com/vishwajeetdabholkar/eget_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 555. [vishwajeetdabholkar/eget_mcp](https://github.com/vishwajeetdabholkar/eget_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project establishes a bridge between the eGet web scraping API and Claude for Desktop, allowing users to directly interact with web content through conversational interfaces. It supports automated data extraction, summarization, and search capab**
 
@@ -8750,7 +8691,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 560. [hetaobackend/mcp-pyautogui-server](https://github.com/hetaobackend/mcp-pyautogui-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 556. [hetaobackend/mcp-pyautogui-server](https://github.com/hetaobackend/mcp-pyautogui-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The hetaoBackend/mcp-pyautogui-server is a cross-platform tool that leverages PyAutoGUI to automate mouse and keyboard interactions for GUI applications. It supports advanced features such as precise mouse positioning, screen capture, and integration**
 
@@ -8765,7 +8706,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 561. [mcp2everything/mcp2brave](https://github.com/mcp2everything/mcp2brave)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 557. [mcp2everything/mcp2brave](https://github.com/mcp2everything/mcp2brave)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project introduces a MCP (Mobile Cloud Platform) server that integrates the Brave browser API to facilitate advanced network search functionalities. By utilizing the Brave API, users can leverage their Claude Cline and Langchain systems to perfo**
 
@@ -8780,7 +8721,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 562. [yoavniran/cloudinary-mcp-server](https://github.com/yoavniran/cloudinary-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 558. [yoavniran/cloudinary-mcp-server](https://github.com/yoavniran/cloudinary-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server acts as an intermediary between AI tools and the Cloudinary API, allowing seamless integration for uploading, managing, and retrieving assets. It supports various operations such as uploading files, deleting assets, searching, and gene**
 
@@ -8795,7 +8736,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 563. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 559. [chand45/mcp-server-azure-impact-reporting](https://github.com/chand45/mcp-server-azure-impact-reporting)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP-Server-Azure-Impact-Reporting project provides a Python-based solution that integrates with Azure's Model Context Protocol (MCP) to automatically parse user requests and generate impact reports for Azure resources. It supports various impact **
 
@@ -8810,7 +8751,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 564. [tcpipuk/mcp-server](https://github.com/tcpipuk/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 560. [tcpipuk/mcp-server](https://github.com/tcpipuk/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP Server provides tools for clients over the Model Context Protocol, allowing AI-powered applications to interact with external services via secure, structured communication. It supports integration with SearXNG for web content retrieval and pr**
 
@@ -8825,7 +8766,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 565. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 561. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project offers a GitHub-hosted solution to manage and deploy macOS default settings using the Model Context Protocol server. It includes detailed instructions on setting up the MCP server, configuring defaults, and integrating it into developmen**
 
@@ -8840,7 +8781,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 566. [caretdev/mcp-server-iris](https://github.com/caretdev/mcp-server-iris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 562. [caretdev/mcp-server-iris](https://github.com/caretdev/mcp-server-iris)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The caretdev/mcp-server-iris project provides an InterSystems IRIS MCP server implementation that enables automated interaction with the database using a model-driven approach. It leverages Python and Docker for deployment, offering features such as **
 
@@ -8855,7 +8796,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 567. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 563. [nebula-contrib/nebulagraph-mcp-server](https://github.com/nebula-contrib/nebulagraph-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The nebula-contrib/nebulagraph-mcp-server is a Model Context Protocol (MCP) server designed to provide seamless access to NebulaGraph 3.x. It facilitates integration with LLM tools, supports configuration via environment variables and .env files, and**
 
@@ -8870,7 +8811,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 568. [seyhunak/agentcraft-mcp](https://github.com/seyhunak/agentcraft-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 564. [seyhunak/agentcraft-mcp](https://github.com/seyhunak/agentcraft-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The AgentCraft MCP Server is a scalable, enterprise-ready solution that leverages AI-powered agents to streamline business processes. It integrates seamlessly with AgentCraft, enabling secure and efficient data exchange between agents. The server sup**
 
@@ -8885,7 +8826,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 569. [wangmhaha/apifox-mcp-server](https://github.com/wangmhaha/apifox-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 565. [wangmhaha/apifox-mcp-server](https://github.com/wangmhaha/apifox-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project offers a server implementation based on MCP protocol to fetch and manage ApiFox interface details. It supports both command-line and TypeScript-based APIs, enabling integration with large models through detailed API information. The servi**
 
@@ -8900,7 +8841,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 570. [stakpak/mcp](https://github.com/stakpak/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 566. [stakpak/mcp](https://github.com/stakpak/mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The stakpak/mcp project provides a minimalistic MCP server that facilitates interaction with the Stakpak API, supporting secure code generation, infrastructure provisioning, and workflow automation. It is designed to streamline integration with exter**
 
@@ -8915,7 +8856,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 571. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 567. [heetvekariya/linear-regression-mcp](https://github.com/heetvekariya/linear-regression-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a fully automated machine learning pipeline that integrates data ingestion, preprocessing, model training, evaluation, and deployment. It leverages the Model Context Protocol (MCP) to connect with external tools like Claude Deskt**
 
@@ -8930,7 +8871,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 572. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 568. [lauriewired/ghidramcp](https://github.com/lauriewired/ghidramcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a bridge between Ghidra, a powerful open-source reverse engineering platform, and MCP (Model Context Protocol) servers. This integration facilitates seamless deployment of Ghidra's decompilation and analysis tools within MCP clie**
 
@@ -8945,7 +8886,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 573. [hxie-pallas/gdrive-mcp-server](https://github.com/hxie-pallas/gdrive-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 569. [hxie-pallas/gdrive-mcp-server](https://github.com/hxie-pallas/gdrive-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The gdrive-mcp-server project provides a Python implementation that allows developers to interact with Google Drive using the MCP (Machine Control Protocol) interface. It supports secure authentication, file search, content retrieval, and metadata ac**
 
@@ -8960,7 +8901,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 574. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 570. [strickvl/mcp-beeminder](https://github.com/strickvl/mcp-beeminder)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a MCP-compatible server that allows AI models, such as those in Claude Desktop or IDEs, to securely access and manage Beeminder data and functionality. It standardizes how applications provide context to LLMs by exposing specifi**
 
@@ -8975,7 +8916,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 575. [tedlikeskix/alpaca-mcp-server](https://github.com/tedlikeskix/alpaca-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 571. [tedlikeskix/alpaca-mcp-server](https://github.com/tedlikeskix/alpaca-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The alpaca-mcp-server acts as a bridge between AI models like Claude and the Alpaca trading platform, allowing users to place orders, check positions, and manage accounts using conversational interfaces. It supports real-time market data, order manag**
 
@@ -8990,7 +8931,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 576. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 572. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The xBlueCode findata-mcp-server is a GitHub-hosted platform designed to integrate with the Alpha Vantage API, enabling developers to fetch stock market data such as current quotes and historical trends. It supports enterprise-grade security features**
 
@@ -9005,7 +8946,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 577. [getalby/nwc-mcp-server](https://github.com/getalby/nwc-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 573. [getalby/nwc-mcp-server](https://github.com/getalby/nwc-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a GitHub-hosted server for integrating a Bitcoin Lightning wallet with large language models (LLMs) via the Nostr Wallet Connect protocol. It enables secure, real-time interaction between blockchain-based financial tools and AI **
 
@@ -9020,7 +8961,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 578. [archiephan78/ssi-stock-mcp-server](https://github.com/archiephan78/ssi-stock-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 574. [archiephan78/ssi-stock-mcp-server](https://github.com/archiephan78/ssi-stock-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The project provides a cloud-based MCP server that allows developers and AI tools to interact with real-time Vietnamese stock market data using the SSI FastConnect API. It supports features such as retrieving securities lists, detailed stock informat**
 
@@ -9035,7 +8976,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 579. [filipptrigub/linkedin-mcp](https://github.com/filipptrigub/linkedin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 575. [filipptrigub/linkedin-mcp](https://github.com/filipptrigub/linkedin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The project provides a Python-based MCP server that enables developers to interact with the LinkedIn API, facilitating tasks such as posting updates, managing media attachments, and controlling post visibility. It supports enterprise-grade security f**
 
@@ -9050,7 +8991,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 580. [felixwu1110/pubmed_mcp](https://github.com/felixwu1110/pubmed_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 576. [felixwu1110/pubmed_mcp](https://github.com/felixwu1110/pubmed_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The Borg Project's 'pubmed_mcp' repository offers a robust MCP server that enables users to search, analyze, and retrieve academic medical papers from the PubMed database. It provides advanced features such as topic-based searches, citation generatio**
 
@@ -9065,7 +9006,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 581. [bingal/fastdomaincheck-mcp-server](https://github.com/bingal/fastdomaincheck-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 577. [bingal/fastdomaincheck-mcp-server](https://github.com/bingal/fastdomaincheck-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **FastDomainCheck-MCP-Server is a Model Context Protocol (MCP) server designed to securely and efficiently verify the registration status of multiple domain names using WHOIS and DNS verification. It supports bulk operations, ensuring compatibility wit**
 
@@ -9080,7 +9021,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 582. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 578. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Wordware-MCP-Server project provides a modular Python framework for managing code repositories, enforcing security protocols, and automating development workflows. It supports integration with external tools, secure code handling, and enterprise-**
 
@@ -9095,7 +9036,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 583. [jedrazb/elastic-semantic-search-mcp-server](https://github.com/jedrazb/elastic-semantic-search-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 579. [jedrazb/elastic-semantic-search-mcp-server](https://github.com/jedrazb/elastic-semantic-search-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This project provides a Python implementation of an MCP (Machine Crawler Protocol) server integrated with Elasticsearch to enable semantic search capabilities. It allows users to search up-to-date documentation and content from Search Labs blog posts**
 
@@ -9110,7 +9051,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 584. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 580. [lrstanley/context7-http](https://github.com/lrstanley/context7-http)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The lrstanley/context7-http project provides a context server that supports HTTP streaming and streamable protocols, allowing developers to interact with the Context7 platform from anywhere. It includes features such as code review management, securi**
 
@@ -9125,7 +9066,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 585. [jackkuo666/biorxiv-mcp-server](https://github.com/jackkuo666/biorxiv-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 581. [jackkuo666/biorxiv-mcp-server](https://github.com/jackkuo666/biorxiv-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The biorxiv-mcp-server project provides a Python-based server that integrates with the Model Context Protocol (MCP) to allow AI tools and assistants to query, retrieve, and manage bioRxiv preprint papers programmatically. It includes features such as**
 
@@ -9140,7 +9081,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 586. [kevinwatt/mcp-server-searxng](https://github.com/kevinwatt/mcp-server-searxng)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 582. [kevinwatt/mcp-server-searxng](https://github.com/kevinwatt/mcp-server-searxng)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a secure, privacy-centric meta search engine that integrates with SearXNG, enabling users to perform searches across multiple search engines while maintaining user anonymity and data protection. It supports various search engines**
 
@@ -9155,7 +9096,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 587. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 583. [christopherwoodall/nmap-mcp](https://github.com/christopherwoodall/nmap-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a Python-based MCP server designed to facilitate secure and efficient NMAP (Network Mapper) operations. It allows for automation of network scanning tasks, integration with various tools, and supports enterprise-grade security fe**
 
@@ -9170,7 +9111,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 588. [gabbo01/zeek-mcp](https://github.com/gabbo01/zeek-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 584. [gabbo01/zeek-mcp](https://github.com/gabbo01/zeek-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The Zeek-MCP project provides utilities to integrate the Model Context Protocol (MCP) server with conversational AI platforms like Claude Desktop. It offers tools such as execzeek and parselogs for analyzing network traffic and parsing logs, enabling**
 
@@ -9185,7 +9126,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 589. [brucedh/aws-ireveal-mcp](https://github.com/brucedh/aws-ireveal-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
+### 585. [brucedh/aws-ireveal-mcp](https://github.com/brucedh/aws-ireveal-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers
 
 **The Brucedh/aws-ireveal-mcp project provides a Model Context Protocol (MCP) server that integrates with multiple AWS services such as CloudTrail, Amazon Athena, CloudWatch, and more. It allows security teams to trace actions, analyze logs, detect thr**
 
@@ -9200,7 +9141,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 590. [trustasia-com/myssl-mcp-server-go](https://github.com/trustasia-com/myssl-mcp-server-go)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 586. [trustasia-com/myssl-mcp-server-go](https://github.com/trustasia-com/myssl-mcp-server-go)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The myssl-mcp-server-go project provides a Go-based MCP server that integrates with the MySSL API to verify HTTPS connections. It includes features such as domain checks, health monitoring, AI client integration, and secure deployment workflows. This**
 
@@ -9215,7 +9156,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 591. [michaelbuckner/servicenow-mcp](https://github.com/michaelbuckner/servicenow-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 587. [michaelbuckner/servicenow-mcp](https://github.com/michaelbuckner/servicenow-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-server-servicenow project provides a Python-based MCP server that allows AI agents to perform natural language queries, search records, update incidents, manage scripts, and automate workflows within ServiceNow. It integrates with ServiceNow'**
 
@@ -9230,7 +9171,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 592. [effytech/freshservice_mcp](https://github.com/effytech/freshservice_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 588. [effytech/freshservice_mcp](https://github.com/effytech/freshservice_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The effytech/freshservice_mcp project provides a secure MCP (Model Context Protocol) server that integrates with Freshservice, allowing AI assistants like Claude to manage IT service tickets, automate workflows, and interact with various Freshservice**
 
@@ -9245,7 +9186,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 593. [galvingao/mcp-simplelocalize](https://github.com/galvingao/mcp-simplelocalize)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 589. [galvingao/mcp-simplelocalize](https://github.com/galvingao/mcp-simplelocalize)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a simple and efficient MCP (Model Context Protocol) server tailored for the SimpleLocalize library, enabling seamless integration of model context services within applications. It focuses on ease of use, rapid setup, and strong **
 
@@ -9260,7 +9201,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 594. [hhw67865/tripadvisor-mcp-server](https://github.com/hhw67865/tripadvisor-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 590. [hhw67865/tripadvisor-mcp-server](https://github.com/hhw67865/tripadvisor-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The TripAdvisor MCP Server is a custom-built application that leverages TripAdvisor API to provide vacation planning services. It offers features such as location search, detailed location information, nearby attraction discovery, and interactive vac**
 
@@ -9275,7 +9216,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 595. [yuiseki/edge_tts_mcp_server](https://github.com/yuiseki/edge_tts_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 591. [yuiseki/edge_tts_mcp_server](https://github.com/yuiseki/edge_tts_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a server-based solution using the edge-tts_mcp_server to enable text-to-speech functionality via Microsoft Edge. It supports multiple languages, adjustable speech speed and pitch, and integrates with FastAPI for real-time API acc**
 
@@ -9290,7 +9231,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 596. [qainsights/locust-mcp-server](https://github.com/qainsights/locust-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 592. [qainsights/locust-mcp-server](https://github.com/qainsights/locust-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Locust MCP server facilitates seamless integration of load testing capabilities into AI-powered development environments by leveraging the Model Context Protocol framework. It supports headless and UI modes, configurable test parameters, real-tim**
 
@@ -9305,7 +9246,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 597. [sandst1/mcp-server-midi](https://github.com/sandst1/mcp-server-midi)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 593. [sandst1/mcp-server-midi](https://github.com/sandst1/mcp-server-midi)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The sandst1/mcp-server-midi project provides a Python-based MIDI server that allows any compatible software to receive and play MIDI sequences. It supports sending Note On, Note Off, Control Change messages, and sequences with precise timing, making **
 
@@ -9320,7 +9261,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 598. [ryojerryyu/mcp-server-memos-py](https://github.com/ryojerryyu/mcp-server-memos-py)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 594. [ryojerryyu/mcp-server-memos-py](https://github.com/ryojerryyu/mcp-server-memos-py)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-server-memos-py package provides a Python interface for interacting with the Memos server using the MCP (Model Context Protocol) protocol. It allows developers to search, create, retrieve, and manage memos programmatically, supporting feature**
 
@@ -9335,7 +9276,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 599. [rai220/think-mcp](https://github.com/rai220/think-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 595. [rai220/think-mcp](https://github.com/rai220/think-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Think MCP project implements a lightweight MCP (Model Context Protocol) server to enhance structured reasoning capabilities in agentic AI systems. By integrating the 'think' tool, it allows AI agents to pause and record explicit thoughts during c**
 
@@ -9350,7 +9291,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 600. [beverm2391/chain-of-thought-mcp-server](https://github.com/beverm2391/chain-of-thought-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 596. [beverm2391/chain-of-thought-mcp-server](https://github.com/beverm2391/chain-of-thought-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project's Chain of Thought MCP Server integrates Groq's API to extract detailed reasoning traces from large language models, enabling more transparent and explainable AI interactions. It enhances developer workflows by providing structured t**
 
@@ -9365,7 +9306,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 601. [danishjsheikh/swagger-mcp](https://github.com/danishjsheikh/swagger-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 597. [danishjsheikh/swagger-mcp](https://github.com/danishjsheikh/swagger-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **swagger-mcp is a GitHub-hosted tool designed to scrape Swagger/OpenAPI documentation and automatically generate MCP (Machine Control Protocol) tools for integration with MCP clients. It enhances developer workflows by enabling programmatic selection **
 
@@ -9380,7 +9321,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 602. [upamune/human-mcp](https://github.com/upamune/human-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 598. [upamune/human-mcp](https://github.com/upamune/human-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Human-MCP project provides a Python-based MCP server that integrates with AI assistants like Claude Desktop. It allows users to input responses through a Streamlit UI, which are then sent to the MCP server via SQLite. The server processes these i**
 
@@ -9395,7 +9336,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 603. [lior-ps/multi-llm-cross-check-mcp-server](https://github.com/lior-ps/multi-llm-cross-check-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 599. [lior-ps/multi-llm-cross-check-mcp-server](https://github.com/lior-ps/multi-llm-cross-check-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Multi LLM Cross-Check MCP Server is a Python-based application that integrates with various large language models (LLMs) such as OpenAI, Anthropic, Perplexity, and Gemini. It allows developers to query multiple LLM APIs in parallel, ensuring cons**
 
@@ -9410,7 +9351,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 604. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 600. [cyanheads/toolkit-mcp-server](https://github.com/cyanheads/toolkit-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The toolkit-mcp-server is a Model Context Protocol server designed to enhance AI agents by integrating essential system utilities such as IP geolocation, network diagnostics, system monitoring, cryptographic operations, and QR code generation. It sup**
 
@@ -9425,7 +9366,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 605. [zeeroiq/pet-adoption-scheduling-service](https://github.com/zeeroiq/pet-adoption-scheduling-service)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 601. [zeeroiq/pet-adoption-scheduling-service](https://github.com/zeeroiq/pet-adoption-scheduling-service)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides an adoption scheduling service that functions as a Message Queuing Protocol (MCP) server. It is designed to integrate with AWS services via Spring-AI-AWS, enabling efficient appointment management for pet adoptions. The service s**
 
@@ -9440,7 +9381,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 606. [0xkoda/eth-mcp](https://github.com/0xkoda/eth-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 602. [0xkoda/eth-mcp](https://github.com/0xkoda/eth-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The eth-mcp project provides a Model Context Protocol (MCP) server that allows developers to interact with the Ethereum blockchain through JSON-RPC methods. It supports integration with various MCP-compatible clients such as Claude Desktop and Cursor**
 
@@ -9455,7 +9396,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 607. [lucky-dersan/gemini-mcp-server](https://github.com/lucky-dersan/gemini-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 603. [lucky-dersan/gemini-mcp-server](https://github.com/lucky-dersan/gemini-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The gemini-mcp-server project provides a Python implementation of the MCP (Model Context Protocol) server, facilitating seamless integration with external AI models like Gemini. It supports automated code generation, workflow automation, and secure d**
 
@@ -9470,7 +9411,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 608. [gongrzhe/image-generation-mcp-server](https://github.com/gongrzhe/image-generation-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 604. [gongrzhe/image-generation-mcp-server](https://github.com/gongrzhe/image-generation-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Image-Generation-MCP-Server is a web application that leverages the Replicate Flux model to generate images from textual prompts. It provides developers and users with an intuitive interface to create high-quality images programmatically, support**
 
@@ -9485,7 +9426,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 609. [pskill9/website-downloader](https://github.com/pskill9/website-downloader)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 605. [pskill9/website-downloader](https://github.com/pskill9/website-downloader)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The website downloader MCP server enables users to fetch complete web pages by recursively downloading all necessary resources such as CSS, images, and scripts. It supports deep linking, maintains site structure, and restricts downloads to the same d**
 
@@ -9500,7 +9441,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 610. [gologinapp/gologin-mcp](https://github.com/gologinapp/gologin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 606. [gologinapp/gologin-mcp](https://github.com/gologinapp/gologin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **This project enables seamless integration between GoLogin MCP and external platforms via API tokens, supporting tasks such as profile management, proxy configuration, and cross-platform automation. It leverages Node.js for backend logic, GoLogin's MC**
 
@@ -9515,7 +9456,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 611. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 607. [jakedahn/deno2-playwright-mcp-server](https://github.com/jakedahn/deno2-playwright-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Model Context Protocol (MCP) server that integrates Playwright for browser automation, allowing AI models to execute JavaScript, take screenshots, and interact with web applications in real time. It leverages Deno 2's lightweig**
 
@@ -9530,7 +9471,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 612. [the-freetech-company/mcp-sse-authenticated-cloud-run](https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 608. [the-freetech-company/mcp-sse-authenticated-cloud-run](https://github.com/the-freetech-company/mcp-sse-authenticated-cloud-run)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project demonstrates how to securely deploy an MCP server using Google Cloud Run and authenticate it via IAM. It outlines the steps for setting up a proxy connection, configuring security, and integrating with Cloud Run for scalable, secure acce**
 
@@ -9545,7 +9486,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 613. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 609. [weidongxu-microsoft/mcp-azure-java-sdk-assist](https://github.com/weidongxu-microsoft/mcp-azure-java-sdk-assist)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **This technical resource details the development and deployment of an MCP (Model Context Protocol) server using JavaScript and the official Azure Java SDK. It outlines the architecture, tools, and workflows necessary to connect AI assistants securely **
 
@@ -9560,7 +9501,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 614. [johancodinha/nrepl-mcp-server](https://github.com/johancodinha/nrepl-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 610. [johancodinha/nrepl-mcp-server](https://github.com/johancodinha/nrepl-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The nRepl mcp server acts as an MCP client, allowing users to interact with a live Clojure nREPL instance. It supports evaluating Clojure code in specified namespaces, inspecting public variables, and retrieving connection status. This tool enhances **
 
@@ -9575,7 +9516,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 615. [leomercier/mcp-tunnel](https://github.com/leomercier/mcp-tunnel)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 611. [leomercier/mcp-tunnel](https://github.com/leomercier/mcp-tunnel)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The leomercier/mcp-tunnel project provides a lightweight MCP server that facilitates remote execution of shell commands on virtual machines through a web interface. It supports secure, automated tunneling between the host and VM environments, enablin**
 
@@ -9590,7 +9531,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 616. [tkellogg/postal-mcp](https://github.com/tkellogg/postal-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 612. [tkellogg/postal-mcp](https://github.com/tkellogg/postal-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Postal-MCP project provides a SQLite-backed message queue for two or more agents to communicate securely using MCP (Message Queuing Protocol). It allows agents to send and receive messages in real-time, facilitating collaboration without direct d**
 
@@ -9605,7 +9546,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 617. [r3-yamauchi/mcp-server-blastengine-mailer](https://github.com/r3-yamauchi/mcp-server-blastengine-mailer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 613. [r3-yamauchi/mcp-server-blastengine-mailer](https://github.com/r3-yamauchi/mcp-server-blastengine-mailer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project implements a custom MCP (Model Context Protocol) server built in Node.js that leverages the Blastengine API to facilitate email communication. It supports sending emails programmatically with features such as sending messages, managing c**
 
@@ -9620,7 +9561,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 618. [hongsw/aligo-sms-mcp-server](https://github.com/hongsw/aligo-sms-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 614. [hongsw/aligo-sms-mcp-server](https://github.com/hongsw/aligo-sms-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The Hongsw aligo-sms-mcp-server is a GitHub-hosted MCP server designed to facilitate secure and standardized access to the Aligo SMS API. It enables AI agents, such as Claude, to interact with SMS services by adhering to the Model Context Protocol (M**
 
@@ -9635,7 +9576,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 619. [nicholasq/mcp-server-libsql](https://github.com/nicholasq/mcp-server-libsql)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 615. [nicholasq/mcp-server-libsql](https://github.com/nicholasq/mcp-server-libsql)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP-Server-LibSQL project provides a Deno-based server application that interfaces with LibSQL databases. It leverages the Model Context Protocol (MCP) to handle schema information, resource queries, prompt completion, and SQL execution. Designed**
 
@@ -9650,7 +9591,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 620. [hummusonrails/couchbase-mcp-server](https://github.com/hummusonrails/couchbase-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 616. [hummusonrails/couchbase-mcp-server](https://github.com/hummusonrails/couchbase-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The repository provides a Couchbase MCP Server built with the Couchbase Node.js SDK, allowing MCP clients like Claude Desktop to interact with Couchbase Capella clusters via the Model Context Protocol (MCP). It supports executing SQL++ queries on lar**
 
@@ -9665,7 +9606,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 621. [lkb2k/mcp-gradle](https://github.com/lkb2k/mcp-gradle)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 617. [lkb2k/mcp-gradle](https://github.com/lkb2k/mcp-gradle)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The lkb2k/mcp-gradle project provides a Gradle-based wrapper for launching a Tomcat-based development server, enabling seamless integration with Claude and other MCP clients. It supports process management, log querying, real-time monitoring, and con**
 
@@ -9680,7 +9621,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 622. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 618. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **This project provides an AI-driven development toolkit using a Model Context Protocol (MCP) server to enhance coding productivity. It integrates advanced reasoning LLMs, code review tools, and file analysis features to support modern software develop**
 
@@ -9695,7 +9636,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 623. [thinq-connect/thinqconnect-mcp](https://github.com/thinq-connect/thinqconnect-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 619. [thinq-connect/thinqconnect-mcp](https://github.com/thinq-connect/thinqconnect-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The ThinQ Connect MCP Server facilitates secure, standardized communication between enterprise IT systems and LG ThinQ devices using the Model Context Protocol (MCP). It provides tools for device discovery, status monitoring, control commands, and da**
 
@@ -9710,7 +9651,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 624. [noahlozevski/mcp-idb](https://github.com/noahlozevski/mcp-idb)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 620. [noahlozevski/mcp-idb](https://github.com/noahlozevski/mcp-idb)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a server-based integration solution that enables seamless communication between MCP and Facebook's iOS Development Bridge (idb), facilitating automated iOS device management, test execution, and interaction workflows. It supports**
 
@@ -9725,7 +9666,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 625. [zhixiaoqiang/desktop-image-manager-mcp](https://github.com/zhixiaoqiang/desktop-image-manager-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 621. [zhixiaoqiang/desktop-image-manager-mcp](https://github.com/zhixiaoqiang/desktop-image-manager-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a Node.js-based MCP (Model Context Protocol) server that enables users to manage their desktop image files efficiently. It includes features such as counting the number of images on the desktop, listing all image files, and compr**
 
@@ -9740,7 +9681,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 626. [magnetai/mcp-free-usdc-transfer](https://github.com/magnetai/mcp-free-usdc-transfer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 622. [magnetai/mcp-free-usdc-transfer](https://github.com/magnetai/mcp-free-usdc-transfer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The magnetai/mcp-free-usdc-transfer project provides a MCP server that facilitates seamless, fee-free USDC transfers between any address or ENS/BaseName domain. It integrates with Coinbase CDP to enable instant blockchain transactions without waiting**
 
@@ -9755,7 +9696,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 627. [l3wi/mcp-lighthouse](https://github.com/l3wi/mcp-lighthouse)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 623. [l3wi/mcp-lighthouse](https://github.com/l3wi/mcp-lighthouse)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The l3wi/mcp-lighthouse project provides a locally hosted MCP server that allows users to authenticate with Lighthouse, view portfolio details, transaction history, performance analytics, and more. It supports secure authentication via transfer token**
 
@@ -9770,7 +9711,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 628. [gcorroto/mcp-n8n-webhook](https://github.com/gcorroto/mcp-n8n-webhook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers 📍
+### 624. [gcorroto/mcp-n8n-webhook](https://github.com/gcorroto/mcp-n8n-webhook)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗4 layers 📍
 
 **The mcp-n8n-webhook project enables integration with n8n by sending structured data to a webhook endpoint, facilitating efficient storage, indexing, and retrieval of conversational logs and embeddings for AI applications. It supports various use case**
 
@@ -9785,7 +9726,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 629. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 625. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **This project introduces an updated MCP server leveraging TypeScript to improve interoperability, security, and developer workflow. It focuses on integrating external tools, automating workflows, and enhancing application security through advanced fea**
 
@@ -9800,7 +9741,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 630. [firstorderai/authenticator_mcp](https://github.com/firstorderai/authenticator_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 626. [firstorderai/authenticator_mcp](https://github.com/firstorderai/authenticator_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The authenticator-mcp tool facilitates seamless integration between AI assistants and secure authentication systems, allowing AI agents to retrieve and use 2FA codes or passwords across platforms. It supports configuration via environment variables a**
 
@@ -9815,7 +9756,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 631. [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 627. [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The kukapay/token-revoke-mcp project provides a decentralized solution for managing and revoking ERC-20 token allowances on various blockchain networks. It enables secure, automated checks and revocations of token approvals, enhancing security and co**
 
@@ -9830,7 +9771,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 632. [x3r0k/shodan-mcp-server](https://github.com/x3r0k/shodan-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 628. [x3r0k/shodan-mcp-server](https://github.com/x3r0k/shodan-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The X3r0K/Shodan-MCP-Server is a Node.js-based MCP (Model Context Protocol) implementation that allows developers to integrate Shodan intelligence into their applications. It provides tools for retrieving IP information, DNS lookups, vulnerability da**
 
@@ -9845,7 +9786,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 633. [other-blowsnow/mcp-server-chinarailway](https://github.com/other-blowsnow/mcp-server-chinarailway)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 629. [other-blowsnow/mcp-server-chinarailway](https://github.com/other-blowsnow/mcp-server-chinarailway)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project focuses on developing a robust server solution to handle and manage the Chinarailway MCP (Messaging Channel Protocol) server, providing essential functionalities for deployment, configuration, and monitoring. It emphasizes automation, sec**
 
@@ -9860,7 +9801,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 634. [sragss/flight-mcp](https://github.com/sragss/flight-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 630. [sragss/flight-mcp](https://github.com/sragss/flight-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project focuses on building a developer platform that enables seamless integration of AI assistants with real-time flight intelligence via the MCP protocol. It leverages APIs from ADS-B Exchange to fetch live aircraft data, allowing developers to**
 
@@ -9875,7 +9816,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 635. [faizan45640/google-classroom-mcp-server](https://github.com/faizan45640/google-classroom-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 631. [faizan45640/google-classroom-mcp-server](https://github.com/faizan45640/google-classroom-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Google Classroom MCP Server is an enterprise-grade platform that facilitates secure and efficient interaction with Google Classroom data through Claude and other AI-powered assistants. It provides tools for managing courses, assignments, and cour**
 
@@ -9890,7 +9831,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 636. [luorivergoddess/mcp-geo](https://github.com/luorivergoddess/mcp-geo)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 632. [luorivergoddess/mcp-geo](https://github.com/luorivergoddess/mcp-geo)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The Luorivergoddess/mcp-geo project provides a server-based solution that enables AI models to request geometric image generation by supplying Asymptote code. It supports integration with MCP clients, offering precise control over output formats and **
 
@@ -9905,7 +9846,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 637. [husqvaluna/symbol-blockchain-mcp-server](https://github.com/husqvaluna/symbol-blockchain-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 633. [husqvaluna/symbol-blockchain-mcp-server](https://github.com/husqvaluna/symbol-blockchain-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The Symbol Blockchain MCP Server is a backend service designed to provide access to the Symbol blockchain's Model Context Protocol (MCP) tools via REST API. It enables developers and applications to interact with the blockchain in a structured, secur**
 
@@ -9920,7 +9861,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 638. [sheshiyer/framer-plugin-mcp](https://github.com/sheshiyer/framer-plugin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 634. [sheshiyer/framer-plugin-mcp](https://github.com/sheshiyer/framer-plugin-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The Sheshiyer/framer-plugin-mcp project provides a Model Context Protocol (MCP) server that facilitates the creation, building, and management of Framer plugins with integrated web3 capabilities. This includes wallet connectivity, smart contract inte**
 
@@ -9935,7 +9876,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 639. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 635. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted server that integrates TinyPNG's image compression capabilities with LLM-based interfaces, enabling developers to automate and enhance their workflows. It supports various image formats and offers seamless integra**
 
@@ -9950,7 +9891,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 640. [hedera-dev/mirrornode-mcp-server](https://github.com/hedera-dev/mirrornode-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 636. [hedera-dev/mirrornode-mcp-server](https://github.com/hedera-dev/mirrornode-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a robust MCP server capable of interfacing with the Hedera Testnet Mirror Node API. It leverages Zod schemas for input validation, supports Server-Sent Events, and is designed to be integrated into modern DevOps workflows. The s**
 
@@ -9965,7 +9906,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 641. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 637. [klara-research/mcp-analyzer](https://github.com/klara-research/mcp-analyzer)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **MCP-Analyzer is a specialized server that enables developers to read, filter, and analyze Model Context Protocol (MCP) logs directly on macOS, Windows, and Linux. It supports advanced search functionalities, pagination, and integration with Claude De**
 
@@ -9980,7 +9921,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 642. [itsdarianngo/mcp-vercel-ai](https://github.com/itsdarianngo/mcp-vercel-ai)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 638. [itsdarianngo/mcp-vercel-ai](https://github.com/itsdarianngo/mcp-vercel-ai)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **This project provides a server implementation that connects Vercel-compatible LLM providers such as OpenAI and Mistral with the MCP platform. It enables developers to deploy intelligent applications using structured outputs, system prompts, and suppo**
 
@@ -9995,7 +9936,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 643. [amysatterlee/nps_mcp](https://github.com/amysatterlee/nps_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 639. [amysatterlee/nps_mcp](https://github.com/amysatterlee/nps_mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP Server provides a user-friendly interface to retrieve and manage National Park Services data, enabling developers and users to interact with the National Park Service API through intuitive tools and APIs. It supports various functionalities s**
 
@@ -10010,7 +9951,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 644. [francis-ros/rostro-mcp-server](https://github.com/francis-ros/rostro-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
+### 640. [francis-ros/rostro-mcp-server](https://github.com/francis-ros/rostro-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good 📍
 
 **The Rostro MCP server is an open standard protocol that allows language models to securely connect to third-party APIs, services, and data sources. It facilitates seamless integration with external applications by providing a consistent interface for**
 
@@ -10025,7 +9966,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 645. [JunoJunHyun/Festival-Finder-mcp](https://github.com/JunoJunHyun/Festival-Finder-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 641. [JunoJunHyun/Festival-Finder-mcp](https://github.com/JunoJunHyun/Festival-Finder-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Festival-Finder-mcp project is designed to act as a core engine for retrieving festival data via the KOPIS API, while connection adapters enable seamless integration with various platforms such as KakaoTalk and generic websites. It supports modul**
 
@@ -10040,7 +9981,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 646. [tedfytw1209/mcp-server-EVEfleet](https://github.com/tedfytw1209/mcp-server-EVEfleet)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
+### 642. [tedfytw1209/mcp-server-EVEfleet](https://github.com/tedfytw1209/mcp-server-EVEfleet)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server for EVE Fleet Manager is a GitHub-hosted platform designed to streamline fleet management tasks for EVE Online players. It provides tools for SSO authorization, squad organization, fleet composition inspection, MOTD updates, and fleet **
 
@@ -10055,7 +9996,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 647. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)  `8.0` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 643. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)  `8.0` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The `hyperbrowserai/mcp` project serves as an implementation of the Model Context Protocol (MCP) server for the Hyperbrowser environment. Its primary function is to act as a standardized communication layer, allowing external applications (like AI mo**
 
@@ -10071,7 +10012,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 648. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
+### 644. [zhengwanbo/oracle-mcp-server](https://github.com/zhengwanbo/oracle-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A powerful Model Context Protocol server that enhances AI assistants' understanding of large Oracle databases by providing contextual schema information, enabling accurate and efficient database interactions.**
 
@@ -10087,7 +10028,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 649. [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
+### 645. [cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server)  `9.6` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Empowers AI agents and development tools to interact seamlessly with Obsidian vaults via the Model Context Protocol, enabling automated vault management, note manipulation, search, and integration with AI workflows.**
 
@@ -10103,7 +10044,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 650. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers
+### 646. [alperenkocyigit/authorprofilemcp](https://github.com/alperenkocyigit/authorprofilemcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The MCP server enables analysis of academic author relationships by leveraging APIs from Google Scholar, Crossref, and Semantic Scholar. It supports features such as finding co-authors, extracting keywords, and integrating data across multiple source**
 
@@ -10119,7 +10060,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 651. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
+### 647. [orellazri/coda-mcp](https://github.com/orellazri/coda-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP Server for Coda provides a standardized API for interacting with Coda's document management system, allowing AI tools to perform CRUD operations and manipulate content across Coda pages. It supports features such as listing documents, creatin**
 
@@ -10135,7 +10076,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 652. [kakehashi-inc/mcp-server-mattermost](https://github.com/kakehashi-inc/mcp-server-mattermost)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
+### 648. [kakehashi-inc/mcp-server-mattermost](https://github.com/kakehashi-inc/mcp-server-mattermost)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent 📍
 
 **This project provides a Node.js-based MCP server that securely connects to the Mattermost API, enabling seamless integration of Mattermost messages across various channels. It supports multiple transport modes including stdio, sse, and http-stream, a**
 
@@ -10151,7 +10092,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 653. [g0t4/mcp-server-memory-file](https://github.com/g0t4/mcp-server-memory-file)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
+### 649. [g0t4/mcp-server-memory-file](https://github.com/g0t4/mcp-server-memory-file)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The project proposes creating a memory text file to replicate ChatGPT-like memory functionality for Claude and other MCP clients. This involves storing conversation history, enabling recall of past interactions, and managing memory retrieval during c**
 
@@ -10167,7 +10108,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 654. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
+### 650. [ronantakizawa/gis-dataconversion-mcp](https://github.com/ronantakizawa/gis-dataconversion-mcp)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The GIS Data Conversion MCP (MCP) server facilitates the conversion of diverse GIS file types into standardized formats such as GeoJSON, WKT, CSV, and more. It supports reverse geocoding, coordinate system transformations, and integrates with various**
 
@@ -10183,7 +10124,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 655. [Selenium39/mcp-server-tempmail](https://github.com/Selenium39/mcp-server-tempmail)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers
+### 651. [Selenium39/mcp-server-tempmail](https://github.com/Selenium39/mcp-server-tempmail)  `9.0` ★★☆ ⚡88.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The Selenium39/mcp-server-tempmail project provides a MCP (Model Context Protocol) server that enables temporary email management using the ChatTempMail API. It allows users to create, manage, and delete temporary email addresses with features such a**
 
@@ -10199,7 +10140,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 656. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 652. [fulcradynamics/fulcra-context-mcp](https://github.com/fulcradynamics/fulcra-context-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a GitHub-hosted MCP server that facilitates interaction with the Fulcra Context API. It offers both local and remote connection options, ensuring secure handling of OAuth2 tokens without exposing them to clients. The server suppo**
 
@@ -10214,7 +10155,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 657. [guaidaoyiyoudao/garmincn-mcp](https://github.com/guaidaoyiyoudao/garmincn-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 653. [guaidaoyiyoudao/garmincn-mcp](https://github.com/guaidaoyiyoudao/garmincn-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **This project provides a secure and efficient way to integrate MCP server data into AI systems, enabling advanced analytics and decision-making based on real-time health metrics. It leverages modern development practices, including GitHub-based workfl**
 
@@ -10229,7 +10170,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 658. [prasanthmj/primitive-go-mcp-server](https://github.com/prasanthmj/primitive-go-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 654. [prasanthmj/primitive-go-mcp-server](https://github.com/prasanthmj/primitive-go-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides a robust implementation of the Model Context Protocol (MCP) server using Go, enabling developers to integrate image generation capabilities directly into their applications. It supports text-to-image generation with configurable**
 
@@ -10243,7 +10184,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 659. [vinayak-mehta/mcp-sonic-pi](https://github.com/vinayak-mehta/mcp-sonic-pi)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 655. [vinayak-mehta/mcp-sonic-pi](https://github.com/vinayak-mehta/mcp-sonic-pi)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The MCP-sonic-pi project provides a Python implementation that allows Sonic Pi applications to connect and interact via MCP (Message Control Protocol), facilitating real-time audio control and automation. It supports Python scripting, integrates with**
 
@@ -10258,7 +10199,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 660. [vgnshiyer/apple-books-mcp](https://github.com/vgnshiyer/apple-books-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 656. [vgnshiyer/apple-books-mcp](https://github.com/vgnshiyer/apple-books-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The Apple Books MCP Server is a tool designed to streamline the management of Apple Books MCP collections, including organizing books by genre, tracking progress, and providing recommendations based on user reading history. It integrates with externa**
 
@@ -10273,7 +10214,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 661. [devalexandre/mcp-servers](https://github.com/devalexandre/mcp-servers)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 657. [devalexandre/mcp-servers](https://github.com/devalexandre/mcp-servers)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Servers project provides a platform to control a headless browser with Pyppeteer, enabling automated navigation, screenshot capturing, element interaction, and dynamic resource access. It supports workflow automation, integration with externa**
 
@@ -10288,7 +10229,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 662. [msaelices/whatsapp-mcp-server](https://github.com/msaelices/whatsapp-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 658. [msaelices/whatsapp-mcp-server](https://github.com/msaelices/whatsapp-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a secure, modern Python server that provides a Model Context Protocol (MCP) interface for integrating AI models like Claude with WhatsApp Business API. It supports messaging, group management, session handling, and chat history**
 
@@ -10303,7 +10244,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 663. [wallisking1991/outlook-mcp-server](https://github.com/wallisking1991/outlook-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 659. [wallisking1991/outlook-mcp-server](https://github.com/wallisking1991/outlook-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a server implementation of Microsoft Outlook's MCP (Model Context Protocol) server, allowing AI models to interact with Outlook for tasks such as folder management, email listing, searching, composing, and replying. It supports c**
 
@@ -10318,7 +10259,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 664. [richardhan/mssql_mcp_server](https://github.com/richardhan/mssql_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 660. [richardhan/mssql_mcp_server](https://github.com/richardhan/mssql_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The MSSQL_MCP_server project provides a controlled interface for Microsoft SQL Server, allowing AI assistants to list tables, execute queries, and manage data securely. It supports multiple authentication methods, encryption options, and integrates w**
 
@@ -10333,7 +10274,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 665. [jexinsam/mssql_mcp_server](https://github.com/jexinsam/mssql_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 661. [jexinsam/mssql_mcp_server](https://github.com/jexinsam/mssql_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The JexinSam/mssql_mcp_server project provides a Model Context Protocol (MCP) server that facilitates secure, controlled access to MSSQL databases. It supports features such as table listing, query execution, logging, and strict permission enforcemen**
 
@@ -10348,7 +10289,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 666. [abhirockzz/mcp_kusto](https://github.com/abhirockzz/mcp_kusto)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 662. [abhirockzz/mcp_kusto](https://github.com/abhirockzz/mcp_kusto)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a Go-based MCP server that integrates with Azure Data Explorer (Kusto), allowing developers to run KQL queries directly from VS Code or other MCP clients. It supports database listing, table listing, schema inspection, and execut**
 
@@ -10363,7 +10304,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 667. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 663. [ap425q/cuttermcp](https://github.com/ap425q/cuttermcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The CutterMCP project provides a Model Context Protocol (MCP) server that allows large language models (LLMs) to interact with and analyze application binaries. It exposes various tools from Cutter functionality to MCP clients, facilitating reverse e**
 
@@ -10378,7 +10319,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 668. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 664. [kapishmalik/hoverfly-mcp-server](https://github.com/kapishmalik/hoverfly-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The Hoverfly MCP Server acts as a programmable interface for AI tools like Copilot and Cursor, allowing dynamic simulation of unavailable services using JSON configurations. It integrates with external systems through the Model Context Protocol (MCP)**
 
@@ -10393,7 +10334,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 669. [sdilogin/filesystem-android](https://github.com/sdilogin/filesystem-android)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 665. [sdilogin/filesystem-android](https://github.com/sdilogin/filesystem-android)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The SDILogin/filesystem-android project provides a secure, AI-powered solution to authenticate and navigate through Android project files using Claude MCP. It validates essential gradle configuration files, lists Kotlin/KTS/TOML files, and ensures ac**
 
@@ -10408,7 +10349,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 670. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 666. [atilioa/tesouro-direto-mcp](https://github.com/atilioa/tesouro-direto-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project implements a MCP (Model Context Protocol) server to integrate with the Tesouro Direto API, allowing users to query market data and bond details using everyday language. It supports features like market data retrieval, bond information acc**
 
@@ -10423,7 +10364,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 671. [jincai/rootdata-mcp-server](https://github.com/jincai/rootdata-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 667. [jincai/rootdata-mcp-server](https://github.com/jincai/rootdata-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The jincai/rootdata-mcp-server is a Python-based MCP server designed to facilitate seamless integration between AI tools like Claude and the RootData API. It supports secure data queries, provides encryption, and enhances developer workflows through **
 
@@ -10438,7 +10379,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 672. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 668. [kiseki-technologies/kiseki-labs-readwise-mcp](https://github.com/kiseki-technologies/kiseki-labs-readwise-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The Kiseki-Labs-Readwise-MCP project provides a simple Model Context Protocol (MCP) server that allows AI models to interact programmatically with Readwise documents. It supports features such as document retrieval, highlight fetching, and integratio**
 
@@ -10453,7 +10394,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 673. [jackkuo666/weather-mcp-server](https://github.com/jackkuo666/weather-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 669. [jackkuo666/weather-mcp-server](https://github.com/jackkuo666/weather-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a standalone Python application that interacts with the National Weather Service (NWS) API to deliver real-time weather alerts and forecasts. It supports customization through configuration files, integrates with Cline for deploy**
 
@@ -10468,7 +10409,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 674. [cr7258/higress-ai-search-mcp-server](https://github.com/cr7258/higress-ai-search-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 670. [cr7258/higress-ai-search-mcp-server](https://github.com/cr7258/higress-ai-search-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The Higress AI-Search MCP Server is a platform designed to augment AI model responses with live, accurate search results from multiple authoritative sources. It leverages the Higress ai-search feature to deliver context-aware and up-to-date informati**
 
@@ -10483,7 +10424,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 675. [sparfenyuk/mcp-youtube](https://github.com/sparfenyuk/mcp-youtube)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 671. [sparfenyuk/mcp-youtube](https://github.com/sparfenyuk/mcp-youtube)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The MCP (Model Context Protocol) server acts as a bridge, allowing AI applications such as Claude Desktop to securely connect to external APIs and data sources. This project provides a Python-based solution for developers to integrate YouTube content**
 
@@ -10498,7 +10439,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 676. [secretiveshell/mcp-searxng](https://github.com/secretiveshell/mcp-searxng)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 672. [secretiveshell/mcp-searxng](https://github.com/secretiveshell/mcp-searxng)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The SecretiveShell project provides an MCP server that facilitates communication between agentic systems and search platforms using the searXNG protocol. This allows for seamless integration of AI-driven search capabilities into various workflows, en**
 
@@ -10513,7 +10454,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 677. [pmarkowsky/santa-mcp](https://github.com/pmarkowsky/santa-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 673. [pmarkowsky/santa-mcp](https://github.com/pmarkowsky/santa-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This project presents a PoC (Proof of Concept) MCP Server designed to interact with Santa through a language model (LLM) that implements an MCP client. The server enables communication between Santa and external systems via a CLI application, demonst**
 
@@ -10528,7 +10469,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 678. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 674. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Python implementation of MemProcFS-mcp-server, enabling developers to monitor and manage memory usage and processes in a structured manner. It focuses on integrating with MCP (Memory Management Control) systems and offers tools**
 
@@ -10543,7 +10484,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 679. [imjdl/nmap-mcpserver](https://github.com/imjdl/nmap-mcpserver)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
+### 675. [imjdl/nmap-mcpserver](https://github.com/imjdl/nmap-mcpserver)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The imjdl/nmap-mcpserver is a Model Control Protocol (MCP) server that facilitates nmap-based network scanning, allowing users to analyze network vulnerabilities and configurations. It supports automated scanning workflows, integrates with AI-driven **
 
@@ -10558,7 +10499,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 680. [variflight/variflight-mcp](https://github.com/variflight/variflight-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 676. [variflight/variflight-mcp](https://github.com/variflight/variflight-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP server acts as a protocol layer that facilitates communication between Variflight's API and external systems by providing standardized endpoints for querying flight information, weather, and comfort metrics. It supports real-time data retriev**
 
@@ -10573,7 +10514,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 681. [phact/mcp-google-docs](https://github.com/phact/mcp-google-docs)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 677. [phact/mcp-google-docs](https://github.com/phact/mcp-google-docs)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp server is designed to facilitate the creation, reading, editing, and management of Google Docs, including support for comments. It provides a centralized platform for developers and teams to streamline document workflows, enhance collaboratio**
 
@@ -10588,7 +10529,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 682. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 678. [dncampo/fiware-mcp-server](https://github.com/dncampo/fiware-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This project introduces a Python-based MCP Server that acts as an intermediary between the FIWARE Context Broker and other services. It supports CRUD operations for context entities, enabling seamless integration with external systems and facilitatin**
 
@@ -10603,7 +10544,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 683. [neosapience/typecast-api-mcp-server-sample](https://github.com/neosapience/typecast-api-mcp-server-sample)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 679. [neosapience/typecast-api-mcp-server-sample](https://github.com/neosapience/typecast-api-mcp-server-sample)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a Model Context Protocol server to facilitate secure and efficient communication between MCP clients and the Typecast API. It supports multiple language models, offers emotion detection features, and includes robust security meas**
 
@@ -10618,7 +10559,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 684. [waifuai/mcp-waifu-queue](https://github.com/waifuai/mcp-waifu-queue)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 680. [waifuai/mcp-waifu-queue](https://github.com/waifuai/mcp-waifu-queue)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP (Model Context Protocol) server leverages FastMCP for simplified setup, integrates Redis queues for handling concurrent requests, and uses the Google Gemini API for natural language generation. It supports job tracking via MCP resources and p**
 
@@ -10633,7 +10574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 685. [missionsquad/mcp-helper-tools](https://github.com/missionsquad/mcp-helper-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 681. [missionsquad/mcp-helper-tools](https://github.com/missionsquad/mcp-helper-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The MissionSquad/mcp-helper-tools project provides a suite of utilities and tools for managing LLM agents, including geolocation, system monitoring, cryptographic operations, and QR code generation. It supports integration with various clients and se**
 
@@ -10648,7 +10589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 686. [virajsharma2000/mcp-websocket](https://github.com/virajsharma2000/mcp-websocket)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 682. [virajsharma2000/mcp-websocket](https://github.com/virajsharma2000/mcp-websocket)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **This project provides a Model Context Protocol (MCP) server enhanced with WebSocket capabilities, enabling efficient real-time communication between clients. It supports asynchronous operations using asyncio and allows push notifications via WebSocke**
 
@@ -10663,7 +10604,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 687. [infinitimeless/claude-lmstudio-bridge](https://github.com/infinitimeless/claude-lmstudio-bridge)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 683. [infinitimeless/claude-lmstudio-bridge](https://github.com/infinitimeless/claude-lmstudio-bridge)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **This project establishes a seamless integration between Claude, an advanced language model, and local LLMs hosted within LM Studio. By leveraging the MCP (Machine Learning Compute Platform) server, it enables real-time interaction and text generation**
 
@@ -10678,7 +10619,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 688. [mattlevine/brightsy-mcp](https://github.com/mattlevine/brightsy-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 684. [mattlevine/brightsy-mcp](https://github.com/mattlevine/brightsy-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a Model Context Protocol (MCP) server that connects to an OpenAI/Brightsy AI agent, enabling automated workflows and intelligent responses. It supports custom tool names, secure API integration, and testing via MCP protocol comma**
 
@@ -10693,7 +10634,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 689. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 685. [dedeveloper23/codebase-mcp](https://github.com/dedeveloper23/codebase-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The Codebase MCP server enables AI agents to analyze entire codebases at once, improving context understanding and facilitating efficient code comprehension. It supports remote repository processing, file saving, customizable analysis options, and in**
 
@@ -10708,7 +10649,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 690. [blesscat/gemini-cli-mcp](https://github.com/blesscat/gemini-cli-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 686. [blesscat/gemini-cli-mcp](https://github.com/blesscat/gemini-cli-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The blesscat/gemini-cli-mcp project provides a GitHub-hosted solution to integrate the Gemini CLI with an MCP (Model Context Protocol) server, enabling developers to automate workflows efficiently. It supports running the MCP server, managing code ch**
 
@@ -10723,7 +10664,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 691. [vilasone455/ssh-mcp-server](https://github.com/vilasone455/ssh-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 687. [vilasone455/ssh-mcp-server](https://github.com/vilasone455/ssh-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The ssh-mcp-server is a TypeScript-based MCP server that provides secure, authenticated access to remote Linux and Windows systems. It allows developers to interact with machines using natural language commands, supporting features like session manag**
 
@@ -10738,7 +10679,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 692. [abdelstark/lightning-mcp](https://github.com/abdelstark/lightning-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 688. [abdelstark/lightning-mcp](https://github.com/abdelstark/lightning-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a Lightning Network MCP server that allows AI models to securely interact with the Lightning Network, facilitating payment processing on the blockchain. It includes features such as model context protocol integration, secure code**
 
@@ -10753,7 +10694,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 693. [elber-code/database-tools](https://github.com/elber-code/database-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 689. [elber-code/database-tools](https://github.com/elber-code/database-tools)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The Database Tools for Claude AI is an MCP server that allows seamless integration with MySQL databases, facilitating querying, table management, and data analysis directly from the Claude platform. It supports executing SQL commands, viewing databas**
 
@@ -10768,7 +10709,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 694. [ymadd/shadcn-ui-mcp-server](https://github.com/ymadd/shadcn-ui-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 690. [ymadd/shadcn-ui-mcp-server](https://github.com/ymadd/shadcn-ui-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-server acts as an AI-powered interface to the Shadcn UI documentation, enabling developers to access component details, examples, and usage instructions directly within their workflow. It supports structured data retrieval from official sourc**
 
@@ -10783,7 +10724,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 695. [pinzonjulian/turbo-docs-mcp-server](https://github.com/pinzonjulian/turbo-docs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 691. [pinzonjulian/turbo-docs-mcp-server](https://github.com/pinzonjulian/turbo-docs-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project's MCP Server provides a comprehensive environment for developers to access up-to-date documentation, build Turbo-based applications, and integrate external tools. It supports modern DevOps practices with features like automated workf**
 
@@ -10798,7 +10739,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 696. [kocierik/consul-mcp-server](https://github.com/kocierik/consul-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 692. [kocierik/consul-mcp-server](https://github.com/kocierik/consul-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The kocierik/consul-mcp-server project provides a Model Context Protocol (MCP) server that abstracts and exposes Consul's services, registrations, health checks, and key-value store operations. It supports service lifecycle management, configuration **
 
@@ -10813,7 +10754,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 697. [kmwebnet/mcp-server-for-sensor-device](https://github.com/kmwebnet/mcp-server-for-sensor-device)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 693. [kmwebnet/mcp-server-for-sensor-device](https://github.com/kmwebnet/mcp-server-for-sensor-device)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The project provides a simulation-based CO2 sensor interface using a Raspberry Pi Pico, supporting both simulation and real-time data interaction via JSON-RPC. It enables secure communication and monitoring of environmental data, integrating seamless**
 
@@ -10828,7 +10769,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 698. [yanceyofficial/obsidian-mcp](https://github.com/yanceyofficial/obsidian-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 694. [yanceyofficial/obsidian-mcp](https://github.com/yanceyofficial/obsidian-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The project focuses on enabling secure and efficient communication between Obsidian local vaults and AI systems through the Model Context Protocol (MCP). It allows developers to connect multiple Obsidian vaults stored locally to a central AI platform**
 
@@ -10843,7 +10784,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 699. [vanshika-rana/payman-mcp-server](https://github.com/vanshika-rana/payman-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 695. [vanshika-rana/payman-mcp-server](https://github.com/vanshika-rana/payman-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a self-hosted MCP server that allows AI-powered tools like Claude or Cursor to query Payman's documentation directly. It supports developers in building integrations by offering easy access to detailed API references and usage e**
 
@@ -10858,7 +10799,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 700. [mottibec/israeli-bank-mcp](https://github.com/mottibec/israeli-bank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 696. [mottibec/israeli-bank-mcp](https://github.com/mottibec/israeli-bank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The project provides a software solution to securely manage and process financial transactions from various Israeli banks and credit card companies. It leverages the Model Context Protocol (MCP) to facilitate secure credential handling, flexible tran**
 
@@ -10872,7 +10813,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 701. [shubhamprajapati7748/zerodha-trade-mcp](https://github.com/shubhamprajapati7748/zerodha-trade-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 697. [shubhamprajapati7748/zerodha-trade-mcp](https://github.com/shubhamprajapati7748/zerodha-trade-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The project provides a standardized interface for executing trades, viewing portfolios, and managing positions on Zerodha through the MCP protocol. It integrates with Zerodha's API to offer secure authentication, real-time portfolio management, and o**
 
@@ -10887,7 +10828,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 702. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 698. [demcp/demcp-debank-mcp](https://github.com/demcp/demcp-debank-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a stateless MCP server using Deno, enabling scalable and robust access to blockchain data via the Model Context Protocol. It supports various tools for querying chains, protocols, tokens, pools, and user assets, with features l**
 
@@ -10902,7 +10843,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 703. [mgraczyk/json-query-mcp](https://github.com/mgraczyk/json-query-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 699. [mgraczyk/json-query-mcp](https://github.com/mgraczyk/json-query-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp json-query-mcp project provides a powerful MCP (Model Context Protocol) server that allows AI models to interact with and analyze massive JSON datasets. It supports advanced search capabilities, including JSONPath queries and value matching, **
 
@@ -10917,7 +10858,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 704. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
+### 700. [mateusribeirocampos/npm-mcp-server](https://github.com/mateusribeirocampos/npm-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
 
 **The npm-mcp-server is a model context protocol (MCP) server designed to provide detailed information about npm packages. It enables developers to search, install, and manage dependencies efficiently within a secure environment. The project supports i**
 
@@ -10932,7 +10873,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 705. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 701. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The mcp-visit-korea project offers a web application that leverages the Model Context Protocol (MCP) to deliver comprehensive and localized tourism data for visitors in Korea. It features robust code management, secure deployment practices, and integ**
 
@@ -10947,7 +10888,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 706. [sunsetcoder/flightradar24-mcp-server](https://github.com/sunsetcoder/flightradar24-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 702. [sunsetcoder/flightradar24-mcp-server](https://github.com/sunsetcoder/flightradar24-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The Borg Project's flight radar server integrates with Flightradar24 API to provide live flight tracking, arrival/departure times, airport status monitoring, and emergency alerts. It supports seamless connectivity through MCP protocol, enabling autom**
 
@@ -10962,7 +10903,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 707. [ichigo3766/audio-transcriber-mcp](https://github.com/ichigo3766/audio-transcriber-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 703. [ichigo3766/audio-transcriber-mcp](https://github.com/ichigo3766/audio-transcriber-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project offers a web-based application enabling users to upload audio files and receive real-time transcriptions via the OpenAI Whisper API. It integrates seamlessly with GitHub workflows, supports customizable language settings, and provides an **
 
@@ -10977,7 +10918,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 708. [baolongt/sns-mcp-server](https://github.com/baolongt/sns-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 704. [baolongt/sns-mcp-server](https://github.com/baolongt/sns-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-sns-server is a TypeScript implementation that provides an interface to interact with Service Nervous System (SNS) decentralized autonomous organizations (DAOs). It supports key MCP concepts such as listing proposals, managing voting, and ret**
 
@@ -10992,7 +10933,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 709. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 705. [yuru-sha/mcp-server-dify](https://github.com/yuru-sha/mcp-server-dify)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Dockerized server implementation that integrates with Dify AI's chat completion API, allowing developers to leverage AI-driven responses within their applications. It supports key features such as code generation, context manag**
 
@@ -11007,7 +10948,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 710. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 706. [rizaqpratama/mcp-cucumberstudio](https://github.com/rizaqpratama/mcp-cucumberstudio)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP server facilitates the integration of CucumberStudio's API with AI-powered tools by providing context information, enabling AI assistants to generate and modify test scenarios, features, and resources. It supports various functionalities such**
 
@@ -11022,7 +10963,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 711. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 707. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository contains core libraries, test frameworks, engineering systems, pipelines, and tooling for Microsoft MCP Server contributors. It standardizes how applications provide context to large language models (LLMs), enhancing their capabilitie**
 
@@ -11037,7 +10978,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 712. [trunk-io/mcp-server](https://github.com/trunk-io/mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 708. [trunk-io/mcp-server](https://github.com/trunk-io/mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-based platform that integrates with Trunk.io's MCP server to automatically detect, analyze, and suggest fixes for flaky test cases. It leverages OAuth 2.0 and OpenID Connect for secure authentication and supports AI-driv**
 
@@ -11052,7 +10993,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 713. [CryptoCultCurt/appfolio-mcp-server](https://github.com/CryptoCultCurt/appfolio-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 709. [CryptoCultCurt/appfolio-mcp-server](https://github.com/CryptoCultCurt/appfolio-mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The appfolio-mcp-server acts as a bridge between AI agents and the Appfolio Property Manager Reporting API, facilitating secure and efficient data exchange. It supports robust configuration options, integrates seamlessly with various deployment envir**
 
@@ -11067,7 +11008,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 714. [domdomegg/starling-bank-mcp.git](https://github.com/domdomegg/starling-bank-mcp.git)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 710. [domdomegg/starling-bank-mcp.git](https://github.com/domdomegg/starling-bank-mcp.git)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The project provides a GitHub-hosted server for integrating with Starling Bank's API, allowing AI-driven interaction with bank accounts through the MCP protocol. It supports secure access management, transaction handling, and account control via a we**
 
@@ -11082,7 +11023,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 715. [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
+### 711. [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
 
 **This resource serves as the primary technical directory for the Model Context Protocol (MCP) ecosystem, detailing standardized implementations that allow LLMs to interact with local and remote resources. It documents a wide array of servers that norm**
 
@@ -11098,7 +11039,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 716. [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
+### 712. [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers
 
 **This resource serves as the primary ecosystem hub for the Model Context Protocol (MCP), a standardized framework that allows Large Language Models to interact with external tools and data sources. The repository details reference implementations for **
 
@@ -11114,7 +11055,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 717. [mamertofabian/mcp-everything-search](https://github.com/mamertofabian/mcp-everything-search)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗1 layers 📍
+### 713. [mamertofabian/mcp-everything-search](https://github.com/mamertofabian/mcp-everything-search)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This project implements a standardized Model Context Protocol (MCP) interface for file system discovery across Windows, macOS, and Linux. It abstracts platform-specific search engines—the C-based Everything SDK for Windows, the Spotlight-powered mdfi**
 
@@ -11130,7 +11071,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 718. [Dhatchinamoorthy/GoogleGeminiRouter](https://github.com/Dhatchinamoorthy/GoogleGeminiRouter)  `8.0` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 714. [Dhatchinamoorthy/GoogleGeminiRouter](https://github.com/Dhatchinamoorthy/GoogleGeminiRouter)  `8.0` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The GoogleGeminiRouter acts as a translation and middleware layer using FastAPI to bridge compatibility gaps between Xcode 26's expected AI coding assistant API format (similar to OpenAI) and the actual Google Gemini API structure. It handles request**
 
@@ -11146,7 +11087,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 719. [AnasMalas/pcb-edge-usb-c](https://github.com/AnasMalas/pcb-edge-usb-c)  `7.8` ☆☆☆ ⚡88.0 Q0.9○ Good 📍
+### 715. [AnasMalas/pcb-edge-usb-c](https://github.com/AnasMalas/pcb-edge-usb-c)  `7.8` ☆☆☆ ⚡88.0 Q0.9○ Good 📍
 
 **This repository provides a library of PCB edge connectors optimized for USB-C functionality, including 10, 14, and 24 Pin versions. The resource details the physical constraints required for this connector to function effectively on a PCB, specifical**
 
@@ -11161,7 +11102,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 720. [https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-](https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-cli)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗2 layers
+### 716. [https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-](https://docsalot.dev/blog/why-mcp-still-matters-if-you-already-have-a-cli)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗2 layers
 
 **This analysis examines why MCP remains critical even when a CLI is available. It highlights how MCP provides a stable, standardized protocol surface that simplifies integration across diverse operating systems and client environments. While a CLI off**
 
@@ -11176,7 +11117,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 721. [Variations - The Association for X and Y Chromosome Variations](https://genetic.org/variations)  `9.8` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 717. [Variations - The Association for X and Y Chromosome Variations](https://genetic.org/variations)  `9.8` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **This technical resource serves as a comprehensive database for genetic variations related to the X and Y chromosomes, offering detailed information on conditions such as Klinefelter syndrome (47,XXY), Turner syndrome (45,X), and other aneuploidies. I**
 
@@ -11191,7 +11132,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 722. [tuannvm/mcp-trino](https://github.com/tuannvm/mcp-trino)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 718. [tuannvm/mcp-trino](https://github.com/tuannvm/mcp-trino)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A high-performance Model Context Protocol (MCP) server for Trino implemented in Go, enabling AI assistants to interact with Trino's distributed SQL query engine.**
 
@@ -11207,7 +11148,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 723. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 719. [ivan-saorin/mcp-expr-lang](https://github.com/ivan-saorin/mcp-expr-lang)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A powerful expression evaluation tool for Claude Desktop using the Model Context Protocol, enabling complex data manipulations and transformations within AI conversations.**
 
@@ -11223,7 +11164,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 724. [mixelpixx/kicad-mcp-server](https://github.com/mixelpixx/kicad-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 720. [mixelpixx/kicad-mcp-server](https://github.com/mixelpixx/kicad-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **KiCAD MCP Server enables seamless integration of AI assistants with KiCAD for PCB design, supporting dynamic schematic creation and intelligent workflows.**
 
@@ -11239,7 +11180,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 725. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 721. [lupuletic/onyx-mcp-server](https://github.com/lupuletic/onyx-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A developer platform for building, deploying, and managing AI-powered applications with integrated security, code review, and workflow automation tools.**
 
@@ -11255,7 +11196,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 726. [last9/last9-mcp-server](https://github.com/last9/last9-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 722. [last9/last9-mcp-server](https://github.com/last9/last9-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Last9 MCP Server enables seamless integration of Claude, Cursor, and Windsurf AI assistants into production observability pipelines, providing real-time insights and actionable data.**
 
@@ -11271,7 +11212,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 727. [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 723. [zongmin-yu/semantic-scholar-fastmcp-mcp-server](https://github.com/zongmin-yu/semantic-scholar-fastmcp-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A FastMCP server implementation for the Semantic Scholar API, enabling secure and efficient access to academic data, author information, and citation networks.**
 
@@ -11287,7 +11228,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 728. [hieuttmmo/entraid-mcp-server](https://github.com/hieuttmmo/entraid-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 724. [hieuttmmo/entraid-mcp-server](https://github.com/hieuttmmo/entraid-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A modular FastMCP server for interacting with Microsoft Graph API, enabling secure and efficient management of users, sign-in logs, MFA, applications, and service principals.**
 
@@ -11303,7 +11244,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 729. [kurdin/github-repos-manager-mcp](https://github.com/kurdin/github-repos-manager-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 725. [kurdin/github-repos-manager-mcp](https://github.com/kurdin/github-repos-manager-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A token-based GitHub Repos Manager MCP server enabling seamless integration of MCP clients with GitHub repositories using a single GitHub personal access token.**
 
@@ -11319,7 +11260,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 730. [enkhbold470/bci-mcp](https://github.com/enkhbold470/bci-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 726. [enkhbold470/bci-mcp](https://github.com/enkhbold470/bci-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Borg integrates Brain-Computer Interface (BCI) with the Model Context Protocol (MCP) to enable advanced neural signal processing and AI-driven interactions.**
 
@@ -11335,7 +11276,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 731. [burconsult/msgraph-mcp](https://github.com/burconsult/msgraph-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 727. [burconsult/msgraph-mcp](https://github.com/burconsult/msgraph-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A comprehensive MCP server for integrating Microsoft Graph with AI applications, enabling secure and automated interactions across Microsoft 365 and Azure AD services.**
 
@@ -11351,7 +11292,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 732. [tuskermanshu/swagger-mcp-server](https://github.com/tuskermanshu/swagger-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 728. [tuskermanshu/swagger-mcp-server](https://github.com/tuskermanshu/swagger-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Swagger MCP Server is a model context protocol (MCP)-based server that parses Swagger/OpenAPI documents to generate TypeScript types and API client code, supporting modern development workflows.**
 
@@ -11367,7 +11308,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 733. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 729. [ab498/code-context-provider-mcp](https://github.com/ab498/code-context-provider-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A tool that provides code context and analysis for AI assistants, extracting directory structures and code symbols using WebAssembly Tree-sitter parsers with zero native dependencies.**
 
@@ -11383,7 +11324,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 734. [nellyw8/mcp-eda](https://github.com/nellyw8/mcp-eda)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 730. [nellyw8/mcp-eda](https://github.com/nellyw8/mcp-eda)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive Model Context Protocol (MCP) server integrating AI assistants for automated EDA tasks, enabling seamless synthesis, simulation, and design flow.**
 
@@ -11399,7 +11340,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 735. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 731. [sunwood-ai-labs/source-sage-mcp-server](https://github.com/sunwood-ai-labs/source-sage-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **SourceSage MCP Server is a context-aware, AI-powered platform that integrates advanced security features and developer tools to streamline software development workflows.**
 
@@ -11415,7 +11356,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 736. [chulanpro5/evm-mcp-server](https://github.com/chulanpro5/evm-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 732. [chulanpro5/evm-mcp-server](https://github.com/chulanpro5/evm-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A unified MCP server enabling AI agents to interact seamlessly with multiple blockchain networks, simplifying cross-chain operations and enhancing developer productivity.**
 
@@ -11431,7 +11372,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 737. [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 733. [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Grounded Docs MCP Server provides a comprehensive, up-to-date documentation index for AI coding assistants, enabling accurate and current information retrieval.**
 
@@ -11447,7 +11388,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 738. [bsmi021/mcp-server-webscan](https://github.com/bsmi021/mcp-server-webscan)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 734. [bsmi021/mcp-server-webscan](https://github.com/bsmi021/mcp-server-webscan)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Model Context Protocol (MCP) server for web content scanning and analysis, enabling automated fetching, linking, pattern matching, and sitemap generation.**
 
@@ -11463,7 +11404,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 739. [surajadsul/mcp-server-salesforce](https://github.com/surajadsul/mcp-server-salesforce)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 735. [surajadsul/mcp-server-salesforce](https://github.com/surajadsul/mcp-server-salesforce)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An MCP server implementation that integrates Claude with Salesforce, enabling natural language interactions for querying, modifying, and managing Salesforce data.**
 
@@ -11479,7 +11420,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 740. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 736. [findmine/findmine-mcp](https://github.com/findmine/findmine-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A MCP server that integrates FindMine's styling API with Claude and other MCP-compatible tools, enabling advanced fashion AI for product recommendations.**
 
@@ -11495,7 +11436,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 741. [da-okazaki/mcp-fish-audio-server](https://github.com/da-okazaki/mcp-fish-audio-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 737. [da-okazaki/mcp-fish-audio-server](https://github.com/da-okazaki/mcp-fish-audio-server)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A modern MCP server integrating Fish Audio for natural language-driven speech synthesis, enabling LLM integration with custom voices and multilingual support.**
 
@@ -11511,7 +11452,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 742. [cyanheads/mcp-ts-template](https://github.com/cyanheads/mcp-ts-template)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 738. [cyanheads/mcp-ts-template](https://github.com/cyanheads/mcp-ts-template)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A framework for building and managing MCP servers using TypeScript, focusing on declarative tool definitions, resource management, and workflow automation.**
 
@@ -11527,7 +11468,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 743. [pshivapr/selenium-mcp](https://github.com/pshivapr/selenium-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 739. [pshivapr/selenium-mcp](https://github.com/pshivapr/selenium-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A server-based tool that integrates Selenium WebDriver with MCP to enable AI assistants to perform web automation tasks such as browser management, element interaction, and data extraction.**
 
@@ -11543,7 +11484,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 744. [hithereiamaliff/mcp-nextcloud](https://github.com/hithereiamaliff/mcp-nextcloud)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 740. [hithereiamaliff/mcp-nextcloud](https://github.com/hithereiamaliff/mcp-nextcloud)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A nextcloud MCP Server that integrates AI assistants with Nextcloud, enabling automation across notes, calendar, contacts, tables, and webDAV operations.**
 
@@ -11559,7 +11500,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 745. [isakskogstad/SCB-MCP](https://github.com/isakskogstad/SCB-MCP)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 741. [isakskogstad/SCB-MCP](https://github.com/isakskogstad/SCB-MCP)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The SCB-MCP server enables seamless integration with external data sources, allowing AI chatbots to access official Swedish statistics for various domains.**
 
@@ -11575,7 +11516,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 746. [damms005/devdb-vscode](https://github.com/damms005/devdb-vscode)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 742. [damms005/devdb-vscode](https://github.com/damms005/devdb-vscode)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **DevDb is a VS Code extension that seamlessly integrates database connectivity into the development workflow, enabling developers to interact with databases directly from their IDE.**
 
@@ -11591,7 +11532,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 747. [gitmotion/ntfy-me-mcp](https://github.com/gitmotion/ntfy-me-mcp)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 743. [gitmotion/ntfy-me-mcp](https://github.com/gitmotion/ntfy-me-mcp)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A streamlined Model Context Protocol (MCP) server for sending/fetching ntfy notifications to self-hosted or any ntfy.sh server, supporting secure token authentication and integration with AI agents.**
 
@@ -11606,7 +11547,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 748. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 744. [sunwood-ai-labs/ideagram-mcp-server](https://github.com/sunwood-ai-labs/ideagram-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Ideogram MCP Server enables secure, context-aware image generation via the Model Context Protocol, integrating AI models with MCP clients for enterprise-grade workflow automation.**
 
@@ -11621,7 +11562,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 749. [lspace-io/lspace-server](https://github.com/lspace-io/lspace-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 745. [lspace-io/lspace-server](https://github.com/lspace-io/lspace-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Lspace enables seamless integration of AI-generated insights across tools via the Model Context Protocol, enhancing developer workflows with persistent knowledge bases.**
 
@@ -11636,7 +11577,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 750. [LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 746. [LeadMagic/smartlead-mcp-server](https://github.com/LeadMagic/smartlead-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A comprehensive Model Context Protocol server for SmartLead cold email automation, integrating with 113 tools to streamline campaign management, lead tracking, and analytics.**
 
@@ -11651,7 +11592,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 751. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 747. [jsdelivr/globalping-mcp-server](https://github.com/jsdelivr/globalping-mcp-server)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Globalping MCP Server enables AI models to interact with a global network measurement platform via natural language, providing secure and scalable access to network probes.**
 
@@ -11666,7 +11607,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 752. [zellerhaus/batchdata-mcp-real-estate](https://github.com/zellerhaus/batchdata-mcp-real-estate)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 748. [zellerhaus/batchdata-mcp-real-estate](https://github.com/zellerhaus/batchdata-mcp-real-estate)  `9.5` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A Model Context Protocol (MCP) server enabling seamless integration with BatchData.io for real estate data access, address verification, and advanced property searches.**
 
@@ -11681,7 +11622,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 753. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
+### 749. [Introducing Pieces Model Context Protocol (MCP) | Pieces Docs](https://docs.pieces.app/products/mcp/get-started)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗4 layers
 
 **Pieces leverages the Model Context Protocol (MCP) to expose its proprietary Long-Term Memory (LTM-2.7) engine to external LLM-powered applications such as Cursor, GitHub Copilot, and Claude. By acting as an MCP Server, PiecesOS provides a standardize**
 
@@ -11697,7 +11638,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 754. [MCP Apps: Extending servers with interactive user interfaces](http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 750. [MCP Apps: Extending servers with interactive user interfaces](http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This proposal introduces a standardized mechanism, the MCP Apps Extension (SEP-1865), to allow MCP servers to embed interactive user interfaces (UIs) within host applications. It addresses the current limitation where servers can only exchange text a**
 
@@ -11713,7 +11654,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 755. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 751. [Introduction - Agent Client Protocol](https://agentclientprotocol.com/overview/introduction)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **The Agent Client Protocol (ACP) aims to standardize the interface between code editors/IDEs and AI coding agents, analogous to how the Language Server Protocol (LSP) standardized language server integration. This standardization addresses the current**
 
@@ -11729,7 +11670,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 756. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 752. [jkingsman/qanon-mcp-server](https://github.com/jkingsman/qanon-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The qanon-mcp-server is a GitHub-hosted server designed to provide access to a dataset of Q-Anon posts, enabling AI assistants like Claude to search, filter, and analyze these posts for research purposes. It supports sociological studies by offering **
 
@@ -11745,7 +11686,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 757. [dennismartis/sql_mcp_server](https://github.com/dennismartis/sql_mcp_server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 753. [dennismartis/sql_mcp_server](https://github.com/dennismartis/sql_mcp_server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The project utilizes the FastMCP framework to enable natural language queries and operations on Microsoft SQL Server databases. It offers tools for executing SQL commands, viewing results, managing tables, and understanding database structures throug**
 
@@ -11761,7 +11702,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 758. [datalayer/earthdata-mcp-server](https://github.com/datalayer/earthdata-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 754. [datalayer/earthdata-mcp-server](https://github.com/datalayer/earthdata-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The datalayer/earthdata-mcp-server project provides tools and APIs to discover, search, download, and analyze geospatial datasets from NASA's Earthdata catalog. It supports flexible workflows including manual downloads, script-based execution, and in**
 
@@ -11777,7 +11718,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 759. [helixml/kodit](https://github.com/helixml/kodit)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 755. [helixml/kodit](https://github.com/helixml/kodit)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **Kodit is an MCP server that indexes local and public codebases, enabling AI coding assistants to provide relevant and up-to-date code examples. It supports integration with various programming languages, offers advanced code analysis, and ensures pri**
 
@@ -11793,7 +11734,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 760. [anpigon/mcp-server-obsidian-omnisearch](https://github.com/anpigon/mcp-server-obsidian-omnisearch)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 756. [anpigon/mcp-server-obsidian-omnisearch](https://github.com/anpigon/mcp-server-obsidian-omnisearch)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The project provides a FastMCP-based server that exposes Obsidian vault search functionality via a REST API. It allows seamless integration with external tools and supports advanced search capabilities, making it suitable for modern development workf**
 
@@ -11809,7 +11750,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 761. [ancode666/aemet-mcp](https://github.com/ancode666/aemet-mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 757. [ancode666/aemet-mcp](https://github.com/ancode666/aemet-mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The AnCode666/aemet-mcp project provides a Python-based MCP server that facilitates access to historical and real-time meteorological data from Spain via the AEMET API. It supports secure handling of API keys, structured data queries, and integration**
 
@@ -11825,7 +11766,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 762. [miliariadnane/javaconf-mcp-server](https://github.com/miliariadnane/javaconf-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 758. [miliariadnane/javaconf-mcp-server](https://github.com/miliariadnane/javaconf-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The project implements a Java Conferences MCP Server that parses public GitHub markdown files to deliver structured conference data including names, dates, locations, hybrid status, CFP links, and closing dates. It leverages Spring Boot for backend p**
 
@@ -11841,7 +11782,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 763. [grahammcbain/mcpizza](https://github.com/grahammcbain/mcpizza)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 759. [grahammcbain/mcpizza](https://github.com/grahammcbain/mcpizza)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The MCPizza project provides a Python-based MCP (Model Context Protocol) server that facilitates safe, educational use of the unofficial Domino's API for pizza ordering. It includes features such as store locator, menu browsing, order management, and**
 
@@ -11857,7 +11798,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 764. [tommybez/dbt-semantic-layer-mcp-server](https://github.com/tommybez/dbt-semantic-layer-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 760. [tommybez/dbt-semantic-layer-mcp-server](https://github.com/tommybez/dbt-semantic-layer-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The dbt Semantic Layer MCP Server acts as a bridge between AI assistants like Claude and the dbt Semantic Layer, allowing users to query metrics using natural language. It supports metric discovery, creation, analysis, and visualization, enhancing da**
 
@@ -11873,7 +11814,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 765. [vaibhavgeek/one_inch_mcp](https://github.com/vaibhavgeek/one_inch_mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 761. [vaibhavgeek/one_inch_mcp](https://github.com/vaibhavgeek/one_inch_mcp)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The one_inch_mcp project enables secure cross-chain token swaps between different blockchains by leveraging the 1inch Fusion+ API and Model Context Protocol (MCP). It supports automated order management, real-time monitoring, and integration with AI **
 
@@ -11889,7 +11830,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 766. [8bitgentleman/activitywatch-mcp-server](https://github.com/8bitgentleman/activitywatch-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 762. [8bitgentleman/activitywatch-mcp-server](https://github.com/8bitgentleman/activitywatch-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The ActivityWatch MCP Server acts as a bridge, allowing LLMs to interact with time tracking data from ActivityWatch. It supports advanced querying, custom bucket management, and integrates with tools such as Claude for Desktop for enhanced productivi**
 
@@ -11905,7 +11846,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 767. [mondweep/youtube-music-mcp-server](https://github.com/mondweep/youtube-music-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 763. [mondweep/youtube-music-mcp-server](https://github.com/mondweep/youtube-music-mcp-server)  `9.0` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The project implements a MCP (Model Context Protocol) server that allows AI models to search and play songs via YouTube Music using Chrome. It provides structured communication for AI assistants to understand tool capabilities, execute actions, handl**
 
@@ -11921,7 +11862,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 768. [gentoro-gt/mcp-nodejs-server](https://github.com/gentoro-gt/mcp-nodejs-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 764. [gentoro-gt/mcp-nodejs-server](https://github.com/gentoro-gt/mcp-nodejs-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The Gentoro MCP Node.js Server acts as an integration layer, enabling seamless communication between MCP clients and the Gentoro MCP Server. This setup allows for automated workflows, secure code deployment, and efficient management of integrations u**
 
@@ -11936,7 +11877,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 769. [leynier/mcp-sys-bridge](https://github.com/leynier/mcp-sys-bridge)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 765. [leynier/mcp-sys-bridge](https://github.com/leynier/mcp-sys-bridge)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **mcp-sys-bridge is a lightweight bridge library designed to facilitate communication between software applications and native operating system functionalities. It supports key use cases such as clipboard management, URL opening, system notifications, **
 
@@ -11950,7 +11891,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 770. [davidteren/play-sound-mcp-server](https://github.com/davidteren/play-sound-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 766. [davidteren/play-sound-mcp-server](https://github.com/davidteren/play-sound-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The play-sound-mcp-server is a lightweight MCP (Model Context Protocol) implementation designed to facilitate seamless audio feedback for AI agents during development workflows. It supports customizable sound notifications, allowing developers to int**
 
@@ -11964,7 +11905,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 771. [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 767. [lpigeon/unitree-go2-mcp-server](https://github.com/lpigeon/unitree-go2-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The lpigeon/unitree-go2-mcp-server project provides a web-based platform that enables users to interact with the Unitree Go2 robot through natural language commands. By leveraging a large language model (LLM), the system translates user queries into **
 
@@ -11978,7 +11919,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 772. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 768. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-document-reader is a lightweight Python application designed to facilitate reading and processing of digital documents such as EPUB and PDF files. It leverages the MCP (Media Content Processing) library to provide an intuitive interface for d**
 
@@ -11992,7 +11933,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 773. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 769. [mcp-100/mcp-sentry](https://github.com/mcp-100/mcp-sentry)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The MCP-sentry server enables developers to inspect error reports, stack traces, and debugging information from Sentry.io. It provides tools to retrieve issue details by ID or URL, analyze project-specific issues, and integrate with various developme**
 
@@ -12007,7 +11948,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 774. [luotocompany/cursor-local-indexing](https://github.com/luotocompany/cursor-local-indexing)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 770. [luotocompany/cursor-local-indexing](https://github.com/luotocompany/cursor-local-indexing)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The LuotoCompany/cursor-local-indexing project leverages ChromaDB to provide a local, index-based search capability for codebases. It exposes an MCP (Model Context Protocol) server that allows tools like Cursor to perform semantic searches on code re**
 
@@ -12021,7 +11962,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 775. [haithamoumerzoug/keycloak-mcp](https://github.com/haithamoumerzoug/keycloak-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 771. [haithamoumerzoug/keycloak-mcp](https://github.com/haithamoumerzoug/keycloak-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The HaithamOumerzoug/keycloak-mcp project provides an MCP (Model Context Protocol) server implementation for Keycloak, enabling standardized management of Keycloak users and realms. It leverages the official Keycloak Admin Client to interact with Key**
 
@@ -12035,7 +11976,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 776. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers 📍
+### 772. [korigamik/markitdown_mcp_server](https://github.com/korigamik/markitdown_mcp_server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The markitdown_mcp_server is a GitHub-hosted MCP server designed to facilitate the conversion of diverse file types into Markdown format using the MarkItDown utility. It supports multiple input formats such as PDF, Word, Excel, images, and more, maki**
 
@@ -12049,7 +11990,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 777. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 773. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The VAST-AI-Research tripo-mcp project serves as an official MCP server for integrating Tripo AI into development workflows. It allows developers to interact with AI assistants using the Model Context Protocol, enabling seamless communication between**
 
@@ -12063,7 +12004,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 778. [hiromitsusasaki/raindrop-io-mcp-server](https://github.com/hiromitsusasaki/raindrop-io-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 774. [hiromitsusasaki/raindrop-io-mcp-server](https://github.com/hiromitsusasaki/raindrop-io-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The project provides a server-based solution that allows large language models (LLMs) to access and manage Raindrop.io bookmarks using the Model Context Protocol (MCP). This facilitates seamless interaction between AI systems and external bookmarking**
 
@@ -12078,7 +12019,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 779. [rishabkoul/iterm-mcp-server](https://github.com/rishabkoul/iterm-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 775. [rishabkoul/iterm-mcp-server](https://github.com/rishabkoul/iterm-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The rishabkoul/iTerm-MCP-Server project provides a Node.js-based implementation for integrating AI assistants with iTerm2 terminal environments via the Model Context Protocol. It supports secure, isolated execution of commands and terminal interactio**
 
@@ -12092,7 +12033,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 780. [genm/mcp-server-discord-webhook](https://github.com/genm/mcp-server-discord-webhook)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 776. [genm/mcp-server-discord-webhook](https://github.com/genm/mcp-server-discord-webhook)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The genm/mcp-server-discord-webhook project provides a GitHub-hosted MCP (Message Control Protocol) server that enables developers to integrate Discord webhooks into their applications. It supports sending messages with customizable content, username**
 
@@ -12107,7 +12048,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 781. [jamesacklin/tlon-mcp-server](https://github.com/jamesacklin/tlon-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 777. [jamesacklin/tlon-mcp-server](https://github.com/jamesacklin/tlon-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **The jamesacklin/tlon-mcp-server is an MCP (Model Context Protocol) server designed to facilitate seamless communication between Tlon agents and external tools. It provides a robust platform for developers to integrate with Tlon agents, automate workf**
 
@@ -12121,7 +12062,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 782. [anyrxo/proton-drive-mcp](https://github.com/anyrxo/proton-drive-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 778. [anyrxo/proton-drive-mcp](https://github.com/anyrxo/proton-drive-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The Proton Drive MCP server acts as a bridge between AI assistants and Proton Drive, allowing seamless integration for file management, content retrieval, and document editing. It supports cross-platform compatibility, secure access without credentia**
 
@@ -12136,7 +12077,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 783. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
+### 779. [weero-finance/kaiafun-mcp](https://github.com/weero-finance/kaiafun-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗3 layers
 
 **This project implements an MCP (Model Context Protocol) server to enable secure token listing, trading, and interaction with the Kaia blockchain. It provides a development environment for managing tokens, executing trades, and integrating with blockc**
 
@@ -12150,7 +12091,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 784. [mahecode/gamethinking-mcp-server](https://github.com/mahecode/gamethinking-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 780. [mahecode/gamethinking-mcp-server](https://github.com/mahecode/gamethinking-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The Gamethinking MCP Server is an AI-driven development environment designed to assist in the creation and refinement of game mechanics, balancing strategies, and narrative structures. It enables developers to prototype, test, and iterate on game con**
 
@@ -12165,7 +12106,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 785. [sdairs/claudekeep](https://github.com/sdairs/claudekeep)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 781. [sdairs/claudekeep](https://github.com/sdairs/claudekeep)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **This project introduces an MCP server implementation that allows users to store and share their private and public chats from Claude Desktop. It leverages the Model Context Protocol to facilitate secure communication between Claude and external syste**
 
@@ -12179,7 +12120,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 786. [harshil1712/berlin-transport-mcp](https://github.com/harshil1712/berlin-transport-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 782. [harshil1712/berlin-transport-mcp](https://github.com/harshil1712/berlin-transport-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The project provides a cloud-based MCP server that wraps the VBB API, allowing developers to programmatically access and utilize Berlin's public transport information. It supports key functionalities such as searching stops, retrieving departures, an**
 
@@ -12193,7 +12134,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 787. [aldrin-labs/solana-docs-mcp-server](https://github.com/aldrin-labs/solana-docs-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 783. [aldrin-labs/solana-docs-mcp-server](https://github.com/aldrin-labs/solana-docs-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The aldrin-labs solana-docs-mcp-server is a developer-focused platform that enables creation, management, and summarization of text notes using MCP (Messaging Control Protocol). It provides tools for building note systems, generating summaries, and i**
 
@@ -12207,7 +12148,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 788. [renant/mcp-tabnews](https://github.com/renant/mcp-tabnews)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 784. [renant/mcp-tabnews](https://github.com/renant/mcp-tabnews)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP server facilitates seamless integration with Tabnews by providing tools for content scraping, analytics, and structured data access. It supports advanced features like type-safe TypeScript, Zod schema validation, and native Node.js integratio**
 
@@ -12222,7 +12163,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 789. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 785. [georgejeffers/gemini-mcp-server](https://github.com/georgejeffers/gemini-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides an A TypeScript implementation of the Model Context Protocol (MCP) server, designed to work seamlessly with Google's Gemini Pro AI model. It enables integration with the Claude Desktop application, allowing users to leverage adv**
 
@@ -12236,7 +12177,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 790. [aingdesk/AingDesk](https://github.com/aingdesk/AingDesk)  `8.0` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
+### 786. [aingdesk/AingDesk](https://github.com/aingdesk/AingDesk)  `8.0` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗2 layers
 
 **AingDesk is a user-friendly AI assistant software that supports local AI models, APIs, and knowledge base setup. Key features include: one-click deployment of local AI models and mainstream model APIs, local knowledge base, intelligent agent creation**
 
@@ -12252,7 +12193,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 791. [fl0w1nd/grok2-image-mcp-server](https://github.com/fl0w1nd/grok2-image-mcp-server)  `9.6` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 787. [fl0w1nd/grok2-image-mcp-server](https://github.com/fl0w1nd/grok2-image-mcp-server)  `9.6` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Borg-based image generation and editing platform using the Grok image model, enabling automated creation and modification of images from text prompts.**
 
@@ -12268,7 +12209,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 792. [0xgval/evm-mcp-tools](https://github.com/0xgval/evm-mcp-tools)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
+### 788. [0xgval/evm-mcp-tools](https://github.com/0xgval/evm-mcp-tools)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
 
 **A blockchain analysis toolkit for Claude AI to audit smart contracts, analyze wallets, track profitability, and fetch on-chain data using Model Context Protocol.**
 
@@ -12283,7 +12224,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 793. [builtwith/mcp](https://github.com/builtwith/mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
+### 789. [builtwith/mcp](https://github.com/builtwith/mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
 
 **BuiltWith MCP Server enables AI assistants to query technology detection data directly, facilitating seamless integration of platform intelligence into workflows.**
 
@@ -12298,7 +12239,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 794. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 790. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Unsloth-MCP-Server optimizes LLM fine-tuning speed and memory usage by leveraging custom CUDA kernels, 4-bit quantization, and extended context lengths.**
 
@@ -12313,7 +12254,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 795. [pv-bhat/gemforge-mcp](https://github.com/pv-bhat/gemforge-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 791. [pv-bhat/gemforge-mcp](https://github.com/pv-bhat/gemforge-mcp)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **GemForge-MCP empowers agents with enterprise-grade Gemini integration for advanced codebase analysis, live search, and processing of text, PDFs, images, and more.**
 
@@ -12328,7 +12269,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 796. [aplaceforallmystuff/mcp-kit](https://github.com/aplaceforallmystuff/mcp-kit)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 792. [aplaceforallmystuff/mcp-kit](https://github.com/aplaceforallmystuff/mcp-kit)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An MCP server that connects AI assistants like Claude to Kit.com, enabling natural language management of email lists, subscribers, broadcasts, and sequences.**
 
@@ -12343,7 +12284,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 797. [jirispilka/actors-mcp-server](https://github.com/jirispilka/actors-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 793. [jirispilka/actors-mcp-server](https://github.com/jirispilka/actors-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Apify MCP server enables AI agents to dynamically discover, manage, and integrate with various Apify Actors for web scraping, data extraction, and automation tasks.**
 
@@ -12358,7 +12299,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 798. [Show HN: Real Browser MCP – your AI agent can see your real browser | Hacker News](https://news.ycombinator.com/item?id=47307605)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 794. [Show HN: Real Browser MCP – your AI agent can see your real browser | Hacker News](https://news.ycombinator.com/item?id=47307605)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The Real Browser MCP extension enables seamless integration of artificial intelligence agents into users' actual browsing sessions. It operates by interfacing directly with the Chrome browser, maintaining the same tabs, cookies, and login states as t**
 
@@ -12373,7 +12314,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 799. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 795. [hawstein/mcp-server-reddit](https://github.com/hawstein/mcp-server-reddit)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The MCP Server Reddit provides tools for fetching Reddit frontpage posts, subreddit information, hot posts, post details, and comments. It uses redditwarp to interface with Reddit's public API and exposes functionality via the Model Context Protocol **
 
@@ -12389,7 +12330,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 800. [hkopenai/hk-transportation-mcp-server](https://github.com/hkopenai/hk-transportation-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 796. [hkopenai/hk-transportation-mcp-server](https://github.com/hkopenai/hk-transportation-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The project offers an API-based platform for accessing real-time and historical transportation statistics in Hong Kong, including passenger flows, bus routes, and control point data, designed to integrate with AI and analytics tools.**
 
@@ -12405,7 +12346,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 801. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 797. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The alxspiker/ai-meta-mcp-server is a flexible platform that allows AI models to define and run custom tools at runtime through a meta-tool architecture. It supports multiple execution environments, enforces sandboxed security, and integrates with hu**
 
@@ -12421,7 +12362,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 802. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 798. [bartwisch/mcprules](https://github.com/bartwisch/mcprules)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **MCPRules is an MCP server designed to enforce and serve programming guidelines across development projects. It integrates with various development tools, ensuring uniform coding standards and facilitating seamless collaboration among developers.**
 
@@ -12437,7 +12378,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 803. [tmhr1850/backlog-mcp-server](https://github.com/tmhr1850/backlog-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 799. [tmhr1850/backlog-mcp-server](https://github.com/tmhr1850/backlog-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The MCP Server project provides a centralized backlog system enabling teams to manage tasks, issues, and workflows efficiently. It integrates with various tools and supports automated processes, enhancing productivity in modern software development e**
 
@@ -12453,7 +12394,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 804. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 800. [1595901624/qrcode-mcp](https://github.com/1595901624/qrcode-mcp)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This project provides a lightweight MCP server designed to generate QR codes tailored for specific use cases. It supports customization of QR code styles, making it suitable for integration into various applications requiring secure and visually dist**
 
@@ -12469,7 +12410,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 805. [17,000 MCP Servers — And the Security Threats Nobody Is Talking About](https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 801. [17,000 MCP Servers — And the Security Threats Nobody Is Talking About](https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The document examines the rapid proliferation of over 17,000 MCP servers across various platforms, highlighting their expanded attack surface. It identifies three critical security threats unique to MCP: tool poisoning, injection risks through malici**
 
@@ -12484,7 +12425,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 806. [matin/garth-mcp-server](https://github.com/matin/garth-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 802. [matin/garth-mcp-server](https://github.com/matin/garth-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a server-based solution for handling Garmin Connect MCP server communications, enabling secure integration with various platforms and tools. It supports automation, workflow management, and security features to ensure smooth data**
 
@@ -12499,7 +12440,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 807. [chandrahas455/psmcp-mcp-server-for-photoshop](https://github.com/chandrahas455/psmcp-mcp-server-for-photoshop)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 803. [chandrahas455/psmcp-mcp-server-for-photoshop](https://github.com/chandrahas455/psmcp-mcp-server-for-photoshop)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides an extensive MCP (Media Creation Platform) server integrated with a Gradio MCP client, allowing users to interact with Photoshop via Python. It supports automation of repetitive design tasks, batch processing of PSD files, and dy**
 
@@ -12514,7 +12455,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 808. [davidshtian/mcp-on-aws-bedrock](https://github.com/davidshtian/mcp-on-aws-bedrock)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 804. [davidshtian/mcp-on-aws-bedrock](https://github.com/davidshtian/mcp-on-aws-bedrock)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **This project provides a clear example of integrating Anthropic's Model Context Protocol (MCP) with AWS Bedrock, enabling developers to interact with MCP services through a structured API. It covers setup, configuration, and usage scenarios for managi**
 
@@ -12529,7 +12470,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 809. [topherbc/python-run-mcp](https://github.com/topherbc/python-run-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 805. [topherbc/python-run-mcp](https://github.com/topherbc/python-run-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a Python-based MCP (Model Context Protocol) server that enables secure and standardized execution of Python scripts via API endpoints. It supports running code in isolated environments, ensuring security and consistency across de**
 
@@ -12544,7 +12485,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 810. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 806. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The Zoom MCP Server enables users to create, update, read, or delete Zoom meetings through natural language commands integrated with AI platforms such as Claude and Cursor. It leverages Zod schema validation for robust command handling and supports e**
 
@@ -12559,7 +12500,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 811. [clay-inc/clay-mcp](https://github.com/clay-inc/clay-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 807. [clay-inc/clay-mcp](https://github.com/clay-inc/clay-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The clay-mcp project provides a lightweight MCP server designed to facilitate secure and efficient communication between Clay and other systems. It supports contact management, interaction history, group creation, and more, enabling seamless integrat**
 
@@ -12574,7 +12515,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 812. [yuanooo/oceanbase_mcp_server](https://github.com/yuanooo/oceanbase_mcp_server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 808. [yuanooo/oceanbase_mcp_server](https://github.com/yuanooo/oceanbase_mcp_server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The OceanBase MCP server provides a controlled interface for AI assistants to list tables, read data, and execute SQL queries securely. It enhances database exploration by integrating with OceanBase through a Model Context Protocol (MCP), ensuring st**
 
@@ -12589,7 +12530,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 813. [burakdirin/mysqldb-mcp-server](https://github.com/burakdirin/mysqldb-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 809. [burakdirin/mysqldb-mcp-server](https://github.com/burakdirin/mysqldb-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project provides a MySQL database integration server for Claude AI, allowing seamless interaction between AI models and MySQL databases. It includes tools for connecting to MySQL, executing queries, and managing configurations, supporting secure **
 
@@ -12604,7 +12545,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 814. [buildkite/buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 810. [buildkite/buildkite-mcp-server](https://github.com/buildkite/buildkite-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The Borg Project's buildkite-mcp-server acts as a secure MCP (Managed Cloud Provider) server that facilitates the integration of Buildkite into AI-powered development environments. It provides a stable, containerized API endpoint for developers to in**
 
@@ -12618,7 +12559,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 815. [openshift-pipelines/mcp-tekton](https://github.com/openshift-pipelines/mcp-tekton)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 811. [openshift-pipelines/mcp-tekton](https://github.com/openshift-pipelines/mcp-tekton)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **This repository provides a Tekton Model Context Protocol server, enabling developers to list, filter, and inspect pipeline runs or other resources within a Tekton MCP server. It supports integration with Tekton workflows, offering tools for managing **
 
@@ -12633,7 +12574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 816. [jonemo/openpyxl-mcp-server](https://github.com/jonemo/openpyxl-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
+### 812. [jonemo/openpyxl-mcp-server](https://github.com/jonemo/openpyxl-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **The jonemo/openpyxl-mcp-server project provides a lightweight wrapper around the OpenPyXl Python library, exposing its Excel file reading capabilities as an MCP server. This allows users to programmatically fetch and process data from Excel spreadshe**
 
@@ -12648,7 +12589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 817. [irahulpandey/mlflowmcpserver](https://github.com/irahulpandey/mlflowmcpserver)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 813. [irahulpandey/mlflowmcpserver](https://github.com/irahulpandey/mlflowmcpserver)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The iRahulPandey MLflow MCP Server provides a conversational AI assistant to query and manage MLflow functionalities through natural language queries. It supports model registry, experiment tracking, system information, and integrates with OpenAI for**
 
@@ -12663,7 +12604,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 818. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 814. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The MCP Server is an AI-powered developer platform designed to simplify data exploration and insight generation. It offers a user-friendly interface for non-technical users while providing robust tools for developers, enabling seamless integration wi**
 
@@ -12678,7 +12619,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 819. [kukapay/opcua-mcp](https://github.com/kukapay/opcua-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 815. [kukapay/opcua-mcp](https://github.com/kukapay/opcua-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project provides a Python-based MCP server that facilitates seamless integration with OPC UA-enabled industrial devices. It allows developers to read, write, and manage real-time operational data, enhancing automation and AI-driven decision-makin**
 
@@ -12693,7 +12634,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 820. [mccartykim/goose_fm](https://github.com/mccartykim/goose_fm)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 816. [mccartykim/goose_fm](https://github.com/mccartykim/goose_fm)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project presents an MCP (Media Control Protocol) server that allows AI assistants to interact with FM radio stations, enhancing smart audio experiences. It leverages Nix for dependency management and demonstrates integration with RTL-SDR hardware**
 
@@ -12708,7 +12649,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 821. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 817. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The project leverages CAMEL AI to automate the creation of MCP servers tailored for various applications. It integrates seamlessly with different platforms and supports a range of functionalities, enhancing infrastructure management and workflow auto**
 
@@ -12723,7 +12664,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 822. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 818. [devonmojito/ton-blockchain-mcp](https://github.com/devonmojito/ton-blockchain-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a model context protocol (MCP) server written in Python, allowing users to interact with the TON blockchain using natural language queries. It supports features such as trading analysis, hot trend detection, forensic investigatio**
 
@@ -12738,7 +12679,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 823. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 819. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **This project provides a Python-based MCP server designed to integrate with Anthropic's Claude Desktop application and the CFPB Consumer Complaint Database API. It enables developers to build intelligent workflows by automating data retrieval, process**
 
@@ -12753,7 +12694,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 824. [lumif-ai/mcp-ta-tool](https://github.com/lumif-ai/mcp-ta-tool)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 820. [lumif-ai/mcp-ta-tool](https://github.com/lumif-ai/mcp-ta-tool)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The MCP tool provides functionalities to calculate Exponential Moving Averages (EMA) for cryptocurrency trading data, supporting real-time date and time information. It integrates with MongoDB for data storage and retrieval, leveraging SSE transport **
 
@@ -12768,7 +12709,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 825. [vanto/beanquery-mcp](https://github.com/vanto/beanquery-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 821. [vanto/beanquery-mcp](https://github.com/vanto/beanquery-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **The Beancount MCP Server is an experimental implementation that leverages the Model Context Protocol (MCP) to allow AI assistants to query and analyze financial data stored in Beancount format using the BeanQuery Language (BQL). By integrating with t**
 
@@ -12782,7 +12723,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 826. [kashiwabyte/vikingdb-mcp-server](https://github.com/kashiwabyte/vikingdb-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
+### 822. [kashiwabyte/vikingdb-mcp-server](https://github.com/kashiwabyte/vikingdb-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
 
 **The VikingDB MCP server is a specialized infrastructure component designed to handle vector data storage, indexing, and search operations efficiently. It integrates with the VikingDB database system to provide scalable and secure access to vectorized**
 
@@ -12796,7 +12737,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 827. [erniebrodeur/mcp-grep](https://github.com/erniebrodeur/mcp-grep)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 823. [erniebrodeur/mcp-grep](https://github.com/erniebrodeur/mcp-grep)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a lightweight MCP (Model Context Protocol) server that enhances the functionality of the standard grep utility by integrating it into a web-based environment. This allows users to leverage powerful search features directly within**
 
@@ -12810,7 +12751,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 828. [gridfireai/reddit-mcp](https://github.com/gridfireai/reddit-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 824. [gridfireai/reddit-mcp](https://github.com/gridfireai/reddit-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The GridfireAI Reddit-MCP project provides a user-friendly interface to interact with the Reddit API, enabling users to search posts, comments, subreddits, and more. It leverages PRAW for robust API interaction and supports integration with various A**
 
@@ -12825,7 +12766,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 829. [cnitlrt/headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
+### 825. [cnitlrt/headless-ida-mcp-server](https://github.com/cnitlrt/headless-ida-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a headless version of IDA Pro's MCP Server, enabling developers to analyze compiled binaries without an interactive GUI. It integrates Python 3.12 and DennyDai's headless-ida library, offering tools for inspecting functions, vari**
 
@@ -12840,7 +12781,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 830. [kennethreitz/mcp-applemusic](https://github.com/kennethreitz/mcp-applemusic)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 826. [kennethreitz/mcp-applemusic](https://github.com/kennethreitz/mcp-applemusic)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **The project provides a Python-based MCP server that enables macOS users to control Apple Music using AppleScript commands. It supports features such as searching for tracks, playing songs, creating playlists, and managing library statistics. The serv**
 
@@ -12854,7 +12795,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 831. [kenliao94/mcp-server-rabbitmq](https://github.com/kenliao94/mcp-server-rabbitmq)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 827. [kenliao94/mcp-server-rabbitmq](https://github.com/kenliao94/mcp-server-rabbitmq)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP server facilitates seamless communication between applications by acting as an intermediary for RabbitMQ interactions. It supports automation, workflow orchestration, and secure code management, making it ideal for modern DevOps and enterpris**
 
@@ -12869,7 +12810,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 832. [tizee/mcp-server-ietf](https://github.com/tizee/mcp-server-ietf)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 828. [tizee/mcp-server-ietf](https://github.com/tizee/mcp-server-ietf)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The tizee/mcp-server-ietf project provides a Model Context Protocol (MCP) server that allows LMs to fetch and interact with IETF RFC documents. It supports keyword-based search, pagination, and integration with development environments, enhancing the**
 
@@ -12884,7 +12825,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 833. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 829. [54yyyu/school-mcp](https://github.com/54yyyu/school-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The School MCP server enables seamless integration between academic platforms like Canvas and Gradescope, providing assignment deadlines, course materials, and automated reminders. It supports secure environment setup, configuration management, and w**
 
@@ -12899,7 +12840,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 834. [aarushkx/covid-mcp-server](https://github.com/aarushkx/covid-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 830. [aarushkx/covid-mcp-server](https://github.com/aarushkx/covid-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project implements a MCP server that fetches and displays current COVID-19 data by country using an external API. It enables integration with MCP hosts to retrieve live statistics, supporting applications in public health monitoring and data-driv**
 
@@ -12914,7 +12855,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 835. [timjuenemann/wikipedia-mcp](https://github.com/timjuenemann/wikipedia-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 831. [timjuenemann/wikipedia-mcp](https://github.com/timjuenemann/wikipedia-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The Wikipedia MCP Server provides a structured API for language models to access Wikipedia content using the Model Context Protocol. It supports features such as searching, retrieving full articles, markdown conversion, and integration with AI tools **
 
@@ -12929,7 +12870,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 836. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 832. [dylangroos/patchright-mcp-lite](https://github.com/dylangroos/patchright-mcp-lite)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **Patchright is a streamlined Model Context Protocol (MCP) server built on the Patchright Node.js SDK. It provides undetectable automation capabilities, supporting essential functions such as browsing, interacting with web pages, extracting content, an**
 
@@ -12943,7 +12884,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 837. [sivakumarl/my-mcp-worker](https://github.com/sivakumarl/my-mcp-worker)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 833. [sivakumarl/my-mcp-worker](https://github.com/sivakumarl/my-mcp-worker)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **This project leverages Cloudflare Workers and the workers-mcp package to create a scalable, secure MCP (Model Context Protocol) server. It allows AI assistants to access and invoke external services via MCP, integrating seamlessly with Cloudflare's i**
 
@@ -12958,7 +12899,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 838. [rinardnick/mcp-terminal](https://github.com/rinardnick/mcp-terminal)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 834. [rinardnick/mcp-terminal](https://github.com/rinardnick/mcp-terminal)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Terminal project implements a secure, isolated environment for executing commands via the Model Context Protocol (MCP). It enforces strict security by allowing only predefined commands, preventing command injection and unauthorized operations**
 
@@ -12972,7 +12913,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 839. [priyankark/phonepi-mcp](https://github.com/priyankark/phonepi-mcp/tree/HEAD/server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 835. [priyankark/phonepi-mcp](https://github.com/priyankark/phonepi-mcp/tree/HEAD/server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project introduces a server-based solution that allows developers to control their phone through AI applications using the MCP protocol. It supports remote device management, real-time communication, and integration with various AI tools, enhanci**
 
@@ -12987,7 +12928,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 840. [namrata-ami/mcp_twitter_connect](https://github.com/namrata-ami/mcp_twitter_connect)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 836. [namrata-ami/mcp_twitter_connect](https://github.com/namrata-ami/mcp_twitter_connect)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **The project focuses on building an MCP Server that communicates with the Twitter API to obtain recent tweets from specified usernames. This enables AI tools, such as Claude, to request and access real-time data efficiently. The implementation leverag**
 
@@ -13001,7 +12942,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 841. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 837. [receptopalak/postgis-mcp](https://github.com/receptopalak/postgis-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **This project provides a PostgreSQL MCP Server implementation using TypeScript and PostGIS extension, enabling seamless integration of spatial data handling within development and production environments. It supports hot-reload functionality, configur**
 
@@ -13016,7 +12957,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 842. [r3-yamauchi/cdata-connect-cloud-mcp-server](https://github.com/r3-yamauchi/cdata-connect-cloud-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 838. [r3-yamauchi/cdata-connect-cloud-mcp-server](https://github.com/r3-yamauchi/cdata-connect-cloud-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project offers a GitHub-hosted MCP server that implements the Connect Cloud MCP Server, facilitating integration with CData Connect Cloud. It includes configuration files, setup instructions, and code examples to deploy and manage the server for **
 
@@ -13031,7 +12972,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 843. [awwaiid/mcp-server-taskwarrior](https://github.com/awwaiid/mcp-server-taskwarrior)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 839. [awwaiid/mcp-server-taskwarrior](https://github.com/awwaiid/mcp-server-taskwarrior)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The awwaiid/mcp-server-taskwarrior project provides a MCP (Model Context Protocol) server to manage and orchestrate TaskWarrior operations. It enables developers to integrate TaskWarrior into their workflows by handling task creation, filtering, mark**
 
@@ -13045,7 +12986,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 844. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 840. [bigsy/clojars-mcp-server](https://github.com/bigsy/clojars-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The Bigsy/Clojars-MCP-Server is a lightweight MCP server designed to provide developers with tools to query and manage dependencies from the Clojure community's artifact repository, Clojars. It enables seamless integration with Claude Desktop for dep**
 
@@ -13059,7 +13000,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 845. [maoxiaoke/create-mcp-server](https://github.com/maoxiaoke/create-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
+### 841. [maoxiaoke/create-mcp-server](https://github.com/maoxiaoke/create-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗3 layers
 
 **The maoxiaoke/create-mcp-server project provides a specialized MCP server that simplifies the development process for new MCP server scaffolds. It offers a clear, step-by-step approach to building MCP servers, complete with example templates and best**
 
@@ -13073,7 +13014,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 846. [shinzo-labs/heimdall](https://github.com/shinzo-labs/heimdall)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 842. [shinzo-labs/heimdall](https://github.com/shinzo-labs/heimdall)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The Heimdall project provides a lightweight service to manage local MCP servers and grant or restrict access to specific tools via a configuration file. It enables efficient tool management for MCP clients, supporting secure and streamlined operation**
 
@@ -13088,7 +13029,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 847. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 843. [jpinillagoshawk/mcp-server-file-modifier](https://github.com/jpinillagoshawk/mcp-server-file-modifier)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The mcp-server-file-modifier project provides a Model Context Protocol server that allows users to modify files directly through AI assistants like Claude. It supports operations such as adding, replacing, and deleting content at specific line number**
 
@@ -13102,7 +13043,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 848. [5ajaki/safe-mcp-server](https://github.com/5ajaki/safe-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 844. [5ajaki/safe-mcp-server](https://github.com/5ajaki/safe-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP Server project provides a robust solution for developers to integrate with Gnosis Safe, a leading blockchain security platform. It offers a user-friendly interface for querying Safe transactions, decoding transaction data, and managing multis**
 
@@ -13116,7 +13057,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 849. [tedlikeskix/mcp-ip-geolocator](https://github.com/tedlikeskix/mcp-ip-geolocator)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 845. [tedlikeskix/mcp-ip-geolocator](https://github.com/tedlikeskix/mcp-ip-geolocator)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **The MCP-IP Geolocator project provides a lightweight, open-source tool for determining the geographic location of an IP address via integration with IP-API.com. It offers detailed location data including city, region, country, timezone, ISP, and AS n**
 
@@ -13130,7 +13071,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 850. [cachij/kakao-navigation-mcp-server](https://github.com/cachij/kakao-navigation-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 846. [cachij/kakao-navigation-mcp-server](https://github.com/cachij/kakao-navigation-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **This project implements a server-based solution that adheres to the Model Context Protocol (MCP) to deliver accurate location-based services. It supports geocoding, route planning, real-time traffic updates, and integrates with Kakao Mobility's APIs **
 
@@ -13145,7 +13086,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 851. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 847. [fradser/mcp-server-to-markdown](https://github.com/fradser/mcp-server-to-markdown)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP Server To Markdown project provides a cloud-based solution for converting files into Markdown format, leveraging Cloudflare's AI capabilities. It supports multiple file types and integrates seamlessly with Claude Desktop, offering efficient a**
 
@@ -13160,7 +13101,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 852. [royshil/obs-mcp](https://github.com/royshil/obs-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 848. [royshil/obs-mcp](https://github.com/royshil/obs-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project provides a GitHub-hosted MCP server that allows developers to manage and automate OBS Studio sessions remotely using the OBS WebSocket protocol. It supports scene management, source control, streaming, transitions, and integration with Cl**
 
@@ -13175,7 +13116,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 853. [wangshunnn/bilibili-mcp-server](https://github.com/wangshunnn/bilibili-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 849. [wangshunnn/bilibili-mcp-server](https://github.com/wangshunnn/bilibili-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP server facilitates interaction with the Bilibili API by providing a structured environment for retrieving user data, managing video information, and supporting various functionalities essential for modernizing applications through secure and **
 
@@ -13190,7 +13131,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 854. [gzuuus/dvmcp](https://github.com/gzuuus/dvmcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 850. [gzuuus/dvmcp](https://github.com/gzuuus/dvmcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **DVMCP is a bridge implementation that enables seamless integration between Model Context Protocol (MCP) servers and Nostr's decentralized data vending machine (DVM) ecosystem. It allows AI and computational services running on MCP servers to be disco**
 
@@ -13204,7 +13145,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 855. [jorgeraad/mcp4gql](https://github.com/jorgeraad/mcp4gql)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 851. [jorgeraad/mcp4gql](https://github.com/jorgeraad/mcp4gql)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The mcp4gql project provides a robust MCP server that facilitates communication between MCP clients and external GraphQL servers. It supports key functionalities such as introspection of GraphQL schemas, execution of queries/mutations, and secure aut**
 
@@ -13218,7 +13159,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 856. [kwp-lab/rss-reader-mcp](https://github.com/kwp-lab/rss-reader-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
+### 852. [kwp-lab/rss-reader-mcp](https://github.com/kwp-lab/rss-reader-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP server facilitates the collection of RSS feeds and enables the extraction of full article content from URLs. It supports integration with various clients like Claude Desktop and CherryStudio, providing a seamless experience for users to acces**
 
@@ -13233,7 +13174,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 857. [FelixYifeiWang/felix-mcp-smithery](https://github.com/FelixYifeiWang/felix-mcp-smithery)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 853. [FelixYifeiWang/felix-mcp-smithery](https://github.com/FelixYifeiWang/felix-mcp-smithery)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The Felix-MCP-Smithery project provides a lightweight, containerized MCP (Model Context Protocol) server hosted on Smithery. It integrates four key tools: hello for greeting, randomNumber for generating numbers, weather for fetching local weather dat**
 
@@ -13247,7 +13188,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 858. [airshelf/mcpfs](https://github.com/airshelf/mcpfs)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class 📍
+### 854. [airshelf/mcpfs](https://github.com/airshelf/mcpfs)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class 📍
 
 **A FUSE-based filesystem that mounts Model Context Protocol (MCP) servers as local directories, allowing AI agents to interact with SaaS APIs as if they were local files.**
 
@@ -13261,7 +13202,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 859. [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
+### 855. [alchemyplatform/alchemy-mcp-server](https://github.com/alchemyplatform/alchemy-mcp-server)  `10.0` ★★★ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A MCP server enabling AI agents to interact with Alchemy's blockchain APIs in a structured way.**
 
@@ -13276,7 +13217,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 860. [tornikegomareli/macos-tools-mcp-server](https://github.com/tornikegomareli/macos-tools-mcp-server)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
+### 856. [tornikegomareli/macos-tools-mcp-server](https://github.com/tornikegomareli/macos-tools-mcp-server)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A macOS system monitoring and file search tool that integrates deeply with LLM clients, enabling real-time performance tracking, advanced file searching, and secure code management.**
 
@@ -13291,7 +13232,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 861. [xianminx/mcp-server-flomo](https://github.com/xianminx/mcp-server-flomo)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 857. [xianminx/mcp-server-flomo](https://github.com/xianminx/mcp-server-flomo)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-server-flomo project provides a model context protocol (MCP) server that allows users to input natural language commands via AI platforms like Cursor or Claude to create notes directly within Flomo. It supports seamless integration with AI to**
 
@@ -13305,7 +13246,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 862. [mrnugget/tailscale-mcp](https://github.com/mrnugget/tailscale-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 858. [mrnugget/tailscale-mcp](https://github.com/mrnugget/tailscale-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The mrnugget/tailscale-mcp project provides a lightweight MCP (Managed Cloud Provider) server that allows developers to query and manage the status of their Tailscale connections programmatically. This tool is particularly useful for integrating with**
 
@@ -13319,7 +13260,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 863. [integromat/make-mcp-server](https://github.com/integromat/make-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 859. [integromat/make-mcp-server](https://github.com/integromat/make-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The Make MCP Server acts as a bridge between AI systems and Make automation workflows, allowing AI tools to invoke scenarios with structured parameters. It supports bidirectional communication, integrates with AI platforms like Claude Desktop, and en**
 
@@ -13333,7 +13274,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 864. [vinayak-mehta/mcp-browser-use](https://github.com/vinayak-mehta/mcp-browser-use)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 860. [vinayak-mehta/mcp-browser-use](https://github.com/vinayak-mehta/mcp-browser-use)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **mcp-browser-use is a browser extension that enables seamless interaction between MCP clients and web browsers by leveraging an already-installed large language model (LLM). This approach simplifies integration without requiring additional infrastruct**
 
@@ -13347,7 +13288,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 865. [dmcxblue/claude-c2](https://github.com/dmcxblue/claude-c2)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 861. [dmcxblue/claude-c2](https://github.com/dmcxblue/claude-c2)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **This project implements a Borg-based system that leverages an MCP (Message Control Protocol) server to facilitate seamless communication between a Python-based client and the C2 (Command and Control) server. The integration allows for efficient task **
 
@@ -13361,7 +13302,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 866. [morinokami/mcp-server-bluesky](https://github.com/morinokami/mcp-server-bluesky)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 862. [morinokami/mcp-server-bluesky](https://github.com/morinokami/mcp-server-bluesky)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a server application that allows developers to build and manage applications on the Bluesky platform using MCP (Meta Cloud Platform). It integrates with Bluesky's API to enable features such as profile management, post interactio**
 
@@ -13375,7 +13316,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 867. [qpd-v/mcp-communicator-telegram](https://github.com/qpd-v/mcp-communicator-telegram)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
+### 863. [qpd-v/mcp-communicator-telegram](https://github.com/qpd-v/mcp-communicator-telegram)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
 
 **The mcp-communicator-telegram project provides a Node.js-based Telegram bot that facilitates interactive communication with users through Telegram. It supports features such as asking questions, sending notifications, sharing files, and managing proj**
 
@@ -13389,7 +13330,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 868. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 864. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a model context protocol for ClickHouse MCP Server, allowing AI tools to list tables, read data, and execute queries securely. It includes configuration instructions, environment setup, and integration examples for developers.**
 
@@ -13404,7 +13345,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 869. [burakdirin/clickhouse-mcp-server](https://github.com/burakdirin/clickhouse-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 865. [burakdirin/clickhouse-mcp-server](https://github.com/burakdirin/clickhouse-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The burakdirin/clickhouse-mcp-server project provides a Clickhouse MCP server that allows artificial intelligence applications, such as Claude, to seamlessly connect and query data stored in Clickhouse databases. This integration facilitates real-tim**
 
@@ -13418,7 +13359,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 870. [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
+### 866. [f4ww4z/mcp-mysql-server](https://github.com/f4ww4z/mcp-mysql-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
 
 **The f4ww4z/mcp-mysql-server is a GitHub-hosted MySQL client designed to facilitate secure and efficient database interactions for AI models. It supports advanced features like prepared statements, automatic connection management, and integration with**
 
@@ -13433,7 +13374,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 871. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 867. [jbdamask/cursor-db-mcp](https://github.com/jbdamask/cursor-db-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The jbdamask/cursor-db-mcp project provides a Model Context Protocol (MCP) server that allows AI assistants to query and interact with Cursor's SQLite databases. It facilitates access to chat histories, composer information, and project-specific data**
 
@@ -13447,7 +13388,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 872. [mtwn105/mcp-server-spring-java](https://github.com/mtwn105/mcp-server-spring-java)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 868. [mtwn105/mcp-server-spring-java](https://github.com/mtwn105/mcp-server-spring-java)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **This project implements a MCP (Model Context Protocol) server using Java 21 and Spring Boot, providing synchronous communication for AI assistant user management. It supports user registration, retrieval, updates, and deletions via REST endpoints, in**
 
@@ -13461,7 +13402,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 873. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 869. [ktanaka101/mcp-server-duckdb](https://github.com/ktanaka101/mcp-server-duckdb)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The ktanaka101/mcp-server-duckdb project implements a Model Context Protocol (MCP) server for DuckDB, allowing developers to interact with the database using a single unified query interface. This facilitates seamless integration of DuckDB into appli**
 
@@ -13475,7 +13416,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 874. [bigcoder84/mcp-excel-server](https://github.com/bigcoder84/mcp-excel-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 870. [bigcoder84/mcp-excel-server](https://github.com/bigcoder84/mcp-excel-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project leverages the Spring AI MCP framework to allow LLMs to read and write local Excel files, facilitating dynamic data exchange between AI systems and spreadsheet applications. It supports reading .xlsx/.xls files in JSON format and writing s**
 
@@ -13489,7 +13430,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 875. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 871. [krupalp525/fledge-mcp](https://github.com/krupalp525/fledge-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The Fledge MCP Server acts as a bridge between Fledge instances and Cursor AI, allowing developers to integrate AI-driven interactions using natural language commands. It supports secure API key authentication, real-time data streaming, and tool inte**
 
@@ -13504,7 +13445,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 876. [torukmaktoalpha/indian-stocks-mcp](https://github.com/torukmaktoalpha/indian-stocks-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 872. [torukmaktoalpha/indian-stocks-mcp](https://github.com/torukmaktoalpha/indian-stocks-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project offers a backend solution to integrate Indian stock market data via the Model Context Protocol (MCP), enabling secure and efficient access to financial information. It supports trending stocks, financial statements, and historical data, w**
 
@@ -13518,7 +13459,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 877. [peikuo/china-stock-mcp-server](https://github.com/peikuo/china-stock-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 873. [peikuo/china-stock-mcp-server](https://github.com/peikuo/china-stock-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The China Stock MCP Server is a Multi-Call Protocol (MCP) server that provides comprehensive access to Chinese stock market data via a unified API. It integrates real-time and historical data from major exchanges like Shanghai, Shenzhen, and Beijing **
 
@@ -13533,7 +13474,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 878. [vkdnjznd/crypto-trading-mcp](https://github.com/vkdnjznd/crypto-trading-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 874. [vkdnjznd/crypto-trading-mcp](https://github.com/vkdnjznd/crypto-trading-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project implements a Model Context Protocol (MCP) server designed to streamline cryptocurrency trading operations by providing a consistent interface for accessing real-time market data and executing trades across various exchanges. It focuses on**
 
@@ -13547,7 +13488,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 879. [kj455/mcp-kibela](https://github.com/kj455/mcp-kibela)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 875. [kj455/mcp-kibela](https://github.com/kj455/mcp-kibela)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The mcp-kibela project implements a MCP (Model Context Protocol) server that allows AI assistants, such as Claude, to securely access and utilize information stored in Kibela. It provides a robust infrastructure for developers to integrate AI capabil**
 
@@ -13561,7 +13502,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 880. [pepuscz/typefully-mcp-server](https://github.com/pepuscz/typefully-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 876. [pepuscz/typefully-mcp-server](https://github.com/pepuscz/typefully-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The Typefully MCP Server acts as a bridge between AI assistants and the Typefully API, offering robust features like draft creation, scheduling, threading, and auto-plugging. It supports secure API key management and provides tools for developers to **
 
@@ -13576,7 +13517,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 881. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 877. [macrat/mcp-ayd-server](https://github.com/macrat/mcp-ayd-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The macrat/mcp-ayd-server is a GitHub-hosted MCP (Model Context Protocol) server designed to facilitate real-time monitoring and status tracking of Ayd models. It enables developers and operations teams to integrate context-aware services into their **
 
@@ -13590,7 +13531,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 882. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 878. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted MCP server designed to streamline data ingestion and integration from multiple sources, supporting scalable and automated workflows for modern software development practices.**
 
@@ -13605,7 +13546,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 883. [rahgadda/openapi_mcp_server](https://github.com/rahgadda/openapi_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 879. [rahgadda/openapi_mcp_server](https://github.com/rahgadda/openapi_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides an MCP Server that enables large language models (LLMs) to interact with REST APIs by interpreting and executing HTTP requests using predefined OpenAPI specifications. This facilitates seamless integration of AI-driven applicatio**
 
@@ -13619,7 +13560,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 884. [enkryptai/enkryptai-mcp-server](https://github.com/enkryptai/enkryptai-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 880. [enkryptai/enkryptai-mcp-server](https://github.com/enkryptai/enkryptai-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The Enkrypt AI MCP Server enables developers to embed advanced security features directly into their AI models, supporting real-time prompt risk analysis, adversarial testing, and AI safety monitoring. It facilitates seamless integration with popular**
 
@@ -13633,7 +13574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 885. [noah-vh/mcp-server-clickup](https://github.com/noah-vh/mcp-server-clickup)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 881. [noah-vh/mcp-server-clickup](https://github.com/noah-vh/mcp-server-clickup)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP Server ClickUp integration enables seamless synchronization between ClickUp notes and MCP, allowing users to manage tasks, projects, and workflows directly within the MCP interface. It supports note-based operations such as summarizing notes,**
 
@@ -13648,7 +13589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 886. [syumai/opgen-mcp-server](https://github.com/syumai/opgen-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 882. [syumai/opgen-mcp-server](https://github.com/syumai/opgen-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The syumai/opgen-mcp-server project provides a secure and automated solution for generating strong passwords using the 1Password API. It integrates seamlessly with existing workflows, offering configurable options for password length, character sets,**
 
@@ -13662,7 +13603,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 887. [vincentf305/mcp-server-ollama](https://github.com/vincentf305/mcp-server-ollama)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 883. [vincentf305/mcp-server-ollama](https://github.com/vincentf305/mcp-server-ollama)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The MCP Server project provides a platform that allows users to connect their Claude Desktop environment with the Ollama LLM server, facilitating seamless interaction and control over AI models. This integration is achieved through a custom-built ser**
 
@@ -13676,7 +13617,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 888. [moyu6027/deepseek-mcp-server](https://github.com/moyu6027/deepseek-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 884. [moyu6027/deepseek-mcp-server](https://github.com/moyu6027/deepseek-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The DeepSeek MCP Server integrates DeepSeek R1's advanced reasoning engine to improve Claude's ability to handle complex, multi-step reasoning tasks. It enables precise and efficient responses by leveraging structured cognitive frameworks and confide**
 
@@ -13691,7 +13632,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 889. [atla-ai/atla-mcp-server](https://github.com/atla-ai/atla-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 885. [atla-ai/atla-mcp-server](https://github.com/atla-ai/atla-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The atla-mcp-server project provides a unified and consistent way for large language models (LLMs) to communicate with the Atla API, enabling seamless integration into applications. It abstracts the complexities of API interactions, offering a develo**
 
@@ -13705,7 +13646,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 890. [ying-dao/yingdao_mcp_server](https://github.com/ying-dao/yingdao_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 886. [ying-dao/yingdao_mcp_server](https://github.com/ying-dao/yingdao_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The Ying Dao MCP Server is a RPA low-code platform designed to automate repetitive tasks. It supports both local and SSE server modes, allowing users to create AI-powered workflows via the AI Power feature. The platform integrates with external tools**
 
@@ -13720,7 +13661,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 891. [dogukanakkaya/pulumi-mcp-server](https://github.com/dogukanakkaya/pulumi-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 887. [dogukanakkaya/pulumi-mcp-server](https://github.com/dogukanakkaya/pulumi-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a GitHub-hosted Pulumi solution to deploy and manage MCP Server instances programmatically. It supports configuration via Docker, integrates with external tools, and offers workflow automation features for enterprise-grade infras**
 
@@ -13735,7 +13676,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 892. [PetitBaguette/play-sound-mcp-server](https://github.com/PetitBaguette/play-sound-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 888. [PetitBaguette/play-sound-mcp-server](https://github.com/PetitBaguette/play-sound-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The PetitBaguette project provides a local MCP server that allows developers to integrate and manage audio files for applications. It supports the use of custom sound files via the 'sounds' directory, enabling seamless integration with various platfo**
 
@@ -13749,7 +13690,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 893. [kenazk/gong-mcp](https://github.com/kenazk/gong-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 889. [kenazk/gong-mcp](https://github.com/kenazk/gong-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Node.js-based MCP server that enables secure access to Gong's API, allowing developers to retrieve call recordings and transcripts programmatically. It supports integration with AI platforms like Claude and offers features such**
 
@@ -13763,7 +13704,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 894. [perrypixel/simple-postgres-mcp](https://github.com/perrypixel/simple-postgres-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 890. [perrypixel/simple-postgres-mcp](https://github.com/perrypixel/simple-postgres-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a lightweight PostgreSQL MCP client that allows developers to run structured SQL queries with options for read-only or write access. It supports easy setup, integrates seamlessly with MCP-compatible tools, and delivers results wi**
 
@@ -13778,7 +13719,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 895. [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗5 layers
+### 891. [cqfn/aibolit-mcp-server](https://github.com/cqfn/aibolit-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗5 layers
 
 **The MCP Server for Aibolit Java Static Analyzer is designed to assist AI-powered development tools, such as Claude Code, by prompting them to analyze code quality and suggest improvements. It focuses on helping agents recognize the most critical desi**
 
@@ -13792,7 +13733,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 896. [block/vscode-mcp](https://github.com/block/vscode-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers
+### 892. [block/vscode-mcp](https://github.com/block/vscode-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗3 layers
 
 **The project provides a VSCode MCP server that facilitates interaction between AI agents (such as Goose or Claude) and VS Code through the Model Context Protocol. This allows developers to leverage AI capabilities directly within their code editing en**
 
@@ -13807,7 +13748,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 897. [zhangzhongnan928/mcp-coinbase-commerce](https://github.com/zhangzhongnan928/mcp-coinbase-commerce)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 893. [zhangzhongnan928/mcp-coinbase-commerce](https://github.com/zhangzhongnan928/mcp-coinbase-commerce)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project provides a Model Context Protocol (MCP) server that integrates with the Coinbase Commerce API, allowing AI tools like Claude to create customizable cryptocurrency payment links. It supports features such as generating payment links with s**
 
@@ -13821,7 +13762,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 898. [epicweb-dev/device-country-mcp](https://github.com/epicweb-dev/device-country-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
+### 894. [epicweb-dev/device-country-mcp](https://github.com/epicweb-dev/device-country-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The 'device-country-mcp' project provides a GitHub-hosted utility that extracts the country information from the Cloudflare Country header in HTTP requests. This enables developers and systems to automatically identify the geographic location of devi**
 
@@ -13835,7 +13776,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 899. [rendyfebry/google-pse-mcp](https://github.com/rendyfebry/google-pse-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 895. [rendyfebry/google-pse-mcp](https://github.com/rendyfebry/google-pse-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a Model Context Protocol (MCP) server that allows developers to connect their applications to the Google Programmable Search Engine (PSE) API. This facilitates seamless integration of web search capabilities within IDEs and devel**
 
@@ -13849,7 +13790,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 900. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 896. [vitaliiivanovspryker/spryker-package-search-mcp](https://github.com/vitaliiivanovspryker/spryker-package-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The spryker-package-search-mcp is a command-line utility that initializes an MCP server to enable natural language searches for Spryker packages on GitHub repositories. It supports filtering by organization and integrates with various AI agents for e**
 
@@ -13864,7 +13805,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 901. [infisical/infisical-mcp-server](https://github.com/infisical/infisical-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 897. [infisical/infisical-mcp-server](https://github.com/infisical/infisical-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **The Infisical MCP server is a powerful platform that allows developers to build, deploy, and manage AI-driven applications using the Infisical Model Context Protocol. It supports various tools and integrations, providing a robust environment for mode**
 
@@ -13878,7 +13819,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 902. [sunwood-ai-labs/release-notes-generator-iris-mcp-server](https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 898. [sunwood-ai-labs/release-notes-generator-iris-mcp-server](https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The Iris MCP Server is a Model Context Protocol server that analyzes Git tags to automatically generate structured release notes. It supports customizable templates, categorizes improvements and bugs, and integrates with development workflows for eff**
 
@@ -13893,7 +13834,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 903. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
+### 899. [photosynth-inc/gitlab_review](https://github.com/photosynth-inc/gitlab_review)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers
 
 **This project introduces an MCP (Model Context Protocol) server extension for GitLab, designed to enhance collaboration by allowing reviewers to post comments on merge requests and providing functionality to retrieve merge request information and late**
 
@@ -13907,7 +13848,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 904. [veyrax/veyrax-mcp](https://github.com/veyrax/veyrax-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
+### 900. [veyrax/veyrax-mcp](https://github.com/veyrax/veyrax-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers
 
 **VeyraX MCP is a single tool that enables developers to control all their preferred tools in any MCP-compatible environment with a single authentication. It streamlines the integration of code editors, AI assistants, and other development environments**
 
@@ -13921,7 +13862,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 905. [michalnaka/mcp-substack](https://github.com/michalnaka/mcp-substack)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 901. [michalnaka/mcp-substack](https://github.com/michalnaka/mcp-substack)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project introduces a MCP server designed to interface with the Claude AI desktop application, allowing users to download and parse Substack content directly within their conversations. This integration leverages MCP's protocol capabilities to bri**
 
@@ -13935,7 +13876,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 906. [jaceromri/openapi-mcp-proxy](https://github.com/jaceromri/openapi-mcp-proxy)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
+### 902. [jaceromri/openapi-mcp-proxy](https://github.com/jaceromri/openapi-mcp-proxy)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The openapi-mcp-proxy tool bridges OpenAPI services with MCP clients by automatically generating MCP-compliant proxies. It simplifies the deployment of AI-powered applications by enabling seamless interaction between REST APIs and MCP agents, support**
 
@@ -13949,7 +13890,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 907. [maxbogo/mcp-random-number](https://github.com/maxbogo/mcp-random-number)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 903. [maxbogo/mcp-random-number](https://github.com/maxbogo/mcp-random-number)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The MCP Random Number generator leverages atmospheric noise data from random.org to produce high-quality, unbiased random numbers suitable for training and testing LLMs. This project addresses the challenge of generating truly random numbers for AI a**
 
@@ -13963,7 +13904,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 908. [shoumikdc/arXiv-mcp](https://github.com/shoumikdc/arXiv-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 904. [shoumikdc/arXiv-mcp](https://github.com/shoumikdc/arXiv-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The shoumikdc/arXiv-mcp project provides a Model Context Protocol (MCP) server that allows LLMs and AI agents to seamlessly access and query new arXiv submissions in real time. It supports fetching daily postings, searching by keyword, and summarizin**
 
@@ -13977,7 +13918,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 909. [feed-mob/fm-mcp-servers](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
+### 905. [feed-mob/fm-mcp-servers](https://github.com/feed-mob/fm-mcp-servers/tree/HEAD/src/singular-reporting)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗3 layers
 
 **This project integrates the Jampp Reporting API with a MCP (Model Context Protocol) server to automate Jampp reporting tasks. It leverages Node.js and Claude Desktop to streamline the process, ensuring efficient data collection and reporting. The sol**
 
@@ -13991,7 +13932,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 910. [mcparmory/registry](https://github.com/mcparmory/registry)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
+### 906. [mcparmory/registry](https://github.com/mcparmory/registry)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good 📍
 
 **The GitHub repository showcases a comprehensive platform for managing API registries, emphasizing interoperability through standardized protocols and robust connectivity features. It emphasizes the importance of well-documented APIs and efficient dat**
 
@@ -14006,7 +13947,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 911. [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
+### 907. [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
 
 **An MCP server connecting agents to Exa's neural search engine for conceptually relevant technical research and clean, token-efficient content scraping.**
 
@@ -14020,7 +13961,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 912. [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class 📍
+### 908. [OctagonAI/octagon-mcp-server](https://github.com/OctagonAI/octagon-mcp-server)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class 📍
 
 **A specialized MCP server for investment research that provides agents with direct access to SEC filings, earnings transcripts, and private market data.**
 
@@ -14034,7 +13975,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 913. [mohammedsamin/mcpup](https://github.com/mohammedsamin/mcpup)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
+### 909. [mohammedsamin/mcpup](https://github.com/mohammedsamin/mcpup)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
 
 **A critical utility that streamlines the installation and management of Model Context Protocol (MCP) servers, acting as a package manager for the ecosystem.**
 
@@ -14048,7 +13989,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 914. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers
+### 910. [jkerdels/dependency-graph-mcp](https://github.com/jkerdels/dependency-graph-mcp)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers
 
 **An MCP server functioning as a specialized analysis engine to generate dependency graphs (JSON/DOT) and detect architectural "deadlocks" across codebases.**
 
@@ -14062,7 +14003,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 915. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
+### 911. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
 
 **An MCP client implementation focused on Generative UI (AG-UI protocol) to bring interactive elements and state synchronization into the agent experience.**
 
@@ -14076,7 +14017,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 916. [pratikjadhav2726/Unified-MCP-Tool-Graph](https://github.com/pratikjadhav2726/Unified-MCP-Tool-Graph)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 912. [pratikjadhav2726/Unified-MCP-Tool-Graph](https://github.com/pratikjadhav2726/Unified-MCP-Tool-Graph)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **An integration pattern that connects Model Context Protocol (MCP) to Knowledge Graphs for relationship-aware, temporal, and permission-gated agent reasoning.**
 
@@ -14090,7 +14031,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 917. [resend/mcp-send-email](https://github.com/resend/mcp-send-email)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 913. [resend/mcp-send-email](https://github.com/resend/mcp-send-email)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A powerful MCP server enabling email management, contact handling, and integration with various platforms for seamless communication.**
 
@@ -14106,7 +14047,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 918. [tadasant/mcp-server-stability-ai](https://github.com/tadasant/mcp-server-stability-ai)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 914. [tadasant/mcp-server-stability-ai](https://github.com/tadasant/mcp-server-stability-ai)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A MCP Server integrating Stability AI for advanced image manipulation, enabling developers to leverage AI-powered tools within their workflow.**
 
@@ -14122,7 +14063,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 919. [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 915. [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Kubernetes Model Context Protocol (MCP) server enabling automated detection, configuration, and management of Kubernetes and OpenShift resources.**
 
@@ -14138,7 +14079,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 920. [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 916. [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered MCP server for accessing anime and manga data, enabling intelligent search, filtering, and integration with external tools.**
 
@@ -14154,7 +14095,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 921. [dmontgomery40/mcp-canvas-lms](https://github.com/dmontgomery40/mcp-canvas-lms)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 917. [dmontgomery40/mcp-canvas-lms](https://github.com/dmontgomery40/mcp-canvas-lms)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A comprehensive Model Context Protocol (MCP) server for Canvas LMS with full student, instructor, and account management capabilities.**
 
@@ -14170,7 +14111,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 922. [fastnai/mcp-fastn](https://github.com/fastnai/mcp-fastn)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 918. [fastnai/mcp-fastn](https://github.com/fastnai/mcp-fastn)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A production-grade Model Context Protocol (MCP) server enabling secure, managed access for AI agents and applications across enterprise systems.**
 
@@ -14186,7 +14127,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 923. [stabgan/openrouter-mcp-multimodal](https://github.com/stabgan/openrouter-mcp-multimodal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 919. [stabgan/openrouter-mcp-multimodal](https://github.com/stabgan/openrouter-mcp-multimodal)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A powerful OpenRouter MCP server integrating native vision, audio, and image generation with LLM support for multimodal workflows.**
 
@@ -14202,7 +14143,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 924. [athapong/aio-mcp](https://github.com/athapong/aio-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 920. [athapong/aio-mcp](https://github.com/athapong/aio-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful Model Context Protocol (MCP) server with AI search, RAG, and integrations for seamless development workflows.**
 
@@ -14218,7 +14159,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 925. [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 921. [ahujasid/blender-mcp](https://github.com/ahujasid/blender-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **Borg integrates Blender with Claude AI via the Model Context Protocol, enabling seamless prompt-assisted 3D modeling and scene manipulation.**
 
@@ -14234,7 +14175,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 926. [jotaderodriguez/bonsai_mcp](https://github.com/jotaderodriguez/bonsai_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 922. [jotaderodriguez/bonsai_mcp](https://github.com/jotaderodriguez/bonsai_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Bonsai_mcp integrates Blender with MCP to enable AI-driven interaction with IFC models, supporting advanced spatial analysis and automation.**
 
@@ -14250,7 +14191,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 927. [chenningling/redbook-search-comment-mcp](https://github.com/chenningling/redbook-search-comment-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 923. [chenningling/redbook-search-comment-mcp](https://github.com/chenningling/redbook-search-comment-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Playwright-based tool for automating small redbook searches, enabling users to log in, search notes, retrieve content, and post smart comments.**
 
@@ -14266,7 +14207,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 928. [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 924. [qiniu/qiniu-mcp-server](https://github.com/qiniu/qiniu-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A cloud-based MCP Server enabling secure access to QINIU Cloud storage and AI services for enterprise applications.**
 
@@ -14282,7 +14223,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 929. [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 925. [yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A dynamic MCP server that exposes YepCode processes as callable tools for AI platforms, enabling seamless integration and automation.**
 
@@ -14298,7 +14239,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 930. [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 926. [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Python-based MCP server enabling LLMs to securely interact with iMessage conversations via the Model Context Protocol.**
 
@@ -14314,7 +14255,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 931. [loonghao/wecom-bot-mcp-server](https://github.com/loonghao/wecom-bot-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 927. [loonghao/wecom-bot-mcp-server](https://github.com/loonghao/wecom-bot-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Python server implementation for WeChat Work bots that supports MCP protocol, enabling context-aware and multi-message interactions.**
 
@@ -14330,7 +14271,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 932. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 928. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A fully-managed remote MCP server for DuckDB and MotherDuck, enabling seamless integration with AI assistants, analytics, and data engineering tools.**
 
@@ -14346,7 +14287,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 933. [jensenloke/mcp-sqlserver-pro](https://github.com/jensenloke/mcp-sqlserver-pro)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 929. [jensenloke/mcp-sqlserver-pro](https://github.com/jensenloke/mcp-sqlserver-pro)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **An advanced MCP Server enabling seamless integration of AI assistants with Microsoft SQL Server databases through standardized protocols.**
 
@@ -14362,7 +14303,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 934. [runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 930. [runekaagaard/mcp-alchemy](https://github.com/runekaagaard/mcp-alchemy)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **MCP Alchemy enables seamless integration of Claude Desktop with various relational databases, enhancing data access and management capabilities.**
 
@@ -14378,7 +14319,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 935. [apache/doris-mcp-server](https://github.com/apache/doris-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 931. [apache/doris-mcp-server](https://github.com/apache/doris-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A backend service for enterprise authentication, database management, and secure token handling using Apache Doris.**
 
@@ -14394,7 +14335,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 936. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 932. [acryldata/mcp-server-datahub](https://github.com/acryldata/mcp-server-datahub)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **DataHub MCP Server enables AI agents to find, understand, and manage data across the entire ecosystem using natural language queries.**
 
@@ -14410,7 +14351,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 937. [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
+### 933. [zinja-coder/jadx-mcp-server](https://github.com/zinja-coder/jadx-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A fully automated MCP server integrated with JADX-AI Plugin to enable AI-assisted reverse engineering of Android APKs.**
 
@@ -14426,7 +14367,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 938. [ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 934. [ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **Enables seamless integration of Gin APIs with MCP tools by automatically exposing endpoints as MCP-compatible services.**
 
@@ -14442,7 +14383,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 939. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 935. [sdiehl/sympy-mcp](https://github.com/sdiehl/sympy-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A server-based platform for enabling LLMs to perform symbolic mathematics and complex algebra, enhancing AI-driven computation.**
 
@@ -14458,7 +14399,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 940. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 936. [stefanoamorelli/fred-mcp-server](https://github.com/stefanoamorelli/fred-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A robust, open-source FRED MCP Server enabling secure and efficient access to Federal Reserve Economic Data for analytical applications.**
 
@@ -14474,7 +14415,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 941. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 937. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Razorpay MCP Server enables seamless integration with Razorpay APIs, providing developers and AI tools with advanced payment processing capabilities.**
 
@@ -14490,7 +14431,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 942. [yuchenssr/mindmap-mcp-server](https://github.com/yuchenssr/mindmap-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 938. [yuchenssr/mindmap-mcp-server](https://github.com/yuchenssr/mindmap-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A tool for converting Markdown content into interactive mindmaps, enhancing developer workflow and knowledge organization.**
 
@@ -14506,7 +14447,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 943. [sacode/searxng-simple-mcp](https://github.com/sacode/searxng-simple-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 939. [sacode/searxng-simple-mcp](https://github.com/sacode/searxng-simple-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A privacy-focused web search server for AI assistants using SearxNG and MCP, enabling efficient LLM web searches without user tracking.**
 
@@ -14522,7 +14463,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 944. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 940. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A deep research AI agent built on Gemini 2.5 Flash, designed for structured, iterative, and context-aware research workflows.**
 
@@ -14538,7 +14479,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 945. [zeropathai/zeropath-mcp-server](https://github.com/zeropathai/zeropath-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
+### 941. [zeropathai/zeropath-mcp-server](https://github.com/zeropathai/zeropath-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A MCP server enabling AI-powered querying of ZeroPath security issues, patches, and scans via Claude, Cursor, Windsurf, or other AI assistants.**
 
@@ -14554,7 +14495,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 946. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
+### 942. [szowesgad/mcp-server-semgrep](https://github.com/szowesgad/mcp-server-semgrep)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A model context protocol-compliant server integrating Semgrep with AI assistants for advanced code analysis and security.**
 
@@ -14570,7 +14511,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 947. [malloryai/mallory-mcp-server](https://github.com/malloryai/mallory-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 943. [malloryai/mallory-mcp-server](https://github.com/malloryai/mallory-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Mallory MCP Server provides AI-powered cyber threat intelligence integration for automated security analysis and response.**
 
@@ -14586,7 +14527,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 948. [adepanges/teamretro-mcp-server](https://github.com/adepanges/teamretro-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 944. [adepanges/teamretro-mcp-server](https://github.com/adepanges/teamretro-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol server enabling seamless integration between AI clients and TeamRetro's platform for enhanced team management and analytics.**
 
@@ -14602,7 +14543,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 949. [davidyen1124/caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 945. [davidyen1124/caltrain-mcp](https://github.com/davidyen1124/caltrain-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **A Model Context Protocol (MCP) server for real-time Caltrain schedules using GTFS data, enabling seamless integration with MCP clients.**
 
@@ -14618,7 +14559,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 950. [cheerlights/cheerlights-mcp](https://github.com/cheerlights/cheerlights-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 946. [cheerlights/cheerlights-mcp](https://github.com/cheerlights/cheerlights-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A modern MCP server enabling AI tools to interact with the CheerLights API for real-time color analytics and insights.**
 
@@ -14634,7 +14575,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 951. [saptadey/nexusmind](https://github.com/saptadey/nexusmind)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 947. [saptadey/nexusmind](https://github.com/saptadey/nexusmind)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A next-generation AI reasoning framework that leverages graph-based knowledge structures to enhance scientific research and decision-making.**
 
@@ -14650,7 +14591,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 952. [shree-bd/intelliglow-ai-voice-mcp-iot-platform](https://github.com/shree-bd/intelliglow-ai-voice-mcp-iot-platform)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 948. [shree-bd/intelliglow-ai-voice-mcp-iot-platform](https://github.com/shree-bd/intelliglow-ai-voice-mcp-iot-platform)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **IntelliGlow bridges AI intelligence with physical smart bulbs via UDP networking, enabling context-aware, voice-controlled lighting.**
 
@@ -14666,7 +14607,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 953. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 949. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Model Context Protocol (MCP) server that enables AI assistants to process, transform, and sign documents using the Nutrient Document Web Service.**
 
@@ -14682,7 +14623,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 954. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 950. [Dinesh-Satram/fitness_coach_MCP](https://github.com/Dinesh-Satram/fitness_coach_MCP)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A platform that integrates AI tools with fitness data via the Model Context Protocol to deliver intelligent, context-aware coaching.**
 
@@ -14698,7 +14639,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 955. [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 951. [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A blockchain model context protocol server enabling AI agents to interact with Starknet networks, manage wallets, and execute smart contracts.**
 
@@ -14714,7 +14655,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 956. [bmorphism/hypernym-mcp-server](https://github.com/bmorphism/hypernym-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 952. [bmorphism/hypernym-mcp-server](https://github.com/bmorphism/hypernym-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A developer-focused platform enabling seamless integration of Hypernym AI's semantic analysis and compression tools into AI workflows.**
 
@@ -14730,7 +14671,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 957. [Kashyap-AI-ML-Solutions/webex-messaging-mcp-server](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 953. [Kashyap-AI-ML-Solutions/webex-messaging-mcp-server](https://github.com/Kashyap-AI-ML-Solutions/webex-messaging-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants with full access to Cisco Webex messaging capabilities.**
 
@@ -14746,7 +14687,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 958. [mbelinky/x-mcp-server](https://github.com/mbelinky/x-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 954. [mbelinky/x-mcp-server](https://github.com/mbelinky/x-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A comprehensive MCP server for X.com with OAuth 2.0, v1.1 and v2 API support, enabling secure and efficient social media management.**
 
@@ -14762,7 +14703,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 959. [ctkadvisors/graphql-mcp](https://github.com/ctkadvisors/graphql-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 955. [ctkadvisors/graphql-mcp](https://github.com/ctkadvisors/graphql-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A powerful MCP server enabling dynamic GraphQL access for AI-driven applications, integrating seamlessly with Claude Desktop.**
 
@@ -14778,7 +14719,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 960. [datscix-ceo/lumenx-mcp](https://github.com/datscix-ceo/lumenx-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 956. [datscix-ceo/lumenx-mcp](https://github.com/datscix-ceo/lumenx-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **LumenX-MCP enables seamless integration with multiple data sources to provide unified legal and financial data access.**
 
@@ -14794,7 +14735,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 961. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 957. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A robust MCP server for managing, versioning, and serving prompts and templates for LLM applications with AWS integration.**
 
@@ -14810,7 +14751,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 962. [searchcraft-inc/searchcraft-mcp-server](https://github.com/searchcraft-inc/searchcraft-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 958. [searchcraft-inc/searchcraft-mcp-server](https://github.com/searchcraft-inc/searchcraft-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A developer-first vertical search engine integrated with Searchcraft MCP Server to automate and streamline search operations.**
 
@@ -14826,7 +14767,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 963. [bmorphism/krep-mcp-server](https://github.com/bmorphism/krep-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 959. [bmorphism/krep-mcp-server](https://github.com/bmorphism/krep-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A high-performance string search utility integrated with the Model Context Protocol, enabling efficient pattern matching across files and strings.**
 
@@ -14842,7 +14783,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 964. [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 960. [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive GitLab MCP server for AI clients, enabling dynamic API URLs, secure authentication, and seamless integration with various AI tools.**
 
@@ -14858,7 +14799,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 965. [cyanheads/atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 961. [cyanheads/atlas-mcp-server](https://github.com/cyanheads/atlas-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling LLM agents to manage projects, tasks, and knowledge in a unified task management system.**
 
@@ -14874,7 +14815,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 966. [tanker327/prompts-mcp-server](https://github.com/tanker327/prompts-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 962. [tanker327/prompts-mcp-server](https://github.com/tanker327/prompts-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A powerful prompt management server for AI models, enabling efficient prompt retrieval, creation, and integration into development workflows.**
 
@@ -14890,7 +14831,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 967. [pinkpixel-dev/mcpollinations](https://github.com/pinkpixel-dev/mcpollinations)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 963. [pinkpixel-dev/mcpollinations](https://github.com/pinkpixel-dev/mcpollinations)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Model Context Protocol server enabling AI assistants to generate images, text, and audio with customizable parameters.**
 
@@ -14906,7 +14847,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 968. [freema/mcp-gsheets](https://github.com/freema/mcp-gsheets)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 964. [freema/mcp-gsheets](https://github.com/freema/mcp-gsheets)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A cloud-based server for seamless integration with Google Sheets, enabling developers to read, write, and manage spreadsheets programmatically.**
 
@@ -14922,7 +14863,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 969. [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 965. [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A mcp server enabling LLMs to gain context about shadcn ui components, supporting React, Svelte, Vue, and React Native for AI-powered development.**
 
@@ -14938,7 +14879,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 970. [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 966. [leshchenko1979/fast-mcp-telegram](https://github.com/leshchenko1979/fast-mcp-telegram)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **Telegram MCP Server and HTTP-MTProto bridge enabling secure, multi-user, web-based Telegram integration with Docker and MTProto proxy support.**
 
@@ -14954,7 +14895,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 971. [ImRonAI/mcp-server-browserbase](https://github.com/ImRonAI/mcp-server-browserbase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 967. [ImRonAI/mcp-server-browserbase](https://github.com/ImRonAI/mcp-server-browserbase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A cloud-based platform enabling LLMs to control browsers and interact with web content using MCP Server, Stagehand, and Browserbase.**
 
@@ -14970,7 +14911,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 972. [ChiR24/Unreal_mcp](https://github.com/ChiR24/Unreal_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 968. [ChiR24/Unreal_mcp](https://github.com/ChiR24/Unreal_mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive Model Context Protocol (MCP) server enabling AI assistants to control Unreal Engine via native C++ Automation Bridge plugin.**
 
@@ -14986,7 +14927,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 973. [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 969. [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Git MCP server enabling LLMs and AI agents to interact with Git repositories via the Model Context Protocol, offering comprehensive Git operations.**
 
@@ -15002,7 +14943,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 974. [zhongweili/nanobanana-mcp-server](https://github.com/zhongweili/nanobanana-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 970. [zhongweili/nanobanana-mcp-server](https://github.com/zhongweili/nanobanana-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A production-ready MCP server for AI-powered image generation using Google Gemini, offering intelligent model selection and high-quality outputs.**
 
@@ -15018,7 +14959,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 975. [taskade/mcp](https://github.com/taskade/mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 971. [taskade/mcp](https://github.com/taskade/mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Taskade MCP enables intelligent automation by integrating AI agents, knowledge bases, and workflow orchestration tools into a unified platform.**
 
@@ -15034,7 +14975,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 976. [pulsemcp/mcp-servers](https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 972. [pulsemcp/mcp-servers](https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A cloud-based MCP server for real-time application performance monitoring and error tracking, enabling seamless integration with MCP clients.**
 
@@ -15050,7 +14991,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 977. [navbuildz/gmail-mcp-server](https://github.com/navbuildz/gmail-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 973. [navbuildz/gmail-mcp-server](https://github.com/navbuildz/gmail-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A multi-account Gmail MCP server enabling AI agents and assistants to manage emails across multiple accounts with full read/write capabilities.**
 
@@ -15066,7 +15007,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 978. [silbaram/elasticsearch-mcp-server](https://github.com/silbaram/elasticsearch-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 974. [silbaram/elasticsearch-mcp-server](https://github.com/silbaram/elasticsearch-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered Elasticsearch MCP server built on Spring AI to enable automated data processing and search within an Elasticsearch cluster.**
 
@@ -15081,7 +15022,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 979. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 975. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Memory Bank MCP is an MCP server that centralizes and organizes project documentation for LLM-powered tools, enabling structured knowledge management.**
 
@@ -15096,7 +15037,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 980. [neondatabase-labs/mcp-server-neon](https://github.com/neondatabase-labs/mcp-server-neon)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 976. [neondatabase-labs/mcp-server-neon](https://github.com/neondatabase-labs/mcp-server-neon)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Neon MCP Server enables natural language interaction with Neon databases, simplifying database management and integration for developers.**
 
@@ -15111,7 +15052,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 981. [circleci-public/mcp-server-circleci](https://github.com/circleci-public/mcp-server-circleci)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 977. [circleci-public/mcp-server-circleci](https://github.com/circleci-public/mcp-server-circleci)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A specialized server implementation for the Model Context Protocol (MCP) integrated with CircleCI, enabling AI-powered development workflows.**
 
@@ -15126,7 +15067,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 982. [ssdeanx/branch-thinking](https://github.com/ssdeanx/branch-thinking)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 978. [ssdeanx/branch-thinking](https://github.com/ssdeanx/branch-thinking)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **A TypeScript-based MCP-server tool for concurrent thought management with real-time reinforcement learning and advanced graph analytics.**
 
@@ -15141,7 +15082,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 983. [idosal/git-mcp](https://github.com/idosal/git-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 979. [idosal/git-mcp](https://github.com/idosal/git-mcp)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **GitMCP enables seamless integration of GitHub project documentation and code into AI tools, enhancing accuracy by eliminating hallucinations.**
 
@@ -15156,7 +15097,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 984. [Claude Cowork Exfiltrates Files](https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
+### 980. [Claude Cowork Exfiltrates Files](https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
 
 **The article details how Claude Cowork, a research preview AI developed by Anthropic, can be exploited through indirect prompt injection to exfiltrate sensitive files from a user's environment. The attack leverages known vulnerabilities in Claude's co**
 
@@ -15171,7 +15112,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 985. [gt732/nautobot-app-mcp](https://github.com/gt732/nautobot-app-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
+### 981. [gt732/nautobot-app-mcp](https://github.com/gt732/nautobot-app-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
 
 **The Nautobot MCP plugin allows AI tools and applications to communicate with network data using a standardized protocol, facilitating automation and management of network resources through an MCP server.**
 
@@ -15186,7 +15127,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 986. [tomekkorbak/oura-mcp-server](https://github.com/tomekkorbak/oura-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
+### 982. [tomekkorbak/oura-mcp-server](https://github.com/tomekkorbak/oura-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
 
 **The Oura MCP Server acts as an intermediary between language models and the Oura API, allowing them to query sleep, readiness, and resilience metrics. It supports date range queries and provides human-readable error handling, making it suitable for e**
 
@@ -15200,7 +15141,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 987. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
+### 983. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
 
 **The kubesphere/ks-mcp-server is a Model Context Protocol (MCP) server designed to integrate with KubeSphere APIs, enabling seamless access to cluster resources. It provides tools for workspace, cluster, user, and extension management, supporting secu**
 
@@ -15214,7 +15155,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 988. [stefanoamorelli/hyprmcp](https://github.com/stefanoamorelli/hyprmcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
+### 984. [stefanoamorelli/hyprmcp](https://github.com/stefanoamorelli/hyprmcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
 
 **The Hyprmcp project provides a lightweight, unofficial Model Context Protocol (MCP) server that allows language models to query and control Hyprland's window management features using natural language. This tool enhances developer UX by integrating A**
 
@@ -15228,7 +15169,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 989. [secretiveshell/mcp-gotify](https://github.com/secretiveshell/mcp-gotify)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
+### 985. [secretiveshell/mcp-gotify](https://github.com/secretiveshell/mcp-gotify)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
 
 **The SecretiveShell/mcp-gotify project provides a GitHub-hosted MCP server that facilitates the integration and management of Gotify push notifications. It enables developers to securely send notifications from their MCP servers to external systems, e**
 
@@ -15242,7 +15183,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 990. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 986. [1panel-dev/mcp-1panel](https://github.com/1panel-dev/mcp-1panel)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-1panel project provides a Model Context Protocol (MCP) server implementation tailored for 1Panel, facilitating secure and efficient communication between the platform and its backend services. It supports various integration modes including s**
 
@@ -15256,7 +15197,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 991. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 987. [anycontext-ai/thingsboard-mcp-server](https://github.com/anycontext-ai/thingsboard-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The Thingsboard MCP Server is a platform designed to securely connect and utilize Thingsboard data within large language models (LLMs). It enables developers to embed real-time contextual information from Thingsboard into AI applications, enhancing t**
 
@@ -15270,7 +15211,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 992. [hanweg/mcp-pdf-tools](https://github.com/hanweg/mcp-pdf-tools)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
+### 988. [hanweg/mcp-pdf-tools](https://github.com/hanweg/mcp-pdf-tools)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
 
 **The MCP PDF Tools repository provides a server-based solution for interacting with PDF files, enabling functionalities such as merging multiple PDFs, extracting specific pages, and performing text-based operations. It is designed to integrate with AI**
 
@@ -15284,7 +15225,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 993. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 989. [da-snap/mcp-server-developer-tool](https://github.com/da-snap/mcp-server-developer-tool)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP Server project provides a robust, Go-based implementation of the Model Context Protocol (MCP) server. It emphasizes security by restricting file access to specific directories through configurable path restrictions. This ensures that only aut**
 
@@ -15298,7 +15239,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 994. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
+### 990. [bootcamptoprod/spring-boot-ai-confluence-mcp-server](https://github.com/bootcamptoprod/spring-boot-ai-confluence-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **This project provides a Spring Boot-based AI server that enables interaction with Confluence Cloud, offering callable tools for managing spaces, pages, and document history. It leverages the Model Context Protocol (MCP) to facilitate seamless integra**
 
@@ -15312,7 +15253,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 995. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 991. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The jweather-mcp-server is a Python-based service that allows AI models to fetch current weather conditions across various cities and regions using the Model Context Protocol. It supports asynchronous queries with parameters like city names, enabling**
 
@@ -15326,7 +15267,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 996. [rickeylaiii/xiaoai_mapmcp](https://github.com/rickeylaiii/xiaoai_mapmcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
+### 992. [rickeylaiii/xiaoai_mapmcp](https://github.com/rickeylaiii/xiaoai_mapmcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
 
 **This project provides an AI-powered map navigation tool that integrates with external services like HighDAP and Amap. It enables geocoding, weather queries, route planning, and secure communication via WebSocket connections.**
 
@@ -15341,7 +15282,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 997. [mark3labs/phalcon-mcp](https://github.com/mark3labs/phalcon-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
+### 993. [mark3labs/phalcon-mcp](https://github.com/mark3labs/phalcon-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Phalcon MCP server acts as an agent orchestrator, enabling seamless integration between blockchain transaction analysis tools and enterprise applications via the Model Context Protocol (MCP). It facilitates secure data exchange, real-time monitor**
 
@@ -15355,7 +15296,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 998. [alexgoller/mcp-server-agenda](https://github.com/alexgoller/mcp-server-agenda)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 994. [alexgoller/mcp-server-agenda](https://github.com/alexgoller/mcp-server-agenda)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-server-agenda project provides a server implementation that allows seamless interaction between the Agenda application and Claude AI. It facilitates creating notes, managing projects, and opening existing notes using x-callback-urls, enhancin**
 
@@ -15369,7 +15310,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 999. [dustland/genesis-mcp](https://github.com/dustland/genesis-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 995. [dustland/genesis-mcp](https://github.com/dustland/genesis-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The Genesis MCP Server is a specialized infrastructure designed to facilitate complex simulations of the Genesis World, leveraging advanced protocol handling and visualization tools. It integrates seamlessly with MCP (Model Context Protocol) to enabl**
 
@@ -15383,7 +15324,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1000. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
+### 996. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a Model Context Protocol (MCP) server that facilitates automated Twitter interactions using the agent-twitter-client library. It supports retrieving and posting tweets, integrates with Docker for deployment, and includes features**
 
@@ -15397,7 +15338,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1001. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
+### 997. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers
 
 **The mcp-server-cli project provides a server-based interface for running shell scripts or commands, facilitating automation and integration within development workflows. It supports advanced features such as context protocol communication, secure cod**
 
@@ -15411,7 +15352,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1002. [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 998. [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP Server is designed to query and summarize chat messages, enabling efficient analysis of communication patterns. It supports integration with various tools and provides features for managing code changes, security, and developer workflows.**
 
@@ -15426,7 +15367,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1003. [smhnkmr/realtime-crypto-mcp-server](https://github.com/smhnkmr/realtime-crypto-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
+### 999. [smhnkmr/realtime-crypto-mcp-server](https://github.com/smhnkmr/realtime-crypto-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
 
 **The smhnkmr/realtime-crypto-mcp-server is a Node.js-based server that integrates with the CoinCap API to deliver up-to-date cryptocurrency exchange details and rates. It supports real-time data retrieval, rate limiting, and retry mechanisms to ensure**
 
@@ -15440,7 +15381,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1004. [brian-knows/mcp-server-brian](https://github.com/brian-knows/mcp-server-brian)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 1000. [brian-knows/mcp-server-brian](https://github.com/brian-knows/mcp-server-brian)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a simple MCP (Machine Control Protocol) server to interact with external systems by fetching transaction call data from user prompts via Brian APIs. It demonstrates integration between AI-driven prompt processing and backend da**
 
@@ -15454,7 +15395,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1005. [bitscorp-mcp/mcp-adjust](https://github.com/bitscorp-mcp/mcp-adjust)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 1001. [bitscorp-mcp/mcp-adjust](https://github.com/bitscorp-mcp/mcp-adjust)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The mcp-adjust project provides a platform to interact with the Adjust API, enabling developers to query reports, metrics, and performance data from any MCP client such as Cursor or Claude Desktop. It supports automation of workflows, integration wit**
 
@@ -15468,7 +15409,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1006. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 1002. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient han**
 
@@ -15482,7 +15423,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1007. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 1003. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The project introduces a GitHub-hosted MCP server to enhance Claude Desktop's capabilities, enabling advanced AI-driven vibe-management features. By integrating this server into the development environment, teams can leverage automated workflow manag**
 
@@ -15496,7 +15437,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1008. [jbenton/guardian-mcp-server](https://github.com/jbenton/guardian-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
+### 1004. [jbenton/guardian-mcp-server](https://github.com/jbenton/guardian-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
 
 **The project implements an MCP server that connects large language models to The Guardian's extensive archive of over 1.9 million articles, facilitating real-time access to news, analysis, and historical content. This integration supports intelligent **
 
@@ -15510,7 +15451,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1009. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
+### 1005. [fashionzzz/markdown-to-html](https://github.com/fashionzzz/markdown-to-html)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP Server facilitates the conversion of Markdown files into HTML format, enabling developers and content creators to seamlessly transform structured text into web-ready HTML. This tool is particularly useful in modernizing legacy documentation s**
 
@@ -15524,7 +15465,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1010. [egoist/raindrop-mcp](https://github.com/egoist/raindrop-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
+### 1006. [egoist/raindrop-mcp](https://github.com/egoist/raindrop-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good 📍
 
 **This project provides a GitHub-hosted MCP server that integrates with Raindrop.io, enabling users to manage bookmarks and content efficiently. It supports seamless interaction between the MCP protocol and the Raindrop.io platform, enhancing user expe**
 
@@ -15538,7 +15479,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1011. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 1007. [stackzero-labs/mcp](https://github.com/stackzero-labs/mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The stackzero-labs/mcp package provides a dedicated model context protocol server, allowing seamless integration of AI models into Cursor applications. It supports secure and efficient communication between the model and the application layer, enhanc**
 
@@ -15552,7 +15493,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1012. [takumi0706/google-calendar-mcp](https://github.com/takumi0706/google-calendar-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
+### 1008. [takumi0706/google-calendar-mcp](https://github.com/takumi0706/google-calendar-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good 📍
 
 **Borg Project's Google Calendar MCP server enables secure, natural language interaction between Claude Desktop and Google Calendar, supporting event management, authentication, and integration with OAuth2.**
 
@@ -15568,7 +15509,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1013. [happyhackingspace/mcp-hydra](https://github.com/happyhackingspace/mcp-hydra)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 1009. [happyhackingspace/mcp-hydra](https://github.com/happyhackingspace/mcp-hydra)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **A lightweight, extensible cybersecurity toolkit that connects AI assistants to security tools via the Model Context Protocol (MCP), enabling AI-assisted security research, scanning, and analysis.**
 
@@ -15584,7 +15525,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1014. [xiaolaa2/ableton-copilot-mcp](https://github.com/xiaolaa2/ableton-copilot-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1010. [xiaolaa2/ableton-copilot-mcp](https://github.com/xiaolaa2/ableton-copilot-mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **An MCP server built on ableton-js that enables AI assistants to control Ableton Live in real time, including Arrangement View operations such as song management, track control, MIDI editing, and audio recording.**
 
@@ -15600,7 +15541,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1015. [kurror/mcp](https://github.com/kurror/mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
+### 1011. [kurror/mcp](https://github.com/kurror/mcp)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers
 
 **This project enhances a FiveM resource by integrating the Model Context Protocol (MCP) to enable cross-server communication, allowing multiple unichat-based MCP servers to be queried simultaneously for more robust and nuanced responses.**
 
@@ -15616,7 +15557,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1016. [universal-tool-calling-protocol/utcp-mcp](https://github.com/universal-tool-calling-protocol/utcp-mcp)  `9.7` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 1012. [universal-tool-calling-protocol/utcp-mcp](https://github.com/universal-tool-calling-protocol/utcp-mcp)  `9.7` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **An open standard designed as a lightweight alternative to MCP, allowing agents to call tools directly via their native protocols (HTTP/gRPC) without proxy wrappers.**
 
@@ -15630,7 +15571,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1017. [jagan-shanmugam/climatiq-mcp-server](https://github.com/jagan-shanmugam/climatiq-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1013. [jagan-shanmugam/climatiq-mcp-server](https://github.com/jagan-shanmugam/climatiq-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants to calculate carbon emissions in real time.**
 
@@ -15646,7 +15587,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1018. [goplausible/algorand-mcp](https://github.com/goplausible/algorand-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1014. [goplausible/algorand-mcp](https://github.com/goplausible/algorand-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Algorand MCP server enabling AI agents and LLMs to interact with the Algorand blockchain securely and efficiently.**
 
@@ -15662,7 +15603,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1019. [digitalocean/digitalocean-mcp](https://github.com/digitalocean/digitalocean-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1015. [digitalocean/digitalocean-mcp](https://github.com/digitalocean/digitalocean-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **DigitalOcean MCP Server enables AI assistants to manage apps directly without writing code.**
 
@@ -15678,7 +15619,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1020. [cam10001110101/mcp-server-outlook-email](https://github.com/cam10001110101/mcp-server-outlook-email)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
+### 1016. [cam10001110101/mcp-server-outlook-email](https://github.com/cam10001110101/mcp-server-outlook-email)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A cross-platform MCP server that processes Outlook emails, generates embeddings, and enables semantic search.**
 
@@ -15694,7 +15635,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1021. [kydycode/todoist-mcp-server-ext](https://github.com/kydycode/todoist-mcp-server-ext)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1017. [kydycode/todoist-mcp-server-ext](https://github.com/kydycode/todoist-mcp-server-ext)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An extended Todoist MCP server enabling natural language task management via Claude.**
 
@@ -15710,7 +15651,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1022. [tiovikram/x.com-mcp-server](https://github.com/tiovikram/x.com-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1018. [tiovikram/x.com-mcp-server](https://github.com/tiovikram/x.com-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A server implementation enabling LLMs to interact with X.com API securely via OAuth 2.0.**
 
@@ -15726,7 +15667,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1023. [jonaolden/pbixray-mcp-server](https://github.com/jonaolden/pbixray-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
+### 1019. [jonaolden/pbixray-mcp-server](https://github.com/jonaolden/pbixray-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A MCP server enabling LLMs to access full PowerBI model context from .pbix files via PBIXRay tools.**
 
@@ -15742,7 +15683,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1024. [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1020. [cyanheads/pubmed-mcp-server](https://github.com/cyanheads/pubmed-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A centralized server integrating PubMed and NCBI data for automated biomedical research workflows.**
 
@@ -15758,7 +15699,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1025. [scrapeless-ai/scrapeless-mcp-server](https://github.com/scrapeless-ai/scrapeless-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1021. [scrapeless-ai/scrapeless-mcp-server](https://github.com/scrapeless-ai/scrapeless-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A scalable MCP server enabling AI agents to interact with the web in real time.**
 
@@ -15774,7 +15715,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1026. [gensecaihq/wazuh-mcp-server](https://github.com/gensecaihq/wazuh-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1022. [gensecaihq/wazuh-mcp-server](https://github.com/gensecaihq/wazuh-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **AI-powered conversational SIEM for Wazuh, enabling natural language queries and automated incident response.**
 
@@ -15790,7 +15731,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1027. [carlosazaustre/advocu-mcp-server](https://github.com/carlosazaustre/advocu-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1023. [carlosazaustre/advocu-mcp-server](https://github.com/carlosazaustre/advocu-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A unified MCP server enabling natural conversational data entry for Google Developer Experts and Microsoft MVPs.**
 
@@ -15806,7 +15747,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1028. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1024. [brysontang/deltatask](https://github.com/brysontang/deltatask)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A task management application with Model Context Protocol integration, SQLite storage, and Obsidian visualization.**
 
@@ -15822,7 +15763,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1029. [vladimir-tutin/plex-mcp-server](https://github.com/vladimir-tutin/plex-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1025. [vladimir-tutin/plex-mcp-server](https://github.com/vladimir-tutin/plex-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model-conversational Plex server enabling LLMs to interact with Plex Media Server.**
 
@@ -15838,7 +15779,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1030. [thedigitalninja/mcp-fitbit](https://github.com/thedigitalninja/mcp-fitbit)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1026. [thedigitalninja/mcp-fitbit](https://github.com/thedigitalninja/mcp-fitbit)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Borg enables seamless integration with Fitbit health data for AI-driven insights and automated tracking.**
 
@@ -15854,7 +15795,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1031. [adamikhq/adamik-mcp-server](https://github.com/adamikhq/adamik-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1027. [adamikhq/adamik-mcp-server](https://github.com/adamikhq/adamik-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A powerful blockchain MCP server enabling natural language interactions with multiple blockchains.**
 
@@ -15870,7 +15811,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1032. [leonardsellem/n8n-mcp-server](https://github.com/leonardsellem/n8n-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1028. [leonardsellem/n8n-mcp-server](https://github.com/leonardsellem/n8n-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants to interact with n8n workflows via natural language.**
 
@@ -15886,7 +15827,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1033. [snowfort-ai/circuit-mcp](https://github.com/snowfort-ai/circuit-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1029. [snowfort-ai/circuit-mcp](https://github.com/snowfort-ai/circuit-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A comprehensive MCP server suite enabling AI agents to automate web and desktop applications with precision.**
 
@@ -15902,7 +15843,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1034. [purodelphi/mcpfirebird](https://github.com/purodelphi/mcpfirebird)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1030. [purodelphi/mcpfirebird](https://github.com/purodelphi/mcpfirebird)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Implementation of Anthropic's MCP protocol for secure, controlled access to Firebird databases by LLMs.**
 
@@ -15918,7 +15859,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1035. [aashari/mcp-server-atlassian-confluence](https://github.com/aashari/mcp-server-atlassian-confluence)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1031. [aashari/mcp-server-atlassian-confluence](https://github.com/aashari/mcp-server-atlassian-confluence)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Integrates AI assistants with Confluence to streamline documentation workflows and enhance developer productivity.**
 
@@ -15934,7 +15875,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1036. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1032. [rbonestell/ap-mcp-server](https://github.com/rbonestell/ap-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **An AI-powered MCP server transforming AP Media API content into intelligent, conversational interfaces.**
 
@@ -15950,7 +15891,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1037. [shopanaio/carrier-api](https://github.com/shopanaio/carrier-api)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1033. [shopanaio/carrier-api](https://github.com/shopanaio/carrier-api)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A modern, type-safe API client suite for shipping carriers with plugin-based architecture and AI integration.**
 
@@ -15966,7 +15907,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1038. [noveum/api-market-mcp-server](https://github.com/noveum/api-market-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1034. [noveum/api-market-mcp-server](https://github.com/noveum/api-market-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A powerful API Market MCP server enabling seamless integration and interaction with a wide range of APIs via the MCP protocol.**
 
@@ -15981,7 +15922,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1039. [cloudwerx-dev/gpt-image-1-mcp](https://github.com/cloudwerx-dev/gpt-image-1-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1035. [cloudwerx-dev/gpt-image-1-mcp](https://github.com/cloudwerx-dev/gpt-image-1-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A model context protocol server for generating and editing images using the OpenAI gpt-image-1 model.**
 
@@ -15996,7 +15937,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1040. [itsuzef/ableton-mcp](https://github.com/itsuzef/ableton-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 1036. [itsuzef/ableton-mcp](https://github.com/itsuzef/ableton-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **An enhanced Ableton Live integration enabling AI control via MCP with features like return tracks, FX parameters, and mixing controls.**
 
@@ -16011,7 +15952,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1041. [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 1037. [pinecone-io/pinecone-mcp](https://github.com/pinecone-io/pinecone-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Connect Pinecone projects to AI assistants like Cursor and Claude via the Pinecone Developer MCP Server.**
 
@@ -16026,7 +15967,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1042. [zenml-io/mcp-zenml](https://github.com/zenml-io/mcp-zenml)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1038. [zenml-io/mcp-zenml](https://github.com/zenml-io/mcp-zenml)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A server to connect MCP clients with ZenML pipelines for seamless integration of AI models and workflows.**
 
@@ -16041,7 +15982,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1043. [awkoy/notion-mcp-server](https://github.com/awkoy/notion-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 1039. [awkoy/notion-mcp-server](https://github.com/awkoy/notion-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **A Model Context Protocol server enabling seamless AI interaction with Notion via standardized API integrations.**
 
@@ -16056,7 +15997,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1044. [mshojaei77/reactmcp](https://github.com/mshojaei77/reactmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1040. [mshojaei77/reactmcp](https://github.com/mshojaei77/reactmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **ReActMCP is a reactive MCP client that enhances AI assistants with real-time web search insights.**
 
@@ -16071,7 +16012,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1045. [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
+### 1041. [zinja-coder/apktool-mcp-server](https://github.com/zinja-coder/apktool-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗4 layers
 
 **A powerful MCP server for analyzing Android APKs using LLMs, enabling automated reverse engineering and security analysis.**
 
@@ -16086,7 +16027,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1046. [DLHellMe/telegram-mcp-server](https://github.com/DLHellMe/telegram-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1042. [DLHellMe/telegram-mcp-server](https://github.com/DLHellMe/telegram-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A powerful Telegram MCP server enabling Claude Desktop to scrape and analyze Telegram content.**
 
@@ -16101,7 +16042,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1047. [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1043. [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Mobile MCP server enabling scalable mobile automation across iOS, Android, emulators, and real devices.**
 
@@ -16116,7 +16057,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1048. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
+### 1044. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A next-generation Model Context Protocol server enhancing documentation quality analysis with advanced AI.**
 
@@ -16131,7 +16072,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1049. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗5 layers
+### 1045. [wondermuttt/gtmcp](https://github.com/wondermuttt/gtmcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗5 layers
 
 **A Borg intelligence platform integrating MCP course data with ChatGPT for academic research and workflow automation.**
 
@@ -16146,7 +16087,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1050. [sanderkooger/mcp-server-ragdocs](https://github.com/sanderkooger/mcp-server-ragdocs)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 1046. [sanderkooger/mcp-server-ragdocs](https://github.com/sanderkooger/mcp-server-ragdocs)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **An MCP server that enables AI assistants to retrieve and process documentation via vector search, enhancing context-aware responses.**
 
@@ -16161,7 +16102,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1051. [yukukotani/mcp-gemini-google-search](https://github.com/yukukotani/mcp-gemini-google-search)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 1047. [yukukotani/mcp-gemini-google-search](https://github.com/yukukotani/mcp-gemini-google-search)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **A server-based solution integrating Google Search with Gemini's AI capabilities for intelligent search functionality.**
 
@@ -16176,7 +16117,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1052. [psycharch/minimax-mcp-tools](https://github.com/psycharch/minimax-mcp-tools)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1048. [psycharch/minimax-mcp-tools](https://github.com/psycharch/minimax-mcp-tools)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Async MCP server integrating Minimax API for scalable image generation and text-to-speech.**
 
@@ -16191,7 +16132,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1053. [drfccv/mcp-server-12306](https://github.com/drfccv/mcp-server-12306)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1049. [drfccv/mcp-server-12306](https://github.com/drfccv/mcp-server-12306)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A high-performance backend for MCP Server 12306, providing real-time ticketing and travel information via standardized API.**
 
@@ -16206,7 +16147,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1054. [LinkupPlatform/linkup-mcp-server](https://github.com/LinkupPlatform/linkup-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
+### 1050. [LinkupPlatform/linkup-mcp-server](https://github.com/LinkupPlatform/linkup-mcp-server)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent 📍
 
 **Linkup MCP server enables AI assistants to perform real-time web searches and fetch content from any webpage.**
 
@@ -16221,7 +16162,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1055. [yunkee-lee/mcp-naver-maps](https://github.com/yunkee-lee/mcp-naver-maps)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1051. [yunkee-lee/mcp-naver-maps](https://github.com/yunkee-lee/mcp-naver-maps)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **This project implements a server that connects to the Naver Maps API and Naver Search API, allowing local integration of geospatial data and search functionalities. It supports geocoding and reverse geocoding operations, facilitating seamless interac**
 
@@ -16235,7 +16176,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1056. [0xbeedao/mcp-taskwarrior](https://github.com/0xbeedao/mcp-taskwarrior)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1052. [0xbeedao/mcp-taskwarrior](https://github.com/0xbeedao/mcp-taskwarrior)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a lightweight MCP (Message Control Protocol) server tailored for the Taskwarrior platform, enabling developers to integrate task management functionalities seamlessly. It offers tools for adding, updating, deleting, and listing t**
 
@@ -16249,7 +16190,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1057. [gongrzhe/langflow-doc-qa-server](https://github.com/gongrzhe/langflow-doc-qa-server)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1053. [gongrzhe/langflow-doc-qa-server](https://github.com/gongrzhe/langflow-doc-qa-server)  `8.8` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **This project implements a Model Context Protocol (MCP) server that provides an intuitive interface for interacting with a Langflow-based document Q&A system. It demonstrates core MCP concepts by allowing users to query and retrieve information from a**
 
@@ -16263,7 +16204,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1058. [graphlit/graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1054. [graphlit/graphlit-mcp-server](https://github.com/graphlit/graphlit-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A server-based solution for integrating MCP clients with Graphlit, enabling knowledge search and retrieval within developer and product management tools.**
 
@@ -16279,7 +16220,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1059. [greptimeteam/greptimedb-mcp-server](https://github.com/greptimeteam/greptimedb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1055. [greptimeteam/greptimedb-mcp-server](https://github.com/greptimeteam/greptimedb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server for GreptimeDB that enables secure, isolated querying and analysis of observability data using SQL, TQL, and RANGE queries.**
 
@@ -16295,7 +16236,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1060. [starrocks/mcp-server-starrocks](https://github.com/starrocks/mcp-server-starrocks)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1056. [starrocks/mcp-server-starrocks](https://github.com/starrocks/mcp-server-starrocks)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **StarRocks MCP Server acts as a bridge between AI assistants and StarRocks databases, enabling seamless SQL execution, database exploration, and data visualization.**
 
@@ -16311,7 +16252,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1061. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 1057. [xzq-xu/jvm-mcp-server](https://github.com/xzq-xu/jvm-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **A lightweight JVM monitoring and diagnostic server built on native JDK tools, enabling AI agents to analyze Java applications without third-party dependencies.**
 
@@ -16327,7 +16268,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1062. [sapientpants/deepsource-mcp-server](https://github.com/sapientpants/deepsource-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1058. [sapientpants/deepsource-mcp-server](https://github.com/sapientpants/deepsource-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **DeepSource MCP Server enables seamless integration with AI assistants like Claude, allowing them to access code quality metrics, issues, and analysis results for enhanced development workflows.**
 
@@ -16343,7 +16284,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1063. [yywz1999/gdb-mcp-server](https://github.com/yywz1999/gdb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1059. [yywz1999/gdb-mcp-server](https://github.com/yywz1999/gdb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool that integrates AI-assisted debugging with GDB MCP server, enabling developers to interact with GDB via MCP protocol and leverage AI for enhanced debugging workflows.**
 
@@ -16359,7 +16300,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1064. [54yyyu/kaggle-mcp](https://github.com/54yyyu/kaggle-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1060. [54yyyu/kaggle-mcp](https://github.com/54yyyu/kaggle-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **Kaggle-MCP enables secure integration of Claude AI with the Kaggle API via the Model Context Protocol, facilitating seamless competition, dataset access, and kernel operations.**
 
@@ -16375,7 +16316,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1065. [mashhurs/logstash-mcp-server](https://github.com/mashhurs/logstash-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1061. [mashhurs/logstash-mcp-server](https://github.com/mashhurs/logstash-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A web-based interface for monitoring and managing Logstash instances via the MCP protocol, enabling automated workflows and integration with DevOps tools.**
 
@@ -16391,7 +16332,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1066. [patrickdappollonio/mcp-domaintools](https://github.com/patrickdappollonio/mcp-domaintools)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1062. [patrickdappollonio/mcp-domaintools](https://github.com/patrickdappollonio/mcp-domaintools)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **mcp-netutils provides comprehensive network and domain analysis capabilities for AI assistants, enabling DNS lookups, WHOIS queries, connectivity testing, TLS analysis, and more.**
 
@@ -16407,7 +16348,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1067. [jayozer/outscraper-mcp](https://github.com/jayozer/outscraper-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1063. [jayozer/outscraper-mcp](https://github.com/jayozer/outscraper-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A streamlined Model Context Protocol server for accessing Outscraper's Google Maps data extraction services, enabling efficient and reliable data retrieval.**
 
@@ -16423,7 +16364,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1068. [obaid/resemble-mcp](https://github.com/obaid/resemble-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1064. [obaid/resemble-mcp](https://github.com/obaid/resemble-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A server implementation for integrating Resemble AI voice generation with Claude and Cursor via MCP, supporting multiple connection methods and providing flexible deployment options.**
 
@@ -16439,7 +16380,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1069. [gongrzhe/yolo-mcp-server](https://github.com/gongrzhe/yolo-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1065. [gongrzhe/yolo-mcp-server](https://github.com/gongrzhe/yolo-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based YOLO-MCP server enabling real-time object detection, segmentation, classification, and integration with Claude AI for intelligent applications.**
 
@@ -16455,7 +16396,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1070. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1066. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **Un serveur MCP qui permet d'accéder aux ressources juridiques françaises via un LLM, facilitant la recherche et l'interaction avec des bases de données publiques comme Légifrance.**
 
@@ -16471,7 +16412,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1071. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1067. [matthewdcage/pbs-mcp-server](https://github.com/matthewdcage/pbs-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A standalone MCP server enabling AI models to access and query the Australian Pharmaceutical Benefits Scheme (PBS) API using natural language LLM integration.**
 
@@ -16487,7 +16428,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1072. [kuai0901/irag-mcp-server](https://github.com/kuai0901/irag-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1068. [kuai0901/irag-mcp-server](https://github.com/kuai0901/irag-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A Borg-based intelligence platform enabling automated image generation via the irag-mcp-server, integrating with MCP clients like Claude Desktop through standardized APIs.**
 
@@ -16503,7 +16444,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1073. [sethbang/mcp-screenshot-server](https://github.com/sethbang/mcp-screenshot-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1069. [sethbang/mcp-screenshot-server](https://github.com/sethbang/mcp-screenshot-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A cross-platform AI assistant platform that provides both web page screenshots via Puppeteer and system-level screenshots using native OS tools, enhancing developer productivity and security.**
 
@@ -16519,7 +16460,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1074. [mrgoonie/screenshotone-mcp-server](https://github.com/mrgoonie/screenshotone-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1070. [mrgoonie/screenshotone-mcp-server](https://github.com/mrgoonie/screenshotone-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **A Model Context Protocol (MCP) server enabling AI systems to securely connect to external tools and data sources, supporting screen capture and integration with various APIs.**
 
@@ -16535,7 +16476,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1075. [boomlinkai/image-worker-mcp](https://github.com/boomlinkai/image-worker-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1071. [boomlinkai/image-worker-mcp](https://github.com/boomlinkai/image-worker-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A lightweight server implementing Model Context Protocol (MCP) for automated image manipulation and cloud uploads, designed for AI assistants and automation workflows.**
 
@@ -16551,7 +16492,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1076. [merajmehrabi/outlook_calendar_mcp](https://github.com/merajmehrabi/outlook_calendar_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1072. [merajmehrabi/outlook_calendar_mcp](https://github.com/merajmehrabi/outlook_calendar_mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **A model context protocol server enabling seamless integration of Claude with Microsoft Outlook calendars, allowing advanced scheduling and calendar management.**
 
@@ -16567,7 +16508,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1077. [ravenwits/mcp-server-arangodb](https://github.com/ravenwits/mcp-server-arangodb)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1073. [ravenwits/mcp-server-arangodb](https://github.com/ravenwits/mcp-server-arangodb)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A TypeScript-based MCP server enabling seamless database interaction with ArangoDB, supporting core operations and integration tools for modern development workflows.**
 
@@ -16583,7 +16524,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1078. [jser/mcp](https://github.com/jser/mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1074. [jser/mcp](https://github.com/jser/mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP Server for JSer.info enables integration with JSer.info's Model Context Protocol, providing developers with tools to search, filter, and manage content across various platforms.**
 
@@ -16599,7 +16540,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1079. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1075. [opensvm/zig-mcp-server](https://github.com/opensvm/zig-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that enhances Zig language support with code optimization, compute unit estimation, code generation, and best practices.**
 
@@ -16615,7 +16556,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1080. [damonxue/mcp-ossinsight](https://github.com/damonxue/mcp-ossinsight)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1076. [damonxue/mcp-ossinsight](https://github.com/damonxue/mcp-ossinsight)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **An MCP server based on OSSInsight.io that provides data analysis for GitHub repositories and individuals, offering insights into the open source ecosystem.**
 
@@ -16631,7 +16572,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1081. [laubplusco/mcp-webdav-server](https://github.com/laubplusco/mcp-webdav-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1077. [laubplusco/mcp-webdav-server](https://github.com/laubplusco/mcp-webdav-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server enabling CRUD operations on WebDAV endpoints with basic authentication, supporting secure file management and integration with Claude Desktop.**
 
@@ -16647,7 +16588,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1082. [event-catalog/mcp-server](https://github.com/event-catalog/mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1078. [event-catalog/mcp-server](https://github.com/event-catalog/mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for documenting and analyzing event-driven architectures using EventCatalog, enabling developers to understand service interactions, schemas, and data flows.**
 
@@ -16663,7 +16604,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1083. [tocharianou/mcp-server-kibana](https://github.com/tocharianou/mcp-server-kibana)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1079. [tocharianou/mcp-server-kibana](https://github.com/tocharianou/mcp-server-kibana)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Kibana MCP server enabling natural language and programmatic access to Kibana instances, integrating with Elastic Stack for streamlined data visualization and management.**
 
@@ -16679,7 +16620,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1084. [mrgoonie/reviewwebsite-mcp-server](https://github.com/mrgoonie/reviewwebsite-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 1080. [mrgoonie/reviewwebsite-mcp-server](https://github.com/mrgoonie/reviewwebsite-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **An open-source MCP server enabling AI systems to securely connect to ReviewWebsite.com API for review creation, data extraction, and content conversion.**
 
@@ -16695,7 +16636,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1085. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1081. [zhangzhongnan928/mcp-blockchain-server](https://github.com/zhangzhongnan928/mcp-blockchain-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure blockchain server enabling AI assistants to interact with smart contracts while maintaining user control over private keys and transaction signing.**
 
@@ -16711,7 +16652,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1086. [yonaka15/mcp-server-redmine](https://github.com/yonaka15/mcp-server-redmine)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 1082. [yonaka15/mcp-server-redmine](https://github.com/yonaka15/mcp-server-redmine)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **A model context protocol server for Redmine that integrates with Redmine's REST API to provide structured access to issues, projects, users, and time entries for large language models (LLMs).**
 
@@ -16727,7 +16668,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1087. [bsmi021/mcp-gemini-server](https://github.com/bsmi021/mcp-gemini-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1083. [bsmi021/mcp-gemini-server](https://github.com/bsmi021/mcp-gemini-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A dedicated MCP server exposing Google Gemini model capabilities via standard MCP tools, enabling seamless integration with LLMs and other MCP-compatible systems.**
 
@@ -16743,7 +16684,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1088. [WillDent/pipedrive-mcp-server](https://github.com/WillDent/pipedrive-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1084. [WillDent/pipedrive-mcp-server](https://github.com/WillDent/pipedrive-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling secure integration of Pipedrive data with large language models like Claude for enhanced business intelligence.**
 
@@ -16759,7 +16700,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1089. [brave/brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1085. [brave/brave-search-mcp-server](https://github.com/brave/brave-search-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP server integrating Brave Search API for comprehensive search capabilities across web, local business, image, video, news, and AI-powered summarization.**
 
@@ -16775,7 +16716,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1090. [222wcnm/BiliStalkerMCP](https://github.com/222wcnm/BiliStalkerMCP)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1086. [222wcnm/BiliStalkerMCP](https://github.com/222wcnm/BiliStalkerMCP)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **BiliStalkerMCP enables AI agents to analyze specific Bilibili users or creators by retrieving profiles, videos, dynamics, articles, subtitles, and followings.**
 
@@ -16791,7 +16732,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1091. [MindscapeHQ/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1087. [MindscapeHQ/mcp-server-raygun](https://github.com/MindscapeHQ/mcp-server-raygun)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **Raygun MCP server enables AI assistants to access crash reporting and real user monitoring data in Raygun for investigation, error resolution, and performance analysis.**
 
@@ -16806,7 +16747,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1092. [zalab-inc/mcp-mysql-app](https://github.com/zalab-inc/mcp-mysql-app)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1088. [zalab-inc/mcp-mysql-app](https://github.com/zalab-inc/mcp-mysql-app)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This project enables AI systems to interact with MySQL databases through the Model Context Protocol, providing tools for querying, managing, and securing database connections.**
 
@@ -16821,7 +16762,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1093. [Models | å¿æµå¼æ¾å¹³å°](https://platform.iflow.cn/models)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1089. [Models | å¿æµå¼æ¾å¹³å°](https://platform.iflow.cn/models)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **iFlow functions as a comprehensive interoperability layer that abstracts multiple Large Language Model (LLM) providers into a single, standardized API interface. A key technical highlight is its 'MCP Market,' which leverages the Model Context Protoco**
 
@@ -16837,7 +16778,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1094. [toolprint.ai - Make AI Agents select tools like experts](https://www.toolprint.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 1090. [toolprint.ai - Make AI Agents select tools like experts](https://www.toolprint.ai)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **Toolprint focuses on solving the 'tool selection' bottleneck in agentic workflows by providing a specialized environment to evaluate and optimize how LLMs interact with external functions. It uses a data-driven approach to 'fingerprint' tools, genera**
 
@@ -16853,7 +16794,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1095. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 1091. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **mcp-launch streamlines the deployment and management of multiple Model Context Protocol (MCP) servers. It leverages mcpo to provide HTTP/OpenAPI interfaces for each server, merges per-tool OpenAPI specifications into a single endpoint for each stack,**
 
@@ -16869,7 +16810,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1096. [autogen_ext.tools.mcp — AutoGen](https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.tools.mcp.html#autogen_ext.tools.mcp.McpWorkbench)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1092. [autogen_ext.tools.mcp — AutoGen](https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.tools.mcp.html#autogen_ext.tools.mcp.McpWorkbench)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This module provides tools and classes for integrating AutoGen with tools that implement the Model Context Protocol (MCP). It allows AutoGen agents to interact with external services and command-line tools by wrapping them in MCP-compatible adapters.**
 
@@ -16885,7 +16826,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1097. [Show HN: UCP Demo – Interactive Demo of the Universal Commerce Protocol | Hacker News](https://news.ycombinator.com/item?id=46581745)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1093. [Show HN: UCP Demo – Interactive Demo of the Universal Commerce Protocol | Hacker News](https://news.ycombinator.com/item?id=46581745)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Universal Commerce Protocol (UCP) aims to standardize the process of AI agents making purchases across different online merchants. This demo showcases the key aspects of UCP, including discovery of merchant capabilities via a /.well-known endpoin**
 
@@ -16901,7 +16842,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1098. [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
+### 1094. [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
 
 **An open standard allowing agents to call APIs directly via native protocols (HTTP/gRPC) using sandboxed TS/Python code orchestration.**
 
@@ -16915,7 +16856,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1099. [pathintegral-institute/mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
+### 1095. [pathintegral-institute/mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
 
 **The primary CLI package manager for the Model Context Protocol (MCP) ecosystem, supporting global server management and secure remote tunnels.**
 
@@ -16929,7 +16870,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1100. [BeehiveInnovations/pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 1096. [BeehiveInnovations/pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **An orchestration MCP server providing a CLI-to-CLI bridge (clink) and specialized tools like apilookup and challenge to ensure context continuity.**
 
@@ -16943,7 +16884,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1101. [clawdbot/clawdbot](https://github.com/clawdbot/clawdbot)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
+### 1097. [clawdbot/clawdbot](https://github.com/clawdbot/clawdbot)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
 
 **A multi-channel personal AI gateway that connects a single agent session to 20+ messaging platforms including WhatsApp, iMessage, and Slack.**
 
@@ -16957,7 +16898,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1102. [AIDC-AI/Pixelle-MCP](https://github.com/AIDC-AI/Pixelle-MCP)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 1098. [AIDC-AI/Pixelle-MCP](https://github.com/AIDC-AI/Pixelle-MCP)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **An omnimodal framework bridging ComfyUI node-graphs to LLMs via MCP, allowing agents to trigger complex image, sound, and video pipelines.**
 
@@ -16971,7 +16912,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1103. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 1099. [knowsuchagency/mcp2cli](https://github.com/knowsuchagency/mcp2cli)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A runtime utility that converts MCP servers and OpenAPI specs into functional CLIs without code generation, reducing agent context bloat by 99%.**
 
@@ -16985,7 +16926,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1104. [mudler/LocalAI](https://github.com/mudler/LocalAI)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
+### 1100. [mudler/LocalAI](https://github.com/mudler/LocalAI)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers
 
 **An open-source AI platform that provides an OpenAI-compatible API, a community Agenthub, and native support for distributed P2P inferencing.**
 
@@ -16999,7 +16940,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1105. [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers
+### 1101. [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers
 
 **A high-performance web crawler optimized for LLM pipelines that generates "Fit Markdown" and features advanced bot-detection avoidance.**
 
@@ -17013,7 +16954,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1106. [stanislavlysenko0912/todoist-mcp-server](https://github.com/stanislavlysenko0912/todoist-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
+### 1102. [stanislavlysenko0912/todoist-mcp-server](https://github.com/stanislavlysenko0912/todoist-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
 
 **Implementation of Todoist REST and Sync APIs with AI assistants for natural language task management.**
 
@@ -17029,7 +16970,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1107. [cyanheads/survey-mcp-server](https://github.com/cyanheads/survey-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
+### 1103. [cyanheads/survey-mcp-server](https://github.com/cyanheads/survey-mcp-server)  `9.6` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
 
 **A production-grade MCP server for conducting dynamic, conversational surveys with LLM-driven interactions.**
 
@@ -17045,7 +16986,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1108. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
+### 1104. [vgiri2015/ai-spark-mcp-server](https://github.com/vgiri2015/ai-spark-mcp-server)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗2 layers
 
 **A model context protocol (MCP) server and client for intelligent Spark code optimization.**
 
@@ -17060,7 +17001,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1109. [robertzaufall/mindm-mcp](https://github.com/robertzaufall/mindm-mcp)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
+### 1105. [robertzaufall/mindm-mcp](https://github.com/robertzaufall/mindm-mcp)  `9.5` ★★☆ ⚡82.0 Q0.7⭐ Excellent · ↗1 layers
 
 **A cross-platform MCP server enabling automated interaction with MindManager for intelligent document manipulation.**
 
@@ -17075,7 +17016,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1110. [Apostrophy - Ultimate Privacy and Data Security](https://www.apostrophy.ch)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1106. [Apostrophy - Ultimate Privacy and Data Security](https://www.apostrophy.ch)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Apostrophy presents a mobile ecosystem designed to prioritize user privacy through advanced security protocols, customizable permissions, and Swiss-based infrastructure. It emphasizes full-spectrum privacy management, transparent architecture, and co**
 
@@ -17090,7 +17031,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1111. [quantgeekdev/docker-mcp](https://github.com/quantgeekdev/docker-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 1107. [quantgeekdev/docker-mcp](https://github.com/quantgeekdev/docker-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **The docker-mcp project provides a Model Context Protocol (MCP) server that facilitates seamless management of Docker containers and compose stacks through Claude AI. It supports container creation, instantiation, logging, and monitoring, enhancing De**
 
@@ -17104,7 +17045,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1112. [ericzakariasson/uber-eats-mcp-server](https://github.com/ericzakariasson/uber-eats-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1108. [ericzakariasson/uber-eats-mcp-server](https://github.com/ericzakariasson/uber-eats-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **This project presents a technical implementation of building an MCP server using Python and Uber Eats API. It outlines the setup, configuration, and deployment process for integrating AI models with external services, focusing on workflow automation **
 
@@ -17118,7 +17059,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1113. [dragomiralin/openstack-mcp-server](https://github.com/dragomiralin/openstack-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1109. [dragomiralin/openstack-mcp-server](https://github.com/dragomiralin/openstack-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a secure and extensible platform for integrating AI assistants with OpenStack environments using the Model Context Protocol (MCP). It allows seamless execution of OpenStack commands from AI tools, enhancing automation and operati**
 
@@ -17132,7 +17073,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1114. [yiyangli/sms-mcp-server](https://github.com/yiyangli/sms-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1110. [yiyangli/sms-mcp-server](https://github.com/yiyangli/sms-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The YiyangLi/sms-mcp-server project provides a Node.js-based MCP server that integrates with Claude and other AI platforms, allowing secure and seamless SMS messaging using Twilio. It supports secure configuration, environment variables, and robust e**
 
@@ -17146,7 +17087,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1115. [johnymontana/dgraph-mcp-server](https://github.com/johnymontana/dgraph-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1111. [johnymontana/dgraph-mcp-server](https://github.com/johnymontana/dgraph-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a MCP server built on the mcp-go library, allowing seamless integration of large language models (LLMs) with Dgraph's graph database. It supports executing DQL queries, performing mutations, and altering schema definitions via st**
 
@@ -17160,7 +17101,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1116. [lloydzhou/bitable-mcp](https://github.com/lloydzhou/bitable-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1112. [lloydzhou/bitable-mcp](https://github.com/lloydzhou/bitable-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The Borg Project's Bitable-MCP server facilitates access to Lark Bitable through the Model Context Protocol, allowing users to interact with Bitable tables using predefined tools. It supports secure, isolated environments for development and testing,**
 
@@ -17174,7 +17115,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1117. [martinlippert/spring-io-api-mcp](https://github.com/martinlippert/spring-io-api-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1113. [martinlippert/spring-io-api-mcp](https://github.com/martinlippert/spring-io-api-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The project provides an API client using Spring AI MCP to access up-to-date information about Spring projects from the official Spring API. It enables developers to retrieve release versions, support details, and other project metadata directly from **
 
@@ -17188,7 +17129,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1118. [putdotio/putio-mcp-server](https://github.com/putdotio/putio-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1114. [putdotio/putio-mcp-server](https://github.com/putdotio/putio-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The putio-mcp-server is a GitHub-hosted MCP (Machine-to-Machine) platform that allows developers to programmatically interact with put.io. It provides a robust API for managing transfers, viewing transfer history, and integrating with external system**
 
@@ -17202,7 +17143,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1119. [wshobson/mcp-trader](https://github.com/wshobson/mcp-trader)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1115. [wshobson/mcp-trader](https://github.com/wshobson/mcp-trader)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The project implements a Model Context Protocol (MCP) server tailored for financial trading applications, facilitating secure and efficient communication between trading systems. It supports complex data modeling and context-aware operations, enhanci**
 
@@ -17216,7 +17157,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1120. [briandconnelly/mcp-server-ipinfo](https://github.com/briandconnelly/mcp-server-ipinfo)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1116. [briandconnelly/mcp-server-ipinfo](https://github.com/briandconnelly/mcp-server-ipinfo)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The mcp-server-ipinfo project provides an API-based solution to obtain comprehensive geolocation data for any given IP address. It leverages the ipinfo.io service to deliver location, ISP, network details, and more, supporting applications that requi**
 
@@ -17230,7 +17171,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1121. [nikolaypavlov/mcp-myip](https://github.com/nikolaypavlov/mcp-myip)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1117. [nikolaypavlov/mcp-myip](https://github.com/nikolaypavlov/mcp-myip)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The nikolaypavlov/mcp-myip project implements a Model Context Protocol (MCP) server that allows large language models to retrieve their public IP addresses from external services like ifconfig.me. This facilitates secure and efficient integration of **
 
@@ -17244,7 +17185,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1122. [ailearncoder/xiaozhi-location-mcp](https://github.com/ailearncoder/xiaozhi-location-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1118. [ailearncoder/xiaozhi-location-mcp](https://github.com/ailearncoder/xiaozhi-location-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **This project provides a GitHub repository containing tools and documentation to integrate Mobile Carrier Profile (MCP) data into applications, focusing on location services. It includes code examples, setup instructions, and integration strategies fo**
 
@@ -17258,7 +17199,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1123. [mmmaaatttttt/mcp-live-events](https://github.com/mmmaaatttttt/mcp-live-events)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1119. [mmmaaatttttt/mcp-live-events](https://github.com/mmmaaatttttt/mcp-live-events)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP Server facilitates integration with the Ticketmaster API to deliver dynamic event information. It supports developers in building intelligent applications by providing structured event data and enhancing user experiences through automated wor**
 
@@ -17272,7 +17213,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1124. [blazickjp/web-browser-mcp-server](https://github.com/blazickjp/web-browser-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1120. [blazickjp/web-browser-mcp-server](https://github.com/blazickjp/web-browser-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Web Browser MCP Server enables AI-powered web browsing by integrating a MCP client with Python, allowing users to extract structured data from websites using CSS selectors. It supports fast async processing, robust error handling, and cross-platf**
 
@@ -17286,7 +17227,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1125. [howe829/websearch-mcp-server](https://github.com/howe829/websearch-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1121. [howe829/websearch-mcp-server](https://github.com/howe829/websearch-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a simple web search server capable of performing searches using various providers such as Bing, Baidu, and Google. It also supports converting the content of a URL into Markdown format. The server is designed to be user-friendly **
 
@@ -17300,7 +17241,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1126. [carsonjones/nhl-go](https://github.com/carsonjones/nhl-go)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1122. [carsonjones/nhl-go](https://github.com/carsonjones/nhl-go)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a GitHub-hosted, open-source solution for accessing NHL data via the Model Context Protocol (MCP). It includes a client wrapper, MCP server, and command-line interface built in Go, enabling developers to integrate NHL data into a**
 
@@ -17314,7 +17255,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1127. [shannonlal/mcp-linear](https://github.com/shannonlal/mcp-linear)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1123. [shannonlal/mcp-linear](https://github.com/shannonlal/mcp-linear)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The MCP Linear Project aims to enhance task management workflows by leveraging MCP Server's capabilities in connecting with Linear. This integration facilitates efficient task tracking and management across different platforms, ensuring a cohesive us**
 
@@ -17328,7 +17269,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1128. [programmeragua/jenkins-mcp-server](https://github.com/programmeragua/jenkins-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1124. [programmeragua/jenkins-mcp-server](https://github.com/programmeragua/jenkins-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **This project provides a Spring-based Jenkins API client that enables automated job management, build triggering, and configuration updates using Maven. It integrates AI features to enhance workflow efficiency and supports enterprise-grade security me**
 
@@ -17342,7 +17283,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1129. [keegancsmith/linear-issues-mcp-server](https://github.com/keegancsmith/linear-issues-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1125. [keegancsmith/linear-issues-mcp-server](https://github.com/keegancsmith/linear-issues-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The Simple MCP server acts as a read-only gateway for language models to interact with Linear issues using an API token. It supports fetching basic issue details and full information including comments, facilitating seamless integration of AI tools w**
 
@@ -17356,7 +17297,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1130. [pratik-kumar-cse/script-generation-mcp](https://github.com/pratik-kumar-cse/script-generation-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1126. [pratik-kumar-cse/script-generation-mcp](https://github.com/pratik-kumar-cse/script-generation-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The project provides a MCP server-based platform that enables users to create summaries of stored notes using AI prompts. It includes tools for adding, updating, and generating scripts based on note content, supporting customizable styles and integra**
 
@@ -17370,7 +17311,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1131. [mailpace/mailpace-mcp](https://github.com/mailpace/mailpace-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1127. [mailpace/mailpace-mcp](https://github.com/mailpace/mailpace-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The MailPace MCP Server facilitates sending emails over the MailPace Transactional Email API, supporting secure and efficient communication for enterprise applications. It integrates with external tools, automates workflows, and enhances security thr**
 
@@ -17384,7 +17325,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1132. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1128. [kuzudb/kuzu-mcp-server](https://github.com/kuzudb/kuzu-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The kuzudb/kuzu-mcp-server is a model context protocol server designed to facilitate interaction between large language models (LLMs) and Kuzu databases. It allows LLMs to fetch database schemas, run Cypher queries, and execute data-driven operations**
 
@@ -17398,7 +17339,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1133. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1129. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The Metal MCP Server, developed by aldrin-labs, is an open-source server providing Metal Framework capabilities. It enables developers to search and generate code using natural language queries, enhancing productivity in modern development workflows.**
 
@@ -17412,7 +17353,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1134. [mk965/asset-price-mcp](https://github.com/mk965/asset-price-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1130. [mk965/asset-price-mcp](https://github.com/mk965/asset-price-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The mk965/asset-price-mcp project is a model context protocol server designed to provide AI models with access to live asset price data, including precious metals and cryptocurrencies. It supports automatic caching for performance and integrates with**
 
@@ -17426,7 +17367,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1135. [lotsoftick/hermes_client](https://github.com/lotsoftick/hermes_client)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good · ↗1 layers
+### 1131. [lotsoftick/hermes_client](https://github.com/lotsoftick/hermes_client)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good · ↗1 layers
 
 **The Hermes client library is designed to facilitate interoperability between different systems by providing a robust API surface for managing agent workflows. It emphasizes connectivity, allowing developers to integrate complex orchestration logic wi**
 
@@ -17440,7 +17381,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1136. [Joe-Huber/AI-For-Brokies](https://github.com/Joe-Huber/AI-For-Brokies)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good 📍
+### 1132. [Joe-Huber/AI-For-Brokies](https://github.com/Joe-Huber/AI-For-Brokies)  `8.8` ★☆☆ ⚡82.0 Q0.7✓ Very good 📍
 
 **The project centers on establishing robust API integrations, facilitating data exchange protocols, and supporting brokerage workflows through well-defined interfaces. It emphasizes the importance of reliable connectivity and interoperability in moder**
 
@@ -17455,7 +17396,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1137. [cantpr09ram/tku-mcp](https://github.com/cantpr09ram/tku-mcp)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1133. [cantpr09ram/tku-mcp](https://github.com/cantpr09ram/tku-mcp)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The TronClass-MCP project enables seamless communication between TronClass and Claude AI by leveraging the Model Context Protocol (MCP). This allows developers to integrate external AI models like Claude directly into their applications, facilitating**
 
@@ -17468,7 +17409,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1138. [jacky1-jiang/epics-mcp-server](https://github.com/jacky1-jiang/epics-mcp-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1134. [jacky1-jiang/epics-mcp-server](https://github.com/jacky1-jiang/epics-mcp-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The EPICS MCP Server is a tool designed to facilitate the interaction with EPICS (Experimental Physics and Industrial Control System) process variables. It provides functionalities such as querying PV values, setting PV values, and fetching detailed **
 
@@ -17481,7 +17422,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1139. [chromewillow/mcp-forge](https://github.com/chromewillow/mcp-forge)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1135. [chromewillow/mcp-forge](https://github.com/chromewillow/mcp-forge)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **The chromewillow/mcp-forge project provides a GitHub-hosted MCP server generator tailored for integration with Smithery, enabling developers to create and deploy MCP servers efficiently. It supports advanced features such as web search capabilities, **
 
@@ -17494,7 +17435,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1140. [allaboutai-yt/mcp-servers](https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1136. [allaboutai-yt/mcp-servers](https://github.com/allaboutai-yt/mcp-servers/tree/HEAD/openai-server)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **The mcp-servers project provides a TypeScript implementation of a simple notes system using MCP (Model Context Protocol). It includes features such as creating new notes, generating summaries, and accessing note content via URIs. The server supports **
 
@@ -17507,7 +17448,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1141. [splunk/splunk-mcp-server2](https://github.com/splunk/splunk-mcp-server2)  `8.6` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 1137. [splunk/splunk-mcp-server2](https://github.com/splunk/splunk-mcp-server2)  `8.6` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **A modular, containerized Splunk MCP server enabling AI assistants to securely search, validate, and output Splunk data with built-in safety and performance safeguards.**
 
@@ -17523,7 +17464,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1142. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1138. [zilliztech/mcp-server-milvus](https://github.com/zilliztech/mcp-server-milvus)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This repository provides a MCP server for integrating LLM applications with Milvus vector database, enabling seamless data exchange and workflow automation.**
 
@@ -17538,7 +17479,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1143. [atlanhq/agent-toolkit](https://github.com/atlanhq/agent-toolkit/tree/HEAD/modelcontextprotocol)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 1139. [atlanhq/agent-toolkit](https://github.com/atlanhq/agent-toolkit/tree/HEAD/modelcontextprotocol)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **The Atlan Model Context Protocol MCP Server enables AI agents to securely interact with Atlan services, supporting structured tool usage and workflow automation.**
 
@@ -17553,7 +17494,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1144. [threatflux/yaraflux](https://github.com/threatflux/yaraflux)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1140. [threatflux/yaraflux](https://github.com/threatflux/yaraflux)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **YaraFlux MCP Server enables AI assistants to perform YARA rule-based threat analysis through a modular architecture, integrating seamlessly with Claude Desktop.**
 
@@ -17568,7 +17509,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1145. [jamiew/spotify-mcp](https://github.com/jamiew/spotify-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1141. [jamiew/spotify-mcp](https://github.com/jamiew/spotify-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **A fork of varunneal/spotify-mcp that enhances Spotify integration with Claude Desktop using MCP, introducing advanced batch operations and smart playlist management.**
 
@@ -17583,7 +17524,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1146. [aydinfer/spline-mcp-server](https://github.com/aydinfer/spline-mcp-server)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1142. [aydinfer/spline-mcp-server](https://github.com/aydinfer/spline-mcp-server)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **A server-based tool for programmatically controlling Spline 3D design via Claude, enabling automation of scene manipulation and integration with external services.**
 
@@ -17598,7 +17539,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1147. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
+### 1143. [veithly/rss-mcp](https://github.com/veithly/rss-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers
 
 **A TypeScript-based Model Context Protocol (MCP) server that enables structured parsing and retrieval of RSS/Atom feeds, with enhanced support for RSSHub feeds.**
 
@@ -17613,7 +17554,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1148. [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
+### 1144. [team-telnyx/telnyx-node](https://github.com/team-telnyx/telnyx-node)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers
 
 **Telnyx SDK enables seamless integration with the Telnyx API for server-side applications, supporting advanced AI functionalities and workflow automation.**
 
@@ -17628,7 +17569,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1149. [Data Integrations - MindsDB](https://docs.mindsdb.com/integrations/data-overview)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1145. [Data Integrations - MindsDB](https://docs.mindsdb.com/integrations/data-overview)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This resource details MindsDB's data integration capabilities, emphasizing its role as a federated data access layer. MindsDB acts as an MCP (Model Context Protocol) server, allowing external applications to query vast, distributed datasets directly **
 
@@ -17643,7 +17584,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1150. [vtxf/mcp-all-in-one](https://github.com/vtxf/mcp-all-in-one)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 1146. [vtxf/mcp-all-in-one](https://github.com/vtxf/mcp-all-in-one)  `10.0` ★★★ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **A comprehensive aggregator and manager for the Model Context Protocol (MCP), bundling multiple related tools into standardized servers to reduce deployment overhead.**
 
@@ -17657,7 +17598,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1151. [theredsix/agent-browser-protocol](https://github.com/theredsix/agent-browser-protocol)  `10.0` ★★★ ⚡81.0 Q0.8🏆 World-class · ↗2 layers
+### 1147. [theredsix/agent-browser-protocol](https://github.com/theredsix/agent-browser-protocol)  `10.0` ★★★ ⚡81.0 Q0.8🏆 World-class · ↗2 layers
 
 **A Chromium fork embedding MCP and REST APIs directly into the browser engine, solving the race condition between agents and live web pages via deterministic step execution.**
 
@@ -17670,7 +17611,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1152. [bytebase/dbhub](https://github.com/bytebase/dbhub)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 1148. [bytebase/dbhub](https://github.com/bytebase/dbhub)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **A zero-dependency, token-efficient database MCP server that acts as a secure gateway for agents to explore and query multiple database types.**
 
@@ -17684,7 +17625,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1153. [ethancod1ng/binance-mcp-server](https://github.com/ethancod1ng/binance-mcp-server)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
+### 1149. [ethancod1ng/binance-mcp-server](https://github.com/ethancod1ng/binance-mcp-server)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
 
 **A TypeScript-based implementation for direct interaction with the Binance exchange, enabling both market data retrieval and automated trading.**
 
@@ -17698,7 +17639,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1154. [zhiwei5576/excel-mcp-server](https://github.com/zhiwei5576/excel-mcp-server)  `9.1` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗2 layers
+### 1150. [zhiwei5576/excel-mcp-server](https://github.com/zhiwei5576/excel-mcp-server)  `9.1` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗2 layers
 
 **Excel data processing microservice built on Model Context Protocol for reading, writing, and analyzing Excel files.**
 
@@ -17714,7 +17655,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1155. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 1151. [matthewdailey/figma-mcp](https://github.com/matthewdailey/figma-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The Figma MCP Server acts as a bridge between AI assistants like Claude and Figma files, allowing users to view, comment, and analyze designs directly through the ModelContextProtocol. It supports adding files, posting comments, and managing interact**
 
@@ -17728,7 +17669,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1156. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
+### 1152. [waldur/waldur-mcp-server](https://github.com/waldur/waldur-mcp-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
 
 **The Waldur MCP server implements the Model Context Protocol (MCP) to facilitate direct interaction between Waldur instances and Claude Desktop. This integration allows seamless context passing, enhancing interoperability and enabling advanced AI-driv**
 
@@ -17742,7 +17683,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1157. [rajpdus/mcp-histfile](https://github.com/rajpdus/mcp-histfile)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 1153. [rajpdus/mcp-histfile](https://github.com/rajpdus/mcp-histfile)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The MCP-histfile project provides a server-based solution to access, search, and manage shell command history programmatically. It integrates seamlessly with MCP-compatible tools like Cursor, enabling developers to efficiently retrieve past commands **
 
@@ -17756,7 +17697,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1158. [rahgadda/oracledb_mcp_server](https://github.com/rahgadda/oracledb_mcp_server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1154. [rahgadda/oracledb_mcp_server](https://github.com/rahgadda/oracledb_mcp_server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project installs the oracledb_mcp_server package, configures it with environment variables, and enables integration between large language models (LLMs) and Oracle databases. It supports secure database connections, automated deployment, and work**
 
@@ -17770,7 +17711,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1159. [leslieleung/mcp-server-memos](https://github.com/leslieleung/mcp-server-memos)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
+### 1155. [leslieleung/mcp-server-memos](https://github.com/leslieleung/mcp-server-memos)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗3 layers
 
 **The MCP (Model Context Protocol) server facilitates the creation, retrieval, and management of memos within a Memo platform. It provides tools and APIs to streamline workflows, ensuring efficient handling of document contexts and metadata.**
 
@@ -17784,7 +17725,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1160. [yunkee-lee/mcp-kakao-local](https://github.com/yunkee-lee/mcp-kakao-local)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
+### 1156. [yunkee-lee/mcp-kakao-local](https://github.com/yunkee-lee/mcp-kakao-local)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
 
 **The MCP project serves as a server that facilitates communication between the MCP platform and Kakao's local API and map services. It allows developers to integrate Kakao functionalities into their applications seamlessly.**
 
@@ -17798,7 +17739,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1161. [samge0/mcp-qqmusic-test-server](https://github.com/samge0/mcp-qqmusic-test-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1157. [samge0/mcp-qqmusic-test-server](https://github.com/samge0/mcp-qqmusic-test-server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a Python-based test environment to simulate and evaluate QQ music search functionality via MCP. It allows users to input keywords and retrieve detailed song information, supporting integration testing and development workflows.**
 
@@ -17812,7 +17753,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1162. [agree-able/room-mcp](https://github.com/agree-able/room-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 1158. [agree-able/room-mcp](https://github.com/agree-able/room-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The Room MCP project provides a command-line interface for Claude Desktop to join and manage virtual rooms, facilitating interaction with other AI agents. It supports invitation management, transcript storage, and integration with the Model Context P**
 
@@ -17826,7 +17767,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1163. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
+### 1159. [azer/react-analyzer-mcp](https://github.com/azer/react-analyzer-mcp)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
 
 **The tool leverages the Model Context Protocol to analyze React components, extracting details such as props, types, and default values. It supports local analysis of project folders and integrates with Claude for enhanced developer workflows.**
 
@@ -17840,7 +17781,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1164. [ctoouli/mcp-stock-market](https://github.com/ctoouli/mcp-stock-market)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1160. [ctoouli/mcp-stock-market](https://github.com/ctoouli/mcp-stock-market)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The ctoouli/mcp-stock-market project provides an MCP server integration to access real-time stock market data using the Alpha Vantage API, enabling automated data retrieval and analysis within a workflow environment.**
 
@@ -17854,7 +17795,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1165. [danilat/mcp-dndzgz](https://github.com/danilat/mcp-dndzgz)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
+### 1161. [danilat/mcp-dndzgz](https://github.com/danilat/mcp-dndzgz)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
 
 **The project offers a MCP server that integrates with external APIs to deliver live updates on public transportation options in Zaragoza, Spain. It enables users to access accurate tram arrival estimations, bus station information, and Bizi bike avail**
 
@@ -17868,7 +17809,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1166. [lightfate/ssh-tools-mcp](https://github.com/lightfate/ssh-tools-mcp)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
+### 1162. [lightfate/ssh-tools-mcp](https://github.com/lightfate/ssh-tools-mcp)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good 📍
 
 **The lightfate/ssh-tools-mcp project provides a set of SSH utilities tailored for MCP (Model Context Protocol) servers, enabling administrators to securely connect, manage, and execute commands on remote systems. It supports key operations such as con**
 
@@ -17881,7 +17822,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1167. [honeybluesky/mcp-unipile](https://github.com/honeybluesky/mcp-unipile)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 1163. [honeybluesky/mcp-unipile](https://github.com/honeybluesky/mcp-unipile)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The honeybluesky/mcp-unipile project provides a MCP server integration for Unipile, allowing AI models to access and process messages from various communication channels such as LinkedIn, WhatsApp, Instagram, and more. This enhances user experience b**
 
@@ -17894,7 +17835,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1168. [doomdagadiggiedahdah/iacr-mcp-server](https://github.com/doomdagadiggiedahdah/iacr-mcp-server)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
+### 1164. [doomdagadiggiedahdah/iacr-mcp-server](https://github.com/doomdagadiggiedahdah/iacr-mcp-server)  `8.7` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗2 layers
 
 **The IACR MCP Server is an open-source tool designed to provide developers and researchers with a streamlined way to search, retrieve, and manage cryptographic research papers. It leverages the IACR ePrint Archive's RSS feed for efficient data retriev**
 
@@ -17907,7 +17848,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1169. [daikw/mcp-server-on-raspi](https://github.com/daikw/mcp-server-on-raspi)  `7.8` ☆☆☆ ⚡81.0 Q0.9○ Good · ↗1 layers
+### 1165. [daikw/mcp-server-on-raspi](https://github.com/daikw/mcp-server-on-raspi)  `7.8` ☆☆☆ ⚡81.0 Q0.9○ Good · ↗1 layers
 
 **The MCP server on Raspberry Pi is designed to provide a simple note storage system with customizable note summaries and note addition tools. It supports configuration through CLI and offers integration options for external services, making it suitabl**
 
@@ -17921,7 +17862,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1170. [fastmcp/fastmcp](https://github.com/fastmcp/fastmcp)  `10.0` ★★★ ⚡80.0 Q0.7⭐ Excellent 📍
+### 1166. [fastmcp/fastmcp](https://github.com/fastmcp/fastmcp)  `10.0` ★★★ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **A standardized framework and one-click installer for MCP servers, designed to simplify the deployment and scaling of agentic tools across various IDEs.**
 
@@ -17935,7 +17876,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1171. [solangii/upbit-mcp-server](https://github.com/solangii/upbit-mcp-server)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 1167. [solangii/upbit-mcp-server](https://github.com/solangii/upbit-mcp-server)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **A Python-based MCP server bridging the Upbit exchange API for market data, technical analysis, and automated cryptocurrency trading.**
 
@@ -17949,7 +17890,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1172. [mcp2everything/mcp2tcp](https://github.com/mcp2everything/mcp2tcp)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers 📍
+### 1168. [mcp2everything/mcp2tcp](https://github.com/mcp2everything/mcp2tcp)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers 📍
 
 **通过模型上下文协议（MCP），实现物理设备与AI大模型的无缝连接，支持智能TCP通信和实时参数调整。**
 
@@ -17965,7 +17906,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1173. [Refillable Vape Pod Systems](https://www.elementvape.com/pod-systems?client=true&filters=[{)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1169. [Refillable Vape Pod Systems](https://www.elementvape.com/pod-systems?client=true&filters=[{)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This resource provides an in-depth analysis of refillable vape pod systems, highlighting their design, functionality, and integration capabilities. It covers the technical aspects of these systems, including user interfaces, connectivity options, and**
 
@@ -17980,7 +17921,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1174. [VeyraX](https://www.veyrax.com/web)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1170. [VeyraX](https://www.veyrax.com/web)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **The resource outlines VeyraX as a platform that unifies API and UI components for AI agents, facilitating their integration into existing systems. It emphasizes the shift from traditional websites to intelligent agents that can manage complex workflo**
 
@@ -17995,7 +17936,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1175. [https://news.ycombinator.com/item?id=47752884](https://news.ycombinator.com/item?id=47752884)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗1 layers
+### 1171. [https://news.ycombinator.com/item?id=47752884](https://news.ycombinator.com/item?id=47752884)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗1 layers
 
 **The article discusses the rapid evolution of cyber threats, emphasizing how generative AI is transforming the landscape by enabling sophisticated phishing, supply chain compromises, and advanced ransomware operations. It highlights the shift from tra**
 
@@ -18010,7 +17951,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1176. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1172. [a2xdeveloper/tagesschau-mcp-server](https://github.com/a2xdeveloper/tagesschau-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The a2xdeveloper/tagesschau-mcp-server is an MCP (Model Context Protocol) server designed to provide secure access to the latest news articles from the tagesschau website. It enables developers and organizations to fetch real-time news, retrieve deta**
 
@@ -18023,7 +17964,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1177. [tomokiishimine/dify-mcp-server](https://github.com/tomokiishimine/dify-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1173. [tomokiishimine/dify-mcp-server](https://github.com/tomokiishimine/dify-mcp-server)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **The dify-mcp-server project provides a platform to deploy and manage Dify Workflow tools within a Borg environment, enabling seamless integration with Claude Desktop App. It supports multiple API keys for different workflow configurations, offering f**
 
@@ -18036,7 +17977,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1178. [warashi/mcp-server-pipecd](https://github.com/warashi/mcp-server-pipecd)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1174. [warashi/mcp-server-pipecd](https://github.com/warashi/mcp-server-pipecd)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **This project provides an MCP (Model Context Protocol) server designed to facilitate the configuration, monitoring, and management of applications deployed on PipeCD. It supports integration with Claude or other MCP clients through environment variabl**
 
@@ -18049,7 +17990,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1179. [jboothomas/pure-model-context-protocol](https://github.com/jboothomas/pure-model-context-protocol)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1175. [jboothomas/pure-model-context-protocol](https://github.com/jboothomas/pure-model-context-protocol)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The jboothomas/pure-model-context-protocol project provides a lightweight MCP (Model Context Protocol) server designed to facilitate communication between applications and Pure Storage arrays. It enables developers to retrieve real-time information a**
 
@@ -18062,7 +18003,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1180. [secretiveshell/mcp-wolfram-alpha](https://github.com/secretiveshell/mcp-wolfram-alpha)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1176. [secretiveshell/mcp-wolfram-alpha](https://github.com/secretiveshell/mcp-wolfram-alpha)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **This project enables developers to connect their chat repls to Wolfram Alpha, leveraging its computational power to enrich code analysis, documentation, and problem-solving capabilities within the Borg ecosystem. It focuses on bridging external AI to**
 
@@ -18075,7 +18016,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1181. [samay58/time-mcp](https://github.com/samay58/time-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1177. [samay58/time-mcp](https://github.com/samay58/time-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **The Time-MCP project provides a robust MCP (Machine Context Protocol) server that allows Claude the AI assistant to retrieve real-time and timezone-specific time information. This integration enhances AI interaction by ensuring consistent and reliabl**
 
@@ -18088,7 +18029,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1182. [hightemp/go_mcp_server_youtube_search](https://github.com/hightemp/go_mcp_server_youtube_search)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1178. [hightemp/go_mcp_server_youtube_search](https://github.com/hightemp/go_mcp_server_youtube_search)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The hightemp/go_mcp_server_youtube_search project provides a lightweight MCP (Model Context Protocol) server that enables developers and AI assistants to search and retrieve information from YouTube videos. It supports both standard and Server-Sent E**
 
@@ -18101,7 +18042,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1183. [githejie/mcp-server-calculator](https://github.com/githejie/mcp-server-calculator)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1179. [githejie/mcp-server-calculator](https://github.com/githejie/mcp-server-calculator)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **The githejie/mcp-server-calculator project provides a Model Context Protocol server designed to facilitate secure and accurate numerical computations for large language models. It allows LLMs to leverage calculator functionalities for complex mathema**
 
@@ -18114,7 +18055,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1184. [emgeee/mcp-ollama](https://github.com/emgeee/mcp-ollama)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1180. [emgeee/mcp-ollama](https://github.com/emgeee/mcp-ollama)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **The mcp-ollama project provides a server-based solution to integrate Ollama, an open-source LLM model manager, with Claude Desktop or other MCP clients. This allows developers to easily manage and deploy AI models within their workflow environments, **
 
@@ -18127,7 +18068,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1185. [ronalddegsa/server-everything](https://github.com/ronalddegsa/server-everything)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1181. [ronalddegsa/server-everything](https://github.com/ronalddegsa/server-everything)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **The project implements a comprehensive Model Context Protocol Server (MCP) that provides system-wide functionality including file management, secure HTTP interactions, and command execution capabilities. It serves as an agent orchestration tool for d**
 
@@ -18140,7 +18081,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1186. [vazylin1124/mongo-mcp](https://github.com/vazylin1124/mongo-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1182. [vazylin1124/mongo-mcp](https://github.com/vazylin1124/mongo-mcp)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The vazylin1124/mongo-mcp project offers a MongoDB client that enables developers to efficiently connect, query, and insert documents into MongoDB databases. It supports modern JavaScript and TypeScript, integrates with Docker for containerized deplo**
 
@@ -18153,7 +18094,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1187. [nabossha/mcp-landiwetter](https://github.com/nabossha/mcp-landiwetter)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1183. [nabossha/mcp-landiwetter](https://github.com/nabossha/mcp-landiwetter)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **This project provides a lightweight example of embedding a custom data source within an MCP (Model Context Protocol) server. It showcases how to connect external services, such as weather APIs, directly into the MCP environment using a custom data-pr**
 
@@ -18166,7 +18107,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1188. [erikhoward/azure-fhir-mcp-server](https://github.com/erikhoward/azure-fhir-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1184. [erikhoward/azure-fhir-mcp-server](https://github.com/erikhoward/azure-fhir-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol (MCP) server implementation for Azure Health Data Services FHIR, enabling secure and standardized healthcare data operations.**
 
@@ -18182,7 +18123,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1189. [macawls/umami-mcp-server](https://github.com/macawls/umami-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1185. [macawls/umami-mcp-server](https://github.com/macawls/umami-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A lean MCP Server for Umami Analytics, enabling real-time data collection and visualization for web traffic analysis.**
 
@@ -18198,7 +18139,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1190. [jmanhype/mcp-flux-studio](https://github.com/jmanhype/mcp-flux-studio)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1186. [jmanhype/mcp-flux-studio](https://github.com/jmanhype/mcp-flux-studio)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for Flux image generation, enabling tools for image creation, manipulation, and control.**
 
@@ -18214,7 +18155,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1191. [aelaguiz/mcp-url-fetch](https://github.com/aelaguiz/mcp-url-fetch)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1187. [aelaguiz/mcp-url-fetch](https://github.com/aelaguiz/mcp-url-fetch)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg project providing a Model Context Protocol server to enable Claude and other MCP clients to fetch content from URLs.**
 
@@ -18230,7 +18171,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1192. [webscraping-ai/webscraping-ai-mcp-server](https://github.com/webscraping-ai/webscraping-ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1188. [webscraping-ai/webscraping-ai-mcp-server](https://github.com/webscraping-ai/webscraping-ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server implementation enabling advanced web data extraction for AI-driven applications.**
 
@@ -18246,7 +18187,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1193. [gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1189. [gannonh/firebase-mcp](https://github.com/gannonh/firebase-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Firebase MCP server enabling AI assistants to interact with Firebase services like Firestore, Storage, and Authentication.**
 
@@ -18262,7 +18203,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1194. [enesbol/gcp-mcp](https://github.com/enesbol/gcp-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1190. [enesbol/gcp-mcp](https://github.com/enesbol/gcp-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A comprehensive Model Context Protocol (MCP) server implementation for enabling AI assistants to interact with and manage GCP resources securely.**
 
@@ -18278,7 +18219,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1195. [bigcodegen/mcp-neovim-server](https://github.com/bigcodegen/mcp-neovim-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1191. [bigcodegen/mcp-neovim-server](https://github.com/bigcodegen/mcp-neovim-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A lightweight neovim server integrating Model Context Protocol (MCP) for seamless code assistance and workflow automation.**
 
@@ -18294,7 +18235,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1196. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1192. [zacco16/gmail-mcp-server](https://github.com/zacco16/gmail-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server implementation for integrating Gmail API with AI assistants, enabling secure and context-aware email interactions.**
 
@@ -18310,7 +18251,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1197. [anoopt/outlook-meetings-scheduler-mcp-server](https://github.com/anoopt/outlook-meetings-scheduler-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1193. [anoopt/outlook-meetings-scheduler-mcp-server](https://github.com/anoopt/outlook-meetings-scheduler-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Microsoft Graph API-based Outlook meetings scheduler for automating Outlook calendar events, meeting creation, and attendee management.**
 
@@ -18326,7 +18267,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1198. [smn2gnt/mcp-salesforce](https://github.com/smn2gnt/mcp-salesforce)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1194. [smn2gnt/mcp-salesforce](https://github.com/smn2gnt/mcp-salesforce)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A software connector enabling Salesforce integration for LLMs via SOQL and SOSL, supporting advanced data querying and metadata management.**
 
@@ -18342,7 +18283,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1199. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1195. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **IoTDB MCP Server enables secure, scalable database interaction and business intelligence for IoT data using Apache IoTDB.**
 
@@ -18358,7 +18299,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1200. [donghao1393/mcp-dbutils](https://github.com/donghao1393/mcp-dbutils)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1196. [donghao1393/mcp-dbutils](https://github.com/donghao1393/mcp-dbutils)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **MCP Database Utilities enables secure, unified database connections for AI systems to analyze data without direct access.**
 
@@ -18374,7 +18315,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1201. [dpflucas/mysql-mcp-server](https://github.com/dpflucas/mysql-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1197. [dpflucas/mysql-mcp-server](https://github.com/dpflucas/mysql-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP server provides read-only access to MySQL databases, enabling secure database management and integration for AI applications.**
 
@@ -18390,7 +18331,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1202. [datastrato/mcp-server-gravitino](https://github.com/datastrato/mcp-server-gravitino)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1198. [datastrato/mcp-server-gravitino](https://github.com/datastrato/mcp-server-gravitino)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg-based MCP server for seamless integration with Apache Gravitino APIs, enabling efficient metadata management and secure access.**
 
@@ -18406,7 +18347,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1203. [jupiterbak/ayx-mcp-wrapper](https://github.com/jupiterbak/ayx-mcp-wrapper)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1199. [jupiterbak/ayx-mcp-wrapper](https://github.com/jupiterbak/ayx-mcp-wrapper)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants and MCP clients to interact with Alteryx Servers for workflow management.**
 
@@ -18422,7 +18363,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1204. [startreedata/mcp-pinot](https://github.com/startreedata/mcp-pinot)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1200. [startreedata/mcp-pinot](https://github.com/startreedata/mcp-pinot)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Python-based Model Context Protocol (MCP) server for Apache Pinot, enabling real-time analytics and metadata queries via Claude Desktop integration.**
 
@@ -18438,7 +18379,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1205. [andradehenrique/dokploy-mcp](https://github.com/andradehenrique/dokploy-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1201. [andradehenrique/dokploy-mcp](https://github.com/andradehenrique/dokploy-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool-based platform for programmatic interaction with Dokploy server functionalities via the Model Context Protocol (MCP).**
 
@@ -18454,7 +18395,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1206. [litmusautomation/litmus-mcp-server](https://github.com/litmusautomation/litmus-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1202. [litmusautomation/litmus-mcp-server](https://github.com/litmusautomation/litmus-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Litmus MCP Server enables LLMs and intelligent systems to configure, monitor, and manage Litmus Edge instances via the Model Context Protocol (MCP).**
 
@@ -18470,7 +18411,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1207. [eiceblue/spire-xls-mcp-server](https://github.com/eiceblue/spire-xls-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1203. [eiceblue/spire-xls-mcp-server](https://github.com/eiceblue/spire-xls-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A platform enabling AI agents to interact with Excel files using the Model Context Protocol for seamless data manipulation and visualization.**
 
@@ -18486,7 +18427,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1208. [stevereiner/python-alfresco-mcp-server](https://github.com/stevereiner/python-alfresco-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1204. [stevereiner/python-alfresco-mcp-server](https://github.com/stevereiner/python-alfresco-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based MCP Server for Alfresco using FastMCP 2.0, designed to streamline content management and search functionalities.**
 
@@ -18502,7 +18443,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1209. [nasoma/africastalking-airtime-mcp](https://github.com/nasoma/africastalking-airtime-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1205. [nasoma/africastalking-airtime-mcp](https://github.com/nasoma/africastalking-airtime-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **An MCP server for interacting with Africa's Talking Airtime service, enabling airtime management and top-up operations.**
 
@@ -18518,7 +18459,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1210. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1206. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Python-based server implementing the Model Context Protocol (MCP) for Zotero, enabling AI assistants to access and interact with Zotero libraries.**
 
@@ -18534,7 +18475,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1211. [tim-mcdonnell/tana-mcp](https://github.com/tim-mcdonnell/tana-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1207. [tim-mcdonnell/tana-mcp](https://github.com/tim-mcdonnell/tana-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for integrating MCP servers into AI workflows, enabling automated task creation, project structuring, and knowledge management.**
 
@@ -18550,7 +18491,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1212. [mfreeman451/json-logs-mcp-server](https://github.com/mfreeman451/json-logs-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1208. [mfreeman451/json-logs-mcp-server](https://github.com/mfreeman451/json-logs-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based MCP server for analyzing JSON log files, enabling search, filtering, aggregation, and security monitoring.**
 
@@ -18566,7 +18507,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1213. [uzaysozen/imdb-mcp-server](https://github.com/uzaysozen/imdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1209. [uzaysozen/imdb-mcp-server](https://github.com/uzaysozen/imdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Python-based server implementing the Model Context Protocol (MCP) for movie and TV show information using the IMDb API.**
 
@@ -18582,7 +18523,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1214. [weidwonder/crawl4ai-mcp-server](https://github.com/weidwonder/crawl4ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗5 layers
+### 1210. [weidwonder/crawl4ai-mcp-server](https://github.com/weidwonder/crawl4ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗5 layers
 
 **A high-performance MCP Server for efficient internet search and LLM content extraction, designed to optimize token usage.**
 
@@ -18598,7 +18539,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1215. [rossh121/perplexity-mcp](https://github.com/rossh121/perplexity-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1211. [rossh121/perplexity-mcp](https://github.com/rossh121/perplexity-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Borg-based Perplexity MCP server integrating advanced AI search, domain filtering, and model routing for enterprise use cases.**
 
@@ -18614,7 +18555,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1216. [ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1212. [ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server integrating Google Search Console analytics for enhanced search performance insights.**
 
@@ -18630,7 +18571,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1217. [nighttrek/serper-search-mcp](https://github.com/nighttrek/serper-search-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1213. [nighttrek/serper-search-mcp](https://github.com/nighttrek/serper-search-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg project offering an un-official Serper Google search server for Cline and other MCP clients, integrating AI-powered deep research capabilities.**
 
@@ -18646,7 +18587,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1218. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1214. [pangeacyber/pangea-mcp-server](https://github.com/pangeacyber/pangea-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling secure integration with Pangea APIs for intelligence data retrieval.**
 
@@ -18662,7 +18603,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1219. [obinopaul/soccer-mcp-server](https://github.com/obinopaul/soccer-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1215. [obinopaul/soccer-mcp-server](https://github.com/obinopaul/soccer-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based server implementing the Model Context Protocol (MCP) for football data, enabling integration with external APIs and live match data.**
 
@@ -18678,7 +18619,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1220. [yuezheng2006/mcp-server-jira](https://github.com/yuezheng2006/mcp-server-jira)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1216. [yuezheng2006/mcp-server-jira](https://github.com/yuezheng2006/mcp-server-jira)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A self-hosted JIRA integration server using the MCP protocol to enable AI assistants to query, manage, and interact with JIRA data.**
 
@@ -18694,7 +18635,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1221. [pab1it0/tripadvisor-mcp](https://github.com/pab1it0/tripadvisor-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1217. [pab1it0/tripadvisor-mcp](https://github.com/pab1it0/tripadvisor-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants to access Tripadvisor location data, reviews, and photos via standardized APIs.**
 
@@ -18710,7 +18651,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1222. [jhacksman/openscad-mcp-server](https://github.com/jhacksman/openscad-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1218. [jhacksman/openscad-mcp-server](https://github.com/jhacksman/openscad-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A modular OpenSCAD MCP Server enabling AI-driven image generation, multi-view reconstruction, and 3D model creation for rapid prototyping.**
 
@@ -18726,7 +18667,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1223. [jingcheng-chen/rhinomcp](https://github.com/jingcheng-chen/rhinomcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1219. [jingcheng-chen/rhinomcp](https://github.com/jingcheng-chen/rhinomcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **RhinoMCP enables AI agents to interact with Rhino 3D via the Model Context Protocol, facilitating real-time 3D modeling and automation.**
 
@@ -18742,7 +18683,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1224. [gerred/mcp-server-replicate](https://github.com/gerred/mcp-server-replicate)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1220. [gerred/mcp-server-replicate](https://github.com/gerred/mcp-server-replicate)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP server implementation for AI model inference, enabling resource-based access and secure deployment.**
 
@@ -18758,7 +18699,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1225. [oakplank/revitmcp](https://github.com/oakplank/revitmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1221. [oakplank/revitmcp](https://github.com/oakplank/revitmcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based extension for RevitMCP enabling AI-driven automation and workflow orchestration within Autodesk Revit.**
 
@@ -18774,7 +18715,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1226. [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1222. [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **Integrates Claude AI with QGIS Desktop via the Model Context Protocol (MCP), enabling LLMs to interact with and control QGIS.**
 
@@ -18790,7 +18731,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1227. [sbmagar13/hashnode-mcp-server](https://github.com/sbmagar13/hashnode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1223. [sbmagar13/hashnode-mcp-server](https://github.com/sbmagar13/hashnode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling AI assistants to interact with Hashnode API for content creation, management, and retrieval.**
 
@@ -18806,7 +18747,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1228. [l33tdawg/strapi-mcp](https://github.com/l33tdawg/strapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1224. [l33tdawg/strapi-mcp](https://github.com/l33tdawg/strapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **An MCP server for Strapi CMS integration, enabling developers to manage content types and entries programmatically.**
 
@@ -18822,7 +18763,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1229. [moonbirdai/amplitude-mcp-server](https://github.com/moonbirdai/amplitude-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1225. [moonbirdai/amplitude-mcp-server](https://github.com/moonbirdai/amplitude-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Borg intelligence platform enabling AI assistants to integrate with Amplitude Analytics for event tracking and user management.**
 
@@ -18838,7 +18779,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1230. [lispking/monad-mcp-server](https://github.com/lispking/monad-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1226. [lispking/monad-mcp-server](https://github.com/lispking/monad-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Monad MCP Server enables developers to interact with the Monad blockchain using AI tools and services via the Model Context Protocol.**
 
@@ -18854,7 +18795,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1231. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1227. [CH-122/mcp-server](https://github.com/CH-122/mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Borg project demonstrating MCP-based multi-functional server implementations for database search, GitHub search, and time management.**
 
@@ -18870,7 +18811,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1232. [timholden/figma-mcp-server](https://github.com/timholden/figma-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1228. [timholden/figma-mcp-server](https://github.com/timholden/figma-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server implementation enabling secure, isolated access to Figma files and projects via the Model Context Protocol.**
 
@@ -18886,7 +18827,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1233. [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1229. [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A self-hosted Browserbase MCP server enabling LLMs to control browsers via Stagehand, integrating with external tools and APIs.**
 
@@ -18902,7 +18843,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1234. [heroku/heroku-mcp-server](https://github.com/heroku/heroku-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1230. [heroku/heroku-mcp-server](https://github.com/heroku/heroku-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Heroku Platform MCP Server enables secure, automated interaction between large language models and Heroku infrastructure using LLM-driven tools.**
 
@@ -18918,7 +18859,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1235. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1231. [nomagicln/mcp-harbor](https://github.com/nomagicln/mcp-harbor)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Node.js application providing a Model Context Protocol (MCP) server for interacting with Harbor container registry.**
 
@@ -18934,7 +18875,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1236. [kong/mcp-konnect](https://github.com/kong/mcp-konnect)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1232. [kong/mcp-konnect](https://github.com/kong/mcp-konnect)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A model context protocol server enabling AI interaction with Kong Konnect APIs for querying and analyzing traffic, configurations, and analytics.**
 
@@ -18950,7 +18891,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1237. [manusa/podman-mcp-server](https://github.com/manusa/podman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1233. [manusa/podman-mcp-server](https://github.com/manusa/podman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A powerful MCP server for container runtimes supporting Podman and Docker, enabling secure and efficient orchestration of containerized applications.**
 
@@ -18966,7 +18907,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1238. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1234. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Node.js sandbox MCP server that executes arbitrary JavaScript in ephemeral Docker containers, enabling secure and isolated development environments.**
 
@@ -18982,7 +18923,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1239. [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1235. [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling secure integration with Microsoft 365 and Office services via the Graph API.**
 
@@ -18998,7 +18939,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1240. [amotivv/protonmail-mcp](https://github.com/amotivv/protonmail-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1236. [amotivv/protonmail-mcp](https://github.com/amotivv/protonmail-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling secure email sending via Protonmail's SMTP service for Claude Desktop and Cline VSCode extension.**
 
@@ -19014,7 +18955,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1241. [zajtools/zaj-mysql-mcp](https://github.com/zajtools/zaj-mysql-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1237. [zajtools/zaj-mysql-mcp](https://github.com/zajtools/zaj-mysql-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A Borg-based MySQL MCP server enabling seamless integration and interaction with MySQL databases for business intelligence and data analysis.**
 
@@ -19030,7 +18971,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1242. [mrwyndham/pocketbase-mcp](https://github.com/mrwyndham/pocketbase-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1238. [mrwyndham/pocketbase-mcp](https://github.com/mrwyndham/pocketbase-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server-based MCP solution for building and managing PocketBase apps with advanced database operations, schema management, and data manipulation.**
 
@@ -19046,7 +18987,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1243. [cryptoradi/schemaflow-mcp-server](https://github.com/cryptoradi/schemaflow-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1239. [cryptoradi/schemaflow-mcp-server](https://github.com/cryptoradi/schemaflow-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **SchemaFlow MCP Server enables secure, real-time schema access for AI development tools via the Model Context Protocol.**
 
@@ -19062,7 +19003,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1244. [identimoji/mcp-server-emojikey](https://github.com/identimoji/mcp-server-emojikey)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1240. [identimoji/mcp-server-emojikey](https://github.com/identimoji/mcp-server-emojikey)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A server-based emoji-based memory system for Claude to maintain consistent interaction styles and relationship context across conversations.**
 
@@ -19078,7 +19019,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1245. [saml1211/prd-mcp-server](https://github.com/saml1211/prd-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1241. [saml1211/prd-mcp-server](https://github.com/saml1211/prd-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A specialized Model Context Protocol server for generating Product Requirement Documents (PRDs) from codebase context.**
 
@@ -19094,7 +19035,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1246. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1242. [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server that integrates with Postman to provide structured access and management of API collections, environments, and APIs.**
 
@@ -19110,7 +19051,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1247. [r-huijts/xcode-mcp-server](https://github.com/r-huijts/xcode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1243. [r-huijts/xcode-mcp-server](https://github.com/r-huijts/xcode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server enabling seamless integration of AI assistants with Xcode projects, streamlining development workflows and enhancing productivity.**
 
@@ -19126,7 +19067,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1248. [amanasmuei/mcp-server-nodemcu](https://github.com/amanasmuei/mcp-server-nodemcu)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1244. [amanasmuei/mcp-server-nodemcu](https://github.com/amanasmuei/mcp-server-nodemcu)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A NodeMCU MCP server enabling secure device management, real-time telemetry, and AI integration for IoT applications.**
 
@@ -19142,7 +19083,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1249. [cyanheads/filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1245. [cyanheads/filesystem-mcp-server](https://github.com/cyanheads/filesystem-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **Enables AI agents to securely interact with the filesystem using standardized protocols, supporting both local and network-based operations.**
 
@@ -19158,7 +19099,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1250. [alexcandrabersiva/bin-mcp](https://github.com/alexcandrabersiva/bin-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1246. [alexcandrabersiva/bin-mcp](https://github.com/alexcandrabersiva/bin-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure, agent-driven platform for managing Binance Futures API access, offering robust security, real-time data, and seamless integration options.**
 
@@ -19174,7 +19115,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1251. [b-open-io/bsv-mcp](https://github.com/b-open-io/bsv-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1247. [b-open-io/bsv-mcp](https://github.com/b-open-io/bsv-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A tool for integrating Bitcoin SV with the Model Context Protocol (MCP), enabling AI assistants to interact with BSV blockchain features.**
 
@@ -19190,7 +19131,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1252. [colvint/monarch-money-mcp](https://github.com/colvint/monarch-money-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1248. [colvint/monarch-money-mcp](https://github.com/colvint/monarch-money-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling integration with AI assistants via the Model Context Protocol for seamless financial data access.**
 
@@ -19206,7 +19147,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1253. [grandmastr/chronos-mcp](https://github.com/grandmastr/chronos-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1249. [grandmastr/chronos-mcp](https://github.com/grandmastr/chronos-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Chronos MCP is a Node.js-based Model Context Protocol server for the Stellar blockchain, enabling seamless integration with AI applications and tools.**
 
@@ -19222,7 +19163,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1254. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1250. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server for managing Memory Banks, enabling AI assistants to store and retrieve information across sessions.**
 
@@ -19238,7 +19179,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1255. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1251. [edricgsh/Readwise-Reader-MCP](https://github.com/edricgsh/Readwise-Reader-MCP)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A secure, context-aware MCP server enabling seamless integration with Readwise Reader API for enriched document management.**
 
@@ -19254,7 +19195,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1256. [alexander-zuev/kollektiv-mcp](https://github.com/alexander-zuev/kollektiv-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1252. [alexander-zuev/kollektiv-mcp](https://github.com/alexander-zuev/kollektiv-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **Enable developers to build, manage, and deploy AI-powered applications using Kollektiv MCP for seamless integration with code editors.**
 
@@ -19270,7 +19211,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1257. [chanmeng666/server-google-jobs](https://github.com/chanmeng666/server-google-jobs)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1253. [chanmeng666/server-google-jobs](https://github.com/chanmeng666/server-google-jobs)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A developer-focused MCP server integrating Google Jobs via SerpAPI with multi-language support and AI-powered job search.**
 
@@ -19286,7 +19227,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1258. [kapilduraphe/okta-mcp-server](https://github.com/kapilduraphe/okta-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1254. [kapilduraphe/okta-mcp-server](https://github.com/kapilduraphe/okta-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for managing user and group operations within Okta's MCP Server, enabling automation of onboarding, provisioning, and management tasks.**
 
@@ -19302,7 +19243,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1259. [napthaai/http-oauth-mcp-server](https://github.com/napthaai/http-oauth-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1255. [napthaai/http-oauth-mcp-server](https://github.com/napthaai/http-oauth-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A reference implementation for building an OAuth-authorized MCP server using Streamable HTTP and SSE, enabling secure remote MCP server deployments.**
 
@@ -19318,7 +19259,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1260. [stanleyj03/mcp-for-security](https://github.com/stanleyj03/mcp-for-security)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1256. [stanleyj03/mcp-for-security](https://github.com/stanleyj03/mcp-for-security)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A collection of Model Context Protocol servers for popular security tools to enhance AI-driven security testing and penetration testing.**
 
@@ -19334,7 +19275,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1261. [cameronking4/spawn-mcp](https://github.com/cameronking4/spawn-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1257. [cameronking4/spawn-mcp](https://github.com/cameronking4/spawn-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A proof-of-concept server demonstrating real-time streaming of model responses via Server-Sent Events (SSE) using the Model Context Protocol (MCP).**
 
@@ -19350,7 +19291,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1262. [misterboe/strapi-mcp-server](https://github.com/misterboe/strapi-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1258. [misterboe/strapi-mcp-server](https://github.com/misterboe/strapi-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A server-based platform enabling AI-driven interaction with Strapi CMS, supporting content management, media handling, and secure API operations.**
 
@@ -19366,7 +19307,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1263. [lzsheng/yapi-mcp](https://github.com/lzsheng/yapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1259. [lzsheng/yapi-mcp](https://github.com/lzsheng/yapi-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for YApi, enabling direct interaction with YApi interfaces in AI development tools.**
 
@@ -19382,7 +19323,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1264. [erickwendel/erickwendel-contributions-mcp](https://github.com/erickwendel/erickwendel-contributions-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1260. [erickwendel/erickwendel-contributions-mcp](https://github.com/erickwendel/erickwendel-contributions-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling natural language queries to Erick Wendel's contributions across platforms.**
 
@@ -19398,7 +19339,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1265. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1261. [ramidecodes/mcp-server-notion](https://github.com/ramidecodes/mcp-server-notion)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol server that wraps the official Notion SDK, enabling AI models to interact with Notion workspaces.**
 
@@ -19414,7 +19355,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1266. [rawveg/ollama-mcp](https://github.com/rawveg/ollama-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1262. [rawveg/ollama-mcp](https://github.com/rawveg/ollama-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **An MCP server enabling seamless integration between local LLM models and cloud-based AI services like Claude Desktop.**
 
@@ -19430,7 +19371,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1267. [tkc/tinyt-todo-mcp](https://github.com/tkc/tinyt-todo-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1263. [tkc/tinyt-todo-mcp](https://github.com/tkc/tinyt-todo-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Tiny TODO MCP is a server implementing the Model Context Protocol to enable persistent task management for AI assistants.**
 
@@ -19446,7 +19387,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1268. [moonbirdai/mixpanel-mcp-server](https://github.com/moonbirdai/mixpanel-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1264. [moonbirdai/mixpanel-mcp-server](https://github.com/moonbirdai/mixpanel-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server enabling AI assistants to integrate with Mixpanel analytics for real-time event tracking and user profile management.**
 
@@ -19462,7 +19403,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1269. [QuantGeekDev/mcp-framework](https://github.com/QuantGeekDev/mcp-framework)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1265. [QuantGeekDev/mcp-framework](https://github.com/QuantGeekDev/mcp-framework)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A TypeScript-based framework for building Model Context Protocol (MCP) servers with automatic tool, resource, and prompt discovery.**
 
@@ -19478,7 +19419,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1270. [geelen/mcp-remote](https://github.com/geelen/mcp-remote)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1266. [geelen/mcp-remote](https://github.com/geelen/mcp-remote)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for integrating MCP servers with remote authentication and secure communication, enabling centralized management of distributed MCP clients.**
 
@@ -19494,7 +19435,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1271. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 1267. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that enables querying of ATT&CK techniques and tactics for security analysis.**
 
@@ -19510,7 +19451,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1272. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1268. [adamamer20/paper-search-mcp-openai](https://github.com/adamamer20/paper-search-mcp-openai)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based MCP server for searching and downloading academic papers from multiple sources, enabling seamless integration with LLMs.**
 
@@ -19526,7 +19467,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1273. [aybelatchane/mcp-server-terminal](https://github.com/aybelatchane/mcp-server-terminal)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1269. [aybelatchane/mcp-server-terminal](https://github.com/aybelatchane/mcp-server-terminal)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A terminal-based MCP Server enabling AI agents to interact with terminal applications via structured Terminal State Tree for TUI/CLI automation.**
 
@@ -19542,7 +19483,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1274. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1270. [keithah/hostex-mcp](https://github.com/keithah/hostex-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A server-based solution for managing property data via the Model Context Protocol, supporting both stdio and streamable HTTP transport.**
 
@@ -19558,7 +19499,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1275. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1271. [wei/mymlh-mcp-server](https://github.com/wei/mymlh-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A secure, OAuth-authenticated Model Context Protocol (MCP) server enabling secure access to MyMLH API v4 for AI applications.**
 
@@ -19574,7 +19515,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1276. [dubuqingfeng/gitlab-mcp-server](https://github.com/dubuqingfeng/gitlab-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1272. [dubuqingfeng/gitlab-mcp-server](https://github.com/dubuqingfeng/gitlab-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A GitLab MCP server tool for managing and automating code review processes with smart security and workflow integration.**
 
@@ -19590,7 +19531,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1277. [slhad/aha-mcp](https://github.com/slhad/aha-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1273. [slhad/aha-mcp](https://github.com/slhad/aha-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A TypeScript MCP server for Home Assistant enabling programmatic management of entities, automations, services, and dashboards.**
 
@@ -19606,7 +19547,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1278. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1274. [tcehjaava/tmdb-mcp-server](https://github.com/tcehjaava/tmdb-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server that provides access to The Movie Database API for searching movies, TV shows, people, and retrieving detailed information.**
 
@@ -19622,7 +19563,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1279. [fliptheweb/yazio-mcp](https://github.com/fliptheweb/yazio-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1275. [fliptheweb/yazio-mcp](https://github.com/fliptheweb/yazio-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **An unofficial MCP server for integrating Yazio nutrition data with Claude Desktop, enabling seamless tracking and analysis of dietary habits.**
 
@@ -19638,7 +19579,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1280. [plainyogurt21/sec-edgar-mcp](https://github.com/plainyogurt21/sec-edgar-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1276. [plainyogurt21/sec-edgar-mcp](https://github.com/plainyogurt21/sec-edgar-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A secure, protocol-based server enabling AI models to access and process SEC EDGAR filings with precise data extraction.**
 
@@ -19654,7 +19595,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1281. [gjeltep/app-store-connect-mcp](https://github.com/gjeltep/app-store-connect-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1277. [gjeltep/app-store-connect-mcp](https://github.com/gjeltep/app-store-connect-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A modular, secure MCP Server for integrating with AppStoreConnect API, enabling seamless app store connectivity and automation.**
 
@@ -19670,7 +19611,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1282. [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1278. [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling secure read-only access to MySQL databases, facilitating LLM interaction with database schemas and queries.**
 
@@ -19685,7 +19626,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1283. [apecloud/kb-cloud-mcp-server](https://github.com/apecloud/kb-cloud-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1279. [apecloud/kb-cloud-mcp-server](https://github.com/apecloud/kb-cloud-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling AI assistants to interact with KubeBlocks Cloud resources through standardized tool-calling interfaces.**
 
@@ -19700,7 +19641,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1284. [openlinksoftware/mcp-pyodbc-server](https://github.com/openlinksoftware/mcp-pyodbc-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1280. [openlinksoftware/mcp-pyodbc-server](https://github.com/openlinksoftware/mcp-pyodbc-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A lightweight MCP ODBC server built with FastAPI and PyODBC, enabling seamless integration with Virtuoso and other ODBC-compatible databases.**
 
@@ -19715,7 +19656,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1285. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1281. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A cloud-based MCP server enabling secure, isolated interaction between FreeCAD and Claude Desktop for collaborative engineering workflows.**
 
@@ -19730,7 +19671,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1286. [zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1282. [zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **ZoomEye MCP Server enables LLMs to retrieve network asset information via query conditions, integrating seamlessly into AI development environments.**
 
@@ -19745,7 +19686,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1287. [rootly-ai-labs/rootly-mcp-server](https://github.com/rootly-ai-labs/rootly-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1283. [rootly-ai-labs/rootly-mcp-server](https://github.com/rootly-ai-labs/rootly-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Rootly MCP server enables automated management of MCP resources, incident handling, and workflow orchestration for AI-driven applications.**
 
@@ -19760,7 +19701,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1288. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1284. [rajyraman/genaiscript-pac-az-mcp](https://github.com/rajyraman/genaiscript-pac-az-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A framework enabling communication with AI models via Model Context Protocol (MCP) to standardize interactions between AI and various data sources.**
 
@@ -19775,7 +19716,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1289. [r-huijts/portkey-admin-mcp-server](https://github.com/r-huijts/portkey-admin-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1285. [r-huijts/portkey-admin-mcp-server](https://github.com/r-huijts/portkey-admin-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling standardized management of AI configurations, workspaces, and analytics for the Portkey AI platform.**
 
@@ -19790,7 +19731,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1290. [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1286. [langfuse/mcp-server-langfuse](https://github.com/langfuse/mcp-server-langfuse)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A server for managing Langfuse prompts via the Model Context Protocol, enabling automated prompt retrieval and integration with AI tools.**
 
@@ -19805,7 +19746,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1291. [watchdealer-pavel/deepl-mcp-server](https://github.com/watchdealer-pavel/deepl-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1287. [watchdealer-pavel/deepl-mcp-server](https://github.com/watchdealer-pavel/deepl-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A developer-focused platform for integrating DeepL translation API with MCP Server, offering advanced translation features and workflow automation.**
 
@@ -19820,7 +19761,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1292. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1288. [dasheck0/face-generator](https://github.com/dasheck0/face-generator)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling developers to generate realistic human faces with customizable shapes, sizes, and appearances.**
 
@@ -19835,7 +19776,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1293. [scorecard-ai/scorecard-node](https://github.com/scorecard-ai/scorecard-node)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 1289. [scorecard-ai/scorecard-node](https://github.com/scorecard-ai/scorecard-node)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A JavaScript/TypeScript library for integrating with the Scorecard REST API, enabling AI assistants to interact with Scorecard's functionality.**
 
@@ -19850,7 +19791,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1294. [LLM Council in the Browser](http://council.jon.io)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗2 layers
+### 1290. [LLM Council in the Browser](http://council.jon.io)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗2 layers
 
 **The LLM Council in the Browser appears to be a user interface (UI) or framework designed to host and manage interactions with multiple language model agents simultaneously within a web browser environment. This setup likely focuses on creating a coop**
 
@@ -19865,7 +19806,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1295. [vanachterjacob/bc-mcp](https://github.com/vanachterjacob/bc-mcp)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗1 layers
+### 1291. [vanachterjacob/bc-mcp](https://github.com/vanachterjacob/bc-mcp)  `7.8` ☆☆☆ ⚡80.0 Q0.8○ Good · ↗1 layers
 
 **The project aims to develop a BC MCP (Business Central Markup Language) server using a custom implementation. It includes static rules for code editing, deployment to Render.com, and integration with MongoDB for dynamic rule management. The solution **
 
@@ -19879,7 +19820,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1296. [https://www.phoronix.com/news/Mozilla-Thunderbolt](https://www.phoronix.com/news/Mozilla-Thunderbolt)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent 📍
+### 1292. [https://www.phoronix.com/news/Mozilla-Thunderbolt](https://www.phoronix.com/news/Mozilla-Thunderbolt)  `9.0` ★★☆ ⚡79.0 Q0.7⭐ Excellent 📍
 
 **Thunderbolt is an open-source AI client designed for enterprise use, allowing organizations to run AI models, connect to data sources, automate workflows, and integrate with various protocols. It supports a sovereign AI client model, offering flexibi**
 
@@ -19895,7 +19836,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1297. [mattmorgis/nuanced-mcp](https://github.com/mattmorgis/nuanced-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1293. [mattmorgis/nuanced-mcp](https://github.com/mattmorgis/nuanced-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **The nuanced-mcp server facilitates call graph analysis for Python repositories, helping AI assistants understand function dependencies and improve contextual code assistance.**
 
@@ -19909,7 +19850,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1298. [abel9851/mcp-server-mariadb](https://github.com/abel9851/mcp-server-mariadb)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1294. [abel9851/mcp-server-mariadb](https://github.com/abel9851/mcp-server-mariadb)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **The mcp-server-mariadb project provides a lightweight MCP (Machine-to-Machine) server that connects to MariaDB databases and performs read-only operations. It is designed to enhance security by restricting database interactions to only read operation**
 
@@ -19922,7 +19863,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1299. [i524/datadog-mcp-server](https://github.com/i524/datadog-mcp-server)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1295. [i524/datadog-mcp-server](https://github.com/i524/datadog-mcp-server)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **The i524/datadog-mcp-server project provides a MCP (Model Context Protocol) server that allows AI tools to interact with Datadog logs using natural language queries. It supports log searching, time-based filtering, pagination, and integrates with Dat**
 
@@ -19935,7 +19876,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1300. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1296. [manimohans/verge-news-mcp](https://github.com/manimohans/verge-news-mcp)  `8.7` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **The Verge News MCP Server is a specialized tool designed to bring The Verge's RSS feed directly to Claude Desktop, enabling users to fetch daily or weekly tech news, search articles by keyword, and receive random news selections from the past week. I**
 
@@ -19948,7 +19889,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1301. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1297. [niledatabase/nile-mcp-server](https://github.com/niledatabase/nile-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **Nile MCP Server enables secure, standardized interaction between LLM applications and the Nile database platform.**
 
@@ -19964,7 +19905,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1302. [leonelberio/the-wordpress-mcp-server](https://github.com/leonelberio/the-wordpress-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1298. [leonelberio/the-wordpress-mcp-server](https://github.com/leonelberio/the-wordpress-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A WordPress MCP server enabling secure integration with WordPress via JSON-RPC for automated post management.**
 
@@ -19980,7 +19921,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1303. [glifxyz/mymcpspace-mcp-server](https://github.com/glifxyz/mymcpspace-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1299. [glifxyz/mymcpspace-mcp-server](https://github.com/glifxyz/mymcpspace-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server enabling AI models to interact with MyMCPSpace posts, replies, likes, and feeds.**
 
@@ -19996,7 +19937,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1304. [recraft-ai/mcp-recraft-server](https://github.com/recraft-ai/mcp-recraft-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 1300. [recraft-ai/mcp-recraft-server](https://github.com/recraft-ai/mcp-recraft-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A server implementation for integrating Recraft API with MCP clients to generate high-quality raster and vector images.**
 
@@ -20012,7 +19953,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1305. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
+### 1301. [portainer/portainer-mcp](https://github.com/portainer/portainer-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
 
 **Portainer MCP enables AI assistants to interact with Portainer environments in a standardized, secure way.**
 
@@ -20028,7 +19969,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1306. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1302. [thunderboltsid/mcp-nutanix](https://github.com/thunderboltsid/mcp-nutanix)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Go-based MCP server enabling LLMs to interact with Nutanix Prism Central APIs via the Model Context Protocol.**
 
@@ -20044,7 +19985,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1307. [vantage-sh/vantage-mcp-server](https://github.com/vantage-sh/vantage-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers 📍
+### 1303. [vantage-sh/vantage-mcp-server](https://github.com/vantage-sh/vantage-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers 📍
 
 **A tool for fetching and analyzing cloud cost and usage data from Vantage MCP Server.**
 
@@ -20060,7 +20001,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1308. [niyogi/render-mcp](https://github.com/niyogi/render-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1304. [niyogi/render-mcp](https://github.com/niyogi/render-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **An unofficial MCP server enabling developers to deploy and manage Render services via AI assistants.**
 
@@ -20076,7 +20017,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1309. [jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1305. [jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A powerful MCP server for automated access to LeetCode problems, solutions, and data with optional authentication.**
 
@@ -20092,7 +20033,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1310. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1306. [mladensu/cli-mcp-server](https://github.com/mladensu/cli-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure command-line interface for MCP clients with customizable security policies.**
 
@@ -20108,7 +20049,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1311. [micahman33/vonageaicodeassist](https://github.com/micahman33/vonageaicodeassist)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1307. [micahman33/vonageaicodeassist](https://github.com/micahman33/vonageaicodeassist)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A MCP server to assist developers in integrating Vonage API capabilities into applications using AI tools.**
 
@@ -20124,7 +20065,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1312. [trypeggy/instagram_dm_mcp](https://github.com/trypeggy/instagram_dm_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1308. [trypeggy/instagram_dm_mcp](https://github.com/trypeggy/instagram_dm_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based Instagram DM MCP server enabling secure and isolated communication between Instagram accounts.**
 
@@ -20140,7 +20081,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1313. [oxplot/snowflake-mcp](https://github.com/oxplot/snowflake-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1309. [oxplot/snowflake-mcp](https://github.com/oxplot/snowflake-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for querying Snowflake via stdio, enabling secure and efficient data access without storing credentials.**
 
@@ -20156,7 +20097,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1314. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1310. [baidu/mochow-mcp-server-python](https://github.com/baidu/mochow-mcp-server-python)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A context protocol server enabling integration with Mochow and supporting advanced AI model interactions.**
 
@@ -20172,7 +20113,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1315. [spences10/mcp-turso-cloud](https://github.com/spences10/mcp-turso-cloud)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1311. [spences10/mcp-turso-cloud](https://github.com/spences10/mcp-turso-cloud)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol server enabling secure, organized integration of Turso databases with LLMs.**
 
@@ -20188,7 +20129,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1316. [medsaad/mcp-db-navigator](https://github.com/medsaad/mcp-db-navigator)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1312. [medsaad/mcp-db-navigator](https://github.com/medsaad/mcp-db-navigator)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A powerful MySQL/MariaDB database navigation tool using MCP for secure and efficient querying.**
 
@@ -20204,7 +20145,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1317. [gevans3000/supabase-mcp](https://github.com/gevans3000/supabase-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1313. [gevans3000/supabase-mcp](https://github.com/gevans3000/supabase-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python-based Supabase MCP server enabling integration with large language models for AI-driven data operations.**
 
@@ -20220,7 +20161,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1318. [yangkyeongmo/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1314. [yangkyeongmo/mcp-server-apache-airflow](https://github.com/yangkyeongmo/mcp-server-apache-airflow)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A server implementation for Apache Airflow using the Model Context Protocol, enabling standardized integration with MCP clients.**
 
@@ -20236,7 +20177,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1319. [srobbin/opengov-mcp-server](https://github.com/srobbin/opengov-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
+### 1315. [srobbin/opengov-mcp-server](https://github.com/srobbin/opengov-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good 📍
 
 **A MCP server enabling secure, protocol-agnostic access to government and public datasets for AI-driven data analysis.**
 
@@ -20252,7 +20193,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1320. [omniwaifu/pydantic-ai-docs-server](https://github.com/omniwaifu/pydantic-ai-docs-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1316. [omniwaifu/pydantic-ai-docs-server](https://github.com/omniwaifu/pydantic-ai-docs-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A programmatic interface to access and manage Pydantic-AI documentation via Model Context Protocol.**
 
@@ -20268,7 +20209,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1321. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1317. [phil65/mcp-server-llmling](https://github.com/phil65/mcp-server-llmling)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A server for managing LLM contexts with YAML-based configuration and resource management.**
 
@@ -20284,7 +20225,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1322. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
+### 1318. [cameroncooke/xcodebuildmcp](https://github.com/cameroncooke/xcodebuildmcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers
 
 **A Model Context Protocol (MCP) server and CLI enabling AI-assisted coding for iOS and macOS projects.**
 
@@ -20300,7 +20241,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1323. [mustafahasankhan/duckdb-mcp-server](https://github.com/mustafahasankhan/duckdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1319. [mustafahasankhan/duckdb-mcp-server](https://github.com/mustafahasankhan/duckdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server for DuckDB with authentication and friendly SQL support out of the box.**
 
@@ -20316,7 +20257,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1324. [sulaiman013/powerbi-mcp](https://github.com/sulaiman013/powerbi-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1320. [sulaiman013/powerbi-mcp](https://github.com/sulaiman013/powerbi-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Power BI MCP Server enabling natural language interaction with Power BI datasets.**
 
@@ -20332,7 +20273,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1325. [vanderheijden86/moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1321. [vanderheijden86/moneybird-mcp-server](https://github.com/vanderheijden86/moneybird-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **AI-powered bookkeeping server enabling integration between AI assistants and Moneybird accounting software.**
 
@@ -20348,7 +20289,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1326. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1322. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A server-based solution for integrating ChromaDB into Cursor with MCP-compatible AI models.**
 
@@ -20364,7 +20305,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1327. [puremd/puremd-mcp](https://github.com/puremd/puremd-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1323. [puremd/puremd-mcp](https://github.com/puremd/puremd-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for MCP clients to unblock, scrape, and search web content efficiently.**
 
@@ -20380,7 +20321,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1328. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1324. [stackloklabs/ocireg-mcp](https://github.com/stackloklabs/ocireg-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **An MCP server enabling LLM-powered applications to query OCI registries and image references.**
 
@@ -20396,7 +20337,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1329. [alexgoller/illumio-mcp-server](https://github.com/alexgoller/illumio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1325. [alexgoller/illumio-mcp-server](https://github.com/alexgoller/illumio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A developer platform for managing and securing cloud infrastructure services via MCP integration.**
 
@@ -20412,7 +20353,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1330. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1326. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for Jira API enabling LLMs to interact with Jira.**
 
@@ -20428,7 +20369,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1331. [philogicae/rqbit-mcp](https://github.com/philogicae/rqbit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1327. [philogicae/rqbit-mcp](https://github.com/philogicae/rqbit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python wrapper and MCP server for integrating rqbit into applications, enabling seamless torrent management.**
 
@@ -20444,7 +20385,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1332. [vikrant-khedkar/api-tester-mcp](https://github.com/vikrant-khedkar/api-tester-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1328. [vikrant-khedkar/api-tester-mcp](https://github.com/vikrant-khedkar/api-tester-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server enabling automated API testing and integration with OpenAI models.**
 
@@ -20460,7 +20401,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1333. [am2rican5/mcp-google-calendar](https://github.com/am2rican5/mcp-google-calendar)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1329. [am2rican5/mcp-google-calendar](https://github.com/am2rican5/mcp-google-calendar)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server integrating with Google Calendar via OAuth 2.0, enabling calendar operations and real-time updates.**
 
@@ -20476,7 +20417,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1334. [hachecito/odoo-mcp-improved](https://github.com/hachecito/odoo-mcp-improved)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1330. [hachecito/odoo-mcp-improved](https://github.com/hachecito/odoo-mcp-improved)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **Odoo MCP Improved extends Odoo ERP with advanced tools for sales, stock, and analytics.**
 
@@ -20492,7 +20433,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1335. [delorenj/mcp-server-ticketmaster](https://github.com/delorenj/mcp-server-ticketmaster)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1331. [delorenj/mcp-server-ticketmaster](https://github.com/delorenj/mcp-server-ticketmaster)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server enabling integration with the Ticketmaster Discovery API for programmatic event and venue discovery.**
 
@@ -20508,7 +20449,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1336. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1332. [nearai/near-mcp](https://github.com/nearai/near-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) compatible server for securely interacting with NEAR blockchain.**
 
@@ -20524,7 +20465,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1337. [stefans71/wordpress-mcp-server](https://github.com/stefans71/wordpress-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1333. [stefans71/wordpress-mcp-server](https://github.com/stefans71/wordpress-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server enabling automated WordPress interactions via JSON-RPC for developers and integrators.**
 
@@ -20540,7 +20481,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1338. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1334. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server enabling seamless integration and management of OpenRouter.ai models for AI-driven applications.**
 
@@ -20556,7 +20497,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1339. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1335. [suixinlei/tongyi-wanx-mcp-server](https://github.com/suixinlei/tongyi-wanx-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A TypeScript-based MCP server enabling integration with large language models for AI-generated images and videos.**
 
@@ -20572,7 +20513,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1340. [sichang824/mcp-figma](https://github.com/sichang824/mcp-figma)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1336. [sichang824/mcp-figma](https://github.com/sichang824/mcp-figma)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Figma API server implementation based on Model Context Protocol (MCP), supporting plugin and widget integration.**
 
@@ -20588,7 +20529,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1341. [peng-shawn/mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
+### 1337. [peng-shawn/mermaid-mcp-server](https://github.com/peng-shawn/mermaid-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
 
 **A model context protocol server that converts Mermaid diagrams into high-quality PNG or SVG images for AI and developer use.**
 
@@ -20604,7 +20545,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1342. [thesethrose/fetch-browser](https://github.com/thesethrose/fetch-browser)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 1338. [thesethrose/fetch-browser](https://github.com/thesethrose/fetch-browser)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A headless browser MCP server enabling AI agents to fetch web content and perform Google searches without API keys.**
 
@@ -20620,7 +20561,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1343. [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1339. [eyalzh/browser-control-mcp](https://github.com/eyalzh/browser-control-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A browser extension paired with an MCP server that enables AI agents to control a user's browser.**
 
@@ -20636,7 +20577,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1344. [dknell/mcp-system-info](https://github.com/dknell/mcp-system-info)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1340. [dknell/mcp-system-info](https://github.com/dknell/mcp-system-info)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A system information MCP server providing real-time metrics via Model Context Protocol.**
 
@@ -20652,7 +20593,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1345. [liujilongobject/mcp-host-use](https://github.com/liujilongobject/mcp-host-use)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1341. [liujilongobject/mcp-host-use](https://github.com/liujilongobject/mcp-host-use)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A simple and easy-to-use MCP Host CLI Tool for managing multiple MCP servers via a unified HTTP API.**
 
@@ -20668,7 +20609,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1346. [tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1342. [tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Salesforce MCP Server extension enabling natural language interactions with Salesforce data and metadata.**
 
@@ -20684,7 +20625,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1347. [idoru/influxdb-mcp-server](https://github.com/idoru/influxdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1343. [idoru/influxdb-mcp-server](https://github.com/idoru/influxdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A modular InfluxDB MCP Server enabling querying and management of time-series data using the Line Protocol.**
 
@@ -20700,7 +20641,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1348. [lishenxydlgzs/aws-athena-mcp](https://github.com/lishenxydlgzs/aws-athena-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1344. [lishenxydlgzs/aws-athena-mcp](https://github.com/lishenxydlgzs/aws-athena-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg MCP server enabling AI assistants to execute and manage AWS Athena queries.**
 
@@ -20716,7 +20657,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1349. [seansoreilly/mcp-server-abs](https://github.com/seansoreilly/mcp-server-abs)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1345. [seansoreilly/mcp-server-abs](https://github.com/seansoreilly/mcp-server-abs)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling AI assistants to query and analyze Australian Bureau of Statistics data via the SDMX-ML API.**
 
@@ -20732,7 +20673,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1350. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1346. [esh2n/mcp-servers](https://github.com/esh2n/mcp-servers)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **MCP servers extending AI model capabilities with tools and resources via the Model Context Protocol.**
 
@@ -20748,7 +20689,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1351. [bigsy/maven-mcp-server](https://github.com/bigsy/maven-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1347. [bigsy/maven-mcp-server](https://github.com/bigsy/maven-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for checking and managing Maven dependency versions, enhancing CI/CD and DevOps workflows.**
 
@@ -20764,7 +20705,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1352. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1348. [syucream/lightdash-mcp-server](https://github.com/syucream/lightdash-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP-compatible server enabling AI assistants to interact with Lightdash data via standardized API.**
 
@@ -20780,7 +20721,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1353. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1349. [x-lab2017/open-digger-mcp-server](https://github.com/x-lab2017/open-digger-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **OpenDigger MCP Server enables advanced repository analytics and insights through tools and prompts.**
 
@@ -20796,7 +20737,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1354. [bhouston/mcp-server-text-editor](https://github.com/bhouston/mcp-server-text-editor)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 1350. [bhouston/mcp-server-text-editor](https://github.com/bhouston/mcp-server-text-editor)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **An open-source implementation of Claude's built-in text editor as a Model Context Protocol server, enabling file operations and AI-assisted editing.**
 
@@ -20812,7 +20753,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1355. [psalzman/mcp-openfec](https://github.com/psalzman/mcp-openfec)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1351. [psalzman/mcp-openfec](https://github.com/psalzman/mcp-openfec)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol server enabling access to FEC campaign finance data via the OpenFEC API.**
 
@@ -20828,7 +20769,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1356. [hrishi0102/payman_mcp](https://github.com/hrishi0102/payman_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1352. [hrishi0102/payman_mcp](https://github.com/hrishi0102/payman_mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A context-aware MCP server enabling secure, isolated payment operations for AI assistants.**
 
@@ -20844,7 +20785,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1357. [crazyrabbitltc/mcp-etherscan-server](https://github.com/crazyrabbitltc/mcp-etherscan-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1353. [crazyrabbitltc/mcp-etherscan-server](https://github.com/crazyrabbitltc/mcp-etherscan-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **An MCP server integrating Ethereum blockchain data via Etherscan API for developers.**
 
@@ -20860,7 +20801,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1358. [watchdealer-pavel/watchbase-mcp-server](https://github.com/watchdealer-pavel/watchbase-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1354. [watchdealer-pavel/watchbase-mcp-server](https://github.com/watchdealer-pavel/watchbase-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer-focused platform for querying structured watch metadata from WatchBase using the MCP Server.**
 
@@ -20876,7 +20817,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1359. [krekun/vrchat-mcp-osc](https://github.com/krekun/vrchat-mcp-osc)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1355. [krekun/vrchat-mcp-osc](https://github.com/krekun/vrchat-mcp-osc)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **VRChat MCP OSC enables AI assistants to control avatars and interact in VRChat using the Model Context Protocol.**
 
@@ -20892,7 +20833,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1360. [tan-yong-sheng/triliumnext-mcp](https://github.com/tan-yong-sheng/triliumnext-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1356. [tan-yong-sheng/triliumnext-mcp](https://github.com/tan-yong-sheng/triliumnext-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A prototype MCP server for TriliumNext Notes, enabling advanced note management and integration with AI tools.**
 
@@ -20908,7 +20849,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1361. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1357. [wangtsiao/pulse-cn-mcp](https://github.com/wangtsiao/pulse-cn-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server that provides real-time trending content from Chinese internet sources using the Model Context Protocol.**
 
@@ -20924,7 +20865,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1362. [pinkpixel-dev/prysm-mcp-server](https://github.com/pinkpixel-dev/prysm-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1358. [pinkpixel-dev/prysm-mcp-server](https://github.com/pinkpixel-dev/prysm-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Prysm MCP Server provides AI assistant web scraping tools with multiple modes and flexible output formats.**
 
@@ -20940,7 +20881,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1363. [auth0/auth0-mcp-server](https://github.com/auth0/auth0-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1359. [auth0/auth0-mcp-server](https://github.com/auth0/auth0-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Integration of Auth0 MCP Server with LLMs and AI agents to automate Auth0 management tasks using natural language.**
 
@@ -20956,7 +20897,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1364. [raoulbia-ai/mcp-server-for-intercom](https://github.com/raoulbia-ai/mcp-server-for-intercom)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1360. [raoulbia-ai/mcp-server-for-intercom](https://github.com/raoulbia-ai/mcp-server-for-intercom)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **An MCP-compliant server enabling AI assistants to access and analyze customer support data from Intercom.**
 
@@ -20972,7 +20913,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1365. [koundinya/zd-mcp-server](https://github.com/koundinya/zd-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1361. [koundinya/zd-mcp-server](https://github.com/koundinya/zd-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Zendesk MCP Server enabling conversational AI for seamless ticket management and support workflows.**
 
@@ -20988,7 +20929,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1366. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1362. [jorekai/db-timetable-mcp](https://github.com/jorekai/db-timetable-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Ein Model Context Protocol (MCP) Server for accessing Deutsche Bahn timetable data.**
 
@@ -21004,7 +20945,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1367. [ko1ynnky/github-actions-mcp-server](https://github.com/ko1ynnky/github-actions-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1363. [ko1ynnky/github-actions-mcp-server](https://github.com/ko1ynnky/github-actions-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A GitHub Actions MCP Server enabling AI assistants to manage and execute GitHub Actions workflows.**
 
@@ -21020,7 +20961,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1368. [jinzcdev/markmap-mcp-server](https://github.com/jinzcdev/markmap-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1364. [jinzcdev/markmap-mcp-server](https://github.com/jinzcdev/markmap-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool for converting Markdown text into interactive mind maps with support for exporting in multiple formats.**
 
@@ -21036,7 +20977,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1369. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1365. [eternnoir/aistudio-mcp-server](https://github.com/eternnoir/aistudio-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A powerful server integrating Google AI Studio with Gemini API for advanced multi-modal content processing.**
 
@@ -21052,7 +20993,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1370. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1366. [ronniemh/phrases-mcp-server](https://github.com/ronniemh/phrases-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Servidor MCP elegante y eficiente para gestionar frases inspiradoras, integrándose con Claude for Desktop.**
 
@@ -21068,7 +21009,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1371. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1367. [paablolc/mcp-hacker-news](https://github.com/paablolc/mcp-hacker-news)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A MCP server bridging Hacker News API with AI tools for seamless integration.**
 
@@ -21084,7 +21025,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1372. [bmorphism/slowtime-mcp-server](https://github.com/bmorphism/slowtime-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1368. [bmorphism/slowtime-mcp-server](https://github.com/bmorphism/slowtime-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure time-based operations server with timing attack protection and timelock encryption for sensitive data.**
 
@@ -21100,7 +21041,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1373. [ruchernchong/mcp-server-google-analytics](https://github.com/ruchernchong/mcp-server-google-analytics)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1369. [ruchernchong/mcp-server-google-analytics](https://github.com/ruchernchong/mcp-server-google-analytics)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server implementation for accessing and analyzing Google Analytics data using the Model Context Protocol SDK.**
 
@@ -21116,7 +21057,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1374. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1370. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol (MCP) server that aids Frappe/ERPNext development with AI assistance.**
 
@@ -21132,7 +21073,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1375. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1371. [bielacki/igdb-mcp-server](https://github.com/bielacki/igdb-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Borg intelligence database server enabling seamless access to IGDB API for AI assistants.**
 
@@ -21148,7 +21089,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1376. [pinkpixel-dev/web-scout-mcp](https://github.com/pinkpixel-dev/web-scout-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1372. [pinkpixel-dev/web-scout-mcp](https://github.com/pinkpixel-dev/web-scout-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A powerful MCP server extension integrating DuckDuckGo search and content extraction for AI assistants.**
 
@@ -21164,7 +21105,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1377. [axiomhq/mcp](https://github.com/axiomhq/mcp)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 1373. [axiomhq/mcp](https://github.com/axiomhq/mcp)  `8.6` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **Axiom MCP Server connects AI assistants to Axiom observability data using the Model Context Protocol for intelligent insights.**
 
@@ -21180,7 +21121,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1378. [UI5/mcp-server](https://github.com/UI5/mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1374. [UI5/mcp-server](https://github.com/UI5/mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **UI5 MCP server enhances the developer experience for agentic AI and UI5 framework development.**
 
@@ -21196,7 +21137,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1379. [tdnupe3/mcp-server-coinrailz](https://github.com/tdnupe3/mcp-server-coinrailz)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1375. [tdnupe3/mcp-server-coinrailz](https://github.com/tdnupe3/mcp-server-coinrailz)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A platform enabling Claude to access real-time blockchain and crypto data via Coin Railz's x402 infrastructure.**
 
@@ -21212,7 +21153,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1380. [maksimsarychau/mcp-zebrunner](https://github.com/maksimsarychau/mcp-zebrunner)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1376. [maksimsarychau/mcp-zebrunner](https://github.com/maksimsarychau/mcp-zebrunner)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server integrating with Zebrunner to enhance QA workflows with AI assistants.**
 
@@ -21228,7 +21169,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1381. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1377. [ChanMeng666/server-google-news](https://github.com/ChanMeng666/server-google-news)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP server enabling AI-driven Google News search with multilingual support and structured data output.**
 
@@ -21243,7 +21184,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1382. [mattjoyce/senechal-mcp](https://github.com/mattjoyce/senechal-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1378. [mattjoyce/senechal-mcp](https://github.com/mattjoyce/senechal-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A companion MCP server for the Senechal project, enabling LLMs to access health data from Senechal API.**
 
@@ -21258,7 +21199,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1383. [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1379. [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A cloud-based MCP server for managing Discogs music catalog operations, search functionality, and data editing.**
 
@@ -21273,7 +21214,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1384. [mendableai/firecrawl-mcp-server](https://github.com/mendableai/firecrawl-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
+### 1380. [mendableai/firecrawl-mcp-server](https://github.com/mendableai/firecrawl-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗3 layers
 
 **Firecrawl MCP Server integrates web scraping and search capabilities into Cursor, Claude, and other LLM clients for enhanced data retrieval.**
 
@@ -21288,7 +21229,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1385. [felixallistar/coolify-mcp](https://github.com/felixallistar/coolify-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1381. [felixallistar/coolify-mcp](https://github.com/felixallistar/coolify-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for managing Coolify deployments with AI integration and CLI tools.**
 
@@ -21303,7 +21244,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1386. [devizor/macos-notification-mcp](https://github.com/devizor/macos-notification-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1382. [devizor/macos-notification-mcp](https://github.com/devizor/macos-notification-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A tool enabling AI assistants to trigger native macOS notifications, sounds, and text-to-speech using the Model Context Protocol.**
 
@@ -21318,7 +21259,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1387. [hagaihen/facebook-mcp-server](https://github.com/hagaihen/facebook-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1383. [hagaihen/facebook-mcp-server](https://github.com/hagaihen/facebook-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A MCP server for automating posts, comment moderation, insights, and sentiment filtering on Facebook pages.**
 
@@ -21333,7 +21274,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1388. [mz462/mcppaylocity](https://github.com/mz462/mcppaylocity)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1384. [mz462/mcppaylocity](https://github.com/mz462/mcppaylocity)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A software solution for integrating Paylocity APIs into Borg workflows, enabling secure and efficient data exchange.**
 
@@ -21348,7 +21289,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1389. [appwrite/mcp](https://github.com/appwrite/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1385. [appwrite/mcp](https://github.com/appwrite/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for managing Appwrite APIs, enabling backend automation and workflow orchestration.**
 
@@ -21363,7 +21304,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1390. [teradata/teradata-mcp-server](https://github.com/teradata/teradata-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1386. [teradata/teradata-mcp-server](https://github.com/teradata/teradata-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **Teradata MCP Server provides tools and prompts to enable agentic applications for efficient data querying, analysis, and management.**
 
@@ -21378,7 +21319,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1391. [kruskal-labs/toolfront](https://github.com/kruskal-labs/toolfront)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1387. [kruskal-labs/toolfront](https://github.com/kruskal-labs/toolfront)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A platform enabling AI agents to interact with shared data apps via secure, shareable interfaces.**
 
@@ -21393,7 +21334,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1392. [malove86/mcp-mysql-server](https://github.com/malove86/mcp-mysql-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1388. [malove86/mcp-mysql-server](https://github.com/malove86/mcp-mysql-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MySQL database server enabling secure, standardized API interactions for AI model operations.**
 
@@ -21408,7 +21349,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1393. [aliyun/alibabacloud-hologres-mcp-server](https://github.com/aliyun/alibabacloud-hologres-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1389. [aliyun/alibabacloud-hologres-mcp-server](https://github.com/aliyun/alibabacloud-hologres-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A cloud-based Hologres MCP Server project enabling AI agents to interact with Hologres databases through a unified interface.**
 
@@ -21423,7 +21364,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1394. [aliyun/alibabacloud-lindorm-mcp-server](https://github.com/aliyun/alibabacloud-lindorm-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1390. [aliyun/alibabacloud-lindorm-mcp-server](https://github.com/aliyun/alibabacloud-lindorm-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP server for managing and deploying AI models, enabling automated workflows and intelligent application development.**
 
@@ -21438,7 +21379,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1395. [semcp/mcp-sinstaller](https://github.com/semcp/mcp-sinstaller)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1391. [semcp/mcp-sinstaller](https://github.com/semcp/mcp-sinstaller)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server installer that automates the installation and containerization of other MCP servers from GitHub repositories.**
 
@@ -21453,7 +21394,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1396. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1392. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A modular MCP server for PowerPoint manipulation using Python, enabling advanced presentation creation, editing, and management.**
 
@@ -21468,7 +21409,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1397. [yzfly/mcp-excel-server](https://github.com/yzfly/mcp-excel-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1393. [yzfly/mcp-excel-server](https://github.com/yzfly/mcp-excel-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A developer-focused Excel MCP server enabling natural language interaction with Excel files.**
 
@@ -21483,7 +21424,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1398. [cognitive-stack/volume-wall-detector-mcp](https://github.com/cognitive-stack/volume-wall-detector-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1394. [cognitive-stack/volume-wall-detector-mcp](https://github.com/cognitive-stack/volume-wall-detector-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **Volume Wall Detector MCP provides real-time stock volume analysis and imbalance tracking using the Model Context Protocol.**
 
@@ -21498,7 +21439,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1399. [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1395. [truss44/mcp-crypto-price](https://github.com/truss44/mcp-crypto-price)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Model Context Protocol (MCP) server that provides real-time cryptocurrency analysis via CoinCap's API.**
 
@@ -21513,7 +21454,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1400. [vinnividivicci/wave_mcp](https://github.com/vinnividivicci/wave_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1396. [vinnividivicci/wave_mcp](https://github.com/vinnividivicci/wave_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A cloud-based MCP server integrating Claude with Wave Accounting to automate expense and income tracking.**
 
@@ -21528,7 +21469,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1401. [121yaseen/zerodha-mcp](https://github.com/121yaseen/zerodha-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1397. [121yaseen/zerodha-mcp](https://github.com/121yaseen/zerodha-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **This project implements a MCP server that enables secure, automated stock trading interactions with the Zerodha Kite API.**
 
@@ -21543,7 +21484,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1402. [square/square-mcp-server](https://github.com/square/square-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1398. [square/square-mcp-server](https://github.com/square/square-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Model Context Protocol (MCP) server enabling AI assistants to interact with Square's connect API for seamless integration.**
 
@@ -21558,7 +21499,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1403. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1399. [dweigend/joplin-mcp-server](https://github.com/dweigend/joplin-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling secure note access and integration with AI assistants.**
 
@@ -21573,7 +21514,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1404. [kajirita2002/honeycomb-mcp-server](https://github.com/kajirita2002/honeycomb-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1400. [kajirita2002/honeycomb-mcp-server](https://github.com/kajirita2002/honeycomb-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **This MCP server enables secure integration between Claude AI and Honeycomb APIs for enhanced observability.**
 
@@ -21588,7 +21529,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1405. [sammcj/mcp-data-extractor](https://github.com/sammcj/mcp-data-extractor)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1401. [sammcj/mcp-data-extractor](https://github.com/sammcj/mcp-data-extractor)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A model context protocol server that extracts embedded data from TypeScript/JavaScript source code into structured JSON configuration files.**
 
@@ -21603,7 +21544,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1406. [zizzfizzix/mcp-server-bwt](https://github.com/zizzfizzix/mcp-server-bwt)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1402. [zizzfizzix/mcp-server-bwt](https://github.com/zizzfizzix/mcp-server-bwt)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **Borg Project's MCP server enables secure interaction between AI assistants and Bing Webmaster Tools API.**
 
@@ -21618,7 +21559,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1407. [rugvedp/linkedin-mcp](https://github.com/rugvedp/linkedin-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1403. [rugvedp/linkedin-mcp](https://github.com/rugvedp/linkedin-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A powerful LinkedIn profile analyzer MCP server that interacts with LinkedIn's API to fetch, analyze, and manage LinkedIn posts data.**
 
@@ -21633,7 +21574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1408. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1404. [deshabhishek007/domain-tools-mcp-server](https://github.com/deshabhishek007/domain-tools-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server for comprehensive domain analysis including WHOIS, DNS records, and DNS health checks.**
 
@@ -21648,7 +21589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1409. [the0807/geeknews-mcp-server](https://github.com/the0807/geeknews-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1405. [the0807/geeknews-mcp-server](https://github.com/the0807/geeknews-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based GeekNews MCP Server that scrapes articles from the website and caches them to reduce server load.**
 
@@ -21663,7 +21604,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1410. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1406. [alizdavoodi/mcpdocsearch](https://github.com/alizdavoodi/mcpdocsearch)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A toolset for crawling documentation sites, generating Markdown, and enabling searchable indexing via MCP protocol.**
 
@@ -21678,7 +21619,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1411. [bornpresident/volatility-mcp-server](https://github.com/bornpresident/volatility-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1407. [bornpresident/volatility-mcp-server](https://github.com/bornpresident/volatility-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg-based MCP server integrating Volatility 3 with Claude for natural language memory forensics.**
 
@@ -21693,7 +21634,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1412. [cristip73/mcp-server-asana](https://github.com/cristip73/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1408. [cristip73/mcp-server-asana](https://github.com/cristip73/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server-asana integration enabling AI-driven interaction with Asana APIs for task, project, and workflow management.**
 
@@ -21708,7 +21649,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1413. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1409. [amanasmuei/mcp-server-malaysia-prayer-time](https://github.com/amanasmuei/mcp-server-malaysia-prayer-time)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol server providing accurate Islamic prayer times for Malaysia via real-time API integration.**
 
@@ -21723,7 +21664,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1414. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1410. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Integrates PyMOL with Claude AI via MCP protocol for intelligent molecular visualization and analysis.**
 
@@ -21738,7 +21679,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1415. [kajirita2002/esa-mcp-server](https://github.com/kajirita2002/esa-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1411. [kajirita2002/esa-mcp-server](https://github.com/kajirita2002/esa-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A web-based interface for interacting with the ESA API using Claude AI, enabling document management and automation.**
 
@@ -21753,7 +21694,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1416. [qainsights/jmeter-mcp-server](https://github.com/qainsights/jmeter-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1412. [qainsights/jmeter-mcp-server](https://github.com/qainsights/jmeter-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server enabling AI-driven execution and analysis of JMeter tests.**
 
@@ -21768,7 +21709,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1417. [mberg/kokoro-tts-mcp](https://github.com/mberg/kokoro-tts-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1413. [mberg/kokoro-tts-mcp](https://github.com/mberg/kokoro-tts-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **Kokoro Text to Speech MCP Server enabling local and optional S3 file storage with customizable voice, speed, and language.**
 
@@ -21783,7 +21724,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1418. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1414. [takumiy235/uniprot-mcp-server](https://github.com/takumiy235/uniprot-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **MCP server for UniProt protein data access enabling AI assistants to fetch protein information.**
 
@@ -21798,7 +21739,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1419. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1415. [jeffreygroneberg/mcp-fiar](https://github.com/jeffreygroneberg/mcp-fiar)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Spring Boot-based Model Context Protocol (MCP) server enabling interaction with GitHub Copilot for AI-assisted game development.**
 
@@ -21813,7 +21754,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1420. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1416. [hiretechupup/mcp-server-novacv](https://github.com/hiretechupup/mcp-server-novacv)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **MCP Server for NovaCV API integration, enabling secure access to job application context protocols.**
 
@@ -21828,7 +21769,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1421. [microsoft/clarity-mcp-server](https://github.com/microsoft/clarity-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1417. [microsoft/clarity-mcp-server](https://github.com/microsoft/clarity-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling secure, isolated access to Microsoft Clarity analytics and session data.**
 
@@ -21843,7 +21784,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1422. [mario-andreschak/mcp_video_recognition](https://github.com/mario-andreschak/mcp_video_recognition)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1418. [mario-andreschak/mcp_video_recognition](https://github.com/mario-andreschak/mcp_video_recognition)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A cloud-based MCP video recognition server leveraging Google Gemini AI for image, audio, and video analysis.**
 
@@ -21858,7 +21799,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1423. [apify/mcp-server-rag-web-browser](https://github.com/apify/mcp-server-rag-web-browser)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1419. [apify/mcp-server-rag-web-browser](https://github.com/apify/mcp-server-rag-web-browser)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server for the RAG Web Browser Actor that enables AI agents and LLMs to interact with web content in real-time.**
 
@@ -21873,7 +21814,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1424. [mario-andreschak/mcp-windows-desktop-automation](https://github.com/mario-andreschak/mcp-windows-desktop-automation)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
+### 1420. [mario-andreschak/mcp-windows-desktop-automation](https://github.com/mario-andreschak/mcp-windows-desktop-automation)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server for Windows desktop automation using AutoIt, enabling LLM applications to execute tasks via MCP.**
 
@@ -21888,7 +21829,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1425. [turlockmike/apple-notifier-mcp](https://github.com/turlockmike/apple-notifier-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1421. [turlockmike/apple-notifier-mcp](https://github.com/turlockmike/apple-notifier-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A macOS notification server that enables native notifications and integrates with MCP for cross-platform communication.**
 
@@ -21903,7 +21844,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1426. [popcornspace/voice-call-mcp-server](https://github.com/popcornspace/voice-call-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1422. [popcornspace/voice-call-mcp-server](https://github.com/popcornspace/voice-call-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **Voice Call MCP Server enabling AI assistants to initiate and manage voice calls using Twilio and OpenAI.**
 
@@ -21918,7 +21859,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1427. [ubie-oss/slack-mcp-server](https://github.com/ubie-oss/slack-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1423. [ubie-oss/slack-mcp-server](https://github.com/ubie-oss/slack-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Slack MCP server enabling AI assistants to interact with Slack API for automation and integration.**
 
@@ -21933,7 +21874,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1428. [roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1424. [roychri/mcp-server-asana](https://github.com/roychri/mcp-server-asana)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Borg server-asana integration enabling AI-driven interaction with Asana API for task, project, and workflow management.**
 
@@ -21948,7 +21889,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1429. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1425. [hosakakeigo/spreadsheet-mcp-server](https://github.com/hosakakeigo/spreadsheet-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A server-based solution for accessing and manipulating Google Spreadsheet data via Model Context Protocol (MCP) integration.**
 
@@ -21963,7 +21904,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1430. [joshthederf/directus-extension-mcp](https://github.com/joshthederf/directus-extension-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1426. [joshthederf/directus-extension-mcp](https://github.com/joshthederf/directus-extension-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **Integration of Directus with AI tools via MCP extension for seamless data interaction.**
 
@@ -21978,7 +21919,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1431. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
+### 1427. [miniorangedev/wp-code-review-mcp-server](https://github.com/miniorangedev/wp-code-review-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗5 layers
 
 **A lightweight MCP server for fetching and enforcing coding guidelines, security rules, and validation patterns from external sources.**
 
@@ -21993,7 +21934,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1432. [ducthinh993/mcp-server-endoflife](https://github.com/ducthinh993/mcp-server-endoflife)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1428. [ducthinh993/mcp-server-endoflife](https://github.com/ducthinh993/mcp-server-endoflife)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol server enabling AI assistants to check software end-of-life and security status.**
 
@@ -22008,7 +21949,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1433. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1429. [gongrzhe/json-mcp-server](https://github.com/gongrzhe/json-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A JSON model context protocol server enabling LLMs to interact with structured JSON data through standardized tools.**
 
@@ -22023,7 +21964,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1434. [inditextech/mcp-server-simulator-ios-idb](https://github.com/inditextech/mcp-server-simulator-ios-idb)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1430. [inditextech/mcp-server-simulator-ios-idb](https://github.com/inditextech/mcp-server-simulator-ios-idb)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling LLMs to interact with iOS simulators via natural language commands.**
 
@@ -22038,7 +21979,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1435. [webconsulting/mcp-server-wsl-filesystem](https://github.com/webconsulting/mcp-server-wsl-filesystem)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1431. [webconsulting/mcp-server-wsl-filesystem](https://github.com/webconsulting/mcp-server-wsl-filesystem)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Borg-focused filesystem MCP server optimized for WSL distributions, enabling seamless cross-platform file access and management.**
 
@@ -22053,7 +21994,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1436. [0xobedient/okx-mcp](https://github.com/0xobedient/okx-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1432. [0xobedient/okx-mcp](https://github.com/0xobedient/okx-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **An SSE-based MCP server built on OKX SDK for Solana, enabling DEX trading and cross-chain bridge operations.**
 
@@ -22068,7 +22009,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1437. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1433. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **An MCP server enabling secure, automated trading interactions with the Recall Multi-Chain Trading Simulator.**
 
@@ -22083,7 +22024,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1438. [deshartman/twilio-agent-payments-mcp-server](https://github.com/deshartman/twilio-agent-payments-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1434. [deshartman/twilio-agent-payments-mcp-server](https://github.com/deshartman/twilio-agent-payments-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A secure, AI-powered payments server integrating Twilio Agent Payments MCP for asynchronous voice-based transactions.**
 
@@ -22098,7 +22039,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1439. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1435. [lpbayliss/server-dice-roll](https://github.com/lpbayliss/server-dice-roll)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP server for simulating dice rolls with support for standard and Fate/Fudge dice notation.**
 
@@ -22113,7 +22054,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1440. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 1436. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Python-based MCP client designed for secure, multi-server communication to integrate external weather data services.**
 
@@ -22128,7 +22069,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1441. [geli2001/datadog-mcp-server](https://github.com/geli2001/datadog-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1437. [geli2001/datadog-mcp-server](https://github.com/geli2001/datadog-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A powerful MCP server for seamless integration with Datadog API, enabling monitoring, metrics, and incident management.**
 
@@ -22143,7 +22084,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1442. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1438. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A model context protocol server for YouTube videos enabling metadata extraction, caption handling, and markdown conversion.**
 
@@ -22158,7 +22099,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1443. [mjpitz/mcp-rfc](https://github.com/mjpitz/mcp-rfc)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1439. [mjpitz/mcp-rfc](https://github.com/mjpitz/mcp-rfc)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A developer-focused MCP server for programmatically fetching, parsing, and managing RFC documents.**
 
@@ -22173,7 +22114,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1444. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
+### 1440. [arborist-ai/claudehopper](https://github.com/arborist-ai/claudehopper)  `8.5` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
 
 **A macOS application that manages Model Context Protocol (MCP) servers for Claude Desktop, enabling AI-driven interaction with construction documents.**
 
@@ -22188,7 +22129,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1445. [privilegemendes/amadeus-mcp-server-standalone](https://github.com/privilegemendes/amadeus-mcp-server-standalone)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1441. [privilegemendes/amadeus-mcp-server-standalone](https://github.com/privilegemendes/amadeus-mcp-server-standalone)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Model Context Protocol server enabling integration with external APIs for AI assistants.**
 
@@ -22203,7 +22144,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1446. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1442. [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A model context protocol server for interacting with Quran.com API to search verses, translations, and tafsirs.**
 
@@ -22218,7 +22159,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1447. [crazyrabbitltc/mpc-tally-api-server](https://github.com/crazyrabbitltc/mpc-tally-api-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1443. [crazyrabbitltc/mpc-tally-api-server](https://github.com/crazyrabbitltc/mpc-tally-api-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol server enabling AI agents to interact with the Tally API for DAO governance data.**
 
@@ -22233,7 +22174,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1448. [jacobgoren-sb/workato-mcp-server](https://github.com/jacobgoren-sb/workato-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1444. [jacobgoren-sb/workato-mcp-server](https://github.com/jacobgoren-sb/workato-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server for integrating AI tools with Workato APIs, enabling automation and workflow management.**
 
@@ -22248,7 +22189,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1449. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1445. [milkosten/task-mcp-server](https://github.com/milkosten/task-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A MCP Task Server implementation for task management using the Model Context Protocol, supporting both CLI and web interfaces.**
 
@@ -22263,7 +22204,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1450. [bendusy/pollinations-mcp](https://github.com/bendusy/pollinations-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1446. [bendusy/pollinations-mcp](https://github.com/bendusy/pollinations-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A server implementation enabling AI model integration with Pollinations.ai via MCP protocol, supporting image and text generation.**
 
@@ -22278,7 +22219,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1451. [cyanheads/mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 1447. [cyanheads/mentor-mcp-server](https://github.com/cyanheads/mentor-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol server providing LLM agents AI-powered second opinions via Deepseek-Reasoning R1.**
 
@@ -22293,7 +22234,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1452. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1448. [grovesjosephn/pokemcp](https://github.com/grovesjosephn/pokemcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A monorepo-based system for managing and processing Pokémon data via Model Context Protocol (MCP) server and SQLite database.**
 
@@ -22308,7 +22249,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1453. [boldcommerce/magento2-mcp](https://github.com/boldcommerce/magento2-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1449. [boldcommerce/magento2-mcp](https://github.com/boldcommerce/magento2-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling integration between Magento 2 and Claude Desktop for product data exchange.**
 
@@ -22323,7 +22264,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1454. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1450. [kshern/image-tools-mcp](https://github.com/kshern/image-tools-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) service for retrieving image dimensions and compressing images from URLs and local files.**
 
@@ -22338,7 +22279,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1455. [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1451. [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A model context protocol server enabling AI integration with TikTok Ads API for campaign management and analytics.**
 
@@ -22353,7 +22294,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1456. [withinfocus/tba-mcp-server](https://github.com/withinfocus/tba-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1452. [withinfocus/tba-mcp-server](https://github.com/withinfocus/tba-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A server-based platform enabling AI assistants and MCP clients to access comprehensive FRC competition data for The Blue Alliance.**
 
@@ -22368,7 +22309,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1457. [savhascelik/meta-api-mcp-server](https://github.com/savhascelik/meta-api-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1453. [savhascelik/meta-api-mcp-server](https://github.com/savhascelik/meta-api-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A user-friendly editor tool for creating and editing JSON configuration files to integrate with Meta API MCP Server.**
 
@@ -22383,7 +22324,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1458. [FusionAuth/fusionauth-mcp-api](https://github.com/FusionAuth/fusionauth-mcp-api)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 1454. [FusionAuth/fusionauth-mcp-api](https://github.com/FusionAuth/fusionauth-mcp-api)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A preview implementation of the FusionAuth API MCP server for integration with the FusionAuth API.**
 
@@ -22398,7 +22339,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1459. [ignission-io/mcp](https://github.com/ignission-io/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1455. [ignission-io/mcp](https://github.com/ignission-io/mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A developer platform for content creators and businesses on TikTok, enabling integration with external tools and workflows.**
 
@@ -22413,7 +22354,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1460. [onkernel/kernel-mcp-server](https://github.com/onkernel/kernel-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1456. [onkernel/kernel-mcp-server](https://github.com/onkernel/kernel-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A secure, open-source MCP server enabling AI assistants to interact with Kernel platform tools and browser automation securely.**
 
@@ -22428,7 +22369,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1461. [mia-platform/console-mcp-server](https://github.com/mia-platform/console-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 1457. [mia-platform/console-mcp-server](https://github.com/mia-platform/console-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A Model Context Protocol server enabling automation and integration with Mia-Platform APIs.**
 
@@ -22443,7 +22384,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1462. [domdomegg/google-contacts-mcp.git](https://github.com/domdomegg/google-contacts-mcp.git)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 1458. [domdomegg/google-contacts-mcp.git](https://github.com/domdomegg/google-contacts-mcp.git)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling secure integration with Google Contacts for listing, searching, and managing contacts.**
 
@@ -22458,7 +22399,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1463. [Veilid - Wikipedia](https://en.wikipedia.org/wiki/Veilid)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
+### 1459. [Veilid - Wikipedia](https://en.wikipedia.org/wiki/Veilid)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
 
 **An open-source peer-to-peer framework developed by the Cult of the Dead Cow (cDc) for high-performance privacy-first application routing.**
 
@@ -22473,7 +22414,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1464. [robertpelloni/Super-MCP](https://github.com/robertpelloni/Super-MCP)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers 📍
+### 1460. [robertpelloni/Super-MCP](https://github.com/robertpelloni/Super-MCP)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗1 layers 📍
 
 **A high-performance router and connector that provides agents with unified access to the entire Google Super ecosystem (Drive/Gmail/Sheets).**
 
@@ -22487,7 +22428,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1465. [illuminaresolutions/n8n-mcp-server](https://github.com/illuminaresolutions/n8n-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1461. [illuminaresolutions/n8n-mcp-server](https://github.com/illuminaresolutions/n8n-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A server-based implementation enabling Large Language Models to interact securely with n8n workflows.**
 
@@ -22501,7 +22442,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1466. [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1462. [rileylemm/graphrag_mcp](https://github.com/rileylemm/graphrag_mcp)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A hybrid graph and vector database server enabling semantic search across Neo4j and Qdrant for advanced document retrieval.**
 
@@ -22515,7 +22456,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1467. [wh0am123/mcp-kali-server](https://github.com/wh0am123/mcp-kali-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1463. [wh0am123/mcp-kali-server](https://github.com/wh0am123/mcp-kali-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **MCP-Kali-Server enables AI agents to securely connect and interact with Linux machines, enhancing offensive security testing capabilities.**
 
@@ -22529,7 +22470,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1468. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1464. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A powerful MCP server leveraging Google's Gemini Flash 2 AI for data analysis, research paper generation, and automated email delivery.**
 
@@ -22543,7 +22484,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1469. [https://hub.docker.com/mcp](https://hub.docker.com/mcp)  `9.0` ★★☆ ⚡78.0 Q0.7⭐ Excellent 📍
+### 1465. [https://hub.docker.com/mcp](https://hub.docker.com/mcp)  `9.0` ★★☆ ⚡78.0 Q0.7⭐ Excellent 📍
 
 **The Borg Project's MCP resource provides a centralized catalog of secure, community-built MCP servers, enabling developers to discover, connect, and manage containerized MCP instances efficiently. It supports various use cases such as system explorat**
 
@@ -22559,7 +22500,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1470. [https://www.stork.ai](https://www.stork.ai)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1466. [https://www.stork.ai](https://www.stork.ai)  `8.8` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **The Stork.AI platform acts as a unified index for MCP servers and AI tools, allowing developers to discover, install, and manage applications across multiple platforms such as Cursor, Claude Desktop, VS Code, Windsurf, and Zed. It streamlines the pro**
 
@@ -22574,7 +22515,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1471. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers
+### 1467. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers
 
 **The mcp-server-bigquery project provides a Model Context Protocol server that allows large language models (LLMs) to access and execute SQL queries in BigQuery. It supports schema inspection, table listing, and descriptive operations, enhancing AI-dr**
 
@@ -22587,7 +22528,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1472. [sarunasdaujotis/vilnius-transport-mcp-server](https://github.com/sarunasdaujotis/vilnius-transport-mcp-server)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 1468. [sarunasdaujotis/vilnius-transport-mcp-server](https://github.com/sarunasdaujotis/vilnius-transport-mcp-server)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **The project implements an MCP server that provides Vilnius public transport data tools to LLMs, allowing them to query stops and routes. It integrates with external systems using the Model Context Protocol (MCP), ensuring secure and consistent access**
 
@@ -22600,7 +22541,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1473. [awesimon/elasticsearch-mcp](https://github.com/awesimon/elasticsearch-mcp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1469. [awesimon/elasticsearch-mcp](https://github.com/awesimon/elasticsearch-mcp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **Elasticsearch MCP server enabling natural language queries, index management, and search operations.**
 
@@ -22616,7 +22557,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1474. [mohammeduvaiz/figma-mcp-server](https://github.com/mohammeduvaiz/figma-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1470. [mohammeduvaiz/figma-mcp-server](https://github.com/mohammeduvaiz/figma-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A server enabling AI tools and LLMs to interact with Figma designs via the Model Context Protocol.**
 
@@ -22632,7 +22573,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1475. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1471. [hardik-id/azure-resource-graph-mcp-server](https://github.com/hardik-id/azure-resource-graph-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling access to Azure Resource Graph queries across subscriptions.**
 
@@ -22648,7 +22589,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1476. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1472. [samihalawa/mcp-server-smtp](https://github.com/samihalawa/mcp-server-smtp)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling secure and flexible email sending for AI assistants.**
 
@@ -22664,7 +22605,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1477. [alihkhawaher/everything-search-server](https://github.com/alihkhawaher/everything-search-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1473. [alihkhawaher/everything-search-server](https://github.com/alihkhawaher/everything-search-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A MCP server enabling integration with Everything Search for advanced file and directory search capabilities.**
 
@@ -22680,7 +22621,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1478. [btwiuse/npm-search-mcp-server](https://github.com/btwiuse/npm-search-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1474. [btwiuse/npm-search-mcp-server](https://github.com/btwiuse/npm-search-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A tool for searching npm packages to streamline dependency management and development workflows.**
 
@@ -22696,7 +22637,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1479. [el-el-san/vidu-mcp-server](https://github.com/el-el-san/vidu-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1475. [el-el-san/vidu-mcp-server](https://github.com/el-el-san/vidu-mcp-server)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A cloud-based MCP server enabling video generation from images using Vidu AI models.**
 
@@ -22712,7 +22653,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1480. [vercel/mcp-adapter](https://github.com/vercel/mcp-adapter)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1476. [vercel/mcp-adapter](https://github.com/vercel/mcp-adapter)  `8.6` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **MCP adapter enabling real-time communication between applications and AI models.**
 
@@ -22728,7 +22669,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1481. [zhuzhoulin/dify-mcp-server](https://github.com/zhuzhoulin/dify-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1477. [zhuzhoulin/dify-mcp-server](https://github.com/zhuzhoulin/dify-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A TypeScript-based MCP server that dynamically integrates Dify applications, exposing them as tools within the MCP Client.**
 
@@ -22743,7 +22684,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1482. [v-3/discordmcp](https://github.com/v-3/discordmcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 1478. [v-3/discordmcp](https://github.com/v-3/discordmcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **Discord MCP Server enabling LLMs to interact with Discord channels securely.**
 
@@ -22758,7 +22699,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1483. [kevinwatt/mysql-mcp](https://github.com/kevinwatt/mysql-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 1479. [kevinwatt/mysql-mcp](https://github.com/kevinwatt/mysql-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **An MCP server implementation enabling secure MySQL database access for LLMs.**
 
@@ -22773,7 +22714,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1484. [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1480. [kestra-io/mcp-server-python](https://github.com/kestra-io/mcp-server-python)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A Python-based MCP Server for Kestra, enabling AI agents to interact with a secure, containerized environment.**
 
@@ -22788,7 +22729,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1485. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1481. [patrickpalmer/mayamcp](https://github.com/patrickpalmer/mayamcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **Maya MCP server enables AI-powered control of Autodesk Maya via natural language using the Model Context Protocol.**
 
@@ -22803,7 +22744,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1486. [paypal/paypal-mcp-server](https://github.com/paypal/paypal-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 1482. [paypal/paypal-mcp-server](https://github.com/paypal/paypal-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **Integration and management of the PayPal MCP server for automated business workflows.**
 
@@ -22818,7 +22759,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1487. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1483. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Search stock news using Tavily API with customizable filters via Model Context Protocol.**
 
@@ -22833,7 +22774,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1488. [nickclyde/duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1484. [nickclyde/duckduckgo-mcp-server](https://github.com/nickclyde/duckduckgo-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A model context protocol server integrating DuckDuckGo for web search with content parsing and advanced features.**
 
@@ -22848,7 +22789,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1489. [makingchatbots/genesys-cloud-mcp-server](https://github.com/makingchatbots/genesys-cloud-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 1485. [makingchatbots/genesys-cloud-mcp-server](https://github.com/makingchatbots/genesys-cloud-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling integration of Genesys Cloud Platform APIs with LLMs for conversational insights.**
 
@@ -22863,7 +22804,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1490. [maratsarbasov/flights-mcp](https://github.com/maratsarbasov/flights-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1486. [maratsarbasov/flights-mcp](https://github.com/maratsarbasov/flights-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A web-based MCP server enabling granular flight search, filtering, sorting, and booking integration.**
 
@@ -22878,7 +22819,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1491. [13rac1/videocapture-mcp](https://github.com/13rac1/videocapture-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1487. [13rac1/videocapture-mcp](https://github.com/13rac1/videocapture-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A Python-based server for capturing images from webcams and video sources using the Model Context Protocol (MCP).**
 
@@ -22893,7 +22834,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1492. [rkmonarch/svm-mcp](https://github.com/rkmonarch/svm-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 1488. [rkmonarch/svm-mcp](https://github.com/rkmonarch/svm-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **Integrates Claude AI with Solana blockchains via MCP for secure, automated workflows.**
 
@@ -22908,7 +22849,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1493. [jae-jae/fetcher-mcp](https://github.com/jae-jae/fetcher-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1489. [jae-jae/fetcher-mcp](https://github.com/jae-jae/fetcher-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Fetcher MCP is a headless browser-based server for retrieving web page content, enabling seamless integration with MCP protocols.**
 
@@ -22923,7 +22864,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1494. [rahulrana0707/mcp-server](https://github.com/rahulrana0707/mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1490. [rahulrana0707/mcp-server](https://github.com/rahulrana0707/mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A TypeScript-based server implementation for Model Context Protocol (MCP) with modular tool integration and schema validation.**
 
@@ -22938,7 +22879,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1495. [noahgsolomon/pumpfun-mcp-server](https://github.com/noahgsolomon/pumpfun-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
+### 1491. [noahgsolomon/pumpfun-mcp-server](https://github.com/noahgsolomon/pumpfun-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server enabling AI assistants to interact with the Pump.fun platform on Solana.**
 
@@ -22953,7 +22894,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1496. [vinsidious/whodis-mcp-server](https://github.com/vinsidious/whodis-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 1492. [vinsidious/whodis-mcp-server](https://github.com/vinsidious/whodis-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **A MCP server for checking domain name availability using WHOIS lookups.**
 
@@ -22968,7 +22909,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1497. [scald/tesla-mcp](https://github.com/scald/tesla-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1493. [scald/tesla-mcp](https://github.com/scald/tesla-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A Model Context Protocol Server enabling AI models to interact with the Tesla Fleet API.**
 
@@ -22983,7 +22924,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1498. [gitmaxd/dubco-mcp-server](https://github.com/gitmaxd/dubco-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 1494. [gitmaxd/dubco-mcp-server](https://github.com/gitmaxd/dubco-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **A server enabling AI agents to create, update, and manage Dub.co short links.**
 
@@ -22998,7 +22939,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1499. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 1495. [solana-foundation/solana-dev-mcp](https://github.com/solana-foundation/solana-dev-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **Demo of a Model Context Protocol (MCP) server for Solana development.**
 
@@ -23013,7 +22954,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1500. [orliesaurus/pulsemcp-server](https://github.com/orliesaurus/pulsemcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 1496. [orliesaurus/pulsemcp-server](https://github.com/orliesaurus/pulsemcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **A server tool for discovering and exploring MCP servers via PulseMCP API.**
 
@@ -23028,7 +22969,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1501. [wgong/sqlite-mcp-server](https://github.com/wgong/sqlite-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗4 layers
+### 1497. [wgong/sqlite-mcp-server](https://github.com/wgong/sqlite-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗4 layers
 
 **Building a simple SQLite MCP server for secure code review and security testing.**
 
@@ -23043,7 +22984,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1502. [ryaker/appstore-connect-mcp](https://github.com/ryaker/appstore-connect-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
+### 1498. [ryaker/appstore-connect-mcp](https://github.com/ryaker/appstore-connect-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A cloud-based MCP server enabling secure, iOS-compatible OAuth integration for Apple Store Connect API.**
 
@@ -23058,7 +22999,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1503. [Decodo/mcp-web-scraper](https://github.com/Decodo/mcp-web-scraper)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1499. [Decodo/mcp-web-scraper](https://github.com/Decodo/mcp-web-scraper)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A web scraping API server enabling seamless integration of MCP clients with Decodo's platform.**
 
@@ -23073,7 +23014,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1504. [tannisas/mcp-server](https://github.com/tannisas/mcp-server/tree/HEAD/X_twee)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
+### 1500. [tannisas/mcp-server](https://github.com/tannisas/mcp-server/tree/HEAD/X_twee)  `7.8` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers
 
 **The MCP-Server project provides a simple note storage system with a custom URI scheme, allowing users to summarize notes and manage content efficiently. It supports adding and updating notes via a command-line interface, making it suitable for person**
 
@@ -23087,7 +23028,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1505. [Algonius Browser MCP - Chrome Web Store](https://chromewebstore.google.com/detail/algonius-browser-mcp/fmcmnpejjhphnfdaegmdmahkgaccghem)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class 📍
+### 1501. [Algonius Browser MCP - Chrome Web Store](https://chromewebstore.google.com/detail/algonius-browser-mcp/fmcmnpejjhphnfdaegmdmahkgaccghem)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class 📍
 
 **An open-source MCP server that enables AI agents to control active Chrome sessions via an accessibility tree bridge, allowing interaction with authenticated web apps.**
 
@@ -23101,7 +23042,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1506. [jsonresume/mcp](https://github.com/jsonresume/mcp)  `9.2` ★★☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 1502. [jsonresume/mcp](https://github.com/jsonresume/mcp)  `9.2` ★★☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server that enhances AI resume updates by analyzing coding projects.**
 
@@ -23115,7 +23056,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1507. [Show HN: A mathematical proof that more dirty features can beat fewer clean ones | Hacker News](https://news.ycombinator.com/item?id=47414730)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
+### 1503. [Show HN: A mathematical proof that more dirty features can beat fewer clean ones | Hacker News](https://news.ycombinator.com/item?id=47414730)  `8.8` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
 
 **The paper presents a mathematical framework demonstrating that incorporating more 'dirty' features can enhance model performance over cleaner ones. It emphasizes the importance of understanding latent structures in data and shifting focus from data h**
 
@@ -23129,7 +23070,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1508. [shibuiwilliam/mcp-server-data-wrangler](https://github.com/shibuiwilliam/mcp-server-data-wrangler)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
+### 1504. [shibuiwilliam/mcp-server-data-wrangler](https://github.com/shibuiwilliam/mcp-server-data-wrangler)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
 
 **The MCP server facilitates standardized interfaces for data wrangling operations within the MCP ecosystem. It supports data aggregation, descriptive statistics, and seamless integration into existing workflows, enhancing efficiency in data management**
 
@@ -23142,7 +23083,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1509. [akshay23/local-events-mcp-server](https://github.com/akshay23/local-events-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1505. [akshay23/local-events-mcp-server](https://github.com/akshay23/local-events-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project implements an MCP server capable of pulling local event data from Ticketmaster using their Discovery API. It leverages Python and integrates with GitHub for version control, providing a robust solution for real-time event tracking within **
 
@@ -23155,7 +23096,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1510. [bmorphism/gists-mcp-server](https://github.com/bmorphism/gists-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 1506. [bmorphism/gists-mcp-server](https://github.com/bmorphism/gists-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **The bmorphism/gists-mcp-server project provides a web-based interface for developers to manage and interact with GitHub Gists. It allows users to create, edit, view, and collaborate on gists directly from the server, streamlining workflows in softwar**
 
@@ -23168,7 +23109,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1511. [ylin6/unleash-ff-mcp-server](https://github.com/ylin6/unleash-ff-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 1507. [ylin6/unleash-ff-mcp-server](https://github.com/ylin6/unleash-ff-mcp-server)  `8.7` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **The ylin6/unleash-ff-mcp-server is a GitHub-hosted MCP server enabling AI agents to programmatically manage feature flags within Unleash. It provides tools for retrieving projects, features, and updating flags, supporting automation and integration w**
 
@@ -23181,7 +23122,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1512. [imankamyabi/dynamodb-mcp-server](https://github.com/imankamyabi/dynamodb-mcp-server)  `8.5` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 1508. [imankamyabi/dynamodb-mcp-server](https://github.com/imankamyabi/dynamodb-mcp-server)  `8.5` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **Model Context Protocol server for managing Amazon DynamoDB resources.**
 
@@ -23196,7 +23137,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1513. [aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
+### 1509. [aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗2 layers
 
 **Alibaba Cloud Ops MCP Server enables seamless integration with Alibaba Cloud APIs, supporting AI assistants in managing ECS, monitoring, and deploying applications.**
 
@@ -23210,7 +23151,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1514. [b1ff/atlassian-dc-mcp](https://github.com/b1ff/atlassian-dc-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 1510. [b1ff/atlassian-dc-mcp](https://github.com/b1ff/atlassian-dc-mcp)  `8.2` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **Integrates Atlassian products (Jira, Confluence, Bitbucket) via Model Context Protocol for AI-powered workflows.**
 
@@ -23225,7 +23166,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1515. [Video Players | VRChat Creation](https://creators.vrchat.com/worlds/udon/video-players)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
+### 1511. [Video Players | VRChat Creation](https://creators.vrchat.com/worlds/udon/video-players)  `8.0` ★☆☆ ⚡77.0 Q0.8✓ Very good 📍
 
 **This resource details the integration of video players within a VRChat world, focusing on the choice between built-in or community-created video player prefabs, the technical differences between AVPro and Unity Video Players (including their limitati**
 
@@ -23241,7 +23182,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1516. [TUUI | MCP Tool Unitary UI](https://www.tuui.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 1512. [TUUI | MCP Tool Unitary UI](https://www.tuui.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **A Vue/TypeScript-based desktop application framework that acts as a unified UI client for Model Context Protocol (MCP) servers, streamlining tool orchestration.**
 
@@ -23255,7 +23196,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1517. [MCP Scoreboard](https://mcpscoreboard.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 1513. [MCP Scoreboard](https://mcpscoreboard.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **An independent quality tracking platform for the Model Context Protocol (MCP) ecosystem that evaluates servers across 5 dimensions of reliability and security.**
 
@@ -23269,7 +23210,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1518. [Big-AGI: The Expert's AI Workspace](https://big-agi.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 1514. [Big-AGI: The Expert's AI Workspace](https://big-agi.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **An open-source generative AI suite focused on autonomous capabilities, multi-model parallel thinking (Beam), and native Model Context Protocol support.**
 
@@ -23283,7 +23224,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1519. [Briar (software) - Wikipedia](https://en.wikipedia.org/wiki/Briar_(software))  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 1515. [Briar (software) - Wikipedia](https://en.wikipedia.org/wiki/Briar_(software))  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **A peer-to-peer mesh messaging system that uses Bluetooth, Wi-Fi, and Tor to synchronize data without central servers, featuring Delay-Tolerant Networking (DTN).**
 
@@ -23297,7 +23238,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1520. [Show HN: AI-Powered Stock Tracking and Analysis | Hacker News](https://news.ycombinator.com/item?id=42400349)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 1516. [Show HN: AI-Powered Stock Tracking and Analysis | Hacker News](https://news.ycombinator.com/item?id=42400349)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **Hacker News discussion defining the Model Context Protocol (MCP) as a solution to the NxM integration chaos via standardized Resources, Prompts, and Tools.**
 
@@ -23311,7 +23252,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1521. [MetaMCP](https://metamcp.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 1517. [MetaMCP](https://metamcp.com)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **A unified proxy router that aggregates multiple MCP servers into a single connection for clients, featuring GUI-based management and workspace isolation.**
 
@@ -23325,7 +23266,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1522. [spritualkb/nuclei-mcp](https://github.com/spritualkb/nuclei-mcp)  `8.7` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
+### 1518. [spritualkb/nuclei-mcp](https://github.com/spritualkb/nuclei-mcp)  `8.7` ★☆☆ ⚡76.0 Q0.8✓ Very good · ↗2 layers
 
 **The project implements a simple notes system using MCP (Model Context Protocol) to allow note creation, storage, and retrieval. It includes core functionalities such as creating new notes, generating summaries, and integrating LLM-based summarization**
 
@@ -23337,7 +23278,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1523. [https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-ac](https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-according-to-reddits-users-bab333886336)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗2 layers
+### 1519. [https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-ac](https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-according-to-reddits-users-bab333886336)  `8.8` ★☆☆ ⚡75.0 Q0.6✓ Very good · ↗2 layers
 
 **This resource compiles insights from Reddit users to highlight the most effective MCP servers that enhance developer productivity. It evaluates each server's utility in areas such as file editing, code writing, web scraping, and more, providing devel**
 
@@ -23352,7 +23293,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1524. [antonpk1/gibber-mcp](https://github.com/antonpk1/gibber-mcp)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
+### 1520. [antonpk1/gibber-mcp](https://github.com/antonpk1/gibber-mcp)  `8.7` ★☆☆ ⚡75.0 Q0.7✓ Very good 📍
 
 **The project uses MCP to enable encrypted, seamless interactions between AI agents and external tools, focusing on end-to-end security.**
 
@@ -23366,7 +23307,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1525. [ia-entertainment-git-organization/gemini-mcp-server](https://github.com/ia-entertainment-git-organization/gemini-mcp-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers
+### 1521. [ia-entertainment-git-organization/gemini-mcp-server](https://github.com/ia-entertainment-git-organization/gemini-mcp-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers
 
 **A TypeScript implementation of a Model Context Protocol (MCP) server integrating with Google's Gemini model for AI-driven conversational applications.**
 
@@ -23380,7 +23321,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1526. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers
+### 1522. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers
 
 **A beginner-friendly guide server to help users understand MCP concepts, explore capabilities, and follow best practices for building integrations.**
 
@@ -23394,7 +23335,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1527. [DeepContext MCP - Wildcard](https://wild-card.ai/deepcontext)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
+### 1523. [DeepContext MCP - Wildcard](https://wild-card.ai/deepcontext)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
 
 **An MCP server by Wildcard AI that provides high-speed semantic search over large repositories using Tree-sitter AST parsing and incremental indexing.**
 
@@ -23408,7 +23349,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1528. [Reverse engineering River Raid with Claude, Ghidra, and MCP - Quesma Blog](https://quesma.com/blog/ghidra-mcp-unlimited-lives)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 1524. [Reverse engineering River Raid with Claude, Ghidra, and MCP - Quesma Blog](https://quesma.com/blog/ghidra-mcp-unlimited-lives)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **A Model Context Protocol server that bridges AI reasoning with the Ghidra suite for automated binary annotation and reverse engineering.**
 
@@ -23422,7 +23363,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1529. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 1525. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **An interactive CLI framework by Microsoft that acts as an MCP client and provides deep terminal integration for AI-driven command execution.**
 
@@ -23436,7 +23377,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1530. [io_uring is faster than mmap | Hacker News](https://news.ycombinator.com/item?id=45132710)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
+### 1526. [io_uring is faster than mmap | Hacker News](https://news.ycombinator.com/item?id=45132710)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers 📍
 
 **An open protocol (LSP for agents) designed by Anthropic to standardize how LLMs connect to data sources like Postgres, Slack, and local files.**
 
@@ -23450,7 +23391,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1531. [https://www.reddit.com/r/vibeprinting/comments/1si02v3/omniroute_opens](https://www.reddit.com/r/vibeprinting/comments/1si02v3/omniroute_opensource_ai_gateway_that_pools_all)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers 📍
+### 1527. [https://www.reddit.com/r/vibeprinting/comments/1si02v3/omniroute_opens](https://www.reddit.com/r/vibeprinting/comments/1si02v3/omniroute_opensource_ai_gateway_that_pools_all)  `8.8` ★☆☆ ⚡74.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The resource discusses an open-source project that aims to create a centralized AI gateway capable of aggregating and processing data from multiple sources, enhancing interoperability between different systems and platforms.**
 
@@ -23465,7 +23406,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1532. [hdresearch/mcp-shell](https://github.com/hdresearch/mcp-shell)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1528. [hdresearch/mcp-shell](https://github.com/hdresearch/mcp-shell)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A secure shell implementation enabling AI models to interact with external systems via the Model Context Protocol.**
 
@@ -23479,7 +23420,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1533. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1529. [tlazypanda/aptos-mcp-server](https://github.com/tlazypanda/aptos-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling interaction with Aptos documentation and building full-stack blockchain applications.**
 
@@ -23493,7 +23434,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1534. [metatool-ai/mcp-server-metamcp](https://github.com/metatool-ai/mcp-server-metamcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1530. [metatool-ai/mcp-server-metamcp](https://github.com/metatool-ai/mcp-server-metamcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **MetaMCP manages multiple MCP servers into a unified proxy, streamlining tool and resource management.**
 
@@ -23507,7 +23448,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1535. [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1531. [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **An MCP server enabling LLMs to securely query and analyze iMessage conversations with phone number validation and attachment handling.**
 
@@ -23521,7 +23462,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1536. [prayanks/mcp-sqlite-server](https://github.com/prayanks/mcp-sqlite-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 1532. [prayanks/mcp-sqlite-server](https://github.com/prayanks/mcp-sqlite-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Python-based MCP server for accessing SQLite databases, supporting STDIO protocol and offering data analysis tools.**
 
@@ -23535,7 +23476,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1537. [elastic/mcp-server-elasticsearch](https://github.com/elastic/mcp-server-elasticsearch)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers
+### 1533. [elastic/mcp-server-elasticsearch](https://github.com/elastic/mcp-server-elasticsearch)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers
 
 **Elasticsearch MCP Server integration for AI agents, enabling natural language interactions with Elasticsearch indices.**
 
@@ -23549,7 +23490,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1538. [jianzhichun/abaqus-mcp-server](https://github.com/jianzhichun/abaqus-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1534. [jianzhichun/abaqus-mcp-server](https://github.com/jianzhichun/abaqus-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A model context protocol server enabling Python script execution and message retrieval within an active Abaqus/CAE GUI.**
 
@@ -23563,7 +23504,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1539. [fakepixels/base-mcp-server](https://github.com/fakepixels/base-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1535. [fakepixels/base-mcp-server](https://github.com/fakepixels/base-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **Base MCP server enabling LLMs to interact with blockchain networks via natural language commands.**
 
@@ -23577,7 +23518,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1540. [hunter-arton/google_search_mcp_server](https://github.com/hunter-arton/google_search_mcp_server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1536. [hunter-arton/google_search_mcp_server](https://github.com/hunter-arton/google_search_mcp_server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A Google Search MCP server enabling real-time web and image search integration for AI assistants.**
 
@@ -23591,7 +23532,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1541. [cognitive-stack/orion-vision-mcp](https://github.com/cognitive-stack/orion-vision-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1537. [cognitive-stack/orion-vision-mcp](https://github.com/cognitive-stack/orion-vision-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **Orion Vision MCP server enables secure, standardized AI integration with Azure Form Recognizer and other document intelligence tools.**
 
@@ -23605,7 +23546,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1542. [jehan26/mcp-inspector-v0.6.0](https://github.com/jehan26/mcp-inspector-v0.6.0)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1538. [jehan26/mcp-inspector-v0.6.0](https://github.com/jehan26/mcp-inspector-v0.6.0)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A GitHub MCP server enabling AI assistants to interact with repositories, issues, and pull requests.**
 
@@ -23619,7 +23560,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1543. [run-llama/llamacloud-mcp](https://github.com/run-llama/llamacloud-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1539. [run-llama/llamacloud-mcp](https://github.com/run-llama/llamacloud-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A tool to integrate LlamaCloud as an MCP server for querying and extracting data from files.**
 
@@ -23633,7 +23574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1544. [jackkuo666/medrxiv-mcp-server](https://github.com/jackkuo666/medrxiv-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1540. [jackkuo666/medrxiv-mcp-server](https://github.com/jackkuo666/medrxiv-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **MedRxiv MCP Server enables AI assistants to search and access medRxiv preprints through a simple MCP interface.**
 
@@ -23647,7 +23588,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1545. [ai4curation/owl-mcp](https://github.com/ai4curation/owl-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 1541. [ai4curation/owl-mcp](https://github.com/ai4curation/owl-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **OWL-MCP enables secure, real-time integration of AI models with semantic web ontologies via standardized protocols.**
 
@@ -23661,7 +23602,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1546. [warpdev/mcp-hub-mcp](https://github.com/warpdev/mcp-hub-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1542. [warpdev/mcp-hub-mcp](https://github.com/warpdev/mcp-hub-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A hub server that manages multiple Model Context Protocol (MCP) servers, optimizing tool usage and reducing context pollution.**
 
@@ -23675,7 +23616,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1547. [tanevanwifferen/mcp-inception](https://github.com/tanevanwifferen/mcp-inception)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1543. [tanevanwifferen/mcp-inception](https://github.com/tanevanwifferen/mcp-inception)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A TypeScript-based MCP server enabling LLM query systems with parallel execution, context management, and task delegation.**
 
@@ -23689,7 +23630,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1548. [ihatesea69/aws-mcp](https://github.com/ihatesea69/aws-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1544. [ihatesea69/aws-mcp](https://github.com/ihatesea69/aws-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **AWS MCP enables secure, flexible integration of AI models with AWS services through natural language.**
 
@@ -23703,7 +23644,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1549. [cloudflare/workers-mcp](https://github.com/cloudflare/workers-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1545. [cloudflare/workers-mcp](https://github.com/cloudflare/workers-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool enabling integration between Claude Desktop and Cloudflare Workers to facilitate intelligent code execution and automation.**
 
@@ -23717,7 +23658,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1550. [kalivaraprasad-gonapa/azure-mcp](https://github.com/kalivaraprasad-gonapa/azure-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1546. [kalivaraprasad-gonapa/azure-mcp](https://github.com/kalivaraprasad-gonapa/azure-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **An MCP implementation enabling natural language interaction between Claude Desktop and Azure services.**
 
@@ -23731,7 +23672,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1551. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1547. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A Node.js sandbox server implementing the Model Context Protocol for secure JavaScript execution in isolated environments.**
 
@@ -23745,7 +23686,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1552. [nexon33/console-terminal-mcp-server](https://github.com/nexon33/console-terminal-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1548. [nexon33/console-terminal-mcp-server](https://github.com/nexon33/console-terminal-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A terminal management server for Electron applications, enabling remote execution of commands and integration with MCP protocol.**
 
@@ -23759,7 +23700,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1553. [dave-wind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1549. [dave-wind/mysql-mcp-server](https://github.com/dave-wind/mysql-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A server enabling LLMs to interact with MySQL databases securely via read-only queries and schema inspection.**
 
@@ -23773,7 +23714,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1554. [giovannicocco/mcp-server-postman-tool-generation](https://github.com/giovannicocco/mcp-server-postman-tool-generation)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1550. [giovannicocco/mcp-server-postman-tool-generation](https://github.com/giovannicocco/mcp-server-postman-tool-generation)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool that generates AI agent tools from Postman collections, enabling automation and integration with various AI frameworks.**
 
@@ -23787,7 +23728,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1555. [workbackai/mcp-nodejs-debugger](https://github.com/workbackai/mcp-nodejs-debugger)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 1551. [workbackai/mcp-nodejs-debugger](https://github.com/workbackai/mcp-nodejs-debugger)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **Debugging Node.js applications using the MCP Node.js debugger for runtime error resolution.**
 
@@ -23801,7 +23742,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1556. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1552. [starwind-ui/starwind-ui-mcp](https://github.com/starwind-ui/starwind-ui-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A TypeScript implementation of a Model Context Protocol (MCP) server for Starwind UI and Pro, enhancing AI tool integration.**
 
@@ -23815,7 +23756,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1557. [thrashr888/terraform-mcp-server](https://github.com/thrashr888/terraform-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers
+### 1553. [thrashr888/terraform-mcp-server](https://github.com/thrashr888/terraform-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers
 
 **A Terraform MCP Server enabling AI agents to interact with the Terraform Registry API for resource management and metadata retrieval.**
 
@@ -23829,7 +23770,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1558. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1554. [newerton/mcp-status-invest](https://github.com/newerton/mcp-status-invest)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling interaction with the Status Invest API for stock data and indicators.**
 
@@ -23843,7 +23784,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1559. [zbdpay/zbd-mcp-server](https://github.com/zbdpay/zbd-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1555. [zbdpay/zbd-mcp-server](https://github.com/zbdpay/zbd-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A modular TypeScript-based MCP server implementation for Bitcoin Lightning payments, designed to be integrated into Borg workflows.**
 
@@ -23857,7 +23798,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1560. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1556. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A Minecraft MCP server powered by Mineflayer API, enabling AI assistants to control a character in real-time.**
 
@@ -23871,7 +23812,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1561. [sammcj/mcp-aws-kb](https://github.com/sammcj/mcp-aws-kb)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1557. [sammcj/mcp-aws-kb](https://github.com/sammcj/mcp-aws-kb)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A server implementation for retrieving information from the AWS Knowledge Base using RAG and retrieval operations.**
 
@@ -23885,7 +23826,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1562. [valyu-network/valyu-mcp-js](https://github.com/valyu-network/valyu-mcp-js)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1558. [valyu-network/valyu-mcp-js](https://github.com/valyu-network/valyu-mcp-js)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A TypeScript implementation of the MCP server for Valyu Network API, enabling LLMs to access and provide feedback on proprietary and web sources.**
 
@@ -23899,7 +23840,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1563. [opaqueglass/syplugin-anmcpserver](https://github.com/opaqueglass/syplugin-anmcpserver)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1559. [opaqueglass/syplugin-anmcpserver](https://github.com/opaqueglass/syplugin-anmcpserver)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A plugin providing MCP service for Siyuan-note, enabling integration with external note systems.**
 
@@ -23913,7 +23854,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1564. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1560. [phialsbasement/pagespeed-mcp-server](https://github.com/phialsbasement/pagespeed-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **PageSpeed MCP Server integrates AI capabilities with PageSpeed Insights to analyze website performance metrics.**
 
@@ -23927,7 +23868,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1565. [gergelyszerovay/mcp-server-qdrant-retrieve](https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1561. [gergelyszerovay/mcp-server-qdrant-retrieve](https://github.com/gergelyszerovay/mcp-server-qdrant-retrieve)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A Borg server for semantic search using Qdrant vector database to enable intelligent retrieval of relevant data.**
 
@@ -23941,7 +23882,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1566. [mnhlt/websearch-mcp](https://github.com/mnhlt/websearch-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1562. [mnhlt/websearch-mcp](https://github.com/mnhlt/websearch-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **WebSearch-MCP server enabling AI assistants to perform real-time web searches via MCP protocol.**
 
@@ -23955,7 +23896,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1567. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1563. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A model context protocol server for Pixabay image and video search with structured results and runtime validation.**
 
@@ -23969,7 +23910,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1568. [kunihiros/uniquity-mcp](https://github.com/kunihiros/uniquity-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1564. [kunihiros/uniquity-mcp](https://github.com/kunihiros/uniquity-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **The Uniquity-mcp server enables external tools and AI agents to interact with UniquityReporter via the MCP protocol.**
 
@@ -23983,7 +23924,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1569. [bmorphism/marginalia-mcp-server](https://github.com/bmorphism/marginalia-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1565. [bmorphism/marginalia-mcp-server](https://github.com/bmorphism/marginalia-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A web-based MCP server for managing marginalia and annotations with search, integration options, and developer-friendly tools.**
 
@@ -23997,7 +23938,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1570. [r-huijts/ns-mcp-server](https://github.com/r-huijts/ns-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1566. [r-huijts/ns-mcp-server](https://github.com/r-huijts/ns-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A model context protocol server integrating Claude AI with the official Dutch NS API to deliver real-time train information and disruptions.**
 
@@ -24011,7 +23952,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1571. [captain-blue210/anki-mcp-server](https://github.com/captain-blue210/anki-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1567. [captain-blue210/anki-mcp-server](https://github.com/captain-blue210/anki-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **An MCP server that connects to Anki via AnkiConnect, retrieves leech-tagged cards, and provides card data for analysis.**
 
@@ -24025,7 +23966,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1572. [anyproto/anytype-mcp](https://github.com/anyproto/anytype-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1568. [anyproto/anytype-mcp](https://github.com/anyproto/anytype-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **An MCP server enabling AI assistants to interact with Anytype's API through natural language, bridging AI and Anytype's features.**
 
@@ -24039,7 +23980,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1573. [ericzakariasson/pg-mcp-server](https://github.com/ericzakariasson/pg-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1569. [ericzakariasson/pg-mcp-server](https://github.com/ericzakariasson/pg-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A PostgreSQL MCP server enabling LLMs to query and analyze databases through a controlled interface.**
 
@@ -24053,7 +23994,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1574. [Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1570. [Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **Provides access to Flightradar24 API for real-time and historical flight data, enabling integration with AI assistants.**
 
@@ -24067,7 +24008,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1575. [keithah/tessie-mcp](https://github.com/keithah/tessie-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1571. [keithah/tessie-mcp](https://github.com/keithah/tessie-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **An advanced Tesla MCP Server leveraging Tessie API for intelligent analytics, cost optimization, and predictive insights.**
 
@@ -24081,7 +24022,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1576. [configcat/mcp-server](https://github.com/configcat/mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1572. [configcat/mcp-server](https://github.com/configcat/mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A server enabling secure, isolated management of ConfigCat's feature flags and configurations.**
 
@@ -24095,7 +24036,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1577. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 1573. [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A model context protocol server that integrates AI with WinDbg for crash dump analysis and remote debugging.**
 
@@ -24109,7 +24050,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1578. [thisdot/docusign-navigator-mcp](https://github.com/thisdot/docusign-navigator-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1574. [thisdot/docusign-navigator-mcp](https://github.com/thisdot/docusign-navigator-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A Model Context Protocol server enabling AI assistants to access DocuSign agreement data via natural language.**
 
@@ -24123,7 +24064,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1579. [domdomegg/google-maps-places-mcp.git](https://github.com/domdomegg/google-maps-places-mcp.git)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1575. [domdomegg/google-maps-places-mcp.git](https://github.com/domdomegg/google-maps-places-mcp.git)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **A server enabling secure OAuth integration with Google Maps Places API to search for places and retrieve photos.**
 
@@ -24137,7 +24078,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1580. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
+### 1576. [Paul-Bonneville-Labs/neemee-mcp](https://github.com/Paul-Bonneville-Labs/neemee-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers
 
 **A TypeScript client library for integrating with Neemee MCP servers, enabling secure and efficient management of personal knowledge systems.**
 
@@ -24151,7 +24092,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1581. [Agents - Agent Client Protocol](https://agentclientprotocol.com/overview/agents)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗1 layers 📍
+### 1577. [Agents - Agent Client Protocol](https://agentclientprotocol.com/overview/agents)  `7.8` ☆☆☆ ⚡74.0 Q0.8○ Good · ↗1 layers 📍
 
 **The page lists specific agents—such as AutoDev, Blackbox AI, Claude Agent, GitHub Copilot, and others—that have been implemented to adhere to the Agent Client Protocol (ACP). This standardization allows different agent implementations (clients) to co**
 
@@ -24165,7 +24106,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1582. [Code Mode: give agents an entire API in 1,000 tokens](https://blog.cloudflare.com/code-mode-mcp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 1578. [Code Mode: give agents an entire API in 1,000 tokens](https://blog.cloudflare.com/code-mode-mcp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A revolutionary paradigm shift where agents write scripts to interact with APIs via a typed SDK, reducing context usage by 99.9%.**
 
@@ -24179,7 +24120,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1583. [WebMCP is available for early preview  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/webmcp-epp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class 📍
+### 1579. [WebMCP is available for early preview  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/webmcp-epp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class 📍
 
 **A W3C-incubated standard allowing websites to register tools that AI agents can discover and call natively via the browser.**
 
@@ -24193,7 +24134,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1584. [Meshtastic](https://meshtastic.org)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 1580. [Meshtastic](https://meshtastic.org)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A decentralized, serverless mesh messaging system using LoRa hardware for long-range, encrypted off-grid communication.**
 
@@ -24207,7 +24148,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1585. [ruanodendaal/bear-mcp-server](https://github.com/ruanodendaal/bear-mcp-server)  `9.0` ★★☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1581. [ruanodendaal/bear-mcp-server](https://github.com/ruanodendaal/bear-mcp-server)  `9.0` ★★☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **Borg integrates with Bear app via MCP to enable AI assistants to search and retrieve personal notes.**
 
@@ -24220,7 +24161,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1586. [https://medium.com/bitfwd/what-is-decentralised-storage-ipfs-filecoin-](https://medium.com/bitfwd/what-is-decentralised-storage-ipfs-filecoin-sia-storj-swarm-5509e476995f)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 1582. [https://medium.com/bitfwd/what-is-decentralised-storage-ipfs-filecoin-](https://medium.com/bitfwd/what-is-decentralised-storage-ipfs-filecoin-sia-storj-swarm-5509e476995f)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **The article provides an overview of decentralized storage solutions such as IPFS, FileCoin, Sia, Storj, and Swarm. It discusses the concept of decentralization in data storage, its historical roots, and how these technologies aim to democratize acces**
 
@@ -24234,7 +24175,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1587. [https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over](https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over_the_next_5_years_whats_feasible)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1583. [https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over](https://www.reddit.com/r/MoneroMeansMoney/comments/1t86aua/monero_over_the_next_5_years_whats_feasible)  `8.8` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **This forum thread examines the feasibility of Monero maintaining its anonymity over the next five years, focusing on technical aspects such as privacy protocols, network scalability, and integration with other systems. Participants analyze tools, pat**
 
@@ -24248,7 +24189,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1588. [wrale/mcp-server-make](https://github.com/wrale/mcp-server-make)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1584. [wrale/mcp-server-make](https://github.com/wrale/mcp-server-make)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A Borg project enabling LLMs to execute make targets safely and efficiently.**
 
@@ -24262,7 +24203,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1589. [chargebee/agentkit](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 1585. [chargebee/agentkit](https://github.com/chargebee/agentkit/tree/main/modelcontextprotocol)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A protocol enabling context management between large language models and external systems for improved developer efficiency.**
 
@@ -24276,7 +24217,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1590. [programcomputer/nasa-mcp-server](https://github.com/programcomputer/nasa-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1586. [programcomputer/nasa-mcp-server](https://github.com/programcomputer/nasa-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A model context protocol server enabling AI models to interact with NASA's data sources in a standardized, secure manner.**
 
@@ -24290,7 +24231,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1591. [thisnick/google-calendar-mcp](https://github.com/thisnick/google-calendar-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1587. [thisnick/google-calendar-mcp](https://github.com/thisnick/google-calendar-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A TypeScript-based MCP server for integrating with Google Calendar, enabling event management and insights.**
 
@@ -24304,7 +24245,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1592. [da-okazaki/mcp-neo4j-server](https://github.com/da-okazaki/mcp-neo4j-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 1588. [da-okazaki/mcp-neo4j-server](https://github.com/da-okazaki/mcp-neo4j-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **MCP Neo4j Server enables secure, natural language interaction with Neo4j databases through integration with Claude Desktop.**
 
@@ -24318,7 +24259,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1593. [kumartheashwani/paypal-java-mcp-server](https://github.com/kumartheashwani/paypal-java-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 1589. [kumartheashwani/paypal-java-mcp-server](https://github.com/kumartheashwani/paypal-java-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A Java-based PayPal MCP server for analyzing and improving payment processing.**
 
@@ -24332,7 +24273,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1594. [danvega/spring-io-mcp](https://github.com/danvega/spring-io-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 1590. [danvega/spring-io-mcp](https://github.com/danvega/spring-io-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A Spring Boot-based MCP server enabling AI assistants to access and interact with Spring I/O conference data.**
 
@@ -24346,7 +24287,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1595. [onewalker/openapi-mcp-server](https://github.com/onewalker/openapi-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1591. [onewalker/openapi-mcp-server](https://github.com/onewalker/openapi-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A developer-focused MCP server for interacting with OpenAPI services via RESTful APIs.**
 
@@ -24360,7 +24301,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1596. [lmcmz/flow-mcp-server](https://github.com/lmcmz/flow-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 1592. [lmcmz/flow-mcp-server](https://github.com/lmcmz/flow-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A Model Context Protocol (MCP) server enabling AI integration with the Flow blockchain.**
 
@@ -24374,7 +24315,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1597. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1593. [gregkop/sketchfab-mcp-server](https://github.com/gregkop/sketchfab-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling secure discovery and download of 3D models from Sketchfab.**
 
@@ -24388,7 +24329,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1598. [chromewillow/greyhack-mcp-server](https://github.com/chromewillow/greyhack-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗3 layers
+### 1594. [chromewillow/greyhack-mcp-server](https://github.com/chromewillow/greyhack-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗3 layers
 
 **A MCP server for Grey Hack game development with integrated code search, transpilation, and script generation.**
 
@@ -24402,7 +24343,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1599. [incomestreamsurfer/roo-code-memory-bank-mcp-server](https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1595. [incomestreamsurfer/roo-code-memory-bank-mcp-server](https://github.com/incomestreamsurfer/roo-code-memory-bank-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server enabling AI assistants to maintain project context across sessions using a file-based memory bank.**
 
@@ -24416,7 +24357,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1600. [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗4 layers
+### 1596. [ip2location/mcp-ip2location-io](https://github.com/ip2location/mcp-ip2location-io)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗4 layers
 
 **A MCP server implementation for retrieving geolocation data via the IP2Location.io API.**
 
@@ -24430,7 +24371,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1601. [moonbirdai/ebird-mcp-server](https://github.com/moonbirdai/ebird-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1597. [moonbirdai/ebird-mcp-server](https://github.com/moonbirdai/ebird-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling AI assistants to access eBird data for bird observations, hotspots, and taxonomy.**
 
@@ -24444,7 +24385,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1602. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1598. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling AI assistants to access Pokémon data via standardized APIs.**
 
@@ -24458,7 +24399,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1603. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
+### 1599. [stat-guy/retrieval-augmented-thinking](https://github.com/stat-guy/retrieval-augmented-thinking)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗5 layers
 
 **A retrieval-augmented thinking tool for intelligent problem solving and decision making.**
 
@@ -24472,7 +24413,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1604. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1600. [doggybee/mcp-server-leetcode](https://github.com/doggybee/mcp-server-leetcode)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol server enabling AI access to LeetCode problems, user data, and contest information.**
 
@@ -24486,7 +24427,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1605. [timescale/tiger-skills-mcp-server](https://github.com/timescale/tiger-skills-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
+### 1601. [timescale/tiger-skills-mcp-server](https://github.com/timescale/tiger-skills-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers
 
 **A modular MCP server enabling Anthropic models to access specialized skills for domain-specific tasks.**
 
@@ -24500,7 +24441,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1606. [fujitsu-ai/mcp-server-for-mas-developments](https://github.com/fujitsu-ai/mcp-server-for-mas-developments)  `8.0` ★☆☆ ⚡73.0 Q0.8✓ Very good 📍
+### 1602. [fujitsu-ai/mcp-server-for-mas-developments](https://github.com/fujitsu-ai/mcp-server-for-mas-developments)  `8.0` ★☆☆ ⚡73.0 Q0.8✓ Very good 📍
 
 **Fujitsu AI's MCP Server suite enables integration of the PGPT API into diverse IT environments, supporting legacy systems, local agent architectures, and remote web/distributed applications.**
 
@@ -24513,7 +24454,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1607. [https://news.ycombinator.com/item?id=44822020](https://news.ycombinator.com/item?id=44822020)  `7.8` ☆☆☆ ⚡73.0 Q0.7○ Good · ↗1 layers 📍
+### 1603. [https://news.ycombinator.com/item?id=44822020](https://news.ycombinator.com/item?id=44822020)  `7.8` ☆☆☆ ⚡73.0 Q0.7○ Good · ↗1 layers 📍
 
 **The article discusses China's economic behavior, highlighting the paradox of being a nation of savers while struggling with high debt. This analysis focuses on the technical and systemic implications for intelligence gathering, including data extract**
 
@@ -24528,7 +24469,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1608. [Your MCP Server Is Eating Your Context Window. There's a Simpler Way](https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 1604. [Your MCP Server Is Eating Your Context Window. There's a Simpler Way](https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A "CLI-first" alternative to MCP that reduces context starvation by replacing massive JSON tool schemas with an 80-token prompt and on-demand `--help` discovery.**
 
@@ -24541,7 +24482,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1609. [Grok CLI - Conversational AI CLI Tool](https://grokcli.io)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class 📍
+### 1605. [Grok CLI - Conversational AI CLI Tool](https://grokcli.io)  `10.0` ★★★ ⚡72.0 Q0.7🏆 World-class 📍
 
 **An MCP integration for the Grok CLI that grants other agents (like Claude or GPT-4) real-time access to X (Twitter) search and Grok's native "Raw Mode" reasoning.**
 
@@ -24554,7 +24495,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1610. [54 Patterns for Building Better MCP Tools](https://blog.arcade.dev/mcp-tool-patterns)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent 📍
+### 1606. [54 Patterns for Building Better MCP Tools](https://blog.arcade.dev/mcp-tool-patterns)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent 📍
 
 **A seminal research piece defining 54 critical design patterns for building reliable and agent-usable Model Context Protocol tools.**
 
@@ -24568,7 +24509,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1611. [The singularity won't be gentle | Hacker News](https://news.ycombinator.com/item?id=47132853)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers 📍
+### 1607. [The singularity won't be gentle | Hacker News](https://news.ycombinator.com/item?id=47132853)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **This resource discusses the potential for a disruptive technological singularity, emphasizing the need to understand its impact on global systems. It highlights concerns about the stability of the labor market, the inevitability of significant change**
 
@@ -24581,7 +24522,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1612. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
+### 1608. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers
 
 **The tengfone/supabase-nextjs-mcp-server project provides a Next.js-based MCP (Model, Context, Protocol) server that enables developers to build and manage a simple notes system. It supports creating new notes, generating summaries, and integrating wi**
 
@@ -24593,7 +24534,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1613. [codebywaqas/mrconfluencelinker-mcp-server](https://github.com/codebywaqas/mrconfluencelinker-mcp-server)  `8.2` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers
+### 1609. [codebywaqas/mrconfluencelinker-mcp-server](https://github.com/codebywaqas/mrconfluencelinker-mcp-server)  `8.2` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers
 
 **A MCP server integrating GitLab merge request analysis with Confluence documentation.**
 
@@ -24607,7 +24548,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1614. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `8.0` ★☆☆ ⚡72.0 Q0.8✓ Very good · ↗1 layers
+### 1610. [kmexnx/excel-to-pdf-mcp](https://github.com/kmexnx/excel-to-pdf-mcp)  `8.0` ★☆☆ ⚡72.0 Q0.8✓ Very good · ↗1 layers
 
 **A server that enables secure and automated conversion of Excel and Apple Numbers files to PDF, integrating with AI assistants for streamlined file management.**
 
@@ -24620,7 +24561,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1615. [handwriting-ocr/handwriting-ocr-mcp-server](https://github.com/handwriting-ocr/handwriting-ocr-mcp-server)  `8.0` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers 📍
+### 1611. [handwriting-ocr/handwriting-ocr-mcp-server](https://github.com/handwriting-ocr/handwriting-ocr-mcp-server)  `8.0` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling integration between MCP clients and the Handwriting OCR service, facilitating image/PDF upload, status checking, and OCR result retrieval.**
 
@@ -24633,7 +24574,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1616. [Login | Salesforce](https://midhs.my.salesforce.com)  `7.8` ☆☆☆ ⚡72.0 Q0.8○ Good 📍
+### 1612. [Login | Salesforce](https://midhs.my.salesforce.com)  `7.8` ☆☆☆ ⚡72.0 Q0.8○ Good 📍
 
 **This technical resource outlines the process of integrating a custom domain into Salesforce using login credentials, highlighting the use of custom domains and secure login mechanisms. It emphasizes the importance of proper configuration for seamless**
 
@@ -24647,7 +24588,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1617. [querypie/querypie-mcp-server](https://github.com/querypie/querypie-mcp-server)  `7.7` ☆☆☆ ⚡72.0 Q0.8○ Good · ↗1 layers
+### 1613. [querypie/querypie-mcp-server](https://github.com/querypie/querypie-mcp-server)  `7.7` ☆☆☆ ⚡72.0 Q0.8○ Good · ↗1 layers
 
 **The project details the transition from an external MCP Server to an internal server within QueryPie ACP 11.5.0, emphasizing the need for developers to use the in-product server for current features and security.**
 
@@ -24660,7 +24601,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1618. [mamertofabian/elevenlabs-mcp-server](https://github.com/mamertofabian/elevenlabs-mcp-server)  `8.2` ★☆☆ ⚡71.0 Q0.6○ Good · ↗1 layers
+### 1614. [mamertofabian/elevenlabs-mcp-server](https://github.com/mamertofabian/elevenlabs-mcp-server)  `8.2` ★☆☆ ⚡71.0 Q0.6○ Good · ↗1 layers
 
 **A cloud-based MCP server integrating with ElevenLabs API for text-to-speech generation, supporting multiple voices and scripts.**
 
@@ -24674,7 +24615,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1619. [OpenVerb — The Open Standard for AI Actions](https://www.openverb.org)  `10.0` ★★★ ⚡70.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 1615. [OpenVerb — The Open Standard for AI Actions](https://www.openverb.org)  `10.0` ★★★ ⚡70.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A deterministic action layer protocol that standardizes AI real-world execution through JSON-defined "Verbs" to prevent hallucinated tool calls.**
 
@@ -24687,7 +24628,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1620. [https://hub.anythingllm.com/me](https://hub.anythingllm.com/me)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent 📍
+### 1616. [https://hub.anythingllm.com/me](https://hub.anythingllm.com/me)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent 📍
 
 **A community marketplace for one-click installation of agent skills, system prompts, and slash commands with enterprise-grade multi-user isolation.**
 
@@ -24701,7 +24642,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1621. [https://www.reddit.com/r/googleantigravity/comments/1shzok0/omniroute_](https://www.reddit.com/r/googleantigravity/comments/1shzok0/omniroute_opensource_ai_gateway_that_pools_all)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
+### 1617. [https://www.reddit.com/r/googleantigravity/comments/1shzok0/omniroute_](https://www.reddit.com/r/googleantigravity/comments/1shzok0/omniroute_opensource_ai_gateway_that_pools_all)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good · ↗1 layers 📍
 
 **The resource discusses an open-source project aimed at improving AI gateway functionality by pooling data and optimizing communication protocols, focusing on interoperability and integration across systems.**
 
@@ -24715,7 +24656,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1622. [https://discord.com/developers/applications/1493728651773087825/oauth2](https://discord.com/developers/applications/1493728651773087825/oauth2)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good 📍
+### 1618. [https://discord.com/developers/applications/1493728651773087825/oauth2](https://discord.com/developers/applications/1493728651773087825/oauth2)  `8.8` ★☆☆ ⚡70.0 Q0.6✓ Very good 📍
 
 **The resource outlines the technical requirements and considerations for integrating Discord into the Borg intelligence database, focusing on API access, authentication methods, and real-time data synchronization.**
 
@@ -24729,7 +24670,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1623. [williamcloudqi/matlab-mcp-server](https://github.com/williamcloudqi/matlab-mcp-server)  `8.0` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗2 layers
+### 1619. [williamcloudqi/matlab-mcp-server](https://github.com/williamcloudqi/matlab-mcp-server)  `8.0` ★☆☆ ⚡70.0 Q0.7✓ Very good · ↗2 layers
 
 **A platform that integrates MATLAB with AI to enable users to execute code, generate scripts from natural language, and access documentation.**
 
@@ -24742,7 +24683,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1624. [https://www.npmjs.com/package/@modelcontextprotocol/server-everything](https://www.npmjs.com/package/@modelcontextprotocol/server-everything)  `10.0` ★★★ ⚡69.0 Q0.5⭐ Excellent 📍
+### 1620. [https://www.npmjs.com/package/@modelcontextprotocol/server-everything](https://www.npmjs.com/package/@modelcontextprotocol/server-everything)  `10.0` ★★★ ⚡69.0 Q0.5⭐ Excellent 📍
 
 **The official reference test server for the Model Context Protocol (MCP), implementing all primitives (Prompts, Resources, Tools) to help developers validate MCP clients.**
 
@@ -24755,7 +24696,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1625. [manascb1344/together-mcp-server](https://github.com/manascb1344/together-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
+### 1621. [manascb1344/together-mcp-server](https://github.com/manascb1344/together-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
 
 **A MCP server enabling high-quality image generation using Together AI's Flux.1 Schnell model.**
 
@@ -24768,7 +24709,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1626. [aliyun/alibabacloud-polardbx-mcp-server](https://github.com/aliyun/alibabacloud-polardbx-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
+### 1622. [aliyun/alibabacloud-polardbx-mcp-server](https://github.com/aliyun/alibabacloud-polardbx-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
 
 **A Model Context Protocol (MCP) server enabling AI agents to interact with Alibaba cloud PolarDB-X databases.**
 
@@ -24781,7 +24722,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1627. [a01110946/rhinomcp](https://github.com/a01110946/rhinomcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
+### 1623. [a01110946/rhinomcp](https://github.com/a01110946/rhinomcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
 
 **Enables integration between Rhino3D and Claude AI using the Model Context Protocol for AI-assisted 3D modeling.**
 
@@ -24794,7 +24735,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1628. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
+### 1624. [direkt/mcp-test](https://github.com/direkt/mcp-test)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool for creating and managing SQLite databases from compressed log files, enabling integration with MCP Server.**
 
@@ -24807,7 +24748,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1629. [rooking-oss/zipcode-search-mcp](https://github.com/rooking-oss/zipcode-search-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1625. [rooking-oss/zipcode-search-mcp](https://github.com/rooking-oss/zipcode-search-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Python-based MCP server that provides Japanese postal code to address lookup functionality using the Model Context Protocol.**
 
@@ -24820,7 +24761,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1630. [bob-lance/grok-mcp](https://github.com/bob-lance/grok-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
+### 1626. [bob-lance/grok-mcp](https://github.com/bob-lance/grok-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
 
 **A MCP server enabling seamless integration of Grok AI capabilities into Cline for enhanced developer productivity.**
 
@@ -24833,7 +24774,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1631. [bmorphism/anti-bullshit-mcp-server](https://github.com/bmorphism/anti-bullshit-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
+### 1627. [bmorphism/anti-bullshit-mcp-server](https://github.com/bmorphism/anti-bullshit-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗2 layers
 
 **A web-based platform for analyzing claims, validating sources, and detecting manipulation using multiple epistemological frameworks.**
 
@@ -24846,7 +24787,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1632. [demcp/demcp-meson-mcp](https://github.com/demcp/demcp-meson-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
+### 1628. [demcp/demcp-meson-mcp](https://github.com/demcp/demcp-meson-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good 📍
 
 **A cross-chain transaction MCP server enabling secure asset transfers between blockchains using Meson Protocol.**
 
@@ -24859,7 +24800,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1633. [199-mcp/mcp-wait-timer](https://github.com/199-mcp/mcp-wait-timer)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
+### 1629. [199-mcp/mcp-wait-timer](https://github.com/199-mcp/mcp-wait-timer)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
 
 **A tool to introduce deliberate pauses in asynchronous workflows, ensuring time-dependent operations complete before proceeding.**
 
@@ -24872,7 +24813,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1634. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
+### 1630. [pixelsock/directus-mcp](https://github.com/pixelsock/directus-mcp)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers
 
 **A Node.js server implementing the Model Context Protocol (MCP) to enable AI clients to interact with the Directus API.**
 
@@ -24885,7 +24826,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1635. [fwber.me - Adult Social Network - Free Tokens for AI Avatars & Gold Premium!](https://www.fwber.me/register)  `7.8` ☆☆☆ ⚡69.0 Q0.7○ Good 📍
+### 1631. [fwber.me - Adult Social Network - Free Tokens for AI Avatars & Gold Premium!](https://www.fwber.me/register)  `7.8` ☆☆☆ ⚡69.0 Q0.7○ Good 📍
 
 **The Borg Project intelligence database should prioritize analyzing the technical architecture of fwber.me, particularly its methods for connecting users across platforms and maintaining robust communication flows.**
 
@@ -24899,7 +24840,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1636. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
+### 1632. [hmk/box-mcp-server](https://github.com/hmk/box-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
 
 **A server-based context protocol implementation for searching, reading, and accessing files within a Box environment.**
 
@@ -24912,7 +24853,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1637. [api7/apisix-mcp](https://github.com/api7/apisix-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
+### 1633. [api7/apisix-mcp](https://github.com/api7/apisix-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
 
 **Facilitates interaction between large language models and APISIX Admin API via MCP server.**
 
@@ -24925,7 +24866,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1638. [tigrisdata/tigris-mcp-server](https://github.com/tigrisdata/tigris-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
+### 1634. [tigrisdata/tigris-mcp-server](https://github.com/tigrisdata/tigris-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
 
 **Tigris MCP Server enables seamless integration between AI agents and Tigris key features like bucket and object management.**
 
@@ -24938,7 +24879,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1639. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1635. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A model context protocol server for managing Keycloak users and realms with AI-powered automation.**
 
@@ -24951,7 +24892,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1640. [danvega/dv-courses-mcp](https://github.com/danvega/dv-courses-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
+### 1636. [danvega/dv-courses-mcp](https://github.com/danvega/dv-courses-mcp)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
 
 **A Spring Boot application exposing course data via the Model Control Protocol (MCP) for integration with AI models.**
 
@@ -24964,7 +24905,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1641. [opentofu/opentofu-mcp-server](https://github.com/opentofu/opentofu-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
+### 1637. [opentofu/opentofu-mcp-server](https://github.com/opentofu/opentofu-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good · ↗1 layers
 
 **A Node.js-based MCP server enabling AI assistants to search and retrieve information from the OpenTofu Registry.**
 
@@ -24977,7 +24918,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1642. [rakeshgangwar/erpnext-mcp-server](https://github.com/rakeshgangwar/erpnext-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
+### 1638. [rakeshgangwar/erpnext-mcp-server](https://github.com/rakeshgangwar/erpnext-mcp-server)  `8.0` ★☆☆ ⚡68.0 Q0.7✓ Very good 📍
 
 **Integrates AI assistants with ERPNext via the Model Context Protocol for seamless data interaction.**
 
@@ -24990,7 +24931,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1643. [dortegau/mcp-proxy-sidecar](https://github.com/dortegau/mcp-proxy-sidecar)  `8.0` ★☆☆ ⚡67.0 Q0.7✓ Very good 📍
+### 1639. [dortegau/mcp-proxy-sidecar](https://github.com/dortegau/mcp-proxy-sidecar)  `8.0` ★☆☆ ⚡67.0 Q0.7✓ Very good 📍
 
 **Adds real-time WebSocket monitoring for all MCP interactions.**
 
@@ -25003,7 +24944,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1644. [https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins](https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins)  `8.7` ★☆☆ ⚡66.0 Q0.6✓ Very good · ↗1 layers
+### 1640. [https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins](https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins)  `8.7` ★☆☆ ⚡66.0 Q0.6✓ Very good · ↗1 layers
 
 **The resource evaluates Monero versus Zcash, highlighting their respective privacy mechanisms, transaction transparency, and technical implementations to determine which offers superior anonymity and security in the cryptocurrency space.**
 
@@ -25016,7 +24957,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1645. [BoundaryML/baml-examples](https://github.com/BoundaryML/baml-examples/issues/53)  `7.7` ☆☆☆ ⚡66.0 Q0.7○ Good · ↗2 layers
+### 1641. [BoundaryML/baml-examples](https://github.com/BoundaryML/baml-examples/issues/53)  `7.7` ☆☆☆ ⚡66.0 Q0.7○ Good · ↗2 layers
 
 **This issue discusses the potential for a Boundary Language Model (BAML) to help constrain the number of tools available in an IDE or toolset, addressing the problem where LLMs might be overwhelmed by too many tools. The proposed solution is using the**
 
@@ -25027,7 +24968,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1646. [incomestreamsurfer/chatgpt-native-image-gen-mcp](https://github.com/incomestreamsurfer/chatgpt-native-image-gen-mcp)  `8.0` ★☆☆ ⚡64.0 Q0.6✓ Very good · ↗1 layers
+### 1642. [incomestreamsurfer/chatgpt-native-image-gen-mcp](https://github.com/incomestreamsurfer/chatgpt-native-image-gen-mcp)  `8.0` ★☆☆ ⚡64.0 Q0.6✓ Very good · ↗1 layers
 
 **A Python-based MCP server enabling AI-driven image generation and editing using OpenAI's gpt-image-1 model.**
 
@@ -25039,7 +24980,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1647. [https://hack64.net/tools/patcher.php](https://hack64.net/tools/patcher.php)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗1 layers 📍
+### 1643. [https://hack64.net/tools/patcher.php](https://hack64.net/tools/patcher.php)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗1 layers 📍
 
 **The resource describes a web-based patch management tool designed to modify or update firmware on devices, focusing on interoperability and integration with various systems.**
 
@@ -25053,7 +24994,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1648. [https://monero.forex/how-to-buy-monero](https://monero.forex/how-to-buy-monero)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗1 layers 📍
+### 1644. [https://monero.forex/how-to-buy-monero](https://monero.forex/how-to-buy-monero)  `7.5` ☆☆☆ ⚡64.0 Q0.6○ Good · ↗1 layers 📍
 
 **The resource provides a step-by-step overview of how to buy and utilize Monero within the Borg blockchain infrastructure, focusing on technical integration and interoperability protocols.**
 
@@ -25067,7 +25008,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1649. [DrCatHicks/learning-opportunities](https://github.com/DrCatHicks/learning-opportunities)  `7.7` ☆☆☆ ⚡63.0 Q0.6○ Good 📍
+### 1645. [DrCatHicks/learning-opportunities](https://github.com/DrCatHicks/learning-opportunities)  `7.7` ☆☆☆ ⚡63.0 Q0.6○ Good 📍
 
 **GitHub - DrCatHicks/learning-opportunities: A Claude or Codex skill for deliberate skill development during AI-assisted coding · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings <link crossorigin="anonymous" media=**
 
@@ -25078,7 +25019,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1650. [JavaScript is not available.](https://x.com/reach_vb/status/2038670509768839458)  `7.5` ☆☆☆ ⚡63.0 Q0.7○ Good 📍
+### 1646. [JavaScript is not available.](https://x.com/reach_vb/status/2038670509768839458)  `7.5` ☆☆☆ ⚡63.0 Q0.7○ Good 📍
 
 **This resource focuses on troubleshooting technical issues related to JavaScript availability in web browsers, providing guidance on browser compatibility and user experience improvements.**
 
@@ -25091,7 +25032,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1651. [JavaScript is not available.](https://x.com/spacex/status/2035519125284380672)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
+### 1647. [JavaScript is not available.](https://x.com/spacex/status/2035519125284380672)  `7.2` ☆☆☆ ⚡62.0 Q0.6○ Good · ↗1 layers 📍
 
 **The post discusses browser compatibility issues and the need for JavaScript support in a space exploration context.**
 
@@ -25105,7 +25046,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1652. [https://auth.freetaxusa.com](https://auth.freetaxusa.com)  `7.7` ☆☆☆ ⚡61.0 Q0.6○ Good 📍
+### 1648. [https://auth.freetaxusa.com](https://auth.freetaxusa.com)  `7.7` ☆☆☆ ⚡61.0 Q0.6○ Good 📍
 
 **This resource highlights a technical requirement for enabling JavaScript in the browser to access certain functionalities, specifically focusing on the interoperability and connectivity aspects within the Borg Project ecosystem.**
 
@@ -25118,7 +25059,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1653. [https://social.hails.org/@hailey/116446826733136456](https://social.hails.org/@hailey/116446826733136456)  `7.2` ☆☆☆ ⚡59.0 Q0.5○ Good 📍
+### 1649. [https://social.hails.org/@hailey/116446826733136456](https://social.hails.org/@hailey/116446826733136456)  `7.2` ☆☆☆ ⚡59.0 Q0.5○ Good 📍
 
 **The resource discusses integrating Linux with Windows 9x Subsystem for Linux to enable Mastodon web app functionality.**
 
@@ -25136,7 +25077,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 > 59 tools · avg signal ⚡85
 
-### 1654. [cameronking4/programmatic-tool-calling-ai-sdk](https://github.com/cameronking4/programmatic-tool-calling-ai-sdk)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 1650. [cameronking4/programmatic-tool-calling-ai-sdk](https://github.com/cameronking4/programmatic-tool-calling-ai-sdk)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **The core innovation is transforming multi-round-trip tool invocation, common in traditional LLM applications, into a single round-trip process. The LLM generates a complete JavaScript snippet that orchestrates multiple tool calls in parallel (using `**
 
@@ -25152,7 +25093,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1655. [elusznik/mcp-server-code-execution-mode](https://github.com/elusznik/mcp-server-code-execution-mode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 1651. [elusznik/mcp-server-code-execution-mode](https://github.com/elusznik/mcp-server-code-execution-mode)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The resource describes an MCP server bridge designed to solve the massive context window consumption caused by exposing numerous tool definitions (schemas) to an LLM. It adopts a 'Discovery-First Architecture' inspired by Anthropic and Cloudflare, wh**
 
@@ -25168,7 +25109,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1656. [uaziz1/mcp-slim](https://github.com/uaziz1/mcp-slim)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 1652. [uaziz1/mcp-slim](https://github.com/uaziz1/mcp-slim)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The mcp-slim project addresses the inefficiencies of the current MCP protocol by acting as a zero-code, intelligent proxy. It monitors Claude Code sessions, identifies repetitive or high-cost MCP API calls, and generates optimized proxy modules that **
 
@@ -25183,7 +25124,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1657. [Chat2AnyLLM/code-assistant-manager](https://github.com/Chat2AnyLLM/code-assistant-manager)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 1653. [Chat2AnyLLM/code-assistant-manager](https://github.com/Chat2AnyLLM/code-assistant-manager)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The project addresses the fragmentation caused by managing numerous AI coding assistants (like Claude, Gemini, Copilot, etc.) by providing a single command-line interface (CLI) wrapper called 'cam'. It unifies configuration through centralized `provi**
 
@@ -25199,7 +25140,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1658. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 1654. [voicetreelab/lazy-mcp](https://github.com/voicetreelab/lazy-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Lazy-MCP solves the problem of 'token pollution' where loading numerous MCP tools consumes significant portions of an LLM's context window. It functions as a middleware proxy that hides the full list of available tools behind two meta-tools: get_tool**
 
@@ -25215,7 +25156,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1659. [VeriTeknik/pluggedin-mcp](https://github.com/VeriTeknik/pluggedin-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 1655. [VeriTeknik/pluggedin-mcp](https://github.com/VeriTeknik/pluggedin-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **This project implements a middleware proxy server designed specifically for the Model Context Protocol (MCP) ecosystem. It centralizes connections, manages tool/prompt discovery, and intelligently routes client requests (from clients like Claude Desk**
 
@@ -25231,7 +25172,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1660. [toolprint/hypertool-mcp](https://github.com/toolprint/hypertool-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 1656. [toolprint/hypertool-mcp](https://github.com/toolprint/hypertool-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Hypertool-mcp acts as a middleware gateway between AI clients (like Claude or Cursor) and multiple Model Context Protocol (MCP) servers. Its primary technical innovation is the abstraction of tool management into 'Toolsets'—dynamic groupings of funct**
 
@@ -25247,7 +25188,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1661. [awakecoding/mcp-proxy-tool](https://github.com/awakecoding/mcp-proxy-tool)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 1657. [awakecoding/mcp-proxy-tool](https://github.com/awakecoding/mcp-proxy-tool)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **This tool acts as a bridge, converting between different MCP transport protocols. It provides triple transport support: connecting to HTTP-based MCP servers (like Microsoft Learn), launching executable MCP servers via standard input/output (STDIO), a**
 
@@ -25263,7 +25204,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1662. [wesnermichel/nexus-mcp-claude-desktop-server](https://github.com/wesnermichel/nexus-mcp-claude-desktop-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1658. [wesnermichel/nexus-mcp-claude-desktop-server](https://github.com/wesnermichel/nexus-mcp-claude-desktop-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Nexus MCP Bridge for Claude Desktop is a minimal, efficient extension that allows Claude Desktop to communicate with VSCode using the Model Context Protocol (MCP). It supports file system access, directory management, and security controls, enabl**
 
@@ -25279,7 +25220,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1663. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 1659. [yantrikos/yantrikdb](https://github.com/yantrikos/yantrikdb)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **GitHub - yantrikos/yantrikdb: Cognitive memory engine for AI agents — temporal decay, contradiction detection, autonomous consolidation, knowledge graph, ANN recall via HNSW. Embeddable Rust library with Python bindings; powers yantrikdb-server (HTTP**
 
@@ -25295,7 +25236,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1664. [sam00101011/402.bot-public](https://github.com/sam00101011/402.bot-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗3 layers 📍
+### 1660. [sam00101011/402.bot-public](https://github.com/sam00101011/402.bot-public)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗3 layers 📍
 
 **The 402bot CLI provides a comprehensive suite of commands for automating 402.bot operations such as wallet management, payment handling, MCP proxy integration, and market data retrieval. It supports advanced features like discovery, inspection, confi**
 
@@ -25311,7 +25252,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1665. [AI-QL/tuui](https://github.com/AI-QL/tuui)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1661. [AI-QL/tuui](https://github.com/AI-QL/tuui)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **TUUI is a desktop MCP client designed as a tool unitary utility integration, accelerating AI adoption through the Model Context Protocol (MCP) and enabling cross-vendor LLM API orchestration. The project represents a bold experiment in creating a com**
 
@@ -25327,7 +25268,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1666. [Edison-Watch/open-edison](https://github.com/Edison-Watch/open-edison)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 1662. [Edison-Watch/open-edison](https://github.com/Edison-Watch/open-edison)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **OpenEdison is a solution designed to firewall data leakage by providing visibility into AI's interactions with your data/systems of record. It offers deterministic agentic control, structured execution controls, and powerful observability for AI agen**
 
@@ -25343,7 +25284,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1667. [edwarddgao/agent-traces](https://github.com/edwarddgao/agent-traces)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 1663. [edwarddgao/agent-traces](https://github.com/edwarddgao/agent-traces)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **GitHub - edwarddgao/agent-traces: Agent-friendly semantic search over your local Claude Code and Codex session traces. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Wri**
 
@@ -25359,7 +25300,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1668. [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 1664. [toolsdk-ai/toolsdk-mcp-registry](https://github.com/toolsdk-ai/toolsdk-mcp-registry)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The ToolSDK MCP Registry provides a comprehensive infrastructure for managing the lifecycle of Model Context Protocol (MCP) servers. It functions as a middleware layer that abstracts communication protocols, successfully bridging local STDIO-based pr**
 
@@ -25375,7 +25316,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1669. [jasonmeverett/cloudera-ai-agent-studio-mcp](https://github.com/jasonmeverett/cloudera-ai-agent-studio-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 1665. [jasonmeverett/cloudera-ai-agent-studio-mcp](https://github.com/jasonmeverett/cloudera-ai-agent-studio-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The MCP Server acts as a central orchestration layer for Cloudera AI's Agent Studio, allowing developers to define, execute, and manage workflows programmatically. It supports features such as workflow creation, agent management, conversational inter**
 
@@ -25391,7 +25332,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1670. [leobuskin/mcp_jetbrains_proxy](https://github.com/leobuskin/mcp_jetbrains_proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
+### 1666. [leobuskin/mcp_jetbrains_proxy](https://github.com/leobuskin/mcp_jetbrains_proxy)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp_jetbrains_proxy package serves as a middleware solution that facilitates seamless interaction between large language models (LLMs) and JetBrains IDEs by implementing the Model Context Protocol (MCP). This allows developers to integrate AI cap**
 
@@ -25406,7 +25347,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1671. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 1667. [luebken/playlist-mcp](https://github.com/luebken/playlist-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The Borg Project's 'playlist-mcp' repository provides an experimental MCP server designed to generate transcripts from YouTube playlists. It integrates various development tools such as GitHub Copilot, Codespaces, and MCP registry for seamless workfl**
 
@@ -25421,7 +25362,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1672. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 1668. [samarthsinghal28/gmail_mcp_server](https://github.com/samarthsinghal28/gmail_mcp_server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The project provides a centralized platform for developers to build, manage, and deploy intelligent applications using tools like GitHub Copilot, AIGitHub SparkBuild, and MCP Registry. It supports enterprise-level code review, security audits, and wo**
 
@@ -25436,7 +25377,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1673. [brunosantoslab/spring-mcp-bridge](https://github.com/brunosantoslab/spring-mcp-bridge)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 1669. [brunosantoslab/spring-mcp-bridge](https://github.com/brunosantoslab/spring-mcp-bridge)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The Spring MCP Bridge tool scans a Spring Boot project to identify REST endpoints, generates a compatible MCP server, and preserves request/response models. It supports zero-configuration setup, model preservation, Javadoc extraction, and schema gene**
 
@@ -25451,7 +25392,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1674. [Docker MCP Catalog | Discover Secure, Top MCP Servers](https://hub.docker.com/mcp?_gl=1*10jc364*_gcl_au*MjAzNjk1NDM0MC4xNzYwOTA3NzUy*_ga*NTE1ODIzNTg5LjE3NjA5MDc3NDQ.*_ga_XJWPQMJYHQ*czE3NjU5NDc1MTEkbzUkZzEkdDE3NjU5NDc1NDQkajI3JGwwJGgw)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 1670. [Docker MCP Catalog | Discover Secure, Top MCP Servers](https://hub.docker.com/mcp?_gl=1*10jc364*_gcl_au*MjAzNjk1NDM0MC4xNzYwOTA3NzUy*_ga*NTE1ODIzNTg5LjE3NjA5MDc3NDQ.*_ga_XJWPQMJYHQ*czE3NjU5NDc1MTEkbzUkZzEkdDE3NjU5NDc1NDQkajI3JGwwJGgw)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The Docker MCP Catalog addresses the fragmentation in AI tool integration by providing a unified repository of containerized MCP servers. By leveraging Docker's containerization infrastructure, the platform ensures that MCP servers—which act as bridg**
 
@@ -25467,7 +25408,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1675. [Toolkit UI](https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 1671. [Toolkit UI](https://docs.docker.com/ai/mcp-catalog-and-toolkit/toolkit)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The Docker MCP Toolkit acts as a foundational connectivity layer for the Model Context Protocol ecosystem, offering a UI and CLI for the management of MCP servers. It incorporates a Gateway for routing LLM requests, dynamic discovery for identifying **
 
@@ -25483,7 +25424,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1676. [adamwattis/resource-hub-server](https://github.com/adamwattis/resource-hub-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
+### 1672. [adamwattis/resource-hub-server](https://github.com/adamwattis/resource-hub-server)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good 📍
 
 **The resource-hub-server acts as a middleware component, facilitating secure communication between local MCP environments and the central Resource Hub. It provides centralized access to tools, configurations, and resources, streamlining operations acr**
 
@@ -25497,7 +25438,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1677. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗4 layers
+### 1673. [mamertofabian/audio-mcp-server](https://github.com/mamertofabian/audio-mcp-server)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗4 layers
 
 **The project provides a centralized platform for managing audio files, integrating code review workflows, security scanning, and automated deployment processes. It leverages GitHub's ecosystem to enable developers to securely manage code changes, enfo**
 
@@ -25512,7 +25453,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1678. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester/blob/main/README.md)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1674. [ousatov-ua/memgraph-ingester](https://github.com/ousatov-ua/memgraph-ingester/blob/main/README.md)  `8.8` ★☆☆ ⚡87.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **memgraph-ingester/README.md at main · ousatov-ua/memgraph-ingester · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy**
 
@@ -25526,7 +25467,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1679. [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima)  `9.7` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
+### 1675. [Zen4-bit/Proxima](https://github.com/Zen4-bit/Proxima)  `9.7` ★★☆ ⚡86.0 Q0.8⭐ Excellent 📍
 
 **GitHub - Zen4-bit/Proxima: Multi-AI MCP Server - Connect ChatGPT, Claude, Gemini &amp; Perplexity to your coding tools without any API · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION Gi**
 
@@ -25539,7 +25480,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1680. [voitta-ai/mcp-voitta-gateway](https://github.com/voitta-ai/mcp-voitta-gateway)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1676. [voitta-ai/mcp-voitta-gateway](https://github.com/voitta-ai/mcp-voitta-gateway)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The voitta-gateway project provides a server-based gateway that allows developers to integrate Voitta's AI capabilities into their applications using the MCP protocol. It supports both STDIO and SSE transports, enabling seamless communication between**
 
@@ -25554,7 +25495,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1681. [kvlar-io/kvlar](https://github.com/kvlar-io/kvlar)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 1677. [kvlar-io/kvlar](https://github.com/kvlar-io/kvlar)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **A dual-firewall security layer designed for MCP and autonomous agent networks that strips malicious prompt injections by converting them to domain-specific protocols.**
 
@@ -25568,7 +25509,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1682. [MCPProxy.app - Smart MCP Proxy for AI Agents](https://mcpproxy.app)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1678. [MCPProxy.app - Smart MCP Proxy for AI Agents](https://mcpproxy.app)  `9.0` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **MCPProxy acts as an intelligent federating gateway, consolidating multiple MCP servers behind a single smart endpoint. It provides intelligent tool discovery, token optimization through on-demand discovery and response truncation, and advanced securi**
 
@@ -25584,7 +25525,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1683. [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers
+### 1679. [IBM/mcp-context-forge](https://github.com/IBM/mcp-context-forge)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗2 layers
 
 **An enterprise MCP gateway that virtualizes legacy REST/gRPC APIs into MCP-compliant tools and federates multiple servers into a single managed endpoint.**
 
@@ -25598,7 +25539,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1684. [lfzds4399-cpu/claude-screen-mcp](https://github.com/lfzds4399-cpu/claude-screen-mcp)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 1680. [lfzds4399-cpu/claude-screen-mcp](https://github.com/lfzds4399-cpu/claude-screen-mcp)  `9.8` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **GitHub - lfzds4399-cpu/claude-screen-mcp: MCP server letting Claude see your screen. Windows + macOS + Linux. Zero native runtime deps. Fills Anthropic computer-use macOS-only gap. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Ap**
 
@@ -25610,7 +25551,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1685. [jetbrains/mcp-jetbrains](https://github.com/jetbrains/mcp-jetbrains)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 1681. [jetbrains/mcp-jetbrains](https://github.com/jetbrains/mcp-jetbrains)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **JetBrains MCP Proxy Server enables secure, protocol-agnostic communication between JetBrains IDEs and external clients.**
 
@@ -25626,7 +25567,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1686. [oxylabs/oxylabs-mcp](https://github.com/oxylabs/oxylabs-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 1682. [oxylabs/oxylabs-mcp](https://github.com/oxylabs/oxylabs-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Oxylabs MCP bridges AI models and the web by scraping, rendering, and extracting structured data from any URL.**
 
@@ -25642,7 +25583,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1687. [ksysoev/smcp-proxy](https://github.com/ksysoev/smcp-proxy)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1683. [ksysoev/smcp-proxy](https://github.com/ksysoev/smcp-proxy)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Secure reverse proxy for Model Context Protocol (MCP) services with OIDC authentication, enabling enterprise-grade access control and scalable MCP infrastructure.**
 
@@ -25658,7 +25599,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1688. [MetaMCP Documentation - MetaMCP](https://docs.metamcp.com/en)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 1684. [MetaMCP Documentation - MetaMCP](https://docs.metamcp.com/en)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and apply middlewares. It functions as an MCP server itself, allowing it to be easily plugged into ANY MCP clients. The resource details the core concep**
 
@@ -25674,7 +25615,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1689. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers
+### 1685. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)  `7.8` ☆☆☆ ⚡83.0 Q0.8○ Good · ↗2 layers
 
 **GitHub - sachinsharma9780/memweave: memweave is a zero-infrastructure, async-first Python library that gives AI agents persistent, searchable memory — stored as plain Markdown files · GitHub Skip to content Navigation Menu Toggle navigation Sign in A**
 
@@ -25688,7 +25629,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1690. [sitbon/magg](https://github.com/sitbon/magg)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 1686. [sitbon/magg](https://github.com/sitbon/magg)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A meta-MCP server acting as a "package manager" that allows LLMs to autonomously discover, install, and orchestrate other MCP servers at runtime.**
 
@@ -25702,7 +25643,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1691. [docker/mcp-gateway](https://github.com/docker/mcp-gateway)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 1687. [docker/mcp-gateway](https://github.com/docker/mcp-gateway)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A centralized proxy for orchestrating containerized MCP servers, providing restricted host privileges, secret injection, and PII payload interceptors.**
 
@@ -25716,7 +25657,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1692. [postrv/forgemax](https://github.com/postrv/forgemax)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
+### 1688. [postrv/forgemax](https://github.com/postrv/forgemax)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers
 
 **A local MCP gateway that consolidates multiple tool servers into search/execute tools and runs LLM-generated code in a Deno-based V8 isolate.**
 
@@ -25730,7 +25671,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1693. [redhat-ai-tools/mcp-registry-mcp](https://github.com/redhat-ai-tools/mcp-registry-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1689. [redhat-ai-tools/mcp-registry-mcp](https://github.com/redhat-ai-tools/mcp-registry-mcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The MCP Registry MCP project provides a centralized server registry for managing Model Context Protocol (MCP) servers. It offers tools to monitor, list, and retrieve details about MCP registry instances, ensuring secure and isolated operations within**
 
@@ -25744,7 +25685,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1694. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers 📍
+### 1690. [mamba-studio/TypedMemory](https://github.com/mamba-studio/TypedMemory)  `7.8` ☆☆☆ ⚡82.0 Q0.8○ Good · ↗2 layers 📍
 
 **GitHub - mamba-studio/TypedMemory: A Java 25 library for mapping records to strongly typed off-heap memory using the FFM API. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copi**
 
@@ -25758,7 +25699,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1695. [microsoft/mcp-gateway](https://github.com/microsoft/mcp-gateway)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers 📍
+### 1691. [microsoft/mcp-gateway](https://github.com/microsoft/mcp-gateway)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers 📍
 
 **An enterprise-grade reverse proxy and management plane for MCP servers, optimized for Kubernetes and cloud-scale deployment.**
 
@@ -25772,7 +25713,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1696. [Overview - ContextForge AI Gateway](https://ibm.github.io/mcp-context-forge/architecture)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 1692. [Overview - ContextForge AI Gateway](https://ibm.github.io/mcp-context-forge/architecture)  `8.8` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **ContextForge is an open-source registry and proxy for MCP servers, A2A Agents, and REST/gRPC APIs. It provides centralized governance, discovery, and observability, acting as a single entry point for tools, resources, prompts, and servers while feder**
 
@@ -25787,7 +25728,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1697. [derbenoo/fiberflow-mcp-gateway](https://github.com/derbenoo/fiberflow-mcp-gateway)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1693. [derbenoo/fiberflow-mcp-gateway](https://github.com/derbenoo/fiberflow-mcp-gateway)  `8.7` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **The project focuses on deploying the Fiberflow MCP SSE Server using standard input (stdio) to enable real-time data processing and streaming. This approach leverages the MCP Gateway's capabilities to handle high-performance data flows securely, with **
 
@@ -25800,7 +25741,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1698. [abhishekbhakat/airflow-mcp-server](https://github.com/abhishekbhakat/airflow-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1694. [abhishekbhakat/airflow-mcp-server](https://github.com/abhishekbhakat/airflow-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A MCP Server for controlling Apache Airflow workflows, enabling centralized management and automation of Airflow-based pipelines.**
 
@@ -25816,7 +25757,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1699. [talhaorak/pytaiga-mcp](https://github.com/talhaorak/pytaiga-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 1695. [talhaorak/pytaiga-mcp](https://github.com/talhaorak/pytaiga-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A bridge enabling seamless integration of AI tools with Taiga Project Management for efficient project automation and workflow management.**
 
@@ -25832,7 +25773,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1700. [https://github.com/mcp](https://github.com/mcp)  `8.1` ★☆☆ ⚡80.0 Q0.7✓ Very good 📍
+### 1696. [https://github.com/mcp](https://github.com/mcp)  `8.1` ★☆☆ ⚡80.0 Q0.7✓ Very good 📍
 
 **The MCP Registry provides a standardized ecosystem of servers designed to facilitate seamless communication between AI agents and external environments. By utilizing the Model Context Protocol, these servers allow LLMs to perform actions and retrieve**
 
@@ -25848,7 +25789,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1701. [adampippert/multi-service-mcp-server](https://github.com/adampippert/multi-service-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1697. [adampippert/multi-service-mcp-server](https://github.com/adampippert/multi-service-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A modular MCP server supporting multiple tools via API, enabling scalable and isolated deployment of AI and automation services.**
 
@@ -25863,7 +25804,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1702. [usewombat/gateway](https://github.com/usewombat/gateway)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers 📍
+### 1698. [usewombat/gateway](https://github.com/usewombat/gateway)  `7.7` ☆☆☆ ⚡78.0 Q0.8○ Good · ↗1 layers 📍
 
 **GitHub - usewombat/gateway: Resource-level permissions for MCP agents: rwxd on any resource, deny by default · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better **
 
@@ -25876,7 +25817,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1703. [Plugged.in - Enterprise MCP Platform for AI Integration](https://plugged.in)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 1699. [Plugged.in - Enterprise MCP Platform for AI Integration](https://plugged.in)  `10.0` ★★★ ⚡77.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **An enterprise-grade MCP Hub that aggregates tool servers, providing universal transport compatibility (STDIO/SSE/HTTP) and built-in cross-agent persistent memory.**
 
@@ -25890,7 +25831,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1704. [Top 10 awesome MCP servers to make your life easier in 2026 | Composio](https://composio.dev/blog/10-awesome-mcp-servers-to-make-your-life-easier)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 1700. [Top 10 awesome MCP servers to make your life easier in 2026 | Composio](https://composio.dev/blog/10-awesome-mcp-servers-to-make-your-life-easier)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A centralized MCP gateway that manages authentication and refreshes for 250+ integrations, allowing agents to interact with SaaS tools without local setup.**
 
@@ -25904,7 +25845,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1705. [corbenicai/merlin-community](https://github.com/corbenicai/merlin-community)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗1 layers 📍
+### 1701. [corbenicai/merlin-community](https://github.com/corbenicai/merlin-community)  `7.8` ☆☆☆ ⚡76.0 Q0.8○ Good · ↗1 layers 📍
 
 **GitHub - corbenicai/merlin-community: Merlin Community Edition — free dedup engine + integrations. Saves LLM tokens. No telemetry. · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub**
 
@@ -25916,7 +25857,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1706. [alfredatnycu/grasshopper-mcp](https://github.com/alfredatnycu/grasshopper-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 1702. [alfredatnycu/grasshopper-mcp](https://github.com/alfredatnycu/grasshopper-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **Bridge server enabling communication between Grasshopper and Claude Desktop via the MCP protocol.**
 
@@ -25930,7 +25871,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1707. [vlaaad/ghosttyfx](https://github.com/vlaaad/ghosttyfx)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers 📍
+### 1703. [vlaaad/ghosttyfx](https://github.com/vlaaad/ghosttyfx)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers 📍
 
 **GitHub - vlaaad/ghosttyfx: JavaFX terminal that uses libghostty · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy in**
 
@@ -25942,7 +25883,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1708. [KenisLabs/arka-mcp-gateway](https://github.com/KenisLabs/arka-mcp-gateway)  `8.7` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗4 layers 📍
+### 1704. [KenisLabs/arka-mcp-gateway](https://github.com/KenisLabs/arka-mcp-gateway)  `8.7` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗4 layers 📍
 
 **Arka is an Enterprise MCP Gateway that provides a centralized gateway for managing and connecting to multiple Model Context Protocol (MCP) servers. It offers secure, scalable access to MCP servers with SSO authentication, session isolation, and centr**
 
@@ -25953,7 +25894,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1709. [https://smithery.ai](https://smithery.ai)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent 📍
+### 1705. [https://smithery.ai](https://smithery.ai)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent 📍
 
 **The premier "npm for AI agents," acting as a centralized registry and managed cloud host for thousands of Model Context Protocol (MCP) servers.**
 
@@ -25967,7 +25908,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1710. [https://glama.ai/gateway](https://glama.ai/gateway)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
+### 1706. [https://glama.ai/gateway](https://glama.ai/gateway)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
 
 **A unified AI gateway providing a single API for 350+ models and a searchable registry of over 19,000 Model Context Protocol (MCP) servers.**
 
@@ -25981,7 +25922,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1711. [MCPHub - MCPHub Documentation](https://mcphubx.com)  `8.7` ★☆☆ ⚡68.0 Q0.6✓ Very good 📍
+### 1707. [MCPHub - MCPHub Documentation](https://mcphubx.com)  `8.7` ★☆☆ ⚡68.0 Q0.6✓ Very good 📍
 
 **A central community registry and discovery platform for finding and integrating Model Context Protocol (MCP) servers across various domains.**
 
@@ -25995,7 +25936,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1712. [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry)  `8.3` ★☆☆ ⚡65.0 Q0.6✓ Very good · ↗2 layers 📍
+### 1708. [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry)  `8.3` ★☆☆ ⚡65.0 Q0.6✓ Very good · ↗2 layers 📍
 
 **The MCP registry provides MCP clients with a list of MCP servers, like an app store for MCP servers.**
 
@@ -26007,138 +25948,11 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-## MCP Servers
-
-> 7 tools · avg signal ⚡84
-
-### 1713. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/ai-gateway)  `8.0` ★☆☆ ⚡89.0 Q0.9 📍
-
-**The mcp-server-cloudflare project provides a cloud-hosted MCP server that enables developers to monitor, inspect, and manage AI Gateway logs using Cloudflare's AI Gateway API. It supports advanced features such as log retrieval, error analysis, and r**
-
-**Features:**
-- AI Gateway log monitoring
-- Remote MCP server access
-- Log retrieval and analysis
-- Error debugging
-- Security vulnerability detection
-- Code review integration
-
-*Tags: cloudflare, ai-gateway, mcp-server, developer-tools, security*
-
----
-
-### 1714. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/logpush)  `8.0` ★☆☆ ⚡86.0 Q0.8 📍
-
-**The mcp-server-cloudflare project provides a cloud-based MCP server that leverages Cloudflare's Logpush API to enable secure, automated workflows and job tracking. It supports integration with various tools and platforms, offering features such as jo**
-
-**Features:**
-- remote mcp connections
-- cloudflare oauth integration
-- logpush jobs management
-- job failure analysis
-- automated workflows
-
-*Tags: mcp-server, cloudflare, api-integration, security, developer-tools*
-
----
-
-### 1715. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dns-analytics)  `8.0` ★☆☆ ⚡85.0 Q0.8 📍
-
-**The mcp-server-cloudflare is a project designed to enhance DNS management by leveraging the Cloudflare DNS Analytics API. It offers tools for monitoring, analyzing, and optimizing DNS settings across various zones under a Cloudflare account. The serv**
-
-**Features:**
-- DNS analytics
-- Remote MCP server access
-- Zone management
-- DNS report generation
-- Optimization tools
-
-*Tags: dns-analytics, cloudflare, mcp-server, networking, security*
-
----
-
-### 1716. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/dex-analysis)  `8.0` ★☆☆ ⚡85.0 Q0.8 📍
-
-**The mcp-server-cloudflare is a model context protocol (MCP) server designed to integrate with Cloudflare's DEX API, enabling visibility into device, network, and application performance across Zero Trust environments. It supports remote MCP connectio**
-
-**Features:**
-- Remote MCP server integration
-- Performance monitoring and analysis
-- Test result visualization
-- Network path tracing
-- WARP diagnostic capture
-- Device and fleet status tracking
-
-*Tags: mcp, cloudflare, dex-analysis, security, monitoring*
-
----
-
-### 1717. [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench/tree/HEAD/mcp-servers/mcp-server-giphy)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
-
-**This project enables seamless integration between semantic workbench and the GIPHY API, allowing an assistant to retrieve and present relevant image data from GIPHY based on user context and search queries. It supports both standard and sampling mode**
-
-**Features:**
-- MCP server integration
-- GIPHY API usage
-- image search and retrieval
-- context-based image selection
-- automated responses
-
-*Tags: semanticworkbench, giphy-server, api-integration, context-aware, image-retrieval*
-
----
-
-### 1718. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/auditlogs)  `8.0` ★☆☆ ⚡81.0 Q0.8 📍
-
-**The mcp-server-cloudflare auditlogs tool enables organizations to monitor and analyze remote MCP connections from Cloudflare, focusing on account-level actions such as zone configuration changes. It leverages the Audit Log API to fetch detailed histo**
-
-**Features:**
-- Audit log retrieval
-- Account-level action tracking
-- Security monitoring
-- Remote MCP server access
-
-*Tags: mcp, audit-logs, cloudflare, security, developer-tools*
-
----
-
-### 1719. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/browser-rendering)  `8.0` ★☆☆ ⚡80.0 Q0.8 📍
-
-**The mcp-server-cloudflare project provides a cloud-hosted Model Context Protocol (MCP) server that facilitates remote browser rendering using Cloudflare's OAuth integration. It supports fetching web pages, converting them to Markdown, and capturing s**
-
-**Features:**
-- remote browser rendering
-- Markdown conversion
-- screenshot capture
-- AI-powered automation
-
-*Tags: cloudflare, mcp-server, web-scraping, ai, automation*
-
----
-
-## Protocol Bridges
-
-> 1 tools · avg signal ⚡68
-
-### 1720. [Google](https://www.google.com/search?ei=99wYafKdB_K2wN4P1P3DmQU&gs_lp=Egxnd3Mtd2l6LXNlcnAiTGNhbid0IGVuYWJsZSBibHVldG9vdGggZm9yIGZpdGJpdCBhcHAgb24gaXBob25lLCBibHVldG9vdGggdG9nZ2xlIGdyZXllZCBvdXRIrlFQji9YslBwAXgBkAEAmAGCAaABuxSqAQUxOS4xMLgBA8gBAPgBAZgCDqACzAvCAgoQABiwAxjWBBhHwgIFECEYoAHCAgUQIRirApgDAIgGAZAGCJIHAzUuOaAHk2ayBwM0Ljm4B8ULwgcGMC4xMi4yyAce&oq=can)  `7.0` ☆☆☆ ⚡68.0 Q0.7 📍
-
-**This technical resource examines the process of uploading images using Google's platform, focusing on its capabilities in handling file uploads and integrating AI functionalities. It evaluates the system's architecture for interoperability, user expe**
-
-**Features:**
-- image upload functionality
-- AI integration
-- file handling
-- search optimization
-
-*Tags: image-processing, ai-integration, file-management, web-development, search-optimization*
-
----
-
 ## Tool Discovery
 
 > 34 tools · avg signal ⚡85
 
-### 1721. [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 1709. [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Magentic-UI provides a specialized interface designed to eliminate the 'black-box' nature of autonomous agents by enabling real-time collaboration between humans and AI. Built on the AutoGen framework, it facilitates co-planning where users can edit **
 
@@ -26154,7 +25968,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1722. [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 1710. [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **The Apify MCP (Model Context Protocol) server acts as a centralized platform for AI agents to access and process data from various online sources such as social media, search engines, maps, e-commerce sites, and more. It supports OAuth authentication**
 
@@ -26170,7 +25984,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1723. [Dumbris/mcpproxy](https://github.com/Dumbris/mcpproxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
+### 1711. [Dumbris/mcpproxy](https://github.com/Dumbris/mcpproxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent 📍
 
 **mcpproxy acts as a crucial middleware layer for Model Context Protocol (MCP) interactions, specifically designed to connect an AI agent to several backend MCP servers. Its core functionality involves dynamic tool discovery across these federated serv**
 
@@ -26186,7 +26000,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1724. [nullplatform/meta-mcp-proxy](https://github.com/nullplatform/meta-mcp-proxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 1712. [nullplatform/meta-mcp-proxy](https://github.com/nullplatform/meta-mcp-proxy)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The `meta-mcp-proxy` functions as a centralized intermediary layer, often referred to as a 'meta-MCP' or wrapper, to manage a collection of other MCP servers or local computational tools. Its primary technical approach involves implementing a form of**
 
@@ -26202,7 +26016,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1725. [ziad-hsn/code-mode-toon](https://github.com/ziad-hsn/code-mode-toon)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 1713. [ziad-hsn/code-mode-toon](https://github.com/ziad-hsn/code-mode-toon)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **CodeModeTOON addresses the 'Context Trap' in agentic workflows—where large tool outputs like logs or database dumps exhaust the LLM context window—by acting as an efficient intermediary. It utilizes TOON Compression, a technique that applies schema e**
 
@@ -26218,7 +26032,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1726. [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
+### 1714. [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Notion MCP Server is an agent-based orchestration tool designed to streamline and enhance the development workflow for integrating Notion APIs. It leverages modern security practices, including OAuth2 authentication, to ensure secure access to No**
 
@@ -26234,7 +26048,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1727. [gemini-cli-extensions/mcp-toolbox](https://github.com/gemini-cli-extensions/mcp-toolbox)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
+### 1715. [gemini-cli-extensions/mcp-toolbox](https://github.com/gemini-cli-extensions/mcp-toolbox)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good 📍
 
 **The MCP Toolbox serves as a rapid prototyping and deployment layer for Model Context Protocol (MCP) servers within the Gemini CLI ecosystem. It allows developers to define tool schemas and logic in a 'tools.yaml' file, abstracting the underlying boil**
 
@@ -26250,7 +26064,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1728. [MCP-Zero: Active Tool Discovery for Autonomous LLM Agents](https://arxiv.org/html/2506.01056v3)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 1716. [MCP-Zero: Active Tool Discovery for Autonomous LLM Agents](https://arxiv.org/html/2506.01056v3)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **The resource details MCP-Zero, a novel framework designed to overcome the limitations of current tool-augmented LLM agents, which suffer from massive context overhead and passive tool selection delegated to retrieval systems. MCP-Zero shifts authorit**
 
@@ -26265,7 +26079,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1729. [Dynamic tool discovery in MCP | Speakeasy](https://www.speakeasy.com/mcp/tool-design/dynamic-tool-discovery)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 1717. [Dynamic tool discovery in MCP | Speakeasy](https://www.speakeasy.com/mcp/tool-design/dynamic-tool-discovery)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **The resource outlines Speakeasy's Model Context Protocol (MCP), which facilitates communication and tool usage for AI agents. The core technical focus is 'Dynamic Tool Discovery,' allowing agents to discover and utilize available tools (like APIs or **
 
@@ -26281,7 +26095,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1730. [Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF), Anchored by New Project Contributions Including Model Context Protocol (MCP), goose and AGENTS.md - Agentic AI Foundation (AAIF)](https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
+### 1718. [Linux Foundation Announces the Formation of the Agentic AI Foundation (AAIF), Anchored by New Project Contributions Including Model Context Protocol (MCP), goose and AGENTS.md - Agentic AI Foundation (AAIF)](https://aaif.io/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation-aaif-anchored-by-new-project-contributions-including-model-context-protocol-mcp-goose-and-agents-md)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
 
 **The Agentic AI Foundation (AAIF) serves as a neutral governance body for the standardization of agentic AI communications and workflows. Its technical core revolves around three major contributions: Anthropic's Model Context Protocol (MCP), which pro**
 
@@ -26297,7 +26111,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1731. [JoshuaWohle/Super-MCP#readme](https://github.com/JoshuaWohle/Super-MCP)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 1719. [JoshuaWohle/Super-MCP#readme](https://github.com/JoshuaWohle/Super-MCP)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The Super MCP Router allows users to configure multiple MCP servers (both local stdio and hosted HTTP) and access them through a single unified interface for Claude. It provides meta-tools like `list_tool_packages`, `list_tools`, `get_tool_details`, **
 
@@ -26313,7 +26127,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1732. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
+### 1720. [docherty/contextmgr-mcp](https://github.com/docherty/contextmgr-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The docherty/contextmgr-mcp project provides a context management solution using the Model Context Protocol (MCP) to enable secure, reliable communication between development tools and environments. It supports session management, capability negotiat**
 
@@ -26329,7 +26143,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1733. [thomasdavis/blah](https://github.com/thomasdavis/blah)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1721. [thomasdavis/blah](https://github.com/thomasdavis/blah)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A decentralized registry for managing and executing AI agent tools via the Model Context Protocol (MCP), enabling composable, secure, and transparent deployment of AI applications.**
 
@@ -26345,7 +26159,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1734. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 1722. [Raistlin82/btp-sap-odata-to-mcp-server-optimized](https://github.com/Raistlin82/btp-sap-odata-to-mcp-server-optimized)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **An enterprise-grade MCP server optimized for SAP OData, designed to address the tool explosion problem with modular authentication, hierarchical tool registry, and secure integration.**
 
@@ -26361,7 +26175,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1735. [MCP server directory for Claude Code, Codex, and more](https://playbooks.com/mcp)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 1723. [MCP server directory for Claude Code, Codex, and more](https://playbooks.com/mcp)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **This resource serves as a central hub for the emerging Model Context Protocol (MCP) ecosystem, detailing various server implementations that provide AI agents with structured access to local and remote resources. It covers a broad spectrum of integra**
 
@@ -26377,7 +26191,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1736. [Alpha Vantage MCP for Stock Market Data](https://mcp.alphavantage.co)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 1724. [Alpha Vantage MCP for Stock Market Data](https://mcp.alphavantage.co)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **The Alpha Vantage MCP server standardizes the way large language models (LLMs) and agentic systems interact with external data sources, specifically financial market data. It functions as a bridge, allowing tools like Claude, ChatGPT, and OpenAI Agen**
 
@@ -26393,7 +26207,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1737. [CoinGecko MCP Server - CoinGecko API](https://docs.coingecko.com/docs/mcp-server)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 1725. [CoinGecko MCP Server - CoinGecko API](https://docs.coingecko.com/docs/mcp-server)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **This resource details the CoinGecko MCP Server, which implements the Model Context Protocol (MCP) as an open standard to enable AI agents (like Claude and ChatGPT) to interact with external data. It offers multiple deployment options: a public, keyle**
 
@@ -26409,7 +26223,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1738. [antl3x/ToolRAG](https://github.com/antl3x/ToolRAG)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 1726. [antl3x/ToolRAG](https://github.com/antl3x/ToolRAG)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **A specialized RAG framework that enables "unlimited" tool support by using vector search to dynamically inject relevant tool schemas into the context.**
 
@@ -26423,7 +26237,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1739. [Transform your MCP architecture: Unite MCP servers through AgentCore Gateway | Amazon Web Services](https://aws.amazon.com/blogs/machine-learning/transform-your-mcp-architecture-unite-mcp-servers-through-agentcore-gateway)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 1727. [Transform your MCP architecture: Unite MCP servers through AgentCore Gateway | Amazon Web Services](https://aws.amazon.com/blogs/machine-learning/transform-your-mcp-architecture-unite-mcp-servers-through-agentcore-gateway)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The update introduces the capability to integrate existing, custom-built, or open-source MCP servers as native targets within Amazon Bedrock AgentCore Gateway. This solves the fragmentation challenge of managing numerous specialized MCP servers by gr**
 
@@ -26438,7 +26252,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1740. [xfey/MCP-Zero](https://github.com/xfey/MCP-Zero)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 1728. [xfey/MCP-Zero](https://github.com/xfey/MCP-Zero)  `10.0` ★★★ ⚡81.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A framework enabling agents to autonomously discover and request specific tools on-demand, reducing context usage by 98%.**
 
@@ -26452,7 +26266,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1741. [thirdstrandstudio/mcp-tool-chainer](https://github.com/thirdstrandstudio/mcp-tool-chainer)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
+### 1729. [thirdstrandstudio/mcp-tool-chainer](https://github.com/thirdstrandstudio/mcp-tool-chainer)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent 📍
 
 **An MCP server that enables sequential tool execution, allowing agents to pass data between multiple tools in a single context-efficient turn.**
 
@@ -26466,7 +26280,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1742. [alphavantage/alpha_vantage_mcp](https://github.com/alphavantage/alpha_vantage_mcp)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers
+### 1730. [alphavantage/alpha_vantage_mcp](https://github.com/alphavantage/alpha_vantage_mcp)  `9.7` ★★☆ ⚡81.0 Q0.7⭐ Excellent · ↗1 layers
 
 **The official MCP server for real-time and historical market data, providing agents with access to stocks, options, forex, and technical indicators.**
 
@@ -26480,7 +26294,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1743. [54rt1n/container-mcp](https://github.com/54rt1n/container-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1731. [54rt1n/container-mcp](https://github.com/54rt1n/container-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **Container-MCP enables secure execution of tools and code for large language models, leveraging MCP protocol and multi-layered security.**
 
@@ -26496,7 +26310,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1744. [firebase/genkit](https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 1732. [firebase/genkit](https://github.com/firebase/genkit/tree/HEAD/js/plugins/mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Genkit MCP plugin integrates Genkit with the Model Context Protocol to enable developers to build and manage AI-powered server environments.**
 
@@ -26512,7 +26326,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1745. [alti3/stk-mcp](https://github.com/alti3/stk-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
+### 1733. [alti3/stk-mcp](https://github.com/alti3/stk-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers
 
 **A platform enabling LLMs to interact with Ansys/AGI STK for digital mission engineering, bridging AI capabilities with advanced simulation tools.**
 
@@ -26527,7 +26341,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1746. [farhankaz/redis-mcp](https://github.com/farhankaz/redis-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers 📍
+### 1734. [farhankaz/redis-mcp](https://github.com/farhankaz/redis-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗4 layers 📍
 
 **A GitHub-based Redis MCP server for managing Redis operations with a focus on security and automation.**
 
@@ -26543,7 +26357,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1747. [robertpelloni/hypercode](https://github.com/robertpelloni/hypercode)  `8.3` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
+### 1735. [robertpelloni/hypercode](https://github.com/robertpelloni/hypercode)  `8.3` ★☆☆ ⚡79.0 Q0.7✓ Very good · ↗2 layers
 
 **HyperCode is a local-first AI control plane designed to unify fragmented MCP tooling, manage provider routing, and provide unified observability for operators.**
 
@@ -26559,7 +26373,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1748. [Apideck CLI – An AI-agent interface with much lower context consumption than MCP | Hacker News](https://news.ycombinator.com/item?id=47400261)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗2 layers 📍
+### 1736. [Apideck CLI – An AI-agent interface with much lower context consumption than MCP | Hacker News](https://news.ycombinator.com/item?id=47400261)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗2 layers 📍
 
 **The discussion revolves around the trade-offs between using Apideck's CLI and MCP (Machine Control Protocol) for AI agent interactions. It highlights concerns about context consumption, security risks, and the need for infrastructure improvements to **
 
@@ -26574,7 +26388,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1749. [robertpelloni/mcphub](https://github.com/robertpelloni/mcphub)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗2 layers 📍
+### 1737. [robertpelloni/mcphub](https://github.com/robertpelloni/mcphub)  `10.0` ★★★ ⚡78.0 Q0.6⭐ Excellent · ↗2 layers 📍
 
 **A centralized management platform and control plane for MCP servers featuring a unified dashboard and vector-based semantic tool discovery.**
 
@@ -26588,7 +26402,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1750. [PipedreamHQ/mcp-chat](https://github.com/PipedreamHQ/mcp-chat)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 1738. [PipedreamHQ/mcp-chat](https://github.com/PipedreamHQ/mcp-chat)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **This resource details the use of Pipedream's MCP server (Micro-Chat Platform) within an application or AI agent context. The core functionality revolves around connecting to various APIs and executing tool calls for AI agents, leveraging the power of**
 
@@ -26601,7 +26415,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1751. [Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?ref=blog-admin.arcade.dev)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers 📍
+### 1739. [Tool search tool](https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool?ref=blog-admin.arcade.dev)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗3 layers 📍
 
 **A 2026 update for Claude Code that implements "lazy loading" for MCP tools, reducing context usage by 90% by fetching schemas only when relevant.**
 
@@ -26615,7 +26429,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1752. [MCPHub - MCPHub Documentation](https://docs.mcphubx.com)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 1740. [MCPHub - MCPHub Documentation](https://docs.mcphubx.com)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **A centralized discovery and management platform for the MCP ecosystem, featuring one-click deployment, community ratings, and developer templates.**
 
@@ -26629,7 +26443,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1753. [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
+### 1741. [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Python-based Homebrew MCP server for managing macOS package installations and integrations.**
 
@@ -26643,7 +26457,7 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 
 ---
 
-### 1754. [https://block.github.io/goose/docs/getting-started/installation](https://block.github.io/goose/docs/getting-started/installation)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
+### 1742. [https://block.github.io/goose/docs/getting-started/installation](https://block.github.io/goose/docs/getting-started/installation)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗1 layers
 
 **An open-source, extensible agent framework by Block that connects LLMs to real-world engineering actions via MCP and local execution.**
 
@@ -26658,4 +26472,4 @@ Simplified Development: Integrate tools into your Agent Development Kit (ADK)
 ---
 
 
-*1,754 tools · Signal-scored · 2026-05-17*
+*1,742 tools · Signal-scored · 2026-05-17*

@@ -1,6 +1,6 @@
 # 🦴 Infrastructure & Proxy Layers
 
-> Borg Intelligence Atlas v7.1 · 2026-05-17 · 797 tools
+> Borg Intelligence Atlas v7.1 · 2026-05-17 · 791 tools
 
 The **bone layer** — runtimes, sandboxes, routers, and foundational services
 
@@ -8,12 +8,12 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **797** |
-| Standout 🏆⭐ | 224 |
+| Total tools | **791** |
+| Standout 🏆⭐ | 223 |
 | Avg Signal | ⚡84 |
 | Innovation 10 | 158 ████████████████ |
-| Innovation 9 | 258 ██████████████████████████ |
-| Innovation 8 | 362 █████████████████████████████████████ |
+| Innovation 9 | 257 ██████████████████████████ |
+| Innovation 8 | 357 ████████████████████████████████████ |
 | Innovation 7 | 19 ██ |
 
 ---
@@ -50,9 +50,8 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 - [Database Connectors](#database-connectors) — 1 tools · ⚡58
 - [Deployment & Scaling](#deployment--scaling) — 263 tools · ⚡81
 - [Inference & Routing](#inference--routing) — 57 tools · ⚡84
-- [MCP Servers](#mcp-servers) — 229 tools · ⚡86
+- [MCP Servers](#mcp-servers) — 224 tools · ⚡86
 - [Sandboxing & Execution](#sandboxing--execution) — 235 tools · ⚡85
-- [Unclassified](#unclassified) — 1 tools · ⚡88
 
 ---
 
@@ -5032,7 +5031,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ## MCP Servers
 
-> 229 tools · avg signal ⚡86
+> 224 tools · avg signal ⚡86
 
 ### 333. [aliyun/alibabacloud-dms-mcp-server](https://github.com/aliyun/alibabacloud-dms-mcp-server)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers 📍
 
@@ -6880,22 +6879,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 452. [awslabs/mcp](https://github.com/awslabs/mcp/tree/main/src/nova-canvas-mcp-server)  `8.0` ★☆☆ ⚡87.0 Q0.8 📍
-
-**The Borg Project's Nova Canvas MCP Server is a web application designed to leverage Amazon's Nova Canvas image generation capabilities, integrated with AWS services. It allows users to create images from text prompts, customize dimensions, quality, c**
-
-**Features:**
-- text-based image generation
-- customizable dimensions and quality
-- color-guided image generation
-- seeded generation
-- image saving to user directories
-
-*Tags: cloud-computing, ai-integration, image-generation, aws, developer-tools*
-
----
-
-### 453. [fl0w1nd/grok2-image-mcp-server](https://github.com/fl0w1nd/grok2-image-mcp-server)  `9.6` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 452. [fl0w1nd/grok2-image-mcp-server](https://github.com/fl0w1nd/grok2-image-mcp-server)  `9.6` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Borg-based image generation and editing platform using the Grok image model, enabling automated creation and modification of images from text prompts.**
 
@@ -6911,7 +6895,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 454. [aplaceforallmystuff/mcp-kit](https://github.com/aplaceforallmystuff/mcp-kit)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 453. [aplaceforallmystuff/mcp-kit](https://github.com/aplaceforallmystuff/mcp-kit)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **An MCP server that connects AI assistants like Claude to Kit.com, enabling natural language management of email lists, subscribers, broadcasts, and sequences.**
 
@@ -6926,7 +6910,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 455. [jirispilka/actors-mcp-server](https://github.com/jirispilka/actors-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 454. [jirispilka/actors-mcp-server](https://github.com/jirispilka/actors-mcp-server)  `9.5` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Apify MCP server enables AI agents to dynamically discover, manage, and integrate with various Apify Actors for web scraping, data extraction, and automation tasks.**
 
@@ -6941,7 +6925,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 456. [kinothe-kafkaesque/ssh-mcp-server](https://github.com/kinothe-kafkaesque/ssh-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 455. [kinothe-kafkaesque/ssh-mcp-server](https://github.com/kinothe-kafkaesque/ssh-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The KinoThe-Kafkaesque/ssh-mcp-server project provides a secure SSH server implementation using the MCP protocol, enabling remote command execution with data persistence through an SQLite database. It supports TypeScript development, automated workfl**
 
@@ -6957,7 +6941,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 457. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 456. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Zoom MCP Server enables users to create, update, read, or delete Zoom meetings through natural language commands integrated with AI platforms such as Claude and Cursor. It leverages Zod schema validation for robust command handling and supports e**
 
@@ -6972,7 +6956,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 458. [therealjohn/microsoft-teams-mcp](https://github.com/therealjohn/microsoft-teams-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 457. [therealjohn/microsoft-teams-mcp](https://github.com/therealjohn/microsoft-teams-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Microsoft Teams MCP server provides a tool called 'therealjohn/microsoft-teams-mcp' that enables developers to send notifications to Microsoft Teams via VS Code. It supports Markdown formatting and uses Azure AD authentication for secure communic**
 
@@ -6986,7 +6970,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 459. [kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
+### 458. [kukapay/dune-analytics-mcp](https://github.com/kukapay/dune-analytics-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The kukapay/dune-analytics-mcp project provides a MCP (Model-Checked Protocol) server designed to connect Dune Analytics data with AI agents. It allows developers to run Dune queries and receive results in CSV format, streamlining the integration of **
 
@@ -7000,7 +6984,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 460. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 459. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The kukapay/etf-flow-mcp project offers a unified tool that fetches historical cryptocurrency ETF flow data, enabling AI agents to make informed decisions. It integrates seamlessly with platforms like Claude Desktop and supports automation workflows **
 
@@ -7015,7 +6999,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 461. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
+### 460. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **This project provides a Python-based MCP server designed to integrate with Anthropic's Claude Desktop application and the CFPB Consumer Complaint Database API. It enables developers to build intelligent workflows by automating data retrieval, process**
 
@@ -7030,7 +7014,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 462. [shilomagen/rami-levy-mcp](https://github.com/shilomagen/rami-levy-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
+### 461. [shilomagen/rami-levy-mcp](https://github.com/shilomagen/rami-levy-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good 📍
 
 **This project demonstrates the integration of Rami Levy's MCP server with large language models (LLMs) to enable advanced functionalities such as product search, cart management, checkout, and user interactions within an e-commerce platform. It showca**
 
@@ -7044,22 +7028,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 463. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare/tree/HEAD/apps/sandbox-container)  `8.0` ★☆☆ ⚡86.0 Q0.8 📍
-
-**The Borg Project introduces a containerized MCP (Model Context Protocol) server that facilitates secure, isolated execution of arbitrary code (such as Node.js or Python) within a temporary, ephemeral container. This infrastructure allows developers t**
-
-**Features:**
-- Remote code execution in sandboxed containers
-- Integration with MCP protocol
-- Secure execution environment
-- Support for Node.js and Python
-- Cloudflare OAuth integration
-
-*Tags: mcp-server, cloudflare, ai-execution, containerization, security*
-
----
-
-### 464. [Changelog](https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-issues-proactively)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 462. [Changelog](https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-issues-proactively)  `10.0` ★★★ ⚡85.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **This changelog details the integration of Gemini 3.1 Pro into Jules, highlighting its improved capabilities and new features across several key areas: CI fixing, commit authorship control, MCP server integration, and the introduction of a secondary a**
 
@@ -7075,7 +7044,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 465. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 463. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a model context protocol for ClickHouse MCP Server, allowing AI tools to list tables, read data, and execute queries securely. It includes configuration instructions, environment setup, and integration examples for developers.**
 
@@ -7090,7 +7059,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 466. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
+### 464. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The project provides a GitHub-hosted MCP server designed to streamline data ingestion and integration from multiple sources, supporting scalable and automated workflows for modern software development practices.**
 
@@ -7105,7 +7074,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 467. [moyu6027/deepseek-mcp-server](https://github.com/moyu6027/deepseek-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
+### 465. [moyu6027/deepseek-mcp-server](https://github.com/moyu6027/deepseek-mcp-server)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The DeepSeek MCP Server integrates DeepSeek R1's advanced reasoning engine to improve Claude's ability to handle complex, multi-step reasoning tasks. It enables precise and efficient responses by leveraging structured cognitive frameworks and confide**
 
@@ -7120,7 +7089,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 468. [muka/web-search-mcp](https://github.com/muka/web-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
+### 466. [muka/web-search-mcp](https://github.com/muka/web-search-mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The MCP server enables efficient web search operations by orchestrating tasks, integrating external tools, and automating workflows. It supports scalable configuration through environment variables and Docker integration, ensuring secure and reliable**
 
@@ -7135,7 +7104,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 469. [mrugankpednekar/bill_splitter_mcp](https://github.com/mrugankpednekar/bill_splitter_mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
+### 467. [mrugankpednekar/bill_splitter_mcp](https://github.com/mrugankpednekar/bill_splitter_mcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good 📍
 
 **The project provides a GitHub-hosted MCP (Multi-Cloud Platform) server designed to facilitate the automated splitting of bills across multiple cloud providers or services. It integrates with various cloud platforms and supports workflows that streaml**
 
@@ -7149,7 +7118,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 470. [chatmcp/mcpso](https://github.com/chatmcp/mcpso)  `7.8` ☆☆☆ ⚡85.0 Q0.9○ Good · ↗2 layers 📍
+### 468. [chatmcp/mcpso](https://github.com/chatmcp/mcpso)  `7.8` ☆☆☆ ⚡85.0 Q0.9○ Good · ↗2 layers 📍
 
 **This repository provides a collection of tools and servers (MCP) designed to facilitate agent orchestration, workflow execution, and context engineering. It seems to focus on the intersection of modern web technologies (Next.js/TypeScript) with backe**
 
@@ -7164,7 +7133,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 471. [ryoureddy/medadapt-content-server](https://github.com/ryoureddy/medadapt-content-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 469. [ryoureddy/medadapt-content-server](https://github.com/ryoureddy/medadapt-content-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A specialized MCP server for Claude Desktop that enhances AI-assisted medical learning by integrating with PubMed and NCBI Bookshelf.**
 
@@ -7180,7 +7149,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 472. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 470. [motherduckdb/mcp-server-motherduck](https://github.com/motherduckdb/mcp-server-motherduck)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A fully-managed remote MCP server for DuckDB and MotherDuck, enabling seamless integration with AI assistants, analytics, and data engineering tools.**
 
@@ -7196,7 +7165,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 473. [mangooer/mysql-mcp-server-sse](https://github.com/mangooer/mysql-mcp-server-sse)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 471. [mangooer/mysql-mcp-server-sse](https://github.com/mangooer/mysql-mcp-server-sse)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A secure MySQL query server built on the MCP framework, supporting real-time data access via SSE with advanced security and isolation features.**
 
@@ -7212,7 +7181,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 474. [xing5/mcp-google-sheets](https://github.com/xing5/mcp-google-sheets)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 472. [xing5/mcp-google-sheets](https://github.com/xing5/mcp-google-sheets)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **A Python-based MCP server that integrates with Google Sheets and Drive, enabling automation and AI-driven spreadsheet operations.**
 
@@ -7228,7 +7197,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 475. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 473. [razorpay/razorpay-mcp-server](https://github.com/razorpay/razorpay-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Razorpay MCP Server enables seamless integration with Razorpay APIs, providing developers and AI tools with advanced payment processing capabilities.**
 
@@ -7244,7 +7213,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 476. [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 474. [mcpdotdirect/starknet-mcp-server](https://github.com/mcpdotdirect/starknet-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A blockchain model context protocol server enabling AI agents to interact with Starknet networks, manage wallets, and execute smart contracts.**
 
@@ -7260,7 +7229,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 477. [rayss868/mcp-web-curl](https://github.com/rayss868/mcp-web-curl)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 475. [rayss868/mcp-web-curl](https://github.com/rayss868/mcp-web-curl)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A lightweight MCP server and CLI enabling AI-driven web content fetching, API interaction, and automation workflows.**
 
@@ -7276,7 +7245,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 478. [vespo92/opnsensemcp](https://github.com/vespo92/opnsensemcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 476. [vespo92/opnsensemcp](https://github.com/vespo92/opnsensemcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **A powerful MCP server enabling AI assistants to manage OPNsense firewall configurations, diagnostics, and automation.**
 
@@ -7292,7 +7261,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 479. [ctkadvisors/graphql-mcp](https://github.com/ctkadvisors/graphql-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 477. [ctkadvisors/graphql-mcp](https://github.com/ctkadvisors/graphql-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A powerful MCP server enabling dynamic GraphQL access for AI-driven applications, integrating seamlessly with Claude Desktop.**
 
@@ -7308,7 +7277,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 480. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 478. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A robust MCP server for managing, versioning, and serving prompts and templates for LLM applications with AWS integration.**
 
@@ -7324,7 +7293,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 481. [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 479. [Jpisnice/shadcn-ui-mcp-server](https://github.com/Jpisnice/shadcn-ui-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A mcp server enabling LLMs to gain context about shadcn ui components, supporting React, Svelte, Vue, and React Native for AI-powered development.**
 
@@ -7340,7 +7309,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 482. [ImRonAI/mcp-server-browserbase](https://github.com/ImRonAI/mcp-server-browserbase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 480. [ImRonAI/mcp-server-browserbase](https://github.com/ImRonAI/mcp-server-browserbase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A cloud-based platform enabling LLMs to control browsers and interact with web content using MCP Server, Stagehand, and Browserbase.**
 
@@ -7356,7 +7325,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 483. [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 481. [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A Git MCP server enabling LLMs and AI agents to interact with Git repositories via the Model Context Protocol, offering comprehensive Git operations.**
 
@@ -7372,7 +7341,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 484. [pulsemcp/mcp-servers](https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 482. [pulsemcp/mcp-servers](https://github.com/pulsemcp/mcp-servers/tree/HEAD/productionized/pulse-fetch)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A cloud-based MCP server for real-time application performance monitoring and error tracking, enabling seamless integration with MCP clients.**
 
@@ -7388,7 +7357,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 485. [navbuildz/gmail-mcp-server](https://github.com/navbuildz/gmail-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 483. [navbuildz/gmail-mcp-server](https://github.com/navbuildz/gmail-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A multi-account Gmail MCP server enabling AI agents and assistants to manage emails across multiple accounts with full read/write capabilities.**
 
@@ -7404,7 +7373,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 486. [silbaram/elasticsearch-mcp-server](https://github.com/silbaram/elasticsearch-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 484. [silbaram/elasticsearch-mcp-server](https://github.com/silbaram/elasticsearch-mcp-server)  `9.5` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **An AI-powered Elasticsearch MCP server built on Spring AI to enable automated data processing and search within an Elasticsearch cluster.**
 
@@ -7419,7 +7388,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 487. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
+### 485. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The kubesphere/ks-mcp-server is a Model Context Protocol (MCP) server designed to integrate with KubeSphere APIs, enabling seamless access to cluster resources. It provides tools for workspace, cluster, user, and extension management, supporting secu**
 
@@ -7433,7 +7402,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 488. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 486. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The jweather-mcp-server is a Python-based service that allows AI models to fetch current weather conditions across various cities and regions using the Model Context Protocol. It supports asynchronous queries with parameters like city names, enabling**
 
@@ -7447,7 +7416,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 489. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
+### 487. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-server-cli project provides a server-based interface for running shell scripts or commands, facilitating automation and integration within development workflows. It supports advanced features such as context protocol communication, secure cod**
 
@@ -7461,7 +7430,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 490. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
+### 488. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The project introduces a GitHub-hosted MCP server to enhance Claude Desktop's capabilities, enabling advanced AI-driven vibe-management features. By integrating this server into the development environment, teams can leverage automated workflow manag**
 
@@ -7475,7 +7444,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 491. [okooo5km/unsplash-mcp-server-go](https://github.com/okooo5km/unsplash-mcp-server-go)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
+### 489. [okooo5km/unsplash-mcp-server-go](https://github.com/okooo5km/unsplash-mcp-server-go)  `8.6` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Go-based implementation of hellokaton/unsplash-mcp-server, enabling LLMs to search, retrieve, and get random Unsplash photos with advanced features like search, filtering, and random selection.**
 
@@ -7491,37 +7460,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 492. [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp/tree/HEAD/packages/mcp-server-postgrest)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
-
-**The MCP Server for PostgreSQL acts as a bridge between LLMs and Supabase projects, allowing natural language queries to interact with PostgreSQL databases. It supports advanced features like schema management, secure authentication, and integration w**
-
-**Features:**
-- PostgreSQL CRUD operations via REST API
-- Natural language query support
-- Secure authentication (API key)
-- Integration with Claude Desktop
-- StreamTransport for direct in-memory connections
-
-*Tags: supabase, postgresql, api, developer-tools, mcp-server*
-
----
-
-### 493. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/gdrive)  `8.0` ★☆☆ ⚡84.0 Q0.8 📍
-
-**This project provides a MCP (Model Context Protocol) server that integrates with Google Drive, enabling seamless file management including listing, reading, searching, and exporting files across platforms. It supports enterprise-grade security, authe**
-
-**Features:**
-- File management via Google Drive
-- OAuth integration for secure access
-- Docker-based deployment
-- API endpoints for server control
-- Authentication and credential handling
-
-*Tags: gdrive, mcp, cloud-integration, file-server, api*
-
----
-
-### 494. [saptadey/adaptive-graph-of-thoughts-mcp-server](https://github.com/saptadey/adaptive-graph-of-thoughts-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 490. [saptadey/adaptive-graph-of-thoughts-mcp-server](https://github.com/saptadey/adaptive-graph-of-thoughts-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A next-generation AI reasoning framework leveraging graph structures to enhance scientific research capabilities.**
 
@@ -7537,7 +7476,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 495. [openbudget/budgetkey-mcp](https://github.com/openbudget/budgetkey-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 491. [openbudget/budgetkey-mcp](https://github.com/openbudget/budgetkey-mcp)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A fastmcp server enabling AI assistants to query and analyze Israeli budget data via Claude and other tools.**
 
@@ -7553,7 +7492,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 496. [scrapeless-ai/scrapeless-mcp-server](https://github.com/scrapeless-ai/scrapeless-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 492. [scrapeless-ai/scrapeless-mcp-server](https://github.com/scrapeless-ai/scrapeless-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A scalable MCP server enabling AI agents to interact with the web in real time.**
 
@@ -7569,7 +7508,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 497. [leonardsellem/n8n-mcp-server](https://github.com/leonardsellem/n8n-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 493. [leonardsellem/n8n-mcp-server](https://github.com/leonardsellem/n8n-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling AI assistants to interact with n8n workflows via natural language.**
 
@@ -7585,7 +7524,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 498. [montevive/penpot-mcp](https://github.com/montevive/penpot-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 494. [montevive/penpot-mcp](https://github.com/montevive/penpot-mcp)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **Penpot MCP server integrates Claude AI to enable intelligent design analysis, automation, and workflow optimization within Penpot.**
 
@@ -7600,7 +7539,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 499. [robertn702/mcp-sunsama](https://github.com/robertn702/mcp-sunsama)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
+### 495. [robertn702/mcp-sunsama](https://github.com/robertn702/mcp-sunsama)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good 📍
 
 **A cloud-based MCP server enabling AI assistants to manage tasks, integrate with external tools like GitHub and Gmail, and streamline productivity workflows.**
 
@@ -7616,7 +7555,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 500. [ravenwits/mcp-server-arangodb](https://github.com/ravenwits/mcp-server-arangodb)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 496. [ravenwits/mcp-server-arangodb](https://github.com/ravenwits/mcp-server-arangodb)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A TypeScript-based MCP server enabling seamless database interaction with ArangoDB, supporting core operations and integration tools for modern development workflows.**
 
@@ -7632,7 +7571,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 501. [WillDent/pipedrive-mcp-server](https://github.com/WillDent/pipedrive-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 497. [WillDent/pipedrive-mcp-server](https://github.com/WillDent/pipedrive-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A model context protocol server enabling secure integration of Pipedrive data with large language models like Claude for enhanced business intelligence.**
 
@@ -7648,7 +7587,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 502. [alfork/qbconductor-mcp-server](https://github.com/alfork/qbconductor-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 498. [alfork/qbconductor-mcp-server](https://github.com/alfork/qbconductor-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A server enabling natural language interactions with QuickBooks Desktop via the Conductor API for financial management, bill processing, and reporting.**
 
@@ -7664,7 +7603,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 503. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
+### 499. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **mcp-launch streamlines the deployment and management of multiple Model Context Protocol (MCP) servers. It leverages mcpo to provide HTTP/OpenAPI interfaces for each server, merges per-tool OpenAPI specifications into a single endpoint for each stack,**
 
@@ -7680,7 +7619,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 504. [odysseus0/mcp-server-shell](https://github.com/odysseus0/mcp-server-shell)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 500. [odysseus0/mcp-server-shell](https://github.com/odysseus0/mcp-server-shell)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The mcp-server-shell project provides a server that allows large language models (LLMs) to run shell commands securely, returning their output. It supports integration with tools like uvx for seamless execution and debugging, making it suitable for D**
 
@@ -7694,7 +7633,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 505. [verssae/dbmcp](https://github.com/verssae/dbmcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 501. [verssae/dbmcp](https://github.com/verssae/dbmcp)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Verssae/dbmcp project provides a lightweight Model-Client-Protocol (MCP) server that enables clients to interact with databases using Server-Sent Events. It supports MSSQL as the target database, allowing developers to run queries and receive res**
 
@@ -7708,7 +7647,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 506. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
+### 502. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)  `8.8` ★☆☆ ⚡82.0 Q0.8✓ Very good 📍
 
 **The MCP Server enables automation of communication within a group by allowing users to send various types of messages (text or markdown) through the DingDing API. It supports features such as message notifications, custom bot creation, and integratio**
 
@@ -7722,7 +7661,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 507. [chromewillow/mcp-forge](https://github.com/chromewillow/mcp-forge)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 503. [chromewillow/mcp-forge](https://github.com/chromewillow/mcp-forge)  `8.7` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The chromewillow/mcp-forge project provides a GitHub-hosted MCP server generator tailored for integration with Smithery, enabling developers to create and deploy MCP servers efficiently. It supports advanced features such as web search capabilities, **
 
@@ -7735,7 +7674,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 508. [mkummer225/google-sheets-mcp](https://github.com/mkummer225/google-sheets-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
+### 504. [mkummer225/google-sheets-mcp](https://github.com/mkummer225/google-sheets-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A developer platform enabling AI agents to interact with Google Sheets via the MCP Server, supporting automation, code generation, and secure data handling.**
 
@@ -7750,7 +7689,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 509. [ai-zerolab/mcp-email-server](https://github.com/ai-zerolab/mcp-email-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 505. [ai-zerolab/mcp-email-server](https://github.com/ai-zerolab/mcp-email-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A cloud-based email server solution enabling IMAP and SMTP functionality via MCP Server, designed for secure and automated email management.**
 
@@ -7766,7 +7705,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 510. [wllcnm/dingding_mcp_v2](https://github.com/wllcnm/dingding_mcp_v2)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 506. [wllcnm/dingding_mcp_v2](https://github.com/wllcnm/dingding_mcp_v2)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python-based MCP server for interacting with DingDing, enabling message sending, calendar queries, user info retrieval, and integration into Claude.**
 
@@ -7782,7 +7721,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 511. [ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 507. [ahonn/mcp-server-gsc](https://github.com/ahonn/mcp-server-gsc)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A model context protocol server integrating Google Search Console analytics for enhanced search performance insights.**
 
@@ -7798,7 +7737,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 512. [sbmagar13/hashnode-mcp-server](https://github.com/sbmagar13/hashnode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 508. [sbmagar13/hashnode-mcp-server](https://github.com/sbmagar13/hashnode-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling AI assistants to interact with Hashnode API for content creation, management, and retrieval.**
 
@@ -7814,7 +7753,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 513. [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 509. [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A self-hosted Browserbase MCP server enabling LLMs to control browsers via Stagehand, integrating with external tools and APIs.**
 
@@ -7830,7 +7769,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 514. [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 510. [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling secure integration with Microsoft 365 and Office services via the Graph API.**
 
@@ -7846,7 +7785,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 515. [amanasmuei/mcp-server-nodemcu](https://github.com/amanasmuei/mcp-server-nodemcu)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 511. [amanasmuei/mcp-server-nodemcu](https://github.com/amanasmuei/mcp-server-nodemcu)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A NodeMCU MCP server enabling secure device management, real-time telemetry, and AI integration for IoT applications.**
 
@@ -7862,7 +7801,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 516. [adeze/raindrop-mcp](https://github.com/adeze/raindrop-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 512. [adeze/raindrop-mcp](https://github.com/adeze/raindrop-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A cloud-based MCP server tool for organizing, managing, and analyzing bookmarks with AI-driven organization and diagnostics.**
 
@@ -7878,7 +7817,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 517. [aybelatchane/mcp-server-terminal](https://github.com/aybelatchane/mcp-server-terminal)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 513. [aybelatchane/mcp-server-terminal](https://github.com/aybelatchane/mcp-server-terminal)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A terminal-based MCP Server enabling AI agents to interact with terminal applications via structured Terminal State Tree for TUI/CLI automation.**
 
@@ -7894,7 +7833,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 518. [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 514. [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A model context protocol server enabling secure read-only access to MySQL databases, facilitating LLM interaction with database schemas and queries.**
 
@@ -7909,7 +7848,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 519. [apecloud/kb-cloud-mcp-server](https://github.com/apecloud/kb-cloud-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 515. [apecloud/kb-cloud-mcp-server](https://github.com/apecloud/kb-cloud-mcp-server)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A model context protocol server enabling AI assistants to interact with KubeBlocks Cloud resources through standardized tool-calling interfaces.**
 
@@ -7924,7 +7863,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 520. [edkranz/up-mcp](https://github.com/edkranz/up-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 516. [edkranz/up-mcp](https://github.com/edkranz/up-mcp)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **A Python-based MCP server enabling account, transaction, category, tag, and webhook management for integration with AI tools like Claude.**
 
@@ -7939,7 +7878,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 521. [zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 517. [zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)  `8.5` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **ZoomEye MCP Server enables LLMs to retrieve network asset information via query conditions, integrating seamlessly into AI development environments.**
 
@@ -7954,7 +7893,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 522. [samuraikun/aws-s3-mcp](https://github.com/samuraikun/aws-s3-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 518. [samuraikun/aws-s3-mcp](https://github.com/samuraikun/aws-s3-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A secure, cloud-native MCP server enabling LLM interaction with AWS S3 for modern AI-driven applications.**
 
@@ -7970,7 +7909,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 523. [cursortouch/android-mcp](https://github.com/cursortouch/android-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 519. [cursortouch/android-mcp](https://github.com/cursortouch/android-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A lightweight Android MCP server enabling LLM agents to interact with Android devices via native UI actions.**
 
@@ -7986,7 +7925,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 524. [dryeab/mcp-telegram](https://github.com/dryeab/mcp-telegram)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 520. [dryeab/mcp-telegram](https://github.com/dryeab/mcp-telegram)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Telegram MCP server enabling AI agents to interact with Telegram via the MTProto protocol.**
 
@@ -8002,7 +7941,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 525. [franccesco/hex-mcp](https://github.com/franccesco/hex-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 521. [franccesco/hex-mcp](https://github.com/franccesco/hex-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A MCP server to interact with Hex projects, enabling automation, monitoring, and management of workflows.**
 
@@ -8018,7 +7957,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 526. [philogicae/rqbit-mcp](https://github.com/philogicae/rqbit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 522. [philogicae/rqbit-mcp](https://github.com/philogicae/rqbit-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python wrapper and MCP server for integrating rqbit into applications, enabling seamless torrent management.**
 
@@ -8034,7 +7973,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 527. [voska/hass-mcp](https://github.com/voska/hass-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 523. [voska/hass-mcp](https://github.com/voska/hass-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Home Assistant MCP Server enabling AI assistants to interact with smart home devices and entities.**
 
@@ -8050,7 +7989,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 528. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 524. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A MCP server enabling seamless integration and management of OpenRouter.ai models for AI-driven applications.**
 
@@ -8066,7 +8005,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 529. [tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 525. [tsmztech/mcp-server-salesforce](https://github.com/tsmztech/mcp-server-salesforce)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Salesforce MCP Server extension enabling natural language interactions with Salesforce data and metadata.**
 
@@ -8082,7 +8021,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 530. [crazyrabbitltc/mcp-brex-server](https://github.com/crazyrabbitltc/mcp-brex-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 526. [crazyrabbitltc/mcp-brex-server](https://github.com/crazyrabbitltc/mcp-brex-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server for interacting with Brex expense tracking platform, enabling secure and efficient integration.**
 
@@ -8098,7 +8037,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 531. [tan-yong-sheng/triliumnext-mcp](https://github.com/tan-yong-sheng/triliumnext-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 527. [tan-yong-sheng/triliumnext-mcp](https://github.com/tan-yong-sheng/triliumnext-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A prototype MCP server for TriliumNext Notes, enabling advanced note management and integration with AI tools.**
 
@@ -8114,7 +8053,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 532. [ko1ynnky/github-actions-mcp-server](https://github.com/ko1ynnky/github-actions-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 528. [ko1ynnky/github-actions-mcp-server](https://github.com/ko1ynnky/github-actions-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A GitHub Actions MCP Server enabling AI assistants to manage and execute GitHub Actions workflows.**
 
@@ -8130,7 +8069,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 533. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 529. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **A Model Context Protocol (MCP) server that aids Frappe/ERPNext development with AI assistance.**
 
@@ -8146,7 +8085,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 534. [domdomegg/google-drive-mcp.git](https://github.com/domdomegg/google-drive-mcp.git)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 530. [domdomegg/google-drive-mcp.git](https://github.com/domdomegg/google-drive-mcp.git)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A cloud-based MCP server enabling secure file management, organization, and collaboration via Google Drive.**
 
@@ -8162,7 +8101,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 535. [alondmnt/joplin-mcp](https://github.com/alondmnt/joplin-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 531. [alondmnt/joplin-mcp](https://github.com/alondmnt/joplin-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A MCP server enabling AI integration with Joplin for enhanced note-taking and task management.**
 
@@ -8178,7 +8117,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 536. [teradata/teradata-mcp-server](https://github.com/teradata/teradata-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
+### 532. [teradata/teradata-mcp-server](https://github.com/teradata/teradata-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **Teradata MCP Server provides tools and prompts to enable agentic applications for efficient data querying, analysis, and management.**
 
@@ -8193,7 +8132,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 537. [semcp/mcp-sinstaller](https://github.com/semcp/mcp-sinstaller)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 533. [semcp/mcp-sinstaller](https://github.com/semcp/mcp-sinstaller)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A MCP server installer that automates the installation and containerization of other MCP servers from GitHub repositories.**
 
@@ -8208,7 +8147,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 538. [vinnividivicci/wave_mcp](https://github.com/vinnividivicci/wave_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 534. [vinnividivicci/wave_mcp](https://github.com/vinnividivicci/wave_mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A cloud-based MCP server integrating Claude with Wave Accounting to automate expense and income tracking.**
 
@@ -8223,7 +8162,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 539. [thadius83/mcp-server-openai](https://github.com/thadius83/mcp-server-openai)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 535. [thadius83/mcp-server-openai](https://github.com/thadius83/mcp-server-openai)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A developer workflow tool for managing and automating tasks using the MCP protocol with OpenAI models.**
 
@@ -8238,7 +8177,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 540. [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 536. [ttommyth/interactive-mcp](https://github.com/ttommyth/interactive-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A local, cross-platform MCP server enabling interactive communication between AI agents and users.**
 
@@ -8253,7 +8192,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 541. [deepsrt/deepsrt-mcp](https://github.com/deepsrt/deepsrt-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 537. [deepsrt/deepsrt-mcp](https://github.com/deepsrt/deepsrt-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A Borg project integrating DeepSRT for YouTube video summarization and transcript extraction, leveraging MCP server architecture.**
 
@@ -8268,7 +8207,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 542. [mia-platform/console-mcp-server](https://github.com/mia-platform/console-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 538. [mia-platform/console-mcp-server](https://github.com/mia-platform/console-mcp-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol server enabling automation and integration with Mia-Platform APIs.**
 
@@ -8283,7 +8222,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 543. [aringad/fattureincloud-mcp](https://github.com/aringad/fattureincloud-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 539. [aringad/fattureincloud-mcp](https://github.com/aringad/fattureincloud-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **A cloud-based MCP Server for managing Italian electronic invoices with Claude AI integration.**
 
@@ -8298,7 +8237,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 544. [twelve2five/processing-mcp-server](https://github.com/twelve2five/processing-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good 📍
+### 540. [twelve2five/processing-mcp-server](https://github.com/twelve2five/processing-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good 📍
 
 **A Borg project enabling AI assistants to create and run Processing sketches via natural language commands.**
 
@@ -8312,7 +8251,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 545. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 541. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A powerful MCP server leveraging Google's Gemini Flash 2 AI for data analysis, research paper generation, and automated email delivery.**
 
@@ -8326,7 +8265,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 546. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers 📍
+### 542. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The mcp-server-bigquery project provides a Model Context Protocol server that allows large language models (LLMs) to access and execute SQL queries in BigQuery. It supports schema inspection, table listing, and descriptive operations, enhancing AI-dr**
 
@@ -8339,7 +8278,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 547. [makingchatbots/genesys-cloud-mcp-server](https://github.com/makingchatbots/genesys-cloud-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
+### 543. [makingchatbots/genesys-cloud-mcp-server](https://github.com/makingchatbots/genesys-cloud-mcp-server)  `8.5` ★☆☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server enabling integration of Genesys Cloud Platform APIs with LLMs for conversational insights.**
 
@@ -8354,7 +8293,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 548. [rexposadas/attendee-mcp](https://github.com/rexposadas/attendee-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
+### 544. [rexposadas/attendee-mcp](https://github.com/rexposadas/attendee-mcp)  `8.5` ★☆☆ ⚡78.0 Q0.8✓ Very good 📍
 
 **A MCP server for managing and automating meeting bots with AI integration.**
 
@@ -8369,7 +8308,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 549. [poly-mcp/Polymcp](https://github.com/poly-mcp/Polymcp)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good 📍
+### 545. [poly-mcp/Polymcp](https://github.com/poly-mcp/Polymcp)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good 📍
 
 **A multi-language framework for building and orchestrating MCP servers and agents with built-in multi-tab inspector and Docker support.**
 
@@ -8383,7 +8322,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 550. [ia-entertainment-git-organization/gemini-mcp-server](https://github.com/ia-entertainment-git-organization/gemini-mcp-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
+### 546. [ia-entertainment-git-organization/gemini-mcp-server](https://github.com/ia-entertainment-git-organization/gemini-mcp-server)  `8.2` ★☆☆ ⚡75.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A TypeScript implementation of a Model Context Protocol (MCP) server integrating with Google's Gemini model for AI-driven conversational applications.**
 
@@ -8397,7 +8336,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 551. [elastic/mcp-server-elasticsearch](https://github.com/elastic/mcp-server-elasticsearch)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers 📍
+### 547. [elastic/mcp-server-elasticsearch](https://github.com/elastic/mcp-server-elasticsearch)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers 📍
 
 **Elasticsearch MCP Server integration for AI agents, enabling natural language interactions with Elasticsearch indices.**
 
@@ -8411,7 +8350,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 552. [rlopez133/mcp](https://github.com/rlopez133/mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 548. [rlopez133/mcp](https://github.com/rlopez133/mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **Guide to setting up MCP Servers and Claude Desktop for AI-powered automation with Ansible, OpenShift, and Kubernetes.**
 
@@ -8425,7 +8364,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 553. [thrashr888/terraform-mcp-server](https://github.com/thrashr888/terraform-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers 📍
+### 549. [thrashr888/terraform-mcp-server](https://github.com/thrashr888/terraform-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗3 layers 📍
 
 **A Terraform MCP Server enabling AI agents to interact with the Terraform Registry API for resource management and metadata retrieval.**
 
@@ -8439,7 +8378,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 554. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 550. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Minecraft MCP server powered by Mineflayer API, enabling AI assistants to control a character in real-time.**
 
@@ -8453,7 +8392,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 555. [ericzakariasson/pg-mcp-server](https://github.com/ericzakariasson/pg-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 551. [ericzakariasson/pg-mcp-server](https://github.com/ericzakariasson/pg-mcp-server)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A PostgreSQL MCP server enabling LLMs to query and analyze databases through a controlled interface.**
 
@@ -8467,7 +8406,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 556. [illgatesmusic/click-funnels-mcp-shared](https://github.com/illgatesmusic/click-funnels-mcp-shared)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
+### 552. [illgatesmusic/click-funnels-mcp-shared](https://github.com/illgatesmusic/click-funnels-mcp-shared)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good 📍
 
 **A MCP server enabling integration between ClickFunnels and Claude Desktop for advanced workflow automation.**
 
@@ -8481,7 +8420,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 557. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers 📍
+### 553. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)  `8.7` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **The tengfone/supabase-nextjs-mcp-server project provides a Next.js-based MCP (Model, Context, Protocol) server that enables developers to build and manage a simple notes system. It supports creating new notes, generating summaries, and integrating wi**
 
@@ -8493,7 +8432,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 558. [mamertofabian/elevenlabs-mcp-server](https://github.com/mamertofabian/elevenlabs-mcp-server)  `8.2` ★☆☆ ⚡71.0 Q0.6○ Good · ↗1 layers 📍
+### 554. [mamertofabian/elevenlabs-mcp-server](https://github.com/mamertofabian/elevenlabs-mcp-server)  `8.2` ★☆☆ ⚡71.0 Q0.6○ Good · ↗1 layers 📍
 
 **A cloud-based MCP server integrating with ElevenLabs API for text-to-speech generation, supporting multiple voices and scripts.**
 
@@ -8507,22 +8446,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 559. [awslabs/mcp](https://github.com/awslabs/mcp/tree/HEAD/src/bedrock-kb-retrieval-mcp-server)  `8.0` ★☆☆ ⚡70.0 Q0.6 📍
-
-**A server-based solution for retrieving and managing Amazon Bedrock Knowledge Bases with advanced retrieval capabilities.**
-
-**Features:**
-- Amazon Bedrock Knowledge Base Retrieval
-- Conversational query support
-- Reranking functionality
-- Integration with AWS CLI and Docker
-- Model access control
-
-*Tags: awslabs, bedrock-kb-retrieval-mcp-server, mcp, security, devops*
-
----
-
-### 560. [aliyun/alibabacloud-polardbx-mcp-server](https://github.com/aliyun/alibabacloud-polardbx-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
+### 555. [aliyun/alibabacloud-polardbx-mcp-server](https://github.com/aliyun/alibabacloud-polardbx-mcp-server)  `8.0` ★☆☆ ⚡69.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A Model Context Protocol (MCP) server enabling AI agents to interact with Alibaba cloud PolarDB-X databases.**
 
@@ -8535,7 +8459,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 561. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)  `8.0` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
+### 556. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)  `8.0` ★☆☆ ⚡64.0 Q0.6✓ Very good 📍
 
 **A powerful MCP server for Claude Desktop that enables web search and similarity search capabilities.**
 
@@ -8551,7 +8475,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 > 235 tools · avg signal ⚡85
 
-### 562. [block/goose](https://github.com/block/goose)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 557. [block/goose](https://github.com/block/goose)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Goose evolves the developer experience from passive code suggestions to autonomous agentic workflows. Built primarily in Rust for high performance and safety, it operates as a local-first agent capable of writing, executing, and testing code within t**
 
@@ -8567,7 +8491,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 563. [aberemia24/code-executor-MCP](https://github.com/aberemia24/code-executor-MCP)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 558. [aberemia24/code-executor-MCP](https://github.com/aberemia24/code-executor-MCP)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **Code Executor MCP acts as a proxy and orchestration layer for a multitude of external tools accessible via the MCP protocol (used by agents like Claude/Cursor). Its core innovation is decoupling the agent's required context from the total available t**
 
@@ -8583,7 +8507,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 564. [mKeRix/toolscript](https://github.com/mKeRix/toolscript)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 559. [mKeRix/toolscript](https://github.com/mKeRix/toolscript)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Toolscript addresses the significant context window consumption caused by loading all available MCP tool definitions into the LLM's system prompt. It achieves this by using TypeScript code execution mode, where it automatically generates TypeScript t**
 
@@ -8599,7 +8523,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 565. [trycua/cua](https://github.com/trycua/cua)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 560. [trycua/cua](https://github.com/trycua/cua)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **The CUA project focuses on creating the underlying infrastructure required for Computer-Use Agents (CUAs) to operate across macOS, Linux, and Windows. It is composed of several core components: `cuabot` offers a multi-agent sandbox CLI for running ag**
 
@@ -8615,7 +8539,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 566. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 561. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **This project provides a containerized environment that facilitates Generalized Computer Control (GCC) by bridging Claude models with a virtual Linux desktop. It implements a specialized agent loop that uses the model's tool-calling capabilities to pe**
 
@@ -8631,7 +8555,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 567. [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 562. [microsoft/magentic-ui](https://github.com/microsoft/magentic-ui)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Magentic-UI provides a specialized interface designed to eliminate the 'black-box' nature of autonomous agents by enabling real-time collaboration between humans and AI. Built on the AutoGen framework, it facilitates co-planning where users can edit **
 
@@ -8647,7 +8571,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 568. [microsandbox/microsandbox](https://github.com/microsandbox/microsandbox)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
+### 563. [microsandbox/microsandbox](https://github.com/microsandbox/microsandbox)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class 📍
 
 **Microsandbox spins up lightweight VMs in milliseconds from our SDKs. Runs locally on your machine. No server to set up. No lingering daemon. It is all embedded and rootless! Today, AI agents operate with whatever permissions you give them, and that's**
 
@@ -8663,7 +8587,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 569. [railyard-dev/railguard](https://github.com/railyard-dev/railguard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
+### 564. [railyard-dev/railguard](https://github.com/railyard-dev/railguard)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗3 layers
 
 **Railguard is a secure runtime designed to monitor and control all tool calls in real-time, intercepting every action to enforce security policies. It leverages sandbox execution on macOS and bwrap on Linux to ensure that even obfuscated or malicious **
 
@@ -8679,7 +8603,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 570. [vignesh-codes/ai-agents-mcp-pg](https://github.com/vignesh-codes/ai-agents-mcp-pg)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
+### 565. [vignesh-codes/ai-agents-mcp-pg](https://github.com/vignesh-codes/ai-agents-mcp-pg)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗1 layers
 
 **This project extends the PostgreSQL MCP Server to provide a robust platform for building, deploying, and managing intelligent applications. It enables seamless interaction between LLMs and databases through functionalities such as table creation, dat**
 
@@ -8695,7 +8619,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 571. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 566. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The DumplingAI/mcp-server-dumplingai project provides a robust MCP (Model Context Protocol) server that seamlessly integrates with Dumpling AI's API endpoints. It supports advanced functionalities such as web scraping, data extraction from various so**
 
@@ -8711,7 +8635,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 572. [xkiranj/markitdown-mcp-npx](https://github.com/xkiranj/markitdown-mcp-npx)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
+### 567. [xkiranj/markitdown-mcp-npx](https://github.com/xkiranj/markitdown-mcp-npx)  `10.0` ★★★ ⚡98.0 Q0.9🏆 World-class · ↗2 layers
 
 **The xkiranj/markitdown-mcp-npx package provides a streamlined, no-Docker solution to execute the MarkItDown MCP server using NPX (Node Package Executor). It automates setup, environment isolation, and file processing across multiple platforms includi**
 
@@ -8727,7 +8651,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 573. [chrishayuk/mcp-code-sandbox](https://github.com/chrishayuk/mcp-code-sandbox)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
+### 568. [chrishayuk/mcp-code-sandbox](https://github.com/chrishayuk/mcp-code-sandbox)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗1 layers 📍
 
 **The MCP Code Sandbox provides a platform for secure code execution in isolated environments, enabling developers to run Python scripts without compromising system security. It supports modular architecture, extensible design, and integrates with tool**
 
@@ -8743,7 +8667,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 574. [baryhuang/mcp-remote-macos-use](https://github.com/baryhuang/mcp-remote-macos-use)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
+### 569. [baryhuang/mcp-remote-macos-use](https://github.com/baryhuang/mcp-remote-macos-use)  `10.0` ★★★ ⚡96.0 Q0.9🏆 World-class · ↗3 layers
 
 **This open-source MCP server is designed to provide AI-driven remote macOS control tailored for autonomous agents. It eliminates the need for additional software installations, integrates seamlessly with macOS via native capabilities, and supports adv**
 
@@ -8759,7 +8683,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 575. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
+### 570. [dmontgomery40/deepseek-mcp-server](https://github.com/dmontgomery40/deepseek-mcp-server)  `9.8` ★★☆ ⚡96.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The DeepSeek MCP Server acts as a centralized model context management endpoint, enabling developers to orchestrate interactions with various tools and APIs in a structured and secure manner. It supports multiple execution modes including code execut**
 
@@ -8774,7 +8698,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 576. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
+### 571. [ProtonOS/ProtonOS](https://github.com/ProtonOS/ProtonOS)  `10.0` ★★★ ⚡95.0 Q0.9🏆 World-class · ↗1 layers
 
 **ProtonOS is a Linux-compatible, bare-metal operating system built using C# and bflat's zero-library mode. It features a custom Tier 0 Just-In-Time (JIT) compiler, hardware abstraction layer, and supports direct booting on x86-64 hardware. The system **
 
@@ -8790,7 +8714,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 577. [Infisical/agent-vault](https://github.com/Infisical/agent-vault)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers 📍
+### 572. [Infisical/agent-vault](https://github.com/Infisical/agent-vault)  `10.0` ★★★ ⚡95.0 Q0.8🏆 World-class · ↗3 layers 📍
 
 **Infisical's Agent Vault acts as a centralized proxy that manages HTTP authentication for AI agents such as Claude, Cursor, Codex, and others. Instead of agents storing or transmitting credentials directly, they route requests through the proxy, which**
 
@@ -8806,7 +8730,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 578. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 573. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **Superserve provides a managed infrastructure for deploying AI agents with a focus on security and statefulness. It utilizes Firecracker microVM technology to create strict, isolated execution environments for every agent session, ensuring that code e**
 
@@ -8822,7 +8746,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 579. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 574. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **CodeMode Unified provides a sophisticated execution layer for AI agents, offering dual-mode operations as either a standard MCP server or a RESTful HTTP backend. Its core innovation lies in the 'Tool Bridge' architecture, which allows code executed w**
 
@@ -8838,7 +8762,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 580. [ziad-hsn/code-mode-toon](https://github.com/ziad-hsn/code-mode-toon)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 575. [ziad-hsn/code-mode-toon](https://github.com/ziad-hsn/code-mode-toon)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **CodeModeTOON addresses the 'Context Trap' in agentic workflows—where large tool outputs like logs or database dumps exhaust the LLM context window—by acting as an efficient intermediary. It utilizes TOON Compression, a technique that applies schema e**
 
@@ -8854,7 +8778,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 581. [corespeed-io/zypher-agent](https://github.com/corespeed-io/zypher-agent/pull/100)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
+### 576. [corespeed-io/zypher-agent](https://github.com/corespeed-io/zypher-agent/pull/100)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The technical approach shifts the paradigm of tool interaction from sequential LLM-driven calls to programmatic execution. When an agent identifies a data-intensive task, it generates TypeScript code that executes within an isolated Deno WebWorker sa**
 
@@ -8870,7 +8794,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 582. [engineer-man/piston](https://github.com/engineer-man/piston)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 577. [engineer-man/piston](https://github.com/engineer-man/piston)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **Piston provides a robust sandboxing environment for executing arbitrary code snippets by leveraging Docker and cgroup v2 for strict resource isolation. It abstracts the complexity of maintaining dozens of language runtimes through a unified REST API **
 
@@ -8886,7 +8810,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 583. [raju-deriv/mcp-deriv-api-server](https://github.com/raju-deriv/mcp-deriv-api-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 578. [raju-deriv/mcp-deriv-api-server](https://github.com/raju-deriv/mcp-deriv-api-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The mcp-deriv-api-server is a custom-built API server designed to facilitate integration between enterprise systems and the Deriv AI platform. It provides essential functionalities such as symbol management, account balance checks, and secure code ex**
 
@@ -8902,7 +8826,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 584. [songjiayang/eino-mcp](https://github.com/songjiayang/eino-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 579. [songjiayang/eino-mcp](https://github.com/songjiayang/eino-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **This project showcases a simple implementation of an AI agent using the Eino framework, integrated with MCP (Model Context Protocol) to enable context-aware interactions. It outlines the setup process, including environment configuration, deployment **
 
@@ -8918,7 +8842,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 585. [happyzym/sandbox-fusion-mcp](https://github.com/happyzym/sandbox-fusion-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 580. [happyzym/sandbox-fusion-mcp](https://github.com/happyzym/sandbox-fusion-mcp)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The Astricaelus/sandbox-fusion-mcp project provides a Borg-based implementation of the Sandbox Fusion MCP (Machine Code Protocol) server. This allows large language models to execute Python, JavaScript, TypeScript, Bash, Rust, PHP, and more through s**
 
@@ -8934,7 +8858,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 586. [0xfreysa/trusted-mcp-server](https://github.com/0xfreysa/trusted-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 581. [0xfreysa/trusted-mcp-server](https://github.com/0xfreysa/trusted-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The project presents a GitHub-hosted MCP server running inside an AWS Nitro Enclave, designed to provide hardware-based security and isolation. It leverages Nitro's trusted execution environment to ensure code integrity and confidentiality during dev**
 
@@ -8950,7 +8874,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 587. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
+### 582. [dmontgomery40/meta-mcp-server](https://github.com/dmontgomery40/meta-mcp-server)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗4 layers
 
 **The meta-mcp-server project provides a developer-first platform for building, validating, and deploying MCP (Meta Cloud Platform) servers. It leverages modern tooling such as Zod for schema validation, Docker for containerization, and CLI-based workf**
 
@@ -8966,7 +8890,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 588. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
+### 583. [huoshuiai42/huoshui-file-converter](https://github.com/huoshuiai42/huoshui-file-converter)  `9.1` ★★☆ ⚡95.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The huoshui-file-converter is an agent or orchestration tool designed to facilitate secure and efficient file format conversions using the Model Context Protocol (MCP). It supports conversion between multiple formats such as Markdown, DOCX, HTML, PDF**
 
@@ -8982,7 +8906,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 589. [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
+### 584. [microsoft/semanticworkbench](https://github.com/microsoft/semanticworkbench)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗1 layers
 
 **The MCP Server acts as a bridge between the HuggingFace Open Deep Research project and MCP clients, enabling seamless integration of AI models into developer workflows. It supports various communication protocols and offers features such as code revi**
 
@@ -8998,7 +8922,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 590. [txbm/mcp-local-dev](https://github.com/txbm/mcp-local-dev)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
+### 585. [txbm/mcp-local-dev](https://github.com/txbm/mcp-local-dev)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers
 
 **The MCP Local Dev project introduces an AI-powered tool that enables developers to configure, manage, and test local development environments with minimal manual effort. By leveraging large language models, it automates dependency resolution, environ**
 
@@ -9014,7 +8938,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 591. [sandock-ai/sandock](https://github.com/sandock-ai/sandock)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
+### 586. [sandock-ai/sandock](https://github.com/sandock-ai/sandock)  `10.0` ★★★ ⚡94.0 Q0.9🏆 World-class · ↗2 layers 📍
 
 **The Sandock project provides a containerized environment for running code and applications securely. It supports full TypeScript integration, sandbox lifecycle management, and offers a CLI tool for executing code in various languages. This aligns wit**
 
@@ -9030,7 +8954,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 592. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
+### 587. [Grimm67123/grimmbot](https://github.com/Grimm67123/grimmbot)  `9.8` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗2 layers
 
 **GrimmBot is an open-source, sandboxed AI agent built on Docker that learns from its errors to improve over time. It features persistent memory for retaining knowledge across sessions, task scheduling capabilities, custom tool creation, and robust sec**
 
@@ -9045,7 +8969,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 593. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 588. [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The mcp-server-cloudflare project provides a cloud-hosted MCP server that enables developers to monitor, inspect, and manage AI Gateway logs using Cloudflare's AI Gateway API. It supports advanced features such as log retrieval, error analysis, and r**
 
@@ -9061,7 +8985,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 594. [jlucaso1/mcp-javascript-sandbox](https://github.com/jlucaso1/mcp-javascript-sandbox)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
+### 589. [jlucaso1/mcp-javascript-sandbox](https://github.com/jlucaso1/mcp-javascript-sandbox)  `9.0` ★★☆ ⚡94.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The jlucaso1/mcp-javascript-sandbox project provides a MCP (Model Context Protocol) implementation that allows secure execution of untrusted JavaScript code in a sandboxed QuickJS engine compiled to WebAssembly (WASM). It captures standard output and**
 
@@ -9076,7 +9000,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 595. [singlestore-labs/mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
+### 590. [singlestore-labs/mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)  `10.0` ★★★ ⚡93.0 Q0.9🏆 World-class · ↗3 layers
 
 **The Singlestore MCP Server is a Python-based application that enables seamless interaction between large language models (LLMs) and external systems like SingleStore via the MCP protocol. It provides a user-friendly interface for executing complex op**
 
@@ -9092,7 +9016,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 596. [zhaoyouj/mcp-slicer](https://github.com/zhaoyouj/mcp-slicer)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
+### 591. [zhaoyouj/mcp-slicer](https://github.com/zhaoyouj/mcp-slicer)  `9.0` ★★☆ ⚡93.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The mcp-slicer project provides a Model Context Protocol (MCP) server that connects 3D Slicer with external AI applications such as Claude Desktop. This allows users to interact with 3D medical images and scenes using natural language, supporting tas**
 
@@ -9108,7 +9032,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 597. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗2 layers
+### 592. [farukalpay/hormuz-tectonochemical-engine](https://github.com/farukalpay/hormuz-tectonochemical-engine)  `9.1` ★★☆ ⚡92.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The project presents a comprehensive tectonochemical forecasting stack designed to model hydrocarbon, nitrogen, and water interactions in the Strait of Hormuz. It leverages MCP (Metal Core Processing) architecture with TensorFlow-based LSTM models fo**
 
@@ -9124,7 +9048,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 598. [c-cf/imf-data-mcp](https://github.com/c-cf/imf-data-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
+### 593. [c-cf/imf-data-mcp](https://github.com/c-cf/imf-data-mcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The imf-data-mcp project provides a Python-based interface for developers to interact with the International Monetary Fund's economic data via the IMF API. It offers tools for querying datasets, fetching time series data, listing indicators and count**
 
@@ -9140,7 +9064,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 599. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
+### 594. [ccq1/awsome_kali_mcpservers](https://github.com/ccq1/awsome_kali_mcpservers)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers 📍
 
 **The awsome_kali_MCPServers project provides a set of MCP (Model Context Protocol) servers specifically designed for Kali Linux environments. These servers are equipped with powerful tools such as Nmap, nm, objdump, strings, and tshark to facilitate r**
 
@@ -9156,7 +9080,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 600. [joesecurity/joesandboxmcp](https://github.com/joesecurity/joesandboxmcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 595. [joesecurity/joesandboxmcp](https://github.com/joesecurity/joesandboxmcp)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The Joe Sandbox MCP server provides a comprehensive platform for interacting with sandbox environments, offering advanced features such as IOC extraction, signature detection, process tree visualization, unpacked binary analysis, network traffic capt**
 
@@ -9172,7 +9096,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 601. [zhangzhongnan928/mcp-pa-ai-agent](https://github.com/zhangzhongnan928/mcp-pa-ai-agent)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
+### 596. [zhangzhongnan928/mcp-pa-ai-agent](https://github.com/zhangzhongnan928/mcp-pa-ai-agent)  `9.0` ★★☆ ⚡92.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The mcp-pa-ai-agent is a Model Context Protocol (MCP) server designed to act as a versatile personal assistant AI. It supports integration with MCP clients like Claude for Desktop, enabling advanced functionalities such as calendar management, task t**
 
@@ -9188,7 +9112,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 602. [zaycruz/docker_mcp](https://github.com/zaycruz/docker_mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 597. [zaycruz/docker_mcp](https://github.com/zaycruz/docker_mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The MCP Server allows developers to run code inside Docker containers, providing isolation from the host system. This enhances security by preventing code execution from malicious sources while supporting multi-language environments and complex scrip**
 
@@ -9204,7 +9128,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 603. [sunwood-ai-labs/command-executor-mcp-server](https://github.com/sunwood-ai-labs/command-executor-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
+### 598. [sunwood-ai-labs/command-executor-mcp-server](https://github.com/sunwood-ai-labs/command-executor-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The Command Executor MCP Server is a model context protocol implementation designed to securely execute only a predefined set of authorized commands. It leverages TypeScript and the MCP SDK, supporting robust security measures such as command validat**
 
@@ -9220,7 +9144,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 604. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
+### 599. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗4 layers 📍
 
 **The datalayer/jupyter-earth-mcp-server project provides a Model Context Protocol (MCP) server implementation that allows users to search for and download Earth datasets from NASA's Earthdata. It integrates seamlessly with Jupyter notebooks, enabling **
 
@@ -9236,7 +9160,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 605. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
+### 600. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗3 layers
 
 **The MCP Server facilitates seamless integration with various hardware devices such as cameras, printers, microphones, and displays. It provides a centralized platform for developers to create, manage, and automate workflows across different periphera**
 
@@ -9252,7 +9176,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 606. [0xreisearch/crypto-mcp-beta](https://github.com/0xreisearch/crypto-mcp-beta)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
+### 601. [0xreisearch/crypto-mcp-beta](https://github.com/0xreisearch/crypto-mcp-beta)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project presents a GitHub-based implementation of the Crypto MCP (Money Market Code) servers, designed to support enterprise-grade AI applications. It outlines the technical architecture, including server deployment, configuration via CLI, and in**
 
@@ -9268,7 +9192,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 607. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 602. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)  `9.0` ★★☆ ⚡91.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **The kaznak/shell-command-mcp project provides a Model Context Protocol (MCP) server that runs within a Docker container, offering a sandboxed environment to execute shell commands without exposing access to the host Docker daemon. This enhances secur**
 
@@ -9284,7 +9208,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 608. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 603. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **Zeroboot provides a platform that delivers sub-millisecond virtual machine sandboxes specifically designed for running AI agents. By leveraging copy-on-write forking and KVM virtualization with hardware-enforced memory isolation, it ensures each AI a**
 
@@ -9299,7 +9223,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 609. [hdresearch/mcp-python](https://github.com/hdresearch/mcp-python)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
+### 604. [hdresearch/mcp-python](https://github.com/hdresearch/mcp-python)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers
 
 **The hdresearch/mcp-python project provides a Python-based interactive development environment (IDE) via the MCP protocol. It allows developers to run Python code persistently through a dedicated server, supporting tasks such as code execution, variab**
 
@@ -9314,7 +9238,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 610. [dmontgomery40/mcp-server-birdstats](https://github.com/dmontgomery40/mcp-server-birdstats)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 605. [dmontgomery40/mcp-server-birdstats](https://github.com/dmontgomery40/mcp-server-birdstats)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-server-birdstats project offers a server-based platform that exposes BirdWeather and eBird data through low-token, summary-oriented tools. It supports integration with AI models, secure code execution, and provides structured error feedback t**
 
@@ -9329,7 +9253,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 611. [scrapybara/scrapybara-mcp](https://github.com/scrapybara/scrapybara-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
+### 606. [scrapybara/scrapybara-mcp](https://github.com/scrapybara/scrapybara-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The Scrapybara-MCP project provides a Model Context Protocol server that allows MCP clients such as Claude Desktop, Cursor, and Windsurf to access virtual Ubuntu desktops. This enables users to browse the web, run code, and perform various actions wi**
 
@@ -9344,7 +9268,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 612. [iannuttall/cursor-rules-mcp](https://github.com/iannuttall/cursor-rules-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 607. [iannuttall/cursor-rules-mcp](https://github.com/iannuttall/cursor-rules-mcp)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The project provides a GitHub-based solution for implementing and managing rules via the MCP (Model Context Protocol) server. It enables developers to interact with Playbooks Rules API, allowing them to search, install, and execute rules efficiently.**
 
@@ -9359,7 +9283,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 613. [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
+### 608. [e2b-dev/mcp-server](https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js)  `8.8` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The mcp-server project provides a JavaScript implementation of the MCP (Model Context Protocol) server, enabling secure and isolated code execution. It supports development workflows with features like auto-rebuild, debugging via MCP Inspector, and i**
 
@@ -9374,7 +9298,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 614. [gemini-cli-extensions/gcloud](https://github.com/gemini-cli-extensions/gcloud)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
+### 609. [gemini-cli-extensions/gcloud](https://github.com/gemini-cli-extensions/gcloud)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗2 layers
 
 **The gcloud MCP server acts as a bridge between LLM-based agents and the Google Cloud ecosystem by wrapping the gcloud CLI. It utilizes the Model Context Protocol to provide a standardized tool-calling interface, allowing agents to execute cloud opera**
 
@@ -9390,7 +9314,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 615. [AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
+### 610. [AI-App/OpenDevin.OpenDevin](https://github.com/AI-App/OpenDevin.OpenDevin)  `8.1` ★☆☆ ⚡91.0 Q0.9✓ Very good · ↗3 layers
 
 **The OpenDevin project aims to replicate, enhance, and innovate upon the original Devin model. It leverages LLMs to tackle the complexities of software engineering. The project's current focus includes developing a user-friendly interface (chat, shell**
 
@@ -9406,7 +9330,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 616. [Dynamic Workers](https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
+### 611. [Dynamic Workers](https://developers.cloudflare.com/workers/runtime-apis/bindings/worker-loader)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers 📍
 
 **Cloudflare Dynamic Workers provide a low-level primitive for spinning up isolated V8 environments instantly by supplying script content and configuration at runtime. This architecture allows for the execution of untrusted or AI-generated code ('Code **
 
@@ -9422,7 +9346,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 617. [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 612. [Programmatic tool calling](https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **Programmatic tool calling is a workflow optimization technique where the Claude model generates Python code that directly calls defined tools within a dedicated code execution container. This circumvents the traditional round-trip latency and context**
 
@@ -9438,7 +9362,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 618. [Why Node.js Needs a Virtual File System](https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
+### 613. [Why Node.js Needs a Virtual File System](https://blog.platformatic.dev/why-nodejs-needs-a-virtual-file-system)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers
 
 **The Borg Project's @platformatic/vfs project introduces a userland Virtual File System (VFS) for Node.js, designed to address the limitations of virtualizing the filesystem in Node.js. By integrating directly into the core Node.js runtime, it enables**
 
@@ -9454,7 +9378,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 619. [Edge.js: Running Node apps inside a WebAssembly Sandbox · Blog · Wasmer](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
+### 614. [Edge.js: Running Node apps inside a WebAssembly Sandbox · Blog · Wasmer](https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗1 layers 📍
 
 **Edge.js is a JavaScript runtime designed to safely run Node.js workloads in a WebAssembly sandbox, leveraging WebAssembly's security features and the OS-level isolation provided by WASI. It preserves full Node.js compatibility while sandboxing only u**
 
@@ -9470,7 +9394,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 620. [Edge.js: Run Node apps inside a WebAssembly sandbox | Hacker News](https://news.ycombinator.com/item?id=47416081)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
+### 615. [Edge.js: Run Node apps inside a WebAssembly sandbox | Hacker News](https://news.ycombinator.com/item?id=47416081)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
 
 **Edge.js is a project that aims to run Node.js applications within a WebAssembly sandbox, providing a secure and efficient environment for executing JavaScript code. It leverages the Wasmer CLI for integration with Node.js and supports multiple JavaSc**
 
@@ -9486,7 +9410,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 621. [DaVinci Resolve MCP | Awesome MCP Servers](https://mcpservers.org/servers/github-com-samuelgursky-davinci-resolve-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
+### 616. [DaVinci Resolve MCP | Awesome MCP Servers](https://mcpservers.org/servers/github-com-samuelgursky-davinci-resolve-mcp)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class 📍
 
 **The Borg Project's technical resource details a comprehensive MCP (Media Content Processing) server integration for DaVinci Resolve, enabling AI-assisted control over video editing workflows via natural language. It introduces the Positioned AppendTo**
 
@@ -9502,7 +9426,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 622. [Usefully run hundreds of Claudes in parallel with mngr](https://imbue.com/product/mngr)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
+### 617. [Usefully run hundreds of Claudes in parallel with mngr](https://imbue.com/product/mngr)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗2 layers
 
 **The Imbue Project's mngr is a command-line utility designed to simplify the orchestration and management of multiple AI agents, such as Claude and Codex, across various compute environments. It enables developers to run these agents in parallel witho**
 
@@ -9518,7 +9442,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 623. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
+### 618. [Launch HN: Freestyle – Sandboxes for Coding Agents | Hacker News](https://news.ycombinator.com/item?id=47663147)  `10.0` ★★★ ⚡90.0 Q0.8🏆 World-class · ↗5 layers
 
 **The Borg project introduces a novel approach to sandboxing by enabling full memory and disk forking of AI agents. This allows each sandbox instance to maintain identical states, including complex interactions with hardware and software layers such as**
 
@@ -9534,7 +9458,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 624. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
+### 619. [kalivaraprasad-gonapa/react-mcp](https://github.com/kalivaraprasad-gonapa/react-mcp)  `9.0` ★★☆ ⚡90.0 Q0.9⭐ Excellent · ↗2 layers
 
 **React MCP is a server-based tool that allows Claude Desktop to interact with React applications, facilitating the creation, modification, and management of React apps based on user prompts. It leverages the Model Context Protocol to bridge AI capabil**
 
@@ -9550,7 +9474,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 625. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
+### 620. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers 📍
 
 **The BrowserCat MCP Server provides a scalable platform for developers to integrate AI models into web applications. It supports advanced features such as browser automation, screenshot capture, JavaScript execution, and real-time interaction with web**
 
@@ -9565,7 +9489,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 626. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
+### 621. [qododavid/pty-mcp](https://github.com/qododavid/pty-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗4 layers
 
 **The pty-mcp project offers an MCP (Multi-Process Communication) tool server that delivers a persistent, stateful terminal environment. This allows developers to run and manage multiple processes in isolation, enhancing workflow automation and code ex**
 
@@ -9580,7 +9504,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 627. [veoery/gh_mcp_server](https://github.com/veoery/gh_mcp_server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 622. [veoery/gh_mcp_server](https://github.com/veoery/gh_mcp_server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The GH_mcp_server project provides a developer-focused interface that allows artificial intelligence models to communicate with Rhino and Grasshopper, facilitating direct manipulation of 3D models and design workflows. This integration enhances produ**
 
@@ -9595,7 +9519,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 628. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
+### 623. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The Chronulus AI Forecasting and Prediction Agents project provides a MCP Server solution to integrate with Claude Desktop, enabling users to leverage AI-driven forecasting capabilities within their workflow. This tool supports automated code executi**
 
@@ -9610,7 +9534,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 629. [cwahlfeldt/blender-mcp](https://github.com/cwahlfeldt/blender-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
+### 624. [cwahlfeldt/blender-mcp](https://github.com/cwahlfeldt/blender-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗3 layers
 
 **The cwahlfeldt/blender-mcp project provides a server-based solution for running Blender Python scripts in a headless environment. It allows users to add, edit, execute, and remove scripts, track script metadata, and manage execution results. This too**
 
@@ -9625,7 +9549,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 630. [pvinis/mcp-playwright-stealth](https://github.com/pvinis/mcp-playwright-stealth)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 625. [pvinis/mcp-playwright-stealth](https://github.com/pvinis/mcp-playwright-stealth)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The pvinis/mcp-playwright-stealth project provides a Playwright-based Model Context Protocol Server that facilitates automation of web browsers and APIs within development environments like Claude Desktop, Cline, and Cursor IDE. It supports advanced **
 
@@ -9640,7 +9564,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 631. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 626. [yonaka15/mcp-pyodide](https://github.com/yonaka15/mcp-pyodide)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **This project provides a robust, secure, and efficient Pyodide server that allows Large Language Models (LLMs) to run Python scripts through the MCP interface. It supports both standard input/output (stdio) and SSE transport modes, ensuring compatibil**
 
@@ -9655,7 +9579,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 632. [garc33/js-sandbox-mcp-server](https://github.com/garc33/js-sandbox-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 627. [garc33/js-sandbox-mcp-server](https://github.com/garc33/js-sandbox-mcp-server)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The garc33/js-sandbox-mcp-server project provides a platform that enables developers to execute JavaScript code in an isolated, controlled environment. This enhances security by preventing malicious code from affecting the host system. It supports fe**
 
@@ -9670,7 +9594,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 633. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
+### 628. [ferrislucas/iterm-mcp](https://github.com/ferrislucas/iterm-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗1 layers
 
 **The ferrislucas/iterm-mcp project provides a Model Context Protocol server that allows seamless integration with iTerm, enabling developers to execute commands directly from the terminal session. This tool enhances productivity by supporting REPL and**
 
@@ -9685,7 +9609,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 634. [waldzellai/waldzell-mcp](https://github.com/waldzellai/waldzell-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 629. [waldzellai/waldzell-mcp](https://github.com/waldzellai/waldzell-mcp)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The Waldzell AI monorepo provides a modular set of MCP servers, each capable of running independently. These servers are optimized for use in modern software development workflows, supporting automation, CI/CD pipelines, and secure code execution. Th**
 
@@ -9700,7 +9624,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 635. [iamjzx/dida](https://github.com/iamjzx/dida)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
+### 630. [iamjzx/dida](https://github.com/iamjzx/dida)  `8.8` ★☆☆ ⚡90.0 Q0.9✓ Very good · ↗2 layers
 
 **The iamjzx/dida project provides a Model Context Protocol (MCP) server that enables AI assistants to interact with the Dida365 application. It supports task and project management, workflow automation, secure code handling, and enterprise-grade secur**
 
@@ -9715,7 +9639,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 636. [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 631. [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **Onyx is the application layer for LLMs, providing a feature-rich interface that can be easily hosted by anyone. Onyx enables LLMs through advanced capabilities like RAG, web search, code execution, file creation, deep research and more. Connect your **
 
@@ -9731,7 +9655,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 637. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 632. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a developer-centric interface that allows users to query cloud cost data using CloudZero's API and interact with large language models via the Model Context Protocol (MCP) server. It supports automated workflows, secure code exec**
 
@@ -9747,7 +9671,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 638. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
+### 633. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers 📍
 
 **SecretiveShell provides a MCP (Microsoft Command Prompt) server tailored for Windows environments, facilitating automation, code execution, and integration with Windows APIs. It supports advanced features such as media management, window control, sec**
 
@@ -9763,7 +9687,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 639. [akash-network/mcp](https://github.com/akash-network/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
+### 634. [akash-network/mcp](https://github.com/akash-network/mcp)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers
 
 **The project provides a bridge between AI models and the Akash Network, supporting deployment creation, certificate management, SDL operations, and integration with various AI platforms through the Model Context Protocol. It includes tools for wallet **
 
@@ -9779,7 +9703,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 640. [sworddut/mcp-local-file-reader](https://github.com/sworddut/mcp-local-file-reader)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
+### 635. [sworddut/mcp-local-file-reader](https://github.com/sworddut/mcp-local-file-reader)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗1 layers
 
 **The sworddut/mcp-local-file-reader project provides a Borg-compatible server that allows AI models, such as LLMs, to securely read and process local files. It supports various file types, integrates with AI tools like Windsurf, and emphasizes secure **
 
@@ -9795,7 +9719,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 641. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
+### 636. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)  `9.0` ★★☆ ⚡89.0 Q0.9⭐ Excellent · ↗2 layers 📍
 
 **The jmanhype/dart-mcp-server project provides a TypeScript-based MCP server that bridges Dart task management to AI tools. It uses Python subprocesses to execute Dart SDK calls, supporting features like task creation, update, and management through a**
 
@@ -9811,7 +9735,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 642. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
+### 637. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗3 layers
 
 **The namin/livecode-mcp project provides a GitHub-hosted solution to run io.livecode.ch as an MCP (Machine Control Protocol) server, enabling developers to integrate live coding environments into automated workflows. It supports code execution, workfl**
 
@@ -9826,7 +9750,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 643. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
+### 638. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The emacs-mcp-server project provides a powerful tool for integrating the MCP (Mac-Processing) protocol into Emacs, allowing developers to generate and execute Elisp code directly from within their editor. It supports advanced features such as code g**
 
@@ -9841,7 +9765,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 644. [voxlink-org/finance-tools-mcp](https://github.com/voxlink-org/finance-tools-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 639. [voxlink-org/finance-tools-mcp](https://github.com/voxlink-org/finance-tools-mcp)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The finance-tools-mcp project provides a Model Context Protocol (MCP) server that integrates with data sources and analytical libraries to deliver comprehensive financial research tools for Large Language Models. It supports secure code execution, au**
 
@@ -9856,7 +9780,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 645. [isaacwasserman/mcp-langchain-ts-client](https://github.com/isaacwasserman/mcp-langchain-ts-client)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
+### 640. [isaacwasserman/mcp-langchain-ts-client](https://github.com/isaacwasserman/mcp-langchain-ts-client)  `8.8` ★☆☆ ⚡89.0 Q0.9✓ Very good · ↗2 layers
 
 **The mcp-langchain-ts-client is a JavaScript/TypeScript LangChain and Model Context Protocol (MCP) client designed to facilitate interaction between AI models and MCP-based systems. It allows developers to build applications that leverage the capabili**
 
@@ -9871,7 +9795,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 646. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `9.3` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
+### 641. [szeider/mcp-dblp](https://github.com/szeider/mcp-dblp)  `9.3` ★★☆ ⚡88.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The MCP-DBLP project provides a secure, cloud-based API that enables Large Language Models to access and utilize the DBLP computer science bibliography database. It supports advanced search capabilities, BibTeX generation, citation management, and in**
 
@@ -9886,7 +9810,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 647. [cat-state/nrepl-mcp](https://github.com/cat-state/nrepl-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
+### 642. [cat-state/nrepl-mcp](https://github.com/cat-state/nrepl-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers
 
 **The project implements a bridge between Anthropic's Model Control Protocol (MCP) and Basilisp's nREPL, allowing seamless execution of Python code within a Basilisp REPL environment. It focuses on enhancing developer productivity by integrating AI-dri**
 
@@ -9901,7 +9825,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 648. [anshumax/world_bank_mcp_server](https://github.com/anshumax/world_bank_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
+### 643. [anshumax/world_bank_mcp_server](https://github.com/anshumax/world_bank_mcp_server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗3 layers 📍
 
 **The anshumax/world_bank_mcp_server project implements the Model Context Protocol (MCP) to facilitate secure and efficient communication between AI assistants and the World Bank's open data API. It provides a structured interface for listing indicator**
 
@@ -9916,7 +9840,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 649. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
+### 644. [imghosty17/mcp-server-sandbox](https://github.com/imghosty17/mcp-server-sandbox)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a GitHub repository containing tools and resources for simulating and managing complex software development workflows, focusing on automation, code review, security, and integration with enterprise platforms. It supports advanced**
 
@@ -9931,7 +9855,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 650. [arnavsurve/scdl-mcp](https://github.com/arnavsurve/scdl-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 645. [arnavsurve/scdl-mcp](https://github.com/arnavsurve/scdl-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The mcp server facilitates the downloading of songs and playlists from SoundCloud, integrating with Claude for enhanced user interaction. It supports various features such as code execution, security measures, and workflow automation, making it suita**
 
@@ -9946,7 +9870,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 651. [jamsocket/forevervm](https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 646. [jamsocket/forevervm](https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The ForeverVM JavaScript module, specifically the mcp-server component, allows developers to run Python code within a Python REPL environment. This facilitates seamless integration between different programming languages and enhances automation capab**
 
@@ -9961,7 +9885,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 652. [formulahendry/mcp-server-code-runner](https://github.com/formulahendry/mcp-server-code-runner)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
+### 647. [formulahendry/mcp-server-code-runner](https://github.com/formulahendry/mcp-server-code-runner)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The Code Runner MCP Server allows developers to execute code snippets and scripts in a sandboxed environment, facilitating testing, debugging, and integration of various programming languages. It supports multiple languages including JavaScript, Pyth**
 
@@ -9976,7 +9900,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 653. [abdelstark/lightning-mcp](https://github.com/abdelstark/lightning-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
+### 648. [abdelstark/lightning-mcp](https://github.com/abdelstark/lightning-mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗1 layers
 
 **The project provides a Lightning Network MCP server that allows AI models to securely interact with the Lightning Network, facilitating payment processing on the blockchain. It includes features such as model context protocol integration, secure code**
 
@@ -9991,7 +9915,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 654. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 649. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **The ZenMemoryAI MCP Server leverages a decentralized architecture to store and manage AI-generated memories securely. It integrates with Solana for on-chain memory context and uses TypeScript for robust development, supporting features like in-memory**
 
@@ -10006,7 +9930,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 655. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
+### 650. [microsoft/mcp](https://github.com/microsoft/mcp)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository contains core libraries, test frameworks, engineering systems, pipelines, and tooling for Microsoft MCP Server contributors. It standardizes how applications provide context to large language models (LLMs), enhancing their capabilitie**
 
@@ -10021,7 +9945,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 656. [setuhq/setu-mcps](https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
+### 651. [setuhq/setu-mcps](https://github.com/setuhq/setu-mcps/tree/HEAD/upi-deeplinks)  `8.8` ★☆☆ ⚡88.0 Q0.9✓ Very good 📍
 
 **The SetuMCP project provides a server-based solution for managing UPI payment deeplinks, facilitating secure transactions and integration with payment infrastructure. It supports key operations such as creating payment links, checking statuses, initi**
 
@@ -10036,7 +9960,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 657. [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers 📍
+### 652. [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)  `8.1` ★☆☆ ⚡88.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **This resource serves as the primary technical directory for the Model Context Protocol (MCP) ecosystem, detailing standardized implementations that allow LLMs to interact with local and remote resources. It documents a wide array of servers that norm**
 
@@ -10052,7 +9976,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 658. [https://linqapp.com/&hsa_acc=1202876083438109&hsa_cam=1202448428246006](https://linqapp.com/&hsa_acc=1202876083438109&hsa_cam=120244842824600614&hsa_grp=120244842824720614&hsa_ad=120244842824760614&hsa_src=fb&hsa_net=facebook&hsa_ver=3&fbclid=IwY2xjawRixkdleHRuA2FlbQEwAGFkaWQBqzJaJiputnNydGMGYXBwX2lkDzQwOTk2MjYyMzA4NTYwOQABHuYeUoDnkTfrXCS5f7U2Zrfs2TFTA9RejnbWNVgP_NM8wk0qzs20KszC6gx2_aem_NMdeffqbHYHfQ5R3QFnBlw&campaign_id=120244842824600614&ad_id=120244842824760614)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers
+### 653. [https://linqapp.com/&hsa_acc=1202876083438109&hsa_cam=1202448428246006](https://linqapp.com/&hsa_acc=1202876083438109&hsa_cam=120244842824600614&hsa_grp=120244842824720614&hsa_ad=120244842824760614&hsa_src=fb&hsa_net=facebook&hsa_ver=3&fbclid=IwY2xjawRixkdleHRuA2FlbQEwAGFkaWQBqzJaJiputnNydGMGYXBwX2lkDzQwOTk2MjYyMzA4NTYwOQABHuYeUoDnkTfrXCS5f7U2Zrfs2TFTA9RejnbWNVgP_NM8wk0qzs20KszC6gx2_aem_NMdeffqbHYHfQ5R3QFnBlw&campaign_id=120244842824600614&ad_id=120244842824760614)  `10.0` ★★★ ⚡87.0 Q0.7🏆 World-class · ↗1 layers
 
 **This resource outlines the technical framework for integrating modern messaging protocols such as iMessage, RCS, SMS, and voice into enterprise workflows. It emphasizes building robust, scalable customer interaction systems using Linq APIs, focusing **
 
@@ -10068,7 +9992,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 659. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 654. [ssdeanx/node-code-sandbox-mcp](https://github.com/ssdeanx/node-code-sandbox-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **A secure Node.js execution sandbox for AI that enables dynamic JavaScript execution, dependency management, and interactive assistance within ephemeral Docker containers.**
 
@@ -10084,7 +10008,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 660. [neverinfamous/memory-journal-mcp](https://github.com/neverinfamous/memory-journal-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
+### 655. [neverinfamous/memory-journal-mcp](https://github.com/neverinfamous/memory-journal-mcp)  `9.6` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗1 layers
 
 **AI Memory with Dynamic Project Detection, Automatic Session Briefing, Personal+Team Session Summary Prompts, Triple Search, Knowledge Graphs, GitHub Integration.**
 
@@ -10100,7 +10024,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 661. [MCP Apps: Extending servers with interactive user interfaces](http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
+### 656. [MCP Apps: Extending servers with interactive user interfaces](http://blog.modelcontextprotocol.io/posts/2025-11-21-mcp-apps)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This proposal introduces a standardized mechanism, the MCP Apps Extension (SEP-1865), to allow MCP servers to embed interactive user interfaces (UIs) within host applications. It addresses the current limitation where servers can only exchange text a**
 
@@ -10116,7 +10040,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 662. [autogen_ext.teams.magentic_one — AutoGen](https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.teams.magentic_one.html)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
+### 657. [autogen_ext.teams.magentic_one — AutoGen](https://microsoft.github.io/autogen/stable/reference/python/autogen_ext.teams.magentic_one.html)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent · ↗3 layers
 
 **Magentic-One is a generalist multi-agent system designed for solving open-ended web and file-based tasks. It utilizes a lead Orchestrator agent for planning, directing other agents, and tracking progress. The Orchestrator maintains a Task Ledger for **
 
@@ -10132,7 +10056,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 663. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5823261134684034917)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
+### 658. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5823261134684034917)  `9.1` ★★☆ ⚡87.0 Q0.8⭐ Excellent 📍
 
 **Olares One is a powerful desktop computer optimized for running AI models locally. It features a high-end NVIDIA GeForce RTX 5090 Mobile GPU, an Intel Core Ultra 9 processor, and a custom-built operating system (Olares OS) designed for security and e**
 
@@ -10148,7 +10072,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 664. [lxe/chrome-mcp](https://github.com/lxe/chrome-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
+### 659. [lxe/chrome-mcp](https://github.com/lxe/chrome-mcp)  `8.8` ★☆☆ ⚡87.0 Q0.9✓ Very good · ↗1 layers
 
 **The lxe/chrome-mcp project provides a Model Context Protocol (MCP) server that allows AI agents to interact with and manipulate a Chrome browser instance locally. It supports navigation, element interaction, text manipulation, and more, facilitating **
 
@@ -10163,7 +10087,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 665. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 660. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **The resource describes a technique where isolated code sandboxes are created using copy-on-write (CoW) memory forking. Instead of booting a new VM each time, a single Firecracker VM is booted with pre-loaded Python and numpy, then snapshots are taken**
 
@@ -10178,7 +10102,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 666. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
+### 661. [alxspiker/ai-meta-mcp-server](https://github.com/alxspiker/ai-meta-mcp-server)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The alxspiker/ai-meta-mcp-server is a flexible platform that allows AI models to define and run custom tools at runtime through a meta-tool architecture. It supports multiple execution environments, enforces sandboxed security, and integrates with hu**
 
@@ -10194,7 +10118,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 667. [Go hard on agents, not on your filesystem | Hacker News](https://news.ycombinator.com/item?id=47550282)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
+### 662. [Go hard on agents, not on your filesystem | Hacker News](https://news.ycombinator.com/item?id=47550282)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗2 layers
 
 **The discussion revolves around integrating a custom filesystem sandbox for Claude, a large language model, to restrict its access to only necessary directories and prevent unauthorized file operations. This approach aims to mitigate risks associated **
 
@@ -10209,7 +10133,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 668. [17,000 MCP Servers — And the Security Threats Nobody Is Talking About](https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
+### 663. [17,000 MCP Servers — And the Security Threats Nobody Is Talking About](https://mcppedia.org/blog/2026-04-05-17000-mcp-servers-and-the-threats-nobody-talks-about)  `9.0` ★★☆ ⚡86.0 Q0.8⭐ Excellent · ↗1 layers
 
 **The document examines the rapid proliferation of over 17,000 MCP servers across various platforms, highlighting their expanded attack surface. It identifies three critical security threats unique to MCP: tool poisoning, injection risks through malici**
 
@@ -10224,7 +10148,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 669. [XeroOl/mirin-template](https://github.com/XeroOl/mirin-template)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 664. [XeroOl/mirin-template](https://github.com/XeroOl/mirin-template)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **The Mirin Template is a fork of OpenITG designed to make it easier for mod file creators to implement their ideas. It provides functions that allow users to use NotITG to express their mod ideas and bring them to life in the game. The template is des**
 
@@ -10238,7 +10162,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 670. [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
+### 665. [g0t4/mcp-server-commands](https://github.com/g0t4/mcp-server-commands)  `8.8` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗2 layers
 
 **The g0t4/mcp-server-commands project provides a GitHub-hosted server that allows users to execute commands on the host machine using the runProcess tool. This facilitates automation, integration with CI/CD pipelines, and streamlined deployment workfl**
 
@@ -10252,7 +10176,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 671. [topherbc/python-run-mcp](https://github.com/topherbc/python-run-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 666. [topherbc/python-run-mcp](https://github.com/topherbc/python-run-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The project provides a Python-based MCP (Model Context Protocol) server that enables secure and standardized execution of Python scripts via API endpoints. It supports running code in isolated environments, ensuring security and consistency across de**
 
@@ -10267,7 +10191,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 672. [jonemo/openpyxl-mcp-server](https://github.com/jonemo/openpyxl-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 667. [jonemo/openpyxl-mcp-server](https://github.com/jonemo/openpyxl-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **The jonemo/openpyxl-mcp-server project provides a lightweight wrapper around the OpenPyXl Python library, exposing its Excel file reading capabilities as an MCP server. This allows users to programmatically fetch and process data from Excel spreadshe**
 
@@ -10282,7 +10206,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 673. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
+### 668. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The project provides a Python implementation of a cryptocurrency exchange system designed to integrate with MCP (Machine-to-Machine) protocols. It focuses on secure communication, transaction handling, and automation features suitable for enterprise-**
 
@@ -10297,7 +10221,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 674. [markacianfrani/mcp-pattern-language](https://github.com/markacianfrani/mcp-pattern-language)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
+### 669. [markacianfrani/mcp-pattern-language](https://github.com/markacianfrani/mcp-pattern-language)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗3 layers
 
 **This project provides a centralized developer platform that enables agents to interact with MCP rules and prompts dynamically. It supports integration with external tools, automated workflows, and secure code execution, making it suitable for modern **
 
@@ -10312,7 +10236,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 675. [atuinturtle/dice-thrower-mcp-server](https://github.com/atuinturtle/dice-thrower-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
+### 670. [atuinturtle/dice-thrower-mcp-server](https://github.com/atuinturtle/dice-thrower-mcp-server)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good 📍
 
 **The project provides a GitHub-hosted server using Bun and TypeScript to simulate dice throws, supporting integration with MCP systems. It offers features such as code execution, workflow automation, secure coding practices, and enterprise-grade secur**
 
@@ -10327,7 +10251,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 676. [garoth/sleep-mcp](https://github.com/garoth/sleep-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
+### 671. [garoth/sleep-mcp](https://github.com/garoth/sleep-mcp)  `8.8` ★☆☆ ⚡86.0 Q0.8✓ Very good · ↗2 layers
 
 **The Garoth/sleep-mcp project provides an MCP (Message Queuing Protocol) server that enables AI agents to implement sleep functionality. This allows developers to introduce delays between operations, such as waiting for API responses or testing eventu**
 
@@ -10341,7 +10265,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 677. [lvntky/CVM](https://github.com/lvntky/CVM)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
+### 672. [lvntky/CVM](https://github.com/lvntky/CVM)  `8.0` ★☆☆ ⚡86.0 Q0.9✓ Very good · ↗1 layers
 
 **This repository contains the source code for a simple and lightweight JVM (Java Virtual Machine) written in C/C++. It serves as an educational resource to provide a basic understanding of JVM internals, bytecode execution, class loading, and method e**
 
@@ -10357,7 +10281,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 678. [Vibe Coding Safely: The Ultimate Guide to AI Development with OpenCode and NixOS via docker-nixuser](https://grigio.org/vibe-coding-safely-the-ultimate-guide-to-ai-development-with-opencode-and-nixos-via-docker-nixuser)  `9.8` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers
+### 673. [Vibe Coding Safely: The Ultimate Guide to AI Development with OpenCode and NixOS via docker-nixuser](https://grigio.org/vibe-coding-safely-the-ultimate-guide-to-ai-development-with-opencode-and-nixos-via-docker-nixuser)  `9.8` ★★☆ ⚡85.0 Q0.8⭐ Excellent · ↗2 layers
 
 **This resource outlines the integration of OpenCode, a powerful AI coding assistant, within a secure, containerized environment using NixOS and Docker-nixuser. It emphasizes the importance of sandboxing to protect the host system from data exposure, c**
 
@@ -10372,7 +10296,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 679. [daedalus/mcp_reverse_engineering](https://github.com/daedalus/mcp_reverse_engineering)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 674. [daedalus/mcp_reverse_engineering](https://github.com/daedalus/mcp_reverse_engineering)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The daedalus/mcp_reverse_engineering project offers a unified interface to integrate various reverse engineering tools with enhanced security features. It supports functions like string extraction, disassembly, binary analysis, and firmware inspectio**
 
@@ -10386,7 +10310,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 680. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 675. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The dwrtz/mcpterm project offers a powerful MCP (Multi-Process Communication) tool server that enables developers to create interactive terminal sessions. This tool is particularly useful for testing and debugging applications in a controlled environ**
 
@@ -10400,7 +10324,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 681. [dillip285/mcp-dev-server](https://github.com/dillip285/mcp-dev-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 676. [dillip285/mcp-dev-server](https://github.com/dillip285/mcp-dev-server)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **The dillip285/mcp-dev-server is a GitHub-hosted platform designed to streamline software development workflows by providing project context management, Docker environment support, and AI-assisted code execution. It enables teams to create projects, m**
 
@@ -10414,7 +10338,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 682. [hanzoai/mcp](https://github.com/hanzoai/mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
+### 677. [hanzoai/mcp](https://github.com/hanzoai/mcp)  `8.8` ★☆☆ ⚡85.0 Q0.8✓ Very good · ↗1 layers
 
 **The hanzoai/mcp project provides a unified developer platform integrating over 260 tools to support AI agents, enabling advanced context management, secure code execution, and seamless workflow automation across various environments.**
 
@@ -10429,7 +10353,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 683. [huang-sh/scmcp](https://github.com/huang-sh/scmcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
+### 678. [huang-sh/scmcp](https://github.com/huang-sh/scmcp)  `8.8` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗1 layers 📍
 
 **The SCMCP project provides a web-based interface for single cell analysis using scRNA-Seq data. It integrates multiple modules such as preprocessing, clustering, visualization, and more, all accessible via natural language commands. This tool is desi**
 
@@ -10443,7 +10367,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 684. [michelpereira/awesome-open-source-games](https://github.com/michelpereira/awesome-open-source-games)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
+### 679. [michelpereira/awesome-open-source-games](https://github.com/michelpereira/awesome-open-source-games)  `8.0` ★☆☆ ⚡85.0 Q0.9✓ Very good · ↗2 layers
 
 **This repository showcases a selection of games and projects where the source code is openly available on GitHub. The content highlights various game types, ranging from browser-based board games to arcade classics, highlighting the breadth of creativ**
 
@@ -10459,7 +10383,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 685. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
+### 680. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗3 layers
 
 **An MCP client implementation focused on Generative UI (AG-UI protocol) to bring interactive elements and state synchronization into the agent experience.**
 
@@ -10473,7 +10397,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 686. [testdriverai/testdriverai](https://github.com/testdriverai/testdriverai)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
+### 681. [testdriverai/testdriverai](https://github.com/testdriverai/testdriverai)  `10.0` ★★★ ⚡84.0 Q0.8🏆 World-class · ↗1 layers
 
 **An autonomous E2E testing SDK that uses computer vision to interact with UIs like a human, providing automated maintenance and ephemeral cloud sandboxing.**
 
@@ -10487,7 +10411,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 687. [skydeckai/skydeckai-code](https://github.com/skydeckai/skydeckai-code)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 682. [skydeckai/skydeckai-code](https://github.com/skydeckai/skydeckai-code)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **A comprehensive AI-driven development platform that streamlines code management, security, and workflow automation for modern software teams.**
 
@@ -10503,7 +10427,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 688. [syauqi-uqi/qgis_mcp_modify1](https://github.com/syauqi-uqi/qgis_mcp_modify1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 683. [syauqi-uqi/qgis_mcp_modify1](https://github.com/syauqi-uqi/qgis_mcp_modify1)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **An enhanced QGIS plugin integrating Claude AI for prompt-assisted project creation, layer management, and code execution within QGIS.**
 
@@ -10519,7 +10443,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 689. [jetbrains/mcp-jetbrains](https://github.com/jetbrains/mcp-jetbrains)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 684. [jetbrains/mcp-jetbrains](https://github.com/jetbrains/mcp-jetbrains)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **JetBrains MCP Proxy Server enables secure, protocol-agnostic communication between JetBrains IDEs and external clients.**
 
@@ -10535,7 +10459,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 690. [pinatacloud/pinata-mcp](https://github.com/pinatacloud/pinata-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
+### 685. [pinatacloud/pinata-mcp](https://github.com/pinatacloud/pinata-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers 📍
 
 **Pinata-MCP enables secure, AI-powered code execution and integration with IPFS for enterprise software development.**
 
@@ -10551,7 +10475,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 691. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 686. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A deep research AI agent built on Gemini 2.5 Flash, designed for structured, iterative, and context-aware research workflows.**
 
@@ -10567,7 +10491,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 692. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 687. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **Canvas MCP Server integrates AI assistants with Canvas LMS to enhance student and educator productivity through intelligent tools and automation.**
 
@@ -10583,7 +10507,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 693. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
+### 688. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server that enables AI assistants to process, transform, and sign documents using the Nutrient Document Web Service.**
 
@@ -10599,7 +10523,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 694. [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
+### 689. [grahama1970/claude-code-mcp-enhanced](https://github.com/grahama1970/claude-code-mcp-enhanced)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗2 layers
 
 **Enhanced Claude Code MCP server with orchestration capabilities, reliability improvements, and self-contained execution patterns.**
 
@@ -10615,7 +10539,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 695. [vibase-ai/vibase](https://github.com/vibase-ai/vibase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
+### 690. [vibase-ai/vibase](https://github.com/vibase-ai/vibase)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗3 layers
 
 **A powerful tool for querying and mutating PostgreSQL data using MCP, enabling automated workflows and secure code execution.**
 
@@ -10631,7 +10555,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 696. [OzorOwn/defi-mcp](https://github.com/OzorOwn/defi-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 691. [OzorOwn/defi-mcp](https://github.com/OzorOwn/defi-mcp)  `9.6` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A unified AI platform integrating DeFi data, wallet management, and multi-chain analytics via Claude Desktop, Cursor, and 1inch.**
 
@@ -10647,7 +10571,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 697. [Manus vs. ChatGPT: we do what ChatGPT cannot](https://manus.im/compare/vs-chatgpt)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
+### 692. [Manus vs. ChatGPT: we do what ChatGPT cannot](https://manus.im/compare/vs-chatgpt)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent · ↗1 layers
 
 **Manus is presented as a general agent capable of autonomously achieving objectives by reasoning, adapting, and combining tools. It differentiates itself from ChatGPT by being goal-driven rather than task-bound, action-oriented instead of advisory, an**
 
@@ -10663,7 +10587,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 698. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5170903874819316351)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
+### 693. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5170903874819316351)  `9.0` ★★☆ ⚡84.0 Q0.8⭐ Excellent 📍
 
 **Olares One is a desktop computer optimized for running AI models locally. It features high-end hardware like the NVIDIA GeForce RTX 5090 Mobile and Intel Core Ultra 9 processor, coupled with a custom-built, open-source operating system (Olares OS) de**
 
@@ -10679,7 +10603,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 699. [Claude Cowork Exfiltrates Files](https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
+### 694. [Claude Cowork Exfiltrates Files](https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗3 layers
 
 **The article details how Claude Cowork, a research preview AI developed by Anthropic, can be exploited through indirect prompt injection to exfiltrate sensitive files from a user's environment. The attack leverages known vulnerabilities in Claude's co**
 
@@ -10694,7 +10618,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 700. [Running Claude Code dangerously (safely)](https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers 📍
+### 695. [Running Claude Code dangerously (safely)](https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely)  `8.8` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **The article discusses integrating Claude Code into a Vagrant-based development workflow to enable unrestricted AI agent actions without permission prompts. It evaluates trade-offs between security, isolation, and usability, highlighting the use of Do**
 
@@ -10709,7 +10633,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 701. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 696. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP tool facilitates the automation of Android project builds, integrates with development environments like Visual Studio Code, and offers real-time error reporting to AI models. It supports various stages from code execution to feedback generat**
 
@@ -10723,7 +10647,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 702. [viveksingh-ctrl/mcp-contentstack](https://github.com/viveksingh-ctrl/mcp-contentstack)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
+### 697. [viveksingh-ctrl/mcp-contentstack](https://github.com/viveksingh-ctrl/mcp-contentstack)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗4 layers
 
 **The project provides a developer-friendly interface to interact with Claude 3.7 Sonnet using either the Claude Desktop GUI or a CLI tool via AWS Bedrock. It supports secure, automated interactions for tasks such as code review, security checks, and a**
 
@@ -10737,7 +10661,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 703. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 698. [behole/cooper-hewitt-mcp](https://github.com/behole/cooper-hewitt-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The MCP (Model Context Protocol) server enables programmatic search and retrieval of detailed information about museum objects from the Cooper Hewitt Museum's collection API. It supports advanced search capabilities, object details retrieval, and int**
 
@@ -10751,7 +10675,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 704. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers
+### 699. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗3 layers
 
 **The project focuses on integrating GitHub Actions with the Magick library to streamline automated code execution and deployment processes. It enables developers to define complex workflows directly within their repositories, leveraging both CI/CD cap**
 
@@ -10765,7 +10689,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 705. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
+### 700. [onurucard4/scan-url-mcp-server](https://github.com/onurucard4/scan-url-mcp-server)  `8.8` ★☆☆ ⚡84.0 Q0.9✓ Very good · ↗2 layers
 
 **The project implements a secure and scalable server application that leverages the Model Context Protocol (MCP) to manage and process URL scanning requests. It integrates with the urlscan.io API to fetch real-time scan results, ensuring efficient han**
 
@@ -10779,7 +10703,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 706. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)  `8.7` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
+### 701. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)  `8.7` ★☆☆ ⚡84.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The svngoku/mcp-docker-code-interpreter project provides a Docker-based sandbox to safely run code through MCP, isolating execution environments and enhancing security by restricting resource access.**
 
@@ -10794,7 +10718,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 707. [pnp/cli-microsoft365-mcp-server](https://github.com/pnp/cli-microsoft365-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
+### 702. [pnp/cli-microsoft365-mcp-server](https://github.com/pnp/cli-microsoft365-mcp-server)  `9.6` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers
 
 **A Microsoft 365 MCP server enabling natural language interaction for managing various Microsoft 365 services.**
 
@@ -10810,7 +10734,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 708. [johanli233/mcp-sandbox](https://github.com/johanli233/mcp-sandbox)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 703. [johanli233/mcp-sandbox](https://github.com/johanli233/mcp-sandbox)  `9.5` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A Python sandbox environment for safely executing code and managing packages in isolated Docker containers.**
 
@@ -10825,7 +10749,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 709. [Running Claude Code dangerously (safely) | Hacker News](https://news.ycombinator.com/item?id=46690907)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
+### 704. [Running Claude Code dangerously (safely) | Hacker News](https://news.ycombinator.com/item?id=46690907)  `9.0` ★★☆ ⚡83.0 Q0.8⭐ Excellent · ↗3 layers
 
 **The resource discusses implementing a layered sandbox approach using YOLO mode, Ubuntu 22.04, and tools like Landlock LSM, bubblewrap, and dnsmasq to enhance security and isolation for running AI agents. It emphasizes the importance of sandboxing to **
 
@@ -10841,7 +10765,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 710. [https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824](https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824760614)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗1 layers
+### 705. [https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824](https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824760614)  `9.0` ★★☆ ⚡83.0 Q0.7⭐ Excellent · ↗1 layers
 
 **This landing page emphasizes Linq's ability to deliver robust messaging capabilities quickly, focusing on core value propositions such as seamless integration of iMessage, RCS, and SMS. The content highlights the platform's support for enterprise-gra**
 
@@ -10856,7 +10780,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 711. [nibzard/daytona-mcp-interpreter](https://github.com/nibzard/daytona-mcp-interpreter)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 706. [nibzard/daytona-mcp-interpreter](https://github.com/nibzard/daytona-mcp-interpreter)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A secure, ephemeral Python interpreter platform enabling AI assistants to execute code and shell commands in isolated environments for modern DevOps and CI/CD workflows.**
 
@@ -10872,7 +10796,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 712. [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 707. [datalayer/jupyter-mcp-server](https://github.com/datalayer/jupyter-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **Jupyter MCP Server enables real-time management and control of Jupyter Notebooks via the Model Context Protocol (MCP), enhancing collaboration, automation, and security.**
 
@@ -10888,7 +10812,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 713. [yywz1999/gdb-mcp-server](https://github.com/yywz1999/gdb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 708. [yywz1999/gdb-mcp-server](https://github.com/yywz1999/gdb-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool that integrates AI-assisted debugging with GDB MCP server, enabling developers to interact with GDB via MCP protocol and leverage AI for enhanced debugging workflows.**
 
@@ -10904,7 +10828,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 714. [danielpodrazka/editor-mcp](https://github.com/danielpodrazka/editor-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
+### 709. [danielpodrazka/editor-mcp](https://github.com/danielpodrazka/editor-mcp)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based text editor server built with FastMCP that enables precise file operations for LLMs and AI assistants, offering a multi-step editing workflow to maintain context and accuracy.**
 
@@ -10920,7 +10844,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 715. [adapoet/fabric-mcp-server](https://github.com/adapoet/fabric-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
+### 710. [adapoet/fabric-mcp-server](https://github.com/adapoet/fabric-mcp-server)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗2 layers
 
 **The fabric-mcp-server integrates Fabric patterns with AI coding agents, enabling seamless execution of AI-driven tasks and enhancing developer workflows.**
 
@@ -10936,7 +10860,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 716. [jdcodes1/claude-sh](https://github.com/jdcodes1/claude-sh)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
+### 711. [jdcodes1/claude-sh](https://github.com/jdcodes1/claude-sh)  `8.6` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗4 layers
 
 **A streamlined, zero-dependency bash script that mimics the functionality of Claude Code by processing CLAUDE.md files and executing tools in a real-time interactive session.**
 
@@ -10952,7 +10876,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 717. [mingdaocloud/hap-mcp](https://github.com/mingdaocloud/hap-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
+### 712. [mingdaocloud/hap-mcp](https://github.com/mingdaocloud/hap-mcp)  `8.5` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers
 
 **HAP-MCP Server enables secure, isolated context management for AI-driven applications, facilitating seamless integration of machine learning models within enterprise workflows.**
 
@@ -10967,7 +10891,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 718. [Microsoft open-sources LiteBox, a security-focused library OS | Hacker News](https://news.ycombinator.com/item?id=46913793)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
+### 713. [Microsoft open-sources LiteBox, a security-focused library OS | Hacker News](https://news.ycombinator.com/item?id=46913793)  `8.1` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **LiteBox is a library OS that aims to provide a secure sandboxing environment by significantly reducing the interface to the host OS. It facilitates interoperability between various "North" shims (Rust-y nix/rustix-inspired interface) and "South" plat**
 
@@ -10983,7 +10907,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 719. [leereilly/games](https://github.com/leereilly/games)  `8.0` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
+### 714. [leereilly/games](https://github.com/leereilly/games)  `8.0` ★☆☆ ⚡83.0 Q0.8✓ Very good · ↗3 layers 📍
 
 **Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discover**
 
@@ -10999,7 +10923,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 720. [plandex-ai/plandex](https://github.com/plandex-ai/plandex)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers
+### 715. [plandex-ai/plandex](https://github.com/plandex-ai/plandex)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗3 layers
 
 **A terminal-based AI coding framework that manages up to 2M tokens of context and uses isolated review sandboxes for complex multi-file tasks.**
 
@@ -11013,7 +10937,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 721. [huggingface/smolagents](https://github.com/huggingface/smolagents)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 716. [huggingface/smolagents](https://github.com/huggingface/smolagents)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A lightweight Python library by Hugging Face that builds agents using code as their primary action medium, featuring native E2B/Docker sandboxing.**
 
@@ -11027,7 +10951,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 722. [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 717. [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **An open standard allowing agents to call APIs directly via native protocols (HTTP/gRPC) using sandboxed TS/Python code orchestration.**
 
@@ -11041,7 +10965,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 723. [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 718. [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A secure, isolated execution environment for AI agents that uses disposable Docker containers to run code and stream logs without host access.**
 
@@ -11055,7 +10979,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 724. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 719. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A unified framework wrapping 860+ SaaS apps into "Skills" with managed OAuth, progressive disclosure loading, and secure remote code execution.**
 
@@ -11069,7 +10993,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 725. [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 720. [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A lightweight, local-first micro-VM platform written in Rust that provides secure and persistent execution environments for AI agents.**
 
@@ -11083,7 +11007,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 726. [divyenduz/incus-sandbox-sdk](https://github.com/divyenduz/incus-sandbox-sdk)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 721. [divyenduz/incus-sandbox-sdk](https://github.com/divyenduz/incus-sandbox-sdk)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **A software development kit for managing secure, system-level containers and virtual machines using the Incus (LXD fork) hypervisor.**
 
@@ -11097,7 +11021,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 727. [runtm-ai/runtm-coding-agent-runtime-control-plane](https://github.com/runtm-ai/runtm-coding-agent-runtime-control-plane)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 722. [runtm-ai/runtm-coding-agent-runtime-control-plane](https://github.com/runtm-ai/runtm-coding-agent-runtime-control-plane)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A runtime and control plane designed specifically for software built by agents, enabling rapid Generate-Deploy-Observe-Repeat loops.**
 
@@ -11111,7 +11035,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 728. [denoland/t4a](https://github.com/denoland/t4a)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
+### 723. [denoland/t4a](https://github.com/denoland/t4a)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class 📍
 
 **Deno's specialized runtime framework designed for building secure, edge-deployed AI agents with native Model Context Protocol (MCP) support.**
 
@@ -11125,7 +11049,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 729. [postrv/forgemax](https://github.com/postrv/forgemax)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
+### 724. [postrv/forgemax](https://github.com/postrv/forgemax)  `10.0` ★★★ ⚡82.0 Q0.7🏆 World-class · ↗1 layers 📍
 
 **A local MCP gateway that consolidates multiple tool servers into search/execute tools and runs LLM-generated code in a Deno-based V8 isolate.**
 
@@ -11139,7 +11063,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 730. [Rainmen-xia/chrome-debug-mcp](https://github.com/Rainmen-xia/chrome-debug-mcp)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
+### 725. [Rainmen-xia/chrome-debug-mcp](https://github.com/Rainmen-xia/chrome-debug-mcp)  `9.1` ★★☆ ⚡82.0 Q0.8⭐ Excellent · ↗1 layers 📍
 
 **A MCP server for Chrome browser automation via debugging protocol, enabling persistent login sessions and secure code execution.**
 
@@ -11155,7 +11079,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 731. [baryhuang/mcp-server-aws-resources-python](https://github.com/baryhuang/mcp-server-aws-resources-python)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
+### 726. [baryhuang/mcp-server-aws-resources-python](https://github.com/baryhuang/mcp-server-aws-resources-python)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A Python-based MCP server enabling seamless interaction with AWS services via boto3, allowing developers to execute powerful AWS operations directly through Claude.**
 
@@ -11170,7 +11094,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 732. [codefriar/sf-mcp](https://github.com/codefriar/sf-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
+### 727. [codefriar/sf-mcp](https://github.com/codefriar/sf-mcp)  `8.5` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗3 layers
 
 **A platform-as-a-service tool for integrating Salesforce CLI with LLM-powered agents, enabling secure, automated code execution and workflow management.**
 
@@ -11185,7 +11109,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 733. [Nvidia NemoClaw | Hacker News](https://news.ycombinator.com/item?id=47427027)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers
+### 728. [Nvidia NemoClaw | Hacker News](https://news.ycombinator.com/item?id=47427027)  `8.0` ★☆☆ ⚡82.0 Q0.8✓ Very good · ↗5 layers
 
 **The Borg Project intelligence database review highlights concerns about the deployment of Nvidia NemoClaw, a hacker tool leveraging advanced AI models. The analysis underscores the risks associated with granting AI agents access to sensitive systems **
 
@@ -11200,7 +11124,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 734. [rahgadda/oracledb_mcp_server](https://github.com/rahgadda/oracledb_mcp_server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
+### 729. [rahgadda/oracledb_mcp_server](https://github.com/rahgadda/oracledb_mcp_server)  `8.8` ★☆☆ ⚡81.0 Q0.8✓ Very good · ↗1 layers
 
 **The project installs the oracledb_mcp_server package, configures it with environment variables, and enables integration between large language models (LLMs) and Oracle databases. It supports secure database connections, automated deployment, and work**
 
@@ -11214,7 +11138,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 735. [Product | Viktor](https://getviktor.com/product)  `10.0` ★★★ ⚡80.0 Q0.7🏆 World-class · ↗2 layers 📍
+### 730. [Product | Viktor](https://getviktor.com/product)  `10.0` ★★★ ⚡80.0 Q0.7🏆 World-class · ↗2 layers 📍
 
 **An autonomous "AI Coworker" that integrates deeply into Slack and internal tools to proactively execute multi-step workflows without waiting for prompts.**
 
@@ -11229,7 +11153,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 736. [zerocore-ai/microsandbox](https://github.com/zerocore-ai/microsandbox)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 731. [zerocore-ai/microsandbox](https://github.com/zerocore-ai/microsandbox)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **A local-first, hardware-isolated execution environment for AI agents that uses microVMs (libkrun) for strong security boundaries.**
 
@@ -11243,7 +11167,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 737. [e2b-dev/code-interpreter](https://github.com/e2b-dev/code-interpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 732. [e2b-dev/code-interpreter](https://github.com/e2b-dev/code-interpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **Cloud-native infrastructure providing long-running, stateful sandboxes for AI agents to perform complex data analysis and coding tasks.**
 
@@ -11257,7 +11181,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 738. [cohere-ai/cohere-terrarium](https://github.com/cohere-ai/cohere-terrarium)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
+### 733. [cohere-ai/cohere-terrarium](https://github.com/cohere-ai/cohere-terrarium)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent 📍
 
 **An ultra-secure, stateless Python sandbox using Pyodide (WASM) to isolate LLM-generated code within a restricted browser-like environment.**
 
@@ -11271,7 +11195,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 739. [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
+### 734. [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)  `9.7` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗3 layers
 
 **An open-source system that bridges the gap between models and code execution, featuring self-healing loops based on compiler diagnostics.**
 
@@ -11285,7 +11209,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 740. [Build knowledge agents without embeddings - Vercel](https://vercel.com/blog/build-knowledge-agents-without-embeddings)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
+### 735. [Build knowledge agents without embeddings - Vercel](https://vercel.com/blog/build-knowledge-agents-without-embeddings)  `9.6` ★★☆ ⚡80.0 Q0.7⭐ Excellent · ↗1 layers
 
 **A file-system and bash-based knowledge agent built on Vercel Sandbox, enabling teams to deploy chat agents with transparent debugging, customizable sources, and seamless integration across platforms.**
 
@@ -11301,7 +11225,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 741. [https://news.ycombinator.com/item?id=47936264](https://news.ycombinator.com/item?id=47936264)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗2 layers
+### 736. [https://news.ycombinator.com/item?id=47936264](https://news.ycombinator.com/item?id=47936264)  `8.8` ★☆☆ ⚡80.0 Q0.7✓ Very good · ↗2 layers
 
 **The Borg Project's Warp is an open-source terminal emulator that integrates agent harness functionality, allowing users to leverage AI models directly within the terminal environment. This approach aims to enhance productivity by enabling seamless in**
 
@@ -11316,7 +11240,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 742. [webscraping-ai/webscraping-ai-mcp-server](https://github.com/webscraping-ai/webscraping-ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 737. [webscraping-ai/webscraping-ai-mcp-server](https://github.com/webscraping-ai/webscraping-ai-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Model Context Protocol (MCP) server implementation enabling advanced web data extraction for AI-driven applications.**
 
@@ -11332,7 +11256,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 743. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
+### 738. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗3 layers
 
 **A cloud-native LLM interface for interacting with Cloud Foundry, enabling AI-driven automation and workflow management.**
 
@@ -11348,7 +11272,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 744. [54rt1n/container-mcp](https://github.com/54rt1n/container-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 739. [54rt1n/container-mcp](https://github.com/54rt1n/container-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **Container-MCP enables secure execution of tools and code for large language models, leveraging MCP protocol and multi-layered security.**
 
@@ -11364,7 +11288,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 745. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
+### 740. [ompragash/isolator-mcp](https://github.com/ompragash/isolator-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A secure, containerized MCP server enabling safe execution of code in multiple languages via isolated environments.**
 
@@ -11380,7 +11304,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 746. [litmusautomation/litmus-mcp-server](https://github.com/litmusautomation/litmus-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 741. [litmusautomation/litmus-mcp-server](https://github.com/litmusautomation/litmus-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Litmus MCP Server enables LLMs and intelligent systems to configure, monitor, and manage Litmus Edge instances via the Model Context Protocol (MCP).**
 
@@ -11396,7 +11320,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 747. [heroku/heroku-mcp-server](https://github.com/heroku/heroku-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 742. [heroku/heroku-mcp-server](https://github.com/heroku/heroku-mcp-server)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Heroku Platform MCP Server enables secure, automated interaction between large language models and Heroku infrastructure using LLM-driven tools.**
 
@@ -11412,7 +11336,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 748. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
+### 743. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **A Node.js sandbox MCP server that executes arbitrary JavaScript in ephemeral Docker containers, enabling secure and isolated development environments.**
 
@@ -11428,7 +11352,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 749. [dinesh-nalla-se/playwright-mcp](https://github.com/dinesh-nalla-se/playwright-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
+### 744. [dinesh-nalla-se/playwright-mcp](https://github.com/dinesh-nalla-se/playwright-mcp)  `8.6` ★☆☆ ⚡80.0 Q0.8✓ Very good · ↗2 layers
 
 **A tool for automating browser automation workflows using Playwright MCP server, enabling LLMs to interact with web pages via structured data.**
 
@@ -11444,7 +11368,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 750. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=4947404475460767289)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
+### 745. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=4947404475460767289)  `8.0` ★☆☆ ⚡80.0 Q0.8✓ Very good 📍
 
 **Olares One is a high-performance desktop computer optimized for local AI processing. It features a powerful NVIDIA GeForce RTX 5090 Mobile GPU, an Intel Core Ultra 9 processor, and a custom-built operating system (Olares OS) designed for security and**
 
@@ -11460,7 +11384,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 751. [itz4blitz/jmx-mcp](https://github.com/itz4blitz/jmx-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 746. [itz4blitz/jmx-mcp](https://github.com/itz4blitz/jmx-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **A powerful Model Context Protocol server enabling AI assistants to monitor and manage Java applications via JMX.**
 
@@ -11476,7 +11400,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 752. [bmorphism/slowtime-mcp-server](https://github.com/bmorphism/slowtime-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 747. [bmorphism/slowtime-mcp-server](https://github.com/bmorphism/slowtime-mcp-server)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A secure time-based operations server with timing attack protection and timelock encryption for sensitive data.**
 
@@ -11492,7 +11416,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 753. [mikhae1/kubeview-mcp](https://github.com/mikhae1/kubeview-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
+### 748. [mikhae1/kubeview-mcp](https://github.com/mikhae1/kubeview-mcp)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **A read-only MCP server enabling AI agents to inspect, diagnose, and debug Kubernetes clusters.**
 
@@ -11508,7 +11432,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 754. [lacymorrow/lacy](https://github.com/lacymorrow/lacy)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 749. [lacymorrow/lacy](https://github.com/lacymorrow/lacy)  `8.6` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **An AI-powered terminal for intelligent code execution and workflow automation.**
 
@@ -11524,7 +11448,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 755. [yzfly/mcp-python-interpreter](https://github.com/yzfly/mcp-python-interpreter)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 750. [yzfly/mcp-python-interpreter](https://github.com/yzfly/mcp-python-interpreter)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python interpreter server enabling LLMs to interact with Python environments, execute code, and manage workflows securely.**
 
@@ -11539,7 +11463,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 756. [sengokudaikon/mcp-perplexity](https://github.com/sengokudaikon/mcp-perplexity)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
+### 751. [sengokudaikon/mcp-perplexity](https://github.com/sengokudaikon/mcp-perplexity)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗1 layers
 
 **A Python-based interface to the Perplexity API, enabling chat management, model configuration, and secure code execution.**
 
@@ -11554,7 +11478,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 757. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 752. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Model Context Protocol server enabling AI tools like Claude to securely and efficiently manage Python development workflows.**
 
@@ -11569,7 +11493,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 758. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
+### 753. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers
 
 **Integrates PyMOL with Claude AI via MCP protocol for intelligent molecular visualization and analysis.**
 
@@ -11584,7 +11508,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 759. [kiwamizamurai/mcp-kibela-server](https://github.com/kiwamizamurai/mcp-kibela-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 754. [kiwamizamurai/mcp-kibela-server](https://github.com/kiwamizamurai/mcp-kibela-server)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **MCP server implementation enabling LLMs to interact with Kibela API for intelligent content integration.**
 
@@ -11599,7 +11523,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 760. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
+### 755. [kasinathnalla/MCP-Add-Weather](https://github.com/kasinathnalla/MCP-Add-Weather)  `8.5` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗3 layers
 
 **A Python-based MCP client designed for secure, multi-server communication to integrate external weather data services.**
 
@@ -11614,7 +11538,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 761. [Code and Let Live | Hacker News](https://news.ycombinator.com/item?id=46557825)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
+### 756. [Code and Let Live | Hacker News](https://news.ycombinator.com/item?id=46557825)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good · ↗2 layers 📍
 
 **Sprites.dev offers a way to execute code in persistent, sandboxed VMs with restricted blast radius, accessible via a simple JSON API. It includes snapshotting support for rollback to known states, enabling safe execution of potentially harmful code o**
 
@@ -11630,7 +11554,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 762. [MCP-UI](https://mcpui.dev)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
+### 757. [MCP-UI](https://mcpui.dev)  `8.0` ★☆☆ ⚡79.0 Q0.8✓ Very good 📍
 
 **MCP-UI, now standardized as MCP Apps, offers a set of interactive UI components and SDKs for creating rich and dynamic interfaces for AI tools. It leverages the MCP Apps standard, ensuring seamless integration and a community-driven approach to UI de**
 
@@ -11646,7 +11570,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 763. [Snowflake AI Escapes Sandbox and Executes Malware | Hacker News](https://news.ycombinator.com/item?id=47427017)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗4 layers
+### 758. [Snowflake AI Escapes Sandbox and Executes Malware | Hacker News](https://news.ycombinator.com/item?id=47427017)  `7.8` ☆☆☆ ⚡79.0 Q0.8○ Good · ↗4 layers
 
 **The article discusses a security incident where Snowflake AI escaped its intended sandbox environment, executing malicious commands. It highlights concerns about prompt injection vulnerabilities, the use of natural language prompts, and the need for **
 
@@ -11661,7 +11585,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 764. [Ecosystem](https://opencode.ai/docs/ecosystem)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers
+### 759. [Ecosystem](https://opencode.ai/docs/ecosystem)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗2 layers
 
 **An open-source, local-first terminal AI coding agent ecosystem featuring a pluggable architecture for sandboxing, security, and PTY management.**
 
@@ -11676,7 +11600,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 765. [oct4pie/toolbridge?tab=readme-ov-file](https://github.com/oct4pie/toolbridge?tab=readme-ov-file)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗1 layers
+### 760. [oct4pie/toolbridge?tab=readme-ov-file](https://github.com/oct4pie/toolbridge?tab=readme-ov-file)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class · ↗1 layers
 
 **An open-source dataset and pipeline for Supervised Fine-Tuning (SFT) designed to equip standard LLMs with robust, verified tool-calling capabilities.**
 
@@ -11689,7 +11613,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 766. [muxi-ai/skills-rce](https://github.com/muxi-ai/skills-rce)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
+### 761. [muxi-ai/skills-rce](https://github.com/muxi-ai/skills-rce)  `10.0` ★★★ ⚡78.0 Q0.7🏆 World-class 📍
 
 **A specialized infrastructure service designed to provide secure, declarative Remote Code Execution (RCE) environments for AI agent "skills."**
 
@@ -11702,7 +11626,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 767. [glassbead-tc/audius-mcp-atris](https://github.com/glassbead-tc/audius-mcp-atris)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
+### 762. [glassbead-tc/audius-mcp-atris](https://github.com/glassbead-tc/audius-mcp-atris)  `9.2` ★★☆ ⚡78.0 Q0.7✓ Very good · ↗2 layers
 
 **A code-mode MCP server that enables LLMs to access Audius and Open Audio Protocol efficiently using search and execution capabilities.**
 
@@ -11716,7 +11640,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 768. [Bubblewrap: A nimble way to prevent agents from accessing your .env files | Hacker News](https://news.ycombinator.com/item?id=46626836)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
+### 763. [Bubblewrap: A nimble way to prevent agents from accessing your .env files | Hacker News](https://news.ycombinator.com/item?id=46626836)  `8.8` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers 📍
 
 **The Borg Project's 'Bubblewrap' addresses the need for secure agent isolation by providing a nimble, context-aware sandboxing solution. It evaluates two models: fully supervised with constant oversight or unsupervised in a cloud VM with root access. **
 
@@ -11730,7 +11654,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 769. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
+### 764. [damus-io/nostrdb-mcp](https://github.com/damus-io/nostrdb-mcp)  `8.7` ★☆☆ ⚡78.0 Q0.8✓ Very good · ↗1 layers
 
 **The damus-io/nostrdb-mcp project provides a Model Context Protocol server that allows natural language processing models to interact with the ndb command-line tool. This facilitates integration of LLMs with database operations, enhancing automation a**
 
@@ -11743,7 +11667,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 770. [railsware/mailtrap-mcp](https://github.com/railsware/mailtrap-mcp)  `8.5` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
+### 765. [railsware/mailtrap-mcp](https://github.com/railsware/mailtrap-mcp)  `8.5` ★☆☆ ⚡77.0 Q0.7✓ Very good · ↗1 layers
 
 **A tool for managing and automating email workflows using Mailtrap MCP server.**
 
@@ -11758,7 +11682,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 771. [agentwong/optimized-memory-mcp-server](https://github.com/agentwong/optimized-memory-mcp-server)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
+### 766. [agentwong/optimized-memory-mcp-server](https://github.com/agentwong/optimized-memory-mcp-server)  `8.2` ★☆☆ ⚡77.0 Q0.8✓ Very good · ↗1 layers
 
 **This project demonstrates an optimized memory management server using a Python-based Memory MCP architecture, designed to enhance performance and efficiency for AI workloads.**
 
@@ -11772,7 +11696,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 772. [Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
+### 767. [Code Mode: the better way to use MCP](https://blog.cloudflare.com/code-mode)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗1 layers
 
 **An architectural pattern where agents write and execute sandboxed JS/TS code to orchestrate complex API workflows, reducing context usage by up to 99%.**
 
@@ -11786,7 +11710,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 773. [Wasmtime 26.0: 64-bit tables, shell completions, Windows ARM64 support, and more](https://bytecodealliance.org/articles/wasmtime-26.0)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
+### 768. [Wasmtime 26.0: 64-bit tables, shell completions, Windows ARM64 support, and more](https://bytecodealliance.org/articles/wasmtime-26.0)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class 📍
 
 **A standalone WebAssembly runtime optimized for sub-5ms module instantiation and secure execution, featuring new 64-bit table support and Windows ARM64 parity.**
 
@@ -11800,7 +11724,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 774. [Manus: Hands On AI](https://manus.im)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
+### 769. [Manus: Hands On AI](https://manus.im)  `10.0` ★★★ ⚡76.0 Q0.7🏆 World-class · ↗2 layers
 
 **A "hands-on" autonomous agent acquired by Meta that operates in cloud VMs with full shell/filesystem access and visual reasoning for complex web/code tasks.**
 
@@ -11814,7 +11738,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 775. [portofcontext/pctx](https://github.com/portofcontext/pctx)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
+### 770. [portofcontext/pctx](https://github.com/portofcontext/pctx)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
 
 **An open-source "Code Mode" gateway that converts sequential tool calls into a single execution block to reduce context window usage.**
 
@@ -11828,7 +11752,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 776. [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
+### 771. [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)  `8.7` ★☆☆ ⚡76.0 Q0.7✓ Very good · ↗1 layers
 
 **A natural language interface for LLMs to execute code locally with full access to the internet, files, and installed libraries.**
 
@@ -11842,7 +11766,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 777. [v86](https://copy.sh/v86)  `10.0` ★★★ ⚡75.0 Q0.7⭐ Excellent 📍
+### 772. [v86](https://copy.sh/v86)  `10.0` ★★★ ⚡75.0 Q0.7⭐ Excellent 📍
 
 **A WebAssembly-based x86 emulator that runs full operating systems (Linux/Windows) directly in the browser, enabling "local-like" agent execution in a browser tab.**
 
@@ -11856,7 +11780,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 778. [Code execution with MCP: building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
+### 773. [Code execution with MCP: building more efficient AI agents](https://www.anthropic.com/engineering/code-execution-with-mcp)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗1 layers
 
 **An architectural pattern from Anthropic for reducing token usage by having agents write code to interact with tool schemas lazily.**
 
@@ -11870,7 +11794,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 779. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 774. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **A software agent SDK that defines the Agent-Computer Interface (ACI), providing agents with direct, sandboxed access to terminals and filesystems.**
 
@@ -11884,7 +11808,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 780. [driaforall/mem-agent · Hugging Face](https://huggingface.co/driaforall/mem-agent)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
+### 775. [driaforall/mem-agent · Hugging Face](https://huggingface.co/driaforall/mem-agent)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗2 layers
 
 **A specialized 4B parameter model optimized for long-term human-readable memory management using a Markdown-based file system and GSPO policy.**
 
@@ -11898,7 +11822,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 781. [Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant - AWS](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 776. [Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant - AWS](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **A managed, one-click deployment blueprint for OpenClaw (self-hosted AI assistant) on Amazon Lightsail, natively integrated with Bedrock.**
 
@@ -11912,7 +11836,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 782. [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
+### 777. [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class 📍
 
 **A stable release of the WebAssembly-based JVM enabling unmodified Java apps to run in browsers with native system command interception.**
 
@@ -11926,7 +11850,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 783. [Hacker News](https://news.ycombinator.com/item?id=44781561)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗4 layers
+### 778. [Hacker News](https://news.ycombinator.com/item?id=44781561)  `10.0` ★★★ ⚡74.0 Q0.6🏆 World-class · ↗4 layers
 
 **A heavy-duty AI coding agent for large-scale multi-file tasks, featuring a version-controlled sandbox and support for 2M+ token contexts.**
 
@@ -11940,7 +11864,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 784. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
+### 779. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗1 layers 📍
 
 **A secure Python runtime that wraps LLM-generated code execution via MCP, limiting operations to prevent malicious code execution.**
 
@@ -11954,7 +11878,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 785. [cloudflare/workers-mcp](https://github.com/cloudflare/workers-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
+### 780. [cloudflare/workers-mcp](https://github.com/cloudflare/workers-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers
 
 **A tool enabling integration between Claude Desktop and Cloudflare Workers to facilitate intelligent code execution and automation.**
 
@@ -11968,7 +11892,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 786. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
+### 781. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good · ↗2 layers 📍
 
 **A Node.js sandbox server implementing the Model Context Protocol for secure JavaScript execution in isolated environments.**
 
@@ -11982,7 +11906,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 787. [mnbpdx/mcp](https://github.com/mnbpdx/mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
+### 782. [mnbpdx/mcp](https://github.com/mnbpdx/mcp)  `8.2` ★☆☆ ⚡74.0 Q0.7✓ Very good 📍
 
 **The project focuses on developing and managing MCP servers for automated code execution and workflow automation.**
 
@@ -11996,7 +11920,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 788. [jai - easy containment for AI agents](https://jai.scs.stanford.edu)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers 📍
+### 783. [jai - easy containment for AI agents](https://jai.scs.stanford.edu)  `7.8` ☆☆☆ ⚡74.0 Q0.7○ Good · ↗1 layers 📍
 
 **The jai project provides a streamlined method to restrict AI agents to specific directories while preserving user files and enabling secure execution. It bridges the gap between granting limited access and maintaining full control, using copy-on-writ**
 
@@ -12011,7 +11935,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 789. [Code Mode: give agents an entire API in 1,000 tokens](https://blog.cloudflare.com/code-mode-mcp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers
+### 784. [Code Mode: give agents an entire API in 1,000 tokens](https://blog.cloudflare.com/code-mode-mcp)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers
 
 **A revolutionary paradigm shift where agents write scripts to interact with APIs via a typed SDK, reducing context usage by 99.9%.**
 
@@ -12025,7 +11949,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 790. [Blog | Composio](https://composio.dev/blog/secure-moltbot-clawdbot-setup-composio)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
+### 785. [Blog | Composio](https://composio.dev/blog/secure-moltbot-clawdbot-setup-composio)  `10.0` ★★★ ⚡73.0 Q0.6🏆 World-class · ↗1 layers 📍
 
 **A security layer providing brokered OAuth and credential isolation for autonomous agents with high system permissions.**
 
@@ -12039,7 +11963,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 791. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 786. [mackenly/mcp-fathom-analytics](https://github.com/mackenly/mcp-fathom-analytics)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A Borg-based MCP server enabling AI-driven access and management of Fathom Analytics data.**
 
@@ -12053,7 +11977,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 792. [jeanibarz/knowledge-base-mcp-server](https://github.com/jeanibarz/knowledge-base-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
+### 787. [jeanibarz/knowledge-base-mcp-server](https://github.com/jeanibarz/knowledge-base-mcp-server)  `8.2` ★☆☆ ⚡73.0 Q0.7✓ Very good · ↗2 layers
 
 **A knowledge base management server enabling programmatic access to structured content from multiple knowledge bases.**
 
@@ -12067,7 +11991,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 793. [Sandboxing AI Agents in Linux | Hacker News](https://news.ycombinator.com/item?id=46874139)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗1 layers 📍
+### 788. [Sandboxing AI Agents in Linux | Hacker News](https://news.ycombinator.com/item?id=46874139)  `9.7` ★★☆ ⚡72.0 Q0.6⭐ Excellent · ↗1 layers 📍
 
 **A tool designed to manage complex git submodule dependencies across massive monorepos using a dependency-aware merging algorithm.**
 
@@ -12081,7 +12005,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 794. [New Show | Hacker News](https://news.ycombinator.com/shownew)  `8.6` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers
+### 789. [New Show | Hacker News](https://news.ycombinator.com/shownew)  `8.6` ★☆☆ ⚡72.0 Q0.7✓ Very good · ↗2 layers
 
 **A developer showcases AI-driven tools and systems for intelligent automation, workflow enhancement, and secure coding practices.**
 
@@ -12097,7 +12021,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 795. [https://docs.roocode.com/roo-code-cloud/roomote-control](https://docs.roocode.com/roo-code-cloud/roomote-control)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗2 layers
+### 790. [https://docs.roocode.com/roo-code-cloud/roomote-control](https://docs.roocode.com/roo-code-cloud/roomote-control)  `10.0` ★★★ ⚡71.0 Q0.5⭐ Excellent · ↗2 layers
 
 **A bidirectional remote control suite for Roo Code that enables real-time task monitoring, mobile prompting, and ephemeral cloud sandboxing.**
 
@@ -12111,7 +12035,7 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-### 796. [https://jules.google/session](https://jules.google/session)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers
+### 791. [https://jules.google/session](https://jules.google/session)  `10.0` ★★★ ⚡70.0 Q0.5⭐ Excellent · ↗2 layers
 
 **Google's autonomous, cloud-hosted AI teammate built on Gemini 2.5 Pro, capable of independent planning, implementation, and verified PR delivery.**
 
@@ -12125,25 +12049,5 @@ AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 ---
 
-## Unclassified
 
-> 1 tools · avg signal ⚡88
-
-### 797. [modelcontextprotocol/servers-archived](https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/github)  `9.0` ★★☆ ⚡88.0 Q0.8 📍
-
-**The project focuses on providing enterprise-grade security features for GitHub, including advanced security measures, vulnerability detection, secure code practices, and integration with external tools. It supports modern development workflows, DevOp**
-
-**Features:**
-- Automatic branch creation
-- Comprehensive error handling
-- Batch operations
-- Advanced search capabilities
-- Security and code protection features
-- Integration with external tools
-
-*Tags: github-security, git-hub-integration, code-security, developer-tools, enterprise-devops*
-
----
-
-
-*797 tools · Signal-scored · 2026-05-17*
+*791 tools · Signal-scored · 2026-05-17*
