@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Borg Research Worker v2.5 - Robust enrichment with bulletproof multi-format parsing"""
+"""Borg Research Worker v2.6 - Enrich remaining entries, including fetch-failed ones using metadata"""
 import os, re, json, sqlite3, requests, time, logging, sys
 from datetime import datetime
 from bs4 import BeautifulSoup, Comment
@@ -11,7 +11,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s %(levelname)s %(message)s',
     handlers=[
-        logging.FileHandler('logs/research_run.log', mode='a', encoding='utf-8'),
+        logging.FileHandler('logs/research_run2.log', mode='a', encoding='utf-8'),
         logging.StreamHandler(),
     ],
 )
@@ -55,10 +55,7 @@ FIELD_NAMES = ['CATEGORY', 'SHORT_DESCRIPTION', 'LONG_DESCRIPTION',
                'MAIN_FEATURES', 'INNOVATION_SCORE', 'TAGS']
 
 MODELS = [
-    ("gemma-4-e2b-uncensored-hauhaucs-aggressive", 45),
-    ("liquid/lfm2.5-1.2b", 30),
-    ("gemma-4-e4b-uncensored-hauhaucs-aggressive", 60),
-    ("gemma-4-26b-a4b-it-heretic-ara", 90),
+    ("liquid/lfm2.5-1.2b", 120),   # Only use smallest model, give it time to load into VRAM
 ]
 
 
@@ -73,14 +70,13 @@ def stringify(v):
 
 
 def call_llm(prompt):
-    """Call LM Studio models with fallback chain."""
     for model, tout in MODELS:
         try:
             resp = requests.post(LMSTUDIO_URL, json={
                 "model": model,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.2,
-                "max_tokens": 500,
+                "max_tokens": 350,
             }, timeout=tout)
             if resp.status_code == 200:
                 data = resp.json()
@@ -96,16 +92,12 @@ def call_llm(prompt):
 
 
 def extract_fields_from_jsonish(text):
-    """Extract fields from broken/valid JSON using field-by-field regex.
-    Handles cases where MAIN_FEATURES has broken multi-quoted values."""
     result = {}
     for field in FIELD_NAMES:
-        # Try numeric value first
         m = re.search(rf'"{field}"\s*:\s*(\d+)', text)
         if m:
             result[field] = int(m.group(1))
             continue
-        # Try string value - find "FIELD": " and collect until next field
         m = re.search(rf'"{field}"\s*:\s*"', text)
         if m:
             start = m.end()
@@ -128,13 +120,11 @@ def extract_fields_from_jsonish(text):
 
 
 def parse_llm_response(raw):
-    """Parse LLM response - handles JSON, code blocks, broken JSON, markdown, and plain text."""
     if not raw:
         return None
-
     text = raw.strip()
 
-    # 1. Direct JSON parse
+    # 1. Direct JSON
     try:
         return json.loads(text)
     except (json.JSONDecodeError, ValueError):
@@ -147,23 +137,20 @@ def parse_llm_response(raw):
             for part in parts[1:]:
                 end = part.find("```")
                 block = part[:end].strip() if end >= 0 else part.strip()
-                # Direct parse
                 try:
                     return json.loads(block)
                 except Exception:
                     pass
-                # Fix trailing commas
                 fixed = re.sub(r',\s*([}\]])', r'\1', block)
                 try:
                     return json.loads(fixed)
                 except Exception:
                     pass
-                # Field-by-field extraction from broken JSON
                 result = extract_fields_from_jsonish(fixed)
                 if result:
                     return result
 
-    # 3. Balanced braces with field extraction
+    # 3. Balanced braces
     start = text.find('{')
     if start >= 0:
         depth = 0
@@ -182,11 +169,9 @@ def parse_llm_response(raw):
                         return result
                     break
 
-    # 4. Markdown / plain-text key-value format
+    # 4. Markdown / plain-text key-value
     result = {}
-    # Normalize escaped underscores
     norm = text.replace('\\_', '_')
-    # Strip preamble
     stripped = re.sub(
         r'^.*?(?=\n[-*\s]*(?:\*\*)?(?:Resource\s+)?(?:CATEGORY|Classification|SHORT_DESCRIPTION|LONG_DESCRIPTION|MAIN_FEATURES))',
         '', norm, flags=re.DOTALL | re.IGNORECASE
@@ -194,17 +179,16 @@ def parse_llm_response(raw):
     if not re.search(r'CATEGORY|Classification|SHORT_DESC|LONG_DESC|MAIN_FEATURE', stripped, re.IGNORECASE):
         stripped = norm
 
-    # **Resource Classification:** pattern
-    cls = re.search(r'\*\*Resource\s+Classification:\*\*\s*\*\*([^*]+)\*\*', stripped, re.IGNORECASE)
-    if cls:
-        result['CATEGORY'] = cls.group(1).strip()
-    # **Primary Classification:** pattern
-    if 'CATEGORY' not in result:
-        cls = re.search(r'\*\*Primary\s+Classification:\*\*\s*\*\*([^*]+)\*\*', stripped, re.IGNORECASE)
+    # Classification patterns
+    for pat in [
+        r'\*\*Resource\s+Classification:\*\*\s*\*\*([^*]+)\*\*',
+        r'\*\*Primary\s+Classification:\*\*\s*\*\*([^*]+)\*\*',
+    ]:
+        cls = re.search(pat, stripped, re.IGNORECASE)
         if cls:
             result['CATEGORY'] = cls.group(1).strip()
+            break
 
-    # Standard key-value patterns (handles **KEY:** and - KEY: formats)
     kv_patterns = {
         'CATEGORY': r'(?:\*\*)?(?:Resource\s+)?CATEGORY(?:\*\*)?[\s:]*([^\n]+)',
         'SHORT_DESCRIPTION': r'(?:\*\*)?SHORT_DESCRIPTION(?:\*\*)?[\s:]*([^\n]+(?:\n(?!\*\*[A-Z]|[-*]\s*[A-Z_]+:)[^\n]+)*)',
@@ -231,22 +215,24 @@ def parse_llm_response(raw):
             else:
                 result[key] = val
 
-    # Fallback: try to match taxonomy in text
     if 'CATEGORY' not in result:
-        for cat in BORG_TAXONOMY:
-            if cat.lower() in stripped.lower():
-                result['CATEGORY'] = cat
-                break
+        # Check **Resource Classification:** header style
+        cls = re.search(r'\*\*Primary\s+Classification:\*\*\s*\*\*([^*]+)\*\*', stripped, re.IGNORECASE)
+        if cls:
+            result['CATEGORY'] = cls.group(1).strip()
+        else:
+            for cat in BORG_TAXONOMY:
+                if cat.lower() in stripped.lower():
+                    result['CATEGORY'] = cat
+                    break
 
-    # Fallback: extract descriptions from narrative responses
     if 'SHORT_DESCRIPTION' not in result:
-        # Look for * Key Functionality:, **Detailed Analysis:, or just first substantial paragraph
-        desc_match = re.search(r'(?:Key\s+Functionality|Detailed\s+Analysis|Project\s+Focus|Core\s+function)[\s:*]+(.+?)(?:\n\n|\n\*\*)', stripped, re.IGNORECASE | re.DOTALL)
+        desc_match = re.search(
+            r'(?:Key\s+Functionality|Detailed\s+Analysis|Project\s+Focus|Core\s+function)[\s:*]+(.+?)(?:\n\n|\n\*\*)',
+            stripped, re.IGNORECASE | re.DOTALL
+        )
         if desc_match:
             result['SHORT_DESCRIPTION'] = desc_match.group(1).strip().replace('**', '')[:200]
-        # If still no desc, use the URL-derived title
-        if 'SHORT_DESCRIPTION' not in result and 'url' in dir():
-            pass  # Will be filled by setdefault
 
     if len(result) >= 3:
         result.setdefault('CATEGORY', 'Guides & Industry Trends')
@@ -257,7 +243,7 @@ def parse_llm_response(raw):
         result.setdefault('INNOVATION_SCORE', 8)
         return result
 
-    # 5. Last resort: extract fields from any text that has key-like patterns
+    # 5. Last resort
     return extract_fields_from_jsonish(text)
 
 
@@ -290,7 +276,7 @@ def extract_fit_markdown(html, url=""):
     text = main.get_text(separator='\n', strip=True)
     lines = [l.strip() for l in text.splitlines() if l.strip()]
     text = '\n'.join(lines)
-    return text[:3000]
+    return text[:2000]  # Reduced from 3000 to help with GPU memory pressure
 
 
 def extract_gh_meta(url, html):
@@ -308,14 +294,42 @@ def extract_gh_meta(url, html):
     return meta
 
 
-def build_prompt(url, fit_text, gh_meta=None):
+def extract_reddit_context(url):
+    """Extract subreddit and title from Reddit URL for context."""
+    ctx = {}
+    sub_m = re.search(r'reddit\.com/r/(\w+)/', url, re.IGNORECASE)
+    if sub_m:
+        ctx['subreddit'] = sub_m.group(1)
+    title_m = re.search(r'reddit\.com/r/\w+/comments/\w+/([^/?]+)/?', url, re.IGNORECASE)
+    if title_m:
+        ctx['title'] = title_m.group(1).replace('_', ' ').replace('-', ' ').title()
+    return ctx
+
+
+def build_prompt(url, fit_text, gh_meta=None, reddit_ctx=None, existing_sd=None):
+    """Build prompt with available context, even if fetch failed."""
     prompt = "Classify this resource. URL: " + url + "\n"
+
     if gh_meta:
         if 'desc' in gh_meta:
             prompt += "Repo: " + gh_meta['desc'] + "\n"
         if 'topics' in gh_meta:
             prompt += "Topics: " + ", ".join(gh_meta['topics']) + "\n"
-    prompt += "\nContent:\n" + fit_text + "\n\n"
+
+    if reddit_ctx:
+        if 'subreddit' in reddit_ctx:
+            prompt += "Subreddit: r/" + reddit_ctx['subreddit'] + "\n"
+        if 'title' in reddit_ctx:
+            prompt += "Post title: " + reddit_ctx['title'] + "\n"
+
+    if existing_sd and len(existing_sd) > 20:
+        prompt += "Known description: " + existing_sd + "\n"
+
+    if fit_text and len(fit_text) > 50:
+        prompt += "\nContent:\n" + fit_text + "\n\n"
+    else:
+        prompt += "\n(Note: Page content could not be fetched. Classify based on URL and metadata above.)\n\n"
+
     prompt += "Categories: " + ", ".join(BORG_TAXONOMY) + "\n\n"
     prompt += (
         "Return JSON with these fields:\n"
@@ -370,38 +384,56 @@ def main():
     atl = sqlite3.connect(ATLAS_DB)
     a = atl.cursor()
 
-    a.execute("""SELECT e.id, e.url, e.short_description, e.is_github, e.innovation
+    # Find entries that need enrichment
+    a.execute("""SELECT e.id, e.url, e.short_description, e.is_github, e.innovation,
+        e.page_title, e.owner, e.repo
         FROM entries e
         WHERE (e.long_description = e.short_description OR LENGTH(e.long_description) < 50)
         ORDER BY e.is_github DESC, e.id DESC""")
     all_entries = a.fetchall()
 
-    logger.info(f"Borg Research Worker v2.5 starting")
+    logger.info(f"Borg Research Worker v2.6 starting")
     logger.info(f"Entries to research: {len(all_entries):,}")
 
     accepted = 0
     rejected = 0
     failed = 0
     skipped = 0
+    metadata_only = 0  # Enriched using metadata only (no page fetch)
 
-    for idx, (eid, url, sd, is_gh, innov) in enumerate(all_entries):
+    for idx, (eid, url, sd, is_gh, innov, pt, owner, repo) in enumerate(all_entries):
         logger.info(f"[{idx+1}/{len(all_entries)}] Researching: {url[:80]}")
 
+        # Try fetching content first
         content = fetch_content(url)
-        if not content:
-            failed += 1
-            continue
+        fit_text = ""
+        gh_meta = None
+        reddit_ctx = None
+        used_metadata_only = False
 
-        fit_text = extract_fit_markdown(content, url)
-        if len(fit_text) < 50:
+        if content:
+            fit_text = extract_fit_markdown(content, url)
+            if is_gh:
+                gh_meta = extract_gh_meta(url, content)
+        else:
+            # Fetch failed - use URL structure and existing metadata as context
+            if 'reddit.com' in url.lower():
+                reddit_ctx = extract_reddit_context(url)
+                used_metadata_only = True
+            elif is_gh and owner and repo:
+                # GitHub fetch failed, but we have owner/repo
+                gh_meta = {'desc': f"GitHub repository {owner}/{repo}"}
+                used_metadata_only = True
+            else:
+                # Try with just URL and existing short_description
+                used_metadata_only = True
+
+        # If fit_text is too thin, we can still proceed with metadata
+        if len(fit_text) < 50 and not used_metadata_only:
             skipped += 1
             continue
 
-        gh_meta = None
-        if is_gh:
-            gh_meta = extract_gh_meta(url, content)
-
-        prompt = build_prompt(url, fit_text, gh_meta)
+        prompt = build_prompt(url, fit_text, gh_meta, reddit_ctx, existing_sd=sd)
         raw, model = call_llm(prompt)
 
         if not raw:
@@ -411,7 +443,6 @@ def main():
 
         rdata = parse_llm_response(raw)
         if not rdata:
-            # Dump for analysis
             dump_path = os.path.join('logs', 'parse_failures.jsonl')
             with open(dump_path, 'a', encoding='utf-8') as df:
                 df.write(json.dumps({"url": url, "model": model, "raw": raw[:2000]}) + '\n')
@@ -469,14 +500,7 @@ def main():
         elif tag_count >= 2: score += 8
         elif tag_count >= 1: score += 4
 
-        a.execute("SELECT page_title FROM entries WHERE id=?", (eid,))
-        row = a.fetchone()
-        pt = row[0] if row else ''
         if pt and len(pt) > 5: score += 10
-
-        a.execute("SELECT owner FROM entries WHERE id=?", (eid,))
-        row = a.fetchone()
-        owner = row[0] if row else None
         if owner and len(owner) > 1: score += 10
 
         quality = min(1.0, score / 100)
@@ -490,11 +514,14 @@ def main():
         ))))
         is_standout = 1 if new_innov >= 9 and quality >= 0.8 else 0
 
+        # Use the better short_description
+        final_sd = short_desc if len(short_desc) > len(sd) else sd
+
         a.execute("""UPDATE entries SET
             short_description=?, long_description=?, main_features=?,
             tags=?, innovation=?, quality=?, signal=?, is_standout=?, verdict=?
             WHERE id=?""",
-            (short_desc or sd, long_desc, features, json.dumps(clean_tags),
+            (final_sd, long_desc, features, json.dumps(clean_tags),
              new_innov, quality, signal, is_standout, '', eid))
 
         mapped = CAT_MAP.get(category, category)
@@ -503,13 +530,17 @@ def main():
 
         atl.commit()
         accepted += 1
+        if used_metadata_only:
+            metadata_only += 1
         mshort = model[:15] if model else '?'
-        logger.info(f"  OK [{mshort}] I{new_innov} Q{quality:.2f} S{signal}: {short_desc[:60]}")
+        mode = "META" if used_metadata_only else "FETCH"
+        logger.info(f"  OK [{mshort}] [{mode}] I{new_innov} Q{quality:.2f} S{signal}: {final_sd[:60]}")
 
         time.sleep(0.5)
 
     logger.info("=" * 60)
-    logger.info(f"Research complete: {accepted} enriched, {rejected} rejected, {failed} failed, {skipped} skipped")
+    logger.info(f"Research complete: {accepted} enriched ({metadata_only} metadata-only), "
+                f"{rejected} rejected, {failed} failed, {skipped} skipped")
     logger.info("=" * 60)
 
     a.execute("SELECT COUNT(*) FROM entries")
