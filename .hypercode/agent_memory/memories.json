@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-05-26T18:54:06.296Z",
+  "savedAt": "2026-05-26T20:09:04.785Z",
   "memories": [
     {
       "id": "887da9950902b57c",
@@ -33835,6 +33835,1690 @@
       },
       "createdAt": "2026-05-26T18:54:03.823Z",
       "accessedAt": "2026-05-26T18:54:03.823Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4ae0a665f18579ef",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1196, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "443217e3-01ca-461e-98c1-1a67de541209",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779822532444.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:56e838b465d3",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:56e838b465d3",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779822532445.5317,
+          "stoppedAt": 1779822534342,
+          "lastActivityAt": 1779822532445.5317,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1196,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779822534354,
+          "contentHash": "session-466068417"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:08:54.355Z",
+      "accessedAt": "2026-05-26T19:08:54.355Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a1c46a3a9da1db95",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1196, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4cbfba99-e9b9-4bfa-b784-bb716dfdf124",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779822232433.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:65cdad39a50c",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:65cdad39a50c",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779822232434.081,
+          "stoppedAt": 1779822534742,
+          "lastActivityAt": 1779822232434.081,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1196,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779822534755,
+          "contentHash": "session-769450796"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:08:54.755Z",
+      "accessedAt": "2026-05-26T19:08:54.755Z",
+      "accessCount": 0
+    },
+    {
+      "id": "732fc86478fcd03a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1196, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a587b140-3a56-4e2a-a0a6-7ca9bed3134a",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779821932423.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:953c0b4a0917",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:953c0b4a0917",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779821932425.4087,
+          "stoppedAt": 1779822535135,
+          "lastActivityAt": 1779821932425.4087,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1196,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779822535147,
+          "contentHash": "session-558194113"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:08:55.148Z",
+      "accessedAt": "2026-05-26T19:08:55.148Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c87b1bdf85378773",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"memory\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-26T18:54:03.823Z\", | \"accessedAt\": \"2026-05-26T18:54:03.823Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:0ddf8a930526",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779821646334.8022,
+          "stoppedAt": 1779822538982,
+          "lastActivityAt": 1779821646334.8022,
+          "logTail": [
+            "\"memory\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-26T18:54:03.823Z\",",
+            "\"accessedAt\": \"2026-05-26T18:54:03.823Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779822539168,
+          "contentHash": "session-1966145406"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:08:59.169Z",
+      "accessedAt": "2026-05-26T19:08:59.169Z",
+      "accessCount": 0
+    },
+    {
+      "id": "587ddac67e391cb8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:08:59.574Z",
+      "accessedAt": "2026-05-26T19:08:59.574Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f0cb7bee6f5297f7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:08:59.987Z",
+      "accessedAt": "2026-05-26T19:08:59.987Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1466c5bedfa2e21a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:09:00.362Z",
+      "accessedAt": "2026-05-26T19:09:00.362Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4beb8fd4055ff5d2",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:09:00.710Z",
+      "accessedAt": "2026-05-26T19:09:00.710Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b3395362725a70de",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:09:01.055Z",
+      "accessedAt": "2026-05-26T19:09:01.055Z",
+      "accessCount": 0
+    },
+    {
+      "id": "ce4cd006de0eabd8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "35899022-aee1-4f7e-91db-ae6e71bd138b",
+        "sessionId": "imported:hypercode:0ddf8a930526",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:09:01.397Z",
+      "accessedAt": "2026-05-26T19:09:01.397Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a6dd86c62001cea7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1206, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "fd0302d6-d76f-4784-b272-61afbee8b032",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779823432466.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:d787b475fd23",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:d787b475fd23",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779823432466.5676,
+          "stoppedAt": 1779823434368,
+          "lastActivityAt": 1779823432466.5676,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1206,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779823434381,
+          "contentHash": "session-1646355673"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:23:54.382Z",
+      "accessedAt": "2026-05-26T19:23:54.382Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c6c3b72e3941f1e9",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1206, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "081b6498-e190-49f1-bfe8-8cc9d4ff27a3",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779823132455.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:348c17c2e2d7",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:348c17c2e2d7",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779823132456.0017,
+          "stoppedAt": 1779823434798,
+          "lastActivityAt": 1779823132456.0017,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1206,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779823434812,
+          "contentHash": "session-1307152040"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:23:54.812Z",
+      "accessedAt": "2026-05-26T19:23:54.812Z",
+      "accessCount": 0
+    },
+    {
+      "id": "fe2bc081f0fba85d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1206, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "46a07490-ccfc-447b-94c3-bf56df9d7d51",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779822832447.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:6b44f0b72d13",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:6b44f0b72d13",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779822832448.5083,
+          "stoppedAt": 1779823435211,
+          "lastActivityAt": 1779822832448.5083,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1206,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779823435223,
+          "contentHash": "session-1728639301"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:23:55.223Z",
+      "accessedAt": "2026-05-26T19:23:55.223Z",
+      "accessCount": 0
+    },
+    {
+      "id": "5dfd914d5b6516ed",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"memory\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-26T18:54:03.823Z\", | \"accessedAt\": \"2026-05-26T18:54:03.823Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:3dbd58d61ee4",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779822561201.1504,
+          "stoppedAt": 1779823435608,
+          "lastActivityAt": 1779822561201.1504,
+          "logTail": [
+            "\"memory\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-26T18:54:03.823Z\",",
+            "\"accessedAt\": \"2026-05-26T18:54:03.823Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779823435814,
+          "contentHash": "session-143999163"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:23:55.815Z",
+      "accessedAt": "2026-05-26T19:23:55.815Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c78d1eeb8a07c479",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:56.227Z",
+      "accessedAt": "2026-05-26T19:23:56.227Z",
+      "accessCount": 0
+    },
+    {
+      "id": "66db23c48702a0db",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:56.582Z",
+      "accessedAt": "2026-05-26T19:23:56.582Z",
+      "accessCount": 0
+    },
+    {
+      "id": "32806c94940b11cb",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:56.901Z",
+      "accessedAt": "2026-05-26T19:23:56.901Z",
+      "accessCount": 0
+    },
+    {
+      "id": "3bd20eb294334a65",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:57.225Z",
+      "accessedAt": "2026-05-26T19:23:57.225Z",
+      "accessCount": 0
+    },
+    {
+      "id": "01900661a2ecc43a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:57.577Z",
+      "accessedAt": "2026-05-26T19:23:57.577Z",
+      "accessCount": 0
+    },
+    {
+      "id": "72fad5078e3209a7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "e4a58dd5-11bf-4d8a-b498-738059974c4f",
+        "sessionId": "imported:hypercode:3dbd58d61ee4",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:23:57.892Z",
+      "accessedAt": "2026-05-26T19:23:57.892Z",
+      "accessCount": 0
+    },
+    {
+      "id": "017b1594943af5d1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1216, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8368c86b-a25d-4546-89bb-99ce37d5df8c",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779824050106.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:76332ca55add",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:76332ca55add",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779824050111.8157,
+          "stoppedAt": 1779824334309,
+          "lastActivityAt": 1779824050111.8157,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1216,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779824334328,
+          "contentHash": "session-331261024"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:38:54.329Z",
+      "accessedAt": "2026-05-26T19:38:54.329Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d196a28cb083beb7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1216, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "76fea3b4-bf35-4e05-8ce6-e2bbe425e372",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779823732466.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:a0a548f858ab",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:a0a548f858ab",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779823732467.0293,
+          "stoppedAt": 1779824334771,
+          "lastActivityAt": 1779823732467.0293,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1216,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779824334786,
+          "contentHash": "session-1980672248"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:38:54.786Z",
+      "accessedAt": "2026-05-26T19:38:54.786Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b8b0324a61e3a10e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"memory\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-26T19:23:57.892Z\", | \"accessedAt\": \"2026-05-26T19:23:57.892Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:c5a4f1b9990c",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779823439821.6543,
+          "stoppedAt": 1779824335228,
+          "lastActivityAt": 1779823439821.6543,
+          "logTail": [
+            "\"memory\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-26T19:23:57.892Z\",",
+            "\"accessedAt\": \"2026-05-26T19:23:57.892Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779824335476,
+          "contentHash": "session-1507424338"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:38:55.477Z",
+      "accessedAt": "2026-05-26T19:38:55.477Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d246e5951f98f42f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:38:59.953Z",
+      "accessedAt": "2026-05-26T19:38:59.953Z",
+      "accessCount": 0
+    },
+    {
+      "id": "237c6b04a8367837",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:39:00.329Z",
+      "accessedAt": "2026-05-26T19:39:00.329Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1064be70432cbdde",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:39:00.695Z",
+      "accessedAt": "2026-05-26T19:39:00.695Z",
+      "accessCount": 0
+    },
+    {
+      "id": "915ad881ca38f7af",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:39:01.123Z",
+      "accessedAt": "2026-05-26T19:39:01.123Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4bfaf286345664a4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:39:01.516Z",
+      "accessedAt": "2026-05-26T19:39:01.516Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a199748e07fa345a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "4ba00cdf-3977-4ea2-9361-11ffe1100948",
+        "sessionId": "imported:hypercode:c5a4f1b9990c",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:39:01.940Z",
+      "accessedAt": "2026-05-26T19:39:01.940Z",
+      "accessCount": 0
+    },
+    {
+      "id": "11e44c77b05bdab8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1225, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "54318070-885d-4a65-abc3-7bb5852e4500",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779824950121.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:771f37625c08",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:771f37625c08",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779824950123.2517,
+          "stoppedAt": 1779825234308,
+          "lastActivityAt": 1779824950123.2517,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1225,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779825234323,
+          "contentHash": "session-1981394116"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:53:54.324Z",
+      "accessedAt": "2026-05-26T19:53:54.324Z",
+      "accessCount": 0
+    },
+    {
+      "id": "5e71541b0ed8a580",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1225, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "751d15c6-bb0d-45d1-89e4-7d1236ec95f0",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779824650113.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:0b8f72256cf3",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:0b8f72256cf3",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779824650114.8137,
+          "stoppedAt": 1779825234685,
+          "lastActivityAt": 1779824650114.8137,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1225,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779825234711,
+          "contentHash": "session-1225884111"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:53:54.712Z",
+      "accessedAt": "2026-05-26T19:53:54.712Z",
+      "accessCount": 0
+    },
+    {
+      "id": "758a8d6326665669",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1225, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "1353815e-2601-409b-8128-aa447423af4c",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779824350112.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:d216114cd258",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:d216114cd258",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779824350113.3633,
+          "stoppedAt": 1779825235173,
+          "lastActivityAt": 1779824350113.3633,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1225,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779825235189,
+          "contentHash": "session-847701805"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:53:55.190Z",
+      "accessedAt": "2026-05-26T19:53:55.190Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d602bd8970dd9d12",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"memory\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-26T19:39:01.940Z\", | \"accessedAt\": \"2026-05-26T19:39:01.940Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:8083a4f67d0d",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779824344983.2104,
+          "stoppedAt": 1779825235564,
+          "lastActivityAt": 1779824344983.2104,
+          "logTail": [
+            "\"memory\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-26T19:39:01.940Z\",",
+            "\"accessedAt\": \"2026-05-26T19:39:01.940Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779825235750,
+          "contentHash": "session-2072980594"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T19:53:55.751Z",
+      "accessedAt": "2026-05-26T19:53:55.751Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8466fdc1040328b4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:56.111Z",
+      "accessedAt": "2026-05-26T19:53:56.111Z",
+      "accessCount": 0
+    },
+    {
+      "id": "7bc0c61b644d79ac",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:56.425Z",
+      "accessedAt": "2026-05-26T19:53:56.425Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a5fbb048222d9be1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:56.746Z",
+      "accessedAt": "2026-05-26T19:53:56.746Z",
+      "accessCount": 0
+    },
+    {
+      "id": "6ab42785785753d7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:57.098Z",
+      "accessedAt": "2026-05-26T19:53:57.098Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1d2752f88e1037f6",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:57.446Z",
+      "accessedAt": "2026-05-26T19:53:57.446Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bcf14edd234dce4b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "c8bc36b5-e7b9-4d1a-8501-d809ec8ac1ef",
+        "sessionId": "imported:hypercode:8083a4f67d0d",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T19:53:57.754Z",
+      "accessedAt": "2026-05-26T19:53:57.754Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b9b16657b6d8a397",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1235, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "48f36e30-0fce-411f-97a2-2aa514566bd0",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779825850137.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:1fbdd84f8047",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:1fbdd84f8047",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779825850138.4604,
+          "stoppedAt": 1779826134229,
+          "lastActivityAt": 1779825850138.4604,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1235,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779826134244,
+          "contentHash": "session-823821770"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T20:08:54.244Z",
+      "accessedAt": "2026-05-26T20:08:54.244Z",
+      "accessCount": 0
+    },
+    {
+      "id": "86208a7df39d86e3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1235, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "9c6b22c4-7892-4c6b-a1c5-62f8fd0d9857",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779825550133.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:1c50a967dcbc",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:1c50a967dcbc",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779825550134.5962,
+          "stoppedAt": 1779826134607,
+          "lastActivityAt": 1779825550134.5962,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1235,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779826134629,
+          "contentHash": "session-444946924"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T20:08:54.630Z",
+      "accessedAt": "2026-05-26T20:08:54.630Z",
+      "accessCount": 0
+    },
+    {
+      "id": "81f528b82b010768",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1235, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "7f0b26d0-31f5-4fd3-be4e-df39f6afd9d6",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779825250126.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:ac5dbb006f34",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:ac5dbb006f34",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779825250128.2766,
+          "stoppedAt": 1779826134985,
+          "lastActivityAt": 1779825250128.2766,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1235,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779826135013,
+          "contentHash": "session-635661815"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T20:08:55.014Z",
+      "accessedAt": "2026-05-26T20:08:55.014Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b48735cc8b01bab1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"memory\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-26T19:53:57.754Z\", | \"accessedAt\": \"2026-05-26T19:53:57.754Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:37738e474edb",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:37738e474edb",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779825239701.497,
+          "stoppedAt": 1779826135453,
+          "lastActivityAt": 1779825239701.497,
+          "logTail": [
+            "\"memory\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-26T19:53:57.754Z\",",
+            "\"accessedAt\": \"2026-05-26T19:53:57.754Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779826135645,
+          "contentHash": "session-1021914027"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-26T20:08:55.646Z",
+      "accessedAt": "2026-05-26T20:08:55.646Z",
+      "accessCount": 0
+    },
+    {
+      "id": "eb1a1c7e586e204e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:08:59.772Z",
+      "accessedAt": "2026-05-26T20:08:59.772Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0f8e965055d86c34",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:09:00.124Z",
+      "accessedAt": "2026-05-26T20:09:00.124Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4da39f6fa155ef7c",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:09:00.449Z",
+      "accessedAt": "2026-05-26T20:09:00.449Z",
+      "accessCount": 0
+    },
+    {
+      "id": "886d8372550b2013",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:09:00.778Z",
+      "accessedAt": "2026-05-26T20:09:00.778Z",
+      "accessCount": 0
+    },
+    {
+      "id": "33bedd22c9bcd5a7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:09:01.158Z",
+      "accessedAt": "2026-05-26T20:09:01.158Z",
+      "accessCount": 0
+    },
+    {
+      "id": "12db400c795689ee",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "80610129-83cf-4f85-8f61-95fe13c0d466",
+        "sessionId": "imported:hypercode:37738e474edb",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-26T20:09:01.483Z",
+      "accessedAt": "2026-05-26T20:09:01.483Z",
       "accessCount": 0
     }
   ]
