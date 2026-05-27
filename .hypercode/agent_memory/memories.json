@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-05-27T16:02:33.153Z",
+  "savedAt": "2026-05-27T23:43:42.345Z",
   "memories": [
     {
       "id": "887da9950902b57c",
@@ -63077,6 +63077,2509 @@
       },
       "createdAt": "2026-05-27T16:02:28.151Z",
       "accessedAt": "2026-05-27T16:02:28.151Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b6cd344bceabc80e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:92855bacc6c7",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779925343326.9302,
+          "stoppedAt": 1779925356453,
+          "lastActivityAt": 1779925343326.9302,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925356513,
+          "contentHash": "session-853965482"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:36.516Z",
+      "accessedAt": "2026-05-27T23:42:36.516Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e3dba0ceffbffc2e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:37.972Z",
+      "accessedAt": "2026-05-27T23:42:37.972Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0c6cee1e7eb90739",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:38.370Z",
+      "accessedAt": "2026-05-27T23:42:38.370Z",
+      "accessCount": 0
+    },
+    {
+      "id": "31a5dbba3abd2ced",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:38.800Z",
+      "accessedAt": "2026-05-27T23:42:38.800Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9b8cb6fd9db2dcc7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:39.249Z",
+      "accessedAt": "2026-05-27T23:42:39.249Z",
+      "accessCount": 0
+    },
+    {
+      "id": "05ba253334fd6647",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:39.682Z",
+      "accessedAt": "2026-05-27T23:42:39.682Z",
+      "accessCount": 0
+    },
+    {
+      "id": "99fd9f0f2f7fb477",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "ed97fdb4-13e4-4d39-9b1e-19aaff3205c1",
+        "sessionId": "imported:hypercode:92855bacc6c7",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925343325.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:40.092Z",
+      "accessedAt": "2026-05-27T23:42:40.092Z",
+      "accessCount": 0
+    },
+    {
+      "id": "2de80558733d798b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:41a95c3fbec4",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779925043323.9827,
+          "stoppedAt": 1779925360553,
+          "lastActivityAt": 1779925043323.9827,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925360614,
+          "contentHash": "session-1214379156"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:40.616Z",
+      "accessedAt": "2026-05-27T23:42:40.616Z",
+      "accessCount": 0
+    },
+    {
+      "id": "011d9da1263e1e87",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:41.429Z",
+      "accessedAt": "2026-05-27T23:42:41.429Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1d1ba002bee619e8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:41.871Z",
+      "accessedAt": "2026-05-27T23:42:41.871Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d37436cc16559091",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:42.300Z",
+      "accessedAt": "2026-05-27T23:42:42.300Z",
+      "accessCount": 0
+    },
+    {
+      "id": "18b00eda0f9dcaf7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:42.772Z",
+      "accessedAt": "2026-05-27T23:42:42.772Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b071ffc611cf1182",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:43.193Z",
+      "accessedAt": "2026-05-27T23:42:43.193Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c39d0223dd4cd73d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "51dbe112-c08d-450c-b651-bee3577f4609",
+        "sessionId": "imported:hypercode:41a95c3fbec4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779925043324.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:43.637Z",
+      "accessedAt": "2026-05-27T23:42:43.637Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0747ebd542655b66",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:39777255732d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:39777255732d",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779924743310.1743,
+          "stoppedAt": 1779925364043,
+          "lastActivityAt": 1779924743310.1743,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925364101,
+          "contentHash": "session-724839321"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:44.103Z",
+      "accessedAt": "2026-05-27T23:42:44.103Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9d1806d196f4c082",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:44.504Z",
+      "accessedAt": "2026-05-27T23:42:44.504Z",
+      "accessCount": 0
+    },
+    {
+      "id": "11fd55ee46d75840",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:44.902Z",
+      "accessedAt": "2026-05-27T23:42:44.902Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bc880148445c98c1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:45.271Z",
+      "accessedAt": "2026-05-27T23:42:45.271Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f1ff5d3a5dfa7ed8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:45.606Z",
+      "accessedAt": "2026-05-27T23:42:45.606Z",
+      "accessCount": 0
+    },
+    {
+      "id": "13539ce025d8f596",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:52.689Z",
+      "accessedAt": "2026-05-27T23:42:52.689Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d72c7a76f12ee961",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "837fef9b-831f-4004-a876-bd2eb2e6a7da",
+        "sessionId": "imported:hypercode:39777255732d",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924743309.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:53.087Z",
+      "accessedAt": "2026-05-27T23:42:53.087Z",
+      "accessCount": 0
+    },
+    {
+      "id": "fe3ae9411645f9a3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:133413dde730",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:133413dde730",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779924443299.9966,
+          "stoppedAt": 1779925373476,
+          "lastActivityAt": 1779924443299.9966,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925373529,
+          "contentHash": "session-1855807944"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:53.530Z",
+      "accessedAt": "2026-05-27T23:42:53.530Z",
+      "accessCount": 0
+    },
+    {
+      "id": "cc8d6ed19dd48bbe",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:53.954Z",
+      "accessedAt": "2026-05-27T23:42:53.954Z",
+      "accessCount": 0
+    },
+    {
+      "id": "7219b4d4df02e39d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:54.352Z",
+      "accessedAt": "2026-05-27T23:42:54.352Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8b32247a5e47ae87",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:54.755Z",
+      "accessedAt": "2026-05-27T23:42:54.755Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4dd834d31f004b34",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:55.179Z",
+      "accessedAt": "2026-05-27T23:42:55.179Z",
+      "accessCount": 0
+    },
+    {
+      "id": "46c6962198efc530",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:55.550Z",
+      "accessedAt": "2026-05-27T23:42:55.550Z",
+      "accessCount": 0
+    },
+    {
+      "id": "98b6a195cb1ff0de",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "39979af3-2ed2-4a78-876c-93a7b6810bbe",
+        "sessionId": "imported:hypercode:133413dde730",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924443299.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:55.937Z",
+      "accessedAt": "2026-05-27T23:42:55.937Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1e3af499fb28385b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:28e54dd81df1",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779924143299.2888,
+          "stoppedAt": 1779925376368,
+          "lastActivityAt": 1779924143299.2888,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925376425,
+          "contentHash": "session-948283773"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:56.426Z",
+      "accessedAt": "2026-05-27T23:42:56.426Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d141d8ef0a3c517e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:56.876Z",
+      "accessedAt": "2026-05-27T23:42:56.876Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0da9184cf65a3c62",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:57.320Z",
+      "accessedAt": "2026-05-27T23:42:57.320Z",
+      "accessCount": 0
+    },
+    {
+      "id": "7b4ccf44a140393d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:57.734Z",
+      "accessedAt": "2026-05-27T23:42:57.734Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4089cfe83f75b466",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:58.175Z",
+      "accessedAt": "2026-05-27T23:42:58.175Z",
+      "accessCount": 0
+    },
+    {
+      "id": "78c6d2bd0e47d65b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:58.594Z",
+      "accessedAt": "2026-05-27T23:42:58.594Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8a19a805db9ff8f5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "6eb33070-4e6c-4159-ab9d-5f75c380501f",
+        "sessionId": "imported:hypercode:28e54dd81df1",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779924143298.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:58.978Z",
+      "accessedAt": "2026-05-27T23:42:58.978Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0e4b1836e53fd36a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:13e47a78fef4",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779923843294.4417,
+          "stoppedAt": 1779925379420,
+          "lastActivityAt": 1779923843294.4417,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925379484,
+          "contentHash": "session-978730540"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:42:59.485Z",
+      "accessedAt": "2026-05-27T23:42:59.485Z",
+      "accessCount": 0
+    },
+    {
+      "id": "25d84e5addf03ecd",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:42:59.920Z",
+      "accessedAt": "2026-05-27T23:42:59.920Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b056aabf9e1eca4f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:00.364Z",
+      "accessedAt": "2026-05-27T23:43:00.364Z",
+      "accessCount": 0
+    },
+    {
+      "id": "100f0cd6a8ce20ee",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:00.806Z",
+      "accessedAt": "2026-05-27T23:43:00.806Z",
+      "accessCount": 0
+    },
+    {
+      "id": "6a75757302df5587",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:07.994Z",
+      "accessedAt": "2026-05-27T23:43:07.994Z",
+      "accessCount": 0
+    },
+    {
+      "id": "21bc11fde49c4830",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:08.330Z",
+      "accessedAt": "2026-05-27T23:43:08.330Z",
+      "accessCount": 0
+    },
+    {
+      "id": "36653ad57c2fe3a5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "00177205-114b-44b8-99e7-0b6bde920b52",
+        "sessionId": "imported:hypercode:13e47a78fef4",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923843293.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:08.744Z",
+      "accessedAt": "2026-05-27T23:43:08.744Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1a7f99cf9696ca4e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:38b2ead34da3",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779923543281.2634,
+          "stoppedAt": 1779925389122,
+          "lastActivityAt": 1779923543281.2634,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925389169,
+          "contentHash": "session-1903003891"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:09.170Z",
+      "accessedAt": "2026-05-27T23:43:09.170Z",
+      "accessCount": 0
+    },
+    {
+      "id": "632d6054e36e78c8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:09.605Z",
+      "accessedAt": "2026-05-27T23:43:09.605Z",
+      "accessCount": 0
+    },
+    {
+      "id": "cdf70ce209ebfa2c",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:09.984Z",
+      "accessedAt": "2026-05-27T23:43:09.984Z",
+      "accessCount": 0
+    },
+    {
+      "id": "755bc65c49ee6e44",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:10.354Z",
+      "accessedAt": "2026-05-27T23:43:10.354Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9d9a97f0d613733d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:10.788Z",
+      "accessedAt": "2026-05-27T23:43:10.788Z",
+      "accessCount": 0
+    },
+    {
+      "id": "10b0eca2ecca5faa",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:11.149Z",
+      "accessedAt": "2026-05-27T23:43:11.149Z",
+      "accessCount": 0
+    },
+    {
+      "id": "892261a93e32fe94",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "45dc7e21-b08d-4d70-a2d9-28a38188e8db",
+        "sessionId": "imported:hypercode:38b2ead34da3",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543280.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:11.500Z",
+      "accessedAt": "2026-05-27T23:43:11.500Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9fb1d72244bf4d35",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 4, | \"summaryCount\": 2, | \"preview\": \"JIT context: 4 observations · 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:395fe196eab5",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779923543118.4895,
+          "stoppedAt": 1779925391910,
+          "lastActivityAt": 1779923543118.4895,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 4,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 4 observations · 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925391965,
+          "contentHash": "session-1082027914"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:11.967Z",
+      "accessedAt": "2026-05-27T23:43:11.967Z",
+      "accessCount": 0
+    },
+    {
+      "id": "32573cd2c7178146",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:12.335Z",
+      "accessedAt": "2026-05-27T23:43:12.335Z",
+      "accessCount": 0
+    },
+    {
+      "id": "905f3ac787af7d3f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:12.698Z",
+      "accessedAt": "2026-05-27T23:43:12.698Z",
+      "accessCount": 0
+    },
+    {
+      "id": "2442007515957a68",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:13.079Z",
+      "accessedAt": "2026-05-27T23:43:13.079Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1091899d71e1d072",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:13.416Z",
+      "accessedAt": "2026-05-27T23:43:13.416Z",
+      "accessCount": 0
+    },
+    {
+      "id": "04524340ff0be21f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:13.778Z",
+      "accessedAt": "2026-05-27T23:43:13.778Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c814a30a87a238a6",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "a52affe2-e184-4dfe-9154-b2e91369e37a",
+        "sessionId": "imported:hypercode:395fe196eab5",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923543117.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:14.205Z",
+      "accessedAt": "2026-05-27T23:43:14.205Z",
+      "accessCount": 0
+    },
+    {
+      "id": "5aa7cb5d7bc24172",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 0, | \"summaryCount\": 2, | \"preview\": \"JIT context: 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:71fa2e9e9b8f",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779923243275.826,
+          "stoppedAt": 1779925394933,
+          "lastActivityAt": 1779923243275.826,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 0,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925394989,
+          "contentHash": "session-644651576"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:14.991Z",
+      "accessedAt": "2026-05-27T23:43:14.991Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f4e4424bf0e473b6",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:15.374Z",
+      "accessedAt": "2026-05-27T23:43:15.374Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8de01837f1025b3b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:15.711Z",
+      "accessedAt": "2026-05-27T23:43:15.711Z",
+      "accessCount": 0
+    },
+    {
+      "id": "83307ffc1328e7ff",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:22.288Z",
+      "accessedAt": "2026-05-27T23:43:22.288Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4e837a5a3219a68b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:22.633Z",
+      "accessedAt": "2026-05-27T23:43:22.633Z",
+      "accessCount": 0
+    },
+    {
+      "id": "eaa9a173ab874ebd",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:22.959Z",
+      "accessedAt": "2026-05-27T23:43:22.959Z",
+      "accessCount": 0
+    },
+    {
+      "id": "778d960aa2f5f999",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "be669a6b-f3ee-462d-95e3-3c3a27547914",
+        "sessionId": "imported:hypercode:71fa2e9e9b8f",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243274.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:23.316Z",
+      "accessedAt": "2026-05-27T23:43:23.316Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f43e3cf8b8a0a1b5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/.hypercode/handoffs\nLog tail: ], | \"toolName\": \"get_eviction_history\", | \"query\": \"get_eviction_history\", | \"matchedPaths\": [], | \"observationCount\": 4, | \"summaryCount\": 2, | \"preview\": \"JIT context: 4 observations · 2 summarysummaries\" | } | \"notes\": \"Automatic background handoff\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sourcePath": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:a1072ddae6d6",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779923243106.4136,
+          "stoppedAt": 1779925403649,
+          "lastActivityAt": 1779923243106.4136,
+          "logTail": [
+            "],",
+            "\"toolName\": \"get_eviction_history\",",
+            "\"query\": \"get_eviction_history\",",
+            "\"matchedPaths\": [],",
+            "\"observationCount\": 4,",
+            "\"summaryCount\": 2,",
+            "\"preview\": \"JIT context: 4 observations · 2 summarysummaries\"",
+            "}",
+            "\"notes\": \"Automatic background handoff\""
+          ],
+          "recordedAt": 1779925403711,
+          "contentHash": "session-474939827"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:23.712Z",
+      "accessedAt": "2026-05-27T23:43:23.712Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4b5269d04869e5f3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aa\\n- <overview> (copilot-cli) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:24.094Z",
+      "accessedAt": "2026-05-27T23:43:24.094Z",
+      "accessCount": 0
+    },
+    {
+      "id": "566bfa3b99cc2836",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.copilot/session-state/44f0d726-859c-45b4-aae1-b7f7a064bccf/checkpoints Log tail: 3.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:24.470Z",
+      "accessedAt": "2026-05-27T23:43:24.470Z",
+      "accessCount": 0
+    },
+    {
+      "id": "978f095d59de42ac",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "**Return to merchant broadcast history** | - Once the bounty regress\\nUse only the parts that still match the current intent; ignore stale context.\", \"metadata\": { \"source\": \"pre_tool_context\", \"tags\": [ \"tool-context\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:24.846Z",
+      "accessedAt": "2026-05-27T23:43:24.846Z",
+      "accessCount": 0
+    },
+    {
+      "id": "079abe1ee37512da",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "[] (progress · get_eviction_history)\\nPotentially relevant session summaries:\\n- { (hypercode) ended with status imported.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:25.239Z",
+      "accessedAt": "2026-05-27T23:43:25.239Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1aabc7913f451c9e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/agent_memory Log tail: \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"filesRead\\\": [], | \\\"filesModified\\\": [], | \\\"rawInput\\\": \\\"{}\\\", | \\\"rawOutput\\\": \\\"{\\\\n \\\\\\\"content\\\\\\\":\\n",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:25.626Z",
+      "accessedAt": "2026-05-27T23:43:25.626Z",
+      "accessCount": 0
+    },
+    {
+      "id": "7a592657fd2cce94",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Working directory: C:/Users/hyper/.hypercode/handoffs Log tail: ], | \\\"toolName\\\": \\\"get_eviction_history\\\", | \\\"query\\\": \\\"get_eviction_history\\\", | \\\"matchedPaths\\\": [], | \\\"observationCount\\\": 0, | \\\"summaryC\\nUse onl",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "8d3a6c15-f815-4d4a-b8f8-75db35fa199c",
+        "sessionId": "imported:hypercode:a1072ddae6d6",
+        "path": "C:/Users/hyper/.hypercode/handoffs/handoff_1779923243105.json",
+        "tags": [
+          "hypercode",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:26.038Z",
+      "accessedAt": "2026-05-27T23:43:26.038Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e668f8f1a0db706a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Completed tasks for robust MCP tool calling and dynamic database migrations. (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: Completed tasks for robust MCP tool calling and dynamic database migrations.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "0ce047eb-2563-4f1c-a667-cf3c2a1e826d",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/task.md.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:888b8646d371",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:888b8646d371",
+          "name": "Completed tasks for robust MCP tool calling and dynamic database migrations.",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1779899570013.2783,
+          "stoppedAt": 1779925406460,
+          "lastActivityAt": 1779899570013.2783,
+          "logTail": [
+            "Completed tasks for robust MCP tool calling and dynamic database migrations."
+          ],
+          "recordedAt": 1779925406475,
+          "contentHash": "session-1328820382"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:26.478Z",
+      "accessedAt": "2026-05-27T23:43:26.478Z",
+      "accessCount": 0
+    },
+    {
+      "id": "ff9016f782f43343",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Task List - Robust MCP Tool calling & Dynamic SQLite Migrations (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: - [x] Align role guidelines to point to master `docs/UNIVERSAL_LLM_INSTRUCTIONS.md` | - [x] Monorepo Version Bumping & Synchronization (v1.0.0-alpha.65) | - [x] Bump master VERSION to `1.0.0-alpha.65` and run monorepo synchronizer scripts | - [x] Log version details in `CHANGELOG.md` | - [x] Synchronize observations in `MEMORY.md` and `HANDOFF.md` | - [x] Verification & Integration Tests | - [x] Resolve `safeParse` parameter collision in client tool calls | - [x] Implement safe, dynamic SQLite migrations for missing database columns on startup | - [x] Run full, robust bidirectional connection test suite (`test_mcp_server.mjs`) | - [x] Validate internal, native, and standard tool responses | - [x] Verify graceful isolation of crashed downstream servers via the Healer reactor | - [x] Push clean commit to primary `origin` and backup `origin-backup` remotes",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "872d425d-99d5-4937-9060-3a602f92473e",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/task.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:a9ee00da9739",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:a9ee00da9739",
+          "name": "# Task List - Robust MCP Tool calling & Dynamic SQLite Migrations",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1779899570010.7317,
+          "stoppedAt": 1779925406862,
+          "lastActivityAt": 1779899570010.7317,
+          "logTail": [
+            "- [x] Align role guidelines to point to master `docs/UNIVERSAL_LLM_INSTRUCTIONS.md`",
+            "- [x] Monorepo Version Bumping & Synchronization (v1.0.0-alpha.65)",
+            "- [x] Bump master VERSION to `1.0.0-alpha.65` and run monorepo synchronizer scripts",
+            "- [x] Log version details in `CHANGELOG.md`",
+            "- [x] Synchronize observations in `MEMORY.md` and `HANDOFF.md`",
+            "- [x] Verification & Integration Tests",
+            "- [x] Resolve `safeParse` parameter collision in client tool calls",
+            "- [x] Implement safe, dynamic SQLite migrations for missing database columns on startup",
+            "- [x] Run full, robust bidirectional connection test suite (`test_mcp_server.mjs`)",
+            "- [x] Validate internal, native, and standard tool responses",
+            "- [x] Verify graceful isolation of crashed downstream servers via the Healer reactor",
+            "- [x] Push clean commit to primary `origin` and backup `origin-backup` remotes"
+          ],
+          "recordedAt": 1779925406875,
+          "contentHash": "session-1732932789"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:26.876Z",
+      "accessedAt": "2026-05-27T23:43:26.876Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9ae05526c42ee3e9",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Walkthrough of robust MCP tool integration and SQLite table evolutions. (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: Walkthrough of robust MCP tool integration and SQLite table evolutions.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "21d6b23f-35f3-4d4f-9fd6-b33a551b7587",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:d283b8aac23d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:d283b8aac23d",
+          "name": "Walkthrough of robust MCP tool integration and SQLite table evolutions.",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1779899564706.4917,
+          "stoppedAt": 1779925407395,
+          "lastActivityAt": 1779899564706.4917,
+          "logTail": [
+            "Walkthrough of robust MCP tool integration and SQLite table evolutions."
+          ],
+          "recordedAt": 1779925407408,
+          "contentHash": "session-1839854578"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:27.409Z",
+      "accessedAt": "2026-05-27T23:43:27.409Z",
+      "accessCount": 0
+    },
+    {
+      "id": "12344e6e960d7bcd",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Robust Tool Calling & Dynamic SQLite Migrations Walkthrough (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: - The client connection closed cleanly with **Exit Code 0** instead of throwing uncaught exceptions. | --- | ## 4. Multi-Agent Release & Push Sync (v1.0.0-alpha.65) | - **Topological Version Bump**: Bumped the monorepo master version to `1.0.0-alpha.65` across all 27 package manifests and static Go files. | - **Remote Push**: Successfully pushed all changes to: | - SSH Primary Remote (`origin`): `robertpelloni/borg` | - HTTPS Backup Remote (`origin-backup`): `robertpelloni/AIOS` | - **Documentation**: Synchronized all observations inside `MEMORY.md` and `HANDOFF.md`. | *Verification tests are green. The control plane is extremely robust and ready for production!*",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:f70ecad31a8b",
+          "name": "# Robust Tool Calling & Dynamic SQLite Migrations Walkthrough",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1779899564699.0366,
+          "stoppedAt": 1779925407849,
+          "lastActivityAt": 1779899564699.0366,
+          "logTail": [
+            "- The client connection closed cleanly with **Exit Code 0** instead of throwing uncaught exceptions.",
+            "---",
+            "## 4. Multi-Agent Release & Push Sync (v1.0.0-alpha.65)",
+            "- **Topological Version Bump**: Bumped the monorepo master version to `1.0.0-alpha.65` across all 27 package manifests and static Go files.",
+            "- **Remote Push**: Successfully pushed all changes to:",
+            "- SSH Primary Remote (`origin`): `robertpelloni/borg`",
+            "- HTTPS Backup Remote (`origin-backup`): `robertpelloni/AIOS`",
+            "- **Documentation**: Synchronized all observations inside `MEMORY.md` and `HANDOFF.md`.",
+            "*Verification tests are green. The control plane is extremely robust and ready for production!*"
+          ],
+          "recordedAt": 1779925407896,
+          "contentHash": "session-63668110"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:27.897Z",
+      "accessedAt": "2026-05-27T23:43:27.897Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8920c8c3b5989db5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "This document outlines the v1.0.0-alpha.65 implementations, bugs resolved, database migrations integrated, and complete integration tests executed to satisfy the user's execution verification objectives.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:28.413Z",
+      "accessedAt": "2026-05-27T23:43:28.413Z",
+      "accessCount": 0
+    },
+    {
+      "id": "28795d8e781ce765",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "We resolved a dual-instance validation bug that threw `TypeError: v3Schema.safeParse is not a function` during MCP tool calls:",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:28.834Z",
+      "accessedAt": "2026-05-27T23:43:28.834Z",
+      "accessCount": 0
+    },
+    {
+      "id": "375d19c0ee7ba2bb",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Root Cause Analysis**: The standard `@modelcontextprotocol/sdk` defines the tool-call signature as:",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:29.241Z",
+      "accessedAt": "2026-05-27T23:43:29.241Z",
+      "accessCount": 0
+    },
+    {
+      "id": "94b5b9ea940e6e65",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Resolution**: Updated all test suite tool invocations in [test_mcp_server.mjs](file:///c:/Users/hyper/workspace/borg/packages/core/test_mcp_server.mjs) to pass `undefined` as the second argument:",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "validation",
+          "mcp",
+          "ui"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:29.706Z",
+      "accessedAt": "2026-05-27T23:43:29.706Z",
+      "accessCount": 0
+    },
+    {
+      "id": "27b2e3e6c54ca918",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "We resolved column mismatches on existing local databases to prevent the `table imported_sessions has no column named source_size` error:",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "networking",
+          "database"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:30.128Z",
+      "accessedAt": "2026-05-27T23:43:30.128Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c2ee119104044988",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Implementation**: Added safe, dynamic migrations using explicit SQLite PRAGMA queries in [packages/core/src/db/index.ts](file:///c:/Users/hyper/workspace/borg/packages/core/src/db/index.ts):",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "205919c5-8132-438b-a1e4-f4ace1a3514b",
+        "sessionId": "imported:antigravity:f70ecad31a8b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:37.331Z",
+      "accessedAt": "2026-05-27T23:43:37.331Z",
+      "accessCount": 0
+    },
+    {
+      "id": "da9fe74aae284c31",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 2080, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "519e5f16-88f9-4a54-90b1-8416570fde28",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs/handoff_1779897972423.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:1cbcecc28594",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:1cbcecc28594",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/handoffs",
+          "restartCount": 0,
+          "startedAt": 1779897972424.253,
+          "stoppedAt": 1779925417780,
+          "lastActivityAt": 1779897972424.253,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 2080,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1779925417792,
+          "contentHash": "session-2058576439"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:37.793Z",
+      "accessedAt": "2026-05-27T23:43:37.793Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c9fb5c7f7ecb60c1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (hypercode) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory\nLog tail: \"database\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-05-27T23:43:30.128Z\", | \"accessedAt\": \"2026-05-27T23:43:30.128Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "hypercode",
+          "imported"
+        ],
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "structuredSessionSummary": {
+          "sessionId": "imported:hypercode:e8d28e3208c7",
+          "name": "{",
+          "cliType": "hypercode",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1779897753248.2974,
+          "stoppedAt": 1779925418237,
+          "lastActivityAt": 1779897753248.2974,
+          "logTail": [
+            "\"database\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-05-27T23:43:30.128Z\",",
+            "\"accessedAt\": \"2026-05-27T23:43:30.128Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1779925418515,
+          "contentHash": "session-1102872553"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-05-27T23:43:38.516Z",
+      "accessedAt": "2026-05-27T23:43:38.516Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4f93d4fd293e855a",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Write a scratch script to test sync on bobeditpro and print any traceback (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\\nLog t",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:38.995Z",
+      "accessedAt": "2026-05-27T23:43:38.995Z",
+      "accessCount": 0
+    },
+    {
+      "id": "319e4ebe3d4209c1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:39.388Z",
+      "accessedAt": "2026-05-27T23:43:39.388Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a8e5fb91a9c96404",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"1c877a7f-bbcf-45f4-9c74-c377b7649ead\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:39.795Z",
+      "accessedAt": "2026-05-27T23:43:39.795Z",
+      "accessCount": 0
+    },
+    {
+      "id": "910a087b35e60dd4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch/test_bobeditpro.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:40.193Z",
+      "accessedAt": "2026-05-27T23:43:40.193Z",
+      "accessCount": 0
+    },
+    {
+      "id": "1eb67c469a1ac4e8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:ad1f96018b71\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:40.676Z",
+      "accessedAt": "2026-05-27T23:43:40.676Z",
+      "accessCount": 0
+    },
+    {
+      "id": "ad95ab13f39e4add",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/ea958c79-e13d-43e2-a9ba-4461511b6bd2/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "hypercode",
+        "importedSessionId": "90e99d1b-e9eb-4b85-893d-0776774f7394",
+        "sessionId": "imported:hypercode:e8d28e3208c7",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.hypercode/agent_memory/memories.json",
+        "tags": [
+          "hypercode",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-05-27T23:43:41.174Z",
+      "accessedAt": "2026-05-27T23:43:41.174Z",
       "accessCount": 0
     }
   ]
