@@ -1,40 +1,27 @@
 {
-  "_decision_path": [
-    "validate:quality=0.77,issues=0"
-  ],
-  "_quality": 0.775,
-  "_skill": "reddit_discussion",
-  "active_url": "https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in",
-  "attempt": 1,
-  "backend": "lmstudio -> openrouter/free",
-  "borg_rows": 16862,
+  "active_url": "https://github.com/john-zhang-dev/xero-mcp",
+  "borg_rows": 10669,
   "last_error": null,
-  "last_extracted_url": "https://www.reddit.com/r/AIChatCompanions/comments/1ta8jgw/i_created_openmind_an_ai_platform_that_leads_in",
-  "last_model": "liquid/lfm2.5-1.2b",
+  "last_extracted_url": "https://github.com/john-zhang-dev/xero-mcp",
+  "last_model": null,
   "models": [
-    "lmstudio/liquid/lfm2.5-1.2b",
-    "lmstudio/gemma-4-e2b-uncensored-hauhaucs-aggressive",
-    "lmstudio/gemma-4-e4b-uncensored-hauhaucs-aggressive",
-    "lmstudio/gemma-4-26b-a4b-it-heretic-ara",
-    "openrouter/google/gemma-4-31b-it:free",
-    "openrouter/google/gemma-4-26b-a4b-it:free",
-    "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-    "openrouter/minimax/minimax-m2.5:free",
-    "openrouter/qwen/qwen3-next-80b-a3b-instruct:free",
-    "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
-    "openrouter/openrouter/free"
+    "lmstudio-local",
+    "openrouter-gemma-4-26b-a4b-it",
+    "openrouter-nemotron-3-super-120b-a12b",
+    "openrouter-qwen3-coder",
+    "openrouter-lfm-2.5-1.2b-thinking",
+    "openrouter-qwen3-next-80b-a3b-instruct",
+    "openrouter-ling-2.6-flash",
+    "openrouter-nemotron-3-nano-30b-a3b",
+    "openrouter-gpt-oss-120b",
+    "openrouter-gemma-4-31b-it",
+    "openrouter-minimax-m2.5",
+    "groq-llama3-8b",
+    "openrouter-gemini-flash"
   ],
-  "remaining_urls": 0,
+  "remaining_urls": 4459,
   "sleep_seconds": null,
   "state": "processing",
-  "stats": {
-    "accepted": 5,
-    "decode_failed": 1,
-    "fetch_failed": 0,
-    "rejected": 0
-  },
-  "updated_at": "2026-05-11T22:17:01.161386+00:00",
-  "url_complexity": "simple",
-  "version": "2.0",
-  "worker_pid": 31860
+  "updated_at": "2026-04-23T21:55:37.233187+00:00",
+  "worker_pid": 46856
 }
