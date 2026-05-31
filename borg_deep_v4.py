@@ -143,17 +143,21 @@ def parse_llm_response(raw):
                 except Exception:
                     continue
     result = {}
-    q = chr(34)
     for field in FIELD_NAMES:
-        pats = [
-            q + field + r"\s*:\s*" + q + r"((?:[^" + q + r"\\]|\\.)*)" + q,
-            q + field + r"\s*:\s*(\d+)",
-        ]
-        for pat in pats:
-            m = re.search(pat, text)
-            if m:
-                result[field] = m.group(1)
-                break
+        # Pattern 1: "FIELD": "value" (string value)
+        pat1 = '"' + field + '"' + r'\s*:\s*"' + r'((?:[^"\\]|\\.)*)' + '"'
+        # Pattern 2: "FIELD": number
+        pat2 = '"' + field + '"' + r'\s*:\s*(\d+)'
+        # Pattern 3: FIELD: "value" (without quotes on key)
+        pat3 = field + r'\s*:\s*"' + r'((?:[^"\\]|\\.)*)' + '"'
+        for pat in [pat1, pat2, pat3]:
+            try:
+                m = re.search(pat, text)
+                if m:
+                    result[field] = m.group(1)
+                    break
+            except re.error:
+                continue
     return result if len(result) >= 3 else None
 
 
