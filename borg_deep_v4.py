@@ -513,6 +513,52 @@ def phase_ingest(limit=0):
         incoming = [l.strip() for l in f if l.strip()]
 
     new_urls = [u for u in incoming if u not in existing_urls and u.startswith("http")]
+
+    # Pre-filter noise URLs before applying limit
+    noise_patterns = [
+        "/login", "/signup", "/auth", "/oauth", "/settings",
+        "/device/", "/billing", "/marketplace", "/notifications",
+        "/blob/", "/tree/", "/raw/", "/blame/", "/edit/",
+        "/issues/", "/pull/", "/commits/", "/compare/",
+        "/releases/", "/actions", "/security", "/wiki/",
+    ]
+    noise_domains = [
+        "0.0.0.0", "127.0.0.1", "localhost", "::1",
+        "tumblr.com", "medium.com", "substack.com",
+        "youtube.com/watch", "youtu.be/",
+        "linkedin.com/", "facebook.com/", "twitter.com/",
+        "instagram.com/", "tiktok.com/",
+        "patreon.com/", "buymeacoffee.com/",
+        "chrome.google.com/webstore",
+        "apps.apple.com", "play.google.com/store",
+        "microsoft.com/store",
+    ]
+    filtered_urls = []
+    for u in new_urls:
+        ul = u.lower()
+        # Skip local/internal URLs
+        if ul.startswith("http://0.") or ul.startswith("http://127.") or ul.startswith("http://localhost"):
+            continue
+        if ul.startswith("http://%") or "dockerdesktop" in ul:
+            continue
+        if not ul.startswith("https://") and not ul.startswith("http://"):
+            continue
+        if "gist.github.com" in ul:
+            continue
+        if "api.apis.guru" in ul:
+            continue
+        if "news.ycombinator.com/item" in ul:
+            continue
+        if "reddit.com/r/" in ul and "/comments/" in ul:
+            continue
+        if any(x in ul for x in noise_patterns):
+            continue
+        if any(x in ul for x in noise_domains):
+            continue
+        filtered_urls.append(u)
+    log.info("After noise filter: %d (removed %d)", len(filtered_urls), len(new_urls) - len(filtered_urls))
+    new_urls = filtered_urls
+
     log.info("New URLs to ingest: %d", len(new_urls))
     if limit:
         new_urls = new_urls[:limit]
@@ -520,25 +566,19 @@ def phase_ingest(limit=0):
     for i, url in enumerate(new_urls, 1):
         log.info("[INGEST %d/%d] %s", i, len(new_urls), url[:80])
 
-        is_gh = "github.com" in url
+        # Normalize URL
+        url_lower = url.lower()
+        if url_lower.startswith("http://github.com"):
+            url = "https://github.com" + url[len("http://github.com"):]
+            url_lower = url.lower()
+
+        is_gh = "github.com" in url_lower
+        is_gist = "gist.github.com" in url_lower
         owner, repo = None, None
-        if is_gh:
-            m = re.match(r"https://github\.com/([^/]+)/([^/?#\s]+)", url)
+        if is_gh and not is_gist:
+            m = re.match(r"https?://github\.com/([^/]+)/([^/?#\s]+)", url, re.IGNORECASE)
             if m:
                 owner, repo = m.group(1), m.group(2)
-
-        lower = url.lower()
-        if any(
-            x in lower for x in ["/login", "/signup", "/auth", "/oauth", "/settings"]
-        ):
-            stats["skipped"] += 1
-            continue
-        if "news.ycombinator.com/item" in url:
-            stats["skipped"] += 1
-            continue
-        if "reddit.com/r/" in url and "/comments/" in url:
-            stats["skipped"] += 1
-            continue
 
         html = fetch_page(url)
         fit_text, gh_meta = "", None
@@ -563,6 +603,22 @@ def phase_ingest(limit=0):
             continue
 
         rdata = parse_llm_response(raw)
+        # Retry with simplified prompt if parse fails
+        if not rdata:
+            nl = chr(10)
+            simple_prompt = (
+                "Return JSON for this URL: " + url + nl
+                + "Fields: CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, "
+                + "MAIN_FEATURES, INNOVATION_SCORE(1-10), TAGS" + nl
+                + "Categories: " + ", ".join(BORG_TAXONOMY) + nl
+                + "Return ONLY valid JSON."
+            )
+            raw2, model2 = call_llm(simple_prompt)
+            if raw2:
+                rdata = parse_llm_response(raw2)
+                if rdata:
+                    model = model2
+                    log.info("  Retry parse succeeded")
         if not rdata:
             log.warning("  Parse failed")
             stats["failed"] += 1
@@ -594,23 +650,11 @@ def phase_ingest(limit=0):
              main_features, tags, owner, repo, is_github,
              innovation, quality, signal, is_standout, verdict, created_at)
             VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (
-                url,
-                page_title or "",
-                short_desc,
-                long_desc,
-                features,
-                json.dumps(scores["tags"]),
-                owner or "",
-                repo or "",
-                1 if is_gh else 0,
-                scores["innovation"],
-                scores["quality"],
-                scores["signal"],
-                scores["is_standout"],
-                "",
-                datetime.now().isoformat(),
-            ),
+            (url, page_title or "", short_desc, long_desc, features,
+             json.dumps(scores["tags"]), owner or "", repo or "",
+             1 if is_gh else 0, scores["innovation"], scores["quality"],
+             scores["signal"], scores["is_standout"], "",
+             datetime.now().isoformat()),
         )
         eid = c.execute("SELECT last_insert_rowid()").fetchone()[0]
 
