@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "projectRoot": "C:/Users/hyper/workspace/bobbybookmarks",
+  "generatedAt": "2026-05-31T12:14:05.759Z",
+  "seq": 5,
+  "files": {},
+  "symbols": {},
+  "reverseDeps": {},
+  "cachedExports": [],
+  "projectRulesScan": {
+    "rules": [],
+    "hasCustomRules": false
+  },
+  "startupScan": {
+    "cwd": "C:\\Users\\hyper\\workspace\\bobbybookmarks",
+    "scanRoot": "C:\\Users\\hyper\\workspace\\bobbybookmarks",
+    "projectRoot": "C:\\Users\\hyper\\workspace\\bobbybookmarks",
+    "canWarmCaches": true,
+    "sourceFileCount": 26
+  },
+  "languageProfile": {
+    "present": {
+      "jsts": true,
+      "python": true,
+      "go": true,
+      "rust": false,
+      "cxx": false,
+      "cmake": false,
+      "fish": false,
+      "shell": false,
+      "json": false,
+      "markdown": false,
+      "css": false,
+      "yaml": false,
+      "sql": false,
+      "ruby": false,
+      "html": false,
+      "docker": false,
+      "php": false,
+      "powershell": false,
+      "prisma": false,
+      "csharp": false,
+      "fsharp": false,
+      "java": false,
+      "kotlin": false,
+      "swift": false,
+      "dart": false,
+      "lua": false,
+      "zig": false,
+      "haskell": false,
+      "elixir": false,
+      "gleam": false,
+      "ocaml": false,
+      "clojure": false,
+      "terraform": false,
+      "nix": false,
+      "toml": false
+    },
+    "configured": {},
+    "counts": {
+      "go": 5,
+      "python": 19,
+      "jsts": 1
+    },
+    "detectedKinds": [
+      "jsts",
+      "python",
+      "go"
+    ]
+  }
+}
