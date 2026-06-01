@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "savedAt": "2026-05-31T12:54:08.981Z",
+  "savedAt": "2026-06-01T18:07:09.490Z",
   "memories": [
     {
       "id": "8eceed4bf29bbeee",
@@ -32794,6 +32794,2933 @@
       },
       "createdAt": "2026-05-31T12:54:06.019Z",
       "accessedAt": "2026-05-31T12:54:06.019Z",
+      "accessCount": 0
+    },
+    {
+      "id": "21e579937b14ace7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "88f70f08-2d99-443f-a4d3-e722ea393748",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780323233620.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:9d043cf7adbc",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:9d043cf7adbc",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780323233621.3206,
+          "stoppedAt": 1780324161652,
+          "lastActivityAt": 1780323233621.3206,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324161674,
+          "contentHash": "session-2140080365"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:21.675Z",
+      "accessedAt": "2026-06-01T14:29:21.675Z",
+      "accessCount": 0
+    },
+    {
+      "id": "18483cd161aea96d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "63ddc00f-d48c-407d-b4af-54669d32a701",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780322933610.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:378c3d32b7d4",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:378c3d32b7d4",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780322933610.6687,
+          "stoppedAt": 1780324164037,
+          "lastActivityAt": 1780322933610.6687,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324164052,
+          "contentHash": "session-782222277"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:24.053Z",
+      "accessedAt": "2026-06-01T14:29:24.053Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e9ebd9a6c50815f7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "c430dcbf-4e16-464a-aa5e-2245610b0d97",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780322633606.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:defcd63c306e",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:defcd63c306e",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780322633607.4922,
+          "stoppedAt": 1780324164919,
+          "lastActivityAt": 1780322633607.4922,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324165238,
+          "contentHash": "session-1194882432"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:25.238Z",
+      "accessedAt": "2026-06-01T14:29:25.238Z",
+      "accessCount": 0
+    },
+    {
+      "id": "54bb4e45d508b267",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "7987fee0-cbd6-49ec-9373-9f49d118925a",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780322333592.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:c0986b0850e5",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:c0986b0850e5",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780322333593.328,
+          "stoppedAt": 1780324166075,
+          "lastActivityAt": 1780322333593.328,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324166092,
+          "contentHash": "session-943917716"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:26.093Z",
+      "accessedAt": "2026-06-01T14:29:26.093Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9ac25efe2a5ade92",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "edc4e702-9ace-4dbc-a8f5-600b05124f8d",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780322033588.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:515c100e6cfb",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:515c100e6cfb",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780322033590.5508,
+          "stoppedAt": 1780324166878,
+          "lastActivityAt": 1780322033590.5508,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324166893,
+          "contentHash": "session-289961499"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:26.894Z",
+      "accessedAt": "2026-06-01T14:29:26.894Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bd8725019691a75d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "283ddc0b-3960-470e-b1e2-d4cff786019c",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780321733572.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:0561932c0296",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:0561932c0296",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780321733572.995,
+          "stoppedAt": 1780324167739,
+          "lastActivityAt": 1780321733572.995,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324167755,
+          "contentHash": "session-753680539"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:27.755Z",
+      "accessedAt": "2026-06-01T14:29:27.755Z",
+      "accessCount": 0
+    },
+    {
+      "id": "60f3055a1cdfaaf3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "a3fea068-40b5-4a33-8d0e-f36b3d2bd260",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780321433567.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:07b108e5ab88",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:07b108e5ab88",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780321433568.4336,
+          "stoppedAt": 1780324168821,
+          "lastActivityAt": 1780321433568.4336,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324168839,
+          "contentHash": "session-987829777"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:28.840Z",
+      "accessedAt": "2026-06-01T14:29:28.840Z",
+      "accessCount": 0
+    },
+    {
+      "id": "6a2215940e5fb115",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "0f2371dc-79aa-4c38-9e9c-015d502e87d6",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780321133559.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:1acbd1522f59",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:1acbd1522f59",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780321133560.852,
+          "stoppedAt": 1780324198216,
+          "lastActivityAt": 1780321133560.852,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324198234,
+          "contentHash": "session-1530158480"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:58.235Z",
+      "accessedAt": "2026-06-01T14:29:58.235Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a8cc4edcd32f23f7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "6ae2776c-4b21-43e4-aa1d-3cd406b5ac39",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780320833547.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:a50e80276f98",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:a50e80276f98",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780320833547.5537,
+          "stoppedAt": 1780324199101,
+          "lastActivityAt": 1780320833547.5537,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324199119,
+          "contentHash": "session-1400425082"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:29:59.120Z",
+      "accessedAt": "2026-06-01T14:29:59.120Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f84f26855b3f85a3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1139, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "8e5e6d19-4ba4-41de-9c96-5e69f4132fa8",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780320533542.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:bc327489b516",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:bc327489b516",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780320533542.978,
+          "stoppedAt": 1780324200042,
+          "lastActivityAt": 1780320533542.978,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1139,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780324200064,
+          "contentHash": "session-636258848"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:00.065Z",
+      "accessedAt": "2026-06-01T14:30:00.065Z",
+      "accessCount": 0
+    },
+    {
+      "id": "cec1b0a13e548902",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Tasks: Bulk MCP Server Tool Registry Population (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: # Tasks: Bulk MCP Server Tool Registry Population | - [x] Create bulk validation script `bulk_validate_mcp_servers.mjs` | - [/] Run bulk validation script to test and register servers one by one | - [x] Decouple Smithery validation run from database stored config | - [x] Partition database to catalog.db to avoid false positive Git secret scanning | - [x] Log outputs and verify tools count in tormentnexus.db | - [x] Force-track tormentnexus.db in git, commit and push to origin and origin-backup | - [x] Document final walkthrough changes",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "ac4108f9-e1ad-44f3-aacd-94324b83be82",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/task.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:eefcc262423d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:eefcc262423d",
+          "name": "# Tasks: Bulk MCP Server Tool Registry Population",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780232088469.858,
+          "stoppedAt": 1780324200869,
+          "lastActivityAt": 1780232088469.858,
+          "logTail": [
+            "# Tasks: Bulk MCP Server Tool Registry Population",
+            "- [x] Create bulk validation script `bulk_validate_mcp_servers.mjs`",
+            "- [/] Run bulk validation script to test and register servers one by one",
+            "- [x] Decouple Smithery validation run from database stored config",
+            "- [x] Partition database to catalog.db to avoid false positive Git secret scanning",
+            "- [x] Log outputs and verify tools count in tormentnexus.db",
+            "- [x] Force-track tormentnexus.db in git, commit and push to origin and origin-backup",
+            "- [x] Document final walkthrough changes"
+          ],
+          "recordedAt": 1780324200893,
+          "contentHash": "session-1155547703"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:00.894Z",
+      "accessedAt": "2026-06-01T14:30:00.894Z",
+      "accessCount": 0
+    },
+    {
+      "id": "dadb150b81d2aae3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- [x] Partition database to catalog.db to avoid false positive Git secret scanning",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "ac4108f9-e1ad-44f3-aacd-94324b83be82",
+        "sessionId": "imported:antigravity:eefcc262423d",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/task.md",
+        "tags": [
+          "antigravity",
+          "instruction",
+          "database",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:01.788Z",
+      "accessedAt": "2026-06-01T14:30:01.788Z",
+      "accessCount": 0
+    },
+    {
+      "id": "af023fedd7adf387",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Walkthrough: Bulk MCP Server Tool Registry Population (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: ### 4. Decoupled Smithery Registry & Partitioned Database Architecture | - **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification | - **Clean Database Environments**: Stored ONLY the original `recipe.env` (usually `{}` or clean keys) in the `env` column of `mcp_servers` to prevent leaking the bloated developer shell environment (`childEnv` / `process.env`). | - **Database Partition (`catalog.db`)**: Created a database partition script `split_database.js` to split the massive 25MB scraped catalog tables (`published_mcp_servers`, `published_mcp_config_recipes`, `published_mcp_server_sources`, `pub | - **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc | - **Attached Multi-Database Validator**: Updated `bulk_validate_mcp_servers.mjs` to attach `catalog.db` dynamically (`ATTACH DATABASE 'catalog.db' AS catalog`) allowing seamless join queries. | ### 5. Git Tracking & Multi-Remote Synchronization | - **Commit**: Committed the decoupled script and partitioned SQLite database under the version tag `feat: partition catalog tables to gitignored catalog.db and shrink tormentnexus.db (v1.0.0-alpha.84)`. | - **Dual Pushes Successful**: | - Successfully pushed the clean commit to the primary remote `origin` (`ssh://git@github.com/robertpelloni/TormentNexus.git`). | - Successfully pushed and synchronized to the backup remote `origin-backup` (`https://github.com/robertpelloni/AIOS.git`).",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:0849c1dbe604",
+          "name": "# Walkthrough: Bulk MCP Server Tool Registry Population",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780232083174.0913,
+          "stoppedAt": 1780324202718,
+          "lastActivityAt": 1780232083174.0913,
+          "logTail": [
+            "### 4. Decoupled Smithery Registry & Partitioned Database Architecture",
+            "- **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification",
+            "- **Clean Database Environments**: Stored ONLY the original `recipe.env` (usually `{}` or clean keys) in the `env` column of `mcp_servers` to prevent leaking the bloated developer shell environment (`childEnv` / `process.env`).",
+            "- **Database Partition (`catalog.db`)**: Created a database partition script `split_database.js` to split the massive 25MB scraped catalog tables (`published_mcp_servers`, `published_mcp_config_recipes`, `published_mcp_server_sources`, `pub",
+            "- **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc",
+            "- **Attached Multi-Database Validator**: Updated `bulk_validate_mcp_servers.mjs` to attach `catalog.db` dynamically (`ATTACH DATABASE 'catalog.db' AS catalog`) allowing seamless join queries.",
+            "### 5. Git Tracking & Multi-Remote Synchronization",
+            "- **Commit**: Committed the decoupled script and partitioned SQLite database under the version tag `feat: partition catalog tables to gitignored catalog.db and shrink tormentnexus.db (v1.0.0-alpha.84)`.",
+            "- **Dual Pushes Successful**:",
+            "- Successfully pushed the clean commit to the primary remote `origin` (`ssh://git@github.com/robertpelloni/TormentNexus.git`).",
+            "- Successfully pushed and synchronized to the backup remote `origin-backup` (`https://github.com/robertpelloni/AIOS.git`)."
+          ],
+          "recordedAt": 1780324202794,
+          "contentHash": "session-2087383808"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:02.795Z",
+      "accessedAt": "2026-06-01T14:30:02.795Z",
+      "accessCount": 0
+    },
+    {
+      "id": "67e1d8d76d798afc",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Constraint Safety**: Injected the default `'system'` user ID when registering newly discovered active servers into `mcp_servers` to satisfy table constraints.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:04.203Z",
+      "accessedAt": "2026-06-01T14:30:04.203Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e2d6aa53bd76de61",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "validation",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:05.117Z",
+      "accessedAt": "2026-06-01T14:30:05.117Z",
+      "accessCount": 0
+    },
+    {
+      "id": "293e21deb6391def",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "instruction",
+          "database",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:06.198Z",
+      "accessedAt": "2026-06-01T14:30:06.198Z",
+      "accessCount": 0
+    },
+    {
+      "id": "fbe2fb3030133fc3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Robust Bulk Validation Script - Refactored `bulk_validate_mcp_servers.mjs` to incorporate: - **Constraint Safety**: Injected the default `'system'` user ID when registering newly discovered active servers into `mcp_serve",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:07.302Z",
+      "accessedAt": "2026-06-01T14:30:07.302Z",
+      "accessCount": 0
+    },
+    {
+      "id": "ad39ee50424910d8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "`reddit`, `linear`, `googledrive`, `context7`) and executes them using `npx -y @smithery/cli@latest run <slug>`, resolving previous npm E404 package errors.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:08.366Z",
+      "accessedAt": "2026-06-01T14:30:08.366Z",
+      "accessCount": 0
+    },
+    {
+      "id": "264a477d9e6cb19e",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "The Smart Rewrite is used only during verification runs to fetch tools successfully, while the original regular command and arguments from the catalog recipe (e.g.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "f7313e79-a266-46f9-bcea-2c91f91ac5b0",
+        "sessionId": "imported:antigravity:0849c1dbe604",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:09.328Z",
+      "accessedAt": "2026-06-01T14:30:09.328Z",
+      "accessCount": 0
+    },
+    {
+      "id": "fe98b6991efee7c2",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory\nLog tail: \"validation\" | ], | \"section\": \"general\", | \"memoryKind\": \"memory\", | \"extractionSource\": \"heuristic\" | }, | \"createdAt\": \"2026-06-01T14:30:08.366Z\", | \"accessedAt\": \"2026-06-01T14:30:08.366Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:c07919ccd664",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1780232049013.9878,
+          "stoppedAt": 1780324210258,
+          "lastActivityAt": 1780232049013.9878,
+          "logTail": [
+            "\"validation\"",
+            "],",
+            "\"section\": \"general\",",
+            "\"memoryKind\": \"memory\",",
+            "\"extractionSource\": \"heuristic\"",
+            "},",
+            "\"createdAt\": \"2026-06-01T14:30:08.366Z\",",
+            "\"accessedAt\": \"2026-06-01T14:30:08.366Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1780324210561,
+          "contentHash": "session-1634615152"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:10.562Z",
+      "accessedAt": "2026-06-01T14:30:10.562Z",
+      "accessCount": 0
+    },
+    {
+      "id": "82f03eb50a35fe8f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Surgically search and destroy exactly the corrupted httpx library files using os.walk in cache (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f337",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:11.840Z",
+      "accessedAt": "2026-06-01T14:30:11.840Z",
+      "accessCount": 0
+    },
+    {
+      "id": "14d8a7f7ab7177ab",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:12.769Z",
+      "accessedAt": "2026-06-01T14:30:12.769Z",
+      "accessCount": 0
+    },
+    {
+      "id": "526bb666ca6610e1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"8e5cfe00-a12e-4f02-b1a9-240d856a0319\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:13.763Z",
+      "accessedAt": "2026-06-01T14:30:13.763Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8d532f33610b89ec",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch/surgical_search_and_destroy.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:14.884Z",
+      "accessedAt": "2026-06-01T14:30:14.884Z",
+      "accessCount": 0
+    },
+    {
+      "id": "63c3d34314a79f77",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:d2e0ca1d6df2\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:15.793Z",
+      "accessedAt": "2026-06-01T14:30:15.793Z",
+      "accessCount": 0
+    },
+    {
+      "id": "05998ed916be4d73",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "68dd5518-7e45-4a6f-893c-bd3074fa94f5",
+        "sessionId": "imported:tormentnexus:c07919ccd664",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:16.672Z",
+      "accessedAt": "2026-06-01T14:30:16.672Z",
+      "accessCount": 0
+    },
+    {
+      "id": "09a00605813e6104",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Walkthrough of bulk MCP server validation, smart Smithery CLI integration, SQLite locks optimization, and user history a (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: Walkthrough of bulk MCP server validation, smart Smithery CLI integration, SQLite locks optimization, and user history analysis.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "c985c70f-4523-49f6-8237-c9aaddc99c05",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:bd419119744b",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:bd419119744b",
+          "name": "Walkthrough of bulk MCP server validation, smart Smithery CLI integration, SQLite locks optimization, and user history a",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780231234962.395,
+          "stoppedAt": 1780324217661,
+          "lastActivityAt": 1780231234962.395,
+          "logTail": [
+            "Walkthrough of bulk MCP server validation, smart Smithery CLI integration, SQLite locks optimization, and user history analysis."
+          ],
+          "recordedAt": 1780324217687,
+          "contentHash": "session-381689692"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:17.688Z",
+      "accessedAt": "2026-06-01T14:30:17.688Z",
+      "accessCount": 0
+    },
+    {
+      "id": "eaa35541253fcdae",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Walkthrough of bulk MCP server validation, smart Smithery CLI integration, SQLite locks optimization, and user history analysis.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "c985c70f-4523-49f6-8237-c9aaddc99c05",
+        "sessionId": "imported:antigravity:bd419119744b",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md.metadata.json",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:50.460Z",
+      "accessedAt": "2026-06-01T14:30:50.460Z",
+      "accessCount": 0
+    },
+    {
+      "id": "52ebcc3c2cf13f27",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Create a script to count official registry servers recursively (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch\nLog tail: Create a script to count official registry servers recursively",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "5619096d-7e2c-46f1-ac72-2312f83674c6",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch/count_official.py.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:6314147feab5",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:6314147feab5",
+          "name": "Create a script to count official registry servers recursively",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch",
+          "restartCount": 0,
+          "startedAt": 1780230649436.305,
+          "stoppedAt": 1780324251406,
+          "lastActivityAt": 1780230649436.305,
+          "logTail": [
+            "Create a script to count official registry servers recursively"
+          ],
+          "recordedAt": 1780324251421,
+          "contentHash": "session-1794703473"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:51.422Z",
+      "accessedAt": "2026-06-01T14:30:51.422Z",
+      "accessCount": 0
+    },
+    {
+      "id": "6438aa290912f039",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Progress tracking checklist for bulk validating and populating MCP tools registry. (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: Progress tracking checklist for bulk validating and populating MCP tools registry.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "e8b806cb-0dad-4c8c-bd9f-87fc4c8e3c4e",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/task.md.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:4606528b1f40",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:4606528b1f40",
+          "name": "Progress tracking checklist for bulk validating and populating MCP tools registry.",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780229749301.6191,
+          "stoppedAt": 1780324252336,
+          "lastActivityAt": 1780229749301.6191,
+          "logTail": [
+            "Progress tracking checklist for bulk validating and populating MCP tools registry."
+          ],
+          "recordedAt": 1780324252351,
+          "contentHash": "session-1995491980"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:52.352Z",
+      "accessedAt": "2026-06-01T14:30:52.352Z",
+      "accessCount": 0
+    },
+    {
+      "id": "de17ea3524688e8f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Implementation plan for bulk validating, configuring, and registering MCP servers and their tools into tormentnexus.db. (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: Implementation plan for bulk validating, configuring, and registering MCP servers and their tools into tormentnexus.db.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "c15315ff-ae4d-4da9-98fb-320f1533eda3",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:8e42af4a339d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:8e42af4a339d",
+          "name": "Implementation plan for bulk validating, configuring, and registering MCP servers and their tools into tormentnexus.db.",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780229746972.3867,
+          "stoppedAt": 1780324253315,
+          "lastActivityAt": 1780229746972.3867,
+          "logTail": [
+            "Implementation plan for bulk validating, configuring, and registering MCP servers and their tools into tormentnexus.db."
+          ],
+          "recordedAt": 1780324253333,
+          "contentHash": "session-711922530"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:53.334Z",
+      "accessedAt": "2026-06-01T14:30:53.334Z",
+      "accessCount": 0
+    },
+    {
+      "id": "49618a9d90a9d8bc",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Implementation Plan: Bulk MCP Server Validation and Tool Registration (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: - Auto-extract and compile command line and environment arguments. | - Standardize environment variables, injecting default placeholder/mock keys where none are defined. | - Run each server using the stdio transport, connection timeout of 60 seconds. | - Connect, list tools, and write the verified tool schemas into the `tools` and `mcp_servers` tables in `tormentnexus.db`. | - Update `published_mcp_servers.status = 'verified'` or `'failed'` accordingly. | - Implement robust progress checkpointing so the validation run can resume cleanly. | ## Verification Plan | ### Automated Verification | 1. **Check Database Counts**: Run SQLite query to measure tool count growth and verification statuses. | 2. **Execute Validation script**: Launch the bulk verification script and verify it handles failures gracefully.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:0573175bb3a4",
+          "name": "# Implementation Plan: Bulk MCP Server Validation and Tool Registration",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780229746969.7002,
+          "stoppedAt": 1780324254355,
+          "lastActivityAt": 1780229746969.7002,
+          "logTail": [
+            "- Auto-extract and compile command line and environment arguments.",
+            "- Standardize environment variables, injecting default placeholder/mock keys where none are defined.",
+            "- Run each server using the stdio transport, connection timeout of 60 seconds.",
+            "- Connect, list tools, and write the verified tool schemas into the `tools` and `mcp_servers` tables in `tormentnexus.db`.",
+            "- Update `published_mcp_servers.status = 'verified'` or `'failed'` accordingly.",
+            "- Implement robust progress checkpointing so the validation run can resume cleanly.",
+            "## Verification Plan",
+            "### Automated Verification",
+            "1. **Check Database Counts**: Run SQLite query to measure tool count growth and verification statuses.",
+            "2. **Execute Validation script**: Launch the bulk verification script and verify it handles failures gracefully."
+          ],
+          "recordedAt": 1780324254423,
+          "contentHash": "session-750753085"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:30:54.423Z",
+      "accessedAt": "2026-06-01T14:30:54.423Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c88e076d5224e19f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Systematically configure, execute, and extract tool schemas for all discovered MCP servers in the central registry (`tormentnexus.db`), populating the tools database one by one.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:55.625Z",
+      "accessedAt": "2026-06-01T14:30:55.625Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a09ae326d1f5a7d4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "> - **Sandbox & Network Safety**: The validation script will run commands like `npx` and `uvx` to dynamically install and run these servers locally. This requires active internet access and local environment isolation.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "mcp",
+          "ui"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:56.653Z",
+      "accessedAt": "2026-06-01T14:30:56.653Z",
+      "accessCount": 0
+    },
+    {
+      "id": "171426dba6d40205",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "> - **Environment Credentials**: We will inject dummy/mock credentials (e.g., `YOUR_KEY_HERE`) or use system environment keys (e.g., Google/Gemini/Anthropic API keys) to allow servers to initialize without crashing immediately.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "instruction",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:57.679Z",
+      "accessedAt": "2026-06-01T14:30:57.679Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8394f34e1fe96048",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "#### [NEW] [bulk_validate_mcp_servers.mjs](file:///c:/Users/hyper/workspace/borg/scratch/bulk_validate_mcp_servers.mjs)",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:58.673Z",
+      "accessedAt": "2026-06-01T14:30:58.673Z",
+      "accessCount": 0
+    },
+    {
+      "id": "abc9e32e76b92bd4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- A Node.js script using the `@modelcontextprotocol/sdk` to iterate through all `discovered` servers in `published_mcp_servers` that have recipes.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:30:59.602Z",
+      "accessedAt": "2026-06-01T14:30:59.602Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f4d89ea3cbfa7221",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- Standardize environment variables, injecting default placeholder/mock keys where none are defined.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "859e7420-bce5-4efe-8269-7f5c22ae31b3",
+        "sessionId": "imported:antigravity:0573175bb3a4",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/implementation_plan.md",
+        "tags": [
+          "antigravity",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:31:00.523Z",
+      "accessedAt": "2026-06-01T14:31:00.523Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b4e23034389dc521",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Create a script to print the user request history from the conversation transcript (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch\nLog tail: Create a script to print the user request history from the conversation transcript",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "209f3d1b-c103-44c9-8185-13721d7963b9",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch/search_user_history.py.metadata.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:dc8608ee4a78",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:dc8608ee4a78",
+          "name": "Create a script to print the user request history from the conversation transcript",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch",
+          "restartCount": 0,
+          "startedAt": 1780229720039.3955,
+          "stoppedAt": 1780324261415,
+          "lastActivityAt": 1780229720039.3955,
+          "logTail": [
+            "Create a script to print the user request history from the conversation transcript"
+          ],
+          "recordedAt": 1780324261440,
+          "contentHash": "session-1760890508"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T14:31:01.441Z",
+      "accessedAt": "2026-06-01T14:31:01.441Z",
+      "accessCount": 0
+    },
+    {
+      "id": "01dfa2352889406f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Create a script to print the user request history from the conversation transcript",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "209f3d1b-c103-44c9-8185-13721d7963b9",
+        "sessionId": "imported:antigravity:dc8608ee4a78",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch/search_user_history.py.metadata.json",
+        "tags": [
+          "antigravity",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T14:31:02.365Z",
+      "accessedAt": "2026-06-01T14:31:02.365Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bdafe1b6538b44a8",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Walkthrough: Bulk MCP Server Tool Registry Population (antigravity) ended with status imported.\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43\nLog tail: ### 4. Decoupled Smithery Registry & Partitioned Database Architecture | - **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification | - **Clean Database Environments**: Stored ONLY the original `recipe.env` (usually `{}` or clean keys) in the `env` column of `mcp_servers` to prevent leaking the bloated developer shell environment (`childEnv` / `process.env`). | - **Database Partition (`catalog.db`)**: Created a database partition script `split_database.js` to split the massive 25MB scraped catalog tables (`published_mcp_servers`, `published_mcp_config_recipes`, `published_mcp_server_sources`, `pub | - **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc | - **Attached Multi-Database Validator**: Updated `bulk_validate_mcp_servers.mjs` to attach `catalog.db` dynamically (`ATTACH DATABASE 'catalog.db' AS catalog`) allowing seamless join queries. | ### 5. Git Tracking & Multi-Remote Synchronization | - **Commit**: Committed the decoupled script and partitioned SQLite database under the version tag `feat: partition catalog tables to gitignored catalog.db and shrink tormentnexus.db (v1.0.0-alpha.84)`. | - **Dual Pushes Successful**: | - Successfully pushed the clean commit to the primary remote `origin` (`ssh://git@github.com/robertpelloni/TormentNexus.git`). | - Successfully pushed and synchronized to the backup remote `origin-backup` (`https://github.com/robertpelloni/AIOS.git`).",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sourcePath": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "antigravity",
+          "imported"
+        ],
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "structuredSessionSummary": {
+          "sessionId": "imported:antigravity:5c3c040a596a",
+          "name": "# Walkthrough: Bulk MCP Server Tool Registry Population",
+          "cliType": "antigravity",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43",
+          "restartCount": 0,
+          "startedAt": 1780336775057.954,
+          "stoppedAt": 1780337093655,
+          "lastActivityAt": 1780336775057.954,
+          "logTail": [
+            "### 4. Decoupled Smithery Registry & Partitioned Database Architecture",
+            "- **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification",
+            "- **Clean Database Environments**: Stored ONLY the original `recipe.env` (usually `{}` or clean keys) in the `env` column of `mcp_servers` to prevent leaking the bloated developer shell environment (`childEnv` / `process.env`).",
+            "- **Database Partition (`catalog.db`)**: Created a database partition script `split_database.js` to split the massive 25MB scraped catalog tables (`published_mcp_servers`, `published_mcp_config_recipes`, `published_mcp_server_sources`, `pub",
+            "- **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc",
+            "- **Attached Multi-Database Validator**: Updated `bulk_validate_mcp_servers.mjs` to attach `catalog.db` dynamically (`ATTACH DATABASE 'catalog.db' AS catalog`) allowing seamless join queries.",
+            "### 5. Git Tracking & Multi-Remote Synchronization",
+            "- **Commit**: Committed the decoupled script and partitioned SQLite database under the version tag `feat: partition catalog tables to gitignored catalog.db and shrink tormentnexus.db (v1.0.0-alpha.84)`.",
+            "- **Dual Pushes Successful**:",
+            "- Successfully pushed the clean commit to the primary remote `origin` (`ssh://git@github.com/robertpelloni/TormentNexus.git`).",
+            "- Successfully pushed and synchronized to the backup remote `origin-backup` (`https://github.com/robertpelloni/AIOS.git`)."
+          ],
+          "recordedAt": 1780337093737,
+          "contentHash": "session-1681623472"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:04:53.740Z",
+      "accessedAt": "2026-06-01T18:04:53.740Z",
+      "accessCount": 0
+    },
+    {
+      "id": "299805dc995fdc22",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Constraint Safety**: Injected the default `'system'` user ID when registering newly discovered active servers into `mcp_servers` to satisfy table constraints.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:04:57.324Z",
+      "accessedAt": "2026-06-01T18:04:57.324Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4f99ae91ba2ccceb",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Decoupled Smithery Config**: Refactored `bulk_validate_mcp_servers.mjs` to keep the Smart Smithery CLI rewrite (`npx -y @smithery/cli@latest run <slug>`) separate from database storage. The Smart Rewrite is used only during verification",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "database",
+          "validation",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:04:58.409Z",
+      "accessedAt": "2026-06-01T18:04:58.409Z",
+      "accessCount": 0
+    },
+    {
+      "id": "de608a75569ddc47",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- **Gitignored Catalog**: Because `catalog.db` is a `.db` file, it is automatically gitignored by the `*.db` glob rule. `tormentnexus.db` is force-tracked in Git and vacuumed to a clean 7.8MB, completely eliminating false positive secret sc",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "instruction",
+          "database",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:04:59.491Z",
+      "accessedAt": "2026-06-01T18:04:59.491Z",
+      "accessCount": 0
+    },
+    {
+      "id": "531e8c50a6b1a612",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Robust Bulk Validation Script - Refactored `bulk_validate_mcp_servers.mjs` to incorporate: - **Constraint Safety**: Injected the default `'system'` user ID when registering newly discovered active servers into `mcp_serve",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:05:00.714Z",
+      "accessedAt": "2026-06-01T18:05:00.714Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9af98068e2db660d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "`reddit`, `linear`, `googledrive`, `context7`) and executes them using `npx -y @smithery/cli@latest run <slug>`, resolving previous npm E404 package errors.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "validation"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:05:01.830Z",
+      "accessedAt": "2026-06-01T18:05:01.830Z",
+      "accessCount": 0
+    },
+    {
+      "id": "22269062bba308a0",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "The Smart Rewrite is used only during verification runs to fetch tools successfully, while the original regular command and arguments from the catalog recipe (e.g.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "antigravity",
+        "importedSessionId": "4f7bf7c6-2cb9-478c-b766-3ee59d802a23",
+        "sessionId": "imported:antigravity:5c3c040a596a",
+        "path": "C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/walkthrough.md",
+        "tags": [
+          "antigravity",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:05:02.909Z",
+      "accessedAt": "2026-06-01T18:05:02.909Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d22f909e5aacc17f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "8c488d23-a2f8-4a2f-84b5-0ca91bc3788a",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780336459996.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:7cf1d7bb31f5",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:7cf1d7bb31f5",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780336459997.3125,
+          "stoppedAt": 1780337144483,
+          "lastActivityAt": 1780336459997.3125,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337144500,
+          "contentHash": "session-1422014049"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:44.501Z",
+      "accessedAt": "2026-06-01T18:05:44.501Z",
+      "accessCount": 0
+    },
+    {
+      "id": "0497bc63619fd6f5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "ad41eefc-a948-42e7-b5ea-23739e29fe8c",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780336159995.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:d149a387be46",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:d149a387be46",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780336159996.4688,
+          "stoppedAt": 1780337145566,
+          "lastActivityAt": 1780336159996.4688,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337145583,
+          "contentHash": "session-1228292915"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:45.585Z",
+      "accessedAt": "2026-06-01T18:05:45.585Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bc8246ac3e648d29",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "812e1e39-c9a7-4c1b-88d2-ba2563a0a148",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780335859993.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:731a39966699",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:731a39966699",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780335859994.6272,
+          "stoppedAt": 1780337146807,
+          "lastActivityAt": 1780335859994.6272,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337146830,
+          "contentHash": "session-447753909"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:46.832Z",
+      "accessedAt": "2026-06-01T18:05:46.832Z",
+      "accessCount": 0
+    },
+    {
+      "id": "51edfd476550dc61",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "60ebea8e-c114-4856-8650-7150481a9ea3",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780335559986.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:05b3022a4375",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:05b3022a4375",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780335559988.087,
+          "stoppedAt": 1780337148031,
+          "lastActivityAt": 1780335559988.087,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337148052,
+          "contentHash": "session-1988911411"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:48.054Z",
+      "accessedAt": "2026-06-01T18:05:48.054Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e502af271406950c",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "964fe37a-7573-46b4-b6e6-060945c7d491",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780335259983.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:f38fc76fdd4c",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:f38fc76fdd4c",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780335259984.1267,
+          "stoppedAt": 1780337149223,
+          "lastActivityAt": 1780335259984.1267,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337149243,
+          "contentHash": "session-23151129"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:49.244Z",
+      "accessedAt": "2026-06-01T18:05:49.244Z",
+      "accessCount": 0
+    },
+    {
+      "id": "8bcde2aaa22ac0b6",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "eef655d1-e532-4598-afbc-89bacb7eb6cd",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780334977061.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:507e8641e598",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:507e8641e598",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780334977066.6433,
+          "stoppedAt": 1780337150337,
+          "lastActivityAt": 1780334977066.6433,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337150354,
+          "contentHash": "session-27012112"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:50.356Z",
+      "accessedAt": "2026-06-01T18:05:50.356Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c93c3eaf316f09cb",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "47b719d4-93c7-454f-9d9c-eaf8b8c2998b",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780334659969.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:f091b86b36d0",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:f091b86b36d0",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780334659969.6128,
+          "stoppedAt": 1780337151494,
+          "lastActivityAt": 1780334659969.6128,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337151517,
+          "contentHash": "session-629915751"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:51.518Z",
+      "accessedAt": "2026-06-01T18:05:51.518Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d86698fc9d1cca4c",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "60cc0ba3-f91e-4ef4-a353-af2f65ad4f87",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780334359963.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:b70b20db64cd",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:b70b20db64cd",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780334359964.408,
+          "stoppedAt": 1780337152703,
+          "lastActivityAt": 1780334359964.408,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337152720,
+          "contentHash": "session-1710332674"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:52.720Z",
+      "accessedAt": "2026-06-01T18:05:52.720Z",
+      "accessCount": 0
+    },
+    {
+      "id": "3a309c93e168e3b1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "230f5c28-2e83-4eef-b719-9d23bec5b2eb",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780334059947.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:4a155490eba3",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:4a155490eba3",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780334059947.775,
+          "stoppedAt": 1780337153904,
+          "lastActivityAt": 1780334059947.775,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337153923,
+          "contentHash": "session-597830416"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:53.924Z",
+      "accessedAt": "2026-06-01T18:05:53.924Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f4427cdb8a62df6f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs\nLog tail: \"user\": 0, | \"agent\": 0, | \"project\": 1179, | \"discovery\": 0, | \"decision\": 0, | \"progress\": 0, | \"warning\": 0, | \"fix\": 0 | }, | \"recentContext\": [], | \"notes\": \"Automatic background handoff\" | }",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "87653c47-9299-4db7-a76d-94e828920cd4",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs/handoff_1780333759946.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:0cc548b1b4b2",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:0cc548b1b4b2",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/handoffs",
+          "restartCount": 0,
+          "startedAt": 1780333759947.4255,
+          "stoppedAt": 1780337155194,
+          "lastActivityAt": 1780333759947.4255,
+          "logTail": [
+            "\"user\": 0,",
+            "\"agent\": 0,",
+            "\"project\": 1179,",
+            "\"discovery\": 0,",
+            "\"decision\": 0,",
+            "\"progress\": 0,",
+            "\"warning\": 0,",
+            "\"fix\": 0",
+            "},",
+            "\"recentContext\": [],",
+            "\"notes\": \"Automatic background handoff\"",
+            "}"
+          ],
+          "recordedAt": 1780337155213,
+          "contentHash": "session-954401415"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:55.214Z",
+      "accessedAt": "2026-06-01T18:05:55.214Z",
+      "accessCount": 0
+    },
+    {
+      "id": "d081f460a87f8064",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (tormentnexus) ended with status imported.\nWorking directory: C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory\nLog tail: ], | \"recordedAt\": 1780337155213, | \"contentHash\": \"session-954401415\" | }, | \"memoryKind\": \"session_summary\" | \"createdAt\": \"2026-06-01T18:05:55.214Z\", | \"accessedAt\": \"2026-06-01T18:05:55.214Z\", | \"accessCount\": 0 | } | ]",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sourcePath": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "tormentnexus",
+          "imported"
+        ],
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "structuredSessionSummary": {
+          "sessionId": "imported:tormentnexus:2e63398e6f92",
+          "name": "{",
+          "cliType": "tormentnexus",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory",
+          "restartCount": 0,
+          "startedAt": 1780324266445.845,
+          "stoppedAt": 1780337156462,
+          "lastActivityAt": 1780324266445.845,
+          "logTail": [
+            "],",
+            "\"recordedAt\": 1780337155213,",
+            "\"contentHash\": \"session-954401415\"",
+            "},",
+            "\"memoryKind\": \"session_summary\"",
+            "\"createdAt\": \"2026-06-01T18:05:55.214Z\",",
+            "\"accessedAt\": \"2026-06-01T18:05:55.214Z\",",
+            "\"accessCount\": 0",
+            "}",
+            "]"
+          ],
+          "recordedAt": 1780337156807,
+          "contentHash": "session-417095385"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:05:56.808Z",
+      "accessedAt": "2026-06-01T18:05:56.808Z",
+      "accessCount": 0
+    },
+    {
+      "id": "fc317f645d7a99ab",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"content\": \"Surgically search and destroy exactly the corrupted httpx library files using os.walk in cache (antigravity) ended with status imported.\\nWorking directory: C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f337",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:05:58.142Z",
+      "accessedAt": "2026-06-01T18:05:58.142Z",
+      "accessCount": 0
+    },
+    {
+      "id": "32d1c70b9f0ce1c3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"source\": \"session_import\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:05:59.434Z",
+      "accessedAt": "2026-06-01T18:05:59.434Z",
+      "accessCount": 0
+    },
+    {
+      "id": "52d0770515273b66",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"importedSessionId\": \"8e5cfe00-a12e-4f02-b1a9-240d856a0319\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:00.627Z",
+      "accessedAt": "2026-06-01T18:06:00.627Z",
+      "accessCount": 0
+    },
+    {
+      "id": "7615ace8010702c6",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sourcePath\": \"C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch/surgical_search_and_destroy.py.metadata.json\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:01.963Z",
+      "accessedAt": "2026-06-01T18:06:01.963Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f5515d484472ee0d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"sessionId\": \"imported:antigravity:d2e0ca1d6df2\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:03.255Z",
+      "accessedAt": "2026-06-01T18:06:03.255Z",
+      "accessCount": 0
+    },
+    {
+      "id": "ca9e0b6b35027a37",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"workingDirectory\": \"C:/Users/hyper/.gemini/antigravity/brain/e88bac4f-e064-4c4b-bf5f-17f3373dac43/scratch\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "tormentnexus",
+        "importedSessionId": "fab0cf6d-a2fb-4029-85bd-be792237e656",
+        "sessionId": "imported:tormentnexus:2e63398e6f92",
+        "path": "C:/Users/hyper/workspace/bobbybookmarks/.tormentnexus/agent_memory/memories.json",
+        "tags": [
+          "tormentnexus",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:04.417Z",
+      "accessedAt": "2026-06-01T18:06:04.417Z",
+      "accessCount": 0
+    },
+    {
+      "id": "87dbd887cfa5f25b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "{ (copilot-cli) ended with status imported.\nWorking directory: C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots\nLog tail: \"size\": 12473, | \"mtime\": \"2026-03-30T18:55:46.074Z\", | \"mode\": 33206 | } | ], | \"filePathMap\": { | \"8bb67eb8db58fc00c02be0729de23f89\": \"C:\\\\Users\\\\hyper\\\\stonerock\\\\food.ai\\\\docker-compose.yml\", | \"4ef25da4d613547026b68af6f7ac1eb4\": \"C:\\\\Users\\\\hyper\\\\stonerock\\\\food.ai\\\\prompts.txt\"",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sourcePath": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "sessionFormat": "json",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "copilot-cli",
+          "imported"
+        ],
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "structuredSessionSummary": {
+          "sessionId": "imported:copilot-cli:f51b8504556b",
+          "name": "{",
+          "cliType": "copilot-cli",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots",
+          "restartCount": 0,
+          "startedAt": 1774968135999.7024,
+          "stoppedAt": 1780337165854,
+          "lastActivityAt": 1774968135999.7024,
+          "logTail": [
+            "\"size\": 12473,",
+            "\"mtime\": \"2026-03-30T18:55:46.074Z\",",
+            "\"mode\": 33206",
+            "}",
+            "],",
+            "\"filePathMap\": {",
+            "\"8bb67eb8db58fc00c02be0729de23f89\": \"C:\\\\Users\\\\hyper\\\\stonerock\\\\food.ai\\\\docker-compose.yml\",",
+            "\"4ef25da4d613547026b68af6f7ac1eb4\": \"C:\\\\Users\\\\hyper\\\\stonerock\\\\food.ai\\\\prompts.txt\""
+          ],
+          "recordedAt": 1780337165952,
+          "contentHash": "session-56268879"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:06:05.977Z",
+      "accessedAt": "2026-06-01T18:06:05.977Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a17e9cfe93cd43ed",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"pull base repo and all submodules up to date with server\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:07.139Z",
+      "accessedAt": "2026-06-01T18:06:07.139Z",
+      "accessCount": 0
+    },
+    {
+      "id": "e05ca0ea9857d321",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"run it\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:08.156Z",
+      "accessedAt": "2026-06-01T18:06:08.156Z",
+      "accessCount": 0
+    },
+    {
+      "id": "4410c15f79dd906f",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"why docker\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:48.165Z",
+      "accessedAt": "2026-06-01T18:06:48.165Z",
+      "accessCount": 0
+    },
+    {
+      "id": "eb435ff42545cf4d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"waht happened with the 15 megaprompts that we gave it? did they get applied to the current state of the project? it looks like no progress has been made since last time i looked but that might be wrong and it could all be th",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:49.183Z",
+      "accessedAt": "2026-06-01T18:06:49.184Z",
+      "accessCount": 0
+    },
+    {
+      "id": "a21030b8e86c0d3d",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"You are a senior software architect designing a scalable, AI-powered CRM and national database system.\\nYour task is to design the architecture for a platform with the following goal:\\nCORE OBJECTIVE:\\nBuild a continuously u",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "database",
+          "validation",
+          "ui"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:50.183Z",
+      "accessedAt": "2026-06-01T18:06:50.183Z",
+      "accessCount": 0
+    },
+    {
+      "id": "da008533f4a4b38c",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "\"userMessage\": \"great thank you\",",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "75c94bae-47ce-4636-90d7-2c53d271f4eb",
+        "sessionId": "imported:copilot-cli:f51b8504556b",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/rewind-snapshots/index.json",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:51.248Z",
+      "accessedAt": "2026-06-01T18:06:51.248Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f55120e5852df6ae",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "# Checkpoint History (copilot-cli) ended with status imported.\nWorking directory: C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints\nLog tail: # Checkpoint History | Checkpoints are listed in chronological order. Checkpoint 1 is the oldest, higher numbers are more recent. | | # | Title | File | | |---|-------|------| | | 1 | Live CRM Workflow Expansion | 001-live-crm-workflow-expansion.md |",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "63f91b74-0da0-4678-bc20-432279e50ee6",
+        "sourcePath": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/index.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "copilot-cli",
+          "imported"
+        ],
+        "sessionId": "imported:copilot-cli:ee64a6190f36",
+        "structuredSessionSummary": {
+          "sessionId": "imported:copilot-cli:ee64a6190f36",
+          "name": "# Checkpoint History",
+          "cliType": "copilot-cli",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints",
+          "restartCount": 0,
+          "startedAt": 1774954442788.484,
+          "stoppedAt": 1780337212287,
+          "lastActivityAt": 1774954442788.484,
+          "logTail": [
+            "# Checkpoint History",
+            "Checkpoints are listed in chronological order. Checkpoint 1 is the oldest, higher numbers are more recent.",
+            "| # | Title | File |",
+            "|---|-------|------|",
+            "| 1 | Live CRM Workflow Expansion | 001-live-crm-workflow-expansion.md |"
+          ],
+          "recordedAt": 1780337212308,
+          "contentHash": "session-1731412788"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:06:52.309Z",
+      "accessedAt": "2026-06-01T18:06:52.309Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9fef172b85f37d3b",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "<overview> (copilot-cli) ended with status imported.\nWorking directory: C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints\nLog tail: 4. Verify the summary endpoint with `fastapi.testclient.TestClient`. | 5. Verify frontend rendering via the same Node/VM scripted pattern used earlier. | 6. Optionally, after dashboard summary, likely next roadmap items would be: | - real saved preset persistence tied to user accounts (requires auth system) | - actual SMTP + Gemini credential configuration and real send test | - dashboard/campaign coverage insights | - migrate away from deprecated `google.generativeai` | Blockers / caveats: | - Real outreach sending still cannot be fully exercised without SMTP and Gemini credentials. | - The dashboard summary feature has not been started yet beyond creating the todos and reading context. | </next_steps>",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sourcePath": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "sessionFormat": "md",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "copilot-cli",
+          "imported"
+        ],
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "structuredSessionSummary": {
+          "sessionId": "imported:copilot-cli:b20e27b28eba",
+          "name": "<overview>",
+          "cliType": "copilot-cli",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints",
+          "restartCount": 0,
+          "startedAt": 1774954442694.9316,
+          "stoppedAt": 1780337213429,
+          "lastActivityAt": 1774954442694.9316,
+          "logTail": [
+            "4. Verify the summary endpoint with `fastapi.testclient.TestClient`.",
+            "5. Verify frontend rendering via the same Node/VM scripted pattern used earlier.",
+            "6. Optionally, after dashboard summary, likely next roadmap items would be:",
+            "- real saved preset persistence tied to user accounts (requires auth system)",
+            "- actual SMTP + Gemini credential configuration and real send test",
+            "- dashboard/campaign coverage insights",
+            "- migrate away from deprecated `google.generativeai`",
+            "Blockers / caveats:",
+            "- Real outreach sending still cannot be fully exercised without SMTP and Gemini credentials.",
+            "- The dashboard summary feature has not been started yet beyond creating the todos and reading context.",
+            "</next_steps>"
+          ],
+          "recordedAt": 1780337213508,
+          "contentHash": "session-712073643"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:06:53.509Z",
+      "accessedAt": "2026-06-01T18:06:53.509Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b25b266197040c71",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "The user wanted the repo and submodules synced with origin, the app run locally, and then continuous product progress toward a usable CRM/search/export workflow without stopping after each milestone. The overall approach was to first stabil",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:54.715Z",
+      "accessedAt": "2026-06-01T18:06:54.715Z",
+      "accessCount": 0
+    },
+    {
+      "id": "2ad49799cf3dd4c1",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "1. The user asked to “pull base repo and all submodules up to date with server.”",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:55.721Z",
+      "accessedAt": "2026-06-01T18:06:55.721Z",
+      "accessCount": 0
+    },
+    {
+      "id": "6156ae7bfe84abea",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- I asked how to handle local changes; the user chose: stash local changes, pull everything, then reapply stash.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:56.663Z",
+      "accessedAt": "2026-06-01T18:06:56.663Z",
+      "accessCount": 0
+    },
+    {
+      "id": "3bac69f53b7d71b3",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "2. The user asked to “run it.”",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:57.982Z",
+      "accessedAt": "2026-06-01T18:06:57.982Z",
+      "accessCount": 0
+    },
+    {
+      "id": "9b20b9ee8b0ef754",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "- Docker initially failed because Docker Desktop was not running; I still launched the frontend on `127.0.0.1:3000` and backend docs on `127.0.0.1:8000/docs`.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "instruction",
+          "networking"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:58.881Z",
+      "accessedAt": "2026-06-01T18:06:58.881Z",
+      "accessCount": 0
+    },
+    {
+      "id": "cf52f1a774b87b74",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "3. The user asked “why docker.”",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "95f45f2d-1b50-49ad-ae4a-bd5ef4a5037f",
+        "sessionId": "imported:copilot-cli:b20e27b28eba",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/checkpoints/001-live-crm-workflow-expansion.md",
+        "tags": [
+          "copilot-cli",
+          "memory"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:06:59.896Z",
+      "accessedAt": "2026-06-01T18:06:59.896Z",
+      "accessCount": 0
+    },
+    {
+      "id": "af8b82b8d46b00df",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "on antigravity fresh install and restart: bump text in all but one window for some reason, and one of the windows has we (copilot-cli) ended with status imported.\nWorking directory: C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files\nLog tail: with 100% feature and functionality parity and coverage then please archive the typescript version and replace it with the go | version. save the archived typescript version in archive or something | please commit and push and then organize the project folder to make more sense | keep going! don't ever stop! don't stop the party! insanely great! let this finish 100% and complete processing and be totally done and absolutely finished and completed and finalized to completion! insanely great!!! outstanding!! keep goin | HYPERCODE SUPPORTS MULTIPLE MODELS WORKING ON THE SAME PROJECT AT ONCE IN A CHATROOM",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sourcePath": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "sessionFormat": "txt",
+        "section": "general",
+        "tags": [
+          "session-summary",
+          "copilot-cli",
+          "imported"
+        ],
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "structuredSessionSummary": {
+          "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+          "name": "on antigravity fresh install and restart: bump text in all but one window for some reason, and one of the windows has we",
+          "cliType": "copilot-cli",
+          "status": "imported",
+          "workingDirectory": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files",
+          "restartCount": 0,
+          "startedAt": 1774923101332.014,
+          "stoppedAt": 1780337221001,
+          "lastActivityAt": 1774923101332.014,
+          "logTail": [
+            "with 100% feature and functionality parity and coverage then please archive the typescript version and replace it with the go",
+            "version. save the archived typescript version in archive or something",
+            "please commit and push and then organize the project folder to make more sense",
+            "keep going! don't ever stop! don't stop the party! insanely great! let this finish 100% and complete processing and be totally done and absolutely finished and completed and finalized to completion! insanely great!!! outstanding!! keep goin",
+            "HYPERCODE SUPPORTS MULTIPLE MODELS WORKING ON THE SAME PROJECT AT ONCE IN A CHATROOM"
+          ],
+          "recordedAt": 1780337221098,
+          "contentHash": "session-770818322"
+        },
+        "memoryKind": "session_summary"
+      },
+      "createdAt": "2026-06-01T18:07:01.099Z",
+      "accessedAt": "2026-06-01T18:07:01.099Z",
+      "accessCount": 0
+    },
+    {
+      "id": "c1a9f29753f30aed",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Always document input information in comprehensive, thorough, FULL extreme detail, and if possible ask me for clarification and reword it in order to develop a clearer description of my ultimate vision, very important to make sure the proje",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "instruction",
+          "networking"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:02.308Z",
+      "accessedAt": "2026-06-01T18:07:02.308Z",
+      "accessCount": 0
+    },
+    {
+      "id": "b386760a9a348dd4",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Also please use your tools and abilities creatively and constructively and go through each repo one by one and analyze it in extreme depth and come up with a list of missing features and/or improvements that could be made to the project fro",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "instruction",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:03.381Z",
+      "accessedAt": "2026-06-01T18:07:03.381Z",
+      "accessCount": 0
+    },
+    {
+      "id": "394609c0ce75d1e5",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Session start: use your memory tools. read all rule documentation. learn repo structure.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:04.489Z",
+      "accessedAt": "2026-06-01T18:07:04.489Z",
+      "accessCount": 0
+    },
+    {
+      "id": "450402107e267d72",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "Session end: use your memory tools. update all rule documentation.",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "instruction",
+          "memory",
+          "mcp"
+        ],
+        "section": "instructions",
+        "memoryKind": "instruction",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:05.570Z",
+      "accessedAt": "2026-06-01T18:07:05.570Z",
+      "accessCount": 0
+    },
+    {
+      "id": "f418506204946fcf",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "detection/import/processing into memories works, make sure all mcp directories are scraped and added to internal mcp registry, make",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "networking",
+          "mcp"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:06.657Z",
+      "accessedAt": "2026-06-01T18:07:06.657Z",
+      "accessCount": 0
+    },
+    {
+      "id": "bfbc84df67154fb7",
+      "type": "long_term",
+      "namespace": "project",
+      "content": "sure all functionality is ported to go as much as reasonable",
+      "metadata": {
+        "source": "session_import",
+        "sourceTool": "copilot-cli",
+        "importedSessionId": "56edd33b-1699-408f-ba52-d1163e6ac7a5",
+        "sessionId": "imported:copilot-cli:cb6f892a3b7d",
+        "path": "C:/Users/hyper/.copilot/session-state/d7df693d-00b3-4ebb-8333-317467bbef19/files/paste-1774923101331.txt",
+        "tags": [
+          "copilot-cli",
+          "memory",
+          "networking"
+        ],
+        "section": "general",
+        "memoryKind": "memory",
+        "extractionSource": "heuristic"
+      },
+      "createdAt": "2026-06-01T18:07:07.724Z",
+      "accessedAt": "2026-06-01T18:07:07.724Z",
       "accessCount": 0
     }
   ]

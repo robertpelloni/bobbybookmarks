@@ -523,16 +523,43 @@ def phase_ingest(limit=0):
         "/releases/", "/actions", "/security", "/wiki/",
     ]
     noise_domains = [
-        "0.0.0.0", "127.0.0.1", "localhost", "::1",
-        "tumblr.com", "medium.com", "substack.com",
-        "youtube.com/watch", "youtu.be/",
-        "linkedin.com/", "facebook.com/", "twitter.com/",
-        "instagram.com/", "tiktok.com/",
-        "patreon.com/", "buymeacoffee.com/",
-        "chrome.google.com/webstore",
-        "apps.apple.com", "play.google.com/store",
-        "microsoft.com/store",
-    ]
+    "0.0.0.0",
+    "127.0.0.1",
+    "localhost",
+    "::1",
+    "tumblr.com",
+    "medium.com",
+    "substack.com",
+    "youtube.com/watch",
+    "youtu.be/",
+    "linkedin.com/",
+    "facebook.com/",
+    "twitter.com/",
+    "instagram.com/",
+    "tiktok.com/",
+    "patreon.com/",
+    "buymeacoffee.com/",
+    "chrome.google.com/webstore",
+    "apps.apple.com",
+    "play.google.com/store",
+    "microsoft.com/store",
+    "bandcamp.com",
+    "discogs.com",
+    "giphy.com",
+    "gfycat.com",
+    "wolframalpha.com/input",
+    "uapreporting.org",
+    "djfindr.com",
+    "deepvaluereports.com",
+    "smartymeapp.com",
+    "post.smzdm.com",
+    "portal.mendfamily.com",
+    "discord.com/invite",
+    "googleapis.com/v1internal",
+    "cloudcode-pa.googleapis.com",
+    "kilosessions.ai",
+    "rns.id/app",
+]
     filtered_urls = []
     for u in new_urls:
         ul = u.lower()
@@ -555,6 +582,19 @@ def phase_ingest(limit=0):
             continue
         if any(x in ul for x in noise_domains):
             continue
+    # Session/ephemeral URLs
+    if "jules.google.com/session" in ul:
+        continue
+    if "gumroad.com/l/" in ul:
+        continue
+    if "photosort-production" in ul:
+        continue
+    # API endpoints (not browsable)
+    if "googleapis.com/v1" in ul:
+        continue
+    # Landing pages with no substance
+    if ul.rstrip("/") in ["http://claude.ai", "https://claude.ai"]:
+        continue
         filtered_urls.append(u)
     log.info("After noise filter: %d (removed %d)", len(filtered_urls), len(new_urls) - len(filtered_urls))
     new_urls = filtered_urls
