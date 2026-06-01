@@ -503,15 +503,12 @@ def phase_crawl(limit=0):
 def phase_ingest(limit=0):
     log.info("=" * 60)
     log.info("PHASE 2: INGEST - Process new URLs into Atlas")
-
     atl = sqlite3.connect(ATLAS_DB)
     c = atl.cursor()
     c.execute("SELECT url FROM entries")
     existing_urls = set(r[0] for r in c.fetchall())
-
     with open(INCOMING, "r", encoding="utf-8") as f:
         incoming = [l.strip() for l in f if l.strip()]
-
     new_urls = [u for u in incoming if u not in existing_urls and u.startswith("http")]
 
     # Pre-filter noise URLs before applying limit
@@ -523,43 +520,25 @@ def phase_ingest(limit=0):
         "/releases/", "/actions", "/security", "/wiki/",
     ]
     noise_domains = [
-    "0.0.0.0",
-    "127.0.0.1",
-    "localhost",
-    "::1",
-    "tumblr.com",
-    "medium.com",
-    "substack.com",
-    "youtube.com/watch",
-    "youtu.be/",
-    "linkedin.com/",
-    "facebook.com/",
-    "twitter.com/",
-    "instagram.com/",
-    "tiktok.com/",
-    "patreon.com/",
-    "buymeacoffee.com/",
-    "chrome.google.com/webstore",
-    "apps.apple.com",
-    "play.google.com/store",
-    "microsoft.com/store",
-    "bandcamp.com",
-    "discogs.com",
-    "giphy.com",
-    "gfycat.com",
-    "wolframalpha.com/input",
-    "uapreporting.org",
-    "djfindr.com",
-    "deepvaluereports.com",
-    "smartymeapp.com",
-    "post.smzdm.com",
-    "portal.mendfamily.com",
-    "discord.com/invite",
-    "googleapis.com/v1internal",
-    "cloudcode-pa.googleapis.com",
-    "kilosessions.ai",
-    "rns.id/app",
-]
+        "0.0.0.0", "127.0.0.1", "localhost", "::1",
+        "tumblr.com", "medium.com", "substack.com",
+        "youtube.com/watch", "youtu.be/",
+        "linkedin.com/", "facebook.com/", "twitter.com/",
+        "instagram.com/", "tiktok.com/",
+        "patreon.com/", "buymeacoffee.com/",
+        "chrome.google.com/webstore",
+        "apps.apple.com", "play.google.com/store",
+        "microsoft.com/store",
+        "bandcamp.com", "discogs.com",
+        "giphy.com", "gfycat.com",
+        "wolframalpha.com/input", "uapreporting.org",
+        "djfindr.com", "deepvaluereports.com",
+        "smartymeapp.com", "post.smzdm.com",
+        "portal.mendfamily.com", "discord.com/invite",
+        "googleapis.com/v1internal",
+        "cloudcode-pa.googleapis.com",
+        "kilosessions.ai", "rns.id/app",
+    ]
     filtered_urls = []
     for u in new_urls:
         ul = u.lower()
@@ -582,19 +561,22 @@ def phase_ingest(limit=0):
             continue
         if any(x in ul for x in noise_domains):
             continue
-    # Session/ephemeral URLs
-    if "jules.google.com/session" in ul:
-        continue
-    if "gumroad.com/l/" in ul:
-        continue
-    if "photosort-production" in ul:
-        continue
-    # API endpoints (not browsable)
-    if "googleapis.com/v1" in ul:
-        continue
-    # Landing pages with no substance
-    if ul.rstrip("/") in ["http://claude.ai", "https://claude.ai"]:
-        continue
+        # Session/ephemeral URLs
+        if "jules.google.com/session" in ul:
+            continue
+        if "gumroad.com/l/" in ul:
+            continue
+        if "photosort-production" in ul:
+            continue
+        # API endpoints (not browsable)
+        if "googleapis.com/v1" in ul:
+            continue
+        # Individual tool endpoints on MCP directories
+        if "glama.ai/mcp/servers/" in ul and "/tools/" in ul:
+            continue
+        # Landing pages with no substance
+        if ul.rstrip("/") in ["http://claude.ai", "https://claude.ai"]:
+            continue
         filtered_urls.append(u)
     log.info("After noise filter: %d (removed %d)", len(filtered_urls), len(new_urls) - len(filtered_urls))
     new_urls = filtered_urls
@@ -605,13 +587,11 @@ def phase_ingest(limit=0):
 
     for i, url in enumerate(new_urls, 1):
         log.info("[INGEST %d/%d] %s", i, len(new_urls), url[:80])
-
         # Normalize URL
         url_lower = url.lower()
         if url_lower.startswith("http://github.com"):
             url = "https://github.com" + url[len("http://github.com"):]
             url_lower = url.lower()
-
         is_gh = "github.com" in url_lower
         is_gist = "gist.github.com" in url_lower
         owner, repo = None, None
@@ -619,7 +599,6 @@ def phase_ingest(limit=0):
             m = re.match(r"https?://github\.com/([^/]+)/([^/?#\s]+)", url, re.IGNORECASE)
             if m:
                 owner, repo = m.group(1), m.group(2)
-
         html = fetch_page(url)
         fit_text, gh_meta = "", None
         if html:
@@ -632,16 +611,13 @@ def phase_ingest(limit=0):
                 "repo": repo,
                 "desc": "GitHub repository " + owner + "/" + repo,
             }
-
         if len(fit_text) < 20 and not gh_meta:
             stats["skipped"] += 1
             continue
-
         raw, model = call_llm(build_prompt(url, fit_text, gh_meta))
         if not raw:
             stats["failed"] += 1
             continue
-
         rdata = parse_llm_response(raw)
         # Retry with simplified prompt if parse fails
         if not rdata:
@@ -659,10 +635,10 @@ def phase_ingest(limit=0):
                 if rdata:
                     model = model2
                     log.info("  Retry parse succeeded")
-        if not rdata:
-            log.warning("  Parse failed")
-            stats["failed"] += 1
-            continue
+            if not rdata:
+                log.warning("  Parse failed")
+                stats["failed"] += 1
+                continue
 
         garbage, reason = is_garbage(rdata)
         if garbage:
@@ -709,7 +685,7 @@ def phase_ingest(limit=0):
 
         atl.commit()
         ml = (model or "?")[:25]
-        log.info("  INGESTED [%s]: %s", ml, short_desc[:60])
+        log.info(" INGESTED [%s]: %s", ml, short_desc[:60])
         stats["ingested"] += 1
         time.sleep(0.3)
 
