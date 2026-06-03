@@ -1,11 +1,221 @@
 {
   "version": 1,
   "projectRoot": "C:/Users/hyper/workspace/bobbybookmarks",
-  "generatedAt": "2026-06-02T21:45:11.021Z",
+  "generatedAt": "2026-06-03T03:52:21.298Z",
   "seq": 5,
-  "files": {},
+  "files": {
+    "C:/Users/hyper/workspace/bobbybookmarks/_harness_report.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_harness_report.py",
+      "mtimeMs": 1779217862951.6792,
+      "size": 12768,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_ingest2.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_ingest2.py",
+      "mtimeMs": 1779190864860.2625,
+      "size": 15570,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_ingest3.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_ingest3.py",
+      "mtimeMs": 1779190864862.2737,
+      "size": 13896,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_list_harness_tools.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_list_harness_tools.py",
+      "mtimeMs": 1779217862952.6843,
+      "size": 9091,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_pass2.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_pass2.py",
+      "mtimeMs": 1779190864865.275,
+      "size": 21235,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_v3.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_v3.py",
+      "mtimeMs": 1779845559299.7295,
+      "size": 25751,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/_research_worker.py",
+      "mtimeMs": 1779190864863.274,
+      "size": 20206,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/cmd/api/main.go": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/backend/cmd/api/main.go",
+      "mtimeMs": 1777777969101.8372,
+      "size": 725,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/api/routes.go": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/api/routes.go",
+      "mtimeMs": 1777777969250.191,
+      "size": 9842,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/database/db.go": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/database/db.go",
+      "mtimeMs": 1777777969338.6853,
+      "size": 1606,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/models/models.go": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/models/models.go",
+      "mtimeMs": 1777777969368.4329,
+      "size": 1751,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/worker/main.go": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/worker/main.go",
+      "mtimeMs": 1777777969371.1072,
+      "size": 969,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_deep_v4.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/borg_deep_v4.py",
+      "mtimeMs": 1780457787324.0176,
+      "size": 31530,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_memory.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/borg_memory.py",
+      "mtimeMs": 1778196780425.318,
+      "size": 21516,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_selfhealing.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/borg_selfhealing.py",
+      "mtimeMs": 1778196780428.319,
+      "size": 15244,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_skills.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/borg_skills.py",
+      "mtimeMs": 1778196780429.3208,
+      "size": 10999,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/BORG_SPEC.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/BORG_SPEC.py",
+      "mtimeMs": 1778261380863.0688,
+      "size": 7038,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/build-render.js": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/build-render.js",
+      "mtimeMs": 1777777970231.0022,
+      "size": 744,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/deduplicator.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/deduplicator.py",
+      "mtimeMs": 1776700770815.949,
+      "size": 6159,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/deep_research_v1_backup.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/deep_research_v1_backup.py",
+      "mtimeMs": 1778172807966.0396,
+      "size": 11771,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/deep_research.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/deep_research.py",
+      "mtimeMs": 1778196780431.8367,
+      "size": 25468,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/extract_mcp.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/extract_mcp.py",
+      "mtimeMs": 1780458697000.7773,
+      "size": 7451,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/gemini_pool.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/gemini_pool.py",
+      "mtimeMs": 1776700770819.455,
+      "size": 7793,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/llm_pool.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/llm_pool.py",
+      "mtimeMs": 1777777970243.3079,
+      "size": 6990,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/ROADMAP.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/ROADMAP.py",
+      "mtimeMs": 1778196779957.2705,
+      "size": 7335,
+      "imports": [],
+      "lastSeq": 0
+    },
+    "C:/Users/hyper/workspace/bobbybookmarks/worker_wrapper.py": {
+      "path": "C:/Users/hyper/workspace/bobbybookmarks/worker_wrapper.py",
+      "mtimeMs": 1776700770823.4639,
+      "size": 1177,
+      "imports": [],
+      "lastSeq": 0
+    }
+  },
   "symbols": {},
-  "reverseDeps": {},
+  "reverseDeps": {
+    "C:/Users/hyper/workspace/bobbybookmarks/_harness_report.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_ingest2.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_ingest3.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_list_harness_tools.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_pass2.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker_v3.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/_research_worker.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/cmd/api/main.go": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/api/routes.go": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/database/db.go": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/models/models.go": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/backend/internal/worker/main.go": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_deep_v4.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_memory.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_selfhealing.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/borg_skills.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/BORG_SPEC.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/build-render.js": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/deduplicator.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/deep_research_v1_backup.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/deep_research.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/extract_mcp.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/gemini_pool.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/llm_pool.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/ROADMAP.py": [],
+    "C:/Users/hyper/workspace/bobbybookmarks/worker_wrapper.py": []
+  },
   "cachedExports": [],
   "projectRulesScan": {
     "rules": [],
