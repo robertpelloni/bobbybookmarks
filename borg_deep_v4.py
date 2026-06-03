@@ -518,11 +518,14 @@ def phase_ingest(limit=0):
         "/blob/", "/tree/", "/raw/", "/blame/", "/edit/",
         "/issues/", "/pull/", "/commits/", "/compare/",
         "/releases/", "/actions", "/security", "/wiki/",
+        "/releases/tag/",
+        "/session/",
+        "/skills/",
     ]
     noise_domains = [
         "0.0.0.0", "127.0.0.1", "localhost", "::1",
         "tumblr.com", "medium.com", "substack.com",
-        "youtube.com/watch", "youtu.be/",
+        "youtube.com", "youtu.be",
         "linkedin.com/", "facebook.com/", "twitter.com/",
         "instagram.com/", "tiktok.com/",
         "patreon.com/", "buymeacoffee.com/",
@@ -530,7 +533,7 @@ def phase_ingest(limit=0):
         "apps.apple.com", "play.google.com/store",
         "microsoft.com/store",
         "bandcamp.com", "discogs.com",
-        "giphy.com", "gfycat.com",
+        "giphy.com",
         "wolframalpha.com/input", "uapreporting.org",
         "djfindr.com", "deepvaluereports.com",
         "smartymeapp.com", "post.smzdm.com",
@@ -538,6 +541,93 @@ def phase_ingest(limit=0):
         "googleapis.com/v1internal",
         "cloudcode-pa.googleapis.com",
         "kilosessions.ai", "rns.id/app",
+        "discord.com/invite",
+        "discord.gg/",
+        "suntimes.com",
+        "openmhz.com",
+        "open.spotify.com",
+        "spotify.com/",
+        "vault.fbi.gov",
+        "ufos.wiki",
+        "telegram.me/",
+        "t.me/",
+        "chat.openai.com",
+        "goo.gl/forms",
+        "drive.proton.me",
+        "pmc.ncbi.nlm.nih.gov",
+        "gemsloot.com",
+        "jnco.com",
+        "spacetribe.com",
+        "minifigures.space",
+        "sotozen.com",
+        "afu.info",
+        "temu.com",
+        "bidprowl.com",
+        "govauctions.app",
+        "ektoplazm.com",
+        "on.soundcloud.com",
+        "soundcloud.com/",
+        "fractaltribe.org",
+        "townbuzz.app",
+        "thechilluminati.com",
+        "retrogames.cc",
+        "oau.bet",
+        "youtubetime.com",
+        "checkloadapp.com",
+        "env.md",
+        "shop.futurebit.io",
+        "ebay.com",
+        "wsj.com",
+        "academic.oup.com",
+        "bing.com/search",
+        "ebay.com",
+        "wsj.com",
+        "temu.com",
+        "psymedia.co.za",
+        "bit.ly/",
+        "api.context.dev",
+        "api.mcp-assistant.in",
+        "goo.gl/",
+        "slack.com/",
+        "ra.co/events/",
+        "fxgears.com",
+        "letmegooglethat.com",
+        "formgrid.com",
+        "icrl.org",
+        "share.formgrid.com",
+        "giphy.com/gifs/",
+        "fandom.com/wiki/",
+        "wikipedia.org/wiki/",
+        "rateyourmusic.com",
+        "soatok.blog",
+        "stocktwits.com",
+        "unitednuclear.com",
+        "variety.com",
+        "apnews.com",
+        "bloomberg.com",
+        "bbc.com/news",
+        "theguardian.com",
+        "economist.com",
+        "rnz.co.nz",
+        "adsabs.harvard.edu",
+        "sciencedirect.com",
+        "cloudflarestatus.com",
+        "skool.com",
+        "war.gov",
+        "drive.google.com",
+        "forum.bitcoin.com",
+        "freedomhouse.org",
+        "foodgonewrong.com",
+        "127.0.0.1",
+        "photosort-production",
+        "portal.mendfamily.com",
+        "start.smartymeapp.com",
+        "rns.id/app",
+        "post.smzdm.com",
+        "discogs.com",
+        "gumroad.com/l/",
+        "jules.google.com/session",
+    
     ]
     filtered_urls = []
     for u in new_urls:
@@ -577,6 +667,33 @@ def phase_ingest(limit=0):
         # Landing pages with no substance
         if ul.rstrip("/") in ["http://claude.ai", "https://claude.ai"]:
             continue
+        # Markdown link artifacts (URL contains ](  
+        if "](" in u or "](" in ul:
+            continue
+        # Obvious garbage URLs
+        if "xxxxxx" in ul:
+            continue
+        # HTML entities in URL (broken by markdown parsing)
+        if "&quot;" in ul or "&amp;" in ul or "&lt;" in ul or "&gt;" in ul:
+            continue
+        # Standalone markdown filenames (not real URLs)
+        if ul.endswith(".md") and "/" not in ul[7:]:
+            continue
+        # StackOverflow careers/jobs
+        if "careers.stackoverflow.com" in ul or "stackoverflow.com/jobs" in ul:
+            continue
+        # URL shorteners and API endpoints
+        if ul.startswith("http://bit.ly") or ul.startswith("https://bit.ly"):
+            continue
+        # Search engine result pages
+        if "google.com/search" in ul or "bing.com/search" in ul:
+            continue
+        # URL-encoded duplicates (markdown artifacts)
+        if "%5b" in ul or "%5d" in ul or ")[" in ul:
+            continue
+        # News sites with no AI relevance
+        if "suntimes.com" in ul or "newrepublic.com" in ul:
+            continue
         filtered_urls.append(u)
     log.info("After noise filter: %d (removed %d)", len(filtered_urls), len(new_urls) - len(filtered_urls))
     new_urls = filtered_urls
@@ -586,109 +703,114 @@ def phase_ingest(limit=0):
         new_urls = new_urls[:limit]
 
     for i, url in enumerate(new_urls, 1):
-        log.info("[INGEST %d/%d] %s", i, len(new_urls), url[:80])
-        # Normalize URL
-        url_lower = url.lower()
-        if url_lower.startswith("http://github.com"):
-            url = "https://github.com" + url[len("http://github.com"):]
+        try:
+            log.info("[INGEST %d/%d] %s", i, len(new_urls), url[:80])
+            # Normalize URL
             url_lower = url.lower()
-        is_gh = "github.com" in url_lower
-        is_gist = "gist.github.com" in url_lower
-        owner, repo = None, None
-        if is_gh and not is_gist:
-            m = re.match(r"https?://github\.com/([^/]+)/([^/?#\s]+)", url, re.IGNORECASE)
-            if m:
-                owner, repo = m.group(1), m.group(2)
-        html = fetch_page(url)
-        fit_text, gh_meta = "", None
-        if html:
-            fit_text = extract_readable(html, url)
-            if is_gh:
-                gh_meta = extract_gh_meta(url, html)
-        elif is_gh and owner and repo:
-            gh_meta = {
-                "owner": owner,
-                "repo": repo,
-                "desc": "GitHub repository " + owner + "/" + repo,
-            }
-        if len(fit_text) < 20 and not gh_meta:
-            stats["skipped"] += 1
-            continue
-        raw, model = call_llm(build_prompt(url, fit_text, gh_meta))
-        if not raw:
-            stats["failed"] += 1
-            continue
-        rdata = parse_llm_response(raw)
-        # Retry with simplified prompt if parse fails
-        if not rdata:
-            nl = chr(10)
-            simple_prompt = (
-                "Return JSON for this URL: " + url + nl
-                + "Fields: CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, "
-                + "MAIN_FEATURES, INNOVATION_SCORE(1-10), TAGS" + nl
-                + "Categories: " + ", ".join(BORG_TAXONOMY) + nl
-                + "Return ONLY valid JSON."
-            )
-            raw2, model2 = call_llm(simple_prompt)
-            if raw2:
-                rdata = parse_llm_response(raw2)
-                if rdata:
-                    model = model2
-                    log.info("  Retry parse succeeded")
-            if not rdata:
-                log.warning("  Parse failed")
+            if url_lower.startswith("http://github.com"):
+                url = "https://github.com" + url[len("http://github.com"):]
+                url_lower = url.lower()
+            is_gh = "github.com" in url_lower
+            is_gist = "gist.github.com" in url_lower
+            owner, repo = None, None
+            if is_gh and not is_gist:
+                m = re.match(r"https?://github\.com/([^/]+)/([^/?#\s]+)", url, re.IGNORECASE)
+                if m:
+                    owner, repo = m.group(1), m.group(2)
+            html = fetch_page(url)
+            fit_text, gh_meta = "", None
+            if html:
+                fit_text = extract_readable(html, url)
+                if is_gh:
+                    gh_meta = extract_gh_meta(url, html)
+            elif is_gh and owner and repo:
+                gh_meta = {
+                    "owner": owner,
+                    "repo": repo,
+                    "desc": "GitHub repository " + owner + "/" + repo,
+                }
+            if len(fit_text) < 20 and not gh_meta:
+                stats["skipped"] += 1
+                continue
+            raw, model = call_llm(build_prompt(url, fit_text, gh_meta))
+            if not raw:
                 stats["failed"] += 1
                 continue
+            rdata = parse_llm_response(raw)
+            # Retry with simplified prompt if parse fails
+            if not rdata:
+                nl = chr(10)
+                simple_prompt = (
+                    "Return JSON for this URL: " + url + nl
+                    + "Fields: CATEGORY, SHORT_DESCRIPTION, LONG_DESCRIPTION, "
+                    + "MAIN_FEATURES, INNOVATION_SCORE(1-10), TAGS" + nl
+                    + "Categories: " + ", ".join(BORG_TAXONOMY) + nl
+                    + "Return ONLY valid JSON."
+                )
+                raw2, model2 = call_llm(simple_prompt)
+                if raw2:
+                    rdata = parse_llm_response(raw2)
+                    if rdata:
+                        model = model2
+                        log.info("  Retry parse succeeded")
+                if not rdata:
+                    log.warning("  Parse failed")
+                    stats["failed"] += 1
+                    continue
 
-        garbage, reason = is_garbage(rdata)
-        if garbage:
-            stats["rejected"] += 1
-            continue
+            garbage, reason = is_garbage(rdata)
+            if garbage:
+                stats["rejected"] += 1
+                continue
 
-        page_title = ""
-        if html:
-            try:
-                soup = BeautifulSoup(html, "html.parser")
-                tt = soup.find("title")
-                if tt:
-                    page_title = tt.get_text(strip=True)[:200]
-            except Exception:
-                pass
+            page_title = ""
+            if html:
+                try:
+                    soup = BeautifulSoup(html, "html.parser")
+                    tt = soup.find("title")
+                    if tt:
+                        page_title = tt.get_text(strip=True)[:200]
+                except Exception:
+                    pass
 
-        scores = compute_scores(rdata, is_gh, owner, page_title)
-        short_desc = stringify(rdata.get("SHORT_DESCRIPTION", ""))
-        long_desc = stringify(rdata.get("LONG_DESCRIPTION", "")) or short_desc
-        features = stringify(rdata.get("MAIN_FEATURES", ""))
+            scores = compute_scores(rdata, is_gh, owner, page_title)
+            short_desc = stringify(rdata.get("SHORT_DESCRIPTION", ""))
+            long_desc = stringify(rdata.get("LONG_DESCRIPTION", "")) or short_desc
+            features = stringify(rdata.get("MAIN_FEATURES", ""))
 
-        c.execute(
-            """INSERT INTO entries
-            (url, page_title, short_description, long_description,
-             main_features, tags, owner, repo, is_github,
-             innovation, quality, signal, is_standout, verdict, created_at)
-            VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (url, page_title or "", short_desc, long_desc, features,
-             json.dumps(scores["tags"]), owner or "", repo or "",
-             1 if is_gh else 0, scores["innovation"], scores["quality"],
-             scores["signal"], scores["is_standout"], "",
-             datetime.now().isoformat()),
-        )
-        eid = c.execute("SELECT last_insert_rowid()").fetchone()[0]
-
-        category = stringify(rdata.get("CATEGORY", ""))
-        mapped = CAT_MAP.get(category, category)
-        if mapped and mapped in BORG_TAXONOMY:
-            c.execute("DELETE FROM layer_membership WHERE entry_id=?", (eid,))
             c.execute(
-                "INSERT INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
-                (eid, mapped),
+                """INSERT INTO entries
+                (url, page_title, short_description, long_description,
+                 main_features, tags, owner, repo, is_github,
+                 innovation, quality, signal, is_standout, verdict, created_at)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                (url, page_title or "", short_desc, long_desc, features,
+                 json.dumps(scores["tags"]), owner or "", repo or "",
+                 1 if is_gh else 0, scores["innovation"], scores["quality"],
+                 scores["signal"], scores["is_standout"], "",
+                 datetime.now().isoformat()),
             )
+            eid = c.execute("SELECT last_insert_rowid()").fetchone()[0]
 
-        atl.commit()
-        ml = (model or "?")[:25]
-        log.info(" INGESTED [%s]: %s", ml, short_desc[:60])
-        stats["ingested"] += 1
-        time.sleep(0.3)
+            category = stringify(rdata.get("CATEGORY", ""))
+            mapped = CAT_MAP.get(category, category)
+            if mapped and mapped in BORG_TAXONOMY:
+                c.execute("DELETE FROM layer_membership WHERE entry_id=?", (eid,))
+                c.execute(
+                    "INSERT INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
+                    (eid, mapped),
+                )
 
+            atl.commit()
+            ml = (model or "?")[:25]
+            log.info(" INGESTED [%s]: %s", ml, short_desc[:60])
+            stats["ingested"] += 1
+            time.sleep(0.3)
+
+        except Exception as e:
+            log.warning("  Error processing %s: %s", url[:50], str(e)[:60])
+            stats["failed"] += 1
+            continue
     c.execute("SELECT COUNT(*) FROM entries")
     total = c.fetchone()[0]
     c.execute(
