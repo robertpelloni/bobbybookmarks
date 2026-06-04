@@ -537,6 +537,18 @@ def phase_ingest(limit=0):
         "wolframalpha.com/input", "uapreporting.org",
         "djfindr.com", "deepvaluereports.com",
         "smartymeapp.com", "post.smzdm.com",
+        "pmvhaven.com",
+        "adoptium.net",
+        "aim.applyists.net",
+        "aimoprize.com",
+        "theatlantic.com",
+        "engadget.com",
+        "madison-reed.com",
+        "lookchem.com",
+        "abc.net.au",
+        "hey.com/dhh",
+        "prepaidcompare.net",
+        "public.com/better",
         "portal.mendfamily.com", "discord.com/invite",
         "googleapis.com/v1internal",
         "cloudcode-pa.googleapis.com",
@@ -816,7 +828,7 @@ def phase_ingest(limit=0):
             if mapped and mapped in BORG_TAXONOMY:
                 c.execute("DELETE FROM layer_membership WHERE entry_id=?", (eid,))
                 c.execute(
-                    "INSERT INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
+                    "INSERT OR REPLACE INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
                     (eid, mapped),
                 )
 
@@ -929,7 +941,7 @@ def phase_enrich(limit=0):
         if mapped and mapped in BORG_TAXONOMY:
             c.execute("DELETE FROM layer_membership WHERE entry_id=?", (eid,))
             c.execute(
-                "INSERT INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
+                "INSERT OR REPLACE INTO layer_membership (entry_id, layer, is_primary) VALUES (?, ?, 1)",
                 (eid, mapped),
             )
 

@@ -54,6 +54,10 @@ sig=   87 | MCP server directory for Claude Code, Codex, and more
   URL: https://playbooks.com/mcp
   Standardized tool discovery, JSON-RPC 2.0 transport layers, persistent memory pr
 
+sig=   66 | MCP server directory for Claude Code, Codex, and more
+  URL: https://playbooks.com/mcp/
+  Bookmark conversion, URL transformation, Markdown generation, Agent integration,
+
 sig=   90 | What Is MCPpedia?
   URL: https://mcppedia.org/blog/2026-04-06-what-is-mcppedia
   Automated discovery of MCP servers, Real-time security scanning and CVE checks, 
@@ -506,6 +510,10 @@ sig=   81 | GitHub - gxjansen/Transistor-MCP: Transistor MCP server impl
   URL: https://github.com/gxjansen/transistor-mcp
   Manage podcasts and episodes, Analytics integration, API interaction tools, Serv
 
+sig=   81 | GitHub - apernet/hysteria: Hysteria is a powerful, lightning
+  URL: https://github.com/apernet/hysteria
+  QUIC protocol support,SOCKS5/HTTP Proxy modes,Censorship resistance,Cross-platfo
+
 sig=   80 | n/a
   URL: https://github.com/mcp
   Standardized tool definition, protocol-based resource access, JSON-RPC communica
@@ -582,9 +590,21 @@ sig=   73 | GitHub - KenisLabs/arka-mcp-gateway: Arka - Enterprise MCP G
   URL: https://github.com/KenisLabs/arka-mcp-gateway
   Centralized gateway for MCP management. Secure access via SSO authentication. Se
 
+sig=   73 | GitHub - redraw/rapel: chunked resumable downloads in unstab
+  URL: https://github.com/redraw/rapel
+  Chunked HTTP downloader, Resume support, Proxy integration, Auto-detects output 
+
 sig=   72 | Introduction - DBHub, Minimal Database MCP Server
   URL: https://dbhub.ai
   execute_sql, search_objects, Custom Tools, Workbench
+
+sig=   72 | Introduction to Pangolin - Pangolin Docs
+  URL: https://docs.pangolin.net/
+  Identity-based access control, reverse proxy/VPN combination, secure connectivit
+
+sig=   70 | GitHub - klipitkas/tunnl.gg: Expose localhost to the interne
+  URL: https://github.com/klipitkas/tunnl.gg
+  SSH tunneling, reverse proxy, memorable subdomain generation, automatic SSL via 
 
 sig=   66 | Gemini API File Search is now multimodal
   URL: https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemin
@@ -593,6 +613,14 @@ sig=   66 | Gemini API File Search is now multimodal
 sig=   65 | GitHub - modelcontextprotocol/registry: A community driven r
   URL: https://github.com/modelcontextprotocol/registry
   The core functionality revolves around providing a registry for Model Context Pr
+
+sig=   63 | GitHub - yuaotian/antigravity-proxy: ? Transparent proxy inj
+  URL: https://github.com/yuaotian/antigravity-proxy
+  HTTP proxy routing
+
+sig=   62 | bitchat/WHITEPAPER.md at main ? permissionlesstech/bitchat ?
+  URL: https://github.com/jackjackbits/bitchat/blob/main/WHITEPAPER.md
+  Peer-to-peer messaging
 
 sig=   98 | GitHub - code-yeongyu/oh-my-openagent: omo; the best agent h
   URL: https://github.com/code-yeongyu/oh-my-opencode
@@ -1974,9 +2002,9 @@ sig=   88 | GitHub - Selenium39/mcp-server-tempmail: MCP server for temp
   URL: https://github.com/Selenium39/mcp-server-tempmail
   Create temporary emails, List available domains, Delete temporary emails, View e
 
-sig=   87 | GitHub - lharries/whatsapp-mcp: WhatsApp MCP server
-  URL: https://github.com/lharries/whatsapp-mcp
-  WhatsApp API integration, LLM Agent interaction, Personal message retrieval, Mul
+sig=   87 | GitHub - resend/resend-mcp: The official MCP server to send 
+  URL: https://github.com/resend/mcp-send-email
+  Email sending/receiving, Contact management, Broadcasts and templates, Visual ed
 
 --- 4k. Coding Tools and IDEs ---
   (50 shown, signal >= 75)
@@ -2158,6 +2186,10 @@ sig=   90 | GitHub - hrishi0102/payman_mcp: Create payees, send payments
   URL: https://github.com/hrishi0102/payman_mcp
   Secure API Authentication, Multiple Payee Types Support, Payment Operations (Sen
 
+sig=   90 | GitHub - fortnightly-devs/mcp-x402-task-scheduler
+  URL: https://github.com/fortnightly-devs/mcp-x402-task-scheduler
+  x402 Payment Integration, AI-Powered Duplicate Detection, Automated Task Creatio
+
 sig=   90 | dodopayments-typescript/packages/mcp-server at 93024c2eef7f9
   URL: https://github.com/dodopayments/dodopayments-node
   Server-side TypeScript/JavaScript SDK for Dodo Payments API, Secure client confi
@@ -2181,10 +2213,6 @@ sig=   89 | GitHub - 0xjmp/mcp-tradovate: MCP server for the Tradovate p
 sig=   89 | GitHub - sv/mcp-paradex-py: Connect AI agents to the Paradex
   URL: https://github.com/sv/mcp-paradex-py
   Model Context Protocol (MCP) implementation, AI agent interaction with trading d
-
-sig=   89 | GitHub - pavel-bc/mcp-blockchain-query: ? MCP server for que
-  URL: https://github.com/pavel-bc/mcp-blockchain-query
-  query btc data via blockchain apis, get block details by hash, get transaction b
 
 --- 4m. Testing and Monitoring ---
   (50 shown, signal >= 75)
@@ -2396,7 +2424,7 @@ sig=   94 | GitHub - MatthewDailey/rime-mcp: MCP server for Rime
 5. COMPLETE MCP SERVER INDEX (signal >= 80, non-Reddit)
 ================================================================================
 
-Total high-signal MCP entries: 3908
+Total high-signal MCP entries: 3885
 
 sig=   98 | GitHub - Panth1823/formula1-mcp
   URL: https://github.com/panth1823/formula1-mcp
@@ -6226,10 +6254,6 @@ sig=   90 | GitHub - maoxiaoke/mcp-copy-web-ui
   URL: https://github.com/maoxiaoke/mcp-copy-web-ui
   Download complete webpage content, Inline all CSS styles, Convert images to base
 
-sig=   90 | GitHub - fortnightly-devs/mcp-x402-task-scheduler
-  URL: https://github.com/fortnightly-devs/mcp-x402-task-scheduler
-  x402 Payment Integration, AI-Powered Duplicate Detection, Automated Task Creatio
-
 sig=   90 | GitHub - RSS3-Network/mcp-server-rss3: rss3 + mcp server = ?
   URL: https://github.com/rss3-network/mcp-server-rss3
   RSS3 integration, MCP server implementation, Decentralized data querying, Cross-
@@ -6937,6 +6961,10 @@ sig=   89 | GitHub - VoxLink-org/finance-tools-mcp: A Model Context Prot
 sig=   89 | GitHub - OpenBudget/budgetkey-mcp: A fastmcp server for open
   URL: https://github.com/openbudget/budgetkey-mcp
   Budget Book Data, DatasetInfo, DatasetFullTextSearch, DatasetDBQuery
+
+sig=   89 | GitHub - pavel-bc/mcp-blockchain-query: ? MCP server for que
+  URL: https://github.com/pavel-bc/mcp-blockchain-query
+  query btc data via blockchain apis, get block details by hash, get transaction b
 
 sig=   89 | GitHub - elsejj/mcp-cn-a-stock: ?????????? A ????? MCP(Model
   URL: https://github.com/elsejj/mcp-cn-a-stock
@@ -9342,10 +9370,6 @@ sig=   87 | Ragie | The Context Engine for Agents , Assistants, and Apps
   URL: https://www.ragie.ai/?rdt_cid=5168814890013987582
   Advanced RAG engine for structured document understanding, Entity extraction and
 
-sig=   87 | GitHub - resend/resend-mcp: The official MCP server to send 
-  URL: https://github.com/resend/mcp-send-email
-  Email sending/receiving, Contact management, Broadcasts and templates, Visual ed
-
 sig=   87 | GitHub - jkingsman/qanon-mcp-server: Model Context Protocol 
   URL: https://github.com/jkingsman/qanon-mcp-server
   Model Context Protocol (MCP) server integration, Post retrieval and analysis cap
@@ -9449,6 +9473,10 @@ sig=   87 | GitHub - m-ahmed-elbeskeri/UltimateCoderMCP: AI-powered loca
 sig=   87 | GitHub - CursorTouch/Android-MCP: MCP Server for interacting
   URL: https://github.com/cursortouch/android-mcp
   Native Android Integration, LLM/VLM Compatibility, Rich Toolset for Mobile Autom
+
+sig=   87 | GitHub - lharries/whatsapp-mcp: WhatsApp MCP server
+  URL: https://github.com/lharries/whatsapp-mcp
+  WhatsApp API integration, LLM Agent interaction, Personal message retrieval, Mul
 
 sig=   87 | GitHub - gotoolkits/mcp-wecombot-server: An MCP server appli
   URL: https://github.com/gotoolkits/mcp-wecombot-server
@@ -10538,6 +10566,10 @@ sig=   86 | GitHub - steipete/macos-automator-mcp: An MCP server to run
   URL: https://github.com/steipete/macos-automator-mcp
   AppleScript execution, AI Workflow Integration, Remote Control Reality, App Whis
 
+sig=   86 | GitHub - can-acar/jarvis: JARVIS It?s a zero-friction Model 
+  URL: https://github.com/can-acar/jarvis
+  Model Context Protocol (MCP) support, Secure command execution, File system oper
+
 sig=   86 | GitHub - wenhuwang/mcp-k8s-eye: MCP Server for kubernetes ma
   URL: https://github.com/wenhuwang/mcp-k8s-eye
   Kubernetes cluster management, Pod diagnostics, Deployment monitoring, Service d
@@ -10689,6 +10721,10 @@ sig=   86 | GitHub - yywz1999/gdb-mcp-server
 sig=   86 | GitHub - elblanco2/hostbridge-mcp: MCP server for simplified
   URL: https://github.com/elblanco2/hostbridge-mcp
   Framework Support (Wasp), Multi-Provider Deployment, Guided Deployments, Authent
+
+sig=   86 | GitHub - rt96-hub/prompt-tester: An MCP server designed to g
+  URL: https://github.com/rt96-hub/prompt-tester
+  Test prompts with OpenAI and Anthropic models, Configure system prompts, user pr
 
 sig=   86 | GitHub - PixdataOrg/coderide-mcp
   URL: https://github.com/pixdataorg/coderide-mcp
@@ -11169,6 +11205,10 @@ sig=   86 | GitHub - The-Focus-AI/mastodon-mcp: mastodon modelcontextpro
 sig=   86 | GitHub - merajmehrabi/Outlook_Calendar_MCP: A Model Context 
   URL: https://github.com/merajmehrabi/outlook_calendar_mcp
   View Calendar Events, Manage Calendar Events, Calendar Intelligence (free time s
+
+sig=   86 | GitHub - vibase-ai/vibase: Easily query and mutate Postgres 
+  URL: https://github.com/vibase-ai/vibase
+  YAML Configuration for defining MCP tools, PostgreSQL Support with direct SQL ex
 
 sig=   86 | GitHub - receptopalak/postgis-mcp: Postgis MCP Server
   URL: https://github.com/receptopalak/postgis-mcp
@@ -11918,6 +11958,10 @@ sig=   85 | GitHub - peikuo/china-stock-mcp-server
   URL: https://github.com/peikuo/china-stock-mcp-server
   Real-time and historical stock data, Fundamental company information, Technical 
 
+sig=   85 | GitHub - dragon1086/kospi-kosdaq-stock-server: An MCP server
+  URL: https://github.com/dragon1086/kospi-kosdaq-stock-server
+  Direct KRX API integration with Kakao OAuth login, Playwright-based headless bro
+
 sig=   85 | GitHub - massive-com/mcp_massive: An MCP server for Massive.
   URL: https://github.com/polygon-io/mcp_polygon
   Massive.com MCP Server, Composable Tools (`search`, `call`, `query`), In-memory 
@@ -12161,6 +12205,10 @@ sig=   85 | GitHub - skrapeai/skrape-mcp: MCP Server for skrape.ai, lets
 sig=   85 | GitHub - GutMutCode/mcp-server-cloudflare: Cloudflare MCP se
   URL: https://github.com/gutmutcode/mcp-server-cloudflare
   KV Store Management, R2 Storage Management, D1 Database Management, Analytics Re
+
+sig=   85 | GitHub - TencentCloudBase/CloudBase-MCP: CloudBase MCP - Con
+  URL: https://github.com/tencentcloudbase/cloudbase-ai-toolkit
+  AI Programming Tool Integration, Cloud Deployment Orchestration, AI IDE Connecti
 
 sig=   85 | GitHub - dogukanakkaya/pulumi-mcp-server
   URL: https://github.com/dogukanakkaya/pulumi-mcp-server
@@ -14054,6 +14102,10 @@ sig=   82 | GitHub - cswkim/discogs-mcp-server: MCP Server for Discogs
   URL: https://github.com/cswkim/discogs-mcp-server
   Discogs API integration, Music catalog operations, Search functionality, Claude 
 
+sig=   82 | GitHub - fengin/image-gen-server: ????Cursor???????mcp serve
+  URL: https://github.com/fengin/image-gen-server
+  Text-to-Image Generation, Cursor IDE Integration, Automatic Image Saving, DreamA
+
 sig=   82 | GitHub - skudskud/test-repo-mcp: Test repository for MCP ser
   URL: https://github.com/skudskud/test-repo-mcp
   MCP server integration, LLM API interaction, Python virtual environment setup, D
@@ -14169,6 +14221,10 @@ sig=   82 | GitHub - martinlippert/spring-io-api-mcp: MCP server impleme
 sig=   82 | GitHub - lostintangent/gistpad-mcp: ? An MCP server for mana
   URL: https://github.com/lostintangent/gistpad-mcp
   Gist management, Reusable prompts, File management, Gist organization
+
+sig=   82 | GitHub - basebandit/kai: An MCP Server for Kubernetes
+  URL: https://github.com/basebandit/kai
+  Kubernetes cluster management, LLM integration (Claude/Ollama), Context switchin
 
 sig=   82 | GitHub - Yaxin9Luo/openai_agent_library_mcp: OpenAI Agents s
   URL: https://github.com/yaxin9luo/openai_agent_library_mcp
@@ -15166,6 +15222,10 @@ sig=   81 | GitHub - but3k4/rag-mcp-server: A local MCP server that inde
   URL: https://github.com/but3k4/rag-mcp-server
   Hybrid search (semantic + keyword), Incremental re-indexing, Offline operation, 
 
+sig=   81 | n/a
+  URL: https://github.com/google-gemini/gemini-mcp-server
+  Gemini Model Orchestration, MCP Server Backend, Agent Workflow Management, API E
+
 sig=   80 | GitHub - sensuslab/spark-mcp
   URL: https://github.com/sensuslab/spark-mcp
   Direct mouse/keyboard interaction, autonomous task management, real-time status 
@@ -15726,6 +15786,10 @@ sig=   80 | GitHub - sverklo/sverklo-bench: bench:primitives ? the publi
   URL: https://github.com/sverklo/sverklo-bench
   Code intelligence benchmarking, MCP server evaluation, Code search baselines, Re
 
+sig=   80 | GitHub - microsoft/azure-devops-mcp: The MCP server for Azur
+  URL: https://github.com/microsoft/azure-devops-mcp
+  Remote MCP Server integration, AI agent context injection, Remote-first onboardi
+
 ================================================================================
 6. A2A (Agent-to-Agent) PROTOCOL
 ================================================================================
@@ -15838,6 +15902,10 @@ sig=   74 | Google Cloud Platform
   URL: https://console.cloud.google.com/auth/clients?project=gen-lang-client-0957539389
   ['Google Cloud Platform Sign-in/Authentication', 'Email/Phone Recovery Workflow 
 
+sig=   74 | GitHub - a2anet/a2a-mcp: An MCP server for the A2A protocol 
+  URL: https://github.com/a2anet/a2a-mcp
+  Agent communication via A2A protocol, Agent Card management, Message sending cap
+
 sig=   72 | GitHub - anaisbetts/mcp-installer: An MCP server that instal
   URL: https://github.com/anaisbetts/mcp-installer
   The primary feature is an automated system for installing MCP servers, which sim
@@ -15853,6 +15921,10 @@ sig=   72 | How we moved prompt injection protections from the agent int
 sig=   70 | Cursor Cost Explorer
   URL: https://dalssoft.github.io/cursor_cost_explorer
   Cost Explorer Dashboard/CSV Download, Direct Cursor Usage Tracking, CSV File Exp
+
+sig=   70 | Blog Post | Blog | CopilotKit
+  URL: https://www.copilotkit.ai/blog/build-with-googles-new-a2a-spec-agent-to-agent-in
+  Agent-to-Agent Interoperability, Agent Orchestration, A2A Specification, Fronten
 
 sig=   69 | Set up extension - Browser MCP
   URL: https://docs.browsermcp.io/setup-extension
@@ -15922,7 +15994,3 @@ sig=   58 | TechAnon / ArchiTech.ProTV ? GitLab
 sig=   55 | Pack and Simfile Sources
   URL: https://itgwiki.dominick.cc/en/packs-and-simfiles/where-to-find-song=packs-and-s
   A centralized guide detailing the location and context of 'song' files within th
-
-sig=   50 | Captcha
-  URL: https://gnudb.org/search
-  Interface & Developer UX, Connectivity & Interoperability (MCP/A2A)

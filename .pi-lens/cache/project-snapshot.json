@@ -1,8 +1,8 @@
 {
   "version": 1,
   "projectRoot": "C:/Users/hyper/workspace/bobbybookmarks",
-  "generatedAt": "2026-06-03T03:52:21.298Z",
-  "seq": 5,
+  "generatedAt": "2026-06-04T12:38:09.093Z",
+  "seq": 8,
   "files": {
     "C:/Users/hyper/workspace/bobbybookmarks/_harness_report.py": {
       "path": "C:/Users/hyper/workspace/bobbybookmarks/_harness_report.py",
@@ -226,7 +226,7 @@
     "scanRoot": "C:\\Users\\hyper\\workspace\\bobbybookmarks",
     "projectRoot": "C:\\Users\\hyper\\workspace\\bobbybookmarks",
     "canWarmCaches": true,
-    "sourceFileCount": 26
+    "sourceFileCount": 27
   },
   "languageProfile": {
     "present": {
@@ -269,7 +269,7 @@
     "configured": {},
     "counts": {
       "go": 5,
-      "python": 19,
+      "python": 20,
       "jsts": 1
     },
     "detectedKinds": [
