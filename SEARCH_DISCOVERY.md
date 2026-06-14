@@ -1,16 +1,19 @@
 # 🔍 Search & Discovery
-> Borg Intelligence Atlas v8 · 2026-05-19 · 106 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 171 tools
 > Semantic search, web APIs, code search, MCP registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **106** |
-| Standout 🏆⭐ | 42 |
-| Avg Signal | ⚡84 |
-| Innovation 10 | 6 ██░░░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 44 ████████████████░░░░ |
-| Innovation 8 | 52 ████████████████████ |
-| Innovation 7 | 4 █░░░░░░░░░░░░░░░░░░░ |
+| Total tools | **171** |
+| Standout 🏆⭐ | 40 |
+| Avg Signal | ⚡74 |
+| Innovation 10 | 6 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 42 ████████████░░░░░░░░ |
+| Innovation 8 | 66 ████████████████████ |
+| Innovation 7 | 12 ███░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 6 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 5 | 38 ███████████░░░░░░░░░ |
+| Innovation 4 | 1 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -41,22 +44,24 @@
 
 ## Contents
 
-- [Spec-Driven Development](#spec-driven-development) — 21 tools · ⚡86
-- [Config & Profile Management](#config--profile-management) — 18 tools · ⚡87
-- [Context Engineering](#context-engineering) — 15 tools · ⚡87
-- [Bridges & Proxies](#bridges--proxies) — 13 tools · ⚡84
-- [Other Tools](#other-tools) — 12 tools · ⚡60
-- [Monitoring & Analytics](#monitoring--analytics) — 8 tools · ⚡90
+- [Spec-Driven Development](#spec-driven-development) — 37 tools · ⚡73
+- [Context Engineering](#context-engineering) — 30 tools · ⚡76
+- [Other Tools](#other-tools) — 24 tools · ⚡57
+- [Config & Profile Management](#config--profile-management) — 19 tools · ⚡84
+- [Monitoring & Analytics](#monitoring--analytics) — 15 tools · ⚡75
+- [Bridges & Proxies](#bridges--proxies) — 14 tools · ⚡84
+- [Hooks & Lifecycle](#hooks--lifecycle) — 6 tools · ⚡74
+- [Memory & Context Systems](#memory--context-systems) — 5 tools · ⚡89
+- [Browser & Web Tools](#browser--web-tools) — 5 tools · ⚡64
 - [Harness Frameworks](#harness-frameworks) — 5 tools · ⚡84
-- [Memory & Context Systems](#memory--context-systems) — 4 tools · ⚡92
 - [Orchestration](#orchestration) — 4 tools · ⚡86
+- [Verification & Testing](#verification--testing) — 4 tools · ⚡59
 - [Skill Systems](#skill-systems) — 3 tools · ⚡93
-- [Hooks & Lifecycle](#hooks--lifecycle) — 3 tools · ⚡87
 
 ---
 
 ## Spec-Driven Development
-> 21 tools · avg signal ⚡86
+> 37 tools · avg signal ⚡73
 
 ### 1. [Muvon/octocode](https://github.com/Muvon/octocode)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -155,27 +160,7 @@
 
 ---
 
-### 6. [bochaai/bocha-search-mcp](https://github.com/bochaai/bocha-search-mcp)
-`9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**Bocha is a specialized search engine designed for AI applications, providing comprehensive results from billions of web pages and related content sources. It covers diverse fields such as weather, news, encyclopedia, medical information, travel, images, etc., aiming to deliver accurate and relevant answers.**
-
-**Features:**
-- AI-powered semantic search
-- Structured modality cards (e.g.
-- weather
-- calendar
-- encyclopedia)
-- Real-time content retrieval from billions of sources
-- Integration with popular AI frameworks like Claude
-- Customizable API access and configuration
-
-*Tags: ai-search, bocha-search, search-engine, web-scraping, modality-cards, content-discovery, ai-development, search-api...*
-
----
-
-### 7. [btwiuse/npm-search-mcp-server](https://github.com/btwiuse/npm-search-mcp-server)
+### 6. [btwiuse/npm-search-mcp-server](https://github.com/btwiuse/npm-search-mcp-server)
 `8.6` ★ ⚡89 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -192,7 +177,7 @@
 
 ---
 
-### 8. [okooo5km/unsplash-mcp-server-go](https://github.com/okooo5km/unsplash-mcp-server-go)
+### 7. [okooo5km/unsplash-mcp-server-go](https://github.com/okooo5km/unsplash-mcp-server-go)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 
 **The unsplash-mcp-server-go project provides a robust Go implementation for integrating Unsplash's photo search functionality into applications. It supports keyword-based searches, color filters, orientation selection, and detailed photo metadata retrieval. The server also offers flexible random photo selection and multiple connection modes such as SSE for web-based interactions.**
@@ -210,7 +195,7 @@
 
 ---
 
-### 9. [luotocompany/cursor-local-indexing](https://github.com/luotocompany/cursor-local-indexing)
+### 8. [luotocompany/cursor-local-indexing](https://github.com/luotocompany/cursor-local-indexing)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -226,7 +211,7 @@
 
 ---
 
-### 10. [neno-is-ooo/mcp-openverse](https://github.com/neno-is-ooo/mcp-openverse)
+### 9. [neno-is-ooo/mcp-openverse](https://github.com/neno-is-ooo/mcp-openverse)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The mcp-openverse project is a robust MCP server designed to help users efficiently search, filter, and retrieve openly licensed images. It supports various filters such as license type, file format, and more, making it a valuable resource for developers and designers needing high-quality, legally compliant visuals.**
@@ -245,7 +230,7 @@
 
 ---
 
-### 11. [fatwang2/search1api-mcp](https://github.com/fatwang2/search1api-mcp)
+### 10. [fatwang2/search1api-mcp](https://github.com/fatwang2/search1api-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -261,7 +246,7 @@
 
 ---
 
-### 12. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)
+### 11. [spences10/mcp-duckduckgo-search](https://github.com/spences10/mcp-duckduckgo-search)
 `8.6` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -278,7 +263,7 @@
 
 ---
 
-### 13. [baryhuang/mcp-server-any-openapi](https://github.com/baryhuang/mcp-server-any-openapi)
+### 12. [baryhuang/mcp-server-any-openapi](https://github.com/baryhuang/mcp-server-any-openapi)
 `9.5` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -294,7 +279,7 @@
 
 ---
 
-### 14. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)
+### 13. [deepspringai/search_mcp_server](https://github.com/deepspringai/search_mcp_server)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **This resource provides access to a robust MCP (Model Control Protocol) server designed specifically for integration with Claude Desktop. It offers advanced functionalities such as web search and similarity search, making it highly valuable for applications that require efficient content retrieval and analysis. The server supports seamless interaction with various AI models and APIs, enhancing the overall user experience in managing and utilizing AI-driven insights.**
@@ -309,7 +294,7 @@
 
 ---
 
-### 15. [Merwynkumar/clawblink](https://github.com/Merwynkumar/clawblink)
+### 14. [Merwynkumar/clawblink](https://github.com/Merwynkumar/clawblink)
 `10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -325,7 +310,7 @@
 
 ---
 
-### 16. [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
+### 15. [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -341,7 +326,7 @@
 
 ---
 
-### 17. [Comparing Progressive Discovery and Semantic Search for Powering Dynamic MCP | Speakeasy](https://www.speakeasy.com/blog/100x-token-reduction-dynamic-toolsets)
+### 16. [Comparing Progressive Discovery and Semantic Search for Powering Dynamic MCP | Speakeasy](https://www.speakeasy.com/blog/100x-token-reduction-dynamic-toolsets)
 `9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -357,7 +342,7 @@
 
 ---
 
-### 18. [stepancooleague/file-finder-mcp](https://github.com/stepancooleague/file-finder-mcp)
+### 17. [stepancooleague/file-finder-mcp](https://github.com/stepancooleague/file-finder-mcp)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -373,357 +358,314 @@
 
 ---
 
-### 19. [mgsrevolver/seo-inspector-mcp](https://github.com/mgsrevolver/seo-inspector-mcp)
-`8.2` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
+### 18. [google.com](https://www.google.com/search?q=Elemm+github&sca_esv=20bb4f1f028f3f90&hl=en-US&sxsrf=ANbL-n64AteRf0J6JP_q21k6MZDgKJAocQ%3A1778900170302&ei=ytwHaseWEtS8ruEP6OOv8Qc&biw=414&bih=726&oq=Elemm+github&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIgxFbGVtbSBnaXRodWIyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQIRifBTIFECEYnwUyBRAhGJ8FMgUQIRifBUiHI1CHD1jIHHAAeACQAQGYAbcBoAH6CaoBAzEuOLgBA8gBAPgBAZgCCKAC1AnCAgoQABiABBiwAxgKwgIIEAAYgAQYsAPCAg4QLhiABBiwAxjIA9gBAcICEBAuGIAEGLADGMgDGArYAQHCAhYQLhiABBiwAxjRAxjHARjIAxgK2AEBwgIEEAAYHsICCBAAGAUYChgewgIFEAAY7wXCAggQABiABBiiBMICBRAhGKsCmAMAiAYBkAYRugYECAEYCJIHAzAuOKAHjVKyBwMwLji4B9QJwgcHMi0xLjYuMcgHcIAIAA&sclient=mobile-gws-wiz-serp)
+`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
 
-**The Borg Intelligence database resource details the implementation of a specialized MCP (Model Context Protocol) server designed to inspect codebases for SEO issues. It supports automated analysis of HTML files, JSON-LD structured data, and other SEO-related elements directly within the codebase without requiring external tools or extensions.**
+**This is a general search engine interface that allows users to query the vast expanse of the web, providing quick access to indexed information, relevant results, and diverse discovery options. It serves as the primary entry point for querying knowledge and finding specific answers efficiently.**
 
 **Features:**
-- Analyze HTML files in a codebase
-- Validate JSON-LD structured data
-- Get recommendations to improve SEO
-- Support prioritized SEO components
+- Web search functionality
+- Google search integration
+- Quick query execution
+- Diverse result indexing
+- High-quality search interface
 
-*Tags: seo-inspector, mcp-server, web-scanner, schema-validation, code-analysis*
+*Tags: google, search-engine, web-discovery, information-retrieval, tool*
 
 ---
 
-### 20. [what - Bing](https://www.bing.com/search?FORM=PORE&FPIG=83D2DDA4480640769ADFF0CF3767356B&adppc=EDGEESS&first=3&pc=W011&q=what)
-`8.2` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+### 19. [google.com](https://www.google.com/search?q=college+speedrunning&oq=college+speedrunning&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg3Mzc0ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8&zx=1779031919905)
+`8.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**This resource is a collection of online dictionaries and linguistic resources that define and explain the word 'what,' including its meaning, pronunciation, and usage in questions. It covers different perspectives on how 'what' is used to ask for specific information or describe actions.**
+**This tool is a comprehensive search engine designed to quickly locate relevant information, including specific queries like 'college speedrunning'. It offers robust indexing and retrieval capabilities essential for academic research and general knowledge discovery.**
 
 **Features:**
-- Dictionary definitions
-- Pronunciation notes
-- Usage examples
-- Linguistic analysis
+- Web search functionality
+- quick query execution
+- diverse result aggregation
+- intuitive interface
 
-*Tags: dictionary, wordreference, linguistics, definition, query, pronoun, english, what...*
+*Tags: search-engine, google, discovery, web-search, information-retrieval, tool*
 
 ---
 
-### 21. [nikolamilosevic86/verifAI](https://github.com/nikolamilosevic86/verifAI)
-`8.6` ★ ⚡70 Q0.7⭐ ⭐ Excellent
-↗3 layers
+### 20. [MARC: Mailing list ARChives](http://marc.info/?l)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-**VerifAI is a document-based question-answering systems that aims to address problem of hallucinations in generative large language models and generative search engines. Initially, we started with biomedical domain, however, now we have expanded VerifAI to support indexing any documents in txt,md, docx, pptx, or pdf formats. VerifAI is an AI system designed to answer users' questions by retrieving the most relevant documents, generate answer with references to the relevant documents and verify th...**
+**This resource functions as a specialized search engine or discovery tool, offering an archive of mailing lists that serve as a repository for technical discussions and community engagement. It allows users to discover niche topics within the tech/systems domain through the lens of mailing list archives.**
 
-*Tags: generative-search-engine, open-source, question-answering, verification, biomedical-domain, document-indexing, llm, generative-ai...*
+**Features:**
+- mailing list archive
+- technical discussion aggregation
+- subject indexing
+- author listing
+- topic discovery
+
+*Tags: mailing-lists, tech, software, archived, community, systems, discovery*
 
 ---
 
-## Config & Profile Management
-> 18 tools · avg signal ⚡87
+### 21. [Search the Law of One Material](https://www.lawofone.info/results.php?q)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-### 1. [clssck/researcher-mcp](https://github.com/clssck/researcher-mcp)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Borg Project's Researcher-MCP repository offers a comprehensive suite of tools designed to enhance software development workflows. It leverages Perplexity AI for intelligent search, documentation retrieval, API integration, and code modernization assistance. The platform supports seamless context tracking, advanced query processing, adaptive rate management, and robust performance optimization. Key features include intelligent rate limiting, connection pooling, and detailed insights into cod...**
+**This tool functions as a specialized search engine, allowing users to query the 'Law of One Material' concept and discover relevant content across various categories like books, concepts, and specific terms. It provides an organized index for searching, offering different modes like exact phrase matching and filtering by category/subcategory names.**
 
 **Features:**
-- search
-- documentation retrieval
-- api discovery
-- code modernization assistance
-- intelligent rate management
-- performance optimization
+- Keyword search functionality
+- categorized indexing
+- precise phrase searching
+- topic discovery
+- glossary lookup
 
-*Tags: ai, developer, security, code, integration, modernization, perplexity, sonar-reasoning...*
+*Tags: search-engine, knowledge-base, thematic-discovery, cross-referencing, indexing, query-optimization*
 
 ---
 
-### 2. [conechoai/openai-websearch-mcp](https://github.com/conechoai/openai-websearch-mcp)
-`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
+### 22. [Lossless Legs .::. Index](https://www.shnflac.net/)
+`6.0` ★ ⚡62 Q0.7✓ ✓ Solid
 
-**This technical resource details the open-source implementation of OpenAI's web search capabilities via the MCP (Multi-Mode Context Processing) server. It supports multiple reasoning models, including gpt-5-mini and gpt-5, with configurable effort levels to balance speed and depth. The setup includes detailed instructions for local development, API key management, and integration into Claude Desktop. Key features include localized search results, rich parameter documentation, and flexible configu...**
+**This resource appears to be an index or a landing page related to 'Lossless Legs,' suggesting it is a niche tool or concept within the developer ecosystem. It likely serves as a point of entry for users interested in specific, perhaps esoteric, technical concepts or tools.**
 
 **Features:**
-- Multi-model support (gpt-5-mini
-- gpt-5
-- etc.)
-- Reasoning effort control for optimized performance
-- Localized search customization
-- Rich documentation and parameter management
-- Seamless integration with Claude Desktop
+- Niche indexing
+- specialized discovery
+- password recovery
+- account creation
 
-*Tags: openai-websearch-mcp, ai-agents, search-tools, developer-utilities, ai-integration, context-aware-search, model-configuration, cloud-deployment...*
+*Tags: ai-agents, niche-tools, developer-workflow, indexing, discovery, tech*
 
 ---
 
-### 3. [riii111/researchmcp](https://github.com/riii111/researchmcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
+### 23. [What's On Sale at English Gardens - English Gardens](https://www.englishgardens.com/whats-on-sale-at-english-gardens/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
 
-**The ResearchMCP project leverages Deno and Hono to build a multi-search API aggregator server. It integrates Brave Search, Tavily Search, and other APIs to provide comprehensive research capabilities, aiming to match or exceed the performance of AI models like ChatGPT's DeepResearch. The platform supports secure development practices, automated workflows, and enterprise-grade security features.**
+**This resource is an e-commerce page from English Gardens, detailing the 'Jonathan Green Organic Lawn & Soil Annual Lawn Care Program' covering 5,000 square feet. It functions as a product discovery interface, helping users find specific horticultural products and services offered by the brand.**
 
 **Features:**
-- Multi-Search API Aggregator
-- Deno + Hono runtime
-- Web and web search integration
-- Secure development environment
-- Automated workflows
-- Code review and management
+- E-commerce platform
+- Product catalog
+- Gardening/Lawn care solutions
+- Promotional offers
+- Organic product listings
 
-*Tags: researchmcp, deno, hono, ai, multi-search, api-aggregator, developer-tools*
+*Tags: e-commerce, gardening, lawn-care, organic-products, retail, discovery*
 
 ---
 
-### 4. [doriandarko/claude-search-mcp](https://github.com/doriandarko/claude-search-mcp)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
+### 24. [Products | Flavorah Retail](https://shop.flavorah.com/shop?search=sweet)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
 
-**The project provides a MCP (Model Context Protocol) server that enables seamless integration of Claude's web search capabilities into applications. It allows developers to leverage AI-driven search functionality directly within their workflows, enhancing user interaction with intelligent content retrieval. The solution supports domain filtering, configurable result limits, and integrates smoothly with the Claude Desktop app for both development and production use.**
+**This tool provides a shopping experience for flavorah, allowing users to search for specific items like 'sweet' and discover products such as Alpine Strawberry Type or Apple fillings. It integrates product listings with basic e-commerce functionality like pricing and checkout processes.**
 
 **Features:**
-- Web search via Claude API
-- Domain filtering
-- Configurable results
-- Integration with Claude Desktop
-- Automatic server management
+- product search functionality
+- price comparison
+- product listing display
+- filtering options
+- e-commerce integration
 
-*Tags: cloud-development, ai-integration, web-search, developer-tools, search-functionality, api-usage, mcp-server, claude-api...*
+*Tags: e-commerce, product-discovery, shopping, search-engine, retail, flavorah*
 
 ---
 
-### 5. [pouyanafisi/project-mcp](https://github.com/pouyanafisi/project-mcp)
-`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
-↗2 layers
+### 25. [OVERCLOCKED: An Archive of Graphics Card Box Art
 
-**project-mcp is an AI-powered agent that automatically understands user queries and maps them to the correct documentation directories, eliminating manual configuration. It supports semantic search, intent mapping, and integrates with various project management tools to streamline task creation, status updates, and workflow management.**
+        – LOCK BOOKS](https://lockbooks.net/pages/overclocked-launch)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is a curated collection of visual assets, specifically focusing on the 'Overclocked' series, which serves as an archive of graphics card box art. It highlights the niche aspect of finding overlooked or obscure design elements within the broader context of gaming aesthetics.**
 
 **Features:**
-- Intent-based search across multiple sources
-- Automatic directory navigation based on user intent
-- Integration with project documentation systems
-- Customizable configuration for project structure
-- Support for task management and workflow automation
+- Visual Archive Collection
+- Graphics Card Box Art History
+- Niche/Obscure Artifacts
+- Retail Box Inventory
+- Visual Discovery
 
-*Tags: ai-agents, project-documentation, search-tools, intent-mapping, ai-assistant, documentation-search, project-management, semantic-search*
+*Tags: graphics-cards, box-art, retro-gaming, visual-archive, niche-discovery, hardware-history*
 
 ---
 
-### 6. [kshern/mcp-tavily](https://github.com/kshern/mcp-tavily)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
+### 26. [BibleGateway.com: Search for a Bible passage in 75 languages and 233 versions.](https://www.biblegateway.com/passage/?search)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
 
-**The kshern/mcp-tavily project implements a MCP server to enhance Tavily's API capabilities by providing robust search tools, context-aware search, and rich content extraction. It supports multiple search functionalities including basic, context, and Q&A searches, along with advanced options for customization. The server integrates seamlessly with Tavily's configuration, enabling developers to leverage AI-driven features such as semantic search and content summarization. This solution is designed...**
+**This tool provides a searchable interface for the Bible, allowing users to perform searches across its content. It offers quick access to specific verses and related information, enabling efficient discovery of textual details based on keywords or concepts.**
 
 **Features:**
-- Basic Search
-- Context Search
-- Q&A Search
-- Content Extraction
+- Bible search functionality
+- verse lookup
+- passage navigation
+- keyword searching
+- comprehensive text indexing
 
-*Tags: mcp, api, search, developer, ai, content, integration, security*
+*Tags: bible, search-engine, text-discovery, religious-content, verse-lookup, search-interface*
 
 ---
 
-### 7. [ryanjoachim/mcp-rtfm](https://github.com/ryanjoachim/mcp-rtfm)
-`9.6` ★★ ⚡89 Q0.8🏆 🏆 World-class
-↗2 layers
+### 27. [Projector Reviews, Top 10 Lists & Throw Calculator | ProjectorCentral](http://www.projectorcentral.com/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
 
-**This tool enhances documentation management by analyzing content, generating metadata, building search indexes, and linking documents to provide actionable insights. It automates tasks like updating docs, managing metadata, and improving readability, making it a powerful asset for developers and teams.**
+**ProjectorCentral is a comprehensive resource that serves as a hub for users to find detailed information on projectors. It offers various sections like reviews, brand listings, technical guides, and expert perspectives, making it useful for buyers across different sectors.**
 
 **Features:**
-- Advanced content analysis and metadata generation
-- Intelligent search with minisearch integration
-- Automated documentation structure creation
-- Documentation link management and relationship mapping
-- Customizable templates for different documentation types
+- Projector database
+- projector reviews
+- throw calculator
+- product lists
+- brand comparison
+- industry news
 
-*Tags: documentation-management, content-analysis, metadata-generation, search-optimization, developer-tools*
+*Tags: projector, reviews, home-theater, product-discovery, tech, lighting, photography*
 
 ---
 
-### 8. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)
-`8.2` ★ ⚡89 Q0.9🏆 🏆 World-class
+### 28. [Chart: More Americans Are Experiencing Homelessness | Statista](https://www.statista.com/chart/amp/24642/total-number-of-homeless-people-in-the-us-by-year/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
 
-**This technical resource details the implementation of a MCP (Model Context Protocol) server designed to query a Turso database containing embeddings and transcript segments. It supports advanced search functionalities such as cosine similarity-based relevance scoring, configurable search parameters, and efficient database connection pooling. The project emphasizes performance optimization and robust error handling, making it suitable for developers and researchers working with large-scale transc...**
+**This resource provides key statistics and insights into the trend of homelessness in the United States, detailing the number of individuals and families experiencing homelessness across different years. It highlights specific demographic shifts, noting the rise in both individual and family homelessness, and analyzing the gender distribution within these figures.**
 
 **Features:**
-- Vector similarity search
-- Relevance scoring based on cosine similarity
-- Configurable search parameters
-- Efficient database connection pooling
-- Comprehensive error handling
+- Time-series data visualization
+- key statistics on homelessness trends
+- demographic breakdown (individuals vs. families)
+- comparative analysis of male vs. female homelessness.
 
-*Tags: mcp-embedding-search, vector-database, transcript-search, search-protocol, ai-agents*
+*Tags: homelessness, us, statistics, data-visualization, demographics, social-issues*
 
 ---
 
-### 9. [skydeckai/mcp-rememberizer-vectordb](https://github.com/skydeckai/mcp-rememberizer-vectordb)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
+### 29. [MI Works! Locator by Zip Code — MichiganWorks! Association](https://www.michiganworks.org/mi-works-locator-by-zip-code)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
 
-**The Borg Project's 'mcp-rememberizer-vectordb' is a GitHub-hosted AI-powered vector store designed to enhance LLM interactions by providing semantic search and retrieval capabilities. It integrates with MCP servers, enabling developers to manage documents, perform agentic searches, and automate workflows efficiently.**
+**This resource allows users to quickly find the relevant local Michigan Works office or American Job center by inputting a specific zip code. It serves as a direct search interface for job seekers needing local employment services.**
 
 **Features:**
-- AI-powered search
-- Semantic similarity matching
-- Document management
-- Workflow automation
-- Integration with LLMs
+- Zip Code Lookup
+- Local Job Center Finder
+- Michigan Works Locator
+- American Job Center Directory
+- Zip Code Input Interface
 
-*Tags: ai, vector-store, rememberizer, ml, developer-tools, search, agentic-search, mcp...*
+*Tags: job-seeker, local-jobs, employment, search, directory, utility, mi-works*
 
 ---
 
-### 10. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)
-`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
+### 30. [Clam's Chip Commentary](https://clamtech.org/?dest=intel_unifiedcore&page=0)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
 
-**This technical resource details the setup and configuration of the Hermes Search MCP server, which integrates with Azure Cognitive Search to provide advanced document indexing, semantic search, and efficient querying capabilities. It covers prerequisites, installation steps for various platforms like Claude Desktop and Cline, and usage examples within the Claude desktop application.**
+**This resource provides in-depth information on Intel Unified Core technology, likely covering its architecture, performance benefits, and integration within the broader computing landscape. It serves as a key starting point for developers and engineers looking to understand the fundamentals of modern Intel processing capabilities.**
 
 **Features:**
-- Full-text and semantic search
-- Type-safe operations with TypeScript
-- Integration with Azure Cognitive Search
-- Customizable search parameters
-- Support for multiple MCP clients
+- Intel unified core details
+- unified core architecture overview
+- technical specifications lookup
+- resource comparison
 
-*Tags: hermes-search, azure-cognitive-search, mcp-server, cloud-search, typescript*
+*Tags: intel, unifiedcore, computing, architecture, technology, search*
 
 ---
 
-### 11. [kunihiros/google-patents-mcp](https://github.com/kunihiros/google-patents-mcp)
-`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
-↗3 layers
+### 31. [TinEye Reverse Image Search](https://tineye.com/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
 
-**This project implements a MCP server that integrates with the Google Patents API to allow users to search for patent information programmatically. By leveraging the SerpApi, it provides a robust backend service for developers and researchers who wish to automate patent searches using structured APIs.**
+**TinEye is a popular reverse image search engine that lets developers and designers quickly find visual references for branding, product design, or content inspiration. It's excellent for quick validation of visual assets and understanding the context behind specific images.**
 
 **Features:**
-- Integration with Google Patents via SerpApi
-- Automatic handling of MCP server resources and API requests
-- Support for multiple search parameters including query
-- page
-- sorting
-- and filters
-- Environment variable support for secure API key management
-- Clear documentation and usage instructions for developers
+- Reverse Image Search
+- Visual Similarity Comparison
+- Image Upload Functionality
+- Quick Visual Asset Discovery
 
-*Tags: model-context-protocol, google-patents-mcp-server, serpapi-integration, api-automation, patent-search, developer-tools, apis, search-engine...*
+*Tags: reverse-image-search, visual-search, image-recognition, web-discovery, design-inspiration, media-analysis*
 
 ---
 
-### 12. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)
-`9.6` ★★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
+### 32. [MARC: Mailing list ARChives](http://marc.info/?l=lua-l)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
 
-**The PubMed MCP Server enables advanced search functionalities, citation export, author searches, and integration with various research tools. It supports complex filters, detailed article retrieval, and metric analysis, enhancing the efficiency of literature management.**
+**This resource appears to be a search interface for 'lua-l', likely an archive of mailing lists. It provides structured access to the content, showing various dates and message counts for the specific topic, offering a focused discovery tool for users interested in Lua or related topics.**
 
 **Features:**
-- Advanced PubMed Search
-- Article Details Retrieval
-- Citation Export
-- Author Search
-- Related Articles
-- MeSH Term Search
+- mailing list archives
+- date-based indexing
+- subject/author retrieval
+- message count tracking
 
-*Tags: pubmed-mcp, api-integration, research-tools, data-management*
+*Tags: lua-l, mailing-lists, archives, search-engine, software-development, indexing, time-series-data*
 
 ---
 
-### 13. [kj455/mcp-kibela](https://github.com/kj455/mcp-kibela)
-`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
+### 33. [Kratom Products | World Seed Supply](https://worldseedsupply.com/product-category/dried-botanicals/kratom-products)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
 
-**The mcp-kibela project implements a MCP (Model Context Protocol) server that allows AI assistants, such as Claude, to securely access and utilize information stored in Kibela. It provides a robust infrastructure for developers to integrate AI capabilities into their applications, supporting features like searching notes, fetching content by ID or path, and managing notes efficiently.**
+**This resource is an e-commerce product category page showcasing various dried botanical products, specifically highlighting Kratom products. It serves as a discovery interface for users looking to purchase or learn more about the specific range of kratom-related items available on the platform.**
 
 **Features:**
-- search
-- notes
-- content retrieval
-- note management
+- Product categorization
+- E-commerce listing
+- Botanical product display
+- Product discovery interface
 
-*Tags: mcp-kibela, ai-assistants, kibela, developer-platform, github-actions*
+*Tags: e-commerce, product-search, botanicals, kratom, dry-goods, health-products*
 
 ---
 
-### 14. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)
-`9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
-↗3 layers
+### 34. [BibleGateway.com: Search for a Bible passage in 75 languages and 233 versions.](http://www.biblegateway.com/passage/?search)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
 
-**This tool integrates Brave Search with Puppeteer to extract full webpage content, enabling comprehensive data collection and analysis beyond basic search results. It supports configurable exploration depths and customizable result processing, making it suitable for detailed research tasks.**
+**This resource provides a searchable interface for the Bible text, allowing users to perform searches within the scripture and explore related context. It serves as a direct gateway for finding specific verses or themes within religious texts.**
 
 **Features:**
-- Deep content extraction from web pages
-- Configurable link traversal depth
-- Metadata and structured content retrieval
-- Customizable search parameters and debugging
-- Headless mode support for performance
+- Bible search functionality
+- verse navigation
+- passage indexing
+- frequent-asked questions link
 
-*Tags: brave-search, deep-research, web-scraping, ai-agents, search-optimization*
+*Tags: bible, search, discovery, textbook, reading, religious*
 
 ---
 
-### 15. [spences10/mcp-perplexity-search](https://github.com/spences10/mcp-perplexity-search)
-`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
+### 35. [Woman at the well - Hymn Lyrics Search - Name That Hymn](https://namethathymn.com/hymn-lyrics/viewtopic.php?t=63)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
 
-**This repository provides a MCP server that enhances search capabilities by leveraging Perplexity's AI models, offering features such as advanced chat completion, predefined prompt templates, and customizable configurations. It supports multiple output formats and integrates seamlessly with LLMs for technical documentation generation, security analysis, and code review.**
+**This resource is a website dedicated to providing search capabilities for hymn lyrics, allowing users to find specific songs or requests related to hymns. It demonstrates the core functionality of a search interface within a domain focused on musical/religious content.**
 
 **Features:**
-- Advanced chat completion
-- Predefined prompt templates
-- Custom template support
-- Multiple output formats
+- Hymn lyric search
+- Hymn topic posting
+- Direct link to hymn lyrics
+- User interaction/posting features
 
-*Tags: search, mcp, perplexity, model-context-protocol*
+*Tags: hymn, search, music, web, discovery, lyrics, religious*
 
 ---
 
-### 16. [spences10/mcp-jinaai-search](https://github.com/spences10/mcp-jinaai-search)
-`8.6` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+### 36. [A Roaringish phrase search algorithm](https://softwaredoug.com/blog/2024/01/21/search-array-phrase-algorithm)
+`6.0` ★ ⚡48 Q0.5○ ○ Adequate
 
-**This repository implements a Model Context Protocol (MCP) server that connects Jina.ai's search capabilities with LLM-powered interfaces, enabling users to efficiently retrieve and process clean, structured content from the web. It supports various features such as advanced web search, fast content retrieval, and customizable caching for improved performance.**
+**This resource details how 'SearchArray' implements a phrase search algorithm, demonstrating the encoding and indexing process for fast text searching. It shows how a specific technique (like BM25) is applied to an inverted index structure within a Pandas DataFrame context.**
 
 **Features:**
-- Advanced web search through Jina.ai Search API
-- Fast and efficient content retrieval
-- Content optimized for LLMs
-- Configurable caching for performance
+- Phrase search implementation
 
-*Tags: mcp-jinaai-search, search-api, llm-integration, web-scraping, content-extraction*
+*Tags: search-array, bm25, pandas-extension, phrase-search, text-indexing, nlp*
 
 ---
 
-### 17. [algonacci/mcp-tavily-extract](https://github.com/algonacci/mcp-tavily-extract)
-`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-↗2 layers
+### 37. [X Marks the Spot for Magnetic Reconnection - NASA](https://www.nasa.gov/image-article/x-marks-spot-magnetic-reconnection/)
+`5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**The algonacci/mcp-tavily-extract project provides a MCP server that allows clients to extract web pages directly. It integrates with GitHub and supports automation, workflow management, and security features for secure code handling.**
-
-**Features:**
-- web page extraction
-- automation integration
-- workflow management
-- security features
-
-*Tags: github, mcp-tavily-extract, web-scraping, api-key, python, developer-tools, code-security, ai-integration...*
-
----
-
-### 18. [SaveDay - AI Bookmark Manager - Chrome Web Store](https://chromewebstore.google.com/detail/saveday-ai-bookmark-manag/gmfaoihlkhopieoibopcponemocgbloj?hl=en-US)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**An AI-powered bookmark manager that captures multi-format content (links, PDFs, podcasts) and provides semantic search and instant YouTube/article summaries.**
+**This resource provides a quick read on the physics of space-weather interactions, specifically focusing on the 'X-points' where solar wind enters Earth's magnetic field. It explains the process of magnetic reconnection that creates portals for charged particles to enter the Earth's magnetosphere.**
 
 **Features:**
-- Instant AI summaries (YouTube/Article)
-- natural language semantic search
-- multi-format capture (audio/video/PDF)
-- mobile Telegram bot integration.
+- Educational article on space-weather physics
 
-*Tags: bookmarks, memory, summarization, semantic-search, knowledge-base, artificial-intelligence, chromewebstore*
+*Tags: nasa, space, magnetosphere, physics, solarwind, discovery*
 
 ---
 
 ## Context Engineering
-> 15 tools · avg signal ⚡87
+> 30 tools · avg signal ⚡76
 
 ### 1. [cocoindex-io/cocoindex-code](https://github.com/cocoindex-io/cocoindex-code)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -989,8 +931,1067 @@
 
 ---
 
+### 16. [google.com](https://www.google.com/search?q=cortextos&oq=cortextos&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg2NTA4ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
+`8.0` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+
+**This is a general search engine interface that allows users to perform queries, discover relevant information, and access knowledge from the vast expanse of the web. It serves as the primary entry point for querying Google's indexing capabilities.**
+
+**Features:**
+- Web search functionality
+- Query processing
+- Information retrieval
+- Search result display
+- Feedback mechanism
+
+*Tags: search-engine, google, web-discovery, information-retrieval, query-interface*
+
+---
+
+### 17. [google.com](https://www.google.com/search?q=ai+defi&oq=ai+defi&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDkyBggBEEUYQdIBCDM2MzNqMGo3qAIAsAIB4gMEGAEgXw&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
+`8.0` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+
+**This Google search result provides a direct entry point to discover information related to AI and DeFi, serving as an initial discovery mechanism for developers interested in the intersection of these fields. It demonstrates the utility of search engines in bridging technical concepts across emerging domains.**
+
+**Features:**
+- AI/DeFi search capability
+- comprehensive query indexing
+- quick access to AI and DeFi insights
+- direct link to Google search results
+
+*Tags: ai, defi, search-engine, google, tech-discovery, web-search, crypto, intelligence*
+
+---
+
+### 18. [google.com](https://www.google.com/search?q=competency+based+education&oq=competency+based+education&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg4ODgzajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
+`8.0` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+
+**This Google search result provides an overview and foundational understanding of 'competency-based education,' likely offering definitions, resources, and related articles to help users grasp the concept. It serves as a starting point for educational research or learning about the principles of competency-based learning.**
+
+**Features:**
+- Comprehensive search functionality
+- Educational resource indexing
+- Relevance ranking for educational topics
+- Quick access to foundational concepts
+
+*Tags: search-engine, education, competency-based-education, learning-resources, google, discovery*
+
+---
+
+### 19. [google.com](https://www.google.com/search?q=plotted+path&oq=plotted+path&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQgzOTIwajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
+`8.0` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+
+**Google Search is a comprehensive search engine designed to index the vast expanse of the web, providing users with rapid access to relevant, high-quality results. It excels at understanding complex queries and delivering accurate, up-to-date answers through its sophisticated indexing and ranking algorithms.**
+
+**Features:**
+- Web search functionality
+- comprehensive indexing
+- diverse result types
+- Google's core search engine
+
+*Tags: search-engine, google, web-discovery, indexing, seo, information-retrieval, search-tools*
+
+---
+
+### 20. [google.com](https://www.google.com/search?q=elemm&oq=elemm&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQRRg7MgoIAhAAGLEDGIAEMgoIAxAAGLEDGIAEMgcIBBAAGIAEMgcIBRAAGIAEMg0IBhAAGIMBGLEDGIAEMgYIBxBFGDwyBggIEEUYPdIBBzQ4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&source=chrome.ob)
+`8.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**This is a Google search engine interface that allows users to perform queries, discover relevant information, and access the vastness of Google's indexed knowledge base. It serves as a primary entry point for querying the internet and leveraging Google's indexing capabilities.**
+
+**Features:**
+- Web search functionality
+- direct query execution
+- quick discovery of web resources
+- integrated feedback mechanism
+
+*Tags: google, search-engine, web-discovery, query-tools, indexing, information-retrieval*
+
+---
+
+### 21. [Search · GitHub](https://github.com/search?q)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**This tool provides a comprehensive search interface for developers, offering quick access to documentation, code examples, and community resources. It acts as a central hub for finding solutions across various technical domains.**
+
+**Features:**
+- code search integration
+- developer-focused search capabilities
+- indexed documentation
+- quick query execution
+
+*Tags: search-engine, developer-tools, documentation, indexing, tech-discovery, github-search*
+
+---
+
+### 22. [Currant - discover the web](https://currantfeed.cc/)
+`7.0` ★ ⚡65 Q0.6✓ ✓ Solid
+
+**Currantfeed is a modern search platform that leverages advanced indexing and semantic understanding to deliver high-quality, contextualized search results. It focuses on providing users with relevant, deep insights across diverse topics, making it an excellent resource for research and discovery.**
+
+**Features:**
+- Semantic Search Engine
+- Comprehensive Coverage
+- Contextual Results
+- Insightful Content Aggregation
+
+*Tags: search-engine, semantic-search, content-aggregation, knowledge-base, discovery-tool*
+
+---
+
+### 23. [Internet Intro](http://internetintro.com)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This tool provides a curated view of the internet, helping users discover independent, free, and open web resources beyond mainstream platforms. It offers different viewing modes like Embedded View, Feed View, and Directory View to explore sites efficiently. The page also highlights the dominance of Big Tech in global internet traffic.**
+
+**Features:**
+- Curated indie websites
+- Embedded View
+- Feed View
+- Directory View
+- Handpicked search engine
+
+*Tags: web-discovery, curation, free-tools, indie-sites, search-engine, internet-intro*
+
+---
+
+### 24. [Autotrader - page unavailable](https://www.autotrader.com/cars-for-sale/all-cars/sedan/cars-between-6000-and-10000/woodbury-nj?mileage)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This tool is a web-based search engine that allows users to discover available vehicles based on criteria like make, model, price range, and location. It functions as a comprehensive listing aggregator for car sales, offering a platform for both buyers and sellers in the automotive market.**
+
+**Features:**
+- Vehicle listing aggregation
+- used car marketplace
+- search functionality
+- vehicle details comparison
+- price/mileage filtering
+
+*Tags: automotive, search-engine, marketplace, used-cars, vehicle-listings, e-commerce*
+
+---
+
+### 25. [top 1000 github repositories - Search](https://www.bing.com/search?q=top%201000%20github%20repositories&qs=n&form=QBRE&sp=-1&ghc=2&lq=0&pq=top%201000%20github%20repositories&sc=12-28&sk=&cvid=CC74F6EEC71E422CA0135298FB8D13C9&ntref=1)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource functions as a comprehensive search tool, indexing over 100,000 GitHub repositories and providing dictionary definitions for terms like 'top' from Merriam-Webster. It serves as an entry point for discovery across various domains, including music, fashion, and general knowledge.**
+
+**Features:**
+- GitHub repository search
+- Dictionary lookup
+- Comprehensive result indexing
+- Web search functionality
+- Multi-source query capability
+
+*Tags: search-engine, github, dictionary, web-discovery, tool, resource, indexing, knowledge-base*
+
+---
+
+### 26. [Search results for: 'Grok ani'](https://www.moemarket.com/catalogsearch/result?q=Grok+ani)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This tool is a product search engine that allows users to discover items related to the 'Grok ani' theme, including various merchandise like mouse pads, keychains, and plushies. It provides an e-commerce experience where users can find and purchase products based on AI-themed items.**
+
+**Features:**
+- Product search functionality
+- price filtering
+- product categorization
+- e-commerce integration
+- product listing display
+
+*Tags: e-commerce, product-discovery, ai-merchandise, search-engine, marketplace, grok-ai*
+
+---
+
+### 27. [Monkey Island for Commodore 64 Ground Up | Hacker News](https://news.ycombinator.com/item?id=47408441)
+`7.0` ★ ⚡61 Q0.6✓ ✓ Solid
+
+**The discussion explores the visual and technical differences between the original EGA version and the VGA version of Monkey Island on the Commodore 64, highlighting preferences regarding character design, color fidelity, and historical context.**
+
+**Features:**
+- technical analysis
+- artistic choices
+- historical comparison
+
+*Tags: coding, retrogaming, commodore64, monkeyisland, ega, vga, retroanalysis, gamecomparison...*
+
+---
+
+### 28. [Autotrader - page unavailable](https://www.autotrader.com/cars-for-sale/all-cars/sedan/cars-between-6000-and-10000/woodbury-nj?mileage=100000&transmissionCode=AUT)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**Autotrader is a popular platform that connects car buyers with vehicle listings. It serves as a key resource for users looking to find used cars, offering detailed listings and a comprehensive marketplace for automotive transactions.**
+
+**Features:**
+- Vehicle search engine
+- Car listing marketplace
+- Used car listings
+- Vehicle details page
+- Automotive discovery
+
+*Tags: automotive, car, marketplace, search, listings, usedcars*
+
+---
+
+### 29. [Project BLUE BOOK - Unidentified Flying Objects | National Archives](http://www.archives.gov/foia/ufos.html)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This page serves as a central repository for historical and official documentation related to Unidentified Flying Objects, acting as a key discovery point for users interested in UFO/UAP research. It provides an authoritative source for understanding the history, context, and official records surrounding these phenomena.**
+
+**Features:**
+- Official archival resource
+- comprehensive UFO documentation
+- historical context
+- clear navigation structure
+
+*Tags: archives, ufo, history, discovery, official, research, military*
+
+---
+
+### 30. [news.ycombinator.com](https://news.ycombinator.com/newest?next=48129091&n=91)
+`7.0` ★ ⚡52 Q0.5✓ ✓ Solid
+
+**This resource provides a curated feed of the most current and relevant links, discussions, and insights from Hacker News, serving as a key source for developers and tech enthusiasts to stay informed. It functions as a powerful discovery engine for emerging trends and developer discussions.**
+
+**Features:**
+- Curated news aggregation
+
+*Tags: news-aggregation, tech-discovery, developer-community, hacker-news, curated-feed, tech-trends*
+
+---
+
+## Other Tools
+> 24 tools · avg signal ⚡57
+
+### 1. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)
+`8.5` ★ ⚡85 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**This project provides a Python-based server that extends PubMed's capabilities by integrating MeSH term lookup, PICO-based searches, publication statistics, and structured querying. It supports complex research workflows with features like keyword filtering, sorting, and detailed paper information retrieval.**
+
+**Features:**
+- search_pubmed
+- get_mesh_terms
+- get_pubmed_count
+- format_paper_details
+- pico_search
+
+*Tags: pubmed-enhanced-mcp-server, mehs-search, pico-search, publication-stats, library-integration*
+
+---
+
+### 2. [spences10/mcp-svelte-docs](https://github.com/spences10/mcp-svelte-docs)
+`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+
+**This resource provides a comprehensive search interface for the mcp-svelte-docs, enabling users to access detailed documentation with examples and code snippets. It supports modern TypeScript features and integrates seamlessly with Svelte 5 and SvelteKit, offering a developer-friendly environment.**
+
+**Features:**
+- Single tool for all Svelte 5 concepts
+- TypeScript-first documentation
+- Search functionality
+- Examples and snippets
+- Migration guidance
+
+*Tags: svelte, typescript, docs, developer-tools, mcp*
+
+---
+
+### 3. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)
+`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗4 layers
+
+**This project provides a Python-based server that extends PubMed's capabilities with enhanced search, MeSH term lookup, PICO-based queries, and structured data retrieval. It supports complex searches, publication statistics, and integrates with Docker for deployment.**
+
+**Features:**
+- PubMed Enhanced Search MCP Server
+- MeSH term lookup
+- Publication count statistics
+- PICO-based search functionality
+
+*Tags: pubmed-enhanced-mcp, search-tools, bibliographic-metadata, data-analysis, api-integration*
+
+---
+
+### 4. [AssetsRank | Find high ROI investments](https://www.assetsrank.com/)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**AssetsRank provides users with tools to discover the best performing stocks and cryptocurrencies, offering historical performance data and investment insights. It serves as a discovery platform for investors looking for high-return opportunities.**
+
+**Features:**
+- Stock tracking
+- Crypto tracking
+- Cumulative return history
+- ROI analysis
+- Investment discovery
+
+*Tags: stock-tracking, crypto, investment-research, roi, finance, discovery*
+
+---
+
+### 5. [Wikipedia](http://m.wikipedia.org)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is a free online encyclopedia that serves as a powerful tool for knowledge acquisition, offering an expansive library of articles in various languages. It functions as a primary source for learning about diverse subjects, making it invaluable for language learners and general knowledge seekers.**
+
+**Features:**
+- Multilingual content
+- comprehensive encyclopedia
+- free access
+- Wikipedia search functionality
+- educational resource
+
+*Tags: encyclopedia, multilingual, free, knowledge-base, language-learning, search-engine*
+
+---
+
+### 6. [BidProwl | Government Surplus Auctions in One Place](https://bidprowl.com/)
+`6.0` ★ ⚡64 Q0.7✓ ✓ Solid
+
+**This tool provides a centralized search interface to discover numerous assets, including government surplus auctions and real estate listings from various sources like GSA, GovDeals, Ritchie Bros, and others. It offers users a consolidated view of assets ranging from seized trucks to property across 50 states.**
+
+**Features:**
+- Government auction search
+- Multi-source listing aggregation
+- State-specific filtering
+- Comprehensive asset discovery
+
+*Tags: auction, real-estate, government, search-engine, discovery, listings, surplus*
+
+---
+
+### 7. [EverythingMoe - Index of best Anime/Manga sites](https://everythingmoe.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This tool functions as a centralized hub for discovering information related to otaku culture, anime, manga, and various media. It offers curated lists, links to streaming services, and tools for downloading content, making it a valuable resource for enthusiasts and fans of Japanese popular culture.**
+
+**Features:**
+- Curated list of anime/culture
+- Streaming options integration
+- Manga reading tools
+- Download options
+- Comprehensive index
+
+*Tags: anime, otaku, manga, streaming, culture, discovery*
+
+---
+
+### 8. [Live stock, index, futures, Forex and Bitcoin charts on TradingView](https://www.tradingview.com/chart/?support)
+`6.0` ★ ⚡61 Q0.6✓ ✓ Solid
+
+**TradingView provides a comprehensive platform for visualizing real-time financial market data across various asset classes, including stocks, indices, futures, Forex pairs, and Bitcoin. It allows users to analyze market trends, execute trades, and visualize price action in an intuitive interface.**
+
+**Features:**
+- Live charting for stocks/indices/futures/Forex/Bitcoin
+- Real-time visualization
+- Comprehensive financial data
+- Interactive charting tools
+
+*Tags: stockcharts, financialdata, tradingview, charting, livemarketdata*
+
+---
+
+### 9. [Relative Performance Index â Compare Stock Performance](https://themoney.nhi1.de/relative-performance-index.html)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource provides a Relative Performance Index to compare and analyze the performance of different stocks, offering insights into relative performance across various financial assets. It helps users quickly gauge how one stock performs relative to another in the market.**
+
+**Features:**
+- Relative performance comparison
+- Stock performance index
+- Financial analysis tool
+- Market comparison insights
+
+*Tags: stock-performance, financial-analysis, relative-indexing, market-comparison, investing-tools*
+
+---
+
+### 10. [Trackitdown - Dance Music Download & Merchandise Distribution Centre](https://www.trackitdown.net/)
+`5.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**Trackitdown serves as a hub for dance music discovery, offering various genres like House, Techno, Drum & Bass, and more. It functions as a marketplace or distribution center connecting users to music and merchandise.**
+
+**Features:**
+- dance music downloads
+- merchandise distribution
+- genre categorization
+- music news/interviews
+
+*Tags: dance-music, house-music, techno, drum-&-bass, merchandise, music-discovery*
+
+---
+
+### 11. [forgottenlanguages-full.forgottenlanguages.org](https://forgottenlanguages-full.forgottenlanguages.org/search?updated-max)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**forgottenlanguages-full.forgottenlanguages.org**
+
+---
+
+### 12. [discord.gg](https://discord.gg/nousresearch)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 13. [research.archives.gov](http://research.archives.gov/description/1142703)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**research.archives.gov**
+
+---
+
+### 14. [research.archives.gov](http://research.archives.gov/description/61934)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**research.archives.gov**
+
+---
+
+### 15. [foia.cia.gov](http://www.foia.cia.gov/search-results?f%5B0%5D)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**foia.cia.gov**
+
+---
+
+### 16. [foia.cia.gov](http://www.foia.cia.gov/search-results?f%5B0%5D=field_collection%3A2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**foia.cia.gov**
+
+---
+
+### 17. [mod.uk](http://www.mod.uk/DefenceInternet/FreedomOfInformation/PublicationScheme/SearchPublicationScheme/UapInTheUkAirDefenceRegionExecutiveSummary.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mod.uk**
+
+---
+
+### 18. [search.brave.com](https://search.brave.com/images?q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**search.brave.com**
+
+---
+
+### 19. [researchgate.net](https://www.researchgate.net/figure/The-release-of-various-neurotransmitters-during-the-phases-of-male-and-female-sexual_fig2_333616586)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**researchgate.net**
+
+---
+
+### 20. [openai.com](https://openai.com/careers/search)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 21. [techspot.com](https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**techspot.com**
+
+---
+
+### 22. [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/details/sega32xmanuals)
+`5.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**This resource is an Internet Archive collection showcasing a digital library of free and borrowable texts, movies, and music. It serves as a comprehensive repository for users to discover and access diverse media assets, including books, films, and musical works.**
+
+**Features:**
+- Digital Library
+
+*Tags: digital-library, media, archive, free-content, discovery, multimedia*
+
+---
+
+### 23. [Introducing Sofya Search Fetch Extract And](https://www.reddit.com/r/mcp/comments/1tq4wz7/introducing_sofya_search_fetch_extract_and/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Introducing Sofya Search Fetch Extract And**
+
+---
+
+### 24. [Searching For Any Good Notebooklm Alternatives](https://www.reddit.com/r/OpenSourceAI/comments/1tqonkd/searching_for_any_good_notebooklm_alternatives/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Searching For Any Good Notebooklm Alternatives**
+
+---
+
+## Config & Profile Management
+> 19 tools · avg signal ⚡84
+
+### 1. [clssck/researcher-mcp](https://github.com/clssck/researcher-mcp)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Borg Project's Researcher-MCP repository offers a comprehensive suite of tools designed to enhance software development workflows. It leverages Perplexity AI for intelligent search, documentation retrieval, API integration, and code modernization assistance. The platform supports seamless context tracking, advanced query processing, adaptive rate management, and robust performance optimization. Key features include intelligent rate limiting, connection pooling, and detailed insights into cod...**
+
+**Features:**
+- search
+- documentation retrieval
+- api discovery
+- code modernization assistance
+- intelligent rate management
+- performance optimization
+
+*Tags: ai, developer, security, code, integration, modernization, perplexity, sonar-reasoning...*
+
+---
+
+### 2. [conechoai/openai-websearch-mcp](https://github.com/conechoai/openai-websearch-mcp)
+`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
+
+**This technical resource details the open-source implementation of OpenAI's web search capabilities via the MCP (Multi-Mode Context Processing) server. It supports multiple reasoning models, including gpt-5-mini and gpt-5, with configurable effort levels to balance speed and depth. The setup includes detailed instructions for local development, API key management, and integration into Claude Desktop. Key features include localized search results, rich parameter documentation, and flexible configu...**
+
+**Features:**
+- Multi-model support (gpt-5-mini
+- gpt-5
+- etc.)
+- Reasoning effort control for optimized performance
+- Localized search customization
+- Rich documentation and parameter management
+- Seamless integration with Claude Desktop
+
+*Tags: openai-websearch-mcp, ai-agents, search-tools, developer-utilities, ai-integration, context-aware-search, model-configuration, cloud-deployment...*
+
+---
+
+### 3. [riii111/researchmcp](https://github.com/riii111/researchmcp)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The ResearchMCP project leverages Deno and Hono to build a multi-search API aggregator server. It integrates Brave Search, Tavily Search, and other APIs to provide comprehensive research capabilities, aiming to match or exceed the performance of AI models like ChatGPT's DeepResearch. The platform supports secure development practices, automated workflows, and enterprise-grade security features.**
+
+**Features:**
+- Multi-Search API Aggregator
+- Deno + Hono runtime
+- Web and web search integration
+- Secure development environment
+- Automated workflows
+- Code review and management
+
+*Tags: researchmcp, deno, hono, ai, multi-search, api-aggregator, developer-tools*
+
+---
+
+### 4. [doriandarko/claude-search-mcp](https://github.com/doriandarko/claude-search-mcp)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project provides a MCP (Model Context Protocol) server that enables seamless integration of Claude's web search capabilities into applications. It allows developers to leverage AI-driven search functionality directly within their workflows, enhancing user interaction with intelligent content retrieval. The solution supports domain filtering, configurable result limits, and integrates smoothly with the Claude Desktop app for both development and production use.**
+
+**Features:**
+- Web search via Claude API
+- Domain filtering
+- Configurable results
+- Integration with Claude Desktop
+- Automatic server management
+
+*Tags: cloud-development, ai-integration, web-search, developer-tools, search-functionality, api-usage, mcp-server, claude-api...*
+
+---
+
+### 5. [pouyanafisi/project-mcp](https://github.com/pouyanafisi/project-mcp)
+`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**project-mcp is an AI-powered agent that automatically understands user queries and maps them to the correct documentation directories, eliminating manual configuration. It supports semantic search, intent mapping, and integrates with various project management tools to streamline task creation, status updates, and workflow management.**
+
+**Features:**
+- Intent-based search across multiple sources
+- Automatic directory navigation based on user intent
+- Integration with project documentation systems
+- Customizable configuration for project structure
+- Support for task management and workflow automation
+
+*Tags: ai-agents, project-documentation, search-tools, intent-mapping, ai-assistant, documentation-search, project-management, semantic-search*
+
+---
+
+### 6. [kshern/mcp-tavily](https://github.com/kshern/mcp-tavily)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The kshern/mcp-tavily project implements a MCP server to enhance Tavily's API capabilities by providing robust search tools, context-aware search, and rich content extraction. It supports multiple search functionalities including basic, context, and Q&A searches, along with advanced options for customization. The server integrates seamlessly with Tavily's configuration, enabling developers to leverage AI-driven features such as semantic search and content summarization. This solution is designed...**
+
+**Features:**
+- Basic Search
+- Context Search
+- Q&A Search
+- Content Extraction
+
+*Tags: mcp, api, search, developer, ai, content, integration, security*
+
+---
+
+### 7. [spences10/mcp-embedding-search](https://github.com/spences10/mcp-embedding-search)
+`8.2` ★ ⚡89 Q0.9🏆 🏆 World-class
+
+**This technical resource details the implementation of a MCP (Model Context Protocol) server designed to query a Turso database containing embeddings and transcript segments. It supports advanced search functionalities such as cosine similarity-based relevance scoring, configurable search parameters, and efficient database connection pooling. The project emphasizes performance optimization and robust error handling, making it suitable for developers and researchers working with large-scale transc...**
+
+**Features:**
+- Vector similarity search
+- Relevance scoring based on cosine similarity
+- Configurable search parameters
+- Efficient database connection pooling
+- Comprehensive error handling
+
+*Tags: mcp-embedding-search, vector-database, transcript-search, search-protocol, ai-agents*
+
+---
+
+### 8. [skydeckai/mcp-rememberizer-vectordb](https://github.com/skydeckai/mcp-rememberizer-vectordb)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Borg Project's 'mcp-rememberizer-vectordb' is a GitHub-hosted AI-powered vector store designed to enhance LLM interactions by providing semantic search and retrieval capabilities. It integrates with MCP servers, enabling developers to manage documents, perform agentic searches, and automate workflows efficiently.**
+
+**Features:**
+- AI-powered search
+- Semantic similarity matching
+- Document management
+- Workflow automation
+- Integration with LLMs
+
+*Tags: ai, vector-store, rememberizer, ml, developer-tools, search, agentic-search, mcp...*
+
+---
+
+### 9. [cognitive-stack/hermes-search-mcp](https://github.com/cognitive-stack/hermes-search-mcp)
+`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This technical resource details the setup and configuration of the Hermes Search MCP server, which integrates with Azure Cognitive Search to provide advanced document indexing, semantic search, and efficient querying capabilities. It covers prerequisites, installation steps for various platforms like Claude Desktop and Cline, and usage examples within the Claude desktop application.**
+
+**Features:**
+- Full-text and semantic search
+- Type-safe operations with TypeScript
+- Integration with Azure Cognitive Search
+- Customizable search parameters
+- Support for multiple MCP clients
+
+*Tags: hermes-search, azure-cognitive-search, mcp-server, cloud-search, typescript*
+
+---
+
+### 10. [kunihiros/google-patents-mcp](https://github.com/kunihiros/google-patents-mcp)
+`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**This project implements a MCP server that integrates with the Google Patents API to allow users to search for patent information programmatically. By leveraging the SerpApi, it provides a robust backend service for developers and researchers who wish to automate patent searches using structured APIs.**
+
+**Features:**
+- Integration with Google Patents via SerpApi
+- Automatic handling of MCP server resources and API requests
+- Support for multiple search parameters including query
+- page
+- sorting
+- and filters
+- Environment variable support for secure API key management
+- Clear documentation and usage instructions for developers
+
+*Tags: model-context-protocol, google-patents-mcp-server, serpapi-integration, api-automation, patent-search, developer-tools, apis, search-engine...*
+
+---
+
+### 11. [chrismannina/pubmed-mcp](https://github.com/chrismannina/pubmed-mcp)
+`9.6` ★★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The PubMed MCP Server enables advanced search functionalities, citation export, author searches, and integration with various research tools. It supports complex filters, detailed article retrieval, and metric analysis, enhancing the efficiency of literature management.**
+
+**Features:**
+- Advanced PubMed Search
+- Article Details Retrieval
+- Citation Export
+- Author Search
+- Related Articles
+- MeSH Term Search
+
+*Tags: pubmed-mcp, api-integration, research-tools, data-management*
+
+---
+
+### 12. [kj455/mcp-kibela](https://github.com/kj455/mcp-kibela)
+`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The mcp-kibela project implements a MCP (Model Context Protocol) server that allows AI assistants, such as Claude, to securely access and utilize information stored in Kibela. It provides a robust infrastructure for developers to integrate AI capabilities into their applications, supporting features like searching notes, fetching content by ID or path, and managing notes efficiently.**
+
+**Features:**
+- search
+- notes
+- content retrieval
+- note management
+
+*Tags: mcp-kibela, ai-assistants, kibela, developer-platform, github-actions*
+
+---
+
+### 13. [suthio/brave-deep-research-mcp](https://github.com/suthio/brave-deep-research-mcp)
+`9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**This tool integrates Brave Search with Puppeteer to extract full webpage content, enabling comprehensive data collection and analysis beyond basic search results. It supports configurable exploration depths and customizable result processing, making it suitable for detailed research tasks.**
+
+**Features:**
+- Deep content extraction from web pages
+- Configurable link traversal depth
+- Metadata and structured content retrieval
+- Customizable search parameters and debugging
+- Headless mode support for performance
+
+*Tags: brave-search, deep-research, web-scraping, ai-agents, search-optimization*
+
+---
+
+### 14. [spences10/mcp-perplexity-search](https://github.com/spences10/mcp-perplexity-search)
+`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**This repository provides a MCP server that enhances search capabilities by leveraging Perplexity's AI models, offering features such as advanced chat completion, predefined prompt templates, and customizable configurations. It supports multiple output formats and integrates seamlessly with LLMs for technical documentation generation, security analysis, and code review.**
+
+**Features:**
+- Advanced chat completion
+- Predefined prompt templates
+- Custom template support
+- Multiple output formats
+
+*Tags: search, mcp, perplexity, model-context-protocol*
+
+---
+
+### 15. [spences10/mcp-jinaai-search](https://github.com/spences10/mcp-jinaai-search)
+`8.6` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**This repository implements a Model Context Protocol (MCP) server that connects Jina.ai's search capabilities with LLM-powered interfaces, enabling users to efficiently retrieve and process clean, structured content from the web. It supports various features such as advanced web search, fast content retrieval, and customizable caching for improved performance.**
+
+**Features:**
+- Advanced web search through Jina.ai Search API
+- Fast and efficient content retrieval
+- Content optimized for LLMs
+- Configurable caching for performance
+
+*Tags: mcp-jinaai-search, search-api, llm-integration, web-scraping, content-extraction*
+
+---
+
+### 16. [algonacci/mcp-tavily-extract](https://github.com/algonacci/mcp-tavily-extract)
+`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The algonacci/mcp-tavily-extract project provides a MCP server that allows clients to extract web pages directly. It integrates with GitHub and supports automation, workflow management, and security features for secure code handling.**
+
+**Features:**
+- web page extraction
+- automation integration
+- workflow management
+- security features
+
+*Tags: github, mcp-tavily-extract, web-scraping, api-key, python, developer-tools, code-security, ai-integration...*
+
+---
+
+### 17. [SaveDay - AI Bookmark Manager - Chrome Web Store](https://chromewebstore.google.com/detail/saveday-ai-bookmark-manag/gmfaoihlkhopieoibopcponemocgbloj?hl=en-US)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**An AI-powered bookmark manager that captures multi-format content (links, PDFs, podcasts) and provides semantic search and instant YouTube/article summaries.**
+
+**Features:**
+- Instant AI summaries (YouTube/Article)
+- natural language semantic search
+- multi-format capture (audio/video/PDF)
+- mobile Telegram bot integration.
+
+*Tags: bookmarks, memory, summarization, semantic-search, knowledge-base, artificial-intelligence, chromewebstore*
+
+---
+
+### 18. [AskHistorians (1,101 books)](https://www.goodreads.com/user/show/46890061-askhistorians)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**AskHistorians is a Goodreads-like platform that allows users to discover new books and organize their interests by viewing and tracking various historical categories. It provides an interface for users to explore diverse historical subjects, such as military history, political history, and cultural history.**
+
+**Features:**
+- Book discovery
+- historical categorization
+- user profiles
+- book tracking
+- community interaction
+
+*Tags: goodreads, history, bookshelf, discovery, historical, community, booktracking*
+
+---
+
+### 19. [APHRODISIACS](https://barlowesherbalelixirs.com/aphrodisiacs)
+`4.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**This resource is an online store selling a variety of aphrodisiacs and related health products. It provides users with options to browse categories, view product details, compare prices, and purchase items directly.**
+
+**Features:**
+- Product listing/e-commerce integration
+- price comparison
+- product categorization
+- inventory management
+- clear product ordering functionality
+
+*Tags: e-commerce, health, supplements, product-listing, online-store, health-products*
+
+---
+
+## Monitoring & Analytics
+> 15 tools · avg signal ⚡75
+
+### 1. [cam10001110101/mcp-server-ollama-deep-researcher](https://github.com/cam10001110101/mcp-server-ollama-deep-researcher)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The mcp-server-ollama-deep-researcher is a Node.js-based desktop extension that leverages the MCP protocol to securely access web search APIs (Tavily, Perplexity, Exa) and LLMs (Ollama, DeepSeek). It provides users with configurable research parameters, status tracking, and secure access to resources via a local MCP server. The tool supports real-time research, logging, error handling, and integration with DXT ecosystem components.**
+
+**Features:**
+- Web search API integration
+- LLM synthesis for research results
+- Status tracking and resource access
+- Secure communication via MCP protocol
+- Error handling and timeouts
+- Logging and debugging support
+
+*Tags: ollama-deep-researcher, mcp-server, web-search, llm, research-tools, developer-ux, security, docker...*
+
+---
+
+### 2. [nighttrek/serper-search-mcp](https://github.com/nighttrek/serper-search-mcp)
+`9.0` ★★ ⚡91 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This technical resource details the implementation of a robust search and research platform built on the Serper API, enhanced with an AI-powered deep research tool. It supports advanced configuration for country targeting, language selection, result customization, and secure API key management. The server is designed to deliver rich, structured search results with citations, quality metrics, and configurable depth levels for comprehensive information gathering.**
+
+**Features:**
+- Google search integration via Serper API
+- AI-powered deep research tool with multi-step queries
+- Customizable search parameters (country
+- language
+- result count)
+- Secure handling of API keys and usage metrics
+- Performance optimization and caching support
+
+*Tags: serper-search-mcp, deep-research, ai-powered-search, search-api, mcp-integration, research-tool, typescript, performance-metrics...*
+
+---
+
+### 3. [agentience/expert-registry-mcp](https://github.com/agentience/expert-registry-mcp)
+`9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**This technical resource details the Expert Registry MCP server, emphasizing its advanced features such as vector and graph database integration for semantic search, relationship modeling, and AI-powered context injection. It supports hybrid discovery combining vector similarity and graph connectivity scoring, making expert searches more intelligent and efficient.**
+
+**Features:**
+- High Performance
+- Semantic Search
+- Relationship Modeling
+- Context Injection
+- Analytics
+
+*Tags: vector-database, graph-database, semantic-search, ai-powered, hybrid-discovery, performance-optimized, cloud-native, neo4j...*
+
+---
+
+### 4. [rebots-online/mcp-chat-analysis-server](https://github.com/rebots-online/mcp-chat-analysis-server)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The mcp-chat-analysis-server is an AI-powered platform designed to analyze chat data through semantic search, knowledge graph navigation, and conversation analytics. It supports flexible import formats, integrates with Claude for enhanced capabilities, and provides tools for extracting concepts, analyzing metrics, and visualizing conversation patterns.**
+
+**Features:**
+- Semantic Search
+- Knowledge Graph Navigation
+- Conversation Analytics
+- Flexible Import
+- MCP Integration
+- Metrics Analysis
+- Concept Extraction
+
+*Tags: mcp, chat-analysis, semantic-search, knowledge-graph, conversation-analytics, developer-tools, ai-integration, data-processing...*
+
+---
+
+### 5. [adawalli/nexus](https://github.com/adawalli/nexus)
+`9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
+
+**The Nexus Intelligence database provides a robust platform for AI model search and integration, leveraging OpenRouter API to deliver real-time web search, multi-model capabilities, and structured data retrieval. It supports seamless deployment via Bunx or Node.js, ensuring cross-platform compatibility and minimal setup.**
+
+**Features:**
+- Multi-model AI search (Perplexity Sonar
+- Grok 4
+- Claude)
+- Zero-install deployment with Bunx/NPM
+- Standardized MCP protocol compliance
+- Configurable search parameters (timeout
+- temperature
+- etc.)
+- Structured logging and error handling
+
+*Tags: ai-search, openrouter, mcp-protocol, typescript, bunx, node.js, search-engine, model-integration...*
+
+---
+
+### 6. [yokingma/one-search-mcp](https://github.com/yokingma/one-search-mcp)
+`9.0` ★★ ⚡89 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The one-search-mcp server enables seamless integration of various search providers such as SearXNG, DuckDuckGo, Bing, Google, Zhipu, Exa, Bocha, and more. By leveraging the agent-browser technology, it performs browser automation for local web scraping and content extraction without requiring external API services. This approach enhances privacy, eliminates API costs, and supports both local and cloud-based operations.**
+
+**Features:**
+- Web search
+- Scrape
+- Crawl
+- Content preprocessing
+- Multi-provider support
+
+*Tags: search-engine-integration, browser-automation, web-scraping, content-preprocessing, api-free*
+
+---
+
+### 7. [jedrazb/elastic-semantic-search-mcp-server](https://github.com/jedrazb/elastic-semantic-search-mcp-server)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This project provides a Python implementation of an MCP (Machine Crawler Protocol) server integrated with Elasticsearch to enable semantic search capabilities. It allows users to search up-to-date documentation and content from Search Labs blog posts, leveraging Elastic Open Crawler for crawling and semantic indexing via Elasticsearch's ELSER model.**
+
+**Features:**
+- Elasticsearch semantic search
+- Integration with Search Labs blog posts
+- Crawler setup and configuration
+- Semantic indexing using ELSER model
+- Real-time crawling and indexing
+
+*Tags: elasticsearch, semantic-search, developer-tools, ai-integration, search-automation, api-development, python, mcp-server*
+
+---
+
+### 8. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)
+`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This project leverages the Gemini API to deliver curated, high-quality documentation directly to users, bypassing traditional web search limitations. By integrating with a static knowledge base, it provides tailored responses without chunking or vectorization, making it ideal for technical environments like Roo/Cline.**
+
+**Features:**
+- Access to a curated documentation knowledge base
+- No need for chunking or retriever systems
+- Direct retrieval via Gemini API
+- Supports complex queries and alternatives
+- Real-time access to static documentation
+
+*Tags: gemini-api, mcp-server, documentation-access, technical-documentation, code-search, ai-agents, knowledge-base, api-integration*
+
+---
+
+### 9. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47726913&n=241)
+`7.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource provides a curated view of the most recent developments in technology and startup culture, serving as a key source for developers, entrepreneurs, and tech enthusiasts. It offers quick access to trending topics, insightful discussions, and essential links within the developer ecosystem.**
+
+**Features:**
+- Curated news aggregation
+- community discussion platform
+- direct link to latest insights
+- integrated search functionality
+
+*Tags: news-aggregator, tech-discovery, community-hub, developer-insight, startup-trends, hacker-culture*
+
+---
+
+### 10. [Trending  repositories on GitHub this week · GitHub](https://github.com/trending?since=weekly)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource is a curated view of the most exciting or trending projects within the GitHub community for the current week. It serves as a discovery tool to help users quickly see what technologies, projects, or discussions are gaining traction among developers.**
+
+**Features:**
+- trending project highlights
+- weekly curation
+- developer interest tracking
+- community engagement insights
+
+*Tags: github, trending, discovery, community, tech, developer, software*
+
+---
+
+### 11. [Trending  repositories on GitHub this month · GitHub](https://github.com/trending?since=monthly)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides a snapshot of what developers, the GitHub community, are currently interested in exploring or building around. It serves as a discovery tool to highlight current trends, popular projects, or exciting developments within the developer ecosystem.**
+
+**Features:**
+- GitHub trending list
+- monthly curated topics
+- community excitement highlights
+- quick discovery of tech trends
+
+*Tags: github, trending, discovery, tech, community, software, trends*
+
+---
+
+### 12. [Crystalinks Search Engine & Alphabetical Directory](https://www.crystalinks.com/directory.html)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource functions as an alphabetical directory, offering a vast array of entries spanning ancient civilizations, esoteric concepts, spiritual beliefs, and cultural phenomena. It serves as a curated index for exploring niche interests in history, mythology, and spirituality.**
+
+**Features:**
+- Alphabetical Index
+- Diverse Cultural Entries
+- Esoteric/Spiritual Topics
+- Historical/Mythological References
+
+*Tags: alphabetical-index, cultural-heritage, esoteric-knowledge, ancient-civilizations, mythology, spiritual-concepts*
+
+---
+
+### 13. [FileMood: your gateway to explore discover and download files](https://filemood.com/)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**FileMood functions as a comprehensive file discovery platform, offering users access to a massive catalog of files across the internet. It acts as a gateway for searching, indexing, and downloading diverse files.**
+
+**Features:**
+- file search engine
+- massive file catalog
+- file discovery
+- indexing capabilities
+
+*Tags: file-search, cloud-storage, file-management, web-discovery, indexing*
+
+---
+
+### 14. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47800067&n=61)
+`7.0` ★ ⚡54 Q0.6✓ ✓ Solid
+
+**This resource is a hub for tracking the newest developments in technology and innovation, serving as a central place for developers, enthusiasts, and industry watchers to find relevant articles, discussions, and job opportunities. It provides a curated feed of trending topics and insightful discussions within the developer ecosystem.**
+
+**Features:**
+- curated news aggregation
+
+*Tags: news-aggregator, tech-discovery, developer-community, hacker-news, tech-trends, knowledge-base*
+
+---
+
+### 15. [Reddit - Please wait for verification](https://www.reddit.com/)
+`5.0` ★ ⚡47 Q0.6○ ○ Adequate
+
+**This resource is a platform for developers, enthusiasts, and practitioners to find discussions, insights, and practical applications related to artificial intelligence, software development trends, and technological advancements. It serves as a hub for discovering new tools, understanding complex concepts, and engaging in community discussions about AI and tech.**
+
+**Features:**
+- Community discussion forum
+
+*Tags: ai, developer, community, tech, software, discussion, tools*
+
+---
+
 ## Bridges & Proxies
-> 13 tools · avg signal ⚡84
+> 14 tools · avg signal ⚡84
 
 ### 1. [garylab/serper-mcp-server](https://github.com/garylab/serper-mcp-server)
 `8.8` ★ ⚡92 Q0.9🏆 🏆 World-class
@@ -1191,7 +2192,23 @@
 
 ---
 
-### 13. [Gemini API File Search is now multimodal](https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag)
+### 13. [google.com](https://www.google.com/search?q=yourpace&oq=yourpace&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQgzMzE0ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8&sei=sN8Jas6tEKHdptQPv-Wb-QE&dlnr=1)
+`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+
+**This is a Google Search interface, providing users with a direct gateway to search capabilities, allowing them to query the vast expanse of the web for relevant information. It serves as an entry point for querying knowledge and finding answers through the Google search engine.**
+
+**Features:**
+- Web search functionality
+- Google search engine integration
+- Quick search interface
+- Direct query execution
+- Feedback mechanism
+
+*Tags: google, search, web, discovery, tool, searchengine, indexing*
+
+---
+
+### 14. [Gemini API File Search is now multimodal](https://blog.google/innovation-and-ai/technology/developers-tools/expanded-gemini-api-file-search-multimodal-rag)
 `7.8` ★ ⚡66 Q0.6✓ ✓ Solid
 
 **Gemini API File Search is now multimodal @keyframes showAndTranslateLeft{0%{left:0;opacity:0}to{left:36px;opacity:1}}@keyframes showAndTranslateRight{0%{opacity:0;right:0}to{opacity:1;right:36px}}@keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}@keyframes slideInFromRight{0%{opacity:0;transform:translateX(2%)}to{opacity:1;transform:translateX(0)}}html{-ms-text-size-adjust:100%;-webkit-text-size-adjust...**
@@ -1204,8 +2221,209 @@
 
 ---
 
-## Other Tools
-> 12 tools · avg signal ⚡60
+## Hooks & Lifecycle
+> 6 tools · avg signal ⚡74
+
+### 1. [delorenj/mcp-server-ticketmaster](https://github.com/delorenj/mcp-server-ticketmaster)
+`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The mcp-server-ticketmaster provides a robust tool for querying Ticketmaster's Discovery API, supporting flexible search parameters such as keywords, dates, locations, and event classifications. It outputs structured JSON data for seamless integration with applications while also offering human-readable summaries. The server supports venue-specific and attraction-specific searches, ensuring users can efficiently locate events, venues, and attractions based on various criteria.**
+
+**Features:**
+- Keyword-based search across events
+- venues
+- and attractions
+- Date range filtering for events
+- Location-based searches (city
+- state
+- country)
+- Venue and attraction-specific queries
+- Event classification/category support
+- Output in structured JSON or human-readable text
+
+*Tags: search, discovery, api, ticketmaster, event, venue, attraction, programmatic...*
+
+---
+
+### 2. [nftgo/mcp-nftgo-api](https://github.com/nftgo/mcp-nftgo-api)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The MCP-NFTGO-API serves as a bridge between developers and the NFTGo platform, offering comprehensive endpoints for retrieving collection details, asset information, market trends, user wallets, and real-time notifications. It supports advanced search, filtering, and integration with external tools, making it ideal for building intelligent applications in blockchain and NFT ecosystems.**
+
+**Features:**
+- NFT collection retrieval
+- asset detail access
+- market data analytics
+- user wallet management
+- webhooks & live data feeds
+
+*Tags: nftgo, api, developer, blockchain, nft, data, integration, security...*
+
+---
+
+### 3. [MusicBrainz - the open music encyclopedia](https://musicbrainz.org)
+`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+
+**MusicBrainz is a collaborative, open-source music encyclopedia that aims to be the ultimate source of music information. It allows anyone to contribute and releases its data under open licenses, fostering a universal language for music identification. Maintained by a global community, it provides a reliable and unambiguous way to identify music, enabling meaningful conversations about music between people and machines. The data is available for free download and use.**
+
+**Features:**
+- ['Comprehensive music metadata (artists
+- releases
+- recordings
+- events
+- etc.)'
+- 'Open data licenses (Public Domain)'
+- 'Collaborative editing by a global community'
+- 'XML web service and development libraries for developers'
+- 'MusicBrainz Picard for tagging music files'
+- 'Advanced search capabilities'
+- 'API access for integration with other applications'
+- 'Data available for free download']
+
+*Tags: ['music', 'metadata', 'open-source', 'encyclopedia', 'api', 'database', 'tagging', 'community'...*
+
+---
+
+### 4. [Earnings Calendar | Markets Insider](https://markets.businessinsider.com/earnings-calendar)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource functions as a comprehensive financial search tool, offering detailed earnings calendars, quarterly figures, and company-specific news. It allows users to quickly find essential financial data, such as annual meetings and recent earnings reports, across different market caps.**
+
+**Features:**
+- Earnings calendar lookup
+- company event details
+- large cap/mid cap/small cap filtering
+- time-based scheduling
+- comprehensive financial news aggregation
+
+*Tags: finance, earnings, marketdata, investing, news, stockmarket, businessinsider*
+
+---
+
+### 5. [GangMap.com – Aggregated Gang Maps & Territories](https://www.gangmap.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**GangMap.com provides an aggregation of gang maps, territories, and activities sourced from public domain sources, primarily Reddit users. It serves as a resource for research, educational purposes, and crime prevention, offering specific maps categorized by state or city for targeted searches.**
+
+**Features:**
+- Open-source intelligence (OSINT)
+- Gang map aggregation
+- Publicly available source collection
+- Research/Educational focus
+- User contribution/credit system
+
+*Tags: osint, gangmap, research, intelligence, open-source, reddit, crime-prevention*
+
+---
+
+### 6. [Company Earnings Calendar - Yahoo Finance](https://finance.yahoo.com/calendar/earnings/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This tool provides a detailed earnings calendar view, listing various companies and their associated earnings announcements. It offers key financial metrics like EPS estimates, reported EPS, and surprise percentages, along with market capitalization data.**
+
+**Features:**
+- Earnings Calendar View
+- Company Earnings Data
+- Key Financial Metrics Comparison
+- Event Scheduling
+- Market Data Integration
+
+*Tags: finance, earnings, stock-market, calendar, investing, financial-data*
+
+---
+
+## Memory & Context Systems
+> 5 tools · avg signal ⚡89
+
+### 1. [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)
+`9.8` ★★ ⚡94 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Needle MCP Server acts as a centralized document management hub, allowing users to organize, store, and retrieve documents efficiently. It leverages the Model Context Protocol (MCP) to connect with external data sources, enabling advanced semantic search through Claude's large language model. This integration enhances AI applications by making buried data in PDFs, DOCX, XLSX, and other formats instantly accessible.**
+
+**Features:**
+- Document management and organization
+- Powerful search via Claude's LLM
+- Long-term memory for LLMs
+- Seamless integration with Needle Desktop
+- Support for AI-driven data retrieval
+
+*Tags: needle-mcp, ai-search, document-management, cloud-integration, long-term-memory, developer-tools, semantic-search, cloud-native...*
+
+---
+
+### 2. [haran2001/mcp-search-server](https://github.com/haran2001/mcp-search-server)
+`9.5` ★★ ⚡93 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The MCP Search Server is an advanced tool designed to help users efficiently locate, analyze, and understand Model Context Protocol (MCP) servers. It leverages the Exa AI search engine to provide intelligent discovery, detailed analysis, and comprehensive information about MCP servers. The server supports multiple search modes, integrates with AI assistants, and offers robust features for context engineering, memory persistence, and developer workflows.**
+
+**Features:**
+- Intelligent MCP discovery
+- Smart analysis and ranking of search results
+- Detailed information extraction from server data
+- Search by relevance and category
+- Support for multiple search modes (broad and GitHub)
+- Integration with AI agents like Claude and Cursor
+
+*Tags: search, discovery, ai, mcp, exa, ai-engine, developer-tools, context-analysis...*
+
+---
+
+### 3. [randomm/files-db-mcp](https://github.com/randomm/files-db-mcp)
+`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The Files-DB-MCP project offers a locally hosted vector database optimized for fast, efficient code search using the Message Control Protocol (MCP). It supports zero-configuration setup, real-time file change monitoring, semantic search capabilities, and seamless integration with Claude Code for AI-assisted development. The system is designed to be scalable, with configurable embedding models, model caching, and persistent storage for improved startup performance.**
+
+**Features:**
+- Zero-configuration setup
+- Real-time file change monitoring
+- Semantic code search
+- Integration with Claude Code
+- Model caching and fast startup
+- Persistent Docker volume storage
+
+*Tags: files-db-mcp, ai-assist, code-search, vector-database, mcp-integration, cloud-native, developer-tools, ai-development...*
+
+---
+
+### 4. [privetin/chroma](https://github.com/privetin/chroma)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The privetin/chroma project provides a MCP (Model Context Protocol) server that leverages Chroma's vector database to deliver advanced semantic search, metadata filtering, and persistent document storage. It supports CRUD operations, document management, similarity search, and integrates with external tools for enterprise-grade AI development workflows.**
+
+**Features:**
+- Semantic document search
+- Metadata filtering
+- Persistent document storage
+- CRUD operations
+- Search similar documents
+- Integration with external tools
+
+*Tags: mcp, chroma, ai, developer, search, document, semantic, metadata...*
+
+---
+
+### 5. [google.com](https://www.google.com/search?sca_esv=a57d8d0ed849d052&hl=en-US&sxsrf=ANbL-n43mR9jF8xWUmWofiCqiPofyiPrZQ:1779048657779&udm=2&fbs=ADc_l-aHJKCxetkbp8HihrVlWP2E1iNtw1c6Bqm2EL8gFYaWSYxrIPO0Uw9d1XjTJ7RJppJKRCzubuWABMtzDYJZwTlTqhqCv98YggpFCTMIa0qy_4bgUggaNKH0vxtO79W1aEDb6cWHVQkDptBf3VkSg0ozYd6RkW4h2B4c7rmzTnEsRfLF1VHx47XodDzroWmL2PpQHLu-cgVi_AYYil5ukA-Y4AoXCSv-pBh7zedYSawxByWJ7YU&q=nvidia+control+panel+win98&sa=X&ved=2ahUKEwiPxaPakMGUAxVINoYAHd7TDHwQtKgLegQIERAB&biw=414&bih=726&dpr=2#sv=CAMSWRoyKhBlLTVJSkhzc2h5MkZheUZNMg41SUpIc3NoeTJGYXlGTToORWhVNTF6a2x0ejZrMk0gBCoXCgFzEhBlLTVJSkhzc2h5MkZheUZNGAEwATgASgQIARACGAcgmcWH_w86AEoIEAIYASACKAE)
+`8.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**": "This content explores the process of using Google Search, highlighting its role in automation and workflow management. It covers technical aspects such as interface design, developer tools, and integration within broader AI ecosystems.",   "main_features": ["search optimization", "integration with AI agents", "workflow automation", "user experience enhancements"],   "innovation_score": 8,   "tags": ["ai agents", "search tools", "developer workflows", "automation", "search discovery", "vector...**
+
+**Features:**
+- ": ["search optimization"
+- "integration with AI agents"
+- "workflow automation"
+- "user experience enhancements"]
+
+*Tags: ":-["ai-agents", "search-tools", "developer-workflows", "automation", "search-discovery", "vector-databases", "machine-learning", "user-interface"...*
+
+---
+
+## Browser & Web Tools
+> 5 tools · avg signal ⚡64
 
 ### 1. [mshojaei77/reactmcp](https://github.com/mshojaei77/reactmcp)
 `9.5` ★★ ⚡87 Q0.8🏆 🏆 World-class
@@ -1226,255 +2444,60 @@
 
 ---
 
-### 2. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)
-`8.5` ★ ⚡85 Q0.8🏆 🏆 World-class
-↗3 layers
+### 2. [google.com](https://www.google.com/search?sca_esv=4f696a57d58ffefe&hl=en-US&sxsrf=ANbL-n6KBm57nKSUX61duSI1ZImG4DCDQw:1777450426435&udm=2&fbs=ADc_l-aHJKCxetkbp8HihrVlWP2ENBmj8ePQpnKzyIu6yjoSQgS2Eup85xo5DzP6Z2Tc6kTn6As-hD55HLfUn6a46JV-exP3lzUObZI9L49v73JjfIfqfoHdz5px4Yo9brLFz5lqXEAx0aCgM9hKDjrC6C-b9mfyU4zleIAiE-MfNGcY8GAQ2SUiG12B9i6OB__z5STvhRCSODe9tAmQ54LXhfwgz7BvUwa7v1A6ci_rLxeB9g6sqq4&q=xerox+alto+gui&sa=X&ved=2ahUKEwjnqpfqzpKUAxXQnysGHbFrLYcQtKgLegQIExAB&biw=414&bih=726&dpr=2#sv=CAMSVxoyKhBlLUt4MmRnR0hHeHFnUThNMg5LeDJkZ0dIR3hxZ1E4TToOQnhyeVktZHVlU05xTk0gBCoXCgFzEhBlLUt4MmRnR0hHeHFnUThNGAEwAUoECAEQAhgHIKLaueQESggQAhgBIAIoAQ)
+`8.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**This project provides a Python-based server that extends PubMed's capabilities by integrating MeSH term lookup, PICO-based searches, publication statistics, and structured querying. It supports complex research workflows with features like keyword filtering, sorting, and detailed paper information retrieval.**
-
-**Features:**
-- search_pubmed
-- get_mesh_terms
-- get_pubmed_count
-- format_paper_details
-- pico_search
-
-*Tags: pubmed-enhanced-mcp-server, mehs-search, pico-search, publication-stats, library-integration*
-
----
-
-### 3. [spences10/mcp-svelte-docs](https://github.com/spences10/mcp-svelte-docs)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**This resource provides a comprehensive search interface for the mcp-svelte-docs, enabling users to access detailed documentation with examples and code snippets. It supports modern TypeScript features and integrates seamlessly with Svelte 5 and SvelteKit, offering a developer-friendly environment.**
+**This resource is a Google Search interface, designed to perform web searches by providing users with a direct entry point to discover relevant information through search queries. It serves as a fundamental tool for querying the vast index of the web.**
 
 **Features:**
-- Single tool for all Svelte 5 concepts
-- TypeScript-first documentation
-- Search functionality
-- Examples and snippets
-- Migration guidance
+- Web search functionality
+- query execution
+- result presentation
+- intuitive interface
 
-*Tags: svelte, typescript, docs, developer-tools, mcp*
+*Tags: google, search, web, discovery, tool, searchengine, information*
 
 ---
 
-### 4. [lineex/pubmed-mcp-smithery](https://github.com/lineex/pubmed-mcp-smithery)
-`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗4 layers
+### 3. [Taiwan Semiconductor Manufacturing (TSM) Stock Price Prediction: 2026, 2027, 2030: Analyst Targets & Forecast • Benzinga](https://www.benzinga.com/money/tsm-stock-price-prediction)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
 
-**This project provides a Python-based server that extends PubMed's capabilities with enhanced search, MeSH term lookup, PICO-based queries, and structured data retrieval. It supports complex searches, publication statistics, and integrates with Docker for deployment.**
+**This resource analyzes the potential future stock price of Taiwan Semiconductor Manufacturing (TSMC), highlighting its role in the AI chip industry. It provides current market data, analyst sentiment, and forecasts for TSM's performance.**
 
 **Features:**
-- PubMed Enhanced Search MCP Server
-- MeSH term lookup
-- Publication count statistics
-- PICO-based search functionality
+- Stock price prediction
+- market cap details
+- analyst sentiment analysis
+- key factors influencing TSM's path
 
-*Tags: pubmed-enhanced-mcp, search-tools, bibliographic-metadata, data-analysis, api-integration*
-
----
-
-### 5. [X/Twitter Post](https://x.com/nousresearch/status/2038688578201346513)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**https://x.com/nousresearch/status/2038688578201346513**
+*Tags: stock-prediction, tsm, ai, semiconductor, tech-stock, market-analysis*
 
 ---
 
-### 6. [X/Twitter Post](https://x.com/search_ai/status/2029797569141035169)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+### 4. [google.com](https://www.google.com/search?q=cortexos&oq=cortexos&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg0NDE0ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
+`8.0` ★ ⚡55 Q0.5✓ ✓ Solid
 
-**https://x.com/search_ai/status/2029797569141035169**
-
----
-
-### 7. [google.com](https://www.google.com/search?q=Sam+Altman+-+%E2%80%9Conce+we%E2%80%99ve+built+this+general+intelligence%2C+we+will+just+ask+it+how+to+generate+an+investment+return%E2%80%9D&hl=en-US&sourceid=chrome-mobile&ie=UTF-8#lfId=ChxjMe)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**google.com**
-
----
-
-### 8. [google.com](https://www.google.com/search?q=cortexos&oq=cortexos&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg0NDE0ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**google.com**
-
----
-
-### 9. [google.com](https://www.google.com/search?q=cortextos&oq=cortextos&gs_lcrp=EghlZGdlX2lvcyoGCAAQRRg5MgYIABBFGDnSAQg2NTA4ajBqN6gCALACAeIDBBgBIF8&hl=en-US&sourceid=chrome-mobile&ie=UTF-8)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**google.com**
-
----
-
-### 10. [Forget The Singularity Googles New Research Says](https://www.reddit.com/r/ArtificialNtelligence/comments/1s6tisq/forget_the_singularity_googles_new_research_says/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Forget The Singularity Googles New Research Says**
-
----
-
-### 11. [Cuttingedge Ai Search Capabilities Are Open To](https://www.reddit.com/r/LovingOpenSourceAI/comments/1sle4dh/cuttingedge_ai_search_capabilities_are_open_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cuttingedge Ai Search Capabilities Are Open To**
-
----
-
-### 12. [Gemini Deep Research Visiting 368 Websites Is](https://www.reddit.com/r/GeminiAI/comments/1saaaby/gemini_deep_research_visiting_368_websites_is/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini Deep Research Visiting 368 Websites Is**
-
----
-
-## Monitoring & Analytics
-> 8 tools · avg signal ⚡90
-
-### 1. [cam10001110101/mcp-server-ollama-deep-researcher](https://github.com/cam10001110101/mcp-server-ollama-deep-researcher)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The mcp-server-ollama-deep-researcher is a Node.js-based desktop extension that leverages the MCP protocol to securely access web search APIs (Tavily, Perplexity, Exa) and LLMs (Ollama, DeepSeek). It provides users with configurable research parameters, status tracking, and secure access to resources via a local MCP server. The tool supports real-time research, logging, error handling, and integration with DXT ecosystem components.**
+**This is a Google Search interface, demonstrating its core capability to index vast amounts of web data for quick and accurate retrieval. It serves as an entry point for users seeking information or answers through search queries.**
 
 **Features:**
-- Web search API integration
-- LLM synthesis for research results
-- Status tracking and resource access
-- Secure communication via MCP protocol
-- Error handling and timeouts
-- Logging and debugging support
+- Web search functionality
 
-*Tags: ollama-deep-researcher, mcp-server, web-search, llm, research-tools, developer-ux, security, docker...*
+*Tags: google, search, web-search, discovery, information-retrieval, tool*
 
 ---
 
-### 2. [nighttrek/serper-search-mcp](https://github.com/nighttrek/serper-search-mcp)
-`9.0` ★★ ⚡91 Q0.8🏆 🏆 World-class
-↗2 layers
+### 5. [](http://www.spam-uk.com/)
+`5.0` ★ ⚡54 Q0.6✓ ✓ Solid
 
-**This technical resource details the implementation of a robust search and research platform built on the Serper API, enhanced with an AI-powered deep research tool. It supports advanced configuration for country targeting, language selection, result customization, and secure API key management. The server is designed to deliver rich, structured search results with citations, quality metrics, and configurable depth levels for comprehensive information gathering.**
-
-**Features:**
-- Google search integration via Serper API
-- AI-powered deep research tool with multi-step queries
-- Customizable search parameters (country
-- language
-- result count)
-- Secure handling of API keys and usage metrics
-- Performance optimization and caching support
-
-*Tags: serper-search-mcp, deep-research, ai-powered-search, search-api, mcp-integration, research-tool, typescript, performance-metrics...*
-
----
-
-### 3. [agentience/expert-registry-mcp](https://github.com/agentience/expert-registry-mcp)
-`9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**This technical resource details the Expert Registry MCP server, emphasizing its advanced features such as vector and graph database integration for semantic search, relationship modeling, and AI-powered context injection. It supports hybrid discovery combining vector similarity and graph connectivity scoring, making expert searches more intelligent and efficient.**
+**This resource is a retail site showcasing various SPAM products, including a classic grilled cheese recipe and details on the ingredients of the pork and ham. It serves as a discovery platform for users interested in the SPAM brand and related food products.**
 
 **Features:**
-- High Performance
-- Semantic Search
-- Relationship Modeling
-- Context Injection
-- Analytics
+- Product discovery
+- recipe suggestions
+- brand information
+- e-commerce integration
 
-*Tags: vector-database, graph-database, semantic-search, ai-powered, hybrid-discovery, performance-optimized, cloud-native, neo4j...*
-
----
-
-### 4. [rebots-online/mcp-chat-analysis-server](https://github.com/rebots-online/mcp-chat-analysis-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The mcp-chat-analysis-server is an AI-powered platform designed to analyze chat data through semantic search, knowledge graph navigation, and conversation analytics. It supports flexible import formats, integrates with Claude for enhanced capabilities, and provides tools for extracting concepts, analyzing metrics, and visualizing conversation patterns.**
-
-**Features:**
-- Semantic Search
-- Knowledge Graph Navigation
-- Conversation Analytics
-- Flexible Import
-- MCP Integration
-- Metrics Analysis
-- Concept Extraction
-
-*Tags: mcp, chat-analysis, semantic-search, knowledge-graph, conversation-analytics, developer-tools, ai-integration, data-processing...*
-
----
-
-### 5. [adawalli/nexus](https://github.com/adawalli/nexus)
-`9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
-
-**The Nexus Intelligence database provides a robust platform for AI model search and integration, leveraging OpenRouter API to deliver real-time web search, multi-model capabilities, and structured data retrieval. It supports seamless deployment via Bunx or Node.js, ensuring cross-platform compatibility and minimal setup.**
-
-**Features:**
-- Multi-model AI search (Perplexity Sonar
-- Grok 4
-- Claude)
-- Zero-install deployment with Bunx/NPM
-- Standardized MCP protocol compliance
-- Configurable search parameters (timeout
-- temperature
-- etc.)
-- Structured logging and error handling
-
-*Tags: ai-search, openrouter, mcp-protocol, typescript, bunx, node.js, search-engine, model-integration...*
-
----
-
-### 6. [yokingma/one-search-mcp](https://github.com/yokingma/one-search-mcp)
-`9.0` ★★ ⚡89 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The one-search-mcp server enables seamless integration of various search providers such as SearXNG, DuckDuckGo, Bing, Google, Zhipu, Exa, Bocha, and more. By leveraging the agent-browser technology, it performs browser automation for local web scraping and content extraction without requiring external API services. This approach enhances privacy, eliminates API costs, and supports both local and cloud-based operations.**
-
-**Features:**
-- Web search
-- Scrape
-- Crawl
-- Content preprocessing
-- Multi-provider support
-
-*Tags: search-engine-integration, browser-automation, web-scraping, content-preprocessing, api-free*
-
----
-
-### 7. [jedrazb/elastic-semantic-search-mcp-server](https://github.com/jedrazb/elastic-semantic-search-mcp-server)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This project provides a Python implementation of an MCP (Machine Crawler Protocol) server integrated with Elasticsearch to enable semantic search capabilities. It allows users to search up-to-date documentation and content from Search Labs blog posts, leveraging Elastic Open Crawler for crawling and semantic indexing via Elasticsearch's ELSER model.**
-
-**Features:**
-- Elasticsearch semantic search
-- Integration with Search Labs blog posts
-- Crawler setup and configuration
-- Semantic indexing using ELSER model
-- Real-time crawling and indexing
-
-*Tags: elasticsearch, semantic-search, developer-tools, ai-integration, search-automation, api-development, python, mcp-server*
-
----
-
-### 8. [m-gonzalo/cosa-sai](https://github.com/m-gonzalo/cosa-sai)
-`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**This project leverages the Gemini API to deliver curated, high-quality documentation directly to users, bypassing traditional web search limitations. By integrating with a static knowledge base, it provides tailored responses without chunking or vectorization, making it ideal for technical environments like Roo/Cline.**
-
-**Features:**
-- Access to a curated documentation knowledge base
-- No need for chunking or retriever systems
-- Direct retrieval via Gemini API
-- Supports complex queries and alternatives
-- Real-time access to static documentation
-
-*Tags: gemini-api, mcp-server, documentation-access, technical-documentation, code-search, ai-agents, knowledge-base, api-integration*
+*Tags: food, e-commerce, brand, recipe, discovery, spam*
 
 ---
 
@@ -1572,80 +2595,6 @@
 
 ---
 
-## Memory & Context Systems
-> 4 tools · avg signal ⚡92
-
-### 1. [needle-ai/needle-mcp](https://github.com/needle-ai/needle-mcp)
-`9.8` ★★ ⚡94 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Needle MCP Server acts as a centralized document management hub, allowing users to organize, store, and retrieve documents efficiently. It leverages the Model Context Protocol (MCP) to connect with external data sources, enabling advanced semantic search through Claude's large language model. This integration enhances AI applications by making buried data in PDFs, DOCX, XLSX, and other formats instantly accessible.**
-
-**Features:**
-- Document management and organization
-- Powerful search via Claude's LLM
-- Long-term memory for LLMs
-- Seamless integration with Needle Desktop
-- Support for AI-driven data retrieval
-
-*Tags: needle-mcp, ai-search, document-management, cloud-integration, long-term-memory, developer-tools, semantic-search, cloud-native...*
-
----
-
-### 2. [haran2001/mcp-search-server](https://github.com/haran2001/mcp-search-server)
-`9.5` ★★ ⚡93 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The MCP Search Server is an advanced tool designed to help users efficiently locate, analyze, and understand Model Context Protocol (MCP) servers. It leverages the Exa AI search engine to provide intelligent discovery, detailed analysis, and comprehensive information about MCP servers. The server supports multiple search modes, integrates with AI assistants, and offers robust features for context engineering, memory persistence, and developer workflows.**
-
-**Features:**
-- Intelligent MCP discovery
-- Smart analysis and ranking of search results
-- Detailed information extraction from server data
-- Search by relevance and category
-- Support for multiple search modes (broad and GitHub)
-- Integration with AI agents like Claude and Cursor
-
-*Tags: search, discovery, ai, mcp, exa, ai-engine, developer-tools, context-analysis...*
-
----
-
-### 3. [randomm/files-db-mcp](https://github.com/randomm/files-db-mcp)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The Files-DB-MCP project offers a locally hosted vector database optimized for fast, efficient code search using the Message Control Protocol (MCP). It supports zero-configuration setup, real-time file change monitoring, semantic search capabilities, and seamless integration with Claude Code for AI-assisted development. The system is designed to be scalable, with configurable embedding models, model caching, and persistent storage for improved startup performance.**
-
-**Features:**
-- Zero-configuration setup
-- Real-time file change monitoring
-- Semantic code search
-- Integration with Claude Code
-- Model caching and fast startup
-- Persistent Docker volume storage
-
-*Tags: files-db-mcp, ai-assist, code-search, vector-database, mcp-integration, cloud-native, developer-tools, ai-development...*
-
----
-
-### 4. [privetin/chroma](https://github.com/privetin/chroma)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The privetin/chroma project provides a MCP (Model Context Protocol) server that leverages Chroma's vector database to deliver advanced semantic search, metadata filtering, and persistent document storage. It supports CRUD operations, document management, similarity search, and integrates with external tools for enterprise-grade AI development workflows.**
-
-**Features:**
-- Semantic document search
-- Metadata filtering
-- Persistent document storage
-- CRUD operations
-- Search similar documents
-- Integration with external tools
-
-*Tags: mcp, chroma, ai, developer, search, document, semantic, metadata...*
-
----
-
 ## Orchestration
 > 4 tools · avg signal ⚡86
 
@@ -1717,6 +2666,65 @@
 
 ---
 
+## Verification & Testing
+> 4 tools · avg signal ⚡59
+
+### 1. [I Built The Largest Free Directory Of Mcp Servers](https://www.reddit.com/r/mcp/comments/1tm7duq/i_built_the_largest_free_directory_of_mcp_servers/)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**This resource is a curated directory of over 28,577 individually verified MCP servers, providing developers with a centralized place to discover tools. It offers detailed metadata, categorization, and verification scores, helping users decide which server is worth installing based on its utility and required setup.**
+
+**Features:**
+- MCP server directory
+- individual verification
+- categorized sorting
+- free/no-paywall model
+- developer tool discovery
+
+*Tags: mcp, directory, developer-tools, search-engine, free-tech, verification, reddit*
+
+---
+
+### 2. [Just the Recipe: Skip the clutter on any recipe site](https://www.justtherecipe.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**JustTheRecipe is a culinary resource designed to offer users a curated set of recipes, aiming to reduce clutter by presenting high-quality, inspiring recipes in an accessible format. It focuses on the 'recipe' domain, offering a discovery platform for cooks looking for culinary inspiration.**
+
+**Features:**
+- Recipe discovery platform
+- streamlined recipe interface
+- user-friendly cooking experience
+- recipe curation/filtering
+- intuitive search functionality
+
+*Tags: recipe-site, culinary, food-discovery, user-experience, cooking-inspiration, search-engine*
+
+---
+
+### 3. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47713849&n=61)
+`7.0` ★ ⚡51 Q0.5✓ ✓ Solid
+
+**This resource is a dynamic hub that aggregates the most current and relevant discussions, links, and insights from the Hacker News ecosystem. It serves as a primary source for developers, tech enthusiasts, and industry professionals looking to stay updated on the latest trends and happenings in the tech world.**
+
+**Features:**
+- news aggregation
+
+*Tags: news*
+
+---
+
+### 4. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47755938&n=31)
+`7.0` ★ ⚡51 Q0.5✓ ✓ Solid
+
+**This resource provides a curated view of the most current happenings in the tech world, offering links to fresh articles, insightful comments, and relevant discussions. It serves as a key entry point for developers and tech enthusiasts looking to stay informed about the latest trends and developments.**
+
+**Features:**
+- Curated news aggregation
+
+*Tags: news*
+
+---
+
 ## Skill Systems
 > 3 tools · avg signal ⚡93
 
@@ -1772,69 +2780,5 @@
 - Search history storage in SQLite
 
 *Tags: search, go, tui, llm, ui, golang, node-version, nvmrc...*
-
----
-
-## Hooks & Lifecycle
-> 3 tools · avg signal ⚡87
-
-### 1. [delorenj/mcp-server-ticketmaster](https://github.com/delorenj/mcp-server-ticketmaster)
-`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The mcp-server-ticketmaster provides a robust tool for querying Ticketmaster's Discovery API, supporting flexible search parameters such as keywords, dates, locations, and event classifications. It outputs structured JSON data for seamless integration with applications while also offering human-readable summaries. The server supports venue-specific and attraction-specific searches, ensuring users can efficiently locate events, venues, and attractions based on various criteria.**
-
-**Features:**
-- Keyword-based search across events
-- venues
-- and attractions
-- Date range filtering for events
-- Location-based searches (city
-- state
-- country)
-- Venue and attraction-specific queries
-- Event classification/category support
-- Output in structured JSON or human-readable text
-
-*Tags: search, discovery, api, ticketmaster, event, venue, attraction, programmatic...*
-
----
-
-### 2. [nftgo/mcp-nftgo-api](https://github.com/nftgo/mcp-nftgo-api)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The MCP-NFTGO-API serves as a bridge between developers and the NFTGo platform, offering comprehensive endpoints for retrieving collection details, asset information, market trends, user wallets, and real-time notifications. It supports advanced search, filtering, and integration with external tools, making it ideal for building intelligent applications in blockchain and NFT ecosystems.**
-
-**Features:**
-- NFT collection retrieval
-- asset detail access
-- market data analytics
-- user wallet management
-- webhooks & live data feeds
-
-*Tags: nftgo, api, developer, blockchain, nft, data, integration, security...*
-
----
-
-### 3. [MusicBrainz - the open music encyclopedia](https://musicbrainz.org)
-`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-
-**MusicBrainz is a collaborative, open-source music encyclopedia that aims to be the ultimate source of music information. It allows anyone to contribute and releases its data under open licenses, fostering a universal language for music identification. Maintained by a global community, it provides a reliable and unambiguous way to identify music, enabling meaningful conversations about music between people and machines. The data is available for free download and use.**
-
-**Features:**
-- ['Comprehensive music metadata (artists
-- releases
-- recordings
-- events
-- etc.)'
-- 'Open data licenses (Public Domain)'
-- 'Collaborative editing by a global community'
-- 'XML web service and development libraries for developers'
-- 'MusicBrainz Picard for tagging music files'
-- 'Advanced search capabilities'
-- 'API access for integration with other applications'
-- 'Data available for free download']
-
-*Tags: ['music', 'metadata', 'open-source', 'encyclopedia', 'api', 'database', 'tagging', 'community'...*
 
 ---

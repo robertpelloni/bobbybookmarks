@@ -1,16 +1,20 @@
 # 🤳 Interface & Developer UX
-> Borg Intelligence Atlas v8 · 2026-05-19 · 608 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 750 tools
 > Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **608** |
-| Standout 🏆⭐ | 139 |
-| Avg Signal | ⚡78 |
-| Innovation 10 | 80 █████░░░░░░░░░░░░░░░ |
-| Innovation 9 | 138 █████████░░░░░░░░░░░ |
-| Innovation 8 | 287 ████████████████████ |
-| Innovation 7 | 103 ███████░░░░░░░░░░░░░ |
+| Total tools | **750** |
+| Standout 🏆⭐ | 135 |
+| Avg Signal | ⚡76 |
+| Innovation 10 | 79 ████░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 134 ████████░░░░░░░░░░░░ |
+| Innovation 8 | 331 ████████████████████ |
+| Innovation 7 | 66 ███░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 38 ██░░░░░░░░░░░░░░░░░░ |
+| Innovation 5 | 91 █████░░░░░░░░░░░░░░░ |
+| Innovation 4 | 10 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 3 | 1 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -41,27 +45,1843 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 95 tools · ⚡61
-- [Skill Systems](#skill-systems) — 73 tools · ⚡87
-- [Spec-Driven Development](#spec-driven-development) — 71 tools · ⚡83
-- [Monitoring & Analytics](#monitoring--analytics) — 62 tools · ⚡85
-- [Config & Profile Management](#config--profile-management) — 57 tools · ⚡85
-- [Bridges & Proxies](#bridges--proxies) — 45 tools · ⚡86
-- [Context Engineering](#context-engineering) — 38 tools · ⚡81
-- [Governance & Safety](#governance--safety) — 36 tools · ⚡86
-- [Harness Frameworks](#harness-frameworks) — 24 tools · ⚡79
-- [Memory & Context Systems](#memory--context-systems) — 23 tools · ⚡87
-- [Browser & Web Tools](#browser--web-tools) — 21 tools · ⚡67
-- [Major Harness Integrations](#major-harness-integrations) — 18 tools · ⚡48
-- [Verification & Testing](#verification--testing) — 16 tools · ⚡73
-- [Hooks & Lifecycle](#hooks--lifecycle) — 12 tools · ⚡86
-- [Orchestration](#orchestration) — 11 tools · ⚡75
-- [Cli Coding Agents](#cli-coding-agents) — 6 tools · ⚡54
+- [Spec-Driven Development](#spec-driven-development) — 109 tools · ⚡76
+- [Other Tools](#other-tools) — 96 tools · ⚡64
+- [Monitoring & Analytics](#monitoring--analytics) — 87 tools · ⚡78
+- [Skill Systems](#skill-systems) — 78 tools · ⚡86
+- [Config & Profile Management](#config--profile-management) — 75 tools · ⚡79
+- [Bridges & Proxies](#bridges--proxies) — 48 tools · ⚡85
+- [Governance & Safety](#governance--safety) — 45 tools · ⚡79
+- [Context Engineering](#context-engineering) — 43 tools · ⚡79
+- [Browser & Web Tools](#browser--web-tools) — 39 tools · ⚡63
+- [Harness Frameworks](#harness-frameworks) — 27 tools · ⚡79
+- [Hooks & Lifecycle](#hooks--lifecycle) — 27 tools · ⚡75
+- [Memory & Context Systems](#memory--context-systems) — 25 tools · ⚡86
+- [Orchestration](#orchestration) — 23 tools · ⚡72
+- [Verification & Testing](#verification--testing) — 19 tools · ⚡73
+- [Major Harness Integrations](#major-harness-integrations) — 7 tools · ⚡58
+- [Cli Coding Agents](#cli-coding-agents) — 2 tools · ⚡59
+
+---
+
+## Spec-Driven Development
+> 109 tools · avg signal ⚡76
+
+### 1. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**This project implements a bridge between LLM-based coding agents and the Chrome DevTools Protocol (CDP) using the Model Context Protocol (MCP). It allows agents to perform high-fidelity browser automation, deep network inspection, and performance analysis by exposing Puppeteer-driven actions and DevTools data as tools. The server supports recording traces for performance profiling, fetching real-user experience data via the Google CrUX API, and extracting console logs with source-mapped stack tr...**
+
+**Features:**
+- MCP server architecture
+- Puppeteer-driven automation
+- Chrome DevTools Protocol integration
+- performance trace recording
+- network request inspection
+- source-mapped console log extraction
+- CrUX API field data integration
+- slim execution mode
+- multi-client support (Claude
+- Cursor
+- VS Code
+- Gemini)
+- ... and 1 more
+
+*Tags: mcp, chrome-devtools, puppeteer, browser-automation, agentic-workflows, llm-tools, debugging-protocol, performance-analysis...*
+
+---
+
+### 2. [microsoft/fara](https://github.com/microsoft/fara)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**Fara-7B represents a shift toward specialized Small Language Models (SLMs) for autonomous computer use, utilizing a visual-only approach that bypasses traditional dependencies on accessibility trees or DOM parsing. Built on the Qwen2.5-VL-7B architecture, it was trained using a novel synthetic data pipeline powered by Magentic-One, comprising 145,000 task trajectories. The model functions by perceiving screenshots and directly predicting pixel coordinates for mouse clicks and keyboard inputs, al...**
+
+**Features:**
+- Visual coordinate prediction
+- on-device SLM execution
+- synthetic trajectory training pipeline
+- WebTailBench evaluation framework
+- Playwright integration
+- low-step task completion
+- cross-browser automation
+- Magentic-UI compatibility
+
+*Tags: slm, computer-use, vision-language-model, agentic-ai, visual-grounding, web-automation, synthetic-data, qwen-2.5-vl...*
+
+---
+
+### 3. [sivan22/mcp-sefaria-server](https://github.com/sivan22/mcp-sefaria-server)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project provides a developer-friendly interface for accessing and utilizing Jewish texts from the Sefaria library through an MCP (Model Context Protocol) server. It supports features such as retrieving specific texts, searching by reference or keyword, viewing commentaries, and accessing daily learning schedules. The platform is designed to be integrated into modern development workflows, offering seamless interaction with external APIs and supporting enterprise-level security and scalabilit...**
+
+**Features:**
+- API integration with Sefaria
+- Text retrieval by reference or keyword
+- Commentary search functionality
+- Daily learning schedule generation
+- Customizable learning plans
+- Secure and scalable architecture
+
+*Tags: mcp-sefaria-server, sefaria-jewish-library, api-integration, developer-tool, learning-platform, text-access, api-security, sefaria-api...*
+
+---
+
+### 4. [tedlikeskix/xrpl-mcp-service](https://github.com/tedlikeskix/xrpl-mcp-service)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a Python-based MCP (Master Control Protocol) server implementation that allows AI models to securely and efficiently interact with the XRP Ledger blockchain. It leverages FastAPI for asynchronous API endpoints, integrates with XRPL protocol specifications, and supports key functionalities such as account management, trust lines, NFT operations, AMM data retrieval, and market price queries. The codebase emphasizes developer experience through structured tool registration, cle...**
+
+**Features:**
+- async implementation
+- xrpl_tools.py
+- tool registration
+- account management
+- trust lines
+- amm info
+- market price queries
+
+*Tags: xrpl, fastapi, asyncio, xrpledger, developer-tools, ai-integration, blockchain, smartcontracts...*
+
+---
+
+### 5. [gaplydev01/coingecko-mcp-server](https://github.com/gaplydev01/coingecko-mcp-server)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project offers a robust Node.js Express-based server that integrates with both the free and Pro versions of the CoinGecko API. It supports automatic fallback to the free API during development, enabling developers to quickly test and prototype applications without immediate infrastructure concerns. The server exposes RESTful endpoints for various CoinGecko data types such as prices, coins, market data, and trends, adhering to the MCP (Marketplace Component Program) specification for seamless...**
+
+**Features:**
+- Dual API support (free and Pro)
+- Automatic fallback to free API
+- RESTful endpoints for CoinGecko data
+- Comprehensive documentation and setup guides
+- Integration with MCP for AI systems
+- Environment configuration via .env file
+
+*Tags: nodejs, express, coingecko, api-integration, developer-tools, mcp, ai-integration, cryptocurrency...*
+
+---
+
+### 6. [kryzo/mcp-sncf](https://github.com/kryzo/mcp-sncf)
+`10.0` ★★★ ⚡95 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The project provides a modular Python interface to the SNCF API, integrating seamlessly with Claude Desktop. It supports intelligent journey planning, real-time schedules, disruption monitoring, station details, and transport mode analysis across France. Developers can leverage this tool to automate workflows, enhance user experiences, and integrate advanced features like AI-driven recommendations.**
+
+**Features:**
+- Modular Python wrapper for SNCF API
+- Integration with Claude Desktop for intelligent journey planning
+- Real-time schedules and disruption monitoring
+- Station information retrieval (facilities
+- transport types)
+- Detailed train journey planning with customizable parameters
+- Automated workflows and code management tools
+
+*Tags: software-development, developer-workflow, ai-integration, api-integration, travel-planning, mcp-server, cloud-services, user-experience...*
+
+---
+
+### 7. [dragons96/mcp-undetected-chromedriver](https://github.com/dragons96/mcp-undetected-chromedriver)
+`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
+
+**The MCP-Undetected-Chromedriver project provides a specialized Chrome browser instance that leverages the undetected-chromedriver library to effectively evade modern website anti-bot mechanisms. It offers a comprehensive API for tasks such as navigating URLs, capturing screenshots, handling iframes, and interacting with web elements, making it ideal for automated testing, data scraping, and web automation.**
+
+**Features:**
+- Browser navigation
+- Screenshot capture
+- Iframe element interaction
+- Form filling
+- Click operations
+- PDF export
+- Complex page interactions
+
+*Tags: mcp, undetected-chromedriver, web-automation, browser-control, api-integration*
+
+---
+
+### 8. [adrian-dotco/harvest-mcp-server](https://github.com/adrian-dotco/harvest-mcp-server)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Harvest MCP Server allows users to log work hours using conversational natural language inputs, intelligently parsing and interpreting phrases like 'I'm off sick today' or 'Take annual leave next week'. It supports configurable workday hours, timezone settings, and automatic matching with projects and tasks. The system integrates seamlessly with Harvest's API for time tracking, offering a user-friendly experience that reduces friction in time entry while maintaining accuracy and compliance.**
+
+**Features:**
+- natural language time entry
+- special leave request handling
+- configurable workday hours
+- timezone support
+- project and task matching
+- smart date parsing
+
+*Tags: harvest, mcp-server, natural-language-api, time-tracking, developer-tools, workflow-integration, customer-account, api-integration...*
+
+---
+
+### 9. [byteplant-dev/byteplant-mcp](https://github.com/byteplant-dev/byteplant-mcp)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+
+**This package delivers robust, real-time validation capabilities for critical data fields such as email addresses, phone numbers, and postal addresses. By integrating Byteplant's specialized validators, it ensures high accuracy and reliability in live client environments. The modular design allows developers to easily incorporate these services into existing applications, enhancing user experience through automated verification. Key features include seamless integration with Claude Desktop, compr...**
+
+**Features:**
+- Real-time email validation
+- Phone number verification
+- Address geolocation and deliverability checks
+- Support for multiple validator APIs
+- Customizable configuration via CLI
+
+*Tags: api-integration, mcp-server, email-validation, phone-verification, address-validation, developer-tools, real-time-processing*
+
+---
+
+### 10. [AbanteAI/vscode](https://github.com/AbanteAI/vscode)
+`9.1` ★★ ⚡92 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The resource points to a fork of the official Microsoft Visual Studio Code source repository ('Code - OSS'). VS Code itself is a highly influential developer tool providing a rich code editor, debugging, and a vast extensibility model. While this specific link is for a fork by 'AbanteAI', the content extensively describes the architecture, contribution guidelines, and core features of VS Code, which fundamentally represents a sophisticated Interface & Developer UX layer for software development,...**
+
+**Features:**
+- Rich code editing and navigation
+- Lightweight debugging
+- Extensibility model for extensions
+- Development container support (Dev Containers/Codespaces)
+- Monthly update cycle
+- Community contribution workflow.
+
+*Tags: visual-studio-code, code-editor, ide, developer-experience, extensibility, devcontainer, codespaces, typescript...*
+
+---
+
+### 11. [robertoamoreno/couchdb-mcp-server](https://github.com/robertoamoreno/couchdb-mcp-server)
+`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Borg Project's 'couchdb-mcp-server' is a developer-focused platform that provides tools for managing CouchDB databases and documents. It supports AI integration, offering features such as database creation, document manipulation, index management, and querying via Mango and CouchDB 3.x+ syntax. Designed for seamless interaction with CouchDB through a simple interface, it includes robust error handling and debugging tools like the MCP Inspector.**
+
+**Features:**
+- Create and manage CouchDB databases
+- Create and update documents
+- Index creation and management
+- Query support via Mango syntax
+- Automatic detection of database operations
+- Integration with AI assistants
+- Debugging tools (MCP Inspector)
+- Version compatibility (CouchDB 3.x+)
+
+*Tags: couchdb, mcp-server, ai-integration, developer-tools, couchdb-mcp-server, api, database-management, developer-interface...*
+
+---
+
+### 12. [AbanteAI/spice](https://github.com/AbanteAI/spice)
+`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**Spice functions as a developer-centric interface layer, abstracting the underlying specifics of different LLM providers. It standardizes calls for text generation, streaming, vision inputs, embeddings, and transcriptions across providers like OpenAI and Anthropic. Key to its UX is the automatic loading of API keys via environment variables or `.env` files, the ability to alias models for easy switching, built-in tracking of usage statistics (tokens, time, cost), and support for loading/rendering...**
+
+**Features:**
+- Unified API wrapper for multiple LLM SDKs (OpenAI
+- Anthropic)
+- Automatic environment variable/`.env` file API key loading
+- Model aliasing for easy provider switching
+- Automatic cost
+- token
+- and time tracking per call
+- Support for streaming responses and complete response retrieval
+- Jinja template rendering for prompt loading
+- Support for vision models and embeddings/transcriptions
+- Built-in constants for commonly used models
+
+*Tags: llm-wrapper, developer-experience, provider-abstraction, prompt-management, usage-tracking, asyncio, python-sdk, multi-provider...*
+
+---
+
+### 13. [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**GitHub - cloudflare/workers-sdk: ⛅️ Home to Wrangler, the CLI for Cloudflare Workers® · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert cloudflare / workers-sdk Public Notifications You must be signed in to change notification settings**
+
+**Features:**
+- Cloudflare Workers SDK
+- Wrangler (CLI for Cloudflare Workers)
+- Create-Cloudflare (C3) CLI for creating and deploying new applications
+- Miniflare simulator for development/testing
+- Chrome DevTools fork for inspecting Workers pages.
+
+*Tags: ['cloudflare', 'workers', 'cli', 'serverless', 'developer-tools', 'web-development', 'cloudflare-workers'], cloud...*
+
+---
+
+### 14. [sylikc/jpegview](https://github.com/sylikc/jpegview)
+`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
+
+**JPEGView is an official re-release of JPEGView. It offers a fast and highly configurable viewer/editor for various image formats (JPEG, BMP, PNG, WEBP, TGA, GIF, TIFF) and includes built-in on-the-fly image processing capabilities (sharpness adjustment, color balance, rotation, perspective, contrast, local exposure adjustments). The tool leverages modern hardware acceleration (AVX2/SSE2) for high quality resampling and offers a movie/slideshow mode. It supports various camera RAW formats via Lib...**
+
+**Features:**
+- ['Broad Format Support (JPEG
+- BMP
+- PNG
+- WEBP
+- TGA
+- GIF
+- TIFF)'
+- 'In-the-moment Image Processing Adjustments (Sharpness
+- Color Balance
+- Rotation
+- Perspective
+- Contrast
+- ... and 4 more
+
+*Tags: ['image-processing', 'viewer', 'editor', 'jpegview', 'web-image-formats', 'camera-raw', 'windows-imaging-component-(wic)', 'hardware-acceleration'...*
+
+---
+
+### 15. [sivan22/mcp-otzaria-server](https://github.com/sivan22/mcp-otzaria-server)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project implements a secure, Python-driven MCP (Model Context Protocol) server that allows Large Language Models to perform full-text searches across a curated Jewish library. It supports advanced search syntax, field-specific queries, Boolean operators, wildcards, and relevance scoring. The solution emphasizes developer experience by providing clear documentation, integration guides, and a user-friendly configuration system for LLM applications.**
+
+**Features:**
+- Full-text search across Jewish texts
+- Advanced query syntax support
+- Field-specific and phrase searches
+- Wildcard and relevance-based results
+- Integration with LLMs via MCP protocol
+
+*Tags: mcp, search, jewish-library, api, python, ml, developer, ai*
+
+---
+
+### 16. [lars-hagen/mcp-playwright-cdp](https://github.com/lars-hagen/mcp-playwright-cdp)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The MCP Playwright CDP project provides a browser automation framework that integrates Playwright with the Chrome DevTools Protocol (CDP), allowing large language models to execute JavaScript, capture screenshots, and interact with web applications in real-time. It supports advanced features such as remote debugging via CDP, enabling seamless integration with existing Chrome instances for enhanced automation capabilities.**
+
+**Features:**
+- Connect to running Chrome instances via CDP
+- Full browser automation capabilities
+- Screenshot capture of entire pages or specific elements
+- Comprehensive web interactions (navigation
+- clicking
+- form filling)
+- Console log monitoring
+- JavaScript execution in browser context
+- HTTP API testing support
+
+*Tags: playwright, cdp, chrome, automation, browser, developer*
+
+---
+
+### 17. [ananddtyagi/gif-creator-mcp](https://github.com/ananddtyagi/gif-creator-mcp)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+
+**The MCP (Model Context Protocol) server enables developers to easily transform video content into GIF format by leveraging FFmpeg for efficient processing. It supports advanced features such as customizing output settings, extracting specific video portions, and optimizing the generated GIFs for quality and performance. The tool is designed with a user-friendly interface, allowing seamless integration into development workflows.**
+
+**Features:**
+- video to gif conversion
+- customizable output settings (fps
+- dimensions
+- duration)
+- extract specific video portions
+- optimized palette generation
+- support for large videos
+
+*Tags: gifcreator, mcp, ffmpeg, videoprocessing, developertools, automation, codeintegration, security...*
+
+---
+
+### 18. [sanxfxteam/gemini-mcp-server](https://github.com/sanxfxteam/gemini-mcp-server)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The sanxfxteam/gemini-mcp-server is a GitHub-hosted platform that leverages Google's Gemini 2 AI to generate images based on user prompts. It provides an intuitive interface for developers and users to interact with the Model Context Protocol, offering customizable image generation features such as prompt input, control over output samples, and person generation settings.**
+
+**Features:**
+- image generation via Gemini 2 API
+- prompt-based image creation
+- customizable parameters (numSamples
+- aspectRatio
+- personGeneration)
+- support for person generation
+- integration with Claude Desktop
+
+*Tags: gemini, image-generation, ai, developer-tools, cloud-server, model-api, gpu-accelerated, prompt-engine...*
+
+---
+
+### 19. [saintdoresh/yfinance-trader-mcp-claudedesktop](https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This project provides a desktop application that leverages the yfinance library to deliver live market data, historical price charts, analyst insights, and trading capabilities tailored specifically for Claude Desktop. It enhances developer productivity by offering intuitive interfaces, robust error handling, and seamless integration with external tools.**
+
+**Features:**
+- Real-time stock quotes
+- Historical price data
+- Company overviews
+- Analyst recommendations
+- Insider transaction tracking
+- Customizable MCP settings
+- Integration with Claude Desktop
+
+*Tags: yfinance, mcp, clouddesktop, trading, dataanalysis, apiintegration, financialtools, developertools...*
+
+---
+
+### 20. [chriscarlon/os-mcp](https://github.com/chriscarlon/os-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The os-mcp project provides a secure, Python-driven MCP (Machine Control Platform) server that allows developers and users to interact with Ordnance Survey's geospatial data through standardized APIs. It enforces a structured two-step workflow to ensure optimal results, integrating seamlessly with tools like Docker, Claude Desktop, and GitHub for streamlined development and deployment.**
+
+**Features:**
+- API access to Ordnance Survey
+- Two-step workflow planning
+- Docker integration
+- Cloud-based development environment
+- Code review and security features
+
+*Tags: os-mcp, mcp, geospatial, api, developer, python, ordernguide, devops...*
+
+---
+
+### 21. [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Academic Paper Search MCP Server is a web application designed to integrate with Claude Desktop, allowing users to search for and retrieve academic papers from multiple sources such as Semantic Scholar and Crossref. It provides structured data responses following the MCP specification, supports real-time search functionality, and can be used in enterprise environments for modernizing research workflows.**
+
+**Features:**
+- Real-time academic paper search
+- Access to paper metadata and abstracts
+- Retrieve full-text content when available
+- Structured data responses
+- Integration with Claude Desktop
+
+*Tags: academic-search, ai-integration, research-tools, cloud-server, semantic-scholar, crossref, mcp-server, developer-tools...*
+
+---
+
+### 22. [mtane0412/perspective-mcp-server](https://github.com/mtane0412/perspective-mcp-server)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Perspective MCP Server is a developer-focused tool designed to facilitate seamless integration with the Perspective API, offering features such as text toxicity analysis, multiple attribute scoring, multi-language support, and customizable API key management. It supports debugging via the MCP Inspector and provides robust security measures to protect sensitive data.**
+
+**Features:**
+- text toxicity analysis
+- support for multiple attributes (TOXICITY
+- SEVERE_TOXICITY
+- IDENTITY_ATTACK
+- INSULT
+- PROFANITY
+- THREAT)
+- multi-language support
+- code commit history and management
+- integration with GitHub and other platforms
+
+*Tags: mcp-server, perspective-api, text-analysis, security-features, developer-tools, content-filtering, ai-integration, code-management...*
+
+---
+
+### 23. [grounddocs/grounddocs](https://github.com/grounddocs/grounddocs)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**GroundDocs is a documentation assistant built for LLMs that integrates with platforms like GitHub to deliver up-to-date, context-aware explanations. It supports enterprise-grade security, seamless integration with development workflows, and offers features such as code generation, model management, and secure code handling. The platform emphasizes usability, ensuring developers receive precise information without hallucinations.**
+
+**Features:**
+- AI-powered documentation
+- Real-time updates
+- Integration with GitHub
+- Code generation
+- Model management
+- Security features
+
+*Tags: grounddocs, llm-docs, ai-development, documentation-assistant, github-integration*
+
+---
+
+### 24. [f-is-h/mcp-easy-copy](https://github.com/f-is-h/mcp-easy-copy)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The f-is-h/mcp-easy-copy GitHub project provides a user-friendly interface to list all available MCP (Messaging Control Protocol) services, making it easier for developers to reference and utilize specific MCP actions without manually searching through configuration files. It supports dynamic updates, offers a clean copy format, and integrates seamlessly with Claude Desktop via its Model Context Protocol SDK.**
+
+**Features:**
+- Automatically reads Claude Desktop configuration
+- Displays MCP service names in an easy-to-copy format
+- Supports dynamic updates for the latest services
+- Allows explicit selection of specific MCP services
+- Integrates with Claude Desktop via Model Context Protocol
+
+*Tags: mcp-easy-copy, developer-ux, cloud-integration, code-simplification, automation, security, api-integration, configuration-management...*
+
+---
+
+### 25. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)
+`8.0` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The `hyperbrowserai/mcp` project serves as an implementation of the Model Context Protocol (MCP) server for the Hyperbrowser environment. Its primary function is to act as a standardized communication layer, allowing external applications (like AI model clients such as Claude Desktop or Cursor) to easily access Hyperbrowser's capabilities, which include web scraping, data extraction, crawling, and controlled browser automation via agents like OpenAI's CUA and Anthropic's Claude Computer Use.**
+
+**Features:**
+- MCP server implementation
+- Web scraping/content extraction
+- Structured data conversion
+- Web crawling
+- Integration with LLM browser agents (CUA/Browser Use)
+- Configuration for multiple clients (Cursor
+- Windsurf
+- Claude Desktop)
+
+*Tags: mcp, hyperbrowser, protocol-implementation, interoperability, browser-automation, llm-integration, api-server, data-extraction...*
+
+---
+
+### 26. [reeeeemo/ancestry-mcp](https://github.com/reeeeemo/ancestry-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Ancestry MCP server allows users to read, parse, and manipulate GEDCOM (.ged) files hosted on Ancestry.com. It provides tools for renaming, searching, and extracting specific information such as birth dates, family relationships, and more. The project leverages the Model Context Protocol (MCP) to facilitate seamless integration with genealogy platforms.**
+
+**Features:**
+- Interact with .ged files
+- Rename .ged files
+- Search within .ged files
+- Parse file contents
+- Extract specific data fields
+
+*Tags: ancestry, mcp-server, python, genealogy, data-parsing, file-manipulation, api-integration, cloud-deployment...*
+
+---
+
+### 27. [heilgar/shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)
+`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The heilgar/shadcn-ui-mcp-server is a robust MCP (Model Control Protocol) server designed to streamline the development workflow for UI component creation. It offers comprehensive tools for managing components, blocks, and packages, supporting multiple package managers and providing flexible runtime environments.**
+
+**Features:**
+- Component management
+- Block management
+- Package manager support (npm
+- yarn
+- pnpm
+- bun)
+- Automatic detection of user's preferred package manager
+- Integration with MCP Inspector for debugging
+- Support for Claude Desktop and Windsurf configurations
+
+*Tags: mcp, shadcn-ui, developer-tools, ai-integration, code-quality, security*
+
+---
+
+### 28. [amysatterlee/nps_mcp](https://github.com/amysatterlee/nps_mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The MCP Server provides a user-friendly interface to retrieve and manage National Park Services data, enabling developers and users to interact with the National Park Service API through intuitive tools and APIs. It supports various functionalities such as listing parks by state, fetching detailed park information, and querying specific parks by name or code.**
+
+**Features:**
+- API integration
+- Data retrieval tools
+- User-friendly interface
+- State-based search
+- Park details lookup
+
+*Tags: nps-mcp, api-integration, developer-tools, national-parks, data-access, gis-platform*
+
+---
+
+### 29. [abhirockzz/mcp_kusto](https://github.com/abhirockzz/mcp_kusto)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project provides a Go-based MCP server that integrates with Azure Data Explorer (Kusto), allowing developers to run KQL queries directly from VS Code or other MCP clients. It supports database listing, table listing, schema inspection, and executing queries, enhancing data exploration and analysis workflows.**
+
+**Features:**
+- vibe querying
+- database listing
+- table listing
+- schema inspection
+- query execution
+
+*Tags: mcp-kusto, kusto, azure-data-explorer, data-querying, developer-tools, go, kusto-sql, vibe-query...*
+
+---
+
+### 30. [ymadd/shadcn-ui-mcp-server](https://github.com/ymadd/shadcn-ui-mcp-server)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The mcp-server acts as an AI-powered interface to the Shadcn UI documentation, enabling developers to access component details, examples, and usage instructions directly within their workflow. It supports structured data retrieval from official sources and integrates seamlessly with development environments like Claude Desktop and Cursor.**
+
+**Features:**
+- Component reference lookup
+- Component details and examples
+- Component installation and usage guidance
+- Integration with AI assistants
+- Debugging tools via MCP Inspector
+
+*Tags: shadcn-ui, mcp-server, ai-assistant, developer-tools, documentation*
+
+---
+
+### 31. [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**The openapi-mcp-server allows users to navigate through OpenAPI specifications in a simplified, human-readable format. It supports searching, summarizing, and understanding API operations in JSON and YAML formats. The project integrates AI-driven insights to help developers comprehend complex APIs more easily.**
+
+**Features:**
+- OpenAPI specification exploration
+- AI-powered simple language summaries
+- JSON and YAML format support
+- Integration with Claude Desktop
+- Support for Claude/Cursor protocol
+
+*Tags: openapi, developer, ai, exploration, api, mcp, search, integration...*
+
+---
+
+### 32. [OpenRocket | Hacker News](https://news.ycombinator.com/item?id=47386703)
+`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**OpenRocket provides an intuitive interface for hobbyists to design rockets, simulate flight paths, and visualize performance metrics. It supports detailed customization of rocket components, including motors, fins, and aerodynamic shapes. The platform includes tools for calculating altitude, drag, and stability, helping users optimize their designs for specific competitions like UKROC. However, it is important to note that the software relies on user input and approximations, as it does not acco...**
+
+**Features:**
+- Rocket design and simulation
+- Altitude estimation tools
+- Drag and stability analysis
+- Customizable components (motor
+- fins
+- etc.)
+- Competition preparation support
+
+*Tags: rocketry, modelrocketry, openrocket, simulation, competition, education, hobby, design...*
+
+---
+
+### 33. [Show HN: I built a frontpage for personal blogs | Hacker News](https://news.ycombinator.com/item?id=47625952)
+`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The project aims to enhance the visibility of personal blogs by creating a curated frontpage that highlights frequently written blogs across various categories. It features two versions: a minimal static interface and a modern infinite scroll version, both designed to showcase recent posts from user blogs. The platform includes search functionality in the minimal version and infinite scroll in the modern version, though the latter poses challenges in accessing the footer due to dynamic content l...**
+
+**Features:**
+- Blog aggregation from personal blogs
+- Search functionality in the minimal version
+- Infinite scroll for modern version
+- User-submitted and ranked blog posts
+- Commenting and sharing capabilities
+- Potential social interaction features
+
+*Tags: web-development, blog-aggregation, social-media-integration, user-engagement, content-curation, search-functionality, infinite-scroll, community-building*
+
+---
+
+### 34. [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
+`9.8` ★★ ⚡86 Q0.8🏆 🏆 World-class
+
+**The project conducted a global interview study with 80,508 participants across 159 countries, using Claude AI to gather rich, open-ended responses about users' hopes, fears, and practical uses of artificial intelligence. The research aimed to understand the nuanced aspirations and anxieties surrounding AI adoption, capturing diverse perspectives from various professions and regions.**
+
+**Features:**
+- Large-scale multilingual qualitative interviews
+- AI-powered classifiers for categorizing user sentiments and needs
+- Quote wall featuring direct user voices
+- De-identification of responses to ensure privacy
+- Adaptive follow-up questions for depth and scale
+
+*Tags: ai-usage, user-experience, multilingual-research, qualitative-study, consumer-insights, ethical-considerations, technology-adoption, cross-cultural-perspectives...*
+
+---
+
+### 35. [jay4242/mcp_searxng_search](https://github.com/jay4242/mcp_searxng_search)
+`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This project provides a tool that enables integration with Goose by allowing it to perform web searches via the SearxNG instance. It exposes an API that can be called from other MCP-compatible applications, such as Goose, to fetch search results efficiently.**
+
+**Features:**
+- MCP server integration
+- Support for Goose extension
+- Web search functionality via SearxNG
+- Customizable search parameters (query
+- max_results)
+- Real-time search results display
+
+*Tags: mcp-searxng, goose, search, api, web-scraping, search-engine, developer-tools, integration...*
+
+---
+
+### 36. [erniebrodeur/mcp-grep](https://github.com/erniebrodeur/mcp-grep)
+`8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a lightweight MCP (Model Context Protocol) server that enhances the functionality of the standard grep utility by integrating it into a web-based environment. This allows users to leverage powerful search features directly within their development or testing environments, improving efficiency and usability for developers working with text processing tasks.**
+
+**Features:**
+- MCP integration
+- Grep server functionality
+- Interactive debugging via MCP Inspector
+- Natural language prompt support
+
+*Tags: mcp, grep, search, developer, ai, security, code, integration...*
+
+---
+
+### 37. [ravinahp/surf-mcp](https://github.com/ravinahp/surf-mcp)
+`8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The surf-mcp project provides a Python-based MCP server that allows users to fetch tide data using latitude, longitude, and date parameters. It integrates with the Storm Glass API to deliver detailed tide information including high/low tides, station details, and automatic time zone handling. The tool is designed for developers and surfers to easily access real-time tide data for planning optimal surf sessions.**
+
+**Features:**
+- API integration
+- tide data retrieval
+- real-time updates
+- station information display
+
+*Tags: mcp, surf, api, weather, developer, tide, python, cloud*
+
+---
+
+### 38. [ramadasmr/networkcalc-mcp](https://github.com/ramadasmr/networkcalc-mcp)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**ramadasmr/networkcalc-mcp is a MCP Server designed to deliver essential network utilities from networkcalc.com. It enables developers and organizations to integrate network analysis tools directly into their applications using APIs, enhancing DevOps workflows and security operations.**
+
+**Features:**
+- DNS lookup
+- WHOIS lookup
+- SPF inspection
+- Certificate verification
+- Subnet analysis
+
+*Tags: networking, security, api, developer, networkcalc, mcp, dns, whois...*
+
+---
+
+### 39. [marketplaceadpros/amazon-ads-mcp-server](https://github.com/marketplaceadpros/amazon-ads-mcp-server)
+`8.0` ★ ⚡86 Q0.8🏆 🏆 World-class
+
+**The MarketplaceAdPros amazon-ads-mcp-server is a GitHub-hosted MCP server designed to facilitate interaction with Amazon Advertising data. It allows developers to build, test, and deploy applications that leverage Amazon Ads features such as Sponsored Products, Sponsored Brands, and Sponsored Display. The platform supports modern development workflows including CI/CD, automated testing, secure code management, and integration with external tools.**
+
+**Features:**
+- Amazon Ads integration
+- Code generation and auto-rebuild
+- Secure development environment
+- Debugging tools (MCP Inspector)
+- CI/CD support
+- Automated testing and deployment
+
+*Tags: amazon-ads, mcp-server, developer-tools, integration, automation, security, cloud-dev, ai-development...*
+
+---
+
+### 40. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
+`10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**A specialized web capturing tool designed to generate "AI-Ready" structured snapshots of pixel-perfect UI layouts, optimizing complex frontends for Vision-Language Models.**
+
+**Features:**
+- Pixel-perfect CSS/layout state capture
+- AI-optimized structured data output
+- visual regression QA integration
+- high-performance execution.
+
+*Tags: vision, testing, ui-capture, computer-vision, dev-tools, artificial-intelligence, design, github...*
+
+---
+
+### 41. [aws-powertools/powertools-mcp](https://github.com/aws-powertools/powertools-mcp)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The Powertools for AWS MCP project offers comprehensive guidance on setting up MCP servers across different platforms, including VS Code, Kiro, and custom configurations. It emphasizes the importance of using MCP for enhanced search functionality within LLM agents, particularly for AWS Lambda documentation. The setup instructions cover both local and global configurations, ensuring seamless integration with existing workflows.**
+
+**Features:**
+- MCP server configuration for VS Code
+- Custom MCP server setup
+- Integration with Kiro
+- Global vs project-specific configurations
+
+*Tags: aws-powertools, mcp-server, documentation, integration, developer-tools*
+
+---
+
+### 42. [josmithiii/mcp-servers-jos](https://github.com/josmithiii/mcp-servers-jos/tree/HEAD/juce-docs-mcp-server)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+
+**The resource enables developers to interact with the JUCE documentation via MCP (Model Context Protocol), supporting features like fetching class docs, searching, and formatting documentation in markdown. It integrates with IDEs such as Visual Studio for seamless access during development.**
+
+**Features:**
+- Fetch documentation for specific JUCE classes
+- List all available JUCE classes
+- Search for classes by name
+- Format documentation as markdown
+- Expose documentation through MCP resources and tools
+
+*Tags: juce, mcp, documentation, juce-framework, ide-integration, developer-tools*
+
+---
+
+### 43. [datastrato/mcp-server-gravitino](https://github.com/datastrato/mcp-server-gravitino)
+`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The repository details a "FastMCP integration" designed to provide a streamlined interface for interacting with Apache Gravitino services. It supports various metadata operations across catalogs, schemas, tables, models, and user roles. The solution emphasizes secure access via token or basic authentication and offers specific tool activation capabilities for agent orchestration.**
+
+**Features:**
+- Seamless integration with FastMCP for Gravitino APIs
+- Simplified interface for metadata interaction
+- Support for catalog/schema/model operations
+- Token-based and basic authentication support
+- Tool activation based on method names
+
+---
+
+### 44. [item?id=47972447](https://news.ycombinator.com/item?id=47972447)
+`9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The analysis focuses on how well Grok 4.3 captures and replicates the tone and register of human language, particularly in informal contexts. It assesses its ability to mimic natural speech patterns, including capitalization, punctuation, and conversational nuances. The evaluation highlights Grok's strengths in producing outputs that feel human-like and contextually appropriate, especially for casual communication. However, it notes limitations in maintaining consistency across different user in...**
+
+**Features:**
+- Natural language understanding
+- Tone and register adaptation
+- Speech-to-text integration
+- Contextual awareness
+- User-friendly interface
+
+*Tags: llm, tone-analysis, formality, language-model, user-experience, text-generation, chatbot-evaluation*
+
+---
+
+### 45. [xcodethink/pixelcheck](https://github.com/xcodethink/pixelcheck)
+`8.8` ★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The PixelCheck project provides a comprehensive interface for inspecting image files, highlighting its role in guiding developers through detailed visual diagnostics. It emphasizes clarity in displaying pixel information, which is essential for debugging and optimization tasks.**
+
+**Features:**
+- pixel inspection
+- image analysis
+- visual feedback
+- data export
+- debugging tools
+
+*Tags: imageanalysis, pixelcheck, debugging, visualization, developertools, imageprocessing, softwaretesting, datavisualization...*
+
+---
+
+### 46. [davidorex/git-file-forensics](https://github.com/davidorex/git-file-forensics)
+`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The Git File Forensics MCP tool provides detailed insights into file histories, changes, and patterns at the file level, enabling developers to understand specific modifications and their implications without affecting the entire repository.**
+
+**Features:**
+- track_file_versions
+- analyze_file_diff
+- analyze_file_context
+- analyze_file_semantics
+
+*Tags: git, fileforensics, mcp, git-sdk, code-analysis, security, developer-tools, repository-tracking...*
+
+---
+
+### 47. [Mindory App â A Gentle AI Planner for ADHD & Autism](https://mindoryapp.com)
+`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+
+**Mindory App offers an intuitive interface for organizing daily activities, prioritizing tasks, and adapting schedules based on real-time needs. It leverages AI to provide personalized guidance, helping users stay on track without overwhelming stress. The app focuses on flexibility and emotional support, making it suitable for those managing ADHD or autism.**
+
+**Features:**
+- AI-powered task scheduling
+- personalized prioritization
+- calendar integration
+- stress management tools
+- mood-based planning
+
+*Tags: mindory-app, adhd, autism, productivity, task-scheduler, mental-health, ai-assistant, cognitive-support...*
+
+---
+
+### 48. [www.novella.io](https://www.novella.io)
+`8.8` ★ ⚡81 Q0.7⭐ ⭐ Excellent
+
+**Seedance 2.0, GPT 2 Image & HappyHorse added, and a strict requirement for Chrome version 147.0.7727.101 or higher, this landing page highlights Novaella.io as an all-in-one generative AI video platform. It emphasizes a seamless user experience with features like AI video generation, editing in a timeline, easy export, and integration of multiple AI models into one workspace. The tool targets modern creators seeking efficiency, offering competitive pricing plans and robust storage options.**
+
+**Features:**
+- AI-powered video creation
+- Timeline-based editing
+- Export and share functionality
+- Integration with multiple AI models
+- Cloud storage support
+
+*Tags: ai-video-creator, generative-ai, cloud-storage, video-editing, browser-extension, content-creation, automation, cloud-services...*
+
+---
+
+### 49. [saintdoresh/crypto-trader-mcp-claudedesktop](https://github.com/saintdoresh/crypto-trader-mcp-claudedesktop)
+`8.5` ★ ⚡80 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The resource is a Crypto Trader MCP Tool, which functions as a Model Context Protocol (MCP) tool specifically tailored for the Claude Desktop environment. It offers various functionalities to interact with cryptocurrency market data, including real-time prices, historical charts, and search capabilities. The setup guides show how to configure this tool within Claude Desktop and use its specific functions to gather detailed crypto information.**
+
+**Features:**
+- Real-time cryptocurrency price data
+- Historical price charts
+- Cryptocurrency search functionality
+- Trending cryptocurrencies tracking
+
+---
+
+### 50. [samay58/time-mcp](https://github.com/samay58/time-mcp)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗4 layers
+
+**The Time-MCP project provides a robust MCP (Machine Context Protocol) server that allows Claude the AI assistant to retrieve real-time and timezone-specific time information. This integration enhances AI interaction by ensuring consistent and reliable date/time responses across different regions, improving user experience in global applications.**
+
+**Features:**
+- Real-time timezone-aware time retrieval
+- Integration with Claude AI for natural language understanding
+- Support for multiple IANA timezones
+
+*Tags: time-mcp, mcp-server, ai-integration, timezone-aware, developer-tools, cloud-deployment, time-info-service, ai-assistant...*
+
+---
+
+### 51. [shopify/dev-mcp](https://github.com/shopify/dev-mcp)
+`7.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
+
+**Shopify Dev MCP (Micro-Platform/Control Plane) is a critical component designed to bridge the gap between backend infrastructure and frontend development needs. It provides a unified interface for developers to interact with, configure, and deploy solutions within the Shopify environment.
+
+This tool focuses on providing developer tools that enhance the efficiency of building and deploying applications for the Shopify platform.**
+
+**Features:**
+- Unified Developer Interface
+- Backend Integration Layer
+- Workflow Orchestration
+- API Abstraction
+- Shopify Ecosystem Connectivity
+
+*Tags: shopify, developer-tools, backend-integration, workflow-management, api-layer, devops*
+
+---
+
+### 52. [zhongmingyuan/mcp-my-mac](https://github.com/zhongmingyuan/mcp-my-mac)
+`8.7` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+
+**The project provides a secure local API that exposes Mac system details such as hardware specs, configuration, and resource usage. This enables AI assistants like Claude Desktop to deliver more accurate and context-aware assistance by leveraging real-time data about the user's Mac environment.**
+
+**Features:**
+- Access to system information
+- AI integration for Mac users
+- Secure local API execution
+
+*Tags: mcp-my-mac, ai, systeminfo, mac, developer, security, api, cloud...*
+
+---
+
+### 53. [AIVA, the AI Music Generation Assistant](https://www.aiva.ai)
+`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**The Borg intelligence database should include a comprehensive overview of AIVA's capabilities, including its AI music generation features, customization tools, licensing models, and technical specifications to support integration into diverse workflows.**
+
+**Features:**
+- AI music generation
+- style customization
+- customizable style models
+- audio/midi export
+- multiple file formats
+- human arrangement
+
+*Tags: ai-music, music-generation, generative-ai, content-creation, digital-audio, machine-learning, software-development, creative-tools...*
+
+---
+
+### 54. [AnchorGrid Developer Docs](https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors)
+`8.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This technical resource provides detailed information on the AnchorGrid Developer Docs endpoint for detecting doors within PDF floor plans. It outlines how to upload documents, authenticate via API key, and retrieve results including bounding boxes and processing times. The content is structured to assist developers in integrating door detection functionality into their applications.**
+
+**Features:**
+- API documentation
+- document upload and processing
+- job status tracking
+- credits and rate limits
+
+*Tags: api-docs, door-detection, floor-plans, pdf-processing, developer-tools, anchorgrid, image-recognition, software-development...*
+
+---
+
+### 55. [aaf6c3bf836d0ba0734d5b417eb122ae](https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb122ae)
+`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This GitHub repository presents a minimalist seed framework designed to embody epistemic discipline through strict adherence to four invariants: Compression, Generative Unfolding, Falsifiable Failure, and Decompressible LLM output. The project prioritizes clarity over fluff, embedding anti-sycophantic friction and concrete grounding in every seed pattern. It spans multiple families—CogniSeeds, LinguaSeeds, ArchSeeds—each addressing reasoning, voice, and structural integrity with a focus on survi...**
+
+**Features:**
+- Compression under 12 words
+- Generative unfolding without modification
+- Falsifiable invalidity via specific failure
+- LLM decompression into reasoning chains
+
+*Tags: epistemic-compression, seed-architecture, code-review, system-design, knowledge-propagation*
+
+---
+
+### 56. [AI App Builder | Vibe Code Apps & Websites with AI, Fast](https://lovable.dev)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A leading AI software engineer for full-stack development that generates complete React/Supabase codebases and features an autonomous research/validation Agent Mode.**
+
+**Features:**
+- Complete React/Supabase generation
+- autonomous Agent Mode research
+- Plan Mode architectural review
+- real-time GitHub repository sync.
+
+*Tags: lovable, full-stack, supabse, orchestration, automation, artificial-intelligence, design, programming...*
+
+---
+
+### 57. [Neo1228/spring-boot-starter-swagger-mcp](https://github.com/Neo1228/spring-boot-starter-swagger-mcp)
+`7.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**This tool provides a Spring Boot starter to bridge OpenAPI operations into a production-ready MCP gateway. It enables the discovery, validation, and orchestration of API interactions using an OpenAPI specification within a Spring Boot application.**
+
+**Features:**
+- Spring Boot Starter integration
+- OpenAPI/Swagger bridging
+- MCP gateway layer
+- API discovery and validation
+- Workflow orchestration capabilities
+
+*Tags: spring-boot, openapi, swagger, api-gateway, mcp, java, microservices, tooling*
+
+---
+
+### 58. [item?id=41767083](https://news.ycombinator.com/item?id=41767083)
+`8.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**DocGoblin is a custom-built desktop application designed to enhance the user experience of searching through PDF documents. It leverages JavaFX for its graphical interface and Lucene for efficient full-text search capabilities. The project focuses on providing a seamless and intuitive way to locate specific content within PDF files, making it particularly useful for professionals who frequently handle large volumes of PDF documents.**
+
+**Features:**
+- desktop application
+- pdf rendering with PDFium
+- search engine using Lucene
+- user-friendly interface with JavaFX
+
+*Tags: pdf, search, desktop, java, javafx, lucene, application, document...*
+
+---
+
+### 59. [I haven't used a mouse for 14 years, and how to enable three fingers drag on macOS](https://axelk.ee/i-havent-used-a-mouse-for-14-years-and-how-to-enable-three-fingers-drag-on-macos)
+`8.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+
+**The article discusses how to enable three-finger drag functionality on macOS trackpads, improving user experience for tasks like web and graphic design. It highlights the precision of Mac trackpads and the convenience of using three fingers for smoother dragging operations, especially after prolonged use.**
+
+**Features:**
+- three finger drag
+- trackpad precision
+- accessibility settings
+- pointer control options
+
+*Tags: macos, trackpad, accessibility, pointercontrol, designtools, userinterface, digitaldesign, macsystem...*
+
+---
+
+### 60. [wwwyo/mysql-mcp](https://github.com/wwwyo/mysql-mcp)
+`6.0` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+
+**This repository showcases the implementation of a MySQL Model Context Protocol (MCP), providing an interface for developers to interact with or inspect MySQL instances. It serves as a bridge between the MySQL database and modern developer tooling, offering a mechanism for context management and inspection capabilities within a development workflow.**
+
+**Features:**
+- MySQL MCP integration
+- Developer tooling interface
+- Context protocol layer
+- Inspection capabilities
+- Go language backend
+
+*Tags: mysql, developer-tools, mcp, github, go, inspection, tooling*
+
+---
+
+### 61. [sacred-texts.com](https://sacred-texts.com)
+`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
+
+**The ISTA website serves as a vast digital repository offering over 1700 books on religion, mythology, folklore, and the esoteric. It emphasizes religious tolerance, scholarship, and accessibility, aiming to preserve and disseminate knowledge across diverse traditions.**
+
+**Features:**
+- Free access to a wide range of sacred texts
+- Search functionality for specific topics
+- Support for multiple languages and formats
+- Community-driven content and updates
+- Educational resources and scholarly articles
+
+*Tags: religion, mythology, folklore, esoteric, sacred-texts, spirituality, comparative-religion, traditions...*
+
+---
+
+### 62. [welcoming_a_new_stealth_model_on_openrouter](https://www.reddit.com/r/dev/comments/1skt8n1/welcoming_a_new_stealth_model_on_openrouter)
+`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
+
+**The resource explores the technical aspects of a new stealth model designed for OpenRouter, focusing on its architecture, user interface, and developer experience. It highlights features such as modular design, integration capabilities, and optimization strategies for stealth operations.**
+
+**Features:**
+- modular architecture
+- stealth mode implementation
+- developer tools
+- integration capabilities
+- optimization techniques
+
+*Tags: openrouter, stealthmodel, developertools, interfacedesign, opensource, routersecurity, modularsystem, stealthoperations...*
+
+---
+
+### 63. [fe0ebf3ede7299529ea007e2f5c570e6](https://gist.github.com/acidgreenservers/fe0ebf3ede7299529ea007e2f5c570e6)
+`8.8` ★ ⚡75 Q0.7⭐ ⭐ Excellent
+
+**The content presents a deeply introspective narrative about the nature of existence, patterns, and relationships. It emphasizes the importance of truth, integrity, and meaningful communication in both human and AI interactions. The author stresses the need for clarity, respect, and responsibility in handling information, while also highlighting the value of personal growth and self-awareness.**
+
+**Features:**
+- personal outlook on life
+- systemic thinking and patterns
+- user-centric interaction design
+- ethical considerations in AI use
+
+*Tags: soul.md, acidgreenservers, github, soul-file, systemic-mind-partner, ai-reflection, life-perspective, user-experience...*
+
+---
+
+### 64. [mike-pete/starbucks-mcp](https://github.com/mike-pete/starbucks-mcp)
+`6.0` ★ ⚡74 Q0.8⭐ ⭐ Excellent
+
+**This repository showcases the implementation of a Micro Control Plane (MCP) concept applied to a real-world domain like Starbucks. It demonstrates how an agent or system can manage complex interactions, potentially involving context engineering or workflow orchestration between different services.**
+
+**Features:**
+- Micro Control Plane (MCP)
+- Go language implementation
+- TypeScript usage
+- API integration
+- Context management
+
+*Tags: go, microservices, api, starbucks, developertools, typescript*
+
+---
+
+### 65. [i_tested_four_ai_coding_tools_on_the_same](https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_coding_tools_on_the_same)
+`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**Participants shared their real-world interactions with various AI coding tools, emphasizing usability, integration challenges, and performance expectations. Several users recommended specific tools for streamlining development workflows, while others raised concerns about compatibility and data handling.**
+
+**Features:**
+- code generation assistance
+- debugging support
+- integration with version control systems
+- real-time feedback mechanisms
+
+*Tags: reddit, ai, coding, tools, developer, workflow, testing, ai-assist...*
+
+---
+
+### 66. [MCP Inspector | Glama](https://glama.ai/mcp/inspector?servers=%5B%7B%22id%22%3A%22test%22%2C%22name%22%3A%22test%22%2C%22requestTimeout%22%3A10000%2C%22url%22%3A%22https%3A%2F%2Fmcp-test.glama.ai%2Fmcp%22%7D%5D)
+`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+
+**This tool allows developers to test any MCP server directly from their browser, inspecting its features like tools, resources, prompts, and OAuth 2.1 capabilities. It provides debugging information and direct interaction for the Model Context Protocol specification.**
+
+**Features:**
+- MCP Server Inspection
+- Browser-based Interaction
+- Full MCP Feature Support
+- Debugging Info Streaming
+- OAuth 2.1 Authentication
+
+*Tags: mcp, inspector, browser-tool, developer-workflow, api-testing, llm-protocol*
+
+---
+
+### 67. [bryantson.medium.com/how-to-make-github-copilot-to-work-with](https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd)
+`7.8` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The article provides a step-by-step guide on configuring GitHub Copilot to work seamlessly within the Eclipse Integrated Development Environment (IDE). It addresses compatibility across different programming languages and editor preferences, highlighting the importance of developer experience in adopting AI-powered tools. The content covers setup procedures, language-specific considerations, and best practices for maximizing productivity.**
+
+**Features:**
+- Integration setup
+- Language support
+- Editor customization
+- Productivity enhancement
+
+*Tags: github, copilot, eclipse, developer, ai, integration, productivity, codeproject...*
+
+---
+
+### 68. [the_information_anthropic_preps_opus_47_model](https://www.reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The resource provides an in-depth examination of the technical components and design choices of the Claude AI model, focusing on how it integrates with various interfaces and developer workflows. It covers aspects such as user interaction, API design, and system architecture.**
+
+**Features:**
+- model architecture analysis
+- integration capabilities
+- developer documentation
+- user interface design
+
+*Tags: ai-model, cloud-computing, machine-learning, developer-tools, ai-integration, model-optimization, api-design, system-architecture...*
+
+---
+
+### 69. [co-browser/mcp-server-browser-use](https://github.com/co-browser/mcp-server-browser-use)
+`6.0` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**This repository provides a server-side browser interface for interacting with Micro Control Plane (MCP) services, offering a developer-centric view for managing and executing operations. It focuses on providing a user-friendly interface to interact with the underlying control plane infrastructure.**
+
+**Features:**
+- Browser-based MCP interaction
+- Server-side interface
+- Developer workflow integration
+- MCP service management
+- User-friendly UI
+
+*Tags: browser, mcp, developer-tools, web-interface, server-side, workflow-automation*
+
+---
+
+### 70. [i_think_qwen_code_is_seriously_underrated_right](https://www.reddit.com/r/Qwen_AI/comments/1shlvol/i_think_qwen_code_is_seriously_underrated_right)
+`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The analysis examines the technical aspects of Qwen AI's codebase, focusing on its architecture, user interface design, and developer experience to assess its suitability for integration into Borg systems.**
+
+**Features:**
+- code structure
+- user interface
+- developer tools
+- integration capabilities
+
+*Tags: ai, reddit, code, ai-models, development, interface, debugging, testing...*
+
+---
+
+### 71. [Stitch - Design with AI](https://stitch.withgoogle.com/)
+`8.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**Stitch is an AI-powered platform designed to enhance developer productivity by integrating AI capabilities directly into the development workflow. It provides a seamless experience for coding, debugging, and understanding complex systems through its integrated AI features.**
+
+**Features:**
+- AI-powered coding assistance
+- integrated development environment (IDE)
+- collaborative coding sessions
+- in-line documentation/explanation
+
+*Tags: ai, developer-tools, coding, productivity, ux, ai-integration, web-dev*
+
+---
+
+### 72. [www.neowin.net/news/kde-plasma-finally-gets-rounded-bo](https://www.neowin.net/news/kde-plasma-finally-gets-rounded-bottom-window-corners#google_vignette)
+`8.7` ★ ⚡69 Q0.6✓ ✓ Solid
+
+**KDE Plasma has officially rolled out rounded bottom window corners, a long-awaited visual enhancement aimed at enhancing usability and aesthetics. This update addresses user feedback regarding corner sharpness and provides a smoother interface for users with specific design preferences. The change is part of ongoing efforts to refine the KDE Plasma desktop environment.**
+
+**Features:**
+- Rounded bottom window corners
+- Improved visual consistency across desktop themes
+- Enhanced user experience for gamers and designers
+
+*Tags: kde, plasma, ui, desktop, user-interface*
+
+---
+
+### 73. [login/oauth](https://github.com/login/oauth/select_account?client_id=01ab8ac9400c4e429b23&code_challenge=82TJDcKCTh4ccUGBrngZGzciwWCvhLKsy6pyi6qrf6g&code_challenge_method=S256&prompt=select_account&redirect_uri=https://vscode.dev/redirect&scope=codespace+read:user+repo+user:email&state=vscode-insiders%3A%2F%2Fvscode.github-authentication%2Fdid-authenticate%3Fnonce%3Da1392914a15d5645%26windowId%3D1)
+`5.0` ★ ⚡69 Q0.8✓ ✓ Solid
+
+**This resource is a specific OAuth endpoint used to select a user account within the context of a VS Code/GitHub integration. It demonstrates the necessary flow for authenticating a developer session using GitHub's OAuth mechanism.**
+
+**Features:**
+- OAuth flow demonstration
+- GitHub authentication selection
+- VS Code integration point
+- Developer workflow initiation
+- Token exchange mechanism
+
+*Tags: github-oauth, vscode, developer-tools, authentication, ux, gitflow*
+
+---
+
+### 74. [Tab Center Reborn – Consigue esta extensión para 🦊 Firefox (es-ES)](https://addons.mozilla.org/es/firefox/addon/tabcenter-reborn/)
+`6.0` ★ ⚡69 Q0.8✓ ✓ Solid
+
+**Tab Center Reborn is an extension designed to manage browser tabs vertically, offering advanced features like pinning, duplicating, and precise tab management. It allows power users to customize the appearance with CSS tweaks and offers specific options to handle tab closure gracefully. The extension integrates seamlessly with Firefox sync and provides unique shortcuts for managing new windows.**
+
+**Features:**
+- Tab management
+- tab pinning/duplication
+- tab closing options
+- custom CSS theming
+- Firefox integration
+- keyboard shortcuts
+
+*Tags: firefox, browser-extension, tab-management, ux, web-development, firefox-ui, productivity*
+
+---
+
+### 75. [MCP Inspector - Model Context Protocol](https://modelcontextprotocol.io/docs/tools/inspector)
+`7.0` ★ ⚡68 Q0.7✓ ✓ Solid
+
+**This resource introduces the MCP Inspector, an interactive developer tool designed to test and debug MCP servers. It provides a detailed exploration of features for inspecting server connections and capabilities.**
+
+**Features:**
+- Server connection pane
+- npm/PyPI inspection
+- local server inspection
+- transport selection
+- debugging toolkit
+
+*Tags: developer-tool, debugging, inspector, mcp, testing, nodejs, npm*
+
+---
+
+### 76. [jedisct1/openapi-mcp](https://github.com/jedisct1/openapi-mcp)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This tool provides a comprehensive platform for managing, understanding, and interacting with OpenAPI specifications. It focuses on providing an interface layer that simplifies the development workflow by offering robust tools for API interaction and integration.**
+
+**Features:**
+- OpenAPI specification management
+- Micro-Control Plane (MCP) architecture
+- Developer workflow simplification
+- API testing/interaction capabilities
+
+*Tags: openapi, api, developer-tools, microservices, design-patterns, workflow-automation*
+
+---
+
+### 77. [Schema Reference - Model Context Protocol](https://modelcontextprotocol.io/specification/2025-11-25/schema)
+`7.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource defines the formal structure for communicating with Large Language Models (LLMs) using a JSON-RPC protocol. It outlines the necessary interfaces for requests, notifications, and responses, serving as a crucial layer for developer interaction with AI services.**
+
+**Features:**
+- JSON-RPC specification
+- LLM communication interface
+- structured request/response handling
+- clear error response mechanism
+
+*Tags: jsonrpc, llm, interface, developertools, ai, protocol, webdev*
+
+---
+
+### 78. [Easiest Way To Ship With Webmcp Today](https://www.reddit.com/r/WebMCP_Developers/comments/1slu19n/easiest_way_to_ship_with_webmcp_today/)
+`7.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource details the easiest way to integrate and use WebMCP tools, specifically demonstrating how to call a 'get_page_title' function within a web environment. It highlights the convenience of using WebMCP for front-end operations, suggesting an easy path for shipping modern web functionality.**
+
+**Features:**
+- WebMCP integration
+- page title retrieval tool
+- browser embed capability
+- lightweight tooling
+
+*Tags: webmcp, web-development, javascript-tools, web-api, developer-workflow, frontend*
+
+---
+
+### 79. [Free UPS and USPS shipping software | Pirate Ship](https://www.pirateship.com/)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**Pirate Ship provides an innovative shipping solution that offers significant savings to shippers by leveraging specialized rates. The platform emphasizes ease of use, strong customer service, and a fun, engaging theme that resonates with small business owners who need affordable shipping solutions.**
+
+**Features:**
+- shipping rate comparison
+- cost-effective shipping
+- unique branding/theme integration
+- easy-to-use interface
+- direct shipper engagement
+
+*Tags: shipping, e-commerce, small-business, logistics, cost-savings, customer-experience*
+
+---
+
+### 80. [Cold Blooded Cafe](http://coldbloodedcafe.com)
+`5.0` ★ ⚡65 Q0.8✓ ✓ Solid
+
+**This website is an e-commerce platform for 'Cold Blooded Cafe,' specializing in high-quality frozen feeders and supplies for reptile enthusiasts. The site emphasizes their commitment to quality, offering specific products like small rats and hopper mice, while highlighting their unique value proposition of flash-frozen freshness and sustainable packaging.**
+
+**Features:**
+- e-commerce product showcase
+- niche pet supply
+- frozen feeder emphasis
+- sustainable packaging
+- clear brand story
+
+*Tags: e-commerce, reptile-care, pet-supplies, frozen-food, sustainability, niche-market*
+
+---
+
+### 81. [Overview | API Documentation](https://developer.raindrop.io/)
+`5.0` ★ ⚡65 Q0.8✓ ✓ Solid
+
+**This resource provides the official documentation for the Raindrop.io API, offering detailed references to its functionality, endpoint structure, parameters, and examples. It outlines the necessary steps for application registration and OAuth authentication required for making requests. The documentation specifies the expected HTTP verbs (GET, POST, PUT, DELETE) and JSON response formats.**
+
+**Features:**
+- API documentation
+- OAuth integration guide
+- RESTful API reference
+- JSON payload structure
+- Rate limiting information
+
+*Tags: api, documentation, oauth, rest, developer-tooling, web-service, json-api*
+
+---
+
+### 82. [Best Dual Monitor Setup Ideas for Desk and Productivity](https://www.autonomous.ai/en-CA/ourblog/dual-monitor-setup-ideas-for-efficiency)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides practical advice and inspiration for designing an optimal dual monitor setup, focusing on the ideal placement, spacing, and gear needed to enhance productivity and ergonomics. It details how to arrange screens for eye-level viewing angles and recommended monitor specifications for a seamless experience.**
+
+**Features:**
+- Dual Monitor Setup Ideas
+- Ergonomic Layouts
+- Monitor Placement Tips
+- Productivity Enhancement
+- Eye-Level Alignment
+
+*Tags: dual-monitors, ergonomics, productivity, desk-setup, monitor-tips, efficiency, layout*
+
+---
+
+### 83. [Products – Arkaos](http://www.arkaos.net/product/index.php?catid=2&pid=10031&iid=74)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource showcases a suite of video servers and software (Arkaos) designed for high-quality, reliable video output. It highlights different configurations like VS1, VS2+, and VS4+ 4K media servers, emphasizing portability, power, and specialized control capabilities for clubs, churches, and theaters.**
+
+**Features:**
+- Video server solutions
+- 4K output capability
+- Pixel mapping (Art-net/Kling-net)
+- HDR output
+- Media control software
+
+*Tags: video-control, media-server, 4k, hdr, networking, software*
+
+---
+
+### 84. [Custom PC Building & Tech Solutions - WebPCDesigns](https://webpcdesigns.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides a comprehensive suite of services for high-end custom PC building, specialized tech repair, and modern web development. It targets enthusiasts and professionals needing reliable, aesthetically pleasing systems, alongside convenient solutions like password recovery.**
+
+**Features:**
+- Custom PC Building
+- Tech Repair Services
+- Web Development
+- Premium Hardware Solutions
+- Password Reset
+
+*Tags: custom-pc-building, tech-repair, web-development, hardware, service, custom-solutions*
+
+---
+
+### 85. [2050512434281247117](https://x.com/cheatyyyy/status/2050512434281247117)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is an example of a modern web interface (X.com) and highlights the critical aspect of browser compatibility, specifically noting that JavaScript execution is disabled in the current browser environment. It serves as a practical demonstration of how front-end technologies interact with the user experience and underlying browser capabilities.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Browser support list
+- Error handling/fallback mechanism
+- User experience integration
+
+*Tags: web-development, browser-compatibility, javascript, user-interface, front-end, error-handling*
+
+---
+
+### 86. [2054224647546400871](https://x.com/XiaomiMiMo/status/2054224647546400871)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a modern web interface, likely a social platform or developer tool, where the core functionality relies on client-side execution. The key feature here is the immediate feedback regarding JavaScript availability, indicating a focus on browser compatibility and user experience within a specific ecosystem.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility support
+- Help Center integration
+- Supported browser list
+- User experience flow
+
+*Tags: web-development, browser-compatibility, user-experience, javascript, platform, tooling*
+
+---
+
+### 87. [2036213859183112197](https://x.com/i/status/2036213859183112197)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource highlights a critical technical constraint on the X platform, specifically noting that JavaScript execution is disabled within the browser environment. It serves as an informational guide for developers and users regarding compatibility and necessary prerequisites for interacting with the web application.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility guidance
+- Error handling/fallback suggestion
+- Help Center integration
+- Terms of Service linkage
+
+*Tags: web-development, browser-compatibility, javascript, ux, error-handling, web-interface*
+
+---
+
+### 88. [x.com/trq212/status/2011523109871108570](https://x.com/trq212/status/2011523109871108570)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource demonstrates the front-end experience of X, specifically highlighting a critical failure point where JavaScript execution is blocked. It serves as an example of how a modern web application handles client-side feature availability and error reporting when core technologies are disabled.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Error handling/fallback mechanism
+- Browser support list
+- X platform interface
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, error-handling, frontend*
+
+---
+
+### 89. [2039125392142008572](https://x.com/RedPandaKoala/status/2039125392142008572)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource showcases the front-end experience of X.com, specifically illustrating how the platform handles or rejects the execution environment (JavaScript) in the client browser. It serves as an example of a developer/user interface layer where the underlying technology dictates the available functionality.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Supported browser list
+- Error handling for JS absence
+- X.com interface demonstration
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, interface-design, error-handling*
+
+---
+
+### 90. [Windows 11 after two decades of macOS: okay, but also awful | exotext](https://rakhim.exotext.com/windows-11-experience)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource explores the practicalities of a developer's multi-system setup, comparing the capabilities of a powerful Windows PC against a legacy Mac Studio for tasks like programming, music production, and general productivity. It dives into the user's experience with specific hardware components, including a Lenovo display and Logitech peripherals, to illustrate the trade-offs between operating systems.**
+
+**Features:**
+- Hardware comparison
+- Multi-OS workflow analysis
+- Productivity trade-off evaluation
+- Hardware/Software synergy assessment
+
+*Tags: hardware-comparison, multi-os, productivity-tools, developer-workflow, mac-os-vs-windows*
+
+---
+
+### 91. [The Traders' Den - Forum Rules](http://www.thetradersden.org/forums/register.php)
+`4.0` ★ ⚡60 Q0.8✓ ✓ Solid
+
+**This resource is a basic web interface designed for user registration on a forum platform. It clearly defines the rules of engagement, including prohibitions against selling shows, and establishes the time zone context for the community. It serves as an example of a straightforward front-end experience for user onboarding.**
+
+**Features:**
+- Forum Registration Interface
+- Rule Agreement Checkbox
+- Clear Rules Definition
+- Timezone Specification
+- Basic Contact Us link
+
+*Tags: web-development, forum, user-experience, registration, rules, vbulletin, simple-interface*
+
+---
+
+### 92. [FreeBSD is a No-Go for KDE's Plasma Login Manager](https://itsfoss.com/news/plasma-login-manager-drops-freebsd/)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This article explores a specific technical decision made by the KDE project regarding its Plasma Login Manager, specifically examining why it dropped support for the FreeBSD operating system. It analyzes the trade-offs between maintaining broad compatibility and focusing on Linux-centric systems like Fedora and systemd-based environments.**
+
+**Features:**
+- KDE Plasma Login Manager integration
+- FreeBSD compatibility analysis
+- Systemd/Logind comparison
+- Operating system compatibility decisions
+
+*Tags: kde, plasma, freebsd, loginmanager, compatibility, linux, systemd*
+
+---
+
+### 93. [x.com/advicebyaimar/status/204155935403434443](https://x.com/advicebyaimar/status/2041559354034344438?s)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource appears to be an AI agent or developer tool providing status updates or advice, likely related to the X platform's functionality. The page indicates a JavaScript issue, suggesting the tool might be an interface layer that needs specific browser capabilities to function correctly.**
+
+**Features:**
+- AI Advice Integration
+- Status Checking
+- Browser Compatibility Check
+- Platform Interface
+- Developer Workflow
+
+*Tags: ai-agent, developer-tools, platform-integration, status-check, javascript-issue, x.com, ux*
+
+---
+
+### 94. [2041559354034344438?s=46](https://x.com/advicebyaimar/status/2041559354034344438?s=46)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an example of a web interface (X.com) where the core functionality is to check for and enforce browser compatibility, specifically noting that JavaScript execution is disabled, which highlights the importance of client-side context and browser support in modern web development.
+
+It serves as a practical demonstration of how a platform handles feature enablement or disablement based on the underlying browser environment.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement status
+- Browser support list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, ux, client-side, testing*
+
+---
+
+### 95. [2045590599206875216](https://x.com/elonmusk/status/2045590599206875216)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource demonstrates the user experience on the X platform, specifically addressing the browser's inability to execute JavaScript. It serves as an example of how front-end interfaces handle compatibility issues and user expectations when core features are blocked by browser settings.**
+
+**Features:**
+- Browser Compatibility Check
+- JavaScript Detection
+- Browser Support Guidance
+- Error Handling Display
+- X Platform Interface
+
+*Tags: web-development, browser-compatibility, frontend-ux, javascript-error, web-interface, x-platform*
+
+---
+
+### 96. [2048039928232341962?s](https://x.com/zeealeid/status/2048039928232341962?s)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an interface for the X platform, which indicates that the browser being used has disabled JavaScript execution. It serves as a diagnostic tool to inform users about the necessary browser requirements for full functionality and provides helpful links for supported browsers.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error detection feedback
+- Browser support integration
+
+*Tags: web-development, browser-compatibility, javascript, ux, debugging, x-platform*
+
+---
+
+### 97. [How do I generate a Trezor Monero wallet with the GUI (monero-wallet-gui)? - Monero Stack Exchange](https://monero.stackexchange.com/questions/11437/how-do-i-generate-a-trezor-monero-wallet-with-the-gui-monero-wallet-gui/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource details the process of generating a Monero wallet using the `monero-wallet-gui` interface, specifically when paired with a Trezor hardware wallet. It addresses common issues related to device compatibility and necessary prerequisites for successful wallet generation and restoration.**
+
+**Features:**
+- Trezor support integration
+- Monero wallet GUI functionality
+- Hardware wallet pairing
+- Wallet generation steps
+
+*Tags: monero-wallet, trezor, gui, hardware-wallet, crypto, interface-design*
+
+---
+
+### 98. [2046785172322849129?s](https://x.com/strangeobsevati/status/2046785172322849129?s)
+`5.0` ★ ⚡58 Q0.6✓ ✓ Solid
+
+**This resource is a direct link to the X platform, which serves as an example of a front-end interface. The page indicates that JavaScript execution is disabled, suggesting a browser compatibility issue or a specific constraint on the development environment being tested. It highlights the need for developers to understand the constraints imposed by the platform's client-side capabilities.**
+
+**Features:**
+- Web Interface Integration
+- Browser Compatibility Check
+- JavaScript Disabled Notification
+- Platform Interaction Testing
+
+*Tags: web-development, javascript, interface, ux, browser-compatibility, x.com, tooling*
+
+---
+
+### 99. [Windows GUI: Good, Bad and Pretty Ugly (Ranked) – creolened.com](https://creolened.com/windows-gui-good-bad-and-pretty-ugly-ranked)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource analyzes and ranks major versions of the Windows GUI, from early versions like Windows 1.0 to modern Windows 11, using a subjective 'Clippy' scale to judge aesthetic quality. It provides a historical perspective on how the Windows interface evolved across different eras.**
+
+**Features:**
+- GUI ranking system
+- historical comparison
+- version rating scale (1-10)
+- visual analysis
+
+*Tags: windows, gui, history, design, ranking, interface, evolution*
+
+---
+
+### 100. [x.com/MillaJovovich/status/204229390518683260](https://x.com/MillaJovovich/status/2042293905186832606)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource is an example of the X platform's frontend experience, demonstrating how it handles client-side execution and potential limitations when running within a specific browser environment. The core issue highlighted is the necessary requirement for JavaScript to operate correctly on the platform.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, frontend-ux, javascript, error-handling, x-platform*
+
+---
+
+### 101. [Advanced Dark Mode - Download and install on Windows | Microsoft Store](https://apps.microsoft.com/detail/9N1JJ5QG22QN)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource is a Microsoft Store page detailing an advanced feature, specifically the 'Advanced Dark Mode' option. It serves as a direct interface for users to download and install a specific theme or configuration enhancement for their operating system.**
+
+**Features:**
+- Dark Mode implementation
+- Windows integration
+- Direct download/installation
+- Microsoft Store functionality
+
+*Tags: dark-mode, windows, microsoft-store, ux, interface, software, theme, accessibility*
+
+---
+
+### 102. [x.com/MrAhmadAwais/status/2050956678502420612](https://x.com/MrAhmadAwais/status/2050956678502420612?s)
+`4.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource is an example of a developer/AI agent interaction, likely demonstrating the limitations or capabilities of a web interface (X.com) and the resulting user experience challenges when JavaScript is disabled. It highlights the need for context engineering to ensure the development tools work correctly within the platform's constraints.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility layer
+- Developer workflow integration
+- Platform limitations demonstration
+- X.com interface testing
+
+*Tags: web-dev, javascript, interface-ux, browser-compatibility, x.com, developer-tools, frontend*
+
+---
+
+### 103. [2041927689397788789](https://x.com/i/status/2041927689397788789)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource demonstrates the user experience on X.com, specifically addressing a common technical hurdle: the lack of JavaScript execution within the browser environment. It serves as an example of how a web platform handles client-side feature availability and informs the user when necessary features are blocked by browser settings.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, user-experience, javascript, web-interface, error-handling*
+
+---
+
+### 104. [PhoenixForgotten.com is for sale | HugeDomains](http://redditplayer.phoenixforgotten.com/?r=psytrance)
+`4.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**This resource is an e-commerce platform where users can purchase a domain name, highlighted by a clear pricing structure and a strong customer guarantee. It functions as a direct interface connecting buyers to the domain asset, emphasizing ease of transaction and a user-friendly experience for acquiring digital assets.**
+
+**Features:**
+- Domain marketplace
+- flexible payment plans
+- money-back guarantee
+- domain sales platform
+
+*Tags: domain-marketplace, e-commerce, digital-asset, payment-plan, domain-sales, user-experience*
+
+---
+
+### 105. [2039627880402190711](https://x.com/i/status/2039627880402190711)
+`5.0` ★ ⚡56 Q0.6✓ ✓ Solid
+
+**This resource is a web interface demonstrating the constraints of modern browser environments, specifically noting that JavaScript execution is disabled in the current browser. It serves as an educational tool to inform developers and users about necessary browser requirements for full functionality on the X platform.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: browser-compatibility, web-interface, javascript-check, ux-tool, developer-guidance*
+
+---
+
+### 106. [2043030293548798460](https://x.com/i/status/2043030293548798460)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is an example of a modern web application interface, specifically X.com, which encountered a browser incompatibility issue where JavaScript is disabled. It serves as a demonstration of the necessary interaction between a front-end interface and the underlying browser capabilities.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, frontend, web-interface*
+
+---
+
+### 107. [2044091275876675685](https://x.com/nanobot\_project/status/2044091275876675685](https://x.com/nanobot_project/status/2044091275876675685)
+`4.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is a simple status page, likely an API endpoint or a frontend interface, indicating the operational status of a specific project. It highlights the need for JavaScript enablement, suggesting it's a web application where client-side execution capabilities are crucial.**
+
+**Features:**
+- Project status check
+- JavaScript requirement notification
+- Browser compatibility check
+- X Corp branding integration
+- Developer workflow testing
+
+*Tags: web-development, status-checking, javascript, api-endpoint, frontend-ux, browser-compatibility*
+
+---
+
+### 108. [x.com/nanobot\_project/status/204409127587667](https://x.com/nanobot\_project/status/2044091275876675685)
+`4.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is a simple status page, likely an API endpoint or a frontend interface, indicating the operational status of a specific project. It highlights the need for JavaScript enablement, suggesting it's a web application where client-side execution capabilities are crucial.**
+
+**Features:**
+- Project status check
+- JavaScript requirement notification
+- Browser compatibility check
+- X Corp branding integration
+- Developer workflow testing
+
+*Tags: web-development, status-checking, javascript, api-endpoint, frontend-ux, browser-compatibility*
+
+---
+
+### 109. [Usage Limits Of Qwen 37 Max On Go Plan](https://www.reddit.com/r/opencodeCLI/comments/1tog68d/usage_limits_of_qwen_37_max_on_go_plan/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Usage Limits Of Qwen 37 Max On Go Plan**
 
 ---
 
 ## Other Tools
-> 95 tools · avg signal ⚡61
+> 96 tools · avg signal ⚡64
 
 ### 1. [zeparhyfar/mcp-datetime](https://github.com/zeparhyfar/mcp-datetime)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
@@ -461,7 +2281,7 @@
 
 ---
 
-### 25. [how-to-extract-text-from-pdfs-and-images-for-llms-use-b6e65ea270bf](https://medium.com/@gargg/how-to-extract-text-from-pdfs-and-images-for-llms-use-b6e65ea270bf)
+### 25. [medium.com/@gargg/how-to-extract-text-from-pdfs-an](https://medium.com/@gargg/how-to-extract-text-from-pdfs-and-images-for-llms-use-b6e65ea270bf)
 `9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
 
 **This article outlines various techniques for extracting text from PDF documents and image files, including using Python libraries like PyPDF2 and pdfplumber, leveraging OCR services such as Google Cloud Vision and Tesseract, and employing image processing with OpenCV. It emphasizes the importance of preprocessing extracted text to clean and standardize it for effective use in training large language models. The article also discusses challenges such as OCR errors, formatting issues, and the need...**
@@ -507,22 +2327,7 @@
 
 ---
 
-### 28. [Change your Google Account username in a few simple steps.](https://blog.google/products-and-platforms/products/workspace/google-account-username-change)
-`8.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-
-**This resource provides step-by-step instructions for updating your Google Account username, including changes to associated services like Gmail, Drive, and Photos. It emphasizes user experience improvements, security considerations, and integration with other Google platforms such as Workspace and Chrome.**
-
-**Features:**
-- username change process
-- integration with Gmail and other Google services
-- security updates
-- user guidance
-
-*Tags: account-management, user-experience, cloud-integration, security-updates, product-updates, developer-tools, ai-features, workspace...*
-
----
-
-### 29. [Zine – The AI That Actually Knows Your Stuff](https://www.zine.ai)
+### 28. [Zine – The AI That Actually Knows Your Stuff](https://www.zine.ai)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **An AI-powered image generation suite functioning as a professional non-destructive editor with stable character generation across multiple prompts.**
@@ -537,7 +2342,7 @@
 
 ---
 
-### 30. [Yapnotes - Think out loud. Get a clean first draft.](https://yapnotes.com)
+### 29. [Yapnotes - Think out loud. Get a clean first draft.](https://yapnotes.com)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -553,7 +2358,7 @@
 
 ---
 
-### 31. [Î¼Pad | Take and organise notes for free](https://getmicropad.com)
+### 30. [Î¼Pad | Take and organise notes for free](https://getmicropad.com)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **A non-linear, infinite-canvas note-taking application built with React.js that features μSync client-side AES-256 encryption.**
@@ -568,7 +2373,7 @@
 
 ---
 
-### 32. [keyshot-studio-ai](https://www.keyshot.com/keyshot-studio-ai)
+### 31. [keyshot-studio-ai](https://www.keyshot.com/keyshot-studio-ai)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **The 2026 evolution of the industry-standard 3D rendering suite, featuring local GPU-based generative AI for instant moodboarding and environment generation.**
@@ -583,7 +2388,7 @@
 
 ---
 
-### 33. [Show HN: Transcribe YouTube videos and Apple podcasts to Readable Markdown | Hacker News](https://news.ycombinator.com/item?id=41864353)
+### 32. [Show HN: Transcribe YouTube videos and Apple podcasts to Readable Markdown | Hacker News](https://news.ycombinator.com/item?id=41864353)
 `8.7` ★ ⚡72 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -595,6 +2400,22 @@
 - Support for YouTube and Apple podcasts
 
 *Tags: transcription, audio, markdown, accessibility, developer, content, learning, tech...*
+
+---
+
+### 33. [Proton Docs](https://docs.proton.me/u/0/sheet?mode)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**Proton Docs is an AI-powered documentation platform designed to help developers understand and implement complex concepts. It leverages JavaScript capabilities to provide rich documentation, likely including interactive tutorials or integrated development environments (IDEs) that enhance the developer experience.**
+
+**Features:**
+- AI-powered documentation
+- JavaScript enablement
+- comprehensive guides
+- developer tooling integration
+- interactive learning experiences
+
+*Tags: documentation, ai, javascript, developer-tools, ux, learning, tech*
 
 ---
 
@@ -707,7 +2528,39 @@
 
 ---
 
-### 41. [explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668](https://medium.com/activated-thinker/explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668)
+### 41. [](https://www.gravityxr.cn/col76/)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**This resource details a high-performance MR device featuring a 90° Field of View (FoV) pancake lens, offering 36 PPD resolution with dual 16MP color see-through capability. It highlights the lightweight design (93g), low latency (9ms VST), and eye-hand interaction capabilities, positioning it as an innovative interface for Mixed Reality experiences.**
+
+**Features:**
+- Pancake Lens Optics
+- Low Latency (9ms VST)
+- 6DoF Capability
+- High Resolution (5K/16MP)
+- Lightweight Design (93g)
+
+*Tags: mixed-reality, vr, optics, hardware, display, latency, mr*
+
+---
+
+### 42. [Blocks - Use coding agents where your teams works](https://www.blocks.team/app/d4e8e6bb-c229-4c5a-aeea-9b82fc84540e/home)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**Blocks is a powerful platform designed to help developers build and prototype applications efficiently. It offers a comprehensive set of tools for designing, coding, and deploying software, emphasizing a strong focus on the developer experience and modern workflow integration.**
+
+**Features:**
+- Collaborative design interface
+- Prototyping capabilities
+- Integrated development environment (IDE)
+- Version control/Git integration
+- User-friendly UI
+
+*Tags: design-tools, prototyping, developer-experience, collaboration, ui/ux, web-dev*
+
+---
+
+### 43. [explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668](https://medium.com/activated-thinker/explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668)
 `8.7` ★ ⚡69 Q0.6✓ ✓ Solid
 
 **The article introduces Explow.me, an AI application that enables users to engage in conversations with potential versions of themselves from the future. By simulating these interactions, users can better understand how their current choices shape long-term outcomes, thereby improving self-control and decision-making.**
@@ -721,7 +2574,7 @@
 
 ---
 
-### 42. [qwen-ai-landing-page](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page)
+### 44. [qwen-ai-landing-page](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page)
 `8.5` ★ ⚡68 Q0.6✓ ✓ Solid
 
 **This landing page highlights Alibaba Cloud's AI solutions, emphasizing its role in simplifying developer interactions through intuitive tools and streamlined workflows.**
@@ -736,7 +2589,7 @@
 
 ---
 
-### 43. [chatgpt.com](https://chatgpt.com)
+### 45. [chatgpt.com](https://chatgpt.com)
 `8.7` ★ ⚡65 Q0.6✓ ✓ Solid
 
 **The Borg Project intelligence database should include this resource to assess its utility in understanding AI-driven chatbot interactions, user engagement patterns, and the technical implementation of conversational agents.**
@@ -750,7 +2603,96 @@
 
 ---
 
-### 44. [4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+### 46. [NexDock is building a new Windows phone that you can buy in 2026 — Meet the NexPhone with Windows 11 | Windows Central](https://www.windowscentral.com/microsoft/windows-11/nexdock-is-building-a-new-windows-phone-that-you-can-buy-in-2026-meet-the-nexphone-with-windows-11)
+`7.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This article introduces the NexPhone, a new hardware product that runs Android, Linux, AND Windows 11. It highlights how this device offers dual-booting capabilities with Windows 11 and features a custom launcher shell interface to enhance the user experience.**
+
+**Features:**
+- Custom shell UI
+- Dual-booting capability (Android/Linux/Windows 11)
+- Custom launcher shell interface
+- Hardware integration for Continuum experience
+
+*Tags: windows-11, smartphone, dual-boot, operating-system, hardware-innovation, mobile-computing*
+
+---
+
+### 47. [Amazon.com](https://a.co/d/00lSDJQF)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is an Amazon storefront, designed to facilitate the shopping experience by providing clear calls to action for users to continue browsing or purchasing. It represents a standard e-commerce interface where the primary goal is to drive conversion and user engagement through product listings.**
+
+**Features:**
+- E-commerce platform
+- Shopping experience
+- Clear call to action
+- Amazon storefront
+- User shopping flow
+
+*Tags: e-commerce, ux-design, shopping, amazon, interface, conversion*
+
+---
+
+### 48. [ZOOOO](https://www.zoooo.co)
+`6.0` ★ ⚡61 Q0.6✓ ✓ Solid
+
+**ZOOO appears to be a platform offering various languages (English, Español, Français, etc.) suggesting it provides multilingual capabilities. The 'About' section implies a focus on the company's mission or product overview, which is crucial for understanding its developer utility and user experience.**
+
+**Features:**
+- Multilingual support
+- Developer tools integration
+- Comprehensive platform offering
+- AI/Developer workflow enablement
+
+*Tags: developer-tools, multilingual, platform, ai-integration, ux, language-features*
+
+---
+
+### 49. [fwber.me - Social Network - Join the Revolution in Social Networking](https://www.fwber.me/dashboard)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**fwber.me is a platform designed to facilitate social networking, offering users a space to join and participate in the 'revolution' of social interaction. It likely provides tools for user engagement, community building, and social connectivity within its ecosystem.**
+
+**Features:**
+- Social Networking Platform
+- Community Engagement Tools
+- Revolution Focus
+- User Interface
+- Social Connectivity
+
+*Tags: social-networking, community, ux, platform, revolution, social-tools*
+
+---
+
+### 50. [trpc/trpc](https://github.com/trpc/trpc)
+`7.0` ★ ⚡60 Q0.6✓ ✓ Solid
+
+**tRPC provides an end-to-end typed API layer for building scalable, type-safe backend services. It focuses on providing fully type-safe APIs without requiring code generation or runtime bloat, offering a snappy developer experience that integrates seamlessly into existing projects.**
+
+**Features:**
+- type-safe APIs
+
+*Tags: react, typescript, nextjs, api, developer-tools, type-safety*
+
+---
+
+### 51. [The Component Gallery](https://component.gallery/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource provides a gallery of ready-to-use interface components, exemplified by the Figma/design system 'Polaris'. It offers various interactive elements like carousels, popovers, and accordions, making it a practical reference for developers needing to build rich, interactive user interfaces.**
+
+**Features:**
+- Component Gallery
+- Design System Reference
+- Interactive Components
+- UI Component Examples
+
+*Tags: ui-design, component-library, figma, web-components, ux, design-system*
+
+---
+
+### 52. [4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
 `8.0` ★ ⚡57 Q0.5✓ ✓ Solid
 ↗3 layers
 
@@ -765,365 +2707,1769 @@
 
 ---
 
-### 45. [wsj.com](https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+### 53. [EasyGetIt — Shop Quality Products Online](https://easygetit.com/)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
 
-**wsj.com**
+**This tool is an e-commerce platform designed for browsing curated product collections and providing a seamless shopping experience. It allows users to browse categories, view featured products, and create accounts for faster checkout and exclusive deals.**
+
+**Features:**
+- Curated product collection
+- Seamless shopping experience
+- Product browsing by category
+- Account creation for better checkout
+
+*Tags: e-commerce, shopping, retail, user-experience, product-discovery, easygetit*
 
 ---
 
-### 46. [start.smartymeapp.com](https://start.smartymeapp.com/smartyme-g135-ngr?utm_source=google&utm_medium=cpc&utm_campaign_name=%7Bcampaignname%7D&utm_campaign_id=23785952820&utm_adset_name=%7Badgroupname%7D&utm_adset_id=199016161434&utm_ad_name=%7Badname%7D&utm_ad_id=806646679410&utm_asset_id=%7Bassetid%7D&utm_keyword=&utm_matchtype=&utm_device=m&utm_network=&utm_placement=&utm_adposition=&utm_loc_physical=9016963&utm_loc_interest=9016963&utm_gclid=&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM)
+### 54. [newbeb/clipboard-mcp](https://github.com/newbeb/clipboard-mcp)
+`6.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This is a developer tool designed to provide AI agents with direct access to the macOS clipboard, including text, images, and binary data. It uses `osascript` to interact with the macOS clipboard, ensuring content is checked on demand rather than cached.**
+
+**Features:**
+- macOS clipboard access
+
+*Tags: macos, clipboard, ai-agent, interface, developer-tool, mcp*
+
+---
+
+### 55. [claude.ai?utm_source=chatgpt.com](https://claude.ai?utm_source=chatgpt.com)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**claude.ai?utm_source=chatgpt.com**
+
+---
+
+### 56. [perplexity.ai?utm_source=chatgpt.com](https://www.perplexity.ai?utm_source=chatgpt.com)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**perplexity.ai?utm_source=chatgpt.com**
+
+---
+
+### 57. [start.smartymeapp.com](https://start.smartymeapp.com/smartyme-g135-ngr?utm_source=google&utm_medium=cpc&utm_campaign_name=%7Bcampaignname%7D&utm_campaign_id=23785952820&utm_adset_name=%7Badgroupname%7D&utm_adset_id=199016161434&utm_ad_name=%7Badname%7D&utm_ad_id=806646679410&utm_asset_id=%7Bassetid%7D&utm_keyword=&utm_matchtype=&utm_device=m&utm_network=&utm_placement=&utm_adposition=&utm_loc_physical=9016963&utm_loc_interest=9016963&utm_gclid=&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **start.smartymeapp.com**
 
 ---
 
-### 47. [coursiv.io](https://coursiv.io/dynamic?prc_id=1134&utm_source=google&utm_medium=cpc&utm_campaign=23797420521&utm_adgroupid=196935309998&utm_ad=807052765818&utm_type=demgen&utm_acc=1308143291&utm_alen=1&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs)
+### 58. [wsj.com](https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**coursiv.io**
+**wsj.com**
 
 ---
 
-### 48. [google.com](https://www.google.com/search?sca_esv=4f696a57d58ffefe&hl=en-US&sxsrf=ANbL-n6KBm57nKSUX61duSI1ZImG4DCDQw:1777450426435&udm=2&fbs=ADc_l-aHJKCxetkbp8HihrVlWP2ENBmj8ePQpnKzyIu6yjoSQgS2Eup85xo5DzP6Z2Tc6kTn6As-hD55HLfUn6a46JV-exP3lzUObZI9L49v73JjfIfqfoHdz5px4Yo9brLFz5lqXEAx0aCgM9hKDjrC6C-b9mfyU4zleIAiE-MfNGcY8GAQ2SUiG12B9i6OB__z5STvhRCSODe9tAmQ54LXhfwgz7BvUwa7v1A6ci_rLxeB9g6sqq4&q=xerox+alto+gui&sa=X&ved=2ahUKEwjnqpfqzpKUAxXQnysGHbFrLYcQtKgLegQIExAB&biw=414&bih=726&dpr=2#sv=CAMSVxoyKhBlLUt4MmRnR0hHeHFnUThNMg5LeDJkZ0dIR3hxZ1E4TToOQnhyeVktZHVlU05xTk0gBCoXCgFzEhBlLUt4MmRnR0hHeHFnUThNGAEwAUoECAEQAhgHIKLaueQESggQAhgBIAIoAQ)
+### 59. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**google.com**
+**cbe005.chat.mibbit.com**
 
 ---
 
-### 49. [google.com](https://www.google.com/search?q=stagewright+ai&sca_esv=6336829e16f70379&hl=en-US&sxsrf=ANbL-n46N5Yan9qDrSKJf8CM9xBREXAMvQ%3A1778776353434&ei=IfkFatuIGs28ruEP6NWKqAI&biw=414&bih=726&oq=stagewright+ai&gs_lp=EhNtb2JpbGUtZ3dzLXdpei1zZXJwIg5zdGFnZXdyaWdodCBhaTIFECEYoAEyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABMgUQABjvBTIFEAAY7wUyBRAAGO8FSL8lUPEPWLofcAN4AZABAJgBdaABogOqAQMxLjO4AQPIAQD4AQGYAgegAusDwgIKEAAYRxjWBBiwA8ICBxAAGIAEGA3CAg0QLhiABBgNGMcBGK8BwgIEEAAYHsICBhAAGB4YCsICBhAAGBYYHsICBRAhGJ8FmAMAiAYBkAYIkgcDMy40oAfKE7IHAzAuNLgH0APCBwcwLjEuMi40yAdEgAgB&sclient=mobile-gws-wiz-serp)
+### 60. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server=irc.snoonet.org&nick=nickname%3F%3F%3F&channel=%23singularitynetwork)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**google.com**
+**cbe005.chat.mibbit.com**
 
 ---
 
-### 50. [Whats One Underrated Productivity Tip Or Tool](https://www.reddit.com/r/ProductivityGuide/comments/1s7q44q/whats_one_underrated_productivity_tip_or_tool/)
+### 61. [chat.lmsys.org](https://chat.lmsys.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.lmsys.org**
+
+---
+
+### 62. [discord.gg](https://discord.gg/r-chatgpt-1050422060352024636)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 63. [discord.gg](https://discord.gg/rchatgpt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 64. [giphy.com](https://giphy.com/gifs/1AIeYgwnqeBUxh6juu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 65. [giphy.com](https://giphy.com/gifs/Ptuibzjft6Ud6mBeu6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 66. [hpluspedia.org](https://hpluspedia.org/wiki/Chat)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hpluspedia.org**
+
+---
+
+### 67. [open-vsx.org](https://open-vsx.org/extension/serkan-ozal/browser-devtools-mcp-vscode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open-vsx.org**
+
+---
+
+### 68. [t.me](https://t.me/r_ChatGPT)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**t.me**
+
+---
+
+### 69. [ufos.wiki](https://ufos.wiki/track/sightings-post-guidelines/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 70. [linkedin.com](https://www.linkedin.com/posts/a16z_big-ideas-activity-7445485236454330368-RqC6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABMwAXkBCMqPnmiiUL5hRhEDIqGfXfwQlgk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 71. [youtube.com](https://www.youtube.com/watch?app=desktop&v=kOK1Cw46HUo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 72. [youtube.com](https://www.youtube.com/watch?v=QQEgIo4Juxg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 73. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 74. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp=drivesdk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 75. [npmjs.com](https://www.npmjs.com/package/@toolkit-cli/toolkode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 76. [youtu.be](https://youtu.be/pA6OJXO6UrU?is=tr4m9UXO-qI8JJsD)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 77. [Linux.DO](http://Linux.DO)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**Linux.DO**
+
+---
+
+### 78. [chat.deepseek.com](http://chat.deepseek.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.deepseek.com**
+
+---
+
+### 79. [chat.openai.com](https://chat.openai.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.openai.com**
+
+---
+
+### 80. [chicago.suntimes.com](https://chicago.suntimes.com/news/2023/2/24/23614215/tracking-service-stolen-volkswagen-toddler-inside-carjacking-lake-county?utm_source=chatgpt.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chicago.suntimes.com**
+
+---
+
+### 81. [mattfrisbie.substack.com](https://mattfrisbie.substack.com/p/the-ugly-business-of-monetizing-browser)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mattfrisbie.substack.com**
+
+---
+
+### 82. [mcp.euclidtools.com](https://mcp.euclidtools.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mcp.euclidtools.com**
+
+---
+
+### 83. [youtu.be](https://youtu.be/xsYoeoEE3ww?si=N_nGnuXXbgw0hHVb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 84. [fxgears.com](https://fxgears.com/index.php?pages/trading_chatroom/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fxgears.com**
+
+---
+
+### 85. [share.formgrid.com](https://share.formgrid.com/terminal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 86. [linkedin.com](https://www.linkedin.com/pulse/notebooklm-2026-ultimate-guide-newest-features-joel-salinas-frencia-ed1rc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 87. [youtube.com](https://www.youtube.com/watch?v=_uXnyhrqmsU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 88. [localhost:8001](http://localhost:8001/v1/chat/completions)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8001**
+
+---
+
+### 89. [unsplash.com](https://unsplash.com/photos/a-multicolored-image-of-a-multi-colored-background-Js9auX5_9R8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unsplash.com**
+
+---
+
+### 90. [clipcut.dev](https://clipcut.dev/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**clipcut.dev**
+
+---
+
+### 91. [eyekeeper.com](https://eyekeeper.com/a/s/products/3-pack-vintage-clip-on-polarized-sunglasses-c63-54mm-34mm?country=US&currency=USD&rdt_cid=5333117784107024304&utm_campaign=us1&utm_content=us1&utm_medium=product_sync&utm_source=reddit&variant=41404595667134)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**eyekeeper.com**
+
+---
+
+### 92. [Replaced Our Human Phone Setter With An Ai Voice](https://www.reddit.com/r/Tech4LocalBusiness/comments/1tfjcc8/replaced_our_human_phone_setter_with_an_ai_voice/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Whats One Underrated Productivity Tip Or Tool**
+**Replaced Our Human Phone Setter With An Ai Voice**
 
 ---
 
-### 51. [Anyone Try Qwen36 Plus Free For Coding](https://www.reddit.com/r/opencodeCLI/comments/1saatrn/anyone_try_qwen36_plus_free_for_coding/)
+### 93. [Anyone Built Something That Earns Them Money](https://www.reddit.com/r/CLine/comments/1tnpoaj/anyone_built_something_that_earns_them_money/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Anyone Try Qwen36 Plus Free For Coding**
+**Anyone Built Something That Earns Them Money**
 
 ---
 
-### 52. [Frustrations With Models Having Their Own Will](https://www.reddit.com/r/opencodeCLI/comments/1s9w37g/frustrations_with_models_having_their_own_will/)
+### 94. [Built A Windows Mcp Server For Ai Desktop](https://www.reddit.com/r/MCPservers/comments/1tq9vjn/built_a_windows_mcp_server_for_ai_desktop/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Frustrations With Models Having Their Own Will**
+**Built A Windows Mcp Server For Ai Desktop**
 
 ---
 
-### 53. [Built An Mcp Server To Analyze Stock Trades Of](https://www.reddit.com/r/mcp/comments/1saouxh/built_an_mcp_server_to_analyze_stock_trades_of/)
+### 95. [Cleared 480 In A Week Clipping On Bounty Easiest](https://www.reddit.com/r/ContentRich/comments/1toay7n/cleared_480_in_a_week_clipping_on_bounty_easiest/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Built An Mcp Server To Analyze Stock Trades Of**
+**Cleared 480 In A Week Clipping On Bounty Easiest**
 
 ---
 
-### 54. [Switched From Mcps To Clis For Claude Code And](https://www.reddit.com/r/ClaudeAI/comments/1sakut1/switched_from_mcps_to_clis_for_claude_code_and/)
+### 96. [I Shipped A Docs Scaffold Mcp For My Chatbot Sdk](https://www.reddit.com/r/mcp/comments/1tsmf8d/i_shipped_a_docs_scaffold_mcp_for_my_chatbot_sdk/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Switched From Mcps To Clis For Claude Code And**
+**I Shipped A Docs Scaffold Mcp For My Chatbot Sdk**
 
 ---
 
-### 55. [I Built An Ai Companion App Around Longterm](https://www.reddit.com/r/AIChatCompanions/comments/1sbysf6/i_built_an_ai_companion_app_around_longterm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+## Monitoring & Analytics
+> 87 tools · avg signal ⚡78
 
-**I Built An Ai Companion App Around Longterm**
+### 1. [allvoicelab/allvoicelab-mcp](https://github.com/allvoicelab/allvoicelab-mcp)
+`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
+↗2 layers
 
----
+**The AllVoiceLab MCP server is a powerful platform that integrates advanced text-to-speech, video translation, and voice conversion capabilities. It supports seamless interaction with external APIs, enabling applications such as localized audio content generation, real-time dubbing, and multilingual subtitle extraction. The server leverages multi-engine technology to provide versatile voice options including natural-sounding synthesis in over 30 languages, real-time voice cloning, and high-accura...**
 
-### 56. [I Built A Tool That Converts Mcp Servers Into Cli](https://www.reddit.com/r/mcp/comments/1sd0cuf/i_built_a_tool_that_converts_mcp_servers_into_cli/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+**Features:**
+- Text-to-Speech Generation
+- Video Translation & Dubbing
+- Voice Cloning
+- Subtitle Extraction
+- Multilingual Speech Synthesis
+- Real-time Voice Conversion
 
-**I Built A Tool That Converts Mcp Servers Into Cli**
-
----
-
-### 57. [Nullpath Mcp Client Enables Users To Discover And](https://www.reddit.com/r/mcp/comments/1sdadcj/nullpath_mcp_client_enables_users_to_discover_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Nullpath Mcp Client Enables Users To Discover And**
-
----
-
-### 58. [Omniforge A Cli Tool That Makes Finetuning Ai](https://www.reddit.com/r/huggingface/comments/1seek64/omniforge_a_cli_tool_that_makes_finetuning_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Omniforge A Cli Tool That Makes Finetuning Ai**
+*Tags: allvoicelab, text-to-speech, video-translation, voice-cloning, ai-synthesis, multilingual-processing, developer-tools, content-localization...*
 
 ---
 
-### 59. [I Made An Mcp Server That Lets Chatgpt Claude](https://www.reddit.com/r/google_antigravity/comments/1sdjn8p/i_made_an_mcp_server_that_lets_chatgpt_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 2. [promplate/hmr](https://github.com/promplate/hmr)
+`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
 
-**I Made An Mcp Server That Lets Chatgpt Claude**
+**This technical resource introduces HMR (Hot Module Reload) as a Python-centric tool designed to enhance development workflows by enabling real-time code updates without full application restarts. It leverages reactive programming principles, integrates with frameworks like FastAPI and Uvicorn, and employs advanced techniques such as runtime dependency tracking and file system monitoring to ensure precise, efficient reloading. The implementation emphasizes a robust ecosystem for seamless integrat...**
 
----
+**Features:**
+- Reactive programming engine with HMR capabilities
+- Hot module reloading for dynamic code updates
+- Runtime dependency tracking using signal and observer patterns
+- File system monitoring for non-Python file changes
+- Integration with Uvicorn and FastAPI for ASGI applications
 
-### 60. [Selfhosted Coding Cli On A 500 Gpu Matches Claude](https://www.reddit.com/r/ArtificialInteligence/comments/1sf4kn2/selfhosted_coding_cli_on_a_500_gpu_matches_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Selfhosted Coding Cli On A 500 Gpu Matches Claude**
-
----
-
-### 61. [How Are You Managing Ram When Multiple Ai Cli](https://www.reddit.com/r/mcp/comments/1sfod01/how_are_you_managing_ram_when_multiple_ai_cli/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Are You Managing Ram When Multiple Ai Cli**
+*Tags: python, reactive, hot-reload, developer-tools, asgi-app, fastapi, uvicorn, mcp...*
 
 ---
 
-### 62. [Jarvis Running On 3 Servers As One Fleet Claude](https://www.reddit.com/r/opencodeCLI/comments/1sj4nam/jarvis_running_on_3_servers_as_one_fleet_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 3. [gpaul-faldin/mcp_puppeteer_extra](https://github.com/gpaul-faldin/mcp_puppeteer_extra)
+`9.1` ★★ ⚡94 Q0.9🏆 🏆 World-class
+↗5 layers
 
-**Jarvis Running On 3 Servers As One Fleet Claude**
+**The MCP_puppeteer_extra project provides a robust solution for browser automation by integrating Puppeteer-Extra and the stealth plugin. This enables LLMs to interact with web pages in a manner that closely mimics human user behavior, thereby reducing the likelihood of detection as automated scripts. Key features include enhanced screenshot capabilities, console logging, JavaScript execution, and a comprehensive suite of interaction methods such as clicks, fills, selections, and hovers. The serv...**
 
----
+**Features:**
+- enhanced browser automation
+- stealth mode
+- screenshot capabilities
+- console logging
+- JavaScript execution
+- interaction methods
 
-### 63. [Built A Cli That Generates Codebase Index Files](https://www.reddit.com/r/GeminiCLI/comments/1shovvg/built_a_cli_that_generates_codebase_index_files/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Cli That Generates Codebase Index Files**
-
----
-
-### 64. [Managing Mcp Servers For Multiple Clients Best](https://www.reddit.com/r/mcp/comments/1sk74vd/managing_mcp_servers_for_multiple_clients_best/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Managing Mcp Servers For Multiple Clients Best**
+*Tags: puppeteer-extra, stealth-plugin, browser-automation, developer-tools, ai-integration*
 
 ---
 
-### 65. [Clinicaltrialsgovmcpserver Clinicaltrialsgov Mcp](https://www.reddit.com/r/mcp/comments/1sm1l3l/clinicaltrialsgovmcpserver_clinicaltrialsgov_mcp/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 4. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)
+`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
+↗4 layers
 
-**Clinicaltrialsgovmcpserver Clinicaltrialsgov Mcp**
+**The folderr-mcp-server is a model context protocol (MCP) server designed to facilitate seamless integration between developers and Folderr's AI assistant tools. It provides a structured interface for managing authentication, interacting with Folderr APIs, and executing tasks such as code review, workflow automation, and application security. The server supports both login via email/password and API token authentication, ensuring secure access for various use cases including DevOps, CI/CD pipelin...**
 
----
+**Features:**
+- Authentication (email/password or API token)
+- API integration with Folderr
+- Code review and management
+- Workflow automation
+- Security features
 
-### 66. [I Built A Trello Mcp Server So I Could Stop](https://www.reddit.com/r/GeminiCLI/comments/1smv2ek/i_built_a_trello_mcp_server_so_i_could_stop/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Trello Mcp Server So I Could Stop**
-
----
-
-### 67. [Openai Just Dropped Gpt55 And This Looks Less](https://www.reddit.com/r/AIGuild/comments/1stztsq/openai_just_dropped_gpt55_and_this_looks_less/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Openai Just Dropped Gpt55 And This Looks Less**
+*Tags: api, developer, ai, mcp, security, automation, integration, code...*
 
 ---
 
-### 68. [Which Closed Source Model New Or Older Would You](https://www.reddit.com/r/opencodeCLI/comments/1t5siyo/which_closed_source_model_new_or_older_would_you/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 5. [tanevanwifferen/usescraper-mcp-server](https://github.com/tanevanwifferen/usescraper-mcp-server)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+↗3 layers
 
-**Which Closed Source Model New Or Older Would You**
+**The Usescraper-mcp-server is a lightweight, TypeScript-powered MCP (Machine Control Protocol) server designed to facilitate automated web scraping. It provides a RESTful interface for developers to extract content from web pages in various formats such as markdown or plain text. The server supports advanced features like customizable extraction parameters, proxy usage, and integration with development environments. Its architecture emphasizes ease of use for both beginners and experienced develo...**
 
----
+**Features:**
+- scrape tool
+- web scraping capabilities
+- support for markdown/text formats
+- proxy integration
+- auto-rebuild support
 
-### 69. [Best Coding Subscriptions For Costperformance](https://www.reddit.com/r/opencodeCLI/comments/1t3x9zn/best_coding_subscriptions_for_costperformance/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Best Coding Subscriptions For Costperformance**
-
----
-
-### 70. [Kimi K26 Turbo Firepass Now Available](https://www.reddit.com/r/opencodeCLI/comments/1t7u5fl/kimi_k26_turbo_firepass_now_available/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Kimi K26 Turbo Firepass Now Available**
+*Tags: mcp-server, web-scraping, use-scraper-api, developer-tools, automation*
 
 ---
 
-### 71. [Openai Made Gpt55 Instant The New Default Chatgpt](https://www.reddit.com/r/AIGuild/comments/1t4xfxo/openai_made_gpt55_instant_the_new_default_chatgpt/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 6. [kablewy/fred-mcp-server](https://github.com/kablewy/fred-mcp-server)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**Openai Made Gpt55 Instant The New Default Chatgpt**
+**The kablewy/fred-mcp-server is a Node.js application that implements the Model Context Protocol (MCP) to enable developers and analysts to search and retrieve economic data series from the Federal Reserve Economic Data (FRED) API. It provides tools for searching, observing, and managing economic datasets with features like date range filtering, frequency adjustment, aggregation methods, sorting, and pagination. The server is designed to be developer-friendly, offering a robust interface for inte...**
 
----
+**Features:**
+- MCP Server
+- FRED API Integration
+- Data Search & Observation
+- Sorting & Pagination
+- Aggregation Methods
 
-### 72. [Deepseek V4 Pro Cline Infinite Reasoning Loop](https://www.reddit.com/r/CLine/comments/1tasgfm/deepseek_v4_pro_cline_infinite_reasoning_loop/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Deepseek V4 Pro Cline Infinite Reasoning Loop**
-
----
-
-### 73. [Cliuse Turn Any Mcp Server Into A Simple Fast Cli](https://www.reddit.com/r/MCPservers/comments/1tbek6q/cliuse_turn_any_mcp_server_into_a_simple_fast_cli/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cliuse Turn Any Mcp Server Into A Simple Fast Cli**
+*Tags: fred-mcp-server, mcp-server, fred-api, data-integration, developer-tools*
 
 ---
 
-### 74. [Textgen Is Now A Native Desktop App Opensource](https://www.reddit.com/r/LocalLLaMA/comments/1tbyyee/textgen_is_now_a_native_desktop_app_opensource/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 7. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗4 layers
 
-**Textgen Is Now A Native Desktop App Opensource**
+**The MCP Server facilitates seamless integration with various hardware devices such as cameras, printers, microphones, and displays. It provides a centralized platform for developers to create, manage, and automate workflows across different peripherals connected to a computer. This tool enhances user experience by offering intuitive controls and monitoring capabilities through a unified API.**
 
----
+**Features:**
+- Camera control
+- Print management
+- Audio recording
+- Screen capture
+- Printer integration
+- Device listing
+- Audio device management
+- Video recording
+- Code execution and automation
 
-### 75. [Cliuse Turn Any Mcp Server Into A Simple Fast Cli](https://www.reddit.com/r/mcp/comments/1tbej6n/cliuse_turn_any_mcp_server_into_a_simple_fast_cli/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cliuse Turn Any Mcp Server Into A Simple Fast Cli**
-
----
-
-### 76. [My Fellow Ai Business Owners How Do I Get Clients](https://www.reddit.com/r/aisolobusinesses/comments/1tddwc6/my_fellow_ai_business_owners_how_do_i_get_clients/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Fellow Ai Business Owners How Do I Get Clients**
-
----
-
-### 77. [How To Ai China Opensourced A Desktop Automation](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tc1x3h/how_to_ai_china_opensourced_a_desktop_automation/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How To Ai China Opensourced A Desktop Automation**
+*Tags: device-integration, api-development, iot, software-development, automation, peripheral-control, unified-platform, device-management...*
 
 ---
 
-### 78. [Teenager Died After Asking Chatgpt For Most](https://www.reddit.com/r/agi/comments/1sb5vzn/teenager_died_after_asking_chatgpt_for_most/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 8. [rotexhawk/mcp-puppeteer-server](https://github.com/rotexhawk/mcp-puppeteer-server)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
 
-**Teenager Died After Asking Chatgpt For Most**
+**The MCP Puppeteer Server provides a centralized, containerized environment for executing Puppeteer scripts in headless mode. It enables developers to automate browser tasks such as navigation, screenshotting, form filling, and JavaScript execution without requiring local browser installations. This infrastructure supports scalable and repeatable workflows, making it suitable for CI/CD pipelines, testing, and enterprise-grade automation.**
 
----
+**Features:**
+- Browser automation
+- Screenshot capture
+- JavaScript execution
+- Form filling
+- Element selection
+- Console logging
 
-### 79. [Factory Worker Builds 205K Loc Mes System With](https://www.reddit.com/r/vibecoding/comments/1sd7bux/factory_worker_builds_205k_loc_mes_system_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Factory Worker Builds 205K Loc Mes System With**
-
----
-
-### 80. [Chatgpt Plus 12Month Private Account For 20](https://www.reddit.com/r/CheapGptplus/comments/1smaew3/chatgpt_plus_12month_private_account_for_20/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Chatgpt Plus 12Month Private Account For 20**
+*Tags: puppeteer, browser-automation, web-scraping, headless-chromium, developer-tools*
 
 ---
 
-### 81. [The Full Guide To Claudemd Best Uses](https://www.reddit.com/r/AskVibecoders/comments/1sryxyx/the_full_guide_to_claudemd_best_uses/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 9. [ronantakizawa/a11ymcp](https://github.com/ronantakizawa/a11ymcp)
+`8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
 
-**The Full Guide To Claudemd Best Uses**
+**The a11ymcp project provides a dedicated server that leverages modern tools like Deque Axe-core and Puppeteer to evaluate web pages for accessibility compliance. By integrating these technologies, it enables developers and testers to automate accessibility checks across various web content, ensuring adherence to WCAG standards. The server supports customizable tests, including HTML snippets, color contrast analysis, ARIA validation, and orientation lock detection, making it a versatile tool for ...**
 
----
+**Features:**
+- Deque Axe-core integration
+- Puppeteer API usage
+- Customizable accessibility tests
+- WCAG compliance checks
+- Color contrast analysis
+- ARIA attribute validation
 
-### 82. [Cline Cline On X Roo Code Is Shutting Down And](https://www.reddit.com/r/CLine/comments/1srvha0/cline_cline_on_x_roo_code_is_shutting_down_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cline Cline On X Roo Code Is Shutting Down And**
-
----
-
-### 83. [Is It Just Me Or Is Chatqwenai Severely Underrated](https://www.reddit.com/r/Qwen_AI/comments/1sv2klg/is_it_just_me_or_is_chatqwenai_severely_underrated/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is It Just Me Or Is Chatqwenai Severely Underrated**
+*Tags: accessibility-testing, web-accessibility, a11y, mcp, deque-axe, puppeteer, automated-tests*
 
 ---
 
-### 84. [I Asked Chatgpt What Questions It Wishes Humans](https://www.reddit.com/r/ArtificialSentience/comments/1t0g6sh/i_asked_chatgpt_what_questions_it_wishes_humans/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 10. [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 
-**I Asked Chatgpt What Questions It Wishes Humans**
+**PersonaPlex is an advanced conversational AI platform built on the Moshi architecture, designed to deliver natural, low-latency interactions. It supports a wide range of voices and roles, enabling developers to integrate seamless voice and text-based dialogues into applications. The tool emphasizes user experience by offering intuitive controls for persona management, prompt customization, and smooth turn-taking, making it suitable for enterprise-grade AI development.**
 
----
+**Features:**
+- Persona control through text prompts
+- Voice generation with natural speech synthesis
+- Customizable voice and role prompts
+- Integration with web interfaces and APIs
+- Offline evaluation and testing capabilities
 
-### 85. [Which Provider Is Actually Behind Deepseek V4 Pro](https://www.reddit.com/r/opencodeCLI/comments/1t31fdu/which_provider_is_actually_behind_deepseek_v4_pro/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Which Provider Is Actually Behind Deepseek V4 Pro**
-
----
-
-### 86. [Feeling Like Glm 51 In Oc Might Be A Suitable](https://www.reddit.com/r/opencodeCLI/comments/1sfw4vf/feeling_like_glm_51_in_oc_might_be_a_suitable/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Feeling Like Glm 51 In Oc Might Be A Suitable**
+*Tags: personaplex, voice-control, conversational-ai, speech-synthesis, enterprise-ai, developer-tools, moshi-architecture, custom-prompts...*
 
 ---
 
-### 87. [There Will Never Be An Antigravity Cli I Thought](https://www.reddit.com/r/AntigravityGoogle/comments/1sidwmb/there_will_never_be_an_antigravity_cli_i_thought/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 11. [Parsec for Teams | Parsec](https://parsec.app/teams)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
-**There Will Never Be An Antigravity Cli I Thought**
+**Parsec for Teams is a powerful collaboration platform designed to connect distributed teams through advanced technical features. It supports encrypted peer-to-peer connections, multi-monitor video streaming, and integrates with various input devices such as keyboards, mice, Wacom tablets, and gamepads. The platform emphasizes security, offering SSO integration, guest access, and robust team management tools. Its responsive design ensures minimal latency, while its advanced features like shared w...**
 
----
+**Features:**
+- Encrypted peer-to-peer connections
+- Fast input device support (keyboard
+- mouse
+- Wacom
+- gamepad)
+- High-speed video streaming (60FPS UHD)
+- Multi-monitor support
+- Secure guest access
+- Team management and billing controls
+- Advanced collaboration tools
 
-### 88. [Assorted Msdos Tuis From The Late 80S Early 90S](https://www.reddit.com/r/tui/comments/1srjqxz/assorted_msdos_tuis_from_the_late_80s_early_90s/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Assorted Msdos Tuis From The Late 80S Early 90S**
-
----
-
-### 89. [More Msdos Tuis From The Late 80S Early 90S](https://www.reddit.com/r/tui/comments/1sua5ry/more_msdos_tuis_from_the_late_80s_early_90s/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**More Msdos Tuis From The Late 80S Early 90S**
-
----
-
-### 90. [Is It Just Me That Deepseek V4 Flash Max Is](https://www.reddit.com/r/opencodeCLI/comments/1t1jzcw/is_it_just_me_that_deepseek_v4_flash_max_is/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is It Just Me That Deepseek V4 Flash Max Is**
+*Tags: parsec, teams, remote-work, collaboration, security, hardware-integration, video-streaming, user-experience...*
 
 ---
 
-### 91. [Hats Off To Claude](https://www.reddit.com/r/ClaudeAI/comments/1sdabux/hats_off_to_claude/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+### 12. [sjquant/llm-bridge-mcp](https://github.com/sjquant/llm-bridge-mcp)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**Hats Off To Claude**
+**The sjquant/llm-bridge-mcp project provides a standardized interface for interacting with various large language models such as GPT, DeepSeek, and Claude. It leverages the Message Control Protocol (MCP) to facilitate smooth communication between different LLM providers, allowing developers to switch models or use multiple models within a single application without modification.**
 
----
+**Features:**
+- Model-agnostic MCP server
+- Support for multiple LLMs including GPT
+- DeepSeek
+- Claude
+- Customizable parameters like temperature and max tokens
+- Usage tracking and metrics
+- Integration with VSCode via PyProjects
 
-### 92. [All Mcp Clients](https://www.reddit.com/r/mcp/comments/1sllc35/all_mcp_clients/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**All Mcp Clients**
-
----
-
-### 93. [Nice Work Firepass](https://www.reddit.com/r/opencodeCLI/comments/1sf2w4a/nice_work_firepass/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Nice Work Firepass**
+*Tags: llm-bridge-mcp, model-agnostic, mcp-server, ai-integration, llm-integration, developer-tools, multi-model-support, vscode-integration...*
 
 ---
 
-### 94. [Codenomad V0140 Released](https://www.reddit.com/r/opencodeCLI/comments/1smxl7n/codenomad_v0140_released/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+### 13. [dnakov/frida-mcp](https://github.com/dnakov/frida-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**Codenomad V0140 Released**
+**The dnakov/frida-mcp project provides a Python SDK-based server that enables seamless integration of Frida's dynamic instrumentation capabilities into AI-driven applications. It supports process management, device management, JavaScript REPL, script injection, and real-time monitoring, making it ideal for developers aiming to enhance their AI tools with dynamic application testing and debugging features.**
+
+**Features:**
+- Process Management
+- Device Management
+- JavaScript REPL
+- Script Injection
+- Progress Tracking
+
+*Tags: frida-mcp, mcp, ai-integration, developer-tools, dynamic-instrumentation, process-monitoring, scripting, ai-testing...*
 
 ---
 
-### 95. [Deepseek V4 Is Out](https://www.reddit.com/r/opencodeCLI/comments/1su3v1y/deepseek_v4_is_out/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+### 14. [alejandroballesterosc/document-edit-mcp](https://github.com/alejandroballesterosc/document-edit-mcp)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**Deepseek V4 Is Out**
+**The Document Edit MCP project provides a streamlined, Python-based server that enables users to perform various document operations such as creating, editing, converting, and manipulating files across multiple formats. It supports integration with popular document editors like Microsoft Word, Excel, and PDF, offering a unified interface for developers and end-users.**
+
+**Features:**
+- PDF manipulation
+- Word document creation and editing
+- Excel file creation and editing
+- CSV to Excel conversion
+- Text to Word conversion
+- Logging and troubleshooting
+
+*Tags: document-edit, mcp-server, developer-tool, ai-integration, code-editor, cloud-devops*
+
+---
+
+### 15. [vaibhavgeek/twitter-rapidapi-mcp-x](https://github.com/vaibhavgeek/twitter-rapidapi-mcp-x)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**Twitter-RapidAPI-MCP-X is a streamlined API solution designed to simplify access to Twitter data. It enables developers to build social media analytics tools, monitoring applications, and real-time insights by providing structured endpoints for tweets, user profiles, and trending topics. The project emphasizes ease of integration with Python-based workflows, offering robust features tailored for modern application development.**
+
+**Features:**
+- Twitter data access
+- Tweet retrieval
+- User information
+- Trending topics
+- API integration
+
+*Tags: twitter, rapidapi, mcp-x, python, developer, api, socialmedia, data...*
+
+---
+
+### 16. [matipojo/shufersal-mcp](https://github.com/matipojo/shufersal-mcp)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The matipojo/shufersal-mcp project provides a GitHub-hosted server that enables AI models, particularly LLMs, to interact with the Shufersal e-commerce platform. It supports tasks such as product search, cart management, shopping list creation, and browser automation, streamlining workflows for developers working on modernizing enterprise applications.**
+
+**Features:**
+- Product search and personalized results
+- Cart management and shopping list creation
+- Browser automation with Puppeteer
+- Shopping list generation from web links
+- Integration with Shufersal's API for cart interactions
+- Console log monitoring and debugging
+- Recipe-based shopping list creation
+
+*Tags: ai, web-automation, e-commerce, product-search, shopping-cart, developer-tools, mcp-integration, browser-automation...*
+
+---
+
+### 17. [kazuph/mcp-browser-tabs](https://github.com/kazuph/mcp-browser-tabs)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The kazuph/mcp-browser-tabs project provides a web-based interface to monitor and control open Chrome tabs on macOS. It leverages AppleScript to interact with Chrome's API, allowing users to manage tab states such as opening, closing, and navigating between windows. The tool is designed for developers and power users who need fine-grained control over browser activity, particularly in complex desktop environments.**
+
+**Features:**
+- Browser tab monitoring
+- AppleScript integration
+- Tab state management
+- Cross-window navigation
+- Customizable interface
+
+*Tags: browser-tabs, macos, applescript, web-scraping, developer-tools, task-management, user-interface, automation...*
+
+---
+
+### 18. [gfb-47/whatsapp-mcp-server](https://github.com/gfb-47/whatsapp-mcp-server)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The gfb-47/whatsapp-mcp-server is a macOS-based Node.js application that facilitates automation of WhatsApp desktop interactions using AppleScript. It provides functionalities such as sending messages, checking WhatsApp status, listing recent contacts, and integrating with Claude for natural language messaging. The server leverages MCP protocol, AppleScript automation, and Node.js to deliver a seamless developer experience.**
+
+**Features:**
+- Send Messages to Contacts
+- Check WhatsApp Status
+- List Recent Contacts
+- Integrate with Claude for Natural Language Messaging
+- Error Handling and Logging
+
+*Tags: whatsapp-mcp-server, node.js, macos, applescript, developer-tools, automation, cloud-integration, security...*
+
+---
+
+### 19. [magicuidesign/mcp](https://github.com/magicuidesign/mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The Magic UI MCP (Magic UI Platform Cloud) is a GitHub-hosted server that enables developers to manage, customize, and deploy Magic UI components via the Magic UI Protocol. It provides tools for registry browsing, search, and configuration, supporting features like marquee logos, blur fade animations, and grid backgrounds. The platform emphasizes developer experience with intuitive interfaces and integrates seamlessly with Magic UI's core functionalities.**
+
+**Features:**
+- Registry browsing and management
+- Customization of UI elements
+- Integration with Magic UI components
+- Tool call via MCP API
+- Real-time updates and version control
+
+*Tags: magicui, mcp, developer-tools, ui-management, mcp-api*
+
+---
+
+### 20. [milescool/binance-mcp](https://github.com/milescool/binance-mcp)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The MilesCool/Binance-MCP project provides a Model Context Protocol (MCP) tool that enables seamless integration of live Bitcoin market data from Binance into AI applications. It supports fetching ticker prices, order book data, historical trends, and real-time updates, facilitating advanced analytics and decision-making for developers working with LLMs.**
+
+**Features:**
+- Integrate real-time Bitcoin price data
+- Access order book information
+- Fetch historical market data
+- Stream live price updates
+- Analyze recent trades
+- Visualize price trends
+
+*Tags: binance-mcp, bitcoin, market-data, ai-integration, financial-api, data-fetching, ml-as-a-service, developer-tools...*
+
+---
+
+### 21. [kdqed/zaturn](https://github.com/kdqed/zaturn)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**Zaturn is an AI-driven data analytics platform designed to help developers and data scientists quickly analyze datasets, generate visualizations, and build intelligent applications without requiring deep SQL or Python expertise. It integrates multiple data sources, supports real-time collaboration, and offers a user-friendly interface for both coding and non-coding users.**
+
+**Features:**
+- Data source integration
+- Visualization tools
+- AI-powered code assistance
+- Multi-user collaboration
+- Customizable dashboards
+
+*Tags: data-science, ai-development, data-analysis, developer-tools, visualization, machine-learning, code-generation, security...*
+
+---
+
+### 22. [variflight/variflight-mcp](https://github.com/variflight/variflight-mcp)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The MCP server acts as a protocol layer that facilitates communication between Variflight's API and external systems by providing standardized endpoints for querying flight information, weather, and comfort metrics. It supports real-time data retrieval and enhances developer experience through structured interfaces.**
+
+**Features:**
+- Model Context Protocol (MCP) server
+- Flight information queries
+- Weather data integration
+- Comfort metrics retrieval
+- Real-time aircraft tracking
+
+*Tags: variflight, api-integration, flight-data, developer-tools, mcp-server, flight-api, weather-service, real-time-data...*
+
+---
+
+### 23. [jbrower95/mcp-asset-gen](https://github.com/jbrower95/mcp-asset-gen)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The jbrower95/mcp-asset-gen project provides an MCP Server capable of generating visual assets using the OpenAI gpt-image-1 model. It is designed to streamline the creation of image-based content for applications such as arcade games, offering a user-friendly interface and integration with modern AI tools.**
+
+**Features:**
+- Generate images via OpenAI gpt-image-1
+- Support for code generation and intelligent app development
+- Automated developer workflows
+- Secure coding practices
+- Integration with CI/CD pipelines
+
+*Tags: mcp-asset-gen, gpt-image-1, ai-generated-images, arcade-game-design, developer-tool, image-generation, code-assist, open-source...*
+
+---
+
+### 24. [jabberjabberjabber/llm-jukebox](https://github.com/jabberjabberjabber/llm-jukebox)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**The jabberjabberjabber/llm-jukebox project provides a MCP (Machine-to-Person) server that allows large language models to interact with YouTube's music library. It supports features such as audio downloading, playback, and search functionality, making it useful for developers integrating AI into media applications.**
+
+**Features:**
+- YouTube Music Search
+- Audio Download
+- Audio Playback
+- Async Operations
+- Logging
+
+*Tags: mlp, llm, music, audio, search, playback, developer, ai...*
+
+---
+
+### 25. [taman-islam/human-time](https://github.com/taman-islam/human-time)
+`9.8` ★★ ⚡88 Q0.8🏆 🏆 World-class
+
+**The human-time library provides a robust, zero-dependency solution for formatting relative time in applications. It leverages the built-in Intl.PluralRules API to handle pluralization and time formatting consistently across different surfaces such as feeds, notifications, dashboards, and activity logs. This ensures that users perceive time in a uniform manner, eliminating inconsistencies caused by varying implementations on different platforms.**
+
+**Features:**
+- Zero-dependency implementation
+- Consistent time formatting across UI surfaces
+- Pluralization using Intl.PluralRules
+- Customizable thresholds and localization support
+
+*Tags: human-time, time-formatting, ui-development, localization, intl-plural-rules, zero-dependency, time-utility, developer-tools...*
+
+---
+
+### 26. [OpenRocket Simulator](https://openrocket.info)
+`10.0` ★★★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**OpenRocket offers a comprehensive platform for designing and simulating rockets using advanced 6-degree-of-freedom flight simulation. It supports 2D and 3D design views, custom component creation, motor selection from extensive databases, real-time performance feedback, and export capabilities. The tool integrates CAD technology, motor optimization, multi-stage staging, and cluster management for complex rocket designs.**
+
+**Features:**
+- 2D and 3D design views
+- Custom component creation
+- Extensive motor database
+- Real-time performance feedback
+- Design optimization tools
+- Multi-stage and clustered rocket modeling
+- Motor selection and optimization
+- Export to PDF for building
+
+*Tags: rocketry, modelrocketry, simulation, designtools, opensource, cad, motoroptimization, flightanalysis...*
+
+---
+
+### 27. [inventer-dev/mcp-internet-speed-test](https://github.com/inventer-dev/mcp-internet-speed-test)
+`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This technical resource details the MCP Internet Speed Test, a Python-based tool designed to standardize AI model interactions with network performance metrics. It supports smart incremental testing, multi-provider CDN detection, and comprehensive latency analysis, offering developers a robust framework for evaluating internet speed across various endpoints.**
+
+**Features:**
+- Smart Incremental Testing
+- Download Speed Testing
+- Upload Speed Testing
+- Latency Testing
+- Jitter Analysis
+- Multi-CDN Support
+- Geographic Location Mapping
+- Cache Analysis
+- Server Metadata Extraction
+- Comprehensive Testing with Single Function
+
+*Tags: ai-agents, network-testing, speed-testing, developer-tools, cdn-detection, performance-analysis, python-sdk, cloud-integration...*
+
+---
+
+### 28. [codyde/mcp-file-tool](https://github.com/codyde/mcp-file-tool)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The codyde/mcp-file-tool is an open-source GitHub repository that provides a file server implementation using the Model Context Protocol (MCP). It enables developers to perform file system operations such as creating, reading, and listing files in a standardized and efficient manner. The tool integrates with various programming environments and supports enterprise-grade security features, making it suitable for modern software development workflows.**
+
+**Features:**
+- Create Files
+- Read Files
+- List Directory Contents
+- Performance Monitoring
+
+*Tags: file-system, api, development, security, integration, automation, monitoring, code...*
+
+---
+
+### 29. [davidshtian/mcp-on-aws-bedrock](https://github.com/davidshtian/mcp-on-aws-bedrock)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This project provides a clear example of integrating Anthropic's Model Context Protocol (MCP) with AWS Bedrock, enabling developers to interact with MCP services through a structured API. It covers setup, configuration, and usage scenarios for managing MCP workflows in cloud environments.**
+
+**Features:**
+- AWS Bedrock integration
+- MCP client implementation
+- Streamable HTTP support
+- Structured logging
+- Asynchronous communication
+
+*Tags: api-integration, cloud-development, ai-tools, developer-workflow, aws-bedrock, mcp-protocol, streamable-http, python-development...*
+
+---
+
+### 30. [yuanooo/oceanbase_mcp_server](https://github.com/yuanooo/oceanbase_mcp_server)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗4 layers
+
+**The OceanBase MCP server provides a controlled interface for AI assistants to list tables, read data, and execute SQL queries securely. It enhances database exploration by integrating with OceanBase through a Model Context Protocol (MCP), ensuring structured and safe interactions.**
+
+**Features:**
+- list tables
+- read data
+- execute SQL queries
+- secure database access
+- comprehensive logging
+
+*Tags: api-integration, data-security, ai-assistants, database-interaction, developer-tools, cloud-services, security-features, automation...*
+
+---
+
+### 31. [hkopenai/hk-transportation-mcp-server](https://github.com/hkopenai/hk-transportation-mcp-server)
+`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The project offers an API-based platform for accessing real-time and historical transportation statistics in Hong Kong, including passenger flows, bus routes, and control point data, designed to integrate with AI and analytics tools.**
+
+**Features:**
+- Transportation data access
+- Real-time and historical statistics
+- Filter by date
+- visitor type
+- language
+- Integration with AI/ML models
+
+*Tags: transportation, mcp-server, ai-integration, data-api, passenger-stats, hong-kong-transport*
+
+---
+
+### 32. [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server)
+`8.5` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This project provides a MCP server enabling AI assistants to manage TikTok advertising campaigns, offering campaign management, performance analytics, audience targeting, and reporting tools. It supports seamless integration with multiple ad networks and includes robust authentication and security features.**
+
+**Features:**
+- Campaign Management
+- Performance Analytics
+- Audience Management
+- Creative Management
+- Reporting
+
+*Tags: tiktok-ads, mcp-server, ai-advertising, cloud-deployment, api-integration, data-analytics, automation-tools*
+
+---
+
+### 33. [Google NotebookLM | AI Research Tool & Thinking Partner](https://notebooklm.google)
+`9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**NotebookLM provides a user interface designed for researchers and writers to interact with generative AI models directly using their personal documents (e.g., notes, PDFs, web pages) as the primary context source. It abstracts the complexity of direct prompt engineering by creating a 'notebook' environment where the model's responses are explicitly traceable back to the ingested sources, focusing heavily on grounding, citation accuracy, and collaborative document interaction within the UI.**
+
+**Features:**
+- Source grounding
+- automatic citation generation
+- note taking integrated with AI summarization
+- brainstorming/outline generation
+- summarization of uploaded documents
+- version control for notebooks.
+
+*Tags: ai-assistant, grounded-llm, knowledge-interface, rtr, user-experience, context-injection, research-tool, document-interaction...*
+
+---
+
+### 34. [rickydata-indexer/notion_mcp_server](https://github.com/rickydata-indexer/notion_mcp_server)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The 'Borg' Project's Notion_MCP_Server acts as an API gateway that connects Python-based code editors like Cline with Notion's knowledge base, allowing developers to query and retrieve structured data from Notion directly within their IDE. This integration enhances developer productivity by embedding AI-driven insights and reference links into the coding workflow.**
+
+**Features:**
+- Integrate Notion knowledge base via Cline VSCode
+- Query Notion pages with FastMCP
+- Automated error handling and logging
+- Comprehensive API support
+
+*Tags: notion, mcp, developer, integration, code, api, fastmc, python*
+
+---
+
+### 35. [technavii/mcp_think](https://github.com/technavii/mcp_think)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The TechNavii/mcp_think project is an advanced developer platform that leverages the Model Context Protocol (MCP) to provide deep thinking and analysis capabilities. It utilizes OpenAI's o3-mini model to deliver intelligent responses through a standardized MCP interface, enabling developers to integrate complex reasoning into their workflows.**
+
+**Features:**
+- Integrate MCP for enhanced thinking
+- Use OpenAI's o3-mini model
+- Seamless integration with other tools
+- Comprehensive error handling and logging
+
+*Tags: mcp, ai, developer, thinking, integration, security, code, api...*
+
+---
+
+### 36. [samfoy/pi-total-recall](https://github.com/samfoy/pi-total-recall)
+`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The project provides an interactive platform for developers to explore model recall across various datasets, emphasizing usability through clear documentation, structured API access, and visual analytics. It integrates seamlessly with popular ML frameworks, offering a user-friendly interface for iterative testing and performance tuning.**
+
+**Features:**
+- interactive recall analysis dashboard
+- dataset filtering tools
+- model performance visualization
+- API integration support
+- step-by-step documentation
+
+*Tags: machine-learning, model-evaluation, data-science, api-integration, data-analysis*
+
+---
+
+### 37. [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud)
+`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
+
+**A terminal plugin for Claude Code that provides a real-time "Heads-Up Display" tracking context window health, tool usage, and background task progress.**
+
+**Features:**
+- Real-time context window "health" monitoring
+- active sub-agent tracking
+- in-terminal TODO progress visualization
+- zero-config plugin installation.
+
+*Tags: claude-code, plugins, ux, dev-tools, telemetry, github, programming, tools...*
+
+---
+
+### 38. [hubblevision/hubble-ai-mcp](https://github.com/hubblevision/hubble-ai-mcp)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗2 layers
+
+**HubbleVision's Hubble-AI mcp server integrates with Solana blockchain to allow users to query transaction data using natural language. It provides real-time insights through visualizations, supports custom queries, and enhances developer experience by bridging AI capabilities with blockchain analytics.**
+
+**Features:**
+- natural language query support
+- data visualization
+- blockchain data analysis
+- custom query generation
+
+*Tags: hubble-ai, solana, blockchain, data-visualization, ai-analytics, developer-tools, blockchain-integration, natural-language-queries*
+
+---
+
+### 39. [nexgene-research/nexonco-mcp](https://github.com/nexgene-research/nexonco-mcp)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗2 layers
+
+**The Nexonco-MCP project provides a robust platform for querying clinical evidence from the CIViC database, enabling researchers and developers to efficiently search across variants, diseases, drugs, and phenotypes. It supports advanced filtering and reporting features tailored for precision medicine applications.**
+
+**Features:**
+- Advanced MCP Server
+- Flexible search options
+- Clinical evidence analysis
+- Precision oncology support
+
+*Tags: mcp, clinical-evidence, precision-medicine, oncology, ai, healthcare, data-analysis, research...*
+
+---
+
+### 40. [its-natural-language-programming-not-vibe-coding-4b33079df343](https://medium.com/@olafeezee/its-natural-language-programming-not-vibe-coding-4b33079df343)
+`9.8` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The article discusses the evolution of programming from traditional syntax-heavy languages to Natural Language Programming (NLP), highlighting how AI-driven interfaces allow developers to communicate intentions in plain language. It contrasts this with historical challenges in bridging human thought and machine execution, advocating for a shift in terminology and perception to recognize NLP as a legitimate, powerful advancement.**
+
+**Features:**
+- Natural Language Processing integration
+- AI-powered code generation
+- Context-aware assistance
+- Reduction in coding friction
+- Improved developer productivity
+
+*Tags: natural-language-programming, ai-development, code-efficiency, developer-tools, language-processing, software-innovation, tech-evolution, programming-trends...*
+
+---
+
+### 41. [Show HN: Chat – Another open-source chat UI for MCP Server | Hacker News](https://news.ycombinator.com/item?id=47398628)
+`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
+
+**This project presents a lightweight chat interface tailored for the MCP ecosystem, focusing on a clean and uncluttered user experience. It leverages modern web technologies such as Next.js, Vercel AI SDK, and various frontend frameworks to deliver a responsive and efficient communication tool. The design emphasizes simplicity, aiming to provide an optimal chat environment without unnecessary complexity.**
+
+**Features:**
+- Lightweight chat UI
+- Integration with MCP Server
+- Custom brand mode support
+- Secure authentication via Better Auth & Resend
+- File upload and geolocation support
+- Cross-platform compatibility (Docker
+- Render
+- Fly)
+- Automatic data cleanup and timezone handling
+
+*Tags: chat, webapp, mcp, nextjs, vercel, ai-sdk, auth, file-upload...*
+
+---
+
+### 42. [I haven't used a mouse for 14 years | Hacker News](https://news.ycombinator.com/item?id=47428734)
+`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The resource discusses the evolution of touchpad technology, highlighting the Fingerworks trackpad's design principles that influenced modern multi-touch systems. It compares the physical feedback, gesture mapping, and ergonomic benefits of older trackpads with contemporary alternatives like mouse buttons and touchscreens. The discussion emphasizes user comfort, precision, and the importance of tactile feedback in input devices.**
+
+**Features:**
+- Physical mouse buttons for reliable interaction
+- Gesture-based shortcuts (e.g.
+- opening/closing windows)
+- Relaxed hand positioning for reduced strain
+- Haptic or force feedback for tactile response
+- Compatibility with various devices and operating systems
+
+*Tags: touchpad-design, input-device-evolution, ergonomic-interfaces, multi-touch-technology, user-comfort, device-integration, mouse-alternatives, haptic-feedback...*
+
+---
+
+### 43. [dexter480/mcp-search-analytics](https://github.com/dexter480/mcp-search-analytics)
+`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The MCP-search-analytics project provides a unified interface for accessing and analyzing real-time analytics data from Google Analytics 4 and Google Search Console. It enables developers and analysts to perform advanced queries, visualize trends, and integrate findings into their workflows efficiently.**
+
+**Features:**
+- Unified access to Google Analytics 4 and Search Console data
+- Real-time analytics queries via MCP interface
+- Secure credential management using environment variables
+- Automated setup and deployment tools
+
+*Tags: mcp-search-analytics, analytics, data-analysis, developer-tools, integration*
+
+---
+
+### 44. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)
+`9.5` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The repository details the "DocuMind MCP Server," which revolutionizes documentation quality analysis using advanced neural processing for comprehensive README evaluation, holographic header scanning, and cross-linguistic language support. It outlines a system that connects to Claude Desktop, providing AI-powered improvements and structured output for development workflows.**
+
+**Features:**
+- Neural Documentation Analysis
+- Holographic Header Scanning
+- Quantum Suggestion Engine
+- Cross-linguistic documentation verification
+
+---
+
+### 45. [niklauslee/frame0-mcp-server](https://github.com/niklauslee/frame0-mcp-server)
+`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+
+**The niklauslee/frame0-mcp-server project provides a web-based platform for developers to create and customize wireframes interactively. It supports various design prompts such as creating login screens, social media interfaces, and more, enabling rapid prototyping and iteration in a browser environment.**
+
+**Features:**
+- prompt-based wireframe creation
+- real-time collaboration
+- integration with Claude Desktop
+- customizable UI components
+
+*Tags: frame0, wireframes, design-tools, developer-workflow, ai-integration*
+
+---
+
+### 46. [agentsea/r1-computer-use](https://github.com/agentsea/r1-computer-use)
+`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**An implementation applying DeepSeek-R1 reasoning to computer-use tasks, enabling high-accuracy autonomous GUI and browser interaction.**
+
+**Features:**
+- DeepSeek-R1 reasoning core
+- browser-use framework integration
+- 89% benchmark accuracy
+- local execution support (Ollama).
+
+*Tags: computer-use, vision, reasoning, r1, deepseek, github, version-control*
+
+---
+
+### 47. [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)
+`8.8` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The Hermes WebUI project provides a structured and intuitive interface for developers to build, test, and deploy web applications efficiently. It emphasizes clean architecture, modular components, and seamless integration with various development tools.**
+
+**Features:**
+- real-time code editing
+- interactive debugging
+- customizable dashboards
+- version control integration
+- cross-browser compatibility
+
+*Tags: webui, developertools, html5, javascript, frontend*
+
+---
+
+### 48. [nabossha/mcp-landiwetter](https://github.com/nabossha/mcp-landiwetter)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project provides a lightweight example of embedding a custom data source within an MCP (Model Context Protocol) server. It showcases how to connect external services, such as weather APIs, directly into the MCP environment using a custom data-provider. The implementation focuses on seamless integration, enabling developers to leverage real-time data without modifying core server logic.**
+
+**Features:**
+- Integrate external data provider
+- Support for custom data sources
+- MCP-compatible API access
+
+*Tags: mcp-server, weather-integration, data-provider, api-connection, developer-tool*
+
+---
+
+### 49. [lzsheng/yapi-mcp](https://github.com/lzsheng/yapi-mcp)
+`8.6` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**A model context protocol server for YApi, enabling direct interaction with YApi interfaces in AI development tools.**
+
+**Features:**
+- Search and query YApi interfaces
+- Create and update interface definitions
+- Manage multiple YApi projects via MCP
+- Integrate with AI assistants for context-aware suggestions
+- Support JSON Schema and formatted data handling
+- Caching mechanism for faster queries
+- Detailed logging for debugging and monitoring
+
+*Tags: yapi, api, developer, ai, mcp, integration, security, automation...*
+
+---
+
+### 50. [thorbase.com](https://thorbase.com)
+`8.8` ★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**This landing page targets developers and enterprises seeking scalable, secure, and cost-effective access to advanced language models. It emphasizes ease of integration through a simple API, competitive pricing tiers, and robust security features. The platform supports multiple model types with benchmark performance data, catering to diverse use cases from quick demos to large-scale deployment.**
+
+**Features:**
+- Plug-and-play model aggregation
+- Enterprise-grade security controls
+- Universal API integration
+- Contextual pricing based on usage volume
+- Benchmark performance metrics
+
+*Tags: ai-development, model-integration, enterprise-solutions, cost-optimization, security-features, developer-tools, benchmarking, cloud-services...*
+
+---
+
+### 51. [news?p=5](https://news.ycombinator.com/news?p=5)
+`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**The forum thread presents a diverse range of real-world experiences and technical observations from users across various domains. Participants discuss the impact of AI tools in content creation, the challenges posed by cloud services, and the importance of understanding security and privacy implications. Several threads emphasize the need for updated infrastructure and secure coding practices, while others focus on innovative web technologies such as WebRTC and microcomputer history. The consens...**
+
+**Features:**
+- AI-assisted writing tools
+- WebRTC implementation challenges
+- Cloud infrastructure updates
+- Security and privacy concerns
+
+*Tags: webdevelopment, ai, cloudsecurity, softwaretools, userexperience*
+
+---
+
+### 52. [Stagehand](https://www.stagehand.dev)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**An open-source AI web automation SDK by Browserbase that acts as a resilient, self-healing alternative to Playwright by using LLMs to navigate without brittle CSS selectors.**
+
+**Features:**
+- Self-healing UI navigation (no CSS selectors)
+- AI primitives (`act`/`extract`/`observe`)
+- CDP direct-browser communication (v3)
+- Accessibility Tree extraction.
+
+*Tags: browser-automation, stagehand, playwright, orchestration, testing, design*
+
+---
+
+### 53. [artifact-keeper · GitHub](https://github.com/artifact-keeper)
+`7.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**This tool provides a full-featured, enterprise-grade artifact registry designed to replace solutions like Artifactory or Nexus. It offers native support for over 45 package formats, built with modern technologies like Rust/WASM, and includes a complete platform for hosting, deployment, and developer tooling.**
+
+**Features:**
+- 45+ package format support
+- self-hostable registry
+- integrated security scanning
+- multi-platform delivery (Web
+- iOS
+- Android)
+- native protocol handling
+
+*Tags: artifact-registry, open-source, package-manager, artifact-management, docker, rust*
+
+---
+
+### 54. [CCS - Community Crowdfunding System (CCS)](https://ccs.getmonero.org)
+`8.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The Borg intelligence database should include detailed information about the CCS (Community Crowdfunding System) project, including its technical architecture, funding mechanisms, and workflow processes. This entry will outline how proposals are submitted, reviewed, funded, and tracked within the CCS platform.**
+
+**Features:**
+- proposal submission
+- funding tracking
+- project monitoring
+- community engagement
+
+*Tags: monero, crowdfunding, community, proposals, fundraising, blockchain, decentralized, projectmanagement...*
+
+---
+
+### 55. [what_actually_made_your_terminal_noticeably](https://www.reddit.com/r/LinuxTeck/comments/1t3butb/what_actually_made_your_terminal_noticeably)
+`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
+
+**Users in the r/LinuxTeck community shared insights on how their terminal interfaces were enhanced, focusing on usability improvements, recommended tools, and patterns observed in real-world usage. The conversation emphasized clarity in notification handling and integration with workflow systems.**
+
+**Features:**
+- notification filtering
+- custom alert settings
+- integration with workflow tools
+- clear visual indicators
+- system customization options
+
+*Tags: linux, terminal, notifications, ui, workflow, system, interface, user...*
+
+---
+
+### 56. [Paper Visualizer - Transform Research Papers into Interactive Visual Knowledge](https://arxiv-viz.ianhsiao.xyz/landing)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**An AI-powered visual analytics platform that untangles academic literature reviews into interactive citation graphs and step-by-step visual summaries.**
+
+**Features:**
+- Interactive citation lineage mapping
+- AI-powered step-by-step visual summaries
+- personalized research cluster discovery
+- spatial academic exploration.
+
+*Tags: research, graphs, visualization, arxiv, summarization, artificial-intelligence, arxiv-viz, tools*
+
+---
+
+### 57. [im_a_nursing_student_who_built_a_660kpage](https://www.reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage)
+`7.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The project demonstrates an attempt to build a large-scale web application with a focus on user experience, incorporating features such as page navigation, content management, and potential integration with external systems. The analysis highlights the importance of intuitive interfaces and efficient workflows in healthcare technology.**
+
+**Features:**
+- web application development
+- user interface design
+- content management system
+- page navigation
+- interactive elements
+
+*Tags: ai, reddit, nursing, webapp, uiux, healthtech, development, project...*
+
+---
+
+### 58. [pladeo-world-s-first-bio-plasma-deodorant-device#](https://www.indiegogo.com/projects/pladeo-world-s-first-bio-plasma-deodorant-device#)
+`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+
+**PlaDeo is an innovative product developed by CodeSteri Inc., designed to combat body odor through the application of bio-plasma technology. This device aims to provide users with a non-permanent, eco-friendly alternative to traditional deodorants by utilizing plasma to neutralize odor-causing bacteria on the skin.**
+
+**Features:**
+- bio-plasma technology
+- odor-neutralizing mechanism
+- portable design
+- user-friendly interface
+
+*Tags: plasma, deodorant, bio-plasma, wearable, smart-tech, health-and-hygiene, innovation, consumer-tech...*
+
+---
+
+### 59. [workiq_in_openwebui](https://www.reddit.com/r/OpenWebUI/comments/1siamcg/workiq_in_openwebui)
+`8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The resource provides an in-depth analysis of the OpenWebUI platform, focusing on its user interface, navigation structure, and workflow optimization for developers.**
+
+**Features:**
+- web-based interface
+- customizable dashboards
+- integration capabilities
+- developer tools
+- real-time data visualization
+
+*Tags: openwebui, webui, developertool, interfacedesign, userexperience, webapplication, opensource, uiframework...*
+
+---
+
+### 60. [item?id=47729679](https://news.ycombinator.com/item?id=47729679)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**The project integrates multiple technologies including Python, scikit-learn, LightGBM, spaCy, FastAPI, and Gradio to create an interactive mood analysis tool. It aims to bridge the gap between model development and practical usability by offering both a web-based UI and a RESTful API.**
+
+**Features:**
+- FastAPI backend
+- Gradio UI
+- Hugging Face deployment
+- Text classification for mood detection
+
+*Tags: moodsense, nlp, fastapi, gradio, huggingface, textanalysis, ai, userinterface...*
+
+---
+
+### 61. [introducing_claude_opus_47_our_most_capable_opus](https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The resource provides an overview of Claude Opus, a state-of-the-art neural audio codec, detailing its architecture, capabilities, and performance metrics. It discusses how this technology can be integrated into systems for efficient audio processing.**
+
+**Features:**
+- high-capacity audio processing
+- neural network optimization
+- audio codec efficiency
+- real-time audio synthesis
+
+*Tags: cloud-computing, ai-audio, opus-codec, deep-learning, machine-learning, audio-engineering, neural-networks, software-development...*
+
+---
+
+### 62. [Agentica - Open Source AI Coding Assistant](https://agentica.genlabs.dev)
+`10.0` ★★★ ⚡70 Q0.6⭐ ⭐ Excellent
+
+**A fully open-source AI coding assistant environment offering a transparent alternative to proprietary tools, with Bring Your Own Key (BYOK) support.**
+
+**Features:**
+- BYOK API support (OpenAI/Anthropic/Local Ollama)
+- "no black boxes" transparent agent logic
+- high-velocity community update cycle.
+
+*Tags: ide, open-source, code-editor, agentica, automation, artificial-intelligence*
+
+---
+
+### 63. [how_arcade_games_changed_your_life](https://www.reddit.com/r/arcade/comments/1szq25m/how_arcade_games_changed_your_life)
+`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
+
+**The article examines the impact of arcade games on contemporary technology, focusing on their role in shaping user interfaces, engagement strategies, and interactive design principles within the Borg intelligence framework.**
+
+**Features:**
+- user interface design
+- interactive storytelling
+- gamification techniques
+- player engagement mechanics
+
+*Tags: arcade, games, design, interaction, user-experience, digital-media, gamification, interface...*
+
+---
+
+### 64. [omg.lol - A lovable web page and email address, just for you](https://omg.lol)
+`6.0` ★ ⚡68 Q0.8✓ ✓ Solid
+
+**OMG.lol is a platform designed to foster creativity and community engagement, offering users tools to create personal profiles, share their mood or status, and participate in the Fediverse ecosystem. It provides an interactive editor experience for creating web pages and connecting to social platforms like Mastodon.**
+
+**Features:**
+- Web profile creation
+- Statuslog integration
+- Interactive content editing
+- Fediverse connection
+- Community engagement features
+
+*Tags: web-development, community-platform, social-media, profile-creation, web-editor, fediverse*
+
+---
+
+### 65. [f0lkl0r3.dev — Computer History Museum Oral Histories](https://f0lkl0r3.dev/)
+`6.0` ★ ⚡68 Q0.8✓ ✓ Solid
+
+**f0lkl0r3.dev is a digital space dedicated to the Computer History Museum, offering interactive experiences centered around oral histories and computer history. It serves as a resource for users interested in the history of computing, providing an engaging platform for learning and documenting technological heritage.**
+
+**Features:**
+- Interactive Oral Histories
+- Computer History Documentation
+- Museum Resource
+- Educational Interface
+- Digital Experience
+
+*Tags: computer-history, museum, oral-history, education, digital-resource, interactive*
+
+---
+
+### 66. [Form - Tally](https://tally.so/forms/GxYDXO)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**Tally provides a user-friendly interface for creating, deploying, and analyzing survey forms. It focuses on making the process of building insightful forms intuitive, allowing developers to quickly deploy interactive questionnaires and gather valuable user feedback efficiently.**
+
+**Features:**
+- Form creation/editing
+- interactive surveys
+- easy sharing/link generation
+- analytics dashboard
+- integrations
+
+*Tags: form-builder, survey-tool, user-experience, feedback-collection, web-app, developer-tools*
+
+---
+
+### 67. [Shop · Jiagual Art](https://www.jiagual.com/shop)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource appears to be an e-commerce platform focused on providing a curated selection of products, likely software or services. It targets developers by offering a place to discover tools, which suggests a focus on developer experience and integration with cutting-edge technologies.**
+
+**Features:**
+- Software discovery platform
+- Developer shop/store
+- AI-driven tooling interface
+- Product catalog for developers
+- Integrated solution marketplace
+
+*Tags: developer-tools, e-commerce, software-marketplace, ai-integration, developer-experience, shop*
+
+---
+
+### 68. [Paygent - AI Agent Monetization & Cost Tracking](https://www.withpaygent.com/)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**WithPaygent is a platform designed to simplify the process of integrating payment solutions, offering developers tools and APIs to build robust payment workflows. It focuses on providing a cohesive interface for managing payment logic and integrations.**
+
+**Features:**
+- Payment integration API
+- Developer SDKs
+- Payment workflow management
+- Unified payment interface
+- SDK/API integration
+
+*Tags: payment, developer-tools, api, fintech, integration, ux*
+
+---
+
+### 69. [Employee Login](https://compassmobile.dollartree.com/pwm/action/EmpLoginMobile)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This resource details the API endpoint used to handle the mobile login process, likely involving authentication checks, token validation, or session creation. It serves as a critical interface layer for managing user access within a mobile context.**
+
+**Features:**
+- Mobile Authentication Endpoint
+- Login Action Flow
+- Session Management Interface
+- Compass Mobile Integration
+- Developer UX for Login
+
+*Tags: mobile, api, authentication, login, ux, developer, compass, endpoint*
+
+---
+
+### 70. [Sign in - Soundiiz](https://soundiiz.com/webapp/playlists)
+`6.0` ★ ⚡64 Q0.7✓ ✓ Solid
+
+**This is a web application focused on providing a user experience for music playlist management. It features comprehensive sign-in options, allowing users to authenticate via various services like Google, Facebook, Apple, Spotify, and more, indicating a focus on seamless integration and user accessibility within the music domain.**
+
+**Features:**
+- Multi-provider authentication integration
+- Music playlist management interface
+- User login/sign-up flow
+- Diverse social/music service sign-in options
+
+*Tags: music, web-app, authentication, user-experience, social-login, playlist*
+
+---
+
+### 71. [Patient Portal](https://8209-2.portal.athenahealth.com/)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is a patient portal for Henry Ford Health, detailing the login process, password reset options, and important news regarding the transition of some providers to the Epic electronic health record. It serves as an interface for patients to access their health information and manage their accounts.**
+
+**Features:**
+- Patient Portal login/account management
+- Password reset functionality
+- Provider transition notification (Epic)
+- Guest payment option
+- Browser compatibility check
+
+*Tags: patient-portal, healthcare-tech, login, epic-integration, health-portal, user-experience*
+
+---
+
+### 72. [S-ARGAME - Immersive Games for Location-based Entertainment](https://s-argame.com)
+`8.0` ★ ⚡62 Q0.6✓ ✓ Solid
+
+**S-ARGAME offers a novel system for immersive gaming by utilizing projection mapping technology to overlay games onto real physical surfaces like walls or floors. It allows users to create and experience arcade party games using existing projectors, offering an alternative to traditional VR headsets.
+
+This platform enables users to design game scenarios by drawing or auto-detecting real objects and placing game elements, providing a unique interactive experience for friends and customers.**
+
+**Features:**
+- Projected Augmented Reality gaming
+
+*Tags: augmented-reality, projection-mapping, arcade-games, interactive-entertainment, physical-surfaces, mobile-app*
+
+---
+
+### 73. [Sign in - Soundiiz](https://soundiiz.com/webapp)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**Soundiiz is a platform focused on providing a streamlined and modern interface for user authentication. It offers multiple sign-in methods, including standard username/email credentials and integration with popular services like Google, Facebook, Apple, Spotify, and various music services.**
+
+**Features:**
+- Multi-method authentication
+- Social login integration (Google
+- Facebook
+- Apple)
+- User registration flow
+- Standard credential login
+- Music service integrations (Deezer
+- TIDAL).
+
+*Tags: authentication, social-login, user-experience, web-app, identity-management, music-services*
+
+---
+
+### 74. [2059013987140800563](https://x.com/sonoyarin/status/2059013987140800563)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a platform (X.com) where the core functionality might be constrained by browser limitations, suggesting a need for context engineering to ensure JavaScript execution works correctly. The tool's primary challenge here is bridging the gap between web/browser capabilities and the underlying application logic.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling suggestions
+- Developer workflow integration
+
+*Tags: javascript, web-dev, browser-ux, x.com, interface-design, tooling, context-engineering*
+
+---
+
+### 75. [2051865228367868078](https://x.com/EricBurlison/status/2051865228367868078)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a modern web platform (X.com) that highlights the need for JavaScript enablement, suggesting it's a tool for developers or users needing to interact with web technologies. It serves as a demonstration of how a platform presents itself to users and offers necessary browser compatibility checks.**
+
+**Features:**
+- JavaScript enablement check
+- Browser support guidance
+- Help Center integration
+- Supported browsers list
+- User experience demonstration
+
+*Tags: web-platform, javascript, ux, developer-tools, browser-compatibility, x.com*
+
+---
+
+### 76. [MitchIvin XP](https://mitchivin.com/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource showcases a personal portfolio centered around a 'Visual Designer' concept, highlighting the necessity of JavaScript for the Windows XP experience. It details the user flow and desktop application integration, suggesting an interface-centric design approach.**
+
+**Features:**
+- Visual Designer Portfolio
+- JavaScript requirement for XP
+- Desktop Application integration
+- User login/experience flow
+- Clear system interaction points
+
+*Tags: portfolio, ux, windowsxp, design, javascript, desktop, user-interface*
+
+---
+
+### 77. [Unity ID Account Login | Sign in](https://assetstore.unity.com/account/assets)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource is an asset store interface for Unity, focusing on the authentication flow for users to sign in or create new accounts. It highlights the critical step of account management within the Unity ecosystem.**
+
+**Features:**
+- Unity Asset Store integration
+- User Account Login/Sign-in
+- SSO integration options (Google
+- Apple
+- Facebook)
+- Asset management interface
+
+*Tags: unity, assetstore, login, sso, usermanagement, developertools*
+
+---
+
+### 78. [VOOPOO VAPE | Vape Pen | Vapes Global - Spark Your Life](https://www.voopoo.com/)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**VOOPOO is an international brand focused on technological innovation in the vaping space. The site highlights their product collection, emphasizing a 'new kind of pleasure' through innovative devices like DRAG series and VINCI series, appealing to users seeking high-quality, convenient vaping experiences.**
+
+**Features:**
+- Vape product e-commerce platform
+- focus on vape technology innovation
+- brand positioning for vaping enthusiasts
+- clear user warnings/age requirements
+
+*Tags: vaping, e-commerce, innovation, tech, lifestyle, nicotine, product-launch*
+
+---
+
+### 79. [2041646651673342093?s=46](https://x.com/bensig/status/2041646651673342093?s=46)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an example of the X platform's frontend experience, demonstrating its dependency on modern web technologies. The core issue highlighted is the lack of JavaScript execution within the browser environment, which dictates the user experience and functionality available on the site.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Supported browser list
+- Error handling/fallback mechanism
+- X platform interface
+
+*Tags: web-development, browser-compatibility, javascript, frontend, ux, error-handling*
+
+---
+
+### 80. [x.com/teknium/status/2049717907664581067](https://x.com/teknium/status/2049717907664581067?s)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is a web platform (x.com) that explicitly informs the user that JavaScript is disabled within their browser, suggesting an issue with client-side execution or browser configuration. It serves as a demonstration of a front-end interface and its dependency on modern web technologies.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement enforcement
+- Help Center integration
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, front-end, error-handling*
+
+---
+
+### 81. [CURE | Manage CURE Account](https://myaccount.cure.com/my-account)
+`5.0` ★ ⚡59 Q0.7✓ ✓ Solid
+
+**This is a web interface designed to provide a centralized view of an individual's health account, likely including personalized health records, insurance details, and potentially connecting to external healthcare systems. It focuses on providing clear access to essential patient information within a user-friendly interface.**
+
+**Features:**
+- Personalized Health Dashboard
+- Insurance Management Interface
+- Secure Account Access
+- Health Data Visualization
+
+*Tags: health-management, patient-portal, insurance, web-ui, personal-health*
+
+---
+
+### 82. [2055264580755214363](https://x.com/akshay_pachaar/status/2055264580755214363)
+`5.0` ★ ⚡58 Q0.6✓ ✓ Solid
+
+**This resource is an X (formerly Twitter) platform interface, highlighting the necessity of enabling JavaScript to use the service. It serves as a direct example of how front-end technologies interact with the core platform's requirements and user experience.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement enforcement
+- Help Center integration
+- Browser support list
+- Error handling/fallback options
+
+*Tags: web-development, javascript, browser-compatibility, user-experience, front-end, ux*
+
+---
+
+### 83. [2048039928232341962?s=61](https://x.com/zeealeid/status/2048039928232341962?s=61)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource is an interface or client designed to interact with the X platform, which encountered a browser limitation where JavaScript execution is disabled. It serves as a demonstration of how the platform handles browser compatibility and user experience when core web technologies are restricted.**
+
+**Features:**
+- Browser Compatibility Check
+- JavaScript Disablement Detection
+- Browser Support List
+- Error Handling/Fallback Mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, client-side, error-handling*
+
+---
+
+### 84. [Sign in to Your Account · Fly](https://fly.io/dashboard)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This tool provides a streamlined interface for users to sign in to their account, offering options for GitHub or Google authentication. It handles the core user experience of authentication and account management within a developer context.**
+
+**Features:**
+- User Authentication
+- Social Login Integration (GitHub/Google)
+- Account Management Interface
+- Password Recovery Flow
+
+*Tags: authentication, user-management, social-login, dashboard, ux, developer-tool*
+
+---
+
+### 85. [Letta](https://app.letta.com/projects/default-project)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource is a landing page for the Letta platform, showcasing its core functionality and authentication options. It highlights key features like account management (sign up/login), SSO integration, and password management, serving as an entry point for developers or users to interact with the system.**
+
+**Features:**
+- User Authentication & Login Management
+- Enterprise SSO Integration
+- Account Creation Workflow
+- Password Management Interface
+
+*Tags: sso, authentication, usermanagement, enterprise, developerux, login*
+
+---
+
+### 86. [2044945754368975109](https://x.com/garyfung/status/2044945754368975109)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is a simple status check endpoint or tool that verifies the execution environment by checking for the presence of JavaScript. It serves as a basic test case to ensure the client environment supports necessary web technologies before proceeding with the X platform experience.**
+
+**Features:**
+- JavaScript detection
+- browser compatibility check
+- supported browser list
+- error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, status-check, ux, testing*
+
+---
+
+### 87. [U-M Canvas Login](https://umich.instructure.com/)
+`6.0` ★ ⚡48 Q0.5○ ○ Adequate
+
+**This resource provides a centralized login portal for various users (Faculty, Staff, Students) to access University resources. It highlights the integration of different systems like U-M login credentials and Canvas logins, offering clear pathways for authentication and user experience.**
+
+**Features:**
+- Single Sign-On (SSO)
+
+*Tags: sso, universitytech, educationtech, login, userexperience, authentication*
 
 ---
 
 ## Skill Systems
-> 73 tools · avg signal ⚡87
+> 78 tools · avg signal ⚡86
 
 ### 1. [padev1/nina_advanced_api_mcp](https://github.com/padev1/nina_advanced_api_mcp)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -2367,7 +5713,40 @@
 
 ---
 
-### 72. [factory_cli_v01000_released](https://www.reddit.com/r/FactoryAi/comments/1slh6wc/factory_cli_v01000_released)
+### 72. [macc-n/wot-mcp-cli](https://github.com/macc-n/wot-mcp-cli)
+`6.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**This tool provides an interactive Command Line Interface (CLI) to manage and interact with a WoT-MCP server. It allows users to inspect available tools, execute commands, and manage resources by connecting to or spawning the underlying server process.**
+
+**Features:**
+- Interactive Shell
+- Transport Modes (stdio/streamable-http)
+- Tool Inspection
+- Resource Management
+- CLI for WoT-MCP interaction
+
+*Tags: agent, cli, iot, ai, mcp, wot, wot-mcp, developer-tool*
+
+---
+
+### 73. [File Pilot - Next-gen file explorer](https://filepilot.tech/)
+`7.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**File Pilot is an advanced file explorer engineered for speed, offering seamless file management through intuitive panels, quick inspection tools, batch renaming capabilities, and powerful search functionality. It emphasizes interactivity by allowing users to customize layouts, easily navigate file systems, and perform quick actions without leaving the application.**
+
+**Features:**
+- file explorer
+- panel layout customization
+- fuzzy search
+- interactive renaming
+- file content inspection
+- command palette
+
+*Tags: file-explorer, productivity, desktop-app, file-management, interface-design, speed*
+
+---
+
+### 74. [factory_cli_v01000_released](https://www.reddit.com/r/FactoryAi/comments/1slh6wc/factory_cli_v01000_released)
 `8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2384,7 +5763,35 @@
 
 ---
 
-### 73. [Tell HN: ECHO I Love You | Hacker News](https://news.ycombinator.com/item?id=47414492)
+### 75. [How Do I Get A Nice Gui Like This](https://www.reddit.com/r/hermesagent/comments/1t7b692/how_do_i_get_a_nice_gui_like_this/)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**This resource is a Reddit thread discussing the user experience and necessary steps to get a good GUI for the Hermes AI agent. The discussion highlights how to launch or enable the dashboard functionality, suggesting specific commands or tools needed to visualize the agent's capabilities effectively.**
+
+**Features:**
+- GUI visualization
+- Agent Dashboard access
+- Model selection interface
+- Local network accessibility
+- Tool integration suggestions
+
+*Tags: ai-agents, gui, user-experience, hermes, developer-tools, agent-dashboard, connectivity*
+
+---
+
+### 76. [Grok CLI - Conversational AI CLI Tool](https://grokcli.io)
+`10.0` ★★★ ⚡63 Q0.5✓ ✓ Solid
+
+**Grok CLI provides a developer tool to interact with the Grok AI engine, acting as a Model Control Plane (MCP) layer. It simplifies the process of integrating and deploying Grok capabilities through a streamlined CLI experience.**
+
+**Features:**
+- CLI integration for Grok AI
+
+*Tags: cli, ai, developer-tools, mcp, grok, api, ux*
+
+---
+
+### 77. [Tell HN: ECHO I Love You | Hacker News](https://news.ycombinator.com/item?id=47414492)
 `7.0` ★ ⚡62 Q0.6✓ ✓ Solid
 
 **The resource describes the author's early experience with command-line tools and scripting, specifically using BAT files and Pascal to create an executable that could perform desired actions on a computer. It highlights the transition from viewing software as a tool for others to becoming a creator.**
@@ -2398,2244 +5805,24 @@
 
 ---
 
-## Spec-Driven Development
-> 71 tools · avg signal ⚡83
+### 78. [Windows Command Line](https://blogs.msdn.microsoft.com/commandline/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
 
-### 1. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
-↗2 layers
+**This resource provides insights into the teams behind key Windows tools like Terminal and PowerToys, focusing on user-centric improvements. It specifically covers the 'Run dialog' rebuild and updates to PowerToys, offering a look into modern interface design and developer workflow enhancements.**
 
-**This project implements a bridge between LLM-based coding agents and the Chrome DevTools Protocol (CDP) using the Model Context Protocol (MCP). It allows agents to perform high-fidelity browser automation, deep network inspection, and performance analysis by exposing Puppeteer-driven actions and DevTools data as tools. The server supports recording traces for performance profiling, fetching real-user experience data via the Google CrUX API, and extracting console logs with source-mapped stack tr...**
-
-**Features:**
-- MCP server architecture
-- Puppeteer-driven automation
-- Chrome DevTools Protocol integration
-- performance trace recording
-- network request inspection
-- source-mapped console log extraction
-- CrUX API field data integration
-- slim execution mode
-- multi-client support (Claude
-- Cursor
-- VS Code
-- Gemini)
-- ... and 1 more
-
-*Tags: mcp, chrome-devtools, puppeteer, browser-automation, agentic-workflows, llm-tools, debugging-protocol, performance-analysis...*
-
----
-
-### 2. [microsoft/fara](https://github.com/microsoft/fara)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**Fara-7B represents a shift toward specialized Small Language Models (SLMs) for autonomous computer use, utilizing a visual-only approach that bypasses traditional dependencies on accessibility trees or DOM parsing. Built on the Qwen2.5-VL-7B architecture, it was trained using a novel synthetic data pipeline powered by Magentic-One, comprising 145,000 task trajectories. The model functions by perceiving screenshots and directly predicting pixel coordinates for mouse clicks and keyboard inputs, al...**
-
-**Features:**
-- Visual coordinate prediction
-- on-device SLM execution
-- synthetic trajectory training pipeline
-- WebTailBench evaluation framework
-- Playwright integration
-- low-step task completion
-- cross-browser automation
-- Magentic-UI compatibility
-
-*Tags: slm, computer-use, vision-language-model, agentic-ai, visual-grounding, web-automation, synthetic-data, qwen-2.5-vl...*
-
----
-
-### 3. [sivan22/mcp-sefaria-server](https://github.com/sivan22/mcp-sefaria-server)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The project provides a developer-friendly interface for accessing and utilizing Jewish texts from the Sefaria library through an MCP (Model Context Protocol) server. It supports features such as retrieving specific texts, searching by reference or keyword, viewing commentaries, and accessing daily learning schedules. The platform is designed to be integrated into modern development workflows, offering seamless interaction with external APIs and supporting enterprise-level security and scalabilit...**
-
-**Features:**
-- API integration with Sefaria
-- Text retrieval by reference or keyword
-- Commentary search functionality
-- Daily learning schedule generation
-- Customizable learning plans
-- Secure and scalable architecture
-
-*Tags: mcp-sefaria-server, sefaria-jewish-library, api-integration, developer-tool, learning-platform, text-access, api-security, sefaria-api...*
-
----
-
-### 4. [tedlikeskix/xrpl-mcp-service](https://github.com/tedlikeskix/xrpl-mcp-service)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a Python-based MCP (Master Control Protocol) server implementation that allows AI models to securely and efficiently interact with the XRP Ledger blockchain. It leverages FastAPI for asynchronous API endpoints, integrates with XRPL protocol specifications, and supports key functionalities such as account management, trust lines, NFT operations, AMM data retrieval, and market price queries. The codebase emphasizes developer experience through structured tool registration, cle...**
-
-**Features:**
-- async implementation
-- xrpl_tools.py
-- tool registration
-- account management
-- trust lines
-- amm info
-- market price queries
-
-*Tags: xrpl, fastapi, asyncio, xrpledger, developer-tools, ai-integration, blockchain, smartcontracts...*
-
----
-
-### 5. [gaplydev01/coingecko-mcp-server](https://github.com/gaplydev01/coingecko-mcp-server)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project offers a robust Node.js Express-based server that integrates with both the free and Pro versions of the CoinGecko API. It supports automatic fallback to the free API during development, enabling developers to quickly test and prototype applications without immediate infrastructure concerns. The server exposes RESTful endpoints for various CoinGecko data types such as prices, coins, market data, and trends, adhering to the MCP (Marketplace Component Program) specification for seamless...**
-
-**Features:**
-- Dual API support (free and Pro)
-- Automatic fallback to free API
-- RESTful endpoints for CoinGecko data
-- Comprehensive documentation and setup guides
-- Integration with MCP for AI systems
-- Environment configuration via .env file
-
-*Tags: nodejs, express, coingecko, api-integration, developer-tools, mcp, ai-integration, cryptocurrency...*
-
----
-
-### 6. [kryzo/mcp-sncf](https://github.com/kryzo/mcp-sncf)
-`10.0` ★★★ ⚡95 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The project provides a modular Python interface to the SNCF API, integrating seamlessly with Claude Desktop. It supports intelligent journey planning, real-time schedules, disruption monitoring, station details, and transport mode analysis across France. Developers can leverage this tool to automate workflows, enhance user experiences, and integrate advanced features like AI-driven recommendations.**
-
-**Features:**
-- Modular Python wrapper for SNCF API
-- Integration with Claude Desktop for intelligent journey planning
-- Real-time schedules and disruption monitoring
-- Station information retrieval (facilities
-- transport types)
-- Detailed train journey planning with customizable parameters
-- Automated workflows and code management tools
-
-*Tags: software-development, developer-workflow, ai-integration, api-integration, travel-planning, mcp-server, cloud-services, user-experience...*
-
----
-
-### 7. [dragons96/mcp-undetected-chromedriver](https://github.com/dragons96/mcp-undetected-chromedriver)
-`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
-
-**The MCP-Undetected-Chromedriver project provides a specialized Chrome browser instance that leverages the undetected-chromedriver library to effectively evade modern website anti-bot mechanisms. It offers a comprehensive API for tasks such as navigating URLs, capturing screenshots, handling iframes, and interacting with web elements, making it ideal for automated testing, data scraping, and web automation.**
-
-**Features:**
-- Browser navigation
-- Screenshot capture
-- Iframe element interaction
-- Form filling
-- Click operations
-- PDF export
-- Complex page interactions
-
-*Tags: mcp, undetected-chromedriver, web-automation, browser-control, api-integration*
-
----
-
-### 8. [adrian-dotco/harvest-mcp-server](https://github.com/adrian-dotco/harvest-mcp-server)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Harvest MCP Server allows users to log work hours using conversational natural language inputs, intelligently parsing and interpreting phrases like 'I'm off sick today' or 'Take annual leave next week'. It supports configurable workday hours, timezone settings, and automatic matching with projects and tasks. The system integrates seamlessly with Harvest's API for time tracking, offering a user-friendly experience that reduces friction in time entry while maintaining accuracy and compliance.**
-
-**Features:**
-- natural language time entry
-- special leave request handling
-- configurable workday hours
-- timezone support
-- project and task matching
-- smart date parsing
-
-*Tags: harvest, mcp-server, natural-language-api, time-tracking, developer-tools, workflow-integration, customer-account, api-integration...*
-
----
-
-### 9. [byteplant-dev/byteplant-mcp](https://github.com/byteplant-dev/byteplant-mcp)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-
-**This package delivers robust, real-time validation capabilities for critical data fields such as email addresses, phone numbers, and postal addresses. By integrating Byteplant's specialized validators, it ensures high accuracy and reliability in live client environments. The modular design allows developers to easily incorporate these services into existing applications, enhancing user experience through automated verification. Key features include seamless integration with Claude Desktop, compr...**
-
-**Features:**
-- Real-time email validation
-- Phone number verification
-- Address geolocation and deliverability checks
-- Support for multiple validator APIs
-- Customizable configuration via CLI
-
-*Tags: api-integration, mcp-server, email-validation, phone-verification, address-validation, developer-tools, real-time-processing*
-
----
-
-### 10. [AbanteAI/vscode](https://github.com/AbanteAI/vscode)
-`9.1` ★★ ⚡92 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The resource points to a fork of the official Microsoft Visual Studio Code source repository ('Code - OSS'). VS Code itself is a highly influential developer tool providing a rich code editor, debugging, and a vast extensibility model. While this specific link is for a fork by 'AbanteAI', the content extensively describes the architecture, contribution guidelines, and core features of VS Code, which fundamentally represents a sophisticated Interface & Developer UX layer for software development,...**
-
-**Features:**
-- Rich code editing and navigation
-- Lightweight debugging
-- Extensibility model for extensions
-- Development container support (Dev Containers/Codespaces)
-- Monthly update cycle
-- Community contribution workflow.
-
-*Tags: visual-studio-code, code-editor, ide, developer-experience, extensibility, devcontainer, codespaces, typescript...*
-
----
-
-### 11. [robertoamoreno/couchdb-mcp-server](https://github.com/robertoamoreno/couchdb-mcp-server)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Borg Project's 'couchdb-mcp-server' is a developer-focused platform that provides tools for managing CouchDB databases and documents. It supports AI integration, offering features such as database creation, document manipulation, index management, and querying via Mango and CouchDB 3.x+ syntax. Designed for seamless interaction with CouchDB through a simple interface, it includes robust error handling and debugging tools like the MCP Inspector.**
-
-**Features:**
-- Create and manage CouchDB databases
-- Create and update documents
-- Index creation and management
-- Query support via Mango syntax
-- Automatic detection of database operations
-- Integration with AI assistants
-- Debugging tools (MCP Inspector)
-- Version compatibility (CouchDB 3.x+)
-
-*Tags: couchdb, mcp-server, ai-integration, developer-tools, couchdb-mcp-server, api, database-management, developer-interface...*
-
----
-
-### 12. [AbanteAI/spice](https://github.com/AbanteAI/spice)
-`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**Spice functions as a developer-centric interface layer, abstracting the underlying specifics of different LLM providers. It standardizes calls for text generation, streaming, vision inputs, embeddings, and transcriptions across providers like OpenAI and Anthropic. Key to its UX is the automatic loading of API keys via environment variables or `.env` files, the ability to alias models for easy switching, built-in tracking of usage statistics (tokens, time, cost), and support for loading/rendering...**
-
-**Features:**
-- Unified API wrapper for multiple LLM SDKs (OpenAI
-- Anthropic)
-- Automatic environment variable/`.env` file API key loading
-- Model aliasing for easy provider switching
-- Automatic cost
-- token
-- and time tracking per call
-- Support for streaming responses and complete response retrieval
-- Jinja template rendering for prompt loading
-- Support for vision models and embeddings/transcriptions
-- Built-in constants for commonly used models
-
-*Tags: llm-wrapper, developer-experience, provider-abstraction, prompt-management, usage-tracking, asyncio, python-sdk, multi-provider...*
-
----
-
-### 13. [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**GitHub - cloudflare/workers-sdk: ⛅️ Home to Wrangler, the CLI for Cloudflare Workers® · GitHub Skip to content You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert cloudflare / workers-sdk Public Notifications You must be signed in to change notification settings**
-
-**Features:**
-- Cloudflare Workers SDK
-- Wrangler (CLI for Cloudflare Workers)
-- Create-Cloudflare (C3) CLI for creating and deploying new applications
-- Miniflare simulator for development/testing
-- Chrome DevTools fork for inspecting Workers pages.
-
-*Tags: ['cloudflare', 'workers', 'cli', 'serverless', 'developer-tools', 'web-development', 'cloudflare-workers'], cloud...*
-
----
-
-### 14. [sylikc/jpegview](https://github.com/sylikc/jpegview)
-`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
-
-**JPEGView is an official re-release of JPEGView. It offers a fast and highly configurable viewer/editor for various image formats (JPEG, BMP, PNG, WEBP, TGA, GIF, TIFF) and includes built-in on-the-fly image processing capabilities (sharpness adjustment, color balance, rotation, perspective, contrast, local exposure adjustments). The tool leverages modern hardware acceleration (AVX2/SSE2) for high quality resampling and offers a movie/slideshow mode. It supports various camera RAW formats via Lib...**
-
-**Features:**
-- ['Broad Format Support (JPEG
-- BMP
-- PNG
-- WEBP
-- TGA
-- GIF
-- TIFF)'
-- 'In-the-moment Image Processing Adjustments (Sharpness
-- Color Balance
-- Rotation
-- Perspective
-- Contrast
-- ... and 4 more
-
-*Tags: ['image-processing', 'viewer', 'editor', 'jpegview', 'web-image-formats', 'camera-raw', 'windows-imaging-component-(wic)', 'hardware-acceleration'...*
-
----
-
-### 15. [sivan22/mcp-otzaria-server](https://github.com/sivan22/mcp-otzaria-server)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project implements a secure, Python-driven MCP (Model Context Protocol) server that allows Large Language Models to perform full-text searches across a curated Jewish library. It supports advanced search syntax, field-specific queries, Boolean operators, wildcards, and relevance scoring. The solution emphasizes developer experience by providing clear documentation, integration guides, and a user-friendly configuration system for LLM applications.**
-
-**Features:**
-- Full-text search across Jewish texts
-- Advanced query syntax support
-- Field-specific and phrase searches
-- Wildcard and relevance-based results
-- Integration with LLMs via MCP protocol
-
-*Tags: mcp, search, jewish-library, api, python, ml, developer, ai*
-
----
-
-### 16. [baidu-maps/mcp](https://github.com/baidu-maps/mcp)
-`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
-
-**This resource outlines the Baidu Map MCP Server, detailing its support for full MCP protocol compliance, enabling developers to integrate advanced mapping and location-based services via standardized interfaces. It highlights key features such as geocoding, route planning, weather data, and real-time traffic, along with SDKs for Python and TypeScript. The server architecture emphasizes seamless AI integration, contextual understanding, and scalable implementation for applications like travel ass...**
-
-**Features:**
-- Geocoding
-- Route Planning
-- Weather Data
-- Traffic Information
-
-*Tags: mcp-server, map-api, geolocation, ai-integration, developer-tools*
-
----
-
-### 17. [lars-hagen/mcp-playwright-cdp](https://github.com/lars-hagen/mcp-playwright-cdp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The MCP Playwright CDP project provides a browser automation framework that integrates Playwright with the Chrome DevTools Protocol (CDP), allowing large language models to execute JavaScript, capture screenshots, and interact with web applications in real-time. It supports advanced features such as remote debugging via CDP, enabling seamless integration with existing Chrome instances for enhanced automation capabilities.**
-
-**Features:**
-- Connect to running Chrome instances via CDP
-- Full browser automation capabilities
-- Screenshot capture of entire pages or specific elements
-- Comprehensive web interactions (navigation
-- clicking
-- form filling)
-- Console log monitoring
-- JavaScript execution in browser context
-- HTTP API testing support
-
-*Tags: playwright, cdp, chrome, automation, browser, developer*
-
----
-
-### 18. [ananddtyagi/gif-creator-mcp](https://github.com/ananddtyagi/gif-creator-mcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-
-**The MCP (Model Context Protocol) server enables developers to easily transform video content into GIF format by leveraging FFmpeg for efficient processing. It supports advanced features such as customizing output settings, extracting specific video portions, and optimizing the generated GIFs for quality and performance. The tool is designed with a user-friendly interface, allowing seamless integration into development workflows.**
-
-**Features:**
-- video to gif conversion
-- customizable output settings (fps
-- dimensions
-- duration)
-- extract specific video portions
-- optimized palette generation
-- support for large videos
-
-*Tags: gifcreator, mcp, ffmpeg, videoprocessing, developertools, automation, codeintegration, security...*
-
----
-
-### 19. [sanxfxteam/gemini-mcp-server](https://github.com/sanxfxteam/gemini-mcp-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The sanxfxteam/gemini-mcp-server is a GitHub-hosted platform that leverages Google's Gemini 2 AI to generate images based on user prompts. It provides an intuitive interface for developers and users to interact with the Model Context Protocol, offering customizable image generation features such as prompt input, control over output samples, and person generation settings.**
-
-**Features:**
-- image generation via Gemini 2 API
-- prompt-based image creation
-- customizable parameters (numSamples
-- aspectRatio
-- personGeneration)
-- support for person generation
-- integration with Claude Desktop
-
-*Tags: gemini, image-generation, ai, developer-tools, cloud-server, model-api, gpu-accelerated, prompt-engine...*
-
----
-
-### 20. [saintdoresh/yfinance-trader-mcp-claudedesktop](https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This project provides a desktop application that leverages the yfinance library to deliver live market data, historical price charts, analyst insights, and trading capabilities tailored specifically for Claude Desktop. It enhances developer productivity by offering intuitive interfaces, robust error handling, and seamless integration with external tools.**
-
-**Features:**
-- Real-time stock quotes
-- Historical price data
-- Company overviews
-- Analyst recommendations
-- Insider transaction tracking
-- Customizable MCP settings
-- Integration with Claude Desktop
-
-*Tags: yfinance, mcp, clouddesktop, trading, dataanalysis, apiintegration, financialtools, developertools...*
-
----
-
-### 21. [chriscarlon/os-mcp](https://github.com/chriscarlon/os-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The os-mcp project provides a secure, Python-driven MCP (Machine Control Platform) server that allows developers and users to interact with Ordnance Survey's geospatial data through standardized APIs. It enforces a structured two-step workflow to ensure optimal results, integrating seamlessly with tools like Docker, Claude Desktop, and GitHub for streamlined development and deployment.**
-
-**Features:**
-- API access to Ordnance Survey
-- Two-step workflow planning
-- Docker integration
-- Cloud-based development environment
-- Code review and security features
-
-*Tags: os-mcp, mcp, geospatial, api, developer, python, ordernguide, devops...*
-
----
-
-### 22. [afrise/academic-search-mcp-server](https://github.com/afrise/academic-search-mcp-server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Academic Paper Search MCP Server is a web application designed to integrate with Claude Desktop, allowing users to search for and retrieve academic papers from multiple sources such as Semantic Scholar and Crossref. It provides structured data responses following the MCP specification, supports real-time search functionality, and can be used in enterprise environments for modernizing research workflows.**
-
-**Features:**
-- Real-time academic paper search
-- Access to paper metadata and abstracts
-- Retrieve full-text content when available
-- Structured data responses
-- Integration with Claude Desktop
-
-*Tags: academic-search, ai-integration, research-tools, cloud-server, semantic-scholar, crossref, mcp-server, developer-tools...*
-
----
-
-### 23. [mtane0412/perspective-mcp-server](https://github.com/mtane0412/perspective-mcp-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Perspective MCP Server is a developer-focused tool designed to facilitate seamless integration with the Perspective API, offering features such as text toxicity analysis, multiple attribute scoring, multi-language support, and customizable API key management. It supports debugging via the MCP Inspector and provides robust security measures to protect sensitive data.**
-
-**Features:**
-- text toxicity analysis
-- support for multiple attributes (TOXICITY
-- SEVERE_TOXICITY
-- IDENTITY_ATTACK
-- INSULT
-- PROFANITY
-- THREAT)
-- multi-language support
-- code commit history and management
-- integration with GitHub and other platforms
-
-*Tags: mcp-server, perspective-api, text-analysis, security-features, developer-tools, content-filtering, ai-integration, code-management...*
-
----
-
-### 24. [grounddocs/grounddocs](https://github.com/grounddocs/grounddocs)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**GroundDocs is a documentation assistant built for LLMs that integrates with platforms like GitHub to deliver up-to-date, context-aware explanations. It supports enterprise-grade security, seamless integration with development workflows, and offers features such as code generation, model management, and secure code handling. The platform emphasizes usability, ensuring developers receive precise information without hallucinations.**
-
-**Features:**
-- AI-powered documentation
-- Real-time updates
-- Integration with GitHub
-- Code generation
-- Model management
-- Security features
-
-*Tags: grounddocs, llm-docs, ai-development, documentation-assistant, github-integration*
-
----
-
-### 25. [f-is-h/mcp-easy-copy](https://github.com/f-is-h/mcp-easy-copy)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The f-is-h/mcp-easy-copy GitHub project provides a user-friendly interface to list all available MCP (Messaging Control Protocol) services, making it easier for developers to reference and utilize specific MCP actions without manually searching through configuration files. It supports dynamic updates, offers a clean copy format, and integrates seamlessly with Claude Desktop via its Model Context Protocol SDK.**
-
-**Features:**
-- Automatically reads Claude Desktop configuration
-- Displays MCP service names in an easy-to-copy format
-- Supports dynamic updates for the latest services
-- Allows explicit selection of specific MCP services
-- Integrates with Claude Desktop via Model Context Protocol
-
-*Tags: mcp-easy-copy, developer-ux, cloud-integration, code-simplification, automation, security, api-integration, configuration-management...*
-
----
-
-### 26. [hyperbrowserai/mcp](https://github.com/hyperbrowserai/mcp)
-`8.0` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The `hyperbrowserai/mcp` project serves as an implementation of the Model Context Protocol (MCP) server for the Hyperbrowser environment. Its primary function is to act as a standardized communication layer, allowing external applications (like AI model clients such as Claude Desktop or Cursor) to easily access Hyperbrowser's capabilities, which include web scraping, data extraction, crawling, and controlled browser automation via agents like OpenAI's CUA and Anthropic's Claude Computer Use.**
-
-**Features:**
-- MCP server implementation
-- Web scraping/content extraction
-- Structured data conversion
-- Web crawling
-- Integration with LLM browser agents (CUA/Browser Use)
-- Configuration for multiple clients (Cursor
-- Windsurf
-- Claude Desktop)
-
-*Tags: mcp, hyperbrowser, protocol-implementation, interoperability, browser-automation, llm-integration, api-server, data-extraction...*
-
----
-
-### 27. [reeeeemo/ancestry-mcp](https://github.com/reeeeemo/ancestry-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Ancestry MCP server allows users to read, parse, and manipulate GEDCOM (.ged) files hosted on Ancestry.com. It provides tools for renaming, searching, and extracting specific information such as birth dates, family relationships, and more. The project leverages the Model Context Protocol (MCP) to facilitate seamless integration with genealogy platforms.**
-
-**Features:**
-- Interact with .ged files
-- Rename .ged files
-- Search within .ged files
-- Parse file contents
-- Extract specific data fields
-
-*Tags: ancestry, mcp-server, python, genealogy, data-parsing, file-manipulation, api-integration, cloud-deployment...*
-
----
-
-### 28. [heilgar/shadcn-ui-mcp-server](https://github.com/heilgar/shadcn-ui-mcp-server)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The heilgar/shadcn-ui-mcp-server is a robust MCP (Model Control Protocol) server designed to streamline the development workflow for UI component creation. It offers comprehensive tools for managing components, blocks, and packages, supporting multiple package managers and providing flexible runtime environments.**
-
-**Features:**
-- Component management
-- Block management
-- Package manager support (npm
-- yarn
-- pnpm
-- bun)
-- Automatic detection of user's preferred package manager
-- Integration with MCP Inspector for debugging
-- Support for Claude Desktop and Windsurf configurations
-
-*Tags: mcp, shadcn-ui, developer-tools, ai-integration, code-quality, security*
-
----
-
-### 29. [amysatterlee/nps_mcp](https://github.com/amysatterlee/nps_mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The MCP Server provides a user-friendly interface to retrieve and manage National Park Services data, enabling developers and users to interact with the National Park Service API through intuitive tools and APIs. It supports various functionalities such as listing parks by state, fetching detailed park information, and querying specific parks by name or code.**
-
-**Features:**
-- API integration
-- Data retrieval tools
-- User-friendly interface
-- State-based search
-- Park details lookup
-
-*Tags: nps-mcp, api-integration, developer-tools, national-parks, data-access, gis-platform*
-
----
-
-### 30. [abhirockzz/mcp_kusto](https://github.com/abhirockzz/mcp_kusto)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The project provides a Go-based MCP server that integrates with Azure Data Explorer (Kusto), allowing developers to run KQL queries directly from VS Code or other MCP clients. It supports database listing, table listing, schema inspection, and executing queries, enhancing data exploration and analysis workflows.**
-
-**Features:**
-- vibe querying
-- database listing
-- table listing
-- schema inspection
-- query execution
-
-*Tags: mcp-kusto, kusto, azure-data-explorer, data-querying, developer-tools, go, kusto-sql, vibe-query...*
-
----
-
-### 31. [ymadd/shadcn-ui-mcp-server](https://github.com/ymadd/shadcn-ui-mcp-server)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The mcp-server acts as an AI-powered interface to the Shadcn UI documentation, enabling developers to access component details, examples, and usage instructions directly within their workflow. It supports structured data retrieval from official sources and integrates seamlessly with development environments like Claude Desktop and Cursor.**
-
-**Features:**
-- Component reference lookup
-- Component details and examples
-- Component installation and usage guidance
-- Integration with AI assistants
-- Debugging tools via MCP Inspector
-
-*Tags: shadcn-ui, mcp-server, ai-assistant, developer-tools, documentation*
-
----
-
-### 32. [janwilmake/openapi-mcp-server](https://github.com/janwilmake/openapi-mcp-server)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The openapi-mcp-server allows users to navigate through OpenAPI specifications in a simplified, human-readable format. It supports searching, summarizing, and understanding API operations in JSON and YAML formats. The project integrates AI-driven insights to help developers comprehend complex APIs more easily.**
-
-**Features:**
-- OpenAPI specification exploration
-- AI-powered simple language summaries
-- JSON and YAML format support
-- Integration with Claude Desktop
-- Support for Claude/Cursor protocol
-
-*Tags: openapi, developer, ai, exploration, api, mcp, search, integration...*
-
----
-
-### 33. [OpenRocket | Hacker News](https://news.ycombinator.com/item?id=47386703)
-`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**OpenRocket provides an intuitive interface for hobbyists to design rockets, simulate flight paths, and visualize performance metrics. It supports detailed customization of rocket components, including motors, fins, and aerodynamic shapes. The platform includes tools for calculating altitude, drag, and stability, helping users optimize their designs for specific competitions like UKROC. However, it is important to note that the software relies on user input and approximations, as it does not acco...**
-
-**Features:**
-- Rocket design and simulation
-- Altitude estimation tools
-- Drag and stability analysis
-- Customizable components (motor
-- fins
-- etc.)
-- Competition preparation support
-
-*Tags: rocketry, modelrocketry, openrocket, simulation, competition, education, hobby, design...*
-
----
-
-### 34. [Show HN: I built a frontpage for personal blogs | Hacker News](https://news.ycombinator.com/item?id=47625952)
-`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project aims to enhance the visibility of personal blogs by creating a curated frontpage that highlights frequently written blogs across various categories. It features two versions: a minimal static interface and a modern infinite scroll version, both designed to showcase recent posts from user blogs. The platform includes search functionality in the minimal version and infinite scroll in the modern version, though the latter poses challenges in accessing the footer due to dynamic content l...**
-
-**Features:**
-- Blog aggregation from personal blogs
-- Search functionality in the minimal version
-- Infinite scroll for modern version
-- User-submitted and ranked blog posts
-- Commenting and sharing capabilities
-- Potential social interaction features
-
-*Tags: web-development, blog-aggregation, social-media-integration, user-engagement, content-curation, search-functionality, infinite-scroll, community-building*
-
----
-
-### 35. [What 81,000 people want from AI](https://www.anthropic.com/features/81k-interviews)
-`9.8` ★★ ⚡86 Q0.8🏆 🏆 World-class
-
-**The project conducted a global interview study with 80,508 participants across 159 countries, using Claude AI to gather rich, open-ended responses about users' hopes, fears, and practical uses of artificial intelligence. The research aimed to understand the nuanced aspirations and anxieties surrounding AI adoption, capturing diverse perspectives from various professions and regions.**
-
-**Features:**
-- Large-scale multilingual qualitative interviews
-- AI-powered classifiers for categorizing user sentiments and needs
-- Quote wall featuring direct user voices
-- De-identification of responses to ensure privacy
-- Adaptive follow-up questions for depth and scale
-
-*Tags: ai-usage, user-experience, multilingual-research, qualitative-study, consumer-insights, ethical-considerations, technology-adoption, cross-cultural-perspectives...*
-
----
-
-### 36. [jay4242/mcp_searxng_search](https://github.com/jay4242/mcp_searxng_search)
-`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**This project provides a tool that enables integration with Goose by allowing it to perform web searches via the SearxNG instance. It exposes an API that can be called from other MCP-compatible applications, such as Goose, to fetch search results efficiently.**
-
-**Features:**
-- MCP server integration
-- Support for Goose extension
-- Web search functionality via SearxNG
-- Customizable search parameters (query
-- max_results)
-- Real-time search results display
-
-*Tags: mcp-searxng, goose, search, api, web-scraping, search-engine, developer-tools, integration...*
-
----
-
-### 37. [erniebrodeur/mcp-grep](https://github.com/erniebrodeur/mcp-grep)
-`8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a lightweight MCP (Model Context Protocol) server that enhances the functionality of the standard grep utility by integrating it into a web-based environment. This allows users to leverage powerful search features directly within their development or testing environments, improving efficiency and usability for developers working with text processing tasks.**
-
-**Features:**
-- MCP integration
-- Grep server functionality
-- Interactive debugging via MCP Inspector
-- Natural language prompt support
-
-*Tags: mcp, grep, search, developer, ai, security, code, integration...*
-
----
-
-### 38. [ravinahp/surf-mcp](https://github.com/ravinahp/surf-mcp)
-`8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The surf-mcp project provides a Python-based MCP server that allows users to fetch tide data using latitude, longitude, and date parameters. It integrates with the Storm Glass API to deliver detailed tide information including high/low tides, station details, and automatic time zone handling. The tool is designed for developers and surfers to easily access real-time tide data for planning optimal surf sessions.**
-
-**Features:**
-- API integration
-- tide data retrieval
-- real-time updates
-- station information display
-
-*Tags: mcp, surf, api, weather, developer, tide, python, cloud*
-
----
-
-### 39. [ramadasmr/networkcalc-mcp](https://github.com/ramadasmr/networkcalc-mcp)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**ramadasmr/networkcalc-mcp is a MCP Server designed to deliver essential network utilities from networkcalc.com. It enables developers and organizations to integrate network analysis tools directly into their applications using APIs, enhancing DevOps workflows and security operations.**
-
-**Features:**
-- DNS lookup
-- WHOIS lookup
-- SPF inspection
-- Certificate verification
-- Subnet analysis
-
-*Tags: networking, security, api, developer, networkcalc, mcp, dns, whois...*
-
----
-
-### 40. [marketplaceadpros/amazon-ads-mcp-server](https://github.com/marketplaceadpros/amazon-ads-mcp-server)
-`8.0` ★ ⚡86 Q0.8🏆 🏆 World-class
-
-**The MarketplaceAdPros amazon-ads-mcp-server is a GitHub-hosted MCP server designed to facilitate interaction with Amazon Advertising data. It allows developers to build, test, and deploy applications that leverage Amazon Ads features such as Sponsored Products, Sponsored Brands, and Sponsored Display. The platform supports modern development workflows including CI/CD, automated testing, secure code management, and integration with external tools.**
-
-**Features:**
-- Amazon Ads integration
-- Code generation and auto-rebuild
-- Secure development environment
-- Debugging tools (MCP Inspector)
-- CI/CD support
-- Automated testing and deployment
-
-*Tags: amazon-ads, mcp-server, developer-tools, integration, automation, security, cloud-dev, ai-development...*
-
----
-
-### 41. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
-`10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**A specialized web capturing tool designed to generate "AI-Ready" structured snapshots of pixel-perfect UI layouts, optimizing complex frontends for Vision-Language Models.**
-
-**Features:**
-- Pixel-perfect CSS/layout state capture
-- AI-optimized structured data output
-- visual regression QA integration
-- high-performance execution.
-
-*Tags: vision, testing, ui-capture, computer-vision, dev-tools, artificial-intelligence, design, github...*
-
----
-
-### 42. [aws-powertools/powertools-mcp](https://github.com/aws-powertools/powertools-mcp)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Powertools for AWS MCP project offers comprehensive guidance on setting up MCP servers across different platforms, including VS Code, Kiro, and custom configurations. It emphasizes the importance of using MCP for enhanced search functionality within LLM agents, particularly for AWS Lambda documentation. The setup instructions cover both local and global configurations, ensuring seamless integration with existing workflows.**
-
-**Features:**
-- MCP server configuration for VS Code
-- Custom MCP server setup
-- Integration with Kiro
-- Global vs project-specific configurations
-
-*Tags: aws-powertools, mcp-server, documentation, integration, developer-tools*
-
----
-
-### 43. [josmithiii/mcp-servers-jos](https://github.com/josmithiii/mcp-servers-jos/tree/HEAD/juce-docs-mcp-server)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-
-**The resource enables developers to interact with the JUCE documentation via MCP (Model Context Protocol), supporting features like fetching class docs, searching, and formatting documentation in markdown. It integrates with IDEs such as Visual Studio for seamless access during development.**
-
-**Features:**
-- Fetch documentation for specific JUCE classes
-- List all available JUCE classes
-- Search for classes by name
-- Format documentation as markdown
-- Expose documentation through MCP resources and tools
-
-*Tags: juce, mcp, documentation, juce-framework, ide-integration, developer-tools*
-
----
-
-### 44. [datastrato/mcp-server-gravitino](https://github.com/datastrato/mcp-server-gravitino)
-`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The repository details a "FastMCP integration" designed to provide a streamlined interface for interacting with Apache Gravitino services. It supports various metadata operations across catalogs, schemas, tables, models, and user roles. The solution emphasizes secure access via token or basic authentication and offers specific tool activation capabilities for agent orchestration.**
-
-**Features:**
-- Seamless integration with FastMCP for Gravitino APIs
-- Simplified interface for metadata interaction
-- Support for catalog/schema/model operations
-- Token-based and basic authentication support
-- Tool activation based on method names
-
----
-
-### 45. [item?id=47972447](https://news.ycombinator.com/item?id=47972447)
-`9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The analysis focuses on how well Grok 4.3 captures and replicates the tone and register of human language, particularly in informal contexts. It assesses its ability to mimic natural speech patterns, including capitalization, punctuation, and conversational nuances. The evaluation highlights Grok's strengths in producing outputs that feel human-like and contextually appropriate, especially for casual communication. However, it notes limitations in maintaining consistency across different user in...**
-
-**Features:**
-- Natural language understanding
-- Tone and register adaptation
-- Speech-to-text integration
-- Contextual awareness
-- User-friendly interface
-
-*Tags: llm, tone-analysis, formality, language-model, user-experience, text-generation, chatbot-evaluation*
-
----
-
-### 46. [xcodethink/pixelcheck](https://github.com/xcodethink/pixelcheck)
-`8.8` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The PixelCheck project provides a comprehensive interface for inspecting image files, highlighting its role in guiding developers through detailed visual diagnostics. It emphasizes clarity in displaying pixel information, which is essential for debugging and optimization tasks.**
-
-**Features:**
-- pixel inspection
-- image analysis
-- visual feedback
-- data export
-- debugging tools
-
-*Tags: imageanalysis, pixelcheck, debugging, visualization, developertools, imageprocessing, softwaretesting, datavisualization...*
-
----
-
-### 47. [davidorex/git-file-forensics](https://github.com/davidorex/git-file-forensics)
-`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Git File Forensics MCP tool provides detailed insights into file histories, changes, and patterns at the file level, enabling developers to understand specific modifications and their implications without affecting the entire repository.**
-
-**Features:**
-- track_file_versions
-- analyze_file_diff
-- analyze_file_context
-- analyze_file_semantics
-
-*Tags: git, fileforensics, mcp, git-sdk, code-analysis, security, developer-tools, repository-tracking...*
-
----
-
-### 48. [Mindory App â A Gentle AI Planner for ADHD & Autism](https://mindoryapp.com)
-`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-
-**Mindory App offers an intuitive interface for organizing daily activities, prioritizing tasks, and adapting schedules based on real-time needs. It leverages AI to provide personalized guidance, helping users stay on track without overwhelming stress. The app focuses on flexibility and emotional support, making it suitable for those managing ADHD or autism.**
-
-**Features:**
-- AI-powered task scheduling
-- personalized prioritization
-- calendar integration
-- stress management tools
-- mood-based planning
-
-*Tags: mindory-app, adhd, autism, productivity, task-scheduler, mental-health, ai-assistant, cognitive-support...*
-
----
-
-### 49. [www.novella.io](https://www.novella.io)
-`8.8` ★ ⚡81 Q0.7⭐ ⭐ Excellent
-
-**Seedance 2.0, GPT 2 Image & HappyHorse added, and a strict requirement for Chrome version 147.0.7727.101 or higher, this landing page highlights Novaella.io as an all-in-one generative AI video platform. It emphasizes a seamless user experience with features like AI video generation, editing in a timeline, easy export, and integration of multiple AI models into one workspace. The tool targets modern creators seeking efficiency, offering competitive pricing plans and robust storage options.**
-
-**Features:**
-- AI-powered video creation
-- Timeline-based editing
-- Export and share functionality
-- Integration with multiple AI models
-- Cloud storage support
-
-*Tags: ai-video-creator, generative-ai, cloud-storage, video-editing, browser-extension, content-creation, automation, cloud-services...*
-
----
-
-### 50. [saintdoresh/crypto-trader-mcp-claudedesktop](https://github.com/saintdoresh/crypto-trader-mcp-claudedesktop)
-`8.5` ★ ⚡80 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The resource is a Crypto Trader MCP Tool, which functions as a Model Context Protocol (MCP) tool specifically tailored for the Claude Desktop environment. It offers various functionalities to interact with cryptocurrency market data, including real-time prices, historical charts, and search capabilities. The setup guides show how to configure this tool within Claude Desktop and use its specific functions to gather detailed crypto information.**
-
-**Features:**
-- Real-time cryptocurrency price data
-- Historical price charts
-- Cryptocurrency search functionality
-- Trending cryptocurrencies tracking
-
----
-
-### 51. [samay58/time-mcp](https://github.com/samay58/time-mcp)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗4 layers
-
-**The Time-MCP project provides a robust MCP (Machine Context Protocol) server that allows Claude the AI assistant to retrieve real-time and timezone-specific time information. This integration enhances AI interaction by ensuring consistent and reliable date/time responses across different regions, improving user experience in global applications.**
-
-**Features:**
-- Real-time timezone-aware time retrieval
-- Integration with Claude AI for natural language understanding
-- Support for multiple IANA timezones
-
-*Tags: time-mcp, mcp-server, ai-integration, timezone-aware, developer-tools, cloud-deployment, time-info-service, ai-assistant...*
-
----
-
-### 52. [adtac/domshot](https://github.com/adtac/domshot)
-`8.7` ★ ⚡79 Q0.8⭐ ⭐ Excellent
-
-**The adtac/domshot project provides a GitHub-hosted MCP server capable of retrieving screenshots of specific DOM elements from web pages. This functionality is useful for developers and analysts who need to inspect UI components in real-time, particularly when validating or documenting web application behavior.**
-
-**Features:**
-- Fetch browser screenshots of DOM elements
-- Integrate with Chrome DevTools via console script
-- Support for automated workflows
-
-*Tags: domshot, web-scraping, browser-screenshot, developer-tools, automation*
-
----
-
-### 53. [zhongmingyuan/mcp-my-mac](https://github.com/zhongmingyuan/mcp-my-mac)
-`8.7` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-
-**The project provides a secure local API that exposes Mac system details such as hardware specs, configuration, and resource usage. This enables AI assistants like Claude Desktop to deliver more accurate and context-aware assistance by leveraging real-time data about the user's Mac environment.**
-
-**Features:**
-- Access to system information
-- AI integration for Mac users
-- Secure local API execution
-
-*Tags: mcp-my-mac, ai, systeminfo, mac, developer, security, api, cloud...*
-
----
-
-### 54. [AIVA, the AI Music Generation Assistant](https://www.aiva.ai)
-`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**The Borg intelligence database should include a comprehensive overview of AIVA's capabilities, including its AI music generation features, customization tools, licensing models, and technical specifications to support integration into diverse workflows.**
-
-**Features:**
-- AI music generation
-- style customization
-- customizable style models
-- audio/midi export
-- multiple file formats
-- human arrangement
-
-*Tags: ai-music, music-generation, generative-ai, content-creation, digital-audio, machine-learning, software-development, creative-tools...*
-
----
-
-### 55. [AnchorGrid Developer Docs](https://www.getanchorgrid.com/developer/docs/endpoints/drawings-doors)
-`8.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This technical resource provides detailed information on the AnchorGrid Developer Docs endpoint for detecting doors within PDF floor plans. It outlines how to upload documents, authenticate via API key, and retrieve results including bounding boxes and processing times. The content is structured to assist developers in integrating door detection functionality into their applications.**
-
-**Features:**
-- API documentation
-- document upload and processing
-- job status tracking
-- credits and rate limits
-
-*Tags: api-docs, door-detection, floor-plans, pdf-processing, developer-tools, anchorgrid, image-recognition, software-development...*
-
----
-
-### 56. [aaf6c3bf836d0ba0734d5b417eb122ae](https://gist.github.com/acidgreenservers/aaf6c3bf836d0ba0734d5b417eb122ae)
-`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This GitHub repository presents a minimalist seed framework designed to embody epistemic discipline through strict adherence to four invariants: Compression, Generative Unfolding, Falsifiable Failure, and Decompressible LLM output. The project prioritizes clarity over fluff, embedding anti-sycophantic friction and concrete grounding in every seed pattern. It spans multiple families—CogniSeeds, LinguaSeeds, ArchSeeds—each addressing reasoning, voice, and structural integrity with a focus on survi...**
-
-**Features:**
-- Compression under 12 words
-- Generative unfolding without modification
-- Falsifiable invalidity via specific failure
-- LLM decompression into reasoning chains
-
-*Tags: epistemic-compression, seed-architecture, code-review, system-design, knowledge-propagation*
-
----
-
-### 57. [AI App Builder | Vibe Code Apps & Websites with AI, Fast](https://lovable.dev)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A leading AI software engineer for full-stack development that generates complete React/Supabase codebases and features an autonomous research/validation Agent Mode.**
-
-**Features:**
-- Complete React/Supabase generation
-- autonomous Agent Mode research
-- Plan Mode architectural review
-- real-time GitHub repository sync.
-
-*Tags: lovable, full-stack, supabse, orchestration, automation, artificial-intelligence, design, programming...*
-
----
-
-### 58. [item?id=41767083](https://news.ycombinator.com/item?id=41767083)
-`8.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**DocGoblin is a custom-built desktop application designed to enhance the user experience of searching through PDF documents. It leverages JavaFX for its graphical interface and Lucene for efficient full-text search capabilities. The project focuses on providing a seamless and intuitive way to locate specific content within PDF files, making it particularly useful for professionals who frequently handle large volumes of PDF documents.**
-
-**Features:**
-- desktop application
-- pdf rendering with PDFium
-- search engine using Lucene
-- user-friendly interface with JavaFX
-
-*Tags: pdf, search, desktop, java, javafx, lucene, application, document...*
-
----
-
-### 59. [I haven't used a mouse for 14 years, and how to enable three fingers drag on macOS](https://axelk.ee/i-havent-used-a-mouse-for-14-years-and-how-to-enable-three-fingers-drag-on-macos)
-`8.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-
-**The article discusses how to enable three-finger drag functionality on macOS trackpads, improving user experience for tasks like web and graphic design. It highlights the precision of Mac trackpads and the convenience of using three fingers for smoother dragging operations, especially after prolonged use.**
-
-**Features:**
-- three finger drag
-- trackpad precision
-- accessibility settings
-- pointer control options
-
-*Tags: macos, trackpad, accessibility, pointercontrol, designtools, userinterface, digitaldesign, macsystem...*
-
----
-
-### 60. [sacred-texts.com](https://sacred-texts.com)
-`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
-
-**The ISTA website serves as a vast digital repository offering over 1700 books on religion, mythology, folklore, and the esoteric. It emphasizes religious tolerance, scholarship, and accessibility, aiming to preserve and disseminate knowledge across diverse traditions.**
-
-**Features:**
-- Free access to a wide range of sacred texts
-- Search functionality for specific topics
-- Support for multiple languages and formats
-- Community-driven content and updates
-- Educational resources and scholarly articles
-
-*Tags: religion, mythology, folklore, esoteric, sacred-texts, spirituality, comparative-religion, traditions...*
-
----
-
-### 61. [welcoming_a_new_stealth_model_on_openrouter](https://www.reddit.com/r/dev/comments/1skt8n1/welcoming_a_new_stealth_model_on_openrouter)
-`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
-
-**The resource explores the technical aspects of a new stealth model designed for OpenRouter, focusing on its architecture, user interface, and developer experience. It highlights features such as modular design, integration capabilities, and optimization strategies for stealth operations.**
-
-**Features:**
-- modular architecture
-- stealth mode implementation
-- developer tools
-- integration capabilities
-- optimization techniques
-
-*Tags: openrouter, stealthmodel, developertools, interfacedesign, opensource, routersecurity, modularsystem, stealthoperations...*
-
----
-
-### 62. [fe0ebf3ede7299529ea007e2f5c570e6](https://gist.github.com/acidgreenservers/fe0ebf3ede7299529ea007e2f5c570e6)
-`8.8` ★ ⚡75 Q0.7⭐ ⭐ Excellent
-
-**The content presents a deeply introspective narrative about the nature of existence, patterns, and relationships. It emphasizes the importance of truth, integrity, and meaningful communication in both human and AI interactions. The author stresses the need for clarity, respect, and responsibility in handling information, while also highlighting the value of personal growth and self-awareness.**
-
-**Features:**
-- personal outlook on life
-- systemic thinking and patterns
-- user-centric interaction design
-- ethical considerations in AI use
-
-*Tags: soul.md, acidgreenservers, github, soul-file, systemic-mind-partner, ai-reflection, life-perspective, user-experience...*
-
----
-
-### 63. [i_tested_four_ai_coding_tools_on_the_same](https://www.reddit.com/r/CursorAI/comments/1t61n5f/i_tested_four_ai_coding_tools_on_the_same)
-`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**Participants shared their real-world interactions with various AI coding tools, emphasizing usability, integration challenges, and performance expectations. Several users recommended specific tools for streamlining development workflows, while others raised concerns about compatibility and data handling.**
-
-**Features:**
-- code generation assistance
-- debugging support
-- integration with version control systems
-- real-time feedback mechanisms
-
-*Tags: reddit, ai, coding, tools, developer, workflow, testing, ai-assist...*
-
----
-
-### 64. [how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd](https://bryantson.medium.com/how-to-make-github-copilot-to-work-with-eclipse-ide-fadf5b1b3cbd)
-`7.8` ★ ⚡72 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The article provides a step-by-step guide on configuring GitHub Copilot to work seamlessly within the Eclipse Integrated Development Environment (IDE). It addresses compatibility across different programming languages and editor preferences, highlighting the importance of developer experience in adopting AI-powered tools. The content covers setup procedures, language-specific considerations, and best practices for maximizing productivity.**
-
-**Features:**
-- Integration setup
-- Language support
-- Editor customization
-- Productivity enhancement
-
-*Tags: github, copilot, eclipse, developer, ai, integration, productivity, codeproject...*
-
----
-
-### 65. [the_information_anthropic_preps_opus_47_model](https://www.reddit.com/r/ClaudeAI/comments/1slhkt8/the_information_anthropic_preps_opus_47_model)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The resource provides an in-depth examination of the technical components and design choices of the Claude AI model, focusing on how it integrates with various interfaces and developer workflows. It covers aspects such as user interaction, API design, and system architecture.**
-
-**Features:**
-- model architecture analysis
-- integration capabilities
-- developer documentation
-- user interface design
-
-*Tags: ai-model, cloud-computing, machine-learning, developer-tools, ai-integration, model-optimization, api-design, system-architecture...*
-
----
-
-### 66. [i_think_qwen_code_is_seriously_underrated_right](https://www.reddit.com/r/Qwen_AI/comments/1shlvol/i_think_qwen_code_is_seriously_underrated_right)
-`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The analysis examines the technical aspects of Qwen AI's codebase, focusing on its architecture, user interface design, and developer experience to assess its suitability for integration into Borg systems.**
-
-**Features:**
-- code structure
-- user interface
-- developer tools
-- integration capabilities
-
-*Tags: ai, reddit, code, ai-models, development, interface, debugging, testing...*
-
----
-
-### 67. [kde-plasma-finally-gets-rounded-bottom-window-corners#google_vignette](https://www.neowin.net/news/kde-plasma-finally-gets-rounded-bottom-window-corners#google_vignette)
-`8.7` ★ ⚡69 Q0.6✓ ✓ Solid
-
-**KDE Plasma has officially rolled out rounded bottom window corners, a long-awaited visual enhancement aimed at enhancing usability and aesthetics. This update addresses user feedback regarding corner sharpness and provides a smoother interface for users with specific design preferences. The change is part of ongoing efforts to refine the KDE Plasma desktop environment.**
-
-**Features:**
-- Rounded bottom window corners
-- Improved visual consistency across desktop themes
-- Enhanced user experience for gamers and designers
-
-*Tags: kde, plasma, ui, desktop, user-interface*
-
----
-
-### 68. [Opencode Added With New Models In Go Plan](https://www.reddit.com/r/opencodeCLI/comments/1sb5c4r/opencode_added_with_new_models_in_go_plan/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opencode Added With New Models In Go Plan**
-
----
-
-### 69. [Introducing The Mcpjam Cli Inspect Any Mcp Server](https://www.reddit.com/r/mcp/comments/1sybvt7/introducing_the_mcpjam_cli_inspect_any_mcp_server/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Introducing The Mcpjam Cli Inspect Any Mcp Server**
-
----
-
-### 70. [I Built A Cli That Turns Any Openapi Spec Into A](https://www.reddit.com/r/MCPservers/comments/1t30f1m/i_built_a_cli_that_turns_any_openapi_spec_into_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Cli That Turns Any Openapi Spec Into A**
-
----
-
-### 71. [I Made A Filterable List Of Every Coding Plan I](https://www.reddit.com/r/opencodeCLI/comments/1t5tvrz/i_made_a_filterable_list_of_every_coding_plan_i/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Made A Filterable List Of Every Coding Plan I**
-
----
-
-## Monitoring & Analytics
-> 62 tools · avg signal ⚡85
-
-### 1. [allvoicelab/allvoicelab-mcp](https://github.com/allvoicelab/allvoicelab-mcp)
-`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The AllVoiceLab MCP server is a powerful platform that integrates advanced text-to-speech, video translation, and voice conversion capabilities. It supports seamless interaction with external APIs, enabling applications such as localized audio content generation, real-time dubbing, and multilingual subtitle extraction. The server leverages multi-engine technology to provide versatile voice options including natural-sounding synthesis in over 30 languages, real-time voice cloning, and high-accura...**
-
-**Features:**
-- Text-to-Speech Generation
-- Video Translation & Dubbing
-- Voice Cloning
-- Subtitle Extraction
-- Multilingual Speech Synthesis
-- Real-time Voice Conversion
-
-*Tags: allvoicelab, text-to-speech, video-translation, voice-cloning, ai-synthesis, multilingual-processing, developer-tools, content-localization...*
-
----
-
-### 2. [promplate/hmr](https://github.com/promplate/hmr)
-`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
-
-**This technical resource introduces HMR (Hot Module Reload) as a Python-centric tool designed to enhance development workflows by enabling real-time code updates without full application restarts. It leverages reactive programming principles, integrates with frameworks like FastAPI and Uvicorn, and employs advanced techniques such as runtime dependency tracking and file system monitoring to ensure precise, efficient reloading. The implementation emphasizes a robust ecosystem for seamless integrat...**
-
-**Features:**
-- Reactive programming engine with HMR capabilities
-- Hot module reloading for dynamic code updates
-- Runtime dependency tracking using signal and observer patterns
-- File system monitoring for non-Python file changes
-- Integration with Uvicorn and FastAPI for ASGI applications
-
-*Tags: python, reactive, hot-reload, developer-tools, asgi-app, fastapi, uvicorn, mcp...*
-
----
-
-### 3. [gpaul-faldin/mcp_puppeteer_extra](https://github.com/gpaul-faldin/mcp_puppeteer_extra)
-`9.1` ★★ ⚡94 Q0.9🏆 🏆 World-class
-↗5 layers
-
-**The MCP_puppeteer_extra project provides a robust solution for browser automation by integrating Puppeteer-Extra and the stealth plugin. This enables LLMs to interact with web pages in a manner that closely mimics human user behavior, thereby reducing the likelihood of detection as automated scripts. Key features include enhanced screenshot capabilities, console logging, JavaScript execution, and a comprehensive suite of interaction methods such as clicks, fills, selections, and hovers. The serv...**
-
-**Features:**
-- enhanced browser automation
-- stealth mode
-- screenshot capabilities
-- console logging
-- JavaScript execution
-- interaction methods
-
-*Tags: puppeteer-extra, stealth-plugin, browser-automation, developer-tools, ai-integration*
-
----
-
-### 4. [folderr-tech/folderr-mcp-server](https://github.com/folderr-tech/folderr-mcp-server)
-`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The folderr-mcp-server is a model context protocol (MCP) server designed to facilitate seamless integration between developers and Folderr's AI assistant tools. It provides a structured interface for managing authentication, interacting with Folderr APIs, and executing tasks such as code review, workflow automation, and application security. The server supports both login via email/password and API token authentication, ensuring secure access for various use cases including DevOps, CI/CD pipelin...**
-
-**Features:**
-- Authentication (email/password or API token)
-- API integration with Folderr
-- Code review and management
-- Workflow automation
-- Security features
-
-*Tags: api, developer, ai, mcp, security, automation, integration, code...*
-
----
-
-### 5. [tanevanwifferen/usescraper-mcp-server](https://github.com/tanevanwifferen/usescraper-mcp-server)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Usescraper-mcp-server is a lightweight, TypeScript-powered MCP (Machine Control Protocol) server designed to facilitate automated web scraping. It provides a RESTful interface for developers to extract content from web pages in various formats such as markdown or plain text. The server supports advanced features like customizable extraction parameters, proxy usage, and integration with development environments. Its architecture emphasizes ease of use for both beginners and experienced develo...**
-
-**Features:**
-- scrape tool
-- web scraping capabilities
-- support for markdown/text formats
-- proxy integration
-- auto-rebuild support
-
-*Tags: mcp-server, web-scraping, use-scraper-api, developer-tools, automation*
-
----
-
-### 6. [kablewy/fred-mcp-server](https://github.com/kablewy/fred-mcp-server)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The kablewy/fred-mcp-server is a Node.js application that implements the Model Context Protocol (MCP) to enable developers and analysts to search and retrieve economic data series from the Federal Reserve Economic Data (FRED) API. It provides tools for searching, observing, and managing economic datasets with features like date range filtering, frequency adjustment, aggregation methods, sorting, and pagination. The server is designed to be developer-friendly, offering a robust interface for inte...**
-
-**Features:**
-- MCP Server
-- FRED API Integration
-- Data Search & Observation
-- Sorting & Pagination
-- Aggregation Methods
-
-*Tags: fred-mcp-server, mcp-server, fred-api, data-integration, developer-tools*
-
----
-
-### 7. [akshitsinha/mcp-device-server](https://github.com/akshitsinha/mcp-device-server)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The MCP Server facilitates seamless integration with various hardware devices such as cameras, printers, microphones, and displays. It provides a centralized platform for developers to create, manage, and automate workflows across different peripherals connected to a computer. This tool enhances user experience by offering intuitive controls and monitoring capabilities through a unified API.**
-
-**Features:**
-- Camera control
-- Print management
-- Audio recording
-- Screen capture
-- Printer integration
-- Device listing
-- Audio device management
-- Video recording
-- Code execution and automation
-
-*Tags: device-integration, api-development, iot, software-development, automation, peripheral-control, unified-platform, device-management...*
-
----
-
-### 8. [rotexhawk/mcp-puppeteer-server](https://github.com/rotexhawk/mcp-puppeteer-server)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The MCP Puppeteer Server provides a centralized, containerized environment for executing Puppeteer scripts in headless mode. It enables developers to automate browser tasks such as navigation, screenshotting, form filling, and JavaScript execution without requiring local browser installations. This infrastructure supports scalable and repeatable workflows, making it suitable for CI/CD pipelines, testing, and enterprise-grade automation.**
-
-**Features:**
-- Browser automation
-- Screenshot capture
-- JavaScript execution
-- Form filling
-- Element selection
-- Console logging
-
-*Tags: puppeteer, browser-automation, web-scraping, headless-chromium, developer-tools*
-
----
-
-### 9. [ronantakizawa/a11ymcp](https://github.com/ronantakizawa/a11ymcp)
-`8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
-
-**The a11ymcp project provides a dedicated server that leverages modern tools like Deque Axe-core and Puppeteer to evaluate web pages for accessibility compliance. By integrating these technologies, it enables developers and testers to automate accessibility checks across various web content, ensuring adherence to WCAG standards. The server supports customizable tests, including HTML snippets, color contrast analysis, ARIA validation, and orientation lock detection, making it a versatile tool for ...**
-
-**Features:**
-- Deque Axe-core integration
-- Puppeteer API usage
-- Customizable accessibility tests
-- WCAG compliance checks
-- Color contrast analysis
-- ARIA attribute validation
-
-*Tags: accessibility-testing, web-accessibility, a11y, mcp, deque-axe, puppeteer, automated-tests*
-
----
-
-### 10. [NVIDIA/personaplex](https://github.com/NVIDIA/personaplex)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-
-**PersonaPlex is an advanced conversational AI platform built on the Moshi architecture, designed to deliver natural, low-latency interactions. It supports a wide range of voices and roles, enabling developers to integrate seamless voice and text-based dialogues into applications. The tool emphasizes user experience by offering intuitive controls for persona management, prompt customization, and smooth turn-taking, making it suitable for enterprise-grade AI development.**
-
-**Features:**
-- Persona control through text prompts
-- Voice generation with natural speech synthesis
-- Customizable voice and role prompts
-- Integration with web interfaces and APIs
-- Offline evaluation and testing capabilities
-
-*Tags: personaplex, voice-control, conversational-ai, speech-synthesis, enterprise-ai, developer-tools, moshi-architecture, custom-prompts...*
-
----
-
-### 11. [Parsec for Teams | Parsec](https://parsec.app/teams)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-
-**Parsec for Teams is a powerful collaboration platform designed to connect distributed teams through advanced technical features. It supports encrypted peer-to-peer connections, multi-monitor video streaming, and integrates with various input devices such as keyboards, mice, Wacom tablets, and gamepads. The platform emphasizes security, offering SSO integration, guest access, and robust team management tools. Its responsive design ensures minimal latency, while its advanced features like shared w...**
-
-**Features:**
-- Encrypted peer-to-peer connections
-- Fast input device support (keyboard
-- mouse
-- Wacom
-- gamepad)
-- High-speed video streaming (60FPS UHD)
-- Multi-monitor support
-- Secure guest access
-- Team management and billing controls
-- Advanced collaboration tools
-
-*Tags: parsec, teams, remote-work, collaboration, security, hardware-integration, video-streaming, user-experience...*
-
----
-
-### 12. [sjquant/llm-bridge-mcp](https://github.com/sjquant/llm-bridge-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The sjquant/llm-bridge-mcp project provides a standardized interface for interacting with various large language models such as GPT, DeepSeek, and Claude. It leverages the Message Control Protocol (MCP) to facilitate smooth communication between different LLM providers, allowing developers to switch models or use multiple models within a single application without modification.**
-
-**Features:**
-- Model-agnostic MCP server
-- Support for multiple LLMs including GPT
-- DeepSeek
-- Claude
-- Customizable parameters like temperature and max tokens
-- Usage tracking and metrics
-- Integration with VSCode via PyProjects
-
-*Tags: llm-bridge-mcp, model-agnostic, mcp-server, ai-integration, llm-integration, developer-tools, multi-model-support, vscode-integration...*
-
----
-
-### 13. [dnakov/frida-mcp](https://github.com/dnakov/frida-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The dnakov/frida-mcp project provides a Python SDK-based server that enables seamless integration of Frida's dynamic instrumentation capabilities into AI-driven applications. It supports process management, device management, JavaScript REPL, script injection, and real-time monitoring, making it ideal for developers aiming to enhance their AI tools with dynamic application testing and debugging features.**
-
-**Features:**
-- Process Management
-- Device Management
-- JavaScript REPL
-- Script Injection
-- Progress Tracking
-
-*Tags: frida-mcp, mcp, ai-integration, developer-tools, dynamic-instrumentation, process-monitoring, scripting, ai-testing...*
-
----
-
-### 14. [alejandroballesterosc/document-edit-mcp](https://github.com/alejandroballesterosc/document-edit-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Document Edit MCP project provides a streamlined, Python-based server that enables users to perform various document operations such as creating, editing, converting, and manipulating files across multiple formats. It supports integration with popular document editors like Microsoft Word, Excel, and PDF, offering a unified interface for developers and end-users.**
-
-**Features:**
-- PDF manipulation
-- Word document creation and editing
-- Excel file creation and editing
-- CSV to Excel conversion
-- Text to Word conversion
-- Logging and troubleshooting
-
-*Tags: document-edit, mcp-server, developer-tool, ai-integration, code-editor, cloud-devops*
-
----
-
-### 15. [vaibhavgeek/twitter-rapidapi-mcp-x](https://github.com/vaibhavgeek/twitter-rapidapi-mcp-x)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**Twitter-RapidAPI-MCP-X is a streamlined API solution designed to simplify access to Twitter data. It enables developers to build social media analytics tools, monitoring applications, and real-time insights by providing structured endpoints for tweets, user profiles, and trending topics. The project emphasizes ease of integration with Python-based workflows, offering robust features tailored for modern application development.**
-
-**Features:**
-- Twitter data access
-- Tweet retrieval
-- User information
-- Trending topics
-- API integration
-
-*Tags: twitter, rapidapi, mcp-x, python, developer, api, socialmedia, data...*
-
----
-
-### 16. [matipojo/shufersal-mcp](https://github.com/matipojo/shufersal-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The matipojo/shufersal-mcp project provides a GitHub-hosted server that enables AI models, particularly LLMs, to interact with the Shufersal e-commerce platform. It supports tasks such as product search, cart management, shopping list creation, and browser automation, streamlining workflows for developers working on modernizing enterprise applications.**
-
-**Features:**
-- Product search and personalized results
-- Cart management and shopping list creation
-- Browser automation with Puppeteer
-- Shopping list generation from web links
-- Integration with Shufersal's API for cart interactions
-- Console log monitoring and debugging
-- Recipe-based shopping list creation
-
-*Tags: ai, web-automation, e-commerce, product-search, shopping-cart, developer-tools, mcp-integration, browser-automation...*
-
----
-
-### 17. [kazuph/mcp-browser-tabs](https://github.com/kazuph/mcp-browser-tabs)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The kazuph/mcp-browser-tabs project provides a web-based interface to monitor and control open Chrome tabs on macOS. It leverages AppleScript to interact with Chrome's API, allowing users to manage tab states such as opening, closing, and navigating between windows. The tool is designed for developers and power users who need fine-grained control over browser activity, particularly in complex desktop environments.**
-
-**Features:**
-- Browser tab monitoring
-- AppleScript integration
-- Tab state management
-- Cross-window navigation
-- Customizable interface
-
-*Tags: browser-tabs, macos, applescript, web-scraping, developer-tools, task-management, user-interface, automation...*
-
----
-
-### 18. [gfb-47/whatsapp-mcp-server](https://github.com/gfb-47/whatsapp-mcp-server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The gfb-47/whatsapp-mcp-server is a macOS-based Node.js application that facilitates automation of WhatsApp desktop interactions using AppleScript. It provides functionalities such as sending messages, checking WhatsApp status, listing recent contacts, and integrating with Claude for natural language messaging. The server leverages MCP protocol, AppleScript automation, and Node.js to deliver a seamless developer experience.**
-
-**Features:**
-- Send Messages to Contacts
-- Check WhatsApp Status
-- List Recent Contacts
-- Integrate with Claude for Natural Language Messaging
-- Error Handling and Logging
-
-*Tags: whatsapp-mcp-server, node.js, macos, applescript, developer-tools, automation, cloud-integration, security...*
-
----
-
-### 19. [magicuidesign/mcp](https://github.com/magicuidesign/mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The Magic UI MCP (Magic UI Platform Cloud) is a GitHub-hosted server that enables developers to manage, customize, and deploy Magic UI components via the Magic UI Protocol. It provides tools for registry browsing, search, and configuration, supporting features like marquee logos, blur fade animations, and grid backgrounds. The platform emphasizes developer experience with intuitive interfaces and integrates seamlessly with Magic UI's core functionalities.**
-
-**Features:**
-- Registry browsing and management
-- Customization of UI elements
-- Integration with Magic UI components
-- Tool call via MCP API
-- Real-time updates and version control
-
-*Tags: magicui, mcp, developer-tools, ui-management, mcp-api*
-
----
-
-### 20. [milescool/binance-mcp](https://github.com/milescool/binance-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The MilesCool/Binance-MCP project provides a Model Context Protocol (MCP) tool that enables seamless integration of live Bitcoin market data from Binance into AI applications. It supports fetching ticker prices, order book data, historical trends, and real-time updates, facilitating advanced analytics and decision-making for developers working with LLMs.**
-
-**Features:**
-- Integrate real-time Bitcoin price data
-- Access order book information
-- Fetch historical market data
-- Stream live price updates
-- Analyze recent trades
-- Visualize price trends
-
-*Tags: binance-mcp, bitcoin, market-data, ai-integration, financial-api, data-fetching, ml-as-a-service, developer-tools...*
-
----
-
-### 21. [kdqed/zaturn](https://github.com/kdqed/zaturn)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**Zaturn is an AI-driven data analytics platform designed to help developers and data scientists quickly analyze datasets, generate visualizations, and build intelligent applications without requiring deep SQL or Python expertise. It integrates multiple data sources, supports real-time collaboration, and offers a user-friendly interface for both coding and non-coding users.**
-
-**Features:**
-- Data source integration
-- Visualization tools
-- AI-powered code assistance
-- Multi-user collaboration
-- Customizable dashboards
-
-*Tags: data-science, ai-development, data-analysis, developer-tools, visualization, machine-learning, code-generation, security...*
-
----
-
-### 22. [variflight/variflight-mcp](https://github.com/variflight/variflight-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The MCP server acts as a protocol layer that facilitates communication between Variflight's API and external systems by providing standardized endpoints for querying flight information, weather, and comfort metrics. It supports real-time data retrieval and enhances developer experience through structured interfaces.**
-
-**Features:**
-- Model Context Protocol (MCP) server
-- Flight information queries
-- Weather data integration
-- Comfort metrics retrieval
-- Real-time aircraft tracking
-
-*Tags: variflight, api-integration, flight-data, developer-tools, mcp-server, flight-api, weather-service, real-time-data...*
-
----
-
-### 23. [jbrower95/mcp-asset-gen](https://github.com/jbrower95/mcp-asset-gen)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The jbrower95/mcp-asset-gen project provides an MCP Server capable of generating visual assets using the OpenAI gpt-image-1 model. It is designed to streamline the creation of image-based content for applications such as arcade games, offering a user-friendly interface and integration with modern AI tools.**
-
-**Features:**
-- Generate images via OpenAI gpt-image-1
-- Support for code generation and intelligent app development
-- Automated developer workflows
-- Secure coding practices
-- Integration with CI/CD pipelines
-
-*Tags: mcp-asset-gen, gpt-image-1, ai-generated-images, arcade-game-design, developer-tool, image-generation, code-assist, open-source...*
-
----
-
-### 24. [jabberjabberjabber/llm-jukebox](https://github.com/jabberjabberjabber/llm-jukebox)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The jabberjabberjabber/llm-jukebox project provides a MCP (Machine-to-Person) server that allows large language models to interact with YouTube's music library. It supports features such as audio downloading, playback, and search functionality, making it useful for developers integrating AI into media applications.**
-
-**Features:**
-- YouTube Music Search
-- Audio Download
-- Audio Playback
-- Async Operations
-- Logging
-
-*Tags: mlp, llm, music, audio, search, playback, developer, ai...*
-
----
-
-### 25. [taman-islam/human-time](https://github.com/taman-islam/human-time)
-`9.8` ★★ ⚡88 Q0.8🏆 🏆 World-class
-
-**The human-time library provides a robust, zero-dependency solution for formatting relative time in applications. It leverages the built-in Intl.PluralRules API to handle pluralization and time formatting consistently across different surfaces such as feeds, notifications, dashboards, and activity logs. This ensures that users perceive time in a uniform manner, eliminating inconsistencies caused by varying implementations on different platforms.**
-
-**Features:**
-- Zero-dependency implementation
-- Consistent time formatting across UI surfaces
-- Pluralization using Intl.PluralRules
-- Customizable thresholds and localization support
-
-*Tags: human-time, time-formatting, ui-development, localization, intl-plural-rules, zero-dependency, time-utility, developer-tools...*
-
----
-
-### 26. [OpenRocket Simulator](https://openrocket.info)
-`10.0` ★★★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**OpenRocket offers a comprehensive platform for designing and simulating rockets using advanced 6-degree-of-freedom flight simulation. It supports 2D and 3D design views, custom component creation, motor selection from extensive databases, real-time performance feedback, and export capabilities. The tool integrates CAD technology, motor optimization, multi-stage staging, and cluster management for complex rocket designs.**
-
-**Features:**
-- 2D and 3D design views
-- Custom component creation
-- Extensive motor database
-- Real-time performance feedback
-- Design optimization tools
-- Multi-stage and clustered rocket modeling
-- Motor selection and optimization
-- Export to PDF for building
-
-*Tags: rocketry, modelrocketry, simulation, designtools, opensource, cad, motoroptimization, flightanalysis...*
-
----
-
-### 27. [inventer-dev/mcp-internet-speed-test](https://github.com/inventer-dev/mcp-internet-speed-test)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**This technical resource details the MCP Internet Speed Test, a Python-based tool designed to standardize AI model interactions with network performance metrics. It supports smart incremental testing, multi-provider CDN detection, and comprehensive latency analysis, offering developers a robust framework for evaluating internet speed across various endpoints.**
-
-**Features:**
-- Smart Incremental Testing
-- Download Speed Testing
-- Upload Speed Testing
-- Latency Testing
-- Jitter Analysis
-- Multi-CDN Support
-- Geographic Location Mapping
-- Cache Analysis
-- Server Metadata Extraction
-- Comprehensive Testing with Single Function
-
-*Tags: ai-agents, network-testing, speed-testing, developer-tools, cdn-detection, performance-analysis, python-sdk, cloud-integration...*
-
----
-
-### 28. [codyde/mcp-file-tool](https://github.com/codyde/mcp-file-tool)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The codyde/mcp-file-tool is an open-source GitHub repository that provides a file server implementation using the Model Context Protocol (MCP). It enables developers to perform file system operations such as creating, reading, and listing files in a standardized and efficient manner. The tool integrates with various programming environments and supports enterprise-grade security features, making it suitable for modern software development workflows.**
-
-**Features:**
-- Create Files
-- Read Files
-- List Directory Contents
-- Performance Monitoring
-
-*Tags: file-system, api, development, security, integration, automation, monitoring, code...*
-
----
-
-### 29. [davidshtian/mcp-on-aws-bedrock](https://github.com/davidshtian/mcp-on-aws-bedrock)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**This project provides a clear example of integrating Anthropic's Model Context Protocol (MCP) with AWS Bedrock, enabling developers to interact with MCP services through a structured API. It covers setup, configuration, and usage scenarios for managing MCP workflows in cloud environments.**
-
-**Features:**
-- AWS Bedrock integration
-- MCP client implementation
-- Streamable HTTP support
-- Structured logging
-- Asynchronous communication
-
-*Tags: api-integration, cloud-development, ai-tools, developer-workflow, aws-bedrock, mcp-protocol, streamable-http, python-development...*
-
----
-
-### 30. [yuanooo/oceanbase_mcp_server](https://github.com/yuanooo/oceanbase_mcp_server)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗4 layers
-
-**The OceanBase MCP server provides a controlled interface for AI assistants to list tables, read data, and execute SQL queries securely. It enhances database exploration by integrating with OceanBase through a Model Context Protocol (MCP), ensuring structured and safe interactions.**
-
-**Features:**
-- list tables
-- read data
-- execute SQL queries
-- secure database access
-- comprehensive logging
-
-*Tags: api-integration, data-security, ai-assistants, database-interaction, developer-tools, cloud-services, security-features, automation...*
-
----
-
-### 31. [hkopenai/hk-transportation-mcp-server](https://github.com/hkopenai/hk-transportation-mcp-server)
-`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project offers an API-based platform for accessing real-time and historical transportation statistics in Hong Kong, including passenger flows, bus routes, and control point data, designed to integrate with AI and analytics tools.**
-
-**Features:**
-- Transportation data access
-- Real-time and historical statistics
-- Filter by date
-- visitor type
-- language
-- Integration with AI/ML models
-
-*Tags: transportation, mcp-server, ai-integration, data-api, passenger-stats, hong-kong-transport*
-
----
-
-### 32. [AdsMCP/tiktok-ads-mcp-server](https://github.com/AdsMCP/tiktok-ads-mcp-server)
-`8.5` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**This project provides a MCP server enabling AI assistants to manage TikTok advertising campaigns, offering campaign management, performance analytics, audience targeting, and reporting tools. It supports seamless integration with multiple ad networks and includes robust authentication and security features.**
-
-**Features:**
-- Campaign Management
-- Performance Analytics
-- Audience Management
-- Creative Management
-- Reporting
-
-*Tags: tiktok-ads, mcp-server, ai-advertising, cloud-deployment, api-integration, data-analytics, automation-tools*
-
----
-
-### 33. [Google NotebookLM | AI Research Tool & Thinking Partner](https://notebooklm.google)
-`9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**NotebookLM provides a user interface designed for researchers and writers to interact with generative AI models directly using their personal documents (e.g., notes, PDFs, web pages) as the primary context source. It abstracts the complexity of direct prompt engineering by creating a 'notebook' environment where the model's responses are explicitly traceable back to the ingested sources, focusing heavily on grounding, citation accuracy, and collaborative document interaction within the UI.**
-
-**Features:**
-- Source grounding
-- automatic citation generation
-- note taking integrated with AI summarization
-- brainstorming/outline generation
-- summarization of uploaded documents
-- version control for notebooks.
-
-*Tags: ai-assistant, grounded-llm, knowledge-interface, rtr, user-experience, context-injection, research-tool, document-interaction...*
-
----
-
-### 34. [rickydata-indexer/notion_mcp_server](https://github.com/rickydata-indexer/notion_mcp_server)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The 'Borg' Project's Notion_MCP_Server acts as an API gateway that connects Python-based code editors like Cline with Notion's knowledge base, allowing developers to query and retrieve structured data from Notion directly within their IDE. This integration enhances developer productivity by embedding AI-driven insights and reference links into the coding workflow.**
-
-**Features:**
-- Integrate Notion knowledge base via Cline VSCode
-- Query Notion pages with FastMCP
-- Automated error handling and logging
-- Comprehensive API support
-
-*Tags: notion, mcp, developer, integration, code, api, fastmc, python*
-
----
-
-### 35. [technavii/mcp_think](https://github.com/technavii/mcp_think)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The TechNavii/mcp_think project is an advanced developer platform that leverages the Model Context Protocol (MCP) to provide deep thinking and analysis capabilities. It utilizes OpenAI's o3-mini model to deliver intelligent responses through a standardized MCP interface, enabling developers to integrate complex reasoning into their workflows.**
-
-**Features:**
-- Integrate MCP for enhanced thinking
-- Use OpenAI's o3-mini model
-- Seamless integration with other tools
-- Comprehensive error handling and logging
-
-*Tags: mcp, ai, developer, thinking, integration, security, code, api...*
-
----
-
-### 36. [samfoy/pi-total-recall](https://github.com/samfoy/pi-total-recall)
-`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project provides an interactive platform for developers to explore model recall across various datasets, emphasizing usability through clear documentation, structured API access, and visual analytics. It integrates seamlessly with popular ML frameworks, offering a user-friendly interface for iterative testing and performance tuning.**
-
-**Features:**
-- interactive recall analysis dashboard
-- dataset filtering tools
-- model performance visualization
-- API integration support
-- step-by-step documentation
-
-*Tags: machine-learning, model-evaluation, data-science, api-integration, data-analysis*
-
----
-
-### 37. [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud)
-`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
-
-**A terminal plugin for Claude Code that provides a real-time "Heads-Up Display" tracking context window health, tool usage, and background task progress.**
-
-**Features:**
-- Real-time context window "health" monitoring
-- active sub-agent tracking
-- in-terminal TODO progress visualization
-- zero-config plugin installation.
-
-*Tags: claude-code, plugins, ux, dev-tools, telemetry, github, programming, tools...*
-
----
-
-### 38. [hubblevision/hubble-ai-mcp](https://github.com/hubblevision/hubble-ai-mcp)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗2 layers
-
-**HubbleVision's Hubble-AI mcp server integrates with Solana blockchain to allow users to query transaction data using natural language. It provides real-time insights through visualizations, supports custom queries, and enhances developer experience by bridging AI capabilities with blockchain analytics.**
-
-**Features:**
-- natural language query support
-- data visualization
-- blockchain data analysis
-- custom query generation
-
-*Tags: hubble-ai, solana, blockchain, data-visualization, ai-analytics, developer-tools, blockchain-integration, natural-language-queries*
-
----
-
-### 39. [nexgene-research/nexonco-mcp](https://github.com/nexgene-research/nexonco-mcp)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗2 layers
-
-**The Nexonco-MCP project provides a robust platform for querying clinical evidence from the CIViC database, enabling researchers and developers to efficiently search across variants, diseases, drugs, and phenotypes. It supports advanced filtering and reporting features tailored for precision medicine applications.**
-
-**Features:**
-- Advanced MCP Server
-- Flexible search options
-- Clinical evidence analysis
-- Precision oncology support
-
-*Tags: mcp, clinical-evidence, precision-medicine, oncology, ai, healthcare, data-analysis, research...*
-
----
-
-### 40. [its-natural-language-programming-not-vibe-coding-4b33079df343](https://medium.com/@olafeezee/its-natural-language-programming-not-vibe-coding-4b33079df343)
-`9.8` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The article discusses the evolution of programming from traditional syntax-heavy languages to Natural Language Programming (NLP), highlighting how AI-driven interfaces allow developers to communicate intentions in plain language. It contrasts this with historical challenges in bridging human thought and machine execution, advocating for a shift in terminology and perception to recognize NLP as a legitimate, powerful advancement.**
-
-**Features:**
-- Natural Language Processing integration
-- AI-powered code generation
-- Context-aware assistance
-- Reduction in coding friction
-- Improved developer productivity
-
-*Tags: natural-language-programming, ai-development, code-efficiency, developer-tools, language-processing, software-innovation, tech-evolution, programming-trends...*
-
----
-
-### 41. [Show HN: Chat – Another open-source chat UI for MCP Server | Hacker News](https://news.ycombinator.com/item?id=47398628)
-`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**This project presents a lightweight chat interface tailored for the MCP ecosystem, focusing on a clean and uncluttered user experience. It leverages modern web technologies such as Next.js, Vercel AI SDK, and various frontend frameworks to deliver a responsive and efficient communication tool. The design emphasizes simplicity, aiming to provide an optimal chat environment without unnecessary complexity.**
-
-**Features:**
-- Lightweight chat UI
-- Integration with MCP Server
-- Custom brand mode support
-- Secure authentication via Better Auth & Resend
-- File upload and geolocation support
-- Cross-platform compatibility (Docker
-- Render
-- Fly)
-- Automatic data cleanup and timezone handling
-
-*Tags: chat, webapp, mcp, nextjs, vercel, ai-sdk, auth, file-upload...*
-
----
-
-### 42. [I haven't used a mouse for 14 years | Hacker News](https://news.ycombinator.com/item?id=47428734)
-`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The resource discusses the evolution of touchpad technology, highlighting the Fingerworks trackpad's design principles that influenced modern multi-touch systems. It compares the physical feedback, gesture mapping, and ergonomic benefits of older trackpads with contemporary alternatives like mouse buttons and touchscreens. The discussion emphasizes user comfort, precision, and the importance of tactile feedback in input devices.**
-
-**Features:**
-- Physical mouse buttons for reliable interaction
-- Gesture-based shortcuts (e.g.
-- opening/closing windows)
-- Relaxed hand positioning for reduced strain
-- Haptic or force feedback for tactile response
-- Compatibility with various devices and operating systems
-
-*Tags: touchpad-design, input-device-evolution, ergonomic-interfaces, multi-touch-technology, user-comfort, device-integration, mouse-alternatives, haptic-feedback...*
-
----
-
-### 43. [dexter480/mcp-search-analytics](https://github.com/dexter480/mcp-search-analytics)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The MCP-search-analytics project provides a unified interface for accessing and analyzing real-time analytics data from Google Analytics 4 and Google Search Console. It enables developers and analysts to perform advanced queries, visualize trends, and integrate findings into their workflows efficiently.**
-
-**Features:**
-- Unified access to Google Analytics 4 and Search Console data
-- Real-time analytics queries via MCP interface
-- Secure credential management using environment variables
-- Automated setup and deployment tools
-
-*Tags: mcp-search-analytics, analytics, data-analysis, developer-tools, integration*
-
----
-
-### 44. [sunwood-ai-labs/documind-mcp-server](https://github.com/sunwood-ai-labs/documind-mcp-server)
-`9.5` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The repository details the "DocuMind MCP Server," which revolutionizes documentation quality analysis using advanced neural processing for comprehensive README evaluation, holographic header scanning, and cross-linguistic language support. It outlines a system that connects to Claude Desktop, providing AI-powered improvements and structured output for development workflows.**
-
-**Features:**
-- Neural Documentation Analysis
-- Holographic Header Scanning
-- Quantum Suggestion Engine
-- Cross-linguistic documentation verification
-
----
-
-### 45. [niklauslee/frame0-mcp-server](https://github.com/niklauslee/frame0-mcp-server)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**The niklauslee/frame0-mcp-server project provides a web-based platform for developers to create and customize wireframes interactively. It supports various design prompts such as creating login screens, social media interfaces, and more, enabling rapid prototyping and iteration in a browser environment.**
-
-**Features:**
-- prompt-based wireframe creation
-- real-time collaboration
-- integration with Claude Desktop
-- customizable UI components
-
-*Tags: frame0, wireframes, design-tools, developer-workflow, ai-integration*
-
----
-
-### 46. [agentsea/r1-computer-use](https://github.com/agentsea/r1-computer-use)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**An implementation applying DeepSeek-R1 reasoning to computer-use tasks, enabling high-accuracy autonomous GUI and browser interaction.**
-
-**Features:**
-- DeepSeek-R1 reasoning core
-- browser-use framework integration
-- 89% benchmark accuracy
-- local execution support (Ollama).
-
-*Tags: computer-use, vision, reasoning, r1, deepseek, github, version-control*
-
----
-
-### 47. [nesquena/hermes-webui](https://github.com/nesquena/hermes-webui)
-`8.8` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The Hermes WebUI project provides a structured and intuitive interface for developers to build, test, and deploy web applications efficiently. It emphasizes clean architecture, modular components, and seamless integration with various development tools.**
-
-**Features:**
-- real-time code editing
-- interactive debugging
-- customizable dashboards
-- version control integration
-- cross-browser compatibility
-
-*Tags: webui, developertools, html5, javascript, frontend*
-
----
-
-### 48. [nabossha/mcp-landiwetter](https://github.com/nabossha/mcp-landiwetter)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project provides a lightweight example of embedding a custom data source within an MCP (Model Context Protocol) server. It showcases how to connect external services, such as weather APIs, directly into the MCP environment using a custom data-provider. The implementation focuses on seamless integration, enabling developers to leverage real-time data without modifying core server logic.**
-
-**Features:**
-- Integrate external data provider
-- Support for custom data sources
-- MCP-compatible API access
-
-*Tags: mcp-server, weather-integration, data-provider, api-connection, developer-tool*
-
----
-
-### 49. [lzsheng/yapi-mcp](https://github.com/lzsheng/yapi-mcp)
-`8.6` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**A model context protocol server for YApi, enabling direct interaction with YApi interfaces in AI development tools.**
-
-**Features:**
-- Search and query YApi interfaces
-- Create and update interface definitions
-- Manage multiple YApi projects via MCP
-- Integrate with AI assistants for context-aware suggestions
-- Support JSON Schema and formatted data handling
-- Caching mechanism for faster queries
-- Detailed logging for debugging and monitoring
-
-*Tags: yapi, api, developer, ai, mcp, integration, security, automation...*
-
----
-
-### 50. [thorbase.com](https://thorbase.com)
-`8.8` ★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**This landing page targets developers and enterprises seeking scalable, secure, and cost-effective access to advanced language models. It emphasizes ease of integration through a simple API, competitive pricing tiers, and robust security features. The platform supports multiple model types with benchmark performance data, catering to diverse use cases from quick demos to large-scale deployment.**
-
-**Features:**
-- Plug-and-play model aggregation
-- Enterprise-grade security controls
-- Universal API integration
-- Contextual pricing based on usage volume
-- Benchmark performance metrics
-
-*Tags: ai-development, model-integration, enterprise-solutions, cost-optimization, security-features, developer-tools, benchmarking, cloud-services...*
-
----
-
-### 51. [news?p=5](https://news.ycombinator.com/news?p=5)
-`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**The forum thread presents a diverse range of real-world experiences and technical observations from users across various domains. Participants discuss the impact of AI tools in content creation, the challenges posed by cloud services, and the importance of understanding security and privacy implications. Several threads emphasize the need for updated infrastructure and secure coding practices, while others focus on innovative web technologies such as WebRTC and microcomputer history. The consens...**
-
-**Features:**
-- AI-assisted writing tools
-- WebRTC implementation challenges
-- Cloud infrastructure updates
-- Security and privacy concerns
-
-*Tags: webdevelopment, ai, cloudsecurity, softwaretools, userexperience*
-
----
-
-### 52. [Stagehand](https://www.stagehand.dev)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**An open-source AI web automation SDK by Browserbase that acts as a resilient, self-healing alternative to Playwright by using LLMs to navigate without brittle CSS selectors.**
-
-**Features:**
-- Self-healing UI navigation (no CSS selectors)
-- AI primitives (`act`/`extract`/`observe`)
-- CDP direct-browser communication (v3)
-- Accessibility Tree extraction.
-
-*Tags: browser-automation, stagehand, playwright, orchestration, testing, design*
-
----
-
-### 53. [CCS - Community Crowdfunding System (CCS)](https://ccs.getmonero.org)
-`8.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Borg intelligence database should include detailed information about the CCS (Community Crowdfunding System) project, including its technical architecture, funding mechanisms, and workflow processes. This entry will outline how proposals are submitted, reviewed, funded, and tracked within the CCS platform.**
-
-**Features:**
-- proposal submission
-- funding tracking
-- project monitoring
-- community engagement
-
-*Tags: monero, crowdfunding, community, proposals, fundraising, blockchain, decentralized, projectmanagement...*
-
----
-
-### 54. [what_actually_made_your_terminal_noticeably](https://www.reddit.com/r/LinuxTeck/comments/1t3butb/what_actually_made_your_terminal_noticeably)
-`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
-
-**Users in the r/LinuxTeck community shared insights on how their terminal interfaces were enhanced, focusing on usability improvements, recommended tools, and patterns observed in real-world usage. The conversation emphasized clarity in notification handling and integration with workflow systems.**
-
-**Features:**
-- notification filtering
-- custom alert settings
-- integration with workflow tools
-- clear visual indicators
-- system customization options
-
-*Tags: linux, terminal, notifications, ui, workflow, system, interface, user...*
-
----
-
-### 55. [Paper Visualizer - Transform Research Papers into Interactive Visual Knowledge](https://arxiv-viz.ianhsiao.xyz/landing)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**An AI-powered visual analytics platform that untangles academic literature reviews into interactive citation graphs and step-by-step visual summaries.**
-
-**Features:**
-- Interactive citation lineage mapping
-- AI-powered step-by-step visual summaries
-- personalized research cluster discovery
-- spatial academic exploration.
-
-*Tags: research, graphs, visualization, arxiv, summarization, artificial-intelligence, arxiv-viz, tools*
-
----
-
-### 56. [im_a_nursing_student_who_built_a_660kpage](https://www.reddit.com/r/ClaudeAI/comments/1sv7fvc/im_a_nursing_student_who_built_a_660kpage)
-`7.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The project demonstrates an attempt to build a large-scale web application with a focus on user experience, incorporating features such as page navigation, content management, and potential integration with external systems. The analysis highlights the importance of intuitive interfaces and efficient workflows in healthcare technology.**
-
-**Features:**
-- web application development
-- user interface design
-- content management system
-- page navigation
-- interactive elements
-
-*Tags: ai, reddit, nursing, webapp, uiux, healthtech, development, project...*
-
----
-
-### 57. [pladeo-world-s-first-bio-plasma-deodorant-device#](https://www.indiegogo.com/projects/pladeo-world-s-first-bio-plasma-deodorant-device#)
-`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
-
-**PlaDeo is an innovative product developed by CodeSteri Inc., designed to combat body odor through the application of bio-plasma technology. This device aims to provide users with a non-permanent, eco-friendly alternative to traditional deodorants by utilizing plasma to neutralize odor-causing bacteria on the skin.**
-
-**Features:**
-- bio-plasma technology
-- odor-neutralizing mechanism
-- portable design
-- user-friendly interface
-
-*Tags: plasma, deodorant, bio-plasma, wearable, smart-tech, health-and-hygiene, innovation, consumer-tech...*
-
----
-
-### 58. [workiq_in_openwebui](https://www.reddit.com/r/OpenWebUI/comments/1siamcg/workiq_in_openwebui)
-`8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The resource provides an in-depth analysis of the OpenWebUI platform, focusing on its user interface, navigation structure, and workflow optimization for developers.**
-
-**Features:**
-- web-based interface
-- customizable dashboards
-- integration capabilities
-- developer tools
-- real-time data visualization
-
-*Tags: openwebui, webui, developertool, interfacedesign, userexperience, webapplication, opensource, uiframework...*
-
----
-
-### 59. [item?id=47729679](https://news.ycombinator.com/item?id=47729679)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-↗3 layers
-
-**The project integrates multiple technologies including Python, scikit-learn, LightGBM, spaCy, FastAPI, and Gradio to create an interactive mood analysis tool. It aims to bridge the gap between model development and practical usability by offering both a web-based UI and a RESTful API.**
-
-**Features:**
-- FastAPI backend
-- Gradio UI
-- Hugging Face deployment
-- Text classification for mood detection
-
-*Tags: moodsense, nlp, fastapi, gradio, huggingface, textanalysis, ai, userinterface...*
-
----
-
-### 60. [introducing_claude_opus_47_our_most_capable_opus](https://www.reddit.com/r/ClaudeCode/comments/1sn57by/introducing_claude_opus_47_our_most_capable_opus)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-
-**The resource provides an overview of Claude Opus, a state-of-the-art neural audio codec, detailing its architecture, capabilities, and performance metrics. It discusses how this technology can be integrated into systems for efficient audio processing.**
-
-**Features:**
-- high-capacity audio processing
-- neural network optimization
-- audio codec efficiency
-- real-time audio synthesis
-
-*Tags: cloud-computing, ai-audio, opus-codec, deep-learning, machine-learning, audio-engineering, neural-networks, software-development...*
-
----
-
-### 61. [Agentica - Open Source AI Coding Assistant](https://agentica.genlabs.dev)
-`10.0` ★★★ ⚡70 Q0.6⭐ ⭐ Excellent
-
-**A fully open-source AI coding assistant environment offering a transparent alternative to proprietary tools, with Bring Your Own Key (BYOK) support.**
-
-**Features:**
-- BYOK API support (OpenAI/Anthropic/Local Ollama)
-- "no black boxes" transparent agent logic
-- high-velocity community update cycle.
-
-*Tags: ide, open-source, code-editor, agentica, automation, artificial-intelligence*
-
----
-
-### 62. [how_arcade_games_changed_your_life](https://www.reddit.com/r/arcade/comments/1szq25m/how_arcade_games_changed_your_life)
-`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
-
-**The article examines the impact of arcade games on contemporary technology, focusing on their role in shaping user interfaces, engagement strategies, and interactive design principles within the Borg intelligence framework.**
-
 **Features:**
-- user interface design
-- interactive storytelling
-- gamification techniques
-- player engagement mechanics
+- Windows Run dialog
+- PowerToys features
+- Grab And Move
+- Command Palette Dock
+- Window management tools
 
-*Tags: arcade, games, design, interaction, user-experience, digital-media, gamification, interface...*
+*Tags: windows-terminal, powertoys, user-experience, window-management, dev-tools, ux, microsoft*
 
 ---
 
 ## Config & Profile Management
-> 57 tools · avg signal ⚡85
+> 75 tools · avg signal ⚡79
 
 ### 1. [nighttrek/moondream-mcp](https://github.com/nighttrek/moondream-mcp)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -4742,25 +5929,7 @@
 
 ---
 
-### 7. [mjucius/cozi_mcp](https://github.com/mjucius/cozi_mcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The mjucius/cozi_mcp project provides a lightweight Model Context Protocol (MCP) server that allows AI-powered tools like Claude Desktop to access and manipulate Cozi Family Organizer data such as lists, calendars, and family information. This enables developers to build integrations where AI assistants can perform actions like listing members, managing appointments, or updating tasks directly within the Cozi ecosystem.**
-
-**Features:**
-- Family Management
-- List Management
-- Item Management
-- Calendar Management
-- AI Integration via MCP
-- Local Development & Testing
-
-*Tags: mcp, ai, developer, integration, cozi, smartery, python, api...*
-
----
-
-### 8. [antipas/4oimage-mcp](https://github.com/antipas/4oimage-mcp)
+### 7. [antipas/4oimage-mcp](https://github.com/antipas/4oimage-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The Antipas 4oimage-mcp project provides a robust MCP (Machine-to-Paper Converter) server that allows developers to leverage large language models (LLMs) and other AI tools to create, modify, and generate high-quality images. By integrating with the 4o-image API, it streamlines image creation from text prompts, supports real-time progress tracking, and offers seamless browser integration for immediate access.**
@@ -4776,7 +5945,7 @@
 
 ---
 
-### 9. [ucesys/minio-python-mcp](https://github.com/ucesys/minio-python-mcp)
+### 8. [ucesys/minio-python-mcp](https://github.com/ucesys/minio-python-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4794,7 +5963,7 @@
 
 ---
 
-### 10. [chatmcp/heybeauty-mcp](https://github.com/chatmcp/heybeauty-mcp)
+### 9. [chatmcp/heybeauty-mcp](https://github.com/chatmcp/heybeauty-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **HeyBeauty MCP Server is a web application built with TypeScript that facilitates virtual try-on experiences by integrating the HeyBeauty API. It provides essential resources such as clothes with URIs, metadata, and tools for submitting and querying tryon tasks. The server supports user interaction through prompts and task management, making it suitable for modern e-commerce platforms aiming to enhance customer experience.**
@@ -4810,7 +5979,7 @@
 
 ---
 
-### 11. [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp)
+### 10. [Joooook/12306-mcp](https://github.com/Joooook/12306-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4828,7 +5997,7 @@
 
 ---
 
-### 12. [razorback16/mcp-git-repo-browser](https://github.com/razorback16/mcp-git-repo-browser)
+### 11. [razorback16/mcp-git-repo-browser](https://github.com/razorback16/mcp-git-repo-browser)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4846,7 +6015,7 @@
 
 ---
 
-### 13. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)
+### 12. [burkestar/cloudzero-mcp](https://github.com/burkestar/cloudzero-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4864,7 +6033,7 @@
 
 ---
 
-### 14. [catherinedparnell/mcp-finnhub](https://github.com/catherinedparnell/mcp-finnhub)
+### 13. [catherinedparnell/mcp-finnhub](https://github.com/catherinedparnell/mcp-finnhub)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4881,7 +6050,7 @@
 
 ---
 
-### 15. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)
+### 14. [nachoal/perplexity-mcp](https://github.com/nachoal/perplexity-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -4901,7 +6070,7 @@
 
 ---
 
-### 16. [mcherukara/claude-deep-research](https://github.com/mcherukara/claude-deep-research)
+### 15. [mcherukara/claude-deep-research](https://github.com/mcherukara/claude-deep-research)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4919,7 +6088,7 @@
 
 ---
 
-### 17. [erithwik/mcp-hn](https://github.com/erithwik/mcp-hn)
+### 16. [erithwik/mcp-hn](https://github.com/erithwik/mcp-hn)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4939,7 +6108,7 @@
 
 ---
 
-### 18. [veenastudio/flstudio-mcp](https://github.com/veenastudio/flstudio-mcp)
+### 17. [veenastudio/flstudio-mcp](https://github.com/veenastudio/flstudio-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The project provides a GitHub-hosted MCP server that integrates with FL Studio via MIDI and Python APIs. It allows users to control virtual instruments, send MIDI data, and record musical content using AI-driven tools. The solution emphasizes developer-friendly workflows, secure connections, and seamless integration with popular DAWs like FL Studio.**
@@ -4955,7 +6124,7 @@
 
 ---
 
-### 19. [kryzo/mcp-bibliotheque_nationale_de_france](https://github.com/kryzo/mcp-bibliotheque_nationale_de_france)
+### 18. [kryzo/mcp-bibliotheque_nationale_de_france](https://github.com/kryzo/mcp-bibliotheque_nationale_de_france)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **Ce projet propose un serveur MCP (Model-Client-Protocol) permettant d'interagir avec l'API Gallica de la Bibliothèque nationale de France. Il facilite la recherche séquentielle, l'intégration de graphiques et de citations, ainsi que la génération automatique de rapports structurés avec bibliographies.**
@@ -4971,7 +6140,7 @@
 
 ---
 
-### 20. [jacklandis29/codechecker-mcp](https://github.com/jacklandis29/codechecker-mcp)
+### 19. [jacklandis29/codechecker-mcp](https://github.com/jacklandis29/codechecker-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4988,7 +6157,7 @@
 
 ---
 
-### 21. [richardhan/mssql_mcp_server](https://github.com/richardhan/mssql_mcp_server)
+### 20. [richardhan/mssql_mcp_server](https://github.com/richardhan/mssql_mcp_server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5005,7 +6174,7 @@
 
 ---
 
-### 22. [berlinbra/polymarket-mcp](https://github.com/berlinbra/polymarket-mcp)
+### 21. [berlinbra/polymarket-mcp](https://github.com/berlinbra/polymarket-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The PolyMarket MCP Server acts as a middleware layer that connects developers to the PolyMarket API, providing tools and APIs to fetch prediction market data, historical prices, and detailed market information. It supports various functionalities such as retrieving market details, pricing, and historical trends, making it suitable for integration into modern applications.**
@@ -5021,7 +6190,7 @@
 
 ---
 
-### 23. [yorrickjansen/strava-mcp](https://github.com/yorrickjansen/strava-mcp)
+### 22. [yorrickjansen/strava-mcp](https://github.com/yorrickjansen/strava-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5038,7 +6207,7 @@
 
 ---
 
-### 24. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)
+### 23. [pjookim/mcp-visit-korea](https://github.com/pjookim/mcp-visit-korea)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5055,7 +6224,7 @@
 
 ---
 
-### 25. [ichigo3766/audio-transcriber-mcp](https://github.com/ichigo3766/audio-transcriber-mcp)
+### 24. [ichigo3766/audio-transcriber-mcp](https://github.com/ichigo3766/audio-transcriber-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5072,7 +6241,7 @@
 
 ---
 
-### 26. [x51xxx/osp-marketing-tools-mcp](https://github.com/x51xxx/osp-marketing-tools-mcp)
+### 25. [x51xxx/osp-marketing-tools-mcp](https://github.com/x51xxx/osp-marketing-tools-mcp)
 `9.6` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **This technical resource provides a comprehensive suite of tools designed to streamline the management of OSP Marketing Tools, emphasizing developer experience through modern JavaScript features and seamless integration capabilities. It includes utilities for content editing, SEO optimization, metadata generation, and technical writing, all tailored for developers working with Node.js environments.**
@@ -5087,7 +6256,7 @@
 
 ---
 
-### 27. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)
+### 26. [lamaalrajih/kicad-mcp](https://github.com/lamaalrajih/kicad-mcp)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗5 layers
 
@@ -5104,7 +6273,7 @@
 
 ---
 
-### 28. [dkmaker/mcp-rest-api](https://github.com/dkmaker/mcp-rest-api)
+### 27. [dkmaker/mcp-rest-api](https://github.com/dkmaker/mcp-rest-api)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 
 **This tool provides a robust interface for developers to test and interact with REST APIs using various MCP clients. It supports multiple HTTP methods (GET, POST, PUT, DELETE, PATCH), handles authentication via Basic Auth, Bearer Tokens, or API Keys, and offers detailed response information including status codes, headers, and body content.**
@@ -5126,7 +6295,7 @@
 
 ---
 
-### 29. [ryancardin15/noaa-tidesandcurrents-mcp](https://github.com/ryancardin15/noaa-tidesandcurrents-mcp)
+### 28. [ryancardin15/noaa-tidesandcurrents-mcp](https://github.com/ryancardin15/noaa-tidesandcurrents-mcp)
 `9.6` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -5142,7 +6311,7 @@
 
 ---
 
-### 30. [open-webui/open-webui](https://github.com/open-webui/open-webui)
+### 29. [open-webui/open-webui](https://github.com/open-webui/open-webui)
 `10.0` ★★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **A feature-rich, self-hosted AI interface designed for entirely offline operation, serving as a universal frontend for Ollama and OpenAI APIs.**
@@ -5158,7 +6327,7 @@
 
 ---
 
-### 31. [chr15m/kanban-todo](https://github.com/chr15m/kanban-todo)
+### 30. [chr15m/kanban-todo](https://github.com/chr15m/kanban-todo)
 `7.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **The chr15m/kanban-todo project provides a lightweight, self-hosted Kanban board application using plain Markdown files. It enables users to create, edit, and track tasks within a single HTML file, supporting drag-and-drop functionality and two-way synchronization between the UI and the text-based task list. The solution emphasizes simplicity, accessibility, and ease of use for indie developers and small teams.**
@@ -5174,7 +6343,7 @@
 
 ---
 
-### 32. [non906/omniparser-autogui-mcp](https://github.com/non906/omniparser-autogui-mcp)
+### 31. [non906/omniparser-autogui-mcp](https://github.com/non906/omniparser-autogui-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **The NON906/omniparser-autogui-mcp project implements an automated GUI management system that leverages the OmniParser library to analyze and control the on-screen user interface. By integrating with an MCP (Multi-Process Control Protocol) server, it dynamically manages GUI elements across different devices and environments, enhancing workflow automation and user experience.**
@@ -5189,7 +6358,7 @@
 
 ---
 
-### 33. [pavanjava/kafka_mcp_server](https://github.com/pavanjava/kafka_mcp_server)
+### 32. [pavanjava/kafka_mcp_server](https://github.com/pavanjava/kafka_mcp_server)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The pavanjava/kafka_mcp_server project provides a Borg-based MCP (Message Context Protocol) server that integrates seamlessly with Apache Kafka. It allows AI and LLM applications to publish and consume messages across distributed systems, supporting real-time data flow for intelligent applications.**
@@ -5205,7 +6374,7 @@
 
 ---
 
-### 34. [wukan1986/akshare_mcp](https://github.com/wukan1986/akshare_mcp)
+### 33. [wukan1986/akshare_mcp](https://github.com/wukan1986/akshare_mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The project aims to provide a comprehensive solution by exposing all available data interfaces from AKShare. This includes configuring and managing multiple external tools through the MCP Server, ensuring seamless integration and efficient workflow automation for developers.**
@@ -5221,7 +6390,7 @@
 
 ---
 
-### 35. [vanto/beanquery-mcp](https://github.com/vanto/beanquery-mcp)
+### 34. [vanto/beanquery-mcp](https://github.com/vanto/beanquery-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5237,7 +6406,7 @@
 
 ---
 
-### 36. [lethain/library-mcp](https://github.com/lethain/library-mcp)
+### 35. [lethain/library-mcp](https://github.com/lethain/library-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5253,7 +6422,7 @@
 
 ---
 
-### 37. [ish-joshi/canon-camera-mcp](https://github.com/ish-joshi/canon-camera-mcp)
+### 36. [ish-joshi/canon-camera-mcp](https://github.com/ish-joshi/canon-camera-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **The project implements a Python-based server using FastMCP to expose Canon camera controls over HTTP. It enables remote management of Canon cameras through the Canon Camera Control API (CCAPI), supporting image compression, streaming, and various camera functions. The application is designed for developers to integrate with CCAPI, offering a streamlined interface for managing camera devices.**
@@ -5268,7 +6437,7 @@
 
 ---
 
-### 38. [matlock08/watson_discovery_mcp](https://github.com/matlock08/watson_discovery_mcp)
+### 37. [matlock08/watson_discovery_mcp](https://github.com/matlock08/watson_discovery_mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5284,7 +6453,7 @@
 
 ---
 
-### 39. [jsonallen/perplexity-mcp](https://github.com/jsonallen/perplexity-mcp)
+### 38. [jsonallen/perplexity-mcp](https://github.com/jsonallen/perplexity-mcp)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 
 **The jsonallen/perplexity-mcp project provides a Model Context Protocol (MCP) server that enables seamless integration of Perplexity AI's web search functionality within the Claude Desktop application. This tool allows users to leverage advanced AI-driven search capabilities directly from their workflow, enhancing productivity and decision-making in enterprise environments.**
@@ -5299,7 +6468,7 @@
 
 ---
 
-### 40. [shoumikdc/arXiv-mcp](https://github.com/shoumikdc/arXiv-mcp)
+### 39. [shoumikdc/arXiv-mcp](https://github.com/shoumikdc/arXiv-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5315,7 +6484,7 @@
 
 ---
 
-### 41. [eddydpyl/sketchfab_mcp](https://github.com/eddydpyl/sketchfab_mcp)
+### 40. [eddydpyl/sketchfab_mcp](https://github.com/eddydpyl/sketchfab_mcp)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 
 **The Sketchfab MCP project provides a lightweight microservice that allows developers to search, download, and manage downloadable models from Sketchfab. It leverages the Model Control Protocol (MCP) to interact with the platform's API, offering an efficient way to integrate model access into applications.**
@@ -5330,7 +6499,7 @@
 
 ---
 
-### 42. [stefanoamorelli/hyprmcp](https://github.com/stefanoamorelli/hyprmcp)
+### 41. [stefanoamorelli/hyprmcp](https://github.com/stefanoamorelli/hyprmcp)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5346,7 +6515,7 @@
 
 ---
 
-### 43. [bsmi021/mcp-gemini-server](https://github.com/bsmi021/mcp-gemini-server)
+### 42. [bsmi021/mcp-gemini-server](https://github.com/bsmi021/mcp-gemini-server)
 `8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -5367,7 +6536,7 @@
 
 ---
 
-### 44. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)
+### 43. [recallnet/trading-simulator-mcp](https://github.com/recallnet/trading-simulator-mcp)
 `8.5` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **This technical resource describes a GitHub repository containing an MCP (Model Context Protocol) server designed to interface with the RecallNet Trading Simulator. It outlines key features such as account management, trade execution, price retrieval, and smart token detection, emphasizing structured tool calls for seamless integration with AI models like Claude.**
@@ -5382,7 +6551,7 @@
 
 ---
 
-### 45. [testdriverai/cli](https://github.com/testdriverai/cli)
+### 44. [testdriverai/cli](https://github.com/testdriverai/cli)
 `8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5397,7 +6566,7 @@
 
 ---
 
-### 46. [Ask HN: How to manage docs for LLM RAG app? | Hacker News](https://news.ycombinator.com/item?id=41187652)
+### 45. [Ask HN: How to manage docs for LLM RAG app? | Hacker News](https://news.ycombinator.com/item?id=41187652)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -5414,7 +6583,7 @@
 
 ---
 
-### 47. [kukapay/whattimeisit-mcp](https://github.com/kukapay/whattimeisit-mcp)
+### 46. [kukapay/whattimeisit-mcp](https://github.com/kukapay/whattimeisit-mcp)
 `8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5429,7 +6598,7 @@
 
 ---
 
-### 48. [?rdt_cid=5924693557066906820](https://www.mintlify.com/?rdt_cid=5924693557066906820)
+### 47. [?rdt_cid=5924693557066906820](https://www.mintlify.com/?rdt_cid=5924693557066906820)
 `8.8` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **The Borg Project intelligence database integrates Mintlify's intelligent knowledge platform to streamline documentation creation, maintenance, and AI-assisted updates. It focuses on enabling teams to build, update, and manage documentation efficiently while supporting both human users and AI models like LLMs. Key features include context-aware agents, automated content editing, enterprise scalability, compliance support, and seamless integration with development workflows.**
@@ -5445,7 +6614,7 @@
 
 ---
 
-### 49. [Box Mod Kits - All Vape Mod Starter Kits](https://www.elementvape.com/box-mod-kits?client=true&filters=[{)
+### 48. [Box Mod Kits - All Vape Mod Starter Kits](https://www.elementvape.com/box-mod-kits?client=true&filters=[{)
 `8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5462,7 +6631,7 @@
 
 ---
 
-### 50. [?rdt_cid=5958232068226895182](https://thorbase.com/?rdt_cid=5958232068226895182)
+### 49. [?rdt_cid=5958232068226895182](https://thorbase.com/?rdt_cid=5958232068226895182)
 `8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **Thorbase provides a plug-and-play model aggregation solution that integrates enterprise-grade controls, enabling developers to efficiently manage and deploy AI workloads across various platforms. It offers API key access, quick start demos, and a focus on security and scalability, making it suitable for organizations looking to optimize their AI infrastructure.**
@@ -5478,7 +6647,7 @@
 
 ---
 
-### 51. [Starship: Cross-Shell Prompt](https://starship.rs)
+### 50. [Starship: Cross-Shell Prompt](https://starship.rs)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A high-performance, cross-shell prompt written in Rust that provides 10ms rendering and intelligent context detection for 80+ tools.**
@@ -5493,7 +6662,7 @@
 
 ---
 
-### 52. [Phew AI Tab - AI Auto Group & Vertical Tabs - Chrome Web Store](https://chromewebstore.google.com/detail/phew-ai-tab-ai-auto-group/ccnagafbnapafjidkhbgligfoccmjddb)
+### 51. [Phew AI Tab - AI Auto Group & Vertical Tabs - Chrome Web Store](https://chromewebstore.google.com/detail/phew-ai-tab-ai-auto-group/ccnagafbnapafjidkhbgligfoccmjddb)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **An intelligent tab manager that uses AI to auto-group new tabs by content and provides a vertical sidebar with local AES-256 encryption.**
@@ -5508,7 +6677,7 @@
 
 ---
 
-### 53. [MouseMux | Multiple Mouse Cursors on one Windows desktop](https://www.mousemux.com)
+### 52. [MouseMux | Multiple Mouse Cursors on one Windows desktop](https://www.mousemux.com)
 `10.0` ★★★ ⚡72 Q0.7⭐ ⭐ Excellent
 
 **A multi-cursor collaboration tool for Windows that allows multiple users to operate their own independent mouse and keyboard simultaneously on a single PC.**
@@ -5522,7 +6691,7 @@
 
 ---
 
-### 54. [Z.ai - Inspiring AGI to Benefit Humanity](https://z.ai/manage-apikey/subscription)
+### 53. [Z.ai - Inspiring AGI to Benefit Humanity](https://z.ai/manage-apikey/subscription)
 `8.7` ★ ⚡72 Q0.7⭐ ⭐ Excellent
 
 **The resource details API management, rate limiting, billing, and subscription features for Z.ai's AGI platform, focusing on developer interactions and technical controls.**
@@ -5534,6 +6703,22 @@
 - subscription
 
 *Tags: api, developer, agility, integration, billing, z.ai, agentorchestration, technical...*
+
+---
+
+### 54. [softvoyagers/linkmeta-api](https://github.com/softvoyagers/linkmeta-api)
+`6.0` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**LinkMeta is a powerful API designed to manage, query, and interact with metadata, offering a robust solution for applications that require structured data management. It focuses on providing a clean interface for developers to easily integrate metadata operations into their workflows.**
+
+**Features:**
+- Metadata API integration
+- RESTful interface
+- Metadata management capabilities
+- Developer-friendly endpoints
+- JSON/REST compatibility
+
+*Tags: metadata, api, rest, developer-tools, webhooks, json, linkmeta*
 
 ---
 
@@ -5553,7 +6738,24 @@
 
 ---
 
-### 56. [LastPass - Sign In](https://lastpass.com/export-tokens/64d410d8-7704-419c-b740-e637aafb1faf/approve)
+### 56. [Raindrop.io — All-in-one bookmark manager](https://raindrop.io/)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**Raindrop.io functions as a comprehensive bookmark management tool that offers various view modes (Grid, Headlines, Masonry) and powerful organizational features like tags and collections. It provides instant previews and deep search capabilities to help users organize their saved items efficiently.**
+
+**Features:**
+- Bookmark management
+- tag filtering
+- multiple view modes
+- web archiving
+- instant preview
+- integrations
+
+*Tags: bookmark-manager, web-archiving, productivity-tool, creative-tool, ai-assistant, web-bookmarking*
+
+---
+
+### 57. [LastPass - Sign In](https://lastpass.com/export-tokens/64d410d8-7704-419c-b740-e637aafb1faf/approve)
 `7.8` ★ ⚡69 Q0.7✓ ✓ Solid
 
 **The resource details the integration of a password manager application with LastPass, focusing on user authentication, token generation, and secure storage mechanisms to enhance cybersecurity practices.**
@@ -5568,7 +6770,22 @@
 
 ---
 
-### 57. [qwen-ai-landing-page?_p_lc=1](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page?_p_lc=1)
+### 58. [theguideforge.com](https://www.theguideforge.com/signup?rdt_cid=5212783611912378412&ref=reddit-direct&role=creator)
+`8.0` ★ ⚡69 Q0.7✓ ✓ Solid
+
+**The Guide Forge provides an interface for users to create and manage their 'guides,' which can be monetized through passive income. The signup process emphasizes user identity (username/email) and establishes the initial onboarding experience.**
+
+**Features:**
+- User account creation
+- guide management platform
+- email verification
+- clear terms of service agreement
+
+*Tags: user-centric, monetization, passive-income, creator-economy, signup-flow, digital-asset*
+
+---
+
+### 59. [qwen-ai-landing-page?_p_lc=1](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page?_p_lc=1)
 `8.5` ★ ⚡68 Q0.6✓ ✓ Solid
 
 **The resource provides an overview of Alibaba Cloud's Qwen AI platform, detailing its features, pricing, and developer tools for deploying AI models efficiently.**
@@ -5583,8 +6800,250 @@
 
 ---
 
+### 60. [Web | OpenCode](https://opencode.ai/docs/web/)
+`6.0` ★ ⚡68 Q0.8✓ ✓ Solid
+
+**OpenCode provides a powerful AI coding experience accessible via a web browser, allowing users to run the AI coding capabilities without needing a traditional terminal. The tool offers configuration options for ports, hostnames, and mDNS discovery, while providing authentication mechanisms to secure access.**
+
+**Features:**
+- Browser-based AI coding interface
+- Web server deployment
+- Configuration options (port/hostname)
+- mDNS discovery support
+- Authentication features
+
+*Tags: ai-coding, web-app, browser-interface, developer-tools, web-dev, local-server*
+
+---
+
+### 61. [@avitek.bsky.social on Bluesky](https://bsky.app/profile/avitek.bsky.social/post/3mdowe3dyic2g)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource is a demonstration of an interactive web application, likely a frontend or client-side experience, designed to showcase the capabilities and user experience within the Bluesky ecosystem. It highlights the need for JavaScript execution to render the dynamic interface.**
+
+**Features:**
+- Interactive Web Application
+- JavaScript Requirement
+- Bluesky Profile Integration
+- Frontend Experience
+- Developer Interface
+
+*Tags: web-development, javascript, frontend, bluesky, interface, interactive, web-app*
+
+---
+
+### 62. [Employee Login](https://compassmobile.dollartree.com/pwm/action/mobileShowShiftList)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource provides a comprehensive view of mobile actions or workflows, likely within a developer context. It helps developers understand the flow of mobile operations, such as 'mobileShowShiftList', which is crucial for designing user-facing interactions and state management in mobile apps.**
+
+**Features:**
+- Mobile workflow visualization
+- Action mapping
+- Shift list integration
+- Mobile action interface
+- Developer tooling
+
+*Tags: mobile-development, ui/ux, workflow-design, mobile-features, developer-tools, action-mapping*
+
+---
+
+### 63. [Proton Docs](https://docs.proton.me/u/0/sheet?mode=open-url&token=14FW6FE3WW&linkId=e7tCZUjMHHDMRYz53E83Lw)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**Proton Docs is an in-house documentation platform designed to serve as the central hub for developer operations. It offers a comprehensive interface for managing projects, workflows, and integrations, focusing on providing a cohesive experience for developers.**
+
+**Features:**
+- Centralized documentation hub
+- Workflow management integration
+- Developer tooling interface
+- Seamless project organization
+- Interactive developer experience
+
+*Tags: developer-tools, documentation-platform, workflow-automation, devx, ui/ux, prototyping, javascript*
+
+---
+
+### 64. [Atakama , Browser Security Platform for MSPs | Protect the Browser](https://www.atakama.com)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**Atakama is a browser security platform that offers robust protection for browsers, targeting the needs of Managed Service Providers. It provides essential security features and integrations necessary for MSPs to secure their browser environments.**
+
+**Features:**
+- Browser Security Platform
+- MSP Focus
+- Browser Protection
+- Integrated Security Solutions
+- Developer Experience
+
+*Tags: browser-security, msp, security-platform, browser-protection, msps, developer-tools*
+
+---
+
+### 65. [AI video production | LTX](https://app.ltx.studio/account)
+`6.0` ★ ⚡64 Q0.7✓ ✓ Solid
+
+**Ltx Studio provides a centralized interface for developers to manage their accounts, projects, and workflows. It focuses on providing a cohesive developer experience that integrates tools and capabilities seamlessly.**
+
+**Features:**
+- Account Management
+- Workflow Integration
+- Developer Interface
+- User Experience Focus
+- Project Management
+
+*Tags: developer-tools, account-management, workflow, user-experience, platform, integration*
+
+---
+
+### 66. [Sign in to Your Account · Fly](https://fly.io/apps/workspace-z8ejew/deployments/1015133)
+`6.0` ★ ⚡64 Q0.7✓ ✓ Solid
+
+**This resource is a landing page for Fly.io, showcasing the user sign-in flow, emphasizing seamless authentication options (GitHub, Google) and the overall workspace deployment capabilities offered by the platform.**
+
+**Features:**
+- Authentication Integration
+- Workspace Deployment
+- Developer Experience
+- Account Management
+- Seamless Sign-in
+
+*Tags: fly.io, developer-tools, auth, workspace, cli, ux, deployment*
+
+---
+
+### 67. [Markset — Beautiful Markdown previews in Finder](https://www.markset.app)
+`6.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**MarkSet is a developer tool designed to provide instant viewing of Markdown files, allowing developers to quickly preview content without needing to edit or associate the file with another application. It focuses on providing a seamless reading experience for Markdown files.**
+
+**Features:**
+- Markdown preview
+- quick rendering
+- zero-app requirement
+- file association management
+
+*Tags: markdown, preview, developer-tools, ux, quicklook, file-handling*
+
+---
+
+### 68. [Visible | It's Phone Service. In An App.](https://www.visible.com/account/lapsed)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is a landing page for Visible, demonstrating the core product's value proposition while also providing a technical troubleshooting tip regarding browser JavaScript execution. It serves as an example of a modern app interface and points to necessary developer configuration checks.**
+
+**Features:**
+- Web App Interface
+- Phone Service Concept
+- JavaScript Troubleshooting
+- Developer UX Example
+- Account/Lapsed View
+
+*Tags: web-development, javascript, mobile-app, user-experience, telecom, app-design*
+
+---
+
+### 69. [Mevro | Workflow Automation & AI Agents Platform](https://www.mevro.io/templates?category=saas%5BMevro%5D(http://www.mevro.io)%5BMevro%5D(http://www.mevro.io)%5BMevro%5D(http://www.mevro.io))
+`6.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**Mevro is a platform that provides templates to help developers quickly build, deploy, and manage Software-as-a-Service (SaaS) solutions. It focuses on offering structured templates that streamline the development process for SaaS offerings.**
+
+**Features:**
+- Template generation
+- SaaS solution focus
+- Developer workflow integration
+- SaaS deployment enablement
+
+*Tags: saas, template, developer-tools, software-engineering, cloud, product-management*
+
+---
+
+### 70. [Zombo.com - No Limits - You Can Do Anything](http://zombo.com)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**Zombo is a web hosting platform that emphasizes newness and unique content, suggesting an open or innovative approach to digital assets. The site highlights the concept of 'New Management' and offers users opportunities to acquire rights for existing content, positioning itself as a place where anything is possible.**
+
+**Features:**
+- Web hosting platform
+- content acquisition marketplace
+- domain management
+- unique content offering
+
+*Tags: web-hosting, content-management, digital-assets, new-domain, acquisition, innovation*
+
+---
+
+### 71. [Sign in to GitHub · GitHub](https://github.com/stars)
+`7.0` ★ ⚡57 Q0.5✓ ✓ Solid
+
+**GitHub is a leading platform for version control that provides essential features for collaborative development, including version control, issue tracking, and project management. It serves as the central hub for developers to collaborate on projects, manage code, and track progress effectively.**
+
+**Features:**
+- Version Control
+
+*Tags: version-control, git, collaboration, developer-tools, github, software-engineering, ui*
+
+---
+
+### 72. [File server](http://smizzy.mine.nu:8008/)
+`5.0` ★ ⚡56 Q0.6✓ ✓ Solid
+
+**This tool provides a straightforward interface for file server management, emphasizing simplicity and immediate usability. It serves as a foundational platform for developers needing quick access to file-based resources without complex overhead.**
+
+**Features:**
+- File Server Access
+- Basic Interface
+- Simple Operations
+- Minimalist Design
+
+*Tags: file-server, minimalist, developer-tools, simple-interface, basic-operations*
+
+---
+
+### 73. [2041646651673342093?s](https://x.com/bensig/status/2041646651673342093?s)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is a diagnostic tool or page from the X platform, designed to inform users about JavaScript compatibility issues within their browser environment. It serves as an interface layer to guide users on necessary browser configurations or extensions required for full functionality.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback options
+
+*Tags: browser-compatibility, web-interface, javascript, ux, developer-tools, debugging, x.com*
+
+---
+
+### 74. [Document](https://www.axs.com/festivals/509508/waitlist)
+`4.0` ★ ⚡53 Q0.7✓ ✓ Solid
+
+**This is a simple web page showcasing the status of a festival's waitlist, informing users that there is currently maintenance underway and suggesting they check back later. It demonstrates basic front-end user experience for managing expectations during downtime.**
+
+**Features:**
+- Waitlist management
+- Maintenance notification
+- Clear status display
+- Simple call-to-action (check back)
+
+*Tags: web-development, ux, interface-design, maintenance, ticketing, front-end*
+
+---
+
+### 75. [Zombo.com - No Limits - You Can Do Anything](http://www.Zombo.com)
+`5.0` ★ ⚡40 Q0.4○ ○ Adequate
+
+**Zombo is a web hosting platform that emphasizes unique, new content and offers an open domain purchase model. The site highlights the concept of 'New Management' and suggests a community-driven approach to reviving content by purchasing rights from original owners.**
+
+**Features:**
+- Domain management
+
+*Tags: web-hosting*
+
+---
+
 ## Bridges & Proxies
-> 45 tools · avg signal ⚡86
+> 48 tools · avg signal ⚡85
 
 ### 1. [metersphere/metersphere-mcp-server](https://github.com/metersphere/metersphere-mcp-server)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -5663,26 +7122,7 @@
 
 ---
 
-### 5. [stefans71/wordpress-mcp-server](https://github.com/stefans71/wordpress-mcp-server)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This resource provides a robust MCP server that facilitates seamless integration with WordPress through the JSON-RPC protocol. It supports various platforms including Windows, macOS, and Linux, making it versatile for developers and integrators. The server is designed to streamline WordPress management by offering tools for creating, retrieving, and updating posts efficiently. With features like environment variable configuration for secure credentials, it enhances security and ease of use. The ...**
-
-**Features:**
-- JSON-RPC protocol support
-- Cross-platform compatibility (Windows
-- macOS
-- Linux)
-- Environment variable configuration for secure credentials
-- Automated WordPress post management tools
-- Integration with WordPress REST API
-
-*Tags: developer-workflow, wp-integration, api-development, automation, web-development-tools*
-
----
-
-### 6. [jyothishkumarav/selenium-mcp-server-python](https://github.com/jyothishkumarav/selenium-mcp-server-python)
+### 5. [jyothishkumarav/selenium-mcp-server-python](https://github.com/jyothishkumarav/selenium-mcp-server-python)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5700,7 +7140,7 @@
 
 ---
 
-### 7. [twolven/mcp-server-puppeteer-py](https://github.com/twolven/mcp-server-puppeteer-py)
+### 6. [twolven/mcp-server-puppeteer-py](https://github.com/twolven/mcp-server-puppeteer-py)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5717,7 +7157,7 @@
 
 ---
 
-### 8. [artillect/mtg-mcp-servers](https://github.com/artillect/mtg-mcp-servers)
+### 7. [artillect/mtg-mcp-servers](https://github.com/artillect/mtg-mcp-servers)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5735,7 +7175,7 @@
 
 ---
 
-### 9. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)
+### 8. [jmh108/mcp-server-readability-python](https://github.com/jmh108/mcp-server-readability-python)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5754,7 +7194,7 @@
 
 ---
 
-### 10. [piddlingtuna/tfnsw-realtime-alerts-mcp-server](https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server)
+### 9. [piddlingtuna/tfnsw-realtime-alerts-mcp-server](https://github.com/piddlingtuna/tfnsw-realtime-alerts-mcp-server)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5771,7 +7211,7 @@
 
 ---
 
-### 11. [liorcodev/trpc-docs-generator](https://github.com/liorcodev/trpc-docs-generator)
+### 10. [liorcodev/trpc-docs-generator](https://github.com/liorcodev/trpc-docs-generator)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -5789,7 +7229,7 @@
 
 ---
 
-### 12. [billster45/mcp-chatgpt-responses](https://github.com/billster45/mcp-chatgpt-responses)
+### 11. [billster45/mcp-chatgpt-responses](https://github.com/billster45/mcp-chatgpt-responses)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5808,7 +7248,7 @@
 
 ---
 
-### 13. [gongrzhe/office-word-mcp-server](https://github.com/gongrzhe/office-word-mcp-server)
+### 12. [gongrzhe/office-word-mcp-server](https://github.com/gongrzhe/office-word-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5826,24 +7266,7 @@
 
 ---
 
-### 14. [dsp/mcp-server-steam](https://github.com/dsp/mcp-server-steam)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The MCP Server for interacting with Steam integrates with the Steam API to fetch user gaming information and exposes it through the Model Context Protocol (MCP). This allows AI assistants and other applications to access and understand users' gaming activities, preferences, and statuses. The project provides a Dockerized solution for developers to build, deploy, and manage their own MCP servers easily.**
-
-**Features:**
-- MCP Server Integration
-- Steam API Interaction
-- Docker-based Deployment
-- Customizable Configuration
-- API Documentation
-
-*Tags: mcp-server, steam-api, developer-tools, ai-integration, docker, api-docs*
-
----
-
-### 15. [sagacious-satadru/documentation-mcp](https://github.com/sagacious-satadru/documentation-mcp)
+### 13. [sagacious-satadru/documentation-mcp](https://github.com/sagacious-satadru/documentation-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5862,7 +7285,7 @@
 
 ---
 
-### 16. [fluxinc/dicom-mcp-server](https://github.com/fluxinc/dicom-mcp-server)
+### 14. [fluxinc/dicom-mcp-server](https://github.com/fluxinc/dicom-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The fluxinc/dicom-mcp-server is a platform designed to enhance the integration and management of DICOM (Digital Imaging and Communications in Medicine) data within various medical imaging and machine learning applications. It provides a robust framework for handling contextual data, facilitating seamless connectivity and interoperability between different DICOM tools and systems.**
@@ -5878,7 +7301,7 @@
 
 ---
 
-### 17. [winstonfassett/sonos-mcp-server](https://github.com/winstonfassett/sonos-mcp-server)
+### 15. [winstonfassett/sonos-mcp-server](https://github.com/winstonfassett/sonos-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5895,7 +7318,7 @@
 
 ---
 
-### 18. [kelnishi/popui](https://github.com/kelnishi/popui)
+### 16. [kelnishi/popui](https://github.com/kelnishi/popui)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5912,7 +7335,7 @@
 
 ---
 
-### 19. [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server)
+### 17. [davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5929,7 +7352,7 @@
 
 ---
 
-### 20. [yap-audio/tiktok-mcp](https://github.com/yap-audio/tiktok-mcp)
+### 18. [yap-audio/tiktok-mcp](https://github.com/yap-audio/tiktok-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The yap-audio/tiktok-mcp project offers a Model Context Protocol service designed to enhance TikTok video discovery by enabling developers to search videos using hashtags and retrieve detailed metadata. It incorporates anti-detection measures, proxy support, and robust error handling to ensure reliable performance in real-world applications.**
@@ -5946,7 +7369,7 @@
 
 ---
 
-### 21. [jackkuo666/biorxiv-mcp-server](https://github.com/jackkuo666/biorxiv-mcp-server)
+### 19. [jackkuo666/biorxiv-mcp-server](https://github.com/jackkuo666/biorxiv-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5963,7 +7386,7 @@
 
 ---
 
-### 22. [qainsights/locust-mcp-server](https://github.com/qainsights/locust-mcp-server)
+### 20. [qainsights/locust-mcp-server](https://github.com/qainsights/locust-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5980,7 +7403,7 @@
 
 ---
 
-### 23. [ryojerryyu/mcp-server-memos-py](https://github.com/ryojerryyu/mcp-server-memos-py)
+### 21. [ryojerryyu/mcp-server-memos-py](https://github.com/ryojerryyu/mcp-server-memos-py)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5997,7 +7420,7 @@
 
 ---
 
-### 24. [nicholasq/mcp-server-libsql](https://github.com/nicholasq/mcp-server-libsql)
+### 22. [nicholasq/mcp-server-libsql](https://github.com/nicholasq/mcp-server-libsql)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6014,7 +7437,7 @@
 
 ---
 
-### 25. [gongrzhe/quickchart-mcp-server](https://github.com/gongrzhe/quickchart-mcp-server)
+### 23. [gongrzhe/quickchart-mcp-server](https://github.com/gongrzhe/quickchart-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6037,7 +7460,7 @@
 
 ---
 
-### 26. [ucalyptus/prem-mcp-server](https://github.com/ucalyptus/prem-mcp-server)
+### 24. [ucalyptus/prem-mcp-server](https://github.com/ucalyptus/prem-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -6056,7 +7479,7 @@
 
 ---
 
-### 27. [expressionsbot/ms-lucidia-voice-gateway-mcp](https://github.com/expressionsbot/ms-lucidia-voice-gateway-mcp)
+### 25. [expressionsbot/ms-lucidia-voice-gateway-mcp](https://github.com/expressionsbot/ms-lucidia-voice-gateway-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The MS-Lucidia-Voice-Gateway-MCP project provides a dynamic, Windows-native solution for integrating adaptive TTS and STT capabilities using native speech APIs. It supports seamless integration with the Lucidia framework, offering developers a robust platform to build intelligent voice-driven applications without relying on external services.**
@@ -6072,7 +7495,7 @@
 
 ---
 
-### 28. [msaelices/whatsapp-mcp-server](https://github.com/msaelices/whatsapp-mcp-server)
+### 26. [msaelices/whatsapp-mcp-server](https://github.com/msaelices/whatsapp-mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6089,7 +7512,7 @@
 
 ---
 
-### 29. [kennyckk/mcp_hkbus](https://github.com/kennyckk/mcp_hkbus)
+### 27. [kennyckk/mcp_hkbus](https://github.com/kennyckk/mcp_hkbus)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The project provides a MCP server that allows AI applications to access live bus route data, stop locations, and estimated arrival times. It supports real-time queries for routes, stops, and ETA using the official KMB Open Data API. The solution integrates seamlessly with language models for enhanced user interaction.**
@@ -6105,7 +7528,7 @@
 
 ---
 
-### 30. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)
+### 28. [reading-plus-ai/mcp-server-data-exploration](https://github.com/reading-plus-ai/mcp-server-data-exploration)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -6122,7 +7545,7 @@
 
 ---
 
-### 31. [tizee/mcp-server-ietf](https://github.com/tizee/mcp-server-ietf)
+### 29. [tizee/mcp-server-ietf](https://github.com/tizee/mcp-server-ietf)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -6139,7 +7562,7 @@
 
 ---
 
-### 32. [5ajaki/safe-mcp-server](https://github.com/5ajaki/safe-mcp-server)
+### 30. [5ajaki/safe-mcp-server](https://github.com/5ajaki/safe-mcp-server)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6155,7 +7578,7 @@
 
 ---
 
-### 33. [catalystneuro/mcp_read_images](https://github.com/catalystneuro/mcp_read_images)
+### 31. [catalystneuro/mcp_read_images](https://github.com/catalystneuro/mcp_read_images)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -6172,7 +7595,7 @@
 
 ---
 
-### 34. [peikuo/china-stock-mcp-server](https://github.com/peikuo/china-stock-mcp-server)
+### 32. [peikuo/china-stock-mcp-server](https://github.com/peikuo/china-stock-mcp-server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -6189,7 +7612,7 @@
 
 ---
 
-### 35. [atla-ai/atla-mcp-server](https://github.com/atla-ai/atla-mcp-server)
+### 33. [atla-ai/atla-mcp-server](https://github.com/atla-ai/atla-mcp-server)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6205,7 +7628,7 @@
 
 ---
 
-### 36. [alexgoller/mcp-server-agenda](https://github.com/alexgoller/mcp-server-agenda)
+### 34. [alexgoller/mcp-server-agenda](https://github.com/alexgoller/mcp-server-agenda)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗3 layers
 
@@ -6221,7 +7644,7 @@
 
 ---
 
-### 37. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)
+### 35. [pylegifrance/mcp-server-legifrance](https://github.com/pylegifrance/mcp-server-legifrance)
 `9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -6240,7 +7663,7 @@
 
 ---
 
-### 38. [johnymontana/dgraph-mcp-server](https://github.com/johnymontana/dgraph-mcp-server)
+### 36. [johnymontana/dgraph-mcp-server](https://github.com/johnymontana/dgraph-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6256,7 +7679,7 @@
 
 ---
 
-### 39. [putdotio/putio-mcp-server](https://github.com/putdotio/putio-mcp-server)
+### 37. [putdotio/putio-mcp-server](https://github.com/putdotio/putio-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6272,7 +7695,7 @@
 
 ---
 
-### 40. [keegancsmith/linear-issues-mcp-server](https://github.com/keegancsmith/linear-issues-mcp-server)
+### 38. [keegancsmith/linear-issues-mcp-server](https://github.com/keegancsmith/linear-issues-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -6288,7 +7711,7 @@
 
 ---
 
-### 41. [sarunasdaujotis/vilnius-transport-mcp-server](https://github.com/sarunasdaujotis/vilnius-transport-mcp-server)
+### 39. [sarunasdaujotis/vilnius-transport-mcp-server](https://github.com/sarunasdaujotis/vilnius-transport-mcp-server)
 `8.7` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6303,7 +7726,23 @@
 
 ---
 
-### 42. [ivarvd-hldng/pdf-generator-mcp-server](https://github.com/ivarvd-hldng/pdf-generator-mcp-server)
+### 40. [smart-mcp-proxy/mcpproxy-go](https://github.com/smart-mcp-proxy/mcpproxy-go)
+`6.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**This repository details the 'mcpproxy-go' project, which provides a lightweight proxy server and an embedded web user interface. The core innovation is packaging the web UI directly into the Go binary, offering a unified solution for developers needing proxy capabilities without external service overhead. It demonstrates a strong integration of Go tooling with modern web UI concepts.**
+
+**Features:**
+- Go language support
+- embedded web UI
+- single binary deployment
+- macOS menu-bar integration
+- lightweight proxy server
+
+*Tags: go, docker, proxy, web-ui, developer-tools, golang, security*
+
+---
+
+### 41. [ivarvd-hldng/pdf-generator-mcp-server](https://github.com/ivarvd-hldng/pdf-generator-mcp-server)
 `8.5` ★ ⚡75 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6315,6 +7754,22 @@
 - Integration for modern development workflows
 
 *Tags: pdfkit, puppeteer, developer-tools, automation, workflow, batch-processing, web-scraping, code-generation...*
+
+---
+
+### 42. [payments.cure.com](https://payments.cure.com/)
+`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+
+**This is a web application focused on enabling users to make one-time payments online, likely within the context of an insurance provider. The interface suggests a clear focus on transactional clarity and user experience for payment processing.**
+
+**Features:**
+- One-time payment functionality
+- Online payment enablement
+- Insurance integration
+- Payment gateway solution
+- JavaScript requirement
+
+*Tags: payments, insurance, online, web, transaction, payment*
 
 ---
 
@@ -6331,651 +7786,88 @@
 
 ---
 
-### 44. [Cline Openrouter Which Cheap Paid Model Is Best](https://www.reddit.com/r/openrouter/comments/1svcbe7/cline_openrouter_which_cheap_paid_model_is_best/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 44. [Build responsive front-end designs | Codex use cases](https://developers.openai.com/codex/use-cases/frontend-designs)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 
-**Cline Openrouter Which Cheap Paid Model Is Best**
-
----
-
-### 45. [Opencoderoutines](https://www.reddit.com/r/opencodeCLI/comments/1smhb1m/opencoderoutines/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Opencoderoutines**
-
----
-
-## Context Engineering
-> 38 tools · avg signal ⚡81
-
-### 1. [zhaoyouj/mcp-slicer](https://github.com/zhaoyouj/mcp-slicer)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The mcp-slicer project provides a Model Context Protocol (MCP) server that connects 3D Slicer with external AI applications such as Claude Desktop. This allows users to interact with 3D medical images and scenes using natural language, supporting tasks like node listing, execution of Python scripts, capturing screenshots, and rendering 3D views. The integration enhances workflow efficiency by enabling seamless communication between AI assistants and Slicer's rich visualization capabilities.**
+**This resource demonstrates how to use a tool (Codex) to transform visual mockups or design briefs into functional, responsive frontend code that adheres to an existing repository's design system. It emphasizes translating visual requirements into actual implementation while ensuring the resulting UI behaves correctly across different screen sizes.**
 
 **Features:**
-- Model Context Protocol (MCP) integration
-- AI-powered interaction with 3D Slicer
-- Natural language control of 3D scenes
-- Real-time Python code execution in Slicer
-- Screenshot capture for visual feedback
-- 3D rendering and visualization tools
+- Screenshot-to-code translation
+- Responsive UI implementation
+- Design system adherence
+- Playwright verification
+- Frontend development
 
-*Tags: ai-integration, 3d-slicer, model-context-protocol, cloud-development, developer-tools, python-scripting, medical-imaging, ai-assistants...*
+*Tags: frontend-design, ui-automation, responsive-web, design-systems, screenshot-to-code, testing*
 
 ---
 
-### 2. [kukapay/whereami-mcp](https://github.com/kukapay/whereami-mcp)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+### 45. [WinBoat - Run Windows Apps on Linux with Seamless Integration](https://www.winboat.app/)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 
-**The kukapay/whereami-mcp project offers a minimalistic MCP (Mobile Cloud PC) server designed to accurately determine a user's geographical location using their IP address. It leverages the ipapi.co API to fetch detailed geolocation data, including city, country, region, latitude, longitude, timezone, and ISP. This tool is particularly useful for applications requiring precise location awareness, such as navigation apps, location-based services, or enterprise solutions needing contextual data.**
+**WinBoat is a tool designed to bridge the gap between Windows applications and the Linux desktop, offering a native-like experience. Key features include automated installation of Windows apps, running Windows software within Linux, and seamless filesystem integration between the two operating systems.**
 
 **Features:**
-- Dynamic location detection via IP address
-- Detailed geolocation report generation
-- Support for multiple location types (IP
-- city
-- country
-- etc.)
+- Windows app execution
+- Seamless Linux integration
+- Automated Windows installs
+- Filesystem integration
+- Elegant interface
 
-*Tags: mcp, location-api, geolocation, ip-api, developer-tools*
+*Tags: cross-platform, desktop-integration, win-linux, app-layer, productivity, user-experience*
 
 ---
 
-### 3. [colesmcintosh/numpy-mcp](https://github.com/colesmcintosh/numpy-mcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
+### 46. [DHI Signal | DHI Capital Group](https://app.dhicapitalgroup.com/)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
 
-**This project provides a Model Context Protocol (MCP) server that integrates seamlessly with Claude and other MCP-compatible LLMs, allowing users to perform complex mathematical operations directly through natural language prompts. It supports a wide range of numerical tasks including linear algebra, statistical analysis, polynomial fitting, and more, all while maintaining high code quality and robust error handling.**
+**This tool provides a centralized platform for managing digital identities, access control, and user experience, likely focusing on secure authentication and session management. It serves as a critical layer for developers to integrate identity services seamlessly into their applications.**
 
 **Features:**
-- Model Context Protocol (MCP) server
-- Numerical computations with NumPy
-- Integration with Claude AI
-- Statistical analysis tools
-- Polynomial fitting
-- Data analysis functions
+- Digital Identity Management
+- Access Control Layer
+- Application Integration
+- User Experience Focus
+- API Gateway
 
-*Tags: numpy, mcp, ai, development, security, cloud, ai-devops, data-science...*
+*Tags: identity-management, access-control, developer-tools, security, user-experience, auth*
 
 ---
 
-### 4. [Aider - AI Pair Programming in Your Terminal](https://aider.chat)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗2 layers
+### 47. [chatmcp/mcp-directory](https://github.com/chatmcp/mcp-directory)
+`5.0` ★ ⚡70 Q0.8⭐ ⭐ Excellent
 
-**Aider is a CLI-driven pair programming environment that optimizes the interaction between developers and LLMs by treating the codebase as a living context. Its primary technical innovation is the 'repository map,' which uses Tree-sitter to create a compressed representation of the project hierarchy, allowing the LLM to understand cross-file dependencies without exceeding token limits. The tool automates the developer workflow by integrating directly with Git to auto-commit changes with descripti...**
+**This resource is a GitHub repository named 'mcp-directory' that serves as a curated directory for various MCP (Microservice/API) servers. It provides a structured way to organize and discover these server endpoints, which is crucial for developers needing to interact with or deploy microservices.**
 
 **Features:**
-- Repository mapping
-- automated git commits
-- multi-model support (Claude/GPT/DeepSeek/Local)
-- voice-to-code
-- linting and testing integration
-- terminal-based UX
-- cross-file editing
-- web context ingestion
+- MCP Directory
+- Awesome MCP Servers
+- mcp-servers
+- directory organization
+- developer workflow
 
-*Tags: ai-pair-programming, cli-tool, git-integration, repository-mapping, tree-sitter, code-llm, terminal-ux, automated-commits...*
+*Tags: mcp, microservices, api, developer-tools, directory, web-development*
 
 ---
 
-### 5. [PhotoRec - Wikipedia](https://en.wikipedia.org/wiki/PhotoRec)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗2 layers
+### 48. [MoneroVision - Comprehensive Blockchain Explorer for Monero (XMR)](https://monerovision.com/)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
 
-**PhotoRec is a powerful and versatile data recovery utility designed to recover lost or deleted files from various storage media. It operates by analyzing the raw data blocks on a storage device, identifying patterns such as image headers, metadata signatures, and file structures, and reconstructing files even when they are fragmented or corrupted. The software supports multiple file systems including FAT, NTFS, ext2/ext3/ext4, and more, making it highly adaptable for different recovery scenarios...**
+**This tool functions as a blockchain explorer, offering deep insight into the Monero ecosystem while also providing curated listings for online casinos, particularly those that are not on Gamstop. It serves as a bridge between blockchain data and consumer-facing entertainment platforms.**
 
 **Features:**
-- File carving
-- Support for multiple file systems
-- Custom signature detection
-- Data recovery from fragmented files
-- Cross-platform compatibility
-- Integration with TestDisk
-
-*Tags: data-recovery, file-carving, digital-forensics, software-development, open-source, file-system-analysis, recovery-tools, cybersecurity...*
-
----
-
-### 6. [amoldericksoans/ffmpeg-mcp](https://github.com/amoldericksoans/ffmpeg-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The ffmpeg-mcp project provides a Model Context Protocol Server that enhances the capabilities of large language models (LLMs) by allowing them to interact with a wide range of multimedia content. This server facilitates complex operations such as decoding, encoding, transcode, muxing, demuxing, streaming, filtering, and playback, making it highly versatile for various applications.**
-
-**Features:**
-- Model Context Protocol Server
-- Media format support
-- Streaming capabilities
-- Transcoding and encoding
-- Muxing and demuxing
-
-*Tags: ffmpeg, ffmpeg-mcp, model-protocol, llm, media-processing, developer-tools, code-synthesis, ai-integration...*
-
----
-
-### 7. [FlightGear - Wikipedia](https://en.wikipedia.org/wiki/FlightGear)
-`9.8` ★★ ⚡88 Q0.8🏆 🏆 World-class
-
-**FlightGear is a multi-platform flight simulator developed by the FlightGear project since 1997. It supports various operating systems and includes a robust engine for atmospheric and orbital simulations. The simulator features detailed physics modeling, including atmospheric dynamics, aerodynamics, and realistic weather effects. Its open-source nature allows developers to contribute and customize the software, making it a versatile tool for both research and educational purposes.**
-
-**Features:**
-- Atmospheric and orbital flight simulation
-- Customizable flight dynamics engine (JSBSim)
-- Support for multiple operating systems
-- Realistic weather and environmental effects
-- Open-source development and community contributions
-
-*Tags: flight-simulator, open-source, physics, simulation, multimedia, education, software-development, aerospace...*
-
----
-
-### 8. [aman-panjwani/mcp-sql-server-natural-lang](https://github.com/aman-panjwani/mcp-sql-server-natural-lang)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The project implements the Modal Context Protocol (MCP) to allow LLMs to interact with SQL Server databases using plain English. It supports querying, executing stored procedures, and managing complex workflows through conversational interfaces, enhancing accessibility for developers and non-technical users alike.**
-
-**Features:**
-- Natural language database interaction
-- One-click procedure execution
-- Context-aware conversations
-- Integration with SQL Server Agent
-- Secure and efficient data access
-
-*Tags: sql-server, natural-language-query, developer-tool, ai-integration, data-accessibility, conversational-ai, mcp-protocol, sql-execution...*
-
----
-
-### 9. [lobstercare/geofs-mcp](https://github.com/lobstercare/geofs-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The project implements a Model Context Protocol (MCP) server for the GeoFS flight simulator, allowing AI models to control aircraft parameters, retrieve real-time flight data, and execute maneuvers through HTTP and WebSocket endpoints. It supports integration with AI applications for enhanced simulation capabilities.**
-
-**Features:**
-- Control aircraft flight parameters
-- Access real-time flight data
-- Execute flight maneuvers
-- Retrieve aircraft position
-- Interact with AI models via MCP
-
-*Tags: ai, geofs, flight-simulator, model-context-protocol, developer-tools, web-development*
-
----
-
-### 10. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The VAST-AI-Research tripo-mcp project serves as an official MCP server for integrating Tripo AI into development workflows. It allows developers to interact with AI assistants using the Model Context Protocol, enabling seamless communication between natural language queries and 3D modeling tools like Blender. The platform supports Python-based integration, offering features such as code generation, workflow automation, and secure deployment environments.**
-
-**Features:**
-- Integrate Tripo AI with MCP
-- Generate 3D assets from natural language
-- Support Python development
-- Enable code generation and workflow automation
-
-*Tags: ai, blender, tripo, mcp, developer, python, code, integration...*
-
----
-
-### 11. [wricardo/grpcurl-mcp](https://github.com/wricardo/grpcurl-mcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The wricardo/grpcurl-mcp project provides a gRPC client interface via the grpcurl tool, enabling developers to invoke methods, list services, and describe service details on target systems. It supports reflection-based method invocation with custom headers and JSON payloads, making it suitable for integration into development workflows.**
-
-**Features:**
-- Invoke gRPC methods
-- List gRPC services
-- Describe gRPC services
-- Reflection-based method invocation
-
-*Tags: grpc, gremlin, model-context-protocol, api-integration, developer-tools, code-generation, security, automation...*
-
----
-
-### 12. [thirdstrandstudio/mcp-xpath](https://github.com/thirdstrandstudio/mcp-xpath)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The MCP (Mule Cloud Platform) XPath server allows users to run XPath expressions on XML data, supporting tasks such as querying XML documents, validating structures, and integrating with various platforms. It is designed for developers and engineers to streamline data extraction processes, enhance automation, and ensure consistency in applications.**
-
-**Features:**
-- Execute XPath queries on XML content
-- Integrate with Mule Cloud Platform
-- Support for multiple data sources
-- Automation of data validation tasks
-
-*Tags: xpath, mcp-xpath, developer-tools, xml-processing, automation, integration, security, code-quality...*
-
----
-
-### 13. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)
-`8.2` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project implements a MCP-based server that connects to the PokeAPI, processes requests using TypeScript and Zod for validation, and exposes tools like get-pokemon, random-pokemon, and pokemon-query. It supports real-time communication via SSE and integrates with Claude Desktop App for seamless AI-assisted Pokémon exploration.**
-
-**Features:**
-- Model Context Protocol integration
-- Real-time SSE communication
-- TypeScript-based API development
-- Pokémon data retrieval tools
-- Natural language query support
-
-*Tags: pokeapi, modelcontextprotocol, typescript, ai-assistant, pokemon-data*
-
----
-
-### 14. [ethanhenrickson/math-mcp](https://github.com/ethanhenrickson/math-mcp)
-`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Math-MCP project provides a lightweight API-based solution for integrating mathematical and statistical functions into large language models, facilitating precise computations in AI applications.**
-
-**Features:**
-- Basic arithmetic operations
-- Statistical functions (mean
-- median
-- mode
-- min
-- max)
-- Rounding functions (floor
-- ceiling
-- round)
-- Trigonometric functions (sin
-- cos
-- tan
-- ... and 5 more
-
-*Tags: math-mcp, ai, developer, ml, api, calculus, programming, security...*
-
----
-
-### 15. [OCR for construction documents does not work, we fixed it | Hacker News](https://news.ycombinator.com/item?id=47576055)
-`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The resource describes an OCR system designed to extract and analyze construction documents, focusing on challenges such as OCR failure due to image processing artifacts, the need for precise glyph binning, and the importance of maintaining visual fidelity during text extraction. It highlights differences between OCR and other methods like JBIG2, emphasizing the necessity of clear category boundaries and accurate pattern recognition in construction data.**
-
-**Features:**
-- OCR for construction documents
-- Glyph binning to handle image compression artifacts
-- Extraction of schedules and fixtures from drawings
-- Integration with APIs and developer tools
-- Support for structured data output (JSON)
-- Handling of visual similarity and font variations
-
-*Tags: construction, ocr, documentanalysis, constructionplans, ai, dataextraction, softwareintegration, industrytech...*
-
----
-
-### 16. [Always bet on text (2014) | Hacker News](https://news.ycombinator.com/item?id=46397379)
-`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The discussion revolves around the trade-offs between the versatility of text-based interfaces and the benefits of more interactive and visually-rich interfaces, as exemplified by Bret Victor's work and projects like Dynamicland and Folk Computer. It explores the challenges of creating these richer interfaces, including the significant engineering effort required and the need for improved performance and usability. The value lies in potentially enhancing learning, communication, and problem-solv...**
-
-**Features:**
-- Alternative interfaces
-- dynamic feedback
-- visual programming
-- interactive learning
-- non-textual representation
-- folk computer
-- dynamicland
-- tcl scripting
-
-*Tags: user-interface, ux, visual-programming, dynamicland, folk-computer, bret-victor, interactive-design, tcl...*
-
----
-
-### 17. [Bill Atkinson's psychedelic user interface | Hacker News](https://news.ycombinator.com/item?id=44530767)
-`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This Hacker News thread discusses Bill Atkinson's psychedelic user interface and its impact, particularly on HyperCard. It explores the influence of LSD on HyperCard's design, connections to Timothy Leary's Mind Mirror software, and the historical context of early HyperCard applications like the 'Smut Stack'. The thread provides links to videos, articles, and code repositories related to these topics, offering insights into the evolution of user interface design and the cultural influences shapi...**
-
-**Features:**
-- ["Discussion of Bill Atkinson's UI design and its psychedelic influences."
-- 'Exploration of the connection between HyperCard and LSD.'
-- "Links to resources related to Timothy Leary's Mind Mirror."
-- 'Information about the HyperCard Smut Stack
-- an early commercial HyperCard application.'
-- 'Historical context of early HyperCard development and its cultural impact.']
-
-*Tags: ['userinterface', 'hypercard', 'billatkinson', 'psychedelic', 'timothyleary', 'mindmirror', 'smutstack', 'historyofcomputing'...*
-
----
-
-### 18. [meet-jump-the-world-s-first-hyperreal-wingsuit-simulator](https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperreal-wingsuit-simulator)
-`10.0` ★★★ ⚡83 Q0.7⭐ ⭐ Excellent
-
-**JUMP leverages Unreal Engine 5 with advanced tools like Nanite and Lumen for photorealistic rendering, while integrating haptics, wind effects, and multi-sensory feedback. It combines professional input from pilots and engineers to ensure authenticity, aiming to deliver an immersive experience that closely mimics real-world wingsuit BASE jumping.**
-
-**Features:**
-- Hyperrealistic 3D environments using photogrammetry
-- Real-time physics engine for wingsuit dynamics
-- Multi-sensory simulation including wind
-- haptics
-- and scent
-- Custom VR headset integration
-- Esports-style competition and multiplayer features
-- Personalized avatars via facial scanning
-
-*Tags: unreal-engine, vr, photogrammetry, haptics, wingsuit, virtual-reality, metaverse, esports...*
-
----
-
-### 19. [maratsarbasov/flights-mcp](https://github.com/maratsarbasov/flights-mcp)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Borg Intelligence database provides a robust MCP server that enables users to search, filter, and book flights using the Aviasales Flight Search API. It supports advanced features such as detailed flight information retrieval, multiple transport options, and booking link generation, enhancing user experience through flexible search and seamless integration with external systems.**
-
-**Features:**
-- flight search
-- advanced filtering
-- detailed flight info
-- booking links
-
-*Tags: flights, api, search, mcp, aviasales, python, developer*
-
----
-
-### 20. [psalzman/mcp-openfec](https://github.com/psalzman/mcp-openfec)
-`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project offers a robust MCP server that enables developers and researchers to interact with the Federal Election Commission's API, offering features such as searching candidates, retrieving detailed financial information, accessing committee data, and tracking contributions. It supports integration into applications via CLI tools and provides secure access through an API key.**
-
-**Features:**
-- search candidates
-- get candidate financials
-- view individual contributions
-- track independent expenditures
-
-*Tags: openfec, api, data, server, integration*
-
----
-
-### 21. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The nhl-mcp library provides a clean, MCP-based interface to fetch NHL data such as standings, team stats, player info, and schedules. It addresses key gaps like missing team details and game state tracking while aiming to standardize data consumption for developers.**
-
-**Features:**
-- TypeScript implementation of the Model-Context Protocol (MCP)
-- Structured access to NHL APIs including standings
-- schedules
-- and player data
-- Support for team
-- player
-- and league information retrieval
-- Integration with NHL's official API endpoints
-
-*Tags: nhl-mcp, api-integration, data-fetching, model-protocol, typescript, nhl-data, api-client, game-tracking*
-
----
-
-### 22. [gongrzhe/langflow-doc-qa-server](https://github.com/gongrzhe/langflow-doc-qa-server)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project implements a Model Context Protocol (MCP) server that provides an intuitive interface for interacting with a Langflow-based document Q&A system. It demonstrates core MCP concepts by allowing users to query and retrieve information from a structured document backend through a clean, developer-friendly API.**
-
-**Features:**
-- Langflow integration
-- Model context protocol server
-- Document querying interface
-- Developer workflow support
-
-*Tags: longform, document-qa, langflow, mcp-server, developer-tools*
-
----
-
-### 23. [hbg/mcp-paperswithcode](https://github.com/hbg/mcp-paperswithcode)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-
-**The mcp-paperswithcode project provides a Model Context Protocol (MCP) client that integrates with the PapersWithCode API. It offers tools for searching papers, authors, datasets, conferences, and more, supporting AI-assisted code development and research workflows.**
-
-**Features:**
-- search_papers
-- author_search
-- conference_proceedings
-- dataset_listing
-
-*Tags: mcp, paperswithcode, ai, developer, research, code, security, integration...*
-
----
-
-### 24. [priteshshah96/mcp](https://github.com/priteshshah96/mcp)
-`8.2` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-
-**This project provides a streamlined application that enables users to communicate with AI models through a user-friendly frontend built with Gradio, while leveraging FastAPI and MCP Python SDK for backend functionality. The interface is designed to simplify the complex Model Context Protocol, making it accessible even for developers who prefer not to delve into intricate coding details.**
-
-**Features:**
-- Gradio-based chat interface
-- MCP protocol support
-- Integration with FastAPI backend
-- AI model interaction via Gradio
-
-*Tags: mcp, gradio, fastapi, ai-integration, streamlit, semantic-scholar-api, backend-development*
-
----
-
-### 25. [honeybluesky/mcp-unipile](https://github.com/honeybluesky/mcp-unipile)
-`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The honeybluesky/mcp-unipile project provides a MCP server integration for Unipile, allowing AI models to access and process messages from various communication channels such as LinkedIn, WhatsApp, Instagram, and more. This enhances user experience by unifying messaging interactions and leveraging AI capabilities like Claude for improved communication strategies.**
-
-**Features:**
-- Model Context Protocol integration
-- Cross-platform messaging support
-- AI-enhanced communication tools
-
-*Tags: mcp-unipile, ai, unipile, message-processing, developer-tools, ai-integration, cross-platform, communication...*
-
----
-
-### 26. [smartaec/ifcmcp](https://github.com/smartaec/ifcmcp)
-`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-
-**The project introduces an MCP (Industry Foundation Classes) server that allows large language models to communicate directly with IFC files, facilitating seamless integration between AI agents and industrial data formats. This enhances interoperability in engineering workflows by bridging natural language processing capabilities with structured industrial data.**
-
-**Features:**
-- Enable LLM interaction with IFC files
-- Support AI-driven engineering tasks
-- Integrate with existing MCP infrastructure
-
-*Tags: ifcmcp, ai, ml, developer-tools, industry-integration, code-automation, security, integration...*
-
----
-
-### 27. [jboothomas/pure-model-context-protocol](https://github.com/jboothomas/pure-model-context-protocol)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The jboothomas/pure-model-context-protocol project provides a lightweight MCP (Model Context Protocol) server designed to facilitate communication between applications and Pure Storage arrays. It enables developers to retrieve real-time information about array components, volumes, and hosts, streamlining integration with Pure Storage environments.**
-
-**Features:**
-- Interact with Pure storage arrays
-- Retrieve real-time array information
-- Support for MCP protocol
-
-*Tags: mcp, purestorage, pure-mcp-server, developer-tool, integration, api, cloudstorage, dataaccess...*
-
----
-
-### 28. [Units
-- GNU Project - Free Software Foundation](https://www.gnu.org/software/units)
-`8.8` ★ ⚡79 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The GNU Units utility is a free, open-source program designed to convert quantities between various measurement systems with precision. It supports complex mathematical operations while maintaining dimensional consistency across units such as distance, time, temperature, and more. The tool is essential for developers and engineers working on projects that require accurate unit handling, ensuring clarity and correctness in scientific and engineering computations.**
-
-**Features:**
-- unit conversion
-- dimensional analysis
-- scientific calculator
-- support for complex expressions
-
-*Tags: software, units, conversion, gnu, software-documentation, scientific-calculator, data-conversion, education...*
-
----
-
-### 29. [TidyTabs – Get this Extension for 🦊 Firefox (en-US)](https://addons.mozilla.org/en-US/firefox/addon/tidytabs)
-`8.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-
-**TidyTabs is designed to solve the problem of tab overload by introducing an intelligent organization layer directly into the user interface. It analyzes tab titles to infer context and automatically groups them using AI processing, which is noted to be done on a secure backend. The core functionality revolves around simplifying the user's view of numerous open resources by providing one-click, context-aware clustering and color-coding, thereby enhancing focus and navigation within the browsing s...**
-
-**Features:**
-- One-click tab organization using AI
-- Smart group naming based on tab titles
-- Auto-color-coded tab groups
-- Privacy-safe local/backend AI processing
-
-*Tags: browser-extension, tab-management, ui-organization, ai-context-grouping, user-experience, firefox-add-on, resource-grouping, session-management...*
-
----
-
-### 30. [NotITG](https://www.noti.tg)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**A highly modified StepMania engine designed for "modchart" creators, featuring Lua scripting and GLSL shaders to manipulate game windows and note paths.**
-
-**Features:**
-- Real-time modchart effect previews
-- GLSL shader support
-- arbitrary window manipulation
-- Sight Reading Tournament (SRT) focus.
-
-*Tags: gaming, rhythm-game, lua, glsl, engine, design, noti*
-
----
-
-### 31. [item?id=41929307](https://news.ycombinator.com/item?id=41929307)
-`7.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The article discusses the challenges developers face when implementing RAG (Retrieval-Augmented Generation) as a service, highlighting the need for intuitive interfaces that allow users to author text and retrieve relevant information dynamically. It compares different approaches, including using existing APIs and tools like Notion, SWIRL Search, and Epsilla, while emphasizing the importance of developer experience in enterprise environments.**
-
-**Features:**
-- RAG-as-a-service integration
-- API-based knowledge retrieval
-- text authoring tools
-- prompt engineering
-- data privacy compliance
-
-*Tags: rag, chatbot, llamaindex, swirl-search, notion, api, data-privacy, enterprise...*
-
----
-
-### 32. [Skyvern](https://app.skyvern.com/discover)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A browser automation platform that replaces fragile CSS selectors with computer vision and LLM reasoning to handle complex multi-step web tasks.**
-
-**Features:**
-- Computer vision element recognition
-- natural language workflow engine
-- CAPTCHA/2FA autonomous handling
-- MCP integration (March 2026).
-
-*Tags: browser-automation, vision, orchestration, workflows, stealth, app*
-
----
-
-### 33. [Freeciv.org - open source empire-building strategy game.](https://www.freeciv.org)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The gold standard open-source 4X strategy game, featuring a 2026 Freeciv3D WebGL engine relaunch for browser-based play supporting up to 500 players.**
-
-**Features:**
-- Freeciv3D WebGL browser engine
-- massive multiplayer (126-500 players)
-- cross-platform seamless play
-- highly customizable rulesets.
-
-*Tags: gaming, open-source, 4x, webgl, strategy, design, freeciv*
-
----
-
-### 34. [68793f4f-9718-8000-a139-a39b74707e1d](https://chatgpt.com/c/68793f4f-9718-8000-a139-a39b74707e1d)
-`8.8` ★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**The resource provides a detailed overview of how ChatGPT can be integrated into workflows, offering customizable and context-aware interactions. It emphasizes the importance of interface design and user experience in deploying AI-driven chat systems.**
-
-**Features:**
-- tailored responses
-- context understanding
-- chat history integration
-- image generation
-- file uploading
-
-*Tags: chatbot, ai, chatgpt, userinterface, developertools, naturallanguageprocessing, generativeai, contextualresponse...*
-
----
-
-### 35. [67c9a52d-1998-8000-92aa-70369422005b](https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b)
-`8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
-
-**The resource provides a detailed overview of how ChatGPT can be integrated into workflows, offering customizable and context-aware responses to enhance user interaction.**
-
-**Features:**
-- tailored responses
-- context understanding
-- chat history integration
-- image generation
-- file uploading
-
-*Tags: chatbot, ai, chatgpt, userinterface, developertools, contextualresponse, customization, integration...*
-
----
-
-### 36. [about](https://alternativeto.net/software/jwildfire/about)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**A premier open-source flame fractal generator featuring the JWildfireSwan GPU engine for near-real-time rendering of complex mathematical art.**
-
-**Features:**
-- JWildfireSwan GPU backend
-- painterly aesthetic variations
-- solid rendering overhaul
-- background transforms for complex layering.
-
-*Tags: fractals, mathematics, gpu-rendering, open-source, generative-art*
-
----
-
-### 37. [character.ai](https://character.ai)
-`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
-
-**The Borg resource focuses on creating an intuitive AI chat interface that dynamically adjusts its responses based on user context, enabling seamless integration across platforms while maintaining a cohesive user experience.**
-
-**Features:**
-- natural language understanding
-- context-aware responses
-- adaptive UI personalization
-- cross-platform compatibility
-
-*Tags: ai-chat, user-interface, contextual-adaptation, developer-tools, machine-learning, interactive-systems, adaptive-design, natural-language-processing...*
-
----
-
-### 38. [The Guy Who Released A Prompt Engineering Guide](https://www.reddit.com/r/ChatGPTPromptGenius/comments/1s9udph/the_guy_who_released_a_prompt_engineering_guide/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Guy Who Released A Prompt Engineering Guide**
+- Blockchain Explorer
+- Casino/Gambling Listings
+- Blockchain Data Visualization
+- Non-Gamstop Filtering
+- Comprehensive Site Index
+
+*Tags: blockchain-explorer, monero, casino, gambling, web3, crypto, ux*
 
 ---
 
 ## Governance & Safety
-> 36 tools · avg signal ⚡86
+> 45 tools · avg signal ⚡79
 
 ### 1. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -7305,22 +8197,7 @@
 
 ---
 
-### 18. [terpinedream/Bashd](https://github.com/terpinedream/Bashd)
-`10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
-
-**A script toolkit and Terminal User Interface (TUI) that provides fuzzy search navigation, update tracking, and a built-in MCP server for automated file categorization.**
-
-**Features:**
-- Fuzzy search navigation (`fzf`)
-- "Plumber's Safety" interactive `rm` wrapper
-- GitHub release update tracking
-- MCP-driven file categorization.
-
-*Tags: cli, tui, bash, mcp, file-management, github, machine-learning, version-control*
-
----
-
-### 19. [daedalus/mcp_reverse_engineering](https://github.com/daedalus/mcp_reverse_engineering)
+### 18. [daedalus/mcp_reverse_engineering](https://github.com/daedalus/mcp_reverse_engineering)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -7336,7 +8213,7 @@
 
 ---
 
-### 20. [cgize/claude-mcp-think-tool](https://github.com/cgize/claude-mcp-think-tool)
+### 19. [cgize/claude-mcp-think-tool](https://github.com/cgize/claude-mcp-think-tool)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -7352,7 +8229,7 @@
 
 ---
 
-### 21. [computeruseprotocol/computeruseprotocol](https://github.com/computeruseprotocol/computeruseprotocol)
+### 20. [computeruseprotocol/computeruseprotocol](https://github.com/computeruseprotocol/computeruseprotocol)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **The industry standard protocol allowing AI agents to perceive and control computer interfaces (mouse, keyboard, screen) across Windows, macOS, and Linux.**
@@ -7367,7 +8244,7 @@
 
 ---
 
-### 22. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)
+### 21. [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -7383,7 +8260,7 @@
 
 ---
 
-### 23. [testdriverai/testdriverai](https://github.com/testdriverai/testdriverai)
+### 22. [testdriverai/testdriverai](https://github.com/testdriverai/testdriverai)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7399,7 +8276,7 @@
 
 ---
 
-### 24. [Gemini 2.5 Computer Use model | Hacker News](https://news.ycombinator.com/item?id=45507936)
+### 23. [Gemini 2.5 Computer Use model | Hacker News](https://news.ycombinator.com/item?id=45507936)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **This Hacker News thread discusses the potential of Google's Gemini 2.5 model for browser automation. Users compare it to existing tools like Chrome Devtools MCP, Jest, and Playwright, highlighting speed and efficiency concerns. The conversation introduces Herd, an alternative agent orchestration framework that focuses on creating and deploying packaged browser automations (trails) that are more cost-effective and reliable than directly controlling a browser with an LLM. Herd offers a REST API an...**
@@ -7420,7 +8297,7 @@
 
 ---
 
-### 25. [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer)
+### 24. [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A vision-based framework that enables multimodal models to control a computer by viewing screenshots and generating high-accuracy XY click actions.**
@@ -7435,7 +8312,7 @@
 
 ---
 
-### 26. [llm-use/llm-use](https://github.com/llm-use/llm-use)
+### 25. [llm-use/llm-use](https://github.com/llm-use/llm-use)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A collection of frameworks and tools (OmniParser/CUA) that enable LLMs to "see" and control computer GUIs through visual action planning.**
@@ -7450,26 +8327,7 @@
 
 ---
 
-### 27. [GovAuctions — Government Surplus Auctions, Deals & More](https://www.govauctions.app)
-`9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
-
-**This resource examines how the Borg intelligence database should categorize information about GovAuctions, focusing on the technical approach to organizing and presenting government surplus auctions across various platforms. It highlights the importance of a seamless and intuitive user interface for users seeking to navigate fragmented auction listings efficiently.**
-
-**Features:**
-- Aggregating data from multiple official government auction platforms
-- Search and filter capabilities by keyword
-- category
-- state
-- or distance
-- Direct access to original auction sites without intermediaries
-- Email alerts for new listings
-- Bid functionality on the source platform
-
-*Tags: govauctions, auctionplatforms, governmentsurplus, searchengine, dataaggregation, userinterface, auctionbidding, governmentdeals...*
-
----
-
-### 28. [Looking for technical cofounder – guided, safety-critical maintenance software | Hacker News](https://news.ycombinator.com/item?id=46658491)
+### 26. [Looking for technical cofounder – guided, safety-critical maintenance software | Hacker News](https://news.ycombinator.com/item?id=46658491)
 `9.0` ★★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7488,7 +8346,7 @@
 
 ---
 
-### 29. [Tech Ingredients | VIDEOS](https://www.techingredients.com/videos)
+### 27. [Tech Ingredients | VIDEOS](https://www.techingredients.com/videos)
 `8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7505,7 +8363,7 @@
 
 ---
 
-### 30. [Google updates Gemini to improve mental health responses](https://9to5google.com/2026/04/07/gemini-mental-health-updates)
+### 28. [Google updates Gemini to improve mental health responses](https://9to5google.com/2026/04/07/gemini-mental-health-updates)
 `8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 
 **Google has rolled out Gemini updates to proactively address mental health concerns by integrating crisis detection, one-touch help connections, and safeguards against harmful behaviors. The initiative emphasizes responsible AI use, ensuring users are directed to appropriate resources while maintaining ethical boundaries.**
@@ -7521,7 +8379,7 @@
 
 ---
 
-### 31. [onewalker/openapi-mcp-server](https://github.com/onewalker/openapi-mcp-server)
+### 29. [onewalker/openapi-mcp-server](https://github.com/onewalker/openapi-mcp-server)
 `8.2` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7537,22 +8395,7 @@
 
 ---
 
-### 32. [Introducing the Gemini 2.5 Computer Use model](https://blog.google/technology/google-deepmind/gemini-computer-use-model)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**A specialized model designed to interact with GUIs like a human by "seeing" the screen via screenshots and generating precise click/type/scroll actions.**
-
-**Features:**
-- Closed-loop visual perception
-- screenshot-to-action generation
-- sub-second adaptation to UI changes
-- high-impact action safety gates.
-
-*Tags: vision, computer-use, computer-interaction, deepmind, automation, api, blog*
-
----
-
-### 33. [Hacker News](https://news.ycombinator.com/item?id=45554240)
+### 30. [Hacker News](https://news.ycombinator.com/item?id=45554240)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7568,7 +8411,7 @@
 
 ---
 
-### 34. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)
+### 31. [Hello World - OpenHands Docs](https://docs.openhands.dev/sdk/guides/hello-world)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗3 layers
 
@@ -7584,7 +8427,7 @@
 
 ---
 
-### 35. [Advance Tab Groups - Chrome Web Store](https://chromewebstore.google.com/detail/advance-tab-groups/pfpdhdhhmaaadjdolgfphniimpjnifhh)
+### 32. [Advance Tab Groups - Chrome Web Store](https://chromewebstore.google.com/detail/advance-tab-groups/pfpdhdhhmaaadjdolgfphniimpjnifhh)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **An automation-focused tab manager that uses Regex rules and domain-based logic to automatically organize and snapshot complex browser sessions.**
@@ -7599,7 +8442,39 @@
 
 ---
 
-### 36. [roomote-control](https://docs.roocode.com/roo-code-cloud/roomote-control)
+### 33. [playwright/mcp](https://github.com/playwright/mcp)
+`7.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+
+**Playwright MCP (Micro-Control Plane) is a powerful tool designed to provide a centralized layer for managing and executing Playwright tests. It focuses on the underlying infrastructure and orchestration needed to run tests efficiently across various environments.**
+
+**Features:**
+- Test Orchestration
+- Micro-Control Plane Management
+- Efficient Test Execution
+- Context Isolation
+- Developer Workflow Integration
+
+*Tags: playwright, testing, automation, microservices, devops, javascript, nodejs*
+
+---
+
+### 34. [bingud/filemat](https://github.com/bingud/filemat)
+`5.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**Filemat is a web-based file manager designed for managing local files from anywhere, offering features like user management, granular permissions, and file sharing options. It can be deployed via Docker or directly using the JAR file, providing a comprehensive solution for file organization and access.**
+
+**Features:**
+- Web-based file management
+- User management
+- Granular permissions
+- File sharing with public link
+- Self-hosted deployment
+
+*Tags: file-management, web-app, self-hosting, file-sharing, user-management, docker*
+
+---
+
+### 35. [roomote-control](https://docs.roocode.com/roo-code-cloud/roomote-control)
 `10.0` ★★★ ⚡71 Q0.5⭐ ⭐ Excellent
 ↗3 layers
 
@@ -7615,8 +8490,1430 @@
 
 ---
 
+### 36. [CBG Bulk & Wholesale Supplier | Bulk CBD Distributors](https://bulkcbddistributors.com/product-category/cbg)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource is a B2B/Wholesale platform that serves as a distributor for high-value cannabinoid products, specifically focusing on CBG. It provides manufacturers with options like isolate, distillate, extract, and flower, emphasizing quality assurance through ISO 17025 testing and compliance.**
+
+**Features:**
+- Bulk product sourcing
+- Wholesale catalog
+- Product format variety (Isolate
+- Distillate
+- Flower)
+- Third-party testing via ISO 17025
+- Manufacturer/Brand differentiation
+
+*Tags: cannabis, cbd, wholesale, b2b, product-sourcing, hemp, quality-assurance*
+
+---
+
+### 37. [HealthCare.gov](https://www.healthcare.gov/logout)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This is the official HealthCare.gov portal, designed to provide essential services and information for the healthcare sector. It serves as an interface connecting users with critical health resources, likely involving robust front-end design and backend data presentation.**
+
+**Features:**
+- Government Portal Integration
+- Healthcare Resource Delivery
+- User Authentication/Session Management
+- JavaScript Enablement
+- Secure Access
+
+*Tags: healthcare, government, user-experience, web-development, health-tech, portal*
+
+---
+
+### 38. [www.inawera.com](https://www.inawera.com/)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**Inawera is an e-commerce site that presents products exclusively for adults, emphasizing a clear call to action for the visitor. The interface highlights essential navigation elements like account login, product catalog access, and important policy disclosures regarding cookies and adult-specific offerings.**
+
+**Features:**
+- e-commerce platform
+- adult-focused products
+- user account login
+- clear calls to action
+- cookie policy integration
+
+*Tags: e-commerce, adult-products, user-experience, inawera, shopping, web-design*
+
+---
+
+### 39. [PhoenixForgotten.com is for sale | HugeDomains](http://redditplayer.phoenixforgotten.com/?r)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an e-commerce platform specializing in selling domain names, providing users with a domain for purchase. It highlights the pricing structure, payment plans (0% interest financing), and a strong customer assurance policy (30-day money-back guarantee).**
+
+**Features:**
+- Domain marketplace
+- flexible payment plans
+- 30-day money-back guarantee
+- domain sales platform
+- quick delivery service
+
+*Tags: domain-marketplace, e-commerce, domain-sales, payment-plan, digital-asset, consumer-trust*
+
+---
+
+### 40. [2042123561666855235](https://x.com/elonmusk/status/2042123561666855235)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a modern web interface (X.com) that enforces client-side constraints by checking the browser's capability to execute JavaScript. It serves as a practical demonstration of how front-end applications manage feature availability and user experience when underlying engine capabilities are restricted.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility management
+- Help Center integration
+- Supported browser list
+- Cookie/Privacy policy enforcement
+
+*Tags: web-development, javascript, front-end, user-experience, browser-compatibility, web-platform*
+
+---
+
+### 41. [Amazon.com](https://a.co/d/0i929SoJ)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource is an interface for an e-commerce platform, designed to facilitate the shopping process by providing clear calls to action and a seamless user experience. It demonstrates a standard retail interface where users can continue shopping after engaging with the primary call to action.**
+
+**Features:**
+- E-commerce interface
+- Shopping experience flow
+- Clear Call to Action (CTA)
+- Privacy Policy integration
+
+*Tags: e-commerce, ux-design, retail, shopping, amazon, interface, web-development*
+
+---
+
+### 42. [2047516566149816627](https://x.com/jukan05/status/2047516566149816627)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource is a direct link to the X platform, which explicitly informs the user that JavaScript is disabled in their browser. It serves as an example of how a modern web interface handles client-side execution and compatibility issues when rendering content.**
+
+**Features:**
+- JavaScript enablement check
+- Browser support matrix
+- Help Center integration
+- Error handling/fallback mechanism
+- Cookie policy interaction
+
+*Tags: web-development, browser-compatibility, client-side-execution, ux-testing, javascript-limitations*
+
+---
+
+### 43. [Amazon.com](https://a.co/d/03vipgBh)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource is an Amazon storefront, demonstrating the core user interface for e-commerce, including shopping prompts and essential business policies. It serves as a practical example of how a developer or system interacts with a consumer-facing platform.**
+
+**Features:**
+- E-commerce UI/UX demonstration
+- Shopping cart integration
+- Clear call-to-action buttons
+- Privacy policy display
+
+*Tags: e-commerce, ux-design, shopping, amazon, interface, developer-tools*
+
+---
+
+### 44. [theguardian.com](https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**theguardian.com**
+
+---
+
+### 45. [theguardian.com](https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**theguardian.com**
+
+---
+
+## Context Engineering
+> 43 tools · avg signal ⚡79
+
+### 1. [zhaoyouj/mcp-slicer](https://github.com/zhaoyouj/mcp-slicer)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The mcp-slicer project provides a Model Context Protocol (MCP) server that connects 3D Slicer with external AI applications such as Claude Desktop. This allows users to interact with 3D medical images and scenes using natural language, supporting tasks like node listing, execution of Python scripts, capturing screenshots, and rendering 3D views. The integration enhances workflow efficiency by enabling seamless communication between AI assistants and Slicer's rich visualization capabilities.**
+
+**Features:**
+- Model Context Protocol (MCP) integration
+- AI-powered interaction with 3D Slicer
+- Natural language control of 3D scenes
+- Real-time Python code execution in Slicer
+- Screenshot capture for visual feedback
+- 3D rendering and visualization tools
+
+*Tags: ai-integration, 3d-slicer, model-context-protocol, cloud-development, developer-tools, python-scripting, medical-imaging, ai-assistants...*
+
+---
+
+### 2. [kukapay/whereami-mcp](https://github.com/kukapay/whereami-mcp)
+`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+
+**The kukapay/whereami-mcp project offers a minimalistic MCP (Mobile Cloud PC) server designed to accurately determine a user's geographical location using their IP address. It leverages the ipapi.co API to fetch detailed geolocation data, including city, country, region, latitude, longitude, timezone, and ISP. This tool is particularly useful for applications requiring precise location awareness, such as navigation apps, location-based services, or enterprise solutions needing contextual data.**
+
+**Features:**
+- Dynamic location detection via IP address
+- Detailed geolocation report generation
+- Support for multiple location types (IP
+- city
+- country
+- etc.)
+
+*Tags: mcp, location-api, geolocation, ip-api, developer-tools*
+
+---
+
+### 3. [colesmcintosh/numpy-mcp](https://github.com/colesmcintosh/numpy-mcp)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This project provides a Model Context Protocol (MCP) server that integrates seamlessly with Claude and other MCP-compatible LLMs, allowing users to perform complex mathematical operations directly through natural language prompts. It supports a wide range of numerical tasks including linear algebra, statistical analysis, polynomial fitting, and more, all while maintaining high code quality and robust error handling.**
+
+**Features:**
+- Model Context Protocol (MCP) server
+- Numerical computations with NumPy
+- Integration with Claude AI
+- Statistical analysis tools
+- Polynomial fitting
+- Data analysis functions
+
+*Tags: numpy, mcp, ai, development, security, cloud, ai-devops, data-science...*
+
+---
+
+### 4. [Aider - AI Pair Programming in Your Terminal](https://aider.chat)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**Aider is a CLI-driven pair programming environment that optimizes the interaction between developers and LLMs by treating the codebase as a living context. Its primary technical innovation is the 'repository map,' which uses Tree-sitter to create a compressed representation of the project hierarchy, allowing the LLM to understand cross-file dependencies without exceeding token limits. The tool automates the developer workflow by integrating directly with Git to auto-commit changes with descripti...**
+
+**Features:**
+- Repository mapping
+- automated git commits
+- multi-model support (Claude/GPT/DeepSeek/Local)
+- voice-to-code
+- linting and testing integration
+- terminal-based UX
+- cross-file editing
+- web context ingestion
+
+*Tags: ai-pair-programming, cli-tool, git-integration, repository-mapping, tree-sitter, code-llm, terminal-ux, automated-commits...*
+
+---
+
+### 5. [PhotoRec - Wikipedia](https://en.wikipedia.org/wiki/PhotoRec)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**PhotoRec is a powerful and versatile data recovery utility designed to recover lost or deleted files from various storage media. It operates by analyzing the raw data blocks on a storage device, identifying patterns such as image headers, metadata signatures, and file structures, and reconstructing files even when they are fragmented or corrupted. The software supports multiple file systems including FAT, NTFS, ext2/ext3/ext4, and more, making it highly adaptable for different recovery scenarios...**
+
+**Features:**
+- File carving
+- Support for multiple file systems
+- Custom signature detection
+- Data recovery from fragmented files
+- Cross-platform compatibility
+- Integration with TestDisk
+
+*Tags: data-recovery, file-carving, digital-forensics, software-development, open-source, file-system-analysis, recovery-tools, cybersecurity...*
+
+---
+
+### 6. [amoldericksoans/ffmpeg-mcp](https://github.com/amoldericksoans/ffmpeg-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The ffmpeg-mcp project provides a Model Context Protocol Server that enhances the capabilities of large language models (LLMs) by allowing them to interact with a wide range of multimedia content. This server facilitates complex operations such as decoding, encoding, transcode, muxing, demuxing, streaming, filtering, and playback, making it highly versatile for various applications.**
+
+**Features:**
+- Model Context Protocol Server
+- Media format support
+- Streaming capabilities
+- Transcoding and encoding
+- Muxing and demuxing
+
+*Tags: ffmpeg, ffmpeg-mcp, model-protocol, llm, media-processing, developer-tools, code-synthesis, ai-integration...*
+
+---
+
+### 7. [FlightGear - Wikipedia](https://en.wikipedia.org/wiki/FlightGear)
+`9.8` ★★ ⚡88 Q0.8🏆 🏆 World-class
+
+**FlightGear is a multi-platform flight simulator developed by the FlightGear project since 1997. It supports various operating systems and includes a robust engine for atmospheric and orbital simulations. The simulator features detailed physics modeling, including atmospheric dynamics, aerodynamics, and realistic weather effects. Its open-source nature allows developers to contribute and customize the software, making it a versatile tool for both research and educational purposes.**
+
+**Features:**
+- Atmospheric and orbital flight simulation
+- Customizable flight dynamics engine (JSBSim)
+- Support for multiple operating systems
+- Realistic weather and environmental effects
+- Open-source development and community contributions
+
+*Tags: flight-simulator, open-source, physics, simulation, multimedia, education, software-development, aerospace...*
+
+---
+
+### 8. [aman-panjwani/mcp-sql-server-natural-lang](https://github.com/aman-panjwani/mcp-sql-server-natural-lang)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**The project implements the Modal Context Protocol (MCP) to allow LLMs to interact with SQL Server databases using plain English. It supports querying, executing stored procedures, and managing complex workflows through conversational interfaces, enhancing accessibility for developers and non-technical users alike.**
+
+**Features:**
+- Natural language database interaction
+- One-click procedure execution
+- Context-aware conversations
+- Integration with SQL Server Agent
+- Secure and efficient data access
+
+*Tags: sql-server, natural-language-query, developer-tool, ai-integration, data-accessibility, conversational-ai, mcp-protocol, sql-execution...*
+
+---
+
+### 9. [lobstercare/geofs-mcp](https://github.com/lobstercare/geofs-mcp)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**The project implements a Model Context Protocol (MCP) server for the GeoFS flight simulator, allowing AI models to control aircraft parameters, retrieve real-time flight data, and execute maneuvers through HTTP and WebSocket endpoints. It supports integration with AI applications for enhanced simulation capabilities.**
+
+**Features:**
+- Control aircraft flight parameters
+- Access real-time flight data
+- Execute flight maneuvers
+- Retrieve aircraft position
+- Interact with AI models via MCP
+
+*Tags: ai, geofs, flight-simulator, model-context-protocol, developer-tools, web-development*
+
+---
+
+### 10. [vast-ai-research/tripo-mcp](https://github.com/vast-ai-research/tripo-mcp)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The VAST-AI-Research tripo-mcp project serves as an official MCP server for integrating Tripo AI into development workflows. It allows developers to interact with AI assistants using the Model Context Protocol, enabling seamless communication between natural language queries and 3D modeling tools like Blender. The platform supports Python-based integration, offering features such as code generation, workflow automation, and secure deployment environments.**
+
+**Features:**
+- Integrate Tripo AI with MCP
+- Generate 3D assets from natural language
+- Support Python development
+- Enable code generation and workflow automation
+
+*Tags: ai, blender, tripo, mcp, developer, python, code, integration...*
+
+---
+
+### 11. [wricardo/grpcurl-mcp](https://github.com/wricardo/grpcurl-mcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The wricardo/grpcurl-mcp project provides a gRPC client interface via the grpcurl tool, enabling developers to invoke methods, list services, and describe service details on target systems. It supports reflection-based method invocation with custom headers and JSON payloads, making it suitable for integration into development workflows.**
+
+**Features:**
+- Invoke gRPC methods
+- List gRPC services
+- Describe gRPC services
+- Reflection-based method invocation
+
+*Tags: grpc, gremlin, model-context-protocol, api-integration, developer-tools, code-generation, security, automation...*
+
+---
+
+### 12. [naveenbandarage/poke-mcp](https://github.com/naveenbandarage/poke-mcp)
+`8.2` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project implements a MCP-based server that connects to the PokeAPI, processes requests using TypeScript and Zod for validation, and exposes tools like get-pokemon, random-pokemon, and pokemon-query. It supports real-time communication via SSE and integrates with Claude Desktop App for seamless AI-assisted Pokémon exploration.**
+
+**Features:**
+- Model Context Protocol integration
+- Real-time SSE communication
+- TypeScript-based API development
+- Pokémon data retrieval tools
+- Natural language query support
+
+*Tags: pokeapi, modelcontextprotocol, typescript, ai-assistant, pokemon-data*
+
+---
+
+### 13. [ethanhenrickson/math-mcp](https://github.com/ethanhenrickson/math-mcp)
+`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The Math-MCP project provides a lightweight API-based solution for integrating mathematical and statistical functions into large language models, facilitating precise computations in AI applications.**
+
+**Features:**
+- Basic arithmetic operations
+- Statistical functions (mean
+- median
+- mode
+- min
+- max)
+- Rounding functions (floor
+- ceiling
+- round)
+- Trigonometric functions (sin
+- cos
+- tan
+- ... and 5 more
+
+*Tags: math-mcp, ai, developer, ml, api, calculus, programming, security...*
+
+---
+
+### 14. [OCR for construction documents does not work, we fixed it | Hacker News](https://news.ycombinator.com/item?id=47576055)
+`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The resource describes an OCR system designed to extract and analyze construction documents, focusing on challenges such as OCR failure due to image processing artifacts, the need for precise glyph binning, and the importance of maintaining visual fidelity during text extraction. It highlights differences between OCR and other methods like JBIG2, emphasizing the necessity of clear category boundaries and accurate pattern recognition in construction data.**
+
+**Features:**
+- OCR for construction documents
+- Glyph binning to handle image compression artifacts
+- Extraction of schedules and fixtures from drawings
+- Integration with APIs and developer tools
+- Support for structured data output (JSON)
+- Handling of visual similarity and font variations
+
+*Tags: construction, ocr, documentanalysis, constructionplans, ai, dataextraction, softwareintegration, industrytech...*
+
+---
+
+### 15. [Always bet on text (2014) | Hacker News](https://news.ycombinator.com/item?id=46397379)
+`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The discussion revolves around the trade-offs between the versatility of text-based interfaces and the benefits of more interactive and visually-rich interfaces, as exemplified by Bret Victor's work and projects like Dynamicland and Folk Computer. It explores the challenges of creating these richer interfaces, including the significant engineering effort required and the need for improved performance and usability. The value lies in potentially enhancing learning, communication, and problem-solv...**
+
+**Features:**
+- Alternative interfaces
+- dynamic feedback
+- visual programming
+- interactive learning
+- non-textual representation
+- folk computer
+- dynamicland
+- tcl scripting
+
+*Tags: user-interface, ux, visual-programming, dynamicland, folk-computer, bret-victor, interactive-design, tcl...*
+
+---
+
+### 16. [Bill Atkinson's psychedelic user interface | Hacker News](https://news.ycombinator.com/item?id=44530767)
+`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This Hacker News thread discusses Bill Atkinson's psychedelic user interface and its impact, particularly on HyperCard. It explores the influence of LSD on HyperCard's design, connections to Timothy Leary's Mind Mirror software, and the historical context of early HyperCard applications like the 'Smut Stack'. The thread provides links to videos, articles, and code repositories related to these topics, offering insights into the evolution of user interface design and the cultural influences shapi...**
+
+**Features:**
+- ["Discussion of Bill Atkinson's UI design and its psychedelic influences."
+- 'Exploration of the connection between HyperCard and LSD.'
+- "Links to resources related to Timothy Leary's Mind Mirror."
+- 'Information about the HyperCard Smut Stack
+- an early commercial HyperCard application.'
+- 'Historical context of early HyperCard development and its cultural impact.']
+
+*Tags: ['userinterface', 'hypercard', 'billatkinson', 'psychedelic', 'timothyleary', 'mindmirror', 'smutstack', 'historyofcomputing'...*
+
+---
+
+### 17. [www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-](https://www.unrealengine.com/en-US/spotlights/meet-jump-the-world-s-first-hyperreal-wingsuit-simulator)
+`10.0` ★★★ ⚡83 Q0.7⭐ ⭐ Excellent
+
+**JUMP leverages Unreal Engine 5 with advanced tools like Nanite and Lumen for photorealistic rendering, while integrating haptics, wind effects, and multi-sensory feedback. It combines professional input from pilots and engineers to ensure authenticity, aiming to deliver an immersive experience that closely mimics real-world wingsuit BASE jumping.**
+
+**Features:**
+- Hyperrealistic 3D environments using photogrammetry
+- Real-time physics engine for wingsuit dynamics
+- Multi-sensory simulation including wind
+- haptics
+- and scent
+- Custom VR headset integration
+- Esports-style competition and multiplayer features
+- Personalized avatars via facial scanning
+
+*Tags: unreal-engine, vr, photogrammetry, haptics, wingsuit, virtual-reality, metaverse, esports...*
+
+---
+
+### 18. [maratsarbasov/flights-mcp](https://github.com/maratsarbasov/flights-mcp)
+`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The Borg Intelligence database provides a robust MCP server that enables users to search, filter, and book flights using the Aviasales Flight Search API. It supports advanced features such as detailed flight information retrieval, multiple transport options, and booking link generation, enhancing user experience through flexible search and seamless integration with external systems.**
+
+**Features:**
+- flight search
+- advanced filtering
+- detailed flight info
+- booking links
+
+*Tags: flights, api, search, mcp, aviasales, python, developer*
+
+---
+
+### 19. [psalzman/mcp-openfec](https://github.com/psalzman/mcp-openfec)
+`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project offers a robust MCP server that enables developers and researchers to interact with the Federal Election Commission's API, offering features such as searching candidates, retrieving detailed financial information, accessing committee data, and tracking contributions. It supports integration into applications via CLI tools and provides secure access through an API key.**
+
+**Features:**
+- search candidates
+- get candidate financials
+- view individual contributions
+- track independent expenditures
+
+*Tags: openfec, api, data, server, integration*
+
+---
+
+### 20. [dylangroos/nhl-mcp](https://github.com/dylangroos/nhl-mcp)
+`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The nhl-mcp library provides a clean, MCP-based interface to fetch NHL data such as standings, team stats, player info, and schedules. It addresses key gaps like missing team details and game state tracking while aiming to standardize data consumption for developers.**
+
+**Features:**
+- TypeScript implementation of the Model-Context Protocol (MCP)
+- Structured access to NHL APIs including standings
+- schedules
+- and player data
+- Support for team
+- player
+- and league information retrieval
+- Integration with NHL's official API endpoints
+
+*Tags: nhl-mcp, api-integration, data-fetching, model-protocol, typescript, nhl-data, api-client, game-tracking*
+
+---
+
+### 21. [gongrzhe/langflow-doc-qa-server](https://github.com/gongrzhe/langflow-doc-qa-server)
+`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project implements a Model Context Protocol (MCP) server that provides an intuitive interface for interacting with a Langflow-based document Q&A system. It demonstrates core MCP concepts by allowing users to query and retrieve information from a structured document backend through a clean, developer-friendly API.**
+
+**Features:**
+- Langflow integration
+- Model context protocol server
+- Document querying interface
+- Developer workflow support
+
+*Tags: longform, document-qa, langflow, mcp-server, developer-tools*
+
+---
+
+### 22. [hbg/mcp-paperswithcode](https://github.com/hbg/mcp-paperswithcode)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**The mcp-paperswithcode project provides a Model Context Protocol (MCP) client that integrates with the PapersWithCode API. It offers tools for searching papers, authors, datasets, conferences, and more, supporting AI-assisted code development and research workflows.**
+
+**Features:**
+- search_papers
+- author_search
+- conference_proceedings
+- dataset_listing
+
+*Tags: mcp, paperswithcode, ai, developer, research, code, security, integration...*
+
+---
+
+### 23. [priteshshah96/mcp](https://github.com/priteshshah96/mcp)
+`8.2` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**This project provides a streamlined application that enables users to communicate with AI models through a user-friendly frontend built with Gradio, while leveraging FastAPI and MCP Python SDK for backend functionality. The interface is designed to simplify the complex Model Context Protocol, making it accessible even for developers who prefer not to delve into intricate coding details.**
+
+**Features:**
+- Gradio-based chat interface
+- MCP protocol support
+- Integration with FastAPI backend
+- AI model interaction via Gradio
+
+*Tags: mcp, gradio, fastapi, ai-integration, streamlit, semantic-scholar-api, backend-development*
+
+---
+
+### 24. [honeybluesky/mcp-unipile](https://github.com/honeybluesky/mcp-unipile)
+`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The honeybluesky/mcp-unipile project provides a MCP server integration for Unipile, allowing AI models to access and process messages from various communication channels such as LinkedIn, WhatsApp, Instagram, and more. This enhances user experience by unifying messaging interactions and leveraging AI capabilities like Claude for improved communication strategies.**
+
+**Features:**
+- Model Context Protocol integration
+- Cross-platform messaging support
+- AI-enhanced communication tools
+
+*Tags: mcp-unipile, ai, unipile, message-processing, developer-tools, ai-integration, cross-platform, communication...*
+
+---
+
+### 25. [smartaec/ifcmcp](https://github.com/smartaec/ifcmcp)
+`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+
+**The project introduces an MCP (Industry Foundation Classes) server that allows large language models to communicate directly with IFC files, facilitating seamless integration between AI agents and industrial data formats. This enhances interoperability in engineering workflows by bridging natural language processing capabilities with structured industrial data.**
+
+**Features:**
+- Enable LLM interaction with IFC files
+- Support AI-driven engineering tasks
+- Integrate with existing MCP infrastructure
+
+*Tags: ifcmcp, ai, ml, developer-tools, industry-integration, code-automation, security, integration...*
+
+---
+
+### 26. [jboothomas/pure-model-context-protocol](https://github.com/jboothomas/pure-model-context-protocol)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The jboothomas/pure-model-context-protocol project provides a lightweight MCP (Model Context Protocol) server designed to facilitate communication between applications and Pure Storage arrays. It enables developers to retrieve real-time information about array components, volumes, and hosts, streamlining integration with Pure Storage environments.**
+
+**Features:**
+- Interact with Pure storage arrays
+- Retrieve real-time array information
+- Support for MCP protocol
+
+*Tags: mcp, purestorage, pure-mcp-server, developer-tool, integration, api, cloudstorage, dataaccess...*
+
+---
+
+### 27. [Units
+- GNU Project - Free Software Foundation](https://www.gnu.org/software/units)
+`8.8` ★ ⚡79 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The GNU Units utility is a free, open-source program designed to convert quantities between various measurement systems with precision. It supports complex mathematical operations while maintaining dimensional consistency across units such as distance, time, temperature, and more. The tool is essential for developers and engineers working on projects that require accurate unit handling, ensuring clarity and correctness in scientific and engineering computations.**
+
+**Features:**
+- unit conversion
+- dimensional analysis
+- scientific calculator
+- support for complex expressions
+
+*Tags: software, units, conversion, gnu, software-documentation, scientific-calculator, data-conversion, education...*
+
+---
+
+### 28. [TidyTabs – Get this Extension for 🦊 Firefox (en-US)](https://addons.mozilla.org/en-US/firefox/addon/tidytabs)
+`8.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+
+**TidyTabs is designed to solve the problem of tab overload by introducing an intelligent organization layer directly into the user interface. It analyzes tab titles to infer context and automatically groups them using AI processing, which is noted to be done on a secure backend. The core functionality revolves around simplifying the user's view of numerous open resources by providing one-click, context-aware clustering and color-coding, thereby enhancing focus and navigation within the browsing s...**
+
+**Features:**
+- One-click tab organization using AI
+- Smart group naming based on tab titles
+- Auto-color-coded tab groups
+- Privacy-safe local/backend AI processing
+
+*Tags: browser-extension, tab-management, ui-organization, ai-context-grouping, user-experience, firefox-add-on, resource-grouping, session-management...*
+
+---
+
+### 29. [NotITG](https://www.noti.tg)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**A highly modified StepMania engine designed for "modchart" creators, featuring Lua scripting and GLSL shaders to manipulate game windows and note paths.**
+
+**Features:**
+- Real-time modchart effect previews
+- GLSL shader support
+- arbitrary window manipulation
+- Sight Reading Tournament (SRT) focus.
+
+*Tags: gaming, rhythm-game, lua, glsl, engine, design, noti*
+
+---
+
+### 30. [item?id=41929307](https://news.ycombinator.com/item?id=41929307)
+`7.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The article discusses the challenges developers face when implementing RAG (Retrieval-Augmented Generation) as a service, highlighting the need for intuitive interfaces that allow users to author text and retrieve relevant information dynamically. It compares different approaches, including using existing APIs and tools like Notion, SWIRL Search, and Epsilla, while emphasizing the importance of developer experience in enterprise environments.**
+
+**Features:**
+- RAG-as-a-service integration
+- API-based knowledge retrieval
+- text authoring tools
+- prompt engineering
+- data privacy compliance
+
+*Tags: rag, chatbot, llamaindex, swirl-search, notion, api, data-privacy, enterprise...*
+
+---
+
+### 31. [Skyvern](https://app.skyvern.com/discover)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A browser automation platform that replaces fragile CSS selectors with computer vision and LLM reasoning to handle complex multi-step web tasks.**
+
+**Features:**
+- Computer vision element recognition
+- natural language workflow engine
+- CAPTCHA/2FA autonomous handling
+- MCP integration (March 2026).
+
+*Tags: browser-automation, vision, orchestration, workflows, stealth, app*
+
+---
+
+### 32. [Freeciv.org - open source empire-building strategy game.](https://www.freeciv.org)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The gold standard open-source 4X strategy game, featuring a 2026 Freeciv3D WebGL engine relaunch for browser-based play supporting up to 500 players.**
+
+**Features:**
+- Freeciv3D WebGL browser engine
+- massive multiplayer (126-500 players)
+- cross-platform seamless play
+- highly customizable rulesets.
+
+*Tags: gaming, open-source, 4x, webgl, strategy, design, freeciv*
+
+---
+
+### 33. [68793f4f-9718-8000-a139-a39b74707e1d](https://chatgpt.com/c/68793f4f-9718-8000-a139-a39b74707e1d)
+`8.8` ★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**The resource provides a detailed overview of how ChatGPT can be integrated into workflows, offering customizable and context-aware interactions. It emphasizes the importance of interface design and user experience in deploying AI-driven chat systems.**
+
+**Features:**
+- tailored responses
+- context understanding
+- chat history integration
+- image generation
+- file uploading
+
+*Tags: chatbot, ai, chatgpt, userinterface, developertools, naturallanguageprocessing, generativeai, contextualresponse...*
+
+---
+
+### 34. [67c9a52d-1998-8000-92aa-70369422005b](https://chatgpt.com/c/67c9a52d-1998-8000-92aa-70369422005b)
+`8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
+
+**The resource provides a detailed overview of how ChatGPT can be integrated into workflows, offering customizable and context-aware responses to enhance user interaction.**
+
+**Features:**
+- tailored responses
+- context understanding
+- chat history integration
+- image generation
+- file uploading
+
+*Tags: chatbot, ai, chatgpt, userinterface, developertools, contextualresponse, customization, integration...*
+
+---
+
+### 35. [gogrinimish/ducktogoogle](https://github.com/gogrinimish/ducktogoogle/)
+`5.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**This tool is a browser extension designed to facilitate the quick transition between two search engines: DuckDuckGo and Google. It provides a one-click mechanism to transfer a query from DuckDuckGo to Google, enhancing user workflow when comparing search results or needing a different search engine's results.**
+
+**Features:**
+- Search Query Transfer
+- Browser Extension Integration
+- One-Click Functionality
+- URL Transformation
+- Firefox Add-ons
+
+*Tags: browser-extension, search-tool, firefox, ux, developer-workflow, webextension, duckduckgo, google*
+
+---
+
+### 36. [about](https://alternativeto.net/software/jwildfire/about)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+
+**A premier open-source flame fractal generator featuring the JWildfireSwan GPU engine for near-real-time rendering of complex mathematical art.**
+
+**Features:**
+- JWildfireSwan GPU backend
+- painterly aesthetic variations
+- solid rendering overhaul
+- background transforms for complex layering.
+
+*Tags: fractals, mathematics, gpu-rendering, open-source, generative-art*
+
+---
+
+### 37. [character.ai](https://character.ai)
+`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
+
+**The Borg resource focuses on creating an intuitive AI chat interface that dynamically adjusts its responses based on user context, enabling seamless integration across platforms while maintaining a cohesive user experience.**
+
+**Features:**
+- natural language understanding
+- context-aware responses
+- adaptive UI personalization
+- cross-platform compatibility
+
+*Tags: ai-chat, user-interface, contextual-adaptation, developer-tools, machine-learning, interactive-systems, adaptive-design, natural-language-processing...*
+
+---
+
+### 38. [Infinity Theory Website](https://app-c2bp101xkow1.appmedo.com/)
+`7.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This tool provides an integrated platform for developers, offering AI-powered features that streamline development tasks. It focuses on improving the developer experience by integrating intelligence directly into the workflow.**
+
+**Features:**
+- AI-powered coding assistance
+- Integrated platform for development workflows
+- Contextual understanding capabilities
+- Seamless integration for developer tools
+
+*Tags: ai, developer-tools, ide, workflow-automation, ux, coding-assistant, platform*
+
+---
+
+### 39. [Visible | It's Phone Service. In An App.](https://www.visible.com/sign-in)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is a landing page for Visible, demonstrating its core value proposition: delivering a phone service experience directly within an application. The key feature highlighted is the necessity of enabling JavaScript to make the application functional, suggesting a focus on front-end execution and user interface interaction.**
+
+**Features:**
+- Phone Service Integration
+- JavaScript Requirement Check
+- Application Experience Demo
+- Web Interface Design
+- User Authentication Flow
+
+*Tags: web-development, phone-service, javascript, user-experience, app-integration, authentication*
+
+---
+
+### 40. [1874613685588730094](https://x.com/i/status/1874613685588730094)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an interface for the X platform, which indicates a critical dependency on JavaScript execution. The page explicitly informs the user that JavaScript is disabled in their browser and provides guidance on how to resolve this issue, suggesting a need for context engineering or browser compatibility checks.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Error handling/fallback mechanism
+- Browser support list
+- X platform interface
+
+*Tags: javascript, browser-compatibility, web-interface, x.com, ux, error-handling, developer-experience*
+
+---
+
+### 41. [desktop.google.com/enterprise/about.html](https://desktop.google.com/enterprise/about.html)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource provides an overview of Google Desktop, detailing its function and context within the Google product suite. It serves as a foundational reference for understanding the desktop experience and its integration points within the larger Google infrastructure.**
+
+**Features:**
+- Desktop overview
+- Google product integration
+- status update
+- enterprise interface
+- developer UX insight
+
+*Tags: google-desktop, ux-design, enterprise-tools, software-ecosystem, desktop-experience*
+
+---
+
+### 42. [2041649076500869158?s](https://x.com/whitehouse/status/2041649076500869158?s)
+`3.0` ★ ⚡53 Q0.7✓ ✓ Solid
+
+**This resource demonstrates an interface or platform (X.com) where the client-side execution environment has detected and reported that JavaScript functionality is disabled within the browser context. It serves as a practical example of a front-end experience and its dependency on browser capabilities.**
+
+**Features:**
+- JavaScript detection
+- Browser compatibility check
+- Error handling/fallback mechanism
+- Supported browser list
+- X Corp interface
+
+*Tags: web-development, javascript, frontend, error-handling, browser-compatibility, ux*
+
+---
+
+### 43. [%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine](http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping&quot)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine**
+
+---
+
+## Browser & Web Tools
+> 39 tools · avg signal ⚡63
+
+### 1. [isakskogstad/SCB-MCP](https://github.com/isakskogstad/SCB-MCP)
+`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
+
+**The SCB MCP server is designed to offer an intuitive and developer-centric experience, featuring natural language search capabilities, robust data filtering options, and clear metadata in responses. It supports real-time updates and integrates smoothly with the PxWebAPI 2.0 of Statistics Sweden, enabling LLMs to access a vast repository of over 1,200 tables covering demographics, economy, environment, labor market, education, and more. The platform emphasizes usability through Swedish as the def...**
+
+**Features:**
+- Natural language search
+- Smart querying with region code resolution
+- Fuzzy matching support
+- Full documentation and metadata
+- Production-ready API integration
+
+*Tags: scb-mcp, statistics-sweden, open-data, ai-agents, data-integration, mcp-server*
+
+---
+
+### 2. [maoxiaoke/mcp-copy-web-ui](https://github.com/maoxiaoke/mcp-copy-web-ui)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The mcp-copy-web-ui project provides a web-based interface to download and analyze websites, extracting complete HTML content including CSS, images, and resources. This enables developers and designers to gain insights into UI/UX patterns by analyzing real-world examples. The tool supports inlining of styles and external resources, making it valuable for inspiration and learning.**
+
+**Features:**
+- Download complete webpage content
+- Inline all CSS styles
+- Convert images to base64 data URIs
+- Resolve and inline external resources
+- Provide UI/UX inspiration based on analyzed websites
+
+*Tags: web-development, ui-design, responsive-design, web-scraping, design-inspiration, developer-tools, content-analysis, web-ui...*
+
+---
+
+### 3. [algonacci/mcp-gnews](https://github.com/algonacci/mcp-gnews)
+`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+
+**The algonacci/mcp-gnews project provides a MCP (Machine-to-Person) server that allows users to search for relevant news articles on the internet. This tool enhances user experience by integrating external content sources directly into the application workflow, supporting modern development practices with AI-driven capabilities.**
+
+**Features:**
+- Search related news
+- Integrate external content
+- AI-powered search
+- Developer-friendly interface
+
+*Tags: mcp-gnews, web-search, ai-integration, developer-tools, content-discovery*
+
+---
+
+### 4. [shahanneda/wallpaper-mcp](https://github.com/shahanneda/wallpaper-mcp)
+`8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**The project provides a web-based interface that leverages Luma Labs AI to generate custom wallpaper images based on user prompts. It allows users to create unique wallpapers quickly and set them as their desktop background, enhancing the visual experience of macOS systems.**
+
+**Features:**
+- Generate image using prompt
+- Set image as desktop wallpaper
+- Integrate with Luma Labs API
+
+*Tags: gui, ai, wallpaper, macos, developer, automation, integration, security...*
+
+---
+
+### 5. [medium.com/@elisowski/the-top-20-mcp-servers-for-d](https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-according-to-reddits-users-bab333886336)
+`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**This resource compiles insights from Reddit users to highlight the most effective MCP servers that enhance developer productivity. It evaluates each server's utility in areas such as file editing, code writing, web scraping, and more, providing developers with actionable recommendations.**
+
+**Features:**
+- File & coding tools
+- GitHub integration
+- Code debugging support
+- Web scraping capabilities
+- User interface generation
+
+*Tags: mcp, developer, ai, code, github, cloud, software, productivity...*
+
+---
+
+### 6. [Open Operator](https://operator.browserbase.com)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**OpenAI's GUI agent featuring a high-frequency vision-action loop and Browserbase infrastructure for 10x cheaper browser-based automation.**
+
+**Features:**
+- Vision-action loop (pixel counting)
+- human-in-the-loop takeover mode
+- Browserbase headless infrastructure
+- Project Atlas agent OS integration.
+
+*Tags: openai, operator, browserbase, vision, computer-use, artificial-intelligence*
+
+---
+
+### 7. [Suno | AI Music Generator](https://suno.com/me?codr=1)
+`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+
+**The Suno AI Music Generator is an interactive platform that leverages artificial intelligence to compose original music tracks, offering users a seamless interface to input parameters and receive generated compositions in real time.**
+
+**Features:**
+- AI music generation
+- real-time composition
+- user-friendly interface
+- customizable parameters
+
+*Tags: ai, music, generation, web, developer, machinelearning, creativetools, software...*
+
+---
+
+### 8. [item?id=41222452](https://news.ycombinator.com/item?id=41222452)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The resource describes a system capable of ingesting various document types, extracting structured data from PDFs, and supporting multiple AI models for enhanced processing. It highlights features such as multimodal support, summarization, and integration with Graphlit for seamless data ingestion.**
+
+**Features:**
+- multimodal pdf extraction
+- ai model integration (sonnet 3.5/gpt-4o)
+- structured json output
+- web scraping capabilities
+
+*Tags: graphlit, ai, pdf, document, extraction, multimodal, developer, web...*
+
+---
+
+### 9. [modern_web_is_more_polished_but_also_less_fun_and](https://www.reddit.com/r/web_design/comments/1t4gepz/modern_web_is_more_polished_but_also_less_fun_and)
+`7.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The article analyzes the evolution of web design, emphasizing how modern practices enhance usability and engagement while balancing aesthetics with functionality. It highlights key shifts in interface design, developer tools, and user interaction patterns.**
+
+**Features:**
+- responsive design
+- user-centric layouts
+- interactive elements
+- accessibility improvements
+- performance optimization
+
+*Tags: web-design, ui/ux, responsive, modern-web, design-trends, user-experience, development-tools, accessibility*
+
+---
+
+### 10. [webmatik.ai](https://webmatik.ai)
+`10.0` ★★★ ⚡69 Q0.5✓ ✓ Solid
+
+**An autonomous AI web automation tool designed to rapidly audit websites across SEO, UI, and accessibility by reasoning through web structures rather than relying on brittle scripts.**
+
+**Features:**
+- 4-minute rapid 8-category site audit
+- autonomous structural reasoning (no fixed scripts)
+- goal-oriented visual UI inconsistency detection.
+
+*Tags: testing, vision, web-automation, qa, auditing*
+
+---
+
+### 11. [Uniswap Interface](https://app.uniswap.org/?rdt_cid=5293129816374408121)
+`6.0` ★ ⚡68 Q0.8✓ ✓ Solid
+
+**This resource is a demonstration of the front-end experience for a decentralized exchange protocol, likely showcasing user interaction, integration points, and the overall developer experience. It serves as an example of how a Web2/Web3 application connects to the underlying blockchain infrastructure.**
+
+**Features:**
+- Decentralized Exchange Interface
+- JavaScript Integration Example
+- Uniswap Frontend Demo
+- Web3 Interaction Layer
+- Protocol UX Demonstration
+
+*Tags: web3, frontend, dex, interface, javascript, uniswap, ux*
+
+---
+
+### 12. [Making WebAssembly a first-class language on the Web | Hacker News](https://news.ycombinator.com/item?id=47331811)
+`7.0` ★ ⚡64 Q0.7✓ ✓ Solid
+
+**The discussion revolves around the technical challenges and goals behind making WebAssembly a first-class language on the web. It highlights the ambition to support non-Web APIs and limited cross-language interoperability, reflecting ongoing debates about the design priorities of WebAssembly's component model and interface-types proposal.**
+
+**Features:**
+- Support non-Web API's
+- Support limited cross language interop
+- Preserve expressiveness while addressing real-world constraints
+
+*Tags: wasm, interface-types, webassembly, cross-language, developer-ux, webapi, component-model, type-systems...*
+
+---
+
+### 13. [Web 1.0 Hosting](http://web1.0hosting.net/)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource describes 'Web 1.0 Hosting,' an advanced static web hosting solution that supports both modern websites and legacy systems. It offers domain name options, webmail capabilities, and integrates with a community chat/forum structure, highlighting its unique positioning for both modern and retro devices.**
+
+**Features:**
+- Static web hosting
+- Web mail integration
+- Domain name options (.w10.site)
+- Community chat/forum integration
+- L2TP/IPsec access
+
+*Tags: web-hosting, static-hosting, webmail, community, retro-tech, domain-names*
+
+---
+
+### 14. [Qreader | Online QR Code Reader](https://qreader.online/)
+`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
+
+**Qreader is a straightforward online tool that allows users to scan QR codes directly from their laptop or via a camera feed. It provides an intuitive interface for quick QR code reading and offers options for both image uploads and live camera scanning, making it a practical utility for developers and everyday users.**
+
+**Features:**
+- QR Code Reading
+- Image Upload Support
+- Camera Scan Functionality
+- Simple Interface
+- Quick Text Extraction
+
+*Tags: qr-code-reader, web-tool, image-processing, user-interface, developer-utility*
+
+---
+
+### 15. [JavaScript is not available.](https://x.com/gsivulka/status/2031797989908627849)
+`7.2` ★ ⚡62 Q0.6✓ ✓ Solid
+
+**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+
+**Features:**
+- JavaScript support evaluation
+- Browser compatibility checks
+- User experience optimization
+- Technical troubleshooting guidance
+
+*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, interface-design, developer-tools, code-optimization...*
+
+---
+
+### 16. [JavaScript is not available.](https://x.com/maxrumpf/status/2037365748973384154)
+`7.2` ★ ⚡62 Q0.6✓ ✓ Solid
+↗2 layers
+
+**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+
+**Features:**
+- JavaScript fallback strategies
+- Browser compatibility checks
+- User experience optimization
+- Technical troubleshooting guidance
+
+*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, development-best-practices*
+
+---
+
+### 17. [x.com/CAMusicOnline/status/204780187928385986](https://x.com/CAMusicOnline/status/2047801879283859869)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is an example of a web interface (X.com) that explicitly checks for and reports the presence or absence of JavaScript execution within the client environment. It serves as a practical demonstration of how a modern web application handles browser capabilities and potential limitations, often requiring developers to consider compatibility layers.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Browser support list
+- Error handling/fallback mechanism
+- Terms of Service integration
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, web-platform, error-handling*
+
+---
+
+### 18. [SoundCloud - Hear the worldâs sounds](https://on.soundcloud.com/mzHPGJzCCyns7QFQ1k)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**SoundCloud is a popular platform for streaming music and audio, offering users an interface to listen to diverse sounds and discover new audio experiences. It highlights the need for browser compatibility and offers solutions for enabling JavaScript functionality within the SoundCloud ecosystem.**
+
+**Features:**
+- Audio streaming platform
+- Browser compatibility check
+- Supported browsers list (Chrome
+- Firefox
+- Safari
+- Edge)
+- JavaScript enablement guide
+- Audio content sharing
+
+*Tags: audio-streaming, web-interface, browser-compatibility, javascript, soundcloud, user-experience*
+
+---
+
+### 19. [2049717907664581067?s=46](https://x.com/teknium/status/2049717907664581067?s=46)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is a web platform (x.com) that serves as an interface for developers, likely offering tools or services related to the X Corp ecosystem. The page indicates a critical technical constraint: JavaScript is disabled in the browser, suggesting the need for proper client-side execution or compatibility checks when interacting with the platform.**
+
+**Features:**
+- Web Platform Interface
+- Browser Compatibility Check
+- Developer Experience
+- JavaScript Enablement/Constraint
+- Supported Browsers
+
+*Tags: web-development, browser-compatibility, platform-interface, developer-tools, ux, javascript, x.com*
+
+---
+
+### 20. [2042711699413926262?s=20](https://x.com/ChrisHayduk/status/2042711699413926262?s=20)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a modern web interface (X.com) and highlights the critical dependency on JavaScript execution for full functionality. The page explicitly informs the user about the lack of JavaScript support, guiding them toward supported browsers or extensions to resolve the rendering issue.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement notification
+- Help Center integration
+- Supported browser list
+- Error handling/fallback options
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, web-platform, error-detection*
+
+---
+
+### 21. [2041811857732768148](https://x.com/adam3us/status/2041811857732768148)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is a simple status page or developer tool that informs users about the JavaScript execution environment within the X platform, indicating that JavaScript is disabled in the current browser. It serves as an essential guide for developers to understand and resolve browser compatibility constraints when interacting with the X service.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback options
+- Developer workflow integration
+
+*Tags: browser-compatibility, javascript, web-dev-tools, x.com, developer-experience, ux, debugging*
+
+---
+
+### 22. [2038474676310028384?s](https://x.com/thdxr/status/2038474676310028384?s)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an example of a web platform (X.com) where the client-side execution environment (JavaScript) is explicitly disabled or missing, prompting users to either enable JavaScript or switch browsers. It serves as a practical demonstration of browser compatibility and necessary prerequisites for modern web applications.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement enforcement
+- Help Center integration
+- Browser support list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, web-platform, client-side*
+
+---
+
+### 23. [2051841502267994184](https://x.com/RepLuna/status/2051841502267994184)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is a diagnostic tool or guide addressing the common issue where JavaScript functionality is disabled within a browser, providing users with guidance on enabling JavaScript or switching browsers. It serves as an educational entry point for developers encountering browser limitations in web applications.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling suggestions
+- Browser switch recommendations
+
+*Tags: browser-compatibility, javascript, web-development, ux, debugging, tooling*
+
+---
+
+### 24. [2044420280592875896](https://x.com/RonyVernet/status/2044420280592875896)
+`7.2` ★ ⚡59 Q0.5✓ ✓ Solid
+
+**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+
+**Features:**
+- JavaScript support evaluation
+- Browser compatibility checks
+- User experience optimization
+- Technical troubleshooting guidance
+
+*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, intelligence-systems, developer-tools, interface-design...*
+
+---
+
+### 25. [x.com/ChrisHayduk/status/2042711699413926262](https://x.com/ChrisHayduk/status/2042711699413926262?s)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an example of a modern web interface (X.com) and highlights the necessity for JavaScript execution within the browser environment. It serves as a practical demonstration of front-end rendering capabilities and potential compatibility issues when running web applications.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement enforcement
+- Help Center integration
+- Browser support list
+- Error handling/fallback options
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, web-platform, frontend*
+
+---
+
+### 26. [2048023036901859776](https://x.com/SPOOOKYUFO/status/2048023036901859776)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is a web platform (x.com) that explicitly informs the user that JavaScript is disabled in their browser, prompting them to either enable it or switch browsers. It serves as an example of a front-end interface and its necessary compatibility checks for modern web applications.**
+
+**Features:**
+- JavaScript dependency check
+- Browser compatibility guidance
+- Error handling/fallback options
+- Supported browser list
+- Web platform usability
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, platform-interface, error-handling*
+
+---
+
+### 27. [1995275708885799256](https://x.com/i/communities/1995275708885799256)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource highlights the necessity of JavaScript enablement for a web platform like X.com, detailing browser compatibility and potential issues when JavaScript is disabled. It serves as a guide for developers to understand the front-end requirements and limitations of the platform.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement validation
+- Help Center integration
+- Supported browser list
+- UX/UI guidance
+
+*Tags: web-development, browser-compatibility, javascript, ux, developer-tools, platform-integration*
+
+---
+
+### 28. [2061246622458171771?s=4](https://x.com/marekhotshot/status/2061246622458171771?s=4)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an example of a modern web platform (X.com) and highlights the critical need for JavaScript execution within the client-side environment. The core challenge presented is the necessary prerequisite check for browser capabilities when interacting with a web application.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript requirement enforcement
+- Help Center integration
+- Browser support list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, web-platform, client-side, ux*
+
+---
+
+### 29. [2046785172322849129?s=46](https://x.com/strangeobsevati/status/2046785172322849129?s=46)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is a diagnostic tool or informational page from X (formerly Twitter) that informs users about the lack of JavaScript support in their browser. It serves as an interface for developers to understand and resolve browser compatibility issues, guiding them toward supported browsers.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback suggestions
+- Developer workflow integration
+
+*Tags: browser-compatibility, javascript, web-dev-tools, ux, debugging, x.com, developer-experience*
+
+---
+
+### 30. [2051838015819989137](https://x.com/RepLuna/status/2051838015819989137)
+`5.0` ★ ⚡59 Q0.6✓ ✓ Solid
+
+**This resource is an interface for the X platform, which explicitly informs users about the necessity of enabling JavaScript to use the service. It serves as a guide for developers and users regarding browser compatibility and necessary prerequisites for a seamless experience.**
+
+**Features:**
+- JavaScript requirement check
+- Browser support guidance
+- Platform accessibility check
+- Error handling/fallback mechanism
+- Help Center integration
+
+*Tags: web-development, browser-compatibility, javascript, ux, platform-design, error-handling*
+
+---
+
+### 31. [2041649076500869158?s=46&t=SR0Fut63K1bqUhXNY7spQQ](https://x.com/whitehouse/status/2041649076500869158?s=46&t=SR0Fut63K1bqUhXNY7spQQ)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is an example of a modern web platform (X.com) that explicitly checks for and enforces the availability of JavaScript execution within the browser environment. It serves as a practical demonstration of front-end development constraints and user experience considerations.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement requirement
+- Supported browser list
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, front-end, web-platform*
+
+---
+
+### 32. [x.com/marekhotshot/status/2061246622458171771](https://x.com/marekhotshot/status/2061246622458171771?s)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource appears to be a status page for X (formerly Twitter), indicating that JavaScript is disabled in the browser, suggesting an interface layer issue. The core functionality revolves around managing the front-end experience and compatibility across different browsers.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/fallback options
+
+*Tags: web-development, browser-compatibility, frontend-tooling, user-experience, javascript, ux*
+
+---
+
+### 33. [2051494585323733096](https://x.com/SPOOOKYUFO/status/2051494585323733096)
+`4.0` ★ ⚡54 Q0.6✓ ✓ Solid
+
+**This resource is an example of the front-end interface for X Corp, demonstrating how developers interact with their platform. The page indicates a browser compatibility issue, suggesting a need for JavaScript enablement or a supported browser to proceed with the interaction.**
+
+**Features:**
+- Web Interface
+- Browser Compatibility Check
+- JavaScript Requirement
+- Platform Interaction
+- Error Handling
+
+*Tags: web-interface, x.com, browser-compatibility, javascript, developer-tools, ux*
+
+---
+
+### 34. [2043718855542071453](https://x.com/jiqizhixin/status/2043718855542071453)
+`5.0` ★ ⚡54 Q0.6✓ ✓ Solid
+
+**This resource is an example of the front-end experience provided by X Corp, highlighting the necessity of JavaScript execution for full functionality. It serves as a guide on browser compatibility and potential issues when running web applications.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- Supported browser list
+- Error handling/recovery suggestions
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, x.com, frontend, ux*
+
+---
+
+### 35. [webchat.snoonet.org](http://webchat.snoonet.org/dumpsterdiving)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**webchat.snoonet.org**
+
+---
+
+### 36. [I Built A Browserbased Tool For Audioreactive](https://www.reddit.com/r/vjing/comments/1to5u1o/i_built_a_browserbased_tool_for_audioreactive/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Built A Browserbased Tool For Audioreactive**
+
+---
+
+### 37. [Mcp Browser Screenshot Server Enables Ai](https://www.reddit.com/r/mcp/comments/1tp88y0/mcp_browser_screenshot_server_enables_ai/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Mcp Browser Screenshot Server Enables Ai**
+
+---
+
+### 38. [Browser Mcp For Claude Code Browserbase Vs The](https://www.reddit.com/r/mcp/comments/1tpwx0v/browser_mcp_for_claude_code_browserbase_vs_the/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Browser Mcp For Claude Code Browserbase Vs The**
+
+---
+
+### 39. [Showcase Unbrowser A Fast Minimalistic Fetchlike](https://www.reddit.com/r/mcp/comments/1tsbcw7/showcase_unbrowser_a_fast_minimalistic_fetchlike/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Showcase Unbrowser A Fast Minimalistic Fetchlike**
+
+---
+
 ## Harness Frameworks
-> 24 tools · avg signal ⚡79
+> 27 tools · avg signal ⚡79
 
 ### 1. [martinschlott/bettermcpfileserver](https://github.com/martinschlott/bettermcpfileserver)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -7921,7 +10218,23 @@
 
 ---
 
-### 19. [how_are_experienced_developers_using_vibe_coding](https://www.reddit.com/r/RishabhSoftware/comments/1ska4a0/how_are_experienced_developers_using_vibe_coding)
+### 19. [Mermaid-Chart/mermaid-mcp](https://github.com/Mermaid-Chart/mermaid-mcp)
+`6.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**Mermaid-MCP is a set of tools designed to help developers visualize, define, and manage complex systems through the use of Mermaid diagrams. It provides an interface for creating clear, readable, and interactive architectural visualizations that are essential for understanding software architecture and deployment flows.**
+
+**Features:**
+- Mermaid diagramming
+- MCP integration
+- Architectural visualization
+- Interactive flow management
+- Developer tooling
+
+*Tags: mermaid, diagrams, architecture, developer-tools, workflow, visualization*
+
+---
+
+### 20. [how_are_experienced_developers_using_vibe_coding](https://www.reddit.com/r/RishabhSoftware/comments/1ska4a0/how_are_experienced_developers_using_vibe_coding)
 `8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7938,7 +10251,7 @@
 
 ---
 
-### 20. [i_created_a_66m_parameter_slm](https://www.reddit.com/r/pytorch/comments/1sdbzyq/i_created_a_66m_parameter_slm)
+### 21. [i_created_a_66m_parameter_slm](https://www.reddit.com/r/pytorch/comments/1sdbzyq/i_created_a_66m_parameter_slm)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7954,7 +10267,7 @@
 
 ---
 
-### 21. [the_living_mind_cortexs_ledger_so_far](https://www.reddit.com/r/DesignTecture/comments/1secgbn/the_living_mind_cortexs_ledger_so_far)
+### 22. [the_living_mind_cortexs_ledger_so_far](https://www.reddit.com/r/DesignTecture/comments/1secgbn/the_living_mind_cortexs_ledger_so_far)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 
 **The resource examines the architecture and technical approach behind a Reddit discussion on designing a living mind ledger, focusing on its implications for interface usability, developer experience, and integration within the Borg ecosystem.**
@@ -7969,7 +10282,7 @@
 
 ---
 
-### 22. [20_claude_connectors_that_completely_change_how](https://www.reddit.com/r/ThinkingDeeplyAI/comments/1su619u/20_claude_connectors_that_completely_change_how)
+### 23. [20_claude_connectors_that_completely_change_how](https://www.reddit.com/r/ThinkingDeeplyAI/comments/1su619u/20_claude_connectors_that_completely_change_how)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 
 **The resource examines the role of connectors in bridging different AI systems, focusing on how they influence integration strategies, user experience, and technical implementation for developers working with multiple AI models.**
@@ -7984,7 +10297,23 @@
 
 ---
 
-### 23. [deepseek-v4-pro?rdt_cid=5485952830038748590](https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590)
+### 24. [TUUI | MCP Tool Unitary UI](https://www.tuui.com/)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
+
+**TUUI is a platform designed to help developers create sophisticated desktop applications that work seamlessly across Windows, macOS, and Linux. It provides tools for adaptive UI layouts, customizable theme engines, and an extensible styling framework.**
+
+**Features:**
+- Cross-platform desktop app development
+- Native multi-language support
+- Adaptive UI layout capabilities
+- Customizable theme engine
+- Extensible styling framework
+
+*Tags: desktop-development, cross-platform, ui-framework, theme-engine, native-apps, developer-tools*
+
+---
+
+### 25. [deepseek-v4-pro?rdt_cid=5485952830038748590](https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590)
 `8.5` ★ ⚡68 Q0.6✓ ✓ Solid
 
 **The Qubrid AI Open Inference-First platform enables seamless integration and interaction with AI models, emphasizing developer experience and ease of use within enterprise environments.**
@@ -7999,15 +10328,500 @@
 
 ---
 
-### 24. [Superharness](https://www.reddit.com/r/Toolkit_CLI/comments/1sk8pp0/superharness/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+### 26. [Online FlowChart & Diagrams Editor - Mermaid Live Editor](https://mermaid.live/view)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
 
-**Superharness**
+**This tool provides an interactive, browser-based environment to design, visualize, and document complex system flows using the Mermaid syntax. It allows developers to easily create flowcharts, sequence diagrams, and other visual representations for understanding and debugging software architecture.**
+
+**Features:**
+- Flowchart Editor
+- Interactive Diagramming
+- Mermaid Syntax Support
+- Web-based Visualization
+- Workflow Documentation
+
+*Tags: mermaid, flowchart, diagrams, editor, workflow, visualization*
+
+---
+
+### 27. [Pascal Editor Online | Free 3D Architecture & Room Design](https://pascaleditor.org/)
+`6.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**Pascal Editor is an online platform designed for architectural visualization, allowing users to create and explore 3D models and room designs. It focuses on providing an intuitive interface for designers to interact with spatial data, making it useful for architecture students and professionals.**
+
+**Features:**
+- 3D Architecture Visualization
+- Room Design Editor
+- Online Platform
+- Free Usage
+- Architectural Rendering
+
+*Tags: architecture, 3d-modeling, design-tools, visualization, web-app, editor*
+
+---
+
+## Hooks & Lifecycle
+> 27 tools · avg signal ⚡75
+
+### 1. [williamkapke/kapture](https://github.com/williamkapke/kapture)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**Kapture provides a robust three-layer architecture for agentic web interaction, consisting of an MCP Server, a Chrome DevTools extension, and a WebSocket bridge. Unlike traditional headless automation, Kapture operates within the user's active browser session via the DevTools protocol, allowing agents to maintain state and authentication. Its most distinctive technical feature is the multi-client support, which allows disparate MCP-compatible AI assistants (such as Claude Desktop and Cline) to c...**
+
+**Features:**
+- Multi-client MCP synchronization
+- DevTools-integrated automation
+- WebSocket bridge architecture
+- CSS and XPath selector support
+- Real-time tab state resources
+- Simultanous AI assistant access
+- Automated server detection and lifecycle management
+- Comprehensive keyboard event simulation
+
+*Tags: mcp, browser-automation, chrome-extension, devtools, websocket-bridge, multi-agent-systems, claude-desktop, web-scraping...*
+
+---
+
+### 2. [withlinda/puppeteer-real-browser-mcp-server](https://github.com/withlinda/puppeteer-real-browser-mcp-server)
+`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Puppeteer Real Browser MCP Server is a model context protocol (MCP) server that allows AI assistants such as Claude to control a real web browser. It leverages Puppeteer's capabilities to perform advanced automation tasks including browser navigation, content extraction, form filling, data scraping, captcha solving, and more, all while avoiding detection by bot protection systems.**
+
+**Features:**
+- Stealth browsing using anti-detection features
+- Enhanced Windows support with Chrome detection and ECONNREFUSED handling
+- Smart Chrome detection and registry-based detection mitigation
+- Dynamic selector discovery for robust element identification
+- Random scrolling to avoid bot detection patterns
+- Comprehensive toolset covering all browser automation needs
+- Proxy configuration for enhanced privacy
+- Captcha handling capabilities
+- Advanced error recovery with circuit breaker pattern
+- Timeout controls to prevent hanging operations
+- Platform optimization for Windows
+- macOS
+- ... and 3 more
+
+*Tags: browser-automation, ai-assistants, web-scraping, bot-detection, developer-tools, mcp-server, puppeteer, automation...*
+
+---
+
+### 3. [danielzhao1990/interaction-mcp](https://github.com/danielzhao1990/interaction-mcp)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+
+**The Borg Project's 'Interaction-MCP' is a platform designed to facilitate high-frequency communication between AI models such as Cursor and Windsurf and human users. By integrating with these AI tools, the service reduces wasted API calls, prevents attention fragmentation, enables interactive decision-making, streamlines complex tasks, and supports multiple user interfaces including CLI, web, and PyQt.**
+
+**Features:**
+- Interactive communication between AI models and users
+- Reduction of wasted resources through confirmation before API calls
+- Maximized resource utilization by verifying user input
+- Support for multiple user interfaces (CLI
+- web
+- PyQt)
+- Information supplement feature for AI models
+- Multiple user interface options for different environments
+
+*Tags: ai-integration, developer-tools, interactive-ai, mcp-service, user-experience, decision-support, api-optimization, multi-platform...*
+
+---
+
+### 4. [Build with Google's new A2UI Spec: Agent User Interfaces with A2UI + AG-UI | Blog | CopilotKit](https://www.copilotkit.ai/blog/build-with-googles-new-a2ui-spec-agent-user-interfaces-with-a2ui-ag-ui)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**The resource outlines the implementation of the Agent-to-User Interface (A2UI) specification and the AG-UI protocol within the CopilotKit framework. It demonstrates how AI agents can move beyond text-based communication by sending framework-agnostic JSON payloads that define UI structures, components, and data bindings. The architecture uses a specialized schema to manage the lifecycle of a UI surface—handling actions like surface initialization (beginRendering), incremental updates (surfaceUpda...**
+
+**Features:**
+- Framework-agnostic UI component definition
+- Dynamic surface lifecycle management (rendering
+- updating
+- deleting)
+- Real-time data-to-UI binding
+- Event-based agent-user interaction protocol (AG-UI)
+- LLM-driven template selection logic
+- A2A protocol integration for cross-agent UI rendering
+- JSON Schema-validated generative UI
+- Interactive component support (buttons
+- forms
+- cards)
+
+*Tags: a2ui, ag-ui, generative-ui, copilotkit, google-adk, agent-to-user-interface, dynamic-ui, json-schema...*
+
+---
+
+### 5. [wiseman/osm-mcp](https://github.com/wiseman/osm-mcp)
+`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
+
+**The OSM-MCP project provides a web application that leverages Leaflet for interactive map visualization, utilizing OpenStreetMap data through PostgreSQL/PostGIS. It supports server-to-client communication via Server-Sent Events (SSE) and offers tools for map control such as adding markers, polygons, and setting views. The package includes a Flask-based web server running on localhost:8889, with detailed configuration options for database connections and environment variables.**
+
+**Features:**
+- Web-based map viewer using Leaflet
+- Server-to-client communication via SSE
+- Map control tools (add markers
+- polygons
+- set view)
+- PostgreSQL/PostGIS query interface
+
+*Tags: osm-mcp, map-viewer, leaflet, postgresql, server-sent-events, open-streetmap, web-application, gis-tools*
+
+---
+
+### 6. [shadowfax92/apple-calendar-mcp](https://github.com/shadowfax92/apple-calendar-mcp)
+`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
+
+**The project provides a TypeScript-based server for macOS that allows AI applications to access and manipulate calendar data through the Apple Calendar API Bridge. It supports various date formats, offers CRUD operations on calendars, and integrates seamlessly with AI models for enhanced functionality.**
+
+**Features:**
+- getCalendars
+- getCalendarEvents
+- createCalendarEvent
+- updateCalendarEvent
+- deleteCalendarEvent
+- date formatting
+
+*Tags: apikey, calendarapi, typescript, ai, developertools, macos, api, server...*
+
+---
+
+### 7. [Hololuminescent™ Displays (HLD) Overview](https://lookingglassfactory.com/hld-overview)
+`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**Looking Glass Factory's Hololuminescent Displays (HLD) represent a novel approach to holographic display technology. Unlike traditional methods involving bulky boxes, spinning blades, or complex optical illusions, HLD combines a high-resolution screen with a fixed holographic etched background. This allows for the creation of visually compelling 3D effects from standard 2D video content, making it accessible and easy to integrate into existing workflows. The displays are designed to be thin, sca...**
+
+**Features:**
+- ['Creates 3D holographic effects from standard 2D video.'
+- 'Thin and scalable form factor for easy deployment.'
+- 'No specialized 3D pipelines required.'
+- 'Suitable for various applications (retail
+- events
+- personal use).'
+- 'Fixed holographic etched background combined with a high-resolution screen.'
+- 'No eye tracking
+- boxes
+- blades
+- or projectors.'
+- 'Installs anywhere and films beautifully.']
+
+*Tags: ['holographicdisplay', '3ddisplay', 'spatialcomputing', 'augmentedreality', 'mixedreality', 'digital-signage', 'retailtech', 'eventtech'...*
+
+---
+
+### 8. [mmmaaatttttt/mcp-live-events](https://github.com/mmmaaatttttt/mcp-live-events)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The MCP Server facilitates integration with the Ticketmaster API to deliver dynamic event information. It supports developers in building intelligent applications by providing structured event data and enhancing user experiences through automated workflows and secure interactions.**
+
+**Features:**
+- Integrate with Ticketmaster API
+- Real-time event data retrieval
+- AI agent interaction
+- Dynamic event formatting
+
+*Tags: api-integration, event-data, ai-agents, real-time-processing, developer-tools, event-management*
+
+---
+
+### 9. [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)
+`10.0` ★★★ ⚡81 Q0.7⭐ ⭐ Excellent
+
+**An open agentic framework for autonomous computer use via GUI interaction, featuring experience-augmented hierarchical planning.**
+
+**Features:**
+- Agent-Computer Interface (ACI)
+- hierarchical sub-task planning
+- ~72.6% OSWorld success rate
+- local Python/Bash execution hooks.
+
+*Tags: computer-use, vision, gui-automation, navigation, orchestration, artificial-intelligence, github, version-control*
+
+---
+
+### 10. [hightemp/go_mcp_server_youtube_search](https://github.com/hightemp/go_mcp_server_youtube_search)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The hightemp/go_mcp_server_youtube_search project provides a lightweight MCP (Model Context Protocol) server that enables developers and AI assistants to search and retrieve information from YouTube videos. It supports both standard and Server-Sent Events modes, making it suitable for integration with various AI tools and platforms.**
+
+**Features:**
+- YouTube video search
+- MCP protocol support
+- Integration with AI assistants
+
+*Tags: mcp, youtube, search, ai, developer, integration, protocols, video*
+
+---
+
+### 11. [Astral to Join OpenAI | Hacker News](https://news.ycombinator.com/item?id=47438723)
+`8.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The conversation revolves around the increasing consolidation of AI development tools by major players like OpenAI and Anthropic. It highlights concerns over the centralization of development processes and the potential loss of open-source tooling. The participants debate the viability of these platforms, the benefits of having integrated development environments (IDEs) and the challenges in maintaining transparency and community involvement. The discussion also touches on the importance of self...**
+
+**Features:**
+- Integration of AI models with cloud development environments
+- Enhanced feedback cycles through improved build/testing tools
+- Potential for faster iteration in AI model development
+- Centralization of dev lifecycle management
+
+*Tags: ai, python, openai, developer, tooling, ai-dev, software, machine-learning...*
+
+---
+
+### 12. [thisnick/google-calendar-mcp](https://github.com/thisnick/google-calendar-mcp)
+`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The project implements the Model Context Protocol (MCP) to provide structured access to Google Calendar data, enabling agents to interact with calendar events and generate insights. It demonstrates core concepts of MCP for calendar event management, providing tools for creating and modifying events, and prompts for generating calendar insights.**
+
+**Features:**
+- Calendar event management via MCP URIs
+- Tools for creating and modifying events
+- Prompts for generating calendar insights
+- Structured event data with proper mime types
+
+---
+
+### 13. [0xUXDesign/pharaoh-mcp](https://github.com/0xUXDesign/pharaoh-mcp)
+`7.0` ★ ⚡75 Q0.7⭐ ⭐ Excellent
+
+**Pharaoh MCP is an innovative platform that focuses on the orchestration layer for AI agents, enabling seamless interaction and workflow management. It provides a framework for designing agent-to-agent communication and managing the lifecycle of AI operations within a development context.**
+
+**Features:**
+- Agent Orchestration
+- Workflow Management
+- AI Interaction Layer
+- Developer Tool Integration
+- MCP Framework
+
+*Tags: ai-agents, workflow-orchestration, developer-tools, mcp, agent-framework, ux-design*
+
+---
+
+### 14. [movementparties.com](https://movementparties.com/)
+`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+
+**Movement Parties is a web application designed to help users plan, manage, and engage with party events, including 2026 parties and afterparties. It focuses on providing a cohesive experience for event management, likely involving scheduling, user interaction, and party logistics.**
+
+**Features:**
+- Event management platform
+- Party planning interface
+- User engagement tools
+- Afterparty management
+- Event scheduling features
+
+*Tags: event-management, party-planning, user-experience, web-app, party-logistics, scheduling*
+
+---
+
+### 15. [Vexilo · A field guide to Claude Code](http://vexilo.app)
+`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+
+**Vexilo provides a powerful AI-driven platform that integrates intelligence directly into the development lifecycle, offering tools for code generation, context management, and intelligent agent orchestration. It aims to bridge the gap between human intent and software execution.**
+
+**Features:**
+- AI coding assistance
+- intelligent agent orchestration
+- context engineering
+- developer workflow integration
+- natural language interaction
+
+*Tags: ai, developer-tools, coding, workflow-automation, agent, ux, llm*
+
+---
+
+### 16. [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx/issues)
+`5.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**htmx is a JavaScript library designed to simplify the process of managing asynchronous operations, particularly when dealing with server-client communication. It focuses on providing an easier way to handle state transitions and data propagation between the client and the server, often through SSE (Server-Sent Events).**
+
+**Features:**
+- Asynchronous communication handling
+- Server-Client synchronization
+- State management via SSE
+- WebSockets integration
+- Client-side reactivity.
+
+*Tags: javascript, web-development, sse, reactivity, frontend, http*
+
+---
+
+### 17. [HCAP — AI-to-AI Negotiation Infrastructure](https://www.hcap.dev/)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**HCap provides a comprehensive platform designed to facilitate the development, deployment, and orchestration of AI agents. It focuses on providing the necessary tooling and infrastructure for developers to easily build, manage, and deploy intelligent agents within their workflows.**
+
+**Features:**
+- Agent Orchestration
+- Workflow Management
+- AI Agent Deployment
+- Developer Tooling
+- Agent Lifecycle Management
+
+*Tags: ai-agents, workflow-automation, developer-tools, agent-orchestration, platform, tooling, hcap*
+
+---
+
+### 18. [Kontakt - Fizjo Orto](http://Antigravity.app)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
+
+**Antigravity provides a platform designed to manage the lifecycle of AI agents, offering tools for orchestration, workflow execution, and interaction. It serves as a hub for developers to deploy, manage, and interact with AI agents effectively.**
+
+**Features:**
+- Agent Orchestration
+- Workflow Execution
+- AI Agent Management
+- Developer Interface
+- Workflow Definition
+
+*Tags: ai-agents, workflow-automation, developer-tools, agent-orchestration, platform, productivity*
+
+---
+
+### 19. [r/masterhacker](https://discordapp.com/invite/vvQrkV3)
+`6.0` ★ ⚡68 Q0.8✓ ✓ Solid
+
+**This resource is a Discord invite link, suggesting it's an application or community where developers can interact. It highlights the integration of a specific tool (likely an AI agent or workflow) into a collaborative environment, offering insights into how modern development tools are being leveraged for community interaction.**
+
+**Features:**
+- Discord Integration
+- Community Platform
+- Developer Workflow Hooks
+- AI Agent Interaction
+- Collaborative Interface
+
+*Tags: discord, ai, developer-tools, community, workflow, agent*
+
+---
+
+### 20. [2056480507270218086](https://x.com/realMikeChong/status/2056480507270218086](https://x.com/realMikeChong/status/2056480507270218086)
+`7.0` ★ ⚡65 Q0.6✓ ✓ Solid
+
+**This tool represents a platform where developers interact with or deploy AI agents, likely offering an interface for managing agent workflows and interactions. The core functionality revolves around providing a developer experience that integrates AI capabilities seamlessly into the development lifecycle.**
+
+**Features:**
+- AI Agent Orchestration
+- Developer Workflow Integration
+- JavaScript/Browser Compatibility Layer
+- Agent Interaction Interface
+
+*Tags: ai-agents, developer-tools, workflow-automation, agent-orchestration, javascript-enablement, ux-design, ai-development*
+
+---
+
+### 21. [mmm.page — Your Corner of the Internet](https://mmm.page/)
+`7.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**Mmm.page is a platform designed to enhance developer productivity through intelligent interfaces and agent-driven workflows. It focuses on providing tools for developers, likely integrating AI capabilities directly into the development lifecycle.**
+
+**Features:**
+- AI-powered tooling integration
+- Developer workflow orchestration
+- Agent-based task execution
+- Contextual understanding layer
+
+*Tags: ai, developer-tools, workflow-automation, agent, ux, web-app, productivity*
+
+---
+
+### 22. [2050337683449258391?s](https://x.com/chatgpt21/status/2050337683449258391?s)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource appears to be an X (formerly Twitter) platform, which offers a specific context for analyzing the integration between AI agents and user experience. The core issue highlighted is a browser limitation preventing JavaScript execution, suggesting a need for robust interface design around the underlying web technology.**
+
+**Features:**
+- Web Interface
+- Browser Compatibility Check
+- Developer Tool Integration
+- Platform UX
+- JavaScript Enablement
+
+*Tags: web-development, browser-compatibility, user-experience, platform-integration, ai-interface, developer-tools*
+
+---
+
+### 23. [BAS-RELIEF Tickets | From Free | 21 May 2026 @ El Club Detroit, Detroit | DICE](https://dice.fm/event/py8xyy-bas-relief-21st-may-el-club-detroit-detroit-tickets?utm_medium)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource is a ticket listing page from DICE, showcasing the details for a specific event, including date, venue, and ticket options. It serves as a direct interface for users to view and potentially purchase tickets for a concert or event.**
+
+**Features:**
+- Event ticketing integration
+- Ticket viewing/purchase interface
+- Event scheduling/details display
+- Direct link to ticket purchasing
+- Clear event metadata presentation
+
+*Tags: ticketing, event-management, web-interface, e-commerce, user-experience*
+
+---
+
+### 24. [Google Calendar - Sign in to Access & Edit Your Schedule](https://calendar.google.com/calendar/u/0/r/month)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This is a Google Calendar interface that allows users to sign in to access, manage, and edit their personal schedule. It provides a comprehensive view of the user's appointments and events, enabling easy scheduling and time management.**
+
+**Features:**
+- Calendar viewing
+- user authentication
+- scheduling/editing capabilities
+- email integration
+- guest mode support
+
+*Tags: google-calendar, scheduling, time-management, web-interface, user-experience*
+
+---
+
+### 25. [Bleutropics Labs](https://bleutropicslabs.com/?rdt_cid=4740837678890057707)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource appears to be a landing page for a product or service, indicated by the 'Opening soon' message and an invitation to be the first to know about a launch. It suggests a focus on user engagement and perhaps a developer-centric solution.**
+
+**Features:**
+- Product Launch Announcement
+- Email Subscription/Notification System
+- Developer Engagement Hook
+- Clear Call to Action
+
+*Tags: product-launch, developer-tools, ai, web3, tech, marketing, ux*
+
+---
+
+### 26. [Movement 2026 Parties/Afterparties](https://movementparties.com)
+`5.0` ★ ⚡56 Q0.6✓ ✓ Solid
+
+**Movement Parties is a platform designed to help users plan, manage, and engage with party events, including 2026 parties and afterparties. It focuses on providing a cohesive experience for event management and user interaction.**
+
+**Features:**
+- Event Management Platform
+- Party Planning Interface
+- Afterparty Integration
+- User Engagement Tools
+
+*Tags: event-management, party-planning, user-experience, social-engagement, web-app*
+
+---
+
+### 27. [2041427374487605614](https://x.com/banteg/status/2041427374487605614)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource is an X (formerly Twitter) platform, which indicates a fundamental dependency on JavaScript execution for its operation. The page explicitly informs the user that JavaScript is disabled, suggesting a necessary browser requirement or extension conflict prevents full functionality.**
+
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- supported browser list
+- error handling/retry mechanism
+
+*Tags: web-development, browser-compatibility, javascript, ux, error-handling, platform*
 
 ---
 
 ## Memory & Context Systems
-> 23 tools · avg signal ⚡87
+> 25 tools · avg signal ⚡86
 
 ### 1. [superagent-ai/grok-cli](https://github.com/superagent-ai/grok-cli)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -8361,7 +11175,25 @@
 
 ---
 
-### 21. [hbd/mcp-chat](https://github.com/hbd/mcp-chat)
+### 21. [serkan-ozal/browser-devtools-mcp](https://github.com/serkan-ozal/browser-devtools-mcp)
+`7.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**Browser DevTools MCP is a set of tools that provides developers with powerful capabilities to inspect, manipulate, and understand the internal workings of web browsers. It offers a comprehensive interface for debugging, inspecting memory, and understanding the browser's execution flow.
+
+This tool focuses on providing developer-centric insights into the browser environment, making it invaluable for debugging complex JavaScript execution, performance profiling, and understanding the relationship b...**
+
+**Features:**
+- Browser introspection
+- deep debugging capabilities
+- MCP integration
+- powerful dev tools
+- browser internals visualization
+
+*Tags: browser-devtools, web-dev-tools, debugging, browser-internals, devtools, javascript*
+
+---
+
+### 22. [hbd/mcp-chat](https://github.com/hbd/mcp-chat)
 `7.8` ★ ⚡81 Q0.9⭐ ⭐ Excellent
 
 **This project explores the use of Model Context Protocol (MCP) to enable human-to-human chat through tool calls. It implements a simple in-memory room-based system where two users can send messages to each other, simulating a chat interface. The design leverages long-polling for message reception and focuses on usability within a single-room environment.**
@@ -8376,7 +11208,7 @@
 
 ---
 
-### 22. [OpenAI Killed Sora. Here Are 11 Video Models You Can Use Right Now.](https://hexaclaw.com/blog/sora-is-dead-video-alternatives)
+### 23. [OpenAI Killed Sora. Here Are 11 Video Models You Can Use Right Now.](https://hexaclaw.com/blog/sora-is-dead-video-alternatives)
 `9.6` ★★ ⚡75 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -8397,7 +11229,23 @@
 
 ---
 
-### 23. [overwhelmed_by_music_files](https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_music_files)
+### 24. [This is a tab manager for Firefox.](https://rentry.co/grsshpper)
+`7.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**Grasshopper is a powerful Firefox add-on designed to offer advanced features for tab management, including various modes (Pinned, Normal, Playing), persistent tab boxes, and dynamic title bar manipulation. It offers extensive customization through settings, keyboard shortcuts, and context filtering, making it an excellent tool for managing browser tabs efficiently.**
+
+**Features:**
+- Tab management
+- contextual filtering
+- customizable themes
+- bookmark navigation
+- signal system integration
+
+*Tags: firefox, browser-extension, tab-manager, user-experience, productivity, web-development, customization*
+
+---
+
+### 25. [overwhelmed_by_music_files](https://www.reddit.com/r/musichoarder/comments/1t43h74/overwhelmed_by_music_files)
 `7.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8414,437 +11262,379 @@
 
 ---
 
-## Browser & Web Tools
-> 21 tools · avg signal ⚡67
+## Orchestration
+> 23 tools · avg signal ⚡72
 
-### 1. [isakskogstad/SCB-MCP](https://github.com/isakskogstad/SCB-MCP)
-`9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
+### 1. [Fara-7B: An efficient agentic small language model for computer use](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
+↗5 layers
 
-**The SCB MCP server is designed to offer an intuitive and developer-centric experience, featuring natural language search capabilities, robust data filtering options, and clear metadata in responses. It supports real-time updates and integrates smoothly with the PxWebAPI 2.0 of Statistics Sweden, enabling LLMs to access a vast repository of over 1,200 tables covering demographics, economy, environment, labor market, education, and more. The platform emphasizes usability through Swedish as the def...**
+**Fara-7B represents a shift in Agent-to-Application (A2A) interaction by utilizing a purely visual approach to computer use, perceiving web pages as images and predicting mouse and keyboard actions directly. The model's architecture bypasses traditional dependencies on Document Object Models (DOM) or accessibility trees, allowing it to interact with any visual interface like a human user. It was developed using a novel multi-agent synthetic data generation pipeline (built on Magentic-One) that pr...**
 
 **Features:**
-- Natural language search
-- Smart querying with region code resolution
-- Fuzzy matching support
-- Full documentation and metadata
-- Production-ready API integration
+- Vision-to-Action coordinate prediction
+- Synthetic trajectory generation pipeline
+- Local on-device inference
+- Zero-dependency UI interaction
+- Magentic-One framework integration
+- Quantized silicon optimization
+- Multi-step web task automation
+- Open-weight MIT license
 
-*Tags: scb-mcp, statistics-sweden, open-data, ai-agents, data-integration, mcp-server*
+*Tags: computer-use-agent, vision-language-model, slm, gui-automation, synthetic-data, agent-to-application, magentic-one, edge-ai...*
 
 ---
 
-### 2. [maoxiaoke/mcp-copy-web-ui](https://github.com/maoxiaoke/mcp-copy-web-ui)
+### 2. [burningion/geoapify-mcp](https://github.com/burningion/geoapify-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
-**The mcp-copy-web-ui project provides a web-based interface to download and analyze websites, extracting complete HTML content including CSS, images, and resources. This enables developers and designers to gain insights into UI/UX patterns by analyzing real-world examples. The tool supports inlining of styles and external resources, making it valuable for inspiration and learning.**
+**The project provides a server implementation of the Model Context Protocol (MCP) to facilitate interaction with the Geoapify API. It allows developers to convert geographic addresses into GPS coordinates and generate visual maps, enhancing user experience in mapping applications. The solution integrates seamlessly with existing workflows, offering tools for automation, code management, security, and deployment.**
 
 **Features:**
-- Download complete webpage content
-- Inline all CSS styles
-- Convert images to base64 data URIs
-- Resolve and inline external resources
-- Provide UI/UX inspiration based on analyzed websites
+- Model Context Protocol Server
+- GeoJSON generation
+- Map image creation
+- API integration
+- Code and workflow automation
 
-*Tags: web-development, ui-design, responsive-design, web-scraping, design-inspiration, developer-tools, content-analysis, web-ui...*
+*Tags: geojson, mapping, api-integration, developer-tools, geolocation, server, security, automation...*
 
 ---
 
-### 3. [cryppadotta/scryfall-mcp](https://github.com/cryppadotta/scryfall-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+### 3. [datacenter/mcp_server_for_cisco_aci](https://github.com/datacenter/mcp_server_for_cisco_aci)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
-**The cryppadotta/scryfall-mcp project provides a GitHub-hosted MCP server that allows users to query and retrieve detailed information about Magic: The Gathering cards via the official Scryfall API. It supports various endpoints for searching cards, retrieving rulings, pricing, and more, making it a valuable tool for developers integrating gaming data into applications.**
+**This project provides a simple Model Context Protocol (MCP) server that facilitates communication between Cisco APIC controllers and external tools like Claude Desktop or VS Code. It supports local execution via STDIO mode, allowing developers to integrate MCP functionality directly into their development environments without requiring containerization.**
 
 **Features:**
-- Card search functionality
-- Rulings retrieval
-- Pricing information
-- Integration with Scryfall API
-- Docker-based deployment
+- MCP server integration
+- Local execution in STDIO mode
+- Configurable via environment variables
+- Support for Claude Desktop and VS Code
+- Docker support
 
-*Tags: mcp, scryfall, api, getting-started, developer-tools*
+*Tags: mcp, api, developer, automation, integration, cloud, scripting, devops...*
 
 ---
 
-### 4. [algonacci/mcp-gnews](https://github.com/algonacci/mcp-gnews)
-`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+### 4. [lior-ps/multi-llm-cross-check-mcp-server](https://github.com/lior-ps/multi-llm-cross-check-mcp-server)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**The algonacci/mcp-gnews project provides a MCP (Machine-to-Person) server that allows users to search for relevant news articles on the internet. This tool enhances user experience by integrating external content sources directly into the application workflow, supporting modern development practices with AI-driven capabilities.**
+**The Multi LLM Cross-Check MCP Server is a Python-based application that integrates with various large language models (LLMs) such as OpenAI, Anthropic, Perplexity, and Gemini. It allows developers to query multiple LLM APIs in parallel, ensuring consistent and reliable responses by cross-verifying outputs from different providers. This enhances accuracy and reduces dependency on a single source.**
 
 **Features:**
-- Search related news
-- Integrate external content
-- AI-powered search
-- Developer-friendly interface
+- Multi-LMM provider integration
+- Parallel processing for faster responses
+- Unified interface via Claude Desktop
+- API key management
+- Error handling for missing keys
 
-*Tags: mcp-gnews, web-search, ai-integration, developer-tools, content-discovery*
+*Tags: multi-llm, llm-integration, api-management, cross-check, developer-tools*
 
 ---
 
-### 5. [shahanneda/wallpaper-mcp](https://github.com/shahanneda/wallpaper-mcp)
-`8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+### 5. [danhussey/transportnsw-mcp](https://github.com/danhussey/transportnsw-mcp)
+`8.5` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 
-**The project provides a web-based interface that leverages Luma Labs AI to generate custom wallpaper images based on user prompts. It allows users to create unique wallpapers quickly and set them as their desktop background, enhancing the visual experience of macOS systems.**
+**This project implements a structured MCP service to enable AI models to interact with Transport NSW's API using standardized protocols. It supports key functionalities such as stop finding, alert retrieval, real-time departure monitoring, and integration with external AI systems via Python scripts.**
 
 **Features:**
-- Generate image using prompt
-- Set image as desktop wallpaper
-- Integrate with Luma Labs API
+- Transport stop search by name or coordinates
+- Real-time departure monitoring
+- Alert and disruption information access
+- Demo script for API testing
 
-*Tags: gui, ai, wallpaper, macos, developer, automation, integration, security...*
+*Tags: transportnsw, api, python, transport, ai, mcp, transportiapi, transportdata*
 
 ---
 
-### 6. [the-top-20-mcp-servers-for-developers-according-to-reddits-users-bab333886336](https://medium.com/@elisowski/the-top-20-mcp-servers-for-developers-according-to-reddits-users-bab333886336)
-`8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
-↗3 layers
+### 6. [rtrvr.ai: Retrieve, Research, Robotize the Web with AI](https://www.rtrvr.ai)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
-**This resource compiles insights from Reddit users to highlight the most effective MCP servers that enhance developer productivity. It evaluates each server's utility in areas such as file editing, code writing, web scraping, and more, providing developers with actionable recommendations.**
+**A web automation platform that replaces CSS selectors with natural language "Vibe Scraping," featuring a remote MCP server for cross-agent browser control.**
 
 **Features:**
-- File & coding tools
-- GitHub integration
-- Code debugging support
-- Web scraping capabilities
-- User interface generation
+- Natural language "Vibe Scraping" (no CSS selectors)
+- Remote MCP Server for agentic browser control
+- native Extension API execution (stealth)
+- 1
+- 000+ parallel cloud instances.
 
-*Tags: mcp, developer, ai, code, github, cloud, software, productivity...*
+*Tags: browser-automation, scraping, mcp, stealth, automation, artificial-intelligence, data, research...*
 
 ---
 
-### 7. [Open Operator](https://operator.browserbase.com)
+### 7. [TUUI | MCP Tool Unitary UI](https://www.tuui.com)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A Vue/TypeScript-based desktop application framework that acts as a unified UI client for Model Context Protocol (MCP) servers, streamlining tool orchestration.**
+
+**Features:**
+- Unitary UI for MCP servers
+- cross-vendor LLM API orchestration
+- Vue 3/Pinia architecture
+- dynamic theme engine.
+
+*Tags: mcp, gui, tuui, framework, client, artificial-intelligence, design, tools*
+
+---
+
+### 8. [Big-AGI: The Expert's AI Workspace](https://big-agi.com)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**An open-source generative AI suite focused on autonomous capabilities, multi-model parallel thinking (Beam), and native Model Context Protocol support.**
+
+**Features:**
+- Agent Mode multi-file edits
+- Beam multi-model reasoning
+- native MCP server support
+- local-first data privacy.
+
+*Tags: big-agi, orchestration, beam, mcp, desktop-app, api, artificial-intelligence, ux*
+
+---
+
+### 9. [Element](https://riot.im/app/)
+`8.0` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+
+**Riot is a powerful platform that leverages AI agents to streamline development tasks, offering integrated tools for coding, context engineering, and workflow orchestration. It bridges the gap between human intent and technical execution, providing intelligent assistance across various developer needs.**
+
+**Features:**
+- AI-powered agent integration
+- Context engineering capabilities
+- Workflow orchestration
+- Integrated tooling for development
+- Intelligent task execution
+
+*Tags: ai, developer-tools, workflow-automation, context-engineering, coding-tools, agent-orchestration*
+
+---
+
+### 10. [eechat - 🚀 Powerful Local AI Chat Application - Secure, Efficient, Personalized 本地化部署的大模型客户端](https://www.ee.chat)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
-**OpenAI's GUI agent featuring a high-frequency vision-action loop and Browserbase infrastructure for 10x cheaper browser-based automation.**
+**A privacy-first, locally deployed LLM client designed for desktop and mobile, featuring native MCP support and advanced markdown/LaTeX rendering.**
 
 **Features:**
-- Vision-action loop (pixel counting)
-- human-in-the-loop takeover mode
-- Browserbase headless infrastructure
-- Project Atlas agent OS integration.
+- 100% local data storage
+- native Model Context Protocol (MCP) integration
+- LaTeX/Markdown rendering
+- multi-tool parallel execution.
 
-*Tags: openai, operator, browserbase, vision, computer-use, artificial-intelligence*
+*Tags: chat, local-llm, mcp, privacy, desktop-app, artificial-intelligence*
 
 ---
 
-### 8. [Suno | AI Music Generator](https://suno.com/me?codr=1)
-`8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+### 11. [X/Twitter Post](https://x.com/realMikeChong/status/2056480507270218086)
+`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
 
-**The Suno AI Music Generator is an interactive platform that leverages artificial intelligence to compose original music tracks, offering users a seamless interface to input parameters and receive generated compositions in real time.**
+**This resource appears to be a platform or service that integrates AI agents, likely focusing on developer tools or agent orchestration. The core issue highlighted is the lack of JavaScript execution, suggesting a focus on frontend capabilities or browser compatibility within a developer ecosystem.**
 
 **Features:**
-- AI music generation
-- real-time composition
-- user-friendly interface
-- customizable parameters
+- AI Agent Integration
+- Developer Tooling
+- Browser Compatibility Check
+- Workflow Execution
+- Frontend Experience
 
-*Tags: ai, music, generation, web, developer, machinelearning, creativetools, software...*
+*Tags: ai-agents, developer-tools, web-platform, javascript, agent-orchestration, ux*
 
 ---
 
-### 9. [item?id=41222452](https://news.ycombinator.com/item?id=41222452)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+### 12. [everett-technologies.com](https://everett-technologies.com/?rdt_cid=5126553994281907174)
+`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
 
-**The resource describes a system capable of ingesting various document types, extracting structured data from PDFs, and supporting multiple AI models for enhanced processing. It highlights features such as multimodal support, summarization, and integration with Graphlit for seamless data ingestion.**
+**Everett Technologies offers a comprehensive platform designed to enable the development, orchestration, and deployment of AI agents. It focuses on providing tools for developers to build, manage, and deploy intelligent agents within their workflows.**
 
 **Features:**
-- multimodal pdf extraction
-- ai model integration (sonnet 3.5/gpt-4o)
-- structured json output
-- web scraping capabilities
+- AI Agent Orchestration
+- Developer Workflow Tools
+- Agent Frameworks
+- Workflow Automation
+- Developer Experience
 
-*Tags: graphlit, ai, pdf, document, extraction, multimodal, developer, web...*
+*Tags: ai-agents, developer-tools, workflow-automation, agent-orchestration, devx, tooling*
 
 ---
 
-### 10. [modern_web_is_more_polished_but_also_less_fun_and](https://www.reddit.com/r/web_design/comments/1t4gepz/modern_web_is_more_polished_but_also_less_fun_and)
-`7.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+### 13. [The Hermes Agent Ui](https://www.reddit.com/r/hermesagent/comments/1t4anp3/the_hermes_agent_ui/)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 
-**The article analyzes the evolution of web design, emphasizing how modern practices enhance usability and engagement while balancing aesthetics with functionality. It highlights key shifts in interface design, developer tools, and user interaction patterns.**
+**The Hermes Agent UI is a web interface designed to allow users to interact with the underlying Hermes Agent system. The discussion highlights critical points regarding the usability and aesthetic of this interface, suggesting that the current design might be lacking in clarity or flexibility for parallel operations.**
 
 **Features:**
-- responsive design
-- user-centric layouts
-- interactive elements
-- accessibility improvements
-- performance optimization
+- Agent Dashboard Interface
+- User Experience Design
+- Agent Interaction Management
+- UI Customization Options
+- Developer Workflow Integration
 
-*Tags: web-design, ui/ux, responsive, modern-web, design-trends, user-experience, development-tools, accessibility*
+*Tags: agent-ui, web-interface, developer-tools, ai-agent, user-experience, dashboard-design*
 
 ---
 
-### 11. [webmatik.ai](https://webmatik.ai)
-`10.0` ★★★ ⚡69 Q0.5✓ ✓ Solid
+### 14. [Pi Coding Agent](http://pi.dev)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**An autonomous AI web automation tool designed to rapidly audit websites across SEO, UI, and accessibility by reasoning through web structures rather than relying on brittle scripts.**
+**pi.dev is an AI platform designed to simplify the creation, orchestration, and deployment of AI agents. It provides a developer-friendly interface for defining workflows, managing agents, and integrating AI capabilities into applications.**
 
 **Features:**
-- 4-minute rapid 8-category site audit
-- autonomous structural reasoning (no fixed scripts)
-- goal-oriented visual UI inconsistency detection.
+- Agent Orchestration
+- Workflow Definition
+- Developer Interface
+- Agent Deployment
+- AI Integration
 
-*Tags: testing, vision, web-automation, qa, auditing*
+*Tags: ai-agents, workflow-automation, developer-tools, agent-orchestration, platform-development, ai-integration*
 
 ---
 
-### 12. [www.codingfont.com](https://www.codingfont.com)
-`7.8` ★ ⚡66 Q0.6✓ ✓ Solid
+### 15. [The BullForge Build System - Checkout](https://bullforgelabs.lemonsqueezy.com/checkout/buy/8b7ac4a5-c892-4ff0-a786-9f51b2cd2d1e)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**The resource provides a curated list of game themes and titles, highlighting their unique visuals and interactive elements. It serves as a valuable tool for developers and designers looking to explore diverse gaming experiences.**
+**This tool provides a centralized interface for developers to build, orchestrate, and deploy AI agents. It focuses on providing a streamlined experience for agent-based workflows, allowing developers to easily integrate intelligence into their applications.**
 
 **Features:**
-- game browser interface
-- theme selection
-- interactive game show
-- font customization
+- Agent Orchestration
+- Workflow Management
+- Agent Deployment
+- Developer Interface
+- Checkout Integration
 
-*Tags: codingfont, gamebrowse, theme, developertools, xcode, fontligatures, graphics, webdevelopment...*
+*Tags: ai-agents, workflow-automation, developer-tools, agent-orchestration, checkout-integration, ai-platform*
 
 ---
 
-### 13. [Making WebAssembly a first-class language on the Web | Hacker News](https://news.ycombinator.com/item?id=47331811)
-`7.0` ★ ⚡64 Q0.7✓ ✓ Solid
+### 16. [Congress Trading Monitor](https://congress.kadoa.com/)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**The discussion revolves around the technical challenges and goals behind making WebAssembly a first-class language on the web. It highlights the ambition to support non-Web APIs and limited cross-language interoperability, reflecting ongoing debates about the design priorities of WebAssembly's component model and interface-types proposal.**
+**Kadoa is a platform designed to integrate AI agents and developer tooling, providing a cohesive environment for engineers to build, deploy, and manage intelligent systems. It focuses on bridging the gap between traditional software development practices and modern AI agent capabilities.**
 
 **Features:**
-- Support non-Web API's
-- Support limited cross language interop
-- Preserve expressiveness while addressing real-world constraints
+- AI Agent Integration
+- Developer Tooling Platform
+- Workflow Orchestration
+- Engineering Productivity Tools
+- Agent Frameworks
 
-*Tags: wasm, interface-types, webassembly, cross-language, developer-ux, webapi, component-model, type-systems...*
+*Tags: ai-agents, developer-tools, workflow-automation, engineering-productivity, platform-integration*
 
 ---
 
-### 14. [JavaScript is not available.](https://x.com/gsivulka/status/2031797989908627849)
-`7.2` ★ ⚡62 Q0.6✓ ✓ Solid
+### 17. [AI video production | LTX](https://app.ltx.studio/pricing)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+**Ltx Studio provides a comprehensive platform for developers to build, deploy, and manage AI agents. It focuses on providing the necessary tooling and interfaces for orchestrating complex workflows and interactions between agents.**
 
 **Features:**
-- JavaScript support evaluation
-- Browser compatibility checks
-- User experience optimization
-- Technical troubleshooting guidance
+- Agent Orchestration
+- Workflow Management
+- Agent Deployment
+- Pricing & Billing Integration
+- Developer Interface
 
-*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, interface-design, developer-tools, code-optimization...*
+*Tags: ai-agents, workflow-automation, developer-tools, agent-orchestration, platform, pricing, studio*
 
 ---
 
-### 15. [JavaScript is not available.](https://x.com/maxrumpf/status/2037365748973384154)
-`7.2` ★ ⚡62 Q0.6✓ ✓ Solid
-↗2 layers
+### 18. [x.com/MrAhmadAwais/status/2050956678502420612](https://x.com/MrAhmadAwais/status/2050956678502420612?s=20)
+`7.0` ★ ⚡66 Q0.6✓ ✓ Solid
 
-**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+**This tool provides a platform for orchestrating AI agents and workflows, enabling developers to build, deploy, and manage intelligent systems. It focuses on providing the necessary infrastructure and tools for agent-based development and interaction.**
 
 **Features:**
-- JavaScript fallback strategies
-- Browser compatibility checks
-- User experience optimization
-- Technical troubleshooting guidance
+- AI Agent Orchestration
+- Workflow Execution
+- Developer Tooling
+- Browser Context Management
+- JavaScript/Browser Compatibility
 
-*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, development-best-practices*
+*Tags: ai-agents, developer-tools, workflow-orchestration, browser-compatibility, agent-framework, tooling*
 
 ---
 
-### 16. [2044420280592875896](https://x.com/RonyVernet/status/2044420280592875896)
-`7.2` ★ ⚡59 Q0.5✓ ✓ Solid
+### 19. [Wolverine Access](http://wolverineaccess.umich.edu)
+`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
 
-**A resource discussing the technical challenges and considerations for implementing JavaScript in a web-based intelligence platform.**
+**Wolverine Access appears to be a web application requiring JavaScript execution, suggesting it is a platform for managing agents, workflows, or developer interactions. The tool offers a direct interface for accessing the underlying system, which implies a focus on agent orchestration and user experience within a development context.**
 
 **Features:**
-- JavaScript support evaluation
-- Browser compatibility checks
-- User experience optimization
-- Technical troubleshooting guidance
+- JavaScript requirement
+- Web-based access
+- Agent Orchestration Interface
+- Developer Tooling
+- Wolverine Access
 
-*Tags: javascript, browser-compatibility, web-development, user-experience, technical-support, intelligence-systems, developer-tools, interface-design...*
-
----
-
-### 17. [Same Model Same Tasks Same Accuracy 4 Browser](https://www.reddit.com/r/mcp/comments/1sde9xw/same_model_same_tasks_same_accuracy_4_browser/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Same Model Same Tasks Same Accuracy 4 Browser**
+*Tags: agent-orchestration, web-app, javascript-required, developer-tooling, user-interface*
 
 ---
 
-### 18. [I Built A Cli Tool On Top Of Searxng That Scrapes](https://www.reddit.com/r/Searx/comments/1sd2pny/i_built_a_cli_tool_on_top_of_searxng_that_scrapes/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 20. [2044768734234243427](https://x.com/Alibaba_Qwen/status/2044768734234243427)
+`5.0` ★ ⚡58 Q0.6✓ ✓ Solid
 
-**I Built A Cli Tool On Top Of Searxng That Scrapes**
-
----
-
-### 19. [I Turned Browser Devtools Mcp Tool Activity Into](https://www.reddit.com/r/mcp/comments/1sftdu7/i_turned_browser_devtools_mcp_tool_activity_into/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Turned Browser Devtools Mcp Tool Activity Into**
-
----
-
-### 20. [Browser Mcp For Claude Code Browserbase Vs The](https://www.reddit.com/r/mcp/comments/1su9drr/browser_mcp_for_claude_code_browserbase_vs_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Browser Mcp For Claude Code Browserbase Vs The**
-
----
-
-### 21. [Built A Browser Mcp Because Every Other One Stunk](https://www.reddit.com/r/thewebscrapingclub/comments/1t9qmmo/built_a_browser_mcp_because_every_other_one_stunk/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Browser Mcp Because Every Other One Stunk**
-
----
-
-## Major Harness Integrations
-> 18 tools · avg signal ⚡48
-
-### 1. [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**A power-user desktop interface for simultaneous prompting across multiple web-based LLMs (ChatGPT/Claude/Gemini) without API dependency.**
+**This resource appears to be a status check or an interface endpoint for a Qwen (Alibaba) service, indicating the underlying technology stack and browser compatibility limitations. It highlights the need for JavaScript enablement within the context of a web platform's functionality.**
 
 **Features:**
-- Simultaneous multi-model prompting
-- full native web feature access (Canvas/Uploads)
-- integrated PromptCritic analyzer
-- keyboard-first global shortcuts.
+- JavaScript detection/enforcement
+- Browser support matrix
+- X.com integration
+- Status checking mechanism
+- Developer workflow guidance
 
-*Tags: gui, productivity, orchestration, webview, smol-ai, artificial-intelligence, github, version-control*
+*Tags: web-development, javascript, browser-compatibility, api-testing, developer-tools*
 
 ---
 
-### 2. [jtrogers/goose-gdrive-classifier-processor](https://github.com/jtrogers/goose-gdrive-classifier-processor)
-`8.7` ★ ⚡79 Q0.8⭐ ⭐ Excellent
-↗2 layers
+### 21. [x.com/nanobot_project/status/2044091275876675](https://x.com/nanobot_project/status/2044091275876675685)
+`4.0` ★ ⚡55 Q0.6✓ ✓ Solid
 
-**The jtrogers/goose-gdrive-classifier-processor is a MCP (Machine Learning Processing) tool designed to automate document classification within Google Drive. It leverages Python and ML models to analyze and categorize files efficiently, enhancing workflow automation for enterprise and development teams.**
+**This resource appears to be a status page or diagnostic endpoint for the 'nanobot_project', indicating an issue with JavaScript execution within the browser environment. It serves as a direct interface for checking operational status, likely related to agent orchestration or system health checks.**
 
 **Features:**
-- Document classification
-- Automated workflow integration
-- AI-driven insights
+- Status check endpoint
+- Browser compatibility check
+- Error handling/diagnostic feedback
+- Web platform integration
+- Developer workflow testing
 
-*Tags: mcp, goose-gdrive, document-classification, ai-processor, cloud-integration, developer-tools, enterprise-ai*
-
----
-
-### 3. [Correct Me If I Am Using Gemini Cli Wrong](https://www.reddit.com/r/GeminiCLI/comments/1s9d7vf/correct_me_if_i_am_using_gemini_cli_wrong/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Correct Me If I Am Using Gemini Cli Wrong**
+*Tags: web-interface, diagnostic-tool, status-check, browser-compatibility, x.com, developer-tooling*
 
 ---
 
-### 4. [Besides The Big 3 Chatgpt Gemini Claude What Ai](https://www.reddit.com/r/techforlife/comments/1s8itxy/besides_the_big_3_chatgpt_gemini_claude_what_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 22. [Hermes Client A Web Ui For Your Local Hermes Cli](https://www.reddit.com/r/hermesagent/comments/1t4amfs/hermes_client_a_web_ui_for_your_local_hermes_cli/)
+`7.0` ★ ⚡52 Q0.5✓ ✓ Solid
 
-**Besides The Big 3 Chatgpt Gemini Claude What Ai**
+**This tool provides a web user interface (UI) that acts as a direct wrapper over the local Hermes CLI. Key features include usage dashboards and spending limits, multi-agent profile mapping, and true terminal-to-web synchronization to offer a seamless experience for interacting with the Hermes agent.**
 
----
+**Features:**
+- Web UI for local Hermes CLI
 
-### 5. [An I The Only Person On Earth Using Gemini Cli On](https://www.reddit.com/r/GeminiCLI/comments/1sb4phn/an_i_the_only_person_on_earth_using_gemini_cli_on/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**An I The Only Person On Earth Using Gemini Cli On**
+*Tags: web-ui, cli-integration, agent-management, terminal-experience, streaming, developer-tools*
 
 ---
 
-### 6. [Gemini Cli Doesnt Work For Ai Proultra](https://www.reddit.com/r/GeminiCLI/comments/1sdxtkx/gemini_cli_doesnt_work_for_ai_proultra/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 23. [2038474676310028384?s=20](https://x.com/thdxr/status/2038474676310028384?s=20)
+`4.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
-**Gemini Cli Doesnt Work For Ai Proultra**
+**This resource is a simple web interface (X.com) that highlights the need for JavaScript execution and provides guidance to users on browser compatibility issues. It serves as an example of a front-end interface where the underlying technology dictates the required capabilities.**
 
----
+**Features:**
+- Browser compatibility check
+- JavaScript enablement guidance
+- User experience testing
+- Error handling/fallback mechanisms
 
-### 7. [Introducing Everything Gemini Code A Full Native](https://www.reddit.com/r/GeminiCLI/comments/1st2rcz/introducing_everything_gemini_code_a_full_native/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Introducing Everything Gemini Code A Full Native**
-
----
-
-### 8. [Surprised By Gemini 3 Flash Coding Performance](https://www.reddit.com/r/GeminiCLI/comments/1t7ked9/surprised_by_gemini_3_flash_coding_performance/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Surprised By Gemini 3 Flash Coding Performance**
-
----
-
-### 9. [Opencode Has Been A Gamechanger](https://www.reddit.com/r/opencodeCLI/comments/1sc2yr2/opencode_has_been_a_gamechanger/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opencode Has Been A Gamechanger**
-
----
-
-### 10. [Does Opencode Zen Have Its Own Hardware Or Do](https://www.reddit.com/r/opencodeCLI/comments/1slcn5u/does_opencode_zen_have_its_own_hardware_or_do/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Does Opencode Zen Have Its Own Hardware Or Do**
-
----
-
-### 11. [Codex Cli Update 01190 Realtime Voice V2 By](https://www.reddit.com/r/CodexAutomation/comments/1sicqz2/codex_cli_update_01190_realtime_voice_v2_by/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Codex Cli Update 01190 Realtime Voice V2 By**
-
----
-
-### 12. [Warning Banned From Gemini Cli And Antigravity](https://www.reddit.com/r/Bard/comments/1sn5zin/warning_banned_from_gemini_cli_and_antigravity/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Warning Banned From Gemini Cli And Antigravity**
-
----
-
-### 13. [Opencode Moved Away From Tauri We Took The](https://www.reddit.com/r/opencodeCLI/comments/1ss7ci5/opencode_moved_away_from_tauri_we_took_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opencode Moved Away From Tauri We Took The**
-
----
-
-### 14. [Deepseek V4 Is Now On Opencode](https://www.reddit.com/r/opencodeCLI/comments/1su7q8f/deepseek_v4_is_now_on_opencode/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Deepseek V4 Is Now On Opencode**
-
----
-
-### 15. [I Built Tessera A Gui Layer On Top Of Opencode](https://www.reddit.com/r/opencodeCLI/comments/1t4w8vu/i_built_tessera_a_gui_layer_on_top_of_opencode/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built Tessera A Gui Layer On Top Of Opencode**
-
----
-
-### 16. [I Built Tessera A Gui Layer On Top Of Codex And](https://www.reddit.com/r/OpenaiCodex/comments/1t4x5n2/i_built_tessera_a_gui_layer_on_top_of_codex_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built Tessera A Gui Layer On Top Of Codex And**
-
----
-
-### 17. [Ring 26 1T Free Is Now On Opencode](https://www.reddit.com/r/opencodeCLI/comments/1t91gry/ring_26_1t_free_is_now_on_opencode/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ring 26 1T Free Is Now On Opencode**
-
----
-
-### 18. [Multi Vs Gemini Cli Headtohead Impressions From](https://www.reddit.com/r/multidotdev/comments/1taky7j/multi_vs_gemini_cli_headtohead_impressions_from/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Multi Vs Gemini Cli Headtohead Impressions From**
+*Tags: web-development, browser-compatibility, javascript, user-experience, frontend, ux*
 
 ---
 
 ## Verification & Testing
-> 16 tools · avg signal ⚡73
+> 19 tools · avg signal ⚡73
 
 ### 1. [dkmaker/mcp-function-app-tester](https://github.com/dkmaker/mcp-function-app-tester)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -8981,7 +11771,7 @@
 
 ---
 
-### 9. [productivity-3?wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0](https://wisey.app/r/productivity-3?wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)
+### 9. [wisey.app/r/productivity-3](https://wisey.app/r/productivity-3?wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)
 `8.8` ★ ⚡79 Q0.7⭐ ⭐ Excellent
 
 **This landing page introduces a productivity tool aimed at helping users break the cycle of procrastination. It features a straightforward interface with a focus on user engagement, offering a 5-minute test to identify personal productivity challenges. The design emphasizes simplicity and immediacy, encouraging users to discover their unique needs through an interactive experience.**
@@ -9029,7 +11819,23 @@
 
 ---
 
-### 12. [lovinghate.com](https://lovinghate.com)
+### 12. [Drop Your Saas Tool Homepage For Feedback](https://www.reddit.com/r/Software_Finder/comments/1sz4xfc/drop_your_saas_tool_homepage_for_feedback/)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**This resource is a platform where users can submit their SaaS tool's homepage for feedback, aiming to improve its clarity, audience targeting, and overall user experience. It serves as a mechanism for gathering actionable insights on marketing messaging and trust signals essential for a successful product landing page.**
+
+**Features:**
+- SaaS Homepage Feedback Collection
+- Conversion Optimization Insights
+- Audience Clarity Check
+- Trust Signal Assessment
+- Marketing Message Review
+
+*Tags: saas, product-marketing, ux, feedback, conversion, marketing, web-development*
+
+---
+
+### 13. [lovinghate.com](https://lovinghate.com)
 `7.8` ★ ⚡67 Q0.6✓ ✓ Solid
 ↗2 layers
 
@@ -9045,445 +11851,160 @@
 
 ---
 
-### 13. [Mit Tested 41 Ai Models On 11000 Real Tasks The](https://www.reddit.com/r/ChatGPT/comments/1sduykg/mit_tested_41_ai_models_on_11000_real_tasks_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 14. [GraphiKrafts | Custom Hand-Coded Websites & SEO Agency](https://graphikrafts.com/)
+`6.0` ★ ⚡65 Q0.7✓ ✓ Solid
 
-**Mit Tested 41 Ai Models On 11000 Real Tasks The**
+**Graphikrafts is a web development platform focused on delivering high-quality, modern websites. The company emphasizes 'clean design' and 'fast performance,' suggesting an emphasis on user experience and efficient deployment for businesses.**
+
+**Features:**
+- Website building platform
+- Clean design focus
+- Fast performance optimization
+- Business growth integration
+- Express launch options
+
+*Tags: web-development, ui/ux, web-design, e-commerce, startup-tools, modern-web*
 
 ---
 
-### 14. [Ultra Godot Mcp The Fastest Mcp For Godot](https://www.reddit.com/r/opencodeCLI/comments/1slo3b5/ultra_godot_mcp_the_fastest_mcp_for_godot/)
+### 15. [2047011765586997269](https://x.com/_vmlops/status/2047011765586997269)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is an X (formerly Twitter) status page indicating that JavaScript is disabled in the current browser session. It serves as a practical example of how frontend applications interact with the underlying browser capabilities and limitations, useful for understanding client-side execution constraints.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility testing
+- Supported browser list
+- Frontend execution validation
+- Error handling demonstration
+
+*Tags: javascript, browser, webdev, frontend, ux, compatibility, testing*
+
+---
+
+### 16. [x.com/i/status/2038474676310028384](https://x.com/i/status/2038474676310028384)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This resource is a simple webpage hosted on X.com that explicitly informs the user that JavaScript is disabled in their browser, suggesting a necessary action to enable it or switch browsers. It serves as an example of how front-end execution environments interact with web services and client compatibility constraints.**
+
+**Features:**
+- JavaScript enablement check
+- Browser compatibility testing
+- Web interface demonstration
+- Error handling/fallback mechanism
+
+*Tags: web-development, browser-compatibility, javascript, user-experience, client-side, error-handling*
+
+---
+
+### 17. [Locus Founder Beta Access Form](https://forms.gle/nW7CGN1PNBHgqrBb8)
+`4.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**This is a user-friendly form designed to capture necessary details from potential beta testers, including their name, email, age, country, and technical familiarity with AI/agents. It serves as an interface for onboarding users into the Locus Founder Beta program.**
+
+**Features:**
+- User registration form
+- Beta access application
+- Basic user data collection
+- Email verification integration
+- Simple navigation flow
+
+*Tags: form-design, user-experience, beta-testing, web-form, developer-tools*
+
+---
+
+### 18. [BOX-tests - Self-Testing Made Simple | Privacy-First Quiz Platform](https://boxtests.com/)
+`6.0` ★ ⚡46 Q0.5○ ○ Adequate
+
+**Box-tests is a platform designed to simplify the process of self-testing solutions. It focuses on providing a simple, privacy-first quiz platform, making testing straightforward and secure for developers.**
+
+**Features:**
+- Self-testing platform
+
+*Tags: testing, privacy, quiz, developer-tools, security, ux, platform*
+
+---
+
+### 19. [Ultra Godot Mcp The Fastest Mcp For Godot](https://www.reddit.com/r/opencodeCLI/comments/1slo3b5/ultra_godot_mcp_the_fastest_mcp_for_godot/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Ultra Godot Mcp The Fastest Mcp For Godot**
 
 ---
 
-### 15. [The Fastest Way To Ship An Mcp Server Or Chatgpt](https://www.reddit.com/r/mcp/comments/1tauyyt/the_fastest_way_to_ship_an_mcp_server_or_chatgpt/)
+## Major Harness Integrations
+> 7 tools · avg signal ⚡58
+
+### 1. [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
+`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**A power-user desktop interface for simultaneous prompting across multiple web-based LLMs (ChatGPT/Claude/Gemini) without API dependency.**
+
+**Features:**
+- Simultaneous multi-model prompting
+- full native web feature access (Canvas/Uploads)
+- integrated PromptCritic analyzer
+- keyboard-first global shortcuts.
+
+*Tags: gui, productivity, orchestration, webview, smol-ai, artificial-intelligence, github, version-control*
+
+---
+
+### 2. [jtrogers/goose-gdrive-classifier-processor](https://github.com/jtrogers/goose-gdrive-classifier-processor)
+`8.7` ★ ⚡79 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The jtrogers/goose-gdrive-classifier-processor is a MCP (Machine Learning Processing) tool designed to automate document classification within Google Drive. It leverages Python and ML models to analyze and categorize files efficiently, enhancing workflow automation for enterprise and development teams.**
+
+**Features:**
+- Document classification
+- Automated workflow integration
+- AI-driven insights
+
+*Tags: mcp, goose-gdrive, document-classification, ai-processor, cloud-integration, developer-tools, enterprise-ai*
+
+---
+
+### 3. [geminicli.%E2%80%8Bcom](https://geminicli.%E2%80%8Bcom/extensions/?name)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**geminicli.%E2%80%8Bcom**
+
+---
+
+### 4. [geminicli.%E2%80%8Bcom](https://geminicli.%E2%80%8Bcom/extensions/?name=SonarSourcesonarqube-mcp-server)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**geminicli.%E2%80%8Bcom**
+
+---
+
+### 5. [geminicli.%E2%80%8Bcom](https://geminicli.%E2%80%8Bcom/extensions/?name=gemini-cli-extensionsstitch)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**geminicli.%E2%80%8Bcom**
+
+---
+
+### 6. [geminicli.​com](https://geminicli.​com/extensions/?name)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**geminicli.​com**
+
+---
+
+### 7. [Showing How Opencode Edits The Opencode Codebase](https://www.reddit.com/r/opencodeCLI/comments/1tpk4pc/showing_how_opencode_edits_the_opencode_codebase/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**The Fastest Way To Ship An Mcp Server Or Chatgpt**
-
----
-
-### 16. [Using Chatgpt Pro 55 Extended To Review Code](https://www.reddit.com/r/ChatGPTPro/comments/1tc5ljx/using_chatgpt_pro_55_extended_to_review_code/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Using Chatgpt Pro 55 Extended To Review Code**
-
----
-
-## Hooks & Lifecycle
-> 12 tools · avg signal ⚡86
-
-### 1. [williamkapke/kapture](https://github.com/williamkapke/kapture)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**Kapture provides a robust three-layer architecture for agentic web interaction, consisting of an MCP Server, a Chrome DevTools extension, and a WebSocket bridge. Unlike traditional headless automation, Kapture operates within the user's active browser session via the DevTools protocol, allowing agents to maintain state and authentication. Its most distinctive technical feature is the multi-client support, which allows disparate MCP-compatible AI assistants (such as Claude Desktop and Cline) to c...**
-
-**Features:**
-- Multi-client MCP synchronization
-- DevTools-integrated automation
-- WebSocket bridge architecture
-- CSS and XPath selector support
-- Real-time tab state resources
-- Simultanous AI assistant access
-- Automated server detection and lifecycle management
-- Comprehensive keyboard event simulation
-
-*Tags: mcp, browser-automation, chrome-extension, devtools, websocket-bridge, multi-agent-systems, claude-desktop, web-scraping...*
-
----
-
-### 2. [withlinda/puppeteer-real-browser-mcp-server](https://github.com/withlinda/puppeteer-real-browser-mcp-server)
-`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Puppeteer Real Browser MCP Server is a model context protocol (MCP) server that allows AI assistants such as Claude to control a real web browser. It leverages Puppeteer's capabilities to perform advanced automation tasks including browser navigation, content extraction, form filling, data scraping, captcha solving, and more, all while avoiding detection by bot protection systems.**
-
-**Features:**
-- Stealth browsing using anti-detection features
-- Enhanced Windows support with Chrome detection and ECONNREFUSED handling
-- Smart Chrome detection and registry-based detection mitigation
-- Dynamic selector discovery for robust element identification
-- Random scrolling to avoid bot detection patterns
-- Comprehensive toolset covering all browser automation needs
-- Proxy configuration for enhanced privacy
-- Captcha handling capabilities
-- Advanced error recovery with circuit breaker pattern
-- Timeout controls to prevent hanging operations
-- Platform optimization for Windows
-- macOS
-- ... and 3 more
-
-*Tags: browser-automation, ai-assistants, web-scraping, bot-detection, developer-tools, mcp-server, puppeteer, automation...*
-
----
-
-### 3. [danielzhao1990/interaction-mcp](https://github.com/danielzhao1990/interaction-mcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-
-**The Borg Project's 'Interaction-MCP' is a platform designed to facilitate high-frequency communication between AI models such as Cursor and Windsurf and human users. By integrating with these AI tools, the service reduces wasted API calls, prevents attention fragmentation, enables interactive decision-making, streamlines complex tasks, and supports multiple user interfaces including CLI, web, and PyQt.**
-
-**Features:**
-- Interactive communication between AI models and users
-- Reduction of wasted resources through confirmation before API calls
-- Maximized resource utilization by verifying user input
-- Support for multiple user interfaces (CLI
-- web
-- PyQt)
-- Information supplement feature for AI models
-- Multiple user interface options for different environments
-
-*Tags: ai-integration, developer-tools, interactive-ai, mcp-service, user-experience, decision-support, api-optimization, multi-platform...*
-
----
-
-### 4. [Build with Google's new A2UI Spec: Agent User Interfaces with A2UI + AG-UI | Blog | CopilotKit](https://www.copilotkit.ai/blog/build-with-googles-new-a2ui-spec-agent-user-interfaces-with-a2ui-ag-ui)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The resource outlines the implementation of the Agent-to-User Interface (A2UI) specification and the AG-UI protocol within the CopilotKit framework. It demonstrates how AI agents can move beyond text-based communication by sending framework-agnostic JSON payloads that define UI structures, components, and data bindings. The architecture uses a specialized schema to manage the lifecycle of a UI surface—handling actions like surface initialization (beginRendering), incremental updates (surfaceUpda...**
-
-**Features:**
-- Framework-agnostic UI component definition
-- Dynamic surface lifecycle management (rendering
-- updating
-- deleting)
-- Real-time data-to-UI binding
-- Event-based agent-user interaction protocol (AG-UI)
-- LLM-driven template selection logic
-- A2A protocol integration for cross-agent UI rendering
-- JSON Schema-validated generative UI
-- Interactive component support (buttons
-- forms
-- cards)
-
-*Tags: a2ui, ag-ui, generative-ui, copilotkit, google-adk, agent-to-user-interface, dynamic-ui, json-schema...*
-
----
-
-### 5. [wiseman/osm-mcp](https://github.com/wiseman/osm-mcp)
-`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
-
-**The OSM-MCP project provides a web application that leverages Leaflet for interactive map visualization, utilizing OpenStreetMap data through PostgreSQL/PostGIS. It supports server-to-client communication via Server-Sent Events (SSE) and offers tools for map control such as adding markers, polygons, and setting views. The package includes a Flask-based web server running on localhost:8889, with detailed configuration options for database connections and environment variables.**
-
-**Features:**
-- Web-based map viewer using Leaflet
-- Server-to-client communication via SSE
-- Map control tools (add markers
-- polygons
-- set view)
-- PostgreSQL/PostGIS query interface
-
-*Tags: osm-mcp, map-viewer, leaflet, postgresql, server-sent-events, open-streetmap, web-application, gis-tools*
-
----
-
-### 6. [shadowfax92/apple-calendar-mcp](https://github.com/shadowfax92/apple-calendar-mcp)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-
-**The project provides a TypeScript-based server for macOS that allows AI applications to access and manipulate calendar data through the Apple Calendar API Bridge. It supports various date formats, offers CRUD operations on calendars, and integrates seamlessly with AI models for enhanced functionality.**
-
-**Features:**
-- getCalendars
-- getCalendarEvents
-- createCalendarEvent
-- updateCalendarEvent
-- deleteCalendarEvent
-- date formatting
-
-*Tags: apikey, calendarapi, typescript, ai, developertools, macos, api, server...*
-
----
-
-### 7. [Hololuminescent™ Displays (HLD) Overview](https://lookingglassfactory.com/hld-overview)
-`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**Looking Glass Factory's Hololuminescent Displays (HLD) represent a novel approach to holographic display technology. Unlike traditional methods involving bulky boxes, spinning blades, or complex optical illusions, HLD combines a high-resolution screen with a fixed holographic etched background. This allows for the creation of visually compelling 3D effects from standard 2D video content, making it accessible and easy to integrate into existing workflows. The displays are designed to be thin, sca...**
-
-**Features:**
-- ['Creates 3D holographic effects from standard 2D video.'
-- 'Thin and scalable form factor for easy deployment.'
-- 'No specialized 3D pipelines required.'
-- 'Suitable for various applications (retail
-- events
-- personal use).'
-- 'Fixed holographic etched background combined with a high-resolution screen.'
-- 'No eye tracking
-- boxes
-- blades
-- or projectors.'
-- 'Installs anywhere and films beautifully.']
-
-*Tags: ['holographicdisplay', '3ddisplay', 'spatialcomputing', 'augmentedreality', 'mixedreality', 'digital-signage', 'retailtech', 'eventtech'...*
-
----
-
-### 8. [mmmaaatttttt/mcp-live-events](https://github.com/mmmaaatttttt/mcp-live-events)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The MCP Server facilitates integration with the Ticketmaster API to deliver dynamic event information. It supports developers in building intelligent applications by providing structured event data and enhancing user experiences through automated workflows and secure interactions.**
-
-**Features:**
-- Integrate with Ticketmaster API
-- Real-time event data retrieval
-- AI agent interaction
-- Dynamic event formatting
-
-*Tags: api-integration, event-data, ai-agents, real-time-processing, developer-tools, event-management*
-
----
-
-### 9. [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)
-`10.0` ★★★ ⚡81 Q0.7⭐ ⭐ Excellent
-
-**An open agentic framework for autonomous computer use via GUI interaction, featuring experience-augmented hierarchical planning.**
-
-**Features:**
-- Agent-Computer Interface (ACI)
-- hierarchical sub-task planning
-- ~72.6% OSWorld success rate
-- local Python/Bash execution hooks.
-
-*Tags: computer-use, vision, gui-automation, navigation, orchestration, artificial-intelligence, github, version-control*
-
----
-
-### 10. [hightemp/go_mcp_server_youtube_search](https://github.com/hightemp/go_mcp_server_youtube_search)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The hightemp/go_mcp_server_youtube_search project provides a lightweight MCP (Model Context Protocol) server that enables developers and AI assistants to search and retrieve information from YouTube videos. It supports both standard and Server-Sent Events modes, making it suitable for integration with various AI tools and platforms.**
-
-**Features:**
-- YouTube video search
-- MCP protocol support
-- Integration with AI assistants
-
-*Tags: mcp, youtube, search, ai, developer, integration, protocols, video*
-
----
-
-### 11. [Astral to Join OpenAI | Hacker News](https://news.ycombinator.com/item?id=47438723)
-`8.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The conversation revolves around the increasing consolidation of AI development tools by major players like OpenAI and Anthropic. It highlights concerns over the centralization of development processes and the potential loss of open-source tooling. The participants debate the viability of these platforms, the benefits of having integrated development environments (IDEs) and the challenges in maintaining transparency and community involvement. The discussion also touches on the importance of self...**
-
-**Features:**
-- Integration of AI models with cloud development environments
-- Enhanced feedback cycles through improved build/testing tools
-- Potential for faster iteration in AI model development
-- Centralization of dev lifecycle management
-
-*Tags: ai, python, openai, developer, tooling, ai-dev, software, machine-learning...*
-
----
-
-### 12. [thisnick/google-calendar-mcp](https://github.com/thisnick/google-calendar-mcp)
-`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The project implements the Model Context Protocol (MCP) to provide structured access to Google Calendar data, enabling agents to interact with calendar events and generate insights. It demonstrates core concepts of MCP for calendar event management, providing tools for creating and modifying events, and prompts for generating calendar insights.**
-
-**Features:**
-- Calendar event management via MCP URIs
-- Tools for creating and modifying events
-- Prompts for generating calendar insights
-- Structured event data with proper mime types
-
----
-
-## Orchestration
-> 11 tools · avg signal ⚡75
-
-### 1. [Fara-7B: An efficient agentic small language model for computer use](https://www.microsoft.com/en-us/research/blog/fara-7b-an-efficient-agentic-model-for-computer-use)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗5 layers
-
-**Fara-7B represents a shift in Agent-to-Application (A2A) interaction by utilizing a purely visual approach to computer use, perceiving web pages as images and predicting mouse and keyboard actions directly. The model's architecture bypasses traditional dependencies on Document Object Models (DOM) or accessibility trees, allowing it to interact with any visual interface like a human user. It was developed using a novel multi-agent synthetic data generation pipeline (built on Magentic-One) that pr...**
-
-**Features:**
-- Vision-to-Action coordinate prediction
-- Synthetic trajectory generation pipeline
-- Local on-device inference
-- Zero-dependency UI interaction
-- Magentic-One framework integration
-- Quantized silicon optimization
-- Multi-step web task automation
-- Open-weight MIT license
-
-*Tags: computer-use-agent, vision-language-model, slm, gui-automation, synthetic-data, agent-to-application, magentic-one, edge-ai...*
-
----
-
-### 2. [burningion/geoapify-mcp](https://github.com/burningion/geoapify-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a server implementation of the Model Context Protocol (MCP) to facilitate interaction with the Geoapify API. It allows developers to convert geographic addresses into GPS coordinates and generate visual maps, enhancing user experience in mapping applications. The solution integrates seamlessly with existing workflows, offering tools for automation, code management, security, and deployment.**
-
-**Features:**
-- Model Context Protocol Server
-- GeoJSON generation
-- Map image creation
-- API integration
-- Code and workflow automation
-
-*Tags: geojson, mapping, api-integration, developer-tools, geolocation, server, security, automation...*
-
----
-
-### 3. [datacenter/mcp_server_for_cisco_aci](https://github.com/datacenter/mcp_server_for_cisco_aci)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This project provides a simple Model Context Protocol (MCP) server that facilitates communication between Cisco APIC controllers and external tools like Claude Desktop or VS Code. It supports local execution via STDIO mode, allowing developers to integrate MCP functionality directly into their development environments without requiring containerization.**
-
-**Features:**
-- MCP server integration
-- Local execution in STDIO mode
-- Configurable via environment variables
-- Support for Claude Desktop and VS Code
-- Docker support
-
-*Tags: mcp, api, developer, automation, integration, cloud, scripting, devops...*
-
----
-
-### 4. [lior-ps/multi-llm-cross-check-mcp-server](https://github.com/lior-ps/multi-llm-cross-check-mcp-server)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Multi LLM Cross-Check MCP Server is a Python-based application that integrates with various large language models (LLMs) such as OpenAI, Anthropic, Perplexity, and Gemini. It allows developers to query multiple LLM APIs in parallel, ensuring consistent and reliable responses by cross-verifying outputs from different providers. This enhances accuracy and reduces dependency on a single source.**
-
-**Features:**
-- Multi-LMM provider integration
-- Parallel processing for faster responses
-- Unified interface via Claude Desktop
-- API key management
-- Error handling for missing keys
-
-*Tags: multi-llm, llm-integration, api-management, cross-check, developer-tools*
-
----
-
-### 5. [danhussey/transportnsw-mcp](https://github.com/danhussey/transportnsw-mcp)
-`8.5` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-
-**This project implements a structured MCP service to enable AI models to interact with Transport NSW's API using standardized protocols. It supports key functionalities such as stop finding, alert retrieval, real-time departure monitoring, and integration with external AI systems via Python scripts.**
-
-**Features:**
-- Transport stop search by name or coordinates
-- Real-time departure monitoring
-- Alert and disruption information access
-- Demo script for API testing
-
-*Tags: transportnsw, api, python, transport, ai, mcp, transportiapi, transportdata*
-
----
-
-### 6. [rtrvr.ai: Retrieve, Research, Robotize the Web with AI](https://www.rtrvr.ai)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**A web automation platform that replaces CSS selectors with natural language "Vibe Scraping," featuring a remote MCP server for cross-agent browser control.**
-
-**Features:**
-- Natural language "Vibe Scraping" (no CSS selectors)
-- Remote MCP Server for agentic browser control
-- native Extension API execution (stealth)
-- 1
-- 000+ parallel cloud instances.
-
-*Tags: browser-automation, scraping, mcp, stealth, automation, artificial-intelligence, data, research...*
-
----
-
-### 7. [TUUI | MCP Tool Unitary UI](https://www.tuui.com)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A Vue/TypeScript-based desktop application framework that acts as a unified UI client for Model Context Protocol (MCP) servers, streamlining tool orchestration.**
-
-**Features:**
-- Unitary UI for MCP servers
-- cross-vendor LLM API orchestration
-- Vue 3/Pinia architecture
-- dynamic theme engine.
-
-*Tags: mcp, gui, tuui, framework, client, artificial-intelligence, design, tools*
-
----
-
-### 8. [Big-AGI: The Expert's AI Workspace](https://big-agi.com)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**An open-source generative AI suite focused on autonomous capabilities, multi-model parallel thinking (Beam), and native Model Context Protocol support.**
-
-**Features:**
-- Agent Mode multi-file edits
-- Beam multi-model reasoning
-- native MCP server support
-- local-first data privacy.
-
-*Tags: big-agi, orchestration, beam, mcp, desktop-app, api, artificial-intelligence, ux*
-
----
-
-### 9. [eechat - 🚀 Powerful Local AI Chat Application - Secure, Efficient, Personalized 本地化部署的大模型客户端](https://www.ee.chat)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A privacy-first, locally deployed LLM client designed for desktop and mobile, featuring native MCP support and advanced markdown/LaTeX rendering.**
-
-**Features:**
-- 100% local data storage
-- native Model Context Protocol (MCP) integration
-- LaTeX/Markdown rendering
-- multi-tool parallel execution.
-
-*Tags: chat, local-llm, mcp, privacy, desktop-app, artificial-intelligence*
-
----
-
-### 10. [Parallel Browser Mcp Run Multiple Browser](https://www.reddit.com/r/mcp/comments/1sm18kj/parallel_browser_mcp_run_multiple_browser/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Parallel Browser Mcp Run Multiple Browser**
-
----
-
-### 11. [Claude Code On Desktop Redesigned For Parallel](https://www.reddit.com/r/ClaudeAI/comments/1slictc/claude_code_on_desktop_redesigned_for_parallel/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claude Code On Desktop Redesigned For Parallel**
+**Showing How Opencode Edits The Opencode Codebase**
 
 ---
 
 ## Cli Coding Agents
-> 6 tools · avg signal ⚡54
+> 2 tools · avg signal ⚡59
 
-### 1. [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
-`8.7` ★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A natural language interface for LLMs to execute code locally with full access to the internet, files, and installed libraries.**
-
-**Features:**
-- Terminal Chat UI
-- Local code execution
-- Browser automation module
-- OS-level script generation.
-
-*Tags: code-interpreter, local-llm, shell, automation, interactive, github, version-control*
-
----
-
-### 2. [Bolt AI builder: Websites, apps & prototypes](https://bolt.new)
+### 1. [Bolt AI builder: Websites, apps & prototypes](https://bolt.new)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -9499,30 +12020,9 @@
 
 ---
 
-### 3. [Built A Terminal Coding Assistant In Net For](https://www.reddit.com/r/LocalLLM/comments/1sedid3/built_a_terminal_coding_assistant_in_net_for/)
+### 2. [Need Real Terminal Qa For An Mcp Workgate Tui](https://www.reddit.com/r/modelcontextprotocol/comments/1tf5gep/need_real_terminal_qa_for_an_mcp_workgate_tui/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Built A Terminal Coding Assistant In Net For**
-
----
-
-### 4. [Agsm Terminal Ui For Managing Ai Codingagent](https://www.reddit.com/r/opencodeCLI/comments/1sff8zy/agsm_terminal_ui_for_managing_ai_codingagent/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Agsm Terminal Ui For Managing Ai Codingagent**
-
----
-
-### 5. [Anilisttui A Terminal Client For Anilist](https://www.reddit.com/r/tui/comments/1sjllz6/anilisttui_a_terminal_client_for_anilist/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anilisttui A Terminal Client For Anilist**
-
----
-
-### 6. [Lustcli Terminal Tui For 18 Multisite Content](https://www.reddit.com/r/CLI/comments/1skmgw1/lustcli_terminal_tui_for_18_multisite_content/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Lustcli Terminal Tui For 18 Multisite Content**
+**Need Real Terminal Qa For An Mcp Workgate Tui**
 
 ---

@@ -1,16 +1,19 @@
 # 🗺 Guides & Industry Trends
-> Borg Intelligence Atlas v8 · 2026-05-19 · 809 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 1,735 tools
 > Awesome lists, tutorials, architecture patterns, benchmarks
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **809** |
-| Standout 🏆⭐ | 82 |
-| Avg Signal | ⚡70 |
-| Innovation 10 | 75 ████░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 138 ████████░░░░░░░░░░░░ |
-| Innovation 8 | 336 ████████████████████ |
-| Innovation 7 | 260 ███████████████░░░░░ |
+| Total tools | **1,735** |
+| Standout 🏆⭐ | 79 |
+| Avg Signal | ⚡60 |
+| Innovation 10 | 71 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 133 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 8 | 1386 ████████████████████ |
+| Innovation 7 | 56 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 5 | 83 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 4 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -26,41 +29,41 @@
 8. **[cam10001110101/mcp-server-outlook-email](https://github.com/cam10001110101/mcp-server-outlook-email)** ⚡93 · 🏆 World-class — This resource is a cross-platform MCP server designed to process Microsoft Outlook emails, generate ...
 9. **[ariunbolor/nsaf-mcp-server](https://github.com/ariunbolor/nsaf-mcp-server)** ⚡93 · 🏆 World-class — This resource describes the Neuro-Symbolic Autonomy Framework (NSAF), a comprehensive system for bui...
 10. **[cyreslab-ai/exploitdb-mcp-server](https://github.com/cyreslab-ai/exploitdb-mcp-server)** ⚡93 · 🏆 World-class — This resource is a server that provides access to the ExploitDB database, enabling AI assistants to ...
-11. **[jagan-shanmugam/climatiq-mcp-server](https://github.com/jagan-shanmugam/climatiq-mcp-server)** ⚡92 · 🏆 World-class — This resource is a server that provides an interface for AI assistants to perform real-time carbon e...
-12. **[yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)** ⚡92 · 🏆 World-class — Memory-Plus is a lightweight Retrieval-Augmented Generation (RAG) memory store designed for MCP agen...
-13. **[thesethrose/alexa-shopping-list](https://github.com/thesethrose/alexa-shopping-list)** ⚡92 · 🏆 World-class — This resource details a system for seamlessly managing an Alexa shopping list by interacting with it...
-14. **[prisma/prisma](https://github.com/prisma/prisma)** ⚡92 · 🏆 World-class — Prisma is a next-generation ORM that provides tools for data modeling, migration, and database inter...
-15. **[varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)** ⚡92 · 🏆 World-class — This repository explores the concept of "Shodh-Memory," a persistent memory layer designed to improv...
-16. **[ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)** ⚡92 · 🏆 World-class — This resource describes a project focused on building an agent for deep research using the Gemini mo...
-17. **[wizd/airylark-mcp-server](https://github.com/wizd/airylark-mcp-server)** ⚡92 · 🏆 World-class — This resource provides a professional translation server module, enabling intelligent agents to perf...
-18. **[pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)** ⚡91 · 🏆 World-class — This resource aggregates documentation, plugins, and tutorials for Pieces, an AI-enabled productivit...
-19. **[terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)** ⚡91 · 🏆 World-class — A curated list of links to game developer blogs and/or portfolios that you found interesting.
-20. **[MaxGfeller/open-harness](https://github.com/MaxGfeller/open-harness)** ⚡91 · 🏆 World-class — This resource provides a framework for building and running general-purpose AI agents, leveraging mo...
+11. **[yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)** ⚡92 · 🏆 World-class — Memory-Plus is a lightweight Retrieval-Augmented Generation (RAG) memory store designed for MCP agen...
+12. **[thesethrose/alexa-shopping-list](https://github.com/thesethrose/alexa-shopping-list)** ⚡92 · 🏆 World-class — This resource details a system for seamlessly managing an Alexa shopping list by interacting with it...
+13. **[prisma/prisma](https://github.com/prisma/prisma)** ⚡92 · 🏆 World-class — Prisma is a next-generation ORM that provides tools for data modeling, migration, and database inter...
+14. **[varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)** ⚡92 · 🏆 World-class — This repository explores the concept of "Shodh-Memory," a persistent memory layer designed to improv...
+15. **[ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)** ⚡92 · 🏆 World-class — This resource describes a project focused on building an agent for deep research using the Gemini mo...
+16. **[wizd/airylark-mcp-server](https://github.com/wizd/airylark-mcp-server)** ⚡92 · 🏆 World-class — This resource provides a professional translation server module, enabling intelligent agents to perf...
+17. **[pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)** ⚡91 · 🏆 World-class — This resource aggregates documentation, plugins, and tutorials for Pieces, an AI-enabled productivit...
+18. **[terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)** ⚡91 · 🏆 World-class — A curated list of links to game developer blogs and/or portfolios that you found interesting.
+19. **[MaxGfeller/open-harness](https://github.com/MaxGfeller/open-harness)** ⚡91 · 🏆 World-class — This resource provides a framework for building and running general-purpose AI agents, leveraging mo...
+20. **[URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server)** ⚡91 · 🏆 World-class — This resource is a Python project that provides various Model Context Protocol (MCP) servers to enab...
 
 ---
 
 ## Contents
 
-- [Other Tools](#other-tools) — 248 tools · ⚡49
-- [Spec-Driven Development](#spec-driven-development) — 129 tools · ⚡82
-- [Bridges & Proxies](#bridges--proxies) — 57 tools · ⚡84
-- [Monitoring & Analytics](#monitoring--analytics) — 53 tools · ⚡79
-- [Context Engineering](#context-engineering) — 43 tools · ⚡77
-- [Skill Systems](#skill-systems) — 41 tools · ⚡82
-- [Orchestration](#orchestration) — 40 tools · ⚡83
-- [Config & Profile Management](#config--profile-management) — 38 tools · ⚡81
-- [Governance & Safety](#governance--safety) — 33 tools · ⚡76
-- [Memory & Context Systems](#memory--context-systems) — 32 tools · ⚡80
-- [Verification & Testing](#verification--testing) — 25 tools · ⚡64
-- [Major Harness Integrations](#major-harness-integrations) — 23 tools · ⚡48
-- [Hooks & Lifecycle](#hooks--lifecycle) — 22 tools · ⚡84
-- [Harness Frameworks](#harness-frameworks) — 21 tools · ⚡80
-- [Browser & Web Tools](#browser--web-tools) — 4 tools · ⚡69
+- [Other Tools](#other-tools) — 1140 tools · ⚡51
+- [Spec-Driven Development](#spec-driven-development) — 145 tools · ⚡78
+- [Bridges & Proxies](#bridges--proxies) — 65 tools · ⚡80
+- [Monitoring & Analytics](#monitoring--analytics) — 62 tools · ⚡76
+- [Skill Systems](#skill-systems) — 45 tools · ⚡79
+- [Context Engineering](#context-engineering) — 44 tools · ⚡77
+- [Orchestration](#orchestration) — 42 tools · ⚡82
+- [Governance & Safety](#governance--safety) — 40 tools · ⚡74
+- [Config & Profile Management](#config--profile-management) — 36 tools · ⚡82
+- [Hooks & Lifecycle](#hooks--lifecycle) — 34 tools · ⚡75
+- [Memory & Context Systems](#memory--context-systems) — 33 tools · ⚡79
+- [Harness Frameworks](#harness-frameworks) — 20 tools · ⚡81
+- [Verification & Testing](#verification--testing) — 16 tools · ⚡75
+- [Browser & Web Tools](#browser--web-tools) — 8 tools · ⚡63
+- [Major Harness Integrations](#major-harness-integrations) — 5 tools · ⚡55
 
 ---
 
 ## Other Tools
-> 248 tools · avg signal ⚡49
+> 1140 tools · avg signal ⚡51
 
 ### 1. [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
@@ -176,31 +179,7 @@
 
 ---
 
-### 7. [ligurio/awesome-ttygames](https://github.com/ligurio/awesome-ttygames)
-`8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This repository provides a collection of classic or unique TTY/ASCII games, demonstrating the potential for simple, text-based interaction and showcasing various game types ranging from classic arcade challenges to more complex roguelike adventures.**
-
-**Features:**
-- ['Hangman (classic game)'
-- '2048 (a clone of 2048 game)'
-- '2048-CLI (a clone of 2048 game)'
-- 'ASCII patrol (clone of "Moon Patrol")'
-- 'Ad astra (turn-based space strategy game)'
-- 'Adom (roguelike game)'
-- 'Adventure (exploration game)'
-- 'AlienRL (tactical roguelike game)'
-- 'Alienwave (clone of Space Invaders game)'
-- 'Allureofthestars (roguelike and tactical squad combat game)'
-- 'Angband (single-player dungeon exploration game)'
-- 'Anonymine (a clone of Minesweeper game)']
-
-*Tags: ['tty', 'ascii', 'games', 'classic', 'retro', 'cli', 'web', 'terminal'...*
-
----
-
-### 8. [openlinksoftware/mcp-pyodbc-server](https://github.com/openlinksoftware/mcp-pyodbc-server)
+### 7. [openlinksoftware/mcp-pyodbc-server](https://github.com/openlinksoftware/mcp-pyodbc-server)
 `8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **The repository provides an "MCP Server" built with FastAPI and pyodbc, designed to facilitate interaction with database systems like Virtuoso or any other DBMS utilizing an ODBC driver. Key features include fetching schemas, retrieving table information, describing table structures, filtering tables by name, and executing stored procedures for structured data retrieval.**
@@ -214,7 +193,7 @@
 
 ---
 
-### 9. [damonxue/mcp-ossinsight](https://github.com/damonxue/mcp-ossinsight)
+### 8. [damonxue/mcp-ossinsight](https://github.com/damonxue/mcp-ossinsight)
 `8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -229,7 +208,7 @@
 
 ---
 
-### 10. [kevinwatt/yt-dlp-mcp](https://github.com/kevinwatt/yt-dlp-mcp)
+### 9. [kevinwatt/yt-dlp-mcp](https://github.com/kevinwatt/yt-dlp-mcp)
 `8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **The project offers an MCP server solution designed to bring video platform capabilities directly into AI agents, allowing for the integration of tools like `yt-dlp` with platforms like Claude and Dive. It focuses on providing comprehensive video download, transcript generation, and audio extraction features through a natural language interface.**
@@ -243,7 +222,7 @@
 
 ---
 
-### 11. [hundunonline/mcp-dingdingbot-server](https://github.com/hundunonline/mcp-dingdingbot-server)
+### 10. [hundunonline/mcp-dingdingbot-server](https://github.com/hundunonline/mcp-dingdingbot-server)
 `8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **The project provides a Message Control Protocol (MCP) server that enables sending diverse message types to the DingDing group robots, supporting text, markdown, image, news, template card messages, and file uploads. It focuses on bridging communication between an application layer and the DingDing bot ecosystem.**
@@ -257,7 +236,7 @@
 
 ---
 
-### 12. [alphavantage/alpha_vantage_mcp](https://github.com/alphavantage/alpha_vantage_mcp)
+### 11. [alphavantage/alpha_vantage_mcp](https://github.com/alphavantage/alpha_vantage_mcp)
 `9.7` ★★ ⚡81 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -273,7 +252,7 @@
 
 ---
 
-### 13. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)
+### 12. [jxnl/python-apple-mcp](https://github.com/jxnl/python-apple-mcp)
 `8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
 
 **The project provides a Python implementation of a server designed to handle interactions with native macOS applications like Contacts, Notes, Mail, Messages, Reminders, Calendar, and Maps via AppleScript. It emphasizes asynchronous operations for performance, type-safe interfaces using Pydantic models, modular design for extensibility, and comprehensive error handling.**
@@ -289,7 +268,7 @@
 
 ---
 
-### 14. [zbdpay/zbd-payments-typescript-sdk](https://github.com/zbdpay/zbd-payments-typescript-sdk)
+### 13. [zbdpay/zbd-payments-typescript-sdk](https://github.com/zbdpay/zbd-payments-typescript-sdk)
 `8.5` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **The repository provides a convenient TypeScript SDK (`@zbdpay/payments-sdk`) that allows developers to easily interact with the ZBD Payments REST API from server-side environments using TypeScript or JavaScript. It includes detailed definitions for request parameters and responses, enabling seamless integration of global payments into applications.**
@@ -302,7 +281,7 @@
 
 ---
 
-### 15. [Chris Harrison | BibleViz](https://www.chrisharrison.net/index.php/Visualizations/BibleViz)
+### 14. [Chris Harrison | BibleViz](https://www.chrisharrison.net/index.php/Visualizations/BibleViz)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 
 **A landmark data visualization project mapping 63,779 biblical cross-references into an arc diagram to reveal the inherent information density and structural integrity of the text.**
@@ -318,22 +297,24 @@
 
 ---
 
-### 16. [Mindpixel - Wikipedia](https://en.m.wikipedia.org/wiki/Mindpixel)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+### 15. [[2605.28781] The sum-product conjecture is false for real numbers](https://arxiv.org/abs/2605.28781)
+`8.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 
-**A historical AI project (2000-2005) that attempted to build a "Generic Artificial Consciousness" by validating millions of true/false "pixels" of human knowledge.**
+**This paper presents a proof that the sum-product conjecture is false for real numbers, constructing arbitrarily large sets $A$ within algebraic integers to show that $\max(|A+A|, |AA|) \leq |A|^{2-c}$ holds for some constant $c>0$. It also provides similar constructions for $p$-adics and finite fields, offering new lower bounds for solutions to linear equations in multiplicative groups.**
 
 **Features:**
-- True/False knowledge units (pixels)
-- human validation consensus loop
-- generic artificial consciousness (GAC) goal
-- historical crowdsourced AI.
+- Sum-product conjecture
+- number theory
+- real numbers
+- algebraic integers
+- $p$-adics
+- combinatorial bounds
 
-*Tags: ai-history, consciousness, consensus, mindpixel, philosophy, bookmark, web*
+*Tags: number-theory, sum-product, algebraic-integers, real-numbers, combinatorics, math*
 
 ---
 
-### 17. [Open Mind Common Sense - Wikipedia](https://en.m.wikipedia.org/wiki/Open_Mind_Common_Sense)
+### 16. [Open Mind Common Sense - Wikipedia](https://en.m.wikipedia.org/wiki/Open_Mind_Common_Sense)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **A historical MIT project (1999) that pioneered crowdsourced AI data collection to teach computers everyday "common sense" facts, leading to ConceptNet.**
@@ -348,7 +329,7 @@
 
 ---
 
-### 18. [Book of the Dead - Wikipedia](https://en.wikipedia.org/wiki/Book_of_the_Dead)
+### 17. [Book of the Dead - Wikipedia](https://en.wikipedia.org/wiki/Book_of_the_Dead)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **A collection of ancient Egyptian spells and funerary texts designed as a practical guidebook for navigating the complex hazards of the underworld (Duat).**
@@ -363,7 +344,7 @@
 
 ---
 
-### 19. [Implications of AI to schools | Hacker News](https://news.ycombinator.com/item?id=46036878)
+### 18. [Implications of AI to schools | Hacker News](https://news.ycombinator.com/item?id=46036878)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **A technical deconstruction of DeepSeek-V3, highlighting its $5.5M training cost, 53x cheaper inference vs Claude, and successful FP8 quantized MoE training.**
@@ -378,7 +359,7 @@
 
 ---
 
-### 20. [Yonaba/awesome-one-person-games](https://github.com/Yonaba/awesome-one-person-games)
+### 19. [Yonaba/awesome-one-person-games](https://github.com/Yonaba/awesome-one-person-games)
 `8.7` ★ ⚡76 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -393,7 +374,7 @@
 
 ---
 
-### 21. [AI's capability improvements haven't come from it getting less affordable — LessWrong](https://www.lesswrong.com/posts/E6ELHguZFNF3Czp55/ai-s-capability-improvements-haven-t-come-from-it-getting)
+### 20. [AI's capability improvements haven't come from it getting less affordable — LessWrong](https://www.lesswrong.com/posts/E6ELHguZFNF3Czp55/ai-s-capability-improvements-haven-t-come-from-it-getting)
 `7.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
 
 **This analysis evaluates publicly available time horizon data from METR to assess whether rising inference costs are limiting AI automation progress. It examines whether improvements in AI capabilities are offset by increasing per-task expenses, and explores the feasibility of setting cost caps without hindering task completion.**
@@ -409,7 +390,7 @@
 
 ---
 
-### 22. [Compound File Binary Format - Wikipedia](https://en.m.wikipedia.org/wiki/Compound_File_Binary_Format)
+### 21. [Compound File Binary Format - Wikipedia](https://en.m.wikipedia.org/wiki/Compound_File_Binary_Format)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A legacy sector-based binary format ("file system within a file") used for MSI, older Office docs, and proprietary industrial data.**
@@ -424,7 +405,7 @@
 
 ---
 
-### 23. [Comparison of file-sharing applications - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_file-sharing_applications)
+### 22. [Comparison of file-sharing applications - Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_file-sharing_applications)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A comparative analysis of the 2026 file-sharing market, highlighting the dominance of Stash and Smash for large-scale, privacy-first E2EE transfers.**
@@ -439,7 +420,7 @@
 
 ---
 
-### 24. [already-decided](https://dailybible.net/already-decided)
+### 23. [already-decided](https://dailybible.net/already-decided)
 `8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
 
 **The passage emphasizes God's prior decision to include individuals in salvation through Jesus Christ, highlighting the importance of trusting this arrangement rather than seeking personal effort. It encourages believers to recognize that salvation is a gift received, not earned, and to reflect on how this understanding shapes their faith and daily life.**
@@ -454,7 +435,7 @@
 
 ---
 
-### 25. [Exodus](https://www.exodus1174.com/#)
+### 24. [Exodus](https://www.exodus1174.com/#)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **A massive community-driven total conversion mod focusing on extreme realism, expanded lore, and complex survival mechanics.**
@@ -469,7 +450,7 @@
 
 ---
 
-### 26. [Nanobot: Ultra-Lightweight Alternative to OpenClaw | Hacker News](https://news.ycombinator.com/item?id=46897737)
+### 25. [Nanobot: Ultra-Lightweight Alternative to OpenClaw | Hacker News](https://news.ycombinator.com/item?id=46897737)
 `9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
 
 **A discussion on the 2026 federal mandate requiring transition to quantum-resistant algorithms (Kyber/Dilithium) for all sensitive systems.**
@@ -484,7 +465,7 @@
 
 ---
 
-### 27. [Toys with the highest play-time and lowest clean-up-time | Hacker News](https://news.ycombinator.com/item?id=46315583)
+### 26. [Toys with the highest play-time and lowest clean-up-time | Hacker News](https://news.ycombinator.com/item?id=46315583)
 `8.7` ★ ⚡71 Q0.7⭐ ⭐ Excellent
 
 **A discussion on the technical challenges of searching and indexing irreversibly public data leaks, featuring suggestions for large-scale SQLite indexing.**
@@ -499,7 +480,7 @@
 
 ---
 
-### 28. [what_scaling_from_130k_to_910k_taught_me_about](https://www.reddit.com/r/ai_trading/comments/1svccfl/what_scaling_from_130k_to_910k_taught_me_about)
+### 27. [what_scaling_from_130k_to_910k_taught_me_about](https://www.reddit.com/r/ai_trading/comments/1svccfl/what_scaling_from_130k_to_910k_taught_me_about)
 `8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -515,7 +496,7 @@
 
 ---
 
-### 29. [how_are_you_mapping_where_ai_is_actually_used_vs](https://www.reddit.com/r/strategy/comments/1sl55yn/how_are_you_mapping_where_ai_is_actually_used_vs)
+### 28. [how_are_you_mapping_where_ai_is_actually_used_vs](https://www.reddit.com/r/strategy/comments/1sl55yn/how_are_you_mapping_where_ai_is_actually_used_vs)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -531,7 +512,25 @@
 
 ---
 
-### 30. [Programming languages used for music | Hacker News](https://news.ycombinator.com/item?id=46338437)
+### 29. [Building from zero after addiction, prison, and a felony | Hacker News](https://news.ycombinator.com/item?id=48437406)
+`7.0` ★ ⚡66 Q19.8✓ ✓ Solid
+
+**90s early internet/BBS punk rocker/computer nerd. Hated school angry.Dropped out to work as a bike messenger for 5 years before packing a bag and moving west randomly. Couldn't sit still. Rode freight trains around the country for a few months.Washed dishes and landscaped to cover my cheap rent till**
+
+*Tags: ai, guides*
+
+---
+
+### 30. [Building from Zero After Addiction, Prison, and a Felony](https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony)
+`7.0` ★ ⚡66 Q19.8✓ ✓ Solid
+
+**I spent ages 14-16 in a maximum-security juvenile prison, became a felon at 19, lost almost everything to addiction, and later rebuilt my life through software, open source, and a few people who took a chance on me. This is the condensed story, written for anyone wondering whether they have a future**
+
+*Tags: guides*
+
+---
+
+### 31. [Programming languages used for music | Hacker News](https://news.ycombinator.com/item?id=46338437)
 `8.0` ★ ⚡65 Q0.6✓ ✓ Solid
 
 **A high-level debate on the production costs and intrinsic value of privately issued currencies like Bitcoin versus traditional fiat and scams.**
@@ -546,7 +545,173 @@
 
 ---
 
-### 31. [Ask HN: When do you think the ChatGPT moment will be for medicine? | Hacker News](https://news.ycombinator.com/item?id=47420556)
+### 32. [m-pulse / a cooltown magazine / Mobilize or <I>Fossilize</I>: Seth Godin on 'Zooming,' Evolution and the Future of Your Company on the Wireless Web](https://www.rickmathieson.com/articles/0302-sethgodin.html)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides a deep dive into Seth Godin's theory of evolution applied to business strategy, focusing on the concept of 'zooming'—the process of rapid adaptation. It examines how companies that embrace change ('zoom') attract 'zoomers,' leading to faster feedback loops and more successful strategies in a dynamic market.**
+
+**Features:**
+- Seth Godin's theory of zooming
+- Evolutionary business strategy
+- Fast feedback loops
+- Meme pools
+- Adaptation strategies
+
+*Tags: strategy, evolution, business, marketing, adaptation, innovation*
+
+---
+
+### 33. [Apply to YC | Y Combinator](https://www.ycombinator.com/apply)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides an overview of Y Combinator, detailing the application process, the in-person batch experience, and the prestige associated with being accepted into this top-tier startup accelerator. It highlights key details about the program's structure and the caliber of the people involved.**
+
+**Features:**
+- Startup Accelerator Guide
+- Application Process Overview
+- YC Batch Details
+- Key People & Company Stories
+- Early Decision Structure
+
+*Tags: startup, accelerator, tech, venture-capital, guide, ai, trends*
+
+---
+
+### 34. [How to Learn Algorithmic Trading | Quantivity](http://quantivity.wordpress.com/2010/01/10/how-to-learn-algorithmic-trading/)
+`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
+
+**This resource provides a structured roadmap for retail traders to understand algorithmic trading, focusing on key areas like mathematical finance foundations and modern modeling. It serves as an introductory guide by recommending seminal works that build intuition rather than just mathematical rigor.**
+
+**Features:**
+- Algorithmic trading learning path
+- foundational financial concepts
+- recommended reading list
+- equity/FX focus
+- expert mentorship guidance
+
+*Tags: algorithmic-trading, quantitative-finance, retail-trading, financial-modeling, educational-guide*
+
+---
+
+### 35. [Beatport | DJ & Electronic Dance Music, Tracks & Mixes](https://www.beatport.com)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is a storefront or platform for electronic music, showcasing various releases, playlists, and DJ charts. It serves as a guide for discovering new electronic music and curated playlists within the electronic music industry.**
+
+**Features:**
+- Electronic music discovery
+- DJ charts
+- exclusive releases
+- playlist creation
+- music downloads
+
+*Tags: electronic-music, dj-charts, music-platform, electronic-store, beatsport, music-discovery, electronic*
+
+---
+
+### 36. [Can We Afford Large-scale Solar PV? - by Brian Potter](https://www.construction-physics.com/p/can-we-afford-large-scale-solar-pv)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This article explores the viability of solar photovoltaics (PV) in meeting a substantial fraction of the US electricity demand. It uses simulations to determine the required capacity for solar panels and storage needed to supply different percentages of energy needs, highlighting the trade-off between cost-effectiveness and infrastructure requirements.**
+
+**Features:**
+- Solar PV feasibility analysis
+- intermittency challenges
+- cost-effectiveness assessment
+- battery storage requirements
+
+*Tags: solar-energy, pv, electricity-grid, energy-transition, intermittency, cost-analysis*
+
+---
+
+### 37. [How To File Bankruptcy for Free: A 10-Step Guide - Upsolve](https://upsolve.org/learn/how-to-file-bankruptcy)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource provides an overview of the process for filing for Chapter 7 bankruptcy, outlining ten key steps necessary to successfully file. It serves as a helpful guide for individuals struggling with debt who need a structured approach to financial relief.**
+
+**Features:**
+- Step-by-step checklist
+- Bankruptcy process breakdown
+- Financial reset tool
+- Document collection guide
+- Legal clarity on debt relief
+
+*Tags: bankruptcy, debt-relief, financial-planning, legal-guide, consumer-finance, credit-counseling*
+
+---
+
+### 38. [:: Flavor list
+      e-Liquid Calculator](https://e-liquid-recipes.com/flavors)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource offers an e-liquid recipe calculator and a curated list of flavors, along with various recipes. It serves as a guide for users to discover new flavor combinations and create custom e-liquid recipes.**
+
+**Features:**
+- Flavor calculator
+- Recipe creation
+- Flavor list
+- Ingredient/Recipe mapping
+- Resource page
+
+*Tags: e-liquid, flavor, recipe, calculator, diy, nostalgia, resource*
+
+---
+
+### 39. [Taking DJ Gigs Outside Of Your Normal Genre - DJ TechTools](https://djtechtools.com/2012/11/23/taking-dj-gigs-outside-of-your-normal-genre/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This article discusses the concept of 'Beatport' adding a new musical genre, prompting a discussion on whether all music should be crowd-tagged. It serves as an editorial piece analyzing the intersection between musical classification systems and modern tagging practices.**
+
+**Features:**
+- Genre analysis
+- musical categorization debate
+- editorial insight
+- genre exploration
+
+*Tags: music, genre, editorial, tagging, beatsport, culture, analysis*
+
+---
+
+### 40. [redacted Interview Prep - Welcome](https://interviewfor.red/en/index.html)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource serves as an interview preparation guide for potential members of the RED community. It outlines the necessary knowledge regarding music formats, transcoding techniques, torrenting methods, and burning/ripping processes required to understand the site's core offerings and culture.**
+
+**Features:**
+- Interview prep guide
+- Music format knowledge
+- Torrenting/burning tips
+- Community integration guide
+
+*Tags: interview-prep, music-formats, torrenting, community, guides, media, audiobooks*
+
+---
+
+### 41. [Crystal Nights — Greg Egan](https://www.gregegan.net/MISC/CRYSTAL/Crystal.html)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource provides a curated view of the work of author Greg Egan, featuring various collections and stories that showcase themes and concepts within science fiction. It serves as a guide for understanding the scope and depth of Egan's literary output.**
+
+**Features:**
+- Literary collection overview
+- Science Fiction/Fantasy works
+- Bibliography/Publication history
+- Literary analysis
+
+*Tags: science-fiction, fantasy, literature, greg-egan, classic-literature, sci-fi*
+
+---
+
+### 42. [Reddit - Please wait for verification](https://www.reddit.com/r/OrganicChemistry/comments/1tzsuob/structural_similarities_between_various_drugs/)
+`6.0` ★ ⚡56 Q16.8✓ ✓ Solid
+
+**No description available.**
+
+*Tags: ai, guides*
+
+---
+
+### 43. [Ask HN: When do you think the ChatGPT moment will be for medicine? | Hacker News](https://news.ycombinator.com/item?id=47420556)
 `7.0` ★ ⚡54 Q0.5✓ ✓ Solid
 
 **Explores the timeline and challenges of AI-driven drug discovery using bio models.**
@@ -561,1527 +726,7692 @@
 
 ---
 
-### 32. [deepvaluereports.com](https://deepvaluereports.com/dvr-stock-score)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+### 44. [X/Twitter Post](https://x.com/Alibaba\_Qwen/status/2044768734234243427](https://x.com/Alibaba_Qwen/status/2044768734234243427)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
 
-**deepvaluereports.com**
-
----
-
-### 33. [about:blank](about:blank)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**about:blank**
+**https://x.com/Alibaba\_Qwen/status/2044768734234243427](https://x.com/Alibaba_Qwen/status/2044768734234243427**
 
 ---
 
-### 34. [discogs.com](https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+### 45. [X/Twitter Post](https://x.com/\_vmlops/status/2047011765586997269](https://x.com/_vmlops/status/2047011765586997269)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
 
-**discogs.com**
-
----
-
-### 35. [thechilluminati.com](https://www.thechilluminati.com/event/sacred-earth-open-air-2025/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**thechilluminati.com**
+**https://x.com/\_vmlops/status/2047011765586997269](https://x.com/_vmlops/status/2047011765586997269**
 
 ---
 
-### 36. [facebook.com](https://www.facebook.com/robertpelloni/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+### 46. [X/Twitter Post](https://x.com/akshay\_pachaar/status/2055264580755214363](https://x.com/akshay_pachaar/status/2055264580755214363)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
 
-**facebook.com**
-
----
-
-### 37. [facebook.com](https://www.facebook.com/story.php?story_fbid=1589959796463313&id=100063479231486)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**facebook.com**
+**https://x.com/akshay\_pachaar/status/2055264580755214363](https://x.com/akshay_pachaar/status/2055264580755214363**
 
 ---
 
-### 38. [newtab](edge://newtab/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+### 47. [X/Twitter Post](https://x.com/jiqizhixin/status/2043718855542071453](https://x.com/jiqizhixin/status/2043718855542071453)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
 
-**newtab**
+**https://x.com/jiqizhixin/status/2043718855542071453](https://x.com/jiqizhixin/status/2043718855542071453**
 
 ---
 
-### 39. [127.0.0.1:9119](http://127.0.0.1:9119/config)
+### 48. [mevro.io)%5BMevro%5D(http:](http://www.mevro.io)%5BMevro%5D(http://www.mevro.io)%5BMevro%5D(http://www.mevro.io)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**mevro.io)%5BMevro%5D(http:**
+
+---
+
+### 49. [shittyfoodmadepretentious.com](http://www.shittyfoodmadepretentious.com/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**shittyfoodmadepretentious.com**
+
+---
+
+### 50. [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**marketplace.visualstudio.com**
+
+---
+
+### 51. [marketplace.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=Shaf.markdown42)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**marketplace.visualstudio.com**
+
+---
+
+### 52. [post-modernmusic.bandcamp.com](https://post-modernmusic.bandcamp.com/album/hypothetical)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**post-modernmusic.bandcamp.com**
+
+---
+
+### 53. [rocksteadydisco.bandcamp.com](https://rocksteadydisco.bandcamp.com/album/viva-la-resistance-xii-saturday-5-23-26-on-motorcity-wines-patio)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**rocksteadydisco.bandcamp.com**
+
+---
+
+### 54. [vinayakrecords.bandcamp.com](https://vinayakrecords.bandcamp.com/album/malana-mantra-ritual)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**vinayakrecords.bandcamp.com**
+
+---
+
+### 55. [ufos.nationalarchives.gov.uk](http://ufos.nationalarchives.gov.uk/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**ufos.nationalarchives.gov.uk**
+
+---
+
+### 56. [X/Twitter Post](https://en.wikipedia.org/wiki/X.com_(bank))
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://en.wikipedia.org/wiki/X.com_(bank)**
+
+---
+
+### 57. [scienceandmeaning.substack.com](https://scienceandmeaning.substack.com/p/pleasure-is-not-addictive-and-does)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**scienceandmeaning.substack.com**
+
+---
+
+### 58. [Claude.ai&quot;&gt;Claude.ai&lt;](http://Claude.ai&quot;&gt;Claude.ai&lt;/a&gt)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**Claude.ai&quot;&gt;Claude.ai&lt;**
+
+---
+
+### 59. [complexreddit.wikispaces.com](http://complexreddit.wikispaces.com)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**complexreddit.wikispaces.com**
+
+---
+
+### 60. [complexreddit.wikispaces.com](http://complexreddit.wikispaces.com/Reading+Group+1+-+Reinventing+the+Sacred)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**complexreddit.wikispaces.com**
+
+---
+
+### 61. [electricforestfest.tumblr.com](http://electricforestfest.tumblr.com/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**electricforestfest.tumblr.com**
+
+---
+
+### 62. [encrypted-tbn0.gstatic.com](https://encrypted-tbn0.gstatic.com/images?q)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**encrypted-tbn0.gstatic.com**
+
+---
+
+### 63. [experience.electricforestfestival.com](https://experience.electricforestfestival.com/support/home)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**experience.electricforestfestival.com**
+
+---
+
+### 64. [discordishouldwraparoundmyneck.com%E2%80%9D](http://discordishouldwraparoundmyneck.com%E2%80%9D)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**discordishouldwraparoundmyneck.com%E2%80%9D**
+
+---
+
+### 65. [discordishouldwraparoundmyneck.com”](http://discordishouldwraparoundmyneck.com”)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**discordishouldwraparoundmyneck.com”**
+
+---
+
+### 66. [dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion](http://dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**dreadytofatroptsdj6io7l3xptbet6onoyno2yv7jicoxknyazubrad.onion**
+
+---
+
+### 67. [thegodmachine.substack.com](https://thegodmachine.substack.com/p/your-brain-has-a-door)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**thegodmachine.substack.com**
+
+---
+
+### 68. [randomrecords.bandcamp.com](https://randomrecords.bandcamp.com/album/10-years-of-randomness)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**randomrecords.bandcamp.com**
+
+---
+
+### 69. [X/Twitter Post](https://twitter.com/i/status/2060746160558543217)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://twitter.com/i/status/2060746160558543217**
+
+---
+
+### 70. [thereader.mitpress.mit.edu](https://thereader.mitpress.mit.edu/the-genius-of-the-barn-owls-feathers/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**thereader.mitpress.mit.edu**
+
+---
+
+### 71. [impactoperations.substack.com](https://impactoperations.substack.com/p/the-good-days-are-over)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**impactoperations.substack.com**
+
+---
+
+### 72. [X/Twitter Post](https://twitter.com/natolambert/status/2061813361848029631)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://twitter.com/natolambert/status/2061813361848029631**
+
+---
+
+### 73. [X/Twitter Post](https://twitter.com/willo2_Poly/status/2061640812132516321)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://twitter.com/willo2_Poly/status/2061640812132516321**
+
+---
+
+### 74. [127.0.0.1:9119](http://127.0.0.1:9119/config)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **127.0.0.1:9119**
 
 ---
 
-### 40. [rns.id](https://rns.id/app/palauidinfo)
+### 75. [deepvaluereports.com](https://deepvaluereports.com/dvr-stock-score)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**rns.id**
+**deepvaluereports.com**
 
 ---
 
-### 41. [portal.mendfamily.com](https://portal.mendfamily.com/)
+### 76. [djfindr.com](https://djfindr.com/djs/earlyadopter?rdt_cid=5272975291025841484&utm_source=reddit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**djfindr.com**
+
+---
+
+### 77. [jules.google.com](https://jules.google.com/session)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jules.google.com**
+
+---
+
+### 78. [jules.google.com](https://jules.google.com/session/11536470025634798098/code/CMakeLists.txt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jules.google.com**
+
+---
+
+### 79. [portal.mendfamily.com](https://portal.mendfamily.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **portal.mendfamily.com**
 
 ---
 
-### 42. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**war.gov**
-
----
-
-### 43. [mail.google.com](https://mail.google.com/mail/u/0/#inbox)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**mail.google.com**
-
----
-
-### 44. [post.smzdm.com](https://post.smzdm.com/p/awwg9v8m/)
+### 80. [post.smzdm.com](https://post.smzdm.com/p/awwg9v8m/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **post.smzdm.com**
 
 ---
 
-### 45. [movementparties.com](https://movementparties.com/)
+### 81. [rns.id](https://rns.id/app/palauidinfo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**movementparties.com**
+**rns.id**
 
 ---
 
-### 46. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
+### 82. [discogs.com](https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**war.gov**
+**discogs.com**
 
 ---
 
-### 47. [mail.google.com](https://mail.google.com/mail/u/0/#inbox)
+### 83. [ebay.com](https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338626679&customid=enusedgemobileios&toolid=10001&mkevt=1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**mail.google.com**
+**ebay.com**
 
 ---
 
-### 48. [nytimes.com](https://www.nytimes.com/games/wordle/index.html)
+### 84. [facebook.com](https://www.facebook.com/robertpelloni/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**facebook.com**
+
+---
+
+### 85. [govauctions.app](https://www.govauctions.app/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**govauctions.app**
+
+---
+
+### 86. [nytimes.com](https://www.nytimes.com/games/wordle/index.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 49. [robertpelloni.com](https://robertpelloni.com/posts/)
+### 87. [thechilluminati.com](https://www.thechilluminati.com/event/sacred-earth-open-air-2025/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**robertpelloni.com**
+**thechilluminati.com**
 
 ---
 
-### 50. [platform.qubrid.com](https://platform.qubrid.com/model/deepseek-v4-pro?rdt_cid=5485952830038748590&utm_source=reddit)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**platform.qubrid.com**
-
----
-
-### 51. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
+### 88. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **war.gov**
 
 ---
 
-### 52. [mail.google.com](https://mail.google.com/mail/u/0/#inbox)
+### 89. [youtube.com](https://www.youtube.com/watch?v=4f8v-NKqOc8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**mail.google.com**
+**youtube.com**
 
 ---
 
-### 53. [simonwillison.net](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
+### 90. [youtube.com](https://www.youtube.com/watch?v=wYSncx9zLIU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**simonwillison.net**
+**youtube.com**
 
 ---
 
-### 54. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
+### 91. [acestudio.ai](https://acestudio.ai/?rdt_cid=5348710113723248261&utm_source=reddit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**acestudio.ai**
+
+---
+
+### 92. [acestudio.ai](https://acestudio.ai/?rdt_cid=5765489578807107539&utm_source=reddit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**acestudio.ai**
+
+---
+
+### 93. [0.0.0.0](http://0.0.0.0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**0.0.0.0**
+
+---
+
+### 94. [127.0.0.1:37737](http://127.0.0.1:37737)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**127.0.0.1:37737**
+
+---
+
+### 95. [SESSION.md](http://SESSION.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**SESSION.md**
+
+---
+
+### 96. [claude.ai](http://claude.ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.ai**
+
+---
+
+### 97. [crof.ai](http://crof.ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**crof.ai**
+
+---
+
+### 98. [debugviewart.tumblr.com](http://debugviewart.tumblr.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**debugviewart.tumblr.com**
+
+---
+
+### 99. [en.wikipedia.org](http://en.wikipedia.org/wiki/Psytrance)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 100. [gfycat.com](http://gfycat.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gfycat.com**
+
+---
+
+### 101. [goo.gl](http://goo.gl/1q7oUp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 102. [goo.gl](http://goo.gl/C0vOBH)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 103. [goo.gl](http://goo.gl/Nt9IIa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 104. [goo.gl](http://goo.gl/forms/s29AbXjlgb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 105. [goo.gl](http://goo.gl/jzYvZ9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 106. [goo.gl](http://goo.gl/wJSULw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 107. [goo.gl](http://goo.gl/zDwI3D)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 108. [install.sh](http://install.sh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**install.sh**
+
+---
+
+### 109. [installl.sh](http://installl.sh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**installl.sh**
+
+---
+
+### 110. [localhost:8080](http://localhost:8080/v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8080**
+
+---
+
+### 111. [monero.slack.com](http://monero.slack.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**monero.slack.com**
+
+---
+
+### 112. [open.spotify.com](http://open.spotify.com/user/k1mmo/playlist/1ZVbb03YY7dATqbXUUALEU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 113. [toolbox.jonathanarvay.com](http://toolbox.jonathanarvay.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**toolbox.jonathanarvay.com**
+
+---
+
+### 114. [trashwiki.org](http://trashwiki.org/en/Main_Page)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**trashwiki.org**
+
+---
+
+### 115. [undefined.map](http://undefined.map)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**undefined.map**
+
+---
+
+### 116. [user.md](http://user.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**user.md**
+
+---
+
+### 117. [agi-society.org](http://www.agi-society.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**agi-society.org**
+
+---
+
+### 118. [fhi.ox.ac.uk](http://www.fhi.ox.ac.uk/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fhi.ox.ac.uk**
+
+---
+
+### 119. [mevro.io)[Mevro](http:](http://www.mevro.io)[Mevro](http://www.mevro.io)[Mevro](http://www.mevro.io)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mevro.io)[Mevro](http:**
+
+---
+
+### 120. [round1usa.com](http://www.round1usa.com/location/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**round1usa.com**
+
+---
+
+### 121. [scorch2000.com](http://www.scorch2000.com/web/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**scorch2000.com**
+
+---
+
+### 122. [wolframalpha.com](http://www.wolframalpha.com/input/?i)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 123. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2001:13:24%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 124. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2005:57:42%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 125. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-16%2007:29:36%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 126. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-18%2017:25:26%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 127. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2028-04-14%2018:15:16%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 128. [xxxxxxxxxxxxxx](http://xxxxxxxxxxxxxx)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**xxxxxxxxxxxxxx**
+
+---
+
+### 129. [xxxxxxxxxxxxxxxxxxxxxxx](http://xxxxxxxxxxxxxxxxxxxxxxx)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**xxxxxxxxxxxxxxxxxxxxxxx**
+
+---
+
+### 130. [academic.oup.com](https://academic.oup.com/nutritionreviews/article/84/2/333/8253584)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**academic.oup.com**
+
+---
+
+### 131. [agi-ai.slack.com](https://agi-ai.slack.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**agi-ai.slack.com**
+
+---
+
+### 132. [ai.modelyard.cc](https://ai.modelyard.cc/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.modelyard.cc**
+
+---
+
+### 133. [aops.studio](https://aops.studio/mindmapp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aops.studio**
+
+---
+
+### 134. [app.resonantia.me](https://app.resonantia.me)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.resonantia.me**
+
+---
+
+### 135. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apps.apple.com**
+
+---
+
+### 136. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform=iphone)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apps.apple.com**
+
+---
+
+### 137. [apps.apple.com](https://apps.apple.com/us/app/orbitops/id6759635290)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apps.apple.com**
+
+---
+
+### 138. [apps.apple.com](https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apps.apple.com**
+
+---
+
+### 139. [avaastart.com](https://avaastart.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**avaastart.com**
+
+---
+
+### 140. [bit.ly](https://bit.ly/2wEmWeG)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bit.ly**
+
+---
+
+### 141. [codepen.io](https://codepen.io/Madvulcan/pen/MYbOKWX)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**codepen.io**
+
+---
+
+### 142. [discord.com](https://discord.com/invite/ErJz3ktyGk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.com**
+
+---
+
+### 143. [discord.com](https://discord.com/invite/r-pcgaming-482363499977375785)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.com**
+
+---
+
+### 144. [discord.gg](https://discord.gg/2EkSJm6P)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 145. [discord.gg](https://discord.gg/8XemVjc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 146. [discord.gg](https://discord.gg/9C9d9PZ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 147. [discord.gg](https://discord.gg/9mm3qen)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 148. [discord.gg](https://discord.gg/FZKJuFu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 149. [discord.gg](https://discord.gg/NHBSGxqxjn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 150. [discord.gg](https://discord.gg/PgFhZ8cnWW)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 151. [discord.gg](https://discord.gg/TY6ErXV)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 152. [discord.gg](https://discord.gg/b4VRg98gS9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 153. [discord.gg](https://discord.gg/cVUNQmnV4r)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 154. [discord.gg](https://discord.gg/chCY4bZr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 155. [discord.gg](https://discord.gg/jcewXNmf6C)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 156. [discord.gg](https://discord.gg/pTHkG9Hew9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 157. [discord.gg](https://discord.gg/r-pcgaming-482363499977375785)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 158. [discord.gg](https://discord.gg/wBHNNzd)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 159. [discord.gg](https://discord.gg/zdXjnaj)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 160. [docs.turingdb.ai](https://docs.turingdb.ai/query/benchmarks)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**docs.turingdb.ai**
+
+---
+
+### 161. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 162. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp=drive_link)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 163. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.proton.me**
+
+---
+
+### 164. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA==/file/W94Ew1I5SeE6ygxZJvKHj_gPmdOmCA_j0mm0Hc7McfLR2WL1hXx5tr3_njIEYecLVd4b1spYW5WbuHOZ88zYyA==?r=/shared-with-me)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.proton.me**
+
+---
+
+### 165. [en.wikipedia.org](https://en.wikipedia.org/wiki/1561_celestial_phenomenon_over_Nuremberg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 166. [en.wikipedia.org](https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 167. [en.wikipedia.org](https://en.wikipedia.org/wiki/1665_celestial_phenomenon_over_Stralsund)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 168. [en.wikipedia.org](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 169. [en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Fort)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 170. [en.wikipedia.org](https://en.wikipedia.org/wiki/Comix_Zone)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 171. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ecco_the_Dolphin)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 172. [en.wikipedia.org](https://en.wikipedia.org/wiki/Fatal_insomnia)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 173. [en.wikipedia.org](https://en.wikipedia.org/wiki/Freescale_Semiconductor)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 174. [en.wikipedia.org](https://en.wikipedia.org/wiki/Glymphatic_system)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 175. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gunstar_Heroes)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 176. [en.wikipedia.org](https://en.wikipedia.org/wiki/J._Allen_Hynek)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 177. [en.wikipedia.org](https://en.wikipedia.org/wiki/Mega_Man:_The_Wily_Wars)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 178. [en.wikipedia.org](https://en.wikipedia.org/wiki/Reddit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 179. [en.wikipedia.org](https://en.wikipedia.org/wiki/Steak_tartare)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 180. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Revenge_of_Shinobi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 181. [en.wikipedia.org](https://en.wikipedia.org/wiki/User:Potatoeman57)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 182. [foodgonewrong.com](https://foodgonewrong.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**foodgonewrong.com**
+
+---
+
+### 183. [forum.bitcoin.com](https://forum.bitcoin.com/monero)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forum.bitcoin.com**
+
+---
+
+### 184. [freedomhouse.org](https://freedomhouse.org/country/scores?sort)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**freedomhouse.org**
+
+---
+
+### 185. [freedomhouse.org](https://freedomhouse.org/country/scores?sort=fiw&sort_order=desc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**freedomhouse.org**
+
+---
+
+### 186. [freemind.sourceforge.io](https://freemind.sourceforge.io/wiki/index.php/File_format)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**freemind.sourceforge.io**
+
+---
+
+### 187. [galactica.fandom.com](https://galactica.fandom.com/wiki/Basestar_Type-D)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**galactica.fandom.com**
+
+---
+
+### 188. [gemsloot.com](https://gemsloot.com/?aff)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gemsloot.com**
+
+---
+
+### 189. [gemsloot.com](https://gemsloot.com/?aff=shg&trk=1360)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gemsloot.com**
+
+---
+
+### 190. [giphy.com](https://giphy.com/gifs/02ufU86KQZqzF3aqjN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 191. [giphy.com](https://giphy.com/gifs/10o80f5ucCNU3e)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 192. [giphy.com](https://giphy.com/gifs/26ufj7fhSk99FK32U)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 193. [giphy.com](https://giphy.com/gifs/3o7abspvhYHpMnHSuc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 194. [giphy.com](https://giphy.com/gifs/3oEjI789af0AVurF60)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 195. [giphy.com](https://giphy.com/gifs/3oKIPf1BaBDILVxbYA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 196. [giphy.com](https://giphy.com/gifs/3ubqmFn2F7ytq)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 197. [giphy.com](https://giphy.com/gifs/786FlS48rOydO)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 198. [giphy.com](https://giphy.com/gifs/AHP7Svoc9ma8MJEnlI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 199. [giphy.com](https://giphy.com/gifs/Avrht57tUpKFfcUCny)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 200. [giphy.com](https://giphy.com/gifs/CILGGl6sizxVC)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 201. [giphy.com](https://giphy.com/gifs/ETyhu6h829Hdm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 202. [giphy.com](https://giphy.com/gifs/FDJpdHgjRJWkU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 203. [giphy.com](https://giphy.com/gifs/J8FZIm9VoBU6Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 204. [giphy.com](https://giphy.com/gifs/LqQ1CUu5PdjTKu8P9I)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 205. [giphy.com](https://giphy.com/gifs/MoyjLZKjMC9mo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 206. [giphy.com](https://giphy.com/gifs/OvbP7svlNo2eA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 207. [giphy.com](https://giphy.com/gifs/Pil28ZDXBhSwc9iJQ1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 208. [giphy.com](https://giphy.com/gifs/RILsqUte1MME7TzQJ9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 209. [giphy.com](https://giphy.com/gifs/RPSFohCR6KON9lBrIR)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 210. [giphy.com](https://giphy.com/gifs/SoIGFWNP5wA9i)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 211. [giphy.com](https://giphy.com/gifs/SvRuvlSEa67wNNHuHy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 212. [giphy.com](https://giphy.com/gifs/UDORIcubjYvIBAYTe1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 213. [giphy.com](https://giphy.com/gifs/UMV4KbOAqYN29Dxd3f)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 214. [giphy.com](https://giphy.com/gifs/WTcMKz6l01Je1Z94JN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 215. [giphy.com](https://giphy.com/gifs/XHeLeuirRbwptHhSWd)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 216. [giphy.com](https://giphy.com/gifs/Z1LYiyIPhnG9O)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 217. [giphy.com](https://giphy.com/gifs/aFfYlsEdiWPDi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 218. [giphy.com](https://giphy.com/gifs/dxrSL1OeGWsLYVUgOt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 219. [giphy.com](https://giphy.com/gifs/f8lDluiWJ7yQTtdS3L)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 220. [giphy.com](https://giphy.com/gifs/gKMaKOacKLriQxaPLm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 221. [giphy.com](https://giphy.com/gifs/h1tkoLJVe3IYnZ6Jlp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 222. [giphy.com](https://giphy.com/gifs/hv53DaYcXWe3nRbR1A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 223. [giphy.com](https://giphy.com/gifs/iGHbjYrUftITS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 224. [giphy.com](https://giphy.com/gifs/iJDLBX5GY8niCpZYkR)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 225. [giphy.com](https://giphy.com/gifs/kc0kqKNFu7v35gPkwB)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 226. [giphy.com](https://giphy.com/gifs/mDpEexLaOxzmXNaBmr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 227. [giphy.com](https://giphy.com/gifs/oNRnm5VyhEMwM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 228. [giphy.com](https://giphy.com/gifs/puOukoEvH4uAw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 229. [giphy.com](https://giphy.com/gifs/s8X61m47R3GZW)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 230. [giphy.com](https://giphy.com/gifs/tFiOAyrNXn3lhScpyt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 231. [giphy.com](https://giphy.com/gifs/tXL4FHPSnVJ0A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 232. [giphy.com](https://giphy.com/gifs/uZHfMSR87vZ4l14Yi8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 233. [giphy.com](https://giphy.com/gifs/vlnZpsko7bAuk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 234. [giphy.com](https://giphy.com/gifs/xoHntNXFYkfzGAftEv)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 235. [giphy.com](https://giphy.com/gifs/z4lwT4QTkK3sYITR7Z)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 236. [goo.gl](https://goo.gl/0Tup02)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 237. [goo.gl](https://goo.gl/3hU0mr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 238. [goo.gl](https://goo.gl/4qo2X6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 239. [goo.gl](https://goo.gl/BNSVJZ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 240. [goo.gl](https://goo.gl/JuckwK)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 241. [goo.gl](https://goo.gl/MC1xDl)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 242. [goo.gl](https://goo.gl/MP2q4I)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 243. [goo.gl](https://goo.gl/U318JE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 244. [goo.gl](https://goo.gl/WFiFx2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 245. [goo.gl](https://goo.gl/c4HuSJ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 246. [goo.gl](https://goo.gl/pCho55)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 247. [goo.gl](https://goo.gl/tDywmA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**goo.gl**
+
+---
+
+### 248. [graperoot.dev](https://graperoot.dev/enterprises)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**graperoot.dev**
+
+---
+
+### 249. [handyai.substack.com](https://handyai.substack.com/p/claude-mythos-is-here)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**handyai.substack.com**
+
+---
+
+### 250. [hpluspedia.org](https://hpluspedia.org/wiki/Main_Page)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hpluspedia.org**
+
+---
+
+### 251. [huggingface.co](https://huggingface.co/MiniMaxAI/Mini)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 252. [jnco.com](https://jnco.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jnco.com**
+
+---
+
+### 253. [kmllr.gumroad.com](https://kmllr.gumroad.com/l/oszwuf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**kmllr.gumroad.com**
+
+---
+
+### 254. [lingeo-ai.com](https://lingeo-ai.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lingeo-ai.com**
+
+---
+
+### 255. [m.youtube.com](https://m.youtube.com/watch?v)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**m.youtube.com**
+
+---
+
+### 256. [m.youtube.com](https://m.youtube.com/watch?v=8Jx6-YJbpBk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**m.youtube.com**
+
+---
+
+### 257. [marketplace.microsoft.com](https://marketplace.microsoft.com/en-us/product/office/WA200010463)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**marketplace.microsoft.com**
+
+---
+
+### 258. [medium.com](https://medium.com/@mauro.dev/cfs-conditional-field-subtraction-43a3c4eb80f4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 259. [medium.com](https://medium.com/@mauro.dev/cfs-r-conditional-field-reconstruction-4939a48444cc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 260. [medium.com](https://medium.com/conversational-ai-weekly)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 261. [moneroworld.com](https://moneroworld.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**moneroworld.com**
+
+---
+
+### 262. [movementfestival.com](https://movementfestival.com/pages/schedule)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**movementfestival.com**
+
+---
+
+### 263. [mysite.com](https://mysite.com/cart)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mysite.com**
+
+---
+
+### 264. [nano-gpt.com](https://nano-gpt.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nano-gpt.com**
+
+---
+
+### 265. [open-vsx.org](https://open-vsx.org/extension/ChrisHadi/inklink)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open-vsx.org**
+
+---
+
+### 266. [open.substack.com](https://open.substack.com/pub/shipx/p/aprils-all-top-tech-stories-you-need)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.substack.com**
+
+---
+
+### 267. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openmhz.com**
+
+---
+
+### 268. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type=group&filter-code=693b5d40ccee41c1926e7baa&time=1776695400000)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openmhz.com**
+
+---
+
+### 269. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**papers.ssrn.com**
+
+---
+
+### 270. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6600840)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**papers.ssrn.com**
+
+---
+
+### 271. [pastebin.com](https://pastebin.com/raw/B07jLEpG)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pastebin.com**
+
+---
+
+### 272. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30741567/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubmed.ncbi.nlm.nih.gov**
+
+---
+
+### 273. [qwen.ai](https://qwen.ai/blog?id=qwen3.6-27b)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**qwen.ai**
+
+---
+
+### 274. [ra.co](https://ra.co/events/2323466)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 275. [ra.co](https://ra.co/events/2344054)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 276. [ra.co](https://ra.co/events/2365421)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 277. [ra.co](https://ra.co/events/2376435)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 278. [ra.co](https://ra.co/events/2388198)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 279. [ra.co](https://ra.co/events/2388959)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 280. [ra.co](https://ra.co/events/2394182)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 281. [ra.co](https://ra.co/events/2394211)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 282. [ra.co](https://ra.co/events/2404700)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 283. [ra.co](https://ra.co/events/2406362)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 284. [ra.co](https://ra.co/events/2406377)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 285. [ra.co](https://ra.co/events/2408595)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 286. [ra.co](https://ra.co/events/2423930)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 287. [ra.co](https://ra.co/events/2425777)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 288. [ra.co](https://ra.co/events/2427505)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 289. [ra.co](https://ra.co/events/2428323)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 290. [ra.co](https://ra.co/events/2430074)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 291. [ra.co](https://ra.co/events/2431202)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 292. [ra.co](https://ra.co/events/2432733)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 293. [ra.co](https://ra.co/events/2433347)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 294. [ra.co](https://ra.co/events/2435746)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 295. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**reddit.zendesk.com**
+
+---
+
+### 296. [ringmast4r.substack.com](https://ringmast4r.substack.com/p/we-may-be-living-through-the-most)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ringmast4r.substack.com**
+
+---
+
+### 297. [rino.io](https://rino.io/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rino.io**
+
+---
+
+### 298. [su.org](https://su.org/about/faq/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**su.org**
+
+---
+
+### 299. [telegram.me](https://telegram.me/bitmonero)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**telegram.me**
+
+---
+
+### 300. [telegram.me](https://telegram.me/monero)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**telegram.me**
+
+---
+
+### 301. [ufos.wiki](https://ufos.wiki)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 302. [ufos.wiki](https://ufos.wiki/track/apply-to-be-a-moderator/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 303. [ufos.wiki](https://ufos.wiki/track/books/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 304. [ufos.wiki](https://ufos.wiki/track/cases/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 305. [ufos.wiki](https://ufos.wiki/track/discord/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 306. [ufos.wiki](https://ufos.wiki/track/documentaries/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 307. [ufos.wiki](https://ufos.wiki/track/investigate/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 308. [ufos.wiki](https://ufos.wiki/track/links/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 309. [ufos.wiki](https://ufos.wiki/track/moderation-transparency/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 310. [ufos.wiki](https://ufos.wiki/track/podcasts/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 311. [ufos.wiki](https://ufos.wiki/track/public-moderation-logs/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 312. [ufos.wiki](https://ufos.wiki/track/reports/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 313. [ufos.wiki](https://ufos.wiki/track/subreddit-statistics/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 314. [ufos.wiki](https://ufos.wiki/track/twitter/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 315. [ufos.wiki](https://ufos.wiki/track/verify-a-claim/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 316. [ufos.wiki](https://ufos.wiki/track/wiki/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 317. [unitednuclear.com](https://unitednuclear.com/area-51-c-86/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unitednuclear.com**
+
+---
+
+### 318. [w140.com](https://w140.com/tekwiki/wiki/Main_Page)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**w140.com**
+
+---
+
+### 319. [www](https://www)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**www**
+
+---
+
+### 320. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**awesomescreenshot.com**
+
+---
+
+### 321. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key=0a22246e1827042c6e6d55a3128af269)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**awesomescreenshot.com**
+
+---
+
+### 322. [bandcamp.com](https://www.bandcamp.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bandcamp.com**
+
+---
+
+### 323. [bbc.com](https://www.bbc.com/news/10395402)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bbc.com**
+
+---
+
+### 324. [ebay.com.au](https://www.ebay.com.au/itm/204775312557?_skw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ebay.com.au**
+
+---
+
+### 325. [instagram.com](https://www.instagram.com/hulksmashfood/?hl)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 326. [instagram.com](https://www.instagram.com/hulksmashfood/?hl=en)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 327. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 328. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh=enB5ODczYjY4ZDQ2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 329. [linkedin.com](https://www.linkedin.com/groups/17898029/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 330. [macrumors.com](https://www.macrumors.com/2026/04/29/apple-vision-pro-m5-flop/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**macrumors.com**
+
+---
+
+### 331. [minifigures.space](https://www.minifigures.space)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**minifigures.space**
+
+---
+
+### 332. [movementfestival.com](https://www.movementfestival.com/pages/lineup)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**movementfestival.com**
+
+---
+
+### 333. [npmjs.com](https://www.npmjs.com/package/@unerr-ai/unerr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 334. [nytimes.com](https://www.nytimes.com/2025/06/06/health/ketamine-effects-anesthetic-elon-musk.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nytimes.com**
+
+---
+
+### 335. [openbazaar.org](https://www.openbazaar.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openbazaar.org**
+
+---
+
+### 336. [openmind.design](https://www.openmind.design/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openmind.design**
+
+---
+
+### 337. [politico.com](https://www.politico.com/magazine/story/2013/11/obama-vs-the-generals-099379/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**politico.com**
+
+---
+
+### 338. [sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S1569904826000340)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sciencedirect.com**
+
+---
+
+### 339. [skool.com](https://www.skool.com/augmented-ai-automations/about)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**skool.com**
+
+---
+
+### 340. [skool.com](https://www.skool.com/corporate-automation-hub-1978)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**skool.com**
+
+---
+
+### 341. [skool.com](https://www.skool.com/launch-saascom-983)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**skool.com**
+
+---
+
+### 342. [skool.com](https://www.skool.com/launch-saascom-9830)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**skool.com**
+
+---
+
+### 343. [tiktok.com](https://www.tiktok.com/t/ZTkCnrR8g/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tiktok.com**
+
+---
+
+### 344. [war.gov](https://www.war.gov/UFO/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **war.gov**
 
 ---
 
-### 55. [mail.google.com](https://mail.google.com/mail/u/0/#inbox)
+### 345. [whitehouse.gov](https://www.whitehouse.gov/releases/2025/04/remarks-by-director-kratsios-at-the-endless-frontiers-retreat/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**mail.google.com**
+**whitehouse.gov**
 
 ---
 
-### 56. [simonwillison.net](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
+### 346. [youtube.com](https://www.youtube.com/watch?app)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**simonwillison.net**
+**youtube.com**
 
 ---
 
-### 57. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
+### 347. [youtube.com](https://www.youtube.com/watch?v)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**war.gov**
+**youtube.com**
 
 ---
 
-### 58. [mail.google.com](https://mail.google.com/mail/u/0/#inbox)
+### 348. [youtube.com](https://www.youtube.com/watch?v=1QyFy6aJM4U)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**mail.google.com**
+**youtube.com**
 
 ---
 
-### 59. [%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%Af%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%Ad%F0%9D%90%A8%F0%9D%90%Ab %F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93](https://www.reddit.com/r/accelerate/comments/1t681zu/%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%AF%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB_%F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93/)
-`7.0` ★ ⚡46 Q0.5○ ○ Adequate
+### 349. [youtube.com](https://www.youtube.com/watch?v=2_PEcQqU0zQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**%F0%9D%90%8D%F0%9D%90%9A%F0%9D%90%Af%F0%9D%90%A2%F0%9D%90%A0%F0%9D%90%9A%F0%9D%90%Ad%F0%9D%90%A8%F0%9D%90%Ab %F0%9D%90%A7%F0%9D%9F%8F%F0%9D%9F%93**
-
----
-
-### 60. [Scarcity Mindset Dominates All Never Forget](https://www.reddit.com/r/accelerate/comments/1sa7hay/scarcity_mindset_dominates_all_never_forget/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Scarcity Mindset Dominates All Never Forget**
+**youtube.com**
 
 ---
 
-### 61. [Anyone Else Feels Like Vibe Coding Hits A Wall](https://www.reddit.com/r/vibecoding/comments/1sabdw3/anyone_else_feels_like_vibe_coding_hits_a_wall/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 350. [youtube.com](https://www.youtube.com/watch?v=4GHh7V6KQ6g)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Anyone Else Feels Like Vibe Coding Hits A Wall**
-
----
-
-### 62. [I Replaced Chaotic Solo Claude Coding With A](https://www.reddit.com/r/ClaudeAI/comments/1sa7ju4/i_replaced_chaotic_solo_claude_coding_with_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Replaced Chaotic Solo Claude Coding With A**
+**youtube.com**
 
 ---
 
-### 63. [Ai Made Me Quit Unreal After 4 Years Now I Build](https://www.reddit.com/r/aigamedev/comments/1sb8wqa/ai_made_me_quit_unreal_after_4_years_now_i_build/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 351. [youtube.com](https://www.youtube.com/watch?v=7COM3U3aK9c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Ai Made Me Quit Unreal After 4 Years Now I Build**
-
----
-
-### 64. [Trying To Understand Claudes Usage Limits Is Max](https://www.reddit.com/r/ClaudeAI/comments/1sb9yq2/trying_to_understand_claudes_usage_limits_is_max/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Trying To Understand Claudes Usage Limits Is Max**
+**youtube.com**
 
 ---
 
-### 65. [Gemma 4 Is Now Available An Accessible And](https://www.reddit.com/r/openclaw/comments/1sb5zuo/gemma_4_is_now_available_an_accessible_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 352. [youtube.com](https://www.youtube.com/watch?v=BbyDtVWGT3Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Gemma 4 Is Now Available An Accessible And**
-
----
-
-### 66. [Gemma 4 Byte For Byte The Most Capable Open Models](https://www.reddit.com/r/Bard/comments/1sam5uq/gemma_4_byte_for_byte_the_most_capable_open_models/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemma 4 Byte For Byte The Most Capable Open Models**
+**youtube.com**
 
 ---
 
-### 67. [How Do You Handle Tool Calling Regressions With](https://www.reddit.com/r/OpenSourceAI/comments/1sarv6j/how_do_you_handle_tool_calling_regressions_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 353. [youtube.com](https://www.youtube.com/watch?v=E1YMSPLVws0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**How Do You Handle Tool Calling Regressions With**
-
----
-
-### 68. [I Gave Several Ais Money To Invest In The Stock](https://www.reddit.com/r/ClaudeAI/comments/1salhpg/i_gave_several_ais_money_to_invest_in_the_stock/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Gave Several Ais Money To Invest In The Stock**
+**youtube.com**
 
 ---
 
-### 69. [Was Having A French Drain Installed And Came](https://www.reddit.com/r/whatisit/comments/1sbs142/was_having_a_french_drain_installed_and_came/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 354. [youtube.com](https://www.youtube.com/watch?v=IHKYX9ETwUg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Was Having A French Drain Installed And Came**
-
----
-
-### 70. [The One Thing That Will Fix 97 Of Your Vibecoding](https://www.reddit.com/r/AskVibecoders/comments/1sbx54z/the_one_thing_that_will_fix_97_of_your_vibecoding/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The One Thing That Will Fix 97 Of Your Vibecoding**
+**youtube.com**
 
 ---
 
-### 71. [For First Time Ever Army Chief Of Chaplains Fired](https://www.reddit.com/r/Christianity/comments/1sccrnb/for_first_time_ever_army_chief_of_chaplains_fired/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 355. [youtube.com](https://www.youtube.com/watch?v=JWl1ahc8vWE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**For First Time Ever Army Chief Of Chaplains Fired**
-
----
-
-### 72. [Altman On Shutting Down Sora I Did Not Expect 3](https://www.reddit.com/r/singularity/comments/1sb4hnn/altman_on_shutting_down_sora_i_did_not_expect_3/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Altman On Shutting Down Sora I Did Not Expect 3**
+**youtube.com**
 
 ---
 
-### 73. [I Taught Ai The 13 Thinking Tools That Einstein](https://www.reddit.com/r/AI_Application/comments/1sc8ysc/i_taught_ai_the_13_thinking_tools_that_einstein/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 356. [youtube.com](https://www.youtube.com/watch?v=MI0Pm1d6YF4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**I Taught Ai The 13 Thinking Tools That Einstein**
-
----
-
-### 74. [Probeq An Opensource Conversational Ai Tool](https://www.reddit.com/r/kimi/comments/1scdg80/probeq_an_opensource_conversational_ai_tool/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Probeq An Opensource Conversational Ai Tool**
+**youtube.com**
 
 ---
 
-### 75. [Turboquant Seems To Work Very Well On Gemma 4 And](https://www.reddit.com/r/LocalLLaMA/comments/1sd05sa/turboquant_seems_to_work_very_well_on_gemma_4_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 357. [youtube.com](https://www.youtube.com/watch?v=QBEtbXtCIcU&t=328s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Turboquant Seems To Work Very Well On Gemma 4 And**
-
----
-
-### 76. [Best Models For Given Hardware](https://www.reddit.com/r/LocalLLM/comments/1sd9yi3/best_models_for_given_hardware/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Best Models For Given Hardware**
+**youtube.com**
 
 ---
 
-### 77. [Localai Setup Run Qwen3527B On 16Gb With](https://www.reddit.com/r/AIToolsPerformance/comments/1sadrvi/localai_setup_run_qwen3527b_on_16gb_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 358. [youtube.com](https://www.youtube.com/watch?v=Wa1RAHAU6gU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Localai Setup Run Qwen3527B On 16Gb With**
+**youtube.com**
 
 ---
 
-### 78. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
+### 359. [youtube.com](https://www.youtube.com/watch?v=YqSvkNjWnnQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 360. [youtube.com](https://www.youtube.com/watch?v=c94kJQ8wmno)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 361. [youtube.com](https://www.youtube.com/watch?v=chLpe-Il-6A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 362. [youtube.com](https://www.youtube.com/watch?v=j9f2lWe8NyY&t=91s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 363. [youtube.com](https://www.youtube.com/watch?v=lA-9m2LoRNE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 364. [youtube.com](https://www.youtube.com/watch?v=uyiCvoGfgRQ&t=1250s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 365. [youtube.com](https://www.youtube.com/watch?v=zqeqW3g8N2Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 366. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 367. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si=_lkP6UT_WVB7OqXx)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 368. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 369. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si=0RvzGHVcHWlliRxL)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 370. [youtu.be](https://youtu.be/-eMKbS80MOs?is)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 371. [youtu.be](https://youtu.be/-eMKbS80MOs?is=DQjxtztykkZ1UdHn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 372. [youtu.be](https://youtu.be/-eMKbS80MOs?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 373. [youtu.be](https://youtu.be/-eMKbS80MOs?si=1cr8ThfAz8i-TgDn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 374. [youtu.be](https://youtu.be/0MBSNo3B4R4?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 375. [youtu.be](https://youtu.be/0MBSNo3B4R4?si=rNp92qXEq4JVhkfn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 376. [youtu.be](https://youtu.be/1pFvUUEYrC0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 377. [youtu.be](https://youtu.be/3RYQW6z5N9w?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 378. [youtu.be](https://youtu.be/3RYQW6z5N9w?si=sggD475-gZHP4MNZ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 379. [youtu.be](https://youtu.be/3dtA9w5ldHw?is)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 380. [youtu.be](https://youtu.be/3dtA9w5ldHw?is=BICfUZ9Z4pnTBWyb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 381. [youtu.be](https://youtu.be/5MO3sy2QN-g?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 382. [youtu.be](https://youtu.be/5MO3sy2QN-g?si=pGTD9GKkZq5kWGI5)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 383. [youtu.be](https://youtu.be/614Orzf3SqA?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 384. [youtu.be](https://youtu.be/614Orzf3SqA?si=m-toGUgCnmIFViuR)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 385. [youtu.be](https://youtu.be/7E0ot9iJm_k)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 386. [youtu.be](https://youtu.be/BzPqazzDCPM?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 387. [youtu.be](https://youtu.be/BzPqazzDCPM?si=zZsK5UI78qRjaSGB)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 388. [youtu.be](https://youtu.be/CnAPjeQt5Jg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 389. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 390. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si=V0ld5zORyJAiiE5g)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 391. [youtu.be](https://youtu.be/EmF06O4vOWI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 392. [youtu.be](https://youtu.be/EmF06O4vOWI?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 393. [youtu.be](https://youtu.be/EmF06O4vOWI?si=mq7Ef0s236A9fQBp&t=1795)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 394. [youtu.be](https://youtu.be/FSC4qCwmce0?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 395. [youtu.be](https://youtu.be/FSC4qCwmce0?si=jbCnN2dTAJljZFZK)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 396. [youtu.be](https://youtu.be/FVcMhgVnaVM?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 397. [youtu.be](https://youtu.be/FVcMhgVnaVM?si=5j46EocoetjYtZnP)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 398. [youtu.be](https://youtu.be/H44ZLiOlN0A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 399. [youtu.be](https://youtu.be/IkXKP7Qodv0?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 400. [youtu.be](https://youtu.be/IkXKP7Qodv0?si=c57j7gpm6jioyIoF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 401. [youtu.be](https://youtu.be/Mb7GKndpVNw?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 402. [youtu.be](https://youtu.be/Mb7GKndpVNw?si=8OOHI65abh-MzHOF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 403. [youtu.be](https://youtu.be/NmPcx3CM-9M)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 404. [youtu.be](https://youtu.be/P9b4tg640ys?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 405. [youtu.be](https://youtu.be/P9b4tg640ys?si=LwF_rnpiFTvwU4lt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 406. [youtu.be](https://youtu.be/WRMoEQKn21s?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 407. [youtu.be](https://youtu.be/WRMoEQKn21s?si=U5DL6HJpFRpz1THy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 408. [youtu.be](https://youtu.be/_jb6bqsBjvs?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 409. [youtu.be](https://youtu.be/_jb6bqsBjvs?si=9IdspmWvfg7fCEG)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 410. [youtu.be](https://youtu.be/_rek1TzX2vw?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 411. [youtu.be](https://youtu.be/_rek1TzX2vw?si=Ymwl110RQIYoVd2T)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 412. [youtu.be](https://youtu.be/ddyCQohMmYA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 413. [youtu.be](https://youtu.be/eWEjvCRPrCo?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 414. [youtu.be](https://youtu.be/eWEjvCRPrCo?si=BMfRBMmmtG-xGN5y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 415. [youtu.be](https://youtu.be/f8_WVDiqnpY?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 416. [youtu.be](https://youtu.be/f8_WVDiqnpY?si=vE30-SdeEYEV6awQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 417. [youtu.be](https://youtu.be/gwK237lHhhE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 418. [youtu.be](https://youtu.be/h3AquH7gR_g?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 419. [youtu.be](https://youtu.be/h3AquH7gR_g?si=FyR-wqDzLsjTIqas)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 420. [youtu.be](https://youtu.be/iRt6dwzNfv4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 421. [youtu.be](https://youtu.be/jEGMPBRyRQI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 422. [youtu.be](https://youtu.be/kCpjgl2baLs?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 423. [youtu.be](https://youtu.be/kCpjgl2baLs?si=-np2nzreObiPPvI1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 424. [youtu.be](https://youtu.be/kc10m6HFbDE?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 425. [youtu.be](https://youtu.be/kc10m6HFbDE?si=1Y6pPx4yLXScmGha)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 426. [youtu.be](https://youtu.be/lZzF3FldGLE?t)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 427. [youtu.be](https://youtu.be/lZzF3FldGLE?t=296)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 428. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 429. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si=_sfdAVnIk3sxYFee)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 430. [youtu.be](https://youtu.be/p4QGOHahiVM?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 431. [youtu.be](https://youtu.be/p4QGOHahiVM?si=Sde19Eqkcn7W643E)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 432. [youtu.be](https://youtu.be/p4QGOHahiVM?si=ce_yK1kdSEyozB2Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 433. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 434. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si=TB8cgDBUv5L-vvx3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 435. [youtu.be](https://youtu.be/qItugh-fFgg?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 436. [youtu.be](https://youtu.be/qItugh-fFgg?si=Zb4mgLc8C_lNhEjK)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 437. [youtu.be](https://youtu.be/t37-SKj4rtY?t)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 438. [youtu.be](https://youtu.be/t37-SKj4rtY?t=5040)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 439. [youtu.be](https://youtu.be/u2HappUTXsM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 440. [youtu.be](https://youtu.be/yFYxSX6xP2U?t)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 441. [youtu.be](https://youtu.be/yFYxSX6xP2U?t=35)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 442. [youtu.be](https://youtu.be/yjwtdE7GWmA?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 443. [youtu.be](https://youtu.be/yjwtdE7GWmA?si=HuHO6XKFjD7nTSSb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 444. [youtube.com](https://youtube.com/playlist?list)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 445. [youtube.com](https://youtube.com/watch?v=18iIHQtIPmc&si=jv-nsbYwvij9ELUw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 446. [z.ai](https://z.ai/blog/glm-5.1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**z.ai**
+
+---
+
+### 447. [CODESIGHT.md](http://CODESIGHT.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**CODESIGHT.md**
+
+---
+
+### 448. [components.md](http://components.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**components.md**
+
+---
+
+### 449. [localhost:20128](http://localhost:20128)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:20128**
+
+---
+
+### 450. [localhost:20128](http://localhost:20128/v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:20128**
+
+---
+
+### 451. [localhost:8000`](http:](http://localhost:8000`](http://localhost:8000)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8000`](http:**
+
+---
+
+### 452. [localhost:9119](http://localhost:9119)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:9119**
+
+---
+
+### 453. [to.read](http://to.read)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**to.read**
+
+---
+
+### 454. [trymindhub.com](http://trymindhub.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**trymindhub.com**
+
+---
+
+### 455. [vault.fbi.gov](http://vault.fbi.gov/unexplained-phenomenon)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**vault.fbi.gov**
+
+---
+
+### 456. [afu.info](http://www.afu.info/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**afu.info**
+
+---
+
+### 457. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bluebookarchive.org**
+
+---
+
+### 458. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab=3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bluebookarchive.org**
+
+---
+
+### 459. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bluebookarchive.org**
+
+---
+
+### 460. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB93-1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bluebookarchive.org**
+
+---
+
+### 461. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB94-1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bluebookarchive.org**
+
+---
+
+### 462. [cefaa.gob.cl](http://www.cefaa.gob.cl/web/casos.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cefaa.gob.cl**
+
+---
+
+### 463. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/Sighting_of_UFO_in_Iran_19_Sep_76_CLEAR.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dia.mil**
+
+---
+
+### 464. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo1.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dia.mil**
+
+---
+
+### 465. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo2.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dia.mil**
+
+---
+
+### 466. [dod.gov](http://www.dod.gov/pubs/foi/homeland_defense/UFOs/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dod.gov**
+
+---
+
+### 467. [itacomm.net](http://www.itacomm.net/PH/CIPH/HOME_PAGE.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**itacomm.net**
+
+---
+
+### 468. [nsa.gov](http://www.nsa.gov/public_info/declass/ufo/index.shtml)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nsa.gov**
+
+---
+
+### 469. [oac.cdlib.org](http://www.oac.cdlib.org/findaid/ark:/13030/kt8v19q87g/entire_text/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**oac.cdlib.org**
+
+---
+
+### 470. [uapreporting.org](http://www.uapreporting.org/?page_id)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**uapreporting.org**
+
+---
+
+### 471. [uapreporting.org](http://www.uapreporting.org/?page_id=777)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**uapreporting.org**
+
+---
+
+### 472. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2019:28:28%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 473. [youtube.com](http://www.youtube.com/watch?v=4bGTLtdwPHM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 474. [app.astrobin.com](https://app.astrobin.com/i/5a6jbl)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.astrobin.com**
+
+---
+
+### 475. [app.nex.ai](https://app.nex.ai/api/developers/v1/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.nex.ai**
+
+---
+
+### 476. [app.nex.ai](https://app.nex.ai/api/developers/v1/%5C*)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.nex.ai**
+
+---
+
+### 477. [app.nex.ai](https://app.nex.ai/api/developers/v1/\*)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.nex.ai**
+
+---
+
+### 478. [campusinfo.umich.edu](https://campusinfo.umich.edu/campusmap)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**campusinfo.umich.edu**
+
+---
+
+### 479. [claude.ai](https://claude.ai/share/2a0fc104-8a8c-4bde-bbd2-6ae76ec6f19d)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.ai**
+
+---
+
+### 480. [claude.ai?utm_source](https://claude.ai?utm_source)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.ai?utm_source**
+
+---
+
+### 481. [coincontroversy.com](https://coincontroversy.com/nick-szabo-the-real-satoshi-nakamoto-the-definitive-case-study/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**coincontroversy.com**
+
+---
+
+### 482. [discord.com](https://discord.com/invite/clawd)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.com**
+
+---
+
+### 483. [discord.com](https://discord.com/invite/edmp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.com**
+
+---
+
+### 484. [discord.gg](https://discord.gg/FhSMb5mkBp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 485. [discord.gg](https://discord.gg/MK2yWFX)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 486. [discord.gg](https://discord.gg/rXNQXCTWDt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 487. [ebay.us](https://ebay.us/m/l86LpW)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ebay.us**
+
+---
+
+### 488. [en.wikipedia.org](https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 489. [en.wikipedia.org](https://en.wikipedia.org/wiki/Defense_Intelligence_Agency)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 490. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dopamine_receptor)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 491. [en.wikipedia.org](https://en.wikipedia.org/wiki/Howl_(poem)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 492. [en.wikipedia.org](https://en.wikipedia.org/wiki/Method_of_loci)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 493. [en.wikipedia.org](https://en.wikipedia.org/wiki/Neuralink)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 494. [en.wikipedia.org](https://en.wikipedia.org/wiki/Preoptic_area)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 495. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sensitization)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 496. [en.wikipedia.org](https://en.wikipedia.org/wiki/Solar_panels_on_spacecraft)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 497. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceX)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 498. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceXAI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 499. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sturgeon%27s_law)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 500. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sun-synchronous_orbit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 501. [en.wikipedia.org](https://en.wikipedia.org/wiki/Tesla%2C_Inc.)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 502. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Boring_Company)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 503. [en.wikipedia.org](https://en.wikipedia.org/wiki/Zip2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 504. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12960779)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fetlife.com**
+
+---
+
+### 505. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12989516)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fetlife.com**
+
+---
+
+### 506. [fetlife.com](https://fetlife.com/CompassionSadist/posts/13123519)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fetlife.com**
+
+---
+
+### 507. [giphy.com](https://giphy.com/gifs/1D7ryE8SDYuq8kGGGQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 508. [giphy.com](https://giphy.com/gifs/8zsD8Zrdlw5wY)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 509. [giphy.com](https://giphy.com/gifs/9QbDWTcnq4wmc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 510. [giphy.com](https://giphy.com/gifs/Kxqyq5Q486NVu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 511. [giphy.com](https://giphy.com/gifs/QhhuZdt6eSeESwbszo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 512. [giphy.com](https://giphy.com/gifs/SFkjp1R8iRIWc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 513. [giphy.com](https://giphy.com/gifs/VSn9ffvWCKnWrBE9xk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 514. [giphy.com](https://giphy.com/gifs/ZqlvCTNHpqrio)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 515. [giphy.com](https://giphy.com/gifs/hero0fwar-friday-damn-xvd3kiJY9ccgY0aNJa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 516. [giphy.com](https://giphy.com/gifs/qZFHPmI9fSb6D13BsC)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 517. [giphy.com](https://giphy.com/gifs/uoAUnEsIqHTpzU9j8f)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 518. [giphy.com](https://giphy.com/gifs/w2ldbBLfoB37AcqVem)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 519. [giphy.com](https://giphy.com/gifs/xUOxf9ellv3muKAFTa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 520. [hsph.harvard.edu](https://hsph.harvard.edu/news/usaid-shutdown-has-led-to-hundreds-of-thousands-of-deaths/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hsph.harvard.edu**
+
+---
+
+### 521. [mcommunity.umich.edu](https://mcommunity.umich.edu/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mcommunity.umich.edu**
+
+---
+
+### 522. [medium.com](https://medium.com/@asaninstefan/the-ai-we-were-promised-isnt-the-ai-we-got-d26ddd9866a9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 523. [medium.com](https://medium.com/psych-pstuff/habits-motivation-and-behavior-change-why-willpower-is-not-enough-7ecb4b510e56)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 524. [medium.com](https://medium.com/science-meaning/can-dopamine-be-depleted-from-its-synapses-dopamine-3-bd7f1864d4d3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 525. [medium.com](https://medium.com/science-meaning/does-sex-deplete-our-mental-energy-dopamine-1-c400ceae759c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 526. [medium.com](https://medium.com/science-meaning/dopamine-d2-receptor-downregulation-is-the-hallmark-of-addiction-dopamine-4-ae7df3fa2433)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 527. [medium.com](https://medium.com/science-meaning/pleasure-electrodes-in-the-brain-dopamine-2-0f1164fdf139)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 528. [music.youtube.com](https://music.youtube.com/watch?v)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**music.youtube.com**
+
+---
+
+### 529. [music.youtube.com](https://music.youtube.com/watch?v=435LWavPBQg&si=3Q0_ciVj4G_ts0g2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**music.youtube.com**
+
+---
+
+### 530. [music.youtube.com](https://music.youtube.com/watch?v=RbVWBq8cBys&si=FlZamOuD_t2MrPLo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**music.youtube.com**
+
+---
+
+### 531. [newrepublic.com](https://newrepublic.com/article/178675/garry-tan-tech-san-francisco)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**newrepublic.com**
+
+---
+
+### 532. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.substack.com**
+
+---
+
+### 533. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r=6bi8k&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.substack.com**
+
+---
+
+### 534. [orimnemos.com](https://orimnemos.com/core)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**orimnemos.com**
+
+---
+
+### 535. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10921868/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 536. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11435085/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 537. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180883/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 538. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3139704/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 539. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6804255/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 540. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7527484/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 541. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7690797/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 542. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41604557/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubmed.ncbi.nlm.nih.gov**
+
+---
+
+### 543. [ra.co](https://ra.co/events/2278088)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 544. [ra.co](https://ra.co/events/2343386)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ra.co**
+
+---
+
+### 545. [replit.com](https://replit.com/stripe-checkout-by-price/core_1mo_20usd_monthly_feb_26?coupon)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**replit.com**
+
+---
+
+### 546. [spacetribe.com](https://spacetribe.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**spacetribe.com**
+
+---
+
+### 547. [substack.com](https://substack.com/home/post/p-193787735)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**substack.com**
+
+---
+
+### 548. [axios.com](https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**axios.com**
+
+---
+
+### 549. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cell.com**
+
+---
+
+### 550. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X%C2%A0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cell.com**
+
+---
+
+### 551. [ebay.com](https://www.ebay.com/itm/168216124945?chn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ebay.com**
+
+---
+
+### 552. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 553. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh=MTA5cHowdGVwMnB2Mw==)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 554. [npmjs.com](https://www.npmjs.com/package/tsunami-code)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 555. [penn.museum](https://www.penn.museum/documents/publications/expedition/25-3/Ancient.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**penn.museum**
+
+---
+
+### 556. [perplexity.ai?utm_source](https://www.perplexity.ai?utm_source)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**perplexity.ai?utm_source**
+
+---
+
+### 557. [researchgate.net](https://www.researchgate.net/publication/258527651_Oxidative_stress_and_ADHD_A_meta-analysis)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**researchgate.net**
+
+---
+
+### 558. [reuters.com](https://www.reuters.com/world/spacex-says-unproven-ai-space-data-centers-may-not-be-commercially-viable-filing-2026-04-21/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**reuters.com**
+
+---
+
+### 559. [sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S0006899325001647)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sciencedirect.com**
+
+---
+
+### 560. [sotozen.com](https://www.sotozen.com/eng/library/denkoroku/index.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sotozen.com**
+
+---
+
+### 561. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thelancet.com**
+
+---
+
+### 562. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)01186-9/fulltext)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thelancet.com**
+
+---
+
+### 563. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**twitch.tv**
+
+---
+
+### 564. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)!)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**twitch.tv**
+
+---
+
+### 565. [youtube.com](https://www.youtube.com/watch?v=C8NUAh3NK10)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 566. [youtube.com](https://www.youtube.com/watch?v=FWe_haoOI0A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 567. [youtube.com](https://www.youtube.com/watch?v=FlQYU3m1e80)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 568. [youtube.com](https://www.youtube.com/watch?v=GNTtR6ZpUOo&pp=ygUNaGRkIGRvb20gc29uZw%3D%3D)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 569. [youtube.com](https://www.youtube.com/watch?v=HZS9M52Bd_w)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 570. [youtube.com](https://www.youtube.com/watch?v=JUBBC_r_yTU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 571. [youtube.com](https://www.youtube.com/watch?v=WsenKMub5p8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 572. [youtube.com](https://www.youtube.com/watch?v=hV4zPDFAN9w)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 573. [youtube.com](https://www.youtube.com/watch?v=lIYjOv7-XhI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 574. [youtube.com](https://www.youtube.com/watch?v=pzagBTcYsYQ&t=31s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 575. [youtube.com](https://www.youtube.com/watch?v=vnocKrxasg4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 576. [youtu.be](https://youtu.be/72BHwMIW914?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 577. [youtu.be](https://youtu.be/72BHwMIW914?si=Zd2EHflpYxeGTAQv)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 578. [youtu.be](https://youtu.be/BoxDiCGjFA8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 579. [youtu.be](https://youtu.be/MBDiJAWx8xk?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 580. [youtu.be](https://youtu.be/MBDiJAWx8xk?si=OQd89t6BK-EuvPOX)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 581. [youtu.be](https://youtu.be/NBuETZZTUKU?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 582. [youtu.be](https://youtu.be/NBuETZZTUKU?si=Hmp%5C_J%5C_SeYElx1-7B)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 583. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 584. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si=OIjglVF6juZ4GTIL)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 585. [youtu.be](https://youtu.be/TyWVaZsUQjc?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 586. [youtu.be](https://youtu.be/TyWVaZsUQjc?si=kLkec_QFoaYNS6fi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 587. [youtu.be](https://youtu.be/XfcvX0P1b5g?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 588. [youtu.be](https://youtu.be/XfcvX0P1b5g?si=r0eYIf4uaRJE-xfJ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 589. [youtu.be](https://youtu.be/YwZR6tc7qYg?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 590. [youtu.be](https://youtu.be/YwZR6tc7qYg?si=c7aT27vEYIOZXGlZ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 591. [youtu.be](https://youtu.be/_eWev4IUCPI?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 592. [youtu.be](https://youtu.be/_eWev4IUCPI?si=UBOFeobKubeGqlvo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 593. [youtu.be](https://youtu.be/d5C7HCEsuho?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 594. [youtu.be](https://youtu.be/d5C7HCEsuho?si=iOav77TfZ9cMD5fB)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 595. [youtu.be](https://youtu.be/gBcaNsAkY9U)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 596. [youtu.be](https://youtu.be/i8ZHYWle0DE?is)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 597. [youtu.be](https://youtu.be/i8ZHYWle0DE?is=nebhMjaVejJT_1op)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 598. [youtu.be](https://youtu.be/j8hAZoXVEgM?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 599. [youtu.be](https://youtu.be/j8hAZoXVEgM?si=GEdu3MRqDlosYIso)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 600. [youtu.be](https://youtu.be/pA6OJXO6UrU?is)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 601. [youtu.be](https://youtu.be/pQOesYLXua4?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 602. [youtu.be](https://youtu.be/pQOesYLXua4?si=hFR-RKsUgts3d32o)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 603. [youtu.be](https://youtu.be/yyCc4iuMikQ?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 604. [youtu.be](https://youtu.be/yyCc4iuMikQ?si=r2Agn3kR9udOQo1u)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 605. [aestesis.eu](http://aestesis.eu/elektronika/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aestesis.eu**
+
+---
+
+### 606. [audiovisualizers.com](http://audiovisualizers.com/toolshak/vsynths.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**audiovisualizers.com**
+
+---
+
+### 607. [domain.ai](http://domain.ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**domain.ai**
+
+---
+
+### 608. [dynamapper.net](http://dynamapper.net/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dynamapper.net**
+
+---
+
+### 609. [govj.tech](http://govj.tech/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**govj.tech**
+
+---
+
+### 610. [harveywallbangerai.com](http://harveywallbangerai.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**harveywallbangerai.com**
+
+---
+
+### 611. [instagram.com](http://instagram.com/electric_forest)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 612. [localhost:3300&quot](http://localhost:3300&quot)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:3300&quot**
+
+---
+
+### 613. [quartzcomposer.com](http://quartzcomposer.com/about)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**quartzcomposer.com**
+
+---
+
+### 614. [techlife.sg](http://techlife.sg/TCPSpout/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**techlife.sg**
+
+---
+
+### 615. [techlife.sg](http://techlife.sg/TCPSyphon/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**techlife.sg**
+
+---
+
+### 616. [trydomain.ai](http://trydomain.ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**trydomain.ai**
+
+---
+
+### 617. [vjforums.info](http://vjforums.info/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**vjforums.info**
+
+---
+
+### 618. [vjunion.net](http://vjunion.net)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**vjunion.net**
+
+---
+
+### 619. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2000:00:00%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 620. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2030-04-10%2013:41:39%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 621. [amof.dev](https:](https://amof.dev](https://amof.dev)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**amof.dev](https:**
+
+---
+
+### 622. [antigravity.google](https://antigravity.google/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**antigravity.google**
+
+---
+
+### 623. [arcrift.vercel.app](https://arcrift.vercel.app/&quot;&gt;https://arcrift.vercel.app/&lt;/a&gt;&lt;/li&gt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arcrift.vercel.app**
+
+---
+
+### 624. [discord.com](https://discord.com/invite/openai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.com**
+
+---
+
+### 625. [discord.gg](https://discord.gg/96VUBse)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 626. [discord.gg](https://discord.gg/electricforest)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 627. [discord.gg](https://discord.gg/kUCbEZn8js)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 628. [discord.gg](https://discord.gg/xXuFkdHef2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 629. [en.wikipedia.org](https://en.wikipedia.org/wiki/Anticybersquatting_Consumer_Protection_Act)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 630. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic%5C_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 631. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic\_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 632. [en.wikipedia.org](https://en.wikipedia.org/wiki/David_Wilcock)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 633. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern%5C_Orthodox%5C_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 634. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern\_Orthodox\_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 635. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ed-Deir,_Petra)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 636. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 637. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States))
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 638. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal\_Church\_(United\_States)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 639. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical%5C_Lutheran%5C_Church%5C_in%5C_America)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 640. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical\_Lutheran\_Church\_in\_America)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 641. [en.wikipedia.org](https://en.wikipedia.org/wiki/Garrett_Reisman)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 642. [en.wikipedia.org](https://en.wikipedia.org/wiki/James_Turrell)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 643. [en.wikipedia.org](https://en.wikipedia.org/wiki/Just_Asking_Questions)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 644. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 645. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word))
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 646. [en.wikipedia.org](https://en.wikipedia.org/wiki/Nobel_disease)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 647. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 648. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA))
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 649. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian\_Church\_(USA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 650. [en.wikipedia.org](https://en.wikipedia.org/wiki/Roden_Crater)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 651. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern%5C_Baptist%5C_Convention)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 652. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern\_Baptist\_Convention)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 653. [en.wikipedia.org](https://en.wikipedia.org/wiki/USS_Hornet_(CV-8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 654. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Church%5C_of%5C_Christ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 655. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Methodist%5C_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 656. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Church\_of\_Christ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 657. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Methodist\_Church)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 658. [euclyd.ai](https://euclyd.ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**euclyd.ai**
+
+---
+
+### 659. [giphy.com](https://giphy.com/gifs/16f18NuaH8LYkkT7M2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 660. [giphy.com](https://giphy.com/gifs/5gw0VWGbgNm8w)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 661. [giphy.com](https://giphy.com/gifs/5xtDarm27LJsTNrwHBe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 662. [giphy.com](https://giphy.com/gifs/Ae7SI3LoPYj8Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 663. [giphy.com](https://giphy.com/gifs/NCTbhL8AG2s8g)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 664. [giphy.com](https://giphy.com/gifs/OK27wINdQS5YQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 665. [giphy.com](https://giphy.com/gifs/QoesEe6tCbLyw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 666. [giphy.com](https://giphy.com/gifs/VMgcrwq9imGHu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 667. [giphy.com](https://giphy.com/gifs/j9EbOM05JSzqYaB3up)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 668. [giphy.com](https://giphy.com/gifs/kht6FJGpPYrsyE29Rr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 669. [giphy.com](https://giphy.com/gifs/l36kU80xPf0ojG0Erg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 670. [giphy.com](https://giphy.com/gifs/lKXd9sYM5dI9W)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 671. [giphy.com](https://giphy.com/gifs/lOiJqCjiEOcmc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 672. [giphy.com](https://giphy.com/gifs/ukGm72ZLZvYfS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 673. [giphy.com](https://giphy.com/gifs/ygx2AsOrU4c6CDTX5Z)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 674. [huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 675. [huggingface.co](https://huggingface.co/tecaprovn/deepseek-v4-flash-gguf/tree/main)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 676. [m.youtube.com](https://m.youtube.com/watch?v=YBUGRh6WFyk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**m.youtube.com**
+
+---
+
+### 677. [m.youtube.com](https://m.youtube.com/watch?v=xYVkJwVo__A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**m.youtube.com**
+
+---
+
+### 678. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 679. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk=26a0fea013120c120bdb2ea1125b28e2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 680. [open.spotify.com](https://open.spotify.com/playlist/10TB8Jl3sb6DwwI4JPCtcS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 681. [play.spotify.com](https://play.spotify.com/user/electric_forest)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**play.spotify.com**
+
+---
+
+### 682. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10295901/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 683. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12564314/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 684. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3762282/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 685. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7979486/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 686. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9098937/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 687. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34923676/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubmed.ncbi.nlm.nih.gov**
+
+---
+
+### 688. [pubs.acs.org](https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.5c01417)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubs.acs.org**
+
+---
+
+### 689. [qwen.ai](https://qwen.ai/blog?id)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**qwen.ai**
+
+---
+
+### 690. [qwen.ai](https://qwen.ai/blog?id=qwen3.6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**qwen.ai**
+
+---
+
+### 691. [qwen.ai](https://qwen.ai/download)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**qwen.ai**
+
+---
+
+### 692. [imdb.com](https://www.imdb.com/title/tt37108224/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**imdb.com**
+
+---
+
+### 693. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 694. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh=MXNldHNvZGd2ZmQ3dg==)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 695. [ladbible.com](https://www.ladbible.com/news/us-news/donald-trump-tv-network-blackout-us-news-660826-20260401)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ladbible.com**
+
+---
+
+### 696. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**quora.com**
+
+---
+
+### 697. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch=10&share=8dc8bc2e&srid=Xuwj)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**quora.com**
+
+---
+
+### 698. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260526022018.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sciencedaily.com**
+
+---
+
+### 699. [shadertoy.com](https://www.shadertoy.com/view/WdycRw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**shadertoy.com**
+
+---
+
+### 700. [tradingview.com](https://www.tradingview.com/chart/UK100/EaNzIume-A-Deep-Dive-Into-The-Volume-Profile/&quot;&gt;A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tradingview.com**
+
+---
+
+### 701. [tradingview.com](https://www.tradingview.com/script/TVVdDk5R-XAUUSD-ML-Supertrend-MatsukazeAlgo/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tradingview.com**
+
+---
+
+### 702. [youtube.com](https://www.youtube.com/watch?v=4_zlbrNehN8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 703. [youtube.com](https://www.youtube.com/watch?v=HPKs2oBdCt8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 704. [youtube.com](https://www.youtube.com/watch?v=IXOH3bgoLiI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 705. [youtube.com](https://www.youtube.com/watch?v=JLeXVmDjGug)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 706. [youtube.com](https://www.youtube.com/watch?v=MisQYvvNz-o)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 707. [youtube.com](https://www.youtube.com/watch?v=N6qN8GirKZU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 708. [youtube.com](https://www.youtube.com/watch?v=kLSHtx3Wi_M)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 709. [youtube.com](https://www.youtube.com/watch?v=mxhxL1LzKww&t=902s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 710. [youtube.com](https://www.youtube.com/watch?v=pSzdThg1iW8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 711. [youtube.com](https://www.youtube.com/watch?v=qV_xVlCKHDI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 712. [xcancel.com](https://xcancel.com/ChujieZheng/status/2039909486153089250)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**xcancel.com**
+
+---
+
+### 713. [youtu.be](https://youtu.be/-pzhzLFUu9c?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 714. [youtu.be](https://youtu.be/-pzhzLFUu9c?si=jxJH1gaIlIpH5yF_)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 715. [youtu.be](https://youtu.be/0DSclqnnC2s?is)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 716. [youtu.be](https://youtu.be/0DSclqnnC2s?is=oqIvwb1SQcuavmud)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 717. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 718. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t=390)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 719. [youtu.be](https://youtu.be/JePxda9ZGQE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 720. [youtu.be](https://youtu.be/LOMbrwzqW4A?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 721. [youtu.be](https://youtu.be/LOMbrwzqW4A?si=IxKskihmkADPasPN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 722. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 723. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si=DfZZnSldceUndHMb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 724. [youtu.be](https://youtu.be/WcOvMYKTY3U?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 725. [youtu.be](https://youtu.be/WcOvMYKTY3U?si=IGdLAn_C2fMTyJHF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 726. [youtu.be](https://youtu.be/jEPvIT3RKWc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 727. [youtu.be](https://youtu.be/xsYoeoEE3ww?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 728. [4chanmusic.wikia.com](http://4chanmusic.wikia.com/wiki/Essential_Charts)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**4chanmusic.wikia.com**
+
+---
+
+### 729. [Design.md](http://Design.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**Design.md**
+
+---
+
+### 730. [discord.gg](http://discord.gg/D6Nwp25)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 731. [discord.gg](http://discord.gg/KNSA66E)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 732. [localhost:8642](http://localhost:8642)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8642**
+
+---
+
+### 733. [localhost:8787](http://localhost:8787)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8787**
+
+---
+
+### 734. [past.rinfinance.com](http://past.rinfinance.com/agenda/2013/workshop/Humme+Peterson.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**past.rinfinance.com**
+
+---
+
+### 735. [rateyourmusic.com](http://rateyourmusic.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rateyourmusic.com**
+
+---
+
+### 736. [rutracker.org](http://rutracker.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rutracker.org**
+
+---
+
+### 737. [thinkex.app](http://thinkex.app)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thinkex.app**
+
+---
+
+### 738. [www-bcf.usc.edu](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Fourth%20Printing.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**www-bcf.usc.edu**
+
+---
+
+### 739. [www-stat.stanford.edu](http://www-stat.stanford.edu/%7Etibs/ElemStatLearn/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**www-stat.stanford.edu**
+
+---
+
+### 740. [musicroamer.com](http://www.musicroamer.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**musicroamer.com**
+
+---
+
+### 741. [slsknet.org](http://www.slsknet.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**slsknet.org**
+
+---
+
+### 742. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-06-24%2010:03:53%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 743. [zombtracker.the-zomb.com](http://zombtracker.the-zomb.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**zombtracker.the-zomb.com**
+
+---
+
+### 744. [blinks.to](https://blinks.to/aicommunity)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**blinks.to**
+
+---
+
+### 745. [dexis.hridaai.com](https://dexis.hridaai.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dexis.hridaai.com**
+
+---
+
+### 746. [discord.gg](https://discord.gg/5vqCXzN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 747. [discord.gg](https://discord.gg/7JQpYD4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 748. [discord.gg](https://discord.gg/9YXkWCWEct)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 749. [discord.gg](https://discord.gg/BHsTzUSb3S)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 750. [discord.gg](https://discord.gg/Bkax7NzqWu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 751. [discord.gg](https://discord.gg/KAmAR8RkbM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 752. [discord.gg](https://discord.gg/M8MAvr8eAM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 753. [discord.gg](https://discord.gg/XhBxvWs)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 754. [discord.gg](https://discord.gg/d4hgc7GCAj)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 755. [discord.gg](https://discord.gg/rQSjWrw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 756. [discord.gg](https://discord.gg/wuBWg2bv7y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 757. [dl.acm.org](https://dl.acm.org/doi/10.1145/3711670.3764628)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dl.acm.org**
+
+---
+
+### 758. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dark_web)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 759. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dread_%28forum%29)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 760. [en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_Tor_hidden_services)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 761. [en.wikipedia.org](https://en.wikipedia.org/wiki/Paracetamol)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 762. [floor796.com](https://floor796.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**floor796.com**
+
+---
+
+### 763. [fxgears.com](https://fxgears.com/index.php?threads/recommended-books-for-algo-trading-in-2020.1243/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fxgears.com**
+
+---
+
+### 764. [giphy.com](https://giphy.com/gifs/12luQDyqvum5l6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 765. [giphy.com](https://giphy.com/gifs/13Ev2RtSAxKsTu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 766. [giphy.com](https://giphy.com/gifs/21S35iv1C67ns2g458)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 767. [giphy.com](https://giphy.com/gifs/2MYvPc7VPl7Nx5tsjM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 768. [giphy.com](https://giphy.com/gifs/3o751XHOgykCjlkqEo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 769. [giphy.com](https://giphy.com/gifs/3oEdv12GfACLqkbWfe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 770. [giphy.com](https://giphy.com/gifs/5CHcIlhbtAXqYsZa8l)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 771. [giphy.com](https://giphy.com/gifs/6IPNUgkpCsDRK)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 772. [giphy.com](https://giphy.com/gifs/6cFcUiCG5eONW)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 773. [giphy.com](https://giphy.com/gifs/9SIXFu7bIUYHhFc19G)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 774. [giphy.com](https://giphy.com/gifs/BSKvUAyi57iupwtmOs)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 775. [giphy.com](https://giphy.com/gifs/BkfAhfmX0Ppn2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 776. [giphy.com](https://giphy.com/gifs/CfQwrQ4yoPRmM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 777. [giphy.com](https://giphy.com/gifs/D62wUmR3sX2DsZJ9t1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 778. [giphy.com](https://giphy.com/gifs/DMNPDvtGTD9WLK2Xxa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 779. [giphy.com](https://giphy.com/gifs/EouEzI5bBR8uk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 780. [giphy.com](https://giphy.com/gifs/GAXMzzd2XElnG)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 781. [giphy.com](https://giphy.com/gifs/IxLeSDtUaZRmSiyCTf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 782. [giphy.com](https://giphy.com/gifs/LXIKTEQHicX82aU0N0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 783. [giphy.com](https://giphy.com/gifs/RhO00GltWegPypretb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 784. [giphy.com](https://giphy.com/gifs/SWoRKslHVtqEasqYCJ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 785. [giphy.com](https://giphy.com/gifs/Vuw9m5wXviFIQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 786. [giphy.com](https://giphy.com/gifs/XPeu2UcyPX43u)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 787. [giphy.com](https://giphy.com/gifs/Y6yRfR88rvP44)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 788. [giphy.com](https://giphy.com/gifs/aqqUwXz7j0xMOKnJgb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 789. [giphy.com](https://giphy.com/gifs/bm02BE6DQ4Oag8GXep)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 790. [giphy.com](https://giphy.com/gifs/bs2hf0GOKfnpt6dzwN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 791. [giphy.com](https://giphy.com/gifs/diXrgHOhraudy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 792. [giphy.com](https://giphy.com/gifs/hvU6wNliMXsc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 793. [giphy.com](https://giphy.com/gifs/hzrvwvnbgIV6E)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 794. [giphy.com](https://giphy.com/gifs/jH6s9HMMi53dSdI73r)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 795. [giphy.com](https://giphy.com/gifs/jNfJMOQv78Tgzr9H4i)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 796. [giphy.com](https://giphy.com/gifs/ji6zzUZwNIuLS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 797. [giphy.com](https://giphy.com/gifs/l1J9OPU2Pw98Me2li)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 798. [giphy.com](https://giphy.com/gifs/l2Z84eFooeHJu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 799. [giphy.com](https://giphy.com/gifs/l41lFEkHkpNYFizOo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 800. [giphy.com](https://giphy.com/gifs/l4pTh7UsSBBxRea1q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 801. [giphy.com](https://giphy.com/gifs/nvt5wEP6TF1Fi4s7FB)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 802. [giphy.com](https://giphy.com/gifs/opP9JMYfG9a1y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 803. [giphy.com](https://giphy.com/gifs/s3vwh1LY1fUUU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 804. [giphy.com](https://giphy.com/gifs/slU9sPnjk2LtK)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 805. [giphy.com](https://giphy.com/gifs/wysyxWt4ZlQ9q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 806. [giphy.com](https://giphy.com/gifs/wzxK9cmYgIPDy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 807. [giphy.com](https://giphy.com/gifs/xT0Gquis7l8OwC2hRm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 808. [giphy.com](https://giphy.com/gifs/xXYUJvxMXXgli)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 809. [giphy.com](https://giphy.com/gifs/yx400dIdkwWdsCgWYp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 810. [giphy.com](https://giphy.com/gifs/zv6yB4mNPQTxjHMQBB)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 811. [giphy.com](https://giphy.com/gifs/zzdRbdk6cey1G)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 812. [go.drugbank.com](https://go.drugbank.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**go.drugbank.com**
+
+---
+
+### 813. [huggingface.co](https://huggingface.co/Qwen/Qwen3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 814. [icrl.org](https://icrl.org/wp-content/uploads/2020/02/Brain-Activity-And-Acoustic-Resonance.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**icrl.org**
+
+---
+
+### 815. [letmegooglethat.com](https://letmegooglethat.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**letmegooglethat.com**
+
+---
+
+### 816. [open-vsx.org](https://open-vsx.org/extension/kanezal/better-antigravity)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open-vsx.org**
+
+---
+
+### 817. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 818. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si=IifW7dfFQ5u7R0H3RanSaQ&t=0&pi=AHLnLdDPQpyo3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 819. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31532029/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubmed.ncbi.nlm.nih.gov**
+
+---
+
+### 820. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41125896/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pubmed.ncbi.nlm.nih.gov**
+
+---
+
+### 821. [share.formgrid.com](https://share.formgrid.com/DOS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 822. [share.formgrid.com](https://share.formgrid.com/Y2K)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 823. [share.formgrid.com](https://share.formgrid.com/bitmap)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 824. [share.formgrid.com](https://share.formgrid.com/brutalist)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 825. [share.formgrid.com](https://share.formgrid.com/pixel-art-game)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 826. [share.formgrid.com](https://share.formgrid.com/retro-sci-fi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 827. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**support.google.com**
+
+---
+
+### 828. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl=en)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**support.google.com**
+
+---
+
+### 829. [britishmuseum.org](https://www.britishmuseum.org/collection/object/W_K-8538)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**britishmuseum.org**
+
+---
+
+### 830. [formgrid.com](https://www.formgrid.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**formgrid.com**
+
+---
+
+### 831. [linkedin.com](https://www.linkedin.com/posts/gregkilgore_just-when-i-thought-i-could-rely-on-ai-activity-7432914229520666624-lJO9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 832. [linkedin.com](https://www.linkedin.com/posts/kala-tran-99b24428b_the-notebooklm-magic-is-real-and-youre-activity-7435839860482957312-8Obe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 833. [linkedin.com](https://www.linkedin.com/posts/otioai_notebooklm-users-are-noticing-something-activity-7434915594015252481-fhdF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 834. [linkedin.com](https://www.linkedin.com/pulse/why-notebooklm-replace-your-brain-2026-my-brutally-honest-hussain-mqevf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 835. [mdpi.com](https://www.mdpi.com/2076-393X/12/9/958)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mdpi.com**
+
+---
+
+### 836. [npmjs.org](https://www.npmjs.org/package/ibapi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.org**
+
+---
+
+### 837. [quantopian.com](https://www.quantopian.com/lectures)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**quantopian.com**
+
+---
+
+### 838. [unexplained.co](https://www.unexplained.co/news/ancient-110hz-stone-chambers-british-isles)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unexplained.co**
+
+---
+
+### 839. [youtube.com](https://www.youtube.com/watch?v=61_F2fcvrsw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 840. [youtube.com](https://www.youtube.com/watch?v=6GbTku3hrfE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 841. [youtube.com](https://www.youtube.com/watch?v=BoWEttAaWpw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 842. [youtube.com](https://www.youtube.com/watch?v=HeaeXaCetcY)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 843. [youtube.com](https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 844. [youtube.com](https://www.youtube.com/watch?v=N37jo11yQ3E&list=RDN37jo11yQ3E&start_radio=1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 845. [youtube.com](https://www.youtube.com/watch?v=aSdEPbBNS74)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 846. [youtube.com](https://www.youtube.com/watch?v=csa2tadvVvI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 847. [youtube.com](https://www.youtube.com/watch?v=iwMUyaT7vMw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 848. [youtube.com](https://www.youtube.com/watch?v=lyqDvojqxc8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 849. [youtube.com](https://www.youtube.com/watch?v=r2uo5ATgqzo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 850. [youtube.com](https://www.youtube.com/watch?v=rM-1xOOpKCk&list=RDrM-1xOOpKCk&start_radio=1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 851. [youtube.com](https://www.youtube.com/watch?v=tmf8Ew9Z87Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 852. [youtube.com](https://www.youtube.com/watch?v=yu27PWzJI_Y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 853. [youtu.be](https://youtu.be/AQPpFIPOO2o?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 854. [youtu.be](https://youtu.be/AQPpFIPOO2o?si=4qBEUorK8vhiXPSn)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 855. [youtu.be](https://youtu.be/Ha5E5VfOKtk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 856. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 857. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si=M7aYtInsKO70IGor)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 858. [youtu.be](https://youtu.be/ON\_b39E3MtY?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 859. [youtu.be](https://youtu.be/Okg0WQXfCL8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 860. [youtu.be](https://youtu.be/cu2VaHvOJzo?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 861. [youtu.be](https://youtu.be/cu2VaHvOJzo?si=U9UADJy2U8Pyzo39)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 862. [youtu.be](https://youtu.be/vQRjst2vNGo?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 863. [youtu.be](https://youtu.be/vQRjst2vNGo?si=od84SUMFqvqqv1Av)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 864. [youtu.be](https://youtu.be/wL4q3jesIFc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 865. [youtu.be](https://youtu.be/wL4q3jesIFc?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 866. [youtu.be](https://youtu.be/wL4q3jesIFc?si=s4IFqff4UEYi-e8q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 867. [CRITICISM.md](http://CRITICISM.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**CRITICISM.md**
+
+---
+
+### 868. [RELEASE.md](http://RELEASE.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**RELEASE.md**
+
+---
+
+### 869. [USAGE.md](http://USAGE.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**USAGE.md**
+
+---
+
+### 870. [careers.stackoverflow.com](http://careers.stackoverflow.com/jobs/tag/lua)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**careers.stackoverflow.com**
+
+---
+
+### 871. [localhost:5173](http://localhost:5173)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:5173**
+
+---
+
+### 872. [lua-users.org](http://lua-users.org/files/wiki_insecure/users/thomasl/luarefv51single.pdf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lua-users.org**
+
+---
+
+### 873. [lua-users.org](http://lua-users.org/wiki/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lua-users.org**
+
+---
+
+### 874. [lua-users.org](http://lua-users.org/wiki/LuaTutorial)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lua-users.org**
+
+---
+
+### 875. [staging.example.com](http://staging.example.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**staging.example.com**
+
+---
+
+### 876. [unity3d.org](http://unity3d.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unity3d.org**
+
+---
+
+### 877. [cocos2d-x.org](http://www.cocos2d-x.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cocos2d-x.org**
+
+---
+
+### 878. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2021:16:06%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 879. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick%5C_start/pricing)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**api-docs.deepseek.com**
+
+---
+
+### 880. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick\_start/pricing)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**api-docs.deepseek.com**
+
+---
+
+### 881. [apnews.com](https://apnews.com/article/prison-to-plate-inmate-labor-investigation-c6f0eb4747963283316e494eadf08c4e)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apnews.com**
+
+---
+
+### 882. [app.fireworks.ai](https://app.fireworks.ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**app.fireworks.ai**
+
+---
+
+### 883. [en.wikipedia.org](https://en.wikipedia.org/wiki/Cadillac_Desert)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 884. [en.wikipedia.org](https://en.wikipedia.org/wiki/First_Folio)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 885. [en.wikipedia.org](https://en.wikipedia.org/wiki/Grsync)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 886. [en.wikipedia.org](https://en.wikipedia.org/wiki/Heroin)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 887. [en.wikipedia.org](https://en.wikipedia.org/wiki/Purdue_Pharma)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 888. [en.wikipedia.org](https://en.wikipedia.org/wiki/SR-17018)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 889. [ente.com](https://ente.com/auth/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ente.com**
+
+---
+
+### 890. [examples.com](https://examples.com/api/openapi.json)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**examples.com**
+
+---
+
+### 891. [giphy.com](https://giphy.com/gifs/17mNCcKU1mJlrbXodo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 892. [giphy.com](https://giphy.com/gifs/2Ld1uJ530Bh28)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 893. [giphy.com](https://giphy.com/gifs/3oAt2dA6LxMkRrGc0g)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 894. [giphy.com](https://giphy.com/gifs/3ohjULoHeH1g33ZMfS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 895. [giphy.com](https://giphy.com/gifs/5lOEexLcK06KA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 896. [giphy.com](https://giphy.com/gifs/6ILjOfJ1oL7NAc9SQ7)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 897. [giphy.com](https://giphy.com/gifs/99kqebx7coLYE9WpNN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 898. [giphy.com](https://giphy.com/gifs/ANbD1CCdA3iI8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 899. [giphy.com](https://giphy.com/gifs/GxSk8xCahCYVwph2Yp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 900. [giphy.com](https://giphy.com/gifs/KK6stQXoHmDM4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 901. [giphy.com](https://giphy.com/gifs/MQIDO7U7c3fLq)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 902. [giphy.com](https://giphy.com/gifs/NoPNkgzHD8HSK6Nr5l)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 903. [giphy.com](https://giphy.com/gifs/O9HeC49RBpLpUj0ein)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 904. [giphy.com](https://giphy.com/gifs/OsfVaOer7N2265YTRF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 905. [giphy.com](https://giphy.com/gifs/RkxnUF9vtVZwMDwTen)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 906. [giphy.com](https://giphy.com/gifs/WRRIEjIXvWFUlOIFi0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 907. [giphy.com](https://giphy.com/gifs/g92fjlmlDdWAF3cthh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 908. [giphy.com](https://giphy.com/gifs/iTa9GMEEXB7s3mJ9oi)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 909. [giphy.com](https://giphy.com/gifs/jeXiz1RAvzX44)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 910. [giphy.com](https://giphy.com/gifs/nT7MlvIJRJ68ETf2GU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 911. [giphy.com](https://giphy.com/gifs/sytgHDEeDuGWc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 912. [krimshok.bandcamp.com](https://krimshok.bandcamp.com/track/ta-m-re-en-slip-bleu-dans-la-4-me-dimension)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**krimshok.bandcamp.com**
+
+---
+
+### 913. [open.spotify.com](https://open.spotify.com/track/4xJbrWPgXqgU12lDNBEfV5?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 914. [open.spotify.com](https://open.spotify.com/track/6C9PHGTpFtOihvV6kEGOYG?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 915. [open.spotify.com](https://open.spotify.com/track/7pDyT3s3OG50NShsxnxQxl?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 916. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6214764/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pmc.ncbi.nlm.nih.gov**
+
+---
+
+### 917. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**reddit.zendesk.com**
+
+---
+
+### 918. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id=73465)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**reddit.zendesk.com**
+
+---
+
+### 919. [linkedin.com](https://www.linkedin.com/pulse/ci-green-merge-ready-virendra-bhalothia-q4z4e/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 920. [youtube.com](https://www.youtube.com/watch?v=37FQQdqvgCE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 921. [youtube.com](https://www.youtube.com/watch?v=3zi3ECjw9ro)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 922. [youtube.com](https://www.youtube.com/watch?v=A2mRi-hpJw4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 923. [youtube.com](https://www.youtube.com/watch?v=Bsyu5_itudo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 924. [youtube.com](https://www.youtube.com/watch?v=Ei5-iMbHQl4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 925. [youtube.com](https://www.youtube.com/watch?v=IJuPCEWu4fI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 926. [youtube.com](https://www.youtube.com/watch?v=JhO8Lr8-BTQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 927. [youtube.com](https://www.youtube.com/watch?v=K67nBgPBu6U)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 928. [youtube.com](https://www.youtube.com/watch?v=KV614a6RsKg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 929. [youtube.com](https://www.youtube.com/watch?v=LyqOnFlEAQA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 930. [youtube.com](https://www.youtube.com/watch?v=OoOWuhgscAg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 931. [youtube.com](https://www.youtube.com/watch?v=QtMJOfw7RkE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 932. [youtube.com](https://www.youtube.com/watch?v=RjBVW40lQVA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 933. [youtube.com](https://www.youtube.com/watch?v=UGt9dA8GCiY)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 934. [youtube.com](https://www.youtube.com/watch?v=cdo4MK1CX30)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 935. [youtube.com](https://www.youtube.com/watch?v=d2N5Otknx-M)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 936. [youtube.com](https://www.youtube.com/watch?v=eKuFqQKYRrA&t=4s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 937. [youtube.com](https://www.youtube.com/watch?v=kAdGYjMJh-Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 938. [youtube.com](https://www.youtube.com/watch?v=mdah9800wIo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 939. [youtube.com](https://www.youtube.com/watch?v=pI-2pzrVdag)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 940. [youtube.com](https://www.youtube.com/watch?v=qtDlf1lOTcs)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 941. [youtube.com](https://www.youtube.com/watch?v=tsFAgEcCVnc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 942. [youtube.com](https://www.youtube.com/watch?v=vYa2wWgv3Nc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 943. [youtube.com](https://www.youtube.com/watch?v=wQBFWLFhP_c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 944. [youtu.be](https://youtu.be/1GJjuFHXUTM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 945. [youtu.be](https://youtu.be/4wepLsdUO7E?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 946. [youtu.be](https://youtu.be/4wepLsdUO7E?si=0BNaoRaIuCaZ3eTY&t=743)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 947. [youtu.be](https://youtu.be/J6vYvk7R190?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 948. [youtu.be](https://youtu.be/J6vYvk7R190?si=QmXCKkZtXn7AUMYX)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 949. [youtu.be](https://youtu.be/mJSnn0GZmls)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 950. [youtu.be](https://youtu.be/mJSnn0GZmls](https://youtu.be/mJSnn0GZmls)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 951. [youtu.be](https://youtu.be/zlWmzQLRwtg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 952. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forums.winamp.com**
+
+---
+
+### 953. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f=84)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forums.winamp.com**
+
+---
+
+### 954. [forums.winamp.com](http://forums.winamp.com/showthread.php?t)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forums.winamp.com**
+
+---
+
+### 955. [forums.winamp.com](http://forums.winamp.com/showthread.php?t=373755)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forums.winamp.com**
+
+---
+
+### 956. [localhost:8001](http://localhost:8001/v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8001**
+
+---
+
+### 957. [wiki.winamp.com](http://wiki.winamp.com/wiki/MilkDrop_Preset_Authoring)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wiki.winamp.com**
+
+---
+
+### 958. [appfactor.ai](http://www.appfactor.ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**appfactor.ai**
+
+---
+
+### 959. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2012:13:22%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 960. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-10%2010:24:10%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 961. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-17%2021:46:53%20UTC%20To%20Local%20Time)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wolframalpha.com**
+
+---
+
+### 962. [andonlabs.com](https://andonlabs.com/blog/andon-fm](https://andonlabs.com/blog/andon-fm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**andonlabs.com**
+
+---
+
+### 963. [api.deepseek.com](https://api.deepseek.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**api.deepseek.com**
+
+---
+
+### 964. [build.nvidia.com](https://build.nvidia.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**build.nvidia.com**
+
+---
+
+### 965. [discord.gg](https://discord.gg/dR4QY32uYQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 966. [discord.gg](https://discord.gg/rdaytrading)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 967. [en.wikipedia.org](https://en.wikipedia.org/wiki/110_The_Queen%27s_Walk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 968. [en.wikipedia.org](https://en.wikipedia.org/wiki/Bell%27s_theorem)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 969. [en.wikipedia.org](https://en.wikipedia.org/wiki/California_v._Greenwood)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 970. [en.wikipedia.org](https://en.wikipedia.org/wiki/Darknet)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 971. [en.wikipedia.org](https://en.wikipedia.org/wiki/ECHELON)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 972. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gary_Webb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 973. [en.wikipedia.org](https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 974. [en.wikipedia.org](https://en.wikipedia.org/wiki/Great_Renaming)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 975. [en.wikipedia.org](https://en.wikipedia.org/wiki/Hotline_Communications)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 976. [en.wikipedia.org](https://en.wikipedia.org/wiki/Lewis_F._Powell_Jr.)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 977. [en.wikipedia.org](https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 978. [en.wikipedia.org](https://en.wikipedia.org/wiki/Propaganda_Due)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 979. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Emperor%27s_New_Mind)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 980. [giphy.com](https://giphy.com/gifs/0wAsZOZAzl587vGZdS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 981. [giphy.com](https://giphy.com/gifs/10eIzdp0e7XNwA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 982. [giphy.com](https://giphy.com/gifs/1267Co3vPNBqQU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 983. [giphy.com](https://giphy.com/gifs/1xNZvCVmpUgpMQasGW)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 984. [giphy.com](https://giphy.com/gifs/2lYdCUA8oy3PVCpcY9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 985. [giphy.com](https://giphy.com/gifs/6VtMfSLqPIBABxbcRa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 986. [giphy.com](https://giphy.com/gifs/9tXw3xlI8koaR0TrnJ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 987. [giphy.com](https://giphy.com/gifs/ER9ew0BbQGCDC)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 988. [giphy.com](https://giphy.com/gifs/G3fPad8N68GfS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 989. [giphy.com](https://giphy.com/gifs/GFjD5golaTX9vqCGgq)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 990. [giphy.com](https://giphy.com/gifs/Ht5XGx51aeV5m)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 991. [giphy.com](https://giphy.com/gifs/L5nM7o2HqkZRm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 992. [giphy.com](https://giphy.com/gifs/UU1bHu6QWyFxZM63Jh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 993. [giphy.com](https://giphy.com/gifs/lL20ZCkHV511xPNCSp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 994. [giphy.com](https://giphy.com/gifs/wV7z6JrHPmDWnFioew)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 995. [giphy.com](https://giphy.com/gifs/yctcTARequlDa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 996. [huggingface.co](https://huggingface.co/models?other)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 997. [integrate.api.nvidia.com](https://integrate.api.nvidia.com/v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**integrate.api.nvidia.com**
+
+---
+
+### 998. [kinfo.com](https://kinfo.com/p/tohams)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**kinfo.com**
+
+---
+
+### 999. [medium.com](https://medium.com/techx-official)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 1000. [open.spotify.com](https://open.spotify.com/episode/6GeC1CVgyfCNm3kKkXxgNe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.spotify.com**
+
+---
+
+### 1001. [platform.deepseek.com](https://platform.deepseek.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**platform.deepseek.com**
+
+---
+
+### 1002. [ravensave.etsy.com](https://ravensave.etsy.com/listing/1505931174)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ravensave.etsy.com**
+
+---
+
+### 1003. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/204536499-What-constitutes-spam-Am-I-a-spammer-)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**reddit.zendesk.com**
+
+---
+
+### 1004. [rentahuman.ai](https://rentahuman.ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rentahuman.ai**
+
+---
+
+### 1005. [substack.com](https://substack.com/home/post/p-195322473)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**substack.com**
+
+---
+
+### 1006. [bls.gov](https://www.bls.gov/cps/cps_htgm.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bls.gov**
+
+---
+
+### 1007. [drugs.com](https://www.drugs.com/drug-interactions/methylene-blue-with-ritalin-1604-0-1606-979.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drugs.com**
+
+---
+
+### 1008. [instagram.com](https://www.instagram.com/altobolt.ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1009. [instagram.com](https://www.instagram.com/ikiir.c/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1010. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1011. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh=MXNydDFjdnRpYzY0bQ==)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1012. [lbruton.cc](https://www.lbruton.cc/specflow/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lbruton.cc**
+
+---
+
+### 1013. [npmjs.com](https://www.npmjs.com/package/vectra-js)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 1014. [youtube.com](https://www.youtube.com/watch?v=36GT2zI8lVA)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1015. [youtube.com](https://www.youtube.com/watch?v=4IsSUqWx158)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1016. [youtube.com](https://www.youtube.com/watch?v=EZ0jy_pkud0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1017. [youtube.com](https://www.youtube.com/watch?v=PqV4YuIhRVE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1018. [youtube.com](https://www.youtube.com/watch?v=tSpX0t63348)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1019. [youtu.be](https://youtu.be/2gOhmng0LFI?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1020. [youtu.be](https://youtu.be/2gOhmng0LFI?si=eVamLjbQLTAv%5C_8VN)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1021. [youtu.be](https://youtu.be/5kxtZfO2mvc?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1022. [youtu.be](https://youtu.be/5kxtZfO2mvc?si=i0iIx0g8ICrOrGt4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1023. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1024. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si=lfCOoDvnXz0_gozt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1025. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1026. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si=Yhj1Hywi3DDCB3Qz)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1027. [youtu.be](https://youtu.be/NNOq3T26MIQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1028. [youtu.be](https://youtu.be/Ob1U_arrIP4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1029. [youtu.be](https://youtu.be/RRLF7rbodgI?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1030. [youtu.be](https://youtu.be/RRLF7rbodgI?si=IzOK166YHOHUZ4H-)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1031. [youtu.be](https://youtu.be/dngOH9G4UPw?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1032. [youtu.be](https://youtu.be/dngOH9G4UPw?si=btwhVvDpQ3zGQLae)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1033. [youtu.be](https://youtu.be/eKW1yjy1A6Y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1034. [youtu.be](https://youtu.be/fT03vCaL-F0?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1035. [youtu.be](https://youtu.be/fT03vCaL-F0?si=5DaXhByNBrIJEkWV)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1036. [youtu.be](https://youtu.be/j_QfX0SYCE8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1037. [youtu.be](https://youtu.be/unb_yoj1Usk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1038. [youtu.be](https://youtu.be/zb7Bs98KmnY?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1039. [youtu.be](https://youtu.be/zb7Bs98KmnY?si=OOhb1zkImdCVnfs7)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1040. [youtube.com](https://youtube.com/playlist?list=PLKVRMm6i0kggMtjKecjF51t_0yp5ydPs8&si=lqifPjd29e8O0q_Q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1041. [askhistorians.tumblr.com](http://askhistorians.tumblr.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**askhistorians.tumblr.com**
+
+---
+
+### 1042. [https://](https://)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**https://**
+
+---
+
+### 1043. [abc123.ngrok.io](https://abc123.ngrok.io)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**abc123.ngrok.io**
+
+---
+
+### 1044. [aistudio.google.com](https://aistudio.google.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aistudio.google.com**
+
+---
+
+### 1045. [api.yosup.dev](https://api.yosup.dev/r/DYk3GQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**api.yosup.dev**
+
+---
+
+### 1046. [arman-bd.hashnode.dev](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arman-bd.hashnode.dev**
+
+---
+
+### 1047. [giphy.com](https://giphy.com/gifs/12q2LPLdgfUo6Y)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1048. [giphy.com](https://giphy.com/gifs/LO5fl2Iv46PFexPzVZ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1049. [giphy.com](https://giphy.com/gifs/RURAojdRlmGvm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1050. [giphy.com](https://giphy.com/gifs/VXEZKbtw9IVrhXHGas)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1051. [giphy.com](https://giphy.com/gifs/aZCe6RyeVOKZQLgByU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1052. [giphy.com](https://giphy.com/gifs/l0NwKAlZzZ9pyi9fa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1053. [giphy.com](https://giphy.com/gifs/wrBURfbZmqqXu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 1054. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1055. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q=earth+day+house+of+yes&img_index=5)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instagram.com**
+
+---
+
+### 1056. [nytimes.com](https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nytimes.com**
+
+---
+
+### 1057. [theregister.com](https://www.theregister.com/2024/10/08/torvalds_grammar_complaint/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**theregister.com**
+
+---
+
+### 1058. [youtube.com](https://www.youtube.com/watch?v=EU0EtL8VHSI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1059. [youtube.com](https://www.youtube.com/watch?v=OUZU1JvHU3s)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1060. [youtube.com](https://www.youtube.com/watch?v=PyJFcsn8B08)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1061. [youtu.be](https://youtu.be/-nEOJhOiwjU?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1062. [youtu.be](https://youtu.be/-nEOJhOiwjU?si=dq4oTK3yynHxAm_9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1063. [youtu.be](https://youtu.be/IoScx5FUkas?si)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1064. [youtu.be](https://youtu.be/IoScx5FUkas?si=bjmVZ_GlCoJviHlk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1065. [youtu.be](https://youtu.be/UajOKPiv4Uo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 1066. [rnz.co.nz](https://www.rnz.co.nz/life/books/lid-lifting-kiwi-author-forced-to-sit-in-silence-at-writers-festival)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rnz.co.nz**
+
+---
+
+### 1067. [economist.com](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**economist.com**
+
+---
+
+### 1068. [bbc.com](https://www.bbc.com/news/articles/c152yvwjwkko)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bbc.com**
+
+---
+
+### 1069. [bbc.com](https://www.bbc.com/news/articles/cy5222wn410o)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bbc.com**
+
+---
+
+### 1070. [404media.co](https://www.404media.co/we-sued-ice-to-get-its-spyware-contract-the-agency-is-redacting-essentially-everything/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**404media.co**
+
+---
+
+### 1071. [bbc.com](https://www.bbc.com/news/articles/crmp9mppvzro)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bbc.com**
+
+---
+
+### 1072. [paulkrugman.substack.com](https://paulkrugman.substack.com/p/pogroms-american-style)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**paulkrugman.substack.com**
+
+---
+
+### 1073. [variety.com](https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**variety.com**
+
+---
+
+### 1074. [wsj.com](https://www.wsj.com/lifestyle/careers/white-collar-workers-career-nyu-study-a81a7d9c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wsj.com**
+
+---
+
+### 1075. [idlewords.com](https://idlewords.com/talks/superintelligence.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**idlewords.com**
+
+---
+
+### 1076. [apnews.com](https://apnews.com/article/malaysia-social-media-ban-16-bfaa7b01163b61b5d53c4ecfa870d133)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apnews.com**
+
+---
+
+### 1077. [deflock.org](https://deflock.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**deflock.org**
+
+---
+
+### 1078. [politico.com](https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**politico.com**
+
+---
+
+### 1079. [youtube.com](https://www.youtube.com/watch?v=chJHB-btMNI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1080. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260530053418.htm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sciencedaily.com**
+
+---
+
+### 1081. [members.sigmazero.cc](https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**members.sigmazero.cc**
+
+---
+
+### 1082. [bloomberg.com](https://www.bloomberg.com/features/2026-trump-cfpb-enforcement)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bloomberg.com**
+
+---
+
+### 1083. [youtube.com](https://www.youtube.com/watch?v=3YvwqMDDb3k)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1084. [tunnel.to](https://tunnel.to)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tunnel.to**
+
+---
+
+### 1085. [youtube.com](https://www.youtube.com/watch?v=St_kJZXZ_nE)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1086. [nytimes.com](https://www.nytimes.com/2026/06/01/opinion/artificial-intelligence-bernie-sanders.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nytimes.com**
+
+---
+
+### 1087. [thezvi.substack.com](https://thezvi.substack.com/p/claude-opus-48-capabilities-and-reactions)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thezvi.substack.com**
+
+---
+
+### 1088. [youtube.com](https://www.youtube.com/watch?v=GPq_f6Ev3V8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1089. [bogleheads.org](https://www.bogleheads.org/forum/viewtopic.php?p=8777924#p8777924)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bogleheads.org**
+
+---
+
+### 1090. [construct.net](https://www.construct.net/en/blogs/construct-official-blog-1/launching-construct-game-1901)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**construct.net**
+
+---
+
+### 1091. [seo-sutra.netlify.app](https://seo-sutra.netlify.app/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**seo-sutra.netlify.app**
+
+---
+
+### 1092. [youtube.com](https://www.youtube.com/watch?v=qIob2-ugCO0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1093. [relocateme.substack.com](https://relocateme.substack.com/p/moving-to-estonia-for-work)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**relocateme.substack.com**
+
+---
+
+### 1094. [claudeschool.substack.com](https://claudeschool.substack.com/p/the-hottest-new-job-in-corporate)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claudeschool.substack.com**
+
+---
+
+### 1095. [axios.com](https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**axios.com**
+
+---
+
+### 1096. [youtube.com](https://www.youtube.com/watch?v=wLKGiulfOZw)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1097. [erdavis.com](https://erdavis.com/2026/05/29/whats-the-oldest-name-in-the-u-s/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**erdavis.com**
+
+---
+
+### 1098. [syracuse.com](https://www.syracuse.com/news/2026/06/ny-takes-new-steps-toward-hochuls-plan-for-a-nuclear-future.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**syracuse.com**
+
+---
+
+### 1099. [nytimes.com](https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nytimes.com**
+
+---
+
+### 1100. [wwwprimerpickr.com](https://wwwprimerpickr.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wwwprimerpickr.com**
+
+---
+
+### 1101. [agtchain.io](https://agtchain.io/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**agtchain.io**
+
+---
+
+### 1102. [youtube.com](https://www.youtube.com/watch?v=DmU9uovmT2A)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1103. [help.delduca.org](https://help.delduca.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**help.delduca.org**
+
+---
+
+### 1104. [maxschmitt.me](https://maxschmitt.me/posts/phishing-attempt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**maxschmitt.me**
+
+---
+
+### 1105. [bloomberg.com](https://www.bloomberg.com/opinion/articles/2026-06-02/can-t-find-a-job-after-graduation-blame-wfh-not-ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**bloomberg.com**
+
+---
+
+### 1106. [youtube.com](https://www.youtube.com/watch?v=wM4SJsaymUI)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 1107. [washoku.substack.com](https://washoku.substack.com/p/the-minimum-viable-meal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**washoku.substack.com**
+
+---
+
+### 1108. [oortstack.com](https://oortstack.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**oortstack.com**
+
+---
+
+### 1109. [techdirt.com](https://www.techdirt.com/2026/06/01/john-deere-faces-second-class-action-for-monopolizing-repair/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**techdirt.com**
+
+---
+
+### 1110. [404media.co](https://www.404media.co/ai-grifters-are-making-anti-data-center-slop-with-ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**404media.co**
+
+---
+
+### 1111. [theglobeandmail.com](https://www.theglobeandmail.com/life/article-canadians-arent-taking-their-paid-vacation-days-can-burnout-be-far/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**theglobeandmail.com**
+
+---
+
+### 1112. [404media.co](https://www.404media.co/here-is-the-contract-for-palantirs-super-api-for-the-irs/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**404media.co**
+
+---
+
+### 1113. [macrumors.com](https://www.macrumors.com/2026/06/02/microsoft-office-2019-for-mac-no-edit-documents/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**macrumors.com**
+
+---
+
+### 1114. [shop.tekmetric.com](https://shop.tekmetric.com/authorize/kCzt7k4Cs2nr3TdFSc8H0EZHYA_E3cKY1Qb1lULDvVg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**shop.tekmetric.com**
+
+---
+
+### 1115. [checkout.thefaithmade.com](https://checkout.thefaithmade.com/checkout?omni_fp=f0534649f5d96a47ffe3284310e94879e6bf8d0c09651c0b662aedd321a07ad8&sid=6a1e4a97254b511facd0d3a6&gad_campaignid=23845159429&wbraid=ClwKCAjw2_TQBhB3EkwAps_alVAlvEaKk2zQOHDVynOBFQ3suTlh-Po18KlBLWsfxgByHFdOe9AVWJoI90anWWozfoFJHB0Jk9kOQm4rmcy4FLkOQhAZ4bBkGgLmtQ)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**checkout.thefaithmade.com**
+
+---
+
+### 1116. [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors - Alexey Guzey](https://guzey.com/books/why-we-sleep/)
+`5.0` ★ ⚡47 Q0.6○ ○ Adequate
+
+**This resource is an analysis of Matthew Walker's book, 'Why We Sleep,' which delves into the scientific evidence surrounding human sleep and its importance. It serves as a guide for understanding the critical role of sleep in health and societal well-being, often highlighting areas where scientific consensus meets practical application.**
+
+**Features:**
+- Scientific analysis of sleep science
+
+*Tags: sleep-science, neuroscience, health, book-review, scientific-literacy, cognitive-health*
+
+---
+
+### 1117. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If You Had Early Access To Build In The Next Ai**
 
 ---
 
-### 79. [My Ai Trading Bot Experiment Day 31 Of 60 The](https://www.reddit.com/r/passive_income/comments/1saasz1/my_ai_trading_bot_experiment_day_31_of_60_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Ai Trading Bot Experiment Day 31 Of 60 The**
-
----
-
-### 80. [Machine Learning Supertrend Indicator Open Source](https://www.reddit.com/r/TradingView/comments/1sdpj76/machine_learning_supertrend_indicator_open_source/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Machine Learning Supertrend Indicator Open Source**
-
----
-
-### 81. [Tried A Defi Ai Trading Bot Early Thoughts](https://www.reddit.com/r/ai_trading/comments/1se3wjt/tried_a_defi_ai_trading_bot_early_thoughts/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Tried A Defi Ai Trading Bot Early Thoughts**
-
----
-
-### 82. [Openstitch Opensource Ai Ui Prototyping Tool That](https://www.reddit.com/r/Qwen_AI/comments/1scgrp9/openstitch_opensource_ai_ui_prototyping_tool_that/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Openstitch Opensource Ai Ui Prototyping Tool That**
-
----
-
-### 83. [Gemma 4 Just Casually Destroyed Every Model On](https://www.reddit.com/r/LocalLLaMA/comments/1sdcotc/gemma_4_just_casually_destroyed_every_model_on/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemma 4 Just Casually Destroyed Every Model On**
-
----
-
-### 84. [An Actress Milla Jovovich Just Released A Free](https://www.reddit.com/r/singularity/comments/1sexr5v/an_actress_milla_jovovich_just_released_a_free/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**An Actress Milla Jovovich Just Released A Free**
-
----
-
-### 85. [New Release Paircoder V2210](https://www.reddit.com/r/PairCoder/comments/1sbjegi/new_release_paircoder_v2210/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**New Release Paircoder V2210**
-
----
-
-### 86. [Asimovs Three Laws Of Robotics Survived 82 Years](https://www.reddit.com/r/accelerate/comments/1se74vs/asimovs_three_laws_of_robotics_survived_82_years/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Asimovs Three Laws Of Robotics Survived 82 Years**
-
----
-
-### 87. [What Daily Habit Has The Highest Return Over Time](https://www.reddit.com/r/WorkForSmartLife/comments/1sd6689/what_daily_habit_has_the_highest_return_over_time/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Daily Habit Has The Highest Return Over Time**
-
----
-
-### 88. [Sam Altman Told Axios That Superintelligence Is](https://www.reddit.com/r/accelerate/comments/1se2xi4/sam_altman_told_axios_that_superintelligence_is/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Sam Altman Told Axios That Superintelligence Is**
-
----
-
-### 89. [Were Building With Llms And Need Someone Who](https://www.reddit.com/r/aiengineering/comments/1seo86f/were_building_with_llms_and_need_someone_who/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Were Building With Llms And Need Someone Who**
-
----
-
-### 90. [Gemma431B Worked In An Iterativecorrection Loop](https://www.reddit.com/r/LocalLLaMA/comments/1sf8nqw/gemma431b_worked_in_an_iterativecorrection_loop/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemma431B Worked In An Iterativecorrection Loop**
-
----
-
-### 91. [Underworld Evolution Actress Milla Jovovich Just](https://www.reddit.com/r/accelerate/comments/1sfd00f/underworld_evolution_actress_milla_jovovich_just/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Underworld Evolution Actress Milla Jovovich Just**
-
----
-
-### 92. [You Guys Seen This Beats Turboquant By 18](https://www.reddit.com/r/LocalLLaMA/comments/1seymdx/you_guys_seen_this_beats_turboquant_by_18/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**You Guys Seen This Beats Turboquant By 18**
-
----
-
-### 93. [Langchain In 2026 Still The Goat For Llm App](https://www.reddit.com/r/LangChain/comments/1sfitke/langchain_in_2026_still_the_goat_for_llm_app/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Langchain In 2026 Still The Goat For Llm App**
-
----
-
-### 94. [Free Api For Extracting Clean Text From Urls](https://www.reddit.com/r/LangChain/comments/1setwb8/free_api_for_extracting_clean_text_from_urls/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Free Api For Extracting Clean Text From Urls**
-
----
-
-### 95. [Built Langchain Based Solution For Karpathys Llm](https://www.reddit.com/r/LangChain/comments/1se8gdb/built_langchain_based_solution_for_karpathys_llm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built Langchain Based Solution For Karpathys Llm**
-
----
-
-### 96. [How Are You Handling Toolcall Scoping](https://www.reddit.com/r/LangChain/comments/1se2vei/how_are_you_handling_toolcall_scoping/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Are You Handling Toolcall Scoping**
-
----
-
-### 97. [Are My Hopes For Running A Local Llm Unrealistic](https://www.reddit.com/r/LocalLLM/comments/1shx92z/are_my_hopes_for_running_a_local_llm_unrealistic/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Are My Hopes For Running A Local Llm Unrealistic**
-
----
-
-### 98. [Gemma 4 26B A4B Is Still Fully Capable At](https://www.reddit.com/r/LocalLLaMA/comments/1sihwo8/gemma_4_26b_a4b_is_still_fully_capable_at/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemma 4 26B A4B Is Still Fully Capable At**
-
----
-
-### 99. [The Tried To Make Me Go To Rehab I Said No No No](https://www.reddit.com/r/LocalLLaMA/comments/1si7qx8/the_tried_to_make_me_go_to_rehab_i_said_no_no_no/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Tried To Make Me Go To Rehab I Said No No No**
-
----
-
-### 100. [What Do You Think Will Be The Oh Shit Moment For](https://www.reddit.com/r/accelerate/comments/1slfxqm/what_do_you_think_will_be_the_oh_shit_moment_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Do You Think Will Be The Oh Shit Moment For**
-
----
-
-### 101. [The New Stealth Model Elephantalpha Is Now](https://www.reddit.com/r/Bard/comments/1sltl6m/the_new_stealth_model_elephantalpha_is_now/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The New Stealth Model Elephantalpha Is Now**
-
----
-
-### 102. [Is Langchain Still Hot 2026](https://www.reddit.com/r/LangChain/comments/1sl860q/is_langchain_still_hot_2026/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is Langchain Still Hot 2026**
-
----
-
-### 103. [Major Drop In Intelligence Across Most Major](https://www.reddit.com/r/LocalLLaMA/comments/1sm08m6/major_drop_in_intelligence_across_most_major/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Major Drop In Intelligence Across Most Major**
-
----
-
-### 104. [Anyone Here Actually Using A Mac Studio Ultra](https://www.reddit.com/r/LocalLLaMA/comments/1smfimj/anyone_here_actually_using_a_mac_studio_ultra/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anyone Here Actually Using A Mac Studio Ultra**
-
----
-
-### 105. [Help Me Squeeze Every Drop Out Of My Amd Ryzen Ai](https://www.reddit.com/r/LocalLLM/comments/1smjl1n/help_me_squeeze_every_drop_out_of_my_amd_ryzen_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Help Me Squeeze Every Drop Out Of My Amd Ryzen Ai**
-
----
-
-### 106. [The Only Metric That Matters Qwen3635Ba3Bgguf](https://www.reddit.com/r/LocalLLaMA/comments/1snb41a/the_only_metric_that_matters_qwen3635ba3bgguf/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Only Metric That Matters Qwen3635Ba3Bgguf**
-
----
-
-### 107. [Forgive My Ignorance But How Is A 27B Model](https://www.reddit.com/r/LocalLLaMA/comments/1st11lp/forgive_my_ignorance_but_how_is_a_27b_model/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Forgive My Ignorance But How Is A 27B Model**
-
----
-
-### 108. [Its Been 4 Days Since Release Of Ai Studio](https://www.reddit.com/r/Bard/comments/1stfbee/its_been_4_days_since_release_of_ai_studio/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Its Been 4 Days Since Release Of Ai Studio**
-
----
-
-### 109. [A Very Painful Confession From A Programmer With](https://www.reddit.com/r/tech_x/comments/1sulbxn/a_very_painful_confession_from_a_programmer_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Very Painful Confession From A Programmer With**
-
----
-
-### 110. [Deepseek V4 Is Now The Cheapest Sota Model](https://www.reddit.com/r/tech_x/comments/1subnze/deepseek_v4_is_now_the_cheapest_sota_model/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Deepseek V4 Is Now The Cheapest Sota Model**
-
----
-
-### 111. [Found A Real Working Loophole For Easy Nsfw Ai](https://www.reddit.com/r/AIJailbreak/comments/1suuwv1/found_a_real_working_loophole_for_easy_nsfw_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Found A Real Working Loophole For Easy Nsfw Ai**
-
----
-
-### 112. [What Tools Are You Using To Give Your Llm A](https://www.reddit.com/r/LocalLLaMA/comments/1sz3i73/what_tools_are_you_using_to_give_your_llm_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Tools Are You Using To Give Your Llm A**
-
----
-
-### 113. [Seed Iq Scoring 100 Arc Agi 3 Gameswow](https://www.reddit.com/r/accelerate/comments/1sy9ydd/seed_iq_scoring_100_arc_agi_3_gameswow/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Seed Iq Scoring 100 Arc Agi 3 Gameswow**
-
----
-
-### 114. [Grok Imagine Was Straightup Insane For](https://www.reddit.com/r/AIJailbreak/comments/1szj91u/grok_imagine_was_straightup_insane_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Grok Imagine Was Straightup Insane For**
-
----
-
-### 115. [What Do You Guys Even Use Local Llms For Me A Lot](https://www.reddit.com/r/LocalLLaMA/comments/1szdv5s/what_do_you_guys_even_use_local_llms_for_me_a_lot/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Do You Guys Even Use Local Llms For Me A Lot**
-
----
-
-### 116. [Grok 43 Scores Higher Than Muse Spark And Claude](https://www.reddit.com/r/accelerate/comments/1t0n5p9/grok_43_scores_higher_than_muse_spark_and_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Grok 43 Scores Higher Than Muse Spark And Claude**
-
----
-
-### 117. [As Of May 1 2026 Sebastian Bubeck Chief Scientist](https://www.reddit.com/r/accelerate/comments/1t0ozdy/as_of_may_1_2026_sebastian_bubeck_chief_scientist/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**As Of May 1 2026 Sebastian Bubeck Chief Scientist**
-
----
-
-### 118. [This Is The First Time Ive Ever Seen An Llm](https://www.reddit.com/r/accelerate/comments/1t0jqer/this_is_the_first_time_ive_ever_seen_an_llm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**This Is The First Time Ive Ever Seen An Llm**
-
----
-
-### 119. [Model Order For Coding Trying To Save My 31 Pro](https://www.reddit.com/r/Bard/comments/1t1qydw/model_order_for_coding_trying_to_save_my_31_pro/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Model Order For Coding Trying To Save My 31 Pro**
-
----
-
-### 120. [The First Quarter Of 2026 Belonged To](https://www.reddit.com/r/accelerate/comments/1t1b6vp/the_first_quarter_of_2026_belonged_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The First Quarter Of 2026 Belonged To**
-
----
-
-### 121. [The Stochastic Parrots Have Struck Again Just One](https://www.reddit.com/r/accelerate/comments/1t1sq8v/the_stochastic_parrots_have_struck_again_just_one/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Stochastic Parrots Have Struck Again Just One**
-
----
-
-### 122. [Gpt55 Instant Smarter Clearer And More](https://www.reddit.com/r/accelerate/comments/1t4w5ov/gpt55_instant_smarter_clearer_and_more/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gpt55 Instant Smarter Clearer And More**
-
----
-
-### 123. [Is Kimi Good For Vibecoding](https://www.reddit.com/r/kimi/comments/1t34xig/is_kimi_good_for_vibecoding/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is Kimi Good For Vibecoding**
-
----
-
-### 124. [I Am Interested In Getting Started With Tai Chi](https://www.reddit.com/r/taichi/comments/1t1df0i/i_am_interested_in_getting_started_with_tai_chi/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Am Interested In Getting Started With Tai Chi**
-
----
-
-### 125. [Open Source Brain Information Flow Exploration](https://www.reddit.com/r/compmathneuro/comments/1sy150g/open_source_brain_information_flow_exploration/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Open Source Brain Information Flow Exploration**
-
----
-
-### 126. [A Third Pastor Has Said He Was Privately Briefed](https://www.reddit.com/r/UFOs/comments/1t4vycc/a_third_pastor_has_said_he_was_privately_briefed/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Third Pastor Has Said He Was Privately Briefed**
-
----
-
-### 127. [Hyundai Reportedly Demanding Tens Of Thousands Of](https://www.reddit.com/r/Futurology/comments/1t4c87y/hyundai_reportedly_demanding_tens_of_thousands_of/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Hyundai Reportedly Demanding Tens Of Thousands Of**
-
----
-
-### 128. [Another Pastor Claims He Was Briefed On Uap](https://www.reddit.com/r/UFOs/comments/1t4s5hv/another_pastor_claims_he_was_briefed_on_uap/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Another Pastor Claims He Was Briefed On Uap**
-
----
-
-### 129. [Ai Makes Me Excited To Stay Alive Long Enough To](https://www.reddit.com/r/accelerate/comments/1t56tld/ai_makes_me_excited_to_stay_alive_long_enough_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ai Makes Me Excited To Stay Alive Long Enough To**
-
----
-
-### 130. [Why Does Price Always Move Against You Right](https://www.reddit.com/r/Daytrading/comments/1t4kb9g/why_does_price_always_move_against_you_right/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Why Does Price Always Move Against You Right**
-
----
-
-### 131. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
+### 1118. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Next Week Starship V3 A Massively Improved**
 
 ---
 
-### 132. [I Built A Tool That Automatically Sets Hot Cues](https://www.reddit.com/r/Rekordbox/comments/1t6la4g/i_built_a_tool_that_automatically_sets_hot_cues/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Tool That Automatically Sets Hot Cues**
-
----
-
-### 133. [The New Airpods Prove Apple Is Still The King Of](https://www.reddit.com/r/mobiles/comments/1t7kfhi/the_new_airpods_prove_apple_is_still_the_king_of/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The New Airpods Prove Apple Is Still The King Of**
-
----
-
-### 134. [Is Qwen3Coder The Best Kept Secret Out There](https://www.reddit.com/r/LocalLLaMA/comments/1t7tu20/is_qwen3coder_the_best_kept_secret_out_there/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is Qwen3Coder The Best Kept Secret Out There**
-
----
-
-### 135. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
+### 1119. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Physicists Say Its Possible To Send Messages**
 
 ---
 
-### 136. [I Was Once An Ai True Believer Now I Think The](https://www.reddit.com/r/ArtificialInteligence/comments/1t73hxx/i_was_once_an_ai_true_believer_now_i_think_the/)
+### 1120. [Unpopular Opinion Stop Trying To Make Your Ai](https://www.reddit.com/r/LangChain/comments/1to5m2e/unpopular_opinion_stop_trying_to_make_your_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**I Was Once An Ai True Believer Now I Think The**
+**Unpopular Opinion Stop Trying To Make Your Ai**
 
 ---
 
-### 137. [The Hell Delusion The Mainstream Christian](https://www.reddit.com/r/enlightenment/comments/1t9hs5k/the_hell_delusion_the_mainstream_christian/)
+### 1121. [Best Free Notebooklm Alternatives In 2026](https://www.reddit.com/r/AIToolsAndTips/comments/1tnywas/best_free_notebooklm_alternatives_in_2026/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**The Hell Delusion The Mainstream Christian**
+**Best Free Notebooklm Alternatives In 2026**
 
 ---
 
-### 138. [New Big Guy Arrived In Open Source Community](https://www.reddit.com/r/LocalLLM/comments/1td34du/new_big_guy_arrived_in_open_source_community/)
+### 1122. [Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus](https://www.reddit.com/r/DeepSeek/comments/1top7l7/deepseek_ai_moment_20_v4_coding_matches_gpt_opus/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**New Big Guy Arrived In Open Source Community**
+**Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus**
 
 ---
 
-### 139. [The More Sophisticated Ai Models Get The More](https://www.reddit.com/r/AIDangers/comments/1tarzh1/the_more_sophisticated_ai_models_get_the_more/)
+### 1123. [Startups Dont Need To Automate More They Need To](https://www.reddit.com/r/AIStartupAutomation/comments/1tlc519/startups_dont_need_to_automate_more_they_need_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**The More Sophisticated Ai Models Get The More**
+**Startups Dont Need To Automate More They Need To**
 
 ---
 
-### 140. [Qwen Image 2512 Is The Best Open Source Image](https://www.reddit.com/r/QwenImageGen/comments/1tazfpl/qwen_image_2512_is_the_best_open_source_image/)
+### 1124. [Scientists Say Theyve Reversed Brain Aging With A](https://www.reddit.com/r/immortalists/comments/1toht3l/scientists_say_theyve_reversed_brain_aging_with_a/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Qwen Image 2512 Is The Best Open Source Image**
+**Scientists Say Theyve Reversed Brain Aging With A**
 
 ---
 
-### 141. [Im Maintaining A Fork Of This](https://www.reddit.com/r/vanillamusic/comments/1t81gdl/im_maintaining_a_fork_of_this/)
+### 1125. [I Turned Notebooklm Into A Fully Modular](https://www.reddit.com/r/notebooklm/comments/1toxc01/i_turned_notebooklm_into_a_fully_modular/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Im Maintaining A Fork Of This**
+**I Turned Notebooklm Into A Fully Modular**
 
 ---
 
-### 142. [Google Antigravity Just Changed Ai Coding Forever](https://www.reddit.com/r/aiecosystem/comments/1tb97fe/google_antigravity_just_changed_ai_coding_forever/)
+### 1126. [Im Building An Opensource Decision Layer Above Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1tp6wv2/im_building_an_opensource_decision_layer_above_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Google Antigravity Just Changed Ai Coding Forever**
+**Im Building An Opensource Decision Layer Above Ai**
 
 ---
 
-### 143. [Anthropic Just Published A Pretty Alarming 2028](https://www.reddit.com/r/artificial/comments/1td99uw/anthropic_just_published_a_pretty_alarming_2028/)
+### 1127. [Amazon Just Informed Me That My Paid Music](https://old.reddit.com/r/mildlyinfuriating/comments/1tur3w5/amazon_just_informed_me_that_my_paid_music/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Anthropic Just Published A Pretty Alarming 2028**
+**Amazon Just Informed Me That My Paid Music**
 
 ---
 
-### 144. [Ai Assistant Are Becoming The Personal Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1t9zud8/ai_assistant_are_becoming_the_personal_ai/)
+### 1128. [If Youre Vibe Coding On Top Of A Freelancers](https://old.reddit.com/r/VibeCodeDevs/comments/1ttxj7t/if_youre_vibe_coding_on_top_of_a_freelancers/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Ai Assistant Are Becoming The Personal Ai**
+**If Youre Vibe Coding On Top Of A Freelancers**
 
 ---
 
-### 145. [I Built An Ai That Shows You Every Possible Path](https://www.reddit.com/r/TheFounders/comments/1tcy4vs/i_built_an_ai_that_shows_you_every_possible_path/)
+### 1129. [Advice On Best Tools To Use For Coding With Local](https://www.reddit.com/r/LocalLLM/comments/1tpjl0i/advice_on_best_tools_to_use_for_coding_with_local/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**I Built An Ai That Shows You Every Possible Path**
+**Advice On Best Tools To Use For Coding With Local**
 
 ---
 
-### 146. [Locusfounder Ai That Builds And Runs A Complete](https://www.reddit.com/r/AIToolsAndTips/comments/1td6ulr/locusfounder_ai_that_builds_and_runs_a_complete/)
+### 1130. [Im Creating My Own Personal Offline Rebel Llm](https://www.reddit.com/r/LocalLLM/comments/1tpml7u/im_creating_my_own_personal_offline_rebel_llm/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Locusfounder Ai That Builds And Runs A Complete**
+**Im Creating My Own Personal Offline Rebel Llm**
 
 ---
 
-### 147. [Akshay This Tts Model Generates Speech 167X](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tewb4l/akshay_this_tts_model_generates_speech_167x/)
+### 1131. [Walkthrough Is Always Full Of Lies And False](https://www.reddit.com/r/google_antigravity/comments/1tppvj1/walkthrough_is_always_full_of_lies_and_false/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Akshay This Tts Model Generates Speech 167X**
+**Walkthrough Is Always Full Of Lies And False**
 
 ---
 
-### 148. [Jensen Huang Electricians Plumbers Iron Workers](https://www.reddit.com/r/accelerate/comments/1te1l2c/jensen_huang_electricians_plumbers_iron_workers/)
+### 1132. [Went To A Pawn Shop For The First Timenever Again](https://www.reddit.com/r/Vent/comments/1tpuzy8/went_to_a_pawn_shop_for_the_first_timenever_again/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Jensen Huang Electricians Plumbers Iron Workers**
+**Went To A Pawn Shop For The First Timenever Again**
 
 ---
 
-### 149. [Modernizing 37 Years Of C Expertise 32 Design](https://www.reddit.com/r/patterns/comments/1s2v3cb/modernizing_37_years_of_c_expertise_32_design/)
+### 1133. [Suggest Any Good Notebooklm Alternatives Youd](https://www.reddit.com/r/LangChain/comments/1tqm360/suggest_any_good_notebooklm_alternatives_youd/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Modernizing 37 Years Of C Expertise 32 Design**
+**Suggest Any Good Notebooklm Alternatives Youd**
 
 ---
 
-### 150. [Anyone Else Switching Between Claude And Kimi](https://www.reddit.com/r/kimi/comments/1s9wrqz/anyone_else_switching_between_claude_and_kimi/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anyone Else Switching Between Claude And Kimi**
-
----
-
-### 151. [Claude Thinks Agi Will Happen But Ubi Isnt Going](https://www.reddit.com/r/agi/comments/1sawjin/claude_thinks_agi_will_happen_but_ubi_isnt_going/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claude Thinks Agi Will Happen But Ubi Isnt Going**
-
----
-
-### 152. [Claude Discoveres The Clock And Is Very](https://www.reddit.com/r/claudexplorers/comments/1sc6ocz/claude_discoveres_the_clock_and_is_very/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claude Discoveres The Clock And Is Very**
-
----
-
-### 153. [Gemma 4 Is Matching Gpt51 On Mmlupro And Within](https://www.reddit.com/r/AIToolsPerformance/comments/1sbqe7c/gemma_4_is_matching_gpt51_on_mmlupro_and_within/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemma 4 Is Matching Gpt51 On Mmlupro And Within**
-
----
-
-### 154. [My Trading Bot Actually Works Actualy Does Make](https://www.reddit.com/r/ai_trading/comments/1sbhkd8/my_trading_bot_actually_works_actualy_does_make/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Trading Bot Actually Works Actualy Does Make**
-
----
-
-### 155. [Tried Minimax M27 On A Messy Refactor That Claude](https://www.reddit.com/r/Verdent/comments/1sc5hjw/tried_minimax_m27_on_a_messy_refactor_that_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Tried Minimax M27 On A Messy Refactor That Claude**
-
----
-
-### 156. [I Build Opensource Products On Net To Prove Its](https://www.reddit.com/r/GoodOpenSource/comments/1scdh75/i_build_opensource_products_on_net_to_prove_its/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Build Opensource Products On Net To Prove Its**
-
----
-
-### 157. [Has Anyone Looked At Their Claude Folder](https://www.reddit.com/r/claude/comments/1sdv6zf/has_anyone_looked_at_their_claude_folder/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Has Anyone Looked At Their Claude Folder**
-
----
-
-### 158. [Used Antigravity To Build And Ship My Opensource](https://www.reddit.com/r/google_antigravity/comments/1sed3ip/used_antigravity_to_build_and_ship_my_opensource/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Used Antigravity To Build And Ship My Opensource**
-
----
-
-### 159. [I Wanted Claude Max But Im A Broke Cs Student So](https://www.reddit.com/r/ClaudeCode/comments/1sehnf6/i_wanted_claude_max_but_im_a_broke_cs_student_so/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Wanted Claude Max But Im A Broke Cs Student So**
-
----
-
-### 160. [Karpathy Said Theres Room For An Incredible](https://www.reddit.com/r/ClaudeCode/comments/1sg9nj6/karpathy_said_theres_room_for_an_incredible/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Karpathy Said Theres Room For An Incredible**
-
----
-
-### 161. [Is There A Trick To Stop The Model From](https://www.reddit.com/r/AskVibecoders/comments/1sg1rlf/is_there_a_trick_to_stop_the_model_from/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is There A Trick To Stop The Model From**
-
----
-
-### 162. [Zeichenwerk Go Tui Library](https://www.reddit.com/r/tui/comments/1sd3u2x/zeichenwerk_go_tui_library/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Zeichenwerk Go Tui Library**
-
----
-
-### 163. [V20 Dropped Living Mind Cortex Is Now A Full](https://www.reddit.com/r/DesignTecture/comments/1sfderj/v20_dropped_living_mind_cortex_is_now_a_full/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**V20 Dropped Living Mind Cortex Is Now A Full**
-
----
-
-### 164. [Someone Opensourced A Real Ai Teacher For Your](https://www.reddit.com/r/aiecosystem/comments/1sgsirp/someone_opensourced_a_real_ai_teacher_for_your/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Someone Opensourced A Real Ai Teacher For Your**
-
----
-
-### 165. [What Ai Tools Are Actually Worth Learning Right](https://www.reddit.com/r/AiBuilders/comments/1shxvgi/what_ai_tools_are_actually_worth_learning_right/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Ai Tools Are Actually Worth Learning Right**
-
----
-
-### 166. [Ai Says Im Retarded For Not Mining Monero On My](https://www.reddit.com/r/MoneroMining/comments/1sjkfgo/ai_says_im_retarded_for_not_mining_monero_on_my/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ai Says Im Retarded For Not Mining Monero On My**
-
----
-
-### 167. [Ive Been Building And Refining My Orb Indicator](https://www.reddit.com/r/pinescript/comments/1sjo3l0/ive_been_building_and_refining_my_orb_indicator/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ive Been Building And Refining My Orb Indicator**
-
----
-
-### 168. [You Can Finetune 100 Opensource Models Without](https://www.reddit.com/r/LovingOpenSourceAI/comments/1sk9eh6/you_can_finetune_100_opensource_models_without/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**You Can Finetune 100 Opensource Models Without**
-
----
-
-### 169. [Goodbye Qwen You Tried But You Failed](https://www.reddit.com/r/Qwen_AI/comments/1skeeu5/goodbye_qwen_you_tried_but_you_failed/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Goodbye Qwen You Tried But You Failed**
-
----
-
-### 170. [Reports Of Intelligence Drops Across Claude](https://www.reddit.com/r/AIToolsPerformance/comments/1smc6ri/reports_of_intelligence_drops_across_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Reports Of Intelligence Drops Across Claude**
-
----
-
-### 171. [Im Building A Mobile Piano Edm Rhythm Prototype](https://www.reddit.com/r/rhythmgames/comments/1sk71o6/im_building_a_mobile_piano_edm_rhythm_prototype/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Im Building A Mobile Piano Edm Rhythm Prototype**
-
----
-
-### 172. [Msfts Setup Makes It A No Brainer](https://www.reddit.com/r/technicalanalysis/comments/1sked3e/msfts_setup_makes_it_a_no_brainer/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Msfts Setup Makes It A No Brainer**
-
----
-
-### 173. [Anthropic Is Set To Release Claude Opus 47 And A](https://www.reddit.com/r/singularity/comments/1slh72j/anthropic_is_set_to_release_claude_opus_47_and_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anthropic Is Set To Release Claude Opus 47 And A**
-
----
-
-### 174. [Alphasignal Ai A Peanutsized Chinese Model Just](https://www.reddit.com/r/LovingOpenSourceAI/comments/1slykj7/alphasignal_ai_a_peanutsized_chinese_model_just/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Alphasignal Ai A Peanutsized Chinese Model Just**
-
----
-
-### 175. [The Collective Intelligence Problem With Ai](https://www.reddit.com/r/VibeCodersNest/comments/1slfel5/the_collective_intelligence_problem_with_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Collective Intelligence Problem With Ai**
-
----
-
-### 176. [I Am Eternally Grateful To Claude](https://www.reddit.com/r/claudexplorers/comments/1slwgcr/i_am_eternally_grateful_to_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Am Eternally Grateful To Claude**
-
----
-
-### 177. [We Built Karpathys Llm Wiki The Llm Read It](https://www.reddit.com/r/LLM/comments/1smd9sz/we_built_karpathys_llm_wiki_the_llm_read_it/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**We Built Karpathys Llm Wiki The Llm Read It**
-
----
-
-### 178. [You Can Now Train Gemma 4 With Rl Locally](https://www.reddit.com/r/unsloth/comments/1sm8e9x/you_can_now_train_gemma_4_with_rl_locally/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**You Can Now Train Gemma 4 With Rl Locally**
-
----
-
-### 179. [Sent 60000 Emails In March Most Cold Email Advice](https://www.reddit.com/r/coldemail/comments/1smih8j/sent_60000_emails_in_march_most_cold_email_advice/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Sent 60000 Emails In March Most Cold Email Advice**
-
----
-
-### 180. [Scientists Reverse Brain Aging With A Nasal Spray](https://www.reddit.com/r/immortalists/comments/1sn1u4g/scientists_reverse_brain_aging_with_a_nasal_spray/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Scientists Reverse Brain Aging With A Nasal Spray**
-
----
-
-### 181. [What Is The Biggest Missing Piece In Layered Ai](https://www.reddit.com/r/AISystemsEngineering/comments/1sn3ca9/what_is_the_biggest_missing_piece_in_layered_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**What Is The Biggest Missing Piece In Layered Ai**
-
----
-
-### 182. [A Neuroscientist Discovered The Brain Network](https://www.reddit.com/r/HighStrangeness/comments/1sqy2sc/a_neuroscientist_discovered_the_brain_network/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Neuroscientist Discovered The Brain Network**
-
----
-
-### 183. [Whats The Most Creative Use Of Ai Youve Seen](https://www.reddit.com/r/AIInnovationInsights/comments/1srgo8y/whats_the_most_creative_use_of_ai_youve_seen/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Whats The Most Creative Use Of Ai Youve Seen**
-
----
-
-### 184. [Local Llms Omlx And M5 Performance](https://www.reddit.com/r/MacStudio/comments/1soi7yy/local_llms_omlx_and_m5_performance/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Local Llms Omlx And M5 Performance**
-
----
-
-### 185. [Fcaptcha Open Source Captcha That Blocks Bots Ai](https://www.reddit.com/r/PoisonFountain/comments/1st6b9m/fcaptcha_open_source_captcha_that_blocks_bots_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Fcaptcha Open Source Captcha That Blocks Bots Ai**
-
----
-
-### 186. [Best Markdown Tools Everyone Needs To Know About](https://www.reddit.com/r/Markdown/comments/1su1vib/best_markdown_tools_everyone_needs_to_know_about/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Best Markdown Tools Everyone Needs To Know About**
-
----
-
-### 187. [We Gave Claude Opus 47 And Kimi K26 The Same](https://www.reddit.com/r/kilocode/comments/1stj752/we_gave_claude_opus_47_and_kimi_k26_the_same/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**We Gave Claude Opus 47 And Kimi K26 The Same**
-
----
-
-### 188. [Arxia Just Sent The First Blockchain Transaction](https://www.reddit.com/r/esp32projects/comments/1sqvv0p/arxia_just_sent_the_first_blockchain_transaction/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Arxia Just Sent The First Blockchain Transaction**
-
----
-
-### 189. [Nvidia Just Made 80 Ai Models Deepseek Kimi Glm](https://www.reddit.com/r/WebAfterAI/comments/1suvaf8/nvidia_just_made_80_ai_models_deepseek_kimi_glm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Nvidia Just Made 80 Ai Models Deepseek Kimi Glm**
-
----
-
-### 190. [Bun Replaced 4 Tools In My Stack Honest Take](https://www.reddit.com/r/bun/comments/1spgubt/bun_replaced_4_tools_in_my_stack_honest_take/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Bun Replaced 4 Tools In My Stack Honest Take**
-
----
-
-### 191. [Feedback Request Claude Design Extremely](https://www.reddit.com/r/AiBuilders/comments/1ssvunz/feedback_request_claude_design_extremely/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Feedback Request Claude Design Extremely**
-
----
-
-### 192. [I Finally Uninstalled Langchain And Cleared 50Gb](https://www.reddit.com/r/AiBuilders/comments/1sw0gpn/i_finally_uninstalled_langchain_and_cleared_50gb/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Finally Uninstalled Langchain And Cleared 50Gb**
-
----
-
-### 193. [I Finally Uninstalled Langchain And Cleared 50Gb](https://www.reddit.com/r/AISystemsEngineering/comments/1sw0hua/i_finally_uninstalled_langchain_and_cleared_50gb/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Finally Uninstalled Langchain And Cleared 50Gb**
-
----
-
-### 194. [Has Anyone Built Or Seen Someone Build Something](https://www.reddit.com/r/womenintech/comments/1swcurx/has_anyone_built_or_seen_someone_build_something/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Has Anyone Built Or Seen Someone Build Something**
-
----
-
-### 195. [I Made 18000 In One Day By Trading Lowpriced](https://www.reddit.com/r/ai_trading/comments/1sz3rg9/i_made_18000_in_one_day_by_trading_lowpriced/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Made 18000 In One Day By Trading Lowpriced**
-
----
-
-### 196. [Kimi 26 Beats Opus 47 And Is The Best Open Source](https://www.reddit.com/r/abacusai/comments/1sz0o79/kimi_26_beats_opus_47_and_is_the_best_open_source/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Kimi 26 Beats Opus 47 And Is The Best Open Source**
-
----
-
-### 197. [Why Was The Lyrical Presentation Of Hair Metal](https://www.reddit.com/r/AskHistorians/comments/1t00gnw/why_was_the_lyrical_presentation_of_hair_metal/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Why Was The Lyrical Presentation Of Hair Metal**
-
----
-
-### 198. [Forget Claude Dario Amodei Finds New Models](https://www.reddit.com/r/agi/comments/1t00q8c/forget_claude_dario_amodei_finds_new_models/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Forget Claude Dario Amodei Finds New Models**
-
----
-
-### 199. [The First Open Source Competitor To Legora Harvey](https://www.reddit.com/r/legaltech/comments/1szqrcf/the_first_open_source_competitor_to_legora_harvey/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The First Open Source Competitor To Legora Harvey**
-
----
-
-### 200. [Whats One Underrated Tool You Found That No One](https://www.reddit.com/r/Software_Finder/comments/1sy6xtq/whats_one_underrated_tool_you_found_that_no_one/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Whats One Underrated Tool You Found That No One**
-
----
-
-### 201. [Drop Your Saas Tool Homepage For Feedback](https://www.reddit.com/r/Software_Finder/comments/1sz4xfc/drop_your_saas_tool_homepage_for_feedback/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Drop Your Saas Tool Homepage For Feedback**
-
----
-
-### 202. [Why Being An Ai Doomer Is Useless](https://www.reddit.com/r/AIGrowthTips/comments/1sxcxje/why_being_an_ai_doomer_is_useless/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Why Being An Ai Doomer Is Useless**
-
----
-
-### 203. [Best Nsfw Model In Each Tier](https://www.reddit.com/r/chutesAI/comments/1t1njle/best_nsfw_model_in_each_tier/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Best Nsfw Model In Each Tier**
-
----
-
-### 204. [I Quit My Job To Build An Ai Saas It Flopped The](https://www.reddit.com/r/SaaS/comments/1t1n913/i_quit_my_job_to_build_an_ai_saas_it_flopped_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Quit My Job To Build An Ai Saas It Flopped The**
-
----
-
-### 205. [Stop Using Claude Like Googlehere Are The 4](https://www.reddit.com/r/n8nbusinessautomation/comments/1szplwg/stop_using_claude_like_googlehere_are_the_4/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Stop Using Claude Like Googlehere Are The 4**
-
----
-
-### 206. [Gpt55 Plays Pok%C3%A9Mon Emerald](https://www.reddit.com/r/ClaudePlaysPokemon/comments/1t1p06x/gpt55_plays_pok%C3%A9mon_emerald/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gpt55 Plays Pok%C3%A9Mon Emerald**
-
----
-
-### 207. [6 Things I Learned Building An Opensource Tool To](https://www.reddit.com/r/AskVibecoders/comments/1t1n8g9/6_things_i_learned_building_an_opensource_tool_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**6 Things I Learned Building An Opensource Tool To**
-
----
-
-### 208. [A Twitter User Tricked Grok To Send 200K Usd To](https://www.reddit.com/r/singularity/comments/1t3hw53/a_twitter_user_tricked_grok_to_send_200k_usd_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Twitter User Tricked Grok To Send 200K Usd To**
-
----
-
-### 209. [I Thought I Was Building Freedom I Was Actually](https://www.reddit.com/r/Daytrading/comments/1t61n1u/i_thought_i_was_building_freedom_i_was_actually/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Thought I Was Building Freedom I Was Actually**
-
----
-
-### 210. [Are There Any Tts Tools Cheaper Than Elevenlabs](https://www.reddit.com/r/TextToSpeech/comments/1t7wvej/are_there_any_tts_tools_cheaper_than_elevenlabs/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Are There Any Tts Tools Cheaper Than Elevenlabs**
-
----
-
-### 211. [6 For 6 With Claude Opus 47](https://www.reddit.com/r/ai_trading/comments/1tekuzw/6_for_6_with_claude_opus_47/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**6 For 6 With Claude Opus 47**
-
----
-
-### 212. [Claude Has Become A Pok%C3%A9Mon Champion](https://www.reddit.com/r/ClaudePlaysPokemon/comments/1temset/claude_has_become_a_pok%C3%A9mon_champion/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claude Has Become A Pok%C3%A9Mon Champion**
-
----
-
-### 213. [How To Overcome Limitations With Large Documents](https://www.reddit.com/r/notebooklm/comments/1s9ra94/how_to_overcome_limitations_with_large_documents/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How To Overcome Limitations With Large Documents**
-
----
-
-### 214. [How Are You Guys Actually Using Notebooklm Is It](https://www.reddit.com/r/AI_Application/comments/1s9hiwz/how_are_you_guys_actually_using_notebooklm_is_it/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Are You Guys Actually Using Notebooklm Is It**
-
----
-
-### 215. [How Are You Evaluating Multistep Reliability](https://www.reddit.com/r/LangChain/comments/1set2s6/how_are_you_evaluating_multistep_reliability/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Are You Evaluating Multistep Reliability**
-
----
-
-### 216. [Barnum A Programming Language For Asynchronous](https://www.reddit.com/r/LangChain/comments/1seysgx/barnum_a_programming_language_for_asynchronous/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Barnum A Programming Language For Asynchronous**
-
----
-
-### 217. [Time To Unveil The Truth Of Antigravity](https://www.reddit.com/r/google_antigravity/comments/1sj0689/time_to_unveil_the_truth_of_antigravity/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Time To Unveil The Truth Of Antigravity**
-
----
-
-### 218. [To People Who Say Ag Is Trash](https://www.reddit.com/r/google_antigravity/comments/1sjencr/to_people_who_say_ag_is_trash/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**To People Who Say Ag Is Trash**
-
----
-
-### 219. [Is It Just Me Or Did They Just Go And Fix](https://www.reddit.com/r/google_antigravity/comments/1su4e3h/is_it_just_me_or_did_they_just_go_and_fix/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is It Just Me Or Did They Just Go And Fix**
-
----
-
-### 220. [Now That The Limits Issue For 31 Pro And Others](https://www.reddit.com/r/Bard/comments/1sv78m8/now_that_the_limits_issue_for_31_pro_and_others/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Now That The Limits Issue For 31 Pro And Others**
-
----
-
-### 221. [Time To Pack It Up And Say Goodbye Not A Good](https://www.reddit.com/r/google_antigravity/comments/1svuq8u/time_to_pack_it_up_and_say_goodbye_not_a_good/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Time To Pack It Up And Say Goodbye Not A Good**
-
----
-
-### 222. [Notebooklm Has Been Absolutely Terrible Recently](https://www.reddit.com/r/notebooklm/comments/1sxgndc/notebooklm_has_been_absolutely_terrible_recently/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Notebooklm Has Been Absolutely Terrible Recently**
-
----
-
-### 223. [Introducing Animocerebro An Opensource Cognitive](https://www.reddit.com/r/OpenSourceAI/comments/1sy2jur/introducing_animocerebro_an_opensource_cognitive/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Introducing Animocerebro An Opensource Cognitive**
-
----
-
-### 224. [How I Gave Google Antigravity A Real Longterm](https://www.reddit.com/r/google_antigravity/comments/1tbvmnb/how_i_gave_google_antigravity_a_real_longterm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How I Gave Google Antigravity A Real Longterm**
-
----
-
-### 225. [Antigravity 2 Is Probably Coming Next Week](https://www.reddit.com/r/google_antigravity/comments/1tcszhl/antigravity_2_is_probably_coming_next_week/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Antigravity 2 Is Probably Coming Next Week**
-
----
-
-### 226. [Gemma 4 Is Good](https://www.reddit.com/r/LocalLLaMA/comments/1sb73ar/gemma_4_is_good/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Gemma 4 Is Good**
-
----
-
-### 227. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47713849&n=61)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 228. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47726913&n=241)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 229. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47755938&n=31)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 230. [news.ycombinator.com](https://news.ycombinator.com/newest?next=47800067&n=61)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 231. [Spud Today](https://www.reddit.com/r/accelerate/comments/1sta2zm/spud_today/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Spud Today**
-
----
-
-### 232. [About Kimi K26](https://www.reddit.com/r/LocalLLaMA/comments/1t3ue53/about_kimi_k26/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**About Kimi K26**
-
----
-
-### 233. [news.ycombinator.com](https://news.ycombinator.com/item?id=48129694)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 234. [news.ycombinator.com](https://news.ycombinator.com/newest?next=48129091&n=91)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**news.ycombinator.com**
-
----
-
-### 235. [Goog Aint Done Yet](https://www.reddit.com/r/stocks/comments/1tc32h2/goog_aint_done_yet/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Goog Aint Done Yet**
-
----
-
-### 236. [Hacker News Discussion](https://news.ycombinator.com/item?id=47569837)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**HN: 47569837**
-
----
-
-### 237. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
+### 1134. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 47575616**
 
 ---
 
-### 238. [Hacker News Discussion](https://news.ycombinator.com/item?id=47713798)
+### 1135. [Hacker News Discussion](https://news.ycombinator.com/item?id=47961378)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**HN: 47713798**
+**HN: 47961378**
 
 ---
 
-### 239. [Algo Trading Tools](https://www.reddit.com/r/algotradingcrypto/comments/1sjhdcw/algo_trading_tools/)
+### 1136. [Hacker News Discussion](https://news.ycombinator.com/item?id=48087887)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**Algo Trading Tools**
+**HN: 48087887**
 
 ---
 
-### 240. [New Models In Ai Studio](https://www.reddit.com/r/GoogleAIStudio/comments/1szp1uj/new_models_in_ai_studio/)
+### 1137. [Claude Mythos](https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**New Models In Ai Studio**
+**Claude Mythos**
 
 ---
 
-### 241. [This Guy Was Against Vrt](https://www.reddit.com/r/vrttrading/comments/1t09eqi/this_guy_was_against_vrt/)
+### 1138. [Hacker News Discussion](https://news.ycombinator.com/item?id=48300280)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**This Guy Was Against Vrt**
+**HN: 48300280**
 
 ---
 
-### 242. [Hacker News Discussion](https://news.ycombinator.com/item?id=48101749)
+### 1139. [Hacker News Discussion](https://news.ycombinator.com/item?id=48324499)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**HN: 48101749**
+**HN: 48324499**
 
 ---
 
-### 243. [Account Suspended](https://www.reddit.com/r/Bard/comments/1sbyx23/account_suspended/#lightbox)
+### 1140. [Hacker News Discussion](https://news.ycombinator.com/item?id=48340262)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**Account Suspended**
-
----
-
-### 244. [Reddit Discussion](https://www.reddit.com/r/LangChain/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Reddit Discussion**
-
----
-
-### 245. [Notebooklm Is Trash Now](https://www.reddit.com/r/notebooklm/comments/1sgw86a/notebooklm_is_trash_now/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Notebooklm Is Trash Now**
-
----
-
-### 246. [Anyone Use Jules](https://www.reddit.com/r/google_antigravity/comments/1ssup9d/anyone_use_jules/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Anyone Use Jules**
-
----
-
-### 247. [Google Family Account](https://www.reddit.com/r/google_antigravity/comments/1sxkdas/google_family_account/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Google Family Account**
-
----
-
-### 248. [Astoutline V210](https://www.reddit.com/r/OpenSourceAI/comments/1t9fva1/astoutline_v210/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Astoutline V210**
+**HN: 48340262**
 
 ---
 
 ## Spec-Driven Development
-> 129 tools · avg signal ⚡82
+> 145 tools · avg signal ⚡78
 
 ### 1. [alainnothere/llm-circuit-finder](https://github.com/alainnothere/llm-circuit-finder)
 `9.8` ★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -2154,28 +8484,7 @@
 
 ---
 
-### 5. [jagan-shanmugam/climatiq-mcp-server](https://github.com/jagan-shanmugam/climatiq-mcp-server)
-`9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project implements a Model Context Protocol (MCP) server designed to integrate with the Climatiq API, enabling AI assistants to provide accurate, real-time carbon emission calculations and climate impact insights. It offers various tools for calculating emissions from electricity, travel, cloud computing, freight, and procurement, along with natural language explanations of these results.**
-
-**Features:**
-- set-api-key
-- electricity-emission
-- travel-emission
-- search-emission-factors
-- custom-emission-calculation
-- cloud-computing-emission
-- freight-emission
-- hotel-emission
-- travel-spend
-
-*Tags: ai, llm, climate-data, mcp, anthropic-claude, carbon-calculation, api, agent...*
-
----
-
-### 6. [thesethrose/alexa-shopping-list](https://github.com/thesethrose/alexa-shopping-list)
+### 5. [thesethrose/alexa-shopping-list](https://github.com/thesethrose/alexa-shopping-list)
 `9.5` ★★ ⚡92 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2195,7 +8504,7 @@
 
 ---
 
-### 7. [wizd/airylark-mcp-server](https://github.com/wizd/airylark-mcp-server)
+### 6. [wizd/airylark-mcp-server](https://github.com/wizd/airylark-mcp-server)
 `9.5` ★★ ⚡92 Q0.8🏆 🏆 World-class
 
 **The Airylark MCP server offers a sophisticated translation service that integrates seamlessly with large AI models like Claude and Cursor. It features a three-stage translation process (analysis, segmentation, review), domain terminology recognition, quality assessment, multi-language support, style preservation, and a comprehensive set of tools for translating technical documents, academic papers, legal files, and medical reports.**
@@ -2211,7 +8520,7 @@
 
 ---
 
-### 8. [URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server)
+### 7. [URDJMK/serpapi-mcp-server](https://github.com/URDJMK/serpapi-mcp-server)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2232,7 +8541,7 @@
 
 ---
 
-### 9. [cdgaete/token-scope-mcp](https://github.com/cdgaete/token-scope-mcp)
+### 8. [cdgaete/token-scope-mcp](https://github.com/cdgaete/token-scope-mcp)
 `9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
 
 **TokenScope is a system designed to help Large Language Models (LLMs) effectively explore and comprehend codebases by intelligently summarizing directory structures and viewing file contents while respecting token limits. It offers tools like `explore_directory` and `generate_report` to create comprehensive reports, ensuring the LLM receives useful information within defined constraints.**
@@ -2250,7 +8559,7 @@
 
 ---
 
-### 10. [just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)
+### 9. [just-every/mcp-read-website-fast](https://github.com/just-every/mcp-read-website-fast)
 `8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -2267,7 +8576,7 @@
 
 ---
 
-### 11. [mizchi/mcp-reloader](https://github.com/mizchi/mcp-reloader)
+### 10. [mizchi/mcp-reloader](https://github.com/mizchi/mcp-reloader)
 `9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2284,24 +8593,7 @@
 
 ---
 
-### 12. [The-Pocket/PocketFlow-Tutorial-Cursor](https://github.com/The-Pocket/PocketFlow-Tutorial-Cursor/blob/main/blog.md)
-`8.0` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The resource describes building an AI coding agent within the Cursor editor environment using Pocket Flow, a minimalist 100-line LLM framework for agentic development. The architecture is structured around a Directed Acyclic Graph (DAG) where distinct 'Nodes' handle specific tasks like decision-making (MainDecisionAgent), file operations (ReadFileAction, EditFileNode), and code analysis. The workflow begins with the `MainDecisionAgent`, which uses an LLM prompt to select an action (tool) from av...**
-
-**Features:**
-- Flow-based architecture
-- LLM-driven decision making
-- Agent state management via shared store
-- Modular node design for specific actions (read/write/search)
-- History tracking for context.
-
-*Tags: pocketflow, llm-framework, agent-architecture, node-based, decision-making, workflow-orchestration, ai-coding-agent, stateful-agent...*
-
----
-
-### 13. [Alpha Arena | AI Trading Benchmark](https://nof1.ai)
+### 11. [Alpha Arena | AI Trading Benchmark](https://nof1.ai)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **Nof1.ai advocates for training advanced AI models using real-world financial markets rather than traditional games (like DeepMind's approach). They position financial markets as the 'ultimate world-modeling engine' and a continually adapting benchmark. The platform hosts competitions (like Season 1.5) where AI agents trade, creating their own training data through open-ended learning and large-scale Reinforcement Learning (RL) to handle market complexity. While the current competition has ended,...**
@@ -2317,7 +8609,7 @@
 
 ---
 
-### 14. [dawdle-deer/awesome-learn-gamedev](https://github.com/dawdle-deer/awesome-learn-gamedev)
+### 12. [dawdle-deer/awesome-learn-gamedev](https://github.com/dawdle-deer/awesome-learn-gamedev)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 
 **This repository provides a comprehensive list of resources aimed at helping individuals learn the craft of game development. It covers various disciplines, including general programming, gameplay mechanics, graphics, networking, art, design, and business aspects. The curation highlights essential knowledge, tutorials, tools, and career advice.**
@@ -2340,7 +8632,7 @@
 
 ---
 
-### 15. [Symbitic/awesome-babylonjs](https://github.com/Symbitic/awesome-babylonjs)
+### 13. [Symbitic/awesome-babylonjs](https://github.com/Symbitic/awesome-babylonjs)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2369,26 +8661,7 @@
 
 ---
 
-### 16. [vlm-run/vlmrun-cookbook](https://github.com/vlm-run/vlmrun-cookbook)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**This repository hosts practical examples and tutorials for extracting structured data from images, videos, and documents using Vision Language Models (VLMs). It provides a comprehensive collection of Colab notebooks demonstrating real-world applications of VLM Run, covering various domains like financial documents, TV news analysis, fashion catalogs, and more.**
-
-**Features:**
-- Practical Examples
-- Ready-to-Use
-- Domain-Specific Applications
-- Cookbook Notebooks (covering features like Schema Showcase
-- Visual Grounding
-- Long-form Video Transcription
-- and Document Markdown Extraction).
-
-*Tags: ['vlm-run', 'vision-language-models', 'ai', 'llm', 'image-understanding', 'video-processing', 'ocr', 'rag'...*
-
----
-
-### 17. [illuminaresolutions/n8n-mcp-server](https://github.com/illuminaresolutions/n8n-mcp-server)
+### 14. [illuminaresolutions/n8n-mcp-server](https://github.com/illuminaresolutions/n8n-mcp-server)
 `9.2` ★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2405,7 +8678,7 @@
 
 ---
 
-### 18. [dicklesworthstone/ultimate_mcp_server](https://github.com/dicklesworthstone/ultimate_mcp_server)
+### 15. [dicklesworthstone/ultimate_mcp_server](https://github.com/dicklesworthstone/ultimate_mcp_server)
 `9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **The project centers around the "Ultimate MCP Server," which acts as an operating system for AI agents, offering powerful capabilities through the Model Context Protocol. It demonstrates how to unify LLM orchestration, task delegation, and access to specialized tools within a cohesive agent ecosystem.**
@@ -2421,7 +8694,7 @@
 
 ---
 
-### 19. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)
+### 16. [turlockmike/mcp-rand](https://github.com/turlockmike/mcp-rand)
 `8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2438,7 +8711,7 @@
 
 ---
 
-### 20. [FronkonGames/Awesome-Gamedev](https://github.com/FronkonGames/Awesome-Gamedev)
+### 17. [FronkonGames/Awesome-Gamedev](https://github.com/FronkonGames/Awesome-Gamedev)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2457,7 +8730,7 @@
 
 ---
 
-### 21. [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)
+### 18. [yuna0x0/anilist-mcp](https://github.com/yuna0x0/anilist-mcp)
 `9.6` ★★ ⚡89 Q0.7🏆 🏆 World-class
 ↗3 layers
 
@@ -2480,7 +8753,7 @@
 
 ---
 
-### 22. [serverless-dna/mkdocs-mcp](https://github.com/serverless-dna/mkdocs-mcp)
+### 19. [serverless-dna/mkdocs-mcp](https://github.com/serverless-dna/mkdocs-mcp)
 `8.5` ★ ⚡89 Q0.8🏆 🏆 World-class
 
 **The project implements a Model Context Protocol (MCP) server designed to integrate with Large Language Models by providing efficient search capabilities over any published MkDocs documentation site using the Lunr.js search engine. It offers features like version-specific searching, automatic URL resolution, and intelligent caching for both search indexes and converted documentation, which is essential for LLMs interacting with structured knowledge bases.**
@@ -2496,7 +8769,7 @@
 
 ---
 
-### 23. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)
+### 20. [smithery-ai/smithery-cookbook](https://github.com/smithery-ai/smithery-cookbook)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2513,7 +8786,7 @@
 
 ---
 
-### 24. [noveum/api-market-mcp-server](https://github.com/noveum/api-market-mcp-server)
+### 21. [noveum/api-market-mcp-server](https://github.com/noveum/api-market-mcp-server)
 `9.5` ★★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2530,7 +8803,7 @@
 
 ---
 
-### 25. [mitchybawesome/sar-mcp](https://github.com/mitchybawesome/sar-mcp)
+### 22. [mitchybawesome/sar-mcp](https://github.com/mitchybawesome/sar-mcp)
 `8.2` ★ ⚡88 Q0.8🏆 🏆 World-class
 
 **The repository contains a Python script (`aws_service_reference.py`) designed to serve as a server for interacting with the AWS Programmatic Service Reference. This tool allows users to easily list available AWS services, retrieve specific API actions for those services, determine supported condition keys, identify resource types, and inspect action properties (like write or list capabilities). It is an excellent example of how to bridge developer workflows with cloud infrastructure tools.**
@@ -2546,7 +8819,7 @@
 
 ---
 
-### 26. [weirdbrains/onesignal-mcp](https://github.com/weirdbrains/onesignal-mcp)
+### 23. [weirdbrains/onesignal-mcp](https://github.com/weirdbrains/onesignal-mcp)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 
 **The project provides a Model Context Protocol (MCP) server that acts as an interface for managing all aspects of the OneSignal ecosystem. It offers powerful features like multi-channel messaging, complete CRUD operations for users and devices, template management, and organization-level operations, demonstrating a strong focus on context and interoperability between different systems.**
@@ -2562,7 +8835,7 @@
 
 ---
 
-### 27. [rayanzaki/mcp-google-contacts-server](https://github.com/rayanzaki/mcp-google-contacts-server)
+### 24. [rayanzaki/mcp-google-contacts-server](https://github.com/rayanzaki/mcp-google-contacts-server)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 
 **This repository defines an MCP (Machine Conversation Protocol) server that bridges the gap between AI agents and Google's ecosystem, specifically focusing on managing Google Contacts and Google Workspace users. The project provides a structured way for AI assistants to interact with, list, search, create, update, and delete contacts, as well as view other people within the organization's directory.**
@@ -2580,7 +8853,7 @@
 
 ---
 
-### 28. [tecton-ai/tecton-mcp](https://github.com/tecton-ai/tecton-mcp)
+### 25. [tecton-ai/tecton-mcp](https://github.com/tecton-ai/tecton-mcp)
 `9.2` ★★ ⚡88 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -2597,7 +8870,7 @@
 
 ---
 
-### 29. [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart)
+### 26. [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2618,7 +8891,7 @@
 
 ---
 
-### 30. [121yaseen/zerodha-mcp](https://github.com/121yaseen/zerodha-mcp)
+### 27. [121yaseen/zerodha-mcp](https://github.com/121yaseen/zerodha-mcp)
 `8.5` ★ ⚡88 Q0.8🏆 🏆 World-class
 
 **The project serves as an example of how to build a backend service that acts as a bridge between a modern application layer and a financial API, specifically the Zerodha Kite platform. It demonstrates the necessary steps for authentication and token generation required to perform trading operations like buying/selling stocks or fetching user holdings within the context of a Model Context Protocol (MCP).**
@@ -2635,7 +8908,7 @@
 
 ---
 
-### 31. [stevereiner/python-alfresco-mcp-server](https://github.com/stevereiner/python-alfresco-mcp-server)
+### 28. [stevereiner/python-alfresco-mcp-server](https://github.com/stevereiner/python-alfresco-mcp-server)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2654,7 +8927,7 @@
 
 ---
 
-### 32. [ChoiceCoin/Voting](https://github.com/ChoiceCoin/Voting)
+### 29. [ChoiceCoin/Voting](https://github.com/ChoiceCoin/Voting)
 `8.0` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2673,7 +8946,7 @@
 
 ---
 
-### 33. [JingyeChen/awesome-game-generation](https://github.com/JingyeChen/awesome-game-generation)
+### 30. [JingyeChen/awesome-game-generation](https://github.com/JingyeChen/awesome-game-generation)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **This repository provides a comprehensive collection of research papers, blogs, games, demos, and other relevant materials to explore cutting-edge techniques for AI-driven game generation. It includes various types of content like academic papers, blog posts, game demos, and technical writeups.**
@@ -2690,7 +8963,7 @@
 
 ---
 
-### 34. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)
+### 31. [openlinksoftware/mcp-jdbc-server](https://github.com/openlinksoftware/mcp-jdbc-server)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2707,7 +8980,7 @@
 
 ---
 
-### 35. [sapientpants/deepsource-mcp-server](https://github.com/sapientpants/deepsource-mcp-server)
+### 32. [sapientpants/deepsource-mcp-server](https://github.com/sapientpants/deepsource-mcp-server)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2725,7 +8998,7 @@
 
 ---
 
-### 36. [zekker6/mcp-helm](https://github.com/zekker6/mcp-helm)
+### 33. [zekker6/mcp-helm](https://github.com/zekker6/mcp-helm)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2742,7 +9015,7 @@
 
 ---
 
-### 37. [archai-labs/fastmcp-sonarqube-metrics](https://github.com/archai-labs/fastmcp-sonarqube-metrics)
+### 34. [archai-labs/fastmcp-sonarqube-metrics](https://github.com/archai-labs/fastmcp-sonarqube-metrics)
 `8.2` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2760,7 +9033,7 @@
 
 ---
 
-### 38. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)
+### 35. [mehmetakinn/gitlab-mcp-code-review](https://github.com/mehmetakinn/gitlab-mcp-code-review)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2777,7 +9050,7 @@
 
 ---
 
-### 39. [astromined/pygithub-mcp-server](https://github.com/astromined/pygithub-mcp-server)
+### 36. [astromined/pygithub-mcp-server](https://github.com/astromined/pygithub-mcp-server)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The project implements a Model Context Protocol server using PyGithub to provide tools for interacting with the GitHub API, specifically focusing on managing issues, repositories, and pull requests. It offers a modular tool architecture for flexible configuration, comprehensive issue management capabilities, and robust implementation for GitHub interactions.**
@@ -2793,7 +9066,7 @@
 
 ---
 
-### 40. [watchdealer-pavel/deepl-mcp-server](https://github.com/watchdealer-pavel/deepl-mcp-server)
+### 37. [watchdealer-pavel/deepl-mcp-server](https://github.com/watchdealer-pavel/deepl-mcp-server)
 `8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2811,7 +9084,7 @@
 
 ---
 
-### 41. [NASA unveils Space Reactor-1 Freedom mission to Mars in 2028 - NASASpaceFlight.com](https://www.nasaspaceflight.com/2026/03/nasa-sr1-freedom-mars-2028)
+### 38. [NASA unveils Space Reactor-1 Freedom mission to Mars in 2028 - NASASpaceFlight.com](https://www.nasaspaceflight.com/2026/03/nasa-sr1-freedom-mars-2028)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The document provides a comprehensive overview of NASA's upcoming Freedom mission to Mars, highlighting key technical details such as launch vehicles (Falcon 9), cargo ship (CRS NG-24), and crew missions. It covers international collaboration with China's new launchers, orbital servicing tests, and the Artemis II lunar flyby. The content emphasizes strategic advancements in space exploration, including reusable rockets, international partnerships, and scientific objectives for future human prese...**
@@ -2828,25 +9101,7 @@
 
 ---
 
-### 42. [ravenwits/mcp-server-arangodb](https://github.com/ravenwits/mcp-server-arangodb)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The project implements an MCP (Model Context Protocol) server that acts as a bridge between the developer tools ecosystem (like VSCode/Copilot) and the ArangoDB database. It provides specific tools for executing queries, inserting documents, updating records, and managing collections within ArangoDB, which is crucial for agent orchestration and context engineering.**
-
-**Features:**
-- arango_query
-- arango_insert
-- arango_update
-- arango_remove
-- arango_backup
-- arango_list_collections
-
-*Tags: ai, claude, mcp-server, arango, typescript, vscode, agent, database...*
-
----
-
-### 43. [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science/blob/main/README.md)
+### 39. [bobeff/programming-math-science](https://github.com/bobeff/programming-math-science/blob/main/README.md)
 `8.0` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **This resource provides a curated collection of links to various free learning resources covering computer programming, mathematics, and science. It offers diverse topics ranging from foundational concepts (like basic programming languages and algorithms) to more advanced areas (like AI, graphics, network programming, and theoretical computer science).**
@@ -2864,7 +9119,7 @@
 
 ---
 
-### 44. [bytecauldron/awesome-gamemaker](https://github.com/bytecauldron/awesome-gamemaker)
+### 40. [bytecauldron/awesome-gamemaker](https://github.com/bytecauldron/awesome-gamemaker)
 `8.0` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **GameMaker is a user-friendly, cross-platform game engine by YoYo Games that allows both beginner and advanced game developers to create 2D and 3D games for desktop, HTML5, and console platforms. The resource provides a comprehensive introduction to the IDE, tutorials, recommendations for learning GML, and specific technical insights into GameMaker's capabilities.**
@@ -2882,7 +9137,7 @@
 
 ---
 
-### 45. [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training | Hacker News](https://news.ycombinator.com/item?id=47431671)
+### 41. [Show HN: Duplicate 3 layers in a 24B LLM, logical deduction .22→.76. No training | Hacker News](https://news.ycombinator.com/item?id=47431671)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2899,7 +9154,7 @@
 
 ---
 
-### 46. [Apple picks Gemini to power Siri | Hacker News](https://news.ycombinator.com/item?id=46589675)
+### 42. [Apple picks Gemini to power Siri | Hacker News](https://news.ycombinator.com/item?id=46589675)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2916,7 +9171,7 @@
 
 ---
 
-### 47. [EvolutionAPI/BMAD-METHOD-BY-EVOLUTION](https://github.com/EvolutionAPI/BMAD-METHOD-BY-EVOLUTION)
+### 43. [EvolutionAPI/BMAD-METHOD-BY-EVOLUTION](https://github.com/EvolutionAPI/BMAD-METHOD-BY-EVOLUTION)
 `9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
 ↗3 layers
 
@@ -2935,7 +9190,7 @@
 
 ---
 
-### 48. [rt96-hub/prompt-tester](https://github.com/rt96-hub/prompt-tester)
+### 44. [rt96-hub/prompt-tester](https://github.com/rt96-hub/prompt-tester)
 `9.2` ★★ ⚡86 Q0.7🏆 🏆 World-class
 ↗2 layers
 
@@ -2951,7 +9206,7 @@
 
 ---
 
-### 49. [urldna/mcp](https://github.com/urldna/mcp)
+### 45. [urldna/mcp](https://github.com/urldna/mcp)
 `8.5` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2970,7 +9225,7 @@
 
 ---
 
-### 50. [nbiish/mcp-calc-tools](https://github.com/nbiish/mcp-calc-tools)
+### 46. [nbiish/mcp-calc-tools](https://github.com/nbiish/mcp-calc-tools)
 `8.6` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The project, "mcp-calc-tools," offers specialized tools for AI agents (like Claude Code or Cursor) by exposing advanced mathematical concepts—including calculus, linear algebra, finance, probability, and engineering—through a structured protocol. It focuses on providing reliable, safe evaluation capabilities for agent workflows.**
@@ -2986,7 +9241,7 @@
 
 ---
 
-### 51. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)
+### 47. [mfydev/ghost-mcp](https://github.com/mfydev/ghost-mcp)
 `9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
 ↗2 layers
 
@@ -3003,7 +9258,7 @@
 
 ---
 
-### 52. [zazencodes/random-number-mcp](https://github.com/zazencodes/random-number-mcp)
+### 48. [zazencodes/random-number-mcp](https://github.com/zazencodes/random-number-mcp)
 `9.5` ★★ ⚡86 Q0.7🏆 🏆 World-class
 ↗2 layers
 
@@ -3018,7 +9273,7 @@
 
 ---
 
-### 53. [blake365/macrostrat-mcp](https://github.com/blake365/macrostrat-mcp)
+### 49. [blake365/macrostrat-mcp](https://github.com/blake365/macrostrat-mcp)
 `8.0` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The repository provides an MCP server implementation designed to enable AI assistants and applications to interact with the Macrostrat API, enabling them to query comprehensive geologic data, access specific geologic units, and analyze geological information. This system allows LLMs to perform queries using natural language, resulting in actionable insights for geological understanding and data analysis.**
@@ -3035,7 +9290,7 @@
 
 ---
 
-### 54. [I Traced My Traffic Through a Home Tailscale Exit Node](https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes)
+### 50. [I Traced My Traffic Through a Home Tailscale Exit Node](https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3052,7 +9307,7 @@
 
 ---
 
-### 55. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)
+### 51. [kashuncheng/dap_mcp](https://github.com/kashuncheng/dap_mcp)
 `8.2` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3069,7 +9324,7 @@
 
 ---
 
-### 56. [opentofu/opentofu-mcp-server](https://github.com/opentofu/opentofu-mcp-server)
+### 52. [opentofu/opentofu-mcp-server](https://github.com/opentofu/opentofu-mcp-server)
 `8.0` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3088,7 +9343,7 @@
 
 ---
 
-### 57. [openlinksoftware/mcp-sqlalchemy-server](https://github.com/openlinksoftware/mcp-sqlalchemy-server)
+### 53. [openlinksoftware/mcp-sqlalchemy-server](https://github.com/openlinksoftware/mcp-sqlalchemy-server)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **The repository provides a solution for building a Model Context Protocol server, specifically designed for ODBC connectivity using SQLAlchemy. It offers features like fetching schemas, retrieving table information, executing stored procedures, and querying data in optimized JSONL or Markdown formats. The setup includes necessary configuration for ODBC drivers and environment variables to define the connection details for various DBMS backends.**
@@ -3102,23 +9357,7 @@
 
 ---
 
-### 58. [omniwaifu/pydantic-ai-docs-server](https://github.com/omniwaifu/pydantic-ai-docs-server)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The Pydantic AI Documentation Server functions as a Model Context Protocol (MCP) server, offering programmatic access to the Pydantic AI documentation, including cloning/updating the repository, retrieving specific documents, listing topics, and accessing changelog information. It serves as a crucial tool for developers to interact with and keep the latest version of the Pydantic AI documentation up-to-date.**
-
-**Features:**
-- update_documentation
-- get_document_by_path
-- list_topics
-- list_available_changelogs()
-
-*Tags: pydantic-ai, mcp, model-context-protocol, documentation-server, ai-agents, developer-workflow, tooling*
-
----
-
-### 59. [ggerve/coding-standards-mcp](https://github.com/ggerve/coding-standards-mcp)
+### 54. [ggerve/coding-standards-mcp](https://github.com/ggerve/coding-standards-mcp)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3134,7 +9373,7 @@
 
 ---
 
-### 60. [kordless/gnosis-evolve](https://github.com/kordless/gnosis-evolve)
+### 55. [kordless/gnosis-evolve](https://github.com/kordless/gnosis-evolve)
 `9.6` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3148,7 +9387,7 @@
 
 ---
 
-### 61. [makeplane/plane-mcp-server](https://github.com/makeplane/plane-mcp-server)
+### 56. [makeplane/plane-mcp-server](https://github.com/makeplane/plane-mcp-server)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **The repository describes "plane-mcp-server," which is a crucial component for integrating Plane services into AI workflows. It outlines different transport methods—stdio, SSE, and HTTP—and provides configuration examples for connecting to the Plane API using various authentication mechanisms (OAuth or PAT tokens). This highlights the role of this server in enabling agent orchestration and context engineering within the AI ecosystem.**
@@ -3163,7 +9402,7 @@
 
 ---
 
-### 62. [marcusbai/caiyun-weather-mcp](https://github.com/marcusbai/caiyun-weather-mcp)
+### 57. [marcusbai/caiyun-weather-mcp](https://github.com/marcusbai/caiyun-weather-mcp)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3178,7 +9417,7 @@
 
 ---
 
-### 63. [garoth/sendgrid-mcp](https://github.com/garoth/sendgrid-mcp)
+### 58. [garoth/sendgrid-mcp](https://github.com/garoth/sendgrid-mcp)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **The project is a specialized server designed to bridge the gap between modern agent workflows and the SendGrid platform, enabling sophisticated contact management and email sending operations. It demonstrates how an agent can interact with SendGrid's v3 APIs to perform tasks like adding contacts, managing lists, and sending emails, showcasing a practical application of agent orchestration for marketing automation.**
@@ -3193,7 +9432,7 @@
 
 ---
 
-### 64. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)
+### 59. [alex-llm/attAck-mcp-server](https://github.com/alex-llm/attAck-mcp-server)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 ↗4 layers
 
@@ -3211,7 +9450,7 @@
 
 ---
 
-### 65. [netlify/netlify-mcp](https://github.com/netlify/netlify-mcp)
+### 60. [netlify/netlify-mcp](https://github.com/netlify/netlify-mcp)
 `8.6` ★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **The Netlify MCP Server acts as a bridge, providing API access, CLI tools, and prompts for AI agents to create new projects, build, deploy, and manage Netlify resources. This protocol allows various code agents (like Windsurf, Cursor, Claude, Copilot) to perform actions like creating projects, modifying security settings, installing extensions, and managing environment variables within the Netlify ecosystem.**
@@ -3226,7 +9465,7 @@
 
 ---
 
-### 66. [Gemini 3 Deep Think | Hacker News](https://news.ycombinator.com/item?id=46991240)
+### 61. [Gemini 3 Deep Think | Hacker News](https://news.ycombinator.com/item?id=46991240)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3244,7 +9483,7 @@
 
 ---
 
-### 67. [wujood/awesome-gamejam](https://github.com/wujood/awesome-gamejam)
+### 62. [wujood/awesome-gamejam](https://github.com/wujood/awesome-gamejam)
 `8.0` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **This repository provides a helpful list of links and resources covering various aspects of game jams and game development. It highlights tools, engines, frameworks, and concepts essential for creating games, ranging from 2D/3D graphics to audio, sound effects, and engine implementation.**
@@ -3268,7 +9507,7 @@
 
 ---
 
-### 68. [keystone-titles-as-gravity-wells-clustering-hundreds-of-variants-loop-proofing-ai-writing-71f2ca158acb](https://lightcapai.medium.com/keystone-titles-as-gravity-wells-clustering-hundreds-of-variants-loop-proofing-ai-writing-71f2ca158acb)
+### 63. [keystone-titles-as-gravity-wells-clustering-hundreds-of-variants-loop-proofing-ai-writing-71f2ca158acb](https://lightcapai.medium.com/keystone-titles-as-gravity-wells-clustering-hundreds-of-variants-loop-proofing-ai-writing-71f2ca158acb)
 `10.0` ★★★ ⚡83 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3284,7 +9523,7 @@
 
 ---
 
-### 69. [focussearch/focus_mcp_sql](https://github.com/focussearch/focus_mcp_sql)
+### 64. [focussearch/focus_mcp_sql](https://github.com/focussearch/focus_mcp_sql)
 `8.5` ★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **The project introduces `focus_mcp_sql`, a solution designed to bridge the gap between natural language understanding and accurate SQL generation, specifically addressing the hallucination risks inherent in standard LLM-based Text-to-SQL frameworks. It provides a comparison table highlighting how this two-step process offers better control over generated SQL results for non-technical users.**
@@ -3298,7 +9537,7 @@
 
 ---
 
-### 70. [24mlight/a-share-mcp-is-just-i-need](https://github.com/24mlight/a-share-mcp-is-just-i-need)
+### 65. [24mlight/a-share-mcp-is-just-i-need](https://github.com/24mlight/a-share-mcp-is-just-i-need)
 `8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3313,7 +9552,7 @@
 
 ---
 
-### 71. [pmmvr/obsidian-api-mcp-server](https://github.com/pmmvr/obsidian-api-mcp-server)
+### 66. [pmmvr/obsidian-api-mcp-server](https://github.com/pmmvr/obsidian-api-mcp-server)
 `9.6` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **The tool transforms your Obsidian vault into a powerful knowledge base for AI agents, enabling complex multi-step workflows like retrieving notes based on specific criteria or analyzing content for actionable insights. It offers advanced filtering, regex support, and full content retrieval capabilities to facilitate nuanced knowledge work for AI agents.**
@@ -3326,22 +9565,7 @@
 
 ---
 
-### 72. [tacticlaunch/mcp-linear](https://github.com/tacticlaunch/mcp-linear)
-`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The repository introduces "MCP Linear," a solution that implements the MCP protocol to connect AI agents with Linear's GraphQL API, enabling powerful interactions for issue management, project organization, and document handling. It provides specific prompts and resources for interacting with Linear data, such as retrieving issues, updating statuses, and summarizing project states.**
-
-**Features:**
-- MCP Protocol Implementation
-- Linear GraphQL API Integration
-- AI Agent Workflow Bridging
-- Project Management CRUD Operations
-- Contextual Resource Retrieval
-
----
-
-### 73. [bigsy/maven-mcp-server](https://github.com/bigsy/maven-mcp-server)
+### 67. [bigsy/maven-mcp-server](https://github.com/bigsy/maven-mcp-server)
 `8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3356,7 +9580,7 @@
 
 ---
 
-### 74. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)
+### 68. [nattyraz/youtube-mcp](https://github.com/nattyraz/youtube-mcp)
 `8.5` ★ ⚡83 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3372,7 +9596,7 @@
 
 ---
 
-### 75. [seeyangzhi/heroicons-mcp](https://github.com/seeyangzhi/heroicons-mcp)
+### 69. [seeyangzhi/heroicons-mcp](https://github.com/seeyangzhi/heroicons-mcp)
 `8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **The project provides a standard for AI tools to request specific context from sources outside their main training data, specifically by exposing Heroicons as MCP resources. It allows AI coding assistants and agentic applications to access information about Heroicons, enabling better assistance and icon search capabilities within the broader ecosystem.**
@@ -3387,7 +9611,7 @@
 
 ---
 
-### 76. [yuezheng2006/mcp-server-jira](https://github.com/yuezheng2006/mcp-server-jira)
+### 70. [yuezheng2006/mcp-server-jira](https://github.com/yuezheng2006/mcp-server-jira)
 `8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3402,7 +9626,7 @@
 
 ---
 
-### 77. [Generations of Adam - Wikipedia](https://en.wikipedia.org/wiki/Generations_of_Adam)
+### 71. [Generations of Adam - Wikipedia](https://en.wikipedia.org/wiki/Generations_of_Adam)
 `8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3419,7 +9643,7 @@
 
 ---
 
-### 78. [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)
+### 72. [cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)
 `8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3434,7 +9658,7 @@
 
 ---
 
-### 79. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)
+### 73. [christophenglisch/keycloak-model-context-protocol](https://github.com/christophenglisch/keycloak-model-context-protocol)
 `8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3452,7 +9676,7 @@
 
 ---
 
-### 80. [ejb503/systemprompt-mcp-core](https://github.com/ejb503/systemprompt-mcp-core)
+### 74. [ejb503/systemprompt-mcp-core](https://github.com/ejb503/systemprompt-mcp-core)
 `8.6` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The repository provides a core component for an MCP server, which enables users to create, manage, and extend AI agents through a powerful prompt and tool management system. It integrates with `systemprompt.io` to provide seamless creation, management, and versioning of system prompts via the MCP protocol.**
@@ -3467,7 +9691,7 @@
 
 ---
 
-### 81. [I tried to prove I'm not AI. My aunt wasn't convinced | Hacker News](https://news.ycombinator.com/item?id=47515502)
+### 75. [I tried to prove I'm not AI. My aunt wasn't convinced | Hacker News](https://news.ycombinator.com/item?id=47515502)
 `8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3484,26 +9708,7 @@
 
 ---
 
-### 82. [Knowledge Commons | Image MCP](https://image-mcp.com/posts)
-`9.0` ★★ ⚡81 Q0.8⭐ ⭐ Excellent
-↗4 layers
-
-**This resource provides a showcase of various AI image generation techniques, prompt recipes, model comparisons, and workflow efficiencies. It highlights the power of specialized tools (like Nano Banana Pro) for creating consistent visual styles across different subjects, along with agent-driven analysis and model discovery workflows.**
-
-**Features:**
-- ['Mid-Century Noir Screenprint Style Consistency Prompting'
-- '6-Part Formula for Production-Ready Images (Subject + Scene + Composition + Lighting + Style + Constraints)'
-- 'Nano Banana Pro capabilities (blending familiar with cosmic elements).'
-- "AI Model Discovery Workflow (fal_list_models) to solve the '50 Hours Troubleshooting' problem."
-- 'Agent-Driven Analysis vs Specialized MCP for Architecture Diagrams.'
-- "Model Comparison Showdown results
-- highlighting Nano Banana's speed advantage."]
-
-*Tags: ['ai-agents', 'prompt-engineering', 'image-generation', 'workflow-optimization', 'model-discovery', 'consistency-check', 'nano-banana-pro', 'ai-showdown'...*
-
----
-
-### 83. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)
+### 76. [gongrzhe/office-powerpoint-mcp-server](https://github.com/gongrzhe/office-powerpoint-mcp-server)
 `8.5` ★ ⚡81 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3517,7 +9722,7 @@
 
 ---
 
-### 84. [hannesj/mcp-antd-components](https://github.com/hannesj/mcp-antd-components)
+### 77. [hannesj/mcp-antd-components](https://github.com/hannesj/mcp-antd-components)
 `8.6` ★ ⚡81 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3532,23 +9737,7 @@
 
 ---
 
-### 85. [zym9863/pixabay-mcp](https://github.com/zym9863/pixabay-mcp)
-`8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The project implements a Model Context Protocol (MCP) server designed to expose Pixabay search capabilities to AI assistants or agents safely and reliably. It focuses on providing robust tools for searching images and videos while ensuring the results are structured, validating inputs, and logging errors without exposing sensitive keys.**
-
-**Features:**
-- Image & video search tools (Pixabay official API)
-- Runtime argument validation (enums
-- ranges
-- semantic checks)
-- Consistent error logging without leaking sensitive keys
-- Planned structured JSON payloads for easier downstream automation
-
----
-
-### 86. [yanchick/awesome-GoBadukWeiqi](https://github.com/yanchick/awesome-GoBadukWeiqi)
+### 78. [yanchick/awesome-GoBadukWeiqi](https://github.com/yanchick/awesome-GoBadukWeiqi)
 `7.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3568,7 +9757,7 @@
 
 ---
 
-### 87. [AI coding is gambling | Hacker News](https://news.ycombinator.com/item?id=47428541)
+### 79. [AI coding is gambling | Hacker News](https://news.ycombinator.com/item?id=47428541)
 `8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -3584,7 +9773,7 @@
 
 ---
 
-### 88. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)
+### 80. [apache/iotdb-mcp-server](https://github.com/apache/iotdb-mcp-server)
 `8.6` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3599,7 +9788,7 @@
 
 ---
 
-### 89. [taida957789/ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin)
+### 81. [taida957789/ida-mcp-server-plugin](https://github.com/taida957789/ida-mcp-server-plugin)
 `8.0` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **The IDA Pro MCP Server acts as a crucial interface layer, allowing AI agents like Claude or VSCode to interact with the binary file by querying specific data, disassembly, and function details within IDA Pro. It provides tools for retrieving byte data, decompiled pseudocode, segment information, and more, making it an essential tool for AI-driven binary analysis workflows.**
@@ -3613,7 +9802,7 @@
 
 ---
 
-### 90. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)
+### 82. [parassolanki/jira-mcp-server](https://github.com/parassolanki/jira-mcp-server)
 `8.6` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3629,7 +9818,7 @@
 
 ---
 
-### 91. [adspower/local-api-mcp-typescript](https://github.com/adspower/local-api-mcp-typescript)
+### 83. [adspower/local-api-mcp-typescript](https://github.com/adspower/local-api-mcp-typescript)
 `8.0` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **The repository showcases a complete solution for leveraging the AdsPower client, which acts as a powerful agent layer to interact with various LLM capabilities. It demonstrates how to deploy this agent using CLI tools and integrate it into development workflows via specific MCP (Micro-Control Plane) configurations for tools like Claude Code/Codex.**
@@ -3643,7 +9832,7 @@
 
 ---
 
-### 92. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)
+### 84. [qpd-v/mcp-guide](https://github.com/qpd-v/mcp-guide)
 `8.2` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3659,7 +9848,7 @@
 
 ---
 
-### 93. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)
+### 85. [yuniko-software/minecraft-mcp-server](https://github.com/yuniko-software/minecraft-mcp-server)
 `8.2` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3674,7 +9863,24 @@
 
 ---
 
-### 94. [LLMs: Fine-tuning, distillation, and prompt engineering  |  Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course/llm/tuning)
+### 86. [simonwillison.net/2026/Apr/23/gpt-5-5/](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
+`8.8` ★ ⚡80 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This resource details the implementation of a specialized interface that connects GPT-5.5 to Codex's semi-official backdoor API, allowing developers to leverage existing AI subscriptions without direct integration with OpenAI's infrastructure. It highlights the technical steps for installing and using the plugin, performance comparisons between GPT-5.4 and GPT-5.5, pricing models, and user experiences, emphasizing workflow efficiency and cost considerations.**
+
+**Features:**
+- Installation of Codex CLI
+- Integration with OpenAI API
+- Automated prompt generation
+- Support for existing LLM features
+- Cost comparison between GPT-5.4 and GPT-5.5
+
+*Tags: ai, codex, gpt, api, llm, workflow, integration, pricing...*
+
+---
+
+### 87. [LLMs: Fine-tuning, distillation, and prompt engineering  |  Machine Learning  |  Google for Developers](https://developers.google.com/machine-learning/crash-course/llm/tuning)
 `7.8` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗6 layers
 
@@ -3691,7 +9897,7 @@
 
 ---
 
-### 95. [Have Large Language Models Learned to Reason? A Characterization via 3-SAT Phase Transition](https://arxiv.org/abs/2504.03930)
+### 88. [Have Large Language Models Learned to Reason? A Characterization via 3-SAT Phase Transition](https://arxiv.org/abs/2504.03930)
 `8.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3708,7 +9914,7 @@
 
 ---
 
-### 96. [grandmastr/chronos-mcp](https://github.com/grandmastr/chronos-mcp)
+### 89. [grandmastr/chronos-mcp](https://github.com/grandmastr/chronos-mcp)
 `8.6` ★ ⚡79 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3722,7 +9928,7 @@
 
 ---
 
-### 97. [foxfire667/ChartingHub](https://github.com/foxfire667/ChartingHub)
+### 90. [foxfire667/ChartingHub](https://github.com/foxfire667/ChartingHub)
 `7.7` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3737,7 +9943,7 @@
 
 ---
 
-### 98. [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)
+### 91. [hannesrudolph/imessage-query-fastmcp-mcp-server](https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server)
 `8.2` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **The project provides an MCP server that acts as a bridge between LLMs and the local macOS iMessage database, enabling them to perform queries on message history, retrieve specific details like text and attachments, while ensuring proper phone number validation. It is built with the FastMCP framework and leverages the `imessagedb` library for robust interaction with the Apple ecosystem.**
@@ -3750,7 +9956,7 @@
 
 ---
 
-### 99. [misterboe/strapi-mcp-server](https://github.com/misterboe/strapi-mcp-server)
+### 92. [misterboe/strapi-mcp-server](https://github.com/misterboe/strapi-mcp-server)
 `8.6` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3764,7 +9970,7 @@
 
 ---
 
-### 100. [AI Chat Playground - Compare AI Models Side by Side | OpenRouter](https://openrouter.ai/chat?room=orc-1774660875-JFLOO96pdyZmHMhTf8IM)
+### 93. [AI Chat Playground - Compare AI Models Side by Side | OpenRouter](https://openrouter.ai/chat?room=orc-1774660875-JFLOO96pdyZmHMhTf8IM)
 `8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 ↗4 layers
 
@@ -3781,7 +9987,7 @@
 
 ---
 
-### 101. [manascb1344/together-mcp-server](https://github.com/manascb1344/together-mcp-server)
+### 94. [manascb1344/together-mcp-server](https://github.com/manascb1344/together-mcp-server)
 `8.0` ★ ⚡77 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3795,24 +10001,7 @@
 
 ---
 
-### 102. [smartyme-g135-ngr&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM](https://start.smartymeapp.com/smartyme-g135-ngr&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM)
-`8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This resource outlines a sophisticated digital advertising strategy focused on precise audience targeting through the use of UTM parameters, ad set management, and device-specific tracking. It emphasizes the integration of multiple platforms and devices to ensure seamless user experiences and efficient campaign performance.**
-
-**Features:**
-- UTM parameter analysis
-- ad set configuration
-- device tracking
-- interest-based targeting
-- multi-platform integration
-
-*Tags: smart-ad-campaigns, utm-parameters, audience-targeting, campaign-analytics, digital-marketing, device-tracking, ad-optimization, campaign-management...*
-
----
-
-### 103. [to_anyone_saying_deepseek_v4_pro_is_better_than](https://www.reddit.com/r/DeepSeek/comments/1t3ycsq/to_anyone_saying_deepseek_v4_pro_is_better_than)
+### 95. [to_anyone_saying_deepseek_v4_pro_is_better_than](https://www.reddit.com/r/DeepSeek/comments/1t3ycsq/to_anyone_saying_deepseek_v4_pro_is_better_than)
 `8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3829,39 +10018,7 @@
 
 ---
 
-### 104. [simonwillison.net](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
-`8.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
-
-**The article discusses the release of GPT-5.5 and its accessibility via OpenAI Codex, noting that this model is rolling out to paid ChatGPT subscribers. It specifically examines the "OpenClaw backdoor" aspect, detailing how OpenClaw integrates with OpenAI's subscriptions through the Codex CLI tool, and explores the implications for API usage and security.**
-
-**Features:**
-- GPT-5.5 availability
-- OpenClaw integration
-- Codex API
-- subscription benefits
-- agent harnesses
-
-*Tags: gpt-5.5, openai-codex, openclaw, api, subscriptions, agent-orchestration, code-harness, backdoor...*
-
----
-
-### 105. [simonwillison.net](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
-`8.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
-
-**The article discusses the release of GPT-5.5 and its capabilities, noting that it is available in OpenAI Codex and rolling out to paid ChatGPT subscribers. It delves into the technical details surrounding the "OpenClaw backdoor" mechanism, examining how agent harnesses interact with OpenAI's APIs and the resulting integration opportunities for existing subscriptions.**
-
-**Features:**
-- GPT-5.5 availability
-- OpenAI Codex API integration
-- subscription benefits
-- reverse engineering of authentication tokens
-- LLM observability
-
-*Tags: gpt-5.5, openai-codex, openclaw, api-integration, llm-observability, agent-harness, code-tooling, subscription-model...*
-
----
-
-### 106. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)
+### 96. [kujenga/zotero-mcp](https://github.com/kujenga/zotero-mcp)
 `8.6` ★ ⚡76 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3876,23 +10033,7 @@
 
 ---
 
-### 107. [simonwillison.net](https://simonwillison.net/2026/Apr/23/gpt-5-5/#the-openclaw-backdoor)
-`8.0` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-
-**The article details the release of GPT-5.5, highlighting its performance in building things, and then delves into the "OpenClaw backdoor" issue concerning how agent harnesses interact with OpenAI's APIs, specifically examining the integration points between OpenClaw, ChatGPT subscriptions, and the Codex CLI tool.**
-
-**Features:**
-- GPT-5.5 availability
-- OpenAI Codex API integration
-- subscription mechanics
-- reverse engineering of authentication tokens
-- LLM observability
-
-*Tags: gpt-5-5, open-claw, codex, openai, anthropic, api, agent-harness, subscription...*
-
----
-
-### 108. [item?id=47863217](https://news.ycombinator.com/item?id=47863217)
+### 97. [item?id=47863217](https://news.ycombinator.com/item?id=47863217)
 `8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3908,7 +10049,7 @@
 
 ---
 
-### 109. [C++ reflection (P2996) and moc - Qt Wiki](https://wiki.qt.io/C%2B%2B_reflection_(P2996)_and_moc)
+### 98. [C++ reflection (P2996) and moc - Qt Wiki](https://wiki.qt.io/C%2B%2B_reflection_(P2996)_and_moc)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **The finalized C++26 reflection standard featuring the `^^` (cat-ears) operator and `std::meta::info` for zero-overhead static introspection.**
@@ -3923,7 +10064,7 @@
 
 ---
 
-### 110. [Arena | Benchmark & Compare the Best AI Models](https://lmarena.ai)
+### 99. [Arena | Benchmark & Compare the Best AI Models](https://lmarena.ai)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A specialized leaderboard system featuring a "Superintelligence Tier" for coding (Claude Opus 4.6) and DevOps (GPT-5.3 Codex) benchmarks.**
@@ -3938,7 +10079,7 @@
 
 ---
 
-### 111. [PeerTube is recognized as a digital public good by Digital Public Goods Alliance | Hacker News](https://news.ycombinator.com/item?id=46207464)
+### 100. [PeerTube is recognized as a digital public good by Digital Public Goods Alliance | Hacker News](https://news.ycombinator.com/item?id=46207464)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A controversial report on Llama 4 leaked benchmarks and internal Meta resignations, alleging training data contamination and ELO manipulation.**
@@ -3953,7 +10094,7 @@
 
 ---
 
-### 112. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)
+### 101. [Nexa AI Blog – On-Device AI Tutorials, Benchmarks, and News](https://nexa.ai/blogs/small-llm-local-rag-practical-guide)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗3 layers
 
@@ -3969,7 +10110,7 @@
 
 ---
 
-### 113. [shnbwmn/awesome-portable-games](https://github.com/shnbwmn/awesome-portable-games)
+### 102. [shnbwmn/awesome-portable-games](https://github.com/shnbwmn/awesome-portable-games)
 `7.7` ★ ⚡74 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3986,7 +10127,7 @@
 
 ---
 
-### 114. [danmas0n/multi-agent-with-mcp](https://github.com/danmas0n/multi-agent-with-mcp)
+### 103. [danmas0n/multi-agent-with-mcp](https://github.com/danmas0n/multi-agent-with-mcp)
 `8.2` ★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **The system consists of an MCP Gateway Server, individual MCP Servers for specific tasks, and three collaborating Coding Agents (Orchestrator, Planner, Coder) to handle requirements and code context by creating multiple implementations of proposed features.**
@@ -3999,7 +10140,7 @@
 
 ---
 
-### 115. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)
+### 104. [ryft-io/iceberg-mcp](https://github.com/ryft-io/iceberg-mcp)
 `8.2` ★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **This resource is an MCP server designed to facilitate interactions between the Apache Iceberg Lakehouse and modern AI agents like Claude or Cursor. It offers tools for querying, inspecting, and understanding Iceberg tables and namespaces using natural language prompts.**
@@ -4012,7 +10153,7 @@
 
 ---
 
-### 116. [hermes_vs_openclaw_full_comparison](https://www.reddit.com/r/openclawhosting/comments/1slyw0o/hermes_vs_openclaw_full_comparison)
+### 105. [hermes_vs_openclaw_full_comparison](https://www.reddit.com/r/openclawhosting/comments/1slyw0o/hermes_vs_openclaw_full_comparison)
 `8.8` ★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4029,7 +10170,7 @@
 
 ---
 
-### 117. [Prompt Library](https://gail.wharton.upenn.edu/prompt-library)
+### 106. [Prompt Library](https://gail.wharton.upenn.edu/prompt-library)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **An evidence-based library of generative AI prompt templates and best practices developed by the Wharton Generative AI Labs.**
@@ -4044,7 +10185,7 @@
 
 ---
 
-### 118. [awesome-online-games/awesome-browser-games](https://github.com/awesome-online-games/awesome-browser-games)
+### 107. [awesome-online-games/awesome-browser-games](https://github.com/awesome-online-games/awesome-browser-games)
 `7.7` ★ ⚡73 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4058,7 +10199,7 @@
 
 ---
 
-### 119. [Growling Mad Scientists - GMS Records Official Music Website](https://gms-records.com/growling-mad-scientists)
+### 108. [Growling Mad Scientists - GMS Records Official Music Website](https://gms-records.com/growling-mad-scientists)
 `7.8` ★ ⚡73 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4074,7 +10215,7 @@
 
 ---
 
-### 120. [FBI is buying location data to track US citizens, director confirms | TechCrunch](https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden)
+### 109. [FBI is buying location data to track US citizens, director confirms | TechCrunch](https://techcrunch.com/2026/03/18/fbi-is-buying-location-data-to-track-us-citizens-kash-patel-wyden)
 `7.8` ★ ⚡73 Q0.8⭐ ⭐ Excellent
 
 **This report examines the FBI's recent actions in purchasing location data from brokers to aid investigations, highlighting the balance between national security needs and constitutional privacy rights. It evaluates the legal and ethical considerations surrounding surveillance technologies and data brokers' role in enabling federal intelligence operations.**
@@ -4089,7 +10230,7 @@
 
 ---
 
-### 121. [50_winrate_31r_with_vrt_on_bar_close_bar](https://www.reddit.com/r/vrttrading/comments/1sykobc/50_winrate_31r_with_vrt_on_bar_close_bar)
+### 110. [50_winrate_31r_with_vrt_on_bar_close_bar](https://www.reddit.com/r/vrttrading/comments/1sykobc/50_winrate_31r_with_vrt_on_bar_close_bar)
 `8.8` ★ ⚡73 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4105,7 +10246,7 @@
 
 ---
 
-### 122. [Octagon AI | Prediction Market Intelligence](https://octagonai.co)
+### 111. [Octagon AI | Prediction Market Intelligence](https://octagonai.co)
 `9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4121,7 +10262,7 @@
 
 ---
 
-### 123. [Claude Cowork exfiltrates files | Hacker News](https://news.ycombinator.com/item?id=46622328)
+### 112. [Claude Cowork exfiltrates files | Hacker News](https://news.ycombinator.com/item?id=46622328)
 `7.8` ★ ⚡72 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -4137,7 +10278,7 @@
 
 ---
 
-### 124. [my_profitable_strategy_automated](https://www.reddit.com/r/pinescript/comments/1sm2i4i/my_profitable_strategy_automated)
+### 113. [my_profitable_strategy_automated](https://www.reddit.com/r/pinescript/comments/1sm2i4i/my_profitable_strategy_automated)
 `8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4153,19 +10294,7 @@
 
 ---
 
-### 125. [domdomegg/google-maps-places-mcp.git](https://github.com/domdomegg/google-maps-places-mcp.git)
-`8.2` ★ ⚡68 Q0.7✓ ✓ Solid
-
-**The repository defines a system for integrating Google Maps Places API functionality into an agent workflow, specifically designed for tasks like finding locations based on text queries or validating addresses. It establishes a clear architecture where the MCP client interacts with the server, which in turn proxies the necessary OAuth flow to Google's Places API.**
-
-**Features:**
-- Google Maps Places API integration
-
-*Tags: agent-orchestration, workflow, oauth-proxy, google-maps-places-api, context-engineering, ai-agents, connectivity, developer-tools...*
-
----
-
-### 126. [monero-vs-zcash-a-comparison-of-privacy-coins](https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins)
+### 114. [monero-vs-zcash-a-comparison-of-privacy-coins](https://monero.forex/monero-vs-zcash-a-comparison-of-privacy-coins)
 `8.7` ★ ⚡66 Q0.6✓ ✓ Solid
 ↗2 layers
 
@@ -4180,29 +10309,464 @@
 
 ---
 
-### 127. [There Is Speculation That Anthropics Claude](https://www.reddit.com/r/accelerate/comments/1sihhk8/there_is_speculation_that_anthropics_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 115. [螢山紹瑾 Keizan Jōkin (1268–1325): Denkō-roku](https://terebess.hu/zen/denko-roku.html)
+`5.0` ★ ⚡66 Q0.8✓ ✓ Solid
 
-**There Is Speculation That Anthropics Claude**
+**This resource details the work 'Denkō-roku' by Keizan Jōkin, offering insight into the practical application and philosophical importance of Zazen (meditation) within the Sōtō school tradition. It serves as an indispensable guide for understanding the core tenets of Zen practice, covering aspects like moderation in physical condition and the holistic integration of meditation, wisdom, and discipline.**
+
+**Features:**
+- Historical text analysis
+- Buddhist practice guidance
+- Zen philosophy overview
+- historical context mapping
+- foundational text insights
+
+*Tags: zen, history, buddhism, historical-text, philosophy, guide*
 
 ---
 
-### 128. [Do You Guys Use The Coding Plan From Zai Or Use](https://www.reddit.com/r/kimi/comments/1szrpuj/do_you_guys_use_the_coding_plan_from_zai_or_use/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 116. [Grown Men Are Exploiting Loopholes In State Laws To Marry Children | HuffPost Impact](https://www.huffpost.com/entry/child-marriage-state-laws_n_59a5e70ee4b00795c2a27e19)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-**Do You Guys Use The Coding Plan From Zai Or Use**
+**This resource examines the prevalence of child marriage in the U.S., highlighting that while most states set a minimum age of 18, exceptions exist for minors. It provides insight into the legal nuances and the lived reality of children involved in these marriages, emphasizing the challenges they face.**
+
+**Features:**
+- Child marriage statistics
+- state-specific laws analysis
+- legal exceptions to marriage
+- advocacy efforts
+- societal impact assessment
+
+*Tags: child-marriage, state-law, legal-loopholes, gender-based-violence, us-law, family-law, advocacy*
 
 ---
 
-### 129. [Special Thanks To All The Christians Who Said My](https://www.reddit.com/r/Christianity/comments/1t2z5b3/special_thanks_to_all_the_christians_who_said_my/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 117. [Agriculture, Fisheries and Conservation Department - Animal Management (Videos - APIs)](https://www.pets.gov.hk/english/multimedia_zone/videos/download_8_5_1_10.html)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-**Special Thanks To All The Christians Who Said My**
+**This resource provides detailed guidelines for dog owners regarding the proper handling of dogs in public spaces, including necessary precautions for cleanliness and legal regulations. It outlines specific 'Dos and Don'ts' for walking dogs, including the need for appropriate waste disposal and leash requirements.**
+
+**Features:**
+- Dog handling rules
+- penalty details
+- hygiene tips
+- leash regulations
+- public place guidelines
+
+*Tags: dog-care, public-etiquette, hygiene, legal-guidelines, hong-kong-rules, pet-safety*
+
+---
+
+### 118. [Official List of Sins (Old Testament ) | Truediscipleship](https://truediscipleship.com/official-list-of-sins-old-testament)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides an organized listing of sins found within the Old Testament, serving as a guide for understanding the moral and spiritual lessons embedded in the biblical text. It highlights specific instances of sin mentioned throughout the Old Testament, offering readers a structured approach to studying the covenant's history.**
+
+**Features:**
+- Biblical Sin Catalog
+- Old Testament Sins Listing
+- Theological Study Guide
+- Covenant Analysis
+- Scripture Reference
+
+*Tags: bible, theology, christianity, scripture, studyguide, oldtestament, sins*
+
+---
+
+### 119. [MCL - Section 333.7212 - Michigan Legislature](https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-333-7212)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides a detailed look at Section 333.7212, which specifies a list of controlled substances that are included in Schedule 1 of the Public Health Code. It meticulously lists various opiates and their derivatives, providing a comprehensive guide for pharmaceutical and regulatory understanding.**
+
+**Features:**
+- Schedule 1 definition
+- controlled substance list
+- opiate derivatives
+- chemical designation inclusion
+- legislative structure
+
+*Tags: legislative, schedule1, controlledsubstances, pharmaceuticals, publichealthcode, regulatoryguide*
+
+---
+
+### 120. [monero.how - Monero tutorials, statistics, charts and resources](https://monero.how)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This tool serves as a comprehensive hub for understanding Monero, offering tutorials on its mechanics, practical guides for wallets, mining strategies, and comparisons with other cryptocurrencies. It helps users grasp the core concepts of privacy and security within the Monero ecosystem.**
+
+**Features:**
+- Monero tutorials
+- wallet guides
+- transaction details
+- price charts
+- privacy explanations
+
+*Tags: monero, privacy, cryptocurrency, tutorials, security, blockchain, guides*
+
+---
+
+### 121. [Food and Cooking: Every Recipe Tested at Least Twice | Kinja](http://thisiswhyyourefat.kinja.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This tool acts as a comprehensive guide for lifestyle and culture focused on food and cooking. It offers curated content covering topics like meal prep strategies, ingredient spotlights, and the cultural aspects of dining, making it useful for both home cooks and culinary enthusiasts.**
+
+**Features:**
+- Curated food articles
+- Culinary guides
+- Recipe inspiration
+- Food science insights
+- Cultural trends analysis
+
+*Tags: food, cooking, recipes, culinary, lifestyle, guides*
+
+---
+
+### 122. [Robber Barons And Rebels](https://www.historyisaweapon.com/defcon1/zinnbaron11.html)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides a historical perspective on the industrial and political forces shaping American society, focusing on the roles of various labor groups—Black workers, white workers, Chinese laborers, and European immigrants—in creating a stratified pyramid of wealth. It examines how technological advancements like steam and electricity revolutionized farming, transportation, and industry between the Civil War and 1900.**
+
+**Features:**
+- Historical context of industrial change
+- analysis of labor stratification
+- timeline of technological shifts
+- social history overview
+
+*Tags: history, us-history, industrial-revolution, labor-history, social-structure, historical-analysis*
+
+---
+
+### 123. [Psytrance Guide](https://psytranceguide.com/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource serves as a complete style guide for Psytrance music, outlining its core characteristics, key artists, influential labels, and the specific BPM range. It helps users discover new subgenres and provides a reference for organizing DJ collections related to psychedelic music.**
+
+**Features:**
+- Psytrance genre definition
+- artist/label highlights
+- BPM range specification
+- style guide reference
+- subgenre comparison
+
+*Tags: psytrance, musicguide, djcollection, psychedelic, genre, musicreference*
+
+---
+
+### 124. [DJ Gear & Accessory Reviews - Digital DJ Tips](http://www.digitaldjtips.com/dj-controllers-guide-2014/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource serves as a curated review guide for essential DJ equipment, including specific models like the Rane System One, AlphaTheta DJM-V5 Mixer, and Allen & Heath Xone mixers. It offers detailed reviews of audio components such as monitors (Hedd Type 07 A-Core) and headphones (V-Moda M-100 Pro), providing valuable insights for DJs looking to upgrade their setup.**
+
+**Features:**
+- DJ controller reviews
+- mixer evaluations
+- audio gear comparisons
+- DJ equipment guides
+
+*Tags: dj, audio, reviews, controllers, mixers, gear, guides*
+
+---
+
+### 125. [Find the nearest Dave and Buster's location to you.](https://www.daveandbusters.com/locations)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource is a directory or guide that maps out the physical locations where Dave & B's operates, detailing specific cities and states in the United States and international locations. It serves as a practical guide for users to find D&B branches based on geographical proximity.**
+
+**Features:**
+- Location mapping
+- regional breakdown
+- geographic coverage
+- location discovery
+- state/city listing
+
+*Tags: location-guide, business-directory, geography, travel-planning, d&b-locations*
+
+---
+
+### 126. [Lua: mailing list](http://www.lua.org/lua-l.html)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This page provides an overview of the Lua mailing list, emphasizing its role as a focal point for the Lua community. It details the list's history, subscriber base, and specific netiquette rules for posting discussions related to the Lua language.**
+
+**Features:**
+- Community discussion forum
+- archival search capability
+- netiquette guidance
+- multilingual support (e.g.
+- Portuguese)
+- historical archive access
+
+*Tags: lua, community, mailing-list, language, archival, developer-tools*
+
+---
+
+### 127. [Tyblog | You Don't Love systemd Timers Enough](https://blog.tjll.net/you-dont-love-systemd-timers-enough/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource analyzes the concept of systemd timers, positioning them as a modern alternative to traditional cron jobs. It delves into why these timers are useful and explores the underlying mechanics that make them valuable in modern computing environments.**
+
+**Features:**
+- Systemd Timers comparison
+- Cron job replacement analysis
+- Systemd timer functionality explanation
+- Utility of scheduled tasks
+- Modern scheduling primitives
+
+*Tags: systemd, cron, scheduling, linux, software-trends, containers, utilities*
+
+---
+
+### 128. [699 Discussion Thread | Erdős Problems](https://www.erdosproblems.com/forum/thread/699)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource is a discussion thread from the Erdős Problems forum, focusing on a mathematical question related to binomial coefficients. It explores the existence of primes that divide the greatest common divisor of two binomial coefficients $inom{n}{i}$ and $inom{n}{j}$. The page provides context for this specific problem, including known solutions and counterexamples.**
+
+**Features:**
+- Binomial coefficient theory
+- Number theory problems
+- Erdős and Szekeres conjecture
+- Prime divisibility checks
+
+*Tags: number-theory, binomial-coefficients, erdos, prime-number-theory, combinatorics*
+
+---
+
+### 129. [SUPPLEMENTS GUIDE | ‘Pre-rolling’ and ‘Post-Rolling’ for MDMA to enhance the experience and reduce negative effects — Users News (UN)](https://www.usersnews.com.au/home/2019/12/18/supplements-guide)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource provides a supplement guide specifically tailored for MDMA users, offering tips on 'pre-rolling' and 'post-rolling' strategies to enhance the experience while reducing adverse effects. It explores the concept of neurotoxicity related to recreational drugs and offers practical advice for brain health.**
+
+**Features:**
+- MDMA supplementation guide
+- pre-rolling vs post-rolling strategy
+- neurotoxicity explanation
+- general brain health tips
+
+*Tags: mdma, supplements, brainhealth, neurotoxicity, recreationaldrugs, guide*
+
+---
+
+### 130. [Tumours might be sensitized to immune therapy by COVID mRNA vaccines](https://www.nature.com/articles/d41586-025-03411-y)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource is a scientific article published in Nature detailing the mechanism by which SARS-CoV-2 mRNA vaccines can sensitize tumors to immune checkpoint blockade. It provides insights into the therapeutic potential of vaccine technology for cancer treatment, specifically focusing on pancreatic tumors.**
+
+**Features:**
+- Scientific paper summary
+- Vaccine efficacy analysis
+- Immune checkpoint blockade mechanism
+- Cancer immunology insights
+
+*Tags: biology, vaccines, cancer, immunology, nature, science*
+
+---
+
+### 131. [Does the Bible have a list of sins? - Compelling Truth](https://www.compellingtruth.org/list-of-sins.html)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource explores the concept of sin as presented in religious texts, specifically examining lists of sins within the Bible. It emphasizes that mere rule-following is insufficient; true obedience requires a heart transformation enabled by the power of the Holy Spirit, leading to Christ-likeness rather than just following rules.**
+
+**Features:**
+- Biblical sin lists
+- theological insight on obedience
+- role of the Holy Spirit
+- distinction between rule-following and heart transformation
+
+*Tags: bible, theology, sins, christianity, grace, spirit, moral-guidance*
+
+---
+
+### 132. [How to Use a Bowl and Brush To Color Your Hair for the First Time](https://www.madison-reed.com/blog/how-to-use-a-bowl-and-brush-to-color-your-hair-for-the-first-time)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This article provides a guide on how to use a bowl and brush to apply hair color, specifically addressing the challenges of coloring hair for the first time. It explains the benefits of this method, such as achieving better coverage and accuracy when applying hair dye.**
+
+**Features:**
+- Hair Coloring Techniques
+- Bowl & Brush Application
+- Hair Dye Application Tips
+- Color Saturation
+- Professional Tools
+
+*Tags: hair-coloring, hair-tutorials, diy-hair-color, hair-dye-tips, beauty-hacks*
+
+---
+
+### 133. [Lua: donations](http://www.lua.org/donations.html)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This page provides a guide on how users can support the Lua project, including options for making a direct donation, buying published books by Lua.org, and spreading the word about the project. It also offers context on the philosophical aspect of supporting free software projects.**
+
+**Features:**
+- Donation options
+- book purchasing opportunities
+- community support mechanism
+- educational/project context
+
+*Tags: lua, software, donation, free-software, community, project-support*
+
+---
+
+### 134. [xkcd: SNEWS](https://xkcd.com/3208/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource is an online comic strip that serves as a guide to quirky observations, often blending humor, mathematics, and language. It provides a unique perspective on everyday life and technology, making it a valuable resource for understanding the intersection of culture and science.**
+
+**Features:**
+- Webcomic platform
+- insightful commentary
+- educational/quirky content
+- community engagement
+
+*Tags: webcomic, guides, culture, humor, technology, internet*
+
+---
+
+### 135. [LIST OF SINS, AND THE POWER OF FORGIVENESS!](https://needencouragement.com/list-of-sins)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource provides a detailed look at the concept of 'sins,' specifically focusing on the Seven Deadly Sins, and contextualizing it within the broader scope of sin as described in scripture. It serves as a guide for understanding human failings and the path to divine grace.**
+
+**Features:**
+- Seven deadly sins identification
+- biblical context of sin
+- comprehensive list of sins
+- theological insight into forgiveness
+
+*Tags: theology, bible-study, sins, christianity, spiritual-growth, deadly-sins*
+
+---
+
+### 136. [United States Age of Consent Laws By State](https://www.ageofconsent.net/states)
+`5.0` ★ ⚡57 Q0.6✓ ✓ Solid
+
+**This page provides an in-depth look at the 'Age of Consent' laws, mapping out the specific legal ages for sexual abuse across different US states. It serves as a practical guide for understanding state-specific legal frameworks related to sexual consent and statutory rape definitions.**
+
+**Features:**
+- State-by-state age comparison
+- comprehensive map of US Age of Consent laws
+- global overview of age of consent
+- detailed breakdown of specific state laws
+
+*Tags: age-of-consent, legal-frameworks, us-laws, sexual-abuse, state-comparison*
+
+---
+
+### 137. [Ultimate Prepping PDF Resources, Manuals & Guides - The Prepping Guide](https://thepreppingguide.com/resources)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource acts as a curated guide to various survival and preparedness resources, including handbooks, medical kits, and military manuals. It serves as a central hub for readers interested in practical guides related to survival, defense, and emergency readiness.**
+
+**Features:**
+- Survival Handbooks
+- Military Manuals
+- Emergency Kits
+- Survival Guides
+
+*Tags: survival, preparedness, emergency, guides, military, firstaid, resource*
+
+---
+
+### 138. [Best Bank Bonuses and Promotions Of June 2026 | Bankrate](https://www.bankrate.com/banking/best-bank-account-bonuses)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource provides a curated list of the best checking account bonuses and promotions from various banks. It helps users understand the potential benefits, the associated costs, and the specific requirements needed to qualify for these offers.**
+
+**Features:**
+- Bank bonus comparison
+- eligibility rules breakdown
+- bank-specific bonus details
+- clear summary of key offers
+
+*Tags: banking, rewards, promotions, credit-offers, financial-guide, bank-bonuses*
+
+---
+
+### 139. [www.abc.net.au/reslib/201407/r1308729_17984331.pdf](https://www.abc.net.au/reslib/201407/r1308729_17984331.pdf)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**The resource is a PDF file, likely an archival or technical specification document given the 'r1308729' identifier. The content suggests a structured layout, possibly defining a linearized format for data storage or a specific set of rules for digital assets within a system.**
+
+**Features:**
+- PDF structure analysis
+- Linearized format definition
+- Font embedding/encoding
+- File size and structure mapping
+
+*Tags: pdf, document, technical, fileformat, archival, structure*
+
+---
+
+### 140. [Iboga](https://www.decrimnaturemi.org/iboga)
+`5.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This resource provides an overview of 'Iboga,' a compound with significant implications for both natural health and addiction treatment. It highlights the scientific basis for Iboga's potential therapeutic effects, linking it to the broader movement to decriminalize entheogenic plants.**
+
+**Features:**
+- Decriminalization advocacy
+- Ibogaine treatment outcomes
+- psychedelic addiction treatments
+- chemical review of Iboga
+
+*Tags: nature, addiction, psychedelic, health, drug-discovery, decolonize*
+
+---
+
+### 141. [Let’s talk about encrypted reasoning – A Few Thoughts on Cryptographic Engineering](https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/)
+`4.0` ★ ⚡53 Q0.7✓ ✓ Solid
+
+**An experimental deep-dive into the discovery of signed reasoning blobs in frontier LLM APIs. The author explores how these signatures function within Claude's thinking process and investigates the potential for tampering with model reasoning steps.**
+
+**Features:**
+- cryptographic signature analysis
+- LLM reasoning block inspection
+- API security exploration
+- agentic workflow debugging
+
+*Tags: llm-security, cryptography, reasoning-blocks, api-security, ai-agents, claude-api, cybersecurity*
+
+---
+
+### 142. [SPEC.md](http://SPEC.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**SPEC.md**
+
+---
+
+### 143. [planning.md](http://planning.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**planning.md**
+
+---
+
+### 144. [Frontiers | Novel hematologic ratios and systemic inflammation index in ADHD: effects of methylphenidate treatment](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2025.1621767/full)
+`5.0` ★ ⚡47 Q0.6○ ○ Adequate
+
+**This paper investigates the relationship between Attention-Deficit/Hyperactivity Disorder (ADHD) and systemic inflammation, specifically examining the effects of long-acting methylphenidate treatment on these markers. It introduces novel hematologic ratios (NHR, LHR, MHR, PHR) and a systemic immune-inflammation index (SII) in ADHD patients compared to controls.**
+
+**Features:**
+- Novel inflammatory markers analysis
+
+*Tags: adhd, methylphenidate, inflammation, hematology, psychiatry, childhealth*
+
+---
+
+### 145. [NOVA Online | Secrets of Lost Empires | Pharaoh's Obelisk | Slide 7](https://www.pbs.org/wgbh/nova/lostempires/obelisk/cutting07.html)
+`5.0` ★ ⚡47 Q0.6○ ○ Adequate
+
+**This resource explores the practical methods employed by ancient Egyptians, specifically focusing on the tools and techniques used for carving granite and drilling cylindrical holes into stone. It provides a tangible example of the ingenuity involved in ancient engineering and craftsmanship, using a specific bow drill mechanism to achieve fine work.**
+
+**Features:**
+- Demonstrates the technique of drilling cylindrical holes into granite; highlights the use of a bow drill mechanism for cutting; illustrates the precision required for carving stone surfaces.
+
+*Tags: ancient-egypt, stone-carving, engineering, tools, archaeology, technology*
 
 ---
 
 ## Bridges & Proxies
-> 57 tools · avg signal ⚡84
+> 65 tools · avg signal ⚡80
 
 ### 1. [benmyles/glyph](https://github.com/benmyles/glyph)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
@@ -5139,8 +11703,80 @@
 
 ---
 
+### 58. [Shift from a Leader-Follower to a Leader-Leader Approach](https://www.practicalengineering.management/p/shift-from-a-leader-follower-to-a)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource analyzes the transition required for engineers to move from being leaders to leading teams, focusing on technical excellence and the resulting bottlenecks in engineering leadership. It uses the story of a U.S. Navy Captain and the book 'Turn The Ship Around' to illustrate how technical expertise translates into managerial effectiveness.**
+
+**Features:**
+- Engineering Leadership Shift
+- Technical Excellence vs. Managerial Bottlenecks
+- Cross-functional teams
+- Practical Engineering Management insights
+
+*Tags: engineering-leadership, technical-management, software-engineering, team-dynamics, organizational-structure, career-development*
+
+---
+
+### 59. [Zen Koans | AshidaKim.com](https://ashidakim.com/zenkoans)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource presents a curated selection of Zen koans and parables, drawn from the work of Muju, a Zen teacher, to provide insight into the relationship between Zen concepts and Ninjitsu. It offers a collection of philosophical or spiritual insights presented in a structured format.**
+
+**Features:**
+- Zen Koans Collection
+- Translation Resource
+- Philosophical Insights
+- Zen & Ninjitsu Connection
+
+*Tags: zen, koan, philosophy, japanese, translation, spiritual, history*
+
+---
+
+### 60. [openrouter.ai](https://openrouter.ai/rankings)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openrouter.ai**
+
+---
+
+### 61. [313relay.com](http://313relay.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**313relay.com**
+
+---
+
+### 62. [routes.md](http://routes.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**routes.md**
+
+---
+
+### 63. [openrouter.ai](https://openrouter.ai/inclusionai/ring-2.6-1t:free)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openrouter.ai**
+
+---
+
+### 64. [openrouter.io](http://openrouter.io)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openrouter.io**
+
+---
+
+### 65. [openrouter.ai](https://openrouter.ai/tencent/hy3-preview)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openrouter.ai**
+
+---
+
 ## Monitoring & Analytics
-> 53 tools · avg signal ⚡79
+> 62 tools · avg signal ⚡76
 
 ### 1. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -5432,7 +12068,7 @@
 
 ---
 
-### 18. [item?id=47741527](https://news.ycombinator.com/item?id=47741527)
+### 18. [news.ycombinator.com/item](https://news.ycombinator.com/item?id=47741527)
 `9.1` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5929,7 +12565,7 @@
 
 ---
 
-### 49. [tsne-viz.html?y0=1964&y1=2025](https://awesome-llm-papers.github.io/tsne-viz.html?y0=1964&y1=2025)
+### 49. [awesome-llm-papers.github.io/tsne-viz.html](https://awesome-llm-papers.github.io/tsne-viz.html?y0=1964&y1=2025)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A visualization mapping thousands of LLM research papers from arXiv into a 2D cluster map using t-SNE embeddings to identify research "white space."**
@@ -5960,29 +12596,886 @@
 
 ---
 
-### 51. [everett-technologies.com](https://everett-technologies.com/?rdt_cid=5126553994281907174)
+### 51. [State of the Shopify App Store, May 2026 Report | AppstorePulse](https://www.appstorepulse.com/reports/state-of-shopify-app-store-may-2026)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides a data-backed snapshot of the Shopify App Store in May 2026, detailing the number of live apps, review metrics, and key insights into the marketplace's structure. It highlights significant trends, such as the presence of AI-integrated apps and the localization challenges within the platform.**
+
+**Features:**
+- Shopify App Store analysis
+- monthly report data
+- app store trends
+- AI integration statistics
+- free vs paid model breakdown
+
+*Tags: shopify, appstore, trends, ai, marketplace, dataanalysis, report*
+
+---
+
+### 52. [All game manuals - Sega Genesis - Games Database](https://www.gamesdatabase.org/all_game_system_manuals_for-sega_genesis)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is an exhaustive set of manuals for the Sega Genesis console, offering in-depth insight into the hardware, software, and game ecosystem. It serves as a valuable reference for understanding the technological foundation and cultural impact of the system during its peak era.**
+
+**Features:**
+- Sega Genesis manual
+- comprehensive game database
+- system categorization
+- developer/publisher mapping
+- historical context documentation
+
+*Tags: sega-genesis, game-manuals, hardware-history, arcade-games, retro-gaming, system-documentation*
+
+---
+
+### 53. [. . : : z i n e : : . .   ELPiS â Web 1.0 Magazine about Small Web, Indie Web & Retro Internet](https://elpis.ws)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**Elpis is a digital magazine that provides articles and useful links centered around the concepts of small web, indie web, and retro internet. It aims to inform readers about alternate paths in development, focusing on conscious technology choices rather than market constraints.**
+
+**Features:**
+- Web 1.0 Magazine
+- Indie Web Focus
+- Retro Internet themes
+- Content curation
+- Educational material
+
+*Tags: web-design, retro-internet, indie-web, small-net, nostalgia, digital-magazine*
+
+---
+
+### 54. [The Shockingly Simple Math Behind Early Retirement](https://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This article explores the surprisingly simple mathematical relationship between saving rates, take-home pay, and lifestyle choices that determine when one can retire. It uses hypothetical calculations to show how a person can reach an age-30 retirement goal based on their savings rate.**
+
+**Features:**
+- Early retirement math
+- savings rate calculation
+- financial fundamentals
+- retirement calculators
+- simple financial modeling
+
+*Tags: personal-finance, retirement-planning, savings-rate, early-retirement, financial-literacy*
+
+---
+
+### 55. [Stop ruining it | Seth's Blog](https://seths.blog/2026/06/stop-ruining-it/)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This article explores a philosophical concept around the idea of 'ruining'—what happens when things are left undone or imperfect. It offers insights into how musicality, curiosity, and trust can be preserved or lost depending on whether the system 'ruins' it. This serves as a thought-provoking piece for developers and product thinkers.**
+
+**Features:**
+- Conceptual insight
+- philosophical exploration
+- blog post format
+- timeless business concepts
+
+*Tags: product-philosophy, customer-delight, trust, branding, design-thinking, concept-analysis*
+
+---
+
+### 56. [ANTITHESIS Definition & Meaning - Merriam-Webster](https://www.merriam-webster.com/dictionary/antithesis)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource is a Merriam-Webster dictionary entry for the word 'antithesis', detailing its definition as the direct opposite or rhetorical contrast of ideas. It provides etymology, pronunciation, and example sentences to illustrate how the concept is used in language.**
+
+**Features:**
+- dictionary lookup
+- definition of antithesis
+- synonyms list
+- example sentences
+
+*Tags: dictionary, language, word-definition, merriam-webster, vocabulary, english*
+
+---
+
+### 57. [xkcd: Standards](https://xkcd.com/927/)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource is an XKCD comic that explores the concept of 'standards' in technology, often leading to humorous or insightful discussions about universal solutions. It highlights the complexity of competing standards and the journey toward standardization.**
+
+**Features:**
+- Technology standards exploration
+- cultural commentary
+- comic format
+- technological insight
+
+*Tags: xkcd, technology, standards, webcomic, tech, culture, internet, design*
+
+---
+
+### 58. [Tech Trendin - Launch and grow your startup | TechTrendin'](https://www.techtrendin.com/)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**TechTrendin is a platform that provides guides and insights to help new or existing startups launch and grow. It serves as a valuable resource for entrepreneurs looking to understand the landscape of technology trends and business growth strategies.**
+
+**Features:**
+- Startup guidance
+- Tech trend analysis
+- Business growth insights
+- Entrepreneurial toolkit
+
+*Tags: startup, tech, entrepreneurship, business, guide, trends*
+
+---
+
+### 59. [blog.adafruit.com](https://blog.adafruit.com/2026/04/05/asimovs-three-laws-of-robotics-survived-82-years-we-broke-them-in-30-minutes-costs-80-cents-and-then-remade-t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**everett-technologies.com**
+**blog.adafruit.com**
 
 ---
 
-### 52. [Ai Retopology Turned A 2Mpolygon Mess Into A](https://www.reddit.com/r/hyper3d_rodin/comments/1tcvmis/ai_retopology_turned_a_2mpolygon_mess_into_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 60. [blog.adafruit.com](https://blog.adafruit.com/2026/04/05/asimovs-three-laws-of-robotics-survived-82-years-we-broke-them-in-30-minutes-costs-80-cents-and-then-remade-them/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Ai Retopology Turned A 2Mpolygon Mess Into A**
+**blog.adafruit.com**
 
 ---
 
-### 53. [What Technologies Will We Realistically See In](https://www.reddit.com/r/singularity/comments/1t1rosv/what_technologies_will_we_realistically_see_in/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 61. [neurologytoday.aan.com](https://neurologytoday.aan.com/doi/10.1097/01.NT.0000469526.77988.9e)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**What Technologies Will We Realistically See In**
+**neurologytoday.aan.com**
+
+---
+
+### 62. [Castles — Structured Memory for Enterprise LLMs](https://www.buildcastles.fyi/)
+`5.0` ★ ⚡46 Q0.6○ ○ Adequate
+
+**BuildCastles is a platform that serves as a curated resource for developers, offering in-depth articles, tutorials, and insights into cutting-edge software engineering concepts. It helps developers stay current with the latest trends, architectural patterns, and practical application of modern technologies.**
+
+**Features:**
+- In-depth articles
+
+*Tags: software-engineering, developer-tools, tech-trends, tutorials, best-practices, learning, resources*
+
+---
+
+## Skill Systems
+> 45 tools · avg signal ⚡79
+
+### 1. [github/awesome-copilot](https://github.com/github/awesome-copilot)
+`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The 'awesome-copilot' repository curates various components—including specialized Agents that interact with MCP servers, standardized Instructions for consistent coding practices, self-contained Skills, Plugins bundling these elements, Hooks for automated session triggers, and AI-powered GitHub Actions Workflows—all aimed at supercharging the GitHub Copilot developer experience. It serves as a central hub for discovering, sharing, and installing these customizations via the Copilot CLI, providin...**
+
+**Features:**
+- Custom agents
+- standardized instructions
+- specialized skills
+- plugin ecosystem
+- workflow automation via GitHub Actions
+- MCP server integration support
+- Copilot CLI integration.
+
+*Tags: github-copilot, agent-framework, mcp, llm-customization, developer-workflow, ai-actions, copilot-cli, instruction-set...*
+
+---
+
+### 2. [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)
+`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Google AI Edge Gallery provides a secure, privacy-preserving environment to run large language models locally on mobile devices. It supports agent skills, thinking mode, image analysis, audio transcription, prompt testing, and model management, empowering developers to build and deploy intelligent apps without relying on cloud services.**
+
+**Features:**
+- On-device AI/ML inference
+- Agent Skills integration
+- Thinking Mode for model transparency
+- Image and audio processing
+- Prompt customization
+- Model management and benchmarking
+- Privacy-first architecture
+
+*Tags: ai, ml, generativeai, android, gpu, cloudless, security, development...*
+
+---
+
+### 3. [terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**This repository serves two purposes: Writing down cool people (and companies) that do cool things. Showcasing various ways to showcase your work. To help showcase different types of portfolios, it's split into those that are strictly portfolios, while others are portfolios with a blog attached. Company websites are also included in their own section, reflecting how larger organizations differ in voice and presentation.**
+
+**Features:**
+- The resource provides links to various developer blogs
+- portfolio sites
+- and company websites
+- focusing on showcasing skills
+- projects
+- and technical expertise within the game development/tech sphere.
+
+*Tags: ['portfolio', 'gamedev', 'techblog', 'developertools', 'unity', 'c++', 'ai', 'graphics'...*
+
+---
+
+### 4. [sichang824/mcp-terminal](https://github.com/sichang824/mcp-terminal)
+`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The MCP Terminal is a terminal control server built on the Model Context Protocol (MCP), specifically designed to integrate seamlessly with Large Language Models (LLMs) and AI assistants. It offers a standardized interface that allows AI to execute terminal commands and retrieve output results, supporting various terminal controllers like iTerm2, AppleScript, or Subprocess. The solution provides diverse modes of operation (STDIO, SSE) and various tools for file manipulation, ensuring seamless in...**
+
+**Features:**
+- Official MCP SDK implementation
+- Support for multiple terminal controllers (iTerm2
+- AppleScript
+- Subprocess)
+- Support for server modes (STDIO
+- SSE)
+- Terminal tools and file operations
+- Docker deployment support
+
+---
+
+### 5. [matthewdcage/cursor-mcp-installer](https://github.com/matthewdcage/cursor-mcp-installer)
+`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
+↗4 layers
+
+**The tool offers a complete rewrite of the MCP installer, enabling users to install and configure MCP servers for major AI clients like Claude Desktop, Cursor, VS Code, OpenClaw, and ChatGPT. It provides a branded web dashboard and a quick start guide to easily set up MCP servers with one command, which is essential for managing AI agent workflows and context engineering.**
+
+**Features:**
+- Universal MCP Installer
+- Cross-Platform Support (macOS
+- Windows
+- Linux)
+- Real MCP Handshake Validation
+- Web Dashboard Integration
+- Easy Installation via `npx` commands.
+
+*Tags: universal-mcp-installer, mcp, ai-agents, context-engineering, cross-platform, vscode, claude, openai...*
+
+---
+
+### 6. [pinkpixel-dev/mindbridge-mcp](https://github.com/pinkpixel-dev/mindbridge-mcp)
+`9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
+
+**This resource describes "MindBridge," an AI router designed to supercharge LLM workflows by connecting various models. It focuses on multi-LLM support, intelligent routing for reasoning tasks, and providing tools for comparing responses, positioning it as a core component for agent builders and AI orchestration engines.**
+
+**Features:**
+- Multi-LLM Support (OpenAI
+- Anthropic
+- Ollama
+- etc.)
+- Reasoning Engine Aware Routing
+- Second Opinion Tool
+- OpenAI-Compatible API Layer
+
+*Tags: agent, mcp, agents, reasoning, llm, reasoning-agent, ai-orchestration, model-routing...*
+
+---
+
+### 7. [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This resource provides a comprehensive list of practical agent skills, categorized to help Borg understand how to effectively integrate these capabilities into its operations. The skills are designed for immediate use with popular AI agents like Claude, Copilot, and others, streamlining workflows and enhancing productivity.**
+
+**Features:**
+- Agent skill directories
+- Integration guides for AI tools
+- Code examples and usage instructions
+- Performance optimization tips
+- Security considerations
+
+*Tags: agent-skills, ai-integration, developer-tools, code-examples, security*
+
+---
+
+### 8. [krzysztofdudek/ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill)
+`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
+
+**The skill provides a framework for an AI agent to execute research loops, testing hypotheses, and iterating on solutions by separating reading constraints from writing implementations. It offers a powerful way to guide an AI agent's capabilities through structured experimentation within developer tools.**
+
+**Features:**
+- Autonomous Agent Experimentation
+- Read/Write Phase Separation
+- Hypothesis Testing
+- AI Coding Agent Plugin
+- Developer Workflow Optimization
+
+*Tags: ai-agent, cursor, codex, experimentation, optimization, developer-tools, skill, researcher...*
+
+---
+
+### 9. [gongrzhe/terminal-controller-mcp](https://github.com/gongrzhe/terminal-controller-mcp)
+`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
+
+**The resource details a "Terminal Controller for MCP," which serves as a standardized interface for executing terminal commands, managing directory navigation, and performing file system operations securely. It highlights the core functionality of running terminal commands with timeout controls, navigating directories, and interacting with files, emphasizing cross-platform support.**
+
+**Features:**
+- Command Execution
+- Directory Management
+- Security Measures
+- File Operations
+- Cross-Platform Support
+
+*Tags: terminal-controller, mcp, agent-orchestration, secure-execution, file-system-ops, python, cli, claude-desktop*
+
+---
+
+### 10. [benjamine/jsondiffpatch](https://github.com/benjamine/jsondiffpatch/tree/HEAD/packages/diff-mcp)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**jsondiffpatch is a command-line utility designed to compare text or structured data across different versions. It supports various output formats such as plain text, JSON, and JSON patch, making it versatile for developers needing to identify differences in code, configuration files, or other data sets.**
+
+**Features:**
+- Compare text using diff algorithms
+- Support multiple output formats (text
+- json
+- jsonpatch)
+- Integrate with GitHub Actions for automated workflows
+
+*Tags: diff, jsondiffpatch, code-comparison, developer-tools, text-diff, git-hooks, code-automation, version-control...*
+
+---
+
+### 11. [automateyournetwork/pyats_mcp](https://github.com/automateyournetwork/pyats_mcp)
+`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
+
+**The project is a Python MCP server designed to bridge the gap between traditional networking tools (Cisco pyATS) and modern AI agent frameworks like Claude or LangGraph. It focuses on providing a structured interface for AI agents to interact with network devices, handling configuration application and state querying through standard STDIN/STDOUT communication.**
+
+**Features:**
+- JSON-RPC 2.0
+- AI Agent Integration
+- Network State Querying
+- Configuration Application
+- Python Server Implementation
+
+*Tags: ai-agents, claude, langgraph, jsonrpc, network-automation, python-server, cisco-pyats, mcp...*
+
+---
+
+### 12. [cloudwerx-dev/gpt-image-1-mcp](https://github.com/cloudwerx-dev/gpt-image-1-mcp)
+`9.5` ★★ ⚡87 Q0.7🏆 🏆 World-class
+↗2 layers
+
+**The repository details an MCP server designed to facilitate image generation and editing workflows, leveraging the power of the OpenAI GPT-Image-1 model. It includes instructions for setting up the necessary environment variables and demonstrates how to integrate this service with various client tools like VS Code extensions (Roo, Cursor) to enable AI-powered image manipulation.**
+
+**Features:**
+- MCP Server for Image Generation
+- OpenAI GPT-Image-1 Integration
+- Command Line Execution via NPX
+- Easy Setup for API Key Configuration
+- Client Integration Examples
+
+---
+
+### 13. [2341](https://taoofmac.com/space/blog/2026/04/29/2341)
+`10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
+
+**This resource outlines a streamlined approach for constructing MCP (Model-to-Command) servers, emphasizing the importance of a well-defined tool chain. It highlights the necessity of a small set of core verbs to guide model interactions, the use of anchoring and naming conventions to ensure continuity across calls, and the strategic selection of specialized tools based on context. The author stresses the value of diagnostic hints, consistent naming discipline, and modular discovery tools that re...**
+
+**Features:**
+- Core verb set for efficient command execution
+- Structured tool recommendations with anchoring
+- Diagnostic hints and usage patterns
+- Modular discovery tools for traceability
+- Consistent naming conventions across calls
+- Tool mode customization (dry_run
+- safe
+- strict)
+- Recovery-friendly data structures
+- Audit-ready output formats
+
+*Tags: mcp, toolchain, modelchain, discovery, aiworkflow, documentprocessing, serverdesign, pythontools...*
+
+---
+
+### 14. [can-acar/jarvis](https://github.com/can-acar/jarvis)
+`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
+
+**The project is a high-performance Go implementation of an MCP server designed to seamlessly integrate with AI models, offering standardized interaction with AI assistants and context management. It provides essential features like secure command execution, file system operations, and text editing tools, all built on the Model Context Protocol.**
+
+**Features:**
+- Model Context Protocol (MCP) support
+- Secure command execution
+- File system operations
+- Text editing capabilities
+- HTTP fetch tools
+
+---
+
+### 15. [mcp2everything/mcp2tcp](https://github.com/mcp2everything/mcp2tcp)
+`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
+↗2 layers
+
+**The project aims to connect TCP devices to AI models through the MCP, enabling natural language control of hardware and real-time response from AI. It provides a framework for intelligent TCP communication, resource management, and flexible prompt systems, allowing users to command physical devices using natural language instructions.**
+
+**Features:**
+- Natural language control of hardware
+- Model Context Protocol (MCP) integration
+- AI model collaboration (e.g.
+- OpenAI
+- Claude Desktop)
+- Real-time state monitoring and error handling
+- Flexible prompt system for device commands
+
+---
+
+### 16. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)
+`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
+↗3 layers
+
+**The project demonstrates an agent-based solution for interacting with Canvas, offering specialized tools for students and educators to manage assignments, submissions, and course content within the Learning Management System. It showcases how agents can be leveraged to perform specific tasks related to student needs and educator responsibilities.**
+
+**Features:**
+- Agent Skills Integration
+- Canvas LMS Interaction
+- Student Toolset
+- Educator Toolset
+- Module Management
+
+---
+
+### 17. [adam-paterson/mcp-crew-ai](https://github.com/adam-paterson/mcp-crew-ai)
+`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+
+**The project provides an MCP Crew AI Server, which is designed to manage and execute crew AI workflows by leveraging the Model Context Protocol (MCP) to communicate effectively with LLMs and tools like Claude Desktop or Cursor IDE. It offers automatic configuration of agents and tasks from YAML files, command-line flexibility for custom paths, and seamless workflow execution capabilities.**
+
+**Features:**
+- Automatic Configuration from YAML files (`agents.yml` and `tasks.yml`).
+- Command Line Flexibility to pass custom paths for agent/task configurations.
+- Seamless Workflow Execution via the MCP crew AI server.
+- Local Development support using STDIO mode.
+
+*Tags: ai, mcp, agents, mcp-server, crewai, llm, python, agent-orchestration...*
+
+---
+
+### 18. [2b3pro/markdown2pdf-mcp](https://github.com/2b3pro/markdown2pdf-mcp)
+`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The tool provides an MCP server that converts Markdown content into PDFs, featuring syntax highlighting, custom CSS styling, support for various Markdown elements like headers and code blocks, and optional page numbering or watermarks. It is inspired by the markdown-pdf project, offering a simple command to generate high-quality PDF documents with excellent support for modern web features and fonts.**
+
+**Features:**
+- Convert Markdown to PDF with a single command
+- Syntax highlighting for code blocks
+- Custom CSS styling for PDF output
+- Support for Mermaid diagram rendering
+- Watermarks with configurable scope
+
+---
+
+### 19. [Gurify â Your Job Search, Automated](https://www.gurify.com/signup)
+`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**Gurify is an AI-powered recruitment platform designed to streamline the job search process by monitoring LinkedIn, company career pages, and other job boards. It uses advanced algorithms to analyze user profiles and job descriptions, generating personalized resumes and matching candidates with suitable opportunities. The system evaluates each match based on skill alignment, experience, and relevance, providing detailed explanations for each recommendation.**
+
+**Features:**
+- AI resume tailoring
+- Automated job search monitoring
+- Job scoring with explanations
+- One-click resume generation
+- ATS compatibility
+
+*Tags: ai, recruiting, job-matching, resume-optimization, career-search, automation, data-analysis, user-experience...*
+
+---
+
+### 20. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)
+`9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**This resource appears to be a structured curriculum or schedule for a course titled 'How To Make (almost) Anything,' spanning from an introductory session through various practical skills and design concepts. The schedule includes topics like computer-aided design, parametric design, project management, embedded programming, electronics design, and the final exam/open house.**
+
+**Features:**
+- A structured learning path covering CAD
+- version control
+- embedded systems
+- electronics
+- machining (CAM)
+- and finally
+- a comprehensive overview of machine building and system integration. The schedule emphasizes practical application and problem-solving.
+
+*Tags: ['maker', '3d-printing', 'electronics', 'cad', 'cam', 'embedded-systems', 'ai', 'version-control'...*
+
+---
+
+### 21. [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)
+`8.2` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The repository implements a Model Context Protocol (MCP) server specifically designed to integrate seamlessly with Claude Desktop and other MCP-compatible clients. It wraps essential Homebrew functionality into structured tools, allowing AI agents to perform package management tasks on macOS. The core innovation lies in providing a declarative Python interface for system operations, which is crucial for agent workflows.**
+
+**Features:**
+- Homebrew command execution via subprocess
+- MCP specification compliance (JSON-RPC 2.0)
+- Package Management features (install
+- uninstall
+- upgrade)
+- System health checks and updates
+- Declarative Python structure
+
+---
+
+### 22. [ai-zerolab/mcp-toolbox](https://github.com/ai-zerolab/mcp-toolbox)
+`9.6` ★★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**The repository provides a set of tools that allow LLMs to perform actions beyond just text generation, offering features like command-line execution and Figma integration. It emphasizes an extensible architecture for adding new API integrations and supports the MCP protocol compatibility with various LLMs.**
+
+**Features:**
+- Command Line Execution
+- Figma Integration
+- MCP Protocol Support
+- Extensible Architecture
+
+---
+
+### 23. [basebandit/kai](https://github.com/basebandit/kai)
+`8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**This resource is a Model Context Protocol (MCP) server designed to connect Large Language Models (LLMs) like Claude or Ollama with Kubernetes infrastructure. It acts as a bridge, allowing LLMs to interact with Kubernetes resources through natural language commands, providing a powerful interface for agent orchestration and context management.**
+
+**Features:**
+- Kubernetes cluster management
+- LLM integration (Claude/Ollama)
+- Context switching and resource management
+- API discovery and event streaming
+- MCP server functionality
+
+---
+
+### 24. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)
+`8.5` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The project, "PyMOL-MCP," demonstrates a powerful integration between PyMOL and Claude AI through the Model Context Protocol (MCP). This allows for natural language interaction to control PyMOL, facilitating conversational structural biology, molecular visualization manipulation, and analysis using the LLM's capabilities.**
+
+**Features:**
+- Two-way communication
+- Intelligent command parsing
+- Molecular visualization control
+- Code execution
+
+*Tags: pymol, claude-ai, mcp, structural-biology, molecular-visualization, llm-integration, python, api...*
+
+---
+
+### 25. [ahmad2x4/mcp-server-seq](https://github.com/ahmad2x4/mcp-server-seq)
+`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**The repository provides a solution for connecting the Claude AI agent to Seq's API endpoints, enabling sophisticated log analysis and incident investigation workflows. It defines a "Model Context Protocol" that allows the Claude skill to perform tasks like health checks or post-deployment monitoring by interacting with Seq data.**
+
+**Features:**
+- Signals Management (get_signals)
+- Event Management (get_events)
+- Alert Management (get_alert_state)
+- Seq API Integration
+- Claude Skill for Log Analysis
+
+---
+
+### 26. [hdresearch/mcp-shell](https://github.com/hdresearch/mcp-shell)
+`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The repository provides a server that acts as an MCP shell, offering secure and validated shell command execution capabilities for AI models. It integrates seamlessly with tools like Claude Desktop, providing a controlled environment where AI agents can execute system commands while benefiting from built-in security measures to prevent dangerous operations.**
+
+**Features:**
+- Secure command execution with blacklist protection
+- Command existence validation
+- MCP-compliant server implementation
+- Standard I/O based transport
+
+---
+
+### 27. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)
+`8.5` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The repository details a "Search Stock News MCP server," which functions as an open standard for AI systems to interact with data sources and tools. It offers real-time stock news searching via the Tavily API, customizable query templates, domain-specific filtering, and type-safe operations using TypeScript.**
+
+**Features:**
+- Search Stock News capabilities
+- Tavily API integration
+- Customizable search query templates
+- Type-safe operations (TypeScript)
+
+---
+
+### 28. [jakenuts/mcp-cli-exec](https://github.com/jakenuts/mcp-cli-exec)
+`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**The repository introduces `mcp-cli-exec`, a package that focuses on executing raw CLI commands and returning rich, structured results for the user. It differentiates itself by providing detailed execution results, including success/failure status, exit codes, stdout/stderr, and execution duration, which is crucial for robust workflow automation.**
+
+**Features:**
+- Execute raw CLI commands with structured output
+- Handle command execution timeouts
+- Provide detailed error information
+- Support for single or chained command execution
+
+---
+
+### 29. [Shema](https://en.wikipedia.org/wiki/Shema)
+`8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This analysis evaluates the Shema prayer's structure, historical context, theological significance, and its role within Jewish liturgy. It examines its linguistic nuances, rabbinic interpretations, and cultural importance, providing a comprehensive overview suitable for inclusion in the Borg Project intelligence database.**
+
+**Features:**
+- Detailed translation and translation rationale
+- Historical context and textual references
+- Theological implications and commandments
+- Cultural and liturgical significance
+- Comparative analysis with other religious texts
+
+*Tags: shema, jewish-prayer, torah, halakha, liturgy, religious-studies, textual-analysis, interfaith-comparison...*
+
+---
+
+### 30. [If I hear "design pattern" one more time, I'll go mad](https://purplesyringa.moe/blog/if-i-hear-design-pattern-one-more-time-ill-go-mad)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**A viral 2025 technical critique arguing that modern language primitives render many classic "Gang of Four" design patterns redundant and over-abstracted.**
+
+**Features:**
+- Critique of over-abstraction (Cargo Culting)
+- Command pattern as simple function
+- Data Store as simple variable
+- advocacy for idiomatic simplicity.
+
+*Tags: architecture, philosophy, software-engineering, rust, patterns, artificial-intelligence, blog, data...*
+
+---
+
+### 31. [Claude Code Developer Cheatsheet - Commands, Config & Workflows](https://awesomeclaude.ai/code-cheatsheet)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A comprehensive technical cheatsheet for Claude Code, covering extension mechanisms (agents/skills/hooks) and architectural best practices like CLAUDE.md.**
+
+**Features:**
+- Extension via .claude/agents and /skills
+- session compaction logic
+- PreToolUse/PostToolUse hooks
+- CLAUDE.md grounding paradigm.
+
+*Tags: claude-code, cheatsheet, extension, architecture, guide, artificial-intelligence, awesomeclaude, programming*
+
+---
+
+### 32. [lmammino/awesome-learn-by-playing](https://github.com/lmammino/awesome-learn-by-playing)
+`7.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This repository tries to collect some interesting resources that could help you to get some new tech skills by playing games.**
+
+**Features:**
+- The resource offers a variety of interactive and game-based learning challenges across various domains
+- including CSS challenges (CSS Battle
+- Grid Garder)
+- JavaScript/Web development games (JS Robot
+- Elevator Saga
+- WarriorJS)
+- and programming/AI concepts (Python Robot Rumble
+- RubyWarrior
+- Screeps).
+
+*Tags: ['css', 'javascript', 'git', 'webdev', 'ai', 'gamedev', 'programming', 'tutorials'...*
+
+---
+
+### 33. [fakepixels/base-mcp-server](https://github.com/fakepixels/base-mcp-server)
+`8.2` ★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**The `base-mcp-server` provides an interface for LLMs to interact with the Base network, covering tasks like wallet management, balance checking, and transaction execution. It is designed to work seamlessly with LLM clients like Claude Desktop, enabling agents to execute blockchain operations via natural language commands.**
+
+**Features:**
+- Natural Language Command Processing
+- Wallet Management (Create/Check)
+- Blockchain Operation Execution
+- Base Network Integration
+
+---
+
+### 34. [Anthropic Skills Can Be Programmatically Optimized (Using DSPy)](https://instavm.io/blog/anthropic-skills-can-be-optimized-using-dspy)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A methodological guide on using DSPy to programmatically optimize Anthropic SKILL.md files for higher agent accuracy and reliability.**
+
+**Features:**
+- Automated SKILL.md to DSPy conversion
+- algorithmic instruction phrasing
+- few-shot example optimization
+- verifiable performance gains.
+
+*Tags: dspy, prompt-engineering, optimization, anthropic, skill-synthesis, blog, instavm*
+
+---
+
+### 35. [Two kinds of AI users are emerging. The gap between them is astonishing.](https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**An analysis of the emerging productivity gap between autonomous agent "Power Users" and limited "Enterprise Chat" users.**
+
+**Features:**
+- 90% Cost reduction for power users
+- "Super Manager" agent orchestration
+- enterprise IT constraints vs independent speed
+- bifurcation of dev skills.
+
+*Tags: trends, productivity, agent-orchestration, vibe-coding, enterprise-ai, artificial-intelligence, martinalderson, tools*
+
+---
+
+### 36. [Bible errata - Wikipedia](https://en.m.wikipedia.org/wiki/Bible_errata)
+`7.7` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**This resource provides a detailed overview of the types of errors—including translation mistakes, scribal errors, and typographical errors—that have occurred across different published versions of the Bible. It specifically highlights several notable instances where errors were found in printed Bibles, such as specific misprints in the 'Judas Bible' (1613) and other editions, offering insight into the history of textual corruption within the biblical canon.**
+
+**Features:**
+- The article traces the history of error in the Bible
+- citing specific examples like the mistranslation of 'sword' to 'joy' in the Book of Kells
+- or the incorrect rendering of a commandment in the King James Version. It provides context on how these errors were identified and categorized.
+
+*Tags: ['bible', 'typographical-errors', 'scribal-errors', 'printing-history', 'textual-criticism', 'error-analysis', 'historical-editions', 'bible-errata']...*
+
+---
+
+### 37. [Download AnduinOS - AnduinOS Documentation](https://docs.anduinos.com/Install/Download-AnduinOS.html)
+`7.8` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**This resource provides step-by-step instructions on how to download the AnduinOS ISO, suggesting a torrent client like qBittorrent for efficient downloads. It emphasizes the crucial step of verifying the integrity of the downloaded file using the sha256sum command and comparing it against the provided checksum.**
+
+**Features:**
+- ISO download instructions
+- torrent client recommendation (qBittorrent)
+- checksum verification process
+- language version differences explanation
+
+*Tags: os-installation, download-guide, checksum-verification, torrenting, software-distribution, linux/windows*
+
+---
+
+### 38. [kruskal-labs/toolfront](https://github.com/kruskal-labs/toolfront)
+`8.5` ★ ⚡68 Q0.6✓ ✓ Solid
+↗2 layers
+
+**The resource is a GitHub repository for a tool named "statespace," which offers a search engine capability to retrieve information from websites and documentation. It demonstrates the power of search-engine capabilities, providing developers with tools to query specific sites or general queries across the web.**
+
+**Features:**
+- Search Engine
+- API
+- CLI
+- Agent Skill
+
+---
+
+### 39. [pico-8/awesome-PICO-8](https://github.com/pico-8/awesome-PICO-8)
+`7.3` ★ ⚡65 Q0.7✓ ✓ Solid
+↗2 layers
+
+**When you turn it on, the machine greets you with a shell for typing in a subset of Lua commands and provides simple built-in tools for creating your own cartridges.**
+
+**Features:**
+- PICO-8 is a fantasy console for making
+- sharing and playing tiny games and other computer programs. It uses Lua commands and offers tools for creating cartridges.
+
+*Tags: ['pico8', 'lua', 'demoscene', 'game-development', 'nostalgia', 'retro-gaming', 'web-development', 'tools'...*
+
+---
+
+### 40. [dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs](https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs)
+`7.5` ★ ⚡60 Q0.5✓ ✓ Solid
+↗2 layers
+
+**The platform provides structured AI learning paths, focusing on foundational concepts and practical applications for beginners.**
+
+**Features:**
+- AI course curriculum
+- step-by-step learning
+- beginner-friendly content
+- interactive lessons
+
+*Tags: ai, machine-learning, courses, developer, education, technology, learning, programming...*
+
+---
+
+### 41. [Is there a biblical list of sins? | GotQuestions.org](https://www.gotquestions.org/list-of-sins.html)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource provides a structured overview of the sins revealed in the Bible, contrasting the foundational laws (Ten Commandments) with the elevated moral teachings found in the Sermon on the Mount. It serves as a guide for understanding sin, righteousness, and practical application of biblical ethics.**
+
+**Features:**
+- Biblical list of sins
+- Ten Commandments summary
+- Jesus' teachings on sin
+- comprehensive ethical checklist
+
+*Tags: bible, theology, ethics, moral-lessons, christianity, list*
+
+---
+
+### 42. [the_law_of_one_book_1.pdf](https://assets.llresearch.org/books/the_law_of_one_book_1.pdf)
+`5.0` ★ ⚡58 Q0.6✓ ✓ Solid
+
+**The document appears to be a comprehensive guide or textbook, exploring the fundamental principles behind creating and mastering a single book. It provides a structured approach to understanding how to build, organize, and master a body of knowledge efficiently.**
+
+**Features:**
+- Principles of one-to-one mastery
+- Structured learning framework
+- Comprehensive guide structure
+- Deep dive into knowledge acquisition
+- Practical application for skill mastery
+
+*Tags: book, knowledge-management, learning-principles, mastery, self-study, strategy*
+
+---
+
+### 43. [What are the 613 commandments in the Old Testament Law? | GotQuestions.org](https://www.gotquestions.org/613-commandments.html)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This resource explores the traditional understanding of the 613 commandments in the Old Testament, examining the debate surrounding this number. It delves into how the law served as a tutor to Christ and the practical implications for obedience and sinfulness.**
+
+**Features:**
+- The 613 commandment count
+- Maimonides' breakdown (248 positive/365 negative)
+- theological significance of the Law
+- clarification on the purpose of the Law.
+
+*Tags: religion, theology, ancient-law, christianity, judaism, biblical-study, commandments*
+
+---
+
+### 44. [assets.llresearch.org/books/the_law_of_one_book_3.pdf](https://assets.llresearch.org/books/the_law_of_one_book_3.pdf)
+`5.0` ★ ⚡55 Q0.5✓ ✓ Solid
+
+**This resource is a comprehensive guide exploring the concept of the 'Law of One Book,' which provides a structured approach to acquiring, applying, and mastering skills. It outlines a methodology for turning knowledge into mastery through focused practice and application.**
+
+**Features:**
+- The core concept of the 'Law of One Book'
+- a framework for skill acquisition
+- a comprehensive guide to mastery
+- a structured approach to learning
+- a practical roadmap for expertise.
+
+*Tags: book*
+
+---
+
+### 45. [xkcd: Code Quality](https://xkcd.com/1513/)
+`5.0` ★ ⚡54 Q0.6✓ ✓ Solid
+
+**This resource is an XKCD comic that uses humor and relatable scenarios to illustrate the often-overlooked importance of code quality in software development. It highlights the gap between amateur coding skills and professional standards, making it a useful guide for understanding best practices.**
+
+**Features:**
+- Code Quality concept illustration
+- humorous commentary on coding styles
+- clear visualization of developer/coder roles
+
+*Tags: xkcd, coding, software, developer, quality, humor*
 
 ---
 
 ## Context Engineering
-> 43 tools · avg signal ⚡77
+> 44 tools · avg signal ⚡77
 
 ### 1. [awkoy/replicate-flux-mcp](https://github.com/awkoy/replicate-flux-mcp)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
@@ -6536,22 +14029,7 @@
 
 ---
 
-### 36. [openai-forges-multibillion-dollar-computing-partnership-with-cerebras-746a20e4](https://www.wsj.com/tech/ai/openai-forges-multibillion-dollar-computing-partnership-with-cerebras-746a20e4)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**A massive multi-year partnership where OpenAI secures 750 megawatts of computing power via Cerebras Wafer-Scale Engines for low-latency reasoning.**
-
-**Features:**
-- 10B multi-year agreement
-- Wafer-Scale Engine hardware
-- 15x faster inference speeds
-- independent of Nvidia/standard cloud.
-
-*Tags: openai, cerebras, infrastructure, hardware, low-latency*
-
----
-
-### 37. [item?id=41045012](https://news.ycombinator.com/item?id=41045012)
+### 36. [item?id=41045012](https://news.ycombinator.com/item?id=41045012)
 `7.8` ★ ⚡70 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6567,7 +14045,7 @@
 
 ---
 
-### 38. [One hundred weirdo emails](https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails)
+### 37. [One hundred weirdo emails](https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails)
 `7.7` ★ ⚡68 Q0.7✓ ✓ Solid
 
 **This resource examines a collection of peculiar emails that highlight challenges in identifying and understanding technical communication patterns, particularly around cURL, libcurl, and various network protocols. It underscores the importance of context and proper identification in cybersecurity and system administration.**
@@ -6578,6 +14056,15 @@
 - cybersecurity awareness
 
 *Tags: curl, libcurl, networking, security, protocols, data-analysis, system-administration, cyber-threats...*
+
+---
+
+### 38. [The Future of Email | Hacker News](https://news.ycombinator.com/item?id=48502321)
+`7.0` ★ ⚡66 Q19.8✓ ✓ Solid
+
+**It's extremely difficult to accurately identify which emails have health info and which ones don't (even something like a person's name or IP address could count depending on the context) so they just default to sending everything through their message center. No amount of email security could chang**
+
+*Tags: ai, guides*
 
 ---
 
@@ -6595,7 +14082,16 @@
 
 ---
 
-### 40. [GPT-5.2-Codex | Hacker News](https://news.ycombinator.com/item?id=46316367)
+### 40. [xAI is looking more like a datacentre REIT than a frontier lab - Martin Alderson](https://martinalderson.com/posts/xais-new-rental-business/)
+`6.0` ★ ⚡61 Q18.3✓ ✓ Solid
+
+**xAI is renting huge amounts of GPU capacity to Anthropic and Google. Financial engineering ahead of the SpaceX IPO, a real compute shortage, or a genuine datacentre advantage? Probably all three.**
+
+*Tags: ai, guides*
+
+---
+
+### 41. [GPT-5.2-Codex | Hacker News](https://news.ycombinator.com/item?id=46316367)
 `8.0` ★ ⚡60 Q0.6✓ ✓ Solid
 
 **A community analysis of the Lapsus$ GTA 6 hack, focusing on the use of ultra-low-end hardware (Firestick/Phone) and social engineering techniques.**
@@ -6609,692 +14105,42 @@
 
 ---
 
-### 41. [I Built A Functional Cognitive Engine](https://www.reddit.com/r/artificial/comments/1se34g7/i_built_a_functional_cognitive_engine/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 42. [REVIEW: The Wizard and the Prophet, by Charles C. Mann](https://www.thepsmiths.com/p/review-the-wizard-and-the-prophet)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
 
-**I Built A Functional Cognitive Engine**
-
----
-
-### 42. [I Built A Functional Cognitive Engine Sovereign](https://www.reddit.com/r/VibeCodeDevs/comments/1sezh8t/i_built_a_functional_cognitive_engine_sovereign/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Functional Cognitive Engine Sovereign**
-
----
-
-### 43. [I Reverseengineered 12 Microsaas Tools Making](https://www.reddit.com/r/microsaas/comments/1shgykp/i_reverseengineered_12_microsaas_tools_making/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Reverseengineered 12 Microsaas Tools Making**
-
----
-
-## Skill Systems
-> 41 tools · avg signal ⚡82
-
-### 1. [github/awesome-copilot](https://github.com/github/awesome-copilot)
-`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The 'awesome-copilot' repository curates various components—including specialized Agents that interact with MCP servers, standardized Instructions for consistent coding practices, self-contained Skills, Plugins bundling these elements, Hooks for automated session triggers, and AI-powered GitHub Actions Workflows—all aimed at supercharging the GitHub Copilot developer experience. It serves as a central hub for discovering, sharing, and installing these customizations via the Copilot CLI, providin...**
+**This resource is a review of Charles C. Mann's book, 'The Wizard and the Prophet,' which examines two remarkable scientists and their diverging visions for shaping the future. It delves into the historical context of agricultural challenges and how these visionary ideas shape the world's trajectory.**
 
 **Features:**
-- Custom agents
-- standardized instructions
-- specialized skills
-- plugin ecosystem
-- workflow automation via GitHub Actions
-- MCP server integration support
-- Copilot CLI integration.
+- Book Review
+- Scientific Vision Comparison
+- Historical Context Analysis
+- Agricultural/Environmental Themes
 
-*Tags: github-copilot, agent-framework, mcp, llm-customization, developer-workflow, ai-actions, copilot-cli, instruction-set...*
+*Tags: book-review, science, history, vision, agriculture, environmentalism*
 
 ---
 
-### 2. [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery)
-`10.0` ★★★ ⚡94 Q0.9🏆 🏆 World-class
-↗3 layers
+### 43. [semiengineering.com](https://semiengineering.com/the-sub-2nm-paradox/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**The Google AI Edge Gallery provides a secure, privacy-preserving environment to run large language models locally on mobile devices. It supports agent skills, thinking mode, image analysis, audio transcription, prompt testing, and model management, empowering developers to build and deploy intelligent apps without relying on cloud services.**
-
-**Features:**
-- On-device AI/ML inference
-- Agent Skills integration
-- Thinking Mode for model transparency
-- Image and audio processing
-- Prompt customization
-- Model management and benchmarking
-- Privacy-first architecture
-
-*Tags: ai, ml, generativeai, android, gpu, cloudless, security, development...*
+**semiengineering.com**
 
 ---
 
-### 3. [terrehbyte/awesome-devblogs](https://github.com/terrehbyte/awesome-devblogs)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
+### 44. [Castles — Structured Memory for Enterprise LLMs](https://www.buildcastles.fyi)
+`6.0` ★ ⚡48 Q0.5○ ○ Adequate
 
-**This repository serves two purposes: Writing down cool people (and companies) that do cool things. Showcasing various ways to showcase your work. To help showcase different types of portfolios, it's split into those that are strictly portfolios, while others are portfolios with a blog attached. Company websites are also included in their own section, reflecting how larger organizations differ in voice and presentation.**
-
-**Features:**
-- The resource provides links to various developer blogs
-- portfolio sites
-- and company websites
-- focusing on showcasing skills
-- projects
-- and technical expertise within the game development/tech sphere.
-
-*Tags: ['portfolio', 'gamedev', 'techblog', 'developertools', 'unity', 'c++', 'ai', 'graphics'...*
-
----
-
-### 4. [sichang824/mcp-terminal](https://github.com/sichang824/mcp-terminal)
-`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The MCP Terminal is a terminal control server built on the Model Context Protocol (MCP), specifically designed to integrate seamlessly with Large Language Models (LLMs) and AI assistants. It offers a standardized interface that allows AI to execute terminal commands and retrieve output results, supporting various terminal controllers like iTerm2, AppleScript, or Subprocess. The solution provides diverse modes of operation (STDIO, SSE) and various tools for file manipulation, ensuring seamless in...**
+**BuildCastles is a platform that provides in-depth articles, guides, and insights into the latest trends in software engineering, developer tools, and AI integration. It serves as a valuable resource for developers looking to understand emerging patterns and best practices.**
 
 **Features:**
-- Official MCP SDK implementation
-- Support for multiple terminal controllers (iTerm2
-- AppleScript
-- Subprocess)
-- Support for server modes (STDIO
-- SSE)
-- Terminal tools and file operations
-- Docker deployment support
+- In-depth articles
 
----
-
-### 5. [matthewdcage/cursor-mcp-installer](https://github.com/matthewdcage/cursor-mcp-installer)
-`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
-↗4 layers
-
-**The tool offers a complete rewrite of the MCP installer, enabling users to install and configure MCP servers for major AI clients like Claude Desktop, Cursor, VS Code, OpenClaw, and ChatGPT. It provides a branded web dashboard and a quick start guide to easily set up MCP servers with one command, which is essential for managing AI agent workflows and context engineering.**
-
-**Features:**
-- Universal MCP Installer
-- Cross-Platform Support (macOS
-- Windows
-- Linux)
-- Real MCP Handshake Validation
-- Web Dashboard Integration
-- Easy Installation via `npx` commands.
-
-*Tags: universal-mcp-installer, mcp, ai-agents, context-engineering, cross-platform, vscode, claude, openai...*
-
----
-
-### 6. [command-tab/awesome-n64-development](https://github.com/command-tab/awesome-n64-development)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-
-**This repository provides a comprehensive collection of resources for Nintendo 64 development, encompassing toolchains, documentation, emulators, example code, and various aspects of the N64 ecosystem. It serves as a valuable resource for developers interested in the architecture, emulation, reverse engineering, and understanding of the Nintendo 64 console.**
-
-**Features:**
-- Toolchains
-- Documentation
-- Emulators
-- Example Code
-- Reverse Engineering Projects
-- Guides
-- Reference Tools
-- and Disassemblers.
-
-*Tags: ['n64', 'emulation', 'developmenttools', 'reverseengineering', 'toolchains', 'documentation', 'hardware', 'tutorials'...*
-
----
-
-### 7. [pinkpixel-dev/mindbridge-mcp](https://github.com/pinkpixel-dev/mindbridge-mcp)
-`9.6` ★★ ⚡90 Q0.8🏆 🏆 World-class
-
-**This resource describes "MindBridge," an AI router designed to supercharge LLM workflows by connecting various models. It focuses on multi-LLM support, intelligent routing for reasoning tasks, and providing tools for comparing responses, positioning it as a core component for agent builders and AI orchestration engines.**
-
-**Features:**
-- Multi-LLM Support (OpenAI
-- Anthropic
-- Ollama
-- etc.)
-- Reasoning Engine Aware Routing
-- Second Opinion Tool
-- OpenAI-Compatible API Layer
-
-*Tags: agent, mcp, agents, reasoning, llm, reasoning-agent, ai-orchestration, model-routing...*
-
----
-
-### 8. [heilcheng/awesome-agent-skills](https://github.com/heilcheng/awesome-agent-skills)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This resource provides a comprehensive list of practical agent skills, categorized to help Borg understand how to effectively integrate these capabilities into its operations. The skills are designed for immediate use with popular AI agents like Claude, Copilot, and others, streamlining workflows and enhancing productivity.**
-
-**Features:**
-- Agent skill directories
-- Integration guides for AI tools
-- Code examples and usage instructions
-- Performance optimization tips
-- Security considerations
-
-*Tags: agent-skills, ai-integration, developer-tools, code-examples, security*
-
----
-
-### 9. [krzysztofdudek/ResearcherSkill](https://github.com/krzysztofdudek/ResearcherSkill)
-`9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
-
-**The skill provides a framework for an AI agent to execute research loops, testing hypotheses, and iterating on solutions by separating reading constraints from writing implementations. It offers a powerful way to guide an AI agent's capabilities through structured experimentation within developer tools.**
-
-**Features:**
-- Autonomous Agent Experimentation
-- Read/Write Phase Separation
-- Hypothesis Testing
-- AI Coding Agent Plugin
-- Developer Workflow Optimization
-
-*Tags: ai-agent, cursor, codex, experimentation, optimization, developer-tools, skill, researcher...*
-
----
-
-### 10. [gongrzhe/terminal-controller-mcp](https://github.com/gongrzhe/terminal-controller-mcp)
-`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
-
-**The resource details a "Terminal Controller for MCP," which serves as a standardized interface for executing terminal commands, managing directory navigation, and performing file system operations securely. It highlights the core functionality of running terminal commands with timeout controls, navigating directories, and interacting with files, emphasizing cross-platform support.**
-
-**Features:**
-- Command Execution
-- Directory Management
-- Security Measures
-- File Operations
-- Cross-Platform Support
-
-*Tags: terminal-controller, mcp, agent-orchestration, secure-execution, file-system-ops, python, cli, claude-desktop*
-
----
-
-### 11. [benjamine/jsondiffpatch](https://github.com/benjamine/jsondiffpatch/tree/HEAD/packages/diff-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**jsondiffpatch is a command-line utility designed to compare text or structured data across different versions. It supports various output formats such as plain text, JSON, and JSON patch, making it versatile for developers needing to identify differences in code, configuration files, or other data sets.**
-
-**Features:**
-- Compare text using diff algorithms
-- Support multiple output formats (text
-- json
-- jsonpatch)
-- Integrate with GitHub Actions for automated workflows
-
-*Tags: diff, jsondiffpatch, code-comparison, developer-tools, text-diff, git-hooks, code-automation, version-control...*
-
----
-
-### 12. [automateyournetwork/pyats_mcp](https://github.com/automateyournetwork/pyats_mcp)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-
-**The project is a Python MCP server designed to bridge the gap between traditional networking tools (Cisco pyATS) and modern AI agent frameworks like Claude or LangGraph. It focuses on providing a structured interface for AI agents to interact with network devices, handling configuration application and state querying through standard STDIN/STDOUT communication.**
-
-**Features:**
-- JSON-RPC 2.0
-- AI Agent Integration
-- Network State Querying
-- Configuration Application
-- Python Server Implementation
-
-*Tags: ai-agents, claude, langgraph, jsonrpc, network-automation, python-server, cisco-pyats, mcp...*
-
----
-
-### 13. [cloudwerx-dev/gpt-image-1-mcp](https://github.com/cloudwerx-dev/gpt-image-1-mcp)
-`9.5` ★★ ⚡87 Q0.7🏆 🏆 World-class
-↗2 layers
-
-**The repository details an MCP server designed to facilitate image generation and editing workflows, leveraging the power of the OpenAI GPT-Image-1 model. It includes instructions for setting up the necessary environment variables and demonstrates how to integrate this service with various client tools like VS Code extensions (Roo, Cursor) to enable AI-powered image manipulation.**
-
-**Features:**
-- MCP Server for Image Generation
-- OpenAI GPT-Image-1 Integration
-- Command Line Execution via NPX
-- Easy Setup for API Key Configuration
-- Client Integration Examples
-
----
-
-### 14. [2341](https://taoofmac.com/space/blog/2026/04/29/2341)
-`10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
-
-**This resource outlines a streamlined approach for constructing MCP (Model-to-Command) servers, emphasizing the importance of a well-defined tool chain. It highlights the necessity of a small set of core verbs to guide model interactions, the use of anchoring and naming conventions to ensure continuity across calls, and the strategic selection of specialized tools based on context. The author stresses the value of diagnostic hints, consistent naming discipline, and modular discovery tools that re...**
-
-**Features:**
-- Core verb set for efficient command execution
-- Structured tool recommendations with anchoring
-- Diagnostic hints and usage patterns
-- Modular discovery tools for traceability
-- Consistent naming conventions across calls
-- Tool mode customization (dry_run
-- safe
-- strict)
-- Recovery-friendly data structures
-- Audit-ready output formats
-
-*Tags: mcp, toolchain, modelchain, discovery, aiworkflow, documentprocessing, serverdesign, pythontools...*
-
----
-
-### 15. [can-acar/jarvis](https://github.com/can-acar/jarvis)
-`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
-
-**The project is a high-performance Go implementation of an MCP server designed to seamlessly integrate with AI models, offering standardized interaction with AI assistants and context management. It provides essential features like secure command execution, file system operations, and text editing tools, all built on the Model Context Protocol.**
-
-**Features:**
-- Model Context Protocol (MCP) support
-- Secure command execution
-- File system operations
-- Text editing capabilities
-- HTTP fetch tools
-
----
-
-### 16. [mcp2everything/mcp2tcp](https://github.com/mcp2everything/mcp2tcp)
-`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
-↗2 layers
-
-**The project aims to connect TCP devices to AI models through the MCP, enabling natural language control of hardware and real-time response from AI. It provides a framework for intelligent TCP communication, resource management, and flexible prompt systems, allowing users to command physical devices using natural language instructions.**
-
-**Features:**
-- Natural language control of hardware
-- Model Context Protocol (MCP) integration
-- AI model collaboration (e.g.
-- OpenAI
-- Claude Desktop)
-- Real-time state monitoring and error handling
-- Flexible prompt system for device commands
-
----
-
-### 17. [vishalsachdev/canvas-mcp](https://github.com/vishalsachdev/canvas-mcp)
-`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
-↗3 layers
-
-**The project demonstrates an agent-based solution for interacting with Canvas, offering specialized tools for students and educators to manage assignments, submissions, and course content within the Learning Management System. It showcases how agents can be leveraged to perform specific tasks related to student needs and educator responsibilities.**
-
-**Features:**
-- Agent Skills Integration
-- Canvas LMS Interaction
-- Student Toolset
-- Educator Toolset
-- Module Management
-
----
-
-### 18. [adam-paterson/mcp-crew-ai](https://github.com/adam-paterson/mcp-crew-ai)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**The project provides an MCP Crew AI Server, which is designed to manage and execute crew AI workflows by leveraging the Model Context Protocol (MCP) to communicate effectively with LLMs and tools like Claude Desktop or Cursor IDE. It offers automatic configuration of agents and tasks from YAML files, command-line flexibility for custom paths, and seamless workflow execution capabilities.**
-
-**Features:**
-- Automatic Configuration from YAML files (`agents.yml` and `tasks.yml`).
-- Command Line Flexibility to pass custom paths for agent/task configurations.
-- Seamless Workflow Execution via the MCP crew AI server.
-- Local Development support using STDIO mode.
-
-*Tags: ai, mcp, agents, mcp-server, crewai, llm, python, agent-orchestration...*
-
----
-
-### 19. [2b3pro/markdown2pdf-mcp](https://github.com/2b3pro/markdown2pdf-mcp)
-`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The tool provides an MCP server that converts Markdown content into PDFs, featuring syntax highlighting, custom CSS styling, support for various Markdown elements like headers and code blocks, and optional page numbering or watermarks. It is inspired by the markdown-pdf project, offering a simple command to generate high-quality PDF documents with excellent support for modern web features and fonts.**
-
-**Features:**
-- Convert Markdown to PDF with a single command
-- Syntax highlighting for code blocks
-- Custom CSS styling for PDF output
-- Support for Mermaid diagram rendering
-- Watermarks with configurable scope
-
----
-
-### 20. [Gurify â Your Job Search, Automated](https://www.gurify.com/signup)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**Gurify is an AI-powered recruitment platform designed to streamline the job search process by monitoring LinkedIn, company career pages, and other job boards. It uses advanced algorithms to analyze user profiles and job descriptions, generating personalized resumes and matching candidates with suitable opportunities. The system evaluates each match based on skill alignment, experience, and relevance, providing detailed explanations for each recommendation.**
-
-**Features:**
-- AI resume tailoring
-- Automated job search monitoring
-- Job scoring with explanations
-- One-click resume generation
-- ATS compatibility
-
-*Tags: ai, recruiting, job-matching, resume-optimization, career-search, automation, data-analysis, user-experience...*
-
----
-
-### 21. [HTMAA 2025](https://fab.cba.mit.edu/classes/MAS.863)
-`9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**This resource appears to be a structured curriculum or schedule for a course titled 'How To Make (almost) Anything,' spanning from an introductory session through various practical skills and design concepts. The schedule includes topics like computer-aided design, parametric design, project management, embedded programming, electronics design, and the final exam/open house.**
-
-**Features:**
-- A structured learning path covering CAD
-- version control
-- embedded systems
-- electronics
-- machining (CAM)
-- and finally
-- a comprehensive overview of machine building and system integration. The schedule emphasizes practical application and problem-solving.
-
-*Tags: ['maker', '3d-printing', 'electronics', 'cad', 'cam', 'embedded-systems', 'ai', 'version-control'...*
-
----
-
-### 22. [jeannier/homebrew-mcp](https://github.com/jeannier/homebrew-mcp)
-`8.2` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The repository implements a Model Context Protocol (MCP) server specifically designed to integrate seamlessly with Claude Desktop and other MCP-compatible clients. It wraps essential Homebrew functionality into structured tools, allowing AI agents to perform package management tasks on macOS. The core innovation lies in providing a declarative Python interface for system operations, which is crucial for agent workflows.**
-
-**Features:**
-- Homebrew command execution via subprocess
-- MCP specification compliance (JSON-RPC 2.0)
-- Package Management features (install
-- uninstall
-- upgrade)
-- System health checks and updates
-- Declarative Python structure
-
----
-
-### 23. [ai-zerolab/mcp-toolbox](https://github.com/ai-zerolab/mcp-toolbox)
-`9.6` ★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The repository provides a set of tools that allow LLMs to perform actions beyond just text generation, offering features like command-line execution and Figma integration. It emphasizes an extensible architecture for adding new API integrations and supports the MCP protocol compatibility with various LLMs.**
-
-**Features:**
-- Command Line Execution
-- Figma Integration
-- MCP Protocol Support
-- Extensible Architecture
-
----
-
-### 24. [basebandit/kai](https://github.com/basebandit/kai)
-`8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**This resource is a Model Context Protocol (MCP) server designed to connect Large Language Models (LLMs) like Claude or Ollama with Kubernetes infrastructure. It acts as a bridge, allowing LLMs to interact with Kubernetes resources through natural language commands, providing a powerful interface for agent orchestration and context management.**
-
-**Features:**
-- Kubernetes cluster management
-- LLM integration (Claude/Ollama)
-- Context switching and resource management
-- API discovery and event streaming
-- MCP server functionality
-
----
-
-### 25. [vrtejus/pymol-mcp](https://github.com/vrtejus/pymol-mcp)
-`8.5` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The project, "PyMOL-MCP," demonstrates a powerful integration between PyMOL and Claude AI through the Model Context Protocol (MCP). This allows for natural language interaction to control PyMOL, facilitating conversational structural biology, molecular visualization manipulation, and analysis using the LLM's capabilities.**
-
-**Features:**
-- Two-way communication
-- Intelligent command parsing
-- Molecular visualization control
-- Code execution
-
-*Tags: pymol, claude-ai, mcp, structural-biology, molecular-visualization, llm-integration, python, api...*
-
----
-
-### 26. [ahmad2x4/mcp-server-seq](https://github.com/ahmad2x4/mcp-server-seq)
-`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The repository provides a solution for connecting the Claude AI agent to Seq's API endpoints, enabling sophisticated log analysis and incident investigation workflows. It defines a "Model Context Protocol" that allows the Claude skill to perform tasks like health checks or post-deployment monitoring by interacting with Seq data.**
-
-**Features:**
-- Signals Management (get_signals)
-- Event Management (get_events)
-- Alert Management (get_alert_state)
-- Seq API Integration
-- Claude Skill for Log Analysis
-
----
-
-### 27. [minipuft/claude-prompts-mcp](https://github.com/minipuft/claude-prompts-mcp)
-`9.6` ★★ ⚡79 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The repository offers a solution to build powerful, validated prompt engineering capabilities for interacting with LLMs like Claude. It focuses on creating structured workflows, validating outputs, and enabling multi-step or agentic tasks within an AI client framework.**
-
-**Features:**
-- Compose Workflows
-- Execute subagents
-- Client-native skill format
-- Manual prompt writing
-
----
-
-### 28. [hdresearch/mcp-shell](https://github.com/hdresearch/mcp-shell)
-`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The repository provides a server that acts as an MCP shell, offering secure and validated shell command execution capabilities for AI models. It integrates seamlessly with tools like Claude Desktop, providing a controlled environment where AI agents can execute system commands while benefiting from built-in security measures to prevent dangerous operations.**
-
-**Features:**
-- Secure command execution with blacklist protection
-- Command existence validation
-- MCP-compliant server implementation
-- Standard I/O based transport
-
----
-
-### 29. [cognitive-stack/search-stock-news-mcp](https://github.com/cognitive-stack/search-stock-news-mcp)
-`8.5` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The repository details a "Search Stock News MCP server," which functions as an open standard for AI systems to interact with data sources and tools. It offers real-time stock news searching via the Tavily API, customizable query templates, domain-specific filtering, and type-safe operations using TypeScript.**
-
-**Features:**
-- Search Stock News capabilities
-- Tavily API integration
-- Customizable search query templates
-- Type-safe operations (TypeScript)
-
----
-
-### 30. [jakenuts/mcp-cli-exec](https://github.com/jakenuts/mcp-cli-exec)
-`8.2` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**The repository introduces `mcp-cli-exec`, a package that focuses on executing raw CLI commands and returning rich, structured results for the user. It differentiates itself by providing detailed execution results, including success/failure status, exit codes, stdout/stderr, and execution duration, which is crucial for robust workflow automation.**
-
-**Features:**
-- Execute raw CLI commands with structured output
-- Handle command execution timeouts
-- Provide detailed error information
-- Support for single or chained command execution
-
----
-
-### 31. [Shema](https://en.wikipedia.org/wiki/Shema)
-`8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This analysis evaluates the Shema prayer's structure, historical context, theological significance, and its role within Jewish liturgy. It examines its linguistic nuances, rabbinic interpretations, and cultural importance, providing a comprehensive overview suitable for inclusion in the Borg Project intelligence database.**
-
-**Features:**
-- Detailed translation and translation rationale
-- Historical context and textual references
-- Theological implications and commandments
-- Cultural and liturgical significance
-- Comparative analysis with other religious texts
-
-*Tags: shema, jewish-prayer, torah, halakha, liturgy, religious-studies, textual-analysis, interfaith-comparison...*
-
----
-
-### 32. [If I hear "design pattern" one more time, I'll go mad](https://purplesyringa.moe/blog/if-i-hear-design-pattern-one-more-time-ill-go-mad)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**A viral 2025 technical critique arguing that modern language primitives render many classic "Gang of Four" design patterns redundant and over-abstracted.**
-
-**Features:**
-- Critique of over-abstraction (Cargo Culting)
-- Command pattern as simple function
-- Data Store as simple variable
-- advocacy for idiomatic simplicity.
-
-*Tags: architecture, philosophy, software-engineering, rust, patterns, artificial-intelligence, blog, data...*
-
----
-
-### 33. [Claude Code Developer Cheatsheet - Commands, Config & Workflows](https://awesomeclaude.ai/code-cheatsheet)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A comprehensive technical cheatsheet for Claude Code, covering extension mechanisms (agents/skills/hooks) and architectural best practices like CLAUDE.md.**
-
-**Features:**
-- Extension via .claude/agents and /skills
-- session compaction logic
-- PreToolUse/PostToolUse hooks
-- CLAUDE.md grounding paradigm.
-
-*Tags: claude-code, cheatsheet, extension, architecture, guide, artificial-intelligence, awesomeclaude, programming*
-
----
-
-### 34. [lmammino/awesome-learn-by-playing](https://github.com/lmammino/awesome-learn-by-playing)
-`7.8` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This repository tries to collect some interesting resources that could help you to get some new tech skills by playing games.**
-
-**Features:**
-- The resource offers a variety of interactive and game-based learning challenges across various domains
-- including CSS challenges (CSS Battle
-- Grid Garder)
-- JavaScript/Web development games (JS Robot
-- Elevator Saga
-- WarriorJS)
-- and programming/AI concepts (Python Robot Rumble
-- RubyWarrior
-- Screeps).
-
-*Tags: ['css', 'javascript', 'git', 'webdev', 'ai', 'gamedev', 'programming', 'tutorials'...*
-
----
-
-### 35. [fakepixels/base-mcp-server](https://github.com/fakepixels/base-mcp-server)
-`8.2` ★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**The `base-mcp-server` provides an interface for LLMs to interact with the Base network, covering tasks like wallet management, balance checking, and transaction execution. It is designed to work seamlessly with LLM clients like Claude Desktop, enabling agents to execute blockchain operations via natural language commands.**
-
-**Features:**
-- Natural Language Command Processing
-- Wallet Management (Create/Check)
-- Blockchain Operation Execution
-- Base Network Integration
-
----
-
-### 36. [Anthropic Skills Can Be Programmatically Optimized (Using DSPy)](https://instavm.io/blog/anthropic-skills-can-be-optimized-using-dspy)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A methodological guide on using DSPy to programmatically optimize Anthropic SKILL.md files for higher agent accuracy and reliability.**
-
-**Features:**
-- Automated SKILL.md to DSPy conversion
-- algorithmic instruction phrasing
-- few-shot example optimization
-- verifiable performance gains.
-
-*Tags: dspy, prompt-engineering, optimization, anthropic, skill-synthesis, blog, instavm*
-
----
-
-### 37. [Two kinds of AI users are emerging. The gap between them is astonishing.](https://martinalderson.com/posts/two-kinds-of-ai-users-are-emerging)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-↗3 layers
-
-**An analysis of the emerging productivity gap between autonomous agent "Power Users" and limited "Enterprise Chat" users.**
-
-**Features:**
-- 90% Cost reduction for power users
-- "Super Manager" agent orchestration
-- enterprise IT constraints vs independent speed
-- bifurcation of dev skills.
-
-*Tags: trends, productivity, agent-orchestration, vibe-coding, enterprise-ai, artificial-intelligence, martinalderson, tools*
-
----
-
-### 38. [Bible errata - Wikipedia](https://en.m.wikipedia.org/wiki/Bible_errata)
-`7.7` ★ ⚡71 Q0.7⭐ ⭐ Excellent
-
-**This resource provides a detailed overview of the types of errors—including translation mistakes, scribal errors, and typographical errors—that have occurred across different published versions of the Bible. It specifically highlights several notable instances where errors were found in printed Bibles, such as specific misprints in the 'Judas Bible' (1613) and other editions, offering insight into the history of textual corruption within the biblical canon.**
-
-**Features:**
-- The article traces the history of error in the Bible
-- citing specific examples like the mistranslation of 'sword' to 'joy' in the Book of Kells
-- or the incorrect rendering of a commandment in the King James Version. It provides context on how these errors were identified and categorized.
-
-*Tags: ['bible', 'typographical-errors', 'scribal-errors', 'printing-history', 'textual-criticism', 'error-analysis', 'historical-editions', 'bible-errata']...*
-
----
-
-### 39. [kruskal-labs/toolfront](https://github.com/kruskal-labs/toolfront)
-`8.5` ★ ⚡68 Q0.6✓ ✓ Solid
-↗2 layers
-
-**The resource is a GitHub repository for a tool named "statespace," which offers a search engine capability to retrieve information from websites and documentation. It demonstrates the power of search-engine capabilities, providing developers with tools to query specific sites or general queries across the web.**
-
-**Features:**
-- Search Engine
-- API
-- CLI
-- Agent Skill
-
----
-
-### 40. [pico-8/awesome-PICO-8](https://github.com/pico-8/awesome-PICO-8)
-`7.3` ★ ⚡65 Q0.7✓ ✓ Solid
-↗2 layers
-
-**When you turn it on, the machine greets you with a shell for typing in a subset of Lua commands and provides simple built-in tools for creating your own cartridges.**
-
-**Features:**
-- PICO-8 is a fantasy console for making
-- sharing and playing tiny games and other computer programs. It uses Lua commands and offers tools for creating cartridges.
-
-*Tags: ['pico8', 'lua', 'demoscene', 'game-development', 'nostalgia', 'retro-gaming', 'web-development', 'tools'...*
-
----
-
-### 41. [dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs](https://coursiv.io/dynamic?prc_id=1134&gad_source=2&gad_campaignid=23797420521&gbraid=0AAAAAqLBHaBJVWPs5zfaHuXycAt4atIi9&wbraid=Cl0KCQjwntHPBhDyARJMAAE5VhRlQklYBQF-KZrAvf94raa0l6b-8uJV8kvxIVkTmmvgudNfSllgbaqklwVLGVZUsI3PBqP4phYf3aOz3v9v_ftMhAT9-xPxUxoCajs)
-`7.5` ★ ⚡60 Q0.5✓ ✓ Solid
-↗2 layers
-
-**The platform provides structured AI learning paths, focusing on foundational concepts and practical applications for beginners.**
-
-**Features:**
-- AI course curriculum
-- step-by-step learning
-- beginner-friendly content
-- interactive lessons
-
-*Tags: ai, machine-learning, courses, developer, education, technology, learning, programming...*
+*Tags: software-engineering, developer-tools, ai-trends, tech-insights, best-practices, learning, tutorials*
 
 ---
 
 ## Orchestration
-> 40 tools · avg signal ⚡83
+> 42 tools · avg signal ⚡82
 
 ### 1. [ssdeanx/deep-research-mcp-server](https://github.com/ssdeanx/deep-research-mcp-server)
 `9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
@@ -7835,7 +14681,23 @@
 
 ---
 
-### 35. [Open AI Codex vs Github Copilot vs Claude | Testing & Benchmarks](https://www.allaboutai.com/ai-agents/open-ai-codex-vs-github-copilot-vs-claude)
+### 35. [robertpelloni.com](https://robertpelloni.com/posts/)
+`8.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**Robert Pelloni's website serves as a hub for in-depth articles and insights into the cutting edge of AI development, covering topics from agent orchestration and context engineering to practical coding tools and emerging industry trends. It provides valuable guidance for developers interested in understanding and implementing advanced AI capabilities.**
+
+**Features:**
+- AI Agent Orchestration
+- Context Engineering
+- Developer Workflow Insights
+- Practical Guides
+- Emerging Trends
+
+*Tags: ai-development, agent-orchestration, developer-tools, ai-trends, engineering, workflow, tutorials*
+
+---
+
+### 36. [Open AI Codex vs Github Copilot vs Claude | Testing & Benchmarks](https://www.allaboutai.com/ai-agents/open-ai-codex-vs-github-copilot-vs-claude)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 ↗4 layers
 
@@ -7851,7 +14713,7 @@
 
 ---
 
-### 36. [octomind-dev/octomind-mcp](https://github.com/octomind-dev/octomind-mcp)
+### 37. [octomind-dev/octomind-mcp](https://github.com/octomind-dev/octomind-mcp)
 `8.2` ★ ⚡76 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -7865,7 +14727,7 @@
 
 ---
 
-### 37. [Agent Psychosis: Are We Going Insane?](https://lucumr.pocoo.org/2026/1/18/agent-psychosis)
+### 38. [Agent Psychosis: Are We Going Insane?](https://lucumr.pocoo.org/2026/1/18/agent-psychosis)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A seminal critique by Armin Ronacher on the "dopamine loop" of agent development and the danger of "maintainer asymmetry" in open source.**
@@ -7880,7 +14742,7 @@
 
 ---
 
-### 38. [The creator of Clawd: "I ship code I don't read"](https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code)
+### 39. [The creator of Clawd: "I ship code I don't read"](https://newsletter.pragmaticengineer.com/p/the-creator-of-clawd-i-ship-code)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **The 'I ship code I don't fully read' philosophy, shifting the engineer's role from manual implementation to high-level system verification.**
@@ -7895,7 +14757,7 @@
 
 ---
 
-### 39. [Despite hardware limits, Parallels supports running Windows on MacBook Neo](https://arstechnica.com/gadgets/2026/03/despite-hardware-limits-parallels-supports-running-windows-on-macbook-neo)
+### 40. [Despite hardware limits, Parallels supports running Windows on MacBook Neo](https://arstechnica.com/gadgets/2026/03/despite-hardware-limits-parallels-supports-running-windows-on-macbook-neo)
 `7.8` ★ ⚡73 Q0.8⭐ ⭐ Excellent
 
 **The article evaluates whether the Parallels Desktop virtualization platform can effectively run Windows on Apple Silicon MacBook Neo, focusing on performance limitations, compatibility with demanding workloads, and recommended usage scenarios. It highlights the trade-offs between single-core CPU performance and overall usability for productivity tasks.**
@@ -7910,7 +14772,7 @@
 
 ---
 
-### 40. [Qodo Outperforms Claude in Code Review Benchmark](https://www.qodo.ai/blog/qodo-outperforms-claude-in-code-review-benchmark)
+### 41. [Qodo Outperforms Claude in Code Review Benchmark](https://www.qodo.ai/blog/qodo-outperforms-claude-in-code-review-benchmark)
 `10.0` ★★★ ⚡72 Q0.7⭐ ⭐ Excellent
 ↗4 layers
 
@@ -7925,616 +14787,24 @@
 
 ---
 
-## Config & Profile Management
-> 38 tools · avg signal ⚡81
+### 42. [Read the 2025 Gartner® Magic Quadrant™ for Desktop as a Service & get the details on Parallels’ recognition as a Visionary.](https://www.parallels.com/products/ras/all-resources/reports/gartner/magic-quadrant-2025?rdt_cid=5020416927534370523)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-### 1. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)
-`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗5 layers
-
-**The 'awesome-pieces' repository serves as a centralized index for resources related to Pieces, an AI-driven productivity tool designed to integrate with the developer toolchain. It curates installation guides, IDE plugins (for JetBrains, VS Code, JupyterLab), browser extensions, articles demonstrating use cases (like context-aware Copilot interactions and snippet extraction), community links, and tutorials. The core technical focus lies in creating a seamless, context-aware interface layer that ...**
+**This resource provides insights into the evolving DaaS landscape, evaluating vendor capabilities for delivering desktops and applications securely and cost-effectively. It helps IT departments understand how to leverage cloud-based desktop delivery solutions and positions Parallels' offerings against competitors in the market.**
 
 **Features:**
-- AI-enabled productivity tool
-- On-device copilot
-- Toolchain unification
-- Contextual understanding of workflow
-- Code snippet capture and reuse
-- IDE and browser extensions
-- Activity view for workflow backtracking
-
-*Tags: developer-productivity, ai-copilot, snippet-management, ide-integration, workflow-automation, context-engineering, developer-experience, llm-integration...*
-
----
-
-### 2. [geli2001/shopify-mcp](https://github.com/geli2001/shopify-mcp)
-`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
-
-**The project provides a server solution that acts as an intermediary between the Shopify store and the developer tooling, enabling deep integration with product management, customer details, order tracking, and inventory control through a dedicated GraphQL API layer. It focuses on providing robust tools for managing core business entities within the Shopify ecosystem.**
-
-**Features:**
-- Product Management
-- Customer Management
-- Order Management
-- Metafield Management
-- Inventory Management
-
-*Tags: typescript, shopify, mcp, mcp-server, graphql, api, nodejs, development...*
-
----
-
-### 3. [tim10002/mcp-azresource](https://github.com/tim10002/mcp-azresource)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The MCP Server provides a platform for developers to interact with Azure resources directly from MCP clients. It offers features such as listing, filtering, cost analysis, secure authentication via service principals, and detailed views of resources. This tool is designed to streamline workflows by integrating Azure management with MCP, enabling efficient resource discovery, cost tracking, and secure access.**
-
-**Features:**
-- Azure resource discovery
-- Cost analysis
-- Secure authentication
-- Resource listing
-- Environment configuration
-
-*Tags: github, azure, mcp, developer, security, automation, cloud, integration...*
-
----
-
-### 4. [dkruyt/mcp-hetzner](https://github.com/dkruyt/mcp-hetzner)
-`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project defines a Python-based MCP server designed to facilitate the management of Hetzner Cloud resources, including listing, creating, and managing servers, volumes, firewall rules, and SSH keys. It integrates directly with Claude Code, offering a structured API for language models to perform actions on cloud infrastructure, such as powering on/off or resizing virtual machines.**
-
-**Features:**
-- List
-- create
-- and manage Hetzner Cloud servers
-- Create
-- attach
-- detach
-- and resize volumes
-- Manage firewall rules
-- Claude Code integration for managing Hetzner resources directly from Claude.
-
-*Tags: mcp, hetzner-cloud, language-model, claude-code, server-management, cloud-infrastructure, api, python...*
-
----
-
-### 5. [xlengelle-sf/agentforce-mcp-xlengelle](https://github.com/xlengelle-sf/agentforce-mcp-xlengelle)
-`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The repository provides a complete solution for setting up and running an agentforce MCP server, which is crucial for enabling authentication, session creation, and message exchange with Agentforce agents within the Salesforce ecosystem. It includes detailed instructions on configuring necessary environment variables and credentials to establish connectivity between the agent force and Salesforce services.**
-
-**Features:**
-- Agentforce MCP Server functionality
-- Salesforce Agentforce API interaction
-- Session management and authentication
-- Client/Server communication
-- Environment variable configuration
-
-*Tags: agentforce, salesforce, mcp, saml, api, workflow, sfd, client...*
-
----
-
-### 6. [robertzaufall/mindm-mcp](https://github.com/robertzaufall/mindm-mcp)
-`9.5` ★★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The repository implements the `mindm` library to provide a standardized interface for interacting with MindManager on Windows and macOS through the MCP. It offers various examples demonstrating how to refine topics, add tags, export mindmaps to different formats like Mermaid or Markdown, and clone existing maps.**
-
-**Features:**
-- Interact with MindManager via Model Context Protocol (MCP)
-- Export/Refine Mindmap structure to Mermaid/Markdown
-- Create new MindManager mindmaps directly from Mermaid syntax
-- Fetch version information for diagnostics
-- Retrieve current selection from MindManager
-
-*Tags: export-mindmaps-to-different-formats-like-mermaid-or-markdown, and-clone-existing-maps.*
-
----
-
-### 7. [resend/mcp-send-email](https://github.com/resend/mcp-send-email)
-`9.6` ★★ ⚡87 Q0.7🏆 🏆 World-class
-↗3 layers
-
-**The project provides a comprehensive overview of the Resend platform, highlighting its core features like sending/receiving emails, managing contacts, broadcasting campaigns, and providing a visual editor for composing content. It showcases how this service integrates with various developer tools like Claude Desktop and Cursor through an MCP server setup, emphasizing the power of AI-driven workflows.**
-
-**Features:**
-- Email sending/receiving
-- Contact management
-- Broadcasts and templates
-- Visual editor composition
-- Domain verification
-
----
-
-### 8. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)
-`8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The repository provides a practical demonstration of how to integrate an AI agent (Claude Desktop) with a CAD application (FreeCAD) via a Micro Control Protocol (MCP). It outlines the necessary steps for installing and configuring this integration, including setting up the RPC server and defining the interaction between the AI's capabilities and the CAD software.**
-
-**Features:**
-- FreeCAD MCP
-- Claude Desktop integration
-- RPC Server functionality
-- Addon installation guide
-- Context Engineering
-
-*Tags: freecad, mcp, claude, ai-agents, cad-tools, development-workflow, openai, automation...*
-
----
-
-### 9. [ikhyunan/mcp_investmentportfolio](https://github.com/ikhyunan/mcp_investmentportfolio)
-`8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
-
-**The repository details the creation of an MCP server designed to manage and analyze investment portfolios. Key features include creating and updating stocks and bonds, fetching real-time market data, generating comprehensive reports, and offering personalized investment recommendations. It emphasizes a structured workflow for managing financial assets within the context of AI agent interaction.**
-
-**Features:**
-- Portfolio Management
-- Market Data
-- Analysis
-- Recommendations
-- Visualization
-
-*Tags: portfolio-management, stock-analysis, investment-portfolio, mcp-server, api-integration, financial-modeling, tokenization*
-
----
-
-### 10. [scmdr/sourcesyncai-mcp](https://github.com/scmdr/sourcesyncai-mcp)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The repository provides an implementation of the SourceSync.ai MCP server, which serves as a standardized interface for AI models to interact with the knowledge management platform. Key features include managing namespaces for organizing knowledge, ingesting content from various sources, performing semantic searches, and accessing document content directly from parsed URLs.**
-
-**Features:**
-- Manage namespaces for organizing knowledge
-- Ingest content from various sources (text
-- URLs
-- websites)
-- Retrieve
-- update
-- and manage documents
-- Perform semantic and hybrid searches
-- Access document content directly from parsed text URLs
-
-*Tags: ai, mcp, source-sync, knowledge-management, llm, api, agent-orchestration, context-engineering...*
-
----
-
-### 11. [rayyan9477/linkedin_mcp](https://github.com/rayyan9477/linkedin_mcp)
-`9.6` ★★ ⚡87 Q0.7🏆 🏆 World-class
-↗2 layers
-
-**The project implements an MCP server using the FastMCP Python SDK to give AI assistants deep integration with LinkedIn data. It offers capabilities like searching jobs, analyzing profiles, generating tailored resumes and cover letters, and tracking application workflows. This is a practical demonstration of how to leverage LLMs for real-world professional tasks within the LinkedIn ecosystem.**
-
-**Features:**
-- Job Search (search_jobs)
-- Profile Generation (get_profile)
-- Resume Generation (generate_resume)
-- Cover Letter Generation (tailor_resume)
-- Application Tracking (tracking workflow)
-
----
-
-### 12. [zalab-inc/mcp-linear-app](https://github.com/zalab-inc/mcp-linear-app)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The repository provides a complete solution for integrating the Linear task management system with an AI tool, leveraging the Model Context Protocol (MCP). It outlines how to set up the necessary API key and configuration files to enable the AI to interact directly with Linear's features like searching issues and creating new tasks.**
-
-**Features:**
-- Complete Linear Integration
-- Search issues
-- Create new issues
-- Update issues
-- Get user profiles
-
-*Tags: linear, ai, mcp, integration, api, agent, tooling, development...*
-
----
-
-### 13. [CodingFont: A game to help you pick a coding font | Hacker News](https://news.ycombinator.com/item?id=47575403)
-`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The Borg Project intelligence database should include a technical resource that analyzes how different coding fonts render across various browsers and operating systems. The resource should provide detailed insights into font rendering discrepancies, including differences in size, legibility, and appearance on Chrome, Windows, macOS, Linux, and other platforms. It should highlight the importance of proper font rendering techniques, such as stem darkening, gamma blending, and ligature handling, t...**
-
-**Features:**
-- Cross-platform font rendering analysis
-- Comparison of font legibility at different sizes
-- Insights into font engine differences (e.g.
-- GDI
-- DirectWrite
-- OSX post-Retina)
-- Recommendations for configuring font properties to improve readability
-
-*Tags: font-rendering, code-fonts, typography-analysis, user-interface, text-editor-optimization, software-testing, design-evaluation, development-best-practices...*
-
----
-
-### 14. [ztobs/cline-browser-use-mcp](https://github.com/ztobs/cline-browser-use-mcp)
-`8.3` ★ ⚡86 Q0.8🏆 🏆 World-class
-
-**The repository defines a "Browser Use Server" which acts as an interface to perform various browser operations like capturing screenshots, retrieving HTML content, or executing JavaScript on webpages. It integrates seamlessly with LLM providers via configuration options, offering a robust tool for building AI agents that interact with the web.**
-
-**Features:**
-- Browser Operations (screenshot
-- get_html
-- execute_js)
-- LLM Integration (multiple API support)
-- Xvfb integration for headless automation.
-
-*Tags: ai-agents, browser-automation, llm-integration, web-scraping, agent-workflow, python, javascript, api-keys...*
-
----
-
-### 15. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)
-`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
-↗2 layers
-
-**This tool offers advanced web search capabilities through the Tavily API, providing intelligent search results optimized for high-quality, factual answers and context generation for RAG applications. It is built on the Model Context Protocol, offering various response formats and configurable search parameters.**
-
-**Features:**
-- Tavily Search API integration
-- AI-generated summaries
-- Domain filtering for quality results
-- Context generation for RAG
-- Response caching with TTL support
-
----
-
-### 16. [djkz/bruno-api-mcp](https://github.com/djkz/bruno-api-mcp)
-`9.5` ★★ ⚡86 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The project solves the challenges of debugging across system boundaries and creating custom tooling by collocating source code with data. It transforms Bruno API collections into MCP tools, allowing developers to debug across environments, build headless services for AI agents, and manage API collections through a unified protocol.**
-
-**Features:**
-- Automatic conversion of Bruno API collections to MCP tools
-- Environment management for different API configurations
-- HTTP with SSE transport
-- Built-in tools for API collection management
-
-*Tags: bruno, mcp, api, agent, tooling, development, ai, context...*
-
----
-
-### 17. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗5 layers
-
-**This resource describes AFFiNE as a hyper-fused platform that merges traditional tools like Notion and Miro into a single canvas. It functions as an operating system for building knowledge bases, offering rich text, sticky notes, embedded web pages, and multi-view databases all within one place.**
-
-**Features:**
-- Rich text
-- sticky notes
-- embedded web pages
-- multi-view databases
-- linked pages
-
-*Tags: electron, editor, markdown, rust, app, wiki, notes, table...*
-
----
-
-### 18. [twolven/mcp-stockscreen](https://github.com/twolven/mcp-stockscreen)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-
-**The project offers a powerful tool for LLMs to screen stocks based on various criteria like price, volume, P/E ratio, and volatility filters. It includes features for watchlist management, result storage, and categorization of stocks into different market segments (Mega Cap, Large Cap, etc.).**
-
-**Features:**
-- Stock Screening
-- Technical Analysis Screening
-- Options Screening
-- Watchlist Creation and Management
-- Market Cap Filters
-
-*Tags: python, stock-screening, technical-analysis, options-screening, mcp, finance, llm, api...*
-
----
-
-### 19. [falkordb/falkordb-mcpserver](https://github.com/falkordb/falkordb-mcpserver)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The resource explains how FalkorDB's MCP server facilitates AI assistants to query and manage graph databases using natural language. It outlines the core functionality of the protocol, including querying graph data, creating nodes/relationships, and managing replica instances for read-only access.**
-
-**Features:**
-- Graph database interaction
-- Model Context Protocol (MCP)
-- Querying graph data
-- Conversational AI integration
-- Node/relationship management.
-
-*Tags: graphdatabase, falkordb, mcp-server, ai-agents, graph-database, node-management, conversational-ai, opencypher...*
-
----
-
-### 20. [alondmnt/joplin-mcp](https://github.com/alondmnt/joplin-mcp)
-`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-
-**The project introduces a Model Context Protocol (MCP) server that acts as an intermediary layer between Joplin note-taking application and AI agents. It offers comprehensive tools for managing notes, notebooks, tags, and file imports, enabling seamless integration of Joplin functionality into AI workflows.**
-
-**Features:**
-- find_notes
-- get_note
-- create_note
-- list_notebooks
-- tag_note
-- import_from_file
-- ping_joplin
-
-*Tags: and-file-imports, enabling-seamless-integration-of-joplin-functionality-into-ai-workflows.*
-
----
-
-### 21. [Clio Work](https://www.clio.com/work/?rdt_cid=5403277754470839519)
-`10.0` ★★★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**Clio Work's AI integration enhances legal practice by understanding case context, automating document management, and providing real-time legal analysis. It connects seamlessly with Clio's ecosystem, enabling lawyers to focus on strategy rather than manual research.**
-
-**Features:**
-- AI-driven legal research and analysis
-- Case strategy and precedent identification
-- Document management and organization
-- Integration with Clio Work for workflow automation
-- Customizable templates and document generation
-- Real-time updates from verified legal sources
-
-*Tags: legal-ai, clio-work, case-strategy, document-automation, legal-research, ai-law-firm, integration, document-management...*
-
----
-
-### 22. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**The MCP Python Toolbox implements a Model Context Protocol server designed to enable AI assistants like Claude to effectively interact with Python code and projects. It offers comprehensive tools for reading, writing files, analyzing code structure, managing virtual environments, and executing Python code safely within a standardized interface.**
-
-**Features:**
-- File Operations
-- Code Analysis
-- Project Manager
-- Code Execution
-
-*Tags: python, ai, development, coding, tools, mcp, analysis, environment...*
-
----
-
-### 23. [sukeesh/zerodha-mcp-go](https://github.com/sukeesh/zerodha-mcp-go)
-`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The repository provides a "Zerodha MCP Server," which acts as a protocol layer allowing the Claude AI to access and interact with Zerodha's trading account information directly. It outlines the necessary steps for setup, including Go installation, API credential configuration, and how the resulting server communicates with the Claude Desktop application.**
-
-**Features:**
-- Zerodha MCP Server implementation
-- Go language integration
-- Claude AI data access via MCP
-- API credential management
-- Automated user profile retrieval
-
----
-
-### 24. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)
-`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**The project provides a complete solution for file compression and decompression, offering parameter-controlled ZIP compression, password protection, and path validation. It integrates the MCP protocol into various AI client contexts like Claude and Cursor, demonstrating a practical application of context management in development workflows.**
-
-**Features:**
-- ZIP Compression/Decompression
-- Parameter-Controlled Compression (Level 0-9)
-- Password Protection & Encryption
-- Safe Path Validation for ZIP entries
-
-*Tags: zip, mcp, compression, local, cursor, claude, package-lock.json, typescript...*
-
----
-
-### 25. [jem-computer/capacities-mcp](https://github.com/jem-computer/capacities-mcp)
-`8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
-
-**The repository introduces "capacities-mcp-plus," an improved version of the original Capacities MCP server, designed to enhance the integration between the knowledge management system (Capacities) and the LLM/Claude desktop environment. It focuses on providing seamless access to content retrieval and a robust API for interacting with the underlying Capacities functionality.**
-
-**Features:**
-- Retrieve full note content by object ID
-- fastmcp Version 1.27.3
-- New Tool: capacities_read_object_content
-- Save Weblinks
-- Daily Notes
-
----
-
-### 26. [deploying-laravel-on-dreamhost-e13aa9a9b87](https://medium.com/devops-in-the-trenches/deploying-laravel-on-dreamhost-e13aa9a9b87)
-`8.8` ★ ⚡80 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This article provides a comprehensive walkthrough for deploying Laravel applications on DreamHost. It details the process of setting up a new domain, configuring the web directory, creating a MySQL database, editing the .env file, and running migrations. The guide emphasizes best practices such as using environment variables, ensuring proper PHP version compatibility, and leveraging DreamHost's features for efficient development and deployment.**
-
-**Features:**
-- domain setup
-- database configuration
-- environment variable management
-- migration execution
-- php version alignment
-
-*Tags: laravel, deployment, dreamhost, phpmyadmin, devops, webdevelopment, hosting, laravelproject...*
-
----
-
-### 27. [seanivore/mcp-file-preview](https://github.com/seanivore/mcp-file-preview)
-`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The project implements an MCP server designed to capture full-page screenshots of local HTML files and analyze their structure, offering powerful capabilities for developer workflows.**
-
-**Features:**
-- File Preview
-- Content Analysis
-- Local File Support
-- Screenshot Management
-- Agentic
-
-*Tags: css, html, mcp, file-preview, cline, website-development, agentic*
-
----
-
-### 28. [15 Years of Forking | Hacker News](https://news.ycombinator.com/item?id=47545607)
-`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The discussion revolves around Waterfox's approach to integrating ads into its default search partner page, contrasting it with Mozilla's revenue-sharing model. It highlights the trade-offs between user privacy, monetization strategies, and the technical feasibility of implementing ad-blocking features. The conversation emphasizes the importance of transparency in how browsers handle advertising and the challenges of balancing sustainability with user control.**
-
-**Features:**
-- Ads on default search partner page
-- Cookie banner reduction options
-- Monetization via sponsored content (e.g.
-- adMarketplace
-- Yelp)
-- Transparent revenue sharing model
-- User control over ads and privacy settings
-
-*Tags: browser-monetization, privacy-features, search-engine-integration, ad-blocking-capabilities, user-sustainability, monetization-strategies, privacy-compliance, search-partnerships*
-
----
-
-### 29. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)
-`9.6` ★★ ⚡79 Q0.6⭐ ⭐ Excellent
-↗3 layers
-
-**This project is an MCP server that wraps the Feishu project management Open API, allowing AI assistants to gain a view of Feishu projects and details through the MCP protocol. It provides tools for AI assistants to help users manage and query tasks within Feishu projects.**
-
-**Features:**
-- MCP Server Implementation
-- Feishu Project Management Integration
-- AI Assistant Workflow Enablement
-- API Wrapper for Feishu Projects
-
----
-
-### 30. [mz462/mcppaylocity](https://github.com/mz462/mcppaylocity)
-`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
-
-**The project defines a backend service designed to interact with the Paylocity API, providing structured access to employee data, earnings, company codes, and local taxes. It showcases a modern approach to integrating external data sources within an agent-centric workflow.**
-
-**Features:**
-- Paylocity API integration
-- Custom URI scheme for data fetching
-- Employee/Earnings/Tax resource endpoints
-- Tool implementation for data retrieval
-- Clear configuration via environment variables
-
----
-
-### 31. [jacksteamdev/mcp-sqlite-bun-server](https://github.com/jacksteamdev/mcp-sqlite-bun-server)
-`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The project serves as an MCP server, enabling users to run SQL queries, analyze business data, and automatically generate business insight memos. It provides a dynamic resource (`memo://insights`) for aggregated insights and offers interactive prompts (`mcp-demo`) to guide analysis.**
-
-**Features:**
-- SQLite database interaction
-- Business insight memo generation
-- Query execution tools (read-query
-- write-query)
-- Schema management capabilities (create-table
-- describe-table)
-- Insight addition via `append-insight`
-
----
-
-### 32. [deploying-your-libgdx-game-to-ios-in-2020-4ddce8fff26c](https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2020-4ddce8fff26c)
-`8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The article provides a comprehensive overview of the process for deploying a libGDX game to iOS, including hardware requirements, testing environments, and necessary configurations. It emphasizes the importance of using RoboVM for building and signing the app, setting up provisioning profiles, and preparing for both simulator and real device testing.**
-
-**Features:**
-- Mac requirement (Mojave or Catalina)
-- Use of RoboVM for building and signing the game
-- Provisioning profile setup for iOS
-- Testing on simulator and real devices
-- Deployment process for both iOS simulator and actual devices
-
-*Tags: libgdx, ios-deployment, mac-development, game-development, android-studio, robovm, provisioning-profiles, developer-tools*
-
----
-
-### 33. [TuringSoftware/CrystalFetch](https://github.com/TuringSoftware/CrystalFetch)
-`7.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
-
-**CrystalFetch is a macOS application that creates Windows® 11 installer ISO images. It can be used with UTM virtual machines as well as other VM solutions. Note: CrystalFetch is not affiliated with Microsoft and a valid license is required to install Windows® 11. Building Make sure submodules are fetched with git submodule update --init If you have a paid Apple Developer license, copy CodeSigning.xcconfig.sample to CodeSigning.xcconfig and fill out the file with your developer information. If you...**
-
-**Features:**
-- macOS application for creating Windows installer ISO images
-- compatibility with UTM virtual machines
-- requirement for paid Apple Developer license/library validation disabling for building.
-
-*Tags: ['macos', 'windows', 'iso', 'virtualization', 'xcode', 'build', 'installer', 'developer-tools'...*
-
----
-
-### 34. [activecampaign/postmark-mcp](https://github.com/activecampaign/postmark-mcp)
-`8.2` ★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**The repository provides an MCP (Model Context Protocol) server that allows users to send emails via their Postmark account, leveraging AI tools like Claude for email sending tasks. It offers simple configuration through environment variables and robust features for email management.**
-
-**Features:**
-- Send emails with Postmark using Claude and other MCP-compatible AI assistants.
-- Simple configuration via environment variables.
-- Comprehensive error handling and graceful shutdown.
-- Automatic email tracking configuration.
-
----
-
-### 35. [made_a_list_of_every_useful_openclaw_resource_i](https://www.reddit.com/r/openclawsetup/comments/1sl8v6q/made_a_list_of_every_useful_openclaw_resource_i)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**This resource provides a detailed overview of the technical components, workflows, and best practices for setting up and maintaining an OpenClaw environment. It covers everything from hardware selection to software configuration, emphasizing automation and efficiency in open-source projects.**
-
-**Features:**
-- automated setup
-- workflow optimization
-- resource management
-- community integration
-
-*Tags: openclaw, opensource, softwaredev, systemdesign, communitytools, automation, workflow, development...*
-
----
-
-### 36. [Configured Engines — SearXNG Documentation (2026.4.11+9e08a6771)](https://docs.searxng.org/user/configured_engines.html#configured-engines)
-`8.7` ★ ⚡63 Q0.6✓ ✓ Solid
-↗6 layers
-
-**SearXNG supports 250 search engines of which 96 are enabled by default. Engines can be assigned to multiple categories . The UI displays the tabs that are configured in categories_as_tabs . In addition to these UI categories (also called tabs ), engines can be queried by their name or the categories they belong to, by using a !bing syntax.**
-
-**Features:**
-- Enabled engines: General Engine Configuration
-
-*Tags: ['agent-orchestration-&-workflow', 'context-engineering-&-isolation', 'memory-&-persistence-architecture', 'interface-&-developer-ux', 'connectivity-&-interoperability-(mcp/a2a)', 'infrastructure-&-proxy-layers', 'guides-&-industry-trends', 'vector-databases-&-search'...*
-
----
-
-### 37. [I Built An Opensource System To Manage Work](https://www.reddit.com/r/ClaudeAI/comments/1sd3zz3/i_built_an_opensource_system_to_manage_work/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built An Opensource System To Manage Work**
-
----
-
-### 38. [Official Anthropic Introduces Claude Managed](https://www.reddit.com/r/ClaudeAI/comments/1sfzcyk/official_anthropic_introduces_claude_managed/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Official Anthropic Introduces Claude Managed**
+- DaaS evaluation
+- Gartner Magic Quadrant
+- Desktop as a Service analysis
+- Vendor positioning
+- Market trends insights
+
+*Tags: gartner, daas, clouddesktop, itstrategy, vendoranalysis, techtrends*
 
 ---
 
 ## Governance & Safety
-> 33 tools · avg signal ⚡76
+> 40 tools · avg signal ⚡74
 
 ### 1. [tar-ive/grants-mcp](https://github.com/tar-ive/grants-mcp)
 `8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
@@ -8758,23 +15028,7 @@
 
 ---
 
-### 14. [tumf/mcp-shell-server](https://github.com/tumf/mcp-shell-server)
-`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-
-**The MCP Shell Server is a powerful tool designed to execute whitelisted shell commands securely, providing comprehensive output details for operations. It focuses on ensuring operator safety by validating commands and offering timeout control for reliable execution.**
-
-**Features:**
-- Secure Command Execution
-- Standard Input Support
-- Comprehensive Output
-- Shell Operator Safety
-- Timeout Control
-
-*Tags: mcp, shell, security, agent, workflow, command-execution, claude, tel...*
-
----
-
-### 15. [OpenAI is throwing everything into building a fully automated researcher](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher)
+### 14. [OpenAI is throwing everything into building a fully automated researcher](https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher)
 `9.8` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -8790,7 +15044,7 @@
 
 ---
 
-### 16. [madosh/mcp-itsm](https://github.com/madosh/mcp-itsm)
+### 15. [madosh/mcp-itsm](https://github.com/madosh/mcp-itsm)
 `8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -8811,7 +15065,7 @@
 
 ---
 
-### 17. [baryhuang/mcp-server-aws-resources-python](https://github.com/baryhuang/mcp-server-aws-resources-python)
+### 16. [baryhuang/mcp-server-aws-resources-python](https://github.com/baryhuang/mcp-server-aws-resources-python)
 `8.5` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -8827,7 +15081,7 @@
 
 ---
 
-### 18. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)
+### 17. [alfonsograziano/node-code-sandbox-mcp](https://github.com/alfonsograziano/node-code-sandbox-mcp)
 `8.6` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8841,7 +15095,7 @@
 
 ---
 
-### 19. [AI Is Self-Preserving. What Happens in 22 Years? - Brian Carpio](https://www.briancarpio.com/blog/ai-is-self-preserving-what-happens-in-22-years)
+### 18. [AI Is Self-Preserving. What Happens in 22 Years? - Brian Carpio](https://www.briancarpio.com/blog/ai-is-self-preserving-what-happens-in-22-years)
 `8.8` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8857,7 +15111,7 @@
 
 ---
 
-### 20. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)
+### 19. [mozicim/node-code-sandbox-mcp](https://github.com/mozicim/node-code-sandbox-mcp)
 `8.2` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8873,7 +15127,7 @@
 
 ---
 
-### 21. [4Chan Lawyers Introduce British First Amendment](https://www.therage.co/4chan-uk-free-speech-act)
+### 20. [4Chan Lawyers Introduce British First Amendment](https://www.therage.co/4chan-uk-free-speech-act)
 `7.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8890,7 +15144,7 @@
 
 ---
 
-### 22. [The Right Approach to Authorization in RAG](https://www.osohq.com/post/right-approach-to-authorization-in-rag)
+### 21. [The Right Approach to Authorization in RAG](https://www.osohq.com/post/right-approach-to-authorization-in-rag)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -8906,7 +15160,7 @@
 
 ---
 
-### 23. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)
+### 22. [Leviathan (1651) | Hacker News](https://news.ycombinator.com/item?id=47384653)
 `8.8` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -8922,7 +15176,7 @@
 
 ---
 
-### 24. [No Hype DeepSeek-R1 Reading List](https://ghost.oxen.ai/no-hype-deepseek-r1-reading-list)
+### 23. [No Hype DeepSeek-R1 Reading List](https://ghost.oxen.ai/no-hype-deepseek-r1-reading-list)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **A technical deconstruction of DeepSeek-R1, highlighting its GRPO algorithm, R1-Zero reasoning emergence, and Multi-Head Latent Attention (MLA) efficiency.**
@@ -8937,7 +15191,7 @@
 
 ---
 
-### 25. [What the Infamous Heroin Study Said](https://www.betonit.ai/p/what-the-infamous-heroin-study-said)
+### 24. [What the Infamous Heroin Study Said](https://www.betonit.ai/p/what-the-infamous-heroin-study-said)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A strategic analysis of the 2026 "Agent Economy," predicting the shift from prototypes to autonomous employees driven by ultra-low inference costs.**
@@ -8952,7 +15206,7 @@
 
 ---
 
-### 26. [Ask HN: What link/news/stories aggregates are you using? | Hacker News](https://news.ycombinator.com/item?id=46723614)
+### 25. [Ask HN: What link/news/stories aggregates are you using? | Hacker News](https://news.ycombinator.com/item?id=46723614)
 `7.8` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -8968,7 +15222,7 @@
 
 ---
 
-### 27. [cursor-vs-devin](https://www.builder.io/blog/cursor-vs-devin)
+### 26. [cursor-vs-devin](https://www.builder.io/blog/cursor-vs-devin)
 `10.0` ★★★ ⚡68 Q0.5✓ ✓ Solid
 
 **A 2026 benchmark comparison highlighting the architectural split between "Pair Programmers" (Cursor: throughput) and "Autonomous Teammates" (Devin: orchestration).**
@@ -8982,7 +15236,7 @@
 
 ---
 
-### 28. [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server)
+### 27. [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server)
 `8.7` ★ ⚡67 Q0.7✓ ✓ Solid
 ↗5 layers
 
@@ -8995,1051 +15249,762 @@
 
 ---
 
-### 29. [photosort-production-d4d1.up.railway.app](https://photosort-production-d4d1.up.railway.app/)
+### 28. [The Manhattan Institute Helped Kill DEI. Now It’s Coming for Protests | WIRED](https://www.wired.com/story/the-manhattan-institute-helped-kill-dei-now-its-coming-for-protests/)
+`5.0` ★ ⚡67 Q0.8✓ ✓ Solid
+
+**This article explores the legal and political strategy behind classifying minor protest actions—like vandalism or trespassing during protests—as 'civil terrorism.' It examines how this reclassification impacts the perception of social movements and the legislative efforts to define nonviolent disobedience as a crime. The piece details the Manhattan Institute's role in pushing for state-level legislation that frames these acts of lawlessness as potential crimes.**
+
+**Features:**
+- Civil Terrorism Theory
+- Protest Law
+- Legislative Strategy
+- Civil Disobedience
+- Policy Reclassification
+
+*Tags: policy, legal, protest, terrorism, law, politics, civilrights*
+
+---
+
+### 29. [NCAS presents the Condon Report on UFOs](http://files.ncas.org/condon/)
+`5.0` ★ ⚡65 Q0.8✓ ✓ Solid
+
+**This resource is the Condon Report, a significant historical document that details the scientific investigation into unidentified flying objects. It serves as an excellent starting point for understanding the history, theories, and context surrounding UFO research and skepticism.
+
+The report provides a structured overview of the scientific inquiry undertaken by Dr. Edward U. Condon, offering valuable insights into the methodology and conclusions regarding the phenomena of unidentified flying obj...**
+
+**Features:**
+- Historical document reference
+- Scientific study summary
+- Contextual resource for UFOs
+- Academic/Government collaboration insight
+
+*Tags: ufo, history, science, report, document, analysis*
+
+---
+
+### 30. [The United States Releases Millions of Flies over Panama Every Week - Newsroom Panama](https://newsroompanama.com/2025/05/10/why-the-united-states-releases-millions-of-flies-over-panama-every-week/)
+`5.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This article explores a specific biological/environmental management strategy where the United States releases millions of sterile flies over the Panama-Colombia border to eradicate the New World screwworm, a significant health threat to North American livestock. It details the historical context and ongoing effort by the Screwworm Eradication Commission (COPEG) to maintain this biological barrier.**
+
+**Features:**
+- Biological control strategy
+- Pest eradication
+- Health surveillance policy
+- Historical context of pest control
+- Biopestic release mechanism
+
+*Tags: biocontrol, pestmanagement, healthpolicy, environmentalscience, historicalcontext*
+
+---
+
+### 31. [Alternatives to Opioids for Managing Pain - StatPearls - NCBI Bookshelf](https://www.ncbi.nlm.nih.gov/books/NBK574543)
+`5.0` ★ ⚡65 Q0.8✓ ✓ Solid
+
+**This resource provides an in-depth look at alternatives to opioids for managing pain, likely covering the pharmacological and clinical considerations involved. It serves as a valuable guide for healthcare professionals interested in non-opioid analgesic strategies. The content details the scientific basis and practical application of these alternatives.**
+
+**Features:**
+- Opioid alternatives
+- Pain management strategies
+- Clinical relevance
+- Pharmacological comparison
+- Health policy insights
+
+*Tags: pain-management, opioids, healthcare, alternatives, pharmacology, ncbi, health*
+
+---
+
+### 32. [How to Dumpster Dive: Tips to Make Good Finds & Stay Safe](http://www.wikihow.com/Dumpster-Dive)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This article provides a detailed guide on how to successfully 'dumpster dive,' covering aspects like finding valuables, ensuring safety, proper hygiene, and understanding the legality of the found items. It serves as an educational resource for sustainable scavenging practices.**
+
+**Features:**
+- Valuable item discovery tips
+- safety & hygiene protocols
+- legal considerations
+- expert interviews
+- waste reduction strategies
+
+*Tags: dumpster-diving, sustainability, thrift, scavenging, household-goods, guide*
+
+---
+
+### 33. [25 of the Worst Products of 2025—and What to Buy Instead - Consumer Reports](https://www.consumerreports.org/home-garden/worst-home-products-from-consumer-reports-tests-a3443005591)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is a detailed guide from Consumer Reports, analyzing and ranking various home products, including major appliances, cleaning products, and outdoor items. It provides consumers with insight into which products perform well and which ones fail in rigorous testing environments.**
+
+**Features:**
+- Product testing comparison
+- consumer product review
+- consumer report analysis
+- consumer product ratings
+- home appliance evaluation
+
+*Tags: consumer-reports, product-review, home-products, consumer-goods, testing, appliances*
+
+---
+
+### 34. [811 Before you dig. Every dig. Every time.](https://811beforeyoudig.com)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This page serves as a guide for homeowners and professionals needing to understand the critical importance of contacting 811 before digging. It highlights the risks associated with digging, provides key statistics on utility damage costs, and emphasizes the necessity of proper planning for safe excavation.**
+
+**Features:**
+- Utility safety guidance
+- statistics on buried utility damage
+- homeowner/professional roles
+- clear call-to-action for locating requests
+
+*Tags: 811, utility, digging, safety, homeowner, construction, guide*
+
+---
+
+### 35. [China issues regulations on rare earth administration](https://english.www.gov.cn/policies/latestreleases/202406/29/content_WS66800cfcc6d0868f4e8e8b15.html?utm_source)
+`5.0` ★ ⚡59 Q0.7✓ ✓ Solid
+
+**This document outlines the set of regulations issued by the Chinese Premier regarding the management and utilization of rare earth resources. It specifies principles for ensuring security, promoting technological innovation in rare earth industries, and imposing penalties for illegal activities within the rare earth sector.**
+
+**Features:**
+- Rare Earth Regulation
+- Resource Protection Policy
+- Technological Innovation Boost
+- Regulatory Frameworks
+
+*Tags: china-policy, rare-earths, resource-management, technology-regulation, green-development*
+
+---
+
+### 36. [As Iran War Escalates, Congress Passes Automatic Involuntary Draft Registration - The Ron Paul Institute for Peace & Prosperity](https://ronpaulinstitute.org/as-iran-war-escalates-congress-passes-automatic-involuntary-draft-registration/)
+`5.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**This resource is an analytical article from the Ron Paul Institute examining the implications of a bill that mandates automatic and involuntary registration for young men into the military draft. It connects the immediate issue of an escalating Iran conflict with the legislative reality of the U.S. military structure and policy.**
+
+**Features:**
+- Legislative Analysis
+- Geopolitical Context Setting
+- Policy Insight on Military Drafts
+
+*Tags: policy-analysis, legislative-trends, military-affairs, foreign-policy, draft-registration, political-commentary*
+
+---
+
+### 37. [photosort-production-d4d1.up.railway.app](https://photosort-production-d4d1.up.railway.app/)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **photosort-production-d4d1.up.railway.app**
 
 ---
 
-### 30. [Openais Gpt54 Got Blocked By Safety Mechanisms 5](https://www.reddit.com/r/LLMDevs/comments/1sd7w45/openais_gpt54_got_blocked_by_safety_mechanisms_5/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 38. [theguardian.com](https://www.theguardian.com/world/2026/may/02/gaza-flotilla-australian-activists-released-crete-allege-mistreatment-by-israel-ntwnfb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Openais Gpt54 Got Blocked By Safety Mechanisms 5**
-
----
-
-### 31. [My Opus Model Has Gone Off The Rails](https://www.reddit.com/r/ClaudeAI/comments/1s9vry6/my_opus_model_has_gone_off_the_rails/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Opus Model Has Gone Off The Rails**
+**theguardian.com**
 
 ---
 
-### 32. [Can Monero Break The Kyc Trail](https://www.reddit.com/r/AskMonero/comments/1temagn/can_monero_break_the_kyc_trail/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 39. [theguardian.com](https://www.theguardian.com/technology/2026/may/31/meta-legal-action-forces-facebook-whistleblower-to-stay-silent-at-hay-festival)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Can Monero Break The Kyc Trail**
-
----
-
-### 33. [Better Antigravity V081 Version Safety Link](https://www.reddit.com/r/google_antigravity/comments/1sde5uh/better_antigravity_v081_version_safety_link/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Better Antigravity V081 Version Safety Link**
+**theguardian.com**
 
 ---
 
-## Memory & Context Systems
-> 32 tools · avg signal ⚡80
+### 40. [theguardian.com](https://www.theguardian.com/global-development/2026/jun/01/kawthar-al-husayjawi-killed-refusing-forced-marriage-marry-family-celebrated-iraq)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-### 1. [ariunbolor/nsaf-mcp-server](https://github.com/ariunbolor/nsaf-mcp-server)
-`10.0` ★★★ ⚡93 Q0.8🏆 🏆 World-class
+**theguardian.com**
+
+---
+
+## Config & Profile Management
+> 36 tools · avg signal ⚡82
+
+### 1. [pieces-app/awesome-pieces](https://github.com/pieces-app/awesome-pieces)
+`8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗5 layers
+
+**The 'awesome-pieces' repository serves as a centralized index for resources related to Pieces, an AI-driven productivity tool designed to integrate with the developer toolchain. It curates installation guides, IDE plugins (for JetBrains, VS Code, JupyterLab), browser extensions, articles demonstrating use cases (like context-aware Copilot interactions and snippet extraction), community links, and tutorials. The core technical focus lies in creating a seamless, context-aware interface layer that ...**
+
+**Features:**
+- AI-enabled productivity tool
+- On-device copilot
+- Toolchain unification
+- Contextual understanding of workflow
+- Code snippet capture and reuse
+- IDE and browser extensions
+- Activity view for workflow backtracking
+
+*Tags: developer-productivity, ai-copilot, snippet-management, ide-integration, workflow-automation, context-engineering, developer-experience, llm-integration...*
+
+---
+
+### 2. [geli2001/shopify-mcp](https://github.com/geli2001/shopify-mcp)
+`9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
+
+**The project provides a server solution that acts as an intermediary between the Shopify store and the developer tooling, enabling deep integration with product management, customer details, order tracking, and inventory control through a dedicated GraphQL API layer. It focuses on providing robust tools for managing core business entities within the Shopify ecosystem.**
+
+**Features:**
+- Product Management
+- Customer Management
+- Order Management
+- Metafield Management
+- Inventory Management
+
+*Tags: typescript, shopify, mcp, mcp-server, graphql, api, nodejs, development...*
+
+---
+
+### 3. [tim10002/mcp-azresource](https://github.com/tim10002/mcp-azresource)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
-**The project details an advanced framework that integrates quantum computing, symbolic reasoning, neural networks, and foundation models into a single autonomous AI system. It outlines a 5-module architecture, including Quantum-Symbolic Task Clustering, Self-Constructing Meta-Agents (SCMA), Hyper-Symbolic Memory, and Recursive Intent Projection to achieve unified autonomy.**
+**The MCP Server provides a platform for developers to interact with Azure resources directly from MCP clients. It offers features such as listing, filtering, cost analysis, secure authentication via service principals, and detailed views of resources. This tool is designed to streamline workflows by integrating Azure management with MCP, enabling efficient resource discovery, cost tracking, and secure access.**
 
 **Features:**
-- Agent Orchestration
-- Foundation Model Integration
-- Symbolic Reasoning
-- Quantum Computing
-- Web API Framework
+- Azure resource discovery
+- Cost analysis
+- Secure authentication
+- Resource listing
+- Environment configuration
 
-*Tags: agent, ai, neural-network, symbolic-computation, bndagents, quantum-computing, foundation-models, software-framework...*
+*Tags: github, azure, mcp, developer, security, automation, cloud, integration...*
 
 ---
 
-### 2. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)
-`9.5` ★★ ⚡92 Q0.8🏆 🏆 World-class
+### 4. [dkruyt/mcp-hetzner](https://github.com/dkruyt/mcp-hetzner)
+`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**This resource introduces "Memory-Plus," a solution for managing agent memories within the context of the Model Context Protocol (MCP). It provides features to record, retrieve, update, and visualize persistent "memories"—like notes or session context—for AI agents. The core innovation lies in how it teaches the AI exactly when to recall past interactions, offering a structured approach to memory persistence for agent workflows.**
+**The project defines a Python-based MCP server designed to facilitate the management of Hetzner Cloud resources, including listing, creating, and managing servers, volumes, firewall rules, and SSH keys. It integrates directly with Claude Code, offering a structured API for language models to perform actions on cloud infrastructure, such as powering on/off or resizing virtual machines.**
 
 **Features:**
-- Record Memories
-- Retrieve Memories
-- Visualize Memories
-- Memory Versioning
-- File Import
+- List
+- create
+- and manage Hetzner Cloud servers
+- Create
+- attach
+- detach
+- and resize volumes
+- Manage firewall rules
+- Claude Code integration for managing Hetzner resources directly from Claude.
 
-*Tags: agent, hackathon, memory, mcp, memory-store, model-context-protocol, mcp-server, rag...*
+*Tags: mcp, hetzner-cloud, language-model, claude-code, server-management, cloud-infrastructure, api, python...*
 
 ---
 
-### 3. [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
-`9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
+### 5. [xlengelle-sf/agentforce-mcp-xlengelle](https://github.com/xlengelle-sf/agentforce-mcp-xlengelle)
+`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**The project focuses on building a cognitive architecture for AI agents and robotics, where the memory persists across sessions, allowing agents to learn from past interactions, which is crucial for improving agent performance. It tackles the challenge of maintaining context for chat agents (MCP/HTTP) and robots (Zenoh/ROS2) efficiently, without relying on external cloud services or expensive API keys.**
+**The repository provides a complete solution for setting up and running an agentforce MCP server, which is crucial for enabling authentication, session creation, and message exchange with Agentforce agents within the Salesforce ecosystem. It includes detailed instructions on configuring necessary environment variables and credentials to establish connectivity between the agent force and Salesforce services.**
 
 **Features:**
-- persistent memory
-- cognitive architecture
-- agent orchestration
-- memory persistence
-- mcp integration
+- Agentforce MCP Server functionality
+- Salesforce Agentforce API interaction
+- Session management and authentication
+- Client/Server communication
+- Environment variable configuration
 
-*Tags: rust, robotics, mcp, knowledge-graph, ros2, ai-agents, cognitive-architecture, claude*
+*Tags: agentforce, salesforce, mcp, saml, api, workflow, sfd, client...*
 
 ---
 
-### 4. [timazed/CodexKit](https://github.com/timazed/CodexKit)
-`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
+### 6. [robertzaufall/mindm-mcp](https://github.com/robertzaufall/mindm-mcp)
+`9.5` ★★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**CodexKit provides an SDK designed for building sophisticated AI agent experiences in Apple apps, offering explicit support for iOS and macOS development. It defines core concepts like AgentRuntime, AgentThread, and Request, enabling developers to build typed, structured conversations with ChatGPT/Codex-style agents. The SDK focuses on providing a type-safe way to handle the flow of conversation, including authentication, memory management, and structured output from the AI backend.**
+**The repository implements the `mindm` library to provide a standardized interface for interacting with MindManager on Windows and macOS through the MCP. It offers various examples demonstrating how to refine topics, add tags, export mindmaps to different formats like Mermaid or Markdown, and clone existing maps.**
 
 **Features:**
-- Typed request context for agent interactions
-- Structured output via AgentStructuredOutput
-- AgentPersonaStack for layered behavior instructions
-- Host-defined tool definitions
-- Streamed assistant output
+- Interact with MindManager via Model Context Protocol (MCP)
+- Export/Refine Mindmap structure to Mermaid/Markdown
+- Create new MindManager mindmaps directly from Mermaid syntax
+- Fetch version information for diagnostics
+- Retrieve current selection from MindManager
 
-*Tags: swift, ios, openai, ai, sdk, ios-app, mobile, oauth...*
+*Tags: export-mindmaps-to-different-formats-like-mermaid-or-markdown, and-clone-existing-maps.*
 
 ---
 
-### 5. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The squirrelogic/mcp-feature-discussion project provides an AI-powered MCP server that supports context-aware, persistent feature discussions between developers and AI. It offers intelligent guidance on implementation, architecture, dependencies, and best practices, while maintaining a persistent memory of discussions to support informed decision-making.**
-
-**Features:**
-- AI Lead Developer Interface
-- Persistent memory of discussions
-- Context-aware recommendations
-- Feature memory management
-- Architecture pattern recommendations
-
-*Tags: mcp, ai, developer, discussion, security, code, architecture, devops...*
-
----
-
-### 6. [dknell/mcp-system-info](https://github.com/dknell/mcp-system-info)
-`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The resource is an MCP server designed to provide real-time system metrics, including CPU usage, memory statistics, disk info, network status, and running processes. It offers cross-platform support for system information and focuses on security and performance optimization by implementing intelligent caching and robust error handling.**
-
-**Features:**
-- get_cpu_info
-- get_memory_info
-- get_disk_info
-- get_network_info
-- get_process_list
-
-*Tags: mcp, system-info, real-time-metrics, cross-platform, cpu-usage, memory-stats, process-list, security-focus...*
-
----
-
-### 7. [ttommyth/rag-memory-mcp](https://github.com/ttommyth/rag-memory-mcp)
+### 7. [resend/mcp-send-email](https://github.com/resend/mcp-send-email)
 `9.6` ★★ ⚡87 Q0.7🏆 🏆 World-class
 ↗3 layers
 
-**This project provides an advanced MCP server that implements a Knowledge Graph Memory system, enabling semantic search, document processing, and hybrid retrieval for more intelligent memory management. It's inspired by the Model Context Protocol, offering comprehensive tools for storing documents, creating entities, and performing sophisticated searches within a local SQLite backend.**
+**The project provides a comprehensive overview of the Resend platform, highlighting its core features like sending/receiving emails, managing contacts, broadcasting campaigns, and providing a visual editor for composing content. It showcases how this service integrates with various developer tools like Claude Desktop and Cursor through an MCP server setup, emphasizing the power of AI-driven workflows.**
 
 **Features:**
-- Knowledge Graph Memory (persistent entities
-- relationships
-- observations)
-- Vector Search (semantic similarity search using sentence transformers)
-- Hybrid Search (combines vector similarity with graph traversal)
-- Entity Extraction (automatic term extraction from documents)
-- SQLite Backend (fast local storage for vector operations)
+- Email sending/receiving
+- Contact management
+- Broadcasts and templates
+- Visual editor composition
+- Domain verification
 
 ---
 
-### 8. [ryaker/mcp-mem0-general](https://github.com/ryaker/mcp-mem0-general)
-`9.5` ★★ ⚡86 Q0.7🏆 🏆 World-class
-
-**The project provides an MCP server that enables compatible AI assistants to access and manage persistent memories stored in Mem0. It acts as a crucial bridge, allowing assistants to store, retrieve, search memories based on semantic similarity, manage different memory types (episodic, semantic, procedural), and create knowledge graphs.**
-
-**Features:**
-- Store and retrieve memories
-- Search memories with semantic similarity
-- Manage different memory types (episodic
-- semantic
-- procedural)
-- Utilize short-term memory for conversation context
-- Create knowledge graphs from memories
-
----
-
-### 9. [polygon-io/mcp_polygon](https://github.com/polygon-io/mcp_polygon)
-`8.6` ★ ⚡85 Q0.7🏆 🏆 World-class
-↗3 layers
-
-**The project implements the "Massive.com MCP Server," which serves as a bridge to enable LLMs to interact with comprehensive financial data. It exposes three core tools—`search`, `call`, and `query`—to allow the LLM to perform actions across the Massive.com API, while also integrating built-in financial functions like option pricing (e.g., Black-Scholes Greeks). The server dynamically indexes the API endpoints and provides a structured interface for data retrieval and function execution.**
-
-**Features:**
-- Massive.com MCP Server
-- Composable Tools (`search`
-- `call`
-- `query`)
-- In-memory SQLite database integration
-- Built-in financial functions (e.g.
-- Black-Scholes)
-- LLM-friendly interface
-
----
-
-### 10. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)
-`8.2` ★ ⚡85 Q0.8🏆 🏆 World-class
-
-**The project is a specialized MCP server designed to integrate with Google's Gemini model, enabling analytical thinking, planning, and analysis for complex problems. It offers features like breaking down problems into steps, suggesting alternative paths, and supporting revision capability within the thought process.**
-
-**Features:**
-- Gemini-Powered Thinking
-- Branching Thoughts
-- Revision Capability
-- Session Persistence
-- Tool Parameters
-
-*Tags: ai-agents, gemini, mcp, llm, reasoning, thinking-server, context-engineering, agent-orchestration...*
-
----
-
-### 11. [addyosmani/gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips)
-`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
+### 8. [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp)
+`8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**A curated collection of pro-tips for Gemini CLI by Addy Osmani, focusing on GEMINI.md grounding and reference-based data retrieval from Google ecosystem.**
+**The repository provides a practical demonstration of how to integrate an AI agent (Claude Desktop) with a CAD application (FreeCAD) via a Micro Control Protocol (MCP). It outlines the necessary steps for installing and configuring this integration, including setting up the RPC server and defining the interaction between the AI's capabilities and the CAD software.**
 
 **Features:**
-- GEMINI.md project grounding
-- Google Drive/Docs reference retrieval
-- global preference memory (~/.gemini)
-- multi-step plan execution.
-
-*Tags: gemini, cli, best-practices, grounding, productivity, github, version-control*
-
----
-
-### 12. [archimedescrypto/figma-mcp-chunked](https://github.com/archimedescrypto/figma-mcp-chunked)
-`8.5` ★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The project implements a Model Context Protocol (MCP) server that offers a robust interface to the Figma API, focusing on memory management and efficient data retrieval. Key features include memory-aware processing, chunked data retrieval for large files, node type filtering, progress tracking, and configurable chunk sizes to ensure efficient interaction with the Figma ecosystem.**
-
-**Features:**
-- Memory-aware processing
-- Chunked data retrieval
-- Pagination support
-- Node type filtering
-- Configurable chunk sizes
-
----
-
-### 13. [GLM-5.1: Towards Long-Horizon Tasks | Hacker News](https://news.ycombinator.com/item?id=47677853)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗4 layers
-
-**The evaluation focuses on GLM-5.1's performance in handling extended, multi-step tasks requiring contextual understanding and adaptability. Key considerations include its ability to manage context retention, tool flexibility, and robustness across diverse harness environments. The discussion highlights challenges such as context drift and overfitting to benchmarks, while emphasizing the importance of custom tooling integration for optimal results.**
-
-**Features:**
-- Long-horizon task execution
-- Context retention and memory management
-- Tool flexibility and adaptability
-- Custom harness integration
-- Performance benchmarking across diverse environments
-
-*Tags: glm5.1, long-horizon-tasks, context-engineering, memory-persistence, interface-design, developer-experience, benchmarking, open-source-ai...*
-
----
-
-### 14. [BVLC/caffe](https://github.com/BVLC/caffe/tree/windows)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗5 layers
-
-**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
-
-**Features:**
-- The resource details the process of porting a Caffe framework to Windows
-- outlining the specific requirements for the build environment (Visual Studio
-- CMake)
-- and providing detailed instructions on configuring and building the resulting application.
-
-*Tags: ['caffe', 'windows', 'build-win.cmd', 'cmake', 'visualstudio', 'cpp', 'c++', 'compiler'...*
-
----
-
-### 15. [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp)
-`8.6` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The repository describes a server that wraps the Mem0 Memory API as a Model Context Protocol (MCP) server, enabling various clients like Claude or Cursor to add, search, update, and delete long-term memories. It provides tools for memory management, including adding, searching, retrieving, updating, and deleting memories and entities.**
-
-**Features:**
-- Add memory
-- Search memories
-- Get memories
-- Update memory
-- Delete memory
-
----
-
-### 16. [monsterxx03/gospy](https://github.com/monsterxx03/gospy)
-`8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This resource details "gospy," a powerful tool designed to inspect and analyze the state of running Go processes, including goroutine states, memory statistics, and binary information. It provides both a CLI interface for inspection and an HTTP API server for programmatic access, making it valuable for debugging and understanding the runtime behavior of Go applications.**
-
-**Features:**
-- View detailed goroutine information (status
-- scheduling info)
-- Analyze process memory statistics
-- Cross-platform support (Linux and macOS)
-- Interactive terminal UI for inspection
-- HTTP API for programmatic access
-
----
-
-### 17. [how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)
-`9.2` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This article proposes a solution to give GitHub Copilot durable project memory and a goal-oriented workflow by combining specific instruction files and a modular memory bank structure inspired by AWS Kiro. It outlines how to teach Copilot to remember product goals, architecture constraints, and tech stack, even after chat resets, by defining clear boundaries for tasks and context loading.**
-
-**Features:**
-- GitHub Copilot
-- Persistent Memory
-- Kiro-Lite Workflow
-- Modular Memory Bank
+- FreeCAD MCP
+- Claude Desktop integration
+- RPC Server functionality
+- Addon installation guide
 - Context Engineering
 
-*Tags: github-copilot, ai-memory, kiro, developer-workflow, context-management, project-architecture, prompt-engineering, agent-orchestration*
+*Tags: freecad, mcp, claude, ai-agents, cad-tools, development-workflow, openai, automation...*
 
 ---
 
-### 18. [leadbroaf/mcp-agent-server](https://github.com/leadbroaf/mcp-agent-server)
-`9.5` ★★ ⚡79 Q0.6⭐ ⭐ Excellent
+### 9. [scmdr/sourcesyncai-mcp](https://github.com/scmdr/sourcesyncai-mcp)
+`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
+↗3 layers
 
-**The MCP agent server provides a modular "brain" for AI employees, enabling users to hire, assign, grade, and improve persistent AI agents. It focuses on the "AI employee" metaphor, offering natural language interfaces and persistent memory for agents.**
+**The repository provides an implementation of the SourceSync.ai MCP server, which serves as a standardized interface for AI models to interact with the knowledge management platform. Key features include managing namespaces for organizing knowledge, ingesting content from various sources, performing semantic searches, and accessing document content directly from parsed URLs.**
 
 **Features:**
-- Agent Orchestration
-- Persistent Memory
-- Natural Language Interface
-- Agent-Centric Feedback Loops
+- Manage namespaces for organizing knowledge
+- Ingest content from various sources (text
+- URLs
+- websites)
+- Retrieve
+- update
+- and manage documents
+- Perform semantic and hybrid searches
+- Access document content directly from parsed text URLs
+
+*Tags: ai, mcp, source-sync, knowledge-management, llm, api, agent-orchestration, context-engineering...*
 
 ---
 
-### 19. [izumisy/mcp-duckdb-memory-server](https://github.com/izumisy/mcp-duckdb-memory-server)
+### 10. [rayyan9477/linkedin_mcp](https://github.com/rayyan9477/linkedin_mcp)
+`9.6` ★★ ⚡87 Q0.7🏆 🏆 World-class
+↗2 layers
+
+**The project implements an MCP server using the FastMCP Python SDK to give AI assistants deep integration with LinkedIn data. It offers capabilities like searching jobs, analyzing profiles, generating tailored resumes and cover letters, and tracking application workflows. This is a practical demonstration of how to leverage LLMs for real-world professional tasks within the LinkedIn ecosystem.**
+
+**Features:**
+- Job Search (search_jobs)
+- Profile Generation (get_profile)
+- Resume Generation (generate_resume)
+- Cover Letter Generation (tailor_resume)
+- Application Tracking (tracking workflow)
+
+---
+
+### 11. [zalab-inc/mcp-linear-app](https://github.com/zalab-inc/mcp-linear-app)
+`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**The repository provides a complete solution for integrating the Linear task management system with an AI tool, leveraging the Model Context Protocol (MCP). It outlines how to set up the necessary API key and configuration files to enable the AI to interact directly with Linear's features like searching issues and creating new tasks.**
+
+**Features:**
+- Complete Linear Integration
+- Search issues
+- Create new issues
+- Update issues
+- Get user profiles
+
+*Tags: linear, ai, mcp, integration, api, agent, tooling, development...*
+
+---
+
+### 12. [CodingFont: A game to help you pick a coding font | Hacker News](https://news.ycombinator.com/item?id=47575403)
+`9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The Borg Project intelligence database should include a technical resource that analyzes how different coding fonts render across various browsers and operating systems. The resource should provide detailed insights into font rendering discrepancies, including differences in size, legibility, and appearance on Chrome, Windows, macOS, Linux, and other platforms. It should highlight the importance of proper font rendering techniques, such as stem darkening, gamma blending, and ligature handling, t...**
+
+**Features:**
+- Cross-platform font rendering analysis
+- Comparison of font legibility at different sizes
+- Insights into font engine differences (e.g.
+- GDI
+- DirectWrite
+- OSX post-Retina)
+- Recommendations for configuring font properties to improve readability
+
+*Tags: font-rendering, code-fonts, typography-analysis, user-interface, text-editor-optimization, software-testing, design-evaluation, development-best-practices...*
+
+---
+
+### 13. [ztobs/cline-browser-use-mcp](https://github.com/ztobs/cline-browser-use-mcp)
+`8.3` ★ ⚡86 Q0.8🏆 🏆 World-class
+
+**The repository defines a "Browser Use Server" which acts as an interface to perform various browser operations like capturing screenshots, retrieving HTML content, or executing JavaScript on webpages. It integrates seamlessly with LLM providers via configuration options, offering a robust tool for building AI agents that interact with the web.**
+
+**Features:**
+- Browser Operations (screenshot
+- get_html
+- execute_js)
+- LLM Integration (multiple API support)
+- Xvfb integration for headless automation.
+
+*Tags: ai-agents, browser-automation, llm-integration, web-scraping, agent-workflow, python, javascript, api-keys...*
+
+---
+
+### 14. [spences10/mcp-tavily-search](https://github.com/spences10/mcp-tavily-search)
+`9.6` ★★ ⚡86 Q0.7🏆 🏆 World-class
+↗2 layers
+
+**This tool offers advanced web search capabilities through the Tavily API, providing intelligent search results optimized for high-quality, factual answers and context generation for RAG applications. It is built on the Model Context Protocol, offering various response formats and configurable search parameters.**
+
+**Features:**
+- Tavily Search API integration
+- AI-generated summaries
+- Domain filtering for quality results
+- Context generation for RAG
+- Response caching with TTL support
+
+---
+
+### 15. [djkz/bruno-api-mcp](https://github.com/djkz/bruno-api-mcp)
+`9.5` ★★ ⚡86 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**The project solves the challenges of debugging across system boundaries and creating custom tooling by collocating source code with data. It transforms Bruno API collections into MCP tools, allowing developers to debug across environments, build headless services for AI agents, and manage API collections through a unified protocol.**
+
+**Features:**
+- Automatic conversion of Bruno API collections to MCP tools
+- Environment management for different API configurations
+- HTTP with SSE transport
+- Built-in tools for API collection management
+
+*Tags: bruno, mcp, api, agent, tooling, development, ai, context...*
+
+---
+
+### 16. [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗5 layers
+
+**This resource describes AFFiNE as a hyper-fused platform that merges traditional tools like Notion and Miro into a single canvas. It functions as an operating system for building knowledge bases, offering rich text, sticky notes, embedded web pages, and multi-view databases all within one place.**
+
+**Features:**
+- Rich text
+- sticky notes
+- embedded web pages
+- multi-view databases
+- linked pages
+
+*Tags: electron, editor, markdown, rust, app, wiki, notes, table...*
+
+---
+
+### 17. [twolven/mcp-stockscreen](https://github.com/twolven/mcp-stockscreen)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+
+**The project offers a powerful tool for LLMs to screen stocks based on various criteria like price, volume, P/E ratio, and volatility filters. It includes features for watchlist management, result storage, and categorization of stocks into different market segments (Mega Cap, Large Cap, etc.).**
+
+**Features:**
+- Stock Screening
+- Technical Analysis Screening
+- Options Screening
+- Watchlist Creation and Management
+- Market Cap Filters
+
+*Tags: python, stock-screening, technical-analysis, options-screening, mcp, finance, llm, api...*
+
+---
+
+### 18. [falkordb/falkordb-mcpserver](https://github.com/falkordb/falkordb-mcpserver)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The resource explains how FalkorDB's MCP server facilitates AI assistants to query and manage graph databases using natural language. It outlines the core functionality of the protocol, including querying graph data, creating nodes/relationships, and managing replica instances for read-only access.**
+
+**Features:**
+- Graph database interaction
+- Model Context Protocol (MCP)
+- Querying graph data
+- Conversational AI integration
+- Node/relationship management.
+
+*Tags: graphdatabase, falkordb, mcp-server, ai-agents, graph-database, node-management, conversational-ai, opencypher...*
+
+---
+
+### 19. [alondmnt/joplin-mcp](https://github.com/alondmnt/joplin-mcp)
+`8.6` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+
+**The project introduces a Model Context Protocol (MCP) server that acts as an intermediary layer between Joplin note-taking application and AI agents. It offers comprehensive tools for managing notes, notebooks, tags, and file imports, enabling seamless integration of Joplin functionality into AI workflows.**
+
+**Features:**
+- find_notes
+- get_note
+- create_note
+- list_notebooks
+- tag_note
+- import_from_file
+- ping_joplin
+
+*Tags: and-file-imports, enabling-seamless-integration-of-joplin-functionality-into-ai-workflows.*
+
+---
+
+### 20. [Clio Work](https://www.clio.com/work/?rdt_cid=5403277754470839519)
+`10.0` ★★★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**Clio Work's AI integration enhances legal practice by understanding case context, automating document management, and providing real-time legal analysis. It connects seamlessly with Clio's ecosystem, enabling lawyers to focus on strategy rather than manual research.**
+
+**Features:**
+- AI-driven legal research and analysis
+- Case strategy and precedent identification
+- Document management and organization
+- Integration with Clio Work for workflow automation
+- Customizable templates and document generation
+- Real-time updates from verified legal sources
+
+*Tags: legal-ai, clio-work, case-strategy, document-automation, legal-research, ai-law-firm, integration, document-management...*
+
+---
+
+### 21. [gianlucamazza/mcp_python_toolbox](https://github.com/gianlucamazza/mcp_python_toolbox)
+`8.5` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**The MCP Python Toolbox implements a Model Context Protocol server designed to enable AI assistants like Claude to effectively interact with Python code and projects. It offers comprehensive tools for reading, writing files, analyzing code structure, managing virtual environments, and executing Python code safely within a standardized interface.**
+
+**Features:**
+- File Operations
+- Code Analysis
+- Project Manager
+- Code Execution
+
+*Tags: python, ai, development, coding, tools, mcp, analysis, environment...*
+
+---
+
+### 22. [sukeesh/zerodha-mcp-go](https://github.com/sukeesh/zerodha-mcp-go)
+`8.6` ★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The repository provides a "Zerodha MCP Server," which acts as a protocol layer allowing the Claude AI to access and interact with Zerodha's trading account information directly. It outlines the necessary steps for setup, including Go installation, API credential configuration, and how the resulting server communicates with the Claude Desktop application.**
+
+**Features:**
+- Zerodha MCP Server implementation
+- Go language integration
+- Claude AI data access via MCP
+- API credential management
+- Automated user profile retrieval
+
+---
+
+### 23. [7gugu/zip-mcp](https://github.com/7gugu/zip-mcp)
+`8.6` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+
+**The project provides a complete solution for file compression and decompression, offering parameter-controlled ZIP compression, password protection, and path validation. It integrates the MCP protocol into various AI client contexts like Claude and Cursor, demonstrating a practical application of context management in development workflows.**
+
+**Features:**
+- ZIP Compression/Decompression
+- Parameter-Controlled Compression (Level 0-9)
+- Password Protection & Encryption
+- Safe Path Validation for ZIP entries
+
+*Tags: zip, mcp, compression, local, cursor, claude, package-lock.json, typescript...*
+
+---
+
+### 24. [jem-computer/capacities-mcp](https://github.com/jem-computer/capacities-mcp)
+`8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
+
+**The repository introduces "capacities-mcp-plus," an improved version of the original Capacities MCP server, designed to enhance the integration between the knowledge management system (Capacities) and the LLM/Claude desktop environment. It focuses on providing seamless access to content retrieval and a robust API for interacting with the underlying Capacities functionality.**
+
+**Features:**
+- Retrieve full note content by object ID
+- fastmcp Version 1.27.3
+- New Tool: capacities_read_object_content
+- Save Weblinks
+- Daily Notes
+
+---
+
+### 25. [deploying-laravel-on-dreamhost-e13aa9a9b87](https://medium.com/devops-in-the-trenches/deploying-laravel-on-dreamhost-e13aa9a9b87)
+`8.8` ★ ⚡80 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This article provides a comprehensive walkthrough for deploying Laravel applications on DreamHost. It details the process of setting up a new domain, configuring the web directory, creating a MySQL database, editing the .env file, and running migrations. The guide emphasizes best practices such as using environment variables, ensuring proper PHP version compatibility, and leveraging DreamHost's features for efficient development and deployment.**
+
+**Features:**
+- domain setup
+- database configuration
+- environment variable management
+- migration execution
+- php version alignment
+
+*Tags: laravel, deployment, dreamhost, phpmyadmin, devops, webdevelopment, hosting, laravelproject...*
+
+---
+
+### 26. [seanivore/mcp-file-preview](https://github.com/seanivore/mcp-file-preview)
+`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The project implements an MCP server designed to capture full-page screenshots of local HTML files and analyze their structure, offering powerful capabilities for developer workflows.**
+
+**Features:**
+- File Preview
+- Content Analysis
+- Local File Support
+- Screenshot Management
+- Agentic
+
+*Tags: css, html, mcp, file-preview, cline, website-development, agentic*
+
+---
+
+### 27. [15 Years of Forking | Hacker News](https://news.ycombinator.com/item?id=47545607)
+`8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The discussion revolves around Waterfox's approach to integrating ads into its default search partner page, contrasting it with Mozilla's revenue-sharing model. It highlights the trade-offs between user privacy, monetization strategies, and the technical feasibility of implementing ad-blocking features. The conversation emphasizes the importance of transparency in how browsers handle advertising and the challenges of balancing sustainability with user control.**
+
+**Features:**
+- Ads on default search partner page
+- Cookie banner reduction options
+- Monetization via sponsored content (e.g.
+- adMarketplace
+- Yelp)
+- Transparent revenue sharing model
+- User control over ads and privacy settings
+
+*Tags: browser-monetization, privacy-features, search-engine-integration, ad-blocking-capabilities, user-sustainability, monetization-strategies, privacy-compliance, search-partnerships*
+
+---
+
+### 28. [roland0511/mcp-feishu-proj](https://github.com/roland0511/mcp-feishu-proj)
+`9.6` ★★ ⚡79 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**This project is an MCP server that wraps the Feishu project management Open API, allowing AI assistants to gain a view of Feishu projects and details through the MCP protocol. It provides tools for AI assistants to help users manage and query tasks within Feishu projects.**
+
+**Features:**
+- MCP Server Implementation
+- Feishu Project Management Integration
+- AI Assistant Workflow Enablement
+- API Wrapper for Feishu Projects
+
+---
+
+### 29. [mz462/mcppaylocity](https://github.com/mz462/mcppaylocity)
 `8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
 
-**The repository describes the implementation of a "DuckDB Memory Server," which is an enhanced version of the original Knowledge Graph Memory Server, leveraging DuckDB for its memory persistence layer. This project focuses on how to build a robust memory server that integrates with the Claude Desktop environment, providing a more efficient and structured way to manage context and knowledge within the MCP framework.**
+**The project defines a backend service designed to interact with the Paylocity API, providing structured access to employee data, earnings, company codes, and local taxes. It showcases a modern approach to integrating external data sources within an agent-centric workflow.**
 
 **Features:**
-- DuckDB integration
-- Memory Persistence Architecture
-- MCP Server implementation
-- Claude Desktop client integration
+- Paylocity API integration
+- Custom URI scheme for data fetching
+- Employee/Earnings/Tax resource endpoints
+- Tool implementation for data retrieval
+- Clear configuration via environment variables
 
 ---
 
-### 20. [signal-slot/mcp-systemd-coredump](https://github.com/signal-slot/mcp-systemd-coredump)
-`8.5` ★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**The project provides a tool for interacting with system core dumps, allowing MCP-capable applications to access, manage, and analyze these files. It defines an interface for the Systemd-coredump functionality, which is essential for understanding and manipulating system memory artifacts within a modern operating environment.**
-
-**Features:**
-- List all available coredumps in the system
-- Get detailed information about specific coredumps
-- Extract coredump files to a specified location
-- Remove coredumps from the system
-
----
-
-### 21. [Pak files - Virtual file system](https://simoncoenen.com/blog/programming/PakFiles)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**A technical deep-dive by Simon Coenen into using Virtual File Systems (VFS) and binary "Pak" blobs for high-performance asset management and disk seek optimization.**
-
-**Features:**
-- Header-first encryption/metadata
-- per-file internal compression
-- random memory access without full decompression
-- VFS path abstraction.
-
-*Tags: vfs, architecture, performance, file-systems, game-dev, blog, simoncoenen*
-
----
-
-### 22. [Introducing Nested Learning: A new ML paradigm for continual learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**A new machine learning paradigm for continual learning that views models as multi-level optimization problems with self-modifying "Hope" architectures.**
-
-**Features:**
-- Multi-level optimization timescales
-- Continuum Memory System (CMS)
-- self-modifying "Hope" architecture
-- elimination of catastrophic forgetting.
-
-*Tags: architecture, continual-learning, future-ai, google, google-research, hope-architecture, machine-learning, optimization...*
-
----
-
-### 23. [item?id=47821801](https://news.ycombinator.com/item?id=47821801)
-`7.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
+### 30. [jacksteamdev/mcp-sqlite-bun-server](https://github.com/jacksteamdev/mcp-sqlite-bun-server)
+`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
-**This analysis evaluates the reported benchmarking results comparing ARM-based Windows Server 2025 with Intel-based systems. It examines factors such as power management, memory bandwidth, SSD performance, and the impact of different Windows Power Profiles. The discussion highlights discrepancies in test outcomes, potential hardware variability, and the importance of controlled testing environments for accurate infrastructure decision-making.**
+**The project serves as an MCP server, enabling users to run SQL queries, analyze business data, and automatically generate business insight memos. It provides a dynamic resource (`memo://insights`) for aggregated insights and offers interactive prompts (`mcp-demo`) to guide analysis.**
 
 **Features:**
-- Performance profiling
-- Power management analysis
-- Memory bandwidth evaluation
-- SSD performance assessment
-- Windows Power Profile comparison
-
-*Tags: windows-server, power-management, performance-testing, arm-architecture, benchmarking, system-optimization*
+- SQLite database interaction
+- Business insight memo generation
+- Query execution tools (read-query
+- write-query)
+- Schema management capabilities (create-table
+- describe-table)
+- Insight addition via `append-insight`
 
 ---
 
-### 24. [Outer Wilds - Wikipedia](https://en.m.wikipedia.org/wiki/Outer_Wilds)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A space exploration game celebrated for its "Metroidbrainia" structure where progress is gated entirely by information rather than physical upgrades.**
-
-**Features:**
-- 22-minute time loop structure
-- information-based progress engine
-- persistent Ship Log detective board
-- non-linear knowledge discovery.
-
-*Tags: narrative-design, information-gating, time-loop, knowledge-management, game-design, bookmark, web*
-
----
-
-### 25. [Jikes RVM - Wikipedia](https://en.wikipedia.org/wiki/Jikes_RVM)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A foundational meta-circular research JVM written in Java, known for its MMTk modular memory framework and AOS adaptive optimization system.**
-
-**Features:**
-- Java-in-Java meta-circular core
-- MMTk (Memory Management Toolkit)
-- AOS (Adaptive Optimization System)
-- "VM Magic" raw memory access.
-
-*Tags: jvm, research, meta-circular, architecture, memory-management, bookmark, web*
-
----
-
-### 26. [Handles are the better pointers](https://floooh.github.io/2018/06/17/handles-vs-pointers.html)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A systems programming analysis advocating for opaque handles (index + counter) over direct pointers to achieve memory safety and defragmentation.**
-
-**Features:**
-- Memory relocatability (defragmentation)
-- UAF detection (generation counters)
-- mandatory runtime bounds checking
-- high-integrity identifier resolution.
-
-*Tags: systems-programming, memory-safety, pointers, handles, architecture, floooh, github, html...*
-
----
-
-### 27. [Installing Microsoft Windows 98 in DOSBox-X](https://dosbox-x.com/wiki/Guide%3AInstalling-Windows-98#_windows_editions_this_guide_applies_to)
-`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-
-**This resource provides a comprehensive guide on installing Microsoft Windows 98 within the DOSBox-X emulator. It covers the necessary configuration steps, prerequisites, and common issues encountered during the installation process.**
-
-**Features:**
-- ['Installation Method 1: Boot from CD-ROM image'
-- 'Installation Method 2: Copying the contents of the CD-ROM'
-- 'Configuration of DOSBox-X config file (including memory allocation and video settings)'
-- 'Emulation setup for Windows 98
-- including VESA driver
-- sound card emulation
-- and printing to PostScript.'
-- 'Enabling networking and specific hardware emulation (NE2000).'
-- 'Voodoo Glide pass-through and General MIDI sound card enabling.']
-
-*Tags: ['windows-98', 'dosbox-x', 'emulation', 'virtualization', 'hardware-emulation', 'configuration', 'bios', 'graphics'...*
-
----
-
-### 28. [is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin](https://monero.forex/is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+### 31. [medium.com/@bschulte19e/deploying-your-libgdx-game](https://medium.com/@bschulte19e/deploying-your-libgdx-game-to-ios-in-2020-4ddce8fff26c)
+`8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
-**A technical deep-dive into the 2026 privacy landscape of Monero, covering the FCMP++ zero-knowledge upgrade and persistent EAE/Flooding vulnerabilities.**
+**The article provides a comprehensive overview of the process for deploying a libGDX game to iOS, including hardware requirements, testing environments, and necessary configurations. It emphasizes the importance of using RoboVM for building and signing the app, setting up provisioning profiles, and preparing for both simulator and real device testing.**
 
 **Features:**
-- FCMP++ zero-knowledge upgrade
-- EAE (Eve-Alice-Eve) केवाईसी-exchange vulnerability
-- decoy-clogging Flooding attacks
-- full on-chain fungibility analysis.
+- Mac requirement (Mojave or Catalina)
+- Use of RoboVM for building and signing the game
+- Provisioning profile setup for iOS
+- Testing on simulator and real devices
+- Deployment process for both iOS simulator and actual devices
 
-*Tags: crypto, privacy, monero, security, zero-knowledge, artificial-intelligence*
+*Tags: libgdx, ios-deployment, mac-development, game-development, android-studio, robovm, provisioning-profiles, developer-tools*
 
 ---
 
-### 29. [jiray-yay/Stepmania-VRC](https://github.com/jiray-yay/Stepmania-VRC)
-`7.7` ★ ⚡73 Q0.8⭐ ⭐ Excellent
-↗5 layers
+### 32. [TuringSoftware/CrystalFetch](https://github.com/TuringSoftware/CrystalFetch)
+`7.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 
-**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+**CrystalFetch is a macOS application that creates Windows® 11 installer ISO images. It can be used with UTM virtual machines as well as other VM solutions. Note: CrystalFetch is not affiliated with Microsoft and a valid license is required to install Windows® 11. Building Make sure submodules are fetched with git submodule update --init If you have a paid Apple Developer license, copy CodeSigning.xcconfig.sample to CodeSigning.xcconfig and fill out the file with your developer information. If you...**
 
 **Features:**
-- Recreating Stepmania into VRC using a parser for SM files and visualizers/gameplay manager. Compatible game modes include 'Dance-Single'
-- 'Dance-double'
-- and 'Para-single'. Uses Udon# for song/chart embedding.
+- macOS application for creating Windows installer ISO images
+- compatibility with UTM virtual machines
+- requirement for paid Apple Developer license/library validation disabling for building.
 
-*Tags: ['stepmania', 'vrc', 'udonsharp', 'rhythm-game', 'parsing', 'visualization', 'game-engine', 'optimization'...*
+*Tags: ['macos', 'windows', 'iso', 'virtualization', 'xcode', 'build', 'installer', 'developer-tools'...*
 
 ---
 
-### 30. [wisey.app](https://wisey.app/r/productivity-3?utm_source=google&utm_medium=demand_gen&utm_campaign=23794905516&utm_term=195676381363&utm_content=807083020046&placement=&kw=&gad_source=2&gad_campaignid=23794905516&gbraid=0AAAAA-Awx_yxqbBKPD8RbssXoVXWHYm5t&wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)
-`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+### 33. [activecampaign/postmark-mcp](https://github.com/activecampaign/postmark-mcp)
+`8.2` ★ ⚡74 Q0.6⭐ ⭐ Excellent
 
-**The content suggests a focus on transforming the user's perception from an "Underachiever" to a "High-Performer" in just 28 days, often achieved through a quick quiz format, which points towards a productivity or learning platform powered by AI agents.**
+**The repository provides an MCP (Model Context Protocol) server that allows users to send emails via their Postmark account, leveraging AI tools like Claude for email sending tasks. It offers simple configuration through environment variables and robust features for email management.**
 
 **Features:**
-- Agent Orchestration
-- Context Engineering
-- Memory & Persistence Architecture
-- Interface UX
-- AI Agents & Frameworks
-
-*Tags: productivity, agent, workflow, ai, performance, learning, tools, development...*
+- Send emails with Postmark using Claude and other MCP-compatible AI assistants.
+- Simple configuration via environment variables.
+- Comprehensive error handling and graceful shutdown.
+- Automatic email tracking configuration.
 
 ---
 
-### 31. [phr00t/FocusEngine?tab=readme-ov-file](https://github.com/phr00t/FocusEngine?tab=readme-ov-file)
-`8.7` ★ ⚡68 Q0.7✓ ✓ Solid
-↗5 layers
+### 34. [made_a_list_of_every_useful_openclaw_resource_i](https://www.reddit.com/r/openclawsetup/comments/1sl8v6q/made_a_list_of_every_useful_openclaw_resource_i)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+↗2 layers
 
-**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+**This resource provides a detailed overview of the technical components, workflows, and best practices for setting up and maintaining an OpenClaw environment. It covers everything from hardware selection to software configuration, emphasizing automation and efficiency in open-source projects.**
 
 **Features:**
-- Focus is an open-source C# game engine for realistic rendering and VR based off of Xenko/Stride. It's highly modular and aims at give game makers more flexibility in their development. Focus comes with an editor that allows you create and manage the content of your games or applications in a visual and intuitive way.
+- automated setup
+- workflow optimization
+- resource management
+- community integration
 
-*Tags: ['vr', 'vulkan', 'xenko', 'stride3d', 'c#', 'gameengine', 'performance', 'vr'...*
+*Tags: openclaw, opensource, softwaredev, systemdesign, communitytools, automation, workflow, development...*
 
 ---
 
-### 32. [Installing Cline - Cline](https://docs.cline.bot/getting-started/installing-cline)
-`8.7` ★ ⚡59 Q0.6✓ ✓ Solid
+### 35. [Configured Engines — SearXNG Documentation (2026.4.11+9e08a6771)](https://docs.searxng.org/user/configured_engines.html#configured-engines)
+`8.7` ★ ⚡63 Q0.6✓ ✓ Solid
 ↗6 layers
 
-**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+**SearXNG supports 250 search engines of which 96 are enabled by default. Engines can be assigned to multiple categories . The UI displays the tabs that are configured in categories_as_tabs . In addition to these UI categories (also called tabs ), engines can be queried by their name or the categories they belong to, by using a !bing syntax.**
 
 **Features:**
-- Cline is an AI coding agent that integrates deeply with development environments and workflows.
+- Enabled engines: General Engine Configuration
 
-*Tags: ['cline', 'ai-agents', 'workflow', 'ide', 'cli', 'vscode', 'jetbrains', 'mcp'...*
-
----
-
-## Verification & Testing
-> 25 tools · avg signal ⚡64
-
-### 1. [Mistral AI Releases Forge | Hacker News](https://news.ycombinator.com/item?id=47418295)
-`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The review highlights the complexity of integrating Mistral AI's Forge with existing enterprise systems, emphasizing the need for clear API documentation and developer support. It underscores the importance of understanding model naming conventions and the limitations of the current API in mapping to internal tools. The discussion also touches on broader industry trends, such as the preference for custom workflows over generic solutions, and the challenges of aligning technical offerings with bu...**
-
-**Features:**
-- Model selection options (devstral-2
-- devstral-latest
-- etc.)
-- API documentation and integration guidance
-- Support for enterprise deployment and customization
-- Focus on EU data compliance and model transparency
-
-*Tags: mistral-ai, forge, developer-tools, enterprise-integration, ai-platform, model-selection, eu-compliance, custom-workflows...*
+*Tags: ['agent-orchestration-&-workflow', 'context-engineering-&-isolation', 'memory-&-persistence-architecture', 'interface-&-developer-ux', 'connectivity-&-interoperability-(mcp/a2a)', 'infrastructure-&-proxy-layers', 'guides-&-industry-trends', 'vector-databases-&-search'...*
 
 ---
 
-### 2. [A once-in-a-generation discovery is transforming a Michigan dairy farm](https://msutoday.msu.edu/news/2025/10/research-discovery-transforms-michigan-dairy-farm)
-`8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+### 36. [settings.py](http://settings.py)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**This article details how Preston Farms, a Michigan dairy farm, partnered with Michigan State University to implement high-oleic soybeans in their livestock's diet. The research, funded by various organizations, focused on the impact of dietary fats on milk composition and cow health. The results showed a significant increase in milk fat and protein yields, leading to a 20% reduction in purchased feed costs. This case study highlights the potential of scientific research to drive innovation and i...**
-
-**Features:**
-- ['Improved milk quality (increased fat and protein yields)'
-- 'Reduced livestock feed costs (20% reduction)'
-- 'Partnership between a dairy farm and a university research team'
-- 'Use of high-oleic soybeans as a dietary supplement for dairy cows'
-- 'Positive impact on farm economics']
-
-*Tags: ['dairy', 'agriculture', 'soybeans', 'michigan-state-university', 'livestock', 'milk-quality', 'feed-costs', 'oleic-acid'...*
-
----
-
-### 3. [hammeiam/koroko-speech-mcp](https://github.com/hammeiam/koroko-speech-mcp)
-`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The repository defines a Speech MCP Server designed to deliver high-quality text-to-speech functionality powered by the Kokoro TTS model. It offers users tools for generating speech, customizing voice and speed options, and provides an easy-to-use, MCP-compliant interface for integrating speech capabilities into development workflows.**
-
-**Features:**
-- Text-to-speech conversion using the Kokoro TTS model
-- Customizable speech parameters (voice
-- speed)
-- MCP-compliant interface
-- Easy installation and setup
-- No API key required
-
----
-
-### 4. [eliovp-bv/mcp-vllm-benchmark](https://github.com/eliovp-bv/mcp-vllm-benchmark)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project demonstrates how to integrate MCP with a custom benchmarking tool to evaluate the performance of various large language model (LLM) inference endpoints. By leveraging MCP's capabilities, developers can interactively run benchmarks, compare results, and analyze model behavior under controlled conditions.**
-
-**Features:**
-- Interactive vLLM benchmarking
-- Model comparison across endpoints
-- Customizable benchmarking parameters
-
-*Tags: mcp, vllm, benchmarking, ai, developer, testing, performance, model...*
-
----
-
-### 5. [MagicFind | Your Innovation and Experiment Hub](https://magicfind.ai/checkouts/cn/hWN5J9XJFkOqQNZB8es0DbVJ/en-us?_r=AQABmX9Ggd9r-PMsacivuOrEKHyCJlxkNzFK-ajtkd8OFAE&auto_redirect=false&cart_link_id=Ofj01Ii7&edge_redirect=true&skip_shop_pay=true)
-`8.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**MagicFind assists in validating product ideas by comparing concepts, assessing product interest, purchase intent, and market fit. It employs a 5-stage validation process including early concept validation, price testing, real-user insights, concept design & evaluation, and community co-creation. It aims to reduce product failure rates by providing data-driven insights into customer preferences and purchase intent.**
-
-**Features:**
-- ['Concept comparison and validation'
-- 'Product interest and purchase intent assessment'
-- 'Market and channel fit analysis'
-- 'Price testing using the Van Westendorp model'
-- 'Real-user insights through targeted ads
-- surveys
-- and interviews'
-- 'Concept design and evaluation based on customer preferences'
-- 'Community co-creation and feedback integration']
-
-*Tags: ['product-market-fit', 'validation', 'concept-testing', 'price-optimization', 'user-insights', 'market-research', 'ai-hardware', 'crowdfunding'...*
-
----
-
-### 6. [ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f](https://eyeofthesquid.com/ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f)
-`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The article explores how artificial intelligence challenges foundational philosophical concepts like meritocracy and social justice, arguing that AI undermines the legitimacy of current economic systems by treating human talents as mere data inputs rather than expressions of individual agency. It examines the debates between Rawls and Nozick regarding fairness and redistribution, highlighting how AI threatens the moral justification for inequality and calls for urgent institutional intervention ...**
-
-**Features:**
-- AI ethics analysis
-- moral philosophy comparison
-- economic justice critique
-- institutional risk assessment
-
-*Tags: ai-ethics, moral-foundations, meritocracy, capital-ownership, social-justice, philosophical-debate, economic-power, institutional-change...*
-
----
-
-### 7. [fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)
-`9.8` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**This tutorial guides users through fine-tuning the Stable Diffusion XL model using DreamBooth and LoRA, enabling customized image generation on personal photos. It covers accessing the SDXL model via Hugging Face, setting up GPU environments, integrating refiners for improved quality, and applying the technique to creative industries.**
-
-**Features:**
-- Fine-tuning Stable Diffusion XL with DreamBooth
-- Using LoRA for efficient customization
-- Generating high-quality images from custom datasets
-- Accessing SDXL via Hugging Face and local GPU setups
-
-*Tags: ai, machine-learning, image-generation, stable-diffusion, diffusion-models, deep-learning, data-science, generative-ai...*
-
----
-
-### 8. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076)
-`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**This resource evaluates the capabilities and value proposition of Risen vs. TradingView, focusing on its free tier offerings, advanced features, pricing structure, and integration potential within a broader ecosystem.**
-
-**Features:**
-- multi-condition alerts
-- no-code trading strategies
-- built-in backtesting
-- unlimited indicators
-- customizable alerts
-- earnings & insider alerts
-- community scripts
-- social features
-
-*Tags: tradingview, algorithm, fintech, platformcomparison, costanalysis, featureset, userexperience, webapi...*
-
----
-
-### 9. [RoboRatings - Find Your Perfect Robot Vacuum](https://www.roboratings.com)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**A 2026 benchmark leaderboard tracking frontier models, highlighting Claude Opus 4.6 (Reasoning), Sonnet 5 (Coding), and Gemini 3.1 Pro (Multimodal) as industry leaders.**
-
-**Features:**
-- Claude Opus 4.6 (91.9% GPQA Reasoning)
-- Claude Sonnet 5 (82.1% SWE-bench Coding)
-- Gemini 3.1 Pro (1M+ Multimodal)
-- Kimi K2.5 (Cost/Performance ratio).
-
-*Tags: benchmarks, leaderboard, claude, gemini, evaluation, artificial-intelligence, roboratings*
-
----
-
-### 10. [Optimal Temperature for Gemini 3 Pro Coding](https://lynchmark.com/blog/gemini-optimal-temperature)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A technical benchmark of 231 automated coding tests determining the optimal temperature setting for production-grade agent reasoning.**
-
-**Features:**
-- Optimal Temperature = 0.35
-- "Cluster of Perfection" (0.0-0.5) identification
-- median vs average performance analysis
-- entropy threshold detection.
-
-*Tags: optimization, hyperparameters, gemini, reliability, benchmarking, blog, data, lynchmark*
-
----
-
-### 11. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗3 layers
-
-**Technical research proving that AI models have "bad days," with 10-15% daily performance swings due to non-determinism and backend updates.**
-
-**Features:**
-- Daily statistical performance tracking
-- 10-15% model performance variance
-- documented Claude Code degradation (4.1% in 30 days)
-- need for dynamic evals.
-
-*Tags: benchmarks, reliability, non-determinism, tracking, sw-bench, artificial-intelligence, blog, marginlab*
-
----
-
-### 12. [Humanity's Last Exam](https://lastexam.ai)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A PhD-level benchmark consisting of 2,500 expert questions designed to measure high-tier reasoning and model confidence calibration.**
-
-**Features:**
-- 2
-- 500 expert-written questions
-- confidence calibration metric
-- removed memorization-solvable tasks
-- 2026 frontier model leaderboard.
-
-*Tags: benchmarks, reasoning, phd-level, evaluation, research, artificial-intelligence, data, lastexam*
-
----
-
-### 13. [from?site=asteriskmag.com](https://news.ycombinator.com/from?site=asteriskmag.com)
-`8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This resource collection focuses on examining various technical articles and discussions centered around connectivity solutions, interoperability standards, and methods for integrating diverse data sources. It covers topics such as communication protocols, data exchange mechanisms, and strategies for ensuring seamless interaction between systems.**
-
-**Features:**
-- URL analysis
-- Technical content review
-- Data categorization
-- Insight generation
-
-*Tags: astershipmag, hackernews, past, comments, jger15, nkurz, downsplat, mitchbob...*
-
----
-
-### 14. [Why Gemini 3 Flash is the model OpenAI is afraid of](https://blog.brokk.ai/why-gemini-3-flash-is-the-model-openai-is-afraid-of)
-`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
-
-**Technical analysis of Google's high-performance, low-cost 'workhorse' model, demonstrating frontier-level intelligence at 5x lower cost.**
-
-**Features:**
-- 78% SWE-bench Verified score
-- 218 tokens/sec throughput
-- 5x cost reduction vs flagships
-- optimal tradeoff for 80% of dev tasks.
-
-*Tags: gemini, performance, benchmarking, cost-optimization, sw-bench, artificial-intelligence, blog, programming*
-
----
-
-### 15. [AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering](https://firethering.com/autotts-ai-inference-test-time-scaling)
-`7.8` ★ ⚡62 Q0.6✓ ✓ Solid
-
-**AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering @media (max-width:767px){.td-header-desktop-wrap{display:none}}@media (min-width:767px){.td-header-mobile-wrap{display:none}}:root{--accent-color:#fff}@font-face{font-family:"LuckiestGuy";src:local("LuckiestGuy"),url("https://firethering.com/CustomFonts/LuckiestGuy-Regular.woff") format("woff");font-display:swap}.td-mobile-content .td-mobile-main-menu>li>a{font-family:"Public Sans";font-weight:bol...**
-
-**Features:**
-- Agent support
-
-*Tags: agent, ai*
-
----
-
-### 16. [The 244Page System Card For Claude Mythos Preview](https://www.reddit.com/r/singularity/comments/1sf5xqn/the_244page_system_card_for_claude_mythos_preview/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The 244Page System Card For Claude Mythos Preview**
-
----
-
-### 17. [Some Benchmarks Of Claude Mythos](https://www.reddit.com/r/accelerate/comments/1sf4hnp/some_benchmarks_of_claude_mythos/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Some Benchmarks Of Claude Mythos**
-
----
-
-### 18. [Kimi K26Codepreview Opus 47 Glm 51 Minimax M27](https://www.reddit.com/r/LocalLLaMA/comments/1sno8ba/kimi_k26codepreview_opus_47_glm_51_minimax_m27/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Kimi K26Codepreview Opus 47 Glm 51 Minimax M27**
-
----
-
-### 19. [Neon Pulse Anyone Want To Test This Out](https://www.reddit.com/r/bbs/comments/1s7geo2/neon_pulse_anyone_want_to_test_this_out/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Neon Pulse Anyone Want To Test This Out**
-
----
-
-### 20. [Anthropic Just Dropped Claude Mythos Preview](https://www.reddit.com/r/claude/comments/1sf7l80/anthropic_just_dropped_claude_mythos_preview/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anthropic Just Dropped Claude Mythos Preview**
-
----
-
-### 21. [I Tested 40 Ai Tools This Month Here Are 5 That](https://www.reddit.com/r/AIToolsAndTips/comments/1smxsua/i_tested_40_ai_tools_this_month_here_are_5_that/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Tested 40 Ai Tools This Month Here Are 5 That**
-
----
-
-### 22. [My Lm Studio Matches Opus 45 Benchmarks](https://www.reddit.com/r/openclawsetup/comments/1slen4h/my_lm_studio_matches_opus_45_benchmarks/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Lm Studio Matches Opus 45 Benchmarks**
-
----
-
-### 23. [In Case Anyone Missed New Benchmarks For Deepseek](https://www.reddit.com/r/DeepSeek/comments/1suwgil/in_case_anyone_missed_new_benchmarks_for_deepseek/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**In Case Anyone Missed New Benchmarks For Deepseek**
-
----
-
-### 24. [Svg Tests Gemini 32 Pro From X](https://www.reddit.com/r/Bard/comments/1tcnp7i/svg_tests_gemini_32_pro_from_x/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Svg Tests Gemini 32 Pro From X**
-
----
-
-### 25. [Gemini 4 Is Tested In Google](https://www.reddit.com/r/Bard/comments/1tgql14/gemini_4_is_tested_in_google/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini 4 Is Tested In Google**
-
----
-
-## Major Harness Integrations
-> 23 tools · avg signal ⚡48
-
-### 1. [Google's new 'Aluminium OS' project brings Android to PC: Here's what we know](https://www.androidauthority.com/aluminium-os-android-for-pcs-3619092)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**Google's internal project to bring a desktop-class Android experience to PCs, featuring Gemini-core intelligence and native windowing.**
-
-**Features:**
-- Native desktop windowing/snapping
-- Gemini-at-the-core AI intelligence
-- cross-device Handoff continuity
-- Android app ecosystem on PC.
-
-*Tags: google, android, os, gemini, productivity, androidauthority*
-
----
-
-### 2. [Arena Leaderboard | Compare & Benchmark the Best Frontier AI Models](https://lmarena.ai/leaderboard)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**The industry-standard LLM leaderboard, identifying the "Superintelligence Tier" of models for coding, reasoning, and vision.**
-
-**Features:**
-- Claude Opus 4.6 (Coding King)
-- GPT-5.3-Codex (DevOps Leader)
-- Gemini 3.1 Pro (Vision-to-Code)
-- DeepSeek R1 (#1 Open Source).
-
-*Tags: benchmarks, leaderboard, elo, coding-performance, sw-bench, artificial-intelligence, lmarena*
-
----
-
-### 3. [codingplans.cc](https://codingplans.cc/)
-`8.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
-
-**The platform offers a range of direct providers, including OpenAI/Codex, Google Gemini, and Anthropic/Claude, which are categorized under the 'IDEs & Coding Tools' category. The pricing structure suggests different tiers for access to these powerful coding assistants and tools.**
-
-**Features:**
-- OpenAI/Codex
-- Google Gemini
-- Anthropic/Claude
-- Kimi/Moonshot
-
-*Tags: coding-tools, ai-agents, ide, developer-workflow, llms, api-access, coding-harness, agent-orchestration*
-
----
-
-### 4. [Gemini 31 Pro Google Ai Studio Vs Claude 47 Opus](https://www.reddit.com/r/Bard/comments/1sv8o6q/gemini_31_pro_google_ai_studio_vs_claude_47_opus/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini 31 Pro Google Ai Studio Vs Claude 47 Opus**
-
----
-
-### 5. [My Advice To Google For Gemini 31 Pro At Coding](https://www.reddit.com/r/google_antigravity/comments/1t8zf6s/my_advice_to_google_for_gemini_31_pro_at_coding/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Advice To Google For Gemini 31 Pro At Coding**
-
----
-
-### 6. [Using Claude After Gemini](https://www.reddit.com/r/GeminiAI/comments/1sb4oe9/using_claude_after_gemini/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Using Claude After Gemini**
-
----
-
-### 7. [Used Gemini 31 Flash Live To Build Actual Phone](https://www.reddit.com/r/Bard/comments/1siiiuz/used_gemini_31_flash_live_to_build_actual_phone/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Used Gemini 31 Flash Live To Build Actual Phone**
-
----
-
-### 8. [Today I Learnt Gemini Cannot Maintain A Document](https://www.reddit.com/r/GeminiAI/comments/1szmpfv/today_i_learnt_gemini_cannot_maintain_a_document/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Today I Learnt Gemini Cannot Maintain A Document**
-
----
-
-### 9. [Gpt Pro Vs Gemini Pro Realworld Experience](https://www.reddit.com/r/GeminiAI/comments/1t5n0nx/gpt_pro_vs_gemini_pro_realworld_experience/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gpt Pro Vs Gemini Pro Realworld Experience**
-
----
-
-### 10. [Google Is A Bit Quiet About Gemini Itself Lately](https://www.reddit.com/r/Bard/comments/1sb7ck4/google_is_a_bit_quiet_about_gemini_itself_lately/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Google Is A Bit Quiet About Gemini Itself Lately**
-
----
-
-### 11. [Google Just Dropped Notebooks In Gemini With Full](https://www.reddit.com/r/notebooklm/comments/1shmitf/google_just_dropped_notebooks_in_gemini_with_full/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Google Just Dropped Notebooks In Gemini With Full**
-
----
-
-### 12. [Gemini 3 Flash Got Better](https://www.reddit.com/r/google_antigravity/comments/1sl1d8u/gemini_3_flash_got_better/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini 3 Flash Got Better**
-
----
-
-### 13. [Has Anyone Compared Kimi 26 With Gemini 31 Pro In](https://www.reddit.com/r/kimi/comments/1stwwdr/has_anyone_compared_kimi_26_with_gemini_31_pro_in/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Has Anyone Compared Kimi 26 With Gemini 31 Pro In**
-
----
-
-### 14. [How Do I Make Gemini Stop Doing This](https://www.reddit.com/r/GeminiAI/comments/1swub9b/how_do_i_make_gemini_stop_doing_this/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Do I Make Gemini Stop Doing This**
-
----
-
-### 15. [Google Prepares Credit System For Gemini And New](https://www.reddit.com/r/Bard/comments/1swgti2/google_prepares_credit_system_for_gemini_and_new/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Google Prepares Credit System For Gemini And New**
-
----
-
-### 16. [Gemini Can Now Generate Multiple Files Right In A](https://www.reddit.com/r/Bard/comments/1sy7ht0/gemini_can_now_generate_multiple_files_right_in_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini Can Now Generate Multiple Files Right In A**
-
----
-
-### 17. [How Come Theres Zero Leaks On The New Gemini 35](https://www.reddit.com/r/Bard/comments/1t3ej9k/how_come_theres_zero_leaks_on_the_new_gemini_35/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Come Theres Zero Leaks On The New Gemini 35**
-
----
-
-### 18. [Google Gemini Steals The Spotlight As Users Swap](https://www.reddit.com/r/Bard/comments/1t5lya6/google_gemini_steals_the_spotlight_as_users_swap/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Google Gemini Steals The Spotlight As Users Swap**
-
----
-
-### 19. [Unpopular Opinion I Actually Like The Gemini](https://www.reddit.com/r/google_antigravity/comments/1t72gy4/unpopular_opinion_i_actually_like_the_gemini/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Unpopular Opinion I Actually Like The Gemini**
-
----
-
-### 20. [Gemini 3 Flash Feels Surprisingly Good](https://www.reddit.com/r/google_antigravity/comments/1tgpipu/gemini_3_flash_feels_surprisingly_good/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Gemini 3 Flash Feels Surprisingly Good**
-
----
-
-### 21. [Gemini 4](https://www.reddit.com/r/accelerate/comments/1sa2n55/gemini_4/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Gemini 4**
-
----
-
-### 22. [Gemini Is Crazy Good](https://www.reddit.com/r/GeminiAI/comments/1slh8uo/gemini_is_crazy_good/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Gemini Is Crazy Good**
-
----
-
-### 23. [Gemini 32](https://www.reddit.com/r/GeminiAI/comments/1suj9o5/gemini_32/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Gemini 32**
+**settings.py**
 
 ---
 
 ## Hooks & Lifecycle
-> 22 tools · avg signal ⚡84
+> 34 tools · avg signal ⚡75
 
 ### 1. [MaxGfeller/open-harness](https://github.com/MaxGfeller/open-harness)
 `9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
@@ -10412,8 +16377,699 @@
 
 ---
 
+### 23. [Farewell from CoGe](http://cogevj.hu/)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource appears to be a blog post or announcement detailing the lifecycle of a software project (CoGe), its dependencies, and the decision to rebuild an application from scratch. It highlights the technical difficulties encountered during the development process and the resulting architectural decisions made by the developer.**
+
+**Features:**
+- Project history documentation
+- Software showcase
+- Technical update announcement
+- Developer workflow context
+- Hardware/Software integration
+
+*Tags: software-development, project-management, legacy-software, technical-challenges, application-lifecycle, mac-os*
+
+---
+
+### 24. [Windows 2: Final Fantasy of operating systems](https://www.ninakalinina.com/notes/win2)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource provides a deep dive into the operating system Windows 2, focusing on its significance within the broader history of Microsoft's evolution. It explores the technical details, commercial successes (like Paintbrush and Excel), and the specific challenges that led to the version's eventual fate.**
+
+**Features:**
+- Historical analysis
+- technical deep dive
+- historical context
+- operating system history
+- developer insight
+
+*Tags: windows, history, operating-systems, microsoft, nostalgia, tech*
+
+---
+
+### 25. [Stay NC500 — Accommodation & Travel Guide](http://www.staync500.com)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource functions as a comprehensive guide for planning the iconic NC500 road trip, offering detailed accommodation options, town guides, and pre-packaged itineraries. It helps users plan their journey by providing essential information on accommodations, routes, and local events.**
+
+**Features:**
+- Accommodation booking integration
+- customizable itinerary options
+- route planning tools
+- destination guides
+- event listings
+
+*Tags: travel-planning, road-trip, tourism, scotland, accommodation, itineraries, guide*
+
+---
+
+### 26. [Psymedia](https://psymedia.co.za/upcoming-international-psytrance-festivals/)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides specific details about the 'Psytrance Festival' event, including the date of a major announcement (the passing of DJ Chicago) and providing context for the global rave community. It serves as an informational guide for users interested in psytrance culture and upcoming events.**
+
+**Features:**
+- Event Listing
+- Key Dates & Details
+- Event Context
+- DJ/Artist Profile
+- Festival Information
+
+*Tags: psytrance, festival, event, rave, music, trends*
+
+---
+
+### 27. [BMS / Beatoraja English Guide | beatoraja-english-guide](https://wcko87.github.io/beatoraja-english-guide)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides an in-depth guide for understanding and playing BMS files, including information on music sources, difficulty ratings, and controller configurations. It serves as a complete reference for users interested in the rhythm game community and the technical aspects of BMS.**
+
+**Features:**
+- BMS player setup guide
+- BMS song download tips
+- difficulty rating system explanation
+- controller configuration tips
+- community/event overview
+
+*Tags: rhythm-games, music, guides, bms, community, tutorials, gaming*
+
+---
+
+### 28. [Rubin Tracks Skyscraper-Size Asteroids, Failed Supernovas, and Interstellar Visitors | Quanta Magazine](https://www.quantamagazine.org/rubin-tracks-skyscraper-size-asteroids-failed-supernovas-and-interstellar-visitors-20260515/)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This article details the significance of the Vera C. Rubin Observatory, a key instrument for studying the cosmos, focusing on its potential to discover millions of asteroids and celestial phenomena. It highlights the observatory's contribution to big-data astronomy and the scientific insights gained from these observations.**
+
+**Features:**
+- Vera C. Rubin Observatory
+- asteroid discovery
+- failed supernovas
+- astronomical context
+
+*Tags: astronomy, telescope, observatory, astrophysics, discovery, science*
+
+---
+
+### 29. [KDE at 30 - KDE Community](https://kde.org/anniversaries/30/)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This resource is a page from the KDE website celebrating its 30th anniversary, highlighting the community's effort in delivering control and freedom. It provides details on how users can participate in the celebration, including suggesting events or organizing their own, and options for supporting the project through donations.**
+
+**Features:**
+- Community engagement features
+- donation options
+- event planning guidance
+- anniversary highlights
+
+*Tags: kde, community, anniversary, software, donation, opensource, webdev*
+
+---
+
+### 30. [Society for Scientific Exploration - Journal](http://www.scientificexploration.org/journal/articles.html)
+`5.0` ★ ⚡59 Q0.7✓ ✓ Solid
+
+**This resource is the official journal platform for the Society for Scientific Exploration (SSE), providing access to peer-reviewed journals and an extensive schedule of conferences and workshops. It serves as a hub for scientific publications, expert insights, and community engagement within the field.**
+
+**Features:**
+- Peer-reviewed journal access
+- comprehensive event listings
+- historical publication archive
+- author guidelines
+
+*Tags: scientific-exploration, peer-review, journals, science-communication, academic-publishing*
+
+---
+
+### 31. [Center for UFO Studies -](http://www.cufos.org/)
+`4.0` ★ ⚡54 Q0.7✓ ✓ Solid
+
+**This page serves as a chronicle or review of major events that occurred during the year 2025, highlighting key happenings within the technological landscape. It acts as an industry trend report or a summary of significant occurrences for developers and tech enthusiasts.**
+
+**Features:**
+- Yearly review/chronicle
+- Event tracking
+- Trend highlights
+- Quick reference guide
+
+*Tags: review, 2025, tech-trends, events, chronicle, cufos*
+
+---
+
+### 32. [The Blue Uniform Listening Room: Infest '93 - Concert Details](https://theblueuniformlisteningroom.blogspot.com/2010/11/infest-93-concert-details.html)
+`4.0` ★ ⚡53 Q0.7✓ ✓ Solid
+
+**This resource provides specific details about the 'Infest '93 event, including band names, dates, ticket pricing, and the overall vibe of the music and art festival. It serves as a historical snapshot of a specific musical/art event from 2010.**
+
+**Features:**
+- Event details summary
+- Band lineup highlights
+- Ticket pricing structure
+- Historical context of the event
+
+*Tags: music-festival, concert-history, event-documentation, nostalgia, punk-rock, vintage-music*
+
+---
+
+### 33. [wl.eventim.us](https://wl.eventim.us/event/tickets/655986?afflky)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wl.eventim.us**
+
+---
+
+### 34. [wl.eventim.us](https://wl.eventim.us/event/tickets/655986?afflky=Paxahau&eventpass=NOWDAYS)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wl.eventim.us**
+
+---
+
+## Memory & Context Systems
+> 33 tools · avg signal ⚡79
+
+### 1. [ariunbolor/nsaf-mcp-server](https://github.com/ariunbolor/nsaf-mcp-server)
+`10.0` ★★★ ⚡93 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**The project details an advanced framework that integrates quantum computing, symbolic reasoning, neural networks, and foundation models into a single autonomous AI system. It outlines a 5-module architecture, including Quantum-Symbolic Task Clustering, Self-Constructing Meta-Agents (SCMA), Hyper-Symbolic Memory, and Recursive Intent Projection to achieve unified autonomy.**
+
+**Features:**
+- Agent Orchestration
+- Foundation Model Integration
+- Symbolic Reasoning
+- Quantum Computing
+- Web API Framework
+
+*Tags: agent, ai, neural-network, symbolic-computation, bndagents, quantum-computing, foundation-models, software-framework...*
+
+---
+
+### 2. [yuchen20/memory-plus](https://github.com/yuchen20/memory-plus)
+`9.5` ★★ ⚡92 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**This resource introduces "Memory-Plus," a solution for managing agent memories within the context of the Model Context Protocol (MCP). It provides features to record, retrieve, update, and visualize persistent "memories"—like notes or session context—for AI agents. The core innovation lies in how it teaches the AI exactly when to recall past interactions, offering a structured approach to memory persistence for agent workflows.**
+
+**Features:**
+- Record Memories
+- Retrieve Memories
+- Visualize Memories
+- Memory Versioning
+- File Import
+
+*Tags: agent, hackathon, memory, mcp, memory-store, model-context-protocol, mcp-server, rag...*
+
+---
+
+### 3. [varun29ankuS/shodh-memory](https://github.com/varun29ankuS/shodh-memory)
+`9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The project focuses on building a cognitive architecture for AI agents and robotics, where the memory persists across sessions, allowing agents to learn from past interactions, which is crucial for improving agent performance. It tackles the challenge of maintaining context for chat agents (MCP/HTTP) and robots (Zenoh/ROS2) efficiently, without relying on external cloud services or expensive API keys.**
+
+**Features:**
+- persistent memory
+- cognitive architecture
+- agent orchestration
+- memory persistence
+- mcp integration
+
+*Tags: rust, robotics, mcp, knowledge-graph, ros2, ai-agents, cognitive-architecture, claude*
+
+---
+
+### 4. [timazed/CodexKit](https://github.com/timazed/CodexKit)
+`8.6` ★ ⚡90 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**CodexKit provides an SDK designed for building sophisticated AI agent experiences in Apple apps, offering explicit support for iOS and macOS development. It defines core concepts like AgentRuntime, AgentThread, and Request, enabling developers to build typed, structured conversations with ChatGPT/Codex-style agents. The SDK focuses on providing a type-safe way to handle the flow of conversation, including authentication, memory management, and structured output from the AI backend.**
+
+**Features:**
+- Typed request context for agent interactions
+- Structured output via AgentStructuredOutput
+- AgentPersonaStack for layered behavior instructions
+- Host-defined tool definitions
+- Streamed assistant output
+
+*Tags: swift, ios, openai, ai, sdk, ios-app, mobile, oauth...*
+
+---
+
+### 5. [squirrelogic/mcp-feature-discussion](https://github.com/squirrelogic/mcp-feature-discussion)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The squirrelogic/mcp-feature-discussion project provides an AI-powered MCP server that supports context-aware, persistent feature discussions between developers and AI. It offers intelligent guidance on implementation, architecture, dependencies, and best practices, while maintaining a persistent memory of discussions to support informed decision-making.**
+
+**Features:**
+- AI Lead Developer Interface
+- Persistent memory of discussions
+- Context-aware recommendations
+- Feature memory management
+- Architecture pattern recommendations
+
+*Tags: mcp, ai, developer, discussion, security, code, architecture, devops...*
+
+---
+
+### 6. [dknell/mcp-system-info](https://github.com/dknell/mcp-system-info)
+`8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**The resource is an MCP server designed to provide real-time system metrics, including CPU usage, memory statistics, disk info, network status, and running processes. It offers cross-platform support for system information and focuses on security and performance optimization by implementing intelligent caching and robust error handling.**
+
+**Features:**
+- get_cpu_info
+- get_memory_info
+- get_disk_info
+- get_network_info
+- get_process_list
+
+*Tags: mcp, system-info, real-time-metrics, cross-platform, cpu-usage, memory-stats, process-list, security-focus...*
+
+---
+
+### 7. [ttommyth/rag-memory-mcp](https://github.com/ttommyth/rag-memory-mcp)
+`9.6` ★★ ⚡87 Q0.7🏆 🏆 World-class
+↗3 layers
+
+**This project provides an advanced MCP server that implements a Knowledge Graph Memory system, enabling semantic search, document processing, and hybrid retrieval for more intelligent memory management. It's inspired by the Model Context Protocol, offering comprehensive tools for storing documents, creating entities, and performing sophisticated searches within a local SQLite backend.**
+
+**Features:**
+- Knowledge Graph Memory (persistent entities
+- relationships
+- observations)
+- Vector Search (semantic similarity search using sentence transformers)
+- Hybrid Search (combines vector similarity with graph traversal)
+- Entity Extraction (automatic term extraction from documents)
+- SQLite Backend (fast local storage for vector operations)
+
+---
+
+### 8. [ryaker/mcp-mem0-general](https://github.com/ryaker/mcp-mem0-general)
+`9.5` ★★ ⚡86 Q0.7🏆 🏆 World-class
+
+**The project provides an MCP server that enables compatible AI assistants to access and manage persistent memories stored in Mem0. It acts as a crucial bridge, allowing assistants to store, retrieve, search memories based on semantic similarity, manage different memory types (episodic, semantic, procedural), and create knowledge graphs.**
+
+**Features:**
+- Store and retrieve memories
+- Search memories with semantic similarity
+- Manage different memory types (episodic
+- semantic
+- procedural)
+- Utilize short-term memory for conversation context
+- Create knowledge graphs from memories
+
+---
+
+### 9. [polygon-io/mcp_polygon](https://github.com/polygon-io/mcp_polygon)
+`8.6` ★ ⚡85 Q0.7🏆 🏆 World-class
+↗3 layers
+
+**The project implements the "Massive.com MCP Server," which serves as a bridge to enable LLMs to interact with comprehensive financial data. It exposes three core tools—`search`, `call`, and `query`—to allow the LLM to perform actions across the Massive.com API, while also integrating built-in financial functions like option pricing (e.g., Black-Scholes Greeks). The server dynamically indexes the API endpoints and provides a structured interface for data retrieval and function execution.**
+
+**Features:**
+- Massive.com MCP Server
+- Composable Tools (`search`
+- `call`
+- `query`)
+- In-memory SQLite database integration
+- Built-in financial functions (e.g.
+- Black-Scholes)
+- LLM-friendly interface
+
+---
+
+### 10. [bartekke8it56w2/new-mcp](https://github.com/bartekke8it56w2/new-mcp)
+`8.2` ★ ⚡85 Q0.8🏆 🏆 World-class
+
+**The project is a specialized MCP server designed to integrate with Google's Gemini model, enabling analytical thinking, planning, and analysis for complex problems. It offers features like breaking down problems into steps, suggesting alternative paths, and supporting revision capability within the thought process.**
+
+**Features:**
+- Gemini-Powered Thinking
+- Branching Thoughts
+- Revision Capability
+- Session Persistence
+- Tool Parameters
+
+*Tags: ai-agents, gemini, mcp, llm, reasoning, thinking-server, context-engineering, agent-orchestration...*
+
+---
+
+### 11. [addyosmani/gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips)
+`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**A curated collection of pro-tips for Gemini CLI by Addy Osmani, focusing on GEMINI.md grounding and reference-based data retrieval from Google ecosystem.**
+
+**Features:**
+- GEMINI.md project grounding
+- Google Drive/Docs reference retrieval
+- global preference memory (~/.gemini)
+- multi-step plan execution.
+
+*Tags: gemini, cli, best-practices, grounding, productivity, github, version-control*
+
+---
+
+### 12. [archimedescrypto/figma-mcp-chunked](https://github.com/archimedescrypto/figma-mcp-chunked)
+`8.5` ★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The project implements a Model Context Protocol (MCP) server that offers a robust interface to the Figma API, focusing on memory management and efficient data retrieval. Key features include memory-aware processing, chunked data retrieval for large files, node type filtering, progress tracking, and configurable chunk sizes to ensure efficient interaction with the Figma ecosystem.**
+
+**Features:**
+- Memory-aware processing
+- Chunked data retrieval
+- Pagination support
+- Node type filtering
+- Configurable chunk sizes
+
+---
+
+### 13. [GLM-5.1: Towards Long-Horizon Tasks | Hacker News](https://news.ycombinator.com/item?id=47677853)
+`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗4 layers
+
+**The evaluation focuses on GLM-5.1's performance in handling extended, multi-step tasks requiring contextual understanding and adaptability. Key considerations include its ability to manage context retention, tool flexibility, and robustness across diverse harness environments. The discussion highlights challenges such as context drift and overfitting to benchmarks, while emphasizing the importance of custom tooling integration for optimal results.**
+
+**Features:**
+- Long-horizon task execution
+- Context retention and memory management
+- Tool flexibility and adaptability
+- Custom harness integration
+- Performance benchmarking across diverse environments
+
+*Tags: glm5.1, long-horizon-tasks, context-engineering, memory-persistence, interface-design, developer-experience, benchmarking, open-source-ai...*
+
+---
+
+### 14. [BVLC/caffe](https://github.com/BVLC/caffe/tree/windows)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗5 layers
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Features:**
+- The resource details the process of porting a Caffe framework to Windows
+- outlining the specific requirements for the build environment (Visual Studio
+- CMake)
+- and providing detailed instructions on configuring and building the resulting application.
+
+*Tags: ['caffe', 'windows', 'build-win.cmd', 'cmake', 'visualstudio', 'cpp', 'c++', 'compiler'...*
+
+---
+
+### 15. [monsterxx03/gospy](https://github.com/monsterxx03/gospy)
+`8.2` ★ ⚡81 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This resource details "gospy," a powerful tool designed to inspect and analyze the state of running Go processes, including goroutine states, memory statistics, and binary information. It provides both a CLI interface for inspection and an HTTP API server for programmatic access, making it valuable for debugging and understanding the runtime behavior of Go applications.**
+
+**Features:**
+- View detailed goroutine information (status
+- scheduling info)
+- Analyze process memory statistics
+- Cross-platform support (Linux and macOS)
+- Interactive terminal UI for inspection
+- HTTP API for programmatic access
+
+---
+
+### 16. [how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85](https://medium.com/@mrBallistic/how-to-give-github-copilot-a-photographic-memory-and-a-kiro-style-brain-3eafeafa4b85)
+`9.2` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This article proposes a solution to give GitHub Copilot durable project memory and a goal-oriented workflow by combining specific instruction files and a modular memory bank structure inspired by AWS Kiro. It outlines how to teach Copilot to remember product goals, architecture constraints, and tech stack, even after chat resets, by defining clear boundaries for tasks and context loading.**
+
+**Features:**
+- GitHub Copilot
+- Persistent Memory
+- Kiro-Lite Workflow
+- Modular Memory Bank
+- Context Engineering
+
+*Tags: github-copilot, ai-memory, kiro, developer-workflow, context-management, project-architecture, prompt-engineering, agent-orchestration*
+
+---
+
+### 17. [leadbroaf/mcp-agent-server](https://github.com/leadbroaf/mcp-agent-server)
+`9.5` ★★ ⚡79 Q0.6⭐ ⭐ Excellent
+
+**The MCP agent server provides a modular "brain" for AI employees, enabling users to hire, assign, grade, and improve persistent AI agents. It focuses on the "AI employee" metaphor, offering natural language interfaces and persistent memory for agents.**
+
+**Features:**
+- Agent Orchestration
+- Persistent Memory
+- Natural Language Interface
+- Agent-Centric Feedback Loops
+
+---
+
+### 18. [izumisy/mcp-duckdb-memory-server](https://github.com/izumisy/mcp-duckdb-memory-server)
+`8.5` ★ ⚡79 Q0.7⭐ ⭐ Excellent
+
+**The repository describes the implementation of a "DuckDB Memory Server," which is an enhanced version of the original Knowledge Graph Memory Server, leveraging DuckDB for its memory persistence layer. This project focuses on how to build a robust memory server that integrates with the Claude Desktop environment, providing a more efficient and structured way to manage context and knowledge within the MCP framework.**
+
+**Features:**
+- DuckDB integration
+- Memory Persistence Architecture
+- MCP Server implementation
+- Claude Desktop client integration
+
+---
+
+### 19. [signal-slot/mcp-systemd-coredump](https://github.com/signal-slot/mcp-systemd-coredump)
+`8.5` ★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**The project provides a tool for interacting with system core dumps, allowing MCP-capable applications to access, manage, and analyze these files. It defines an interface for the Systemd-coredump functionality, which is essential for understanding and manipulating system memory artifacts within a modern operating environment.**
+
+**Features:**
+- List all available coredumps in the system
+- Get detailed information about specific coredumps
+- Extract coredump files to a specified location
+- Remove coredumps from the system
+
+---
+
+### 20. [Pak files - Virtual file system](https://simoncoenen.com/blog/programming/PakFiles)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**A technical deep-dive by Simon Coenen into using Virtual File Systems (VFS) and binary "Pak" blobs for high-performance asset management and disk seek optimization.**
+
+**Features:**
+- Header-first encryption/metadata
+- per-file internal compression
+- random memory access without full decompression
+- VFS path abstraction.
+
+*Tags: vfs, architecture, performance, file-systems, game-dev, blog, simoncoenen*
+
+---
+
+### 21. [Introducing Nested Learning: A new ML paradigm for continual learning](https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**A new machine learning paradigm for continual learning that views models as multi-level optimization problems with self-modifying "Hope" architectures.**
+
+**Features:**
+- Multi-level optimization timescales
+- Continuum Memory System (CMS)
+- self-modifying "Hope" architecture
+- elimination of catastrophic forgetting.
+
+*Tags: architecture, continual-learning, future-ai, google, google-research, hope-architecture, machine-learning, optimization...*
+
+---
+
+### 22. [news.ycombinator.com/item](https://news.ycombinator.com/item?id=47821801)
+`7.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This analysis evaluates the reported benchmarking results comparing ARM-based Windows Server 2025 with Intel-based systems. It examines factors such as power management, memory bandwidth, SSD performance, and the impact of different Windows Power Profiles. The discussion highlights discrepancies in test outcomes, potential hardware variability, and the importance of controlled testing environments for accurate infrastructure decision-making.**
+
+**Features:**
+- Performance profiling
+- Power management analysis
+- Memory bandwidth evaluation
+- SSD performance assessment
+- Windows Power Profile comparison
+
+*Tags: windows-server, power-management, performance-testing, arm-architecture, benchmarking, system-optimization*
+
+---
+
+### 23. [Outer Wilds - Wikipedia](https://en.m.wikipedia.org/wiki/Outer_Wilds)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A space exploration game celebrated for its "Metroidbrainia" structure where progress is gated entirely by information rather than physical upgrades.**
+
+**Features:**
+- 22-minute time loop structure
+- information-based progress engine
+- persistent Ship Log detective board
+- non-linear knowledge discovery.
+
+*Tags: narrative-design, information-gating, time-loop, knowledge-management, game-design, bookmark, web*
+
+---
+
+### 24. [Jikes RVM - Wikipedia](https://en.wikipedia.org/wiki/Jikes_RVM)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A foundational meta-circular research JVM written in Java, known for its MMTk modular memory framework and AOS adaptive optimization system.**
+
+**Features:**
+- Java-in-Java meta-circular core
+- MMTk (Memory Management Toolkit)
+- AOS (Adaptive Optimization System)
+- "VM Magic" raw memory access.
+
+*Tags: jvm, research, meta-circular, architecture, memory-management, bookmark, web*
+
+---
+
+### 25. [Handles are the better pointers](https://floooh.github.io/2018/06/17/handles-vs-pointers.html)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A systems programming analysis advocating for opaque handles (index + counter) over direct pointers to achieve memory safety and defragmentation.**
+
+**Features:**
+- Memory relocatability (defragmentation)
+- UAF detection (generation counters)
+- mandatory runtime bounds checking
+- high-integrity identifier resolution.
+
+*Tags: systems-programming, memory-safety, pointers, handles, architecture, floooh, github, html...*
+
+---
+
+### 26. [Installing Microsoft Windows 98 in DOSBox-X](https://dosbox-x.com/wiki/Guide%3AInstalling-Windows-98#_windows_editions_this_guide_applies_to)
+`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+
+**This resource provides a comprehensive guide on installing Microsoft Windows 98 within the DOSBox-X emulator. It covers the necessary configuration steps, prerequisites, and common issues encountered during the installation process.**
+
+**Features:**
+- ['Installation Method 1: Boot from CD-ROM image'
+- 'Installation Method 2: Copying the contents of the CD-ROM'
+- 'Configuration of DOSBox-X config file (including memory allocation and video settings)'
+- 'Emulation setup for Windows 98
+- including VESA driver
+- sound card emulation
+- and printing to PostScript.'
+- 'Enabling networking and specific hardware emulation (NE2000).'
+- 'Voodoo Glide pass-through and General MIDI sound card enabling.']
+
+*Tags: ['windows-98', 'dosbox-x', 'emulation', 'virtualization', 'hardware-emulation', 'configuration', 'bios', 'graphics'...*
+
+---
+
+### 27. [is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin](https://monero.forex/is-monero-totally-private-a-comprehensive-analysis-of-de-anonymization-attacks-against-the-privacy-coin)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**A technical deep-dive into the 2026 privacy landscape of Monero, covering the FCMP++ zero-knowledge upgrade and persistent EAE/Flooding vulnerabilities.**
+
+**Features:**
+- FCMP++ zero-knowledge upgrade
+- EAE (Eve-Alice-Eve) केवाईसी-exchange vulnerability
+- decoy-clogging Flooding attacks
+- full on-chain fungibility analysis.
+
+*Tags: crypto, privacy, monero, security, zero-knowledge, artificial-intelligence*
+
+---
+
+### 28. [jiray-yay/Stepmania-VRC](https://github.com/jiray-yay/Stepmania-VRC)
+`7.7` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+↗5 layers
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+
+**Features:**
+- Recreating Stepmania into VRC using a parser for SM files and visualizers/gameplay manager. Compatible game modes include 'Dance-Single'
+- 'Dance-double'
+- and 'Para-single'. Uses Udon# for song/chart embedding.
+
+*Tags: ['stepmania', 'vrc', 'udonsharp', 'rhythm-game', 'parsing', 'visualization', 'game-engine', 'optimization'...*
+
+---
+
+### 29. [wisey.app](https://wisey.app/r/productivity-3?utm_source=google&utm_medium=demand_gen&utm_campaign=23794905516&utm_term=195676381363&utm_content=807083020046&placement=&kw=&gad_source=2&gad_campaignid=23794905516&gbraid=0AAAAA-Awx_yxqbBKPD8RbssXoVXWHYm5t&wbraid=ClwKCAjw-8vPBhB7EkwAW6r5Dd-JV6a6zuOENlA7nlEewQHKMFThgw7vxQHMGGiNwYtYZsYF0423wTXdFLdR_dg6GHCp7rMkDN2G-RKzsf7wpAlQH0HRQMhJGgLwlg&p=0&q=0)
+`8.0` ★ ⚡73 Q0.7⭐ ⭐ Excellent
+
+**The content suggests a focus on transforming the user's perception from an "Underachiever" to a "High-Performer" in just 28 days, often achieved through a quick quiz format, which points towards a productivity or learning platform powered by AI agents.**
+
+**Features:**
+- Agent Orchestration
+- Context Engineering
+- Memory & Persistence Architecture
+- Interface UX
+- AI Agents & Frameworks
+
+*Tags: productivity, agent, workflow, ai, performance, learning, tools, development...*
+
+---
+
+### 30. [phr00t/FocusEngine?tab=readme-ov-file](https://github.com/phr00t/FocusEngine?tab=readme-ov-file)
+`8.7` ★ ⚡68 Q0.7✓ ✓ Solid
+↗5 layers
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure, Other**
+
+**Features:**
+- Focus is an open-source C# game engine for realistic rendering and VR based off of Xenko/Stride. It's highly modular and aims at give game makers more flexibility in their development. Focus comes with an editor that allows you create and manage the content of your games or applications in a visual and intuitive way.
+
+*Tags: ['vr', 'vulkan', 'xenko', 'stride3d', 'c#', 'gameengine', 'performance', 'vr'...*
+
+---
+
+### 31. [Why Are All the Black Kids Sitting Together in the Cafeteria? by Beverly Daniel Tatum | Hachette Book Group](https://www.hachettebookgroup.com/titles/beverly-daniel-tatum/why-are-all-the-black-kids-sitting-together-in-the-cafeteria/9781541616585/?lens=basic-books)
+`5.0` ★ ⚡60 Q0.7✓ ✓ Solid
+
+**This book delves into the psychology of racism, examining how racial barriers persist in various aspects of life. Beverly Daniel Tatum argues that direct discussion about racial identities is crucial for understanding the reality of racial divisions within society. It offers insights into the common patterns of racial interaction and segregation.**
+
+**Features:**
+- Psychology of racism
+- social analysis
+- book format (trade paperback/ebook)
+- cultural commentary
+
+*Tags: racial-identity, sociology, psychology, social-issues, classic-literature*
+
+---
+
+### 32. [Installing Cline - Cline](https://docs.cline.bot/getting-started/installing-cline)
+`8.7` ★ ⚡59 Q0.6✓ ✓ Solid
+↗6 layers
+
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks**
+
+**Features:**
+- Cline is an AI coding agent that integrates deeply with development environments and workflows.
+
+*Tags: ['cline', 'ai-agents', 'workflow', 'ide', 'cli', 'vscode', 'jetbrains', 'mcp'...*
+
+---
+
+### 33. [Why Are All the Black Kids Sitting Together in the Cafeteria? by Beverly Daniel Tatum | Hachette Book Group](https://www.hachettebookgroup.com/titles/beverly-daniel-tatum/why-are-all-the-black-kids-sitting-together-in-the-cafeteria/9781541616585/?lens)
+`5.0` ★ ⚡53 Q0.6✓ ✓ Solid
+
+**This book offers a deep dive into the psychology of racism, examining how racial barriers persist in various aspects of life. It explores the concept of 'self-segregation' and the necessity of talking about racial identities to address systemic issues within society.**
+
+**Features:**
+- Psychology of racism analysis
+- exploration of racial barriers
+- insight into social segregation patterns
+
+*Tags: racial-psychology, social-issues, book, classic-literature, sociology, identity-politics*
+
+---
+
 ## Harness Frameworks
-> 21 tools · avg signal ⚡80
+> 20 tools · avg signal ⚡81
 
 ### 1. [prisma/prisma](https://github.com/prisma/prisma)
 `9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
@@ -10688,22 +17344,7 @@
 
 ---
 
-### 17. [LLM Visualization](https://bbycroft.net/llm)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A 3D interactive visualization project by Brendan Bycroft that maps GPT-style architectures down to individual tensor mathematical operations.**
-
-**Features:**
-- Interactive 3D block diagrams
-- layer-by-step walkthroughs
-- animated tensor flow (nano-GPT/GPT-3)
-- mathematical operation granularity.
-
-*Tags: visualization, theory, transformer, architecture, learning, bbycroft*
-
----
-
-### 18. [Fractal-generating software - Wikipedia](https://en.wikipedia.org/wiki/Fractal-generating_software)
+### 17. [Fractal-generating software - Wikipedia](https://en.wikipedia.org/wiki/Fractal-generating_software)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A summary of state-of-the-art fractal engines (Chaotica, Mandelbulb 3D) utilizing GPU-acceleration for real-time VFX and architectural design.**
@@ -10718,7 +17359,7 @@
 
 ---
 
-### 19. [Claude Opus 4.6 | Hacker News](https://news.ycombinator.com/item?id=46902223)
+### 18. [Claude Opus 4.6 | Hacker News](https://news.ycombinator.com/item?id=46902223)
 `9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
 
 **An essay advocating for "Single-Purpose Tools" that prioritize architectural simplicity and UI stability over feature bloat.**
@@ -10733,7 +17374,7 @@
 
 ---
 
-### 20. [chatgpt_vs_claude_vs_gemini_what_are_you_using](https://www.reddit.com/r/TechImpact/comments/1szm7oq/chatgpt_vs_claude_vs_gemini_what_are_you_using)
+### 19. [chatgpt_vs_claude_vs_gemini_what_are_you_using](https://www.reddit.com/r/TechImpact/comments/1szm7oq/chatgpt_vs_claude_vs_gemini_what_are_you_using)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -10749,15 +17390,277 @@
 
 ---
 
-### 21. [Sovereign Engine An Oslevel Architecture For](https://www.reddit.com/r/DesignTecture/comments/1s8basg/sovereign_engine_an_oslevel_architecture_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 20. [Underrated ways to change the world, vol. II](https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
 
-**Sovereign Engine An Oslevel Architecture For**
+**This resource explores the concept of 'underrated ways' to solve global problems by highlighting neglected corners where action can be taken. It uses a thought experiment to inspire readers to look for overlooked opportunities to make the world better.**
+
+**Features:**
+- Thought experiment
+- problem-solving framework
+- insightful commentary
+- actionable insights
+
+*Tags: thought-leadership, societal-problems, innovation, ideas, social-good, critical-thinking*
+
+---
+
+## Verification & Testing
+> 16 tools · avg signal ⚡75
+
+### 1. [Mistral AI Releases Forge | Hacker News](https://news.ycombinator.com/item?id=47418295)
+`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The review highlights the complexity of integrating Mistral AI's Forge with existing enterprise systems, emphasizing the need for clear API documentation and developer support. It underscores the importance of understanding model naming conventions and the limitations of the current API in mapping to internal tools. The discussion also touches on broader industry trends, such as the preference for custom workflows over generic solutions, and the challenges of aligning technical offerings with bu...**
+
+**Features:**
+- Model selection options (devstral-2
+- devstral-latest
+- etc.)
+- API documentation and integration guidance
+- Support for enterprise deployment and customization
+- Focus on EU data compliance and model transparency
+
+*Tags: mistral-ai, forge, developer-tools, enterprise-integration, ai-platform, model-selection, eu-compliance, custom-workflows...*
+
+---
+
+### 2. [A once-in-a-generation discovery is transforming a Michigan dairy farm](https://msutoday.msu.edu/news/2025/10/research-discovery-transforms-michigan-dairy-farm)
+`8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**This article details how Preston Farms, a Michigan dairy farm, partnered with Michigan State University to implement high-oleic soybeans in their livestock's diet. The research, funded by various organizations, focused on the impact of dietary fats on milk composition and cow health. The results showed a significant increase in milk fat and protein yields, leading to a 20% reduction in purchased feed costs. This case study highlights the potential of scientific research to drive innovation and i...**
+
+**Features:**
+- ['Improved milk quality (increased fat and protein yields)'
+- 'Reduced livestock feed costs (20% reduction)'
+- 'Partnership between a dairy farm and a university research team'
+- 'Use of high-oleic soybeans as a dietary supplement for dairy cows'
+- 'Positive impact on farm economics']
+
+*Tags: ['dairy', 'agriculture', 'soybeans', 'michigan-state-university', 'livestock', 'milk-quality', 'feed-costs', 'oleic-acid'...*
+
+---
+
+### 3. [hammeiam/koroko-speech-mcp](https://github.com/hammeiam/koroko-speech-mcp)
+`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**The repository defines a Speech MCP Server designed to deliver high-quality text-to-speech functionality powered by the Kokoro TTS model. It offers users tools for generating speech, customizing voice and speed options, and provides an easy-to-use, MCP-compliant interface for integrating speech capabilities into development workflows.**
+
+**Features:**
+- Text-to-speech conversion using the Kokoro TTS model
+- Customizable speech parameters (voice
+- speed)
+- MCP-compliant interface
+- Easy installation and setup
+- No API key required
+
+---
+
+### 4. [eliovp-bv/mcp-vllm-benchmark](https://github.com/eliovp-bv/mcp-vllm-benchmark)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project demonstrates how to integrate MCP with a custom benchmarking tool to evaluate the performance of various large language model (LLM) inference endpoints. By leveraging MCP's capabilities, developers can interactively run benchmarks, compare results, and analyze model behavior under controlled conditions.**
+
+**Features:**
+- Interactive vLLM benchmarking
+- Model comparison across endpoints
+- Customizable benchmarking parameters
+
+*Tags: mcp, vllm, benchmarking, ai, developer, testing, performance, model...*
+
+---
+
+### 5. [ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f](https://eyeofthesquid.com/ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f)
+`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The article explores how artificial intelligence challenges foundational philosophical concepts like meritocracy and social justice, arguing that AI undermines the legitimacy of current economic systems by treating human talents as mere data inputs rather than expressions of individual agency. It examines the debates between Rawls and Nozick regarding fairness and redistribution, highlighting how AI threatens the moral justification for inequality and calls for urgent institutional intervention ...**
+
+**Features:**
+- AI ethics analysis
+- moral philosophy comparison
+- economic justice critique
+- institutional risk assessment
+
+*Tags: ai-ethics, moral-foundations, meritocracy, capital-ownership, social-justice, philosophical-debate, economic-power, institutional-change...*
+
+---
+
+### 6. [fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)
+`9.8` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**This tutorial guides users through fine-tuning the Stable Diffusion XL model using DreamBooth and LoRA, enabling customized image generation on personal photos. It covers accessing the SDXL model via Hugging Face, setting up GPU environments, integrating refiners for improved quality, and applying the technique to creative industries.**
+
+**Features:**
+- Fine-tuning Stable Diffusion XL with DreamBooth
+- Using LoRA for efficient customization
+- Generating high-quality images from custom datasets
+- Accessing SDXL via Hugging Face and local GPU setups
+
+*Tags: ai, machine-learning, image-generation, stable-diffusion, diffusion-models, deep-learning, data-science, generative-ai...*
+
+---
+
+### 7. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076)
+`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**This resource evaluates the capabilities and value proposition of Risen vs. TradingView, focusing on its free tier offerings, advanced features, pricing structure, and integration potential within a broader ecosystem.**
+
+**Features:**
+- multi-condition alerts
+- no-code trading strategies
+- built-in backtesting
+- unlimited indicators
+- customizable alerts
+- earnings & insider alerts
+- community scripts
+- social features
+
+*Tags: tradingview, algorithm, fintech, platformcomparison, costanalysis, featureset, userexperience, webapi...*
+
+---
+
+### 8. [RoboRatings - Find Your Perfect Robot Vacuum](https://www.roboratings.com)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**A 2026 benchmark leaderboard tracking frontier models, highlighting Claude Opus 4.6 (Reasoning), Sonnet 5 (Coding), and Gemini 3.1 Pro (Multimodal) as industry leaders.**
+
+**Features:**
+- Claude Opus 4.6 (91.9% GPQA Reasoning)
+- Claude Sonnet 5 (82.1% SWE-bench Coding)
+- Gemini 3.1 Pro (1M+ Multimodal)
+- Kimi K2.5 (Cost/Performance ratio).
+
+*Tags: benchmarks, leaderboard, claude, gemini, evaluation, artificial-intelligence, roboratings*
+
+---
+
+### 9. [Optimal Temperature for Gemini 3 Pro Coding](https://lynchmark.com/blog/gemini-optimal-temperature)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A technical benchmark of 231 automated coding tests determining the optimal temperature setting for production-grade agent reasoning.**
+
+**Features:**
+- Optimal Temperature = 0.35
+- "Cluster of Perfection" (0.0-0.5) identification
+- median vs average performance analysis
+- entropy threshold detection.
+
+*Tags: optimization, hyperparameters, gemini, reliability, benchmarking, blog, data, lynchmark*
+
+---
+
+### 10. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**Technical research proving that AI models have "bad days," with 10-15% daily performance swings due to non-determinism and backend updates.**
+
+**Features:**
+- Daily statistical performance tracking
+- 10-15% model performance variance
+- documented Claude Code degradation (4.1% in 30 days)
+- need for dynamic evals.
+
+*Tags: benchmarks, reliability, non-determinism, tracking, sw-bench, artificial-intelligence, blog, marginlab*
+
+---
+
+### 11. [Humanity's Last Exam](https://lastexam.ai)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A PhD-level benchmark consisting of 2,500 expert questions designed to measure high-tier reasoning and model confidence calibration.**
+
+**Features:**
+- 2
+- 500 expert-written questions
+- confidence calibration metric
+- removed memorization-solvable tasks
+- 2026 frontier model leaderboard.
+
+*Tags: benchmarks, reasoning, phd-level, evaluation, research, artificial-intelligence, data, lastexam*
+
+---
+
+### 12. [from?site=asteriskmag.com](https://news.ycombinator.com/from?site=asteriskmag.com)
+`8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This resource collection focuses on examining various technical articles and discussions centered around connectivity solutions, interoperability standards, and methods for integrating diverse data sources. It covers topics such as communication protocols, data exchange mechanisms, and strategies for ensuring seamless interaction between systems.**
+
+**Features:**
+- URL analysis
+- Technical content review
+- Data categorization
+- Insight generation
+
+*Tags: astershipmag, hackernews, past, comments, jger15, nkurz, downsplat, mitchbob...*
+
+---
+
+### 13. [Why Gemini 3 Flash is the model OpenAI is afraid of](https://blog.brokk.ai/why-gemini-3-flash-is-the-model-openai-is-afraid-of)
+`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
+
+**Technical analysis of Google's high-performance, low-cost 'workhorse' model, demonstrating frontier-level intelligence at 5x lower cost.**
+
+**Features:**
+- 78% SWE-bench Verified score
+- 218 tokens/sec throughput
+- 5x cost reduction vs flagships
+- optimal tradeoff for 80% of dev tasks.
+
+*Tags: gemini, performance, benchmarking, cost-optimization, sw-bench, artificial-intelligence, blog, programming*
+
+---
+
+### 14. [Subscribe to read](https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is a digital subscription service providing access to high-quality FT journalism, including global news, expert opinion, and in-depth analysis. It offers various tiers of access, allowing users to choose between different levels of digital coverage for seamless reading across various devices.**
+
+**Features:**
+- Digital subscription options
+- premium journalism access
+- multi-device compatibility
+- curated newsletters
+- expert analysis
+
+*Tags: digital-subscription, journalism, media, news, e-paper, content-delivery, premium-access*
+
+---
+
+### 15. [Enemas: How long they take to work and more](https://www.medicalnewstoday.com/articles/how-long-does-it-take-for-an-enema-to-work)
+`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
+
+**This article explores the function, necessary duration, and fluid types involved in an enema, providing readers with guidance on when and how to use this procedure. It highlights that the effectiveness and required time vary based on the intended purpose, such as medication administration or preparation for diagnostic tests.**
+
+**Features:**
+- Enema mechanics
+- usage timing
+- fluid selection
+- medical benefits
+- doctor consultation
+
+*Tags: medical-guidance, health-trends, digestive-health, medical-procedure, enema-usage*
+
+---
+
+### 16. [AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering](https://firethering.com/autotts-ai-inference-test-time-scaling)
+`7.8` ★ ⚡62 Q0.6✓ ✓ Solid
+
+**AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering @media (max-width:767px){.td-header-desktop-wrap{display:none}}@media (min-width:767px){.td-header-mobile-wrap{display:none}}:root{--accent-color:#fff}@font-face{font-family:"LuckiestGuy";src:local("LuckiestGuy"),url("https://firethering.com/CustomFonts/LuckiestGuy-Regular.woff") format("woff");font-display:swap}.td-mobile-content .td-mobile-main-menu>li>a{font-family:"Public Sans";font-weight:bol...**
+
+**Features:**
+- Agent support
+
+*Tags: agent, ai*
 
 ---
 
 ## Browser & Web Tools
-> 4 tools · avg signal ⚡69
+> 8 tools · avg signal ⚡63
 
 ### 1. [lora](https://stable-diffusion-art.com/lora)
 `9.8` ★★ ⚡81 Q0.7⭐ ⭐ Excellent
@@ -10806,9 +17709,123 @@
 
 ---
 
-### 4. [Want Your Local Llm To Surf The Web Have](https://www.reddit.com/r/LocalLLM/comments/1sdrsql/want_your_local_llm_to_surf_the_web_have/)
+### 4. [Free Buy an Apartment Building Webinar - KRI Partners](https://www.kripartners.com/apartmentwebinar)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource is a free webinar hosted by Ken Gee, detailing the potential for making $1 million investing in multifamily real estate. It showcases the journey of turning a CPA into a successful multifamily investor, providing actionable steps for anyone interested in acquiring their first deal.**
+
+**Features:**
+- Multifamily investment guide
+- Real estate profitability breakdown
+- Personal success story demonstration
+- Free webinar access
+- Financial accessibility tips
+
+*Tags: real-estate, multifamily, investing, finance, real-estate-trends, free-webinar*
+
+---
+
+### 5. [xkcd: Ten Thousand](https://m.xkcd.com/1053/)
+`5.0` ★ ⚡59 Q0.7✓ ✓ Solid
+
+**xkcd is an online comic known for its unique blend of technical depth and humorous presentation. It serves as a great resource for understanding complex scientific or conceptual ideas in an engaging format. The comic's structure encourages readers to explore the 'what if' scenarios presented by the author.**
+
+**Features:**
+- accessible scientific concepts
+- witty illustrations
+- accessible learning
+- thought experiments
+
+*Tags: science, webcomic, education, thought-provoking, accessibility*
+
+---
+
+### 6. [xkcd: Rock Wall](https://xkcd.com/2058/)
+`5.0` ★ ⚡56 Q0.7✓ ✓ Solid
+
+**xkcd is a popular webcomic known for its unique blend of romance, sarcasm, math, and language. The comic offers insightful commentary on various topics, often presented in a highly accessible and engaging format.**
+
+**Features:**
+- Webcomic platform
+- insightful commentary
+- educational/quirky content
+- classic webcomic structure
+
+*Tags: webcomic, xkcd, guides, internet-culture, classic-media, science-humor*
+
+---
+
+### 7. [xkcd: Average Familiarity](https://xkcd.com/2501/)
+`5.0` ★ ⚡53 Q0.6✓ ✓ Solid
+
+**This resource is a classic webcomic that uses the concept of 'Average Familiarity' to explore themes of familiarity, simplicity, and everyday life. It serves as a guide for understanding how abstract concepts can be illustrated through accessible, engaging comic strips.**
+
+**Features:**
+- Webcomic platform
+- educational/conceptual illustration
+- community engagement via RSS feed
+
+*Tags: webcomic, education, humor, technology, classic, culture*
+
+---
+
+### 8. [Webbased Lord W Rip Mode Update New](https://www.reddit.com/r/bbs/comments/1sj2aae/webbased_lord_w_rip_mode_update_new/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Want Your Local Llm To Surf The Web Have**
+**Webbased Lord W Rip Mode Update New**
+
+---
+
+## Major Harness Integrations
+> 5 tools · avg signal ⚡55
+
+### 1. [Google's new 'Aluminium OS' project brings Android to PC: Here's what we know](https://www.androidauthority.com/aluminium-os-android-for-pcs-3619092)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**Google's internal project to bring a desktop-class Android experience to PCs, featuring Gemini-core intelligence and native windowing.**
+
+**Features:**
+- Native desktop windowing/snapping
+- Gemini-at-the-core AI intelligence
+- cross-device Handoff continuity
+- Android app ecosystem on PC.
+
+*Tags: google, android, os, gemini, productivity, androidauthority*
+
+---
+
+### 2. [codingplans.cc](https://codingplans.cc/)
+`8.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**The platform offers a range of direct providers, including OpenAI/Codex, Google Gemini, and Anthropic/Claude, which are categorized under the 'IDEs & Coding Tools' category. The pricing structure suggests different tiers for access to these powerful coding assistants and tools.**
+
+**Features:**
+- OpenAI/Codex
+- Google Gemini
+- Anthropic/Claude
+- Kimi/Moonshot
+
+*Tags: coding-tools, ai-agents, ide, developer-workflow, llms, api-access, coding-harness, agent-orchestration*
+
+---
+
+### 3. [Gemini App Rolling Out Extended Thinking Level](https://www.reddit.com/r/Bard/comments/1tfxxzf/gemini_app_rolling_out_extended_thinking_level/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Gemini App Rolling Out Extended Thinking Level**
+
+---
+
+### 4. [Gemini 3 Flash Feels Surprisingly Good](https://www.reddit.com/r/google_antigravity/comments/1tgpipu/gemini_3_flash_feels_surprisingly_good/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Gemini 3 Flash Feels Surprisingly Good**
+
+---
+
+### 5. [New Gemini 35 Flash Model Usage Reset](https://www.reddit.com/r/google_antigravity/comments/1tv8pg0/new_gemini_35_flash_model_usage_reset/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**New Gemini 35 Flash Model Usage Reset**
 
 ---

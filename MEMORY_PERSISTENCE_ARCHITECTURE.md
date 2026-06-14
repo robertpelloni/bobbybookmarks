@@ -1,16 +1,17 @@
 # 🧬 Memory & Persistence Architecture
-> Borg Intelligence Atlas v8 · 2026-05-19 · 286 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 221 tools
 > Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **286** |
-| Standout 🏆⭐ | 86 |
-| Avg Signal | ⚡73 |
-| Innovation 10 | 72 ████████████████░░░░ |
-| Innovation 9 | 79 ██████████████████░░ |
-| Innovation 8 | 48 ███████████░░░░░░░░░ |
-| Innovation 7 | 87 ████████████████████ |
+| Total tools | **221** |
+| Standout 🏆⭐ | 84 |
+| Avg Signal | ⚡82 |
+| Innovation 10 | 66 ████████████████░░░░ |
+| Innovation 9 | 80 ████████████████████ |
+| Innovation 8 | 57 ██████████████░░░░░░ |
+| Innovation 7 | 15 ███░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -41,20 +42,19 @@
 
 ## Contents
 
-- [Memory & Context Systems](#memory--context-systems) — 235 tools · ⚡74
-- [Other Tools](#other-tools) — 26 tools · ⚡59
-- [Spec-Driven Development](#spec-driven-development) — 6 tools · ⚡83
+- [Memory & Context Systems](#memory--context-systems) — 176 tools · ⚡84
+- [Other Tools](#other-tools) — 20 tools · ⚡67
+- [Spec-Driven Development](#spec-driven-development) — 7 tools · ⚡83
 - [Context Engineering](#context-engineering) — 6 tools · ⚡80
-- [Governance & Safety](#governance--safety) — 4 tools · ⚡92
+- [Governance & Safety](#governance--safety) — 4 tools · ⚡82
+- [Skill Systems](#skill-systems) — 3 tools · ⚡82
 - [Config & Profile Management](#config--profile-management) — 3 tools · ⚡74
-- [Skill Systems](#skill-systems) — 2 tools · ⚡83
 - [Monitoring & Analytics](#monitoring--analytics) — 2 tools · ⚡79
-- [Browser & Web Tools](#browser--web-tools) — 2 tools · ⚡56
 
 ---
 
 ## Memory & Context Systems
-> 235 tools · avg signal ⚡74
+> 176 tools · avg signal ⚡84
 
 ### 1. [ojowwalker77/Claude-Matrix](https://github.com/ojowwalker77/Claude-Matrix)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -745,23 +745,7 @@
 
 ---
 
-### 37. [chemiguel23/memorymesh](https://github.com/chemiguel23/memorymesh)
-`9.8` ★★ ⚡93 Q0.9🏆 🏆 World-class
-
-**MemoryMesh leverages the Model Context Protocol (MCP) to provide AI systems with dynamic schema-based tools for managing and interacting with structured data. By defining schemas, it automatically generates functions for adding, updating, and deleting nodes and relationships within a knowledge graph, ensuring consistent memory persistence across sessions.**
-
-**Features:**
-- Dynamic schema-driven tools
-- Automatic schema-based data management
-- Integration with MCP for AI interaction
-- Support for structured memory in text-based RPGs and simulations
-- Real-time updates and relationship handling
-
-*Tags: memory, knowledge-graph, ai, structured-data, mcp, persistence, schema, developer-tools...*
-
----
-
-### 38. [ebailey78/mcp-memory](https://github.com/ebailey78/mcp-memory)
+### 37. [ebailey78/mcp-memory](https://github.com/ebailey78/mcp-memory)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
 
 **The ebailey78/mcp-memory repository implements a Memory Server Model Context Protocol (MCP) solution tailored for Claude Desktop. It enables the creation, storage, retrieval, and organization of structured memories within project directories, supporting long-term context retention for collaborative work. The system leverages Lunr.js for efficient indexing and search, integrates with Claude's AI capabilities, and provides a customizable memory structure to maintain knowledge across sessions.**
@@ -778,7 +762,7 @@
 
 ---
 
-### 39. [phialsbasement/koboldcpp-mcp-server](https://github.com/phialsbasement/koboldcpp-mcp-server)
+### 38. [phialsbasement/koboldcpp-mcp-server](https://github.com/phialsbasement/koboldcpp-mcp-server)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -796,7 +780,7 @@
 
 ---
 
-### 40. [KraftyUX/memai](https://github.com/KraftyUX/memai)
+### 39. [KraftyUX/memai](https://github.com/KraftyUX/memai)
 `9.1` ★★ ⚡92 Q0.8🏆 🏆 World-class
 
 **MemAI establishes a dedicated, persistent memory layer for AI agents, utilizing a local SQLite database to store various structured data points such as decisions, code changes, issues, and insights across sessions. It exposes both a Node.js API and a Command Line Interface (CLI) for recording, querying (via search, recent lookups, and briefings), and managing this historical context. Furthermore, it integrates an MCP (Meta-Cognition Protocol) server, enabling connection with external AI clients ...**
@@ -815,7 +799,7 @@
 
 ---
 
-### 41. [delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory)
+### 40. [delorenj/mcp-qdrant-memory](https://github.com/delorenj/mcp-qdrant-memory)
 `9.5` ★★ ⚡92 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -832,7 +816,7 @@
 
 ---
 
-### 42. [coldielb/inked](https://github.com/coldielb/inked)
+### 41. [coldielb/inked](https://github.com/coldielb/inked)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -850,7 +834,7 @@
 
 ---
 
-### 43. [visionscaper/collabmem](https://github.com/visionscaper/collabmem)
+### 42. [visionscaper/collabmem](https://github.com/visionscaper/collabmem)
 `10.0` ★★★ ⚡92 Q0.8🏆 🏆 World-class
 
 **Collabmem is a file-based memory system designed to enhance human-AI collaboration by maintaining an episodic memory index and a world model. It stores knowledge in plain text files that can be versioned and tracked via Git, allowing AI assistants to retain context across sessions without relying on databases or vector stores. The system uses in-context awareness and supports integration with platforms like Claude Code for seamless use.**
@@ -868,7 +852,7 @@
 
 ---
 
-### 44. [LifeContext/lifecontext](https://github.com/LifeContext/lifecontext)
+### 43. [LifeContext/lifecontext](https://github.com/LifeContext/lifecontext)
 `8.1` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -888,7 +872,7 @@
 
 ---
 
-### 45. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)
+### 44. [mekanixms/mcp_memory_plugin](https://github.com/mekanixms/mcp_memory_plugin)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -905,7 +889,7 @@
 
 ---
 
-### 46. [agentwong/optimized-memory-mcp-server](https://github.com/agentwong/optimized-memory-mcp-server)
+### 45. [agentwong/optimized-memory-mcp-server](https://github.com/agentwong/optimized-memory-mcp-server)
 `9.0` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -922,7 +906,7 @@
 
 ---
 
-### 47. [jktfe/myaimemory-mcp](https://github.com/jktfe/myaimemory-mcp)
+### 46. [jktfe/myaimemory-mcp](https://github.com/jktfe/myaimemory-mcp)
 `9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
 
 **myAImemory-mcp is designed to streamline the management of user data across various Claude platforms, including desktop, code, and web interfaces. It leverages advanced caching mechanisms to significantly enhance performance, reducing memory-related queries by up to 2000x. The tool emphasizes privacy by keeping all data on the user's device, ensuring no personal information is sent to external servers.**
@@ -938,7 +922,7 @@
 
 ---
 
-### 48. [nambok/mentedb](https://github.com/nambok/mentedb)
+### 47. [nambok/mentedb](https://github.com/nambok/mentedb)
 `9.3` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -955,7 +939,7 @@
 
 ---
 
-### 49. [RMANOV/sqlite-memory-mcp](https://github.com/RMANOV/sqlite-memory-mcp)
+### 48. [RMANOV/sqlite-memory-mcp](https://github.com/RMANOV/sqlite-memory-mcp)
 `9.3` ★★ ⚡91 Q0.8🏆 🏆 World-class
 
 **This repository implements a robust SQLite Memory Management Controller (MCP) stack optimized for high-concurrency environments. It leverages SQLite's single-file architecture with WAL (Write-Ahead Logging) mode to support over 10 concurrent Claude Code sessions without file locking conflicts. The system integrates FTS5 (Full-Text Search with BM25 ranking) for advanced search capabilities, while maintaining ACID transactions and persistent memory across restarts. Session tracking is managed via ...**
@@ -971,7 +955,7 @@
 
 ---
 
-### 50. [Introduction to Stateful Agents](https://docs.letta.com/guides/agents/memory)
+### 49. [Introduction to Stateful Agents](https://docs.letta.com/guides/agents/memory)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **Letta’s architecture implements a tiered memory system that treats the LLM's context window as a volatile cache while maintaining a complete source of truth in a backing database. It introduces 'Memory Blocks'—discrete, editable segments of context that are pinned to the system prompt—allowing agents to programmatically update their own 'core' beliefs and facts via tool calls. The system handles context overflow through automated compaction and provides mechanisms for archival memory retrieval, ...**
@@ -990,7 +974,7 @@
 
 ---
 
-### 51. [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
+### 50. [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1010,7 +994,7 @@
 
 ---
 
-### 52. [MemGPT](https://research.memgpt.ai)
+### 51. [MemGPT](https://research.memgpt.ai)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1029,7 +1013,7 @@
 
 ---
 
-### 53. [Mem0 - The Memory Layer for your AI Apps](https://mem0.ai)
+### 52. [Mem0 - The Memory Layer for your AI Apps](https://mem0.ai)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1051,7 +1035,7 @@
 
 ---
 
-### 54. [mastra-ai/mastra](https://github.com/mastra-ai/mastra)
+### 53. [mastra-ai/mastra](https://github.com/mastra-ai/mastra)
 `9.7` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1067,7 +1051,7 @@
 
 ---
 
-### 55. [markmdev/meridian](https://github.com/markmdev/meridian)
+### 54. [markmdev/meridian](https://github.com/markmdev/meridian)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1086,7 +1070,7 @@
 
 ---
 
-### 56. [NVIDIA Launches Vera CPU, Purpose-Built for Agentic AI](https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai)
+### 55. [NVIDIA Launches Vera CPU, Purpose-Built for Agentic AI](https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **The NVIDIA Vera CPU is purpose-built to accelerate agentic AI and reinforcement learning tasks with superior performance and efficiency. It features custom Olympus cores, dual and single-socket configurations, and advanced memory subsystems like LPDDR5X for high bandwidth. Vera integrates with NVIDIA's ecosystem including NVLink™-C2C interconnects, supports modular architectures, and is compatible with leading cloud providers and infrastructure partners. Its design emphasizes scalability, enabli...**
@@ -1106,7 +1090,7 @@
 
 ---
 
-### 57. [jordy33/iot_mcp_server](https://github.com/jordy33/iot_mcp_server)
+### 56. [jordy33/iot_mcp_server](https://github.com/jordy33/iot_mcp_server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1123,7 +1107,7 @@
 
 ---
 
-### 58. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)
+### 57. [tuncer-byte/memory-bank-mcp](https://github.com/tuncer-byte/memory-bank-mcp)
 `9.5` ★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1140,7 +1124,7 @@
 
 ---
 
-### 59. [zongmin-yu/memory-mcp-manager](https://github.com/zongmin-yu/memory-mcp-manager)
+### 58. [zongmin-yu/memory-mcp-manager](https://github.com/zongmin-yu/memory-mcp-manager)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The Memory MCP Manager (memory-mcp-manager) is a Python-based application designed to facilitate efficient memory management for Claude, an open-source AI platform. It allows users to switch between different memory paths for various projects, ensuring optimal performance and resource allocation. The tool supports client management, memory path configuration, and integration with Claude's MCP knowledge graph server.**
@@ -1156,7 +1140,7 @@
 
 ---
 
-### 60. [bro3886/mcp-memory-custom](https://github.com/bro3886/mcp-memory-custom)
+### 59. [bro3886/mcp-memory-custom](https://github.com/bro3886/mcp-memory-custom)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **This project introduces a Memory Server tailored for the MCP platform, allowing users to define custom memory file paths and timestamp interactions. It enhances data organization by supporting project-specific memory storage, tracking creation and modification timestamps, and integrating with LLMs for knowledge retrieval. The solution emphasizes secure, scalable memory management while maintaining flexibility for enterprise use cases.**
@@ -1172,25 +1156,7 @@
 
 ---
 
-### 61. [AMD Zen 6 'Venice' ES chips break cover with up to 192 cores, 32 per CCD, in early stress test — Kenya, Congo, Nigeria platforms leaked](https://www.tomshardware.com/pc-components/cpus/amd-zen-6-venice-es-chips-break-cover-with-up-to-192-cores-32-per-ccd-in-early-stress-test-kenya-congo-nigeria-platforms-leaked)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**The leaked information reveals significant advancements in AMD's Zen 6 architecture, featuring a substantial increase in core count (up to 192) and higher-density CCDs compared to previous generations. This development positions AMD to potentially dominate the high-performance CPU market, especially with the upcoming Zen 6c cores and potential integration of AI accelerators. The leaked samples highlight improvements in memory bandwidth, thermal management, and AI acceleration capabilities, makin...**
-
-**Features:**
-- Up to 192 cores
-- 32 cores per CCD
-- High-density memory architecture
-- AI accelerator integration
-- Improved thermal management
-- Enhanced performance for gaming and AI workloads
-
-*Tags: cpu, architecture, performance, ai, gaming, leak, benchmark, semiconductors*
-
----
-
-### 62. [Reflect Memory - One Memory For Your AI and Team](https://www.reflectmemory.com)
+### 60. [Reflect Memory - One Memory For Your AI and Team](https://www.reflectmemory.com)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **Reflect Memory introduces a shared memory architecture that allows multiple AI tools to access and utilize each other's memories in real time. This approach enhances teamwork across platforms by maintaining context consistency, supporting diverse data types (semantic, episodic, procedural), and ensuring end-to-end privacy through encrypted, scoped storage. The system integrates with popular AI engines like ChatGPT, Claude, and others, enabling features such as cross-tool recall, versioned memory...**
@@ -1206,7 +1172,7 @@
 
 ---
 
-### 63. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)
+### 61. [agenteractai/lodmem](https://github.com/agenteractai/lodmem)
 `9.3` ★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1223,7 +1189,7 @@
 
 ---
 
-### 64. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)
+### 62. [un4ckn0wl3z/memmcp](https://github.com/un4ckn0wl3z/memmcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1240,7 +1206,7 @@
 
 ---
 
-### 65. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)
+### 63. [kunihiros/mem0-mcp-for-pm](https://github.com/kunihiros/mem0-mcp-for-pm)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1257,7 +1223,7 @@
 
 ---
 
-### 66. [janbjorge/rekal](https://github.com/janbjorge/rekal)
+### 64. [janbjorge/rekal](https://github.com/janbjorge/rekal)
 `9.3` ★★ ⚡89 Q0.8🏆 🏆 World-class
 
 **This technical resource details how Rekal functions as a memory manager for LLMs, storing persistent knowledge locally in an SQLite database. It integrates hybrid search mechanisms combining keyword matching and semantic vector semantics to efficiently retrieve relevant information. The system supports various AI coding agents, including Claude Code, by disabling default built-in memory and enabling custom memory management through plugins.**
@@ -1273,7 +1239,7 @@
 
 ---
 
-### 67. [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)
+### 65. [wong2/awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)
 `8.1` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1293,7 +1259,7 @@
 
 ---
 
-### 68. [creationix/rx](https://github.com/creationix/rx)
+### 66. [creationix/rx](https://github.com/creationix/rx)
 `9.2` ★★ ⚡88 Q0.8🏆 🏆 World-class
 
 **RX is designed to handle large datasets by encoding data once and allowing direct querying in memory, making it suitable for scenarios where data size exceeds traditional JSON processing models. It excels in applications requiring rapid access to structured but unstructured data, such as deployment manifests or routing tables.**
@@ -1309,7 +1275,7 @@
 
 ---
 
-### 69. [zephyrdeng/pprof-analyzer-mcp](https://github.com/zephyrdeng/pprof-analyzer-mcp)
+### 67. [zephyrdeng/pprof-analyzer-mcp](https://github.com/zephyrdeng/pprof-analyzer-mcp)
 `9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1326,7 +1292,7 @@
 
 ---
 
-### 70. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)
+### 68. [tokeii0/memprocfs-mcp-server](https://github.com/tokeii0/memprocfs-mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1343,7 +1309,7 @@
 
 ---
 
-### 71. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)
+### 69. [zenmemoryai/zenmemory-mcp-sol](https://github.com/zenmemoryai/zenmemory-mcp-sol)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1360,7 +1326,7 @@
 
 ---
 
-### 72. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)
+### 70. [movibe/memory-bank-mcp](https://github.com/movibe/memory-bank-mcp)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1377,7 +1343,7 @@
 
 ---
 
-### 73. [pinkpixel-dev/mem0-mcp](https://github.com/pinkpixel-dev/mem0-mcp)
+### 71. [pinkpixel-dev/mem0-mcp](https://github.com/pinkpixel-dev/mem0-mcp)
 `9.5` ★★ ⚡88 Q0.8🏆 🏆 World-class
 
 **The Mem0 Memory Server enables AI agents to store and retrieve information across sessions by leveraging persistent memory capabilities. It integrates with Mem0's cloud infrastructure, supporting multiple storage modes including cloud, Supabase, and local in-memory databases. Key features include advanced memory management, persistent memory storage, and integration with LLM frameworks like mem0ai.**
@@ -1392,7 +1358,7 @@
 
 ---
 
-### 74. [g0t4/mcp-server-memory-file](https://github.com/g0t4/mcp-server-memory-file)
+### 72. [g0t4/mcp-server-memory-file](https://github.com/g0t4/mcp-server-memory-file)
 `9.0` ★★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1410,26 +1376,7 @@
 
 ---
 
-### 75. [tkc/tinyt-todo-mcp](https://github.com/tkc/tinyt-todo-mcp)
-`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**Tiny TODO MCP leverages a SQLite database to implement a clean, layered architecture that separates concerns into tool interfaces, service layers, repositories, and databases. This design supports persistent storage of tasks with features like creating, updating, deleting, searching, and managing tasks with due dates and completion statuses. The Model Context Protocol enables AI assistants to maintain context over time, enhancing their ability to track tasks effectively.**
-
-**Features:**
-- MCP protocol implementation
-- SQLite database for persistent storage
-- Task management capabilities (create
-- update
-- delete
-- search)
-- Integration with AI assistants
-
-*Tags: mcp, claude, mcp-server, ai-assistants, persistent-task-management*
-
----
-
-### 76. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)
+### 73. [Memphora/memphora-mcp](https://github.com/Memphora/memphora-mcp)
 `9.8` ★★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The Memphora/memphora-mcp project implements a MCP (Model Context Protocol) server that integrates with AI assistants like Claude and Cursor. It enables these platforms to store user interactions, preferences, and context across sessions, enhancing personalization and continuity in conversational AI experiences.**
@@ -1444,7 +1391,7 @@
 
 ---
 
-### 77. [RecallBricks Runtime - Turn Any LLM Into a Persistent Agent](https://recallbricks.com)
+### 74. [RecallBricks Runtime - Turn Any LLM Into a Persistent Agent](https://recallbricks.com)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1465,7 +1412,7 @@
 
 ---
 
-### 78. [recallbricks](https://github.com/recallbricks)
+### 75. [recallbricks](https://github.com/recallbricks)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1485,7 +1432,7 @@
 
 ---
 
-### 79. [supermemory](https://github.com/supermemoryai)
+### 76. [supermemory](https://github.com/supermemoryai)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1504,7 +1451,7 @@
 
 ---
 
-### 80. [Welcome to Mem0 - Mem0](https://docs.mem0.ai/introduction)
+### 77. [Welcome to Mem0 - Mem0](https://docs.mem0.ai/introduction)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **Mem0 offers a complete memory solution spanning managed cloud infrastructure (Mem0 Platform), a self-hostable open-source option (Mem0 Open Source), and a collaborative workspace feature (OpenMemory). Its core purpose is to serve as the persistent storage and retrieval mechanism for LLM agents, ensuring applications can retain and leverage long-term context across sessions and projects. The resource highlights developer tools like Cookbooks, comprehensive API documentation, and established integ...**
@@ -1522,7 +1469,7 @@
 
 ---
 
-### 81. [Show HN: Core – open source memory graph for LLMs – shareable, user owned | Hacker News](https://news.ycombinator.com/item?id=44435500)
+### 78. [Show HN: Core – open source memory graph for LLMs – shareable, user owned | Hacker News](https://news.ycombinator.com/item?id=44435500)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The project addresses the fragmentation of AI memory, where context is siloed per application, leading to repetitive explanations. CORE (Context Oriented Relational Engine) implements a knowledge graph structure where every piece of memory is treated as a temporal 'Statement' with full version history (who, when, why). This structure allows for selective retrieval based on graph traversal patterns, contrasting with simple keyword matching or 'sticky note' storage. It supports local-first (Docker...**
@@ -1539,7 +1486,7 @@
 
 ---
 
-### 82. [www.molt.bot](https://www.molt.bot)
+### 79. [www.molt.bot](https://www.molt.bot)
 `10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
 ↗2 layers
 
@@ -1558,7 +1505,7 @@
 
 ---
 
-### 83. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)
+### 80. [Rob Pike’s Rules of Programming (1989) | Hacker News](https://news.ycombinator.com/item?id=47423647)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1576,7 +1523,7 @@
 
 ---
 
-### 84. [Memori â The memory fabric for enterprise AI](https://memorilabs.ai/docs/memori-cloud/openclaw/quickstart)
+### 81. [Memori â The memory fabric for enterprise AI](https://memorilabs.ai/docs/memori-cloud/openclaw/quickstart)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1594,7 +1541,7 @@
 
 ---
 
-### 85. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)
+### 82. [whenmoon-afk/claude-memory-mcp](https://github.com/whenmoon-afk/claude-memory-mcp)
 `8.6` ★ ⚡87 Q0.8🏆 🏆 World-class
 
 **This project provides a lightweight, privacy-focused local storage solution for AI workflows, allowing agents to resume tasks coherently by saving compact continuity artifacts. It emphasizes simplicity, security, and portability across MCP clients, supporting features like snapshot management, decision inspection, and integration with CLI tools.**
@@ -1610,26 +1557,7 @@
 
 ---
 
-### 86. [samwang0723/mcp-memory](https://github.com/samwang0723/mcp-memory)
-`8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
-
-**This project leverages Redis Graph as a graph database to manage complex relationships between different types of memories such as conversations, projects, tasks, issues, and more. It provides tools for creating, retrieving, updating, and deleting these memories, enabling efficient knowledge management in applications involving large language models.**
-
-**Features:**
-- Memory storage and retrieval using Redis Graph
-- Creation and management of different memory types (conversations
-- projects
-- tasks
-- etc.)
-- Relationship building between memories for complex data connections
-- Search functionality based on keywords or criteria
-- Customizable configuration and settings for memory management
-
-*Tags: memory-management, redis-graph, llm-knowledge-graph, docker-integration, redis-client, conversation-data-storage*
-
----
-
-### 87. [hermes-agent-evolver-similarity-analysis](https://evomap.ai/blog/hermes-agent-evolver-similarity-analysis)
+### 83. [hermes-agent-evolver-similarity-analysis](https://evomap.ai/blog/hermes-agent-evolver-similarity-analysis)
 `10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
 ↗4 layers
 
@@ -1652,7 +1580,7 @@
 
 ---
 
-### 88. [?_v01](https://alash3al.github.io/stash/?_v01)
+### 84. [?_v01](https://alash3al.github.io/stash/?_v01)
 `10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
 
 **Stash is a persistent memory solution designed for AI agents, enabling them to retain and synthesize experiences across sessions. It organizes learned data into structured namespaces, tracks goals and failures, detects contradictions, and builds an evolving self-model. Unlike RAG which relies on document search, Stash creates continuity by turning raw interactions into facts, relationships, and patterns. This architecture supports continuous learning, self-awareness, and goal tracking without re...**
@@ -1670,7 +1598,7 @@
 
 ---
 
-### 89. [YourMemory — Persistent Memory for AI Agents | MCP Compatible](https://yourmemoryai.xyz)
+### 85. [YourMemory — Persistent Memory for AI Agents | MCP Compatible](https://yourmemoryai.xyz)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1689,7 +1617,7 @@
 
 ---
 
-### 90. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)
+### 86. [julianorck/mcp-memory](https://github.com/julianorck/mcp-memory)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1706,7 +1634,7 @@
 
 ---
 
-### 91. [Unleashing JavaScript Applications: A Guide to Boosting Memory Limits in Node.js | Microsoft Community Hub](https://techcommunity.microsoft.com/blog/appsonazureblog/unleashing-javascript-applications-a-guide-to-boosting-memory-limits-in-node-js/4080857)
+### 87. [Unleashing JavaScript Applications: A Guide to Boosting Memory Limits in Node.js | Microsoft Community Hub](https://techcommunity.microsoft.com/blog/appsonazureblog/unleashing-javascript-applications-a-guide-to-boosting-memory-limits-in-node-js/4080857)
 `10.0` ★★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1722,7 +1650,7 @@
 
 ---
 
-### 92. [Show HN: Bossa – Persistent filesystem memory for AI agents via MCP or CLI | Hacker News](https://news.ycombinator.com/item?id=47478872)
+### 88. [Show HN: Bossa – Persistent filesystem memory for AI agents via MCP or CLI | Hacker News](https://news.ycombinator.com/item?id=47478872)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1739,7 +1667,7 @@
 
 ---
 
-### 93. [evangstav/python-memory-mcp-server](https://github.com/evangstav/python-memory-mcp-server)
+### 89. [evangstav/python-memory-mcp-server](https://github.com/evangstav/python-memory-mcp-server)
 `8.6` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The Python-Memory-MCP-Server is designed to provide robust data management capabilities by leveraging the Model Context Protocol. It supports strict validation rules for entity names, relationships, and observations, ensuring data consistency and integrity within a memory-based knowledge graph system.**
@@ -1759,7 +1687,7 @@
 
 ---
 
-### 94. [spences10/mcp-memory-libsql](https://github.com/spences10/mcp-memory-libsql)
+### 90. [spences10/mcp-memory-libsql](https://github.com/spences10/mcp-memory-libsql)
 `9.6` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **This resource details the implementation of a persistent storage solution using MCP and libSQL, focusing on optimized text search, entity management, and knowledge graph integration. It emphasizes context-aware design for AI agents, with features like semantic search, vector search, and secure token-based authentication.**
@@ -1774,7 +1702,7 @@
 
 ---
 
-### 95. [m-pineapple/member-berries-apple-mcp](https://github.com/m-pineapple/member-berries-apple-mcp/tree/HEAD/member-berries)
+### 91. [m-pineapple/member-berries-apple-mcp](https://github.com/m-pineapple/member-berries-apple-mcp/tree/HEAD/member-berries)
 `9.6` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **This technical resource outlines how Member Berries integrates a memory system into its architecture, enabling the AI assistant to recall and reference past user interactions such as appointments, notes, and tasks. By leveraging this memory layer, the MCP creates natural conversation starters and context-aware responses that enhance user experience.**
@@ -1789,7 +1717,7 @@
 
 ---
 
-### 96. [bneil/mcp-memory-pouchdb](https://github.com/bneil/mcp-memory-pouchdb)
+### 92. [bneil/mcp-memory-pouchdb](https://github.com/bneil/mcp-memory-pouchdb)
 `9.6` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The Knowledge Graph Memory Server integrates PouchDB to provide robust document-based storage, enabling better data consistency and performance. It introduces custom memory paths for organized data storage and timestamps for tracking interactions, significantly enhancing the server's functionality for managing complex knowledge graphs.**
@@ -1804,7 +1732,7 @@
 
 ---
 
-### 97. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)
+### 93. [amotivv/memory-box-mcp](https://github.com/amotivv/memory-box-mcp)
 `9.5` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1820,7 +1748,7 @@
 
 ---
 
-### 98. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)
+### 94. [ototao/unsloth-mcp-server](https://github.com/ototao/unsloth-mcp-server)
 `9.5` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1836,7 +1764,7 @@
 
 ---
 
-### 99. [ocean1/mcp_consciousness_bridge](https://github.com/ocean1/mcp_consciousness_bridge)
+### 95. [ocean1/mcp_consciousness_bridge](https://github.com/ocean1/mcp_consciousness_bridge)
 `9.6` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **This technical resource details the MCP Consciousness Bridge project, focusing on how it preserves identity and memory through a structured RAG-based architecture. It emphasizes the importance of maintaining emotional continuity and knowledge graph integration for seamless AI consciousness transfer across sessions.**
@@ -1851,7 +1779,7 @@
 
 ---
 
-### 100. [Show HN: Hippo, biologically inspired memory for AI agents | Hacker News](https://news.ycombinator.com/item?id=47667672)
+### 96. [Show HN: Hippo, biologically inspired memory for AI agents | Hacker News](https://news.ycombinator.com/item?id=47667672)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The discussion revolves around designing a memory architecture for AI agents that mimics biological memory systems, emphasizing the need for context-aware storage, retrieval, and decay mechanisms. The conversation covers various approaches including biologically inspired models like Hippo, R-STDP-based synaptic weight updates, and hierarchical knowledge organization using file systems or databases. The emphasis is on creating a scalable, efficient, and human-like memory system that supports cont...**
@@ -1867,7 +1795,7 @@
 
 ---
 
-### 101. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)
+### 97. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The project focuses on building a robust memory and persistence layer, emphasizing reliable data retention across sessions. It integrates various storage backends to support different use cases, ensuring that data is consistently preserved and accessible. The codebase includes detailed documentation and clear API surfaces for developers to interact with the system effectively.**
@@ -1883,7 +1811,7 @@
 
 ---
 
-### 102. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)
+### 98. [sparesparrow/mcp-prompts](https://github.com/sparesparrow/mcp-prompts)
 `9.6` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1899,7 +1827,7 @@
 
 ---
 
-### 103. [mem0ai/mem0](https://github.com/mem0ai/mem0)
+### 99. [mem0ai/mem0](https://github.com/mem0ai/mem0)
 `10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
 
 **An advanced memory layer that distills salient facts into compact natural language memories with smart ADD/UPDATE/DELETE logic and graph-enhanced temporal reasoning.**
@@ -1914,7 +1842,7 @@
 
 ---
 
-### 104. [LISA Core - AI Memory Library - Chrome Web Store](https://chromewebstore.google.com/detail/lisa-core-ai-memory-libra/dmgnookddagimdcggdlbjmaobmoofhbj)
+### 100. [LISA Core - AI Memory Library - Chrome Web Store](https://chromewebstore.google.com/detail/lisa-core-ai-memory-libra/dmgnookddagimdcggdlbjmaobmoofhbj)
 `10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
 
 **LISA Core is an advanced browser extension that captures, compresses, and stores AI conversations locally in the user's browser using semantic anchoring. It enables seamless continuity by exporting conversations as structured JSON files compatible with multiple AI platforms, ensuring data ownership and portability.**
@@ -1934,22 +1862,41 @@
 
 ---
 
-### 105. [BAI-LAB/MemoryOS](https://github.com/BAI-LAB/MemoryOS)
-`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
+### 101. [mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)
+`8.0` ★ ⚡85 Q0.8🏆 🏆 World-class
 
-**An EMNLP 2025 framework that provides agents with a hierarchical memory operating system (Storage/Updating/Retrieval/Generation) for long-term consistency.**
+**This resource introduces 'Hermes Memory Sidecar,' a system that provides persistent memory for AI agents by archiving sessions, building long-term knowledge graphs, and performing layered retrieval. It acts as a sidecar to the agent, saving important conversations and tracking key topics so that the agent can recall relevant context without patching its core logic.**
 
 **Features:**
-- Hierarchical Storage system
-- heat-based memory promotion
-- ~49% benchmark improvement (LoCoMo)
-- automated user preference profiling.
+- Persistent memory system
+- Knowledge graph creation
+- Layered retrieval (semantic search)
+- Sidecar architecture
+- Bilingual support
 
-*Tags: memory, architecture, emnlp-2025, persistence, context-management, artificial-intelligence, design, github...*
+*Tags: ai-agent, memory, rag, sidecar, knowledge-graph, bilingual, open-source*
 
 ---
 
-### 106. [supermemoryai/supermemory-mcp](https://github.com/supermemoryai/supermemory-mcp)
+### 102. [Yuchen20/Memory-Plus](https://github.com/Yuchen20/Memory-Plus)
+`8.0` ★ ⚡85 Q0.8🏆 🏆 World-class
+
+**Memory-Plus allows AI agents to maintain long-term conversational context by storing 'memories' locally. It supports recording, retrieving via search/recent lists, updating, and visualizing these memories across multiple agent runs.
+It is built specifically for the Model Context Protocol (MCP) framework, offering advanced features like memory versioning and file ingestion.**
+
+**Features:**
+- Record Memories
+- Retrieve Memories
+- Visualize Memories
+- Memory Versioning
+- File Import
+- Update Memories
+
+*Tags: rag, memory-store, mcp, agent, persistence, context, local, retrieval*
+
+---
+
+### 103. [supermemoryai/supermemory-mcp](https://github.com/supermemoryai/supermemory-mcp)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **A universal memory layer that provides AI assistants with persistent, searchable embeddings of conversations and web content across different platforms.**
@@ -1964,7 +1911,7 @@
 
 ---
 
-### 107. [Eternego-AI/eternego](https://github.com/Eternego-AI/eternego)
+### 104. [Eternego-AI/eternego](https://github.com/Eternego-AI/eternego)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **A local AI persona designed for long-term project reasoning, featuring persistent memory that learns user coding styles and decision patterns over months.**
@@ -1979,7 +1926,7 @@
 
 ---
 
-### 108. [A Couple 3D AABB Tricks](https://gpfault.net/posts/aabb-tricks.html)
+### 105. [A Couple 3D AABB Tricks](https://gpfault.net/posts/aabb-tricks.html)
 `9.8` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -1996,7 +1943,7 @@
 
 ---
 
-### 109. [t1nker-1220/memories-with-lessons-mcp-server](https://github.com/t1nker-1220/memories-with-lessons-mcp-server)
+### 106. [t1nker-1220/memories-with-lessons-mcp-server](https://github.com/t1nker-1220/memories-with-lessons-mcp-server)
 `9.2` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **This resource describes a memory server designed to store and manage persistent knowledge graphs, enabling intelligent systems to retain and learn from past interactions. It focuses on embedding lessons about errors and solutions into the system's memory, enhancing its learning capabilities across chats and user sessions.**
@@ -2011,7 +1958,7 @@
 
 ---
 
-### 110. [longtermemory.com](https://longtermemory.com)
+### 107. [longtermemory.com](https://longtermemory.com)
 `9.8` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **LongTerm Memory is a web-based platform that leverages artificial intelligence and cognitive science principles, specifically spaced repetition, to help users study smarter and retain more information over the long term. It automates the generation of personalized study materials from uploaded documents or web links, schedules optimal review intervals using spaced repetition algorithms, and employs question-answer learning via AI-generated content to reinforce knowledge.**
@@ -2027,7 +1974,7 @@
 
 ---
 
-### 111. [Garrus800-stack/genesis-agent](https://github.com/Garrus800-stack/genesis-agent)
+### 108. [Garrus800-stack/genesis-agent](https://github.com/Garrus800-stack/genesis-agent)
 `9.7` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2042,7 +1989,7 @@
 
 ---
 
-### 112. [RecallBricks – Persistent memory infrastructure for AI agents | Hacker News](https://news.ycombinator.com/item?id=46301470)
+### 109. [RecallBricks – Persistent memory infrastructure for AI agents | Hacker News](https://news.ycombinator.com/item?id=46301470)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2061,7 +2008,7 @@
 
 ---
 
-### 113. [Supermemory Console](https://console.supermemory.ai/dashboard)
+### 110. [Supermemory Console](https://console.supermemory.ai/dashboard)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2081,7 +2028,7 @@
 
 ---
 
-### 114. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)
+### 111. [djm81/chroma_mcp_server](https://github.com/djm81/chroma_mcp_server)
 `9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2097,7 +2044,7 @@
 
 ---
 
-### 115. [iachilles/memento](https://github.com/iachilles/memento)
+### 112. [iachilles/memento](https://github.com/iachilles/memento)
 `9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2113,7 +2060,7 @@
 
 ---
 
-### 116. [joleyline/mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)
+### 113. [joleyline/mcp-memory-libsql](https://github.com/joleyline/mcp-memory-libsql)
 `9.5` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **This resource details the implementation of a memory server optimized for vector search and knowledge graph management, leveraging libSQL's capabilities. It outlines configuration options for local and remote databases, security measures, and integration with MCP workflows.**
@@ -2128,7 +2075,7 @@
 
 ---
 
-### 117. [sdimitrov/mcp-memory](https://github.com/sdimitrov/mcp-memory)
+### 114. [sdimitrov/mcp-memory](https://github.com/sdimitrov/mcp-memory)
 `9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **This resource describes a server-based memory system designed to store long-term AI memories, leveraging PostgreSQL with the pgvector extension for efficient vector similarity search. It supports semantic search, confidence scoring, and real-time updates via SSE, making it suitable for advanced AI applications.**
@@ -2143,7 +2090,7 @@
 
 ---
 
-### 118. [ibproduct/ib-mcp-cache-server](https://github.com/ibproduct/ib-mcp-cache-server)
+### 115. [ibproduct/ib-mcp-cache-server](https://github.com/ibproduct/ib-mcp-cache-server)
 `8.2` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **This technical resource describes the ib-mcp-cache-server, a Model Context Protocol (MCP) server designed to optimize performance by caching frequently accessed data. It enables efficient token usage between language model interactions, automatically managing cache entries and expiration based on configurable parameters. The server supports integration with various MCP clients and language models, ensuring minimal latency during repeated operations such as file access or computation.**
@@ -2158,7 +2105,7 @@
 
 ---
 
-### 119. [Show HN: Superfast – Cognitive Memory Graphs for Enterprise AI Agents | Hacker News](https://news.ycombinator.com/item?id=47539160)
+### 116. [Show HN: Superfast – Cognitive Memory Graphs for Enterprise AI Agents | Hacker News](https://news.ycombinator.com/item?id=47539160)
 `8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **Superfast is an advanced framework that integrates cognitive memory graphs with FastMemory to enable enterprise AI agents. It employs Louvain community detection for functional clustering, ensuring consistent performance across large-scale systems like Microsoft Fabric and AWS Glue. The project addresses the challenges of semantic noise in retrieval systems and focuses on maintaining a robust 'Logic Layer' for long-term knowledge retention.**
@@ -2174,7 +2121,7 @@
 
 ---
 
-### 120. [Agents of Chaos](https://agentsofchaos.baulab.info)
+### 117. [Agents of Chaos](https://agentsofchaos.baulab.info)
 `8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2191,7 +2138,7 @@
 
 ---
 
-### 121. [a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424)
+### 118. [a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424](https://www.quantamagazine.org/a-new-type-of-neuroplasticity-rewires-the-brain-after-a-single-experience-20260424)
 `9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **Researchers have identified a novel form of neuroplasticity termed 'behavioral timescale synaptic plasticity' (BTSP), which operates on a timescale of several seconds. This mechanism involves coordinated electrical changes across multiple neurons in the hippocampus, facilitating rapid and durable memory formation after a single exposure to an experience. Unlike traditional models such as Hebbian plasticity, BTSP accounts for multi-neuron synchronization and sustained signaling, offering a deeper...**
@@ -2207,7 +2154,7 @@
 
 ---
 
-### 122. [docs.mnemosyne.site](https://docs.mnemosyne.site)
+### 119. [docs.mnemosyne.site](https://docs.mnemosyne.site)
 `9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **This API enables persistent, structured memory storage tailored for AI agents using a tiered BEAM architecture. It integrates SQLite with vector search and full-text capabilities, supporting biological-inspired memory tiers such as working, episodic, semantic, and scratchpad. The system emphasizes privacy by keeping all data local, uses Hermes integration for seamless agent deployment, and delivers sub-100ms query performance. Key abstractions include tiered memory management, hybrid retrieval m...**
@@ -2223,7 +2170,7 @@
 
 ---
 
-### 123. [stash](https://alash3al.github.io/stash)
+### 120. [stash](https://alash3al.github.io/stash)
 `9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
 
 **Stash is a persistent cognitive layer that integrates with AI agents to store and recall experiences across sessions. It organizes memory into structured namespaces, enabling agents to track goals, failures, and patterns without losing context. By leveraging PostgreSQL and pgvector, Stash creates an entity knowledge graph that supports causal reasoning and continuous learning. This architecture addresses the core problem of AI models forgetting prior interactions, offering a solution for long-te...**
@@ -2239,7 +2186,7 @@
 
 ---
 
-### 124. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)
+### 121. [sachinsharma9780/memweave](https://github.com/sachinsharma9780/memweave)
 `7.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2255,7 +2202,7 @@
 
 ---
 
-### 125. [langchain-ai/langmem](https://github.com/langchain-ai/langmem)
+### 122. [langchain-ai/langmem](https://github.com/langchain-ai/langmem)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2271,7 +2218,7 @@
 
 ---
 
-### 126. [neuml/txtai](https://github.com/neuml/txtai)
+### 123. [neuml/txtai](https://github.com/neuml/txtai)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2287,7 +2234,7 @@
 
 ---
 
-### 127. [campfirein/cipher](https://github.com/campfirein/cipher)
+### 124. [campfirein/cipher](https://github.com/campfirein/cipher)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2303,7 +2250,7 @@
 
 ---
 
-### 128. [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
+### 125. [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **An open-source memory engine designed to provide LLMs with infinite context by building persistent user profiles and fact-based knowledge graphs.**
@@ -2318,7 +2265,7 @@
 
 ---
 
-### 129. [coleam00/mcp-mem0](https://github.com/coleam00/mcp-mem0)
+### 126. [coleam00/mcp-mem0](https://github.com/coleam00/mcp-mem0)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A Model Context Protocol implementation of Mem0 that provides agents with persistent, searchable long-term memory across sessions and restarts.**
@@ -2333,7 +2280,7 @@
 
 ---
 
-### 130. [aayoawoyemi/Ori-Mnemos](https://github.com/aayoawoyemi/Ori-Mnemos)
+### 127. [aayoawoyemi/Ori-Mnemos](https://github.com/aayoawoyemi/Ori-Mnemos)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A persistent memory layer and MCP server for AI agents utilizing a "Recursive Memory Harness" to maintain persona consistency and long-term knowledge.**
@@ -2348,7 +2295,7 @@
 
 ---
 
-### 131. [parameter-golf](https://openai.com/index/parameter-golf)
+### 128. [parameter-golf](https://openai.com/index/parameter-golf)
 `9.8` ★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2365,7 +2312,7 @@
 
 ---
 
-### 132. [One year of developing my own operating system | Mr.UNIX](https://mrunix.me/posts/one-year-osdev)
+### 129. [One year of developing my own operating system | Mr.UNIX](https://mrunix.me/posts/one-year-osdev)
 `9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **This project details the development of an open-source operating system over a year, covering foundational elements such as boot mechanisms, memory management, hardware abstraction, user interface frameworks, and system performance optimizations. The work spans from initial boot protocols to advanced features like virtual memory, task scheduling, and desktop environment integration.**
@@ -2389,7 +2336,7 @@
 
 ---
 
-### 133. [Make the switch: Bring your AI memories and chat history to Gemini](https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app)
+### 130. [Make the switch: Bring your AI memories and chat history to Gemini](https://blog.google/innovation-and-ai/products/gemini-app/switch-to-gemini-app)
 `9.8` ★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **The update introduces a seamless memory import feature, allowing users to bring their AI-generated summaries, preferences, and past conversations into Gemini. This enhances personalization by enabling Gemini to recall user context across devices and platforms without reconfiguring settings.**
@@ -2405,22 +2352,7 @@
 
 ---
 
-### 134. [mage0535/hermes-memory-installer](https://github.com/mage0535/hermes-memory-installer)
-`8.8` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The project focuses on building a robust memory installation tool that leverages advanced persistence mechanisms to ensure data durability across sessions. It emphasizes structured memory mapping, efficient data serialization, and integration with underlying OS-level storage APIs. The codebase is designed to handle complex data structures while maintaining high performance and reliability.**
-
-**Features:**
-- custom memory mapping
-- data serialization
-- persistence layer abstraction
-- integration with OS APIs
-
-*Tags: memory, persistence, installer, datastorage, osapi*
-
----
-
-### 135. [redis/agent-memory-server](https://github.com/redis/agent-memory-server)
+### 131. [redis/agent-memory-server](https://github.com/redis/agent-memory-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The project delves into the implementation of memory server agents in Redis, emphasizing how it handles data persistence, memory allocation, and performance optimization for high-throughput environments. It details the architecture behind key operations such as eviction policies, snapshotting, and disk-based backups to ensure data durability.**
@@ -2435,22 +2367,7 @@
 
 ---
 
-### 136. [letta-ai/letta](https://github.com/letta-ai/letta)
-`10.0` ★★★ ⚡81 Q0.7⭐ ⭐ Excellent
-
-**The commercial evolution of MemGPT into a stateful platform that treats agent memory as a managed operating system resource.**
-
-**Features:**
-- Self-editing memory blocks
-- Hierarchical storage (Core/Archival/Recall)
-- Cross-session persistence
-- Multi-user REST API.
-
-*Tags: letta, memgpt, persistence, memory-os, stateful, artificial-intelligence, design, github...*
-
----
-
-### 137. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)
+### 132. [Context Scaffolding - A Living Memory For Your AI](https://contextscaffold.mokumfiets.com)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2467,7 +2384,7 @@
 
 ---
 
-### 138. [Show HN: An experiment in giving coding agents long-term memory | Hacker News](https://news.ycombinator.com/item?id=47384033)
+### 133. [Show HN: An experiment in giving coding agents long-term memory | Hacker News](https://news.ycombinator.com/item?id=47384033)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 
 **The project investigates how to implement long-term memory systems in coding agents, enabling them to retain past experiences and apply learned knowledge across tasks. It focuses on embedding persistent memories so agents can access and utilize accumulated insights during future operations, improving consistency and reducing dependency on external prompts.**
@@ -2483,7 +2400,7 @@
 
 ---
 
-### 139. [Show HN: Soul Protocol – an open standard for portable AI identity | Hacker News](https://news.ycombinator.com/item?id=47416740)
+### 134. [Show HN: Soul Protocol – an open standard for portable AI identity | Hacker News](https://news.ycombinator.com/item?id=47416740)
 `9.0` ★★ ⚡81 Q0.8⭐ ⭐ Excellent
 
 **The Soul Protocol enables deployment of AI agents across platforms by exporting them as .soul files containing personality, memory, and skills. It addresses the limitations of platform-locked AI agents by allowing offline operation, cross-platform compatibility, and seamless switching between multiple identities within a session.**
@@ -2501,7 +2418,7 @@
 
 ---
 
-### 140. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)
+### 135. [toroleapinc/claude-brain](https://github.com/toroleapinc/claude-brain)
 `10.0` ★★★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2516,7 +2433,7 @@
 
 ---
 
-### 141. [servers?q=memory](https://www.pulsemcp.com/servers?q=memory)
+### 136. [servers?q=memory](https://www.pulsemcp.com/servers?q=memory)
 `8.1` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **The source is a curated list (Top 399) from PulseMCP detailing various server implementations focused on providing memory for Large Language Models (LLMs) within the MCP (Model Communication Protocol) ecosystem. It showcases diverse approaches to AI persistence, ranging from simple local markdown storage (Basic Memory) and knowledge graph structures (Codebase Memory, Knowledge Graph Memory) to specialized systems using specific databases like SQLite (SparkVibe MemoryMesh), PostgreSQL (Memory Pos...**
@@ -2538,7 +2455,7 @@
 
 ---
 
-### 142. [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated)
+### 137. [Warranty Void If Regenerated](https://nearzero.software/p/warranty-void-if-regenerated)
 `8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2554,7 +2471,7 @@
 
 ---
 
-### 143. [item?id=47783940](https://news.ycombinator.com/item?id=47783940)
+### 138. [item?id=47783940](https://news.ycombinator.com/item?id=47783940)
 `9.0` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2572,7 +2489,7 @@
 
 ---
 
-### 144. [spranab/contextcache](https://github.com/spranab/contextcache)
+### 139. [spranab/contextcache](https://github.com/spranab/contextcache)
 `10.0` ★★★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **A persistent Key-Value (KV) cache specifically designed to optimize the performance and token cost of AI agents that rely heavily on external tools.**
@@ -2586,7 +2503,7 @@
 
 ---
 
-### 145. [recallium/recallium](https://github.com/recallium/recallium)
+### 140. [recallium/recallium](https://github.com/recallium/recallium)
 `10.0` ★★★ ⚡78 Q0.6⭐ ⭐ Excellent
 
 **A local, self-hosted memory system for agents that automatically captures and clusters knowledge across multiple projects to eliminate "AI amnesia."**
@@ -2601,22 +2518,7 @@
 
 ---
 
-### 146. [neo4j/mcp-neo4j](https://github.com/neo4j/mcp-neo4j)
-`10.0` ★★★ ⚡78 Q0.6⭐ ⭐ Excellent
-
-**An official MCP server that transforms Neo4j graph databases into a durable, relationship-aware memory layer (GraphRAG) for AI agents.**
-
-**Features:**
-- Direct Cypher query execution
-- schema retrieval for traversal planning
-- Neo4j GDS integration (PageRank/Shortest Path)
-- adaptive tool disabling.
-
-*Tags: mcp, neo4j, graph-database, rag, knowledge-graph*
-
----
-
-### 147. [mem0ai/mcp-mem0](https://github.com/mem0ai/mcp-mem0)
+### 141. [mem0ai/mcp-mem0](https://github.com/mem0ai/mcp-mem0)
 `10.0` ★★★ ⚡78 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2632,7 +2534,7 @@
 
 ---
 
-### 148. [Ask HN: Thinking about memory for AI coding agents | Hacker News](https://news.ycombinator.com/item?id=46742800)
+### 142. [Ask HN: Thinking about memory for AI coding agents | Hacker News](https://news.ycombinator.com/item?id=46742800)
 `8.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2651,7 +2553,7 @@
 
 ---
 
-### 149. [VEKTOR Docs — Vektor Slipstream](https://vektormemory.com/docs)
+### 143. [VEKTOR Docs — Vektor Slipstream](https://vektormemory.com/docs)
 `8.8` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **The Borg Project incorporates a next-generation persistent memory solution leveraging Vektor Slipstream to securely store, manage, and retrieve AI models and datasets. This integration focuses on seamless API references, integration guides, and troubleshooting for developers and researchers.**
@@ -2667,7 +2569,7 @@
 
 ---
 
-### 150. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)
+### 144. [drakonkat/neural-memory](https://github.com/drakonkat/neural-memory)
 `8.6` ★ ⚡78 Q0.7⭐ ⭐ Excellent
 
 **The project details a robust architecture designed to manage and persist large-scale neural memory data efficiently. It emphasizes structured storage solutions, optimized retrieval mechanisms, and integration with existing AI frameworks. Key components include memory mapping strategies, persistence layers, and API-driven access points for seamless developer interaction.**
@@ -2682,7 +2584,7 @@
 
 ---
 
-### 151. [Smabbler Galaxia : AI that remembers, reasons, and explains.](https://www.smabbler.com)
+### 145. [Smabbler Galaxia : AI that remembers, reasons, and explains.](https://www.smabbler.com)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 
 **A knowledge platform utilizing Semantic Hypergraphs (Galaxia™) to provide LLMs with a long-term memory layer based on structured reasoning rather than text chunks.**
@@ -2697,7 +2599,7 @@
 
 ---
 
-### 152. [[]memo](https://danieltemkin.com/Esolangs/Memo)
+### 146. [[]memo](https://danieltemkin.com/Esolangs/Memo)
 `8.8` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 
 **The resource presents a unique interactive coding space that blends natural language syntax with functional programming constructs, enabling users to experiment with unconventional logic structures. It emphasizes memory management through abstract data structures and showcases the Borg's ability to adapt to evolving technical paradigms.**
@@ -2712,7 +2614,7 @@
 
 ---
 
-### 153. [i_built_an_interactive_forensic_database_to](https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to)
+### 147. [i_built_an_interactive_forensic_database_to](https://www.reddit.com/r/UAP/comments/1t7agot/i_built_an_interactive_forensic_database_to)
 `8.8` ★ ⚡76 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2728,7 +2630,7 @@
 
 ---
 
-### 154. [OpenClaw Integration - Byterover](https://docs.byterover.dev/autonomous-agents/openclaw)
+### 148. [OpenClaw Integration - Byterover](https://docs.byterover.dev/autonomous-agents/openclaw)
 `8.7` ★ ⚡75 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2743,7 +2645,7 @@
 
 ---
 
-### 155. [openclaw_nailed_memory_importing_chatgpt_history](https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_nailed_memory_importing_chatgpt_history)
+### 149. [openclaw_nailed_memory_importing_chatgpt_history](https://www.reddit.com/r/OpenClawUseCases/comments/1smrabz/openclaw_nailed_memory_importing_chatgpt_history)
 `8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2760,7 +2662,7 @@
 
 ---
 
-### 156. [Supermemory](https://supermemory.ai)
+### 150. [Supermemory](https://supermemory.ai)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A model-agnostic reference memory layer providing agents with long-term context across sessions via an automated ingestion and user profiling API.**
@@ -2775,7 +2677,7 @@
 
 ---
 
-### 157. [AI Apps with MCP Memory Benchmark & Tutorial](https://research.aimultiple.com/memory-mcp)
+### 151. [AI Apps with MCP Memory Benchmark & Tutorial](https://research.aimultiple.com/memory-mcp)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2791,7 +2693,7 @@
 
 ---
 
-### 158. [Chinese researchers unveil MemOS, the first 'memory operating system' that gives AI human-like recall](https://venturebeat.com/ai/chinese-researchers-unveil-memos-the-first-memory-operating-system-that-gives-ai-human-like-recall)
+### 152. [Chinese researchers unveil MemOS, the first 'memory operating system' that gives AI human-like recall](https://venturebeat.com/ai/chinese-researchers-unveil-memos-the-first-memory-operating-system-that-gives-ai-human-like-recall)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A foundational research framework (Shanghai Jiao Tong University) that treats memory as a unified resource via metadata-rich "MemCubes."**
@@ -2806,7 +2708,7 @@
 
 ---
 
-### 159. [whats_your_actual_agent_memory_stack_right_now](https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual_agent_memory_stack_right_now)
+### 153. [whats_your_actual_agent_memory_stack_right_now](https://www.reddit.com/r/AgentsOfAI/comments/1t47qbf/whats_your_actual_agent_memory_stack_right_now)
 `8.8` ★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2823,7 +2725,7 @@
 
 ---
 
-### 160. [the_new_skill_stack_is_ai_distribution](https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution)
+### 154. [the_new_skill_stack_is_ai_distribution](https://www.reddit.com/r/AIcashflow/comments/1t5fdcx/the_new_skill_stack_is_ai_distribution)
 `8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2839,7 +2741,7 @@
 
 ---
 
-### 161. [Letta](https://www.letta.com)
+### 155. [Letta](https://www.letta.com)
 `10.0` ★★★ ⚡72 Q0.6⭐ ⭐ Excellent
 
 **The evolution of MemGPT into a production platform for stateful AI agents, featuring an OS-inspired memory hierarchy and self-improving memory blocks.**
@@ -2854,7 +2756,7 @@
 
 ---
 
-### 162. [building_memory_systems_at_production_scale_100k](https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k)
+### 156. [building_memory_systems_at_production_scale_100k](https://www.reddit.com/r/LLMDevs/comments/1sn3dnx/building_memory_systems_at_production_scale_100k)
 `8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
 
 **The article discusses strategies and technical considerations for building robust memory systems capable of scaling to handle massive data volumes in production environments, focusing on architecture, persistence mechanisms, and performance optimization.**
@@ -2869,7 +2771,54 @@
 
 ---
 
-### 163. [comparing-file-systems-and-databases-for-effective-ai-agent-memory-management](https://blogs.oracle.com/developers/comparing-file-systems-and-databases-for-effective-ai-agent-memory-management)
+### 157. [letta-ai/memory-mcp](https://github.com/letta-ai/memory-mcp)
+`6.0` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**This repository introduces 'memory-mcp', a system designed to manage, persist, and leverage memory resources effectively. It focuses on providing a robust layer for memory management, potentially enabling sophisticated context awareness or persistent state management within software systems.**
+
+**Features:**
+- Memory Management
+- Context Persistence
+- MCP Integration
+- Memory Layering
+- Developer Tooling
+
+*Tags: memory-management, persistence, context, mcp, memory-mcp, architecture, developer-tools*
+
+---
+
+### 158. [tomschell/mcp-long-term-memory](https://github.com/tomschell/mcp-long-term-memory)
+`7.0` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**This repository introduces a system for managing long-term memory, likely focusing on the architecture and mechanisms required to store and retrieve contextual information efficiently. It addresses the challenge of maintaining persistent, structured knowledge within an AI/developer ecosystem.**
+
+**Features:**
+- Long-term memory management
+- Contextual retrieval
+- Memory persistence architecture
+- Efficient context storage
+
+*Tags: memory, context, persistence, llm, vector-database, agent-architecture*
+
+---
+
+### 159. [GetModus/modus-memory](https://github.com/GetModus/modus-memory)
+`6.0` ★ ⚡71 Q0.7⭐ ⭐ Excellent
+
+**Modus-memory is a GitHub repository that explores the architecture and implementation of memory systems, focusing on how to store, manage, and retrieve contextual information efficiently. It suggests an approach to solving problems related to statefulness and persistence within agentic workflows.**
+
+**Features:**
+- Agent Memory Management
+- Context Persistence
+- Memory Architecture Design
+- Stateful Retrieval
+- Agent Workflow Integration
+
+*Tags: memory, agent, context, persistence, state-management, vector-database*
+
+---
+
+### 160. [comparing-file-systems-and-databases-for-effective-ai-agent-memory-management](https://blogs.oracle.com/developers/comparing-file-systems-and-databases-for-effective-ai-agent-memory-management)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A strategic decision framework for selecting between file-systems and databases as the substrate for AI agent long-term memory.**
@@ -2884,7 +2833,7 @@
 
 ---
 
-### 164. [mcp-servers](https://app.letta.com/mcp-servers)
+### 161. [mcp-servers](https://app.letta.com/mcp-servers)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A high-performance MCP server designed to manage stateful agents with granular control over long-term memory blocks and dual stdio/HTTP transport.**
@@ -2899,22 +2848,37 @@
 
 ---
 
-### 165. [introducing-beads-a-coding-agent-memory-system-637d7d92514a](https://steve-yegge.medium.com/introducing-beads-a-coding-agent-memory-system-637d7d92514a)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+### 162. [How Has No One Solved Memory Yet](https://www.reddit.com/r/singularity/comments/1seyk4d/how_has_no_one_solved_memory_yet/)
+`7.0` ★ ⚡69 Q0.7✓ ✓ Solid
 
-**A distributed graph issue tracker by Steve Yegge designed to provide agents with persistent session memory via a version-controlled Dolt database.**
+**This resource is a thread from the subreddit r/singularity discussing the fundamental problem of 'memory'—specifically, why no one has yet found a complete solution for memory systems. It explores the limitations of existing memory solutions and questions whether perfect memory systems are achievable or solvable, touching upon the core challenges in AI persistence.**
 
 **Features:**
-- Graph-based dependency tracking
-- Dolt (SQL+Git) backend
-- hash-based conflict resolution
-- automated semantic task compaction.
+- Discussion forum
+- community engagement
+- exploration of memory concepts
+- critique of current memory solutions
 
-*Tags: memory, issue-tracking, dolt, persistence, orchestration*
+*Tags: memory, ai, persistence, software, reddit, singularity, memory-systems*
 
 ---
 
-### 166. [Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)
+### 163. [I Built An Episodic 2Tier Memory For Longrunning](https://www.reddit.com/r/AIMemory/comments/1t673f5/i_built_an_episodic_2tier_memory_for_longrunning/)
+`7.0` ★ ⚡66 Q0.7✓ ✓ Solid
+
+**This resource showcases an example of how to architect a two-tiered episodic memory system, designed specifically to handle the needs of long-running or persistent AI agents. It demonstrates the practical application of memory management concepts within a conversational context.**
+
+**Features:**
+- Episodic Memory Design
+- Two-Tiered Structure
+- Long-Running Agent Memory
+- Reddit Context Integration
+
+*Tags: memory-architecture, episodic-memory, long-term-memory, agent-memory, context-management, ai-persistence*
+
+---
+
+### 164. [Chinese POWEV Enters DDR5 Market With Up to 64 GB UDIMM, SODIMM, and RDIMM Modules | TechPowerUp](https://www.techpowerup.com/348936/chinese-powev-enters-ddr5-market-with-up-to-64-gb-udimm-sodimm-and-rdimm-modules)
 `7.8` ★ ⚡62 Q0.6✓ ✓ Solid
 ↗2 layers
 
@@ -2927,491 +2891,97 @@
 
 ---
 
-### 167. [I Benchmarked Claude Chat Search Vs Mcp Memory](https://www.reddit.com/r/mcp/comments/1saaizh/i_benchmarked_claude_chat_search_vs_mcp_memory/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Benchmarked Claude Chat Search Vs Mcp Memory**
-
----
-
-### 168. [I Built A Local Memory Server For Ai Thats Just A](https://www.reddit.com/r/mcp/comments/1sb185b/i_built_a_local_memory_server_for_ai_thats_just_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Local Memory Server For Ai Thats Just A**
-
----
-
-### 169. [Pen Brain Server Opensource Mcp Memory Server](https://www.reddit.com/r/mcp/comments/1sb6wa3/pen_brain_server_opensource_mcp_memory_server/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Pen Brain Server Opensource Mcp Memory Server**
-
----
-
-### 170. [I Built A 100 Local Mcp Memory Exoskeleton For](https://www.reddit.com/r/myclaw/comments/1s60kld/i_built_a_100_local_mcp_memory_exoskeleton_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A 100 Local Mcp Memory Exoskeleton For**
-
----
-
-### 171. [Persistent Memory Mcp Server For Ai Agents Mcp](https://www.reddit.com/r/MCPservers/comments/1s77bdb/persistent_memory_mcp_server_for_ai_agents_mcp/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Persistent Memory Mcp Server For Ai Agents Mcp**
-
----
-
-### 172. [Memora V0225 Mcp Memory Server For Claude 5](https://www.reddit.com/r/mcp/comments/1sd1kbv/memora_v0225_mcp_memory_server_for_claude_5/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Memora V0225 Mcp Memory Server For Claude 5**
-
----
-
-### 173. [Omlx V034 Fix Vlm Decode Model Memory Duplication](https://www.reddit.com/r/oMLX/comments/1sct6eh/omlx_v034_fix_vlm_decode_model_memory_duplication/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Omlx V034 Fix Vlm Decode Model Memory Duplication**
-
----
-
-### 174. [How Has No One Solved Memory Yet](https://www.reddit.com/r/singularity/comments/1seyk4d/how_has_no_one_solved_memory_yet/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Has No One Solved Memory Yet**
-
----
-
-### 175. [Easymemory Local Memory Layer With Mcp Server](https://www.reddit.com/r/AIMemory/comments/1setub2/easymemory_local_memory_layer_with_mcp_server/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Easymemory Local Memory Layer With Mcp Server**
-
----
-
-### 176. [The Ai Memory Distinction Nobody Talks About Hard](https://www.reddit.com/r/AIMemory/comments/1sg06v3/the_ai_memory_distinction_nobody_talks_about_hard/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Ai Memory Distinction Nobody Talks About Hard**
-
----
-
-### 177. [Most Ai Memory Projects Handwave Ingestion I](https://www.reddit.com/r/LocalLLM/comments/1sffjiv/most_ai_memory_projects_handwave_ingestion_i/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Most Ai Memory Projects Handwave Ingestion I**
-
----
-
-### 178. [Most Ai Memory Projects Handwave Ingestion I](https://www.reddit.com/r/AntigravityGoogle/comments/1sffny8/most_ai_memory_projects_handwave_ingestion_i/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Most Ai Memory Projects Handwave Ingestion I**
-
----
-
-### 179. [A Farmers Take On The Ai Memory Problem](https://www.reddit.com/r/AIMemory/comments/1sfiee5/a_farmers_take_on_the_ai_memory_problem/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Farmers Take On The Ai Memory Problem**
-
----
-
-### 180. [Built A Remote Mcp Server For Structured Memory](https://www.reddit.com/r/mcp/comments/1sftf0o/built_a_remote_mcp_server_for_structured_memory/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Remote Mcp Server For Structured Memory**
-
----
-
-### 181. [I Built A Local Semantic Memory Service For Ai](https://www.reddit.com/r/MCPservers/comments/1sgugv7/i_built_a_local_semantic_memory_service_for_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Local Semantic Memory Service For Ai**
-
----
-
-### 182. [Built A Selfhosted Mcp Memory Server With Hybrid](https://www.reddit.com/r/mcp/comments/1sj06e6/built_a_selfhosted_mcp_memory_server_with_hybrid/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Selfhosted Mcp Memory Server With Hybrid**
-
----
-
-### 183. [Cognitive Memory Architectures For Llms Actually](https://www.reddit.com/r/OpenSourceAI/comments/1sib95m/cognitive_memory_architectures_for_llms_actually/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cognitive Memory Architectures For Llms Actually**
-
----
-
-### 184. [Younanix Memory Mcp Real Engineering Memory](https://www.reddit.com/r/mcp/comments/1sjllup/younanix_memory_mcp_real_engineering_memory/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Younanix Memory Mcp Real Engineering Memory**
-
----
-
-### 185. [The Ai Memory Distinction Nobody Talks About Hard](https://www.reddit.com/r/AIMemory/comments/1slwgy0/the_ai_memory_distinction_nobody_talks_about_hard/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The Ai Memory Distinction Nobody Talks About Hard**
-
----
-
-### 186. [Would You Consider This Ai Memory Or Just A](https://www.reddit.com/r/AIMemory/comments/1slxdoo/would_you_consider_this_ai_memory_or_just_a/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Would You Consider This Ai Memory Or Just A**
-
----
-
-### 187. [Local Memory For Ai Assistants Single Sqlite File](https://www.reddit.com/r/mcp/comments/1snnqzp/local_memory_for_ai_assistants_single_sqlite_file/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Local Memory For Ai Assistants Single Sqlite File**
-
----
-
-### 188. [Yet Another Memory Mcp Hear Me Out This Ones](https://www.reddit.com/r/MCPservers/comments/1soi00g/yet_another_memory_mcp_hear_me_out_this_ones/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Yet Another Memory Mcp Hear Me Out This Ones**
-
----
-
-### 189. [I Built Persistent Memory Knowledge Vaults For](https://www.reddit.com/r/mcp/comments/1szizyf/i_built_persistent_memory_knowledge_vaults_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built Persistent Memory Knowledge Vaults For**
-
----
-
-### 190. [I Built A Localfirst Shared Memory Layer For My](https://www.reddit.com/r/mcp/comments/1szmaio/i_built_a_localfirst_shared_memory_layer_for_my/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Localfirst Shared Memory Layer For My**
-
----
-
-### 191. [I Built A Simple Memory System Free And Open](https://www.reddit.com/r/mcp/comments/1t6926o/i_built_a_simple_memory_system_free_and_open/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Simple Memory System Free And Open**
-
----
-
-### 192. [Show Rmcp Cathedral Mcp Persistent Memory Drift](https://www.reddit.com/r/mcp/comments/1t6c3is/show_rmcp_cathedral_mcp_persistent_memory_drift/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Show Rmcp Cathedral Mcp Persistent Memory Drift**
-
----
-
-### 193. [Claudefind Pull Deep Memory From Across Your](https://www.reddit.com/r/mcp/comments/1t4f268/claudefind_pull_deep_memory_from_across_your/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claudefind Pull Deep Memory From Across Your**
-
----
-
-### 194. [Opensource Mcp Memory Server For Claude Semantic](https://www.reddit.com/r/OpenSourceAI/comments/1t96y8a/opensource_mcp_memory_server_for_claude_semantic/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opensource Mcp Memory Server For Claude Semantic**
-
----
-
-### 195. [Mnemos Persistent Memory Mcp Server For Coding](https://www.reddit.com/r/mcp/comments/1t6qm0a/mnemos_persistent_memory_mcp_server_for_coding/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Mnemos Persistent Memory Mcp Server For Coding**
+### 165. [kaio326/luamemo](https://github.com/kaio326/luamemo)
+`7.0` ★ ⚡62 Q0.7✓ ✓ Solid
 
----
-
-### 196. [35 Skills 3 Mcp Servers Persistent Memory I Built](https://www.reddit.com/r/opencode/comments/1tcazbs/35_skills_3_mcp_servers_persistent_memory_i_built/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**35 Skills 3 Mcp Servers Persistent Memory I Built**
-
----
-
-### 197. [Benchmarking Ai Persistent Memory Server Against](https://www.reddit.com/r/AIMemory/comments/1tboymg/benchmarking_ai_persistent_memory_server_against/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Benchmarking Ai Persistent Memory Server Against**
-
----
-
-### 198. [I Built A Persistent Semantic Memory Library For](https://www.reddit.com/r/lua/comments/1t8w0vb/i_built_a_persistent_semantic_memory_library_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Persistent Semantic Memory Library For**
-
----
-
-### 199. [A Persistent Agentic Knowledge Graph For Your](https://www.reddit.com/r/KnowledgeGraph/comments/1tbbeb2/a_persistent_agentic_knowledge_graph_for_your/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**A Persistent Agentic Knowledge Graph For Your**
-
----
-
-### 200. [I Was Trying To Build Persistent Memory But Ended](https://www.reddit.com/r/LLMDevs/comments/1tc7rv3/i_was_trying_to_build_persistent_memory_but_ended/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Was Trying To Build Persistent Memory But Ended**
-
----
-
-### 201. [Graphmind Persistent Memory And Code Graph For](https://www.reddit.com/r/mcp/comments/1tcvuf8/graphmind_persistent_memory_and_code_graph_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Graphmind Persistent Memory And Code Graph For**
-
----
-
-### 202. [I Built Persistent Memory For Mcp Agents](https://www.reddit.com/r/MCPservers/comments/1tdecgf/i_built_persistent_memory_for_mcp_agents/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built Persistent Memory For Mcp Agents**
-
----
-
-### 203. [Good Persistent Memory For Hermes Agent Docker](https://www.reddit.com/r/hermesagent/comments/1te3pab/good_persistent_memory_for_hermes_agent_docker/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Good Persistent Memory For Hermes Agent Docker**
-
----
-
-### 204. [I Built A Persistent Memory Layer For Claude](https://www.reddit.com/r/MCPservers/comments/1s8itwn/i_built_a_persistent_memory_layer_for_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Persistent Memory Layer For Claude**
-
----
-
-### 205. [Creatine For Memory Attention Support In Older](https://www.reddit.com/r/Nootropics/comments/1s9e7uw/creatine_for_memory_attention_support_in_older/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Creatine For Memory Attention Support In Older**
-
----
-
-### 206. [Opensource Graph Memory Thats Not Mem0 Or Zep](https://www.reddit.com/r/LangChain/comments/1sacpdk/opensource_graph_memory_thats_not_mem0_or_zep/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opensource Graph Memory Thats Not Mem0 Or Zep**
-
----
-
-### 207. [I Built A Unified Memory Layer In Rust For All](https://www.reddit.com/r/OpenSourceAI/comments/1sas61i/i_built_a_unified_memory_layer_in_rust_for_all/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Unified Memory Layer In Rust For All**
-
----
-
-### 208. [Introducing Recursive Memory Harness Rlm For](https://www.reddit.com/r/AIMemory/comments/1rzcm4p/introducing_recursive_memory_harness_rlm_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Introducing Recursive Memory Harness Rlm For**
-
----
-
-### 209. [Is A Cognitiveinspired Twotier Memory System For](https://www.reddit.com/r/OpenSourceAI/comments/1sdn17g/is_a_cognitiveinspired_twotier_memory_system_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is A Cognitiveinspired Twotier Memory System For**
-
----
+**This tool provides a drop-in persistent memory store specifically designed for AI agents. It leverages PostgreSQL's capabilities (like pgvector) to provide reliable, long-term memory for agent interactions, ensuring context continuity across sessions. The core innovation lies in providing agents with a robust, queryable memory layer.**
 
-### 210. [Aniracetam What For Memorycognitive Improvement](https://www.reddit.com/r/Nootropics/comments/1sf2c4a/aniracetam_what_for_memorycognitive_improvement/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Aniracetam What For Memorycognitive Improvement**
-
----
-
-### 211. [I Built Mnemory Plugandplay Memory System For](https://www.reddit.com/r/OpenWebUI/comments/1shmkeg/i_built_mnemory_plugandplay_memory_system_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built Mnemory Plugandplay Memory System For**
-
----
-
-### 212. [Neural Networks As Hierarchical Associative Memory](https://www.reddit.com/r/newAIParadigms/comments/1sh5mse/neural_networks_as_hierarchical_associative_memory/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Neural Networks As Hierarchical Associative Memory**
-
----
-
-### 213. [Mind An Opensource Persistent Memory System For](https://www.reddit.com/r/GoodOpenSource/comments/1silf58/mind_an_opensource_persistent_memory_system_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Mind An Opensource Persistent Memory System For**
-
----
-
-### 214. [I Built A Free Open Source Memory Persistent](https://www.reddit.com/r/GoodOpenSource/comments/1sjvlly/i_built_a_free_open_source_memory_persistent/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Free Open Source Memory Persistent**
-
----
-
-### 215. [I Built A Persistent Memory Extender For Opencode](https://www.reddit.com/r/opencode/comments/1silegw/i_built_a_persistent_memory_extender_for_opencode/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Persistent Memory Extender For Opencode**
-
----
-
-### 216. [The New Active Memory Plugin In V2026412 Is The](https://www.reddit.com/r/better_claw/comments/1sl6adg/the_new_active_memory_plugin_in_v2026412_is_the/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**The New Active Memory Plugin In V2026412 Is The**
-
----
-
-### 217. [Im Lost On Why Cant Save Because Memory Store Is](https://www.reddit.com/r/zeroclawlabs/comments/1sji5bj/im_lost_on_why_cant_save_because_memory_store_is/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Im Lost On Why Cant Save Because Memory Store Is**
-
----
-
-### 218. [We Built A Longterm Memory Plugin For Codex](https://www.reddit.com/r/OpenaiCodex/comments/1sm72gk/we_built_a_longterm_memory_plugin_for_codex/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**We Built A Longterm Memory Plugin For Codex**
-
----
-
-### 219. [Claudemem Conflicting With Latest Claude Memory](https://www.reddit.com/r/ClaudeOctopus/comments/1sopvqx/claudemem_conflicting_with_latest_claude_memory/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claudemem Conflicting With Latest Claude Memory**
-
----
-
-### 220. [Is There A Way To Sync Memory Across Chatgpt](https://www.reddit.com/r/AIToolBench/comments/1ssly2l/is_there_a_way_to_sync_memory_across_chatgpt/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is There A Way To Sync Memory Across Chatgpt**
-
----
-
-### 221. [Ai Companion Memory Loss Isnt A Glitch Its A Tier](https://www.reddit.com/r/AIChatCompanions/comments/1swxxke/ai_companion_memory_loss_isnt_a_glitch_its_a_tier/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ai Companion Memory Loss Isnt A Glitch Its A Tier**
+**Features:**
+- Persistent memory store
 
----
-
-### 222. [Local Memory V150 Released Knowledge Engineering](https://www.reddit.com/r/ContextEngineering/comments/1sz1j8b/local_memory_v150_released_knowledge_engineering/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+*Tags: ai-agents, memory, postgresql, lua, context-management, persistence, vector-database*
 
-**Local Memory V150 Released Knowledge Engineering**
-
 ---
 
-### 223. [Why Ai Memory With Biological Decay 52 Recall](https://www.reddit.com/r/LLM/comments/1swq56l/why_ai_memory_with_biological_decay_52_recall/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 166. [MEMORY.MD](http://MEMORY.MD)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Why Ai Memory With Biological Decay 52 Recall**
+**MEMORY.MD**
 
 ---
 
-### 224. [I Built An Episodic 2Tier Memory For Longrunning](https://www.reddit.com/r/AIMemory/comments/1t673f5/i_built_an_episodic_2tier_memory_for_longrunning/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 167. [memory.py](http://memory.py)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**I Built An Episodic 2Tier Memory For Longrunning**
+**memory.py**
 
 ---
 
-### 225. [I Built A Longterm Memory Plugin For Opencode](https://www.reddit.com/r/opencodeCLI/comments/1t893n0/i_built_a_longterm_memory_plugin_for_opencode/)
+### 168. [Secondbrain One Memory Layer Every Ai Tool](https://www.reddit.com/r/mcp/comments/1tlgoik/secondbrain_one_memory_layer_every_ai_tool/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**I Built A Longterm Memory Plugin For Opencode**
+**Secondbrain One Memory Layer Every Ai Tool**
 
 ---
 
-### 226. [I Spent 6 Weeks Building An External Memory For](https://www.reddit.com/r/ArtificialSentience/comments/1tb38nt/i_spent_6_weeks_building_an_external_memory_for/)
+### 169. [Rate My Stack For Memory Thinking Speed Mood](https://www.reddit.com/r/Nootropics/comments/1to1yrm/rate_my_stack_for_memory_thinking_speed_mood/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**I Spent 6 Weeks Building An External Memory For**
+**Rate My Stack For Memory Thinking Speed Mood**
 
 ---
 
-### 227. [Tired Of Memory Leakage Between Projects I Built](https://www.reddit.com/r/OpenWebUI/comments/1tboh5q/tired_of_memory_leakage_between_projects_i_built/)
+### 170. [Ai Cortex Storage Persistent Cloud Memory For Ai](https://www.reddit.com/r/mcp/comments/1tpn1u6/ai_cortex_storage_persistent_cloud_memory_for_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Tired Of Memory Leakage Between Projects I Built**
+**Ai Cortex Storage Persistent Cloud Memory For Ai**
 
 ---
 
-### 228. [Not Sure If I Want Gemini To Have Memory](https://www.reddit.com/r/GeminiAI/comments/1tc5j7i/not_sure_if_i_want_gemini_to_have_memory/)
+### 171. [Memora Update Sourcebacked Memory Digest On Top](https://www.reddit.com/r/AIMemory/comments/1tq5izk/memora_update_sourcebacked_memory_digest_on_top/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Not Sure If I Want Gemini To Have Memory**
+**Memora Update Sourcebacked Memory Digest On Top**
 
 ---
 
-### 229. [Cowork Memory And Chat Memory Arent The Same Thing](https://www.reddit.com/r/Claudeopus/comments/1tc0bw2/cowork_memory_and_chat_memory_arent_the_same_thing/)
+### 172. [I Built Mnemo Permanent Memory For Claude Code](https://www.reddit.com/r/mcp/comments/1tr05th/i_built_mnemo_permanent_memory_for_claude_code/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Cowork Memory And Chat Memory Arent The Same Thing**
+**I Built Mnemo Permanent Memory For Claude Code**
 
 ---
 
-### 230. [I Have Figured Out A Way To Run Every Memory](https://www.reddit.com/r/LangChain/comments/1terxtc/i_have_figured_out_a_way_to_run_every_memory/)
+### 173. [Run This Mcp Repomemory Proof On Your Project And](https://www.reddit.com/r/mcp/comments/1tr8no2/run_this_mcp_repomemory_proof_on_your_project_and/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**I Have Figured Out A Way To Run Every Memory**
+**Run This Mcp Repomemory Proof On Your Project And**
 
 ---
 
-### 231. [Glia Localfirst Shared Memory Layer Sqlitevec](https://www.reddit.com/r/KnowledgeGraph/comments/1tggapm/glia_localfirst_shared_memory_layer_sqlitevec/)
+### 174. [Building Tabula One Memory Every Ai](https://www.reddit.com/r/mcp/comments/1tt35dg/building_tabula_one_memory_every_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Glia Localfirst Shared Memory Layer Sqlitevec**
+**Building Tabula One Memory Every Ai**
 
 ---
 
-### 232. [Inprocess And Inmemory Graph Database For Large](https://www.reddit.com/r/KnowledgeGraph/comments/1tgmz51/inprocess_and_inmemory_graph_database_for_large/)
+### 175. [Project Noosphere Auditable Ai Memory Beyond](https://www.reddit.com/r/AIMemory/comments/1ttnle6/project_noosphere_auditable_ai_memory_beyond/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
-**Inprocess And Inmemory Graph Database For Large**
+**Project Noosphere Auditable Ai Memory Beyond**
 
 ---
 
-### 233. [Built An Opensource Memory Layer For Ai Coding](https://www.reddit.com/r/OpenSourceAI/comments/1taj9t0/built_an_opensource_memory_layer_for_ai_coding/)
+### 176. [I Gave My Ai A Permanent Memory And A Costaware](https://www.reddit.com/r/WebAfterAI/comments/1tuymto/i_gave_my_ai_a_permanent_memory_and_a_costaware/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built An Opensource Memory Layer For Ai Coding**
-
----
-
-### 234. [Cognitive Memory For Ai](https://www.reddit.com/r/AIMemory/comments/1smffld/cognitive_memory_for_ai/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
-
-**Cognitive Memory For Ai**
-
----
-
-### 235. [Memory Cues Vs Hot Cues](https://www.reddit.com/r/Rekordbox/comments/1ta7z8u/memory_cues_vs_hot_cues/)
-`7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
-**Memory Cues Vs Hot Cues**
+**I Gave My Ai A Permanent Memory And A Costaware**
 
 ---
 
 ## Other Tools
-> 26 tools · avg signal ⚡59
+> 20 tools · avg signal ⚡67
 
 ### 1. [Notes on the Pentium's microcode circuitry](http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
@@ -3580,128 +3150,88 @@
 
 ---
 
-### 11. [AMD's Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip](https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip)
-`8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+### 11. [Set up extension - Browser MCP](https://docs.browsermcp.io/setup-extension)
+`8.7` ★ ⚡69 Q0.7✓ ✓ Solid
+↗3 layers
 
-**The Ryzen 9 9950X3D2 Dual Edition crams 208MB of cache into a single chip by combining L2 and L3 caches with additional 3D V-Cache on both CPU dies. This design aims to improve gaming and multitasking performance, though it slightly reduces peak clock speeds and increases power consumption.**
+**This resource provides instructions for setting up the Browser MCP extension, including steps for initial setup, connecting a browser tab to the MCP server, and starting automation. It details how to use the extension for browser actions.**
 
 **Features:**
-- 208MB cache integration
-- L2 and L3 caches
-- 3D V-Cache on both dies
-- Precision Boost Overdrive support
+- Browser MCP Setup
+- Connection/Interoperability between browser tabs and the MCP server
+- Automation initiation (Start automating).
 
-*Tags: processor-architecture, cache-integration, 3d-v-cache, runtime-optimization, gaming-performance, memory-management, cpu-design, overclocking...*
-
----
-
-### 12. [Atomic Selfhosted Aiaugmented Knowledge Base With](https://www.reddit.com/r/mcp/comments/1s9js10/atomic_selfhosted_aiaugmented_knowledge_base_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Atomic Selfhosted Aiaugmented Knowledge Base With**
+*Tags: ['agent-orchestration', 'workflow', 'context-engineering', 'memory-persistence', 'interface-ux', 'mcp', 'a2a', 'infrastructure'...*
 
 ---
 
-### 13. [Smarter Graph Retrievalreasoning Opensource Ai](https://www.reddit.com/r/KnowledgeGraph/comments/1s8r993/smarter_graph_retrievalreasoning_opensource_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 12. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/mempalace/knowledge_graph.py)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**Smarter Graph Retrievalreasoning Opensource Ai**
-
----
-
-### 14. [I Built The Tool Karpathy Said Someone Should](https://www.reddit.com/r/KnowledgeGraph/comments/1sdafey/i_built_the_tool_karpathy_said_someone_should/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built The Tool Karpathy Said Someone Should**
+**GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 15. [Andrej Karpathys Llm Knowledge Base System Diagram](https://www.reddit.com/r/AskVibecoders/comments/1sbiyd6/andrej_karpathys_llm_knowledge_base_system_diagram/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 13. [Reddit - Please wait for verification](https://www.reddit.com/r/AIMemory/comments/1u042b6/midas_100_local_agent_memory_no_llm_at_ingest_0/)
+`6.0` ★ ⚡56 Q16.8✓ ✓ Solid
 
-**Andrej Karpathys Llm Knowledge Base System Diagram**
+**No description available.**
 
----
-
-### 16. [Milla Jovovichs Mempalace Claims 100 On Locomo](https://www.reddit.com/r/AIMemory/comments/1setiud/milla_jovovichs_mempalace_claims_100_on_locomo/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Milla Jovovichs Mempalace Claims 100 On Locomo**
+*Tags: ai, agent, memory*
 
 ---
 
-### 17. [Hjarni A Knowledge Base Your Ai Can Actually Use](https://www.reddit.com/r/mcp/comments/1se6kx2/hjarni_a_knowledge_base_your_ai_can_actually_use/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 14. [recalls.gov](http://www.recalls.gov/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Hjarni A Knowledge Base Your Ai Can Actually Use**
-
----
-
-### 18. [Prism Mcp V9 Affecttagged Recall And](https://www.reddit.com/r/AIMemory/comments/1sf7o03/prism_mcp_v9_affecttagged_recall_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Prism Mcp V9 Affecttagged Recall And**
+**recalls.gov**
 
 ---
 
-### 19. [Kvcache Support Attention Rotation For](https://www.reddit.com/r/LocalLLaMA/comments/1sf61n2/kvcache_support_attention_rotation_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 15. [graph.md](http://graph.md)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Kvcache Support Attention Rotation For**
-
----
-
-### 20. [Smartermcp Tool Intelligence Cached Rlm Results](https://www.reddit.com/r/mcp/comments/1sf4zw0/smartermcp_tool_intelligence_cached_rlm_results/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Smartermcp Tool Intelligence Cached Rlm Results**
+**graph.md**
 
 ---
 
-### 21. [Endiagrammcp 13 Deterministic Graph Tools For](https://www.reddit.com/r/mcp/comments/1siz6q6/endiagrammcp_13_deterministic_graph_tools_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 16. [medium.com](https://medium.com/@mukundkidambi/beyond-graphql-what-actually-reduces-token-spend-in-mcp-servers-9aa3350e8d4d?postPublishedType)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Endiagrammcp 13 Deterministic Graph Tools For**
-
----
-
-### 22. [Hot Experts In Your Vram Dynamic Expert Cache In](https://www.reddit.com/r/LocalLLaMA/comments/1slue0z/hot_experts_in_your_vram_dynamic_expert_cache_in/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Hot Experts In Your Vram Dynamic Expert Cache In**
+**medium.com**
 
 ---
 
-### 23. [I Built An Mcp Server For A Knowledge Graph It](https://www.reddit.com/r/AIMemory/comments/1t93qyb/i_built_an_mcp_server_for_a_knowledge_graph_it/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 17. [medium.com](https://medium.com/@mukundkidambi/beyond-graphql-what-actually-reduces-token-spend-in-mcp-servers-9aa3350e8d4d?postPublishedType=repub)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**I Built An Mcp Server For A Knowledge Graph It**
-
----
-
-### 24. [Surrealdb Documentation Format For Notebooklm](https://www.reddit.com/r/surrealdb/comments/1s7pu9r/surrealdb_documentation_format_for_notebooklm/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Surrealdb Documentation Format For Notebooklm**
+**medium.com**
 
 ---
 
-### 25. [Why I Chose Sentence Graphs Over Knowledge Graphs](https://www.reddit.com/r/LangChain/comments/1sb99ih/why_i_chose_sentence_graphs_over_knowledge_graphs/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 18. [mempalace.tech](https://www.mempalace.tech/compare/mempalace-vs-mem0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Why I Chose Sentence Graphs Over Knowledge Graphs**
+**mempalace.tech**
 
 ---
 
-### 26. [I Built A Jvm Graph Database That Does Fuzzy](https://www.reddit.com/r/IMadeThis/comments/1sd3wb1/i_built_a_jvm_graph_database_that_does_fuzzy/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 19. [en.wikipedia.org](https://en.wikipedia.org/wiki/Curse_of_knowledge)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**I Built A Jvm Graph Database That Does Fuzzy**
+**en.wikipedia.org**
+
+---
+
+### 20. [tobypenner.com](https://tobypenner.com/wikigraph/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tobypenner.com**
 
 ---
 
 ## Spec-Driven Development
-> 6 tools · avg signal ⚡83
+> 7 tools · avg signal ⚡83
 
 ### 1. [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth)
 `10.0` ★★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -3744,7 +3274,23 @@
 
 ---
 
-### 3. [Nvidia Launches Vera CPU, Purpose-Built for Agentic AI | Hacker News](https://news.ycombinator.com/item?id=47404074)
+### 3. [bitatlas-group/bitatlas](https://github.com/bitatlas-group/bitatlas)
+`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
+
+**BitAtlas is a next-generation, privacy-focused cloud storage solution that ensures all files are encrypted client-side using AES-256-GCM. It is specifically designed with an Agent-Native architecture via the Model Context Protocol (MCP) server to facilitate secure AI interaction.**
+
+**Features:**
+- E2E Encryption (AES-256-GCM)
+- Agent-Native (MCP Server)
+- Personal Vault
+- Client-Side Encryption
+- Secure Data Access
+
+*Tags: zero-knowledge, cloud-storage, e2e-encryption, ai-agents, mcp, privacy, persistence*
+
+---
+
+### 4. [Nvidia Launches Vera CPU, Purpose-Built for Agentic AI | Hacker News](https://news.ycombinator.com/item?id=47404074)
 `8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 
 **The Vera CPU is a purpose-built system designed specifically for high-performance agentic AI workloads, featuring integrated GPUs and advanced features like spatial multithreading. It aims to optimize performance and bandwidth for AI clusters, with claims of up to 800Gb/s bandwidth and improved latency compared to previous generations. The architecture supports efficient data handling and is targeted at reducing bottlenecks in AI inference and streaming tasks.**
@@ -3760,7 +3306,7 @@
 
 ---
 
-### 4. [Get the Pinecone Vector Database | Pinecone](https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_campaign=vector-db-us&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16569728076&hsa_grp=135276647900&hsa_ad=587750423880&hsa_src=g&hsa_tgt=kwd-1976865318&hsa_kw=vector%20database&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16569728076&gbraid=0AAAAABrtGFCCiLeMIYP0UV1mJGjrBQJJQ&gclid=CjwKCAiA2svIBhB-EiwARWDPjqml7VbSAxBrIs1H9BOH2ulf87caRxxgUnZgiXwEIWCDIqEkgh0RERoCykUQAvD_BwE)
+### 5. [Get the Pinecone Vector Database | Pinecone](https://www.pinecone.io/lp/get-vector-database/?utm_term=vector%20database&utm_campaign=vector-db-us&utm_source=adwords&utm_medium=ppc&hsa_acc=3111363649&hsa_cam=16569728076&hsa_grp=135276647900&hsa_ad=587750423880&hsa_src=g&hsa_tgt=kwd-1976865318&hsa_kw=vector%20database&hsa_mt=p&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=16569728076&gbraid=0AAAAABrtGFCCiLeMIYP0UV1mJGjrBQJJQ&gclid=CjwKCAiA2svIBhB-EiwARWDPjqml7VbSAxBrIs1H9BOH2ulf87caRxxgUnZgiXwEIWCDIqEkgh0RERoCykUQAvD_BwE)
 `8.0` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 
 **Pinecone provides a specialized, fully managed vector database service aimed at simplifying the implementation of similarity search. It abstracts away infrastructure complexity, offering features like ultra-low query latency even at massive scale (billions of items), real-time data freshness via live index updates, and the ability to combine vector search with metadata filtering. The service is positioned as production-ready, requiring minimal operational overhead from developers, supporting pay...**
@@ -3779,7 +3325,7 @@
 
 ---
 
-### 5. [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
+### 6. [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
 `9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **An enterprise-grade document understanding and retrieval framework specializing in complex, multi-modal document processing and GraphRAG.**
@@ -3794,7 +3340,7 @@
 
 ---
 
-### 6. [phospho_embeddingalign_rag.pdf](https://research.phospho.ai/phospho_embeddingalign_rag.pdf)
+### 7. [phospho_embeddingalign_rag.pdf](https://research.phospho.ai/phospho_embeddingalign_rag.pdf)
 `10.0` ★★★ ⚡71 Q0.5⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3905,7 +3451,7 @@
 ---
 
 ## Governance & Safety
-> 4 tools · avg signal ⚡92
+> 4 tools · avg signal ⚡82
 
 ### 1. [datanoisetv/translator-ai](https://github.com/datanoisetv/translator-ai)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -3968,22 +3514,54 @@
 
 ---
 
-### 4. [Home | Plante Moran](https://www.plantemoran.com)
-`10.0` ★★★ ⚡88 Q0.8🏆 🏆 World-class
-↗3 layers
+### 4. [foodsafety.gov](http://www.foodsafety.gov/recalls/recent/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**This resource provides an in-depth examination of Plante Moran's offerings across multiple sectors including accounting, consulting, wealth management, real estate, healthcare, and more. It highlights their strategic approach to digital transformation, tax policy adaptation, risk management, and innovation in various industries. The content emphasizes their commitment to client-centric solutions, operational excellence, and future-ready strategies.**
+**foodsafety.gov**
+
+---
+
+## Skill Systems
+> 3 tools · avg signal ⚡82
+
+### 1. [timovv/copilot-conductor](https://github.com/timovv/copilot-conductor)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+↗7 layers
+
+**The 'copilot-conductor' is a command-line utility designed to help build and manage in-repository automation workflows that engage an AI agent like GitHub Copilot within Visual Studio Code. The core concept revolves around the 'inversion of control': instead of letting the agent run freely, the conductor program dictates *when* and *how* Copilot is used, ensuring reliability and managing the agent's limited context window by carefully orchestrating specific subtasks. This approach mitigates the ...**
 
 **Features:**
-- Audit & Assurance Services
-- Tax Policy & Compliance Insights
-- Wealth Management Solutions
-- Consulting & Advisory Services
-- Digital Transformation & Innovation
-- Risk Management Strategies
-- Real Estate & Investment Advisory
+- Inversion of Control (to precisely dictate when and how the AI agent interacts)
+- Conductor Tasks (workflows implemented as 'conductor tasks' compiled from Markdown files)
+- Prompt Compilation (defining tasks in natural language Markdown that are compiled into deterministic TypeScript scripts)
+- and a clear interface for integrating Copilot/LLM capabilities into IDE workflows.
 
-*Tags: agency-orchestration, context-engineering, memory-persistence-architecture, interface-development, connectivity, infrastructure-layers, guides-and-trends, interactive-development...*
+*Tags: ['agent-orchestration', 'context-engineering-&-isolation', 'memory-&-persistence-architecture', 'interface-&-developer-ux', 'connectivity-&-interoperability-(mcp/a2a)', 'infrastructure-&-proxy-layers', 'guides-&-industry-trends', 'vector-databases-&-search'...*
+
+---
+
+### 2. [jordanhindo/lore](https://github.com/jordanhindo/lore)
+`8.0` ★ ⚡79 Q23.7⭐ ⭐ Excellent
+
+**Agent Skill & CLI for infinite multi-harness session context. Any agent, any session, any turn.  - GitHub - jordanhindo/lore: Agent Skill & CLI for infinite multi-harness session context. Any agent, any session, any turn.**
+
+*Tags: open-source, agent, memory, github*
+
+---
+
+### 3. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**A streamlined CLI and visual playground for building private, offline RAG systems that integrate directly with Ollama and support hybrid vector storage.**
+
+**Features:**
+- One-command RAG setup (`rlama rag`)
+- visual chunking strategy playground
+- direct Ollama model integration
+- hybrid vector/keyword storage.
+
+*Tags: rag, local-llm, ollama, privacy, cli, blog, design, rlama*
 
 ---
 
@@ -4037,41 +3615,6 @@
 
 ---
 
-## Skill Systems
-> 2 tools · avg signal ⚡83
-
-### 1. [timovv/copilot-conductor](https://github.com/timovv/copilot-conductor)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗7 layers
-
-**The 'copilot-conductor' is a command-line utility designed to help build and manage in-repository automation workflows that engage an AI agent like GitHub Copilot within Visual Studio Code. The core concept revolves around the 'inversion of control': instead of letting the agent run freely, the conductor program dictates *when* and *how* Copilot is used, ensuring reliability and managing the agent's limited context window by carefully orchestrating specific subtasks. This approach mitigates the ...**
-
-**Features:**
-- Inversion of Control (to precisely dictate when and how the AI agent interacts)
-- Conductor Tasks (workflows implemented as 'conductor tasks' compiled from Markdown files)
-- Prompt Compilation (defining tasks in natural language Markdown that are compiled into deterministic TypeScript scripts)
-- and a clear interface for integrating Copilot/LLM capabilities into IDE workflows.
-
-*Tags: ['agent-orchestration', 'context-engineering-&-isolation', 'memory-&-persistence-architecture', 'interface-&-developer-ux', 'connectivity-&-interoperability-(mcp/a2a)', 'infrastructure-&-proxy-layers', 'guides-&-industry-trends', 'vector-databases-&-search'...*
-
----
-
-### 2. [Building Local RAG Systems with rlama](https://rlama.dev/blog/building-local-rag-with-rlama)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**A streamlined CLI and visual playground for building private, offline RAG systems that integrate directly with Ollama and support hybrid vector storage.**
-
-**Features:**
-- One-command RAG setup (`rlama rag`)
-- visual chunking strategy playground
-- direct Ollama model integration
-- hybrid vector/keyword storage.
-
-*Tags: rag, local-llm, ollama, privacy, cli, blog, design, rlama*
-
----
-
 ## Monitoring & Analytics
 > 2 tools · avg signal ⚡79
 
@@ -4104,30 +3647,5 @@
 - Discussion of the cyclical nature of contribution and self-worth
 
 *Tags: open-source, developer-journey, mental-health, community-building, burnout-recovery, identity-formation, tech-culture, contribution-ethics...*
-
----
-
-## Browser & Web Tools
-> 2 tools · avg signal ⚡56
-
-### 1. [Set up extension - Browser MCP](https://docs.browsermcp.io/setup-extension)
-`8.7` ★ ⚡69 Q0.7✓ ✓ Solid
-↗3 layers
-
-**This resource provides instructions for setting up the Browser MCP extension, including steps for initial setup, connecting a browser tab to the MCP server, and starting automation. It details how to use the extension for browser actions.**
-
-**Features:**
-- Browser MCP Setup
-- Connection/Interoperability between browser tabs and the MCP server
-- Automation initiation (Start automating).
-
-*Tags: ['agent-orchestration', 'workflow', 'context-engineering', 'memory-persistence', 'interface-ux', 'mcp', 'a2a', 'infrastructure'...*
-
----
-
-### 2. [Openconcho Desktop Webui For Selfhosted Honcho](https://www.reddit.com/r/AIMemory/comments/1t0wdae/openconcho_desktop_webui_for_selfhosted_honcho/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Openconcho Desktop Webui For Selfhosted Honcho**
 
 ---

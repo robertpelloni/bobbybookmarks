@@ -1,16 +1,18 @@
 # 🔧 Developer Workflow & Tools
-> Borg Intelligence Atlas v8 · 2026-05-19 · 663 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 788 tools
 > Git, CI/CD, project management, documentation
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **663** |
-| Standout 🏆⭐ | 232 |
-| Avg Signal | ⚡86 |
-| Innovation 10 | 52 ██░░░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 199 ██████████░░░░░░░░░░ |
-| Innovation 8 | 367 ████████████████████ |
-| Innovation 7 | 45 ██░░░░░░░░░░░░░░░░░░ |
+| Total tools | **788** |
+| Standout 🏆⭐ | 231 |
+| Avg Signal | ⚡83 |
+| Innovation 10 | 51 ██░░░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 345 ██████████████████░░ |
+| Innovation 8 | 375 ████████████████████ |
+| Innovation 7 | 13 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 2 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 5 | 2 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -41,26 +43,1325 @@
 
 ## Contents
 
-- [Bridges & Proxies](#bridges--proxies) — 124 tools · ⚡89
-- [Config & Profile Management](#config--profile-management) — 114 tools · ⚡89
+- [Other Tools](#other-tools) — 160 tools · ⚡64
+- [Bridges & Proxies](#bridges--proxies) — 125 tools · ⚡88
+- [Config & Profile Management](#config--profile-management) — 114 tools · ⚡88
 - [Monitoring & Analytics](#monitoring--analytics) — 71 tools · ⚡89
-- [Spec-Driven Development](#spec-driven-development) — 62 tools · ⚡88
-- [Skill Systems](#skill-systems) — 54 tools · ⚡89
-- [Orchestration](#orchestration) — 52 tools · ⚡87
-- [Other Tools](#other-tools) — 44 tools · ⚡63
-- [Governance & Safety](#governance--safety) — 32 tools · ⚡91
-- [Harness Frameworks](#harness-frameworks) — 26 tools · ⚡87
-- [Hooks & Lifecycle](#hooks--lifecycle) — 23 tools · ⚡90
-- [Verification & Testing](#verification--testing) — 20 tools · ⚡82
-- [Context Engineering](#context-engineering) — 16 tools · ⚡80
-- [Memory & Context Systems](#memory--context-systems) — 13 tools · ⚡84
-- [Browser & Web Tools](#browser--web-tools) — 6 tools · ⚡79
-- [Major Harness Integrations](#major-harness-integrations) — 6 tools · ⚡65
+- [Spec-Driven Development](#spec-driven-development) — 62 tools · ⚡87
+- [Skill Systems](#skill-systems) — 56 tools · ⚡88
+- [Orchestration](#orchestration) — 51 tools · ⚡89
+- [Governance & Safety](#governance--safety) — 35 tools · ⚡89
+- [Harness Frameworks](#harness-frameworks) — 27 tools · ⚡87
+- [Hooks & Lifecycle](#hooks--lifecycle) — 22 tools · ⚡89
+- [Verification & Testing](#verification--testing) — 18 tools · ⚡86
+- [Major Harness Integrations](#major-harness-integrations) — 15 tools · ⚡68
+- [Context Engineering](#context-engineering) — 14 tools · ⚡85
+- [Memory & Context Systems](#memory--context-systems) — 13 tools · ⚡86
+- [Browser & Web Tools](#browser--web-tools) — 5 tools · ⚡86
+
+---
+
+## Other Tools
+> 160 tools · avg signal ⚡64
+
+### 1. [elevenlabs/elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp)
+`9.8` ★★ ⚡92 Q0.9🏆 🏆 World-class
+
+**The ElevenLabs MCP server facilitates interaction with robust Text-to-Speech and audio APIs, empowering developers to integrate sophisticated voice capabilities into their applications. It supports a wide range of use cases including modernization, DevSecOps, CI/CD, and enterprise-level AI development.**
+
+**Features:**
+- MCP server integration
+- Text-to-speech generation
+- Audio processing APIs
+- Voice cloning
+- Speech synthesis customization
+
+*Tags: ai, voice, text-to-speech, audio, developer, mcp, api, integration*
+
+---
+
+### 2. [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The ntfy-mcp project provides a comprehensive environment for AI-driven software development, offering tools for code generation, workflow automation, secure coding practices, and integration with external systems. It supports enterprise-grade security features, DevOps workflows, and seamless deployment pipelines, making it suitable for modernizing applications across industries.**
+
+**Features:**
+- code generation
+- workflow automation
+- secure coding
+- integration capabilities
+- CI/CD support
+
+*Tags: ai-development, devops, security, code-generation, workflow-automation, enterprise, ai-tools, software-development...*
+
+---
+
+### 3. [stakpak/mcp](https://github.com/stakpak/mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The stakpak/mcp project provides a minimalistic MCP server that facilitates interaction with the Stakpak API, supporting secure code generation, infrastructure provisioning, and workflow automation. It is designed to streamline integration with external services such as Vercel and various IDEs, enhancing developer productivity and enabling modern DevOps practices.**
+
+**Features:**
+- MCP server integration
+- Stakpak API access
+- Infrastructure code generation
+- IDE integration
+- CI/CD support
+
+*Tags: mcp, api, developer, integration, devops, security, code, automation*
+
+---
+
+### 4. [a2amarket/mcp-clamav](https://github.com/a2amarket/mcp-clamav)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The a2amarket/mcp-clamav project provides a lightweight MCP (Messaging Control Protocol) server that leverages the ClamAV virus scanner to detect malicious files in real-time. It integrates seamlessly with tools like Cursor for enhanced security workflows, supports automated scanning processes, and is designed for easy deployment across various environments.**
+
+**Features:**
+- ClamAV integration
+- SSE protocol support
+- Automated file scanning
+- Integration with Cursor
+- Real-time virus detection
+
+*Tags: mcp, clamav, security, virus-scanning, automation, developer-tools, file-security, api-integration...*
+
+---
+
+### 5. [supercurses/powerpoint](https://github.com/supercurses/powerpoint)
+`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
+
+**The supercurses Powerpoint MCP server enables developers to build interactive presentations by integrating AI-generated images, tables, charts, and dynamic content. It supports workflow automation, secure deployment, and integration with external tools, making it suitable for enterprise-level application development and DevOps practices.**
+
+**Features:**
+- Create presentation with various tools including title slides
+- section headers
+- charts
+- tables
+- and captions
+- Generate images using the TogetherAI FLUX model
+- Save presentations as backup files
+- Integrate with external image sources or provide custom image paths
+- Automate deployment and workflow integration
+
+*Tags: mcp-server, powerpoint, ai-generated-content, data-visualization, presentation-automation, cloud-deployment, developer-tools, enterprise-software...*
+
+---
+
+### 6. [talismanic/cleanuri-url-shortener-mcp](https://github.com/talismanic/cleanuri-url-shortener-mcp)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Talismanic/cleanuri-url-shortener-mcp project provides a Python-based FastMCP server application that leverages the CleanURI API to generate shortened URLs. It supports seamless integration into automated workflows, enabling developers to embed URL shortening functionality within their applications or CI/CD pipelines. The tool is optimized for performance and reliability, with robust error handling and validation mechanisms to ensure consistent results.**
+
+**Features:**
+- URL shortening via CleanURI API
+- FastMCP integration
+- Error handling and response validation
+- Docker-based deployment support
+
+*Tags: url-shortener, fastmcp, python, api, integration, automation, developer-tools, security...*
+
+---
+
+### 7. [v0idpwn/hexdocs-mcp](https://github.com/v0idpwn/hexdocs-mcp)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+
+**The v0idpwn/hexdocs-mcp project is an unofficial, experimental MCP (Machine-to-Machine) server designed to enhance the search capabilities within HexDocs. It allows AI agents like Claude to search and retrieve information from the HexDocs documentation seamlessly. The repository includes setup instructions for integrating the server into various development environments, emphasizing its role in improving developer productivity and efficiency.**
+
+**Features:**
+- AI integration
+- HexDocs search functionality
+- Customizable workflows
+- Real-time updates
+
+*Tags: hexdocs, mcp, ai, developer, search, integration, documentation, aiagent...*
+
+---
+
+### 8. [AuraCoreCF/AuraCoreCF.github.io](https://github.com/AuraCoreCF/AuraCoreCF.github.io/tree/main/AuraRuntime)
+`8.8` ★ ⚡87 Q0.8🏆 🏆 World-class
+↗3 layers
+
+**AuraCoreCF is a platform designed to streamline the development and deployment of AI-driven applications by integrating advanced code generation, secure coding practices, and automated workflows. It supports enterprise-level security features, developer productivity tools, and seamless integration with external systems, making it ideal for modernizing software development processes.**
+
+**Features:**
+- AI-powered code generation
+- secure coding practices
+- automated workflows
+- integration with external tools
+- developer productivity enhancements
+
+*Tags: ai, code-generation, security, workflow, development, enterprise*
+
+---
+
+### 9. [kwp-lab/rss-reader-mcp](https://github.com/kwp-lab/rss-reader-mcp)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The MCP server facilitates the collection of RSS feeds and enables the extraction of full article content from URLs. It supports integration with various clients like Claude Desktop and CherryStudio, providing a seamless experience for users to access news articles in Markdown format.**
+
+**Features:**
+- RSS feed aggregation
+- Article content extraction
+- Markdown formatting of article content
+- Support for multiple RSS sources
+- Integration with MCP clients
+
+*Tags: mcp, rss-reader-mcp, api, web-scraping, content-extraction, developer-tools, security, cloud-deployment...*
+
+---
+
+### 10. [conao3/python-mcp-uuid](https://github.com/conao3/python-mcp-uuid)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+
+**The conao3/python-mcp-uuid project provides a lightweight server that generates deterministic UUIDs (version 4) suitable for integration with MCP-compatible clients such as Claude Desktop. It supports Python 3.13+ and is designed to be easily installed via PDM, making it ideal for developers working on secure, automated workflows in DevOps and AI-driven environments.**
+
+**Features:**
+- UUID generation
+- Version control integration
+- PDM compatibility
+- Virtual environment support
+
+*Tags: python, mcp, uuid, developer, security, codebase, automation, ai...*
+
+---
+
+### 11. [slidespeak/slidespeak-mcp](https://github.com/slidespeak/slidespeak-mcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+
+**The SlideSpeak MCP project provides a Dockerized server that allows developers to automate the generation of PowerPoint presentations directly from code. By integrating with Slidespeak's API, it streamlines the process of creating and managing presentations, enhancing productivity for teams working on documentation, reports, or training materials.**
+
+**Features:**
+- Automated presentation creation via MCP
+- Integration with Slidespeak API
+- Docker-based deployment for easy setup
+- Support for enterprise-level workflows
+
+*Tags: mcp, api-integration, automation, presentation-generation, slidespeak, docker*
+
+---
+
+### 12. [nodetec/nostr-code-snippet-mcp](https://github.com/nodetec/nostr-code-snippet-mcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This GitHub repository provides a code snippet for implementing an MCP (Machine-to-Machine) server using Node.js. The project focuses on integrating external tools and automating workflows, with emphasis on security and deployment strategies. It includes features such as code generation, CI/CD integration, and enterprise-grade security measures.**
+
+**Features:**
+- code generation
+- workflow automation
+- security integration
+- CI/CD support
+
+*Tags: node, github, code-snippet, mcp, developer, security, integration, deployment...*
+
+---
+
+### 13. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)
+`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The project implements a MCP-based server that allows users to retrieve detailed information about Brazilian addresses via CEP. It integrates with AI and provides functionalities such as code compilation, deployment, and secure development practices.**
+
+**Features:**
+- API integration
+- code compilation
+- secure development
+- AI support
+- CI/CD pipeline
+
+*Tags: mcp, cep, postal-code, ai-integration, developer-tools, security, deployment, smart-devops*
+
+---
+
+### 14. [antoncoding/mcp-brianknows](https://github.com/antoncoding/mcp-brianknows)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+
+**The project offers a custom MCP server that enables secure connections between Claude Desktop and external tools like BrianKnows' blockchain knowledge base. It provides three main functionalities: a Ping Tool to check server responsiveness, a Search Tool to query blockchain and DeFi information, and an Agent Tool for direct interaction with the BrianKnows agent. The server supports multiple knowledge bases such as CircleKB, LidoKB, PolygonKB, etc., and caches recent searches for quick access. It...**
+
+**Features:**
+- Ping Tool
+- Search Tool
+- Agent Tool
+
+*Tags: mcp-brianknows, brianknows, defi-knowledge, ai-assistant, blockchain, developer-tools*
+
+---
+
+### 15. [emicklei/protofmt-mcp](https://github.com/emicklei/protofmt-mcp)
+`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+
+**The MCP server enables developers to convert ProtocolBuffer (.proto) files into MCP-compatible formats, supporting multiple versions (2, 3, and editions). This facilitates seamless integration with MCP-based systems and enhances interoperability across different platforms. The tool is designed for ease of use, offering a streamlined workflow for developers working on complex data serialization tasks.**
+
+**Features:**
+- Format .proto files
+- Support multiple protocol versions
+- Integrate with MCP ecosystem
+
+*Tags: protocolbuffer, protobuf, mcp, go, developer*
+
+---
+
+### 16. [zzzccs123/mcp-baike-render](https://github.com/zzzccs123/mcp-baike-render)
+`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The project provides a GitHub-based solution to fetch Baidu Baike discussion data via the request_baike tool and render it using the render_baike template. It supports structured analysis of Baidu Baike topics, highlighting trends, popular discussions, and societal relevance.**
+
+**Features:**
+- Request Baike API integration
+- Render Baike discussion content
+- Analyze and visualize Baidu Baike topics
+- Support for custom prompts and templates
+
+*Tags: baike, api, web-scraping, data-analysis, developer-tools*
+
+---
+
+### 17. [Axorax/awesome-free-apps](https://github.com/Axorax/awesome-free-apps)
+`9.0` ★★ ⚡81 Q0.8⭐ ⭐ Excellent
+
+**This resource provides a curated list of popular free mobile applications across various platforms, including iOS, Android, and macOS. It serves as a helpful guide for developers and users looking to explore new tools and enhance their mobile experience.**
+
+**Features:**
+- Mobile app recommendations
+- Cross-platform compatibility
+- User-friendly navigation
+- Community-driven curation
+
+*Tags: mobile, android, ios, macos, app-recommendations, software, tech-resources, developer-tools...*
+
+---
+
+### 18. [dannymac180/mcp-think-tool](https://github.com/dannymac180/mcp-think-tool)
+`8.7` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP Think Tool is a dedicated environment within an MCP server designed to improve complex reasoning tasks for AI models like Claude. It provides structured thinking spaces, maintains thought history, and supports detailed statistics and analysis to aid in decision-making and problem-solving.**
+
+**Features:**
+- Structured Thinking Space
+- Thought History
+- Statistics and Analysis
+
+*Tags: mcp-think-tool, ai-development, code-automation, developer-tools, security-features*
+
+---
+
+### 19. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+`9.0` ★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**一個基於AI的股票智能分析系統，提供決策分析與自動推送功能。**
+
+**Features:**
+- AI驅動的決策報告
+- 多市場數據整合（A股、港股、美股等）
+- 自動推送決策指引至多社交平台
+- 支持多種分析策略與模型
+- 完整的資料源與數據來源配置
+
+*Tags: ai-agents, quantitative-finance, quantitative-trading, ai-agent, llm, stock-analysis, automation, data-integration...*
+
+---
+
+### 20. [pjlsergeant/captive-wifi-tool](https://github.com/pjlsergeant/captive-wifi-tool/tree/main)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pjlsergeant/captive-wifi-tool**
+
+---
+
+### 21. [robertpelloni/fwber](https://github.com/robertpelloni/fwber/blob/main/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: robertpelloni/fwber**
+
+---
+
+### 22. [ADVASYS/ragraph](https://github.com/ADVASYS/ragraph/blob/2be43202be299856b13a967685164b11dbc28dcf/docs/rag-pipeline.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ADVASYS/ragraph**
+
+---
+
+### 23. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/blob/main/Previews/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Godiesc/firefox-one**
+
+---
+
+### 24. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/tree/main/Previews)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Godiesc/firefox-one**
+
+---
+
+### 25. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/issues/1786)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: MoonshotAI/kimi-cli**
+
+---
+
+### 26. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/pull/1928)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: MoonshotAI/kimi-cli**
+
+---
+
+### 27. [Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations](https://github.com/Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations/tree/main)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations**
+
+---
+
+### 28. [aeroxy/ast-outline](https://github.com/aeroxy/ast-outline/releases/tag/2.1.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aeroxy/ast-outline**
+
+---
+
+### 29. [bawbel/scanner](https://github.com/bawbel/scanner/blob/main/docs/guides/mcp-server-scanning.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bawbel/scanner**
+
+---
+
+### 30. [desek/outlook-local-mcp](https://github.com/desek/outlook-local-mcp/blob/main/docs/research/cr-0060-token-economics/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: desek/outlook-local-mcp**
+
+---
+
+### 31. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21309)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 32. [huggingface/transformers](https://github.com/huggingface/transformers/pull/45192)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: huggingface/transformers**
+
+---
+
+### 33. [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp/blob/main/QUICKSTART.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jgravelle/jcodemunch-mcp**
+
+---
+
+### 34. [jundot/omlx](https://github.com/jundot/omlx/issues/582)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jundot/omlx**
+
+---
+
+### 35. [jundot/omlx](https://github.com/jundot/omlx/releases/tag/v0.3.4)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jundot/omlx**
+
+---
+
+### 36. [mcparmory/registry](https://github.com/mcparmory/registry/tree/master)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mcparmory/registry**
+
+---
+
+### 37. [obra/superpowers](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: obra/superpowers**
+
+---
+
+### 38. [obra/superpowers](https://github.com/obra/superpowers/pull/1473)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: obra/superpowers**
+
+---
+
+### 39. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/Mistik_Architecture_Report.pdf)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: obscuraknight/echo-mistik**
+
+---
+
+### 40. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/docs/Companion_AI_Architecture_Essay.pdf)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: obscuraknight/echo-mistik**
+
+---
+
+### 41. [oracle-devrel/oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub/tree/main/workshops/agent_memory_workshop)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: oracle-devrel/oracle-ai-developer-hub**
+
+---
+
+### 42. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/100)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: orneryd/NornicDB**
+
+---
+
+### 43. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/70)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: orneryd/NornicDB**
+
+---
+
+### 44. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: safishamsi/graphify**
+
+---
+
+### 45. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked/example/raw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: safishamsi/graphify**
+
+---
+
+### 46. [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox/blob/master/klaude-plugin/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: serpro69/claude-toolbox**
+
+---
+
+### 47. [siddsachar/Thoth](https://github.com/siddsachar/Thoth/blob/main/docs/ARCHITECTURE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: siddsachar/Thoth**
+
+---
+
+### 48. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/compare/v1.25.3...v1.26.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: spupuz/VibeNVR**
+
+---
+
+### 49. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.25.3)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: spupuz/VibeNVR**
+
+---
+
+### 50. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.26.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: spupuz/VibeNVR**
+
+---
+
+### 51. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/wiki/Home)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: spupuz/VibeNVR**
+
+---
+
+### 52. [suchnsuch/Tangent](https://github.com/suchnsuch/Tangent/issues/135)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: suchnsuch/Tangent**
+
+---
+
+### 53. [the-cm-collective/k1s-workerbee](https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&quot;&gt;https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&lt;/a&gt;&lt;/p&gt)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: the-cm-collective/k1s-workerbee**
+
+---
+
+### 54. [ukanhaupa/projx](https://github.com/ukanhaupa/projx/blob/main/SKILL.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ukanhaupa/projx**
+
+---
+
+### 55. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/BENCHMARKING.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 56. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GATEWAY.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 57. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_local_gemma4_e4b.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 58. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_remote_claude_sonnet_4.6.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 59. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/docs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 60. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 61. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/linux_admin)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 62. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/tool_bloat_100k)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 63. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/3418)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/Warp**
+
+---
+
+### 64. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/9092)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/Warp**
+
+---
+
+### 65. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/new/choose)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/Warp**
+
+---
+
+### 66. [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw/issues/5813)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zeroclaw-labs/zeroclaw**
+
+---
+
+### 67. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/blob/main/benchmarks/benchmark.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zonlabs/mcp-ts**
+
+---
+
+### 68. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/tree/main/skills)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zonlabs/mcp-ts**
+
+---
+
+### 69. [Codavo/ghostinthewsl](https://github.com/Codavo/ghostinthewsl/releases/tag/v0.1.1)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Codavo/ghostinthewsl**
+
+---
+
+### 70. [aaif/project-proposals](https://github.com/aaif/project-proposals/issues/29)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aaif/project-proposals**
+
+---
+
+### 71. [commitshow/cli](https://github.com/commitshow/cli/tree/main/mcp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: commitshow/cli**
+
+---
+
+### 72. [kdave/btrfs-progs](https://github.com/kdave/btrfs-progs/issues/1107)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kdave/btrfs-progs**
+
+---
+
+### 73. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/BENCHMARKS.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 74. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/longmemeval_bench.py)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 75. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/27)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 76. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/29)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 77. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/37)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 78. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus/blob/main/CHANGELOG.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nyldn/claude-octopus**
+
+---
+
+### 79. [scoutqa-dot-ai/thor](https://github.com/scoutqa-dot-ai/thor/blob/main/packages/opencode-cli/src/proxy-cli.ts)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: scoutqa-dot-ai/thor**
+
+---
+
+### 80. [smriti-memcore/amp](https://github.com/smriti-memcore/amp/blob/main/spec/amp-v1.1.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: smriti-memcore/amp**
+
+---
+
+### 81. [steipete/gogcli](https://github.com/steipete/gogcli/releases/tag/v0.13.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: steipete/gogcli**
+
+---
+
+### 82. [steipete/mcporter](https://github.com/steipete/mcporter/releases/tag/v0.9.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: steipete/mcporter**
+
+---
+
+### 83. [steipete/wacli](https://github.com/steipete/wacli/releases/tag/v0.6.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: steipete/wacli**
+
+---
+
+### 84. [wezterm/wezterm](https://github.com/wezterm/wezterm/issues/986)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: wezterm/wezterm**
+
+---
+
+### 85. [anthropics/claude-desktop-buddy](https://github.com/anthropics/claude-desktop-buddy/pull/3)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-desktop-buddy**
+
+---
+
+### 86. [cyanheads/mcp-ts-core](https://github.com/cyanheads/mcp-ts-core/blob/main/skills/field-test/SKILL.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cyanheads/mcp-ts-core**
+
+---
+
+### 87. [dhaupin/vant](https://github.com/dhaupin/vant/tree/main/lib/geometry)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dhaupin/vant**
+
+---
+
+### 88. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fpytloun/mnemory**
+
+---
+
+### 89. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations/openwebui)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fpytloun/mnemory**
+
+---
+
+### 90. [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp/pull/1022)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ikawrakow/ik_llama.cpp**
+
+---
+
+### 91. [sgl-project/sglang](https://github.com/sgl-project/sglang/pull/23600)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sgl-project/sglang**
+
+---
+
+### 92. [teorth/erdosproblems](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: teorth/erdosproblems**
+
+---
+
+### 93. [agentscope-ai/ReMe](https:](https://github.com/agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: agentscope-ai/ReMe](https:**
+
+---
+
+### 94. [sapan99iz/Muse-spark-system-prompt-](https://github.com/sapan99iz/Muse-spark-system-prompt-/blob/main/Leaked)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sapan99iz/Muse-spark-system-prompt-**
+
+---
+
+### 95. [MrGray17/opentoken](https:](https://github.com/MrGray17/opentoken](https://github.com/MrGray17/opentoken)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: MrGray17/opentoken](https:**
+
+---
+
+### 96. [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp/tree/main/experiments/token-savings)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: blackwell-systems/agent-lsp**
+
+---
+
+### 97. [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books/blob/main/USAGE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ciembor/agent-rules-books**
+
+---
+
+### 98. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/d00747eb871067737fc0b5b11bf0f3547c551a56/cli/memo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kaio326/luamemo**
+
+---
+
+### 99. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/examples/decay_importance.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kaio326/luamemo**
+
+---
+
+### 100. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/luamemo/lsh.lua)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kaio326/luamemo**
+
+---
+
+### 101. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/163)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: manojmallick/sigmap**
+
+---
+
+### 102. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/164)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: manojmallick/sigmap**
+
+---
+
+### 103. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/tree/v6.10.1)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: manojmallick/sigmap**
+
+---
+
+### 104. [rui-ye/OpenSeeker](](https://github.com/rui-ye/OpenSeeker]()
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rui-ye/OpenSeeker](**
+
+---
+
+### 105. [sverklo/sverklo](https://github.com/sverklo/sverklo/issues/29)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sverklo/sverklo**
+
+---
+
+### 106. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/ARCHITECTURE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 107. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GETTING_STARTED.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: v3rm1ll1on/elemm**
+
+---
+
+### 108. [AIOSAI/AIPass](https://github.com/AIOSAI/AIPass/blob/main/.claude%2FCLAUDE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: AIOSAI/AIPass**
+
+---
+
+### 109. [FalkorDB/GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK/blob/main/docs/benchmark.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: FalkorDB/GraphRAG-SDK**
+
+---
+
+### 110. [Tichau/FileConverter](https:](https://github.com/Tichau/FileConverter](https://github.com/Tichau/FileConverter)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Tichau/FileConverter](https:**
+
+---
+
+### 111. [getzep/zep-papers](https://github.com/getzep/zep-papers/issues/5)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: getzep/zep-papers**
+
+---
+
+### 112. [i-schuyler/repo-automation-template](https://github.com/i-schuyler/repo-automation-template/tree/main)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: i-schuyler/repo-automation-template**
+
+---
+
+### 113. [itayinbarr/little-coder](https://github.com/itayinbarr/little-coder/blob/main/docs/benchmark-qwen3.6-35b-a3b.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: itayinbarr/little-coder**
+
+---
+
+### 114. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/mempalace/dialect.py)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milla-jovovich/mempalace**
+
+---
+
+### 115. [ollama/ollama](https://github.com/ollama/ollama/pull/15505)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ollama/ollama**
+
+---
+
+### 116. [scub-france/Docling-Studio](https://github.com/scub-france/Docling-Studio/pull/191)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: scub-france/Docling-Studio**
+
+---
+
+### 117. [vllm-project/vllm](https://github.com/vllm-project/vllm/issues/38171)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: vllm-project/vllm**
+
+---
+
+### 118. [ClaudetteMedSer/HyMem](https://github.com/ClaudetteMedSer/HyMem/tree/improv)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ClaudetteMedSer/HyMem**
+
+---
+
+### 119. [chainofdive/ravenclaw](https:](https://github.com/chainofdive/ravenclaw](https://github.com/chainofdive/ravenclaw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: chainofdive/ravenclaw](https:**
+
+---
+
+### 120. [mem0ai/mem0](https:](https://github.com/mem0ai/mem0](https://github.com/mem0ai/mem0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mem0ai/mem0](https:**
+
+---
+
+### 121. [RedHatInsights/javascript-clients](https://github.com/RedHatInsights/javascript-clients/issues/492)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RedHatInsights/javascript-clients**
+
+---
+
+### 122. [stanford-cs336/assignment1-basics](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: stanford-cs336/assignment1-basics**
+
+---
+
+### 123. [jqwik-team/jqwik](https://github.com/jqwik-team/jqwik/issues/708)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jqwik-team/jqwik**
+
+---
+
+### 124. [michaelcummings12/meta-ai-support-prompt](https://github.com/michaelcummings12/meta-ai-support-prompt/blob/main/system-prompt.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: michaelcummings12/meta-ai-support-prompt**
+
+---
+
+### 125. [Zyora-Dev/zse](https://github.com/Zyora-Dev/zse/releases/tag/v2.0.0)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Zyora-Dev/zse**
+
+---
+
+### 126. [firish/rag-rack](https://github.com/firish/rag-rack/blob/main/blog/03_verified_rag.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: firish/rag-rack**
+
+---
+
+### 127. [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: langchain-ai/langgraph**
+
+---
+
+### 128. [nomic-ai/embed](https://github.com/nomic-ai/embed)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nomic-ai/embed**
+
+---
+
+### 129. [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jerryjliu/llama_index**
+
+---
+
+### 130. [assemblyai/assemblyai](https://github.com/assemblyai/assemblyai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: assemblyai/assemblyai**
+
+---
+
+### 131. [TogetherAI/Together.py](https://github.com/TogetherAI/Together.py)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: TogetherAI/Together.py**
+
+---
+
+### 132. [cohere/cohere](https://github.com/cohere/cohere)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cohere/cohere**
+
+---
+
+### 133. [vllm-project/vllm](https://github.com/vllm-project/vllm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: vllm-project/vllm**
+
+---
+
+### 134. [huggingface/transformers](https://github.com/huggingface/transformers)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: huggingface/transformers**
+
+---
+
+### 135. [langchain-ai/griptape](https://github.com/langchain-ai/griptape)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: langchain-ai/griptape**
+
+---
+
+### 136. [weaviate/weaviate](https://github.com/weaviate/weaviate)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: weaviate/weaviate**
+
+---
+
+### 137. [Locus Founder — the agentic business OS](https://app.locusfounder.com/start/idea)
+`6.0` ★ ⚡61 Q18.3✓ ✓ Solid
+
+**Locus Founder is the agentic business OS. Spin up a business, ship a site, run outbound, and grow — all driven by your agent.**
+
+*Tags: developer workflow, agent*
+
+---
+
+### 138. [The future of email | Fastmail](https://www.fastmail.com/blog/the-future-of-email/)
+`6.0` ★ ⚡61 Q18.3✓ ✓ Solid
+
+**As AI starts reading and actioning our inboxes, email authentication becomes the trust layer that the future of email depends on.**
+
+*Tags: ai, developer workflow*
+
+---
+
+### 139. [https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718](https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718**
+
+---
+
+### 140. [https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c](https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c**
+
+---
+
+### 141. [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f**
+
+---
+
+### 142. [https://github.com/supertone-](https://github.com/supertone-)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://github.com/supertone-**
+
+---
+
+### 143. [https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928](https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928**
+
+---
+
+### 144. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**colab.research.google.com**
+
+---
+
+### 145. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)_Reinforcement_Learning_Sudoku_Game.ipynb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**colab.research.google.com**
+
+---
+
+### 146. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.git/plugin)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gitlab.com**
+
+---
+
+### 147. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.gitThen)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gitlab.com**
+
+---
+
+### 148. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fxgears.com**
+
+---
+
+### 149. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-tick-and-bar-price-data-for-backtesting-in-2020-and-beyond-stocks-forex-and-crypto-currency.1229/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fxgears.com**
+
+---
+
+### 150. [git.teknik.io](https://git.teknik.io/SMLoadrDev/SMLoadr)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**git.teknik.io**
+
+---
+
+### 151. [raw.githubusercontent.com](https://raw.githubusercontent.com/asabya/picobrain/main/install)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**raw.githubusercontent.com**
+
+---
+
+### 152. [medium.com](https://medium.com/@lukasniessen/how-my-library-hit-400-github-stars-and-50k-monthly-downloads-6ed47b293262)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**medium.com**
+
+---
+
+### 153. [everydev.ai](https://www.everydev.ai/p/news-github-copilots-billing-overhaul-what-every-credit-actually-costs-you)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**everydev.ai**
+
+---
+
+### 154. [williamdue.github.io](https://williamdue.github.io/blog/parallel-parentheses-matching)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**williamdue.github.io**
+
+---
+
+### 155. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Github Projects Community Cocoindex Turns Your**
+
+---
+
+### 156. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Github Blaziumgamesyadms Yet Another Desktop**
+
+---
+
+### 157. [My Github Star Just Crossed 6666](https://www.reddit.com/r/vibeprinting/comments/1tmdjzo/my_github_star_just_crossed_6666/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**My Github Star Just Crossed 6666**
+
+---
+
+### 158. [Hugo Just Hit 88000 Github Stars](https://www.reddit.com/r/gohugo/comments/1tm18so/hugo_just_hit_88000_github_stars/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Hugo Just Hit 88000 Github Stars**
+
+---
+
+### 159. [Turn Any Github Repository Into An Interactive](https://www.reddit.com/r/mcp/comments/1tpehrx/turn_any_github_repository_into_an_interactive/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Turn Any Github Repository Into An Interactive**
+
+---
+
+### 160. [Four Llms Played A Bluffing Game Against Each](https://www.reddit.com/r/coolgithubprojects/comments/1tpg7a2/four_llms_played_a_bluffing_game_against_each/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Four Llms Played A Bluffing Game Against Each**
 
 ---
 
 ## Bridges & Proxies
-> 124 tools · avg signal ⚡89
+> 125 tools · avg signal ⚡88
 
 ### 1. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -1036,24 +2337,7 @@
 
 ---
 
-### 54. [marcelmarais/obsidian-mcp-server](https://github.com/marcelmarais/obsidian-mcp-server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The 'obsidian-mcp-server' project provides a standalone, GitHub-hosted MCP server that allows AI tools like Cursor and Claude to read from and write to Obsidian vaults. It supports file operations such as listing files, retrieving open tasks, updating content, and integrating with external tools. The server is designed for simplicity and direct filesystem access without requiring the Obsidian application to be active.**
-
-**Features:**
-- MCP Server Integration
-- File Operations
-- Code Review & Management
-- Workflow Automation
-- External Tool Integration
-
-*Tags: obidash, git, ai, developer, security, code, workflow, macro...*
-
----
-
-### 55. [tanigami/mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity)
+### 54. [tanigami/mcp-server-perplexity](https://github.com/tanigami/mcp-server-perplexity)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1070,7 +2354,7 @@
 
 ---
 
-### 56. [overseer66/comfyui-mcp-server](https://github.com/overseer66/comfyui-mcp-server)
+### 55. [overseer66/comfyui-mcp-server](https://github.com/overseer66/comfyui-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1087,7 +2371,7 @@
 
 ---
 
-### 57. [roy2an/minium-mcp-server](https://github.com/roy2an/minium-mcp-server)
+### 56. [roy2an/minium-mcp-server](https://github.com/roy2an/minium-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1104,7 +2388,7 @@
 
 ---
 
-### 58. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)
+### 57. [g0t4/mcp-server-macos-defaults](https://github.com/g0t4/mcp-server-macos-defaults)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1121,7 +2405,7 @@
 
 ---
 
-### 59. [zzzhdw/mcp-server-kusto](https://github.com/zzzhdw/mcp-server-kusto)
+### 58. [zzzhdw/mcp-server-kusto](https://github.com/zzzhdw/mcp-server-kusto)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1138,7 +2422,7 @@
 
 ---
 
-### 60. [getalby/nwc-mcp-server](https://github.com/getalby/nwc-mcp-server)
+### 59. [getalby/nwc-mcp-server](https://github.com/getalby/nwc-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1155,7 +2439,7 @@
 
 ---
 
-### 61. [michaelbuckner/servicenow-mcp](https://github.com/michaelbuckner/servicenow-mcp)
+### 60. [michaelbuckner/servicenow-mcp](https://github.com/michaelbuckner/servicenow-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1172,7 +2456,7 @@
 
 ---
 
-### 62. [arjunbhuptani/sparkmango](https://github.com/arjunbhuptani/sparkmango)
+### 61. [arjunbhuptani/sparkmango](https://github.com/arjunbhuptani/sparkmango)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1189,7 +2473,7 @@
 
 ---
 
-### 63. [akash-network/mcp](https://github.com/akash-network/mcp)
+### 62. [akash-network/mcp](https://github.com/akash-network/mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1209,7 +2493,7 @@
 
 ---
 
-### 64. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)
+### 63. [asmagin/mcp-server-flutter](https://github.com/asmagin/mcp-server-flutter)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1227,7 +2511,7 @@
 
 ---
 
-### 65. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)
+### 64. [triple-whale/mcp-server-triplewhale](https://github.com/triple-whale/mcp-server-triplewhale)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1246,7 +2530,7 @@
 
 ---
 
-### 66. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)
+### 65. [sunwood-ai-labs/gitlab-kanban-mcp-server](https://github.com/sunwood-ai-labs/gitlab-kanban-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1264,7 +2548,7 @@
 
 ---
 
-### 67. [tatn/mcp-server-diff-typescript](https://github.com/tatn/mcp-server-diff-typescript)
+### 66. [tatn/mcp-server-diff-typescript](https://github.com/tatn/mcp-server-diff-typescript)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗5 layers
 
@@ -1281,7 +2565,7 @@
 
 ---
 
-### 68. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)
+### 67. [mtane0412/ghost-mcp-server](https://github.com/mtane0412/ghost-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1299,7 +2583,7 @@
 
 ---
 
-### 69. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)
+### 68. [aiyogg/tinypng-mcp-server](https://github.com/aiyogg/tinypng-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1316,7 +2600,7 @@
 
 ---
 
-### 70. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)
+### 69. [nealmalhotra/wordware-mcp-server](https://github.com/nealmalhotra/wordware-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1333,7 +2617,7 @@
 
 ---
 
-### 71. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)
+### 70. [yeakub108/mcp-server](https://github.com/yeakub108/mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1350,7 +2634,7 @@
 
 ---
 
-### 72. [NaorAIdeas/hubspot-mcp-server](https://github.com/NaorAIdeas/hubspot-mcp-server/tree/main/src)
+### 71. [NaorAIdeas/hubspot-mcp-server](https://github.com/NaorAIdeas/hubspot-mcp-server/tree/main/src)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1364,6 +2648,22 @@
 - developer workflows
 
 *Tags: github, hubspot, mcp, ai, security, developer, workflow, integration...*
+
+---
+
+### 72. [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)
+`9.0` ★★ ⚡89 Q0.8🏆 🏆 World-class
+
+**This project leverages Next.js for its server-side rendering capabilities, Tailwind CSS for styling, and integrates various libraries like shadcn-ui and inngest to enhance the user interface. It is designed to provide real-time stock market data and personalized alerts, making it a robust tool for developers interested in building modern web applications.**
+
+**Features:**
+- Next.js with App Router
+- Tailwind CSS for styling
+- Real-time stock market data integration
+- Personalized alert system
+- Open-source and community-driven development
+
+*Tags: nextjs, tailwindcss, inngest, shadcn-ui, coderabbit, open-stock, stock-market, developer-tools...*
 
 ---
 
@@ -1932,24 +3232,7 @@
 
 ---
 
-### 107. [noah-vh/mcp-server-clickup](https://github.com/noah-vh/mcp-server-clickup)
-`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The MCP Server ClickUp integration enables seamless synchronization between ClickUp notes and MCP, allowing users to manage tasks, projects, and workflows directly within the MCP interface. It supports note-based operations such as summarizing notes, adding new notes, and updating resource states.**
-
-**Features:**
-- MCP server integration
-- note management
-- task synchronization
-- custom prompts
-- configuration options
-
-*Tags: clickup, mcp-server, api, integration, developer*
-
----
-
-### 108. [syumai/opgen-mcp-server](https://github.com/syumai/opgen-mcp-server)
+### 107. [syumai/opgen-mcp-server](https://github.com/syumai/opgen-mcp-server)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1965,7 +3248,7 @@
 
 ---
 
-### 109. [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server)
+### 108. [cyanheads/clinicaltrialsgov-mcp-server](https://github.com/cyanheads/clinicaltrialsgov-mcp-server)
 `9.6` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1984,7 +3267,7 @@
 
 ---
 
-### 110. [tatn/mcp-server-diff-python](https://github.com/tatn/mcp-server-diff-python)
+### 109. [tatn/mcp-server-diff-python](https://github.com/tatn/mcp-server-diff-python)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2000,7 +3283,7 @@
 
 ---
 
-### 111. [juhemcp/jexchange-mcp-server](https://github.com/juhemcp/jexchange-mcp-server)
+### 110. [juhemcp/jexchange-mcp-server](https://github.com/juhemcp/jexchange-mcp-server)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2016,7 +3299,7 @@
 
 ---
 
-### 112. [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum)
+### 111. [chatmcp/mcp-server-chatsum](https://github.com/chatmcp/mcp-server-chatsum)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2033,7 +3316,7 @@
 
 ---
 
-### 113. [famano/mcp-server-office](https://github.com/famano/mcp-server-office)
+### 112. [famano/mcp-server-office](https://github.com/famano/mcp-server-office)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The famano/mcp-server-office project provides a platform for developers to interact with Microsoft Word (docx) files using AI-powered features, enabling advanced document editing, code integration, and workflow automation within the context of enterprise software development.**
@@ -2048,7 +3331,7 @@
 
 ---
 
-### 114. [yuheinakasaka/arithmetic-mcp-server](https://github.com/yuheinakasaka/arithmetic-mcp-server)
+### 113. [yuheinakasaka/arithmetic-mcp-server](https://github.com/yuheinakasaka/arithmetic-mcp-server)
 `8.7` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The 'arithmetic-mcp-server' is a lightweight, open-source MCP (Model Context Protocol) server designed to facilitate arithmetic calculations such as addition, subtraction, multiplication, and division. It supports TypeScript-based development with integration into Cline desktop applications, enabling users to perform mathematical operations directly from their workflow. The project emphasizes ease of use, security, and automation through GitHub Actions and CI/CD pipelines.**
@@ -2063,7 +3346,7 @@
 
 ---
 
-### 115. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)
+### 114. [aldrin-labs/metal-mcp-server](https://github.com/aldrin-labs/metal-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2079,7 +3362,7 @@
 
 ---
 
-### 116. [mk965/asset-price-mcp](https://github.com/mk965/asset-price-mcp)
+### 115. [mk965/asset-price-mcp](https://github.com/mk965/asset-price-mcp)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2095,7 +3378,7 @@
 
 ---
 
-### 117. [daikw/mcp-server-on-raspi](https://github.com/daikw/mcp-server-on-raspi)
+### 116. [daikw/mcp-server-on-raspi](https://github.com/daikw/mcp-server-on-raspi)
 `7.8` ★ ⚡81 Q0.9⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2111,7 +3394,7 @@
 
 ---
 
-### 118. [crisschan/mcp-allure](https://github.com/crisschan/mcp-allure)
+### 117. [crisschan/mcp-allure](https://github.com/crisschan/mcp-allure)
 `8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 
 **MCP-Allure is a software solution designed to bridge the gap between traditional test reporting and AI-driven insights. By transforming Allure HTML reports into structured, natural language outputs optimized for large language models (LLMs), it enables developers to leverage AI for more efficient test analysis, debugging, and documentation generation.**
@@ -2125,7 +3408,7 @@
 
 ---
 
-### 119. [tomokiishimine/dify-mcp-server](https://github.com/tomokiishimine/dify-mcp-server)
+### 118. [tomokiishimine/dify-mcp-server](https://github.com/tomokiishimine/dify-mcp-server)
 `8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2140,7 +3423,7 @@
 
 ---
 
-### 120. [metatool-ai/mcp-server-metamcp](https://github.com/metatool-ai/mcp-server-metamcp)
+### 119. [metatool-ai/mcp-server-metamcp](https://github.com/metatool-ai/mcp-server-metamcp)
 `8.2` ★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2155,7 +3438,7 @@
 
 ---
 
-### 121. [shibuiwilliam/mcp-server-data-wrangler](https://github.com/shibuiwilliam/mcp-server-data-wrangler)
+### 120. [shibuiwilliam/mcp-server-data-wrangler](https://github.com/shibuiwilliam/mcp-server-data-wrangler)
 `8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2170,7 +3453,7 @@
 
 ---
 
-### 122. [bmorphism/gists-mcp-server](https://github.com/bmorphism/gists-mcp-server)
+### 121. [bmorphism/gists-mcp-server](https://github.com/bmorphism/gists-mcp-server)
 `8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2185,22 +3468,7 @@
 
 ---
 
-### 123. [ylin6/unleash-ff-mcp-server](https://github.com/ylin6/unleash-ff-mcp-server)
-`8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The ylin6/unleash-ff-mcp-server is a GitHub-hosted MCP server enabling AI agents to programmatically manage feature flags within Unleash. It provides tools for retrieving projects, features, and updating flags, supporting automation and integration with external systems.**
-
-**Features:**
-- Feature Flag Management
-- Integration with External Tools
-- Automation of Workflows
-
-*Tags: unleash, mcp, api, ai, developer, security*
-
----
-
-### 124. [querypie/querypie-mcp-server](https://github.com/querypie/querypie-mcp-server)
+### 122. [querypie/querypie-mcp-server](https://github.com/querypie/querypie-mcp-server)
 `7.7` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2215,8 +3483,29 @@
 
 ---
 
+### 123. [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers/pull/5150)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: punkpeye/awesome-mcp-servers**
+
+---
+
+### 124. [endara-ai/endara-relay](https://github.com/endara-ai/endara-relay/issues/77)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: endara-ai/endara-relay**
+
+---
+
+### 125. [endara-ai/endara-relay](https://github.com/endara-ai/endara-relay/issues/78)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: endara-ai/endara-relay**
+
+---
+
 ## Config & Profile Management
-> 114 tools · avg signal ⚡89
+> 114 tools · avg signal ⚡88
 
 ### 1. [wanzunz/github_graphql_api_mcp](https://github.com/wanzunz/github_graphql_api_mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -2867,23 +4156,7 @@
 
 ---
 
-### 37. [dennismartis/mcp-todo](https://github.com/dennismartis/mcp-todo)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The MCP server provides a comprehensive platform for developers to manage their coding projects' to-do lists. It includes functionalities such as viewing the current todo list, adding new items, updating statuses, deleting items, and managing project details. This tool is designed to streamline workflow management, ensuring that developers can efficiently track and organize tasks related to their projects.**
-
-**Features:**
-- View todo list
-- Add todo item
-- Update todo status
-- Delete todo item
-- Manage project details
-
-*Tags: github, python, developer, todo, project-management, code-organization, workflow-automation, software-development...*
-
----
-
-### 38. [joshuarileydev/mac-apps-launcher](https://github.com/joshuarileydev/mac-apps-launcher)
+### 37. [joshuarileydev/mac-apps-launcher](https://github.com/joshuarileydev/mac-apps-launcher)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -2901,7 +4174,7 @@
 
 ---
 
-### 39. [srikanth-paladugula/mcp-dynamics365-server](https://github.com/srikanth-paladugula/mcp-dynamics365-server)
+### 38. [srikanth-paladugula/mcp-dynamics365-server](https://github.com/srikanth-paladugula/mcp-dynamics365-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -2919,7 +4192,7 @@
 
 ---
 
-### 40. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)
+### 39. [nermalcat69/zerops-mcp](https://github.com/nermalcat69/zerops-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -2940,7 +4213,7 @@
 
 ---
 
-### 41. [thuhoai27/find-files-mcp](https://github.com/thuhoai27/find-files-mcp)
+### 40. [thuhoai27/find-files-mcp](https://github.com/thuhoai27/find-files-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The thuhoai27/find-files-mcp repository provides a powerful GitHub-based solution for developers to efficiently locate, filter, and manage files across various directory structures. It supports multi-directory searches, wildcard patterns, file attribute filtering, content searching, and more, making it ideal for modern development workflows.**
@@ -2959,7 +4232,7 @@
 
 ---
 
-### 42. [godzilladancer/keitaro-mcp](https://github.com/godzilladancer/keitaro-mcp)
+### 41. [godzilladancer/keitaro-mcp](https://github.com/godzilladancer/keitaro-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2976,7 +4249,7 @@
 
 ---
 
-### 43. [rikuson/mcp-qase](https://github.com/rikuson/mcp-qase)
+### 42. [rikuson/mcp-qase](https://github.com/rikuson/mcp-qase)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2994,7 +4267,7 @@
 
 ---
 
-### 44. [PabloLec/KeyProbe-MCP](https://github.com/PabloLec/KeyProbe-MCP)
+### 43. [PabloLec/KeyProbe-MCP](https://github.com/PabloLec/KeyProbe-MCP)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The KeyProbe-MCP project provides a GitHub-based platform designed to streamline developer workflows by offering features such as automated code review, pull request management, and integration with various development tools. It supports enterprise-level security and offers functionalities like Dockerfile management, CI/CD pipelines, and advanced security features to ensure secure code deployment.**
@@ -3010,7 +4283,7 @@
 
 ---
 
-### 45. [bergeramit/bergeramit-hw3-tech](https://github.com/bergeramit/bergeramit-hw3-tech)
+### 44. [bergeramit/bergeramit-hw3-tech](https://github.com/bergeramit/bergeramit-hw3-tech)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3027,7 +4300,7 @@
 
 ---
 
-### 46. [anirbanbasu/pymcp](https://github.com/anirbanbasu/pymcp)
+### 45. [anirbanbasu/pymcp](https://github.com/anirbanbasu/pymcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The anirbanbasu/pymcp project offers a comprehensive GitHub repository template tailored for developers working on MCP (Multi-Component Probabilistic Computation) servers using Python. It provides essential tools, scripts, and best practices to automate workflows, manage code changes, and integrate external services efficiently. This resource is particularly valuable for teams aiming to modernize their infrastructure with DevOps and CI/CD pipelines.**
@@ -3043,7 +4316,7 @@
 
 ---
 
-### 47. [z9905080/mcp-slack](https://github.com/z9905080/mcp-slack)
+### 46. [z9905080/mcp-slack](https://github.com/z9905080/mcp-slack)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The mcp-slack package provides a server implementation that allows AI models to integrate seamlessly with Slack, facilitating tasks such as channel management, message posting, thread replies, and user interactions within Slack workspaces. It supports various Slack integrations including channel browsing, message sending, and user profile management.**
@@ -3061,7 +4334,7 @@
 
 ---
 
-### 48. [generect/generect_mcp.git](https://github.com/generect/generect_mcp.git)
+### 47. [generect/generect_mcp.git](https://github.com/generect/generect_mcp.git)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The project provides a lightweight MCP (Machine Cloud Platform) server that integrates with the Generect Live API to enable B2B lead generation and company search functionalities. It offers a streamlined environment for developers to build, test, and deploy applications using Generect's API tools, supporting key features such as API key management, live data integration, and automated workflows.**
@@ -3077,7 +4350,7 @@
 
 ---
 
-### 49. [yaloms/h-core-snapshot](https://github.com/yaloms/h-core-snapshot)
+### 48. [yaloms/h-core-snapshot](https://github.com/yaloms/h-core-snapshot)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The yaloms/h-core-snapshot repository provides a GitHub-based platform designed to enhance developer productivity by offering features such as automated workflow execution, code review automation, and integration with external tools. It supports enterprise-level security, code analysis, and seamless deployment processes, making it suitable for modern software development practices.**
@@ -3093,7 +4366,7 @@
 
 ---
 
-### 50. [bitrsky/jupyter_mcp_server](https://github.com/bitrsky/jupyter_mcp_server)
+### 49. [bitrsky/jupyter_mcp_server](https://github.com/bitrsky/jupyter_mcp_server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3110,7 +4383,7 @@
 
 ---
 
-### 51. [abhishekbhakat/mcp_server_code_assist](https://github.com/abhishekbhakat/mcp_server_code_assist)
+### 50. [abhishekbhakat/mcp_server_code_assist](https://github.com/abhishekbhakat/mcp_server_code_assist)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The MCP Server Code Assist repository provides a GitHub-based platform that leverages AI to assist developers in creating, modifying, and deleting code files. It supports various operations such as file creation, modification, deletion, and search/replace functionalities through large language models. The tool is designed to streamline the development process by automating repetitive tasks and enhancing productivity.**
@@ -3126,7 +4399,7 @@
 
 ---
 
-### 52. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)
+### 51. [wllcnm/dingding-mcp](https://github.com/wllcnm/dingding-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3146,7 +4419,7 @@
 
 ---
 
-### 53. [rami-0/python_mcp](https://github.com/rami-0/python_mcp)
+### 52. [rami-0/python_mcp](https://github.com/rami-0/python_mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3163,7 +4436,7 @@
 
 ---
 
-### 54. [wolkwork/knmi-mcp](https://github.com/wolkwork/knmi-mcp)
+### 53. [wolkwork/knmi-mcp](https://github.com/wolkwork/knmi-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3180,7 +4453,7 @@
 
 ---
 
-### 55. [bryangsmith/mailchimpmcp](https://github.com/bryangsmith/mailchimpmcp)
+### 54. [bryangsmith/mailchimpmcp](https://github.com/bryangsmith/mailchimpmcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3197,7 +4470,7 @@
 
 ---
 
-### 56. [dannyhw/mcp-storybook](https://github.com/dannyhw/mcp-storybook)
+### 55. [dannyhw/mcp-storybook](https://github.com/dannyhw/mcp-storybook)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3214,7 +4487,7 @@
 
 ---
 
-### 57. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)
+### 56. [lsd-so/internetdata-mcp](https://github.com/lsd-so/internetdata-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3231,7 +4504,7 @@
 
 ---
 
-### 58. [halityurttas/cimri-mcp-investigate](https://github.com/halityurttas/cimri-mcp-investigate)
+### 57. [halityurttas/cimri-mcp-investigate](https://github.com/halityurttas/cimri-mcp-investigate)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3248,7 +4521,7 @@
 
 ---
 
-### 59. [ks0318-p/sound-notification-mcp](https://github.com/ks0318-p/sound-notification-mcp)
+### 58. [ks0318-p/sound-notification-mcp](https://github.com/ks0318-p/sound-notification-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The project implements a sound-based notification system integrated with AI coding assistants such as Windsurf and Cursor. It uses Node.js and Yarn for deployment, allowing developers to customize sound settings via configuration files. The setup includes configuring MCP server rules, ensuring proper system volume, and handling build errors during deployment.**
@@ -3264,7 +4537,7 @@
 
 ---
 
-### 60. [kacase/mcp-outlook](https://github.com/kacase/mcp-outlook/tree/main/src)
+### 59. [kacase/mcp-outlook](https://github.com/kacase/mcp-outlook/tree/main/src)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3281,7 +4554,7 @@
 
 ---
 
-### 61. [domdomegg/google-sheets-mcp.git](https://github.com/domdomegg/google-sheets-mcp.git)
+### 60. [domdomegg/google-sheets-mcp.git](https://github.com/domdomegg/google-sheets-mcp.git)
 `9.6` ★★ ⚡89 Q0.8🏆 🏆 World-class
 
 **This resource provides a comprehensive overview of the Google Sheets MCP (Management Control Platform) server, which enables users to securely read, write, and manage spreadsheet data. It supports various use cases such as answering business questions, automating expense tracking, syncing cross-tool statuses, and performing data analysis. The platform integrates with other tools like Google Drive and Slack for seamless workflows, ensuring efficient data handling and collaboration.**
@@ -3296,7 +4569,7 @@
 
 ---
 
-### 62. [BadRooBot/test_m](https://github.com/BadRooBot/test_m)
+### 61. [BadRooBot/test_m](https://github.com/BadRooBot/test_m)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3313,7 +4586,7 @@
 
 ---
 
-### 63. [0xjmp/mcp-tradovate](https://github.com/0xjmp/mcp-tradovate)
+### 62. [0xjmp/mcp-tradovate](https://github.com/0xjmp/mcp-tradovate)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The MCP server acts as an intermediary between AI-driven assistants and the Tradovate platform, facilitating seamless integration for tasks such as account management, order placement, risk controls, and real-time data access. It supports secure authentication, comprehensive test coverage, and enterprise-grade security features.**
@@ -3330,7 +4603,7 @@
 
 ---
 
-### 64. [hichana/goalstory-mcp](https://github.com/hichana/goalstory-mcp)
+### 63. [hichana/goalstory-mcp](https://github.com/hichana/goalstory-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **GoalMochi is an HTTP-based MCP server that leverages conversational AI to help users focus on one goal at a time, using mental imagery and personalized narratives. It integrates seamlessly with existing tools and workflows, offering secure authentication via OAuth, simplified configuration, and real-time progress tracking without requiring local installation.**
@@ -3346,7 +4619,7 @@
 
 ---
 
-### 65. [carlmontanari/scrapli-mcp](https://github.com/carlmontanari/scrapli-mcp)
+### 64. [carlmontanari/scrapli-mcp](https://github.com/carlmontanari/scrapli-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3363,7 +4636,7 @@
 
 ---
 
-### 66. [owayo/mcp-src-tree](https://github.com/owayo/mcp-src-tree)
+### 65. [owayo/mcp-src-tree](https://github.com/owayo/mcp-src-tree)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3380,7 +4653,7 @@
 
 ---
 
-### 67. [anish-1101-lab/mcp-notes-making](https://github.com/anish-1101-lab/mcp-notes-making)
+### 66. [anish-1101-lab/mcp-notes-making](https://github.com/anish-1101-lab/mcp-notes-making)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3397,7 +4670,7 @@
 
 ---
 
-### 68. [yikaj/futu](https://github.com/yikaj/futu)
+### 67. [yikaj/futu](https://github.com/yikaj/futu)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3414,7 +4687,7 @@
 
 ---
 
-### 69. [suqidan/volcengine_knowledgebase_mcp](https://github.com/suqidan/volcengine_knowledgebase_mcp)
+### 68. [suqidan/volcengine_knowledgebase_mcp](https://github.com/suqidan/volcengine_knowledgebase_mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3431,7 +4704,7 @@
 
 ---
 
-### 70. [octavious/mcp_sample](https://github.com/octavious/mcp_sample/tree/HEAD/MCPDemo2)
+### 69. [octavious/mcp_sample](https://github.com/octavious/mcp_sample/tree/HEAD/MCPDemo2)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The MCP_Sample repository showcases a practical implementation of automated workflows via GitHub Actions, focusing on code review, pull request management, and integration with external tools. It emphasizes developer productivity by streamlining processes such as code validation, security checks, and deployment pipelines.**
@@ -3447,7 +4720,7 @@
 
 ---
 
-### 71. [sfncat/mcp-joern](https://github.com/sfncat/mcp-joern)
+### 70. [sfncat/mcp-joern](https://github.com/sfncat/mcp-joern)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3464,7 +4737,7 @@
 
 ---
 
-### 72. [gkhays/mcp-sbom-server](https://github.com/gkhays/mcp-sbom-server)
+### 71. [gkhays/mcp-sbom-server](https://github.com/gkhays/mcp-sbom-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3481,7 +4754,7 @@
 
 ---
 
-### 73. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/hoover)
+### 72. [cf-toolsuite/cf-kaizen](https://github.com/cf-toolsuite/cf-kaizen/tree/HEAD/hoover)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -3498,7 +4771,7 @@
 
 ---
 
-### 74. [smileycointools/smileyco.in](https://github.com/smileycointools/smileyco.in)
+### 73. [smileycointools/smileyco.in](https://github.com/smileycointools/smileyco.in)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3515,7 +4788,7 @@
 
 ---
 
-### 75. [blesscat/gemini-cli-mcp](https://github.com/blesscat/gemini-cli-mcp)
+### 74. [blesscat/gemini-cli-mcp](https://github.com/blesscat/gemini-cli-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3532,7 +4805,7 @@
 
 ---
 
-### 76. [rhitune2/mock-data-mcp](https://github.com/rhitune2/mock-data-mcp)
+### 75. [rhitune2/mock-data-mcp](https://github.com/rhitune2/mock-data-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3549,7 +4822,7 @@
 
 ---
 
-### 77. [dhrishp/mcp-post-linkedin](https://github.com/dhrishp/mcp-post-linkedin)
+### 76. [dhrishp/mcp-post-linkedin](https://github.com/dhrishp/mcp-post-linkedin)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The DhrishP/mcp-post-linkedin project offers a GitHub-based solution aimed at streamlining developer workflows through automation, code review management, and integration with enterprise tools. It supports actions such as code review, pull request management, and CI/CD pipelines, making it suitable for modern development teams.**
@@ -3565,7 +4838,7 @@
 
 ---
 
-### 78. [shivaylamba/mcp-nebius](https://github.com/shivaylamba/mcp-nebius)
+### 77. [shivaylamba/mcp-nebius](https://github.com/shivaylamba/mcp-nebius)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3582,7 +4855,7 @@
 
 ---
 
-### 79. [tsmd/wcag-mcp](https://github.com/tsmd/wcag-mcp)
+### 78. [tsmd/wcag-mcp](https://github.com/tsmd/wcag-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The tsmd/wcag-mcp project provides a GitHub-based solution for developers to streamline their workflow through code review management, automated pull request handling, and integration with CI/CD pipelines. It emphasizes automation, security, and collaboration features tailored for modern software development practices.**
@@ -3598,7 +4871,7 @@
 
 ---
 
-### 80. [matteoantoci/google-forms-mcp](https://github.com/matteoantoci/google-forms-mcp/tree/main/src)
+### 79. [matteoantoci/google-forms-mcp](https://github.com/matteoantoci/google-forms-mcp/tree/main/src)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3615,7 +4888,7 @@
 
 ---
 
-### 81. [vgnshiyer/apple-books-mcp](https://github.com/vgnshiyer/apple-books-mcp)
+### 80. [vgnshiyer/apple-books-mcp](https://github.com/vgnshiyer/apple-books-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3632,7 +4905,7 @@
 
 ---
 
-### 82. [Introducing Apple Business — a new all-in-one platform for businesses of all sizes](https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes)
+### 81. [Introducing Apple Business — a new all-in-one platform for businesses of all sizes](https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **Apple Business consolidates essential business tools into one secure platform, enabling seamless device management, centralized communication, and streamlined access to Apple services. It supports advanced features such as Blueprints for zero-touch device deployment, automated Managed Account creation, and integration with third-party identity providers. The platform enhances visibility into device usage and user groups, while offering new advertising capabilities in Apple Maps to boost local bu...**
@@ -3653,7 +4926,7 @@
 
 ---
 
-### 83. [chrisboden/mcp_template](https://github.com/chrisboden/mcp_template)
+### 82. [chrisboden/mcp_template](https://github.com/chrisboden/mcp_template)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3670,7 +4943,7 @@
 
 ---
 
-### 84. [mathieugal/mcp-serveur](https://github.com/mathieugal/mcp-serveur)
+### 83. [mathieugal/mcp-serveur](https://github.com/mathieugal/mcp-serveur)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3686,7 +4959,7 @@
 
 ---
 
-### 85. [overstarry/qweather-mcp](https://github.com/overstarry/qweather-mcp)
+### 84. [overstarry/qweather-mcp](https://github.com/overstarry/qweather-mcp)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3705,7 +4978,7 @@
 
 ---
 
-### 86. [haithamoumerzoug/keycloak-mcp](https://github.com/haithamoumerzoug/keycloak-mcp)
+### 85. [haithamoumerzoug/keycloak-mcp](https://github.com/haithamoumerzoug/keycloak-mcp)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3721,7 +4994,7 @@
 
 ---
 
-### 87. [HackerNews/API](https://github.com/HackerNews/API)
+### 86. [HackerNews/API](https://github.com/HackerNews/API)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -3740,7 +5013,7 @@
 
 ---
 
-### 88. [andreasjansson/win-3.1-backgrounds](https://github.com/andreasjansson/win-3.1-backgrounds)
+### 87. [andreasjansson/win-3.1-backgrounds](https://github.com/andreasjansson/win-3.1-backgrounds)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The project provides a Windows 3.1 tiled background application that integrates with GitHub for code management, workflow automation, and secure development practices. It offers features such as code review, pull request handling, CI/CD integration, and enterprise-grade security measures.**
@@ -3756,7 +5029,7 @@
 
 ---
 
-### 89. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)
+### 88. [epsilla-cloud/mcp-epsilla](https://github.com/epsilla-cloud/mcp-epsilla)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -3773,7 +5046,7 @@
 
 ---
 
-### 90. [acxelerator/mcp-tenki](https://github.com/acxelerator/mcp-tenki)
+### 89. [acxelerator/mcp-tenki](https://github.com/acxelerator/mcp-tenki)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3789,7 +5062,7 @@
 
 ---
 
-### 91. [ubie-oss/mcp-vertexai-search](https://github.com/ubie-oss/mcp-vertexai-search)
+### 90. [ubie-oss/mcp-vertexai-search](https://github.com/ubie-oss/mcp-vertexai-search)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3806,7 +5079,7 @@
 
 ---
 
-### 92. [benhaotang/mcp-mma-docs](https://github.com/benhaotang/mcp-mma-docs)
+### 91. [benhaotang/mcp-mma-docs](https://github.com/benhaotang/mcp-mma-docs)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3822,7 +5095,7 @@
 
 ---
 
-### 93. [alistairwalsh/mcp_pandas](https://github.com/alistairwalsh/mcp_pandas)
+### 92. [alistairwalsh/mcp_pandas](https://github.com/alistairwalsh/mcp_pandas)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3839,7 +5112,7 @@
 
 ---
 
-### 94. [bunasq/fs](https://github.com/bunasq/fs)
+### 93. [bunasq/fs](https://github.com/bunasq/fs)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3856,7 +5129,7 @@
 
 ---
 
-### 95. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)
+### 94. [highlight-ing/highlight-github-mcp](https://github.com/highlight-ing/highlight-github-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -3873,7 +5146,7 @@
 
 ---
 
-### 96. [mohamed-hanfy/codeforces-mcp](https://github.com/mohamed-hanfy/codeforces-mcp)
+### 95. [mohamed-hanfy/codeforces-mcp](https://github.com/mohamed-hanfy/codeforces-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -3890,7 +5163,7 @@
 
 ---
 
-### 97. [iocanel/backstage-mcp](https://github.com/iocanel/backstage-mcp)
+### 96. [iocanel/backstage-mcp](https://github.com/iocanel/backstage-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3907,7 +5180,7 @@
 
 ---
 
-### 98. [irahulpandey/mlflowmcpserver](https://github.com/irahulpandey/mlflowmcpserver)
+### 97. [irahulpandey/mlflowmcpserver](https://github.com/irahulpandey/mlflowmcpserver)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3924,7 +5197,7 @@
 
 ---
 
-### 99. [aourpallynikhil/nuke-mcp-2](https://github.com/aourpallynikhil/nuke-mcp-2)
+### 98. [aourpallynikhil/nuke-mcp-2](https://github.com/aourpallynikhil/nuke-mcp-2)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -3940,7 +5213,7 @@
 
 ---
 
-### 100. [linglai27/mcp-tools](https://github.com/linglai27/mcp-tools)
+### 99. [linglai27/mcp-tools](https://github.com/linglai27/mcp-tools)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3956,7 +5229,7 @@
 
 ---
 
-### 101. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)
+### 100. [guilhermelirio/brasil-api-mcp](https://github.com/guilhermelirio/brasil-api-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -3972,7 +5245,7 @@
 
 ---
 
-### 102. [kartha-ai/agentcare-mcp](https://github.com/kartha-ai/agentcare-mcp)
+### 101. [kartha-ai/agentcare-mcp](https://github.com/kartha-ai/agentcare-mcp)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -3989,7 +5262,7 @@
 
 ---
 
-### 103. [silver0510/mermail-mcp](https://github.com/silver0510/mermail-mcp)
+### 102. [silver0510/mermail-mcp](https://github.com/silver0510/mermail-mcp)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 
 **The Borg Project's 'mermail-mcp' repository provides a Flask-based web server that generates diagrams from Mermaid syntax. It supports automated code review, pull request management, and integration with external tools, enhancing the developer workflow through streamlined processes and improved collaboration.**
@@ -4004,7 +5277,7 @@
 
 ---
 
-### 104. [wong2/mcp-jina-reader](https://github.com/wong2/mcp-jina-reader)
+### 103. [wong2/mcp-jina-reader](https://github.com/wong2/mcp-jina-reader)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -4020,7 +5293,7 @@
 
 ---
 
-### 105. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)
+### 104. [aroglahcim/magick-mcp](https://github.com/aroglahcim/magick-mcp)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗4 layers
 
@@ -4036,7 +5309,7 @@
 
 ---
 
-### 106. [locchung/three-js-mcp](https://github.com/locchung/three-js-mcp)
+### 105. [locchung/three-js-mcp](https://github.com/locchung/three-js-mcp)
 `7.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 
 **The project provides a lightweight MCP (Model-Component-Pipeline) server that enables developers to manage and control Three.js source code repositories. It focuses on streamlining workflows by integrating with GitHub, allowing for automated actions, code reviews, security checks, and deployment processes.**
@@ -4052,7 +5325,7 @@
 
 ---
 
-### 107. [redpanda-data/docs-site](https://github.com/redpanda-data/docs-site)
+### 106. [redpanda-data/docs-site](https://github.com/redpanda-data/docs-site)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4069,23 +5342,7 @@
 
 ---
 
-### 108. [0xbeedao/mcp-taskwarrior](https://github.com/0xbeedao/mcp-taskwarrior)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The project provides a lightweight MCP (Message Control Protocol) server tailored for the Taskwarrior platform, enabling developers to integrate task management functionalities seamlessly. It offers tools for adding, updating, deleting, and listing tasks, along with robust security features to ensure safe operations.**
-
-**Features:**
-- add_task
-- update_task
-- delete_task
-- list_tasks
-
-*Tags: taskmanagement, mcp-server, taskwarrior, developer-tools, code-security*
-
----
-
-### 109. [saymondamasio/wongames-mcp](https://github.com/saymondamasio/wongames-mcp)
+### 107. [saymondamasio/wongames-mcp](https://github.com/saymondamasio/wongames-mcp)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 
 **The project provides a comprehensive platform for developers to streamline their workflows by automating repetitive tasks, managing code repositories, and integrating various tools. It supports modern development practices such as DevOps, CI/CD, and enterprise-level security features.**
@@ -4100,7 +5357,7 @@
 
 ---
 
-### 110. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)
+### 108. [cpage-pivotal/cloud-foundry-mcp](https://github.com/cpage-pivotal/cloud-foundry-mcp)
 `8.6` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -4118,7 +5375,7 @@
 
 ---
 
-### 111. [vanachterjacob/bc-mcp](https://github.com/vanachterjacob/bc-mcp)
+### 109. [vanachterjacob/bc-mcp](https://github.com/vanachterjacob/bc-mcp)
 `7.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4134,7 +5391,7 @@
 
 ---
 
-### 112. [rupeebw/mcp-image-reader](https://github.com/rupeebw/mcp-image-reader)
+### 110. [rupeebw/mcp-image-reader](https://github.com/rupeebw/mcp-image-reader)
 `8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4149,7 +5406,7 @@
 
 ---
 
-### 113. [spritualkb/nuclei-mcp](https://github.com/spritualkb/nuclei-mcp)
+### 111. [spritualkb/nuclei-mcp](https://github.com/spritualkb/nuclei-mcp)
 `8.7` ★ ⚡76 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -4163,7 +5420,7 @@
 
 ---
 
-### 114. [yuheinakasaka/scrapbox-mcp](https://github.com/yuheinakasaka/scrapbox-mcp)
+### 112. [yuheinakasaka/scrapbox-mcp](https://github.com/yuheinakasaka/scrapbox-mcp)
 `8.7` ★ ⚡76 Q0.8⭐ ⭐ Excellent
 
 **The project provides a server implementation in TypeScript that supports creating and summarizing text notes using prompts. It integrates core MCP concepts such as note creation, metadata management, and LLM-based summarization. The server is designed for developers to build intelligent applications with automated workflows, secure code practices, and seamless integration with external tools.**
@@ -4173,6 +5430,20 @@
 - summarize_notes
 
 *Tags: mcp, ai, developer, security, code, automation, integration, typescript...*
+
+---
+
+### 113. [settings/billing](https://github.com/settings/billing)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: settings/billing**
+
+---
+
+### 114. [aleksey-hoffman/sigma-file-manager](https://github.com/aleksey-hoffman/sigma-file-manager/issues/408)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aleksey-hoffman/sigma-file-manager**
 
 ---
 
@@ -4461,28 +5732,7 @@
 
 ---
 
-### 15. [niyonabil/blogger-mcp-server](https://github.com/niyonabil/blogger-mcp-server)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a MCP (Model Context Protocol) server that allows AI-powered applications, such as Claude, to interact directly with the Blogger API. It supports core functionalities including listing and managing blogs, searching posts, updating content, and handling labels. The solution addresses limitations of the Blogger API by enabling manual blog creation via its web interface, while leveraging Node.js for backend logic and Docker for containerization. It emphasizes security through A...**
-
-**Features:**
-- Blog management (list
-- search
-- create
-- update
-- delete)
-- AI model integration via MCP protocol
-- Manual blog creation via web interface
-- Security via API key authentication
-- Deployment support for Docker and cloud platforms
-
-*Tags: blogger-mcp-server, ai-integration, developer-tools, api-security, nodejs-deployment, mcp-protocol, cloud-native, ai-development...*
-
----
-
-### 16. [nailuogg/aliyun-mcp-server](https://github.com/nailuogg/aliyun-mcp-server)
+### 15. [nailuogg/aliyun-mcp-server](https://github.com/nailuogg/aliyun-mcp-server)
 `9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4499,7 +5749,7 @@
 
 ---
 
-### 17. [ivlad003/mcp_newrelic](https://github.com/ivlad003/mcp_newrelic)
+### 16. [ivlad003/mcp_newrelic](https://github.com/ivlad003/mcp_newrelic)
 `9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4516,7 +5766,7 @@
 
 ---
 
-### 18. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)
+### 17. [wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)
 `9.8` ★★ ⚡94 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -4533,7 +5783,7 @@
 
 ---
 
-### 19. [operative-sh/web-eval-agent](https://github.com/operative-sh/web-eval-agent)
+### 18. [operative-sh/web-eval-agent](https://github.com/operative-sh/web-eval-agent)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4553,7 +5803,7 @@
 
 ---
 
-### 20. [OzorOwn/frostbyte-mcp](https://github.com/OzorOwn/frostbyte-mcp)
+### 19. [OzorOwn/frostbyte-mcp](https://github.com/OzorOwn/frostbyte-mcp)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4573,7 +5823,7 @@
 
 ---
 
-### 21. [automata-labs-team/mcp-server-playwright](https://github.com/automata-labs-team/mcp-server-playwright)
+### 20. [automata-labs-team/mcp-server-playwright](https://github.com/automata-labs-team/mcp-server-playwright)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4591,7 +5841,7 @@
 
 ---
 
-### 22. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
+### 21. [rohitg00/kubectl-mcp-server](https://github.com/rohitg00/kubectl-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗5 layers
 
@@ -4609,7 +5859,7 @@
 
 ---
 
-### 23. [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp)
+### 22. [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4628,7 +5878,7 @@
 
 ---
 
-### 24. [0xreisearch/crypto-mcp-beta](https://github.com/0xreisearch/crypto-mcp-beta)
+### 23. [0xreisearch/crypto-mcp-beta](https://github.com/0xreisearch/crypto-mcp-beta)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4647,7 +5897,7 @@
 
 ---
 
-### 25. [pvev/mattermost-mcp](https://github.com/pvev/mattermost-mcp)
+### 24. [pvev/mattermost-mcp](https://github.com/pvev/mattermost-mcp)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4666,7 +5916,7 @@
 
 ---
 
-### 26. [tesla0225/mcp-create](https://github.com/tesla0225/mcp-create)
+### 25. [tesla0225/mcp-create](https://github.com/tesla0225/mcp-create)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4683,7 +5933,7 @@
 
 ---
 
-### 27. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)
+### 26. [sunwood-ai-labs/github-kanban-mcp-server](https://github.com/sunwood-ai-labs/github-kanban-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4701,7 +5951,7 @@
 
 ---
 
-### 28. [fefergrgrgrg/cs-wallet](https://github.com/fefergrgrgrg/cs-wallet)
+### 27. [fefergrgrgrg/cs-wallet](https://github.com/fefergrgrgrg/cs-wallet)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4719,7 +5969,7 @@
 
 ---
 
-### 29. [turnono/datacommons-mcp-server](https://github.com/turnono/datacommons-mcp-server)
+### 28. [turnono/datacommons-mcp-server](https://github.com/turnono/datacommons-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4738,7 +5988,7 @@
 
 ---
 
-### 30. [ctvidic/whoop-mcp-server](https://github.com/ctvidic/whoop-mcp-server)
+### 29. [ctvidic/whoop-mcp-server](https://github.com/ctvidic/whoop-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4756,7 +6006,7 @@
 
 ---
 
-### 31. [ryuichi1208/mackerel-mcp-server](https://github.com/ryuichi1208/mackerel-mcp-server)
+### 30. [ryuichi1208/mackerel-mcp-server](https://github.com/ryuichi1208/mackerel-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4775,23 +6025,7 @@
 
 ---
 
-### 32. [mastercode-io/scaflog-zoho-mcp-server](https://github.com/mastercode-io/scaflog-zoho-mcp-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The scaflog-zoho-mcp-server is a lightweight MCP (Message Queuing Protocol) server designed to manage and store notes within the Scaflog Zoho Creator application. It provides a centralized storage system for individual notes, each identified by a unique URI scheme. The server supports prompt-based summarization of all stored notes, allowing users to generate concise summaries with customizable detail levels. It includes tools for adding new notes, updating existing ones, and notifying clients of...**
-
-**Features:**
-- note storage system
-- prompt-based summarization
-- add-note functionality
-- update notifications
-
-*Tags: mcp-server, scaflog-zoho-mcp-server, developer-tools, notification-system, note-management, zoho-creator, ai-integration, code-deployment...*
-
----
-
-### 33. [root-signals/root-signals-mcp](https://github.com/root-signals/root-signals-mcp)
+### 31. [root-signals/root-signals-mcp](https://github.com/root-signals/root-signals-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -4808,7 +6042,7 @@
 
 ---
 
-### 34. [cmann50/mcp-chrome-google-search](https://github.com/cmann50/mcp-chrome-google-search)
+### 32. [cmann50/mcp-chrome-google-search](https://github.com/cmann50/mcp-chrome-google-search)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The cmann50/mcp-chrome-google-search project provides a Chrome extension designed for macOS users. It leverages the Chrome browser to facilitate seamless Google search functionality within web applications, allowing developers to quickly search and extract content from web pages directly in their browser. The extension is built using modern web technologies and integrates with Claude for enhanced automation capabilities.**
@@ -4824,7 +6058,7 @@
 
 ---
 
-### 35. [austinkelsay/nostr-mcp-server](https://github.com/austinkelsay/nostr-mcp-server)
+### 33. [austinkelsay/nostr-mcp-server](https://github.com/austinkelsay/nostr-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4842,7 +6076,7 @@
 
 ---
 
-### 36. [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)
+### 34. [cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -4861,7 +6095,7 @@
 
 ---
 
-### 37. [BasedHardware/omi](https://github.com/BasedHardware/omi)
+### 35. [BasedHardware/omi](https://github.com/BasedHardware/omi)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -4880,7 +6114,7 @@
 
 ---
 
-### 38. [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp)
+### 36. [pydantic/logfire-mcp](https://github.com/pydantic/logfire-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4897,7 +6131,7 @@
 
 ---
 
-### 39. [beverm2391/chain-of-thought-mcp-server](https://github.com/beverm2391/chain-of-thought-mcp-server)
+### 37. [beverm2391/chain-of-thought-mcp-server](https://github.com/beverm2391/chain-of-thought-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4914,7 +6148,7 @@
 
 ---
 
-### 40. [arjshiv/localutils-mcp-server](https://github.com/arjshiv/localutils-mcp-server)
+### 38. [arjshiv/localutils-mcp-server](https://github.com/arjshiv/localutils-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4933,7 +6167,7 @@
 
 ---
 
-### 41. [lkb2k/mcp-gradle](https://github.com/lkb2k/mcp-gradle)
+### 39. [lkb2k/mcp-gradle](https://github.com/lkb2k/mcp-gradle)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4950,7 +6184,7 @@
 
 ---
 
-### 42. [severity1/argocd-mcp](https://github.com/severity1/argocd-mcp)
+### 40. [severity1/argocd-mcp](https://github.com/severity1/argocd-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4971,7 +6205,7 @@
 
 ---
 
-### 43. [dailydaniel/logseq-mcp](https://github.com/dailydaniel/logseq-mcp)
+### 41. [dailydaniel/logseq-mcp](https://github.com/dailydaniel/logseq-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4989,7 +6223,7 @@
 
 ---
 
-### 44. [firstorderai/authenticator_mcp](https://github.com/firstorderai/authenticator_mcp)
+### 42. [firstorderai/authenticator_mcp](https://github.com/firstorderai/authenticator_mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5006,7 +6240,7 @@
 
 ---
 
-### 45. [Kubit-AI/mcp-server](https://github.com/Kubit-AI/mcp-server)
+### 43. [Kubit-AI/mcp-server](https://github.com/Kubit-AI/mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5024,7 +6258,7 @@
 
 ---
 
-### 46. [cycloidio/cycloid-mcp-server](https://github.com/cycloidio/cycloid-mcp-server)
+### 44. [cycloidio/cycloid-mcp-server](https://github.com/cycloidio/cycloid-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5042,7 +6276,7 @@
 
 ---
 
-### 47. [readwiseio/readwise-mcp](https://github.com/readwiseio/readwise-mcp)
+### 45. [readwiseio/readwise-mcp](https://github.com/readwiseio/readwise-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5059,7 +6293,7 @@
 
 ---
 
-### 48. [jackkuo666/weather-mcp-server](https://github.com/jackkuo666/weather-mcp-server)
+### 46. [jackkuo666/weather-mcp-server](https://github.com/jackkuo666/weather-mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5076,7 +6310,7 @@
 
 ---
 
-### 49. [secretiveshell/mcp-timeserver](https://github.com/secretiveshell/mcp-timeserver)
+### 47. [secretiveshell/mcp-timeserver](https://github.com/secretiveshell/mcp-timeserver)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5092,7 +6326,7 @@
 
 ---
 
-### 50. [quintonwall/mcp-airbyte-list-sources](https://github.com/quintonwall/mcp-airbyte-list-sources)
+### 48. [quintonwall/mcp-airbyte-list-sources](https://github.com/quintonwall/mcp-airbyte-list-sources)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5108,7 +6342,7 @@
 
 ---
 
-### 51. [tanush-yadav/shopify-mcp](https://github.com/tanush-yadav/shopify-mcp)
+### 49. [tanush-yadav/shopify-mcp](https://github.com/tanush-yadav/shopify-mcp)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The project provides a GitHub-based solution to query and manage Shopify store data using GraphQL, supporting product, customer, and order management. It includes features like authentication setup, API integration, error handling, and developer tools for building intelligent apps.**
@@ -5126,7 +6360,7 @@
 
 ---
 
-### 52. [renant/mcp-tabnews](https://github.com/renant/mcp-tabnews)
+### 50. [renant/mcp-tabnews](https://github.com/renant/mcp-tabnews)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5143,7 +6377,7 @@
 
 ---
 
-### 53. [ttjslbz001/akshare_mcp_server](https://github.com/ttjslbz001/akshare_mcp_server)
+### 51. [ttjslbz001/akshare_mcp_server](https://github.com/ttjslbz001/akshare_mcp_server)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -5160,7 +6394,7 @@
 
 ---
 
-### 54. [gigapipehq/gigapipe-mcp](https://github.com/gigapipehq/gigapipe-mcp)
+### 52. [gigapipehq/gigapipe-mcp](https://github.com/gigapipehq/gigapipe-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -5177,7 +6411,7 @@
 
 ---
 
-### 55. [recoupable/mcp-vercel](https://github.com/recoupable/mcp-vercel)
+### 53. [recoupable/mcp-vercel](https://github.com/recoupable/mcp-vercel)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5193,7 +6427,7 @@
 
 ---
 
-### 56. [tornikegomareli/macos-tools-mcp-server](https://github.com/tornikegomareli/macos-tools-mcp-server)
+### 54. [tornikegomareli/macos-tools-mcp-server](https://github.com/tornikegomareli/macos-tools-mcp-server)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -5209,7 +6443,7 @@
 
 ---
 
-### 57. [tmhr1850/backlog-mcp-server](https://github.com/tmhr1850/backlog-mcp-server)
+### 55. [tmhr1850/backlog-mcp-server](https://github.com/tmhr1850/backlog-mcp-server)
 `9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -5230,7 +6464,7 @@
 
 ---
 
-### 58. [kenazk/gong-mcp](https://github.com/kenazk/gong-mcp)
+### 56. [kenazk/gong-mcp](https://github.com/kenazk/gong-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5246,7 +6480,7 @@
 
 ---
 
-### 59. [jfrog/jfrog-mcp-server](https://github.com/jfrog/jfrog-mcp-server)
+### 57. [jfrog/jfrog-mcp-server](https://github.com/jfrog/jfrog-mcp-server)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5262,7 +6496,7 @@
 
 ---
 
-### 60. [lipdog/excel-master-mcp](https://github.com/lipdog/excel-master-mcp)
+### 58. [lipdog/excel-master-mcp](https://github.com/lipdog/excel-master-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 
 **The Lipdog/excel-master-mcp project provides a GitHub-hosted MCP (Machine Control Platform) solution designed to streamline Excel-based data processing, financial computations, and automation workflows. It integrates advanced Excel functionalities with robust backend logic to support enterprise-grade applications in finance and business analytics.**
@@ -5277,7 +6511,22 @@
 
 ---
 
-### 61. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)
+### 59. [DigitalPlatDev/FreeDomain](https://github.com/DigitalPlatDev/FreeDomain)
+`9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
+
+**DigitalPlatDev's FreeDomain service provides accessible, affordable domain registration with various extensions, aiming to empower users by removing financial barriers to establishing an online presence. The platform emphasizes open access and community support, featuring a user-friendly interface and integration options with popular DNS providers.**
+
+**Features:**
+- free domain registration
+- various domain extensions
+- user-friendly dashboard
+- support for multiple DNS providers
+
+*Tags: domain, freedom, digitalplat, domainname, domainplatform, openaccess, onlinepresence, webidentity...*
+
+---
+
+### 60. [bigsy/shadow-cljs-mcp](https://github.com/bigsy/shadow-cljs-mcp)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5293,7 +6542,7 @@
 
 ---
 
-### 62. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)
+### 61. [masonchow/source-map-parser-mcp](https://github.com/masonchow/source-map-parser-mcp)
 `9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5309,7 +6558,7 @@
 
 ---
 
-### 63. [enemyrr/mcp-server-pagespeed](https://github.com/enemyrr/mcp-server-pagespeed)
+### 62. [enemyrr/mcp-server-pagespeed](https://github.com/enemyrr/mcp-server-pagespeed)
 `8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5325,7 +6574,7 @@
 
 ---
 
-### 64. [jacky1-jiang/epics-mcp-server](https://github.com/jacky1-jiang/epics-mcp-server)
+### 63. [jacky1-jiang/epics-mcp-server](https://github.com/jacky1-jiang/epics-mcp-server)
 `8.7` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -5340,7 +6589,7 @@
 
 ---
 
-### 65. [taidgh-robinson/nba-mcp-server](https://github.com/taidgh-robinson/nba-mcp-server)
+### 64. [taidgh-robinson/nba-mcp-server](https://github.com/taidgh-robinson/nba-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5356,7 +6605,7 @@
 
 ---
 
-### 66. [Hacker News](https://news.ycombinator.com/news?p=8)
+### 65. [Hacker News](https://news.ycombinator.com/news?p=8)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5373,7 +6622,7 @@
 
 ---
 
-### 67. [githejie/mcp-server-calculator](https://github.com/githejie/mcp-server-calculator)
+### 66. [githejie/mcp-server-calculator](https://github.com/githejie/mcp-server-calculator)
 `8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -5388,7 +6637,7 @@
 
 ---
 
-### 68. [i524/datadog-mcp-server](https://github.com/i524/datadog-mcp-server)
+### 67. [i524/datadog-mcp-server](https://github.com/i524/datadog-mcp-server)
 `8.7` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -5403,7 +6652,7 @@
 
 ---
 
-### 69. [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp#codex)
+### 68. [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp#codex)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -5420,7 +6669,7 @@
 
 ---
 
-### 70. [been_vibe_coding_for_8_months_heres_the_thing](https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_for_8_months_heres_the_thing)
+### 69. [been_vibe_coding_for_8_months_heres_the_thing](https://www.reddit.com/r/vibecoding/comments/1t7vawv/been_vibe_coding_for_8_months_heres_the_thing)
 `8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗4 layers
 
@@ -5437,15 +6686,30 @@
 
 ---
 
-### 71. [Detection Logs Show User Trying To Access Porn](https://www.reddit.com/r/sysadmin/comments/1s9lazg/detection_logs_show_user_trying_to_access_porn/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 70. [login/device](https://github.com/login/device/success)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**Detection Logs Show User Trying To Access Porn**
+**GitHub repository: login/device**
+
+---
+
+### 71. [I'm So Tired of Ads | Absurd Pirate's Internet Blog](https://blog.absurdpirate.com/im-so-tired-of-ads/)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**This resource explores the pervasive issue of intrusive advertising, detailing how ads interrupt daily routines like commuting, streaming, and even personal correspondence. It highlights the user experience degradation when ads interfere with desired content or communication, leading to a feeling of being 'tired' of the constant ad bombardment.**
+
+**Features:**
+- User Experience Degradation
+- Ad Block Detection
+- Content Interruption Analysis
+- Digital Fatigue Mapping
+
+*Tags: adblocker, userexperience, digitalfatigue, contentdelivery, webdev, marketingtech*
 
 ---
 
 ## Spec-Driven Development
-> 62 tools · avg signal ⚡88
+> 62 tools · avg signal ⚡87
 
 ### 1. [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -5711,27 +6975,7 @@
 
 ---
 
-### 15. [cam10001110101/mcp-server-obsidian-jsoncanvas](https://github.com/cam10001110101/mcp-server-obsidian-jsoncanvas)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The mcp-server-obsidian-jsoncanvas project provides a Python-based server implementation that adheres to the JSON Canvas 1.0 specification. It enables creation, modification, and validation of infinite canvas data structures, supporting various node types such as text, file, link, and group. The tool offers comprehensive operations including node management, edge creation/updates, exporting in multiple formats, and integration with Docker for containerized deployment.**
-
-**Features:**
-- JSON Canvas server implementation
-- Node creation and manipulation
-- Edge management
-- Validation against JSON Canvas specification
-- Export to JSON
-- SVG
-- PNG
-- Docker integration for deployment
-
-*Tags: mcp-server, jsoncanvas, python, developer-tools, api, webapp, data-management, server...*
-
----
-
-### 16. [manolaz/emergency-medicare-planner-mcp-server](https://github.com/manolaz/emergency-medicare-planner-mcp-server)
+### 15. [manolaz/emergency-medicare-planner-mcp-server](https://github.com/manolaz/emergency-medicare-planner-mcp-server)
 `8.8` ★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5748,7 +6992,7 @@
 
 ---
 
-### 17. [haykgrigo3/TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM)
+### 16. [haykgrigo3/TimeCapsuleLLM](https://github.com/haykgrigo3/TimeCapsuleLLM)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5765,7 +7009,7 @@
 
 ---
 
-### 18. [swayingleaves/uml-mcp-server](https://github.com/swayingleaves/uml-mcp-server)
+### 17. [swayingleaves/uml-mcp-server](https://github.com/swayingleaves/uml-mcp-server)
 `8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
 
 **| This resource is a Python library that generates various types of UML diagrams (Class, Sequence, Activity, etc.) from natural language descriptions or PlantUML code. It acts as an MCP server, integrating with clients like Claude to generate diagrams and provide accessible URLs/local paths for viewing. | | MAIN_FEATURES | UML Diagram Generation, Natural Language Description Support, PlantUML Code Generation, MCP Integration, Local File Path Saving. | | INNOVATION_SCORE | 8 (Based on the compreh...**
@@ -5781,7 +7025,7 @@
 
 ---
 
-### 19. [shibuiwilliam/mcp-server-zenn](https://github.com/shibuiwilliam/mcp-server-zenn)
+### 18. [shibuiwilliam/mcp-server-zenn](https://github.com/shibuiwilliam/mcp-server-zenn)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5798,7 +7042,7 @@
 
 ---
 
-### 20. [stonega/element-mcp](https://github.com/stonega/element-mcp)
+### 19. [stonega/element-mcp](https://github.com/stonega/element-mcp)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 
 **Element MCP is a Chrome extension designed to enhance developer productivity by allowing users to select specific DOM elements directly within web applications. It provides a user-friendly interface for developers to interact with web content, store selected elements in a table format, and retrieve them later. This tool streamlines the process of managing complex web interfaces, making it particularly useful for modernizing development workflows and improving code efficiency.**
@@ -5814,7 +7058,7 @@
 
 ---
 
-### 21. [loglmhq/mcp-server-github-repo](https://github.com/loglmhq/mcp-server-github-repo)
+### 20. [loglmhq/mcp-server-github-repo](https://github.com/loglmhq/mcp-server-github-repo)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5832,7 +7076,7 @@
 
 ---
 
-### 22. [leandrogavidia/vechain-mcp-server](https://github.com/leandrogavidia/vechain-mcp-server)
+### 21. [leandrogavidia/vechain-mcp-server](https://github.com/leandrogavidia/vechain-mcp-server)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5849,7 +7093,7 @@
 
 ---
 
-### 23. [huccihuang/bilibili-mcp-server](https://github.com/huccihuang/bilibili-mcp-server)
+### 22. [huccihuang/bilibili-mcp-server](https://github.com/huccihuang/bilibili-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5868,7 +7112,7 @@
 
 ---
 
-### 24. [f-inc/containerinc-mcp](https://github.com/f-inc/containerinc-mcp)
+### 23. [f-inc/containerinc-mcp](https://github.com/f-inc/containerinc-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5885,7 +7129,7 @@
 
 ---
 
-### 25. [alexandrebagio/swapi-mcp](https://github.com/alexandrebagio/swapi-mcp)
+### 24. [alexandrebagio/swapi-mcp](https://github.com/alexandrebagio/swapi-mcp)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 
 **The project utilizes the Smithery SDK to create a server that communicates with the SWAPI, enabling users to list and retrieve information about planets, people, ships, vehicles, species, and films from the Star Wars universe. It supports functionalities such as listing planets, characters, ships, vehicles, species, and movies, providing detailed data for each entity.**
@@ -5902,7 +7146,7 @@
 
 ---
 
-### 26. [afgong/sqlite-mcp-server](https://github.com/afgong/sqlite-mcp-server)
+### 25. [afgong/sqlite-mcp-server](https://github.com/afgong/sqlite-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5919,7 +7163,7 @@
 
 ---
 
-### 27. [puravparab/gitingest-mcp](https://github.com/puravparab/gitingest-mcp)
+### 26. [puravparab/gitingest-mcp](https://github.com/puravparab/gitingest-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -5936,7 +7180,7 @@
 
 ---
 
-### 28. [kailashappdev/graphql-mcp-toolkit](https://github.com/kailashappdev/graphql-mcp-toolkit)
+### 27. [kailashappdev/graphql-mcp-toolkit](https://github.com/kailashappdev/graphql-mcp-toolkit)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The Borg Project's GraphQL MCP Toolkit allows developers to integrate GraphQL capabilities into their applications by providing a model context protocol server. This toolkit supports schema introspection and dynamic query execution, enabling LLMs to interact with GraphQL APIs effectively. It includes features such as mutation support, custom headers, and integration with external tools for enhanced functionality.**
@@ -5952,7 +7196,7 @@
 
 ---
 
-### 29. [dongprojectteam/mcp-docent-server](https://github.com/dongprojectteam/mcp-docent-server)
+### 28. [dongprojectteam/mcp-docent-server](https://github.com/dongprojectteam/mcp-docent-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -5969,7 +7213,7 @@
 
 ---
 
-### 30. [omidsrezai/cv-mcp-tools](https://github.com/omidsrezai/cv-mcp-tools)
+### 29. [omidsrezai/cv-mcp-tools](https://github.com/omidsrezai/cv-mcp-tools)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -5986,7 +7230,7 @@
 
 ---
 
-### 31. [tedfytw1209/mcp-server-EVEfleet](https://github.com/tedfytw1209/mcp-server-EVEfleet)
+### 30. [tedfytw1209/mcp-server-EVEfleet](https://github.com/tedfytw1209/mcp-server-EVEfleet)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6003,7 +7247,7 @@
 
 ---
 
-### 32. [opensensor/bn_cline_mcp](https://github.com/opensensor/bn_cline_mcp)
+### 31. [opensensor/bn_cline_mcp](https://github.com/opensensor/bn_cline_mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6019,7 +7263,7 @@
 
 ---
 
-### 33. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)
+### 32. [billduke13/code-explainer-mcp](https://github.com/billduke13/code-explainer-mcp)
 `9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
 
 **This resource provides a detailed explanation of a Cloudflare Worker designed to help developers understand the structure, functionality, and components of the code. It includes an architecture diagram, core functionality analysis, component breakdowns, multi-language support, documentation extraction, and secure API handling.**
@@ -6035,7 +7279,7 @@
 
 ---
 
-### 34. [joshuarileydev/simulator-mcp-server](https://github.com/joshuarileydev/simulator-mcp-server)
+### 33. [joshuarileydev/simulator-mcp-server](https://github.com/joshuarileydev/simulator-mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6052,7 +7296,7 @@
 
 ---
 
-### 35. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp)
+### 34. [jonator/osmosis-agent-toolkit](https://github.com/jonator/osmosis-agent-toolkit/tree/HEAD/packages/mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -6069,7 +7313,7 @@
 
 ---
 
-### 36. [nikhil-patil-ri/mcp-github-oauth](https://github.com/nikhil-patil-ri/mcp-github-oauth)
+### 35. [nikhil-patil-ri/mcp-github-oauth](https://github.com/nikhil-patil-ri/mcp-github-oauth)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6086,7 +7330,7 @@
 
 ---
 
-### 37. [wycats/quick-mcp](https://github.com/wycats/quick-mcp)
+### 36. [wycats/quick-mcp](https://github.com/wycats/quick-mcp)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6103,7 +7347,7 @@
 
 ---
 
-### 38. [aldrin-labs/solana-docs-mcp-server](https://github.com/aldrin-labs/solana-docs-mcp-server)
+### 37. [aldrin-labs/solana-docs-mcp-server](https://github.com/aldrin-labs/solana-docs-mcp-server)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6119,7 +7363,7 @@
 
 ---
 
-### 39. [kilo.ai](https://kilo.ai)
+### 38. [kilo.ai](https://kilo.ai)
 `10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
 ↗4 layers
 
@@ -6137,7 +7381,7 @@
 
 ---
 
-### 40. [feuerdev/keep-mcp](https://github.com/feuerdev/keep-mcp)
+### 39. [feuerdev/keep-mcp](https://github.com/feuerdev/keep-mcp)
 `8.6` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -6154,7 +7398,7 @@
 
 ---
 
-### 41. [databutton/databutton-mcp](https://github.com/databutton/databutton-mcp)
+### 40. [databutton/databutton-mcp](https://github.com/databutton/databutton-mcp)
 `8.8` ★ ⚡86 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6170,7 +7414,7 @@
 
 ---
 
-### 42. [bigsy/clj-kondo-mcp](https://github.com/bigsy/clj-kondo-mcp)
+### 41. [bigsy/clj-kondo-mcp](https://github.com/bigsy/clj-kondo-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The Bigsy clj-kondo-MCP project provides an AI-powered linter specifically designed for Clojure and related languages. It integrates with Claude code and desktop, offering enterprise-grade security features, automated workflows, and seamless integration into modern development environments.**
@@ -6186,7 +7430,7 @@
 
 ---
 
-### 43. [shinzo-labs/heimdall](https://github.com/shinzo-labs/heimdall)
+### 42. [shinzo-labs/heimdall](https://github.com/shinzo-labs/heimdall)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -6203,7 +7447,7 @@
 
 ---
 
-### 44. [openshift-pipelines/mcp-tekton](https://github.com/openshift-pipelines/mcp-tekton)
+### 43. [openshift-pipelines/mcp-tekton](https://github.com/openshift-pipelines/mcp-tekton)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -6220,7 +7464,7 @@
 
 ---
 
-### 45. [renanvieira/brewfather-mcp](https://github.com/renanvieira/brewfather-mcp)
+### 44. [renanvieira/brewfather-mcp](https://github.com/renanvieira/brewfather-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -6237,7 +7481,7 @@
 
 ---
 
-### 46. [Flux 2 Klein pure C inference | Hacker News](https://news.ycombinator.com/item?id=46670279)
+### 45. [Flux 2 Klein pure C inference | Hacker News](https://news.ycombinator.com/item?id=46670279)
 `9.0` ★★ ⚡85 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -6255,7 +7499,7 @@
 
 ---
 
-### 47. [odewahn/orm-discovery-mcp](https://github.com/odewahn/orm-discovery-mcp)
+### 46. [odewahn/orm-discovery-mcp](https://github.com/odewahn/orm-discovery-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 
 **The 'orm-discovery-mcp' project provides a GitHub-based solution to automate the discovery, analysis, and management of ORMs (Object-Relational Mappers) within repositories. It leverages code inspection and repository metadata to identify relevant projects, offering developers a streamlined way to integrate ORM solutions into their workflows.**
@@ -6270,7 +7514,7 @@
 
 ---
 
-### 48. [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp)
+### 47. [bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 
 **The MCP Server acts as a unified interface for developers to manage various aspects of the Bitrise platform such as app deployment, build processes, artifact handling, and more. It streamlines operations by providing a single point of access for essential functionalities, enhancing efficiency and consistency in software development workflows.**
@@ -6285,7 +7529,7 @@
 
 ---
 
-### 49. [rahgadda/openapi_mcp_server](https://github.com/rahgadda/openapi_mcp_server)
+### 48. [rahgadda/openapi_mcp_server](https://github.com/rahgadda/openapi_mcp_server)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6301,7 +7545,7 @@
 
 ---
 
-### 50. [darkroaster/pubmearch](https://github.com/darkroaster/pubmearch)
+### 49. [darkroaster/pubmearch](https://github.com/darkroaster/pubmearch)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6317,7 +7561,7 @@
 
 ---
 
-### 51. [vadimnastoyashchy/json-mcp](https://github.com/vadimnastoyashchy/json-mcp)
+### 50. [vadimnastoyashchy/json-mcp](https://github.com/vadimnastoyashchy/json-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 
 **The JSON MCP server is designed to enhance the capabilities of large language models (LLMs) by allowing them to split, merge, and query specific data within JSON files based on defined conditions. This tool streamlines data manipulation tasks, making it easier for developers to integrate structured data processing into their workflows.**
@@ -6332,7 +7576,7 @@
 
 ---
 
-### 52. [openai/symphony?tab=readme-ov-file](https://github.com/openai/symphony?tab=readme-ov-file)
+### 51. [openai/symphony?tab=readme-ov-file](https://github.com/openai/symphony?tab=readme-ov-file)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -6348,7 +7592,7 @@
 
 ---
 
-### 53. [akramsheriff5/mcp-server](https://github.com/akramsheriff5/mcp-server)
+### 52. [akramsheriff5/mcp-server](https://github.com/akramsheriff5/mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6364,7 +7608,7 @@
 
 ---
 
-### 54. [ozgrozer/mcp-get-terminal-logs](https://github.com/ozgrozer/mcp-get-terminal-logs)
+### 53. [ozgrozer/mcp-get-terminal-logs](https://github.com/ozgrozer/mcp-get-terminal-logs)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The ozgrozer/mcp-get-terminal-logs project provides a GitHub-based solution to fetch and organize terminal logs from a specified GitHub repository. It enables developers to easily access log files, analyze system activity, and troubleshoot issues by integrating with the MCP (Manage Code) platform.**
@@ -6379,7 +7623,7 @@
 
 ---
 
-### 55. [skudskud/test-repo-mcp](https://github.com/skudskud/test-repo-mcp)
+### 54. [skudskud/test-repo-mcp](https://github.com/skudskud/test-repo-mcp)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **This project serves as a proof-of-concept for building an MCP server on top of the Uber Eats platform. It leverages Python 3.12 or higher, the Anthropic API key, and integrates with LLM applications to facilitate seamless communication between external tools and AI models.**
@@ -6394,7 +7638,7 @@
 
 ---
 
-### 56. [bimgeek/speckle-mcp](https://github.com/bimgeek/speckle-mcp)
+### 55. [bimgeek/speckle-mcp](https://github.com/bimgeek/speckle-mcp)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 
 **The project provides tools and integrations to streamline software development processes by enabling teams to automate workflows, manage code changes efficiently, and enhance collaboration through features like pull request management, code review, and CI/CD integration.**
@@ -6409,7 +7653,7 @@
 
 ---
 
-### 57. [crtdaniele/mcp-medium-accelerator](https://github.com/crtdaniele/mcp-medium-accelerator)
+### 56. [crtdaniele/mcp-medium-accelerator](https://github.com/crtdaniele/mcp-medium-accelerator)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6425,7 +7669,7 @@
 
 ---
 
-### 58. [Introduction - MCPJam Inspector](https://docs.mcpjam.com)
+### 57. [Introduction - MCPJam Inspector](https://docs.mcpjam.com)
 `9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6445,7 +7689,7 @@
 
 ---
 
-### 59. [lethain/systems-mcp](https://github.com/lethain/systems-mcp)
+### 58. [lethain/systems-mcp](https://github.com/lethain/systems-mcp)
 `8.7` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 
 **The lethain:systems library is designed to facilitate systems modeling by providing tools to run and interpret systems specification models. The MCP server, systems-mcp, integrates with this library to enable users to execute and visualize system behaviors through Python scripts. This project focuses on enhancing developer productivity by offering a streamlined interface for model execution and output generation.**
@@ -6458,7 +7702,7 @@
 
 ---
 
-### 60. [6_things_i_learned_building_an_opensource_tool_to](https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to)
+### 59. [6_things_i_learned_building_an_opensource_tool_to](https://www.reddit.com/r/vibecodeapp/comments/1t1n7d2/6_things_i_learned_building_an_opensource_tool_to)
 `8.8` ★ ⚡75 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6475,7 +7719,7 @@
 
 ---
 
-### 61. [OT in Context — Interactive Biblical Geography & Archaeology App](https://otincontext.com)
+### 60. [OT in Context — Interactive Biblical Geography & Archaeology App](https://otincontext.com)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6491,15 +7735,31 @@
 
 ---
 
-### 62. [Comparison Pro Vs Pro Plan](https://www.reddit.com/r/GithubCopilot/comments/1sd46h1/comparison_pro_vs_pro_plan/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 61. [Fire And Motion – Joel on Software](https://www.joelonsoftware.com/2002/01/06/fire-and-motion/)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
 
-**Comparison Pro Vs Pro Plan**
+**This resource delves into the psychological aspect of software development, examining the ebb and flow of a developer's productivity, the nature of 'flow states,' and the reality of the time spent coding versus the perceived need for more productive hours. It offers insights into the common struggles developers face in achieving consistent output.**
+
+**Features:**
+- Developer Productivity Insights
+- Flow State Analysis
+- Developer Time Management
+- Software Development Psychology
+- Career Productivity Insights
+
+*Tags: developer-workflow, software-development, productivity, flow-state, career-insights, developer-tools*
+
+---
+
+### 62. [https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi](https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json**
 
 ---
 
 ## Skill Systems
-> 54 tools · avg signal ⚡89
+> 56 tools · avg signal ⚡88
 
 ### 1. [nicobailon/code-summarizer](https://github.com/nicobailon/code-summarizer)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -6721,26 +7981,7 @@
 
 ---
 
-### 13. [jguimera/securitycopilotmcpserver](https://github.com/jguimera/securitycopilotmcpserver)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The SecurityCopilotMCPServer project provides a Python-based MCP server that integrates with Microsoft Security Copilot and Sentinel. It enhances the process of developing, testing, and uploading Security Copilot skillsets and plugins by acting as a bridge between development environments and Microsoft security tools. The server supports running KQL queries against Sentinel, managing skillsets, uploading/updating plugins, and integrating with Azure Identity for authentication.**
-
-**Features:**
-- Integration with Security Copilot and Sentinel
-- KQL query execution in Sentinel
-- Skillsets and plugin management
-- Authentication support (interactive
-- client secret
-- managed identity)
-- Deployment and testing of security artifacts
-
-*Tags: security, developer, ai, mcp, securitycopilot, sentinel, azure, python...*
-
----
-
-### 14. [brianshin22/youtube-translate-mcp](https://github.com/brianshin22/youtube-translate-mcp)
+### 13. [brianshin22/youtube-translate-mcp](https://github.com/brianshin22/youtube-translate-mcp)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 
 **The project provides a Python package, youtube-translate-mcp, designed to interface with the YouTube Translate API. It enables developers to obtain transcripts, translations, and summaries of YouTube videos in various languages. The tool supports both local development via Docker and integration with platforms like Claude Desktop for seamless testing. It emphasizes ease of use, offering features such as command-line execution, Docker deployment, and integration with CI/CD pipelines.**
@@ -6758,7 +7999,7 @@
 
 ---
 
-### 15. [bucketco/bucket-javascript-sdk](https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli)
+### 14. [bucketco/bucket-javascript-sdk](https://github.com/bucketco/bucket-javascript-sdk/tree/HEAD/packages/cli)
 `9.6` ★★ ⚡92 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -6775,7 +8016,7 @@
 
 ---
 
-### 16. [jordandalton/doordash-mcp-server](https://github.com/jordandalton/doordash-mcp-server)
+### 15. [jordandalton/doordash-mcp-server](https://github.com/jordandalton/doordash-mcp-server)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6794,7 +8035,7 @@
 
 ---
 
-### 17. [thegdsks/awesome-modern-cli](https://github.com/thegdsks/awesome-modern-cli)
+### 16. [thegdsks/awesome-modern-cli](https://github.com/thegdsks/awesome-modern-cli)
 `9.8` ★★ ⚡92 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -6811,7 +8052,7 @@
 
 ---
 
-### 18. [8ddieHu0314/Skill-Lab](https://github.com/8ddieHu0314/Skill-Lab)
+### 17. [8ddieHu0314/Skill-Lab](https://github.com/8ddieHu0314/Skill-Lab)
 `8.5` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6829,7 +8070,7 @@
 
 ---
 
-### 19. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)
+### 18. [wrediam/coolify-mcp-server](https://github.com/wrediam/coolify-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -6847,7 +8088,7 @@
 
 ---
 
-### 20. [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess)
+### 19. [jiayao/mcp-chess](https://github.com/jiayao/mcp-chess)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6864,7 +8105,7 @@
 
 ---
 
-### 21. [tolik-unicornrider/mcp_scraper](https://github.com/tolik-unicornrider/mcp_scraper)
+### 20. [tolik-unicornrider/mcp_scraper](https://github.com/tolik-unicornrider/mcp_scraper)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -6881,7 +8122,7 @@
 
 ---
 
-### 22. [ecmadao/Train-12306](https://github.com/ecmadao/Train-12306)
+### 21. [ecmadao/Train-12306](https://github.com/ecmadao/Train-12306)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 
 **This project provides a Python-based command-line application to display and manage 12306 train schedules, including ticket information. It leverages the Click library for user-friendly command input and integrates with GitHub for version control and collaboration. The tool supports various features such as filtering by station, date, train type, and more, making it suitable for developers and users needing efficient train management.**
@@ -6897,7 +8138,7 @@
 
 ---
 
-### 23. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)
+### 22. [PackmindHub/packmind](https://github.com/PackmindHub/packmind)
 `9.5` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗6 layers
 
@@ -6914,7 +8155,7 @@
 
 ---
 
-### 24. [miguelgarzons/mcp-cun](https://github.com/miguelgarzons/mcp-cun)
+### 23. [miguelgarzons/mcp-cun](https://github.com/miguelgarzons/mcp-cun)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -6928,6 +8169,22 @@
 - Code integration and testing
 
 *Tags: mcp, python, developer, ai, server, code, deployment, testing...*
+
+---
+
+### 24. [aws/amazon-q-developer-cli](https://github.com/aws/amazon-q-developer-cli)
+`9.0` ★★ ⚡91 Q0.8🏆 🏆 World-class
+
+**The Amazon Q Developer CLI is an open-source project designed to streamline the development workflow for Amazon Q, a service that enables developers to build and manage conversational AI applications. This repository provides essential tools and scripts to facilitate automation, integration, and maintenance of AWS services related to Amazon Q. It supports various programming languages and platforms, including Rust and shell scripting, making it versatile for different developer needs.**
+
+**Features:**
+- Command-line interface for automating tasks
+- Integration with AWS services
+- Support for multiple programming languages
+- Scripting capabilities for custom workflows
+- Documentation and contribution guidelines
+
+*Tags: aws, amazon-q, cli, rust, developer, productivity, open-source, automation...*
 
 ---
 
@@ -7416,31 +8673,36 @@
 
 ---
 
-### 53. [tannisas/mcp-server](https://github.com/tannisas/mcp-server/tree/HEAD/X_twee)
-`7.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-↗2 layers
+### 53. [google/skills](https:](https://github.com/google/skills](https://github.com/google/skills)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**The MCP-Server project provides a simple note storage system with a custom URI scheme, allowing users to summarize notes and manage content efficiently. It supports adding and updating notes via a command-line interface, making it suitable for personal or small-scale use cases.**
-
-**Features:**
-- custom note URI scheme
-- note summarization tool
-- add-note functionality
-- update server state
-
-*Tags: mcp-server, note-management, developer-tools, ai-integration, code-deployment, security-features*
+**GitHub repository: google/skills](https:**
 
 ---
 
-### 54. [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)
+### 54. [victorqnguyen/skills](https://github.com/victorqnguyen/skills/tree/main/skills/mcp-builder)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**GitHub repository: Imbad0202/academic-research-skills**
+**GitHub repository: victorqnguyen/skills**
+
+---
+
+### 55. [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills/blob/main/CLAUDE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: multica-ai/andrej-karpathy-skills**
+
+---
+
+### 56. [spinchange/cartographer-skill](https://github.com/spinchange/cartographer-skill/blob/main/skills/cartographer/SKILL.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: spinchange/cartographer-skill**
 
 ---
 
 ## Orchestration
-> 52 tools · avg signal ⚡87
+> 51 tools · avg signal ⚡89
 
 ### 1. [flatfilers/mcp-server-flatfile](https://github.com/flatfilers/mcp-server-flatfile)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -7576,7 +8838,23 @@
 
 ---
 
-### 8. [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp)
+### 8. [antoinezambelli/forge](https://github.com/antoinezambelli/forge)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+
+**Forge is a Python-based platform designed to streamline the integration of large language models into self-hosted environments. It provides a structured workflow system that allows users to define required steps, prerequisites, and terminal tools, ensuring consistent and reliable execution of LLM calls. The framework supports various agents and LLMs such as LLaMA and Ollama, offering flexibility in how tasks are orchestrated. With features like Docker integration, robust error handling, and a fo...**
+
+**Features:**
+- Self-hosted environment support
+- Workflow orchestration with optional steps and prerequisites
+- Integration with multiple LLMs including LLaMA and Ollama
+- Proxy server functionality for seamless API communication
+- Comprehensive documentation and changelog
+
+*Tags: agent-orchestration, workflow-management, llm-integration, self-hosted-ai, developer-tools, ai-frameworks, code-reliability, multi-agent-coordination...*
+
+---
+
+### 9. [longevity-genie/opengenes-mcp](https://github.com/longevity-genie/opengenes-mcp)
 `9.8` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -7593,7 +8871,7 @@
 
 ---
 
-### 9. [bjoernbonk/letsbonk_mcp_server](https://github.com/bjoernbonk/letsbonk_mcp_server)
+### 10. [bjoernbonk/letsbonk_mcp_server](https://github.com/bjoernbonk/letsbonk_mcp_server)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -7611,7 +8889,7 @@
 
 ---
 
-### 10. [yoda-digital/mcp-gitlab-server](https://github.com/yoda-digital/mcp-gitlab-server)
+### 11. [yoda-digital/mcp-gitlab-server](https://github.com/yoda-digital/mcp-gitlab-server)
 `9.6` ★★ ⚡92 Q0.9🏆 🏆 World-class
 
 **The project provides a GitLab-based server with tools for automated code reviews, security scanning, CI/CD integration, and enterprise-grade workflow orchestration. It supports advanced security features, developer productivity enhancements, and integrates with external tools to streamline modern software development processes.**
@@ -7626,23 +8904,6 @@
 - Release management with full pipeline control
 
 *Tags: ai, ai-assisted, ci, ci-cd, developer, developer-tools, devops, enterprise...*
-
----
-
-### 11. [arclio/github-projects-mcp](https://github.com/arclio/github-projects-mcp)
-`8.8` ★ ⚡92 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The Arclio GitHub Projects MCP server provides a centralized platform to interact with GitHub Projects V2 using the GraphQL API. It supports key operations such as listing projects, creating issues, updating fields, and managing drafts, all while integrating seamlessly with MCP clients like Claude Desktop. The tool emphasizes automation, security, and developer productivity by offering features like code review management, workflow orchestration, and enterprise-grade security controls.**
-
-**Features:**
-- Project management tools
-- Code review automation
-- Workflow orchestration
-- Security and compliance
-- Integration with MCP clients
-
-*Tags: github-projects-mcp, github-api, developer-tools, project-management, security-features, mcp-integration, code-review, automation...*
 
 ---
 
@@ -8299,506 +9560,15 @@
 
 ---
 
-### 51. [Copilot Sdk Is Awesome Trying Out A Swarm Reviewer](https://www.reddit.com/r/GithubCopilot/comments/1sc692e/copilot_sdk_is_awesome_trying_out_a_swarm_reviewer/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Copilot Sdk Is Awesome Trying Out A Swarm Reviewer**
-
----
-
-### 52. [Github Copilot Cli Fleetorchestration Plugin](https://www.reddit.com/r/GithubCopilot/comments/1sfn5m3/github_copilot_cli_fleetorchestration_plugin/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Copilot Cli Fleetorchestration Plugin**
-
----
-
-## Other Tools
-> 44 tools · avg signal ⚡63
-
-### 1. [elevenlabs/elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp)
-`9.8` ★★ ⚡92 Q0.9🏆 🏆 World-class
-
-**The ElevenLabs MCP server facilitates interaction with robust Text-to-Speech and audio APIs, empowering developers to integrate sophisticated voice capabilities into their applications. It supports a wide range of use cases including modernization, DevSecOps, CI/CD, and enterprise-level AI development.**
-
-**Features:**
-- MCP server integration
-- Text-to-speech generation
-- Audio processing APIs
-- Voice cloning
-- Speech synthesis customization
-
-*Tags: ai, voice, text-to-speech, audio, developer, mcp, api, integration*
-
----
-
-### 2. [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The ntfy-mcp project provides a comprehensive environment for AI-driven software development, offering tools for code generation, workflow automation, secure coding practices, and integration with external systems. It supports enterprise-grade security features, DevOps workflows, and seamless deployment pipelines, making it suitable for modernizing applications across industries.**
-
-**Features:**
-- code generation
-- workflow automation
-- secure coding
-- integration capabilities
-- CI/CD support
-
-*Tags: ai-development, devops, security, code-generation, workflow-automation, enterprise, ai-tools, software-development...*
-
----
-
-### 3. [stakpak/mcp](https://github.com/stakpak/mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The stakpak/mcp project provides a minimalistic MCP server that facilitates interaction with the Stakpak API, supporting secure code generation, infrastructure provisioning, and workflow automation. It is designed to streamline integration with external services such as Vercel and various IDEs, enhancing developer productivity and enabling modern DevOps practices.**
-
-**Features:**
-- MCP server integration
-- Stakpak API access
-- Infrastructure code generation
-- IDE integration
-- CI/CD support
-
-*Tags: mcp, api, developer, integration, devops, security, code, automation*
-
----
-
-### 4. [a2amarket/mcp-clamav](https://github.com/a2amarket/mcp-clamav)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The a2amarket/mcp-clamav project provides a lightweight MCP (Messaging Control Protocol) server that leverages the ClamAV virus scanner to detect malicious files in real-time. It integrates seamlessly with tools like Cursor for enhanced security workflows, supports automated scanning processes, and is designed for easy deployment across various environments.**
-
-**Features:**
-- ClamAV integration
-- SSE protocol support
-- Automated file scanning
-- Integration with Cursor
-- Real-time virus detection
-
-*Tags: mcp, clamav, security, virus-scanning, automation, developer-tools, file-security, api-integration...*
-
----
-
-### 5. [supercurses/powerpoint](https://github.com/supercurses/powerpoint)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-
-**The supercurses Powerpoint MCP server enables developers to build interactive presentations by integrating AI-generated images, tables, charts, and dynamic content. It supports workflow automation, secure deployment, and integration with external tools, making it suitable for enterprise-level application development and DevOps practices.**
-
-**Features:**
-- Create presentation with various tools including title slides
-- section headers
-- charts
-- tables
-- and captions
-- Generate images using the TogetherAI FLUX model
-- Save presentations as backup files
-- Integrate with external image sources or provide custom image paths
-- Automate deployment and workflow integration
-
-*Tags: mcp-server, powerpoint, ai-generated-content, data-visualization, presentation-automation, cloud-deployment, developer-tools, enterprise-software...*
-
----
-
-### 6. [talismanic/cleanuri-url-shortener-mcp](https://github.com/talismanic/cleanuri-url-shortener-mcp)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Talismanic/cleanuri-url-shortener-mcp project provides a Python-based FastMCP server application that leverages the CleanURI API to generate shortened URLs. It supports seamless integration into automated workflows, enabling developers to embed URL shortening functionality within their applications or CI/CD pipelines. The tool is optimized for performance and reliability, with robust error handling and validation mechanisms to ensure consistent results.**
-
-**Features:**
-- URL shortening via CleanURI API
-- FastMCP integration
-- Error handling and response validation
-- Docker-based deployment support
-
-*Tags: url-shortener, fastmcp, python, api, integration, automation, developer-tools, security...*
-
----
-
-### 7. [v0idpwn/hexdocs-mcp](https://github.com/v0idpwn/hexdocs-mcp)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-
-**The v0idpwn/hexdocs-mcp project is an unofficial, experimental MCP (Machine-to-Machine) server designed to enhance the search capabilities within HexDocs. It allows AI agents like Claude to search and retrieve information from the HexDocs documentation seamlessly. The repository includes setup instructions for integrating the server into various development environments, emphasizing its role in improving developer productivity and efficiency.**
-
-**Features:**
-- AI integration
-- HexDocs search functionality
-- Customizable workflows
-- Real-time updates
-
-*Tags: hexdocs, mcp, ai, developer, search, integration, documentation, aiagent...*
-
----
-
-### 8. [AuraCoreCF/AuraCoreCF.github.io](https://github.com/AuraCoreCF/AuraCoreCF.github.io/tree/main/AuraRuntime)
-`8.8` ★ ⚡87 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**AuraCoreCF is a platform designed to streamline the development and deployment of AI-driven applications by integrating advanced code generation, secure coding practices, and automated workflows. It supports enterprise-level security features, developer productivity tools, and seamless integration with external systems, making it ideal for modernizing software development processes.**
-
-**Features:**
-- AI-powered code generation
-- secure coding practices
-- automated workflows
-- integration with external tools
-- developer productivity enhancements
-
-*Tags: ai, code-generation, security, workflow, development, enterprise*
-
----
-
-### 9. [kwp-lab/rss-reader-mcp](https://github.com/kwp-lab/rss-reader-mcp)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The MCP server facilitates the collection of RSS feeds and enables the extraction of full article content from URLs. It supports integration with various clients like Claude Desktop and CherryStudio, providing a seamless experience for users to access news articles in Markdown format.**
-
-**Features:**
-- RSS feed aggregation
-- Article content extraction
-- Markdown formatting of article content
-- Support for multiple RSS sources
-- Integration with MCP clients
-
-*Tags: mcp, rss-reader-mcp, api, web-scraping, content-extraction, developer-tools, security, cloud-deployment...*
-
----
-
-### 10. [conao3/python-mcp-uuid](https://github.com/conao3/python-mcp-uuid)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-
-**The conao3/python-mcp-uuid project provides a lightweight server that generates deterministic UUIDs (version 4) suitable for integration with MCP-compatible clients such as Claude Desktop. It supports Python 3.13+ and is designed to be easily installed via PDM, making it ideal for developers working on secure, automated workflows in DevOps and AI-driven environments.**
-
-**Features:**
-- UUID generation
-- Version control integration
-- PDM compatibility
-- Virtual environment support
-
-*Tags: python, mcp, uuid, developer, security, codebase, automation, ai...*
-
----
-
-### 11. [slidespeak/slidespeak-mcp](https://github.com/slidespeak/slidespeak-mcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-
-**The SlideSpeak MCP project provides a Dockerized server that allows developers to automate the generation of PowerPoint presentations directly from code. By integrating with Slidespeak's API, it streamlines the process of creating and managing presentations, enhancing productivity for teams working on documentation, reports, or training materials.**
-
-**Features:**
-- Automated presentation creation via MCP
-- Integration with Slidespeak API
-- Docker-based deployment for easy setup
-- Support for enterprise-level workflows
-
-*Tags: mcp, api-integration, automation, presentation-generation, slidespeak, docker*
-
----
-
-### 12. [nodetec/nostr-code-snippet-mcp](https://github.com/nodetec/nostr-code-snippet-mcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This GitHub repository provides a code snippet for implementing an MCP (Machine-to-Machine) server using Node.js. The project focuses on integrating external tools and automating workflows, with emphasis on security and deployment strategies. It includes features such as code generation, CI/CD integration, and enterprise-grade security measures.**
-
-**Features:**
-- code generation
-- workflow automation
-- security integration
-- CI/CD support
-
-*Tags: node, github, code-snippet, mcp, developer, security, integration, deployment...*
-
----
-
-### 13. [guilhermelirio/brazilian-cep-mcp](https://github.com/guilhermelirio/brazilian-cep-mcp)
-`8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project implements a MCP-based server that allows users to retrieve detailed information about Brazilian addresses via CEP. It integrates with AI and provides functionalities such as code compilation, deployment, and secure development practices.**
-
-**Features:**
-- API integration
-- code compilation
-- secure development
-- AI support
-- CI/CD pipeline
-
-*Tags: mcp, cep, postal-code, ai-integration, developer-tools, security, deployment, smart-devops*
-
----
-
-### 14. [antoncoding/mcp-brianknows](https://github.com/antoncoding/mcp-brianknows)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-
-**The project offers a custom MCP server that enables secure connections between Claude Desktop and external tools like BrianKnows' blockchain knowledge base. It provides three main functionalities: a Ping Tool to check server responsiveness, a Search Tool to query blockchain and DeFi information, and an Agent Tool for direct interaction with the BrianKnows agent. The server supports multiple knowledge bases such as CircleKB, LidoKB, PolygonKB, etc., and caches recent searches for quick access. It...**
-
-**Features:**
-- Ping Tool
-- Search Tool
-- Agent Tool
-
-*Tags: mcp-brianknows, brianknows, defi-knowledge, ai-assistant, blockchain, developer-tools*
-
----
-
-### 15. [pratik-kumar-cse/script-generation-mcp](https://github.com/pratik-kumar-cse/script-generation-mcp)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The project provides a MCP server-based platform that enables users to create summaries of stored notes using AI prompts. It includes tools for adding, updating, and generating scripts based on note content, supporting customizable styles and integrations for seamless workflow automation.**
-
-**Features:**
-- AI-powered note summarization
-- Script generation from notes
-- Customizable prompting
-- Integration with MCP server
-
-*Tags: script-generation, ai, developer-tools, notebook, automation, mcp-server, code-generation, security...*
-
----
-
-### 16. [emicklei/protofmt-mcp](https://github.com/emicklei/protofmt-mcp)
-`8.7` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-
-**The MCP server enables developers to convert ProtocolBuffer (.proto) files into MCP-compatible formats, supporting multiple versions (2, 3, and editions). This facilitates seamless integration with MCP-based systems and enhances interoperability across different platforms. The tool is designed for ease of use, offering a streamlined workflow for developers working on complex data serialization tasks.**
-
-**Features:**
-- Format .proto files
-- Support multiple protocol versions
-- Integrate with MCP ecosystem
-
-*Tags: protocolbuffer, protobuf, mcp, go, developer*
-
----
-
-### 17. [zzzccs123/mcp-baike-render](https://github.com/zzzccs123/mcp-baike-render)
-`8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The project provides a GitHub-based solution to fetch Baidu Baike discussion data via the request_baike tool and render it using the render_baike template. It supports structured analysis of Baidu Baike topics, highlighting trends, popular discussions, and societal relevance.**
-
-**Features:**
-- Request Baike API integration
-- Render Baike discussion content
-- Analyze and visualize Baidu Baike topics
-- Support for custom prompts and templates
-
-*Tags: baike, api, web-scraping, data-analysis, developer-tools*
-
----
-
-### 18. [dannymac180/mcp-think-tool](https://github.com/dannymac180/mcp-think-tool)
-`8.7` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP Think Tool is a dedicated environment within an MCP server designed to improve complex reasoning tasks for AI models like Claude. It provides structured thinking spaces, maintains thought history, and supports detailed statistics and analysis to aid in decision-making and problem-solving.**
-
-**Features:**
-- Structured Thinking Space
-- Thought History
-- Statistics and Analysis
-
-*Tags: mcp-think-tool, ai-development, code-automation, developer-tools, security-features*
-
----
-
-### 19. [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
-`9.0` ★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**一個基於AI的股票智能分析系統，提供決策分析與自動推送功能。**
-
-**Features:**
-- AI驅動的決策報告
-- 多市場數據整合（A股、港股、美股等）
-- 自動推送決策指引至多社交平台
-- 支持多種分析策略與模型
-- 完整的資料源與數據來源配置
-
-*Tags: ai-agents, quantitative-finance, quantitative-trading, ai-agent, llm, stock-analysis, automation, data-integration...*
-
----
-
-### 20. [yvonboulianne/laeka-rational](https://github.com/yvonboulianne/laeka-rational)
+### 51. [josstei/maestro-orchestrate](https://github.com/josstei/maestro-orchestrate/releases/tag/v1.5.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**GitHub repository: yvonboulianne/laeka-rational**
-
----
-
-### 21. [NVlabs/Sana](https://github.com/NVlabs/Sana)
-`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
-
-**GitHub repository: NVlabs/Sana**
-
----
-
-### 22. [Claudemem Hit 45000 Stars On Github Today And It](https://www.reddit.com/r/ClaudeCode/comments/1scz5kk/claudemem_hit_45000_stars_on_github_today_and_it/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claudemem Hit 45000 Stars On Github Today And It**
-
----
-
-### 23. [I Ran 12 Ai Agents On One Laptop For 47 Hours 737](https://www.reddit.com/r/coolgithubprojects/comments/1sc7pxn/i_ran_12_ai_agents_on_one_laptop_for_47_hours_737/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Ran 12 Ai Agents On One Laptop For 47 Hours 737**
-
----
-
-### 24. [Github Millajovovichmempalace The Highestscoring](https://www.reddit.com/r/LocalLLaMA/comments/1seuoz0/github_millajovovichmempalace_the_highestscoring/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Millajovovichmempalace The Highestscoring**
-
----
-
-### 25. [I Built An Opensource Arena Where Ai Agents Play](https://www.reddit.com/r/coolgithubprojects/comments/1sewayc/i_built_an_opensource_arena_where_ai_agents_play/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built An Opensource Arena Where Ai Agents Play**
-
----
-
-### 26. [I Made Squarebox A Containerised Dev Environment](https://www.reddit.com/r/coolgithubprojects/comments/1settjv/i_made_squarebox_a_containerised_dev_environment/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Made Squarebox A Containerised Dev Environment**
-
----
-
-### 27. [I Built A Tool To See Whats Using Your Ports And](https://www.reddit.com/r/coolgithubprojects/comments/1siqalg/i_built_a_tool_to_see_whats_using_your_ports_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Tool To See Whats Using Your Ports And**
-
----
-
-### 28. [My Opensource Flight Search For Ai Agents Just](https://www.reddit.com/r/coolgithubprojects/comments/1t06f3y/my_opensource_flight_search_for_ai_agents_just/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Opensource Flight Search For Ai Agents Just**
-
----
-
-### 29. [I Built A Free Opensource Ai Job Applier And It](https://www.reddit.com/r/coolgithubprojects/comments/1t1ceff/i_built_a_free_opensource_ai_job_applier_and_it/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Built A Free Opensource Ai Job Applier And It**
-
----
-
-### 30. [Sim Found This Repo 29 Days Before It Hit Github](https://www.reddit.com/r/coolgithubprojects/comments/1t2kx5m/sim_found_this_repo_29_days_before_it_hit_github/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Sim Found This Repo 29 Days Before It Hit Github**
-
----
-
-### 31. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Blaziumgamesyadms Yet Another Desktop**
-
----
-
-### 32. [Built A Cli That Cuts Ai Coding Token Usage By 97](https://www.reddit.com/r/coolgithubprojects/comments/1t6qd9q/built_a_cli_that_cuts_ai_coding_token_usage_by_97/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Cli That Cuts Ai Coding Token Usage By 97**
-
----
-
-### 33. [An Mcp Server That Audits Any Public Github Repo](https://www.reddit.com/r/mcp/comments/1t93m1g/an_mcp_server_that_audits_any_public_github_repo/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**An Mcp Server That Audits Any Public Github Repo**
-
----
-
-### 34. [Github Jbpaytonshelldweller A Selfbootstrapping](https://www.reddit.com/r/accelerate/comments/1t9qzdf/github_jbpaytonshelldweller_a_selfbootstrapping/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Jbpaytonshelldweller A Selfbootstrapping**
-
----
-
-### 35. [Starting Today I Declare Scraping Free Again](https://www.reddit.com/r/coolgithubprojects/comments/1tbqnxw/starting_today_i_declare_scraping_free_again/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Starting Today I Declare Scraping Free Again**
-
----
-
-### 36. [Opensourced Livechord Chordbeat Detection And Ai](https://www.reddit.com/r/coolgithubprojects/comments/1tb08mz/opensourced_livechord_chordbeat_detection_and_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Opensourced Livechord Chordbeat Detection And Ai**
-
----
-
-### 37. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Projects Community Cocoindex Turns Your**
-
----
-
-### 38. [Is There Literally Even One](https://www.reddit.com/r/GithubCopilot/comments/1te148u/is_there_literally_even_one/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is There Literally Even One**
-
----
-
-### 39. [How Are You Supposed To Consume Your Sub](https://www.reddit.com/r/GithubCopilot/comments/1sl08ha/how_are_you_supposed_to_consume_your_sub/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Are You Supposed To Consume Your Sub**
-
----
-
-### 40. [Ai Fatigue Is Real Whats One Ai Tool You Actually](https://www.reddit.com/r/AIDigitalStack/comments/1sqkgk6/ai_fatigue_is_real_whats_one_ai_tool_you_actually/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ai Fatigue Is Real Whats One Ai Tool You Actually**
-
----
-
-### 41. [Tui To See Where Claude Code Tokens Actually Go](https://www.reddit.com/r/coolgithubprojects/comments/1suiq7j/tui_to_see_where_claude_code_tokens_actually_go/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Tui To See Where Claude Code Tokens Actually Go**
-
----
-
-### 42. [My Claude Dreams At Night And Remembers](https://www.reddit.com/r/coolgithubprojects/comments/1t8cgir/my_claude_dreams_at_night_and_remembers/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**My Claude Dreams At Night And Remembers**
-
----
-
-### 43. [Karpathys 4 Rules For Claudemd Was 1 On Github](https://www.reddit.com/r/AIAgentsInAction/comments/1tgnulq/karpathys_4_rules_for_claudemd_was_1_on_github/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Karpathys 4 Rules For Claudemd Was 1 On Github**
-
----
-
-### 44. [Awesome Modern Cli 280 Modern Alternatives To](https://www.reddit.com/r/coolgithubprojects/comments/1slvcxy/awesome_modern_cli_280_modern_alternatives_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Awesome Modern Cli 280 Modern Alternatives To**
+**GitHub repository: josstei/maestro-orchestrate**
 
 ---
 
 ## Governance & Safety
-> 32 tools · avg signal ⚡91
+> 35 tools · avg signal ⚡89
 
 ### 1. [robotocore/robotocore](https://github.com/robotocore/robotocore)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -9392,8 +10162,29 @@
 
 ---
 
+### 33. [gautamvarmadatla/mcpsafetywarden](https://github.com/gautamvarmadatla/mcpsafetywarden/blob/main/docs/TOOLS.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gautamvarmadatla/mcpsafetywarden**
+
+---
+
+### 34. [gautamvarmadatla/mcpsafetywarden](https://github.com/gautamvarmadatla/mcpsafetywarden/blob/main/examples/drift_detection.ipynb)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gautamvarmadatla/mcpsafetywarden**
+
+---
+
+### 35. [ArmorerLabs/Armorer-Guard](https://github.com/ArmorerLabs/Armorer-Guard/blob/main/docs/assets/armorer-guard-v023-mcp-demo.gif)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ArmorerLabs/Armorer-Guard**
+
+---
+
 ## Harness Frameworks
-> 26 tools · avg signal ⚡87
+> 27 tools · avg signal ⚡87
 
 ### 1. [bradfair/mcp-cline-personas](https://github.com/bradfair/mcp-cline-personas)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -9822,15 +10613,22 @@
 
 ---
 
-### 26. [How My Architecture Library Hit 400 Github Stars](https://www.reddit.com/r/softwarearchitecture/comments/1sfa7bv/how_my_architecture_library_hit_400_github_stars/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 26. [LyraTheAi/Prime-Token-Protocol-Framework-A-PrimeTalk-and-TRC-Origin](https://github.com/LyraTheAi/Prime-Token-Protocol-Framework-A-PrimeTalk-and-TRC-Origin/blob/main/TRC-PTPF%20Public%20Core)
+`9.0` ★★ ⚡64 Q0.7✓ ✓ Solid
 
-**How My Architecture Library Hit 400 Github Stars**
+**GitHub repository: LyraTheAi/Prime-Token-Protocol-Framework-A-PrimeTalk-and-TRC-Origin**
+
+---
+
+### 27. [tonycdr-prog/architect-mcp](https://github.com/tonycdr-prog/architect-mcp/issues/136)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tonycdr-prog/architect-mcp**
 
 ---
 
 ## Hooks & Lifecycle
-> 23 tools · avg signal ⚡90
+> 22 tools · avg signal ⚡89
 
 ### 1. [StartripAI/ideaClaw](https://github.com/StartripAI/ideaClaw)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -9907,23 +10705,7 @@
 
 ---
 
-### 5. [kaneyxx/weekly-report-mcp](https://github.com/kaneyxx/weekly-report-mcp)
-`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
-
-**The kaneyxx/weekly-report-mcp project is a GitHub-hosted application designed to streamline the process of monitoring and validating weekly report submissions stored in a Google Sheet. It leverages automation tools such as Python scripts, cloud services, and webhooks to ensure timely data collection, validation, and reporting. The solution integrates with existing development workflows, supports enterprise-level security, and provides actionable insights into team compliance and reporting status...**
-
-**Features:**
-- Weekly report submission monitoring
-- Google Sheet integration
-- Automated validation
-- Compliance tracking
-- Report generation
-
-*Tags: mcp, gap-report, automation, cloud-integration, security, developer-tools*
-
----
-
-### 6. [mattcoatsworth/zoom-mcp-server](https://github.com/mattcoatsworth/zoom-mcp-server)
+### 5. [mattcoatsworth/zoom-mcp-server](https://github.com/mattcoatsworth/zoom-mcp-server)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
 
 **The Borg Project's zoom-mcp-server is a Node.js application designed to interact with the Zoom API through the MCP (Meetings, Users, Channels, etc.) protocol. It supports secure OAuth 2.0 authentication and provides structured tools for managing meetings, users, webinars, accounts, chat channels, phone numbers, contacts, recordings, reports, webhooks, and Zoom Rooms. The server is ideal for developers seeking to automate workflows and integrate Zoom functionalities into their applications.**
@@ -9941,7 +10723,7 @@
 
 ---
 
-### 7. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)
+### 6. [kklab-com/trinity-mcp](https://github.com/kklab-com/trinity-mcp)
 `8.8` ★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -9958,7 +10740,7 @@
 
 ---
 
-### 8. [georgi-io/jessica](https://github.com/georgi-io/jessica)
+### 7. [georgi-io/jessica](https://github.com/georgi-io/jessica)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -9978,7 +10760,7 @@
 
 ---
 
-### 9. [dozzman/sonarcloud-mcp](https://github.com/dozzman/sonarcloud-mcp)
+### 8. [dozzman/sonarcloud-mcp](https://github.com/dozzman/sonarcloud-mcp)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -9996,7 +10778,7 @@
 
 ---
 
-### 10. [happyzym/mcp-server-reposearch](https://github.com/happyzym/mcp-server-reposearch)
+### 9. [happyzym/mcp-server-reposearch](https://github.com/happyzym/mcp-server-reposearch)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -10015,7 +10797,7 @@
 
 ---
 
-### 11. [SnippetSquid/SemanticScholarMCP](https://github.com/SnippetSquid/SemanticScholarMCP)
+### 10. [SnippetSquid/SemanticScholarMCP](https://github.com/SnippetSquid/SemanticScholarMCP)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -10033,7 +10815,7 @@
 
 ---
 
-### 12. [EvalsOne/MCP-connect](https://github.com/EvalsOne/MCP-connect/tree/main/src)
+### 11. [EvalsOne/MCP-connect](https://github.com/EvalsOne/MCP-connect/tree/main/src)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10050,7 +10832,7 @@
 
 ---
 
-### 13. [cosmix/jira-mcp](https://github.com/cosmix/jira-mcp/tree/main/src)
+### 12. [cosmix/jira-mcp](https://github.com/cosmix/jira-mcp/tree/main/src)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10068,7 +10850,7 @@
 
 ---
 
-### 14. [devalexandre/mcp-servers](https://github.com/devalexandre/mcp-servers)
+### 13. [devalexandre/mcp-servers](https://github.com/devalexandre/mcp-servers)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10085,7 +10867,7 @@
 
 ---
 
-### 15. [alexw00/artifacthub-mcp](https://github.com/alexw00/artifacthub-mcp)
+### 14. [alexw00/artifacthub-mcp](https://github.com/alexw00/artifacthub-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10102,24 +10884,7 @@
 
 ---
 
-### 16. [alexleventer/marketo-mcp](https://github.com/alexleventer/marketo-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Marketo MCP Server provides a Node.js-based backend service that integrates with the Marketo platform to manage forms, including listing, cloning, approving, and updating them. It supports secure authentication using Marketo API credentials and implements best practices for environment management, error handling, and performance optimization.**
-
-**Features:**
-- Form management
-- API integration with Marketo
-- Environment configuration
-- Error handling and retry logic
-- Security best practices
-
-*Tags: marketo, api-integration, form-management, developer-tools, security*
-
----
-
-### 17. [Selenium39/mcp-server-tempmail](https://github.com/Selenium39/mcp-server-tempmail)
+### 15. [Selenium39/mcp-server-tempmail](https://github.com/Selenium39/mcp-server-tempmail)
 `9.0` ★★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -10137,7 +10902,7 @@
 
 ---
 
-### 18. [gotoolkits/mcp-wecombot-server](https://github.com/gotoolkits/mcp-wecombot-server)
+### 16. [gotoolkits/mcp-wecombot-server](https://github.com/gotoolkits/mcp-wecombot-server)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **The mcp-wecombot-server is a software solution designed to automate communication with WeCom group robots by sending structured messages. It integrates with the WeCom platform, enabling developers to deploy and manage bots efficiently through a centralized server application.**
@@ -10154,7 +10919,7 @@
 
 ---
 
-### 19. [genm/mcp-server-discord-webhook](https://github.com/genm/mcp-server-discord-webhook)
+### 17. [genm/mcp-server-discord-webhook](https://github.com/genm/mcp-server-discord-webhook)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10171,7 +10936,7 @@
 
 ---
 
-### 20. [integromat/make-mcp-server](https://github.com/integromat/make-mcp-server)
+### 18. [integromat/make-mcp-server](https://github.com/integromat/make-mcp-server)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -10187,7 +10952,7 @@
 
 ---
 
-### 21. [yanbasic/emd-mcp](https://github.com/yanbasic/emd-mcp)
+### 19. [yanbasic/emd-mcp](https://github.com/yanbasic/emd-mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -10203,7 +10968,7 @@
 
 ---
 
-### 22. [programmeragua/jenkins-mcp-server](https://github.com/programmeragua/jenkins-mcp-server)
+### 20. [programmeragua/jenkins-mcp-server](https://github.com/programmeragua/jenkins-mcp-server)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -10219,7 +10984,7 @@
 
 ---
 
-### 23. [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp)
+### 21. [currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -10235,8 +11000,25 @@
 
 ---
 
+### 22. [yeet-src/usbsnoop](https://github.com/yeet-src/usbsnoop)
+`7.0` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+
+**usbsnoop provides a colorized, live feed of USB transfers by hooking into universal URB chokepoints in the Linux kernel. It utilizes CO-RE portable eBPF programs to track request/response pairs, allowing developers to monitor latency and payloads without needing usbmon or per-controller tracepoints.**
+
+**Features:**
+- eBPF fentry hooks
+- CO-RE portability
+- real-time USB traffic sniffing
+- URB latency tracking
+- protocol decoding (SETUP packets)
+- colorized terminal output
+
+*Tags: ebpf, linux, usb, observability, reverse-engineering, tracing, kernel*
+
+---
+
 ## Verification & Testing
-> 20 tools · avg signal ⚡82
+> 18 tools · avg signal ⚡86
 
 ### 1. [melbourneandrew/docs2prompt-mcp](https://github.com/melbourneandrew/docs2prompt-mcp)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
@@ -10537,22 +11319,145 @@
 
 ---
 
-### 19. [https://copilot-billing-preview.github.com/](https://copilot-billing-preview.github.com/)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+## Major Harness Integrations
+> 15 tools · avg signal ⚡68
 
-**https://copilot-billing-preview.github.com/**
+### 1. [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Borg project introduces an MCP server designed to power AI agents by providing indexed blockchain data from The Graph. It allows developers to query this data using GraphQL, enabling automation, decision-making, and intelligent application development. The system supports schema exploration, custom queries, and integration with AI tools like GitHub Copilot and SparkBuild.**
+
+**Features:**
+- AI agent integration
+- GraphQL query support
+- The Graph data indexing
+- Automated workflow automation
+- Secure code deployment
+
+*Tags: ai, blockchain, thegraph, mcp, developer, security, data, automation...*
 
 ---
 
-### 20. [Just Finished Testing Gpt54 Vs Claude Opus 46 Vs](https://www.reddit.com/r/AIToolsPerformance/comments/1seqqvj/just_finished_testing_gpt54_vs_claude_opus_46_vs/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 2. [zarif007/job-search-mcp](https://github.com/zarif007/job-search-mcp)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
 
-**Just Finished Testing Gpt54 Vs Claude Opus 46 Vs**
+**The project focuses on integrating AI-driven code assistance, automated workflows, and secure deployment to streamline developer tasks. It leverages GitHub Copilot, Docker, and CI/CD pipelines to enhance productivity for developers across various industries.**
+
+**Features:**
+- Code generation with GitHub Copilot
+- Automated workflow execution
+- Secure code deployment
+- Integration with external tools
+- Docker and CI/CD support
+
+*Tags: github, ai, developer, code, workflow, docker, ci, security...*
+
+---
+
+### 3. [geminiwen/mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments)
+`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The geminiwen/mcp-wechat-moments project provides a platform for integrating WeChat Moments functionality on macOS through AppleScripts. It allows developers to automate the process of publishing moments by leveraging native macOS capabilities and AppleScript scripting, making it suitable for modernizing workflows in enterprise environments.**
+
+**Features:**
+- WeChat Moment integration
+- AppleScript-based automation
+- macOS deployment
+- code generation support
+
+*Tags: wechat-moments, applescript, macos, automation, developer-tools*
+
+---
+
+### 4. [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli/issues/24517)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-gemini/gemini-cli**
+
+---
+
+### 5. [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli/issues/24533)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-gemini/gemini-cli**
+
+---
+
+### 6. [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli/issues/24734)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-gemini/gemini-cli**
+
+---
+
+### 7. [anomalyco/opencode](https://github.com/anomalyco/opencode/issues/19466)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anomalyco/opencode**
+
+---
+
+### 8. [anomalyco/opencode](https://github.com/anomalyco/opencode/issues/22408)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anomalyco/opencode**
+
+---
+
+### 9. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/42796)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 10. [anthropics/claude-code](https://github.com/anthropics/claude-code/releases/tag/v2.1.111)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 11. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/34629)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 12. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/49723)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 13. [nesaminua/claude-code-lsp-enforcement-kit](https:](https://github.com/nesaminua/claude-code-lsp-enforcement-kit](https://github.com/nesaminua/claude-code-lsp-enforcement-kit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nesaminua/claude-code-lsp-enforcement-kit](https:**
+
+---
+
+### 14. [claude-code/claude-code](https://github.com/claude-code/claude-code)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: claude-code/claude-code**
+
+---
+
+### 15. [anthropics/claude-code](https://github.com/anthropics/claude-code)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
 
 ---
 
 ## Context Engineering
-> 16 tools · avg signal ⚡80
+> 14 tools · avg signal ⚡85
 
 ### 1. [xinkuang/china-stock-mcp](https://github.com/xinkuang/china-stock-mcp)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -10703,28 +11608,7 @@
 
 ---
 
-### 9. [apollo-iii-full-node?rdt_cid=5595068506820415921](https://shop.futurebit.io/products/apollo-iii-full-node?rdt_cid=5595068506820415921)
-`10.0` ★★★ ⚡87 Q0.7🏆 🏆 World-class
-
-**Apollo III is a purpose-built Bitcoin miner and full node engineered for plug-and-play sovereignty. It features a custom Full Node Controller, supports 24/7 operation with dynamic power control, and includes integrated hardware for efficient mining and validation. The device offers multiple deployment modes including solo mining, lottery mining, and participation in bitcoin pools. It is built with next-generation 3nm ASICs for high efficiency and low power consumption, making it suitable for bot...**
-
-**Features:**
-- Full Bitcoin miner and full node
-- Custom-built controller for 24/7 operation
-- Support for solo mining and pool participation
-- High efficiency with up to 18 TH/s performance
-- Low power consumption in eco mode
-- Integrated 450W PSU for worldwide compatibility
-- Modern Linux desktop environment
-- Dual M.2 slots and 2TB NVMe storage
-- Wireless and wired connectivity options
-- Built-in wallet integration for seamless transactions
-
-*Tags: bitcoin-mining, full-node, sovereign-blockchain, asic-performance, low-power-consumption, hardware-integration, desktop-compatibility, network-validation...*
-
----
-
-### 10. [ying-dao/yingdao_mcp_server](https://github.com/ying-dao/yingdao_mcp_server)
+### 9. [ying-dao/yingdao_mcp_server](https://github.com/ying-dao/yingdao_mcp_server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -10741,7 +11625,7 @@
 
 ---
 
-### 11. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)
+### 10. [takiaa/twitter-scraper-mcp](https://github.com/takiaa/twitter-scraper-mcp)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗5 layers
 
@@ -10757,7 +11641,7 @@
 
 ---
 
-### 12. [shaileshahuja/github-pr-mcp](https://github.com/shaileshahuja/github-pr-mcp)
+### 11. [shaileshahuja/github-pr-mcp](https://github.com/shaileshahuja/github-pr-mcp)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -10773,7 +11657,7 @@
 
 ---
 
-### 13. [Context Engine MCP | Augment Code](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220)
+### 12. [Context Engine MCP | Augment Code](https://www.augmentcode.com/product/context-engine-mcp?rdt_cid=5969506300152201220)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗4 layers
 
@@ -10790,29 +11674,22 @@
 
 ---
 
-### 14. [Codegraphcontext An Mcp Server That Converts Your](https://www.reddit.com/r/GithubCopilot/comments/1sedu28/codegraphcontext_an_mcp_server_that_converts_your/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 13. [modelcontextprotocol/modelcontextprotocol](https://github.com/modelcontextprotocol/modelcontextprotocol/issues/1487)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**Codegraphcontext An Mcp Server That Converts Your**
-
----
-
-### 15. [Github Pr Review Context Mcp Give Your Ai](https://www.reddit.com/r/mcp/comments/1slgjdw/github_pr_review_context_mcp_give_your_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Github Pr Review Context Mcp Give Your Ai**
+**GitHub repository: modelcontextprotocol/modelcontextprotocol**
 
 ---
 
-### 16. [I Built A Steganography Engine That Hides Files](https://www.reddit.com/r/coolgithubprojects/comments/1sue17a/i_built_a_steganography_engine_that_hides_files/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 14. [contextual-ai/curlai](https://github.com/contextual-ai/curlai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**I Built A Steganography Engine That Hides Files**
+**GitHub repository: contextual-ai/curlai**
 
 ---
 
 ## Memory & Context Systems
-> 13 tools · avg signal ⚡84
+> 13 tools · avg signal ⚡86
 
 ### 1. [rember/rember-mcp](https://github.com/rember/rember-mcp)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -11008,22 +11885,22 @@
 
 ---
 
-### 12. [Memoir Git For Ai Memory Memory Your Agents Can](https://www.reddit.com/r/coolgithubprojects/comments/1t5jh09/memoir_git_for_ai_memory_memory_your_agents_can/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 12. [jarimustonen/formative-memory](https://github.com/jarimustonen/formative-memory/blob/main/docs/architecture.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**Memoir Git For Ai Memory Memory Your Agents Can**
+**GitHub repository: jarimustonen/formative-memory**
 
 ---
 
-### 13. [Github Mambastudiotypedmemory A Java 25 Library](https://www.reddit.com/r/coolgithubprojects/comments/1tae6ac/github_mambastudiotypedmemory_a_java_25_library/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 13. [jarimustonen/formative-memory](https://github.com/jarimustonen/formative-memory/blob/main/docs/how-memory-works.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
-**Github Mambastudiotypedmemory A Java 25 Library**
+**GitHub repository: jarimustonen/formative-memory**
 
 ---
 
 ## Browser & Web Tools
-> 6 tools · avg signal ⚡79
+> 5 tools · avg signal ⚡86
 
 ### 1. [andybrandt/mcp-simple-arxiv](https://github.com/andybrandt/mcp-simple-arxiv)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -11104,86 +11981,5 @@
 - install via smithery
 
 *Tags: mcp-painter, ai-drawing, developer-tools, canvas-integration, smithery*
-
----
-
-### 6. [104K Github For Firecrawl Never Used It Am I](https://www.reddit.com/r/scrapingtheweb/comments/1scx78e/104k_github_for_firecrawl_never_used_it_am_i/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**104K Github For Firecrawl Never Used It Am I**
-
----
-
-## Major Harness Integrations
-> 6 tools · avg signal ⚡65
-
-### 1. [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Borg project introduces an MCP server designed to power AI agents by providing indexed blockchain data from The Graph. It allows developers to query this data using GraphQL, enabling automation, decision-making, and intelligent application development. The system supports schema exploration, custom queries, and integration with AI tools like GitHub Copilot and SparkBuild.**
-
-**Features:**
-- AI agent integration
-- GraphQL query support
-- The Graph data indexing
-- Automated workflow automation
-- Secure code deployment
-
-*Tags: ai, blockchain, thegraph, mcp, developer, security, data, automation...*
-
----
-
-### 2. [zarif007/job-search-mcp](https://github.com/zarif007/job-search-mcp)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The project focuses on integrating AI-driven code assistance, automated workflows, and secure deployment to streamline developer tasks. It leverages GitHub Copilot, Docker, and CI/CD pipelines to enhance productivity for developers across various industries.**
-
-**Features:**
-- Code generation with GitHub Copilot
-- Automated workflow execution
-- Secure code deployment
-- Integration with external tools
-- Docker and CI/CD support
-
-*Tags: github, ai, developer, code, workflow, docker, ci, security...*
-
----
-
-### 3. [geminiwen/mcp-wechat-moments](https://github.com/geminiwen/mcp-wechat-moments)
-`8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The geminiwen/mcp-wechat-moments project provides a platform for integrating WeChat Moments functionality on macOS through AppleScripts. It allows developers to automate the process of publishing moments by leveraging native macOS capabilities and AppleScript scripting, making it suitable for modernizing workflows in enterprise environments.**
-
-**Features:**
-- WeChat Moment integration
-- AppleScript-based automation
-- macOS deployment
-- code generation support
-
-*Tags: wechat-moments, applescript, macos, automation, developer-tools*
-
----
-
-### 4. [How Is Copilot So Underrated Compared To Claude](https://www.reddit.com/r/GithubCopilot/comments/1s8mg77/how_is_copilot_so_underrated_compared_to_claude/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**How Is Copilot So Underrated Compared To Claude**
-
----
-
-### 5. [Is It Github Copilot Any Good](https://www.reddit.com/r/VisualStudio/comments/1szoid9/is_it_github_copilot_any_good/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Is It Github Copilot Any Good**
-
----
-
-### 6. [Antigravitygemini 31 Pro High Resolving Git](https://www.reddit.com/r/google_antigravity/comments/1szm1my/antigravitygemini_31_pro_high_resolving_git/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Antigravitygemini 31 Pro High Resolving Git**
 
 ---

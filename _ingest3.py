@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Ingest new URLs from incoming_resources.txt into atlas.db - v3 with expanded filters"""
-import sqlite3, sys, re, json
+import sqlite3
+import sys
+import re
 sys.stdout.reconfigure(encoding='utf-8')
 
 DB = 'atlas.db'
@@ -23,7 +25,7 @@ def norm_url(u):
     if nu.endswith('/'): nu = nu[:-1]
     return nu
 
-with open('incoming_resources.txt', 'r') as f:
+with open('incoming_resources.txt', 'r', encoding='utf-8') as f:
     raw = [line.strip() for line in f if line.strip()]
 
 seen = set()
@@ -232,7 +234,7 @@ for url in unique:
     max_id += 1
     eid = max_id
 
-    a.execute("""INSERT INTO entries (id, url, page_title, short_description, long_description,
+    a.execute("""INSERT OR IGNORE INTO entries (id, url, page_title, short_description, long_description,
         main_features, tags, owner, repo, is_github, innovation, quality, signal, is_standout, verdict)
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
         (eid, url, title, sd, sd, '', '[]', owner, repo, is_gh,
@@ -260,7 +262,7 @@ print(f"\nAtlas total: {total:,} entries")
 a.execute("""SELECT lm.layer, COUNT(*) FROM entries e
     JOIN layer_membership lm ON e.id = lm.entry_id AND lm.is_primary=1
     WHERE e.id > ? GROUP BY lm.layer ORDER BY 2 DESC""", (max_id - inserted,))
-print(f"\nNew entries by layer:")
+print("\nNew entries by layer:")
 for layer, cnt in a.fetchall():
     print(f"  {layer:50s}: {cnt:4d}")
 

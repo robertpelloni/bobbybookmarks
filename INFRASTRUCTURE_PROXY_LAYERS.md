@@ -1,16 +1,18 @@
 # 🦴 Infrastructure & Proxy Layers
-> Borg Intelligence Atlas v8 · 2026-05-19 · 373 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 372 tools
 > AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **373** |
-| Standout 🏆⭐ | 126 |
-| Avg Signal | ⚡84 |
-| Innovation 10 | 95 █████████████░░░░░░░ |
-| Innovation 9 | 120 ████████████████░░░░ |
-| Innovation 8 | 142 ████████████████████ |
-| Innovation 7 | 16 ██░░░░░░░░░░░░░░░░░░ |
+| Total tools | **372** |
+| Standout 🏆⭐ | 119 |
+| Avg Signal | ⚡83 |
+| Innovation 10 | 88 ███████████░░░░░░░░░ |
+| Innovation 9 | 111 ██████████████░░░░░░ |
+| Innovation 8 | 154 ████████████████████ |
+| Innovation 7 | 7 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 6 | 7 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 5 | 5 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -34,32 +36,32 @@
 16. **[danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)** ⚡95 · 🏆 World-class — A protocol-agnostic code execution platform that bridges AI agents to a secure sandboxed environment...
 17. **[engineer-man/piston](https://github.com/engineer-man/piston)** ⚡95 · 🏆 World-class — Piston is a containerized, high-performance code execution engine designed to securely run untrusted...
 18. **[vishalveerareddy123/Lynkr?utm_source=chatgpt.com](https://github.com/vishalveerareddy123/Lynkr)** ⚡95 · 🏆 World-class — A self-hosted universal LLM proxy that enables proprietary AI coding tools like Claude Code and Curs...
-19. **[rohitsingh-iitd/zillow-mcp-server](https://github.com/rohitsingh-iitd/zillow-mcp-server)** ⚡95 · 🏆 World-class — A Python-based Model Context Protocol (MCP) server for real-time Zillow real estate data access.
-20. **[mashriram/azure_mcp_server](https://github.com/mashriram/azure_mcp_server)** ⚡95 · 🏆 World-class — An Azure MCP Server implementation for interacting with Azure services, supporting Blob Storage and ...
+19. **[mashriram/azure_mcp_server](https://github.com/mashriram/azure_mcp_server)** ⚡95 · 🏆 World-class — An Azure MCP Server implementation for interacting with Azure services, supporting Blob Storage and ...
+20. **[raju-deriv/mcp-deriv-api-server](https://github.com/raju-deriv/mcp-deriv-api-server)** ⚡95 · 🏆 World-class — A Python-based API server for interacting with the Deriv AI platform, enabling automated workflows a...
 
 ---
 
 ## Contents
 
-- [Governance & Safety](#governance--safety) — 60 tools · ⚡87
-- [Bridges & Proxies](#bridges--proxies) — 60 tools · ⚡86
-- [Spec-Driven Development](#spec-driven-development) — 39 tools · ⚡86
-- [Other Tools](#other-tools) — 35 tools · ⚡66
+- [Governance & Safety](#governance--safety) — 58 tools · ⚡86
+- [Bridges & Proxies](#bridges--proxies) — 57 tools · ⚡86
+- [Spec-Driven Development](#spec-driven-development) — 40 tools · ⚡85
+- [Other Tools](#other-tools) — 38 tools · ⚡66
+- [Config & Profile Management](#config--profile-management) — 34 tools · ⚡87
 - [Memory & Context Systems](#memory--context-systems) — 32 tools · ⚡84
-- [Config & Profile Management](#config--profile-management) — 32 tools · ⚡89
-- [Skill Systems](#skill-systems) — 30 tools · ⚡88
-- [Monitoring & Analytics](#monitoring--analytics) — 28 tools · ⚡86
-- [Hooks & Lifecycle](#hooks--lifecycle) — 17 tools · ⚡86
-- [Context Engineering](#context-engineering) — 11 tools · ⚡82
-- [Orchestration](#orchestration) — 11 tools · ⚡85
-- [Harness Frameworks](#harness-frameworks) — 11 tools · ⚡81
+- [Monitoring & Analytics](#monitoring--analytics) — 30 tools · ⚡86
+- [Skill Systems](#skill-systems) — 29 tools · ⚡87
+- [Hooks & Lifecycle](#hooks--lifecycle) — 17 tools · ⚡84
+- [Orchestration](#orchestration) — 12 tools · ⚡82
+- [Harness Frameworks](#harness-frameworks) — 10 tools · ⚡82
+- [Context Engineering](#context-engineering) — 8 tools · ⚡84
 - [Browser & Web Tools](#browser--web-tools) — 4 tools · ⚡79
 - [Verification & Testing](#verification--testing) — 3 tools · ⚡85
 
 ---
 
 ## Governance & Safety
-> 60 tools · avg signal ⚡87
+> 58 tools · avg signal ⚡86
 
 ### 1. [cameronking4/programmatic-tool-calling-ai-sdk](https://github.com/cameronking4/programmatic-tool-calling-ai-sdk)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -697,23 +699,7 @@
 
 ---
 
-### 35. [mohammedsamin/mcpup](https://github.com/mohammedsamin/mcpup)
-`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**A critical utility that streamlines the installation and management of Model Context Protocol (MCP) servers, acting as a package manager for the ecosystem.**
-
-**Features:**
-- One-command GitHub/npm installation
-- isolated dependency management (venvs/node_modules)
-- registry synchronization
-- built-in diagnostic health checks.
-
-*Tags: mcp, package-manager, infrastructure, automation, tooling, artificial-intelligence, github, version-control*
-
----
-
-### 36. [mazrean/dockportless](https://github.com/mazrean/dockportless)
+### 35. [mazrean/dockportless](https://github.com/mazrean/dockportless)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **A local Zig-based service router that eliminates Docker port conflicts by assigning "pretty" local URLs and routing traffic without exposing host ports.**
@@ -728,7 +714,7 @@
 
 ---
 
-### 37. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5170903874819316351)
+### 36. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=5170903874819316351)
 `9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
 **Olares One is a desktop computer optimized for running AI models locally. It features high-end hardware like the NVIDIA GeForce RTX 5090 Mobile and Intel Core Ultra 9 processor, coupled with a custom-built, open-source operating system (Olares OS) designed for security, sandboxing, and easy deployment of AI applications. It emphasizes data privacy by processing all data locally and offers a streamlined user experience with built-in apps and customization options.**
@@ -748,7 +734,7 @@
 
 ---
 
-### 38. [Running Claude Code dangerously (safely)](https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely)
+### 37. [Running Claude Code dangerously (safely)](https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -765,7 +751,7 @@
 
 ---
 
-### 39. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)
+### 38. [svngoku/mcp-docker-code-interpreter](https://github.com/svngoku/mcp-docker-code-interpreter)
 `8.7` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -782,7 +768,7 @@
 
 ---
 
-### 40. [Microsoft open-sources LiteBox, a security-focused library OS | Hacker News](https://news.ycombinator.com/item?id=46913793)
+### 39. [Microsoft open-sources LiteBox, a security-focused library OS | Hacker News](https://news.ycombinator.com/item?id=46913793)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -804,7 +790,7 @@
 
 ---
 
-### 41. [huggingface/smolagents](https://github.com/huggingface/smolagents)
+### 40. [huggingface/smolagents](https://github.com/huggingface/smolagents)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -820,23 +806,7 @@
 
 ---
 
-### 42. [universal-tool-calling-protocol/code-mode](https://github.com/universal-tool-calling-protocol/code-mode)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**An open standard allowing agents to call APIs directly via native protocols (HTTP/gRPC) using sandboxed TS/Python code orchestration.**
-
-**Features:**
-- Direct native API calling (zero wrapper)
-- 99% reduction in schema bloat
-- isolated V8/Docker execution
-- UTCP-MCP backward compatibility.
-
-*Tags: utcp, code-mode, api, connectivity, standard, github, programming, tools...*
-
----
-
-### 43. [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp)
+### 41. [Automata-Labs-team/code-sandbox-mcp](https://github.com/Automata-Labs-team/code-sandbox-mcp)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A secure, isolated execution environment for AI agents that uses disposable Docker containers to run code and stream logs without host access.**
@@ -851,7 +821,7 @@
 
 ---
 
-### 44. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+### 42. [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A unified framework wrapping 860+ SaaS apps into "Skills" with managed OAuth, progressive disclosure loading, and secure remote code execution.**
@@ -866,22 +836,7 @@
 
 ---
 
-### 45. [divyenduz/incus-sandbox-sdk](https://github.com/divyenduz/incus-sandbox-sdk)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**A software development kit for managing secure, system-level containers and virtual machines using the Incus (LXD fork) hypervisor.**
-
-**Features:**
-- Programmatic VM/Container lifecycle
-- hardware-level isolation for agents
-- secure secret injection
-- OCI image support.
-
-*Tags: sandboxing, incus, virtualization, infrastructure, security, github, version-control*
-
----
-
-### 46. [Agent Herbie is an offline AI agent for on-prem, air-gapped operations](https://agentherbie.com/#faq)
+### 43. [Agent Herbie is an offline AI agent for on-prem, air-gapped operations](https://agentherbie.com/#faq)
 `9.0` ★★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -897,7 +852,7 @@
 
 ---
 
-### 47. [denoland/t4a](https://github.com/denoland/t4a)
+### 44. [denoland/t4a](https://github.com/denoland/t4a)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **Deno's specialized runtime framework designed for building secure, edge-deployed AI agents with native Model Context Protocol (MCP) support.**
@@ -912,7 +867,7 @@
 
 ---
 
-### 48. [postrv/forgemax](https://github.com/postrv/forgemax)
+### 45. [postrv/forgemax](https://github.com/postrv/forgemax)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -928,7 +883,7 @@
 
 ---
 
-### 49. [alvii147/piston-mcp](https://github.com/alvii147/piston-mcp)
+### 46. [alvii147/piston-mcp](https://github.com/alvii147/piston-mcp)
 `9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **An MCP server implementation for the Piston engine, enabling agents to execute code in 70+ languages without local runtimes.**
@@ -943,7 +898,7 @@
 
 ---
 
-### 50. [zerocore-ai/microsandbox](https://github.com/zerocore-ai/microsandbox)
+### 47. [zerocore-ai/microsandbox](https://github.com/zerocore-ai/microsandbox)
 `9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **A local-first, hardware-isolated execution environment for AI agents that uses microVMs (libkrun) for strong security boundaries.**
@@ -958,7 +913,7 @@
 
 ---
 
-### 51. [cohere-ai/cohere-terrarium](https://github.com/cohere-ai/cohere-terrarium)
+### 48. [cohere-ai/cohere-terrarium](https://github.com/cohere-ai/cohere-terrarium)
 `9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
 **An ultra-secure, stateless Python sandbox using Pyodide (WASM) to isolate LLM-generated code within a restricted browser-like environment.**
@@ -973,7 +928,7 @@
 
 ---
 
-### 52. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=4947404475460767289)
+### 49. [Olares One: Your Local Desktop AI Powerhouse](https://one.olares.com/?rdt_cid=4947404475460767289)
 `8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 
 **Olares One is a high-performance desktop computer optimized for local AI processing. It features a powerful NVIDIA GeForce RTX 5090 Mobile GPU, an Intel Core Ultra 9 processor, and a custom-built operating system (Olares OS) designed for security and ease of use. The system emphasizes data privacy by processing all AI projects and data locally. It offers one-click deployment of AI tools, a silent cooling system, and an open-source, multi-layered OS with a growing community app market.**
@@ -995,7 +950,7 @@
 
 ---
 
-### 53. [MCP-UI](https://mcpui.dev)
+### 50. [MCP-UI](https://mcpui.dev)
 `8.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 
 **MCP-UI, now standardized as MCP Apps, offers a set of interactive UI components and SDKs for creating rich and dynamic interfaces for AI tools. It leverages the MCP Apps standard, ensuring seamless integration and a community-driven approach to UI development. Key features include client and server SDKs, sandboxed execution for security, flexible HTML content support, and compatibility with both MCP Apps and legacy MCP-UI hosts.**
@@ -1012,7 +967,7 @@
 
 ---
 
-### 54. [Bubblewrap: A nimble way to prevent agents from accessing your .env files | Hacker News](https://news.ycombinator.com/item?id=46626836)
+### 51. [Bubblewrap: A nimble way to prevent agents from accessing your .env files | Hacker News](https://news.ycombinator.com/item?id=46626836)
 `8.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1028,7 +983,7 @@
 
 ---
 
-### 55. [Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant - AWS](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw)
+### 52. [Amazon Lightsail now offers OpenClaw, a private self-hosted AI assistant - AWS](https://aws.amazon.com/about-aws/whats-new/2026/03/amazon-lightsail-openclaw)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A managed, one-click deployment blueprint for OpenClaw (self-hosted AI assistant) on Amazon Lightsail, natively integrated with Bedrock.**
@@ -1043,7 +998,7 @@
 
 ---
 
-### 56. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)
+### 53. [maxim-saplin/mcp_safe_local_python_executor](https://github.com/maxim-saplin/mcp_safe_local_python_executor)
 `8.2` ★ ⚡74 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1059,7 +1014,7 @@
 
 ---
 
-### 57. [jai - easy containment for AI agents](https://jai.scs.stanford.edu)
+### 54. [jai - easy containment for AI agents](https://jai.scs.stanford.edu)
 `7.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1076,7 +1031,7 @@
 
 ---
 
-### 58. [Blog | Composio](https://composio.dev/blog/secure-moltbot-clawdbot-setup-composio)
+### 55. [Blog | Composio](https://composio.dev/blog/secure-moltbot-clawdbot-setup-composio)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1092,7 +1047,7 @@
 
 ---
 
-### 59. [Zen](https://opencode.ai/docs/zen/#privacy)
+### 56. [Zen](https://opencode.ai/docs/zen/#privacy)
 `10.0` ★★★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗3 layers
 
@@ -1108,7 +1063,7 @@
 
 ---
 
-### 60. [securing-agents-in-production-agentic-runtime-1-5191a0715240](https://blog.palantir.com/securing-agents-in-production-agentic-runtime-1-5191a0715240)
+### 57. [securing-agents-in-production-agentic-runtime-1-5191a0715240](https://blog.palantir.com/securing-agents-in-production-agentic-runtime-1-5191a0715240)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 ↗3 layers
 
@@ -1124,8 +1079,20 @@
 
 ---
 
+### 58. [Callward — Production infrastructure for MCP servers](https://taproot-landing.vercel.app)
+`8.0` ★ ⚡58 Q0.6✓ ✓ Solid
+
+**Callward provides production-ready infrastructure for MCP servers by acting as a reverse proxy that adds semantic caching, authentication, rate limiting, and audit trails. It allows users to secure their MCP server's infrastructure with minimal configuration changes, offering significant cost reduction and security benefits.**
+
+**Features:**
+- Reverse proxy
+
+*Tags: reverse-proxy, mcp, caching, security, infrastructure, api-gateway, developer-tool*
+
+---
+
 ## Bridges & Proxies
-> 60 tools · avg signal ⚡86
+> 57 tools · avg signal ⚡86
 
 ### 1. [imlewc/elasticsearch7-mcp-server](https://github.com/imlewc/elasticsearch7-mcp-server)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -1147,25 +1114,7 @@
 
 ---
 
-### 2. [anuragrai017/database-updater-mcp-server](https://github.com/anuragrai017/database-updater-mcp-server)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The database updater MCP server is designed to streamline the process of updating databases by reading data from CSV or Excel files and applying changes to various database systems such as PostgreSQL, MySQL, MongoDB, and SQLite. It offers a user-friendly interface for developers to manage updates efficiently, including features like note-taking for documentation, commit tracking, and integration with development environments. The tool emphasizes ease of use and flexibility, making it suitable fo...**
-
-**Features:**
-- Database update from CSV/Excel
-- Support for multiple database types
-- Note management
-- Commit tracking
-- Auto-rebuild
-- Development environment integration
-
-*Tags: database-updater, mcp-server, data-import, automation, developer-tools, integration, security, code-management...*
-
----
-
-### 3. [gitmaxd/dubco-mcp-server-npm](https://github.com/gitmaxd/dubco-mcp-server-npm)
+### 2. [gitmaxd/dubco-mcp-server-npm](https://github.com/gitmaxd/dubco-mcp-server-npm)
 `9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1182,7 +1131,7 @@
 
 ---
 
-### 4. [mprokopov/ledger-mcp-server](https://github.com/mprokopov/ledger-mcp-server)
+### 3. [mprokopov/ledger-mcp-server](https://github.com/mprokopov/ledger-mcp-server)
 `8.8` ★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1199,7 +1148,7 @@
 
 ---
 
-### 5. [peancor/moodle-mcp-server](https://github.com/peancor/moodle-mcp-server)
+### 4. [peancor/moodle-mcp-server](https://github.com/peancor/moodle-mcp-server)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1219,7 +1168,7 @@
 
 ---
 
-### 6. [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)
+### 5. [co-browser/browser-use-mcp-server](https://github.com/co-browser/browser-use-mcp-server)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1237,7 +1186,7 @@
 
 ---
 
-### 7. [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)
+### 6. [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1259,7 +1208,7 @@
 
 ---
 
-### 8. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)
+### 7. [datalayer/jupyter-earth-mcp-server](https://github.com/datalayer/jupyter-earth-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗5 layers
 
@@ -1277,7 +1226,7 @@
 
 ---
 
-### 9. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)
+### 8. [pspdfkit/nutrient-dws-mcp-server](https://github.com/pspdfkit/nutrient-dws-mcp-server)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1296,7 +1245,7 @@
 
 ---
 
-### 10. [zxkane/mcp-server-amazon-bedrock](https://github.com/zxkane/mcp-server-amazon-bedrock)
+### 9. [zxkane/mcp-server-amazon-bedrock](https://github.com/zxkane/mcp-server-amazon-bedrock)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1313,7 +1262,7 @@
 
 ---
 
-### 11. [chy168/google-chat-mcp-server](https://github.com/chy168/google-chat-mcp-server)
+### 10. [chy168/google-chat-mcp-server](https://github.com/chy168/google-chat-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1331,7 +1280,7 @@
 
 ---
 
-### 12. [peakmojo/mcp-server-zoom-noauth](https://github.com/peakmojo/mcp-server-zoom-noauth)
+### 11. [peakmojo/mcp-server-zoom-noauth](https://github.com/peakmojo/mcp-server-zoom-noauth)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1350,7 +1299,7 @@
 
 ---
 
-### 13. [seohyunjun/opensearch-mcp-server](https://github.com/seohyunjun/opensearch-mcp-server)
+### 12. [seohyunjun/opensearch-mcp-server](https://github.com/seohyunjun/opensearch-mcp-server)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1368,7 +1317,7 @@
 
 ---
 
-### 14. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)
+### 13. [browsercat/browsercat-mcp-server](https://github.com/browsercat/browsercat-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1385,7 +1334,7 @@
 
 ---
 
-### 15. [aliyun/alibabacloud-polardb-mcp-server](https://github.com/aliyun/alibabacloud-polardb-mcp-server)
+### 14. [aliyun/alibabacloud-polardb-mcp-server](https://github.com/aliyun/alibabacloud-polardb-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1404,7 +1353,7 @@
 
 ---
 
-### 16. [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp)
+### 15. [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1421,7 +1370,7 @@
 
 ---
 
-### 17. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)
+### 16. [ish-joshi/leonardo-mcp-server](https://github.com/ish-joshi/leonardo-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1438,7 +1387,7 @@
 
 ---
 
-### 18. [aliyun/alibabacloud-iqs-tongxiao-mcp-server](https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server)
+### 17. [aliyun/alibabacloud-iqs-tongxiao-mcp-server](https://github.com/aliyun/alibabacloud-iqs-tongxiao-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1455,7 +1404,7 @@
 
 ---
 
-### 19. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)
+### 18. [fibery-inc/fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -1472,28 +1421,7 @@
 
 ---
 
-### 20. [abhiz123/todoist-mcp-server](https://github.com/abhiz123/todoist-mcp-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The abhiz123/todoist-mcp-server project provides a Model Context Protocol (MCP) server that integrates Claude AI to allow users to manage tasks using everyday language. It supports natural language creation, search, filtering, and task management features such as creating, updating, completing, deleting tasks, and integrating with Todoist's API.**
-
-**Features:**
-- Natural Language Task Management
-- Smart Task Search
-- Flexible Filtering
-- Rich Task Details
-- Intuitive Error Handling
-- Secure Code Practices
-- Code Review and Management
-- Automation of Workflows
-- Development Tools Integration
-
-*Tags: todoist, mcp, ai, cloud, developer, security, integration, productivity...*
-
----
-
-### 21. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)
+### 19. [gemini-dk/mcp-server-firebase](https://github.com/gemini-dk/mcp-server-firebase)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1511,7 +1439,7 @@
 
 ---
 
-### 22. [glifxyz/glif-mcp-server](https://github.com/glifxyz/glif-mcp-server)
+### 20. [glifxyz/glif-mcp-server](https://github.com/glifxyz/glif-mcp-server)
 `9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1530,7 +1458,7 @@
 
 ---
 
-### 23. [microcmsio/microcms-mcp-server](https://github.com/microcmsio/microcms-mcp-server)
+### 21. [microcmsio/microcms-mcp-server](https://github.com/microcmsio/microcms-mcp-server)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 
 **microCMS-MCP-Serverは、AIエージェントや開発者ワークフローに統合することで、コンテンツ作成や管理プロセスを自動化・最適化します。このプロジェクトでは、AIとの連携や多サービスモードでの運用が強調されており、開発者はコンテンツの作成、レビュー、公開を迅速かつ安全に行えます。クラウドベースのアーキテクチャにより、スケーラビリティとセキュリティが確保され、企業やスタートアップ alike に適したツールとなっています。AI機能やAPI連携を通じて、最新の業界トレンドに対応し、開発効率を大幅に向上させます。**
@@ -1548,7 +1476,7 @@
 
 ---
 
-### 24. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)
+### 22. [vivekhaldar/emacs-mcp-server](https://github.com/vivekhaldar/emacs-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1565,7 +1493,7 @@
 
 ---
 
-### 25. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)
+### 23. [xbluecode/findata-mcp-server](https://github.com/xbluecode/findata-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗5 layers
 
@@ -1582,7 +1510,7 @@
 
 ---
 
-### 26. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)
+### 24. [jmanhype/dart-mcp-server](https://github.com/jmanhype/dart-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1600,7 +1528,7 @@
 
 ---
 
-### 27. [tcpipuk/mcp-server](https://github.com/tcpipuk/mcp-server)
+### 25. [tcpipuk/mcp-server](https://github.com/tcpipuk/mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1617,27 +1545,7 @@
 
 ---
 
-### 28. [sakce/mcp-server-monday](https://github.com/sakce/mcp-server-monday)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The mcp-server-monday project provides a server-based solution that allows developers to programmatically interact with Monday.com boards and items using tools like Rube App. It supports creating, updating, moving, and archiving items within Monday.com, facilitating seamless integration between the two platforms.**
-
-**Features:**
-- Create new items in Monday.com
-- Update existing items
-- Move items to different groups
-- Delete items
-- Archive items
-- Retrieve updates/comments
-- Add document blocks
-- Post updates and comments
-
-*Tags: mcp-server-monday, monday.com, api-key, python, docker, uvx, rude.app, monkey-search...*
-
----
-
-### 29. [nacgarg/bazel-mcp-server](https://github.com/nacgarg/bazel-mcp-server)
+### 26. [nacgarg/bazel-mcp-server](https://github.com/nacgarg/bazel-mcp-server)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1655,7 +1563,7 @@
 
 ---
 
-### 30. [gongrzhe/image-generation-mcp-server](https://github.com/gongrzhe/image-generation-mcp-server)
+### 27. [gongrzhe/image-generation-mcp-server](https://github.com/gongrzhe/image-generation-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1672,7 +1580,7 @@
 
 ---
 
-### 31. [xxpe3/omgflux-mcp-server](https://github.com/xxpe3/omgflux-mcp-server)
+### 28. [xxpe3/omgflux-mcp-server](https://github.com/xxpe3/omgflux-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The Borg Project's 'omgflux-mcp-server' is a Node.js application that leverages the Flux API provided by ohmygpt to dynamically generate image-based content. It integrates with the broader MCP (Machine Learning Cloud Platform) ecosystem, utilizing advanced security features and developer tools to ensure robust performance and scalability.**
@@ -1688,7 +1596,7 @@
 
 ---
 
-### 32. [floatdreamwithsong/mysql-mcp-server-qwen-manager](https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager)
+### 29. [floatdreamwithsong/mysql-mcp-server-qwen-manager](https://github.com/floatdreamwithsong/mysql-mcp-server-qwen-manager)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1705,7 +1613,7 @@
 
 ---
 
-### 33. [faizan45640/google-classroom-mcp-server](https://github.com/faizan45640/google-classroom-mcp-server)
+### 30. [faizan45640/google-classroom-mcp-server](https://github.com/faizan45640/google-classroom-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1722,7 +1630,7 @@
 
 ---
 
-### 34. [wallisking1991/outlook-mcp-server](https://github.com/wallisking1991/outlook-mcp-server)
+### 31. [wallisking1991/outlook-mcp-server](https://github.com/wallisking1991/outlook-mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -1739,7 +1647,7 @@
 
 ---
 
-### 35. [michaelzag/migadu-mcp](https://github.com/michaelzag/migadu-mcp)
+### 32. [michaelzag/migadu-mcp](https://github.com/michaelzag/migadu-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The Migadu MCP Server enables developers to manage email accounts through AI assistants, automating tasks such as mailbox creation, deletion, alias setup, and routing. This project leverages FastMCP to integrate with Migadu's API, offering a streamlined developer experience for enterprise and small-to-medium teams.**
@@ -1755,7 +1663,7 @@
 
 ---
 
-### 36. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)
+### 33. [heltonteixeira/openrouterai](https://github.com/heltonteixeira/openrouterai)
 `9.0` ★★ ⚡88 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1772,7 +1680,7 @@
 
 ---
 
-### 37. [DHT Proxy: Hide your IP from BitTorrent DHT and trackers](https://www.janhouse.lv/blog/it/dht-proxy-hiding-ip-from-bittorrent-dht-trackers)
+### 34. [DHT Proxy: Hide your IP from BitTorrent DHT and trackers](https://www.janhouse.lv/blog/it/dht-proxy-hiding-ip-from-bittorrent-dht-trackers)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **DHT Proxy operates by running its own DHT node and public tracker queries to collect peer addresses, enrich them with location data, and serve them privately to a BitTorrent client via an announce endpoint. It intercepts torrent downloads, modifies .torrent files with announce URLs, and routes them through the proxy, which then forwards them to qBittorrent transparently. The system supports both public and private modes, includes automated maintenance (e.g., peer purging, database cleanup), and ...**
@@ -1789,7 +1697,7 @@
 
 ---
 
-### 38. [davidteren/play-sound-mcp-server](https://github.com/davidteren/play-sound-mcp-server)
+### 35. [davidteren/play-sound-mcp-server](https://github.com/davidteren/play-sound-mcp-server)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -1805,7 +1713,7 @@
 
 ---
 
-### 39. [rakeshgangwar/tmdb-mcp-server](https://github.com/rakeshgangwar/tmdb-mcp-server)
+### 36. [rakeshgangwar/tmdb-mcp-server](https://github.com/rakeshgangwar/tmdb-mcp-server)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 
 **The tmdb-mcp-server is a Node.js application designed to facilitate interaction with the Movie Database (TMDB) API. It enables AI-powered assistants to search and retrieve detailed movie information by integrating with MCP (Movie Context Protocol). The server supports features such as searching movies by title, year, and other criteria, retrieving comprehensive movie details, and ensuring seamless integration with MCP-compatible AI tools.**
@@ -1820,7 +1728,7 @@
 
 ---
 
-### 40. [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager)
+### 37. [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager)
 `8.0` ★ ⚡86 Q0.9🏆 🏆 World-class
 
 **This tool acts as a local intermediary, translating web-based authentication (like Google or Anthropic sessions) into standard API calls, effectively bridging the gap between different AI provider protocols.  It offers features like intelligent routing, automatic retries, and account switching to ensure seamless and cost-effective access to AI models.**
@@ -1839,7 +1747,7 @@
 
 ---
 
-### 41. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)
+### 38. [parthshr370/mcp-servers](https://github.com/parthshr370/mcp-servers)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -1856,7 +1764,7 @@
 
 ---
 
-### 42. [atuinturtle/dice-thrower-mcp-server](https://github.com/atuinturtle/dice-thrower-mcp-server)
+### 39. [atuinturtle/dice-thrower-mcp-server](https://github.com/atuinturtle/dice-thrower-mcp-server)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The project provides a GitHub-hosted server using Bun and TypeScript to simulate dice throws, supporting integration with MCP systems. It offers features such as code execution, workflow automation, secure coding practices, and enterprise-grade security measures.**
@@ -1872,7 +1780,7 @@
 
 ---
 
-### 43. [pepuscz/typefully-mcp-server](https://github.com/pepuscz/typefully-mcp-server)
+### 40. [pepuscz/typefully-mcp-server](https://github.com/pepuscz/typefully-mcp-server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1889,7 +1797,7 @@
 
 ---
 
-### 44. [sunwood-ai-labs/release-notes-generator-iris-mcp-server](https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server)
+### 41. [sunwood-ai-labs/release-notes-generator-iris-mcp-server](https://github.com/sunwood-ai-labs/release-notes-generator-iris-mcp-server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -1906,7 +1814,7 @@
 
 ---
 
-### 45. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)
+### 42. [ourongxing/newsnow-mcp-server](https://github.com/ourongxing/newsnow-mcp-server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -1923,7 +1831,7 @@
 
 ---
 
-### 46. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)
+### 43. [kubesphere/ks-mcp-server](https://github.com/kubesphere/ks-mcp-server)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1939,7 +1847,7 @@
 
 ---
 
-### 47. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)
+### 44. [juhemcp/jweather-mcp-server](https://github.com/juhemcp/jweather-mcp-server)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗3 layers
 
@@ -1955,7 +1863,7 @@
 
 ---
 
-### 48. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)
+### 45. [zerocracy/zerocracy-mcp-server](https://github.com/zerocracy/zerocracy-mcp-server)
 `8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
 ↗3 layers
 
@@ -1971,7 +1879,7 @@
 
 ---
 
-### 49. [clawdbot/clawdbot](https://github.com/clawdbot/clawdbot)
+### 46. [clawdbot/clawdbot](https://github.com/clawdbot/clawdbot)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -1987,7 +1895,7 @@
 
 ---
 
-### 50. [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy)
+### 47. [automazeio/vibeproxy](https://github.com/automazeio/vibeproxy)
 `9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2003,7 +1911,7 @@
 
 ---
 
-### 51. [derbenoo/fiberflow-mcp-gateway](https://github.com/derbenoo/fiberflow-mcp-gateway)
+### 48. [derbenoo/fiberflow-mcp-gateway](https://github.com/derbenoo/fiberflow-mcp-gateway)
 `8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2018,7 +1926,7 @@
 
 ---
 
-### 52. [abel9851/mcp-server-mariadb](https://github.com/abel9851/mcp-server-mariadb)
+### 49. [abel9851/mcp-server-mariadb](https://github.com/abel9851/mcp-server-mariadb)
 `8.7` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2033,22 +1941,7 @@
 
 ---
 
-### 53. [v86](https://copy.sh/v86)
-`10.0` ★★★ ⚡75 Q0.7⭐ ⭐ Excellent
-
-**A WebAssembly-based x86 emulator that runs full operating systems (Linux/Windows) directly in the browser, enabling "local-like" agent execution in a browser tab.**
-
-**Features:**
-- x86-compatible CPU emulation
-- virtio hardware support
-- zero-install portable execution
-- near-native performance translation.
-
-*Tags: wasm, virtualization, emulator, sandboxing, browser-automation, copy, linux, ux*
-
----
-
-### 54. [Download · WinFsp](https://winfsp.dev/rel)
+### 50. [Download · WinFsp](https://winfsp.dev/rel)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A high-performance Windows File System Proxy that enables user-mode filesystem development with NTFS parity and a 2026 "no-reboot" installer.**
@@ -2063,7 +1956,7 @@
 
 ---
 
-### 55. [GraalVM - Wikipedia](https://en.wikipedia.org/wiki/GraalVM)
+### 51. [GraalVM - Wikipedia](https://en.wikipedia.org/wiki/GraalVM)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2079,7 +1972,23 @@
 
 ---
 
-### 56. [LLM Router Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/llm-router)
+### 52. [SimonCropp/windows-mcp](https://github.com/SimonCropp/windows-mcp)
+`6.0` ★ ⚡74 Q0.8⭐ ⭐ Excellent
+
+**This repository introduces a platform for managing and interacting with the Windows operating system, likely focusing on bridging the gap between traditional development workflows and native Windows capabilities. It represents an effort to create a cohesive layer or proxy that allows developers to interact more deeply with the Windows environment through modern tooling.**
+
+**Features:**
+- Windows MCP integration
+- Platform bridging
+- Developer workflow enhancement
+- System interaction layer
+- Cross-platform compatibility
+
+*Tags: windows, mcp, developer-tools, win32, platform, infrastructure, proxy*
+
+---
+
+### 53. [LLM Router Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/llm-router)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **A high-performance framework that dynamically routes prompts to optimal models based on intent, cost, and latency requirements.**
@@ -2094,7 +2003,7 @@
 
 ---
 
-### 57. [Enabling MCP Server Access | Supabase Docs](https://supabase.com/docs/guides/self-hosting/enable-mcp)
+### 54. [Enabling MCP Server Access | Supabase Docs](https://supabase.com/docs/guides/self-hosting/enable-mcp)
 `9.7` ★★ ⚡73 Q0.6⭐ ⭐ Excellent
 
 **Official technical guide for enabling Model Context Protocol support in self-hosted Supabase instances for natural language database querying.**
@@ -2109,7 +2018,7 @@
 
 ---
 
-### 58. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)
+### 55. [tengfone/supabase-nextjs-mcp-server](https://github.com/tengfone/supabase-nextjs-mcp-server)
 `8.7` ★ ⚡72 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2123,7 +2032,7 @@
 
 ---
 
-### 59. [gateway](https://docs.molt.bot/gateway)
+### 56. [gateway](https://docs.molt.bot/gateway)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A centralized messaging hub that bridges self-hosted AI agents to WhatsApp, Telegram, Discord, and Slack via a unified WebSocket API.**
@@ -2138,7 +2047,7 @@
 
 ---
 
-### 60. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)
+### 57. [falahgs/gemini-data-analysis-research-mcp-server](https://github.com/falahgs/gemini-data-analysis-research-mcp-server)
 `9.2` ★★ ⚡64 Q0.5✓ ✓ Solid
 ↗3 layers
 
@@ -2150,7 +2059,7 @@
 ---
 
 ## Spec-Driven Development
-> 39 tools · avg signal ⚡86
+> 40 tools · avg signal ⚡85
 
 ### 1. [PublicAffairs/openai-gemini](https://github.com/PublicAffairs/openai-gemini)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -2390,25 +2299,7 @@
 
 ---
 
-### 14. [rados10/youtube-watchlater-mcp](https://github.com/rados10/youtube-watchlater-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The YouTube Watch Later MCP server enables developers to programmatically retrieve video URLs from a custom YouTube playlist, supporting configurable time windows. It integrates with the YouTube Data API v3 and provides a simple interface for developers to automate workflows, manage code changes, and ensure secure access using OAuth2 authentication.**
-
-**Features:**
-- Get URLs of videos added to a custom playlist
-- Support configurable timeframes (e.g.
-- last day
-- week)
-- OAuth2 authentication for secure access
-- Token refresh mechanism
-- Integration with MCP settings file
-
-*Tags: youtube-watchlater, mcp, youtube-api, youtube-data-api, cloud-integration, developer-tools, security, api-usage...*
-
----
-
-### 15. [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server)
+### 14. [domdomegg/airtable-mcp-server](https://github.com/domdomegg/airtable-mcp-server)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2425,7 +2316,7 @@
 
 ---
 
-### 16. [hhw67865/tripadvisor-mcp-server](https://github.com/hhw67865/tripadvisor-mcp-server)
+### 15. [hhw67865/tripadvisor-mcp-server](https://github.com/hhw67865/tripadvisor-mcp-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -2442,7 +2333,7 @@
 
 ---
 
-### 17. [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)
+### 16. [Flux159/mcp-server-kubernetes](https://github.com/Flux159/mcp-server-kubernetes)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2459,7 +2350,7 @@
 
 ---
 
-### 18. [jamsocket/forevervm](https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server)
+### 17. [jamsocket/forevervm](https://github.com/jamsocket/forevervm/tree/HEAD/javascript/mcp-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The ForeverVM JavaScript module, specifically the mcp-server component, allows developers to run Python code within a Python REPL environment. This facilitates seamless integration between different programming languages and enhances automation capabilities by enabling complex workflows and scripting tasks directly from the ForeverVM platform.**
@@ -2475,7 +2366,7 @@
 
 ---
 
-### 19. [vinsidious/mcp-pg-schema](https://github.com/vinsidious/mcp-pg-schema)
+### 18. [vinsidious/mcp-pg-schema](https://github.com/vinsidious/mcp-pg-schema)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2492,7 +2383,7 @@
 
 ---
 
-### 20. [akilat-spec/leave-manager-mcp](https://github.com/akilat-spec/leave-manager-mcp)
+### 19. [akilat-spec/leave-manager-mcp](https://github.com/akilat-spec/leave-manager-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -2509,7 +2400,7 @@
 
 ---
 
-### 21. [OpenRouter](https://openrouter.ai)
+### 20. [OpenRouter](https://openrouter.ai)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2529,7 +2420,7 @@
 
 ---
 
-### 22. [Building an Efficient GPU Server with NVIDIA GeForce RTX 4090s/5090s | Andreessen Horowitz](https://a16z.com/building-an-efficient-gpu-server-with-nvidia-geforce-rtx-4090s-5090s)
+### 21. [Building an Efficient GPU Server with NVIDIA GeForce RTX 4090s/5090s | Andreessen Horowitz](https://a16z.com/building-an-efficient-gpu-server-with-nvidia-geforce-rtx-4090s-5090s)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 
 **This resource outlines a specialized hardware architecture designed to overcome the physical and electrical limitations of standard enterprise servers when using wide consumer GPUs. By utilizing the ASUS ESC8000A-E12P chassis and an additional PCIe 5.0 expansion card, the build bypasses the need for signal-degrading PCIe extenders or expensive retimers. The approach involves mounting four GPUs internally and four externally on a custom-engineered GoBilda robotics frame, maintaining direct cable ...**
@@ -2548,7 +2439,7 @@
 
 ---
 
-### 23. [kiwamizamurai/mcp-kibela-server](https://github.com/kiwamizamurai/mcp-kibela-server)
+### 22. [kiwamizamurai/mcp-kibela-server](https://github.com/kiwamizamurai/mcp-kibela-server)
 `8.5` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -2564,7 +2455,7 @@
 
 ---
 
-### 24. [chatmcp/mcpso](https://github.com/chatmcp/mcpso)
+### 23. [chatmcp/mcpso](https://github.com/chatmcp/mcpso)
 `7.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -2581,7 +2472,7 @@
 
 ---
 
-### 25. [Changelog](https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-issues-proactively)
+### 24. [Changelog](https://jules.google/docs/changelog#enable-suggested-tasks-to-let-jules-find-issues-proactively)
 `10.0` ★★★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -2605,7 +2496,7 @@
 
 ---
 
-### 26. [credits](https://openrouter.ai/settings/credits)
+### 25. [credits](https://openrouter.ai/settings/credits)
 `9.1` ★★ ⚡84 Q0.7⭐ ⭐ Excellent
 
 **OpenRouter serves as a sophisticated abstraction layer for large language model (LLM) consumption, normalizing disparate API schemas from providers like Anthropic, OpenAI, Google, and Meta into a standardized format. Its technical architecture focuses on solving model fragmentation by providing a central credit system, automated routing, and fallback mechanisms. It effectively handles the complexity of cross-provider billing and latency management, allowing developers to switch between model bac...**
@@ -2624,7 +2515,7 @@
 
 ---
 
-### 27. [dustland/genesis-mcp](https://github.com/dustland/genesis-mcp)
+### 26. [dustland/genesis-mcp](https://github.com/dustland/genesis-mcp)
 `8.8` ★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2640,7 +2531,7 @@
 
 ---
 
-### 28. [Code Storage by the Pierre Computer Company | Hacker News](https://news.ycombinator.com/item?id=46957629)
+### 27. [Code Storage by the Pierre Computer Company | Hacker News](https://news.ycombinator.com/item?id=46957629)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2664,7 +2555,7 @@
 
 ---
 
-### 29. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)
+### 28. [mcp-launch — one URL for many MCP servers (via mcpo) | MCP Servers · LobeHub](https://lobehub.com/pl/mcp/devguyrash-mcp-launch)
 `8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2683,7 +2574,7 @@
 
 ---
 
-### 30. [fiatrete/OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS)
+### 29. [fiatrete/OpenDAN-Personal-AI-OS](https://github.com/fiatrete/OpenDAN-Personal-AI-OS)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2699,7 +2590,7 @@
 
 ---
 
-### 31. [papercomputeco/stereOS](https://github.com/papercomputeco/stereOS)
+### 30. [papercomputeco/stereOS](https://github.com/papercomputeco/stereOS)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A minimal, NixOS-based operating system purpose-built and hardened for hosting autonomous AI agents with a restricted execution footprint.**
@@ -2714,7 +2605,7 @@
 
 ---
 
-### 32. [iii-hq/agentos](https://github.com/iii-hq/agentos)
+### 31. [iii-hq/agentos](https://github.com/iii-hq/agentos)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2730,7 +2621,7 @@
 
 ---
 
-### 33. [Show HN: I built an instant transcription service for any YouTube video | Hacker News](https://news.ycombinator.com/item?id=42461148)
+### 32. [Show HN: I built an instant transcription service for any YouTube video | Hacker News](https://news.ycombinator.com/item?id=42461148)
 `8.0` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2748,7 +2639,7 @@
 
 ---
 
-### 34. [GPT‑5.3‑Codex‑Spark | Hacker News](https://news.ycombinator.com/item?id=46992553)
+### 33. [GPT‑5.3‑Codex‑Spark | Hacker News](https://news.ycombinator.com/item?id=46992553)
 `7.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2765,7 +2656,7 @@
 
 ---
 
-### 35. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)
+### 34. [lucashild/mcp-server-bigquery](https://github.com/lucashild/mcp-server-bigquery)
 `8.7` ★ ⚡78 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -2780,7 +2671,7 @@
 
 ---
 
-### 36. [LLM Engineer's Almanac - Advisor](https://modal.com/llm-almanac/advisor)
+### 35. [LLM Engineer's Almanac - Advisor](https://modal.com/llm-almanac/advisor)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2796,22 +2687,7 @@
 
 ---
 
-### 37. [Get Started](https://pytorch.org/get-started/locally#anaconda)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**The 2026 release of PyTorch optimized for "AI PC" hardware, featuring native Intel Ultra Series 3 support and TorchSpec for speculative decoding training.**
-
-**Features:**
-- Native Intel Ultra NPU support
-- TorchSpec speculative decoding
-- CUDA 13.0 / ROCm 7.1 support
-- automated eager-to-graph mode transitions.
-
-*Tags: pytorch, ml, hardware-acceleration, optimization, torchspec, cloud*
-
----
-
-### 38. [poly-mcp/Polymcp](https://github.com/poly-mcp/Polymcp)
+### 36. [poly-mcp/Polymcp](https://github.com/poly-mcp/Polymcp)
 `8.7` ★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **A multi-language framework for building and orchestrating MCP servers and agents with built-in multi-tab inspector and Docker support.**
@@ -2826,7 +2702,7 @@
 
 ---
 
-### 39. [MegaETH Just Feels Different](https://blog.arcbjorn.com/megaeth-just-feels-different)
+### 37. [MegaETH Just Feels Different](https://blog.arcbjorn.com/megaeth-just-feels-different)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A high-performance Ethereum Layer-2 blockchain targeting 100,000 TPS and sub-millisecond block times via node specialization and high-end hardware.**
@@ -2841,8 +2717,52 @@
 
 ---
 
+### 38. [grafana/mcp-grafana](https://github.com/grafana/mcp-grafana)
+`6.0` ★ ⚡74 Q0.8⭐ ⭐ Excellent
+
+**This resource is a Grafana extension designed to integrate a Machine Control Plane (MCP) layer, enabling deeper observability and control over infrastructure components. It provides a mechanism to bridge the gap between traditional monitoring tools and underlying infrastructure management systems.**
+
+**Features:**
+- Grafana integration
+- Machine Control Plane (MCP) functionality
+- Observability enhancement
+- Proxy/Client handling
+- Infrastructure layer bridging
+
+*Tags: grafana, mcp, infrastructure, observability, proxy, golang, kubernetes*
+
+---
+
+### 39. [Self-hosting](https://nocodb.com/docs/self-hosting)
+`5.0` ★ ⚡62 Q0.7✓ ✓ Solid
+
+**This resource provides comprehensive documentation on the NocoDB platform, specifically focusing on the capability of self-hosting. It outlines the steps required to install, configure, and run NocoDB on a user's own server, emphasizing the complete control offered by this deployment model.**
+
+**Features:**
+- Self-hosting options
+- Full Control over data
+- Customization capabilities
+- Security configuration
+- License details
+
+*Tags: self-hosting, nocodb, infrastructure, open-source, deployment, control*
+
+---
+
+### 40. [Radxa Dragon Q8B: A Laptop Cosplaying as an SBC? - bret.dk](https://bret.dk/radxa-dragon-q8b-a-laptop-cosplaying-as-an-sbc/)
+`6.0` ★ ⚡48 Q0.5○ ○ Adequate
+
+**This resource details the launch of the Radxa Dragon Q8B, an early Qualcomm-based System-on-a-Chip (SBC) that is being positioned as a strong contender against other SBC options. The review highlights its performance and comparison against established benchmarks, offering insight into a specific hardware/software partnership in the emerging SBC market.**
+
+**Features:**
+- Qualcomm Snapdragon 8cx Gen 3 SoC
+
+*Tags: sbc*
+
+---
+
 ## Other Tools
-> 35 tools · avg signal ⚡66
+> 38 tools · avg signal ⚡66
 
 ### 1. [fish0710/excel-mcp](https://github.com/fish0710/excel-mcp)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
@@ -2929,23 +2849,7 @@
 
 ---
 
-### 6. [arnavsurve/scdl-mcp](https://github.com/arnavsurve/scdl-mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The mcp server facilitates the downloading of songs and playlists from SoundCloud, integrating with Claude for enhanced user interaction. It supports various features such as code execution, security measures, and workflow automation, making it suitable for enterprise-level applications in modernization and DevOps.**
-
-**Features:**
-- mcp server
-- code execution
-- security features
-- workflow automation
-- integration with Claude
-
-*Tags: mcp, soundcloud, cloud, automation, developer, ai, security, workflow...*
-
----
-
-### 7. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)
+### 6. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 
 **The kukapay/etf-flow-mcp project offers a unified tool that fetches historical cryptocurrency ETF flow data, enabling AI agents to make informed decisions. It integrates seamlessly with platforms like Claude Desktop and supports automation workflows for efficient data handling.**
@@ -2961,7 +2865,7 @@
 
 ---
 
-### 8. [markqvist/Reticulum](https://github.com/markqvist/Reticulum)
+### 7. [markqvist/Reticulum](https://github.com/markqvist/Reticulum)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
 **A transport-agnostic, cryptography-based networking stack for building unstoppable, end-to-end encrypted communication networks over any medium.**
@@ -2976,7 +2880,7 @@
 
 ---
 
-### 9. [egoist/exa-mcp](https://github.com/egoist/exa-mcp)
+### 8. [egoist/exa-mcp](https://github.com/egoist/exa-mcp)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -2992,7 +2896,7 @@
 
 ---
 
-### 10. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)
+### 9. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 
 **The MCP Server enables automation of communication within a group by allowing users to send various types of messages (text or markdown) through the DingDing API. It supports features such as message notifications, custom bot creation, and integration with external tools for enhanced functionality.**
@@ -3007,7 +2911,7 @@
 
 ---
 
-### 11. [item?id=45152767](https://news.ycombinator.com/item?id=45152767)
+### 10. [news.ycombinator.com/item](https://news.ycombinator.com/item?id=45152767)
 `8.0` ★ ⚡79 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3024,7 +2928,7 @@
 
 ---
 
-### 12. [Explore AI Models | Chutes](https://chutes.ai/app)
+### 11. [Explore AI Models | Chutes](https://chutes.ai/app)
 `10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
 
 **A decentralized serverless compute platform on the Bittensor network for low-cost AI inference, featuring Trusted Execution Environments (TEE) for prompt privacy.**
@@ -3039,7 +2943,7 @@
 
 ---
 
-### 13. [WinBoat - Run Windows Apps on Linux with Seamless Integration](https://www.winboat.app)
+### 12. [WinBoat - Run Windows Apps on Linux with Seamless Integration](https://www.winboat.app)
 `10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
 
 **An open-source virtualization tool designed to run Windows applications on Linux with a seamless "native" window feel, avoiding traditional heavy VM overhead.**
@@ -3054,7 +2958,7 @@
 
 ---
 
-### 14. [Cortex Code CLI Expands Towards Supporting Any Data, Anywhere](https://www.snowflake.com/en/blog/cortex-code-cli-expands-support)
+### 13. [Cortex Code CLI Expands Towards Supporting Any Data, Anywhere](https://www.snowflake.com/en/blog/cortex-code-cli-expands-support)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **An expansion of Snowflake's AI agent to support dbt and Apache Airflow, featuring native SQL execution and a standalone subscription model.**
@@ -3069,7 +2973,7 @@
 
 ---
 
-### 15. [Windows Projected File System - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/projfs/projected-file-system)
+### 14. [Windows Projected File System - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/projfs/projected-file-system)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A Windows feature allowing user-mode providers to project virtual, hydrated-on-demand data into the filesystem for VFS and security use cases.**
@@ -3084,7 +2988,7 @@
 
 ---
 
-### 16. [Nvidia Is Planning to Launch an Open-Source AI Agent Platform](https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source)
+### 15. [Nvidia Is Planning to Launch an Open-Source AI Agent Platform](https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source)
 `10.0` ★★★ ⚡73 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3099,7 +3003,7 @@
 
 ---
 
-### 17. [Deno Sandbox | Hacker News](https://news.ycombinator.com/item?id=46874097)
+### 16. [Deno Sandbox | Hacker News](https://news.ycombinator.com/item?id=46874097)
 `9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -3115,7 +3019,7 @@
 
 ---
 
-### 18. [about](https://alternativeto.net/software/activitywatch/about)
+### 17. [about](https://alternativeto.net/software/activitywatch/about)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A privacy-first, local-first time tracking tool that records system activity without cloud data exfiltration, featuring a high-performance Rust core.**
@@ -3130,7 +3034,7 @@
 
 ---
 
-### 19. [about](https://alternativeto.net/software/vibe-transcribe/about)
+### 18. [alternativeto.net/software/vibe-transcribe/about](https://alternativeto.net/software/vibe-transcribe/about)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A privacy-first desktop app for local audio/video transcription using Whisper, featuring Ollama integration for instant summaries and MCP support.**
@@ -3145,7 +3049,7 @@
 
 ---
 
-### 20. [run-mxbai-rerank-v2-with-infinity-4b73858cd644](https://pub.towardsai.net/run-mxbai-rerank-v2-with-infinity-4b73858cd644)
+### 19. [run-mxbai-rerank-v2-with-infinity-4b73858cd644](https://pub.towardsai.net/run-mxbai-rerank-v2-with-infinity-4b73858cd644)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A state-of-the-art reranking model optimized for local inference via Infinity, outperforming Cohere Rerank 3.5 with 8x faster execution.**
@@ -3160,7 +3064,7 @@
 
 ---
 
-### 21. [i_built_a_tool_that_turns_repeated_file_reads](https://www.reddit.com/r/costlyinfra/comments/1sl6hf5/i_built_a_tool_that_turns_repeated_file_reads)
+### 20. [i_built_a_tool_that_turns_repeated_file_reads](https://www.reddit.com/r/costlyinfra/comments/1sl6hf5/i_built_a_tool_that_turns_repeated_file_reads)
 `8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
 
 **The project focuses on enhancing file reading efficiency through automated analysis of repeated access patterns, aiming to reduce redundant data transfers and improve system performance in infrastructure environments.**
@@ -3175,7 +3079,7 @@
 
 ---
 
-### 22. [dappier.com](https://dappier.com)
+### 21. [dappier.com](https://dappier.com)
 `9.5` ★★ ⚡68 Q0.5✓ ✓ Solid
 
 **A monetization and data delivery layer for the AI internet that provides rights-cleared, real-time data from premium publishers.**
@@ -3187,6 +3091,15 @@
 - model-agnostic recommendations.
 
 *Tags: monetization, premium-data, infrastructure, rag, marketplace*
+
+---
+
+### 22. [MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS](https://mimo.xiaomi.com/blog/mimo-tilert-1000tps)
+`6.0` ★ ⚡63 Q18.9✓ ✓ Solid
+
+**MiMo, in collaboration with TileRT, releases the UltraSpeed mode of Xiaomi MiMo-V2.5-Pro — breaking 1000 tokens/s generation speed on a 1T-parameter model for the first time on commodity GPUs through extreme model-system codesign.**
+
+*Tags: llm, infrastructure*
 
 ---
 
@@ -3205,657 +3118,113 @@
 
 ---
 
-### 24. [This Looks Like A Silent Deploy Deepseek](https://www.reddit.com/r/DeepSeek/comments/1sb84yg/this_looks_like_a_silent_deploy_deepseek/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 24. [cloudcode-pa.googleapis.com](http://cloudcode-pa.googleapis.com/v1internal)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
-**This Looks Like A Silent Deploy Deepseek**
-
----
-
-### 25. [Reddits Servers Begin Communicating Autonomously](https://www.reddit.com/r/ArtificialInteligence/comments/1s9xdh7/reddits_servers_begin_communicating_autonomously/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Reddits Servers Begin Communicating Autonomously**
+**cloudcode-pa.googleapis.com**
 
 ---
 
-### 26. [I Wrote An Ed2K Server In Go And Want To Keep](https://www.reddit.com/r/emule/comments/1sakgju/i_wrote_an_ed2k_server_in_go_and_want_to_keep/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 25. [host.docker.internal:11434](http://host.docker.internal:11434/v1)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
-**I Wrote An Ed2K Server In Go And Want To Keep**
-
----
-
-### 27. [Multi Now Supports Lemonade Server](https://www.reddit.com/r/multidotdev/comments/1sk69ql/multi_now_supports_lemonade_server/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Multi Now Supports Lemonade Server**
+**host.docker.internal:11434**
 
 ---
 
-### 28. [Qwen3635B Becomes Competitive With Cloud Models](https://www.reddit.com/r/LocalLLaMA/comments/1ssilc3/qwen3635b_becomes_competitive_with_cloud_models/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 26. [mewcp.com](https://mewcp.com/servers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Qwen3635B Becomes Competitive With Cloud Models**
-
----
-
-### 29. [Ive Deployed Mcp Servers Across 12 Projects This](https://www.reddit.com/r/mcp/comments/1tc37z1/ive_deployed_mcp_servers_across_12_projects_this/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ive Deployed Mcp Servers Across 12 Projects This**
+**mewcp.com**
 
 ---
 
-### 30. [I Wired 7 Mcp Servers To A Local Ollama Model](https://www.reddit.com/r/MCPservers/comments/1tct1k3/i_wired_7_mcp_servers_to_a_local_ollama_model/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 27. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/databases/ufo/index-e.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**I Wired 7 Mcp Servers To A Local Ollama Model**
-
----
-
-### 31. [Running A 31B Model Locally Made Me Realize How](https://www.reddit.com/r/ollama/comments/1smgep9/running_a_31b_model_locally_made_me_realize_how/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Running A 31B Model Locally Made Me Realize How**
+**collectionscanada.gc.ca**
 
 ---
 
-### 32. [Do You Think These Servers Need A Blanket](https://www.reddit.com/r/ShittySysadmin/comments/1ss1mc0/do_you_think_these_servers_need_a_blanket/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 28. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Do You Think These Servers Need A Blanket**
-
----
-
-### 33. [Thoth Open Source Localfirst Ai Assistant](https://www.reddit.com/r/ollama/comments/1t1nznv/thoth_open_source_localfirst_ai_assistant/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Thoth Open Source Localfirst Ai Assistant**
+**open.substack.com**
 
 ---
 
-### 34. [Leann Is An Innovative Vector Database That](https://www.reddit.com/r/LovingOpenSourceAI/comments/1sd4ywo/leann_is_an_innovative_vector_database_that/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+### 29. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign=post-expanded-share&utm_medium=post%20viewer)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Leann Is An Innovative Vector Database That**
-
----
-
-### 35. [Accelerating Gemma 4 Faster Inference With](https://www.reddit.com/r/Bard/comments/1t4l74k/accelerating_gemma_4_faster_inference_with/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Accelerating Gemma 4 Faster Inference With**
+**open.substack.com**
 
 ---
 
-## Memory & Context Systems
-> 32 tools · avg signal ⚡84
+### 30. [linkedin.com](https://www.linkedin.com/company/atlas-cloudai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-### 1. [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
-`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**Open Interpreter provides a bridge between Large Language Models and local system environments, allowing models to generate and execute Python, JavaScript, and Shell code directly on the user's machine. It functions as an agentic loop that translates natural language intent into system actions, bypassing the limitations of hosted environments by offering full internet access, no file size restrictions, and persistent local state. The architecture leverages LiteLLM for model provider abstraction,...**
-
-**Features:**
-- Local code execution
-- multi-language runtime support
-- streaming output architecture
-- stateful conversation persistence
-- local model interoperability
-- customizable system instructions
-- programmatic Python API
-- interactive terminal UI
-- user-in-the-loop approval workflows
-- automated system control
-
-*Tags: llm-agent, code-interpreter, local-execution, python-sdk, terminal-interface, litellm, automation, self-healing-code...*
+**linkedin.com**
 
 ---
 
-### 2. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗4 layers
+### 31. [soundcloud.com](https://soundcloud.com/airpodcast)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Superserve provides a managed infrastructure for deploying AI agents with a focus on security and statefulness. It utilizes Firecracker microVM technology to create strict, isolated execution environments for every agent session, ensuring that code execution and network requests remain sandboxed from the host infrastructure. The architecture features a persistent '/workspace' directory that survives restarts, enabling long-running agentic workflows. A standout technical feature is the network-le...**
-
-**Features:**
-- Firecracker microVM isolation
-- Persistent workspace filesystem
-- Network-level credential proxying
-- Sub-second cold starts
-- Framework-agnostic deployment
-- Real-time token streaming
-- CLI-based session management
-- Automated environment provisioning
-
-*Tags: firecracker, microvms, agent-isolation, persistent-storage, credential-proxy, production-ai, sandboxing, devops-for-ai...*
+**soundcloud.com**
 
 ---
 
-### 3. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
+### 32. [thedrugdatabase.com](https://thedrugdatabase.com/compare/adderall-476-vs-ritalin-2409)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**CodeMode Unified provides a sophisticated execution layer for AI agents, offering dual-mode operations as either a standard MCP server or a RESTful HTTP backend. Its core innovation lies in the 'Tool Bridge' architecture, which allows code executed within its sandboxed runtimes (Bun, Deno, QuickJS, or E2B) to recursively call other connected MCP servers. This enables agents to perform complex multi-step reasoning, such as fetching documentation via Context7 and immediately storing the processed ...**
-
-**Features:**
-- Dual MCP/HTTP architecture
-- multi-runtime support (Bun/Deno/QuickJS/isolated-vm/E2B)
-- MCP tool aggregation within code execution
-- automated discovery of local MCP servers
-- capability-based permission system
-- OAuth 2.1 + JWT authentication
-- resource usage monitoring (CPU/Memory)
-- protocol-agnostic tool bridging.
-
-*Tags: mcp, model-context-protocol, code-execution, sandboxing, bun-runtime, agent-infrastructure, tool-calling, interoperability...*
+**thedrugdatabase.com**
 
 ---
 
-### 4. [engineer-man/piston](https://github.com/engineer-man/piston)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗3 layers
+### 33. [thedrugdatabase.com](https://thedrugdatabase.com/drugs/adderall-476)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Piston provides a robust sandboxing environment for executing arbitrary code snippets by leveraging Docker and cgroup v2 for strict resource isolation. It abstracts the complexity of maintaining dozens of language runtimes through a unified REST API and a specialized package manager (ppman). The architecture ensures that code execution is decoupled from the host system, allowing for fine-grained control over compile-time and run-time constraints such as CPU usage, memory limits, and execution du...**
-
-**Features:**
-- Multi-language runtime management
-- secure sandboxing via cgroups v2
-- resource usage limiting (CPU/Memory/Time)
-- RESTful execution API
-- CLI-based package management
-- multi-file execution support
-- stdin/stdout/stderr piping
-- pre-built containerized language packages
-
-*Tags: sandboxing, code-execution, docker, runtime-isolation, cgroups-v2, api-driven, multi-language, security-architecture...*
+**thedrugdatabase.com**
 
 ---
 
-### 5. [vishalveerareddy123/Lynkr?utm_source=chatgpt.com](https://github.com/vishalveerareddy123/Lynkr)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
+### 34. [on.soundcloud.com](https://on.soundcloud.com/Wq8Jt3uNhXUGgt2dRk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Lynkr functions as a middleware orchestration layer that intercepts and translates API requests between AI development interfaces and various LLM providers. By acting as a drop-in replacement for Anthropic and OpenAI endpoints, it allows users to redirect traffic from locked-down tools (e.g., Claude Code CLI) to more cost-effective or private alternatives like AWS Bedrock, Ollama, or Databricks. The technical architecture emphasizes efficiency through semantic caching, memory deduplication, and ...**
-
-**Features:**
-- Protocol translation between Anthropic/OpenAI/Local formats
-- Multi-provider routing (10+ providers)
-- Semantic caching for response reuse
-- Memory deduplication and token optimization
-- Circuit breaking and load shedding
-- Prometheus metrics integration
-- Zero-code drop-in replacement via environment variables
-- Local model support via Ollama/llama.cpp
-
-*Tags: aws-bedrock, claude-code, cursor-ide, gateway, infrastructure, llm-proxy, local-llm, middleware...*
+**on.soundcloud.com**
 
 ---
 
-### 6. [integration-app/mcp-server](https://github.com/integration-app/mcp-server)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗2 layers
+### 35. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**The Membrane MCP Server is a Model Context Protocol (MCP) server designed to facilitate seamless integration with various tools and services. It provides an API for developers to manage and automate workflows, ensuring efficient communication between different systems. The server supports dynamic mode for selective tool access and offers features like persistent chat sessions and customizable cursor management. This project is particularly useful for enterprise environments aiming to modernize t...**
-
-**Features:**
-- Model Context Protocol (MCP) integration
-- Dynamic tool enablement
-- Persistent chat session management
-- Cursor configuration and tracking
-- Integration with external services
-- Automated workflow orchestration
-
-*Tags: mcp-server, integration, ai, developer, workflow, security, api, automation...*
+**rnemet.substack.com**
 
 ---
 
-### 7. [th3w1zard1/cedarscript-mcp](https://github.com/th3w1zard1/cedarscript-mcp)
-`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+### 36. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r=xvhxj)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**This project presents a TypeScript-based MCP server that implements CEDARScript, a SQL-like language for code manipulation. It provides comprehensive grammar rules for code operations (DDL, DML), supports complex pattern matching and transformations, and enables file, function, class, and method targeting with regex, prefix/suffix, and indentation rules. The tool allows users to execute CEDARScript commands via `edit_file` and supports file creation, deletion, moving, and updating through patter...**
-
-**Features:**
-- CEDARScript grammar integration
-- Command parsing and execution
-- Pattern matching with regex and indentation
-- File manipulation capabilities
-- Support for complex operations
-- Persistence of changes
-
-*Tags: mcp, cedarscript, code-manipulation, tool-integration, developer-utility, ai-integration, security-features, automation...*
+**rnemet.substack.com**
 
 ---
 
-### 8. [iflytek/ifly-workflow-mcp-server](https://github.com/iflytek/ifly-workflow-mcp-server)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗2 layers
+### 37. [soundcloud.com](https://soundcloud.com/ikiir-c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**The project provides a streamlined approach to integrating iFlytek workflows with MCP (Model Context Protocol) servers, enabling automated and intelligent workflow execution. It supports various node types, execution modes, and advanced orchestration features such as sequential, parallel, loop, and multi-turn execution. The system is designed for enterprise use cases, offering robust node support, flexible data handling, and seamless integration with LLM applications.**
-
-**Features:**
-- 14 workflow node types
-- Sequential and parallel execution
-- Loop and nested execution
-- Multi-model support
-- Single-turn and multi-turn interaction
-- Context memory for dynamic conversations
-
-*Tags: mcp-server, workflow, ai-integration, automation, model-hybrid, developer-tools, enterprise-devops, context-aware...*
+**soundcloud.com**
 
 ---
 
-### 9. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
+### 38. [cloudflarestatus.com](https://www.cloudflarestatus.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**Zeroboot provides a platform that delivers sub-millisecond virtual machine sandboxes specifically designed for running AI agents. By leveraging copy-on-write forking and KVM virtualization with hardware-enforced memory isolation, it ensures each AI agent runs in its own secure environment. This architecture supports rapid deployment, scalability, and strong security by isolating processes and preventing cross-fork interference.**
-
-**Features:**
-- Sub-millisecond VM sandboxes
-- Copy-on-write forking
-- Hardware-enforced memory isolation
-- AI agent execution
-- Secure development environment
-
-*Tags: zeroboot, ai-agents, virtual-machine, security, developer-tools, memory-isolation, kvm, firecracker...*
-
----
-
-### 10. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The kaznak/shell-command-mcp project provides a Model Context Protocol (MCP) server that runs within a Docker container, offering a sandboxed environment to execute shell commands without exposing access to the host Docker daemon. This enhances security by isolating container operations and supports advanced use cases such as AI development, code execution, and secure workflow automation.**
-
-**Features:**
-- Secure isolated Docker container execution
-- MCP protocol support for remote command execution
-- Non-root user environment for enhanced security
-- Persistent file mounting from host
-- Integration with Kubernetes tools (kubectl
-- helm)
-- AI-friendly development workspace
-
-*Tags: mcp, docker, ai, development, security, containerization, workflow, ai-agent...*
-
----
-
-### 11. [pontusab/directories](https://github.com/pontusab/directories)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**This repository is a platform that serves as a community hub for the 'Cursor' tool. It outlines how to build applications using Cursor, including plugins, MCP servers, events, and jobs. The project structure suggests a modern web application built with Next.js (App Router) and Bun, leveraging Supabase for database persistence. The core innovation lies in the architecture that allows developers to easily create agents and workflows.**
-
-**Features:**
-- The platform provides a place for plugins
-- MCP servers
-- events
-- and jobs. It defines a clear workflow for development
-- integrating tools like Next.js (App Router)
-- Bun
-- Supabase
-- Tailwind CSS
-- React Email
-- Fuse.js for search
-- and Luma API for community events.
-
-*Tags: ['agent-orchestration', 'context-engineering', 'memory-&-persistence', 'developer-ux', 'mcp/a2a', 'infrastructure', 'vector-databases-&-search', 'coding-tools'...*
-
----
-
-### 12. [Blaxel: The Persistent Sandbox Platform](https://blaxel.ai)
-`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**Blaxel shifts the AI agent environment paradigm from ephemeral runners to persistent, stateful sandboxes. By utilizing microVM technology, Blaxel captures full snapshots of RAM and the filesystem during idle periods, allowing sandboxes to 'sleep' at zero compute cost while preserving execution state indefinitely. When re-activated, sandboxes resume in approximately 25ms with original process IDs and memory intact. To further minimize latency, the platform colocates the agent logic, inference cal...**
-
-**Features:**
-- MicroVM memory snapshots
-- 25ms resume from standby
-- scale-to-zero compute cost
-- colocated agent/sandbox backbone
-- block-storage volume persistence
-- automated idle detection
-- 50k+ concurrent sandbox scaling
-- remote MCP server hosting
-
-*Tags: microvm, sandbox, state-persistence, memory-snapshots, low-latency, mcp-server, agent-infrastructure, serverless-state...*
-
----
-
-### 13. [abhinav7895/system-mcp](https://github.com/abhinav7895/system-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**This project provides a MCP (Multi-source Cloud Platform) server that integrates various system monitoring tools to deliver comprehensive insights into CPU, memory, disk, network, battery, and internet speed. It enables developers to configure and test these metrics using Claude Desktop, offering a seamless experience for enterprise-level applications.**
-
-**Features:**
-- Real-time system monitoring
-- Integration with Claude Desktop
-- Customizable metrics collection
-- Detailed performance analytics
-- Secure and scalable deployment
-
-*Tags: system-monitoring, cloud-integration, devops, metrics, infrastructure, monitoring, ai-tools, enterprise-devops*
-
----
-
-### 14. [mokafari/orchestrator-server](https://github.com/mokafari/orchestrator-server)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-
-**The mokafari/orchestrator-server is a lightweight orchestration platform built on MCP (Multi-Process Communication) that enables efficient task management and coordination among AI agents such as Claude Desktop or Cline. It supports task creation with dependencies, safe deletion, cycle detection, and persistent storage to ensure reliable execution across instances.**
-
-**Features:**
-- Task creation with dependencies
-- Safe deletion with dependency checks
-- Cycle detection
-- Persistent task storage
-- Task status tracking
-
-*Tags: mcp, orchestrator-server, ai-agents, task-management, multi-instance, dependency-handling*
-
----
-
-### 15. [vishalveerareddy123/Lynkr](https://github.com/vishalveerareddy123/Lynkr?utm_source=chatgpt.com)
-`8.0` ★ ⚡89 Q0.9🏆 🏆 World-class
-
-**Lynkr functions as a middleware orchestration layer that intercepts and translates API requests between AI development interfaces and various LLM providers. By acting as a drop-in replacement for Anthropic and OpenAI endpoints, it allows users to redirect traffic from locked-down tools (e.g., Claude Code CLI) to more cost-effective or private alternatives like AWS Bedrock, Ollama, or Databricks. The technical architecture emphasizes efficiency through semantic caching, memory deduplication, and ...**
-
-**Features:**
-- Protocol translation between Anthropic/OpenAI/Local formats
-- Multi-provider routing (10+ providers)
-- Semantic caching for response reuse
-- Memory deduplication and token optimization
-- Circuit breaking and load shedding
-- Prometheus metrics integration
-- Zero-code drop-in replacement via environment variables
-- Local model support via Ollama/llama.cpp
-
-*Tags: aws-bedrock, claude-code, cursor-ide, gateway, infrastructure, llm-proxy, local-llm, middleware...*
-
----
-
-### 16. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)
-`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The resource describes a technique where isolated code sandboxes are created using copy-on-write (CoW) memory forking. Instead of booting a new VM each time, a single Firecracker VM is booted with pre-loaded Python and numpy, then snapshots are taken to create isolated guest VMs backed by private memory mappings. The key challenge was resuming snapshots correctly after forking, which required careful handling of shared resources like random number generators and ensuring proper seeding of entrop...**
-
-**Features:**
-- Sub-millisecond VM sandboxing
-- Copy-on-write (CoW) memory forking
-- Snapshot-based isolation
-- Pre-loaded Python and numpy for fast execution
-- Automatic reseeding of entropy after snapshots
-
-*Tags: firecracker, vmforking, coow, sandboxing, performance, entropy, reseeding, python...*
-
----
-
-### 17. [kinothe-kafkaesque/ssh-mcp-server](https://github.com/kinothe-kafkaesque/ssh-mcp-server)
-`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The KinoThe-Kafkaesque/ssh-mcp-server project provides a secure SSH server implementation using the MCP protocol, enabling remote command execution with data persistence through an SQLite database. It supports TypeScript development, automated workflows, and enterprise-grade security features.**
-
-**Features:**
-- SSH server via MCP protocol
-- SQLite database integration for credential storage
-- TypeScript-based development environment
-- Automated build and deployment pipeline
-- Secure credential management
-- Command execution through SSH_exec tool
-
-*Tags: ssh, mcp, ssh-server, security, developer-tools*
-
----
-
-### 18. [Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)
-`9.8` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
-
-**The Arm AGI CPU is a production-ready, rack-scale processor built on the Arm Neoverse platform. It delivers unprecedented scalability, energy efficiency, and parallel processing capabilities to support the growing demands of agentic AI infrastructure across hyperscale data centers and cloud platforms.**
-
-**Features:**
-- Rack-scale design with high core density
-- Massive memory bandwidth for efficient thread execution
-- Optimized I/O and power efficiency
-- Supports multi-core parallel workloads
-- Scalable architecture for future AI infrastructure needs
-
-*Tags: arm, agi, cpu, silicon, ai, agentic, performance, scalability...*
-
----
-
-### 19. [leereilly/games](https://github.com/leereilly/games)
-`8.0` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗4 layers
-
-**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure**
-
-**Features:**
-- Table of Contents: Browser-Based Boardgame
-- Arcade
-- FPS
-- RPG
-- MMORPG
-- Strategy
-- Racing
-- Sandbox
-- Puzzle
-- Clicker
-- Point and Click
-- Others. The repository showcases a diverse collection of games
-- ... and 3 more
-
-*Tags: ['html5', 'javascript', 'websockets', 'phaser', 'actionscript3', 'impactjs', 'gamejam', 'browsergames'...*
-
----
-
-### 20. [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**A lightweight, local-first micro-VM platform written in Rust that provides secure and persistent execution environments for AI agents.**
-
-**Features:**
-- Hardware-level isolation (KVM/Hypervisor)
-- 200ms instant boot
-- persistent state snapshots
-- async-first API for agents.
-
-*Tags: boxlite, microvm, rust, security, stateful-execution, artificial-intelligence, github, version-control*
-
----
-
-### 21. [e2b-dev/code-interpreter](https://github.com/e2b-dev/code-interpreter)
-`9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
-
-**Cloud-native infrastructure providing long-running, stateful sandboxes for AI agents to perform complex data analysis and coding tasks.**
-
-**Features:**
-- Persistent session state
-- Python/JS/TS SDKs
-- resource monitoring
-- high-scale enterprise readiness.
-
-*Tags: e2b, stateful-execution, cloud-sandbox, code-interpreter, infrastructure, artificial-intelligence, github, javascript...*
-
----
-
-### 22. [Product | Viktor](https://getviktor.com/product)
-`10.0` ★★★ ⚡80 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**An autonomous "AI Coworker" that integrates deeply into Slack and internal tools to proactively execute multi-step workflows without waiting for prompts.**
-
-**Features:**
-- Proactive
-- unprompted task execution
-- 3000+ deep tool integrations (Linear/GitHub/Ads)
-- cloud sandbox for code execution
-- multi-week persistent memory.
-
-*Tags: orchestration, slack, automation, enterprise, autonomous, artificial-intelligence, getviktor*
-
----
-
-### 23. [pizlonator/llvm-project-deluge](https://github.com/pizlonator/llvm-project-deluge/blob/deluge/Manifesto.md)
-`10.0` ★★★ ⚡80 Q0.7⭐ ⭐ Excellent
-
-**A fanatically compatible, memory-safe C/C++ implementation using "Invisible Capabilities" to enforce safety without the "unsafe" escape hatches of Rust.**
-
-**Features:**
-- "Invisible Capabilities" (InvisiCaps)
-- zero-change compatibility (curl/sqlite)
-- no "unsafe" escape hatches
-- runtime error interception.
-
-*Tags: llvm, c, memory-safety, deluge, compiler*
-
----
-
-### 24. [Code and Let Live | Hacker News](https://news.ycombinator.com/item?id=46557825)
-`8.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**Sprites.dev offers a way to execute code in persistent, sandboxed VMs with restricted blast radius, accessible via a simple JSON API. It includes snapshotting support for rollback to known states, enabling safe execution of potentially harmful code or experimentation. This approach allows developers to isolate and manage execution contexts for various tasks, including AI model inference and CI/CD pipelines.**
-
-**Features:**
-- Developer environment sandboxes
-- Sandbox API
-- Persistent VMs
-- Snapshotting
-- Rollback
-- JSON API
-- Code execution isolation
-
-*Tags: sandboxing, virtualization, isolation, api, security, fly.io, devops, cloud...*
-
----
-
-### 25. [Ask HN: A good trading community to discuss infrastructure, strategies and quant | Hacker News](https://news.ycombinator.com/item?id=41775278)
-`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**The resource focuses on the technical aspects of building robust trading systems, including tick data ingestion, latency management, risk mitigation, and data storage solutions. It emphasizes the importance of understanding backend infrastructure to support complex algorithmic trading workflows.**
-
-**Features:**
-- tick data handling
-- latency optimization
-- data storage solutions
-- risk management systems
-- in-memory processing
-- error handling
-- strategy development tools
-
-*Tags: algotrading, quantstrategies, tickdata, riskmanagement, dataprocessing, infrastructure, algorithmdesign, quantsystems...*
-
----
-
-### 26. [portel-dev/ncp](https://github.com/portel-dev/ncp)
-`8.7` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**A lower-level protocol designed for high-performance context passing between hardware or OS-native processes, as opposed to application-level MCP.**
-
-**Features:**
-- Memory-mapped state transfer
-- low-latency binary transport
-- hardware context optimization
-- OS-level integration.
-
-*Tags: ncp, protocol, low-level, systems, context, github, tools, version-control*
-
----
-
-### 27. [To kill memory safety bugs in C code, try the TrapC fork](https://www.theregister.com/2024/11/12/trapc_memory_safe_fork)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A minimalist fork of the C programming language designed to eliminate Undefined Behavior (UB) and enforce memory safety through automatic lifetime management and pointer bounds checking.**
-
-**Features:**
-- Automatic pointer lifetime management (no GC)
-- elimination of UB (Undefined Behavior)
-- backwards C/C++ compatibility
-- AI-assisted compiler refactoring.
-
-*Tags: c, memory-safety, trapc, compiler, infrastructure, programming, theregister*
-
----
-
-### 28. [Durable Execution Solutions](https://temporal.io)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A durable execution platform that virtualizes application state to enable crash-proof workflows, now a core infrastructure pillar for OpenAI's Agents SDK.**
-
-**Features:**
-- State virtualization (crash-proof)
-- OpenAI Agents SDK integration
-- persistent event history logs
-- sub-second state reconstruction.
-
-*Tags: temporal, infrastructure, durable-execution, orchestration, reliable-ai, design, open-source*
-
----
-
-### 29. [Memory is slow, Disk is fast - Part 2](https://www.bitflux.ai/blog/memory-is-slow-part2)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A technical analysis of memory latency bottlenecks in modern hardware, advocating for vectorization and massive parallelism to hide stable cache miss costs.**
-
-**Features:**
-- Memory vs Disk latency trends
-- cache-miss cost analysis
-- vectorization strategies
-- parallel data pipelining.
-
-*Tags: performance, hardware, optimization, memory, architecture, artificial-intelligence, bitflux, blog...*
-
----
-
-### 30. [MINISFORUM MS-S1 Max](https://store.minisforum.com/products/minisforum-ms-s1-max-mini-pc)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A high-end AI Mini Workstation powered by AMD Strix Halo, delivering 126 TOPS total AI compute and up to 128GB unified memory for local LLM inference.**
-
-**Features:**
-- 50 TOPS dedicated NPU (XDNA 2)
-- 126 TOPS total AI compute
-- 128GB LPDDR5X-8000 unified memory
-- 235B model local execution support.
-
-*Tags: hardware, amd, strix-halo, local-llm, performance, artificial-intelligence, store*
-
----
-
-### 31. [framework-desktop-mainboard-amd-ryzen-ai-max-300-series?v=FRAFMK0006](https://frame.work/products/framework-desktop-mainboard-amd-ryzen-ai-max-300-series?v=FRAFMK0006)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**The high-end AMD "Strix Halo" SoC series featuring a 50 TOPS XDNA 2 NPU and up to 40 RDNA 3.5 CUs for workstation-class integrated AI performance.**
-
-**Features:**
-- 50 TOPS AI compute (XDNA 2)
-- 40 RDNA 3.5 Compute Units
-- 256-bit memory interface
-- up to 128GB LPDDR5X-8000 support.
-
-*Tags: hardware, amd, strix-halo, npu, performance*
-
----
-
-### 32. [Built An Mcp Memory Server On Cloudflare Workers](https://www.reddit.com/r/mcp/comments/1t96ov4/built_an_mcp_memory_server_on_cloudflare_workers/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built An Mcp Memory Server On Cloudflare Workers**
+**cloudflarestatus.com**
 
 ---
 
 ## Config & Profile Management
-> 32 tools · avg signal ⚡89
+> 34 tools · avg signal ⚡87
 
 ### 1. [raju-deriv/mcp-deriv-api-server](https://github.com/raju-deriv/mcp-deriv-api-server)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -4103,23 +3472,7 @@
 
 ---
 
-### 15. [mumunha/cal_dot_com_mcpserver](https://github.com/mumunha/cal_dot_com_mcpserver)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The mumunha/cal_dot_com_mcpserver project provides a Dockerized MCP (Microsoft Calendar Protocol) server that enables seamless integration with Cal.com's calendar API. It offers core functionalities such as scheduling, updating, deleting, and listing appointments, along with robust configuration management via API keys. The solution emphasizes automation, security, and ease of use for enterprise and development teams.**
-
-**Features:**
-- Schedule new appointments
-- Update existing appointments
-- Delete appointments
-- List appointments by date range
-- API integration with Cal.com Calendar
-
-*Tags: mcp, calendar, api, cloud, developer, integration, automation, security*
-
----
-
-### 16. [suchetaslalom-sf/mcp-key-server](https://github.com/suchetaslalom-sf/mcp-key-server)
+### 15. [suchetaslalom-sf/mcp-key-server](https://github.com/suchetaslalom-sf/mcp-key-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The MCP Key Server is designed to securely manage API keys and facilitate npm package installations, ensuring that sensitive credentials are protected and accessible only to authorized users. It integrates with modern development workflows by supporting containerization, cloud deployment, and seamless integration with frontend and backend systems.**
@@ -4135,7 +3488,7 @@
 
 ---
 
-### 17. [walteh/cloudstack-mcp](https://github.com/walteh/cloudstack-mcp)
+### 16. [walteh/cloudstack-mcp](https://github.com/walteh/cloudstack-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4152,7 +3505,7 @@
 
 ---
 
-### 18. [complexdevel/mcp-cloud-pc](https://github.com/complexdevel/mcp-cloud-pc)
+### 17. [complexdevel/mcp-cloud-pc](https://github.com/complexdevel/mcp-cloud-pc)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
 **The MCP server enables centralized management of Azure Cloud PCs by leveraging the Microsoft Graph API. It provides functionalities such as listing users, retrieving user information, rebooting PCs, and managing cloud PC configurations through Python scripts. This tool is designed to streamline operations related to cloud PC management, offering automation and integration capabilities for enterprise environments.**
@@ -4168,7 +3521,7 @@
 
 ---
 
-### 19. [effytech/freshservice_mcp](https://github.com/effytech/freshservice_mcp)
+### 18. [effytech/freshservice_mcp](https://github.com/effytech/freshservice_mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4185,7 +3538,7 @@
 
 ---
 
-### 20. [cupofowls/kroger-mcp](https://github.com/cupofowls/kroger-mcp)
+### 19. [cupofowls/kroger-mcp](https://github.com/cupofowls/kroger-mcp)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -4203,7 +3556,7 @@
 
 ---
 
-### 21. [zeeroiq/pet-adoption-scheduling-service](https://github.com/zeeroiq/pet-adoption-scheduling-service)
+### 20. [zeeroiq/pet-adoption-scheduling-service](https://github.com/zeeroiq/pet-adoption-scheduling-service)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4220,7 +3573,7 @@
 
 ---
 
-### 22. [hyperboliclabs/hyperbolic-mcp](https://github.com/hyperboliclabs/hyperbolic-mcp)
+### 21. [hyperboliclabs/hyperbolic-mcp](https://github.com/hyperboliclabs/hyperbolic-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 
 **The Hyperbolic MCP Server provides a secure, enterprise-grade platform for managing GPU instances via Claude, allowing developers to rent and manage GPU resources seamlessly. It integrates with Claude for desktop, supports GPU management tools, and offers robust security features to protect applications and data.**
@@ -4236,7 +3589,7 @@
 
 ---
 
-### 23. [pmarkowsky/santa-mcp](https://github.com/pmarkowsky/santa-mcp)
+### 22. [pmarkowsky/santa-mcp](https://github.com/pmarkowsky/santa-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4253,7 +3606,7 @@
 
 ---
 
-### 24. [phact/mcp-google-docs](https://github.com/phact/mcp-google-docs)
+### 23. [phact/mcp-google-docs](https://github.com/phact/mcp-google-docs)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -4270,7 +3623,7 @@
 
 ---
 
-### 25. [clssck/mcp-time-server](https://github.com/clssck/mcp-time-server)
+### 24. [clssck/mcp-time-server](https://github.com/clssck/mcp-time-server)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 
 **The clssck/mcp-time-server project provides a Python-based Time Server that adheres to the Model Context Protocol standards. It enables developers to manage and convert time across different timezones with high accuracy, supporting robust infrastructure for applications requiring precise time handling. The server is designed to be integrated into various development environments, offering comprehensive error handling and type-safe implementations.**
@@ -4285,7 +3638,7 @@
 
 ---
 
-### 26. [burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist)
+### 25. [burtthecoder/mcp-dnstwist](https://github.com/burtthecoder/mcp-dnstwist)
 `8.5` ★ ⚡87 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -4302,7 +3655,7 @@
 
 ---
 
-### 27. [OpenAI's Five-Headline Blitz Reveals Its Real Strategic Pivot](https://oswarld.beehiiv.com/p/openai-s-five-headline-blitz-reveals-its-real-strategic-pivot)
+### 26. [OpenAI's Five-Headline Blitz Reveals Its Real Strategic Pivot](https://oswarld.beehiiv.com/p/openai-s-five-headline-blitz-reveals-its-real-strategic-pivot)
 `9.1` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -4321,7 +3674,7 @@
 
 ---
 
-### 28. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)
+### 27. [sydowma/crypto_exchange_mcp](https://github.com/sydowma/crypto_exchange_mcp/tree/HEAD/crypto_exchange_mcp_python)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -4338,7 +3691,7 @@
 
 ---
 
-### 29. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)
+### 28. [ingeniousidiocy/consumer-complaint-database-mcp](https://github.com/ingeniousidiocy/consumer-complaint-database-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -4355,7 +3708,7 @@
 
 ---
 
-### 30. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)
+### 29. [dubin555/clickhouse_mcp_server](https://github.com/dubin555/clickhouse_mcp_server)
 `8.8` ★ ⚡85 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -4372,7 +3725,7 @@
 
 ---
 
-### 31. [mrugankpednekar/bill_splitter_mcp](https://github.com/mrugankpednekar/bill_splitter_mcp)
+### 30. [mrugankpednekar/bill_splitter_mcp](https://github.com/mrugankpednekar/bill_splitter_mcp)
 `8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
 
 **The project provides a GitHub-hosted MCP (Multi-Cloud Platform) server designed to facilitate the automated splitting of bills across multiple cloud providers or services. It integrates with various cloud platforms and supports workflows that streamline bill management, ensuring efficient resource allocation and cost optimization.**
@@ -4387,7 +3740,7 @@
 
 ---
 
-### 32. [pathintegral-institute/mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)
+### 31. [pathintegral-institute/mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -4403,534 +3756,620 @@
 
 ---
 
-## Skill Systems
-> 30 tools · avg signal ⚡88
+### 32. [pylorak/TinyWall](https://github.com/pylorak/TinyWall)
+`5.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
 
-### 1. [rafaljanicki/x-twitter-mcp-server](https://github.com/rafaljanicki/x-twitter-mcp-server)
+**TinyWall is a software project that functions as a lightweight and non-intrusive firewall, focusing on providing essential network services without being intrusive. It appears to be a Windows-based application, leveraging Visual Studio for compilation, and includes components for managing Windows services and potentially database profiles.**
+
+**Features:**
+- Firewall functionality
+- Lightweight operation
+- Non-intrusive security
+- Windows integration (WFP)
+- Database profile management
+
+*Tags: firewall, windows, security, network, lightweight, software*
+
+---
+
+### 33. [discourse/discourse_docker](https://github.com/discourse/discourse_docker)
+`5.0` ★ ⚡66 Q0.8✓ ✓ Solid
+
+**This repository provides a Docker image solution that simplifies the deployment of Discourse forums, allowing users to run them efficiently using Docker containers. It offers templates and base images configured with recommended defaults, along with detailed instructions for easy installation.**
+
+**Features:**
+- Docker containerization
+- Discourse packaging
+- lightweight deployment
+- Docker image support
+
+*Tags: docker, discourse, containerization, webserver, linux, deployment, open-source*
+
+---
+
+### 34. [ahmetshbz1/filesystem-mcp](https://github.com/ahmetshbz1/filesystem-mcp)
+`6.0` ★ ⚡52 Q0.5✓ ✓ Solid
+
+**This repository presents 'filesystem-mcp', a tool focused on providing a cohesive layer for managing filesystems, likely targeting the integration between different storage systems or file types. It aims to solve the problem of disparate file system interactions by offering a unified interface for developers.**
+
+**Features:**
+- Unified filesystem management
+
+*Tags: filesystem*
+
+---
+
+## Memory & Context Systems
+> 32 tools · avg signal ⚡84
+
+### 1. [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**Open Interpreter provides a bridge between Large Language Models and local system environments, allowing models to generate and execute Python, JavaScript, and Shell code directly on the user's machine. It functions as an agentic loop that translates natural language intent into system actions, bypassing the limitations of hosted environments by offering full internet access, no file size restrictions, and persistent local state. The architecture leverages LiteLLM for model provider abstraction,...**
+
+**Features:**
+- Local code execution
+- multi-language runtime support
+- streaming output architecture
+- stateful conversation persistence
+- local model interoperability
+- customizable system instructions
+- programmatic Python API
+- interactive terminal UI
+- user-in-the-loop approval workflows
+- automated system control
+
+*Tags: llm-agent, code-interpreter, local-execution, python-sdk, terminal-interface, litellm, automation, self-healing-code...*
+
+---
+
+### 2. [rayai-labs/agentic-ray](https://github.com/rayai-labs/agentic-ray)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
 ↗4 layers
 
-**The x-twitter-mcp-server is a Python-based application designed to interface with the Twitter (X) API using Twitter API v2. It provides a streamlined, AI-powered interface that allows users to perform a wide range of Twitter operations such as fetching user profiles, posting tweets, searching trends, managing followers, and more. Built with modern DevOps practices, it supports secure authentication via API keys and tokens, integrates seamlessly with Claude Desktop for desktop use, and leverages ...**
+**Superserve provides a managed infrastructure for deploying AI agents with a focus on security and statefulness. It utilizes Firecracker microVM technology to create strict, isolated execution environments for every agent session, ensuring that code execution and network requests remain sandboxed from the host infrastructure. The architecture features a persistent '/workspace' directory that survives restarts, enabling long-running agentic workflows. A standout technical feature is the network-le...**
 
 **Features:**
-- Natural language command interface
-- User profile management
-- Tweet posting and deletion
-- Twitter search and trend analysis
-- Followers and timelines management
-- API v2 integration with proper authentication
-- Secure environment setup (via .env files)
-- Containerized deployment (Docker)
-- Cloud deployment options (Smithery
-- Claude Desktop)
+- Firecracker microVM isolation
+- Persistent workspace filesystem
+- Network-level credential proxying
+- Sub-second cold starts
+- Framework-agnostic deployment
+- Real-time token streaming
+- CLI-based session management
+- Automated environment provisioning
 
-*Tags: twitter-api, ai-development, mcp-server, cloud-deployment, developer-tools, tweeting, natural-language-ai, security...*
+*Tags: firecracker, microvms, agent-isolation, persistent-storage, credential-proxy, production-ai, sandboxing, devops-for-ai...*
 
 ---
 
-### 2. [nonead/nonead-universal-robots-mcp](https://github.com/nonead/nonead-universal-robots-mcp)
-`10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
+### 3. [danieliser/codemode-unified](https://github.com/danieliser/codemode-unified)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**The nUR_MCP_SERVER acts as an intelligent middleware system built on the MCP protocol, enabling AI-driven natural language control of industrial robots. It leverages a large language model (LLM) to interpret and execute commands, allowing seamless integration with UR robots from Umicore. The platform supports real-time data access, secure communication, multi-robot coordination, and advanced analytics, making it suitable for modernizing manufacturing workflows.**
+**CodeMode Unified provides a sophisticated execution layer for AI agents, offering dual-mode operations as either a standard MCP server or a RESTful HTTP backend. Its core innovation lies in the 'Tool Bridge' architecture, which allows code executed within its sandboxed runtimes (Bun, Deno, QuickJS, or E2B) to recursively call other connected MCP servers. This enables agents to perform complex multi-step reasoning, such as fetching documentation via Context7 and immediately storing the processed ...**
 
 **Features:**
-- Natural language interactive control
-- Integration with MCP protocol
-- LLM-powered command interpretation
-- Multi-robot coordination
-- Secure data handling
-- Real-time analytics and reporting
+- Dual MCP/HTTP architecture
+- multi-runtime support (Bun/Deno/QuickJS/isolated-vm/E2B)
+- MCP tool aggregation within code execution
+- automated discovery of local MCP servers
+- capability-based permission system
+- OAuth 2.1 + JWT authentication
+- resource usage monitoring (CPU/Memory)
+- protocol-agnostic tool bridging.
 
-*Tags: mcp, ai, robotics, industrial, cloud, ml, devops, security...*
+*Tags: mcp, model-context-protocol, code-execution, sandboxing, bun-runtime, agent-infrastructure, tool-calling, interoperability...*
 
 ---
 
-### 3. [sigoden/aichat](https://github.com/sigoden/aichat)
+### 4. [engineer-man/piston](https://github.com/engineer-man/piston)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
 ↗3 layers
 
-**This project focuses heavily on providing a rich user experience directly within the terminal environment. Key UX features include an interactive Chat-REPL with tab autocompletion and history search, a Shell Assistant for natural language command generation, and multi-form input handling (stdin, files, URLs, external commands). It abstracts complex LLM interactions (multi-provider access, RAG, agents) behind a cohesive CLI structure, and even includes a local HTTP server to expose OpenAI-compati...**
+**Piston provides a robust sandboxing environment for executing arbitrary code snippets by leveraging Docker and cgroup v2 for strict resource isolation. It abstracts the complexity of maintaining dozens of language runtimes through a unified REST API and a specialized package manager (ppman). The architecture ensures that code execution is decoupled from the host system, allowing for fine-grained control over compile-time and run-time constraints such as CPU usage, memory limits, and execution du...**
 
 **Features:**
-- Chat-REPL with autocompletion
-- Shell Assistant
-- Multi-Provider Integration
-- RAG Support
-- AI Agent Execution
-- Local LLM Proxy Server
-- Web UIs (Playground/Arena)
-- Custom Themes
-- Session Management.
+- Multi-language runtime management
+- secure sandboxing via cgroups v2
+- resource usage limiting (CPU/Memory/Time)
+- RESTful execution API
+- CLI-based package management
+- multi-file execution support
+- stdin/stdout/stderr piping
+- pre-built containerized language packages
 
-*Tags: cli, rust, terminal, repl, shell-assistant, llm-tooling, ux, local-server...*
+*Tags: sandboxing, code-execution, docker, runtime-isolation, cgroups-v2, api-driven, multi-language, security-architecture...*
 
 ---
 
-### 4. [rohitsingh-iitd/zillow-mcp-server](https://github.com/rohitsingh-iitd/zillow-mcp-server)
+### 5. [vishalveerareddy123/Lynkr?utm_source=chatgpt.com](https://github.com/vishalveerareddy123/Lynkr)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**The zillow_mcp_server is a custom-built Python application leveraging FastMCP to provide secure, real-time access to Zillow's property data. It supports interactive command-line operations and integrates with the Zillow Bridge API for dynamic data retrieval. The server includes robust error handling, automatic retries, and connection pooling to ensure reliability under API rate limits. It is designed for seamless integration into developer workflows, offering features like property search, valua...**
+**Lynkr functions as a middleware orchestration layer that intercepts and translates API requests between AI development interfaces and various LLM providers. By acting as a drop-in replacement for Anthropic and OpenAI endpoints, it allows users to redirect traffic from locked-down tools (e.g., Claude Code CLI) to more cost-effective or private alternatives like AWS Bedrock, Ollama, or Databricks. The technical architecture emphasizes efficiency through semantic caching, memory deduplication, and ...**
 
 **Features:**
-- Property Search
-- Property Details
-- Zestimates
-- Market Trends
-- Mortgage Calculator
-- Health Check
-- Debug Mode
-- Docker Integration
+- Protocol translation between Anthropic/OpenAI/Local formats
+- Multi-provider routing (10+ providers)
+- Semantic caching for response reuse
+- Memory deduplication and token optimization
+- Circuit breaking and load shedding
+- Prometheus metrics integration
+- Zero-code drop-in replacement via environment variables
+- Local model support via Ollama/llama.cpp
 
-*Tags: python, fastmc, zillow, api, developer, mcp, server, security*
+*Tags: aws-bedrock, claude-code, cursor-ide, gateway, infrastructure, llm-proxy, local-llm, middleware...*
 
 ---
 
-### 5. [delorenj/super-win-cli-mcp-server](https://github.com/delorenj/super-win-cli-mcp-server)
+### 6. [integration-app/mcp-server](https://github.com/integration-app/mcp-server)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
-↗3 layers
+↗2 layers
 
-**The project presents a Windows CLI MCP server that overcomes traditional security limitations by granting full system access. It enables unrestricted command execution, network-level access controls, and SYSTEM service installation, making it suitable for trusted environments requiring maximum capability. Key features include complete shell environment access, no command restrictions, full file system access, and enhanced security configurations such as localhost binding and optional VPN integra...**
+**The Membrane MCP Server is a Model Context Protocol (MCP) server designed to facilitate seamless integration with various tools and services. It provides an API for developers to manage and automate workflows, ensuring efficient communication between different systems. The server supports dynamic mode for selective tool access and offers features like persistent chat sessions and customizable cursor management. This project is particularly useful for enterprise environments aiming to modernize t...**
 
 **Features:**
-- full system access
-- unrestricted commands
-- network-level access
-- SYSTEM service installation
-- auto-recovery
-- process reuse
-- extended timeouts
+- Model Context Protocol (MCP) integration
+- Dynamic tool enablement
+- Persistent chat session management
+- Cursor configuration and tracking
+- Integration with external services
+- Automated workflow orchestration
 
-*Tags: windows-cli, mcp-server, system-access, security-features, network-control, unrestricted-permissions, devops-tools, enterprise-devops...*
+*Tags: mcp-server, integration, ai, developer, workflow, security, api, automation...*
 
 ---
 
-### 6. [andresthor/cmd-line-mcp](https://github.com/andresthor/cmd-line-mcp)
-`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
+### 7. [iflytek/ifly-workflow-mcp-server](https://github.com/iflytek/ifly-workflow-mcp-server)
+`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**The 'cmd-line-mcp' project provides a secure, enterprise-grade command-line interface for running AI assistant commands safely. It implements a multi-layered security model that validates commands through pattern matching, directory checks, and approval workflows to prevent malicious execution. The system supports read, write, and system commands while blocking dangerous patterns and restricted shells. It integrates with configuration files and environment variables to customize behavior, ensuri...**
+**The project provides a streamlined approach to integrating iFlytek workflows with MCP (Model Context Protocol) servers, enabling automated and intelligent workflow execution. It supports various node types, execution modes, and advanced orchestration features such as sequential, parallel, loop, and multi-turn execution. The system is designed for enterprise use cases, offering robust node support, flexible data handling, and seamless integration with LLM applications.**
 
 **Features:**
-- Secure command validation
-- Directory whitelisting
-- Approval workflows
-- Customizable configurations
-- Integration with CLI tools
+- 14 workflow node types
+- Sequential and parallel execution
+- Loop and nested execution
+- Multi-model support
+- Single-turn and multi-turn interaction
+- Context memory for dynamic conversations
 
-*Tags: ai, security, developer-tools, command-line, mcp, ai-safety, enterprise-devops, code-security...*
+*Tags: mcp-server, workflow, ai-integration, automation, model-hybrid, developer-tools, enterprise-devops, context-aware...*
 
 ---
 
-### 7. [mark-oori/mcpserve](https://github.com/mark-oori/mcpserve)
+### 8. [adammiribyan/zeroboot](https://github.com/adammiribyan/zeroboot)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**Zeroboot provides a platform that delivers sub-millisecond virtual machine sandboxes specifically designed for running AI agents. By leveraging copy-on-write forking and KVM virtualization with hardware-enforced memory isolation, it ensures each AI agent runs in its own secure environment. This architecture supports rapid deployment, scalability, and strong security by isolating processes and preventing cross-fork interference.**
+
+**Features:**
+- Sub-millisecond VM sandboxes
+- Copy-on-write forking
+- Hardware-enforced memory isolation
+- AI agent execution
+- Secure development environment
+
+*Tags: zeroboot, ai-agents, virtual-machine, security, developer-tools, memory-isolation, kvm, firecracker...*
+
+---
+
+### 9. [kaznak/shell-command-mcp](https://github.com/kaznak/shell-command-mcp)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
 ↗2 layers
 
-**The project provides a lightweight MCP server that supports deep learning model serving. It offers shell execution for direct command-line interaction, seamless local connectivity through Ngrok, and containerized deployment using Docker on Ubuntu24. The platform integrates modern AI frameworks like LangChain, Gemini, and OpenAI, supporting advanced features such as model context protocol and secure code execution.**
+**The kaznak/shell-command-mcp project provides a Model Context Protocol (MCP) server that runs within a Docker container, offering a sandboxed environment to execute shell commands without exposing access to the host Docker daemon. This enhances security by isolating container operations and supports advanced use cases such as AI development, code execution, and secure workflow automation.**
 
 **Features:**
-- Simple MCP Server
-- Shell Execution
-- Ngrok Connectivity
-- Ubuntu24 Container Hosting
-- Model Context Protocol Support
-- OpenAI Integration
-- Anthropic & Gemini AI Models
-- LangChain Framework Compatibility
+- Secure isolated Docker container execution
+- MCP protocol support for remote command execution
+- Non-root user environment for enhanced security
+- Persistent file mounting from host
+- Integration with Kubernetes tools (kubectl
+- helm)
+- AI-friendly development workspace
 
-*Tags: mcp, deeplearning, ai, ngrok, docker, langchain, openai, gemini...*
+*Tags: mcp, docker, ai, development, security, containerization, workflow, ai-agent...*
 
 ---
 
-### 8. [diegofornalha/mcp-shell-server](https://github.com/diegofornalha/mcp-shell-server)
+### 10. [pontusab/directories](https://github.com/pontusab/directories)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This repository is a platform that serves as a community hub for the 'Cursor' tool. It outlines how to build applications using Cursor, including plugins, MCP servers, events, and jobs. The project structure suggests a modern web application built with Next.js (App Router) and Bun, leveraging Supabase for database persistence. The core innovation lies in the architecture that allows developers to easily create agents and workflows.**
+
+**Features:**
+- The platform provides a place for plugins
+- MCP servers
+- events
+- and jobs. It defines a clear workflow for development
+- integrating tools like Next.js (App Router)
+- Bun
+- Supabase
+- Tailwind CSS
+- React Email
+- Fuse.js for search
+- and Luma API for community events.
+
+*Tags: ['agent-orchestration', 'context-engineering', 'memory-&-persistence', 'developer-ux', 'mcp/a2a', 'infrastructure', 'vector-databases-&-search', 'coding-tools'...*
+
+---
+
+### 11. [Blaxel: The Persistent Sandbox Platform](https://blaxel.ai)
+`10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**The MCP Shell Server is an open-source platform designed to securely execute authorized shell commands, supporting input via stdin and enforcing strict security policies. It provides features such as command validation, timeout control, and integration with Claude.app for seamless deployment. This tool enhances DevSecOps workflows by enabling safe automation of system-level tasks while maintaining enterprise-grade security.**
+**Blaxel shifts the AI agent environment paradigm from ephemeral runners to persistent, stateful sandboxes. By utilizing microVM technology, Blaxel captures full snapshots of RAM and the filesystem during idle periods, allowing sandboxes to 'sleep' at zero compute cost while preserving execution state indefinitely. When re-activated, sandboxes resume in approximately 25ms with original process IDs and memory intact. To further minimize latency, the platform colocates the agent logic, inference cal...**
 
 **Features:**
-- Secure shell command execution
-- Command input via stdin
-- Timeout management
-- Integration with Claude.app
-- Command validation and whitelisting
-- Timeout configuration
-- Environment setup for development
+- MicroVM memory snapshots
+- 25ms resume from standby
+- scale-to-zero compute cost
+- colocated agent/sandbox backbone
+- block-storage volume persistence
+- automated idle detection
+- 50k+ concurrent sandbox scaling
+- remote MCP server hosting
 
-*Tags: mcp-shell-server, security, devops, ai-integration, automation, system-safety, cloud-deployment, api-configuration...*
+*Tags: microvm, sandbox, state-persistence, memory-snapshots, low-latency, mcp-server, agent-infrastructure, serverless-state...*
 
 ---
 
-### 9. [coderjun/shaka-packager-mcp-server](https://github.com/coderjun/shaka-packager-mcp-server)
-`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
+### 12. [abhinav7895/system-mcp](https://github.com/abhinav7895/system-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
 
-**The project provides a GitHub-hosted MCP server that enables Claude AI applications to analyze, convert, and package video files with advanced features such as stream extraction, DRM encryption, path translation, and error management. It supports seamless integration with Shaka Packager for video transcoding and analysis, offering robust tools for media processing in both Docker and host environments.**
-
-**Features:**
-- Video Analysis
-- Media Packaging
-- DRM Encryption
-- Path Translation
-- Error Management
-- Command Assistance
-- Interactive Documentation
-- Comprehensive Outputs
-
-*Tags: mcp, video, ai, packager, cloud, developer, security, automation...*
-
----
-
-### 10. [rexposadas/attendee-mcp](https://github.com/rexposadas/attendee-mcp)
-`8.5` ★ ⚡91 Q0.9🏆 🏆 World-class
-
-**| The repository details an Attendee MCP (Meeting Bot), which functions as a plugin or service that allows users to interact with AI meeting bots (like Claude) by sending specific commands to them. It demonstrates the power of combining different "MCPs" (like Attendee and Brave Search) into powerful workflows. | This captures the core concept: an MCP for managing meeting bots, demonstrating workflow integration. | | MAIN_FEATURES | Meeting Bot Management, AI Integration, Workflow Orchestration, ...**
+**This project provides a MCP (Multi-source Cloud Platform) server that integrates various system monitoring tools to deliver comprehensive insights into CPU, memory, disk, network, battery, and internet speed. It enables developers to configure and test these metrics using Claude Desktop, offering a seamless experience for enterprise-level applications.**
 
 **Features:**
-- | Meeting Bot Management
-- AI Integration
-- Workflow Orchestration
-- API Connectivity
-- Lightweight Deployment | The features include the ability to send a bot to a meeting
-- handle chat messages
-- and combine tools (like Attendee with Brave Search). |
-
-*Tags: |-ai, mcp, chatbot, meeting-bot, workflow, openai, claude, api...*
-
----
-
-### 11. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)
-`8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**This repository is a Model Context Protocol (MCP) server designed to offer AI assistance for Frappe/ERPNext development. It includes features for generating DocType JSONs, executing essential bench commands, and analyzing app structures., MAIN_FEATURES: `frappe_create_doctype`, `frappe_run_bench_command`, `app_management`, `api_endpoints`, INNOVATION_SCORE: 8/10 (Based on the utility of AI assistance for a specific framework)., TAGS: `frappe`, `mcp`, `ai`, `erpnext`, `devtool`, `nodejs`, `github...**
-
-**Features:**
-- `frappe_create_doctype`
-- `frappe_run_bench_command`
-- `app_management`
-- `api_endpoints`
-- INNOVATION_SCORE: 8/10 (Based on the utility of AI assistance for a specific framework).
-- TAGS: `frappe`
-- `mcp`
-- `ai`
-- `erpnext`
-- `devtool`
-- `nodejs`
-- `github_copilot`
-
-*Tags: `frappe`, `mcp`, `ai`, `erpnext`, `devtool`, `nodejs`, `github-copilot`*
-
----
-
-### 12. [sirtenzin/autumn-mcp-server](https://github.com/sirtenzin/autumn-mcp-server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The SirTenzin/autumn-mcp-server is an open-source, lightweight MCP (Managed Cloud Provider) server designed to simplify interaction with the Autumn pricing API. It provides a user-friendly interface and command-line tools for managing customers, invoices, billing portals, and entitlements. The server leverages TypeScript, Docker, and Bun for deployment, supporting integration with various AI and automation tools.**
-
-**Features:**
-- MCP Server
-- Customer Management
-- Invoice Management
-- Billing Portal
-- API Integration
-
-*Tags: mcp-server, autumn-mcp-server, api-integration, customer-management, billing-portal, typescript, docker, bun...*
-
----
-
-### 13. [lsemenenko/openhue-mcp-server](https://github.com/lsemenenko/openhue-mcp-server)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The lsemenenko/openhue-mcp-server project provides a cloud-based server that integrates with the OpenHue ecosystem to allow users to control Philips Hue lights using natural language commands. It leverages Docker and Claude for desktop integration, offering features such as light control, scene management, room-specific adjustments, and scene activation through AI-powered interfaces.**
-
-**Features:**
-- Natural language command processing
-- Light control via OpenHue CLI
-- Scene creation and management
-- Room and color adjustments
+- Real-time system monitoring
 - Integration with Claude Desktop
-- API access for custom integrations
+- Customizable metrics collection
+- Detailed performance analytics
+- Secure and scalable deployment
 
-*Tags: openhue, cloud, ai, iot, smartlighting, developertools, automation, security...*
-
----
-
-### 14. [rfdez/pvpc-mcp-server](https://github.com/rfdez/pvpc-mcp-server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Borg Project's repository implements a server-based solution to fetch and manage PVPC electricity tariffs published by Red Eléctrica. It includes configuration options for API keys, transport settings, and port management, supporting seamless integration into development and deployment workflows. The project emphasizes automation, security, and scalability for enterprise use cases.**
-
-**Features:**
-- API key registration
-- CLI command-line interface
-- Docker-based deployment
-- Configuration management
-- Integration with MCP systems
-
-*Tags: pvpc, mcp-server, api-key, tariffs, integration, security, developer-tools, cloud...*
+*Tags: system-monitoring, cloud-integration, devops, metrics, infrastructure, monitoring, ai-tools, enterprise-devops*
 
 ---
 
-### 15. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**SecretiveShell provides a MCP (Microsoft Command Prompt) server tailored for Windows environments, facilitating automation, code execution, and integration with Windows APIs. It supports advanced features such as media management, window control, security enhancements, and secure development practices.**
-
-**Features:**
-- mcp-windows
-- code execution
-- window management
-- media handling
-- security features
-- code review tools
-
-*Tags: mcp, windows, automation, api, security, devops, code, integration...*
-
----
-
-### 16. [deventerprisesoftware/scrapi-mcp](https://github.com/deventerprisesoftware/scrapi-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The project provides a Dockerized MCP server that facilitates seamless integration with ScrAPI, allowing developers to automate web scraping tasks efficiently. It supports advanced features such as browser automation, API key management, and cloud deployment options, making it suitable for enterprise-level data extraction workflows.**
-
-**Features:**
-- browser automation
-- scraping via ScrAPI
-- cloud deployment
-- API key integration
-- custom commands execution
-
-*Tags: mcp, scrapi, web-scraping, api-integration, automation, developer-tools*
-
----
-
-### 17. [peakmojo/applescript-mcp](https://github.com/peakmojo/applescript-mcp)
+### 13. [mokafari/orchestrator-server](https://github.com/mokafari/orchestrator-server)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 
-**The MCP server allows users to run AppleScript code directly on their Mac, providing a powerful tool for automation and integration with multiple applications such as Notes, Calendar, Contacts, Messages, and more. It supports features like remote execution via SSH, file operations, and command execution, making it suitable for enterprise-level workflows and DevOps practices.**
+**The mokafari/orchestrator-server is a lightweight orchestration platform built on MCP (Multi-Process Communication) that enables efficient task management and coordination among AI agents such as Claude Desktop or Cline. It supports task creation with dependencies, safe deletion, cycle detection, and persistent storage to ensure reliable execution across instances.**
 
 **Features:**
-- Run AppleScript on Mac
-- Remote execution via SSH
-- File and data manipulation
-- Integration with multiple applications
-- Automation capabilities
+- Task creation with dependencies
+- Safe deletion with dependency checks
+- Cycle detection
+- Persistent task storage
+- Task status tracking
 
-*Tags: applescript, macos, automation, developer, workflow, integration, security, scripting...*
+*Tags: mcp, orchestrator-server, ai-agents, task-management, multi-instance, dependency-handling*
 
 ---
 
-### 18. [burtthecoder/mcp-maigret](https://github.com/burtthecoder/mcp-maigret)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+### 14. [vishalveerareddy123/Lynkr](https://github.com/vishalveerareddy123/Lynkr?utm_source=chatgpt.com)
+`8.0` ★ ⚡89 Q0.9🏆 🏆 World-class
+
+**Lynkr functions as a middleware orchestration layer that intercepts and translates API requests between AI development interfaces and various LLM providers. By acting as a drop-in replacement for Anthropic and OpenAI endpoints, it allows users to redirect traffic from locked-down tools (e.g., Claude Code CLI) to more cost-effective or private alternatives like AWS Bedrock, Ollama, or Databricks. The technical architecture emphasizes efficiency through semantic caching, memory deduplication, and ...**
+
+**Features:**
+- Protocol translation between Anthropic/OpenAI/Local formats
+- Multi-provider routing (10+ providers)
+- Semantic caching for response reuse
+- Memory deduplication and token optimization
+- Circuit breaking and load shedding
+- Prometheus metrics integration
+- Zero-code drop-in replacement via environment variables
+- Local model support via Ollama/llama.cpp
+
+*Tags: aws-bedrock, claude-code, cursor-ide, gateway, infrastructure, llm-proxy, local-llm, middleware...*
+
+---
+
+### 15. [Show HN: Sub-millisecond VM sandboxes using CoW memory forking | Hacker News](https://news.ycombinator.com/item?id=47412569)
+`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**The MCP server for maigret is designed to integrate with MCP-compatible applications, enabling advanced search and analysis of usernames across social networks and URLs. It supports secure command execution, input validation, and automated workflows to streamline data collection and enhance OSINT capabilities.**
+**The resource describes a technique where isolated code sandboxes are created using copy-on-write (CoW) memory forking. Instead of booting a new VM each time, a single Firecracker VM is booted with pre-loaded Python and numpy, then snapshots are taken to create isolated guest VMs backed by private memory mappings. The key challenge was resuming snapshots correctly after forking, which required careful handling of shared resources like random number generators and ensuring proper seeding of entrop...**
 
 **Features:**
-- Username Search
-- URL Analysis
-- Site Filtering
-- Docker-based Execution
-- Reporting & Configuration Management
+- Sub-millisecond VM sandboxing
+- Copy-on-write (CoW) memory forking
+- Snapshot-based isolation
+- Pre-loaded Python and numpy for fast execution
+- Automatic reseeding of entropy after snapshots
 
-*Tags: mcp, osint, search, usernames, urls, security, developer, ai...*
+*Tags: firecracker, vmforking, coow, sandboxing, performance, entropy, reseeding, python...*
 
 ---
 
-### 19. [redis/mcp-redis-cloud](https://github.com/redis/mcp-redis-cloud)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+### 16. [kinothe-kafkaesque/ssh-mcp-server](https://github.com/kinothe-kafkaesque/ssh-mcp-server)
+`9.0` ★★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
-**The project provides a MCP Server for Redis Cloud's API, allowing users to manage Redis Cloud resources using natural language commands. This facilitates tasks such as creating databases, managing subscriptions, and monitoring deployments through intuitive interfaces like Claude Desktop and Cursor IDE.**
+**The KinoThe-Kafkaesque/ssh-mcp-server project provides a secure SSH server implementation using the MCP protocol, enabling remote command execution with data persistence through an SQLite database. It supports TypeScript development, automated workflows, and enterprise-grade security features.**
 
 **Features:**
-- Natural language interface for Redis Cloud management
-- Multi-cloud deployment support
-- Essential subscription management
-- Task and subscription tracking
-- Integration with external tools and services
+- SSH server via MCP protocol
+- SQLite database integration for credential storage
+- TypeScript-based development environment
+- Automated build and deployment pipeline
+- Secure credential management
+- Command execution through SSH_exec tool
 
-*Tags: redis, mcp-redis-cloud, cloud-api, developer-tools, ai-integration, multi-cloud, automation, security...*
+*Tags: ssh, mcp, ssh-server, security, developer-tools*
 
 ---
 
-### 20. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
+### 17. [Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era](https://newsroom.arm.com/blog/introducing-arm-agi-cpu)
+`9.8` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
 
-**The Zoom MCP Server enables users to create, update, read, or delete Zoom meetings through natural language commands integrated with AI platforms such as Claude and Cursor. It leverages Zod schema validation for robust command handling and supports enterprise-grade security features.**
+**The Arm AGI CPU is a production-ready, rack-scale processor built on the Arm Neoverse platform. It delivers unprecedented scalability, energy efficiency, and parallel processing capabilities to support the growing demands of agentic AI infrastructure across hyperscale data centers and cloud platforms.**
 
 **Features:**
-- create meeting
-- update meeting
-- delete meeting
-- get meetings
-- natural language integration
+- Rack-scale design with high core density
+- Massive memory bandwidth for efficient thread execution
+- Optimized I/O and power efficiency
+- Supports multi-core parallel workloads
+- Scalable architecture for future AI infrastructure needs
 
-*Tags: zoom, mcp, ai, cloud, developer, security, integration, automation...*
+*Tags: arm, agi, cpu, silicon, ai, agentic, performance, scalability...*
 
 ---
 
-### 21. [huang-sh/scmcp](https://github.com/huang-sh/scmcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
+### 18. [leereilly/games](https://github.com/leereilly/games)
+`8.0` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗4 layers
 
-**The SCMCP project provides a web-based interface for single cell analysis using scRNA-Seq data. It integrates multiple modules such as preprocessing, clustering, visualization, and more, all accessible via natural language commands. This tool is designed to streamline the workflow of researchers and developers in bioinformatics by offering an intuitive user experience.**
+**Memory & Persistence Architecture, Interface & Developer UX, Connectivity & Interoperability (MCP/A2A), Infrastructure & Proxy Layers, Guides & Industry Trends, Vector Databases & Search, Coding Tools & IDEs, AI Agents & Frameworks, Search & Discovery, Infrastructure**
 
 **Features:**
-- natural language interface
-- scRNA-Seq data processing
-- clustering and visualization tools
-- code execution and automation
+- Table of Contents: Browser-Based Boardgame
+- Arcade
+- FPS
+- RPG
+- MMORPG
+- Strategy
+- Racing
+- Sandbox
+- Puzzle
+- Clicker
+- Point and Click
+- Others. The repository showcases a diverse collection of games
+- ... and 3 more
 
-*Tags: scmcp, singlecellanalysis, bioinformatics, developertools, aiintegration, scanpy, python, mcpserver...*
+*Tags: ['html5', 'javascript', 'websockets', 'phaser', 'actionscript3', 'impactjs', 'gamejam', 'browsergames'...*
 
 ---
 
-### 22. [ollama/ollama](https://github.com/ollama/ollama/releases/tag/v0.5.12)
-`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The evolution of Ollama into an agentic runner featuring the `ollama launch` command for instant agent environments and `:cloud` tags for high-perf models.**
-
-**Features:**
-- `ollama launch` agentic bootstrap
-- `:cloud` high-performance model tags
-- headless CI/CD mode (--yes)
-- optimized context compaction.
-
-*Tags: ollama, local-llm, infrastructure, cloud-inference, orchestration, api, artificial-intelligence, github...*
-
----
-
-### 23. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗2 layers
-
-**The mcp-server-cli project provides a server-based interface for running shell scripts or commands, facilitating automation and integration within development workflows. It supports advanced features such as context protocol communication, secure code management, and enterprise-grade security measures.**
-
-**Features:**
-- run shell scripts
-- execute commands
-- automate workflows
-- manage code changes
-
-*Tags: git, scripting, automation, security, developer, integration*
-
----
-
-### 24. [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+### 19. [boxlite-labs/boxlite](https://github.com/boxlite-labs/boxlite)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 
-**A comprehensive MCP server bridge that grants agents terminal control, process management, and surgical binary file (PDF/XLSX/DOCX) interaction.**
+**A lightweight, local-first micro-VM platform written in Rust that provides secure and persistent execution environments for AI agents.**
 
 **Features:**
-- Terminal/Process control streaming
-- `edit_block` surgical diffs
-- native PDF/Excel/Word support
-- remote MCP tunnel capabilities.
+- Hardware-level isolation (KVM/Hypervisor)
+- 200ms instant boot
+- persistent state snapshots
+- async-first API for agents.
 
-*Tags: mcp, infrastructure, os-control, terminal, office-automation, github, version-control*
+*Tags: boxlite, microvm, rust, security, stateful-execution, artificial-intelligence, github, version-control*
 
 ---
 
-### 25. [loderunner/scrt](https://github.com/loderunner/scrt)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-↗2 layers
+### 20. [e2b-dev/code-interpreter](https://github.com/e2b-dev/code-interpreter)
+`9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
-**An open-source, Go-based CLI secret manager that keeps the entire secret lifecycle securely within the terminal using NaCl primitives.**
+**Cloud-native infrastructure providing long-running, stateful sandboxes for AI agents to perform complex data analysis and coding tasks.**
 
 **Features:**
-- NaCl (libsodium) E2E encryption
-- Git/S3 storage backend support
-- composable Unix-philosophy commands
-- CI/CD pipeline optimization.
+- Persistent session state
+- Python/JS/TS SDKs
+- resource monitoring
+- high-scale enterprise readiness.
 
-*Tags: security, secrets-management, cli, go, encryption, github, version-control*
+*Tags: e2b, stateful-execution, cloud-sandbox, code-interpreter, infrastructure, artificial-intelligence, github, javascript...*
 
 ---
 
-### 26. [odysseus0/mcp-server-shell](https://github.com/odysseus0/mcp-server-shell)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The mcp-server-shell project provides a server that allows large language models (LLMs) to run shell commands securely, returning their output. It supports integration with tools like uvx for seamless execution and debugging, making it suitable for DevOps, CI/CD, and enterprise automation workflows.**
-
-**Features:**
-- execute_command
-- debugging tools
-- integration with uvx
-- configuration flexibility
-
-*Tags: mcp-server-shell, devops, ai, security, automation, cloud, scripting, system-administration...*
-
----
-
-### 27. [muxi-ai/skills-rce](https://github.com/muxi-ai/skills-rce)
-`10.0` ★★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**A specialized infrastructure service designed to provide secure, declarative Remote Code Execution (RCE) environments for AI agent "skills."**
-
-**Features:**
-- Remote Code Execution (RCE) provisioning
-- declarative agent formation specification
-- native integration with MUXI orchestration/observability layers.
-
-*Tags: rce, security, infrastructure, sandboxing, muxi, artificial-intelligence, github, programming...*
-
----
-
-### 28. [Now open for building: Introducing Gemini CLI extensions](https://blog.google/technology/developers/gemini-cli-extensions)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**Self-contained packages that extend the Gemini CLI with specialized playbooks (GEMINI.md), custom slash commands, and multi-tool MCP integrations.**
-
-**Features:**
-- Pre-packaged agent intelligence
-- custom .toml slash commands
-- single-command installation
-- integrated tool restriction policies.
-
-*Tags: extension, cli, gemini, orchestration, modularity, blog, design, tools*
-
----
-
-### 29. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+### 21. [Product | Viktor](https://getviktor.com/product)
+`10.0` ★★★ ⚡80 Q0.7⭐ ⭐ Excellent
 ↗3 layers
 
-**An interactive CLI framework by Microsoft that acts as an MCP client and provides deep terminal integration for AI-driven command execution.**
+**An autonomous "AI Coworker" that integrates deeply into Slack and internal tools to proactively execute multi-step workflows without waiting for prompts.**
 
 **Features:**
-- MCP Client integration
-- `run_command_in_terminal` tool
-- predictive IntelliSense injection
-- sidecar split-pane UI.
+- Proactive
+- unprompted task execution
+- 3000+ deep tool integrations (Linear/GitHub/Ads)
+- cloud sandbox for code execution
+- multi-week persistent memory.
 
-*Tags: powershell, cli, mcp, infrastructure, dev-tools, artificial-intelligence, blog, devblogs*
+*Tags: orchestration, slack, automation, enterprise, autonomous, artificial-intelligence, getviktor*
 
 ---
 
-### 30. [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+### 22. [pizlonator/llvm-project-deluge](https://github.com/pizlonator/llvm-project-deluge/blob/deluge/Manifesto.md)
+`10.0` ★★★ ⚡80 Q0.7⭐ ⭐ Excellent
 
-**A stable release of the WebAssembly-based JVM enabling unmodified Java apps to run in browsers with native system command interception.**
+**A fanatically compatible, memory-safe C/C++ implementation using "Invisible Capabilities" to enforce safety without the "unsafe" escape hatches of Rust.**
 
 **Features:**
-- Audio support restoration
-- `execCallback` command interception
-- advanced font re-mapping
-- roadmap to JNI/JavaFX support.
+- "Invisible Capabilities" (InvisiCaps)
+- zero-change compatibility (curl/sqlite)
+- no "unsafe" escape hatches
+- runtime error interception.
 
-*Tags: wasm, jvm, java, browser-runtime, performance, artificial-intelligence, blog, labs*
+*Tags: llvm, c, memory-safety, deluge, compiler*
+
+---
+
+### 23. [Code and Let Live | Hacker News](https://news.ycombinator.com/item?id=46557825)
+`8.0` ★ ⚡79 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**Sprites.dev offers a way to execute code in persistent, sandboxed VMs with restricted blast radius, accessible via a simple JSON API. It includes snapshotting support for rollback to known states, enabling safe execution of potentially harmful code or experimentation. This approach allows developers to isolate and manage execution contexts for various tasks, including AI model inference and CI/CD pipelines.**
+
+**Features:**
+- Developer environment sandboxes
+- Sandbox API
+- Persistent VMs
+- Snapshotting
+- Rollback
+- JSON API
+- Code execution isolation
+
+*Tags: sandboxing, virtualization, isolation, api, security, fly.io, devops, cloud...*
+
+---
+
+### 24. [Ask HN: A good trading community to discuss infrastructure, strategies and quant | Hacker News](https://news.ycombinator.com/item?id=41775278)
+`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**The resource focuses on the technical aspects of building robust trading systems, including tick data ingestion, latency management, risk mitigation, and data storage solutions. It emphasizes the importance of understanding backend infrastructure to support complex algorithmic trading workflows.**
+
+**Features:**
+- tick data handling
+- latency optimization
+- data storage solutions
+- risk management systems
+- in-memory processing
+- error handling
+- strategy development tools
+
+*Tags: algotrading, quantstrategies, tickdata, riskmanagement, dataprocessing, infrastructure, algorithmdesign, quantsystems...*
+
+---
+
+### 25. [portel-dev/ncp](https://github.com/portel-dev/ncp)
+`8.7` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**A lower-level protocol designed for high-performance context passing between hardware or OS-native processes, as opposed to application-level MCP.**
+
+**Features:**
+- Memory-mapped state transfer
+- low-latency binary transport
+- hardware context optimization
+- OS-level integration.
+
+*Tags: ncp, protocol, low-level, systems, context, github, tools, version-control*
+
+---
+
+### 26. [To kill memory safety bugs in C code, try the TrapC fork](https://www.theregister.com/2024/11/12/trapc_memory_safe_fork)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A minimalist fork of the C programming language designed to eliminate Undefined Behavior (UB) and enforce memory safety through automatic lifetime management and pointer bounds checking.**
+
+**Features:**
+- Automatic pointer lifetime management (no GC)
+- elimination of UB (Undefined Behavior)
+- backwards C/C++ compatibility
+- AI-assisted compiler refactoring.
+
+*Tags: c, memory-safety, trapc, compiler, infrastructure, programming, theregister*
+
+---
+
+### 27. [Durable Execution Solutions](https://temporal.io)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A durable execution platform that virtualizes application state to enable crash-proof workflows, now a core infrastructure pillar for OpenAI's Agents SDK.**
+
+**Features:**
+- State virtualization (crash-proof)
+- OpenAI Agents SDK integration
+- persistent event history logs
+- sub-second state reconstruction.
+
+*Tags: temporal, infrastructure, durable-execution, orchestration, reliable-ai, design, open-source*
+
+---
+
+### 28. [Memory is slow, Disk is fast - Part 2](https://www.bitflux.ai/blog/memory-is-slow-part2)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A technical analysis of memory latency bottlenecks in modern hardware, advocating for vectorization and massive parallelism to hide stable cache miss costs.**
+
+**Features:**
+- Memory vs Disk latency trends
+- cache-miss cost analysis
+- vectorization strategies
+- parallel data pipelining.
+
+*Tags: performance, hardware, optimization, memory, architecture, artificial-intelligence, bitflux, blog...*
+
+---
+
+### 29. [MINISFORUM MS-S1 Max](https://store.minisforum.com/products/minisforum-ms-s1-max-mini-pc)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A high-end AI Mini Workstation powered by AMD Strix Halo, delivering 126 TOPS total AI compute and up to 128GB unified memory for local LLM inference.**
+
+**Features:**
+- 50 TOPS dedicated NPU (XDNA 2)
+- 126 TOPS total AI compute
+- 128GB LPDDR5X-8000 unified memory
+- 235B model local execution support.
+
+*Tags: hardware, amd, strix-halo, local-llm, performance, artificial-intelligence, store*
+
+---
+
+### 30. [GraalVM 25](https://www.graalvm.org/release-notes/JDK_25)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**This resource details the latest release of GraalVM, specifically highlighting the transition to JDK 25 and the underlying architectural improvements made in the compiler and native image capabilities. It showcases the evolution of the platform, including optimizations for compilation results, memory management (JFR), and hardware support.**
+
+**Features:**
+- Native Image compilation
+- JDK compatibility
+- Compiler enhancements
+- Hardware architecture support (AArch64)
+- Memory leak fixes
+
+*Tags: graalvm, native-image, java, compiler, performance, infrastructure*
+
+---
+
+### 31. [framework-desktop-mainboard-amd-ryzen-ai-max-300-series?v=FRAFMK0006](https://frame.work/products/framework-desktop-mainboard-amd-ryzen-ai-max-300-series?v=FRAFMK0006)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+
+**The high-end AMD "Strix Halo" SoC series featuring a 50 TOPS XDNA 2 NPU and up to 40 RDNA 3.5 CUs for workstation-class integrated AI performance.**
+
+**Features:**
+- 50 TOPS AI compute (XDNA 2)
+- 40 RDNA 3.5 Compute Units
+- 256-bit memory interface
+- up to 128GB LPDDR5X-8000 support.
+
+*Tags: hardware, amd, strix-halo, npu, performance*
+
+---
+
+### 32. [minio/minio](https://github.com/minio/minio/issues/21647)
+`7.7` ★ ⚡62 Q0.6✓ ✓ Solid
+
+**MinIO is an open-source, cloud-native object storage solution designed to provide S3-compatible APIs. It functions as a highly scalable and performant object storage layer, often used in conjunction with Docker containers or Kubernetes deployments for data persistence.**
+
+**Features:**
+- S3 compatibility
+
+*Tags: object-storage, s3-compatible, docker, cloud-native, minio, infrastructure*
 
 ---
 
 ## Monitoring & Analytics
-> 28 tools · avg signal ⚡86
+> 30 tools · avg signal ⚡86
 
 ### 1. [norman-finance/norman-mcp-server](https://github.com/norman-finance/norman-mcp-server)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -5379,26 +4818,71 @@
 
 ---
 
-### 26. [zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)
-`8.5` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
+### 26. [netdata/netdata](https://github.com/netdata/netdata)
+`6.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
 
-**ZoomEye MCP Server enables LLMs to retrieve network asset information via query conditions, integrating seamlessly into AI development environments.**
+**Netdata is a powerful, open-source tool designed for real-time infrastructure monitoring. It allows users to monitor system health across various components like MySQL, Linux, Docker, and Kubernetes, providing immediate insights into performance and operational status. The platform excels at providing comprehensive visibility into the underlying systems of modern cloud and server environments.**
 
 **Features:**
-- Model Context Protocol (MCP) server for real-time network asset intelligence
-- Natural language search with caching and retry mechanisms
-- Support for diverse protocols including HTTP
-- SSH
-- FTP
-- Integration with AI assistants and development environments
-- Automatic error handling and comprehensive logging
+- Real-time monitoring
+- System metrics visualization
+- Comprehensive infrastructure observability
+- Open-source solution
+- Lightweight agent integration
 
-*Tags: zoomeye, mcp, ai, network-intelligence, cybersecurity, cloud-services, api-integration, data-search...*
+*Tags: monitoring, linux, docker, kubernetes, database, system, metrics, open-source*
 
 ---
 
-### 27. [flowingedge-home-edition](https://flowingedge.com/flowingedge-home-edition)
+### 27. [GreptimeTeam/greptimedb](https://github.com/GreptimeTeam/greptimedb)
+`7.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**This tool provides a unified database layer that replaces traditional Prometheus, Loki, and Elasticsearch. It offers a single source of truth for metrics, logs, and traces, utilizing SQL and PromQL capabilities on object storage.**
+
+**Features:**
+- Unified backend for metrics/logs/traces
+- SQL + PromQL querying
+- Object storage integration
+- Prometheus replacement
+- Lightweight data management
+
+*Tags: rust, database, monitoring, cloud-native, metrics, logs, prometheus, distributed*
+
+---
+
+### 28. [ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb)
+`6.0` ★ ⚡74 Q0.8⭐ ⭐ Excellent
+
+**ArcadeDB is an embedded, distributed database solution built on technologies like Docker and Kubernetes. It provides a robust platform for managing time-series data using graph and key-value concepts, offering a complete solution for distributed data storage and query capabilities.**
+
+**Features:**
+- distributed database
+- time-series data
+- graph database
+- key-value store
+- docker/kubernetes integration
+
+*Tags: docker, kubernetes, time-series, database, distributed, graph, key-value*
+
+---
+
+### 29. [Fly Machines · Fly](https://fly.io/machines)
+`7.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**Fly Machines are lightweight Virtual Machines (VMs) that offer fast-booting capabilities, enabling rapid deployment of containerized applications. They leverage Firecracker technology to provide sub-second start/stop times and integrate into Fly.io's global secure networking infrastructure. This solution offers pay-as-you-go pricing and automatic health checks for scalable compute.**
+
+**Features:**
+- Lightweight VMs (Firecracker)
+- Global private networking
+- Autoscaling/Pay-as-you-go pricing
+- Automatic health checks
+- Global deployment capability
+
+*Tags: serverless, vm, compute, cloudnative, networking, microvms*
+
+---
+
+### 30. [flowingedge.com/flowingedge-home-edition](https://flowingedge.com/flowingedge-home-edition)
 `10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
 
 **A decentralized, server-to-server file sharing solution that uses xchaha20 encryption to transfer unlimited data without a central cloud intermediary.**
@@ -5413,25 +4897,520 @@
 
 ---
 
-### 28. [gateway](https://glama.ai/gateway)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-↗2 layers
+## Skill Systems
+> 29 tools · avg signal ⚡87
 
-**A unified AI gateway providing a single API for 350+ models and a searchable registry of over 19,000 Model Context Protocol (MCP) servers.**
+### 1. [rafaljanicki/x-twitter-mcp-server](https://github.com/rafaljanicki/x-twitter-mcp-server)
+`10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The x-twitter-mcp-server is a Python-based application designed to interface with the Twitter (X) API using Twitter API v2. It provides a streamlined, AI-powered interface that allows users to perform a wide range of Twitter operations such as fetching user profiles, posting tweets, searching trends, managing followers, and more. Built with modern DevOps practices, it supports secure authentication via API keys and tokens, integrates seamlessly with Claude Desktop for desktop use, and leverages ...**
 
 **Features:**
-- Single API for 350+ models
-- 19
-- 000+ searchable MCP servers
-- intelligent traffic routing
-- semantic caching / observability.
+- Natural language command interface
+- User profile management
+- Tweet posting and deletion
+- Twitter search and trend analysis
+- Followers and timelines management
+- API v2 integration with proper authentication
+- Secure environment setup (via .env files)
+- Containerized deployment (Docker)
+- Cloud deployment options (Smithery
+- Claude Desktop)
 
-*Tags: mcp, gateway, registry, infrastructure, proxy*
+*Tags: twitter-api, ai-development, mcp-server, cloud-deployment, developer-tools, tweeting, natural-language-ai, security...*
+
+---
+
+### 2. [nonead/nonead-universal-robots-mcp](https://github.com/nonead/nonead-universal-robots-mcp)
+`10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
+
+**The nUR_MCP_SERVER acts as an intelligent middleware system built on the MCP protocol, enabling AI-driven natural language control of industrial robots. It leverages a large language model (LLM) to interpret and execute commands, allowing seamless integration with UR robots from Umicore. The platform supports real-time data access, secure communication, multi-robot coordination, and advanced analytics, making it suitable for modernizing manufacturing workflows.**
+
+**Features:**
+- Natural language interactive control
+- Integration with MCP protocol
+- LLM-powered command interpretation
+- Multi-robot coordination
+- Secure data handling
+- Real-time analytics and reporting
+
+*Tags: mcp, ai, robotics, industrial, cloud, ml, devops, security...*
+
+---
+
+### 3. [sigoden/aichat](https://github.com/sigoden/aichat)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**This project focuses heavily on providing a rich user experience directly within the terminal environment. Key UX features include an interactive Chat-REPL with tab autocompletion and history search, a Shell Assistant for natural language command generation, and multi-form input handling (stdin, files, URLs, external commands). It abstracts complex LLM interactions (multi-provider access, RAG, agents) behind a cohesive CLI structure, and even includes a local HTTP server to expose OpenAI-compati...**
+
+**Features:**
+- Chat-REPL with autocompletion
+- Shell Assistant
+- Multi-Provider Integration
+- RAG Support
+- AI Agent Execution
+- Local LLM Proxy Server
+- Web UIs (Playground/Arena)
+- Custom Themes
+- Session Management.
+
+*Tags: cli, rust, terminal, repl, shell-assistant, llm-tooling, ux, local-server...*
+
+---
+
+### 4. [delorenj/super-win-cli-mcp-server](https://github.com/delorenj/super-win-cli-mcp-server)
+`9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project presents a Windows CLI MCP server that overcomes traditional security limitations by granting full system access. It enables unrestricted command execution, network-level access controls, and SYSTEM service installation, making it suitable for trusted environments requiring maximum capability. Key features include complete shell environment access, no command restrictions, full file system access, and enhanced security configurations such as localhost binding and optional VPN integra...**
+
+**Features:**
+- full system access
+- unrestricted commands
+- network-level access
+- SYSTEM service installation
+- auto-recovery
+- process reuse
+- extended timeouts
+
+*Tags: windows-cli, mcp-server, system-access, security-features, network-control, unrestricted-permissions, devops-tools, enterprise-devops...*
+
+---
+
+### 5. [andresthor/cmd-line-mcp](https://github.com/andresthor/cmd-line-mcp)
+`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
+
+**The 'cmd-line-mcp' project provides a secure, enterprise-grade command-line interface for running AI assistant commands safely. It implements a multi-layered security model that validates commands through pattern matching, directory checks, and approval workflows to prevent malicious execution. The system supports read, write, and system commands while blocking dangerous patterns and restricted shells. It integrates with configuration files and environment variables to customize behavior, ensuri...**
+
+**Features:**
+- Secure command validation
+- Directory whitelisting
+- Approval workflows
+- Customizable configurations
+- Integration with CLI tools
+
+*Tags: ai, security, developer-tools, command-line, mcp, ai-safety, enterprise-devops, code-security...*
+
+---
+
+### 6. [mark-oori/mcpserve](https://github.com/mark-oori/mcpserve)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a lightweight MCP server that supports deep learning model serving. It offers shell execution for direct command-line interaction, seamless local connectivity through Ngrok, and containerized deployment using Docker on Ubuntu24. The platform integrates modern AI frameworks like LangChain, Gemini, and OpenAI, supporting advanced features such as model context protocol and secure code execution.**
+
+**Features:**
+- Simple MCP Server
+- Shell Execution
+- Ngrok Connectivity
+- Ubuntu24 Container Hosting
+- Model Context Protocol Support
+- OpenAI Integration
+- Anthropic & Gemini AI Models
+- LangChain Framework Compatibility
+
+*Tags: mcp, deeplearning, ai, ngrok, docker, langchain, openai, gemini...*
+
+---
+
+### 7. [diegofornalha/mcp-shell-server](https://github.com/diegofornalha/mcp-shell-server)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The MCP Shell Server is an open-source platform designed to securely execute authorized shell commands, supporting input via stdin and enforcing strict security policies. It provides features such as command validation, timeout control, and integration with Claude.app for seamless deployment. This tool enhances DevSecOps workflows by enabling safe automation of system-level tasks while maintaining enterprise-grade security.**
+
+**Features:**
+- Secure shell command execution
+- Command input via stdin
+- Timeout management
+- Integration with Claude.app
+- Command validation and whitelisting
+- Timeout configuration
+- Environment setup for development
+
+*Tags: mcp-shell-server, security, devops, ai-integration, automation, system-safety, cloud-deployment, api-configuration...*
+
+---
+
+### 8. [coderjun/shaka-packager-mcp-server](https://github.com/coderjun/shaka-packager-mcp-server)
+`9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project provides a GitHub-hosted MCP server that enables Claude AI applications to analyze, convert, and package video files with advanced features such as stream extraction, DRM encryption, path translation, and error management. It supports seamless integration with Shaka Packager for video transcoding and analysis, offering robust tools for media processing in both Docker and host environments.**
+
+**Features:**
+- Video Analysis
+- Media Packaging
+- DRM Encryption
+- Path Translation
+- Error Management
+- Command Assistance
+- Interactive Documentation
+- Comprehensive Outputs
+
+*Tags: mcp, video, ai, packager, cloud, developer, security, automation...*
+
+---
+
+### 9. [rexposadas/attendee-mcp](https://github.com/rexposadas/attendee-mcp)
+`8.5` ★ ⚡91 Q0.9🏆 🏆 World-class
+
+**| The repository details an Attendee MCP (Meeting Bot), which functions as a plugin or service that allows users to interact with AI meeting bots (like Claude) by sending specific commands to them. It demonstrates the power of combining different "MCPs" (like Attendee and Brave Search) into powerful workflows. | This captures the core concept: an MCP for managing meeting bots, demonstrating workflow integration. | | MAIN_FEATURES | Meeting Bot Management, AI Integration, Workflow Orchestration, ...**
+
+**Features:**
+- | Meeting Bot Management
+- AI Integration
+- Workflow Orchestration
+- API Connectivity
+- Lightweight Deployment | The features include the ability to send a bot to a meeting
+- handle chat messages
+- and combine tools (like Attendee with Brave Search). |
+
+*Tags: |-ai, mcp, chatbot, meeting-bot, workflow, openai, claude, api...*
+
+---
+
+### 10. [SajmustafaKe/frappe-dev-mcp-server](https://github.com/SajmustafaKe/frappe-dev-mcp-server)
+`8.6` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**This repository is a Model Context Protocol (MCP) server designed to offer AI assistance for Frappe/ERPNext development. It includes features for generating DocType JSONs, executing essential bench commands, and analyzing app structures., MAIN_FEATURES: `frappe_create_doctype`, `frappe_run_bench_command`, `app_management`, `api_endpoints`, INNOVATION_SCORE: 8/10 (Based on the utility of AI assistance for a specific framework)., TAGS: `frappe`, `mcp`, `ai`, `erpnext`, `devtool`, `nodejs`, `github...**
+
+**Features:**
+- `frappe_create_doctype`
+- `frappe_run_bench_command`
+- `app_management`
+- `api_endpoints`
+- INNOVATION_SCORE: 8/10 (Based on the utility of AI assistance for a specific framework).
+- TAGS: `frappe`
+- `mcp`
+- `ai`
+- `erpnext`
+- `devtool`
+- `nodejs`
+- `github_copilot`
+
+*Tags: `frappe`, `mcp`, `ai`, `erpnext`, `devtool`, `nodejs`, `github-copilot`*
+
+---
+
+### 11. [sirtenzin/autumn-mcp-server](https://github.com/sirtenzin/autumn-mcp-server)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The SirTenzin/autumn-mcp-server is an open-source, lightweight MCP (Managed Cloud Provider) server designed to simplify interaction with the Autumn pricing API. It provides a user-friendly interface and command-line tools for managing customers, invoices, billing portals, and entitlements. The server leverages TypeScript, Docker, and Bun for deployment, supporting integration with various AI and automation tools.**
+
+**Features:**
+- MCP Server
+- Customer Management
+- Invoice Management
+- Billing Portal
+- API Integration
+
+*Tags: mcp-server, autumn-mcp-server, api-integration, customer-management, billing-portal, typescript, docker, bun...*
+
+---
+
+### 12. [lsemenenko/openhue-mcp-server](https://github.com/lsemenenko/openhue-mcp-server)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The lsemenenko/openhue-mcp-server project provides a cloud-based server that integrates with the OpenHue ecosystem to allow users to control Philips Hue lights using natural language commands. It leverages Docker and Claude for desktop integration, offering features such as light control, scene management, room-specific adjustments, and scene activation through AI-powered interfaces.**
+
+**Features:**
+- Natural language command processing
+- Light control via OpenHue CLI
+- Scene creation and management
+- Room and color adjustments
+- Integration with Claude Desktop
+- API access for custom integrations
+
+*Tags: openhue, cloud, ai, iot, smartlighting, developertools, automation, security...*
+
+---
+
+### 13. [rfdez/pvpc-mcp-server](https://github.com/rfdez/pvpc-mcp-server)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Borg Project's repository implements a server-based solution to fetch and manage PVPC electricity tariffs published by Red Eléctrica. It includes configuration options for API keys, transport settings, and port management, supporting seamless integration into development and deployment workflows. The project emphasizes automation, security, and scalability for enterprise use cases.**
+
+**Features:**
+- API key registration
+- CLI command-line interface
+- Docker-based deployment
+- Configuration management
+- Integration with MCP systems
+
+*Tags: pvpc, mcp-server, api-key, tariffs, integration, security, developer-tools, cloud...*
+
+---
+
+### 14. [secretiveshell/mcp-windows](https://github.com/secretiveshell/mcp-windows)
+`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**SecretiveShell provides a MCP (Microsoft Command Prompt) server tailored for Windows environments, facilitating automation, code execution, and integration with Windows APIs. It supports advanced features such as media management, window control, security enhancements, and secure development practices.**
+
+**Features:**
+- mcp-windows
+- code execution
+- window management
+- media handling
+- security features
+- code review tools
+
+*Tags: mcp, windows, automation, api, security, devops, code, integration...*
+
+---
+
+### 15. [deventerprisesoftware/scrapi-mcp](https://github.com/deventerprisesoftware/scrapi-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project provides a Dockerized MCP server that facilitates seamless integration with ScrAPI, allowing developers to automate web scraping tasks efficiently. It supports advanced features such as browser automation, API key management, and cloud deployment options, making it suitable for enterprise-level data extraction workflows.**
+
+**Features:**
+- browser automation
+- scraping via ScrAPI
+- cloud deployment
+- API key integration
+- custom commands execution
+
+*Tags: mcp, scrapi, web-scraping, api-integration, automation, developer-tools*
+
+---
+
+### 16. [peakmojo/applescript-mcp](https://github.com/peakmojo/applescript-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+
+**The MCP server allows users to run AppleScript code directly on their Mac, providing a powerful tool for automation and integration with multiple applications such as Notes, Calendar, Contacts, Messages, and more. It supports features like remote execution via SSH, file operations, and command execution, making it suitable for enterprise-level workflows and DevOps practices.**
+
+**Features:**
+- Run AppleScript on Mac
+- Remote execution via SSH
+- File and data manipulation
+- Integration with multiple applications
+- Automation capabilities
+
+*Tags: applescript, macos, automation, developer, workflow, integration, security, scripting...*
+
+---
+
+### 17. [burtthecoder/mcp-maigret](https://github.com/burtthecoder/mcp-maigret)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The MCP server for maigret is designed to integrate with MCP-compatible applications, enabling advanced search and analysis of usernames across social networks and URLs. It supports secure command execution, input validation, and automated workflows to streamline data collection and enhance OSINT capabilities.**
+
+**Features:**
+- Username Search
+- URL Analysis
+- Site Filtering
+- Docker-based Execution
+- Reporting & Configuration Management
+
+*Tags: mcp, osint, search, usernames, urls, security, developer, ai...*
+
+---
+
+### 18. [redis/mcp-redis-cloud](https://github.com/redis/mcp-redis-cloud)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a MCP Server for Redis Cloud's API, allowing users to manage Redis Cloud resources using natural language commands. This facilitates tasks such as creating databases, managing subscriptions, and monitoring deployments through intuitive interfaces like Claude Desktop and Cursor IDE.**
+
+**Features:**
+- Natural language interface for Redis Cloud management
+- Multi-cloud deployment support
+- Essential subscription management
+- Task and subscription tracking
+- Integration with external tools and services
+
+*Tags: redis, mcp-redis-cloud, cloud-api, developer-tools, ai-integration, multi-cloud, automation, security...*
+
+---
+
+### 19. [prathamesh0901/zoom-mcp-server](https://github.com/prathamesh0901/zoom-mcp-server)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The Zoom MCP Server enables users to create, update, read, or delete Zoom meetings through natural language commands integrated with AI platforms such as Claude and Cursor. It leverages Zod schema validation for robust command handling and supports enterprise-grade security features.**
+
+**Features:**
+- create meeting
+- update meeting
+- delete meeting
+- get meetings
+- natural language integration
+
+*Tags: zoom, mcp, ai, cloud, developer, security, integration, automation...*
+
+---
+
+### 20. [huang-sh/scmcp](https://github.com/huang-sh/scmcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The SCMCP project provides a web-based interface for single cell analysis using scRNA-Seq data. It integrates multiple modules such as preprocessing, clustering, visualization, and more, all accessible via natural language commands. This tool is designed to streamline the workflow of researchers and developers in bioinformatics by offering an intuitive user experience.**
+
+**Features:**
+- natural language interface
+- scRNA-Seq data processing
+- clustering and visualization tools
+- code execution and automation
+
+*Tags: scmcp, singlecellanalysis, bioinformatics, developertools, aiintegration, scanpy, python, mcpserver...*
+
+---
+
+### 21. [ollama/ollama](https://github.com/ollama/ollama/releases/tag/v0.5.12)
+`10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The evolution of Ollama into an agentic runner featuring the `ollama launch` command for instant agent environments and `:cloud` tags for high-perf models.**
+
+**Features:**
+- `ollama launch` agentic bootstrap
+- `:cloud` high-performance model tags
+- headless CI/CD mode (--yes)
+- optimized context compaction.
+
+*Tags: ollama, local-llm, infrastructure, cloud-inference, orchestration, api, artificial-intelligence, github...*
+
+---
+
+### 22. [hdcola/mcp-server-cli](https://github.com/hdcola/mcp-server-cli)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗2 layers
+
+**The mcp-server-cli project provides a server-based interface for running shell scripts or commands, facilitating automation and integration within development workflows. It supports advanced features such as context protocol communication, secure code management, and enterprise-grade security measures.**
+
+**Features:**
+- run shell scripts
+- execute commands
+- automate workflows
+- manage code changes
+
+*Tags: git, scripting, automation, security, developer, integration*
+
+---
+
+### 23. [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP)
+`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**A comprehensive MCP server bridge that grants agents terminal control, process management, and surgical binary file (PDF/XLSX/DOCX) interaction.**
+
+**Features:**
+- Terminal/Process control streaming
+- `edit_block` surgical diffs
+- native PDF/Excel/Word support
+- remote MCP tunnel capabilities.
+
+*Tags: mcp, infrastructure, os-control, terminal, office-automation, github, version-control*
+
+---
+
+### 24. [loderunner/scrt](https://github.com/loderunner/scrt)
+`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**An open-source, Go-based CLI secret manager that keeps the entire secret lifecycle securely within the terminal using NaCl primitives.**
+
+**Features:**
+- NaCl (libsodium) E2E encryption
+- Git/S3 storage backend support
+- composable Unix-philosophy commands
+- CI/CD pipeline optimization.
+
+*Tags: security, secrets-management, cli, go, encryption, github, version-control*
+
+---
+
+### 25. [odysseus0/mcp-server-shell](https://github.com/odysseus0/mcp-server-shell)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The mcp-server-shell project provides a server that allows large language models (LLMs) to run shell commands securely, returning their output. It supports integration with tools like uvx for seamless execution and debugging, making it suitable for DevOps, CI/CD, and enterprise automation workflows.**
+
+**Features:**
+- execute_command
+- debugging tools
+- integration with uvx
+- configuration flexibility
+
+*Tags: mcp-server-shell, devops, ai, security, automation, cloud, scripting, system-administration...*
+
+---
+
+### 26. [Now open for building: Introducing Gemini CLI extensions](https://blog.google/technology/developers/gemini-cli-extensions)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**Self-contained packages that extend the Gemini CLI with specialized playbooks (GEMINI.md), custom slash commands, and multi-tool MCP integrations.**
+
+**Features:**
+- Pre-packaged agent intelligence
+- custom .toml slash commands
+- single-command installation
+- integrated tool restriction policies.
+
+*Tags: extension, cli, gemini, orchestration, modularity, blog, design, tools*
+
+---
+
+### 27. [Introducing MCP Support in AI Shell Preview 6 - PowerShell Team](https://devblogs.microsoft.com/powershell/preview-6-ai-shell)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**An interactive CLI framework by Microsoft that acts as an MCP client and provides deep terminal integration for AI-driven command execution.**
+
+**Features:**
+- MCP Client integration
+- `run_command_in_terminal` tool
+- predictive IntelliSense injection
+- sidecar split-pane UI.
+
+*Tags: powershell, cli, mcp, infrastructure, dev-tools, artificial-intelligence, blog, devblogs*
+
+---
+
+### 28. [CheerpJ 3.1: JVM in WebAssembly and our roadmap for modern Java in the browser](https://labs.leaningtech.com/blog/cheerpj-3.1)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A stable release of the WebAssembly-based JVM enabling unmodified Java apps to run in browsers with native system command interception.**
+
+**Features:**
+- Audio support restoration
+- `execCallback` command interception
+- advanced font re-mapping
+- roadmap to JNI/JavaFX support.
+
+*Tags: wasm, jvm, java, browser-runtime, performance, artificial-intelligence, blog, labs*
+
+---
+
+### 29. [craigmccaskill/posthorn](https://github.com/craigmccaskill/posthorn)
+`5.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**Posthorn is a unified, self-hosted email layer designed to provide a single gateway between various application services and transactional email providers. It simplifies the complexity of managing outbound email concerns across different platforms by offering a single Go binary that handles SMTP relaying and mail gateways.**
+
+**Features:**
+- Unified outbound mail layer
+- Single Go binary implementation
+- Multi-transport support (Postmark
+- Resend
+- Mailgun
+- AWS SES)
+- Simplified transactional email integration
+- Centralized SMTP relay gateway
+
+*Tags: go, docker, email, self-hosted, postmark, smtp-relay, mail-gateway*
 
 ---
 
 ## Hooks & Lifecycle
-> 17 tools · avg signal ⚡86
+> 17 tools · avg signal ⚡84
 
 ### 1. [starbased-co/ccproxy](https://github.com/starbased-co/ccproxy)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -5691,22 +5670,7 @@
 
 ---
 
-### 16. [AI SDK](https://ai-sdk.dev)
-`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
-
-**The industry-standard TypeScript toolkit for building AI-powered web applications with a unified, provider-agnostic abstraction layer.**
-
-**Features:**
-- Unified model abstraction (generateText/streamText)
-- native MCP support
-- framework-agnostic UI hooks
-- automated RAG middleware.
-
-*Tags: sdk, vercel, typescript, mcp, multi-model, ai-sdk, artificial-intelligence, javascript...*
-
----
-
-### 17. [Sandboxing AI Agents in Linux | Hacker News](https://news.ycombinator.com/item?id=46874139)
+### 16. [Sandboxing AI Agents in Linux | Hacker News](https://news.ycombinator.com/item?id=46874139)
 `9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -5722,194 +5686,15 @@
 
 ---
 
-## Context Engineering
-> 11 tools · avg signal ⚡82
+### 17. [cloud.events.aegpresents.com](https://cloud.events.aegpresents.com/electricforestloyalty)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
-### 1. [pinion05/supabase-mcp-lite](https://github.com/pinion05/supabase-mcp-lite)
-`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**This project offers a minimal Supabase MCP (MongoDB Compass) client designed to reduce context usage and complexity compared to standard implementations. It supports essential operations with simple parameters, enabling quick setup and integration into existing workflows. The tool leverages a Personal Access Token for automatic service role key retrieval, bypassing row-level security and providing full database access. It is optimized for server-side/admin use cases, supporting multiple projects...**
-
-**Features:**
-- lightweight implementation
-- minimal context usage
-- full database access
-- automatic service role key retrieval
-- support for multiple projects
-
-*Tags: supabase, mcp, developer-tools, api-integration, docker, security, developer-workflow, enterprise-solutions...*
-
----
-
-### 2. [thomaub/clickhouse_mcp_server](https://github.com/thomaub/clickhouse_mcp_server)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**This project provides a Model Context Protocol (MCP) server that facilitates seamless communication between ClickHouse databases and Large Language Models (LLMs). It allows developers to securely connect ClickHouse resources, execute queries, and leverage AI capabilities efficiently. The implementation supports Python-based integration, ensuring compatibility with modern development workflows.**
-
-**Features:**
-- clickhouse databases
-- table schemas
-- secure communication
-- ai model integration
-- mcp protocol support
-
-*Tags: clickhouse, clickhouse-mcp-server, clickhouse-api, ai-integration, python-devops, developer-tools, security-features, mcp-protocol...*
-
----
-
-### 3. [m4tyn0/influx_mcp](https://github.com/m4tyn0/influx_mcp)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The m4tyn0/influx_mcp project provides a containerized MCP (Model Context Protocol) server that integrates with InfluxDB 1.8, allowing secure querying of time-series data using JWT tokens. It supports enterprise-grade security, automated workflows, and seamless integration into modern DevOps pipelines.**
-
-**Features:**
-- JWT-based authentication for secure access
-- Read-only access to InfluxDB instance
-- AI assistant query capabilities via standardized protocols
-- Integration with CI/CD and development workflows
-- Scalable deployment using Docker
-
-*Tags: influxdb, mcp, api, security, developer, ai, docker, infrastructure...*
-
----
-
-### 4. [anshumax/world_bank_mcp_server](https://github.com/anshumax/world_bank_mcp_server)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The anshumax/world_bank_mcp_server project implements the Model Context Protocol (MCP) to facilitate secure and efficient communication between AI assistants and the World Bank's open data API. It provides a structured interface for listing indicators, analyzing data, and integrating with external tools like Claude Desktop.**
-
-**Features:**
-- Model Context Protocol implementation
-- World Bank API integration
-- Data analysis capabilities
-- Secure code execution
-- Docker-based deployment
-
-*Tags: worldbank, api, modelcontext, mcp, cloud, python, developer, ai...*
-
----
-
-### 5. [Show HN: ResourceAI – Local LLM inference optimized for consumer iGPUs | Hacker News](https://news.ycombinator.com/item?id=46742711)
-`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**ResourceAI is an open-source project designed to run large language models (LLMs) efficiently on consumer integrated graphics (iGPUs). It leverages a Rust backend and llama.cpp as the inference engine, supporting macOS and Windows with Vulkan. The platform includes features like RAG integration, web search, and a Flutter frontend, aiming to make advanced AI accessible on portable devices.**
-
-**Features:**
-- local llm inference
-- consumer iGPU optimization
-- macos support
-- windows support
-- web search
-- rag implementation
-
-*Tags: llama, llm, resourceai, runtime, optimization, consumer-hardware, ai-inference, flutter...*
-
----
-
-### 6. [shop.futurebit.io](https://shop.futurebit.io/products/apollo-iii-full-node?rdt_cid=5594759595829850148&utm_source=reddit)
-`9.0` ★★ ⚡80 Q0.8⭐ ⭐ Excellent
-
-**The Apollo III Full Node offers a powerful combination of mining performance and full node functionality, engineered for independent operation. It allows users to run their own Bitcoin node, validate transactions independently, and solo mine using custom block templates. This solution emphasizes user control over the network and mining operations.**
-
-**Features:**
-- Full Node Controller
-- 18 TH/s power
-- American ASICs
-- Dynamic Power Control
-- Solo Mine with Block Templates
-
-*Tags: bitcoin-miner, full-node, solo-mine, american-silicon, crypto-mining, node-sovereignty, btc-mining, power-efficiency...*
-
----
-
-### 7. [ASUS Ascent GX10｜Desktop AI supercomputer｜ASUS Global](https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10)
-`10.0` ★★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**A personal AI supercomputer powered by the NVIDIA Grace Blackwell superchip, delivering 1 petaFLOP of AI compute in a compact 150mm chassis.**
-
-**Features:**
-- NVIDIA Grace Blackwell Superchip
-- 1 petaFLOP (1
-- 000 TOPS) compute
-- 128GB Unified LPDDR5x RAM
-- NVIDIA DGX OS stack support.
-
-*Tags: hardware, nvidia, blackwell, supercomputer, performance, artificial-intelligence, asus*
-
----
-
-### 8. [Borg Documentation — Borg - Deduplicating Archiver 1.4.4 documentation](https://borgbackup.readthedocs.io/en/stable)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**A high-efficiency deduplicating backup tool using content-defined chunking and authenticated AES-256 encryption for secure, daily offsite snapshots.**
-
-**Features:**
-- Content-defined chunking (CDC)
-- client-side AES-256 encryption
-- LZ4/Zstd compression support
-- FUSE mountable archives.
-
-*Tags: backup, security, deduplication, snapshots, storage, borgbackup, documentation*
-
----
-
-### 9. [Reverse Engineering a 27MHz RC Toy communication using RTL SDR](https://nitrojacob.wordpress.com/2025/09/03/reverse-engineering-a-27mhz-rc-toy-communication-using-rtl-sdr)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**A 2025 reverse-engineering walkthrough using RTL-SDR and GNU Radio to identify and hijack ASK-modulated signals from legacy 27MHz RC toys.**
-
-**Features:**
-- ASK modulation analysis
-- GNU Radio AM Demod blocks
-- data frame sync pattern identification
-- real-time signal hijacking.
-
-*Tags: sdr, reverse-engineering, security, radio, gnuradio, nitrojacob, tools*
-
----
-
-### 10. [shop.futurebit.io](https://shop.futurebit.io/products/apollo-iii-full-node?rdt_cid=5595068506820415921&utm_source=reddit)
-`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-
-**The Apollo III Full Node is designed for users who want to run Bitcoin on their own terms, offering complete control over the network. It provides a custom controller engineered for quick sync and 24/7 uptime, allowing you to validate your own transactions and mine with maximum sovereignty.**
-
-**Features:**
-- Full Node Controller
-- 18 TH/s
-- 3nm ASICs
-- Dynamic Power Control
-- Solo Mine
-
-*Tags: bitcoin-miner, full-node, solo-mining, american-silicon, crypto-hardware, node-sovereignty, btc-mining, blockchain-infrastructure*
-
----
-
-### 11. [shop.futurebit.io](https://shop.futurebit.io/products/apollo-iii-full-node?rdt_cid=5587864782687540633&utm_source=reddit)
-`8.0` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-
-**The Apollo III Full Node is designed to let users run their own Bitcoin network, validate transactions independently, and mine 24/7 without relying on intermediaries. It offers a powerful combination of mining performance and full node functionality in a compact form factor.**
-
-**Features:**
-- Bitcoin Miner
-- Full Node Controller
-- 3nm ASICs
-- Optimized Thermal System
-- Dynamic Power Control
-- Solo Mine to your own node
-
-*Tags: bitcoin-miner, full-node, solo-mining, asic, crypto-hardware, node-sovereignty, mining-efficiency, hardware-performance...*
+**cloud.events.aegpresents.com**
 
 ---
 
 ## Orchestration
-> 11 tools · avg signal ⚡85
+> 12 tools · avg signal ⚡82
 
 ### 1. [kocierik/mcp-nomad](https://github.com/kocierik/mcp-nomad)
 `9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
@@ -6099,8 +5884,20 @@
 
 ---
 
+### 12. [testing9384/mcp-server](https://github.com/testing9384/mcp-server)
+`5.0` ★ ⚡48 Q0.5○ ○ Adequate
+
+**This repository presents a 'mcp-server', which acts as a central hub for managing connections, protocols, or interactions between various components. It focuses on the core infrastructure layer necessary for system interoperability and service orchestration.**
+
+**Features:**
+- Centralized communication hub
+
+*Tags: microservices, communication, backend, proxy, server, networking*
+
+---
+
 ## Harness Frameworks
-> 11 tools · avg signal ⚡81
+> 10 tools · avg signal ⚡82
 
 ### 1. [martinbowling/thoughtful-claude](https://github.com/martinbowling/thoughtful-claude)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
@@ -6217,22 +6014,7 @@
 
 ---
 
-### 8. [llamastack/llama-stack](https://github.com/llamastack/llama-stack)
-`9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
-
-**A framework that standardizes core building blocks (Inference, RAG, Agents) into a unified API layer for Llama-based applications.**
-
-**Features:**
-- Standardized Inference/RAG/Agent APIs
-- verified local/cloud distributions
-- plugin-based architecture
-- multi-environment flexibility.
-
-*Tags: llama, standardization, infrastructure, api, meta, design, github, version-control*
-
----
-
-### 9. [Generative AI APIs | Run Image, Video, 3D and Audio Models 4x Faster | fal.ai](https://fal.ai)
+### 8. [Generative AI APIs | Run Image, Video, 3D and Audio Models 4x Faster | fal.ai](https://fal.ai)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A high-speed, globally distributed serverless GPU engine optimized for "day zero" support of SOTA generative video, image, and 3D models.**
@@ -6247,7 +6029,7 @@
 
 ---
 
-### 10. [Genesis](https://genesis-embodied-ai.github.io)
+### 9. [Genesis](https://genesis-embodied-ai.github.io)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 
 **A generative, fully differentiable physics engine for Embodied AI capable of 43 million FPS simulations, outperforming MuJoCo MJX by up to 80x.**
@@ -6262,7 +6044,7 @@
 
 ---
 
-### 11. [AsmJit](https://asmjit.com)
+### 10. [AsmJit](https://asmjit.com)
 `10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -6275,6 +6057,143 @@
 - type-safe semantic checks.
 
 *Tags: asmjit, low-level, cpp, jit, performance*
+
+---
+
+## Context Engineering
+> 8 tools · avg signal ⚡84
+
+### 1. [pinion05/supabase-mcp-lite](https://github.com/pinion05/supabase-mcp-lite)
+`9.0` ★★ ⚡94 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**This project offers a minimal Supabase MCP (MongoDB Compass) client designed to reduce context usage and complexity compared to standard implementations. It supports essential operations with simple parameters, enabling quick setup and integration into existing workflows. The tool leverages a Personal Access Token for automatic service role key retrieval, bypassing row-level security and providing full database access. It is optimized for server-side/admin use cases, supporting multiple projects...**
+
+**Features:**
+- lightweight implementation
+- minimal context usage
+- full database access
+- automatic service role key retrieval
+- support for multiple projects
+
+*Tags: supabase, mcp, developer-tools, api-integration, docker, security, developer-workflow, enterprise-solutions...*
+
+---
+
+### 2. [thomaub/clickhouse_mcp_server](https://github.com/thomaub/clickhouse_mcp_server)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**This project provides a Model Context Protocol (MCP) server that facilitates seamless communication between ClickHouse databases and Large Language Models (LLMs). It allows developers to securely connect ClickHouse resources, execute queries, and leverage AI capabilities efficiently. The implementation supports Python-based integration, ensuring compatibility with modern development workflows.**
+
+**Features:**
+- clickhouse databases
+- table schemas
+- secure communication
+- ai model integration
+- mcp protocol support
+
+*Tags: clickhouse, clickhouse-mcp-server, clickhouse-api, ai-integration, python-devops, developer-tools, security-features, mcp-protocol...*
+
+---
+
+### 3. [m4tyn0/influx_mcp](https://github.com/m4tyn0/influx_mcp)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The m4tyn0/influx_mcp project provides a containerized MCP (Model Context Protocol) server that integrates with InfluxDB 1.8, allowing secure querying of time-series data using JWT tokens. It supports enterprise-grade security, automated workflows, and seamless integration into modern DevOps pipelines.**
+
+**Features:**
+- JWT-based authentication for secure access
+- Read-only access to InfluxDB instance
+- AI assistant query capabilities via standardized protocols
+- Integration with CI/CD and development workflows
+- Scalable deployment using Docker
+
+*Tags: influxdb, mcp, api, security, developer, ai, docker, infrastructure...*
+
+---
+
+### 4. [anshumax/world_bank_mcp_server](https://github.com/anshumax/world_bank_mcp_server)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The anshumax/world_bank_mcp_server project implements the Model Context Protocol (MCP) to facilitate secure and efficient communication between AI assistants and the World Bank's open data API. It provides a structured interface for listing indicators, analyzing data, and integrating with external tools like Claude Desktop.**
+
+**Features:**
+- Model Context Protocol implementation
+- World Bank API integration
+- Data analysis capabilities
+- Secure code execution
+- Docker-based deployment
+
+*Tags: worldbank, api, modelcontext, mcp, cloud, python, developer, ai...*
+
+---
+
+### 5. [Show HN: ResourceAI – Local LLM inference optimized for consumer iGPUs | Hacker News](https://news.ycombinator.com/item?id=46742711)
+`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**ResourceAI is an open-source project designed to run large language models (LLMs) efficiently on consumer integrated graphics (iGPUs). It leverages a Rust backend and llama.cpp as the inference engine, supporting macOS and Windows with Vulkan. The platform includes features like RAG integration, web search, and a Flutter frontend, aiming to make advanced AI accessible on portable devices.**
+
+**Features:**
+- local llm inference
+- consumer iGPU optimization
+- macos support
+- windows support
+- web search
+- rag implementation
+
+*Tags: llama, llm, resourceai, runtime, optimization, consumer-hardware, ai-inference, flutter...*
+
+---
+
+### 6. [ASUS Ascent GX10｜Desktop AI supercomputer｜ASUS Global](https://www.asus.com/networking-iot-servers/desktop-ai-supercomputer/ultra-small-ai-supercomputers/asus-ascent-gx10)
+`10.0` ★★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**A personal AI supercomputer powered by the NVIDIA Grace Blackwell superchip, delivering 1 petaFLOP of AI compute in a compact 150mm chassis.**
+
+**Features:**
+- NVIDIA Grace Blackwell Superchip
+- 1 petaFLOP (1
+- 000 TOPS) compute
+- 128GB Unified LPDDR5x RAM
+- NVIDIA DGX OS stack support.
+
+*Tags: hardware, nvidia, blackwell, supercomputer, performance, artificial-intelligence, asus*
+
+---
+
+### 7. [Borg Documentation — Borg - Deduplicating Archiver 1.4.4 documentation](https://borgbackup.readthedocs.io/en/stable)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**A high-efficiency deduplicating backup tool using content-defined chunking and authenticated AES-256 encryption for secure, daily offsite snapshots.**
+
+**Features:**
+- Content-defined chunking (CDC)
+- client-side AES-256 encryption
+- LZ4/Zstd compression support
+- FUSE mountable archives.
+
+*Tags: backup, security, deduplication, snapshots, storage, borgbackup, documentation*
+
+---
+
+### 8. [Reverse Engineering a 27MHz RC Toy communication using RTL SDR](https://nitrojacob.wordpress.com/2025/09/03/reverse-engineering-a-27mhz-rc-toy-communication-using-rtl-sdr)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**A 2025 reverse-engineering walkthrough using RTL-SDR and GNU Radio to identify and hijack ASK-modulated signals from legacy 27MHz RC toys.**
+
+**Features:**
+- ASK modulation analysis
+- GNU Radio AM Demod blocks
+- data frame sync pattern identification
+- real-time signal hijacking.
+
+*Tags: sdr, reverse-engineering, security, radio, gnuradio, nitrojacob, tools*
 
 ---
 

@@ -1,16 +1,16 @@
 # 🛡 Security & Red Teaming
-> Borg Intelligence Atlas v8 · 2026-05-19 · 125 tools
+> Borg Intelligence Atlas v8 · 2026-06-14 · 126 tools
 > AI guardrails, LLM red teaming, vulnerability scanning, pentesting
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **125** |
+| Total tools | **126** |
 | Standout 🏆⭐ | 40 |
-| Avg Signal | ⚡85 |
-| Innovation 10 | 22 ██████░░░░░░░░░░░░░░ |
+| Avg Signal | ⚡84 |
+| Innovation 10 | 21 █████░░░░░░░░░░░░░░░ |
 | Innovation 9 | 30 ████████░░░░░░░░░░░░ |
-| Innovation 8 | 67 ████████████████████ |
-| Innovation 7 | 6 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 8 | 71 ████████████████████ |
+| Innovation 7 | 4 █░░░░░░░░░░░░░░░░░░░ |
 
 ---
 
@@ -41,12 +41,12 @@
 
 ## Contents
 
-- [Config & Profile Management](#config--profile-management) — 26 tools · ⚡89
-- [Governance & Safety](#governance--safety) — 23 tools · ⚡85
-- [Monitoring & Analytics](#monitoring--analytics) — 12 tools · ⚡87
+- [Config & Profile Management](#config--profile-management) — 25 tools · ⚡89
+- [Governance & Safety](#governance--safety) — 21 tools · ⚡85
+- [Monitoring & Analytics](#monitoring--analytics) — 12 tools · ⚡85
+- [Other Tools](#other-tools) — 12 tools · ⚡60
 - [Spec-Driven Development](#spec-driven-development) — 10 tools · ⚡87
 - [Verification & Testing](#verification--testing) — 10 tools · ⚡83
-- [Other Tools](#other-tools) — 8 tools · ⚡63
 - [Bridges & Proxies](#bridges--proxies) — 7 tools · ⚡90
 - [Skill Systems](#skill-systems) — 5 tools · ⚡91
 - [Orchestration](#orchestration) — 5 tools · ⚡91
@@ -59,7 +59,7 @@
 ---
 
 ## Config & Profile Management
-> 26 tools · avg signal ⚡89
+> 25 tools · avg signal ⚡89
 
 ### 1. [sepinetam/stata-mcp](https://github.com/sepinetam/stata-mcp)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -294,24 +294,7 @@
 
 ---
 
-### 14. [jamiesonio/defectdojo-mcp](https://github.com/jamiesonio/defectdojo-mcp)
-`8.5` ★ ⚡89 Q0.8🏆 🏆 World-class
-↗3 layers
-
-**This project provides a robust Model Context Protocol (MCP) server implementation, allowing secure and automated interaction with the DefectDojo API. It supports key functionalities such as fetching, managing, and updating findings, as well as integrating with AI agents for enhanced security operations. The server is designed to streamline vulnerability management workflows, ensuring efficient communication between clients and the DefectDojo platform.**
-
-**Features:**
-- Model Context Protocol (MCP) server implementation
-- Automated finding retrieval and management
-- Integration with AI agents for security analysis
-- Secure API authentication via token
-- Customizable configuration through environment variables
-
-*Tags: defectdojo, mcp, appsec, security-automation, devsecops, ai-agents, fastmcp, api-integration...*
-
----
-
-### 15. [timbuchinger/mcp-github](https://github.com/timbuchinger/mcp-github)
+### 14. [timbuchinger/mcp-github](https://github.com/timbuchinger/mcp-github)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -328,7 +311,7 @@
 
 ---
 
-### 16. [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp)
+### 15. [ahnlabio/bicscan-mcp](https://github.com/ahnlabio/bicscan-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -345,7 +328,7 @@
 
 ---
 
-### 17. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)
+### 16. [brevdev/brev-mcp](https://github.com/brevdev/brev-mcp)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -362,7 +345,7 @@
 
 ---
 
-### 18. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)
+### 17. [cheny-alf/filesystem-server](https://github.com/cheny-alf/filesystem-server)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -379,7 +362,7 @@
 
 ---
 
-### 19. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge/tree/main/src)
+### 18. [toolprint/mcp-graphql-forge](https://github.com/toolprint/mcp-graphql-forge/tree/main/src)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗4 layers
 
@@ -396,7 +379,7 @@
 
 ---
 
-### 20. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)
+### 19. [Kim-soung-won/mcp-smithery-exam](https://github.com/Kim-soung-won/mcp-smithery-exam)
 `8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
 ↗3 layers
 
@@ -413,7 +396,7 @@
 
 ---
 
-### 21. [pgzhang/mcp](https://github.com/pgzhang/mcp)
+### 20. [pgzhang/mcp](https://github.com/pgzhang/mcp)
 `8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
 ↗2 layers
 
@@ -430,7 +413,7 @@
 
 ---
 
-### 22. [stagas/rtdiff](https://github.com/stagas/rtdiff)
+### 21. [stagas/rtdiff](https://github.com/stagas/rtdiff)
 `9.0` ★★ ⚡87 Q0.8🏆 🏆 World-class
 ↗4 layers
 
@@ -448,7 +431,7 @@
 
 ---
 
-### 23. [dmayboroda/minima](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server)
+### 22. [dmayboroda/minima](https://github.com/dmayboroda/minima/tree/HEAD/mcp-server)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗3 layers
 
@@ -465,7 +448,7 @@
 
 ---
 
-### 24. [capecoma/winterm-mcp](https://github.com/capecoma/winterm-mcp)
+### 23. [capecoma/winterm-mcp](https://github.com/capecoma/winterm-mcp)
 `8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
 ↗2 layers
 
@@ -482,7 +465,7 @@
 
 ---
 
-### 25. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)
+### 24. [dennishavermans/agentfile](https://github.com/dennishavermans/agentfile)
 `10.0` ★★★ ⚡84 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -498,7 +481,7 @@
 
 ---
 
-### 26. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms/tree/main/src)
+### 25. [masatoshi118/mcp_google_froms](https://github.com/masatoshi118/mcp_google_froms/tree/main/src)
 `8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -515,7 +498,7 @@
 ---
 
 ## Governance & Safety
-> 23 tools · avg signal ⚡85
+> 21 tools · avg signal ⚡85
 
 ### 1. [gensecaihq/pfsense-mcp-server](https://github.com/gensecaihq/pfsense-mcp-server)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -788,24 +771,7 @@
 
 ---
 
-### 16. [AI videos of sexualised black women removed from TikTok after BBC investigation](https://www.bbc.com/news/articles/c070e283k8vo)
-`8.8` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The report details how TikTok and Instagram were investigated for hosting AI-generated digital personas of Black women, which were found to be used to promote sexually explicit content. The investigation uncovered a network of accounts that exploited AI to create misleading and harmful representations, violating platform guidelines and raising concerns about online safety, authenticity, and the perpetuation of racist stereotypes.**
-
-**Features:**
-- AI-generated digital personas
-- Removal of content by platforms
-- Cross-platform analysis
-- User reporting and platform response
-- Ethical and cultural implications
-
-*Tags: ai, british-broadcasting, social-media, content-moderation, online-safety, racism, digital-ethics, platform-accountability...*
-
----
-
-### 17. [agentify-sh/safeexec](https://github.com/agentify-sh/safeexec)
+### 16. [agentify-sh/safeexec](https://github.com/agentify-sh/safeexec)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
 ↗2 layers
 
@@ -821,7 +787,7 @@
 
 ---
 
-### 18. [Claude Sonnet 4.6 | Hacker News](https://news.ycombinator.com/item?id=47050488)
+### 17. [Claude Sonnet 4.6 | Hacker News](https://news.ycombinator.com/item?id=47050488)
 `8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
 ↗3 layers
 
@@ -838,7 +804,7 @@
 
 ---
 
-### 19. [Ask HN: How do we build a new Human First online community in the LLM age? | Hacker News](https://news.ycombinator.com/item?id=47343951)
+### 18. [Ask HN: How do we build a new Human First online community in the LLM age? | Hacker News](https://news.ycombinator.com/item?id=47343951)
 `8.8` ★ ⚡81 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -855,7 +821,7 @@
 
 ---
 
-### 20. [AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF · Hugging Face](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF)
+### 19. [AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF · Hugging Face](https://huggingface.co/AlicanKiraz0/Cybersecurity-BaronLLM_Offensive_Security_LLM_Q6_K_GGUF)
 `8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
 ↗2 layers
 
@@ -872,7 +838,7 @@
 
 ---
 
-### 21. [Snowflake AI Escapes Sandbox and Executes Malware | Hacker News](https://news.ycombinator.com/item?id=47427017)
+### 20. [Snowflake AI Escapes Sandbox and Executes Malware | Hacker News](https://news.ycombinator.com/item?id=47427017)
 `7.8` ★ ⚡79 Q0.8⭐ ⭐ Excellent
 ↗5 layers
 
@@ -889,7 +855,7 @@
 
 ---
 
-### 22. [Zenable - AI Coding Guardrails](https://www.zenable.app/dashboard)
+### 21. [Zenable - AI Coding Guardrails](https://www.zenable.app/dashboard)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
 ↗2 layers
 
@@ -905,23 +871,8 @@
 
 ---
 
-### 23. [Safety for Agentic AI Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/safety-for-agentic-ai)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**A comprehensive "Safety Recipe" for hardening agentic workflows against misalignment, hallucinations, and prompt injections.**
-
-**Features:**
-- Inference-time Topic Control
-- Jailbreak detection microservices
-- build-time garak vulnerability scanning
-- specialized safety datasets.
-
-*Tags: security, guardrails, nvidia, nemo, ai-safety, artificial-intelligence, build, design*
-
----
-
 ## Monitoring & Analytics
-> 12 tools · avg signal ⚡87
+> 12 tools · avg signal ⚡85
 
 ### 1. [nekzus/npm-sentinel-mcp](https://github.com/nekzus/npm-sentinel-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -1123,20 +1074,133 @@
 
 ---
 
-### 12. [i_need_your_master_hacker_playlists](https://www.reddit.com/r/masterhacker/comments/1sxv8un/i_need_your_master_hacker_playlists)
-`8.5` ★ ⚡72 Q0.6⭐ ⭐ Excellent
-↗2 layers
+### 12. [soatok.blog](https://soatok.blog/2024/08/14/security-issues-in-matrixs-olm-library/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
-**The content provides insights into advanced hacking methodologies, tools, and workflows used by expert hackers, emphasizing automation, scripting, and system exploitation.**
+**soatok.blog**
+
+---
+
+## Other Tools
+> 12 tools · avg signal ⚡60
+
+### 1. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗5 layers
+
+**The eversinc33/TriageMCP project provides a GitHub-hosted MCP server designed for analyzing executable files (PE) using tools like pefile and yara-python. It enables automated static malware triage, supporting features such as hash lookup, transport protocol handling, and integration with AI-driven analysis. The tool is tailored for security professionals to streamline threat detection workflows.**
 
 **Features:**
-- automation
-- scripting
-- system exploitation
-- network penetration
-- data exfiltration
+- static pe analysis
+- hash lookup
+- transport protocol support
+- ai-assisted triage
+- integration with mcp tools
 
-*Tags: reddit, masterhacker, hacking, cybersecurity, ethicalhacking, networking, scripting, systemanalysis...*
+*Tags: mcp, static-analysis, malware-triage, security, ai, code-review, ci/cd, developer-workflow...*
+
+---
+
+### 2. [stackloklabs/osv-mcp](https://github.com/stackloklabs/osv-mcp)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗3 layers
+
+**The osv-mcp project provides a secure, containerized MCP server that enables LLM-powered tools to access and retrieve detailed vulnerability information from the OSV database. It supports batch queries, detailed vulnerability insights, and integrates with modern development workflows for enhanced security and compliance.**
+
+**Features:**
+- query_vulnerability
+- batch_querying_vulnerabilities
+- detailed vulnerability info
+- secure deployment via ToolHive
+
+*Tags: osv, mcp, security, ai, developer, osv-mcp, github, toolhive*
+
+---
+
+### 3. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)
+`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP Security Audit Tool is designed to enhance security by scanning npm packages in real time, leveraging remote npm registry connections. It provides detailed vulnerability reports with severity levels and supports multiple fix recommendations, making it a valuable asset for developers and organizations aiming to secure their dependencies.**
+
+**Features:**
+- Real-time security vulnerability scanning
+- Remote npm registry integration
+- Detailed vulnerability reports with severity levels
+- Automatic fix recommendations
+
+*Tags: security, npm, audit, model-context-protocol, developer-tools*
+
+---
+
+### 4. [Vulnerability Analysis for Container Security Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/vulnerability-analysis-for-container-security)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+
+**An automated triage agent that uses RAG and SBOM analysis to distinguish between genuine container risks and false positives.**
+
+**Features:**
+- Automated SBOM (Syft) generation
+- RAG-based CVE cross-referencing
+- VEX (Vulnerability Exploitability) generation
+- sub-second security triage.
+
+*Tags: security, container, cve, sbom, automation, api, artificial-intelligence, build...*
+
+---
+
+### 5. [pwnhackernews.substack.com](https://pwnhackernews.substack.com/subscribe)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**pwnhackernews.substack.com**
+
+---
+
+### 6. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/ufo/002029-1401-e.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**collectionscanada.gc.ca**
+
+---
+
+### 7. [docs.litellm.ai](https://docs.litellm.ai/blog/security-update-march-2026)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**docs.litellm.ai**
+
+---
+
+### 8. [biohackspace.org](http://biohackspace.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**biohackspace.org**
+
+---
+
+### 9. [t.me](https://t.me/biohackerlounge)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**t.me**
+
+---
+
+### 10. [en.wikipedia.org](https://en.wikipedia.org/wiki/UK_undercover_policing_scandal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 11. [I Need Your Master Hacker Playlists](https://www.reddit.com/r/masterhacker/comments/1sxv8un/i_need_your_master_hacker_playlists/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Need Your Master Hacker Playlists**
+
+---
+
+### 12. [We Scanned 500 Public Mcp Servers For Security](https://www.reddit.com/r/mcp/comments/1to9gei/we_scanned_500_public_mcp_servers_for_security/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**We Scanned 500 Public Mcp Servers For Security**
 
 ---
 
@@ -1487,101 +1551,6 @@
 - security audit vs adversarial framing analysis.
 
 *Tags: claude-code, copilot, orchestration, productivity, audit*
-
----
-
-## Other Tools
-> 8 tools · avg signal ⚡63
-
-### 1. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗5 layers
-
-**The eversinc33/TriageMCP project provides a GitHub-hosted MCP server designed for analyzing executable files (PE) using tools like pefile and yara-python. It enables automated static malware triage, supporting features such as hash lookup, transport protocol handling, and integration with AI-driven analysis. The tool is tailored for security professionals to streamline threat detection workflows.**
-
-**Features:**
-- static pe analysis
-- hash lookup
-- transport protocol support
-- ai-assisted triage
-- integration with mcp tools
-
-*Tags: mcp, static-analysis, malware-triage, security, ai, code-review, ci/cd, developer-workflow...*
-
----
-
-### 2. [stackloklabs/osv-mcp](https://github.com/stackloklabs/osv-mcp)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗3 layers
-
-**The osv-mcp project provides a secure, containerized MCP server that enables LLM-powered tools to access and retrieve detailed vulnerability information from the OSV database. It supports batch queries, detailed vulnerability insights, and integrates with modern development workflows for enhanced security and compliance.**
-
-**Features:**
-- query_vulnerability
-- batch_querying_vulnerabilities
-- detailed vulnerability info
-- secure deployment via ToolHive
-
-*Tags: osv, mcp, security, ai, developer, osv-mcp, github, toolhive*
-
----
-
-### 3. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)
-`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP Security Audit Tool is designed to enhance security by scanning npm packages in real time, leveraging remote npm registry connections. It provides detailed vulnerability reports with severity levels and supports multiple fix recommendations, making it a valuable asset for developers and organizations aiming to secure their dependencies.**
-
-**Features:**
-- Real-time security vulnerability scanning
-- Remote npm registry integration
-- Detailed vulnerability reports with severity levels
-- Automatic fix recommendations
-
-*Tags: security, npm, audit, model-context-protocol, developer-tools*
-
----
-
-### 4. [Vulnerability Analysis for Container Security Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/vulnerability-analysis-for-container-security)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**An automated triage agent that uses RAG and SBOM analysis to distinguish between genuine container risks and false positives.**
-
-**Features:**
-- Automated SBOM (Syft) generation
-- RAG-based CVE cross-referencing
-- VEX (Vulnerability Exploitability) generation
-- sub-second security triage.
-
-*Tags: security, container, cve, sbom, automation, api, artificial-intelligence, build...*
-
----
-
-### 5. [Ai Just Hacked One Of The Worlds Most Secure](https://www.reddit.com/r/ControlProblem/comments/1scv2o2/ai_just_hacked_one_of_the_worlds_most_secure/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Ai Just Hacked One Of The Worlds Most Secure**
-
----
-
-### 6. [Agentbom V0832 Opensource Security Scanner And](https://www.reddit.com/r/mcp/comments/1szm7w1/agentbom_v0832_opensource_security_scanner_and/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Agentbom V0832 Opensource Security Scanner And**
-
----
-
-### 7. [Do Not Try To Hack Linus Torvalds Network Alone](https://www.reddit.com/r/masterhacker/comments/1slay8x/do_not_try_to_hack_linus_torvalds_network_alone/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Do Not Try To Hack Linus Torvalds Network Alone**
-
----
-
-### 8. [Inkog Security Copilot For Ai Agents Scans For](https://www.reddit.com/r/mcp/comments/1sy3w02/inkog_security_copilot_for_ai_agents_scans_for/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Inkog Security Copilot For Ai Agents Scans For**
 
 ---
 
