@@ -1,17 +1,17 @@
 # 🛠 Coding Harness Tools
-> Borg Intelligence Atlas v8 · 2026-06-16 · 250 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 253 tools
 > Agent harnesses, skills, governance, spec-driven dev, bridges
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **250** |
+| Total tools | **253** |
 | Standout 🏆⭐ | 39 |
-| Avg Signal | ⚡76 |
+| Avg Signal | ⚡75 |
 | Innovation 10 | 33 ███████████░░░░░░░░░ |
-| Innovation 9 | 50 █████████████████░░░ |
-| Innovation 8 | 57 ████████████████████ |
-| Innovation 7 | 56 ███████████████████░ |
-| Innovation 6 | 35 ████████████░░░░░░░░ |
+| Innovation 9 | 50 ████████████████░░░░ |
+| Innovation 8 | 60 ████████████████████ |
+| Innovation 7 | 56 ██████████████████░░ |
+| Innovation 6 | 35 ███████████░░░░░░░░░ |
 | Innovation 5 | 18 ██████░░░░░░░░░░░░░░ |
 | Innovation 4 | 1 ░░░░░░░░░░░░░░░░░░░░ |
 
@@ -50,15 +50,15 @@
 - [Orchestration](#orchestration) — 22 tools · ⚡74
 - [Governance & Safety](#governance--safety) — 20 tools · ⚡82
 - [Harness Frameworks](#harness-frameworks) — 20 tools · ⚡74
-- [Other Tools](#other-tools) — 18 tools · ⚡63
+- [Other Tools](#other-tools) — 19 tools · ⚡62
 - [Bridges & Proxies](#bridges--proxies) — 17 tools · ⚡83
 - [Hooks & Lifecycle](#hooks--lifecycle) — 16 tools · ⚡78
 - [Monitoring & Analytics](#monitoring--analytics) — 13 tools · ⚡78
 - [Context Engineering](#context-engineering) — 11 tools · ⚡74
 - [Config & Profile Management](#config--profile-management) — 10 tools · ⚡74
 - [Browser & Web Tools](#browser--web-tools) — 4 tools · ⚡72
-- [Major Harness Integrations](#major-harness-integrations) — 3 tools · ⚡56
-- [Verification & Testing](#verification--testing) — 2 tools · ⚡62
+- [Major Harness Integrations](#major-harness-integrations) — 4 tools · ⚡54
+- [Verification & Testing](#verification--testing) — 3 tools · ⚡58
 
 ---
 
@@ -2554,7 +2554,7 @@
 ---
 
 ## Other Tools
-> 18 tools · avg signal ⚡63
+> 19 tools · avg signal ⚡62
 
 ### 1. [s2-streamstore/s2-sdk-typescript](https://github.com/s2-streamstore/s2-sdk-typescript)
 `8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
@@ -2747,21 +2747,28 @@ The core functionality revolves around defining, creating, and appending records
 
 ---
 
-### 16. [Best Ai Compliance Solutions For Validating Ai](https://www.reddit.com/r/AI_Governance/comments/1tielb9/best_ai_compliance_solutions_for_validating_ai/)
+### 16. [openai.com](https://openai.com/index/unlocking-the-codex-harness/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 17. [Best Ai Compliance Solutions For Validating Ai](https://www.reddit.com/r/AI_Governance/comments/1tielb9/best_ai_compliance_solutions_for_validating_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Best Ai Compliance Solutions For Validating Ai**
 
 ---
 
-### 17. [Claude Code Has Been Writing Every Session To](https://www.reddit.com/r/BuildWithClaude/comments/1tluzah/claude_code_has_been_writing_every_session_to/)
+### 18. [Claude Code Has Been Writing Every Session To](https://www.reddit.com/r/BuildWithClaude/comments/1tluzah/claude_code_has_been_writing_every_session_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Claude Code Has Been Writing Every Session To**
 
 ---
 
-### 18. [Judgeos V58 Regulatory Mapping Without Claiming](https://www.reddit.com/r/AI_Governance/comments/1u4sjm9/judgeos_v58_regulatory_mapping_without_claiming/)
+### 19. [Judgeos V58 Regulatory Mapping Without Claiming](https://www.reddit.com/r/AI_Governance/comments/1u4sjm9/judgeos_v58_regulatory_mapping_without_claiming/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Judgeos V58 Regulatory Mapping Without Claiming**
@@ -3942,7 +3949,7 @@ This resource focuses on the integration layer between the BIM world (Revit) and
 ---
 
 ## Major Harness Integrations
-> 3 tools · avg signal ⚡56
+> 4 tools · avg signal ⚡54
 
 ### 1. [OpenCode](https://opncd.ai/share/RNjZgsf8)
 `8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
@@ -3967,7 +3974,14 @@ This resource focuses on the integration layer between the BIM world (Revit) and
 
 ---
 
-### 3. [Opentoken V120 Tokensaving Plugin For Opencode](https://www.reddit.com/r/opencode/comments/1tnifq8/opentoken_v120_tokensaving_plugin_for_opencode/)
+### 3. [opencode.ai](https://opencode.ai/docs/providers/#custom-provider)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**opencode.ai**
+
+---
+
+### 4. [Opentoken V120 Tokensaving Plugin For Opencode](https://www.reddit.com/r/opencode/comments/1tnifq8/opentoken_v120_tokensaving_plugin_for_opencode/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Opentoken V120 Tokensaving Plugin For Opencode**
@@ -3975,7 +3989,7 @@ This resource focuses on the integration layer between the BIM world (Revit) and
 ---
 
 ## Verification & Testing
-> 2 tools · avg signal ⚡62
+> 3 tools · avg signal ⚡58
 
 ### 1. [Jinketomy-Masheldia/uPhone](https://github.com/Jinketomy-Masheldia/uPhone)
 `5.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
@@ -4002,5 +4016,12 @@ This resource focuses on the integration layer between the BIM world (Revit) and
 - Full-stack JavaScript template
 
 *Tags: react, express, typescript, full-stack, template, dev-tool*
+
+---
+
+### 3. [aibenchy.com](https://aibenchy.com/compare/google-gemini-3-1-flash-lite-preview-high/google-gemini-3-1-flash-lite-preview-medium/openai-gpt-5-3-codex-medium/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
 
 ---

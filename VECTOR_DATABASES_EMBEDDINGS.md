@@ -1,5 +1,5 @@
 # 📐 Vector Databases & Embeddings
-> Borg Intelligence Atlas v8 · 2026-06-16 · 59 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 59 tools
 > Vector DBs, embedding models, ANN indexes, RAG frameworks
 
 | Metric | Value |

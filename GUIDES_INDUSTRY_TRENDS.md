@@ -1,15 +1,15 @@
 # 🗺 Guides & Industry Trends
-> Borg Intelligence Atlas v8 · 2026-06-16 · 1,752 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 1,889 tools
 > Awesome lists, tutorials, architecture patterns, benchmarks
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,752** |
+| Total tools | **1,889** |
 | Standout 🏆⭐ | 79 |
-| Avg Signal | ⚡60 |
-| Innovation 10 | 71 █░░░░░░░░░░░░░░░░░░░ |
+| Avg Signal | ⚡59 |
+| Innovation 10 | 71 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 133 █░░░░░░░░░░░░░░░░░░░ |
-| Innovation 8 | 1390 ████████████████████ |
+| Innovation 8 | 1527 ████████████████████ |
 | Innovation 7 | 69 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 83 █░░░░░░░░░░░░░░░░░░░ |
@@ -44,10 +44,10 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 1155 tools · ⚡51
+- [Other Tools](#other-tools) — 1277 tools · ⚡51
 - [Spec-Driven Development](#spec-driven-development) — 145 tools · ⚡78
-- [Bridges & Proxies](#bridges--proxies) — 65 tools · ⚡80
-- [Monitoring & Analytics](#monitoring--analytics) — 62 tools · ⚡76
+- [Bridges & Proxies](#bridges--proxies) — 66 tools · ⚡79
+- [Monitoring & Analytics](#monitoring--analytics) — 63 tools · ⚡76
 - [Skill Systems](#skill-systems) — 45 tools · ⚡79
 - [Context Engineering](#context-engineering) — 44 tools · ⚡77
 - [Orchestration](#orchestration) — 42 tools · ⚡82
@@ -55,15 +55,15 @@
 - [Config & Profile Management](#config--profile-management) — 36 tools · ⚡82
 - [Hooks & Lifecycle](#hooks--lifecycle) — 34 tools · ⚡75
 - [Memory & Context Systems](#memory--context-systems) — 33 tools · ⚡79
+- [Verification & Testing](#verification--testing) — 24 tools · ⚡67
 - [Harness Frameworks](#harness-frameworks) — 20 tools · ⚡81
-- [Verification & Testing](#verification--testing) — 16 tools · ⚡75
-- [Browser & Web Tools](#browser--web-tools) — 8 tools · ⚡63
+- [Browser & Web Tools](#browser--web-tools) — 13 tools · ⚡58
 - [Major Harness Integrations](#major-harness-integrations) — 7 tools · ⚡52
 
 ---
 
 ## Other Tools
-> 1155 tools · avg signal ⚡51
+> 1277 tools · avg signal ⚡51
 
 ### 1. [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
@@ -936,7329 +936,8183 @@
 
 ---
 
-### 74. [127.0.0.1:9119](http://127.0.0.1:9119/config)
+### 74. [gpt2-image-showcase.pagey.site](https://gpt2-image-showcase.pagey.site/)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**gpt2-image-showcase.pagey.site**
+
+---
+
+### 75. [127.0.0.1:9119](http://127.0.0.1:9119/config)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **127.0.0.1:9119**
 
 ---
 
-### 75. [deepvaluereports.com](https://deepvaluereports.com/dvr-stock-score)
+### 76. [deepvaluereports.com](https://deepvaluereports.com/dvr-stock-score)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **deepvaluereports.com**
 
 ---
 
-### 76. [djfindr.com](https://djfindr.com/djs/earlyadopter?rdt_cid=5272975291025841484&utm_source=reddit)
+### 77. [djfindr.com](https://djfindr.com/djs/earlyadopter?rdt_cid=5272975291025841484&utm_source=reddit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **djfindr.com**
 
 ---
 
-### 77. [jules.google.com](https://jules.google.com/session)
+### 78. [jules.google.com](https://jules.google.com/session)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **jules.google.com**
 
 ---
 
-### 78. [jules.google.com](https://jules.google.com/session/11536470025634798098/code/CMakeLists.txt)
+### 79. [jules.google.com](https://jules.google.com/session/11536470025634798098/code/CMakeLists.txt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **jules.google.com**
 
 ---
 
-### 79. [portal.mendfamily.com](https://portal.mendfamily.com/)
+### 80. [portal.mendfamily.com](https://portal.mendfamily.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **portal.mendfamily.com**
 
 ---
 
-### 80. [post.smzdm.com](https://post.smzdm.com/p/awwg9v8m/)
+### 81. [post.smzdm.com](https://post.smzdm.com/p/awwg9v8m/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **post.smzdm.com**
 
 ---
 
-### 81. [rns.id](https://rns.id/app/palauidinfo)
+### 82. [rns.id](https://rns.id/app/palauidinfo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rns.id**
 
 ---
 
-### 82. [discogs.com](https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt)
+### 83. [discogs.com](https://www.discogs.com/artist/321834-Tommy-Four-Seven?srsltid=AfmBOoqGSqaloC-qVuHF6W1jMLNeuCLxaVF1sa8cgWug6Q9C7QC0Btgt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discogs.com**
 
 ---
 
-### 83. [ebay.com](https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338626679&customid=enusedgemobileios&toolid=10001&mkevt=1)
+### 84. [ebay.com](https://www.ebay.com/?mkcid=1&mkrid=711-53200-19255-0&siteid=0&campid=5338626679&customid=enusedgemobileios&toolid=10001&mkevt=1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ebay.com**
 
 ---
 
-### 84. [facebook.com](https://www.facebook.com/robertpelloni/)
+### 85. [facebook.com](https://www.facebook.com/robertpelloni/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **facebook.com**
 
 ---
 
-### 85. [govauctions.app](https://www.govauctions.app/)
+### 86. [govauctions.app](https://www.govauctions.app/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **govauctions.app**
 
 ---
 
-### 86. [nytimes.com](https://www.nytimes.com/games/wordle/index.html)
+### 87. [nytimes.com](https://www.nytimes.com/games/wordle/index.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 87. [thechilluminati.com](https://www.thechilluminati.com/event/sacred-earth-open-air-2025/)
+### 88. [thechilluminati.com](https://www.thechilluminati.com/event/sacred-earth-open-air-2025/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **thechilluminati.com**
 
 ---
 
-### 88. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
+### 89. [war.gov](https://www.war.gov/UFO/#NASA-UAP-D1-Apollo-12-Transcript-1969)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **war.gov**
 
 ---
 
-### 89. [youtube.com](https://www.youtube.com/watch?v=4f8v-NKqOc8)
+### 90. [youtube.com](https://www.youtube.com/watch?v=4f8v-NKqOc8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 90. [youtube.com](https://www.youtube.com/watch?v=wYSncx9zLIU)
+### 91. [youtube.com](https://www.youtube.com/watch?v=wYSncx9zLIU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 91. [acestudio.ai](https://acestudio.ai/?rdt_cid=5348710113723248261&utm_source=reddit)
+### 92. [acestudio.ai](https://acestudio.ai/?rdt_cid=5348710113723248261&utm_source=reddit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **acestudio.ai**
 
 ---
 
-### 92. [acestudio.ai](https://acestudio.ai/?rdt_cid=5765489578807107539&utm_source=reddit)
+### 93. [acestudio.ai](https://acestudio.ai/?rdt_cid=5765489578807107539&utm_source=reddit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **acestudio.ai**
 
 ---
 
-### 93. [0.0.0.0](http://0.0.0.0)
+### 94. [0.0.0.0](http://0.0.0.0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **0.0.0.0**
 
 ---
 
-### 94. [127.0.0.1:37737](http://127.0.0.1:37737)
+### 95. [127.0.0.1:37737](http://127.0.0.1:37737)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **127.0.0.1:37737**
 
 ---
 
-### 95. [SESSION.md](http://SESSION.md)
+### 96. [SESSION.md](http://SESSION.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **SESSION.md**
 
 ---
 
-### 96. [claude.ai](http://claude.ai)
+### 97. [claude.ai](http://claude.ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **claude.ai**
 
 ---
 
-### 97. [crof.ai](http://crof.ai)
+### 98. [crof.ai](http://crof.ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **crof.ai**
 
 ---
 
-### 98. [debugviewart.tumblr.com](http://debugviewart.tumblr.com/)
+### 99. [debugviewart.tumblr.com](http://debugviewart.tumblr.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **debugviewart.tumblr.com**
 
 ---
 
-### 99. [en.wikipedia.org](http://en.wikipedia.org/wiki/Psytrance)
+### 100. [en.wikipedia.org](http://en.wikipedia.org/wiki/Psytrance)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 100. [gfycat.com](http://gfycat.com/)
+### 101. [gfycat.com](http://gfycat.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gfycat.com**
 
 ---
 
-### 101. [goo.gl](http://goo.gl/1q7oUp)
+### 102. [goo.gl](http://goo.gl/1q7oUp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 102. [goo.gl](http://goo.gl/C0vOBH)
+### 103. [goo.gl](http://goo.gl/C0vOBH)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 103. [goo.gl](http://goo.gl/Nt9IIa)
+### 104. [goo.gl](http://goo.gl/Nt9IIa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 104. [goo.gl](http://goo.gl/forms/s29AbXjlgb)
+### 105. [goo.gl](http://goo.gl/forms/s29AbXjlgb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 105. [goo.gl](http://goo.gl/jzYvZ9)
+### 106. [goo.gl](http://goo.gl/jzYvZ9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 106. [goo.gl](http://goo.gl/wJSULw)
+### 107. [goo.gl](http://goo.gl/wJSULw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 107. [goo.gl](http://goo.gl/zDwI3D)
+### 108. [goo.gl](http://goo.gl/zDwI3D)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 108. [install.sh](http://install.sh)
+### 109. [install.sh](http://install.sh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **install.sh**
 
 ---
 
-### 109. [installl.sh](http://installl.sh)
+### 110. [installl.sh](http://installl.sh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **installl.sh**
 
 ---
 
-### 110. [localhost:8080](http://localhost:8080/v1)
+### 111. [localhost:8080](http://localhost:8080/v1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:8080**
 
 ---
 
-### 111. [monero.slack.com](http://monero.slack.com)
+### 112. [monero.slack.com](http://monero.slack.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **monero.slack.com**
 
 ---
 
-### 112. [open.spotify.com](http://open.spotify.com/user/k1mmo/playlist/1ZVbb03YY7dATqbXUUALEU)
+### 113. [open.spotify.com](http://open.spotify.com/user/k1mmo/playlist/1ZVbb03YY7dATqbXUUALEU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 113. [toolbox.jonathanarvay.com](http://toolbox.jonathanarvay.com)
+### 114. [toolbox.jonathanarvay.com](http://toolbox.jonathanarvay.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **toolbox.jonathanarvay.com**
 
 ---
 
-### 114. [trashwiki.org](http://trashwiki.org/en/Main_Page)
+### 115. [trashwiki.org](http://trashwiki.org/en/Main_Page)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **trashwiki.org**
 
 ---
 
-### 115. [undefined.map](http://undefined.map)
+### 116. [undefined.map](http://undefined.map)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **undefined.map**
 
 ---
 
-### 116. [user.md](http://user.md)
+### 117. [user.md](http://user.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **user.md**
 
 ---
 
-### 117. [agi-society.org](http://www.agi-society.org)
+### 118. [agi-society.org](http://www.agi-society.org)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **agi-society.org**
 
 ---
 
-### 118. [fhi.ox.ac.uk](http://www.fhi.ox.ac.uk/)
+### 119. [fhi.ox.ac.uk](http://www.fhi.ox.ac.uk/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fhi.ox.ac.uk**
 
 ---
 
-### 119. [mevro.io)[Mevro](http:](http://www.mevro.io)[Mevro](http://www.mevro.io)[Mevro](http://www.mevro.io)
+### 120. [mevro.io)[Mevro](http:](http://www.mevro.io)[Mevro](http://www.mevro.io)[Mevro](http://www.mevro.io)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **mevro.io)[Mevro](http:**
 
 ---
 
-### 120. [round1usa.com](http://www.round1usa.com/location/)
+### 121. [round1usa.com](http://www.round1usa.com/location/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **round1usa.com**
 
 ---
 
-### 121. [scorch2000.com](http://www.scorch2000.com/web/)
+### 122. [scorch2000.com](http://www.scorch2000.com/web/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **scorch2000.com**
 
 ---
 
-### 122. [wolframalpha.com](http://www.wolframalpha.com/input/?i)
+### 123. [wolframalpha.com](http://www.wolframalpha.com/input/?i)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 123. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2001:13:24%20UTC%20To%20Local%20Time)
+### 124. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2001:13:24%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 124. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2005:57:42%20UTC%20To%20Local%20Time)
+### 125. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-12%2005:57:42%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 125. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-16%2007:29:36%20UTC%20To%20Local%20Time)
+### 126. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-16%2007:29:36%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 126. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-18%2017:25:26%20UTC%20To%20Local%20Time)
+### 127. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-18%2017:25:26%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 127. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2028-04-14%2018:15:16%20UTC%20To%20Local%20Time)
+### 128. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2028-04-14%2018:15:16%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 128. [xxxxxxxxxxxxxx](http://xxxxxxxxxxxxxx)
+### 129. [xxxxxxxxxxxxxx](http://xxxxxxxxxxxxxx)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **xxxxxxxxxxxxxx**
 
 ---
 
-### 129. [xxxxxxxxxxxxxxxxxxxxxxx](http://xxxxxxxxxxxxxxxxxxxxxxx)
+### 130. [xxxxxxxxxxxxxxxxxxxxxxx](http://xxxxxxxxxxxxxxxxxxxxxxx)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **xxxxxxxxxxxxxxxxxxxxxxx**
 
 ---
 
-### 130. [academic.oup.com](https://academic.oup.com/nutritionreviews/article/84/2/333/8253584)
+### 131. [academic.oup.com](https://academic.oup.com/nutritionreviews/article/84/2/333/8253584)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **academic.oup.com**
 
 ---
 
-### 131. [agi-ai.slack.com](https://agi-ai.slack.com/)
+### 132. [agi-ai.slack.com](https://agi-ai.slack.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **agi-ai.slack.com**
 
 ---
 
-### 132. [ai.modelyard.cc](https://ai.modelyard.cc/)
+### 133. [ai.modelyard.cc](https://ai.modelyard.cc/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ai.modelyard.cc**
 
 ---
 
-### 133. [aops.studio](https://aops.studio/mindmapp)
+### 134. [aops.studio](https://aops.studio/mindmapp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **aops.studio**
 
 ---
 
-### 134. [app.resonantia.me](https://app.resonantia.me)
+### 135. [app.resonantia.me](https://app.resonantia.me)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.resonantia.me**
 
 ---
 
-### 135. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform)
+### 136. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apps.apple.com**
 
 ---
 
-### 136. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform=iphone)
+### 137. [apps.apple.com](https://apps.apple.com/us/app/calorie-ai-counter/id6744887468?platform=iphone)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apps.apple.com**
 
 ---
 
-### 137. [apps.apple.com](https://apps.apple.com/us/app/orbitops/id6759635290)
+### 138. [apps.apple.com](https://apps.apple.com/us/app/orbitops/id6759635290)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apps.apple.com**
 
 ---
 
-### 138. [apps.apple.com](https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534)
+### 139. [apps.apple.com](https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apps.apple.com**
 
 ---
 
-### 139. [avaastart.com](https://avaastart.com/)
+### 140. [avaastart.com](https://avaastart.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **avaastart.com**
 
 ---
 
-### 140. [bit.ly](https://bit.ly/2wEmWeG)
+### 141. [bit.ly](https://bit.ly/2wEmWeG)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bit.ly**
 
 ---
 
-### 141. [codepen.io](https://codepen.io/Madvulcan/pen/MYbOKWX)
+### 142. [codepen.io](https://codepen.io/Madvulcan/pen/MYbOKWX)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **codepen.io**
 
 ---
 
-### 142. [discord.com](https://discord.com/invite/ErJz3ktyGk)
+### 143. [discord.com](https://discord.com/invite/ErJz3ktyGk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.com**
 
 ---
 
-### 143. [discord.com](https://discord.com/invite/r-pcgaming-482363499977375785)
+### 144. [discord.com](https://discord.com/invite/r-pcgaming-482363499977375785)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.com**
 
 ---
 
-### 144. [discord.gg](https://discord.gg/2EkSJm6P)
+### 145. [discord.gg](https://discord.gg/2EkSJm6P)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 145. [discord.gg](https://discord.gg/8XemVjc)
+### 146. [discord.gg](https://discord.gg/8XemVjc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 146. [discord.gg](https://discord.gg/9C9d9PZ)
+### 147. [discord.gg](https://discord.gg/9C9d9PZ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 147. [discord.gg](https://discord.gg/9mm3qen)
+### 148. [discord.gg](https://discord.gg/9mm3qen)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 148. [discord.gg](https://discord.gg/FZKJuFu)
+### 149. [discord.gg](https://discord.gg/FZKJuFu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 149. [discord.gg](https://discord.gg/NHBSGxqxjn)
+### 150. [discord.gg](https://discord.gg/NHBSGxqxjn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 150. [discord.gg](https://discord.gg/PgFhZ8cnWW)
+### 151. [discord.gg](https://discord.gg/PgFhZ8cnWW)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 151. [discord.gg](https://discord.gg/TY6ErXV)
+### 152. [discord.gg](https://discord.gg/TY6ErXV)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 152. [discord.gg](https://discord.gg/b4VRg98gS9)
+### 153. [discord.gg](https://discord.gg/b4VRg98gS9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 153. [discord.gg](https://discord.gg/cVUNQmnV4r)
+### 154. [discord.gg](https://discord.gg/cVUNQmnV4r)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 154. [discord.gg](https://discord.gg/chCY4bZr)
+### 155. [discord.gg](https://discord.gg/chCY4bZr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 155. [discord.gg](https://discord.gg/jcewXNmf6C)
+### 156. [discord.gg](https://discord.gg/jcewXNmf6C)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 156. [discord.gg](https://discord.gg/pTHkG9Hew9)
+### 157. [discord.gg](https://discord.gg/pTHkG9Hew9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 157. [discord.gg](https://discord.gg/r-pcgaming-482363499977375785)
+### 158. [discord.gg](https://discord.gg/r-pcgaming-482363499977375785)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 158. [discord.gg](https://discord.gg/wBHNNzd)
+### 159. [discord.gg](https://discord.gg/wBHNNzd)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 159. [discord.gg](https://discord.gg/zdXjnaj)
+### 160. [discord.gg](https://discord.gg/zdXjnaj)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 160. [docs.turingdb.ai](https://docs.turingdb.ai/query/benchmarks)
+### 161. [docs.turingdb.ai](https://docs.turingdb.ai/query/benchmarks)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **docs.turingdb.ai**
 
 ---
 
-### 161. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp)
+### 162. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **drive.google.com**
 
 ---
 
-### 162. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp=drive_link)
+### 163. [drive.google.com](https://drive.google.com/file/d/1xwNisxVslkfPPY9g2rcbWt4shrI-9o4-/view?usp=drive_link)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **drive.google.com**
 
 ---
 
-### 163. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA)
+### 164. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **drive.proton.me**
 
 ---
 
-### 164. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA==/file/W94Ew1I5SeE6ygxZJvKHj_gPmdOmCA_j0mm0Hc7McfLR2WL1hXx5tr3_njIEYecLVd4b1spYW5WbuHOZ88zYyA==?r=/shared-with-me)
+### 165. [drive.proton.me](https://drive.proton.me/u/0/SW-QNLh5KNJQoNqwvFVgJzVNjgvgAAfT4QAnCHrPh7hYInXOJ2LNC2XZ_ueqbqymmKMJexoNbfNkT7_kqknieA==/file/W94Ew1I5SeE6ygxZJvKHj_gPmdOmCA_j0mm0Hc7McfLR2WL1hXx5tr3_njIEYecLVd4b1spYW5WbuHOZ88zYyA==?r=/shared-with-me)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **drive.proton.me**
 
 ---
 
-### 165. [en.wikipedia.org](https://en.wikipedia.org/wiki/1561_celestial_phenomenon_over_Nuremberg)
+### 166. [en.wikipedia.org](https://en.wikipedia.org/wiki/1561_celestial_phenomenon_over_Nuremberg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 166. [en.wikipedia.org](https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel)
+### 167. [en.wikipedia.org](https://en.wikipedia.org/wiki/1566_celestial_phenomenon_over_Basel)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 167. [en.wikipedia.org](https://en.wikipedia.org/wiki/1665_celestial_phenomenon_over_Stralsund)
+### 168. [en.wikipedia.org](https://en.wikipedia.org/wiki/1665_celestial_phenomenon_over_Stralsund)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 168. [en.wikipedia.org](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+### 169. [en.wikipedia.org](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 169. [en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Fort)
+### 170. [en.wikipedia.org](https://en.wikipedia.org/wiki/Charles_Fort)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 170. [en.wikipedia.org](https://en.wikipedia.org/wiki/Comix_Zone)
+### 171. [en.wikipedia.org](https://en.wikipedia.org/wiki/Comix_Zone)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 171. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ecco_the_Dolphin)
+### 172. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ecco_the_Dolphin)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 172. [en.wikipedia.org](https://en.wikipedia.org/wiki/Fatal_insomnia)
+### 173. [en.wikipedia.org](https://en.wikipedia.org/wiki/Fatal_insomnia)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 173. [en.wikipedia.org](https://en.wikipedia.org/wiki/Freescale_Semiconductor)
+### 174. [en.wikipedia.org](https://en.wikipedia.org/wiki/Freescale_Semiconductor)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 174. [en.wikipedia.org](https://en.wikipedia.org/wiki/Glymphatic_system)
+### 175. [en.wikipedia.org](https://en.wikipedia.org/wiki/Glymphatic_system)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 175. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gunstar_Heroes)
+### 176. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gunstar_Heroes)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 176. [en.wikipedia.org](https://en.wikipedia.org/wiki/J._Allen_Hynek)
+### 177. [en.wikipedia.org](https://en.wikipedia.org/wiki/J._Allen_Hynek)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 177. [en.wikipedia.org](https://en.wikipedia.org/wiki/Mega_Man:_The_Wily_Wars)
+### 178. [en.wikipedia.org](https://en.wikipedia.org/wiki/Mega_Man:_The_Wily_Wars)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 178. [en.wikipedia.org](https://en.wikipedia.org/wiki/Reddit)
+### 179. [en.wikipedia.org](https://en.wikipedia.org/wiki/Reddit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 179. [en.wikipedia.org](https://en.wikipedia.org/wiki/Steak_tartare)
+### 180. [en.wikipedia.org](https://en.wikipedia.org/wiki/Steak_tartare)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 180. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Revenge_of_Shinobi)
+### 181. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Revenge_of_Shinobi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 181. [en.wikipedia.org](https://en.wikipedia.org/wiki/User:Potatoeman57)
+### 182. [en.wikipedia.org](https://en.wikipedia.org/wiki/User:Potatoeman57)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 182. [foodgonewrong.com](https://foodgonewrong.com/)
+### 183. [foodgonewrong.com](https://foodgonewrong.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **foodgonewrong.com**
 
 ---
 
-### 183. [forum.bitcoin.com](https://forum.bitcoin.com/monero)
+### 184. [forum.bitcoin.com](https://forum.bitcoin.com/monero)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **forum.bitcoin.com**
 
 ---
 
-### 184. [freedomhouse.org](https://freedomhouse.org/country/scores?sort)
+### 185. [freedomhouse.org](https://freedomhouse.org/country/scores?sort)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **freedomhouse.org**
 
 ---
 
-### 185. [freedomhouse.org](https://freedomhouse.org/country/scores?sort=fiw&sort_order=desc)
+### 186. [freedomhouse.org](https://freedomhouse.org/country/scores?sort=fiw&sort_order=desc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **freedomhouse.org**
 
 ---
 
-### 186. [freemind.sourceforge.io](https://freemind.sourceforge.io/wiki/index.php/File_format)
+### 187. [freemind.sourceforge.io](https://freemind.sourceforge.io/wiki/index.php/File_format)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **freemind.sourceforge.io**
 
 ---
 
-### 187. [galactica.fandom.com](https://galactica.fandom.com/wiki/Basestar_Type-D)
+### 188. [galactica.fandom.com](https://galactica.fandom.com/wiki/Basestar_Type-D)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **galactica.fandom.com**
 
 ---
 
-### 188. [gemsloot.com](https://gemsloot.com/?aff)
+### 189. [gemsloot.com](https://gemsloot.com/?aff)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gemsloot.com**
 
 ---
 
-### 189. [gemsloot.com](https://gemsloot.com/?aff=shg&trk=1360)
+### 190. [gemsloot.com](https://gemsloot.com/?aff=shg&trk=1360)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gemsloot.com**
 
 ---
 
-### 190. [giphy.com](https://giphy.com/gifs/02ufU86KQZqzF3aqjN)
+### 191. [giphy.com](https://giphy.com/gifs/02ufU86KQZqzF3aqjN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 191. [giphy.com](https://giphy.com/gifs/10o80f5ucCNU3e)
+### 192. [giphy.com](https://giphy.com/gifs/10o80f5ucCNU3e)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 192. [giphy.com](https://giphy.com/gifs/26ufj7fhSk99FK32U)
+### 193. [giphy.com](https://giphy.com/gifs/26ufj7fhSk99FK32U)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 193. [giphy.com](https://giphy.com/gifs/3o7abspvhYHpMnHSuc)
+### 194. [giphy.com](https://giphy.com/gifs/3o7abspvhYHpMnHSuc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 194. [giphy.com](https://giphy.com/gifs/3oEjI789af0AVurF60)
+### 195. [giphy.com](https://giphy.com/gifs/3oEjI789af0AVurF60)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 195. [giphy.com](https://giphy.com/gifs/3oKIPf1BaBDILVxbYA)
+### 196. [giphy.com](https://giphy.com/gifs/3oKIPf1BaBDILVxbYA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 196. [giphy.com](https://giphy.com/gifs/3ubqmFn2F7ytq)
+### 197. [giphy.com](https://giphy.com/gifs/3ubqmFn2F7ytq)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 197. [giphy.com](https://giphy.com/gifs/786FlS48rOydO)
+### 198. [giphy.com](https://giphy.com/gifs/786FlS48rOydO)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 198. [giphy.com](https://giphy.com/gifs/AHP7Svoc9ma8MJEnlI)
+### 199. [giphy.com](https://giphy.com/gifs/AHP7Svoc9ma8MJEnlI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 199. [giphy.com](https://giphy.com/gifs/Avrht57tUpKFfcUCny)
+### 200. [giphy.com](https://giphy.com/gifs/Avrht57tUpKFfcUCny)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 200. [giphy.com](https://giphy.com/gifs/CILGGl6sizxVC)
+### 201. [giphy.com](https://giphy.com/gifs/CILGGl6sizxVC)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 201. [giphy.com](https://giphy.com/gifs/ETyhu6h829Hdm)
+### 202. [giphy.com](https://giphy.com/gifs/ETyhu6h829Hdm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 202. [giphy.com](https://giphy.com/gifs/FDJpdHgjRJWkU)
+### 203. [giphy.com](https://giphy.com/gifs/FDJpdHgjRJWkU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 203. [giphy.com](https://giphy.com/gifs/J8FZIm9VoBU6Q)
+### 204. [giphy.com](https://giphy.com/gifs/J8FZIm9VoBU6Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 204. [giphy.com](https://giphy.com/gifs/LqQ1CUu5PdjTKu8P9I)
+### 205. [giphy.com](https://giphy.com/gifs/LqQ1CUu5PdjTKu8P9I)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 205. [giphy.com](https://giphy.com/gifs/MoyjLZKjMC9mo)
+### 206. [giphy.com](https://giphy.com/gifs/MoyjLZKjMC9mo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 206. [giphy.com](https://giphy.com/gifs/OvbP7svlNo2eA)
+### 207. [giphy.com](https://giphy.com/gifs/OvbP7svlNo2eA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 207. [giphy.com](https://giphy.com/gifs/Pil28ZDXBhSwc9iJQ1)
+### 208. [giphy.com](https://giphy.com/gifs/Pil28ZDXBhSwc9iJQ1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 208. [giphy.com](https://giphy.com/gifs/RILsqUte1MME7TzQJ9)
+### 209. [giphy.com](https://giphy.com/gifs/RILsqUte1MME7TzQJ9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 209. [giphy.com](https://giphy.com/gifs/RPSFohCR6KON9lBrIR)
+### 210. [giphy.com](https://giphy.com/gifs/RPSFohCR6KON9lBrIR)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 210. [giphy.com](https://giphy.com/gifs/SoIGFWNP5wA9i)
+### 211. [giphy.com](https://giphy.com/gifs/SoIGFWNP5wA9i)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 211. [giphy.com](https://giphy.com/gifs/SvRuvlSEa67wNNHuHy)
+### 212. [giphy.com](https://giphy.com/gifs/SvRuvlSEa67wNNHuHy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 212. [giphy.com](https://giphy.com/gifs/UDORIcubjYvIBAYTe1)
+### 213. [giphy.com](https://giphy.com/gifs/UDORIcubjYvIBAYTe1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 213. [giphy.com](https://giphy.com/gifs/UMV4KbOAqYN29Dxd3f)
+### 214. [giphy.com](https://giphy.com/gifs/UMV4KbOAqYN29Dxd3f)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 214. [giphy.com](https://giphy.com/gifs/WTcMKz6l01Je1Z94JN)
+### 215. [giphy.com](https://giphy.com/gifs/WTcMKz6l01Je1Z94JN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 215. [giphy.com](https://giphy.com/gifs/XHeLeuirRbwptHhSWd)
+### 216. [giphy.com](https://giphy.com/gifs/XHeLeuirRbwptHhSWd)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 216. [giphy.com](https://giphy.com/gifs/Z1LYiyIPhnG9O)
+### 217. [giphy.com](https://giphy.com/gifs/Z1LYiyIPhnG9O)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 217. [giphy.com](https://giphy.com/gifs/aFfYlsEdiWPDi)
+### 218. [giphy.com](https://giphy.com/gifs/aFfYlsEdiWPDi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 218. [giphy.com](https://giphy.com/gifs/dxrSL1OeGWsLYVUgOt)
+### 219. [giphy.com](https://giphy.com/gifs/dxrSL1OeGWsLYVUgOt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 219. [giphy.com](https://giphy.com/gifs/f8lDluiWJ7yQTtdS3L)
+### 220. [giphy.com](https://giphy.com/gifs/f8lDluiWJ7yQTtdS3L)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 220. [giphy.com](https://giphy.com/gifs/gKMaKOacKLriQxaPLm)
+### 221. [giphy.com](https://giphy.com/gifs/gKMaKOacKLriQxaPLm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 221. [giphy.com](https://giphy.com/gifs/h1tkoLJVe3IYnZ6Jlp)
+### 222. [giphy.com](https://giphy.com/gifs/h1tkoLJVe3IYnZ6Jlp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 222. [giphy.com](https://giphy.com/gifs/hv53DaYcXWe3nRbR1A)
+### 223. [giphy.com](https://giphy.com/gifs/hv53DaYcXWe3nRbR1A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 223. [giphy.com](https://giphy.com/gifs/iGHbjYrUftITS)
+### 224. [giphy.com](https://giphy.com/gifs/iGHbjYrUftITS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 224. [giphy.com](https://giphy.com/gifs/iJDLBX5GY8niCpZYkR)
+### 225. [giphy.com](https://giphy.com/gifs/iJDLBX5GY8niCpZYkR)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 225. [giphy.com](https://giphy.com/gifs/kc0kqKNFu7v35gPkwB)
+### 226. [giphy.com](https://giphy.com/gifs/kc0kqKNFu7v35gPkwB)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 226. [giphy.com](https://giphy.com/gifs/mDpEexLaOxzmXNaBmr)
+### 227. [giphy.com](https://giphy.com/gifs/mDpEexLaOxzmXNaBmr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 227. [giphy.com](https://giphy.com/gifs/oNRnm5VyhEMwM)
+### 228. [giphy.com](https://giphy.com/gifs/oNRnm5VyhEMwM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 228. [giphy.com](https://giphy.com/gifs/puOukoEvH4uAw)
+### 229. [giphy.com](https://giphy.com/gifs/puOukoEvH4uAw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 229. [giphy.com](https://giphy.com/gifs/s8X61m47R3GZW)
+### 230. [giphy.com](https://giphy.com/gifs/s8X61m47R3GZW)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 230. [giphy.com](https://giphy.com/gifs/tFiOAyrNXn3lhScpyt)
+### 231. [giphy.com](https://giphy.com/gifs/tFiOAyrNXn3lhScpyt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 231. [giphy.com](https://giphy.com/gifs/tXL4FHPSnVJ0A)
+### 232. [giphy.com](https://giphy.com/gifs/tXL4FHPSnVJ0A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 232. [giphy.com](https://giphy.com/gifs/uZHfMSR87vZ4l14Yi8)
+### 233. [giphy.com](https://giphy.com/gifs/uZHfMSR87vZ4l14Yi8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 233. [giphy.com](https://giphy.com/gifs/vlnZpsko7bAuk)
+### 234. [giphy.com](https://giphy.com/gifs/vlnZpsko7bAuk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 234. [giphy.com](https://giphy.com/gifs/xoHntNXFYkfzGAftEv)
+### 235. [giphy.com](https://giphy.com/gifs/xoHntNXFYkfzGAftEv)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 235. [giphy.com](https://giphy.com/gifs/z4lwT4QTkK3sYITR7Z)
+### 236. [giphy.com](https://giphy.com/gifs/z4lwT4QTkK3sYITR7Z)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 236. [goo.gl](https://goo.gl/0Tup02)
+### 237. [goo.gl](https://goo.gl/0Tup02)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 237. [goo.gl](https://goo.gl/3hU0mr)
+### 238. [goo.gl](https://goo.gl/3hU0mr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 238. [goo.gl](https://goo.gl/4qo2X6)
+### 239. [goo.gl](https://goo.gl/4qo2X6)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 239. [goo.gl](https://goo.gl/BNSVJZ)
+### 240. [goo.gl](https://goo.gl/BNSVJZ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 240. [goo.gl](https://goo.gl/JuckwK)
+### 241. [goo.gl](https://goo.gl/JuckwK)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 241. [goo.gl](https://goo.gl/MC1xDl)
+### 242. [goo.gl](https://goo.gl/MC1xDl)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 242. [goo.gl](https://goo.gl/MP2q4I)
+### 243. [goo.gl](https://goo.gl/MP2q4I)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 243. [goo.gl](https://goo.gl/U318JE)
+### 244. [goo.gl](https://goo.gl/U318JE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 244. [goo.gl](https://goo.gl/WFiFx2)
+### 245. [goo.gl](https://goo.gl/WFiFx2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 245. [goo.gl](https://goo.gl/c4HuSJ)
+### 246. [goo.gl](https://goo.gl/c4HuSJ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 246. [goo.gl](https://goo.gl/pCho55)
+### 247. [goo.gl](https://goo.gl/pCho55)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 247. [goo.gl](https://goo.gl/tDywmA)
+### 248. [goo.gl](https://goo.gl/tDywmA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **goo.gl**
 
 ---
 
-### 248. [graperoot.dev](https://graperoot.dev/enterprises)
+### 249. [graperoot.dev](https://graperoot.dev/enterprises)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **graperoot.dev**
 
 ---
 
-### 249. [handyai.substack.com](https://handyai.substack.com/p/claude-mythos-is-here)
+### 250. [handyai.substack.com](https://handyai.substack.com/p/claude-mythos-is-here)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **handyai.substack.com**
 
 ---
 
-### 250. [hpluspedia.org](https://hpluspedia.org/wiki/Main_Page)
+### 251. [hpluspedia.org](https://hpluspedia.org/wiki/Main_Page)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **hpluspedia.org**
 
 ---
 
-### 251. [huggingface.co](https://huggingface.co/MiniMaxAI/Mini)
+### 252. [huggingface.co](https://huggingface.co/MiniMaxAI/Mini)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **huggingface.co**
 
 ---
 
-### 252. [jnco.com](https://jnco.com/)
+### 253. [jnco.com](https://jnco.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **jnco.com**
 
 ---
 
-### 253. [kmllr.gumroad.com](https://kmllr.gumroad.com/l/oszwuf)
+### 254. [kmllr.gumroad.com](https://kmllr.gumroad.com/l/oszwuf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **kmllr.gumroad.com**
 
 ---
 
-### 254. [lingeo-ai.com](https://lingeo-ai.com)
+### 255. [lingeo-ai.com](https://lingeo-ai.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **lingeo-ai.com**
 
 ---
 
-### 255. [m.youtube.com](https://m.youtube.com/watch?v)
+### 256. [m.youtube.com](https://m.youtube.com/watch?v)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **m.youtube.com**
 
 ---
 
-### 256. [m.youtube.com](https://m.youtube.com/watch?v=8Jx6-YJbpBk)
+### 257. [m.youtube.com](https://m.youtube.com/watch?v=8Jx6-YJbpBk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **m.youtube.com**
 
 ---
 
-### 257. [marketplace.microsoft.com](https://marketplace.microsoft.com/en-us/product/office/WA200010463)
+### 258. [marketplace.microsoft.com](https://marketplace.microsoft.com/en-us/product/office/WA200010463)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **marketplace.microsoft.com**
 
 ---
 
-### 258. [medium.com](https://medium.com/@mauro.dev/cfs-conditional-field-subtraction-43a3c4eb80f4)
+### 259. [medium.com](https://medium.com/@mauro.dev/cfs-conditional-field-subtraction-43a3c4eb80f4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 259. [medium.com](https://medium.com/@mauro.dev/cfs-r-conditional-field-reconstruction-4939a48444cc)
+### 260. [medium.com](https://medium.com/@mauro.dev/cfs-r-conditional-field-reconstruction-4939a48444cc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 260. [medium.com](https://medium.com/conversational-ai-weekly)
+### 261. [medium.com](https://medium.com/conversational-ai-weekly)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 261. [moneroworld.com](https://moneroworld.com/)
+### 262. [moneroworld.com](https://moneroworld.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **moneroworld.com**
 
 ---
 
-### 262. [movementfestival.com](https://movementfestival.com/pages/schedule)
+### 263. [movementfestival.com](https://movementfestival.com/pages/schedule)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **movementfestival.com**
 
 ---
 
-### 263. [mysite.com](https://mysite.com/cart)
+### 264. [mysite.com](https://mysite.com/cart)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **mysite.com**
 
 ---
 
-### 264. [nano-gpt.com](https://nano-gpt.com)
+### 265. [nano-gpt.com](https://nano-gpt.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nano-gpt.com**
 
 ---
 
-### 265. [open-vsx.org](https://open-vsx.org/extension/ChrisHadi/inklink)
+### 266. [open-vsx.org](https://open-vsx.org/extension/ChrisHadi/inklink)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open-vsx.org**
 
 ---
 
-### 266. [open.substack.com](https://open.substack.com/pub/shipx/p/aprils-all-top-tech-stories-you-need)
+### 267. [open.substack.com](https://open.substack.com/pub/shipx/p/aprils-all-top-tech-stories-you-need)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.substack.com**
 
 ---
 
-### 267. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type)
+### 268. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **openmhz.com**
 
 ---
 
-### 268. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type=group&filter-code=693b5d40ccee41c1926e7baa&time=1776695400000)
+### 269. [openmhz.com](https://openmhz.com/system/codtrs5?filter-type=group&filter-code=693b5d40ccee41c1926e7baa&time=1776695400000)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **openmhz.com**
 
 ---
 
-### 269. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id)
+### 270. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **papers.ssrn.com**
 
 ---
 
-### 270. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6600840)
+### 271. [papers.ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6600840)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **papers.ssrn.com**
 
 ---
 
-### 271. [pastebin.com](https://pastebin.com/raw/B07jLEpG)
+### 272. [pastebin.com](https://pastebin.com/raw/B07jLEpG)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pastebin.com**
 
 ---
 
-### 272. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30741567/)
+### 273. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/30741567/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubmed.ncbi.nlm.nih.gov**
 
 ---
 
-### 273. [qwen.ai](https://qwen.ai/blog?id=qwen3.6-27b)
+### 274. [qwen.ai](https://qwen.ai/blog?id=qwen3.6-27b)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **qwen.ai**
 
 ---
 
-### 274. [ra.co](https://ra.co/events/2323466)
+### 275. [ra.co](https://ra.co/events/2323466)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 275. [ra.co](https://ra.co/events/2344054)
+### 276. [ra.co](https://ra.co/events/2344054)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 276. [ra.co](https://ra.co/events/2365421)
+### 277. [ra.co](https://ra.co/events/2365421)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 277. [ra.co](https://ra.co/events/2376435)
+### 278. [ra.co](https://ra.co/events/2376435)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 278. [ra.co](https://ra.co/events/2388198)
+### 279. [ra.co](https://ra.co/events/2388198)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 279. [ra.co](https://ra.co/events/2388959)
+### 280. [ra.co](https://ra.co/events/2388959)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 280. [ra.co](https://ra.co/events/2394182)
+### 281. [ra.co](https://ra.co/events/2394182)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 281. [ra.co](https://ra.co/events/2394211)
+### 282. [ra.co](https://ra.co/events/2394211)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 282. [ra.co](https://ra.co/events/2404700)
+### 283. [ra.co](https://ra.co/events/2404700)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 283. [ra.co](https://ra.co/events/2406362)
+### 284. [ra.co](https://ra.co/events/2406362)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 284. [ra.co](https://ra.co/events/2406377)
+### 285. [ra.co](https://ra.co/events/2406377)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 285. [ra.co](https://ra.co/events/2408595)
+### 286. [ra.co](https://ra.co/events/2408595)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 286. [ra.co](https://ra.co/events/2423930)
+### 287. [ra.co](https://ra.co/events/2423930)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 287. [ra.co](https://ra.co/events/2425777)
+### 288. [ra.co](https://ra.co/events/2425777)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 288. [ra.co](https://ra.co/events/2427505)
+### 289. [ra.co](https://ra.co/events/2427505)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 289. [ra.co](https://ra.co/events/2428323)
+### 290. [ra.co](https://ra.co/events/2428323)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 290. [ra.co](https://ra.co/events/2430074)
+### 291. [ra.co](https://ra.co/events/2430074)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 291. [ra.co](https://ra.co/events/2431202)
+### 292. [ra.co](https://ra.co/events/2431202)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 292. [ra.co](https://ra.co/events/2432733)
+### 293. [ra.co](https://ra.co/events/2432733)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 293. [ra.co](https://ra.co/events/2433347)
+### 294. [ra.co](https://ra.co/events/2433347)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 294. [ra.co](https://ra.co/events/2435746)
+### 295. [ra.co](https://ra.co/events/2435746)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 295. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette)
+### 296. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/205926439-Reddiquette)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **reddit.zendesk.com**
 
 ---
 
-### 296. [ringmast4r.substack.com](https://ringmast4r.substack.com/p/we-may-be-living-through-the-most)
+### 297. [ringmast4r.substack.com](https://ringmast4r.substack.com/p/we-may-be-living-through-the-most)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ringmast4r.substack.com**
 
 ---
 
-### 297. [rino.io](https://rino.io/)
+### 298. [rino.io](https://rino.io/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rino.io**
 
 ---
 
-### 298. [su.org](https://su.org/about/faq/)
+### 299. [su.org](https://su.org/about/faq/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **su.org**
 
 ---
 
-### 299. [telegram.me](https://telegram.me/bitmonero)
+### 300. [telegram.me](https://telegram.me/bitmonero)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **telegram.me**
 
 ---
 
-### 300. [telegram.me](https://telegram.me/monero)
+### 301. [telegram.me](https://telegram.me/monero)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **telegram.me**
 
 ---
 
-### 301. [ufos.wiki](https://ufos.wiki)
+### 302. [ufos.wiki](https://ufos.wiki)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 302. [ufos.wiki](https://ufos.wiki/track/apply-to-be-a-moderator/)
+### 303. [ufos.wiki](https://ufos.wiki/track/apply-to-be-a-moderator/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 303. [ufos.wiki](https://ufos.wiki/track/books/)
+### 304. [ufos.wiki](https://ufos.wiki/track/books/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 304. [ufos.wiki](https://ufos.wiki/track/cases/)
+### 305. [ufos.wiki](https://ufos.wiki/track/cases/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 305. [ufos.wiki](https://ufos.wiki/track/discord/)
+### 306. [ufos.wiki](https://ufos.wiki/track/discord/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 306. [ufos.wiki](https://ufos.wiki/track/documentaries/)
+### 307. [ufos.wiki](https://ufos.wiki/track/documentaries/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 307. [ufos.wiki](https://ufos.wiki/track/investigate/)
+### 308. [ufos.wiki](https://ufos.wiki/track/investigate/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 308. [ufos.wiki](https://ufos.wiki/track/links/)
+### 309. [ufos.wiki](https://ufos.wiki/track/links/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 309. [ufos.wiki](https://ufos.wiki/track/moderation-transparency/)
+### 310. [ufos.wiki](https://ufos.wiki/track/moderation-transparency/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 310. [ufos.wiki](https://ufos.wiki/track/podcasts/)
+### 311. [ufos.wiki](https://ufos.wiki/track/podcasts/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 311. [ufos.wiki](https://ufos.wiki/track/public-moderation-logs/)
+### 312. [ufos.wiki](https://ufos.wiki/track/public-moderation-logs/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 312. [ufos.wiki](https://ufos.wiki/track/reports/)
+### 313. [ufos.wiki](https://ufos.wiki/track/reports/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 313. [ufos.wiki](https://ufos.wiki/track/subreddit-statistics/)
+### 314. [ufos.wiki](https://ufos.wiki/track/subreddit-statistics/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 314. [ufos.wiki](https://ufos.wiki/track/twitter/)
+### 315. [ufos.wiki](https://ufos.wiki/track/twitter/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 315. [ufos.wiki](https://ufos.wiki/track/verify-a-claim/)
+### 316. [ufos.wiki](https://ufos.wiki/track/verify-a-claim/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 316. [ufos.wiki](https://ufos.wiki/track/wiki/)
+### 317. [ufos.wiki](https://ufos.wiki/track/wiki/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ufos.wiki**
 
 ---
 
-### 317. [unitednuclear.com](https://unitednuclear.com/area-51-c-86/)
+### 318. [unitednuclear.com](https://unitednuclear.com/area-51-c-86/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **unitednuclear.com**
 
 ---
 
-### 318. [w140.com](https://w140.com/tekwiki/wiki/Main_Page)
+### 319. [w140.com](https://w140.com/tekwiki/wiki/Main_Page)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **w140.com**
 
 ---
 
-### 319. [www](https://www)
+### 320. [www](https://www)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **www**
 
 ---
 
-### 320. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key)
+### 321. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **awesomescreenshot.com**
 
 ---
 
-### 321. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key=0a22246e1827042c6e6d55a3128af269)
+### 322. [awesomescreenshot.com](https://www.awesomescreenshot.com/image/60726565?key=0a22246e1827042c6e6d55a3128af269)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **awesomescreenshot.com**
 
 ---
 
-### 322. [bandcamp.com](https://www.bandcamp.com)
+### 323. [bandcamp.com](https://www.bandcamp.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bandcamp.com**
 
 ---
 
-### 323. [bbc.com](https://www.bbc.com/news/10395402)
+### 324. [bbc.com](https://www.bbc.com/news/10395402)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bbc.com**
 
 ---
 
-### 324. [ebay.com.au](https://www.ebay.com.au/itm/204775312557?_skw)
+### 325. [ebay.com.au](https://www.ebay.com.au/itm/204775312557?_skw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ebay.com.au**
 
 ---
 
-### 325. [instagram.com](https://www.instagram.com/hulksmashfood/?hl)
+### 326. [instagram.com](https://www.instagram.com/hulksmashfood/?hl)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 326. [instagram.com](https://www.instagram.com/hulksmashfood/?hl=en)
+### 327. [instagram.com](https://www.instagram.com/hulksmashfood/?hl=en)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 327. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh)
+### 328. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 328. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh=enB5ODczYjY4ZDQ2)
+### 329. [instagram.com](https://www.instagram.com/reel/DYBm7kOPVnc/?igsh=enB5ODczYjY4ZDQ2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 329. [linkedin.com](https://www.linkedin.com/groups/17898029/)
+### 330. [linkedin.com](https://www.linkedin.com/groups/17898029/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 330. [macrumors.com](https://www.macrumors.com/2026/04/29/apple-vision-pro-m5-flop/)
+### 331. [macrumors.com](https://www.macrumors.com/2026/04/29/apple-vision-pro-m5-flop/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **macrumors.com**
 
 ---
 
-### 331. [minifigures.space](https://www.minifigures.space)
+### 332. [minifigures.space](https://www.minifigures.space)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **minifigures.space**
 
 ---
 
-### 332. [movementfestival.com](https://www.movementfestival.com/pages/lineup)
+### 333. [movementfestival.com](https://www.movementfestival.com/pages/lineup)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **movementfestival.com**
 
 ---
 
-### 333. [npmjs.com](https://www.npmjs.com/package/@unerr-ai/unerr)
+### 334. [npmjs.com](https://www.npmjs.com/package/@unerr-ai/unerr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **npmjs.com**
 
 ---
 
-### 334. [nytimes.com](https://www.nytimes.com/2025/06/06/health/ketamine-effects-anesthetic-elon-musk.html)
+### 335. [nytimes.com](https://www.nytimes.com/2025/06/06/health/ketamine-effects-anesthetic-elon-musk.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 335. [openbazaar.org](https://www.openbazaar.org/)
+### 336. [openbazaar.org](https://www.openbazaar.org/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **openbazaar.org**
 
 ---
 
-### 336. [openmind.design](https://www.openmind.design/)
+### 337. [openmind.design](https://www.openmind.design/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **openmind.design**
 
 ---
 
-### 337. [politico.com](https://www.politico.com/magazine/story/2013/11/obama-vs-the-generals-099379/)
+### 338. [politico.com](https://www.politico.com/magazine/story/2013/11/obama-vs-the-generals-099379/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **politico.com**
 
 ---
 
-### 338. [sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S1569904826000340)
+### 339. [sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S1569904826000340)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **sciencedirect.com**
 
 ---
 
-### 339. [skool.com](https://www.skool.com/augmented-ai-automations/about)
+### 340. [skool.com](https://www.skool.com/augmented-ai-automations/about)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **skool.com**
 
 ---
 
-### 340. [skool.com](https://www.skool.com/corporate-automation-hub-1978)
+### 341. [skool.com](https://www.skool.com/corporate-automation-hub-1978)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **skool.com**
 
 ---
 
-### 341. [skool.com](https://www.skool.com/launch-saascom-983)
+### 342. [skool.com](https://www.skool.com/launch-saascom-983)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **skool.com**
 
 ---
 
-### 342. [skool.com](https://www.skool.com/launch-saascom-9830)
+### 343. [skool.com](https://www.skool.com/launch-saascom-9830)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **skool.com**
 
 ---
 
-### 343. [tiktok.com](https://www.tiktok.com/t/ZTkCnrR8g/)
+### 344. [tiktok.com](https://www.tiktok.com/t/ZTkCnrR8g/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **tiktok.com**
 
 ---
 
-### 344. [war.gov](https://www.war.gov/UFO/)
+### 345. [war.gov](https://www.war.gov/UFO/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **war.gov**
 
 ---
 
-### 345. [whitehouse.gov](https://www.whitehouse.gov/releases/2025/04/remarks-by-director-kratsios-at-the-endless-frontiers-retreat/)
+### 346. [whitehouse.gov](https://www.whitehouse.gov/releases/2025/04/remarks-by-director-kratsios-at-the-endless-frontiers-retreat/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **whitehouse.gov**
 
 ---
 
-### 346. [youtube.com](https://www.youtube.com/watch?app)
+### 347. [youtube.com](https://www.youtube.com/watch?app)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 347. [youtube.com](https://www.youtube.com/watch?v)
+### 348. [youtube.com](https://www.youtube.com/watch?v)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 348. [youtube.com](https://www.youtube.com/watch?v=1QyFy6aJM4U)
+### 349. [youtube.com](https://www.youtube.com/watch?v=1QyFy6aJM4U)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 349. [youtube.com](https://www.youtube.com/watch?v=2_PEcQqU0zQ)
+### 350. [youtube.com](https://www.youtube.com/watch?v=2_PEcQqU0zQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 350. [youtube.com](https://www.youtube.com/watch?v=4GHh7V6KQ6g)
+### 351. [youtube.com](https://www.youtube.com/watch?v=4GHh7V6KQ6g)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 351. [youtube.com](https://www.youtube.com/watch?v=7COM3U3aK9c)
+### 352. [youtube.com](https://www.youtube.com/watch?v=7COM3U3aK9c)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 352. [youtube.com](https://www.youtube.com/watch?v=BbyDtVWGT3Q)
+### 353. [youtube.com](https://www.youtube.com/watch?v=BbyDtVWGT3Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 353. [youtube.com](https://www.youtube.com/watch?v=E1YMSPLVws0)
+### 354. [youtube.com](https://www.youtube.com/watch?v=E1YMSPLVws0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 354. [youtube.com](https://www.youtube.com/watch?v=IHKYX9ETwUg)
+### 355. [youtube.com](https://www.youtube.com/watch?v=IHKYX9ETwUg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 355. [youtube.com](https://www.youtube.com/watch?v=JWl1ahc8vWE)
+### 356. [youtube.com](https://www.youtube.com/watch?v=JWl1ahc8vWE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 356. [youtube.com](https://www.youtube.com/watch?v=MI0Pm1d6YF4)
+### 357. [youtube.com](https://www.youtube.com/watch?v=MI0Pm1d6YF4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 357. [youtube.com](https://www.youtube.com/watch?v=QBEtbXtCIcU&t=328s)
+### 358. [youtube.com](https://www.youtube.com/watch?v=QBEtbXtCIcU&t=328s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 358. [youtube.com](https://www.youtube.com/watch?v=Wa1RAHAU6gU)
+### 359. [youtube.com](https://www.youtube.com/watch?v=Wa1RAHAU6gU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 359. [youtube.com](https://www.youtube.com/watch?v=YqSvkNjWnnQ)
+### 360. [youtube.com](https://www.youtube.com/watch?v=YqSvkNjWnnQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 360. [youtube.com](https://www.youtube.com/watch?v=c94kJQ8wmno)
+### 361. [youtube.com](https://www.youtube.com/watch?v=c94kJQ8wmno)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 361. [youtube.com](https://www.youtube.com/watch?v=chLpe-Il-6A)
+### 362. [youtube.com](https://www.youtube.com/watch?v=chLpe-Il-6A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 362. [youtube.com](https://www.youtube.com/watch?v=j9f2lWe8NyY&t=91s)
+### 363. [youtube.com](https://www.youtube.com/watch?v=j9f2lWe8NyY&t=91s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 363. [youtube.com](https://www.youtube.com/watch?v=lA-9m2LoRNE)
+### 364. [youtube.com](https://www.youtube.com/watch?v=lA-9m2LoRNE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 364. [youtube.com](https://www.youtube.com/watch?v=uyiCvoGfgRQ&t=1250s)
+### 365. [youtube.com](https://www.youtube.com/watch?v=uyiCvoGfgRQ&t=1250s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 365. [youtube.com](https://www.youtube.com/watch?v=zqeqW3g8N2Q)
+### 366. [youtube.com](https://www.youtube.com/watch?v=zqeqW3g8N2Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 366. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si)
+### 367. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 367. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si=_lkP6UT_WVB7OqXx)
+### 368. [youtu.be](https://youtu.be/-QFHIoCo-Ko?si=_lkP6UT_WVB7OqXx)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 368. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si)
+### 369. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 369. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si=0RvzGHVcHWlliRxL)
+### 370. [youtu.be](https://youtu.be/-bJiAf6Ke4U?si=0RvzGHVcHWlliRxL)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 370. [youtu.be](https://youtu.be/-eMKbS80MOs?is)
+### 371. [youtu.be](https://youtu.be/-eMKbS80MOs?is)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 371. [youtu.be](https://youtu.be/-eMKbS80MOs?is=DQjxtztykkZ1UdHn)
+### 372. [youtu.be](https://youtu.be/-eMKbS80MOs?is=DQjxtztykkZ1UdHn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 372. [youtu.be](https://youtu.be/-eMKbS80MOs?si)
+### 373. [youtu.be](https://youtu.be/-eMKbS80MOs?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 373. [youtu.be](https://youtu.be/-eMKbS80MOs?si=1cr8ThfAz8i-TgDn)
+### 374. [youtu.be](https://youtu.be/-eMKbS80MOs?si=1cr8ThfAz8i-TgDn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 374. [youtu.be](https://youtu.be/0MBSNo3B4R4?si)
+### 375. [youtu.be](https://youtu.be/0MBSNo3B4R4?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 375. [youtu.be](https://youtu.be/0MBSNo3B4R4?si=rNp92qXEq4JVhkfn)
+### 376. [youtu.be](https://youtu.be/0MBSNo3B4R4?si=rNp92qXEq4JVhkfn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 376. [youtu.be](https://youtu.be/1pFvUUEYrC0)
+### 377. [youtu.be](https://youtu.be/1pFvUUEYrC0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 377. [youtu.be](https://youtu.be/3RYQW6z5N9w?si)
+### 378. [youtu.be](https://youtu.be/3RYQW6z5N9w?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 378. [youtu.be](https://youtu.be/3RYQW6z5N9w?si=sggD475-gZHP4MNZ)
+### 379. [youtu.be](https://youtu.be/3RYQW6z5N9w?si=sggD475-gZHP4MNZ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 379. [youtu.be](https://youtu.be/3dtA9w5ldHw?is)
+### 380. [youtu.be](https://youtu.be/3dtA9w5ldHw?is)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 380. [youtu.be](https://youtu.be/3dtA9w5ldHw?is=BICfUZ9Z4pnTBWyb)
+### 381. [youtu.be](https://youtu.be/3dtA9w5ldHw?is=BICfUZ9Z4pnTBWyb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 381. [youtu.be](https://youtu.be/5MO3sy2QN-g?si)
+### 382. [youtu.be](https://youtu.be/5MO3sy2QN-g?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 382. [youtu.be](https://youtu.be/5MO3sy2QN-g?si=pGTD9GKkZq5kWGI5)
+### 383. [youtu.be](https://youtu.be/5MO3sy2QN-g?si=pGTD9GKkZq5kWGI5)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 383. [youtu.be](https://youtu.be/614Orzf3SqA?si)
+### 384. [youtu.be](https://youtu.be/614Orzf3SqA?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 384. [youtu.be](https://youtu.be/614Orzf3SqA?si=m-toGUgCnmIFViuR)
+### 385. [youtu.be](https://youtu.be/614Orzf3SqA?si=m-toGUgCnmIFViuR)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 385. [youtu.be](https://youtu.be/7E0ot9iJm_k)
+### 386. [youtu.be](https://youtu.be/7E0ot9iJm_k)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 386. [youtu.be](https://youtu.be/BzPqazzDCPM?si)
+### 387. [youtu.be](https://youtu.be/BzPqazzDCPM?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 387. [youtu.be](https://youtu.be/BzPqazzDCPM?si=zZsK5UI78qRjaSGB)
+### 388. [youtu.be](https://youtu.be/BzPqazzDCPM?si=zZsK5UI78qRjaSGB)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 388. [youtu.be](https://youtu.be/CnAPjeQt5Jg)
+### 389. [youtu.be](https://youtu.be/CnAPjeQt5Jg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 389. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si)
+### 390. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 390. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si=V0ld5zORyJAiiE5g)
+### 391. [youtu.be](https://youtu.be/Eax2zhVA0Zo?si=V0ld5zORyJAiiE5g)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 391. [youtu.be](https://youtu.be/EmF06O4vOWI)
+### 392. [youtu.be](https://youtu.be/EmF06O4vOWI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 392. [youtu.be](https://youtu.be/EmF06O4vOWI?si)
+### 393. [youtu.be](https://youtu.be/EmF06O4vOWI?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 393. [youtu.be](https://youtu.be/EmF06O4vOWI?si=mq7Ef0s236A9fQBp&t=1795)
+### 394. [youtu.be](https://youtu.be/EmF06O4vOWI?si=mq7Ef0s236A9fQBp&t=1795)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 394. [youtu.be](https://youtu.be/FSC4qCwmce0?si)
+### 395. [youtu.be](https://youtu.be/FSC4qCwmce0?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 395. [youtu.be](https://youtu.be/FSC4qCwmce0?si=jbCnN2dTAJljZFZK)
+### 396. [youtu.be](https://youtu.be/FSC4qCwmce0?si=jbCnN2dTAJljZFZK)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 396. [youtu.be](https://youtu.be/FVcMhgVnaVM?si)
+### 397. [youtu.be](https://youtu.be/FVcMhgVnaVM?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 397. [youtu.be](https://youtu.be/FVcMhgVnaVM?si=5j46EocoetjYtZnP)
+### 398. [youtu.be](https://youtu.be/FVcMhgVnaVM?si=5j46EocoetjYtZnP)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 398. [youtu.be](https://youtu.be/H44ZLiOlN0A)
+### 399. [youtu.be](https://youtu.be/H44ZLiOlN0A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 399. [youtu.be](https://youtu.be/IkXKP7Qodv0?si)
+### 400. [youtu.be](https://youtu.be/IkXKP7Qodv0?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 400. [youtu.be](https://youtu.be/IkXKP7Qodv0?si=c57j7gpm6jioyIoF)
+### 401. [youtu.be](https://youtu.be/IkXKP7Qodv0?si=c57j7gpm6jioyIoF)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 401. [youtu.be](https://youtu.be/Mb7GKndpVNw?si)
+### 402. [youtu.be](https://youtu.be/Mb7GKndpVNw?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 402. [youtu.be](https://youtu.be/Mb7GKndpVNw?si=8OOHI65abh-MzHOF)
+### 403. [youtu.be](https://youtu.be/Mb7GKndpVNw?si=8OOHI65abh-MzHOF)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 403. [youtu.be](https://youtu.be/NmPcx3CM-9M)
+### 404. [youtu.be](https://youtu.be/NmPcx3CM-9M)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 404. [youtu.be](https://youtu.be/P9b4tg640ys?si)
+### 405. [youtu.be](https://youtu.be/P9b4tg640ys?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 405. [youtu.be](https://youtu.be/P9b4tg640ys?si=LwF_rnpiFTvwU4lt)
+### 406. [youtu.be](https://youtu.be/P9b4tg640ys?si=LwF_rnpiFTvwU4lt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 406. [youtu.be](https://youtu.be/WRMoEQKn21s?si)
+### 407. [youtu.be](https://youtu.be/WRMoEQKn21s?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 407. [youtu.be](https://youtu.be/WRMoEQKn21s?si=U5DL6HJpFRpz1THy)
+### 408. [youtu.be](https://youtu.be/WRMoEQKn21s?si=U5DL6HJpFRpz1THy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 408. [youtu.be](https://youtu.be/_jb6bqsBjvs?si)
+### 409. [youtu.be](https://youtu.be/_jb6bqsBjvs?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 409. [youtu.be](https://youtu.be/_jb6bqsBjvs?si=9IdspmWvfg7fCEG)
+### 410. [youtu.be](https://youtu.be/_jb6bqsBjvs?si=9IdspmWvfg7fCEG)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 410. [youtu.be](https://youtu.be/_rek1TzX2vw?si)
+### 411. [youtu.be](https://youtu.be/_rek1TzX2vw?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 411. [youtu.be](https://youtu.be/_rek1TzX2vw?si=Ymwl110RQIYoVd2T)
+### 412. [youtu.be](https://youtu.be/_rek1TzX2vw?si=Ymwl110RQIYoVd2T)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 412. [youtu.be](https://youtu.be/ddyCQohMmYA)
+### 413. [youtu.be](https://youtu.be/ddyCQohMmYA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 413. [youtu.be](https://youtu.be/eWEjvCRPrCo?si)
+### 414. [youtu.be](https://youtu.be/eWEjvCRPrCo?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 414. [youtu.be](https://youtu.be/eWEjvCRPrCo?si=BMfRBMmmtG-xGN5y)
+### 415. [youtu.be](https://youtu.be/eWEjvCRPrCo?si=BMfRBMmmtG-xGN5y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 415. [youtu.be](https://youtu.be/f8_WVDiqnpY?si)
+### 416. [youtu.be](https://youtu.be/f8_WVDiqnpY?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 416. [youtu.be](https://youtu.be/f8_WVDiqnpY?si=vE30-SdeEYEV6awQ)
+### 417. [youtu.be](https://youtu.be/f8_WVDiqnpY?si=vE30-SdeEYEV6awQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 417. [youtu.be](https://youtu.be/gwK237lHhhE)
+### 418. [youtu.be](https://youtu.be/gwK237lHhhE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 418. [youtu.be](https://youtu.be/h3AquH7gR_g?si)
+### 419. [youtu.be](https://youtu.be/h3AquH7gR_g?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 419. [youtu.be](https://youtu.be/h3AquH7gR_g?si=FyR-wqDzLsjTIqas)
+### 420. [youtu.be](https://youtu.be/h3AquH7gR_g?si=FyR-wqDzLsjTIqas)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 420. [youtu.be](https://youtu.be/iRt6dwzNfv4)
+### 421. [youtu.be](https://youtu.be/iRt6dwzNfv4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 421. [youtu.be](https://youtu.be/jEGMPBRyRQI)
+### 422. [youtu.be](https://youtu.be/jEGMPBRyRQI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 422. [youtu.be](https://youtu.be/kCpjgl2baLs?si)
+### 423. [youtu.be](https://youtu.be/kCpjgl2baLs?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 423. [youtu.be](https://youtu.be/kCpjgl2baLs?si=-np2nzreObiPPvI1)
+### 424. [youtu.be](https://youtu.be/kCpjgl2baLs?si=-np2nzreObiPPvI1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 424. [youtu.be](https://youtu.be/kc10m6HFbDE?si)
+### 425. [youtu.be](https://youtu.be/kc10m6HFbDE?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 425. [youtu.be](https://youtu.be/kc10m6HFbDE?si=1Y6pPx4yLXScmGha)
+### 426. [youtu.be](https://youtu.be/kc10m6HFbDE?si=1Y6pPx4yLXScmGha)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 426. [youtu.be](https://youtu.be/lZzF3FldGLE?t)
+### 427. [youtu.be](https://youtu.be/lZzF3FldGLE?t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 427. [youtu.be](https://youtu.be/lZzF3FldGLE?t=296)
+### 428. [youtu.be](https://youtu.be/lZzF3FldGLE?t=296)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 428. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si)
+### 429. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 429. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si=_sfdAVnIk3sxYFee)
+### 430. [youtu.be](https://youtu.be/mzS7dmCUzcQ?si=_sfdAVnIk3sxYFee)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 430. [youtu.be](https://youtu.be/p4QGOHahiVM?si)
+### 431. [youtu.be](https://youtu.be/p4QGOHahiVM?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 431. [youtu.be](https://youtu.be/p4QGOHahiVM?si=Sde19Eqkcn7W643E)
+### 432. [youtu.be](https://youtu.be/p4QGOHahiVM?si=Sde19Eqkcn7W643E)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 432. [youtu.be](https://youtu.be/p4QGOHahiVM?si=ce_yK1kdSEyozB2Q)
+### 433. [youtu.be](https://youtu.be/p4QGOHahiVM?si=ce_yK1kdSEyozB2Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 433. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si)
+### 434. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 434. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si=TB8cgDBUv5L-vvx3)
+### 435. [youtu.be](https://youtu.be/pJ8E0-VM-LA?si=TB8cgDBUv5L-vvx3)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 435. [youtu.be](https://youtu.be/qItugh-fFgg?si)
+### 436. [youtu.be](https://youtu.be/qItugh-fFgg?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 436. [youtu.be](https://youtu.be/qItugh-fFgg?si=Zb4mgLc8C_lNhEjK)
+### 437. [youtu.be](https://youtu.be/qItugh-fFgg?si=Zb4mgLc8C_lNhEjK)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 437. [youtu.be](https://youtu.be/t37-SKj4rtY?t)
+### 438. [youtu.be](https://youtu.be/t37-SKj4rtY?t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 438. [youtu.be](https://youtu.be/t37-SKj4rtY?t=5040)
+### 439. [youtu.be](https://youtu.be/t37-SKj4rtY?t=5040)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 439. [youtu.be](https://youtu.be/u2HappUTXsM)
+### 440. [youtu.be](https://youtu.be/u2HappUTXsM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 440. [youtu.be](https://youtu.be/yFYxSX6xP2U?t)
+### 441. [youtu.be](https://youtu.be/yFYxSX6xP2U?t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 441. [youtu.be](https://youtu.be/yFYxSX6xP2U?t=35)
+### 442. [youtu.be](https://youtu.be/yFYxSX6xP2U?t=35)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 442. [youtu.be](https://youtu.be/yjwtdE7GWmA?si)
+### 443. [youtu.be](https://youtu.be/yjwtdE7GWmA?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 443. [youtu.be](https://youtu.be/yjwtdE7GWmA?si=HuHO6XKFjD7nTSSb)
+### 444. [youtu.be](https://youtu.be/yjwtdE7GWmA?si=HuHO6XKFjD7nTSSb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 444. [youtube.com](https://youtube.com/playlist?list)
+### 445. [youtube.com](https://youtube.com/playlist?list)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 445. [youtube.com](https://youtube.com/watch?v=18iIHQtIPmc&si=jv-nsbYwvij9ELUw)
+### 446. [youtube.com](https://youtube.com/watch?v=18iIHQtIPmc&si=jv-nsbYwvij9ELUw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 446. [z.ai](https://z.ai/blog/glm-5.1)
+### 447. [z.ai](https://z.ai/blog/glm-5.1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **z.ai**
 
 ---
 
-### 447. [CODESIGHT.md](http://CODESIGHT.md)
+### 448. [CODESIGHT.md](http://CODESIGHT.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **CODESIGHT.md**
 
 ---
 
-### 448. [components.md](http://components.md)
+### 449. [components.md](http://components.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **components.md**
 
 ---
 
-### 449. [localhost:20128](http://localhost:20128)
+### 450. [localhost:20128](http://localhost:20128)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:20128**
 
 ---
 
-### 450. [localhost:20128](http://localhost:20128/v1)
+### 451. [localhost:20128](http://localhost:20128/v1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:20128**
 
 ---
 
-### 451. [localhost:8000`](http:](http://localhost:8000`](http://localhost:8000)
+### 452. [localhost:8000`](http:](http://localhost:8000`](http://localhost:8000)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:8000`](http:**
 
 ---
 
-### 452. [localhost:9119](http://localhost:9119)
+### 453. [localhost:9119](http://localhost:9119)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:9119**
 
 ---
 
-### 453. [to.read](http://to.read)
+### 454. [to.read](http://to.read)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **to.read**
 
 ---
 
-### 454. [trymindhub.com](http://trymindhub.com)
+### 455. [trymindhub.com](http://trymindhub.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **trymindhub.com**
 
 ---
 
-### 455. [vault.fbi.gov](http://vault.fbi.gov/unexplained-phenomenon)
+### 456. [vault.fbi.gov](http://vault.fbi.gov/unexplained-phenomenon)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **vault.fbi.gov**
 
 ---
 
-### 456. [afu.info](http://www.afu.info/)
+### 457. [afu.info](http://www.afu.info/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **afu.info**
 
 ---
 
-### 457. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab)
+### 458. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bluebookarchive.org**
 
 ---
 
-### 458. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab=3)
+### 459. [bluebookarchive.org](http://www.bluebookarchive.org/browse.aspx?Tab=3)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bluebookarchive.org**
 
 ---
 
-### 459. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode)
+### 460. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bluebookarchive.org**
 
 ---
 
-### 460. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB93-1)
+### 461. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB93-1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bluebookarchive.org**
 
 ---
 
-### 461. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB94-1)
+### 462. [bluebookarchive.org](http://www.bluebookarchive.org/page.aspx?PageCode=NARA-PBB94-1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bluebookarchive.org**
 
 ---
 
-### 462. [cefaa.gob.cl](http://www.cefaa.gob.cl/web/casos.html)
+### 463. [cefaa.gob.cl](http://www.cefaa.gob.cl/web/casos.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **cefaa.gob.cl**
 
 ---
 
-### 463. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/Sighting_of_UFO_in_Iran_19_Sep_76_CLEAR.pdf)
+### 464. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/Sighting_of_UFO_in_Iran_19_Sep_76_CLEAR.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dia.mil**
 
 ---
 
-### 464. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo1.pdf)
+### 465. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo1.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dia.mil**
 
 ---
 
-### 465. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo2.pdf)
+### 466. [dia.mil](http://www.dia.mil/public-affairs/foia/pdf/ufo2.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dia.mil**
 
 ---
 
-### 466. [dod.gov](http://www.dod.gov/pubs/foi/homeland_defense/UFOs/)
+### 467. [dod.gov](http://www.dod.gov/pubs/foi/homeland_defense/UFOs/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dod.gov**
 
 ---
 
-### 467. [itacomm.net](http://www.itacomm.net/PH/CIPH/HOME_PAGE.html)
+### 468. [itacomm.net](http://www.itacomm.net/PH/CIPH/HOME_PAGE.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **itacomm.net**
 
 ---
 
-### 468. [nsa.gov](http://www.nsa.gov/public_info/declass/ufo/index.shtml)
+### 469. [nsa.gov](http://www.nsa.gov/public_info/declass/ufo/index.shtml)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nsa.gov**
 
 ---
 
-### 469. [oac.cdlib.org](http://www.oac.cdlib.org/findaid/ark:/13030/kt8v19q87g/entire_text/)
+### 470. [oac.cdlib.org](http://www.oac.cdlib.org/findaid/ark:/13030/kt8v19q87g/entire_text/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **oac.cdlib.org**
 
 ---
 
-### 470. [uapreporting.org](http://www.uapreporting.org/?page_id)
+### 471. [uapreporting.org](http://www.uapreporting.org/?page_id)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **uapreporting.org**
 
 ---
 
-### 471. [uapreporting.org](http://www.uapreporting.org/?page_id=777)
+### 472. [uapreporting.org](http://www.uapreporting.org/?page_id=777)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **uapreporting.org**
 
 ---
 
-### 472. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2019:28:28%20UTC%20To%20Local%20Time)
+### 473. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2019:28:28%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 473. [youtube.com](http://www.youtube.com/watch?v=4bGTLtdwPHM)
+### 474. [youtube.com](http://www.youtube.com/watch?v=4bGTLtdwPHM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 474. [app.astrobin.com](https://app.astrobin.com/i/5a6jbl)
+### 475. [app.astrobin.com](https://app.astrobin.com/i/5a6jbl)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.astrobin.com**
 
 ---
 
-### 475. [app.nex.ai](https://app.nex.ai/api/developers/v1/)
+### 476. [app.nex.ai](https://app.nex.ai/api/developers/v1/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.nex.ai**
 
 ---
 
-### 476. [app.nex.ai](https://app.nex.ai/api/developers/v1/%5C*)
+### 477. [app.nex.ai](https://app.nex.ai/api/developers/v1/%5C*)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.nex.ai**
 
 ---
 
-### 477. [app.nex.ai](https://app.nex.ai/api/developers/v1/\*)
+### 478. [app.nex.ai](https://app.nex.ai/api/developers/v1/\*)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.nex.ai**
 
 ---
 
-### 478. [campusinfo.umich.edu](https://campusinfo.umich.edu/campusmap)
+### 479. [campusinfo.umich.edu](https://campusinfo.umich.edu/campusmap)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **campusinfo.umich.edu**
 
 ---
 
-### 479. [claude.ai](https://claude.ai/share/2a0fc104-8a8c-4bde-bbd2-6ae76ec6f19d)
+### 480. [claude.ai](https://claude.ai/share/2a0fc104-8a8c-4bde-bbd2-6ae76ec6f19d)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **claude.ai**
 
 ---
 
-### 480. [claude.ai?utm_source](https://claude.ai?utm_source)
+### 481. [claude.ai?utm_source](https://claude.ai?utm_source)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **claude.ai?utm_source**
 
 ---
 
-### 481. [coincontroversy.com](https://coincontroversy.com/nick-szabo-the-real-satoshi-nakamoto-the-definitive-case-study/)
+### 482. [coincontroversy.com](https://coincontroversy.com/nick-szabo-the-real-satoshi-nakamoto-the-definitive-case-study/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **coincontroversy.com**
 
 ---
 
-### 482. [discord.com](https://discord.com/invite/clawd)
+### 483. [discord.com](https://discord.com/invite/clawd)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.com**
 
 ---
 
-### 483. [discord.com](https://discord.com/invite/edmp)
+### 484. [discord.com](https://discord.com/invite/edmp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.com**
 
 ---
 
-### 484. [discord.gg](https://discord.gg/FhSMb5mkBp)
+### 485. [discord.gg](https://discord.gg/FhSMb5mkBp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 485. [discord.gg](https://discord.gg/MK2yWFX)
+### 486. [discord.gg](https://discord.gg/MK2yWFX)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 486. [discord.gg](https://discord.gg/rXNQXCTWDt)
+### 487. [discord.gg](https://discord.gg/rXNQXCTWDt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 487. [ebay.us](https://ebay.us/m/l86LpW)
+### 488. [ebay.us](https://ebay.us/m/l86LpW)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ebay.us**
 
 ---
 
-### 488. [en.wikipedia.org](https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk)
+### 489. [en.wikipedia.org](https://en.wikipedia.org/wiki/Acquisition_of_Twitter_by_Elon_Musk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 489. [en.wikipedia.org](https://en.wikipedia.org/wiki/Defense_Intelligence_Agency)
+### 490. [en.wikipedia.org](https://en.wikipedia.org/wiki/Defense_Intelligence_Agency)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 490. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dopamine_receptor)
+### 491. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dopamine_receptor)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 491. [en.wikipedia.org](https://en.wikipedia.org/wiki/Howl_(poem)
+### 492. [en.wikipedia.org](https://en.wikipedia.org/wiki/Howl_(poem)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 492. [en.wikipedia.org](https://en.wikipedia.org/wiki/Method_of_loci)
+### 493. [en.wikipedia.org](https://en.wikipedia.org/wiki/Method_of_loci)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 493. [en.wikipedia.org](https://en.wikipedia.org/wiki/Neuralink)
+### 494. [en.wikipedia.org](https://en.wikipedia.org/wiki/Neuralink)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 494. [en.wikipedia.org](https://en.wikipedia.org/wiki/Preoptic_area)
+### 495. [en.wikipedia.org](https://en.wikipedia.org/wiki/Preoptic_area)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 495. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sensitization)
+### 496. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sensitization)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 496. [en.wikipedia.org](https://en.wikipedia.org/wiki/Solar_panels_on_spacecraft)
+### 497. [en.wikipedia.org](https://en.wikipedia.org/wiki/Solar_panels_on_spacecraft)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 497. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceX)
+### 498. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceX)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 498. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceXAI)
+### 499. [en.wikipedia.org](https://en.wikipedia.org/wiki/SpaceXAI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 499. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sturgeon%27s_law)
+### 500. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sturgeon%27s_law)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 500. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sun-synchronous_orbit)
+### 501. [en.wikipedia.org](https://en.wikipedia.org/wiki/Sun-synchronous_orbit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 501. [en.wikipedia.org](https://en.wikipedia.org/wiki/Tesla%2C_Inc.)
+### 502. [en.wikipedia.org](https://en.wikipedia.org/wiki/Tesla%2C_Inc.)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 502. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Boring_Company)
+### 503. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Boring_Company)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 503. [en.wikipedia.org](https://en.wikipedia.org/wiki/Zip2)
+### 504. [en.wikipedia.org](https://en.wikipedia.org/wiki/Zip2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 504. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12960779)
+### 505. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12960779)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fetlife.com**
 
 ---
 
-### 505. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12989516)
+### 506. [fetlife.com](https://fetlife.com/CompassionSadist/posts/12989516)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fetlife.com**
 
 ---
 
-### 506. [fetlife.com](https://fetlife.com/CompassionSadist/posts/13123519)
+### 507. [fetlife.com](https://fetlife.com/CompassionSadist/posts/13123519)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fetlife.com**
 
 ---
 
-### 507. [giphy.com](https://giphy.com/gifs/1D7ryE8SDYuq8kGGGQ)
+### 508. [giphy.com](https://giphy.com/gifs/1D7ryE8SDYuq8kGGGQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 508. [giphy.com](https://giphy.com/gifs/8zsD8Zrdlw5wY)
+### 509. [giphy.com](https://giphy.com/gifs/8zsD8Zrdlw5wY)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 509. [giphy.com](https://giphy.com/gifs/9QbDWTcnq4wmc)
+### 510. [giphy.com](https://giphy.com/gifs/9QbDWTcnq4wmc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 510. [giphy.com](https://giphy.com/gifs/Kxqyq5Q486NVu)
+### 511. [giphy.com](https://giphy.com/gifs/Kxqyq5Q486NVu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 511. [giphy.com](https://giphy.com/gifs/QhhuZdt6eSeESwbszo)
+### 512. [giphy.com](https://giphy.com/gifs/QhhuZdt6eSeESwbszo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 512. [giphy.com](https://giphy.com/gifs/SFkjp1R8iRIWc)
+### 513. [giphy.com](https://giphy.com/gifs/SFkjp1R8iRIWc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 513. [giphy.com](https://giphy.com/gifs/VSn9ffvWCKnWrBE9xk)
+### 514. [giphy.com](https://giphy.com/gifs/VSn9ffvWCKnWrBE9xk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 514. [giphy.com](https://giphy.com/gifs/ZqlvCTNHpqrio)
+### 515. [giphy.com](https://giphy.com/gifs/ZqlvCTNHpqrio)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 515. [giphy.com](https://giphy.com/gifs/hero0fwar-friday-damn-xvd3kiJY9ccgY0aNJa)
+### 516. [giphy.com](https://giphy.com/gifs/hero0fwar-friday-damn-xvd3kiJY9ccgY0aNJa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 516. [giphy.com](https://giphy.com/gifs/qZFHPmI9fSb6D13BsC)
+### 517. [giphy.com](https://giphy.com/gifs/qZFHPmI9fSb6D13BsC)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 517. [giphy.com](https://giphy.com/gifs/uoAUnEsIqHTpzU9j8f)
+### 518. [giphy.com](https://giphy.com/gifs/uoAUnEsIqHTpzU9j8f)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 518. [giphy.com](https://giphy.com/gifs/w2ldbBLfoB37AcqVem)
+### 519. [giphy.com](https://giphy.com/gifs/w2ldbBLfoB37AcqVem)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 519. [giphy.com](https://giphy.com/gifs/xUOxf9ellv3muKAFTa)
+### 520. [giphy.com](https://giphy.com/gifs/xUOxf9ellv3muKAFTa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 520. [hsph.harvard.edu](https://hsph.harvard.edu/news/usaid-shutdown-has-led-to-hundreds-of-thousands-of-deaths/)
+### 521. [hsph.harvard.edu](https://hsph.harvard.edu/news/usaid-shutdown-has-led-to-hundreds-of-thousands-of-deaths/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **hsph.harvard.edu**
 
 ---
 
-### 521. [mcommunity.umich.edu](https://mcommunity.umich.edu/)
+### 522. [mcommunity.umich.edu](https://mcommunity.umich.edu/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **mcommunity.umich.edu**
 
 ---
 
-### 522. [medium.com](https://medium.com/@asaninstefan/the-ai-we-were-promised-isnt-the-ai-we-got-d26ddd9866a9)
+### 523. [medium.com](https://medium.com/@asaninstefan/the-ai-we-were-promised-isnt-the-ai-we-got-d26ddd9866a9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 523. [medium.com](https://medium.com/psych-pstuff/habits-motivation-and-behavior-change-why-willpower-is-not-enough-7ecb4b510e56)
+### 524. [medium.com](https://medium.com/psych-pstuff/habits-motivation-and-behavior-change-why-willpower-is-not-enough-7ecb4b510e56)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 524. [medium.com](https://medium.com/science-meaning/can-dopamine-be-depleted-from-its-synapses-dopamine-3-bd7f1864d4d3)
+### 525. [medium.com](https://medium.com/science-meaning/can-dopamine-be-depleted-from-its-synapses-dopamine-3-bd7f1864d4d3)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 525. [medium.com](https://medium.com/science-meaning/does-sex-deplete-our-mental-energy-dopamine-1-c400ceae759c)
+### 526. [medium.com](https://medium.com/science-meaning/does-sex-deplete-our-mental-energy-dopamine-1-c400ceae759c)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 526. [medium.com](https://medium.com/science-meaning/dopamine-d2-receptor-downregulation-is-the-hallmark-of-addiction-dopamine-4-ae7df3fa2433)
+### 527. [medium.com](https://medium.com/science-meaning/dopamine-d2-receptor-downregulation-is-the-hallmark-of-addiction-dopamine-4-ae7df3fa2433)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 527. [medium.com](https://medium.com/science-meaning/pleasure-electrodes-in-the-brain-dopamine-2-0f1164fdf139)
+### 528. [medium.com](https://medium.com/science-meaning/pleasure-electrodes-in-the-brain-dopamine-2-0f1164fdf139)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 528. [music.youtube.com](https://music.youtube.com/watch?v)
+### 529. [music.youtube.com](https://music.youtube.com/watch?v)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **music.youtube.com**
 
 ---
 
-### 529. [music.youtube.com](https://music.youtube.com/watch?v=435LWavPBQg&si=3Q0_ciVj4G_ts0g2)
+### 530. [music.youtube.com](https://music.youtube.com/watch?v=435LWavPBQg&si=3Q0_ciVj4G_ts0g2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **music.youtube.com**
 
 ---
 
-### 530. [music.youtube.com](https://music.youtube.com/watch?v=RbVWBq8cBys&si=FlZamOuD_t2MrPLo)
+### 531. [music.youtube.com](https://music.youtube.com/watch?v=RbVWBq8cBys&si=FlZamOuD_t2MrPLo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **music.youtube.com**
 
 ---
 
-### 531. [newrepublic.com](https://newrepublic.com/article/178675/garry-tan-tech-san-francisco)
+### 532. [newrepublic.com](https://newrepublic.com/article/178675/garry-tan-tech-san-francisco)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **newrepublic.com**
 
 ---
 
-### 532. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r)
+### 533. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.substack.com**
 
 ---
 
-### 533. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r=6bi8k&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
+### 534. [open.substack.com](https://open.substack.com/pub/scienceandmeaning/p/does-sex-deplete-our-mental-energy?r=6bi8k&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.substack.com**
 
 ---
 
-### 534. [orimnemos.com](https://orimnemos.com/core)
+### 535. [orimnemos.com](https://orimnemos.com/core)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **orimnemos.com**
 
 ---
 
-### 535. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10921868/)
+### 536. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10921868/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 536. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11435085/)
+### 537. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC11435085/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 537. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180883/)
+### 538. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12180883/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 538. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3139704/)
+### 539. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3139704/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 539. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6804255/)
+### 540. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6804255/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 540. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7527484/)
+### 541. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7527484/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 541. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7690797/)
+### 542. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7690797/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 542. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41604557/)
+### 543. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41604557/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubmed.ncbi.nlm.nih.gov**
 
 ---
 
-### 543. [ra.co](https://ra.co/events/2278088)
+### 544. [ra.co](https://ra.co/events/2278088)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 544. [ra.co](https://ra.co/events/2343386)
+### 545. [ra.co](https://ra.co/events/2343386)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ra.co**
 
 ---
 
-### 545. [replit.com](https://replit.com/stripe-checkout-by-price/core_1mo_20usd_monthly_feb_26?coupon)
+### 546. [replit.com](https://replit.com/stripe-checkout-by-price/core_1mo_20usd_monthly_feb_26?coupon)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **replit.com**
 
 ---
 
-### 546. [spacetribe.com](https://spacetribe.com/)
+### 547. [spacetribe.com](https://spacetribe.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **spacetribe.com**
 
 ---
 
-### 547. [substack.com](https://substack.com/home/post/p-193787735)
+### 548. [substack.com](https://substack.com/home/post/p-193787735)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **substack.com**
 
 ---
 
-### 548. [axios.com](https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal)
+### 549. [axios.com](https://www.axios.com/2026/04/06/behind-the-curtain-sams-superintelligence-new-deal)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **axios.com**
 
 ---
 
-### 549. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X)
+### 550. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **cell.com**
 
 ---
 
-### 550. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X%C2%A0)
+### 551. [cell.com](https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(24)00010-X%C2%A0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **cell.com**
 
 ---
 
-### 551. [ebay.com](https://www.ebay.com/itm/168216124945?chn)
+### 552. [ebay.com](https://www.ebay.com/itm/168216124945?chn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ebay.com**
 
 ---
 
-### 552. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh)
+### 553. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 553. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh=MTA5cHowdGVwMnB2Mw==)
+### 554. [instagram.com](https://www.instagram.com/p/DXyzpFMjL2r/?igsh=MTA5cHowdGVwMnB2Mw==)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 554. [npmjs.com](https://www.npmjs.com/package/tsunami-code)
+### 555. [npmjs.com](https://www.npmjs.com/package/tsunami-code)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **npmjs.com**
 
 ---
 
-### 555. [penn.museum](https://www.penn.museum/documents/publications/expedition/25-3/Ancient.pdf)
+### 556. [penn.museum](https://www.penn.museum/documents/publications/expedition/25-3/Ancient.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **penn.museum**
 
 ---
 
-### 556. [perplexity.ai?utm_source](https://www.perplexity.ai?utm_source)
+### 557. [perplexity.ai?utm_source](https://www.perplexity.ai?utm_source)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **perplexity.ai?utm_source**
 
 ---
 
-### 557. [researchgate.net](https://www.researchgate.net/publication/258527651_Oxidative_stress_and_ADHD_A_meta-analysis)
+### 558. [researchgate.net](https://www.researchgate.net/publication/258527651_Oxidative_stress_and_ADHD_A_meta-analysis)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **researchgate.net**
 
 ---
 
-### 558. [reuters.com](https://www.reuters.com/world/spacex-says-unproven-ai-space-data-centers-may-not-be-commercially-viable-filing-2026-04-21/)
+### 559. [reuters.com](https://www.reuters.com/world/spacex-says-unproven-ai-space-data-centers-may-not-be-commercially-viable-filing-2026-04-21/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **reuters.com**
 
 ---
 
-### 559. [sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S0006899325001647)
+### 560. [sciencedirect.com](https://www.sciencedirect.com/science/article/abs/pii/S0006899325001647)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **sciencedirect.com**
 
 ---
 
-### 560. [sotozen.com](https://www.sotozen.com/eng/library/denkoroku/index.html)
+### 561. [sotozen.com](https://www.sotozen.com/eng/library/denkoroku/index.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **sotozen.com**
 
 ---
 
-### 561. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)
+### 562. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **thelancet.com**
 
 ---
 
-### 562. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)01186-9/fulltext)
+### 563. [thelancet.com](https://www.thelancet.com/article/S0140-6736(25)01186-9/fulltext)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **thelancet.com**
 
 ---
 
-### 563. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)
+### 564. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **twitch.tv**
 
 ---
 
-### 564. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)!)
+### 565. [twitch.tv](https://www.twitch.tv/gpt_plays_pokemon)!)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **twitch.tv**
 
 ---
 
-### 565. [youtube.com](https://www.youtube.com/watch?v=C8NUAh3NK10)
+### 566. [youtube.com](https://www.youtube.com/watch?v=C8NUAh3NK10)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 566. [youtube.com](https://www.youtube.com/watch?v=FWe_haoOI0A)
+### 567. [youtube.com](https://www.youtube.com/watch?v=FWe_haoOI0A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 567. [youtube.com](https://www.youtube.com/watch?v=FlQYU3m1e80)
+### 568. [youtube.com](https://www.youtube.com/watch?v=FlQYU3m1e80)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 568. [youtube.com](https://www.youtube.com/watch?v=GNTtR6ZpUOo&pp=ygUNaGRkIGRvb20gc29uZw%3D%3D)
+### 569. [youtube.com](https://www.youtube.com/watch?v=GNTtR6ZpUOo&pp=ygUNaGRkIGRvb20gc29uZw%3D%3D)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 569. [youtube.com](https://www.youtube.com/watch?v=HZS9M52Bd_w)
+### 570. [youtube.com](https://www.youtube.com/watch?v=HZS9M52Bd_w)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 570. [youtube.com](https://www.youtube.com/watch?v=JUBBC_r_yTU)
+### 571. [youtube.com](https://www.youtube.com/watch?v=JUBBC_r_yTU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 571. [youtube.com](https://www.youtube.com/watch?v=WsenKMub5p8)
+### 572. [youtube.com](https://www.youtube.com/watch?v=WsenKMub5p8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 572. [youtube.com](https://www.youtube.com/watch?v=hV4zPDFAN9w)
+### 573. [youtube.com](https://www.youtube.com/watch?v=hV4zPDFAN9w)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 573. [youtube.com](https://www.youtube.com/watch?v=lIYjOv7-XhI)
+### 574. [youtube.com](https://www.youtube.com/watch?v=lIYjOv7-XhI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 574. [youtube.com](https://www.youtube.com/watch?v=pzagBTcYsYQ&t=31s)
+### 575. [youtube.com](https://www.youtube.com/watch?v=pzagBTcYsYQ&t=31s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 575. [youtube.com](https://www.youtube.com/watch?v=vnocKrxasg4)
+### 576. [youtube.com](https://www.youtube.com/watch?v=vnocKrxasg4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 576. [youtu.be](https://youtu.be/72BHwMIW914?si)
+### 577. [youtu.be](https://youtu.be/72BHwMIW914?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 577. [youtu.be](https://youtu.be/72BHwMIW914?si=Zd2EHflpYxeGTAQv)
+### 578. [youtu.be](https://youtu.be/72BHwMIW914?si=Zd2EHflpYxeGTAQv)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 578. [youtu.be](https://youtu.be/BoxDiCGjFA8)
+### 579. [youtu.be](https://youtu.be/BoxDiCGjFA8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 579. [youtu.be](https://youtu.be/MBDiJAWx8xk?si)
+### 580. [youtu.be](https://youtu.be/MBDiJAWx8xk?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 580. [youtu.be](https://youtu.be/MBDiJAWx8xk?si=OQd89t6BK-EuvPOX)
+### 581. [youtu.be](https://youtu.be/MBDiJAWx8xk?si=OQd89t6BK-EuvPOX)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 581. [youtu.be](https://youtu.be/NBuETZZTUKU?si)
+### 582. [youtu.be](https://youtu.be/NBuETZZTUKU?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 582. [youtu.be](https://youtu.be/NBuETZZTUKU?si=Hmp%5C_J%5C_SeYElx1-7B)
+### 583. [youtu.be](https://youtu.be/NBuETZZTUKU?si=Hmp%5C_J%5C_SeYElx1-7B)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 583. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si)
+### 584. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 584. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si=OIjglVF6juZ4GTIL)
+### 585. [youtu.be](https://youtu.be/Qm4BeXgM8ZM?si=OIjglVF6juZ4GTIL)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 585. [youtu.be](https://youtu.be/TyWVaZsUQjc?si)
+### 586. [youtu.be](https://youtu.be/TyWVaZsUQjc?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 586. [youtu.be](https://youtu.be/TyWVaZsUQjc?si=kLkec_QFoaYNS6fi)
+### 587. [youtu.be](https://youtu.be/TyWVaZsUQjc?si=kLkec_QFoaYNS6fi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 587. [youtu.be](https://youtu.be/XfcvX0P1b5g?si)
+### 588. [youtu.be](https://youtu.be/XfcvX0P1b5g?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 588. [youtu.be](https://youtu.be/XfcvX0P1b5g?si=r0eYIf4uaRJE-xfJ)
+### 589. [youtu.be](https://youtu.be/XfcvX0P1b5g?si=r0eYIf4uaRJE-xfJ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 589. [youtu.be](https://youtu.be/YwZR6tc7qYg?si)
+### 590. [youtu.be](https://youtu.be/YwZR6tc7qYg?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 590. [youtu.be](https://youtu.be/YwZR6tc7qYg?si=c7aT27vEYIOZXGlZ)
+### 591. [youtu.be](https://youtu.be/YwZR6tc7qYg?si=c7aT27vEYIOZXGlZ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 591. [youtu.be](https://youtu.be/_eWev4IUCPI?si)
+### 592. [youtu.be](https://youtu.be/_eWev4IUCPI?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 592. [youtu.be](https://youtu.be/_eWev4IUCPI?si=UBOFeobKubeGqlvo)
+### 593. [youtu.be](https://youtu.be/_eWev4IUCPI?si=UBOFeobKubeGqlvo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 593. [youtu.be](https://youtu.be/d5C7HCEsuho?si)
+### 594. [youtu.be](https://youtu.be/d5C7HCEsuho?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 594. [youtu.be](https://youtu.be/d5C7HCEsuho?si=iOav77TfZ9cMD5fB)
+### 595. [youtu.be](https://youtu.be/d5C7HCEsuho?si=iOav77TfZ9cMD5fB)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 595. [youtu.be](https://youtu.be/gBcaNsAkY9U)
+### 596. [youtu.be](https://youtu.be/gBcaNsAkY9U)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 596. [youtu.be](https://youtu.be/i8ZHYWle0DE?is)
+### 597. [youtu.be](https://youtu.be/i8ZHYWle0DE?is)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 597. [youtu.be](https://youtu.be/i8ZHYWle0DE?is=nebhMjaVejJT_1op)
+### 598. [youtu.be](https://youtu.be/i8ZHYWle0DE?is=nebhMjaVejJT_1op)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 598. [youtu.be](https://youtu.be/j8hAZoXVEgM?si)
+### 599. [youtu.be](https://youtu.be/j8hAZoXVEgM?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 599. [youtu.be](https://youtu.be/j8hAZoXVEgM?si=GEdu3MRqDlosYIso)
+### 600. [youtu.be](https://youtu.be/j8hAZoXVEgM?si=GEdu3MRqDlosYIso)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 600. [youtu.be](https://youtu.be/pA6OJXO6UrU?is)
+### 601. [youtu.be](https://youtu.be/pA6OJXO6UrU?is)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 601. [youtu.be](https://youtu.be/pQOesYLXua4?si)
+### 602. [youtu.be](https://youtu.be/pQOesYLXua4?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 602. [youtu.be](https://youtu.be/pQOesYLXua4?si=hFR-RKsUgts3d32o)
+### 603. [youtu.be](https://youtu.be/pQOesYLXua4?si=hFR-RKsUgts3d32o)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 603. [youtu.be](https://youtu.be/yyCc4iuMikQ?si)
+### 604. [youtu.be](https://youtu.be/yyCc4iuMikQ?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 604. [youtu.be](https://youtu.be/yyCc4iuMikQ?si=r2Agn3kR9udOQo1u)
+### 605. [youtu.be](https://youtu.be/yyCc4iuMikQ?si=r2Agn3kR9udOQo1u)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 605. [aestesis.eu](http://aestesis.eu/elektronika/)
+### 606. [aestesis.eu](http://aestesis.eu/elektronika/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **aestesis.eu**
 
 ---
 
-### 606. [audiovisualizers.com](http://audiovisualizers.com/toolshak/vsynths.htm)
+### 607. [audiovisualizers.com](http://audiovisualizers.com/toolshak/vsynths.htm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **audiovisualizers.com**
 
 ---
 
-### 607. [domain.ai](http://domain.ai)
+### 608. [domain.ai](http://domain.ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **domain.ai**
 
 ---
 
-### 608. [dynamapper.net](http://dynamapper.net/)
+### 609. [dynamapper.net](http://dynamapper.net/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dynamapper.net**
 
 ---
 
-### 609. [govj.tech](http://govj.tech/)
+### 610. [govj.tech](http://govj.tech/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **govj.tech**
 
 ---
 
-### 610. [harveywallbangerai.com](http://harveywallbangerai.com)
+### 611. [harveywallbangerai.com](http://harveywallbangerai.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **harveywallbangerai.com**
 
 ---
 
-### 611. [instagram.com](http://instagram.com/electric_forest)
+### 612. [instagram.com](http://instagram.com/electric_forest)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 612. [localhost:3300&quot](http://localhost:3300&quot)
+### 613. [localhost:3300&quot](http://localhost:3300&quot)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:3300&quot**
 
 ---
 
-### 613. [quartzcomposer.com](http://quartzcomposer.com/about)
+### 614. [quartzcomposer.com](http://quartzcomposer.com/about)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **quartzcomposer.com**
 
 ---
 
-### 614. [techlife.sg](http://techlife.sg/TCPSpout/)
+### 615. [techlife.sg](http://techlife.sg/TCPSpout/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **techlife.sg**
 
 ---
 
-### 615. [techlife.sg](http://techlife.sg/TCPSyphon/)
+### 616. [techlife.sg](http://techlife.sg/TCPSyphon/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **techlife.sg**
 
 ---
 
-### 616. [trydomain.ai](http://trydomain.ai)
+### 617. [trydomain.ai](http://trydomain.ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **trydomain.ai**
 
 ---
 
-### 617. [vjforums.info](http://vjforums.info/)
+### 618. [vjforums.info](http://vjforums.info/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **vjforums.info**
 
 ---
 
-### 618. [vjunion.net](http://vjunion.net)
+### 619. [vjunion.net](http://vjunion.net)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **vjunion.net**
 
 ---
 
-### 619. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2000:00:00%20UTC%20To%20Local%20Time)
+### 620. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-21%2000:00:00%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 620. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2030-04-10%2013:41:39%20UTC%20To%20Local%20Time)
+### 621. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2030-04-10%2013:41:39%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 621. [amof.dev](https:](https://amof.dev](https://amof.dev)
+### 622. [amof.dev](https:](https://amof.dev](https://amof.dev)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **amof.dev](https:**
 
 ---
 
-### 622. [antigravity.google](https://antigravity.google/)
+### 623. [antigravity.google](https://antigravity.google/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **antigravity.google**
 
 ---
 
-### 623. [arcrift.vercel.app](https://arcrift.vercel.app/&quot;&gt;https://arcrift.vercel.app/&lt;/a&gt;&lt;/li&gt)
+### 624. [arcrift.vercel.app](https://arcrift.vercel.app/&quot;&gt;https://arcrift.vercel.app/&lt;/a&gt;&lt;/li&gt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **arcrift.vercel.app**
 
 ---
 
-### 624. [discord.com](https://discord.com/invite/openai)
+### 625. [discord.com](https://discord.com/invite/openai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.com**
 
 ---
 
-### 625. [discord.gg](https://discord.gg/96VUBse)
+### 626. [discord.gg](https://discord.gg/96VUBse)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 626. [discord.gg](https://discord.gg/electricforest)
+### 627. [discord.gg](https://discord.gg/electricforest)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 627. [discord.gg](https://discord.gg/kUCbEZn8js)
+### 628. [discord.gg](https://discord.gg/kUCbEZn8js)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 628. [discord.gg](https://discord.gg/xXuFkdHef2)
+### 629. [discord.gg](https://discord.gg/xXuFkdHef2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 629. [en.wikipedia.org](https://en.wikipedia.org/wiki/Anticybersquatting_Consumer_Protection_Act)
+### 630. [en.wikipedia.org](https://en.wikipedia.org/wiki/Anticybersquatting_Consumer_Protection_Act)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 630. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic%5C_Church)
+### 631. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic%5C_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 631. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic\_Church)
+### 632. [en.wikipedia.org](https://en.wikipedia.org/wiki/Catholic\_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 632. [en.wikipedia.org](https://en.wikipedia.org/wiki/David_Wilcock)
+### 633. [en.wikipedia.org](https://en.wikipedia.org/wiki/David_Wilcock)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 633. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern%5C_Orthodox%5C_Church)
+### 634. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern%5C_Orthodox%5C_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 634. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern\_Orthodox\_Church)
+### 635. [en.wikipedia.org](https://en.wikipedia.org/wiki/Eastern\_Orthodox\_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 635. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ed-Deir,_Petra)
+### 636. [en.wikipedia.org](https://en.wikipedia.org/wiki/Ed-Deir,_Petra)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 636. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States)
+### 637. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 637. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States))
+### 638. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal%5C_Church%5C_(United%5C_States))
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 638. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal\_Church\_(United\_States)
+### 639. [en.wikipedia.org](https://en.wikipedia.org/wiki/Episcopal\_Church\_(United\_States)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 639. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical%5C_Lutheran%5C_Church%5C_in%5C_America)
+### 640. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical%5C_Lutheran%5C_Church%5C_in%5C_America)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 640. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical\_Lutheran\_Church\_in\_America)
+### 641. [en.wikipedia.org](https://en.wikipedia.org/wiki/Evangelical\_Lutheran\_Church\_in\_America)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 641. [en.wikipedia.org](https://en.wikipedia.org/wiki/Garrett_Reisman)
+### 642. [en.wikipedia.org](https://en.wikipedia.org/wiki/Garrett_Reisman)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 642. [en.wikipedia.org](https://en.wikipedia.org/wiki/James_Turrell)
+### 643. [en.wikipedia.org](https://en.wikipedia.org/wiki/James_Turrell)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 643. [en.wikipedia.org](https://en.wikipedia.org/wiki/Just_Asking_Questions)
+### 644. [en.wikipedia.org](https://en.wikipedia.org/wiki/Just_Asking_Questions)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 644. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word)
+### 645. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 645. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word))
+### 646. [en.wikipedia.org](https://en.wikipedia.org/wiki/Man_(word))
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 646. [en.wikipedia.org](https://en.wikipedia.org/wiki/Nobel_disease)
+### 647. [en.wikipedia.org](https://en.wikipedia.org/wiki/Nobel_disease)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 647. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA)
+### 648. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 648. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA))
+### 649. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian%5C_Church%5C_(USA))
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 649. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian\_Church\_(USA)
+### 650. [en.wikipedia.org](https://en.wikipedia.org/wiki/Presbyterian\_Church\_(USA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 650. [en.wikipedia.org](https://en.wikipedia.org/wiki/Roden_Crater)
+### 651. [en.wikipedia.org](https://en.wikipedia.org/wiki/Roden_Crater)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 651. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern%5C_Baptist%5C_Convention)
+### 652. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern%5C_Baptist%5C_Convention)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 652. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern\_Baptist\_Convention)
+### 653. [en.wikipedia.org](https://en.wikipedia.org/wiki/Southern\_Baptist\_Convention)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 653. [en.wikipedia.org](https://en.wikipedia.org/wiki/USS_Hornet_(CV-8)
+### 654. [en.wikipedia.org](https://en.wikipedia.org/wiki/USS_Hornet_(CV-8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 654. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Church%5C_of%5C_Christ)
+### 655. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Church%5C_of%5C_Christ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 655. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Methodist%5C_Church)
+### 656. [en.wikipedia.org](https://en.wikipedia.org/wiki/United%5C_Methodist%5C_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 656. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Church\_of\_Christ)
+### 657. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Church\_of\_Christ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 657. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Methodist\_Church)
+### 658. [en.wikipedia.org](https://en.wikipedia.org/wiki/United\_Methodist\_Church)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 658. [euclyd.ai](https://euclyd.ai/)
+### 659. [euclyd.ai](https://euclyd.ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **euclyd.ai**
 
 ---
 
-### 659. [giphy.com](https://giphy.com/gifs/16f18NuaH8LYkkT7M2)
+### 660. [giphy.com](https://giphy.com/gifs/16f18NuaH8LYkkT7M2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 660. [giphy.com](https://giphy.com/gifs/5gw0VWGbgNm8w)
+### 661. [giphy.com](https://giphy.com/gifs/5gw0VWGbgNm8w)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 661. [giphy.com](https://giphy.com/gifs/5xtDarm27LJsTNrwHBe)
+### 662. [giphy.com](https://giphy.com/gifs/5xtDarm27LJsTNrwHBe)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 662. [giphy.com](https://giphy.com/gifs/Ae7SI3LoPYj8Q)
+### 663. [giphy.com](https://giphy.com/gifs/Ae7SI3LoPYj8Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 663. [giphy.com](https://giphy.com/gifs/NCTbhL8AG2s8g)
+### 664. [giphy.com](https://giphy.com/gifs/NCTbhL8AG2s8g)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 664. [giphy.com](https://giphy.com/gifs/OK27wINdQS5YQ)
+### 665. [giphy.com](https://giphy.com/gifs/OK27wINdQS5YQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 665. [giphy.com](https://giphy.com/gifs/QoesEe6tCbLyw)
+### 666. [giphy.com](https://giphy.com/gifs/QoesEe6tCbLyw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 666. [giphy.com](https://giphy.com/gifs/VMgcrwq9imGHu)
+### 667. [giphy.com](https://giphy.com/gifs/VMgcrwq9imGHu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 667. [giphy.com](https://giphy.com/gifs/j9EbOM05JSzqYaB3up)
+### 668. [giphy.com](https://giphy.com/gifs/j9EbOM05JSzqYaB3up)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 668. [giphy.com](https://giphy.com/gifs/kht6FJGpPYrsyE29Rr)
+### 669. [giphy.com](https://giphy.com/gifs/kht6FJGpPYrsyE29Rr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 669. [giphy.com](https://giphy.com/gifs/l36kU80xPf0ojG0Erg)
+### 670. [giphy.com](https://giphy.com/gifs/l36kU80xPf0ojG0Erg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 670. [giphy.com](https://giphy.com/gifs/lKXd9sYM5dI9W)
+### 671. [giphy.com](https://giphy.com/gifs/lKXd9sYM5dI9W)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 671. [giphy.com](https://giphy.com/gifs/lOiJqCjiEOcmc)
+### 672. [giphy.com](https://giphy.com/gifs/lOiJqCjiEOcmc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 672. [giphy.com](https://giphy.com/gifs/ukGm72ZLZvYfS)
+### 673. [giphy.com](https://giphy.com/gifs/ukGm72ZLZvYfS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 673. [giphy.com](https://giphy.com/gifs/ygx2AsOrU4c6CDTX5Z)
+### 674. [giphy.com](https://giphy.com/gifs/ygx2AsOrU4c6CDTX5Z)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 674. [huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)
+### 675. [huggingface.co](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **huggingface.co**
 
 ---
 
-### 675. [huggingface.co](https://huggingface.co/tecaprovn/deepseek-v4-flash-gguf/tree/main)
+### 676. [huggingface.co](https://huggingface.co/tecaprovn/deepseek-v4-flash-gguf/tree/main)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **huggingface.co**
 
 ---
 
-### 676. [m.youtube.com](https://m.youtube.com/watch?v=YBUGRh6WFyk)
+### 677. [m.youtube.com](https://m.youtube.com/watch?v=YBUGRh6WFyk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **m.youtube.com**
 
 ---
 
-### 677. [m.youtube.com](https://m.youtube.com/watch?v=xYVkJwVo__A)
+### 678. [m.youtube.com](https://m.youtube.com/watch?v=xYVkJwVo__A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **m.youtube.com**
 
 ---
 
-### 678. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk)
+### 679. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 679. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk=26a0fea013120c120bdb2ea1125b28e2)
+### 680. [medium.com](https://medium.com/techx-official/i-hate-ai-says-a-veteran-coders-with-20-years-of-experience-bd328f2414dc?sk=26a0fea013120c120bdb2ea1125b28e2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 680. [open.spotify.com](https://open.spotify.com/playlist/10TB8Jl3sb6DwwI4JPCtcS)
+### 681. [open.spotify.com](https://open.spotify.com/playlist/10TB8Jl3sb6DwwI4JPCtcS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 681. [play.spotify.com](https://play.spotify.com/user/electric_forest)
+### 682. [play.spotify.com](https://play.spotify.com/user/electric_forest)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **play.spotify.com**
 
 ---
 
-### 682. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10295901/)
+### 683. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC10295901/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 683. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12564314/)
+### 684. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12564314/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 684. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3762282/)
+### 685. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC3762282/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 685. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7979486/)
+### 686. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC7979486/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 686. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9098937/)
+### 687. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC9098937/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 687. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34923676/)
+### 688. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/34923676/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubmed.ncbi.nlm.nih.gov**
 
 ---
 
-### 688. [pubs.acs.org](https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.5c01417)
+### 689. [pubs.acs.org](https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.5c01417)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubs.acs.org**
 
 ---
 
-### 689. [qwen.ai](https://qwen.ai/blog?id)
+### 690. [qwen.ai](https://qwen.ai/blog?id)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **qwen.ai**
 
 ---
 
-### 690. [qwen.ai](https://qwen.ai/blog?id=qwen3.6)
+### 691. [qwen.ai](https://qwen.ai/blog?id=qwen3.6)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **qwen.ai**
 
 ---
 
-### 691. [qwen.ai](https://qwen.ai/download)
+### 692. [qwen.ai](https://qwen.ai/download)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **qwen.ai**
 
 ---
 
-### 692. [imdb.com](https://www.imdb.com/title/tt37108224/)
+### 693. [imdb.com](https://www.imdb.com/title/tt37108224/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **imdb.com**
 
 ---
 
-### 693. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh)
+### 694. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 694. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh=MXNldHNvZGd2ZmQ3dg==)
+### 695. [instagram.com](https://www.instagram.com/reel/DWDzDj1jOmb/?igsh=MXNldHNvZGd2ZmQ3dg==)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 695. [ladbible.com](https://www.ladbible.com/news/us-news/donald-trump-tv-network-blackout-us-news-660826-20260401)
+### 696. [ladbible.com](https://www.ladbible.com/news/us-news/donald-trump-tv-network-blackout-us-news-660826-20260401)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ladbible.com**
 
 ---
 
-### 696. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch)
+### 697. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **quora.com**
 
 ---
 
-### 697. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch=10&share=8dc8bc2e&srid=Xuwj)
+### 698. [quora.com](https://www.quora.com/Does-Elon-Musk-do-some-very-technical-work-code-design-etc-at-SpaceX/answer/Josh-Boehm?ch=10&share=8dc8bc2e&srid=Xuwj)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **quora.com**
 
 ---
 
-### 698. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260526022018.htm)
+### 699. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260526022018.htm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **sciencedaily.com**
 
 ---
 
-### 699. [shadertoy.com](https://www.shadertoy.com/view/WdycRw)
+### 700. [shadertoy.com](https://www.shadertoy.com/view/WdycRw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **shadertoy.com**
 
 ---
 
-### 700. [tradingview.com](https://www.tradingview.com/chart/UK100/EaNzIume-A-Deep-Dive-Into-The-Volume-Profile/&quot;&gt;A)
+### 701. [tradingview.com](https://www.tradingview.com/chart/UK100/EaNzIume-A-Deep-Dive-Into-The-Volume-Profile/&quot;&gt;A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **tradingview.com**
 
 ---
 
-### 701. [tradingview.com](https://www.tradingview.com/script/TVVdDk5R-XAUUSD-ML-Supertrend-MatsukazeAlgo/)
+### 702. [tradingview.com](https://www.tradingview.com/script/TVVdDk5R-XAUUSD-ML-Supertrend-MatsukazeAlgo/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **tradingview.com**
 
 ---
 
-### 702. [youtube.com](https://www.youtube.com/watch?v=4_zlbrNehN8)
+### 703. [youtube.com](https://www.youtube.com/watch?v=4_zlbrNehN8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 703. [youtube.com](https://www.youtube.com/watch?v=HPKs2oBdCt8)
+### 704. [youtube.com](https://www.youtube.com/watch?v=HPKs2oBdCt8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 704. [youtube.com](https://www.youtube.com/watch?v=IXOH3bgoLiI)
+### 705. [youtube.com](https://www.youtube.com/watch?v=IXOH3bgoLiI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 705. [youtube.com](https://www.youtube.com/watch?v=JLeXVmDjGug)
+### 706. [youtube.com](https://www.youtube.com/watch?v=JLeXVmDjGug)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 706. [youtube.com](https://www.youtube.com/watch?v=MisQYvvNz-o)
+### 707. [youtube.com](https://www.youtube.com/watch?v=MisQYvvNz-o)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 707. [youtube.com](https://www.youtube.com/watch?v=N6qN8GirKZU)
+### 708. [youtube.com](https://www.youtube.com/watch?v=N6qN8GirKZU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 708. [youtube.com](https://www.youtube.com/watch?v=kLSHtx3Wi_M)
+### 709. [youtube.com](https://www.youtube.com/watch?v=kLSHtx3Wi_M)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 709. [youtube.com](https://www.youtube.com/watch?v=mxhxL1LzKww&t=902s)
+### 710. [youtube.com](https://www.youtube.com/watch?v=mxhxL1LzKww&t=902s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 710. [youtube.com](https://www.youtube.com/watch?v=pSzdThg1iW8)
+### 711. [youtube.com](https://www.youtube.com/watch?v=pSzdThg1iW8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 711. [youtube.com](https://www.youtube.com/watch?v=qV_xVlCKHDI)
+### 712. [youtube.com](https://www.youtube.com/watch?v=qV_xVlCKHDI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 712. [xcancel.com](https://xcancel.com/ChujieZheng/status/2039909486153089250)
+### 713. [xcancel.com](https://xcancel.com/ChujieZheng/status/2039909486153089250)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **xcancel.com**
 
 ---
 
-### 713. [youtu.be](https://youtu.be/-pzhzLFUu9c?si)
+### 714. [youtu.be](https://youtu.be/-pzhzLFUu9c?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 714. [youtu.be](https://youtu.be/-pzhzLFUu9c?si=jxJH1gaIlIpH5yF_)
+### 715. [youtu.be](https://youtu.be/-pzhzLFUu9c?si=jxJH1gaIlIpH5yF_)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 715. [youtu.be](https://youtu.be/0DSclqnnC2s?is)
+### 716. [youtu.be](https://youtu.be/0DSclqnnC2s?is)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 716. [youtu.be](https://youtu.be/0DSclqnnC2s?is=oqIvwb1SQcuavmud)
+### 717. [youtu.be](https://youtu.be/0DSclqnnC2s?is=oqIvwb1SQcuavmud)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 717. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t)
+### 718. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 718. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t=390)
+### 719. [youtu.be](https://youtu.be/GNG6ZzDh9C8?t=390)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 719. [youtu.be](https://youtu.be/JePxda9ZGQE)
+### 720. [youtu.be](https://youtu.be/JePxda9ZGQE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 720. [youtu.be](https://youtu.be/LOMbrwzqW4A?si)
+### 721. [youtu.be](https://youtu.be/LOMbrwzqW4A?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 721. [youtu.be](https://youtu.be/LOMbrwzqW4A?si=IxKskihmkADPasPN)
+### 722. [youtu.be](https://youtu.be/LOMbrwzqW4A?si=IxKskihmkADPasPN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 722. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si)
+### 723. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 723. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si=DfZZnSldceUndHMb)
+### 724. [youtu.be](https://youtu.be/SLK5yVXm4aQ?si=DfZZnSldceUndHMb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 724. [youtu.be](https://youtu.be/WcOvMYKTY3U?si)
+### 725. [youtu.be](https://youtu.be/WcOvMYKTY3U?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 725. [youtu.be](https://youtu.be/WcOvMYKTY3U?si=IGdLAn_C2fMTyJHF)
+### 726. [youtu.be](https://youtu.be/WcOvMYKTY3U?si=IGdLAn_C2fMTyJHF)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 726. [youtu.be](https://youtu.be/jEPvIT3RKWc)
+### 727. [youtu.be](https://youtu.be/jEPvIT3RKWc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 727. [youtu.be](https://youtu.be/xsYoeoEE3ww?si)
+### 728. [youtu.be](https://youtu.be/xsYoeoEE3ww?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 728. [4chanmusic.wikia.com](http://4chanmusic.wikia.com/wiki/Essential_Charts)
+### 729. [4chanmusic.wikia.com](http://4chanmusic.wikia.com/wiki/Essential_Charts)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **4chanmusic.wikia.com**
 
 ---
 
-### 729. [Design.md](http://Design.md)
+### 730. [Design.md](http://Design.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **Design.md**
 
 ---
 
-### 730. [discord.gg](http://discord.gg/D6Nwp25)
+### 731. [discord.gg](http://discord.gg/D6Nwp25)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 731. [discord.gg](http://discord.gg/KNSA66E)
+### 732. [discord.gg](http://discord.gg/KNSA66E)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 732. [localhost:8642](http://localhost:8642)
+### 733. [localhost:8642](http://localhost:8642)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:8642**
 
 ---
 
-### 733. [localhost:8787](http://localhost:8787)
+### 734. [localhost:8787](http://localhost:8787)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:8787**
 
 ---
 
-### 734. [past.rinfinance.com](http://past.rinfinance.com/agenda/2013/workshop/Humme+Peterson.pdf)
+### 735. [past.rinfinance.com](http://past.rinfinance.com/agenda/2013/workshop/Humme+Peterson.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **past.rinfinance.com**
 
 ---
 
-### 735. [rateyourmusic.com](http://rateyourmusic.com)
+### 736. [rateyourmusic.com](http://rateyourmusic.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rateyourmusic.com**
 
 ---
 
-### 736. [rutracker.org](http://rutracker.org)
+### 737. [rutracker.org](http://rutracker.org)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rutracker.org**
 
 ---
 
-### 737. [thinkex.app](http://thinkex.app)
+### 738. [thinkex.app](http://thinkex.app)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **thinkex.app**
 
 ---
 
-### 738. [www-bcf.usc.edu](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Fourth%20Printing.pdf)
+### 739. [www-bcf.usc.edu](http://www-bcf.usc.edu/%7Egareth/ISL/ISLR%20Fourth%20Printing.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **www-bcf.usc.edu**
 
 ---
 
-### 739. [www-stat.stanford.edu](http://www-stat.stanford.edu/%7Etibs/ElemStatLearn/)
+### 740. [www-stat.stanford.edu](http://www-stat.stanford.edu/%7Etibs/ElemStatLearn/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **www-stat.stanford.edu**
 
 ---
 
-### 740. [musicroamer.com](http://www.musicroamer.com/)
+### 741. [musicroamer.com](http://www.musicroamer.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **musicroamer.com**
 
 ---
 
-### 741. [slsknet.org](http://www.slsknet.org/)
+### 742. [slsknet.org](http://www.slsknet.org/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **slsknet.org**
 
 ---
 
-### 742. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-06-24%2010:03:53%20UTC%20To%20Local%20Time)
+### 743. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-06-24%2010:03:53%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 743. [zombtracker.the-zomb.com](http://zombtracker.the-zomb.com/)
+### 744. [zombtracker.the-zomb.com](http://zombtracker.the-zomb.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **zombtracker.the-zomb.com**
 
 ---
 
-### 744. [blinks.to](https://blinks.to/aicommunity)
+### 745. [blinks.to](https://blinks.to/aicommunity)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **blinks.to**
 
 ---
 
-### 745. [dexis.hridaai.com](https://dexis.hridaai.com)
+### 746. [dexis.hridaai.com](https://dexis.hridaai.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dexis.hridaai.com**
 
 ---
 
-### 746. [discord.gg](https://discord.gg/5vqCXzN)
+### 747. [discord.gg](https://discord.gg/5vqCXzN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 747. [discord.gg](https://discord.gg/7JQpYD4)
+### 748. [discord.gg](https://discord.gg/7JQpYD4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 748. [discord.gg](https://discord.gg/9YXkWCWEct)
+### 749. [discord.gg](https://discord.gg/9YXkWCWEct)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 749. [discord.gg](https://discord.gg/BHsTzUSb3S)
+### 750. [discord.gg](https://discord.gg/BHsTzUSb3S)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 750. [discord.gg](https://discord.gg/Bkax7NzqWu)
+### 751. [discord.gg](https://discord.gg/Bkax7NzqWu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 751. [discord.gg](https://discord.gg/KAmAR8RkbM)
+### 752. [discord.gg](https://discord.gg/KAmAR8RkbM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 752. [discord.gg](https://discord.gg/M8MAvr8eAM)
+### 753. [discord.gg](https://discord.gg/M8MAvr8eAM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 753. [discord.gg](https://discord.gg/XhBxvWs)
+### 754. [discord.gg](https://discord.gg/XhBxvWs)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 754. [discord.gg](https://discord.gg/d4hgc7GCAj)
+### 755. [discord.gg](https://discord.gg/d4hgc7GCAj)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 755. [discord.gg](https://discord.gg/rQSjWrw)
+### 756. [discord.gg](https://discord.gg/rQSjWrw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 756. [discord.gg](https://discord.gg/wuBWg2bv7y)
+### 757. [discord.gg](https://discord.gg/wuBWg2bv7y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 757. [dl.acm.org](https://dl.acm.org/doi/10.1145/3711670.3764628)
+### 758. [dl.acm.org](https://dl.acm.org/doi/10.1145/3711670.3764628)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **dl.acm.org**
 
 ---
 
-### 758. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dark_web)
+### 759. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dark_web)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 759. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dread_%28forum%29)
+### 760. [en.wikipedia.org](https://en.wikipedia.org/wiki/Dread_%28forum%29)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 760. [en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_Tor_hidden_services)
+### 761. [en.wikipedia.org](https://en.wikipedia.org/wiki/List_of_Tor_hidden_services)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 761. [en.wikipedia.org](https://en.wikipedia.org/wiki/Paracetamol)
+### 762. [en.wikipedia.org](https://en.wikipedia.org/wiki/Paracetamol)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 762. [floor796.com](https://floor796.com/)
+### 763. [floor796.com](https://floor796.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **floor796.com**
 
 ---
 
-### 763. [fxgears.com](https://fxgears.com/index.php?threads/recommended-books-for-algo-trading-in-2020.1243/)
+### 764. [fxgears.com](https://fxgears.com/index.php?threads/recommended-books-for-algo-trading-in-2020.1243/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fxgears.com**
 
 ---
 
-### 764. [giphy.com](https://giphy.com/gifs/12luQDyqvum5l6)
+### 765. [giphy.com](https://giphy.com/gifs/12luQDyqvum5l6)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 765. [giphy.com](https://giphy.com/gifs/13Ev2RtSAxKsTu)
+### 766. [giphy.com](https://giphy.com/gifs/13Ev2RtSAxKsTu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 766. [giphy.com](https://giphy.com/gifs/21S35iv1C67ns2g458)
+### 767. [giphy.com](https://giphy.com/gifs/21S35iv1C67ns2g458)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 767. [giphy.com](https://giphy.com/gifs/2MYvPc7VPl7Nx5tsjM)
+### 768. [giphy.com](https://giphy.com/gifs/2MYvPc7VPl7Nx5tsjM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 768. [giphy.com](https://giphy.com/gifs/3o751XHOgykCjlkqEo)
+### 769. [giphy.com](https://giphy.com/gifs/3o751XHOgykCjlkqEo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 769. [giphy.com](https://giphy.com/gifs/3oEdv12GfACLqkbWfe)
+### 770. [giphy.com](https://giphy.com/gifs/3oEdv12GfACLqkbWfe)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 770. [giphy.com](https://giphy.com/gifs/5CHcIlhbtAXqYsZa8l)
+### 771. [giphy.com](https://giphy.com/gifs/5CHcIlhbtAXqYsZa8l)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 771. [giphy.com](https://giphy.com/gifs/6IPNUgkpCsDRK)
+### 772. [giphy.com](https://giphy.com/gifs/6IPNUgkpCsDRK)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 772. [giphy.com](https://giphy.com/gifs/6cFcUiCG5eONW)
+### 773. [giphy.com](https://giphy.com/gifs/6cFcUiCG5eONW)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 773. [giphy.com](https://giphy.com/gifs/9SIXFu7bIUYHhFc19G)
+### 774. [giphy.com](https://giphy.com/gifs/9SIXFu7bIUYHhFc19G)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 774. [giphy.com](https://giphy.com/gifs/BSKvUAyi57iupwtmOs)
+### 775. [giphy.com](https://giphy.com/gifs/BSKvUAyi57iupwtmOs)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 775. [giphy.com](https://giphy.com/gifs/BkfAhfmX0Ppn2)
+### 776. [giphy.com](https://giphy.com/gifs/BkfAhfmX0Ppn2)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 776. [giphy.com](https://giphy.com/gifs/CfQwrQ4yoPRmM)
+### 777. [giphy.com](https://giphy.com/gifs/CfQwrQ4yoPRmM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 777. [giphy.com](https://giphy.com/gifs/D62wUmR3sX2DsZJ9t1)
+### 778. [giphy.com](https://giphy.com/gifs/D62wUmR3sX2DsZJ9t1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 778. [giphy.com](https://giphy.com/gifs/DMNPDvtGTD9WLK2Xxa)
+### 779. [giphy.com](https://giphy.com/gifs/DMNPDvtGTD9WLK2Xxa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 779. [giphy.com](https://giphy.com/gifs/EouEzI5bBR8uk)
+### 780. [giphy.com](https://giphy.com/gifs/EouEzI5bBR8uk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 780. [giphy.com](https://giphy.com/gifs/GAXMzzd2XElnG)
+### 781. [giphy.com](https://giphy.com/gifs/GAXMzzd2XElnG)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 781. [giphy.com](https://giphy.com/gifs/IxLeSDtUaZRmSiyCTf)
+### 782. [giphy.com](https://giphy.com/gifs/IxLeSDtUaZRmSiyCTf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 782. [giphy.com](https://giphy.com/gifs/LXIKTEQHicX82aU0N0)
+### 783. [giphy.com](https://giphy.com/gifs/LXIKTEQHicX82aU0N0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 783. [giphy.com](https://giphy.com/gifs/RhO00GltWegPypretb)
+### 784. [giphy.com](https://giphy.com/gifs/RhO00GltWegPypretb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 784. [giphy.com](https://giphy.com/gifs/SWoRKslHVtqEasqYCJ)
+### 785. [giphy.com](https://giphy.com/gifs/SWoRKslHVtqEasqYCJ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 785. [giphy.com](https://giphy.com/gifs/Vuw9m5wXviFIQ)
+### 786. [giphy.com](https://giphy.com/gifs/Vuw9m5wXviFIQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 786. [giphy.com](https://giphy.com/gifs/XPeu2UcyPX43u)
+### 787. [giphy.com](https://giphy.com/gifs/XPeu2UcyPX43u)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 787. [giphy.com](https://giphy.com/gifs/Y6yRfR88rvP44)
+### 788. [giphy.com](https://giphy.com/gifs/Y6yRfR88rvP44)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 788. [giphy.com](https://giphy.com/gifs/aqqUwXz7j0xMOKnJgb)
+### 789. [giphy.com](https://giphy.com/gifs/aqqUwXz7j0xMOKnJgb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 789. [giphy.com](https://giphy.com/gifs/bm02BE6DQ4Oag8GXep)
+### 790. [giphy.com](https://giphy.com/gifs/bm02BE6DQ4Oag8GXep)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 790. [giphy.com](https://giphy.com/gifs/bs2hf0GOKfnpt6dzwN)
+### 791. [giphy.com](https://giphy.com/gifs/bs2hf0GOKfnpt6dzwN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 791. [giphy.com](https://giphy.com/gifs/diXrgHOhraudy)
+### 792. [giphy.com](https://giphy.com/gifs/diXrgHOhraudy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 792. [giphy.com](https://giphy.com/gifs/hvU6wNliMXsc)
+### 793. [giphy.com](https://giphy.com/gifs/hvU6wNliMXsc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 793. [giphy.com](https://giphy.com/gifs/hzrvwvnbgIV6E)
+### 794. [giphy.com](https://giphy.com/gifs/hzrvwvnbgIV6E)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 794. [giphy.com](https://giphy.com/gifs/jH6s9HMMi53dSdI73r)
+### 795. [giphy.com](https://giphy.com/gifs/jH6s9HMMi53dSdI73r)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 795. [giphy.com](https://giphy.com/gifs/jNfJMOQv78Tgzr9H4i)
+### 796. [giphy.com](https://giphy.com/gifs/jNfJMOQv78Tgzr9H4i)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 796. [giphy.com](https://giphy.com/gifs/ji6zzUZwNIuLS)
+### 797. [giphy.com](https://giphy.com/gifs/ji6zzUZwNIuLS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 797. [giphy.com](https://giphy.com/gifs/l1J9OPU2Pw98Me2li)
+### 798. [giphy.com](https://giphy.com/gifs/l1J9OPU2Pw98Me2li)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 798. [giphy.com](https://giphy.com/gifs/l2Z84eFooeHJu)
+### 799. [giphy.com](https://giphy.com/gifs/l2Z84eFooeHJu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 799. [giphy.com](https://giphy.com/gifs/l41lFEkHkpNYFizOo)
+### 800. [giphy.com](https://giphy.com/gifs/l41lFEkHkpNYFizOo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 800. [giphy.com](https://giphy.com/gifs/l4pTh7UsSBBxRea1q)
+### 801. [giphy.com](https://giphy.com/gifs/l4pTh7UsSBBxRea1q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 801. [giphy.com](https://giphy.com/gifs/nvt5wEP6TF1Fi4s7FB)
+### 802. [giphy.com](https://giphy.com/gifs/nvt5wEP6TF1Fi4s7FB)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 802. [giphy.com](https://giphy.com/gifs/opP9JMYfG9a1y)
+### 803. [giphy.com](https://giphy.com/gifs/opP9JMYfG9a1y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 803. [giphy.com](https://giphy.com/gifs/s3vwh1LY1fUUU)
+### 804. [giphy.com](https://giphy.com/gifs/s3vwh1LY1fUUU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 804. [giphy.com](https://giphy.com/gifs/slU9sPnjk2LtK)
+### 805. [giphy.com](https://giphy.com/gifs/slU9sPnjk2LtK)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 805. [giphy.com](https://giphy.com/gifs/wysyxWt4ZlQ9q)
+### 806. [giphy.com](https://giphy.com/gifs/wysyxWt4ZlQ9q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 806. [giphy.com](https://giphy.com/gifs/wzxK9cmYgIPDy)
+### 807. [giphy.com](https://giphy.com/gifs/wzxK9cmYgIPDy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 807. [giphy.com](https://giphy.com/gifs/xT0Gquis7l8OwC2hRm)
+### 808. [giphy.com](https://giphy.com/gifs/xT0Gquis7l8OwC2hRm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 808. [giphy.com](https://giphy.com/gifs/xXYUJvxMXXgli)
+### 809. [giphy.com](https://giphy.com/gifs/xXYUJvxMXXgli)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 809. [giphy.com](https://giphy.com/gifs/yx400dIdkwWdsCgWYp)
+### 810. [giphy.com](https://giphy.com/gifs/yx400dIdkwWdsCgWYp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 810. [giphy.com](https://giphy.com/gifs/zv6yB4mNPQTxjHMQBB)
+### 811. [giphy.com](https://giphy.com/gifs/zv6yB4mNPQTxjHMQBB)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 811. [giphy.com](https://giphy.com/gifs/zzdRbdk6cey1G)
+### 812. [giphy.com](https://giphy.com/gifs/zzdRbdk6cey1G)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 812. [go.drugbank.com](https://go.drugbank.com/)
+### 813. [go.drugbank.com](https://go.drugbank.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **go.drugbank.com**
 
 ---
 
-### 813. [huggingface.co](https://huggingface.co/Qwen/Qwen3)
+### 814. [huggingface.co](https://huggingface.co/Qwen/Qwen3)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **huggingface.co**
 
 ---
 
-### 814. [icrl.org](https://icrl.org/wp-content/uploads/2020/02/Brain-Activity-And-Acoustic-Resonance.pdf)
+### 815. [icrl.org](https://icrl.org/wp-content/uploads/2020/02/Brain-Activity-And-Acoustic-Resonance.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **icrl.org**
 
 ---
 
-### 815. [letmegooglethat.com](https://letmegooglethat.com/)
+### 816. [letmegooglethat.com](https://letmegooglethat.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **letmegooglethat.com**
 
 ---
 
-### 816. [open-vsx.org](https://open-vsx.org/extension/kanezal/better-antigravity)
+### 817. [open-vsx.org](https://open-vsx.org/extension/kanezal/better-antigravity)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open-vsx.org**
 
 ---
 
-### 817. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si)
+### 818. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 818. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si=IifW7dfFQ5u7R0H3RanSaQ&t=0&pi=AHLnLdDPQpyo3)
+### 819. [open.spotify.com](https://open.spotify.com/episode/2USh9iZATg3oC0Bm1iX53X?si=IifW7dfFQ5u7R0H3RanSaQ&t=0&pi=AHLnLdDPQpyo3)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 819. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31532029/)
+### 820. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/31532029/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubmed.ncbi.nlm.nih.gov**
 
 ---
 
-### 820. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41125896/)
+### 821. [pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/41125896/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pubmed.ncbi.nlm.nih.gov**
 
 ---
 
-### 821. [share.formgrid.com](https://share.formgrid.com/DOS)
+### 822. [share.formgrid.com](https://share.formgrid.com/DOS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 822. [share.formgrid.com](https://share.formgrid.com/Y2K)
+### 823. [share.formgrid.com](https://share.formgrid.com/Y2K)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 823. [share.formgrid.com](https://share.formgrid.com/bitmap)
+### 824. [share.formgrid.com](https://share.formgrid.com/bitmap)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 824. [share.formgrid.com](https://share.formgrid.com/brutalist)
+### 825. [share.formgrid.com](https://share.formgrid.com/brutalist)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 825. [share.formgrid.com](https://share.formgrid.com/pixel-art-game)
+### 826. [share.formgrid.com](https://share.formgrid.com/pixel-art-game)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 826. [share.formgrid.com](https://share.formgrid.com/retro-sci-fi)
+### 827. [share.formgrid.com](https://share.formgrid.com/retro-sci-fi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **share.formgrid.com**
 
 ---
 
-### 827. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl)
+### 828. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **support.google.com**
 
 ---
 
-### 828. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl=en)
+### 829. [support.google.com](https://support.google.com/gemini/thread/358521542/what-is-the-reason-for-the-observed-acute-performance-degradation-in-google-gemini-2-5-pro?hl=en)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **support.google.com**
 
 ---
 
-### 829. [britishmuseum.org](https://www.britishmuseum.org/collection/object/W_K-8538)
+### 830. [britishmuseum.org](https://www.britishmuseum.org/collection/object/W_K-8538)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **britishmuseum.org**
 
 ---
 
-### 830. [formgrid.com](https://www.formgrid.com/)
+### 831. [formgrid.com](https://www.formgrid.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **formgrid.com**
 
 ---
 
-### 831. [linkedin.com](https://www.linkedin.com/posts/gregkilgore_just-when-i-thought-i-could-rely-on-ai-activity-7432914229520666624-lJO9)
+### 832. [linkedin.com](https://www.linkedin.com/posts/gregkilgore_just-when-i-thought-i-could-rely-on-ai-activity-7432914229520666624-lJO9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 832. [linkedin.com](https://www.linkedin.com/posts/kala-tran-99b24428b_the-notebooklm-magic-is-real-and-youre-activity-7435839860482957312-8Obe)
+### 833. [linkedin.com](https://www.linkedin.com/posts/kala-tran-99b24428b_the-notebooklm-magic-is-real-and-youre-activity-7435839860482957312-8Obe)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 833. [linkedin.com](https://www.linkedin.com/posts/otioai_notebooklm-users-are-noticing-something-activity-7434915594015252481-fhdF)
+### 834. [linkedin.com](https://www.linkedin.com/posts/otioai_notebooklm-users-are-noticing-something-activity-7434915594015252481-fhdF)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 834. [linkedin.com](https://www.linkedin.com/pulse/why-notebooklm-replace-your-brain-2026-my-brutally-honest-hussain-mqevf)
+### 835. [linkedin.com](https://www.linkedin.com/pulse/why-notebooklm-replace-your-brain-2026-my-brutally-honest-hussain-mqevf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 835. [mdpi.com](https://www.mdpi.com/2076-393X/12/9/958)
+### 836. [mdpi.com](https://www.mdpi.com/2076-393X/12/9/958)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **mdpi.com**
 
 ---
 
-### 836. [npmjs.org](https://www.npmjs.org/package/ibapi)
+### 837. [npmjs.org](https://www.npmjs.org/package/ibapi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **npmjs.org**
 
 ---
 
-### 837. [quantopian.com](https://www.quantopian.com/lectures)
+### 838. [quantopian.com](https://www.quantopian.com/lectures)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **quantopian.com**
 
 ---
 
-### 838. [unexplained.co](https://www.unexplained.co/news/ancient-110hz-stone-chambers-british-isles)
+### 839. [unexplained.co](https://www.unexplained.co/news/ancient-110hz-stone-chambers-british-isles)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **unexplained.co**
 
 ---
 
-### 839. [youtube.com](https://www.youtube.com/watch?v=61_F2fcvrsw)
+### 840. [youtube.com](https://www.youtube.com/watch?v=61_F2fcvrsw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 840. [youtube.com](https://www.youtube.com/watch?v=6GbTku3hrfE)
+### 841. [youtube.com](https://www.youtube.com/watch?v=6GbTku3hrfE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 841. [youtube.com](https://www.youtube.com/watch?v=BoWEttAaWpw)
+### 842. [youtube.com](https://www.youtube.com/watch?v=BoWEttAaWpw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 842. [youtube.com](https://www.youtube.com/watch?v=HeaeXaCetcY)
+### 843. [youtube.com](https://www.youtube.com/watch?v=HeaeXaCetcY)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 843. [youtube.com](https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s)
+### 844. [youtube.com](https://www.youtube.com/watch?v=Lw4W9V57SKs&t=5716s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 844. [youtube.com](https://www.youtube.com/watch?v=N37jo11yQ3E&list=RDN37jo11yQ3E&start_radio=1)
+### 845. [youtube.com](https://www.youtube.com/watch?v=N37jo11yQ3E&list=RDN37jo11yQ3E&start_radio=1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 845. [youtube.com](https://www.youtube.com/watch?v=aSdEPbBNS74)
+### 846. [youtube.com](https://www.youtube.com/watch?v=aSdEPbBNS74)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 846. [youtube.com](https://www.youtube.com/watch?v=csa2tadvVvI)
+### 847. [youtube.com](https://www.youtube.com/watch?v=csa2tadvVvI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 847. [youtube.com](https://www.youtube.com/watch?v=iwMUyaT7vMw)
+### 848. [youtube.com](https://www.youtube.com/watch?v=iwMUyaT7vMw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 848. [youtube.com](https://www.youtube.com/watch?v=lyqDvojqxc8)
+### 849. [youtube.com](https://www.youtube.com/watch?v=lyqDvojqxc8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 849. [youtube.com](https://www.youtube.com/watch?v=r2uo5ATgqzo)
+### 850. [youtube.com](https://www.youtube.com/watch?v=r2uo5ATgqzo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 850. [youtube.com](https://www.youtube.com/watch?v=rM-1xOOpKCk&list=RDrM-1xOOpKCk&start_radio=1)
+### 851. [youtube.com](https://www.youtube.com/watch?v=rM-1xOOpKCk&list=RDrM-1xOOpKCk&start_radio=1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 851. [youtube.com](https://www.youtube.com/watch?v=tmf8Ew9Z87Q)
+### 852. [youtube.com](https://www.youtube.com/watch?v=tmf8Ew9Z87Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 852. [youtube.com](https://www.youtube.com/watch?v=yu27PWzJI_Y)
+### 853. [youtube.com](https://www.youtube.com/watch?v=yu27PWzJI_Y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 853. [youtu.be](https://youtu.be/AQPpFIPOO2o?si)
+### 854. [youtu.be](https://youtu.be/AQPpFIPOO2o?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 854. [youtu.be](https://youtu.be/AQPpFIPOO2o?si=4qBEUorK8vhiXPSn)
+### 855. [youtu.be](https://youtu.be/AQPpFIPOO2o?si=4qBEUorK8vhiXPSn)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 855. [youtu.be](https://youtu.be/Ha5E5VfOKtk)
+### 856. [youtu.be](https://youtu.be/Ha5E5VfOKtk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 856. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si)
+### 857. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 857. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si=M7aYtInsKO70IGor)
+### 858. [youtu.be](https://youtu.be/ON%5C_b39E3MtY?si=M7aYtInsKO70IGor)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 858. [youtu.be](https://youtu.be/ON\_b39E3MtY?si)
+### 859. [youtu.be](https://youtu.be/ON\_b39E3MtY?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 859. [youtu.be](https://youtu.be/Okg0WQXfCL8)
+### 860. [youtu.be](https://youtu.be/Okg0WQXfCL8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 860. [youtu.be](https://youtu.be/cu2VaHvOJzo?si)
+### 861. [youtu.be](https://youtu.be/cu2VaHvOJzo?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 861. [youtu.be](https://youtu.be/cu2VaHvOJzo?si=U9UADJy2U8Pyzo39)
+### 862. [youtu.be](https://youtu.be/cu2VaHvOJzo?si=U9UADJy2U8Pyzo39)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 862. [youtu.be](https://youtu.be/vQRjst2vNGo?si)
+### 863. [youtu.be](https://youtu.be/vQRjst2vNGo?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 863. [youtu.be](https://youtu.be/vQRjst2vNGo?si=od84SUMFqvqqv1Av)
+### 864. [youtu.be](https://youtu.be/vQRjst2vNGo?si=od84SUMFqvqqv1Av)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 864. [youtu.be](https://youtu.be/wL4q3jesIFc)
+### 865. [youtu.be](https://youtu.be/wL4q3jesIFc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 865. [youtu.be](https://youtu.be/wL4q3jesIFc?si)
+### 866. [youtu.be](https://youtu.be/wL4q3jesIFc?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 866. [youtu.be](https://youtu.be/wL4q3jesIFc?si=s4IFqff4UEYi-e8q)
+### 867. [youtu.be](https://youtu.be/wL4q3jesIFc?si=s4IFqff4UEYi-e8q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 867. [CRITICISM.md](http://CRITICISM.md)
+### 868. [CRITICISM.md](http://CRITICISM.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **CRITICISM.md**
 
 ---
 
-### 868. [RELEASE.md](http://RELEASE.md)
+### 869. [RELEASE.md](http://RELEASE.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **RELEASE.md**
 
 ---
 
-### 869. [USAGE.md](http://USAGE.md)
+### 870. [USAGE.md](http://USAGE.md)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **USAGE.md**
 
 ---
 
-### 870. [careers.stackoverflow.com](http://careers.stackoverflow.com/jobs/tag/lua)
+### 871. [careers.stackoverflow.com](http://careers.stackoverflow.com/jobs/tag/lua)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **careers.stackoverflow.com**
 
 ---
 
-### 871. [localhost:5173](http://localhost:5173)
+### 872. [localhost:5173](http://localhost:5173)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:5173**
 
 ---
 
-### 872. [lua-users.org](http://lua-users.org/files/wiki_insecure/users/thomasl/luarefv51single.pdf)
+### 873. [lua-users.org](http://lua-users.org/files/wiki_insecure/users/thomasl/luarefv51single.pdf)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **lua-users.org**
 
 ---
 
-### 873. [lua-users.org](http://lua-users.org/wiki/)
+### 874. [lua-users.org](http://lua-users.org/wiki/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **lua-users.org**
 
 ---
 
-### 874. [lua-users.org](http://lua-users.org/wiki/LuaTutorial)
+### 875. [lua-users.org](http://lua-users.org/wiki/LuaTutorial)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **lua-users.org**
 
 ---
 
-### 875. [staging.example.com](http://staging.example.com)
+### 876. [staging.example.com](http://staging.example.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **staging.example.com**
 
 ---
 
-### 876. [unity3d.org](http://unity3d.org/)
+### 877. [unity3d.org](http://unity3d.org/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **unity3d.org**
 
 ---
 
-### 877. [cocos2d-x.org](http://www.cocos2d-x.org)
+### 878. [cocos2d-x.org](http://www.cocos2d-x.org)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **cocos2d-x.org**
 
 ---
 
-### 878. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2021:16:06%20UTC%20To%20Local%20Time)
+### 879. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2021:16:06%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 879. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick%5C_start/pricing)
+### 880. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick%5C_start/pricing)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **api-docs.deepseek.com**
 
 ---
 
-### 880. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick\_start/pricing)
+### 881. [api-docs.deepseek.com](https://api-docs.deepseek.com/quick\_start/pricing)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **api-docs.deepseek.com**
 
 ---
 
-### 881. [apnews.com](https://apnews.com/article/prison-to-plate-inmate-labor-investigation-c6f0eb4747963283316e494eadf08c4e)
+### 882. [apnews.com](https://apnews.com/article/prison-to-plate-inmate-labor-investigation-c6f0eb4747963283316e494eadf08c4e)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apnews.com**
 
 ---
 
-### 882. [app.fireworks.ai](https://app.fireworks.ai/)
+### 883. [app.fireworks.ai](https://app.fireworks.ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **app.fireworks.ai**
 
 ---
 
-### 883. [en.wikipedia.org](https://en.wikipedia.org/wiki/Cadillac_Desert)
+### 884. [en.wikipedia.org](https://en.wikipedia.org/wiki/Cadillac_Desert)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 884. [en.wikipedia.org](https://en.wikipedia.org/wiki/First_Folio)
+### 885. [en.wikipedia.org](https://en.wikipedia.org/wiki/First_Folio)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 885. [en.wikipedia.org](https://en.wikipedia.org/wiki/Grsync)
+### 886. [en.wikipedia.org](https://en.wikipedia.org/wiki/Grsync)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 886. [en.wikipedia.org](https://en.wikipedia.org/wiki/Heroin)
+### 887. [en.wikipedia.org](https://en.wikipedia.org/wiki/Heroin)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 887. [en.wikipedia.org](https://en.wikipedia.org/wiki/Purdue_Pharma)
+### 888. [en.wikipedia.org](https://en.wikipedia.org/wiki/Purdue_Pharma)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 888. [en.wikipedia.org](https://en.wikipedia.org/wiki/SR-17018)
+### 889. [en.wikipedia.org](https://en.wikipedia.org/wiki/SR-17018)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 889. [ente.com](https://ente.com/auth/)
+### 890. [ente.com](https://ente.com/auth/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ente.com**
 
 ---
 
-### 890. [examples.com](https://examples.com/api/openapi.json)
+### 891. [examples.com](https://examples.com/api/openapi.json)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **examples.com**
 
 ---
 
-### 891. [giphy.com](https://giphy.com/gifs/17mNCcKU1mJlrbXodo)
+### 892. [giphy.com](https://giphy.com/gifs/17mNCcKU1mJlrbXodo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 892. [giphy.com](https://giphy.com/gifs/2Ld1uJ530Bh28)
+### 893. [giphy.com](https://giphy.com/gifs/2Ld1uJ530Bh28)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 893. [giphy.com](https://giphy.com/gifs/3oAt2dA6LxMkRrGc0g)
+### 894. [giphy.com](https://giphy.com/gifs/3oAt2dA6LxMkRrGc0g)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 894. [giphy.com](https://giphy.com/gifs/3ohjULoHeH1g33ZMfS)
+### 895. [giphy.com](https://giphy.com/gifs/3ohjULoHeH1g33ZMfS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 895. [giphy.com](https://giphy.com/gifs/5lOEexLcK06KA)
+### 896. [giphy.com](https://giphy.com/gifs/5lOEexLcK06KA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 896. [giphy.com](https://giphy.com/gifs/6ILjOfJ1oL7NAc9SQ7)
+### 897. [giphy.com](https://giphy.com/gifs/6ILjOfJ1oL7NAc9SQ7)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 897. [giphy.com](https://giphy.com/gifs/99kqebx7coLYE9WpNN)
+### 898. [giphy.com](https://giphy.com/gifs/99kqebx7coLYE9WpNN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 898. [giphy.com](https://giphy.com/gifs/ANbD1CCdA3iI8)
+### 899. [giphy.com](https://giphy.com/gifs/ANbD1CCdA3iI8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 899. [giphy.com](https://giphy.com/gifs/GxSk8xCahCYVwph2Yp)
+### 900. [giphy.com](https://giphy.com/gifs/GxSk8xCahCYVwph2Yp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 900. [giphy.com](https://giphy.com/gifs/KK6stQXoHmDM4)
+### 901. [giphy.com](https://giphy.com/gifs/KK6stQXoHmDM4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 901. [giphy.com](https://giphy.com/gifs/MQIDO7U7c3fLq)
+### 902. [giphy.com](https://giphy.com/gifs/MQIDO7U7c3fLq)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 902. [giphy.com](https://giphy.com/gifs/NoPNkgzHD8HSK6Nr5l)
+### 903. [giphy.com](https://giphy.com/gifs/NoPNkgzHD8HSK6Nr5l)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 903. [giphy.com](https://giphy.com/gifs/O9HeC49RBpLpUj0ein)
+### 904. [giphy.com](https://giphy.com/gifs/O9HeC49RBpLpUj0ein)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 904. [giphy.com](https://giphy.com/gifs/OsfVaOer7N2265YTRF)
+### 905. [giphy.com](https://giphy.com/gifs/OsfVaOer7N2265YTRF)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 905. [giphy.com](https://giphy.com/gifs/RkxnUF9vtVZwMDwTen)
+### 906. [giphy.com](https://giphy.com/gifs/RkxnUF9vtVZwMDwTen)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 906. [giphy.com](https://giphy.com/gifs/WRRIEjIXvWFUlOIFi0)
+### 907. [giphy.com](https://giphy.com/gifs/WRRIEjIXvWFUlOIFi0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 907. [giphy.com](https://giphy.com/gifs/g92fjlmlDdWAF3cthh)
+### 908. [giphy.com](https://giphy.com/gifs/g92fjlmlDdWAF3cthh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 908. [giphy.com](https://giphy.com/gifs/iTa9GMEEXB7s3mJ9oi)
+### 909. [giphy.com](https://giphy.com/gifs/iTa9GMEEXB7s3mJ9oi)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 909. [giphy.com](https://giphy.com/gifs/jeXiz1RAvzX44)
+### 910. [giphy.com](https://giphy.com/gifs/jeXiz1RAvzX44)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 910. [giphy.com](https://giphy.com/gifs/nT7MlvIJRJ68ETf2GU)
+### 911. [giphy.com](https://giphy.com/gifs/nT7MlvIJRJ68ETf2GU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 911. [giphy.com](https://giphy.com/gifs/sytgHDEeDuGWc)
+### 912. [giphy.com](https://giphy.com/gifs/sytgHDEeDuGWc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 912. [krimshok.bandcamp.com](https://krimshok.bandcamp.com/track/ta-m-re-en-slip-bleu-dans-la-4-me-dimension)
+### 913. [krimshok.bandcamp.com](https://krimshok.bandcamp.com/track/ta-m-re-en-slip-bleu-dans-la-4-me-dimension)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **krimshok.bandcamp.com**
 
 ---
 
-### 913. [open.spotify.com](https://open.spotify.com/track/4xJbrWPgXqgU12lDNBEfV5?si)
+### 914. [open.spotify.com](https://open.spotify.com/track/4xJbrWPgXqgU12lDNBEfV5?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 914. [open.spotify.com](https://open.spotify.com/track/6C9PHGTpFtOihvV6kEGOYG?si)
+### 915. [open.spotify.com](https://open.spotify.com/track/6C9PHGTpFtOihvV6kEGOYG?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 915. [open.spotify.com](https://open.spotify.com/track/7pDyT3s3OG50NShsxnxQxl?si)
+### 916. [open.spotify.com](https://open.spotify.com/track/7pDyT3s3OG50NShsxnxQxl?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 916. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6214764/)
+### 917. [pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC6214764/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **pmc.ncbi.nlm.nih.gov**
 
 ---
 
-### 917. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id)
+### 918. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **reddit.zendesk.com**
 
 ---
 
-### 918. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id=73465)
+### 919. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/requests/new?ticket_form_id=73465)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **reddit.zendesk.com**
 
 ---
 
-### 919. [linkedin.com](https://www.linkedin.com/pulse/ci-green-merge-ready-virendra-bhalothia-q4z4e/)
+### 920. [linkedin.com](https://www.linkedin.com/pulse/ci-green-merge-ready-virendra-bhalothia-q4z4e/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **linkedin.com**
 
 ---
 
-### 920. [youtube.com](https://www.youtube.com/watch?v=37FQQdqvgCE)
+### 921. [youtube.com](https://www.youtube.com/watch?v=37FQQdqvgCE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 921. [youtube.com](https://www.youtube.com/watch?v=3zi3ECjw9ro)
+### 922. [youtube.com](https://www.youtube.com/watch?v=3zi3ECjw9ro)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 922. [youtube.com](https://www.youtube.com/watch?v=A2mRi-hpJw4)
+### 923. [youtube.com](https://www.youtube.com/watch?v=A2mRi-hpJw4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 923. [youtube.com](https://www.youtube.com/watch?v=Bsyu5_itudo)
+### 924. [youtube.com](https://www.youtube.com/watch?v=Bsyu5_itudo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 924. [youtube.com](https://www.youtube.com/watch?v=Ei5-iMbHQl4)
+### 925. [youtube.com](https://www.youtube.com/watch?v=Ei5-iMbHQl4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 925. [youtube.com](https://www.youtube.com/watch?v=IJuPCEWu4fI)
+### 926. [youtube.com](https://www.youtube.com/watch?v=IJuPCEWu4fI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 926. [youtube.com](https://www.youtube.com/watch?v=JhO8Lr8-BTQ)
+### 927. [youtube.com](https://www.youtube.com/watch?v=JhO8Lr8-BTQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 927. [youtube.com](https://www.youtube.com/watch?v=K67nBgPBu6U)
+### 928. [youtube.com](https://www.youtube.com/watch?v=K67nBgPBu6U)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 928. [youtube.com](https://www.youtube.com/watch?v=KV614a6RsKg)
+### 929. [youtube.com](https://www.youtube.com/watch?v=KV614a6RsKg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 929. [youtube.com](https://www.youtube.com/watch?v=LyqOnFlEAQA)
+### 930. [youtube.com](https://www.youtube.com/watch?v=LyqOnFlEAQA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 930. [youtube.com](https://www.youtube.com/watch?v=OoOWuhgscAg)
+### 931. [youtube.com](https://www.youtube.com/watch?v=OoOWuhgscAg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 931. [youtube.com](https://www.youtube.com/watch?v=QtMJOfw7RkE)
+### 932. [youtube.com](https://www.youtube.com/watch?v=QtMJOfw7RkE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 932. [youtube.com](https://www.youtube.com/watch?v=RjBVW40lQVA)
+### 933. [youtube.com](https://www.youtube.com/watch?v=RjBVW40lQVA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 933. [youtube.com](https://www.youtube.com/watch?v=UGt9dA8GCiY)
+### 934. [youtube.com](https://www.youtube.com/watch?v=UGt9dA8GCiY)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 934. [youtube.com](https://www.youtube.com/watch?v=cdo4MK1CX30)
+### 935. [youtube.com](https://www.youtube.com/watch?v=cdo4MK1CX30)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 935. [youtube.com](https://www.youtube.com/watch?v=d2N5Otknx-M)
+### 936. [youtube.com](https://www.youtube.com/watch?v=d2N5Otknx-M)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 936. [youtube.com](https://www.youtube.com/watch?v=eKuFqQKYRrA&t=4s)
+### 937. [youtube.com](https://www.youtube.com/watch?v=eKuFqQKYRrA&t=4s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 937. [youtube.com](https://www.youtube.com/watch?v=kAdGYjMJh-Q)
+### 938. [youtube.com](https://www.youtube.com/watch?v=kAdGYjMJh-Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 938. [youtube.com](https://www.youtube.com/watch?v=mdah9800wIo)
+### 939. [youtube.com](https://www.youtube.com/watch?v=mdah9800wIo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 939. [youtube.com](https://www.youtube.com/watch?v=pI-2pzrVdag)
+### 940. [youtube.com](https://www.youtube.com/watch?v=pI-2pzrVdag)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 940. [youtube.com](https://www.youtube.com/watch?v=qtDlf1lOTcs)
+### 941. [youtube.com](https://www.youtube.com/watch?v=qtDlf1lOTcs)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 941. [youtube.com](https://www.youtube.com/watch?v=tsFAgEcCVnc)
+### 942. [youtube.com](https://www.youtube.com/watch?v=tsFAgEcCVnc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 942. [youtube.com](https://www.youtube.com/watch?v=vYa2wWgv3Nc)
+### 943. [youtube.com](https://www.youtube.com/watch?v=vYa2wWgv3Nc)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 943. [youtube.com](https://www.youtube.com/watch?v=wQBFWLFhP_c)
+### 944. [youtube.com](https://www.youtube.com/watch?v=wQBFWLFhP_c)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 944. [youtu.be](https://youtu.be/1GJjuFHXUTM)
+### 945. [youtu.be](https://youtu.be/1GJjuFHXUTM)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 945. [youtu.be](https://youtu.be/4wepLsdUO7E?si)
+### 946. [youtu.be](https://youtu.be/4wepLsdUO7E?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 946. [youtu.be](https://youtu.be/4wepLsdUO7E?si=0BNaoRaIuCaZ3eTY&t=743)
+### 947. [youtu.be](https://youtu.be/4wepLsdUO7E?si=0BNaoRaIuCaZ3eTY&t=743)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 947. [youtu.be](https://youtu.be/J6vYvk7R190?si)
+### 948. [youtu.be](https://youtu.be/J6vYvk7R190?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 948. [youtu.be](https://youtu.be/J6vYvk7R190?si=QmXCKkZtXn7AUMYX)
+### 949. [youtu.be](https://youtu.be/J6vYvk7R190?si=QmXCKkZtXn7AUMYX)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 949. [youtu.be](https://youtu.be/mJSnn0GZmls)
+### 950. [youtu.be](https://youtu.be/mJSnn0GZmls)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 950. [youtu.be](https://youtu.be/mJSnn0GZmls](https://youtu.be/mJSnn0GZmls)
+### 951. [youtu.be](https://youtu.be/mJSnn0GZmls](https://youtu.be/mJSnn0GZmls)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 951. [youtu.be](https://youtu.be/zlWmzQLRwtg)
+### 952. [youtu.be](https://youtu.be/zlWmzQLRwtg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 952. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f)
+### 953. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **forums.winamp.com**
 
 ---
 
-### 953. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f=84)
+### 954. [forums.winamp.com](http://forums.winamp.com/forumdisplay.php?f=84)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **forums.winamp.com**
 
 ---
 
-### 954. [forums.winamp.com](http://forums.winamp.com/showthread.php?t)
+### 955. [forums.winamp.com](http://forums.winamp.com/showthread.php?t)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **forums.winamp.com**
 
 ---
 
-### 955. [forums.winamp.com](http://forums.winamp.com/showthread.php?t=373755)
+### 956. [forums.winamp.com](http://forums.winamp.com/showthread.php?t=373755)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **forums.winamp.com**
 
 ---
 
-### 956. [localhost:8001](http://localhost:8001/v1)
+### 957. [localhost:8001](http://localhost:8001/v1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **localhost:8001**
 
 ---
 
-### 957. [wiki.winamp.com](http://wiki.winamp.com/wiki/MilkDrop_Preset_Authoring)
+### 958. [wiki.winamp.com](http://wiki.winamp.com/wiki/MilkDrop_Preset_Authoring)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wiki.winamp.com**
 
 ---
 
-### 958. [appfactor.ai](http://www.appfactor.ai)
+### 959. [appfactor.ai](http://www.appfactor.ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **appfactor.ai**
 
 ---
 
-### 959. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2012:13:22%20UTC%20To%20Local%20Time)
+### 960. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-04-18%2012:13:22%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 960. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-10%2010:24:10%20UTC%20To%20Local%20Time)
+### 961. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-10%2010:24:10%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 961. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-17%2021:46:53%20UTC%20To%20Local%20Time)
+### 962. [wolframalpha.com](http://www.wolframalpha.com/input/?i=2026-05-17%2021:46:53%20UTC%20To%20Local%20Time)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wolframalpha.com**
 
 ---
 
-### 962. [andonlabs.com](https://andonlabs.com/blog/andon-fm](https://andonlabs.com/blog/andon-fm)
+### 963. [andonlabs.com](https://andonlabs.com/blog/andon-fm](https://andonlabs.com/blog/andon-fm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **andonlabs.com**
 
 ---
 
-### 963. [api.deepseek.com](https://api.deepseek.com)
+### 964. [api.deepseek.com](https://api.deepseek.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **api.deepseek.com**
 
 ---
 
-### 964. [build.nvidia.com](https://build.nvidia.com)
+### 965. [build.nvidia.com](https://build.nvidia.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **build.nvidia.com**
 
 ---
 
-### 965. [discord.gg](https://discord.gg/dR4QY32uYQ)
+### 966. [discord.gg](https://discord.gg/dR4QY32uYQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 966. [discord.gg](https://discord.gg/rdaytrading)
+### 967. [discord.gg](https://discord.gg/rdaytrading)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **discord.gg**
 
 ---
 
-### 967. [en.wikipedia.org](https://en.wikipedia.org/wiki/110_The_Queen%27s_Walk)
+### 968. [en.wikipedia.org](https://en.wikipedia.org/wiki/110_The_Queen%27s_Walk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 968. [en.wikipedia.org](https://en.wikipedia.org/wiki/Bell%27s_theorem)
+### 969. [en.wikipedia.org](https://en.wikipedia.org/wiki/Bell%27s_theorem)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 969. [en.wikipedia.org](https://en.wikipedia.org/wiki/California_v._Greenwood)
+### 970. [en.wikipedia.org](https://en.wikipedia.org/wiki/California_v._Greenwood)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 970. [en.wikipedia.org](https://en.wikipedia.org/wiki/Darknet)
+### 971. [en.wikipedia.org](https://en.wikipedia.org/wiki/Darknet)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 971. [en.wikipedia.org](https://en.wikipedia.org/wiki/ECHELON)
+### 972. [en.wikipedia.org](https://en.wikipedia.org/wiki/ECHELON)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 972. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gary_Webb)
+### 973. [en.wikipedia.org](https://en.wikipedia.org/wiki/Gary_Webb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 973. [en.wikipedia.org](https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy)
+### 974. [en.wikipedia.org](https://en.wikipedia.org/wiki/General_Motors_streetcar_conspiracy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 974. [en.wikipedia.org](https://en.wikipedia.org/wiki/Great_Renaming)
+### 975. [en.wikipedia.org](https://en.wikipedia.org/wiki/Great_Renaming)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 975. [en.wikipedia.org](https://en.wikipedia.org/wiki/Hotline_Communications)
+### 976. [en.wikipedia.org](https://en.wikipedia.org/wiki/Hotline_Communications)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 976. [en.wikipedia.org](https://en.wikipedia.org/wiki/Lewis_F._Powell_Jr.)
+### 977. [en.wikipedia.org](https://en.wikipedia.org/wiki/Lewis_F._Powell_Jr.)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 977. [en.wikipedia.org](https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy)
+### 978. [en.wikipedia.org](https://en.wikipedia.org/wiki/Motte-and-bailey_fallacy)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 978. [en.wikipedia.org](https://en.wikipedia.org/wiki/Propaganda_Due)
+### 979. [en.wikipedia.org](https://en.wikipedia.org/wiki/Propaganda_Due)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 979. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Emperor%27s_New_Mind)
+### 980. [en.wikipedia.org](https://en.wikipedia.org/wiki/The_Emperor%27s_New_Mind)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **en.wikipedia.org**
 
 ---
 
-### 980. [giphy.com](https://giphy.com/gifs/0wAsZOZAzl587vGZdS)
+### 981. [giphy.com](https://giphy.com/gifs/0wAsZOZAzl587vGZdS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 981. [giphy.com](https://giphy.com/gifs/10eIzdp0e7XNwA)
+### 982. [giphy.com](https://giphy.com/gifs/10eIzdp0e7XNwA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 982. [giphy.com](https://giphy.com/gifs/1267Co3vPNBqQU)
+### 983. [giphy.com](https://giphy.com/gifs/1267Co3vPNBqQU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 983. [giphy.com](https://giphy.com/gifs/1xNZvCVmpUgpMQasGW)
+### 984. [giphy.com](https://giphy.com/gifs/1xNZvCVmpUgpMQasGW)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 984. [giphy.com](https://giphy.com/gifs/2lYdCUA8oy3PVCpcY9)
+### 985. [giphy.com](https://giphy.com/gifs/2lYdCUA8oy3PVCpcY9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 985. [giphy.com](https://giphy.com/gifs/6VtMfSLqPIBABxbcRa)
+### 986. [giphy.com](https://giphy.com/gifs/6VtMfSLqPIBABxbcRa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 986. [giphy.com](https://giphy.com/gifs/9tXw3xlI8koaR0TrnJ)
+### 987. [giphy.com](https://giphy.com/gifs/9tXw3xlI8koaR0TrnJ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 987. [giphy.com](https://giphy.com/gifs/ER9ew0BbQGCDC)
+### 988. [giphy.com](https://giphy.com/gifs/ER9ew0BbQGCDC)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 988. [giphy.com](https://giphy.com/gifs/G3fPad8N68GfS)
+### 989. [giphy.com](https://giphy.com/gifs/G3fPad8N68GfS)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 989. [giphy.com](https://giphy.com/gifs/GFjD5golaTX9vqCGgq)
+### 990. [giphy.com](https://giphy.com/gifs/GFjD5golaTX9vqCGgq)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 990. [giphy.com](https://giphy.com/gifs/Ht5XGx51aeV5m)
+### 991. [giphy.com](https://giphy.com/gifs/Ht5XGx51aeV5m)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 991. [giphy.com](https://giphy.com/gifs/L5nM7o2HqkZRm)
+### 992. [giphy.com](https://giphy.com/gifs/L5nM7o2HqkZRm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 992. [giphy.com](https://giphy.com/gifs/UU1bHu6QWyFxZM63Jh)
+### 993. [giphy.com](https://giphy.com/gifs/UU1bHu6QWyFxZM63Jh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 993. [giphy.com](https://giphy.com/gifs/lL20ZCkHV511xPNCSp)
+### 994. [giphy.com](https://giphy.com/gifs/lL20ZCkHV511xPNCSp)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 994. [giphy.com](https://giphy.com/gifs/wV7z6JrHPmDWnFioew)
+### 995. [giphy.com](https://giphy.com/gifs/wV7z6JrHPmDWnFioew)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 995. [giphy.com](https://giphy.com/gifs/yctcTARequlDa)
+### 996. [giphy.com](https://giphy.com/gifs/yctcTARequlDa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 996. [huggingface.co](https://huggingface.co/models?other)
+### 997. [huggingface.co](https://huggingface.co/models?other)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **huggingface.co**
 
 ---
 
-### 997. [integrate.api.nvidia.com](https://integrate.api.nvidia.com/v1)
+### 998. [integrate.api.nvidia.com](https://integrate.api.nvidia.com/v1)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **integrate.api.nvidia.com**
 
 ---
 
-### 998. [kinfo.com](https://kinfo.com/p/tohams)
+### 999. [kinfo.com](https://kinfo.com/p/tohams)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **kinfo.com**
 
 ---
 
-### 999. [medium.com](https://medium.com/techx-official)
+### 1000. [medium.com](https://medium.com/techx-official)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 1000. [open.spotify.com](https://open.spotify.com/episode/6GeC1CVgyfCNm3kKkXxgNe)
+### 1001. [open.spotify.com](https://open.spotify.com/episode/6GeC1CVgyfCNm3kKkXxgNe)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **open.spotify.com**
 
 ---
 
-### 1001. [platform.deepseek.com](https://platform.deepseek.com/)
+### 1002. [platform.deepseek.com](https://platform.deepseek.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **platform.deepseek.com**
 
 ---
 
-### 1002. [ravensave.etsy.com](https://ravensave.etsy.com/listing/1505931174)
+### 1003. [ravensave.etsy.com](https://ravensave.etsy.com/listing/1505931174)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **ravensave.etsy.com**
 
 ---
 
-### 1003. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/204536499-What-constitutes-spam-Am-I-a-spammer-)
+### 1004. [reddit.zendesk.com](https://reddit.zendesk.com/hc/en-us/articles/204536499-What-constitutes-spam-Am-I-a-spammer-)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **reddit.zendesk.com**
 
 ---
 
-### 1004. [rentahuman.ai](https://rentahuman.ai/)
+### 1005. [rentahuman.ai](https://rentahuman.ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rentahuman.ai**
 
 ---
 
-### 1005. [substack.com](https://substack.com/home/post/p-195322473)
+### 1006. [substack.com](https://substack.com/home/post/p-195322473)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **substack.com**
 
 ---
 
-### 1006. [bls.gov](https://www.bls.gov/cps/cps_htgm.htm)
+### 1007. [bls.gov](https://www.bls.gov/cps/cps_htgm.htm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bls.gov**
 
 ---
 
-### 1007. [drugs.com](https://www.drugs.com/drug-interactions/methylene-blue-with-ritalin-1604-0-1606-979.html)
+### 1008. [drugs.com](https://www.drugs.com/drug-interactions/methylene-blue-with-ritalin-1604-0-1606-979.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **drugs.com**
 
 ---
 
-### 1008. [instagram.com](https://www.instagram.com/altobolt.ai/)
+### 1009. [instagram.com](https://www.instagram.com/altobolt.ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1009. [instagram.com](https://www.instagram.com/ikiir.c/)
+### 1010. [instagram.com](https://www.instagram.com/ikiir.c/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1010. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh)
+### 1011. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1011. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh=MXNydDFjdnRpYzY0bQ==)
+### 1012. [instagram.com](https://www.instagram.com/reel/DYE0Mn1Rgn2/?igsh=MXNydDFjdnRpYzY0bQ==)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1012. [lbruton.cc](https://www.lbruton.cc/specflow/)
+### 1013. [lbruton.cc](https://www.lbruton.cc/specflow/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **lbruton.cc**
 
 ---
 
-### 1013. [npmjs.com](https://www.npmjs.com/package/vectra-js)
+### 1014. [npmjs.com](https://www.npmjs.com/package/vectra-js)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **npmjs.com**
 
 ---
 
-### 1014. [youtube.com](https://www.youtube.com/watch?v=36GT2zI8lVA)
+### 1015. [youtube.com](https://www.youtube.com/watch?v=36GT2zI8lVA)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1015. [youtube.com](https://www.youtube.com/watch?v=4IsSUqWx158)
+### 1016. [youtube.com](https://www.youtube.com/watch?v=4IsSUqWx158)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1016. [youtube.com](https://www.youtube.com/watch?v=EZ0jy_pkud0)
+### 1017. [youtube.com](https://www.youtube.com/watch?v=EZ0jy_pkud0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1017. [youtube.com](https://www.youtube.com/watch?v=PqV4YuIhRVE)
+### 1018. [youtube.com](https://www.youtube.com/watch?v=PqV4YuIhRVE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1018. [youtube.com](https://www.youtube.com/watch?v=tSpX0t63348)
+### 1019. [youtube.com](https://www.youtube.com/watch?v=tSpX0t63348)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1019. [youtu.be](https://youtu.be/2gOhmng0LFI?si)
+### 1020. [youtu.be](https://youtu.be/2gOhmng0LFI?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1020. [youtu.be](https://youtu.be/2gOhmng0LFI?si=eVamLjbQLTAv%5C_8VN)
+### 1021. [youtu.be](https://youtu.be/2gOhmng0LFI?si=eVamLjbQLTAv%5C_8VN)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1021. [youtu.be](https://youtu.be/5kxtZfO2mvc?si)
+### 1022. [youtu.be](https://youtu.be/5kxtZfO2mvc?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1022. [youtu.be](https://youtu.be/5kxtZfO2mvc?si=i0iIx0g8ICrOrGt4)
+### 1023. [youtu.be](https://youtu.be/5kxtZfO2mvc?si=i0iIx0g8ICrOrGt4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1023. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si)
+### 1024. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1024. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si=lfCOoDvnXz0_gozt)
+### 1025. [youtu.be](https://youtu.be/AyfOWqiBC3Q?si=lfCOoDvnXz0_gozt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1025. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si)
+### 1026. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1026. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si=Yhj1Hywi3DDCB3Qz)
+### 1027. [youtu.be](https://youtu.be/Mgwd_3k3pOw?si=Yhj1Hywi3DDCB3Qz)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1027. [youtu.be](https://youtu.be/NNOq3T26MIQ)
+### 1028. [youtu.be](https://youtu.be/NNOq3T26MIQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1028. [youtu.be](https://youtu.be/Ob1U_arrIP4)
+### 1029. [youtu.be](https://youtu.be/Ob1U_arrIP4)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1029. [youtu.be](https://youtu.be/RRLF7rbodgI?si)
+### 1030. [youtu.be](https://youtu.be/RRLF7rbodgI?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1030. [youtu.be](https://youtu.be/RRLF7rbodgI?si=IzOK166YHOHUZ4H-)
+### 1031. [youtu.be](https://youtu.be/RRLF7rbodgI?si=IzOK166YHOHUZ4H-)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1031. [youtu.be](https://youtu.be/dngOH9G4UPw?si)
+### 1032. [youtu.be](https://youtu.be/dngOH9G4UPw?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1032. [youtu.be](https://youtu.be/dngOH9G4UPw?si=btwhVvDpQ3zGQLae)
+### 1033. [youtu.be](https://youtu.be/dngOH9G4UPw?si=btwhVvDpQ3zGQLae)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1033. [youtu.be](https://youtu.be/eKW1yjy1A6Y)
+### 1034. [youtu.be](https://youtu.be/eKW1yjy1A6Y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1034. [youtu.be](https://youtu.be/fT03vCaL-F0?si)
+### 1035. [youtu.be](https://youtu.be/fT03vCaL-F0?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1035. [youtu.be](https://youtu.be/fT03vCaL-F0?si=5DaXhByNBrIJEkWV)
+### 1036. [youtu.be](https://youtu.be/fT03vCaL-F0?si=5DaXhByNBrIJEkWV)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1036. [youtu.be](https://youtu.be/j_QfX0SYCE8)
+### 1037. [youtu.be](https://youtu.be/j_QfX0SYCE8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1037. [youtu.be](https://youtu.be/unb_yoj1Usk)
+### 1038. [youtu.be](https://youtu.be/unb_yoj1Usk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1038. [youtu.be](https://youtu.be/zb7Bs98KmnY?si)
+### 1039. [youtu.be](https://youtu.be/zb7Bs98KmnY?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1039. [youtu.be](https://youtu.be/zb7Bs98KmnY?si=OOhb1zkImdCVnfs7)
+### 1040. [youtu.be](https://youtu.be/zb7Bs98KmnY?si=OOhb1zkImdCVnfs7)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1040. [youtube.com](https://youtube.com/playlist?list=PLKVRMm6i0kggMtjKecjF51t_0yp5ydPs8&si=lqifPjd29e8O0q_Q)
+### 1041. [youtube.com](https://youtube.com/playlist?list=PLKVRMm6i0kggMtjKecjF51t_0yp5ydPs8&si=lqifPjd29e8O0q_Q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1041. [askhistorians.tumblr.com](http://askhistorians.tumblr.com/)
+### 1042. [askhistorians.tumblr.com](http://askhistorians.tumblr.com/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **askhistorians.tumblr.com**
 
 ---
 
-### 1042. [https://](https://)
+### 1043. [https://](https://)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **https://**
 
 ---
 
-### 1043. [abc123.ngrok.io](https://abc123.ngrok.io)
+### 1044. [abc123.ngrok.io](https://abc123.ngrok.io)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **abc123.ngrok.io**
 
 ---
 
-### 1044. [aistudio.google.com](https://aistudio.google.com)
+### 1045. [aistudio.google.com](https://aistudio.google.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **aistudio.google.com**
 
 ---
 
-### 1045. [api.yosup.dev](https://api.yosup.dev/r/DYk3GQ)
+### 1046. [api.yosup.dev](https://api.yosup.dev/r/DYk3GQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **api.yosup.dev**
 
 ---
 
-### 1046. [arman-bd.hashnode.dev](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up)
+### 1047. [arman-bd.hashnode.dev](https://arman-bd.hashnode.dev/i-left-port-22-open-on-the-internet-for-54-days-here-s-who-showed-up)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **arman-bd.hashnode.dev**
 
 ---
 
-### 1047. [giphy.com](https://giphy.com/gifs/12q2LPLdgfUo6Y)
+### 1048. [giphy.com](https://giphy.com/gifs/12q2LPLdgfUo6Y)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1048. [giphy.com](https://giphy.com/gifs/LO5fl2Iv46PFexPzVZ)
+### 1049. [giphy.com](https://giphy.com/gifs/LO5fl2Iv46PFexPzVZ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1049. [giphy.com](https://giphy.com/gifs/RURAojdRlmGvm)
+### 1050. [giphy.com](https://giphy.com/gifs/RURAojdRlmGvm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1050. [giphy.com](https://giphy.com/gifs/VXEZKbtw9IVrhXHGas)
+### 1051. [giphy.com](https://giphy.com/gifs/VXEZKbtw9IVrhXHGas)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1051. [giphy.com](https://giphy.com/gifs/aZCe6RyeVOKZQLgByU)
+### 1052. [giphy.com](https://giphy.com/gifs/aZCe6RyeVOKZQLgByU)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1052. [giphy.com](https://giphy.com/gifs/l0NwKAlZzZ9pyi9fa)
+### 1053. [giphy.com](https://giphy.com/gifs/l0NwKAlZzZ9pyi9fa)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1053. [giphy.com](https://giphy.com/gifs/wrBURfbZmqqXu)
+### 1054. [giphy.com](https://giphy.com/gifs/wrBURfbZmqqXu)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **giphy.com**
 
 ---
 
-### 1054. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q)
+### 1055. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1055. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q=earth+day+house+of+yes&img_index=5)
+### 1056. [instagram.com](https://www.instagram.com/p/DXpIfr6lp5J/?q=earth+day+house+of+yes&img_index=5)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **instagram.com**
 
 ---
 
-### 1056. [nytimes.com](https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html)
+### 1057. [nytimes.com](https://www.nytimes.com/2026/06/01/us/politics/china-ai-predicting-dissent.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 1057. [theregister.com](https://www.theregister.com/2024/10/08/torvalds_grammar_complaint/)
+### 1058. [theregister.com](https://www.theregister.com/2024/10/08/torvalds_grammar_complaint/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **theregister.com**
 
 ---
 
-### 1058. [youtube.com](https://www.youtube.com/watch?v=EU0EtL8VHSI)
+### 1059. [youtube.com](https://www.youtube.com/watch?v=EU0EtL8VHSI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1059. [youtube.com](https://www.youtube.com/watch?v=OUZU1JvHU3s)
+### 1060. [youtube.com](https://www.youtube.com/watch?v=OUZU1JvHU3s)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1060. [youtube.com](https://www.youtube.com/watch?v=PyJFcsn8B08)
+### 1061. [youtube.com](https://www.youtube.com/watch?v=PyJFcsn8B08)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1061. [youtu.be](https://youtu.be/-nEOJhOiwjU?si)
+### 1062. [youtu.be](https://youtu.be/-nEOJhOiwjU?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1062. [youtu.be](https://youtu.be/-nEOJhOiwjU?si=dq4oTK3yynHxAm_9)
+### 1063. [youtu.be](https://youtu.be/-nEOJhOiwjU?si=dq4oTK3yynHxAm_9)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1063. [youtu.be](https://youtu.be/IoScx5FUkas?si)
+### 1064. [youtu.be](https://youtu.be/IoScx5FUkas?si)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1064. [youtu.be](https://youtu.be/IoScx5FUkas?si=bjmVZ_GlCoJviHlk)
+### 1065. [youtu.be](https://youtu.be/IoScx5FUkas?si=bjmVZ_GlCoJviHlk)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1065. [youtu.be](https://youtu.be/UajOKPiv4Uo)
+### 1066. [youtu.be](https://youtu.be/UajOKPiv4Uo)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtu.be**
 
 ---
 
-### 1066. [rnz.co.nz](https://www.rnz.co.nz/life/books/lid-lifting-kiwi-author-forced-to-sit-in-silence-at-writers-festival)
+### 1067. [rnz.co.nz](https://www.rnz.co.nz/life/books/lid-lifting-kiwi-author-forced-to-sit-in-silence-at-writers-festival)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **rnz.co.nz**
 
 ---
 
-### 1067. [economist.com](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai)
+### 1068. [economist.com](https://www.economist.com/finance-and-economics/2026/06/01/can-the-stockmarket-swallow-anthropic-spacex-and-openai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **economist.com**
 
 ---
 
-### 1068. [bbc.com](https://www.bbc.com/news/articles/c152yvwjwkko)
+### 1069. [bbc.com](https://www.bbc.com/news/articles/c152yvwjwkko)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bbc.com**
 
 ---
 
-### 1069. [bbc.com](https://www.bbc.com/news/articles/cy5222wn410o)
+### 1070. [bbc.com](https://www.bbc.com/news/articles/cy5222wn410o)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bbc.com**
 
 ---
 
-### 1070. [404media.co](https://www.404media.co/we-sued-ice-to-get-its-spyware-contract-the-agency-is-redacting-essentially-everything/)
+### 1071. [404media.co](https://www.404media.co/we-sued-ice-to-get-its-spyware-contract-the-agency-is-redacting-essentially-everything/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **404media.co**
 
 ---
 
-### 1071. [bbc.com](https://www.bbc.com/news/articles/crmp9mppvzro)
+### 1072. [bbc.com](https://www.bbc.com/news/articles/crmp9mppvzro)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bbc.com**
 
 ---
 
-### 1072. [paulkrugman.substack.com](https://paulkrugman.substack.com/p/pogroms-american-style)
+### 1073. [paulkrugman.substack.com](https://paulkrugman.substack.com/p/pogroms-american-style)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **paulkrugman.substack.com**
 
 ---
 
-### 1073. [variety.com](https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/)
+### 1074. [variety.com](https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **variety.com**
 
 ---
 
-### 1074. [wsj.com](https://www.wsj.com/lifestyle/careers/white-collar-workers-career-nyu-study-a81a7d9c)
+### 1075. [wsj.com](https://www.wsj.com/lifestyle/careers/white-collar-workers-career-nyu-study-a81a7d9c)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wsj.com**
 
 ---
 
-### 1075. [idlewords.com](https://idlewords.com/talks/superintelligence.htm)
+### 1076. [idlewords.com](https://idlewords.com/talks/superintelligence.htm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **idlewords.com**
 
 ---
 
-### 1076. [apnews.com](https://apnews.com/article/malaysia-social-media-ban-16-bfaa7b01163b61b5d53c4ecfa870d133)
+### 1077. [apnews.com](https://apnews.com/article/malaysia-social-media-ban-16-bfaa7b01163b61b5d53c4ecfa870d133)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **apnews.com**
 
 ---
 
-### 1077. [deflock.org](https://deflock.org/)
+### 1078. [deflock.org](https://deflock.org/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **deflock.org**
 
 ---
 
-### 1078. [politico.com](https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215)
+### 1079. [politico.com](https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **politico.com**
 
 ---
 
-### 1079. [youtube.com](https://www.youtube.com/watch?v=chJHB-btMNI)
+### 1080. [youtube.com](https://www.youtube.com/watch?v=chJHB-btMNI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1080. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260530053418.htm)
+### 1081. [sciencedaily.com](https://www.sciencedaily.com/releases/2026/05/260530053418.htm)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **sciencedaily.com**
 
 ---
 
-### 1081. [members.sigmazero.cc](https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096)
+### 1082. [members.sigmazero.cc](https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **members.sigmazero.cc**
 
 ---
 
-### 1082. [bloomberg.com](https://www.bloomberg.com/features/2026-trump-cfpb-enforcement)
+### 1083. [bloomberg.com](https://www.bloomberg.com/features/2026-trump-cfpb-enforcement)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bloomberg.com**
 
 ---
 
-### 1083. [youtube.com](https://www.youtube.com/watch?v=3YvwqMDDb3k)
+### 1084. [youtube.com](https://www.youtube.com/watch?v=3YvwqMDDb3k)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1084. [tunnel.to](https://tunnel.to)
+### 1085. [tunnel.to](https://tunnel.to)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **tunnel.to**
 
 ---
 
-### 1085. [youtube.com](https://www.youtube.com/watch?v=St_kJZXZ_nE)
+### 1086. [youtube.com](https://www.youtube.com/watch?v=St_kJZXZ_nE)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1086. [nytimes.com](https://www.nytimes.com/2026/06/01/opinion/artificial-intelligence-bernie-sanders.html)
+### 1087. [nytimes.com](https://www.nytimes.com/2026/06/01/opinion/artificial-intelligence-bernie-sanders.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 1087. [thezvi.substack.com](https://thezvi.substack.com/p/claude-opus-48-capabilities-and-reactions)
+### 1088. [thezvi.substack.com](https://thezvi.substack.com/p/claude-opus-48-capabilities-and-reactions)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **thezvi.substack.com**
 
 ---
 
-### 1088. [youtube.com](https://www.youtube.com/watch?v=GPq_f6Ev3V8)
+### 1089. [youtube.com](https://www.youtube.com/watch?v=GPq_f6Ev3V8)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1089. [bogleheads.org](https://www.bogleheads.org/forum/viewtopic.php?p=8777924#p8777924)
+### 1090. [bogleheads.org](https://www.bogleheads.org/forum/viewtopic.php?p=8777924#p8777924)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bogleheads.org**
 
 ---
 
-### 1090. [construct.net](https://www.construct.net/en/blogs/construct-official-blog-1/launching-construct-game-1901)
+### 1091. [construct.net](https://www.construct.net/en/blogs/construct-official-blog-1/launching-construct-game-1901)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **construct.net**
 
 ---
 
-### 1091. [seo-sutra.netlify.app](https://seo-sutra.netlify.app/)
+### 1092. [seo-sutra.netlify.app](https://seo-sutra.netlify.app/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **seo-sutra.netlify.app**
 
 ---
 
-### 1092. [youtube.com](https://www.youtube.com/watch?v=qIob2-ugCO0)
+### 1093. [youtube.com](https://www.youtube.com/watch?v=qIob2-ugCO0)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1093. [relocateme.substack.com](https://relocateme.substack.com/p/moving-to-estonia-for-work)
+### 1094. [relocateme.substack.com](https://relocateme.substack.com/p/moving-to-estonia-for-work)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **relocateme.substack.com**
 
 ---
 
-### 1094. [claudeschool.substack.com](https://claudeschool.substack.com/p/the-hottest-new-job-in-corporate)
+### 1095. [claudeschool.substack.com](https://claudeschool.substack.com/p/the-hottest-new-job-in-corporate)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **claudeschool.substack.com**
 
 ---
 
-### 1095. [axios.com](https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage)
+### 1096. [axios.com](https://www.axios.com/2026/06/02/anthropic-ipo-ai-sticker-shock-spending-usage)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **axios.com**
 
 ---
 
-### 1096. [youtube.com](https://www.youtube.com/watch?v=wLKGiulfOZw)
+### 1097. [youtube.com](https://www.youtube.com/watch?v=wLKGiulfOZw)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1097. [erdavis.com](https://erdavis.com/2026/05/29/whats-the-oldest-name-in-the-u-s/)
+### 1098. [erdavis.com](https://erdavis.com/2026/05/29/whats-the-oldest-name-in-the-u-s/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **erdavis.com**
 
 ---
 
-### 1098. [syracuse.com](https://www.syracuse.com/news/2026/06/ny-takes-new-steps-toward-hochuls-plan-for-a-nuclear-future.html)
+### 1099. [syracuse.com](https://www.syracuse.com/news/2026/06/ny-takes-new-steps-toward-hochuls-plan-for-a-nuclear-future.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **syracuse.com**
 
 ---
 
-### 1099. [nytimes.com](https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html)
+### 1100. [nytimes.com](https://www.nytimes.com/2026/06/02/us/pattie-gonia-patagonia-trademark-lawsuit.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **nytimes.com**
 
 ---
 
-### 1100. [wwwprimerpickr.com](https://wwwprimerpickr.com)
+### 1101. [wwwprimerpickr.com](https://wwwprimerpickr.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **wwwprimerpickr.com**
 
 ---
 
-### 1101. [agtchain.io](https://agtchain.io/)
+### 1102. [agtchain.io](https://agtchain.io/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **agtchain.io**
 
 ---
 
-### 1102. [youtube.com](https://www.youtube.com/watch?v=DmU9uovmT2A)
+### 1103. [youtube.com](https://www.youtube.com/watch?v=DmU9uovmT2A)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1103. [help.delduca.org](https://help.delduca.org)
+### 1104. [help.delduca.org](https://help.delduca.org)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **help.delduca.org**
 
 ---
 
-### 1104. [maxschmitt.me](https://maxschmitt.me/posts/phishing-attempt)
+### 1105. [maxschmitt.me](https://maxschmitt.me/posts/phishing-attempt)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **maxschmitt.me**
 
 ---
 
-### 1105. [bloomberg.com](https://www.bloomberg.com/opinion/articles/2026-06-02/can-t-find-a-job-after-graduation-blame-wfh-not-ai)
+### 1106. [bloomberg.com](https://www.bloomberg.com/opinion/articles/2026-06-02/can-t-find-a-job-after-graduation-blame-wfh-not-ai)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **bloomberg.com**
 
 ---
 
-### 1106. [youtube.com](https://www.youtube.com/watch?v=wM4SJsaymUI)
+### 1107. [youtube.com](https://www.youtube.com/watch?v=wM4SJsaymUI)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **youtube.com**
 
 ---
 
-### 1107. [washoku.substack.com](https://washoku.substack.com/p/the-minimum-viable-meal)
+### 1108. [washoku.substack.com](https://washoku.substack.com/p/the-minimum-viable-meal)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **washoku.substack.com**
 
 ---
 
-### 1108. [oortstack.com](https://oortstack.com)
+### 1109. [oortstack.com](https://oortstack.com)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **oortstack.com**
 
 ---
 
-### 1109. [techdirt.com](https://www.techdirt.com/2026/06/01/john-deere-faces-second-class-action-for-monopolizing-repair/)
+### 1110. [techdirt.com](https://www.techdirt.com/2026/06/01/john-deere-faces-second-class-action-for-monopolizing-repair/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **techdirt.com**
 
 ---
 
-### 1110. [404media.co](https://www.404media.co/ai-grifters-are-making-anti-data-center-slop-with-ai/)
+### 1111. [404media.co](https://www.404media.co/ai-grifters-are-making-anti-data-center-slop-with-ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **404media.co**
 
 ---
 
-### 1111. [theglobeandmail.com](https://www.theglobeandmail.com/life/article-canadians-arent-taking-their-paid-vacation-days-can-burnout-be-far/)
+### 1112. [theglobeandmail.com](https://www.theglobeandmail.com/life/article-canadians-arent-taking-their-paid-vacation-days-can-burnout-be-far/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **theglobeandmail.com**
 
 ---
 
-### 1112. [404media.co](https://www.404media.co/here-is-the-contract-for-palantirs-super-api-for-the-irs/)
+### 1113. [404media.co](https://www.404media.co/here-is-the-contract-for-palantirs-super-api-for-the-irs/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **404media.co**
 
 ---
 
-### 1113. [macrumors.com](https://www.macrumors.com/2026/06/02/microsoft-office-2019-for-mac-no-edit-documents/)
+### 1114. [macrumors.com](https://www.macrumors.com/2026/06/02/microsoft-office-2019-for-mac-no-edit-documents/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **macrumors.com**
 
 ---
 
-### 1114. [shop.tekmetric.com](https://shop.tekmetric.com/authorize/kCzt7k4Cs2nr3TdFSc8H0EZHYA_E3cKY1Qb1lULDvVg)
+### 1115. [shop.tekmetric.com](https://shop.tekmetric.com/authorize/kCzt7k4Cs2nr3TdFSc8H0EZHYA_E3cKY1Qb1lULDvVg)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **shop.tekmetric.com**
 
 ---
 
-### 1115. [checkout.thefaithmade.com](https://checkout.thefaithmade.com/checkout?omni_fp=f0534649f5d96a47ffe3284310e94879e6bf8d0c09651c0b662aedd321a07ad8&sid=6a1e4a97254b511facd0d3a6&gad_campaignid=23845159429&wbraid=ClwKCAjw2_TQBhB3EkwAps_alVAlvEaKk2zQOHDVynOBFQ3suTlh-Po18KlBLWsfxgByHFdOe9AVWJoI90anWWozfoFJHB0Jk9kOQm4rmcy4FLkOQhAZ4bBkGgLmtQ)
+### 1116. [checkout.thefaithmade.com](https://checkout.thefaithmade.com/checkout?omni_fp=f0534649f5d96a47ffe3284310e94879e6bf8d0c09651c0b662aedd321a07ad8&sid=6a1e4a97254b511facd0d3a6&gad_campaignid=23845159429&wbraid=ClwKCAjw2_TQBhB3EkwAps_alVAlvEaKk2zQOHDVynOBFQ3suTlh-Po18KlBLWsfxgByHFdOe9AVWJoI90anWWozfoFJHB0Jk9kOQm4rmcy4FLkOQhAZ4bBkGgLmtQ)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **checkout.thefaithmade.com**
 
 ---
 
-### 1116. [chutes.ai](https://chutes.ai/app/chute/b048fe26-0352-5c46-acf7-335e527e7f3d)
+### 1117. [chutes.ai](https://chutes.ai/app/chute/b048fe26-0352-5c46-acf7-335e527e7f3d)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **chutes.ai**
 
 ---
 
-### 1117. [code.intellios.ai](https://code.intellios.ai/)
+### 1118. [code.intellios.ai](https://code.intellios.ai/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **code.intellios.ai**
 
 ---
 
-### 1118. [vast.ai](https://vast.ai/model/dia-1.6b?rdt_cid=5499486651254613987&utm_campaign=model_library&utm_medium=paid&utm_source=reddit)
+### 1119. [vast.ai](https://vast.ai/model/dia-1.6b?rdt_cid=5499486651254613987&utm_campaign=model_library&utm_medium=paid&utm_source=reddit)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **vast.ai**
 
 ---
 
-### 1119. [vybestack.dev](https://vybestack.dev/llxprt-code.html)
+### 1120. [vybestack.dev](https://vybestack.dev/llxprt-code.html)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **vybestack.dev**
 
 ---
 
-### 1120. [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors - Alexey Guzey](https://guzey.com/books/why-we-sleep/)
+### 1121. [go.dev](https://go.dev/blog/go-fonts)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**go.dev**
+
+---
+
+### 1122. [getanchorgrid.com](https://www.getanchorgrid.com/developer/docs/endpoints/drawings-schedules)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**getanchorgrid.com**
+
+---
+
+### 1123. [getanchorgrid.com](https://www.getanchorgrid.com/developer/docs/endpoints/specs-content-extract)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**getanchorgrid.com**
+
+---
+
+### 1124. [getanchorgrid.com](https://www.getanchorgrid.com/developer/docs/endpoints/specs-parse)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**getanchorgrid.com**
+
+---
+
+### 1125. [getanchorgrid.com](https://www.getanchorgrid.com/developer/docs/changelog/construction-drawings-are-data-prisons)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**getanchorgrid.com**
+
+---
+
+### 1126. [tailscale.com](https://tailscale.com/blog/how-nat-traversal-works)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tailscale.com**
+
+---
+
+### 1127. [arXiv Paper](https://arxiv.org/html/2512.14982v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2512.14982v1**
+
+---
+
+### 1128. [hn.algolia.com](https://hn.algolia.com/?query=Universal%20Claude.md%20%E2%80%93%20cut%20Claude%20output%20tokens&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 1129. [arXiv Paper](https://arxiv.org/abs/2412.13171)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2412.13171**
+
+---
+
+### 1130. [arXiv Paper](https://arxiv.org/pdf/2407.21772)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2407.21772**
+
+---
+
+### 1131. [huggingface.co](https://huggingface.co/google/gemma-4-31B-it/blob/main/tokenizer_config.json#L37)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1132. [openai.com](https://openai.com/index/introducing-gpt-oss/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 1133. [unsloth.ai](https://unsloth.ai/docs/basics/unsloth-dynamic-2.0-ggufs)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unsloth.ai**
+
+---
+
+### 1134. [modular.com](https://www.modular.com/blog/day-zero-launch-fastest-performance-for-gemma-4-on-nvidia-and-amd?utm_campaign=day0&utm_source=hn_chris)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**modular.com**
+
+---
+
+### 1135. [huggingface.co](https://huggingface.co/collections/unsloth/gemma-4)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1136. [ai.google.dev](https://ai.google.dev/gemma/docs/gemma-3n#parameters)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.google.dev**
+
+---
+
+### 1137. [huggingface.co](https://huggingface.co/google/gemma-4-26B-A4B-it#getting-started)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1138. [help.kagi.com](https://help.kagi.com/kagi/ai/llm-benchmark.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**help.kagi.com**
+
+---
+
+### 1139. [huggingface.co](https://huggingface.co/google/shieldgemma-2b)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1140. [huggingface.co](https://huggingface.co/Qwen/Qwen3.5-4B)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1141. [huggingface.co](https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1142. [huggingface.co](https://huggingface.co/google/gemma-4-E4B-it)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1143. [modular.com](https://www.modular.com/blog/day-zero-launch-fastest-performance-for-gemma-4-on-nvidia-and-amd)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**modular.com**
+
+---
+
+### 1144. [huggingface.co](https://huggingface.co/spaces/DontPlanToEnd/UGI-Leaderboard)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1145. [ml6.eu](https://www.ml6.eu/en/blog/large-language-models-to-fine-tune-or-not-to-fine-tune)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ml6.eu**
+
+---
+
+### 1146. [unsloth.ai](https://unsloth.ai/blog/gemma3)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unsloth.ai**
+
+---
+
+### 1147. [polymathic-ai.org](https://polymathic-ai.org/blog/xval/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**polymathic-ai.org**
+
+---
+
+### 1148. [arXiv Paper](https://arxiv.org/abs/2601.19897)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2601.19897**
+
+---
+
+### 1149. [ai.google.dev](https://ai.google.dev/edge)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.google.dev**
+
+---
+
+### 1150. [huggingface.co](https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1151. [enclaveai.app](https://enclaveai.app/blog/2026/04/02/gemma-4-release-on-device-local-ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**enclaveai.app**
+
+---
+
+### 1152. [ai.google.dev](https://ai.google.dev/edge/litert-lm/overview)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.google.dev**
+
+---
+
+### 1153. [huggingface.co](https://huggingface.co/litert-community/gemma-4-E2B-it-litert-lm)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1154. [arXiv Paper](https://arxiv.org/abs/2405.14831)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2405.14831**
+
+---
+
+### 1155. [cognizant.com](https://www.cognizant.com/us/en/ai-lab/blog/maker)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cognizant.com**
+
+---
+
+### 1156. [anthropic.com](https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1157. [huggingface.co](https://huggingface.co/unsloth/GLM-5.1-GGUF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1158. [huggingface.co](https://huggingface.co/trohrbaugh/gemma-4-31b-it-heretic-ara/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1159. [kylehalladay.com](https://kylehalladay.com/blog/2020/05/20/Rendering-With-Notepad.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**kylehalladay.com**
+
+---
+
+### 1160. [huggingface.co](https://huggingface.co/spaces/aman179102/moodsense-ai)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1161. [citellm.com](https://citellm.com/demo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**citellm.com**
+
+---
+
+### 1162. [numa.rs](https://numa.rs/blog/posts/fixing-doh-tail-latency.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**numa.rs**
+
+---
+
+### 1163. [tritium.legal](https://tritium.legal/blog/redlining)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**tritium.legal**
+
+---
+
+### 1164. [joyint.com](https://joyint.com/en/docs/architecture)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**joyint.com**
+
+---
+
+### 1165. [apostrophecms.com](https://apostrophecms.com/blog/how-to-be-more-productive-with-claude-code-part-1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apostrophecms.com**
+
+---
+
+### 1166. [citellm.com](https://citellm.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**citellm.com**
+
+---
+
+### 1167. [apostrophecms.com](https://apostrophecms.com/blog/claude-code-part-2-making-the-leap-without-shipping-slop)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**apostrophecms.com**
+
+---
+
+### 1168. [finbodhi.com](https://finbodhi.com/docs/blog/benchmark-scenarios)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**finbodhi.com**
+
+---
+
+### 1169. [arXiv Paper](https://arxiv.org/abs/2604.04660)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2604.04660**
+
+---
+
+### 1170. [huggingface.co](https://huggingface.co/datasets/CnakeCharmer/CnakeCharmer)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1171. [andrewhathaway.net](https://andrewhathaway.net/blog/ambient-cost-display-for-octopus-energy/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**andrewhathaway.net**
+
+---
+
+### 1172. [finbodhi.com](https://finbodhi.com/docs/understanding-double-entry)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**finbodhi.com**
+
+---
+
+### 1173. [jellyfin.org](https://jellyfin.org/docs/general/post-install/transcoding/hardware-acceleration/#remote-hardware-acceleration)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jellyfin.org**
+
+---
+
+### 1174. [jellyfin.org](https://jellyfin.org/docs/general/post-install/networking/#ssl--https)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jellyfin.org**
+
+---
+
+### 1175. [jellyfin.org](https://jellyfin.org/docs/general/post-install/transcoding/hardware-acceleration/intel/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jellyfin.org**
+
+---
+
+### 1176. [code.claude.com](https://code.claude.com/docs/en/remote-control)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**code.claude.com**
+
+---
+
+### 1177. [theverge.com](https://www.theverge.com/ai-artificial-intelligence/907074/anthropic-openclaw-claude-subscription-ban)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**theverge.com**
+
+---
+
+### 1178. [code.claude.com](https://code.claude.com/docs/en/scheduled-tasks)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**code.claude.com**
+
+---
+
+### 1179. [claude.ai](https://claude.ai/share/291ccf67-19d1-4187-bfb4-968d1ecc0bc1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.ai**
+
+---
+
+### 1180. [platform.claude.com](https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking#summarized-thinking)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**platform.claude.com**
+
+---
+
+### 1181. [arXiv Paper](https://arxiv.org/abs/2507.11473)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2507.11473**
+
+---
+
+### 1182. [huggingface.co](https://huggingface.co/openai-community/gpt2-xl)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1183. [claude.com](https://claude.com/form/cyber-use-case)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.com**
+
+---
+
+### 1184. [hn.algolia.com](https://hn.algolia.com/?query=Claude%20Opus%204.7&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 1185. [anthropic.com](https://www.anthropic.com/news/statement-department-of-war)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1186. [huggingface.co](https://huggingface.co/openai-community/gpt2-medium)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1187. [marginlab.ai](https://marginlab.ai/trackers/claude-code-historical-performance/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**marginlab.ai**
+
+---
+
+### 1188. [hn.algolia.com](https://hn.algolia.com/?dateEnd=1577836800&dateRange=custom&dateStart=1514764800&page=0&prefix=false&query=GPT&sort=byPopularity&type=story)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 1189. [arXiv Paper](https://arxiv.org/html/2412.06769v3#S2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2412.06769v3#S2**
+
+---
+
+### 1190. [support.claude.com](https://support.claude.com/en/articles/11940350-claude-code-model-configuration)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**support.claude.com**
+
+---
+
+### 1191. [yashthapliyal.com](https://www.yashthapliyal.com/blog/opus-4-7-web-design)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**yashthapliyal.com**
+
+---
+
+### 1192. [claude.com](https://claude.com/pricing#api)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.com**
+
+---
+
+### 1193. [forbes.com](https://www.forbes.com/sites/conormurray/2026/03/06/claude-surges-amid-defense-department-drama-downloads-up-55/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**forbes.com**
+
+---
+
+### 1194. [marginlab.ai](https://marginlab.ai/trackers/claude-code/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**marginlab.ai**
+
+---
+
+### 1195. [support.claude.com](https://support.claude.com/en/articles/8241253-safeguards-warnings-and-appeals)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**support.claude.com**
+
+---
+
+### 1196. [anthropic.com](https://www.anthropic.com/news/claude-opus-4-6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1197. [she-llac.com](https://she-llac.com/claude-limits)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**she-llac.com**
+
+---
+
+### 1198. [code.claude.com](https://code.claude.com/docs/en/model-config#adaptive-reasoning-and-fixed-thinking-budgets)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**code.claude.com**
+
+---
+
+### 1199. [aisi.gov.uk](https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aisi.gov.uk**
+
+---
+
+### 1200. [status.claude.com](https://status.claude.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**status.claude.com**
+
+---
+
+### 1201. [jido.run](https://jido.run/blog/jido-2-0-is-here)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jido.run**
+
+---
+
+### 1202. [openai.com](https://openai.com/live/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 1203. [arXiv Paper](https://arxiv.org/pdf/2510.09263)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2510.09263**
+
+---
+
+### 1204. [arXiv Paper](https://arxiv.org/abs/2511.08423)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2511.08423**
+
+---
+
+### 1205. [simonwillison.net](https://simonwillison.net/2026/Apr/21/gpt-image-2/#update-asking-models-to-solve-this-is-risky)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**simonwillison.net**
+
+---
+
+### 1206. [developers.openai.com](https://developers.openai.com/api/docs/pricing)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developers.openai.com**
+
+---
+
+### 1207. [anthropic.com](https://www.anthropic.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1208. [deepmind.google](https://deepmind.google/models/model-cards/gemini-3-1-flash-image/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**deepmind.google**
+
+---
+
+### 1209. [developers.openai.com](https://developers.openai.com/api/docs/models/gpt-image-2)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developers.openai.com**
+
+---
+
+### 1210. [mordenstar.com](https://mordenstar.com/blog/edits-with-nanobanana/#through-the-looking-glass)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mordenstar.com**
+
+---
+
+### 1211. [mordenstar.com](https://mordenstar.com/other/gpt-2-comics)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mordenstar.com**
+
+---
+
+### 1212. [portal.mozz.us](http://portal.mozz.us/gemini)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**portal.mozz.us**
+
+---
+
+### 1213. [huggingface.co](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1214. [huggingface.co](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/blob/main/Qwen3.6-27B-Q6_K.gguf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1215. [huggingface.co](https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1216. [huggingface.co](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/discussions/7)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1217. [docs.vllm.ai](https://docs.vllm.ai/en/latest/api/vllm/model_executor/layers/quantization/turboquant/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**docs.vllm.ai**
+
+---
+
+### 1218. [huggingface.co](https://huggingface.co/unsloth/Qwen3.6-27B-UD-MLX-4bit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1219. [llmfit.io](https://llmfit.io/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**llmfit.io**
+
+---
+
+### 1220. [huggingface.co](https://huggingface.co/bartowski/Qwen_Qwen3.5-27B-GGUF/resolve/main/Qwen_Qwen3.5-27B-Q4_K_M.gguf)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1221. [warp.dev](https://www.warp.dev/blog/lifting-login-requirement)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**warp.dev**
+
+---
+
+### 1222. [nytimes.com](https://www.nytimes.com/2024/02/22/technology/google-gemini-german-uniforms.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nytimes.com**
+
+---
+
+### 1223. [sei.cmu.edu](https://www.sei.cmu.edu/blog/data-poisoning-in-ai-models-the-case-for-chain-of-custody-controls/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sei.cmu.edu**
+
+---
+
+### 1224. [arXiv Paper](https://arxiv.org/abs/1810.03993)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 1810.03993**
+
+---
+
+### 1225. [arXiv Paper](https://arxiv.org/abs/2409.01754)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2409.01754**
+
+---
+
+### 1226. [anthropic.com](https://www.anthropic.com/system-cards)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1227. [arXiv Paper](https://arxiv.org/abs/2510.22251)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2510.22251**
+
+---
+
+### 1228. [arXiv Paper](https://arxiv.org/pdf/2605.09196)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2605.09196**
+
+---
+
+### 1229. [arXiv Paper](https://arxiv.org/pdf/2605.15305)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2605.15305**
+
+---
+
+### 1230. [hn.algolia.com](https://hn.algolia.com/?query=Gemini%20Omni&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 1231. [deepmind.google](https://deepmind.google/models/model-cards/gemini-omni-flash/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**deepmind.google**
+
+---
+
+### 1232. [developer.chrome.com](https://developer.chrome.com/docs/webstore/program-policies/limited-use/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developer.chrome.com**
+
+---
+
+### 1233. [infogami.com](http://www.infogami.com/blog/introduction)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**infogami.com**
+
+---
+
+### 1234. [redditinc.com](https://www.redditinc.com/blog/blockchain-backed-collectible-avatars-coming-to-reddit-via-new-storefront)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**redditinc.com**
+
+---
+
+### 1235. [engagepr.com](http://engagepr.com/blog/when-the-narwhal-bacons-and-why-it-matters-to-pr-pros/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**engagepr.com**
+
+---
+
+### 1236. [epi.org](https://www.epi.org/blog/americans-favor-labor-unions-over-big-business-now-more-than-ever/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**epi.org**
+
+---
+
+### 1237. [anthropic.com](https://www.anthropic.com/news/fable-mythos-access)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 1238. [huggingface.co](https://huggingface.co/datasets/allenai/dolma3_pool)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 1239. [together.ai](https://www.together.ai/blog/together-moa)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**together.ai**
+
+---
+
+### 1240. [arXiv Paper](https://arxiv.org/html/2501.09891v1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**arXiv: 2501.09891v1**
+
+---
+
+### 1241. [openai.com](https://openai.com/index/better-language-models/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 1242. [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors - Alexey Guzey](https://guzey.com/books/why-we-sleep/)
 `5.0` ★ ⚡47 Q0.6○ ○ Adequate
 
 **This resource is an analysis of Matthew Walker's book, 'Why We Sleep,' which delves into the scientific evidence surrounding human sleep and its importance. It serves as a guide for understanding the critical role of sleep in health and societal well-being, often highlighting areas where scientific consensus meets practical application.**
@@ -8270,245 +9124,245 @@
 
 ---
 
-### 1121. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
+### 1243. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If You Had Early Access To Build In The Next Ai**
 
 ---
 
-### 1122. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
+### 1244. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Next Week Starship V3 A Massively Improved**
 
 ---
 
-### 1123. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
+### 1245. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Physicists Say Its Possible To Send Messages**
 
 ---
 
-### 1124. [Unpopular Opinion Stop Trying To Make Your Ai](https://www.reddit.com/r/LangChain/comments/1to5m2e/unpopular_opinion_stop_trying_to_make_your_ai/)
+### 1246. [Unpopular Opinion Stop Trying To Make Your Ai](https://www.reddit.com/r/LangChain/comments/1to5m2e/unpopular_opinion_stop_trying_to_make_your_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Unpopular Opinion Stop Trying To Make Your Ai**
 
 ---
 
-### 1125. [Best Free Notebooklm Alternatives In 2026](https://www.reddit.com/r/AIToolsAndTips/comments/1tnywas/best_free_notebooklm_alternatives_in_2026/)
+### 1247. [Best Free Notebooklm Alternatives In 2026](https://www.reddit.com/r/AIToolsAndTips/comments/1tnywas/best_free_notebooklm_alternatives_in_2026/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Best Free Notebooklm Alternatives In 2026**
 
 ---
 
-### 1126. [Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus](https://www.reddit.com/r/DeepSeek/comments/1top7l7/deepseek_ai_moment_20_v4_coding_matches_gpt_opus/)
+### 1248. [Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus](https://www.reddit.com/r/DeepSeek/comments/1top7l7/deepseek_ai_moment_20_v4_coding_matches_gpt_opus/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus**
 
 ---
 
-### 1127. [Startups Dont Need To Automate More They Need To](https://www.reddit.com/r/AIStartupAutomation/comments/1tlc519/startups_dont_need_to_automate_more_they_need_to/)
+### 1249. [Startups Dont Need To Automate More They Need To](https://www.reddit.com/r/AIStartupAutomation/comments/1tlc519/startups_dont_need_to_automate_more_they_need_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Startups Dont Need To Automate More They Need To**
 
 ---
 
-### 1128. [Scientists Say Theyve Reversed Brain Aging With A](https://www.reddit.com/r/immortalists/comments/1toht3l/scientists_say_theyve_reversed_brain_aging_with_a/)
+### 1250. [Scientists Say Theyve Reversed Brain Aging With A](https://www.reddit.com/r/immortalists/comments/1toht3l/scientists_say_theyve_reversed_brain_aging_with_a/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Scientists Say Theyve Reversed Brain Aging With A**
 
 ---
 
-### 1129. [I Turned Notebooklm Into A Fully Modular](https://www.reddit.com/r/notebooklm/comments/1toxc01/i_turned_notebooklm_into_a_fully_modular/)
+### 1251. [I Turned Notebooklm Into A Fully Modular](https://www.reddit.com/r/notebooklm/comments/1toxc01/i_turned_notebooklm_into_a_fully_modular/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Turned Notebooklm Into A Fully Modular**
 
 ---
 
-### 1130. [Im Building An Opensource Decision Layer Above Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1tp6wv2/im_building_an_opensource_decision_layer_above_ai/)
+### 1252. [Im Building An Opensource Decision Layer Above Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1tp6wv2/im_building_an_opensource_decision_layer_above_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im Building An Opensource Decision Layer Above Ai**
 
 ---
 
-### 1131. [Amazon Just Informed Me That My Paid Music](https://old.reddit.com/r/mildlyinfuriating/comments/1tur3w5/amazon_just_informed_me_that_my_paid_music/)
+### 1253. [Amazon Just Informed Me That My Paid Music](https://old.reddit.com/r/mildlyinfuriating/comments/1tur3w5/amazon_just_informed_me_that_my_paid_music/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Amazon Just Informed Me That My Paid Music**
 
 ---
 
-### 1132. [If Youre Vibe Coding On Top Of A Freelancers](https://old.reddit.com/r/VibeCodeDevs/comments/1ttxj7t/if_youre_vibe_coding_on_top_of_a_freelancers/)
+### 1254. [If Youre Vibe Coding On Top Of A Freelancers](https://old.reddit.com/r/VibeCodeDevs/comments/1ttxj7t/if_youre_vibe_coding_on_top_of_a_freelancers/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If Youre Vibe Coding On Top Of A Freelancers**
 
 ---
 
-### 1133. [Advice On Best Tools To Use For Coding With Local](https://www.reddit.com/r/LocalLLM/comments/1tpjl0i/advice_on_best_tools_to_use_for_coding_with_local/)
+### 1255. [Advice On Best Tools To Use For Coding With Local](https://www.reddit.com/r/LocalLLM/comments/1tpjl0i/advice_on_best_tools_to_use_for_coding_with_local/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Advice On Best Tools To Use For Coding With Local**
 
 ---
 
-### 1134. [Im Creating My Own Personal Offline Rebel Llm](https://www.reddit.com/r/LocalLLM/comments/1tpml7u/im_creating_my_own_personal_offline_rebel_llm/)
+### 1256. [Im Creating My Own Personal Offline Rebel Llm](https://www.reddit.com/r/LocalLLM/comments/1tpml7u/im_creating_my_own_personal_offline_rebel_llm/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im Creating My Own Personal Offline Rebel Llm**
 
 ---
 
-### 1135. [Walkthrough Is Always Full Of Lies And False](https://www.reddit.com/r/google_antigravity/comments/1tppvj1/walkthrough_is_always_full_of_lies_and_false/)
+### 1257. [Walkthrough Is Always Full Of Lies And False](https://www.reddit.com/r/google_antigravity/comments/1tppvj1/walkthrough_is_always_full_of_lies_and_false/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Walkthrough Is Always Full Of Lies And False**
 
 ---
 
-### 1136. [Went To A Pawn Shop For The First Timenever Again](https://www.reddit.com/r/Vent/comments/1tpuzy8/went_to_a_pawn_shop_for_the_first_timenever_again/)
+### 1258. [Went To A Pawn Shop For The First Timenever Again](https://www.reddit.com/r/Vent/comments/1tpuzy8/went_to_a_pawn_shop_for_the_first_timenever_again/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Went To A Pawn Shop For The First Timenever Again**
 
 ---
 
-### 1137. [Suggest Any Good Notebooklm Alternatives Youd](https://www.reddit.com/r/LangChain/comments/1tqm360/suggest_any_good_notebooklm_alternatives_youd/)
+### 1259. [Suggest Any Good Notebooklm Alternatives Youd](https://www.reddit.com/r/LangChain/comments/1tqm360/suggest_any_good_notebooklm_alternatives_youd/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Suggest Any Good Notebooklm Alternatives Youd**
 
 ---
 
-### 1138. [Anthropic Suspends Access To Claude Fable And](https://www.reddit.com/r/artificial/comments/1u4ef3y/anthropic_suspends_access_to_claude_fable_and/)
+### 1260. [Anthropic Suspends Access To Claude Fable And](https://www.reddit.com/r/artificial/comments/1u4ef3y/anthropic_suspends_access_to_claude_fable_and/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Anthropic Suspends Access To Claude Fable And**
 
 ---
 
-### 1139. [Hilarious Post From David Sacks Explaining The](https://www.reddit.com/r/ArtificialInteligence/comments/1u54sp4/hilarious_post_from_david_sacks_explaining_the/)
+### 1261. [Hilarious Post From David Sacks Explaining The](https://www.reddit.com/r/ArtificialInteligence/comments/1u54sp4/hilarious_post_from_david_sacks_explaining_the/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hilarious Post From David Sacks Explaining The**
 
 ---
 
-### 1140. [This Is Coming To Chinese Open Source Models](https://www.reddit.com/r/LocalLLaMA/comments/1u4wy3p/this_is_coming_to_chinese_open_source_models/)
+### 1262. [This Is Coming To Chinese Open Source Models](https://www.reddit.com/r/LocalLLaMA/comments/1u4wy3p/this_is_coming_to_chinese_open_source_models/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **This Is Coming To Chinese Open Source Models**
 
 ---
 
-### 1141. [Sonnet 4Level Local Model That Fits 50Gb Vram](https://www.reddit.com/r/LocalLLM/comments/1u53sri/sonnet_4level_local_model_that_fits_50gb_vram/)
+### 1263. [Sonnet 4Level Local Model That Fits 50Gb Vram](https://www.reddit.com/r/LocalLLM/comments/1u53sri/sonnet_4level_local_model_that_fits_50gb_vram/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Sonnet 4Level Local Model That Fits 50Gb Vram**
 
 ---
 
-### 1142. [All Zai Glm Coding Models 52 51T 47 45A Vs](https://www.reddit.com/r/ZaiGLM/comments/1u562cy/all_zai_glm_coding_models_52_51t_47_45a_vs/)
+### 1264. [All Zai Glm Coding Models 52 51T 47 45A Vs](https://www.reddit.com/r/ZaiGLM/comments/1u562cy/all_zai_glm_coding_models_52_51t_47_45a_vs/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **All Zai Glm Coding Models 52 51T 47 45A Vs**
 
 ---
 
-### 1143. [Those That Have Tasked Notebooklm With Handling](https://www.reddit.com/r/notebooklm/comments/1u5rpr3/those_that_have_tasked_notebooklm_with_handling/)
+### 1265. [Those That Have Tasked Notebooklm With Handling](https://www.reddit.com/r/notebooklm/comments/1u5rpr3/those_that_have_tasked_notebooklm_with_handling/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Those That Have Tasked Notebooklm With Handling**
 
 ---
 
-### 1144. [We Turned Claude Into A Drunk Genius And The](https://www.reddit.com/r/OpenSourceAI/comments/1u6hqrx/we_turned_claude_into_a_drunk_genius_and_the/)
+### 1266. [We Turned Claude Into A Drunk Genius And The](https://www.reddit.com/r/OpenSourceAI/comments/1u6hqrx/we_turned_claude_into_a_drunk_genius_and_the/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **We Turned Claude Into A Drunk Genius And The**
 
 ---
 
-### 1145. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
+### 1267. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 47575616**
 
 ---
 
-### 1146. [Hacker News Discussion](https://news.ycombinator.com/item?id=47961378)
+### 1268. [Hacker News Discussion](https://news.ycombinator.com/item?id=47961378)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 47961378**
 
 ---
 
-### 1147. [Hacker News Discussion](https://news.ycombinator.com/item?id=48087887)
+### 1269. [Hacker News Discussion](https://news.ycombinator.com/item?id=48087887)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48087887**
 
 ---
 
-### 1148. [Claude Mythos](https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/)
+### 1270. [Claude Mythos](https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Claude Mythos**
 
 ---
 
-### 1149. [Hacker News Discussion](https://news.ycombinator.com/item?id=48300280)
+### 1271. [Hacker News Discussion](https://news.ycombinator.com/item?id=48300280)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48300280**
 
 ---
 
-### 1150. [Hacker News Discussion](https://news.ycombinator.com/item?id=48324499)
+### 1272. [Hacker News Discussion](https://news.ycombinator.com/item?id=48324499)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48324499**
 
 ---
 
-### 1151. [Hacker News Discussion](https://news.ycombinator.com/item?id=48340262)
+### 1273. [Hacker News Discussion](https://news.ycombinator.com/item?id=48340262)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48340262**
 
 ---
 
-### 1152. [Hacker News Discussion](https://news.ycombinator.com/item?id=48518684)
+### 1274. [Hacker News Discussion](https://news.ycombinator.com/item?id=48518684)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48518684**
 
 ---
 
-### 1153. [Hacker News Discussion](https://news.ycombinator.com/item?id=48537641)
+### 1275. [Hacker News Discussion](https://news.ycombinator.com/item?id=48537641)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48537641**
 
 ---
 
-### 1154. [Hacker News Discussion](https://news.ycombinator.com/item?id=48549918)
+### 1276. [Hacker News Discussion](https://news.ycombinator.com/item?id=48549918)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48549918**
 
 ---
 
-### 1155. [Hacker News Discussion](https://news.ycombinator.com/item?id=48552687)
+### 1277. [Hacker News Discussion](https://news.ycombinator.com/item?id=48552687)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48552687**
@@ -10871,7 +11725,7 @@
 ---
 
 ## Bridges & Proxies
-> 65 tools · avg signal ⚡80
+> 66 tools · avg signal ⚡79
 
 ### 1. [benmyles/glyph](https://github.com/benmyles/glyph)
 `9.6` ★★ ⚡91 Q0.8🏆 🏆 World-class
@@ -11880,8 +12734,15 @@
 
 ---
 
+### 66. [openrouter.ai](https://openrouter.ai/blog/images/blog/fusion-benchmark-cost.png)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openrouter.ai**
+
+---
+
 ## Monitoring & Analytics
-> 62 tools · avg signal ⚡76
+> 63 tools · avg signal ⚡76
 
 ### 1. [ziyadmir/nba-player-stats-mcp](https://github.com/ziyadmir/nba-player-stats-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -12846,7 +13707,14 @@
 
 ---
 
-### 62. [Castles — Structured Memory for Enterprise LLMs](https://www.buildcastles.fyi/)
+### 62. [blog.prspeak.com](http://blog.prspeak.com/blog/prspeak/2014/05/how-reddit-stays-genuine-and-what-that-means-for-marketers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**blog.prspeak.com**
+
+---
+
+### 63. [Castles — Structured Memory for Enterprise LLMs](https://www.buildcastles.fyi/)
 `5.0` ★ ⚡46 Q0.6○ ○ Adequate
 
 **BuildCastles is a platform that serves as a curated resource for developers, offering in-depth articles, tutorials, and insights into cutting-edge software engineering concepts. It helps developers stay current with the latest trends, architectural patterns, and practical application of modern technologies.**
@@ -17173,6 +18041,316 @@ The report provides a structured overview of the scientific inquiry undertaken b
 
 ---
 
+## Verification & Testing
+> 24 tools · avg signal ⚡67
+
+### 1. [Mistral AI Releases Forge | Hacker News](https://news.ycombinator.com/item?id=47418295)
+`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The review highlights the complexity of integrating Mistral AI's Forge with existing enterprise systems, emphasizing the need for clear API documentation and developer support. It underscores the importance of understanding model naming conventions and the limitations of the current API in mapping to internal tools. The discussion also touches on broader industry trends, such as the preference for custom workflows over generic solutions, and the challenges of aligning technical offerings with bu...**
+
+**Features:**
+- Model selection options (devstral-2
+- devstral-latest
+- etc.)
+- API documentation and integration guidance
+- Support for enterprise deployment and customization
+- Focus on EU data compliance and model transparency
+
+*Tags: mistral-ai, forge, developer-tools, enterprise-integration, ai-platform, model-selection, eu-compliance, custom-workflows...*
+
+---
+
+### 2. [A once-in-a-generation discovery is transforming a Michigan dairy farm](https://msutoday.msu.edu/news/2025/10/research-discovery-transforms-michigan-dairy-farm)
+`8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**This article details how Preston Farms, a Michigan dairy farm, partnered with Michigan State University to implement high-oleic soybeans in their livestock's diet. The research, funded by various organizations, focused on the impact of dietary fats on milk composition and cow health. The results showed a significant increase in milk fat and protein yields, leading to a 20% reduction in purchased feed costs. This case study highlights the potential of scientific research to drive innovation and i...**
+
+**Features:**
+- ['Improved milk quality (increased fat and protein yields)'
+- 'Reduced livestock feed costs (20% reduction)'
+- 'Partnership between a dairy farm and a university research team'
+- 'Use of high-oleic soybeans as a dietary supplement for dairy cows'
+- 'Positive impact on farm economics']
+
+*Tags: ['dairy', 'agriculture', 'soybeans', 'michigan-state-university', 'livestock', 'milk-quality', 'feed-costs', 'oleic-acid'...*
+
+---
+
+### 3. [hammeiam/koroko-speech-mcp](https://github.com/hammeiam/koroko-speech-mcp)
+`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**The repository defines a Speech MCP Server designed to deliver high-quality text-to-speech functionality powered by the Kokoro TTS model. It offers users tools for generating speech, customizing voice and speed options, and provides an easy-to-use, MCP-compliant interface for integrating speech capabilities into development workflows.**
+
+**Features:**
+- Text-to-speech conversion using the Kokoro TTS model
+- Customizable speech parameters (voice
+- speed)
+- MCP-compliant interface
+- Easy installation and setup
+- No API key required
+
+---
+
+### 4. [eliovp-bv/mcp-vllm-benchmark](https://github.com/eliovp-bv/mcp-vllm-benchmark)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**This project demonstrates how to integrate MCP with a custom benchmarking tool to evaluate the performance of various large language model (LLM) inference endpoints. By leveraging MCP's capabilities, developers can interactively run benchmarks, compare results, and analyze model behavior under controlled conditions.**
+
+**Features:**
+- Interactive vLLM benchmarking
+- Model comparison across endpoints
+- Customizable benchmarking parameters
+
+*Tags: mcp, vllm, benchmarking, ai, developer, testing, performance, model...*
+
+---
+
+### 5. [ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f](https://eyeofthesquid.com/ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f)
+`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**The article explores how artificial intelligence challenges foundational philosophical concepts like meritocracy and social justice, arguing that AI undermines the legitimacy of current economic systems by treating human talents as mere data inputs rather than expressions of individual agency. It examines the debates between Rawls and Nozick regarding fairness and redistribution, highlighting how AI threatens the moral justification for inequality and calls for urgent institutional intervention ...**
+
+**Features:**
+- AI ethics analysis
+- moral philosophy comparison
+- economic justice critique
+- institutional risk assessment
+
+*Tags: ai-ethics, moral-foundations, meritocracy, capital-ownership, social-justice, philosophical-debate, economic-power, institutional-change...*
+
+---
+
+### 6. [fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)
+`9.8` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**This tutorial guides users through fine-tuning the Stable Diffusion XL model using DreamBooth and LoRA, enabling customized image generation on personal photos. It covers accessing the SDXL model via Hugging Face, setting up GPU environments, integrating refiners for improved quality, and applying the technique to creative industries.**
+
+**Features:**
+- Fine-tuning Stable Diffusion XL with DreamBooth
+- Using LoRA for efficient customization
+- Generating high-quality images from custom datasets
+- Accessing SDXL via Hugging Face and local GPU setups
+
+*Tags: ai, machine-learning, image-generation, stable-diffusion, diffusion-models, deep-learning, data-science, generative-ai...*
+
+---
+
+### 7. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076)
+`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
+
+**This resource evaluates the capabilities and value proposition of Risen vs. TradingView, focusing on its free tier offerings, advanced features, pricing structure, and integration potential within a broader ecosystem.**
+
+**Features:**
+- multi-condition alerts
+- no-code trading strategies
+- built-in backtesting
+- unlimited indicators
+- customizable alerts
+- earnings & insider alerts
+- community scripts
+- social features
+
+*Tags: tradingview, algorithm, fintech, platformcomparison, costanalysis, featureset, userexperience, webapi...*
+
+---
+
+### 8. [RoboRatings - Find Your Perfect Robot Vacuum](https://www.roboratings.com)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**A 2026 benchmark leaderboard tracking frontier models, highlighting Claude Opus 4.6 (Reasoning), Sonnet 5 (Coding), and Gemini 3.1 Pro (Multimodal) as industry leaders.**
+
+**Features:**
+- Claude Opus 4.6 (91.9% GPQA Reasoning)
+- Claude Sonnet 5 (82.1% SWE-bench Coding)
+- Gemini 3.1 Pro (1M+ Multimodal)
+- Kimi K2.5 (Cost/Performance ratio).
+
+*Tags: benchmarks, leaderboard, claude, gemini, evaluation, artificial-intelligence, roboratings*
+
+---
+
+### 9. [Optimal Temperature for Gemini 3 Pro Coding](https://lynchmark.com/blog/gemini-optimal-temperature)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A technical benchmark of 231 automated coding tests determining the optimal temperature setting for production-grade agent reasoning.**
+
+**Features:**
+- Optimal Temperature = 0.35
+- "Cluster of Perfection" (0.0-0.5) identification
+- median vs average performance analysis
+- entropy threshold detection.
+
+*Tags: optimization, hyperparameters, gemini, reliability, benchmarking, blog, data, lynchmark*
+
+---
+
+### 10. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗3 layers
+
+**Technical research proving that AI models have "bad days," with 10-15% daily performance swings due to non-determinism and backend updates.**
+
+**Features:**
+- Daily statistical performance tracking
+- 10-15% model performance variance
+- documented Claude Code degradation (4.1% in 30 days)
+- need for dynamic evals.
+
+*Tags: benchmarks, reliability, non-determinism, tracking, sw-bench, artificial-intelligence, blog, marginlab*
+
+---
+
+### 11. [Humanity's Last Exam](https://lastexam.ai)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A PhD-level benchmark consisting of 2,500 expert questions designed to measure high-tier reasoning and model confidence calibration.**
+
+**Features:**
+- 2
+- 500 expert-written questions
+- confidence calibration metric
+- removed memorization-solvable tasks
+- 2026 frontier model leaderboard.
+
+*Tags: benchmarks, reasoning, phd-level, evaluation, research, artificial-intelligence, data, lastexam*
+
+---
+
+### 12. [from?site=asteriskmag.com](https://news.ycombinator.com/from?site=asteriskmag.com)
+`8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This resource collection focuses on examining various technical articles and discussions centered around connectivity solutions, interoperability standards, and methods for integrating diverse data sources. It covers topics such as communication protocols, data exchange mechanisms, and strategies for ensuring seamless interaction between systems.**
+
+**Features:**
+- URL analysis
+- Technical content review
+- Data categorization
+- Insight generation
+
+*Tags: astershipmag, hackernews, past, comments, jger15, nkurz, downsplat, mitchbob...*
+
+---
+
+### 13. [Why Gemini 3 Flash is the model OpenAI is afraid of](https://blog.brokk.ai/why-gemini-3-flash-is-the-model-openai-is-afraid-of)
+`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
+
+**Technical analysis of Google's high-performance, low-cost 'workhorse' model, demonstrating frontier-level intelligence at 5x lower cost.**
+
+**Features:**
+- 78% SWE-bench Verified score
+- 218 tokens/sec throughput
+- 5x cost reduction vs flagships
+- optimal tradeoff for 80% of dev tasks.
+
+*Tags: gemini, performance, benchmarking, cost-optimization, sw-bench, artificial-intelligence, blog, programming*
+
+---
+
+### 14. [Subscribe to read](https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is a digital subscription service providing access to high-quality FT journalism, including global news, expert opinion, and in-depth analysis. It offers various tiers of access, allowing users to choose between different levels of digital coverage for seamless reading across various devices.**
+
+**Features:**
+- Digital subscription options
+- premium journalism access
+- multi-device compatibility
+- curated newsletters
+- expert analysis
+
+*Tags: digital-subscription, journalism, media, news, e-paper, content-delivery, premium-access*
+
+---
+
+### 15. [Enemas: How long they take to work and more](https://www.medicalnewstoday.com/articles/how-long-does-it-take-for-an-enema-to-work)
+`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
+
+**This article explores the function, necessary duration, and fluid types involved in an enema, providing readers with guidance on when and how to use this procedure. It highlights that the effectiveness and required time vary based on the intended purpose, such as medication administration or preparation for diagnostic tests.**
+
+**Features:**
+- Enema mechanics
+- usage timing
+- fluid selection
+- medical benefits
+- doctor consultation
+
+*Tags: medical-guidance, health-trends, digestive-health, medical-procedure, enema-usage*
+
+---
+
+### 16. [AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering](https://firethering.com/autotts-ai-inference-test-time-scaling)
+`7.8` ★ ⚡62 Q0.6✓ ✓ Solid
+
+**AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering @media (max-width:767px){.td-header-desktop-wrap{display:none}}@media (min-width:767px){.td-header-mobile-wrap{display:none}}:root{--accent-color:#fff}@font-face{font-family:"LuckiestGuy";src:local("LuckiestGuy"),url("https://firethering.com/CustomFonts/LuckiestGuy-Regular.woff") format("woff");font-display:swap}.td-mobile-content .td-mobile-main-menu>li>a{font-family:"Public Sans";font-weight:bol...**
+
+**Features:**
+- Agent support
+
+*Tags: agent, ai*
+
+---
+
+### 17. [sql-benchmark.nicklothian.com](https://sql-benchmark.nicklothian.com/?highlight=anthropic_claude-opus-4.7)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**sql-benchmark.nicklothian.com**
+
+---
+
+### 18. [aibenchy.com](https://aibenchy.com/compare/google-gemma-4-31b-it-medium/google-gemini-3-flash-preview-medium/google-gemini-3-pro-preview-medium/google-gemini-3-1-pro-preview-medium/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 19. [aibenchy.com](https://aibenchy.com/compare/google-gemma-4-31b-it-medium/google-gemini-3-pro-preview-medium/z-ai-glm-5-turbo-medium/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 20. [aibenchy.com](https://aibenchy.com/compare/google-gemma-4-31b-it-medium/google-gemma-4-26b-a4b-it-medium/google-gemini-3-pro-preview-medium/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 21. [aibenchy.com](https://aibenchy.com/compare/anthropic-claude-sonnet-4-6-medium/qwen-qwen3-6-plus-medium/?order=qwen-qwen3-6-plus-medium%2Canthropic-claude-sonnet-4-6-medium)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 22. [aibenchy.com](https://aibenchy.com/compare/anthropic-claude-opus-4-6-medium/google-gemini-2-5-flash-medium/?order=google-gemini-2-5-flash-medium%2Canthropic-claude-opus-4-6-medium)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 23. [aibenchy.com](https://aibenchy.com/compare/anthropic-claude-opus-4-7-medium/anthropic-claude-sonnet-4-6-medium/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**aibenchy.com**
+
+---
+
+### 24. [generative-ai.review](https://generative-ai.review/2026/04/rush-openai-gpt-image-2-quality-settings/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**generative-ai.review**
+
+---
+
 ## Harness Frameworks
 > 20 tools · avg signal ⚡81
 
@@ -17510,262 +18688,8 @@ The report provides a structured overview of the scientific inquiry undertaken b
 
 ---
 
-## Verification & Testing
-> 16 tools · avg signal ⚡75
-
-### 1. [Mistral AI Releases Forge | Hacker News](https://news.ycombinator.com/item?id=47418295)
-`8.1` ★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The review highlights the complexity of integrating Mistral AI's Forge with existing enterprise systems, emphasizing the need for clear API documentation and developer support. It underscores the importance of understanding model naming conventions and the limitations of the current API in mapping to internal tools. The discussion also touches on broader industry trends, such as the preference for custom workflows over generic solutions, and the challenges of aligning technical offerings with bu...**
-
-**Features:**
-- Model selection options (devstral-2
-- devstral-latest
-- etc.)
-- API documentation and integration guidance
-- Support for enterprise deployment and customization
-- Focus on EU data compliance and model transparency
-
-*Tags: mistral-ai, forge, developer-tools, enterprise-integration, ai-platform, model-selection, eu-compliance, custom-workflows...*
-
----
-
-### 2. [A once-in-a-generation discovery is transforming a Michigan dairy farm](https://msutoday.msu.edu/news/2025/10/research-discovery-transforms-michigan-dairy-farm)
-`8.0` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-
-**This article details how Preston Farms, a Michigan dairy farm, partnered with Michigan State University to implement high-oleic soybeans in their livestock's diet. The research, funded by various organizations, focused on the impact of dietary fats on milk composition and cow health. The results showed a significant increase in milk fat and protein yields, leading to a 20% reduction in purchased feed costs. This case study highlights the potential of scientific research to drive innovation and i...**
-
-**Features:**
-- ['Improved milk quality (increased fat and protein yields)'
-- 'Reduced livestock feed costs (20% reduction)'
-- 'Partnership between a dairy farm and a university research team'
-- 'Use of high-oleic soybeans as a dietary supplement for dairy cows'
-- 'Positive impact on farm economics']
-
-*Tags: ['dairy', 'agriculture', 'soybeans', 'michigan-state-university', 'livestock', 'milk-quality', 'feed-costs', 'oleic-acid'...*
-
----
-
-### 3. [hammeiam/koroko-speech-mcp](https://github.com/hammeiam/koroko-speech-mcp)
-`8.5` ★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**The repository defines a Speech MCP Server designed to deliver high-quality text-to-speech functionality powered by the Kokoro TTS model. It offers users tools for generating speech, customizing voice and speed options, and provides an easy-to-use, MCP-compliant interface for integrating speech capabilities into development workflows.**
-
-**Features:**
-- Text-to-speech conversion using the Kokoro TTS model
-- Customizable speech parameters (voice
-- speed)
-- MCP-compliant interface
-- Easy installation and setup
-- No API key required
-
----
-
-### 4. [eliovp-bv/mcp-vllm-benchmark](https://github.com/eliovp-bv/mcp-vllm-benchmark)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**This project demonstrates how to integrate MCP with a custom benchmarking tool to evaluate the performance of various large language model (LLM) inference endpoints. By leveraging MCP's capabilities, developers can interactively run benchmarks, compare results, and analyze model behavior under controlled conditions.**
-
-**Features:**
-- Interactive vLLM benchmarking
-- Model comparison across endpoints
-- Customizable benchmarking parameters
-
-*Tags: mcp, vllm, benchmarking, ai, developer, testing, performance, model...*
-
----
-
-### 5. [ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f](https://eyeofthesquid.com/ai-is-breaking-the-moral-foundation-of-modern-society-a145d471694f)
-`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**The article explores how artificial intelligence challenges foundational philosophical concepts like meritocracy and social justice, arguing that AI undermines the legitimacy of current economic systems by treating human talents as mere data inputs rather than expressions of individual agency. It examines the debates between Rawls and Nozick regarding fairness and redistribution, highlighting how AI threatens the moral justification for inequality and calls for urgent institutional intervention ...**
-
-**Features:**
-- AI ethics analysis
-- moral philosophy comparison
-- economic justice critique
-- institutional risk assessment
-
-*Tags: ai-ethics, moral-foundations, meritocracy, capital-ownership, social-justice, philosophical-debate, economic-power, institutional-change...*
-
----
-
-### 6. [fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora](https://www.datacamp.com/tutorial/fine-tuning-stable-diffusion-xl-with-dreambooth-and-lora)
-`9.8` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**This tutorial guides users through fine-tuning the Stable Diffusion XL model using DreamBooth and LoRA, enabling customized image generation on personal photos. It covers accessing the SDXL model via Hugging Face, setting up GPU environments, integrating refiners for improved quality, and applying the technique to creative industries.**
-
-**Features:**
-- Fine-tuning Stable Diffusion XL with DreamBooth
-- Using LoRA for efficient customization
-- Generating high-quality images from custom datasets
-- Accessing SDXL via Hugging Face and local GPU setups
-
-*Tags: ai, machine-learning, image-generation, stable-diffusion, diffusion-models, deep-learning, data-science, generative-ai...*
-
----
-
-### 7. [Risen vs TradingView - The Best TradingView Alternative](https://risen.so/vs/tradingview?rdt_cid=5845628043804403076)
-`9.0` ★★ ⚡78 Q0.7⭐ ⭐ Excellent
-
-**This resource evaluates the capabilities and value proposition of Risen vs. TradingView, focusing on its free tier offerings, advanced features, pricing structure, and integration potential within a broader ecosystem.**
-
-**Features:**
-- multi-condition alerts
-- no-code trading strategies
-- built-in backtesting
-- unlimited indicators
-- customizable alerts
-- earnings & insider alerts
-- community scripts
-- social features
-
-*Tags: tradingview, algorithm, fintech, platformcomparison, costanalysis, featureset, userexperience, webapi...*
-
----
-
-### 8. [RoboRatings - Find Your Perfect Robot Vacuum](https://www.roboratings.com)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**A 2026 benchmark leaderboard tracking frontier models, highlighting Claude Opus 4.6 (Reasoning), Sonnet 5 (Coding), and Gemini 3.1 Pro (Multimodal) as industry leaders.**
-
-**Features:**
-- Claude Opus 4.6 (91.9% GPQA Reasoning)
-- Claude Sonnet 5 (82.1% SWE-bench Coding)
-- Gemini 3.1 Pro (1M+ Multimodal)
-- Kimi K2.5 (Cost/Performance ratio).
-
-*Tags: benchmarks, leaderboard, claude, gemini, evaluation, artificial-intelligence, roboratings*
-
----
-
-### 9. [Optimal Temperature for Gemini 3 Pro Coding](https://lynchmark.com/blog/gemini-optimal-temperature)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A technical benchmark of 231 automated coding tests determining the optimal temperature setting for production-grade agent reasoning.**
-
-**Features:**
-- Optimal Temperature = 0.35
-- "Cluster of Perfection" (0.0-0.5) identification
-- median vs average performance analysis
-- entropy threshold detection.
-
-*Tags: optimization, hyperparameters, gemini, reliability, benchmarking, blog, data, lynchmark*
-
----
-
-### 10. [We are not evaluating AI coding agents the way they are actually used | Marginlab](https://marginlab.ai/blog/the-problem-with-coding-benchmarks)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗3 layers
-
-**Technical research proving that AI models have "bad days," with 10-15% daily performance swings due to non-determinism and backend updates.**
-
-**Features:**
-- Daily statistical performance tracking
-- 10-15% model performance variance
-- documented Claude Code degradation (4.1% in 30 days)
-- need for dynamic evals.
-
-*Tags: benchmarks, reliability, non-determinism, tracking, sw-bench, artificial-intelligence, blog, marginlab*
-
----
-
-### 11. [Humanity's Last Exam](https://lastexam.ai)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A PhD-level benchmark consisting of 2,500 expert questions designed to measure high-tier reasoning and model confidence calibration.**
-
-**Features:**
-- 2
-- 500 expert-written questions
-- confidence calibration metric
-- removed memorization-solvable tasks
-- 2026 frontier model leaderboard.
-
-*Tags: benchmarks, reasoning, phd-level, evaluation, research, artificial-intelligence, data, lastexam*
-
----
-
-### 12. [from?site=asteriskmag.com](https://news.ycombinator.com/from?site=asteriskmag.com)
-`8.8` ★ ⚡74 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This resource collection focuses on examining various technical articles and discussions centered around connectivity solutions, interoperability standards, and methods for integrating diverse data sources. It covers topics such as communication protocols, data exchange mechanisms, and strategies for ensuring seamless interaction between systems.**
-
-**Features:**
-- URL analysis
-- Technical content review
-- Data categorization
-- Insight generation
-
-*Tags: astershipmag, hackernews, past, comments, jger15, nkurz, downsplat, mitchbob...*
-
----
-
-### 13. [Why Gemini 3 Flash is the model OpenAI is afraid of](https://blog.brokk.ai/why-gemini-3-flash-is-the-model-openai-is-afraid-of)
-`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
-
-**Technical analysis of Google's high-performance, low-cost 'workhorse' model, demonstrating frontier-level intelligence at 5x lower cost.**
-
-**Features:**
-- 78% SWE-bench Verified score
-- 218 tokens/sec throughput
-- 5x cost reduction vs flagships
-- optimal tradeoff for 80% of dev tasks.
-
-*Tags: gemini, performance, benchmarking, cost-optimization, sw-bench, artificial-intelligence, blog, programming*
-
----
-
-### 14. [Subscribe to read](https://www.ft.com/content/eec2ec91-6e1f-4b6e-b59d-d5718a82a5be)
-`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
-
-**This resource is a digital subscription service providing access to high-quality FT journalism, including global news, expert opinion, and in-depth analysis. It offers various tiers of access, allowing users to choose between different levels of digital coverage for seamless reading across various devices.**
-
-**Features:**
-- Digital subscription options
-- premium journalism access
-- multi-device compatibility
-- curated newsletters
-- expert analysis
-
-*Tags: digital-subscription, journalism, media, news, e-paper, content-delivery, premium-access*
-
----
-
-### 15. [Enemas: How long they take to work and more](https://www.medicalnewstoday.com/articles/how-long-does-it-take-for-an-enema-to-work)
-`5.0` ★ ⚡63 Q0.7✓ ✓ Solid
-
-**This article explores the function, necessary duration, and fluid types involved in an enema, providing readers with guidance on when and how to use this procedure. It highlights that the effectiveness and required time vary based on the intended purpose, such as medication administration or preparation for diagnostic tests.**
-
-**Features:**
-- Enema mechanics
-- usage timing
-- fluid selection
-- medical benefits
-- doctor consultation
-
-*Tags: medical-guidance, health-trends, digestive-health, medical-procedure, enema-usage*
-
----
-
-### 16. [AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering](https://firethering.com/autotts-ai-inference-test-time-scaling)
-`7.8` ★ ⚡62 Q0.6✓ ✓ Solid
-
-**AutoTTS: Researchers Cut Inference Tokens by 70% by Letting AI Write Its Own Strategy - Firethering @media (max-width:767px){.td-header-desktop-wrap{display:none}}@media (min-width:767px){.td-header-mobile-wrap{display:none}}:root{--accent-color:#fff}@font-face{font-family:"LuckiestGuy";src:local("LuckiestGuy"),url("https://firethering.com/CustomFonts/LuckiestGuy-Regular.woff") format("woff");font-display:swap}.td-mobile-content .td-mobile-main-menu>li>a{font-family:"Public Sans";font-weight:bol...**
-
-**Features:**
-- Agent support
-
-*Tags: agent, ai*
-
----
-
 ## Browser & Web Tools
-> 8 tools · avg signal ⚡63
+> 13 tools · avg signal ⚡58
 
 ### 1. [lora](https://stable-diffusion-art.com/lora)
 `9.8` ★★ ⚡81 Q0.7⭐ ⭐ Excellent
@@ -17874,7 +18798,42 @@ The report provides a structured overview of the scientific inquiry undertaken b
 
 ---
 
-### 8. [Webbased Lord W Rip Mode Update New](https://www.reddit.com/r/bbs/comments/1sj2aae/webbased_lord_w_rip_mode_update_new/)
+### 8. [web.archive.org](https://web.archive.org/web/20160220093339/https://openai.com/blog/introducing-openai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
+
+---
+
+### 9. [web.archive.org](https://web.archive.org/web/20150705071124/http://engagepr.com/blog/when-the-narwhal-bacons-and-why-it-matters-to-pr-pros/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
+
+---
+
+### 10. [web.archive.org](https://web.archive.org/web/20081202043829/http://www.infogami.com/blog/introduction)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
+
+---
+
+### 11. [web.archive.org](https://web.archive.org/web/20220709203719/https://www.redditinc.com/blog/blockchain-backed-collectible-avatars-coming-to-reddit-via-new-storefront)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
+
+---
+
+### 12. [web.archive.org](https://web.archive.org/web/20150703144215/http://blog.prspeak.com/blog/prspeak/2014/05/how-reddit-stays-genuine-and-what-that-means-for-marketers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
+
+---
+
+### 13. [Webbased Lord W Rip Mode Update New](https://www.reddit.com/r/bbs/comments/1sj2aae/webbased_lord_w_rip_mode_update_new/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Webbased Lord W Rip Mode Update New**

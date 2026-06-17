@@ -1,18 +1,18 @@
 # 🔍 Search & Discovery
-> Borg Intelligence Atlas v8 · 2026-06-16 · 173 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 179 tools
 > Semantic search, web APIs, code search, MCP registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **173** |
+| Total tools | **179** |
 | Standout 🏆⭐ | 40 |
-| Avg Signal | ⚡74 |
+| Avg Signal | ⚡73 |
 | Innovation 10 | 6 █░░░░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 42 ████████████░░░░░░░░ |
-| Innovation 8 | 68 ████████████████████ |
+| Innovation 9 | 42 ███████████░░░░░░░░░ |
+| Innovation 8 | 74 ████████████████████ |
 | Innovation 7 | 12 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 6 █░░░░░░░░░░░░░░░░░░░ |
-| Innovation 5 | 38 ███████████░░░░░░░░░ |
+| Innovation 5 | 38 ██████████░░░░░░░░░░ |
 | Innovation 4 | 1 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
@@ -46,9 +46,9 @@
 
 - [Spec-Driven Development](#spec-driven-development) — 37 tools · ⚡73
 - [Context Engineering](#context-engineering) — 30 tools · ⚡76
-- [Other Tools](#other-tools) — 26 tools · ⚡56
+- [Other Tools](#other-tools) — 30 tools · ⚡55
 - [Config & Profile Management](#config--profile-management) — 19 tools · ⚡84
-- [Monitoring & Analytics](#monitoring--analytics) — 15 tools · ⚡75
+- [Monitoring & Analytics](#monitoring--analytics) — 17 tools · ⚡72
 - [Bridges & Proxies](#bridges--proxies) — 14 tools · ⚡84
 - [Hooks & Lifecycle](#hooks--lifecycle) — 6 tools · ⚡74
 - [Memory & Context Systems](#memory--context-systems) — 5 tools · ⚡89
@@ -1159,7 +1159,7 @@
 ---
 
 ## Other Tools
-> 26 tools · avg signal ⚡56
+> 30 tools · avg signal ⚡55
 
 ### 1. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)
 `8.5` ★ ⚡85 Q0.8🏆 🏆 World-class
@@ -1409,7 +1409,35 @@
 
 ---
 
-### 24. [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/details/sega32xmanuals)
+### 24. [ai.meta.com](https://ai.meta.com/research/publications/adaptive-decoding-via-latent-preference-optimization/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.meta.com**
+
+---
+
+### 25. [openai.com](https://openai.com/research/index/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 26. [anthropic.com](https://www.anthropic.com/research/next-generation-constitutional-classifiers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 27. [anthropic.com](https://www.anthropic.com/research/constitutional-classifiers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**anthropic.com**
+
+---
+
+### 28. [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/details/sega32xmanuals)
 `5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **This resource is an Internet Archive collection showcasing a digital library of free and borrowable texts, movies, and music. It serves as a comprehensive repository for users to discover and access diverse media assets, including books, films, and musical works.**
@@ -1421,14 +1449,14 @@
 
 ---
 
-### 25. [Introducing Sofya Search Fetch Extract And](https://www.reddit.com/r/mcp/comments/1tq4wz7/introducing_sofya_search_fetch_extract_and/)
+### 29. [Introducing Sofya Search Fetch Extract And](https://www.reddit.com/r/mcp/comments/1tq4wz7/introducing_sofya_search_fetch_extract_and/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Introducing Sofya Search Fetch Extract And**
 
 ---
 
-### 26. [Searching For Any Good Notebooklm Alternatives](https://www.reddit.com/r/OpenSourceAI/comments/1tqonkd/searching_for_any_good_notebooklm_alternatives/)
+### 30. [Searching For Any Good Notebooklm Alternatives](https://www.reddit.com/r/OpenSourceAI/comments/1tqonkd/searching_for_any_good_notebooklm_alternatives/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Searching For Any Good Notebooklm Alternatives**
@@ -1759,7 +1787,7 @@
 ---
 
 ## Monitoring & Analytics
-> 15 tools · avg signal ⚡75
+> 17 tools · avg signal ⚡72
 
 ### 1. [cam10001110101/mcp-server-ollama-deep-researcher](https://github.com/cam10001110101/mcp-server-ollama-deep-researcher)
 `9.0` ★★ ⚡91 Q0.9🏆 🏆 World-class
@@ -1992,7 +2020,21 @@
 
 ---
 
-### 15. [Reddit - Please wait for verification](https://www.reddit.com/)
+### 15. [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**blog.google**
+
+---
+
+### 16. [blog.google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**blog.google**
+
+---
+
+### 17. [Reddit - Please wait for verification](https://www.reddit.com/)
 `5.0` ★ ⚡47 Q0.6○ ○ Adequate
 
 **This resource is a platform for developers, enthusiasts, and practitioners to find discussions, insights, and practical applications related to artificial intelligence, software development trends, and technological advancements. It serves as a hub for discovering new tools, understanding complex concepts, and engaging in community discussions about AI and tech.**

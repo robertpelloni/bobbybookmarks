@@ -1,15 +1,15 @@
 # ⚡ Connectivity / MCP / A2A
-> Borg Intelligence Atlas v8 · 2026-06-16 · 898 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 900 tools
 > MCP infrastructure, A2A, gateways, tool discovery, registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **898** |
+| Total tools | **900** |
 | Standout 🏆⭐ | 165 |
-| Avg Signal | ⚡75 |
+| Avg Signal | ⚡74 |
 | Innovation 10 | 66 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 149 ███████░░░░░░░░░░░░░ |
-| Innovation 8 | 423 ████████████████████ |
+| Innovation 8 | 425 ████████████████████ |
 | Innovation 7 | 130 ██████░░░░░░░░░░░░░░ |
 | Innovation 6 | 104 ████░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 24 █░░░░░░░░░░░░░░░░░░░ |
@@ -44,7 +44,7 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 218 tools · ⚡54
+- [Other Tools](#other-tools) — 220 tools · ⚡54
 - [Spec-Driven Development](#spec-driven-development) — 147 tools · ⚡78
 - [Bridges & Proxies](#bridges--proxies) — 129 tools · ⚡81
 - [Monitoring & Analytics](#monitoring--analytics) — 83 tools · ⚡85
@@ -62,7 +62,7 @@
 ---
 
 ## Other Tools
-> 218 tools · avg signal ⚡54
+> 220 tools · avg signal ⚡54
 
 ### 1. [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
@@ -1667,238 +1667,252 @@
 
 ---
 
-### 185. [Mcp For Music Did I Make A Huge Mistake](https://www.reddit.com/r/StudioSphere/comments/1tk4xij/mcp_for_music_did_i_make_a_huge_mistake/)
+### 185. [lucasgerads.com](https://lucasgerads.com/blog/lecroy-mcp-tutorial/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**lucasgerads.com**
+
+---
+
+### 186. [jellyfin.org](https://jellyfin.org/docs/general/post-install/networking/reverse-proxy/caddy/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**jellyfin.org**
+
+---
+
+### 187. [Mcp For Music Did I Make A Huge Mistake](https://www.reddit.com/r/StudioSphere/comments/1tk4xij/mcp_for_music_did_i_make_a_huge_mistake/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Mcp For Music Did I Make A Huge Mistake**
 
 ---
 
-### 186. [Savordish Aipowered Recipe Platform 18 Mcp Tools](https://www.reddit.com/r/mcp/comments/1sdadbr/savordish_aipowered_recipe_platform_18_mcp_tools/)
+### 188. [Savordish Aipowered Recipe Platform 18 Mcp Tools](https://www.reddit.com/r/mcp/comments/1sdadbr/savordish_aipowered_recipe_platform_18_mcp_tools/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Savordish Aipowered Recipe Platform 18 Mcp Tools**
 
 ---
 
-### 187. [Macalc The Most Comprehensive Everyday Calculator](https://www.reddit.com/r/mcp/comments/1suqh0f/macalc_the_most_comprehensive_everyday_calculator/)
+### 189. [Macalc The Most Comprehensive Everyday Calculator](https://www.reddit.com/r/mcp/comments/1suqh0f/macalc_the_most_comprehensive_everyday_calculator/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Macalc The Most Comprehensive Everyday Calculator**
 
 ---
 
-### 188. [Just Published Pixelcheck Built With Claude Code](https://www.reddit.com/r/mcp/comments/1t3lkzb/just_published_pixelcheck_built_with_claude_code/)
+### 190. [Just Published Pixelcheck Built With Claude Code](https://www.reddit.com/r/mcp/comments/1t3lkzb/just_published_pixelcheck_built_with_claude_code/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Just Published Pixelcheck Built With Claude Code**
 
 ---
 
-### 189. [Building Production Mcp Servers What Ive Learned](https://www.reddit.com/r/mcp/comments/1tbi4e3/building_production_mcp_servers_what_ive_learned/)
+### 191. [Building Production Mcp Servers What Ive Learned](https://www.reddit.com/r/mcp/comments/1tbi4e3/building_production_mcp_servers_what_ive_learned/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Building Production Mcp Servers What Ive Learned**
 
 ---
 
-### 190. [Built An Mcp To Control My Youtube Channel Via](https://www.reddit.com/r/mcp/comments/1toc56m/built_an_mcp_to_control_my_youtube_channel_via/)
+### 192. [Built An Mcp To Control My Youtube Channel Via](https://www.reddit.com/r/mcp/comments/1toc56m/built_an_mcp_to_control_my_youtube_channel_via/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Built An Mcp To Control My Youtube Channel Via**
 
 ---
 
-### 191. [Can I Make A Mcp Tool Use Other Tool](https://www.reddit.com/r/mcp/comments/1too0cl/can_i_make_a_mcp_tool_use_other_tool/)
+### 193. [Can I Make A Mcp Tool Use Other Tool](https://www.reddit.com/r/mcp/comments/1too0cl/can_i_make_a_mcp_tool_use_other_tool/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Can I Make A Mcp Tool Use Other Tool**
 
 ---
 
-### 192. [Opendocsworkmcp Mcp Server For Office Document](https://www.reddit.com/r/mcp/comments/1tol37s/opendocsworkmcp_mcp_server_for_office_document/)
+### 194. [Opendocsworkmcp Mcp Server For Office Document](https://www.reddit.com/r/mcp/comments/1tol37s/opendocsworkmcp_mcp_server_for_office_document/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Opendocsworkmcp Mcp Server For Office Document**
 
 ---
 
-### 193. [Semantic Pen Mcp Server The Official Mcp Server](https://www.reddit.com/r/mcp/comments/1toid4t/semantic_pen_mcp_server_the_official_mcp_server/)
+### 195. [Semantic Pen Mcp Server The Official Mcp Server](https://www.reddit.com/r/mcp/comments/1toid4t/semantic_pen_mcp_server_the_official_mcp_server/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Semantic Pen Mcp Server The Official Mcp Server**
 
 ---
 
-### 194. [Reddit Mcp Tool Enables Browsing And Searching](https://www.reddit.com/r/mcp/comments/1tp100w/reddit_mcp_tool_enables_browsing_and_searching/)
+### 196. [Reddit Mcp Tool Enables Browsing And Searching](https://www.reddit.com/r/mcp/comments/1tp100w/reddit_mcp_tool_enables_browsing_and_searching/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Reddit Mcp Tool Enables Browsing And Searching**
 
 ---
 
-### 195. [If You Maintain An Mcp Server Please Claim Your](https://www.reddit.com/r/mcp/comments/1tp2xps/if_you_maintain_an_mcp_server_please_claim_your/)
+### 197. [If You Maintain An Mcp Server Please Claim Your](https://www.reddit.com/r/mcp/comments/1tp2xps/if_you_maintain_an_mcp_server_please_claim_your/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If You Maintain An Mcp Server Please Claim Your**
 
 ---
 
-### 196. [Built A Singlefile Interactive Explorer For An](https://www.reddit.com/r/mcp/comments/1tp9jkq/built_a_singlefile_interactive_explorer_for_an/)
+### 198. [Built A Singlefile Interactive Explorer For An](https://www.reddit.com/r/mcp/comments/1tp9jkq/built_a_singlefile_interactive_explorer_for_an/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Built A Singlefile Interactive Explorer For An**
 
 ---
 
-### 197. [For Those Using Multiple Tools](https://www.reddit.com/r/mcp/comments/1tpcusw/for_those_using_multiple_tools/)
+### 199. [For Those Using Multiple Tools](https://www.reddit.com/r/mcp/comments/1tpcusw/for_those_using_multiple_tools/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **For Those Using Multiple Tools**
 
 ---
 
-### 198. [What Mcp Tools Actually Stayed In Your Daily](https://www.reddit.com/r/MCPservers/comments/1tphzwj/what_mcp_tools_actually_stayed_in_your_daily/)
+### 200. [What Mcp Tools Actually Stayed In Your Daily](https://www.reddit.com/r/MCPservers/comments/1tphzwj/what_mcp_tools_actually_stayed_in_your_daily/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **What Mcp Tools Actually Stayed In Your Daily**
 
 ---
 
-### 199. [Followup I Added An Mcp Server To My Repolocal](https://www.reddit.com/r/AISystemsEngineering/comments/1tmdxlg/followup_i_added_an_mcp_server_to_my_repolocal/)
+### 201. [Followup I Added An Mcp Server To My Repolocal](https://www.reddit.com/r/AISystemsEngineering/comments/1tmdxlg/followup_i_added_an_mcp_server_to_my_repolocal/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Followup I Added An Mcp Server To My Repolocal**
 
 ---
 
-### 200. [Built An Opensource Mcp Server With 105 Tools For](https://www.reddit.com/r/mcp/comments/1tpek8a/built_an_opensource_mcp_server_with_105_tools_for/)
+### 202. [Built An Opensource Mcp Server With 105 Tools For](https://www.reddit.com/r/mcp/comments/1tpek8a/built_an_opensource_mcp_server_with_105_tools_for/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Built An Opensource Mcp Server With 105 Tools For**
 
 ---
 
-### 201. [Opensourced An Mcp Server That Generates App](https://www.reddit.com/r/mcp/comments/1tpb7jd/opensourced_an_mcp_server_that_generates_app/)
+### 203. [Opensourced An Mcp Server That Generates App](https://www.reddit.com/r/mcp/comments/1tpb7jd/opensourced_an_mcp_server_that_generates_app/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Opensourced An Mcp Server That Generates App**
 
 ---
 
-### 202. [Readwise Mcp Http Server Enables Searching And](https://www.reddit.com/r/mcp/comments/1tpgtq9/readwise_mcp_http_server_enables_searching_and/)
+### 204. [Readwise Mcp Http Server Enables Searching And](https://www.reddit.com/r/mcp/comments/1tpgtq9/readwise_mcp_http_server_enables_searching_and/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Readwise Mcp Http Server Enables Searching And**
 
 ---
 
-### 203. [Months Of Claude Code Usage Taught Me That Token](https://www.reddit.com/r/mcp/comments/1tpy0lv/months_of_claude_code_usage_taught_me_that_token/)
+### 205. [Months Of Claude Code Usage Taught Me That Token](https://www.reddit.com/r/mcp/comments/1tpy0lv/months_of_claude_code_usage_taught_me_that_token/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Months Of Claude Code Usage Taught Me That Token**
 
 ---
 
-### 204. [We Added Mcp Servers To Nouswise So Now You Can](https://www.reddit.com/r/mcp/comments/1tq1fru/we_added_mcp_servers_to_nouswise_so_now_you_can/)
+### 206. [We Added Mcp Servers To Nouswise So Now You Can](https://www.reddit.com/r/mcp/comments/1tq1fru/we_added_mcp_servers_to_nouswise_so_now_you_can/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **We Added Mcp Servers To Nouswise So Now You Can**
 
 ---
 
-### 205. [We Audited 17468 Mcp Servers Only 129 Were](https://www.reddit.com/r/mcp/comments/1tqyocq/we_audited_17468_mcp_servers_only_129_were/)
+### 207. [We Audited 17468 Mcp Servers Only 129 Were](https://www.reddit.com/r/mcp/comments/1tqyocq/we_audited_17468_mcp_servers_only_129_were/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **We Audited 17468 Mcp Servers Only 129 Were**
 
 ---
 
-### 206. [Baasmcp Enables Interaction With Aiapp Baas](https://www.reddit.com/r/mcp/comments/1tqx25e/baasmcp_enables_interaction_with_aiapp_baas/)
+### 208. [Baasmcp Enables Interaction With Aiapp Baas](https://www.reddit.com/r/mcp/comments/1tqx25e/baasmcp_enables_interaction_with_aiapp_baas/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Baasmcp Enables Interaction With Aiapp Baas**
 
 ---
 
-### 207. [I Mapped Whoops Entire Private Api And Turned It](https://www.reddit.com/r/mcp/comments/1tsj47y/i_mapped_whoops_entire_private_api_and_turned_it/)
+### 209. [I Mapped Whoops Entire Private Api And Turned It](https://www.reddit.com/r/mcp/comments/1tsj47y/i_mapped_whoops_entire_private_api_and_turned_it/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Mapped Whoops Entire Private Api And Turned It**
 
 ---
 
-### 208. [I Just Found That Bad Mcp Design Could Burns 5](https://www.reddit.com/r/MCPservers/comments/1tsm4r7/i_just_found_that_bad_mcp_design_could_burns_5/)
+### 210. [I Just Found That Bad Mcp Design Could Burns 5](https://www.reddit.com/r/MCPservers/comments/1tsm4r7/i_just_found_that_bad_mcp_design_could_burns_5/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Just Found That Bad Mcp Design Could Burns 5**
 
 ---
 
-### 209. [Everyone Keeps Saying Mcp Is Dead Is It Though](https://www.reddit.com/r/WebAfterAI/comments/1tsyu18/everyone_keeps_saying_mcp_is_dead_is_it_though/)
+### 211. [Everyone Keeps Saying Mcp Is Dead Is It Though](https://www.reddit.com/r/WebAfterAI/comments/1tsyu18/everyone_keeps_saying_mcp_is_dead_is_it_though/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Everyone Keeps Saying Mcp Is Dead Is It Though**
 
 ---
 
-### 210. [Everything We Learned Building A Remote Mcp](https://www.reddit.com/r/mcp/comments/1ttsx8z/everything_we_learned_building_a_remote_mcp/)
+### 212. [Everything We Learned Building A Remote Mcp](https://www.reddit.com/r/mcp/comments/1ttsx8z/everything_we_learned_building_a_remote_mcp/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Everything We Learned Building A Remote Mcp**
 
 ---
 
-### 211. [Free Hosted Mcp Server For Open German City Data](https://www.reddit.com/r/mcp/comments/1u4w65a/free_hosted_mcp_server_for_open_german_city_data/)
+### 213. [Free Hosted Mcp Server For Open German City Data](https://www.reddit.com/r/mcp/comments/1u4w65a/free_hosted_mcp_server_for_open_german_city_data/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Free Hosted Mcp Server For Open German City Data**
 
 ---
 
-### 212. [Post Fable 5 Ban Opensource Llm Is Smart Idea](https://www.reddit.com/r/MCPservers/comments/1u52z1p/post_fable_5_ban_opensource_llm_is_smart_idea/)
+### 214. [Post Fable 5 Ban Opensource Llm Is Smart Idea](https://www.reddit.com/r/MCPservers/comments/1u52z1p/post_fable_5_ban_opensource_llm_is_smart_idea/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Post Fable 5 Ban Opensource Llm Is Smart Idea**
 
 ---
 
-### 213. [I Built An Open Source Codexfirst Tldraw Mcp](https://www.reddit.com/r/mcp/comments/1u63xl5/i_built_an_open_source_codexfirst_tldraw_mcp/)
+### 215. [I Built An Open Source Codexfirst Tldraw Mcp](https://www.reddit.com/r/mcp/comments/1u63xl5/i_built_an_open_source_codexfirst_tldraw_mcp/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Built An Open Source Codexfirst Tldraw Mcp**
 
 ---
 
-### 214. [Mcp For Finance Teams](https://www.reddit.com/r/mcp/comments/1tpa6jo/mcp_for_finance_teams/)
+### 216. [Mcp For Finance Teams](https://www.reddit.com/r/mcp/comments/1tpa6jo/mcp_for_finance_teams/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Mcp For Finance Teams**
 
 ---
 
-### 215. [Cabetools Mcp](https://www.reddit.com/r/google_antigravity/comments/1tpg7nv/cabetools_mcp/)
+### 217. [Cabetools Mcp](https://www.reddit.com/r/google_antigravity/comments/1tpg7nv/cabetools_mcp/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Cabetools Mcp**
 
 ---
 
-### 216. [Mcp And Mpp Payments](https://www.reddit.com/r/mcp/comments/1tpmmx8/mcp_and_mpp_payments/)
+### 218. [Mcp And Mpp Payments](https://www.reddit.com/r/mcp/comments/1tpmmx8/mcp_and_mpp_payments/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Mcp And Mpp Payments**
 
 ---
 
-### 217. [This Look Right](https://www.reddit.com/r/mcp/comments/1tr4mng/this_look_right/)
+### 219. [This Look Right](https://www.reddit.com/r/mcp/comments/1tr4mng/this_look_right/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **This Look Right**
 
 ---
 
-### 218. [How Many Mcp Servers](https://www.reddit.com/r/MCPservers/comments/1tsqjqd/how_many_mcp_servers/)
+### 220. [How Many Mcp Servers](https://www.reddit.com/r/MCPservers/comments/1tsqjqd/how_many_mcp_servers/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **How Many Mcp Servers**

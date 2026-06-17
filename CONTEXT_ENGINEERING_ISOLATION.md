@@ -1,15 +1,15 @@
 # 👁 Context Engineering & Isolation
-> Borg Intelligence Atlas v8 · 2026-06-16 · 1,039 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 1,040 tools
 > Context compression, codebase indexing, RAG, isolation, ingestion
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,039** |
+| Total tools | **1,040** |
 | Standout 🏆⭐ | 160 |
 | Avg Signal | ⚡74 |
 | Innovation 10 | 52 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 151 █████████░░░░░░░░░░░ |
-| Innovation 8 | 332 ████████████████████ |
+| Innovation 8 | 333 ████████████████████ |
 | Innovation 7 | 163 █████████░░░░░░░░░░░ |
 | Innovation 6 | 72 ████░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 261 ███████████████░░░░░ |
@@ -50,7 +50,7 @@
 - [Config & Profile Management](#config--profile-management) — 82 tools · ⚡84
 - [Monitoring & Analytics](#monitoring--analytics) — 80 tools · ⚡75
 - [Context Engineering](#context-engineering) — 79 tools · ⚡78
-- [Other Tools](#other-tools) — 77 tools · ⚡60
+- [Other Tools](#other-tools) — 78 tools · ⚡59
 - [Hooks & Lifecycle](#hooks--lifecycle) — 56 tools · ⚡69
 - [Bridges & Proxies](#bridges--proxies) — 51 tools · ⚡85
 - [Harness Frameworks](#harness-frameworks) — 35 tools · ⚡77
@@ -11920,7 +11920,7 @@ The core functionality involves transforming documents into manageable fragments
 ---
 
 ## Other Tools
-> 77 tools · avg signal ⚡60
+> 78 tools · avg signal ⚡59
 
 ### 1. [studentofjs/mcp-figma-to-react](https://github.com/studentofjs/mcp-figma-to-react)
 `9.0` ★★ ⚡88 Q0.9🏆 🏆 World-class
@@ -12764,49 +12764,56 @@ The core functionality involves transforming documents into manageable fragments
 
 ---
 
-### 70. [Im Scared That After I Built My Ai Tool I Will](https://www.reddit.com/r/Rag/comments/1tof84n/im_scared_that_after_i_built_my_ai_tool_i_will/)
+### 70. [ruairidh.dev](https://www.ruairidh.dev/blog/compressing-prompts-with-an-autoresearch-loop)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ruairidh.dev**
+
+---
+
+### 71. [Im Scared That After I Built My Ai Tool I Will](https://www.reddit.com/r/Rag/comments/1tof84n/im_scared_that_after_i_built_my_ai_tool_i_will/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im Scared That After I Built My Ai Tool I Will**
 
 ---
 
-### 71. [Lessons Learned Building An Experimental Rag Lab](https://www.reddit.com/r/Rag/comments/1to784v/lessons_learned_building_an_experimental_rag_lab/)
+### 72. [Lessons Learned Building An Experimental Rag Lab](https://www.reddit.com/r/Rag/comments/1to784v/lessons_learned_building_an_experimental_rag_lab/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Lessons Learned Building An Experimental Rag Lab**
 
 ---
 
-### 72. [Whats The Best Way To Parse Complex Multiformat](https://www.reddit.com/r/Rag/comments/1towspj/whats_the_best_way_to_parse_complex_multiformat/)
+### 73. [Whats The Best Way To Parse Complex Multiformat](https://www.reddit.com/r/Rag/comments/1towspj/whats_the_best_way_to_parse_complex_multiformat/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Whats The Best Way To Parse Complex Multiformat**
 
 ---
 
-### 73. [Aictx Opensource Repolocal Continuity Runtime For](https://www.reddit.com/r/ContextEngineering/comments/1tp5qg7/aictx_opensource_repolocal_continuity_runtime_for/)
+### 74. [Aictx Opensource Repolocal Continuity Runtime For](https://www.reddit.com/r/ContextEngineering/comments/1tp5qg7/aictx_opensource_repolocal_continuity_runtime_for/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Aictx Opensource Repolocal Continuity Runtime For**
 
 ---
 
-### 74. [The React Pattern In 10 Lines How To Turn Chatgpt](https://www.reddit.com/r/PromptEngineering/comments/1tposo8/the_react_pattern_in_10_lines_how_to_turn_chatgpt/)
+### 75. [The React Pattern In 10 Lines How To Turn Chatgpt](https://www.reddit.com/r/PromptEngineering/comments/1tposo8/the_react_pattern_in_10_lines_how_to_turn_chatgpt/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **The React Pattern In 10 Lines How To Turn Chatgpt**
 
 ---
 
-### 75. [Local Rag With 1000000 Documents On A Laptop](https://www.reddit.com/r/Rag/comments/1tqlub8/local_rag_with_1000000_documents_on_a_laptop/)
+### 76. [Local Rag With 1000000 Documents On A Laptop](https://www.reddit.com/r/Rag/comments/1tqlub8/local_rag_with_1000000_documents_on_a_laptop/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Local Rag With 1000000 Documents On A Laptop**
 
 ---
 
-### 76. [Geipan | GEIPAN](http://www.cnes-geipan.fr/)
+### 77. [Geipan | GEIPAN](http://www.cnes-geipan.fr/)
 `5.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **This resource details IPACO®, the software used by GEIPAN for authenticating images and videos, highlighting its role in investigations. The content includes news updates related to this software and other relevant astronomical/space-related topics.**
@@ -12818,7 +12825,7 @@ The core functionality involves transforming documents into manageable fragments
 
 ---
 
-### 77. [Global New World â Living Archive of AntiâAging Science](http://globalnewworld.com)
+### 78. [Global New World â Living Archive of AntiâAging Science](http://globalnewworld.com)
 `5.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **This resource functions as a living archive documenting advancements in anti-aging science, focusing on breakthroughs in longevity and aging research. It provides updates on trials, discoveries, and the overall state of aging science, ensuring users are informed about new developments without hype or bias.**

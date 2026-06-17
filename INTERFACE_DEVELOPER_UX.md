@@ -1,16 +1,16 @@
 # 🤳 Interface & Developer UX
-> Borg Intelligence Atlas v8 · 2026-06-16 · 752 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 782 tools
 > Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **752** |
+| Total tools | **782** |
 | Standout 🏆⭐ | 135 |
-| Avg Signal | ⚡76 |
+| Avg Signal | ⚡75 |
 | Innovation 10 | 79 ████░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 134 ████████░░░░░░░░░░░░ |
-| Innovation 8 | 331 ████████████████████ |
-| Innovation 7 | 68 ████░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 134 ███████░░░░░░░░░░░░░ |
+| Innovation 8 | 361 ████████████████████ |
+| Innovation 7 | 68 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 38 ██░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 91 █████░░░░░░░░░░░░░░░ |
 | Innovation 4 | 10 ░░░░░░░░░░░░░░░░░░░░ |
@@ -45,13 +45,13 @@
 
 ## Contents
 
+- [Other Tools](#other-tools) — 125 tools · ⚡61
 - [Spec-Driven Development](#spec-driven-development) — 109 tools · ⚡76
-- [Other Tools](#other-tools) — 96 tools · ⚡64
 - [Monitoring & Analytics](#monitoring--analytics) — 87 tools · ⚡78
 - [Skill Systems](#skill-systems) — 78 tools · ⚡86
 - [Config & Profile Management](#config--profile-management) — 75 tools · ⚡79
 - [Bridges & Proxies](#bridges--proxies) — 48 tools · ⚡85
-- [Governance & Safety](#governance--safety) — 45 tools · ⚡79
+- [Governance & Safety](#governance--safety) — 46 tools · ⚡79
 - [Context Engineering](#context-engineering) — 43 tools · ⚡79
 - [Browser & Web Tools](#browser--web-tools) — 39 tools · ⚡63
 - [Harness Frameworks](#harness-frameworks) — 27 tools · ⚡79
@@ -61,6 +61,1357 @@
 - [Verification & Testing](#verification--testing) — 20 tools · ⚡72
 - [Major Harness Integrations](#major-harness-integrations) — 8 tools · ⚡56
 - [Cli Coding Agents](#cli-coding-agents) — 2 tools · ⚡59
+
+---
+
+## Other Tools
+> 125 tools · avg signal ⚡61
+
+### 1. [zeparhyfar/mcp-datetime](https://github.com/zeparhyfar/mcp-datetime)
+`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
+
+**The mcp-datetime package provides a Python-based MCP (Mac OS Compatible Python) server that enables accurate and flexible datetime formatting, supporting multiple formats including Japanese, ISO, and standard. It is designed to integrate seamlessly with the Claude Desktop Application, offering features such as timezone handling, filename generation, and robust error handling. The project emphasizes developer experience by offering a user-friendly interface and comprehensive documentation.**
+
+**Features:**
+- datetime formatting in various formats
+- Japanese language support
+- ISO and standard datetime formats
+- timezone handling
+- filename generation
+- integration with Claude Desktop App
+
+*Tags: datetime-formatting, mcp-server, file-name-generation, timezone-support, developer-tools, macos-compatibility, python-integration, cloud-services...*
+
+---
+
+### 2. [c-cf/imf-data-mcp](https://github.com/c-cf/imf-data-mcp)
+`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The imf-data-mcp project provides a Python-based interface for developers to interact with the International Monetary Fund's economic data via the IMF API. It offers tools for querying datasets, fetching time series data, listing indicators and countries, and supports programmatic workflows. Designed for ease of use in modern development environments, it emphasizes integration with AI and DevOps practices while maintaining security and scalability.**
+
+**Features:**
+- API integration
+- data querying
+- time series data retrieval
+- indicator listing
+- structured data processing
+- automated workflows
+- code execution support
+
+*Tags: developer, python, api, data, imf, mcp, integration, security...*
+
+---
+
+### 3. [yunwoong7/aws-nova-canvas-mcp](https://github.com/yunwoong7/aws-nova-canvas-mcp)
+`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
+
+**The yunwoong7/aws-nova-canvas-mcp project provides a developer-focused interface to leverage Amazon Bedrock's Nova Canvas model for image generation, offering features such as text-to-image, inpainting, and image variation. It supports secure development workflows, integrates with AWS infrastructure, and is designed for ease of use within modern software development environments.**
+
+**Features:**
+- Text to Image
+- Image Inpainting
+- Image Outpainting
+- Image Variation
+- Image Conditioning
+- Color Guided Generation
+- Background Removal
+- Thumbnail Creation
+
+*Tags: cloud-computing, image-generation, ai-development, developer-tools, aws-integration, mcp-server, nova-canvas, image-editing...*
+
+---
+
+### 4. [lifejwang11/alphavantage-mcp](https://github.com/lifejwang11/alphavantage-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The alphavantage-mcp project provides a server-based solution to connect with AlphaVantage's API, enabling developers to access real-time and historical financial market data through the Model Control Protocol (MCP). It supports core functionalities such as stock quotes, technical indicators, company information, and financial statements, while emphasizing ease of integration for modern development workflows.**
+
+**Features:**
+- AlphaVantage API integration
+- Real-time and historical market data
+- Technical indicators
+- Fundamental data access
+- Financial statement retrieval
+
+*Tags: developer, api-integration, financial-data, market-data, python-dev, mcp-server, alpha-avantage, data-analysis...*
+
+---
+
+### 5. [seanlee10/server-youtube-transcription](https://github.com/seanlee10/server-youtube-transcription)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The server provides a GitHub-hosted transcription service that enables developers to easily add accurate and fast video transcriptions from YouTube content into their projects. It leverages MCP (Multi-Processing Core) to handle integration efficiently, offering a seamless developer experience with features like code generation, workflow automation, and secure deployment options.**
+
+**Features:**
+- YouTube transcription integration
+- Code generation with AI
+- Workflow automation
+- Secure deployment
+- Cross-platform compatibility
+
+*Tags: youtube-transcription, server-youtube-transcription, mcp, ai-development, code-generation, developer-tools, transcription-service, enterprise-software*
+
+---
+
+### 6. [felixwu1110/pubmed_mcp](https://github.com/felixwu1110/pubmed_mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The Borg Project's 'pubmed_mcp' repository offers a robust MCP server that enables users to search, analyze, and retrieve academic medical papers from the PubMed database. It provides advanced features such as topic-based searches, citation generation, publication statistics analysis, and integration with various API tools for seamless development workflows.**
+
+**Features:**
+- search functionality
+- citation generation
+- publication details retrieval
+- researcher statistics analysis
+- integration with external tools
+
+*Tags: medical-literature, mcp-server, api-integration, data-analysis, developer-tools, healthcare, research, python...*
+
+---
+
+### 7. [umshere/uiflowchartcreator](https://github.com/umshere/uiflowchartcreator)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**The umshere/uiflowchartcreator is an MCP server designed to help developers and designers visualize user interfaces and interactions through intuitive flowchart creation. It integrates with MCP-compatible systems, offering an easy-to-use API for generating UI diagrams that can be embedded in applications.**
+
+**Features:**
+- UI flowchart generation
+- Integration with MCP protocol
+- Easy-to-use API
+- Customizable templates
+- Visual design customization
+
+*Tags: mcp, ui, flowcharts, developer, design, api, integration, visualization...*
+
+---
+
+### 8. [5ajaki/veri5ight](https://github.com/5ajaki/veri5ight)
+`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
+
+**Veri5ight is a MCP Server designed to provide Claude with real-time access to Ethereum node data, including token balances, smart contract details, and transaction history. It enhances the Claude platform by eliminating API rate limits, offering low-latency queries, and ensuring privacy through direct node communication.**
+
+**Features:**
+- Real-time token balance and delegation info
+- Smart contract information access
+- Direct node access without rate limits
+- Private and secure interactions
+- Integration with Claude Desktop
+
+*Tags: ethereum, veri5ight, node, developer, security, ai, cloud, integration...*
+
+---
+
+### 9. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The mcp-document-reader is a lightweight Python application designed to facilitate reading and processing of digital documents such as EPUB and PDF files. It leverages the MCP (Media Content Processing) library to provide an intuitive interface for developers and users to interact with these file formats programmatically. The tool supports integration with AI models, making it suitable for applications in modernization, DevSecOps, and enterprise workflows.**
+
+**Features:**
+- MCP server integration
+- EPUB and PDF document handling
+- LLM interaction capabilities
+- code generation and automation support
+
+*Tags: mcp, document-reader, epub, pdf, ai-integration, developer-tool, python, mcp-server...*
+
+---
+
+### 10. [leee62/pickapicon-mcp](https://github.com/leee62/pickapicon-mcp)
+`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Pickapicon-MCP project provides a developer-friendly interface to generate SVG icons quickly by leveraging large language models (LLMs). It streamlines the process of obtaining vector graphics, making it easier for designers and developers to integrate modern UI components without manually searching or copying SVG files. The tool supports various use cases such as enterprise platform modernization, DevSecOps, and AI-assisted code generation.**
+
+**Features:**
+- LLM-powered SVG generation
+- Quick icon creation
+- Integration with AI tools
+- Support for enterprise workflows
+
+*Tags: mcp, svg, developer, ai, llm, code, security, integration...*
+
+---
+
+### 11. [Étoilé](http://etoileos.com)
+`10.0` ★★★ ⚡86 Q0.8🏆 🏆 World-class
+
+**Étoilé seeks to replace the traditional file/process-centric user interface with one centered on user activities. Key technical aspirations include universal revision history for all system objects, seamless collaboration across all document types (text, code, drawing), and a customizable workflow achieved via combinable 'Services.' The project emphasizes a user experience closer to the user's mental model by abstracting away low-level implementation details like files and operating-system proce...**
+
+**Features:**
+- Revision history for all objects
+- built-in object collaboration
+- service-based workflow customization
+- object-centric UI abstraction
+
+*Tags: gnu-step, objective-c, object-centric, user-environment, workflow-abstraction, collaboration, versioning, smalltalk...*
+
+---
+
+### 12. [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+
+**The project provides a structured interface for implementing quantum state collapse mechanisms, emphasizing usability through well-documented API endpoints and comprehensive README instructions. It integrates seamlessly into existing workflows by offering modular components and clear separation of concerns, distinguishing itself from more complex or less documented alternatives.**
+
+**Features:**
+- wavefunction collapse implementation
+- modular API design
+- comprehensive documentation
+- version-controlled dependencies
+- interactive examples
+
+*Tags: quantum-computing, wavefunction, python, developer-tools, quantum-api*
+
+---
+
+### 13. [how-we-accidentally-built-the-ai-powered-pdf-parser-we-never-knew-we-needed-the-doctly-story-af5e3f88dc8a](https://medium.com/@ali.sheikh_64228/how-we-accidentally-built-the-ai-powered-pdf-parser-we-never-knew-we-needed-the-doctly-story-af5e3f88dc8a)
+`10.0` ★★★ ⚡85 Q0.7🏆 🏆 World-class
+↗3 layers
+
+**The project details the development of Doctly, an AI-driven solution designed to overcome the limitations of existing PDF parsing tools. It emphasizes the importance of precision in handling complex PDFs with intricate layouts, such as tables and charts, which traditional tools struggle with. The solution leverages advanced AI and machine learning to ensure high accuracy in conversion, making it suitable for integration into various AI applications.**
+
+**Features:**
+- AI-powered PDF parsing
+- Extraction of text
+- tables
+- figures
+- and charts
+- High accuracy in complex document formats
+- Seamless integration with Python SDK
+- User-friendly setup and deployment
+
+*Tags: pdf-parsing, ai-powered-tools, legal-documents, document-analysis, machine-learning, software-development*
+
+---
+
+### 14. [lolrazh/cad-mcp](https://github.com/lolrazh/cad-mcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+
+**The project provides a GitHub-hosted MCP server that integrates with Claude the AI design assistant, allowing users to create and visualize CAD drawings directly within the platform. It supports seamless interaction between AI-driven design tools and external CAD systems via Rayon, enhancing productivity for developers and designers.**
+
+**Features:**
+- CAD drawing generation
+- AI integration with Claude
+- Rayon compatibility
+- cloud-based development environment
+
+*Tags: cad-mcp, gpu-ai, rapid-prototyping, design-assistance, developer-tool, ai-integration, cloud-development, automation...*
+
+---
+
+### 15. [atharva-gundawar/macos_gui](https://github.com/atharva-gundawar/macos_gui)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a user interface for managing the macOS graphical user interface using MCP (Mac OS Control Protocol). It offers features such as code generation, workflow automation, secure development practices, and integration with external tools to enhance productivity and security in software development environments.**
+
+**Features:**
+- code generation
+- workflow automation
+- security features
+- integration capabilities
+
+*Tags: macos-gui, developer-tool, code-automation, security, workflow, integration, productivity, mac-control...*
+
+---
+
+### 16. [garoth/wolframalpha-llm-mcp](https://github.com/garoth/wolframalpha-llm-mcp)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Garoth/WolframAlpha-LLM-MCP project provides a dedicated server that integrates WolframAlpha's large language model API, allowing developers to query structured knowledge and perform advanced mathematical reasoning. It supports seamless interaction with WolframAlpha's capabilities, offering both simple and detailed responses tailored for AI applications.**
+
+**Features:**
+- WolframAlpha LLM API integration
+- Structured knowledge retrieval
+- Mathematical problem solving
+- Natural language query support
+
+*Tags: wolframalpha, mlapi, mcp, llm, developer, ai, code, security*
+
+---
+
+### 17. [z4none/rapidocr-mcp](https://github.com/z4none/rapidocr-mcp)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+
+**The z4none/rapidocr-mcp project offers a user-centric OCR solution integrated with RapidOCR, designed to simplify image-to-text conversion for developers and businesses. It provides an intuitive interface for running OCR on both base64 data and local image files, supporting seamless integration into development workflows.**
+
+**Features:**
+- OCR via RapidOCR
+- Base64 image processing
+- Easy-to-use interface
+- Support for multiple file formats
+
+*Tags: rapidocr, ocr, developer, image-processing, mcp, python, api, integration...*
+
+---
+
+### 18. [Monosketch | Hacker News](https://news.ycombinator.com/item?id=47001871)
+`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
+↗3 layers
+
+**Monosketch is a lightweight ASCII-based drawing tool that allows users to create diagrams, flowcharts, and other visual content using text characters. It supports exporting diagrams in various formats such as SVG, PNG, and Graphviz, making it versatile for documentation, presentations, and design tasks. The application is appreciated for its ease of use and ability to transform textual descriptions into visually appealing graphics.**
+
+**Features:**
+- ASCII sketching and diagramming
+- Export to SVG
+- PNG
+- Graphviz
+- Custom box characters and symbols
+- Support for flowcharts and diagrams
+- User-friendly interface
+
+*Tags: ascii, diagramming, sketching, text-based, graphic-design, development, user-interface, code-generation...*
+
+---
+
+### 19. [&campaign_id=120244842824600614&ad_id=120244842824760614](https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824760614)
+`9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This landing page emphasizes Linq's ability to deliver robust messaging capabilities quickly, focusing on core value propositions such as seamless integration of iMessage, RCS, and SMS. The content highlights the platform's support for enterprise-grade messaging, emphasizing its reliability, scalability, and ease of use for developers. Key features include rapid setup (under 5 minutes), native protocols like RCS and voice notes, and a focus on delivering mission-critical workflows with high perf...**
+
+**Features:**
+- iMessage integration
+- RCS messaging support
+- SMS compatibility
+- low latency and high throughput
+- secure data encryption
+
+*Tags: messaging, enterprise, developer, api, sandbox, integration, security, scalability...*
+
+---
+
+### 20. [vectorinstitute/mcp-goodnews](https://github.com/vectorinstitute/mcp-goodnews)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP Goodnews application fetches recent news articles from the NewsAPI and uses a Cohere LLM to rank and return the top positive news stories based on sentiment analysis. It aims to counterbalance the prevalence of negative news by focusing on uplifting content.**
+
+**Features:**
+- News API integration
+- Cohere LLM for sentiment analysis
+- Positive news curation
+- User-friendly interface
+
+*Tags: mcp, goodnews, ai, news, positive, uplifting, sentiment, newsapi...*
+
+---
+
+### 21. [Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)
+`8.2` ★ ⚡81 Q0.8⭐ ⭐ Excellent
+
+**This technical resource details the implementation of the MCP server, enabling AI assistants like Claude to access comprehensive aviation data including live flight positions, aircraft information, airport details, and flight histories. It supports features such as real-time flight tracking, historical data retrieval, detailed flight summaries, and flexible filtering options.**
+
+**Features:**
+- Real-time Flight Tracking
+- Historical Flight Data Access
+- Comprehensive Flight Information
+- Flexible Filtering Capabilities
+
+*Tags: flightradar24, api-mcp, flightdata, realtime, historical*
+
+---
+
+### 22. [Ask HN: What software has improved dramatically recently thanks to AI tooling? | Hacker News](https://news.ycombinator.com/item?id=47345578)
+`9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
+↗4 layers
+
+**The article discusses recent advancements in AI-powered software tools that are rapidly changing the landscape of development, emphasizing their impact on productivity and innovation.**
+
+**Features:**
+- AI integration
+- automated code generation
+- smart debugging
+- real-time feedback
+- enhanced collaboration
+
+*Tags: ai, software, development, productivity, automation, code, tools, tech...*
+
+---
+
+### 23. [vibefolio.link — Showcase your vibe-coded projects](https://vibefolio.link)
+`8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+
+**The Borg intelligence database should analyze the technical structure of the provided resource, focusing on its user interface design, interactivity, and how it presents project information in a public, shareable format. It evaluates the categorization, navigation, and overall experience for developers and project creators.**
+
+**Features:**
+- project cards
+- live urls
+- vibe-coded presentation
+- public sharing
+- bio integration
+
+*Tags: vibefolio, projectmanagement, webdevelopment, interactiveplatform, digitalportfolio, userinterface, contentcreation, projectshowcase...*
+
+---
+
+### 24. [29decibel/record-to-markdown](https://github.com/29decibel/record-to-markdown)
+`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP server enables seamless integration with Claude, a conversational AI platform, by allowing conversation recordings to be exported in markdown or Apple Notes format. This enhances developer productivity by providing structured documentation of interactions, improving knowledge retention and workflow efficiency.**
+
+**Features:**
+- Record Claude conversations
+- Export to markdown
+- Export to Apple Notes
+
+*Tags: mcp, cloud, ai, developer, documentation, conversation, notes, automation...*
+
+---
+
+### 25. [medium.com/@gargg/how-to-extract-text-from-pdfs-an](https://medium.com/@gargg/how-to-extract-text-from-pdfs-and-images-for-llms-use-b6e65ea270bf)
+`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
+
+**This article outlines various techniques for extracting text from PDF documents and image files, including using Python libraries like PyPDF2 and pdfplumber, leveraging OCR services such as Google Cloud Vision and Tesseract, and employing image processing with OpenCV. It emphasizes the importance of preprocessing extracted text to clean and standardize it for effective use in training large language models. The article also discusses challenges such as OCR errors, formatting issues, and the need...**
+
+**Features:**
+- PDF text extraction using libraries
+- Image-based OCR with Google Cloud Vision
+- Text preprocessing and cleaning
+- Integration of multiple tools for comprehensive extraction
+
+*Tags: pdf-extraction, image-ocr, text-preprocessing, language-model-training, data-enrichment, ai-workflow, content-scraping, machine-learning-data...*
+
+---
+
+### 26. [Electric Sheep Crowdsourced Evolving Art](https://electricsheep.org)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**The modern evolution of the classic distributed fractal screensaver, utilizing neural style transfer and latent space exploration mixed with traditional mathematical algorithms.**
+
+**Features:**
+- Distributed genetic breeding algorithm
+- 4K/8K "Gold" resolution
+- AI-hybrid neural style transfer
+- cross-platform distributed rendering.
+
+*Tags: fractals, distributed-compute, generative-art, screensaver, genetic-algorithm, electricsheep, open-source*
+
+---
+
+### 27. [meta/detic – Replicate](https://replicate.com/meta/detic)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**Meta AI's open-vocabulary object detector capable of recognizing 21,000+ classes, now a core pillar of 2026 "World Models" for autonomous vision-action loops.**
+
+**Features:**
+- 21
+- 000+ object class recognition
+- weakly supervised scaling (ImageNet-21K)
+- real-time AR/VR performance
+- visual causal grounding.
+
+*Tags: vision, object-detection, meta, world-model, research, replicate*
+
+---
+
+### 28. [Zine – The AI That Actually Knows Your Stuff](https://www.zine.ai)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**An AI-powered image generation suite functioning as a professional non-destructive editor with stable character generation across multiple prompts.**
+
+**Features:**
+- Layer-based non-destructive workflow
+- consistent character generation (branding)
+- generative fill/expansion
+- 6144x6144 high-res output.
+
+*Tags: generative-ai, design, image-editing, multimodal, ux, artificial-intelligence, zine*
+
+---
+
+### 29. [Yapnotes - Think out loud. Get a clean first draft.](https://yapnotes.com)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**An AI-powered audio application that transcribes "messy" unstructured voice memos and converts them into polished, structured notes and action items.**
+
+**Features:**
+- Filler-word removal (um/ah filtering)
+- structured Markdown summarization
+- "Chat with recording" semantic retrieval
+- iOS Dynamic Island support.
+
+*Tags: voice-ai, transcription, productivity, ios, memory, yapnotes*
+
+---
+
+### 30. [Î¼Pad | Take and organise notes for free](https://getmicropad.com)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+
+**A non-linear, infinite-canvas note-taking application built with React.js that features μSync client-side AES-256 encryption.**
+
+**Features:**
+- Infinite digital whiteboard workspace
+- μSync client-side AES-256 encryption
+- Jupyter Notebook (.ipynb) integration
+- smart hashtag linking.
+
+*Tags: note-taking, infinite-canvas, sync, privacy, open-source, getmicropad*
+
+---
+
+### 31. [keyshot-studio-ai](https://www.keyshot.com/keyshot-studio-ai)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+
+**The 2026 evolution of the industry-standard 3D rendering suite, featuring local GPU-based generative AI for instant moodboarding and environment generation.**
+
+**Features:**
+- 100% local processing (protects CAD IP)
+- Imagine Mode instant concepting
+- Restyle Mode scene modification
+- generative background projection.
+
+*Tags: 3d-rendering, generative-ai, local-first, vision, workflow*
+
+---
+
+### 32. [Show HN: Transcribe YouTube videos and Apple podcasts to Readable Markdown | Hacker News](https://news.ycombinator.com/item?id=41864353)
+`8.7` ★ ⚡72 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This project focuses on transcribing lengthy audio files such as YouTube videos and Apple podcasts, converting them into structured markdown format. It addresses the need for readability by applying post-processing to organize the transcript into coherent sections, making it easier for users to consume and understand the content.**
+
+**Features:**
+- Transcribe audio to markdown
+- Improve readability through formatting
+- Support for YouTube and Apple podcasts
+
+*Tags: transcription, audio, markdown, accessibility, developer, content, learning, tech...*
+
+---
+
+### 33. [Proton Docs](https://docs.proton.me/u/0/sheet?mode)
+`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
+
+**Proton Docs is an AI-powered documentation platform designed to help developers understand and implement complex concepts. It leverages JavaScript capabilities to provide rich documentation, likely including interactive tutorials or integrated development environments (IDEs) that enhance the developer experience.**
+
+**Features:**
+- AI-powered documentation
+- JavaScript enablement
+- comprehensive guides
+- developer tooling integration
+- interactive learning experiences
+
+*Tags: documentation, ai, javascript, developer-tools, ux, learning, tech*
+
+---
+
+### 34. [item?id=41554947](https://news.ycombinator.com/item?id=41554947)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**SmartChatPDF addresses the common challenge of time-consuming PDF processing by offering instant summaries and a user-friendly interface. It supports multiple industries, works across devices, and focuses on enhancing efficiency through smart content extraction.**
+
+**Features:**
+- instant summaries
+- user-friendly interface
+- multi-industry support
+- cross-device compatibility
+
+*Tags: pdf-processing, productivity-tools, user-experience, document-analysis, smart-assistant, web-development, content-extraction, digital-productivity...*
+
+---
+
+### 35. [item?id=47752392](https://news.ycombinator.com/item?id=47752392)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The project introduces an open-source knowledge base built on Andrej Karparthy's OpenKB, enhanced to handle large PDF documents and embedded images efficiently. It aims to provide a scalable solution for developers and researchers needing access to comprehensive, structured data.**
+
+**Features:**
+- Open source knowledge base
+- Support for long PDFs
+- Image embedding
+- Pageindex integration
+
+*Tags: open-source, knowledge-base, pdf-handling, image-support, long-document-processing, developer-tools, ai-knowledge-management*
+
+---
+
+### 36. [someone_just_built_a_free_video_editing_tool_for](https://www.reddit.com/r/aiecosystem/comments/1ss0nmu/someone_just_built_a_free_video_editing_tool_for)
+`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The project introduces a user-friendly video editing interface aimed at enhancing the efficiency and integration of video processing within the Borg ecosystem. It focuses on streamlining workflows, improving developer experience, and ensuring seamless connectivity with other systems.**
+
+**Features:**
+- video editing
+- user interface optimization
+- integration capabilities
+- developer tools
+
+*Tags: video-editing, tool-development, interface-design, developer-experience, borg-project, software-tool, user-interface, workflow-enhancement*
+
+---
+
+### 37. [gosh_these_folks_are_creative_and_thumbs_up_to](https://www.reddit.com/r/LovingAI/comments/1szog3i/gosh_these_folks_are_creative_and_thumbs_up_to)
+`8.5` ★ ⚡71 Q0.6⭐ ⭐ Excellent
+
+**The resource showcases innovative approaches to enhancing user interaction with AI, focusing on usability and engagement through creative design elements.**
+
+**Features:**
+- interactive ai models
+- user feedback integration
+- creative ui/ux design
+- ai-generated content
+- community-driven development
+
+*Tags: ai, reddit, creativity, user-experience, developer-tools, machine-learning, interface-design, community-engagement...*
+
+---
+
+### 38. [about](https://alternativeto.net/software/jan-ai/about)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+↗2 layers
+
+**A cross-platform, local-first alternative to ChatGPT that provides an OpenAI-compatible API and native MCP integration for private agentic workflows.**
+
+**Features:**
+- OpenAI-compatible local API (localhost:1337)
+- one-click Hugging Face downloads
+- automatic GPU optimization
+- native MCP server support.
+
+*Tags: local-llm, privacy, openai-api, mcp, desktop-app*
+
+---
+
+### 39. [key-bpm-finder](https://vocalremover.org/key-bpm-finder)
+`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The Borg should evaluate the technical approach of this app, focusing on its user interface design, interaction flow, and usability features that enhance the user experience when analyzing song keys and BPMs.**
+
+**Features:**
+- Key and BPM Finder
+- Tempo Analysis
+- Pitch Shifter
+- File Upload Support
+
+*Tags: music-analysis, audio-processing, bpm-detection, key-identification, tempo-calculation, file-management, user-interface, data-extraction...*
+
+---
+
+### 40. [Hacker News Discussion](https://news.ycombinator.com/item?id=47952497)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**The comments analyze the shortcomings of the Apple Vision Pro, pointing out that its current form factor is too cumbersome for daily use and questioning whether it truly offers a viable platform for niche AR/VR development. The discussion touches upon the missed opportunities for an immersive experience and the practical hurdles developers face when trying to port existing projects to the new platform.**
+
+**Features:**
+- Vision Pro
+- VR/AR Platform
+- Developer Porting Challenges
+- XR Development
+
+*Tags: vision-pro, ar-development, vr-hardware, apple-ecosystem, developer-experience, xr-challenges, software-licensing, hardware-limitations*
+
+---
+
+### 41. [](https://www.gravityxr.cn/col76/)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**This resource details a high-performance MR device featuring a 90° Field of View (FoV) pancake lens, offering 36 PPD resolution with dual 16MP color see-through capability. It highlights the lightweight design (93g), low latency (9ms VST), and eye-hand interaction capabilities, positioning it as an innovative interface for Mixed Reality experiences.**
+
+**Features:**
+- Pancake Lens Optics
+- Low Latency (9ms VST)
+- 6DoF Capability
+- High Resolution (5K/16MP)
+- Lightweight Design (93g)
+
+*Tags: mixed-reality, vr, optics, hardware, display, latency, mr*
+
+---
+
+### 42. [Blocks - Use coding agents where your teams works](https://www.blocks.team/app/d4e8e6bb-c229-4c5a-aeea-9b82fc84540e/home)
+`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
+
+**Blocks is a powerful platform designed to help developers build and prototype applications efficiently. It offers a comprehensive set of tools for designing, coding, and deploying software, emphasizing a strong focus on the developer experience and modern workflow integration.**
+
+**Features:**
+- Collaborative design interface
+- Prototyping capabilities
+- Integrated development environment (IDE)
+- Version control/Git integration
+- User-friendly UI
+
+*Tags: design-tools, prototyping, developer-experience, collaboration, ui/ux, web-dev*
+
+---
+
+### 43. [explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668](https://medium.com/activated-thinker/explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668)
+`8.7` ★ ⚡69 Q0.6✓ ✓ Solid
+
+**The article introduces Explow.me, an AI application that enables users to engage in conversations with potential versions of themselves from the future. By simulating these interactions, users can better understand how their current choices shape long-term outcomes, thereby improving self-control and decision-making.**
+
+**Features:**
+- AI-powered future self conversation
+- interactive simulation of personal growth
+- real-time feedback on behavioral choices
+
+*Tags: ai, future-self, decision-making, behavioral-psychology, user-experience, personal-development, interactive-storytelling, predictive-modeling...*
+
+---
+
+### 44. [qwen-ai-landing-page](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page)
+`8.5` ★ ⚡68 Q0.6✓ ✓ Solid
+
+**This landing page highlights Alibaba Cloud's AI solutions, emphasizing its role in simplifying developer interactions through intuitive tools and streamlined workflows.**
+
+**Features:**
+- AI-powered support
+- integrated development tools
+- customizable interfaces
+- real-time assistance
+
+*Tags: ai-assistant, developer-tools, cloud-integration, support-solutions, automation, user-interface, technical-support, cloud-services...*
+
+---
+
+### 45. [chatgpt.com](https://chatgpt.com)
+`8.7` ★ ⚡65 Q0.6✓ ✓ Solid
+
+**The Borg Project intelligence database should include this resource to assess its utility in understanding AI-driven chatbot interactions, user engagement patterns, and the technical implementation of conversational agents.**
+
+**Features:**
+- chat interface
+- response generation
+- user interaction analysis
+
+*Tags: chatbot, ai, chatgpt, user-interface, developer-tools, natural-language-processing*
+
+---
+
+### 46. [NexDock is building a new Windows phone that you can buy in 2026 — Meet the NexPhone with Windows 11 | Windows Central](https://www.windowscentral.com/microsoft/windows-11/nexdock-is-building-a-new-windows-phone-that-you-can-buy-in-2026-meet-the-nexphone-with-windows-11)
+`7.0` ★ ⚡65 Q0.7✓ ✓ Solid
+
+**This article introduces the NexPhone, a new hardware product that runs Android, Linux, AND Windows 11. It highlights how this device offers dual-booting capabilities with Windows 11 and features a custom launcher shell interface to enhance the user experience.**
+
+**Features:**
+- Custom shell UI
+- Dual-booting capability (Android/Linux/Windows 11)
+- Custom launcher shell interface
+- Hardware integration for Continuum experience
+
+*Tags: windows-11, smartphone, dual-boot, operating-system, hardware-innovation, mobile-computing*
+
+---
+
+### 47. [Amazon.com](https://a.co/d/00lSDJQF)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This resource is an Amazon storefront, designed to facilitate the shopping experience by providing clear calls to action for users to continue browsing or purchasing. It represents a standard e-commerce interface where the primary goal is to drive conversion and user engagement through product listings.**
+
+**Features:**
+- E-commerce platform
+- Shopping experience
+- Clear call to action
+- Amazon storefront
+- User shopping flow
+
+*Tags: e-commerce, ux-design, shopping, amazon, interface, conversion*
+
+---
+
+### 48. [ZOOOO](https://www.zoooo.co)
+`6.0` ★ ⚡61 Q0.6✓ ✓ Solid
+
+**ZOOO appears to be a platform offering various languages (English, Español, Français, etc.) suggesting it provides multilingual capabilities. The 'About' section implies a focus on the company's mission or product overview, which is crucial for understanding its developer utility and user experience.**
+
+**Features:**
+- Multilingual support
+- Developer tools integration
+- Comprehensive platform offering
+- AI/Developer workflow enablement
+
+*Tags: developer-tools, multilingual, platform, ai-integration, ux, language-features*
+
+---
+
+### 49. [fwber.me - Social Network - Join the Revolution in Social Networking](https://www.fwber.me/dashboard)
+`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
+
+**fwber.me is a platform designed to facilitate social networking, offering users a space to join and participate in the 'revolution' of social interaction. It likely provides tools for user engagement, community building, and social connectivity within its ecosystem.**
+
+**Features:**
+- Social Networking Platform
+- Community Engagement Tools
+- Revolution Focus
+- User Interface
+- Social Connectivity
+
+*Tags: social-networking, community, ux, platform, revolution, social-tools*
+
+---
+
+### 50. [trpc/trpc](https://github.com/trpc/trpc)
+`7.0` ★ ⚡60 Q0.6✓ ✓ Solid
+
+**tRPC provides an end-to-end typed API layer for building scalable, type-safe backend services. It focuses on providing fully type-safe APIs without requiring code generation or runtime bloat, offering a snappy developer experience that integrates seamlessly into existing projects.**
+
+**Features:**
+- type-safe APIs
+
+*Tags: react, typescript, nextjs, api, developer-tools, type-safety*
+
+---
+
+### 51. [The Component Gallery](https://component.gallery/)
+`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
+
+**This resource provides a gallery of ready-to-use interface components, exemplified by the Figma/design system 'Polaris'. It offers various interactive elements like carousels, popovers, and accordions, making it a practical reference for developers needing to build rich, interactive user interfaces.**
+
+**Features:**
+- Component Gallery
+- Design System Reference
+- Interactive Components
+- UI Component Examples
+
+*Tags: ui-design, component-library, figma, web-components, ux, design-system*
+
+---
+
+### 52. [4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
+`8.0` ★ ⚡57 Q0.5✓ ✓ Solid
+↗3 layers
+
+**Guidance on locating and managing OpenAI API keys for secure integration.**
+
+**Features:**
+- API key retrieval
+- Security best practices
+- Integration guidance
+
+*Tags: openai, api-key, security, developer, integration, best-practices*
+
+---
+
+### 53. [EasyGetIt — Shop Quality Products Online](https://easygetit.com/)
+`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
+
+**This tool is an e-commerce platform designed for browsing curated product collections and providing a seamless shopping experience. It allows users to browse categories, view featured products, and create accounts for faster checkout and exclusive deals.**
+
+**Features:**
+- Curated product collection
+- Seamless shopping experience
+- Product browsing by category
+- Account creation for better checkout
+
+*Tags: e-commerce, shopping, retail, user-experience, product-discovery, easygetit*
+
+---
+
+### 54. [newbeb/clipboard-mcp](https://github.com/newbeb/clipboard-mcp)
+`6.0` ★ ⚡55 Q0.6✓ ✓ Solid
+
+**This is a developer tool designed to provide AI agents with direct access to the macOS clipboard, including text, images, and binary data. It uses `osascript` to interact with the macOS clipboard, ensuring content is checked on demand rather than cached.**
+
+**Features:**
+- macOS clipboard access
+
+*Tags: macos, clipboard, ai-agent, interface, developer-tool, mcp*
+
+---
+
+### 55. [claude.ai?utm_source=chatgpt.com](https://claude.ai?utm_source=chatgpt.com)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**claude.ai?utm_source=chatgpt.com**
+
+---
+
+### 56. [perplexity.ai?utm_source=chatgpt.com](https://www.perplexity.ai?utm_source=chatgpt.com)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**perplexity.ai?utm_source=chatgpt.com**
+
+---
+
+### 57. [start.smartymeapp.com](https://start.smartymeapp.com/smartyme-g135-ngr?utm_source=google&utm_medium=cpc&utm_campaign_name=%7Bcampaignname%7D&utm_campaign_id=23785952820&utm_adset_name=%7Badgroupname%7D&utm_adset_id=199016161434&utm_ad_name=%7Badname%7D&utm_ad_id=806646679410&utm_asset_id=%7Bassetid%7D&utm_keyword=&utm_matchtype=&utm_device=m&utm_network=&utm_placement=&utm_adposition=&utm_loc_physical=9016963&utm_loc_interest=9016963&utm_gclid=&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**start.smartymeapp.com**
+
+---
+
+### 58. [wsj.com](https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wsj.com**
+
+---
+
+### 59. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cbe005.chat.mibbit.com**
+
+---
+
+### 60. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server=irc.snoonet.org&nick=nickname%3F%3F%3F&channel=%23singularitynetwork)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cbe005.chat.mibbit.com**
+
+---
+
+### 61. [chat.lmsys.org](https://chat.lmsys.org)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.lmsys.org**
+
+---
+
+### 62. [discord.gg](https://discord.gg/r-chatgpt-1050422060352024636)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 63. [discord.gg](https://discord.gg/rchatgpt)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**discord.gg**
+
+---
+
+### 64. [giphy.com](https://giphy.com/gifs/1AIeYgwnqeBUxh6juu)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 65. [giphy.com](https://giphy.com/gifs/Ptuibzjft6Ud6mBeu6)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**giphy.com**
+
+---
+
+### 66. [hpluspedia.org](https://hpluspedia.org/wiki/Chat)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hpluspedia.org**
+
+---
+
+### 67. [open-vsx.org](https://open-vsx.org/extension/serkan-ozal/browser-devtools-mcp-vscode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open-vsx.org**
+
+---
+
+### 68. [t.me](https://t.me/r_ChatGPT)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**t.me**
+
+---
+
+### 69. [ufos.wiki](https://ufos.wiki/track/sightings-post-guidelines/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ufos.wiki**
+
+---
+
+### 70. [linkedin.com](https://www.linkedin.com/posts/a16z_big-ideas-activity-7445485236454330368-RqC6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABMwAXkBCMqPnmiiUL5hRhEDIqGfXfwQlgk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 71. [youtube.com](https://www.youtube.com/watch?app=desktop&v=kOK1Cw46HUo)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 72. [youtube.com](https://www.youtube.com/watch?v=QQEgIo4Juxg)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 73. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 74. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp=drivesdk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**drive.google.com**
+
+---
+
+### 75. [npmjs.com](https://www.npmjs.com/package/@toolkit-cli/toolkode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 76. [youtu.be](https://youtu.be/pA6OJXO6UrU?is=tr4m9UXO-qI8JJsD)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 77. [Linux.DO](http://Linux.DO)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**Linux.DO**
+
+---
+
+### 78. [chat.deepseek.com](http://chat.deepseek.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.deepseek.com**
+
+---
+
+### 79. [chat.openai.com](https://chat.openai.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chat.openai.com**
+
+---
+
+### 80. [chicago.suntimes.com](https://chicago.suntimes.com/news/2023/2/24/23614215/tracking-service-stolen-volkswagen-toddler-inside-carjacking-lake-county?utm_source=chatgpt.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chicago.suntimes.com**
+
+---
+
+### 81. [mattfrisbie.substack.com](https://mattfrisbie.substack.com/p/the-ugly-business-of-monetizing-browser)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mattfrisbie.substack.com**
+
+---
+
+### 82. [mcp.euclidtools.com](https://mcp.euclidtools.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mcp.euclidtools.com**
+
+---
+
+### 83. [youtu.be](https://youtu.be/xsYoeoEE3ww?si=N_nGnuXXbgw0hHVb)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtu.be**
+
+---
+
+### 84. [fxgears.com](https://fxgears.com/index.php?pages/trading_chatroom/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fxgears.com**
+
+---
+
+### 85. [share.formgrid.com](https://share.formgrid.com/terminal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**share.formgrid.com**
+
+---
+
+### 86. [linkedin.com](https://www.linkedin.com/pulse/notebooklm-2026-ultimate-guide-newest-features-joel-salinas-frencia-ed1rc)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 87. [youtube.com](https://www.youtube.com/watch?v=_uXnyhrqmsU)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**youtube.com**
+
+---
+
+### 88. [localhost:8001](http://localhost:8001/v1/chat/completions)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**localhost:8001**
+
+---
+
+### 89. [unsplash.com](https://unsplash.com/photos/a-multicolored-image-of-a-multi-colored-background-Js9auX5_9R8)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unsplash.com**
+
+---
+
+### 90. [clipcut.dev](https://clipcut.dev/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**clipcut.dev**
+
+---
+
+### 91. [eyekeeper.com](https://eyekeeper.com/a/s/products/3-pack-vintage-clip-on-polarized-sunglasses-c63-54mm-34mm?country=US&currency=USD&rdt_cid=5333117784107024304&utm_campaign=us1&utm_content=us1&utm_medium=product_sync&utm_source=reddit&variant=41404595667134)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**eyekeeper.com**
+
+---
+
+### 92. [wsj.com](https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9?st=8nwb2r&reflink=desktopwebshare_permalink)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**wsj.com**
+
+---
+
+### 93. [unsloth.ai](https://unsloth.ai/docs/models/gemma-4#llama.cpp-guide)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**unsloth.ai**
+
+---
+
+### 94. [ai.google.dev](https://ai.google.dev/edge/litert-lm/cli)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**ai.google.dev**
+
+---
+
+### 95. [developers.redhat.com](https://developers.redhat.com/articles/2025/06/03/structured-outputs-vllm-guiding-ai-responses)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developers.redhat.com**
+
+---
+
+### 96. [openai.com](https://openai.com/index/testing-ads-in-chatgpt/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**openai.com**
+
+---
+
+### 97. [fortune.com](https://fortune.com/2025/01/07/sam-altman-openai-chatgpt-pro-subscription-losing-money-tech/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**fortune.com**
+
+---
+
+### 98. [chatgpt.com](https://chatgpt.com/share/69e0de34-4048-83ea-9704-4ea18d4b4188)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 99. [chatgpt.com](https://chatgpt.com/cyber)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 100. [sqmagazine.co.uk](https://sqmagazine.co.uk/claude-vs-chatgpt-statistics/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**sqmagazine.co.uk**
+
+---
+
+### 101. [developers.openai.com](https://developers.openai.com/api/docs/guides/websocket-mode)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developers.openai.com**
+
+---
+
+### 102. [chatgpt.com](https://chatgpt.com/share/69e83569-b334-8320-9fbf-01404d18dfa5)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 103. [chatgpt.com](https://chatgpt.com/share/69e88b5c-8628-83eb-8851-f587ef2c95f1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 104. [chatgpt.com](https://chatgpt.com/share/69e85df6-5840-83e8-b0e9-3701e9233244)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 105. [chatgpt.com](https://chatgpt.com/s/m_69e7ffafbb048191b96f2c93758e3e40)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 106. [chatgpt.com](https://chatgpt.com/share/69e85e8b-2a1c-83e8-a857-d4226ba97614)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 107. [chatgpt.com](https://chatgpt.com/share/69e85df6-5840-83e8-b0e9-3701e92332)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 108. [developers.openai.com](https://developers.openai.com/api/docs/guides/image-generation#calculating-costs)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developers.openai.com**
+
+---
+
+### 109. [chatgpt.com](https://chatgpt.com/share/69e87d08-5a14-83eb-9a3b-3a8eb1469237)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 110. [gally.net](https://www.gally.net/temp/20260422-chatgpt-images-2-example/index.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**gally.net**
+
+---
+
+### 111. [chatgpt.com](https://chatgpt.com/s/m_69e8cc31dac48191a09bb9c00d5aa3fe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 112. [chatgpt.com](https://chatgpt.com/s/m_69e8008ef62c8191993932efc8979e1e)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 113. [chatgpt.com](https://chatgpt.com/share/69e85e4b-252c-83e8-b25f-416984cf3040)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 114. [chatgpt.com](https://chatgpt.com/backend-api/estuary/content?id=file_00000000f45071f597802f1beb5f22fa&ts=493573&p=fs&cid=1&sig=987113a650fa9441663fedece61067b9cc9bbad2bba0eacf603e8e11d1c403a7&v=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 115. [hn.algolia.com](https://hn.algolia.com/?query=ChatGPT%20Images%202.0&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 116. [chatgpt.com](https://chatgpt.com/share/69e88a94-ded8-8395-b5dc-abceb2f44d02)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 117. [chatgpt.com](https://chatgpt.com/share/69ea21ab-8738-83e8-a4d7-67374d84e01e)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 118. [collabora.com](https://www.collabora.com/news-and-blog/blog/2020/08/27/using-the-linux-kernel-case-insensitive-feature-in-ext4/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**collabora.com**
+
+---
+
+### 119. [chatgpt.com](https://chatgpt.com/share/6a0baf4a-e408-83ea-a44b-ff68bacb642a)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 120. [chatgpt.com](https://chatgpt.com/c/6a31f415-bcd4-83ea-8c30-24d89dcdc969)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chatgpt.com**
+
+---
+
+### 121. [Replaced Our Human Phone Setter With An Ai Voice](https://www.reddit.com/r/Tech4LocalBusiness/comments/1tfjcc8/replaced_our_human_phone_setter_with_an_ai_voice/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Replaced Our Human Phone Setter With An Ai Voice**
+
+---
+
+### 122. [Anyone Built Something That Earns Them Money](https://www.reddit.com/r/CLine/comments/1tnpoaj/anyone_built_something_that_earns_them_money/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Anyone Built Something That Earns Them Money**
+
+---
+
+### 123. [Built A Windows Mcp Server For Ai Desktop](https://www.reddit.com/r/MCPservers/comments/1tq9vjn/built_a_windows_mcp_server_for_ai_desktop/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Built A Windows Mcp Server For Ai Desktop**
+
+---
+
+### 124. [Cleared 480 In A Week Clipping On Bounty Easiest](https://www.reddit.com/r/ContentRich/comments/1toay7n/cleared_480_in_a_week_clipping_on_bounty_easiest/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Cleared 480 In A Week Clipping On Bounty Easiest**
+
+---
+
+### 125. [I Shipped A Docs Scaffold Mcp For My Chatbot Sdk](https://www.reddit.com/r/mcp/comments/1tsmf8d/i_shipped_a_docs_scaffold_mcp_for_my_chatbot_sdk/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Shipped A Docs Scaffold Mcp For My Chatbot Sdk**
 
 ---
 
@@ -1877,1154 +3228,6 @@ It serves as a practical demonstration of how a platform handles feature enablem
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Usage Limits Of Qwen 37 Max On Go Plan**
-
----
-
-## Other Tools
-> 96 tools · avg signal ⚡64
-
-### 1. [zeparhyfar/mcp-datetime](https://github.com/zeparhyfar/mcp-datetime)
-`9.0` ★★ ⚡93 Q0.9🏆 🏆 World-class
-
-**The mcp-datetime package provides a Python-based MCP (Mac OS Compatible Python) server that enables accurate and flexible datetime formatting, supporting multiple formats including Japanese, ISO, and standard. It is designed to integrate seamlessly with the Claude Desktop Application, offering features such as timezone handling, filename generation, and robust error handling. The project emphasizes developer experience by offering a user-friendly interface and comprehensive documentation.**
-
-**Features:**
-- datetime formatting in various formats
-- Japanese language support
-- ISO and standard datetime formats
-- timezone handling
-- filename generation
-- integration with Claude Desktop App
-
-*Tags: datetime-formatting, mcp-server, file-name-generation, timezone-support, developer-tools, macos-compatibility, python-integration, cloud-services...*
-
----
-
-### 2. [c-cf/imf-data-mcp](https://github.com/c-cf/imf-data-mcp)
-`9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The imf-data-mcp project provides a Python-based interface for developers to interact with the International Monetary Fund's economic data via the IMF API. It offers tools for querying datasets, fetching time series data, listing indicators and countries, and supports programmatic workflows. Designed for ease of use in modern development environments, it emphasizes integration with AI and DevOps practices while maintaining security and scalability.**
-
-**Features:**
-- API integration
-- data querying
-- time series data retrieval
-- indicator listing
-- structured data processing
-- automated workflows
-- code execution support
-
-*Tags: developer, python, api, data, imf, mcp, integration, security...*
-
----
-
-### 3. [yunwoong7/aws-nova-canvas-mcp](https://github.com/yunwoong7/aws-nova-canvas-mcp)
-`9.0` ★★ ⚡90 Q0.9🏆 🏆 World-class
-
-**The yunwoong7/aws-nova-canvas-mcp project provides a developer-focused interface to leverage Amazon Bedrock's Nova Canvas model for image generation, offering features such as text-to-image, inpainting, and image variation. It supports secure development workflows, integrates with AWS infrastructure, and is designed for ease of use within modern software development environments.**
-
-**Features:**
-- Text to Image
-- Image Inpainting
-- Image Outpainting
-- Image Variation
-- Image Conditioning
-- Color Guided Generation
-- Background Removal
-- Thumbnail Creation
-
-*Tags: cloud-computing, image-generation, ai-development, developer-tools, aws-integration, mcp-server, nova-canvas, image-editing...*
-
----
-
-### 4. [lifejwang11/alphavantage-mcp](https://github.com/lifejwang11/alphavantage-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The alphavantage-mcp project provides a server-based solution to connect with AlphaVantage's API, enabling developers to access real-time and historical financial market data through the Model Control Protocol (MCP). It supports core functionalities such as stock quotes, technical indicators, company information, and financial statements, while emphasizing ease of integration for modern development workflows.**
-
-**Features:**
-- AlphaVantage API integration
-- Real-time and historical market data
-- Technical indicators
-- Fundamental data access
-- Financial statement retrieval
-
-*Tags: developer, api-integration, financial-data, market-data, python-dev, mcp-server, alpha-avantage, data-analysis...*
-
----
-
-### 5. [seanlee10/server-youtube-transcription](https://github.com/seanlee10/server-youtube-transcription)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The server provides a GitHub-hosted transcription service that enables developers to easily add accurate and fast video transcriptions from YouTube content into their projects. It leverages MCP (Multi-Processing Core) to handle integration efficiently, offering a seamless developer experience with features like code generation, workflow automation, and secure deployment options.**
-
-**Features:**
-- YouTube transcription integration
-- Code generation with AI
-- Workflow automation
-- Secure deployment
-- Cross-platform compatibility
-
-*Tags: youtube-transcription, server-youtube-transcription, mcp, ai-development, code-generation, developer-tools, transcription-service, enterprise-software*
-
----
-
-### 6. [felixwu1110/pubmed_mcp](https://github.com/felixwu1110/pubmed_mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The Borg Project's 'pubmed_mcp' repository offers a robust MCP server that enables users to search, analyze, and retrieve academic medical papers from the PubMed database. It provides advanced features such as topic-based searches, citation generation, publication statistics analysis, and integration with various API tools for seamless development workflows.**
-
-**Features:**
-- search functionality
-- citation generation
-- publication details retrieval
-- researcher statistics analysis
-- integration with external tools
-
-*Tags: medical-literature, mcp-server, api-integration, data-analysis, developer-tools, healthcare, research, python...*
-
----
-
-### 7. [umshere/uiflowchartcreator](https://github.com/umshere/uiflowchartcreator)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**The umshere/uiflowchartcreator is an MCP server designed to help developers and designers visualize user interfaces and interactions through intuitive flowchart creation. It integrates with MCP-compatible systems, offering an easy-to-use API for generating UI diagrams that can be embedded in applications.**
-
-**Features:**
-- UI flowchart generation
-- Integration with MCP protocol
-- Easy-to-use API
-- Customizable templates
-- Visual design customization
-
-*Tags: mcp, ui, flowcharts, developer, design, api, integration, visualization...*
-
----
-
-### 8. [5ajaki/veri5ight](https://github.com/5ajaki/veri5ight)
-`8.8` ★ ⚡88 Q0.9🏆 🏆 World-class
-
-**Veri5ight is a MCP Server designed to provide Claude with real-time access to Ethereum node data, including token balances, smart contract details, and transaction history. It enhances the Claude platform by eliminating API rate limits, offering low-latency queries, and ensuring privacy through direct node communication.**
-
-**Features:**
-- Real-time token balance and delegation info
-- Smart contract information access
-- Direct node access without rate limits
-- Private and secure interactions
-- Integration with Claude Desktop
-
-*Tags: ethereum, veri5ight, node, developer, security, ai, cloud, integration...*
-
----
-
-### 9. [jbchouinard/mcp-document-reader](https://github.com/jbchouinard/mcp-document-reader)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The mcp-document-reader is a lightweight Python application designed to facilitate reading and processing of digital documents such as EPUB and PDF files. It leverages the MCP (Media Content Processing) library to provide an intuitive interface for developers and users to interact with these file formats programmatically. The tool supports integration with AI models, making it suitable for applications in modernization, DevSecOps, and enterprise workflows.**
-
-**Features:**
-- MCP server integration
-- EPUB and PDF document handling
-- LLM interaction capabilities
-- code generation and automation support
-
-*Tags: mcp, document-reader, epub, pdf, ai-integration, developer-tool, python, mcp-server...*
-
----
-
-### 10. [leee62/pickapicon-mcp](https://github.com/leee62/pickapicon-mcp)
-`8.8` ★ ⚡87 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Pickapicon-MCP project provides a developer-friendly interface to generate SVG icons quickly by leveraging large language models (LLMs). It streamlines the process of obtaining vector graphics, making it easier for designers and developers to integrate modern UI components without manually searching or copying SVG files. The tool supports various use cases such as enterprise platform modernization, DevSecOps, and AI-assisted code generation.**
-
-**Features:**
-- LLM-powered SVG generation
-- Quick icon creation
-- Integration with AI tools
-- Support for enterprise workflows
-
-*Tags: mcp, svg, developer, ai, llm, code, security, integration...*
-
----
-
-### 11. [Étoilé](http://etoileos.com)
-`10.0` ★★★ ⚡86 Q0.8🏆 🏆 World-class
-
-**Étoilé seeks to replace the traditional file/process-centric user interface with one centered on user activities. Key technical aspirations include universal revision history for all system objects, seamless collaboration across all document types (text, code, drawing), and a customizable workflow achieved via combinable 'Services.' The project emphasizes a user experience closer to the user's mental model by abstracting away low-level implementation details like files and operating-system proce...**
-
-**Features:**
-- Revision history for all objects
-- built-in object collaboration
-- service-based workflow customization
-- object-centric UI abstraction
-
-*Tags: gnu-step, objective-c, object-centric, user-environment, workflow-abstraction, collaboration, versioning, smalltalk...*
-
----
-
-### 12. [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-
-**The project provides a structured interface for implementing quantum state collapse mechanisms, emphasizing usability through well-documented API endpoints and comprehensive README instructions. It integrates seamlessly into existing workflows by offering modular components and clear separation of concerns, distinguishing itself from more complex or less documented alternatives.**
-
-**Features:**
-- wavefunction collapse implementation
-- modular API design
-- comprehensive documentation
-- version-controlled dependencies
-- interactive examples
-
-*Tags: quantum-computing, wavefunction, python, developer-tools, quantum-api*
-
----
-
-### 13. [how-we-accidentally-built-the-ai-powered-pdf-parser-we-never-knew-we-needed-the-doctly-story-af5e3f88dc8a](https://medium.com/@ali.sheikh_64228/how-we-accidentally-built-the-ai-powered-pdf-parser-we-never-knew-we-needed-the-doctly-story-af5e3f88dc8a)
-`10.0` ★★★ ⚡85 Q0.7🏆 🏆 World-class
-↗3 layers
-
-**The project details the development of Doctly, an AI-driven solution designed to overcome the limitations of existing PDF parsing tools. It emphasizes the importance of precision in handling complex PDFs with intricate layouts, such as tables and charts, which traditional tools struggle with. The solution leverages advanced AI and machine learning to ensure high accuracy in conversion, making it suitable for integration into various AI applications.**
-
-**Features:**
-- AI-powered PDF parsing
-- Extraction of text
-- tables
-- figures
-- and charts
-- High accuracy in complex document formats
-- Seamless integration with Python SDK
-- User-friendly setup and deployment
-
-*Tags: pdf-parsing, ai-powered-tools, legal-documents, document-analysis, machine-learning, software-development*
-
----
-
-### 14. [lolrazh/cad-mcp](https://github.com/lolrazh/cad-mcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-
-**The project provides a GitHub-hosted MCP server that integrates with Claude the AI design assistant, allowing users to create and visualize CAD drawings directly within the platform. It supports seamless interaction between AI-driven design tools and external CAD systems via Rayon, enhancing productivity for developers and designers.**
-
-**Features:**
-- CAD drawing generation
-- AI integration with Claude
-- Rayon compatibility
-- cloud-based development environment
-
-*Tags: cad-mcp, gpu-ai, rapid-prototyping, design-assistance, developer-tool, ai-integration, cloud-development, automation...*
-
----
-
-### 15. [atharva-gundawar/macos_gui](https://github.com/atharva-gundawar/macos_gui)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a user interface for managing the macOS graphical user interface using MCP (Mac OS Control Protocol). It offers features such as code generation, workflow automation, secure development practices, and integration with external tools to enhance productivity and security in software development environments.**
-
-**Features:**
-- code generation
-- workflow automation
-- security features
-- integration capabilities
-
-*Tags: macos-gui, developer-tool, code-automation, security, workflow, integration, productivity, mac-control...*
-
----
-
-### 16. [garoth/wolframalpha-llm-mcp](https://github.com/garoth/wolframalpha-llm-mcp)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Garoth/WolframAlpha-LLM-MCP project provides a dedicated server that integrates WolframAlpha's large language model API, allowing developers to query structured knowledge and perform advanced mathematical reasoning. It supports seamless interaction with WolframAlpha's capabilities, offering both simple and detailed responses tailored for AI applications.**
-
-**Features:**
-- WolframAlpha LLM API integration
-- Structured knowledge retrieval
-- Mathematical problem solving
-- Natural language query support
-
-*Tags: wolframalpha, mlapi, mcp, llm, developer, ai, code, security*
-
----
-
-### 17. [z4none/rapidocr-mcp](https://github.com/z4none/rapidocr-mcp)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-
-**The z4none/rapidocr-mcp project offers a user-centric OCR solution integrated with RapidOCR, designed to simplify image-to-text conversion for developers and businesses. It provides an intuitive interface for running OCR on both base64 data and local image files, supporting seamless integration into development workflows.**
-
-**Features:**
-- OCR via RapidOCR
-- Base64 image processing
-- Easy-to-use interface
-- Support for multiple file formats
-
-*Tags: rapidocr, ocr, developer, image-processing, mcp, python, api, integration...*
-
----
-
-### 18. [Monosketch | Hacker News](https://news.ycombinator.com/item?id=47001871)
-`9.0` ★★ ⚡83 Q0.8⭐ ⭐ Excellent
-↗3 layers
-
-**Monosketch is a lightweight ASCII-based drawing tool that allows users to create diagrams, flowcharts, and other visual content using text characters. It supports exporting diagrams in various formats such as SVG, PNG, and Graphviz, making it versatile for documentation, presentations, and design tasks. The application is appreciated for its ease of use and ability to transform textual descriptions into visually appealing graphics.**
-
-**Features:**
-- ASCII sketching and diagramming
-- Export to SVG
-- PNG
-- Graphviz
-- Custom box characters and symbols
-- Support for flowcharts and diagrams
-- User-friendly interface
-
-*Tags: ascii, diagramming, sketching, text-based, graphic-design, development, user-interface, code-generation...*
-
----
-
-### 19. [&campaign_id=120244842824600614&ad_id=120244842824760614](https://linqapp.com/&campaign_id=120244842824600614&ad_id=120244842824760614)
-`9.0` ★★ ⚡83 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This landing page emphasizes Linq's ability to deliver robust messaging capabilities quickly, focusing on core value propositions such as seamless integration of iMessage, RCS, and SMS. The content highlights the platform's support for enterprise-grade messaging, emphasizing its reliability, scalability, and ease of use for developers. Key features include rapid setup (under 5 minutes), native protocols like RCS and voice notes, and a focus on delivering mission-critical workflows with high perf...**
-
-**Features:**
-- iMessage integration
-- RCS messaging support
-- SMS compatibility
-- low latency and high throughput
-- secure data encryption
-
-*Tags: messaging, enterprise, developer, api, sandbox, integration, security, scalability...*
-
----
-
-### 20. [vectorinstitute/mcp-goodnews](https://github.com/vectorinstitute/mcp-goodnews)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP Goodnews application fetches recent news articles from the NewsAPI and uses a Cohere LLM to rank and return the top positive news stories based on sentiment analysis. It aims to counterbalance the prevalence of negative news by focusing on uplifting content.**
-
-**Features:**
-- News API integration
-- Cohere LLM for sentiment analysis
-- Positive news curation
-- User-friendly interface
-
-*Tags: mcp, goodnews, ai, news, positive, uplifting, sentiment, newsapi...*
-
----
-
-### 21. [Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)
-`8.2` ★ ⚡81 Q0.8⭐ ⭐ Excellent
-
-**This technical resource details the implementation of the MCP server, enabling AI assistants like Claude to access comprehensive aviation data including live flight positions, aircraft information, airport details, and flight histories. It supports features such as real-time flight tracking, historical data retrieval, detailed flight summaries, and flexible filtering options.**
-
-**Features:**
-- Real-time Flight Tracking
-- Historical Flight Data Access
-- Comprehensive Flight Information
-- Flexible Filtering Capabilities
-
-*Tags: flightradar24, api-mcp, flightdata, realtime, historical*
-
----
-
-### 22. [Ask HN: What software has improved dramatically recently thanks to AI tooling? | Hacker News](https://news.ycombinator.com/item?id=47345578)
-`9.7` ★★ ⚡80 Q0.7⭐ ⭐ Excellent
-↗4 layers
-
-**The article discusses recent advancements in AI-powered software tools that are rapidly changing the landscape of development, emphasizing their impact on productivity and innovation.**
-
-**Features:**
-- AI integration
-- automated code generation
-- smart debugging
-- real-time feedback
-- enhanced collaboration
-
-*Tags: ai, software, development, productivity, automation, code, tools, tech...*
-
----
-
-### 23. [vibefolio.link — Showcase your vibe-coded projects](https://vibefolio.link)
-`8.8` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-
-**The Borg intelligence database should analyze the technical structure of the provided resource, focusing on its user interface design, interactivity, and how it presents project information in a public, shareable format. It evaluates the categorization, navigation, and overall experience for developers and project creators.**
-
-**Features:**
-- project cards
-- live urls
-- vibe-coded presentation
-- public sharing
-- bio integration
-
-*Tags: vibefolio, projectmanagement, webdevelopment, interactiveplatform, digitalportfolio, userinterface, contentcreation, projectshowcase...*
-
----
-
-### 24. [29decibel/record-to-markdown](https://github.com/29decibel/record-to-markdown)
-`8.7` ★ ⚡80 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP server enables seamless integration with Claude, a conversational AI platform, by allowing conversation recordings to be exported in markdown or Apple Notes format. This enhances developer productivity by providing structured documentation of interactions, improving knowledge retention and workflow efficiency.**
-
-**Features:**
-- Record Claude conversations
-- Export to markdown
-- Export to Apple Notes
-
-*Tags: mcp, cloud, ai, developer, documentation, conversation, notes, automation...*
-
----
-
-### 25. [medium.com/@gargg/how-to-extract-text-from-pdfs-an](https://medium.com/@gargg/how-to-extract-text-from-pdfs-and-images-for-llms-use-b6e65ea270bf)
-`9.0` ★★ ⚡79 Q0.7⭐ ⭐ Excellent
-
-**This article outlines various techniques for extracting text from PDF documents and image files, including using Python libraries like PyPDF2 and pdfplumber, leveraging OCR services such as Google Cloud Vision and Tesseract, and employing image processing with OpenCV. It emphasizes the importance of preprocessing extracted text to clean and standardize it for effective use in training large language models. The article also discusses challenges such as OCR errors, formatting issues, and the need...**
-
-**Features:**
-- PDF text extraction using libraries
-- Image-based OCR with Google Cloud Vision
-- Text preprocessing and cleaning
-- Integration of multiple tools for comprehensive extraction
-
-*Tags: pdf-extraction, image-ocr, text-preprocessing, language-model-training, data-enrichment, ai-workflow, content-scraping, machine-learning-data...*
-
----
-
-### 26. [Electric Sheep Crowdsourced Evolving Art](https://electricsheep.org)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**The modern evolution of the classic distributed fractal screensaver, utilizing neural style transfer and latent space exploration mixed with traditional mathematical algorithms.**
-
-**Features:**
-- Distributed genetic breeding algorithm
-- 4K/8K "Gold" resolution
-- AI-hybrid neural style transfer
-- cross-platform distributed rendering.
-
-*Tags: fractals, distributed-compute, generative-art, screensaver, genetic-algorithm, electricsheep, open-source*
-
----
-
-### 27. [meta/detic – Replicate](https://replicate.com/meta/detic)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**Meta AI's open-vocabulary object detector capable of recognizing 21,000+ classes, now a core pillar of 2026 "World Models" for autonomous vision-action loops.**
-
-**Features:**
-- 21
-- 000+ object class recognition
-- weakly supervised scaling (ImageNet-21K)
-- real-time AR/VR performance
-- visual causal grounding.
-
-*Tags: vision, object-detection, meta, world-model, research, replicate*
-
----
-
-### 28. [Zine – The AI That Actually Knows Your Stuff](https://www.zine.ai)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**An AI-powered image generation suite functioning as a professional non-destructive editor with stable character generation across multiple prompts.**
-
-**Features:**
-- Layer-based non-destructive workflow
-- consistent character generation (branding)
-- generative fill/expansion
-- 6144x6144 high-res output.
-
-*Tags: generative-ai, design, image-editing, multimodal, ux, artificial-intelligence, zine*
-
----
-
-### 29. [Yapnotes - Think out loud. Get a clean first draft.](https://yapnotes.com)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**An AI-powered audio application that transcribes "messy" unstructured voice memos and converts them into polished, structured notes and action items.**
-
-**Features:**
-- Filler-word removal (um/ah filtering)
-- structured Markdown summarization
-- "Chat with recording" semantic retrieval
-- iOS Dynamic Island support.
-
-*Tags: voice-ai, transcription, productivity, ios, memory, yapnotes*
-
----
-
-### 30. [Î¼Pad | Take and organise notes for free](https://getmicropad.com)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**A non-linear, infinite-canvas note-taking application built with React.js that features μSync client-side AES-256 encryption.**
-
-**Features:**
-- Infinite digital whiteboard workspace
-- μSync client-side AES-256 encryption
-- Jupyter Notebook (.ipynb) integration
-- smart hashtag linking.
-
-*Tags: note-taking, infinite-canvas, sync, privacy, open-source, getmicropad*
-
----
-
-### 31. [keyshot-studio-ai](https://www.keyshot.com/keyshot-studio-ai)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**The 2026 evolution of the industry-standard 3D rendering suite, featuring local GPU-based generative AI for instant moodboarding and environment generation.**
-
-**Features:**
-- 100% local processing (protects CAD IP)
-- Imagine Mode instant concepting
-- Restyle Mode scene modification
-- generative background projection.
-
-*Tags: 3d-rendering, generative-ai, local-first, vision, workflow*
-
----
-
-### 32. [Show HN: Transcribe YouTube videos and Apple podcasts to Readable Markdown | Hacker News](https://news.ycombinator.com/item?id=41864353)
-`8.7` ★ ⚡72 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This project focuses on transcribing lengthy audio files such as YouTube videos and Apple podcasts, converting them into structured markdown format. It addresses the need for readability by applying post-processing to organize the transcript into coherent sections, making it easier for users to consume and understand the content.**
-
-**Features:**
-- Transcribe audio to markdown
-- Improve readability through formatting
-- Support for YouTube and Apple podcasts
-
-*Tags: transcription, audio, markdown, accessibility, developer, content, learning, tech...*
-
----
-
-### 33. [Proton Docs](https://docs.proton.me/u/0/sheet?mode)
-`7.0` ★ ⚡72 Q0.8⭐ ⭐ Excellent
-
-**Proton Docs is an AI-powered documentation platform designed to help developers understand and implement complex concepts. It leverages JavaScript capabilities to provide rich documentation, likely including interactive tutorials or integrated development environments (IDEs) that enhance the developer experience.**
-
-**Features:**
-- AI-powered documentation
-- JavaScript enablement
-- comprehensive guides
-- developer tooling integration
-- interactive learning experiences
-
-*Tags: documentation, ai, javascript, developer-tools, ux, learning, tech*
-
----
-
-### 34. [item?id=41554947](https://news.ycombinator.com/item?id=41554947)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**SmartChatPDF addresses the common challenge of time-consuming PDF processing by offering instant summaries and a user-friendly interface. It supports multiple industries, works across devices, and focuses on enhancing efficiency through smart content extraction.**
-
-**Features:**
-- instant summaries
-- user-friendly interface
-- multi-industry support
-- cross-device compatibility
-
-*Tags: pdf-processing, productivity-tools, user-experience, document-analysis, smart-assistant, web-development, content-extraction, digital-productivity...*
-
----
-
-### 35. [item?id=47752392](https://news.ycombinator.com/item?id=47752392)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-
-**The project introduces an open-source knowledge base built on Andrej Karparthy's OpenKB, enhanced to handle large PDF documents and embedded images efficiently. It aims to provide a scalable solution for developers and researchers needing access to comprehensive, structured data.**
-
-**Features:**
-- Open source knowledge base
-- Support for long PDFs
-- Image embedding
-- Pageindex integration
-
-*Tags: open-source, knowledge-base, pdf-handling, image-support, long-document-processing, developer-tools, ai-knowledge-management*
-
----
-
-### 36. [someone_just_built_a_free_video_editing_tool_for](https://www.reddit.com/r/aiecosystem/comments/1ss0nmu/someone_just_built_a_free_video_editing_tool_for)
-`8.8` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-
-**The project introduces a user-friendly video editing interface aimed at enhancing the efficiency and integration of video processing within the Borg ecosystem. It focuses on streamlining workflows, improving developer experience, and ensuring seamless connectivity with other systems.**
-
-**Features:**
-- video editing
-- user interface optimization
-- integration capabilities
-- developer tools
-
-*Tags: video-editing, tool-development, interface-design, developer-experience, borg-project, software-tool, user-interface, workflow-enhancement*
-
----
-
-### 37. [gosh_these_folks_are_creative_and_thumbs_up_to](https://www.reddit.com/r/LovingAI/comments/1szog3i/gosh_these_folks_are_creative_and_thumbs_up_to)
-`8.5` ★ ⚡71 Q0.6⭐ ⭐ Excellent
-
-**The resource showcases innovative approaches to enhancing user interaction with AI, focusing on usability and engagement through creative design elements.**
-
-**Features:**
-- interactive ai models
-- user feedback integration
-- creative ui/ux design
-- ai-generated content
-- community-driven development
-
-*Tags: ai, reddit, creativity, user-experience, developer-tools, machine-learning, interface-design, community-engagement...*
-
----
-
-### 38. [about](https://alternativeto.net/software/jan-ai/about)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-↗2 layers
-
-**A cross-platform, local-first alternative to ChatGPT that provides an OpenAI-compatible API and native MCP integration for private agentic workflows.**
-
-**Features:**
-- OpenAI-compatible local API (localhost:1337)
-- one-click Hugging Face downloads
-- automatic GPU optimization
-- native MCP server support.
-
-*Tags: local-llm, privacy, openai-api, mcp, desktop-app*
-
----
-
-### 39. [key-bpm-finder](https://vocalremover.org/key-bpm-finder)
-`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The Borg should evaluate the technical approach of this app, focusing on its user interface design, interaction flow, and usability features that enhance the user experience when analyzing song keys and BPMs.**
-
-**Features:**
-- Key and BPM Finder
-- Tempo Analysis
-- Pitch Shifter
-- File Upload Support
-
-*Tags: music-analysis, audio-processing, bpm-detection, key-identification, tempo-calculation, file-management, user-interface, data-extraction...*
-
----
-
-### 40. [Hacker News Discussion](https://news.ycombinator.com/item?id=47952497)
-`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
-
-**The comments analyze the shortcomings of the Apple Vision Pro, pointing out that its current form factor is too cumbersome for daily use and questioning whether it truly offers a viable platform for niche AR/VR development. The discussion touches upon the missed opportunities for an immersive experience and the practical hurdles developers face when trying to port existing projects to the new platform.**
-
-**Features:**
-- Vision Pro
-- VR/AR Platform
-- Developer Porting Challenges
-- XR Development
-
-*Tags: vision-pro, ar-development, vr-hardware, apple-ecosystem, developer-experience, xr-challenges, software-licensing, hardware-limitations*
-
----
-
-### 41. [](https://www.gravityxr.cn/col76/)
-`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
-
-**This resource details a high-performance MR device featuring a 90° Field of View (FoV) pancake lens, offering 36 PPD resolution with dual 16MP color see-through capability. It highlights the lightweight design (93g), low latency (9ms VST), and eye-hand interaction capabilities, positioning it as an innovative interface for Mixed Reality experiences.**
-
-**Features:**
-- Pancake Lens Optics
-- Low Latency (9ms VST)
-- 6DoF Capability
-- High Resolution (5K/16MP)
-- Lightweight Design (93g)
-
-*Tags: mixed-reality, vr, optics, hardware, display, latency, mr*
-
----
-
-### 42. [Blocks - Use coding agents where your teams works](https://www.blocks.team/app/d4e8e6bb-c229-4c5a-aeea-9b82fc84540e/home)
-`7.0` ★ ⚡70 Q0.7⭐ ⭐ Excellent
-
-**Blocks is a powerful platform designed to help developers build and prototype applications efficiently. It offers a comprehensive set of tools for designing, coding, and deploying software, emphasizing a strong focus on the developer experience and modern workflow integration.**
-
-**Features:**
-- Collaborative design interface
-- Prototyping capabilities
-- Integrated development environment (IDE)
-- Version control/Git integration
-- User-friendly UI
-
-*Tags: design-tools, prototyping, developer-experience, collaboration, ui/ux, web-dev*
-
----
-
-### 43. [explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668](https://medium.com/activated-thinker/explow-me-ai-now-lets-you-meet-and-talk-to-your-future-selves-9026da54e668)
-`8.7` ★ ⚡69 Q0.6✓ ✓ Solid
-
-**The article introduces Explow.me, an AI application that enables users to engage in conversations with potential versions of themselves from the future. By simulating these interactions, users can better understand how their current choices shape long-term outcomes, thereby improving self-control and decision-making.**
-
-**Features:**
-- AI-powered future self conversation
-- interactive simulation of personal growth
-- real-time feedback on behavioral choices
-
-*Tags: ai, future-self, decision-making, behavioral-psychology, user-experience, personal-development, interactive-storytelling, predictive-modeling...*
-
----
-
-### 44. [qwen-ai-landing-page](https://www.alibabacloud.com/en/campaign/qwen-ai-landing-page)
-`8.5` ★ ⚡68 Q0.6✓ ✓ Solid
-
-**This landing page highlights Alibaba Cloud's AI solutions, emphasizing its role in simplifying developer interactions through intuitive tools and streamlined workflows.**
-
-**Features:**
-- AI-powered support
-- integrated development tools
-- customizable interfaces
-- real-time assistance
-
-*Tags: ai-assistant, developer-tools, cloud-integration, support-solutions, automation, user-interface, technical-support, cloud-services...*
-
----
-
-### 45. [chatgpt.com](https://chatgpt.com)
-`8.7` ★ ⚡65 Q0.6✓ ✓ Solid
-
-**The Borg Project intelligence database should include this resource to assess its utility in understanding AI-driven chatbot interactions, user engagement patterns, and the technical implementation of conversational agents.**
-
-**Features:**
-- chat interface
-- response generation
-- user interaction analysis
-
-*Tags: chatbot, ai, chatgpt, user-interface, developer-tools, natural-language-processing*
-
----
-
-### 46. [NexDock is building a new Windows phone that you can buy in 2026 — Meet the NexPhone with Windows 11 | Windows Central](https://www.windowscentral.com/microsoft/windows-11/nexdock-is-building-a-new-windows-phone-that-you-can-buy-in-2026-meet-the-nexphone-with-windows-11)
-`7.0` ★ ⚡65 Q0.7✓ ✓ Solid
-
-**This article introduces the NexPhone, a new hardware product that runs Android, Linux, AND Windows 11. It highlights how this device offers dual-booting capabilities with Windows 11 and features a custom launcher shell interface to enhance the user experience.**
-
-**Features:**
-- Custom shell UI
-- Dual-booting capability (Android/Linux/Windows 11)
-- Custom launcher shell interface
-- Hardware integration for Continuum experience
-
-*Tags: windows-11, smartphone, dual-boot, operating-system, hardware-innovation, mobile-computing*
-
----
-
-### 47. [Amazon.com](https://a.co/d/00lSDJQF)
-`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
-
-**This resource is an Amazon storefront, designed to facilitate the shopping experience by providing clear calls to action for users to continue browsing or purchasing. It represents a standard e-commerce interface where the primary goal is to drive conversion and user engagement through product listings.**
-
-**Features:**
-- E-commerce platform
-- Shopping experience
-- Clear call to action
-- Amazon storefront
-- User shopping flow
-
-*Tags: e-commerce, ux-design, shopping, amazon, interface, conversion*
-
----
-
-### 48. [ZOOOO](https://www.zoooo.co)
-`6.0` ★ ⚡61 Q0.6✓ ✓ Solid
-
-**ZOOO appears to be a platform offering various languages (English, Español, Français, etc.) suggesting it provides multilingual capabilities. The 'About' section implies a focus on the company's mission or product overview, which is crucial for understanding its developer utility and user experience.**
-
-**Features:**
-- Multilingual support
-- Developer tools integration
-- Comprehensive platform offering
-- AI/Developer workflow enablement
-
-*Tags: developer-tools, multilingual, platform, ai-integration, ux, language-features*
-
----
-
-### 49. [fwber.me - Social Network - Join the Revolution in Social Networking](https://www.fwber.me/dashboard)
-`5.0` ★ ⚡61 Q0.7✓ ✓ Solid
-
-**fwber.me is a platform designed to facilitate social networking, offering users a space to join and participate in the 'revolution' of social interaction. It likely provides tools for user engagement, community building, and social connectivity within its ecosystem.**
-
-**Features:**
-- Social Networking Platform
-- Community Engagement Tools
-- Revolution Focus
-- User Interface
-- Social Connectivity
-
-*Tags: social-networking, community, ux, platform, revolution, social-tools*
-
----
-
-### 50. [trpc/trpc](https://github.com/trpc/trpc)
-`7.0` ★ ⚡60 Q0.6✓ ✓ Solid
-
-**tRPC provides an end-to-end typed API layer for building scalable, type-safe backend services. It focuses on providing fully type-safe APIs without requiring code generation or runtime bloat, offering a snappy developer experience that integrates seamlessly into existing projects.**
-
-**Features:**
-- type-safe APIs
-
-*Tags: react, typescript, nextjs, api, developer-tools, type-safety*
-
----
-
-### 51. [The Component Gallery](https://component.gallery/)
-`5.0` ★ ⚡58 Q0.7✓ ✓ Solid
-
-**This resource provides a gallery of ready-to-use interface components, exemplified by the Figma/design system 'Polaris'. It offers various interactive elements like carousels, popovers, and accordions, making it a practical reference for developers needing to build rich, interactive user interfaces.**
-
-**Features:**
-- Component Gallery
-- Design System Reference
-- Interactive Components
-- UI Component Examples
-
-*Tags: ui-design, component-library, figma, web-components, ux, design-system*
-
----
-
-### 52. [4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
-`8.0` ★ ⚡57 Q0.5✓ ✓ Solid
-↗3 layers
-
-**Guidance on locating and managing OpenAI API keys for secure integration.**
-
-**Features:**
-- API key retrieval
-- Security best practices
-- Integration guidance
-
-*Tags: openai, api-key, security, developer, integration, best-practices*
-
----
-
-### 53. [EasyGetIt — Shop Quality Products Online](https://easygetit.com/)
-`5.0` ★ ⚡57 Q0.7✓ ✓ Solid
-
-**This tool is an e-commerce platform designed for browsing curated product collections and providing a seamless shopping experience. It allows users to browse categories, view featured products, and create accounts for faster checkout and exclusive deals.**
-
-**Features:**
-- Curated product collection
-- Seamless shopping experience
-- Product browsing by category
-- Account creation for better checkout
-
-*Tags: e-commerce, shopping, retail, user-experience, product-discovery, easygetit*
-
----
-
-### 54. [newbeb/clipboard-mcp](https://github.com/newbeb/clipboard-mcp)
-`6.0` ★ ⚡55 Q0.6✓ ✓ Solid
-
-**This is a developer tool designed to provide AI agents with direct access to the macOS clipboard, including text, images, and binary data. It uses `osascript` to interact with the macOS clipboard, ensuring content is checked on demand rather than cached.**
-
-**Features:**
-- macOS clipboard access
-
-*Tags: macos, clipboard, ai-agent, interface, developer-tool, mcp*
-
----
-
-### 55. [claude.ai?utm_source=chatgpt.com](https://claude.ai?utm_source=chatgpt.com)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**claude.ai?utm_source=chatgpt.com**
-
----
-
-### 56. [perplexity.ai?utm_source=chatgpt.com](https://www.perplexity.ai?utm_source=chatgpt.com)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**perplexity.ai?utm_source=chatgpt.com**
-
----
-
-### 57. [start.smartymeapp.com](https://start.smartymeapp.com/smartyme-g135-ngr?utm_source=google&utm_medium=cpc&utm_campaign_name=%7Bcampaignname%7D&utm_campaign_id=23785952820&utm_adset_name=%7Badgroupname%7D&utm_adset_id=199016161434&utm_ad_name=%7Badname%7D&utm_ad_id=806646679410&utm_asset_id=%7Bassetid%7D&utm_keyword=&utm_matchtype=&utm_device=m&utm_network=&utm_placement=&utm_adposition=&utm_loc_physical=9016963&utm_loc_interest=9016963&utm_gclid=&gad_source=2&gad_campaignid=23785952820&gbraid=0AAAABCSft68LdjwmU6tfF1yWGtsZD2Dhy&wbraid=Cl0KCQjwtcHPBhD4ARJMAELTQ-k-ohb4vHeuSSWe7vpnoF0FATmu4JhfOfjLlbdVkFQj9_jUwb1KMROCbcL2SpNhq036s1vpquYTY_8EiTbmxlh3x-NIZpTXGRoCKgM)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**start.smartymeapp.com**
-
----
-
-### 58. [wsj.com](https://www.wsj.com/tech/ai/the-sudden-fall-of-openais-most-hyped-product-since-chatgpt-64c730c9)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**wsj.com**
-
----
-
-### 59. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**cbe005.chat.mibbit.com**
-
----
-
-### 60. [cbe005.chat.mibbit.com](http://cbe005.chat.mibbit.com/?server=irc.snoonet.org&nick=nickname%3F%3F%3F&channel=%23singularitynetwork)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**cbe005.chat.mibbit.com**
-
----
-
-### 61. [chat.lmsys.org](https://chat.lmsys.org)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**chat.lmsys.org**
-
----
-
-### 62. [discord.gg](https://discord.gg/r-chatgpt-1050422060352024636)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**discord.gg**
-
----
-
-### 63. [discord.gg](https://discord.gg/rchatgpt)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**discord.gg**
-
----
-
-### 64. [giphy.com](https://giphy.com/gifs/1AIeYgwnqeBUxh6juu)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**giphy.com**
-
----
-
-### 65. [giphy.com](https://giphy.com/gifs/Ptuibzjft6Ud6mBeu6)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**giphy.com**
-
----
-
-### 66. [hpluspedia.org](https://hpluspedia.org/wiki/Chat)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**hpluspedia.org**
-
----
-
-### 67. [open-vsx.org](https://open-vsx.org/extension/serkan-ozal/browser-devtools-mcp-vscode)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**open-vsx.org**
-
----
-
-### 68. [t.me](https://t.me/r_ChatGPT)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**t.me**
-
----
-
-### 69. [ufos.wiki](https://ufos.wiki/track/sightings-post-guidelines/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**ufos.wiki**
-
----
-
-### 70. [linkedin.com](https://www.linkedin.com/posts/a16z_big-ideas-activity-7445485236454330368-RqC6?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABMwAXkBCMqPnmiiUL5hRhEDIqGfXfwQlgk)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**linkedin.com**
-
----
-
-### 71. [youtube.com](https://www.youtube.com/watch?app=desktop&v=kOK1Cw46HUo)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**youtube.com**
-
----
-
-### 72. [youtube.com](https://www.youtube.com/watch?v=QQEgIo4Juxg)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**youtube.com**
-
----
-
-### 73. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**drive.google.com**
-
----
-
-### 74. [drive.google.com](https://drive.google.com/file/d/1QEJuXCfH7h6I9UHb401GbXshjZhr23o9/view?usp=drivesdk)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**drive.google.com**
-
----
-
-### 75. [npmjs.com](https://www.npmjs.com/package/@toolkit-cli/toolkode)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**npmjs.com**
-
----
-
-### 76. [youtu.be](https://youtu.be/pA6OJXO6UrU?is=tr4m9UXO-qI8JJsD)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**youtu.be**
-
----
-
-### 77. [Linux.DO](http://Linux.DO)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**Linux.DO**
-
----
-
-### 78. [chat.deepseek.com](http://chat.deepseek.com)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**chat.deepseek.com**
-
----
-
-### 79. [chat.openai.com](https://chat.openai.com/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**chat.openai.com**
-
----
-
-### 80. [chicago.suntimes.com](https://chicago.suntimes.com/news/2023/2/24/23614215/tracking-service-stolen-volkswagen-toddler-inside-carjacking-lake-county?utm_source=chatgpt.com)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**chicago.suntimes.com**
-
----
-
-### 81. [mattfrisbie.substack.com](https://mattfrisbie.substack.com/p/the-ugly-business-of-monetizing-browser)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**mattfrisbie.substack.com**
-
----
-
-### 82. [mcp.euclidtools.com](https://mcp.euclidtools.com)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**mcp.euclidtools.com**
-
----
-
-### 83. [youtu.be](https://youtu.be/xsYoeoEE3ww?si=N_nGnuXXbgw0hHVb)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**youtu.be**
-
----
-
-### 84. [fxgears.com](https://fxgears.com/index.php?pages/trading_chatroom/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**fxgears.com**
-
----
-
-### 85. [share.formgrid.com](https://share.formgrid.com/terminal)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**share.formgrid.com**
-
----
-
-### 86. [linkedin.com](https://www.linkedin.com/pulse/notebooklm-2026-ultimate-guide-newest-features-joel-salinas-frencia-ed1rc)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**linkedin.com**
-
----
-
-### 87. [youtube.com](https://www.youtube.com/watch?v=_uXnyhrqmsU)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**youtube.com**
-
----
-
-### 88. [localhost:8001](http://localhost:8001/v1/chat/completions)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**localhost:8001**
-
----
-
-### 89. [unsplash.com](https://unsplash.com/photos/a-multicolored-image-of-a-multi-colored-background-Js9auX5_9R8)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**unsplash.com**
-
----
-
-### 90. [clipcut.dev](https://clipcut.dev/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**clipcut.dev**
-
----
-
-### 91. [eyekeeper.com](https://eyekeeper.com/a/s/products/3-pack-vintage-clip-on-polarized-sunglasses-c63-54mm-34mm?country=US&currency=USD&rdt_cid=5333117784107024304&utm_campaign=us1&utm_content=us1&utm_medium=product_sync&utm_source=reddit&variant=41404595667134)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**eyekeeper.com**
-
----
-
-### 92. [Replaced Our Human Phone Setter With An Ai Voice](https://www.reddit.com/r/Tech4LocalBusiness/comments/1tfjcc8/replaced_our_human_phone_setter_with_an_ai_voice/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Replaced Our Human Phone Setter With An Ai Voice**
-
----
-
-### 93. [Anyone Built Something That Earns Them Money](https://www.reddit.com/r/CLine/comments/1tnpoaj/anyone_built_something_that_earns_them_money/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Anyone Built Something That Earns Them Money**
-
----
-
-### 94. [Built A Windows Mcp Server For Ai Desktop](https://www.reddit.com/r/MCPservers/comments/1tq9vjn/built_a_windows_mcp_server_for_ai_desktop/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Built A Windows Mcp Server For Ai Desktop**
-
----
-
-### 95. [Cleared 480 In A Week Clipping On Bounty Easiest](https://www.reddit.com/r/ContentRich/comments/1toay7n/cleared_480_in_a_week_clipping_on_bounty_easiest/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Cleared 480 In A Week Clipping On Bounty Easiest**
-
----
-
-### 96. [I Shipped A Docs Scaffold Mcp For My Chatbot Sdk](https://www.reddit.com/r/mcp/comments/1tsmf8d/i_shipped_a_docs_scaffold_mcp_for_my_chatbot_sdk/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Shipped A Docs Scaffold Mcp For My Chatbot Sdk**
 
 ---
 
@@ -7867,7 +8070,7 @@ This platform enables users to design game scenarios by drawing or auto-detectin
 ---
 
 ## Governance & Safety
-> 45 tools · avg signal ⚡79
+> 46 tools · avg signal ⚡79
 
 ### 1. [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts/tree/main/computer-use-demo)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -8618,14 +8821,21 @@ This platform enables users to design game scenarios by drawing or auto-detectin
 
 ---
 
-### 44. [theguardian.com](https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told)
+### 44. [deploymentsafety.openai.com](https://deploymentsafety.openai.com/chatgpt-images-2-0)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**deploymentsafety.openai.com**
+
+---
+
+### 45. [theguardian.com](https://www.theguardian.com/society/2026/mar/31/teenager-asked-chatgpt-most-successful-ways-take-life-inquest-told)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **theguardian.com**
 
 ---
 
-### 45. [theguardian.com](https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial)
+### 46. [theguardian.com](https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **theguardian.com**

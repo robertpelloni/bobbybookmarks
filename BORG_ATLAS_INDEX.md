@@ -1,29 +1,29 @@
 # Borg Intelligence Atlas v8 — Master Index
-> **16,957** tools · **2,027** standout 🏆⭐ · Domain-classified · Signal-scored · 2026-06-16
+> **17,546** tools · **2,027** standout 🏆⭐ · Domain-classified · Signal-scored · 2026-06-17
 
 ## The 7 Borg Categories
 
 | # | Layer | Tools | Standout | ⚡ | Description |
 |---|-------|-------|----------|-----|-------------|
-| 1 | 🧠 [Agent Orchestration & Workflow](AGENT_ORCHESTRATION_WORKFLOW.md) | **4,583** | 572 | ⚡76 | Multi-agent swarms, workflows, planning, loops, verification |
-| 2 | 👁 [Context Engineering & Isolation](CONTEXT_ENGINEERING_ISOLATION.md) | **1,039** | 160 | ⚡74 | Context compression, codebase indexing, RAG, isolation, ingestion |
-| 3 | 🧬 [Memory & Persistence Architecture](MEMORY_PERSISTENCE_ARCHITECTURE.md) | **223** | 84 | ⚡81 | Graph memory, episodic, semantic, MCP memory, second brain, memory OS |
-| 4 | 🤳 [Interface & Developer UX](INTERFACE_DEVELOPER_UX.md) | **752** | 135 | ⚡76 | Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas |
-| 5 | ⚡ [Connectivity / MCP / A2A](CONNECTIVITY_MCP_A2A.md) | **898** | 165 | ⚡75 | MCP infrastructure, A2A, gateways, tool discovery, registries |
-| 6 | 🦴 [Infrastructure & Proxy Layers](INFRASTRUCTURE_PROXY_LAYERS.md) | **372** | 119 | ⚡83 | AI OSes, inference engines, sandboxes, security, deployment, LLM routers |
-| 7 | 🗺 [Guides & Industry Trends](GUIDES_INDUSTRY_TRENDS.md) | **1,752** | 79 | ⚡60 | Awesome lists, tutorials, architecture patterns, benchmarks |
+| 1 | 🧠 [Agent Orchestration & Workflow](AGENT_ORCHESTRATION_WORKFLOW.md) | **4,589** | 572 | ⚡76 | Multi-agent swarms, workflows, planning, loops, verification |
+| 2 | 👁 [Context Engineering & Isolation](CONTEXT_ENGINEERING_ISOLATION.md) | **1,040** | 160 | ⚡74 | Context compression, codebase indexing, RAG, isolation, ingestion |
+| 3 | 🧬 [Memory & Persistence Architecture](MEMORY_PERSISTENCE_ARCHITECTURE.md) | **226** | 84 | ⚡81 | Graph memory, episodic, semantic, MCP memory, second brain, memory OS |
+| 4 | 🤳 [Interface & Developer UX](INTERFACE_DEVELOPER_UX.md) | **782** | 135 | ⚡75 | Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas |
+| 5 | ⚡ [Connectivity / MCP / A2A](CONNECTIVITY_MCP_A2A.md) | **900** | 165 | ⚡74 | MCP infrastructure, A2A, gateways, tool discovery, registries |
+| 6 | 🦴 [Infrastructure & Proxy Layers](INFRASTRUCTURE_PROXY_LAYERS.md) | **375** | 119 | ⚡83 | AI OSes, inference engines, sandboxes, security, deployment, LLM routers |
+| 7 | 🗺 [Guides & Industry Trends](GUIDES_INDUSTRY_TRENDS.md) | **1,889** | 79 | ⚡59 | Awesome lists, tutorials, architecture patterns, benchmarks |
 
 ## Cross-Cutting Domains
 
 | # | Domain | Tools | Standout | ⚡ | Description |
 |---|--------|-------|----------|-----|-------------|
-| 8 | 🛠 [Coding Harness Tools](CODING_HARNESS_TOOLS.md) | **250** | 39 | ⚡76 | Agent harnesses, skills, governance, spec-driven dev, bridges |
+| 8 | 🛠 [Coding Harness Tools](CODING_HARNESS_TOOLS.md) | **253** | 39 | ⚡75 | Agent harnesses, skills, governance, spec-driven dev, bridges |
 | 9 | 🤖 [AI Agents & Frameworks](AI_AGENTS_FRAMEWORKS.md) | **4,675** | 298 | ⚡73 | Coding agents, GUI agents, research agents, AI OS, security agents |
-| 10 | 🔍 [Search & Discovery](SEARCH_DISCOVERY.md) | **173** | 40 | ⚡74 | Semantic search, web APIs, code search, MCP registries |
-| 11 | 💻 [Coding Tools & IDEs](CODING_TOOLS_IDES.md) | **1,251** | 54 | ⚡70 | AI editors, autocomplete, code review, refactoring, testing |
-| 12 | 🔧 [Developer Workflow & Tools](DEVELOPER_WORKFLOW_TOOLS.md) | **804** | 231 | ⚡82 | Git, CI/CD, project management, documentation |
+| 10 | 🔍 [Search & Discovery](SEARCH_DISCOVERY.md) | **179** | 40 | ⚡73 | Semantic search, web APIs, code search, MCP registries |
+| 11 | 💻 [Coding Tools & IDEs](CODING_TOOLS_IDES.md) | **1,254** | 54 | ⚡70 | AI editors, autocomplete, code review, refactoring, testing |
+| 12 | 🔧 [Developer Workflow & Tools](DEVELOPER_WORKFLOW_TOOLS.md) | **1,195** | 231 | ⚡76 | Git, CI/CD, project management, documentation |
 | 13 | 📐 [Vector Databases & Embeddings](VECTOR_DATABASES_EMBEDDINGS.md) | **59** | 11 | ⚡80 | Vector DBs, embedding models, ANN indexes, RAG frameworks |
-| 14 | 🛡 [Security & Red Teaming](SECURITY_RED_TEAMING.md) | **126** | 40 | ⚡84 | AI guardrails, LLM red teaming, vulnerability scanning, pentesting |
+| 14 | 🛡 [Security & Red Teaming](SECURITY_RED_TEAMING.md) | **130** | 40 | ⚡83 | AI guardrails, LLM red teaming, vulnerability scanning, pentesting |
 
 ---
 

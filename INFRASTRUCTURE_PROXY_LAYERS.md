@@ -1,15 +1,15 @@
 # 🦴 Infrastructure & Proxy Layers
-> Borg Intelligence Atlas v8 · 2026-06-16 · 372 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 375 tools
 > AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **372** |
+| Total tools | **375** |
 | Standout 🏆⭐ | 119 |
 | Avg Signal | ⚡83 |
 | Innovation 10 | 88 ███████████░░░░░░░░░ |
 | Innovation 9 | 111 ██████████████░░░░░░ |
-| Innovation 8 | 154 ████████████████████ |
+| Innovation 8 | 157 ████████████████████ |
 | Innovation 7 | 7 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 7 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 5 ░░░░░░░░░░░░░░░░░░░░ |
@@ -45,8 +45,8 @@
 
 - [Governance & Safety](#governance--safety) — 58 tools · ⚡86
 - [Bridges & Proxies](#bridges--proxies) — 57 tools · ⚡86
+- [Other Tools](#other-tools) — 41 tools · ⚡65
 - [Spec-Driven Development](#spec-driven-development) — 40 tools · ⚡85
-- [Other Tools](#other-tools) — 38 tools · ⚡66
 - [Config & Profile Management](#config--profile-management) — 34 tools · ⚡87
 - [Memory & Context Systems](#memory--context-systems) — 32 tools · ⚡84
 - [Monitoring & Analytics](#monitoring--analytics) — 30 tools · ⚡86
@@ -2058,6 +2058,489 @@
 
 ---
 
+## Other Tools
+> 41 tools · avg signal ⚡65
+
+### 1. [fish0710/excel-mcp](https://github.com/fish0710/excel-mcp)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The fish0710/excel-mcp project provides a powerful, open-source server that allows users to create, read, write, and manipulate Excel files using Python. It leverages OpenPyXL for comprehensive Excel functionality, supporting workbook creation, data transformation, formatting, charts, pivot tables, and advanced analysis. The tool is designed for developers and teams looking to integrate robust Excel capabilities into their workflows without dependency on Microsoft Office.**
+
+**Features:**
+- Excel file creation and manipulation
+- Data reading and writing
+- Formatting and styling
+- Charts and pivot tables
+- Error handling and usage examples
+
+*Tags: excel, python, openpyxl, mcp-server, developer-tools, data-manipulation, ai-integration, cloud-devops...*
+
+---
+
+### 2. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The Chronulus AI Forecasting and Prediction Agents project provides a MCP Server solution to integrate with Claude Desktop, enabling users to leverage AI-driven forecasting capabilities within their workflow. This tool supports automated code execution, secure deployment, and integration with external services, enhancing the development and operational efficiency of enterprise applications.**
+
+**Features:**
+- AI Forecasting Integration
+- Claude Desktop Integration
+- Secure Deployment
+- Automated Workflows
+- Third-party Server Support
+
+*Tags: chronulus-mcp, ai-forecasting, cloud-integration, developer-tools, enterprise-ai, mcp-server, cloud-deployment, ai-agents...*
+
+---
+
+### 3. [hawstein/resend-mcp](https://github.com/hawstein/resend-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The project provides a Resend MCP server application that allows large language models (LLMs) to generate email content using natural language prompts. This facilitates automated, AI-driven communication workflows, integrating seamlessly with Resend's API for sending messages programmatically. The solution emphasizes automation and integration within developer workflows.**
+
+**Features:**
+- API key generation for Resend MCP server
+- LLM-based email composition
+- Email sending functionality via Resend API
+- Integration with Clinde desktop app
+- Support for custom email templates and replies
+
+*Tags: api-integration, ai-automation, email-generation, developer-tools, resend-api, llm-applications, workflow-orchestration, cloud-services...*
+
+---
+
+### 4. [upamune/human-mcp](https://github.com/upamune/human-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Human-MCP project provides a Python-based MCP server that integrates with AI assistants like Claude Desktop. It allows users to input responses through a Streamlit UI, which are then sent to the MCP server via SQLite. The server processes these inputs and returns appropriate responses, facilitating automated workflows and enhancing human-AI collaboration.**
+
+**Features:**
+- MCP client integration
+- SQLite database for storing responses
+- Streamlit UI for user interaction
+- Automated task execution
+- Real-time response generation
+
+*Tags: python, ai, streamlit, sqlite, mcp, developer-tools*
+
+---
+
+### 5. [morosss/sdfsdf](https://github.com/morosss/sdfsdf)
+`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
+
+**The project provides a robust solution for researchers and AI-driven workflows by enabling seamless integration with various academic databases such as arXiv, PubMed, bioRxiv, and others. It supports multi-source paper searching and efficient downloads, enhancing productivity in academic research and development.**
+
+**Features:**
+- Multi-source academic paper search
+- Automated downloading of PDFs
+- Integration with LLM clients (e.g.
+- Claude Desktop)
+- Standardized output format for papers
+- Asynchronous network request handling
+
+*Tags: mcp, academic-papers, research, ai-integration, paper-search, cloud-integration, developer-tools, llm-enhancement...*
+
+---
+
+### 6. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+
+**The kukapay/etf-flow-mcp project offers a unified tool that fetches historical cryptocurrency ETF flow data, enabling AI agents to make informed decisions. It integrates seamlessly with platforms like Claude Desktop and supports automation workflows for efficient data handling.**
+
+**Features:**
+- Unified Tool for ETF Flow Data
+- Dynamic Data Fetching
+- Integration with AI Agents
+- Markdown Table Output
+- Pivot Table Visualization
+
+*Tags: etfflow, ai, data, decisionmaking, mcp, python, cloud, automation...*
+
+---
+
+### 7. [markqvist/Reticulum](https://github.com/markqvist/Reticulum)
+`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
+
+**A transport-agnostic, cryptography-based networking stack for building unstoppable, end-to-end encrypted communication networks over any medium.**
+
+**Features:**
+- Transport-agnostic (LoRa/WiFi/Radio)
+- default X25519/AES-128 encryption
+- self-sovereign destination hashes
+- operates at 5 bps to 1 Gbps.
+
+*Tags: mesh-network, p2p, security, cryptography, connectivity, design, github, version-control*
+
+---
+
+### 8. [egoist/exa-mcp](https://github.com/egoist/exa-mcp)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The egoist/exa-mcp project provides a MCP (Machine-to-Machine Communication) server that facilitates interaction between the Exa Search API and external AI models, supporting secure and efficient data exchange in high-performance computing environments.**
+
+**Features:**
+- MCP server
+- Exa Search API integration
+- Secure communication
+- Scalable infrastructure
+
+*Tags: mcp, exasearch, ai, search, developer, security, api, integration*
+
+---
+
+### 9. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+
+**The MCP Server enables automation of communication within a group by allowing users to send various types of messages (text or markdown) through the DingDing API. It supports features such as message notifications, custom bot creation, and integration with external tools for enhanced functionality.**
+
+**Features:**
+- Send text messages
+- Send markdown messages
+- Create custom bots
+- Integrate with external services
+
+*Tags: mcp, dingding-bot, dingtalk, bot-dev, api-integration, message-notifications, developer-tools, security-features...*
+
+---
+
+### 10. [news.ycombinator.com/item](https://news.ycombinator.com/item?id=45152767)
+`8.0` ★ ⚡79 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**This resource discusses OpenAI's move to mass produce its own AI chips in collaboration with Broadcom. The comments highlight Broadcom's expertise in custom silicon design for companies like Google and Microsoft, contrasting it with Nvidia's historical focus. This suggests a strategic effort by OpenAI to gain more control over its AI infrastructure and potentially reduce reliance on Nvidia's GPUs. The discussion also touches upon the potential impact on the AI chip market and the competitive lan...**
+
+**Features:**
+- ["OpenAI's custom AI chip development"
+- "Broadcom's role in custom silicon design"
+- "Potential challenge to Nvidia's GPU dominance"
+- 'Strategic move for infrastructure control'
+- 'Custom ASIC development for AI training']
+
+*Tags: ['ai', 'chips', 'openai', 'broadcom', 'nvidia', 'asic', 'custom-silicon', 'infrastructure'...*
+
+---
+
+### 11. [Explore AI Models | Chutes](https://chutes.ai/app)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+
+**A decentralized serverless compute platform on the Bittensor network for low-cost AI inference, featuring Trusted Execution Environments (TEE) for prompt privacy.**
+
+**Features:**
+- Decentralized GPU network
+- TEE confidential compute
+- pre-built vLLM/SGLang templates
+- TAO-based token payment system.
+
+*Tags: infrastructure, bittensor, serverless, gpu, security, artificial-intelligence, chutes*
+
+---
+
+### 12. [WinBoat - Run Windows Apps on Linux with Seamless Integration](https://www.winboat.app)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+
+**An open-source virtualization tool designed to run Windows applications on Linux with a seamless "native" window feel, avoiding traditional heavy VM overhead.**
+
+**Features:**
+- Seamless desktop windowing (no VM box)
+- automated Docker/KVM environment setup
+- Adobe/Office compatibility
+- smartcard pass-through support.
+
+*Tags: virtualization, linux, windows, docker, infrastructure, machine-learning, ux, winboat*
+
+---
+
+### 13. [Cortex Code CLI Expands Towards Supporting Any Data, Anywhere](https://www.snowflake.com/en/blog/cortex-code-cli-expands-support)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**An expansion of Snowflake's AI agent to support dbt and Apache Airflow, featuring native SQL execution and a standalone subscription model.**
+
+**Features:**
+- Native SQL execution tool (snowflake_sql_execute)
+- integrated dbt/Airflow support
+- standalone subscription model
+- multi-model provider support.
+
+*Tags: snowflake, dbt, airflow, data-engineering, sql, artificial-intelligence, blog, data...*
+
+---
+
+### 14. [Windows Projected File System - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/projfs/projected-file-system)
+`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
+
+**A Windows feature allowing user-mode providers to project virtual, hydrated-on-demand data into the filesystem for VFS and security use cases.**
+
+**Features:**
+- User-mode "minifilter" provider
+- hydration-on-demand (lazy loading)
+- VFS for Git scaling
+- dynamic content generation per-process.
+
+*Tags: windows, filesystem, virtualization, projfs, security, learn*
+
+---
+
+### 15. [Nvidia Is Planning to Launch an Open-Source AI Agent Platform](https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source)
+`10.0` ★★★ ⚡73 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**Wired reports on Nvidia's "NemoClaw," an upcoming open-source platform for deploying enterprise AI agents, marking a strategic shift from hardware lock-in to software ecosystems.**
+
+**Features:**
+- Open-source enterprise agent deployment
+- hardware-agnostic execution (non-CUDA reliant)
+- focus on sequential multi-step employee tasks.
+
+*Tags: nvidia, enterprise, orchestration, hardware-agnostic, open-source, artificial-intelligence, wired*
+
+---
+
+### 16. [Deno Sandbox | Hacker News](https://news.ycombinator.com/item?id=46874097)
+`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**Technical deep-dive into new quantization techniques enabling 100B+ parameter models to run on standard 64GB RAM consumer hardware.**
+
+**Features:**
+- BitNet 1.58b optimization
+- high-speed local inference
+- Personal Knowledge Graph privacy
+- API-free autonomous agent foundations.
+
+*Tags: local-llm, quantization, privacy, infrastructure, consumer-hardware, news*
+
+---
+
+### 17. [about](https://alternativeto.net/software/activitywatch/about)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+
+**A privacy-first, local-first time tracking tool that records system activity without cloud data exfiltration, featuring a high-performance Rust core.**
+
+**Features:**
+- Local-only data storage
+- modular window/editor watchers
+- Rust-native server implementation (aw-server-rust)
+- idle time AFK detection.
+
+*Tags: privacy, local-first, time-tracking, rust, open-source*
+
+---
+
+### 18. [alternativeto.net/software/vibe-transcribe/about](https://alternativeto.net/software/vibe-transcribe/about)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+
+**A privacy-first desktop app for local audio/video transcription using Whisper, featuring Ollama integration for instant summaries and MCP support.**
+
+**Features:**
+- 100% offline Whisper transcription
+- Ollama-powered local summaries
+- speaker diarization (120+ languages)
+- native MCP server support.
+
+*Tags: transcription, privacy, whisper, mcp, local-first*
+
+---
+
+### 19. [run-mxbai-rerank-v2-with-infinity-4b73858cd644](https://pub.towardsai.net/run-mxbai-rerank-v2-with-infinity-4b73858cd644)
+`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
+
+**A state-of-the-art reranking model optimized for local inference via Infinity, outperforming Cohere Rerank 3.5 with 8x faster execution.**
+
+**Features:**
+- NDCG@10 57.49 (beats Cohere)
+- 8x faster than industry standards
+- local Infinity inference integration
+- GRPO-optimized 1.5B variant.
+
+*Tags: reranking, rag, performance, infinity, optimization*
+
+---
+
+### 20. [i_built_a_tool_that_turns_repeated_file_reads](https://www.reddit.com/r/costlyinfra/comments/1sl6hf5/i_built_a_tool_that_turns_repeated_file_reads)
+`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
+
+**The project focuses on enhancing file reading efficiency through automated analysis of repeated access patterns, aiming to reduce redundant data transfers and improve system performance in infrastructure environments.**
+
+**Features:**
+- file pattern analysis
+- read optimization
+- workflow automation
+- data transfer reduction
+
+*Tags: file-optimization, infrastructure, read-efficiency, proxy-layers, data-transfer, automation, performance-tuning, system-analysis...*
+
+---
+
+### 21. [dappier.com](https://dappier.com)
+`9.5` ★★ ⚡68 Q0.5✓ ✓ Solid
+
+**A monetization and data delivery layer for the AI internet that provides rights-cleared, real-time data from premium publishers.**
+
+**Features:**
+- Rights-cleared publisher feeds (News/Sports/Finance)
+- sub-300ms RAG latency
+- price-per-query marketplace
+- model-agnostic recommendations.
+
+*Tags: monetization, premium-data, infrastructure, rag, marketplace*
+
+---
+
+### 22. [MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS](https://mimo.xiaomi.com/blog/mimo-tilert-1000tps)
+`6.0` ★ ⚡63 Q18.9✓ ✓ Solid
+
+**MiMo, in collaboration with TileRT, releases the UltraSpeed mode of Xiaomi MiMo-V2.5-Pro — breaking 1000 tokens/s generation speed on a 1T-parameter model for the first time on commodity GPUs through extreme model-system codesign.**
+
+*Tags: llm, infrastructure*
+
+---
+
+### 23. [Nvidia DGX Station – The GB300 Grace Blackwell 748 GB VRAM Workstation | Hacker News](https://news.ycombinator.com/item?id=47430835)
+`8.0` ★ ⚡58 Q0.5✓ ✓ Solid
+
+**Analysis of Nvidia DGX Station workstation for Borg intelligence database.**
+
+**Features:**
+- high-gain vrams
+- scalable compute power
+- optimized for ai training
+- supports large data processing
+
+*Tags: nvidia, dgx-station, vram, ai-server, gpu, data-center, workstation, ai-infrastructure...*
+
+---
+
+### 24. [cloudcode-pa.googleapis.com](http://cloudcode-pa.googleapis.com/v1internal)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**cloudcode-pa.googleapis.com**
+
+---
+
+### 25. [host.docker.internal:11434](http://host.docker.internal:11434/v1)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**host.docker.internal:11434**
+
+---
+
+### 26. [mewcp.com](https://mewcp.com/servers)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**mewcp.com**
+
+---
+
+### 27. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/databases/ufo/index-e.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**collectionscanada.gc.ca**
+
+---
+
+### 28. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.substack.com**
+
+---
+
+### 29. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign=post-expanded-share&utm_medium=post%20viewer)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**open.substack.com**
+
+---
+
+### 30. [linkedin.com](https://www.linkedin.com/company/atlas-cloudai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**linkedin.com**
+
+---
+
+### 31. [soundcloud.com](https://soundcloud.com/airpodcast)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**soundcloud.com**
+
+---
+
+### 32. [thedrugdatabase.com](https://thedrugdatabase.com/compare/adderall-476-vs-ritalin-2409)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thedrugdatabase.com**
+
+---
+
+### 33. [thedrugdatabase.com](https://thedrugdatabase.com/drugs/adderall-476)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**thedrugdatabase.com**
+
+---
+
+### 34. [on.soundcloud.com](https://on.soundcloud.com/Wq8Jt3uNhXUGgt2dRk)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**on.soundcloud.com**
+
+---
+
+### 35. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rnemet.substack.com**
+
+---
+
+### 36. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r=xvhxj)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**rnemet.substack.com**
+
+---
+
+### 37. [soundcloud.com](https://soundcloud.com/ikiir-c)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**soundcloud.com**
+
+---
+
+### 38. [cloudflarestatus.com](https://www.cloudflarestatus.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cloudflarestatus.com**
+
+---
+
+### 39. [huggingface.co](https://huggingface.co/inference/models?model=google%2Fgemma-4-31B-it)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**huggingface.co**
+
+---
+
+### 40. [docker.com](https://www.docker.com/blog/containers-are-not-vms/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**docker.com**
+
+---
+
+### 41. [hub.docker.com](https://hub.docker.com/r/vllm/vllm-openai/tags)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hub.docker.com**
+
+---
+
 ## Spec-Driven Development
 > 40 tools · avg signal ⚡85
 
@@ -2758,468 +3241,6 @@
 - Qualcomm Snapdragon 8cx Gen 3 SoC
 
 *Tags: sbc*
-
----
-
-## Other Tools
-> 38 tools · avg signal ⚡66
-
-### 1. [fish0710/excel-mcp](https://github.com/fish0710/excel-mcp)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The fish0710/excel-mcp project provides a powerful, open-source server that allows users to create, read, write, and manipulate Excel files using Python. It leverages OpenPyXL for comprehensive Excel functionality, supporting workbook creation, data transformation, formatting, charts, pivot tables, and advanced analysis. The tool is designed for developers and teams looking to integrate robust Excel capabilities into their workflows without dependency on Microsoft Office.**
-
-**Features:**
-- Excel file creation and manipulation
-- Data reading and writing
-- Formatting and styling
-- Charts and pivot tables
-- Error handling and usage examples
-
-*Tags: excel, python, openpyxl, mcp-server, developer-tools, data-manipulation, ai-integration, cloud-devops...*
-
----
-
-### 2. [chronulusai/chronulus-mcp](https://github.com/chronulusai/chronulus-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The Chronulus AI Forecasting and Prediction Agents project provides a MCP Server solution to integrate with Claude Desktop, enabling users to leverage AI-driven forecasting capabilities within their workflow. This tool supports automated code execution, secure deployment, and integration with external services, enhancing the development and operational efficiency of enterprise applications.**
-
-**Features:**
-- AI Forecasting Integration
-- Claude Desktop Integration
-- Secure Deployment
-- Automated Workflows
-- Third-party Server Support
-
-*Tags: chronulus-mcp, ai-forecasting, cloud-integration, developer-tools, enterprise-ai, mcp-server, cloud-deployment, ai-agents...*
-
----
-
-### 3. [hawstein/resend-mcp](https://github.com/hawstein/resend-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The project provides a Resend MCP server application that allows large language models (LLMs) to generate email content using natural language prompts. This facilitates automated, AI-driven communication workflows, integrating seamlessly with Resend's API for sending messages programmatically. The solution emphasizes automation and integration within developer workflows.**
-
-**Features:**
-- API key generation for Resend MCP server
-- LLM-based email composition
-- Email sending functionality via Resend API
-- Integration with Clinde desktop app
-- Support for custom email templates and replies
-
-*Tags: api-integration, ai-automation, email-generation, developer-tools, resend-api, llm-applications, workflow-orchestration, cloud-services...*
-
----
-
-### 4. [upamune/human-mcp](https://github.com/upamune/human-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Human-MCP project provides a Python-based MCP server that integrates with AI assistants like Claude Desktop. It allows users to input responses through a Streamlit UI, which are then sent to the MCP server via SQLite. The server processes these inputs and returns appropriate responses, facilitating automated workflows and enhancing human-AI collaboration.**
-
-**Features:**
-- MCP client integration
-- SQLite database for storing responses
-- Streamlit UI for user interaction
-- Automated task execution
-- Real-time response generation
-
-*Tags: python, ai, streamlit, sqlite, mcp, developer-tools*
-
----
-
-### 5. [morosss/sdfsdf](https://github.com/morosss/sdfsdf)
-`9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
-
-**The project provides a robust solution for researchers and AI-driven workflows by enabling seamless integration with various academic databases such as arXiv, PubMed, bioRxiv, and others. It supports multi-source paper searching and efficient downloads, enhancing productivity in academic research and development.**
-
-**Features:**
-- Multi-source academic paper search
-- Automated downloading of PDFs
-- Integration with LLM clients (e.g.
-- Claude Desktop)
-- Standardized output format for papers
-- Asynchronous network request handling
-
-*Tags: mcp, academic-papers, research, ai-integration, paper-search, cloud-integration, developer-tools, llm-enhancement...*
-
----
-
-### 6. [kukapay/etf-flow-mcp](https://github.com/kukapay/etf-flow-mcp)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-
-**The kukapay/etf-flow-mcp project offers a unified tool that fetches historical cryptocurrency ETF flow data, enabling AI agents to make informed decisions. It integrates seamlessly with platforms like Claude Desktop and supports automation workflows for efficient data handling.**
-
-**Features:**
-- Unified Tool for ETF Flow Data
-- Dynamic Data Fetching
-- Integration with AI Agents
-- Markdown Table Output
-- Pivot Table Visualization
-
-*Tags: etfflow, ai, data, decisionmaking, mcp, python, cloud, automation...*
-
----
-
-### 7. [markqvist/Reticulum](https://github.com/markqvist/Reticulum)
-`10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
-
-**A transport-agnostic, cryptography-based networking stack for building unstoppable, end-to-end encrypted communication networks over any medium.**
-
-**Features:**
-- Transport-agnostic (LoRa/WiFi/Radio)
-- default X25519/AES-128 encryption
-- self-sovereign destination hashes
-- operates at 5 bps to 1 Gbps.
-
-*Tags: mesh-network, p2p, security, cryptography, connectivity, design, github, version-control*
-
----
-
-### 8. [egoist/exa-mcp](https://github.com/egoist/exa-mcp)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The egoist/exa-mcp project provides a MCP (Machine-to-Machine Communication) server that facilitates interaction between the Exa Search API and external AI models, supporting secure and efficient data exchange in high-performance computing environments.**
-
-**Features:**
-- MCP server
-- Exa Search API integration
-- Secure communication
-- Scalable infrastructure
-
-*Tags: mcp, exasearch, ai, search, developer, security, api, integration*
-
----
-
-### 9. [shawyeok/mcp-dingding-bot](https://github.com/shawyeok/mcp-dingding-bot)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-
-**The MCP Server enables automation of communication within a group by allowing users to send various types of messages (text or markdown) through the DingDing API. It supports features such as message notifications, custom bot creation, and integration with external tools for enhanced functionality.**
-
-**Features:**
-- Send text messages
-- Send markdown messages
-- Create custom bots
-- Integrate with external services
-
-*Tags: mcp, dingding-bot, dingtalk, bot-dev, api-integration, message-notifications, developer-tools, security-features...*
-
----
-
-### 10. [news.ycombinator.com/item](https://news.ycombinator.com/item?id=45152767)
-`8.0` ★ ⚡79 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**This resource discusses OpenAI's move to mass produce its own AI chips in collaboration with Broadcom. The comments highlight Broadcom's expertise in custom silicon design for companies like Google and Microsoft, contrasting it with Nvidia's historical focus. This suggests a strategic effort by OpenAI to gain more control over its AI infrastructure and potentially reduce reliance on Nvidia's GPUs. The discussion also touches upon the potential impact on the AI chip market and the competitive lan...**
-
-**Features:**
-- ["OpenAI's custom AI chip development"
-- "Broadcom's role in custom silicon design"
-- "Potential challenge to Nvidia's GPU dominance"
-- 'Strategic move for infrastructure control'
-- 'Custom ASIC development for AI training']
-
-*Tags: ['ai', 'chips', 'openai', 'broadcom', 'nvidia', 'asic', 'custom-silicon', 'infrastructure'...*
-
----
-
-### 11. [Explore AI Models | Chutes](https://chutes.ai/app)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-
-**A decentralized serverless compute platform on the Bittensor network for low-cost AI inference, featuring Trusted Execution Environments (TEE) for prompt privacy.**
-
-**Features:**
-- Decentralized GPU network
-- TEE confidential compute
-- pre-built vLLM/SGLang templates
-- TAO-based token payment system.
-
-*Tags: infrastructure, bittensor, serverless, gpu, security, artificial-intelligence, chutes*
-
----
-
-### 12. [WinBoat - Run Windows Apps on Linux with Seamless Integration](https://www.winboat.app)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-
-**An open-source virtualization tool designed to run Windows applications on Linux with a seamless "native" window feel, avoiding traditional heavy VM overhead.**
-
-**Features:**
-- Seamless desktop windowing (no VM box)
-- automated Docker/KVM environment setup
-- Adobe/Office compatibility
-- smartcard pass-through support.
-
-*Tags: virtualization, linux, windows, docker, infrastructure, machine-learning, ux, winboat*
-
----
-
-### 13. [Cortex Code CLI Expands Towards Supporting Any Data, Anywhere](https://www.snowflake.com/en/blog/cortex-code-cli-expands-support)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**An expansion of Snowflake's AI agent to support dbt and Apache Airflow, featuring native SQL execution and a standalone subscription model.**
-
-**Features:**
-- Native SQL execution tool (snowflake_sql_execute)
-- integrated dbt/Airflow support
-- standalone subscription model
-- multi-model provider support.
-
-*Tags: snowflake, dbt, airflow, data-engineering, sql, artificial-intelligence, blog, data...*
-
----
-
-### 14. [Windows Projected File System - Win32 apps](https://learn.microsoft.com/en-us/windows/win32/projfs/projected-file-system)
-`10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
-
-**A Windows feature allowing user-mode providers to project virtual, hydrated-on-demand data into the filesystem for VFS and security use cases.**
-
-**Features:**
-- User-mode "minifilter" provider
-- hydration-on-demand (lazy loading)
-- VFS for Git scaling
-- dynamic content generation per-process.
-
-*Tags: windows, filesystem, virtualization, projfs, security, learn*
-
----
-
-### 15. [Nvidia Is Planning to Launch an Open-Source AI Agent Platform](https://www.wired.com/story/nvidia-planning-ai-agent-platform-launch-open-source)
-`10.0` ★★★ ⚡73 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**Wired reports on Nvidia's "NemoClaw," an upcoming open-source platform for deploying enterprise AI agents, marking a strategic shift from hardware lock-in to software ecosystems.**
-
-**Features:**
-- Open-source enterprise agent deployment
-- hardware-agnostic execution (non-CUDA reliant)
-- focus on sequential multi-step employee tasks.
-
-*Tags: nvidia, enterprise, orchestration, hardware-agnostic, open-source, artificial-intelligence, wired*
-
----
-
-### 16. [Deno Sandbox | Hacker News](https://news.ycombinator.com/item?id=46874097)
-`9.7` ★★ ⚡72 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**Technical deep-dive into new quantization techniques enabling 100B+ parameter models to run on standard 64GB RAM consumer hardware.**
-
-**Features:**
-- BitNet 1.58b optimization
-- high-speed local inference
-- Personal Knowledge Graph privacy
-- API-free autonomous agent foundations.
-
-*Tags: local-llm, quantization, privacy, infrastructure, consumer-hardware, news*
-
----
-
-### 17. [about](https://alternativeto.net/software/activitywatch/about)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**A privacy-first, local-first time tracking tool that records system activity without cloud data exfiltration, featuring a high-performance Rust core.**
-
-**Features:**
-- Local-only data storage
-- modular window/editor watchers
-- Rust-native server implementation (aw-server-rust)
-- idle time AFK detection.
-
-*Tags: privacy, local-first, time-tracking, rust, open-source*
-
----
-
-### 18. [alternativeto.net/software/vibe-transcribe/about](https://alternativeto.net/software/vibe-transcribe/about)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**A privacy-first desktop app for local audio/video transcription using Whisper, featuring Ollama integration for instant summaries and MCP support.**
-
-**Features:**
-- 100% offline Whisper transcription
-- Ollama-powered local summaries
-- speaker diarization (120+ languages)
-- native MCP server support.
-
-*Tags: transcription, privacy, whisper, mcp, local-first*
-
----
-
-### 19. [run-mxbai-rerank-v2-with-infinity-4b73858cd644](https://pub.towardsai.net/run-mxbai-rerank-v2-with-infinity-4b73858cd644)
-`10.0` ★★★ ⚡70 Q0.5⭐ ⭐ Excellent
-
-**A state-of-the-art reranking model optimized for local inference via Infinity, outperforming Cohere Rerank 3.5 with 8x faster execution.**
-
-**Features:**
-- NDCG@10 57.49 (beats Cohere)
-- 8x faster than industry standards
-- local Infinity inference integration
-- GRPO-optimized 1.5B variant.
-
-*Tags: reranking, rag, performance, infinity, optimization*
-
----
-
-### 20. [i_built_a_tool_that_turns_repeated_file_reads](https://www.reddit.com/r/costlyinfra/comments/1sl6hf5/i_built_a_tool_that_turns_repeated_file_reads)
-`8.8` ★ ⚡70 Q0.6⭐ ⭐ Excellent
-
-**The project focuses on enhancing file reading efficiency through automated analysis of repeated access patterns, aiming to reduce redundant data transfers and improve system performance in infrastructure environments.**
-
-**Features:**
-- file pattern analysis
-- read optimization
-- workflow automation
-- data transfer reduction
-
-*Tags: file-optimization, infrastructure, read-efficiency, proxy-layers, data-transfer, automation, performance-tuning, system-analysis...*
-
----
-
-### 21. [dappier.com](https://dappier.com)
-`9.5` ★★ ⚡68 Q0.5✓ ✓ Solid
-
-**A monetization and data delivery layer for the AI internet that provides rights-cleared, real-time data from premium publishers.**
-
-**Features:**
-- Rights-cleared publisher feeds (News/Sports/Finance)
-- sub-300ms RAG latency
-- price-per-query marketplace
-- model-agnostic recommendations.
-
-*Tags: monetization, premium-data, infrastructure, rag, marketplace*
-
----
-
-### 22. [MiMo-V2.5-Pro-UltraSpeed: Pushing 1T-Parameter Model Generation Speed to 1000 TPS](https://mimo.xiaomi.com/blog/mimo-tilert-1000tps)
-`6.0` ★ ⚡63 Q18.9✓ ✓ Solid
-
-**MiMo, in collaboration with TileRT, releases the UltraSpeed mode of Xiaomi MiMo-V2.5-Pro — breaking 1000 tokens/s generation speed on a 1T-parameter model for the first time on commodity GPUs through extreme model-system codesign.**
-
-*Tags: llm, infrastructure*
-
----
-
-### 23. [Nvidia DGX Station – The GB300 Grace Blackwell 748 GB VRAM Workstation | Hacker News](https://news.ycombinator.com/item?id=47430835)
-`8.0` ★ ⚡58 Q0.5✓ ✓ Solid
-
-**Analysis of Nvidia DGX Station workstation for Borg intelligence database.**
-
-**Features:**
-- high-gain vrams
-- scalable compute power
-- optimized for ai training
-- supports large data processing
-
-*Tags: nvidia, dgx-station, vram, ai-server, gpu, data-center, workstation, ai-infrastructure...*
-
----
-
-### 24. [cloudcode-pa.googleapis.com](http://cloudcode-pa.googleapis.com/v1internal)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**cloudcode-pa.googleapis.com**
-
----
-
-### 25. [host.docker.internal:11434](http://host.docker.internal:11434/v1)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**host.docker.internal:11434**
-
----
-
-### 26. [mewcp.com](https://mewcp.com/servers)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**mewcp.com**
-
----
-
-### 27. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/databases/ufo/index-e.html)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**collectionscanada.gc.ca**
-
----
-
-### 28. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**open.substack.com**
-
----
-
-### 29. [open.substack.com](https://open.substack.com/pub/shipx/p/cloudflare-lost-9b-125-m-windows?utm_campaign=post-expanded-share&utm_medium=post%20viewer)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**open.substack.com**
-
----
-
-### 30. [linkedin.com](https://www.linkedin.com/company/atlas-cloudai/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**linkedin.com**
-
----
-
-### 31. [soundcloud.com](https://soundcloud.com/airpodcast)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**soundcloud.com**
-
----
-
-### 32. [thedrugdatabase.com](https://thedrugdatabase.com/compare/adderall-476-vs-ritalin-2409)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**thedrugdatabase.com**
-
----
-
-### 33. [thedrugdatabase.com](https://thedrugdatabase.com/drugs/adderall-476)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**thedrugdatabase.com**
-
----
-
-### 34. [on.soundcloud.com](https://on.soundcloud.com/Wq8Jt3uNhXUGgt2dRk)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**on.soundcloud.com**
-
----
-
-### 35. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**rnemet.substack.com**
-
----
-
-### 36. [rnemet.substack.com](https://rnemet.substack.com/p/stop-re-explaining-your-infrastructure?r=xvhxj)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**rnemet.substack.com**
-
----
-
-### 37. [soundcloud.com](https://soundcloud.com/ikiir-c)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**soundcloud.com**
-
----
-
-### 38. [cloudflarestatus.com](https://www.cloudflarestatus.com)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**cloudflarestatus.com**
 
 ---
 

@@ -1,5 +1,5 @@
 # 🤖 AI Agents & Frameworks
-> Borg Intelligence Atlas v8 · 2026-06-16 · 4,675 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 4,675 tools
 > Coding agents, GUI agents, research agents, AI OS, security agents
 
 | Metric | Value |

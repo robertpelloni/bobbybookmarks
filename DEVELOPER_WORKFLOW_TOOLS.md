@@ -1,15 +1,15 @@
 # 🔧 Developer Workflow & Tools
-> Borg Intelligence Atlas v8 · 2026-06-16 · 804 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 1,195 tools
 > Git, CI/CD, project management, documentation
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **804** |
+| Total tools | **1,195** |
 | Standout 🏆⭐ | 231 |
-| Avg Signal | ⚡82 |
-| Innovation 10 | 51 ██░░░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 360 ███████████████████░ |
-| Innovation 8 | 375 ████████████████████ |
+| Avg Signal | ⚡76 |
+| Innovation 10 | 51 █░░░░░░░░░░░░░░░░░░░ |
+| Innovation 9 | 732 ████████████████████ |
+| Innovation 8 | 394 ██████████░░░░░░░░░░ |
 | Innovation 7 | 14 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 2 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 2 ░░░░░░░░░░░░░░░░░░░░ |
@@ -43,26 +43,26 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 174 tools · ⚡63
-- [Bridges & Proxies](#bridges--proxies) — 126 tools · ⚡88
-- [Config & Profile Management](#config--profile-management) — 114 tools · ⚡88
-- [Monitoring & Analytics](#monitoring--analytics) — 71 tools · ⚡89
-- [Spec-Driven Development](#spec-driven-development) — 62 tools · ⚡87
-- [Skill Systems](#skill-systems) — 56 tools · ⚡88
-- [Orchestration](#orchestration) — 52 tools · ⚡88
-- [Governance & Safety](#governance--safety) — 35 tools · ⚡89
-- [Harness Frameworks](#harness-frameworks) — 27 tools · ⚡87
+- [Other Tools](#other-tools) — 529 tools · ⚡63
+- [Bridges & Proxies](#bridges--proxies) — 127 tools · ⚡88
+- [Config & Profile Management](#config--profile-management) — 115 tools · ⚡88
+- [Monitoring & Analytics](#monitoring--analytics) — 76 tools · ⚡87
+- [Spec-Driven Development](#spec-driven-development) — 63 tools · ⚡87
+- [Skill Systems](#skill-systems) — 60 tools · ⚡87
+- [Orchestration](#orchestration) — 53 tools · ⚡88
+- [Governance & Safety](#governance--safety) — 37 tools · ⚡87
+- [Harness Frameworks](#harness-frameworks) — 29 tools · ⚡85
+- [Verification & Testing](#verification--testing) — 28 tools · ⚡78
 - [Hooks & Lifecycle](#hooks--lifecycle) — 22 tools · ⚡89
-- [Verification & Testing](#verification--testing) — 18 tools · ⚡86
-- [Major Harness Integrations](#major-harness-integrations) — 15 tools · ⚡68
-- [Context Engineering](#context-engineering) — 14 tools · ⚡85
+- [Major Harness Integrations](#major-harness-integrations) — 19 tools · ⚡67
+- [Context Engineering](#context-engineering) — 16 tools · ⚡82
 - [Memory & Context Systems](#memory--context-systems) — 13 tools · ⚡86
-- [Browser & Web Tools](#browser--web-tools) — 5 tools · ⚡86
+- [Browser & Web Tools](#browser--web-tools) — 8 tools · ⚡78
 
 ---
 
 ## Other Tools
-> 174 tools · avg signal ⚡63
+> 529 tools · avg signal ⚡63
 
 ### 1. [elevenlabs/elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp)
 `9.8` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -369,917 +369,3276 @@
 
 ---
 
-### 20. [pjlsergeant/captive-wifi-tool](https://github.com/pjlsergeant/captive-wifi-tool/tree/main)
+### 20. [LinkedInLearning/build-with-ai-running-local-workflows-with-n8n-5349037](https://github.com/LinkedInLearning/build-with-ai-running-local-workflows-with-n8n-5349037)
+`9.0` ★★ ⚡64 Q0.7✓ ✓ Solid
+
+**GitHub repository: LinkedInLearning/build-with-ai-running-local-workflows-with-n8n-5349037**
+
+---
+
+### 21. [pjlsergeant/captive-wifi-tool](https://github.com/pjlsergeant/captive-wifi-tool/tree/main)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: pjlsergeant/captive-wifi-tool**
 
 ---
 
-### 21. [robertpelloni/fwber](https://github.com/robertpelloni/fwber/blob/main/README.md)
+### 22. [robertpelloni/fwber](https://github.com/robertpelloni/fwber/blob/main/README.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: robertpelloni/fwber**
 
 ---
 
-### 22. [ADVASYS/ragraph](https://github.com/ADVASYS/ragraph/blob/2be43202be299856b13a967685164b11dbc28dcf/docs/rag-pipeline.md)
+### 23. [ADVASYS/ragraph](https://github.com/ADVASYS/ragraph/blob/2be43202be299856b13a967685164b11dbc28dcf/docs/rag-pipeline.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ADVASYS/ragraph**
 
 ---
 
-### 23. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/blob/main/Previews/README.md)
+### 24. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/blob/main/Previews/README.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Godiesc/firefox-one**
 
 ---
 
-### 24. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/tree/main/Previews)
+### 25. [Godiesc/firefox-one](https://github.com/Godiesc/firefox-one/tree/main/Previews)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Godiesc/firefox-one**
 
 ---
 
-### 25. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/issues/1786)
+### 26. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/issues/1786)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: MoonshotAI/kimi-cli**
 
 ---
 
-### 26. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/pull/1928)
+### 27. [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli/pull/1928)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: MoonshotAI/kimi-cli**
 
 ---
 
-### 27. [Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations](https://github.com/Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations/tree/main)
+### 28. [Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations](https://github.com/Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations/tree/main)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Nirvanjha2004/ctxAI-MCP-tool-to-reduce-hallucinations**
 
 ---
 
-### 28. [aeroxy/ast-outline](https://github.com/aeroxy/ast-outline/releases/tag/2.1.0)
+### 29. [aeroxy/ast-outline](https://github.com/aeroxy/ast-outline/releases/tag/2.1.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: aeroxy/ast-outline**
 
 ---
 
-### 29. [bawbel/scanner](https://github.com/bawbel/scanner/blob/main/docs/guides/mcp-server-scanning.md)
+### 30. [bawbel/scanner](https://github.com/bawbel/scanner/blob/main/docs/guides/mcp-server-scanning.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: bawbel/scanner**
 
 ---
 
-### 30. [desek/outlook-local-mcp](https://github.com/desek/outlook-local-mcp/blob/main/docs/research/cr-0060-token-economics/README.md)
+### 31. [desek/outlook-local-mcp](https://github.com/desek/outlook-local-mcp/blob/main/docs/research/cr-0060-token-economics/README.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: desek/outlook-local-mcp**
 
 ---
 
-### 31. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21309)
+### 32. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21309)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ggml-org/llama.cpp**
 
 ---
 
-### 32. [huggingface/transformers](https://github.com/huggingface/transformers/pull/45192)
+### 33. [huggingface/transformers](https://github.com/huggingface/transformers/pull/45192)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: huggingface/transformers**
 
 ---
 
-### 33. [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp/blob/main/QUICKSTART.md)
+### 34. [jgravelle/jcodemunch-mcp](https://github.com/jgravelle/jcodemunch-mcp/blob/main/QUICKSTART.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: jgravelle/jcodemunch-mcp**
 
 ---
 
-### 34. [jundot/omlx](https://github.com/jundot/omlx/issues/582)
+### 35. [jundot/omlx](https://github.com/jundot/omlx/issues/582)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: jundot/omlx**
 
 ---
 
-### 35. [jundot/omlx](https://github.com/jundot/omlx/releases/tag/v0.3.4)
+### 36. [jundot/omlx](https://github.com/jundot/omlx/releases/tag/v0.3.4)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: jundot/omlx**
 
 ---
 
-### 36. [mcparmory/registry](https://github.com/mcparmory/registry/tree/master)
+### 37. [mcparmory/registry](https://github.com/mcparmory/registry/tree/master)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: mcparmory/registry**
 
 ---
 
-### 37. [obra/superpowers](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
+### 38. [obra/superpowers](https://github.com/obra/superpowers/blob/main/skills/brainstorming/SKILL.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: obra/superpowers**
 
 ---
 
-### 38. [obra/superpowers](https://github.com/obra/superpowers/pull/1473)
+### 39. [obra/superpowers](https://github.com/obra/superpowers/pull/1473)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: obra/superpowers**
 
 ---
 
-### 39. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/Mistik_Architecture_Report.pdf)
+### 40. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/Mistik_Architecture_Report.pdf)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: obscuraknight/echo-mistik**
 
 ---
 
-### 40. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/docs/Companion_AI_Architecture_Essay.pdf)
+### 41. [obscuraknight/echo-mistik](https://github.com/obscuraknight/echo-mistik/blob/main/docs/Companion_AI_Architecture_Essay.pdf)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: obscuraknight/echo-mistik**
 
 ---
 
-### 41. [oracle-devrel/oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub/tree/main/workshops/agent_memory_workshop)
+### 42. [oracle-devrel/oracle-ai-developer-hub](https://github.com/oracle-devrel/oracle-ai-developer-hub/tree/main/workshops/agent_memory_workshop)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: oracle-devrel/oracle-ai-developer-hub**
 
 ---
 
-### 42. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/100)
+### 43. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/100)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: orneryd/NornicDB**
 
 ---
 
-### 43. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/70)
+### 44. [orneryd/NornicDB](https://github.com/orneryd/NornicDB/issues/70)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: orneryd/NornicDB**
 
 ---
 
-### 44. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked)
+### 45. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: safishamsi/graphify**
 
 ---
 
-### 45. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked/example/raw)
+### 46. [safishamsi/graphify](https://github.com/safishamsi/graphify/tree/v1/worked/example/raw)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: safishamsi/graphify**
 
 ---
 
-### 46. [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox/blob/master/klaude-plugin/README.md)
+### 47. [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox/blob/master/klaude-plugin/README.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: serpro69/claude-toolbox**
 
 ---
 
-### 47. [siddsachar/Thoth](https://github.com/siddsachar/Thoth/blob/main/docs/ARCHITECTURE.md)
+### 48. [siddsachar/Thoth](https://github.com/siddsachar/Thoth/blob/main/docs/ARCHITECTURE.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: siddsachar/Thoth**
 
 ---
 
-### 48. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/compare/v1.25.3...v1.26.0)
+### 49. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/compare/v1.25.3...v1.26.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: spupuz/VibeNVR**
 
 ---
 
-### 49. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.25.3)
+### 50. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.25.3)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: spupuz/VibeNVR**
 
 ---
 
-### 50. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.26.0)
+### 51. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/releases/tag/v1.26.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: spupuz/VibeNVR**
 
 ---
 
-### 51. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/wiki/Home)
+### 52. [spupuz/VibeNVR](https://github.com/spupuz/VibeNVR/wiki/Home)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: spupuz/VibeNVR**
 
 ---
 
-### 52. [suchnsuch/Tangent](https://github.com/suchnsuch/Tangent/issues/135)
+### 53. [suchnsuch/Tangent](https://github.com/suchnsuch/Tangent/issues/135)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: suchnsuch/Tangent**
 
 ---
 
-### 53. [the-cm-collective/k1s-workerbee](https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&quot;&gt;https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&lt;/a&gt;&lt;/p&gt)
+### 54. [the-cm-collective/k1s-workerbee](https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&quot;&gt;https://github.com/the-cm-collective/k1s-workerbee/blob/dev/docs/workerbee-codex-state-reconciliation.md&lt;/a&gt;&lt;/p&gt)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: the-cm-collective/k1s-workerbee**
 
 ---
 
-### 54. [ukanhaupa/projx](https://github.com/ukanhaupa/projx/blob/main/SKILL.md)
+### 55. [ukanhaupa/projx](https://github.com/ukanhaupa/projx/blob/main/SKILL.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ukanhaupa/projx**
 
 ---
 
-### 55. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/BENCHMARKING.md)
+### 56. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/BENCHMARKING.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 56. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GATEWAY.md)
+### 57. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GATEWAY.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 57. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_local_gemma4_e4b.md)
+### 58. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_local_gemma4_e4b.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 58. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_remote_claude_sonnet_4.6.md)
+### 59. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/examples/tool_bloat_100k/result_remote_claude_sonnet_4.6.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 59. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/docs)
+### 60. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/docs)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 60. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples)
+### 61. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 61. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/linux_admin)
+### 62. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/linux_admin)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 62. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/tool_bloat_100k)
+### 63. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/tree/main/examples/tool_bloat_100k)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 63. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/3418)
+### 64. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/3418)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: warpdotdev/Warp**
 
 ---
 
-### 64. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/9092)
+### 65. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/9092)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: warpdotdev/Warp**
 
 ---
 
-### 65. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/new/choose)
+### 66. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/new/choose)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: warpdotdev/Warp**
 
 ---
 
-### 66. [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw/issues/5813)
+### 67. [zeroclaw-labs/zeroclaw](https://github.com/zeroclaw-labs/zeroclaw/issues/5813)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: zeroclaw-labs/zeroclaw**
 
 ---
 
-### 67. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/blob/main/benchmarks/benchmark.md)
+### 68. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/blob/main/benchmarks/benchmark.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: zonlabs/mcp-ts**
 
 ---
 
-### 68. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/tree/main/skills)
+### 69. [zonlabs/mcp-ts](https://github.com/zonlabs/mcp-ts/tree/main/skills)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: zonlabs/mcp-ts**
 
 ---
 
-### 69. [Codavo/ghostinthewsl](https://github.com/Codavo/ghostinthewsl/releases/tag/v0.1.1)
+### 70. [Codavo/ghostinthewsl](https://github.com/Codavo/ghostinthewsl/releases/tag/v0.1.1)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Codavo/ghostinthewsl**
 
 ---
 
-### 70. [aaif/project-proposals](https://github.com/aaif/project-proposals/issues/29)
+### 71. [aaif/project-proposals](https://github.com/aaif/project-proposals/issues/29)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: aaif/project-proposals**
 
 ---
 
-### 71. [commitshow/cli](https://github.com/commitshow/cli/tree/main/mcp)
+### 72. [commitshow/cli](https://github.com/commitshow/cli/tree/main/mcp)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: commitshow/cli**
 
 ---
 
-### 72. [kdave/btrfs-progs](https://github.com/kdave/btrfs-progs/issues/1107)
+### 73. [kdave/btrfs-progs](https://github.com/kdave/btrfs-progs/issues/1107)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: kdave/btrfs-progs**
 
 ---
 
-### 73. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/BENCHMARKS.md)
+### 74. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/BENCHMARKS.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 74. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/longmemeval_bench.py)
+### 75. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/benchmarks/longmemeval_bench.py)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 75. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/27)
+### 76. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/27)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 76. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/29)
+### 77. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/29)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 77. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/37)
+### 78. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/issues/37)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 78. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus/blob/main/CHANGELOG.md)
+### 79. [nyldn/claude-octopus](https://github.com/nyldn/claude-octopus/blob/main/CHANGELOG.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: nyldn/claude-octopus**
 
 ---
 
-### 79. [scoutqa-dot-ai/thor](https://github.com/scoutqa-dot-ai/thor/blob/main/packages/opencode-cli/src/proxy-cli.ts)
+### 80. [scoutqa-dot-ai/thor](https://github.com/scoutqa-dot-ai/thor/blob/main/packages/opencode-cli/src/proxy-cli.ts)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: scoutqa-dot-ai/thor**
 
 ---
 
-### 80. [smriti-memcore/amp](https://github.com/smriti-memcore/amp/blob/main/spec/amp-v1.1.md)
+### 81. [smriti-memcore/amp](https://github.com/smriti-memcore/amp/blob/main/spec/amp-v1.1.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: smriti-memcore/amp**
 
 ---
 
-### 81. [steipete/gogcli](https://github.com/steipete/gogcli/releases/tag/v0.13.0)
+### 82. [steipete/gogcli](https://github.com/steipete/gogcli/releases/tag/v0.13.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: steipete/gogcli**
 
 ---
 
-### 82. [steipete/mcporter](https://github.com/steipete/mcporter/releases/tag/v0.9.0)
+### 83. [steipete/mcporter](https://github.com/steipete/mcporter/releases/tag/v0.9.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: steipete/mcporter**
 
 ---
 
-### 83. [steipete/wacli](https://github.com/steipete/wacli/releases/tag/v0.6.0)
+### 84. [steipete/wacli](https://github.com/steipete/wacli/releases/tag/v0.6.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: steipete/wacli**
 
 ---
 
-### 84. [wezterm/wezterm](https://github.com/wezterm/wezterm/issues/986)
+### 85. [wezterm/wezterm](https://github.com/wezterm/wezterm/issues/986)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: wezterm/wezterm**
 
 ---
 
-### 85. [anthropics/claude-desktop-buddy](https://github.com/anthropics/claude-desktop-buddy/pull/3)
+### 86. [anthropics/claude-desktop-buddy](https://github.com/anthropics/claude-desktop-buddy/pull/3)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: anthropics/claude-desktop-buddy**
 
 ---
 
-### 86. [cyanheads/mcp-ts-core](https://github.com/cyanheads/mcp-ts-core/blob/main/skills/field-test/SKILL.md)
+### 87. [cyanheads/mcp-ts-core](https://github.com/cyanheads/mcp-ts-core/blob/main/skills/field-test/SKILL.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: cyanheads/mcp-ts-core**
 
 ---
 
-### 87. [dhaupin/vant](https://github.com/dhaupin/vant/tree/main/lib/geometry)
+### 88. [dhaupin/vant](https://github.com/dhaupin/vant/tree/main/lib/geometry)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: dhaupin/vant**
 
 ---
 
-### 88. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations)
+### 89. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: fpytloun/mnemory**
 
 ---
 
-### 89. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations/openwebui)
+### 90. [fpytloun/mnemory](https://github.com/fpytloun/mnemory/tree/main/integrations/openwebui)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: fpytloun/mnemory**
 
 ---
 
-### 90. [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp/pull/1022)
+### 91. [ikawrakow/ik_llama.cpp](https://github.com/ikawrakow/ik_llama.cpp/pull/1022)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ikawrakow/ik_llama.cpp**
 
 ---
 
-### 91. [sgl-project/sglang](https://github.com/sgl-project/sglang/pull/23600)
+### 92. [sgl-project/sglang](https://github.com/sgl-project/sglang/pull/23600)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: sgl-project/sglang**
 
 ---
 
-### 92. [teorth/erdosproblems](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
+### 93. [teorth/erdosproblems](https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: teorth/erdosproblems**
 
 ---
 
-### 93. [agentscope-ai/ReMe](https:](https://github.com/agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe)
+### 94. [agentscope-ai/ReMe](https:](https://github.com/agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: agentscope-ai/ReMe](https:**
 
 ---
 
-### 94. [sapan99iz/Muse-spark-system-prompt-](https://github.com/sapan99iz/Muse-spark-system-prompt-/blob/main/Leaked)
+### 95. [sapan99iz/Muse-spark-system-prompt-](https://github.com/sapan99iz/Muse-spark-system-prompt-/blob/main/Leaked)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: sapan99iz/Muse-spark-system-prompt-**
 
 ---
 
-### 95. [MrGray17/opentoken](https:](https://github.com/MrGray17/opentoken](https://github.com/MrGray17/opentoken)
+### 96. [MrGray17/opentoken](https:](https://github.com/MrGray17/opentoken](https://github.com/MrGray17/opentoken)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: MrGray17/opentoken](https:**
 
 ---
 
-### 96. [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp/tree/main/experiments/token-savings)
+### 97. [blackwell-systems/agent-lsp](https://github.com/blackwell-systems/agent-lsp/tree/main/experiments/token-savings)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: blackwell-systems/agent-lsp**
 
 ---
 
-### 97. [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books/blob/main/USAGE.md)
+### 98. [ciembor/agent-rules-books](https://github.com/ciembor/agent-rules-books/blob/main/USAGE.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ciembor/agent-rules-books**
 
 ---
 
-### 98. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/d00747eb871067737fc0b5b11bf0f3547c551a56/cli/memo)
+### 99. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/d00747eb871067737fc0b5b11bf0f3547c551a56/cli/memo)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: kaio326/luamemo**
 
 ---
 
-### 99. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/examples/decay_importance.md)
+### 100. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/examples/decay_importance.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: kaio326/luamemo**
 
 ---
 
-### 100. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/luamemo/lsh.lua)
+### 101. [kaio326/luamemo](https://github.com/kaio326/luamemo/blob/main/luamemo/lsh.lua)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: kaio326/luamemo**
 
 ---
 
-### 101. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/163)
+### 102. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/163)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: manojmallick/sigmap**
 
 ---
 
-### 102. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/164)
+### 103. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/issues/164)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: manojmallick/sigmap**
 
 ---
 
-### 103. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/tree/v6.10.1)
+### 104. [manojmallick/sigmap](https://github.com/manojmallick/sigmap/tree/v6.10.1)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: manojmallick/sigmap**
 
 ---
 
-### 104. [rui-ye/OpenSeeker](](https://github.com/rui-ye/OpenSeeker]()
+### 105. [rui-ye/OpenSeeker](](https://github.com/rui-ye/OpenSeeker]()
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: rui-ye/OpenSeeker](**
 
 ---
 
-### 105. [sverklo/sverklo](https://github.com/sverklo/sverklo/issues/29)
+### 106. [sverklo/sverklo](https://github.com/sverklo/sverklo/issues/29)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: sverklo/sverklo**
 
 ---
 
-### 106. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/ARCHITECTURE.md)
+### 107. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/ARCHITECTURE.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 107. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GETTING_STARTED.md)
+### 108. [v3rm1ll1on/elemm](https://github.com/v3rm1ll1on/elemm/blob/main/docs/GETTING_STARTED.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: v3rm1ll1on/elemm**
 
 ---
 
-### 108. [AIOSAI/AIPass](https://github.com/AIOSAI/AIPass/blob/main/.claude%2FCLAUDE.md)
+### 109. [AIOSAI/AIPass](https://github.com/AIOSAI/AIPass/blob/main/.claude%2FCLAUDE.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: AIOSAI/AIPass**
 
 ---
 
-### 109. [FalkorDB/GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK/blob/main/docs/benchmark.md)
+### 110. [FalkorDB/GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK/blob/main/docs/benchmark.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: FalkorDB/GraphRAG-SDK**
 
 ---
 
-### 110. [Tichau/FileConverter](https:](https://github.com/Tichau/FileConverter](https://github.com/Tichau/FileConverter)
+### 111. [Tichau/FileConverter](https:](https://github.com/Tichau/FileConverter](https://github.com/Tichau/FileConverter)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Tichau/FileConverter](https:**
 
 ---
 
-### 111. [getzep/zep-papers](https://github.com/getzep/zep-papers/issues/5)
+### 112. [getzep/zep-papers](https://github.com/getzep/zep-papers/issues/5)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: getzep/zep-papers**
 
 ---
 
-### 112. [i-schuyler/repo-automation-template](https://github.com/i-schuyler/repo-automation-template/tree/main)
+### 113. [i-schuyler/repo-automation-template](https://github.com/i-schuyler/repo-automation-template/tree/main)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: i-schuyler/repo-automation-template**
 
 ---
 
-### 113. [itayinbarr/little-coder](https://github.com/itayinbarr/little-coder/blob/main/docs/benchmark-qwen3.6-35b-a3b.md)
+### 114. [itayinbarr/little-coder](https://github.com/itayinbarr/little-coder/blob/main/docs/benchmark-qwen3.6-35b-a3b.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: itayinbarr/little-coder**
 
 ---
 
-### 114. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/mempalace/dialect.py)
+### 115. [milla-jovovich/mempalace](https://github.com/milla-jovovich/mempalace/blob/main/mempalace/dialect.py)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: milla-jovovich/mempalace**
 
 ---
 
-### 115. [ollama/ollama](https://github.com/ollama/ollama/pull/15505)
+### 116. [ollama/ollama](https://github.com/ollama/ollama/pull/15505)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ollama/ollama**
 
 ---
 
-### 116. [scub-france/Docling-Studio](https://github.com/scub-france/Docling-Studio/pull/191)
+### 117. [scub-france/Docling-Studio](https://github.com/scub-france/Docling-Studio/pull/191)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: scub-france/Docling-Studio**
 
 ---
 
-### 117. [vllm-project/vllm](https://github.com/vllm-project/vllm/issues/38171)
+### 118. [vllm-project/vllm](https://github.com/vllm-project/vllm/issues/38171)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: vllm-project/vllm**
 
 ---
 
-### 118. [ClaudetteMedSer/HyMem](https://github.com/ClaudetteMedSer/HyMem/tree/improv)
+### 119. [ClaudetteMedSer/HyMem](https://github.com/ClaudetteMedSer/HyMem/tree/improv)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ClaudetteMedSer/HyMem**
 
 ---
 
-### 119. [chainofdive/ravenclaw](https:](https://github.com/chainofdive/ravenclaw](https://github.com/chainofdive/ravenclaw)
+### 120. [chainofdive/ravenclaw](https:](https://github.com/chainofdive/ravenclaw](https://github.com/chainofdive/ravenclaw)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: chainofdive/ravenclaw](https:**
 
 ---
 
-### 120. [mem0ai/mem0](https:](https://github.com/mem0ai/mem0](https://github.com/mem0ai/mem0)
+### 121. [mem0ai/mem0](https:](https://github.com/mem0ai/mem0](https://github.com/mem0ai/mem0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: mem0ai/mem0](https:**
 
 ---
 
-### 121. [RedHatInsights/javascript-clients](https://github.com/RedHatInsights/javascript-clients/issues/492)
+### 122. [RedHatInsights/javascript-clients](https://github.com/RedHatInsights/javascript-clients/issues/492)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: RedHatInsights/javascript-clients**
 
 ---
 
-### 122. [stanford-cs336/assignment1-basics](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md)
+### 123. [stanford-cs336/assignment1-basics](https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: stanford-cs336/assignment1-basics**
 
 ---
 
-### 123. [jqwik-team/jqwik](https://github.com/jqwik-team/jqwik/issues/708)
+### 124. [jqwik-team/jqwik](https://github.com/jqwik-team/jqwik/issues/708)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: jqwik-team/jqwik**
 
 ---
 
-### 124. [michaelcummings12/meta-ai-support-prompt](https://github.com/michaelcummings12/meta-ai-support-prompt/blob/main/system-prompt.md)
+### 125. [michaelcummings12/meta-ai-support-prompt](https://github.com/michaelcummings12/meta-ai-support-prompt/blob/main/system-prompt.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: michaelcummings12/meta-ai-support-prompt**
 
 ---
 
-### 125. [Zyora-Dev/zse](https://github.com/Zyora-Dev/zse/releases/tag/v2.0.0)
+### 126. [Zyora-Dev/zse](https://github.com/Zyora-Dev/zse/releases/tag/v2.0.0)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: Zyora-Dev/zse**
 
 ---
 
-### 126. [firish/rag-rack](https://github.com/firish/rag-rack/blob/main/blog/03_verified_rag.md)
+### 127. [firish/rag-rack](https://github.com/firish/rag-rack/blob/main/blog/03_verified_rag.md)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: firish/rag-rack**
 
 ---
 
-### 127. [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
+### 128. [langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: langchain-ai/langgraph**
 
 ---
 
-### 128. [nomic-ai/embed](https://github.com/nomic-ai/embed)
+### 129. [nomic-ai/embed](https://github.com/nomic-ai/embed)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: nomic-ai/embed**
 
 ---
 
-### 129. [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index)
+### 130. [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: jerryjliu/llama_index**
 
 ---
 
-### 130. [assemblyai/assemblyai](https://github.com/assemblyai/assemblyai)
+### 131. [assemblyai/assemblyai](https://github.com/assemblyai/assemblyai)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: assemblyai/assemblyai**
 
 ---
 
-### 131. [TogetherAI/Together.py](https://github.com/TogetherAI/Together.py)
+### 132. [TogetherAI/Together.py](https://github.com/TogetherAI/Together.py)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: TogetherAI/Together.py**
 
 ---
 
-### 132. [cohere/cohere](https://github.com/cohere/cohere)
+### 133. [cohere/cohere](https://github.com/cohere/cohere)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: cohere/cohere**
 
 ---
 
-### 133. [vllm-project/vllm](https://github.com/vllm-project/vllm)
+### 134. [vllm-project/vllm](https://github.com/vllm-project/vllm)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: vllm-project/vllm**
 
 ---
 
-### 134. [huggingface/transformers](https://github.com/huggingface/transformers)
+### 135. [huggingface/transformers](https://github.com/huggingface/transformers)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: huggingface/transformers**
 
 ---
 
-### 135. [langchain-ai/griptape](https://github.com/langchain-ai/griptape)
+### 136. [langchain-ai/griptape](https://github.com/langchain-ai/griptape)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: langchain-ai/griptape**
 
 ---
 
-### 136. [weaviate/weaviate](https://github.com/weaviate/weaviate)
+### 137. [weaviate/weaviate](https://github.com/weaviate/weaviate)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: weaviate/weaviate**
 
 ---
 
-### 137. [KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude)
+### 138. [KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: KorroAi/drunk-claude**
 
 ---
 
-### 138. [btahir/agent-order](https://github.com/btahir/agent-order)
+### 139. [btahir/agent-order](https://github.com/btahir/agent-order)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: btahir/agent-order**
 
 ---
 
-### 139. [ai16z/eliza](https://github.com/ai16z/eliza)
+### 140. [ai16z/eliza](https://github.com/ai16z/eliza)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ai16z/eliza**
 
 ---
 
-### 140. [sgl-project/sglang](https://github.com/sgl-project/sglang)
+### 141. [sgl-project/sglang](https://github.com/sgl-project/sglang)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: sgl-project/sglang**
 
 ---
 
-### 141. [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
+### 142. [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: microsoft/semantic-kernel**
 
 ---
 
-### 142. [fixie-ai/llm-code](https://github.com/fixie-ai/llm-code)
+### 143. [fixie-ai/llm-code](https://github.com/fixie-ai/llm-code)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: fixie-ai/llm-code**
 
 ---
 
-### 143. [ByteDance-Seed/BagEL](https://github.com/ByteDance-Seed/BagEL)
+### 144. [ByteDance-Seed/BagEL](https://github.com/ByteDance-Seed/BagEL)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ByteDance-Seed/BagEL**
 
 ---
 
-### 144. [phidatahq/phidata](https://github.com/phidatahq/phidata)
+### 145. [phidatahq/phidata](https://github.com/phidatahq/phidata)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: phidatahq/phidata**
 
 ---
 
-### 145. [MarkFzp/agents](https://github.com/MarkFzp/agents)
+### 146. [MarkFzp/agents](https://github.com/MarkFzp/agents)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: MarkFzp/agents**
 
 ---
 
-### 146. [ToonzzZ/open-mcp](https://github.com/ToonzzZ/open-mcp)
+### 147. [ToonzzZ/open-mcp](https://github.com/ToonzzZ/open-mcp)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: ToonzzZ/open-mcp**
 
 ---
 
-### 147. [lastmile-ai/openagents](https://github.com/lastmile-ai/openagents)
+### 148. [lastmile-ai/openagents](https://github.com/lastmile-ai/openagents)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: lastmile-ai/openagents**
 
 ---
 
-### 148. [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner)
+### 149. [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: nicepkg/gpt-runner**
 
 ---
 
-### 149. [microsoft/azure-ai-mcp](https://github.com/microsoft/azure-ai-mcp)
+### 150. [microsoft/azure-ai-mcp](https://github.com/microsoft/azure-ai-mcp)
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: microsoft/azure-ai-mcp**
 
 ---
 
-### 150. [Locus Founder — the agentic business OS](https://app.locusfounder.com/start/idea)
+### 151. [xiaoxiaoflood/firefox-scripts](https://github.com/xiaoxiaoflood/firefox-scripts/tree/master/extensions)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: xiaoxiaoflood/firefox-scripts**
+
+---
+
+### 152. [onemen/TabMixPlus](https://github.com/onemen/TabMixPlus/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: onemen/TabMixPlus**
+
+---
+
+### 153. [chipsalliance/chisel](https://github.com/chipsalliance/chisel)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: chipsalliance/chisel**
+
+---
+
+### 154. [amaranth-lang/amaranth](https://github.com/amaranth-lang/amaranth)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: amaranth-lang/amaranth**
+
+---
+
+### 155. [pmxi/dotfiles](https://github.com/pmxi/dotfiles/blob/e779c5921fbe308fad0c95b29c76efdd930f2cc0/.config/ghostty/config#L4-L8)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pmxi/dotfiles**
+
+---
+
+### 156. [githubnext/monaspace](https://github.com/githubnext/monaspace/blob/main/docs/Texture%20Healing.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: githubnext/monaspace**
+
+---
+
+### 157. [ryanoasis/nerd-fonts](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Iosevka)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ryanoasis/nerd-fonts**
+
+---
+
+### 158. [Diablo-D3/dotfiles](https://github.com/Diablo-D3/dotfiles/blob/master/fontsizes.md#optimal-rendering-of-common-fonts)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Diablo-D3/dotfiles**
+
+---
+
+### 159. [subframe7536/Maple-font](https://github.com/subframe7536/Maple-font)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: subframe7536/Maple-font**
+
+---
+
+### 160. [be5invis/Iosevka](https://github.com/be5invis/Iosevka)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: be5invis/Iosevka**
+
+---
+
+### 161. [tonsky/FiraCode](https://github.com/tonsky/FiraCode/wiki/How-to-enable-stylistic-sets)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tonsky/FiraCode**
+
+---
+
+### 162. [mickeynp/ligature.el](https://github.com/mickeynp/ligature.el)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mickeynp/ligature.el**
+
+---
+
+### 163. [N-R-K/NRK-Mono](https://github.com/N-R-K/NRK-Mono)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: N-R-K/NRK-Mono**
+
+---
+
+### 164. [ericfortis/verdanacamel](https://github.com/ericfortis/verdanacamel)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ericfortis/verdanacamel**
+
+---
+
+### 165. [shytikov/pragmasevka](https://github.com/shytikov/pragmasevka)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: shytikov/pragmasevka**
+
+---
+
+### 166. [ahatem/IoskeleyMono](https://github.com/ahatem/IoskeleyMono)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ahatem/IoskeleyMono**
+
+---
+
+### 167. [jesusmgg/comic-shanns-mono](https://github.com/jesusmgg/comic-shanns-mono?tab=readme-ov-file#what-does-it-look-like)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jesusmgg/comic-shanns-mono**
+
+---
+
+### 168. [pmarreck/usgc-machine-report-nixos-edition](https://github.com/pmarreck/usgc-machine-report-nixos-edition)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pmarreck/usgc-machine-report-nixos-edition**
+
+---
+
+### 169. [belluzj/fantasque-sans](https://github.com/belluzj/fantasque-sans)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: belluzj/fantasque-sans**
+
+---
+
+### 170. [bluescan/proggyfonts](https://github.com/bluescan/proggyfonts/tree/master/ProggyVector)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bluescan/proggyfonts**
+
+---
+
+### 171. [ory/lumen](https://github.com/ory/lumen)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ory/lumen**
+
+---
+
+### 172. [oguzbilgic/agent-kernel](https://github.com/oguzbilgic/agent-kernel)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: oguzbilgic/agent-kernel**
+
+---
+
+### 173. [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient/blob/main/CLAUDE.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: drona23/claude-token-efficient**
+
+---
+
+### 174. [cwinvestments/memstack](https://github.com/cwinvestments/memstack)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cwinvestments/memstack**
+
+---
+
+### 175. [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient/issues/1)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: drona23/claude-token-efficient**
+
+---
+
+### 176. [user-attachments/assets](https://github.com/user-attachments/assets/5a79b929-49ee-4614-8f42-e764793ace5e)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: user-attachments/assets**
+
+---
+
+### 177. [drona23/claude-token-efficient](https://github.com/drona23/claude-token-efficient/blob/main/BENCHMARK.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: drona23/claude-token-efficient**
+
+---
+
+### 178. [Nahuel990/ministack](https://github.com/Nahuel990/ministack/blob/master/CHANGELOG.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Nahuel990/ministack**
+
+---
+
+### 179. [nahuel990/ministack](https://github.com/nahuel990/ministack)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nahuel990/ministack**
+
+---
+
+### 180. [Nahuel990/ministack](https://github.com/Nahuel990/ministack/blob/a1b1d20a27d2238dd7b776eeb426e93d816e5c09/README.md#architecture)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Nahuel990/ministack**
+
+---
+
+### 181. [hectorvent/floci](https://github.com/hectorvent/floci)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: hectorvent/floci**
+
+---
+
+### 182. [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR/blob/main/examples/mlx-deploy/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zai-org/GLM-OCR**
+
+---
+
+### 183. [modular/modular](https://github.com/modular/modular/commit/57728b23befed8f3b44e24d67d41b275bd3e49d4)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: modular/modular**
+
+---
+
+### 184. [alecthomas/aim](https://github.com/alecthomas/aim)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: alecthomas/aim**
+
+---
+
+### 185. [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: opendataloader-project/opendataloader-pdf**
+
+---
+
+### 186. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/issues/21316)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 187. [day50-dev/llcat](https://github.com/day50-dev/llcat)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: day50-dev/llcat**
+
+---
+
+### 188. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21326/commits/a507ae5498257c6fd0835e85c78825298b2252ba)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 189. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21038)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 190. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/pull/21326)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 191. [fikrikarim/parlor](https://github.com/fikrikarim/parlor)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fikrikarim/parlor**
+
+---
+
+### 192. [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery/releases)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-ai-edge/gallery**
+
+---
+
+### 193. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 194. [zai-org/GLM-OCR](https://github.com/zai-org/GLM-OCR)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zai-org/GLM-OCR**
+
+---
+
+### 195. [fikrikarim/volocal](https://github.com/fikrikarim/volocal)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fikrikarim/volocal**
+
+---
+
+### 196. [manualdousuario/lerama](https://github.com/manualdousuario/lerama)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: manualdousuario/lerama**
+
+---
+
+### 197. [dllu/dllup-rs](https://github.com/dllu/dllup-rs/blob/main/src/main.rs#L850)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dllu/dllup-rs**
+
+---
+
+### 198. [rumca-js/Internet-Places-Database](https://github.com/rumca-js/Internet-Places-Database)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rumca-js/Internet-Places-Database**
+
+---
+
+### 199. [xjdr-alt/entropix](https://github.com/xjdr-alt/entropix)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: xjdr-alt/entropix**
+
+---
+
+### 200. [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp/blob/master/grammars/README.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ggml-org/llama.cpp**
+
+---
+
+### 201. [doubleuuser/rlm-workflow](https://github.com/doubleuuser/rlm-workflow)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: doubleuuser/rlm-workflow**
+
+---
+
+### 202. [pageman/sutskever-30-implementations](https://github.com/pageman/sutskever-30-implementations)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pageman/sutskever-30-implementations**
+
+---
+
+### 203. [marbinkaraus/devmenu](https://github.com/marbinkaraus/devmenu)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: marbinkaraus/devmenu**
+
+---
+
+### 204. [a-ghorbani/pocketpal-ai](https://github.com/a-ghorbani/pocketpal-ai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: a-ghorbani/pocketpal-ai**
+
+---
+
+### 205. [jundot/omlx](https://github.com/jundot/omlx)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jundot/omlx**
+
+---
+
+### 206. [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery/blob/main/Android/src/app/src/main/java/com/google/ai/edge/gallery/customtasks/mobileactions/MobileActionsScreen.kt#L413)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-ai-edge/gallery**
+
+---
+
+### 207. [pmarreck/gemma4-heretical](https://github.com/pmarreck/gemma4-heretical)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pmarreck/gemma4-heretical**
+
+---
+
+### 208. [google-ai-edge/gallery](https://github.com/google-ai-edge/gallery/blob/main/Android/src/app/src/main/java/com/google/ai/edge/gallery/ui/common/ClickableLink.kt#L62)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: google-ai-edge/gallery**
+
+---
+
+### 209. [cloud-hypervisor/cloud-hypervisor](https://github.com/cloud-hypervisor/cloud-hypervisor)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cloud-hypervisor/cloud-hypervisor**
+
+---
+
+### 210. [nestybox/sysbox](https://github.com/nestybox/sysbox)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nestybox/sysbox**
+
+---
+
+### 211. [sahil-shubham/bhatti](https://github.com/sahil-shubham/bhatti)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sahil-shubham/bhatti**
+
+---
+
+### 212. [containers/bubblewrap](https://github.com/containers/bubblewrap?tab=readme-ov-file)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: containers/bubblewrap**
+
+---
+
+### 213. [jgbrwn/vibebin](https://GitHub.com/jgbrwn/vibebin)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jgbrwn/vibebin**
+
+---
+
+### 214. [nestybox/sysbox](https://github.com/nestybox/sysbox?tab=readme-ov-file)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nestybox/sysbox**
+
+---
+
+### 215. [kstenerud/yoloai](https://github.com/kstenerud/yoloai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kstenerud/yoloai**
+
+---
+
+### 216. [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: firecracker-microvm/firecracker**
+
+---
+
+### 217. [salishforge/memforge](https://github.com/salishforge/memforge)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: salishforge/memforge**
+
+---
+
+### 218. [THUDM/IndexCache](https://github.com/THUDM/IndexCache)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: THUDM/IndexCache**
+
+---
+
+### 219. [psenough/teach_yourself_demoscene_in_14_days](https://github.com/psenough/teach_yourself_demoscene_in_14_days)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: psenough/teach_yourself_demoscene_in_14_days**
+
+---
+
+### 220. [psykon/awesome-demoscene](https://github.com/psykon/awesome-demoscene)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: psykon/awesome-demoscene**
+
+---
+
+### 221. [aman179102/moodsense-ai](https://github.com/aman179102/moodsense-ai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aman179102/moodsense-ai**
+
+---
+
+### 222. [royalicing/qip](https://github.com/royalicing/qip)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: royalicing/qip**
+
+---
+
+### 223. [rcarmo/piclaw](https://github.com/rcarmo/piclaw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rcarmo/piclaw**
+
+---
+
+### 224. [tuumiksystems/tuumik](https://github.com/tuumiksystems/tuumik)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tuumiksystems/tuumik**
+
+---
+
+### 225. [shravanasati/rekt](https://github.com/shravanasati/rekt)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: shravanasati/rekt**
+
+---
+
+### 226. [cloudkj/lambda-autodiff](https://github.com/cloudkj/lambda-autodiff)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cloudkj/lambda-autodiff**
+
+---
+
+### 227. [storytold/artcraft](https://github.com/storytold/artcraft)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: storytold/artcraft**
+
+---
+
+### 228. [bitgn/sample-agents](https://github.com/bitgn/sample-agents)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bitgn/sample-agents**
+
+---
+
+### 229. [tomasz-tomczyk/crit](https://github.com/tomasz-tomczyk/crit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tomasz-tomczyk/crit**
+
+---
+
+### 230. [adam-s/intercept](https://github.com/adam-s/intercept?tab=readme-ov-file#how-it-works)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: adam-s/intercept**
+
+---
+
+### 231. [think41/extrasuite](https://github.com/think41/extrasuite)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: think41/extrasuite**
+
+---
+
+### 232. [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3/pull/375)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ncruces/go-sqlite3**
+
+---
+
+### 233. [debpalash/OmniVoice-Studio](https://github.com/debpalash/OmniVoice-Studio)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: debpalash/OmniVoice-Studio**
+
+---
+
+### 234. [microsoft/mssql-rs](https://github.com/microsoft/mssql-rs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: microsoft/mssql-rs**
+
+---
+
+### 235. [jdc-cunningham/agent-gui](https://github.com/jdc-cunningham/agent-gui)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jdc-cunningham/agent-gui**
+
+---
+
+### 236. [gofixpoint/amika](https://github.com/gofixpoint/amika)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gofixpoint/amika**
+
+---
+
+### 237. [RobinL/maths-game-problem-generator](https://github.com/RobinL/maths-game-problem-generator)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RobinL/maths-game-problem-generator**
+
+---
+
+### 238. [van-sprundel/vif](https://github.com/van-sprundel/vif)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: van-sprundel/vif**
+
+---
+
+### 239. [babonet/Markco](https://github.com/babonet/Markco)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: babonet/Markco**
+
+---
+
+### 240. [vince-0202/acgo](https://github.com/vince-0202/acgo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: vince-0202/acgo**
+
+---
+
+### 241. [svenhimmelvarg/kaleidoscope](https://github.com/svenhimmelvarg/kaleidoscope)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: svenhimmelvarg/kaleidoscope**
+
+---
+
+### 242. [netdur/hugind](https://github.com/netdur/hugind)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: netdur/hugind**
+
+---
+
+### 243. [cloudkj/pgesmd_self_access](https://github.com/cloudkj/pgesmd_self_access)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cloudkj/pgesmd_self_access**
+
+---
+
+### 244. [lucyomgggg/telos-client](https://github.com/lucyomgggg/telos-client)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: lucyomgggg/telos-client**
+
+---
+
+### 245. [ArloL/drifty](https://github.com/ArloL/drifty)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ArloL/drifty**
+
+---
+
+### 246. [sapphire-project/sapphire](https://github.com/sapphire-project/sapphire)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sapphire-project/sapphire**
+
+---
+
+### 247. [miracle-wm-org/miracle-wm](https://github.com/miracle-wm-org/miracle-wm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: miracle-wm-org/miracle-wm**
+
+---
+
+### 248. [RobinL/letterpaths](https://github.com/RobinL/letterpaths)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RobinL/letterpaths**
+
+---
+
+### 249. [smelloscope/smello](https://github.com/smelloscope/smello)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: smelloscope/smello**
+
+---
+
+### 250. [adhamsalama/inkfeed-reader](https://github.com/adhamsalama/inkfeed-reader)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: adhamsalama/inkfeed-reader**
+
+---
+
+### 251. [primaprashant/awesome-voice-typing](https://github.com/primaprashant/awesome-voice-typing)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: primaprashant/awesome-voice-typing**
+
+---
+
+### 252. [cavedave/Manannan](https://github.com/cavedave/Manannan)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cavedave/Manannan**
+
+---
+
+### 253. [onfabric/waclaw](https://github.com/onfabric/waclaw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: onfabric/waclaw**
+
+---
+
+### 254. [docmancer/docmancer](https://github.com/docmancer/docmancer)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: docmancer/docmancer**
+
+---
+
+### 255. [aravindhsampath/hobbyboard](https://github.com/aravindhsampath/hobbyboard)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aravindhsampath/hobbyboard**
+
+---
+
+### 256. [patched-network/vue-skuilder](https://github.com/patched-network/vue-skuilder)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: patched-network/vue-skuilder**
+
+---
+
+### 257. [httpstate/httpstate](https://github.com/httpstate/httpstate)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: httpstate/httpstate**
+
+---
+
+### 258. [janardannn/ai-eval-lab](https://github.com/janardannn/ai-eval-lab)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: janardannn/ai-eval-lab**
+
+---
+
+### 259. [CausalOS/causalos-python](https://github.com/CausalOS/causalos-python)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: CausalOS/causalos-python**
+
+---
+
+### 260. [samoylenkodmitry/Cranpose](https://github.com/samoylenkodmitry/Cranpose)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: samoylenkodmitry/Cranpose**
+
+---
+
+### 261. [almet/signal-without-smartphone](https://github.com/almet/signal-without-smartphone)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: almet/signal-without-smartphone**
+
+---
+
+### 262. [brainless/nocodo](https://github.com/brainless/nocodo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: brainless/nocodo**
+
+---
+
+### 263. [rumca-js/Internet-feeds](https://github.com/rumca-js/Internet-feeds)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rumca-js/Internet-feeds**
+
+---
+
+### 264. [ptcodes/BatteryScope](https://github.com/ptcodes/BatteryScope)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ptcodes/BatteryScope**
+
+---
+
+### 265. [bogpad/meepachat](https://github.com/bogpad/meepachat)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bogpad/meepachat**
+
+---
+
+### 266. [NetwindHQ/gha-outrunner](https://github.com/NetwindHQ/gha-outrunner)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: NetwindHQ/gha-outrunner**
+
+---
+
+### 267. [seamus-brady/springdrift](https://github.com/seamus-brady/springdrift)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: seamus-brady/springdrift**
+
+---
+
+### 268. [gen2brain/iup-go](https://github.com/gen2brain/iup-go)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gen2brain/iup-go**
+
+---
+
+### 269. [xi/xiio](https://github.com/xi/xiio)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: xi/xiio**
+
+---
+
+### 270. [kushalpandya/Petrichor](https://github.com/kushalpandya/Petrichor)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kushalpandya/Petrichor**
+
+---
+
+### 271. [level09/ziglag](https://github.com/level09/ziglag)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: level09/ziglag**
+
+---
+
+### 272. [slokam-ai/localbq](https://github.com/slokam-ai/localbq)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: slokam-ai/localbq**
+
+---
+
+### 273. [idlework/security-check](https://github.com/idlework/security-check)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: idlework/security-check**
+
+---
+
+### 274. [Ultramann/shifu](https://github.com/Ultramann/shifu)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Ultramann/shifu**
+
+---
+
+### 275. [Hessra-Labs/hessra-cap](https://github.com/Hessra-Labs/hessra-cap)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Hessra-Labs/hessra-cap**
+
+---
+
+### 276. [Waya-Wolf/WWC3](https://github.com/Waya-Wolf/WWC3)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Waya-Wolf/WWC3**
+
+---
+
+### 277. [getnao/nao](https://github.com/getnao/nao)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: getnao/nao**
+
+---
+
+### 278. [PulkitBanta/connectio](https://github.com/PulkitBanta/connectio)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: PulkitBanta/connectio**
+
+---
+
+### 279. [ncruces/go-sqlite3](https://github.com/ncruces/go-sqlite3)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ncruces/go-sqlite3**
+
+---
+
+### 280. [nmrenyi/mamai](https://github.com/nmrenyi/mamai)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nmrenyi/mamai**
+
+---
+
+### 281. [Lramseyer/vaporview](https://github.com/Lramseyer/vaporview)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Lramseyer/vaporview**
+
+---
+
+### 282. [workglow-dev/workglow](https://github.com/workglow-dev/workglow)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: workglow-dev/workglow**
+
+---
+
+### 283. [accretional/macos-vision](https://github.com/accretional/macos-vision)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: accretional/macos-vision**
+
+---
+
+### 284. [thelounge/thelounge](https://github.com/thelounge/thelounge/pull/5064)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: thelounge/thelounge**
+
+---
+
+### 285. [danielcherubini/koji](https://github.com/danielcherubini/koji)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: danielcherubini/koji**
+
+---
+
+### 286. [RootCX/RootCX](https://github.com/RootCX/RootCX)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RootCX/RootCX**
+
+---
+
+### 287. [rivet-dev/agent-os](https://github.com/rivet-dev/agent-os)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rivet-dev/agent-os**
+
+---
+
+### 288. [allegro-systems/score](https://github.com/allegro-systems/score)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: allegro-systems/score**
+
+---
+
+### 289. [turadg/git-where](https://github.com/turadg/git-where)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: turadg/git-where**
+
+---
+
+### 290. [peterretief/orderin](https://github.com/peterretief/orderin)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: peterretief/orderin**
+
+---
+
+### 291. [level09/stk](https://github.com/level09/stk)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: level09/stk**
+
+---
+
+### 292. [onfabric/clawtique](https://github.com/onfabric/clawtique)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: onfabric/clawtique**
+
+---
+
+### 293. [Arthur-Ficial/apfelpad](https://github.com/Arthur-Ficial/apfelpad)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Arthur-Ficial/apfelpad**
+
+---
+
+### 294. [jftuga/swiftswiss](https://github.com/jftuga/swiftswiss)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jftuga/swiftswiss**
+
+---
+
+### 295. [ayusrjn/lambda](https://GitHub.com/ayusrjn/lambda)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ayusrjn/lambda**
+
+---
+
+### 296. [dhuan/dop](https://github.com/dhuan/dop)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dhuan/dop**
+
+---
+
+### 297. [cloudkj/gymnasium-http-api](https://github.com/cloudkj/gymnasium-http-api)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cloudkj/gymnasium-http-api**
+
+---
+
+### 298. [fur-tea-laser/git-sqlite-vfs](https://github.com/fur-tea-laser/git-sqlite-vfs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fur-tea-laser/git-sqlite-vfs**
+
+---
+
+### 299. [andrewhathaway/ag.sh](https://github.com/andrewhathaway/ag.sh)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: andrewhathaway/ag.sh**
+
+---
+
+### 300. [gi11es/deckard](https://github.com/gi11es/deckard)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gi11es/deckard**
+
+---
+
+### 301. [aleda145/kavla-cli](https://github.com/aleda145/kavla-cli)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aleda145/kavla-cli**
+
+---
+
+### 302. [jwmcglynn/donner](https://github.com/jwmcglynn/donner)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jwmcglynn/donner**
+
+---
+
+### 303. [rome/tools](https://github.com/rome/tools/issues/13)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rome/tools**
+
+---
+
+### 304. [boricj/ghidra-delinker-extension](https://github.com/boricj/ghidra-delinker-extension)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: boricj/ghidra-delinker-extension**
+
+---
+
+### 305. [cloudkj/snowpack](https://github.com/cloudkj/snowpack)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cloudkj/snowpack**
+
+---
+
+### 306. [abhimanyu-jain/PRML_Solutions](https://github.com/abhimanyu-jain/PRML_Solutions)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: abhimanyu-jain/PRML_Solutions**
+
+---
+
+### 307. [iljah/p2pIM](https://github.com/iljah/p2pIM)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: iljah/p2pIM**
+
+---
+
+### 308. [Findeton/hebbi](https://github.com/Findeton/hebbi)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Findeton/hebbi**
+
+---
+
+### 309. [emmettmcdow/dve](https://github.com/emmettmcdow/dve)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: emmettmcdow/dve**
+
+---
+
+### 310. [binroot/b01t](https://github.com/binroot/b01t)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: binroot/b01t**
+
+---
+
+### 311. [NWoodsman/simpleDLNA.net](https://github.com/NWoodsman/simpleDLNA.net)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: NWoodsman/simpleDLNA.net**
+
+---
+
+### 312. [Realman78/Kiyeovo](https://github.com/Realman78/Kiyeovo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Realman78/Kiyeovo**
+
+---
+
+### 313. [SamSam12121212/ExplorerPRO](https://github.com/SamSam12121212/ExplorerPRO/tree/main/docs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: SamSam12121212/ExplorerPRO**
+
+---
+
+### 314. [epiecs/free-grilly](https://github.com/epiecs/free-grilly)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: epiecs/free-grilly**
+
+---
+
+### 315. [rickybloomfield/OuraClaw](https://github.com/rickybloomfield/OuraClaw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rickybloomfield/OuraClaw**
+
+---
+
+### 316. [Tombert/Main_MiSSus](https://github.com/Tombert/Main_MiSSus)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Tombert/Main_MiSSus**
+
+---
+
+### 317. [zuzuleinen/algotutor](https://github.com/zuzuleinen/algotutor/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zuzuleinen/algotutor**
+
+---
+
+### 318. [snowsky/yourfinanceworks](https://github.com/snowsky/yourfinanceworks)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: snowsky/yourfinanceworks**
+
+---
+
+### 319. [joseprupi/quantraserver](https://github.com/joseprupi/quantraserver)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: joseprupi/quantraserver**
+
+---
+
+### 320. [ttlequals0/MinusPod](https://github.com/ttlequals0/MinusPod)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ttlequals0/MinusPod**
+
+---
+
+### 321. [michiosw/oamc](https://github.com/michiosw/oamc)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: michiosw/oamc**
+
+---
+
+### 322. [BryanHogan/bryanhogan](https://github.com/BryanHogan/bryanhogan)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: BryanHogan/bryanhogan**
+
+---
+
+### 323. [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker/blob/main/docs/getting-started.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: firecracker-microvm/firecracker**
+
+---
+
+### 324. [kossov-it/cakeagent](https://github.com/kossov-it/cakeagent)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: kossov-it/cakeagent**
+
+---
+
+### 325. [onfabric/openclaw-fabric](https://github.com/onfabric/openclaw-fabric)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: onfabric/openclaw-fabric**
+
+---
+
+### 326. [veejayts/clutchtop](https://github.com/veejayts/clutchtop)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: veejayts/clutchtop**
+
+---
+
+### 327. [wrr/drop](https://github.com/wrr/drop)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: wrr/drop**
+
+---
+
+### 328. [ncruces/wasm2go](https://github.com/ncruces/wasm2go)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ncruces/wasm2go**
+
+---
+
+### 329. [Chrisjayhenningsen/Eudaimonia](https://github.com/Chrisjayhenningsen/Eudaimonia)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Chrisjayhenningsen/Eudaimonia**
+
+---
+
+### 330. [adam-s/alphadidactic](https://github.com/adam-s/alphadidactic)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: adam-s/alphadidactic**
+
+---
+
+### 331. [Jakob-98/nekode](https://github.com/Jakob-98/nekode)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Jakob-98/nekode**
+
+---
+
+### 332. [bggb7781-collab/lrnnsmdds](https://github.com/bggb7781-collab/lrnnsmdds)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bggb7781-collab/lrnnsmdds**
+
+---
+
+### 333. [agis/wadec](https://github.com/agis/wadec)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: agis/wadec**
+
+---
+
+### 334. [RickCarlino/KoalaCards](https://github.com/RickCarlino/KoalaCards)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RickCarlino/KoalaCards**
+
+---
+
+### 335. [adam-s/agent-tuning](https://github.com/adam-s/agent-tuning)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: adam-s/agent-tuning**
+
+---
+
+### 336. [rumca-js/RSS-Link-Database-2026](https://github.com/rumca-js/RSS-Link-Database-2026)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rumca-js/RSS-Link-Database-2026**
+
+---
+
+### 337. [nickjj/bmsu](https://github.com/nickjj/bmsu)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nickjj/bmsu**
+
+---
+
+### 338. [copper-project/copper-rs](https://github.com/copper-project/copper-rs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: copper-project/copper-rs**
+
+---
+
+### 339. [vcabeli/wezmux](https://github.com/vcabeli/wezmux)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: vcabeli/wezmux**
+
+---
+
+### 340. [RupertLinacre/country_quiz](https://github.com/RupertLinacre/country_quiz)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RupertLinacre/country_quiz**
+
+---
+
+### 341. [rnts08/low-cap-exchange-trading-bot](https://github.com/rnts08/low-cap-exchange-trading-bot)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rnts08/low-cap-exchange-trading-bot**
+
+---
+
+### 342. [jkanethird/rackery](https://github.com/jkanethird/rackery)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jkanethird/rackery**
+
+---
+
+### 343. [williamcotton/space-trader](https://github.com/williamcotton/space-trader/blob/main/docs/introduction.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: williamcotton/space-trader**
+
+---
+
+### 344. [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker/blob/main/docs/prod-host-setup.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: firecracker-microvm/firecracker**
+
+---
+
+### 345. [true-async/php-async](https://github.com/true-async/php-async)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: true-async/php-async**
+
+---
+
+### 346. [blue-monads/potatoverse](https://github.com/blue-monads/potatoverse)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: blue-monads/potatoverse**
+
+---
+
+### 347. [paulmooreparks/tela](https://github.com/paulmooreparks/tela)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: paulmooreparks/tela**
+
+---
+
+### 348. [slokam-ai/localgcp](https://github.com/slokam-ai/localgcp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: slokam-ai/localgcp**
+
+---
+
+### 349. [mybr/spynation](https://github.com/mybr/spynation)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mybr/spynation**
+
+---
+
+### 350. [sapphire-project/facet](https://github.com/sapphire-project/facet)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sapphire-project/facet**
+
+---
+
+### 351. [egeozcan/anagramci](https://github.com/egeozcan/anagramci)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: egeozcan/anagramci**
+
+---
+
+### 352. [audion-lang/audion](https://github.com/audion-lang/audion)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: audion-lang/audion**
+
+---
+
+### 353. [codemix/graph](https://github.com/codemix/graph)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: codemix/graph**
+
+---
+
+### 354. [linsomniac/pxv](https://github.com/linsomniac/pxv)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: linsomniac/pxv**
+
+---
+
+### 355. [dleemiller/CnakeCharmer](https://github.com/dleemiller/CnakeCharmer)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dleemiller/CnakeCharmer**
+
+---
+
+### 356. [Caltanjun/timelocked](https://github.com/Caltanjun/timelocked)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Caltanjun/timelocked**
+
+---
+
+### 357. [jcubic/speaking-clock](https://github.com/jcubic/speaking-clock)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jcubic/speaking-clock**
+
+---
+
+### 358. [whyboris/Video-Hub-App](https://github.com/whyboris/Video-Hub-App)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: whyboris/Video-Hub-App**
+
+---
+
+### 359. [jank-lang/jank](https://github.com/jank-lang/jank)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jank-lang/jank**
+
+---
+
+### 360. [peacprotocol/peac](https://github.com/peacprotocol/peac)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: peacprotocol/peac**
+
+---
+
+### 361. [microsoft/microsoft-ui-xaml](https://github.com/microsoft/microsoft-ui-xaml/issues/5148)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: microsoft/microsoft-ui-xaml**
+
+---
+
+### 362. [tlehman/hammock](https://github.com/tlehman/hammock)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tlehman/hammock**
+
+---
+
+### 363. [mezalabs/meza](https://github.com/mezalabs/meza)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mezalabs/meza**
+
+---
+
+### 364. [opensciencearchive/server](https://github.com/opensciencearchive/server)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: opensciencearchive/server**
+
+---
+
+### 365. [jbonatakis/pginbox](https://github.com/jbonatakis/pginbox)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jbonatakis/pginbox**
+
+---
+
+### 366. [thisisharsh7/modron-discord-bot](https://github.com/thisisharsh7/modron-discord-bot)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: thisisharsh7/modron-discord-bot**
+
+---
+
+### 367. [paradedb/paradedb](https://github.com/paradedb/paradedb)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: paradedb/paradedb**
+
+---
+
+### 368. [zby/commonplace](https://github.com/zby/commonplace)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zby/commonplace**
+
+---
+
+### 369. [anupshinde/godom](https://github.com/anupshinde/godom)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anupshinde/godom**
+
+---
+
+### 370. [Swoorup/shadml](https://github.com/Swoorup/shadml)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Swoorup/shadml**
+
+---
+
+### 371. [XEonAX/TowerPunk-CyberDefence](https://github.com/XEonAX/TowerPunk-CyberDefence)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: XEonAX/TowerPunk-CyberDefence**
+
+---
+
+### 372. [lastbytellc/iclaw](https://github.com/lastbytellc/iclaw)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: lastbytellc/iclaw**
+
+---
+
+### 373. [RobinL/letterpaths](https://github.com/RobinL/letterpaths/blob/main/packages/letterpaths/src/data/schemas/letter-formation-bezier.schema.json)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RobinL/letterpaths**
+
+---
+
+### 374. [mudkipdev/chat](https://github.com/mudkipdev/chat)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mudkipdev/chat**
+
+---
+
+### 375. [cagriy/duo-rag](https://github.com/cagriy/duo-rag)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cagriy/duo-rag**
+
+---
+
+### 376. [Hessra-Labs/hessra-tokens](https://github.com/Hessra-Labs/hessra-tokens)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Hessra-Labs/hessra-tokens**
+
+---
+
+### 377. [yoshihicode/cubectl](https://github.com/yoshihicode/cubectl)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: yoshihicode/cubectl**
+
+---
+
+### 378. [miracle-wm-org/miri-plugin](https://github.com/miracle-wm-org/miri-plugin)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: miracle-wm-org/miri-plugin**
+
+---
+
+### 379. [mikko-ahonen/arch-ascent](https://github.com/mikko-ahonen/arch-ascent/blob/main/doc/design/architecture_vision_ground_and_momentum_model.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mikko-ahonen/arch-ascent**
+
+---
+
+### 380. [rumca-js/RSS-Link-Database-2025](https://github.com/rumca-js/RSS-Link-Database-2025)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rumca-js/RSS-Link-Database-2025**
+
+---
+
+### 381. [ksymph/mogo](https://github.com/ksymph/mogo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ksymph/mogo**
+
+---
+
+### 382. [devlensio/devlensOSS](https://github.com/devlensio/devlensOSS)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: devlensio/devlensOSS**
+
+---
+
+### 383. [ryanmitts/deptheos](https://github.com/ryanmitts/deptheos)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ryanmitts/deptheos**
+
+---
+
+### 384. [calvernaz/wba](https://github.com/calvernaz/wba)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: calvernaz/wba**
+
+---
+
+### 385. [BVCampos/operator](https://github.com/BVCampos/operator)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: BVCampos/operator**
+
+---
+
+### 386. [danieltanfh95/agent-lineage-evolution](https://github.com/danieltanfh95/agent-lineage-evolution/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: danieltanfh95/agent-lineage-evolution**
+
+---
+
+### 387. [rnts08/blockchain-vpn](https://github.com/rnts08/blockchain-vpn)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rnts08/blockchain-vpn**
+
+---
+
+### 388. [exabrial/petrify](https://github.com/exabrial/petrify)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: exabrial/petrify**
+
+---
+
+### 389. [rnts08/WWC3-Linux-binaries](https://github.com/rnts08/WWC3-Linux-binaries)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rnts08/WWC3-Linux-binaries**
+
+---
+
+### 390. [pmbanugo/tina](https://github.com/pmbanugo/tina)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pmbanugo/tina**
+
+---
+
+### 391. [darshanmakwana412/tsplat](https://github.com/darshanmakwana412/tsplat)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: darshanmakwana412/tsplat**
+
+---
+
+### 392. [100nandoo/shelfdroid](https://github.com/100nandoo/shelfdroid)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: 100nandoo/shelfdroid**
+
+---
+
+### 393. [amysoxcolo/amsterdam](https://github.com/amysoxcolo/amsterdam)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: amysoxcolo/amsterdam**
+
+---
+
+### 394. [VoxleOne/SpinStep](https://github.com/VoxleOne/SpinStep)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: VoxleOne/SpinStep**
+
+---
+
+### 395. [danieltanfh95/replsh](https://github.com/danieltanfh95/replsh)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: danieltanfh95/replsh**
+
+---
+
+### 396. [connet-dev/connet](https://github.com/connet-dev/connet)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: connet-dev/connet**
+
+---
+
+### 397. [RobinL/letterpaths](https://github.com/RobinL/letterpaths/blob/main/packages/letterpaths/src/data/bezier/entry-low/a-lower-cursive-bezier-entry-low.json)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RobinL/letterpaths**
+
+---
+
+### 398. [pravj/wordle-garden](https://github.com/pravj/wordle-garden)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: pravj/wordle-garden**
+
+---
+
+### 399. [smol-machines/smolvm](https://github.com/smol-machines/smolvm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: smol-machines/smolvm**
+
+---
+
+### 400. [asfaload/asfaload](https://github.com/asfaload/asfaload)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: asfaload/asfaload**
+
+---
+
+### 401. [electrodyssey/NASR-M](https://github.com/electrodyssey/NASR-M)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: electrodyssey/NASR-M**
+
+---
+
+### 402. [jamincan/numbrrs](https://github.com/jamincan/numbrrs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jamincan/numbrrs**
+
+---
+
+### 403. [getguesstimate/guesstimate-app](https://github.com/getguesstimate/guesstimate-app)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: getguesstimate/guesstimate-app**
+
+---
+
+### 404. [yusufaytas/yapress](https://github.com/yusufaytas/yapress)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: yusufaytas/yapress**
+
+---
+
+### 405. [topics/wasm2go](https://github.com/topics/wasm2go)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: topics/wasm2go**
+
+---
+
+### 406. [southlondonscientific/aeolus](https://github.com/southlondonscientific/aeolus)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: southlondonscientific/aeolus**
+
+---
+
+### 407. [TinyReasonLabs/vizQA](https://github.com/TinyReasonLabs/vizQA)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: TinyReasonLabs/vizQA**
+
+---
+
+### 408. [flippyhead/radar](https://github.com/flippyhead/radar)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: flippyhead/radar**
+
+---
+
+### 409. [tombedor/excalicharts](https://github.com/tombedor/excalicharts)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tombedor/excalicharts**
+
+---
+
+### 410. [samirkhoja/helm](https://github.com/samirkhoja/helm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: samirkhoja/helm**
+
+---
+
+### 411. [rndhouse/vcamper](https://github.com/rndhouse/vcamper)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rndhouse/vcamper**
+
+---
+
+### 412. [cztomsik/tokamak](https://github.com/cztomsik/tokamak)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cztomsik/tokamak**
+
+---
+
+### 413. [thepycoder/projectwhy-tts](https://github.com/thepycoder/projectwhy-tts)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: thepycoder/projectwhy-tts**
+
+---
+
+### 414. [johnwatson11218/LatentTopicExplorer](https://github.com/johnwatson11218/LatentTopicExplorer/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: johnwatson11218/LatentTopicExplorer**
+
+---
+
+### 415. [VectifyAI/OpenKB](https://github.com/VectifyAI/OpenKB)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: VectifyAI/OpenKB**
+
+---
+
+### 416. [DeclanChidlow/KOReader-Jellyfin-Plugin](https://github.com/DeclanChidlow/KOReader-Jellyfin-Plugin/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: DeclanChidlow/KOReader-Jellyfin-Plugin**
+
+---
+
+### 417. [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin/issues/5415)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jellyfin/jellyfin**
+
+---
+
+### 418. [Gavin-S-Dev/Better-Wii-Menu-DE](https://github.com/Gavin-S-Dev/Better-Wii-Menu-DE)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Gavin-S-Dev/Better-Wii-Menu-DE**
+
+---
+
+### 419. [opentalon/opentalon](https://github.com/opentalon/opentalon)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: opentalon/opentalon**
+
+---
+
+### 420. [ric03uec/clawrium](https://github.com/ric03uec/clawrium)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ric03uec/clawrium**
+
+---
+
+### 421. [mjsweet/intake-api](https://github.com/mjsweet/intake-api)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mjsweet/intake-api**
+
+---
+
+### 422. [Arthur-Ficial/apfel](https://github.com/Arthur-Ficial/apfel)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Arthur-Ficial/apfel**
+
+---
+
+### 423. [anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python/pull/830)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-agent-sdk-python**
+
+---
+
+### 424. [azais-corentin/oh-my-pi](https://github.com/azais-corentin/oh-my-pi/commit/6a74456f0ba90a3ddbe8cfc1100db7ddf001bd4c)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: azais-corentin/oh-my-pi**
+
+---
+
+### 425. [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman/tree/main)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: JuliusBrussee/caveman**
+
+---
+
+### 426. [AgusRdz/chop](https://github.com/AgusRdz/chop)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: AgusRdz/chop**
+
+---
+
+### 427. [accretional/chromerpc](https://github.com/accretional/chromerpc)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: accretional/chromerpc**
+
+---
+
+### 428. [ASIXicle/persMEM](https://github.com/ASIXicle/persMEM)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ASIXicle/persMEM**
+
+---
+
+### 429. [abi/lilo](https://github.com/abi/lilo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: abi/lilo**
+
+---
+
+### 430. [vanviegen/maca](https://github.com/vanviegen/maca#maca)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: vanviegen/maca**
+
+---
+
+### 431. [konovalov-nk/synaptra](https://github.com/konovalov-nk/synaptra/blob/main/docs/architecture/high-level-overview.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: konovalov-nk/synaptra**
+
+---
+
+### 432. [magiccreator-ai/awesome-gpt-image-2-prompts](https://github.com/magiccreator-ai/awesome-gpt-image-2-prompts)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: magiccreator-ai/awesome-gpt-image-2-prompts**
+
+---
+
+### 433. [jenissimo/unfake.js](https://github.com/jenissimo/unfake.js)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jenissimo/unfake.js**
+
+---
+
+### 434. [simonw/tools](https://github.com/simonw/tools/blob/main/python/openai_image.py)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: simonw/tools**
+
+---
+
+### 435. [alasano/gpt-image-playground](https://github.com/alasano/gpt-image-playground)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: alasano/gpt-image-playground**
+
+---
+
+### 436. [openai/openai-cookbook](https://github.com/openai/openai-cookbook/blob/main/examples/multimodal/image-gen-models-prompting-guide.ipynb)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: openai/openai-cookbook**
+
+---
+
+### 437. [mastodon/mastodon](https://github.com/mastodon/mastodon/issues/23153)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mastodon/mastodon**
+
+---
+
+### 438. [mastodon/mastodon](https://github.com/mastodon/mastodon/issues/19953)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mastodon/mastodon**
+
+---
+
+### 439. [wishstudio/flinux](https://github.com/wishstudio/flinux)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: wishstudio/flinux**
+
+---
+
+### 440. [jwilk/zygolophodon](https://github.com/jwilk/zygolophodon)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jwilk/zygolophodon**
+
+---
+
+### 441. [haileys/doslinux](https://github.com/haileys/doslinux)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: haileys/doslinux**
+
+---
+
+### 442. [jwilk/zygolophodon](https://github.com/jwilk/zygolophodon/compare/master...pabs3:zygolophodon:webext-old)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jwilk/zygolophodon**
+
+---
+
+### 443. [skeeto/w64devkit](https://github.com/skeeto/w64devkit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: skeeto/w64devkit**
+
+---
+
+### 444. [sleepyeldrazi/llm-design-showcase](https://github.com/sleepyeldrazi/llm-design-showcase)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sleepyeldrazi/llm-design-showcase**
+
+---
+
+### 445. [gdevenyi/huggingface-estimate](https://github.com/gdevenyi/huggingface-estimate)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: gdevenyi/huggingface-estimate**
+
+---
+
+### 446. [Blaizzy/mlx-vlm](https://github.com/Blaizzy/mlx-vlm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Blaizzy/mlx-vlm**
+
+---
+
+### 447. [AlexsJones/llmfit](https://github.com/AlexsJones/llmfit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: AlexsJones/llmfit**
+
+---
+
+### 448. [ROCm/ROCm](https://github.com/ROCm/ROCm/issues/5706)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ROCm/ROCm**
+
+---
+
+### 449. [HarbourMasters/Shipwright](https://github.com/HarbourMasters/Shipwright/issues/6232)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: HarbourMasters/Shipwright**
+
+---
+
+### 450. [warpdotdev/Warp](https://github.com/warpdotdev/Warp/issues/7182)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/Warp**
+
+---
+
+### 451. [milch/mistty](https://github.com/milch/mistty)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: milch/mistty**
+
+---
+
+### 452. [warpdotdev/warp](https://github.com/warpdotdev/warp/issues/9303)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/warp**
+
+---
+
+### 453. [warpdotdev/warp](https://github.com/warpdotdev/warp/pull/9438/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/warp**
+
+---
+
+### 454. [warpdotdev/warp](https://github.com/warpdotdev/warp/blob/d0f045c01bacbd845a631d07da30f277cfd2b98d/app/src/server/telemetry/events.rs)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: warpdotdev/warp**
+
+---
+
+### 455. [notque/vexjoy-agent](https://github.com/notque/vexjoy-agent/blob/main/skills/do/SKILL.md)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: notque/vexjoy-agent**
+
+---
+
+### 456. [notque/vexjoy-agent](https://github.com/notque/vexjoy-agent)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: notque/vexjoy-agent**
+
+---
+
+### 457. [chaosmaou/wivrn-guide](https://github.com/chaosmaou/wivrn-guide)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: chaosmaou/wivrn-guide**
+
+---
+
+### 458. [Marc1326/Anvil-Organizer](https://github.com/Marc1326/Anvil-Organizer)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Marc1326/Anvil-Organizer**
+
+---
+
+### 459. [Furglitch/modorganizer2-linux-installer](https://github.com/Furglitch/modorganizer2-linux-installer)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Furglitch/modorganizer2-linux-installer**
+
+---
+
+### 460. [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate/discussions/18431)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: blakeblackshear/frigate**
+
+---
+
+### 461. [HansKristian-Work/vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton/blob/master/libs/vkd3d/device.c#L605)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: HansKristian-Work/vkd3d-proton**
+
+---
+
+### 462. [limo-app/limo](https://github.com/limo-app/limo)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: limo-app/limo**
+
+---
+
+### 463. [zfigura/wine](https://github.com/zfigura/wine/blob/esync/README.esync)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zfigura/wine**
+
+---
+
+### 464. [ValveSoftware/Proton](https://github.com/ValveSoftware/Proton/wiki/Using-a-NTFS-disk-with-Linux-and-Windows)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ValveSoftware/Proton**
+
+---
+
+### 465. [mfinelli/modctl](https://github.com/mfinelli/modctl)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mfinelli/modctl**
+
+---
+
+### 466. [doitsujin/dxvk](https://github.com/doitsujin/dxvk/blob/master/src/util/config/config.cpp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: doitsujin/dxvk**
+
+---
+
+### 467. [sonic2kk/steamtinkerlaunch](https://github.com/sonic2kk/steamtinkerlaunch)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sonic2kk/steamtinkerlaunch**
+
+---
+
+### 468. [HansKristian-Work/vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton/tree/descriptor-heap-rebase)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: HansKristian-Work/vkd3d-proton**
+
+---
+
+### 469. [VDP89/fscars](https://github.com/VDP89/fscars)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: VDP89/fscars**
+
+---
+
+### 470. [antoinezambelli/forge](https://github.com/antoinezambelli/forge/blob/main/docs/USER_GUIDE.md#long-running-sessions-filtering-transient-messages)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: antoinezambelli/forge**
+
+---
+
+### 471. [bglusman/calciforge](https://github.com/bglusman/calciforge)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bglusman/calciforge**
+
+---
+
+### 472. [deevus/dokimasia](https://github.com/deevus/dokimasia)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: deevus/dokimasia**
+
+---
+
+### 473. [bglusman/wardwright](https://github.com/bglusman/wardwright)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: bglusman/wardwright**
+
+---
+
+### 474. [antoinezambelli/forge](https://github.com/antoinezambelli/forge/docs/results/dashboard.html)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: antoinezambelli/forge**
+
+---
+
+### 475. [567-labs/instructor](https://github.com/567-labs/instructor)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: 567-labs/instructor**
+
+---
+
+### 476. [dottxt-ai/outlines](https://github.com/dottxt-ai/outlines)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dottxt-ai/outlines**
+
+---
+
+### 477. [antoinezambelli/forge](https://github.com/antoinezambelli/forge/tree/main/docs/results)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: antoinezambelli/forge**
+
+---
+
+### 478. [antoinezambelli/forge](https://github.com/antoinezambelli/forge/tree/az/vllm)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: antoinezambelli/forge**
+
+---
+
+### 479. [zeldaret/tp](https://github.com/zeldaret/tp/pull/3155/changes)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: zeldaret/tp**
+
+---
+
+### 480. [smorinlabs/claude-fusion-launcher](https://github.com/smorinlabs/claude-fusion-launcher)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: smorinlabs/claude-fusion-launcher**
+
+---
+
+### 481. [Ceroxylon/konsensis](https://github.com/Ceroxylon/konsensis)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Ceroxylon/konsensis**
+
+---
+
+### 482. [lightless-labs/refinery](https://github.com/lightless-labs/refinery)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: lightless-labs/refinery**
+
+---
+
+### 483. [Lightless-Labs/skunkworks](https://github.com/Lightless-Labs/skunkworks/tree/main/flux)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Lightless-Labs/skunkworks**
+
+---
+
+### 484. [monkeydust/rightmind](https://github.com/monkeydust/rightmind)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: monkeydust/rightmind**
+
+---
+
+### 485. [aiortc/aiortc](https://github.com/aiortc/aiortc)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: aiortc/aiortc**
+
+---
+
+### 486. [flipbit03/terminal-use](https://github.com/flipbit03/terminal-use)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: flipbit03/terminal-use**
+
+---
+
+### 487. [Locus Founder — the agentic business OS](https://app.locusfounder.com/start/idea)
 `6.0` ★ ⚡61 Q18.3✓ ✓ Solid
 
 **Locus Founder is the agentic business OS. Spin up a business, ship a site, run outbound, and grow — all driven by your agent.**
@@ -1288,7 +3647,7 @@
 
 ---
 
-### 151. [The future of email | Fastmail](https://www.fastmail.com/blog/the-future-of-email/)
+### 488. [The future of email | Fastmail](https://www.fastmail.com/blog/the-future-of-email/)
 `6.0` ★ ⚡61 Q18.3✓ ✓ Solid
 
 **As AI starts reading and actioning our inboxes, email authentication becomes the trust layer that the future of email depends on.**
@@ -1297,161 +3656,287 @@
 
 ---
 
-### 152. [https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718](https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718)
+### 489. [https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permal](https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permalink_comment_id=6112178#gistcomment-6112178)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permalink_comment_id=6112178#gistcomment-6112178**
+
+---
+
+### 490. [https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permal](https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permalink_comment_id=6112150#gistcomment-6112150)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/simonw/88eecc65698a725d8a9c1c918478ac41?permalink_comment_id=6112150#gistcomment-6112150**
+
+---
+
+### 491. [https://gist.github.com/simonw/95735fe5e76e6fdf1753e6dcce360699?permal](https://gist.github.com/simonw/95735fe5e76e6fdf1753e6dcce360699?permalink_comment_id=6113828#gistcomment-6113828)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/simonw/95735fe5e76e6fdf1753e6dcce360699?permalink_comment_id=6113828#gistcomment-6113828**
+
+---
+
+### 492. [https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398ea](https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128743#gistcomment-6128743)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128743#gistcomment-6128743**
+
+---
+
+### 493. [https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398ea](https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731#gistcomment-6128731)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128731#gistcomment-6128731**
+
+---
+
+### 494. [https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398ea](https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128738#gistcomment-6128738)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128738#gistcomment-6128738**
+
+---
+
+### 495. [https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398ea](https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716#gistcomment-6128716)
+`8.0` ★ ⚡52 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/SerJaimeLannister/f6de26bd0d0817e0563e8c1398eac655?permalink_comment_id=6128716#gistcomment-6128716**
+
+---
+
+### 496. [https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718](https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718**
 
 ---
 
-### 153. [https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c](https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c)
+### 497. [https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c](https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c**
 
 ---
 
-### 154. [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+### 498. [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f**
 
 ---
 
-### 155. [https://github.com/supertone-](https://github.com/supertone-)
+### 499. [https://github.com/supertone-](https://github.com/supertone-)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://github.com/supertone-**
 
 ---
 
-### 156. [https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928](https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928)
+### 500. [https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928](https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928**
 
 ---
 
-### 157. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)
+### 501. [https://gist.github.com/shawwn/56d9f2e3f8f662825c977e6e5d0bfc08](https://gist.github.com/shawwn/56d9f2e3f8f662825c977e6e5d0bfc08)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/shawwn/56d9f2e3f8f662825c977e6e5d0bfc08**
+
+---
+
+### 502. [https://gist.github.com/shawwn/29ed856d020a0131830aec6b3bc29dc9](https://gist.github.com/shawwn/29ed856d020a0131830aec6b3bc29dc9)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/shawwn/29ed856d020a0131830aec6b3bc29dc9**
+
+---
+
+### 503. [https://gist.github.com/vgalin/a9c852605f39ab503f167c9708a46466](https://gist.github.com/vgalin/a9c852605f39ab503f167c9708a46466)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/vgalin/a9c852605f39ab503f167c9708a46466**
+
+---
+
+### 504. [https://www.github.com/neuvem/java2graph](https://www.github.com/neuvem/java2graph)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://www.github.com/neuvem/java2graph**
+
+---
+
+### 505. [https://gist.github.com/paulshomo/69cf99e3185fa7ad0f50fc0e38bcd424](https://gist.github.com/paulshomo/69cf99e3185fa7ad0f50fc0e38bcd424)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/paulshomo/69cf99e3185fa7ad0f50fc0e38bcd424**
+
+---
+
+### 506. [https://gist.github.com/Wowfunhappy/53a7fd64a855da492f65b4ca73c8fe0d](https://gist.github.com/Wowfunhappy/53a7fd64a855da492f65b4ca73c8fe0d)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**https://gist.github.com/Wowfunhappy/53a7fd64a855da492f65b4ca73c8fe0d**
+
+---
+
+### 507. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **colab.research.google.com**
 
 ---
 
-### 158. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)_Reinforcement_Learning_Sudoku_Game.ipynb)
+### 508. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)_Reinforcement_Learning_Sudoku_Game.ipynb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **colab.research.google.com**
 
 ---
 
-### 159. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.git/plugin)
+### 509. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.git/plugin)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gitlab.com**
 
 ---
 
-### 160. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.gitThen)
+### 510. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.gitThen)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gitlab.com**
 
 ---
 
-### 161. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/)
+### 511. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fxgears.com**
 
 ---
 
-### 162. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-tick-and-bar-price-data-for-backtesting-in-2020-and-beyond-stocks-forex-and-crypto-currency.1229/)
+### 512. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-tick-and-bar-price-data-for-backtesting-in-2020-and-beyond-stocks-forex-and-crypto-currency.1229/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fxgears.com**
 
 ---
 
-### 163. [git.teknik.io](https://git.teknik.io/SMLoadrDev/SMLoadr)
+### 513. [git.teknik.io](https://git.teknik.io/SMLoadrDev/SMLoadr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **git.teknik.io**
 
 ---
 
-### 164. [raw.githubusercontent.com](https://raw.githubusercontent.com/asabya/picobrain/main/install)
+### 514. [raw.githubusercontent.com](https://raw.githubusercontent.com/asabya/picobrain/main/install)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **raw.githubusercontent.com**
 
 ---
 
-### 165. [medium.com](https://medium.com/@lukasniessen/how-my-library-hit-400-github-stars-and-50k-monthly-downloads-6ed47b293262)
+### 515. [medium.com](https://medium.com/@lukasniessen/how-my-library-hit-400-github-stars-and-50k-monthly-downloads-6ed47b293262)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 166. [everydev.ai](https://www.everydev.ai/p/news-github-copilots-billing-overhaul-what-every-credit-actually-costs-you)
+### 516. [everydev.ai](https://www.everydev.ai/p/news-github-copilots-billing-overhaul-what-every-credit-actually-costs-you)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **everydev.ai**
 
 ---
 
-### 167. [williamdue.github.io](https://williamdue.github.io/blog/parallel-parentheses-matching)
+### 517. [williamdue.github.io](https://williamdue.github.io/blog/parallel-parentheses-matching)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **williamdue.github.io**
 
 ---
 
-### 168. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
+### 518. [pchalasani.github.io](https://pchalasani.github.io/claude-code-tools/integrations/local-llms/#gemma-4-26b-a4b--google-moe-with-vision)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**pchalasani.github.io**
+
+---
+
+### 519. [hypothesi.github.io](https://hypothesi.github.io/mcp-server-tauri/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hypothesi.github.io**
+
+---
+
+### 520. [developer.apple.com](https://developer.apple.com/documentation/screentime)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developer.apple.com**
+
+---
+
+### 521. [cloudkj.github.io](https://cloudkj.github.io/lambda-autodiff/doc/examples/gpt/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**cloudkj.github.io**
+
+---
+
+### 522. [petergpt.github.io](https://petergpt.github.io/bullshit-benchmark/viewer/index.v2.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**petergpt.github.io**
+
+---
+
+### 523. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Github Projects Community Cocoindex Turns Your**
 
 ---
 
-### 169. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
+### 524. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Github Blaziumgamesyadms Yet Another Desktop**
 
 ---
 
-### 170. [My Github Star Just Crossed 6666](https://www.reddit.com/r/vibeprinting/comments/1tmdjzo/my_github_star_just_crossed_6666/)
+### 525. [My Github Star Just Crossed 6666](https://www.reddit.com/r/vibeprinting/comments/1tmdjzo/my_github_star_just_crossed_6666/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **My Github Star Just Crossed 6666**
 
 ---
 
-### 171. [Hugo Just Hit 88000 Github Stars](https://www.reddit.com/r/gohugo/comments/1tm18so/hugo_just_hit_88000_github_stars/)
+### 526. [Hugo Just Hit 88000 Github Stars](https://www.reddit.com/r/gohugo/comments/1tm18so/hugo_just_hit_88000_github_stars/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hugo Just Hit 88000 Github Stars**
 
 ---
 
-### 172. [Turn Any Github Repository Into An Interactive](https://www.reddit.com/r/mcp/comments/1tpehrx/turn_any_github_repository_into_an_interactive/)
+### 527. [Turn Any Github Repository Into An Interactive](https://www.reddit.com/r/mcp/comments/1tpehrx/turn_any_github_repository_into_an_interactive/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Turn Any Github Repository Into An Interactive**
 
 ---
 
-### 173. [Four Llms Played A Bluffing Game Against Each](https://www.reddit.com/r/coolgithubprojects/comments/1tpg7a2/four_llms_played_a_bluffing_game_against_each/)
+### 528. [Four Llms Played A Bluffing Game Against Each](https://www.reddit.com/r/coolgithubprojects/comments/1tpg7a2/four_llms_played_a_bluffing_game_against_each/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Four Llms Played A Bluffing Game Against Each**
 
 ---
 
-### 174. [If Xiaomi Mimo Can Reach Opus46 Level Model Are](https://www.reddit.com/r/GithubCopilot/comments/1u4q19a/if_xiaomi_mimo_can_reach_opus46_level_model_are/)
+### 529. [If Xiaomi Mimo Can Reach Opus46 Level Model Are](https://www.reddit.com/r/GithubCopilot/comments/1u4q19a/if_xiaomi_mimo_can_reach_opus46_level_model_are/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If Xiaomi Mimo Can Reach Opus46 Level Model Are**
@@ -1459,7 +3944,7 @@
 ---
 
 ## Bridges & Proxies
-> 126 tools · avg signal ⚡88
+> 127 tools · avg signal ⚡88
 
 ### 1. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -3609,8 +6094,15 @@
 
 ---
 
+### 127. [davidventura/offline-translator](https://github.com/davidventura/offline-translator)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: davidventura/offline-translator**
+
+---
+
 ## Config & Profile Management
-> 114 tools · avg signal ⚡88
+> 115 tools · avg signal ⚡88
 
 ### 1. [wanzunz/github_graphql_api_mcp](https://github.com/wanzunz/github_graphql_api_mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -5552,8 +8044,15 @@
 
 ---
 
+### 115. [alimoeeny/claude-profiles](https://github.com/alimoeeny/claude-profiles)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: alimoeeny/claude-profiles**
+
+---
+
 ## Monitoring & Analytics
-> 71 tools · avg signal ⚡89
+> 76 tools · avg signal ⚡87
 
 ### 1. [trypeggy/facebook-ads-library-mcp](https://github.com/trypeggy/facebook-ads-library-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -6798,7 +9297,35 @@
 
 ---
 
-### 71. [I'm So Tired of Ads | Absurd Pirate's Internet Blog](https://blog.absurdpirate.com/im-so-tired-of-ads/)
+### 71. [dchuk/source_monitor](https://github.com/dchuk/source_monitor)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: dchuk/source_monitor**
+
+---
+
+### 72. [flowlogix/flowlogix](https://github.com/flowlogix/flowlogix)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: flowlogix/flowlogix**
+
+---
+
+### 73. [tirrenotechnologies/tirreno](https://github.com/tirrenotechnologies/tirreno)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: tirrenotechnologies/tirreno**
+
+---
+
+### 74. [Frytskyy/Jedi-DevOps-Uptime-Monitor-Plus](https://github.com/Frytskyy/Jedi-DevOps-Uptime-Monitor-Plus)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Frytskyy/Jedi-DevOps-Uptime-Monitor-Plus**
+
+---
+
+### 75. [I'm So Tired of Ads | Absurd Pirate's Internet Blog](https://blog.absurdpirate.com/im-so-tired-of-ads/)
 `5.0` ★ ⚡61 Q0.7✓ ✓ Solid
 
 **This resource explores the pervasive issue of intrusive advertising, detailing how ads interrupt daily routines like commuting, streaming, and even personal correspondence. It highlights the user experience degradation when ads interfere with desired content or communication, leading to a feeling of being 'tired' of the constant ad bombardment.**
@@ -6813,8 +9340,15 @@
 
 ---
 
+### 76. [github.blog](https://github.blog/changelog/2026-04-16-claude-opus-4-7-is-generally-available/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**github.blog**
+
+---
+
 ## Spec-Driven Development
-> 62 tools · avg signal ⚡87
+> 63 tools · avg signal ⚡87
 
 ### 1. [ckanthony/openapi-mcp](https://github.com/ckanthony/openapi-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -7856,7 +10390,14 @@
 
 ---
 
-### 62. [https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi](https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json)
+### 62. [backnotprop/plannotator](https://github.com/backnotprop/plannotator)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: backnotprop/plannotator**
+
+---
+
+### 63. [https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi](https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json)
 `8.0` ★ ⚡52 Q0.6✓ ✓ Solid
 
 **https://api.apis.guru/v2/specs/github.com/api.github.com/1.1.4/openapi.json**
@@ -7864,7 +10405,7 @@
 ---
 
 ## Skill Systems
-> 56 tools · avg signal ⚡88
+> 60 tools · avg signal ⚡87
 
 ### 1. [nicobailon/code-summarizer](https://github.com/nicobailon/code-summarizer)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -8806,8 +11347,36 @@
 
 ---
 
+### 57. [agilek/wireframer-skill](https://github.com/agilek/wireframer-skill)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: agilek/wireframer-skill**
+
+---
+
+### 58. [craigmccaskill/todoist-cli](https://github.com/craigmccaskill/todoist-cli/)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: craigmccaskill/todoist-cli**
+
+---
+
+### 59. [SnakeO/claude-co-commands](https://github.com/SnakeO/claude-co-commands)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: SnakeO/claude-co-commands**
+
+---
+
+### 60. [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/blob/f504276d8e074912f4763e6163b436a4ffc74d0d/skills/using-agent-skills/SKILL.md?plain=1#L2)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: addyosmani/agent-skills**
+
+---
+
 ## Orchestration
-> 52 tools · avg signal ⚡88
+> 53 tools · avg signal ⚡88
 
 ### 1. [flatfilers/mcp-server-flatfile](https://github.com/flatfilers/mcp-server-flatfile)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -9679,8 +12248,15 @@
 
 ---
 
+### 53. [jhartwell/dispatch](https://github.com/jhartwell/dispatch)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: jhartwell/dispatch**
+
+---
+
 ## Governance & Safety
-> 35 tools · avg signal ⚡89
+> 37 tools · avg signal ⚡87
 
 ### 1. [robotocore/robotocore](https://github.com/robotocore/robotocore)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -10295,8 +12871,22 @@
 
 ---
 
+### 36. [coplane/localsandbox](https://github.com/coplane/localsandbox)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: coplane/localsandbox**
+
+---
+
+### 37. [Harperbot/metal-guard](https://github.com/Harperbot/metal-guard#landed-here-searching-for-one-of-these-youre-in-the-right-place)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Harperbot/metal-guard**
+
+---
+
 ## Harness Frameworks
-> 27 tools · avg signal ⚡87
+> 29 tools · avg signal ⚡85
 
 ### 1. [bradfair/mcp-cline-personas](https://github.com/bradfair/mcp-cline-personas)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -10739,6 +13329,392 @@
 
 ---
 
+### 28. [notque/claude-code-toolkit](https://github.com/notque/claude-code-toolkit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: notque/claude-code-toolkit**
+
+---
+
+### 29. [RealEstateWebTools/emdash_property_web_builder](https://github.com/RealEstateWebTools/emdash_property_web_builder)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: RealEstateWebTools/emdash_property_web_builder**
+
+---
+
+## Verification & Testing
+> 28 tools · avg signal ⚡78
+
+### 1. [melbourneandrew/docs2prompt-mcp](https://github.com/melbourneandrew/docs2prompt-mcp)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+
+**docs2prompt is a Python library designed to enhance developer productivity by transforming documentation from GitHub repositories into structured, AI-ready prompts. This tool supports integration with various MCP clients such as Cursor, Claude, and Windsurf, enabling developers to generate intelligent applications quickly. It emphasizes modern development practices, including CI/CD pipelines, secure coding, and automated workflows.**
+
+**Features:**
+- GitHub API integration
+- LLM prompt generation
+- Code review automation
+- CI/CD support
+- Secure code practices
+
+*Tags: github, docs2prompt, ai, developer, prompt, code, security, mcp...*
+
+---
+
+### 2. [jagreetdg/re-stack-mcp](https://github.com/jagreetdg/re-stack-mcp)
+`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The Re-Stack MCP Server addresses the limitation of LLMs lacking real-time access to new Stack Overflow content by providing developers with live, up-to-date solutions. It enables prompting users to post questions when encountering undocumented issues and encourages contributions after problem resolution. The server supports key features such as reading Stack Exchange questions, fetching answers, managing tags, and integrating OAuth authentication for secure interactions.**
+
+**Features:**
+- Real-time Stack Overflow access in LLM-based coding environments
+- Prompting users to post questions on undocumented issues
+- Encouraging developer contributions after problem resolution
+- Dynamic fetching of latest answers from Stack Overflow
+- OAuth 2.0 authentication for secure interactions
+
+*Tags: stackoverflow, stackexchange, api, developer, llm, coding, integration, security...*
+
+---
+
+### 3. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The Flomo-mcp project provides a GitHub-based platform designed to streamline software development processes by integrating advanced workflow automation, code review, security checks, and deployment capabilities. It supports enterprise-level features such as customizable workflows, automated code analysis, and integration with external tools, making it suitable for modern DevOps and CI/CD pipelines.**
+
+**Features:**
+- code review
+- security scanning
+- workflow automation
+- integration with external tools
+- CI/CD support
+
+*Tags: flomo, github, devops, security, ci, automation, integration, code...*
+
+---
+
+### 4. [aperture147/exa-mcp-worker](https://github.com/aperture147/exa-mcp-worker)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**The 'Borg' Project offers a comprehensive open-source platform designed to streamline software development workflows. It integrates advanced code review tools, automated CI/CD pipelines, enterprise-grade security features, and developer productivity enhancements. The project emphasizes modern DevOps practices, enabling teams to modernize their infrastructure while maintaining robust application security.**
+
+**Features:**
+- code review
+- automated workflows
+- security integration
+- CI/CD support
+- developer collaboration
+
+*Tags: github, developer, ai, security, devops, cicd, code, release...*
+
+---
+
+### 5. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The project provides a GitHub-hosted platform that leverages AI to generate images based on user prompts. It integrates with development workflows, offering features such as code review, security scanning, and deployment support. The tool emphasizes automation, enabling developers to streamline tasks like code generation, application security, and CI/CD processes.**
+
+**Features:**
+- image generation
+- code review
+- security scanning
+- CI/CD integration
+- automation
+
+*Tags: ai, developer, image-generation, security, cicd, automation, generative, code...*
+
+---
+
+### 6. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗4 layers
+
+**The namin/livecode-mcp project provides a GitHub-hosted solution to run io.livecode.ch as an MCP (Machine Control Protocol) server, enabling developers to integrate live coding environments into automated workflows. It supports code execution, workflow automation, and integration with external tools, enhancing DevOps and CI/CD processes.**
+
+**Features:**
+- Run io.livecode.ch as an MCP server
+- Automate workflows
+- Integrate with external tools
+- Support for Code Review
+- Security features
+
+*Tags: livecode, mcp, automation, devops, cicd, security, integration, workflow...*
+
+---
+
+### 7. [fefergrgrgrg/insight](https://github.com/fefergrgrgrg/insight)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The Borg project provides an open-source Insight blockchain explorer with a modern AngularJS front-end and LevelDB backend. It offers REST and WebSocket APIs, enabling developers to integrate it into applications for real-time blockchain data access. The tool supports automation, code review, security features, and enterprise-grade deployment options.**
+
+**Features:**
+- REST and websocket APIs
+- AngularJS front-end
+- LevelDB storage
+- Code review and security features
+- Automation tools and CI/CD integration
+
+*Tags: insight, blockchain, developer, api, webapp, nodejs, angular, leveldb...*
+
+---
+
+### 8. [davidkingzyb/scast](https://github.com/davidkingzyb/scast)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**SCAST leverages parsing techniques to analyze source code, generating visual representations such as UML diagrams and flowcharts. This enables developers to better understand code structure, identify potential issues, and improve maintainability. The tool supports multiple programming languages and integrates with AI-driven insights for enhanced code review.**
+
+**Features:**
+- Static code analysis
+- UML diagram generation
+- Flowchart visualization
+- Code quality assessment
+- Integration with Mermaid and D3
+
+*Tags: codeanalysis, visualization, staticcode, developertools, aiintegration, security, mvc, devsupport...*
+
+---
+
+### 9. [cr2007/mcp-wordle-go](https://github.com/cr2007/mcp-wordle-go)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The project implements a lightweight MCP server in Go to retrieve Wordle answers using the official Wordle API. It automates the process of fetching and displaying Wordle results, supporting integration with cloud environments and Docker containers for scalability. The solution emphasizes security, code quality, and developer workflow automation.**
+
+**Features:**
+- Wordle solution retrieval via API
+- Docker container integration
+- Code generation and review support
+- Automated workflows and CI/CD compatibility
+- Secure handling of credentials and data
+
+*Tags: wordle-solution, wordle-api, mcp-servers, developer-tools, ai-integration, security-features, docker, go-development...*
+
+---
+
+### 10. [google-research/timesfm](https://github.com/google-research/timesfm)
+`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
+↗2 layers
+
+**TimesFM is a state-of-the-art, pretrained time-series foundation model developed by Google Research. It leverages advanced deep learning techniques to efficiently forecast future values in sequential data. The model supports continuous quantile forecasting and integrates seamlessly with various workflows for automated predictions and decision-making.**
+
+**Features:**
+- Time series forecasting
+- Continuous quantile forecasting
+- Covariate support via XReg
+- Fine-tuning with LoRA
+- Unit tests and documentation
+
+*Tags: timesfm, time-series, forecasting, machine-learning, ai, data-science, predictive-analytics, model-deployment...*
+
+---
+
+### 11. [davlgd/mcp-clever-demo](https://github.com/davlgd/mcp-clever-demo)
+`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The davlgd/mcp-clever-demo project provides a local MCP server that allows developers to interact with Clever Cloud's tools via the MCP SDK. It supports various use cases such as code review, security audits, and application integration, making it suitable for modern DevOps and CI/CD workflows.**
+
+**Features:**
+- code review
+- security scanning
+- application integration
+- automation
+- CI/CD support
+
+*Tags: mcp, clevercloud, developer, security, cicdp, codeanalysis, integration, automation...*
+
+---
+
+### 12. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)
+`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
+↗3 layers
+
+**The dwrtz/mcpterm project offers a powerful MCP (Multi-Process Communication) tool server that enables developers to create interactive terminal sessions. This tool is particularly useful for testing and debugging applications in a controlled environment, supporting features like code execution, debugging, and integration with AI tools such as CodeCopilot.**
+
+**Features:**
+- stateful terminal sessions
+- TUI compatibility
+- code execution
+- debugging support
+
+*Tags: mcp, terminal, developer, ai, code, integration, testing, devops...*
+
+---
+
+### 13. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗3 layers
+
+**The MCP tool facilitates the automation of Android project builds, integrates with development environments like Visual Studio Code, and offers real-time error reporting to AI models. It supports various stages from code execution to feedback generation, enhancing developer productivity and code quality.**
+
+**Features:**
+- Android project building
+- Error feedback to LLMs
+- Integration with VS Code extensions
+- Support for unit and instrumented tests
+
+*Tags: mcp, androidbuild, developer-tools, ai-integration, code-quality, continuous-integration*
+
+---
+
+### 14. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗4 layers
+
+**The project provides a GitHub-based solution to streamline and automate development workflows, leveraging GitHub Actions for CI/CD integration. It supports code review, security checks, and deployment processes, making it suitable for modern software development practices.**
+
+**Features:**
+- code review
+- security scanning
+- automated testing
+- workflow automation
+
+*Tags: github, githubactions, ci, devops, security, codequality*
+
+---
+
+### 15. [szge/lolwiki-mcp](https://github.com/szge/lolwiki-mcp)
+`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP server automates the retrieval of the latest statistics and details about champions, runes, items, and monsters directly from the official League of Legends wiki. This ensures that users have access to the most current and accurate information without manual updates.**
+
+**Features:**
+- Fetch real-time data from LoL Wiki
+- Automate data retrieval
+- Maintain up-to-date information
+- Integrate with MCP platform
+
+*Tags: mcp, api, gameinfo, wiki, datafetch, automation, integration, updates...*
+
+---
+
+### 16. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)
+`8.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal journey from writing software to embracing AI tools, highlighting both opportunities and concerns around automation, economic impact, and the future of work.**
+
+**Features:**
+- Testing UTF-8 support in linenoise library
+- Fixing transient failures in Redis tests
+- Creating a C library for BERT-like embedding inference
+- Developing a Python tool to convert GTE-small model
+
+*Tags: ai-integration, software-development, programming-tools, code-optimization, redis, bert-models, open-source, testing-frameworks...*
+
+---
+
+### 17. [Tenki|Faster GitHub Actions Runners & AI Code Reviewer](https://www.tenki.cloud)
+`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗2 layers
+
+**A high-performance CI/CD infrastructure platform offering bare-metal GitHub Actions runners and an integrated AI agent that reviews full codebases during Pull Requests.**
+
+**Features:**
+- Bare-metal GitHub Actions runners (35% faster)
+- automated AI Pull Request code reviewer
+- drop-in YAML replacement wizard
+- 50% CI cost reduction.
+
+*Tags: ci-cd, github-actions, code-review, automation, dev-tools, artificial-intelligence, cloud, github...*
+
+---
+
+### 18. [codex](https://chatgpt.com/codex)
+`8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
+↗5 layers
+
+**The Codex platform integrates with various AI models to assist developers in building, testing, and deploying code efficiently. It supports multiple workflows including code generation, review, documentation, and automation of repetitive tasks such as pull requests, issue triage, and CI/CD processes.**
+
+**Features:**
+- AI-powered coding assistance
+- Automated PR reviews
+- Code understanding and prototyping
+- Documentation generation
+- Integration with Slack and other tools
+
+*Tags: ai, codex, agentic-coding, developer-tools, software-development, automation, code-review, integration...*
+
+---
+
+### 19. [adam-s/testing-claude-agent](https://github.com/adam-s/testing-claude-agent)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: adam-s/testing-claude-agent**
+
+---
+
+### 20. [alibaba/terminal-bench-pro](https://github.com/alibaba/terminal-bench-pro)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: alibaba/terminal-bench-pro**
+
+---
+
+### 21. [computesdk/benchmarks](https://github.com/computesdk/benchmarks/pull/41)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: computesdk/benchmarks**
+
+---
+
+### 22. [computesdk/benchmarks](https://github.com/computesdk/benchmarks)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: computesdk/benchmarks**
+
+---
+
+### 23. [voicetestdev/voicetest](https://github.com/voicetestdev/voicetest)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: voicetestdev/voicetest**
+
+---
+
+### 24. [reviews-kits-team/reviews-kits](https://github.com/reviews-kits-team/reviews-kits)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: reviews-kits-team/reviews-kits**
+
+---
+
+### 25. [webcoyote/AppTestCircuit](https://github.com/webcoyote/AppTestCircuit)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: webcoyote/AppTestCircuit**
+
+---
+
+### 26. [antoineMoPa/moonreview](https://github.com/antoineMoPa/moonreview)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: antoineMoPa/moonreview**
+
+---
+
+### 27. [Camil-H/cli-agent-lint](https://github.com/Camil-H/cli-agent-lint)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: Camil-H/cli-agent-lint**
+
+---
+
+### 28. [sleepyeldrazi/llm_programming_tests](https://github.com/sleepyeldrazi/llm_programming_tests)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sleepyeldrazi/llm_programming_tests**
+
+---
+
 ## Hooks & Lifecycle
 > 22 tools · avg signal ⚡89
 
@@ -11129,310 +14105,8 @@
 
 ---
 
-## Verification & Testing
-> 18 tools · avg signal ⚡86
-
-### 1. [melbourneandrew/docs2prompt-mcp](https://github.com/melbourneandrew/docs2prompt-mcp)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-
-**docs2prompt is a Python library designed to enhance developer productivity by transforming documentation from GitHub repositories into structured, AI-ready prompts. This tool supports integration with various MCP clients such as Cursor, Claude, and Windsurf, enabling developers to generate intelligent applications quickly. It emphasizes modern development practices, including CI/CD pipelines, secure coding, and automated workflows.**
-
-**Features:**
-- GitHub API integration
-- LLM prompt generation
-- Code review automation
-- CI/CD support
-- Secure code practices
-
-*Tags: github, docs2prompt, ai, developer, prompt, code, security, mcp...*
-
----
-
-### 2. [jagreetdg/re-stack-mcp](https://github.com/jagreetdg/re-stack-mcp)
-`8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The Re-Stack MCP Server addresses the limitation of LLMs lacking real-time access to new Stack Overflow content by providing developers with live, up-to-date solutions. It enables prompting users to post questions when encountering undocumented issues and encourages contributions after problem resolution. The server supports key features such as reading Stack Exchange questions, fetching answers, managing tags, and integrating OAuth authentication for secure interactions.**
-
-**Features:**
-- Real-time Stack Overflow access in LLM-based coding environments
-- Prompting users to post questions on undocumented issues
-- Encouraging developer contributions after problem resolution
-- Dynamic fetching of latest answers from Stack Overflow
-- OAuth 2.0 authentication for secure interactions
-
-*Tags: stackoverflow, stackexchange, api, developer, llm, coding, integration, security...*
-
----
-
-### 3. [chatmcp/flomo-mcp](https://github.com/chatmcp/flomo-mcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The Flomo-mcp project provides a GitHub-based platform designed to streamline software development processes by integrating advanced workflow automation, code review, security checks, and deployment capabilities. It supports enterprise-level features such as customizable workflows, automated code analysis, and integration with external tools, making it suitable for modern DevOps and CI/CD pipelines.**
-
-**Features:**
-- code review
-- security scanning
-- workflow automation
-- integration with external tools
-- CI/CD support
-
-*Tags: flomo, github, devops, security, ci, automation, integration, code...*
-
----
-
-### 4. [aperture147/exa-mcp-worker](https://github.com/aperture147/exa-mcp-worker)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**The 'Borg' Project offers a comprehensive open-source platform designed to streamline software development workflows. It integrates advanced code review tools, automated CI/CD pipelines, enterprise-grade security features, and developer productivity enhancements. The project emphasizes modern DevOps practices, enabling teams to modernize their infrastructure while maintaining robust application security.**
-
-**Features:**
-- code review
-- automated workflows
-- security integration
-- CI/CD support
-- developer collaboration
-
-*Tags: github, developer, ai, security, devops, cicd, code, release...*
-
----
-
-### 5. [devbrother2024/mcp-generate-image](https://github.com/devbrother2024/mcp-generate-image)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The project provides a GitHub-hosted platform that leverages AI to generate images based on user prompts. It integrates with development workflows, offering features such as code review, security scanning, and deployment support. The tool emphasizes automation, enabling developers to streamline tasks like code generation, application security, and CI/CD processes.**
-
-**Features:**
-- image generation
-- code review
-- security scanning
-- CI/CD integration
-- automation
-
-*Tags: ai, developer, image-generation, security, cicd, automation, generative, code...*
-
----
-
-### 6. [namin/livecode-mcp](https://github.com/namin/livecode-mcp)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗4 layers
-
-**The namin/livecode-mcp project provides a GitHub-hosted solution to run io.livecode.ch as an MCP (Machine Control Protocol) server, enabling developers to integrate live coding environments into automated workflows. It supports code execution, workflow automation, and integration with external tools, enhancing DevOps and CI/CD processes.**
-
-**Features:**
-- Run io.livecode.ch as an MCP server
-- Automate workflows
-- Integrate with external tools
-- Support for Code Review
-- Security features
-
-*Tags: livecode, mcp, automation, devops, cicd, security, integration, workflow...*
-
----
-
-### 7. [fefergrgrgrg/insight](https://github.com/fefergrgrgrg/insight)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The Borg project provides an open-source Insight blockchain explorer with a modern AngularJS front-end and LevelDB backend. It offers REST and WebSocket APIs, enabling developers to integrate it into applications for real-time blockchain data access. The tool supports automation, code review, security features, and enterprise-grade deployment options.**
-
-**Features:**
-- REST and websocket APIs
-- AngularJS front-end
-- LevelDB storage
-- Code review and security features
-- Automation tools and CI/CD integration
-
-*Tags: insight, blockchain, developer, api, webapp, nodejs, angular, leveldb...*
-
----
-
-### 8. [davidkingzyb/scast](https://github.com/davidkingzyb/scast)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**SCAST leverages parsing techniques to analyze source code, generating visual representations such as UML diagrams and flowcharts. This enables developers to better understand code structure, identify potential issues, and improve maintainability. The tool supports multiple programming languages and integrates with AI-driven insights for enhanced code review.**
-
-**Features:**
-- Static code analysis
-- UML diagram generation
-- Flowchart visualization
-- Code quality assessment
-- Integration with Mermaid and D3
-
-*Tags: codeanalysis, visualization, staticcode, developertools, aiintegration, security, mvc, devsupport...*
-
----
-
-### 9. [cr2007/mcp-wordle-go](https://github.com/cr2007/mcp-wordle-go)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The project implements a lightweight MCP server in Go to retrieve Wordle answers using the official Wordle API. It automates the process of fetching and displaying Wordle results, supporting integration with cloud environments and Docker containers for scalability. The solution emphasizes security, code quality, and developer workflow automation.**
-
-**Features:**
-- Wordle solution retrieval via API
-- Docker container integration
-- Code generation and review support
-- Automated workflows and CI/CD compatibility
-- Secure handling of credentials and data
-
-*Tags: wordle-solution, wordle-api, mcp-servers, developer-tools, ai-integration, security-features, docker, go-development...*
-
----
-
-### 10. [google-research/timesfm](https://github.com/google-research/timesfm)
-`8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
-↗2 layers
-
-**TimesFM is a state-of-the-art, pretrained time-series foundation model developed by Google Research. It leverages advanced deep learning techniques to efficiently forecast future values in sequential data. The model supports continuous quantile forecasting and integrates seamlessly with various workflows for automated predictions and decision-making.**
-
-**Features:**
-- Time series forecasting
-- Continuous quantile forecasting
-- Covariate support via XReg
-- Fine-tuning with LoRA
-- Unit tests and documentation
-
-*Tags: timesfm, time-series, forecasting, machine-learning, ai, data-science, predictive-analytics, model-deployment...*
-
----
-
-### 11. [davlgd/mcp-clever-demo](https://github.com/davlgd/mcp-clever-demo)
-`8.8` ★ ⚡86 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The davlgd/mcp-clever-demo project provides a local MCP server that allows developers to interact with Clever Cloud's tools via the MCP SDK. It supports various use cases such as code review, security audits, and application integration, making it suitable for modern DevOps and CI/CD workflows.**
-
-**Features:**
-- code review
-- security scanning
-- application integration
-- automation
-- CI/CD support
-
-*Tags: mcp, clevercloud, developer, security, cicdp, codeanalysis, integration, automation...*
-
----
-
-### 12. [dwrtz/mcpterm](https://github.com/dwrtz/mcpterm)
-`8.8` ★ ⚡85 Q0.9🏆 🏆 World-class
-↗3 layers
-
-**The dwrtz/mcpterm project offers a powerful MCP (Multi-Process Communication) tool server that enables developers to create interactive terminal sessions. This tool is particularly useful for testing and debugging applications in a controlled environment, supporting features like code execution, debugging, and integration with AI tools such as CodeCopilot.**
-
-**Features:**
-- stateful terminal sessions
-- TUI compatibility
-- code execution
-- debugging support
-
-*Tags: mcp, terminal, developer, ai, code, integration, testing, devops...*
-
----
-
-### 13. [shenghaiwang/androidbuild](https://github.com/shenghaiwang/androidbuild)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗3 layers
-
-**The MCP tool facilitates the automation of Android project builds, integrates with development environments like Visual Studio Code, and offers real-time error reporting to AI models. It supports various stages from code execution to feedback generation, enhancing developer productivity and code quality.**
-
-**Features:**
-- Android project building
-- Error feedback to LLMs
-- Integration with VS Code extensions
-- Support for unit and instrumented tests
-
-*Tags: mcp, androidbuild, developer-tools, ai-integration, code-quality, continuous-integration*
-
----
-
-### 14. [tinjyuu/mcp-jr-east-delay](https://github.com/tinjyuu/mcp-jr-east-delay)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗4 layers
-
-**The project provides a GitHub-based solution to streamline and automate development workflows, leveraging GitHub Actions for CI/CD integration. It supports code review, security checks, and deployment processes, making it suitable for modern software development practices.**
-
-**Features:**
-- code review
-- security scanning
-- automated testing
-- workflow automation
-
-*Tags: github, githubactions, ci, devops, security, codequality*
-
----
-
-### 15. [szge/lolwiki-mcp](https://github.com/szge/lolwiki-mcp)
-`8.8` ★ ⚡82 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP server automates the retrieval of the latest statistics and details about champions, runes, items, and monsters directly from the official League of Legends wiki. This ensures that users have access to the most current and accurate information without manual updates.**
-
-**Features:**
-- Fetch real-time data from LoL Wiki
-- Automate data retrieval
-- Maintain up-to-date information
-- Integrate with MCP platform
-
-*Tags: mcp, api, gameinfo, wiki, datafetch, automation, integration, updates...*
-
----
-
-### 16. [Don't fall into the anti-AI hype - <antirez>](https://antirez.com/news/158)
-`8.8` ★ ⚡78 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The article discusses the evolving role of artificial intelligence in programming, emphasizing how modern LLMs can autonomously complete tasks, reduce the need for manual coding, and reshape development practices. It reflects on the author's personal journey from writing software to embracing AI tools, highlighting both opportunities and concerns around automation, economic impact, and the future of work.**
-
-**Features:**
-- Testing UTF-8 support in linenoise library
-- Fixing transient failures in Redis tests
-- Creating a C library for BERT-like embedding inference
-- Developing a Python tool to convert GTE-small model
-
-*Tags: ai-integration, software-development, programming-tools, code-optimization, redis, bert-models, open-source, testing-frameworks...*
-
----
-
-### 17. [Tenki|Faster GitHub Actions Runners & AI Code Reviewer](https://www.tenki.cloud)
-`10.0` ★★★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗2 layers
-
-**A high-performance CI/CD infrastructure platform offering bare-metal GitHub Actions runners and an integrated AI agent that reviews full codebases during Pull Requests.**
-
-**Features:**
-- Bare-metal GitHub Actions runners (35% faster)
-- automated AI Pull Request code reviewer
-- drop-in YAML replacement wizard
-- 50% CI cost reduction.
-
-*Tags: ci-cd, github-actions, code-review, automation, dev-tools, artificial-intelligence, cloud, github...*
-
----
-
-### 18. [codex](https://chatgpt.com/codex)
-`8.8` ★ ⚡77 Q0.7⭐ ⭐ Excellent
-↗5 layers
-
-**The Codex platform integrates with various AI models to assist developers in building, testing, and deploying code efficiently. It supports multiple workflows including code generation, review, documentation, and automation of repetitive tasks such as pull requests, issue triage, and CI/CD processes.**
-
-**Features:**
-- AI-powered coding assistance
-- Automated PR reviews
-- Code understanding and prototyping
-- Documentation generation
-- Integration with Slack and other tools
-
-*Tags: ai, codex, agentic-coding, developer-tools, software-development, automation, code-review, integration...*
-
----
-
 ## Major Harness Integrations
-> 15 tools · avg signal ⚡68
+> 19 tools · avg signal ⚡67
 
 ### 1. [kukapay/thegraph-mcp](https://github.com/kukapay/thegraph-mcp)
 `8.8` ★ ⚡89 Q0.9🏆 🏆 World-class
@@ -11568,8 +14242,36 @@
 
 ---
 
+### 16. [openai/codex](https://github.com/openai/codex/discussions/8338)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: openai/codex**
+
+---
+
+### 17. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/6235)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 18. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/49268)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
+### 19. [anthropics/claude-code](https://github.com/anthropics/claude-code/issues/8477)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: anthropics/claude-code**
+
+---
+
 ## Context Engineering
-> 14 tools · avg signal ⚡85
+> 16 tools · avg signal ⚡82
 
 ### 1. [xinkuang/china-stock-mcp](https://github.com/xinkuang/china-stock-mcp)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -11800,6 +14502,20 @@
 
 ---
 
+### 15. [cookiengineer/exocomp](https://github.com/cookiengineer/exocomp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: cookiengineer/exocomp**
+
+---
+
+### 16. [mksglu/context-mode](https://github.com/mksglu/context-mode)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: mksglu/context-mode**
+
+---
+
 ## Memory & Context Systems
 > 13 tools · avg signal ⚡86
 
@@ -12012,7 +14728,7 @@
 ---
 
 ## Browser & Web Tools
-> 5 tools · avg signal ⚡86
+> 8 tools · avg signal ⚡78
 
 ### 1. [andybrandt/mcp-simple-arxiv](https://github.com/andybrandt/mcp-simple-arxiv)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -12093,5 +14809,26 @@
 - install via smithery
 
 *Tags: mcp-painter, ai-drawing, developer-tools, canvas-integration, smithery*
+
+---
+
+### 6. [rumca-js/crawler-buddy](https://github.com/rumca-js/crawler-buddy)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: rumca-js/crawler-buddy**
+
+---
+
+### 7. [webcoyote/sandvault](https://github.com/webcoyote/sandvault)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: webcoyote/sandvault**
+
+---
+
+### 8. [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox/blob/main/readme-files/browserbox-running-in-windows-98-ie-5.jpg)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: BrowserBox/BrowserBox**
 
 ---

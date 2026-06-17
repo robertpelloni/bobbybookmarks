@@ -1,15 +1,15 @@
 # 🧠 Agent Orchestration & Workflow
-> Borg Intelligence Atlas v8 · 2026-06-16 · 4,583 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 4,589 tools
 > Multi-agent swarms, workflows, planning, loops, verification
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **4,583** |
+| Total tools | **4,589** |
 | Standout 🏆⭐ | 572 |
 | Avg Signal | ⚡76 |
 | Innovation 10 | 216 ██░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 607 ███████░░░░░░░░░░░░░ |
-| Innovation 8 | 1419 █████████████████░░░ |
+| Innovation 8 | 1425 █████████████████░░░ |
 | Innovation 7 | 1608 ████████████████████ |
 | Innovation 6 | 594 ███████░░░░░░░░░░░░░ |
 | Innovation 5 | 137 █░░░░░░░░░░░░░░░░░░░ |
@@ -52,7 +52,7 @@
 - [Config & Profile Management](#config--profile-management) — 313 tools · ⚡80
 - [Monitoring & Analytics](#monitoring--analytics) — 310 tools · ⚡79
 - [Skill Systems](#skill-systems) — 306 tools · ⚡78
-- [Other Tools](#other-tools) — 233 tools · ⚡66
+- [Other Tools](#other-tools) — 239 tools · ⚡66
 - [Hooks & Lifecycle](#hooks--lifecycle) — 220 tools · ⚡76
 - [Context Engineering](#context-engineering) — 146 tools · ⚡76
 - [Harness Frameworks](#harness-frameworks) — 123 tools · ⚡79
@@ -60559,7 +60559,7 @@ Key features include defining the state of the RRR system
 ---
 
 ## Other Tools
-> 233 tools · avg signal ⚡66
+> 239 tools · avg signal ⚡66
 
 ### 1. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -63396,7 +63396,49 @@ Bulk Bookmarking: Add multiple bookmarks in one go.
 
 ---
 
-### 197. [Sign in - Google Accounts](https://google.clustertabs.com/user)
+### 197. [manus.im](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**manus.im**
+
+---
+
+### 198. [developer.nvidia.com](https://developer.nvidia.com/blog/introducing-nemotron-3-super-an-open-hybrid-mamba-transformer-moe-for-agentic-reasoning/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**developer.nvidia.com**
+
+---
+
+### 199. [platform.claude.com](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**platform.claude.com**
+
+---
+
+### 200. [instavm.io](https://instavm.io/blog/meet-instavm-infra-for-your-agents)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**instavm.io**
+
+---
+
+### 201. [codeofhonor.com](https://www.codeofhonor.com/blog/finding-bugs-with-an-automated-ai-test-agent/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**codeofhonor.com**
+
+---
+
+### 202. [code.claude.com](https://code.claude.com/docs/en/agent-sdk/quickstart)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**code.claude.com**
+
+---
+
+### 203. [Sign in - Google Accounts](https://google.clustertabs.com/user)
 `7.3` ★ ⚡48 Q0.5○ ○ Adequate
 
 **Sign in with Google. Sign in to continue to clustertabs.com.**
@@ -63408,252 +63450,252 @@ Bulk Bookmarking: Add multiple bookmarks in one go.
 
 ---
 
-### 198. [How Are People Handling Ai Content Workflows](https://www.reddit.com/r/AITechTips/comments/1texoyo/how_are_people_handling_ai_content_workflows/)
+### 204. [How Are People Handling Ai Content Workflows](https://www.reddit.com/r/AITechTips/comments/1texoyo/how_are_people_handling_ai_content_workflows/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **How Are People Handling Ai Content Workflows**
 
 ---
 
-### 199. [Hermes Is Useful For Maintaining Different Project](https://www.reddit.com/r/hermesagent/comments/1t58fex/hermes_is_useful_for_maintaining_different_project/)
+### 205. [Hermes Is Useful For Maintaining Different Project](https://www.reddit.com/r/hermesagent/comments/1t58fex/hermes_is_useful_for_maintaining_different_project/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hermes Is Useful For Maintaining Different Project**
 
 ---
 
-### 200. [Hermes Agent For Real Estate Assistant](https://www.reddit.com/r/hermesagent/comments/1th45oo/hermes_agent_for_real_estate_assistant/)
+### 206. [Hermes Agent For Real Estate Assistant](https://www.reddit.com/r/hermesagent/comments/1th45oo/hermes_agent_for_real_estate_assistant/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hermes Agent For Real Estate Assistant**
 
 ---
 
-### 201. [I Was Getting Bad Ideas And Research So I Made It](https://www.reddit.com/r/hermesagent/comments/1tnyoz5/i_was_getting_bad_ideas_and_research_so_i_made_it/)
+### 207. [I Was Getting Bad Ideas And Research So I Made It](https://www.reddit.com/r/hermesagent/comments/1tnyoz5/i_was_getting_bad_ideas_and_research_so_i_made_it/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Was Getting Bad Ideas And Research So I Made It**
 
 ---
 
-### 202. [Whats The Most Impressive Opensource Ai Agent](https://www.reddit.com/r/AI_Agents/comments/1tn5uf5/whats_the_most_impressive_opensource_ai_agent/)
+### 208. [Whats The Most Impressive Opensource Ai Agent](https://www.reddit.com/r/AI_Agents/comments/1tn5uf5/whats_the_most_impressive_opensource_ai_agent/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Whats The Most Impressive Opensource Ai Agent**
 
 ---
 
-### 203. [Hermes 101 Why You Shouldnt Install Hermes On](https://www.reddit.com/r/hermesagent/comments/1tonn9q/hermes_101_why_you_shouldnt_install_hermes_on/)
+### 209. [Hermes 101 Why You Shouldnt Install Hermes On](https://www.reddit.com/r/hermesagent/comments/1tonn9q/hermes_101_why_you_shouldnt_install_hermes_on/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hermes 101 Why You Shouldnt Install Hermes On**
 
 ---
 
-### 204. [Token Bloat I Cut Hermes Token Overhead By 71 On](https://www.reddit.com/r/hermesagent/comments/1tolsl5/token_bloat_i_cut_hermes_token_overhead_by_71_on/)
+### 210. [Token Bloat I Cut Hermes Token Overhead By 71 On](https://www.reddit.com/r/hermesagent/comments/1tolsl5/token_bloat_i_cut_hermes_token_overhead_by_71_on/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Token Bloat I Cut Hermes Token Overhead By 71 On**
 
 ---
 
-### 205. [Ai Intelligence Blueprint](https://www.reddit.com/r/hermesagent/comments/1tofgrt/ai_intelligence_blueprint/)
+### 211. [Ai Intelligence Blueprint](https://www.reddit.com/r/hermesagent/comments/1tofgrt/ai_intelligence_blueprint/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Ai Intelligence Blueprint**
 
 ---
 
-### 206. [What Local Llms Are Working Best For Your](https://www.reddit.com/r/hermesagent/comments/1toi897/what_local_llms_are_working_best_for_your/)
+### 212. [What Local Llms Are Working Best For Your](https://www.reddit.com/r/hermesagent/comments/1toi897/what_local_llms_are_working_best_for_your/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **What Local Llms Are Working Best For Your**
 
 ---
 
-### 207. [Agentview Display Delivery Platform For Ai Agents](https://www.reddit.com/r/mcp/comments/1tnwtr3/agentview_display_delivery_platform_for_ai_agents/)
+### 213. [Agentview Display Delivery Platform For Ai Agents](https://www.reddit.com/r/mcp/comments/1tnwtr3/agentview_display_delivery_platform_for_ai_agents/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Agentview Display Delivery Platform For Ai Agents**
 
 ---
 
-### 208. [Close The Loop With The Upgraded Mastra Cli](https://www.reddit.com/r/coding_agents/comments/1tl2jae/close_the_loop_with_the_upgraded_mastra_cli/)
+### 214. [Close The Loop With The Upgraded Mastra Cli](https://www.reddit.com/r/coding_agents/comments/1tl2jae/close_the_loop_with_the_upgraded_mastra_cli/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Close The Loop With The Upgraded Mastra Cli**
 
 ---
 
-### 209. [Hermes For Long Term Ongoing Autoresearch Of A](https://www.reddit.com/r/hermesagent/comments/1tp0djn/hermes_for_long_term_ongoing_autoresearch_of_a/)
+### 215. [Hermes For Long Term Ongoing Autoresearch Of A](https://www.reddit.com/r/hermesagent/comments/1tp0djn/hermes_for_long_term_ongoing_autoresearch_of_a/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hermes For Long Term Ongoing Autoresearch Of A**
 
 ---
 
-### 210. [Multiagent Systems Are A Nightmare To Build 6 Ai](https://www.reddit.com/r/TopAIReviews/comments/1to0ty1/multiagent_systems_are_a_nightmare_to_build_6_ai/)
+### 216. [Multiagent Systems Are A Nightmare To Build 6 Ai](https://www.reddit.com/r/TopAIReviews/comments/1to0ty1/multiagent_systems_are_a_nightmare_to_build_6_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Multiagent Systems Are A Nightmare To Build 6 Ai**
 
 ---
 
-### 211. [Can Someone Explain To Me The Actual Benefits Of](https://www.reddit.com/r/hermesagent/comments/1tpck95/can_someone_explain_to_me_the_actual_benefits_of/)
+### 217. [Can Someone Explain To Me The Actual Benefits Of](https://www.reddit.com/r/hermesagent/comments/1tpck95/can_someone_explain_to_me_the_actual_benefits_of/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Can Someone Explain To Me The Actual Benefits Of**
 
 ---
 
-### 212. [Built An Mcp Server That Gives Ai Agents A Belief](https://www.reddit.com/r/MCPservers/comments/1tpboxw/built_an_mcp_server_that_gives_ai_agents_a_belief/)
+### 218. [Built An Mcp Server That Gives Ai Agents A Belief](https://www.reddit.com/r/MCPservers/comments/1tpboxw/built_an_mcp_server_that_gives_ai_agents_a_belief/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Built An Mcp Server That Gives Ai Agents A Belief**
 
 ---
 
-### 213. [Is It Possible To Let Hermes Automatically](https://www.reddit.com/r/hermesagent/comments/1tphcmr/is_it_possible_to_let_hermes_automatically/)
+### 219. [Is It Possible To Let Hermes Automatically](https://www.reddit.com/r/hermesagent/comments/1tphcmr/is_it_possible_to_let_hermes_automatically/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Is It Possible To Let Hermes Automatically**
 
 ---
 
-### 214. [Youre Probably Accidentally Tokenmaxxing Learn To](https://www.reddit.com/r/hermesagent/comments/1tph8wg/youre_probably_accidentally_tokenmaxxing_learn_to/)
+### 220. [Youre Probably Accidentally Tokenmaxxing Learn To](https://www.reddit.com/r/hermesagent/comments/1tph8wg/youre_probably_accidentally_tokenmaxxing_learn_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Youre Probably Accidentally Tokenmaxxing Learn To**
 
 ---
 
-### 215. [What Cron Jobs Do You Run With Hermes Agent Heres](https://www.reddit.com/r/hermesagent/comments/1tpms69/what_cron_jobs_do_you_run_with_hermes_agent_heres/)
+### 221. [What Cron Jobs Do You Run With Hermes Agent Heres](https://www.reddit.com/r/hermesagent/comments/1tpms69/what_cron_jobs_do_you_run_with_hermes_agent_heres/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **What Cron Jobs Do You Run With Hermes Agent Heres**
 
 ---
 
-### 216. [I Gave My Ai Agents Email Instead Of Better](https://www.reddit.com/r/artificial/comments/1tpnyvp/i_gave_my_ai_agents_email_instead_of_better/)
+### 222. [I Gave My Ai Agents Email Instead Of Better](https://www.reddit.com/r/artificial/comments/1tpnyvp/i_gave_my_ai_agents_email_instead_of_better/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Gave My Ai Agents Email Instead Of Better**
 
 ---
 
-### 217. [Showcase Thursday Drop Your Hermes Projects Here](https://www.reddit.com/r/hermesagent/comments/1tpz3c7/showcase_thursday_drop_your_hermes_projects_here/)
+### 223. [Showcase Thursday Drop Your Hermes Projects Here](https://www.reddit.com/r/hermesagent/comments/1tpz3c7/showcase_thursday_drop_your_hermes_projects_here/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Showcase Thursday Drop Your Hermes Projects Here**
 
 ---
 
-### 218. [Ive Run Hermes Agent 247 For A Week Heres Hermes](https://www.reddit.com/r/AIAgentsInAction/comments/1tq6f27/ive_run_hermes_agent_247_for_a_week_heres_hermes/)
+### 224. [Ive Run Hermes Agent 247 For A Week Heres Hermes](https://www.reddit.com/r/AIAgentsInAction/comments/1tq6f27/ive_run_hermes_agent_247_for_a_week_heres_hermes/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Ive Run Hermes Agent 247 For A Week Heres Hermes**
 
 ---
 
-### 219. [Bug Bounty Mcp Server Enables Ai Agents To](https://www.reddit.com/r/mcp/comments/1tr4il6/bug_bounty_mcp_server_enables_ai_agents_to/)
+### 225. [Bug Bounty Mcp Server Enables Ai Agents To](https://www.reddit.com/r/mcp/comments/1tr4il6/bug_bounty_mcp_server_enables_ai_agents_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Bug Bounty Mcp Server Enables Ai Agents To**
 
 ---
 
-### 220. [What Do You Want To Learn Build Or Automate With](https://www.reddit.com/r/hermesagent/comments/1tr5i6l/what_do_you_want_to_learn_build_or_automate_with/)
+### 226. [What Do You Want To Learn Build Or Automate With](https://www.reddit.com/r/hermesagent/comments/1tr5i6l/what_do_you_want_to_learn_build_or_automate_with/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **What Do You Want To Learn Build Or Automate With**
 
 ---
 
-### 221. [Pewdiepie Just Droped Is Own Agent Call Odysseus](https://www.reddit.com/r/LocalLLM/comments/1tt2ke1/pewdiepie_just_droped_is_own_agent_call_odysseus/)
+### 227. [Pewdiepie Just Droped Is Own Agent Call Odysseus](https://www.reddit.com/r/LocalLLM/comments/1tt2ke1/pewdiepie_just_droped_is_own_agent_call_odysseus/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Pewdiepie Just Droped Is Own Agent Call Odysseus**
 
 ---
 
-### 222. [Top Personal And Professional Use Cases For](https://www.reddit.com/r/hermesagent/comments/1tv4t87/top_personal_and_professional_use_cases_for/)
+### 228. [Top Personal And Professional Use Cases For](https://www.reddit.com/r/hermesagent/comments/1tv4t87/top_personal_and_professional_use_cases_for/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Top Personal And Professional Use Cases For**
 
 ---
 
-### 223. [Minimax M3 Is Very Very Good](https://www.reddit.com/r/hermesagent/comments/1tv4elp/minimax_m3_is_very_very_good/)
+### 229. [Minimax M3 Is Very Very Good](https://www.reddit.com/r/hermesagent/comments/1tv4elp/minimax_m3_is_very_very_good/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Minimax M3 Is Very Very Good**
 
 ---
 
-### 224. [3 Integrations Which Makes Your Hermes More Human](https://www.reddit.com/r/hermesagent/comments/1tusqad/3_integrations_which_makes_your_hermes_more_human/)
+### 230. [3 Integrations Which Makes Your Hermes More Human](https://www.reddit.com/r/hermesagent/comments/1tusqad/3_integrations_which_makes_your_hermes_more_human/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **3 Integrations Which Makes Your Hermes More Human**
 
 ---
 
-### 225. [Nous Research Just Launched Hermes Desktop Native](https://www.reddit.com/r/hermesagent/comments/1tuvyke/nous_research_just_launched_hermes_desktop_native/)
+### 231. [Nous Research Just Launched Hermes Desktop Native](https://www.reddit.com/r/hermesagent/comments/1tuvyke/nous_research_just_launched_hermes_desktop_native/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Nous Research Just Launched Hermes Desktop Native**
 
 ---
 
-### 226. [The Hermes Agent Desktop App Looks Fantastic](https://www.reddit.com/r/hermesagent/comments/1tuwe69/the_hermes_agent_desktop_app_looks_fantastic/)
+### 232. [The Hermes Agent Desktop App Looks Fantastic](https://www.reddit.com/r/hermesagent/comments/1tuwe69/the_hermes_agent_desktop_app_looks_fantastic/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **The Hermes Agent Desktop App Looks Fantastic**
 
 ---
 
-### 227. [Subagentmcp Claude Codestyle Subagents For Any](https://www.reddit.com/r/mcp/comments/1tuu9h4/subagentmcp_claude_codestyle_subagents_for_any/)
+### 233. [Subagentmcp Claude Codestyle Subagents For Any](https://www.reddit.com/r/mcp/comments/1tuu9h4/subagentmcp_claude_codestyle_subagents_for_any/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Subagentmcp Claude Codestyle Subagents For Any**
 
 ---
 
-### 228. [Building An Authz Layer For Mcp Agents Opens](https://www.reddit.com/r/MCPservers/comments/1tu662m/building_an_authz_layer_for_mcp_agents_opens/)
+### 234. [Building An Authz Layer For Mcp Agents Opens](https://www.reddit.com/r/MCPservers/comments/1tu662m/building_an_authz_layer_for_mcp_agents_opens/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Building An Authz Layer For Mcp Agents Opens**
 
 ---
 
-### 229. [Im A Nightshift Nurse I Spent 6 Months Building](https://www.reddit.com/r/aiagents/comments/1u51xgn/im_a_nightshift_nurse_i_spent_6_months_building/)
+### 235. [Im A Nightshift Nurse I Spent 6 Months Building](https://www.reddit.com/r/aiagents/comments/1u51xgn/im_a_nightshift_nurse_i_spent_6_months_building/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im A Nightshift Nurse I Spent 6 Months Building**
 
 ---
 
-### 230. [Models Models Anthropic Billing Change Tomorrow](https://www.reddit.com/r/hermesagent/comments/1u5tqu4/models_models_anthropic_billing_change_tomorrow/)
+### 236. [Models Models Anthropic Billing Change Tomorrow](https://www.reddit.com/r/hermesagent/comments/1u5tqu4/models_models_anthropic_billing_change_tomorrow/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Models Models Anthropic Billing Change Tomorrow**
 
 ---
 
-### 231. [Whats The Best Way To Build Voice Agents Today](https://www.reddit.com/r/AIVoice_Agents/comments/1u3t64p/whats_the_best_way_to_build_voice_agents_today/)
+### 237. [Whats The Best Way To Build Voice Agents Today](https://www.reddit.com/r/AIVoice_Agents/comments/1u3t64p/whats_the_best_way_to_build_voice_agents_today/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Whats The Best Way To Build Voice Agents Today**
 
 ---
 
-### 232. [I Got Tired Of My Ai Agents Getting Blocked By](https://www.reddit.com/r/hermesagent/comments/1u6u2hc/i_got_tired_of_my_ai_agents_getting_blocked_by/)
+### 238. [I Got Tired Of My Ai Agents Getting Blocked By](https://www.reddit.com/r/hermesagent/comments/1u6u2hc/i_got_tired_of_my_ai_agents_getting_blocked_by/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Got Tired Of My Ai Agents Getting Blocked By**
 
 ---
 
-### 233. [Jcodemunch Mcp](https://www.reddit.com/r/hermesagent/comments/1tpj6f2/jcodemunch_mcp/)
+### 239. [Jcodemunch Mcp](https://www.reddit.com/r/hermesagent/comments/1tpj6f2/jcodemunch_mcp/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Jcodemunch Mcp**

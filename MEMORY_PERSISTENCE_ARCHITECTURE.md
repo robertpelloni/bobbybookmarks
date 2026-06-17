@@ -1,15 +1,15 @@
 # 🧬 Memory & Persistence Architecture
-> Borg Intelligence Atlas v8 · 2026-06-16 · 223 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 226 tools
 > Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **223** |
+| Total tools | **226** |
 | Standout 🏆⭐ | 84 |
 | Avg Signal | ⚡81 |
 | Innovation 10 | 66 ████████████████░░░░ |
 | Innovation 9 | 80 ████████████████████ |
-| Innovation 8 | 57 ██████████████░░░░░░ |
+| Innovation 8 | 60 ███████████████░░░░░ |
 | Innovation 7 | 17 ████░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 
@@ -43,7 +43,7 @@
 ## Contents
 
 - [Memory & Context Systems](#memory--context-systems) — 178 tools · ⚡83
-- [Other Tools](#other-tools) — 20 tools · ⚡67
+- [Other Tools](#other-tools) — 23 tools · ⚡65
 - [Spec-Driven Development](#spec-driven-development) — 7 tools · ⚡83
 - [Context Engineering](#context-engineering) — 6 tools · ⚡80
 - [Governance & Safety](#governance--safety) — 4 tools · ⚡82
@@ -2995,7 +2995,7 @@ It is built specifically for the Model Context Protocol (MCP) framework, offerin
 ---
 
 ## Other Tools
-> 20 tools · avg signal ⚡67
+> 23 tools · avg signal ⚡65
 
 ### 1. [Notes on the Pentium's microcode circuitry](http://www.righto.com/2025/03/pentium-microcde-rom-circuitry.html?m=1)
 `10.0` ★★★ ⚡90 Q0.8🏆 🏆 World-class
@@ -3241,6 +3241,27 @@ It is built specifically for the Model Context Protocol (MCP) framework, offerin
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **tobypenner.com**
+
+---
+
+### 21. [hn.algolia.com](https://hn.algolia.com/?query=Show%20HN%3A%20Shell-MCP%20A%20persistent%20terminal%20for%20AI-%20CD%2C%20env%20vars%2Cand%20nvm%20carry%20over&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 22. [hn.algolia.com](https://hn.algolia.com/?query=Show%20HN%3A%20Open%20KB%3A%20Open%20LLM%20Knowledge%20Base&type=story&dateRange=all&sort=byDate&storyText=false&prefix&page=0)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hn.algolia.com**
+
+---
+
+### 23. [claude.com](https://claude.com/import-memory)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claude.com**
 
 ---
 

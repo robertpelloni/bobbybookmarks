@@ -1,15 +1,15 @@
 # 🛡 Security & Red Teaming
-> Borg Intelligence Atlas v8 · 2026-06-16 · 126 tools
+> Borg Intelligence Atlas v8 · 2026-06-17 · 130 tools
 > AI guardrails, LLM red teaming, vulnerability scanning, pentesting
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **126** |
+| Total tools | **130** |
 | Standout 🏆⭐ | 40 |
-| Avg Signal | ⚡84 |
+| Avg Signal | ⚡83 |
 | Innovation 10 | 21 █████░░░░░░░░░░░░░░░ |
 | Innovation 9 | 30 ████████░░░░░░░░░░░░ |
-| Innovation 8 | 71 ████████████████████ |
+| Innovation 8 | 75 ████████████████████ |
 | Innovation 7 | 4 █░░░░░░░░░░░░░░░░░░░ |
 
 ---
@@ -43,8 +43,8 @@
 
 - [Config & Profile Management](#config--profile-management) — 25 tools · ⚡89
 - [Governance & Safety](#governance--safety) — 21 tools · ⚡85
+- [Other Tools](#other-tools) — 15 tools · ⚡58
 - [Monitoring & Analytics](#monitoring--analytics) — 12 tools · ⚡85
-- [Other Tools](#other-tools) — 12 tools · ⚡60
 - [Spec-Driven Development](#spec-driven-development) — 10 tools · ⚡87
 - [Verification & Testing](#verification--testing) — 10 tools · ⚡83
 - [Bridges & Proxies](#bridges--proxies) — 7 tools · ⚡90
@@ -52,7 +52,7 @@
 - [Orchestration](#orchestration) — 5 tools · ⚡91
 - [Memory & Context Systems](#memory--context-systems) — 5 tools · ⚡87
 - [Hooks & Lifecycle](#hooks--lifecycle) — 5 tools · ⚡89
-- [Browser & Web Tools](#browser--web-tools) — 4 tools · ⚡82
+- [Browser & Web Tools](#browser--web-tools) — 5 tools · ⚡76
 - [Harness Frameworks](#harness-frameworks) — 3 tools · ⚡81
 - [Context Engineering](#context-engineering) — 2 tools · ⚡86
 
@@ -871,6 +871,150 @@
 
 ---
 
+## Other Tools
+> 15 tools · avg signal ⚡58
+
+### 1. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)
+`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
+↗5 layers
+
+**The eversinc33/TriageMCP project provides a GitHub-hosted MCP server designed for analyzing executable files (PE) using tools like pefile and yara-python. It enables automated static malware triage, supporting features such as hash lookup, transport protocol handling, and integration with AI-driven analysis. The tool is tailored for security professionals to streamline threat detection workflows.**
+
+**Features:**
+- static pe analysis
+- hash lookup
+- transport protocol support
+- ai-assisted triage
+- integration with mcp tools
+
+*Tags: mcp, static-analysis, malware-triage, security, ai, code-review, ci/cd, developer-workflow...*
+
+---
+
+### 2. [stackloklabs/osv-mcp](https://github.com/stackloklabs/osv-mcp)
+`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
+↗3 layers
+
+**The osv-mcp project provides a secure, containerized MCP server that enables LLM-powered tools to access and retrieve detailed vulnerability information from the OSV database. It supports batch queries, detailed vulnerability insights, and integrates with modern development workflows for enhanced security and compliance.**
+
+**Features:**
+- query_vulnerability
+- batch_querying_vulnerabilities
+- detailed vulnerability info
+- secure deployment via ToolHive
+
+*Tags: osv, mcp, security, ai, developer, osv-mcp, github, toolhive*
+
+---
+
+### 3. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)
+`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
+↗2 layers
+
+**The MCP Security Audit Tool is designed to enhance security by scanning npm packages in real time, leveraging remote npm registry connections. It provides detailed vulnerability reports with severity levels and supports multiple fix recommendations, making it a valuable asset for developers and organizations aiming to secure their dependencies.**
+
+**Features:**
+- Real-time security vulnerability scanning
+- Remote npm registry integration
+- Detailed vulnerability reports with severity levels
+- Automatic fix recommendations
+
+*Tags: security, npm, audit, model-context-protocol, developer-tools*
+
+---
+
+### 4. [Vulnerability Analysis for Container Security Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/vulnerability-analysis-for-container-security)
+`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
+
+**An automated triage agent that uses RAG and SBOM analysis to distinguish between genuine container risks and false positives.**
+
+**Features:**
+- Automated SBOM (Syft) generation
+- RAG-based CVE cross-referencing
+- VEX (Vulnerability Exploitability) generation
+- sub-second security triage.
+
+*Tags: security, container, cve, sbom, automation, api, artificial-intelligence, build...*
+
+---
+
+### 5. [pwnhackernews.substack.com](https://pwnhackernews.substack.com/subscribe)
+`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
+
+**pwnhackernews.substack.com**
+
+---
+
+### 6. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/ufo/002029-1401-e.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**collectionscanada.gc.ca**
+
+---
+
+### 7. [docs.litellm.ai](https://docs.litellm.ai/blog/security-update-march-2026)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**docs.litellm.ai**
+
+---
+
+### 8. [biohackspace.org](http://biohackspace.org/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**biohackspace.org**
+
+---
+
+### 9. [t.me](https://t.me/biohackerlounge)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**t.me**
+
+---
+
+### 10. [en.wikipedia.org](https://en.wikipedia.org/wiki/UK_undercover_policing_scandal)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**en.wikipedia.org**
+
+---
+
+### 11. [dkriesel.com](https://www.dkriesel.com/en/blog/2013/0802_xerox-workcentres_are_switching_written_numbers_when_scanning)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**dkriesel.com**
+
+---
+
+### 12. [hessra.net](https://www.hessra.net/blog/what-problem-led-me-to-capability-security)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**hessra.net**
+
+---
+
+### 13. [seomoz.org](http://www.seomoz.org/blog/reddit-stumbleupon-delicious-and-hacker-news-algorithms-exposed)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**seomoz.org**
+
+---
+
+### 14. [I Need Your Master Hacker Playlists](https://www.reddit.com/r/masterhacker/comments/1sxv8un/i_need_your_master_hacker_playlists/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Need Your Master Hacker Playlists**
+
+---
+
+### 15. [We Scanned 500 Public Mcp Servers For Security](https://www.reddit.com/r/mcp/comments/1to9gei/we_scanned_500_public_mcp_servers_for_security/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**We Scanned 500 Public Mcp Servers For Security**
+
+---
+
 ## Monitoring & Analytics
 > 12 tools · avg signal ⚡85
 
@@ -1078,129 +1222,6 @@
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **soatok.blog**
-
----
-
-## Other Tools
-> 12 tools · avg signal ⚡60
-
-### 1. [eversinc33/triagemcp](https://github.com/eversinc33/triagemcp)
-`8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
-↗5 layers
-
-**The eversinc33/TriageMCP project provides a GitHub-hosted MCP server designed for analyzing executable files (PE) using tools like pefile and yara-python. It enables automated static malware triage, supporting features such as hash lookup, transport protocol handling, and integration with AI-driven analysis. The tool is tailored for security professionals to streamline threat detection workflows.**
-
-**Features:**
-- static pe analysis
-- hash lookup
-- transport protocol support
-- ai-assisted triage
-- integration with mcp tools
-
-*Tags: mcp, static-analysis, malware-triage, security, ai, code-review, ci/cd, developer-workflow...*
-
----
-
-### 2. [stackloklabs/osv-mcp](https://github.com/stackloklabs/osv-mcp)
-`8.8` ★ ⚡84 Q0.9⭐ ⭐ Excellent
-↗3 layers
-
-**The osv-mcp project provides a secure, containerized MCP server that enables LLM-powered tools to access and retrieve detailed vulnerability information from the OSV database. It supports batch queries, detailed vulnerability insights, and integrates with modern development workflows for enhanced security and compliance.**
-
-**Features:**
-- query_vulnerability
-- batch_querying_vulnerabilities
-- detailed vulnerability info
-- secure deployment via ToolHive
-
-*Tags: osv, mcp, security, ai, developer, osv-mcp, github, toolhive*
-
----
-
-### 3. [qianniuspace/mcp-security-audit](https://github.com/qianniuspace/mcp-security-audit)
-`9.0` ★★ ⚡84 Q0.8⭐ ⭐ Excellent
-↗2 layers
-
-**The MCP Security Audit Tool is designed to enhance security by scanning npm packages in real time, leveraging remote npm registry connections. It provides detailed vulnerability reports with severity levels and supports multiple fix recommendations, making it a valuable asset for developers and organizations aiming to secure their dependencies.**
-
-**Features:**
-- Real-time security vulnerability scanning
-- Remote npm registry integration
-- Detailed vulnerability reports with severity levels
-- Automatic fix recommendations
-
-*Tags: security, npm, audit, model-context-protocol, developer-tools*
-
----
-
-### 4. [Vulnerability Analysis for Container Security Blueprint by NVIDIA | NVIDIA NIM](https://build.nvidia.com/nvidia/vulnerability-analysis-for-container-security)
-`10.0` ★★★ ⚡73 Q0.6⭐ ⭐ Excellent
-
-**An automated triage agent that uses RAG and SBOM analysis to distinguish between genuine container risks and false positives.**
-
-**Features:**
-- Automated SBOM (Syft) generation
-- RAG-based CVE cross-referencing
-- VEX (Vulnerability Exploitability) generation
-- sub-second security triage.
-
-*Tags: security, container, cve, sbom, automation, api, artificial-intelligence, build...*
-
----
-
-### 5. [pwnhackernews.substack.com](https://pwnhackernews.substack.com/subscribe)
-`8.0` ★ ⚡51 Q0.6✓ ✓ Solid
-
-**pwnhackernews.substack.com**
-
----
-
-### 6. [collectionscanada.gc.ca](http://www.collectionscanada.gc.ca/ufo/002029-1401-e.html)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**collectionscanada.gc.ca**
-
----
-
-### 7. [docs.litellm.ai](https://docs.litellm.ai/blog/security-update-march-2026)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**docs.litellm.ai**
-
----
-
-### 8. [biohackspace.org](http://biohackspace.org/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**biohackspace.org**
-
----
-
-### 9. [t.me](https://t.me/biohackerlounge)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**t.me**
-
----
-
-### 10. [en.wikipedia.org](https://en.wikipedia.org/wiki/UK_undercover_policing_scandal)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**en.wikipedia.org**
-
----
-
-### 11. [I Need Your Master Hacker Playlists](https://www.reddit.com/r/masterhacker/comments/1sxv8un/i_need_your_master_hacker_playlists/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**I Need Your Master Hacker Playlists**
-
----
-
-### 12. [We Scanned 500 Public Mcp Servers For Security](https://www.reddit.com/r/mcp/comments/1to9gei/we_scanned_500_public_mcp_servers_for_security/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**We Scanned 500 Public Mcp Servers For Security**
 
 ---
 
@@ -2043,7 +2064,7 @@
 ---
 
 ## Browser & Web Tools
-> 4 tools · avg signal ⚡82
+> 5 tools · avg signal ⚡76
 
 ### 1. [marcoeg/mcp-nvd](https://github.com/marcoeg/mcp-nvd)
 `8.8` ★ ⚡90 Q0.9🏆 🏆 World-class
@@ -2107,6 +2128,13 @@
 - browser auto-load vulnerability analysis.
 
 *Tags: security, prompt-injection, exfiltration, data-privacy, zero-click, api, artificial-intelligence, promptarmor*
+
+---
+
+### 5. [web.archive.org](https://web.archive.org/web/20130512103530/http://www.seomoz.org/blog/reddit-stumbleupon-delicious-and-hacker-news-algorithms-exposed)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**web.archive.org**
 
 ---
 
