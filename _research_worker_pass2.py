@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 """Borg Research Worker v2.6 - Enrich remaining entries, including fetch-failed ones using metadata"""
-import os, re, json, sqlite3, requests, time, logging, sys
-from datetime import datetime
+import os
+import re
+import json
+import sqlite3
+import requests
+import time
+import logging
+import sys
 from bs4 import BeautifulSoup, Comment
-from urllib.parse import urlparse
 sys.stdout.reconfigure(encoding='utf-8')
 
 os.makedirs('logs', exist_ok=True)
@@ -55,7 +60,7 @@ FIELD_NAMES = ['CATEGORY', 'SHORT_DESCRIPTION', 'LONG_DESCRIPTION',
                'MAIN_FEATURES', 'INNOVATION_SCORE', 'TAGS']
 
 MODELS = [
-    ("liquid/lfm2.5-1.2b", 120),   # Only use smallest model, give it time to load into VRAM
+    ("gemma-4-e4b-it-qat-unquantized-heretic", 150),  # Smallest loaded model, needs ~120s
 ]
 
 
@@ -392,7 +397,7 @@ def main():
         ORDER BY e.is_github DESC, e.id DESC""")
     all_entries = a.fetchall()
 
-    logger.info(f"Borg Research Worker v2.6 starting")
+    logger.info("Borg Research Worker v2.6 starting")
     logger.info(f"Entries to research: {len(all_entries):,}")
 
     accepted = 0
@@ -437,7 +442,7 @@ def main():
         raw, model = call_llm(prompt)
 
         if not raw:
-            logger.warning(f"  LLM failed (all models)")
+            logger.warning("  LLM failed (all models)")
             failed += 1
             continue
 
