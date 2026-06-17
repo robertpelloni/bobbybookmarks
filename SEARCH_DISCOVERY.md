@@ -1,15 +1,15 @@
 # 🔍 Search & Discovery
-> Borg Intelligence Atlas v8 · 2026-06-14 · 171 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 173 tools
 > Semantic search, web APIs, code search, MCP registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **171** |
+| Total tools | **173** |
 | Standout 🏆⭐ | 40 |
 | Avg Signal | ⚡74 |
 | Innovation 10 | 6 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 42 ████████████░░░░░░░░ |
-| Innovation 8 | 66 ████████████████████ |
+| Innovation 8 | 68 ████████████████████ |
 | Innovation 7 | 12 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 6 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 38 ███████████░░░░░░░░░ |
@@ -46,7 +46,7 @@
 
 - [Spec-Driven Development](#spec-driven-development) — 37 tools · ⚡73
 - [Context Engineering](#context-engineering) — 30 tools · ⚡76
-- [Other Tools](#other-tools) — 24 tools · ⚡57
+- [Other Tools](#other-tools) — 26 tools · ⚡56
 - [Config & Profile Management](#config--profile-management) — 19 tools · ⚡84
 - [Monitoring & Analytics](#monitoring--analytics) — 15 tools · ⚡75
 - [Bridges & Proxies](#bridges--proxies) — 14 tools · ⚡84
@@ -1159,7 +1159,7 @@
 ---
 
 ## Other Tools
-> 24 tools · avg signal ⚡57
+> 26 tools · avg signal ⚡56
 
 ### 1. [leescot/pubmed-mcp-smithery](https://github.com/leescot/pubmed-mcp-smithery)
 `8.5` ★ ⚡85 Q0.8🏆 🏆 World-class
@@ -1395,7 +1395,21 @@
 
 ---
 
-### 22. [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/details/sega32xmanuals)
+### 22. [search.google.com](https://search.google.com/search-console?resource_id=sc-domain%3Arobertpelloni.com)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**search.google.com**
+
+---
+
+### 23. [google.com](https://www.google.com/search?q=theurgy&hl=en-US&sourceid=chrome-mobile&ie=UTF-8#lfId=ChxjMe)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**google.com**
+
+---
+
+### 24. [Internet Archive: Digital Library of Free & Borrowable Texts, Movies, Music & Wayback Machine](https://archive.org/details/sega32xmanuals)
 `5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **This resource is an Internet Archive collection showcasing a digital library of free and borrowable texts, movies, and music. It serves as a comprehensive repository for users to discover and access diverse media assets, including books, films, and musical works.**
@@ -1407,14 +1421,14 @@
 
 ---
 
-### 23. [Introducing Sofya Search Fetch Extract And](https://www.reddit.com/r/mcp/comments/1tq4wz7/introducing_sofya_search_fetch_extract_and/)
+### 25. [Introducing Sofya Search Fetch Extract And](https://www.reddit.com/r/mcp/comments/1tq4wz7/introducing_sofya_search_fetch_extract_and/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Introducing Sofya Search Fetch Extract And**
 
 ---
 
-### 24. [Searching For Any Good Notebooklm Alternatives](https://www.reddit.com/r/OpenSourceAI/comments/1tqonkd/searching_for_any_good_notebooklm_alternatives/)
+### 26. [Searching For Any Good Notebooklm Alternatives](https://www.reddit.com/r/OpenSourceAI/comments/1tqonkd/searching_for_any_good_notebooklm_alternatives/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Searching For Any Good Notebooklm Alternatives**

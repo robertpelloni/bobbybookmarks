@@ -1,16 +1,16 @@
 # 🤳 Interface & Developer UX
-> Borg Intelligence Atlas v8 · 2026-06-14 · 750 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 752 tools
 > Computer-use agents, terminal UIs, IDEs, web dashboards, voice, canvas
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **750** |
+| Total tools | **752** |
 | Standout 🏆⭐ | 135 |
 | Avg Signal | ⚡76 |
 | Innovation 10 | 79 ████░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 134 ████████░░░░░░░░░░░░ |
 | Innovation 8 | 331 ████████████████████ |
-| Innovation 7 | 66 ███░░░░░░░░░░░░░░░░░ |
+| Innovation 7 | 68 ████░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 38 ██░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 91 █████░░░░░░░░░░░░░░░ |
 | Innovation 4 | 10 ░░░░░░░░░░░░░░░░░░░░ |
@@ -58,8 +58,8 @@
 - [Hooks & Lifecycle](#hooks--lifecycle) — 27 tools · ⚡75
 - [Memory & Context Systems](#memory--context-systems) — 25 tools · ⚡86
 - [Orchestration](#orchestration) — 23 tools · ⚡72
-- [Verification & Testing](#verification--testing) — 19 tools · ⚡73
-- [Major Harness Integrations](#major-harness-integrations) — 7 tools · ⚡58
+- [Verification & Testing](#verification--testing) — 20 tools · ⚡72
+- [Major Harness Integrations](#major-harness-integrations) — 8 tools · ⚡56
 - [Cli Coding Agents](#cli-coding-agents) — 2 tools · ⚡59
 
 ---
@@ -11634,7 +11634,7 @@ This tool focuses on providing developer-centric insights into the browser envir
 ---
 
 ## Verification & Testing
-> 19 tools · avg signal ⚡73
+> 20 tools · avg signal ⚡72
 
 ### 1. [dkmaker/mcp-function-app-tester](https://github.com/dkmaker/mcp-function-app-tester)
 `9.0` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -11933,8 +11933,15 @@ This tool focuses on providing developer-centric insights into the browser envir
 
 ---
 
+### 20. [Has Anyone Tested Glm 52 And Kimi 27](https://www.reddit.com/r/opencodeCLI/comments/1u5gt5n/has_anyone_tested_glm_52_and_kimi_27/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Has Anyone Tested Glm 52 And Kimi 27**
+
+---
+
 ## Major Harness Integrations
-> 7 tools · avg signal ⚡58
+> 8 tools · avg signal ⚡56
 
 ### 1. [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
 `10.0` ★★★ ⚡82 Q0.7⭐ ⭐ Excellent
@@ -11998,6 +12005,13 @@ This tool focuses on providing developer-centric insights into the browser envir
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Showing How Opencode Edits The Opencode Codebase**
+
+---
+
+### 8. [Gemini Insists On Using Nonnative Tools](https://www.reddit.com/r/GeminiCLI/comments/1u5g5jl/gemini_insists_on_using_nonnative_tools/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Gemini Insists On Using Nonnative Tools**
 
 ---
 

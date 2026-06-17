@@ -1,16 +1,16 @@
 # 👁 Context Engineering & Isolation
-> Borg Intelligence Atlas v8 · 2026-06-14 · 1,038 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 1,039 tools
 > Context compression, codebase indexing, RAG, isolation, ingestion
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,038** |
+| Total tools | **1,039** |
 | Standout 🏆⭐ | 160 |
 | Avg Signal | ⚡74 |
 | Innovation 10 | 52 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 151 █████████░░░░░░░░░░░ |
 | Innovation 8 | 332 ████████████████████ |
-| Innovation 7 | 162 █████████░░░░░░░░░░░ |
+| Innovation 7 | 163 █████████░░░░░░░░░░░ |
 | Innovation 6 | 72 ████░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 261 ███████████████░░░░░ |
 | Innovation 4 | 8 ░░░░░░░░░░░░░░░░░░░░ |
@@ -47,7 +47,7 @@
 - [Spec-Driven Development](#spec-driven-development) — 223 tools · ⚡70
 - [Memory & Context Systems](#memory--context-systems) — 154 tools · ⚡74
 - [Governance & Safety](#governance--safety) — 119 tools · ⚡75
-- [Config & Profile Management](#config--profile-management) — 81 tools · ⚡84
+- [Config & Profile Management](#config--profile-management) — 82 tools · ⚡84
 - [Monitoring & Analytics](#monitoring--analytics) — 80 tools · ⚡75
 - [Context Engineering](#context-engineering) — 79 tools · ⚡78
 - [Other Tools](#other-tools) — 77 tools · ⚡60
@@ -7969,7 +7969,7 @@ The core functionality involves transforming documents into manageable fragments
 ---
 
 ## Config & Profile Management
-> 81 tools · avg signal ⚡84
+> 82 tools · avg signal ⚡84
 
 ### 1. [szeider/mcp-solver](https://github.com/szeider/mcp-solver)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -9316,6 +9316,13 @@ The core functionality involves transforming documents into manageable fragments
 - AI-powered knowledge management
 
 *Tags: ai-agents, personal-wiki, knowledge-management, obsidian, context-engineering, memory*
+
+---
+
+### 82. [What Would Make A Reusable Mcp Configserver](https://www.reddit.com/r/modelcontextprotocol/comments/1u62cnq/what_would_make_a_reusable_mcp_configserver/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**What Would Make A Reusable Mcp Configserver**
 
 ---
 

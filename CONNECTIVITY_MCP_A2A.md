@@ -1,16 +1,16 @@
 # ⚡ Connectivity / MCP / A2A
-> Borg Intelligence Atlas v8 · 2026-06-14 · 894 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 898 tools
 > MCP infrastructure, A2A, gateways, tool discovery, registries
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **894** |
+| Total tools | **898** |
 | Standout 🏆⭐ | 165 |
 | Avg Signal | ⚡75 |
 | Innovation 10 | 66 ███░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 149 ███████░░░░░░░░░░░░░ |
 | Innovation 8 | 423 ████████████████████ |
-| Innovation 7 | 126 █████░░░░░░░░░░░░░░░ |
+| Innovation 7 | 130 ██████░░░░░░░░░░░░░░ |
 | Innovation 6 | 104 ████░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 24 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 4 | 2 ░░░░░░░░░░░░░░░░░░░░ |
@@ -44,12 +44,12 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 215 tools · ⚡54
+- [Other Tools](#other-tools) — 218 tools · ⚡54
 - [Spec-Driven Development](#spec-driven-development) — 147 tools · ⚡78
 - [Bridges & Proxies](#bridges--proxies) — 129 tools · ⚡81
 - [Monitoring & Analytics](#monitoring--analytics) — 83 tools · ⚡85
 - [Config & Profile Management](#config--profile-management) — 67 tools · ⚡83
-- [Skill Systems](#skill-systems) — 56 tools · ⚡85
+- [Skill Systems](#skill-systems) — 57 tools · ⚡84
 - [Governance & Safety](#governance--safety) — 46 tools · ⚡83
 - [Hooks & Lifecycle](#hooks--lifecycle) — 41 tools · ⚡84
 - [Context Engineering](#context-engineering) — 32 tools · ⚡77
@@ -62,7 +62,7 @@
 ---
 
 ## Other Tools
-> 215 tools · avg signal ⚡54
+> 218 tools · avg signal ⚡54
 
 ### 1. [kukapay/nearby-search-mcp](https://github.com/kukapay/nearby-search-mcp)
 `8.8` ★ ⚡91 Q0.9🏆 🏆 World-class
@@ -1849,35 +1849,56 @@
 
 ---
 
-### 211. [Mcp For Finance Teams](https://www.reddit.com/r/mcp/comments/1tpa6jo/mcp_for_finance_teams/)
+### 211. [Free Hosted Mcp Server For Open German City Data](https://www.reddit.com/r/mcp/comments/1u4w65a/free_hosted_mcp_server_for_open_german_city_data/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Free Hosted Mcp Server For Open German City Data**
+
+---
+
+### 212. [Post Fable 5 Ban Opensource Llm Is Smart Idea](https://www.reddit.com/r/MCPservers/comments/1u52z1p/post_fable_5_ban_opensource_llm_is_smart_idea/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Post Fable 5 Ban Opensource Llm Is Smart Idea**
+
+---
+
+### 213. [I Built An Open Source Codexfirst Tldraw Mcp](https://www.reddit.com/r/mcp/comments/1u63xl5/i_built_an_open_source_codexfirst_tldraw_mcp/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Built An Open Source Codexfirst Tldraw Mcp**
+
+---
+
+### 214. [Mcp For Finance Teams](https://www.reddit.com/r/mcp/comments/1tpa6jo/mcp_for_finance_teams/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Mcp For Finance Teams**
 
 ---
 
-### 212. [Cabetools Mcp](https://www.reddit.com/r/google_antigravity/comments/1tpg7nv/cabetools_mcp/)
+### 215. [Cabetools Mcp](https://www.reddit.com/r/google_antigravity/comments/1tpg7nv/cabetools_mcp/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Cabetools Mcp**
 
 ---
 
-### 213. [Mcp And Mpp Payments](https://www.reddit.com/r/mcp/comments/1tpmmx8/mcp_and_mpp_payments/)
+### 216. [Mcp And Mpp Payments](https://www.reddit.com/r/mcp/comments/1tpmmx8/mcp_and_mpp_payments/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Mcp And Mpp Payments**
 
 ---
 
-### 214. [This Look Right](https://www.reddit.com/r/mcp/comments/1tr4mng/this_look_right/)
+### 217. [This Look Right](https://www.reddit.com/r/mcp/comments/1tr4mng/this_look_right/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **This Look Right**
 
 ---
 
-### 215. [How Many Mcp Servers](https://www.reddit.com/r/MCPservers/comments/1tsqjqd/how_many_mcp_servers/)
+### 218. [How Many Mcp Servers](https://www.reddit.com/r/MCPservers/comments/1tsqjqd/how_many_mcp_servers/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **How Many Mcp Servers**
@@ -8832,7 +8853,7 @@ This tool is essential for developers needing to build modern, responsive web ap
 ---
 
 ## Skill Systems
-> 56 tools · avg signal ⚡85
+> 57 tools · avg signal ⚡84
 
 ### 1. [cuongtl1992/mcp-dbs](https://github.com/cuongtl1992/mcp-dbs)
 `10.0` ★★★ ⚡96 Q0.9🏆 🏆 World-class
@@ -9789,6 +9810,13 @@ This tool is essential for developers needing to build modern, responsive web ap
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Goldenpipe One Command To Validate Transform And**
+
+---
+
+### 57. [Ran Nvidias Skillspector Against My Mcp Tool](https://www.reddit.com/r/mcp/comments/1u5xgpe/ran_nvidias_skillspector_against_my_mcp_tool/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Ran Nvidias Skillspector Against My Mcp Tool**
 
 ---
 

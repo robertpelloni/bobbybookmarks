@@ -1,16 +1,16 @@
 # 🗺 Guides & Industry Trends
-> Borg Intelligence Atlas v8 · 2026-06-14 · 1,735 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 1,752 tools
 > Awesome lists, tutorials, architecture patterns, benchmarks
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,735** |
+| Total tools | **1,752** |
 | Standout 🏆⭐ | 79 |
 | Avg Signal | ⚡60 |
 | Innovation 10 | 71 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 133 █░░░░░░░░░░░░░░░░░░░ |
-| Innovation 8 | 1386 ████████████████████ |
-| Innovation 7 | 56 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 8 | 1390 ████████████████████ |
+| Innovation 7 | 69 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 83 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 4 | 3 ░░░░░░░░░░░░░░░░░░░░ |
@@ -44,7 +44,7 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 1140 tools · ⚡51
+- [Other Tools](#other-tools) — 1155 tools · ⚡51
 - [Spec-Driven Development](#spec-driven-development) — 145 tools · ⚡78
 - [Bridges & Proxies](#bridges--proxies) — 65 tools · ⚡80
 - [Monitoring & Analytics](#monitoring--analytics) — 62 tools · ⚡76
@@ -58,12 +58,12 @@
 - [Harness Frameworks](#harness-frameworks) — 20 tools · ⚡81
 - [Verification & Testing](#verification--testing) — 16 tools · ⚡75
 - [Browser & Web Tools](#browser--web-tools) — 8 tools · ⚡63
-- [Major Harness Integrations](#major-harness-integrations) — 5 tools · ⚡55
+- [Major Harness Integrations](#major-harness-integrations) — 7 tools · ⚡52
 
 ---
 
 ## Other Tools
-> 1140 tools · avg signal ⚡51
+> 1155 tools · avg signal ⚡51
 
 ### 1. [elsejj/mcp-cn-a-stock](https://github.com/elsejj/mcp-cn-a-stock)
 `9.0` ★★ ⚡89 Q0.9🏆 🏆 World-class
@@ -8230,7 +8230,35 @@
 
 ---
 
-### 1116. [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors - Alexey Guzey](https://guzey.com/books/why-we-sleep/)
+### 1116. [chutes.ai](https://chutes.ai/app/chute/b048fe26-0352-5c46-acf7-335e527e7f3d)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**chutes.ai**
+
+---
+
+### 1117. [code.intellios.ai](https://code.intellios.ai/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**code.intellios.ai**
+
+---
+
+### 1118. [vast.ai](https://vast.ai/model/dia-1.6b?rdt_cid=5499486651254613987&utm_campaign=model_library&utm_medium=paid&utm_source=reddit)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**vast.ai**
+
+---
+
+### 1119. [vybestack.dev](https://vybestack.dev/llxprt-code.html)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**vybestack.dev**
+
+---
+
+### 1120. [Matthew Walker's "Why We Sleep" Is Riddled with Scientific and Factual Errors - Alexey Guzey](https://guzey.com/books/why-we-sleep/)
 `5.0` ★ ⚡47 Q0.6○ ○ Adequate
 
 **This resource is an analysis of Matthew Walker's book, 'Why We Sleep,' which delves into the scientific evidence surrounding human sleep and its importance. It serves as a guide for understanding the critical role of sleep in health and societal well-being, often highlighting areas where scientific consensus meets practical application.**
@@ -8242,171 +8270,248 @@
 
 ---
 
-### 1117. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
+### 1121. [If You Had Early Access To Build In The Next Ai](https://www.reddit.com/r/RoboCorpNetwork/comments/1sd0yfm/if_you_had_early_access_to_build_in_the_next_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If You Had Early Access To Build In The Next Ai**
 
 ---
 
-### 1118. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
+### 1122. [Next Week Starship V3 A Massively Improved](https://www.reddit.com/r/accelerate/comments/1t86eea/next_week_starship_v3_a_massively_improved/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Next Week Starship V3 A Massively Improved**
 
 ---
 
-### 1119. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
+### 1123. [Physicists Say Its Possible To Send Messages](https://www.reddit.com/r/accelerate/comments/1t8uuso/physicists_say_its_possible_to_send_messages/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Physicists Say Its Possible To Send Messages**
 
 ---
 
-### 1120. [Unpopular Opinion Stop Trying To Make Your Ai](https://www.reddit.com/r/LangChain/comments/1to5m2e/unpopular_opinion_stop_trying_to_make_your_ai/)
+### 1124. [Unpopular Opinion Stop Trying To Make Your Ai](https://www.reddit.com/r/LangChain/comments/1to5m2e/unpopular_opinion_stop_trying_to_make_your_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Unpopular Opinion Stop Trying To Make Your Ai**
 
 ---
 
-### 1121. [Best Free Notebooklm Alternatives In 2026](https://www.reddit.com/r/AIToolsAndTips/comments/1tnywas/best_free_notebooklm_alternatives_in_2026/)
+### 1125. [Best Free Notebooklm Alternatives In 2026](https://www.reddit.com/r/AIToolsAndTips/comments/1tnywas/best_free_notebooklm_alternatives_in_2026/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Best Free Notebooklm Alternatives In 2026**
 
 ---
 
-### 1122. [Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus](https://www.reddit.com/r/DeepSeek/comments/1top7l7/deepseek_ai_moment_20_v4_coding_matches_gpt_opus/)
+### 1126. [Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus](https://www.reddit.com/r/DeepSeek/comments/1top7l7/deepseek_ai_moment_20_v4_coding_matches_gpt_opus/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Deepseek Ai Moment 20 V4 Coding Matches Gpt Opus**
 
 ---
 
-### 1123. [Startups Dont Need To Automate More They Need To](https://www.reddit.com/r/AIStartupAutomation/comments/1tlc519/startups_dont_need_to_automate_more_they_need_to/)
+### 1127. [Startups Dont Need To Automate More They Need To](https://www.reddit.com/r/AIStartupAutomation/comments/1tlc519/startups_dont_need_to_automate_more_they_need_to/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Startups Dont Need To Automate More They Need To**
 
 ---
 
-### 1124. [Scientists Say Theyve Reversed Brain Aging With A](https://www.reddit.com/r/immortalists/comments/1toht3l/scientists_say_theyve_reversed_brain_aging_with_a/)
+### 1128. [Scientists Say Theyve Reversed Brain Aging With A](https://www.reddit.com/r/immortalists/comments/1toht3l/scientists_say_theyve_reversed_brain_aging_with_a/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Scientists Say Theyve Reversed Brain Aging With A**
 
 ---
 
-### 1125. [I Turned Notebooklm Into A Fully Modular](https://www.reddit.com/r/notebooklm/comments/1toxc01/i_turned_notebooklm_into_a_fully_modular/)
+### 1129. [I Turned Notebooklm Into A Fully Modular](https://www.reddit.com/r/notebooklm/comments/1toxc01/i_turned_notebooklm_into_a_fully_modular/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Turned Notebooklm Into A Fully Modular**
 
 ---
 
-### 1126. [Im Building An Opensource Decision Layer Above Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1tp6wv2/im_building_an_opensource_decision_layer_above_ai/)
+### 1130. [Im Building An Opensource Decision Layer Above Ai](https://www.reddit.com/r/OpenSourceeAI/comments/1tp6wv2/im_building_an_opensource_decision_layer_above_ai/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im Building An Opensource Decision Layer Above Ai**
 
 ---
 
-### 1127. [Amazon Just Informed Me That My Paid Music](https://old.reddit.com/r/mildlyinfuriating/comments/1tur3w5/amazon_just_informed_me_that_my_paid_music/)
+### 1131. [Amazon Just Informed Me That My Paid Music](https://old.reddit.com/r/mildlyinfuriating/comments/1tur3w5/amazon_just_informed_me_that_my_paid_music/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Amazon Just Informed Me That My Paid Music**
 
 ---
 
-### 1128. [If Youre Vibe Coding On Top Of A Freelancers](https://old.reddit.com/r/VibeCodeDevs/comments/1ttxj7t/if_youre_vibe_coding_on_top_of_a_freelancers/)
+### 1132. [If Youre Vibe Coding On Top Of A Freelancers](https://old.reddit.com/r/VibeCodeDevs/comments/1ttxj7t/if_youre_vibe_coding_on_top_of_a_freelancers/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **If Youre Vibe Coding On Top Of A Freelancers**
 
 ---
 
-### 1129. [Advice On Best Tools To Use For Coding With Local](https://www.reddit.com/r/LocalLLM/comments/1tpjl0i/advice_on_best_tools_to_use_for_coding_with_local/)
+### 1133. [Advice On Best Tools To Use For Coding With Local](https://www.reddit.com/r/LocalLLM/comments/1tpjl0i/advice_on_best_tools_to_use_for_coding_with_local/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Advice On Best Tools To Use For Coding With Local**
 
 ---
 
-### 1130. [Im Creating My Own Personal Offline Rebel Llm](https://www.reddit.com/r/LocalLLM/comments/1tpml7u/im_creating_my_own_personal_offline_rebel_llm/)
+### 1134. [Im Creating My Own Personal Offline Rebel Llm](https://www.reddit.com/r/LocalLLM/comments/1tpml7u/im_creating_my_own_personal_offline_rebel_llm/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Im Creating My Own Personal Offline Rebel Llm**
 
 ---
 
-### 1131. [Walkthrough Is Always Full Of Lies And False](https://www.reddit.com/r/google_antigravity/comments/1tppvj1/walkthrough_is_always_full_of_lies_and_false/)
+### 1135. [Walkthrough Is Always Full Of Lies And False](https://www.reddit.com/r/google_antigravity/comments/1tppvj1/walkthrough_is_always_full_of_lies_and_false/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Walkthrough Is Always Full Of Lies And False**
 
 ---
 
-### 1132. [Went To A Pawn Shop For The First Timenever Again](https://www.reddit.com/r/Vent/comments/1tpuzy8/went_to_a_pawn_shop_for_the_first_timenever_again/)
+### 1136. [Went To A Pawn Shop For The First Timenever Again](https://www.reddit.com/r/Vent/comments/1tpuzy8/went_to_a_pawn_shop_for_the_first_timenever_again/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Went To A Pawn Shop For The First Timenever Again**
 
 ---
 
-### 1133. [Suggest Any Good Notebooklm Alternatives Youd](https://www.reddit.com/r/LangChain/comments/1tqm360/suggest_any_good_notebooklm_alternatives_youd/)
+### 1137. [Suggest Any Good Notebooklm Alternatives Youd](https://www.reddit.com/r/LangChain/comments/1tqm360/suggest_any_good_notebooklm_alternatives_youd/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Suggest Any Good Notebooklm Alternatives Youd**
 
 ---
 
-### 1134. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
+### 1138. [Anthropic Suspends Access To Claude Fable And](https://www.reddit.com/r/artificial/comments/1u4ef3y/anthropic_suspends_access_to_claude_fable_and/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Anthropic Suspends Access To Claude Fable And**
+
+---
+
+### 1139. [Hilarious Post From David Sacks Explaining The](https://www.reddit.com/r/ArtificialInteligence/comments/1u54sp4/hilarious_post_from_david_sacks_explaining_the/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Hilarious Post From David Sacks Explaining The**
+
+---
+
+### 1140. [This Is Coming To Chinese Open Source Models](https://www.reddit.com/r/LocalLLaMA/comments/1u4wy3p/this_is_coming_to_chinese_open_source_models/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**This Is Coming To Chinese Open Source Models**
+
+---
+
+### 1141. [Sonnet 4Level Local Model That Fits 50Gb Vram](https://www.reddit.com/r/LocalLLM/comments/1u53sri/sonnet_4level_local_model_that_fits_50gb_vram/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Sonnet 4Level Local Model That Fits 50Gb Vram**
+
+---
+
+### 1142. [All Zai Glm Coding Models 52 51T 47 45A Vs](https://www.reddit.com/r/ZaiGLM/comments/1u562cy/all_zai_glm_coding_models_52_51t_47_45a_vs/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**All Zai Glm Coding Models 52 51T 47 45A Vs**
+
+---
+
+### 1143. [Those That Have Tasked Notebooklm With Handling](https://www.reddit.com/r/notebooklm/comments/1u5rpr3/those_that_have_tasked_notebooklm_with_handling/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Those That Have Tasked Notebooklm With Handling**
+
+---
+
+### 1144. [We Turned Claude Into A Drunk Genius And The](https://www.reddit.com/r/OpenSourceAI/comments/1u6hqrx/we_turned_claude_into_a_drunk_genius_and_the/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**We Turned Claude Into A Drunk Genius And The**
+
+---
+
+### 1145. [Hacker News Discussion](https://news.ycombinator.com/item?id=47575616)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 47575616**
 
 ---
 
-### 1135. [Hacker News Discussion](https://news.ycombinator.com/item?id=47961378)
+### 1146. [Hacker News Discussion](https://news.ycombinator.com/item?id=47961378)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 47961378**
 
 ---
 
-### 1136. [Hacker News Discussion](https://news.ycombinator.com/item?id=48087887)
+### 1147. [Hacker News Discussion](https://news.ycombinator.com/item?id=48087887)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48087887**
 
 ---
 
-### 1137. [Claude Mythos](https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/)
+### 1148. [Claude Mythos](https://www.reddit.com/r/ArtificialInteligence/comments/1tovogt/claude_mythos/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Claude Mythos**
 
 ---
 
-### 1138. [Hacker News Discussion](https://news.ycombinator.com/item?id=48300280)
+### 1149. [Hacker News Discussion](https://news.ycombinator.com/item?id=48300280)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48300280**
 
 ---
 
-### 1139. [Hacker News Discussion](https://news.ycombinator.com/item?id=48324499)
+### 1150. [Hacker News Discussion](https://news.ycombinator.com/item?id=48324499)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48324499**
 
 ---
 
-### 1140. [Hacker News Discussion](https://news.ycombinator.com/item?id=48340262)
+### 1151. [Hacker News Discussion](https://news.ycombinator.com/item?id=48340262)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **HN: 48340262**
+
+---
+
+### 1152. [Hacker News Discussion](https://news.ycombinator.com/item?id=48518684)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**HN: 48518684**
+
+---
+
+### 1153. [Hacker News Discussion](https://news.ycombinator.com/item?id=48537641)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**HN: 48537641**
+
+---
+
+### 1154. [Hacker News Discussion](https://news.ycombinator.com/item?id=48549918)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**HN: 48549918**
+
+---
+
+### 1155. [Hacker News Discussion](https://news.ycombinator.com/item?id=48552687)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**HN: 48552687**
 
 ---
 
@@ -17777,7 +17882,7 @@ The report provides a structured overview of the scientific inquiry undertaken b
 ---
 
 ## Major Harness Integrations
-> 5 tools · avg signal ⚡55
+> 7 tools · avg signal ⚡52
 
 ### 1. [Google's new 'Aluminium OS' project brings Android to PC: Here's what we know](https://www.androidauthority.com/aluminium-os-android-for-pcs-3619092)
 `10.0` ★★★ ⚡74 Q0.6⭐ ⭐ Excellent
@@ -17827,5 +17932,19 @@ The report provides a structured overview of the scientific inquiry undertaken b
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **New Gemini 35 Flash Model Usage Reset**
+
+---
+
+### 6. [Gemini Is Now Claude Fable 5](https://www.reddit.com/r/google_antigravity/comments/1u566fd/gemini_is_now_claude_fable_5/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Gemini Is Now Claude Fable 5**
+
+---
+
+### 7. [Will Gemini 35 Pro Be Delayed Because Fable 5 Was](https://www.reddit.com/r/GeminiAI/comments/1u4qhkp/will_gemini_35_pro_be_delayed_because_fable_5_was/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Will Gemini 35 Pro Be Delayed Because Fable 5 Was**
 
 ---

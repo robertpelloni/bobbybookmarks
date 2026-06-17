@@ -1,16 +1,16 @@
 # 🧬 Memory & Persistence Architecture
-> Borg Intelligence Atlas v8 · 2026-06-14 · 221 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 223 tools
 > Graph memory, episodic, semantic, MCP memory, second brain, memory OS
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **221** |
+| Total tools | **223** |
 | Standout 🏆⭐ | 84 |
-| Avg Signal | ⚡82 |
+| Avg Signal | ⚡81 |
 | Innovation 10 | 66 ████████████████░░░░ |
 | Innovation 9 | 80 ████████████████████ |
 | Innovation 8 | 57 ██████████████░░░░░░ |
-| Innovation 7 | 15 ███░░░░░░░░░░░░░░░░░ |
+| Innovation 7 | 17 ████░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 3 ░░░░░░░░░░░░░░░░░░░░ |
 
 ---
@@ -42,7 +42,7 @@
 
 ## Contents
 
-- [Memory & Context Systems](#memory--context-systems) — 176 tools · ⚡84
+- [Memory & Context Systems](#memory--context-systems) — 178 tools · ⚡83
 - [Other Tools](#other-tools) — 20 tools · ⚡67
 - [Spec-Driven Development](#spec-driven-development) — 7 tools · ⚡83
 - [Context Engineering](#context-engineering) — 6 tools · ⚡80
@@ -54,7 +54,7 @@
 ---
 
 ## Memory & Context Systems
-> 176 tools · avg signal ⚡84
+> 178 tools · avg signal ⚡83
 
 ### 1. [ojowwalker77/Claude-Matrix](https://github.com/ojowwalker77/Claude-Matrix)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -2977,6 +2977,20 @@ It is built specifically for the Model Context Protocol (MCP) framework, offerin
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Gave My Ai A Permanent Memory And A Costaware**
+
+---
+
+### 177. [What Tool Are You Using For Better Ai Memory](https://www.reddit.com/r/mcp/comments/1u55m13/what_tool_are_you_using_for_better_ai_memory/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**What Tool Are You Using For Better Ai Memory**
+
+---
+
+### 178. [Memcp Give Your Ai Memory Over Mcp](https://www.reddit.com/r/mcp/comments/1u61ksx/memcp_give_your_ai_memory_over_mcp/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Memcp Give Your Ai Memory Over Mcp**
 
 ---
 

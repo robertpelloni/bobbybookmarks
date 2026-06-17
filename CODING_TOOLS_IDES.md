@@ -1,15 +1,15 @@
 # 💻 Coding Tools & IDEs
-> Borg Intelligence Atlas v8 · 2026-06-14 · 1,250 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 1,251 tools
 > AI editors, autocomplete, code review, refactoring, testing
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **1,250** |
+| Total tools | **1,251** |
 | Standout 🏆⭐ | 54 |
 | Avg Signal | ⚡70 |
 | Innovation 10 | 17 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 52 ██░░░░░░░░░░░░░░░░░░ |
-| Innovation 8 | 170 ████████░░░░░░░░░░░░ |
+| Innovation 8 | 171 ████████░░░░░░░░░░░░ |
 | Innovation 7 | 293 ███████████████░░░░░ |
 | Innovation 6 | 326 ████████████████░░░░ |
 | Innovation 5 | 385 ████████████████████ |
@@ -46,7 +46,7 @@
 ## Contents
 
 - [Spec-Driven Development](#spec-driven-development) — 295 tools · ⚡69
-- [Other Tools](#other-tools) — 168 tools · ⚡62
+- [Other Tools](#other-tools) — 169 tools · ⚡62
 - [Skill Systems](#skill-systems) — 138 tools · ⚡73
 - [Config & Profile Management](#config--profile-management) — 131 tools · ⚡75
 - [Monitoring & Analytics](#monitoring--analytics) — 77 tools · ⚡70
@@ -4650,7 +4650,7 @@ The tool allows developers or AI agents to query specific information related to
 ---
 
 ## Other Tools
-> 168 tools · avg signal ⚡62
+> 169 tools · avg signal ⚡62
 
 ### 1. [Pragadeesh-19/HammingStore](https://github.com/Pragadeesh-19/HammingStore)
 `8.0` ★ ⚡89 Q0.9🏆 🏆 World-class
@@ -6802,7 +6802,14 @@ This tool helps developers quickly implement robust UI features using Vue.js by 
 
 ---
 
-### 159. [teorth/erdosproblems](https://github.com/teorth/erdosproblems)
+### 159. [temu.com](https://www.temu.com/ul/kuiper/un1.html?subj=feed-un&_bg_fs=1&_p_mat1_type=1&_p_jump_id=725&_x_vst_scene=adg&goods_id=601099733914882&adg_ctx=a-0a92fe7d~t-ijwn~f-eeb57a43&_x_ns_adx_req_id=1fd25b68-c1c1-4c6c-bb56-ff6d31cf0c26&conn_type=WIFI&_x_ads_creative_id=4317503380002676&_x_ads_sub_channel=adx_vungle&_x_ns_goods_id=601099733914882&_p_rfs=1&rank_req_id=1fd25b68-c1c1-4c6c-bb56-ff6d31cf0c26&_x_ads_csite=video_image&_x_ads_account=1117285508000001&_x_ads_set=2317503380000211&_x_ns_adx_auction_id=6a2ed118e8e63b89e40efb4a&ads_w=320&_x_ads_id=3317503380000211&plcmt_c1=Games&_x_ns_gid=601099733914882&_x_ads_channel=adx_union&_x_ns_adx_p_type=1&placement=1196764367&_x_cid=mat_8317515332000452&_x_ns_plat=app&ads_h=480&is_retain=1)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**temu.com**
+
+---
+
+### 160. [teorth/erdosproblems](https://github.com/teorth/erdosproblems)
 `5.0` ★ ⚡49 Q0.5○ ○ Adequate
 
 **This repository provides a community-driven database of problems from the erdosproblems.com site, likely serving as a resource for solving or understanding mathematical/algorithmic challenges. It is structured with Go, and includes necessary files for documentation and contribution guidelines.**
@@ -6814,7 +6821,7 @@ This tool helps developers quickly implement robust UI features using Vue.js by 
 
 ---
 
-### 160. [The LuaJIT Project](http://luajit.org)
+### 161. [The LuaJIT Project](http://luajit.org)
 `6.0` ★ ⚡45 Q0.4○ ○ Adequate
 
 **This resource provides the core project page for LuaJIT, a Just-In-Time Compiler designed to enhance performance for Lua. It highlights key components like the FFI Library, String Buffers, and the Dynamic Assembler (DynASM), showcasing its role in optimizing execution within the Lua ecosystem.**
@@ -6826,7 +6833,7 @@ This tool helps developers quickly implement robust UI features using Vue.js by 
 
 ---
 
-### 161. [Why Janet?](https://ianthehenry.com/posts/why-janet/)
+### 162. [Why Janet?](https://ianthehenry.com/posts/why-janet/)
 `6.0` ★ ⚡45 Q0.4○ ○ Adequate
 
 **Janet is a programming language that offers an imperative structure with first-class functions, single namespace, and lexical block scoping. It is designed to be simple yet powerful, allowing developers to create concise programs and compile them into native executables easily.**
@@ -6838,7 +6845,7 @@ This tool helps developers quickly implement robust UI features using Vue.js by 
 
 ---
 
-### 162. [The Programming Language Lua](http://www.lua.org)
+### 163. [The Programming Language Lua](http://www.lua.org)
 `5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Lua is an embedded scripting language designed to be lightweight, fast, and easily embeddable into larger applications. It is popular for its high performance in game development and systems programming due to its small footprint and excellent performance characteristics.**
@@ -6850,42 +6857,42 @@ This tool helps developers quickly implement robust UI features using Vue.js by 
 
 ---
 
-### 163. [I Wasted 3 Months Building Something Nobody Wanted](https://www.reddit.com/r/startupideas/comments/1shmblc/i_wasted_3_months_building_something_nobody_wanted/)
+### 164. [I Wasted 3 Months Building Something Nobody Wanted](https://www.reddit.com/r/startupideas/comments/1shmblc/i_wasted_3_months_building_something_nobody_wanted/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Wasted 3 Months Building Something Nobody Wanted**
 
 ---
 
-### 164. [You Inherited A Small Empty Retail Space In A](https://www.reddit.com/r/SideHustleGold/comments/1tpffvo/you_inherited_a_small_empty_retail_space_in_a/)
+### 165. [You Inherited A Small Empty Retail Space In A](https://www.reddit.com/r/SideHustleGold/comments/1tpffvo/you_inherited_a_small_empty_retail_space_in_a/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **You Inherited A Small Empty Retail Space In A**
 
 ---
 
-### 165. [My Entire Saas Runs On 6 Tools Heres The Stack](https://www.reddit.com/r/SideProject/comments/1tpjaak/my_entire_saas_runs_on_6_tools_heres_the_stack/)
+### 166. [My Entire Saas Runs On 6 Tools Heres The Stack](https://www.reddit.com/r/SideProject/comments/1tpjaak/my_entire_saas_runs_on_6_tools_heres_the_stack/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **My Entire Saas Runs On 6 Tools Heres The Stack**
 
 ---
 
-### 166. [I Burned 18450 In Ai Credits This Month Building](https://www.reddit.com/r/vibecoding/comments/1tplqn5/i_burned_18450_in_ai_credits_this_month_building/)
+### 167. [I Burned 18450 In Ai Credits This Month Building](https://www.reddit.com/r/vibecoding/comments/1tplqn5/i_burned_18450_in_ai_credits_this_month_building/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **I Burned 18450 In Ai Credits This Month Building**
 
 ---
 
-### 167. [Got Laid Off Built A Weird Internet Project In](https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tpr41n/got_laid_off_built_a_weird_internet_project_in/)
+### 168. [Got Laid Off Built A Weird Internet Project In](https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tpr41n/got_laid_off_built_a_weird_internet_project_in/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Got Laid Off Built A Weird Internet Project In**
 
 ---
 
-### 168. [Google Code Archive - Long-term storage for Google Code Project Hosting.](http://code.google.com/p/shinyprofiler/)
+### 169. [Google Code Archive - Long-term storage for Google Code Project Hosting.](http://code.google.com/p/shinyprofiler/)
 `5.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Google Code Archive provides a dedicated service for storing and managing code projects, offering a robust solution for developers to archive their work. It serves as a centralized repository for code assets, enabling long-term preservation and accessibility for development resources.**

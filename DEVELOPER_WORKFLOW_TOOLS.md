@@ -1,16 +1,16 @@
 # 🔧 Developer Workflow & Tools
-> Borg Intelligence Atlas v8 · 2026-06-14 · 788 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 804 tools
 > Git, CI/CD, project management, documentation
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **788** |
+| Total tools | **804** |
 | Standout 🏆⭐ | 231 |
-| Avg Signal | ⚡83 |
+| Avg Signal | ⚡82 |
 | Innovation 10 | 51 ██░░░░░░░░░░░░░░░░░░ |
-| Innovation 9 | 345 ██████████████████░░ |
+| Innovation 9 | 360 ███████████████████░ |
 | Innovation 8 | 375 ████████████████████ |
-| Innovation 7 | 13 ░░░░░░░░░░░░░░░░░░░░ |
+| Innovation 7 | 14 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 6 | 2 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 5 | 2 ░░░░░░░░░░░░░░░░░░░░ |
 
@@ -43,13 +43,13 @@
 
 ## Contents
 
-- [Other Tools](#other-tools) — 160 tools · ⚡64
-- [Bridges & Proxies](#bridges--proxies) — 125 tools · ⚡88
+- [Other Tools](#other-tools) — 174 tools · ⚡63
+- [Bridges & Proxies](#bridges--proxies) — 126 tools · ⚡88
 - [Config & Profile Management](#config--profile-management) — 114 tools · ⚡88
 - [Monitoring & Analytics](#monitoring--analytics) — 71 tools · ⚡89
 - [Spec-Driven Development](#spec-driven-development) — 62 tools · ⚡87
 - [Skill Systems](#skill-systems) — 56 tools · ⚡88
-- [Orchestration](#orchestration) — 51 tools · ⚡89
+- [Orchestration](#orchestration) — 52 tools · ⚡88
 - [Governance & Safety](#governance--safety) — 35 tools · ⚡89
 - [Harness Frameworks](#harness-frameworks) — 27 tools · ⚡87
 - [Hooks & Lifecycle](#hooks--lifecycle) — 22 tools · ⚡89
@@ -62,7 +62,7 @@
 ---
 
 ## Other Tools
-> 160 tools · avg signal ⚡64
+> 174 tools · avg signal ⚡63
 
 ### 1. [elevenlabs/elevenlabs-mcp](https://github.com/elevenlabs/elevenlabs-mcp)
 `9.8` ★★ ⚡92 Q0.9🏆 🏆 World-class
@@ -1188,7 +1188,98 @@
 
 ---
 
-### 137. [Locus Founder — the agentic business OS](https://app.locusfounder.com/start/idea)
+### 137. [KorroAi/drunk-claude](https://github.com/KorroAi/drunk-claude)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: KorroAi/drunk-claude**
+
+---
+
+### 138. [btahir/agent-order](https://github.com/btahir/agent-order)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: btahir/agent-order**
+
+---
+
+### 139. [ai16z/eliza](https://github.com/ai16z/eliza)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ai16z/eliza**
+
+---
+
+### 140. [sgl-project/sglang](https://github.com/sgl-project/sglang)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: sgl-project/sglang**
+
+---
+
+### 141. [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: microsoft/semantic-kernel**
+
+---
+
+### 142. [fixie-ai/llm-code](https://github.com/fixie-ai/llm-code)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: fixie-ai/llm-code**
+
+---
+
+### 143. [ByteDance-Seed/BagEL](https://github.com/ByteDance-Seed/BagEL)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ByteDance-Seed/BagEL**
+
+---
+
+### 144. [phidatahq/phidata](https://github.com/phidatahq/phidata)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: phidatahq/phidata**
+
+---
+
+### 145. [MarkFzp/agents](https://github.com/MarkFzp/agents)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: MarkFzp/agents**
+
+---
+
+### 146. [ToonzzZ/open-mcp](https://github.com/ToonzzZ/open-mcp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: ToonzzZ/open-mcp**
+
+---
+
+### 147. [lastmile-ai/openagents](https://github.com/lastmile-ai/openagents)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: lastmile-ai/openagents**
+
+---
+
+### 148. [nicepkg/gpt-runner](https://github.com/nicepkg/gpt-runner)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: nicepkg/gpt-runner**
+
+---
+
+### 149. [microsoft/azure-ai-mcp](https://github.com/microsoft/azure-ai-mcp)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: microsoft/azure-ai-mcp**
+
+---
+
+### 150. [Locus Founder — the agentic business OS](https://app.locusfounder.com/start/idea)
 `6.0` ★ ⚡61 Q18.3✓ ✓ Solid
 
 **Locus Founder is the agentic business OS. Spin up a business, ship a site, run outbound, and grow — all driven by your agent.**
@@ -1197,7 +1288,7 @@
 
 ---
 
-### 138. [The future of email | Fastmail](https://www.fastmail.com/blog/the-future-of-email/)
+### 151. [The future of email | Fastmail](https://www.fastmail.com/blog/the-future-of-email/)
 `6.0` ★ ⚡61 Q18.3✓ ✓ Solid
 
 **As AI starts reading and actioning our inboxes, email authentication becomes the trust layer that the future of email depends on.**
@@ -1206,162 +1297,169 @@
 
 ---
 
-### 139. [https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718](https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718)
+### 152. [https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718](https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/M-Garcia22/542a9a38d93aae1b5cf21fc604253718**
 
 ---
 
-### 140. [https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c](https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c)
+### 153. [https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c](https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/M-Garcia22/ff4ec80f5a08ca2fd9234bcc35804d1c**
 
 ---
 
-### 141. [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
+### 154. [https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f**
 
 ---
 
-### 142. [https://github.com/supertone-](https://github.com/supertone-)
+### 155. [https://github.com/supertone-](https://github.com/supertone-)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://github.com/supertone-**
 
 ---
 
-### 143. [https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928](https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928)
+### 156. [https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928](https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928)
 `8.0` ★ ⚡51 Q0.6✓ ✓ Solid
 
 **https://gist.github.com/skipcloud/f1033afb4fa5681d69fa63458cc95928**
 
 ---
 
-### 144. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)
+### 157. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **colab.research.google.com**
 
 ---
 
-### 145. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)_Reinforcement_Learning_Sudoku_Game.ipynb)
+### 158. [colab.research.google.com](https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/Gemma4_(E2B)_Reinforcement_Learning_Sudoku_Game.ipynb)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **colab.research.google.com**
 
 ---
 
-### 146. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.git/plugin)
+### 159. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.git/plugin)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gitlab.com**
 
 ---
 
-### 147. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.gitThen)
+### 160. [gitlab.com](https://gitlab.com/NeoDrew/chromeflow.gitThen)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **gitlab.com**
 
 ---
 
-### 148. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/)
+### 161. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-historical-tick-and-bar-data-for-algo-trading-and-backtesting-in-2020-stocks-forex-and-crypto-currency.1229/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fxgears.com**
 
 ---
 
-### 149. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-tick-and-bar-price-data-for-backtesting-in-2020-and-beyond-stocks-forex-and-crypto-currency.1229/)
+### 162. [fxgears.com](https://fxgears.com/index.php?threads/how-to-acquire-free-tick-and-bar-price-data-for-backtesting-in-2020-and-beyond-stocks-forex-and-crypto-currency.1229/)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **fxgears.com**
 
 ---
 
-### 150. [git.teknik.io](https://git.teknik.io/SMLoadrDev/SMLoadr)
+### 163. [git.teknik.io](https://git.teknik.io/SMLoadrDev/SMLoadr)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **git.teknik.io**
 
 ---
 
-### 151. [raw.githubusercontent.com](https://raw.githubusercontent.com/asabya/picobrain/main/install)
+### 164. [raw.githubusercontent.com](https://raw.githubusercontent.com/asabya/picobrain/main/install)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **raw.githubusercontent.com**
 
 ---
 
-### 152. [medium.com](https://medium.com/@lukasniessen/how-my-library-hit-400-github-stars-and-50k-monthly-downloads-6ed47b293262)
+### 165. [medium.com](https://medium.com/@lukasniessen/how-my-library-hit-400-github-stars-and-50k-monthly-downloads-6ed47b293262)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **medium.com**
 
 ---
 
-### 153. [everydev.ai](https://www.everydev.ai/p/news-github-copilots-billing-overhaul-what-every-credit-actually-costs-you)
+### 166. [everydev.ai](https://www.everydev.ai/p/news-github-copilots-billing-overhaul-what-every-credit-actually-costs-you)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **everydev.ai**
 
 ---
 
-### 154. [williamdue.github.io](https://williamdue.github.io/blog/parallel-parentheses-matching)
+### 167. [williamdue.github.io](https://williamdue.github.io/blog/parallel-parentheses-matching)
 `8.0` ★ ⚡50 Q0.6✓ ✓ Solid
 
 **williamdue.github.io**
 
 ---
 
-### 155. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
+### 168. [Github Projects Community Cocoindex Turns Your](https://www.reddit.com/r/LovingOpenSourceAI/comments/1tcyp6g/github_projects_community_cocoindex_turns_your/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Github Projects Community Cocoindex Turns Your**
 
 ---
 
-### 156. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
+### 169. [Github Blaziumgamesyadms Yet Another Desktop](https://www.reddit.com/r/mcp/comments/1t2pulh/github_blaziumgamesyadms_yet_another_desktop/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Github Blaziumgamesyadms Yet Another Desktop**
 
 ---
 
-### 157. [My Github Star Just Crossed 6666](https://www.reddit.com/r/vibeprinting/comments/1tmdjzo/my_github_star_just_crossed_6666/)
+### 170. [My Github Star Just Crossed 6666](https://www.reddit.com/r/vibeprinting/comments/1tmdjzo/my_github_star_just_crossed_6666/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **My Github Star Just Crossed 6666**
 
 ---
 
-### 158. [Hugo Just Hit 88000 Github Stars](https://www.reddit.com/r/gohugo/comments/1tm18so/hugo_just_hit_88000_github_stars/)
+### 171. [Hugo Just Hit 88000 Github Stars](https://www.reddit.com/r/gohugo/comments/1tm18so/hugo_just_hit_88000_github_stars/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Hugo Just Hit 88000 Github Stars**
 
 ---
 
-### 159. [Turn Any Github Repository Into An Interactive](https://www.reddit.com/r/mcp/comments/1tpehrx/turn_any_github_repository_into_an_interactive/)
+### 172. [Turn Any Github Repository Into An Interactive](https://www.reddit.com/r/mcp/comments/1tpehrx/turn_any_github_repository_into_an_interactive/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Turn Any Github Repository Into An Interactive**
 
 ---
 
-### 160. [Four Llms Played A Bluffing Game Against Each](https://www.reddit.com/r/coolgithubprojects/comments/1tpg7a2/four_llms_played_a_bluffing_game_against_each/)
+### 173. [Four Llms Played A Bluffing Game Against Each](https://www.reddit.com/r/coolgithubprojects/comments/1tpg7a2/four_llms_played_a_bluffing_game_against_each/)
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Four Llms Played A Bluffing Game Against Each**
 
 ---
 
+### 174. [If Xiaomi Mimo Can Reach Opus46 Level Model Are](https://www.reddit.com/r/GithubCopilot/comments/1u4q19a/if_xiaomi_mimo_can_reach_opus46_level_model_are/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**If Xiaomi Mimo Can Reach Opus46 Level Model Are**
+
+---
+
 ## Bridges & Proxies
-> 125 tools · avg signal ⚡88
+> 126 tools · avg signal ⚡88
 
 ### 1. [dumpling-ai/mcp-server-dumplingai](https://github.com/dumpling-ai/mcp-server-dumplingai)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -3501,6 +3599,13 @@
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: endara-ai/endara-relay**
+
+---
+
+### 126. [volcengine/volcengine-llm-gateway](https://github.com/volcengine/volcengine-llm-gateway)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: volcengine/volcengine-llm-gateway**
 
 ---
 
@@ -8702,7 +8807,7 @@
 ---
 
 ## Orchestration
-> 51 tools · avg signal ⚡89
+> 52 tools · avg signal ⚡88
 
 ### 1. [flatfilers/mcp-server-flatfile](https://github.com/flatfilers/mcp-server-flatfile)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -9564,6 +9669,13 @@
 `9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
 
 **GitHub repository: josstei/maestro-orchestrate**
+
+---
+
+### 52. [DheerG/swarms](https://github.com/DheerG/swarms)
+`9.0` ★★ ⚡63 Q0.7✓ ✓ Solid
+
+**GitHub repository: DheerG/swarms**
 
 ---
 

@@ -1,16 +1,16 @@
 # 🧠 Agent Orchestration & Workflow
-> Borg Intelligence Atlas v8 · 2026-06-14 · 4,574 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 4,583 tools
 > Multi-agent swarms, workflows, planning, loops, verification
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **4,574** |
+| Total tools | **4,583** |
 | Standout 🏆⭐ | 572 |
 | Avg Signal | ⚡76 |
 | Innovation 10 | 216 ██░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 607 ███████░░░░░░░░░░░░░ |
 | Innovation 8 | 1419 █████████████████░░░ |
-| Innovation 7 | 1599 ████████████████████ |
+| Innovation 7 | 1608 ████████████████████ |
 | Innovation 6 | 594 ███████░░░░░░░░░░░░░ |
 | Innovation 5 | 137 █░░░░░░░░░░░░░░░░░░░ |
 | Innovation 4 | 2 ░░░░░░░░░░░░░░░░░░░░ |
@@ -45,14 +45,14 @@
 ## Contents
 
 - [Spec-Driven Development](#spec-driven-development) — 937 tools · ⚡75
-- [Memory & Context Systems](#memory--context-systems) — 553 tools · ⚡76
+- [Memory & Context Systems](#memory--context-systems) — 556 tools · ⚡76
 - [Orchestration](#orchestration) — 547 tools · ⚡76
 - [Governance & Safety](#governance--safety) — 475 tools · ⚡78
-- [Bridges & Proxies](#bridges--proxies) — 338 tools · ⚡76
+- [Bridges & Proxies](#bridges--proxies) — 339 tools · ⚡76
 - [Config & Profile Management](#config--profile-management) — 313 tools · ⚡80
 - [Monitoring & Analytics](#monitoring--analytics) — 310 tools · ⚡79
-- [Skill Systems](#skill-systems) — 305 tools · ⚡78
-- [Other Tools](#other-tools) — 229 tools · ⚡67
+- [Skill Systems](#skill-systems) — 306 tools · ⚡78
+- [Other Tools](#other-tools) — 233 tools · ⚡66
 - [Hooks & Lifecycle](#hooks--lifecycle) — 220 tools · ⚡76
 - [Context Engineering](#context-engineering) — 146 tools · ⚡76
 - [Harness Frameworks](#harness-frameworks) — 123 tools · ⚡79
@@ -14849,7 +14849,7 @@ The core functionality revolves around providing structured access to on-chain d
 ---
 
 ## Memory & Context Systems
-> 553 tools · avg signal ⚡76
+> 556 tools · avg signal ⚡76
 
 ### 1. [redplanethq/core](https://github.com/redplanethq/core)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -23730,6 +23730,27 @@ This project defines an explicit cognitive framework, focusing on questions like
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Memory For Agents Aint Here Yet**
+
+---
+
+### 554. [Everyone Says Their Agent Has Memory What Do You](https://www.reddit.com/r/AIMemory/comments/1u58iaj/everyone_says_their_agent_has_memory_what_do_you/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Everyone Says Their Agent Has Memory What Do You**
+
+---
+
+### 555. [Braindb V070 New Longterm Memory For Hermes Agent](https://www.reddit.com/r/hermesagent/comments/1u5hia2/braindb_v070_new_longterm_memory_for_hermes_agent/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Braindb V070 New Longterm Memory For Hermes Agent**
+
+---
+
+### 556. [Long Term Memory For Pi](https://www.reddit.com/r/PiCodingAgent/comments/1u512b4/long_term_memory_for_pi/)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**Long Term Memory For Pi**
 
 ---
 
@@ -40124,7 +40145,7 @@ the host. - JGit](https://git.jeena.net/jeena/opencode-container)
 ---
 
 ## Bridges & Proxies
-> 338 tools · avg signal ⚡76
+> 339 tools · avg signal ⚡76
 
 ### 1. [sendaifun/solana-agent-kit](https://github.com/sendaifun/solana-agent-kit)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -45381,6 +45402,13 @@ The tool requires configuration via a `mcp.json` file to define API domain setti
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Workshop Hermes Tool Router Reduce Ai Agent Token**
+
+---
+
+### 339. [Openrouter Fusion Api](https://www.reddit.com/r/hermesagent/comments/1u50j18/openrouter_fusion_api/)
+`7.0` ★ ⚡43 Q0.5○ ○ Adequate
+
+**Openrouter Fusion Api**
 
 ---
 
@@ -55564,7 +55592,7 @@ Key features include defining the state of the RRR system
 ---
 
 ## Skill Systems
-> 305 tools · avg signal ⚡78
+> 306 tools · avg signal ⚡78
 
 ### 1. [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -60523,8 +60551,15 @@ Key features include defining the state of the RRR system
 
 ---
 
+### 306. [Hermes Agent Crosses 188K Github Stars As Skills](https://www.reddit.com/r/hermesagent/comments/1u5661c/hermes_agent_crosses_188k_github_stars_as_skills/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Hermes Agent Crosses 188K Github Stars As Skills**
+
+---
+
 ## Other Tools
-> 229 tools · avg signal ⚡67
+> 233 tools · avg signal ⚡66
 
 ### 1. [milkdrop2077/MilkDrop3](https://github.com/milkdrop2077/MilkDrop3)
 `9.1` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -63590,7 +63625,35 @@ Bulk Bookmarking: Add multiple bookmarks in one go.
 
 ---
 
-### 229. [Jcodemunch Mcp](https://www.reddit.com/r/hermesagent/comments/1tpj6f2/jcodemunch_mcp/)
+### 229. [Im A Nightshift Nurse I Spent 6 Months Building](https://www.reddit.com/r/aiagents/comments/1u51xgn/im_a_nightshift_nurse_i_spent_6_months_building/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Im A Nightshift Nurse I Spent 6 Months Building**
+
+---
+
+### 230. [Models Models Anthropic Billing Change Tomorrow](https://www.reddit.com/r/hermesagent/comments/1u5tqu4/models_models_anthropic_billing_change_tomorrow/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Models Models Anthropic Billing Change Tomorrow**
+
+---
+
+### 231. [Whats The Best Way To Build Voice Agents Today](https://www.reddit.com/r/AIVoice_Agents/comments/1u3t64p/whats_the_best_way_to_build_voice_agents_today/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Whats The Best Way To Build Voice Agents Today**
+
+---
+
+### 232. [I Got Tired Of My Ai Agents Getting Blocked By](https://www.reddit.com/r/hermesagent/comments/1u6u2hc/i_got_tired_of_my_ai_agents_getting_blocked_by/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Got Tired Of My Ai Agents Getting Blocked By**
+
+---
+
+### 233. [Jcodemunch Mcp](https://www.reddit.com/r/hermesagent/comments/1tpj6f2/jcodemunch_mcp/)
 `7.0` ★ ⚡43 Q0.5○ ○ Adequate
 
 **Jcodemunch Mcp**

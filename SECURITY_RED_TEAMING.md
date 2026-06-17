@@ -1,5 +1,5 @@
 # 🛡 Security & Red Teaming
-> Borg Intelligence Atlas v8 · 2026-06-14 · 126 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 126 tools
 > AI guardrails, LLM red teaming, vulnerability scanning, pentesting
 
 | Metric | Value |

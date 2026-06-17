@@ -1,16 +1,16 @@
 # 🛠 Coding Harness Tools
-> Borg Intelligence Atlas v8 · 2026-06-14 · 246 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 250 tools
 > Agent harnesses, skills, governance, spec-driven dev, bridges
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **246** |
+| Total tools | **250** |
 | Standout 🏆⭐ | 39 |
 | Avg Signal | ⚡76 |
 | Innovation 10 | 33 ███████████░░░░░░░░░ |
 | Innovation 9 | 50 █████████████████░░░ |
 | Innovation 8 | 57 ████████████████████ |
-| Innovation 7 | 52 ██████████████████░░ |
+| Innovation 7 | 56 ███████████████████░ |
 | Innovation 6 | 35 ████████████░░░░░░░░ |
 | Innovation 5 | 18 ██████░░░░░░░░░░░░░░ |
 | Innovation 4 | 1 ░░░░░░░░░░░░░░░░░░░░ |
@@ -45,13 +45,13 @@
 ## Contents
 
 - [Spec-Driven Development](#spec-driven-development) — 39 tools · ⚡75
-- [Skill Systems](#skill-systems) — 27 tools · ⚡77
+- [Skill Systems](#skill-systems) — 29 tools · ⚡75
 - [Memory & Context Systems](#memory--context-systems) — 26 tools · ⚡83
 - [Orchestration](#orchestration) — 22 tools · ⚡74
 - [Governance & Safety](#governance--safety) — 20 tools · ⚡82
-- [Harness Frameworks](#harness-frameworks) — 19 tools · ⚡76
+- [Harness Frameworks](#harness-frameworks) — 20 tools · ⚡74
+- [Other Tools](#other-tools) — 18 tools · ⚡63
 - [Bridges & Proxies](#bridges--proxies) — 17 tools · ⚡83
-- [Other Tools](#other-tools) — 17 tools · ⚡64
 - [Hooks & Lifecycle](#hooks--lifecycle) — 16 tools · ⚡78
 - [Monitoring & Analytics](#monitoring--analytics) — 13 tools · ⚡78
 - [Context Engineering](#context-engineering) — 11 tools · ⚡74
@@ -679,7 +679,7 @@
 ---
 
 ## Skill Systems
-> 27 tools · avg signal ⚡77
+> 29 tools · avg signal ⚡75
 
 ### 1. [code-yeongyu/oh-my-opencode](https://github.com/code-yeongyu/oh-my-opencode)
 `10.0` ★★★ ⚡98 Q0.9🏆 🏆 World-class
@@ -1101,6 +1101,20 @@
 `7.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **Anthropic Just Released 31 Ai Skills For Small**
+
+---
+
+### 28. [Superpowers Skill For Reasonix Optimized For V4](https://www.reddit.com/r/DeepSeek/comments/1u56iy6/superpowers_skill_for_reasonix_optimized_for_v4/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Superpowers Skill For Reasonix Optimized For V4**
+
+---
+
+### 29. [I Built A Claude Skill To Automate Crawling](https://www.reddit.com/r/AutomateShopify/comments/1u3iso1/i_built_a_claude_skill_to_automate_crawling/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**I Built A Claude Skill To Automate Crawling**
 
 ---
 
@@ -2248,7 +2262,7 @@
 ---
 
 ## Harness Frameworks
-> 19 tools · avg signal ⚡76
+> 20 tools · avg signal ⚡74
 
 ### 1. [Biajin-PKU/research-harness](https://github.com/Biajin-PKU/research-harness)
 `9.8` ★★ ⚡94 Q0.9🏆 🏆 World-class
@@ -2532,6 +2546,228 @@
 
 ---
 
+### 20. [Zcode 300 Is Out Now With Fully In House Harness](https://www.reddit.com/r/ZaiGLM/comments/1u4z71w/zcode_300_is_out_now_with_fully_in_house_harness/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Zcode 300 Is Out Now With Fully In House Harness**
+
+---
+
+## Other Tools
+> 18 tools · avg signal ⚡63
+
+### 1. [s2-streamstore/s2-sdk-typescript](https://github.com/s2-streamstore/s2-sdk-typescript)
+`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
+↗2 layers
+
+**The repository is a TypeScript SDK that allows developers to interact with the S2 serverless data store, which offers durable streams. It focuses on providing a type-safe interface for managing and interacting with these real-time, durable streams using modern TypeScript features.
+
+The core functionality revolves around defining, creating, and appending records into a stream within the S2 platform.**
+
+**Features:**
+- TypeScript SDK
+- S2 Streaming
+- Durable Streams
+- Real-Time Updates
+- Streamstore Integration
+
+*Tags: typescript, s2, streaming, real-time, durable, streamstore, write-ahead-log, s2-sdk...*
+
+---
+
+### 2. [z80dev/cryo-mcp](https://github.com/z80dev/cryo-mcp)
+`9.6` ★★ ⚡78 Q0.6⭐ ⭐ Excellent
+↗2 layers
+
+**The project focuses on creating an API server that implements the MCP protocol to easily query blockchain data from any MCP-compatible client, offering powerful tools for querying and processing Ethereum blockchain data.**
+
+**Features:**
+- MCP Integration
+- Blockchain Data Extraction
+- Flexible Query Options
+- Block Range Options
+
+---
+
+### 3. [rubber-duck-debug/gpu-lite](https://github.com/rubber-duck-debug/gpu-lite)
+`6.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
+
+**gpu-lite is a C++ library designed to simplify the process of compiling and deploying CUDA-dependent applications. It eliminates the need for an installed CUDA SDK during build time, offering dynamic symbol resolution and intelligent kernel caching to reduce compilation overhead. This tool provides runtime flexibility by enabling cross-platform deployment without requiring the full CUDA SDK.**
+
+**Features:**
+- Dynamic Symbol Resolution
+- Runtime Compilation
+- Kernel Caching
+- No Build-Time CUDA Dependencies
+- Cross-Platform Support
+
+*Tags: cuda, c++, compiler, gpu, software, tooling, c++17*
+
+---
+
+### 4. [hyperscript 0.9.90 has been released!](https://hyperscript.org/posts/2026-03-29-hyperscript-0.9.90-is-released/)
+`8.0` ★ ⚡76 Q0.8⭐ ⭐ Excellent
+
+**This resource details the release of Hyperscript 0.9.90, highlighting a significant internal restructuring, a new experimental reactivity system, and an improved templating system. The core innovation lies in the 'live' reactivity system that tracks dependencies between values, and a 'bind' mechanism for two-way binding on form elements.**
+
+**Features:**
+- Reactivity system
+- live effects
+- two-way binding
+- templating system
+- error handling
+
+*Tags: hyperscript, reactivity, templating, webdev, frontend, tooling*
+
+---
+
+### 5. [What were the expectations? It seems like there’s a lot more value to be squeeze... | Hacker News](https://news.ycombinator.com/item?id=42487072)
+`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
+↗3 layers
+
+**Hacker News community feedback on Claude Code, highlighting the speed of terminal-first workflows and the productivity of solo devs using "thinking" tokens.**
+
+**Features:**
+- Terminal-first agentic "flow
+- " effective Sonnet 3.5 "Thinking" tokens
+- solo dev productivity multiplier
+- TDD-focused implementation loops.
+
+*Tags: claude-code, cli, productivity, workflow, terminal, news*
+
+---
+
+### 6. [tanrax/org-social](https://github.com/tanrax/org-social)
+`6.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**Org Social is a decentralized social network where the core experience is centered around an Org Mode file. It provides a simple, accessible way for users to create posts, interact with the community, and record their presence within the network structure. The platform emphasizes simplicity, accessibility, and native Org Mode features to enhance the social experience.**
+
+**Features:**
+- Org Mode integration
+- decentralized social network
+- human-readable feed
+- user information ownership
+
+*Tags: emacs, org-mode, decentralization, social-network, web, text-editor, hugo*
+
+---
+
+### 7. [graemeg/blaise](https://github.com/graemeg/blaise/discussions/61)
+`7.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**Blaise v0.9.0 is a major release featuring a fully C-free runtime, ported to pure Pascal, and improved FFI interop with C libraries. This version includes ARC correctness work, reducing maintenance burden by porting the runtime to Pascal units.**
+
+**Features:**
+- C-free runtime (Pascal)
+- FFI interop fixes
+- ARC correctness work
+- self-hosting fixpoint achieved
+
+*Tags: pascal, ffi, c-free, runtime, memory, systems, astc*
+
+---
+
+### 8. [exelix11/mono-nx](https://github.com/exelix11/mono-nx)
+`5.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
+
+**This repository provides an unofficial port of the Mono runtime to the Switch homebrew toolchain, allowing users to run .NET 9.0 applications via the Mono interpreter by loading DLLs/EXE files directly on the console. It demonstrates a proof-of-concept for porting Mono to a unique platform, showcasing successful integration of BCL classes and necessary .NET wrappers.**
+
+**Features:**
+- Mono runtime port
+- .NET application execution
+- static library building (AOT)
+- C# file explorer demo
+- SDL2/ImGui integration
+
+*Tags: mono, dotnet, csharp, mono-nx, homebrew, toolchain, cross-platform*
+
+---
+
+### 9. [Hacker News Discussion](https://news.ycombinator.com/news)
+`7.0` ★ ⚡68 Q0.7✓ ✓ Solid
+
+**The content features a diverse set of articles covering topics ranging from provably secure operating systems and novel language interpreters to hardware-level coding solutions. It highlights advancements in compiler design, low-level programming, and the application of modern computing concepts to practical problems.**
+
+**Features:**
+- Language Interpreter (kharp)
+- Provably Secure OS (PSOS)
+- Custom IR (Jank)
+- CUDA Books
+
+*Tags: language-interpreter, operating-system, coding-tools, compiler-design, software-engineering, low-level-programming, haskell, csharp*
+
+---
+
+### 10. [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp)
+`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
+
+**This repository provides a Python module designed to act as a Micro Control Protocol (MCP) server, enabling seamless interaction with the Aseprite application's API. It demonstrates how to use this module to perform actions within Aseprite, such as drawing a cloud, and includes Docker setup instructions for easy deployment.**
+
+**Features:**
+- Aseprite MCP Server integration
+- Python module for Aseprite API interaction
+- Docker usage for deployment
+
+*Tags: python, aseprite, mcp, docker, tooling, api, harness*
+
+---
+
+### 11. [claw.kilosessions.ai](https://claw.kilosessions.ai/skills)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**claw.kilosessions.ai**
+
+---
+
+### 12. [etsy.com](https://www.etsy.com/market/chain_metal_harness)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**etsy.com**
+
+---
+
+### 13. [npmjs.com](https://www.npmjs.com/package/@warp-dot-dev/opencode-warp)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 14. [npmjs.com](https://www.npmjs.com/package/opencode-auto-resume)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**npmjs.com**
+
+---
+
+### 15. [yoonholee.com](https://yoonholee.com/meta-harness/](https://yoonholee.com/meta-harness/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**yoonholee.com**
+
+---
+
+### 16. [Best Ai Compliance Solutions For Validating Ai](https://www.reddit.com/r/AI_Governance/comments/1tielb9/best_ai_compliance_solutions_for_validating_ai/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Best Ai Compliance Solutions For Validating Ai**
+
+---
+
+### 17. [Claude Code Has Been Writing Every Session To](https://www.reddit.com/r/BuildWithClaude/comments/1tluzah/claude_code_has_been_writing_every_session_to/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Claude Code Has Been Writing Every Session To**
+
+---
+
+### 18. [Judgeos V58 Regulatory Mapping Without Claiming](https://www.reddit.com/r/AI_Governance/comments/1u4sjm9/judgeos_v58_regulatory_mapping_without_claiming/)
+`7.0` ★ ⚡44 Q0.5○ ○ Adequate
+
+**Judgeos V58 Regulatory Mapping Without Claiming**
+
+---
+
 ## Bridges & Proxies
 > 17 tools · avg signal ⚡83
 
@@ -2811,214 +3047,6 @@ This resource focuses on the integration layer between the BIM world (Revit) and
 - AI Integration with Photoshop
 
 *Tags: photoshop, ai, image-processing, developer-tools, extension, workflow-automation, agent*
-
----
-
-## Other Tools
-> 17 tools · avg signal ⚡64
-
-### 1. [s2-streamstore/s2-sdk-typescript](https://github.com/s2-streamstore/s2-sdk-typescript)
-`8.6` ★ ⚡88 Q0.8🏆 🏆 World-class
-↗2 layers
-
-**The repository is a TypeScript SDK that allows developers to interact with the S2 serverless data store, which offers durable streams. It focuses on providing a type-safe interface for managing and interacting with these real-time, durable streams using modern TypeScript features.
-
-The core functionality revolves around defining, creating, and appending records into a stream within the S2 platform.**
-
-**Features:**
-- TypeScript SDK
-- S2 Streaming
-- Durable Streams
-- Real-Time Updates
-- Streamstore Integration
-
-*Tags: typescript, s2, streaming, real-time, durable, streamstore, write-ahead-log, s2-sdk...*
-
----
-
-### 2. [z80dev/cryo-mcp](https://github.com/z80dev/cryo-mcp)
-`9.6` ★★ ⚡78 Q0.6⭐ ⭐ Excellent
-↗2 layers
-
-**The project focuses on creating an API server that implements the MCP protocol to easily query blockchain data from any MCP-compatible client, offering powerful tools for querying and processing Ethereum blockchain data.**
-
-**Features:**
-- MCP Integration
-- Blockchain Data Extraction
-- Flexible Query Options
-- Block Range Options
-
----
-
-### 3. [rubber-duck-debug/gpu-lite](https://github.com/rubber-duck-debug/gpu-lite)
-`6.0` ★ ⚡77 Q0.8⭐ ⭐ Excellent
-
-**gpu-lite is a C++ library designed to simplify the process of compiling and deploying CUDA-dependent applications. It eliminates the need for an installed CUDA SDK during build time, offering dynamic symbol resolution and intelligent kernel caching to reduce compilation overhead. This tool provides runtime flexibility by enabling cross-platform deployment without requiring the full CUDA SDK.**
-
-**Features:**
-- Dynamic Symbol Resolution
-- Runtime Compilation
-- Kernel Caching
-- No Build-Time CUDA Dependencies
-- Cross-Platform Support
-
-*Tags: cuda, c++, compiler, gpu, software, tooling, c++17*
-
----
-
-### 4. [hyperscript 0.9.90 has been released!](https://hyperscript.org/posts/2026-03-29-hyperscript-0.9.90-is-released/)
-`8.0` ★ ⚡76 Q0.8⭐ ⭐ Excellent
-
-**This resource details the release of Hyperscript 0.9.90, highlighting a significant internal restructuring, a new experimental reactivity system, and an improved templating system. The core innovation lies in the 'live' reactivity system that tracks dependencies between values, and a 'bind' mechanism for two-way binding on form elements.**
-
-**Features:**
-- Reactivity system
-- live effects
-- two-way binding
-- templating system
-- error handling
-
-*Tags: hyperscript, reactivity, templating, webdev, frontend, tooling*
-
----
-
-### 5. [What were the expectations? It seems like there’s a lot more value to be squeeze... | Hacker News](https://news.ycombinator.com/item?id=42487072)
-`10.0` ★★★ ⚡76 Q0.7⭐ ⭐ Excellent
-↗3 layers
-
-**Hacker News community feedback on Claude Code, highlighting the speed of terminal-first workflows and the productivity of solo devs using "thinking" tokens.**
-
-**Features:**
-- Terminal-first agentic "flow
-- " effective Sonnet 3.5 "Thinking" tokens
-- solo dev productivity multiplier
-- TDD-focused implementation loops.
-
-*Tags: claude-code, cli, productivity, workflow, terminal, news*
-
----
-
-### 6. [tanrax/org-social](https://github.com/tanrax/org-social)
-`6.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
-
-**Org Social is a decentralized social network where the core experience is centered around an Org Mode file. It provides a simple, accessible way for users to create posts, interact with the community, and record their presence within the network structure. The platform emphasizes simplicity, accessibility, and native Org Mode features to enhance the social experience.**
-
-**Features:**
-- Org Mode integration
-- decentralized social network
-- human-readable feed
-- user information ownership
-
-*Tags: emacs, org-mode, decentralization, social-network, web, text-editor, hugo*
-
----
-
-### 7. [graemeg/blaise](https://github.com/graemeg/blaise/discussions/61)
-`7.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
-
-**Blaise v0.9.0 is a major release featuring a fully C-free runtime, ported to pure Pascal, and improved FFI interop with C libraries. This version includes ARC correctness work, reducing maintenance burden by porting the runtime to Pascal units.**
-
-**Features:**
-- C-free runtime (Pascal)
-- FFI interop fixes
-- ARC correctness work
-- self-hosting fixpoint achieved
-
-*Tags: pascal, ffi, c-free, runtime, memory, systems, astc*
-
----
-
-### 8. [exelix11/mono-nx](https://github.com/exelix11/mono-nx)
-`5.0` ★ ⚡73 Q0.8⭐ ⭐ Excellent
-
-**This repository provides an unofficial port of the Mono runtime to the Switch homebrew toolchain, allowing users to run .NET 9.0 applications via the Mono interpreter by loading DLLs/EXE files directly on the console. It demonstrates a proof-of-concept for porting Mono to a unique platform, showcasing successful integration of BCL classes and necessary .NET wrappers.**
-
-**Features:**
-- Mono runtime port
-- .NET application execution
-- static library building (AOT)
-- C# file explorer demo
-- SDL2/ImGui integration
-
-*Tags: mono, dotnet, csharp, mono-nx, homebrew, toolchain, cross-platform*
-
----
-
-### 9. [Hacker News Discussion](https://news.ycombinator.com/news)
-`7.0` ★ ⚡68 Q0.7✓ ✓ Solid
-
-**The content features a diverse set of articles covering topics ranging from provably secure operating systems and novel language interpreters to hardware-level coding solutions. It highlights advancements in compiler design, low-level programming, and the application of modern computing concepts to practical problems.**
-
-**Features:**
-- Language Interpreter (kharp)
-- Provably Secure OS (PSOS)
-- Custom IR (Jank)
-- CUDA Books
-
-*Tags: language-interpreter, operating-system, coding-tools, compiler-design, software-engineering, low-level-programming, haskell, csharp*
-
----
-
-### 10. [diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp)
-`5.0` ★ ⚡64 Q0.8✓ ✓ Solid
-
-**This repository provides a Python module designed to act as a Micro Control Protocol (MCP) server, enabling seamless interaction with the Aseprite application's API. It demonstrates how to use this module to perform actions within Aseprite, such as drawing a cloud, and includes Docker setup instructions for easy deployment.**
-
-**Features:**
-- Aseprite MCP Server integration
-- Python module for Aseprite API interaction
-- Docker usage for deployment
-
-*Tags: python, aseprite, mcp, docker, tooling, api, harness*
-
----
-
-### 11. [claw.kilosessions.ai](https://claw.kilosessions.ai/skills)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**claw.kilosessions.ai**
-
----
-
-### 12. [etsy.com](https://www.etsy.com/market/chain_metal_harness)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**etsy.com**
-
----
-
-### 13. [npmjs.com](https://www.npmjs.com/package/@warp-dot-dev/opencode-warp)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**npmjs.com**
-
----
-
-### 14. [npmjs.com](https://www.npmjs.com/package/opencode-auto-resume)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**npmjs.com**
-
----
-
-### 15. [yoonholee.com](https://yoonholee.com/meta-harness/](https://yoonholee.com/meta-harness/)
-`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
-
-**yoonholee.com**
-
----
-
-### 16. [Best Ai Compliance Solutions For Validating Ai](https://www.reddit.com/r/AI_Governance/comments/1tielb9/best_ai_compliance_solutions_for_validating_ai/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Best Ai Compliance Solutions For Validating Ai**
-
----
-
-### 17. [Claude Code Has Been Writing Every Session To](https://www.reddit.com/r/BuildWithClaude/comments/1tluzah/claude_code_has_been_writing_every_session_to/)
-`7.0` ★ ⚡44 Q0.5○ ○ Adequate
-
-**Claude Code Has Been Writing Every Session To**
 
 ---
 

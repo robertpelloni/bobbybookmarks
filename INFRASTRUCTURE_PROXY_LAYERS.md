@@ -1,5 +1,5 @@
 # 🦴 Infrastructure & Proxy Layers
-> Borg Intelligence Atlas v8 · 2026-06-14 · 372 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 372 tools
 > AI OSes, inference engines, sandboxes, security, deployment, LLM routers
 
 | Metric | Value |

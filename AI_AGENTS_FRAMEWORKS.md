@@ -1,15 +1,15 @@
 # 🤖 AI Agents & Frameworks
-> Borg Intelligence Atlas v8 · 2026-06-14 · 4,674 tools
+> Borg Intelligence Atlas v8 · 2026-06-16 · 4,675 tools
 > Coding agents, GUI agents, research agents, AI OS, security agents
 
 | Metric | Value |
 |--------|-------|
-| Total tools | **4,674** |
+| Total tools | **4,675** |
 | Standout 🏆⭐ | 298 |
 | Avg Signal | ⚡73 |
 | Innovation 10 | 55 ░░░░░░░░░░░░░░░░░░░░ |
 | Innovation 9 | 369 ███░░░░░░░░░░░░░░░░░ |
-| Innovation 8 | 993 █████████░░░░░░░░░░░ |
+| Innovation 8 | 994 █████████░░░░░░░░░░░ |
 | Innovation 7 | 2160 ████████████████████ |
 | Innovation 6 | 788 ███████░░░░░░░░░░░░░ |
 | Innovation 5 | 306 ██░░░░░░░░░░░░░░░░░░ |
@@ -50,7 +50,7 @@
 - [Orchestration](#orchestration) — 337 tools · ⚡74
 - [Context Engineering](#context-engineering) — 335 tools · ⚡73
 - [Monitoring & Analytics](#monitoring--analytics) — 326 tools · ⚡74
-- [Other Tools](#other-tools) — 319 tools · ⚡69
+- [Other Tools](#other-tools) — 320 tools · ⚡69
 - [Bridges & Proxies](#bridges--proxies) — 314 tools · ⚡77
 - [Governance & Safety](#governance--safety) — 230 tools · ⚡75
 - [Config & Profile Management](#config--profile-management) — 215 tools · ⚡76
@@ -47035,7 +47035,7 @@ This resource likely involves applying AI techniques to analyze qualitative data
 ---
 
 ## Other Tools
-> 319 tools · avg signal ⚡69
+> 320 tools · avg signal ⚡69
 
 ### 1. [sunriseapps/imagesorcery-mcp](https://github.com/sunriseapps/imagesorcery-mcp)
 `9.6` ★★ ⚡95 Q0.9🏆 🏆 World-class
@@ -51712,7 +51712,14 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 308. [AutoClaw - One-click OpenClaw Setup | IM Integration | AI Assistant Download](https://autoglm.z.ai)
+### 308. [nosana.com](https://nosana.com/)
+`8.0` ★ ⚡50 Q0.6✓ ✓ Solid
+
+**nosana.com**
+
+---
+
+### 309. [AutoClaw - One-click OpenClaw Setup | IM Integration | AI Assistant Download](https://autoglm.z.ai)
 `7.0` ★ ⚡49 Q0.4○ ○ Adequate
 
 **This tool provides an AI assistant that can be set up instantly to handle complex tasks within chat interfaces, leveraging real tools without needing to leave the conversation. It focuses on integrating agent capabilities directly into the communication layer for seamless task execution.**
@@ -51724,7 +51731,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 309. [Extensions SDK](https://www.ableton.com/en/live/extensions/)
+### 310. [Extensions SDK](https://www.ableton.com/en/live/extensions/)
 `7.0` ★ ⚡49 Q0.4○ ○ Adequate
 
 **Ableton Extensions offer users the SDK to build extensions that integrate directly into Live, allowing them to manipulate tracks, clips, MIDI, and other elements. These extensions can automate tasks, analyze song structure, create generative patterns, or connect to external services within the DAW.**
@@ -51736,7 +51743,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 310. [Simulacra.Ink — AI-Powered Interactive Fiction for 100+ Worlds](https://simulacra.ink)
+### 311. [Simulacra.Ink — AI-Powered Interactive Fiction for 100+ Worlds](https://simulacra.ink)
 `7.0` ★ ⚡48 Q0.4○ ○ Adequate
 
 **Simulacra.Ink is a platform designed to leverage AI capabilities to generate and interact with rich, interactive storytelling experiences. It focuses on the 'AI-Powered Interactive Fiction' space, offering users tools to build complex narratives or explore existing ones.**
@@ -51748,7 +51755,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 311. [Cycling '74](http://cycling74.com/)
+### 312. [Cycling '74](http://cycling74.com/)
 `6.0` ★ ⚡48 Q0.5○ ○ Adequate
 
 **Cycling74 offers a platform for music producers to take over Ableton's Move hardware with custom instruments. The platform provides new direct, transparent tools for audio, visual, and coding, alongside the Sound Mirror Project which lets artists recreate favorite sounds.**
@@ -51760,7 +51767,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 312. [Z.ai - Free AI Chatbot & Agent powered by GLM-5.1 & GLM-5](http://z.ai)
+### 313. [Z.ai - Free AI Chatbot & Agent powered by GLM-5.1 & GLM-5](http://z.ai)
 `6.0` ★ ⚡47 Q0.5○ ○ Adequate
 
 **Z.ai is a platform offering an integrated, free AI chatbot experience built upon the powerful GLM-5.1 Large Language Model. It positions itself as a comprehensive agent solution for developers and users needing intelligent conversational capabilities.**
@@ -51772,7 +51779,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 313. [Composer 2.5 | xAI](https://x.ai/news/composer-2-5)
+### 314. [Composer 2.5 | xAI](https://x.ai/news/composer-2-5)
 `6.0` ★ ⚡47 Q0.5○ ○ Adequate
 
 **This resource highlights the availability of Composer 2.5, an advanced model from xAI, which excels at handling long-running tasks and following intricate instructions. It demonstrates the integration of this powerful model within the Grok Build environment.**
@@ -51784,7 +51791,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 314. [Demo ao Vivo — platenexus](https://www.platenexus.com/demo/?lang=pt)
+### 315. [Demo ao Vivo — platenexus](https://www.platenexus.com/demo/?lang=pt)
 `6.0` ★ ⚡47 Q0.5○ ○ Adequate
 
 **This tool demonstrates a real-time plate recognition capability, where users upload a photo of a vehicle (like a license plate) to see the resulting reading. The key feature is that the image processing happens locally within the platform's infrastructure, ensuring strong data privacy by discarding the input images immediately after processing.**
@@ -51796,7 +51803,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 315. [Is the Monaco Grand Prix decided at qualifying?](https://entropicthoughts.com/is-monaco-decided-at-qualifying)
+### 316. [Is the Monaco Grand Prix decided at qualifying?](https://entropicthoughts.com/is-monaco-decided-at-qualifying)
 `5.0` ★ ⚡47 Q0.6○ ○ Adequate
 
 **This resource analyzes a claim made by a Formula One driver about the statistical likelihood that a car starting in the first row will win the Monaco Grand Prix. It checks the validity of this prediction using historical data and clarifies the underlying statistical meaning, suggesting the initial statement might be an approximation rather than a precise truth.**
@@ -51808,7 +51815,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 316. [What is AGI? - Machine Intelligence Research Institute](http://intelligence.org/2013/08/11/what-is-agi/)
+### 317. [What is AGI? - Machine Intelligence Research Institute](http://intelligence.org/2013/08/11/what-is-agi/)
 `5.0` ★ ⚡45 Q0.5○ ○ Adequate
 
 **This resource explores the concept of AGI, defining it as the capacity for efficient cross-domain optimization or the ability to transfer learning between domains. It illustrates this by contrasting narrow AI performance with a hypothetical system that combines various AI techniques to achieve general intelligence.**
@@ -51820,7 +51827,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 317. [Biohacking Forums](https://biohacking.forum/invites/1wQPgxwHkw)
+### 318. [Biohacking Forums](https://biohacking.forum/invites/1wQPgxwHkw)
 `5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **This resource is a community platform where users discuss topics related to biohacking, often involving the application of AI-driven insights for health optimization. It serves as a hub for sharing knowledge, asking questions, and getting expert opinions on wellness and biohacking strategies.**
@@ -51832,7 +51839,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 318. [THE MONEY WHISPERER  - YouTube](https://youtube.com/@therealmoneywhisperer?si)
+### 319. [THE MONEY WHISPERER  - YouTube](https://youtube.com/@therealmoneywhisperer?si)
 `5.0` ★ ⚡44 Q0.5○ ○ Adequate
 
 **This resource is a YouTube channel dedicated to the 'Money Whisperer,' offering insights, tutorials, or educational content related to finance, wealth, or monetary concepts. It serves as an example of how an individual leverages AI/content creation for financial education and audience engagement.**
@@ -51844,7 +51851,7 @@ The simulation tracks agent lifespans, actions, and the interplay between rescue
 
 ---
 
-### 319. [ijustvibecodedthis Newsletter | #1 AI Coding Newsletter](http://ijustvibecodedthis.com)
+### 320. [ijustvibecodedthis Newsletter | #1 AI Coding Newsletter](http://ijustvibecodedthis.com)
 `6.0` ★ ⚡43 Q0.4○ ○ Adequate
 
 **This resource functions as an AI coding newsletter, providing distilled tips, tricks, and news to developers. It serves as a curated source for quick insights into modern coding practices and AI integration in development.**
