@@ -35,3 +35,4 @@ split_db.py
 logs/
 reddit_hn_urls.txt
 incoming_resources_backup.txt
+backend/api
