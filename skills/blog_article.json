@@ -1,0 +1,12 @@
+{
+    "name": "Technical Blog Analysis",
+    "triggers": ["medium.com", "substack.com", "/blog/", "dev.to", "hashnode"],
+    "prompt_modifiers": [
+        "Focus on: key takeaways, practical code examples, architecture decisions",
+        "Extract: techniques described, tools mentioned, lessons learned",
+        "Prioritize: actionable insights a developer can apply today"
+    ],
+    "expected_quality": 0.70,
+    "min_innovation": 4,
+    "version": 1
+}

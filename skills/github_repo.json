@@ -1,0 +1,12 @@
+{
+    "name": "GitHub Repository Analysis",
+    "triggers": ["github.com"],
+    "prompt_modifiers": [
+        "Focus on: stars, language, last commit date, README quality",
+        "Extract: primary use case, key dependencies, API surface",
+        "Prioritize: how this differs from alternatives in the same space"
+    ],
+    "expected_quality": 0.85,
+    "min_innovation": 5,
+    "version": 1
+}
