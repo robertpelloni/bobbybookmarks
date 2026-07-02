@@ -1,0 +1,12 @@
+{
+    "name": "Product/Tool Landing Page",
+    "triggers": [],
+    "prompt_modifiers": [
+        "Focus on: core value proposition, pricing model, integrations",
+        "Extract: key features, target audience, competitive advantages",
+        "Prioritize: what specific problem this solves and how"
+    ],
+    "expected_quality": 0.60,
+    "min_innovation": 3,
+    "version": 1
+}

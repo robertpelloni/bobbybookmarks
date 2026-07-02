@@ -1,0 +1,12 @@
+{
+    "name": "Research Paper Analysis",
+    "triggers": ["arxiv.org", "paperswithcode.com", "/paper/", "huggingface.co/papers"],
+    "prompt_modifiers": [
+        "Focus on: novel technique, benchmark results, key insight",
+        "Extract: methodology, evaluation metrics, limitations",
+        "Prioritize: what breakthrough or improvement this represents"
+    ],
+    "expected_quality": 0.80,
+    "min_innovation": 7,
+    "version": 1
+}

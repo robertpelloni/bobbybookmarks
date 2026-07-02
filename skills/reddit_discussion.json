@@ -1,0 +1,12 @@
+{
+    "name": "Reddit/Forum Discussion Analysis",
+    "triggers": ["reddit.com", "news.ycombinator.com", "discourse"],
+    "prompt_modifiers": [
+        "Focus on: consensus opinions, novel approaches mentioned, real-world experiences",
+        "Extract: tools recommended, patterns discussed, warnings given",
+        "Prioritize: community-validated insights over individual claims"
+    ],
+    "expected_quality": 0.55,
+    "min_innovation": 3,
+    "version": 1
+}

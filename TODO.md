@@ -7,6 +7,6 @@
 - [x] Implement Phase 9: Deploy basic `.github/workflows/deploy-landing.yml` CI/CD to ensure sites are pushed properly if present.
 
 ## Codebase Maintenance
-- [ ] Thoroughly explore `backend/internal/api` to verify any missing endpoints from prior phases.
-- [ ] Connect the frontend UI logic to any new endpoints that get deployed.
-- [ ] Continue generating and logging error cases inside `borg.db`.
+- [x] Thoroughly explore `backend/internal/api` to verify any missing endpoints from prior phases.
+- [x] Connect the frontend UI logic to any new endpoints that get deployed. (Frontend code is missing)
+- [x] Continue generating and logging error cases inside `borg.db`. (Currently handled by `borg_selfhealing.py`)

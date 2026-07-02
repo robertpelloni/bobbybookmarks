@@ -1,0 +1,12 @@
+{
+    "name": "Documentation/API Site Analysis",
+    "triggers": ["docs.", "/docs/", "/api/", "readme", "/guide/"],
+    "prompt_modifiers": [
+        "Focus on: API endpoints, authentication model, rate limits",
+        "Extract: key abstractions, data models, extension points",
+        "Prioritize: what makes this API/service unique"
+    ],
+    "expected_quality": 0.75,
+    "min_innovation": 4,
+    "version": 1
+}
