@@ -5,3 +5,16 @@ https://hindsight.vectorize.io/
 https://arxiv.org/abs/2512.12818
 https://old.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/
 https://arxiv.org/abs/2605.06997
+https://www.reddit.com/r/MCPservers/comments/1uircda/i_turned_karpathys_llm_council_into_a_local_mcp/
+https://old.reddit.com/r/AI_Agents/comments/1uxwp0i/after_a_year_building_agent_memory_im_convinced/
+https://old.reddit.com/r/deeplearning/comments/1uwzsiy/research_blockwise_causal_memory_transformer_bcmt/
+https://www.preprints.org/manuscript/202607.0333
+https://old.reddit.com/r/Rag/comments/1uyfx9u/with_1m_token_context_windows_becoming_standard/
+https://old.reddit.com/r/Oobabooga/comments/1t3teky/project_zora_experimental_local_ai_companion/
+https://old.reddit.com/r/MachineLearning/comments/1uy6yht/are_current_ai_memory_architectures_optimizing/
+https://old.reddit.com/r/AI_Agents/comments/1uxwp0i/after_a_year_building_agent_memory_im_convinced/
+https://github.com/muvon/octobrain
+https://old.reddit.com/r/Rag/comments/1n6mu58/weekly_rag_launch_showcase/
+https://github.com/helixdb/helix-db
+https://github.com/GiovanniPasq/agentic-rag-for-dummies
+https://old.reddit.com/r/AI_Agents/comments/1uylsex/agent_mesh_shared_memory_system_for_multiagent/
