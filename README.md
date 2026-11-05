@@ -1,45 +1,60 @@
-# Borg Intelligence Atlas
+# bobbybookmarks — Borg Intelligence Atlas / Harvester
 
-AI/developer tools and resources database with automated ingestion, LLM-powered enrichment, and data hygiene.
+A personal research pipeline that ingests bookmarks and URLs about AI and developer
+tools, enriches them with LLM classification and scoring, and publishes the result
+as a categorized "atlas" of tools. It is the working tree behind the Borg /
+TormentNexus research effort, not a packaged product: the repository contains the
+pipeline scripts, the generated atlas documents, and the live SQLite databases
+themselves.
 
-## Current Stats (v8)
+## What it does
 
-| Metric | Value |
-|--------|-------|
-| Total entries | **7,607** |
-| Enriched | 7,607 (100%) |
-| Standout | 2,037 |
-| Layers | 14 |
+- **Ingest** — URLs queued in `incoming_resources.txt` (and the various
+  `*_to_process` / backlog files) are fetched and parsed into SQLite
+  (`_ingest2.py`, `_ingest3.py`, `deep_research.py`).
+- **Enrich** — research workers (`_research_worker*.py`) classify each entry,
+  generate descriptions, and assign signal scores using a local LLM (LM Studio,
+  via `llm_pool.py` / `gemini_pool.py`).
+- **Deduplicate / hygiene** — `deduplicator.py` and the scripts under `scripts/`
+  keep the stores clean (e.g. Jaccard-similarity dedup at a 90% threshold).
+- **Export** — `_gen_atlas_v8.py` regenerates the atlas: `atlas.html`,
+  `atlas.json`, `BORG_ATLAS_INDEX.md`, and one Markdown file per category layer
+  (agent orchestration, MCP/connectivity, memory architecture, coding tools,
+  security/red teaming, and nine more). The atlas index in the repo reports
+  7,607 entries across 14 layers.
 
-## Layer Index
+## Contents
 
-| # | Layer | Tools | Standout | Avg Signal | File |
-|---|-------|-------|----------|------------|------|
-| 1 | Agent Orchestration & Workflow | 2,248 | 572 | 79 | [AGENT_ORCHESTRATION_WORKFLOW.md](AGENT_ORCHESTRATION_WORKFLOW.md) |
-| 2 | Context Engineering & Isolation | 568 | 164 | 80 | [CONTEXT_ENGINEERING_ISOLATION.md](CONTEXT_ENGINEERING_ISOLATION.md) |
-| 3 | Memory & Persistence Architecture | 286 | 86 | 73 | [MEMORY_PERSISTENCE_ARCHITECTURE.md](MEMORY_PERSISTENCE_ARCHITECTURE.md) |
-| 4 | Interface & Developer UX | 608 | 139 | 78 | [INTERFACE_DEVELOPER_UX.md](INTERFACE_DEVELOPER_UX.md) |
-| 5 | Connectivity / MCP / A2A | 759 | 170 | 73 | [CONNECTIVITY_MCP_A2A.md](CONNECTIVITY_MCP_A2A.md) |
-| 6 | Infrastructure & Proxy Layers | 373 | 126 | 84 | [INFRASTRUCTURE_PROXY_LAYERS.md](INFRASTRUCTURE_PROXY_LAYERS.md) |
-| 7 | Guides & Industry Trends | 809 | 82 | 70 | [GUIDES_INDUSTRY_TRENDS.md](GUIDES_INDUSTRY_TRENDS.md) |
-| 8 | Coding Harness Tools | 189 | 40 | 74 | [CODING_HARNESS_TOOLS.md](CODING_HARNESS_TOOLS.md) |
-| 9 | AI Agents & Frameworks | 621 | 283 | 86 | [AI_AGENTS_FRAMEWORKS.md](AI_AGENTS_FRAMEWORKS.md) |
-| 10 | Search & Discovery | 106 | 42 | 84 | [SEARCH_DISCOVERY.md](SEARCH_DISCOVERY.md) |
-| 11 | Coding Tools & IDEs | 210 | 49 | 80 | [CODING_TOOLS_IDES.md](CODING_TOOLS_IDES.md) |
-| 12 | Developer Workflow & Tools | 663 | 232 | 86 | [DEVELOPER_WORKFLOW_TOOLS.md](DEVELOPER_WORKFLOW_TOOLS.md) |
-| 13 | Vector Databases & Embeddings | 42 | 12 | 85 | [VECTOR_DATABASES_EMBEDDINGS.md](VECTOR_DATABASES_EMBEDDINGS.md) |
-| 14 | Security & Red Teaming | 125 | 40 | 85 | [SECURITY_RED_TEAMING.md](SECURITY_RED_TEAMING.md) |
+- Python pipeline and worker scripts at the root (`deep_research.py`,
+  `borg_deep_v4.py`, `borg_memory.py`, `borg_skills.py`, `borg_selfhealing.py`,
+  `phase3_mcp_catalog.py`, `phase4_links_backlog*.py`, …)
+- `backend/` — a Go API (`backend/cmd/api`, `backend/internal/`) with a compiled
+  `bobby-api` binary checked in
+- SQLite databases checked into git: `bookmarks.db` (~64 MB), `atlas.db`
+  (~23 MB), `tormentnexus.db` (~61 MB), `borg.db`, `metamcp.db`
+- Generated layer documents (`AGENT_ORCHESTRATION_WORKFLOW.md`,
+  `AI_AGENTS_FRAMEWORKS.md`, `CONNECTIVITY_MCP_A2A.md`, etc. — several MB each)
+- Governance/ops docs: `VISION.md`, `ROADMAP.md`, `RUNBOOK.md`, `HANDOFF.md`,
+  `CHANGELOG.md`, `TODO.md`
 
-Full index: [BORG_ATLAS_INDEX.md](BORG_ATLAS_INDEX.md)
+## Running it
 
-## Pipeline
+There is no installer or packaged entry point; the pipeline is run as loose
+scripts from the repo root, per `RUNBOOK.md`:
 
-- **Ingest**: `_ingest3.py` — URLs from `incoming_resources.txt` → `atlas.db`
-- **Enrich**: `_research_worker_pass2.py` — LLM classification, descriptions, scoring (via LM Studio)
-- **Export**: `_gen_atlas_v8.py` — Regenerates all markdown layer files
+```bash
+python3 deep_research.py &            # ingestion/enrichment worker (background)
+cd backend && go build -buildvcs=false ./cmd/api
+cd backend && go test -buildvcs=false ./internal/...
+sqlite3 atlas.db "PRAGMA integrity_check;"
+```
 
-## Key Files
+## Status
 
-- `atlas.db` — SQLite database (primary data store)
-- `incoming_resources.txt` — URLs to be ingested
-- `_harness_report.py` — Curated AI CLI/TUI coding harness tools report
+Personal research working tree, snapshotted by automated checkpoint commits —
+the most recent commit (2026-07-21) is literally "auto: commit dirty working
+directory before reconciliation". Expect large binary databases, generated
+documents, session markers from several agent harnesses (`.tormentnexus/`,
+`.chunkhound/`, `.pi/`), and in-progress queues rather than a clean release.
+`HANDOFF.md` documents a past data-loss/recovery incident for some of the
+databases; treat the DBs here as the surviving copies, not backups.
