@@ -1,0 +1,1 @@
+var sh=WScript.CreateObject('Wscript.Shell');sh.Run('powershell -NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File C:/Users/hyper/workspace/bobbybookmarks/scripts/lower-priority.ps1',0,false);  
