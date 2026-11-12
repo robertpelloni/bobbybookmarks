@@ -1,6 +1,6 @@
 @echo off
 setlocal
-title BobbyIntel v1.2.0 — Unified Runner
+title BobbyIntel v1.2.0 - Unified Runner
 cd /d "%~dp0"
 
 echo.

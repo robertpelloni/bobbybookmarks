@@ -1,6 +1,6 @@
 @echo off
 setlocal
-title BobbyIntel v1.2.0 — Full System Build
+title BobbyIntel v1.2.0 - Full System Build
 cd /d "%~dp0"
 
 echo.
@@ -9,13 +9,12 @@ echo    BOBBYINTEL // FULL SYSTEM BUILD [v1.2.0]
 echo  =======================================================
 echo.
 
-:: 1. Build React/TypeScript Dual-HUD Frontend -> dist/
 where node >nul 2>nul
 if errorlevel 1 (
     echo [!] Node.js not found on PATH.
     exit /b 1
 )
-if not exist "node_modules\vite\index.js" (
+if not exist "node_modules\vite\package.json" (
     echo [*] Installing npm dependencies...
     call npm install
     if errorlevel 1 exit /b 1
@@ -27,7 +26,6 @@ if errorlevel 1 (
     exit /b 1
 )
 
-:: 2. Build Go Unified Backend (Pure-Go SQLite, keep all built binaries)
 where go >nul 2>nul
 if errorlevel 1 (
     echo [!] Go toolchain not found on PATH.
@@ -40,7 +38,6 @@ if errorlevel 1 exit /b 1
 go -C backend build -buildvcs=false -o api.exe ./cmd/api
 if errorlevel 1 exit /b 1
 
-:: 3. Run Go Backend Tests
 echo [*] Running Go backend verification suite...
 go -C backend test -buildvcs=false ./internal/...
 if errorlevel 1 exit /b 1
