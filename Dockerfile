@@ -1,39 +1,30 @@
-# Stage 1: Build the React/TypeScript frontend
+# Stage 1: Build the React/TypeScript Dual-HUD Frontend
 FROM node:22-slim AS frontend-builder
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install
-COPY . .
+COPY index.html build-render.js tsconfig.json tsconfig.node.json vite.config.ts postcss.config.cjs tailwind.config.cjs ./
+COPY src/ ./src/
 RUN npm run build
 
-# Stage 2: Build the Go backend
-FROM golang:1.22-alpine AS backend-builder
+# Stage 2: Build the Go Unified Backend (Pure-Go modernc.org/sqlite, CGO_ENABLED=0)
+FROM golang:1.25-alpine AS backend-builder
 WORKDIR /app
-# Install build tools for CGO (required by go-sqlite3)
-RUN apk add --no-cache gcc musl-dev
 COPY backend/go.mod backend/go.sum ./backend/
 RUN cd backend && go mod download
 COPY backend/ ./backend/
-RUN cd backend && CGO_ENABLED=1 GOOS=linux go build -o /bobby-backend ./cmd/api/main.go
+RUN cd backend && CGO_ENABLED=0 GOOS=linux go build -buildvcs=false -o /bobby-backend ./cmd/api
 
 # Stage 3: Final runtime image
 FROM alpine:latest
 WORKDIR /app
+RUN apk add --no-cache ca-certificates
 
-# Install dependencies (including SQLite)
-RUN apk add --no-cache ca-certificates sqlite-libs libc6-compat
-
-# Copy frontend build artifacts
 COPY --from=frontend-builder /app/dist ./dist
-
-# Copy backend binary
 COPY --from=backend-builder /bobby-backend ./bobby-backend
-
-# Copy the database
 COPY bookmarks.db ./bookmarks.db
+COPY atlas.html ./atlas.html
 
-# Expose the port (Render default is 10000)
+ENV PORT=10000
 EXPOSE 10000
-
-# Run the unified service
 CMD ["./bobby-backend"]

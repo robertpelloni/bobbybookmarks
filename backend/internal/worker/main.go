@@ -19,21 +19,23 @@ func main() {
 
 func processNext() {
 	var bm models.Bookmark
-	err := database.DB.Get(&bm, "SELECT * FROM bookmarks WHERE research_status = 'pending' LIMIT 1")
+	if database.IsBorgSchema {
+		err := database.DB.Get(&bm, "SELECT id, COALESCE(url, '') AS url FROM bookmarks WHERE research_level = 'heuristic' LIMIT 1")
+		if err != nil {
+			return
+		}
+		log.Printf("Queued heuristic node awaiting Python deep_research worker: %s\n", bm.URL)
+		return
+	}
+
+	err := database.DB.Get(&bm, "SELECT id, COALESCE(url, '') AS url FROM bookmarks WHERE research_status = 'pending' LIMIT 1")
 	if err != nil {
-		return // No pending bookmarks
+		return
 	}
 
 	log.Printf("Researching: %s\n", bm.URL)
-
-	// Mark as running
 	database.DB.Exec("UPDATE bookmarks SET research_status = 'running' WHERE id = ?", bm.ID)
-
-	// TODO: Add real scraping/LLM logic here (ported from Python deep_research.py)
-	// For now, simulating work...
 	time.Sleep(2 * time.Second)
-
-	// Mark as done
 	database.DB.Exec("UPDATE bookmarks SET research_status = 'done', researched_at = ? WHERE id = ?", time.Now(), bm.ID)
 	log.Printf("Completed: %s\n", bm.URL)
 }

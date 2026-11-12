@@ -1,29 +1,42 @@
-# Deployment Instructions
+# Deployment & Build Instructions (`v1.2.0`)
 
-## Environment Setup
-The Borg Intelligence Harvester is intended to run primarily via background scripts and web interfaces.
-
-### Python Backend
-Dependencies are managed via `pip`:
-```bash
-pip install -r requirements.txt
-```
-To run the research worker:
-```bash
-python3 deep_research.py
+## Full System Build (Windows)
+Run `build.bat` from the repository root to compile both the React 19 / TypeScript Dual-HUD frontend (`dist/`) and the pure-Go unified backend (`backend/bobby-api.exe` & `backend/api.exe`), then run Go backend tests:
+```bat
+build.bat
 ```
 
-### Go Backend API
-To build and verify the Go API backend:
+## Starting the Unified Server
+Run `start.bat` from the repository root to launch `backend\bobby-api.exe` on `http://localhost:5000` (serves `/api/*`, the compiled Dual-HUD SPA from `dist/`, and `/atlas.html`):
+```bat
+start.bat
+```
+For hot-reloading frontend development (`http://localhost:3000` proxying `/api` to `:5000`):
+```bat
+start.bat --dev
+```
+
+## Manual Component Commands
+### Frontend (React 19 + Vite + Tailwind v4)
+```bash
+npm install
+npm run build   # executes node build-render.js -> dist/
+```
+
+### Go Unified Backend (`CGO_ENABLED=0`)
 ```bash
 cd backend
-go build -buildvcs=false ./cmd/api
-go test -buildvcs=false ./internal/...
+CGO_ENABLED=0 go build -buildvcs=false -o bobby-api.exe ./cmd/api
+CGO_ENABLED=0 go test -buildvcs=false ./internal/...
 ```
 
-### Static Website Landing Pages
-The frontend landing pages (`tormentnexus.site` and `hypernexus.site`) are deployed using Cloudflare Pages via GitHub Actions.
-Any commits to the `landing/` directory on the `main` branch will automatically trigger deployment.
+### Python Borg Ingestion & Exports
+```bash
+python deep_research.py                      # LLM enrichment worker
+python _gen_atlas_v8.py                      # Regenerate atlas.html, atlas.json, and layer .md docs
+python scripts/generate_public_registry.py   # Export exports/public_registry.html from bookmarks.db
+python scripts/rebuild_prompts.py            # Rebuild data/prompt_library.db
+```
 
-## Future Restorations
-Due to the loss of `catalog.db` and the corresponding skill extraction datasets, future deployments should re-index tools and recreate databases using available fallback scripts in the `scripts/` directory before starting main server operations.
+### Static Landing Pages
+Commits under `landing/**` on `main` trigger Cloudflare Pages deployment (`tormentnexus.site` and `hypernexus.site`) via `.github/workflows/deploy-landing.yml`.

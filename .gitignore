@@ -1,38 +1,32 @@
+# Python / virtual environments
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
-.env
 instance/
 venv/
 .venv/
 env/
 .eggs/
 *.egg-info/
-dist/
-build/
 .pytest_cache/
+.ruff_cache/
 .coverage
 htmlcov/
-*.log
-bookmarks_archive.db
-bookmarks.db.bak
-bookmarks_slim.db
-analyze_db.py
-analyze_more.py
-make_slim_db.py
-split_db.py
-.jules/
-*.db.pre-restore*
 
-# AI cache artifacts
-.pi-lens/
-.tormentnexus-session.json
-.tormentnexus_startup_marker
-.borg-session.json
-.borg_startup_marker
-.pi/
-logs/
-reddit_hn_urls.txt
-incoming_resources_backup.txt
-backend/api
+# Secrets
+.env
+
+# Transient SQLite lock/backup files (never ignore primary .db files!)
+*.db-shm
+*.db-wal
+*.db.pre-restore*
+tormentnexus.db.pre-restore
+
+# Raw stdout log streams (structured JSON/JSONL logs in logs/ remain tracked)
+*.log
+
+# Node dependencies & compiled local Go executables (binaries remain on disk, not purged)
+/node_modules/
+/backend/*.exe
+/backend/api
